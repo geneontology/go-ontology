@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2025-12-28 05:37:36.388869394 +0000
-+++ go.obo	2025-12-28 05:46:38.937256464 +0000
+--- go-lastrelease.obo	2025-12-29 05:38:14.507721400 +0000
++++ go.obo	2025-12-29 05:46:59.968736401 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2025-10-10
-+data-version: releases/2025-12-28
++data-version: releases/2025-12-29
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -33,7 +33,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2025-10-10" xsd:string
-+property_value: owl:versionInfo "2025-12-28" xsd:string
++property_value: owl:versionInfo "2025-12-29" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -73131,7 +73131,7 @@
  created_by: rynl
  creation_date: 2025-07-05T00:30:16Z
  
-@@ -479297,6 +496602,114 @@
+@@ -479297,6 +496602,128 @@
  creation_date: 2025-09-29T23:16:32Z
  
  [Term]
@@ -73243,10 +73243,24 @@
 +creation_date: 2025-12-24T00:18:06Z
 +
 +[Term]
++id: GO:0160319
++name: lipoyl-dependent peroxiredoxin activity
++namespace: molecular_function
++def: "Catalysis of the reaction: N(6)-[(R)-dihydrolipoyl]-L-lysyl-[lipoyl-carrier protein] + a hydroperoxide = N(6)-[(R)-lipoyl]-L-lysyl-[lipoyl-carrier protein] + an alcohol + H2O." [EC:1.11.1.28, RHEA:62636]
++xref: EC:1.11.1.28
++xref: RHEA:62636
++is_a: GO:0004601 ! peroxidase activity
++property_value: skos:exactMatch EC:1.11.1.28
++property_value: skos:exactMatch RHEA:62636
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31239" xsd:anyURI
++created_by: rynl
++creation_date: 2025-12-29T00:52:44Z
++
++[Term]
  id: GO:0170001
  name: ergothioneine transmembrane transporter activity
  namespace: molecular_function
-@@ -479364,8 +496777,6 @@
+@@ -479364,8 +496791,6 @@
  name: endoplasmic reticulum-lipid droplet tether activity
  namespace: molecular_function
  def: "The binding activity of a molecule that brings together a lipid droplet with an endoplasmic reticulum membrane, via membrane lipid binding, to establish membrane contact sites and mediate exchange and communication." [PMID:35389430]
@@ -73255,7 +73269,7 @@
  is_a: GO:0043495 ! protein-membrane adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25428" xsd:anyURI
  created_by: ew
-@@ -479422,6 +496833,7 @@
+@@ -479422,6 +496847,7 @@
  def: "Catalysis of the reaction: H2O + N6-(2E)-butenoyl-L-lysyl-[histone H3 position 18] + NAD+ = 2''-O-(2E)-but-2-enoyl-ADP-D-ribose + L-lysyl-[histone H3] + nicotinamide." [PMID:34927582]
  comment: Comment: Note that the residue position corresponds to the canonical human H3 histone (UniProtKB:P84243); this residue is conserved across all eukaryotes. Residue 1 is the first residue following removal of the initiating Methionine (Met). Note that each histone is encoded by multiple genes, and sequences may vary across different genes within an organism.
  is_a: GO:0160012 ! histone decrotonylase activity, NAD-dependent
@@ -73263,7 +73277,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24466" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: ew
-@@ -479803,7 +497215,13 @@
+@@ -479803,7 +497229,13 @@
  synonym: "cholesterol 7,8-dehydrogenase" EXACT []
  xref: EC:1.14.19.21
  xref: MetaCyc:RXN-16379
@@ -73277,7 +73291,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27381" xsd:anyURI
  created_by: ew
  creation_date: 2024-03-26T16:57:18Z
-@@ -479815,7 +497233,16 @@
+@@ -479815,7 +497247,16 @@
  def: "Catalysis of the joining of an RNA with 3'-phosphate or 2',3'-cyclic-phosphate ends to an RNA with 5'-hydroxy ends according to either (i) a 3'-end 3'-phospho-ribonucleotide-RNA + a 5'-end dephospho-ribonucleoside-RNA + GTP = a ribonucleotidyl-ribonucleotide-RNA + diphosphate + GMP; or (ii) a 3'-end 2',3'-cyclophospho-ribonucleotide-RNA + a 5'-end dephospho-ribonucleoside-RNA + GTP + H2O = a ribonucleotidyl-ribonucleotide-RNA + diphosphate + GMP + H+." [EC:6.5.1.8, PMID:21311021]
  synonym: "3'-phosphate/5'-hydroxy nucleic acid ligase activity" EXACT []
  xref: EC:6.5.1.8
@@ -73294,7 +73308,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27418" xsd:anyURI
  created_by: ew
  creation_date: 2024-03-26T23:34:04Z
-@@ -479899,6 +497326,7 @@
+@@ -479899,6 +497340,7 @@
  synonym: "arginine biosynthesis, N-acetylated pathway" EXACT []
  xref: MetaCyc:PWY-5154
  is_a: GO:0006526 ! L-arginine biosynthetic process
@@ -73302,7 +73316,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29602" xsd:anyURI
  created_by: ew
  creation_date: 2025-03-14T17:04:09Z
-@@ -480006,7 +497434,9 @@
+@@ -480006,7 +497448,9 @@
  is_a: GO:0015211 ! purine nucleoside transmembrane transporter activity
  is_a: GO:0015297 ! antiporter activity
  is_a: GO:0072349 ! modified amino acid transmembrane transporter activity
@@ -73312,7 +73326,7 @@
  created_by: vw
  creation_date: 2023-02-10T13:06:12Z
  
-@@ -480017,6 +497447,7 @@
+@@ -480017,6 +497461,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-tyrosine (consensus YSPTSPS)(position 1) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain Y1 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -73320,7 +73334,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480029,6 +497460,7 @@
+@@ -480029,6 +497474,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-threonine (consensus YSPTSPS)(position 4) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain T4 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -73328,7 +73342,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480041,6 +497473,7 @@
+@@ -480041,6 +497487,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-serine (consensus YSPTSPS)(position 2) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain S2 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -73336,7 +73350,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480053,6 +497486,7 @@
+@@ -480053,6 +497500,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-serine (consensus YSPTSPS)(position 5) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain S5 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -73344,7 +73358,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480065,6 +497499,7 @@
+@@ -480065,6 +497513,7 @@
  def: "Catalysis of the reaction: RNA polymerase II large subunit CTD heptapeptide repeat--phospho-L-serine (consensus YSPTSPS)(position 7) + H2O = RNA polymerase II large subunit + phosphate." [PMID:22622228]
  synonym: "RNA polymerase II C-terminal domain S7 phosphatase activity" EXACT []
  is_a: GO:0008420 ! RNA polymerase II CTD heptapeptide repeat phosphatase activity
@@ -73352,7 +73366,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24910" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
-@@ -480079,9 +497514,17 @@
+@@ -480079,9 +497528,17 @@
  synonym: "neutral L-amino acid:dibasic L-amino acid antiporter activity" EXACT []
  synonym: "neutral L-amino acid:positively-charged polar L-amino acid antiporter activity" EXACT []
  synonym: "system b(0,+)-type activity" RELATED []
@@ -73370,7 +73384,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24497" xsd:anyURI
  created_by: vw
  creation_date: 2023-04-06T09:22:30Z
-@@ -480128,6 +497571,7 @@
+@@ -480128,6 +497585,7 @@
  namespace: molecular_function
  def: "Catalysis of the movement of a lysophosphatidylserine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:34645814]
  is_a: GO:0140333 ! glycerophospholipid flippase activity
@@ -73378,7 +73392,7 @@
  created_by: vw
  creation_date: 2023-02-23T14:32:13Z
  
-@@ -480187,10 +497631,11 @@
+@@ -480187,10 +497645,11 @@
  id: GO:0180019
  name: Knl1/Spc105 complex
  namespace: cellular_component
@@ -73391,7 +73405,7 @@
  created_by: vw
  creation_date: 2023-06-16T09:53:26Z
  
-@@ -480212,7 +497657,9 @@
+@@ -480212,7 +497671,9 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + U6 snRNA = S-adenosyl-L-homocysteine + U6 containing a 3'-terminal 2'-O-methylnucleotide + H+." [PMID:37403782, RHEA:63088]
  xref: RHEA:63088
  is_a: GO:0090486 ! small RNA 2'-O-methyltransferase activity
@@ -73401,7 +73415,7 @@
  created_by: vw
  creation_date: 2023-07-14T13:19:39Z
  
-@@ -480337,6 +497784,7 @@
+@@ -480337,6 +497798,7 @@
  synonym: "histone H4K5 deacetylase activity" BROAD []
  is_a: GO:0141051 ! histone H4K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -73409,7 +73423,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27036" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29468" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -480352,6 +497800,7 @@
+@@ -480352,6 +497814,7 @@
  synonym: "histone H4K48 deacetylase activity" BROAD []
  is_a: GO:0141051 ! histone H4K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -73417,7 +73431,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27036" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29468" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -480453,6 +497902,7 @@
+@@ -480453,6 +497916,7 @@
  xref: RHEA:60500
  is_a: GO:0004376 ! GPI mannosyltransferase activity
  is_a: GO:0051751 ! alpha-1,4-mannosyltransferase activity
@@ -73425,7 +73439,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30326" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30693" xsd:anyURI
  created_by: vw
-@@ -481883,7 +499333,6 @@
+@@ -481883,7 +499347,6 @@
  synonym: "negative regulation of ceramide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "negative regulation of ceramide formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of ceramide synthesis" EXACT [GOC:TermGenie]
@@ -73433,7 +73447,7 @@
  is_a: GO:0090155 ! negative regulation of sphingolipid biosynthetic process
  is_a: GO:2000303 ! regulation of ceramide biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -483679,7 +501128,7 @@
+@@ -483679,7 +501142,7 @@
  synonym: "negative regulation of phosphatidylcholine 2-acylhydrolase activity" EXACT [GOC:TermGenie]
  synonym: "negative regulation of phospholipase A" RELATED [GOC:TermGenie]
  synonym: "negative regulation of secreted phospholipase A2 activity" NARROW [GOC:TermGenie]
@@ -73442,7 +73456,7 @@
  is_obsolete: true
  created_by: rph
  creation_date: 2012-03-01T09:18:24Z
-@@ -484869,7 +502318,6 @@
+@@ -484869,7 +502332,6 @@
  synonym: "regulation of penicillin biosynthesis" EXACT [GOC:TermGenie]
  synonym: "regulation of penicillin formation" EXACT [GOC:TermGenie]
  synonym: "regulation of penicillin synthesis" EXACT [GOC:TermGenie]
@@ -73450,7 +73464,7 @@
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:1900376 ! regulation of secondary metabolite biosynthetic process
-@@ -484908,7 +502356,6 @@
+@@ -484908,7 +502370,6 @@
  synonym: "negative regulation of penicillin biosynthesis" EXACT [GOC:TermGenie]
  synonym: "negative regulation of penicillin formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of penicillin synthesis" EXACT [GOC:TermGenie]
@@ -73458,7 +73472,7 @@
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:1900196 ! regulation of penicillin biosynthetic process
  is_a: GO:1900377 ! negative regulation of secondary metabolite biosynthetic process
-@@ -485337,9 +502784,10 @@
+@@ -485337,9 +502798,10 @@
  
  [Term]
  id: GO:1900216
@@ -73471,7 +73485,7 @@
  synonym: "activation of apoptosis of metanephric collecting duct development" NARROW [GOC:TermGenie]
  synonym: "activation of apoptotic cell death of metanephric collecting duct development" EXACT [GOC:TermGenie]
  synonym: "activation of apoptotic process involved in metanephric collecting duct development" NARROW [GOC:TermGenie]
-@@ -485384,11 +502832,10 @@
+@@ -485384,11 +502846,10 @@
  synonym: "upregulation of programmed cell death by apoptosis of metanephric collecting duct development" EXACT [GOC:TermGenie]
  synonym: "upregulation of signaling (initiator) caspase activity of metanephric collecting duct development" RELATED [GOC:TermGenie]
  synonym: "upregulation of type I programmed cell death of metanephric collecting duct development" NARROW [GOC:TermGenie]
@@ -73487,7 +73501,7 @@
  created_by: yaf
  creation_date: 2012-03-22T10:53:39Z
  
-@@ -485471,9 +502918,10 @@
+@@ -485471,9 +502932,10 @@
  
  [Term]
  id: GO:1900219
@@ -73500,7 +73514,7 @@
  synonym: "activation of apoptosis of metanephric nephron tubule development" NARROW [GOC:TermGenie]
  synonym: "activation of apoptotic cell death of metanephric nephron tubule development" EXACT [GOC:TermGenie]
  synonym: "activation of apoptotic process involved in metanephric nephron tubule development" NARROW [GOC:TermGenie]
-@@ -485518,25 +502966,25 @@
+@@ -485518,25 +502980,25 @@
  synonym: "upregulation of programmed cell death by apoptosis of metanephric nephron tubule development" EXACT [GOC:TermGenie]
  synonym: "upregulation of signaling (initiator) caspase activity of metanephric nephron tubule development" RELATED [GOC:TermGenie]
  synonym: "upregulation of type I programmed cell death of metanephric nephron tubule development" NARROW [GOC:TermGenie]
@@ -73537,7 +73551,7 @@
  created_by: vk
  creation_date: 2012-03-22T01:13:56Z
  
-@@ -490163,9 +507611,10 @@
+@@ -490163,9 +507625,10 @@
  
  [Term]
  id: GO:1900447
@@ -73550,7 +73564,7 @@
  synonym: "negative regulation of cell shape and cell size of phenotypic dimorphism" RELATED [GOC:TermGenie]
  synonym: "negative regulation of cell shape and cell size of phenotypic switching" RELATED [GOC:TermGenie]
  synonym: "positive regulation of cell shape and cell size of phenotypic dimorphism" RELATED [GOC:TermGenie]
-@@ -490174,10 +507623,10 @@
+@@ -490174,10 +507637,10 @@
  synonym: "regulation of cell morphogenesis of phenotypic switching" EXACT [GOC:TermGenie]
  synonym: "regulation of cell shape and cell size of phenotypic dimorphism" RELATED [GOC:TermGenie]
  synonym: "regulation of cell shape and cell size of phenotypic switching" RELATED [GOC:TermGenie]
@@ -73565,7 +73579,7 @@
  created_by: di
  creation_date: 2012-04-27T02:43:32Z
  
-@@ -490887,7 +508336,6 @@
+@@ -490887,7 +508350,6 @@
  synonym: "upregulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway" EXACT [GOC:TermGenie]
  synonym: "upregulation of isopentenyl diphosphate formation, mevalonate pathway" EXACT [GOC:TermGenie]
  synonym: "upregulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:TermGenie]
@@ -73573,7 +73587,7 @@
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:0071073 ! positive regulation of phospholipid biosynthetic process
  is_a: GO:2001210 ! regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway
-@@ -491089,7 +508537,6 @@
+@@ -491089,7 +508551,6 @@
  synonym: "inhibition of butyryl-CoA biosynthesis from acetyl-CoA" EXACT [GOC:TermGenie]
  synonym: "inhibition of butyryl-CoA biosynthetic process from acetyl-CoA" NARROW [GOC:TermGenie]
  synonym: "negative regulation of butyryl-CoA biosynthesis from acetyl-CoA" EXACT [GOC:TermGenie]
@@ -73581,7 +73595,7 @@
  is_a: GO:0045717 ! negative regulation of fatty acid biosynthetic process
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0045936 ! negative regulation of phosphate metabolic process
-@@ -491114,7 +508561,6 @@
+@@ -491114,7 +508575,6 @@
  synonym: "up-regulation of butyryl-CoA biosynthetic process from acetyl-CoA" EXACT [GOC:TermGenie]
  synonym: "upregulation of butyryl-CoA biosynthesis from acetyl-CoA" EXACT [GOC:TermGenie]
  synonym: "upregulation of butyryl-CoA biosynthetic process from acetyl-CoA" EXACT [GOC:TermGenie]
@@ -73589,7 +73603,7 @@
  is_a: GO:0045723 ! positive regulation of fatty acid biosynthetic process
  is_a: GO:0045937 ! positive regulation of phosphate metabolic process
  is_a: GO:1900494 ! regulation of butyryl-CoA biosynthetic process from acetyl-CoA
-@@ -491132,7 +508578,6 @@
+@@ -491132,7 +508592,6 @@
  synonym: "regulation of butyryl-CoA catabolism to butanol" EXACT [GOC:TermGenie]
  is_a: GO:0019217 ! regulation of fatty acid metabolic process
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
@@ -73597,7 +73611,7 @@
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  is_a: GO:0046890 ! regulation of lipid biosynthetic process
  is_a: GO:0050994 ! regulation of lipid catabolic process
-@@ -491158,7 +508603,6 @@
+@@ -491158,7 +508617,6 @@
  synonym: "inhibition of butyryl-CoA catabolic process to butanol" NARROW [GOC:TermGenie]
  synonym: "inhibition of butyryl-CoA catabolism to butanol" EXACT [GOC:TermGenie]
  synonym: "negative regulation of butyryl-CoA catabolism to butanol" EXACT [GOC:TermGenie]
@@ -73605,7 +73619,7 @@
  is_a: GO:0045922 ! negative regulation of fatty acid metabolic process
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0045936 ! negative regulation of phosphate metabolic process
-@@ -491186,7 +508630,6 @@
+@@ -491186,7 +508644,6 @@
  synonym: "up-regulation of butyryl-CoA catabolism to butanol" EXACT [GOC:TermGenie]
  synonym: "upregulation of butyryl-CoA catabolic process to butanol" EXACT [GOC:TermGenie]
  synonym: "upregulation of butyryl-CoA catabolism to butanol" EXACT [GOC:TermGenie]
@@ -73613,7 +73627,7 @@
  is_a: GO:0045923 ! positive regulation of fatty acid metabolic process
  is_a: GO:0045937 ! positive regulation of phosphate metabolic process
  is_a: GO:0046889 ! positive regulation of lipid biosynthetic process
-@@ -491206,7 +508649,6 @@
+@@ -491206,7 +508663,6 @@
  def: "Any process that modulates the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." [GOC:mengo_curators, GOC:TermGenie]
  synonym: "regulation of butyryl-CoA catabolism to butyrate" EXACT [GOC:TermGenie]
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
@@ -73621,7 +73635,7 @@
  is_a: GO:0042304 ! regulation of fatty acid biosynthetic process
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  is_a: GO:0050994 ! regulation of lipid catabolic process
-@@ -491231,7 +508673,6 @@
+@@ -491231,7 +508687,6 @@
  synonym: "inhibition of butyryl-CoA catabolic process to butyrate" NARROW [GOC:TermGenie]
  synonym: "inhibition of butyryl-CoA catabolism to butyrate" EXACT [GOC:TermGenie]
  synonym: "negative regulation of butyryl-CoA catabolism to butyrate" EXACT [GOC:TermGenie]
@@ -73629,7 +73643,7 @@
  is_a: GO:0045717 ! negative regulation of fatty acid biosynthetic process
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0045936 ! negative regulation of phosphate metabolic process
-@@ -491257,7 +508698,6 @@
+@@ -491257,7 +508712,6 @@
  synonym: "up-regulation of butyryl-CoA catabolism to butyrate" EXACT [GOC:TermGenie]
  synonym: "upregulation of butyryl-CoA catabolic process to butyrate" EXACT [GOC:TermGenie]
  synonym: "upregulation of butyryl-CoA catabolism to butyrate" EXACT [GOC:TermGenie]
@@ -73637,7 +73651,7 @@
  is_a: GO:0045723 ! positive regulation of fatty acid biosynthetic process
  is_a: GO:0045937 ! positive regulation of phosphate metabolic process
  is_a: GO:0050996 ! positive regulation of lipid catabolic process
-@@ -491545,8 +508985,8 @@
+@@ -491545,8 +508999,8 @@
  is_a: GO:0043465 ! regulation of fermentation
  is_a: GO:0043469 ! regulation of D-xylose catabolic process
  intersection_of: GO:0065007 ! biological regulation
@@ -73648,7 +73662,7 @@
  created_by: tt
  creation_date: 2012-05-02T04:09:07Z
  
-@@ -491570,8 +509010,8 @@
+@@ -491570,8 +509024,8 @@
  is_a: GO:1900515 ! regulation of xylose catabolic process to ethanol
  is_a: GO:1901003 ! negative regulation of fermentation
  intersection_of: GO:0065007 ! biological regulation
@@ -73659,7 +73673,7 @@
  created_by: tt
  creation_date: 2012-05-02T04:09:17Z
  
-@@ -491594,8 +509034,8 @@
+@@ -491594,8 +509048,8 @@
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1900515 ! regulation of xylose catabolic process to ethanol
  intersection_of: GO:0065007 ! biological regulation
@@ -73670,7 +73684,7 @@
  created_by: tt
  creation_date: 2012-05-02T04:09:26Z
  
-@@ -492862,7 +510302,6 @@
+@@ -492862,7 +510316,6 @@
  synonym: "tensidol A catabolism" EXACT [GOC:TermGenie]
  synonym: "tensidol A degradation" EXACT [GOC:TermGenie]
  is_a: GO:0042182 ! ketone catabolic process
@@ -73678,7 +73692,7 @@
  is_a: GO:0090487 ! secondary metabolite catabolic process
  created_by: di
  creation_date: 2012-05-15T06:58:09Z
-@@ -492877,7 +510316,6 @@
+@@ -492877,7 +510330,6 @@
  synonym: "tensidol A formation" EXACT [GOC:TermGenie]
  synonym: "tensidol A synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0042181 ! ketone biosynthetic process
@@ -73686,7 +73700,7 @@
  is_a: GO:0044550 ! secondary metabolite biosynthetic process
  created_by: di
  creation_date: 2012-05-15T06:58:16Z
-@@ -492903,7 +510341,6 @@
+@@ -492903,7 +510355,6 @@
  synonym: "tensidol B catabolism" EXACT [GOC:TermGenie]
  synonym: "tensidol B degradation" EXACT [GOC:TermGenie]
  is_a: GO:0042182 ! ketone catabolic process
@@ -73694,7 +73708,7 @@
  is_a: GO:0046395 ! carboxylic acid catabolic process
  is_a: GO:0090487 ! secondary metabolite catabolic process
  created_by: di
-@@ -492919,7 +510356,6 @@
+@@ -492919,7 +510370,6 @@
  synonym: "tensidol B formation" EXACT [GOC:TermGenie]
  synonym: "tensidol B synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0042181 ! ketone biosynthetic process
@@ -73702,7 +73716,7 @@
  is_a: GO:0044550 ! secondary metabolite biosynthetic process
  is_a: GO:0046394 ! carboxylic acid biosynthetic process
  created_by: di
-@@ -494010,7 +511446,6 @@
+@@ -494010,7 +511460,6 @@
  synonym: "regulation of emericellamide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "regulation of emericellamide formation" EXACT [GOC:TermGenie]
  synonym: "regulation of emericellamide synthesis" EXACT [GOC:TermGenie]
@@ -73710,7 +73724,7 @@
  is_a: GO:0046890 ! regulation of lipid biosynthetic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:1900376 ! regulation of secondary metabolite biosynthetic process
-@@ -494049,7 +511484,6 @@
+@@ -494049,7 +511498,6 @@
  synonym: "negative regulation of emericellamide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "negative regulation of emericellamide formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of emericellamide synthesis" EXACT [GOC:TermGenie]
@@ -73718,7 +73732,7 @@
  is_a: GO:0051055 ! negative regulation of lipid biosynthetic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:1900377 ! negative regulation of secondary metabolite biosynthetic process
-@@ -494089,7 +511523,6 @@
+@@ -494089,7 +511537,6 @@
  synonym: "upregulation of emericellamide biosynthetic process" EXACT [GOC:TermGenie]
  synonym: "upregulation of emericellamide formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of emericellamide synthesis" EXACT [GOC:TermGenie]
@@ -73726,7 +73740,7 @@
  is_a: GO:0046889 ! positive regulation of lipid biosynthetic process
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1900378 ! positive regulation of secondary metabolite biosynthetic process
-@@ -494916,7 +512349,6 @@
+@@ -494916,7 +512363,6 @@
  synonym: "regulation of gliotoxin biosynthesis" EXACT [GOC:TermGenie]
  synonym: "regulation of gliotoxin formation" EXACT [GOC:TermGenie]
  synonym: "regulation of gliotoxin synthesis" EXACT [GOC:TermGenie]
@@ -73734,7 +73748,7 @@
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  is_a: GO:1900376 ! regulation of secondary metabolite biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -494954,7 +512386,6 @@
+@@ -494954,7 +512400,6 @@
  synonym: "negative regulation of gliotoxin biosynthesis" EXACT [GOC:TermGenie]
  synonym: "negative regulation of gliotoxin formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of gliotoxin synthesis" EXACT [GOC:TermGenie]
@@ -73742,7 +73756,7 @@
  is_a: GO:1900377 ! negative regulation of secondary metabolite biosynthetic process
  is_a: GO:1900689 ! regulation of gliotoxin biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -494992,7 +512423,6 @@
+@@ -494992,7 +512437,6 @@
  synonym: "upregulation of gliotoxin biosynthetic process" EXACT [GOC:TermGenie]
  synonym: "upregulation of gliotoxin formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of gliotoxin synthesis" EXACT [GOC:TermGenie]
@@ -73750,7 +73764,7 @@
  is_a: GO:1900378 ! positive regulation of secondary metabolite biosynthetic process
  is_a: GO:1900689 ! regulation of gliotoxin biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -495509,7 +512939,6 @@
+@@ -495509,7 +512953,6 @@
  synonym: "regulation of tensidol A formation" EXACT [GOC:TermGenie]
  synonym: "regulation of tensidol A synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0010566 ! regulation of ketone biosynthetic process
@@ -73758,7 +73772,7 @@
  is_a: GO:1900376 ! regulation of secondary metabolite biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:1900605 ! tensidol A biosynthetic process
-@@ -495546,7 +512975,6 @@
+@@ -495546,7 +512989,6 @@
  synonym: "negative regulation of tensidol A biosynthesis" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tensidol A formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tensidol A synthesis" EXACT [GOC:TermGenie]
@@ -73766,7 +73780,7 @@
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:1900377 ! negative regulation of secondary metabolite biosynthetic process
  is_a: GO:1900707 ! regulation of tensidol A biosynthetic process
-@@ -495585,7 +513013,6 @@
+@@ -495585,7 +513027,6 @@
  synonym: "upregulation of tensidol A biosynthetic process" EXACT [GOC:TermGenie]
  synonym: "upregulation of tensidol A formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of tensidol A synthesis" EXACT [GOC:TermGenie]
@@ -73774,7 +73788,7 @@
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1900378 ! positive regulation of secondary metabolite biosynthetic process
  is_a: GO:1900707 ! regulation of tensidol A biosynthetic process
-@@ -495605,7 +513032,6 @@
+@@ -495605,7 +513046,6 @@
  synonym: "regulation of tensidol B formation" EXACT [GOC:TermGenie]
  synonym: "regulation of tensidol B synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0010566 ! regulation of ketone biosynthetic process
@@ -73782,7 +73796,7 @@
  is_a: GO:1900376 ! regulation of secondary metabolite biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:1900608 ! tensidol B biosynthetic process
-@@ -495642,7 +513068,6 @@
+@@ -495642,7 +513082,6 @@
  synonym: "negative regulation of tensidol B biosynthesis" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tensidol B formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tensidol B synthesis" EXACT [GOC:TermGenie]
@@ -73790,7 +73804,7 @@
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:1900377 ! negative regulation of secondary metabolite biosynthetic process
  is_a: GO:1900710 ! regulation of tensidol B biosynthetic process
-@@ -495681,7 +513106,6 @@
+@@ -495681,7 +513120,6 @@
  synonym: "upregulation of tensidol B biosynthetic process" EXACT [GOC:TermGenie]
  synonym: "upregulation of tensidol B formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of tensidol B synthesis" EXACT [GOC:TermGenie]
@@ -73798,7 +73812,7 @@
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1900378 ! positive regulation of secondary metabolite biosynthetic process
  is_a: GO:1900710 ! regulation of tensidol B biosynthetic process
-@@ -496049,13 +513473,14 @@
+@@ -496049,13 +513487,14 @@
  
  [Term]
  id: GO:1900728
@@ -73819,7 +73833,7 @@
  created_by: bf
  creation_date: 2012-05-25T09:50:24Z
  
-@@ -496616,7 +514041,7 @@
+@@ -496616,7 +514055,7 @@
  synonym: "Oligopeptid binding" RELATED [GOC:TermGenie]
  synonym: "oligopeptides binding" EXACT [GOC:TermGenie]
  synonym: "oligopeptido binding" RELATED [GOC:TermGenie]
@@ -73828,7 +73842,7 @@
  created_by: jl
  creation_date: 2012-05-29T02:13:31Z
  
-@@ -497475,7 +514900,6 @@
+@@ -497475,7 +514914,6 @@
  synonym: "tryptophan-proline diketopiperazine synthesis" RELATED [GOC:TermGenie]
  is_a: GO:0035835 ! indole alkaloid biosynthetic process
  is_a: GO:0042435 ! indole-containing compound biosynthetic process
@@ -73836,7 +73850,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23885" xsd:anyURI
  created_by: di
  creation_date: 2012-06-04T09:52:48Z
-@@ -497652,7 +515076,6 @@
+@@ -497652,7 +515090,6 @@
  synonym: "ochratoxin A catabolism" EXACT [GOC:TermGenie]
  synonym: "ochratoxin A degradation" EXACT [GOC:TermGenie]
  is_a: GO:0042219 ! modified amino acid catabolic process
@@ -73844,7 +73858,7 @@
  is_a: GO:0072329 ! monocarboxylic acid catabolic process
  is_a: GO:0090345 ! organohalogen metabolic process
  is_a: GO:0090487 ! secondary metabolite catabolic process
-@@ -497669,7 +515092,6 @@
+@@ -497669,7 +515106,6 @@
  synonym: "Ochratoxin A formation" EXACT [GOC:TermGenie]
  synonym: "Ochratoxin A synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0042398 ! modified amino acid biosynthetic process
@@ -73852,7 +73866,7 @@
  is_a: GO:0044550 ! secondary metabolite biosynthetic process
  is_a: GO:0072330 ! monocarboxylic acid biosynthetic process
  is_a: GO:0090345 ! organohalogen metabolic process
-@@ -498198,7 +515620,6 @@
+@@ -498198,7 +515634,6 @@
  synonym: "regulation of Pseurotin formation" RELATED [GOC:TermGenie]
  synonym: "regulation of Pseurotin synthesis" RELATED [GOC:TermGenie]
  is_a: GO:0009889 ! regulation of biosynthetic process
@@ -73860,7 +73874,7 @@
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:1900790 ! pseurotin A biosynthetic process
-@@ -498215,7 +515636,6 @@
+@@ -498215,7 +515650,6 @@
  synonym: "down-regulation of pseurotin A biosynthetic process" EXACT [GOC:TermGenie]
  synonym: "downregulation of pseurotin A biosynthetic process" EXACT [GOC:TermGenie]
  is_a: GO:0009890 ! negative regulation of biosynthetic process
@@ -73868,7 +73882,7 @@
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:1900849 ! regulation of pseurotin A biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -498233,7 +515653,6 @@
+@@ -498233,7 +515667,6 @@
  synonym: "up-regulation of pseurotin A biosynthetic process" EXACT [GOC:TermGenie]
  synonym: "upregulation of pseurotin A biosynthetic process" EXACT [GOC:TermGenie]
  is_a: GO:0009891 ! positive regulation of biosynthetic process
@@ -73876,7 +73890,7 @@
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1900849 ! regulation of pseurotin A biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -501648,13 +519067,14 @@
+@@ -501648,13 +519081,14 @@
  
  [Term]
  id: GO:1901025
@@ -73897,7 +73911,7 @@
  created_by: pr
  creation_date: 2012-06-19T08:49:33Z
  
-@@ -502740,11 +520160,13 @@
+@@ -502740,11 +520174,13 @@
  
  [Term]
  id: GO:1901089
@@ -73914,7 +73928,7 @@
  created_by: rb
  creation_date: 2012-07-05T11:47:17Z
  
-@@ -503101,7 +520523,7 @@
+@@ -503101,7 +520537,7 @@
  synonym: "gramicidin S biosynthesis" EXACT [GOC:TermGenie]
  synonym: "gramicidin S formation" EXACT [GOC:TermGenie]
  synonym: "gramicidin S synthesis" EXACT [GOC:TermGenie]
@@ -73923,7 +73937,7 @@
  created_by: yaf
  creation_date: 2012-07-11T02:31:00Z
  
-@@ -503361,7 +520783,6 @@
+@@ -503361,7 +520797,6 @@
  synonym: "bacitracin A catabolism" EXACT [GOC:TermGenie]
  synonym: "bacitracin A degradation" EXACT [GOC:TermGenie]
  is_a: GO:0009056 ! catabolic process
@@ -73931,7 +73945,7 @@
  created_by: yaf
  creation_date: 2012-07-11T03:16:20Z
  
-@@ -503374,7 +520795,7 @@
+@@ -503374,7 +520809,7 @@
  synonym: "bacitracin A biosynthesis" EXACT [GOC:TermGenie]
  synonym: "bacitracin A formation" EXACT [GOC:TermGenie]
  synonym: "bacitracin A synthesis" EXACT [GOC:TermGenie]
@@ -73940,7 +73954,7 @@
  created_by: yaf
  creation_date: 2012-07-11T03:16:27Z
  
-@@ -504450,9 +521871,10 @@
+@@ -504450,9 +521885,10 @@
  
  [Term]
  id: GO:1901196
@@ -73953,7 +73967,7 @@
  synonym: "activation of calcium-mediated signaling involved in cellular response to ionic osmotic stress" NARROW [GOC:TermGenie]
  synonym: "activation of calcium-mediated signaling involved in cellular response to salt stress" NARROW [GOC:TermGenie]
  synonym: "activation of calcium-mediated signaling involved in cellular salinity response" NARROW [GOC:TermGenie]
-@@ -504473,18 +521895,19 @@
+@@ -504473,18 +521909,19 @@
  synonym: "upregulation of calcium-mediated signaling involved in cellular response to ionic osmotic stress" EXACT [GOC:TermGenie]
  synonym: "upregulation of calcium-mediated signaling involved in cellular response to salt stress" EXACT [GOC:TermGenie]
  synonym: "upregulation of calcium-mediated signaling involved in cellular salinity response" EXACT [GOC:TermGenie]
@@ -73979,7 +73993,7 @@
  synonym: "activation of calcium-mediated signaling involved in cellular response to Ca2+ ion" NARROW [GOC:TermGenie]
  synonym: "activation of calcium-mediated signaling involved in cellular response to calcium ion" NARROW [GOC:TermGenie]
  synonym: "positive regulation of calcium-mediated signaling involved in cellular response to Ca2+ ion" EXACT [GOC:TermGenie]
-@@ -504498,51 +521921,54 @@
+@@ -504498,51 +521935,54 @@
  synonym: "up-regulation of calcium-mediated signaling involved in response to calcium ion" EXACT [GOC:TermGenie]
  synonym: "upregulation of calcium-mediated signaling involved in cellular response to Ca2+ ion" EXACT [GOC:TermGenie]
  synonym: "upregulation of calcium-mediated signaling involved in cellular response to calcium ion" EXACT [GOC:TermGenie]
@@ -74056,7 +74070,7 @@
  created_by: al
  creation_date: 2012-07-27T11:11:09Z
  
-@@ -505508,7 +522934,10 @@
+@@ -505508,7 +522948,10 @@
  xref: MetaCyc:TRANS-RXN-242B
  xref: RHEA:35027
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -74067,7 +74081,7 @@
  created_by: jl
  creation_date: 2012-08-07T14:47:36Z
  
-@@ -508741,7 +526170,6 @@
+@@ -508741,7 +526184,6 @@
  synonym: "regulation of tetrapyrrole synthesis from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
  is_a: GO:0006521 ! regulation of amino acid metabolic process
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
@@ -74075,7 +74089,7 @@
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  is_a: GO:0051174 ! regulation of phosphorus metabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
-@@ -508781,7 +526209,6 @@
+@@ -508781,7 +526223,6 @@
  synonym: "negative regulation of tetrapyrrole biosynthesis from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tetrapyrrole formation from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tetrapyrrole synthesis from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
@@ -74083,7 +74097,7 @@
  is_a: GO:0045763 ! negative regulation of amino acid metabolic process
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0045936 ! negative regulation of phosphate metabolic process
-@@ -508823,7 +526250,6 @@
+@@ -508823,7 +526264,6 @@
  synonym: "upregulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
  synonym: "upregulation of tetrapyrrole formation from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
  synonym: "upregulation of tetrapyrrole synthesis from glycine and succinyl-CoA" EXACT [GOC:TermGenie]
@@ -74091,7 +74105,7 @@
  is_a: GO:0045764 ! positive regulation of amino acid metabolic process
  is_a: GO:0045937 ! positive regulation of phosphate metabolic process
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
-@@ -509979,24 +527405,26 @@
+@@ -509979,24 +527419,26 @@
  
  [Term]
  id: GO:1901481
@@ -74128,7 +74142,7 @@
  created_by: al
  creation_date: 2012-10-08T08:34:03Z
  
-@@ -511809,7 +529237,6 @@
+@@ -511809,7 +529251,6 @@
  name: dethiobiotin binding
  namespace: molecular_function
  def: "Binding to dethiobiotin." [GOC:TermGenie]
@@ -74136,7 +74150,7 @@
  is_a: GO:0033293 ! monocarboxylic acid binding
  is_a: GO:1901363 ! heterocyclic compound binding
  created_by: al
-@@ -511821,7 +529248,6 @@
+@@ -511821,7 +529262,6 @@
  namespace: molecular_function
  def: "Enables the transfer of dethiobiotin from one side of a membrane to the other." [GOC:TermGenie]
  is_a: GO:0008028 ! monocarboxylic acid transmembrane transporter activity
@@ -74144,7 +74158,7 @@
  created_by: al
  creation_date: 2012-11-08T14:42:53Z
  
-@@ -512135,9 +529561,10 @@
+@@ -512135,9 +529575,10 @@
  
  [Term]
  id: GO:1901622
@@ -74157,7 +74171,7 @@
  synonym: "activation of hedgehog signaling pathway involved in dorsal/ventral neural tube patterning" NARROW [GOC:TermGenie]
  synonym: "activation of hh signaling pathway involved in dorsal/ventral neural tube patterning" NARROW [GOC:TermGenie]
  synonym: "activation of smoothened signaling pathway involved in dorsal/ventral neural tube patterning" NARROW [GOC:TermGenie]
-@@ -512157,11 +529584,10 @@
+@@ -512157,11 +529598,10 @@
  synonym: "upregulation of hh signaling pathway involved in dorsal/ventral neural tube patterning" EXACT [GOC:TermGenie]
  synonym: "upregulation of smoothened signaling pathway involved in dorsal/ventral neural tube patterning" EXACT [GOC:TermGenie]
  synonym: "upregulation of smoothened signalling pathway involved in dorsal/ventral neural tube patterning" EXACT [GOC:TermGenie]
@@ -74173,7 +74187,7 @@
  created_by: krc
  creation_date: 2012-11-13T20:12:06Z
  
-@@ -512888,19 +530314,17 @@
+@@ -512888,19 +530328,17 @@
  
  [Term]
  id: GO:1901667
@@ -74199,7 +74213,7 @@
  created_by: dph
  creation_date: 2012-11-21T16:21:11Z
  
-@@ -513746,8 +531170,8 @@
+@@ -513746,8 +531184,8 @@
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:2000282 ! regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -74210,7 +74224,7 @@
  created_by: mcc
  creation_date: 2012-12-19T16:01:56Z
  
-@@ -513784,8 +531208,8 @@
+@@ -513784,8 +531222,8 @@
  is_a: GO:1901710 ! regulation of homoserine biosynthetic process
  is_a: GO:2000283 ! negative regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -74221,7 +74235,7 @@
  created_by: mcc
  creation_date: 2012-12-19T16:02:00Z
  
-@@ -513822,8 +531246,8 @@
+@@ -513822,8 +531260,8 @@
  is_a: GO:1901710 ! regulation of homoserine biosynthetic process
  is_a: GO:2000284 ! positive regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -74232,7 +74246,7 @@
  created_by: mcc
  creation_date: 2012-12-19T16:02:05Z
  
-@@ -513856,7 +531280,7 @@
+@@ -513856,7 +531294,7 @@
  synonym: "negative regulation of urea catabolism" EXACT [GOC:TermGenie]
  synonym: "negative regulation of urea decomposition" EXACT [GOC:TermGenie]
  synonym: "negative regulation of urea degradation" EXACT [GOC:TermGenie]
@@ -74241,7 +74255,7 @@
  is_a: GO:0034254 ! regulation of urea catabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:1903315 ! negative regulation of nitrogen cycle metabolic process
-@@ -513895,7 +531319,7 @@
+@@ -513895,7 +531333,7 @@
  synonym: "upregulation of urea catabolism" EXACT [GOC:TermGenie]
  synonym: "upregulation of urea decomposition" EXACT [GOC:TermGenie]
  synonym: "upregulation of urea degradation" EXACT [GOC:TermGenie]
@@ -74250,7 +74264,7 @@
  is_a: GO:0034254 ! regulation of urea catabolic process
  is_a: GO:0062013 ! positive regulation of small molecule metabolic process
  is_a: GO:1903316 ! positive regulation of nitrogen cycle metabolic process
-@@ -514471,7 +531895,6 @@
+@@ -514471,7 +531909,6 @@
  synonym: "leukotriene D4 catabolism" EXACT [GOC:TermGenie]
  synonym: "leukotriene D4 degradation" EXACT [GOC:TermGenie]
  is_a: GO:0036100 ! leukotriene catabolic process
@@ -74258,7 +74272,7 @@
  is_a: GO:0044273 ! sulfur compound catabolic process
  is_a: GO:1901523 ! icosanoid catabolic process
  created_by: yaf
-@@ -514487,7 +531910,6 @@
+@@ -514487,7 +531924,6 @@
  synonym: "leukotriene D4 formation" EXACT [GOC:TermGenie]
  synonym: "leukotriene D4 synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0019370 ! leukotriene biosynthetic process
@@ -74266,7 +74280,7 @@
  is_a: GO:0044272 ! sulfur compound biosynthetic process
  is_a: GO:1901570 ! fatty acid derivative biosynthetic process
  created_by: yaf
-@@ -514819,7 +532241,6 @@
+@@ -514819,7 +532255,6 @@
  synonym: "lincomycin degradation" EXACT [GOC:TermGenie]
  is_a: GO:0016145 ! S-glycoside catabolic process
  is_a: GO:0042219 ! modified amino acid catabolic process
@@ -74274,7 +74288,7 @@
  created_by: yaf
  creation_date: 2013-01-15T11:53:57Z
  
-@@ -514835,7 +532256,6 @@
+@@ -514835,7 +532270,6 @@
  xref: MetaCyc:PWY-6955
  is_a: GO:0016144 ! S-glycoside biosynthetic process
  is_a: GO:0042398 ! modified amino acid biosynthetic process
@@ -74282,7 +74296,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-15T11:54:01Z
-@@ -515021,10 +532441,16 @@
+@@ -515021,10 +532455,16 @@
  synonym: "benzoyl-CoA breakdown" EXACT [GOC:TermGenie]
  synonym: "benzoyl-CoA catabolism" EXACT [GOC:TermGenie]
  synonym: "benzoyl-CoA degradation" EXACT [GOC:TermGenie]
@@ -74299,7 +74313,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-16T11:13:59Z
-@@ -515066,6 +532492,7 @@
+@@ -515066,6 +532506,7 @@
  synonym: "3-(2,3-dihydroxyphenyl)propanoate degradation" EXACT [GOC:TermGenie]
  is_a: GO:0019614 ! catechol-containing compound catabolic process
  is_a: GO:0072329 ! monocarboxylic acid catabolic process
@@ -74307,7 +74321,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28388" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
-@@ -515109,6 +532536,7 @@
+@@ -515109,6 +532550,7 @@
  synonym: "3-(3-hydroxyphenyl)propanoate catabolism" EXACT [GOC:TermGenie]
  synonym: "3-(3-hydroxyphenyl)propanoate degradation" EXACT [GOC:TermGenie]
  is_a: GO:0072329 ! monocarboxylic acid catabolic process
@@ -74315,7 +74329,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-16T11:47:17Z
-@@ -515194,7 +532622,6 @@
+@@ -515194,7 +532636,6 @@
  synonym: "negative regulation of proteasome-mediated protein catabolism" EXACT [GOC:TermGenie]
  is_a: GO:0042177 ! negative regulation of protein catabolic process
  is_a: GO:0061136 ! regulation of proteasomal protein catabolic process
@@ -74323,7 +74337,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0010498 ! proteasomal protein catabolic process
  relationship: negatively_regulates GO:0010498 ! proteasomal protein catabolic process
-@@ -515222,7 +532649,6 @@
+@@ -515222,7 +532663,6 @@
  synonym: "upregulation of proteasome-mediated protein catabolism" EXACT [GOC:TermGenie]
  is_a: GO:0045732 ! positive regulation of protein catabolic process
  is_a: GO:0061136 ! regulation of proteasomal protein catabolic process
@@ -74331,7 +74345,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0010498 ! proteasomal protein catabolic process
  relationship: positively_regulates GO:0010498 ! proteasomal protein catabolic process
-@@ -515352,6 +532778,7 @@
+@@ -515352,6 +532792,7 @@
  synonym: "capsanthin formation" EXACT [GOC:TermGenie]
  synonym: "capsanthin synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0016123 ! xanthophyll biosynthetic process
@@ -74339,7 +74353,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-01-22T10:21:50Z
-@@ -516300,6 +533727,7 @@
+@@ -516300,6 +533741,7 @@
  synonym: "capsorubin formation" EXACT [GOC:TermGenie]
  synonym: "capsorubin synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0016123 ! xanthophyll biosynthetic process
@@ -74347,7 +74361,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  created_by: yaf
  creation_date: 2013-02-04T10:50:26Z
-@@ -517951,30 +535379,31 @@
+@@ -517951,30 +535393,31 @@
  
  [Term]
  id: GO:1901963
@@ -74392,7 +74406,7 @@
  created_by: dph
  creation_date: 2013-02-20T20:30:31Z
  
-@@ -518652,7 +536081,6 @@
+@@ -518652,7 +536095,6 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of amyloid-beta formation." [GOC:dph, GOC:TermGenie, PMID:17098871]
  synonym: "regulation of beta-amyloid formation" EXACT []
@@ -74400,7 +74414,7 @@
  is_a: GO:1902991 ! regulation of amyloid precursor protein catabolic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0034205 ! amyloid-beta formation
-@@ -518670,7 +536098,6 @@
+@@ -518670,7 +536112,6 @@
  synonym: "up regulation of beta-amyloid formation" EXACT [GOC:TermGenie]
  synonym: "up-regulation of beta-amyloid formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of beta-amyloid formation" EXACT [GOC:TermGenie]
@@ -74408,7 +74422,7 @@
  is_a: GO:1902003 ! regulation of amyloid-beta formation
  is_a: GO:1902993 ! positive regulation of amyloid precursor protein catabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -520275,14 +537702,15 @@
+@@ -520275,14 +537716,15 @@
  
  [Term]
  id: GO:1902089
@@ -74430,7 +74444,7 @@
  created_by: tb
  creation_date: 2013-04-26T18:34:53Z
  
-@@ -523392,9 +540820,10 @@
+@@ -523392,9 +540834,10 @@
  
  [Term]
  id: GO:1902258
@@ -74443,7 +74457,7 @@
  synonym: "activation of apoptosis involved in outflow tract morphogenesis" NARROW [GOC:TermGenie]
  synonym: "activation of apoptotic process involved in outflow tract morphogenesis" NARROW [GOC:TermGenie]
  synonym: "positive regulation of apoptosis involved in outflow tract morphogenesis" NARROW [GOC:TermGenie]
-@@ -523404,11 +540833,10 @@
+@@ -523404,11 +540847,10 @@
  synonym: "up-regulation of apoptotic process involved in outflow tract morphogenesis" EXACT [GOC:TermGenie]
  synonym: "upregulation of apoptosis involved in outflow tract morphogenesis" NARROW [GOC:TermGenie]
  synonym: "upregulation of apoptotic process involved in outflow tract morphogenesis" EXACT [GOC:TermGenie]
@@ -74459,7 +74473,7 @@
  created_by: dph
  creation_date: 2013-06-24T19:12:42Z
  
-@@ -523844,16 +541272,17 @@
+@@ -523844,16 +541286,17 @@
  
  [Term]
  id: GO:1902286
@@ -74483,7 +74497,7 @@
  created_by: pr
  creation_date: 2013-07-08T16:06:55Z
  
-@@ -525437,9 +542866,10 @@
+@@ -525437,9 +542880,10 @@
  
  [Term]
  id: GO:1902378
@@ -74496,7 +74510,7 @@
  synonym: "vascular endothelial growth factor-activated neuropilin signaling pathway involved in axon chemotaxis" RELATED [GOC:TermGenie]
  synonym: "vascular endothelial growth factor-activated neuropilin signaling pathway involved in axon growth cone guidance" RELATED [GOC:TermGenie]
  synonym: "vascular endothelial growth factor-activated neuropilin signaling pathway involved in axon guidance" RELATED [GOC:TermGenie]
-@@ -525451,10 +542881,10 @@
+@@ -525451,10 +542895,10 @@
  synonym: "VEGF-Npn-1 signaling involved in axon growth cone guidance" NARROW [GOC:TermGenie]
  synonym: "VEGF-Npn-1 signaling involved in axon guidance" NARROW [GOC:TermGenie]
  synonym: "VEGF-Npn-1 signaling involved in axon pathfinding" NARROW [GOC:TermGenie]
@@ -74511,7 +74525,7 @@
  created_by: bf
  creation_date: 2013-09-02T13:44:13Z
  
-@@ -526158,7 +543588,6 @@
+@@ -526158,7 +543602,6 @@
  synonym: "downregulation of beta-amyloid formation" EXACT [GOC:TermGenie]
  synonym: "inhibition of beta-amyloid formation" NARROW [GOC:TermGenie]
  synonym: "negative regulation of beta-amyloid formation" EXACT []
@@ -74519,7 +74533,7 @@
  is_a: GO:1902003 ! regulation of amyloid-beta formation
  is_a: GO:1902992 ! negative regulation of amyloid precursor protein catabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -527814,16 +545243,17 @@
+@@ -527814,16 +545257,17 @@
  
  [Term]
  id: GO:1902550
@@ -74543,7 +74557,7 @@
  created_by: pr
  creation_date: 2013-12-04T21:13:33Z
  
-@@ -528572,7 +546002,6 @@
+@@ -528572,7 +546016,6 @@
  def: "The directed movement of sulfathiazole across a membrane." [GO_REF:0000069, GOC:pr, GOC:TermGenie]
  synonym: "sulfathiazole transport" BROAD []
  synonym: "sulphathiazole transport" BROAD []
@@ -74551,7 +74565,7 @@
  is_a: GO:0045117 ! azole transmembrane transport
  is_a: GO:0072348 ! sulfur compound transport
  created_by: pr
-@@ -529154,25 +546583,27 @@
+@@ -529154,25 +546597,27 @@
  
  [Term]
  id: GO:1902637
@@ -74591,7 +74605,7 @@
  created_by: pr
  creation_date: 2014-01-21T10:03:29Z
  
-@@ -530429,31 +547860,33 @@
+@@ -530429,31 +547874,33 @@
  
  [Term]
  id: GO:1902696
@@ -74635,7 +74649,7 @@
  created_by: tb
  creation_date: 2014-02-19T18:28:19Z
  
-@@ -534552,7 +551985,6 @@
+@@ -534552,7 +551999,6 @@
  namespace: molecular_function
  def: "Binding to phosphatidylinositol bisphosphate." [GO_REF:0000067, GOC:bhm, GOC:TermGenie, PMID:18690034]
  comment: An example of this is KCNJ2 in human (P63252) in PMID:18690034 (inferred from direct assay)
@@ -74643,7 +74657,7 @@
  is_a: GO:1901981 ! phosphatidylinositol phosphate binding
  created_by: bhm
  creation_date: 2014-04-25T15:14:12Z
-@@ -536166,8 +553598,8 @@
+@@ -536166,8 +553612,8 @@
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:2000282 ! regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -74654,7 +74668,7 @@
  created_by: al
  creation_date: 2014-05-07T08:07:08Z
  
-@@ -536219,8 +553651,8 @@
+@@ -536219,8 +553665,8 @@
  is_a: GO:1902986 ! regulation of lysine biosynthetic process via aminoadipic acid
  is_a: GO:2000283 ! negative regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
@@ -74665,7 +74679,7 @@
  created_by: al
  creation_date: 2014-05-07T08:07:15Z
  
-@@ -537414,10 +554846,10 @@
+@@ -537414,10 +554860,10 @@
  
  [Term]
  id: GO:1903050
@@ -74679,7 +74693,7 @@
  synonym: "regulation of peptidolysis during cellular protein catabolic process" RELATED [GOC:TermGenie]
  synonym: "regulation of peptidolysis during cellular protein catabolism" RELATED [GOC:TermGenie]
  synonym: "regulation of peptidolysis involved in cellular protein catabolic process" EXACT [GOC:TermGenie]
-@@ -537425,20 +554857,19 @@
+@@ -537425,20 +554871,19 @@
  synonym: "regulation of proteolysis during cellular protein catabolic process" RELATED [GOC:TermGenie]
  synonym: "regulation of proteolysis during cellular protein catabolism" RELATED [GOC:TermGenie]
  synonym: "regulation of proteolysis involved in cellular protein catabolic process" EXACT []
@@ -74706,7 +74720,7 @@
  synonym: "down regulation of peptidolysis during cellular protein catabolic process" RELATED [GOC:TermGenie]
  synonym: "down regulation of peptidolysis during cellular protein catabolism" RELATED [GOC:TermGenie]
  synonym: "down regulation of peptidolysis involved in cellular protein catabolic process" EXACT [GOC:TermGenie]
-@@ -537474,21 +554905,19 @@
+@@ -537474,21 +554919,19 @@
  synonym: "negative regulation of proteolysis during cellular protein catabolic process" RELATED [GOC:TermGenie]
  synonym: "negative regulation of proteolysis during cellular protein catabolism" RELATED [GOC:TermGenie]
  synonym: "negative regulation of proteolysis involved in cellular protein catabolic process" EXACT []
@@ -74734,7 +74748,7 @@
  synonym: "activation of peptidolysis during cellular protein catabolic process" RELATED [GOC:TermGenie]
  synonym: "activation of peptidolysis during cellular protein catabolism" RELATED [GOC:TermGenie]
  synonym: "activation of peptidolysis involved in cellular protein catabolic process" NARROW [GOC:TermGenie]
-@@ -537524,12 +554953,10 @@
+@@ -537524,12 +554967,10 @@
  synonym: "upregulation of proteolysis during cellular protein catabolic process" RELATED [GOC:TermGenie]
  synonym: "upregulation of proteolysis during cellular protein catabolism" RELATED [GOC:TermGenie]
  synonym: "upregulation of proteolysis involved in cellular protein catabolic process" EXACT [GOC:TermGenie]
@@ -74750,7 +74764,7 @@
  created_by: rl
  creation_date: 2014-05-22T18:00:57Z
  
-@@ -538296,7 +555723,6 @@
+@@ -538296,7 +555737,6 @@
  name: 5-amino-1-ribofuranosylimidazole-4-carboxamide transmembrane transport
  namespace: biological_process
  def: "The process in which 5-amino-1-ribofuranosylimidazole-4-carboxamide is transported across a membrane." [GO_REF:0000069, GOC:TermGenie, PMID:24778186]
@@ -74758,7 +74772,7 @@
  is_a: GO:0045117 ! azole transmembrane transport
  is_a: GO:1901264 ! carbohydrate derivative transport
  created_by: mcc
-@@ -538308,7 +555734,6 @@
+@@ -538308,7 +555748,6 @@
  namespace: molecular_function
  def: "Enables the transfer of 5-amino-1-ribofuranosylimidazole-4-carboxamide from one side of a membrane to the other." [GO_REF:0000066, GOC:TermGenie, PMID:24778186]
  synonym: "acadesine transporter activity" EXACT []
@@ -74766,7 +74780,7 @@
  is_a: GO:1901474 ! azole transmembrane transporter activity
  is_a: GO:1901505 ! carbohydrate derivative transmembrane transporter activity
  relationship: part_of GO:1903088 ! 5-amino-1-ribofuranosylimidazole-4-carboxamide transmembrane transport
-@@ -540446,27 +557871,27 @@
+@@ -540446,27 +557885,27 @@
  
  [Term]
  id: GO:1903214
@@ -74803,7 +74817,7 @@
  synonym: "down regulation of mitochondrial protein import" RELATED [GOC:TermGenie]
  synonym: "down regulation of mitochondrial translocation" RELATED [GOC:TermGenie]
  synonym: "down regulation of protein import into mitochondrion" EXACT [GOC:TermGenie]
-@@ -540496,33 +557921,32 @@
+@@ -540496,33 +557935,32 @@
  synonym: "negative regulation of protein import into mitochondrion" EXACT [GOC:TermGenie]
  synonym: "negative regulation of protein targeting to mitochondria" EXACT [GOC:TermGenie]
  synonym: "negative regulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
@@ -74849,7 +74863,7 @@
  synonym: "down regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
  synonym: "down regulation of protein processing involved in protein targeting to mitochondrion" EXACT [GOC:TermGenie]
  synonym: "down-regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
-@@ -540532,11 +557956,9 @@
+@@ -540532,11 +557970,9 @@
  synonym: "inhibition of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
  synonym: "inhibition of protein processing involved in protein targeting to mitochondrion" NARROW [GOC:TermGenie]
  synonym: "negative regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
@@ -74864,7 +74878,7 @@
  created_by: bf
  creation_date: 2014-07-24T10:21:00Z
  
-@@ -547043,9 +564465,10 @@
+@@ -547043,9 +564479,10 @@
  
  [Term]
  id: GO:1903554
@@ -74877,7 +74891,7 @@
  synonym: "G protein coupled receptor protein signaling pathway involved in defence response to Gram-negative bacteria" EXACT [GOC:TermGenie]
  synonym: "G protein coupled receptor protein signaling pathway involved in defence response to Gram-negative bacterium" EXACT [GOC:TermGenie]
  synonym: "G protein coupled receptor protein signaling pathway involved in defense response to Gram-negative bacteria" EXACT [GOC:TermGenie]
-@@ -547094,10 +564517,10 @@
+@@ -547094,10 +564531,10 @@
  synonym: "GPCR signalling pathway involved in defense response to Gram-negative bacteria" EXACT [GOC:TermGenie]
  synonym: "GPCR signalling pathway involved in defense response to Gram-negative bacterium" EXACT [GOC:TermGenie]
  synonym: "GPCR signalling pathway involved in Gram-negative antibacterial peptide activity" RELATED [GOC:TermGenie]
@@ -74892,7 +74906,7 @@
  created_by: kmv
  creation_date: 2014-10-20T17:51:13Z
  
-@@ -547245,19 +564668,19 @@
+@@ -547245,19 +564682,19 @@
  
  [Term]
  id: GO:1903563
@@ -74919,7 +74933,7 @@
  created_by: vw
  creation_date: 2014-10-23T11:06:35Z
  
-@@ -548967,7 +566390,7 @@
+@@ -548967,7 +566404,7 @@
  synonym: "regulation of protein transport into mitochondrial outer membrane" EXACT [GOC:TermGenie]
  is_a: GO:0010821 ! regulation of mitochondrion organization
  is_a: GO:0060341 ! regulation of cellular localization
@@ -74928,7 +74942,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
  relationship: regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
-@@ -548999,8 +566422,8 @@
+@@ -548999,8 +566436,8 @@
  synonym: "negative regulation of protein import into mitochondrial outer membrane" EXACT []
  synonym: "negative regulation of protein transport into mitochondrial outer membrane" EXACT [GOC:TermGenie]
  is_a: GO:0010639 ! negative regulation of organelle organization
@@ -74938,7 +74952,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
  relationship: negatively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
-@@ -549033,7 +566456,7 @@
+@@ -549033,7 +566470,7 @@
  synonym: "upregulation of protein transport into mitochondrial outer membrane" EXACT [GOC:TermGenie]
  is_a: GO:0010638 ! positive regulation of organelle organization
  is_a: GO:1903636 ! regulation of protein insertion into mitochondrial outer membrane
@@ -74947,7 +74961,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
  relationship: positively_regulates GO:0045040 ! protein insertion into mitochondrial outer membrane
-@@ -549840,19 +567263,18 @@
+@@ -549840,19 +567277,18 @@
  
  [Term]
  id: GO:1903682
@@ -74974,7 +74988,7 @@
  created_by: als
  creation_date: 2014-12-01T13:25:14Z
  
-@@ -550389,7 +567811,7 @@
+@@ -550389,7 +567825,7 @@
  namespace: biological_process
  def: "The directed movement of asparagine across a membrane." [GO_REF:0000069, GOC:TermGenie, PMID:18503766]
  is_a: GO:0003333 ! amino acid transmembrane transport
@@ -74983,7 +74997,7 @@
  is_a: GO:1905039 ! carboxylic acid transmembrane transport
  created_by: vw
  creation_date: 2014-12-06T08:17:55Z
-@@ -550843,71 +568265,44 @@
+@@ -550843,71 +568279,44 @@
  
  [Term]
  id: GO:1903747
@@ -75075,7 +75089,7 @@
  created_by: krc
  creation_date: 2014-12-12T22:18:26Z
  
-@@ -551669,7 +569064,6 @@
+@@ -551669,7 +569078,6 @@
  synonym: "regulation of glutathione formation" EXACT [GOC:TermGenie]
  synonym: "regulation of glutathione synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0009889 ! regulation of biosynthetic process
@@ -75083,7 +75097,7 @@
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006750 ! glutathione biosynthetic process
-@@ -551707,7 +569101,6 @@
+@@ -551707,7 +569115,6 @@
  synonym: "negative regulation of glutathione formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of glutathione synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0009890 ! negative regulation of biosynthetic process
@@ -75091,7 +75105,7 @@
  is_a: GO:1903786 ! regulation of glutathione biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0006750 ! glutathione biosynthetic process
-@@ -551745,7 +569138,6 @@
+@@ -551745,7 +569152,6 @@
  synonym: "upregulation of glutathione formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of glutathione synthesis" EXACT [GOC:TermGenie]
  is_a: GO:0009891 ! positive regulation of biosynthetic process
@@ -75099,7 +75113,7 @@
  is_a: GO:1903786 ! regulation of glutathione biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0006750 ! glutathione biosynthetic process
-@@ -555208,10 +572600,10 @@
+@@ -555208,10 +572614,10 @@
  
  [Term]
  id: GO:1903955
@@ -75113,7 +75127,7 @@
  synonym: "activation of mitochondrial protein import" RELATED [GOC:TermGenie]
  synonym: "activation of mitochondrial translocation" RELATED [GOC:TermGenie]
  synonym: "activation of protein import into mitochondrion" NARROW [GOC:TermGenie]
-@@ -555241,11 +572633,9 @@
+@@ -555241,11 +572647,9 @@
  synonym: "upregulation of protein targeting to mitochondria" EXACT [GOC:TermGenie]
  synonym: "upregulation of protein targeting to mitochondrion" EXACT [GOC:TermGenie]
  synonym: "upregulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
@@ -75128,7 +75142,7 @@
  created_by: pad
  creation_date: 2015-02-24T16:58:21Z
  
-@@ -556389,8 +573779,8 @@
+@@ -556389,8 +573793,8 @@
  is_a: GO:0043465 ! regulation of fermentation
  is_a: GO:0043470 ! regulation of carbohydrate catabolic process
  intersection_of: GO:0065007 ! biological regulation
@@ -75139,7 +75153,7 @@
  created_by: dph
  creation_date: 2015-03-11T16:57:32Z
  
-@@ -556439,8 +573829,8 @@
+@@ -556439,8 +573843,8 @@
  is_a: GO:1901003 ! negative regulation of fermentation
  is_a: GO:1904023 ! regulation of glucose catabolic process to lactate via pyruvate
  intersection_of: GO:0065007 ! biological regulation
@@ -75150,7 +75164,7 @@
  created_by: dph
  creation_date: 2015-03-11T16:57:38Z
  
-@@ -556487,8 +573877,8 @@
+@@ -556487,8 +573891,8 @@
  is_a: GO:0010907 ! positive regulation of glucose metabolic process
  is_a: GO:1904023 ! regulation of glucose catabolic process to lactate via pyruvate
  intersection_of: GO:0065007 ! biological regulation
@@ -75161,7 +75175,7 @@
  created_by: dph
  creation_date: 2015-03-11T16:57:44Z
  
-@@ -557020,54 +574410,45 @@
+@@ -557020,54 +574424,45 @@
  
  [Term]
  id: GO:1904051
@@ -75234,7 +75248,7 @@
  created_by: pad
  creation_date: 2015-03-17T13:54:27Z
  
-@@ -557291,9 +574672,10 @@
+@@ -557291,9 +574686,10 @@
  
  [Term]
  id: GO:1904065
@@ -75247,7 +75261,7 @@
  synonym: "acetylcholine receptor signalling, muscarinic pathway involved in activation of acetylcholine secretion" NARROW [GOC:TermGenie]
  synonym: "acetylcholine receptor signalling, muscarinic pathway involved in positive regulation of acetylcholine secretion, neurotransmission" EXACT [GOC:TermGenie]
  synonym: "acetylcholine receptor signalling, muscarinic pathway involved in stimulation of acetylcholine secretion" NARROW [GOC:TermGenie]
-@@ -557312,10 +574694,10 @@
+@@ -557312,10 +574708,10 @@
  synonym: "muscarinic acetylcholine receptor signaling pathway involved in up regulation of acetylcholine secretion" EXACT [GOC:TermGenie]
  synonym: "muscarinic acetylcholine receptor signaling pathway involved in up-regulation of acetylcholine secretion" EXACT [GOC:TermGenie]
  synonym: "muscarinic acetylcholine receptor signaling pathway involved in upregulation of acetylcholine secretion" EXACT [GOC:TermGenie]
@@ -75262,7 +75276,7 @@
  created_by: kmv
  creation_date: 2015-03-19T15:28:47Z
  
-@@ -558500,188 +575882,177 @@
+@@ -558500,188 +575896,177 @@
  
  [Term]
  id: GO:1904127
@@ -75523,7 +75537,7 @@
  created_by: dph
  creation_date: 2015-04-10T21:21:41Z
  
-@@ -559837,7 +577208,6 @@
+@@ -559837,7 +577222,6 @@
  synonym: "membrane protein proteolysis involved in protein retrotranslocation, ER to cytosol" EXACT [GOC:TermGenie]
  synonym: "membrane protein proteolysis involved in retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
  is_a: GO:0033619 ! membrane protein proteolysis
@@ -75531,7 +75545,7 @@
  intersection_of: GO:0033619 ! membrane protein proteolysis
  intersection_of: part_of GO:0030970 ! retrograde protein transport, ER to cytosol
  relationship: part_of GO:0030970 ! retrograde protein transport, ER to cytosol
-@@ -561866,51 +579236,48 @@
+@@ -561866,51 +579250,48 @@
  
  [Term]
  id: GO:1904259
@@ -75604,7 +75618,7 @@
  created_by: als
  creation_date: 2015-05-21T09:20:55Z
  
-@@ -562587,50 +579954,45 @@
+@@ -562587,50 +579968,45 @@
  
  [Term]
  id: GO:1904301
@@ -75673,7 +75687,7 @@
  created_by: sl
  creation_date: 2015-06-09T23:01:45Z
  
-@@ -562808,25 +580170,25 @@
+@@ -562808,25 +580184,25 @@
  
  [Term]
  id: GO:1904318
@@ -75709,7 +75723,7 @@
  synonym: "down regulation of smooth muscle contraction involved in micturition" EXACT [GOC:TermGenie]
  synonym: "down regulation of smooth muscle contraction involved in urination" RELATED [GOC:TermGenie]
  synonym: "down regulation of urinary bladder smooth muscle contraction involved in micturition" RELATED [GOC:TermGenie]
-@@ -562841,19 +580203,18 @@
+@@ -562841,19 +580217,18 @@
  synonym: "inhibition of urinary bladder smooth muscle contraction involved in micturition" RELATED [GOC:TermGenie]
  synonym: "negative regulation of smooth muscle contraction involved in urination" RELATED [GOC:TermGenie]
  synonym: "negative regulation of urinary bladder smooth muscle contraction involved in micturition" RELATED [GOC:TermGenie]
@@ -75736,7 +75750,7 @@
  synonym: "activation of smooth muscle contraction involved in micturition" NARROW [GOC:TermGenie]
  synonym: "activation of smooth muscle contraction involved in urination" RELATED [GOC:TermGenie]
  synonym: "activation of urinary bladder smooth muscle contraction involved in micturition" RELATED [GOC:TermGenie]
-@@ -562868,11 +580229,10 @@
+@@ -562868,11 +580243,10 @@
  synonym: "upregulation of smooth muscle contraction involved in micturition" EXACT [GOC:TermGenie]
  synonym: "upregulation of smooth muscle contraction involved in urination" RELATED [GOC:TermGenie]
  synonym: "upregulation of urinary bladder smooth muscle contraction involved in micturition" RELATED [GOC:TermGenie]
@@ -75752,7 +75766,7 @@
  created_by: sl
  creation_date: 2015-06-10T18:46:23Z
  
-@@ -563885,20 +581245,12 @@
+@@ -563885,20 +581259,12 @@
  
  [Term]
  id: GO:1904378
@@ -75778,7 +75792,7 @@
  created_by: bf
  creation_date: 2015-06-23T09:21:53Z
  
-@@ -564067,7 +581419,7 @@
+@@ -564067,7 +581433,7 @@
  name: response to ciliary neurotrophic factor
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ciliary neurotrophic factor stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:16914133]
@@ -75787,7 +75801,7 @@
  created_by: sl
  creation_date: 2015-06-23T19:13:04Z
  
-@@ -564076,7 +581428,7 @@
+@@ -564076,7 +581442,7 @@
  name: cellular response to ciliary neurotrophic factor
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ciliary neurotrophic factor stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:16914133]
@@ -75796,7 +75810,7 @@
  is_a: GO:1904391 ! response to ciliary neurotrophic factor
  created_by: sl
  creation_date: 2015-06-23T19:13:10Z
-@@ -564343,7 +581695,7 @@
+@@ -564343,7 +581709,7 @@
  name: melatonin binding
  namespace: molecular_function
  def: "Binding to melatonin." [GO_REF:0000067, GOC:mr, GOC:TermGenie, PMID:10379923]
@@ -75805,7 +75819,7 @@
  created_by: mr
  creation_date: 2015-06-25T19:19:53Z
  
-@@ -567623,7 +584975,6 @@
+@@ -567623,7 +584989,6 @@
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glycoprotein stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:14597422]
  synonym: "response to glycoproteins" EXACT []
@@ -75813,7 +75827,7 @@
  is_a: GO:1901700 ! response to oxygen-containing compound
  created_by: sl
  creation_date: 2015-08-20T16:46:24Z
-@@ -567634,7 +584985,6 @@
+@@ -567634,7 +584999,6 @@
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a glycoprotein stimulus." [GO_REF:0000071, GOC:TermGenie, PMID:14597422]
  synonym: "cellular response to glycoproteins" EXACT []
@@ -75821,7 +75835,7 @@
  is_a: GO:1901701 ! cellular response to oxygen-containing compound
  is_a: GO:1904587 ! response to glycoprotein
  created_by: sl
-@@ -568998,9 +586348,10 @@
+@@ -568998,9 +586362,10 @@
  
  [Term]
  id: GO:1904671
@@ -75834,7 +75848,7 @@
  synonym: "down regulation of cell differentiation involved in maintenance of pluripotency" RELATED [GOC:TermGenie]
  synonym: "down regulation of cell differentiation involved in stem cell population maintenance" EXACT [GOC:TermGenie]
  synonym: "down-regulation of cell differentiation involved in maintenance of pluripotency" RELATED [GOC:TermGenie]
-@@ -569010,10 +586361,10 @@
+@@ -569010,10 +586375,10 @@
  synonym: "inhibition of cell differentiation involved in maintenance of pluripotency" RELATED [GOC:TermGenie]
  synonym: "inhibition of cell differentiation involved in stem cell population maintenance" NARROW [GOC:TermGenie]
  synonym: "negative regulation of cell differentiation involved in maintenance of pluripotency" RELATED [GOC:TermGenie]
@@ -75849,7 +75863,7 @@
  created_by: tb
  creation_date: 2015-09-12T00:46:08Z
  
-@@ -571540,8 +588891,6 @@
+@@ -571540,8 +588905,6 @@
  name: all-trans-retinol binding
  namespace: molecular_function
  def: "Binding to all-trans-retinol." [GO_REF:0000067, GOC:kmv, GOC:TermGenie, PMID:19828452]
@@ -75858,7 +75872,7 @@
  is_a: GO:0019841 ! retinol binding
  created_by: kmv
  creation_date: 2015-10-27T21:14:47Z
-@@ -571984,10 +589333,10 @@
+@@ -571984,10 +589347,10 @@
  
  [Term]
  id: GO:1904786
@@ -75872,7 +75886,7 @@
  synonym: "down regulation of asymmetric protein localisation involved in cell fate determination" EXACT [GOC:TermGenie]
  synonym: "down regulation of asymmetric protein localization involved in cell fate commitment" EXACT [GOC:TermGenie]
  synonym: "down regulation of asymmetric protein localization involved in cell fate determination" EXACT [GOC:TermGenie]
-@@ -572012,11 +589361,10 @@
+@@ -572012,11 +589375,10 @@
  synonym: "negative regulation of asymmetric protein localization involved in cell fate commitment" EXACT [GOC:TermGenie]
  synonym: "negative regulation of asymmetric protein localization resulting in cell fate commitment" EXACT [GOC:TermGenie]
  synonym: "negative regulation of cell fate commitment, asymmetric protein localization" EXACT [GOC:TermGenie]
@@ -75888,7 +75902,7 @@
  created_by: es
  creation_date: 2015-11-03T12:11:13Z
  
-@@ -577463,14 +594811,14 @@
+@@ -577463,14 +594825,14 @@
  
  [Term]
  id: GO:1905038
@@ -75909,7 +75923,7 @@
  created_by: tb
  creation_date: 2016-03-08T20:41:32Z
  
-@@ -577741,30 +595089,30 @@
+@@ -577741,30 +595103,30 @@
  
  [Term]
  id: GO:1905054
@@ -75954,7 +75968,7 @@
  created_by: dos
  creation_date: 2016-03-17T14:35:35Z
  
-@@ -577794,10 +595142,10 @@
+@@ -577794,10 +595156,10 @@
  
  [Term]
  id: GO:1905057
@@ -75968,7 +75982,7 @@
  synonym: "depolarization-activated voltage gated calcium channel activity involved in regulation of postsynaptic cytosolic calcium ion concentration" EXACT [GOC:TermGenie]
  synonym: "depolarization-activated voltage-gated calcium channel activity involved in regulation of postsynaptic cytosolic calcium ion concentration" EXACT [GOC:TermGenie]
  synonym: "depolarization-activated voltage-gated calcium channel involved in regulation of postsynaptic cytosolic calcium ion concentration" EXACT [GOC:TermGenie]
-@@ -577807,10 +595155,10 @@
+@@ -577807,10 +595169,10 @@
  synonym: "voltage-gated calcium channel activity involved in regulation of postsynaptic cytosolic calcium levels" EXACT syngo_official_label []
  synonym: "voltage-gated calcium ion channel activity involved in regulation of postsynaptic cytosolic calcium ion concentration" EXACT [GOC:TermGenie]
  synonym: "voltage-sensitive calcium channel involved in regulation of postsynaptic cytosolic calcium ion concentration" EXACT [GOC:TermGenie]
@@ -75983,7 +75997,7 @@
  created_by: dos
  creation_date: 2016-03-18T12:31:48Z
  
-@@ -579252,7 +596600,6 @@
+@@ -579252,7 +596614,6 @@
  namespace: biological_process
  def: "The directed movement of carcinine from outside of a cell, across the plasma membrane and into the cytosol." [GO_REF:0000075, GOC:dph, GOC:TermGenie, PMID:26653853, PMID:26713872]
  is_a: GO:0015695 ! organic cation transport
@@ -75991,7 +76005,7 @@
  is_a: GO:0045117 ! azole transmembrane transport
  is_a: GO:0072337 ! modified amino acid transport
  is_a: GO:0098739 ! import across plasma membrane
-@@ -579264,7 +596611,6 @@
+@@ -579264,7 +596625,6 @@
  name: carcinine transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of carcinine from one side of a membrane to the other." [GO_REF:0000070, GOC:dph, GOC:TermGenie, PMID:26653853, PMID:26713872]
@@ -75999,7 +76013,7 @@
  is_a: GO:0072349 ! modified amino acid transmembrane transporter activity
  is_a: GO:1901474 ! azole transmembrane transporter activity
  created_by: dph
-@@ -579367,7 +596713,7 @@
+@@ -579367,7 +596727,7 @@
  synonym: "dethiobiotin import" RELATED []
  synonym: "dethiobiotin import into cell" EXACT []
  is_a: GO:0015718 ! monocarboxylic acid transport
@@ -76008,7 +76022,7 @@
  is_a: GO:0098739 ! import across plasma membrane
  is_a: GO:1905039 ! carboxylic acid transmembrane transport
  created_by: jl
-@@ -580538,14 +597884,15 @@
+@@ -580538,14 +597898,15 @@
  
  [Term]
  id: GO:1905197
@@ -76030,7 +76044,7 @@
  created_by: dos
  creation_date: 2016-05-12T14:29:38Z
  
-@@ -581964,9 +599311,10 @@
+@@ -581964,9 +599325,10 @@
  
  [Term]
  id: GO:1905283
@@ -76043,7 +76057,7 @@
  synonym: "down regulation of EGF receptor signaling pathway involved in cardiac process" RELATED [GOC:TermGenie]
  synonym: "down regulation of EGF receptor signaling pathway involved in heart process" EXACT [GOC:TermGenie]
  synonym: "down regulation of EGF receptor signalling pathway involved in cardiac process" RELATED [GOC:TermGenie]
-@@ -582036,20 +599384,18 @@
+@@ -582036,20 +599398,18 @@
  synonym: "negative regulation of ERBB1 signaling pathway involved in heart process" EXACT [GOC:TermGenie]
  synonym: "negative regulation of receptor tyrosine-protein kinase erbB-1 signaling pathway involved in cardiac process" RELATED [GOC:TermGenie]
  synonym: "negative regulation of receptor tyrosine-protein kinase erbB-1 signaling pathway involved in heart process" EXACT [GOC:TermGenie]
@@ -76070,7 +76084,7 @@
  synonym: "activation of EGF receptor signaling pathway involved in cardiac process" RELATED [GOC:TermGenie]
  synonym: "activation of EGF receptor signaling pathway involved in heart process" NARROW [GOC:TermGenie]
  synonym: "activation of EGF receptor signalling pathway involved in cardiac process" RELATED [GOC:TermGenie]
-@@ -582119,12 +599465,9 @@
+@@ -582119,12 +599479,9 @@
  synonym: "upregulation of ERBB1 signaling pathway involved in heart process" EXACT [GOC:TermGenie]
  synonym: "upregulation of receptor tyrosine-protein kinase erbB-1 signaling pathway involved in cardiac process" RELATED [GOC:TermGenie]
  synonym: "upregulation of receptor tyrosine-protein kinase erbB-1 signaling pathway involved in heart process" EXACT [GOC:TermGenie]
@@ -76086,7 +76100,7 @@
  created_by: bc
  creation_date: 2016-06-20T14:40:57Z
  
-@@ -582570,18 +599913,17 @@
+@@ -582570,18 +599927,17 @@
  
  [Term]
  id: GO:1905311
@@ -76111,7 +76125,7 @@
  created_by: rl
  creation_date: 2016-07-11T17:34:35Z
  
-@@ -585221,7 +602563,7 @@
+@@ -585221,7 +602577,7 @@
  name: microcystin transport
  namespace: biological_process
  def: "The directed movement of a microcystin into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." [GO_REF:0000065, GOC:TermGenie, PMID:26055554]
@@ -76120,7 +76134,7 @@
  created_by: cvs
  creation_date: 2016-09-13T23:15:51Z
  
-@@ -588204,7 +605546,6 @@
+@@ -588204,7 +605560,6 @@
  synonym: "regulation of ferrichrome biosynthetic process, peptide modification" NARROW [GOC:TermGenie]
  synonym: "regulation of ferrichrome formation" EXACT [GOC:TermGenie]
  synonym: "regulation of ferrichrome synthesis" EXACT [GOC:TermGenie]
@@ -76128,7 +76142,7 @@
  is_a: GO:1900704 ! regulation of siderophore biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0031169 ! ferrichrome biosynthetic process
-@@ -588251,7 +605592,6 @@
+@@ -588251,7 +605606,6 @@
  synonym: "negative regulation of ferrichrome biosynthetic process, peptide modification" NARROW [GOC:TermGenie]
  synonym: "negative regulation of ferrichrome formation" EXACT [GOC:TermGenie]
  synonym: "negative regulation of ferrichrome synthesis" EXACT [GOC:TermGenie]
@@ -76136,7 +76150,7 @@
  is_a: GO:1900705 ! negative regulation of siderophore biosynthetic process
  is_a: GO:1905568 ! regulation of ferrichrome biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -588299,7 +605639,6 @@
+@@ -588299,7 +605653,6 @@
  synonym: "upregulation of ferrichrome biosynthetic process, peptide modification" NARROW [GOC:TermGenie]
  synonym: "upregulation of ferrichrome formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of ferrichrome synthesis" EXACT [GOC:TermGenie]
@@ -76144,7 +76158,7 @@
  is_a: GO:1900706 ! positive regulation of siderophore biosynthetic process
  is_a: GO:1905568 ! regulation of ferrichrome biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -590923,9 +608262,7 @@
+@@ -590923,9 +608276,7 @@
  synonym: "regulation of shmoo orientation" NARROW [GOC:TermGenie]
  synonym: "regulation of shmooing" NARROW [GOC:TermGenie]
  is_a: GO:0022604 ! regulation of cell morphogenesis
@@ -76155,7 +76169,7 @@
  created_by: mah
  creation_date: 2016-11-18T11:33:54Z
  
-@@ -591242,16 +608579,16 @@
+@@ -591242,16 +608593,16 @@
  
  [Term]
  id: GO:1905741
@@ -76179,7 +76193,7 @@
  created_by: dos
  creation_date: 2016-12-06T10:05:01Z
  
-@@ -591266,17 +608603,16 @@
+@@ -591266,17 +608617,16 @@
  
  [Term]
  id: GO:1905743
@@ -76204,7 +76218,7 @@
  created_by: dos
  creation_date: 2016-12-06T10:53:17Z
  
-@@ -595306,7 +612642,9 @@
+@@ -595306,7 +612656,9 @@
  is_a: GO:0001409 ! guanine nucleotide transmembrane transporter activity
  is_a: GO:0005346 ! purine ribonucleotide transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -76214,7 +76228,7 @@
  created_by: ha
  creation_date: 2017-02-16T15:54:51Z
  
-@@ -595553,7 +612891,9 @@
+@@ -595553,7 +612905,9 @@
  xref: MetaCyc:RXN0-4281
  xref: RHEA:27986
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
@@ -76224,7 +76238,7 @@
  created_by: jl
  creation_date: 2012-12-05T15:55:06Z
  
-@@ -595571,6 +612911,9 @@
+@@ -595571,6 +612925,9 @@
  xref: Reactome:R-HSA-2509816 "NUDT16 hydrolyses IDP to IMP"
  xref: RHEA:35207
  is_a: GO:0017110 ! nucleoside diphosphate phosphatase activity
@@ -76234,7 +76248,7 @@
  created_by: jl
  creation_date: 2012-12-05T16:46:52Z
  
-@@ -596115,6 +613458,7 @@
+@@ -596115,6 +613472,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: DNA containing 5-methylcytosine + H2O = DNA with abasic site + 5-methylcytosine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the DNA 5-methylcytosine and the deoxyribose sugar to remove the 5-methylcytosine, leaving an abasic site." [PMID:23316050]
  is_a: GO:0003905 ! alkylbase DNA N-glycosylase activity
@@ -76242,7 +76256,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: tb
  creation_date: 2013-02-22T01:09:06Z
-@@ -596141,7 +613485,10 @@
+@@ -596141,7 +613499,10 @@
  xref: MetaCyc:RXN-8990
  xref: RHEA:55532
  is_a: GO:0016831 ! carboxy-lyase activity
@@ -76253,7 +76267,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
  created_by: tb
  creation_date: 2013-02-25T20:22:35Z
-@@ -596357,13 +613704,14 @@
+@@ -596357,13 +613718,14 @@
  
  [Term]
  id: GO:1990076
@@ -76274,7 +76288,7 @@
  created_by: dhl
  creation_date: 2013-04-25T16:29:43Z
  
-@@ -596471,10 +613819,10 @@
+@@ -596471,10 +613833,10 @@
  
  [Term]
  id: GO:1990088
@@ -76287,7 +76301,7 @@
  comment: This function is the second step in the pathway of methanogenesis from methanol.
  synonym: "methanol-specific methylcobalamin: coenzyme M methyltransferase activity" EXACT []
  synonym: "methanol-specific methylcobalamin:coenzyme M methyltransferase activity" EXACT []
-@@ -596485,7 +613833,10 @@
+@@ -596485,7 +613847,10 @@
  xref: MetaCyc:RXN-8096
  xref: RHEA:45208
  is_a: GO:0008168 ! methyltransferase activity
@@ -76298,7 +76312,7 @@
  created_by: hjd
  creation_date: 2013-05-06T15:07:20Z
  
-@@ -596695,6 +614046,8 @@
+@@ -596695,6 +614060,8 @@
  xref: RHEA:26297
  is_a: GO:0016783 ! sulfurtransferase activity
  relationship: part_of GO:0009228 ! thiamine biosynthetic process
@@ -76307,7 +76321,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28942" xsd:anyURI
  created_by: pr
  creation_date: 2013-05-28T12:36:04Z
-@@ -596982,6 +614335,9 @@
+@@ -596982,6 +614349,9 @@
  xref: EC:1.13.11.58
  xref: RHEA:30291
  is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
@@ -76317,7 +76331,7 @@
  created_by: pr
  creation_date: 2013-07-03T12:20:57Z
  
-@@ -596993,8 +614349,12 @@
+@@ -596993,8 +614363,12 @@
  synonym: "peroxygenase activity" BROAD [PMID:19467604]
  synonym: "plant seed peroxidase activity" RELATED []
  xref: EC:1.11.2.3
@@ -76330,7 +76344,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
  created_by: tb
-@@ -597251,6 +614611,7 @@
+@@ -597251,6 +614625,7 @@
  synonym: "histone H3K14 deacetylase activity" BROAD []
  is_a: GO:0141050 ! histone H3K deacetylase activity
  is_a: GO:0141221 ! histone deacetylase activity, hydrolytic mechanism
@@ -76338,7 +76352,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: pr
-@@ -597375,8 +614736,6 @@
+@@ -597375,8 +614750,6 @@
  namespace: molecular_function
  def: "Catalysis of the removal of the cap from an unmethylated 5'-end capped RNA resulting in the release of the entire cap structure (GpppN) and a 5' monophosphorylated RNA." [GOC:dgf, PMID:20802481]
  synonym: "G(5')pppN pyrophosphatase activity" RELATED []
@@ -76347,7 +76361,7 @@
  is_a: GO:0016891 ! RNA endonuclease activity producing 5'-phosphomonoesters, hydrolytic mechanism
  created_by: tb
  creation_date: 2013-08-26T17:51:00Z
-@@ -597553,8 +614912,11 @@
+@@ -597553,8 +614926,11 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: acetyl-CoA + N-terminal L-seryl-[protein] = CoA + H+ + N-terminal Nalpha-acetyl-L-seryl-[protein]." [PMID:23912279, RHEA:50504]
  synonym: "peptide-serine-alpha-N-acetyltransferase activity" EXACT []
@@ -76359,7 +76373,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27532" xsd:anyURI
  created_by: tb
  creation_date: 2013-09-11T20:13:40Z
-@@ -598179,6 +615541,7 @@
+@@ -598179,6 +615555,7 @@
  synonym: "histone threonine kinase activity (H2A-T120 specific)" EXACT []
  is_a: GO:0004674 ! protein serine/threonine kinase activity
  is_a: GO:0140995 ! histone H2A kinase activity
@@ -76367,7 +76381,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
  created_by: sp
-@@ -598349,6 +615712,7 @@
+@@ -598349,6 +615726,7 @@
  xref: RHEA:43228
  is_a: GO:0036009 ! protein-glutamine N-methyltransferase activity
  is_a: GO:0140940 ! histone H2A methyltransferase activity
@@ -76375,7 +76389,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24687" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29860" xsd:anyURI
-@@ -599041,31 +616405,37 @@
+@@ -599041,31 +616419,37 @@
  
  [Term]
  id: GO:1990338
@@ -76422,7 +76436,7 @@
  created_by: bhm
  creation_date: 2014-03-20T23:48:25Z
  
-@@ -599073,9 +616443,10 @@
+@@ -599073,9 +616457,10 @@
  id: GO:1990341
  name: thrombospondin complex
  namespace: cellular_component
@@ -76435,7 +76449,7 @@
  created_by: bhm
  creation_date: 2014-03-21T14:27:07Z
  
-@@ -599292,7 +616663,9 @@
+@@ -599292,7 +616677,9 @@
  synonym: "butanol dehydrogenase activity" BROAD []
  xref: RHEA:33199
  is_a: GO:0004022 ! alcohol dehydrogenase (NAD+) activity
@@ -76445,7 +76459,7 @@
  created_by: tt
  creation_date: 2014-04-23T21:14:09Z
  
-@@ -599808,6 +617181,8 @@
+@@ -599808,6 +617195,8 @@
  xref: RHEA:42688
  is_a: GO:0016846 ! carbon-sulfur lyase activity
  relationship: part_of GO:0052699 ! ergothioneine biosynthetic process
@@ -76454,7 +76468,7 @@
  created_by: mah
  creation_date: 2014-07-02T15:45:43Z
  
-@@ -599929,6 +617304,9 @@
+@@ -599929,6 +617318,9 @@
  xref: EC:2.7.14.1
  xref: RHEA:43384
  is_a: GO:0004672 ! protein kinase activity
@@ -76464,7 +76478,7 @@
  created_by: jl
  creation_date: 2014-07-23T13:35:56Z
  
-@@ -600099,6 +617477,7 @@
+@@ -600099,6 +617491,7 @@
  def: "Catalysis of the reaction: MAP kinase threonine phosphate + H2O = MAP kinase threonine + phosphate and MAP kinase serine phosphate + H2O = MAP kinase serine + phosphate." [PMID:10398679]
  is_a: GO:0004722 ! protein serine/threonine phosphatase activity
  is_a: GO:0033549 ! MAP kinase phosphatase activity
@@ -76472,7 +76486,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: al
  creation_date: 2014-07-31T12:21:04Z
-@@ -600270,12 +617649,13 @@
+@@ -600270,12 +617663,13 @@
  
  [Term]
  id: GO:1990453
@@ -76490,7 +76504,7 @@
  created_by: bhm
  creation_date: 2014-08-08T15:18:30Z
  
-@@ -600408,6 +617788,9 @@
+@@ -600408,6 +617802,9 @@
  xref: RHEA:11272
  is_a: GO:0016901 ! oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor
  is_a: GO:0033719 ! (2R)-oxo-acid reductase activity
@@ -76500,7 +76514,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: pr
  creation_date: 2014-08-22T10:13:42Z
-@@ -600988,6 +618371,7 @@
+@@ -600988,6 +618385,7 @@
  def: "Catalysis of the reaction: ATP + H2O = ADP + phosphate, in the presence of single-stranded DNA; drives the unwinding of the DNA helix in the direction 3' to 5'." [PMID:25165823]
  is_a: GO:0017116 ! single-stranded DNA helicase activity
  is_a: GO:0043138 ! 3'-5' DNA helicase activity
@@ -76508,7 +76522,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: al
  creation_date: 2014-10-22T10:17:40Z
-@@ -601163,6 +618547,8 @@
+@@ -601163,6 +618561,8 @@
  def: "Catalysis of the reaction: S-methyl-5'-thioadenosine + thermospermine + H+ = S-adenosyl 3-(methylthio)propylamine + spermidine." [PMID:24906355, RHEA:57836]
  xref: RHEA:57836
  is_a: GO:0046592 ! polyamine oxidase activity
@@ -76517,7 +76531,7 @@
  created_by: tb
  creation_date: 2014-11-13T00:41:59Z
  
-@@ -601676,7 +619062,7 @@
+@@ -601676,7 +619076,7 @@
  namespace: molecular_function
  def: "Binds to and increases the activity of the enzyme phospholipase D." [PMID:7972129]
  is_a: GO:0016004 ! phospholipase activator activity
@@ -76526,7 +76540,7 @@
  created_by: sl
  creation_date: 2014-12-10T21:04:46Z
  
-@@ -601700,6 +619086,9 @@
+@@ -601700,6 +619100,9 @@
  xref: MetaCyc:RXN-15011
  xref: RHEA:49472
  is_a: GO:0016763 ! pentosyltransferase activity
@@ -76536,7 +76550,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  created_by: tb
  creation_date: 2014-12-12T18:22:20Z
-@@ -601795,6 +619184,8 @@
+@@ -601795,6 +619198,8 @@
  synonym: "L-talarate dehydratase activity" EXACT []
  xref: RHEA:44028
  is_a: GO:0016836 ! hydro-lyase activity
@@ -76545,7 +76559,7 @@
  created_by: jl
  creation_date: 2014-12-16T14:23:55Z
  
-@@ -601836,7 +619227,9 @@
+@@ -601836,7 +619241,9 @@
  name: 3' overhang single-stranded DNA endodeoxyribonuclease activity
  namespace: molecular_function
  def: "Catalysis of the hydrolysis of ester linkages within 3' overhang single-stranded deoxyribonucleic acid by creating internal breaks." [PMID:25203555]
@@ -76555,7 +76569,7 @@
  created_by: al
  creation_date: 2015-01-06T15:21:28Z
  
-@@ -601908,6 +619301,7 @@
+@@ -601908,6 +619315,7 @@
  namespace: molecular_function
  def: "Generation of a 'twisting' activity resulting in the scission of a membrane, driven by GTP hydrolysis." [PMID:11242086, PMID:23530241, PMID:24515348]
  is_a: GO:0061791 ! GTPase motor activity
@@ -76563,7 +76577,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  created_by: vw
  creation_date: 2015-01-19T14:26:50Z
-@@ -602531,6 +619925,9 @@
+@@ -602531,6 +619939,9 @@
  xref: EC:1.3.98.1
  xref: RHEA:30059
  is_a: GO:0004152 ! dihydroorotate dehydrogenase activity
@@ -76573,7 +76587,7 @@
  created_by: al
  creation_date: 2015-02-26T15:47:30Z
  
-@@ -602932,7 +620329,11 @@
+@@ -602932,7 +620343,11 @@
  namespace: molecular_function
  def: "Catalysis of the transfer of a palmitoleoyl group, a 16-carbon monounsaturated fatty acid (C16:1), to an acceptor molecule." [PMID:17141155, PMID:25731175]
  comment: Note that this term should not be confused with 'palmitoyltransferase activity ; GO:0016409'.
@@ -76585,7 +76599,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27365" xsd:anyURI
  created_by: sp
  creation_date: 2015-03-13T08:58:25Z
-@@ -602942,7 +620343,11 @@
+@@ -602942,7 +620357,11 @@
  name: palmitoleyl hydrolase activity
  namespace: molecular_function
  def: "Catalysis of a hydrolase reaction that removes a palmitoleyl moiety, a 16-carbon monounsaturated fatty acid (C16:1), from some substrate." [PMID:25731175]
@@ -76597,7 +76611,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24890" xsd:anyURI
  created_by: sp
  creation_date: 2015-03-13T09:00:05Z
-@@ -603089,11 +620494,12 @@
+@@ -603089,11 +620508,12 @@
  id: GO:1990713
  name: survivin complex
  namespace: cellular_component
@@ -76611,7 +76625,7 @@
  created_by: bhm
  creation_date: 2015-03-26T14:21:46Z
  
-@@ -603369,6 +620775,9 @@
+@@ -603369,6 +620789,9 @@
  xref: EC:3.1.3.96
  xref: RHEA:10944
  is_a: GO:0016791 ! phosphatase activity
@@ -76621,7 +76635,7 @@
  created_by: vw
  creation_date: 2015-05-02T11:05:50Z
  
-@@ -603834,13 +621243,13 @@
+@@ -603834,13 +621257,13 @@
  
  [Term]
  id: GO:1990787
@@ -76640,7 +76654,7 @@
  created_by: bhm
  creation_date: 2015-06-26T09:54:29Z
  
-@@ -604186,10 +621595,12 @@
+@@ -604186,10 +621609,12 @@
  xref: MetaCyc:POLYNUCLEOTIDE-ADENYLYLTRANSFERASE-RXN
  xref: Reactome:R-HSA-72185 "mRNA polyadenylation"
  xref: Reactome:R-HSA-9833031 "Polyadenylation of respiratory syncytial virus subgenomic positive-sense mRNAs"
@@ -76654,7 +76668,7 @@
  created_by: vw
  creation_date: 2015-07-31T09:38:31Z
  
-@@ -604399,6 +621810,7 @@
+@@ -604399,6 +621824,7 @@
  def: "Catalysis of the reaction: a 3'-end uridylyl-uridine-RNA = a 3'-end 2',3'-cyclophospho-uridine-RNA + uridine." [PMID:23022480, RHEA:46052]
  xref: RHEA:46052
  is_a: GO:0000175 ! 3'-5'-RNA exonuclease activity
@@ -76662,7 +76676,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30714" xsd:anyURI
  created_by: al
  creation_date: 2015-08-26T10:24:51Z
-@@ -604474,7 +621886,8 @@
+@@ -604474,7 +621900,8 @@
  namespace: biological_process
  def: "The regulated production of heat in response to short term environmental changes, such as stress, diet or reduced temperature." [PMID:17260010, PMID:20363363]
  xref: Reactome:R-HSA-166187 "Mitochondrial Uncoupling"
@@ -76672,7 +76686,7 @@
  created_by: sl
  creation_date: 2015-08-31T18:19:49Z
  
-@@ -604922,6 +622335,7 @@
+@@ -604922,6 +622349,7 @@
  def: "Catalysis of the reaction: a cytidine in 18S rRNA + acetyl-CoA + ATP + H2O = an N(4)-acetylcytidine in 18S rRNA + ADP + phosphate + CoA + H+." [PMID:25402480, RHEA:51424]
  xref: RHEA:51424
  is_a: GO:0008080 ! N-acetyltransferase activity
@@ -76680,7 +76694,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29506" xsd:anyURI
  created_by: al
  creation_date: 2015-10-28T13:27:35Z
-@@ -605392,8 +622806,15 @@
+@@ -605392,8 +622820,15 @@
  id: GO:1990929
  name: sulfoquinovosidase activity
  namespace: molecular_function
@@ -76698,7 +76712,7 @@
  created_by: tb
  creation_date: 2016-02-19T01:18:37Z
  
-@@ -605407,6 +622828,8 @@
+@@ -605407,6 +622842,8 @@
  xref: EC:1.14.11.54
  xref: RHEA:49516
  is_a: GO:0035515 ! oxidative RNA demethylase activity
@@ -76707,7 +76721,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21812" xsd:anyURI
  created_by: sp
  creation_date: 2016-03-10T08:06:47Z
-@@ -605422,6 +622845,8 @@
+@@ -605422,6 +622859,8 @@
  xref: EC:1.14.11.53
  xref: RHEA:49520
  is_a: GO:0035515 ! oxidative RNA demethylase activity
@@ -76716,7 +76730,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21812" xsd:anyURI
  created_by: sp
  creation_date: 2016-03-10T08:10:10Z
-@@ -605819,14 +623244,14 @@
+@@ -605819,14 +623258,14 @@
  id: GO:1990971
  name: EMILIN complex
  namespace: cellular_component
@@ -76734,7 +76748,7 @@
  created_by: bhm
  creation_date: 2016-06-21T14:41:18Z
  
-@@ -605834,8 +623259,7 @@
+@@ -605834,8 +623273,7 @@
  id: GO:1990972
  name: multimerin complex
  namespace: cellular_component
@@ -76744,7 +76758,7 @@
  synonym: "Elastic microfibrillar interface 3 complex" NARROW []
  synonym: "Elastic microfibrillar interface 4 complex" NARROW []
  synonym: "EMILIN-3 complex" NARROW []
-@@ -605845,7 +623269,8 @@
+@@ -605845,7 +623283,8 @@
  synonym: "p155 complex" NARROW []
  synonym: "Platelet glycoprotein Ia* complex" NARROW []
  is_a: GO:0098637 ! protein complex involved in cell-matrix adhesion
@@ -76754,7 +76768,7 @@
  created_by: bhm
  creation_date: 2016-06-21T14:49:42Z
  
-@@ -606785,8 +624210,7 @@
+@@ -606785,8 +624224,7 @@
  synonym: "regulation of protein ubiquitinylation during ubiquitin-dependent protein catabolism" EXACT [GOC:obol]
  synonym: "regulation of protein ubiquitylation during ubiquitin-dependent protein catabolic process" EXACT [GOC:obol]
  synonym: "regulation of protein ubiquitylation during ubiquitin-dependent protein catabolism" EXACT [GOC:obol]
@@ -76764,7 +76778,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006511 ! ubiquitin-dependent protein catabolic process
  relationship: regulates GO:0006511 ! ubiquitin-dependent protein catabolic process
-@@ -606808,8 +624232,7 @@
+@@ -606808,8 +624246,7 @@
  synonym: "negative regulation of protein ubiquitinylation during ubiquitin-dependent protein catabolism" NARROW [GOC:obol]
  synonym: "negative regulation of protein ubiquitylation during ubiquitin-dependent protein catabolic process" NARROW [GOC:obol]
  synonym: "negative regulation of protein ubiquitylation during ubiquitin-dependent protein catabolism" NARROW [GOC:obol]
@@ -76774,7 +76788,7 @@
  is_a: GO:2000058 ! regulation of ubiquitin-dependent protein catabolic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0006511 ! ubiquitin-dependent protein catabolic process
-@@ -606831,8 +624254,7 @@
+@@ -606831,8 +624268,7 @@
  synonym: "positive regulation of protein ubiquitinylation during ubiquitin-dependent protein catabolism" NARROW [GOC:obol]
  synonym: "positive regulation of protein ubiquitylation during ubiquitin-dependent protein catabolic process" NARROW [GOC:obol]
  synonym: "positive regulation of protein ubiquitylation during ubiquitin-dependent protein catabolism" NARROW [GOC:obol]
@@ -76784,7 +76798,7 @@
  is_a: GO:2000058 ! regulation of ubiquitin-dependent protein catabolic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0006511 ! ubiquitin-dependent protein catabolic process
-@@ -607199,42 +624621,43 @@
+@@ -607199,42 +624635,43 @@
  
  [Term]
  id: GO:2000084
@@ -76848,7 +76862,7 @@
  created_by: dph
  creation_date: 2010-09-03T06:08:24Z
  
-@@ -607964,44 +625387,43 @@
+@@ -607964,44 +625401,43 @@
  
  [Term]
  id: GO:2000139
@@ -76914,7 +76928,7 @@
  created_by: mah
  creation_date: 2010-09-30T02:48:12Z
  
-@@ -609063,8 +626485,8 @@
+@@ -609063,8 +626499,8 @@
  is_a: GO:0006521 ! regulation of amino acid metabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  intersection_of: GO:0065007 ! biological regulation
@@ -76925,7 +76939,7 @@
  created_by: mah
  creation_date: 2010-11-03T02:45:20Z
  
-@@ -609235,9 +626657,9 @@
+@@ -609235,9 +626671,9 @@
  namespace: biological_process
  def: "Any process that stops, prevents, or reduces the frequency, rate or extent of pancreatic A cell differentiation." [GOC:mah]
  synonym: "negative regulation of pancreatic alpha cell differentiation" EXACT [GOC:obol]
@@ -76936,7 +76950,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0003310 ! pancreatic A cell differentiation
  relationship: negatively_regulates GO:0003310 ! pancreatic A cell differentiation
-@@ -610276,32 +627698,31 @@
+@@ -610276,32 +627712,31 @@
  
  [Term]
  id: GO:2000298
@@ -76983,7 +76997,7 @@
  created_by: mah
  creation_date: 2010-12-23T11:44:57Z
  
-@@ -610355,7 +627776,6 @@
+@@ -610355,7 +627790,6 @@
  synonym: "regulation of ceramide biosynthesis" EXACT [GOC:obol]
  synonym: "regulation of ceramide formation" EXACT [GOC:obol]
  synonym: "regulation of ceramide synthesis" EXACT [GOC:obol]
@@ -76991,7 +77005,7 @@
  is_a: GO:0090153 ! regulation of sphingolipid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0046513 ! ceramide biosynthetic process
-@@ -610373,7 +627793,6 @@
+@@ -610373,7 +627807,6 @@
  synonym: "positive regulation of ceramide formation" EXACT [GOC:obol]
  synonym: "positive regulation of ceramide synthesis" EXACT [GOC:obol]
  xref: Reactome:R-HSA-5626978 "TNFR1-mediated ceramide production"
@@ -76999,7 +77013,7 @@
  is_a: GO:0090154 ! positive regulation of sphingolipid biosynthetic process
  is_a: GO:2000303 ! regulation of ceramide biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -610384,17 +627803,18 @@
+@@ -610384,17 +627817,18 @@
  
  [Term]
  id: GO:2000305
@@ -77024,7 +77038,7 @@
  created_by: sart
  creation_date: 2011-01-07T01:42:34Z
  
-@@ -610501,45 +627921,43 @@
+@@ -610501,45 +627935,43 @@
  
  [Term]
  id: GO:2000313
@@ -77091,7 +77105,7 @@
  created_by: vk
  creation_date: 2011-01-18T10:27:19Z
  
-@@ -613162,14 +630580,14 @@
+@@ -613162,14 +630594,14 @@
  
  [Term]
  id: GO:2000496
@@ -77113,7 +77127,7 @@
  created_by: bf
  creation_date: 2011-03-18T02:19:22Z
  
-@@ -613529,15 +630947,14 @@
+@@ -613529,15 +630961,14 @@
  
  [Term]
  id: GO:2000526
@@ -77134,7 +77148,7 @@
  created_by: ebc
  creation_date: 2011-03-23T10:42:30Z
  
-@@ -615940,54 +633357,55 @@
+@@ -615940,54 +633371,55 @@
  
  [Term]
  id: GO:2000702
@@ -77210,7 +77224,7 @@
  created_by: yaf
  creation_date: 2011-05-25T09:48:27Z
  
-@@ -616418,54 +633836,49 @@
+@@ -616418,54 +633850,49 @@
  
  [Term]
  id: GO:2000733
@@ -77280,7 +77294,7 @@
  created_by: yaf
  creation_date: 2011-06-13T11:14:46Z
  
-@@ -616719,9 +634132,7 @@
+@@ -616719,9 +634146,7 @@
  synonym: "regulation of glucosylceramide breakdown" EXACT [GOC:obol]
  synonym: "regulation of glucosylceramide catabolism" EXACT [GOC:obol]
  synonym: "regulation of glucosylceramide degradation" EXACT [GOC:obol]
@@ -77290,7 +77304,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006680 ! glucosylceramide catabolic process
  relationship: regulates GO:0006680 ! glucosylceramide catabolic process
-@@ -616736,7 +634147,6 @@
+@@ -616736,7 +634161,6 @@
  synonym: "positive regulation of glucosylceramide breakdown" EXACT [GOC:obol]
  synonym: "positive regulation of glucosylceramide catabolism" EXACT [GOC:obol]
  synonym: "positive regulation of glucosylceramide degradation" EXACT [GOC:obol]
@@ -77298,7 +77312,7 @@
  is_a: GO:0050996 ! positive regulation of lipid catabolic process
  is_a: GO:2000752 ! regulation of glucosylceramide catabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -616753,9 +634163,7 @@
+@@ -616753,9 +634177,7 @@
  synonym: "regulation of sphingomyelin breakdown" EXACT [GOC:obol]
  synonym: "regulation of sphingomyelin catabolism" EXACT [GOC:obol]
  synonym: "regulation of sphingomyelin degradation" EXACT [GOC:obol]
@@ -77308,7 +77322,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006685 ! sphingomyelin catabolic process
  relationship: regulates GO:0006685 ! sphingomyelin catabolic process
-@@ -616770,7 +634178,6 @@
+@@ -616770,7 +634192,6 @@
  synonym: "positive regulation of sphingomyelin breakdown" EXACT [GOC:obol]
  synonym: "positive regulation of sphingomyelin catabolism" EXACT [GOC:obol]
  synonym: "positive regulation of sphingomyelin degradation" EXACT [GOC:obol]
@@ -77316,7 +77330,7 @@
  is_a: GO:0060697 ! positive regulation of phospholipid catabolic process
  is_a: GO:2000754 ! regulation of sphingomyelin catabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -616901,14 +634308,15 @@
+@@ -616901,14 +634322,15 @@
  
  [Term]
  id: GO:2000764
@@ -77338,7 +77352,7 @@
  created_by: vk
  creation_date: 2011-06-18T04:26:00Z
  
-@@ -617268,16 +634676,14 @@
+@@ -617268,16 +634690,14 @@
  
  [Term]
  id: GO:2000792
@@ -77362,7 +77376,7 @@
  created_by: pr
  creation_date: 2011-06-24T01:53:56Z
  
-@@ -617322,19 +634728,20 @@
+@@ -617322,19 +634742,20 @@
  
  [Term]
  id: GO:2000796
@@ -77389,7 +77403,7 @@
  created_by: bf
  creation_date: 2011-06-27T09:07:42Z
  
-@@ -617391,15 +634798,15 @@
+@@ -617391,15 +634812,15 @@
  
  [Term]
  id: GO:2000801
@@ -77412,7 +77426,7 @@
  created_by: bf
  creation_date: 2011-07-01T12:31:22Z
  
-@@ -617744,16 +635151,12 @@
+@@ -617744,16 +635165,12 @@
  
  [Term]
  id: GO:2000825
@@ -77434,7 +77448,7 @@
  created_by: yaf
  creation_date: 2011-07-15T10:56:14Z
  
-@@ -622056,6 +639459,7 @@
+@@ -622056,6 +639473,7 @@
  def: "Any process that modulates the frequency, rate or extent of glucose catabolic process to ethanol." [GOC:obol]
  synonym: "regulation of ethanol fermentation" EXACT [GOC:obol]
  synonym: "regulation of glucose fermentation to ethanol" EXACT [GOC:obol]
@@ -77442,7 +77456,7 @@
  is_a: GO:0043470 ! regulation of carbohydrate catabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -622074,6 +639478,7 @@
+@@ -622074,6 +639492,7 @@
  is_a: GO:0009895 ! negative regulation of catabolic process
  is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
@@ -77450,7 +77464,7 @@
  is_a: GO:2001154 ! regulation of glycolytic fermentation to ethanol
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0019655 ! pyruvate fermentation to ethanol
-@@ -622513,57 +639918,49 @@
+@@ -622513,57 +639932,49 @@
  
  [Term]
  id: GO:2001191
@@ -77526,7 +77540,7 @@
  created_by: yaf
  creation_date: 2011-11-03T04:28:48Z
  
-@@ -622576,8 +639973,8 @@
+@@ -622576,8 +639987,8 @@
  synonym: "regulation of lysine biosynthetic process via aminoadipic acid and saccharopine" EXACT [GOC:obol]
  is_a: GO:1902986 ! regulation of lysine biosynthetic process via aminoadipic acid
  intersection_of: GO:0065007 ! biological regulation
@@ -77537,7 +77551,7 @@
  created_by: mcc
  creation_date: 2011-11-03T07:57:11Z
  
-@@ -622591,8 +639988,8 @@
+@@ -622591,8 +640002,8 @@
  is_a: GO:1902987 ! negative regulation of lysine biosynthetic process via aminoadipic acid
  is_a: GO:2001194 ! regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine
  intersection_of: GO:0065007 ! biological regulation
@@ -77548,7 +77562,7 @@
  created_by: mcc
  creation_date: 2011-11-03T07:57:18Z
  
-@@ -622607,8 +640004,8 @@
+@@ -622607,8 +640018,8 @@
  is_a: GO:2000284 ! positive regulation of amino acid biosynthetic process
  is_a: GO:2001194 ! regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine
  intersection_of: GO:0065007 ! biological regulation
@@ -77559,7 +77573,7 @@
  created_by: mcc
  creation_date: 2011-11-03T07:57:24Z
  
-@@ -622762,7 +640159,6 @@
+@@ -622762,7 +640173,6 @@
  synonym: "regulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:obol]
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
  is_a: GO:0019747 ! regulation of isoprenoid metabolic process
@@ -77567,7 +77581,7 @@
  is_a: GO:0042762 ! regulation of sulfur metabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
  is_a: GO:0071071 ! regulation of phospholipid biosynthetic process
-@@ -622782,7 +640178,6 @@
+@@ -622782,7 +640192,6 @@
  synonym: "negative regulation of isopentenyl diphosphate anabolism, mevalonate pathway" EXACT [GOC:obol]
  synonym: "negative regulation of isopentenyl diphosphate formation, mevalonate pathway" EXACT [GOC:obol]
  synonym: "negative regulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:obol]
@@ -77575,7 +77589,7 @@
  is_a: GO:0045827 ! negative regulation of isoprenoid metabolic process
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
-@@ -623579,9 +640974,10 @@
+@@ -623579,9 +640988,10 @@
  
  [Term]
  id: GO:2001266
@@ -77588,7 +77602,7 @@
  synonym: "ROBO signaling pathway involved in axon chemotaxis" RELATED [GOC:obol]
  synonym: "ROBO signaling pathway involved in axon growth cone guidance" RELATED [GOC:obol]
  synonym: "ROBO signaling pathway involved in axon guidance" EXACT [GOC:obol]
-@@ -623597,10 +640993,10 @@
+@@ -623597,10 +641007,10 @@
  synonym: "Roundabout signalling pathway involved in axon growth cone guidance" RELATED [GOC:obol]
  synonym: "Roundabout signalling pathway involved in axon guidance" EXACT [GOC:obol]
  synonym: "Roundabout signalling pathway involved in axon pathfinding" EXACT [GOC:obol]
@@ -77603,7 +77617,7 @@
  created_by: bf
  creation_date: 2011-12-12T03:40:20Z
  
-@@ -623841,9 +641237,10 @@
+@@ -623841,9 +641251,10 @@
  
  [Term]
  id: GO:2001283
@@ -77616,7 +77630,7 @@
  synonym: "ROBO signaling pathway involved in muscle cell attraction" RELATED [GOC:obol]
  synonym: "ROBO signaling pathway involved in muscle cell chemotaxis toward tendon cell" EXACT [GOC:obol]
  synonym: "ROBO signaling pathway involved in muscle cell chemotaxis towards tendon cell" EXACT [GOC:obol]
-@@ -623855,10 +641252,10 @@
+@@ -623855,10 +641266,10 @@
  synonym: "Roundabout signalling pathway involved in muscle cell attraction" RELATED [GOC:obol]
  synonym: "Roundabout signalling pathway involved in muscle cell chemotaxis toward tendon cell" EXACT [GOC:obol]
  synonym: "Roundabout signalling pathway involved in muscle cell chemotaxis towards tendon cell" EXACT [GOC:obol]
@@ -77631,7 +77645,7 @@
  created_by: bf
  creation_date: 2011-12-15T10:42:03Z
  
-@@ -624238,7 +641635,6 @@
+@@ -624238,7 +641649,6 @@
  synonym: "gliotoxin catabolism" EXACT [GOC:obol]
  synonym: "gliotoxin degradation" EXACT [GOC:obol]
  is_a: GO:0043387 ! mycotoxin catabolic process
@@ -77639,7 +77653,7 @@
  is_a: GO:0044273 ! sulfur compound catabolic process
  is_a: GO:0051410 ! detoxification of nitrogen compound
  created_by: pr
-@@ -624254,7 +641650,6 @@
+@@ -624254,7 +641664,6 @@
  synonym: "gliotoxin formation" EXACT [GOC:obol]
  synonym: "gliotoxin synthesis" EXACT [GOC:obol]
  is_a: GO:0043386 ! mycotoxin biosynthetic process
@@ -77647,7 +77661,7 @@
  is_a: GO:0044272 ! sulfur compound biosynthetic process
  relationship: has_part GO:0003839 ! gamma-glutamylcyclotransferase activity
  relationship: has_part GO:0004364 ! glutathione transferase activity
-@@ -624422,6 +641817,7 @@
+@@ -624422,6 +641831,7 @@
  def: "Catalysis of the reaction: an L-alpha-amino acid + cholate = an N-choloyl-L-alpha-amino acid + H2O." [PMID:38326608, PMID:38326609, PMID:40446798, RHEA:79087]
  xref: RHEA:79087
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
@@ -77655,7 +77669,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624433,6 +641829,7 @@
+@@ -624433,6 +641843,7 @@
  def: "Catalysis of the reaction: cholate + L-serine = L-serocholate + H2O." [PMID:38326609, RHEA:79139]
  xref: RHEA:79139
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -77663,7 +77677,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624444,6 +641841,7 @@
+@@ -624444,6 +641855,7 @@
  def: "Catalysis of the reaction: cholate + L-alanine = L-alanocholate + H2O." [PMID:38326609, RHEA:79131]
  xref: RHEA:79131
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -77671,7 +77685,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624455,6 +641853,7 @@
+@@ -624455,6 +641867,7 @@
  def: "Catalysis of the reaction: cholate + L-phenylalanine = L-phenylalanocholate + H2O." [PMID:38326608, RHEA:79123]
  xref: RHEA:79123
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -77679,7 +77693,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624466,6 +641865,7 @@
+@@ -624466,6 +641879,7 @@
  def: "Catalysis of the reaction: cholate + L-arginine = L-arginocholate + H2O." [PMID:38326608, RHEA:79111]
  xref: RHEA:79111
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -77687,7 +77701,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624477,6 +641877,7 @@
+@@ -624477,6 +641891,7 @@
  def: "Catalysis of the reaction: cholate + L-histidine = L-histidocholate + H2O." [PMID:38326608, RHEA:79099]
  xref: RHEA:79099
  is_a: GO:7770003 ! amino acid conjugated cholate hydrolase activity
@@ -77695,7 +77709,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -624538,6 +641939,235 @@
+@@ -624538,6 +641953,235 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30866" xsd:anyURI
  created_by: dragon-ai-agent
  
