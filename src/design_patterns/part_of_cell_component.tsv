@@ -102,10 +102,13 @@ http://purl.obolibrary.org/obo/GO_0000935	division septum	http://purl.obolibrary
 http://purl.obolibrary.org/obo/GO_0062242	double membrane vesicle viral factory membrane	http://purl.obolibrary.org/obo/GO_0044162	host cell cytoplasmic vesicle membrane	http://purl.obolibrary.org/obo/GO_0039718	double membrane vesicle viral factory
 http://purl.obolibrary.org/obo/GO_0062113	early phagosome lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0032009	early phagosome
 http://purl.obolibrary.org/obo/GO_0071682	endocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0160316	endolysosomal intralumenal vesicle	http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0036019	endolysosome
+http://purl.obolibrary.org/obo/GO_0160318	endolysosomal intralumenal vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0160316	endolysosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0005788	endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0140534	endoplasmic reticulum protein-containing complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0098827	endoplasmic reticulum subcompartment	http://purl.obolibrary.org/obo/GO_0031984	organelle subcompartment	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle	http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0005768	endosome
+http://purl.obolibrary.org/obo/GO_0160315	endosomal intralumenal vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center	http://purl.obolibrary.org/obo/GO_0032153	cell division site
 http://purl.obolibrary.org/obo/GO_0062246	exocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098566	transport vesicle lumen	http://purl.obolibrary.org/obo/GO_0070382	exocytic vesicle
 http://purl.obolibrary.org/obo/GO_0010367	extracellular isoamylase complex	http://purl.obolibrary.org/obo/GO_0043033	isoamylase complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
@@ -154,7 +157,7 @@ http://purl.obolibrary.org/obo/GO_0035451	extrinsic component of stromal side of
 http://purl.obolibrary.org/obo/GO_0099243	extrinsic component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
 http://purl.obolibrary.org/obo/GO_0098850	extrinsic component of synaptic vesicle membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane
 http://purl.obolibrary.org/obo/GO_0035448	extrinsic component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
-http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	fibrillar collagen
+http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	fibrillar collagen complex
 http://purl.obolibrary.org/obo/GO_1904813	ficolin-1-rich granule lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0101002	ficolin-1-rich granule
 http://purl.obolibrary.org/obo/GO_0032171	germ tube septin cap	http://purl.obolibrary.org/obo/GO_0032159	septin cap	http://purl.obolibrary.org/obo/GO_0032179	germ tube
 http://purl.obolibrary.org/obo/GO_0032172	germ tube septin ring	http://purl.obolibrary.org/obo/GO_0005940	septin ring	http://purl.obolibrary.org/obo/GO_0032179	germ tube
