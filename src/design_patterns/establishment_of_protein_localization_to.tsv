@@ -8,8 +8,6 @@ http://purl.obolibrary.org/obo/GO_1905633	establishment of protein localization 
 http://purl.obolibrary.org/obo/GO_0035592	establishment of protein localization to extracellular region	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0071206	establishment of protein localization to juxtaparanode region of axon	http://purl.obolibrary.org/obo/GO_0044224	juxtaparanode region of axon
 http://purl.obolibrary.org/obo/GO_0090150	establishment of protein localization to membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane
-http://purl.obolibrary.org/obo/GO_0090151	establishment of protein localization to mitochondrial membrane	http://purl.obolibrary.org/obo/GO_0031966	mitochondrial membrane
-http://purl.obolibrary.org/obo/GO_0072655	establishment of protein localization to mitochondrion	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/GO_0072594	establishment of protein localization to organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle
 http://purl.obolibrary.org/obo/GO_0072663	establishment of protein localization to peroxisome	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
 http://purl.obolibrary.org/obo/GO_1903540	establishment of protein localization to postsynaptic membrane	http://purl.obolibrary.org/obo/GO_0045211	postsynaptic membrane

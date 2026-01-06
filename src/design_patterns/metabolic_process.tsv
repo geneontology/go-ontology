@@ -88,6 +88,7 @@ http://purl.obolibrary.org/obo/GO_0006551	L-leucine metabolic process	http://pur
 http://purl.obolibrary.org/obo/GO_0019324	L-lyxose metabolic process	http://purl.obolibrary.org/obo/CHEBI_28480	aldehydo-L-lyxose
 http://purl.obolibrary.org/obo/GO_0046491	L-methylmalonyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_57326	(R)-methylmalonyl-CoA(5-)
 http://purl.obolibrary.org/obo/GO_0006558	L-phenylalanine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58095	L-phenylalanine zwitterion
+http://purl.obolibrary.org/obo/GO_0006560	L-proline metabolic process	http://purl.obolibrary.org/obo/CHEBI_60039	L-proline zwitterion
 http://purl.obolibrary.org/obo/GO_0006563	L-serine metabolic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0006566	L-threonine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32832	threoninate
 http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process	http://purl.obolibrary.org/obo/CHEBI_57912	L-tryptophan zwitterion
@@ -144,7 +145,6 @@ http://purl.obolibrary.org/obo/GO_1901605	alpha-amino acid metabolic process	htt
 http://purl.obolibrary.org/obo/GO_0030978	alpha-glucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_22385	alpha-D-glucan
 http://purl.obolibrary.org/obo/GO_0036109	alpha-linolenic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_32387	alpha-linolenate
 http://purl.obolibrary.org/obo/GO_0018867	alpha-pinene metabolic process	http://purl.obolibrary.org/obo/CHEBI_36740	alpha-pinene
-http://purl.obolibrary.org/obo/GO_0043603	amide metabolic process	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0009308	amine metabolic process	http://purl.obolibrary.org/obo/CHEBI_32952	amine
 http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_35238	amino-acid zwitterion
 http://purl.obolibrary.org/obo/GO_0006040	amino sugar metabolic process	http://purl.obolibrary.org/obo/CHEBI_28963	amino sugar
@@ -611,7 +611,6 @@ http://purl.obolibrary.org/obo/GO_0005976	polysaccharide metabolic process	http:
 http://purl.obolibrary.org/obo/GO_0006778	porphyrin-containing compound metabolic process	http://purl.obolibrary.org/obo/CHEBI_26214	porphyrins
 http://purl.obolibrary.org/obo/GO_0034308	primary alcohol metabolic process	http://purl.obolibrary.org/obo/CHEBI_15734	primary alcohol
 http://purl.obolibrary.org/obo/GO_0042448	progesterone metabolic process	http://purl.obolibrary.org/obo/CHEBI_17026	progesterone
-http://purl.obolibrary.org/obo/GO_0006560	proline metabolic process	http://purl.obolibrary.org/obo/CHEBI_60039	L-proline zwitterion
 http://purl.obolibrary.org/obo/GO_0019541	propionate metabolic process	http://purl.obolibrary.org/obo/CHEBI_17272	propionate
 http://purl.obolibrary.org/obo/GO_1902858	propionyl-CoA metabolic process	http://purl.obolibrary.org/obo/CHEBI_57392	propionyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0018964	propylene metabolic process	http://purl.obolibrary.org/obo/CHEBI_16052	propene
