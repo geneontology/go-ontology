@@ -29,7 +29,6 @@ http://purl.obolibrary.org/obo/GO_0050427	3'-phosphoadenosine 5'-phosphosulfate 
 http://purl.obolibrary.org/obo/GO_0046278	3,4-dihydroxybenzoate metabolic process	http://purl.obolibrary.org/obo/CHEBI_36241	3,4-dihydroxybenzoate
 http://purl.obolibrary.org/obo/GO_0018888	3-chloroacrylic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_62074	3-chloroacrylate
 http://purl.obolibrary.org/obo/GO_0018921	3-hydroxybenzyl alcohol metabolic process	http://purl.obolibrary.org/obo/CHEBI_17069	3-hydroxybenzyl alcohol
-http://purl.obolibrary.org/obo/GO_0006666	3-keto-sphinganine metabolic process	http://purl.obolibrary.org/obo/CHEBI_46966	2-amino-1-hydroxyoctadecan-3-one
 http://purl.obolibrary.org/obo/GO_1902198	3-methylbut-2-enoyl-CoA(4-) metabolic process	http://purl.obolibrary.org/obo/CHEBI_57344	3-methylbut-2-enoyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_0018887	4-carboxy-4'-sulfoazobenzene metabolic process	http://purl.obolibrary.org/obo/CHEBI_63476	4-carboxylato-4'-sulfonatoazobenzene
 http://purl.obolibrary.org/obo/GO_0018880	4-chlorobiphenyl metabolic process	http://purl.obolibrary.org/obo/CHEBI_27757	4-chlorobiphenyl
@@ -83,6 +82,7 @@ http://purl.obolibrary.org/obo/GO_0046439	L-cysteine metabolic process	http://pu
 http://purl.obolibrary.org/obo/GO_1903184	L-dopa metabolic process	http://purl.obolibrary.org/obo/CHEBI_57504	L-dopa zwitterion
 http://purl.obolibrary.org/obo/GO_0042354	L-fucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_18287	L-fucose
 http://purl.obolibrary.org/obo/GO_0006547	L-histidine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57595	L-histidine zwitterion
+http://purl.obolibrary.org/obo/GO_0009092	L-homoserine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57476	L-homoserine zwitterion
 http://purl.obolibrary.org/obo/GO_0097052	L-kynurenine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57959	L-kynurenine zwitterion
 http://purl.obolibrary.org/obo/GO_0006551	L-leucine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57427	L-leucine zwitterion
 http://purl.obolibrary.org/obo/GO_0019324	L-lyxose metabolic process	http://purl.obolibrary.org/obo/CHEBI_28480	aldehydo-L-lyxose
@@ -406,7 +406,6 @@ http://purl.obolibrary.org/obo/GO_0019318	hexose metabolic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0001692	histamine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
 http://purl.obolibrary.org/obo/GO_0050667	homocysteine metabolic process	http://purl.obolibrary.org/obo/CHEBI_58065	homocysteine zwitterion
 http://purl.obolibrary.org/obo/GO_0010394	homogalacturonan metabolic process	http://purl.obolibrary.org/obo/CHEBI_60190	homogalacturonan
-http://purl.obolibrary.org/obo/GO_0009092	homoserine metabolic process	http://purl.obolibrary.org/obo/CHEBI_62980	homoserinate
 http://purl.obolibrary.org/obo/GO_0042445	hormone metabolic process	http://purl.obolibrary.org/obo/GOCHE_24621	substance with hormone role
 http://purl.obolibrary.org/obo/GO_0030212	hyaluronan metabolic process	http://purl.obolibrary.org/obo/CHEBI_16336	hyaluronic acid
 http://purl.obolibrary.org/obo/GO_0120252	hydrocarbon metabolic process	http://purl.obolibrary.org/obo/CHEBI_24632	hydrocarbon
@@ -729,7 +728,7 @@ http://purl.obolibrary.org/obo/GO_0006790	sulfur compound metabolic process	http
 http://purl.obolibrary.org/obo/GO_0006801	superoxide metabolic process	http://purl.obolibrary.org/obo/CHEBI_18421	superoxide
 http://purl.obolibrary.org/obo/GO_0006399	tRNA metabolic process	http://purl.obolibrary.org/obo/SO_0000253	tRNA
 http://purl.obolibrary.org/obo/GO_0070525	tRNA threonylcarbamoyladenosine metabolic process	http://purl.obolibrary.org/obo/CHEBI_86026	tRNA threonylcarbamoyladenosine
-http://purl.obolibrary.org/obo/GO_1901275	tartrate metabolic process	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt
+http://purl.obolibrary.org/obo/GO_1901275	tartrate metabolic process	http://purl.obolibrary.org/obo/CHEBI_30929	2,3-dihydroxybutanedioate
 http://purl.obolibrary.org/obo/GO_1900869	tatiopterin metabolic process	http://purl.obolibrary.org/obo/CHEBI_64553	tatiopterin(5-)
 http://purl.obolibrary.org/obo/GO_0019530	taurine metabolic process	http://purl.obolibrary.org/obo/CHEBI_507393	taurine zwitterion
 http://purl.obolibrary.org/obo/GO_0046374	teichoic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_30049	teichoic acid
