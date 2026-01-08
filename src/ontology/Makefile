@@ -83,12 +83,6 @@ test: datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all
 
 travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check reasoned.ofn sparql_test change-report.txt
 
-# This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
-# These must be kept in sync.
-# The convert step is here only to work around https://github.com/ontodev/robot/issues/1250
-travis_build: go-edit-filtered-xrefs.ofn
-	$(ROBOT) convert -i go-edit-filtered-xrefs.ofn -o travis_build_dummy_out.ofn verify --queries $(VARGS) -O reports/ merge --collapse-import-closure false -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o travis_build_dummy_out.ofn verify --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
-
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
 
