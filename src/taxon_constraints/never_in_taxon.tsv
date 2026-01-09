@@ -89,7 +89,6 @@ GO:0005933	cellular bud	NCBITaxon:4895	Schizosaccharomyces
 GO:0006398	mRNA 3'-end processing by stem-loop binding and cleavage	NCBITaxon:4890	Ascomycota	
 GO:0006691	leukotriene metabolic process	NCBITaxon:4751	Fungi	
 GO:0006909	phagocytosis	NCBITaxon:4751	Fungi	
-GO:0007086	vesicle fusion with nuclear membrane involved in mitotic nuclear envelope reassembly	NCBITaxon:4751	Fungi	
 GO:0007098	centrosome cycle	NCBITaxon:27896	Planariidae	
 GO:0007098	centrosome cycle	NCBITaxon:33090	Viridiplantae	
 GO:0007098	centrosome cycle	NCBITaxon:4751	Fungi	
@@ -690,3 +689,5 @@ GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4895	Schizosacchar
 GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4930	Saccharomyces	PMID:26173916
 GO:0016212	kynurenine-oxoglutarate transaminase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0008705	methionine synthase activity	NCBITaxon:4751	Fungi	
+GO:0072371	histone H2AS121 kinase activity	NCBITaxon:33208	Metazoa	
+GO:0044024	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	
