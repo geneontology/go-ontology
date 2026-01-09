@@ -89,7 +89,6 @@ GO:0005933	cellular bud	NCBITaxon:4895	Schizosaccharomyces
 GO:0006398	mRNA 3'-end processing by stem-loop binding and cleavage	NCBITaxon:4890	Ascomycota	
 GO:0006691	leukotriene metabolic process	NCBITaxon:4751	Fungi	
 GO:0006909	phagocytosis	NCBITaxon:4751	Fungi	
-GO:0007086	vesicle fusion with nuclear membrane involved in mitotic nuclear envelope reassembly	NCBITaxon:4751	Fungi	
 GO:0007098	centrosome cycle	NCBITaxon:27896	Planariidae	
 GO:0007098	centrosome cycle	NCBITaxon:33090	Viridiplantae	
 GO:0007098	centrosome cycle	NCBITaxon:4751	Fungi	
