@@ -690,3 +690,5 @@ GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4895	Schizosacchar
 GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4930	Saccharomyces	PMID:26173916
 GO:0016212	kynurenine-oxoglutarate transaminase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0008705	methionine synthase activity	NCBITaxon:4751	Fungi	
+GO:0072371	histone H2AS121 kinase activity	NCBITaxon:33208	Metazoa	
+GO:0044024	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	
