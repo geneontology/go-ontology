@@ -1,42 +1,42 @@
 ---
-id: obo:go/releases/2026-01-09go.owl-statistics
+id: obo:go/releases/2026-01-10go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-01-09go.owl
+  version: obo:go/releases/2026-01-10go.owl
 was_generated_by:
-  started_at_time: '2026-01-09T05:47:24.437358'
+  started_at_time: '2026-01-10T05:46:29.240023'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
     class_count: 30836
-    deprecated_class_count: 6021
-    non_deprecated_class_count: 24815
+    deprecated_class_count: 6136
+    non_deprecated_class_count: 24700
     class_count_with_text_definitions: 30836
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 42229
+        filtered_count: 42059
       RO:0002211:
         facet: RO:0002211
-        filtered_count: 2976
+        filtered_count: 2963
       BFO:0000050:
         facet: BFO:0000050
-        filtered_count: 4613
+        filtered_count: 4538
       BFO:0000051:
         facet: BFO:0000051
         filtered_count: 418
       RO:0002212:
         facet: RO:0002212
-        filtered_count: 2603
+        filtered_count: 2594
       RO:0002213:
         facet: RO:0002213
-        filtered_count: 2615
+        filtered_count: 2608
       BFO:0000066:
         facet: BFO:0000066
-        filtered_count: 140
+        filtered_count: 139
       RO:0002092:
         facet: RO:0002092
         filtered_count: 13
@@ -46,21 +46,21 @@ partitions:
     distinct_synonym_count: 93705
     synonym_statement_count: 94478
     change_summary:
-      NodeDeletion: 19
-      EdgeDeletion: 200
-      NodeRename: 410
-      NodeUnobsoletion: 357
-      EdgeCreation: 1219
-      NodeTextDefinitionChange: 428
-      RemoveMapping: 223
+      NodeUnobsoletion: 472
+      NodeTextDefinitionChange: 543
+      NodeRename: 525
+      EdgeCreation: 1497
       RemoveSynonym: 21
+      RemoveMapping: 224
       NewSynonym: 71
+      EdgeDeletion: 203
+      NodeDeletion: 19
+      MappingCreation: 17
+      AddNodeToSubset: 22
       RemoveNodeFromSubset: 2
-      MappingCreation: 15
-      AddNodeToSubset: 19
       All_Obsoletion: 0
       All_Synonym: 92
-    edge_count: 55608
+    edge_count: 55333
   molecular_function:
     id: molecular_function
     class_count: 12821
@@ -74,7 +74,7 @@ partitions:
         filtered_count: 12413
       BFO:0000050:
         facet: BFO:0000050
-        filtered_count: 811
+        filtered_count: 810
       RO:0002212:
         facet: RO:0002212
         filtered_count: 75
@@ -90,24 +90,24 @@ partitions:
       RO:0002211:
         facet: RO:0002211
         filtered_count: 49
-    distinct_synonym_count: 28469
-    synonym_statement_count: 29617
+    distinct_synonym_count: 28474
+    synonym_statement_count: 29623
     change_summary:
+      NodeTextDefinitionChange: 151
+      NodeRename: 109
+      RemoveMapping: 1467
+      EdgeCreation: 168
+      EdgeDeletion: 79
       MappingCreation: 498
-      EdgeDeletion: 67
-      EdgeCreation: 155
-      NodeTextDefinitionChange: 134
-      RemoveMapping: 1466
-      NodeRename: 93
       NodeUnobsoletion: 36
-      RemoveSynonym: 38
-      NewSynonym: 19
       AddNodeToSubset: 17
+      RemoveSynonym: 49
+      NewSynonym: 24
       NodeDeletion: 16
       NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
-      All_Synonym: 57
-    edge_count: 13685
+      All_Synonym: 73
+    edge_count: 13684
   cellular_component:
     id: cellular_component
     class_count: 4585
@@ -128,14 +128,14 @@ partitions:
     distinct_synonym_count: 5074
     synonym_statement_count: 5271
     change_summary:
+      NodeTextDefinitionChange: 31
       EdgeDeletion: 36
       EdgeCreation: 17
-      NodeTextDefinitionChange: 31
       NodeDeletion: 11
       NodeRename: 21
       RemoveSynonym: 25
-      NodeUnobsoletion: 1
       NewSynonym: 1
+      NodeUnobsoletion: 1
       All_Obsoletion: 0
       All_Synonym: 26
     edge_count: 6672
