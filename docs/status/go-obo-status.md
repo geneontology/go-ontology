@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-01-10go.owl-statistics
+id: obo:go/releases/2026-01-11go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-01-10go.owl
+  version: obo:go/releases/2026-01-11go.owl
 was_generated_by:
-  started_at_time: '2026-01-10T05:46:29.240023'
+  started_at_time: '2026-01-11T05:47:12.134537'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,17 +46,17 @@ partitions:
     distinct_synonym_count: 93705
     synonym_statement_count: 94478
     change_summary:
-      NodeUnobsoletion: 472
-      NodeTextDefinitionChange: 543
-      NodeRename: 525
       EdgeCreation: 1497
-      RemoveSynonym: 21
+      NodeTextDefinitionChange: 543
+      NodeUnobsoletion: 472
+      NodeRename: 525
       RemoveMapping: 224
-      NewSynonym: 71
       EdgeDeletion: 203
-      NodeDeletion: 19
+      RemoveSynonym: 21
       MappingCreation: 17
+      NodeDeletion: 19
       AddNodeToSubset: 22
+      NewSynonym: 71
       RemoveNodeFromSubset: 2
       All_Obsoletion: 0
       All_Synonym: 92
@@ -93,16 +93,16 @@ partitions:
     distinct_synonym_count: 28474
     synonym_statement_count: 29623
     change_summary:
-      NodeTextDefinitionChange: 151
-      NodeRename: 109
+      MappingCreation: 498
       RemoveMapping: 1467
       EdgeCreation: 168
-      EdgeDeletion: 79
-      MappingCreation: 498
+      NodeTextDefinitionChange: 151
+      NodeRename: 109
       NodeUnobsoletion: 36
-      AddNodeToSubset: 17
       RemoveSynonym: 49
+      EdgeDeletion: 79
       NewSynonym: 24
+      AddNodeToSubset: 17
       NodeDeletion: 16
       NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
@@ -131,11 +131,11 @@ partitions:
       NodeTextDefinitionChange: 31
       EdgeDeletion: 36
       EdgeCreation: 17
-      NodeDeletion: 11
       NodeRename: 21
       RemoveSynonym: 25
-      NewSynonym: 1
       NodeUnobsoletion: 1
+      NodeDeletion: 11
+      NewSynonym: 1
       All_Obsoletion: 0
       All_Synonym: 26
     edge_count: 6672
