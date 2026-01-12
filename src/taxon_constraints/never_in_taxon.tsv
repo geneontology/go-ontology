@@ -119,12 +119,6 @@ GO:0009507	chloroplast	NCBITaxon:28009	Choanoflagellida	PMID:21311032
 GO:0009507	chloroplast	NCBITaxon:33208	Metazoa	PMID:21311032
 GO:0009507	chloroplast	NCBITaxon:4751	Fungi	PMID:21311032
 GO:0009507	chloroplast	NCBITaxon:554915	Amoebozoa	PMID:21311032
-GO:0009536	plastid	NCBITaxon:2	Bacteria	
-GO:0009536	plastid	NCBITaxon:2157	Archaea	
-GO:0009536	plastid	NCBITaxon:28009	Choanoflagellida	PMID:21311032
-GO:0009536	plastid	NCBITaxon:33208	Metazoa	PMID:21311032
-GO:0009536	plastid	NCBITaxon:4751	Fungi	PMID:21311032
-GO:0009536	plastid	NCBITaxon:554915	Amoebozoa	PMID:21311032
 GO:0009579	thylakoid	NCBITaxon:33208	Metazoa	
 GO:0009657	plastid organization	NCBITaxon:28009	Choanoflagellida	PMID:21311032
 GO:0009657	plastid organization	NCBITaxon:33208	Metazoa	PMID:21311032
@@ -615,7 +609,6 @@ GO:0017145	stem cell division	NCBITaxon:2157	Archaea
 GO:0038055	BMP secretion	NCBITaxon:4751	Fungi	
 GO:0038055	BMP secretion	NCBITaxon:2	Bacteria	
 GO:0038055	BMP secretion	NCBITaxon:2157	Archaea	
-GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
 GO:0042246	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
 GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
@@ -631,8 +624,6 @@ GO:0030512	negative regulation of transforming growth factor beta receptor signa
 GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0030334	regulation of cell migration	NCBITaxon:4890	Ascomycota	
 GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon:9606	Homo sapiens	
-GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
-GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	
 GO:0016442	RISC complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0007041	lysosomal transport	NCBITaxon:4751	Fungi	
 GO:0007040	lysosome organization	NCBITaxon:4751	Fungi	
@@ -691,3 +682,13 @@ GO:0016212	kynurenine-oxoglutarate transaminase activity	NCBITaxon:4896	Schizosa
 GO:0008705	methionine synthase activity	NCBITaxon:4751	Fungi	
 GO:0072371	histone H2AS121 kinase activity	NCBITaxon:33208	Metazoa	
 GO:0044024	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	
+GO:0009536	plastid	NCBITaxon:2	Bacteria	
+GO:0009536	plastid	NCBITaxon:2157	Archaea	
+GO:0009536	plastid	NCBITaxon:28009	Choanoflagellida	PMID:21311032
+GO:0009536	plastid	NCBITaxon:33208	Metazoa	PMID:21311032
+GO:0009536	plastid	NCBITaxon:4751	Fungi	PMID:21311032
+GO:0009536	plastid	NCBITaxon:554915	Amoebozoa	PMID:21311032
+GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
+GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
+GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	
+GO:0033099	attachment organelle	NCBITaxon:2759	Eukaryota	
