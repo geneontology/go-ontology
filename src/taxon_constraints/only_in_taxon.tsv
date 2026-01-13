@@ -924,7 +924,6 @@ GO:0047474	long-chain fatty acid--protein ligase activity	NCBITaxon:2	Bacteria
 GO:0106314	nitrite reductase (NADPH) activity	NCBITaxon:2759	Eukaryota	
 GO:0160269	sweat secretion	NCBITaxon:40674	Mammalia	
 GO:0043682	P-type divalent copper transporter activity	NCBITaxon:2	Bacteria	
-GO:0072371	histone H2A1S121 kinase activity	NCBITaxon:147537	Saccharomycotina	
 GO:0044222	anammoxosome	NCBITaxon:Union_0000004	Prokaryota	
 GO:0044223	pirellulosome	NCBITaxon:2	Bacteria	
 GO:0044227	methane-oxidizing organelle	NCBITaxon:Union_0000004	Prokaryota	
