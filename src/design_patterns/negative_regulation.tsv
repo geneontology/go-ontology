@@ -141,7 +141,6 @@ http://purl.obolibrary.org/obo/GO_0051141	negative regulation of NK T cell proli
 http://purl.obolibrary.org/obo/GO_1900226	negative regulation of NLRP3 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0044546	NLRP3 inflammasome complex assembly
 http://purl.obolibrary.org/obo/GO_1904782	negative regulation of NMDA glutamate receptor activity	http://purl.obolibrary.org/obo/GO_0004972	NMDA glutamate receptor activity
 http://purl.obolibrary.org/obo/GO_0045746	negative regulation of Notch signaling pathway	http://purl.obolibrary.org/obo/GO_0007219	Notch signaling pathway
-http://purl.obolibrary.org/obo/GO_1902367	negative regulation of Notch signaling pathway involved in somitogenesis	http://purl.obolibrary.org/obo/GO_1902359	Notch signaling pathway involved in somitogenesis
 http://purl.obolibrary.org/obo/GO_1903407	negative regulation of P-type sodium:potassium-exchanging transporter activity	http://purl.obolibrary.org/obo/GO_0005391	P-type sodium:potassium-exchanging transporter activity
 http://purl.obolibrary.org/obo/GO_1903898	negative regulation of PERK-mediated unfolded protein response	http://purl.obolibrary.org/obo/GO_0036499	PERK-mediated unfolded protein response
 http://purl.obolibrary.org/obo/GO_0045677	negative regulation of R7 cell differentiation	http://purl.obolibrary.org/obo/GO_0045466	R7 cell differentiation
@@ -170,7 +169,6 @@ http://purl.obolibrary.org/obo/GO_1904267	negative regulation of Schwann cell ch
 http://purl.obolibrary.org/obo/GO_0014039	negative regulation of Schwann cell differentiation	http://purl.obolibrary.org/obo/GO_0014037	Schwann cell differentiation
 http://purl.obolibrary.org/obo/GO_1900148	negative regulation of Schwann cell migration	http://purl.obolibrary.org/obo/GO_0036135	Schwann cell migration
 http://purl.obolibrary.org/obo/GO_0010626	negative regulation of Schwann cell proliferation	http://purl.obolibrary.org/obo/GO_0014010	Schwann cell proliferation
-http://purl.obolibrary.org/obo/GO_1905045	negative regulation of Schwann cell proliferation involved in axon regeneration	http://purl.obolibrary.org/obo/GO_0014011	Schwann cell proliferation involved in axon regeneration
 http://purl.obolibrary.org/obo/GO_0050868	negative regulation of T cell activation	http://purl.obolibrary.org/obo/GO_0042110	T cell activation
 http://purl.obolibrary.org/obo/GO_2001189	negative regulation of T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell	http://purl.obolibrary.org/obo/GO_0002291	T cell activation via T cell receptor contact with antigen bound to MHC molecule on antigen presenting cell
 http://purl.obolibrary.org/obo/GO_0002668	negative regulation of T cell anergy	http://purl.obolibrary.org/obo/GO_0002870	T cell anergy
@@ -287,7 +285,6 @@ http://purl.obolibrary.org/obo/GO_0051953	negative regulation of amine transport
 http://purl.obolibrary.org/obo/GO_2000283	negative regulation of amino acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0008652	amino acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045763	negative regulation of amino acid metabolic process	http://purl.obolibrary.org/obo/GO_0006520	amino acid metabolic process
 http://purl.obolibrary.org/obo/GO_0051956	negative regulation of amino acid transport	http://purl.obolibrary.org/obo/GO_0006865	amino acid transport
-http://purl.obolibrary.org/obo/GO_0051942	negative regulation of amino acid uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051933	amino acid neurotransmitter reuptake
 http://purl.obolibrary.org/obo/GO_2001249	negative regulation of ammonia assimilation cycle	http://purl.obolibrary.org/obo/GO_0019676	ammonia assimilation cycle
 http://purl.obolibrary.org/obo/GO_2000798	negative regulation of amniotic stem cell differentiation	http://purl.obolibrary.org/obo/GO_0097086	amniotic stem cell differentiation
 http://purl.obolibrary.org/obo/GO_1905417	negative regulation of amoeboid sperm motility	http://purl.obolibrary.org/obo/GO_0097723	amoeboid sperm motility
@@ -355,8 +352,6 @@ http://purl.obolibrary.org/obo/GO_2000426	negative regulation of apoptotic cell 
 http://purl.obolibrary.org/obo/GO_0043066	negative regulation of apoptotic process	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0071866	negative regulation of apoptotic process in bone marrow cell	http://purl.obolibrary.org/obo/GO_0071839	apoptotic process in bone marrow cell
 http://purl.obolibrary.org/obo/GO_1904746	negative regulation of apoptotic process involved in development	http://purl.obolibrary.org/obo/GO_1902742	apoptotic process involved in development
-http://purl.obolibrary.org/obo/GO_1900215	negative regulation of apoptotic process involved in metanephric collecting duct development	http://purl.obolibrary.org/obo/GO_1900204	apoptotic process involved in metanephric collecting duct development
-http://purl.obolibrary.org/obo/GO_1900218	negative regulation of apoptotic process involved in metanephric nephron tubule development	http://purl.obolibrary.org/obo/GO_1900205	apoptotic process involved in metanephric nephron tubule development
 http://purl.obolibrary.org/obo/GO_1902338	negative regulation of apoptotic process involved in morphogenesis	http://purl.obolibrary.org/obo/GO_0060561	apoptotic process involved in morphogenesis
 http://purl.obolibrary.org/obo/GO_1902257	negative regulation of apoptotic process involved in outflow tract morphogenesis	http://purl.obolibrary.org/obo/GO_0003275	apoptotic process involved in outflow tract morphogenesis
 http://purl.obolibrary.org/obo/GO_2001234	negative regulation of apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0097190	apoptotic signaling pathway
@@ -529,7 +524,6 @@ http://purl.obolibrary.org/obo/GO_0061037	negative regulation of cartilage devel
 http://purl.obolibrary.org/obo/GO_0009895	negative regulation of catabolic process	http://purl.obolibrary.org/obo/GO_0009056	catabolic process
 http://purl.obolibrary.org/obo/GO_0043086	negative regulation of catalytic activity	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
 http://purl.obolibrary.org/obo/GO_0033604	negative regulation of catecholamine secretion	http://purl.obolibrary.org/obo/GO_0050432	catecholamine secretion
-http://purl.obolibrary.org/obo/GO_0051945	negative regulation of catecholamine uptake involved in synaptic transmission	http://purl.obolibrary.org/obo/GO_0051934	catecholamine uptake involved in synaptic transmission
 http://purl.obolibrary.org/obo/GO_1904063	negative regulation of cation transmembrane transport	http://purl.obolibrary.org/obo/GO_0098655	monoatomic cation transmembrane transport
 http://purl.obolibrary.org/obo/GO_2001287	negative regulation of caveolin-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0072584	caveolin-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_0050866	negative regulation of cell activation	http://purl.obolibrary.org/obo/GO_0001775	cell activation
@@ -554,7 +548,6 @@ http://purl.obolibrary.org/obo/GO_0110045	negative regulation of cell cycle swit
 http://purl.obolibrary.org/obo/GO_0010721	negative regulation of cell development	http://purl.obolibrary.org/obo/GO_0048468	cell development
 http://purl.obolibrary.org/obo/GO_0045596	negative regulation of cell differentiation	http://purl.obolibrary.org/obo/GO_0030154	cell differentiation
 http://purl.obolibrary.org/obo/GO_0060806	negative regulation of cell differentiation involved in embryonic placenta development	http://purl.obolibrary.org/obo/GO_0060706	cell differentiation involved in embryonic placenta development
-http://purl.obolibrary.org/obo/GO_1905916	negative regulation of cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_0090679	cell differentiation involved in phenotypic switching
 http://purl.obolibrary.org/obo/GO_0051782	negative regulation of cell division	http://purl.obolibrary.org/obo/GO_0051301	cell division
 http://purl.obolibrary.org/obo/GO_0010454	negative regulation of cell fate commitment	http://purl.obolibrary.org/obo/GO_0045165	cell fate commitment
 http://purl.obolibrary.org/obo/GO_1905934	negative regulation of cell fate determination	http://purl.obolibrary.org/obo/GO_0001709	cell fate determination
@@ -576,9 +569,7 @@ http://purl.obolibrary.org/obo/GO_1903769	negative regulation of cell proliferat
 http://purl.obolibrary.org/obo/GO_1902832	negative regulation of cell proliferation in dorsal spinal cord	http://purl.obolibrary.org/obo/GO_0010456	cell proliferation in dorsal spinal cord
 http://purl.obolibrary.org/obo/GO_1904934	negative regulation of cell proliferation in midbrain	http://purl.obolibrary.org/obo/GO_0033278	cell proliferation in midbrain
 http://purl.obolibrary.org/obo/GO_2000137	negative regulation of cell proliferation involved in heart morphogenesis	http://purl.obolibrary.org/obo/GO_0061323	cell proliferation involved in heart morphogenesis
-http://purl.obolibrary.org/obo/GO_0003252	negative regulation of cell proliferation involved in heart valve morphogenesis	http://purl.obolibrary.org/obo/GO_0003249	cell proliferation involved in heart valve morphogenesis
 http://purl.obolibrary.org/obo/GO_1901723	negative regulation of cell proliferation involved in kidney development	http://purl.obolibrary.org/obo/GO_0072111	cell proliferation involved in kidney development
-http://purl.obolibrary.org/obo/GO_2000607	negative regulation of cell proliferation involved in mesonephros development	http://purl.obolibrary.org/obo/GO_0061209	cell proliferation involved in mesonephros development
 http://purl.obolibrary.org/obo/GO_1901892	negative regulation of cell septum assembly	http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly
 http://purl.obolibrary.org/obo/GO_1903339	negative regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
 http://purl.obolibrary.org/obo/GO_2000967	negative regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
@@ -730,8 +721,6 @@ http://purl.obolibrary.org/obo/GO_0032683	negative regulation of connective tiss
 http://purl.obolibrary.org/obo/GO_1905204	negative regulation of connective tissue replacement	http://purl.obolibrary.org/obo/GO_0097709	connective tissue replacement
 http://purl.obolibrary.org/obo/GO_1904597	negative regulation of connective tissue replacement involved in inflammatory response wound healing	http://purl.obolibrary.org/obo/GO_0002248	connective tissue replacement involved in inflammatory response wound healing
 http://purl.obolibrary.org/obo/GO_1903434	negative regulation of constitutive secretory pathway	http://purl.obolibrary.org/obo/GO_0045054	constitutive secretory pathway
-http://purl.obolibrary.org/obo/GO_1901233	negative regulation of convergent extension involved in axis elongation	http://purl.obolibrary.org/obo/GO_0060028	convergent extension involved in axis elongation
-http://purl.obolibrary.org/obo/GO_1904104	negative regulation of convergent extension involved in gastrulation	http://purl.obolibrary.org/obo/GO_0060027	convergent extension involved in gastrulation
 http://purl.obolibrary.org/obo/GO_1902312	negative regulation of copper ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0035434	copper ion transmembrane transport
 http://purl.obolibrary.org/obo/GO_1900862	negative regulation of cordyol C biosynthetic process	http://purl.obolibrary.org/obo/GO_1900799	cordyol C biosynthetic process
 http://purl.obolibrary.org/obo/GO_1904797	negative regulation of core promoter binding	http://purl.obolibrary.org/obo/GO_0001046	core promoter sequence-specific DNA binding
@@ -1019,7 +1008,6 @@ http://purl.obolibrary.org/obo/GO_2000978	negative regulation of forebrain neuro
 http://purl.obolibrary.org/obo/GO_0075047	negative regulation of formation by symbiont of haustorium for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0052094	formation of haustorium for nutrient acquisition
 http://purl.obolibrary.org/obo/GO_1905943	negative regulation of formation of growth cone in injured axon	http://purl.obolibrary.org/obo/GO_0048689	formation of growth cone in injured axon
 http://purl.obolibrary.org/obo/GO_0061925	negative regulation of formation of radial glial scaffolds	http://purl.obolibrary.org/obo/GO_0021943	formation of radial glial scaffolds
-http://purl.obolibrary.org/obo/GO_0044147	negative regulation of formation of structure involved in a symbiotic process	http://purl.obolibrary.org/obo/GO_0044111	formation of structure involved in a symbiotic process
 http://purl.obolibrary.org/obo/GO_0075032	negative regulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of appressorium germ tube hook structure
 http://purl.obolibrary.org/obo/GO_1901191	negative regulation of formation of translation initiation ternary complex	http://purl.obolibrary.org/obo/GO_0001677	formation of translation initiation ternary complex
 http://purl.obolibrary.org/obo/GO_1901194	negative regulation of formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0001731	formation of translation preinitiation complex
@@ -1329,7 +1317,7 @@ http://purl.obolibrary.org/obo/GO_0045968	negative regulation of juvenile hormon
 http://purl.obolibrary.org/obo/GO_0045970	negative regulation of juvenile hormone catabolic process	http://purl.obolibrary.org/obo/GO_0006719	juvenile hormone catabolic process
 http://purl.obolibrary.org/obo/GO_0045928	negative regulation of juvenile hormone metabolic process	http://purl.obolibrary.org/obo/GO_0006716	juvenile hormone metabolic process
 http://purl.obolibrary.org/obo/GO_0045972	negative regulation of juvenile hormone secretion	http://purl.obolibrary.org/obo/GO_0045443	juvenile hormone secretion
-http://purl.obolibrary.org/obo/GO_0106427	negative regulation of kainate selective glutamate receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0106426	regulation of kainate selective glutamate receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0106427	negative regulation of kainate selective glutamate receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0098991	kainate selective glutamate receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_1902173	negative regulation of keratinocyte apoptotic process	http://purl.obolibrary.org/obo/GO_0097283	keratinocyte apoptotic process
 http://purl.obolibrary.org/obo/GO_0045617	negative regulation of keratinocyte differentiation	http://purl.obolibrary.org/obo/GO_0030216	keratinocyte differentiation
 http://purl.obolibrary.org/obo/GO_0051548	negative regulation of keratinocyte migration	http://purl.obolibrary.org/obo/GO_0051546	keratinocyte migration
@@ -1514,7 +1502,6 @@ http://purl.obolibrary.org/obo/GO_1905025	negative regulation of membrane repola
 http://purl.obolibrary.org/obo/GO_1903526	negative regulation of membrane tubulation	http://purl.obolibrary.org/obo/GO_0097320	plasma membrane tubulation
 http://purl.obolibrary.org/obo/GO_0043381	negative regulation of memory T cell differentiation	http://purl.obolibrary.org/obo/GO_0043379	memory T cell differentiation
 http://purl.obolibrary.org/obo/GO_2001054	negative regulation of mesenchymal cell apoptotic process	http://purl.obolibrary.org/obo/GO_0097152	mesenchymal cell apoptotic process
-http://purl.obolibrary.org/obo/GO_0072305	negative regulation of mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis	http://purl.obolibrary.org/obo/GO_1901147	mesenchymal cell apoptotic process involved in metanephric nephron morphogenesis
 http://purl.obolibrary.org/obo/GO_1900212	negative regulation of mesenchymal cell apoptotic process involved in metanephros development	http://purl.obolibrary.org/obo/GO_1900200	mesenchymal cell apoptotic process involved in metanephros development
 http://purl.obolibrary.org/obo/GO_0072040	negative regulation of mesenchymal cell apoptotic process involved in nephron morphogenesis	http://purl.obolibrary.org/obo/GO_1901145	mesenchymal cell apoptotic process involved in nephron morphogenesis
 http://purl.obolibrary.org/obo/GO_0072201	negative regulation of mesenchymal cell proliferation	http://purl.obolibrary.org/obo/GO_0010463	mesenchymal cell proliferation
@@ -1529,7 +1516,6 @@ http://purl.obolibrary.org/obo/GO_1905903	negative regulation of mesoderm format
 http://purl.obolibrary.org/obo/GO_1905771	negative regulation of mesodermal cell differentiation	http://purl.obolibrary.org/obo/GO_0048333	mesodermal cell differentiation
 http://purl.obolibrary.org/obo/GO_0048335	negative regulation of mesodermal cell fate determination	http://purl.obolibrary.org/obo/GO_0007500	mesodermal cell fate determination
 http://purl.obolibrary.org/obo/GO_0042662	negative regulation of mesodermal cell fate specification	http://purl.obolibrary.org/obo/GO_0007501	mesodermal cell fate specification
-http://purl.obolibrary.org/obo/GO_2000091	negative regulation of mesonephric glomerular mesangial cell proliferation	http://purl.obolibrary.org/obo/GO_0061269	mesonephric glomerular mesangial cell proliferation involved in mesonephros development
 http://purl.obolibrary.org/obo/GO_2000088	negative regulation of mesonephric glomerulus development	http://purl.obolibrary.org/obo/GO_0061224	mesonephric glomerulus development
 http://purl.obolibrary.org/obo/GO_2000094	negative regulation of mesonephric nephron tubule epithelial cell differentiation	http://purl.obolibrary.org/obo/GO_0061265	mesonephric nephron tubule epithelial cell differentiation
 http://purl.obolibrary.org/obo/GO_0061218	negative regulation of mesonephros development	http://purl.obolibrary.org/obo/GO_0001823	mesonephros development
@@ -1682,7 +1668,6 @@ http://purl.obolibrary.org/obo/GO_2000502	negative regulation of natural killer 
 http://purl.obolibrary.org/obo/GO_0002728	negative regulation of natural killer cell cytokine production	http://purl.obolibrary.org/obo/GO_0002370	natural killer cell cytokine production
 http://purl.obolibrary.org/obo/GO_0043322	negative regulation of natural killer cell degranulation	http://purl.obolibrary.org/obo/GO_0043320	natural killer cell degranulation
 http://purl.obolibrary.org/obo/GO_0032824	negative regulation of natural killer cell differentiation	http://purl.obolibrary.org/obo/GO_0001779	natural killer cell differentiation
-http://purl.obolibrary.org/obo/GO_0032827	negative regulation of natural killer cell differentiation involved in immune response	http://purl.obolibrary.org/obo/GO_0002325	natural killer cell differentiation involved in immune response
 http://purl.obolibrary.org/obo/GO_0045953	negative regulation of natural killer cell mediated cytotoxicity	http://purl.obolibrary.org/obo/GO_0042267	natural killer cell mediated cytotoxicity
 http://purl.obolibrary.org/obo/GO_0002859	negative regulation of natural killer cell mediated cytotoxicity directed against tumor cell target	http://purl.obolibrary.org/obo/GO_0002420	natural killer cell mediated cytotoxicity directed against tumor cell target
 http://purl.obolibrary.org/obo/GO_0002856	negative regulation of natural killer cell mediated immune response to tumor cell	http://purl.obolibrary.org/obo/GO_0002423	natural killer cell mediated immune response to tumor cell
@@ -2224,7 +2209,6 @@ http://purl.obolibrary.org/obo/GO_1900705	negative regulation of siderophore bio
 http://purl.obolibrary.org/obo/GO_0009968	negative regulation of signal transduction	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_1901797	negative regulation of signal transduction by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072331	signal transduction by p53 class mediator
 http://purl.obolibrary.org/obo/GO_1901099	negative regulation of signal transduction in absence of ligand	http://purl.obolibrary.org/obo/GO_0038034	signal transduction in absence of ligand
-http://purl.obolibrary.org/obo/GO_0060240	negative regulation of signal transduction involved in conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0032005	signal transduction involved in positive regulation of conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0023057	negative regulation of signaling	http://purl.obolibrary.org/obo/GO_0023052	signaling
 http://purl.obolibrary.org/obo/GO_2000272	negative regulation of signaling receptor activity	http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
 http://purl.obolibrary.org/obo/GO_0061186	negative regulation of silent mating-type cassette heterochromatin formation	http://purl.obolibrary.org/obo/GO_0030466	silent mating-type cassette heterochromatin formation
@@ -2529,7 +2513,6 @@ http://purl.obolibrary.org/obo/GO_0061192	negative regulation of vacuole fusion,
 http://purl.obolibrary.org/obo/GO_1905460	negative regulation of vascular associated smooth muscle cell apoptotic process	http://purl.obolibrary.org/obo/GO_1905288	vascular associated smooth muscle cell apoptotic process
 http://purl.obolibrary.org/obo/GO_1905175	negative regulation of vascular associated smooth muscle cell dedifferentiation	http://purl.obolibrary.org/obo/GO_1990936	vascular associated smooth muscle cell dedifferentiation
 http://purl.obolibrary.org/obo/GO_1905064	negative regulation of vascular associated smooth muscle cell differentiation	http://purl.obolibrary.org/obo/GO_0035886	vascular associated smooth muscle cell differentiation
-http://purl.obolibrary.org/obo/GO_1905931	negative regulation of vascular associated smooth muscle cell differentiation involved in phenotypic switching	http://purl.obolibrary.org/obo/GO_1905420	vascular associated smooth muscle cell differentiation involved in phenotypic switching
 http://purl.obolibrary.org/obo/GO_1904753	negative regulation of vascular associated smooth muscle cell migration	http://purl.obolibrary.org/obo/GO_1904738	vascular associated smooth muscle cell migration
 http://purl.obolibrary.org/obo/GO_1904706	negative regulation of vascular associated smooth muscle cell proliferation	http://purl.obolibrary.org/obo/GO_1990874	vascular associated smooth muscle cell proliferation
 http://purl.obolibrary.org/obo/GO_1904694	negative regulation of vascular associated smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014829	vascular associated smooth muscle contraction
