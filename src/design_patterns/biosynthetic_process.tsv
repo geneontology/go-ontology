@@ -142,7 +142,7 @@ http://purl.obolibrary.org/obo/GO_0062034	L-pipecolic acid biosynthetic process	
 http://purl.obolibrary.org/obo/GO_0019503	L-proline betaine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35280	L-proline betaine
 http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60039	L-proline zwitterion
 http://purl.obolibrary.org/obo/GO_0062143	L-propargylglycine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_143285	L-propargylglycine zwitterion
-http://purl.obolibrary.org/obo/GO_0016260	L-selenocysteine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_9093	selenocysteine
+http://purl.obolibrary.org/obo/GO_0016260	L-selenocysteine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57843	L-selenocysteine zwitterion
 http://purl.obolibrary.org/obo/GO_0006564	L-serine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_33384	L-serine zwitterion
 http://purl.obolibrary.org/obo/GO_0042849	L-sorbose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17266	L-sorbose
 http://purl.obolibrary.org/obo/GO_0009088	L-threonine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57926	L-threonine zwitterion
@@ -568,7 +568,6 @@ http://purl.obolibrary.org/obo/GO_0120251	hydrocarbon biosynthetic process	http:
 http://purl.obolibrary.org/obo/GO_1902422	hydrogen biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18276	dihydrogen
 http://purl.obolibrary.org/obo/GO_0050665	hydrogen peroxide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide
 http://purl.obolibrary.org/obo/GO_0070814	hydrogen sulfide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_29919	hydrosulfide
-http://purl.obolibrary.org/obo/GO_0046947	hydroxylysine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_133574	5-hydroxylysinium
 http://purl.obolibrary.org/obo/GO_0002149	hypochlorous acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24757	hypochlorous acid
 http://purl.obolibrary.org/obo/GO_0046101	hypoxanthine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17368	hypoxanthine
 http://purl.obolibrary.org/obo/GO_0046456	icosanoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_62937	icosanoid anion
