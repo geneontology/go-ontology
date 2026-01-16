@@ -47,7 +47,6 @@ http://purl.obolibrary.org/obo/GO_0015720	allantoin transport	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0000017	alpha-glucoside transport	http://purl.obolibrary.org/obo/CHEBI_60979	alpha-glucoside
 http://purl.obolibrary.org/obo/GO_0015742	alpha-ketoglutarate transport	http://purl.obolibrary.org/obo/CHEBI_16810	2-oxoglutarate(2-)
 http://purl.obolibrary.org/obo/GO_0015690	aluminum cation transport	http://purl.obolibrary.org/obo/CHEBI_63062	aluminium cation
-http://purl.obolibrary.org/obo/GO_0042886	amide transport	http://purl.obolibrary.org/obo/CHEBI_32988	amide
 http://purl.obolibrary.org/obo/GO_0015837	amine transport	http://purl.obolibrary.org/obo/CHEBI_32952	amine
 http://purl.obolibrary.org/obo/GO_0006865	amino acid transport	http://purl.obolibrary.org/obo/CHEBI_35238	amino-acid zwitterion
 http://purl.obolibrary.org/obo/GO_0015838	amino-acid betaine transport	http://purl.obolibrary.org/obo/CHEBI_22860	amino-acid betaine
@@ -150,7 +149,6 @@ http://purl.obolibrary.org/obo/GO_2001104	heptasaccharide transport	http://purl.
 http://purl.obolibrary.org/obo/GO_2001102	hexasaccharide transport	http://purl.obolibrary.org/obo/CHEBI_35368	hexasaccharide
 http://purl.obolibrary.org/obo/GO_0015712	hexose phosphate transport	http://purl.obolibrary.org/obo/CHEBI_47878	hexose phosphate
 http://purl.obolibrary.org/obo/GO_0051608	histamine transport	http://purl.obolibrary.org/obo/CHEBI_58432	histaminium
-http://purl.obolibrary.org/obo/GO_0042968	homoserine transport	http://purl.obolibrary.org/obo/CHEBI_62980	homoserinate
 http://purl.obolibrary.org/obo/GO_1904952	hydroxycinnamic acid transport	http://purl.obolibrary.org/obo/CHEBI_24689	hydroxycinnamic acid
 http://purl.obolibrary.org/obo/GO_0034589	hydroxyproline transport	http://purl.obolibrary.org/obo/CHEBI_63137	4-hydroxyproline zwitterion
 http://purl.obolibrary.org/obo/GO_0035344	hypoxanthine transport	http://purl.obolibrary.org/obo/CHEBI_17368	hypoxanthine
@@ -232,6 +230,7 @@ http://purl.obolibrary.org/obo/GO_0015931	nucleobase-containing compound transpo
 http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport	http://purl.obolibrary.org/obo/CHEBI_33838	nucleoside
 http://purl.obolibrary.org/obo/GO_0006862	nucleotide transport	http://purl.obolibrary.org/obo/CHEBI_36976	nucleotide
 http://purl.obolibrary.org/obo/GO_0015715	nucleotide-sulfate transport	http://purl.obolibrary.org/obo/CHEBI_64702	nucleotide-sulfate
+http://purl.obolibrary.org/obo/GO_7770033	octopamine transport	http://purl.obolibrary.org/obo/CHEBI_58025	octopaminium
 http://purl.obolibrary.org/obo/GO_0033156	oligogalacturonide transport	http://purl.obolibrary.org/obo/CHEBI_62533	oligogalacturonide
 http://purl.obolibrary.org/obo/GO_0006857	oligopeptide transport	http://purl.obolibrary.org/obo/CHEBI_25676	oligopeptide
 http://purl.obolibrary.org/obo/GO_0015772	oligosaccharide transport	http://purl.obolibrary.org/obo/CHEBI_50699	oligosaccharide
@@ -325,6 +324,7 @@ http://purl.obolibrary.org/obo/GO_0042939	tripeptide transport	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_2001088	trisaccharide transport	http://purl.obolibrary.org/obo/CHEBI_27150	trisaccharide
 http://purl.obolibrary.org/obo/GO_0015827	tryptophan transport	http://purl.obolibrary.org/obo/CHEBI_64554	tryptophan zwitterion
 http://purl.obolibrary.org/obo/GO_0070614	tungstate ion transport	http://purl.obolibrary.org/obo/CHEBI_46502	tungstate
+http://purl.obolibrary.org/obo/GO_7770032	tyramine transport	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
 http://purl.obolibrary.org/obo/GO_0015828	tyrosine transport	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_0015857	uracil transport	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
 http://purl.obolibrary.org/obo/GO_0015747	urate transport	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione

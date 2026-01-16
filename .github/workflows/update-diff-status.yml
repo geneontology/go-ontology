@@ -1,0 +1,62 @@
+name: Update status reports
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '15 5 * * *'
+
+permissions:
+  contents: write   # REQUIRED to push to gh-pages
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout master branch
+      uses: actions/checkout@v3
+      with:
+        ref: master
+        fetch-depth: 0   # REQUIRED to switch branches later
+
+    - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+    - name: Update status diffs from master data
+      run: |
+        cd src/ontology
+        make go-obo-status.md go-owl-diff.md go-plus-owl-diff.md go-obo-txt-diff.md
+        cd ../..
+
+    # --- SWITCH TO gh-pages AND APPLY OUTPUT ---
+    - name: Switch to gh-pages branch
+      run: |
+        git fetch origin gh-pages
+        git checkout gh-pages
+
+    - name: Copy refreshed docs into gh-pages
+      run: |
+        mkdir -p docs/status
+        cp src/ontology/go-obo-status.md docs/status/
+        cp src/ontology/go-owl-diff.md docs/status/
+        cp src/ontology/go-plus-owl-diff.md docs/status/
+        cp src/ontology/go-obo-txt-diff.md docs/status/
+
+    - name: Commit and push to gh-pages
+      run: |
+        git config --global user.name 'Ontobot'
+        git config --global user.email 'ontobot@users.noreply.github.com'
+
+        # Only add files if they exist
+        for f in docs/status/go-obo-status.md docs/status/go-owl-diff.md docs/status/go-plus-owl-diff.md docs/status/go-obo-txt-diff.md; do
+          [ -f "$f" ] && git add "$f"
+        done
+
+        # Only commit if something was staged
+        if git diff --cached --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Automated status diffs"
+          git push origin gh-pages
+        fi

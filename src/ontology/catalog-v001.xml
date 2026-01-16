@@ -18,6 +18,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/uberon.owl" uri="mirror/uberon.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/po_import.owl" uri="imports/po_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/caro_import.owl" uri="imports/caro_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/cob_import.owl" uri="imports/cob_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/fao_import.owl" uri="imports/fao_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/pr_import.owl" uri="imports/pr_import.owl"/>
@@ -54,4 +55,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-lego.owl" uri="extensions/go-lego.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/reacto.owl" uri="extensions/reacto.owl"/>
     <uri id="go-lego-chebi-import" name="http://purl.obolibrary.org/obo/go/imports/go-lego-chebi-import.owl" uri="imports/go-lego-chebi-import.owl"/>
+    <uri id="go-users-import" name="http://snapshot.geneontology.org/metadata/users.ttl" uri="mirror/users.ttl"/>
+    <uri id="go-groups-import" name="http://snapshot.geneontology.org/metadata/groups.ttl" uri="mirror/groups.ttl"/>
 </catalog>

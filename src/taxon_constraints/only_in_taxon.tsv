@@ -57,12 +57,8 @@ GO:0005214	structural constituent of chitin-based cuticle	NCBITaxon:6656	Arthrop
 GO:0005521	lamin binding	NCBITaxon:33208	Metazoa	
 GO:0005581	collagen trimer	NCBITaxon:33208	Metazoa	PMID:12382326
 GO:0005628	prospore membrane	NCBITaxon:4890	Ascomycota	
-GO:0005634	nucleus	NCBITaxon:2759	Eukaryota	
-GO:0005739	mitochondrion	NCBITaxon:2759	Eukaryota	
 GO:0005768	endosome	NCBITaxon:2759	Eukaryota	
-GO:0005783	endoplasmic reticulum	NCBITaxon:2759	Eukaryota	
 GO:0005786	signal recognition particle, endoplasmic reticulum targeting	NCBITaxon:2759	Eukaryota	
-GO:0005794	Golgi apparatus	NCBITaxon:2759	Eukaryota	
 GO:0005816	spindle pole body	NCBITaxon:4751	Fungi	
 GO:0005826	actomyosin contractile ring	NCBITaxon:2759	Eukaryota	
 GO:0005850	eukaryotic translation initiation factor 2 complex	NCBITaxon:2759	Eukaryota	
@@ -232,6 +228,7 @@ GO:0018990	ecdysis, chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0019096	pole plasm mitochondrial lrRNA localization	NCBITaxon:6656	Arthropoda	
 GO:0019097	pole plasm mitochondrial srRNA localization	NCBITaxon:6656	Arthropoda	
 GO:0019350	teichoic acid biosynthetic process	NCBITaxon:2	Bacteria	
+GO:0019452	taurine biosynthetic process from L-cysteine	NCBITaxon:33208	Metazoa	
 GO:0019819	P1 peroxisome	NCBITaxon:4952	Yarrowia lipolytica	PMID:10629216|PMID:14504266
 GO:0019820	P2 peroxisome	NCBITaxon:4952	Yarrowia lipolytica	PMID:10629216|PMID:14504266
 GO:0019821	P3 peroxisome	NCBITaxon:4952	Yarrowia lipolytica	PMID:10629216|PMID:14504266
@@ -296,7 +293,6 @@ GO:0031912	oral apparatus	NCBITaxon:5878	Ciliophora
 GO:0031986	proteinoplast	NCBITaxon:33090	Viridiplantae	
 GO:0032121	meiotic attachment of telomeric heterochromatin to spindle pole body	NCBITaxon:4751	Fungi	
 GO:0032258	protein localization by the Cvt pathway	NCBITaxon:147537	Saccharomycotina	
-GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae	
 GO:0033104	type VI protein secretion system complex	NCBITaxon:2	Bacteria	
 GO:0033105	chlorosome envelope	NCBITaxon:Union_0000004	Prokaryota	
 GO:0033173	calcineurin-NFAT signaling cascade	NCBITaxon:33208	Metazoa	
@@ -377,7 +373,6 @@ GO:0043595	endospore cortex	NCBITaxon:2	Bacteria
 GO:0043597	cytoplasmic replication fork	NCBITaxon:Union_0000004	Prokaryota	
 GO:0043684	type IV secretion system complex	NCBITaxon:2	Bacteria	
 GO:0043952	protein transport by the Sec complex	NCBITaxon:2	Bacteria	
-GO:0044223	pirellulosome	NCBITaxon:2	Bacteria	
 GO:0044312	crystalloid	NCBITaxon:5794	Apicomplexa	
 GO:0044682	archaeal-specific GTP cyclohydrolase activity	NCBITaxon:2157	Archaea	
 GO:0044770	cell cycle phase transition	NCBITaxon:2759	Eukaryota	
@@ -752,7 +747,6 @@ GO:0036411	H-NS-Cnu complex	NCBITaxon:2	Bacteria
 GO:1990198	ModE complex	NCBITaxon:2	Bacteria	
 GO:0052704	ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide	NCBITaxon:2	Bacteria	
 GO:0140479	ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase	NCBITaxon:4751	Fungi	
-GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0140495	migracytosis	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0120259	7SK snRNP	NCBITaxon:33208	Metazoa	
 GO:0120260	ciliary microtubule quartet	NCBITaxon:5653	Kinetoplastida	
@@ -770,7 +764,6 @@ GO:0050323	taurine dehydrogenase activity	NCBITaxon:2	Bacteria	PMID:15073291
 GO:0031299	taurine-pyruvate aminotransferase activity	NCBITaxon:2	Bacteria	PMID:11082195
 GO:0050322	taurine-2-oxoglutarate transaminase activity	NCBITaxon:2	Bacteria	PMID:16535664
 GO:0062089	regulation of taurine biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0019452	L-cysteine catabolic process to taurine	NCBITaxon:33208	Metazoa	
 GO:0050325	tauropine dehydrogenase activity	NCBITaxon:33208	Metazoa	
 GO:0103012	ferredoxin-thioredoxin reductase activity	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria	
 GO:0030386	ferredoxin:thioredoxin reductase complex	NCBITaxon_Union:0000002	Viridiplantae or Cyanobacteria	
@@ -846,8 +839,6 @@ GO:0019812	type I site-specific deoxyribonuclease complex	NCBITaxon:Union_000000
 GO:0009359	type II site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0019813	type III site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
 GO:0032068	type IV site-specific deoxyribonuclease complex	NCBITaxon:Union_0000004	Prokaryota	
-GO:0044222	anammoxosome	NCBITaxon:Union_0000004	Prokaryota	
-GO:0044227	methane-oxidizing organelle	NCBITaxon:Union_0000004	Prokaryota	
 GO:0009504	cell plate	NCBITaxon:33090	Viridiplantae	
 GO:0072562	blood microparticle	NCBITaxon:6072	Eumetazoa	
 GO:0050803	regulation of synapse structure or activity	NCBITaxon:6072	Eumetazoa	
@@ -872,7 +863,6 @@ GO:0042597	periplasmic space	NCBITaxon:Union_0000023	Fungi or Bacteria or Archae
 GO:0060918	auxin transport	NCBITaxon:33090	Viridiplantae	
 GO:2000012	regulation of auxin polar transport	NCBITaxon:33090	Viridiplantae	
 GO:0080161	auxin transmembrane transporter activity	NCBITaxon:33090	Viridiplantae	
-GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
 GO:0062200	RAM/MOR signaling pathway	NCBITaxon:4751	Fungi	PMID:23212898
 GO:0004164	diphthine synthase activity	NCBITaxon:2157	Archaea	PMID:24739148
 GO:0141133	diphthine methyl ester synthase activity	NCBITaxon:2759	Eukaryota	PMID:24739148
@@ -917,9 +907,7 @@ GO:0030428	cell septum	NCBITaxon:Union_0000020	Fungi or Bacteria
 GO:0018679	dibenzothiophene-5,5-dioxide monooxygenase activity	NCBITaxon:Union_0000004	Prokaryota	
 GO:0031639	plasminogen activation	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0009331	glycerol-3-phosphate dehydrogenase complex	NCBITaxon:Union_0000004	Prokaryota	
-GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
 GO:0019833	ice nucleation activity	NCBITaxon:2	Bacteria	
-GO:0042579	microbody	NCBITaxon:2759	Eukaryota	
 GO:0030941	chloroplast targeting sequence binding	NCBITaxon:33090	Viridiplantae	
 GO:0043715	2,3-diketo-5-methylthiopentyl-1-phosphate enolase activity	NCBITaxon:2	Bacteria	
 GO:0043716	2-hydroxy-3-keto-5-methylthiopentenyl-1-phosphate phosphatase activity	NCBITaxon:2	Bacteria	
@@ -934,3 +922,32 @@ GO:0050062	long-chain-fatty-acyl-CoA luciferin component reductase activity	NCBI
 GO:0047474	long-chain fatty acid--protein ligase activity	NCBITaxon:2	Bacteria	
 GO:0106314	nitrite reductase (NADPH) activity	NCBITaxon:2759	Eukaryota	
 GO:0160269	sweat secretion	NCBITaxon:40674	Mammalia	
+GO:0043682	P-type divalent copper transporter activity	NCBITaxon:2	Bacteria	
+GO:0044222	anammoxosome	NCBITaxon:Union_0000004	Prokaryota	
+GO:0044223	pirellulosome	NCBITaxon:2	Bacteria	
+GO:0044227	methane-oxidizing organelle	NCBITaxon:Union_0000004	Prokaryota	
+GO:0005634	nucleus	NCBITaxon:2759	Eukaryota	
+GO:0005739	mitochondrion	NCBITaxon:2759	Eukaryota	
+GO:0005773	vacuole	NCBITaxon:2759	Eukaryota	
+GO:0005783	endoplasmic reticulum	NCBITaxon:2759	Eukaryota	
+GO:0005793	endoplasmic reticulum-Golgi intermediate compartment	NCBITaxon:2759	Eukaryota	
+GO:0005794	Golgi apparatus	NCBITaxon:2759	Eukaryota	
+GO:0005801	cis-Golgi network	NCBITaxon:2759	Eukaryota	
+GO:0010168	ER body	NCBITaxon:2759	Eukaryota	
+GO:0016007	mitochondrial derivative	NCBITaxon:2759	Eukaryota	
+GO:0020009	microneme	NCBITaxon:2759	Eukaryota	
+GO:0031094	platelet dense tubular network	NCBITaxon:2759	Eukaryota	
+GO:0032047	mitosome	NCBITaxon:2759	Eukaryota	
+GO:0033009	nucleomorph	NCBITaxon:33090	Viridiplantae	
+GO:0042579	microbody	NCBITaxon:2759	Eukaryota	
+GO:0042735	endosperm protein body	NCBITaxon:2759	Eukaryota	
+GO:0044311	exoneme	NCBITaxon:2759	Eukaryota	
+GO:0061468	karyomere	NCBITaxon:2759	Eukaryota	
+GO:0070074	mononeme	NCBITaxon:2759	Eukaryota	
+GO:0071212	subsynaptic reticulum	NCBITaxon:2759	Eukaryota	
+GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0160045	TMEM240-body	NCBITaxon:2759	Eukaryota	
+GO:0160201	polaroplast	NCBITaxon:2759	Eukaryota	
+GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
+GO:1990413	eyespot apparatus	NCBITaxon:2759	Eukaryota	
+GO:1990462	omegasome	NCBITaxon:2759	Eukaryota	

@@ -19,3 +19,9 @@ http://purl.obolibrary.org/obo/CL_0011025 ## exhausted T cell
 http://purl.obolibrary.org/obo/CL_2000089 ## dentate gyrus of hippocampal formation granule cell
 http://purl.obolibrary.org/obo/CL_0002204 ## brush cell
 http://purl.obolibrary.org/obo/CL_0001070 ## beige adipocyte
+http://purl.obolibrary.org/obo/CL_0000577 ## type EC enteroendocrine cell
+http://purl.obolibrary.org/obo/CL_0000508 ## type G enteroendocrine cell
+http://purl.obolibrary.org/obo/CL_0002277 ## type I enteroendocrine cell
+http://purl.obolibrary.org/obo/CL_0002279 ## type L enteroendocrine cell
+http://purl.obolibrary.org/obo/CL_0002280 ## type N enteroendocrine cell
+
