@@ -228,6 +228,7 @@ GO:0018990	ecdysis, chitin-based cuticle	NCBITaxon:6656	Arthropoda
 GO:0019096	pole plasm mitochondrial lrRNA localization	NCBITaxon:6656	Arthropoda	
 GO:0019097	pole plasm mitochondrial srRNA localization	NCBITaxon:6656	Arthropoda	
 GO:0019350	teichoic acid biosynthetic process	NCBITaxon:2	Bacteria	
+GO:0019452	taurine biosynthetic process from L-cysteine	NCBITaxon:33208	Metazoa	
 GO:0019819	P1 peroxisome	NCBITaxon:4952	Yarrowia lipolytica	PMID:10629216|PMID:14504266
 GO:0019820	P2 peroxisome	NCBITaxon:4952	Yarrowia lipolytica	PMID:10629216|PMID:14504266
 GO:0019821	P3 peroxisome	NCBITaxon:4952	Yarrowia lipolytica	PMID:10629216|PMID:14504266
