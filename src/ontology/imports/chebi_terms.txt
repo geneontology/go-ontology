@@ -8219,3 +8219,4 @@ http://purl.obolibrary.org/obo/CHEBI_233516 ## keratan sulfate proteoglycan
 http://purl.obolibrary.org/obo/CHEBI_233528 ## heparin proteoglycan
 http://purl.obolibrary.org/obo/CHEBI_60193 ## queuosine
 http://purl.obolibrary.org/obo/CHEBI_235375 ## 4-vinylanisole
+http://purl.obolibrary.org/obo/CHEBI_233617 ## terreate
