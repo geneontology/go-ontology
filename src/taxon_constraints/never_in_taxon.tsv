@@ -3,7 +3,7 @@ GO:1990244	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	 PMID:19965387
 GO:0006097	glyoxylate cycle	NCBITaxon:33511	Deuterostomia	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:6656	Arthropoda	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	PMID:28732077	
+GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	PMID:28732077
 GO:0103016	tRNA-uridine 2-sulfurtransferase activity	NCBITaxon:33208	Metazoa	PMID:28732077
 GO:0070189 	kynurenine metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0019628 	urate catabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
@@ -20,7 +20,7 @@ GO:0070523	11-beta-hydroxysteroid dehydrogenase (NAD+) activity	NCBITaxon:50557	
 GO:0070524	11-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
 GO:0004507	steroid 11-beta-monooxygenase activity	NCBITaxon:50557	Insecta	
 GO:0047521	12-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
-GO:0047006	17-alpha,20-alpha-dihydroxypregn-4-en-3-one dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta	
+GO:0047006	17-alpha,20-alpha-dihydroxypregn-4-en-3-one dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta		
 GO:0047035	testosterone dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
 GO:0047045	testosterone dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
 GO:0047044	androstan-3-alpha,17-beta-diol dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
