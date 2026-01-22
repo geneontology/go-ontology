@@ -1,5 +1,5 @@
 defined_class	defined_class_label	taxon	taxon_label	source
-GO:1990244	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	 PMID:19965387
+GO:1990244	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	PMID:19965387
 GO:0006097	glyoxylate cycle	NCBITaxon:33511	Deuterostomia	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:6656	Arthropoda	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:4896	Schizosaccharomyces pombe	
@@ -20,14 +20,14 @@ GO:0070523	11-beta-hydroxysteroid dehydrogenase (NAD+) activity	NCBITaxon:50557	
 GO:0070524	11-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
 GO:0004507	steroid 11-beta-monooxygenase activity	NCBITaxon:50557	Insecta	
 GO:0047521	12-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
-GO:0047006	17-alpha,20-alpha-dihydroxypregn-4-en-3-one dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta		
+GO:0047006	17-alpha,20-alpha-dihydroxypregn-4-en-3-one dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta	
 GO:0047035	testosterone dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
 GO:0047045	testosterone dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
 GO:0047044	androstan-3-alpha,17-beta-diol dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
 GO:0047023	androsterone dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta	
 GO:0106281	chenodeoxycholate 7-alpha-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
 GO:0008709	cholate 7-alpha-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
-GO:0015432	ABC-type bile acid transporter activity	NCBITaxon:50557	Insecta		
+GO:0015432	ABC-type bile acid transporter activity	NCBITaxon:50557	Insecta	
 GO:0033777	lithocholate 6-beta-hydroxylase activity	NCBITaxon:50557	Insecta	
 GO:0033780	taurochenodeoxycholate 6-alpha-hydroxylase activity	NCBITaxon:50557	Insecta	
 GO:0033792	3-alpha-hydroxy bile acid-CoA-ester 3-dehydrogenase activity	NCBITaxon:50557	Insecta	
