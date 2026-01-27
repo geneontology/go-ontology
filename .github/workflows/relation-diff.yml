@@ -70,7 +70,7 @@ jobs:
         name: ontrdf.facts
         path: ontrdf.facts
     - name: Diff classification
-      run: souffle src/util/relation-diff.dl
+      run: head right.facts && head left.facts && head ontrdf.facts && souffle src/util/relation-diff.dl
     - name: Combine output
       run: cat lost.csv gained.csv >diff.tsv
     - name: Upload diff
