@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-01-25go.owl-statistics
+id: obo:go/releases/2026-01-27go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-01-25go.owl
+  version: obo:go/releases/2026-01-27go.owl
 was_generated_by:
-  started_at_time: '2026-01-25T05:47:44.279594'
+  started_at_time: '2026-01-27T05:48:18.411541'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -51,13 +51,13 @@ partitions:
       NodeRename: 691
       NodeTextDefinitionChange: 706
       EdgeDeletion: 316
-      AddNodeToSubset: 23
+      NodeDeletion: 23
+      RemoveMapping: 302
+      MappingCreation: 50
       RemoveSynonym: 27
       NewSynonym: 72
-      RemoveMapping: 302
+      AddNodeToSubset: 23
       RemoveNodeFromSubset: 12
-      MappingCreation: 50
-      NodeDeletion: 23
       NodeObsoletion: 1
       All_Obsoletion: 1
       All_Synonym: 99
@@ -94,19 +94,19 @@ partitions:
     distinct_synonym_count: 28476
     synonym_statement_count: 29625
     change_summary:
-      MappingCreation: 498
       RemoveMapping: 1467
       NodeTextDefinitionChange: 159
-      EdgeCreation: 196
-      NodeRename: 118
-      RemoveSynonym: 52
-      NewSynonym: 27
       NodeUnobsoletion: 41
+      NodeRename: 118
+      EdgeCreation: 196
+      MappingCreation: 498
       AddNodeToSubset: 20
-      NodeObsoletionWithDirectReplacement: 1
+      RemoveSynonym: 52
       EdgeDeletion: 99
       NodeDeletion: 20
+      NewSynonym: 27
       RemoveNodeFromSubset: 1
+      NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
       All_Synonym: 79
     edge_count: 13676
@@ -130,14 +130,14 @@ partitions:
     distinct_synonym_count: 5076
     synonym_statement_count: 5274
     change_summary:
+      NodeTextDefinitionChange: 32
       NodeDeletion: 12
       EdgeDeletion: 45
-      NodeRename: 22
-      NodeTextDefinitionChange: 32
       RemoveSynonym: 26
+      NodeRename: 22
       EdgeCreation: 27
-      NewSynonym: 1
       RemoveNodeFromSubset: 1
+      NewSynonym: 1
       NodeUnobsoletion: 1
       All_Obsoletion: 0
       All_Synonym: 27
