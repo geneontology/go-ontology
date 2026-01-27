@@ -41,3 +41,4 @@ target/
 # Mac specific weirdness
 .DS_Store
 src/.DS_Store
+tools/
