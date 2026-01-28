@@ -210,8 +210,8 @@ go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
 
-go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc mirror/rhea.rdf
-	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml mirror/rhea.rdf $@
+go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc ../resources/rhea.rdf
+	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml ../resources/rhea.rdf $@
 
 # merge in some imported GO modules
 # remove editor-only annotations
@@ -530,8 +530,11 @@ mirror/groups.ttl:
 	curl -L -o $@.tmp 'https://snapshot.geneontology.org/metadata/groups.ttl' &&\
 	$(ROBOT) annotate -i $@.tmp --ontology-iri 'http://snapshot.geneontology.org/metadata/groups.ttl' -o $@
 
-mirror/rhea.rdf:
-	curl -L -o $@.gz 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz' && gunzip $@.gz
+../resources/rhea.rdf.gz:
+	curl -L -o $@ 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz'
+
+../resources/rhea.rdf: ../resources/rhea.rdf.gz
+	 gunzip $< -c > $@
 
 ../resources/obsolete_ec.txt:
 	curl -L -o ../resources/enzyme.rdf 'https://ftp.expasy.org/databases/enzyme/enzyme.rdf' &&\
@@ -618,8 +621,8 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 # IMPORTED AND TRANSFERRED RHEA AXIOMS
 # ----------------------------------------
 
-rhea.ttl: ../sparql/construct-rhea-reactions.sparql mirror/rhea.rdf
-	arq -q --data=mirror/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
+rhea.ttl: ../sparql/construct-rhea-reactions.sparql ../resources/rhea.rdf
+	arq -q --data=../resources/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
 	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
