@@ -21,4 +21,6 @@ Instructions for editing the ontology can be found in the [GO wiki/Ontology sect
     * The S3 bucket for go-data-product-snapshot/ontology/, mapped to http://snapshot.geneontology.org/ontology/, is redirected to from the OBO Library PURL (http://purl.obolibrary.org/obo/go/snapshot/FOO)
  - A Jenkins job produces monthly production releases (https://build.geneontology.org/job/geneontology/job/pipeline/job/release/)
 
+## AI-Assisted Curation
 
+This repository supports AI-assisted ontology curation via the @dragon-ai-agent.
