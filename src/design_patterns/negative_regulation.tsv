@@ -97,7 +97,6 @@ http://purl.obolibrary.org/obo/GO_0010972	negative regulation of G2/M transition
 http://purl.obolibrary.org/obo/GO_0110031	negative regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
 http://purl.obolibrary.org/obo/GO_0160145	negative regulation of GDF15-GFRAL signaling pathway	http://purl.obolibrary.org/obo/GO_0160144	GDF15-GFRAL signaling pathway
 http://purl.obolibrary.org/obo/GO_0034260	negative regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
-http://purl.obolibrary.org/obo/GO_1905527	negative regulation of Golgi lumen acidification	http://purl.obolibrary.org/obo/GO_0061795	Golgi lumen acidification
 http://purl.obolibrary.org/obo/GO_0042997	negative regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048216	negative regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070809	negative regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
@@ -118,7 +117,7 @@ http://purl.obolibrary.org/obo/GO_1905533	negative regulation of L-leucine impor
 http://purl.obolibrary.org/obo/GO_1905009	negative regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905625	negative regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1902006	negative regulation of L-proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001157	negative regulation of L-proline catabolic process to L-glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
+http://purl.obolibrary.org/obo/GO_2001157	negative regulation of L-proline catabolic process	http://purl.obolibrary.org/obo/GO_0006562	L-proline catabolic process
 http://purl.obolibrary.org/obo/GO_1905736	negative regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900927	negative regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900930	negative regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
@@ -358,7 +357,6 @@ http://purl.obolibrary.org/obo/GO_2001234	negative regulation of apoptotic signa
 http://purl.obolibrary.org/obo/GO_0075019	negative regulation of appressorium formation	http://purl.obolibrary.org/obo/GO_0075016	appressorium formation
 http://purl.obolibrary.org/obo/GO_2000922	negative regulation of arabinoxylan-containing compound catabolic process	http://purl.obolibrary.org/obo/GO_2000888	arabinoxylan-containing compound catabolic process
 http://purl.obolibrary.org/obo/GO_1900139	negative regulation of arachidonate secretion	http://purl.obolibrary.org/obo/GO_0050482	arachidonate secretion
-http://purl.obolibrary.org/obo/GO_0075331	negative regulation of arbuscule formation for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0075328	formation of arbuscule for nutrient acquisition
 http://purl.obolibrary.org/obo/GO_1900082	negative regulation of arginine catabolic process	http://purl.obolibrary.org/obo/GO_0006527	L-arginine catabolic process
 http://purl.obolibrary.org/obo/GO_1905652	negative regulation of artery morphogenesis	http://purl.obolibrary.org/obo/GO_0048844	artery morphogenesis
 http://purl.obolibrary.org/obo/GO_1905655	negative regulation of artery smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0014824	artery smooth muscle contraction
@@ -797,7 +795,6 @@ http://purl.obolibrary.org/obo/GO_0061185	negative regulation of dermatome devel
 http://purl.obolibrary.org/obo/GO_2000971	negative regulation of detection of glucose	http://purl.obolibrary.org/obo/GO_0051594	detection of glucose
 http://purl.obolibrary.org/obo/GO_1905788	negative regulation of detection of mechanical stimulus involved in sensory perception of touch	http://purl.obolibrary.org/obo/GO_0050976	detection of mechanical stimulus involved in sensory perception of touch
 http://purl.obolibrary.org/obo/GO_2000016	negative regulation of determination of dorsal identity	http://purl.obolibrary.org/obo/GO_0048263	determination of dorsal identity
-http://purl.obolibrary.org/obo/GO_0044131	negative regulation of development of symbiont in host	http://purl.obolibrary.org/obo/GO_0044114	development of symbiont in host
 http://purl.obolibrary.org/obo/GO_0048640	negative regulation of developmental growth	http://purl.obolibrary.org/obo/GO_0048589	developmental growth
 http://purl.obolibrary.org/obo/GO_0048086	negative regulation of developmental pigmentation	http://purl.obolibrary.org/obo/GO_0048066	developmental pigmentation
 http://purl.obolibrary.org/obo/GO_0051093	negative regulation of developmental process	http://purl.obolibrary.org/obo/GO_0032502	developmental process
@@ -1005,7 +1002,6 @@ http://purl.obolibrary.org/obo/GO_0120184	negative regulation of focal adhesion 
 http://purl.obolibrary.org/obo/GO_0046882	negative regulation of follicle-stimulating hormone secretion	http://purl.obolibrary.org/obo/GO_0046884	follicle-stimulating hormone secretion
 http://purl.obolibrary.org/obo/GO_1903369	negative regulation of foraging behavior	http://purl.obolibrary.org/obo/GO_0060756	foraging behavior
 http://purl.obolibrary.org/obo/GO_2000978	negative regulation of forebrain neuron differentiation	http://purl.obolibrary.org/obo/GO_0021879	forebrain neuron differentiation
-http://purl.obolibrary.org/obo/GO_0075047	negative regulation of formation by symbiont of haustorium for nutrient acquisition from host	http://purl.obolibrary.org/obo/GO_0052094	formation of haustorium for nutrient acquisition
 http://purl.obolibrary.org/obo/GO_1905943	negative regulation of formation of growth cone in injured axon	http://purl.obolibrary.org/obo/GO_0048689	formation of growth cone in injured axon
 http://purl.obolibrary.org/obo/GO_0061925	negative regulation of formation of radial glial scaffolds	http://purl.obolibrary.org/obo/GO_0021943	formation of radial glial scaffolds
 http://purl.obolibrary.org/obo/GO_0075032	negative regulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of appressorium germ tube hook structure
@@ -2190,7 +2186,6 @@ http://purl.obolibrary.org/obo/GO_1904057	negative regulation of sensory percept
 http://purl.obolibrary.org/obo/GO_1904657	negative regulation of sensory perception of sweet taste	http://purl.obolibrary.org/obo/GO_0050916	sensory perception of sweet taste
 http://purl.obolibrary.org/obo/GO_0031030	negative regulation of septation initiation signaling	http://purl.obolibrary.org/obo/GO_0031028	septation initiation signaling
 http://purl.obolibrary.org/obo/GO_2001042	negative regulation of septum digestion after cytokinesis	http://purl.obolibrary.org/obo/GO_0000920	septum digestion after cytokinesis
-http://purl.obolibrary.org/obo/GO_0051283	negative regulation of sequestering of calcium ion	http://purl.obolibrary.org/obo/GO_0051208	sequestering of calcium ion
 http://purl.obolibrary.org/obo/GO_1900004	negative regulation of serine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1902572	negative regulation of serine-type peptidase activity	http://purl.obolibrary.org/obo/GO_0008236	serine-type peptidase activity
 http://purl.obolibrary.org/obo/GO_1905628	negative regulation of serotonin biosynthetic process	http://purl.obolibrary.org/obo/GO_0042427	serotonin biosynthetic process
