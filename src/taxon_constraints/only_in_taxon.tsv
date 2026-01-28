@@ -428,7 +428,8 @@ GO:0048477	oogenesis	NCBITaxon:33208	Metazoa
 GO:0048479	style development	NCBITaxon:33090	Viridiplantae	
 GO:0048480	stigma development	NCBITaxon:33090	Viridiplantae	
 GO:0048481	plant ovule development	NCBITaxon:33090	Viridiplantae	
-GO:0048482	plant ovule morphogenesis	NCBITaxon:33090	Viridiplantae	
+GO:0048482	plant ovule morphogenesis	NCBITaxon:33090	Viridiplantae
+GO:0048489	synaptic vesicle transport	NCBITaxon:33208	Metazoa
 GO:0048493	plasma membrane-derived thylakoid ribulose bisphosphate carboxylase complex	NCBITaxon:1117	Cyanobacteria	
 GO:0048501	signal recognition particle, plasma membrane targeting	NCBITaxon:Union_0000004	Prokaryota	
 GO:0048507	meristem development	NCBITaxon:33090	Viridiplantae	
