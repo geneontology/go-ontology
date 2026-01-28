@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
       run: git config --global --add safe.directory "$GITHUB_WORKSPACE"

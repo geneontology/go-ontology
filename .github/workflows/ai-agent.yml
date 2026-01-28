@@ -57,8 +57,7 @@ jobs:
       result: ${{ steps.check.outputs.result }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v4        
       - name: Check for qualifying mention
         id: check
         uses: actions/github-script@v6
