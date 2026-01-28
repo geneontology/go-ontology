@@ -76,7 +76,7 @@ jobs:
       - name: Prepare comment
         run: "echo \"Here's a diff of how these changes impact the classified ontology: \n\" >comment.md; cat classification-diff.md/classification-diff.md >>comment.md"
       - name: Post comment
-        uses: NejcZdovc/comment-pr@v1.1.1
+        uses: NejcZdovc/comment-pr@v2.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
