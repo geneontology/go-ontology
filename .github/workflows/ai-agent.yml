@@ -1,10 +1,46 @@
-name: Dragon AI Agent GitHub Mentions
+# AI Agent triggered by @mentions in issues/PRs
+#
+# Listens for @<agent-name> please <request> mentions from authorized users
+# and runs Claude Code to respond.
+#
+# Required secrets: ANTHROPIC_API_KEY, PAT_FOR_PR
+# Configuration: .github/ai-controllers.json (list of authorized usernames)
+#
+# ============================================================================
+# WORKFLOW PATTERN
+# ============================================================================
+# 1. JS step: Parse event payload, check authorization, return essentials
+# 2. Claude step: Full autonomy - reads context via `gh`, makes changes,
+#    pushes branches, creates PRs, posts comments directly
+#
+# The agent handles all git/GitHub operations itself using `gh` CLI.
+#
+# ============================================================================
+name: AI Agent GitHub Mentions
 
 env:
-  ROBOT_VERSION: v1.9.7
+  AGENT_NAME: dragon-ai-agent
+  MODEL: claude-opus-4-5-20251101
   TOOLS_DIR: ${{ github.workspace }}/tools
+  ARTIFACT_RETENTION_DAYS: 90
+  TIMEOUT_MINUTES: 30
 
 on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue or PR number to respond to"
+        required: true
+      item_type:
+        description: "Type of item (issue or pull_request)"
+        required: true
+        type: choice
+        options:
+          - issue
+          - pull_request
+      prompt:
+        description: "The request/prompt for the agent"
+        required: true
   issues:
     types: [opened, edited]
   issue_comment:
@@ -21,16 +57,17 @@ jobs:
       result: ${{ steps.check.outputs.result }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        
+        uses: actions/checkout@v4
+
       - name: Check for qualifying mention
         id: check
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.PAT_FOR_PR }}  # Use PAT instead of default token
+          github-token: ${{ secrets.PAT_FOR_PR }}
           script: |
-            // Load allowed users from config
             const fs = require('fs');
+
+            // Load allowed users from config
             let allowedUsers = [];
             try {
               const configContent = fs.readFileSync('.github/ai-controllers.json', 'utf8');
@@ -39,13 +76,52 @@ jobs:
               console.log('Error loading allowed users:', error);
               allowedUsers = ['cmungall']; // Fallback
             }
-            
-            // Get content and user from event payload directly to avoid API calls when possible
+
+            const agentName = process.env.AGENT_NAME || 'dragon-ai-agent';
+
+            // Handle workflow_dispatch (manual trigger)
+            if (context.eventName === 'workflow_dispatch') {
+              const inputs = context.payload.inputs;
+              console.log(`Manual dispatch: ${inputs.item_type} #${inputs.issue_number}`);
+
+              // Check for SKIP_ODK or "quick question" in issue body (need to fetch it)
+              let skipOdk = false;
+              if (inputs.item_type === 'issue') {
+                try {
+                  const issue = await github.rest.issues.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: parseInt(inputs.issue_number)
+                  });
+                  const body = (issue.data.body || '').toLowerCase();
+                  const promptLower = inputs.prompt.toLowerCase();
+                  skipOdk = body.includes('skip_odk') || body.includes('quick question') ||
+                            promptLower.includes('skip_odk') || promptLower.includes('quick question');
+                } catch (e) {
+                  console.log('Could not fetch issue for SKIP_ODK check:', e);
+                }
+              }
+
+              return {
+                qualifiedMention: true,
+                itemType: inputs.item_type,
+                itemNumber: parseInt(inputs.issue_number),
+                user: context.actor,
+                prompt: inputs.prompt,
+                repo: `${context.repo.owner}/${context.repo.repo}`,
+                branchName: `${agentName}-${inputs.item_type}-${inputs.issue_number}-run${context.runNumber}`,
+                useOdkContainer: !skipOdk,
+                skipOdkNote: skipOdk ? 'NOTE: This is NOT running in the ODK container (SKIP_ODK was specified), so ODK tools like ROBOT, owltools, etc. are unavailable.' : ''
+              };
+            }
+
+            // Extract essentials from event payload
             let content = '';
             let userLogin = '';
             let itemType = '';
             let itemNumber = 0;
-            
+            let commentId = null;  // For adding reaction to the triggering comment
+
             if (context.eventName === 'issues') {
               content = context.payload.issue.body || '';
               userLogin = context.payload.issue.user.login;
@@ -61,159 +137,198 @@ jobs:
               userLogin = context.payload.comment.user.login;
               itemType = 'issue';
               itemNumber = context.payload.issue.number;
+              commentId = context.payload.comment.id;
             } else if (context.eventName === 'pull_request_review_comment') {
               content = context.payload.comment.body || '';
               userLogin = context.payload.comment.user.login;
               itemType = 'pull_request';
               itemNumber = context.payload.pull_request.number;
+              commentId = context.payload.comment.id;
             }
-            
-            // Check if user is allowed and mention exists
+
+            // Check authorization and extract prompt
             const isAllowed = allowedUsers.includes(userLogin);
-            const mentionRegex = /@dragon-ai-agent\s+please\s+(.*)/i;
+            const mentionRegex = new RegExp(`@${agentName}\\s+please\\s+(.*)`, 'is');
             const mentionMatch = content.match(mentionRegex);
-            
+
             const qualifiedMention = isAllowed && mentionMatch !== null;
             const prompt = qualifiedMention ? mentionMatch[1].trim() : '';
-            
+
             console.log(`User: ${userLogin}, Allowed: ${isAllowed}, Has mention: ${mentionMatch !== null}`);
-            
+
+            if (!qualifiedMention) {
+              return { qualifiedMention: false };
+            }
+
+            // Add 👀 reaction immediately to show we're on it
+            try {
+              if (commentId) {
+                await github.rest.reactions.createForIssueComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: commentId,
+                  content: 'eyes'
+                });
+              } else {
+                await github.rest.reactions.createForIssue({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: itemNumber,
+                  content: 'eyes'
+                });
+              }
+              console.log('Added 👀 reaction');
+            } catch (e) {
+              console.log('Could not add reaction:', e.message);
+            }
+
+            // Post "working on it" comment immediately
+            try {
+              const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+              const commentBody = `🤖 Working on it...\n\nFollow along: [View workflow run](${runUrl})\n\n*— @${agentName}*`;
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: itemNumber,
+                body: commentBody
+              });
+              console.log('Posted "working on it" comment');
+            } catch (e) {
+              console.log('Could not post comment:', e.message);
+            }
+
+            // Check for SKIP_ODK or "quick question" in issue body OR the comment/content that triggered this
+            let skipOdk = false;
+            if (itemType === 'issue') {
+              const issueBody = context.payload.issue?.body || '';
+              const triggerContent = content || '';  // The comment or issue body that contained the mention
+              const combined = (issueBody + ' ' + triggerContent).toLowerCase();
+              skipOdk = combined.includes('skip_odk') || combined.includes('quick question');
+              if (skipOdk) {
+                console.log('SKIP_ODK or "quick question" found - will use ubuntu-latest instead of ODK container');
+              }
+            }
+
+            // Return minimal context - Claude will use `gh` for the rest
+            // Include run number in branch name to avoid collisions on concurrent runs
             return {
-              qualifiedMention,
-              itemType,
-              itemNumber,
-              prompt,
+              qualifiedMention: true,
+              itemType: itemType,
+              itemNumber: itemNumber,
               user: userLogin,
-              controllers: allowedUsers.map(u => '@' + u).join(', ')
+              prompt: prompt,
+              repo: `${context.repo.owner}/${context.repo.repo}`,
+              branchName: `${agentName}-${itemType}-${itemNumber}-run${context.runNumber}`,
+              useOdkContainer: !skipOdk,
+              skipOdkNote: skipOdk ? 'NOTE: This is NOT running in the ODK container (SKIP_ODK was specified), so ODK tools like ROBOT, owltools, etc. are unavailable.' : '',
+              commentId: commentId
             };
 
   respond-to-mention:
     needs: check-mention
     if: fromJSON(needs.check-mention.outputs.result).qualifiedMention == true
+    timeout-minutes: 30
     permissions:
       contents: write
       pull-requests: write
       issues: write
     runs-on: ubuntu-latest
+    container: ${{ fromJSON(needs.check-mention.outputs.result).useOdkContainer && 'obolibrary/odkfull:latest' || null }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          token: ${{ secrets.PAT_FOR_PR }}  # Use PAT for checkout to allow committing later
+          token: ${{ secrets.PAT_FOR_PR }}
 
       - name: Configure Git
         run: |
-          git config --global user.name "Dragon-AI Agent"
-          git config --global user.email "dragon-ai-agent[bot]@users.noreply.github.com"
-      
+          git config --global user.name "${{ env.AGENT_NAME }}[bot]"
+          git config --global user.email "${{ env.AGENT_NAME }}[bot]@users.noreply.github.com"
+
       - name: Create tools directory
         run: mkdir -p ${{ env.TOOLS_DIR }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: install claude
-        run: |
-          npm install -g @anthropic-ai/claude-code
-
-      - name: Cache ROBOT JAR files
-        uses: actions/cache@v3
-        with:
-          path: ~/.jar-cache
-          key: ${{ runner.os }}-robot-${{ env.ROBOT_VERSION }}
-          restore-keys: ${{ runner.os }}-robot-
-  
-      - name: Download ROBOT JAR if not cached
-        run: |
-          mkdir -p ~/.jar-cache
-          if [ ! -f ~/.jar-cache/robot.jar ]; then
-            curl -L https://github.com/ontodev/robot/releases/download/${{ env.ROBOT_VERSION }}/robot.jar -o ~/.jar-cache/robot.jar
-          fi
-      
-      - name: Download ROBOT command line wrapper
-        run: |
-          cp ~/.jar-cache/robot.jar ${{ env.TOOLS_DIR }}/robot.jar
-          curl -L https://raw.githubusercontent.com/ontodev/robot/${{ env.ROBOT_VERSION }}/bin/robot -o ${{ env.TOOLS_DIR }}/robot
-          chmod +x ${{ env.TOOLS_DIR }}/robot
-          ${{ env.TOOLS_DIR }}/robot --help
 
       - name: Add tools to PATH
         run: |
           echo "${{ env.TOOLS_DIR }}" >> $GITHUB_PATH
-          ls -alt ${{ github.workspace }}
-          ls -alt ${{ env.TOOLS_DIR }}
 
       - name: Add obo-scripts to PATH
         run: |
-          git clone https://github.com/cmungall/obo-scripts.git ${{ env.TOOLS_DIR }}/obo-scripts
+          git clone --depth 1 https://github.com/cmungall/obo-scripts.git ${{ env.TOOLS_DIR }}/obo-scripts
           echo "${{ env.TOOLS_DIR }}/obo-scripts" >> $GITHUB_PATH
-
-      - name: Set up environment
-        run: |
-          echo "BRANCH_NAME=dragon_ai_agent_${{ fromJSON(needs.check-mention.outputs.result).itemNumber }}" >> $GITHUB_ENV
-          # Safely write prompt to file
-          mkdir -p /tmp/claude-input
-          echo "${{ fromJSON(needs.check-mention.outputs.result).prompt }}" > /tmp/claude-input/prompt.txt
-          
-      - name: Set up Anthropic API key and GitHub token
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GH_TOKEN: ${{ secrets.PAT_FOR_PR }}  # Kept PAT as requested
-        run: |
-          echo "ANTHROPIC_API_KEY=$ANTHROPIC_API_KEY" >> $GITHUB_ENV
-          echo "GH_TOKEN=$GH_TOKEN" >> $GITHUB_ENV
-          echo "LOGFIRE_SEND_TO_LOGFIRE=false" >> $GITHUB_ENV
 
       - name: Install uv
         uses: astral-sh/setup-uv@v5
-          
-      - name: Install python tools
+
+      - name: Set up GitHub token for gh CLI
+        env:
+          GH_TOKEN: ${{ secrets.PAT_FOR_PR }}
         run: |
-          uv venv
-          source .venv/bin/activate
-          uv pip install aurelian jinja2-cli "wrapt>=1.17.2"
-        
-      - name: Create structured Claude prompt
+          echo "GH_TOKEN=$GH_TOKEN" >> $GITHUB_ENV
+
+      - name: Install Python tools
         run: |
-          cat > /tmp/claude-input/claude_prompt.txt << EOL
-          You are @dragon-ai-agent.
-          You're responding to a request from or relayed by @${{ fromJSON(needs.check-mention.outputs.result).user }} on GitHub ${{ fromJSON(needs.check-mention.outputs.result).itemType }} #${{ fromJSON(needs.check-mention.outputs.result).itemNumber }}.
-          You only respond to requests from the following authorized controllers: ${{ fromJSON(needs.check-mention.outputs.result).controllers }}.
+          uv tool install --force oaklib
+          uv tool install --force linkml-reference-validator --with linkml
 
-          You should use \`gh\` to communicate with the user via the GitHub issue/ticket.
-          If instructed to modify files, you should make changes on a branch and submit a PR, communicating clearly and in
-          detail on the PR.
+      - name: Run Claude Code
+        uses: anthropics/claude-code-base-action@main
+        with:
+          prompt: |
+            You are @${{ env.AGENT_NAME }}, responding to a request from @${{ fromJSON(needs.check-mention.outputs.result).user }} on GitHub ${{ fromJSON(needs.check-mention.outputs.result).itemType }} #${{ fromJSON(needs.check-mention.outputs.result).itemNumber }}.
 
-          Always end by informing the user what you did (or were not able to do) with a message, either on an issue or a PR,
-          as appropriate.
-          
-          The request is below, enclosed in triple backticks:
-          \`\`\`
-          $(cat /tmp/claude-input/prompt.txt)
-          \`\`\`
+            ${{ fromJSON(needs.check-mention.outputs.result).skipOdkNote }}
 
-          However, you should use `gh` to read the complete context of the request, and look at any linked issues or PRs
-          that provide additional context.
+            THE REQUEST:
+            ```
+            ${{ fromJSON(needs.check-mention.outputs.result).prompt }}
+            ```
 
-          EOL
-      
-      
-      - name: Run Claude Code in headless mode
-        id: claude-response
-        run: |
-          obo-grep.pl --help
-          obo-checkin.pl --help
+            GETTING CONTEXT:
+            Use `gh` to read the full context. Examples:
+            - `gh issue view ${{ fromJSON(needs.check-mention.outputs.result).itemNumber }} --json title,body,comments`
+            - `gh pr view ${{ fromJSON(needs.check-mention.outputs.result).itemNumber }} --json title,body,comments,reviews`
+            - Check for linked issues/PRs mentioned in the body
 
-          export PATH="${{ env.TOOLS_DIR }}:$PATH"
-          # Python env
-          source .venv/bin/activate
+            MAKING CHANGES:
+            If you need to modify files:
+            1. Create a branch: `git checkout -b ${{ fromJSON(needs.check-mention.outputs.result).branchName }}`
+               (unless requested to update an existing branch/PR, in which case check out and work on that branch)
+            2. Make your changes and commit with descriptive messages
+            3. Push the branch: `git push -u origin ${{ fromJSON(needs.check-mention.outputs.result).branchName }}`
+            4. Create a PR using `gh pr create` with a clear title and description
 
-          # Run Claude with proper permissions
-          claude -p "$(cat /tmp/claude-input/claude_prompt.txt)" \
-            --permission-mode bypassPermissions \
-            --output-format stream-json \
-            --verbose 
-          
+            COMMUNICATING:
+            - Use `gh` CLI directly to interact with the user on GitHub (this job runs as a GitHub Action, and users typically cannot see the chat history and response)
+            - Use `gh issue comment` or `gh pr comment` to post updates
+            - Always inform the user what you did (or couldn't do)
+            - If you created a PR, reference it in your comment on the original issue/PR
+            - If the user asked a question or asked for research, always communicate results back via `gh` rather than just in the chat
+            - If you cannot complete the request, explain why in a comment on the issue/PR
+
+            SIGNATURE:
+            Always include the following signature block in (1) git commit message and (2) comments on the GitHub issue (3) comments on the GitHub PR
+            ```
+            ---
+            🤖 **Generated by @${{ env.AGENT_NAME }}**
+            - Model: `${{ env.MODEL }}`
+            - Agent harness: claude-code
+            - Triggered by: @${{ fromJSON(needs.check-mention.outputs.result).user }}
+            - Run: [View workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            ```
+
+          claude_args: |
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep,LS,MultiEdit,NotebookEdit,TodoRead,TodoWrite,WebFetch,WebSearch"
+            --model "${{ env.MODEL }}"
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          show_full_output: true
+
+      - name: Upload Claude output
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-response-${{ github.run_id }}
+          path: /home/runner/work/_temp/claude-execution-output.json
+          retention-days: ${{ env.ARTIFACT_RETENTION_DAYS }}
