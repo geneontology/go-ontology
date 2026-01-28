@@ -100,7 +100,6 @@ http://purl.obolibrary.org/obo/GO_0010971	positive regulation of G2/M transition
 http://purl.obolibrary.org/obo/GO_0110032	positive regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
 http://purl.obolibrary.org/obo/GO_1904426	positive regulation of GTP binding	http://purl.obolibrary.org/obo/GO_0005525	GTP binding
 http://purl.obolibrary.org/obo/GO_0043547	positive regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
-http://purl.obolibrary.org/obo/GO_1905528	positive regulation of Golgi lumen acidification	http://purl.obolibrary.org/obo/GO_0061795	Golgi lumen acidification
 http://purl.obolibrary.org/obo/GO_0042998	positive regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048215	positive regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
 http://purl.obolibrary.org/obo/GO_0070810	positive regulation of Hulle cell development	http://purl.obolibrary.org/obo/GO_0070792	Hulle cell development
@@ -119,7 +118,7 @@ http://purl.obolibrary.org/obo/GO_2001278	positive regulation of L-leucine biosy
 http://purl.obolibrary.org/obo/GO_1905534	positive regulation of L-leucine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903801	L-leucine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905010	positive regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905626	positive regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
-http://purl.obolibrary.org/obo/GO_2001158	positive regulation of L-proline catabolic process to L-glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
+http://purl.obolibrary.org/obo/GO_2001158	positive regulation of L-proline catabolic process	http://purl.obolibrary.org/obo/GO_0006562	L-proline catabolic process
 http://purl.obolibrary.org/obo/GO_1905737	positive regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900928	positive regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0090358	positive regulation of L-tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process
@@ -2182,7 +2181,6 @@ http://purl.obolibrary.org/obo/GO_1904058	positive regulation of sensory percept
 http://purl.obolibrary.org/obo/GO_1904658	positive regulation of sensory perception of sweet taste	http://purl.obolibrary.org/obo/GO_0050916	sensory perception of sweet taste
 http://purl.obolibrary.org/obo/GO_0031031	positive regulation of septation initiation signaling	http://purl.obolibrary.org/obo/GO_0031028	septation initiation signaling
 http://purl.obolibrary.org/obo/GO_2001043	positive regulation of septum digestion after cytokinesis	http://purl.obolibrary.org/obo/GO_0000920	septum digestion after cytokinesis
-http://purl.obolibrary.org/obo/GO_0051284	positive regulation of sequestering of calcium ion	http://purl.obolibrary.org/obo/GO_0051208	sequestering of calcium ion
 http://purl.obolibrary.org/obo/GO_1904222	positive regulation of serine C-palmitoyltransferase activity	http://purl.obolibrary.org/obo/GO_0004758	serine C-palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1900005	positive regulation of serine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1905629	positive regulation of serotonin biosynthetic process	http://purl.obolibrary.org/obo/GO_0042427	serotonin biosynthetic process

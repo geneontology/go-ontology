@@ -114,7 +114,6 @@ http://purl.obolibrary.org/obo/GO_0106040	regulation of GABA-A receptor activity
 http://purl.obolibrary.org/obo/GO_0043087	regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
 http://purl.obolibrary.org/obo/GO_1901472	regulation of Golgi calcium ion export	http://purl.obolibrary.org/obo/GO_0061454	release of sequestered calcium ion into cytosol by Golgi
 http://purl.obolibrary.org/obo/GO_0090170	regulation of Golgi inheritance	http://purl.obolibrary.org/obo/GO_0048313	Golgi inheritance
-http://purl.obolibrary.org/obo/GO_1905526	regulation of Golgi lumen acidification	http://purl.obolibrary.org/obo/GO_0061795	Golgi lumen acidification
 http://purl.obolibrary.org/obo/GO_1903358	regulation of Golgi organization	http://purl.obolibrary.org/obo/GO_0007030	Golgi organization
 http://purl.obolibrary.org/obo/GO_0042996	regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
 http://purl.obolibrary.org/obo/GO_0048214	regulation of Golgi vesicle fusion to target membrane	http://purl.obolibrary.org/obo/GO_0048210	Golgi vesicle fusion to target membrane
@@ -136,7 +135,7 @@ http://purl.obolibrary.org/obo/GO_1905532	regulation of L-leucine import across 
 http://purl.obolibrary.org/obo/GO_1905008	regulation of L-lysine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097639	L-lysine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1905624	regulation of L-methionine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1905544	L-methionine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1902005	regulation of L-proline biosynthetic process	http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001156	regulation of L-proline catabolic process to L-glutamate	http://purl.obolibrary.org/obo/GO_0010133	L-proline catabolic process to L-glutamate
+http://purl.obolibrary.org/obo/GO_2001156	regulation of L-proline catabolic process	http://purl.obolibrary.org/obo/GO_0006562	L-proline catabolic process
 http://purl.obolibrary.org/obo/GO_1905735	regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000214	regulation of L-proline metabolic process	http://purl.obolibrary.org/obo/GO_0006560	L-proline metabolic process
 http://purl.obolibrary.org/obo/GO_1900926	regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
@@ -2462,7 +2461,6 @@ http://purl.obolibrary.org/obo/GO_0051930	regulation of sensory perception of pa
 http://purl.obolibrary.org/obo/GO_1904656	regulation of sensory perception of sweet taste	http://purl.obolibrary.org/obo/GO_0050916	sensory perception of sweet taste
 http://purl.obolibrary.org/obo/GO_0031029	regulation of septation initiation signaling	http://purl.obolibrary.org/obo/GO_0031028	septation initiation signaling
 http://purl.obolibrary.org/obo/GO_0010590	regulation of septum digestion after cytokinesis	http://purl.obolibrary.org/obo/GO_0000920	septum digestion after cytokinesis
-http://purl.obolibrary.org/obo/GO_0051282	regulation of sequestering of calcium ion	http://purl.obolibrary.org/obo/GO_0051208	sequestering of calcium ion
 http://purl.obolibrary.org/obo/GO_1900003	regulation of serine-type endopeptidase activity	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1905627	regulation of serotonin biosynthetic process	http://purl.obolibrary.org/obo/GO_0042427	serotonin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0014062	regulation of serotonin secretion	http://purl.obolibrary.org/obo/GO_0001820	serotonin secretion
