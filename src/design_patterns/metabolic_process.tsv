@@ -47,15 +47,12 @@ http://purl.obolibrary.org/obo/GO_0046341	CDP-diacylglycerol metabolic process	h
 http://purl.obolibrary.org/obo/GO_0046035	CMP metabolic process	http://purl.obolibrary.org/obo/CHEBI_60377	cytidine 5'-monophosphate(2-)
 http://purl.obolibrary.org/obo/GO_0046381	CMP-N-acetylneuraminate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57812	CMP-N-acetyl-beta-neuraminate(2-)
 http://purl.obolibrary.org/obo/GO_0046036	CTP metabolic process	http://purl.obolibrary.org/obo/CHEBI_37563	CTP(4-)
-http://purl.obolibrary.org/obo/GO_0046436	D-alanine metabolic process	http://purl.obolibrary.org/obo/CHEBI_57416	D-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_0046416	D-amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_59871	D-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046396	D-galacturonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_12952	aldehydo-D-galacturonate
 http://purl.obolibrary.org/obo/GO_0042836	D-glucarate metabolic process	http://purl.obolibrary.org/obo/CHEBI_30612	D-glucarate(2-)
 http://purl.obolibrary.org/obo/GO_0019521	D-gluconate metabolic process	http://purl.obolibrary.org/obo/CHEBI_18391	D-gluconate
 http://purl.obolibrary.org/obo/GO_2001060	D-glycero-D-manno-heptose 7-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_59955	D-glycero-D-manno-heptose 7-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006014	D-ribose metabolic process	http://purl.obolibrary.org/obo/CHEBI_16988	D-ribose
-http://purl.obolibrary.org/obo/GO_0070178	D-serine metabolic process	http://purl.obolibrary.org/obo/CHEBI_35247	D-serine zwitterion
-http://purl.obolibrary.org/obo/GO_1902114	D-valine metabolic process	http://purl.obolibrary.org/obo/CHEBI_74338	D-valine zwitterion
 http://purl.obolibrary.org/obo/GO_0042732	D-xylose metabolic process	http://purl.obolibrary.org/obo/CHEBI_15936	aldehydo-D-xylose
 http://purl.obolibrary.org/obo/GO_0051167	D-xylulose 5-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57737	D-xylulose 5-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006259	DNA metabolic process	http://purl.obolibrary.org/obo/CHEBI_16991	deoxyribonucleic acid
