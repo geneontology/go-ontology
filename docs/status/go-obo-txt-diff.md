@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-01-31 05:43:35.640466254 +0000
-+++ go.obo	2026-01-31 05:52:38.278145386 +0000
+--- go-lastrelease.obo	2026-02-01 05:54:20.944679478 +0000
++++ go.obo	2026-02-01 06:03:23.912514168 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-01-23
-+data-version: releases/2026-01-31
++data-version: releases/2026-02-01
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-01-23" xsd:string
-+property_value: owl:versionInfo "2026-01-31" xsd:string
++property_value: owl:versionInfo "2026-02-01" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -371,7 +371,7 @@
  xref: Reactome:R-HSA-449715 "GFPT1,2 transfer an amino group from L-Gln to F6P to form GlcN6P"
  xref: RHEA:13237
 -is_a: GO:0070548 ! L-glutamine aminotransferase activity
-+is_a: GO:0070548 ! L-glutamine transaminase activity
++is_a: GO:0008483 ! transaminase activity
  property_value: skos:exactMatch EC:2.6.1.16
  property_value: skos:exactMatch RHEA:13237
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -2616,7 +2616,7 @@
  xref: MetaCyc:2.6.1.50-RXN
  xref: RHEA:22920
 -is_a: GO:0070548 ! L-glutamine aminotransferase activity
-+is_a: GO:0070548 ! L-glutamine transaminase activity
++is_a: GO:0008483 ! transaminase activity
  property_value: skos:exactMatch EC:2.6.1.50
  property_value: skos:exactMatch RHEA:22920
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -2722,7 +2722,7 @@
  xref: MetaCyc:2.6.1.64-RXN
  xref: RHEA:17593
 -is_a: GO:0070548 ! L-glutamine aminotransferase activity
-+is_a: GO:0070548 ! L-glutamine transaminase activity
++is_a: GO:0008483 ! transaminase activity
  property_value: skos:exactMatch EC:2.6.1.64
  property_value: skos:exactMatch RHEA:17593
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -3049,7 +3049,7 @@
  synonym: "gamma-glutaminyltransferase activity" RELATED [EC:2.6.1.15]
  synonym: "glutaminase II activity" RELATED [EC:2.6.1.15]
  synonym: "glutamine transaminase activity" BROAD [EC:2.6.1.15]
-@@ -316948,15 +317168,18 @@
+@@ -316948,15 +317168,17 @@
  synonym: "glutamine-oxo acid aminotransferase activity" BROAD [EC:2.6.1.15]
  synonym: "glutamine-pyruvate transaminase activity" BROAD [EC:2.6.1.15]
  synonym: "L-glutamine transaminase L" RELATED [EC:2.6.1.15]
@@ -3061,7 +3061,6 @@
  xref: RHEA:10400
 -is_a: GO:0070548 ! L-glutamine aminotransferase activity
 +is_a: GO:0047635 ! L-alanine:oxo-acid transaminase activity
-+is_a: GO:0070548 ! L-glutamine transaminase activity
  property_value: skos:exactMatch EC:2.6.1.15
  property_value: skos:exactMatch RHEA:10400
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -3069,7 +3068,7 @@
  
  [Term]
  id: GO:0047946
-@@ -317160,13 +317383,14 @@
+@@ -317160,13 +317382,14 @@
  
  [Term]
  id: GO:0047958
@@ -3086,7 +3085,7 @@
  synonym: "glyoxylate-glutamate aminotransferase activity" RELATED [EC:2.6.1.4]
  synonym: "glyoxylate-glutamic transaminase activity" RELATED [EC:2.6.1.4]
  synonym: "L-glutamate:glyoxylate aminotransferase activity" EXACT []
-@@ -317177,6 +317401,7 @@
+@@ -317177,6 +317400,7 @@
  property_value: skos:exactMatch EC:2.6.1.4
  property_value: skos:exactMatch RHEA:14089
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -3094,7 +3093,7 @@
  
  [Term]
  id: GO:0047959
-@@ -320154,7 +320379,8 @@
+@@ -320154,7 +320378,8 @@
  def: "Any process that results in a change in the behavior of an organism as a result of a pain stimulus. Pain stimuli cause activation of nociceptors, peripheral receptors for pain, include receptors which are sensitive to painful mechanical stimuli, extreme heat or cold, and chemical stimuli." [GOC:jid]
  synonym: "behavioural response to pain" EXACT []
  is_a: GO:0007610 ! behavior
@@ -3104,7 +3103,7 @@
  
  [Term]
  id: GO:0048268
-@@ -327664,13 +327890,14 @@
+@@ -327664,13 +327889,14 @@
  
  [Term]
  id: GO:0050065
@@ -3121,7 +3120,7 @@
  synonym: "lysine-pyruvate aminotransferase activity" RELATED [EC:2.6.1.71]
  xref: EC:2.6.1.71
  xref: KEGG_REACTION:R00453
-@@ -327683,6 +327910,7 @@
+@@ -327683,6 +327909,7 @@
  property_value: skos:exactMatch RHEA:19393
  property_value: skos:relatedMatch MetaCyc:PWY-5324
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
@@ -3129,7 +3128,7 @@
  
  [Term]
  id: GO:0050066
-@@ -328143,20 +328371,22 @@
+@@ -328143,20 +328370,22 @@
  
  [Term]
  id: GO:0050094
@@ -3155,7 +3154,7 @@
  
  [Term]
  id: GO:0050095
-@@ -330197,22 +330427,20 @@
+@@ -330197,22 +330426,20 @@
  id: GO:0050212
  name: progesterone 11-alpha-monooxygenase activity
  namespace: molecular_function
@@ -3186,7 +3185,7 @@
  
  [Term]
  id: GO:0050213
-@@ -331375,9 +331603,10 @@
+@@ -331375,9 +331602,10 @@
  
  [Term]
  id: GO:0050281
@@ -3199,7 +3198,7 @@
  synonym: "L-serine:glyoxylate aminotransferase activity" RELATED [EC:2.6.1.45]
  synonym: "serine--glyoxylate aminotransferase activity" EXACT []
  synonym: "SGAT activity" RELATED [EC:2.6.1.45]
-@@ -331388,6 +331617,7 @@
+@@ -331388,6 +331616,7 @@
  property_value: skos:exactMatch EC:2.6.1.45
  property_value: skos:exactMatch RHEA:19125
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -3207,7 +3206,7 @@
  
  [Term]
  id: GO:0050282
-@@ -332084,13 +332314,14 @@
+@@ -332084,13 +332313,14 @@
  
  [Term]
  id: GO:0050322
@@ -3223,7 +3222,7 @@
  synonym: "taurine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.55]
  xref: EC:2.6.1.55
  xref: MetaCyc:RXN-2301
-@@ -332099,6 +332330,7 @@
+@@ -332099,6 +332329,7 @@
  property_value: skos:exactMatch EC:2.6.1.55
  property_value: skos:exactMatch RHEA:16353
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -3231,7 +3230,7 @@
  
  [Term]
  id: GO:0050323
-@@ -332760,23 +332992,25 @@
+@@ -332760,23 +332991,25 @@
  
  [Term]
  id: GO:0050362
@@ -3260,7 +3259,7 @@
  
  [Term]
  id: GO:0050363
-@@ -359549,44 +359783,51 @@
+@@ -359549,44 +359782,51 @@
  
  [Term]
  id: GO:0052654
@@ -3321,7 +3320,7 @@
  property_value: skos:exactMatch RHEA:24801
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
-@@ -364797,10 +365038,13 @@
+@@ -364797,10 +365037,13 @@
  id: GO:0055130
  name: D-alanine catabolic process
  namespace: biological_process
@@ -3337,7 +3336,7 @@
  created_by: jid
  creation_date: 2009-10-22T02:02:42Z
  
-@@ -387024,10 +387268,12 @@
+@@ -387024,10 +387267,12 @@
  
  [Term]
  id: GO:0062045
@@ -3351,7 +3350,7 @@
  created_by: dph
  creation_date: 2018-05-11T12:13:57Z
  
-@@ -390984,11 +391230,15 @@
+@@ -390984,11 +391229,15 @@
  
  [Term]
  id: GO:0070178
@@ -3370,7 +3369,7 @@
  
  [Term]
  id: GO:0070179
-@@ -391000,7 +391250,6 @@
+@@ -391000,7 +391249,6 @@
  synonym: "D-serine formation" EXACT []
  synonym: "D-serine synthesis" EXACT []
  is_a: GO:0046437 ! D-amino acid biosynthetic process
@@ -3378,7 +3377,7 @@
  
  [Term]
  id: GO:0070180
-@@ -394817,10 +395066,12 @@
+@@ -394817,10 +395065,12 @@
  
  [Term]
  id: GO:0070529
@@ -3392,7 +3391,7 @@
  
  [Term]
  id: GO:0070530
-@@ -394972,10 +395223,12 @@
+@@ -394972,10 +395222,12 @@
  
  [Term]
  id: GO:0070548
@@ -3406,7 +3405,7 @@
  
  [Term]
  id: GO:0070549
-@@ -423306,12 +423559,14 @@
+@@ -423306,12 +423558,14 @@
  id: GO:0080002
  name: UDP-glucose:4-aminobenzoate acylglucosyltransferase activity
  namespace: molecular_function
@@ -3422,7 +3421,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28273" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28775" xsd:anyURI
  
-@@ -424271,40 +424526,47 @@
+@@ -424271,40 +424525,48 @@
  
  [Term]
  id: GO:0080097
@@ -3468,11 +3467,14 @@
 -name: L-methionine:2-oxoglutarate aminotransferase activity
 +name: L-methionine:2-oxoglutarate transaminase activity
  namespace: molecular_function
- def: "Catalysis of the reaction: L-methionine + 2-oxoglutarate = 4-methylthio-2-oxobutyrate + L-glutamate." [PMID:18394996]
- comment: This reaction falls within the larger set of reactions associated with EC:2.6.1.5 (See BRENDA: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=2.6.1.5).
+-def: "Catalysis of the reaction: L-methionine + 2-oxoglutarate = 4-methylthio-2-oxobutyrate + L-glutamate." [PMID:18394996]
+-comment: This reaction falls within the larger set of reactions associated with EC:2.6.1.5 (See BRENDA: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=2.6.1.5).
++def: "Catalysis of the reaction: L-methionine + 2-oxoglutarate = 4-methylsulfanyl-2-oxobutanoate + L-glutamate." [PMID:18394996, RHEA:25796]
 +synonym: "L-methionine:2-oxoglutarate aminotransferase activity" EXACT []
  synonym: "L-methionine:alpha-ketoglutarate aminotransferase activity" EXACT []
 -is_a: GO:0010326 ! methionine-oxo-acid transaminase activity
++xref: MetaCyc:RXN-14147
++xref: RHEA:25796
 +is_a: GO:0010326 ! L-methionine:oxo-acid transaminase activity
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31140" xsd:anyURI
  created_by: dhl

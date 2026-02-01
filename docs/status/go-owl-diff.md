@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-01-31/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-01/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-31" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-01" 
 
 
 ### (2S)-2-aminobutanoate:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0120554`
@@ -890,6 +890,8 @@ GO:0047635"
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13237" 
 
+- [L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity](http://purl.obolibrary.org/obo/GO_0004360) SubClassOf [L-glutamine transaminase activity](http://purl.obolibrary.org/obo/GO_0070548) 
+
 #### Added
 - [L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity](http://purl.obolibrary.org/obo/GO_0004360) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity" 
 
@@ -899,6 +901,8 @@ GO:0047635"
 
 - [L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity](http://purl.obolibrary.org/obo/GO_0004360) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-fructose 6-phosphate + L-glutamine = D-glucosamine 6-phosphate + L-glutamate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13237" 
+
+- [L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity](http://purl.obolibrary.org/obo/GO_0004360) SubClassOf [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) 
 
 
 ### L-glutamine:phenylpyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047316`
@@ -910,6 +914,8 @@ GO:0047635"
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.6.1.64" 
 
+- [L-glutamine:phenylpyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047316) SubClassOf [L-glutamine transaminase activity](http://purl.obolibrary.org/obo/GO_0070548) 
+
 #### Added
 - [L-glutamine:phenylpyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-phenylpyruvate + L-glutamine = 2-oxoglutaramate + L-phenylalanine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17593" 
@@ -920,6 +926,8 @@ GO:0047635"
 
 - [L-glutamine:phenylpyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047316) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamine:phenylpyruvate transaminase activity" 
 
+- [L-glutamine:phenylpyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047316) SubClassOf [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) 
+
 
 ### L-glutamine:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047945`
 #### Removed
@@ -929,6 +937,8 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10400" 
 
 - [L-glutamine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047945) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamine:pyruvate aminotransferase activity" 
+
+- [L-glutamine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047945) SubClassOf [L-glutamine transaminase activity](http://purl.obolibrary.org/obo/GO_0070548) 
 
 #### Added
 - [L-glutamine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047945) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamine:pyruvate transaminase activity" 
@@ -952,6 +962,8 @@ GO:0047635"
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22920" 
 
+- [L-glutamine:scyllo-inositol transaminase activity](http://purl.obolibrary.org/obo/GO_0047310) SubClassOf [L-glutamine transaminase activity](http://purl.obolibrary.org/obo/GO_0070548) 
+
 #### Added
 - [L-glutamine:scyllo-inositol transaminase activity](http://purl.obolibrary.org/obo/GO_0047310) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamine:scyllo-inositol transaminase activity" 
 
@@ -961,6 +973,8 @@ GO:0047635"
 - [L-glutamine:scyllo-inositol transaminase activity](http://purl.obolibrary.org/obo/GO_0047310) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-glutamine:scyllo-inositol transaminase activity](http://purl.obolibrary.org/obo/GO_0047310) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "glutamine-scyllo-inositol transaminase activity" 
+
+- [L-glutamine:scyllo-inositol transaminase activity](http://purl.obolibrary.org/obo/GO_0047310) SubClassOf [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) 
 
 
 ### L-histidine catabolic process `http://purl.obolibrary.org/obo/GO_0006548`
@@ -1219,12 +1233,26 @@ GO:0047635"
 
 ### L-methionine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0080099`
 #### Removed
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This reaction falls within the larger set of reactions associated with EC:2.6.1.5 (See BRENDA: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=2.6.1.5)." 
+
 - [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine:2-oxoglutarate aminotransferase activity" 
+
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-methionine + 2-oxoglutarate = 4-methylthio-2-oxobutyrate + L-glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18394996" 
 
 #### Added
 - [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-14147" 
+
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25796" 
+
 - [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine:2-oxoglutarate transaminase activity" 
+
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-methionine + 2-oxoglutarate = 4-methylsulfanyl-2-oxobutanoate + L-glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18394996" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25796" 
 
 - [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "L-methionine:2-oxoglutarate aminotransferase activity" 
 
