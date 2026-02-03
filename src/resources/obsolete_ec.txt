@@ -438,7 +438,7 @@
 "EC:1.1.1.93"	false
 "EC:1.1.1.94"	false
 "EC:1.1.1.95"	false
-"EC:1.1.1.96"	false
+"EC:1.1.1.96"	true
 "EC:1.1.1.97"	false
 "EC:1.1.1.98"	false
 "EC:1.1.1.99"	false
@@ -664,6 +664,8 @@
 "EC:1.11.2.4"	false
 "EC:1.11.2.5"	false
 "EC:1.11.2.6"	false
+"EC:1.11.2.7"	false
+"EC:1.11.2.8"	false
 "EC:1.12.-.-"	false
 "EC:1.12.1.-"	false
 "EC:1.12.1.1"	true
@@ -1328,6 +1330,13 @@
 "EC:1.14.14.189"	false
 "EC:1.14.14.19"	false
 "EC:1.14.14.190"	false
+"EC:1.14.14.191"	false
+"EC:1.14.14.192"	false
+"EC:1.14.14.193"	false
+"EC:1.14.14.194"	false
+"EC:1.14.14.195"	false
+"EC:1.14.14.196"	false
+"EC:1.14.14.197"	false
 "EC:1.14.14.2"	true
 "EC:1.14.14.20"	false
 "EC:1.14.14.21"	false
@@ -1618,7 +1627,7 @@
 "EC:1.14.99.11"	false
 "EC:1.14.99.12"	false
 "EC:1.14.99.13"	true
-"EC:1.14.99.14"	false
+"EC:1.14.99.14"	true
 "EC:1.14.99.15"	false
 "EC:1.14.99.16"	true
 "EC:1.14.99.17"	true
@@ -1703,6 +1712,8 @@
 "EC:1.16.1.7"	false
 "EC:1.16.1.8"	false
 "EC:1.16.1.9"	false
+"EC:1.16.2.-"	false
+"EC:1.16.2.1"	false
 "EC:1.16.3.-"	false
 "EC:1.16.3.1"	false
 "EC:1.16.3.2"	false
@@ -1766,6 +1777,7 @@
 "EC:1.17.98.2"	false
 "EC:1.17.98.3"	false
 "EC:1.17.98.4"	false
+"EC:1.17.98.5"	false
 "EC:1.17.99.-"	false
 "EC:1.17.99.1"	true
 "EC:1.17.99.10"	false
@@ -1816,6 +1828,7 @@
 "EC:1.2.1.105"	false
 "EC:1.2.1.106"	false
 "EC:1.2.1.107"	false
+"EC:1.2.1.108"	false
 "EC:1.2.1.11"	false
 "EC:1.2.1.12"	false
 "EC:1.2.1.13"	false
@@ -1861,7 +1874,7 @@
 "EC:1.2.1.5"	false
 "EC:1.2.1.50"	false
 "EC:1.2.1.51"	false
-"EC:1.2.1.52"	false
+"EC:1.2.1.52"	true
 "EC:1.2.1.53"	false
 "EC:1.2.1.54"	false
 "EC:1.2.1.55"	true
@@ -1959,6 +1972,7 @@
 "EC:1.2.7.7"	false
 "EC:1.2.7.8"	false
 "EC:1.2.7.9"	true
+"EC:1.2.8.-"	false
 "EC:1.2.98.-"	false
 "EC:1.2.98.1"	false
 "EC:1.2.99.-"	false
@@ -2713,6 +2727,7 @@
 "EC:1.8.98.5"	false
 "EC:1.8.98.6"	false
 "EC:1.8.98.7"	false
+"EC:1.8.98.8"	false
 "EC:1.8.99.-"	false
 "EC:1.8.99.1"	true
 "EC:1.8.99.2"	false
@@ -2726,7 +2741,7 @@
 "EC:1.9.6.-"	false
 "EC:1.9.6.1"	false
 "EC:1.9.98.-"	false
-"EC:1.9.98.1"	false
+"EC:1.9.98.1"	true
 "EC:1.9.99.-"	false
 "EC:1.9.99.1"	true
 "EC:1.97.-.-"	false
@@ -3110,6 +3125,10 @@
 "EC:2.1.1.399"	false
 "EC:2.1.1.4"	false
 "EC:2.1.1.40"	false
+"EC:2.1.1.400"	false
+"EC:2.1.1.401"	false
+"EC:2.1.1.402"	false
+"EC:2.1.1.403"	false
 "EC:2.1.1.41"	false
 "EC:2.1.1.42"	false
 "EC:2.1.1.43"	true
@@ -3508,7 +3527,13 @@
 "EC:2.3.1.326"	false
 "EC:2.3.1.327"	false
 "EC:2.3.1.328"	false
+"EC:2.3.1.329"	false
 "EC:2.3.1.33"	false
+"EC:2.3.1.330"	false
+"EC:2.3.1.331"	false
+"EC:2.3.1.332"	false
+"EC:2.3.1.333"	false
+"EC:2.3.1.334"	false
 "EC:2.3.1.34"	false
 "EC:2.3.1.35"	false
 "EC:2.3.1.36"	false
@@ -3990,8 +4015,10 @@
 "EC:2.4.1.396"	false
 "EC:2.4.1.397"	false
 "EC:2.4.1.398"	false
+"EC:2.4.1.399"	false
 "EC:2.4.1.4"	false
 "EC:2.4.1.40"	false
+"EC:2.4.1.400"	false
 "EC:2.4.1.41"	false
 "EC:2.4.1.42"	true
 "EC:2.4.1.43"	false
@@ -4374,6 +4401,7 @@
 "EC:2.6.1.124"	false
 "EC:2.6.1.125"	false
 "EC:2.6.1.126"	false
+"EC:2.6.1.127"	false
 "EC:2.6.1.13"	false
 "EC:2.6.1.14"	false
 "EC:2.6.1.15"	false
@@ -4733,6 +4761,7 @@
 "EC:2.7.10.1"	false
 "EC:2.7.10.2"	false
 "EC:2.7.10.3"	false
+"EC:2.7.10.4"	false
 "EC:2.7.11.-"	false
 "EC:2.7.11.1"	false
 "EC:2.7.11.10"	false
@@ -4881,7 +4910,9 @@
 "EC:2.7.7.106"	false
 "EC:2.7.7.107"	false
 "EC:2.7.7.108"	false
+"EC:2.7.7.109"	false
 "EC:2.7.7.11"	false
+"EC:2.7.7.110"	false
 "EC:2.7.7.12"	false
 "EC:2.7.7.13"	false
 "EC:2.7.7.14"	false
@@ -5183,6 +5214,7 @@
 "EC:3.1.1.121"	false
 "EC:3.1.1.122"	false
 "EC:3.1.1.123"	false
+"EC:3.1.1.124"	false
 "EC:3.1.1.13"	false
 "EC:3.1.1.14"	false
 "EC:3.1.1.15"	false
@@ -5856,6 +5888,7 @@
 "EC:3.2.1.226"	false
 "EC:3.2.1.227"	false
 "EC:3.2.1.228"	false
+"EC:3.2.1.229"	false
 "EC:3.2.1.23"	false
 "EC:3.2.1.24"	false
 "EC:3.2.1.25"	false
@@ -7717,6 +7750,7 @@
 "EC:4.2.3.228"	false
 "EC:4.2.3.229"	false
 "EC:4.2.3.23"	false
+"EC:4.2.3.230"	false
 "EC:4.2.3.24"	false
 "EC:4.2.3.25"	false
 "EC:4.2.3.26"	false
@@ -8511,6 +8545,7 @@
 "EC:6.2.1.74"	false
 "EC:6.2.1.75"	false
 "EC:6.2.1.76"	false
+"EC:6.2.1.77"	false
 "EC:6.2.1.8"	false
 "EC:6.2.1.9"	false
 "EC:6.2.1.n1"	true
@@ -8667,6 +8702,9 @@
 "EC:6.4.-.-"	false
 "EC:6.4.1.-"	false
 "EC:6.4.1.1"	false
+"EC:6.4.1.10"	false
+"EC:6.4.1.11"	false
+"EC:6.4.1.12"	false
 "EC:6.4.1.2"	false
 "EC:6.4.1.3"	false
 "EC:6.4.1.4"	false
