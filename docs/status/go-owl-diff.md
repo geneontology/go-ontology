@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-03/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-04/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-03" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-04" 
 
 
 ### (2S)-2-aminobutanoate:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0120554`
@@ -2290,6 +2290,30 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.3.-" 
 
 
+### alcohol biosynthetic process `http://purl.obolibrary.org/obo/GO_0046165`
+
+#### Added
+- [alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_0046165) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_0046165) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### alcohol catabolic process `http://purl.obolibrary.org/obo/GO_0046164`
+
+#### Added
+- [alcohol catabolic process](http://purl.obolibrary.org/obo/GO_0046164) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [alcohol catabolic process](http://purl.obolibrary.org/obo/GO_0046164) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### alcohol metabolic process `http://purl.obolibrary.org/obo/GO_0006066`
+
+#### Added
+- [alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0006066) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0006066) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### alpha-1,4-N-acetylgalactosaminyltransferase activity `http://purl.obolibrary.org/obo/GO_0035248`
 #### Removed
 - [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an N-acetyl-beta-D-galactosaminyl derivative + UDP-N-acetyl-alpha-D-galactosamine = an N-acetyl-alpha-D-galactosaminyl-(1-&gt;4)-N-acetyl-beta-D-galactosaminyl derivative + UDP + H+." 
@@ -3183,6 +3207,30 @@ GO:0047635"
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [85451](http://rdf.rhea-db.org/85451) 
 
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85451" 
+
+
+### negative regulation of alcohol biosynthetic process `http://purl.obolibrary.org/obo/GO_1902931`
+
+#### Added
+- [negative regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902931) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902931) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### negative regulation of alcohol catabolic process `http://purl.obolibrary.org/obo/GO_1900420`
+
+#### Added
+- [negative regulation of alcohol catabolic process](http://purl.obolibrary.org/obo/GO_1900420) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [negative regulation of alcohol catabolic process](http://purl.obolibrary.org/obo/GO_1900420) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### negative regulation of small molecule metabolic process `http://purl.obolibrary.org/obo/GO_0062014`
+
+#### Added
+- [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### nicotianamine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0033855`
@@ -4893,6 +4941,38 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20124341" 
 
 
+### positive regulation of alcohol biosynthetic process `http://purl.obolibrary.org/obo/GO_1902932`
+
+#### Added
+- [positive regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902932) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902932) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### positive regulation of alcohol catabolic process `http://purl.obolibrary.org/obo/GO_1900421`
+
+#### Added
+- [positive regulation of alcohol catabolic process](http://purl.obolibrary.org/obo/GO_1900421) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [positive regulation of alcohol catabolic process](http://purl.obolibrary.org/obo/GO_1900421) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### positive regulation of macromolecule biosynthetic process `http://purl.obolibrary.org/obo/GO_0010557`
+
+#### Added
+- [positive regulation of macromolecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0010557) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31483"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of macromolecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0010557) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### positive regulation of small molecule metabolic process `http://purl.obolibrary.org/obo/GO_0062013`
+
+#### Added
+- [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### progesterone 11-alpha-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0050212`
 #### Removed
 - [progesterone 11-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0050212) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "progesterone 11alpha-hydroxylase activity" 
@@ -5164,10 +5244,40 @@ GO:0047635"
 - [queuosine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0160286) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85683" 
 
 
+### regulation of alcohol biosynthetic process `http://purl.obolibrary.org/obo/GO_1902930`
+
+#### Added
+- [regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902930) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### regulation of alcohol catabolic process `http://purl.obolibrary.org/obo/GO_1900419`
+
+#### Added
+- [regulation of alcohol catabolic process](http://purl.obolibrary.org/obo/GO_1900419) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of alcohol catabolic process](http://purl.obolibrary.org/obo/GO_1900419) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### regulation of macromolecule biosynthetic process `http://purl.obolibrary.org/obo/GO_0010556`
+
+#### Added
+- [regulation of macromolecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0010556) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [regulation of macromolecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0010556) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31483"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### regulation of protein modification process `http://purl.obolibrary.org/obo/GO_0031399`
 #### Removed
 - [regulation of protein modification process](http://purl.obolibrary.org/obo/GO_0031399) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_yeast](http://purl.obolibrary.org/obo/go#goslim_yeast) 
 
+
+
+### regulation of small molecule metabolic process `http://purl.obolibrary.org/obo/GO_0062012`
+
+#### Added
+- [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### response to isolation stress `http://purl.obolibrary.org/obo/GO_0035900`
@@ -5188,6 +5298,30 @@ GO:0047635"
 - [response to psychosocial stress](http://purl.obolibrary.org/obo/GO_1990911) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31407"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [response to psychosocial stress](http://purl.obolibrary.org/obo/GO_1990911) SubClassOf [multicellular organismal response to stress](http://purl.obolibrary.org/obo/GO_0033555) 
+
+
+### small molecule biosynthetic process `http://purl.obolibrary.org/obo/GO_0044283`
+
+#### Added
+- [small molecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0044283) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [small molecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0044283) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### small molecule catabolic process `http://purl.obolibrary.org/obo/GO_0044282`
+
+#### Added
+- [small molecule catabolic process](http://purl.obolibrary.org/obo/GO_0044282) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [small molecule catabolic process](http://purl.obolibrary.org/obo/GO_0044282) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### small molecule metabolic process `http://purl.obolibrary.org/obo/GO_0044281`
+
+#### Added
+- [small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0044281) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0044281) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31485"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### sodium:ammonium:chloride symporter activity `http://purl.obolibrary.org/obo/GO_7770002`
@@ -5386,6 +5520,14 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [trans-4-hydroxy-L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0019470) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### transcription coregulator activity `http://purl.obolibrary.org/obo/GO_0003712`
+#### Removed
+- [transcription coregulator activity](http://purl.obolibrary.org/obo/GO_0003712) SubClassOf [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) 
+
+#### Added
+- [transcription coregulator activity](http://purl.obolibrary.org/obo/GO_0003712) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31471"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### vacuolar sorting signal receptor activity `http://purl.obolibrary.org/obo/GO_0010209`
