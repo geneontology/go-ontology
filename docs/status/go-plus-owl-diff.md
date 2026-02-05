@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-04/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-05/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-04" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-05" 
 
 
 ### (R)-3-amino-2-methylpropionate-pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047305`
@@ -4357,13 +4357,13 @@ GO:0047635"
 
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
-- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656)) 
-
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656))) 
 
-- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511)) 
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656)) 
 
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511))) 
+
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511)) 
 
 
 ### guanylylpyridinol adenylase activity `http://purl.obolibrary.org/obo/GO_0160301`
@@ -4532,6 +4532,8 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.9.98.1" 
 
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.9.98.1" 
+
+- [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) SubClassOf [oxidoreductase activity, acting on a heme group of donors](http://purl.obolibrary.org/obo/GO_0016675) 
 
 #### Added
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31488"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -4868,9 +4870,9 @@ GO:0047635"
 
 - [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
 
-- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
-
 - [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
 
 
 ### material anatomical entity `http://purl.obolibrary.org/obo/UBERON_0000465`
@@ -5005,6 +5007,35 @@ GO:0047635"
 
 #### Added
 - [molecular_function](http://purl.obolibrary.org/obo/GO_0003674) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs." 
+
+
+### negative regulation of GCN2-mediated signaling `http://purl.obolibrary.org/obo/GO_7770045`
+
+#### Added
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31453"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-04T18:20:09Z" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770045" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of GCN2-mediated signaling" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of GCN2-mediated signaling." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23899355" 
+
+- Class: [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_0140469)) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_0140469) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [regulation of cellular response to stress](http://purl.obolibrary.org/obo/GO_0080135) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [negative regulation of intracellular signal transduction](http://purl.obolibrary.org/obo/GO_1902532) 
 
 
 ### negative regulation of Golgi lumen acidification `http://purl.obolibrary.org/obo/GO_1905527`
@@ -6590,6 +6621,54 @@ GO:0047635"
 - [succinylornithine transaminase activity](http://purl.obolibrary.org/obo/GO_0043825) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### sulfur amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0000097`
+#### Removed
+- [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids containing sulfur, comprising cysteine, methionine and selenocysteine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids containing sulfur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfur amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0000098`
+#### Removed
+- [sulfur amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0000098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of amino acids containing sulfur, comprising cysteine, methionine and selenocysteine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [sulfur amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0000098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of amino acids containing sulfur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [sulfur amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0000098) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfur amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0000096`
+#### Removed
+- [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids containing sulfur, comprising cysteine, homocysteine, methionine and selenocysteine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids containing sulfur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process `http://purl.obolibrary.org/obo/GO_1902756`
+#### Removed
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102)) 
+
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) 
+
+#### Added
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685)) 
+
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+
 ### syntaxin binding `http://purl.obolibrary.org/obo/GO_0019905`
 #### Removed
 - [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "syntaxin-2 binding" 
@@ -6665,9 +6744,9 @@ GO:0047635"
 
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
-- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208)) 
-
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
+- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208)) 
 
 
 ### taurine-2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0050322`

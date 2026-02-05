@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-04/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-05/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-04" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-05" 
 
 
 ### (2S)-2-aminobutanoate:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0120554`
@@ -2993,6 +2993,8 @@ GO:0047635"
 
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.9.98.1" 
 
+- [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) SubClassOf [oxidoreductase activity, acting on a heme group of donors](http://purl.obolibrary.org/obo/GO_0016675) 
+
 #### Added
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31488"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -3207,6 +3209,35 @@ GO:0047635"
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [85451](http://rdf.rhea-db.org/85451) 
 
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85451" 
+
+
+### negative regulation of GCN2-mediated signaling `http://purl.obolibrary.org/obo/GO_7770045`
+
+#### Added
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31453"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-04T18:20:09Z" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770045" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of GCN2-mediated signaling" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of GCN2-mediated signaling." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23899355" 
+
+- Class: [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_0140469)) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_0140469) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [regulation of cellular response to stress](http://purl.obolibrary.org/obo/GO_0080135) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [negative regulation of intracellular signal transduction](http://purl.obolibrary.org/obo/GO_1902532) 
 
 
 ### negative regulation of alcohol biosynthetic process `http://purl.obolibrary.org/obo/GO_1902931`
@@ -5400,6 +5431,42 @@ GO:0047635"
 - [succinylornithine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0043825) [label](http://www.w3.org/2000/01/rdf-schema#label) "succinylornithine:2-oxoglutarate transaminase activity" 
 
 - [succinylornithine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0043825) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfur amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0000097`
+#### Removed
+- [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids containing sulfur, comprising cysteine, methionine and selenocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids containing sulfur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfur amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0000098`
+#### Removed
+- [sulfur amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0000098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of amino acids containing sulfur, comprising cysteine, methionine and selenocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [sulfur amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0000098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of amino acids containing sulfur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [sulfur amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0000098) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfur amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0000096`
+#### Removed
+- [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids containing sulfur, comprising cysteine, homocysteine, methionine and selenocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving amino acids containing sulfur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### syntaxin binding `http://purl.obolibrary.org/obo/GO_0019905`
