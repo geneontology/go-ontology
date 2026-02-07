@@ -95,6 +95,7 @@ http://purl.obolibrary.org/obo/GO_1903451	negative regulation of G1 to G0 transi
 http://purl.obolibrary.org/obo/GO_2000134	negative regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0010972	negative regulation of G2/M transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000086	G2/M transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0110031	negative regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
+http://purl.obolibrary.org/obo/GO_7770045	negative regulation of GCN2-mediated signaling	http://purl.obolibrary.org/obo/GO_0140469	GCN2-mediated signaling
 http://purl.obolibrary.org/obo/GO_0160145	negative regulation of GDF15-GFRAL signaling pathway	http://purl.obolibrary.org/obo/GO_0160144	GDF15-GFRAL signaling pathway
 http://purl.obolibrary.org/obo/GO_0034260	negative regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
 http://purl.obolibrary.org/obo/GO_0042997	negative regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
