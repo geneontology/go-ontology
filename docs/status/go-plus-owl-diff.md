@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-07/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-08/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-07" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-08" 
 
 
 ### (R)-3-amino-2-methylpropionate-pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047305`
@@ -5684,13 +5684,13 @@ GO:0047635"
 
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
-- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656))) 
-
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656)) 
 
-- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511))) 
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656))) 
 
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511)) 
+
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511))) 
 
 
 ### guanine deaminase activity `http://purl.obolibrary.org/obo/GO_0008892`
@@ -6391,9 +6391,9 @@ GO:0047635"
 
 - [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
 
-- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
-
 - [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
+- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
 
 ### material anatomical entity `http://purl.obolibrary.org/obo/UBERON_0000465`
