@@ -13,7 +13,6 @@ http://purl.obolibrary.org/obo/GO_1903144	actomyosin contractile ring actin fila
 http://purl.obolibrary.org/obo/GO_0042642	actomyosin, myosin complex part	http://purl.obolibrary.org/obo/GO_0016459	myosin complex	http://purl.obolibrary.org/obo/GO_0042641	actomyosin
 http://purl.obolibrary.org/obo/GO_0030932	amyloplast ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0030929	ADPG pyrophosphorylase complex	http://purl.obolibrary.org/obo/GO_0009501	amyloplast
 http://purl.obolibrary.org/obo/GO_0009568	amyloplast starch grain	http://purl.obolibrary.org/obo/GO_0043036	starch grain	http://purl.obolibrary.org/obo/GO_0009501	amyloplast
-http://purl.obolibrary.org/obo/GO_0045179	apical cortex	http://purl.obolibrary.org/obo/GO_0099738	cell cortex region	http://purl.obolibrary.org/obo/GO_0045177	apical part of cell
 http://purl.obolibrary.org/obo/GO_1905754	ascospore-type prospore nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0042764	ascospore-type prospore
 http://purl.obolibrary.org/obo/GO_0000235	astral microtubule	http://purl.obolibrary.org/obo/GO_0005876	spindle microtubule	http://purl.obolibrary.org/obo/GO_0005818	aster
 http://purl.obolibrary.org/obo/GO_1904115	axon cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0030424	axon
@@ -25,7 +24,6 @@ http://purl.obolibrary.org/obo/GO_0005938	cell cortex	http://purl.obolibrary.org
 http://purl.obolibrary.org/obo/GO_0051285	cell cortex of cell tip	http://purl.obolibrary.org/obo/GO_0099738	cell cortex region	http://purl.obolibrary.org/obo/GO_0051286	cell tip
 http://purl.obolibrary.org/obo/GO_1902716	cell cortex of growing cell tip	http://purl.obolibrary.org/obo/GO_0099738	cell cortex region	http://purl.obolibrary.org/obo/GO_0035838	growing cell tip
 http://purl.obolibrary.org/obo/GO_0140472	cell cortex of non-growing cell tip	http://purl.obolibrary.org/obo/GO_0099738	cell cortex region	http://purl.obolibrary.org/obo/GO_0035839	non-growing cell tip
-http://purl.obolibrary.org/obo/GO_0099738	cell cortex region	http://purl.obolibrary.org/obo/GO_0005938	cell cortex	http://purl.obolibrary.org/obo/GO_0005938	cell cortex
 http://purl.obolibrary.org/obo/GO_1904269	cell leading edge cell cortex	http://purl.obolibrary.org/obo/GO_0099738	cell cortex region	http://purl.obolibrary.org/obo/GO_0031252	cell leading edge
 http://purl.obolibrary.org/obo/GO_0009279	cell outer membrane	http://purl.obolibrary.org/obo/GO_0019867	outer membrane	http://purl.obolibrary.org/obo/GO_0030313	cell envelope
 http://purl.obolibrary.org/obo/GO_0000142	cellular bud neck contractile ring	http://purl.obolibrary.org/obo/GO_0005826	actomyosin contractile ring	http://purl.obolibrary.org/obo/GO_0005935	cellular bud neck
@@ -77,7 +75,6 @@ http://purl.obolibrary.org/obo/GO_1905720	cytoplasmic microtubule bundle	http://
 http://purl.obolibrary.org/obo/GO_0062194	cytoplasmic microtubule minus-end	http://purl.obolibrary.org/obo/GO_0036449	microtubule minus-end	http://purl.obolibrary.org/obo/GO_0005881	cytoplasmic microtubule
 http://purl.obolibrary.org/obo/GO_1904511	cytoplasmic microtubule plus-end	http://purl.obolibrary.org/obo/GO_0035371	microtubule plus-end	http://purl.obolibrary.org/obo/GO_0005881	cytoplasmic microtubule
 http://purl.obolibrary.org/obo/GO_0000809	cytoplasmic origin of replication recognition complex	http://purl.obolibrary.org/obo/GO_0000808	origin recognition complex	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
-http://purl.obolibrary.org/obo/GO_0099568	cytoplasmic region	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
 http://purl.obolibrary.org/obo/GO_0043597	cytoplasmic replication fork	http://purl.obolibrary.org/obo/GO_0005657	replication fork	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
 http://purl.obolibrary.org/obo/GO_0043600	cytoplasmic replisome	http://purl.obolibrary.org/obo/GO_0030894	replisome	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
 http://purl.obolibrary.org/obo/GO_0036464	cytoplasmic ribonucleoprotein granule	http://purl.obolibrary.org/obo/GO_0035770	ribonucleoprotein granule	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm
@@ -90,7 +87,6 @@ http://purl.obolibrary.org/obo/GO_0048788	cytoskeleton of presynaptic active zon
 http://purl.obolibrary.org/obo/GO_0045249	cytosol pyruvate dehydrogenase (lipoamide) phosphatase complex	http://purl.obolibrary.org/obo/GO_0045253	pyruvate dehydrogenase (lipoamide) phosphatase complex	http://purl.obolibrary.org/obo/GO_0005829	cytosol
 http://purl.obolibrary.org/obo/GO_0002186	cytosolic creatine kinase complex	http://purl.obolibrary.org/obo/GO_0002185	creatine kinase complex	http://purl.obolibrary.org/obo/GO_0005829	cytosol
 http://purl.obolibrary.org/obo/GO_0022625	cytosolic large ribosomal subunit	http://purl.obolibrary.org/obo/GO_0015934	large ribosomal subunit	http://purl.obolibrary.org/obo/GO_0022626	cytosolic ribosome
-http://purl.obolibrary.org/obo/GO_0099522	cytosolic region	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0005829	cytosol
 http://purl.obolibrary.org/obo/GO_0022626	cytosolic ribosome	http://purl.obolibrary.org/obo/GO_0005840	ribosome	http://purl.obolibrary.org/obo/GO_0005829	cytosol
 http://purl.obolibrary.org/obo/GO_0022627	cytosolic small ribosomal subunit	http://purl.obolibrary.org/obo/GO_0015935	small ribosomal subunit	http://purl.obolibrary.org/obo/GO_0022626	cytosolic ribosome
 http://purl.obolibrary.org/obo/GO_0032839	dendrite cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0030425	dendrite
@@ -102,9 +98,13 @@ http://purl.obolibrary.org/obo/GO_0000935	division septum	http://purl.obolibrary
 http://purl.obolibrary.org/obo/GO_0062242	double membrane vesicle viral factory membrane	http://purl.obolibrary.org/obo/GO_0044162	host cell cytoplasmic vesicle membrane	http://purl.obolibrary.org/obo/GO_0039718	double membrane vesicle viral factory
 http://purl.obolibrary.org/obo/GO_0062113	early phagosome lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0032009	early phagosome
 http://purl.obolibrary.org/obo/GO_0071682	endocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0160316	endolysosomal intralumenal vesicle	http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0036019	endolysosome
+http://purl.obolibrary.org/obo/GO_0160318	endolysosomal intralumenal vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0160316	endolysosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0005788	endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0140534	endoplasmic reticulum protein-containing complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0098827	endoplasmic reticulum subcompartment	http://purl.obolibrary.org/obo/GO_0031984	organelle subcompartment	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
+http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle	http://purl.obolibrary.org/obo/GO_0097708	intracellular vesicle	http://purl.obolibrary.org/obo/GO_0005768	endosome
+http://purl.obolibrary.org/obo/GO_0160315	endosomal intralumenal vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center	http://purl.obolibrary.org/obo/GO_0032153	cell division site
 http://purl.obolibrary.org/obo/GO_0062246	exocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098566	transport vesicle lumen	http://purl.obolibrary.org/obo/GO_0070382	exocytic vesicle
 http://purl.obolibrary.org/obo/GO_0010367	extracellular isoamylase complex	http://purl.obolibrary.org/obo/GO_0043033	isoamylase complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
@@ -153,7 +153,7 @@ http://purl.obolibrary.org/obo/GO_0035451	extrinsic component of stromal side of
 http://purl.obolibrary.org/obo/GO_0099243	extrinsic component of synaptic membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0097060	synaptic membrane
 http://purl.obolibrary.org/obo/GO_0098850	extrinsic component of synaptic vesicle membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0030672	synaptic vesicle membrane
 http://purl.obolibrary.org/obo/GO_0035448	extrinsic component of thylakoid membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
-http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	fibrillar collagen
+http://purl.obolibrary.org/obo/GO_0005583	fibrillar collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098643	fibrillar collagen complex
 http://purl.obolibrary.org/obo/GO_1904813	ficolin-1-rich granule lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0101002	ficolin-1-rich granule
 http://purl.obolibrary.org/obo/GO_0032171	germ tube septin cap	http://purl.obolibrary.org/obo/GO_0032159	septin cap	http://purl.obolibrary.org/obo/GO_0032179	germ tube
 http://purl.obolibrary.org/obo/GO_0032172	germ tube septin ring	http://purl.obolibrary.org/obo/GO_0005940	septin ring	http://purl.obolibrary.org/obo/GO_0032179	germ tube
@@ -217,7 +217,7 @@ http://purl.obolibrary.org/obo/GO_1902502	multivesicular body HOPS complex	http:
 http://purl.obolibrary.org/obo/GO_0097482	muscle cell postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0099572	postsynaptic specialization	http://purl.obolibrary.org/obo/GO_0098975	postsynapse of neuromuscular junction
 http://purl.obolibrary.org/obo/GO_0036195	muscle cell projection membrane	http://purl.obolibrary.org/obo/GO_0031253	cell projection membrane	http://purl.obolibrary.org/obo/GO_0036194	muscle cell projection
 http://purl.obolibrary.org/obo/GO_0005859	muscle myosin complex	http://purl.obolibrary.org/obo/GO_0016460	myosin II complex	http://purl.obolibrary.org/obo/GO_0043292	contractile muscle fiber
-http://purl.obolibrary.org/obo/GO_0098642	network-forming collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098645	collagen network
+http://purl.obolibrary.org/obo/GO_0098642	network-forming collagen trimer	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer	http://purl.obolibrary.org/obo/GO_0098645	complex of network-forming collagens
 http://purl.obolibrary.org/obo/GO_0120111	neuron projection cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0043005	neuron projection
 http://purl.obolibrary.org/obo/GO_0099013	neuronal dense core vesicle lumen	http://purl.obolibrary.org/obo/GO_0060205	cytoplasmic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098992	neuronal dense core vesicle
 http://purl.obolibrary.org/obo/GO_0043599	nuclear DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005663	DNA replication factor C complex	http://purl.obolibrary.org/obo/GO_0005634	nucleus
@@ -250,7 +250,7 @@ http://purl.obolibrary.org/obo/GO_0005721	pericentric heterochromatin	http://pur
 http://purl.obolibrary.org/obo/GO_0099020	perinuclear endoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0097038	perinuclear endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_1990578	perinuclear endoplasmic reticulum membrane	http://purl.obolibrary.org/obo/GO_0016020	membrane	http://purl.obolibrary.org/obo/GO_0097038	perinuclear endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0097013	phagocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0045335	phagocytic vesicle
-http://purl.obolibrary.org/obo/GO_0032838	plasma membrane bounded cell projection cytoplasm	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
+http://purl.obolibrary.org/obo/GO_0032838	plasma membrane bounded cell projection cytoplasm	http://purl.obolibrary.org/obo/GO_0099568	cytoplasmic region	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
 http://purl.obolibrary.org/obo/GO_0031520	plasma membrane of cell tip	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0051286	cell tip
 http://purl.obolibrary.org/obo/GO_1902929	plasma membrane of growing cell tip	http://purl.obolibrary.org/obo/GO_0098590	plasma membrane region	http://purl.obolibrary.org/obo/GO_0035838	growing cell tip
 http://purl.obolibrary.org/obo/GO_0098797	plasma membrane protein complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane

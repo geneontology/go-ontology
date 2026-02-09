@@ -22,7 +22,7 @@ jobs:
       run: cd src/ontology && rm ../biochebi/chebi_pH7_3_mapping.tsv && make ../biochebi/chebi_pH7_3_mapping.tsv && cd ../..
     
     - name: Create PR
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         title: Update ChEBI pH 7.3 mapping
         branch: update-chebi-pH-7-3

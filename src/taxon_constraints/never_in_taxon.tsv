@@ -1,11 +1,56 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:1990244	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	PMID:19965387
+GO:0006097	glyoxylate cycle	NCBITaxon:33511	Deuterostomia	PMID:31301737
+GO:0006097	glyoxylate cycle	NCBITaxon:6656	Arthropoda	PMID:31301737
+GO:0006097	glyoxylate cycle	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	PMID:28732077
+GO:0103016	tRNA-uridine 2-sulfurtransferase activity	NCBITaxon:33208	Metazoa	PMID:28732077
+GO:0070189 	kynurenine metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0019628 	urate catabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0003885 	D-arabinono-1,4-lactone oxidase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0032115 	sorbose reductase activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:31132130
+GO:0050085	mannitol 2-dehydrogenase (NADP+) activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:31132130
+GO:0008767	UDP-galactopyranose mutase activity 	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0070485	dehydro-D-arabinono-1,4-lactone biosynthetic process	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0170064	lysosome fission	NCBITaxon:4751	Fungi	
+GO:0033703	3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0047024	5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0047022	7-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0070523	11-beta-hydroxysteroid dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0070524	11-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0004507	steroid 11-beta-monooxygenase activity	NCBITaxon:50557	Insecta	
+GO:0047521	12-beta-hydroxysteroid dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0047006	17-alpha,20-alpha-dihydroxypregn-4-en-3-one dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta	
+GO:0047035	testosterone dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0047045	testosterone dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0047044	androstan-3-alpha,17-beta-diol dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0047023	androsterone dehydrogenase [NAD(P)+] activity	NCBITaxon:50557	Insecta	
+GO:0106281	chenodeoxycholate 7-alpha-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0008709	cholate 7-alpha-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0015432	ABC-type bile acid transporter activity	NCBITaxon:50557	Insecta	
+GO:0033777	lithocholate 6-beta-hydroxylase activity	NCBITaxon:50557	Insecta	
+GO:0033780	taurochenodeoxycholate 6-alpha-hydroxylase activity	NCBITaxon:50557	Insecta	
+GO:0033792	3-alpha-hydroxy bile acid-CoA-ester 3-dehydrogenase activity	NCBITaxon:50557	Insecta	
+GO:0033876	glycochenodeoxycholate sulfotransferase activity	NCBITaxon:50557	Insecta	
+GO:0033881	bile-acid-CoA transferase activity	NCBITaxon:50557	Insecta	
+GO:0033882	choloyl-CoA hydrolase activity	NCBITaxon:50557	Insecta	
+GO:0047013	cholate 12-alpha-dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0047043	3-alpha-hydroxycholanate dehydrogenase activity	NCBITaxon:50557	Insecta	
+GO:0047704	bile-salt sulfotransferase activity	NCBITaxon:50557	Insecta	
+GO:0047742	chenodeoxycholoyltaurine hydrolase activity	NCBITaxon:50557	Insecta	
+GO:0047747	cholate-CoA ligase activity	NCBITaxon:50557	Insecta	
+GO:0047963	glycine N-choloyltransferase activity	NCBITaxon:50557	Insecta	
+GO:7770003	amino acid conjugated cholate hydrolase activity	NCBITaxon:50557	Insecta	
+GO:0106282	isoursodeoxycholate 7-beta-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0047007	pregnan-21-ol dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
+GO:0047008	pregnan-21-ol dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
+GO:0106283	ursodeoxycholate 7-beta-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
 GO:0019343	cysteine biosynthetic process via cystathionine	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0004122	cystathionine beta-synthase	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0004123	cystathionine gamma-lyase	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:1990604	IRE1-TRAF2-ASK1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:1990604	IRE1-TRAF2-ASK1 complex	NCBITaxon:4896	Saccharomyces cerevisiae	
 GO:0019280	L-methionine biosynthetic process from homoserine via O-acetyl-L-homoserine and cystathionine	NCBITaxon:33208	Metazoa	
-GO:0009097	isoleucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009098	L-leucine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009085	lysine biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0009094	L-phenylalanine biosynthetic process	NCBITaxon:9606	Homo sapiens	
@@ -89,7 +134,6 @@ GO:0005933	cellular bud	NCBITaxon:4895	Schizosaccharomyces
 GO:0006398	mRNA 3'-end processing by stem-loop binding and cleavage	NCBITaxon:4890	Ascomycota	
 GO:0006691	leukotriene metabolic process	NCBITaxon:4751	Fungi	
 GO:0006909	phagocytosis	NCBITaxon:4751	Fungi	
-GO:0007086	vesicle fusion with nuclear membrane involved in mitotic nuclear envelope reassembly	NCBITaxon:4751	Fungi	
 GO:0007098	centrosome cycle	NCBITaxon:27896	Planariidae	
 GO:0007098	centrosome cycle	NCBITaxon:33090	Viridiplantae	
 GO:0007098	centrosome cycle	NCBITaxon:4751	Fungi	
@@ -120,12 +164,6 @@ GO:0009507	chloroplast	NCBITaxon:28009	Choanoflagellida	PMID:21311032
 GO:0009507	chloroplast	NCBITaxon:33208	Metazoa	PMID:21311032
 GO:0009507	chloroplast	NCBITaxon:4751	Fungi	PMID:21311032
 GO:0009507	chloroplast	NCBITaxon:554915	Amoebozoa	PMID:21311032
-GO:0009536	plastid	NCBITaxon:2	Bacteria	
-GO:0009536	plastid	NCBITaxon:2157	Archaea	
-GO:0009536	plastid	NCBITaxon:28009	Choanoflagellida	PMID:21311032
-GO:0009536	plastid	NCBITaxon:33208	Metazoa	PMID:21311032
-GO:0009536	plastid	NCBITaxon:4751	Fungi	PMID:21311032
-GO:0009536	plastid	NCBITaxon:554915	Amoebozoa	PMID:21311032
 GO:0009579	thylakoid	NCBITaxon:33208	Metazoa	
 GO:0009657	plastid organization	NCBITaxon:28009	Choanoflagellida	PMID:21311032
 GO:0009657	plastid organization	NCBITaxon:33208	Metazoa	PMID:21311032
@@ -616,7 +654,6 @@ GO:0017145	stem cell division	NCBITaxon:2157	Archaea
 GO:0038055	BMP secretion	NCBITaxon:4751	Fungi	
 GO:0038055	BMP secretion	NCBITaxon:2	Bacteria	
 GO:0038055	BMP secretion	NCBITaxon:2157	Archaea	
-GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
 GO:0042246	tissue regeneration	NCBITaxon:4751	Fungi	
 GO:0060250	germ-line stem-cell niche homeostasis	NCBITaxon:4751	Fungi	
 GO:0048863	stem cell differentiation	NCBITaxon:4751	Fungi	
@@ -632,8 +669,6 @@ GO:0030512	negative regulation of transforming growth factor beta receptor signa
 GO:0030511	positive regulation of transforming growth factor beta receptor signaling pathway	NCBITaxon:4751	Fungi	
 GO:0030334	regulation of cell migration	NCBITaxon:4890	Ascomycota	
 GO:0060818	inactivation of paternal X chromosome by genomic imprinting	NCBITaxon:9606	Homo sapiens	
-GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
-GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	
 GO:0016442	RISC complex	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0007041	lysosomal transport	NCBITaxon:4751	Fungi	
 GO:0007040	lysosome organization	NCBITaxon:4751	Fungi	
@@ -689,3 +724,17 @@ GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi
 GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4895	Schizosaccharomyces	PMID:26173916
 GO:0008137	NADH dehydrogenase (ubiquinone) activity	NCBITaxon:4930	Saccharomyces	PMID:26173916
 GO:0016212	kynurenine-oxoglutarate transaminase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
+GO:0008705	methionine synthase activity	NCBITaxon:4751	Fungi	
+GO:0072371	histone H2AS121 kinase activity	NCBITaxon:33208	Metazoa	
+GO:0044024	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	
+GO:0009536	plastid	NCBITaxon:2	Bacteria	
+GO:0009536	plastid	NCBITaxon:2157	Archaea	
+GO:0009536	plastid	NCBITaxon:28009	Choanoflagellida	PMID:21311032
+GO:0009536	plastid	NCBITaxon:33208	Metazoa	PMID:21311032
+GO:0009536	plastid	NCBITaxon:4751	Fungi	PMID:21311032
+GO:0009536	plastid	NCBITaxon:554915	Amoebozoa	PMID:21311032
+GO:0020022	acidocalcisome	NCBITaxon:4890	Ascomycota	
+GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota	
+GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	
+GO:0033099	attachment organelle	NCBITaxon:2759	Eukaryota	
+GO:0000050	urea cycle	NCBITaxon:50557	Insecta	

@@ -5,6 +5,7 @@ idspace: rdfs http://www.w3.org/2000/01/rdf-schema# ""
 idspace: skos http://www.w3.org/2004/02/skos/core# ""
 idspace: _base http://www.geneontology.org/formats/oboInOwl# ""
 default-namespace: oboInOwl
+ontology: http://www.geneontology.org/formats/oboInOwl
 
 [Term]
 id: oboInOwl:DbXref
@@ -163,6 +164,12 @@ name: has_version
 is_metadata_tag: true
 
 [Typedef]
+id: oboInOwl:id
+name: id
+def: "relation between a class and its identifier as an OBO ID" [oboInOwl:jpb]
+is_metadata_tag: true
+
+[Typedef]
 id: oboInOwl:inSubset
 name: in_subset
 xref: oboFormat:subset
@@ -180,6 +187,12 @@ is_metadata_tag: true
 id: oboInOwl:savedBy
 xref: oboFormat:saved_by
 name: saved_by
+is_metadata_tag: true
+
+[Typedef]
+id: oboInOwl:shorthand
+name: shorthand
+def: "relation between a relation and a human-readable term used to stand in for its identifier" [oboInOwl:jpb]
 is_metadata_tag: true
 
 [Typedef]
