@@ -1,3 +1,4 @@
+Identifier	Name	GO_Term
 R-HSA-73843	5-Phosphoribose 1-diphosphate biosynthesis	GO:0006015
 R-HSA-1369062	ABC transporters in lipid homeostasis	GO:0006869
 R-HSA-382556	ABC-family proteins mediated transport	GO:0055085
@@ -117,7 +118,7 @@ R-HSA-9025094	Biosynthesis of DPAn-3 SPMs	GO:0019372
 R-HSA-9026403	Biosynthesis of DPAn-3-derived 13-series resolvins	GO:0042759
 R-HSA-9018679	Biosynthesis of EPA-derived SPMs	GO:0042759
 R-HSA-2142700	Biosynthesis of Lipoxins (LX)	GO:2001301
-R-HSA-9027604	Biosynthesis of electrophilic -3 PUFA oxo-derivatives	GO:0042759
+R-HSA-9027604	Biosynthesis of electrophilic ω-3 PUFA oxo-derivatives	GO:0042759
 R-HSA-9018678	Biosynthesis of specialized proresolving mediators (SPMs)	GO:0050728
 R-HSA-446193	Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	GO:0006488
 R-HSA-196780	Biotin transport and metabolism	GO:0006768

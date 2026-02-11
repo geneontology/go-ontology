@@ -1,4 +1,4 @@
-Identifier	Name	defined_class
+Identifier	Name	GO_Term
 R-HSA-1008248	Adenylate Kinase 3 is a GTP-AMP phosphotransferase	GO:0046899
 R-HSA-1013012	Binding of Gbeta/gamma to GIRK/Kir3 channels	GO:0004965
 R-HSA-1013013	Association of GABA B receptor with G protein beta-gamma subunits	GO:0004965
@@ -109,7 +109,7 @@ R-HSA-112381	Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex	GO:
 R-HSA-112383	Hypophosphorylation of RNA Pol II CTD by FCP1P protein	GO:0004721
 R-HSA-113503	PP2A mediated localization of RB1 protein in chromatin	GO:0004721
 R-HSA-114252	Cleavage of Procaspase-3 by the apoptosome	GO:0004197
-R-HSA-114259	Cleavage of Procaspase9 to caspase9	GO:0004197
+R-HSA-114259	Cleavage of Procaspase‑9 to caspase‑9	GO:0004197
 R-HSA-114261	Cleavage of Procaspase-7 by the apoptosome	GO:0004197
 R-HSA-114544	p115-RhoGEF activation of RHOA	GO:0005085
 R-HSA-114552	Thrombin-activated PARs activate G12/13	GO:0004930
@@ -932,7 +932,7 @@ R-HSA-1793182	IDS hydrolyses dermatan sulfate (Chebi:63517 chain)	GO:0004423
 R-HSA-1793186	IDUA hydrolyses the unsulfated alpha-L-iduronosidic link in DS	GO:0003940
 R-HSA-1793207	ARSB hydrolyses C4S/C6S chains	GO:0003943
 R-HSA-1793209	HYAL1-4 hydrolyze chondroitin chains	GO:0004415
-R-HSA-1793217	Unknown endo--galactosidase cleaves keratan chain	GO:0004565
+R-HSA-1793217	Unknown endo-β-galactosidase cleaves keratan chain	GO:0004565
 R-HSA-179417	Multiubiquitination of Nek2A	GO:0004842
 R-HSA-1799329	Signal peptidase hydrolyzes signal peptide from ribosome-associated nascent protein	GO:0004252
 R-HSA-180038	DARPP-32 phosphorylated on T34 binds to PP1, inhibiting its function	GO:0019888
@@ -1199,7 +1199,7 @@ R-HSA-193780	5beta-cholestan-3alpha,7alpha,12alpha,24(S),27-pentol is oxidized t
 R-HSA-193781	5Beta-cholestan-7alpha,12alpha,24(S)-triol-3-one is reduced to 5beta-cholestan-3alpha,7alpha,12alpha,24(S)-tetrol	GO:0008106
 R-HSA-193787	5beta-cholestan-3alpha,7alpha,12alpha,24(S)-tetrol is hydroxylated to 5beta-cholestan-3alpha,7alpha,12alpha,24(S), 27-pentol	GO:0008395
 R-HSA-193789	Cholest-5-ene-3beta,7alpha,24(S)-triol is oxidized and isomerized to 4-cholesten-7alpha,24(S)-diol-3-one	GO:0003854
-R-HSA-193792	CYP27A1 27-hydroxylates 5-CHOL3,7,24(s)-triol	GO:0008395
+R-HSA-193792	CYP27A1 27-hydroxylates 5β-CHOL3α,7α,24(s)-triol	GO:0008395
 R-HSA-193800	5Beta-cholestan-7alpha,12alpha,27-triol-3-one is reduced to 5beta-cholestan-3alpha,7alpha,12alpha,27-tetrol	GO:0008106
 R-HSA-193808	5beta-cholestan-3alpha,7alpha,27-triol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
 R-HSA-193816	Cholest-5-ene-3beta,7alpha,27-triol is oxidized and isomerized to 4-cholesten-7alpha,27-diol-3-one	GO:0003854
@@ -1736,7 +1736,7 @@ R-HSA-2162193	COQ3 methylates DHDB	GO:0010420
 R-HSA-2162194	COQ7:COQ9 octamer hydroxylates DMQ10H2	GO:0016709
 R-HSA-2162195	COQ4 decarboxylates MHDB	GO:0120539
 R-HSA-2162225	HEXA cleaves the terminal GlcNAc from small HA fragments	GO:0004563
-R-HSA-2162226	GUSB tetramer hydrolyzes GlcA-1,3-GlcNAc	GO:0004566
+R-HSA-2162226	GUSB tetramer hydrolyzes GlcA-β1,3-GlcNAc	GO:0004566
 R-HSA-2162227	GUSB tetramer hydrolyses (HA)2	GO:0004566
 R-HSA-2162229	SLC17A5 exports GlcA from the lysosome to the cytosol	GO:0015135
 R-HSA-2162253	PDSS1,2 ligates FPP to IPPP	GO:0097269
@@ -2190,7 +2190,7 @@ R-HSA-3341343	PRDX1,2,5 catalyze TXN reduced + H2O2 => TXN oxidized + 2H2O	GO:00
 R-HSA-3341397	GPX3 catalyzes 2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O	GO:0004602
 R-HSA-3343700	PRDX6:GSTP1 catalyzes 2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O	GO:0004602
 R-HSA-3364026	MLL2 complex trimethylates H3K4 at the MYC gene	GO:0042800
-R-HSA-3371385	TNF- is cleaved by ADAM17 (TACE)	GO:0004222
+R-HSA-3371385	TNF-α is cleaved by ADAM17 (TACE)	GO:0004222
 R-HSA-3371422	ATP hydrolysis by HSP70	GO:0016887
 R-HSA-3371435	Constitutive phosphorylation by GSK3	GO:0004674
 R-HSA-3371467	SIRT1 deacetylates HSF1	GO:0034979
@@ -5126,7 +5126,7 @@ R-HSA-8981564	GLUT3 (SLC2A3) tetramer transports Glc from extracellular region t
 R-HSA-8981570	GLUT4 (SLC2A4) tetramer transports Glc from extracellular region to cytosol	GO:0055056
 R-HSA-8981574	GLUT2 (SLC2A2) tetramer transports Glc from extracellular region to cytosol	GO:0055056
 R-HSA-8981637	RHOA GAPs stimulate RHOA GTPase activity	GO:0005096
-R-HSA-8982020	G alpha (i)i1/i2/i3 in G (i):RGS complex is inactivated	GO:0003924
+R-HSA-8982020	G alpha (i)–i1/i2/i3 in G (i):RGS complex is inactivated	GO:0003924
 R-HSA-8982021	G alpha (z) in G alpha (z):RGS complex is inactivated	GO:0003924
 R-HSA-8982025	G alpha (q) in G (q):RGS complex is inactivated	GO:0003924
 R-HSA-8982163	IL19:IL20RA:p-JAK1:IL20RB:STAT3 phosphorylates STAT3	GO:0004714
@@ -5353,9 +5353,9 @@ R-HSA-9026917	Lipoxygenase dehydrogenates 7(S),17(S)-diHp-DHA to 7S(8)-epoxy-17(
 R-HSA-9026918	Lipoxygenase oxidises 17(S)-Hp-DHA to 7(S),17(S)-diHp-DHA	GO:0016702
 R-HSA-9026927	GGT hydrolyses RCTR1 to RCTR2	GO:0036374
 R-HSA-9027033	Hydroperoxy reducatase reduces 14(S)-Hp-DHA to 14(S)-HDHA	GO:0016491
-R-HSA-9027042	CPY4 -oxidises 14(S)-HDHA to MaR-L1	GO:0004497
+R-HSA-9027042	CPY4 ω-oxidises 14(S)-HDHA to MaR-L1	GO:0004497
 R-HSA-9027043	CYPs hydroxylate DHA to 14(R)-HDHA	GO:0004497
-R-HSA-9027044	CYP4 -oxidises 14(R)-HDHA to MaR-L2	GO:0004497
+R-HSA-9027044	CYP4 ω-oxidises 14(R)-HDHA to MaR-L2	GO:0004497
 R-HSA-9027272	EPO:phospho-EPOR:phospho-JAK2:LYN:IRS2 phosphorylates IRS2	GO:0004713
 R-HSA-9027273	JAK2 phosphorylates GAB1 in EPO:phospho-EPOR:phospho-JAK2:LYN:IRS2:GAB1	GO:0004713
 R-HSA-9027302	CYP2E1 oxidises 14(S)-HDHA to 14(S),21(R)-diHDHA and 14(S),21(S)-diHDHA	GO:0004497
@@ -5423,7 +5423,7 @@ R-HSA-9035949	Defective B4GALT1 does not transfer Gal to the N-glycan precursor	
 R-HSA-9035950	Defective B4GALT1 does not transfer Gal to a branch of keratan	GO:0003831
 R-HSA-9035954	Defective CYP17A1 does not 17-hydroxylate P4	GO:0004508
 R-HSA-9035956	Defective CYP17A1 does not cleave 17aHPROG	GO:0004508
-R-HSA-9035960	Defective CYP27A1 does not 27-hydroxylate 5-CHOL3,7,24(s)-triol	GO:0008395
+R-HSA-9035960	Defective CYP27A1 does not 27-hydroxylate 5β-CHOL3α,7α,24(s)-triol	GO:0008395
 R-HSA-9035966	Defective GGT1 does not hydrolyse GSH	GO:0036374
 R-HSA-9035976	Defective HEXA does not cleave the terminall GalNAc from small HA fragments	GO:0004563
 R-HSA-9035982	Defective HEXB does not cleave the terminal GalNAc from HA fragments	GO:0004563
@@ -5441,7 +5441,7 @@ R-HSA-9036052	Defective NAGLU does not hydrolyse heparan chain(2)	GO:0004561
 R-HSA-9036056	Defective HGSNAT does not acetylate Heparan sulfate chain(3)	GO:0015019
 R-HSA-9036061	Defective GLB1 does not hydrolyse linker chain(2)	GO:0004565
 R-HSA-9036065	Defective ARSB does not hydrolyse DS	GO:0003943
-R-HSA-9036068	Defective GUSB does not hydrolyse GlcA-1,3-GlcNAc	GO:0004566
+R-HSA-9036068	Defective GUSB does not hydrolyse GlcA-β1,3-GlcNAc	GO:0004566
 R-HSA-9036070	Defective GUSB does not hydrolyse CS/HS precursor	GO:0004566
 R-HSA-9036077	Defective HYAL1 does not hydrolyse (HA)50	GO:0004415
 R-HSA-9036102	Defective UGT1A1 does not transfer GlcA from UDP-GlcA to BMG	GO:0015020
@@ -5534,7 +5534,7 @@ R-HSA-9603983	FUT2 transfers Fuc to LeX to form LeY	GO:0008107
 R-HSA-9603984	FUT4,5,9 transfer Fuc to Type 2 chains to form LeX	GO:0046920
 R-HSA-9603986	FUT3 transfers Fuc to Type 1 chains to form LeA	GO:0017060
 R-HSA-9603987	ST3GAL3 transfers Neu5Ac to Type 1 chain to form Type 1 MSGG	GO:0003836
-R-HSA-9603989	B3GALTs transfer Gal to GlcNAc-1,3-Gal-R to form Type 1 chain	GO:0008499
+R-HSA-9603989	B3GALTs transfer Gal to GlcNAc-β1,3-Gal-R to form Type 1 chain	GO:0008499
 R-HSA-9603991	ST6GALNAC6 transfers Neu5Ac to Type 1 MSGG to form Type 1 DSGG	GO:0001665
 R-HSA-9604264	ADAM10 cleaves NOTCH4	GO:0008237
 R-HSA-9604294	Gamma-secretase cleaves NOTCH4	GO:0004190
@@ -6481,7 +6481,7 @@ R-HSA-9912889	SLC35D2 exchanges UDP-GlcA for UMP	GO:0005461
 R-HSA-9913106	TetB exports tetracyclines	GO:0042910
 R-HSA-9913128	TetA exports tetracyclines	GO:0042910
 R-HSA-9913329	Autoproteolysis of DAG1 to alpha and beta chains	GO:0004252
-R-HSA-9913373	AAC(6)-Ib acetylates ciprofloxacin	GO:0008080
+R-HSA-9913373	AAC(6′)-Ib acetylates ciprofloxacin	GO:0008080
 R-HSA-9913437	Pef exports fluoroquinolones	GO:0042910
 R-HSA-9913637	RNASEH1 cleaves R-loop RNA to yield RNA primer for H strand polymerization	GO:0004523
 R-HSA-9913672	OqxA exports fluoroquinolones	GO:0042910
@@ -6540,8 +6540,8 @@ R-HSA-9922957	NS3 melts (+)-RNA secondary structures	GO:0004386
 R-HSA-9923068	NS5 synthesizes plus strand genome	GO:0003968
 R-HSA-9923071	NS5 transfers guanylyl onto DENV genomic 5'-ppRNA	GO:0004484
 R-HSA-9923073	NS3 unwinds dsRNA secondary structures	GO:0004386
-R-HSA-9923097	NS5 acts as a cap 2'-O-methyltransferase to methylate 5 m7GpppA of DENV genomic +ssRNA	GO:0004483
-R-HSA-9923104	NS5 acts as a cap N7 methyltransferase to methylate 5 G pppA of DENV genomic +ssRNA	GO:0004482
+R-HSA-9923097	NS5 acts as a cap 2'-O-methyltransferase to methylate 5’ m7GpppA of DENV genomic +ssRNA	GO:0004483
+R-HSA-9923104	NS5 acts as a cap N7 methyltransferase to methylate 5’ G pppA of DENV genomic +ssRNA	GO:0004482
 R-HSA-9923980	NS3 cleaves triphosphate moiety of genomic +ssRNA	GO:0004651
 R-HSA-9926021	HlyB:HlyD:TolC transports HlyA from periplasm to extracellular space	GO:0015288
 R-HSA-9926041	HlyB:HlyD:TolC transports HlyA from cytosol to periplasm	GO:0008564
