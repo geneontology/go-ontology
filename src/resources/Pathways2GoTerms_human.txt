@@ -1,0 +1,1015 @@
+R-HSA-73843	5-Phosphoribose 1-diphosphate biosynthesis	GO:0006015
+R-HSA-1369062	ABC transporters in lipid homeostasis	GO:0006869
+R-HSA-382556	ABC-family proteins mediated transport	GO:0055085
+R-HSA-9660821	ADORA2B mediated anti-inflammatory cytokines production	GO:0002862
+R-HSA-418592	ADP signalling through P2Y purinoceptor 1	GO:0030168
+R-HSA-392170	ADP signalling through P2Y purinoceptor 12	GO:0030168
+R-HSA-198323	AKT phosphorylates targets in the cytosol	GO:0043491
+R-HSA-198693	AKT phosphorylates targets in the nucleus	GO:0043491
+R-HSA-211163	AKT-mediated inactivation of FOXO1A	GO:2000074
+R-HSA-163680	AMPK inhibits chREBP transcriptional activation activity	GO:0042304
+R-HSA-174143	APC/C-mediated degradation of cell cycle proteins	GO:0031145
+R-HSA-174048	APC/C:Cdc20 mediated degradation of Cyclin B	GO:0031145
+R-HSA-174154	APC/C:Cdc20 mediated degradation of Securin	GO:0031145
+R-HSA-176409	APC/C:Cdc20 mediated degradation of mitotic proteins	GO:0007096
+R-HSA-381033	ATF6 (ATF6-alpha) activates chaperones	GO:0036500
+R-HSA-8854518	AURKA Activation by TPX2	GO:0010389
+R-HSA-2161541	Abacavir metabolism	GO:0006805
+R-HSA-2161517	Abacavir transmembrane transport	GO:0072530
+R-HSA-73930	Abasic sugar-phosphate removal via the single-nucleotide replacement pathway	GO:0006284
+R-HSA-2978092	Abnormal conversion of 2-oxoglutarate to 2-hydroxyglutarate	GO:0006103
+R-HSA-264642	Acetylcholine Neurotransmitter Release Cycle	GO:0006836
+R-HSA-399997	Acetylcholine regulates insulin secretion	GO:0032024
+R-HSA-1300645	Acrosome Reaction and Sperm:Oocyte Membrane Binding	GO:0007340
+R-HSA-9638771	Action of antimicrobials	GO:0046677
+R-HSA-9028335	Activated NTRK2 signals through PI3K	GO:0051897
+R-HSA-9026519	Activated NTRK2 signals through RAS	GO:0046579
+R-HSA-9603381	Activated NTRK3 signals through PI3K	GO:0051897
+R-HSA-9034793	Activated NTRK3 signals through PLCG1	GO:0051388
+R-HSA-9034864	Activated NTRK3 signals through RAS	GO:0046579
+R-HSA-5625886	Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	GO:0060765
+R-HSA-111452	Activation and oligomerization of BAK protein	GO:1901030
+R-HSA-165158	Activation of AKT2	GO:0051897
+R-HSA-9619483	Activation of AMPK downstream of NMDARs	GO:0007268
+R-HSA-176187	Activation of ATR in response to replication stress	GO:0006260
+R-HSA-114452	Activation of BH3-only proteins	GO:1903749
+R-HSA-451308	Activation of Ca-permeable Kainate Receptor	GO:0007268
+R-HSA-1296041	Activation of G protein gated Potassium channels	GO:1901381
+R-HSA-5619507	Activation of HOX genes during differentiation	GO:0009790
+R-HSA-451307	Activation of Na-permeable kainate receptors	GO:0007268
+R-HSA-428540	Activation of RAC1	GO:0016601
+R-HSA-9619229	Activation of RAC1 downstream of NMDARs	GO:0007268
+R-HSA-1169092	Activation of RAS in B cells	GO:0007265
+R-HSA-187015	Activation of TRKA receptors	GO:0007169
+R-HSA-111459	Activation of caspases through apoptosome-mediated cleavage	GO:0097190
+R-HSA-2426168	Activation of gene expression by SREBF (SREBP)	GO:0019216
+R-HSA-8866907	Activation of the TFAP2 (AP-2) family of transcription factors	GO:0045944
+R-HSA-68962	Activation of the pre-replicative complex	GO:0006270
+R-HSA-75108	Activation, myristolyation of BID and translocation to mitochondria	GO:1903749
+R-HSA-114294	Activation, translocation and oligomerization of BAX	GO:1901030
+R-HSA-1482798	Acyl chain remodeling of CL	GO:0035965
+R-HSA-1482883	Acyl chain remodeling of DAG and TAG	GO:0036155
+R-HSA-1482788	Acyl chain remodelling of PC	GO:0036151
+R-HSA-1482839	Acyl chain remodelling of PE	GO:0036152
+R-HSA-1482925	Acyl chain remodelling of PG	GO:0036148
+R-HSA-1482922	Acyl chain remodelling of PI	GO:0036149
+R-HSA-1482801	Acyl chain remodelling of PS	GO:0036150
+R-HSA-1280218	Adaptive Immune System	GO:0002250
+R-HSA-170660	Adenylate cyclase activating pathway	GO:0007189
+R-HSA-170670	Adenylate cyclase inhibitory pathway	GO:0007193
+R-HSA-418990	Adherens junctions interactions	GO:0034332
+R-HSA-9843745	Adipogenesis	GO:1904177
+R-HSA-392023	Adrenaline signalling through Alpha-2 adrenergic receptor	GO:0030168
+R-HSA-400042	Adrenaline,noradrenaline inhibits insulin secretion	GO:0046676
+R-HSA-5423646	Aflatoxin activation and detoxification	GO:0046222
+R-HSA-9646399	Aggrephagy	GO:0035973
+R-HSA-351143	Agmatine biosynthesis	GO:0097055
+R-HSA-8964540	Alanine metabolism	GO:0042851
+R-HSA-389599	Alpha-oxidation of phytanate	GO:0001561
+R-HSA-9645460	Alpha-protein kinase 1 signaling pathway	GO:0002753
+R-HSA-173736	Alternative complement activation	GO:0006957
+R-HSA-9639288	Amino acids regulate mTORC1	GO:0034198
+R-HSA-977225	Amyloid fiber formation	GO:1990000
+R-HSA-2214320	Anchoring fibril formation	GO:0030199
+R-HSA-5620912	Anchoring of the basal body to the plasma membrane	GO:0097711
+R-HSA-193048	Androgen biosynthesis	GO:0006702
+R-HSA-9662851	Anti-inflammatory response favouring Leishmania parasite infection	GO:0051711
+R-HSA-1236975	Antigen processing-Cross presentation	GO:0042590
+R-HSA-9912633	Antigen processing: Ub, ATP-independent proteasomal degradation	GO:0010499
+R-HSA-983168	Antigen processing: Ubiquitination & Proteasome degradation	GO:0000209
+R-HSA-9639775	Antimicrobial action and antimicrobial resistance in Mtb	GO:0046677
+R-HSA-6803157	Antimicrobial peptides	GO:0019730
+R-HSA-9913143	Antimicrobial resistance	GO:0046677
+R-HSA-109581	Apoptosis	GO:0006915
+R-HSA-140342	Apoptosis induced DNA fragmentation	GO:0006309
+R-HSA-75153	Apoptotic execution phase	GO:0097194
+R-HSA-445717	Aquaporin-mediated transport	GO:0006833
+R-HSA-2142753	Arachidonate metabolism	GO:0019369
+R-HSA-426048	Arachidonate production from DAG	GO:0019369
+R-HSA-446203	Asparagine N-linked glycosylation	GO:0006487
+R-HSA-8963693	Aspartate and asparagine metabolism	GO:0170033
+R-HSA-175474	Assembly Of The HIV Virion	GO:0019068
+R-HSA-168316	Assembly of Viral Components at the Budding Site	GO:0019068
+R-HSA-68867	Assembly of the pre-replicative complex	GO:0036388
+R-HSA-162791	Attachment of GPI anchor to uPAR	GO:0016255
+R-HSA-9638630	Attachment of bacteria to epithelial cells	GO:0044406
+R-HSA-9612973	Autophagy	GO:0006914
+R-HSA-422475	Axon guidance	GO:0007411
+R-HSA-193634	Axonal growth inhibition (RHOA activation)	GO:0050771
+R-HSA-209563	Axonal growth stimulation	GO:0050772
+R-HSA-9024909	BDNF activates NTRK2 (TRKB) signaling	GO:0051388
+R-HSA-111453	BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members	GO:2001244
+R-HSA-9824439	Bacterial Infection Pathways	GO:0009617
+R-HSA-73884	Base Excision Repair	GO:0006284
+R-HSA-73929	Base-Excision Repair, AP Site Formation	GO:0006285
+R-HSA-3858494	Beta-catenin independent WNT signaling	GO:0035567
+R-HSA-389887	Beta-oxidation of pristanoyl-CoA	GO:0033540
+R-HSA-390247	Beta-oxidation of very long chain fatty acids	GO:0033540
+R-HSA-425381	Bicarbonate transporters	GO:0015701
+R-HSA-194068	Bile acid and bile salt metabolism	GO:0008206
+R-HSA-2173782	Binding and Uptake of Ligands by Scavenger Receptors	GO:0006898
+R-HSA-173107	Binding and entry of HIV virion	GO:0044409
+R-HSA-9931953	Biofilm formation	GO:0042710
+R-HSA-211859	Biological oxidations	GO:0006805
+R-HSA-9018677	Biosynthesis of DHA-derived SPMs	GO:0042759
+R-HSA-9018683	Biosynthesis of DPA-derived SPMs	GO:0042759
+R-HSA-9025094	Biosynthesis of DPAn-3 SPMs	GO:0019372
+R-HSA-9026403	Biosynthesis of DPAn-3-derived 13-series resolvins	GO:0042759
+R-HSA-9018679	Biosynthesis of EPA-derived SPMs	GO:0042759
+R-HSA-2142700	Biosynthesis of Lipoxins (LX)	GO:2001301
+R-HSA-9027604	Biosynthesis of electrophilic -3 PUFA oxo-derivatives	GO:0042759
+R-HSA-9018678	Biosynthesis of specialized proresolving mediators (SPMs)	GO:0050728
+R-HSA-446193	Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	GO:0006488
+R-HSA-196780	Biotin transport and metabolism	GO:0006768
+R-HSA-9033658	Blood group systems biosynthesis	GO:0009312
+R-HSA-70895	Branched-chain amino acid catabolism	GO:0009083
+R-HSA-168302	Budding	GO:0019068
+R-HSA-162588	Budding and maturation of HIV virion	GO:0019058
+R-HSA-5621481	C-type lectin receptors (CLRs)	GO:0002223
+R-HSA-9948001	CASP4 inflammasome assembly	GO:0160075
+R-HSA-9960519	CASP4-mediated substrate cleavage	GO:0070269
+R-HSA-9948011	CASP5 inflammasome assembly	GO:0160075
+R-HSA-9960525	CASP5-mediated substrate cleavage	GO:0070269
+R-HSA-5218900	CASP8 activity is inhibited	GO:0010951
+R-HSA-9662834	CD163 mediating an anti-inflammatory response	GO:0002862
+R-HSA-6811434	COPI-dependent Golgi-to-ER retrograde traffic	GO:0006890
+R-HSA-204005	COPII-mediated vesicle transport	GO:0048208
+R-HSA-140180	COX reactions	GO:0006692
+R-HSA-442742	CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling	GO:0007268
+R-HSA-442720	CREB1 phosphorylation through the activation of Adenylate Cyclase	GO:0007268
+R-HSA-442729	CREB1 phosphorylation through the activation of CaMKII/CaMKK/CaMKIV cascasde	GO:0007268
+R-HSA-2022870	CS-GAG biosynthesis	GO:0050650
+R-HSA-2024101	CS/DS degradation	GO:0030167
+R-HSA-1296052	Ca2+ activated K+ channels	GO:1901381
+R-HSA-4086398	Ca2+ pathway	GO:0007223
+R-HSA-5576891	Cardiac conduction	GO:0061337
+R-HSA-9733709	Cardiogenesis	GO:0060914
+R-HSA-200425	Carnitine shuttle	GO:0006853
+R-HSA-71262	Carnitine synthesis	GO:0045329
+R-HSA-140534	Caspase activation via Death Receptors in the presence of ligand	GO:0010950
+R-HSA-418889	Caspase activation via Dependence Receptors in the absence of ligand	GO:0097192
+R-HSA-5357769	Caspase activation via extrinsic apoptotic signalling pathway	GO:0097191
+R-HSA-209905	Catecholamine biosynthesis	GO:0042423
+R-HSA-426117	Cation-coupled Chloride cotransporters	GO:1902476
+R-HSA-174184	Cdc20:Phospho-APC/C mediated degradation of Cyclin A	GO:0031145
+R-HSA-1640170	Cell Cycle	GO:0007049
+R-HSA-69620	Cell Cycle Checkpoints	GO:0000075
+R-HSA-69278	Cell Cycle, Mitotic	GO:0000278
+R-HSA-204998	Cell death signalling via NRAGE, NRIF and NADE	GO:0097190
+R-HSA-446728	Cell junction organization	GO:0034329
+R-HSA-9664424	Cell recruitment (pro-inflammatory response)	GO:0060326
+R-HSA-1222541	Cell redox homeostasis	GO:0045454
+R-HSA-202733	Cell surface interactions at the vascular wall	GO:0050900
+R-HSA-421270	Cell-cell junction organization	GO:0045216
+R-HSA-2559583	Cellular Senescence	GO:0090398
+R-HSA-189200	Cellular hexose transport	GO:0008645
+R-HSA-9711123	Cellular response to chemical stress	GO:0062197
+R-HSA-3371556	Cellular response to heat stress	GO:0034605
+R-HSA-1234174	Cellular response to hypoxia	GO:0071456
+R-HSA-9840373	Cellular response to mitochondrial stress	GO:0098780
+R-HSA-9711097	Cellular response to starvation	GO:0009267
+R-HSA-9855142	Cellular responses to mechanical stimuli	GO:0071260
+R-HSA-8953897	Cellular responses to stimuli	GO:0051716
+R-HSA-2262752	Cellular responses to stress	GO:0033554
+R-HSA-193681	Ceramide signalling	GO:0097190
+R-HSA-163765	ChREBP activates metabolic gene expression	GO:0009893
+R-HSA-9613829	Chaperone Mediated Autophagy	GO:0061684
+R-HSA-390466	Chaperonin-mediated protein folding	GO:0006457
+R-HSA-191273	Cholesterol biosynthesis	GO:0006695
+R-HSA-6798163	Choline catabolism	GO:0042426
+R-HSA-1793185	Chondroitin sulfate/dermatan sulfate metabolism	GO:0006029
+R-HSA-9821002	Chromatin modifications during the maternal to zygotic transition (MZT)	GO:0044725
+R-HSA-4839726	Chromatin organization	GO:0006325
+R-HSA-8963888	Chylomicron assembly	GO:0034378
+R-HSA-8964026	Chylomicron clearance	GO:0034382
+R-HSA-8963901	Chylomicron remodeling	GO:0034371
+R-HSA-5617833	Cilium Assembly	GO:0060271
+R-HSA-9909396	Circadian clock	GO:0007623
+R-HSA-71403	Citric acid cycle (TCA cycle)	GO:0006099
+R-HSA-373076	Class A/1 (Rhodopsin-like receptors)	GO:0007186
+R-HSA-983169	Class I MHC mediated antigen processing & presentation	GO:0002474
+R-HSA-9603798	Class I peroxisomal membrane protein import	GO:0045046
+R-HSA-173623	Classical antibody-mediated complement activation	GO:0006958
+R-HSA-9759218	Cobalamin (Cbl) metabolism	GO:0009235
+R-HSA-196783	Coenzyme A biosynthesis	GO:0015937
+R-HSA-1442490	Collagen degradation	GO:0030574
+R-HSA-1474290	Collagen formation	GO:0030199
+R-HSA-166658	Complement cascade	GO:0006956
+R-HSA-6799198	Complex I biogenesis	GO:0032981
+R-HSA-9865881	Complex III assembly	GO:0034551
+R-HSA-9864848	Complex IV assembly	GO:0033617
+R-HSA-2514853	Condensation of Prometaphase Chromosomes	GO:0007076
+R-HSA-2299718	Condensation of Prophase Chromosomes	GO:0007076
+R-HSA-71288	Creatine metabolism	GO:0006600
+R-HSA-8949613	Cristae formation	GO:0042407
+R-HSA-1236973	Cross-presentation of particulate exogenous antigens (phagosomes)	GO:0002479
+R-HSA-1236978	Cross-presentation of soluble exogenous antigens (endosomes)	GO:0002479
+R-HSA-2243919	Crosslinking of collagen fibrils	GO:0030199
+R-HSA-69656	Cyclin A:Cdk2-associated events at S phase entry	GO:0045740
+R-HSA-1614603	Cysteine formation from homocysteine	GO:0019346
+R-HSA-9707564	Cytoprotection by HMOX1	GO:0034599
+R-HSA-2564830	Cytosolic iron-sulfur cluster assembly	GO:0016226
+R-HSA-1834949	Cytosolic sensors of pathogen-associated DNA 	GO:0032481
+R-HSA-156584	Cytosolic sulfonation of small molecules	GO:0050427
+R-HSA-73893	DNA Damage Bypass	GO:0019985
+R-HSA-5696394	DNA Damage Recognition in GG-NER	GO:0000715
+R-HSA-5693532	DNA Double-Strand Break Repair	GO:0006302
+R-HSA-73894	DNA Repair	GO:0006281
+R-HSA-69306	DNA Replication	GO:0006261
+R-HSA-5334118	DNA methylation	GO:0031507
+R-HSA-68952	DNA replication initiation	GO:0006270
+R-HSA-69190	DNA strand elongation	GO:0006271
+R-HSA-2022923	DS-GAG biosynthesis	GO:0050651
+R-HSA-429947	Deadenylation of mRNA	GO:0000289
+R-HSA-429914	Deadenylation-dependent mRNA decay	GO:0000288
+R-HSA-73887	Death Receptor Signaling	GO:0007166
+R-HSA-4641257	Degradation of AXIN	GO:0090263
+R-HSA-4641258	Degradation of DVL	GO:0090090
+R-HSA-916853	Degradation of GABA	GO:0009450
+R-HSA-1614558	Degradation of cysteine and homocysteine	GO:0000098
+R-HSA-1474228	Degradation of the extracellular matrix	GO:0022617
+R-HSA-9839923	Dengue Virus Infection	GO:0044403
+R-HSA-9918481	Dengue Virus-Host Interactions	GO:0044003
+R-HSA-9920588	Dengue virus activates/modulates innate and adaptive immune responses	GO:0052553
+R-HSA-9920951	Dengue virus modulates apoptosis	GO:0052150
+R-HSA-606279	Deposition of new CENPA-containing nucleosomes at the centromere	GO:0034080
+R-HSA-73927	Depurination	GO:0045007
+R-HSA-73928	Depyrimidination	GO:0045008
+R-HSA-3299685	Detoxification of Reactive Oxygen Species	GO:0034599
+R-HSA-5688426	Deubiquitination	GO:0016579
+R-HSA-9725554	Differentiation of Keratinocytes in Interfollicular Epidermis in Mammalian Skin	GO:0003334
+R-HSA-9945266	Differentiation of T cells	GO:0030217
+R-HSA-9942503	Differentiation of naive CD+ T cells to T helper 1 cells (Th1 cells)	GO:0045063
+R-HSA-8935690	Digestion	GO:0007586
+R-HSA-189085	Digestion of dietary carbohydrate	GO:0044245
+R-HSA-192456	Digestion of dietary lipid	GO:0044241
+R-HSA-4641262	Disassembly of the destruction complex and recruitment of AXIN to the membrane	GO:0060070
+R-HSA-75205	Dissolution of Fibrin Clot	GO:0042730
+R-HSA-212676	Dopamine Neurotransmitter Release Cycle	GO:0006836
+R-HSA-2173795	Downregulation of SMAD2/3:SMAD4 transcriptional activity	GO:0000122
+R-HSA-2173788	Downregulation of TGF-beta receptor signaling	GO:0030512
+R-HSA-9748784	Drug ADME	GO:0006805
+R-HSA-5696400	Dual Incision in GG-NER	GO:0006289
+R-HSA-182971	EGFR downregulation	GO:0042059
+R-HSA-212718	EGFR interacts with phospholipase C-gamma	GO:0007165
+R-HSA-9648025	EML4 and NUDC in mitotic spindle formation	GO:0007052
+R-HSA-2682334	EPH-Ephrin signaling	GO:0048013
+R-HSA-901032	ER Quality Control Compartment (ERQC)	GO:1904380
+R-HSA-199977	ER to Golgi Anterograde Transport	GO:0006888
+R-HSA-1236974	ER-Phagosome pathway	GO:0002479
+R-HSA-6785631	ERBB2 Regulates Cell Motility	GO:2000145
+R-HSA-211979	Eicosanoids	GO:0006690
+R-HSA-2395516	Electron transport from NADPH to Ferredoxin	GO:0006124
+R-HSA-211976	Endogenous sterols	GO:0016125
+R-HSA-917729	Endosomal Sorting Complex Required For Transport (ESCRT)	GO:0016197
+R-HSA-1236977	Endosomal/Vacuolar pathway	GO:0002480
+R-HSA-380972	Energy dependent regulation of mTOR by LKB1-AMPK	GO:0051726
+R-HSA-168275	Entry of Influenza Virion into Host Cell via Endocytosis	GO:0019065
+R-HSA-379398	Enzymatic degradation of Dopamine by monoamine oxidase	GO:0042420
+R-HSA-379397	Enzymatic degradation of dopamine by COMT	GO:0042420
+R-HSA-212165	Epigenetic regulation of gene expression	GO:0040029
+R-HSA-9758919	Epithelial-Mesenchymal Transition (EMT) during gastrulation	GO:0001837
+R-HSA-9027276	Erythropoietin activates Phosphoinositide-3-kinase (PI3K)	GO:0051897
+R-HSA-9027284	Erythropoietin activates RAS	GO:0046579
+R-HSA-9027283	Erythropoietin activates STAT5	GO:1904894
+R-HSA-2468052	Establishment of Sister Chromatid Cohesion	GO:0007062
+R-HSA-193144	Estrogen biosynthesis	GO:0006703
+R-HSA-71384	Ethanol oxidation	GO:0006068
+R-HSA-156842	Eukaryotic Translation Elongation	GO:0006414
+R-HSA-72613	Eukaryotic Translation Initiation	GO:0006413
+R-HSA-72764	Eukaryotic Translation Termination	GO:0006415
+R-HSA-168274	Export of Viral Ribonucleoproteins from Nucleus	GO:0075733
+R-HSA-9752946	Expression and translocation of olfactory receptors	GO:0010468
+R-HSA-1474244	Extracellular matrix organization	GO:0030198
+R-HSA-140834	Extrinsic Pathway of Fibrin Clot Formation	GO:0007598
+R-HSA-9837092	FASTK family proteins regulate processing and stability of mitochondrial RNAs	GO:0044528
+R-HSA-8854050	FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	GO:0045930
+R-HSA-9664323	FCGR3A-mediated IL10 synthesis	GO:0002862
+R-HSA-9664422	FCGR3A-mediated phagocytosis	GO:0038096
+R-HSA-9607240	FLT3 Signaling	GO:0019221
+R-HSA-6783310	Fanconi Anemia Pathway	GO:0036297
+R-HSA-75157	FasL/ CD95L signaling	GO:0097190
+R-HSA-8978868	Fatty acid metabolism	GO:0006631
+R-HSA-211935	Fatty acids	GO:0006631
+R-HSA-75105	Fatty acyl-CoA biosynthesis	GO:0046949
+R-HSA-2454202	Fc epsilon receptor (FCERI) signaling	GO:0038095
+R-HSA-2029480	Fcgamma receptor (FCGR) dependent phagocytosis	GO:0038096
+R-HSA-1187000	Fertilization	GO:0007338
+R-HSA-390450	Folding of actin by CCT/TriC	GO:0006457
+R-HSA-163210	Formation of ATP by chemiosmotic coupling	GO:0042776
+R-HSA-9796292	Formation of axial mesoderm	GO:0048320
+R-HSA-9823730	Formation of definitive endoderm	GO:0001706
+R-HSA-9761174	Formation of intermediate mesoderm	GO:0048391
+R-HSA-9758920	Formation of lateral plate mesoderm	GO:0048370
+R-HSA-9793380	Formation of paraxial mesoderm	GO:0048341
+R-HSA-2408499	Formation of selenosugars for excretion	GO:0001887
+R-HSA-173599	Formation of the active cofactor, UDP-glucuronate	GO:0009226
+R-HSA-9823739	Formation of the anterior neural plate	GO:0090017
+R-HSA-201722	Formation of the beta-catenin:TCF transactivating complex	GO:1904837
+R-HSA-6809371	Formation of the cornified envelope	GO:0070268
+R-HSA-9830364	Formation of the nephric duct	GO:0072179
+R-HSA-9832991	Formation of the posterior neural plate	GO:0090018
+R-HSA-9830674	Formation of the ureteric bud	GO:0060676
+R-HSA-389960	Formation of tubulin folding intermediates by CCT/TriC	GO:0006457
+R-HSA-5661270	Formation of xylulose-5-phosphate	GO:0019640
+R-HSA-400451	Free fatty acids regulate insulin secretion	GO:0032024
+R-HSA-5652227	Fructose biosynthesis	GO:0046370
+R-HSA-70350	Fructose catabolism	GO:0061624
+R-HSA-5652084	Fructose metabolism	GO:0006000
+R-HSA-168270	Fusion and Uncoating of the Influenza Virion	GO:0046718
+R-HSA-168288	Fusion of the Influenza Virion to the Host Cell Endosome	GO:0019064
+R-HSA-69236	G1 Phase	GO:0000080
+R-HSA-69206	G1/S Transition	GO:0000082
+R-HSA-68911	G2 Phase	GO:0007346
+R-HSA-69275	G2/M Transition	GO:0000086
+R-HSA-888568	GABA synthesis	GO:0009449
+R-HSA-9953170	GBP-mediated host defense	GO:0140546
+R-HSA-6787639	GDP-fucose biosynthesis	GO:0042350
+R-HSA-388396	GPCR downstream signalling	GO:0007186
+R-HSA-70370	Galactose catabolism	GO:0033499
+R-HSA-159854	Gamma-carboxylation, transport, and amino-terminal cleavage of proteins	GO:0017187
+R-HSA-190861	Gap junction assembly	GO:0016264
+R-HSA-5696397	Gap-filling DNA repair synthesis and ligation in GG-NER	GO:0006297
+R-HSA-9758941	Gastrulation	GO:0007369
+R-HSA-211000	Gene Silencing by RNA	GO:0031047
+R-HSA-74160	Gene expression (Transcription)	GO:0006351
+R-HSA-212436	Generic Transcription Pathway	GO:0060260
+R-HSA-9754189	Germ layer formation at gastrulation	GO:0090009
+R-HSA-5696399	Global Genome Nucleotide Excision Repair (GG-NER)	GO:0070911
+R-HSA-163359	Glucagon signaling in metabolic regulation	GO:0071377
+R-HSA-381676	Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	GO:0032024
+R-HSA-194002	Glucocorticoid biosynthesis	GO:0006704
+R-HSA-70263	Gluconeogenesis	GO:0006094
+R-HSA-70326	Glucose metabolism	GO:0006006
+R-HSA-156588	Glucuronidation	GO:0019585
+R-HSA-210500	Glutamate Neurotransmitter Release Cycle	GO:0006836
+R-HSA-8964539	Glutamate and glutamine metabolism	GO:0170033
+R-HSA-156590	Glutathione conjugation	GO:1901687
+R-HSA-174403	Glutathione synthesis and recycling	GO:0006749
+R-HSA-1483206	Glycerophospholipid biosynthesis	GO:0046474
+R-HSA-6814848	Glycerophospholipid catabolism	GO:0046475
+R-HSA-6783984	Glycine degradation	GO:0006546
+R-HSA-70221	Glycogen breakdown (glycogenolysis)	GO:0005980
+R-HSA-8982491	Glycogen metabolism	GO:0005977
+R-HSA-3322077	Glycogen synthesis	GO:0005978
+R-HSA-70171	Glycolysis	GO:0061621
+R-HSA-1630316	Glycosaminoglycan metabolism	GO:0030203
+R-HSA-1971475	Glycosaminoglycan-protein linkage region biosynthesis	GO:0120532
+R-HSA-9840309	Glycosphingolipid biosynthesis	GO:0006688
+R-HSA-9840310	Glycosphingolipid catabolism	GO:0046479
+R-HSA-1660662	Glycosphingolipid metabolism	GO:0006687
+R-HSA-9845576	Glycosphingolipid transport	GO:0035627
+R-HSA-389661	Glyoxylate metabolism and glycine degradation	GO:0019752
+R-HSA-162658	Golgi Cisternae Pericentriolar Stack Reorganization	GO:0048313
+R-HSA-982772	Growth hormone receptor signaling	GO:0060397
+R-HSA-9609646	HCMV Infection	GO:0019058
+R-HSA-8963896	HDL assembly	GO:0034380
+R-HSA-8964011	HDL clearance	GO:0034384
+R-HSA-8964058	HDL remodeling	GO:0034375
+R-HSA-162906	HIV Infection	GO:0016032
+R-HSA-167169	HIV Transcription Elongation	GO:0006368
+R-HSA-167161	HIV Transcription Initiation	GO:0006367
+R-HSA-2022928	HS-GAG biosynthesis	GO:0015012
+R-HSA-2024096	HS-GAG degradation	GO:0030200
+R-HSA-3371571	HSF1-dependent transactivation	GO:1900034
+R-HSA-3371497	HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand	GO:0071383
+R-HSA-189451	Heme biosynthesis	GO:0006783
+R-HSA-189483	Heme degradation	GO:0042167
+R-HSA-9707616	Heme signaling	GO:0042168
+R-HSA-109582	Hemostasis	GO:0007596
+R-HSA-1638091	Heparan sulfate/heparin (HS-GAG) metabolism	GO:0030201
+R-HSA-9856530	High laminar flow shear stress activates signaling by PIEZO1 and PECAM1:CDH5:KDR in endothelial cells	GO:0097700
+R-HSA-70921	Histidine catabolism	GO:0006548
+R-HSA-5693538	Homology Directed Repair	GO:0000724
+R-HSA-2160916	Hyaluronan degradation	GO:0030214
+R-HSA-2142845	Hyaluronan metabolism	GO:0030212
+R-HSA-1483115	Hydrolysis of LPC	GO:0006644
+R-HSA-1483152	Hydrolysis of LPE	GO:0006644
+R-HSA-204626	Hypusine synthesis from eIF5A-lysine	GO:0008612
+R-HSA-1855196	IP3 and IP4 transport between cytosol and nucleus	GO:0033271
+R-HSA-1855229	IP6 and IP7 transport between cytosol and nucleus	GO:0033271
+R-HSA-1855215	IPs transport between ER lumen and cytosol	GO:0033271
+R-HSA-1855156	IPs transport between ER lumen and nucleus	GO:0033271
+R-HSA-1855184	IPs transport between cytosol and ER lumen	GO:0033271
+R-HSA-1855192	IPs transport between nucleus and ER lumen	GO:0033271
+R-HSA-1855170	IPs transport between nucleus and cytosol	GO:0033271
+R-HSA-937039	IRAK1 recruits IKK complex	GO:0043123
+R-HSA-381070	IRE1alpha activates chaperones	GO:0036498
+R-HSA-198933	Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	GO:0050776
+R-HSA-2514859	Inactivation, recovery and regulation of the phototransduction cascade	GO:0022400
+R-HSA-400508	Incretin synthesis, secretion, and inactivation	GO:0016486
+R-HSA-9733458	Induction of Cell-Cell Fusion	GO:0060141
+R-HSA-9640148	Infection with Enterobacteria	GO:0051701
+R-HSA-9635486	Infection with Mycobacterium tuberculosis	GO:0051701
+R-HSA-168255	Influenza Infection	GO:0019058
+R-HSA-168273	Influenza Viral RNA Transcription and Replication	GO:0019083
+R-HSA-168277	Influenza Virus Induced Apoptosis	GO:0006925
+R-HSA-9670095	Inhibition of DNA recombination at telomere	GO:0048239
+R-HSA-168315	Inhibition of Host mRNA Processing and RNA Silencing	GO:0039524
+R-HSA-9635644	Inhibition of membrane repair	GO:0044003
+R-HSA-168249	Innate Immune System	GO:0045087
+R-HSA-1483249	Inositol phosphate metabolism	GO:0043647
+R-HSA-429593	Inositol transporters	GO:0015798
+R-HSA-9609523	Insertion of tail-anchored proteins into the endoplasmic reticulum membrane	GO:0045048
+R-HSA-163754	Insulin effects increased synthesis of Xylulose-5-Phosphate	GO:0005999
+R-HSA-264876	Insulin processing	GO:0030070
+R-HSA-77387	Insulin receptor recycling	GO:0038020
+R-HSA-428359	Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA	GO:0043488
+R-HSA-163685	Integration of energy metabolism	GO:0043467
+R-HSA-162592	Integration of provirus	GO:0075713
+R-HSA-2534343	Interaction With Cumulus Cells And The Zona Pellucida	GO:0035036
+R-HSA-880009	Interconversion of 2-oxoglutarate and 2-hydroxyglutarate	GO:0006103
+R-HSA-499943	Interconversion of nucleotide di- and triphosphates	GO:0015949
+R-HSA-351200	Interconversion of polyamines	GO:0006596
+R-HSA-913531	Interferon Signaling	GO:0019221
+R-HSA-909733	Interferon alpha/beta signaling	GO:0060337
+R-HSA-877300	Interferon gamma signaling	GO:0060333
+R-HSA-9020702	Interleukin-1 signaling	GO:0070498
+R-HSA-447115	Interleukin-12 family signaling	GO:0035722
+R-HSA-8983432	Interleukin-15 signaling	GO:0035723
+R-HSA-448424	Interleukin-17 signaling	GO:0097400
+R-HSA-9012546	Interleukin-18 signaling	GO:0035655
+R-HSA-9020558	Interleukin-2 signaling	GO:0038110
+R-HSA-9020958	Interleukin-21 signaling	GO:0038114
+R-HSA-9020933	Interleukin-23 signaling	GO:0038155
+R-HSA-9020956	Interleukin-27 signaling	GO:0070106
+R-HSA-9014843	Interleukin-33 signaling	GO:0038172
+R-HSA-8984722	Interleukin-35 Signalling	GO:0070757
+R-HSA-9008059	Interleukin-37 signaling	GO:0071345
+R-HSA-9007892	Interleukin-38 signaling	GO:0071345
+R-HSA-1059683	Interleukin-6 signaling	GO:0070102
+R-HSA-1266695	Interleukin-7 signaling	GO:0038111
+R-HSA-8985947	Interleukin-9 signaling	GO:0038113
+R-HSA-8963676	Intestinal absorption	GO:0050892
+R-HSA-8981373	Intestinal hexose absorption	GO:0106001
+R-HSA-8963678	Intestinal lipid absorption	GO:0098856
+R-HSA-434313	Intracellular metabolism of fatty acids regulates insulin secretion	GO:0006631
+R-HSA-8981607	Intracellular oxygen transport	GO:0015671
+R-HSA-5620924	Intraflagellar transport	GO:0035735
+R-HSA-109606	Intrinsic Pathway for Apoptosis	GO:0097193
+R-HSA-140837	Intrinsic Pathway of Fibrin Clot Formation	GO:0007597
+R-HSA-983712	Ion channel transport	GO:0034220
+R-HSA-5578775	Ion homeostasis	GO:1903779
+R-HSA-917937	Iron uptake and transport	GO:0006879
+R-HSA-450321	JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1	GO:0007254
+R-HSA-2022854	Keratan sulfate biosynthesis	GO:0018146
+R-HSA-2022857	Keratan sulfate degradation	GO:0042340
+R-HSA-1638074	Keratan sulfate/keratin metabolism	GO:0042339
+R-HSA-6805567	Keratinization	GO:0031424
+R-HSA-74182	Ketone body metabolism	GO:1902224
+R-HSA-9830369	Kidney development	GO:0001822
+R-HSA-9664420	Killing mechanisms	GO:0031343
+R-HSA-983189	Kinesins	GO:0007018
+R-HSA-8964038	LDL clearance	GO:0034383
+R-HSA-8964041	LDL remodeling	GO:0034374
+R-HSA-9664535	LTC4-CYSLTR mediated IL4 production	GO:0002862
+R-HSA-5653890	Lactose synthesis	GO:0005989
+R-HSA-9615710	Late endosomal microautophagy	GO:0061738
+R-HSA-1222499	Latent infection - Other responses of Mtb to phagocytosis	GO:0052572
+R-HSA-166662	Lectin pathway of complement activation	GO:0001867
+R-HSA-9658195	Leishmania infection	GO:0051701
+R-HSA-9664433	Leishmania parasite growth and survival	GO:0031342
+R-HSA-9664417	Leishmania phagocytosis	GO:0006909
+R-HSA-2046105	Linoleic acid (LA) metabolism	GO:0043651
+R-HSA-8964572	Lipid particle organization	GO:0034389
+R-HSA-9613354	Lipophagy	GO:0061724
+R-HSA-8876384	Listeria monocytogenes entry into host cells	GO:0046718
+R-HSA-9620244	Long-term potentiation	GO:0007268
+R-HSA-71064	Lysine catabolism	GO:0006554
+R-HSA-8853383	Lysosomal oligosaccharide catabolism	GO:0009313
+R-HSA-68886	M Phase	GO:0000087
+R-HSA-450294	MAP kinase activation	GO:0051403
+R-HSA-2465910	MASTL Facilitates Mitotic Progression	GO:0007346
+R-HSA-5657655	MGMT-mediated DNA damage reversal	GO:0006307
+R-HSA-2132295	MHC class II antigen presentation	GO:0019886
+R-HSA-1632852	Macroautophagy	GO:0016236
+R-HSA-9856872	Malate-aspartate shuttle	GO:0043490
+R-HSA-9636667	Manipulation of host energy metabolism	GO:0044003
+R-HSA-9816359	Maternal to zygotic transition (MZT)	GO:0160021
+R-HSA-9918432	Maturation of DENV proteins	GO:0051604
+R-HSA-9694631	Maturation of nucleoprotein	GO:0019082
+R-HSA-9683610	Maturation of nucleoprotein	GO:0019082
+R-HSA-9694719	Maturation of protein 3a	GO:0019082
+R-HSA-9683673	Maturation of protein 3a	GO:0019082
+R-HSA-9694594	Maturation of protein M	GO:0019082
+R-HSA-9683612	Maturation of protein M	GO:0019082
+R-HSA-9694548	Maturation of spike protein	GO:0019082
+R-HSA-9683686	Maturation of spike protein	GO:0019082
+R-HSA-5662702	Melanin biosynthesis	GO:0042438
+R-HSA-199991	Membrane Trafficking	GO:0061024
+R-HSA-174490	Membrane binding and targetting of GAG proteins	GO:0075733
+R-HSA-1430728	Metabolism	GO:0008152
+R-HSA-2022377	Metabolism of Angiotensinogen to Angiotensins	GO:0002003
+R-HSA-8953854	Metabolism of RNA	GO:0016070
+R-HSA-71291	Metabolism of amino acids and derivatives	GO:0044238
+R-HSA-6806667	Metabolism of fat-soluble vitamins	GO:0042362
+R-HSA-196757	Metabolism of folate and pterines	GO:0046655
+R-HSA-2408550	Metabolism of ingested H2SeO4 and H2SeO3 into H2Se	GO:0001887
+R-HSA-5263617	Metabolism of ingested MeSeO2H into MeSeH	GO:0001887
+R-HSA-2408508	Metabolism of ingested SeMet, Sec, MeSec into H2Se	GO:0001887
+R-HSA-556833	Metabolism of lipids	GO:0006629
+R-HSA-202131	Metabolism of nitric oxide: NOS3 activation and regulation	GO:0046209
+R-HSA-15869	Metabolism of nucleotides	GO:0055086
+R-HSA-351202	Metabolism of polyamines	GO:0006595
+R-HSA-189445	Metabolism of porphyrins	GO:0006778
+R-HSA-392499	Metabolism of proteins	GO:0019538
+R-HSA-380612	Metabolism of serotonin	GO:0042429
+R-HSA-8957322	Metabolism of steroids	GO:0008202
+R-HSA-6806664	Metabolism of vitamin K	GO:0042373
+R-HSA-196849	Metabolism of water-soluble vitamins and cofactors	GO:0042364
+R-HSA-425410	Metal ion SLC transporters	GO:0030001
+R-HSA-9638482	Metal ion assimilation from the host	GO:0044847
+R-HSA-1237112	Methionine salvage pathway	GO:0019509
+R-HSA-156581	Methylation	GO:0032259
+R-HSA-2408552	Methylation of MeSeH for excretion	GO:0001887
+R-HSA-203927	MicroRNA (miRNA) biogenesis	GO:0010586
+R-HSA-193993	Mineralocorticoid biosynthesis	GO:0006705
+R-HSA-211958	Miscellaneous substrates	GO:1903604
+R-HSA-5223345	Miscellaneous transport and binding events	GO:0055085
+R-HSA-5358508	Mismatch Repair	GO:0006298
+R-HSA-77289	Mitochondrial Fatty Acid Beta-Oxidation	GO:0006635
+R-HSA-9836573	Mitochondrial RNA degradation	GO:0000957
+R-HSA-166187	Mitochondrial Uncoupling	GO:1990845
+R-HSA-1592230	Mitochondrial biogenesis	GO:0007005
+R-HSA-8949215	Mitochondrial calcium ion transport	GO:0006851
+R-HSA-1362409	Mitochondrial iron-sulfur cluster biogenesis	GO:0016226
+R-HSA-9937008	Mitochondrial mRNA modification	GO:0016556
+R-HSA-9837999	Mitochondrial protein degradation	GO:0035694
+R-HSA-1268020	Mitochondrial protein import	GO:0006626
+R-HSA-9937383	Mitochondrial ribosome-associated quality control	GO:0070126
+R-HSA-163282	Mitochondrial transcription initiation	GO:0006391
+R-HSA-163316	Mitochondrial transcription termination	GO:0006393
+R-HSA-5368287	Mitochondrial translation	GO:0032543
+R-HSA-5389840	Mitochondrial translation elongation	GO:0070125
+R-HSA-5368286	Mitochondrial translation initiation	GO:0070124
+R-HSA-5419276	Mitochondrial translation termination	GO:0070126
+R-HSA-5205647	Mitophagy	GO:0000423
+R-HSA-68881	Mitotic Metaphase/Anaphase Transition	GO:0007091
+R-HSA-68877	Mitotic Prometaphase	GO:0000236
+R-HSA-69618	Mitotic Spindle Checkpoint	GO:0007094
+R-HSA-68884	Mitotic Telophase/Cytokinesis	GO:0000281
+R-HSA-9637628	Modulation by Mtb of host immune system	GO:0052031
+R-HSA-947581	Molybdenum cofactor biosynthesis	GO:0032324
+R-HSA-1222449	Mtb iron assimilation by chelation	GO:0033214
+R-HSA-975871	MyD88 cascade initiated on plasma membrane	GO:0002755
+R-HSA-166166	MyD88-independent TLR4 cascade 	GO:0002756
+R-HSA-166058	MyD88:MAL(TIRAP) cascade initiated on plasma membrane	GO:0002755
+R-HSA-525793	Myogenesis	GO:0051149
+R-HSA-532668	N-glycan trimming in the ER and Calnexin/Calreticulin cycle	GO:0006457
+R-HSA-205025	NADE modulates death signalling	GO:2001233
+R-HSA-389542	NADPH regeneration	GO:0006740
+R-HSA-167060	NGF processing	GO:0032455
+R-HSA-187024	NGF-independant TRKA activation	GO:0007190
+R-HSA-5676590	NIK-->noncanonical NF-kB signaling	GO:0038061
+R-HSA-9013508	NOTCH3 Intracellular Domain Regulates Transcription	GO:0007221
+R-HSA-9013695	NOTCH4 Intracellular Domain Regulates Transcription	GO:0006355
+R-HSA-9024446	NR1H2 and NR1H3-mediated signaling	GO:0030522
+R-HSA-193648	NRAGE signals death through JNK	GO:0043065
+R-HSA-205043	NRIF signals cell death from the nucleus	GO:0043065
+R-HSA-168276	NS1 Mediated Effects on Host Pathways	GO:0050687
+R-HSA-9025046	NTF3 activates NTRK2 (TRKB) signaling	GO:0051388
+R-HSA-9034013	NTF3 activates NTRK3 signaling	GO:0051388
+R-HSA-9026357	NTF4 activates NTRK2 (TRKB) signaling	GO:0051388
+R-HSA-9603505	NTRK3 as a dependence receptor	GO:2001241
+R-HSA-164944	Nef and signal transduction	GO:0050687
+R-HSA-164938	Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	GO:0050687
+R-HSA-5250941	Negative epigenetic regulation of rRNA expression	GO:0045814
+R-HSA-9604323	Negative regulation of NOTCH4 signaling	GO:0045746
+R-HSA-3772470	Negative regulation of TCF-dependent signaling by WNT ligand antagonists	GO:0090090
+R-HSA-8866904	Negative regulation of activity of TFAP2 (AP-2) family transcription factors	GO:0000122
+R-HSA-936440	Negative regulators of DDX58/IFIH1 signaling	GO:0032480
+R-HSA-9831926	Nephron development	GO:0072210
+R-HSA-9675108	Nervous system development	GO:0007399
+R-HSA-112316	Neuronal System	GO:0007268
+R-HSA-112310	Neurotransmitter release cycle	GO:0007269
+R-HSA-112313	Neurotransmitter uptake and metabolism In glial cells	GO:0001504
+R-HSA-6798695	Neutrophil degranulation	GO:0043312
+R-HSA-196807	Nicotinate metabolism	GO:1901847
+R-HSA-427413	NoRC negatively regulates rRNA expression	GO:0000183
+R-HSA-5693571	Nonhomologous End-Joining (NHEJ)	GO:0006303
+R-HSA-927802	Nonsense-Mediated Decay (NMD)	GO:0000184
+R-HSA-181430	Norepinephrine Neurotransmitter Release Cycle	GO:0006836
+R-HSA-350054	Notch-HLH transcription pathway	GO:0006367
+R-HSA-2995410	Nuclear Envelope (NE) Reassembly	GO:0007084
+R-HSA-2980766	Nuclear Envelope Breakdown	GO:0007077
+R-HSA-9930044	Nuclear RNA decay	GO:0006401
+R-HSA-383280	Nuclear Receptor transcription pathway	GO:0006367
+R-HSA-774815	Nucleosome assembly	GO:0006334
+R-HSA-5696398	Nucleotide Excision Repair	GO:0006289
+R-HSA-8956320	Nucleotide biosynthesis	GO:0034404
+R-HSA-8956319	Nucleotide catabolism	GO:0034656
+R-HSA-8956321	Nucleotide salvage	GO:0043173
+R-HSA-168643	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	GO:0035872
+R-HSA-5173214	O-glycosylation of TSR domain-containing proteins	GO:0036066
+R-HSA-5173105	O-linked glycosylation	GO:0006493
+R-HSA-913709	O-linked glycosylation of mucins	GO:0016266
+R-HSA-1480926	O2/CO2 exchange in erythrocytes	GO:0015701
+R-HSA-8983711	OAS antiviral response	GO:0051607
+R-HSA-9853506	OGDH complex synthesizes succinyl-CoA from 2-OG	GO:1901290
+R-HSA-1852241	Organelle biogenesis and maintenance	GO:0006996
+R-HSA-879518	Organic anion transport by SLCO transporters	GO:0043252
+R-HSA-4086400	PCP/CE pathway	GO:0060071
+R-HSA-9861559	PDH complex synthesizes acetyl-CoA from PYR	GO:0006086
+R-HSA-381042	PERK regulates gene expression	GO:0036499
+R-HSA-1483196	PI and PC transport between ER and Golgi membranes	GO:0015914
+R-HSA-198203	PI3K/AKT activation	GO:0043491
+R-HSA-6811558	PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling	GO:0051896
+R-HSA-5205685	PINK1-PRKN Mediated Mitophagy	GO:0016236
+R-HSA-1257604	PIP3 activates AKT signaling	GO:0051897
+R-HSA-1660510	PIPs transport between Golgi and plasma membranes	GO:0045332
+R-HSA-1660502	PIPs transport between early and late endosome membranes	GO:0045332
+R-HSA-1660537	PIPs transport between early endosome and Golgi membranes	GO:0045332
+R-HSA-1660508	PIPs transport between late endosome and Golgi membranes	GO:0045332
+R-HSA-1660524	PIPs transport between plasma and early endosome membranes	GO:0045332
+R-HSA-5601884	PIWI-interacting RNA (piRNA) biogenesis	GO:0034587
+R-HSA-163615	PKA activation	GO:0034199
+R-HSA-163358	PKA-mediated phosphorylation of key metabolic factors	GO:0141156
+R-HSA-9833482	PKR-mediated signaling	GO:0039585
+R-HSA-167021	PLC-gamma1 signalling	GO:0048011
+R-HSA-163767	PP2A-mediated dephosphorylation of key metabolic factors	GO:0010468
+R-HSA-1989781	PPARA activates gene expression	GO:0019222
+R-HSA-212300	PRC2 methylates histones and DNA	GO:0045814
+R-HSA-8849474	PTK6 Activates STAT3	GO:0046427
+R-HSA-8849472	PTK6 Down-Regulation	GO:0009968
+R-HSA-8849470	PTK6 Regulates Cell Cycle	GO:0045787
+R-HSA-8849469	PTK6 Regulates RTKs and Their Effectors AKT1 and DOK1	GO:0045742
+R-HSA-168303	Packaging of Eight RNA Segments	GO:0019072
+R-HSA-9664407	Parasite infection	GO:0075001
+R-HSA-9824443	Parasitic Infection Pathways	GO:0044419
+R-HSA-71336	Pentose phosphate pathway	GO:0006098
+R-HSA-209952	Peptide hormone biosynthesis	GO:0016486
+R-HSA-2980736	Peptide hormone metabolism	GO:0006518
+R-HSA-390918	Peroxisomal lipid metabolism	GO:0009062
+R-HSA-9664873	Pexophagy	GO:0000425
+R-HSA-9637698	Phagocyte cell death caused by cytosolic Mtb	GO:0001907
+R-HSA-8963691	Phenylalanine and tyrosine metabolism	GO:0009072
+R-HSA-8964208	Phenylalanine metabolism	GO:0006558
+R-HSA-2393930	Phosphate bond hydrolysis by NUDT proteins	GO:0055086
+R-HSA-1483257	Phospholipid metabolism	GO:0006644
+R-HSA-176412	Phosphorylation of the APC/C	GO:1901990
+R-HSA-5578768	Physiological factors	GO:1903779
+R-HSA-8963898	Plasma lipoprotein assembly	GO:0034377
+R-HSA-174824	Plasma lipoprotein assembly, remodeling, and clearance	GO:0071827
+R-HSA-8964043	Plasma lipoprotein clearance	GO:0034381
+R-HSA-8963899	Plasma lipoprotein remodeling	GO:0034369
+R-HSA-75896	Plasmalogen biosynthesis	GO:0008611
+R-HSA-76002	Platelet activation, signaling and aggregation	GO:0030168
+R-HSA-114608	Platelet degranulation 	GO:0002576
+R-HSA-156711	Polo-like kinase mediated events	GO:0051726
+R-HSA-5250913	Positive epigenetic regulation of rRNA expression	GO:0045815
+R-HSA-389977	Post-chaperonin tubulin folding pathway	GO:0007023
+R-HSA-426496	Post-transcriptional silencing by small RNAs	GO:0035194
+R-HSA-163125	Post-translational modification: synthesis of GPI-anchored proteins	GO:0006501
+R-HSA-597592	Post-translational protein modification	GO:0043687
+R-HSA-1296071	Potassium Channels	GO:0071805
+R-HSA-196108	Pregnenolone biosynthesis	GO:0006700
+R-HSA-112308	Presynaptic depolarization and calcium channel opening	GO:0051899
+R-HSA-75067	Processing of Capped Intronless Pre-mRNA	GO:0031124
+R-HSA-5357801	Programmed Cell Death	GO:0012501
+R-HSA-964827	Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2	GO:1904381
+R-HSA-70688	Proline catabolism	GO:0006562
+R-HSA-169893	Prolonged ERK activation events	GO:0000165
+R-HSA-71032	Propionyl-CoA catabolism	GO:0019626
+R-HSA-9907900	Proteasome assembly	GO:0043248
+R-HSA-391251	Protein folding	GO:0051084
+R-HSA-9629569	Protein hydroxylation	GO:0018126
+R-HSA-9857492	Protein lipoylation	GO:0009249
+R-HSA-9609507	Protein localization	GO:0008104
+R-HSA-8876725	Protein methylation	GO:0006479
+R-HSA-5676934	Protein repair	GO:0030091
+R-HSA-8852135	Protein ubiquitination	GO:0016567
+R-HSA-74259	Purine catabolism	GO:0006195
+R-HSA-73817	Purine ribonucleoside monophosphate biosynthesis	GO:0009168
+R-HSA-74217	Purine salvage	GO:0043101
+R-HSA-9660826	Purinergic signaling in leishmaniasis infection	GO:0035590
+R-HSA-500753	Pyrimidine biosynthesis	GO:0046134
+R-HSA-73621	Pyrimidine catabolism	GO:0046135
+R-HSA-73614	Pyrimidine salvage	GO:0043097
+R-HSA-71737	Pyrophosphate hydrolysis	GO:0071344
+R-HSA-5620971	Pyroptosis	GO:0070269
+R-HSA-70268	Pyruvate metabolism	GO:0042866
+R-HSA-112409	RAF-independent MAPK1/3 activation	GO:0070371
+R-HSA-5673001	RAF/MAP kinase cascade	GO:0000165
+R-HSA-9012999	RHO GTPase cycle	GO:0051056
+R-HSA-5213460	RIPK1-mediated regulated necrosis	GO:0070266
+R-HSA-73854	RNA Polymerase I Promoter Clearance	GO:0006361
+R-HSA-73864	RNA Polymerase I Transcription	GO:0006360
+R-HSA-73863	RNA Polymerase I Transcription Termination	GO:0006363
+R-HSA-73776	RNA Polymerase II Promoter Escape	GO:0006368
+R-HSA-73857	RNA Polymerase II Transcription	GO:0006366
+R-HSA-75955	RNA Polymerase II Transcription Elongation	GO:0006368
+R-HSA-75953	RNA Polymerase II Transcription Initiation	GO:0006367
+R-HSA-73779	RNA Polymerase II Transcription Pre-Initiation And Promoter Opening	GO:0006367
+R-HSA-73856	RNA Polymerase II Transcription Termination	GO:0006369
+R-HSA-73780	RNA Polymerase III Chain Elongation	GO:0006385
+R-HSA-74158	RNA Polymerase III Transcription	GO:0006383
+R-HSA-73980	RNA Polymerase III Transcription Termination	GO:0006386
+R-HSA-6807505	RNA polymerase II transcribes snRNA genes	GO:0042795
+R-HSA-1222556	ROS and RNS production in phagocytes	GO:0045454
+R-HSA-9833110	RSV-host interactions	GO:0044003
+R-HSA-8877330	RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)	GO:0045589
+R-HSA-8931987	RUNX1 regulates estrogen receptor mediated transcription	GO:0033146
+R-HSA-8935964	RUNX1 regulates expression of components of tight junctions	GO:2000810
+R-HSA-8936459	RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	GO:0045652
+R-HSA-8939245	RUNX1 regulates transcription of genes involved in BCR signaling	GO:0050855
+R-HSA-8939256	RUNX1 regulates transcription of genes involved in WNT signaling	GO:0030111
+R-HSA-8939236	RUNX1 regulates transcription of genes involved in differentiation of HSCs	GO:1902036
+R-HSA-8939242	RUNX1 regulates transcription of genes involved in differentiation of keratinocytes	GO:0045616
+R-HSA-8939246	RUNX1 regulates transcription of genes involved in differentiation of myeloid cells	GO:0045637
+R-HSA-8939247	RUNX1 regulates transcription of genes involved in interleukin signaling	GO:0001959
+R-HSA-8934903	Receptor Mediated Mitophagy	GO:0016236
+R-HSA-110314	Recognition of DNA damage by PCNA-containing replication complex	GO:1904333
+R-HSA-380320	Recruitment of NuMA to mitotic centrosomes	GO:0060236
+R-HSA-159418	Recycling of bile acids and salts	GO:0015721
+R-HSA-5218859	Regulated Necrosis	GO:0097300
+R-HSA-193692	Regulated proteolysis of p75NTR	GO:0031293
+R-HSA-3371378	Regulation by c-FLIP	GO:1902041
+R-HSA-176408	Regulation of APC/C activators between G1/S and early anaphase	GO:1905784
+R-HSA-169911	Regulation of Apoptosis	GO:0042981
+R-HSA-9708530	Regulation of BACH1 activity	GO:0006355
+R-HSA-9762293	Regulation of CDH11 gene transcription	GO:0006355
+R-HSA-9759811	Regulation of CDH11 mRNA translation by microRNAs	GO:0035195
+R-HSA-977606	Regulation of Complement cascade	GO:0030449
+R-HSA-9764274	Regulation of Expression and Function of Type I Classical Cadherins	GO:2000047
+R-HSA-9764260	Regulation of Expression and Function of Type II Classical Cadherins	GO:2000047
+R-HSA-9968551	Regulation of GBP-mediated host defense	GO:1900425
+R-HSA-170822	Regulation of Glucokinase by Glucokinase Regulatory Protein	GO:0006110
+R-HSA-3371453	Regulation of HSF1-mediated heat shock response	GO:1900034
+R-HSA-9759476	Regulation of Homotypic Cell-Cell Adhesion	GO:0034110
+R-HSA-912694	Regulation of IFNA/IFNB signaling	GO:0060338
+R-HSA-877312	Regulation of IFNG signaling	GO:0060334
+R-HSA-211728	Regulation of PAK-2p34 activity by PS-GAP/RHG10	GO:0043066
+R-HSA-388841	Regulation of T cell activation by CD28 family	GO:0031295
+R-HSA-5357905	Regulation of TNFR1 signaling	GO:0010803
+R-HSA-5633007	Regulation of TP53 Activity	GO:1901796
+R-HSA-211733	Regulation of activated PAK-2p34 by proteasome mediated degradation	GO:0043066
+R-HSA-186712	Regulation of beta-cell development	GO:0031018
+R-HSA-1655829	Regulation of cholesterol biosynthesis by SREBP (SREBF)	GO:0045540
+R-HSA-9842860	Regulation of endogenous retroelements	GO:0141005
+R-HSA-9845323	Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs)	GO:0141006
+R-HSA-9634600	Regulation of glycolysis by fructose 2,6-bisphosphate metabolism	GO:1904538
+R-HSA-3134975	Regulation of innate immune responses to cytosolic DNA	GO:0032479
+R-HSA-422356	Regulation of insulin secretion	GO:0050796
+R-HSA-400206	Regulation of lipid metabolism by PPARalpha	GO:0019216
+R-HSA-450531	Regulation of mRNA stability by proteins that bind AU-rich elements	GO:0043488
+R-HSA-5675482	Regulation of necroptotic cell death	GO:0060544
+R-HSA-350562	Regulation of ornithine decarboxylase (ODC)	GO:0090368
+R-HSA-204174	Regulation of pyruvate dehydrogenase (PDH) complex	GO:0010510
+R-HSA-9861718	Regulation of pyruvate metabolism	GO:0062012
+R-HSA-350864	Regulation of thyroid hormone activity	GO:0042403
+R-HSA-168298	Release	GO:0019076
+R-HSA-159782	Removal of aminoterminal propeptides from gamma-carboxylated proteins	GO:0016485
+R-HSA-9821993	Replacement of protamines by nucleosomes in the male pronucleus	GO:0044725
+R-HSA-1474165	Reproduction	GO:0048609
+R-HSA-73933	Resolution of Abasic Sites (AP sites)	GO:0006287
+R-HSA-5693554	Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)	GO:0045003
+R-HSA-2500257	Resolution of Sister Chromatid Cohesion	GO:0000070
+R-HSA-611105	Respiratory electron transport	GO:0022904
+R-HSA-9648895	Response of EIF2AK1 (HRI) to heme deficiency	GO:0010999
+R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency	GO:0034198
+R-HSA-9637690	Response of Mtb to phagocytosis	GO:0052031
+R-HSA-9860931	Response of endothelial cells to shear stress	GO:0071495
+R-HSA-5660526	Response to metal ions	GO:0010038
+R-HSA-975634	Retinoid metabolism and transport	GO:0001523
+R-HSA-888593	Reuptake of GABA	GO:0051936
+R-HSA-73943	Reversal of alkylation damage by DNA dioxygenases	GO:0006307
+R-HSA-162589	Reverse Transcription of HIV RNA	GO:0006278
+R-HSA-1475029	Reversible hydration of carbon dioxide	GO:0015701
+R-HSA-9037628	Rhesus blood group biosynthesis	GO:0043043
+R-HSA-444411	Rhesus glycoproteins mediate ammonium transport	GO:0072488
+R-HSA-9948299	Ribosome-associated quality control	GO:0072344
+R-HSA-174113	SCF-beta-TrCP mediated degradation of Emi1	GO:1901990
+R-HSA-427359	SIRT1 negatively regulates rRNA expression	GO:0000183
+R-HSA-77588	SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs	GO:0006398
+R-HSA-111367	SLBP independent Processing of Histone Pre-mRNAs	GO:0016071
+R-HSA-9958517	SLC-mediated bile acid transport	GO:0015721
+R-HSA-425407	SLC-mediated transmembrane transport	GO:0055085
+R-HSA-9958863	SLC-mediated transport of amino acids	GO:0006865
+R-HSA-442660	SLC-mediated transport of neurotransmitters	GO:0006836
+R-HSA-9959399	SLC-mediated transport of oligopeptides	GO:0035672
+R-HSA-9955298	SLC-mediated transport of organic anions	GO:0015711
+R-HSA-549127	SLC-mediated transport of organic cations	GO:0015837
+R-HSA-9860276	SLC15A4:TASL-dependent IRF5 activation	GO:0034121
+R-HSA-2173796	SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	GO:0045944
+R-HSA-1799339	SRP-dependent cotranslational protein targeting to membrane	GO:0006614
+R-HSA-9645135	STAT5 Activation	GO:0034097
+R-HSA-2990846	SUMOylation	GO:0016925
+R-HSA-9760173	Secretion of toxins	GO:0042000
+R-HSA-2408522	Selenoamino acid metabolism	GO:0016259
+R-HSA-9709957	Sensory Perception	GO:0007600
+R-HSA-9717189	Sensory perception of taste	GO:0050909
+R-HSA-9659379	Sensory processing of sound	GO:0007605
+R-HSA-2467813	Separation of Sister Chromatids	GO:0051306
+R-HSA-977347	Serine metabolism	GO:0006563
+R-HSA-181429	Serotonin Neurotransmitter Release Cycle	GO:0006836
+R-HSA-209931	Serotonin and melatonin biosynthesis	GO:0046219
+R-HSA-201451	Signaling by BMP	GO:0030509
+R-HSA-9680350	Signaling by CSF1 (M-CSF) in myeloid cells	GO:0019221
+R-HSA-9674555	Signaling by CSF3 (G-CSF)	GO:0019221
+R-HSA-177929	Signaling by EGFR	GO:0007173
+R-HSA-1227986	Signaling by ERBB2	GO:0038128
+R-HSA-9006335	Signaling by Erythropoietin	GO:0038162
+R-HSA-190236	Signaling by FGFR	GO:0008543
+R-HSA-2028269	Signaling by Hippo	GO:0035329
+R-HSA-74752	Signaling by Insulin receptor	GO:0008286
+R-HSA-449147	Signaling by Interleukins	GO:0019221
+R-HSA-8852405	Signaling by MST1	GO:0048012
+R-HSA-157118	Signaling by NOTCH	GO:0007219
+R-HSA-166520	Signaling by NTRKs	GO:0048011
+R-HSA-194315	Signaling by Rho GTPases	GO:0007264
+R-HSA-170834	Signaling by TGF-beta Receptor Complex	GO:0007179
+R-HSA-2404192	Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)	GO:0048009
+R-HSA-194138	Signaling by VEGF	GO:0048010
+R-HSA-195721	Signaling by WNT	GO:0016055
+R-HSA-167044	Signalling to RAS	GO:0007265
+R-HSA-187706	Signalling to p38 via RIT and RIN	GO:0007264
+R-HSA-426486	Small interfering RNA (siRNA) biogenesis	GO:0030422
+R-HSA-445355	Smooth Muscle Contraction	GO:0006936
+R-HSA-427652	Sodium-coupled phosphate cotransporters	GO:0035435
+R-HSA-425561	Sodium/Calcium exchangers	GO:0070588
+R-HSA-425986	Sodium/Proton exchangers	GO:0035725
+R-HSA-9824272	Somitogenesis	GO:0001756
+R-HSA-9827857	Specification of primordial germ cells	GO:0007281
+R-HSA-9834899	Specification of the neural plate border	GO:0060896
+R-HSA-1300642	Sperm Motility And Taxes	GO:0035036
+R-HSA-9845614	Sphingolipid catabolism	GO:0030149
+R-HSA-1660661	Sphingolipid de novo biosynthesis	GO:0030148
+R-HSA-428157	Sphingolipid metabolism	GO:0006665
+R-HSA-9913635	Strand-asynchronous mitochondrial DNA replication	GO:0006264
+R-HSA-390522	Striated Muscle Contraction	GO:0030049
+R-HSA-1614517	Sulfide oxidation to sulfate	GO:0070221
+R-HSA-1614635	Sulfur amino acid metabolism	GO:0000096
+R-HSA-9635465	Suppression of apoptosis	GO:0033668
+R-HSA-9636569	Suppression of autophagy	GO:0052041
+R-HSA-9637687	Suppression of phagosomal maturation	GO:0052170
+R-HSA-174495	Synthesis And Processing Of GAG, GAGPOL Polyproteins	GO:0019082
+R-HSA-171286	Synthesis and processing of ENV and VPU	GO:0019082
+R-HSA-2142816	Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)	GO:0097267
+R-HSA-2142712	Synthesis of 12-eicosatetraenoic acid derivatives	GO:0019372
+R-HSA-2142770	Synthesis of 15-eicosatetraenoic acid derivatives	GO:0019372
+R-HSA-2142688	Synthesis of 5-eicosatetraenoic acids	GO:0019372
+R-HSA-1483171	Synthesis of BMP	GO:2001312
+R-HSA-1483076	Synthesis of CL	GO:0032049
+R-HSA-69239	Synthesis of DNA	GO:0006260
+R-HSA-446205	Synthesis of GDP-mannose	GO:0009298
+R-HSA-77111	Synthesis of Ketone Bodies	GO:0046951
+R-HSA-2142691	Synthesis of Leukotrienes (LT) and Eoxins (EX)	GO:0006691
+R-HSA-1483166	Synthesis of PA	GO:0006654
+R-HSA-1483191	Synthesis of PC	GO:0006656
+R-HSA-1483213	Synthesis of PE	GO:0006646
+R-HSA-1483148	Synthesis of PG	GO:0006655
+R-HSA-1483226	Synthesis of PI	GO:0006661
+R-HSA-1483248	Synthesis of PIPs at the ER membrane	GO:0006661
+R-HSA-1660514	Synthesis of PIPs at the Golgi membrane	GO:0006661
+R-HSA-1660516	Synthesis of PIPs at the early endosome membrane	GO:0006661
+R-HSA-1660517	Synthesis of PIPs at the late endosome membrane	GO:0006661
+R-HSA-1660499	Synthesis of PIPs at the plasma membrane	GO:0006661
+R-HSA-1483101	Synthesis of PS	GO:0006659
+R-HSA-2162123	Synthesis of Prostaglandins (PG) and Thromboxanes (TX)	GO:0046457
+R-HSA-446210	Synthesis of UDP-N-acetyl-glucosamine	GO:0006048
+R-HSA-192105	Synthesis of bile acids and bile salts	GO:0006699
+R-HSA-5358493	Synthesis of diphthamide-EEF2	GO:0017183
+R-HSA-446199	Synthesis of dolichyl-phosphate	GO:0043048
+R-HSA-162699	Synthesis of dolichyl-phosphate mannose	GO:0006488
+R-HSA-480985	Synthesis of dolichyl-phosphate-glucose	GO:0006487
+R-HSA-2142670	Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)	GO:0019373
+R-HSA-162710	Synthesis of glycosylphosphatidylinositol (GPI)	GO:0006506
+R-HSA-75876	Synthesis of very long-chain fatty acyl-CoAs	GO:0035338
+R-HSA-422085	Synthesis, secretion, and deacylation of Ghrelin	GO:0016486
+R-HSA-381771	Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)	GO:0120116
+R-HSA-202403	TCR signaling	GO:0050852
+R-HSA-5221030	TET1,2,3 and TDG demethylate DNA	GO:0141167
+R-HSA-8866906	TFAP2 (AP-2) family regulates transcription of other transcription factors	GO:0045944
+R-HSA-168927	TICAM1, RIP1-mediated IKK complex recruitment	GO:0002756
+R-HSA-9014325	TICAM1,TRAF6-dependent induction of TAK1 complex	GO:0007249
+R-HSA-9013973	TICAM1-dependent activation of IRF3/IRF7	GO:0035666
+R-HSA-75893	TNF signaling	GO:0033209
+R-HSA-5357956	TNFR1-induced NF-kappa-B signaling pathway	GO:0007249
+R-HSA-5357786	TNFR1-induced proapoptotic signaling	GO:0071550
+R-HSA-5626978	TNFR1-mediated ceramide production	GO:2000304
+R-HSA-5668541	TNFR2 non-canonical NF-kB pathway	GO:0033209
+R-HSA-6791312	TP53 Regulates Transcription of Cell Cycle Genes	GO:0030330
+R-HSA-5633008	TP53 Regulates Transcription of Cell Death Genes	GO:0042981
+R-HSA-937072	TRAF6-mediated induction of TAK1 complex within TLR4 complex	GO:0007249
+R-HSA-937061	TRIF (TICAM1)-mediated TLR4 signaling 	GO:0035666
+R-HSA-187042	TRKA activation by NGF	GO:0048011
+R-HSA-3295583	TRP channels	GO:0070588
+R-HSA-9033500	TYSND1 cleaves peroxisomal proteins	GO:0016485
+R-HSA-167246	Tat-mediated elongation of the HIV-1 transcript	GO:0050434
+R-HSA-174417	Telomere C-strand (Lagging Strand) Synthesis	GO:0032201
+R-HSA-171319	Telomere Extension By Telomerase	GO:0007004
+R-HSA-157579	Telomere Maintenance	GO:0000723
+R-HSA-1474151	Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation	GO:0046146
+R-HSA-2453902	The canonical retinoid cycle in rods (twilight vision)	GO:0001523
+R-HSA-167826	The fatty acid cycling model	GO:1902600
+R-HSA-2514856	The phototransduction cascade	GO:0016056
+R-HSA-2187335	The retinoid cycle in cones (daylight vision)	GO:0001523
+R-HSA-8852276	The role of GTSE1 in G2/M progression after G2 checkpoint	GO:1902749
+R-HSA-8849175	Threonine catabolism	GO:0019518
+R-HSA-209968	Thyroxine biosynthesis	GO:0006590
+R-HSA-420029	Tight junction interactions	GO:0070830
+R-HSA-1222538	Tolerance by Mtb to nitric oxide produced by macrophages	GO:0141082
+R-HSA-1222387	Tolerance of reactive oxygen produced by macrophages	GO:0052164
+R-HSA-168142	Toll Like Receptor 10 (TLR10) Cascade	GO:0034166
+R-HSA-181438	Toll Like Receptor 2 (TLR2) Cascade	GO:0034134
+R-HSA-168164	Toll Like Receptor 3 (TLR3) Cascade	GO:0034138
+R-HSA-166016	Toll Like Receptor 4 (TLR4) Cascade	GO:0034142
+R-HSA-168176	Toll Like Receptor 5 (TLR5) Cascade	GO:0034146
+R-HSA-168138	Toll Like Receptor 9 (TLR9) Cascade	GO:0034162
+R-HSA-168179	Toll Like Receptor TLR1:TLR2 Cascade	GO:0038123
+R-HSA-168188	Toll Like Receptor TLR6:TLR2 Cascade	GO:0038124
+R-HSA-168898	Toll-like Receptor Cascades	GO:0002224
+R-HSA-75944	Transcription from mitochondrial promoters	GO:0006390
+R-HSA-167172	Transcription of the HIV genome	GO:0019083
+R-HSA-6781827	Transcription-Coupled Nucleotide Excision Repair (TC-NER)	GO:0006283
+R-HSA-8953750	Transcriptional Regulation by E2F6	GO:0070317
+R-HSA-8986944	Transcriptional Regulation by MECP2	GO:0040029
+R-HSA-2173793	Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	GO:0006351
+R-HSA-5578749	Transcriptional regulation by small RNAs	GO:0060964
+R-HSA-8864260	Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	GO:0006357
+R-HSA-9843743	Transcriptional regulation of brown and beige adipocyte differentiation	GO:0090335
+R-HSA-9616222	Transcriptional regulation of granulopoiesis	GO:0030851
+R-HSA-452723	Transcriptional regulation of pluripotent stem cells	GO:0035019
+R-HSA-9690406	Transcriptional regulation of testis differentiation	GO:0008584
+R-HSA-381340	Transcriptional regulation of white adipocyte differentiation	GO:0050872
+R-HSA-917977	Transferrin endocytosis and recycling	GO:0033572
+R-HSA-72766	Translation	GO:0006412
+R-HSA-9727281	Translation of Accessory Proteins	GO:0019081
+R-HSA-9694635	Translation of Structural Proteins	GO:0019081
+R-HSA-9683701	Translation of Structural Proteins	GO:0019081
+R-HSA-110320	Translesion Synthesis by POLH	GO:0070987
+R-HSA-5656121	Translesion synthesis by POLI	GO:0042276
+R-HSA-5655862	Translesion synthesis by POLK	GO:0042276
+R-HSA-110312	Translesion synthesis by REV1	GO:0042276
+R-HSA-174362	Transport and metabolism of PAPS	GO:0050427
+R-HSA-168874	Transport of HA trimer, NA tetramer and M2 tetramer from the endoplasmic reticulum to the Golgi Apparatus	GO:0019060
+R-HSA-72202	Transport of Mature Transcript to Cytoplasm	GO:0006406
+R-HSA-9758890	Transport of RCbl within the body	GO:0015889
+R-HSA-168271	Transport of Ribonucleoproteins into the Host Nucleus	GO:0075733
+R-HSA-804914	Transport of fatty acids	GO:0015909
+R-HSA-159763	Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus	GO:0006888
+R-HSA-432030	Transport of glycerol from adipocytes to the liver by Aquaporins	GO:0015793
+R-HSA-382551	Transport of small molecules	GO:0006810
+R-HSA-75109	Triglyceride biosynthesis	GO:0019432
+R-HSA-163560	Triglyceride catabolism	GO:0019433
+R-HSA-8979227	Triglyceride metabolism	GO:0006641
+R-HSA-71240	Tryptophan catabolism	GO:0006569
+R-HSA-9860927	Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells	GO:0097706
+R-HSA-446107	Type I hemidesmosome assembly	GO:0031581
+R-HSA-8963684	Tyrosine catabolism	GO:0006572
+R-HSA-2142789	Ubiquinol biosynthesis	GO:0006744
+R-HSA-75815	Ubiquitin-dependent degradation of Cyclin D	GO:0043161
+R-HSA-438066	Unblocking of NMDA receptors, glutamate binding and activation	GO:2000310
+R-HSA-162585	Uncoating of the HIV Virion	GO:0019061
+R-HSA-168336	Uncoating of the Influenza Virion	GO:0019061
+R-HSA-381119	Unfolded Protein Response (UPR)	GO:0030968
+R-HSA-9758881	Uptake of dietary cobalamins into enterocytes	GO:0015889
+R-HSA-70635	Urea cycle	GO:0000050
+R-HSA-77108	Utilization of Ketone Bodies	GO:0046952
+R-HSA-8866423	VLDL assembly	GO:0034379
+R-HSA-8964046	VLDL clearance	GO:0034447
+R-HSA-8866427	VLDLR internalisation and degradation	GO:0032802
+R-HSA-432040	Vasopressin regulates renal water homeostasis via Aquaporins	GO:0003091
+R-HSA-9824446	Viral Infection Pathways	GO:0009615
+R-HSA-168330	Viral RNP Complexes in the Host Cell Nucleus	GO:0019070
+R-HSA-2187338	Visual phototransduction	GO:0007603
+R-HSA-196819	Vitamin B1 (thiamin) metabolism	GO:0042723
+R-HSA-196843	Vitamin B2 (riboflavin) metabolism	GO:0006771
+R-HSA-199220	Vitamin B5 (pantothenate) metabolism	GO:0015939
+R-HSA-964975	Vitamin B6 activation to pyridoxal phosphate	GO:0042816
+R-HSA-196836	Vitamin C (ascorbate) metabolism	GO:0019852
+R-HSA-196791	Vitamin D (calciferol) metabolism	GO:0042359
+R-HSA-8877627	Vitamin E transport	GO:0042360
+R-HSA-211916	Vitamins	GO:0006766
+R-HSA-9640463	Wax biosynthesis	GO:0010025
+R-HSA-211981	Xenobiotics	GO:0006805
+R-HSA-2032785	YAP1- and WWTR1 (TAZ)-stimulated gene expression	GO:0006367
+R-HSA-435354	Zinc transporters	GO:0071577
+R-HSA-450302	activated TAK1 mediates p38 MAPK activation	GO:0038066
+R-HSA-2046104	alpha-linolenic (omega3) and linoleic (omega6) acid metabolism	GO:0033559
+R-HSA-2046106	alpha-linolenic acid (ALA) metabolism	GO:0036109
+R-HSA-72187	mRNA 3'-end processing	GO:0031124
+R-HSA-72086	mRNA Capping	GO:0006370
+R-HSA-75072	mRNA Editing	GO:0016556
+R-HSA-75064	mRNA Editing: A to I Conversion	GO:0006382
+R-HSA-72200	mRNA Editing: C to U Conversion	GO:0016554
+R-HSA-9770562	mRNA Polyadenylation	GO:0180010
+R-HSA-72172	mRNA Splicing	GO:0008380
+R-HSA-72163	mRNA Splicing - Major Pathway	GO:0000398
+R-HSA-72165	mRNA Splicing - Minor Pathway	GO:0000398
+R-HSA-69563	p53-Dependent G1 DNA Damage Response	GO:0030330
+R-HSA-193704	p75 NTR receptor-mediated signalling	GO:0048011
+R-HSA-193670	p75NTR negatively regulates cell cycle via SC1	GO:0045786
+R-HSA-193697	p75NTR regulates axonogenesis	GO:0050770
+R-HSA-193639	p75NTR signals via NF-kB	GO:0043066
+R-HSA-6793080	rRNA modification in the mitochondrion	GO:0000154
+R-HSA-6790901	rRNA modification in the nucleus and cytosol	GO:0000154
+R-HSA-72312	rRNA processing	GO:0006364
+R-HSA-191859	snRNP Assembly	GO:0000387
+R-HSA-379724	tRNA Aminoacylation	GO:0006418
+R-HSA-6787450	tRNA modification in the mitochondrion	GO:0070900
+R-HSA-6782315	tRNA modification in the nucleus and cytosol	GO:0006400
+R-HSA-72306	tRNA processing	GO:0008033
+R-HSA-6785470	tRNA processing in the mitochondrion	GO:0090646
+R-HSA-9708296	tRNA-derived small RNA (tsRNA or tRNA-related fragment, tRF) biogenesis	GO:0016078
+R-HSA-199992	trans-Golgi Network Vesicle Budding	GO:0006892
