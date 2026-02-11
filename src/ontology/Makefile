@@ -190,18 +190,22 @@ go-obo-status.md: $(PREVIOUS_OBO) go.obo ../gh_pages_templates/go-obo-status.md
 # ----------------------------------------
 
 #Uses file provided by Reactome to generate xrefs for import
-#add_xrefs:
-imports/reactome_xrefs_import.owl: $(SRC)
+
+../resources/Reactions2GoTerms_human.txt:
+	wget -O $@ --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
+
+../resources/Pathways2GoTerms_human.txt:
+	wget -O $@ --no-check-certificate https://reactome.org/download/current/Pathways2GoTerms_human.txt
+
+imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt
 	mkdir -p reactome-tmp
-	wget -O reactome-tmp/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
-	wget -O reactome-tmp/Pathways2GoTerms_human.txt --no-check-certificate https://github.com/user-attachments/files/17652333/Pathways2GoTerms_human.txt
-	sed -i '1s/.*/Identifier\tName\tdefined_class/' reactome-tmp/Reactions2GoTerms_human.txt
-	sed -i '1d' reactome-tmp/Pathways2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' reactome-tmp/Reactions2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' reactome-tmp/Pathways2GoTerms_human.txt
-	cat reactome-tmp/Reactions2GoTerms_human.txt reactome-tmp/Pathways2GoTerms_human.txt >reactome-tmp/combined.txt
-	rm reactome-tmp/Reactions2GoTerms_human.txt.bak
-	rm reactome-tmp/Pathways2GoTerms_human.txt.bak
+	sed -i '1s/.*/Identifier\tName\tdefined_class/' ../resources/Reactions2GoTerms_human.txt
+	sed -i '1d' ../resources/Pathways2GoTerms_human.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Reactions2GoTerms_human.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Pathways2GoTerms_human.txt
+	cat ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt >reactome-tmp/combined.txt
+	rm ../resources/Reactions2GoTerms_human.txt.bak
+	rm ../resources/Pathways2GoTerms_human.txt.bak
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
@@ -443,7 +447,7 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
+CHEBI_SOURCE=http://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel247/ontology/chebi.owl.gz # ChEBI is currently missing a version IRI
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2025-01-08/cl-base.owl
 FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
 PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl

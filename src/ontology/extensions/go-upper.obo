@@ -270,3 +270,7 @@ is_a: UBERON:0001062 ! anatomical entity
 [Term]
 id: FBdv:00007012
 is_a: UBERON:0000105 ! life cycle stage
+
+[Term]
+id: EMAPA:0
+is_a: UBERON:0001062 ! anatomical entity
