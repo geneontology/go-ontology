@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-10/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-11/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,127 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-10" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-11" 
+
+
+### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
+
+#### Added
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HSERMETANA-PWY](http://identifiers.org/metacyc.reaction/HSERMETANA-PWY) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7977](http://identifiers.org/metacyc.reaction/PWY-7977) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HOMOSER-METSYN-PWY](http://identifiers.org/metacyc.reaction/HOMOSER-METSYN-PWY) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7977" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-702](http://identifiers.org/metacyc.reaction/PWY-702) 
+
+
+### (+)-cis-sabinol `http://purl.obolibrary.org/obo/CHEBI_15387`
+
+#### Added
+- [(+)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_15387) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) 
+
+
+### (-)-cis-sabinol `http://purl.obolibrary.org/obo/CHEBI_18481`
+
+#### Added
+- [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) [label](http://www.w3.org/2000/01/rdf-schema#label) "(-)-cis-sabinol" 
+
+- Class: [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) 
+
+- [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(+)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_15387) 
+
+- [(-)-cis-sabinol](http://purl.obolibrary.org/obo/CHEBI_18481) SubClassOf [sabinol](http://purl.obolibrary.org/obo/CHEBI_26590) 
+
+
+### (2S,3R)-beta-methylphenylalanine zwitterion `http://purl.obolibrary.org/obo/CHEBI_232288`
+
+#### Added
+- [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) [label](http://www.w3.org/2000/01/rdf-schema#label) "(2S,3R)-beta-methylphenylalanine zwitterion" 
+
+- [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) 
+
+- [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) SubClassOf [amino-acid zwitterion](http://purl.obolibrary.org/obo/CHEBI_35238) 
+
+- [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(2S,3S)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_76864) 
+
+
+### (2S,3S)-beta-methylphenylalanine zwitterion `http://purl.obolibrary.org/obo/CHEBI_76864`
+
+#### Added
+- [(2S,3S)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_76864) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(2S,3R)-beta-methylphenylalanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_232288) 
+
+
+### (3R,11Z)-3-hydroxyoctadecenoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_76557`
+
+#### Added
+- [(3R,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_76557) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) 
+
+
+### (3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_232532`
+
+#### Added
+- [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) [label](http://www.w3.org/2000/01/rdf-schema#label) "(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)" 
+
+- [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) 
+
+- [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(3R,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_76557) 
+
+- [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) SubClassOf [(S)-3-hydroxyacyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_57318) 
+
+
+### (3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_235487`
+
+#### Added
+- [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+
+### (4E,8Z,d18:2) sphingosine `http://purl.obolibrary.org/obo/CHEBI_196237`
+
+#### Added
+- [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) [label](http://www.w3.org/2000/01/rdf-schema#label) "(4E,8Z,d18:2) sphingosine" 
+
+- [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) SubClassOf [amino alcohol](http://purl.obolibrary.org/obo/CHEBI_22478) 
+
+
+### (5Z)-tetradecenoate(1-) `http://purl.obolibrary.org/obo/CHEBI_234425`
+
+#### Added
+- [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) [label](http://www.w3.org/2000/01/rdf-schema#label) "(5Z)-tetradecenoate(1-)" 
+
+- [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) 
+
+- [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) SubClassOf [monounsaturated fatty acid anion](http://purl.obolibrary.org/obo/CHEBI_82680) 
 
 
 ### (R)-3-amino-2-methylpropionate-pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047305`
@@ -50,6 +170,36 @@
 
 #### Added
 - [(R)-6-hydroxynicotine oxidase activity](http://purl.obolibrary.org/obo/GO_0018530) SubClassOf [oxidoreductase activity, acting on the CH-NH group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016647) 
+
+
+### (R)-lactoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_70980`
+
+#### Added
+- [(R)-lactoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_70980) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(S)-lactoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_231528) 
+
+
+### (R,R)-2-oleoylglycero-1-phospho-1'-glycerol(1-) `http://purl.obolibrary.org/obo/CHEBI_139230`
+#### Removed
+- [(R,R)-2-oleoylglycero-1-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_139230) SubClassOf [2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1−)](http://purl.obolibrary.org/obo/CHEBI_747002) 
+
+
+
+### (R,R)-bis(2-acylglycero)-3-phosphate(1−) `http://purl.obolibrary.org/obo/CHEBI_747003`
+#### Removed
+- [(R,R)-bis(2-acylglycero)-3-phosphate(1−)](http://purl.obolibrary.org/obo/CHEBI_747003) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [(R,R)-bis(2-acylglycero)-3-phosphate(1−)](http://purl.obolibrary.org/obo/CHEBI_747003) [label](http://www.w3.org/2000/01/rdf-schema#label) "(R,R)-bis(2-acylglycero)-3-phosphate(1&minus;)" 
+
+- Class: [(R,R)-bis(2-acylglycero)-3-phosphate(1−)](http://purl.obolibrary.org/obo/CHEBI_747003) 
+
+- [(R,R)-bis(2-acylglycero)-3-phosphate(1−)](http://purl.obolibrary.org/obo/CHEBI_747003) SubClassOf [2-acylglycerophospho-(2'-acylglycerol)(1-)](http://purl.obolibrary.org/obo/CHEBI_83236) 
+
+
+
+### (R,R)-bis(2-oleoylglycero)-3-phosphate(1-) `http://purl.obolibrary.org/obo/CHEBI_139228`
+#### Removed
+- [(R,R)-bis(2-oleoylglycero)-3-phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_139228) SubClassOf [(R,R)-bis(2-acylglycero)-3-phosphate(1−)](http://purl.obolibrary.org/obo/CHEBI_747003) 
+
 
 
 ### (S)-2-hydroxy-acid oxidase activity `http://purl.obolibrary.org/obo/GO_0003973`
@@ -90,6 +240,58 @@
 - [(S)-6-hydroxynicotine oxidase activity](http://purl.obolibrary.org/obo/GO_0018531) SubClassOf [oxidoreductase activity, acting on the CH-NH group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016647) 
 
 
+### (S)-lactoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_231528`
+
+#### Added
+- [(S)-lactoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_231528) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(R)-lactoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_70980) 
+
+
+### (S)-noradrenaline(1+) `http://purl.obolibrary.org/obo/CHEBI_234420`
+
+#### Added
+- [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+
+### (S,S)-2-acylglycero-1-phospho-1'-glycerol(1−) `http://purl.obolibrary.org/obo/CHEBI_747000`
+#### Removed
+- [(S,S)-2-acylglycero-1-phospho-1'-glycerol(1−)](http://purl.obolibrary.org/obo/CHEBI_747000) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [(S,S)-2-acylglycero-1-phospho-1'-glycerol(1−)](http://purl.obolibrary.org/obo/CHEBI_747000) [label](http://www.w3.org/2000/01/rdf-schema#label) "(S,S)-2-acylglycero-1-phospho-1'-glycerol(1&minus;)" 
+
+- Class: [(S,S)-2-acylglycero-1-phospho-1'-glycerol(1−)](http://purl.obolibrary.org/obo/CHEBI_747000) 
+
+- [(S,S)-2-acylglycero-1-phospho-1'-glycerol(1−)](http://purl.obolibrary.org/obo/CHEBI_747000) SubClassOf [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) 
+
+
+
+### (S,S)-2-oleoylglycero-1-phospho-1'-glycerol(1-) `http://purl.obolibrary.org/obo/CHEBI_139157`
+#### Removed
+- [(S,S)-2-oleoylglycero-1-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_139157) SubClassOf [(S,S)-2-acylglycero-1-phospho-1'-glycerol(1−)](http://purl.obolibrary.org/obo/CHEBI_747000) 
+
+
+
+### 1-O-(4-aminobenzoyl)-beta-D-glucopyranose `http://purl.obolibrary.org/obo/CHEBI_139329`
+
+#### Added
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-O-(4-aminobenzoyl)-beta-D-glucopyranose" 
+
+- Class: [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [4-aminobenzoic acid](http://purl.obolibrary.org/obo/CHEBI_30753) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) SubClassOf [benzoate ester](http://purl.obolibrary.org/obo/CHEBI_36054) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) SubClassOf [substituted aniline](http://purl.obolibrary.org/obo/CHEBI_48975) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [plant metabolite](http://purl.obolibrary.org/obo/CHEBI_76924) 
+
+- [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) SubClassOf [beta-D-glucoside](http://purl.obolibrary.org/obo/CHEBI_22798) 
+
+
 ### 1-aminocyclopropane-1-carboxylate catabolic process `http://purl.obolibrary.org/obo/GO_0042217`
 #### Removed
 - [1-aminocyclopropane-1-carboxylate catabolic process](http://purl.obolibrary.org/obo/GO_0042217) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
@@ -122,6 +324,22 @@
 - [1-aminocyclopropane-1-carboxylate catabolic process](http://purl.obolibrary.org/obo/GO_0042217) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31361"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### 1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-) `http://purl.obolibrary.org/obo/CHEBI_235465`
+
+#### Added
+- [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)" 
+
+- Class: [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) 
+
+- [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [octadecanoate](http://purl.obolibrary.org/obo/CHEBI_25629) 
+
+- [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) SubClassOf [1-radyl-2-acyl-sn-glycerolipid](http://purl.obolibrary.org/obo/CHEBI_144315) 
+
+
 ### 11-beta-hydroxysteroid dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0070523`
 
 #### Added
@@ -136,6 +354,12 @@
 - [11-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0070524) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
 
 - [11-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0070524) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### 11alpha-hydroxy steroid `http://purl.obolibrary.org/obo/CHEBI_19129`
+
+#### Added
+- [11alpha-hydroxy steroid](http://purl.obolibrary.org/obo/CHEBI_19129) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
 
 
 ### 12-beta-hydroxysteroid dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047521`
@@ -210,6 +434,32 @@
 #### Added
 - [2-(acetamidomethylene)succinate hydrolase activity](http://purl.obolibrary.org/obo/GO_0047411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-(acetamidomethylene)succinate + 2 H2O + H+ = succinate semialdehyde + acetate + NH4+ + CO2." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10432" 
+
+
+### 2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1−) `http://purl.obolibrary.org/obo/CHEBI_747002`
+#### Removed
+- [2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1−)](http://purl.obolibrary.org/obo/CHEBI_747002) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1−)](http://purl.obolibrary.org/obo/CHEBI_747002) [label](http://www.w3.org/2000/01/rdf-schema#label) "2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1&minus;)" 
+
+- Class: [2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1−)](http://purl.obolibrary.org/obo/CHEBI_747002) 
+
+- [2-acyl-sn-glycero-3-phospho-(3'-sn-glycerol)(1−)](http://purl.obolibrary.org/obo/CHEBI_747002) SubClassOf [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) 
+
+
+
+### 2-acylglycero-3-phospho-1'-glycerol(1-) `http://purl.obolibrary.org/obo/CHEBI_78212`
+#### Removed
+- [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) [label](http://www.w3.org/2000/01/rdf-schema#label) "2-acylglycero-3-phospho-1'-glycerol(1-)" 
+
+- Class: [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) 
+
+- [2-acylglycero-3-phospho-1'-glycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78212) SubClassOf [monoacylglycero-3-phosphoglycerol(1-)](http://purl.obolibrary.org/obo/CHEBI_78210) 
+
 
 
 ### 2-aminoadipate transaminase activity `http://purl.obolibrary.org/obo/GO_0047536`
@@ -386,6 +636,12 @@
 - [3-cyano-L-alanine catabolic process](http://purl.obolibrary.org/obo/GO_1903559) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that a specific pathway for 3-cyano-L-alanine degradation exists." 
 
 
+### 3-oxochenodeoxycholoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_136698`
+
+#### Added
+- [3-oxochenodeoxycholoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_136698) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [7beta-hydroxy-3-oxochol-24-oyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_140637) 
+
+
 ### 3alpha-hydroxy bile acid-CoA-ester 3-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0033792`
 
 #### Added
@@ -420,6 +676,28 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30867596" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59888" 
+
+
+### 4-hydroxycyclohexanecarboxylate `http://purl.obolibrary.org/obo/CHEBI_747087`
+#### Removed
+- [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-hydroxycyclohexanecarboxylate" 
+
+- [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) 
+
+- [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) SubClassOf [hydroxy monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_36059) 
+
+- [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [cyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_27804) 
+
+- [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [4-hydroxycyclohexanecarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_89341) 
+
+
+
+### 4-hydroxycyclohexanecarboxylic acid `http://purl.obolibrary.org/obo/CHEBI_89341`
+#### Removed
+- [4-hydroxycyclohexanecarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_89341) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) 
+
 
 
 ### 4-hydroxyglutamate transaminase activity `http://purl.obolibrary.org/obo/GO_0047578`
@@ -490,6 +768,12 @@
 - [4-nitrobenzyl alcohol oxidase activity](http://purl.obolibrary.org/obo/GO_0102038) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this reaction exists." 
 
 - [4-nitrobenzyl alcohol oxidase activity](http://purl.obolibrary.org/obo/GO_0102038) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-nitrobenzyl alcohol oxidase activity" 
+
+
+### 4-vinylanisole `http://purl.obolibrary.org/obo/CHEBI_235375`
+
+#### Added
+- [4-vinylanisole](http://purl.obolibrary.org/obo/CHEBI_235375) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
 
 
 ### 4-vinylphenol methyltransferase activity `http://purl.obolibrary.org/obo/GO_0160304`
@@ -608,6 +892,38 @@
 - [5-ureido-4-imidazole carboxylate hydrolase activity](http://purl.obolibrary.org/obo/GO_0043730) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this reaction exists." 
 
 
+### 6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue `http://purl.obolibrary.org/obo/CHEBI_235441`
+
+#### Added
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1-&gt;2)-alpha-D-mannosyl-(1-&gt;6)-2-phosphoethanolamine-alpha-D-mannosyl-(1-&gt;4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue" 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) SubClassOf [L-alpha-amino acid residue](http://purl.obolibrary.org/obo/CHEBI_83228) 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) SubClassOf [glycolipid](http://purl.obolibrary.org/obo/CHEBI_33563) 
+
+
+### 6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue `http://purl.obolibrary.org/obo/CHEBI_235464`
+
+#### Added
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1-&gt;2)-alpha-D-mannosyl-(1-&gt;6)-2-phosphoethanolamine-alpha-D-mannosyl-(1-&gt;4)-alpha-D-glucosaminyl]-1D-myo-inositol residue" 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) SubClassOf [glycosylmannose derivative](http://purl.obolibrary.org/obo/CHEBI_63362) 
+
+- [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) SubClassOf [L-alpha-amino acid residue](http://purl.obolibrary.org/obo/CHEBI_83228) 
+
+
 ### 6-aminohexanoate transaminase activity `http://purl.obolibrary.org/obo/GO_0018719`
 #### Removed
 - [6-aminohexanoate transaminase activity](http://purl.obolibrary.org/obo/GO_0018719) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 6-aminohexanoate + alpha-ketoglutarate = glutamate + 6-oxohexanoate." 
@@ -642,6 +958,22 @@
 - [6-aminohexanoate transaminase activity](http://purl.obolibrary.org/obo/GO_0018719) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-oxohexanoate](http://purl.obolibrary.org/obo/CHEBI_18322) 
 
 
+### 6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-) `http://purl.obolibrary.org/obo/CHEBI_234381`
+
+#### Added
+- [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)" 
+
+- [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) 
+
+- [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) SubClassOf [monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35757) 
+
+- [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) SubClassOf [pyridin-2-ol](http://purl.obolibrary.org/obo/CHEBI_16540) 
+
+
 ### 6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0160302`
 #### Removed
 - [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol + S-adenosyl-L-methionine = 6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol + S-adenosyl-L-homocysteine + H+." 
@@ -657,15 +989,55 @@
 
 - [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85483" 
 
-- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234381](http://purl.obolibrary.org/obo/CHEBI_234381) 
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) 
 
 - [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-homocysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_57856) 
 
-- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234380](http://purl.obolibrary.org/obo/CHEBI_234380) 
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234380) 
 
 - [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [S-adenosyl-L-methionine zwitterion](http://purl.obolibrary.org/obo/CHEBI_59789) 
 
 - [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+
+### 6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-) `http://purl.obolibrary.org/obo/CHEBI_234380`
+
+#### Added
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234380) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)" 
+
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234380) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234380) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234380) 
+
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234380) SubClassOf [monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35757) 
+
+
+### 6-hydroxy-N-methylmyosmine `http://purl.obolibrary.org/obo/CHEBI_87460`
+#### Removed
+- [6-hydroxy-N-methylmyosmine](http://purl.obolibrary.org/obo/CHEBI_87460) SubClassOf [organic cation](http://purl.obolibrary.org/obo/CHEBI_25697) 
+
+- [6-hydroxy-N-methylmyosmine](http://purl.obolibrary.org/obo/CHEBI_87460) SubClassOf [ammonium ion derivative](http://purl.obolibrary.org/obo/CHEBI_35274) 
+
+#### Added
+- [6-hydroxy-N-methylmyosmine](http://purl.obolibrary.org/obo/CHEBI_87460) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) 
+
+
+### 6-hydroxy-N-methylmyosmine(1+) `http://purl.obolibrary.org/obo/CHEBI_87164`
+
+#### Added
+- [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-hydroxy-N-methylmyosmine(1+)" 
+
+- [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [6-hydroxy-N-methylmyosmine](http://purl.obolibrary.org/obo/CHEBI_87460) 
+
+- [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) SubClassOf [organic cation](http://purl.obolibrary.org/obo/CHEBI_25697) 
+
+- [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) SubClassOf [ammonium ion derivative](http://purl.obolibrary.org/obo/CHEBI_35274) 
+
+- [6-hydroxy-N-methylmyosmine(1+)](http://purl.obolibrary.org/obo/CHEBI_87164) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [bacterial xenobiotic metabolite](http://purl.obolibrary.org/obo/CHEBI_76976) 
 
 
 ### 7-beta-hydroxysteroid dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047022`
@@ -674,6 +1046,58 @@
 - [7-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047022) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
 
 - [7-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047022) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### 7alpha-hydroxy-3-oxochol-4-en-24-oyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_140636`
+
+#### Added
+- [7alpha-hydroxy-3-oxochol-4-en-24-oyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_140636) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [7beta-hydroxy-3-oxochol-4-en-24-oyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_140638) 
+
+
+### 7alpha-hydroxypregnenolone `http://purl.obolibrary.org/obo/CHEBI_81467`
+
+#### Added
+- [7alpha-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_81467) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) 
+
+
+### 7beta-hydroxy-3-oxochol-24-oyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_140637`
+
+#### Added
+- [7beta-hydroxy-3-oxochol-24-oyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_140637) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [3-oxochenodeoxycholoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_136698) 
+
+
+### 7beta-hydroxy-3-oxochol-4-en-24-oyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_140638`
+
+#### Added
+- [7beta-hydroxy-3-oxochol-4-en-24-oyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_140638) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [7alpha-hydroxy-3-oxochol-4-en-24-oyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_140636) 
+
+
+### 7beta-hydroxypregnenolone `http://purl.obolibrary.org/obo/CHEBI_183806`
+
+#### Added
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) [label](http://www.w3.org/2000/01/rdf-schema#label) "7beta-hydroxypregnenolone" 
+
+- Class: [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [pregnenolone](http://purl.obolibrary.org/obo/CHEBI_16581) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [animal metabolite](http://purl.obolibrary.org/obo/CHEBI_75767) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [C21-steroid](http://purl.obolibrary.org/obo/CHEBI_61313) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [7beta-hydroxy steroid](http://purl.obolibrary.org/obo/CHEBI_35349) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [fungal xenobiotic metabolite](http://purl.obolibrary.org/obo/CHEBI_76968) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [7alpha-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_81467) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [20-oxo steroid](http://purl.obolibrary.org/obo/CHEBI_36885) 
+
+- [7beta-hydroxypregnenolone](http://purl.obolibrary.org/obo/CHEBI_183806) SubClassOf [3beta-hydroxy-Delta(5)-steroid](http://purl.obolibrary.org/obo/CHEBI_1722) 
 
 
 ### ABC-type bile acid transporter activity `http://purl.obolibrary.org/obo/GO_0015432`
@@ -731,6 +1155,16 @@
 
 - [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13037" 
 
+- [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+- [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ITP(4-)](http://purl.obolibrary.org/obo/CHEBI_61402) 
+
 #### Added
 - [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + H2O + H+ = ITP + NH4+." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13037" 
@@ -759,6 +1193,8 @@
 - [ATPase regulator activity](http://purl.obolibrary.org/obo/GO_0060590) SubClassOf [molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772) 
 
 #### Added
+- [ATPase regulator activity](http://purl.obolibrary.org/obo/GO_0060590) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulator_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/regulator_activity.yaml) 
+
 - [ATPase regulator activity](http://purl.obolibrary.org/obo/GO_0060590) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31398"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [ATPase regulator activity](http://purl.obolibrary.org/obo/GO_0060590) EquivalentTo [molecular function regulator activity](http://purl.obolibrary.org/obo/GO_0098772) and ([directly regulates](http://purl.obolibrary.org/obo/RO_0002578) some [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887)) 
@@ -776,96 +1212,6 @@
 - [ATPase-coupled intramembrane lipid transporter activity](http://purl.obolibrary.org/obo/GO_0140326) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATPase-coupled intramembrane lipid carrier activity" 
 
 - [ATPase-coupled intramembrane lipid transporter activity](http://purl.obolibrary.org/obo/GO_0140326) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "ATPase-coupled intramembrane lipid transporter activity" 
-
-
-### CHEBI_139329 `http://purl.obolibrary.org/obo/CHEBI_139329`
-
-#### Added
-- Class: [CHEBI_139329](http://purl.obolibrary.org/obo/CHEBI_139329) 
-
-
-### CHEBI_156053 `http://purl.obolibrary.org/obo/CHEBI_156053`
-
-#### Added
-- Class: [CHEBI_156053](http://purl.obolibrary.org/obo/CHEBI_156053) 
-
-
-### CHEBI_234324 `http://purl.obolibrary.org/obo/CHEBI_234324`
-
-#### Added
-- Class: [CHEBI_234324](http://purl.obolibrary.org/obo/CHEBI_234324) 
-
-
-### CHEBI_234380 `http://purl.obolibrary.org/obo/CHEBI_234380`
-
-#### Added
-- Class: [CHEBI_234380](http://purl.obolibrary.org/obo/CHEBI_234380) 
-
-
-### CHEBI_234381 `http://purl.obolibrary.org/obo/CHEBI_234381`
-
-#### Added
-- Class: [CHEBI_234381](http://purl.obolibrary.org/obo/CHEBI_234381) 
-
-
-### CHEBI_234382 `http://purl.obolibrary.org/obo/CHEBI_234382`
-
-#### Added
-- Class: [CHEBI_234382](http://purl.obolibrary.org/obo/CHEBI_234382) 
-
-
-### CHEBI_234400 `http://purl.obolibrary.org/obo/CHEBI_234400`
-
-#### Added
-- Class: [CHEBI_234400](http://purl.obolibrary.org/obo/CHEBI_234400) 
-
-
-### CHEBI_234456 `http://purl.obolibrary.org/obo/CHEBI_234456`
-
-#### Added
-- Class: [CHEBI_234456](http://purl.obolibrary.org/obo/CHEBI_234456) 
-
-
-### CHEBI_235323 `http://purl.obolibrary.org/obo/CHEBI_235323`
-
-#### Added
-- Class: [CHEBI_235323](http://purl.obolibrary.org/obo/CHEBI_235323) 
-
-
-### CHEBI_235441 `http://purl.obolibrary.org/obo/CHEBI_235441`
-
-#### Added
-- Class: [CHEBI_235441](http://purl.obolibrary.org/obo/CHEBI_235441) 
-
-
-### CHEBI_235464 `http://purl.obolibrary.org/obo/CHEBI_235464`
-
-#### Added
-- Class: [CHEBI_235464](http://purl.obolibrary.org/obo/CHEBI_235464) 
-
-
-### CHEBI_235465 `http://purl.obolibrary.org/obo/CHEBI_235465`
-
-#### Added
-- Class: [CHEBI_235465](http://purl.obolibrary.org/obo/CHEBI_235465) 
-
-
-### CHEBI_235468 `http://purl.obolibrary.org/obo/CHEBI_235468`
-
-#### Added
-- Class: [CHEBI_235468](http://purl.obolibrary.org/obo/CHEBI_235468) 
-
-
-### CHEBI_28451 `http://purl.obolibrary.org/obo/CHEBI_28451`
-
-#### Added
-- Class: [CHEBI_28451](http://purl.obolibrary.org/obo/CHEBI_28451) 
-
-
-### CHEBI_81906 `http://purl.obolibrary.org/obo/CHEBI_81906`
-
-#### Added
-- Class: [CHEBI_81906](http://purl.obolibrary.org/obo/CHEBI_81906) 
 
 
 ### D-4-hydroxyphenylglycine transaminase activity `http://purl.obolibrary.org/obo/GO_0047320`
@@ -972,6 +1318,12 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15869" 
 
 - [D-alanine-2-oxoglutarate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0047810) SubClassOf [amino acid transaminase activity](http://purl.obolibrary.org/obo/GO_0140385) 
+
+
+### D-alanyl-AMP zwitterion `http://purl.obolibrary.org/obo/CHEBI_138619`
+
+#### Added
+- [D-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_138619) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) 
 
 
 ### D-amino-acid N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0047812`
@@ -1382,6 +1734,248 @@
 
 
 
+### GCIs 
+
+#### Added
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [1-hexadecanoyl-2-[(9Z)-hexadec-9-enoyl]-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_73999) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dialkyl phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_138518) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dialkyl phosphate](http://purl.obolibrary.org/obo/CHEBI_16648) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_195630) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [(3S,8Z,11Z,14Z,17Z)-3-hydroxyicosatetraenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_235487) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [N(6),N(6)-dimethyl-AMP](http://purl.obolibrary.org/obo/CHEBI_43986) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1-O-octadecyl-2-oleoyl-sn-glycero-3-phosphoethanolamine zwitterion](http://purl.obolibrary.org/obo/CHEBI_145178) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-noradrenaline(1+)](http://purl.obolibrary.org/obo/CHEBI_234420) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33571) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [alpha-D-Glc-(1->2)-alpha-D-Glc-(1->3)-alpha-D-Glc-(1->3)-alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc-(1->4)-alpha-D-GlcNAc(PP-Dol)(2-)](http://purl.obolibrary.org/obo/CHEBI_132523) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)-molybdopterin guanine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71310) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [Mo(VI)-molybdopterin guanine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71343) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(4E,8Z,d18:2) sphingosine](http://purl.obolibrary.org/obo/CHEBI_196237) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [L-4-hydroxyphenylglycine](http://purl.obolibrary.org/obo/CHEBI_31755) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [(5Z)-tetradecenoate(1-)](http://purl.obolibrary.org/obo/CHEBI_234425) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [cis-tetradec-5-enoic acid](http://purl.obolibrary.org/obo/CHEBI_70716) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [[(1->4)-alpha-D-galacturonosyl](n)](http://purl.obolibrary.org/obo/CHEBI_140523) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [[(1->4)-alpha-D-galacturonosyl]n](http://purl.obolibrary.org/obo/CHEBI_15446) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)-molybdopterin cytosine dinucleotide(4-)](http://purl.obolibrary.org/obo/CHEBI_71308) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)-molybdopterin cytosine dinucleotide](http://purl.obolibrary.org/obo/CHEBI_71353) 
+
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_83233) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)O2(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_71302) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [Mo(VI)O2(OH)-molybdopterin cofactor](http://purl.obolibrary.org/obo/CHEBI_71306) 
+
+
 ### GDP-4-dehydro-6-deoxy-D-mannose-4-aminotransferase activity `http://purl.obolibrary.org/obo/GO_0102933`
 #### Removed
 - [GDP-4-dehydro-6-deoxy-D-mannose-4-aminotransferase activity](http://purl.obolibrary.org/obo/GO_0102933) [label](http://www.w3.org/2000/01/rdf-schema#label) "GDP-4-dehydro-6-deoxy-D-mannose-4-aminotransferase activity" 
@@ -1439,11 +2033,91 @@
 
 - [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
-- [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235464](http://purl.obolibrary.org/obo/CHEBI_235464) 
+- [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235464) 
 
-- [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235441](http://purl.obolibrary.org/obo/CHEBI_235441) 
+- [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue](http://purl.obolibrary.org/obo/CHEBI_235441) 
 
-- [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235465](http://purl.obolibrary.org/obo/CHEBI_235465) 
+- [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1-radyl,2-stearoyl-sn-glycero-3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_235465) 
+
+
+### GW body `http://purl.obolibrary.org/obo/GO_0140364`
+#### Removed
+- [GW body](http://purl.obolibrary.org/obo/GO_0140364) SubClassOf [cytoplasmic ribonucleoprotein granule](http://purl.obolibrary.org/obo/GO_0036464) 
+
+#### Added
+- [GW body](http://purl.obolibrary.org/obo/GO_0140364) SubClassOf [ribonucleoprotein granule](http://purl.obolibrary.org/obo/GO_0035770) 
+
+
+### Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc `http://purl.obolibrary.org/obo/CHEBI_145885`
+
+#### Added
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) [label](http://www.w3.org/2000/01/rdf-schema#label) "Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc" 
+
+- Class: [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) 
+
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) 
+
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) SubClassOf [polysaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_65212) 
+
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) SubClassOf [glucosamine oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_22485) 
+
+- [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) SubClassOf [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) 
+
+
+### Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc `http://purl.obolibrary.org/obo/CHEBI_145890`
+
+#### Added
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) [label](http://www.w3.org/2000/01/rdf-schema#label) "Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc" 
+
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) 
+
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) SubClassOf [polysaccharide](http://purl.obolibrary.org/obo/CHEBI_18154) 
+
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) SubClassOf [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) 
+
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) 
+
+- [Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145890) SubClassOf [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) 
+
+
+### Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc `http://purl.obolibrary.org/obo/CHEBI_145891`
+
+#### Added
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) [label](http://www.w3.org/2000/01/rdf-schema#label) "Glc(alpha1-&gt;2)Glc(alpha1-&gt;3)Glc(alpha1-&gt;3)Man(alpha1-&gt;2)Man(alpha1-&gt;2)Man(alpha1-&gt;3)[Man(alpha1-&gt;2)Man(alpha1-&gt;3)[Man(alpha1-&gt;2)Man(alpha1-&gt;6)]Man(alpha1-&gt;6)]Man(beta1-&gt;4)GlcNAc(beta1-&gt;4)GlcNAc" 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- Class: [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) SubClassOf [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) SubClassOf [polysaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_65212) 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [Glc(a1-3)Glc(a1-3)Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145885) 
+
+
+### Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc `http://purl.obolibrary.org/obo/CHEBI_145630`
+
+#### Added
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145630) [label](http://www.w3.org/2000/01/rdf-schema#label) "Glc(alpha1-&gt;2)Glc(alpha1-&gt;3)Glc(alpha1-&gt;3)Man(alpha1-&gt;2)Man(alpha1-&gt;2)Man(alpha1-&gt;3)[Man(alpha1-&gt;2)Man(alpha1-&gt;3)[Man(alpha1-&gt;2)Man(alpha1-&gt;6)]Man(alpha1-&gt;6)]Man(beta1-&gt;4)GlcNAc(beta1-&gt;4)alpha-GlcNAc" 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145630) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145630) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- Class: [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145630) 
+
+- [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145630) SubClassOf [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145891) 
 
 
 ### L,L-diaminopimelate aminotransferase activity `http://purl.obolibrary.org/obo/GO_0010285`
@@ -1464,6 +2138,66 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23988" 
 
 - [L,L-diaminopimelate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0010285) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-(4-hydroxymethyl)glycine zwitterion `http://purl.obolibrary.org/obo/CHEBI_234480`
+
+#### Added
+- [L-(4-hydroxymethyl)glycine zwitterion](http://purl.obolibrary.org/obo/CHEBI_234480) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+
+### L-alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0042852`
+#### Removed
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1061" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY0-1061](http://identifiers.org/metacyc.reaction/PWY0-1061) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-alanine, the L-enantiomer of 2-aminopropanoic acid, i.e. (2S)-2-aminopropanoic acid." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1061" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+#### Added
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1021" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-VALINESYN-PWY" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ALANINE-SYN2-PWY](http://identifiers.org/metacyc.reaction/ALANINE-SYN2-PWY) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-alanine, the L-enantiomer of 2-aminopropanoic acid, i.e. (2S)-2-aminopropanoic acid." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ALANINE-VALINESYN-PWY](http://identifiers.org/metacyc.reaction/ALANINE-VALINESYN-PWY) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-SYN2-PWY" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY0-1021](http://identifiers.org/metacyc.reaction/PWY0-1021) 
+
+
+### L-alanine biosynthetic process from pyruvate `http://purl.obolibrary.org/obo/GO_0019272`
+#### Removed
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-SYN2-PWY" 
+
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [ALANINE-SYN2-PWY](http://identifiers.org/metacyc.reaction/ALANINE-SYN2-PWY) 
+
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of alanine from other compounds, including pyruvate." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-SYN2-PWY" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+#### Added
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of alanine from other compounds, including pyruvate." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
 
 ### L-alanine catabolic process `http://purl.obolibrary.org/obo/GO_0042853`
@@ -1520,6 +2254,24 @@
 - [L-alanine:2-oxoglutarate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0004021) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-alanine:2-oxoglutarate transaminase activity" 
 
 
+### L-alanyl-AMP zwitterion `http://purl.obolibrary.org/obo/CHEBI_144940`
+
+#### Added
+- [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-alanyl-AMP zwitterion" 
+
+- Class: [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) 
+
+- [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [D-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_138619) 
+
+- [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [adenosine 5'-monophosphate](http://purl.obolibrary.org/obo/CHEBI_16027) 
+
+- [L-alanyl-AMP zwitterion](http://purl.obolibrary.org/obo/CHEBI_144940) SubClassOf [zwitterion](http://purl.obolibrary.org/obo/CHEBI_27369) 
+
+
 ### L-amino-acid N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0140085`
 #### Removed
 - [L-amino-acid N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0140085) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [83863](http://rdf.rhea-db.org/83863) 
@@ -1554,6 +2306,24 @@
 - [L-amino-acid N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0140085) SubClassOf [amino acid acyltransferase activity](http://purl.obolibrary.org/obo/GO_0140379) 
 
 
+### L-arginine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006526`
+
+#### Added
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5154" 
+
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5154](http://identifiers.org/metacyc.reaction/PWY-5154) 
+
+
+### L-arginine biosynthetic process via N-acetyl-L-citrulline `http://purl.obolibrary.org/obo/GO_0170067`
+#### Removed
+- [L-arginine biosynthetic process via N-acetyl-L-citrulline](http://purl.obolibrary.org/obo/GO_0170067) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5154" 
+
+- [L-arginine biosynthetic process via N-acetyl-L-citrulline](http://purl.obolibrary.org/obo/GO_0170067) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-5154](http://identifiers.org/metacyc.reaction/PWY-5154) 
+
+
+
 ### L-arginine catabolic process `http://purl.obolibrary.org/obo/GO_0006527`
 #### Removed
 - [L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_0006527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-arginine, 2-amino-5-(carbamimidamido)pentanoic acid." 
@@ -1582,6 +2352,32 @@
 #### Added
 - [L-ascorbate peroxidase activity](http://purl.obolibrary.org/obo/GO_0016688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-ascorbate + H2O2 = dehydroascorbate + 2 H2O." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.11.1.11" 
+
+
+### L-asparagine biosynthetic process `http://purl.obolibrary.org/obo/GO_0070981`
+
+#### Added
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINESYN-PWY" 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ASPARAGINE-BIOSYNTHESIS](http://identifiers.org/metacyc.reaction/ASPARAGINE-BIOSYNTHESIS) 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINE-BIOSYNTHESIS" 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ASPARAGINESYN-PWY](http://identifiers.org/metacyc.reaction/ASPARAGINESYN-PWY) 
+
+
+### L-asparagine biosynthetic process from L-cysteine `http://purl.obolibrary.org/obo/GO_0019267`
+#### Removed
+- [L-asparagine biosynthetic process from L-cysteine](http://purl.obolibrary.org/obo/GO_0019267) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPSYNII-PWY" 
+
+
+
+### L-asparagine biosynthetic process from oxaloacetate `http://purl.obolibrary.org/obo/GO_0019266`
+#### Removed
+- [L-asparagine biosynthetic process from oxaloacetate](http://purl.obolibrary.org/obo/GO_0019266) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINE-BIOSYNTHESIS" 
+
 
 
 ### L-asparagine catabolic process `http://purl.obolibrary.org/obo/GO_0006530`
@@ -1641,6 +2437,88 @@
 - [L-citrulline catabolic process](http://purl.obolibrary.org/obo/GO_0019241) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-citrulline catabolic process](http://purl.obolibrary.org/obo/GO_0019241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-citrulline." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-cysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019344`
+
+#### Added
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-I9" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6308" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8010](http://identifiers.org/metacyc.reaction/PWY-8010) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8009](http://identifiers.org/metacyc.reaction/PWY-8009) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8009" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6308](http://identifiers.org/metacyc.reaction/PWY-6308) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7870" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HOMOCYSDEGR-PWY](http://identifiers.org/metacyc.reaction/HOMOCYSDEGR-PWY) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [CYSTSYN-PWY](http://identifiers.org/metacyc.reaction/CYSTSYN-PWY) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7870](http://identifiers.org/metacyc.reaction/PWY-7870) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOCYSDEGR-PWY" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7289](http://identifiers.org/metacyc.reaction/PWY-7289) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8010" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7289" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CYSTSYN-PWY" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-I9](http://identifiers.org/metacyc.reaction/PWY-I9) 
+
+
+### L-cysteine biosynthetic process from L-serine `http://purl.obolibrary.org/obo/GO_0006535`
+#### Removed
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CYSTSYN-PWY" 
+
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [CYSTSYN-PWY](http://identifiers.org/metacyc.reaction/CYSTSYN-PWY) 
+
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cysteine from L- serine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CYSTSYN-PWY" 
+
+#### Added
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cysteine from L- serine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-cysteine biosynthetic process via L-cystathionine `http://purl.obolibrary.org/obo/GO_0019343`
+#### Removed
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [HOMOCYSDEGR-PWY](http://identifiers.org/metacyc.reaction/HOMOCYSDEGR-PWY) 
+
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOCYSDEGR-PWY" 
+
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate L-cystathionine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOCYSDEGR-PWY" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+#### Added
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate L-cystathionine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+
+### L-cysteine biosynthetic process via S-sulfo-L-cysteine `http://purl.obolibrary.org/obo/GO_0019345`
+#### Removed
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-7289](http://identifiers.org/metacyc.reaction/PWY-7289) 
+
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate S-sulfo-L-cysteine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7289" 
+
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7289" 
+
+#### Added
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate S-sulfo-L-cysteine." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
@@ -1906,6 +2784,32 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.35" 
 
 
+### L-glutamate biosynthetic process `http://purl.obolibrary.org/obo/GO_0097054`
+
+#### Added
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTAMATE-SYN2-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUGLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLUGLNSYN-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4341" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTSYNIII-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUTSYN-PWY](http://identifiers.org/metacyc.reaction/GLUTSYN-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUTAMATE-SYN2-PWY](http://identifiers.org/metacyc.reaction/GLUTAMATE-SYN2-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTSYN-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUGLNSYN-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUTSYNIII-PWY](http://identifiers.org/metacyc.reaction/GLUTSYNIII-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4341](http://identifiers.org/metacyc.reaction/PWY-4341) 
+
+
 ### L-glutamate catabolic process `http://purl.obolibrary.org/obo/GO_0006538`
 #### Removed
 - [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-glutamate, the anion of 2-aminopentanedioic acid." 
@@ -2088,6 +2992,18 @@
 - [L-glutamine aminotransferase activity](http://purl.obolibrary.org/obo/GO_0070548) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
+### L-glutamine biosynthetic process `http://purl.obolibrary.org/obo/GO_1901704`
+
+#### Added
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLNSYN-PWY" 
+
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLNSYN-PWY) 
+
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-5505](http://identifiers.org/metacyc.reaction/PWY-5505) 
+
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-glutamine catabolic process `http://purl.obolibrary.org/obo/GO_0006543`
 #### Removed
 - [L-glutamine catabolic process](http://purl.obolibrary.org/obo/GO_0006543) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-glutamine, 2-amino-4-carbamoylbutanoic acid." 
@@ -2098,6 +3014,24 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [L-glutamine catabolic process](http://purl.obolibrary.org/obo/GO_0006543) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-glutamine family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009084`
+#### Removed
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the glutamine family, comprising arginine, glutamate, glutamine and proline." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTAMINE-SYN" 
+
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLUTAMINE-SYN](http://identifiers.org/metacyc.reaction/GLUTAMINE-SYN) 
+
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTAMINE-SYN" 
+
+#### Added
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the glutamine family, comprising arginine, glutamate, glutamine and proline." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 
 ### L-glutamine:pyruvate aminotransferase activity `http://purl.obolibrary.org/obo/GO_0047945`
@@ -2134,6 +3068,18 @@
 #### Added
 - [L-histidine N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0047981) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-histidine + acetyl-CoA = N(alpha)-acetyl-L-histidine + CoA + H+." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24596" 
+
+
+### L-histidine biosynthetic process `http://purl.obolibrary.org/obo/GO_0000105`
+
+#### Added
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5029" 
+
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5029](http://identifiers.org/metacyc.reaction/PWY-5029) 
+
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HISTSYN-PWY](http://identifiers.org/metacyc.reaction/HISTSYN-PWY) 
+
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### L-histidine catabolic process `http://purl.obolibrary.org/obo/GO_0006548`
@@ -2239,21 +3185,27 @@
 #### Added
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5103](http://identifiers.org/metacyc.reaction/PWY-5103) 
 
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ILEUSYN-PWY](http://identifiers.org/metacyc.reaction/ILEUSYN-PWY) 
+
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5104" 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5104](http://identifiers.org/metacyc.reaction/PWY-5104) 
 
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ILEUSYN-PWY" 
+
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5108](http://identifiers.org/metacyc.reaction/PWY-5108) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5108" 
-
-- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30848"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5101" 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5101](http://identifiers.org/metacyc.reaction/PWY-5101) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5103" 
+
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30848"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) SubClassOf [branched-chain amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009082) 
 
@@ -2420,6 +3372,136 @@
 - [L-lysine alpha-aminotransferase activity](http://purl.obolibrary.org/obo/GO_0062045) SubClassOf [amino acid transaminase activity](http://purl.obolibrary.org/obo/GO_0140385) 
 
 
+### L-lysine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009085`
+#### Removed
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-SYN" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [LYSINE-SYN](http://identifiers.org/metacyc.reaction/LYSINE-SYN) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine, 2,6-diaminohexanoic acid." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-SYN" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+#### Added
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [DAPLYSINESYN-PWY](http://identifiers.org/metacyc.reaction/DAPLYSINESYN-PWY) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3081" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2941" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [LYSINE-AMINOAD-PWY](http://identifiers.org/metacyc.reaction/LYSINE-AMINOAD-PWY) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5097" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2942](http://identifiers.org/metacyc.reaction/PWY-2942) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine, 2,6-diaminohexanoic acid." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2942" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2941](http://identifiers.org/metacyc.reaction/PWY-2941) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-AMINOAD-PWY" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3081](http://identifiers.org/metacyc.reaction/PWY-3081) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DAPLYSINESYN-PWY" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5097](http://identifiers.org/metacyc.reaction/PWY-5097) 
+
+
+### L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate `http://purl.obolibrary.org/obo/GO_0051976`
+#### Removed
+- [L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate](http://purl.obolibrary.org/obo/GO_0051976) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3081" 
+
+- [L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate](http://purl.obolibrary.org/obo/GO_0051976) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and N2-acetyl-alpha-aminoadipate. This pathway of prokaryotic lysine biosynthesis via alpha-aminoadipate was discovered in the hyper-thermophilic Gram-negative eubacterium Thermus thermophilus. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This undergoes acetylation, to form N2-acetyl-alpha-aminoadipate, and is then phosphorylated to give N2-acetyl-alpha-aminoadipyl-delta-phosphate. This is converted to N2-acetyl-alpha-aminoadipate semialdehyde, which is then converted to N2-acetyl-L-lysine. A final deacetylation reaction produces L-lysine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3081" 
+
+#### Added
+- [L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate](http://purl.obolibrary.org/obo/GO_0051976) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and N2-acetyl-alpha-aminoadipate. This pathway of prokaryotic lysine biosynthesis via alpha-aminoadipate was discovered in the hyper-thermophilic Gram-negative eubacterium Thermus thermophilus. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This undergoes acetylation, to form N2-acetyl-alpha-aminoadipate, and is then phosphorylated to give N2-acetyl-alpha-aminoadipyl-delta-phosphate. This is converted to N2-acetyl-alpha-aminoadipate semialdehyde, which is then converted to N2-acetyl-L-lysine. A final deacetylation reaction produces L-lysine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-lysine biosynthetic process via alpha-aminoadipate and saccharopine `http://purl.obolibrary.org/obo/GO_0051975`
+#### Removed
+- [L-lysine biosynthetic process via alpha-aminoadipate and saccharopine](http://purl.obolibrary.org/obo/GO_0051975) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-AMINOAD-PWY" 
+
+- [L-lysine biosynthetic process via alpha-aminoadipate and saccharopine](http://purl.obolibrary.org/obo/GO_0051975) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and saccharopine. This pathway is used by yeast and fungi to synthesize the essential amino acid L-lysine, and pathway intermediates are often incorporated into secondary metabolic processes. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This is then reduced to form alpha-aminoadipate 6-semialdehyde, which is metabolized to saccharopine and finally L-lysine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-AMINOAD-PWY" 
+
+#### Added
+- [L-lysine biosynthetic process via alpha-aminoadipate and saccharopine](http://purl.obolibrary.org/obo/GO_0051975) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and saccharopine. This pathway is used by yeast and fungi to synthesize the essential amino acid L-lysine, and pathway intermediates are often incorporated into secondary metabolic processes. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This is then reduced to form alpha-aminoadipate 6-semialdehyde, which is metabolized to saccharopine and finally L-lysine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate `http://purl.obolibrary.org/obo/GO_0033360`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate](http://purl.obolibrary.org/obo/GO_0033360) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2941" 
+
+- [L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate](http://purl.obolibrary.org/obo/GO_0033360) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and L-2-acetamido-6-oxoheptanedioate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2941" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate](http://purl.obolibrary.org/obo/GO_0033360) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and L-2-acetamido-6-oxoheptanedioate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+
+### L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate `http://purl.obolibrary.org/obo/GO_0033359`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate](http://purl.obolibrary.org/obo/GO_0033359) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DAPLYSINESYN-PWY" 
+
+- [L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate](http://purl.obolibrary.org/obo/GO_0033359) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and N-succinyl-2-amino-6-ketopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DAPLYSINESYN-PWY" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate](http://purl.obolibrary.org/obo/GO_0033359) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and N-succinyl-2-amino-6-ketopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+
+### L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway `http://purl.obolibrary.org/obo/GO_0033361`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway](http://purl.obolibrary.org/obo/GO_0033361) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2942" 
+
+- [L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway](http://purl.obolibrary.org/obo/GO_0033361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in a single enzymatic step." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2942" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway](http://purl.obolibrary.org/obo/GO_0033361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in a single enzymatic step." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+
+### L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway `http://purl.obolibrary.org/obo/GO_0033362`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway](http://purl.obolibrary.org/obo/GO_0033362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in two enzymatic steps." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5097" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+- [L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway](http://purl.obolibrary.org/obo/GO_0033362) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5097" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway](http://purl.obolibrary.org/obo/GO_0033362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in two enzymatic steps." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+
 ### L-lysine catabolic process `http://purl.obolibrary.org/obo/GO_0019477`
 #### Removed
 - [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-lysine, the L-enantiomer of (S)-2,6-diaminohexanoic acid." 
@@ -2544,6 +3626,42 @@
 - [L-lysine catabolic process to acetyl-CoA via L-saccharopine](http://purl.obolibrary.org/obo/GO_0033512) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-lysine catabolic process to acetyl-CoA via L-saccharopine" 
 
 
+### L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071265`
+
+#### Added
+- [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine `http://purl.obolibrary.org/obo/GO_0019280`
+#### Removed
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+
+
+
+### L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0019283`
+#### Removed
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
+
+
+
+### L-methionine biosynthetic process from L-homoserine via cystathionine `http://purl.obolibrary.org/obo/GO_0019279`
+#### Removed
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
+
+
+
+### L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0019281`
+#### Removed
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MET-SAM-PWY" 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MET-SAM-PWY" 
+
+#### Added
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
 ### L-methionine catabolic process `http://purl.obolibrary.org/obo/GO_0009087`
 #### Removed
 - [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." 
@@ -2556,6 +3674,70 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-methionine salvage `http://purl.obolibrary.org/obo/GO_0071267`
+
+#### Added
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8132](http://identifiers.org/metacyc.reaction/PWY-8132) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8132" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ADENOSYLHOMOCYSCAT-PWY](http://identifiers.org/metacyc.reaction/ADENOSYLHOMOCYSCAT-PWY) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4361](http://identifiers.org/metacyc.reaction/PWY-4361) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ADENOSYLHOMOCYSCAT-PWY" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7174" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7174](http://identifiers.org/metacyc.reaction/PWY-7174) 
+
+
+### L-methionine salvage from S-adenosylmethionine `http://purl.obolibrary.org/obo/GO_0019284`
+
+#### Added
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7527" 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7270" 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7527](http://identifiers.org/metacyc.reaction/PWY-7527) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7270](http://identifiers.org/metacyc.reaction/PWY-7270) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7528](http://identifiers.org/metacyc.reaction/PWY-7528) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7528" 
+
+
+### L-methionine salvage from methylthioadenosine `http://purl.obolibrary.org/obo/GO_0019509`
+#### Removed
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6754" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The generation of L-methionine (2-amino-4-(methylthio)butanoic acid) from methylthioadenosine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19946895" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6756" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6753" 
+
+#### Added
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The generation of L-methionine (2-amino-4-(methylthio)butanoic acid) from methylthioadenosine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19946895" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 
 ### L-methionine:2-oxoglutarate aminotransferase activity `http://purl.obolibrary.org/obo/GO_0080099`
@@ -2612,6 +3794,8 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
 - [L-ornithine catabolic process via proline](http://purl.obolibrary.org/obo/GO_0019466) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-ornithine catabolic process via proline" 
+
+- [L-ornithine catabolic process via proline](http://purl.obolibrary.org/obo/GO_0019466) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ORN-AMINOPENTANOATE-CAT-PWY" 
 
 - [L-ornithine catabolic process via proline](http://purl.obolibrary.org/obo/GO_0019466) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has intermediate](http://purl.obolibrary.org/obo/RO_0002505) some [L-proline zwitterion](http://purl.obolibrary.org/obo/CHEBI_60039)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [L-ornithinium(1+)](http://purl.obolibrary.org/obo/CHEBI_46911)) 
 
@@ -2682,6 +3866,36 @@
 #### Added
 - [L-phenylalanine N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0050176) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-phenylalanine + acetyl-CoA = N-acetyl-L-phenylalanine + CoA + H+." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17801" 
+
+
+### L-phenylalanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009094`
+
+#### Added
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PHESYN](http://identifiers.org/metacyc.reaction/PHESYN) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PHESYN" 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7432" 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7432](http://identifiers.org/metacyc.reaction/PWY-7432) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3462](http://identifiers.org/metacyc.reaction/PWY-3462) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3462" 
+
+
+### L-phenylalanine biosynthetic process from chorismate via L-arogenate `http://purl.obolibrary.org/obo/GO_0033586`
+#### Removed
+- [L-phenylalanine biosynthetic process from chorismate via L-arogenate](http://purl.obolibrary.org/obo/GO_0033586) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3462" 
+
+
+
+### L-phenylalanine biosynthetic process from chorismate via phenylpyruvate `http://purl.obolibrary.org/obo/GO_0033585`
+#### Removed
+- [L-phenylalanine biosynthetic process from chorismate via phenylpyruvate](http://purl.obolibrary.org/obo/GO_0033585) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PHESYN" 
+
 
 
 ### L-phenylalanine catabolic process `http://purl.obolibrary.org/obo/GO_0006559`
@@ -2763,6 +3977,16 @@
 - [L-proline betaine catabolic process](http://purl.obolibrary.org/obo/GO_0019504) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### L-proline biosynthetic process `http://purl.obolibrary.org/obo/GO_0055129`
+
+#### Added
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ORN-AMINOPENTANOATE-CAT-PWY](http://identifiers.org/metacyc.reaction/ORN-AMINOPENTANOATE-CAT-PWY) 
+
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ORN-AMINOPENTANOATE-CAT-PWY" 
+
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-proline catabolic process `http://purl.obolibrary.org/obo/GO_0006562`
 #### Removed
 - [L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0006562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." 
@@ -2785,6 +4009,20 @@
 #### Added
 - [L-serine ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0003941) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-serine = pyruvate + NH4+." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19169" 
+
+
+### L-serine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006564`
+#### Removed
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [SERSYN-PWY](http://identifiers.org/metacyc.reaction/SERSYN-PWY) 
+
+#### Added
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8011](http://identifiers.org/metacyc.reaction/PWY-8011) 
+
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SERSYN-PWY](http://identifiers.org/metacyc.reaction/SERSYN-PWY) 
+
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8011" 
 
 
 ### L-serine catabolic process `http://purl.obolibrary.org/obo/GO_0006565`
@@ -2851,6 +4089,28 @@
 - [L-serine-pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0004760) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "L-serine-pyruvate transaminase activity" 
 
 - [L-serine-pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0004760) SubClassOf [alanine-oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047635) 
+
+
+### L-threonine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009088`
+#### Removed
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-threonine (2-amino-3-hydroxybutyric acid), a polar, uncharged, essential amino acid found in peptide linkage in proteins." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:THRESYN-PWY" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:THRESYN-PWY" 
+
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [THRESYN-PWY](http://identifiers.org/metacyc.reaction/THRESYN-PWY) 
+
+#### Added
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-threonine (2-amino-3-hydroxybutyric acid), a polar, uncharged, essential amino acid found in peptide linkage in proteins." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### L-threonine catabolic process `http://purl.obolibrary.org/obo/GO_0006567`
@@ -2926,7 +4186,7 @@
 
 - [L-tryptophan conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770009) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
 
-- [L-tryptophan conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770009) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234456](http://purl.obolibrary.org/obo/CHEBI_234456) 
+- [L-tryptophan conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770009) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
 
 - [L-tryptophan conjugated cholate hydrolase activity](http://purl.obolibrary.org/obo/GO_7770009) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
 
@@ -2977,6 +4237,46 @@
 - [L-tryptophan:pyruvate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0080097) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-tryptophan:pyruvate transaminase activity" 
 
 - [L-tryptophan:pyruvate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0080097) SubClassOf [alanine-oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047635) 
+
+
+### L-tyrosine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006571`
+
+#### Added
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6120](http://identifiers.org/metacyc.reaction/PWY-6120) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6120" 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6134](http://identifiers.org/metacyc.reaction/PWY-6134) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3461](http://identifiers.org/metacyc.reaction/PWY-3461) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [TYRSYN](http://identifiers.org/metacyc.reaction/TYRSYN) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:TYRSYN" 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6134" 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3461" 
+
+
+### L-tyrosine biosynthetic process from chorismate via 4-hydroxyphenylpyruvate `http://purl.obolibrary.org/obo/GO_0019292`
+#### Removed
+- [L-tyrosine biosynthetic process from chorismate via 4-hydroxyphenylpyruvate](http://purl.obolibrary.org/obo/GO_0019292) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:TYRSYN" 
+
+
+
+### L-tyrosine biosynthetic process from chorismate via L-arogenate `http://purl.obolibrary.org/obo/GO_0033584`
+#### Removed
+- [L-tyrosine biosynthetic process from chorismate via L-arogenate](http://purl.obolibrary.org/obo/GO_0033584) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3461" 
+
+
+
+### L-tyrosine biosynthetic process, by oxidation of phenylalanine `http://purl.obolibrary.org/obo/GO_0019293`
+#### Removed
+- [L-tyrosine biosynthetic process, by oxidation of phenylalanine](http://purl.obolibrary.org/obo/GO_0019293) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6134" 
+
 
 
 ### L-tyrosine catabolic process `http://purl.obolibrary.org/obo/GO_0006572`
@@ -3073,6 +4373,80 @@
 - [MAP-kinase scaffold activity](http://purl.obolibrary.org/obo/GO_0005078) SubClassOf [protein complex scaffold activity](http://purl.obolibrary.org/obo/GO_0140378) 
 
 
+### Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc `http://purl.obolibrary.org/obo/CHEBI_59579`
+
+#### Added
+- [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) [label](http://www.w3.org/2000/01/rdf-schema#label) "Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc" 
+
+- [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) 
+
+- [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) SubClassOf [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) 
+
+- [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) SubClassOf [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) 
+
+- [Man(a1-2)Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-3)[Man(a1-2)Man(a1-6)]Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc](http://purl.obolibrary.org/obo/CHEBI_59579) SubClassOf [polysaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_65212) 
+
+
+### Mo(VI)-molybdopterin cytosine dinucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_1902760`
+
+#### Added
+- [Mo(VI)-molybdopterin cytosine dinucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1902760) SubClassOf [nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0009165) 
+
+
+### N(6),N(6)-dimethyl-AMP(2-) `http://purl.obolibrary.org/obo/CHEBI_235457`
+
+#### Added
+- [N(6),N(6)-dimethyl-AMP(2-)](http://purl.obolibrary.org/obo/CHEBI_235457) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+
+### N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue `http://purl.obolibrary.org/obo/CHEBI_156053`
+
+#### Added
+- [N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue](http://purl.obolibrary.org/obo/CHEBI_156053) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue](http://purl.obolibrary.org/obo/CHEBI_156053) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue](http://purl.obolibrary.org/obo/CHEBI_156053) [label](http://www.w3.org/2000/01/rdf-schema#label) "N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue" 
+
+- Class: [N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue](http://purl.obolibrary.org/obo/CHEBI_156053) 
+
+- [N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue](http://purl.obolibrary.org/obo/CHEBI_156053) SubClassOf [N(6)-acyl-L-lysine residue](http://purl.obolibrary.org/obo/CHEBI_137967) 
+
+
+### N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide `http://purl.obolibrary.org/obo/CHEBI_235468`
+
+#### Added
+- [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetyl-alpha-D-galactosaminyl-(1-&gt;4)-N-acetyl-beta-D-galactosaminide" 
+
+- [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) 
+
+- [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) SubClassOf [disaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_63353) 
+
+- [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) SubClassOf [glycoside](http://purl.obolibrary.org/obo/CHEBI_24400) 
+
+
+### N-acetyl-beta-D-galactosaminide `http://purl.obolibrary.org/obo/CHEBI_28451`
+
+#### Added
+- [N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28451) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28451) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetyl-beta-D-galactosaminide" 
+
+- [N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28451) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28451) 
+
+- [N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28451) SubClassOf [N-acetyl-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28761) 
+
+
 ### N-acetylneuraminate catabolic process `http://purl.obolibrary.org/obo/GO_0019262`
 
 #### Added
@@ -3155,6 +4529,32 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0825" 
 
 - [N-cyclopropylmelamine deaminase activity](http://purl.obolibrary.org/obo/GO_0034547) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this reaction exists." 
+
+
+### N-glycan `http://purl.obolibrary.org/obo/CHEBI_59520`
+
+#### Added
+- [N-glycan](http://purl.obolibrary.org/obo/CHEBI_59520) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-glycan" 
+
+- [N-glycan](http://purl.obolibrary.org/obo/CHEBI_59520) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- Class: [N-glycan](http://purl.obolibrary.org/obo/CHEBI_59520) 
+
+- [N-glycan](http://purl.obolibrary.org/obo/CHEBI_59520) SubClassOf [polysaccharide](http://purl.obolibrary.org/obo/CHEBI_18154) 
+
+
+### N-glycan derivative `http://purl.obolibrary.org/obo/CHEBI_71275`
+
+#### Added
+- [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-glycan derivative" 
+
+- Class: [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) 
+
+- [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) SubClassOf [polysaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_65212) 
+
+- [N-glycan derivative](http://purl.obolibrary.org/obo/CHEBI_71275) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [N-glycan](http://purl.obolibrary.org/obo/CHEBI_59520) 
 
 
 ### N2-acetyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity `http://purl.obolibrary.org/obo/GO_0003992`
@@ -3287,6 +4687,30 @@
 
 - [O-phospho-L-serine:2-oxoglutarate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0004648) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: O-phospho-L-serine + 2-oxoglutarate = 3-phosphonooxypyruvate + L-glutamate." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14329" 
+
+
+### PE(16:0/16:1(9Z)) `http://purl.obolibrary.org/obo/CHEBI_234439`
+
+#### Added
+- [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) [label](http://www.w3.org/2000/01/rdf-schema#label) "PE(16:0/16:1(9Z))" 
+
+- Class: [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) 
+
+- [PE(16:0/16:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234439) SubClassOf [phosphatidylethanolamine (16:0/16:1)](http://purl.obolibrary.org/obo/CHEBI_136147) 
+
+
+### PE(O-18:0/18:1(9Z)) `http://purl.obolibrary.org/obo/CHEBI_234526`
+
+#### Added
+- [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) [label](http://www.w3.org/2000/01/rdf-schema#label) "PE(O-18:0/18:1(9Z))" 
+
+- [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) 
+
+- [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) SubClassOf [phosphatidylethanolamine O-36:1](http://purl.obolibrary.org/obo/CHEBI_156011) 
 
 
 ### RNA 2',3'-cyclic phosphatase activity `http://purl.obolibrary.org/obo/GO_0160272`
@@ -3447,6 +4871,26 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20413673" 
 
 
+### S-adenosyl-D-methionine `http://purl.obolibrary.org/obo/CHEBI_156255`
+
+#### Added
+- [S-adenosyl-D-methionine](http://purl.obolibrary.org/obo/CHEBI_156255) [label](http://www.w3.org/2000/01/rdf-schema#label) "S-adenosyl-D-methionine" 
+
+- [S-adenosyl-D-methionine](http://purl.obolibrary.org/obo/CHEBI_156255) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [S-adenosyl-D-methionine](http://purl.obolibrary.org/obo/CHEBI_156255) 
+
+- [S-adenosyl-D-methionine](http://purl.obolibrary.org/obo/CHEBI_156255) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [S-adenosyl-L-methionine](http://purl.obolibrary.org/obo/CHEBI_15414) 
+
+- [S-adenosyl-D-methionine](http://purl.obolibrary.org/obo/CHEBI_156255) SubClassOf [sulfonium compound](http://purl.obolibrary.org/obo/CHEBI_26830) 
+
+
+### S-adenosyl-L-methionine `http://purl.obolibrary.org/obo/CHEBI_15414`
+
+#### Added
+- [S-adenosyl-L-methionine](http://purl.obolibrary.org/obo/CHEBI_15414) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [S-adenosyl-D-methionine](http://purl.obolibrary.org/obo/CHEBI_156255) 
+
+
 ### TFIIA-class transcription factor complex binding `http://purl.obolibrary.org/obo/GO_0001092`
 #### Removed
 - [TFIIA-class transcription factor complex binding](http://purl.obolibrary.org/obo/GO_0001092) SubClassOf [protein-containing complex binding](http://purl.obolibrary.org/obo/GO_0044877) 
@@ -3580,7 +5024,7 @@
 
 - [UDP-glucose:4-aminobenzoate acylglucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0080002) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [4-aminobenzoate](http://purl.obolibrary.org/obo/CHEBI_17836) 
 
-- [UDP-glucose:4-aminobenzoate acylglucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0080002) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_139329](http://purl.obolibrary.org/obo/CHEBI_139329) 
+- [UDP-glucose:4-aminobenzoate acylglucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0080002) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) 
 
 - [UDP-glucose:4-aminobenzoate acylglucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0080002) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucose(2-)](http://purl.obolibrary.org/obo/CHEBI_58885) 
 
@@ -3832,6 +5276,12 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:46188" 
 
 
+### alkene `http://purl.obolibrary.org/obo/CHEBI_32878`
+
+#### Added
+- [alkene](http://purl.obolibrary.org/obo/CHEBI_32878) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+
 ### allantoate deiminase activity `http://purl.obolibrary.org/obo/GO_0047652`
 #### Removed
 - [allantoate deiminase activity](http://purl.obolibrary.org/obo/GO_0047652) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: allantoate + H2O + H+ = CO2 + NH3 + ureidoglycine." 
@@ -3859,11 +5309,11 @@ GO:0047635"
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86251" 
 
-- [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235468](http://purl.obolibrary.org/obo/CHEBI_235468) 
+- [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N-acetyl-alpha-D-galactosaminyl-(1->4)-N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_235468) 
 
 - [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
-- [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_28451](http://purl.obolibrary.org/obo/CHEBI_28451) 
+- [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N-acetyl-beta-D-galactosaminide](http://purl.obolibrary.org/obo/CHEBI_28451) 
 
 - [alpha-1,4-N-acetylgalactosaminyltransferase activity](http://purl.obolibrary.org/obo/GO_0035248) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-N-acetyl-alpha-D-galactosamine(2-)](http://purl.obolibrary.org/obo/CHEBI_67138) 
 
@@ -4196,6 +5646,12 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 
+### asparagine metabolic process `http://purl.obolibrary.org/obo/GO_0006528`
+#### Removed
+- [asparagine metabolic process](http://purl.obolibrary.org/obo/GO_0006528) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINESYN-PWY" 
+
+
+
 ### asparagine-oxo-acid transaminase activity `http://purl.obolibrary.org/obo/GO_0047297`
 #### Removed
 - [asparagine-oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047297) [label](http://www.w3.org/2000/01/rdf-schema#label) "asparagine-oxo-acid transaminase activity" 
@@ -4226,6 +5682,24 @@ GO:0047635"
 #### Added
 - [aspartate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0008797) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate = fumarate + NH4+." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:16601" 
+
+
+### aspartate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009067`
+#### Removed
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-781" 
+
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY0-781](http://identifiers.org/metacyc.reaction/PWY0-781) 
+
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the aspartate family, comprising asparagine, aspartate, lysine, methionine and threonine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-781" 
+
+#### Added
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the aspartate family, comprising asparagine, aspartate, lysine, methionine and threonine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 
 ### aspartate-ammonia ligase activity `http://purl.obolibrary.org/obo/GO_0004071`
@@ -4274,6 +5748,22 @@ GO:0047635"
 - [aspartate-prephenate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0033853) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aspartate-prephenate aminotransferase activity" 
 
 - [aspartate-prephenate aminotransferase activity](http://purl.obolibrary.org/obo/GO_0033853) SubClassOf [amino acid transaminase activity](http://purl.obolibrary.org/obo/GO_0140385) 
+
+
+### aureolic acid `http://purl.obolibrary.org/obo/CHEBI_52513`
+
+#### Added
+- [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) [label](http://www.w3.org/2000/01/rdf-schema#label) "aureolic acid" 
+
+- Class: [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) 
+
+- [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) SubClassOf [decaketide](http://purl.obolibrary.org/obo/CHEBI_48128) 
+
+- [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) SubClassOf [carbohydrate derivative](http://purl.obolibrary.org/obo/CHEBI_63299) 
+
+- [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) SubClassOf [glycoside](http://purl.obolibrary.org/obo/CHEBI_24400) 
 
 
 ### bacterial-type RNA polymerase holo enzyme binding `http://purl.obolibrary.org/obo/GO_0001108`
@@ -4793,6 +6283,72 @@ GO:0047635"
 - [choloyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0033882) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
 
 
+### cholyl-L-tryptophan `http://purl.obolibrary.org/obo/CHEBI_232263`
+
+#### Added
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) [label](http://www.w3.org/2000/01/rdf-schema#label) "cholyl-L-tryptophan" 
+
+- Class: [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [7alpha-hydroxy steroid](http://purl.obolibrary.org/obo/CHEBI_36843) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [3alpha-hydroxy steroid](http://purl.obolibrary.org/obo/CHEBI_36835) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [bile acid conjugate](http://purl.obolibrary.org/obo/CHEBI_36249) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [monocarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_25384) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [12alpha-hydroxy steroid](http://purl.obolibrary.org/obo/CHEBI_36846) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [cholic acid](http://purl.obolibrary.org/obo/CHEBI_16359) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [L-tryptophan derivative](http://purl.obolibrary.org/obo/CHEBI_47994) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_16828) 
+
+- [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) SubClassOf [secondary carboxamide](http://purl.obolibrary.org/obo/CHEBI_140325) 
+
+
+### cholyl-L-tryptophan(1-) `http://purl.obolibrary.org/obo/CHEBI_234456`
+
+#### Added
+- [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) [label](http://www.w3.org/2000/01/rdf-schema#label) "cholyl-L-tryptophan(1-)" 
+
+- Class: [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) 
+
+- [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) SubClassOf [monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35757) 
+
+- [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [cholyl-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_232263) 
+
+- [cholyl-L-tryptophan(1-)](http://purl.obolibrary.org/obo/CHEBI_234456) SubClassOf [N-choloyl-L-alpha-amino acid anion](http://purl.obolibrary.org/obo/CHEBI_229709) 
+
+
+### cis-4-hydroxycyclohexane-1-carboxylate `http://purl.obolibrary.org/obo/CHEBI_229701`
+
+#### Added
+- [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) [label](http://www.w3.org/2000/01/rdf-schema#label) "cis-4-hydroxycyclohexane-1-carboxylate" 
+
+- Class: [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) 
+
+- [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [trans-4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_57906) 
+
+- [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) SubClassOf [hydroxy monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_36059) 
+
+- [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [cyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_27804) 
+
+
 ### citrullinase activity `http://purl.obolibrary.org/obo/GO_0047781`
 #### Removed
 - [citrullinase activity](http://purl.obolibrary.org/obo/GO_0047781) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H2O + citrulline = NH3 + CO2 + L-ornithine." 
@@ -4867,6 +6423,334 @@ GO:0047635"
 #### Added
 - [cytochrome-c peroxidase activity](http://purl.obolibrary.org/obo/GO_0004130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 ferrocytochrome c + H2O2 = 2 ferricytochrome c + 2 H2O." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.11.1.5" 
+
+
+### cytoplasmic side of Golgi membrane `http://purl.obolibrary.org/obo/GO_0098548`
+#### Removed
+- [cytoplasmic side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098548) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the Golgi membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098548) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the Golgi membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [cytoplasmic side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098548) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of apical plasma membrane `http://purl.obolibrary.org/obo/GO_0098592`
+#### Removed
+- [cytoplasmic side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the apical region of the plasma membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098592) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the apical region of the plasma membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of cis-Golgi cisternae membrane `http://purl.obolibrary.org/obo/GO_0160278`
+#### Removed
+- [cytoplasmic side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the cis-Golgi cisternae membrane that faces the cytoplasm and is the site of interactions with cytosolic proteins, including those involved in vesicle budding, membrane tethering, and lipid or protein trafficking." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [cytoplasmic side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160278) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi cisternae membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site of interactions with cytosolic proteins, including those involved in vesicle budding, membrane tethering, and lipid or protein trafficking." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+
+### cytoplasmic side of cis-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0140179`
+#### Removed
+- [cytoplasmic side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140179) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the membrane bilayer of the cis-Golgi network faces the cytoplasm and is where interactions with cytosolic proteins occur, including those for vesicle tethering, fusion, and Golgi-associated trafficking activities." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [cytoplasmic side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140179) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140179) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi network membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site of interactions with cytosolic proteins, including those for vesicle tethering, fusion, and Golgi-associated trafficking activities." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+
+### cytoplasmic side of dendritic spine plasma membrane `http://purl.obolibrary.org/obo/GO_1990780`
+#### Removed
+- [cytoplasmic side of dendritic spine plasma membrane](http://purl.obolibrary.org/obo/GO_1990780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the cytoplasm and any proteins embedded or anchored in it or attached to its surface surrounding a dendritic spine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9275233" 
+
+#### Added
+- [cytoplasmic side of dendritic spine plasma membrane](http://purl.obolibrary.org/obo/GO_1990780) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of dendritic spine plasma membrane](http://purl.obolibrary.org/obo/GO_1990780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane in the dendritic spine region that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9275233" 
+
+
+### cytoplasmic side of early endosome membrane `http://purl.obolibrary.org/obo/GO_0098559`
+#### Removed
+- [cytoplasmic side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the early endosome membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [cytoplasmic side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098559) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the early endosome membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### cytoplasmic side of endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098554`
+#### Removed
+- [cytoplasmic side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098554) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plasma membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098554) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098554) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endoplasmic reticulum membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of endosome membrane `http://purl.obolibrary.org/obo/GO_0010009`
+#### Removed
+- [cytoplasmic side of endosome membrane](http://purl.obolibrary.org/obo/GO_0010009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the endosome membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [cytoplasmic side of endosome membrane](http://purl.obolibrary.org/obo/GO_0010009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endosome membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+- [cytoplasmic side of endosome membrane](http://purl.obolibrary.org/obo/GO_0010009) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of late endosome membrane `http://purl.obolibrary.org/obo/GO_0098560`
+#### Removed
+- [cytoplasmic side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the late endosome membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [cytoplasmic side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098560) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the late endosome membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### cytoplasmic side of lysosomal membrane `http://purl.obolibrary.org/obo/GO_0098574`
+#### Removed
+- [cytoplasmic side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098574) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the lysosomal membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098574) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098574) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the lysosomal membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of medial-Golgi cisterna membrane `http://purl.obolibrary.org/obo/GO_0160279`
+#### Removed
+- [cytoplasmic side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the medial-Golgi cisternae that faces the cytoplasm participates in interactions with cytosolic proteins involved in membrane trafficking, vesicle docking, and cargo sorting." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39658747" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [cytoplasmic side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160279) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the medial-Golgi cisternae membrane that faces the cytoplasm,including any protein embedded in, attached to, or peripherally associated with it. This is the site of interactions with cytosolic proteins involved in membrane trafficking, vesicle docking, and cargo sorting." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39658747" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+
+### cytoplasmic side of membrane `http://purl.obolibrary.org/obo/GO_0098562`
+#### Removed
+- [cytoplasmic side of membrane](http://purl.obolibrary.org/obo/GO_0098562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of a membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [cytoplasmic side of membrane](http://purl.obolibrary.org/obo/GO_0098562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [cytoplasmic side of membrane](http://purl.obolibrary.org/obo/GO_0098562) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_0032473`
+#### Removed
+- [cytoplasmic side of mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0032473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The external (cytoplasmic) face of the mitochondrial outer membrane." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+#### Added
+- [cytoplasmic side of mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0032473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the mitochondrial outer membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [cytoplasmic side of mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0032473) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of plasma membrane `http://purl.obolibrary.org/obo/GO_0009898`
+#### Removed
+- [cytoplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009898) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the plasma membrane that faces the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+#### Added
+- [cytoplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009898) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [cytoplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009898) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of plasma membrane, cell tip `http://purl.obolibrary.org/obo/GO_0106186`
+#### Removed
+- [cytoplasmic side of plasma membrane, cell tip](http://purl.obolibrary.org/obo/GO_0106186) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the plasma membrane at the cell tip that faces the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28292899" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [cytoplasmic side of plasma membrane, cell tip](http://purl.obolibrary.org/obo/GO_0106186) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the plasma membrane at the cell tip that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28292899" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [cytoplasmic side of plasma membrane, cell tip](http://purl.obolibrary.org/obo/GO_0106186) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of rough endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098556`
+#### Removed
+- [cytoplasmic side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098556) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the rough endoplasmic reticulum membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098556) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098556) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the rough endoplasmic reticulum membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of smooth endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098557`
+#### Removed
+- [cytoplasmic side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the smooth endoplasmic reticulum membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098557) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the smooth endoplasmic reticulum membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of trans-Golgi cisterna membrane `http://purl.obolibrary.org/obo/GO_0160288`
+#### Removed
+- [cytoplasmic side of trans-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the trans-Golgi cisternae that faces the cytoplasm. It is the site of protein and lipid interaction, vesicle formation, and cargo sorting towards post-Golgi destinations such as endosomes, lysosomes, and the plasma membrane." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37566051" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [cytoplasmic side of trans-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi cisternae membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site where vesicle formation, and cargo sorting towards post-Golgi destinations such as endosomes, lysosomes and the plasma membrane occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37566051" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+- [cytoplasmic side of trans-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160288) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of trans-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0160281`
+#### Removed
+- [cytoplasmic side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the membrane bilayer of the trans-Golgi network faces the cytoplasm and is crucial for lipid and protein sorting and trafficking, as it interacts with cytoplasmic proteins involved in vesicle formation and targeting." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [cytoplasmic side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160281) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi network membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site of interaction where cytoplasmic proteins interact with proteins involved in vesicle formation and targeting." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+
+### cytoplasmic side of trans-Golgi network transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098541`
+#### Removed
+- [cytoplasmic side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the trans-Golgi network transport vesicle membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098541) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi network transport vesicle membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098539`
+#### Removed
+- [cytoplasmic side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098539) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the transport vesicle membrane that faces the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098539) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the transport vesicle membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [cytoplasmic side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098539) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### cytosine deaminase activity `http://purl.obolibrary.org/obo/GO_0004131`
@@ -4953,6 +6837,18 @@ GO:0047635"
 #### Added
 - [deaminase activity](http://purl.obolibrary.org/obo/GO_0019239) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the removal of an amino group from a substrate, producing a substituted or nonsubstituted ammonia (NH4+/NH2R)." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+
+### decaketide `http://purl.obolibrary.org/obo/CHEBI_48128`
+
+#### Added
+- [decaketide](http://purl.obolibrary.org/obo/CHEBI_48128) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [decaketide](http://purl.obolibrary.org/obo/CHEBI_48128) [label](http://www.w3.org/2000/01/rdf-schema#label) "decaketide" 
+
+- Class: [decaketide](http://purl.obolibrary.org/obo/CHEBI_48128) 
+
+- [decaketide](http://purl.obolibrary.org/obo/CHEBI_48128) SubClassOf [polyketide](http://purl.obolibrary.org/obo/CHEBI_26188) 
 
 
 ### dehydro-D-arabinono-1,4-lactone biosynthetic process `http://purl.obolibrary.org/obo/GO_0070485`
@@ -5170,11 +7066,7 @@ GO:0047635"
 - [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "respiratory dimethylsulfoxide reductase" 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.8.5.3" 
 
-- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.8.5.3](http://purl.uniprot.org/enzyme/1.8.5.3) 
-
 - [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [28494](http://rdf.rhea-db.org/28494) 
-
-- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28494" 
 
 - [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: dimethyl sulfide + a menaquinone + H2O = dimethyl sulfoxide + a menaquinol." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:8658134" 
@@ -5187,7 +7079,21 @@ GO:0047635"
 
 - [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31518"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.8.5.3](http://purl.uniprot.org/enzyme/1.8.5.3) 
+
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28494" 
+
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [menaquinol](http://purl.obolibrary.org/obo/CHEBI_18151) 
+
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dimethyl sulfoxide](http://purl.obolibrary.org/obo/CHEBI_28262) 
+
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
 - [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) SubClassOf [oxidoreductase activity, acting on a sulfur group of donors, quinone or similar compound as acceptor](http://purl.obolibrary.org/obo/GO_0016672) 
+
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dimethyl sulfide](http://purl.obolibrary.org/obo/CHEBI_17437) 
+
+- [dimethyl sulfoxide reductase activity](http://purl.obolibrary.org/obo/GO_0009389) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [menaquinone](http://purl.obolibrary.org/obo/CHEBI_16374) 
 
 
 ### discadenine catabolic process `http://purl.obolibrary.org/obo/GO_0034269`
@@ -5282,6 +7188,22 @@ GO:0047635"
 - [early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_0061502) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31240"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_0061502) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term is described by another GO term" 
+
+
+### epi-leukotriene A4(1-) `http://purl.obolibrary.org/obo/CHEBI_193571`
+
+#### Added
+- [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) [label](http://www.w3.org/2000/01/rdf-schema#label) "epi-leukotriene A4(1-)" 
+
+- [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) 
+
+- [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) SubClassOf [leukotriene anion](http://purl.obolibrary.org/obo/CHEBI_62942) 
+
+- [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_57463) 
 
 
 ### epiplastidial membrane `http://purl.obolibrary.org/obo/GO_7770040`
@@ -5385,6 +7307,74 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18581" 
 
 
+### external side of apical plasma membrane `http://purl.obolibrary.org/obo/GO_0098591`
+#### Removed
+- [external side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the apical region of the plasma membrane that faces away from the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [external side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098591) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the apical region of the plasma membrane that faces the extracellular side of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### external side of cell outer membrane `http://purl.obolibrary.org/obo/GO_0031240`
+#### Removed
+- [external side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031240) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of the outer membrane that is opposite to the side that faces the periplasm of the cell." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+#### Added
+- [external side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031240) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031240) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the outer membrane that is opposite to the side that faces the periplasm of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+
+### external side of mycolate outer membrane `http://purl.obolibrary.org/obo/GO_0098568`
+#### Removed
+- [external side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098568) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the mycolate outer membrane that faces the environment and any proteins embedded in it or loosely bound to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+#### Added
+- [external side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098568) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098568) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the mycolate outer membrane that faces the periplasm of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+
+### external side of plasma membrane `http://purl.obolibrary.org/obo/GO_0009897`
+#### Removed
+- [external side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009897) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces away from the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+#### Added
+- [external side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009897) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009897) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the extracellular side of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+
 ### extracellular ammonia-gated monoatomic ion channel activity `http://purl.obolibrary.org/obo/GO_0036081`
 #### Removed
 - [extracellular ammonia-gated monoatomic ion channel activity](http://purl.obolibrary.org/obo/GO_0036081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transmembrane transfer of an ion by a channel that opens when extracellular ammonia (NH3) has been bound by the channel complex or one of its constituent parts." 
@@ -5411,6 +7401,18 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.8.3.6" 
+
+
+### fetal process involved in parturition `http://purl.obolibrary.org/obo/GO_0060138`
+#### Removed
+- [fetal process involved in parturition](http://purl.obolibrary.org/obo/GO_0060138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A reproductive process occurring in the embryo that results in birth." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+#### Added
+- [fetal process involved in parturition](http://purl.obolibrary.org/obo/GO_0060138) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31526"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fetal process involved in parturition](http://purl.obolibrary.org/obo/GO_0060138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A reproductive process occurring in the fetus that results in birth." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 
 ### flavin transferase activity `http://purl.obolibrary.org/obo/GO_7770036`
@@ -5681,6 +7683,22 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36771108" 
 
 
+### glycan G00008 `http://purl.obolibrary.org/obo/CHEBI_53019`
+
+#### Added
+- [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycan G00008" 
+
+- [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- Class: [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) 
+
+- [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [Glc(alpha1->2)Glc(alpha1->3)Glc(alpha1->3)Man(alpha1->2)Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->3)[Man(alpha1->2)Man(alpha1->6)]Man(alpha1->6)]Man(beta1->4)GlcNAc(beta1->4)alpha-GlcNAc](http://purl.obolibrary.org/obo/CHEBI_145630) 
+
+- [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) SubClassOf [dolichyl diphosphooligosaccharide](http://purl.obolibrary.org/obo/CHEBI_15926) 
+
+- [glycan G00008](http://purl.obolibrary.org/obo/CHEBI_53019) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [mouse metabolite](http://purl.obolibrary.org/obo/CHEBI_75771) 
+
+
 ### glycerophospholipid flippase activity `http://purl.obolibrary.org/obo/GO_0140333`
 #### Removed
 - [glycerophospholipid flippase activity](http://purl.obolibrary.org/obo/GO_0140333) SubClassOf [phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) 
@@ -5719,6 +7737,44 @@ GO:0047635"
 - [glycine N-choloyltransferase activity](http://purl.obolibrary.org/obo/GO_0047963) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
 
 - [glycine N-choloyltransferase activity](http://purl.obolibrary.org/obo/GO_0047963) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### glycine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006545`
+
+#### Added
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-THR-PWY" 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-PWY" 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLYSYN-ALA-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-ALA-PWY) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLYSYN-THR-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-THR-PWY) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLYSYN-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-PWY) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8551" 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8551](http://identifiers.org/metacyc.reaction/PWY-8551) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-ALA-PWY" 
+
+
+### glycine biosynthetic process from L-serine `http://purl.obolibrary.org/obo/GO_0019264`
+#### Removed
+- [glycine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0019264) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-PWY" 
+
+- [glycine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0019264) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLYSYN-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-PWY) 
+
+
+
+### glycine biosynthetic process, by transamination of glyoxylate `http://purl.obolibrary.org/obo/GO_0019265`
+#### Removed
+- [glycine biosynthetic process, by transamination of glyoxylate](http://purl.obolibrary.org/obo/GO_0019265) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-ALA-PWY" 
+
+- [glycine biosynthetic process, by transamination of glyoxylate](http://purl.obolibrary.org/obo/GO_0019265) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLYSYN-ALA-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-ALA-PWY) 
+
 
 
 ### glycine catabolic process `http://purl.obolibrary.org/obo/GO_0006546`
@@ -5825,6 +7881,26 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:4557653" 
 
 
+### glycosylglucose `http://purl.obolibrary.org/obo/CHEBI_24405`
+
+#### Added
+- [glycosylglucose](http://purl.obolibrary.org/obo/CHEBI_24405) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+
+### glycosylmannose derivative `http://purl.obolibrary.org/obo/CHEBI_63362`
+
+#### Added
+- [glycosylmannose derivative](http://purl.obolibrary.org/obo/CHEBI_63362) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycosylmannose derivative" 
+
+- [glycosylmannose derivative](http://purl.obolibrary.org/obo/CHEBI_63362) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- Class: [glycosylmannose derivative](http://purl.obolibrary.org/obo/CHEBI_63362) 
+
+- [glycosylmannose derivative](http://purl.obolibrary.org/obo/CHEBI_63362) SubClassOf [disaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_63353) 
+
+- [glycosylmannose derivative](http://purl.obolibrary.org/obo/CHEBI_63362) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [glycosylmannose](http://purl.obolibrary.org/obo/CHEBI_35318) 
+
+
 ### glyoxylate cycle `http://purl.obolibrary.org/obo/GO_0006097`
 
 #### Added
@@ -5926,7 +8002,7 @@ GO:0047635"
 
 - [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [85487](http://rdf.rhea-db.org/85487) 
 
-- [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234382](http://purl.obolibrary.org/obo/CHEBI_234382) 
+- [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) 
 
 - [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
@@ -5934,7 +8010,49 @@ GO:0047635"
 
 - [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
 
-- [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234400](http://purl.obolibrary.org/obo/CHEBI_234400) 
+- [guanylylpyridinol adenylase activity](http://purl.obolibrary.org/obo/GO_0160301) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [guanylylpyridinol adenylate(2-)](http://purl.obolibrary.org/obo/CHEBI_234400) 
+
+
+### guanylylpyridinol adenylate(2-) `http://purl.obolibrary.org/obo/CHEBI_234400`
+
+#### Added
+- [guanylylpyridinol adenylate(2-)](http://purl.obolibrary.org/obo/CHEBI_234400) [label](http://www.w3.org/2000/01/rdf-schema#label) "guanylylpyridinol adenylate(2-)" 
+
+- [guanylylpyridinol adenylate(2-)](http://purl.obolibrary.org/obo/CHEBI_234400) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [guanylylpyridinol adenylate(2-)](http://purl.obolibrary.org/obo/CHEBI_234400) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [guanylylpyridinol adenylate(2-)](http://purl.obolibrary.org/obo/CHEBI_234400) 
+
+- [guanylylpyridinol adenylate(2-)](http://purl.obolibrary.org/obo/CHEBI_234400) SubClassOf [organophosphate oxoanion](http://purl.obolibrary.org/obo/CHEBI_58945) 
+
+
+### guanylylpyridinol(2-) `http://purl.obolibrary.org/obo/CHEBI_234382`
+
+#### Added
+- [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) [label](http://www.w3.org/2000/01/rdf-schema#label) "guanylylpyridinol(2-)" 
+
+- [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- Class: [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) 
+
+- [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) SubClassOf [monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35757) 
+
+
+### high-mannose oligosaccharide `http://purl.obolibrary.org/obo/CHEBI_5717`
+
+#### Added
+- [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) [label](http://www.w3.org/2000/01/rdf-schema#label) "high-mannose oligosaccharide" 
+
+- [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- Class: [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) 
+
+- [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) SubClassOf [mannooligosaccharide derivative](http://purl.obolibrary.org/obo/CHEBI_71274) 
+
+- [high-mannose oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_5717) SubClassOf [glucosamine oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_22485) 
 
 
 ### histidine ammonia-lyase activity `http://purl.obolibrary.org/obo/GO_0004397`
@@ -6169,6 +8287,34 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22052" 
 
 
+### hypothiocyanous acid `http://purl.obolibrary.org/obo/CHEBI_133907`
+
+#### Added
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypothiocyanous acid" 
+
+- Class: [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [human metabolite](http://purl.obolibrary.org/obo/CHEBI_77746) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [one-carbon compound](http://purl.obolibrary.org/obo/CHEBI_64708) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [rat metabolite](http://purl.obolibrary.org/obo/CHEBI_86264) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [antifungal agent](http://purl.obolibrary.org/obo/CHEBI_35718) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [antibacterial agent](http://purl.obolibrary.org/obo/CHEBI_33282) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [sulfur oxoacid](http://purl.obolibrary.org/obo/CHEBI_33402) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [antiviral agent](http://purl.obolibrary.org/obo/CHEBI_22587) 
+
+- [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [oxidising agent](http://purl.obolibrary.org/obo/CHEBI_63248) 
+
+
 ### hypusine metabolic process `http://purl.obolibrary.org/obo/GO_0046516`
 #### Removed
 - [hypusine metabolic process](http://purl.obolibrary.org/obo/GO_0046516) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
@@ -6193,6 +8339,26 @@ GO:0047635"
 - [indole-3-acetonitrile nitrilase activity](http://purl.obolibrary.org/obo/GO_0080061) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [3.5.5.1](http://purl.uniprot.org/enzyme/3.5.5.1) 
 
 
+### internal side of mycolate outer membrane `http://purl.obolibrary.org/obo/GO_0098569`
+#### Removed
+- [internal side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098569) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of the mycolate outer membrane that faces the cell wall peptidoglycan. It is rich in long-chain mycolic acids (hydroxylated branched-chain fatty acids) that are covalently linked to the cell wall peptidoglycan via an arabinogalactan network." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+#### Added
+- [internal side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098569) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the mycolate outer membrane that faces the cell wall peptidoglycan, including any protein embedded in, attached to, or peripherally associated with it. It is rich in long-chain mycolic acids (hydroxylated branched-chain fatty acids) that are covalently linked to the cell wall peptidoglycan via an arabinogalactan network." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+- [internal side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098569) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### intramembrane lipid transporter activity `http://purl.obolibrary.org/obo/GO_0140303`
 #### Removed
 - [intramembrane lipid transporter activity](http://purl.obolibrary.org/obo/GO_0140303) [label](http://www.w3.org/2000/01/rdf-schema#label) "intramembrane lipid transporter activity" 
@@ -6213,6 +8379,16 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23336" 
 
 - [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [23336](http://rdf.rhea-db.org/23336) 
+
+- [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [iodide](http://purl.obolibrary.org/obo/CHEBI_16382) 
+
+- [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diiodine](http://purl.obolibrary.org/obo/CHEBI_17606) 
+
+- [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
 
 #### Added
 - [iodide peroxidase activity](http://purl.obolibrary.org/obo/GO_0004447) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48960" 
@@ -6279,6 +8455,24 @@ GO:0047635"
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.16.2.1](http://purl.uniprot.org/enzyme/1.16.2.1) 
 
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) SubClassOf [oxidoreductase activity, acting on metal ions](http://purl.obolibrary.org/obo/GO_0016722) 
+
+
+### iso-mithramycin `http://purl.obolibrary.org/obo/CHEBI_234324`
+
+#### Added
+- [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) [label](http://www.w3.org/2000/01/rdf-schema#label) "iso-mithramycin" 
+
+- [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) 
+
+- [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) SubClassOf [oligosaccharide](http://purl.obolibrary.org/obo/CHEBI_50699) 
+
+- [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) SubClassOf [secondary alpha-hydroxy ketone](http://purl.obolibrary.org/obo/CHEBI_2468) 
+
+- [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) SubClassOf [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) 
 
 
 ### isoleucine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009097`
@@ -6379,6 +8573,12 @@ GO:0047635"
 
 #### Added
 - [lactoperoxidase activity](http://purl.obolibrary.org/obo/GO_0140825) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "heme peroxidase activity" 
+
+
+### leukotriene A4(1-) `http://purl.obolibrary.org/obo/CHEBI_57463`
+
+#### Added
+- [leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_57463) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [epi-leukotriene A4(1-)](http://purl.obolibrary.org/obo/CHEBI_193571) 
 
 
 ### leukotriene C4 gamma-glutamyl transferase activity `http://purl.obolibrary.org/obo/GO_0103068`
@@ -6502,12 +8702,286 @@ GO:0047635"
 - [lithocholate 6beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033777) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
 
 
+### long-chain alcohol wax ester `http://purl.obolibrary.org/obo/CHEBI_235323`
+
+#### Added
+- [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) [label](http://www.w3.org/2000/01/rdf-schema#label) "long-chain alcohol wax ester" 
+
+- Class: [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) 
+
+- [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) SubClassOf [wax ester](http://purl.obolibrary.org/obo/CHEBI_10036) 
+
+
 ### long-chain-alcohol O-fatty-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047196`
 #### Removed
 - [long-chain-alcohol O-fatty-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047196) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [wax ester](http://purl.obolibrary.org/obo/CHEBI_10036) 
 
 #### Added
-- [long-chain-alcohol O-fatty-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047196) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235323](http://purl.obolibrary.org/obo/CHEBI_235323) 
+- [long-chain-alcohol O-fatty-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047196) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) 
+
+
+### lumenal side of Golgi membrane `http://purl.obolibrary.org/obo/GO_0098547`
+#### Removed
+- [lumenal side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098547) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of the Golgi membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098547) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the Golgi membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [lumenal side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098547) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of cis-Golgi cisternae membrane `http://purl.obolibrary.org/obo/GO_0160277`
+#### Removed
+- [lumenal side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160277) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the cis-Golgi cisternae membrane that faces the Golgi lumen and is involved in glycosylation and lumen-facing cargo recognition." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [lumenal side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160277) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi cisternae membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where glycosylation and lumen-facing cargo recognition occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+- [lumenal side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160277) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of cis-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0140178`
+#### Removed
+- [lumenal side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the cis-Golgi network directly contacts the Golgi lumen and may be involved in glycosylation, cargo sorting, or interactions with resident Golgi proteins." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29802621" 
+
+#### Added
+- [lumenal side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140178) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi network membrane directly contacts the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where glycosylation, cargo sorting, or interactions with resident Golgi proteins occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29802621" 
+
+
+### lumenal side of early endosome membrane `http://purl.obolibrary.org/obo/GO_0098550`
+#### Removed
+- [lumenal side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098550) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the early endosome membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [lumenal side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098550) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098550) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the early endosome membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### lumenal side of endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098553`
+#### Removed
+- [lumenal side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plasma membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endoplasmic reticulum membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [lumenal side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098553) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of endosome membrane `http://purl.obolibrary.org/obo/GO_0098565`
+#### Removed
+- [lumenal side of endosome membrane](http://purl.obolibrary.org/obo/GO_0098565) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the endosome membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of endosome membrane](http://purl.obolibrary.org/obo/GO_0098565) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endosome membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [lumenal side of endosome membrane](http://purl.obolibrary.org/obo/GO_0098565) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of late endosome membrane `http://purl.obolibrary.org/obo/GO_0098551`
+#### Removed
+- [lumenal side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the late endosome membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [lumenal side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098551) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the late endosomal membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### lumenal side of lysosomal membrane `http://purl.obolibrary.org/obo/GO_0098575`
+#### Removed
+- [lumenal side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098575) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the lysosomal membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098575) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the lysosomal membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [lumenal side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098575) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of medial-Golgi cisterna membrane `http://purl.obolibrary.org/obo/GO_0160280`
+#### Removed
+- [lumenal side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the medial-Golgi cisternae that directly contacts the Golgi lumen, hosts glycosyltransferases and enzymes to modify N-linked oligosaccharides by trimming mannose and adding N-acetylglucosamine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36658747" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [lumenal side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160280) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the medial-Golgi cisternae membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where protein glycosylation occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36658747" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+
+### lumenal side of membrane `http://purl.obolibrary.org/obo/GO_0098576`
+#### Removed
+- [lumenal side of membrane](http://purl.obolibrary.org/obo/GO_0098576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any side (leaflet) of a membrane that faces the lumen of an organelle." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of membrane](http://purl.obolibrary.org/obo/GO_0098576) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of membrane](http://purl.obolibrary.org/obo/GO_0098576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of an organelle membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### lumenal side of plastid thylakoid membrane `http://purl.obolibrary.org/obo/GO_0098571`
+#### Removed
+- [lumenal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plastid thylakoid membrane that faces the lumen, and any proteins embedded in it or loosely bound to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098571) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a plastid thylakoid membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### lumenal side of rough endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098555`
+#### Removed
+- [lumenal side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the rough endoplasmic reticulum membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098555) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the rough endoplasmic reticulum membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### lumenal side of smooth endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098558`
+#### Removed
+- [lumenal side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098558) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the smooth endoplasmic reticulum membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098558) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098558) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the smooth endoplasmic reticulum membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### lumenal side of trans-Golgi cisternae membrane `http://purl.obolibrary.org/obo/GO_0160289`
+#### Removed
+- [lumenal side of trans-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the trans-Golgi cisternae membrane that faces the Golgi lumen. It is involved in the final steps of glycan processing, proteolytic modification, and cargo maturation prior to sorting at the trans-Golgi network." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:6121819" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [lumenal side of trans-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi cisternae membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where the final steps of glycan processing, proteolytic modification, and cargo maturation prior to sorting at the trans-Golgi network occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:6121819" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+- [lumenal side of trans-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160289) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of trans-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0160282`
+#### Removed
+- [lumenal side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160282) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the trans-Golgi network membrane that faces the Golgi lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+#### Added
+- [lumenal side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160282) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi network membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+- [lumenal side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160282) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of trans-Golgi network transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098540`
+#### Removed
+- [lumenal side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098540) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the trans-Golgi network transport vesicle membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098540) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098540) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a trans-Golgi network transport vesicle membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### lumenal side of transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098538`
+#### Removed
+- [lumenal side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the transport vesicle membrane that faces the lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a transport vesicle membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [lumenal side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098538) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### lysine-pyruvate 6-transaminase activity `http://purl.obolibrary.org/obo/GO_0050065`
@@ -6644,6 +9118,18 @@ GO:0047635"
 - [mating type region replication fork barrier binding](http://purl.obolibrary.org/obo/GO_1990943) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a precomposed term." 
 
 - [mating type region replication fork barrier binding](http://purl.obolibrary.org/obo/GO_1990943) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31529"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### matrix side of mitochondrial inner membrane `http://purl.obolibrary.org/obo/GO_0099617`
+#### Removed
+- [matrix side of mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0099617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the mitochondrial inner membrane that faces the matrix." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [matrix side of mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0099617) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [matrix side of mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0099617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a mitochondrial inner membrane that faces the matrix, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
 
 
 ### melanosomal lumen acidification `http://purl.obolibrary.org/obo/GO_7770038`
@@ -6814,6 +9300,24 @@ GO:0047635"
 - [methylselenocysteine deselenhydrase activity](http://purl.obolibrary.org/obo/GO_0098607) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31530"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### mithramycin DK `http://purl.obolibrary.org/obo/CHEBI_81906`
+
+#### Added
+- [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) [label](http://www.w3.org/2000/01/rdf-schema#label) "mithramycin DK" 
+
+- [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- Class: [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) 
+
+- [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) SubClassOf [secondary alpha-hydroxy ketone](http://purl.obolibrary.org/obo/CHEBI_2468) 
+
+- [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) SubClassOf [aureolic acid](http://purl.obolibrary.org/obo/CHEBI_52513) 
+
+- [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) SubClassOf [carbotricyclic compound](http://purl.obolibrary.org/obo/CHEBI_38032) 
+
+
 ### mithramycin dehydrogenase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0102357`
 
 #### Added
@@ -6823,11 +9327,11 @@ GO:0047635"
 
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
 
-- [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_81906](http://purl.obolibrary.org/obo/CHEBI_81906) 
+- [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [mithramycin DK](http://purl.obolibrary.org/obo/CHEBI_81906) 
 
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
 
-- [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234324](http://purl.obolibrary.org/obo/CHEBI_234324) 
+- [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [iso-mithramycin](http://purl.obolibrary.org/obo/CHEBI_234324) 
 
 - [mithramycin dehydrogenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0102357) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
@@ -6857,11 +9361,13 @@ GO:0047635"
 
 - [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-04T18:20:09Z" 
 
-- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770045" 
-
 - [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
 
 - [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
+- [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770045" 
 
 - [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of GCN2-mediated signaling" 
 
@@ -7350,6 +9856,10 @@ GO:0047635"
 
 ### obsolete glutamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006542`
 #### Removed
+- [obsolete glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006542) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLNSYN-PWY" 
+
+- [obsolete glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006542) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLNSYN-PWY) 
+
 - [obsolete glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006542) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
 
 
@@ -7420,6 +9930,12 @@ GO:0047635"
 - [organelle membrane](http://purl.obolibrary.org/obo/GO_0031090) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 - [organelle membrane](http://purl.obolibrary.org/obo/GO_0031090) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31446"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### organic sulfide `http://purl.obolibrary.org/obo/CHEBI_16385`
+
+#### Added
+- [organic sulfide](http://purl.obolibrary.org/obo/CHEBI_16385) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
 
 
 ### ornithine aminotransferase activity `http://purl.obolibrary.org/obo/GO_0004587`
@@ -7570,6 +10086,34 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.2.12" 
 
 
+### periplasmic side of cell outer membrane `http://purl.obolibrary.org/obo/GO_0031241`
+#### Removed
+- [periplasmic side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the outer membrane that faces the periplasm of the cell." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+#### Added
+- [periplasmic side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031241) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [periplasmic side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a outer cell membrane that faces the periplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+
+### periplasmic side of plasma membrane `http://purl.obolibrary.org/obo/GO_0098567`
+#### Removed
+- [periplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0098567) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of a plasma membrane that faces the periplasm, and all proteins embedded in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [periplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0098567) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the periplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [periplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0098567) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### periplastidial membrane `http://purl.obolibrary.org/obo/GO_7770041`
 
 #### Added
@@ -7693,9 +10237,41 @@ GO:0047635"
 - [phosphatidylcholine transporter activity](http://purl.obolibrary.org/obo/GO_0008525) SubClassOf [intramembrane lipid transporter activity](http://purl.obolibrary.org/obo/GO_0140303) 
 
 
+### phosphatidylethanolamine (16:0/16:1) `http://purl.obolibrary.org/obo/CHEBI_136147`
+
+#### Added
+- [phosphatidylethanolamine (16:0/16:1)](http://purl.obolibrary.org/obo/CHEBI_136147) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [phosphatidylethanolamine (16:0/16:1)](http://purl.obolibrary.org/obo/CHEBI_136147) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphatidylethanolamine (16:0/16:1)" 
+
+- Class: [phosphatidylethanolamine (16:0/16:1)](http://purl.obolibrary.org/obo/CHEBI_136147) 
+
+- [phosphatidylethanolamine (16:0/16:1)](http://purl.obolibrary.org/obo/CHEBI_136147) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [Papio hamadryas metabolite](http://purl.obolibrary.org/obo/CHEBI_137684) 
+
+- [phosphatidylethanolamine (16:0/16:1)](http://purl.obolibrary.org/obo/CHEBI_136147) SubClassOf [1,2-diacyl-sn-glycero-3-phosphoethanolamine](http://purl.obolibrary.org/obo/CHEBI_64674) 
+
+
+### phosphatidylethanolamine O-36:1 `http://purl.obolibrary.org/obo/CHEBI_156011`
+
+#### Added
+- [phosphatidylethanolamine O-36:1](http://purl.obolibrary.org/obo/CHEBI_156011) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [phosphatidylethanolamine O-36:1](http://purl.obolibrary.org/obo/CHEBI_156011) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphatidylethanolamine O-36:1" 
+
+- Class: [phosphatidylethanolamine O-36:1](http://purl.obolibrary.org/obo/CHEBI_156011) 
+
+- [phosphatidylethanolamine O-36:1](http://purl.obolibrary.org/obo/CHEBI_156011) SubClassOf [alkyl,acyl-sn-glycero-3-phosphoethanolamine](http://purl.obolibrary.org/obo/CHEBI_68520) 
+
+
 ### phosphatidylethanolamine floppase activity `http://purl.obolibrary.org/obo/GO_0140341`
 #### Removed
 - [phosphatidylethanolamine floppase activity](http://purl.obolibrary.org/obo/GO_0140341) SubClassOf [phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) 
+
+
+
+### phosphatidylinositol bisphosphate(5-) `http://purl.obolibrary.org/obo/CHEBI_83191`
+#### Removed
+- [phosphatidylinositol bisphosphate(5-)](http://purl.obolibrary.org/obo/CHEBI_83191) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
 
 
 
@@ -8019,9 +10595,6 @@ GO:0047635"
 - [positive regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902955) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of early endosome to recycling endosome transport" 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-- [positive regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902955) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of early endosome to recycling endosome transport" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
-
 - [positive regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902955) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of early endosome to recycling endosome transport" 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -8035,6 +10608,11 @@ GO:0047635"
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22621900" 
 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902955) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
+- [positive regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902955) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of early endosome to recycling endosome transport" 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902955) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_0061502)) 
@@ -8244,6 +10822,8 @@ GO:0047635"
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
+- [protein localization to mating-type region heterochromatin](http://purl.obolibrary.org/obo/GO_1903212) [conformsTo](http://purl.org/dc/terms/conformsTo) [protein_localization_to.yaml](http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml) 
+
 - [protein localization to mating-type region heterochromatin](http://purl.obolibrary.org/obo/GO_1903212) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein localization to mating-type region heterochromatin" 
 
 - [protein localization to mating-type region heterochromatin](http://purl.obolibrary.org/obo/GO_1903212) EquivalentTo [intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [mating-type region heterochromatin](http://purl.obolibrary.org/obo/GO_0031934)) 
@@ -8356,7 +10936,7 @@ GO:0047635"
 
 - [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-lysinium residue](http://purl.obolibrary.org/obo/CHEBI_29969) 
 
-- [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_156053](http://purl.obolibrary.org/obo/CHEBI_156053) 
+- [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N(6)-((3R)-3,6-diaminohexanoyl)-L-lysine(2+) residue](http://purl.obolibrary.org/obo/CHEBI_156053) 
 
 - [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [adenosine 5'-monophosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_456215) 
 
@@ -8452,11 +11032,11 @@ GO:0047635"
 
 - [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [diphosphate(3-)](http://purl.obolibrary.org/obo/CHEBI_33019) 
 
-- [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234382](http://purl.obolibrary.org/obo/CHEBI_234382) 
+- [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [guanylylpyridinol(2-)](http://purl.obolibrary.org/obo/CHEBI_234382) 
 
 - [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [GTP(4-)](http://purl.obolibrary.org/obo/CHEBI_37565) 
 
-- [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_234381](http://purl.obolibrary.org/obo/CHEBI_234381) 
+- [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [6-carboxymethyl-3,5-dimethyl-4-hydroxypyridin-2-ol(2-)](http://purl.obolibrary.org/obo/CHEBI_234381) 
 
 - [pyridinol guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0160298) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
@@ -8477,10 +11057,22 @@ GO:0047635"
 
 ### pyridoxamine phosphate oxidase activity `http://purl.obolibrary.org/obo/GO_0004733`
 #### Removed
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [15817](http://rdf.rhea-db.org/15817) 
+
 - [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: pyridoxamine 5'-phosphate + H2O + O2 = pyridoxal 5'-phosphate + NH4+ + hydrogen peroxide. This activity can also oxidize pyridoxine 5'-phosphate to pyridoxal 5'-phosphate + hydrogen peroxide." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11786019" 
 
-- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [15817](http://rdf.rhea-db.org/15817) 
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyridoxal 5'-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_597326) 
+
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ammonium](http://purl.obolibrary.org/obo/CHEBI_28938) 
+
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [pyridoxamine 5'-phosphate(1-)](http://purl.obolibrary.org/obo/CHEBI_58451) 
+
+- [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
 
 #### Added
 - [pyridoxamine phosphate oxidase activity](http://purl.obolibrary.org/obo/GO_0004733) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [15149](http://rdf.rhea-db.org/15149) 
@@ -8599,6 +11191,12 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85679" 
 
 - [queuine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0160283) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [queuine](http://purl.obolibrary.org/obo/CHEBI_17433) 
+
+
+### queuosine `http://purl.obolibrary.org/obo/CHEBI_60193`
+
+#### Added
+- [queuosine](http://purl.obolibrary.org/obo/CHEBI_60193) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
 
 
 ### queuosine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0160286`
@@ -8877,6 +11475,8 @@ GO:0047635"
 
 ### regulation of early endosome to recycling endosome transport `http://purl.obolibrary.org/obo/GO_1902954`
 #### Removed
+- [regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902954) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902954) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of early endosome to recycling endosome transport." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
@@ -8885,6 +11485,8 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22621900" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902954) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
 
 - [regulation of early endosome to recycling endosome transport](http://purl.obolibrary.org/obo/GO_1902954) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of early endosome to recycling endosome transport" 
 
@@ -9143,6 +11745,24 @@ GO:0047635"
 - [serine O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0009001) SubClassOf [amino acid acyltransferase activity](http://purl.obolibrary.org/obo/GO_0140379) 
 
 
+### serine family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009070`
+#### Removed
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6292" 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SULFATE-CYS-PWY](http://identifiers.org/metacyc.reaction/SULFATE-CYS-PWY) 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SER-GLYSYN-PWY](http://identifiers.org/metacyc.reaction/SER-GLYSYN-PWY) 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6292](http://identifiers.org/metacyc.reaction/PWY-6292) 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFATE-CYS-PWY" 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SER-GLYSYN-PWY" 
+
+#### Added
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### serine-sulfate ammonia-lyase activity `http://purl.obolibrary.org/obo/GO_0050283`
 #### Removed
 - [serine-sulfate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0050283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-serine O-sulfate + H2O = pyruvate + NH3 + sulfate." 
@@ -9153,6 +11773,16 @@ GO:0047635"
 #### Added
 - [serine-sulfate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0050283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: -serine O-sulfate + H2O = sulfate + pyruvate + NH4+ + H+." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15605" 
+
+
+### side of membrane `http://purl.obolibrary.org/obo/GO_0098552`
+#### Removed
+- [side of membrane](http://purl.obolibrary.org/obo/GO_0098552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular component consisting of one leaflet of a membrane bilayer and any proteins embedded or anchored in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [side of membrane](http://purl.obolibrary.org/obo/GO_0098552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular component consisting of one leaflet of a membrane bilayer and any protein embedded or anchored in it or attached to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
 
 
 ### small RNA 2'-O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0090486`
@@ -9223,6 +11853,28 @@ GO:0047635"
 - [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
 
+### sphinga-(4E,8Z)-dienine(1+) `http://purl.obolibrary.org/obo/CHEBI_157606`
+
+#### Added
+- [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) [label](http://www.w3.org/2000/01/rdf-schema#label) "sphinga-(4E,8Z)-dienine(1+)" 
+
+- Class: [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) 
+
+- [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [sphinga-4E,8E-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_72758) 
+
+- [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) SubClassOf [sphingoid base(1+)](http://purl.obolibrary.org/obo/CHEBI_84410) 
+
+
+### sphinga-4E,8E-dienine(1+) `http://purl.obolibrary.org/obo/CHEBI_72758`
+
+#### Added
+- [sphinga-4E,8E-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_72758) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [sphinga-(4E,8Z)-dienine(1+)](http://purl.obolibrary.org/obo/CHEBI_157606) 
+
+
 ### sphingolipid transfer activity `http://purl.obolibrary.org/obo/GO_0120016`
 #### Removed
 - [sphingolipid transfer activity](http://purl.obolibrary.org/obo/GO_0120016) SubClassOf [sphingolipid transporter activity](http://purl.obolibrary.org/obo/GO_0046624) 
@@ -9257,6 +11909,30 @@ GO:0047635"
 - [steroid 11-beta-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004507) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
 
 - [steroid 11-beta-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004507) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### stromal side of plastid inner membrane `http://purl.obolibrary.org/obo/GO_0098570`
+#### Removed
+- [stromal side of plastid inner membrane](http://purl.obolibrary.org/obo/GO_0098570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plastid inner membrane that faces the stroma, and any proteins embedded in it or loosely bound to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [stromal side of plastid inner membrane](http://purl.obolibrary.org/obo/GO_0098570) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [stromal side of plastid inner membrane](http://purl.obolibrary.org/obo/GO_0098570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plastid inner membrane that faces the stroma, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### stromal side of plastid thylakoid membrane `http://purl.obolibrary.org/obo/GO_0098572`
+#### Removed
+- [stromal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098572) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plastid thylakoid membrane that faces the stroma, and any proteins embedded in it or loosely bound to its surface." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [stromal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098572) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [stromal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098572) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plastid thylakoid membrane that faces the stroma, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
 
 
 ### succinyldiaminopimelate transaminase activity `http://purl.obolibrary.org/obo/GO_0009016`
@@ -9351,12 +12027,18 @@ GO:0047635"
 #### Removed
 - [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102)) 
 
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0006793) 
+
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) 
+
 - [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(3-)](http://purl.obolibrary.org/obo/CHEBI_60102) 
 
 #### Added
 - [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685)) 
 
 - [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [Mo(VI)(=O)(=S)(OH)-molybdopterin cofactor(4-)](http://purl.obolibrary.org/obo/CHEBI_82685) 
+
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [Mo-molybdopterin cofactor biosynthetic process](http://purl.obolibrary.org/obo/GO_0006777) 
 
 
 ### superoxide dismutase activity `http://purl.obolibrary.org/obo/GO_0004784`
@@ -9613,6 +12295,20 @@ GO:0047635"
 
 - [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [16873](http://rdf.rhea-db.org/16873) 
 
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(6S)-5,6,7,8-tetrahydrofolate(2-)](http://purl.obolibrary.org/obo/CHEBI_57453) 
+
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [5-methyluridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74447) 
+
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NAD(1-)](http://purl.obolibrary.org/obo/CHEBI_57540) 
+
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(6R)-5,10-methylenetetrahydrofolate(2-)](http://purl.obolibrary.org/obo/CHEBI_15636) 
+
+- [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [uridine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_65315) 
+
 #### Added
 - [tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent](http://purl.obolibrary.org/obo/GO_0047151) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62372" 
 
@@ -9729,9 +12425,9 @@ GO:0047635"
 
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
-- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
-
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208)) 
+
+- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
 
 
 ### taurine-2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0050322`
@@ -9823,6 +12519,16 @@ GO:0047635"
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:69416" 
 
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogen peroxide](http://purl.obolibrary.org/obo/CHEBI_16240) 
+
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [thiocyanate](http://purl.obolibrary.org/obo/CHEBI_18022) 
+
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hypothiocyanous acid](http://purl.obolibrary.org/obo/CHEBI_133907) 
+
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
 
 ### thioredoxin peroxidase activity `http://purl.obolibrary.org/obo/GO_0008379`
 #### Removed
@@ -9864,6 +12570,18 @@ GO:0047635"
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [trans-4-hydroxy-L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0019470) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### trans-4-hydroxycyclohexanecarboxylate `http://purl.obolibrary.org/obo/CHEBI_57906`
+#### Removed
+- [trans-4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_57906) SubClassOf [4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_747087) 
+
+#### Added
+- [trans-4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_57906) SubClassOf [hydroxy monocarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_36059) 
+
+- [trans-4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_57906) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [cis-4-hydroxycyclohexane-1-carboxylate](http://purl.obolibrary.org/obo/CHEBI_229701) 
+
+- [trans-4-hydroxycyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_57906) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [cyclohexanecarboxylate](http://purl.obolibrary.org/obo/CHEBI_27804) 
 
 
 ### transcription coregulator activity `http://purl.obolibrary.org/obo/GO_0003712`
@@ -10133,7 +12851,7 @@ GO:0047635"
 - [wax-ester hydrolase activity](http://purl.obolibrary.org/obo/GO_0050398) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [wax ester](http://purl.obolibrary.org/obo/CHEBI_10036) 
 
 #### Added
-- [wax-ester hydrolase activity](http://purl.obolibrary.org/obo/GO_0050398) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235323](http://purl.obolibrary.org/obo/CHEBI_235323) 
+- [wax-ester hydrolase activity](http://purl.obolibrary.org/obo/GO_0050398) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [long-chain alcohol wax ester](http://purl.obolibrary.org/obo/CHEBI_235323) 
 
 
 ### xanthine oxidase activity `http://purl.obolibrary.org/obo/GO_0004855`

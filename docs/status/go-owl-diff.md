@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-10/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-11/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,29 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-10" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-11" 
+
+
+### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
+
+#### Added
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HSERMETANA-PWY](http://identifiers.org/metacyc.reaction/HSERMETANA-PWY) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7977](http://identifiers.org/metacyc.reaction/PWY-7977) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HOMOSER-METSYN-PWY](http://identifiers.org/metacyc.reaction/HOMOSER-METSYN-PWY) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7977" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-702](http://identifiers.org/metacyc.reaction/PWY-702) 
 
 
 ### (2S)-2-aminobutanoate:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0120554`
@@ -766,6 +788,14 @@
 - [GPI anchor phospholipase D activity](http://purl.obolibrary.org/obo/GO_0004621) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86263" 
 
 
+### GW body `http://purl.obolibrary.org/obo/GO_0140364`
+#### Removed
+- [GW body](http://purl.obolibrary.org/obo/GO_0140364) SubClassOf [cytoplasmic ribonucleoprotein granule](http://purl.obolibrary.org/obo/GO_0036464) 
+
+#### Added
+- [GW body](http://purl.obolibrary.org/obo/GO_0140364) SubClassOf [ribonucleoprotein granule](http://purl.obolibrary.org/obo/GO_0035770) 
+
+
 ### L,L-diaminopimelate:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0010285`
 #### Removed
 - [L,L-diaminopimelate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0010285) [label](http://www.w3.org/2000/01/rdf-schema#label) "L,L-diaminopimelate aminotransferase activity" 
@@ -864,6 +894,60 @@
 
 - [L-2-aminohexanoate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0047537) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-2-aminohexanoate + 2-oxoglutarate = 2-oxohexanoate + L-glutamate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23600" 
+
+
+### L-alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0042852`
+#### Removed
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1061" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY0-1061](http://identifiers.org/metacyc.reaction/PWY0-1061) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-alanine, the L-enantiomer of 2-aminopropanoic acid, i.e. (2S)-2-aminopropanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1061" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+#### Added
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1021" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-VALINESYN-PWY" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ALANINE-SYN2-PWY](http://identifiers.org/metacyc.reaction/ALANINE-SYN2-PWY) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-alanine, the L-enantiomer of 2-aminopropanoic acid, i.e. (2S)-2-aminopropanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ALANINE-VALINESYN-PWY](http://identifiers.org/metacyc.reaction/ALANINE-VALINESYN-PWY) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-SYN2-PWY" 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042852) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY0-1021](http://identifiers.org/metacyc.reaction/PWY0-1021) 
+
+
+### L-alanine biosynthetic process from pyruvate `http://purl.obolibrary.org/obo/GO_0019272`
+#### Removed
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-SYN2-PWY" 
+
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [ALANINE-SYN2-PWY](http://identifiers.org/metacyc.reaction/ALANINE-SYN2-PWY) 
+
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of alanine from other compounds, including pyruvate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALANINE-SYN2-PWY" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+#### Added
+- [L-alanine biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of alanine from other compounds, including pyruvate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
 
 ### L-alanine catabolic process `http://purl.obolibrary.org/obo/GO_0042853`
@@ -1025,6 +1109,24 @@ GO:0047635"
 - [L-arginine N-succinyltransferase activity](http://purl.obolibrary.org/obo/GO_0008791) SubClassOf [amino acid acyltransferase activity](http://purl.obolibrary.org/obo/GO_0140379) 
 
 
+### L-arginine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006526`
+
+#### Added
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5154" 
+
+- [L-arginine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006526) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5154](http://identifiers.org/metacyc.reaction/PWY-5154) 
+
+
+### L-arginine biosynthetic process via N-acetyl-L-citrulline `http://purl.obolibrary.org/obo/GO_0170067`
+#### Removed
+- [L-arginine biosynthetic process via N-acetyl-L-citrulline](http://purl.obolibrary.org/obo/GO_0170067) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5154" 
+
+- [L-arginine biosynthetic process via N-acetyl-L-citrulline](http://purl.obolibrary.org/obo/GO_0170067) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-5154](http://identifiers.org/metacyc.reaction/PWY-5154) 
+
+
+
 ### L-arginine catabolic process `http://purl.obolibrary.org/obo/GO_0006527`
 #### Removed
 - [L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_0006527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-arginine, 2-amino-5-(carbamimidamido)pentanoic acid." 
@@ -1045,6 +1147,32 @@ GO:0047635"
 #### Added
 - [L-ascorbate peroxidase activity](http://purl.obolibrary.org/obo/GO_0016688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-ascorbate + H2O2 = dehydroascorbate + 2 H2O." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.11.1.11" 
+
+
+### L-asparagine biosynthetic process `http://purl.obolibrary.org/obo/GO_0070981`
+
+#### Added
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINESYN-PWY" 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ASPARAGINE-BIOSYNTHESIS](http://identifiers.org/metacyc.reaction/ASPARAGINE-BIOSYNTHESIS) 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINE-BIOSYNTHESIS" 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ASPARAGINESYN-PWY](http://identifiers.org/metacyc.reaction/ASPARAGINESYN-PWY) 
+
+
+### L-asparagine biosynthetic process from L-cysteine `http://purl.obolibrary.org/obo/GO_0019267`
+#### Removed
+- [L-asparagine biosynthetic process from L-cysteine](http://purl.obolibrary.org/obo/GO_0019267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPSYNII-PWY" 
+
+
+
+### L-asparagine biosynthetic process from oxaloacetate `http://purl.obolibrary.org/obo/GO_0019266`
+#### Removed
+- [L-asparagine biosynthetic process from oxaloacetate](http://purl.obolibrary.org/obo/GO_0019266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINE-BIOSYNTHESIS" 
+
 
 
 ### L-asparagine catabolic process `http://purl.obolibrary.org/obo/GO_0006530`
@@ -1164,6 +1292,88 @@ GO:0047635"
 - [L-citrulline catabolic process](http://purl.obolibrary.org/obo/GO_0019241) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-citrulline catabolic process](http://purl.obolibrary.org/obo/GO_0019241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-citrulline." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-cysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019344`
+
+#### Added
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-I9" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6308" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8010](http://identifiers.org/metacyc.reaction/PWY-8010) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8009](http://identifiers.org/metacyc.reaction/PWY-8009) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8009" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6308](http://identifiers.org/metacyc.reaction/PWY-6308) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7870" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HOMOCYSDEGR-PWY](http://identifiers.org/metacyc.reaction/HOMOCYSDEGR-PWY) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [CYSTSYN-PWY](http://identifiers.org/metacyc.reaction/CYSTSYN-PWY) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7870](http://identifiers.org/metacyc.reaction/PWY-7870) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOCYSDEGR-PWY" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7289](http://identifiers.org/metacyc.reaction/PWY-7289) 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8010" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7289" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CYSTSYN-PWY" 
+
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-I9](http://identifiers.org/metacyc.reaction/PWY-I9) 
+
+
+### L-cysteine biosynthetic process from L-serine `http://purl.obolibrary.org/obo/GO_0006535`
+#### Removed
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CYSTSYN-PWY" 
+
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [CYSTSYN-PWY](http://identifiers.org/metacyc.reaction/CYSTSYN-PWY) 
+
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cysteine from L- serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CYSTSYN-PWY" 
+
+#### Added
+- [L-cysteine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0006535) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cysteine from L- serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-cysteine biosynthetic process via L-cystathionine `http://purl.obolibrary.org/obo/GO_0019343`
+#### Removed
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [HOMOCYSDEGR-PWY](http://identifiers.org/metacyc.reaction/HOMOCYSDEGR-PWY) 
+
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOCYSDEGR-PWY" 
+
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate L-cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOCYSDEGR-PWY" 
+
+#### Added
+- [L-cysteine biosynthetic process via L-cystathionine](http://purl.obolibrary.org/obo/GO_0019343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate L-cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+
+### L-cysteine biosynthetic process via S-sulfo-L-cysteine `http://purl.obolibrary.org/obo/GO_0019345`
+#### Removed
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-7289](http://identifiers.org/metacyc.reaction/PWY-7289) 
+
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate S-sulfo-L-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7289" 
+
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7289" 
+
+#### Added
+- [L-cysteine biosynthetic process via S-sulfo-L-cysteine](http://purl.obolibrary.org/obo/GO_0019345) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-cysteine, via the intermediate S-sulfo-L-cysteine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
@@ -1307,6 +1517,32 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.35" 
 
 
+### L-glutamate biosynthetic process `http://purl.obolibrary.org/obo/GO_0097054`
+
+#### Added
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTAMATE-SYN2-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUGLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLUGLNSYN-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4341" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTSYNIII-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUTSYN-PWY](http://identifiers.org/metacyc.reaction/GLUTSYN-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUTAMATE-SYN2-PWY](http://identifiers.org/metacyc.reaction/GLUTAMATE-SYN2-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTSYN-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUGLNSYN-PWY" 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLUTSYNIII-PWY](http://identifiers.org/metacyc.reaction/GLUTSYNIII-PWY) 
+
+- [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4341](http://identifiers.org/metacyc.reaction/PWY-4341) 
+
+
 ### L-glutamate catabolic process `http://purl.obolibrary.org/obo/GO_0006538`
 #### Removed
 - [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-glutamate, the anion of 2-aminopentanedioic acid." 
@@ -1417,6 +1653,18 @@ GO:0047635"
 - [L-glutamine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047946) SubClassOf [L-amino-acid N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0140085) 
 
 
+### L-glutamine biosynthetic process `http://purl.obolibrary.org/obo/GO_1901704`
+
+#### Added
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLNSYN-PWY" 
+
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLNSYN-PWY) 
+
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-5505](http://identifiers.org/metacyc.reaction/PWY-5505) 
+
+- [L-glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901704) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-glutamine catabolic process `http://purl.obolibrary.org/obo/GO_0006543`
 #### Removed
 - [L-glutamine catabolic process](http://purl.obolibrary.org/obo/GO_0006543) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-glutamine, 2-amino-4-carbamoylbutanoic acid." 
@@ -1427,6 +1675,24 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [L-glutamine catabolic process](http://purl.obolibrary.org/obo/GO_0006543) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-glutamine family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009084`
+#### Removed
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the glutamine family, comprising arginine, glutamate, glutamine and proline." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTAMINE-SYN" 
+
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLUTAMINE-SYN](http://identifiers.org/metacyc.reaction/GLUTAMINE-SYN) 
+
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUTAMINE-SYN" 
+
+#### Added
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-glutamine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the glutamine family, comprising arginine, glutamate, glutamine and proline." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 
 ### L-glutamine:D-fructose-6-phosphate transaminase (isomerizing) activity `http://purl.obolibrary.org/obo/GO_0004360`
@@ -1537,6 +1803,18 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24596" 
 
 
+### L-histidine biosynthetic process `http://purl.obolibrary.org/obo/GO_0000105`
+
+#### Added
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5029" 
+
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5029](http://identifiers.org/metacyc.reaction/PWY-5029) 
+
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HISTSYN-PWY](http://identifiers.org/metacyc.reaction/HISTSYN-PWY) 
+
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-histidine catabolic process `http://purl.obolibrary.org/obo/GO_0006548`
 #### Removed
 - [L-histidine catabolic process](http://purl.obolibrary.org/obo/GO_0006548) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-histidine, 2-amino-3-(1H-imidazol-4-yl)propanoic acid." 
@@ -1618,21 +1896,27 @@ GO:0047635"
 #### Added
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5103](http://identifiers.org/metacyc.reaction/PWY-5103) 
 
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ILEUSYN-PWY](http://identifiers.org/metacyc.reaction/ILEUSYN-PWY) 
+
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5104" 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5104](http://identifiers.org/metacyc.reaction/PWY-5104) 
 
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ILEUSYN-PWY" 
+
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5108](http://identifiers.org/metacyc.reaction/PWY-5108) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5108" 
-
-- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30848"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5101" 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5101](http://identifiers.org/metacyc.reaction/PWY-5101) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5103" 
+
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30848"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-isoleucine biosynthetic process](http://purl.obolibrary.org/obo/GO_1901705) SubClassOf [branched-chain amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009082) 
 
@@ -1763,6 +2047,136 @@ GO:0047635"
 - [L-lysine N6-acetyltransferase activity, acting on acetyl phosphate as donor](http://purl.obolibrary.org/obo/GO_0004468) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-lysine N6-acetyltransferase activity, acting on acetyl phosphate as donor" 
 
 
+### L-lysine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009085`
+#### Removed
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-SYN" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [LYSINE-SYN](http://identifiers.org/metacyc.reaction/LYSINE-SYN) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine, 2,6-diaminohexanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-SYN" 
+
+#### Added
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [DAPLYSINESYN-PWY](http://identifiers.org/metacyc.reaction/DAPLYSINESYN-PWY) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3081" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2941" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [LYSINE-AMINOAD-PWY](http://identifiers.org/metacyc.reaction/LYSINE-AMINOAD-PWY) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5097" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2942](http://identifiers.org/metacyc.reaction/PWY-2942) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine, 2,6-diaminohexanoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2942" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2941](http://identifiers.org/metacyc.reaction/PWY-2941) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-AMINOAD-PWY" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3081](http://identifiers.org/metacyc.reaction/PWY-3081) 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DAPLYSINESYN-PWY" 
+
+- [L-lysine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5097](http://identifiers.org/metacyc.reaction/PWY-5097) 
+
+
+### L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate `http://purl.obolibrary.org/obo/GO_0051976`
+#### Removed
+- [L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate](http://purl.obolibrary.org/obo/GO_0051976) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3081" 
+
+- [L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate](http://purl.obolibrary.org/obo/GO_0051976) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and N2-acetyl-alpha-aminoadipate. This pathway of prokaryotic lysine biosynthesis via alpha-aminoadipate was discovered in the hyper-thermophilic Gram-negative eubacterium Thermus thermophilus. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This undergoes acetylation, to form N2-acetyl-alpha-aminoadipate, and is then phosphorylated to give N2-acetyl-alpha-aminoadipyl-delta-phosphate. This is converted to N2-acetyl-alpha-aminoadipate semialdehyde, which is then converted to N2-acetyl-L-lysine. A final deacetylation reaction produces L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3081" 
+
+#### Added
+- [L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate](http://purl.obolibrary.org/obo/GO_0051976) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and N2-acetyl-alpha-aminoadipate. This pathway of prokaryotic lysine biosynthesis via alpha-aminoadipate was discovered in the hyper-thermophilic Gram-negative eubacterium Thermus thermophilus. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This undergoes acetylation, to form N2-acetyl-alpha-aminoadipate, and is then phosphorylated to give N2-acetyl-alpha-aminoadipyl-delta-phosphate. This is converted to N2-acetyl-alpha-aminoadipate semialdehyde, which is then converted to N2-acetyl-L-lysine. A final deacetylation reaction produces L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-lysine biosynthetic process via alpha-aminoadipate and saccharopine `http://purl.obolibrary.org/obo/GO_0051975`
+#### Removed
+- [L-lysine biosynthetic process via alpha-aminoadipate and saccharopine](http://purl.obolibrary.org/obo/GO_0051975) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-AMINOAD-PWY" 
+
+- [L-lysine biosynthetic process via alpha-aminoadipate and saccharopine](http://purl.obolibrary.org/obo/GO_0051975) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and saccharopine. This pathway is used by yeast and fungi to synthesize the essential amino acid L-lysine, and pathway intermediates are often incorporated into secondary metabolic processes. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This is then reduced to form alpha-aminoadipate 6-semialdehyde, which is metabolized to saccharopine and finally L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:LYSINE-AMINOAD-PWY" 
+
+#### Added
+- [L-lysine biosynthetic process via alpha-aminoadipate and saccharopine](http://purl.obolibrary.org/obo/GO_0051975) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-lysine via the intermediates alpha-aminoadipic acid and saccharopine. This pathway is used by yeast and fungi to synthesize the essential amino acid L-lysine, and pathway intermediates are often incorporated into secondary metabolic processes. The pathway proceeds as follows: alpha-ketoglutarate is converted to homocitrate, which is metabolized to 3-carboxyhex-2-enedioate and then homoisocitrate. This is then decarboxylated to form alpha-ketoadipate, which is then converted to alpha-aminoadipate. This is then reduced to form alpha-aminoadipate 6-semialdehyde, which is metabolized to saccharopine and finally L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate `http://purl.obolibrary.org/obo/GO_0033360`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate](http://purl.obolibrary.org/obo/GO_0033360) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2941" 
+
+- [L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate](http://purl.obolibrary.org/obo/GO_0033360) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and L-2-acetamido-6-oxoheptanedioate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2941" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate](http://purl.obolibrary.org/obo/GO_0033360) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and L-2-acetamido-6-oxoheptanedioate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+
+### L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate `http://purl.obolibrary.org/obo/GO_0033359`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate](http://purl.obolibrary.org/obo/GO_0033359) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DAPLYSINESYN-PWY" 
+
+- [L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate](http://purl.obolibrary.org/obo/GO_0033359) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and N-succinyl-2-amino-6-ketopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DAPLYSINESYN-PWY" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate](http://purl.obolibrary.org/obo/GO_0033359) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediates diaminopimelate and N-succinyl-2-amino-6-ketopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in four enzymatic steps." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+
+### L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway `http://purl.obolibrary.org/obo/GO_0033361`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway](http://purl.obolibrary.org/obo/GO_0033361) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2942" 
+
+- [L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway](http://purl.obolibrary.org/obo/GO_0033361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in a single enzymatic step." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2942" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway](http://purl.obolibrary.org/obo/GO_0033361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in a single enzymatic step." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+
+### L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway `http://purl.obolibrary.org/obo/GO_0033362`
+#### Removed
+- [L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway](http://purl.obolibrary.org/obo/GO_0033362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in two enzymatic steps." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5097" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+- [L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway](http://purl.obolibrary.org/obo/GO_0033362) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5097" 
+
+#### Added
+- [L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway](http://purl.obolibrary.org/obo/GO_0033362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lysine, via the intermediate diaminopimelate; in this pathway tetrahydrodipicolinate is converted to meso-diaminopimelate in two enzymatic steps." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+
 ### L-lysine catabolic process `http://purl.obolibrary.org/obo/GO_0019477`
 #### Removed
 - [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-lysine, the L-enantiomer of (S)-2,6-diaminohexanoic acid." 
@@ -1843,6 +2257,42 @@ GO:0047635"
 - [L-lysine:pyruvate alpha-transaminase activity](http://purl.obolibrary.org/obo/GO_0062045) SubClassOf [amino acid transaminase activity](http://purl.obolibrary.org/obo/GO_0140385) 
 
 
+### L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071265`
+
+#### Added
+- [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine `http://purl.obolibrary.org/obo/GO_0019280`
+#### Removed
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+
+
+
+### L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0019283`
+#### Removed
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
+
+
+
+### L-methionine biosynthetic process from L-homoserine via cystathionine `http://purl.obolibrary.org/obo/GO_0019279`
+#### Removed
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
+
+
+
+### L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0019281`
+#### Removed
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MET-SAM-PWY" 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MET-SAM-PWY" 
+
+#### Added
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
 ### L-methionine catabolic process `http://purl.obolibrary.org/obo/GO_0009087`
 #### Removed
 - [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins." 
@@ -1855,6 +2305,70 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-methionine salvage `http://purl.obolibrary.org/obo/GO_0071267`
+
+#### Added
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8132](http://identifiers.org/metacyc.reaction/PWY-8132) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8132" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ADENOSYLHOMOCYSCAT-PWY](http://identifiers.org/metacyc.reaction/ADENOSYLHOMOCYSCAT-PWY) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4361](http://identifiers.org/metacyc.reaction/PWY-4361) 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ADENOSYLHOMOCYSCAT-PWY" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7174" 
+
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7174](http://identifiers.org/metacyc.reaction/PWY-7174) 
+
+
+### L-methionine salvage from S-adenosylmethionine `http://purl.obolibrary.org/obo/GO_0019284`
+
+#### Added
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7527" 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7270" 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7527](http://identifiers.org/metacyc.reaction/PWY-7527) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7270](http://identifiers.org/metacyc.reaction/PWY-7270) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7528](http://identifiers.org/metacyc.reaction/PWY-7528) 
+
+- [L-methionine salvage from S-adenosylmethionine](http://purl.obolibrary.org/obo/GO_0019284) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7528" 
+
+
+### L-methionine salvage from methylthioadenosine `http://purl.obolibrary.org/obo/GO_0019509`
+#### Removed
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6754" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The generation of L-methionine (2-amino-4-(methylthio)butanoic acid) from methylthioadenosine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19946895" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6756" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6753" 
+
+#### Added
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The generation of L-methionine (2-amino-4-(methylthio)butanoic acid) from methylthioadenosine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19946895" 
 
 
 ### L-methionine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0080099`
@@ -1977,6 +2491,36 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17801" 
 
 
+### L-phenylalanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009094`
+
+#### Added
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PHESYN](http://identifiers.org/metacyc.reaction/PHESYN) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PHESYN" 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7432" 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7432](http://identifiers.org/metacyc.reaction/PWY-7432) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3462](http://identifiers.org/metacyc.reaction/PWY-3462) 
+
+- [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3462" 
+
+
+### L-phenylalanine biosynthetic process from chorismate via L-arogenate `http://purl.obolibrary.org/obo/GO_0033586`
+#### Removed
+- [L-phenylalanine biosynthetic process from chorismate via L-arogenate](http://purl.obolibrary.org/obo/GO_0033586) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3462" 
+
+
+
+### L-phenylalanine biosynthetic process from chorismate via phenylpyruvate `http://purl.obolibrary.org/obo/GO_0033585`
+#### Removed
+- [L-phenylalanine biosynthetic process from chorismate via phenylpyruvate](http://purl.obolibrary.org/obo/GO_0033585) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PHESYN" 
+
+
+
 ### L-phenylalanine catabolic process `http://purl.obolibrary.org/obo/GO_0006559`
 #### Removed
 - [L-phenylalanine catabolic process](http://purl.obolibrary.org/obo/GO_0006559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-phenylalanine, 2-amino-3-phenylpropanoic acid." 
@@ -2048,6 +2592,16 @@ GO:0047635"
 - [L-proline betaine catabolic process](http://purl.obolibrary.org/obo/GO_0019504) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### L-proline biosynthetic process `http://purl.obolibrary.org/obo/GO_0055129`
+
+#### Added
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ORN-AMINOPENTANOATE-CAT-PWY](http://identifiers.org/metacyc.reaction/ORN-AMINOPENTANOATE-CAT-PWY) 
+
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ORN-AMINOPENTANOATE-CAT-PWY" 
+
+- [L-proline biosynthetic process](http://purl.obolibrary.org/obo/GO_0055129) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-proline catabolic process `http://purl.obolibrary.org/obo/GO_0006562`
 #### Removed
 - [L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0006562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-proline (pyrrolidine-2-carboxylic acid), a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." 
@@ -2084,6 +2638,20 @@ GO:0047635"
 #### Added
 - [L-serine ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0003941) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-serine = pyruvate + NH4+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19169" 
+
+
+### L-serine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006564`
+#### Removed
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [SERSYN-PWY](http://identifiers.org/metacyc.reaction/SERSYN-PWY) 
+
+#### Added
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8011](http://identifiers.org/metacyc.reaction/PWY-8011) 
+
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SERSYN-PWY](http://identifiers.org/metacyc.reaction/SERSYN-PWY) 
+
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8011" 
 
 
 ### L-serine catabolic process `http://purl.obolibrary.org/obo/GO_0006565`
@@ -2142,6 +2710,28 @@ GO:0047635"
 - [L-serine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0004760) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "L-serine-pyruvate transaminase activity" 
 
 - [L-serine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0004760) SubClassOf [L-alanine:oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047635) 
+
+
+### L-threonine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009088`
+#### Removed
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-threonine (2-amino-3-hydroxybutyric acid), a polar, uncharged, essential amino acid found in peptide linkage in proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:THRESYN-PWY" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:THRESYN-PWY" 
+
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [THRESYN-PWY](http://identifiers.org/metacyc.reaction/THRESYN-PWY) 
+
+#### Added
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-threonine (2-amino-3-hydroxybutyric acid), a polar, uncharged, essential amino acid found in peptide linkage in proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [L-threonine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009088) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### L-threonine catabolic process `http://purl.obolibrary.org/obo/GO_0006567`
@@ -2254,6 +2844,46 @@ GO:0047635"
 - [L-tryptophan:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0080097) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-tryptophan:pyruvate transaminase activity" 
 
 - [L-tryptophan:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0080097) SubClassOf [L-alanine:oxo-acid transaminase activity](http://purl.obolibrary.org/obo/GO_0047635) 
+
+
+### L-tyrosine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006571`
+
+#### Added
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6120](http://identifiers.org/metacyc.reaction/PWY-6120) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6120" 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6134](http://identifiers.org/metacyc.reaction/PWY-6134) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3461](http://identifiers.org/metacyc.reaction/PWY-3461) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [TYRSYN](http://identifiers.org/metacyc.reaction/TYRSYN) 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:TYRSYN" 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6134" 
+
+- [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3461" 
+
+
+### L-tyrosine biosynthetic process from chorismate via 4-hydroxyphenylpyruvate `http://purl.obolibrary.org/obo/GO_0019292`
+#### Removed
+- [L-tyrosine biosynthetic process from chorismate via 4-hydroxyphenylpyruvate](http://purl.obolibrary.org/obo/GO_0019292) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:TYRSYN" 
+
+
+
+### L-tyrosine biosynthetic process from chorismate via L-arogenate `http://purl.obolibrary.org/obo/GO_0033584`
+#### Removed
+- [L-tyrosine biosynthetic process from chorismate via L-arogenate](http://purl.obolibrary.org/obo/GO_0033584) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3461" 
+
+
+
+### L-tyrosine biosynthetic process, by oxidation of phenylalanine `http://purl.obolibrary.org/obo/GO_0019293`
+#### Removed
+- [L-tyrosine biosynthetic process, by oxidation of phenylalanine](http://purl.obolibrary.org/obo/GO_0019293) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6134" 
+
 
 
 ### L-tyrosine catabolic process `http://purl.obolibrary.org/obo/GO_0006572`
@@ -2396,6 +3026,12 @@ GO:0047635"
 - [MAP kinase scaffold activity](http://purl.obolibrary.org/obo/GO_0005078) [label](http://www.w3.org/2000/01/rdf-schema#label) "MAP kinase scaffold activity" 
 
 - [MAP kinase scaffold activity](http://purl.obolibrary.org/obo/GO_0005078) SubClassOf [protein complex scaffold activity](http://purl.obolibrary.org/obo/GO_0140378) 
+
+
+### Mo(VI)-molybdopterin cytosine dinucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_1902760`
+
+#### Added
+- [Mo(VI)-molybdopterin cytosine dinucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_1902760) SubClassOf [nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0009165) 
 
 
 ### N-acetylneuraminate catabolic process `http://purl.obolibrary.org/obo/GO_0019262`
@@ -3170,6 +3806,12 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2261" 
 
 
+### asparagine metabolic process `http://purl.obolibrary.org/obo/GO_0006528`
+#### Removed
+- [asparagine metabolic process](http://purl.obolibrary.org/obo/GO_0006528) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ASPARAGINESYN-PWY" 
+
+
+
 ### aspartate ammonia-lyase activity `http://purl.obolibrary.org/obo/GO_0008797`
 #### Removed
 - [aspartate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0008797) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate = fumarate + NH3." 
@@ -3178,6 +3820,24 @@ GO:0047635"
 #### Added
 - [aspartate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0008797) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate = fumarate + NH4+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:16601" 
+
+
+### aspartate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009067`
+#### Removed
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-781" 
+
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY0-781](http://identifiers.org/metacyc.reaction/PWY0-781) 
+
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the aspartate family, comprising asparagine, aspartate, lysine, methionine and threonine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-781" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the aspartate family, comprising asparagine, aspartate, lysine, methionine and threonine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 
 ### aspartate-ammonia ligase activity `http://purl.obolibrary.org/obo/GO_0004071`
@@ -3559,6 +4219,334 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.11.1.5" 
 
 
+### cytoplasmic side of Golgi membrane `http://purl.obolibrary.org/obo/GO_0098548`
+#### Removed
+- [cytoplasmic side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098548) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the Golgi membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098548) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the Golgi membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [cytoplasmic side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098548) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of apical plasma membrane `http://purl.obolibrary.org/obo/GO_0098592`
+#### Removed
+- [cytoplasmic side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the apical region of the plasma membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098592) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the apical region of the plasma membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of cis-Golgi cisternae membrane `http://purl.obolibrary.org/obo/GO_0160278`
+#### Removed
+- [cytoplasmic side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the cis-Golgi cisternae membrane that faces the cytoplasm and is the site of interactions with cytosolic proteins, including those involved in vesicle budding, membrane tethering, and lipid or protein trafficking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+#### Added
+- [cytoplasmic side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160278) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi cisternae membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site of interactions with cytosolic proteins, including those involved in vesicle budding, membrane tethering, and lipid or protein trafficking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+
+### cytoplasmic side of cis-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0140179`
+#### Removed
+- [cytoplasmic side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140179) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the membrane bilayer of the cis-Golgi network faces the cytoplasm and is where interactions with cytosolic proteins occur, including those for vesicle tethering, fusion, and Golgi-associated trafficking activities." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+#### Added
+- [cytoplasmic side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140179) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140179) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi network membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site of interactions with cytosolic proteins, including those for vesicle tethering, fusion, and Golgi-associated trafficking activities." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+
+### cytoplasmic side of dendritic spine plasma membrane `http://purl.obolibrary.org/obo/GO_1990780`
+#### Removed
+- [cytoplasmic side of dendritic spine plasma membrane](http://purl.obolibrary.org/obo/GO_1990780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the cytoplasm and any proteins embedded or anchored in it or attached to its surface surrounding a dendritic spine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9275233" 
+
+#### Added
+- [cytoplasmic side of dendritic spine plasma membrane](http://purl.obolibrary.org/obo/GO_1990780) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of dendritic spine plasma membrane](http://purl.obolibrary.org/obo/GO_1990780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane in the dendritic spine region that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9275233" 
+
+
+### cytoplasmic side of early endosome membrane `http://purl.obolibrary.org/obo/GO_0098559`
+#### Removed
+- [cytoplasmic side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the early endosome membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [cytoplasmic side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098559) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the early endosome membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### cytoplasmic side of endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098554`
+#### Removed
+- [cytoplasmic side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098554) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plasma membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098554) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098554) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endoplasmic reticulum membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of endosome membrane `http://purl.obolibrary.org/obo/GO_0010009`
+#### Removed
+- [cytoplasmic side of endosome membrane](http://purl.obolibrary.org/obo/GO_0010009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the endosome membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [cytoplasmic side of endosome membrane](http://purl.obolibrary.org/obo/GO_0010009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endosome membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+- [cytoplasmic side of endosome membrane](http://purl.obolibrary.org/obo/GO_0010009) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of late endosome membrane `http://purl.obolibrary.org/obo/GO_0098560`
+#### Removed
+- [cytoplasmic side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the late endosome membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [cytoplasmic side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098560) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the late endosome membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### cytoplasmic side of lysosomal membrane `http://purl.obolibrary.org/obo/GO_0098574`
+#### Removed
+- [cytoplasmic side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098574) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the lysosomal membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098574) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098574) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the lysosomal membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of medial-Golgi cisterna membrane `http://purl.obolibrary.org/obo/GO_0160279`
+#### Removed
+- [cytoplasmic side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the medial-Golgi cisternae that faces the cytoplasm participates in interactions with cytosolic proteins involved in membrane trafficking, vesicle docking, and cargo sorting." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39658747" 
+
+#### Added
+- [cytoplasmic side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160279) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the medial-Golgi cisternae membrane that faces the cytoplasm,including any protein embedded in, attached to, or peripherally associated with it. This is the site of interactions with cytosolic proteins involved in membrane trafficking, vesicle docking, and cargo sorting." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39658747" 
+
+
+### cytoplasmic side of membrane `http://purl.obolibrary.org/obo/GO_0098562`
+#### Removed
+- [cytoplasmic side of membrane](http://purl.obolibrary.org/obo/GO_0098562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of a membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [cytoplasmic side of membrane](http://purl.obolibrary.org/obo/GO_0098562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [cytoplasmic side of membrane](http://purl.obolibrary.org/obo/GO_0098562) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_0032473`
+#### Removed
+- [cytoplasmic side of mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0032473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The external (cytoplasmic) face of the mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+#### Added
+- [cytoplasmic side of mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0032473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the mitochondrial outer membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [cytoplasmic side of mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0032473) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of plasma membrane `http://purl.obolibrary.org/obo/GO_0009898`
+#### Removed
+- [cytoplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009898) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the plasma membrane that faces the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+#### Added
+- [cytoplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009898) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [cytoplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009898) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of plasma membrane, cell tip `http://purl.obolibrary.org/obo/GO_0106186`
+#### Removed
+- [cytoplasmic side of plasma membrane, cell tip](http://purl.obolibrary.org/obo/GO_0106186) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the plasma membrane at the cell tip that faces the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28292899" 
+
+#### Added
+- [cytoplasmic side of plasma membrane, cell tip](http://purl.obolibrary.org/obo/GO_0106186) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the plasma membrane at the cell tip that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28292899" 
+
+- [cytoplasmic side of plasma membrane, cell tip](http://purl.obolibrary.org/obo/GO_0106186) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of rough endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098556`
+#### Removed
+- [cytoplasmic side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098556) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the rough endoplasmic reticulum membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098556) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098556) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the rough endoplasmic reticulum membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of smooth endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098557`
+#### Removed
+- [cytoplasmic side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the smooth endoplasmic reticulum membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098557) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the smooth endoplasmic reticulum membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of trans-Golgi cisterna membrane `http://purl.obolibrary.org/obo/GO_0160288`
+#### Removed
+- [cytoplasmic side of trans-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the trans-Golgi cisternae that faces the cytoplasm. It is the site of protein and lipid interaction, vesicle formation, and cargo sorting towards post-Golgi destinations such as endosomes, lysosomes, and the plasma membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37566051" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+#### Added
+- [cytoplasmic side of trans-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi cisternae membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site where vesicle formation, and cargo sorting towards post-Golgi destinations such as endosomes, lysosomes and the plasma membrane occur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37566051" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+- [cytoplasmic side of trans-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160288) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytoplasmic side of trans-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0160281`
+#### Removed
+- [cytoplasmic side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the membrane bilayer of the trans-Golgi network faces the cytoplasm and is crucial for lipid and protein sorting and trafficking, as it interacts with cytoplasmic proteins involved in vesicle formation and targeting." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+#### Added
+- [cytoplasmic side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160281) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi network membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it. This is the site of interaction where cytoplasmic proteins interact with proteins involved in vesicle formation and targeting." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10922460" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+
+### cytoplasmic side of trans-Golgi network transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098541`
+#### Removed
+- [cytoplasmic side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the trans-Golgi network transport vesicle membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098541) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi network transport vesicle membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### cytoplasmic side of transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098539`
+#### Removed
+- [cytoplasmic side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098539) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the transport vesicle membrane that faces the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [cytoplasmic side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098539) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the transport vesicle membrane that faces the cytoplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [cytoplasmic side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098539) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### cytosine deaminase activity `http://purl.obolibrary.org/obo/GO_0004131`
 #### Removed
 - [cytosine deaminase activity](http://purl.obolibrary.org/obo/GO_0004131) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: cytosine + H2O = uracil + NH3." 
@@ -3867,6 +4855,74 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18581" 
 
 
+### external side of apical plasma membrane `http://purl.obolibrary.org/obo/GO_0098591`
+#### Removed
+- [external side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the apical region of the plasma membrane that faces away from the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [external side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098591) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of apical plasma membrane](http://purl.obolibrary.org/obo/GO_0098591) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet the apical region of the plasma membrane that faces the extracellular side of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### external side of cell outer membrane `http://purl.obolibrary.org/obo/GO_0031240`
+#### Removed
+- [external side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031240) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of the outer membrane that is opposite to the side that faces the periplasm of the cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+#### Added
+- [external side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031240) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031240) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the outer membrane that is opposite to the side that faces the periplasm of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+
+### external side of mycolate outer membrane `http://purl.obolibrary.org/obo/GO_0098568`
+#### Removed
+- [external side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098568) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the mycolate outer membrane that faces the environment and any proteins embedded in it or loosely bound to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+#### Added
+- [external side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098568) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098568) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the mycolate outer membrane that faces the periplasm of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+
+### external side of plasma membrane `http://purl.obolibrary.org/obo/GO_0009897`
+#### Removed
+- [external side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009897) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces away from the cytoplasm and any proteins embedded or anchored in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+#### Added
+- [external side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009897) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [external side of plasma membrane](http://purl.obolibrary.org/obo/GO_0009897) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the extracellular side of the cell, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+
 ### extracellular ammonia-gated monoatomic ion channel activity `http://purl.obolibrary.org/obo/GO_0036081`
 #### Removed
 - [extracellular ammonia-gated monoatomic ion channel activity](http://purl.obolibrary.org/obo/GO_0036081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transmembrane transfer of an ion by a channel that opens when extracellular ammonia (NH3) has been bound by the channel complex or one of its constituent parts." 
@@ -3893,6 +4949,18 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.8.3.6" 
+
+
+### fetal process involved in parturition `http://purl.obolibrary.org/obo/GO_0060138`
+#### Removed
+- [fetal process involved in parturition](http://purl.obolibrary.org/obo/GO_0060138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A reproductive process occurring in the embryo that results in birth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+#### Added
+- [fetal process involved in parturition](http://purl.obolibrary.org/obo/GO_0060138) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31526"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fetal process involved in parturition](http://purl.obolibrary.org/obo/GO_0060138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A reproductive process occurring in the fetus that results in birth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 
 ### formimidoylaspartate deiminase activity `http://purl.obolibrary.org/obo/GO_0050414`
@@ -4055,6 +5123,44 @@ GO:0047635"
 - [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31474"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) SubClassOf [amino acid acyltransferase activity](http://purl.obolibrary.org/obo/GO_0140379) 
+
+
+### glycine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006545`
+
+#### Added
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-THR-PWY" 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-PWY" 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLYSYN-ALA-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-ALA-PWY) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLYSYN-THR-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-THR-PWY) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLYSYN-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-PWY) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8551" 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8551](http://identifiers.org/metacyc.reaction/PWY-8551) 
+
+- [glycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006545) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-ALA-PWY" 
+
+
+### glycine biosynthetic process from L-serine `http://purl.obolibrary.org/obo/GO_0019264`
+#### Removed
+- [glycine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0019264) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-PWY" 
+
+- [glycine biosynthetic process from L-serine](http://purl.obolibrary.org/obo/GO_0019264) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLYSYN-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-PWY) 
+
+
+
+### glycine biosynthetic process, by transamination of glyoxylate `http://purl.obolibrary.org/obo/GO_0019265`
+#### Removed
+- [glycine biosynthetic process, by transamination of glyoxylate](http://purl.obolibrary.org/obo/GO_0019265) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYSYN-ALA-PWY" 
+
+- [glycine biosynthetic process, by transamination of glyoxylate](http://purl.obolibrary.org/obo/GO_0019265) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLYSYN-ALA-PWY](http://identifiers.org/metacyc.reaction/GLYSYN-ALA-PWY) 
+
 
 
 ### glycine catabolic process `http://purl.obolibrary.org/obo/GO_0006546`
@@ -4383,6 +5489,26 @@ GO:0047635"
 - [indole-3-acetonitrile nitrilase activity](http://purl.obolibrary.org/obo/GO_0080061) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [3.5.5.1](http://purl.uniprot.org/enzyme/3.5.5.1) 
 
 
+### internal side of mycolate outer membrane `http://purl.obolibrary.org/obo/GO_0098569`
+#### Removed
+- [internal side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098569) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of the mycolate outer membrane that faces the cell wall peptidoglycan. It is rich in long-chain mycolic acids (hydroxylated branched-chain fatty acids) that are covalently linked to the cell wall peptidoglycan via an arabinogalactan network." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+#### Added
+- [internal side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098569) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the mycolate outer membrane that faces the cell wall peptidoglycan, including any protein embedded in, attached to, or peripherally associated with it. It is rich in long-chain mycolic acids (hydroxylated branched-chain fatty acids) that are covalently linked to the cell wall peptidoglycan via an arabinogalactan network." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18316738" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18567661" 
+
+- [internal side of mycolate outer membrane](http://purl.obolibrary.org/obo/GO_0098569) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### intramembrane lipid carrier activity `http://purl.obolibrary.org/obo/GO_0140303`
 #### Removed
 - [intramembrane lipid carrier activity](http://purl.obolibrary.org/obo/GO_0140303) [label](http://www.w3.org/2000/01/rdf-schema#label) "intramembrane lipid transporter activity" 
@@ -4560,6 +5686,266 @@ GO:0047635"
 
 
 
+### lumenal side of Golgi membrane `http://purl.obolibrary.org/obo/GO_0098547`
+#### Removed
+- [lumenal side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098547) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side of the Golgi membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098547) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the Golgi membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [lumenal side of Golgi membrane](http://purl.obolibrary.org/obo/GO_0098547) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of cis-Golgi cisternae membrane `http://purl.obolibrary.org/obo/GO_0160277`
+#### Removed
+- [lumenal side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160277) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the cis-Golgi cisternae membrane that faces the Golgi lumen and is involved in glycosylation and lumen-facing cargo recognition." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+#### Added
+- [lumenal side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160277) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi cisternae membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where glycosylation and lumen-facing cargo recognition occur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+- [lumenal side of cis-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160277) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of cis-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0140178`
+#### Removed
+- [lumenal side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the cis-Golgi network directly contacts the Golgi lumen and may be involved in glycosylation, cargo sorting, or interactions with resident Golgi proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29802621" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+#### Added
+- [lumenal side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140178) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of cis-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0140178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the cis-Golgi network membrane directly contacts the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where glycosylation, cargo sorting, or interactions with resident Golgi proteins occur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34080016" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29802621" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1747103" 
+
+
+### lumenal side of early endosome membrane `http://purl.obolibrary.org/obo/GO_0098550`
+#### Removed
+- [lumenal side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098550) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the early endosome membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [lumenal side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098550) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of early endosome membrane](http://purl.obolibrary.org/obo/GO_0098550) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the early endosome membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### lumenal side of endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098553`
+#### Removed
+- [lumenal side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plasma membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endoplasmic reticulum membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [lumenal side of endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098553) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of endosome membrane `http://purl.obolibrary.org/obo/GO_0098565`
+#### Removed
+- [lumenal side of endosome membrane](http://purl.obolibrary.org/obo/GO_0098565) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the endosome membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of endosome membrane](http://purl.obolibrary.org/obo/GO_0098565) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the endosome membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [lumenal side of endosome membrane](http://purl.obolibrary.org/obo/GO_0098565) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of late endosome membrane `http://purl.obolibrary.org/obo/GO_0098551`
+#### Removed
+- [lumenal side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the late endosome membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+#### Added
+- [lumenal side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098551) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of late endosome membrane](http://purl.obolibrary.org/obo/GO_0098551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the late endosomal membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+
+### lumenal side of lysosomal membrane `http://purl.obolibrary.org/obo/GO_0098575`
+#### Removed
+- [lumenal side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098575) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the lysosomal membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098575) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the lysosomal membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [lumenal side of lysosomal membrane](http://purl.obolibrary.org/obo/GO_0098575) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of medial-Golgi cisterna membrane `http://purl.obolibrary.org/obo/GO_0160280`
+#### Removed
+- [lumenal side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the medial-Golgi cisternae that directly contacts the Golgi lumen, hosts glycosyltransferases and enzymes to modify N-linked oligosaccharides by trimming mannose and adding N-acetylglucosamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36658747" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+#### Added
+- [lumenal side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160280) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of medial-Golgi cisterna membrane](http://purl.obolibrary.org/obo/GO_0160280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the medial-Golgi cisternae membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where protein glycosylation occur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28777890" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36658747" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39331042" 
+
+
+### lumenal side of membrane `http://purl.obolibrary.org/obo/GO_0098576`
+#### Removed
+- [lumenal side of membrane](http://purl.obolibrary.org/obo/GO_0098576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any side (leaflet) of a membrane that faces the lumen of an organelle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of membrane](http://purl.obolibrary.org/obo/GO_0098576) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of membrane](http://purl.obolibrary.org/obo/GO_0098576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of an organelle membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### lumenal side of plastid thylakoid membrane `http://purl.obolibrary.org/obo/GO_0098571`
+#### Removed
+- [lumenal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plastid thylakoid membrane that faces the lumen, and any proteins embedded in it or loosely bound to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [lumenal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098571) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a plastid thylakoid membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### lumenal side of rough endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098555`
+#### Removed
+- [lumenal side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the rough endoplasmic reticulum membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098555) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of rough endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the rough endoplasmic reticulum membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### lumenal side of smooth endoplasmic reticulum membrane `http://purl.obolibrary.org/obo/GO_0098558`
+#### Removed
+- [lumenal side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098558) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the smooth endoplasmic reticulum membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098558) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of smooth endoplasmic reticulum membrane](http://purl.obolibrary.org/obo/GO_0098558) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the smooth endoplasmic reticulum membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### lumenal side of trans-Golgi cisternae membrane `http://purl.obolibrary.org/obo/GO_0160289`
+#### Removed
+- [lumenal side of trans-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the trans-Golgi cisternae membrane that faces the Golgi lumen. It is involved in the final steps of glycan processing, proteolytic modification, and cargo maturation prior to sorting at the trans-Golgi network." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:6121819" 
+
+#### Added
+- [lumenal side of trans-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi cisternae membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it. This is the site where the final steps of glycan processing, proteolytic modification, and cargo maturation prior to sorting at the trans-Golgi network occur." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:6121819" 
+
+- [lumenal side of trans-Golgi cisternae membrane](http://purl.obolibrary.org/obo/GO_0160289) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of trans-Golgi network membrane `http://purl.obolibrary.org/obo/GO_0160282`
+#### Removed
+- [lumenal side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160282) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The membrane leaflet of the trans-Golgi network membrane that faces the Golgi lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+#### Added
+- [lumenal side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160282) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the trans-Golgi network membrane that faces the Golgi lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38307322" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34597626" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23913272" 
+
+- [lumenal side of trans-Golgi network membrane](http://purl.obolibrary.org/obo/GO_0160282) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### lumenal side of trans-Golgi network transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098540`
+#### Removed
+- [lumenal side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098540) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the trans-Golgi network transport vesicle membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098540) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lumenal side of trans-Golgi network transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098540) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a trans-Golgi network transport vesicle membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+
+### lumenal side of transport vesicle membrane `http://purl.obolibrary.org/obo/GO_0098538`
+#### Removed
+- [lumenal side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the transport vesicle membrane that faces the lumen." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+#### Added
+- [lumenal side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a transport vesicle membrane that faces the lumen, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ab" 
+
+- [lumenal side of transport vesicle membrane](http://purl.obolibrary.org/obo/GO_0098538) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### lysophospholipase C activity `http://purl.obolibrary.org/obo/GO_0140324`
 
 #### Added
@@ -4612,6 +5998,18 @@ GO:0047635"
 #### Added
 - [manganese peroxidase activity](http://purl.obolibrary.org/obo/GO_0016689) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 Mn2+ + 2 H+ + H2O2 = 2 Mn3+ + 2 H2O." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.11.1.13" 
+
+
+### matrix side of mitochondrial inner membrane `http://purl.obolibrary.org/obo/GO_0099617`
+#### Removed
+- [matrix side of mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0099617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the mitochondrial inner membrane that faces the matrix." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [matrix side of mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0099617) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [matrix side of mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0099617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a mitochondrial inner membrane that faces the matrix, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
 
 
 ### melanosomal lumen acidification `http://purl.obolibrary.org/obo/GO_7770038`
@@ -5586,6 +6984,8 @@ GO:0047635"
 
 - [obsolete L-ornithine catabolic process via proline](http://purl.obolibrary.org/obo/GO_0019466) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-ornithine catabolic process via proline" 
 
+- [obsolete L-ornithine catabolic process via proline](http://purl.obolibrary.org/obo/GO_0019466) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ORN-AMINOPENTANOATE-CAT-PWY" 
+
 - [obsolete L-ornithine catabolic process via proline](http://purl.obolibrary.org/obo/GO_0019466) SubClassOf [L-ornithine catabolic process](http://purl.obolibrary.org/obo/GO_0006593) 
 
 #### Added
@@ -6216,6 +7616,14 @@ GO:0047635"
 
 #### Added
 - [obsolete glutamate catabolic process via mesaconate and citramalate](http://purl.obolibrary.org/obo/GO_0019671) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model." 
+
+
+### obsolete glutamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006542`
+#### Removed
+- [obsolete glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006542) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLNSYN-PWY) 
+
+- [obsolete glutamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006542) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLNSYN-PWY" 
+
 
 
 ### obsolete guanine deglycation, methylglyoxal removal `http://purl.obolibrary.org/obo/GO_0106045`
@@ -7228,6 +8636,34 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11433365" 
 
 
+### periplasmic side of cell outer membrane `http://purl.obolibrary.org/obo/GO_0031241`
+#### Removed
+- [periplasmic side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the outer membrane that faces the periplasm of the cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+#### Added
+- [periplasmic side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031241) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [periplasmic side of cell outer membrane](http://purl.obolibrary.org/obo/GO_0031241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of a outer cell membrane that faces the periplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+
+### periplasmic side of plasma membrane `http://purl.obolibrary.org/obo/GO_0098567`
+#### Removed
+- [periplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0098567) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of a plasma membrane that faces the periplasm, and all proteins embedded in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [periplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0098567) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plasma membrane that faces the periplasm, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [periplasmic side of plasma membrane](http://purl.obolibrary.org/obo/GO_0098567) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### periplastidial membrane `http://purl.obolibrary.org/obo/GO_7770041`
 
 #### Added
@@ -7991,6 +9427,24 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14025" 
 
 
+### serine family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009070`
+#### Removed
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6292" 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SULFATE-CYS-PWY](http://identifiers.org/metacyc.reaction/SULFATE-CYS-PWY) 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SER-GLYSYN-PWY](http://identifiers.org/metacyc.reaction/SER-GLYSYN-PWY) 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6292](http://identifiers.org/metacyc.reaction/PWY-6292) 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFATE-CYS-PWY" 
+
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SER-GLYSYN-PWY" 
+
+#### Added
+- [serine family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009070) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### serine-sulfate ammonia-lyase activity `http://purl.obolibrary.org/obo/GO_0050283`
 #### Removed
 - [serine-sulfate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0050283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-serine O-sulfate + H2O = pyruvate + NH3 + sulfate." 
@@ -8001,6 +9455,16 @@ GO:0047635"
 #### Added
 - [serine-sulfate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0050283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: -serine O-sulfate + H2O = sulfate + pyruvate + NH4+ + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15605" 
+
+
+### side of membrane `http://purl.obolibrary.org/obo/GO_0098552`
+#### Removed
+- [side of membrane](http://purl.obolibrary.org/obo/GO_0098552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular component consisting of one leaflet of a membrane bilayer and any proteins embedded or anchored in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [side of membrane](http://purl.obolibrary.org/obo/GO_0098552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular component consisting of one leaflet of a membrane bilayer and any protein embedded or anchored in it or attached to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
 
 
 ### small RNA 2'-O-ribose methyltransferase activity `http://purl.obolibrary.org/obo/GO_0090486`
@@ -8073,6 +9537,30 @@ GO:0047635"
 #### Removed
 - [sphingolipid transfer activity](http://purl.obolibrary.org/obo/GO_0120016) SubClassOf [sphingolipid intramembrane carrier activity](http://purl.obolibrary.org/obo/GO_0046624) 
 
+
+
+### stromal side of plastid inner membrane `http://purl.obolibrary.org/obo/GO_0098570`
+#### Removed
+- [stromal side of plastid inner membrane](http://purl.obolibrary.org/obo/GO_0098570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plastid inner membrane that faces the stroma, and any proteins embedded in it or loosely bound to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [stromal side of plastid inner membrane](http://purl.obolibrary.org/obo/GO_0098570) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [stromal side of plastid inner membrane](http://purl.obolibrary.org/obo/GO_0098570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plastid inner membrane that faces the stroma, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### stromal side of plastid thylakoid membrane `http://purl.obolibrary.org/obo/GO_0098572`
+#### Removed
+- [stromal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098572) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The side (leaflet) of the plastid thylakoid membrane that faces the stroma, and any proteins embedded in it or loosely bound to its surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+#### Added
+- [stromal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098572) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31515"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [stromal side of plastid thylakoid membrane](http://purl.obolibrary.org/obo/GO_0098572) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The leaflet of the plastid thylakoid membrane that faces the stroma, including any protein embedded in, attached to, or peripherally associated with it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
 
 
 ### succinyldiaminopimelate:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0009016`
@@ -8161,6 +9649,16 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFFEOXIDO-RXN" 
 
 - [sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31518"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process `http://purl.obolibrary.org/obo/GO_1902756`
+#### Removed
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0006793) 
+
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) 
+
+#### Added
+- [sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process](http://purl.obolibrary.org/obo/GO_1902756) SubClassOf [Mo-molybdopterin cofactor biosynthetic process](http://purl.obolibrary.org/obo/GO_0006777) 
 
 
 ### superoxide dismutase activity `http://purl.obolibrary.org/obo/GO_0004784`
