@@ -1707,7 +1707,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0003334"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9725554</owl:annotatedTarget>
-        <rdfs:label>Differentiation of keratinocytes in interfollicular epidermis in mammalian skin</rdfs:label>
+        <rdfs:label>Differentiation of Keratinocytes in Interfollicular Epidermis in Mammalian Skin</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0003678">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5693589</oboInOwl:hasDbXref>
@@ -30551,15 +30551,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-8867876</owl:annotatedTarget>
         <rdfs:label>OSBPL5,8,10 exchange PS with PI4P from ER membrane to plasma membrane</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005975">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-71387</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0005975"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-71387</owl:annotatedTarget>
-        <rdfs:label>Metabolism of carbohydrates</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005977">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8982491</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -30623,23 +30614,14 @@
         <owl:annotatedTarget>Reactome:R-HSA-70326</owl:annotatedTarget>
         <rdfs:label>Glucose metabolism</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006015">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-73843</oboInOwl:hasDbXref>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006029">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1793185</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006015"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006029"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-73843</owl:annotatedTarget>
-        <rdfs:label>5-Phosphoribose 1-diphosphate biosynthesis</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006027">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-2024101</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006027"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-2024101</owl:annotatedTarget>
-        <rdfs:label>CS/DS degradation</rdfs:label>
+        <owl:annotatedTarget>Reactome:R-HSA-1793185</owl:annotatedTarget>
+        <rdfs:label>Chondroitin sulfate/dermatan sulfate metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006048">
         <oboInOwl:hasDbXref>Reactome:R-HSA-446210</oboInOwl:hasDbXref>
@@ -30667,15 +30649,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9861559</owl:annotatedTarget>
         <rdfs:label>PDH complex synthesizes acetyl-CoA from PYR</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006090">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-70268</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006090"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-70268</owl:annotatedTarget>
-        <rdfs:label>Pyruvate metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006094">
         <oboInOwl:hasDbXref>Reactome:R-HSA-70263</oboInOwl:hasDbXref>
@@ -30771,6 +30744,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-69306</owl:annotatedTarget>
         <rdfs:label>DNA Replication</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006264">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9913635</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006264"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9913635</owl:annotatedTarget>
+        <rdfs:label>Strand-asynchronous mitochondrial DNA replication</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006270">
         <oboInOwl:hasDbXref>Reactome:R-HSA-68952</oboInOwl:hasDbXref>
@@ -30971,6 +30953,7 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006355">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9013695</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9708530</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-9762293</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
@@ -30978,6 +30961,12 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9013695</owl:annotatedTarget>
         <rdfs:label>NOTCH4 Intracellular Domain Regulates Transcription</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006355"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9708530</owl:annotatedTarget>
+        <rdfs:label>Regulation of BACH1 activity</rdfs:label>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006355"/>
@@ -31205,6 +31194,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-6782315</owl:annotatedTarget>
         <rdfs:label>tRNA modification in the nucleus and cytosol</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006401">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9930044</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006401"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9930044</owl:annotatedTarget>
+        <rdfs:label>Nuclear RNA decay</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006406">
         <oboInOwl:hasDbXref>Reactome:R-HSA-72202</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -31261,6 +31259,7 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006457">
         <oboInOwl:hasDbXref>Reactome:R-HSA-389960</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-390450</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-390466</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-532668</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -31269,6 +31268,12 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-389960</owl:annotatedTarget>
         <rdfs:label>Formation of tubulin folding intermediates by CCT/TriC</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006457"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-390450</owl:annotatedTarget>
+        <rdfs:label>Folding of actin by CCT/TriC</rdfs:label>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006457"/>
@@ -31282,15 +31287,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-532668</owl:annotatedTarget>
         <rdfs:label>N-glycan trimming in the ER and Calnexin/Calreticulin cycle</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006465">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-159782</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006465"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-159782</owl:annotatedTarget>
-        <rdfs:label>Removal of aminoterminal propeptides from gamma-carboxylated proteins</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006479">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8876725</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -31300,23 +31296,37 @@
         <owl:annotatedTarget>Reactome:R-HSA-8876725</owl:annotatedTarget>
         <rdfs:label>Protein methylation</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006487">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-446203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-480985</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006487"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-446203</owl:annotatedTarget>
+        <rdfs:label>Asparagine N-linked glycosylation</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006487"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-480985</owl:annotatedTarget>
+        <rdfs:label>Synthesis of dolichyl-phosphate-glucose</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006488">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-162699</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-446193</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006488"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-162699</owl:annotatedTarget>
+        <rdfs:label>Synthesis of dolichyl-phosphate mannose</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006488"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-446193</owl:annotatedTarget>
         <rdfs:label>Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006489">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-446199</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006489"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-446199</owl:annotatedTarget>
-        <rdfs:label>Synthesis of Dolichyl-phosphate</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006493">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5173105</oboInOwl:hasDbXref>
@@ -31353,15 +31363,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-2980736</owl:annotatedTarget>
         <rdfs:label>Peptide hormone metabolism</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006521">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-350562</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006521"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-350562</owl:annotatedTarget>
-        <rdfs:label>Regulation of ornithine decarboxylase (ODC)</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006546">
         <oboInOwl:hasDbXref>Reactome:R-HSA-6783984</oboInOwl:hasDbXref>
@@ -31408,14 +31409,14 @@
         <owl:annotatedTarget>Reactome:R-HSA-70688</owl:annotatedTarget>
         <rdfs:label>Proline catabolism</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006564">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006563">
         <oboInOwl:hasDbXref>Reactome:R-HSA-977347</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006564"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006563"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-977347</owl:annotatedTarget>
-        <rdfs:label>Serine biosynthesis</rdfs:label>
+        <rdfs:label>Serine metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006569">
         <oboInOwl:hasDbXref>Reactome:R-HSA-71240</oboInOwl:hasDbXref>
@@ -31786,11 +31787,11 @@
         <owl:annotatedTarget>Reactome:R-HSA-2142789</owl:annotatedTarget>
         <rdfs:label>Ubiquinol biosynthesis</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006750">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006749">
         <oboInOwl:hasDbXref>Reactome:R-HSA-174403</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006750"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006749"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-174403</owl:annotatedTarget>
         <rdfs:label>Glutathione synthesis and recycling</rdfs:label>
@@ -31803,15 +31804,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-211916</owl:annotatedTarget>
         <rdfs:label>Vitamins</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006767">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-196849</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006767"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-196849</owl:annotatedTarget>
-        <rdfs:label>Metabolism of water-soluble vitamins and cofactors</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006768">
         <oboInOwl:hasDbXref>Reactome:R-HSA-196780</oboInOwl:hasDbXref>
@@ -31830,15 +31822,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-196843</owl:annotatedTarget>
         <rdfs:label>Vitamin B2 (riboflavin) metabolism</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006775">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-6806667</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006775"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-6806667</owl:annotatedTarget>
-        <rdfs:label>Metabolism of fat-soluble vitamins</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006778">
         <oboInOwl:hasDbXref>Reactome:R-HSA-189445</oboInOwl:hasDbXref>
@@ -31897,15 +31880,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-382551</owl:annotatedTarget>
         <rdfs:label>Transport of small molecules</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006811">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-425393</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006811"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-425393</owl:annotatedTarget>
-        <rdfs:label>Transport of inorganic cations/anions and amino acids/oligopeptides</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006833">
         <oboInOwl:hasDbXref>Reactome:R-HSA-445717</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -31921,6 +31895,7 @@
         <oboInOwl:hasDbXref>Reactome:R-HSA-210500</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-212676</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-264642</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-442660</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006836"/>
@@ -31952,6 +31927,12 @@
         <owl:annotatedTarget>Reactome:R-HSA-264642</owl:annotatedTarget>
         <rdfs:label>Acetylcholine Neurotransmitter Release Cycle</rdfs:label>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006836"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-442660</owl:annotatedTarget>
+        <rdfs:label>SLC-mediated transport of neurotransmitters</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006851">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8949215</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -31971,13 +31952,13 @@
         <rdfs:label>Carnitine shuttle</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006865">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-352230</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9958863</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006865"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-352230</owl:annotatedTarget>
-        <rdfs:label>Amino acid transport across the plasma membrane</rdfs:label>
+        <owl:annotatedTarget>Reactome:R-HSA-9958863</owl:annotatedTarget>
+        <rdfs:label>SLC-mediated transport of amino acids</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006869">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1369062</oboInOwl:hasDbXref>
@@ -32067,15 +32048,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-109581</owl:annotatedTarget>
         <rdfs:label>Apoptosis</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006919">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-69416</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006919"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-69416</owl:annotatedTarget>
-        <rdfs:label>Dimerization of procaspase-8</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006925">
         <oboInOwl:hasDbXref>Reactome:R-HSA-168277</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -32093,15 +32065,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-445355</owl:annotatedTarget>
         <rdfs:label>Smooth Muscle Contraction</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006948">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-9733458</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006948"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-9733458</owl:annotatedTarget>
-        <rdfs:label>Induction of Cell-Cell Fusion</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006956">
         <oboInOwl:hasDbXref>Reactome:R-HSA-166658</oboInOwl:hasDbXref>
@@ -32129,22 +32092,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-173623</owl:annotatedTarget>
         <rdfs:label>Classical antibody-mediated complement activation</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006977">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-6791312</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-69563</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006977"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-6791312</owl:annotatedTarget>
-        <rdfs:label>TP53 Regulates Transcription of Cell Cycle Genes</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006977"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-69563</owl:annotatedTarget>
-        <rdfs:label>p53-Dependent G1 DNA Damage Response</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006996">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1852241</oboInOwl:hasDbXref>
@@ -32666,13 +32613,13 @@
         <rdfs:label>Sensory processing of sound</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007623">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-400253</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9909396</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0007623"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-400253</owl:annotatedTarget>
-        <rdfs:label>Circadian Clock</rdfs:label>
+        <owl:annotatedTarget>Reactome:R-HSA-9909396</owl:annotatedTarget>
+        <rdfs:label>Circadian clock</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008017">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9614343</oboInOwl:hasDbXref>
@@ -35946,15 +35893,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-204626</owl:annotatedTarget>
         <rdfs:label>Hypusine synthesis from eIF5A-lysine</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008635">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-111459</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008635"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-111459</owl:annotatedTarget>
-        <rdfs:label>Activation of caspases through apoptosome-mediated cleavage</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008645">
         <oboInOwl:hasDbXref>Reactome:R-HSA-189200</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -36453,24 +36391,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-390918</owl:annotatedTarget>
         <rdfs:label>Peroxisomal lipid metabolism</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009064">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-8964539</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009064"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-8964539</owl:annotatedTarget>
-        <rdfs:label>Glutamate and glutamine metabolism</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009066">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-8963693</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009066"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-8963693</owl:annotatedTarget>
-        <rdfs:label>Aspartate and asparagine metabolism</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009072">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8963691</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -36479,15 +36399,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-8963691</owl:annotatedTarget>
         <rdfs:label>Phenylalanine and tyrosine metabolism</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009078">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-8964540</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009078"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-8964540</owl:annotatedTarget>
-        <rdfs:label>Alanine metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009083">
         <oboInOwl:hasDbXref>Reactome:R-HSA-70895</oboInOwl:hasDbXref>
@@ -36646,6 +36557,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-5619507</owl:annotatedTarget>
         <rdfs:label>Activation of HOX genes during differentiation</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009893">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-163765</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009893"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-163765</owl:annotatedTarget>
+        <rdfs:label>ChREBP activates metabolic gene expression</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009922">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2046083</oboInOwl:hasDbXref>
@@ -36840,6 +36760,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-9752946</owl:annotatedTarget>
         <rdfs:label>Expression and translocation of olfactory receptors</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010499">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9912633</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0010499"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9912633</owl:annotatedTarget>
+        <rdfs:label>Antigen processing: Ub, ATP-independent proteasomal degradation</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010510">
         <oboInOwl:hasDbXref>Reactome:R-HSA-204174</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -36857,15 +36786,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-203927</owl:annotatedTarget>
         <rdfs:label>MicroRNA (miRNA) biogenesis</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010737">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-163358</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0010737"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-163358</owl:annotatedTarget>
-        <rdfs:label>PKA-mediated phosphorylation of key metabolic factors</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010803">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5357905</oboInOwl:hasDbXref>
@@ -36923,6 +36843,24 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9837354</owl:annotatedTarget>
         <rdfs:label>NUDT8 hydrolyzes CoA-SH to PPANT</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010950">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-140534</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0010950"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-140534</owl:annotatedTarget>
+        <rdfs:label>Caspase activation via Death Receptors in the presence of ligand</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010951">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-5218900</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0010951"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-5218900</owl:annotatedTarget>
+        <rdfs:label>CASP8 activity is inhibited</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010999">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9648895</oboInOwl:hasDbXref>
@@ -39145,14 +39083,30 @@
         <owl:annotatedTarget>Reactome:R-HSA-425381</owl:annotatedTarget>
         <rdfs:label>Bicarbonate transporters</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015711">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9955298</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0015711"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9955298</owl:annotatedTarget>
+        <rdfs:label>SLC-mediated transport of organic anions</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015721">
         <oboInOwl:hasDbXref>Reactome:R-HSA-159418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9958517</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0015721"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-159418</owl:annotatedTarget>
         <rdfs:label>Recycling of bile acids and salts</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0015721"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9958517</owl:annotatedTarget>
+        <rdfs:label>SLC-mediated bile acid transport</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015793">
         <oboInOwl:hasDbXref>Reactome:R-HSA-432030</oboInOwl:hasDbXref>
@@ -39171,6 +39125,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-429593</owl:annotatedTarget>
         <rdfs:label>Inositol transporters</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015837">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-549127</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0015837"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-549127</owl:annotatedTarget>
+        <rdfs:label>SLC-mediated transport of organic cations</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015889">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9758881</oboInOwl:hasDbXref>
@@ -40366,8 +40329,15 @@
         <rdfs:label>NUDT13 hydrolyses AP6A to AP4 and ADP</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016485">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-159782</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-9033500</oboInOwl:hasDbXref>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-159782</owl:annotatedTarget>
+        <rdfs:label>Removal of aminoterminal propeptides from gamma-carboxylated proteins</rdfs:label>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016485"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -40570,12 +40540,19 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016556">
         <oboInOwl:hasDbXref>Reactome:R-HSA-75072</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9937008</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016556"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-75072</owl:annotatedTarget>
         <rdfs:label>mRNA Editing</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016556"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9937008</owl:annotatedTarget>
+        <rdfs:label>Mitochondrial mRNA modification</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016567">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8852135</oboInOwl:hasDbXref>
@@ -42548,29 +42525,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-2022854</owl:annotatedTarget>
         <rdfs:label>Keratan sulfate biosynthesis</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0018279">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-162699</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-446203</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-480985</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0018279"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-162699</owl:annotatedTarget>
-        <rdfs:label>Synthesis of dolichyl-phosphate mannose</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0018279"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-446203</owl:annotatedTarget>
-        <rdfs:label>Asparagine N-linked glycosylation</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0018279"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-480985</owl:annotatedTarget>
-        <rdfs:label>Synthesis of dolichyl-phosphate-glucose</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0018423">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8856945</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -42666,52 +42620,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-156909</owl:annotatedTarget>
         <rdfs:label>eEF1A complexes with GTP</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019049">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-164938</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-164944</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-168305</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-169131</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019049"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-164938</owl:annotatedTarget>
-        <rdfs:label>Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019049"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-164944</owl:annotatedTarget>
-        <rdfs:label>Nef and signal transduction</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019049"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-168305</owl:annotatedTarget>
-        <rdfs:label>Inhibition of Interferon Synthesis</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019049"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-169131</owl:annotatedTarget>
-        <rdfs:label>Inhibition of PKR</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019054">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-168276</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-9833110</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-168276</owl:annotatedTarget>
-        <rdfs:label>NS1 Mediated Effects on Host Pathways</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019054"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-9833110</owl:annotatedTarget>
-        <rdfs:label>RSV-host interactions</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019058">
         <oboInOwl:hasDbXref>Reactome:R-HSA-162588</oboInOwl:hasDbXref>
@@ -43536,6 +43444,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-392499</owl:annotatedTarget>
         <rdfs:label>Metabolism of proteins</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019585">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-156588</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-156588</owl:annotatedTarget>
+        <rdfs:label>Glucuronidation</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019626">
         <oboInOwl:hasDbXref>Reactome:R-HSA-71032</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -43553,15 +43470,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-5661270</owl:annotatedTarget>
         <rdfs:label>Formation of xylulose-5-phosphate</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019674">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-196807</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019674"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-196807</owl:annotatedTarget>
-        <rdfs:label>Nicotinate metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019706">
         <oboInOwl:hasDbXref>Reactome:R-HSA-203567</oboInOwl:hasDbXref>
@@ -45114,6 +45022,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-611105</owl:annotatedTarget>
         <rdfs:label>Respiratory electron transport</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030001">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-425410</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030001"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-425410</owl:annotatedTarget>
+        <rdfs:label>Metal ion SLC transporters</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030049">
         <oboInOwl:hasDbXref>Reactome:R-HSA-390522</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -45216,6 +45133,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-1878002</owl:annotatedTarget>
         <rdfs:label>XYLTs transfer Xyl to core protein</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030167">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2024101</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030167"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-2024101</owl:annotatedTarget>
+        <rdfs:label>CS/DS degradation</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030168">
         <oboInOwl:hasDbXref>Reactome:R-HSA-392023</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-392170</oboInOwl:hasDbXref>
@@ -45287,6 +45213,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-2024096</owl:annotatedTarget>
         <rdfs:label>HS-GAG degradation</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030201">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1638091</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030201"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-1638091</owl:annotatedTarget>
+        <rdfs:label>Heparan sulfate/heparin (HS-GAG) metabolism</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030203">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1630316</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -45295,33 +45230,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-1630316</owl:annotatedTarget>
         <rdfs:label>Glycosaminoglycan metabolism</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030204">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-1793185</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030204"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-1793185</owl:annotatedTarget>
-        <rdfs:label>Chondroitin sulfate/dermatan sulfate metabolism</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030206">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-2022870</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030206"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-2022870</owl:annotatedTarget>
-        <rdfs:label>Chondroitin sulfate biosynthesis</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030208">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-2022923</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030208"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-2022923</owl:annotatedTarget>
-        <rdfs:label>Dermatan sulfate biosynthesis</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030212">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2142845</oboInOwl:hasDbXref>
@@ -45332,15 +45240,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-2142845</owl:annotatedTarget>
         <rdfs:label>Hyaluronan metabolism</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030213">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-2142850</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030213"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-2142850</owl:annotatedTarget>
-        <rdfs:label>Hyaluronan biosynthesis and export</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030214">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2160916</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -45348,7 +45247,16 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030214"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-2160916</owl:annotatedTarget>
-        <rdfs:label>Hyaluronan uptake and degradation</rdfs:label>
+        <rdfs:label>Hyaluronan degradation</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030217">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9945266</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030217"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9945266</owl:annotatedTarget>
+        <rdfs:label>Differentiation of T cells</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030235">
         <oboInOwl:hasDbXref>Reactome:R-HSA-202129</oboInOwl:hasDbXref>
@@ -45408,6 +45316,22 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-1667005</owl:annotatedTarget>
         <rdfs:label>Heparanase (HPSE) cleaves heparan sulfate from its proteoglycan (lysosome)</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030330">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6791312</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-69563</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030330"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-6791312</owl:annotatedTarget>
+        <rdfs:label>TP53 Regulates Transcription of Cell Cycle Genes</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0030330"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-69563</owl:annotatedTarget>
+        <rdfs:label>p53-Dependent G1 DNA Damage Response</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030342">
         <oboInOwl:hasDbXref>Reactome:R-HSA-209765</oboInOwl:hasDbXref>
@@ -45803,16 +45727,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0031295"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-388841</owl:annotatedTarget>
-        <rdfs:label>Costimulation by the CD28 family</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0031325">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-163765</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0031325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-163765</owl:annotatedTarget>
-        <rdfs:label>ChREBP activates metabolic gene expression</rdfs:label>
+        <rdfs:label>Regulation of T cell activation by CD28 family</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0031342">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9664433</oboInOwl:hasDbXref>
@@ -45959,13 +45874,27 @@
         <rdfs:label>SLC27A2-mediated ligation of peroxisomal fatty acid and CoASH</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0032024">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-381676</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-399997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-400451</oboInOwl:hasDbXref>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032024"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-381676</owl:annotatedTarget>
+        <rdfs:label>Glucagon-like Peptide-1 (GLP1) regulates insulin secretion</rdfs:label>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032024"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-399997</owl:annotatedTarget>
         <rdfs:label>Acetylcholine regulates insulin secretion</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0032024"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-400451</owl:annotatedTarget>
+        <rdfs:label>Free fatty acids regulate insulin secretion</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0032049">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1483076</oboInOwl:hasDbXref>
@@ -46478,24 +46407,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-198818</owl:annotatedTarget>
         <rdfs:label>SLC2A1,3 transports DeHA from extracellular region to cytosol</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0033489">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-6807047</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0033489"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-6807047</owl:annotatedTarget>
-        <rdfs:label>Cholesterol biosynthesis via desmosterol</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0033490">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-6807062</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0033490"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-6807062</owl:annotatedTarget>
-        <rdfs:label>Cholesterol biosynthesis via lathosterol</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0033499">
         <oboInOwl:hasDbXref>Reactome:R-HSA-70370</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -46838,15 +46749,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-5679145</owl:annotatedTarget>
         <rdfs:label>Defective ABCG5 (in ABCG5:ABCG8) does not transport sterols from cytosol to extracellular region</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0034054">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-9636569</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034054"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-9636569</owl:annotatedTarget>
-        <rdfs:label>Suppression of autophagy</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0034062">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5696807</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-6786881</oboInOwl:hasDbXref>
@@ -47036,15 +46938,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-418990</owl:annotatedTarget>
         <rdfs:label>Adherens junctions interactions</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0034356">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-197264</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0034356"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-197264</owl:annotatedTarget>
-        <rdfs:label>Nicotinamide salvaging</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0034369">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8963899</oboInOwl:hasDbXref>
@@ -47660,6 +47553,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-1247649</owl:annotatedTarget>
         <rdfs:label>AQP1 tetramer transports CO2 from cytosol to extracellular region</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035435">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-427652</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0035435"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-427652</owl:annotatedTarget>
+        <rdfs:label>Sodium-coupled phosphate cotransporters</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035515">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8857692</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -47787,6 +47689,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-937061</owl:annotatedTarget>
         <rdfs:label>TRIF (TICAM1)-mediated TLR4 signaling</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035672">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9959399</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0035672"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9959399</owl:annotatedTarget>
+        <rdfs:label>SLC-mediated transport of oligopeptides</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035694">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9837999</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -47813,6 +47724,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-8983432</owl:annotatedTarget>
         <rdfs:label>Interleukin-15 signaling</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035725">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-425986</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0035725"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-425986</owl:annotatedTarget>
+        <rdfs:label>Sodium/Proton exchangers</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035735">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5620924</oboInOwl:hasDbXref>
@@ -48484,6 +48404,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-8986944</owl:annotatedTarget>
         <rdfs:label>Transcriptional Regulation by MECP2</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042000">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9760173</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042000"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9760173</owl:annotatedTarget>
+        <rdfs:label>Secretion of toxins</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042054">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5205861</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-5216234</oboInOwl:hasDbXref>
@@ -48643,7 +48572,25 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042360"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-8877627</owl:annotatedTarget>
-        <rdfs:label>Vitamin E</rdfs:label>
+        <rdfs:label>Vitamin E transport</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042362">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-6806667</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042362"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-6806667</owl:annotatedTarget>
+        <rdfs:label>Metabolism of fat-soluble vitamins</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042364">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-196849</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042364"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-196849</owl:annotatedTarget>
+        <rdfs:label>Metabolism of water-soluble vitamins and cofactors</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042373">
         <oboInOwl:hasDbXref>Reactome:R-HSA-6806664</oboInOwl:hasDbXref>
@@ -48900,6 +48847,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-9794572</owl:annotatedTarget>
         <rdfs:label>ABCG2 transports Cipro from hepatic cell to extracellular space</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042710">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9931953</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042710"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9931953</owl:annotatedTarget>
+        <rdfs:label>Biofilm formation</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042723">
         <oboInOwl:hasDbXref>Reactome:R-HSA-196819</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -49063,6 +49019,24 @@
         <owl:annotatedTarget>Reactome:R-HSA-964975</owl:annotatedTarget>
         <rdfs:label>Vitamin B6 activation to pyridoxal phosphate</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042851">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8964540</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042851"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-8964540</owl:annotatedTarget>
+        <rdfs:label>Alanine metabolism</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042866">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-70268</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0042866"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-70268</owl:annotatedTarget>
+        <rdfs:label>Pyruvate metabolism</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042903">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5618331</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -49200,6 +49174,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9037628</owl:annotatedTarget>
         <rdfs:label>Rhesus blood group biosynthesis</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043048">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-446199</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043048"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-446199</owl:annotatedTarget>
+        <rdfs:label>Synthesis of dolichyl-phosphate</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043065">
         <oboInOwl:hasDbXref>Reactome:R-HSA-193648</oboInOwl:hasDbXref>
@@ -49366,15 +49349,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-9914438</owl:annotatedTarget>
         <rdfs:label>TWNK (PEO1) unwinds double-stranded mitochondrial DNA at the replication fork</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043154">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-5218900</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043154"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-5218900</owl:annotatedTarget>
-        <rdfs:label>CASP8 activity is inhibited</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043161">
         <oboInOwl:hasDbXref>Reactome:R-HSA-75815</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -49409,16 +49383,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043252"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-879518</owl:annotatedTarget>
-        <rdfs:label>Transport of organic anions</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043281">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-205025</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0043281"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-205025</owl:annotatedTarget>
-        <rdfs:label>NADE modulates death signalling</rdfs:label>
+        <rdfs:label>Organic anion transport by SLCO transporters</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043312">
         <oboInOwl:hasDbXref>Reactome:R-HSA-6798695</oboInOwl:hasDbXref>
@@ -49605,6 +49570,8 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044003">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9635644</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-9636667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9833110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9918481</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044003"/>
@@ -49617,6 +49584,18 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9636667</owl:annotatedTarget>
         <rdfs:label>Manipulation of host energy metabolism</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044003"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9833110</owl:annotatedTarget>
+        <rdfs:label>RSV-host interactions</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044003"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9918481</owl:annotatedTarget>
+        <rdfs:label>Dengue Virus-Host Interactions</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044183">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9018785</oboInOwl:hasDbXref>
@@ -49648,14 +49627,14 @@
         <owl:annotatedTarget>Reactome:R-HSA-9866253</owl:annotatedTarget>
         <rdfs:label>apo-UQCRFS1 binds LYRM7</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044237">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-1428517</oboInOwl:hasDbXref>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044238">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-71291</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044238"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-1428517</owl:annotatedTarget>
-        <rdfs:label>Aerobic respiration and respiratory electron transport</rdfs:label>
+        <owl:annotatedTarget>Reactome:R-HSA-71291</owl:annotatedTarget>
+        <rdfs:label>Metabolism of amino acids and derivatives</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044241">
         <oboInOwl:hasDbXref>Reactome:R-HSA-192456</oboInOwl:hasDbXref>
@@ -49674,6 +49653,24 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-189085</owl:annotatedTarget>
         <rdfs:label>Digestion of dietary carbohydrate</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044403">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9839923</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044403"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9839923</owl:annotatedTarget>
+        <rdfs:label>Dengue Virus Infection</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044406">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9638630</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044406"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9638630</owl:annotatedTarget>
+        <rdfs:label>Attachment of bacteria to epithelial cells</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044409">
         <oboInOwl:hasDbXref>Reactome:R-HSA-173107</oboInOwl:hasDbXref>
@@ -49761,6 +49758,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-9821993</owl:annotatedTarget>
         <rdfs:label>Replacement of protamines by nucleosomes in the male pronucleus</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0044847">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9638482</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0044847"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9638482</owl:annotatedTarget>
+        <rdfs:label>Metal ion assimilation from the host</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045003">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5693554</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -49805,6 +49811,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9609523</owl:annotatedTarget>
         <rdfs:label>Insertion of tail-anchored proteins into the endoplasmic reticulum membrane</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045063">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9942503</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0045063"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9942503</owl:annotatedTarget>
+        <rdfs:label>Differentiation of naive CD+ T cells to T helper 1 cells (Th1 cells)</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045087">
         <oboInOwl:hasDbXref>Reactome:R-HSA-168249</oboInOwl:hasDbXref>
@@ -50319,13 +50334,27 @@
         <rdfs:label>Adrenaline,noradrenaline inhibits insulin secretion</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0046677">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9638771</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-9639775</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9913143</oboInOwl:hasDbXref>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046677"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9638771</owl:annotatedTarget>
+        <rdfs:label>Action of antimicrobials</rdfs:label>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046677"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9639775</owl:annotatedTarget>
         <rdfs:label>Antimicrobial action and antimicrobial resistance in Mtb</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046677"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9913143</owl:annotatedTarget>
+        <rdfs:label>Antimicrobial resistance</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0046718">
         <oboInOwl:hasDbXref>Reactome:R-HSA-168270</oboInOwl:hasDbXref>
@@ -50755,15 +50784,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-75105</owl:annotatedTarget>
         <rdfs:label>Fatty acyl-CoA biosynthesis</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0046950">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-74182</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0046950"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-74182</owl:annotatedTarget>
-        <rdfs:label>Ketone body metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0046951">
         <oboInOwl:hasDbXref>Reactome:R-HSA-77111</oboInOwl:hasDbXref>
@@ -52442,12 +52462,19 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050427">
         <oboInOwl:hasDbXref>Reactome:R-HSA-156584</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-174362</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050427"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-156584</owl:annotatedTarget>
         <rdfs:label>Cytosolic sulfonation of small molecules</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050427"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-174362</owl:annotatedTarget>
+        <rdfs:label>Transport and metabolism of PAPS</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050434">
         <oboInOwl:hasDbXref>Reactome:R-HSA-167246</oboInOwl:hasDbXref>
@@ -52754,6 +52781,24 @@
         <owl:annotatedTarget>Reactome:R-HSA-390224</owl:annotatedTarget>
         <rdfs:label>3-ketopristanoyl-CoA + CoASH =&gt; 4,8,12-trimethyltridecanoyl-CoA + propionyl-CoA</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050650">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2022870</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050650"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-2022870</owl:annotatedTarget>
+        <rdfs:label>CS-GAG biosynthesis</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050651">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-2022923</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050651"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-2022923</owl:annotatedTarget>
+        <rdfs:label>DS-GAG biosynthesis</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050659">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2018659</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-9941312</oboInOwl:hasDbXref>
@@ -52769,6 +52814,29 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9941312</owl:annotatedTarget>
         <rdfs:label>CHST15 transfers sulfate to (6-)GalNAc-4-sulfate</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050687">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-164938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-164944</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-168276</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050687"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-164938</owl:annotatedTarget>
+        <rdfs:label>Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050687"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-164944</owl:annotatedTarget>
+        <rdfs:label>Nef and signal transduction</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0050687"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-168276</owl:annotatedTarget>
+        <rdfs:label>NS1 Mediated Effects on Host Pathways</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050728">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9018678</oboInOwl:hasDbXref>
@@ -52939,24 +53007,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-391251</owl:annotatedTarget>
         <rdfs:label>Protein folding</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051086">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-390450</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051086"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-390450</owl:annotatedTarget>
-        <rdfs:label>Folding of actin by CCT/TriC</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051090">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-9708530</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051090"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-9708530</owl:annotatedTarget>
-        <rdfs:label>Regulation of BACH1 activity</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051119">
         <oboInOwl:hasDbXref>Reactome:R-HSA-428779</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-8875902</oboInOwl:hasDbXref>
@@ -52979,15 +53029,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-8876319</owl:annotatedTarget>
         <rdfs:label>SLC50A1 transports Glc from cytosol to extracellular region</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051121">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-2142696</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051121"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-2142696</owl:annotatedTarget>
-        <rdfs:label>Synthesis of Hepoxilins (HX) and Trioxilins (TrX)</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051139">
         <oboInOwl:hasDbXref>Reactome:R-HSA-435171</oboInOwl:hasDbXref>
@@ -53110,6 +53151,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-5690873</owl:annotatedTarget>
         <rdfs:label>ACO1 binds 4Fe-4S</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051604">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9918432</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051604"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9918432</owl:annotatedTarget>
+        <rdfs:label>Maturation of DENV proteins</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051607">
         <oboInOwl:hasDbXref>Reactome:R-HSA-8983711</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -53121,6 +53171,7 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051701">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9635486</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9640148</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-9658195</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
@@ -53128,6 +53179,12 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9635486</owl:annotatedTarget>
         <rdfs:label>Infection with Mycobacterium tuberculosis</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051701"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9640148</owl:annotatedTarget>
+        <rdfs:label>Infection with Enterobacteria</rdfs:label>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0051701"/>
@@ -53420,6 +53477,24 @@
         <owl:annotatedTarget>Reactome:R-HSA-9637690</owl:annotatedTarget>
         <rdfs:label>Response of Mtb to phagocytosis</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052041">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9636569</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0052041"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9636569</owl:annotatedTarget>
+        <rdfs:label>Suppression of autophagy</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052150">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9920951</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0052150"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9920951</owl:annotatedTarget>
+        <rdfs:label>Dengue virus modulates apoptosis</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052164">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1222387</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -53453,6 +53528,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-6787567</owl:annotatedTarget>
         <rdfs:label>TRIT1 transfers dimethylallyl group to adenosine-37 of tRNA(Ser)</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052553">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9920588</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0052553"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9920588</owl:annotatedTarget>
+        <rdfs:label>Dengue virus activates/modulates innate and adaptive immune responses</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052572">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1222499</oboInOwl:hasDbXref>
@@ -53644,15 +53728,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9749792</owl:annotatedTarget>
         <rdfs:label>CES1,CES2 hydrolyze ASA- to ST</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052695">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-156588</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0052695"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-156588</owl:annotatedTarget>
-        <rdfs:label>Glucuronidation</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0052725">
         <oboInOwl:hasDbXref>Reactome:R-HSA-1855197</oboInOwl:hasDbXref>
@@ -54120,6 +54195,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-2564826</owl:annotatedTarget>
         <rdfs:label>4Fe-4S cluster assembles on NUBP2:NUBP1 scaffold</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060141">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9733458</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0060141"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9733458</owl:annotatedTarget>
+        <rdfs:label>Induction of Cell-Cell Fusion</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060229">
         <oboInOwl:hasDbXref>Reactome:R-HSA-163549</oboInOwl:hasDbXref>
@@ -55694,12 +55778,19 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070126">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5419276</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9937383</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070126"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-5419276</owl:annotatedTarget>
         <rdfs:label>Mitochondrial translation termination</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070126"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9937383</owl:annotatedTarget>
+        <rdfs:label>Mitochondrial ribosome-associated quality control</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070139">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2990840</oboInOwl:hasDbXref>
@@ -55771,12 +55862,26 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070269">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5620971</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9960519</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9960525</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070269"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-5620971</owl:annotatedTarget>
         <rdfs:label>Pyroptosis</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070269"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9960519</owl:annotatedTarget>
+        <rdfs:label>CASP4-mediated substrate cleavage</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070269"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9960525</owl:annotatedTarget>
+        <rdfs:label>CASP5-mediated substrate cleavage</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070290">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2466831</oboInOwl:hasDbXref>
@@ -55912,12 +56017,19 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070588">
         <oboInOwl:hasDbXref>Reactome:R-HSA-3295583</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-425561</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070588"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-3295583</owl:annotatedTarget>
         <rdfs:label>TRP channels</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0070588"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-425561</owl:annotatedTarget>
+        <rdfs:label>Sodium/Calcium exchangers</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070626">
         <oboInOwl:hasDbXref>Reactome:R-HSA-73800</oboInOwl:hasDbXref>
@@ -56220,6 +56332,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-9831926</owl:annotatedTarget>
         <rdfs:label>Nephron development</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0072344">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9948299</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0072344"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9948299</owl:annotatedTarget>
+        <rdfs:label>Ribosome-associated quality control</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0072345">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2685505</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -56228,6 +56349,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-2685505</owl:annotatedTarget>
         <rdfs:label>TPCN1/2 transport lysosomal Ca2+ to cytosol</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0072488">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-444411</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0072488"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-444411</owl:annotatedTarget>
+        <rdfs:label>Rhesus glycoproteins mediate ammonium transport</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0072530">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2161517</oboInOwl:hasDbXref>
@@ -56358,6 +56488,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-9843743</owl:annotatedTarget>
         <rdfs:label>Transcriptional regulation of brown and beige adipocyte differentiation</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0090368">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-350562</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0090368"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-350562</owl:annotatedTarget>
+        <rdfs:label>Regulation of ornithine decarboxylase (ODC)</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0090398">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2559583</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -56438,10 +56577,17 @@
         <rdfs:label>Agmatine biosynthesis</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0097190">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-111459</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-193681</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-204998</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-75157</oboInOwl:hasDbXref>
     </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0097190"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-111459</owl:annotatedTarget>
+        <rdfs:label>Activation of caspases through apoptosome-mediated cleavage</rdfs:label>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0097190"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -56583,15 +56729,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-2162253</owl:annotatedTarget>
         <rdfs:label>PDSS1,2 ligates FPP to IPPP</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0097296">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-140534</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0097296"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-140534</owl:annotatedTarget>
-        <rdfs:label>Caspase activation via Death Receptors in the presence of ligand</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0097300">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5218859</oboInOwl:hasDbXref>
@@ -57456,6 +57593,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-9014641</owl:annotatedTarget>
         <rdfs:label>HRSP12 deaminates 2-iminobutanoate to 2OBUTA</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0120532">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-1971475</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0120532"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-1971475</owl:annotatedTarget>
+        <rdfs:label>Glycosaminoglycan-protein linkage region biosynthesis</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0120539">
         <oboInOwl:hasDbXref>Reactome:R-HSA-2162195</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -57810,6 +57956,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9750656</owl:annotatedTarget>
         <rdfs:label>ABCC2, ABCC3 transport salicylate metabolites from cytosol to extracellular region of hepatic cells</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140546">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9953170</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0140546"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9953170</owl:annotatedTarget>
+        <rdfs:label>GBP-mediated host defense</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0140581">
         <oboInOwl:hasDbXref>Reactome:R-HSA-3697838</oboInOwl:hasDbXref>
@@ -58239,6 +58394,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-5358484</owl:annotatedTarget>
         <rdfs:label>DPH5 transfers four methyl groups from AdoMet to aminocarboxypropyl EEF2</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0141156">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-163358</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0141156"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-163358</owl:annotatedTarget>
+        <rdfs:label>PKA-mediated phosphorylation of key metabolic factors</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0141167">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5221030</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -58265,6 +58429,22 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9816359</owl:annotatedTarget>
         <rdfs:label>Maternal to zygotic transition (MZT)</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0160075">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9948001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9948011</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0160075"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9948001</owl:annotatedTarget>
+        <rdfs:label>CASP4 inflammasome assembly</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0160075"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9948011</owl:annotatedTarget>
+        <rdfs:label>CASP5 inflammasome assembly</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0160081">
         <oboInOwl:hasDbXref>Reactome:R-HSA-429767</oboInOwl:hasDbXref>
@@ -58370,6 +58550,31 @@
         <owl:annotatedTarget>Reactome:R-HSA-9942190</owl:annotatedTarget>
         <rdfs:label>FITM1 binds TAGs</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0170033">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8963693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-8964539</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0170033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-8963693</owl:annotatedTarget>
+        <rdfs:label>Aspartate and asparagine metabolism</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0170033"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-8964539</owl:annotatedTarget>
+        <rdfs:label>Glutamate and glutamine metabolism</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0180010">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9770562</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0180010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9770562</owl:annotatedTarget>
+        <rdfs:label>mRNA Polyadenylation</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1900034">
         <oboInOwl:hasDbXref>Reactome:R-HSA-3371453</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Reactome:R-HSA-3371571</oboInOwl:hasDbXref>
@@ -58385,6 +58590,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-3371571</owl:annotatedTarget>
         <rdfs:label>HSF1-dependent transactivation</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1900425">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9968551</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1900425"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9968551</owl:annotatedTarget>
+        <rdfs:label>Regulation of GBP-mediated host defense</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901030">
         <oboInOwl:hasDbXref>Reactome:R-HSA-111452</oboInOwl:hasDbXref>
@@ -58427,15 +58641,6 @@
         <owl:annotatedTarget>Reactome:R-HSA-1296052</owl:annotatedTarget>
         <rdfs:label>Ca2+ activated K+ channels</rdfs:label>
     </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901564">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-71291</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1901564"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-71291</owl:annotatedTarget>
-        <rdfs:label>Metabolism of amino acids and derivatives</rdfs:label>
-    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901687">
         <oboInOwl:hasDbXref>Reactome:R-HSA-156590</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -58453,6 +58658,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-5633007</owl:annotatedTarget>
         <rdfs:label>Regulation of TP53 Activity</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901847">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-196807</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1901847"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-196807</owl:annotatedTarget>
+        <rdfs:label>Nicotinate metabolism</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901990">
         <oboInOwl:hasDbXref>Reactome:R-HSA-174113</oboInOwl:hasDbXref>
@@ -58488,6 +58702,15 @@
         <owl:annotatedTarget>Reactome:R-HSA-3371378</owl:annotatedTarget>
         <rdfs:label>Regulation by c-FLIP</rdfs:label>
     </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1902224">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-74182</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1902224"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-74182</owl:annotatedTarget>
+        <rdfs:label>Ketone body metabolism</rdfs:label>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1902388">
         <oboInOwl:hasDbXref>Reactome:R-HSA-5339535</oboInOwl:hasDbXref>
     </rdf:Description>
@@ -58496,6 +58719,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-5339535</owl:annotatedTarget>
         <rdfs:label>CPTP transports C1P from plasma membrane to Golgi membrane</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1902476">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-426117</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1902476"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-426117</owl:annotatedTarget>
+        <rdfs:label>Cation-coupled Chloride cotransporters</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1902600">
         <oboInOwl:hasDbXref>Reactome:R-HSA-167826</oboInOwl:hasDbXref>
@@ -58523,15 +58755,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-8870332</owl:annotatedTarget>
         <rdfs:label>PTPN13:PLEKHA1,2 bind PI(3,4)P2</rdfs:label>
-    </owl:Axiom>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1902949">
-        <oboInOwl:hasDbXref>Reactome:R-HSA-9032845</oboInOwl:hasDbXref>
-    </rdf:Description>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_1902949"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-9032845</owl:annotatedTarget>
-        <rdfs:label>Activated NTRK2 signals through CDK5</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1903604">
         <oboInOwl:hasDbXref>Reactome:R-HSA-211958</oboInOwl:hasDbXref>
@@ -58778,12 +59001,19 @@
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_2000047">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9764260</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reactome:R-HSA-9764274</oboInOwl:hasDbXref>
     </rdf:Description>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_2000047"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-9764260</owl:annotatedTarget>
         <rdfs:label>Regulation of Expression and Function of Type II Classical Cadherins</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_2000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-9764274</owl:annotatedTarget>
+        <rdfs:label>Regulation of Expression and Function of Type I Classical Cadherins</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_2000074">
         <oboInOwl:hasDbXref>Reactome:R-HSA-211163</oboInOwl:hasDbXref>
@@ -58829,6 +59059,15 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>Reactome:R-HSA-8935964</owl:annotatedTarget>
         <rdfs:label>RUNX1 regulates expression of components of tight junctions</rdfs:label>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_2001233">
+        <oboInOwl:hasDbXref>Reactome:R-HSA-205025</oboInOwl:hasDbXref>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_2001233"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>Reactome:R-HSA-205025</owl:annotatedTarget>
+        <rdfs:label>NADE modulates death signalling</rdfs:label>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_2001241">
         <oboInOwl:hasDbXref>Reactome:R-HSA-9603505</oboInOwl:hasDbXref>
