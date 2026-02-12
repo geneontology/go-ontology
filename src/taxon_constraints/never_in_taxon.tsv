@@ -45,7 +45,6 @@ GO:0106282	isoursodeoxycholate 7-beta-dehydrogenase (NAD+) activity	NCBITaxon:50
 GO:0047007	pregnan-21-ol dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
 GO:0047008	pregnan-21-ol dehydrogenase (NADP+) activity	NCBITaxon:50557	Insecta	
 GO:0106283	ursodeoxycholate 7-beta-dehydrogenase (NAD+) activity	NCBITaxon:50557	Insecta	
-GO:0019343	cysteine biosynthetic process via cystathionine	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0004122	cystathionine beta-synthase	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0004123	cystathionine gamma-lyase	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:1990604	IRE1-TRAF2-ASK1 complex	NCBITaxon:4896	Schizosaccharomyces pombe	
