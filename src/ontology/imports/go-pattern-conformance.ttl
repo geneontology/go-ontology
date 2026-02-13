@@ -4361,9 +4361,6 @@
 <http://purl.obolibrary.org/obo/GO_0006533> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0006534> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0006536> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
@@ -40104,10 +40101,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1901493> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1901494> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1901497> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
