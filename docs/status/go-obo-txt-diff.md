@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-02-13 05:53:55.746752984 +0000
-+++ go.obo	2026-02-13 06:03:24.092393903 +0000
+--- go-lastrelease.obo	2026-02-14 05:45:55.575999754 +0000
++++ go.obo	2026-02-14 05:55:03.516746484 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-01-23
-+data-version: releases/2026-02-13
++data-version: releases/2026-02-14
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-01-23" xsd:string
-+property_value: owl:versionInfo "2026-02-13" xsd:string
++property_value: owl:versionInfo "2026-02-14" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
