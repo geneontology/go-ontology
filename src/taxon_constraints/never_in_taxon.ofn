@@ -174,7 +174,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016922>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0017015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0017145>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0017147>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019280>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019288>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019353>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019588>))
@@ -1940,13 +1939,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obo
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0017147> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0017147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_0017147> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0019280> (<http://purl.obolibrary.org/obo/GO_0019280>)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0019280> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0019280> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0019280> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
-DisjointClasses(<http://purl.obolibrary.org/obo/GO_0019280> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0019288> (<http://purl.obolibrary.org/obo/GO_0019288>)
 
