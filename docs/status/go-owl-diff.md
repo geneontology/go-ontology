@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-16/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-17/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,15 +19,16 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-16" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-17" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
+#### Removed
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine, the L-enantiomer of (2S)-2-amino-4-(methylsulfanyl)butanoic acid, from simpler components." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ecd" 
 
 #### Added
-- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
-
-- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5345](http://identifiers.org/metacyc.reaction/PWY-5345) 
 
 - ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -37,11 +38,28 @@
 
 - ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7977](http://identifiers.org/metacyc.reaction/PWY-7977) 
 
-- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HOMOSER-METSYN-PWY](http://identifiers.org/metacyc.reaction/HOMOSER-METSYN-PWY) 
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5347" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine, the L-enantiomer of (2S)-2-amino-4-(methylsulfanyl)butanoic acid, from simpler components such as L-aspartate or L-homoserine. This process occurs in plants, bacteria, archae and fungi." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24939187" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12818659" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5345" 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5347](http://identifiers.org/metacyc.reaction/PWY-5347) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
 
 - ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7977" 
 
 - ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-702](http://identifiers.org/metacyc.reaction/PWY-702) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31318"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [HOMOSER-METSYN-PWY](http://identifiers.org/metacyc.reaction/HOMOSER-METSYN-PWY) 
 
 
 ### (R)-3-amino-2-methylpropionate-pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047305`
@@ -3191,20 +3209,96 @@
 
 ### L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine `http://purl.obolibrary.org/obo/GO_0019280`
 #### Removed
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of methionine from L-homoserine, via the intermediate O-acetyl-L-homoserine using sulfur from hydrogen sulfide assimilation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+
 - [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
 
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine" 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) SubClassOf [L-homoserine metabolic process](http://purl.obolibrary.org/obo/GO_0009092) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) SubClassOf [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) 
+
+#### Added
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of methionine from L-homoserine, via the intermediate O-acetyl-L-homoserine using sulfur from hydrogen sulfide assimilation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HSERMETANA-PWY" 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway beyond the specificity of GO." 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine" 
+
+- [L-methionine biosynthetic process from L-homoserine via O-acetyl-L-homoserine](http://purl.obolibrary.org/obo/GO_0019280) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) 
 
 
 ### L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0019283`
 #### Removed
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "he chemical reactions and pathways resulting in the formation of L-methionine from L-homoserine, via the intermediates O-phospho-L-homoserine and cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine" 
+
 - [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
 
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) SubClassOf [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) SubClassOf [L-homoserine metabolic process](http://purl.obolibrary.org/obo/GO_0009092) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) SubClassOf ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) SubClassOf [modified amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006575) 
+
+#### Added
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of L-methionine from L-homoserine, via the intermediates O-phospho-L-homoserine and cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-702" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway beyond the specificity of GO." 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine" 
+
+- [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
 ### L-methionine biosynthetic process from L-homoserine via cystathionine `http://purl.obolibrary.org/obo/GO_0019279`
 #### Removed
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine biosynthetic process from L-homoserine via cystathionine" 
+
 - [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
 
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from L-homoserine, via the intermediate cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) SubClassOf [L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071265) 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) SubClassOf [L-homoserine metabolic process](http://purl.obolibrary.org/obo/GO_0009092) 
+
+#### Added
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway beyond the specificity of GO." 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-methionine biosynthetic process from L-homoserine via cystathionine" 
+
+- [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of L-methionine from L-homoserine, via the intermediate cystathionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:HOMOSER-METSYN-PWY" 
 
 
 ### L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0019281`
@@ -3212,11 +3306,25 @@
 - [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MET-SAM-PWY" 
 
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine" 
+
 - [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MET-SAM-PWY" 
 
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) SubClassOf [L-methionine biosynthetic process from L-homoserine via cystathionine](http://purl.obolibrary.org/obo/GO_0019279) 
+
 #### Added
-- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine" 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway beyond the specificity of GO." 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of L-methionine from other compounds, including homoserine, via the intermediates O-succinyl-L-homoserine and cystathionine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [L-methionine biosynthetic process from homoserine via O-succinyl-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019281) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### L-methionine catabolic process `http://purl.obolibrary.org/obo/GO_0009087`
@@ -3286,15 +3394,31 @@
 
 - [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4361" 
 
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-methionine salvage from methylthioadenosine" 
+
 - [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6756" 
 
 - [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6753" 
 
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) SubClassOf [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) 
+
 #### Added
-- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The generation of L-methionine (2-amino-4-(methylthio)butanoic acid) from methylthioadenosine." 
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31525"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-methionine salvage from methylthioadenosine" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31318"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [S-adenosylmethionine cycle](http://purl.obolibrary.org/obo/GO_0033353) 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The generation of L-methionine (2-amino-4-(methylthio)butanoic acid) from methylthioadenosine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19946895" 
+
+- [L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway beyond the specificity of GO." 
 
 
 ### L-methionine:2-oxoglutarate aminotransferase activity `http://purl.obolibrary.org/obo/GO_0080099`
@@ -4506,6 +4630,24 @@
 
 - [RNA-directed RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0003968) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9923068" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NS5 synthesizes plus strand genome" 
+
+
+### S-adenosylmethionine cycle `http://purl.obolibrary.org/obo/GO_0033353`
+#### Removed
+- [S-adenosylmethionine cycle](http://purl.obolibrary.org/obo/GO_0033353) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cyclic series of interconversions involving S-adenosylmethionine, S-adenosyl-L-homocysteine, L-cysteine, and L-methionine. Couples utilization of the methyl group of SAM with recycling of the homocysteinyl group and regeneration of methionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5041" 
+
+#### Added
+- [S-adenosylmethionine cycle](http://purl.obolibrary.org/obo/GO_0033353) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cyclic series of interconversions involving S-adenosylmethionine (SAM), S-adenosyl-L-homocysteine, L-homocysteine, and L-methionine. Couples utilization of the methyl group of SAM with recycling of the homocysteinyl group and regeneration of L-methionine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31950558" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39394448" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5041" 
+
+- [S-adenosylmethionine cycle](http://purl.obolibrary.org/obo/GO_0033353) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31318"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### S-methyl-5-thioribose-1-phosphate isomerase activity `http://purl.obolibrary.org/obo/GO_0046523`
@@ -10358,6 +10500,23 @@ GO:0047635"
 
 
 
+### membrane protein dislocase activity `http://purl.obolibrary.org/obo/GO_0140567`
+#### Removed
+- [membrane protein dislocase activity](http://purl.obolibrary.org/obo/GO_0140567) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "transmembrane helix dislocase
+transmembrane protein dislocase activity" 
+
+- [membrane protein dislocase activity](http://purl.obolibrary.org/obo/GO_0140567) SubClassOf [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) 
+
+#### Added
+- [membrane protein dislocase activity](http://purl.obolibrary.org/obo/GO_0140567) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "transmembrane protein dislocase activity" 
+
+- [membrane protein dislocase activity](http://purl.obolibrary.org/obo/GO_0140567) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "transmembrane helix dislocase" 
+
+- [membrane protein dislocase activity](http://purl.obolibrary.org/obo/GO_0140567) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30369"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [membrane protein dislocase activity](http://purl.obolibrary.org/obo/GO_0140567) SubClassOf [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) 
+
+
 ### metal ion transport `http://purl.obolibrary.org/obo/GO_0030001`
 
 #### Added
@@ -11340,6 +11499,14 @@ GO:0047635"
 - [obsolete DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest](http://purl.obolibrary.org/obo/GO_0006977) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-69563" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "p53-Dependent G1 DNA Damage Response" 
 
+
+
+### obsolete L-methionine biosynthetic process from homoserine via O-phospho-L-homoserine and cystathionine `http://purl.obolibrary.org/obo/GO_0033516`
+#### Removed
+- [obsolete L-methionine biosynthetic process from homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0033516) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [L-methionine biosynthetic process from L-homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0019283) 
+
+#### Added
+- [obsolete L-methionine biosynthetic process from homoserine via O-phospho-L-homoserine and cystathionine](http://purl.obolibrary.org/obo/GO_0033516) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' L-methionine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071266) 
 
 
 ### obsolete N1-acetylspermidine:oxygen oxidoreductase (3-acetamidopropanal-forming) activity `http://purl.obolibrary.org/obo/GO_0052904`
@@ -13248,6 +13415,26 @@ GO:0047635"
 
 
 
+### protein carrier chaperone `http://purl.obolibrary.org/obo/GO_0140597`
+#### Removed
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to and carrying a protein between two different cellular components by moving along with the target protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7628437" 
+
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein carrier activity" 
+
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein carrier chaperone" 
+
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [protein binding](http://purl.obolibrary.org/obo/GO_0005515) 
+
+#### Added
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein carrier activity" 
+
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to and carrying a protein between two different locations by moving along with the target protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7628437" 
+
+- [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein carrier chaperone" 
+
+
 ### protein catabolic process `http://purl.obolibrary.org/obo/GO_0030163`
 
 #### Added
@@ -13306,6 +13493,14 @@ GO:0047635"
 #### Added
 - [protein folding](http://purl.obolibrary.org/obo/GO_0006457) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-390450" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Folding of actin by CCT/TriC" 
+
+
+### protein folding chaperone `http://purl.obolibrary.org/obo/GO_0044183`
+
+#### Added
+- [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that a protein folding chaperone binds an unfolded protein to fold it. Do not confuse with unfolded protein holdase activity, which binds an unfolded protein and keeps it unfolded to deliver it to its final destination." 
+
+- [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30552"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### protein kinase activity `http://purl.obolibrary.org/obo/GO_0004672`
@@ -13544,8 +13739,14 @@ GO:0047635"
 
 
 ### protein transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0008320`
+#### Removed
+- [protein transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008320) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein transmembrane transporter activity" 
 
 #### Added
+- [protein transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008320) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein transmembrane transporter activity" 
+
+- [protein transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008320) [label](http://www.w3.org/2000/01/rdf-schema#label) "transmembrane protein transporter activity" 
+
 - [protein transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008320) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9760705" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GspD2:GspC2:GspS2 transports LT from periplasmic to extracellular space" 
 
@@ -16033,6 +16234,28 @@ GO:0047635"
 
 - [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9929350" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Ubiquitination of CD274 by BTRC-SCF E3-ligase complex" 
+
+
+### unfolded protein carrier activity `http://purl.obolibrary.org/obo/GO_0140309`
+#### Removed
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "holdase" 
+
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [label](http://www.w3.org/2000/01/rdf-schema#label) "unfolded protein carrier activity" 
+
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein carrier activity that binds to a protein in an unfolded state and escorts it between two different cellular components. The unfolded protein carrier prevents aggregation of the target protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
+
+#### Added
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "holdase" 
+
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [label](http://www.w3.org/2000/01/rdf-schema#label) "unfolded protein holdase activity" 
+
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein carrier activity that binds to a protein in an unfolded state and escorts it between two different locations. The unfolded protein carrier prevents aggregation of the target protein while it's being delivers to its final destination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
+
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "unfolded protein carrier activity" 
+
+- [unfolded protein carrier activity](http://purl.obolibrary.org/obo/GO_0140309) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that an holdase binds an unfolded protein and keeps it unfolded, unlike a protein folding chaperone, which binds an unfolded protein to fold it." 
 
 
 ### urate oxidase activity `http://purl.obolibrary.org/obo/GO_0004846`
