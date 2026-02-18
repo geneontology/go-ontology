@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-17/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-18/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-18" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -122,6 +122,12 @@
 
 #### Added
 - [(3R,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_76557) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_232532) 
+
+
+### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
+
+#### Added
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### (3S,11Z)-3-hydroxyoctadecenoyl-CoA(4-) `http://purl.obolibrary.org/obo/CHEBI_232532`
@@ -903,6 +909,12 @@
 - [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73843" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5-Phosphoribose 1-diphosphate biosynthesis" 
 
+#### Added
+- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-662" 
+
+- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY0-662](http://identifiers.org/metacyc.reaction/PWY0-662) 
+
+- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### 6-[amino acid carboxyl end amidated-6-phosphoethanolamine-alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-phosphoethanolamine-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-1-(1-radyl,2-octadecanoyl-sn-glycero-3-phospho)-1D-myo-inositol residue `http://purl.obolibrary.org/obo/CHEBI_235441`
@@ -1207,6 +1219,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14777" 
 
 
+### ATP citrate synthase activity `http://purl.obolibrary.org/obo/GO_0003878`
+#### Removed
+- [ATP citrate synthase activity](http://purl.obolibrary.org/obo/GO_0003878) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5172](http://identifiers.org/metacyc.reaction/PWY-5172) 
+
+#### Added
+- [ATP citrate synthase activity](http://purl.obolibrary.org/obo/GO_0003878) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### ATP deaminase activity `http://purl.obolibrary.org/obo/GO_0047692`
 #### Removed
 - [ATP deaminase activity](http://purl.obolibrary.org/obo/GO_0047692) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + H2O = ITP + NH3." 
@@ -1345,6 +1365,20 @@
 - [D-4-hydroxyphenylglycine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0047320) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "D-4-hydroxyphenylglycine transaminase activity" 
 
 - [D-4-hydroxyphenylglycine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0047320) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-4-hydroxyphenylglycine:2-oxoglutarate transaminase activity" 
+
+
+### D-alanine [D-alanyl carrier protein] ligase activity `http://purl.obolibrary.org/obo/GO_0047473`
+#### Removed
+- [D-alanine [D-alanyl carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_0047473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the ATP-dependent activation of D-alanine and its transfer as a thiol ester to the phosphopantheinyl prosthetic group of a D-alanyl carrier protein, according to the reaction: ATP + D-alanine + a [D-alaninyl carrier protein] = a D-alanyl-[D-alanyl carrier protein] + AMP + diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+
+#### Added
+- [D-alanine [D-alanyl carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_0047473) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:55132" 
+
+- [D-alanine [D-alanyl carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_0047473) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:6.2.1.54" 
+
+- [D-alanine [D-alanyl carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_0047473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the ATP-dependent activation of D-alanine and its transfer as a thiol ester to the phosphopantheinyl prosthetic group of a D-alanyl carrier protein, according to the reaction: holo-[D-alanyl-carrier protein] + D-alanine + ATP = D-alanyl-[D-alanyl-carrier protein] + AMP + diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:55132" 
 
 
 ### D-alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030632`
@@ -2367,11 +2401,17 @@
 - [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-oxoglutarate + L-alanine = L-glutamate + pyruvate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19453" 
 
+- [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [ALANINE-SYN2-PWY](http://identifiers.org/metacyc.reaction/ALANINE-SYN2-PWY) 
+
 - [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-alanine:2-oxoglutarate aminotransferase activity" 
 
 #### Added
 - [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-alanine + 2-oxoglutarate = pyruvate + L-glutamate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19453" 
+
+- [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-alanine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004021) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -2671,6 +2711,12 @@ GO:0047635"
 
 - [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-aspartate:2-oxoglutarate aminotransferase activity" 
 
+- [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [ASPARTATESYN-PWY](http://identifiers.org/metacyc.reaction/ASPARTATESYN-PWY) 
+
+- [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [ASPARTATE-DEG1-PWY](http://identifiers.org/metacyc.reaction/ASPARTATE-DEG1-PWY) 
+
 - [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70596" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GOT2 dimer deaminates L-Asp" 
 
@@ -2683,6 +2729,8 @@ GO:0047635"
 
 - [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate + 2-oxoglutarate = oxaloacetate + L-glutamate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21824" 
+
+- [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-aspartate:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0004069) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-aspartate:2-oxoglutarate transaminase activity" 
 
@@ -2979,10 +3027,36 @@ GO:0047635"
 - [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### L-glutamate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004352`
+#### Removed
+- [L-glutamate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004352) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [GLUTAMATE-DEG1-PWY](http://identifiers.org/metacyc.reaction/GLUTAMATE-DEG1-PWY) 
+
+- [L-glutamate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004352) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [L-glutamate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004352) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### L-glutamate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0004354`
+#### Removed
+- [L-glutamate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0004354) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [GLUTSYNIII-PWY](http://identifiers.org/metacyc.reaction/GLUTSYNIII-PWY) 
+
+- [L-glutamate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0004354) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [L-glutamate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0004354) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-glutamate dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0004353`
 #### Removed
 - [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70589" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "alpha-ketoglutarate + NH4+ + NAD(P)H + H+ &lt;=&gt; glutamate + NAD(P)+ [GLUD1]" 
+
+- [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [GLUTAMATE-SYN2-PWY](http://identifiers.org/metacyc.reaction/GLUTAMATE-SYN2-PWY) 
+
+- [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5766](http://identifiers.org/metacyc.reaction/PWY-5766) 
 
 - [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70600" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamate + NAD(P)+ =&gt; alpha-ketoglutarate + NH4+ + NAD(P)H + H+ [GLUD1]" 
@@ -2990,6 +3064,8 @@ GO:0047635"
 #### Added
 - [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70600" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamate + NAD(P)+ =&gt; alpha-ketoglutarate + NH4+ + NAD(P)H + H+ (GLUD1,2)" 
+
+- [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-glutamate dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70589" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "alpha-ketoglutarate + NH4+ + NAD(P)H + H+ &lt;=&gt; glutamate + NAD(P)+ (GLUD1,2)" 
@@ -3550,6 +3626,16 @@ GO:0047635"
 - [L-leucine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0052654) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### L-lysine 6-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0050303`
+#### Removed
+- [L-lysine 6-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050303) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5314](http://identifiers.org/metacyc.reaction/PWY-5314) 
+
+- [L-lysine 6-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050303) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [L-lysine 6-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050303) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-lysine N6-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0090595`
 #### Removed
 - [L-lysine N6-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0090595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: acetyl-CoA + L-lysine = CoA + H+ + N(6)-acetyl-L-lysine." 
@@ -3708,10 +3794,34 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
 
 #### Added
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5324](http://identifiers.org/metacyc.reaction/PWY-5324) 
+
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5311" 
+
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5324" 
+
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5314" 
+
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5314](http://identifiers.org/metacyc.reaction/PWY-5314) 
+
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5311](http://identifiers.org/metacyc.reaction/PWY-5311) 
+
 - [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-lysine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-lysine oxidase activity `http://purl.obolibrary.org/obo/GO_0050029`
+#### Removed
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5311](http://identifiers.org/metacyc.reaction/PWY-5311) 
+
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [L-lysine oxidase activity](http://purl.obolibrary.org/obo/GO_0050029) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### L-lysine:2-oxoglutarate 6-transaminase activity `http://purl.obolibrary.org/obo/GO_0045484`
@@ -3742,10 +3852,14 @@ GO:0047635"
 #### Removed
 - [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [label](http://www.w3.org/2000/01/rdf-schema#label) "lysine-pyruvate 6-transaminase activity" 
 
+- [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
 - [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-lysine + pyruvate = L-alanine + L-allysine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19393" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.6.1.71" 
+
+- [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5324](http://identifiers.org/metacyc.reaction/PWY-5324) 
 
 - [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) SubClassOf [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) 
 
@@ -3758,6 +3872,8 @@ GO:0047635"
 - [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-lysine:pyruvate 6-transaminase activity" 
 
 - [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-lysine:pyruvate 6-transaminase activity](http://purl.obolibrary.org/obo/GO_0050065) SubClassOf [amino acid transaminase activity](http://purl.obolibrary.org/obo/GO_0140385) 
 
@@ -4603,13 +4719,33 @@ GO:0047635"
 
 
 ### N(1)-acetylpolyamine oxidase activity `http://purl.obolibrary.org/obo/GO_0052903`
+#### Removed
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12090" 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [RXN-12090](http://identifiers.org/metacyc.reaction/RXN-12090) 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [RXN-9940](http://identifiers.org/metacyc.reaction/RXN-9940) 
 
 #### Added
-- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-141348" 
-  - [label](http://www.w3.org/2000/01/rdf-schema#label) "PAO:FAD oxidises NASPM to PTCN" 
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-10460](http://identifiers.org/metacyc.reaction/RXN-10460) 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-10460" 
 
 - [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-141351" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PAOX:FAD oxidises NASPN to SPM" 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-9940](http://identifiers.org/metacyc.reaction/RXN-9940) 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9940" 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-12091](http://identifiers.org/metacyc.reaction/RXN-12091) 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12091" 
+
+- [N(1)-acetylpolyamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-141348" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "PAO:FAD oxidises NASPM to PTCN" 
 
 
 ### N(6),N(6)-dimethyl-AMP(2-) `http://purl.obolibrary.org/obo/CHEBI_235457`
@@ -5012,6 +5148,35 @@ GO:0047635"
 - [PE(O-18:0/18:1(9Z))](http://purl.obolibrary.org/obo/CHEBI_234526) SubClassOf [phosphatidylethanolamine O-36:1](http://purl.obolibrary.org/obo/CHEBI_156011) 
 
 
+### RADAR pathway `http://purl.obolibrary.org/obo/GO_0170074`
+
+#### Added
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A quality control pathway that degrades peroxisomal matrix protein receptors when the recycling machinery is blocked. When recycling to the cytosol fails, cargo-free receptors accumulate at the peroxisomal membrane, where they are polyubiquitinated and subsequently degraded by the ubiquitin-proteasome system (UPS)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16390998" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41076631" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17011644" 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-17T22:02:27Z" 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Receptor Accumulation and Degradation in the Absence of Recycling" 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31570"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170074" 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [label](http://www.w3.org/2000/01/rdf-schema#label) "RADAR pathway" 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- Class: [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) 
+
+- [RADAR pathway](http://purl.obolibrary.org/obo/GO_0170074) SubClassOf [proteasome-mediated ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_0043161) 
+
+
 ### RNA 2',3'-cyclic phosphatase activity `http://purl.obolibrary.org/obo/GO_0160272`
 #### Removed
 - [RNA 2',3'-cyclic phosphatase activity](http://purl.obolibrary.org/obo/GO_0160272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 3'-end 2',3'-cyclophospho-ribonucleotide-RNA + 2 H2O = a 3'-end ribonucleotide-RNA + phosphate + H+." 
@@ -5363,6 +5528,18 @@ GO:0047635"
 - [UDP-4-amino-4-deoxy-L-arabinose:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0099620) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "UDP-4-amino-4-deoxy-L-arabinose aminotransferase" 
 
 
+### UDP-D-galacturonate biosynthetic process `http://purl.obolibrary.org/obo/GO_0033480`
+
+#### Added
+- [UDP-D-galacturonate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033480) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4](http://identifiers.org/metacyc.reaction/PWY-4) 
+
+- [UDP-D-galacturonate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033480) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4861" 
+
+- [UDP-D-galacturonate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033480) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [UDP-D-galacturonate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033480) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4861](http://identifiers.org/metacyc.reaction/PWY-4861) 
+
+
 ### UDP-N-acetylbacillosamine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0047302`
 #### Removed
 - [UDP-N-acetylbacillosamine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0047302) [label](http://www.w3.org/2000/01/rdf-schema#label) "UDP-2-acetamido-4-amino-2,4,6-trideoxyglucose transaminase activity" 
@@ -5383,6 +5560,26 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31663" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16286454" 
+
+
+### UDP-N-acetylgalactosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019277`
+
+#### Added
+- [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5512](http://identifiers.org/metacyc.reaction/PWY-5512) 
+
+- [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5512" 
+
+
+### UDP-N-acetylglucosamine 4-epimerase activity `http://purl.obolibrary.org/obo/GO_0003974`
+#### Removed
+- [UDP-N-acetylglucosamine 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0003974) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [UDP-N-acetylglucosamine 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0003974) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5512](http://identifiers.org/metacyc.reaction/PWY-5512) 
+
+#### Added
+- [UDP-N-acetylglucosamine 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0003974) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### UDP-galactopyranose mutase activity `http://purl.obolibrary.org/obo/GO_0008767`
@@ -5415,6 +5612,24 @@ GO:0047635"
 - [UDP-glucose:4-aminobenzoate acylglucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0080002) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1-O-(4-aminobenzoyl)-beta-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_139329) 
 
 - [UDP-glucose:4-aminobenzoate acylglucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0080002) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [UDP-alpha-D-glucose(2-)](http://purl.obolibrary.org/obo/CHEBI_58885) 
+
+
+### UDP-glucuronate 4-epimerase activity `http://purl.obolibrary.org/obo/GO_0050378`
+#### Removed
+- [UDP-glucuronate 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0050378) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: UDP-alpha-D-glucuronate = UDP-alpha-D-galacturonate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:11404" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.1.3.6" 
+
+- [UDP-glucuronate 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0050378) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-4861](http://identifiers.org/metacyc.reaction/PWY-4861) 
+
+- [UDP-glucuronate 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0050378) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [UDP-glucuronate 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0050378) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [UDP-glucuronate 4-epimerase activity](http://purl.obolibrary.org/obo/GO_0050378) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: UDP-alpha-D-glucuronate = UDP-alpha-D-galacturonate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:11404" 
 
 
 ### UDP-xylosyltransferase activity `http://purl.obolibrary.org/obo/GO_0035252`
@@ -5472,6 +5687,16 @@ GO:0047635"
 #### Added
 - [acetyl-CoA C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0003985) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70844" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "alpha-methylacetoacetyl-CoA + CoA =&gt; propionyl-CoA + acetyl-CoA" 
+
+
+### acetyl-CoA biosynthetic process `http://purl.obolibrary.org/obo/GO_0006085`
+
+#### Added
+- [acetyl-CoA biosynthetic process](http://purl.obolibrary.org/obo/GO_0006085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5172" 
+
+- [acetyl-CoA biosynthetic process](http://purl.obolibrary.org/obo/GO_0006085) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5172](http://identifiers.org/metacyc.reaction/PWY-5172) 
+
+- [acetyl-CoA biosynthetic process](http://purl.obolibrary.org/obo/GO_0006085) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### acetylgalactosaminyl-O-glycosyl-glycoprotein beta-1,3-N-acetylglucosaminyltransferase activity `http://purl.obolibrary.org/obo/GO_0047224`
@@ -6155,6 +6380,16 @@ GO:0047635"
 
 
 
+### aspartate 1-decarboxylase activity `http://purl.obolibrary.org/obo/GO_0004068`
+#### Removed
+- [aspartate 1-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0004068) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [aspartate 1-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0004068) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5155](http://identifiers.org/metacyc.reaction/PWY-5155) 
+
+#### Added
+- [aspartate 1-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0004068) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### aspartate ammonia-lyase activity `http://purl.obolibrary.org/obo/GO_0008797`
 #### Removed
 - [aspartate ammonia-lyase activity](http://purl.obolibrary.org/obo/GO_0008797) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate = fumarate + NH3." 
@@ -6422,10 +6657,16 @@ GO:0047635"
 
 ### beta-galactosidase activity `http://purl.obolibrary.org/obo/GO_0004565`
 #### Removed
+- [beta-galactosidase activity](http://purl.obolibrary.org/obo/GO_0004565) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that the inclusion of 'MetaCyc:BGALACT-PWY' is exceptional: normally MetaCyc pathway entries are database references for biological process terms, not molecular function terms. An exception was made in this case because the MetaCyc entry 'BGALACT-PWY' describes only one reaction, that catalyzed by beta-galactosidase." 
+
 - [beta-galactosidase activity](http://purl.obolibrary.org/obo/GO_0004565) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1793217" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Keratan sulfate is cleaved from its proteoglycan by an unknown galactosidase" 
 
+- [beta-galactosidase activity](http://purl.obolibrary.org/obo/GO_0004565) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [BGALACT-PWY](http://identifiers.org/metacyc.reaction/BGALACT-PWY) 
+
 #### Added
+- [beta-galactosidase activity](http://purl.obolibrary.org/obo/GO_0004565) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [beta-galactosidase activity](http://purl.obolibrary.org/obo/GO_0004565) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1793217" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown endo--galactosidase cleaves keratan chain" 
 
@@ -7003,6 +7244,26 @@ GO:0047635"
 
 
 
+### choline catabolic process `http://purl.obolibrary.org/obo/GO_0042426`
+
+#### Added
+- [choline catabolic process](http://purl.obolibrary.org/obo/GO_0042426) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [choline catabolic process](http://purl.obolibrary.org/obo/GO_0042426) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7167" 
+
+- [choline catabolic process](http://purl.obolibrary.org/obo/GO_0042426) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7167](http://identifiers.org/metacyc.reaction/PWY-7167) 
+
+
+### choline trimethylamine lyase activity `http://purl.obolibrary.org/obo/GO_0120525`
+#### Removed
+- [choline trimethylamine lyase activity](http://purl.obolibrary.org/obo/GO_0120525) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [choline trimethylamine lyase activity](http://purl.obolibrary.org/obo/GO_0120525) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-7167](http://identifiers.org/metacyc.reaction/PWY-7167) 
+
+#### Added
+- [choline trimethylamine lyase activity](http://purl.obolibrary.org/obo/GO_0120525) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### choline:oxygen 1-oxidoreductase activity `http://purl.obolibrary.org/obo/GO_0033713`
 #### Removed
 - [choline:oxygen 1-oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033713) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: choline + O2 = betaine aldehyde + hydrogen peroxide." 
@@ -7188,6 +7449,16 @@ GO:0047635"
 - [cortisol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102196) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
 
 
+### creatine kinase activity `http://purl.obolibrary.org/obo/GO_0004111`
+#### Removed
+- [creatine kinase activity](http://purl.obolibrary.org/obo/GO_0004111) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-6158](http://identifiers.org/metacyc.reaction/PWY-6158) 
+
+- [creatine kinase activity](http://purl.obolibrary.org/obo/GO_0004111) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [creatine kinase activity](http://purl.obolibrary.org/obo/GO_0004111) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### creatinine deaminase activity `http://purl.obolibrary.org/obo/GO_0047790`
 #### Removed
 - [creatinine deaminase activity](http://purl.obolibrary.org/obo/GO_0047790) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: creatinine + H2O = N-methylhydantoin + NH3." 
@@ -7353,6 +7624,26 @@ GO:0047635"
 #### Added
 - [cytochrome-c peroxidase activity](http://purl.obolibrary.org/obo/GO_0004130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 ferrocytochrome c + H2O2 = 2 ferricytochrome c + 2 H2O." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.11.1.5" 
+
+
+### cytokinin catabolic process `http://purl.obolibrary.org/obo/GO_0009823`
+
+#### Added
+- [cytokinin catabolic process](http://purl.obolibrary.org/obo/GO_0009823) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-2841](http://identifiers.org/metacyc.reaction/PWY-2841) 
+
+- [cytokinin catabolic process](http://purl.obolibrary.org/obo/GO_0009823) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2841" 
+
+- [cytokinin catabolic process](http://purl.obolibrary.org/obo/GO_0009823) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cytokinin dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0019139`
+#### Removed
+- [cytokinin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0019139) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-2841](http://identifiers.org/metacyc.reaction/PWY-2841) 
+
+- [cytokinin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0019139) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [cytokinin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0019139) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### cytoplasmic side of Golgi membrane `http://purl.obolibrary.org/obo/GO_0098548`
@@ -8774,6 +9065,28 @@ GO:0047635"
 
 
 
+### geranylgeranyl diphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0033386`
+
+#### Added
+- [geranylgeranyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5120](http://identifiers.org/metacyc.reaction/PWY-5120) 
+
+- [geranylgeranyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5120" 
+
+- [geranylgeranyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0033386) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### geranylgeranyl diphosphate synthase activity `http://purl.obolibrary.org/obo/GO_0004311`
+#### Removed
+- [geranylgeranyl diphosphate synthase activity](http://purl.obolibrary.org/obo/GO_0004311) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5120](http://identifiers.org/metacyc.reaction/PWY-5120) 
+
+- [geranylgeranyl diphosphate synthase activity](http://purl.obolibrary.org/obo/GO_0004311) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The catalyzed reaction forms (free) geranylgeranyl diphosphate. There is no relationship between this activity and protein farnesyltransferase activity, GO:0004660, where the catalyzed reaction transfers a farnesyl group from farnesyl diphosphate to a target protein. Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [geranylgeranyl diphosphate synthase activity](http://purl.obolibrary.org/obo/GO_0004311) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [geranylgeranyl diphosphate synthase activity](http://purl.obolibrary.org/obo/GO_0004311) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The catalyzed reaction forms (free) geranylgeranyl diphosphate. There is no relationship between this activity and protein farnesyltransferase activity, GO:0004660, where the catalyzed reaction transfers a farnesyl group from farnesyl diphosphate to a target protein." 
+
+
 ### global gene silencing by mRNA cleavage `http://purl.obolibrary.org/obo/GO_0098795`
 
 #### Added
@@ -8912,6 +9225,24 @@ GO:0047635"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "EXTL3 dimer transfers GlcNAc to the GAG linker" 
 
 
+### glutamate synthase (NADH) activity `http://purl.obolibrary.org/obo/GO_0016040`
+#### Removed
+- [glutamate synthase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016040) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [GLUGLNSYN-PWY](http://identifiers.org/metacyc.reaction/GLUGLNSYN-PWY) 
+
+- [glutamate synthase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016040) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 L-glutamate + NAD+ = 2-oxoglutarate + L-glutamine + H+ + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13753" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.4.1.14" 
+
+- [glutamate synthase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016040) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [glutamate synthase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016040) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 L-glutamate + NAD+ = 2-oxoglutarate + L-glutamine + H+ + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13753" 
+
+- [glutamate synthase (NADH) activity](http://purl.obolibrary.org/obo/GO_0016040) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### glutamate synthase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004355`
 #### Removed
 - [glutamate synthase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004355) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 L-glutamate + NADP+ = 2-oxoglutarate + L-glutamine + H+ + NADPH. This is a two-step reaction: (a) L-glutamate + NH3 = L-glutamine + H2O, (b) L-glutamate + NADP+ + H2O = NH3 + 2-oxoglutarate + NADPH + H+." 
@@ -8919,17 +9250,29 @@ GO:0047635"
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15501" 
 
+- [glutamate synthase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004355) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [GLUTSYN-PWY](http://identifiers.org/metacyc.reaction/GLUTSYN-PWY) 
+
+- [glutamate synthase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004355) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
 #### Added
+- [glutamate synthase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004355) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [glutamate synthase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004355) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 L-glutamate + NADP+ = 2-oxoglutarate + L-glutamine + H+ + NADPH. This is a two-step reaction: (a) L-glutamate + NH4+ = L-glutamine + H2O, (b) L-glutamate + NADP+ + H2O = NH4+ + 2-oxoglutarate + NADPH + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15501" 
 
 
 ### glutamate synthase (ferredoxin) activity `http://purl.obolibrary.org/obo/GO_0016041`
 #### Removed
+- [glutamate synthase (ferredoxin) activity](http://purl.obolibrary.org/obo/GO_0016041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [glutamate synthase (ferredoxin) activity](http://purl.obolibrary.org/obo/GO_0016041) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-4341](http://identifiers.org/metacyc.reaction/PWY-4341) 
+
 - [glutamate synthase (ferredoxin) activity](http://purl.obolibrary.org/obo/GO_0016041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 L-glutamate + 2 oxidized ferredoxin = L-glutamine + 2-oxoglutarate + 2 reduced ferredoxin + 2 H+. This is a two-step reaction: (a) L-glutamate + NH3 = L-glutamine + H2O, (b) L-glutamate + 2 oxidized ferredoxin + H2O = NH3 + 2-oxoglutarate + 2 reduced ferredoxin + 2 H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.4.7.1" 
 
 #### Added
+- [glutamate synthase (ferredoxin) activity](http://purl.obolibrary.org/obo/GO_0016041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [glutamate synthase (ferredoxin) activity](http://purl.obolibrary.org/obo/GO_0016041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 L-glutamate + 2 oxidized ferredoxin = L-glutamine + 2-oxoglutarate + 2 reduced ferredoxin + 2 H+. This is a two-step reaction: (a) L-glutamate + NH4+ = L-glutamine + H2O, (b) L-glutamate + 2 oxidized ferredoxin + H2O = NH4+ + 2-oxoglutarate + 2 reduced ferredoxin + 2 H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.4.7.1" 
 
@@ -10149,6 +10492,16 @@ GO:0047635"
 - [lactoperoxidase activity](http://purl.obolibrary.org/obo/GO_0140825) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "heme peroxidase activity" 
 
 
+### lactose catabolic process `http://purl.obolibrary.org/obo/GO_0005990`
+
+#### Added
+- [lactose catabolic process](http://purl.obolibrary.org/obo/GO_0005990) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:BGALACT-PWY" 
+
+- [lactose catabolic process](http://purl.obolibrary.org/obo/GO_0005990) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [BGALACT-PWY](http://identifiers.org/metacyc.reaction/BGALACT-PWY) 
+
+- [lactose catabolic process](http://purl.obolibrary.org/obo/GO_0005990) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### laminin network `http://purl.obolibrary.org/obo/GO_0140349`
 
 #### Added
@@ -10342,6 +10695,18 @@ GO:0047635"
 
 - [long-chain fatty acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005324) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2026996" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FABP1 transports fatty acids into the nucleus" 
+
+
+### long-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0004467`
+#### Removed
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5143](http://identifiers.org/metacyc.reaction/PWY-5143) 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283). Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283)." 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### long-chain-alcohol O-fatty-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047196`
@@ -10739,9 +11104,29 @@ GO:0047635"
 
 - [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
 
+- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
 - [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
 
-- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+### mannitol catabolic process `http://purl.obolibrary.org/obo/GO_0019592`
+
+#### Added
+- [mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [MANNIDEG-PWY](http://identifiers.org/metacyc.reaction/MANNIDEG-PWY) 
+
+- [mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:MANNIDEG-PWY" 
+
+
+### mannitol-1-phosphate 5-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0008926`
+#### Removed
+- [mannitol-1-phosphate 5-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008926) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [MANNIDEG-PWY](http://identifiers.org/metacyc.reaction/MANNIDEG-PWY) 
+
+- [mannitol-1-phosphate 5-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008926) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [mannitol-1-phosphate 5-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008926) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### mannokinase activity `http://purl.obolibrary.org/obo/GO_0019158`
@@ -11354,6 +11739,41 @@ transmembrane protein dislocase activity"
 - [negative regulation of GCN2-mediated signaling](http://purl.obolibrary.org/obo/GO_7770045) SubClassOf [negative regulation of intracellular signal transduction](http://purl.obolibrary.org/obo/GO_1902532) 
 
 
+### negative regulation of L-glutamate biosynthetic process `http://purl.obolibrary.org/obo/GO_0140387`
+
+#### Added
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "negative regulation of glutamate biosynthetic process" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31582"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of L-glutamate biosynthetic process" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of L-glutamate biosynthetic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16899818" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29649217" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "negative regulation of L-glutamate biosynthesis" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140387" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-17T08:55:47Z" 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- Class: [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054)) 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0097054) 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) SubClassOf [negative regulation of glutamate metabolic process](http://purl.obolibrary.org/obo/GO_2000212) 
+
+- [negative regulation of L-glutamate biosynthetic process](http://purl.obolibrary.org/obo/GO_0140387) SubClassOf [negative regulation of amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_2000283) 
+
+
 ### negative regulation of alcohol biosynthetic process `http://purl.obolibrary.org/obo/GO_1902931`
 
 #### Added
@@ -11624,6 +12044,154 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15489" 
 
 
+### obsolete (+)-delta-cadinene-8-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102947`
+#### Removed
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [label](http://www.w3.org/2000/01/rdf-schema#label) "(+)-delta-cadinene-8-hydroxylase activity" 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9045" 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + (+)-delta-cadinene + NADPH + O2 = 8-hydroxy-(+)-delta-cadinene + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete (+)-delta-cadinene-8-hydroxylase activity" 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + (+)-delta-cadinene + NADPH + O2 = 8-hydroxy-(+)-delta-cadinene + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete (+)-delta-cadinene-8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102947) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102135`
+#### Removed
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [label](http://www.w3.org/2000/01/rdf-schema#label) "(22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity" 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + (22S)-22-hydroxycampest-4-en-3-one + NADPH + O2 = (22R,23R)-22,23-dihydroxy-campest-4-en-3-one + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-11530" 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity" 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + (22S)-22-hydroxycampest-4-en-3-one + NADPH + O2 = (22R,23R)-22,23-dihydroxy-campest-4-en-3-one + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete (22S)-22-hydroxy-campest-4-en-3-one C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102135) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
+### obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102134`
+#### Removed
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-11529" 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + (22S)-22-hydroxycampesterol + NADPH + O2 = (22R,23R)-22,23-dihydroxycampesterol + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [label](http://www.w3.org/2000/01/rdf-schema#label) "(22S)-22-hydroxy-campesterol C-23 hydroxylase activity" 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity" 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + (22S)-22-hydroxycampesterol + NADPH + O2 = (22R,23R)-22,23-dihydroxycampesterol + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (22S)-22-hydroxy-campesterol C-23 hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102134) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+
+### obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity `http://purl.obolibrary.org/obo/GO_0052687`
+#### Removed
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R06396" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [label](http://www.w3.org/2000/01/rdf-schema#label) "(3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (3R)-3-isopropenyl-6-oxoheptanoate + CoA-SH + ATP = H2O + ADP + phosphate + (3R)-3-isopropenyl-6-oxoheptanoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R06396" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) SubClassOf [CoA-ligase activity](http://purl.obolibrary.org/obo/GO_0016405) 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) SubClassOf [acid-thiol ligase activity](http://purl.obolibrary.org/obo/GO_0016878) 
+
+#### Added
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: (3R)-3-isopropenyl-6-oxoheptanoate + CoA-SH + ATP = H2O + ADP + phosphate + (3R)-3-isopropenyl-6-oxoheptanoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R06396" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity](http://purl.obolibrary.org/obo/GO_0052687) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (ADP-forming) activity" 
+
+
+### obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity `http://purl.obolibrary.org/obo/GO_0052688`
+#### Removed
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R06515" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [label](http://www.w3.org/2000/01/rdf-schema#label) "(3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (3R)-3-isopropenyl-6-oxoheptanoate + CoA-SH + ATP = H2O + AMP + diphosphate + (3R)-3-isopropenyl-6-oxoheptanoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R06515" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) SubClassOf [acid-thiol ligase activity](http://purl.obolibrary.org/obo/GO_0016878) 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) SubClassOf [CoA-ligase activity](http://purl.obolibrary.org/obo/GO_0016405) 
+
+#### Added
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: (3R)-3-isopropenyl-6-oxoheptanoate + CoA-SH + ATP = H2O + AMP + diphosphate + (3R)-3-isopropenyl-6-oxoheptanoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R06515" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity" 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete (3R)-3-isopropenyl-6-oxoheptanoate:CoA ligase (AMP-forming) activity](http://purl.obolibrary.org/obo/GO_0052688) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
+### obsolete (R)-lactaldehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102641`
+#### Removed
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (R)-propane-1,2-diol + NADP = (R)-lactaldehyde + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-lactaldehyde dehydrogenase activity" 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-15743" 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete (R)-lactaldehyde dehydrogenase activity" 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: (R)-propane-1,2-diol + NADP = (R)-lactaldehyde + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete (R)-lactaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102641) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
 ### obsolete 1-aminocyclopropane-1-carboxylate catabolic process `http://purl.obolibrary.org/obo/GO_0042217`
 #### Removed
 - [obsolete 1-aminocyclopropane-1-carboxylate catabolic process](http://purl.obolibrary.org/obo/GO_0042217) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
@@ -11656,11 +12224,157 @@ transmembrane protein dislocase activity"
 - [obsolete 1-aminocyclopropane-1-carboxylate catabolic process](http://purl.obolibrary.org/obo/GO_0042217) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31361"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### obsolete 1-penten-3-one reductase activity `http://purl.obolibrary.org/obo/GO_0102235`
+#### Removed
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 1-penten-3-one + NADPH + H+ = 1-pentan-3-one + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12295" 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-penten-3-one reductase activity" 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016628) 
+
+#### Added
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 1-penten-3-one reductase activity" 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 1-penten-3-one reductase activity](http://purl.obolibrary.org/obo/GO_0102235) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 1-penten-3-one + NADPH + H+ = 1-pentan-3-one + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+
 ### obsolete 11-beta-hydroxysteroid dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0003845`
 #### Removed
 - [obsolete 11-beta-hydroxysteroid dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0003845) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-194023" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "HSD11B2,HSD11B1 dimer oxidise CORT to COR" 
 
+
+
+### obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102369`
+#### Removed
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-13491" 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [label](http://www.w3.org/2000/01/rdf-schema#label) "11alpha-30-dihydroxy beta-amyrin dehydrogenase activity" 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 11alpha,30-dihydroxy-beta-amyrin + NADPH + O2 + H+ = 30-hydroxy-11-oxo-beta-amyrin + NADP + 2 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen](http://purl.obolibrary.org/obo/GO_0016705) 
+
+#### Added
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 11alpha,30-dihydroxy-beta-amyrin + NADPH + O2 + H+ = 30-hydroxy-11-oxo-beta-amyrin + NADP + 2 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity" 
+
+- [obsolete 11alpha-30-dihydroxy beta-amyrin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102369) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
+### obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity `http://purl.obolibrary.org/obo/GO_0102937`
+#### Removed
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [label](http://www.w3.org/2000/01/rdf-schema#label) "16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity" 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: UDP-alpha-D-glucose + 16-alpha-hydroxygypsogenate = 16-alpha-hydroxygypsogenate-28-beta-D-glucoside + UDP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9014" 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) SubClassOf [hexosyltransferase activity](http://purl.obolibrary.org/obo/GO_0016758) 
+
+#### Added
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity" 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: UDP-alpha-D-glucose + 16-alpha-hydroxygypsogenate = 16-alpha-hydroxygypsogenate-28-beta-D-glucoside + UDP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 16-alpha-hydroxygypsogenate-UDP-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0102937) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+
+### obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity `http://purl.obolibrary.org/obo/GO_0018755`
+#### Removed
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [label](http://www.w3.org/2000/01/rdf-schema#label) "2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity" 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-chloro-4-hydroxy-6-amino-1,3,5-triazine + OH- = 2,4-dihydroxy-6-amino-1,3,5-triazine + Cl-." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r1414" 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r1414" 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines](http://purl.obolibrary.org/obo/GO_0016813) 
+
+#### Added
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity" 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2-chloro-4-hydroxy-6-amino-1,3,5-triazine + OH- = 2,4-dihydroxy-6-amino-1,3,5-triazine + Cl-." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete 2-chloro-4-hydroxy-6-amino-1,3,5-triazine aminohydrolase activity](http://purl.obolibrary.org/obo/GO_0018755) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+
+### obsolete 2-hydroxylaminobenzoate reductase activity `http://purl.obolibrary.org/obo/GO_0034557`
+#### Removed
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0850" 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-8848" 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-hydroxylaminobenzoate + NAD(P)H = anthranilate + NAD(P)+ + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-8848" 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [label](http://www.w3.org/2000/01/rdf-schema#label) "2-hydroxylaminobenzoate reductase activity" 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) SubClassOf [oxidoreductase activity, acting on the CH-NH2 group of donors](http://purl.obolibrary.org/obo/GO_0016638) 
+
+#### Added
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2-hydroxylaminobenzoate + NAD(P)H = anthranilate + NAD(P)+ + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 2-hydroxylaminobenzoate reductase activity" 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 2-hydroxylaminobenzoate reductase activity](http://purl.obolibrary.org/obo/GO_0034557) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
+### obsolete 3-chlorobenzoate-4,5-oxygenase activity `http://purl.obolibrary.org/obo/GO_0102044`
+#### Removed
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-chlorobenzoate-4,5-oxygenase activity" 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-chlorobenzoate + O2 + a reduced electron acceptor = 3-chlorobenzoate-cis-4,5-diol + an oxidized electron acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-10421" 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of two atoms of oxygen into one donor](http://purl.obolibrary.org/obo/GO_0016708) 
+
+#### Added
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-chlorobenzoate-4,5-oxygenase activity" 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 3-chlorobenzoate + O2 + a reduced electron acceptor = 3-chlorobenzoate-cis-4,5-diol + an oxidized electron acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 3-chlorobenzoate-4,5-oxygenase activity](http://purl.obolibrary.org/obo/GO_0102044) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
 
 
 ### obsolete 3-cyano-L-alanine catabolic process `http://purl.obolibrary.org/obo/GO_1903559`
@@ -11709,11 +12423,115 @@ transmembrane protein dislocase activity"
 - [obsolete 3-cyano-L-alanine catabolic process](http://purl.obolibrary.org/obo/GO_1903559) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that a specific pathway for 3-cyano-L-alanine degradation exists." 
 
 
+### obsolete 3-hydroxybutyryl-CoA thiolase activity `http://purl.obolibrary.org/obo/GO_0018712`
+#### Removed
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-hydroxy-5-oxohexanoyl-CoA + CoASH = 3-hydroxybutyryl-CoA + acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0010" 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R7-RXN" 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-hydroxybutyryl-CoA thiolase activity" 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0010" 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+#### Added
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 3-hydroxy-5-oxohexanoyl-CoA + CoASH = 3-hydroxybutyryl-CoA + acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-hydroxybutyryl-CoA thiolase activity" 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 3-hydroxybutyryl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018712) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
+### obsolete 3-ketoglucose-reductase activity `http://purl.obolibrary.org/obo/GO_0048258`
+#### Removed
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:KETOGLUCOSE-REDUCTASE-RXN" 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NADP+ + 3-dehydro-alpha-D-glucose = NADPH + alpha-D-glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:KETOGLUCOSE-REDUCTASE-RXN" 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-ketoglucose-reductase activity" 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-ketoglucose-reductase activity" 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: NADP+ + 3-dehydro-alpha-D-glucose = NADPH + alpha-D-glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+
+### obsolete 3-ketopimelyl-CoA thiolase activity `http://purl.obolibrary.org/obo/GO_0018713`
+#### Removed
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-ketopimeloyl-CoA + CoA = glutaryl-CoA + acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0197" 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-ketopimelyl-CoA thiolase activity" 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-8032" 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0197" 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+#### Added
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 3-ketopimeloyl-CoA + CoA = glutaryl-CoA + acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 3-ketopimelyl-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018713) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-ketopimelyl-CoA thiolase activity" 
+
+
 ### obsolete 3-methoxy-4-hydroxy-5-decaprenylbenzoic acid decarboxylase activity `http://purl.obolibrary.org/obo/GO_0036169`
 #### Removed
 - [obsolete 3-methoxy-4-hydroxy-5-decaprenylbenzoic acid decarboxylase activity](http://purl.obolibrary.org/obo/GO_0036169) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2162195" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "COQ4 decarboxylates MHDB" 
 
+
+
+### obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity `http://purl.obolibrary.org/obo/GO_0018815`
+#### Removed
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity" 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0051" 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon + H2O = 2-oxobut-3-enanoate + 2,5,6-trihydroxy-3-methylpyridine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-645" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0051" 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-645" 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) SubClassOf [hydro-lyase activity](http://purl.obolibrary.org/obo/GO_0016836) 
+
+#### Added
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon + H2O = 2-oxobut-3-enanoate + 2,5,6-trihydroxy-3-methylpyridine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity" 
+
+- [obsolete 3-methyl-5-hydroxy-6-(3-carboxy-3-oxopropenyl)-1H-2-pyridon hydratase-aldolase activity](http://purl.obolibrary.org/obo/GO_0018815) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### obsolete 4-aminobutyrate transaminase activity `http://purl.obolibrary.org/obo/GO_0003867`
@@ -11752,6 +12570,56 @@ transmembrane protein dislocase activity"
 - [obsolete 4-nitrobenzyl alcohol oxidase activity](http://purl.obolibrary.org/obo/GO_0102038) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-nitrobenzyl alcohol oxidase activity" 
 
 
+### obsolete 4-nitrotoluene monooxygenase activity `http://purl.obolibrary.org/obo/GO_0102037`
+#### Removed
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R361-RXN" 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + 4-nitrotoluene + NADH + O2 = 4-nitrobenzyl alcohol + NAD+ + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-nitrotoluene monooxygenase activity" 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-nitrotoluene monooxygenase activity" 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 4-nitrotoluene monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102037) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + 4-nitrotoluene + NADH + O2 = 4-nitrobenzyl alcohol + NAD+ + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+
+### obsolete 5-oxovalerate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0055043`
+#### Removed
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-oxovalerate dehydrogenase activity" 
+
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5-oxovalerate + NADP+ + H2O = glutarate + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 5-oxovalerate + NADP+ + H2O = glutarate + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 5-oxovalerate dehydrogenase activity" 
+
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 5-oxovalerate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0055043) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### obsolete 5-ureido-4-imidazole carboxylate hydrolase activity `http://purl.obolibrary.org/obo/GO_0043730`
 #### Removed
 - [obsolete 5-ureido-4-imidazole carboxylate hydrolase activity](http://purl.obolibrary.org/obo/GO_0043730) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-ureido-4-imidazole carboxylate hydrolase activity" 
@@ -11774,6 +12642,32 @@ transmembrane protein dislocase activity"
 - [obsolete 5-ureido-4-imidazole carboxylate hydrolase activity](http://purl.obolibrary.org/obo/GO_0043730) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this reaction exists." 
 
 
+### obsolete 5-valerolactone hydrolase activity `http://purl.obolibrary.org/obo/GO_0055042`
+#### Removed
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-valerolactone hydrolase activity" 
+
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5-valerolactone + H2O = 5-hydroxyvalerate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) SubClassOf [lactonohydrolase activity](http://purl.obolibrary.org/obo/GO_0046573) 
+
+#### Added
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 5-valerolactone hydrolase activity" 
+
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 5-valerolactone hydrolase activity](http://purl.obolibrary.org/obo/GO_0055042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 5-valerolactone + H2O = 5-hydroxyvalerate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+
+
 ### obsolete 7-alpha-hydroxycholest-4-en-3-one 12-alpha-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0033778`
 #### Removed
 - [obsolete 7-alpha-hydroxycholest-4-en-3-one 12-alpha-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033778) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-192157" 
@@ -11785,6 +12679,78 @@ transmembrane protein dislocase activity"
 - [obsolete 7-alpha-hydroxycholest-4-en-3-one 12-alpha-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033778) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-193709" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CYP8B1 12-hydroxylates 4CHOL7a,24(S)DIOL" 
 
+
+
+### obsolete 8-oxo-dADP diphosphate phosphatase activity `http://purl.obolibrary.org/obo/GO_0102459`
+#### Removed
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-14005" 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [label](http://www.w3.org/2000/01/rdf-schema#label) "8-oxo-dADP diphosphate phosphatase activity" 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 8-oxo-dADP + H2O = 8-oxo-dAMP + hydrogenphosphate + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) SubClassOf [nucleoside diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0017110) 
+
+#### Added
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 8-oxo-dADP + H2O = 8-oxo-dAMP + hydrogenphosphate + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 8-oxo-dADP diphosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0102459) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 8-oxo-dADP diphosphate phosphatase activity" 
+
+
+### obsolete 9,10-dihydroxystearate hydroxylase activity `http://purl.obolibrary.org/obo/GO_0103006`
+#### Removed
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + (9R,10S)-dihydroxystearate + O2 + NADPH = 9,10,18-trihydroxystearate + H2O + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9807" 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [label](http://www.w3.org/2000/01/rdf-schema#label) "9,10-dihydroxystearate hydroxylase activity" 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 9,10-dihydroxystearate hydroxylase activity" 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + (9R,10S)-dihydroxystearate + O2 + NADPH = 9,10,18-trihydroxystearate + H2O + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 9,10-dihydroxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103006) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
+### obsolete 9,10-epoxystearate hydroxylase activity `http://purl.obolibrary.org/obo/GO_0103004`
+#### Removed
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9805" 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [label](http://www.w3.org/2000/01/rdf-schema#label) "9,10-epoxystearate hydroxylase activity" 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + 9,10-epoxystearate + O2 + NADPH = 9,10-epoxy-18-hydroxystearate + H2O + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 9,10-epoxystearate hydroxylase activity" 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 9,10-epoxystearate hydroxylase activity](http://purl.obolibrary.org/obo/GO_0103004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + 9,10-epoxystearate + O2 + NADPH = 9,10-epoxy-18-hydroxystearate + H2O + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
 
 ### obsolete ATPase-coupled inorganic anion transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0043225`
@@ -12103,6 +13069,34 @@ transmembrane protein dislocase activity"
 
 
 
+### obsolete GTP:coenzyme F420 guanyltransferase activity `http://purl.obolibrary.org/obo/GO_0052754`
+#### Removed
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [label](http://www.w3.org/2000/01/rdf-schema#label) "GTP:coenzyme F420 guanyltransferase activity" 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [RXN-18273](http://identifiers.org/metacyc.reaction/RXN-18273) 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: GTP + factor gamma-F420-2 + H+ = coenzyme F390-G + diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-18273" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-18273" 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) SubClassOf [guanylyltransferase activity](http://purl.obolibrary.org/obo/GO_0070568) 
+
+#### Added
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: GTP + factor gamma-F420-2 + H+ = coenzyme F390-G + diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete GTP:coenzyme F420 guanyltransferase activity" 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete GTP:coenzyme F420 guanyltransferase activity](http://purl.obolibrary.org/obo/GO_0052754) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### obsolete L-asparagine biosynthetic process from L-cysteine `http://purl.obolibrary.org/obo/GO_0019267`
 #### Removed
 - [obsolete L-asparagine biosynthetic process from L-cysteine](http://purl.obolibrary.org/obo/GO_0019267) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-asparagine biosynthetic process from L-cysteine" 
@@ -12353,6 +13347,28 @@ transmembrane protein dislocase activity"
 - [obsolete L-cysteine catabolic process via cystine, using glutathione-cystine transhydrogenase](http://purl.obolibrary.org/obo/GO_0019454) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30202"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [obsolete L-cysteine catabolic process via cystine, using glutathione-cystine transhydrogenase](http://purl.obolibrary.org/obo/GO_0019454) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [L-cysteine catabolic process](http://purl.obolibrary.org/obo/GO_0019448) 
+
+
+### obsolete L-erythro-3-methylmalyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0043960`
+#### Removed
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-erythro-3-methylmalyl-CoA = mesaconyl-CoA + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-erythro-3-methylmalyl-CoA dehydratase activity" 
+
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) SubClassOf [hydro-lyase activity](http://purl.obolibrary.org/obo/GO_0016836) 
+
+#### Added
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-erythro-3-methylmalyl-CoA dehydratase activity" 
+
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete L-erythro-3-methylmalyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0043960) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: L-erythro-3-methylmalyl-CoA = mesaconyl-CoA + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 
 ### obsolete L-glutamate fermentation to propionate `http://purl.obolibrary.org/obo/GO_0033509`
@@ -12895,6 +13911,74 @@ transmembrane protein dislocase activity"
 - [obsolete L-tryptophan transaminase activity](http://purl.obolibrary.org/obo/GO_0070529) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31140"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process `http://purl.obolibrary.org/obo/GO_2001299`
+#### Removed
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [label](http://www.w3.org/2000/01/rdf-schema#label) "N(omega),N(omega)-dimethyl-L-arginine catabolic process" 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of N(omega),N(omega)-dimethyl-L-arginine, a methyl-L-arginine having two methyl groups both attached to the primary amino moiety of the guanidino group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10510241" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rs" 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [N(omega),N(omega)-dimethyl-L-argininium(1+)](http://purl.obolibrary.org/obo/CHEBI_58326)) 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) SubClassOf [non-proteinogenic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170044) 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) SubClassOf [modified amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0042219) 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [N(omega),N(omega)-dimethyl-L-argininium(1+)](http://purl.obolibrary.org/obo/CHEBI_58326) 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) SubClassOf [L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process" 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31361"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of N(omega),N(omega)-dimethyl-L-arginine, a methyl-L-arginine having two methyl groups both attached to the primary amino moiety of the guanidino group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10510241" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rs" 
+
+- [obsolete N(omega),N(omega)-dimethyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001299) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that there is no evidence that this function/process/component exists." 
+
+
+### obsolete N(omega)-methyl-L-arginine catabolic process `http://purl.obolibrary.org/obo/GO_2001297`
+#### Removed
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of N(omega)-methyl-L-arginine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10510241" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rs" 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [label](http://www.w3.org/2000/01/rdf-schema#label) "N(omega)-methyl-L-arginine catabolic process" 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(2S)-2-ammonio-5-{[iminio(methylamino)methyl]amino}pentanoate](http://purl.obolibrary.org/obo/CHEBI_114953)) 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(2S)-2-ammonio-5-{[iminio(methylamino)methyl]amino}pentanoate](http://purl.obolibrary.org/obo/CHEBI_114953) 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) SubClassOf [L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) SubClassOf [non-proteinogenic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170044) 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) SubClassOf [modified amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0042219) 
+
+#### Added
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N(omega)-methyl-L-arginine catabolic process" 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31361"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of N(omega)-methyl-L-arginine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10510241" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rs" 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete N(omega)-methyl-L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_2001297) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that there is no evidence that this function/process/component exists." 
+
+
 ### obsolete N-cyclopropylammelide alkylamino hydrolase activity `http://purl.obolibrary.org/obo/GO_0034549`
 #### Removed
 - [obsolete N-cyclopropylammelide alkylamino hydrolase activity](http://purl.obolibrary.org/obo/GO_0034549) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-cyclopropylammelide alkylamino hydrolase activity" 
@@ -12959,6 +14043,30 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0825" 
 
 - [obsolete N-cyclopropylmelamine deaminase activity](http://purl.obolibrary.org/obo/GO_0034547) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this reaction exists." 
+
+
+### obsolete N-ethylammeline chlorohydrolase activity `http://purl.obolibrary.org/obo/GO_0016217`
+#### Removed
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: deethylsimazine + H2O = N-ethylammeline + chloride + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R465-RXN" 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-ethylammeline chlorohydrolase activity" 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R465-RXN" 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) SubClassOf [hydrolase activity, acting on halide bonds, in C-halide compounds](http://purl.obolibrary.org/obo/GO_0019120) 
+
+#### Added
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: deethylsimazine + H2O = N-ethylammeline + chloride + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-ethylammeline chlorohydrolase activity" 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete N-ethylammeline chlorohydrolase activity](http://purl.obolibrary.org/obo/GO_0016217) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
 
 
 ### obsolete N1-acetylspermidine:oxygen oxidoreductase (3-acetamidopropanal-forming) activity `http://purl.obolibrary.org/obo/GO_0052904`
@@ -13108,6 +14216,28 @@ transmembrane protein dislocase activity"
 - [obsolete NADPHX epimerase activity](http://purl.obolibrary.org/obo/GO_0052857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6806966" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "APOA1BP dimer epimerises R-NAD(P)HX to S-NAD(P)HX" 
 
+
+
+### obsolete P-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0051994`
+#### Removed
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of a methyl group to the phosphorus atom of an acceptor molecule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [label](http://www.w3.org/2000/01/rdf-schema#label) "P-methyltransferase activity" 
+
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) SubClassOf [methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008168) 
+
+#### Added
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the transfer of a methyl group to the phosphorus atom of an acceptor molecule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete P-methyltransferase activity" 
+
+- [obsolete P-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0051994) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
 ### obsolete RNA polymerase II activity `http://purl.obolibrary.org/obo/GO_0001055`
@@ -13405,6 +14535,62 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
 
 
+### obsolete benzoyl acetate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0018856`
+#### Removed
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0242" 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R05452" 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-oxo-3-phenylpropionate + CoA + ATP = AMP + diphosphate + benzoyl acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0242" 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [label](http://www.w3.org/2000/01/rdf-schema#label) "benzoyl acetate-CoA ligase activity" 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SABIO-RK:5058" 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) SubClassOf [CoA-ligase activity](http://purl.obolibrary.org/obo/GO_0016405) 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) SubClassOf [acid-thiol ligase activity](http://purl.obolibrary.org/obo/GO_0016878) 
+
+#### Added
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 3-oxo-3-phenylpropionate + CoA + ATP = AMP + diphosphate + benzoyl acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete benzoyl acetate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018856) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete benzoyl acetate-CoA ligase activity" 
+
+
+### obsolete benzoyl acetate-CoA thiolase activity `http://purl.obolibrary.org/obo/GO_0018711`
+#### Removed
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [label](http://www.w3.org/2000/01/rdf-schema#label) "benzoyl acetate-CoA thiolase activity" 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0243" 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: benzoyl acetyl-CoA + CoA = acetyl-CoA + benzoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0243" 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-2006" 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+#### Added
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: benzoyl acetyl-CoA + CoA = acetyl-CoA + benzoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete benzoyl acetate-CoA thiolase activity](http://purl.obolibrary.org/obo/GO_0018711) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete benzoyl acetate-CoA thiolase activity" 
+
+
 ### obsolete beta-alanine catabolic process to L-alanine `http://purl.obolibrary.org/obo/GO_0019485`
 #### Removed
 - [obsolete beta-alanine catabolic process to L-alanine](http://purl.obolibrary.org/obo/GO_0019485) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of beta-alanine into other compounds, including L-alanine." 
@@ -13457,6 +14643,32 @@ transmembrane protein dislocase activity"
 - [obsolete beta-alanine catabolic process to mevalonate semialdehyde, by transamination](http://purl.obolibrary.org/obo/GO_0019486) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 - [obsolete beta-alanine catabolic process to mevalonate semialdehyde, by transamination](http://purl.obolibrary.org/obo/GO_0019486) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a variant pathway of beta-alanine degradation and is out of scope for GO." 
+
+
+### obsolete beta-galactosidase activity (lactose isomerization) `http://purl.obolibrary.org/obo/GO_0103033`
+#### Removed
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN0-5363" 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-galactosidase activity (lactose isomerization)" 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: alpha-lactose = beta-(1-&gt;6)-galactobiose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.4.1.-" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) SubClassOf [intramolecular acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016867) 
+
+#### Added
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete beta-galactosidase activity (lactose isomerization)" 
+
+- [obsolete beta-galactosidase activity (lactose isomerization)](http://purl.obolibrary.org/obo/GO_0103033) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: alpha-lactose = beta-(1-&gt;6)-galactobiose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
 
 ### obsolete biotin-protein ligase activity `http://purl.obolibrary.org/obo/GO_0018271`
@@ -13562,6 +14774,86 @@ transmembrane protein dislocase activity"
 
 
 
+### obsolete citronellyl-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0034823`
+#### Removed
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [label](http://www.w3.org/2000/01/rdf-schema#label) "citronellyl-CoA ligase activity" 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r1157" 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: citronellate + CoASH + ATP = citronellyl-CoA + AMP + PPi." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r1157" 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R08088" 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) SubClassOf [acid-thiol ligase activity](http://purl.obolibrary.org/obo/GO_0016878) 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) SubClassOf [CoA-ligase activity](http://purl.obolibrary.org/obo/GO_0016405) 
+
+#### Added
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: citronellate + CoASH + ATP = citronellyl-CoA + AMP + PPi." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete citronellyl-CoA ligase activity" 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete citronellyl-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0034823) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### obsolete coniferyl aldehyde 5-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102126`
+#### Removed
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-1142" 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + coniferyl aldehyde + NADPH + O2 = 5-hydroxy-coniferaldehyde + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [label](http://www.w3.org/2000/01/rdf-schema#label) "coniferyl aldehyde 5-hydroxylase activity" 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete coniferyl aldehyde 5-hydroxylase activity" 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + coniferyl aldehyde + NADPH + O2 = 5-hydroxy-coniferaldehyde + NADP + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete coniferyl aldehyde 5-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102126) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity `http://purl.obolibrary.org/obo/GO_0018811`
+#### Removed
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R266-RXN" 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [label](http://www.w3.org/2000/01/rdf-schema#label) "cyclohex-1-ene-1-carboxyl-CoA hydratase activity" 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: cyclohex-1-ene-1-carboxyl-CoA + H2O = 2-hydroxycyclohexane-1-carboxyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R266-RXN" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0191" 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0191" 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) SubClassOf [hydro-lyase activity](http://purl.obolibrary.org/obo/GO_0016836) 
+
+#### Added
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: cyclohex-1-ene-1-carboxyl-CoA + H2O = 2-hydroxycyclohexane-1-carboxyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity" 
+
+- [obsolete cyclohex-1-ene-1-carboxyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0018811) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
 ### obsolete cysteine metabolic process `http://purl.obolibrary.org/obo/GO_0006534`
 #### Removed
 - [obsolete cysteine metabolic process](http://purl.obolibrary.org/obo/GO_0006534) [label](http://www.w3.org/2000/01/rdf-schema#label) "cysteine metabolic process" 
@@ -13630,6 +14922,34 @@ transmembrane protein dislocase activity"
 
 
 
+### obsolete dihydrophloroglucinol hydrolase activity `http://purl.obolibrary.org/obo/GO_0018766`
+#### Removed
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [label](http://www.w3.org/2000/01/rdf-schema#label) "dihydrophloroglucinol hydrolase activity" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: dihydrophloroglucinol + OH- = 3-hydroxy-5-oxohexanoate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0008" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R07831" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R6-RXN" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0008" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) SubClassOf [hydrolase activity, acting on carbon-carbon bonds, in ketonic substances](http://purl.obolibrary.org/obo/GO_0016823) 
+
+#### Added
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete dihydrophloroglucinol hydrolase activity" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: dihydrophloroglucinol + OH- = 3-hydroxy-5-oxohexanoate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete dihydrophloroglucinol hydrolase activity](http://purl.obolibrary.org/obo/GO_0018766) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+
 ### obsolete discadenine catabolic process `http://purl.obolibrary.org/obo/GO_0034269`
 #### Removed
 - [obsolete discadenine catabolic process](http://purl.obolibrary.org/obo/GO_0034269) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of discadenine, (2S)-2-amino-4-{6-[(3-methylbut-2-en-1-yl)amino]-3H-purin-3-yl}butanoic acid." 
@@ -13666,6 +14986,32 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [obsolete discadenine catabolic process](http://purl.obolibrary.org/obo/GO_0034269) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete discadenine catabolic process" 
+
+
+### obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity `http://purl.obolibrary.org/obo/GO_0036426`
+#### Removed
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [label](http://www.w3.org/2000/01/rdf-schema#label) "ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity" 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:2.4.1.54-RXN" 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R07257" 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ditrans,octacis-undecaprenyl phosphate + GDP-alpha-D-mannose = D-mannosyl undecaprenyl phosphate+ GDP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) SubClassOf [undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0047267) 
+
+#### Added
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: ditrans,octacis-undecaprenyl phosphate + GDP-alpha-D-mannose = D-mannosyl undecaprenyl phosphate+ GDP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity" 
+
+- [obsolete ditrans, polycis-undecaprenyl-phosphate mannosyltransferase activity](http://purl.obolibrary.org/obo/GO_0036426) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
 ### obsolete early endosome to recycling endosome transport `http://purl.obolibrary.org/obo/GO_0061502`
@@ -13715,6 +15061,58 @@ transmembrane protein dislocase activity"
 - [obsolete eoxin A4 synthase activity](http://purl.obolibrary.org/obo/GO_0097260) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2162019" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "LTA4 is converted to EXA4 by ALOX15" 
 
+
+
+### obsolete epsilon-caprolactam lactamase activity `http://purl.obolibrary.org/obo/GO_0018752`
+#### Removed
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [label](http://www.w3.org/2000/01/rdf-schema#label) "epsilon-caprolactam lactamase activity" 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0448" 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R561-RXN" 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: epsilon-caprolactam + H2O = H+ + 6-aminohexanoate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0448" 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amides](http://purl.obolibrary.org/obo/GO_0016812) 
+
+#### Added
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete epsilon-caprolactam lactamase activity" 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete epsilon-caprolactam lactamase activity](http://purl.obolibrary.org/obo/GO_0018752) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: epsilon-caprolactam + H2O = H+ + 6-aminohexanoate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### obsolete eriodictyol 4'-O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0102762`
+#### Removed
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: eriodictyol + S-adenosyl-L-methionine = H+ + hesperetin(1-) + S-adenosyl-L-homocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-7754" 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [label](http://www.w3.org/2000/01/rdf-schema#label) "eriodictyol 4'-O-methyltransferase activity" 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-7754" 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) SubClassOf [methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008168) 
+
+#### Added
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete eriodictyol 4'-O-methyltransferase activity" 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: eriodictyol + S-adenosyl-L-methionine = H+ + hesperetin(1-) + S-adenosyl-L-homocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete eriodictyol 4'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0102762) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### obsolete farnesyl-diphosphate farnesyltransferase activity `http://purl.obolibrary.org/obo/GO_0004310`
@@ -13770,6 +15168,38 @@ transmembrane protein dislocase activity"
 
 #### Added
 - [obsolete glutamate catabolic process via mesaconate and citramalate](http://purl.obolibrary.org/obo/GO_0019671) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model." 
+
+
+### obsolete glutamic-type endopeptidase activity `http://purl.obolibrary.org/obo/GO_0070007`
+#### Removed
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamic-type endopeptidase activity" 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the hydrolysis of internal peptide bonds in a polypeptide chain by a mechanism involving a glutamate/glutamine catalytic dyad." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#ENDOPEPTIDASE" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE" 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) SubClassOf [endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004175) 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) SubClassOf [glutamic-type peptidase activity](http://purl.obolibrary.org/obo/GO_0070002) 
+
+#### Added
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the hydrolysis of internal peptide bonds in a polypeptide chain by a mechanism involving a glutamate/glutamine catalytic dyad." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#ENDOPEPTIDASE" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE" 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glutamic-type endopeptidase activity" 
 
 
 ### obsolete glutamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006542`
@@ -13910,6 +15340,30 @@ transmembrane protein dislocase activity"
 - [obsolete hydroxy-nicotine oxidase activity](http://purl.obolibrary.org/obo/GO_0019116) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
+### obsolete hypoglycin A gamma-glutamyl transpeptidase activity `http://purl.obolibrary.org/obo/GO_0102953`
+#### Removed
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: glutathionate + hypoglycin A = L-cysteinylglycine + hypoglycin B." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9157" 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypoglycin A gamma-glutamyl transpeptidase activity" 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) SubClassOf [aminoacyltransferase activity](http://purl.obolibrary.org/obo/GO_0016755) 
+
+#### Added
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: glutathionate + hypoglycin A = L-cysteinylglycine + hypoglycin B." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete hypoglycin A gamma-glutamyl transpeptidase activity](http://purl.obolibrary.org/obo/GO_0102953) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete hypoglycin A gamma-glutamyl transpeptidase activity" 
+
+
 ### obsolete induction by virus of host cell-cell fusion `http://purl.obolibrary.org/obo/GO_0006948`
 #### Removed
 - [obsolete induction by virus of host cell-cell fusion](http://purl.obolibrary.org/obo/GO_0006948) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9733458" 
@@ -13999,6 +15453,54 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9139674" 
+
+
+### obsolete lycopene cleavage oxygenase activity `http://purl.obolibrary.org/obo/GO_0102818`
+#### Removed
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [label](http://www.w3.org/2000/01/rdf-schema#label) "lycopene cleavage oxygenase activity" 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-8236" 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: lycopene + 2 O2 = 2 sulcatone + bixin aldehyde." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-8236" 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)](http://purl.obolibrary.org/obo/GO_0016703) 
+
+#### Added
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lycopene cleavage oxygenase activity" 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete lycopene cleavage oxygenase activity](http://purl.obolibrary.org/obo/GO_0102818) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: lycopene + 2 O2 = 2 sulcatone + bixin aldehyde." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+
+### obsolete mannosyl-diinositol phosphorylceramide phospholipase activity `http://purl.obolibrary.org/obo/GO_0052715`
+#### Removed
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [label](http://www.w3.org/2000/01/rdf-schema#label) "mannosyl-diinositol phosphorylceramide phospholipase activity" 
+
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: mannosyl-diinositol phosphorylceramide + H2O = C26-phytoceramide + mannosyldiphosphorylinositol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) SubClassOf [inositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052713) 
+
+#### Added
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete mannosyl-diinositol phosphorylceramide phospholipase activity" 
+
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: mannosyl-diinositol phosphorylceramide + H2O = C26-phytoceramide + mannosyldiphosphorylinositol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete mannosyl-diinositol phosphorylceramide phospholipase activity](http://purl.obolibrary.org/obo/GO_0052715) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
 
 
 ### obsolete mating type region replication fork barrier binding `http://purl.obolibrary.org/obo/GO_1990943`
@@ -14342,6 +15844,54 @@ transmembrane protein dislocase activity"
 
 
 
+### obsolete peptidoglycan asparagine synthase activity `http://purl.obolibrary.org/obo/GO_0102115`
+#### Removed
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ditrans,octacis-undecaprenyldiphospho-N-acetyl-(N-acetylglucosaminyl)muramoyl-L-alanyl-gamma-D-isoglutaminyl-N-(beta-D-asparatyl)-L-lysyl-D-alanyl-D-alanine + ammonium + ATP = H+ + ditrans,octacis-undecaprenyldiphospho-N-acetyl-(N-acetylglucosaminyl)muramoyl-L-alanyl-gamma-D-isoglutaminyl-N-(beta-D-asparaginyl)-L-lysyl-D-alanyl-D-alanine + AMP + diphosphoric acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:6.3.1.-" 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-11338" 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidoglycan asparagine synthase activity" 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) SubClassOf [acid-ammonia (or amide) ligase activity](http://purl.obolibrary.org/obo/GO_0016880) 
+
+#### Added
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: ditrans,octacis-undecaprenyldiphospho-N-acetyl-(N-acetylglucosaminyl)muramoyl-L-alanyl-gamma-D-isoglutaminyl-N-(beta-D-asparatyl)-L-lysyl-D-alanyl-D-alanine + ammonium + ATP = H+ + ditrans,octacis-undecaprenyldiphospho-N-acetyl-(N-acetylglucosaminyl)muramoyl-L-alanyl-gamma-D-isoglutaminyl-N-(beta-D-asparaginyl)-L-lysyl-D-alanyl-D-alanine + AMP + diphosphoric acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidoglycan asparagine synthase activity" 
+
+- [obsolete peptidoglycan asparagine synthase activity](http://purl.obolibrary.org/obo/GO_0102115) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### obsolete phenanthrol glycosyltransferase activity `http://purl.obolibrary.org/obo/GO_0019112`
+#### Removed
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [label](http://www.w3.org/2000/01/rdf-schema#label) "phenanthrol glycosyltransferase activity" 
+
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: phenanthrol + glucose = phenanthryl-beta-D-glucopyranoside + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) SubClassOf [hexosyltransferase activity](http://purl.obolibrary.org/obo/GO_0016758) 
+
+#### Added
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: phenanthrol + glucose = phenanthryl-beta-D-glucopyranoside + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete phenanthrol glycosyltransferase activity](http://purl.obolibrary.org/obo/GO_0019112) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phenanthrol glycosyltransferase activity" 
+
+
 ### obsolete phenol beta-glucosyltransferase activity `http://purl.obolibrary.org/obo/GO_0050171`
 #### Removed
 - [obsolete phenol beta-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050171) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30193"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -14366,6 +15916,32 @@ transmembrane protein dislocase activity"
 
 - [obsolete phenol beta-glucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0050171) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: UDP-glucose + a phenol = UDP + an aryl beta-D-glucoside." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.1.35" 
+
+
+### obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity `http://purl.obolibrary.org/obo/GO_0102249`
+#### Removed
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a phosphatidylcholine + a 1,2-diacyl-sn-glycerol = a 1,2-diacyl-sn-glycerol + a phosphatidylcholine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12386" 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12386" 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphatidylcholine:diacylglycerol cholinephosphotransferase activity" 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) SubClassOf [phosphotransferase activity, for other substituted phosphate groups](http://purl.obolibrary.org/obo/GO_0016780) 
+
+#### Added
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: a phosphatidylcholine + a 1,2-diacyl-sn-glycerol = a 1,2-diacyl-sn-glycerol + a phosphatidylcholine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity" 
+
+- [obsolete phosphatidylcholine:diacylglycerol cholinephosphotransferase activity](http://purl.obolibrary.org/obo/GO_0102249) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
 
 
 ### obsolete phosphatidylserine 1-acylhydrolase activity `http://purl.obolibrary.org/obo/GO_0052739`
@@ -14411,6 +15987,32 @@ transmembrane protein dislocase activity"
 - [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31454"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31460"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0034912`
+#### Removed
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [label](http://www.w3.org/2000/01/rdf-schema#label) "phthalate 3,4-cis-dihydrodiol dehydrogenase activity" 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: phthalate 3,4-cis-dihydrodiol + NAD+ = 3,4-dihydroxyphthalate + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r1445" 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN5F9-56" 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r1445" 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016628) 
+
+#### Added
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: phthalate 3,4-cis-dihydrodiol + NAD+ = 3,4-dihydroxyphthalate + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034912) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phthalate 3,4-cis-dihydrodiol dehydrogenase activity" 
 
 
 ### obsolete phytoceramidase activity `http://purl.obolibrary.org/obo/GO_0070774`
@@ -15122,6 +16724,90 @@ transmembrane protein dislocase activity"
 
 
 
+### obsolete sucrose catabolic process via 3'-ketosucrose `http://purl.obolibrary.org/obo/GO_0019574`
+#### Removed
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SUCROSEUTIL2-PWY" 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of sucrose, which proceeds via the conversion of sucrose to 3'-ketosucrose. 3'-ketosucrose is hydrolyzed to 3-ketoglucose and fructose, and the 3-ketoglucose is then be converted to glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SUCROSEUTIL2-PWY" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dgf" 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [label](http://www.w3.org/2000/01/rdf-schema#label) "sucrose catabolic process via 3'-ketosucrose" 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has part](http://purl.obolibrary.org/obo/BFO_0000051) some [fructokinase activity](http://purl.obolibrary.org/obo/GO_0008865)) and ([has part](http://purl.obolibrary.org/obo/BFO_0000051) some [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258)) and ([starts with](http://purl.obolibrary.org/obo/RO_0002224) some [glucoside 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0033757)) and ([has intermediate](http://purl.obolibrary.org/obo/RO_0002505) some [3-ketosucrose](http://purl.obolibrary.org/obo/CHEBI_17429)) and ([has intermediate](http://purl.obolibrary.org/obo/RO_0002505) some [fructose](http://purl.obolibrary.org/obo/CHEBI_28757)) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167)) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [D-fructose 6-phosphate](http://purl.obolibrary.org/obo/CHEBI_78697)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [sucrose](http://purl.obolibrary.org/obo/CHEBI_17992)) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [D-fructose 6-phosphate](http://purl.obolibrary.org/obo/CHEBI_78697) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [carbohydrate derivative metabolic process](http://purl.obolibrary.org/obo/GO_1901135) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [has intermediate](http://purl.obolibrary.org/obo/RO_0002505) some [3-ketosucrose](http://purl.obolibrary.org/obo/CHEBI_17429) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [glucose metabolic process](http://purl.obolibrary.org/obo/GO_0006006) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [has intermediate](http://purl.obolibrary.org/obo/RO_0002505) some [fructose](http://purl.obolibrary.org/obo/CHEBI_28757) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [fructokinase activity](http://purl.obolibrary.org/obo/GO_0008865) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [obsolete 3-ketoglucose-reductase activity](http://purl.obolibrary.org/obo/GO_0048258) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) SubClassOf [starts with](http://purl.obolibrary.org/obo/RO_0002224) some [glucoside 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0033757) 
+
+#### Added
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sucrose catabolic process via 3'-ketosucrose" 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway out of scope for GO." 
+
+- [obsolete sucrose catabolic process via 3'-ketosucrose](http://purl.obolibrary.org/obo/GO_0019574) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of sucrose, which proceeds via the conversion of sucrose to 3'-ketosucrose. 3'-ketosucrose is hydrolyzed to 3-ketoglucose and fructose, and the 3-ketoglucose is then be converted to glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SUCROSEUTIL2-PWY" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dgf" 
+
+
+### obsolete sulfur:ferric ion oxidoreductase activity `http://purl.obolibrary.org/obo/GO_0070226`
+#### Removed
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFFEOXIDO-RXN" 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfur:ferric ion oxidoreductase activity" 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a perthiol + 4 Fe3+ + 3 H2O = sulfite + a thiol + 4 Fe2+ + 8 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFFEOXIDO-RXN" 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) SubClassOf [oxidoreductase activity, acting on a sulfur group of donors](http://purl.obolibrary.org/obo/GO_0016667) 
+
+#### Added
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: S-sulfanylglutathione + 4 Fe3+ + 3 H2O = sulfite + 4 Fe2+ + glutathione + 6 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31518"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sulfur:ferric ion oxidoreductase activity" 
+
+
 ### obsolete symbiont-mediated suppression of host defense-related programmed cell death `http://purl.obolibrary.org/obo/GO_0034054`
 #### Removed
 - [obsolete symbiont-mediated suppression of host defense-related programmed cell death](http://purl.obolibrary.org/obo/GO_0034054) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9636569" 
@@ -15206,6 +16892,34 @@ transmembrane protein dislocase activity"
 
 
 
+### obsolete trioxoheptanoate hydrolase activity `http://purl.obolibrary.org/obo/GO_0018772`
+#### Removed
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2,4,6-trioxoheptanoate + H2O = acetylpyruvate + acetate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0094" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R306-RXN" 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [label](http://www.w3.org/2000/01/rdf-schema#label) "trioxoheptanoate hydrolase activity" 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0094" 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:R306-RXN" 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) SubClassOf [hydrolase activity, acting on carbon-carbon bonds, in ketonic substances](http://purl.obolibrary.org/obo/GO_0016823) 
+
+#### Added
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete trioxoheptanoate hydrolase activity" 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2,4,6-trioxoheptanoate + H2O = acetylpyruvate + acetate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete trioxoheptanoate hydrolase activity](http://purl.obolibrary.org/obo/GO_0018772) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+
 ### obsolete virus-mediated perturbation of host defense response `http://purl.obolibrary.org/obo/GO_0019049`
 #### Removed
 - [obsolete virus-mediated perturbation of host defense response](http://purl.obolibrary.org/obo/GO_0019049) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-169131" 
@@ -15227,6 +16941,30 @@ transmembrane protein dislocase activity"
 - [obsolete water-soluble vitamin metabolic process](http://purl.obolibrary.org/obo/GO_0006767) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-196849" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Metabolism of water-soluble vitamins and cofactors" 
 
+
+
+### obsolete zeaxanthin 2,2'-beta-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102465`
+#### Removed
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [label](http://www.w3.org/2000/01/rdf-schema#label) "zeaxanthin 2,2'-beta-hydroxylase activity" 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: zeaxanthin + 2 NADH + 2 H+ + 2 O2 = nostoxanthin + 2 NAD + 2 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-14018" 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: zeaxanthin + 2 NADH + 2 H+ + 2 O2 = nostoxanthin + 2 NAD + 2 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [obsolete zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete zeaxanthin 2,2'-beta-hydroxylase activity" 
 
 
 ### oligopeptide transmembrane transport `http://purl.obolibrary.org/obo/GO_0035672`
@@ -17393,6 +19131,10 @@ transmembrane protein dislocase activity"
 - [ribose phosphate diphosphokinase activity](http://purl.obolibrary.org/obo/GO_0004749) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73580" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "D-ribose 5-phosphate + ATP =&gt; 5-phospho-alpha-D-ribose 1-diphosphate (PRPP) + adenosine 5'-monophosphate" 
 
+- [ribose phosphate diphosphokinase activity](http://purl.obolibrary.org/obo/GO_0004749) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [ribose phosphate diphosphokinase activity](http://purl.obolibrary.org/obo/GO_0004749) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY0-662](http://identifiers.org/metacyc.reaction/PWY0-662) 
+
 - [ribose phosphate diphosphokinase activity](http://purl.obolibrary.org/obo/GO_0004749) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111215" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "D-ribose 5-phosphate + 2'-deoxyadenosine 5'-triphosphate (dATP) =&gt; 5-Phospho-alpha-D-ribose 1-diphosphate (PRPP) + 2'-deoxyadenosine 5'-monophosphate" 
 
@@ -17402,6 +19144,8 @@ transmembrane protein dislocase activity"
 
 - [ribose phosphate diphosphokinase activity](http://purl.obolibrary.org/obo/GO_0004749) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111215" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PRPS1 dimer pyrophosphorylates R5P using dATP" 
+
+- [ribose phosphate diphosphokinase activity](http://purl.obolibrary.org/obo/GO_0004749) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### ribose-5-phosphate isomerase activity `http://purl.obolibrary.org/obo/GO_0004751`
@@ -17617,6 +19361,24 @@ transmembrane protein dislocase activity"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Chymase hydrolyzes AGT(25-34) (Angiotensin-(1-10)) to AGT(25-32) (Angiotensin-(1-8))" 
 
 
+### serotonin biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0006587`
+#### Removed
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-8475](http://identifiers.org/metacyc.reaction/PWY-8475) 
+
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-6030](http://identifiers.org/metacyc.reaction/PWY-6030) 
+
+#### Added
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8475](http://identifiers.org/metacyc.reaction/PWY-8475) 
+
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8475" 
+
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6030" 
+
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6030](http://identifiers.org/metacyc.reaction/PWY-6030) 
+
+- [serotonin biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0006587) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### side of membrane `http://purl.obolibrary.org/obo/GO_0098552`
 #### Removed
 - [side of membrane](http://purl.obolibrary.org/obo/GO_0098552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular component consisting of one leaflet of a membrane bilayer and any proteins embedded or anchored in it or attached to its surface." 
@@ -17736,9 +19498,9 @@ transmembrane protein dislocase activity"
 
 - [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
 
-- [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
-
 - [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
+- [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
 
 ### sphinga-(4E,8Z)-dienine(1+) `http://purl.obolibrary.org/obo/CHEBI_157606`
@@ -17936,6 +19698,16 @@ transmembrane protein dislocase activity"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC26A11 imports SO4(2-) and H+ into cytosol" 
 
 
+### sulfite oxidase activity `http://purl.obolibrary.org/obo/GO_0008482`
+#### Removed
+- [sulfite oxidase activity](http://purl.obolibrary.org/obo/GO_0008482) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [sulfite oxidase activity](http://purl.obolibrary.org/obo/GO_0008482) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5326](http://identifiers.org/metacyc.reaction/PWY-5326) 
+
+#### Added
+- [sulfite oxidase activity](http://purl.obolibrary.org/obo/GO_0008482) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### sulfur amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0000097`
 #### Removed
 - [sulfur amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids containing sulfur, comprising cysteine, methionine and selenocysteine." 
@@ -17970,18 +19742,6 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 - [sulfur amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0000096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31500"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-
-### sulfur:ferric ion oxidoreductase activity `http://purl.obolibrary.org/obo/GO_0070226`
-#### Removed
-- [sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a perthiol + 4 Fe3+ + 3 H2O = sulfite + a thiol + 4 Fe2+ + 8 H+." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFFEOXIDO-RXN" 
-
-#### Added
-- [sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: S-sulfanylglutathione + 4 Fe3+ + 3 H2O = sulfite + 4 Fe2+ + glutathione + 6 H+." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SULFFEOXIDO-RXN" 
-
-- [sulfur:ferric ion oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0070226) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31518"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### sulfurated eukaryotic molybdenum cofactor(2-) biosynthetic process `http://purl.obolibrary.org/obo/GO_1902756`
@@ -18444,9 +20204,9 @@ transmembrane protein dislocase activity"
 
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
-- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
-
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208)) 
+
+- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
 
 
 ### taurine biosynthetic process `http://purl.obolibrary.org/obo/GO_0042412`
@@ -18770,6 +20530,38 @@ transmembrane protein dislocase activity"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC22A1 transports Cipro into renal cell" 
 
 
+### trehalose biosynthetic process `http://purl.obolibrary.org/obo/GO_0005992`
+
+#### Added
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2622](http://identifiers.org/metacyc.reaction/PWY-2622) 
+
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5983" 
+
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5985](http://identifiers.org/metacyc.reaction/PWY-5985) 
+
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5985" 
+
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5983](http://identifiers.org/metacyc.reaction/PWY-5983) 
+
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2622" 
+
+- [trehalose biosynthetic process](http://purl.obolibrary.org/obo/GO_0005992) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### trehalose synthase activity `http://purl.obolibrary.org/obo/GO_0102986`
+#### Removed
+- [trehalose synthase activity](http://purl.obolibrary.org/obo/GO_0102986) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5985](http://identifiers.org/metacyc.reaction/PWY-5985) 
+
+- [trehalose synthase activity](http://purl.obolibrary.org/obo/GO_0102986) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+- [trehalose synthase activity](http://purl.obolibrary.org/obo/GO_0102986) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-2622](http://identifiers.org/metacyc.reaction/PWY-2622) 
+
+- [trehalose synthase activity](http://purl.obolibrary.org/obo/GO_0102986) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [PWY-5983](http://identifiers.org/metacyc.reaction/PWY-5983) 
+
+#### Added
+- [trehalose synthase activity](http://purl.obolibrary.org/obo/GO_0102986) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### triose-phosphate isomerase activity `http://purl.obolibrary.org/obo/GO_0004807`
 #### Removed
 - [triose-phosphate isomerase activity](http://purl.obolibrary.org/obo/GO_0004807) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-70481" 
@@ -18822,6 +20614,16 @@ transmembrane protein dislocase activity"
 #### Added
 - [tryptophan 2-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030772) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-tryptophan + S-adenosyl-L-methionine = 2-methyl-L-tryptophan + S-adenosyl-L-homocysteine + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17321" 
+
+
+### tryptophanase activity `http://purl.obolibrary.org/obo/GO_0009034`
+#### Removed
+- [tryptophanase activity](http://purl.obolibrary.org/obo/GO_0009034) [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) [TRYPDEG-PWY](http://identifiers.org/metacyc.reaction/TRYPDEG-PWY) 
+
+- [tryptophanase activity](http://purl.obolibrary.org/obo/GO_0009034) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has a MetaCyc pathway reference as the pathway only has a single step." 
+
+#### Added
+- [tryptophanase activity](http://purl.obolibrary.org/obo/GO_0009034) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### type I oncostatin-M receptor complex `http://purl.obolibrary.org/obo/GO_0005900`
@@ -19078,6 +20880,28 @@ transmembrane protein dislocase activity"
 #### Added
 - [versatile peroxidase activity](http://purl.obolibrary.org/obo/GO_0052750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: reactive black 5 + H2O2 = oxidized reactive black 5 + 2 H2O." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22396" 
+
+
+### very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0035380`
+#### Removed
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain-3-hydroxyacyl-CoA dehydrogenase activity" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (S)-3-hydroxyacyl-CoA + NAD(P)+ = 3-oxoacyl-CoA + NAD(P)H + H+, where the acyl group is a very long-chain fatty acid residue. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pde" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "very long-chain-3-hydroxyacyl-CoA dehydrogenase activity" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78927" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (S)-3-hydroxyacyl-CoA + NAD(P)+ = 3-oxoacyl-CoA + NAD(P)H + H+, where the acyl group is a very long-chain fatty acid residue. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78927" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) SubClassOf [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) 
 
 
 ### virion component `http://purl.obolibrary.org/obo/GO_0044423`
