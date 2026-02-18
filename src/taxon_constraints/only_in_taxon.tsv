@@ -942,7 +942,7 @@ GO:0044311	exoneme	NCBITaxon:2759	Eukaryota
 GO:0061468	karyomere	NCBITaxon:2759	Eukaryota	
 GO:0070074	mononeme	NCBITaxon:2759	Eukaryota	
 GO:0071212	subsynaptic reticulum	NCBITaxon:2759	Eukaryota	
-GO:0140494	migrasome	NCBITaxon:7742	Vertebrata <Metazoa>	
+GO:0140494	migrasome	NCBITaxon:7742	NCBITaxon:2759	Eukaryota  PMID:40712579|PMID:25342562
 GO:0160045	TMEM240-body	NCBITaxon:2759	Eukaryota	
 GO:0160201	polaroplast	NCBITaxon:2759	Eukaryota	
 GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
