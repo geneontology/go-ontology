@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-19/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-20/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-19" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-20" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -12946,6 +12946,39 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15489" 
 
 
+### nucleotide-binding leucine-rich repeat receptor complex `http://purl.obolibrary.org/obo/GO_7770053`
+
+#### Added
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770053" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex that contains one or more nucleotide-binding leucine-rich repeat (NLR) proteins and functions as an intracellular innate immune receptor. Upon activation by pathogen effectors or danger signals, the complex oligomerizes with adaptor and effector proteins to trigger downstream immune responses including programmed cell death." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30948527" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30948526" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26355215" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NLR receptor complex" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [label](http://www.w3.org/2000/01/rdf-schema#label) "nucleotide-binding leucine-rich repeat receptor complex" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "NOD-like receptor complex" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31604"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NLR complex" 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-19T17:46:49Z" 
+
+- Class: [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) 
+
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) SubClassOf [receptor complex](http://purl.obolibrary.org/obo/GO_0043235) 
+
+
 ### obsolete 11-beta-hydroxysteroid dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0003845`
 #### Removed
 - [obsolete 11-beta-hydroxysteroid dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0003845) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-194023" 
@@ -17452,6 +17485,42 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20123966" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43208" 
+
+
+### tRNA (adenine-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0016430`
+#### Removed
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: S-adenosyl-L-methionine + tRNA = S-adenosyl-L-homocysteine + tRNA containing N6-methyladenine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.55" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [16785](http://rdf.rhea-db.org/16785) 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.55" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30193"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:16785" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:TRNA-ADENINE-N6--METHYLTRANSFERASE-RXN" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.1.1.55](http://purl.uniprot.org/enzyme/2.1.1.55) 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA (adenine-N6)-methyltransferase activity" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) SubClassOf [tRNA (adenine) methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016426) 
+
+#### Added
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete tRNA (adenine-N6)-methyltransferase activity" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: S-adenosyl-L-methionine + tRNA = S-adenosyl-L-homocysteine + tRNA containing N6-methyladenine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.55" 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this reaction exists, see PMID:33658722." 
+
+- [tRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016430) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26109"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### tRNA (cytidine(32)-2'-O)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0106339`
