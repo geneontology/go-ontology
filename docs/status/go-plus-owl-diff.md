@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-20/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-21/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-21" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -9632,9 +9632,9 @@ GO:0047635"
 
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
-- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656)) 
-
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656))) 
+
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656)) 
 
 - [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511)) 
 
