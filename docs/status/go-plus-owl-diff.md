@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-22/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-23/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-22" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-23" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -20668,9 +20668,9 @@ transmembrane protein dislocase activity"
 
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
-- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208)) 
-
 - [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
+- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208)) 
 
 
 ### taurine biosynthetic process `http://purl.obolibrary.org/obo/GO_0042412`
