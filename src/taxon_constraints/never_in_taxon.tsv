@@ -1,11 +1,11 @@
 defined_class	defined_class_label	taxon	taxon_label	source
 GO:0004617	phosphoglycerate dehydrogenase activity	NCBITaxon:4890	Ascomycota	
 GO:0140993	histone modifying activity	NCBITaxon:2	Bacteria	
-GO:0016120	carotene biosynthetic process	NCBITaxon:7742	Vertebrata <Metazoa>		
+GO:0016120	carotene biosynthetic process	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:1990244	histone H2AT120 kinase activity	NCBITaxon:4751	Fungi	PMID:19965387
 GO:0006097	glyoxylate cycle	NCBITaxon:33511	Deuterostomia	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:6656	Arthropoda	PMID:31301737
-GO:0006097	glyoxylate cycle	NCBITaxon:4895	Schizosaccharomyces		
+GO:0006097	glyoxylate cycle	NCBITaxon:4895	Schizosaccharomyces	
 GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	PMID:28732077
 GO:0103016	tRNA-uridine 2-sulfurtransferase activity	NCBITaxon:33208	Metazoa	PMID:28732077
 GO:0070189 	kynurenine metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	

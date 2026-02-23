@@ -1,5 +1,5 @@
 defined_class	defined_class_label	taxon	taxon_label	source
-GO:0014019	neuroblast development	NCBITaxon:33213	Bilateria		
+GO:0014019	neuroblast development	NCBITaxon:33213	Bilateria	
 GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata		
 GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
 GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
