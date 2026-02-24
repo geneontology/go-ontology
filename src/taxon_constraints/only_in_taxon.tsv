@@ -1,4 +1,5 @@
 defined_class	defined_class_label	taxon	taxon_label	source
+GO:0014019	neuroblast development	NCBITaxon:33213	Bilateria	
 GO:0001772	immunological synapse	NCBITaxon:7742	Vertebrata	
 GO:0031911	cytoproct	NCBITaxon:5878	Ciliophora	
 GO:0008088	axo-dendritic transport	NCBITaxon:33208	Metazoa	
@@ -880,8 +881,7 @@ GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Un
 GO:0043292	contractile muscle fiber	NCBITaxon:6072	Eumetazoa	
 GO:0160175	somatic muscle attachment to chitin-based cuticle	NCBITaxon:6656	Arthropoda	
 GO:0001734	mRNA (N6-adenosine)-methyltransferase activity	NCBITaxon:2759	Eukaryota	
-GO:0016120	carotene biosynthetic process	NCBITaxon:33090	Viridiplantae	
-GO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
+xGO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
 GO:0006699	bile acid biosynthetic process	NCBITaxon:6072	Eumetazoa	
 GO:0050870	positive regulation of T cell activation	NCBITaxon:6072	Eumetazoa	
 GO:0043123	positive regulation of canonical NF-kappaB signal transduction	NCBITaxon:6072	Eumetazoa	
