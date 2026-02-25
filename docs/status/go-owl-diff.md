@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-24/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-25/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-24" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-25" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -5008,6 +5008,14 @@ GO:0047635"
 #### Added
 - [RNA exonuclease activity, producing 5'-phosphomonoesters](http://purl.obolibrary.org/obo/GO_0016896) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9946784" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "DENV mRNA is decapped" 
+
+
+### RNA methylation `http://purl.obolibrary.org/obo/GO_0001510`
+
+#### Added
+- [RNA methylation](http://purl.obolibrary.org/obo/GO_0001510) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27423"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [RNA methylation](http://purl.obolibrary.org/obo/GO_0001510) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### RNA modification `http://purl.obolibrary.org/obo/GO_0009451`
@@ -15668,6 +15676,14 @@ transmembrane protein dislocase activity"
 
 - [methionyl-tRNA formyltransferase activity](http://purl.obolibrary.org/obo/GO_0004479) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "mitochondrial N-terminal peptidyl-methionine N-formylation" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### methylation `http://purl.obolibrary.org/obo/GO_0032259`
+
+#### Added
+- [methylation](http://purl.obolibrary.org/obo/GO_0032259) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27423"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methylation](http://purl.obolibrary.org/obo/GO_0032259) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
 
 
 ### methylcrotonoyl-CoA carboxylase activity `http://purl.obolibrary.org/obo/GO_0004485`
