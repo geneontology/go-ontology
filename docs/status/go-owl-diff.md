@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-27/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-02-28/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-02-28" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -19766,7 +19766,7 @@ transmembrane protein dislocase activity"
 
 - Class: [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) 
 
-- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) SubClassOf [receptor complex](http://purl.obolibrary.org/obo/GO_0043235) 
+- [nucleotide-binding leucine-rich repeat receptor complex](http://purl.obolibrary.org/obo/GO_7770053) SubClassOf [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) 
 
 
 ### nucleus `http://purl.obolibrary.org/obo/GO_0005634`
@@ -25770,6 +25770,28 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### obsolete obsolete sulfite reductase activity `http://purl.obolibrary.org/obo/GO_0016002`
+#### Removed
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfite reductase activity" 
+
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: hydrogen sulfide + acceptor + 3 H2O = sulfite + reduced acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) SubClassOf [oxidoreductase activity, acting on a sulfur group of donors](http://purl.obolibrary.org/obo/GO_0016667) 
+
+#### Added
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete obsolete sulfite reductase activity" 
+
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: hydrogen sulfide + acceptor + 3 H2O = sulfite + reduced acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31518"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+
 ### obsolete octopine catabolic process to proline `http://purl.obolibrary.org/obo/GO_0042459`
 #### Removed
 - [obsolete octopine catabolic process to proline](http://purl.obolibrary.org/obo/GO_0042459) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of octopine into other compounds, including proline." 
@@ -29401,6 +29423,35 @@ transmembrane protein dislocase activity"
 #### Added
 - [paternal behavior](http://purl.obolibrary.org/obo/GO_0042712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Male behaviors associated with the care and rearing offspring." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### pattern recognition receptor complex `http://purl.obolibrary.org/obo/GO_0140389`
+
+#### Added
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PAMP receptor complex" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A signaling receptor complex that combines with a pathogen-associated molecular pattern (PAMP), a structure conserved among pathogenic organisms, to initiate an innate immune response." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22654057" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28302675" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41719893" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-02-27T15:46:56Z" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140389" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [label](http://www.w3.org/2000/01/rdf-schema#label) "pattern recognition receptor complex" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31605"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- Class: [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) 
+
+- [pattern recognition receptor complex](http://purl.obolibrary.org/obo/GO_0140389) SubClassOf [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) 
 
 
 ### pattern specification process `http://purl.obolibrary.org/obo/GO_0007389`
@@ -35951,16 +36002,6 @@ transmembrane protein dislocase activity"
 - [reactive gliosis](http://purl.obolibrary.org/obo/GO_0150103) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30886"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
-### receptor complex `http://purl.obolibrary.org/obo/GO_0043235`
-#### Removed
-- [receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any protein complex that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
-
-#### Added
-- [receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any protein complex that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
-
-
 ### receptor ligand activity `http://purl.obolibrary.org/obo/GO_0048018`
 #### Removed
 - [receptor ligand activity](http://purl.obolibrary.org/obo/GO_0048018) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-163625" 
@@ -39223,6 +39264,24 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### signaling receptor complex `http://purl.obolibrary.org/obo/GO_0043235`
+#### Removed
+- [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any protein complex that undergoes combination with a hormone, neurotransmitter, drug or intracellular messenger to initiate a change in cell function." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
+
+- [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [label](http://www.w3.org/2000/01/rdf-schema#label) "receptor complex" 
+
+#### Added
+- [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31605"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any protein complex that binds a signaling molecule such as a hormone, neurotransmitter, molecular pattern recognition receptor (PAMPs and DAMPS), or an intracellular messenger to initiate a change in cell function." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "receptor complex" 
+
+- [signaling receptor complex](http://purl.obolibrary.org/obo/GO_0043235) [label](http://www.w3.org/2000/01/rdf-schema#label) "signaling receptor complex" 
+
+
 ### sirohydrochlorin ferrochelatase activity `http://purl.obolibrary.org/obo/GO_0051266`
 #### Removed
 - [sirohydrochlorin ferrochelatase activity](http://purl.obolibrary.org/obo/GO_0051266) SubClassOf [protoporphyrin ferrochelatase activity](http://purl.obolibrary.org/obo/GO_0004325) 
@@ -39793,6 +39852,20 @@ transmembrane protein dislocase activity"
 
 #### Added
 - [sulfite oxidase activity](http://purl.obolibrary.org/obo/GO_0008482) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31587"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sulfite reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004783`
+#### Removed
+- [sulfite reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004783) SubClassOf [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) 
+
+
+
+### sulfite reductase (coenzyme F420) activity `http://purl.obolibrary.org/obo/GO_0052806`
+#### Removed
+- [sulfite reductase (coenzyme F420) activity](http://purl.obolibrary.org/obo/GO_0052806) SubClassOf [obsolete obsolete sulfite reductase activity](http://purl.obolibrary.org/obo/GO_0016002) 
+
+#### Added
+- [sulfite reductase (coenzyme F420) activity](http://purl.obolibrary.org/obo/GO_0052806) SubClassOf [oxidoreductase activity, acting on a sulfur group of donors](http://purl.obolibrary.org/obo/GO_0016667) 
 
 
 ### sulfur amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0000097`
