@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-02-28 05:39:05.071020895 +0000
-+++ go.obo	2026-02-28 05:48:04.914129560 +0000
+--- go-lastrelease.obo	2026-03-01 05:50:06.579708624 +0000
++++ go.obo	2026-03-01 05:59:31.475515999 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-01-23
-+data-version: releases/2026-02-28
++data-version: releases/2026-03-01
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-01-23" xsd:string
-+property_value: owl:versionInfo "2026-02-28" xsd:string
++property_value: owl:versionInfo "2026-03-01" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -35454,7 +35454,7 @@
  created_by: dragon-ai-agent
  
  [Term]
-@@ -642313,6 +643907,196 @@
+@@ -642313,6 +643907,211 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30887" xsd:anyURI
  created_by: dragon-ai-agent
  
@@ -35647,6 +35647,21 @@
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31604" xsd:anyURI
 +created_by: dragon-ai-agent
 +creation_date: 2026-02-19T17:46:49Z
++
++[Term]
++id: GO:7770054
++name: tRNA(Val) (adenine(37)-N6)-methyltransferase activity
++namespace: molecular_function
++def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenosine(37) in tRNA(Val) = S-adenosyl-L-homocysteine + N(6)-methyladenosine(37) in tRNA(Val) + H+." [PMID:19383770, RHEA:43160]
++xref: EC:2.1.1.223
++xref: RHEA:43160
++is_a: GO:0008170 ! N-methyltransferase activity
++is_a: GO:0016426 ! tRNA (adenine) methyltransferase activity
++property_value: skos:exactMatch EC:2.1.1.223
++property_value: skos:exactMatch RHEA:43160
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31644" xsd:anyURI
++created_by: dragon-ai-agent
++creation_date: 2026-02-28T05:25:40Z
 +
  [Typedef]
  id: ends_during
