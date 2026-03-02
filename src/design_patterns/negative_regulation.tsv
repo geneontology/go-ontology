@@ -110,6 +110,7 @@ http://purl.obolibrary.org/obo/GO_1900235	negative regulation of Kit signaling p
 http://purl.obolibrary.org/obo/GO_1905542	negative regulation of L-arginine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097638	L-arginine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000083	negative regulation of L-ascorbic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0019853	L-ascorbic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903196	negative regulation of L-dopa biosynthetic process	http://purl.obolibrary.org/obo/GO_1903185	L-dopa biosynthetic process
+http://purl.obolibrary.org/obo/GO_0140387	negative regulation of L-glutamate biosynthetic process	http://purl.obolibrary.org/obo/GO_0097054	L-glutamate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0002037	negative regulation of L-glutamate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098712	L-glutamate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0062133	negative regulation of L-glutamine biosynthetic process	http://purl.obolibrary.org/obo/GO_1901704	L-glutamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901035	negative regulation of L-glutamine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903803	L-glutamine import across plasma membrane
@@ -1063,7 +1064,6 @@ http://purl.obolibrary.org/obo/GO_1902660	negative regulation of glucose mediate
 http://purl.obolibrary.org/obo/GO_0046318	negative regulation of glucosylceramide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006679	glucosylceramide biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000919	negative regulation of glucuronoarabinoxylan catabolic process	http://purl.obolibrary.org/obo/GO_2000887	glucuronoarabinoxylan catabolic process
 http://purl.obolibrary.org/obo/GO_2000916	negative regulation of glucuronoxylan catabolic process	http://purl.obolibrary.org/obo/GO_2000886	glucuronoxylan catabolic process
-http://purl.obolibrary.org/obo/GO_2000212	negative regulation of glutamate metabolic process	http://purl.obolibrary.org/obo/GO_0006536	glutamate metabolic process
 http://purl.obolibrary.org/obo/GO_1900450	negative regulation of glutamate receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0007215	glutamate receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0014050	negative regulation of glutamate secretion	http://purl.obolibrary.org/obo/GO_0014047	glutamate secretion
 http://purl.obolibrary.org/obo/GO_1903295	negative regulation of glutamate secretion, neurotransmission	http://purl.obolibrary.org/obo/GO_0061535	glutamate secretion, neurotransmission
@@ -2336,7 +2336,7 @@ http://purl.obolibrary.org/obo/GO_1903422	negative regulation of synaptic vesicl
 http://purl.obolibrary.org/obo/GO_1902804	negative regulation of synaptic vesicle transport	http://purl.obolibrary.org/obo/GO_0048489	synaptic vesicle transport
 http://purl.obolibrary.org/obo/GO_1903389	negative regulation of synaptic vesicle uncoating	http://purl.obolibrary.org/obo/GO_0016191	synaptic vesicle uncoating
 http://purl.obolibrary.org/obo/GO_0046003	negative regulation of syncytial blastoderm mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0035186	syncytial blastoderm mitotic cell cycle
-http://purl.obolibrary.org/obo/GO_0034242	negative regulation of syncytium formation by plasma membrane fusion	http://purl.obolibrary.org/obo/GO_0000768	syncytium formation by plasma membrane fusion
+http://purl.obolibrary.org/obo/GO_0034242	negative regulation of syncytium formation by plasma membrane fusion	http://purl.obolibrary.org/obo/GO_0000768	syncytium formation by cell-cell fusion
 http://purl.obolibrary.org/obo/GO_0045698	negative regulation of synergid differentiation	http://purl.obolibrary.org/obo/GO_0009563	synergid differentiation
 http://purl.obolibrary.org/obo/GO_1901646	negative regulation of synoviocyte proliferation	http://purl.obolibrary.org/obo/GO_0002941	synoviocyte proliferation
 http://purl.obolibrary.org/obo/GO_1901429	negative regulation of syringal lignin biosynthetic process	http://purl.obolibrary.org/obo/GO_1901066	syringal lignin biosynthetic process

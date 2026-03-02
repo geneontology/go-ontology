@@ -121,7 +121,6 @@ http://purl.obolibrary.org/obo/GO_1905626	positive regulation of L-methionine im
 http://purl.obolibrary.org/obo/GO_2001158	positive regulation of L-proline catabolic process	http://purl.obolibrary.org/obo/GO_0006562	L-proline catabolic process
 http://purl.obolibrary.org/obo/GO_1905737	positive regulation of L-proline import across plasma membrane	http://purl.obolibrary.org/obo/GO_1904271	L-proline import across plasma membrane
 http://purl.obolibrary.org/obo/GO_1900928	positive regulation of L-threonine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903807	L-threonine import across plasma membrane
-http://purl.obolibrary.org/obo/GO_0090358	positive regulation of L-tryptophan metabolic process	http://purl.obolibrary.org/obo/GO_0006568	L-tryptophan metabolic process
 http://purl.obolibrary.org/obo/GO_1900931	positive regulation of L-tyrosine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903808	L-tyrosine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0140124	positive regulation of Lewy body formation	http://purl.obolibrary.org/obo/GO_0140121	Lewy body formation
 http://purl.obolibrary.org/obo/GO_0043406	positive regulation of MAP kinase activity	http://purl.obolibrary.org/obo/GO_0004707	MAP kinase activity
@@ -2332,7 +2331,7 @@ http://purl.obolibrary.org/obo/GO_1902805	positive regulation of synaptic vesicl
 http://purl.obolibrary.org/obo/GO_1903390	positive regulation of synaptic vesicle uncoating	http://purl.obolibrary.org/obo/GO_0016191	synaptic vesicle uncoating
 http://purl.obolibrary.org/obo/GO_1905088	positive regulation of synaptonemal complex assembly	http://purl.obolibrary.org/obo/GO_0007130	synaptonemal complex assembly
 http://purl.obolibrary.org/obo/GO_0046004	positive regulation of syncytial blastoderm mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0035186	syncytial blastoderm mitotic cell cycle
-http://purl.obolibrary.org/obo/GO_0060143	positive regulation of syncytium formation by plasma membrane fusion	http://purl.obolibrary.org/obo/GO_0000768	syncytium formation by plasma membrane fusion
+http://purl.obolibrary.org/obo/GO_0060143	positive regulation of syncytium formation by plasma membrane fusion	http://purl.obolibrary.org/obo/GO_0000768	syncytium formation by cell-cell fusion
 http://purl.obolibrary.org/obo/GO_0045699	positive regulation of synergid differentiation	http://purl.obolibrary.org/obo/GO_0009563	synergid differentiation
 http://purl.obolibrary.org/obo/GO_1901647	positive regulation of synoviocyte proliferation	http://purl.obolibrary.org/obo/GO_0002941	synoviocyte proliferation
 http://purl.obolibrary.org/obo/GO_1901430	positive regulation of syringal lignin biosynthetic process	http://purl.obolibrary.org/obo/GO_1901066	syringal lignin biosynthetic process
@@ -2370,6 +2369,7 @@ http://purl.obolibrary.org/obo/GO_0060566	positive regulation of termination of 
 http://purl.obolibrary.org/obo/GO_2000732	positive regulation of termination of RNA polymerase I transcription	http://purl.obolibrary.org/obo/GO_0006363	termination of RNA polymerase I transcription
 http://purl.obolibrary.org/obo/GO_1904595	positive regulation of termination of RNA polymerase II transcription	http://purl.obolibrary.org/obo/GO_0006369	termination of RNA polymerase II transcription
 http://purl.obolibrary.org/obo/GO_2000806	positive regulation of termination of RNA polymerase II transcription, poly(A)-coupled	http://purl.obolibrary.org/obo/GO_0030846	termination of RNA polymerase II transcription, poly(A)-coupled
+http://purl.obolibrary.org/obo/GO_0180069	positive regulation of terreate biosynthetic process	http://purl.obolibrary.org/obo/GO_0180067	terreate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900854	positive regulation of terrequinone A biosynthetic process	http://purl.obolibrary.org/obo/GO_1900796	terrequinone A biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000845	positive regulation of testosterone secretion	http://purl.obolibrary.org/obo/GO_0035936	testosterone secretion
 http://purl.obolibrary.org/obo/GO_1901465	positive regulation of tetrapyrrole biosynthetic process	http://purl.obolibrary.org/obo/GO_0033014	tetrapyrrole biosynthetic process

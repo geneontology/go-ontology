@@ -164,7 +164,6 @@ http://purl.obolibrary.org/obo/GO_1905961	protein-cysteine S-palmitoyltransferas
 http://purl.obolibrary.org/obo/GO_1902792	pyrroline-5-carboxylate reductase complex	http://purl.obolibrary.org/obo/GO_0004735	pyrroline-5-carboxylate reductase activity
 http://purl.obolibrary.org/obo/GO_0045253	pyruvate dehydrogenase (lipoamide) phosphatase complex	http://purl.obolibrary.org/obo/GO_0004741	[pyruvate dehydrogenase (acetyl-transferring)]-phosphatase activity
 http://purl.obolibrary.org/obo/GO_1902912	pyruvate kinase complex	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
-http://purl.obolibrary.org/obo/GO_0043235	receptor complex	http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
 http://purl.obolibrary.org/obo/GO_0009349	riboflavin synthase complex	http://purl.obolibrary.org/obo/GO_0004746	riboflavin synthase activity
 http://purl.obolibrary.org/obo/GO_1903095	ribonuclease III complex	http://purl.obolibrary.org/obo/GO_0004525	ribonuclease III activity
 http://purl.obolibrary.org/obo/GO_0005971	ribonucleoside-diphosphate reductase complex	http://purl.obolibrary.org/obo/GO_0061731	ribonucleoside-diphosphate reductase activity
@@ -179,6 +178,7 @@ http://purl.obolibrary.org/obo/GO_1902554	serine/threonine protein kinase comple
 http://purl.obolibrary.org/obo/GO_0098665	serotonin receptor complex	http://purl.obolibrary.org/obo/GO_0099589	serotonin receptor activity
 http://purl.obolibrary.org/obo/GO_1904602	serotonin-activated cation-selective channel complex	http://purl.obolibrary.org/obo/GO_0022850	serotonin-gated monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_1903865	sigma factor antagonist complex	http://purl.obolibrary.org/obo/GO_0016989	sigma factor antagonist activity
+http://purl.obolibrary.org/obo/GO_0043235	signaling receptor complex	http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
 http://purl.obolibrary.org/obo/GO_1903114	silver ion transmembrane transporter complex	http://purl.obolibrary.org/obo/GO_0015080	silver ion transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0017117	single-stranded DNA-dependent ATP-dependent DNA helicase complex	http://purl.obolibrary.org/obo/GO_0017116	single-stranded DNA helicase activity
 http://purl.obolibrary.org/obo/GO_0034706	sodium channel complex	http://purl.obolibrary.org/obo/GO_0005272	sodium channel activity
