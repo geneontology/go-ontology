@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-03-01 05:50:06.579708624 +0000
-+++ go.obo	2026-03-01 05:59:31.475515999 +0000
+--- go-lastrelease.obo	2026-03-02 05:50:42.027979752 +0000
++++ go.obo	2026-03-02 05:59:43.857105267 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-01-23
-+data-version: releases/2026-03-01
++data-version: releases/2026-03-02
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-01-23" xsd:string
-+property_value: owl:versionInfo "2026-03-01" xsd:string
++property_value: owl:versionInfo "2026-03-02" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -8480,7 +8480,15 @@
  is_a: GO:0003674 ! molecular_function
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21334" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26572" xsd:anyURI
-@@ -95702,7 +96073,7 @@
+@@ -95684,7 +96055,6 @@
+ name: aerobic respiration
+ namespace: biological_process
+ def: "The enzymatic release of energy from inorganic and organic compounds (especially carbohydrates and fats) which requires oxygen as the terminal electron acceptor." [GOC:das, GOC:jl, ISBN:0140513590]
+-xref: MetaCyc:PWY-3781
+ xref: Wikipedia:Cellular_respiration#Aerobic_respiration
+ is_a: GO:0045333 ! cellular respiration
+ 
+@@ -95702,7 +96072,7 @@
  id: GO:0009062
  name: fatty acid catabolic process
  namespace: biological_process
@@ -8489,7 +8497,7 @@
  synonym: "fatty acid breakdown" EXACT []
  synonym: "fatty acid catabolism" EXACT []
  synonym: "fatty acid degradation" EXACT []
-@@ -95733,7 +96104,6 @@
+@@ -95733,7 +96103,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving amino acids of the glutamine family, comprising arginine, glutamate, glutamine and proline." [GOC:ai]
  comment: The reason for obsoletion is that this is an unnecessary grouping term.
  synonym: "glutamine family amino acid metabolism" EXACT []
@@ -8497,7 +8505,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29444" xsd:anyURI
  is_obsolete: true
  
-@@ -95756,7 +96126,6 @@
+@@ -95756,7 +96125,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving amino acids of the aspartate family, comprising asparagine, aspartate, lysine, methionine and threonine." [GOC:ai]
  comment: The reason for obsoletion is that this is an unnecessary grouping term.
  synonym: "aspartate family amino acid metabolism" EXACT []
@@ -8505,7 +8513,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29444" xsd:anyURI
  is_obsolete: true
  
-@@ -95764,16 +96133,15 @@
+@@ -95764,16 +96132,15 @@
  id: GO:0009067
  name: aspartate family amino acid biosynthetic process
  namespace: biological_process
@@ -8524,7 +8532,7 @@
  
  [Term]
  id: GO:0009068
-@@ -95806,14 +96174,9 @@
+@@ -95806,14 +96173,9 @@
  synonym: "serine family amino acid biosynthesis" EXACT []
  synonym: "serine family amino acid formation" EXACT []
  synonym: "serine family amino acid synthesis" EXACT []
@@ -8540,7 +8548,7 @@
  
  [Term]
  id: GO:0009071
-@@ -95831,7 +96194,7 @@
+@@ -95831,7 +96193,7 @@
  id: GO:0009072
  name: aromatic amino acid metabolic process
  namespace: biological_process
@@ -8549,7 +8557,7 @@
  synonym: "aromatic amino acid family metabolic process" EXACT []
  synonym: "aromatic amino acid family metabolism" EXACT []
  xref: Reactome:R-HSA-8963691 "Phenylalanine and tyrosine metabolism"
-@@ -95843,7 +96206,7 @@
+@@ -95843,7 +96205,7 @@
  name: aromatic amino acid family biosynthetic process
  namespace: biological_process
  alt_id: GO:0016089
@@ -8558,7 +8566,7 @@
  synonym: "aromatic amino acid family anabolism" EXACT []
  synonym: "aromatic amino acid family biosynthesis" EXACT []
  synonym: "aromatic amino acid family biosynthetic process, shikimate pathway" RELATED []
-@@ -95857,7 +96220,7 @@
+@@ -95857,7 +96219,7 @@
  id: GO:0009074
  name: aromatic amino acid family catabolic process
  namespace: biological_process
@@ -8567,7 +8575,7 @@
  synonym: "aromatic amino acid family breakdown" EXACT []
  synonym: "aromatic amino acid family catabolism" EXACT []
  synonym: "aromatic amino acid family degradation" EXACT []
-@@ -95909,7 +96272,6 @@
+@@ -95909,7 +96271,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving any amino acid that requires pyruvate for its synthesis, e.g. alanine." [GOC:jl]
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "pyruvate family amino acid metabolism" EXACT []
@@ -8575,7 +8583,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
  is_obsolete: true
  
-@@ -95977,32 +96339,42 @@
+@@ -95977,32 +96338,42 @@
  id: GO:0009084
  name: L-glutamine family amino acid biosynthetic process
  namespace: biological_process
@@ -8624,7 +8632,7 @@
  
  [Term]
  id: GO:0009086
-@@ -96022,7 +96394,7 @@
+@@ -96022,7 +96393,7 @@
  id: GO:0009087
  name: L-methionine catabolic process
  namespace: biological_process
@@ -8633,7 +8641,7 @@
  synonym: "methionine breakdown" EXACT []
  synonym: "methionine catabolism" EXACT []
  synonym: "methionine degradation" EXACT []
-@@ -96038,29 +96410,29 @@
+@@ -96038,29 +96409,29 @@
  property_value: skos:narrowMatch MetaCyc:PWY-5082
  property_value: skos:narrowMatch MetaCyc:PWY-701
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30202" xsd:anyURI
@@ -8667,7 +8675,7 @@
  synonym: "diaminopimelate pathway" EXACT []
  synonym: "diaminopimelic acid pathway" EXACT []
  synonym: "lysine anabolism via diaminopimelate" EXACT []
-@@ -96075,7 +96447,7 @@
+@@ -96075,7 +96446,7 @@
  id: GO:0009090
  name: L-homoserine biosynthetic process
  namespace: biological_process
@@ -8676,7 +8684,7 @@
  synonym: "homoserine anabolism" EXACT []
  synonym: "homoserine biosynthesis" EXACT []
  synonym: "homoserine formation" EXACT []
-@@ -96089,17 +96461,17 @@
+@@ -96089,17 +96460,17 @@
  
  [Term]
  id: GO:0009091
@@ -8699,7 +8707,7 @@
  
  [Term]
  id: GO:0009092
-@@ -96115,7 +96487,7 @@
+@@ -96115,7 +96486,7 @@
  id: GO:0009093
  name: obsolete cysteine catabolic process
  namespace: biological_process
@@ -8708,7 +8716,7 @@
  comment: The reason for obsoletion is that a more specific term has been created.
  synonym: "cysteine breakdown" EXACT []
  synonym: "cysteine catabolism" EXACT []
-@@ -96140,9 +96512,16 @@
+@@ -96140,9 +96511,16 @@
  synonym: "phenylalanine biosynthetic process" BROAD []
  synonym: "phenylalanine biosynthetic process, prephenate pathway" RELATED []
  synonym: "phenylalanine biosynthetic process, shikimate pathway" RELATED []
@@ -8725,7 +8733,7 @@
  
  [Term]
  id: GO:0009095
-@@ -96160,17 +96539,17 @@
+@@ -96160,17 +96538,17 @@
  
  [Term]
  id: GO:0009097
@@ -8749,7 +8757,7 @@
  
  [Term]
  id: GO:0009098
-@@ -96204,14 +96583,14 @@
+@@ -96204,14 +96582,14 @@
  relationship: has_part GO:0003984 ! acetolactate synthase activity
  relationship: has_part GO:0004160 ! dihydroxy-acid dehydratase activity
  relationship: has_part GO:0004455 ! ketol-acid reductoisomerase activity
@@ -8766,7 +8774,7 @@
  subset: goslim_drosophila
  synonym: "glycoprotein metabolism" EXACT []
  is_a: GO:0019538 ! protein metabolic process
-@@ -96345,7 +96724,7 @@
+@@ -96345,7 +96723,7 @@
  id: GO:0009110
  name: vitamin biosynthetic process
  namespace: biological_process
@@ -8775,7 +8783,7 @@
  synonym: "vitamin anabolism" EXACT []
  synonym: "vitamin biosynthesis" EXACT []
  synonym: "vitamin formation" EXACT []
-@@ -96380,13 +96759,13 @@
+@@ -96380,13 +96758,13 @@
  def: "The chemical reactions and pathways resulting in the formation of purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, which include adenine and guanine." [ISBN:0198506732]
  synonym: "purine base anabolism" EXACT []
  synonym: "purine base biosynthesis" EXACT []
@@ -8791,7 +8799,7 @@
  
  [Term]
  id: GO:0009114
-@@ -96406,7 +96785,7 @@
+@@ -96406,7 +96784,7 @@
  name: xanthine catabolic process
  namespace: biological_process
  alt_id: GO:0006151
@@ -8800,7 +8808,7 @@
  synonym: "xanthine breakdown" EXACT []
  synonym: "xanthine catabolism" EXACT []
  synonym: "xanthine degradation" EXACT []
-@@ -96437,7 +96816,7 @@
+@@ -96437,7 +96815,7 @@
  id: GO:0009118
  name: regulation of nucleoside metabolic process
  namespace: biological_process
@@ -8809,7 +8817,7 @@
  synonym: "regulation of nucleoside metabolism" EXACT []
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
  is_a: GO:0062012 ! regulation of small molecule metabolic process
-@@ -96465,7 +96844,7 @@
+@@ -96465,7 +96843,7 @@
  id: GO:0009123
  name: nucleoside monophosphate metabolic process
  namespace: biological_process
@@ -8818,7 +8826,7 @@
  synonym: "nucleoside monophosphate metabolism" EXACT []
  is_a: GO:0006753 ! nucleoside phosphate metabolic process
  
-@@ -96473,7 +96852,7 @@
+@@ -96473,7 +96851,7 @@
  id: GO:0009124
  name: nucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -8827,7 +8835,7 @@
  synonym: "nucleoside monophosphate anabolism" EXACT []
  synonym: "nucleoside monophosphate biosynthesis" EXACT []
  synonym: "nucleoside monophosphate formation" EXACT []
-@@ -96485,7 +96864,7 @@
+@@ -96485,7 +96863,7 @@
  id: GO:0009125
  name: nucleoside monophosphate catabolic process
  namespace: biological_process
@@ -8836,7 +8844,7 @@
  synonym: "nucleoside monophosphate breakdown" EXACT []
  synonym: "nucleoside monophosphate catabolism" EXACT []
  synonym: "nucleoside monophosphate degradation" EXACT []
-@@ -96496,7 +96875,7 @@
+@@ -96496,7 +96874,7 @@
  id: GO:0009126
  name: purine nucleoside monophosphate metabolic process
  namespace: biological_process
@@ -8845,7 +8853,7 @@
  synonym: "purine nucleoside monophosphate metabolism" EXACT []
  is_a: GO:0009123 ! nucleoside monophosphate metabolic process
  
-@@ -96504,7 +96883,7 @@
+@@ -96504,7 +96882,7 @@
  id: GO:0009127
  name: purine nucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -8854,7 +8862,7 @@
  synonym: "purine nucleoside monophosphate anabolism" EXACT []
  synonym: "purine nucleoside monophosphate biosynthesis" EXACT []
  synonym: "purine nucleoside monophosphate formation" EXACT []
-@@ -96516,7 +96895,7 @@
+@@ -96516,7 +96894,7 @@
  id: GO:0009128
  name: purine nucleoside monophosphate catabolic process
  namespace: biological_process
@@ -8863,7 +8871,7 @@
  synonym: "purine nucleoside monophosphate breakdown" EXACT []
  synonym: "purine nucleoside monophosphate catabolism" EXACT []
  synonym: "purine nucleoside monophosphate degradation" EXACT []
-@@ -96527,7 +96906,7 @@
+@@ -96527,7 +96905,7 @@
  id: GO:0009129
  name: pyrimidine nucleoside monophosphate metabolic process
  namespace: biological_process
@@ -8872,7 +8880,7 @@
  synonym: "pyrimidine nucleoside monophosphate metabolism" EXACT []
  is_a: GO:0009123 ! nucleoside monophosphate metabolic process
  
-@@ -96535,7 +96914,7 @@
+@@ -96535,7 +96913,7 @@
  id: GO:0009130
  name: pyrimidine nucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -8881,7 +8889,7 @@
  synonym: "pyrimidine nucleoside monophosphate anabolism" EXACT []
  synonym: "pyrimidine nucleoside monophosphate biosynthesis" EXACT []
  synonym: "pyrimidine nucleoside monophosphate formation" EXACT []
-@@ -96547,7 +96926,7 @@
+@@ -96547,7 +96925,7 @@
  id: GO:0009131
  name: pyrimidine nucleoside monophosphate catabolic process
  namespace: biological_process
@@ -8890,7 +8898,7 @@
  synonym: "pyrimidine nucleoside monophosphate breakdown" EXACT []
  synonym: "pyrimidine nucleoside monophosphate catabolism" EXACT []
  synonym: "pyrimidine nucleoside monophosphate degradation" EXACT []
-@@ -96558,7 +96937,7 @@
+@@ -96558,7 +96936,7 @@
  id: GO:0009132
  name: nucleoside diphosphate metabolic process
  namespace: biological_process
@@ -8899,7 +8907,7 @@
  synonym: "nucleoside diphosphate metabolism" EXACT []
  is_a: GO:0006753 ! nucleoside phosphate metabolic process
  
-@@ -96566,7 +96945,7 @@
+@@ -96566,7 +96944,7 @@
  id: GO:0009133
  name: nucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -8908,7 +8916,7 @@
  synonym: "nucleoside diphosphate anabolism" EXACT []
  synonym: "nucleoside diphosphate biosynthesis" EXACT []
  synonym: "nucleoside diphosphate formation" EXACT []
-@@ -96578,7 +96957,7 @@
+@@ -96578,7 +96956,7 @@
  id: GO:0009134
  name: nucleoside diphosphate catabolic process
  namespace: biological_process
@@ -8917,7 +8925,7 @@
  synonym: "nucleoside diphosphate breakdown" EXACT []
  synonym: "nucleoside diphosphate catabolism" EXACT []
  synonym: "nucleoside diphosphate degradation" EXACT []
-@@ -96589,7 +96968,7 @@
+@@ -96589,7 +96967,7 @@
  id: GO:0009135
  name: purine nucleoside diphosphate metabolic process
  namespace: biological_process
@@ -8926,7 +8934,7 @@
  synonym: "purine nucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009132 ! nucleoside diphosphate metabolic process
  
-@@ -96597,7 +96976,7 @@
+@@ -96597,7 +96975,7 @@
  id: GO:0009136
  name: purine nucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -8935,7 +8943,7 @@
  synonym: "purine nucleoside diphosphate anabolism" EXACT []
  synonym: "purine nucleoside diphosphate biosynthesis" EXACT []
  synonym: "purine nucleoside diphosphate formation" EXACT []
-@@ -96609,7 +96988,7 @@
+@@ -96609,7 +96987,7 @@
  id: GO:0009137
  name: purine nucleoside diphosphate catabolic process
  namespace: biological_process
@@ -8944,7 +8952,7 @@
  synonym: "purine nucleoside diphosphate breakdown" EXACT []
  synonym: "purine nucleoside diphosphate catabolism" EXACT []
  synonym: "purine nucleoside diphosphate degradation" EXACT []
-@@ -96620,7 +96999,7 @@
+@@ -96620,7 +96998,7 @@
  id: GO:0009138
  name: pyrimidine nucleoside diphosphate metabolic process
  namespace: biological_process
@@ -8953,7 +8961,7 @@
  synonym: "pyrimidine nucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009132 ! nucleoside diphosphate metabolic process
  
-@@ -96628,7 +97007,7 @@
+@@ -96628,7 +97006,7 @@
  id: GO:0009139
  name: pyrimidine nucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -8962,7 +8970,7 @@
  synonym: "pyrimidine nucleoside diphosphate anabolism" EXACT []
  synonym: "pyrimidine nucleoside diphosphate biosynthesis" EXACT []
  synonym: "pyrimidine nucleoside diphosphate formation" EXACT []
-@@ -96640,7 +97019,7 @@
+@@ -96640,7 +97018,7 @@
  id: GO:0009140
  name: pyrimidine nucleoside diphosphate catabolic process
  namespace: biological_process
@@ -8971,7 +8979,7 @@
  synonym: "pyrimidine nucleoside diphosphate breakdown" EXACT []
  synonym: "pyrimidine nucleoside diphosphate catabolism" EXACT []
  synonym: "pyrimidine nucleoside diphosphate degradation" EXACT []
-@@ -96651,7 +97030,7 @@
+@@ -96651,7 +97029,7 @@
  id: GO:0009141
  name: nucleoside triphosphate metabolic process
  namespace: biological_process
@@ -8980,7 +8988,7 @@
  synonym: "nucleoside triphosphate metabolism" EXACT []
  is_a: GO:0006753 ! nucleoside phosphate metabolic process
  
-@@ -96659,7 +97038,7 @@
+@@ -96659,7 +97037,7 @@
  id: GO:0009142
  name: nucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -8989,7 +8997,7 @@
  synonym: "nucleoside triphosphate anabolism" EXACT []
  synonym: "nucleoside triphosphate biosynthesis" EXACT []
  synonym: "nucleoside triphosphate formation" EXACT []
-@@ -96671,7 +97050,7 @@
+@@ -96671,7 +97049,7 @@
  id: GO:0009143
  name: nucleoside triphosphate catabolic process
  namespace: biological_process
@@ -8998,7 +9006,7 @@
  synonym: "nucleoside triphosphate breakdown" EXACT []
  synonym: "nucleoside triphosphate catabolism" EXACT []
  synonym: "nucleoside triphosphate degradation" EXACT []
-@@ -96682,7 +97061,7 @@
+@@ -96682,7 +97060,7 @@
  id: GO:0009144
  name: purine nucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9007,7 +9015,7 @@
  synonym: "purine nucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009141 ! nucleoside triphosphate metabolic process
  
-@@ -96690,7 +97069,7 @@
+@@ -96690,7 +97068,7 @@
  id: GO:0009145
  name: purine nucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9016,7 +9024,7 @@
  synonym: "purine nucleoside triphosphate anabolism" EXACT []
  synonym: "purine nucleoside triphosphate biosynthesis" EXACT []
  synonym: "purine nucleoside triphosphate formation" EXACT []
-@@ -96702,7 +97081,7 @@
+@@ -96702,7 +97080,7 @@
  id: GO:0009146
  name: purine nucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9025,7 +9033,7 @@
  synonym: "purine nucleoside triphosphate breakdown" EXACT []
  synonym: "purine nucleoside triphosphate catabolism" EXACT []
  synonym: "purine nucleoside triphosphate degradation" EXACT []
-@@ -96713,7 +97092,7 @@
+@@ -96713,7 +97091,7 @@
  id: GO:0009147
  name: pyrimidine nucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9034,7 +9042,7 @@
  synonym: "pyrimidine nucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009141 ! nucleoside triphosphate metabolic process
  
-@@ -96721,7 +97100,7 @@
+@@ -96721,7 +97099,7 @@
  id: GO:0009148
  name: pyrimidine nucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9043,7 +9051,7 @@
  synonym: "pyrimidine nucleoside triphosphate anabolism" EXACT []
  synonym: "pyrimidine nucleoside triphosphate biosynthesis" EXACT []
  synonym: "pyrimidine nucleoside triphosphate formation" EXACT []
-@@ -96733,7 +97112,7 @@
+@@ -96733,7 +97111,7 @@
  id: GO:0009149
  name: pyrimidine nucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9052,7 +9060,7 @@
  synonym: "pyrimidine nucleoside triphosphate breakdown" EXACT []
  synonym: "pyrimidine nucleoside triphosphate catabolism" EXACT []
  synonym: "pyrimidine nucleoside triphosphate degradation" EXACT []
-@@ -96744,7 +97123,7 @@
+@@ -96744,7 +97122,7 @@
  id: GO:0009150
  name: purine ribonucleotide metabolic process
  namespace: biological_process
@@ -9061,7 +9069,7 @@
  synonym: "purine ribonucleotide metabolism" EXACT []
  is_a: GO:0006163 ! purine nucleotide metabolic process
  is_a: GO:0009259 ! ribonucleotide metabolic process
-@@ -96753,7 +97132,7 @@
+@@ -96753,7 +97131,7 @@
  id: GO:0009151
  name: purine deoxyribonucleotide metabolic process
  namespace: biological_process
@@ -9070,7 +9078,7 @@
  synonym: "purine deoxyribonucleotide metabolism" EXACT []
  is_a: GO:0006163 ! purine nucleotide metabolic process
  is_a: GO:0009394 ! 2'-deoxyribonucleotide metabolic process
-@@ -96762,7 +97141,7 @@
+@@ -96762,7 +97140,7 @@
  id: GO:0009152
  name: purine ribonucleotide biosynthetic process
  namespace: biological_process
@@ -9079,7 +9087,7 @@
  synonym: "purine ribonucleotide anabolism" EXACT []
  synonym: "purine ribonucleotide biosynthesis" EXACT []
  synonym: "purine ribonucleotide formation" EXACT []
-@@ -96775,7 +97154,7 @@
+@@ -96775,7 +97153,7 @@
  id: GO:0009153
  name: purine deoxyribonucleotide biosynthetic process
  namespace: biological_process
@@ -9088,7 +9096,7 @@
  synonym: "purine deoxyribonucleotide anabolism" EXACT []
  synonym: "purine deoxyribonucleotide biosynthesis" EXACT []
  synonym: "purine deoxyribonucleotide formation" EXACT []
-@@ -96788,7 +97167,7 @@
+@@ -96788,7 +97166,7 @@
  id: GO:0009154
  name: purine ribonucleotide catabolic process
  namespace: biological_process
@@ -9097,7 +9105,7 @@
  synonym: "purine ribonucleotide breakdown" EXACT []
  synonym: "purine ribonucleotide catabolism" EXACT []
  synonym: "purine ribonucleotide degradation" EXACT []
-@@ -96800,7 +97179,7 @@
+@@ -96800,7 +97178,7 @@
  id: GO:0009155
  name: purine deoxyribonucleotide catabolic process
  namespace: biological_process
@@ -9106,7 +9114,7 @@
  synonym: "purine deoxyribonucleotide breakdown" EXACT []
  synonym: "purine deoxyribonucleotide catabolism" EXACT []
  synonym: "purine deoxyribonucleotide degradation" EXACT []
-@@ -96813,7 +97192,7 @@
+@@ -96813,7 +97191,7 @@
  id: GO:0009156
  name: ribonucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -9115,7 +9123,7 @@
  synonym: "ribonucleoside monophosphate anabolism" EXACT []
  synonym: "ribonucleoside monophosphate biosynthesis" EXACT []
  synonym: "ribonucleoside monophosphate formation" EXACT []
-@@ -96824,7 +97203,7 @@
+@@ -96824,7 +97202,7 @@
  id: GO:0009157
  name: deoxyribonucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -9124,7 +9132,7 @@
  synonym: "deoxyribonucleoside monophosphate anabolism" EXACT []
  synonym: "deoxyribonucleoside monophosphate biosynthesis" EXACT []
  synonym: "deoxyribonucleoside monophosphate formation" EXACT []
-@@ -96835,7 +97214,7 @@
+@@ -96835,7 +97213,7 @@
  id: GO:0009158
  name: ribonucleoside monophosphate catabolic process
  namespace: biological_process
@@ -9133,7 +9141,7 @@
  synonym: "ribonucleoside monophosphate breakdown" EXACT []
  synonym: "ribonucleoside monophosphate catabolism" EXACT []
  synonym: "ribonucleoside monophosphate degradation" EXACT []
-@@ -96845,7 +97224,7 @@
+@@ -96845,7 +97223,7 @@
  id: GO:0009159
  name: deoxyribonucleoside monophosphate catabolic process
  namespace: biological_process
@@ -9142,7 +9150,7 @@
  synonym: "deoxyribonucleoside monophosphate breakdown" EXACT []
  synonym: "deoxyribonucleoside monophosphate catabolism" EXACT []
  synonym: "deoxyribonucleoside monophosphate degradation" EXACT []
-@@ -96855,7 +97234,7 @@
+@@ -96855,7 +97233,7 @@
  id: GO:0009161
  name: obsolete ribonucleoside monophosphate metabolic process
  namespace: biological_process
@@ -9151,7 +9159,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "ribonucleoside monophosphate metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
-@@ -96865,7 +97244,7 @@
+@@ -96865,7 +97243,7 @@
  id: GO:0009162
  name: obsolete deoxyribonucleoside monophosphate metabolic process
  namespace: biological_process
@@ -9160,7 +9168,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "deoxyribonucleoside monophosphate metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
-@@ -96900,7 +97279,7 @@
+@@ -96900,7 +97278,7 @@
  id: GO:0009165
  name: nucleotide biosynthetic process
  namespace: biological_process
@@ -9169,7 +9177,7 @@
  synonym: "nucleotide anabolism" EXACT []
  synonym: "nucleotide biosynthesis" EXACT []
  synonym: "nucleotide formation" EXACT []
-@@ -96912,7 +97291,7 @@
+@@ -96912,7 +97290,7 @@
  id: GO:0009166
  name: nucleotide catabolic process
  namespace: biological_process
@@ -9178,7 +9186,7 @@
  synonym: "nucleotide breakdown" EXACT []
  synonym: "nucleotide catabolism" EXACT []
  synonym: "nucleotide degradation" EXACT []
-@@ -96923,7 +97302,7 @@
+@@ -96923,7 +97301,7 @@
  id: GO:0009167
  name: purine ribonucleoside monophosphate metabolic process
  namespace: biological_process
@@ -9187,7 +9195,7 @@
  synonym: "purine ribonucleoside monophosphate metabolism" EXACT []
  is_a: GO:0009126 ! purine nucleoside monophosphate metabolic process
  
-@@ -96931,7 +97310,7 @@
+@@ -96931,7 +97309,7 @@
  id: GO:0009168
  name: purine ribonucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -9196,7 +9204,7 @@
  synonym: "purine ribonucleoside monophosphate anabolism" EXACT []
  synonym: "purine ribonucleoside monophosphate biosynthesis" EXACT []
  synonym: "purine ribonucleoside monophosphate formation" EXACT []
-@@ -96945,7 +97324,7 @@
+@@ -96945,7 +97323,7 @@
  id: GO:0009169
  name: purine ribonucleoside monophosphate catabolic process
  namespace: biological_process
@@ -9205,7 +9213,7 @@
  synonym: "purine ribonucleoside monophosphate breakdown" EXACT []
  synonym: "purine ribonucleoside monophosphate catabolism" EXACT []
  synonym: "purine ribonucleoside monophosphate degradation" EXACT []
-@@ -96957,7 +97336,7 @@
+@@ -96957,7 +97335,7 @@
  id: GO:0009170
  name: purine deoxyribonucleoside monophosphate metabolic process
  namespace: biological_process
@@ -9214,7 +9222,7 @@
  synonym: "purine deoxyribonucleoside monophosphate metabolism" EXACT []
  is_a: GO:0009126 ! purine nucleoside monophosphate metabolic process
  
-@@ -96965,7 +97344,7 @@
+@@ -96965,7 +97343,7 @@
  id: GO:0009171
  name: purine deoxyribonucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -9223,7 +9231,7 @@
  synonym: "purine deoxyribonucleoside monophosphate anabolism" EXACT []
  synonym: "purine deoxyribonucleoside monophosphate biosynthesis" EXACT []
  synonym: "purine deoxyribonucleoside monophosphate formation" EXACT []
-@@ -96978,7 +97357,7 @@
+@@ -96978,7 +97356,7 @@
  id: GO:0009172
  name: purine deoxyribonucleoside monophosphate catabolic process
  namespace: biological_process
@@ -9232,7 +9240,7 @@
  synonym: "purine deoxyribonucleoside monophosphate breakdown" EXACT []
  synonym: "purine deoxyribonucleoside monophosphate catabolism" EXACT []
  synonym: "purine deoxyribonucleoside monophosphate degradation" EXACT []
-@@ -96990,7 +97369,7 @@
+@@ -96990,7 +97368,7 @@
  id: GO:0009173
  name: pyrimidine ribonucleoside monophosphate metabolic process
  namespace: biological_process
@@ -9241,7 +9249,7 @@
  synonym: "pyrimidine ribonucleoside monophosphate metabolism" EXACT []
  is_a: GO:0009129 ! pyrimidine nucleoside monophosphate metabolic process
  
-@@ -96998,7 +97377,7 @@
+@@ -96998,7 +97376,7 @@
  id: GO:0009174
  name: pyrimidine ribonucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -9250,7 +9258,7 @@
  synonym: "pyrimidine ribonucleoside monophosphate anabolism" EXACT []
  synonym: "pyrimidine ribonucleoside monophosphate biosynthesis" EXACT []
  synonym: "pyrimidine ribonucleoside monophosphate formation" EXACT []
-@@ -97011,7 +97390,7 @@
+@@ -97011,7 +97389,7 @@
  id: GO:0009175
  name: pyrimidine ribonucleoside monophosphate catabolic process
  namespace: biological_process
@@ -9259,7 +9267,7 @@
  synonym: "pyrimidine ribonucleoside monophosphate breakdown" EXACT []
  synonym: "pyrimidine ribonucleoside monophosphate catabolism" EXACT []
  synonym: "pyrimidine ribonucleoside monophosphate degradation" EXACT []
-@@ -97023,7 +97402,7 @@
+@@ -97023,7 +97401,7 @@
  id: GO:0009176
  name: pyrimidine deoxyribonucleoside monophosphate metabolic process
  namespace: biological_process
@@ -9268,7 +9276,7 @@
  synonym: "pyrimidine deoxyribonucleoside monophosphate metabolism" EXACT []
  is_a: GO:0009129 ! pyrimidine nucleoside monophosphate metabolic process
  
-@@ -97031,7 +97410,7 @@
+@@ -97031,7 +97409,7 @@
  id: GO:0009177
  name: pyrimidine deoxyribonucleoside monophosphate biosynthetic process
  namespace: biological_process
@@ -9277,7 +9285,7 @@
  synonym: "pyrimidine deoxyribonucleoside monophosphate anabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleoside monophosphate biosynthesis" EXACT []
  synonym: "pyrimidine deoxyribonucleoside monophosphate formation" EXACT []
-@@ -97044,7 +97423,7 @@
+@@ -97044,7 +97422,7 @@
  id: GO:0009178
  name: pyrimidine deoxyribonucleoside monophosphate catabolic process
  namespace: biological_process
@@ -9286,7 +9294,7 @@
  synonym: "pyrimidine deoxyribonucleoside monophosphate breakdown" EXACT []
  synonym: "pyrimidine deoxyribonucleoside monophosphate catabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleoside monophosphate degradation" EXACT []
-@@ -97056,7 +97435,7 @@
+@@ -97056,7 +97434,7 @@
  id: GO:0009179
  name: purine ribonucleoside diphosphate metabolic process
  namespace: biological_process
@@ -9295,7 +9303,7 @@
  synonym: "purine ribonucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009135 ! purine nucleoside diphosphate metabolic process
  is_a: GO:0009185 ! ribonucleoside diphosphate metabolic process
-@@ -97065,7 +97444,7 @@
+@@ -97065,7 +97443,7 @@
  id: GO:0009180
  name: purine ribonucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -9304,7 +9312,7 @@
  synonym: "purine ribonucleoside diphosphate anabolism" EXACT []
  synonym: "purine ribonucleoside diphosphate biosynthesis" EXACT []
  synonym: "purine ribonucleoside diphosphate formation" EXACT []
-@@ -97078,7 +97457,7 @@
+@@ -97078,7 +97456,7 @@
  id: GO:0009181
  name: purine ribonucleoside diphosphate catabolic process
  namespace: biological_process
@@ -9313,7 +9321,7 @@
  synonym: "purine ribonucleoside diphosphate breakdown" EXACT []
  synonym: "purine ribonucleoside diphosphate catabolism" EXACT []
  synonym: "purine ribonucleoside diphosphate degradation" EXACT []
-@@ -97090,7 +97469,7 @@
+@@ -97090,7 +97468,7 @@
  id: GO:0009182
  name: purine deoxyribonucleoside diphosphate metabolic process
  namespace: biological_process
@@ -9322,7 +9330,7 @@
  synonym: "purine deoxyribonucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009135 ! purine nucleoside diphosphate metabolic process
  
-@@ -97098,7 +97477,7 @@
+@@ -97098,7 +97476,7 @@
  id: GO:0009183
  name: purine deoxyribonucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -9331,7 +9339,7 @@
  synonym: "purine deoxyribonucleoside diphosphate anabolism" EXACT []
  synonym: "purine deoxyribonucleoside diphosphate biosynthesis" EXACT []
  synonym: "purine deoxyribonucleoside diphosphate formation" EXACT []
-@@ -97111,7 +97490,7 @@
+@@ -97111,7 +97489,7 @@
  id: GO:0009184
  name: purine deoxyribonucleoside diphosphate catabolic process
  namespace: biological_process
@@ -9340,7 +9348,7 @@
  synonym: "purine deoxyribonucleoside diphosphate breakdown" EXACT []
  synonym: "purine deoxyribonucleoside diphosphate catabolism" EXACT []
  synonym: "purine deoxyribonucleoside diphosphate degradation" EXACT []
-@@ -97123,7 +97502,7 @@
+@@ -97123,7 +97501,7 @@
  id: GO:0009185
  name: ribonucleoside diphosphate metabolic process
  namespace: biological_process
@@ -9349,7 +9357,7 @@
  synonym: "ribonucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009132 ! nucleoside diphosphate metabolic process
  
-@@ -97131,7 +97510,7 @@
+@@ -97131,7 +97509,7 @@
  id: GO:0009186
  name: obsolete deoxyribonucleoside diphosphate metabolic process
  namespace: biological_process
@@ -9358,7 +9366,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "deoxyribonucleoside diphosphate metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
-@@ -97141,7 +97520,7 @@
+@@ -97141,7 +97519,7 @@
  id: GO:0009187
  name: cyclic nucleotide metabolic process
  namespace: biological_process
@@ -9367,7 +9375,7 @@
  synonym: "cyclic nucleotide metabolism" EXACT []
  is_a: GO:0009117 ! nucleotide metabolic process
  
-@@ -97149,7 +97528,7 @@
+@@ -97149,7 +97527,7 @@
  id: GO:0009188
  name: ribonucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -9376,7 +9384,7 @@
  synonym: "ribonucleoside diphosphate anabolism" EXACT []
  synonym: "ribonucleoside diphosphate biosynthesis" EXACT []
  synonym: "ribonucleoside diphosphate formation" EXACT []
-@@ -97161,7 +97540,7 @@
+@@ -97161,7 +97539,7 @@
  id: GO:0009189
  name: deoxyribonucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -9385,7 +9393,7 @@
  synonym: "deoxyribonucleoside diphosphate anabolism" EXACT []
  synonym: "deoxyribonucleoside diphosphate biosynthesis" EXACT []
  synonym: "deoxyribonucleoside diphosphate formation" EXACT []
-@@ -97172,7 +97551,7 @@
+@@ -97172,7 +97550,7 @@
  id: GO:0009190
  name: cyclic nucleotide biosynthetic process
  namespace: biological_process
@@ -9394,7 +9402,7 @@
  synonym: "cyclic nucleotide anabolism" EXACT []
  synonym: "cyclic nucleotide biosynthesis" EXACT []
  synonym: "cyclic nucleotide formation" EXACT []
-@@ -97184,7 +97563,7 @@
+@@ -97184,7 +97562,7 @@
  id: GO:0009191
  name: ribonucleoside diphosphate catabolic process
  namespace: biological_process
@@ -9403,7 +9411,7 @@
  synonym: "ribonucleoside diphosphate breakdown" EXACT []
  synonym: "ribonucleoside diphosphate catabolism" EXACT []
  synonym: "ribonucleoside diphosphate degradation" EXACT []
-@@ -97195,7 +97574,7 @@
+@@ -97195,7 +97573,7 @@
  id: GO:0009192
  name: deoxyribonucleoside diphosphate catabolic process
  namespace: biological_process
@@ -9412,7 +9420,7 @@
  synonym: "deoxyribonucleoside diphosphate breakdown" EXACT []
  synonym: "deoxyribonucleoside diphosphate catabolism" EXACT []
  synonym: "deoxyribonucleoside diphosphate degradation" EXACT []
-@@ -97205,7 +97584,7 @@
+@@ -97205,7 +97583,7 @@
  id: GO:0009193
  name: pyrimidine ribonucleoside diphosphate metabolic process
  namespace: biological_process
@@ -9421,7 +9429,7 @@
  synonym: "pyrimidine ribonucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009138 ! pyrimidine nucleoside diphosphate metabolic process
  is_a: GO:0009185 ! ribonucleoside diphosphate metabolic process
-@@ -97214,7 +97593,7 @@
+@@ -97214,7 +97592,7 @@
  id: GO:0009194
  name: pyrimidine ribonucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -9430,7 +9438,7 @@
  synonym: "pyrimidine ribonucleoside diphosphate anabolism" EXACT []
  synonym: "pyrimidine ribonucleoside diphosphate biosynthesis" EXACT []
  synonym: "pyrimidine ribonucleoside diphosphate formation" EXACT []
-@@ -97227,7 +97606,7 @@
+@@ -97227,7 +97605,7 @@
  id: GO:0009195
  name: pyrimidine ribonucleoside diphosphate catabolic process
  namespace: biological_process
@@ -9439,7 +9447,7 @@
  synonym: "pyrimidine ribonucleoside diphosphate breakdown" EXACT []
  synonym: "pyrimidine ribonucleoside diphosphate catabolism" EXACT []
  synonym: "pyrimidine ribonucleoside diphosphate degradation" EXACT []
-@@ -97239,7 +97618,7 @@
+@@ -97239,7 +97617,7 @@
  id: GO:0009196
  name: pyrimidine deoxyribonucleoside diphosphate metabolic process
  namespace: biological_process
@@ -9448,7 +9456,7 @@
  synonym: "pyrimidine deoxyribonucleoside diphosphate metabolism" EXACT []
  is_a: GO:0009138 ! pyrimidine nucleoside diphosphate metabolic process
  
-@@ -97247,7 +97626,7 @@
+@@ -97247,7 +97625,7 @@
  id: GO:0009197
  name: pyrimidine deoxyribonucleoside diphosphate biosynthetic process
  namespace: biological_process
@@ -9457,7 +9465,7 @@
  synonym: "pyrimidine deoxyribonucleoside diphosphate anabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleoside diphosphate biosynthesis" EXACT []
  synonym: "pyrimidine deoxyribonucleoside diphosphate formation" EXACT []
-@@ -97260,7 +97639,7 @@
+@@ -97260,7 +97638,7 @@
  id: GO:0009198
  name: pyrimidine deoxyribonucleoside diphosphate catabolic process
  namespace: biological_process
@@ -9466,7 +9474,7 @@
  synonym: "pyrimidine deoxyribonucleoside diphosphate breakdown" EXACT []
  synonym: "pyrimidine deoxyribonucleoside diphosphate catabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleoside diphosphate degradation" EXACT []
-@@ -97272,7 +97651,7 @@
+@@ -97272,7 +97650,7 @@
  id: GO:0009199
  name: obsolete ribonucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9475,7 +9483,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "ribonucleoside triphosphate metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
-@@ -97282,7 +97661,7 @@
+@@ -97282,7 +97660,7 @@
  id: GO:0009200
  name: deoxyribonucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9484,7 +9492,7 @@
  synonym: "deoxyribonucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009141 ! nucleoside triphosphate metabolic process
  
-@@ -97290,7 +97669,7 @@
+@@ -97290,7 +97668,7 @@
  id: GO:0009201
  name: ribonucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9493,7 +9501,7 @@
  synonym: "ribonucleoside triphosphate anabolism" EXACT []
  synonym: "ribonucleoside triphosphate biosynthesis" EXACT []
  synonym: "ribonucleoside triphosphate formation" EXACT []
-@@ -97301,7 +97680,7 @@
+@@ -97301,7 +97679,7 @@
  id: GO:0009202
  name: deoxyribonucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9502,7 +9510,7 @@
  synonym: "deoxyribonucleoside triphosphate anabolism" EXACT []
  synonym: "deoxyribonucleoside triphosphate biosynthesis" EXACT []
  synonym: "deoxyribonucleoside triphosphate formation" EXACT []
-@@ -97313,7 +97692,7 @@
+@@ -97313,7 +97691,7 @@
  id: GO:0009203
  name: ribonucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9511,7 +9519,7 @@
  synonym: "ribonucleoside triphosphate breakdown" EXACT []
  synonym: "ribonucleoside triphosphate catabolism" EXACT []
  synonym: "ribonucleoside triphosphate degradation" EXACT []
-@@ -97323,7 +97702,7 @@
+@@ -97323,7 +97701,7 @@
  id: GO:0009204
  name: deoxyribonucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9520,7 +9528,7 @@
  synonym: "deoxyribonucleoside triphosphate breakdown" EXACT []
  synonym: "deoxyribonucleoside triphosphate catabolism" EXACT []
  synonym: "deoxyribonucleoside triphosphate degradation" EXACT []
-@@ -97334,7 +97713,7 @@
+@@ -97334,7 +97712,7 @@
  id: GO:0009205
  name: purine ribonucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9529,7 +9537,7 @@
  synonym: "purine ribonucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009144 ! purine nucleoside triphosphate metabolic process
  
-@@ -97342,7 +97721,7 @@
+@@ -97342,7 +97720,7 @@
  id: GO:0009206
  name: purine ribonucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9538,7 +9546,7 @@
  synonym: "purine ribonucleoside triphosphate anabolism" EXACT []
  synonym: "purine ribonucleoside triphosphate biosynthesis" EXACT []
  synonym: "purine ribonucleoside triphosphate formation" EXACT []
-@@ -97355,7 +97734,7 @@
+@@ -97355,7 +97733,7 @@
  id: GO:0009207
  name: purine ribonucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9547,7 +9555,7 @@
  synonym: "purine ribonucleoside triphosphate breakdown" EXACT []
  synonym: "purine ribonucleoside triphosphate catabolism" EXACT []
  synonym: "purine ribonucleoside triphosphate degradation" EXACT []
-@@ -97367,7 +97746,7 @@
+@@ -97367,7 +97745,7 @@
  id: GO:0009208
  name: pyrimidine ribonucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9556,7 +9564,7 @@
  synonym: "pyrimidine ribonucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009147 ! pyrimidine nucleoside triphosphate metabolic process
  
-@@ -97375,7 +97754,7 @@
+@@ -97375,7 +97753,7 @@
  id: GO:0009209
  name: pyrimidine ribonucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9565,7 +9573,7 @@
  synonym: "pyrimidine ribonucleoside triphosphate anabolism" EXACT []
  synonym: "pyrimidine ribonucleoside triphosphate biosynthesis" EXACT []
  synonym: "pyrimidine ribonucleoside triphosphate formation" EXACT []
-@@ -97388,7 +97767,7 @@
+@@ -97388,7 +97766,7 @@
  id: GO:0009210
  name: pyrimidine ribonucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9574,7 +9582,7 @@
  synonym: "pyrimidine ribonucleoside triphosphate breakdown" EXACT []
  synonym: "pyrimidine ribonucleoside triphosphate catabolism" EXACT []
  synonym: "pyrimidine ribonucleoside triphosphate degradation" EXACT []
-@@ -97400,7 +97779,7 @@
+@@ -97400,7 +97778,7 @@
  id: GO:0009211
  name: pyrimidine deoxyribonucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9583,7 +9591,7 @@
  synonym: "pyrimidine deoxyribonucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009147 ! pyrimidine nucleoside triphosphate metabolic process
  
-@@ -97408,7 +97787,7 @@
+@@ -97408,7 +97786,7 @@
  id: GO:0009212
  name: pyrimidine deoxyribonucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9592,7 +9600,7 @@
  synonym: "pyrimidine deoxyribonucleoside triphosphate anabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleoside triphosphate biosynthesis" EXACT []
  synonym: "pyrimidine deoxyribonucleoside triphosphate formation" EXACT []
-@@ -97420,7 +97799,7 @@
+@@ -97420,7 +97798,7 @@
  id: GO:0009213
  name: pyrimidine deoxyribonucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9601,7 +9609,7 @@
  synonym: "pyrimidine deoxyribonucleoside triphosphate breakdown" EXACT []
  synonym: "pyrimidine deoxyribonucleoside triphosphate catabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleoside triphosphate degradation" EXACT []
-@@ -97431,7 +97810,7 @@
+@@ -97431,7 +97809,7 @@
  id: GO:0009214
  name: cyclic nucleotide catabolic process
  namespace: biological_process
@@ -9610,7 +9618,7 @@
  synonym: "cyclic nucleotide breakdown" EXACT []
  synonym: "cyclic nucleotide catabolism" EXACT []
  synonym: "cyclic nucleotide degradation" EXACT []
-@@ -97442,7 +97821,7 @@
+@@ -97442,7 +97820,7 @@
  id: GO:0009215
  name: purine deoxyribonucleoside triphosphate metabolic process
  namespace: biological_process
@@ -9619,7 +9627,7 @@
  synonym: "purine deoxyribonucleoside triphosphate metabolism" EXACT []
  is_a: GO:0009144 ! purine nucleoside triphosphate metabolic process
  is_a: GO:0009200 ! deoxyribonucleoside triphosphate metabolic process
-@@ -97451,7 +97830,7 @@
+@@ -97451,7 +97829,7 @@
  id: GO:0009216
  name: purine deoxyribonucleoside triphosphate biosynthetic process
  namespace: biological_process
@@ -9628,7 +9636,7 @@
  synonym: "purine deoxyribonucleoside triphosphate anabolism" EXACT []
  synonym: "purine deoxyribonucleoside triphosphate biosynthesis" EXACT []
  synonym: "purine deoxyribonucleoside triphosphate formation" EXACT []
-@@ -97464,7 +97843,7 @@
+@@ -97464,7 +97842,7 @@
  id: GO:0009217
  name: purine deoxyribonucleoside triphosphate catabolic process
  namespace: biological_process
@@ -9637,7 +9645,7 @@
  synonym: "purine deoxyribonucleoside triphosphate breakdown" EXACT []
  synonym: "purine deoxyribonucleoside triphosphate catabolism" EXACT []
  synonym: "purine deoxyribonucleoside triphosphate degradation" EXACT []
-@@ -97476,7 +97855,7 @@
+@@ -97476,7 +97854,7 @@
  id: GO:0009218
  name: pyrimidine ribonucleotide metabolic process
  namespace: biological_process
@@ -9646,7 +9654,7 @@
  synonym: "pyrimidine ribonucleotide metabolism" EXACT []
  is_a: GO:0006220 ! pyrimidine nucleotide metabolic process
  is_a: GO:0009259 ! ribonucleotide metabolic process
-@@ -97485,7 +97864,7 @@
+@@ -97485,7 +97863,7 @@
  id: GO:0009219
  name: pyrimidine deoxyribonucleotide metabolic process
  namespace: biological_process
@@ -9655,7 +9663,7 @@
  synonym: "pyrimidine deoxyribonucleotide metabolism" EXACT []
  is_a: GO:0006220 ! pyrimidine nucleotide metabolic process
  is_a: GO:0009394 ! 2'-deoxyribonucleotide metabolic process
-@@ -97494,7 +97873,7 @@
+@@ -97494,7 +97872,7 @@
  id: GO:0009220
  name: pyrimidine ribonucleotide biosynthetic process
  namespace: biological_process
@@ -9664,7 +9672,7 @@
  synonym: "pyrimidine ribonucleotide anabolism" EXACT []
  synonym: "pyrimidine ribonucleotide biosynthesis" EXACT []
  synonym: "pyrimidine ribonucleotide formation" EXACT []
-@@ -97508,7 +97887,7 @@
+@@ -97508,7 +97886,7 @@
  id: GO:0009221
  name: pyrimidine deoxyribonucleotide biosynthetic process
  namespace: biological_process
@@ -9673,7 +9681,7 @@
  synonym: "pyrimidine deoxyribonucleotide anabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleotide biosynthesis" EXACT []
  synonym: "pyrimidine deoxyribonucleotide formation" EXACT []
-@@ -97522,7 +97901,7 @@
+@@ -97522,7 +97900,7 @@
  id: GO:0009222
  name: pyrimidine ribonucleotide catabolic process
  namespace: biological_process
@@ -9682,7 +9690,7 @@
  synonym: "pyrimidine ribonucleotide breakdown" EXACT []
  synonym: "pyrimidine ribonucleotide catabolism" EXACT []
  synonym: "pyrimidine ribonucleotide degradation" EXACT []
-@@ -97534,7 +97913,7 @@
+@@ -97534,7 +97912,7 @@
  id: GO:0009223
  name: pyrimidine deoxyribonucleotide catabolic process
  namespace: biological_process
@@ -9691,7 +9699,7 @@
  synonym: "pyrimidine deoxyribonucleotide breakdown" EXACT []
  synonym: "pyrimidine deoxyribonucleotide catabolism" EXACT []
  synonym: "pyrimidine deoxyribonucleotide degradation" EXACT []
-@@ -97605,10 +97984,10 @@
+@@ -97605,10 +97983,10 @@
  synonym: "thiamine synthesis" EXACT []
  synonym: "vitamin B1 biosynthesis" EXACT []
  synonym: "vitamin B1 biosynthetic process" EXACT []
@@ -9703,7 +9711,24 @@
  
  [Term]
  id: GO:0009229
-@@ -97717,7 +98096,7 @@
+@@ -97658,11 +98036,15 @@
+ synonym: "vitamin B2 biosynthetic process" EXACT []
+ synonym: "vitamin G biosynthesis" EXACT []
+ synonym: "vitamin G biosynthetic process" EXACT []
+-xref: MetaCyc:RIBOSYN2-PWY
+ xref: Wikipedia:Riboflavin
+ is_a: GO:0006771 ! riboflavin metabolic process
+ is_a: GO:0042364 ! water-soluble vitamin biosynthetic process
+ is_a: GO:0042727 ! flavin-containing compound biosynthetic process
++property_value: skos:broadMatch MetaCyc:PWY-616
++property_value: skos:broadMatch MetaCyc:PWY-6168
++property_value: skos:broadMatch MetaCyc:PWY66-366
++property_value: skos:broadMatch MetaCyc:RIBOSYN2-PWY
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+ 
+ [Term]
+ id: GO:0009232
+@@ -97717,7 +98099,7 @@
  id: GO:0009235
  name: cobalamin metabolic process
  namespace: biological_process
@@ -9712,7 +9737,7 @@
  synonym: "cobalamin metabolism" EXACT []
  synonym: "vitamin B12 metabolic process" EXACT []
  synonym: "vitamin B12 metabolism" EXACT []
-@@ -97768,7 +98147,7 @@
+@@ -97768,7 +98150,7 @@
  namespace: biological_process
  alt_id: GO:0031191
  alt_id: GO:0031192
@@ -9721,7 +9746,7 @@
  synonym: "enterobactin anabolism" EXACT []
  synonym: "enterobactin biosynthesis" EXACT []
  synonym: "enterobactin biosynthetic process, peptide formation" NARROW []
-@@ -97873,12 +98252,11 @@
+@@ -97873,12 +98255,11 @@
  id: GO:0009247
  name: glycolipid biosynthetic process
  namespace: biological_process
@@ -9735,7 +9760,7 @@
  is_a: GO:0006664 ! glycolipid metabolic process
  is_a: GO:0008610 ! lipid biosynthetic process
  is_a: GO:1901137 ! carbohydrate derivative biosynthetic process
-@@ -97914,7 +98292,7 @@
+@@ -97914,7 +98295,7 @@
  id: GO:0009250
  name: glucan biosynthetic process
  namespace: biological_process
@@ -9744,7 +9769,7 @@
  synonym: "glucan anabolism" EXACT []
  synonym: "glucan biosynthesis" EXACT []
  synonym: "glucan formation" EXACT []
-@@ -97926,7 +98304,7 @@
+@@ -97926,7 +98307,7 @@
  id: GO:0009251
  name: glucan catabolic process
  namespace: biological_process
@@ -9753,7 +9778,7 @@
  synonym: "glucan breakdown" EXACT []
  synonym: "glucan catabolism" EXACT []
  synonym: "glucan degradation" EXACT []
-@@ -98037,7 +98415,7 @@
+@@ -98037,7 +98418,7 @@
  name: ribonucleotide metabolic process
  namespace: biological_process
  alt_id: GO:0009121
@@ -9762,7 +9787,7 @@
  synonym: "ribonucleotide metabolism" EXACT []
  is_a: GO:0009117 ! nucleotide metabolic process
  is_a: GO:0019693 ! ribose phosphate metabolic process
-@@ -98046,7 +98424,7 @@
+@@ -98046,7 +98427,7 @@
  id: GO:0009260
  name: ribonucleotide biosynthetic process
  namespace: biological_process
@@ -9771,7 +9796,7 @@
  synonym: "ribonucleotide anabolism" EXACT []
  synonym: "ribonucleotide biosynthesis" EXACT []
  synonym: "ribonucleotide formation" EXACT []
-@@ -98059,7 +98437,7 @@
+@@ -98059,7 +98440,7 @@
  id: GO:0009261
  name: ribonucleotide catabolic process
  namespace: biological_process
@@ -9780,7 +9805,7 @@
  synonym: "ribonucleotide breakdown" EXACT []
  synonym: "ribonucleotide catabolism" EXACT []
  synonym: "ribonucleotide degradation" EXACT []
-@@ -98073,7 +98451,7 @@
+@@ -98073,7 +98454,7 @@
  namespace: biological_process
  alt_id: GO:0009122
  alt_id: GO:0009393
@@ -9789,7 +9814,7 @@
  synonym: "deoxyribonucleotide metabolism" EXACT []
  is_a: GO:0009117 ! nucleotide metabolic process
  is_a: GO:1901135 ! carbohydrate derivative metabolic process
-@@ -98082,7 +98460,7 @@
+@@ -98082,7 +98463,7 @@
  id: GO:0009263
  name: deoxyribonucleotide biosynthetic process
  namespace: biological_process
@@ -9798,7 +9823,7 @@
  synonym: "deoxyribonucleotide anabolism" EXACT []
  synonym: "deoxyribonucleotide biosynthesis" EXACT []
  synonym: "deoxyribonucleotide formation" EXACT []
-@@ -98095,7 +98473,7 @@
+@@ -98095,7 +98476,7 @@
  id: GO:0009264
  name: deoxyribonucleotide catabolic process
  namespace: biological_process
@@ -9807,7 +9832,7 @@
  synonym: "deoxyribonucleotide breakdown" EXACT []
  synonym: "deoxyribonucleotide catabolism" EXACT []
  synonym: "deoxyribonucleotide degradation" EXACT []
-@@ -98167,7 +98545,7 @@
+@@ -98167,7 +98548,7 @@
  id: GO:0009272
  name: fungal-type cell wall biogenesis
  namespace: biological_process
@@ -9816,7 +9841,7 @@
  synonym: "chitin- and beta-glucan-containing cell wall biogenesis" NARROW [GOC:mah]
  synonym: "fungal-type cell wall anabolism" RELATED [GOC:mah]
  synonym: "fungal-type cell wall biosynthetic process" RELATED [GOC:mah]
-@@ -98180,7 +98558,7 @@
+@@ -98180,7 +98561,7 @@
  id: GO:0009273
  name: peptidoglycan-based cell wall biogenesis
  namespace: biological_process
@@ -9825,7 +9850,7 @@
  synonym: "cell envelope biosynthesis" BROAD []
  synonym: "cell envelope biosynthetic process" BROAD []
  synonym: "cell wall anabolism" BROAD []
-@@ -98586,7 +98964,7 @@
+@@ -98586,7 +98967,7 @@
  id: GO:0009315
  name: obsolete drug resistance
  namespace: biological_process
@@ -9834,7 +9859,7 @@
  comment: This term was made obsolete because 'resistance' implies a phenotype rather than a biological process.
  synonym: "drug resistance" EXACT []
  is_obsolete: true
-@@ -98815,7 +99193,7 @@
+@@ -98815,7 +99196,7 @@
  id: GO:0009339
  name: glycolate oxidase complex
  namespace: cellular_component
@@ -9843,7 +9868,7 @@
  is_a: GO:1990204 ! oxidoreductase complex
  relationship: part_of GO:0005737 ! cytoplasm
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21246" xsd:anyURI
-@@ -99059,7 +99437,7 @@
+@@ -99059,7 +99440,7 @@
  id: GO:0009371
  name: obsolete positive regulation of transcription by pheromones
  namespace: biological_process
@@ -9852,7 +9877,7 @@
  comment: This term has been obsoleted because it represents a GO-CAM model.
  synonym: "activation of transcription by pheromones" NARROW []
  synonym: "stimulation of transcription by pheromones" NARROW []
-@@ -99092,7 +99470,7 @@
+@@ -99092,7 +99473,7 @@
  id: GO:0009373
  name: obsolete regulation of transcription by pheromones
  namespace: biological_process
@@ -9861,7 +9886,7 @@
  comment: This term has been obsoleted because it represents a GO-CAM model.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12739" xsd:anyURI
  is_obsolete: true
-@@ -99256,10 +99634,18 @@
+@@ -99256,10 +99637,18 @@
  id: GO:0009389
  name: dimethyl sulfoxide reductase activity
  namespace: molecular_function
@@ -9882,7 +9907,7 @@
  
  [Term]
  id: GO:0009390
-@@ -99364,9 +99750,13 @@
+@@ -99364,9 +99753,13 @@
  namespace: biological_process
  def: "The process in which nitrogen is taken from its relatively inert molecular form (N2) in the atmosphere and converted into ammonium, which is more biologically available." [PMID:32796519, PMID:36344435]
  xref: MetaCyc:N2FIX-PWY
@@ -9896,7 +9921,7 @@
  
  [Term]
  id: GO:0009400
-@@ -99401,7 +99791,7 @@
+@@ -99401,7 +99794,7 @@
  id: GO:0009403
  name: toxin biosynthetic process
  namespace: biological_process
@@ -9905,7 +9930,7 @@
  subset: goslim_metagenomics
  synonym: "toxin anabolism" EXACT []
  synonym: "toxin biosynthesis" EXACT []
-@@ -99423,7 +99813,7 @@
+@@ -99423,7 +99816,7 @@
  id: GO:0009405
  name: obsolete pathogenesis
  namespace: biological_process
@@ -9914,7 +9939,7 @@
  comment: This term was obsoleted because it does not describe a single, normal biological process; rather it is the effect of an interaction between two organisms, under specific conditions.
  synonym: "virulence" RELATED []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/11057" xsd:anyURI
-@@ -99436,7 +99826,7 @@
+@@ -99436,7 +99829,7 @@
  id: GO:0009406
  name: obsolete virulence
  namespace: biological_process
@@ -9923,7 +9948,7 @@
  comment: This term was made obsolete because it represents a phenotype rather than a biological process.
  synonym: "virulence" EXACT []
  is_obsolete: true
-@@ -99447,7 +99837,7 @@
+@@ -99447,7 +99840,7 @@
  id: GO:0009407
  name: toxin catabolic process
  namespace: biological_process
@@ -9932,7 +9957,7 @@
  synonym: "toxin breakdown" EXACT []
  synonym: "toxin catabolism" EXACT []
  synonym: "toxin degradation" EXACT []
-@@ -99546,7 +99936,7 @@
+@@ -99546,7 +99939,7 @@
  id: GO:0009416
  name: response to light stimulus
  namespace: biological_process
@@ -9941,7 +9966,7 @@
  subset: goslim_plant
  is_a: GO:0009314 ! response to radiation
  
-@@ -99623,8 +100013,14 @@
+@@ -99623,8 +100016,14 @@
  synonym: "shikimate pathway" EXACT []
  synonym: "shikimate synthesis" RELATED []
  xref: MetaCyc:ARO-PWY
@@ -9956,7 +9981,7 @@
  
  [Term]
  id: GO:0009424
-@@ -99758,10 +100154,13 @@
+@@ -99758,10 +100157,13 @@
  synonym: "glyoxylate breakdown" EXACT []
  synonym: "glyoxylate catabolism" EXACT []
  synonym: "glyoxylate degradation" EXACT []
@@ -9971,7 +9996,7 @@
  
  [Term]
  id: GO:0009437
-@@ -99811,7 +100210,6 @@
+@@ -99811,7 +100213,6 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving glycolate, the anion of hydroxyethanoic acid (glycolic acid)." [GOC:ai, ISBN:0198506732]
  synonym: "glycolate metabolism" EXACT []
@@ -9979,7 +10004,7 @@
  is_a: GO:0032787 ! monocarboxylic acid metabolic process
  is_a: GO:0034308 ! primary alcohol metabolic process
  
-@@ -99833,8 +100231,12 @@
+@@ -99833,8 +100234,12 @@
  def: "Any process that generates pyridoxal 5'-phosphate, the active form of vitamin B6, from derivatives of it without de novo synthesis." [GOC:jl]
  synonym: "pyridoxal 5' phosphate salvage" EXACT []
  xref: MetaCyc:PLPSAL-PWY
@@ -9993,7 +10018,7 @@
  
  [Term]
  id: GO:0009444
-@@ -99858,7 +100260,7 @@
+@@ -99858,7 +100263,7 @@
  id: GO:0009446
  name: putrescine biosynthetic process
  namespace: biological_process
@@ -10002,7 +10027,7 @@
  synonym: "putrescine anabolism" EXACT []
  synonym: "putrescine biosynthesis" EXACT []
  synonym: "putrescine formation" EXACT []
-@@ -99918,7 +100320,7 @@
+@@ -99918,7 +100323,7 @@
  id: GO:0009450
  name: gamma-aminobutyric acid catabolic process
  namespace: biological_process
@@ -10011,7 +10036,7 @@
  comment: See also the biological process term 'neurotransmitter catabolic process ; GO:0042135'.
  synonym: "4-aminobutanoate catabolic process" EXACT []
  synonym: "4-aminobutanoate catabolism" EXACT []
-@@ -99944,13 +100346,14 @@
+@@ -99944,13 +100349,14 @@
  property_value: skos:narrowMatch MetaCyc:PWY-6536
  property_value: skos:narrowMatch MetaCyc:PWY-6537
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31361" xsd:anyURI
@@ -10027,7 +10052,7 @@
  comment: The term 'RNA editing' (GO:0016547) was merged into 'RNA modification' (GO:0009451) on the basis of statements in the preface of Modification and Editing of RNA (ISBN:1555811337) that there is no clear distinction between modification and editing.
  subset: goslim_yeast
  synonym: "RNA editing" NARROW [GOC:hjd]
-@@ -101024,6 +101427,8 @@
+@@ -101024,6 +101430,8 @@
  name: fertilization
  namespace: biological_process
  def: "The union of gametes of opposite sexes during the process of sexual reproduction to form a zygote. It involves the fusion of the gametic nuclei (karyogamy) and cytoplasm (plasmogamy)." [GOC:tb, ISBN:0198506732]
@@ -10036,7 +10061,7 @@
  synonym: "syngamy" EXACT []
  xref: Wikipedia:Fertilisation
  is_a: GO:0022414 ! reproductive process
-@@ -101152,7 +101557,7 @@
+@@ -101152,7 +101560,7 @@
  id: GO:0009580
  name: obsolete thylakoid (sensu Bacteria)
  namespace: cellular_component
@@ -10045,7 +10070,7 @@
  comment: This term was made obsolete because more specific children exist.
  synonym: "thylakoid (sensu Bacteria)" EXACT []
  is_obsolete: true
-@@ -101181,7 +101586,7 @@
+@@ -101181,7 +101589,7 @@
  id: GO:0009583
  name: detection of light stimulus
  namespace: biological_process
@@ -10054,7 +10079,7 @@
  synonym: "detection of light" EXACT []
  synonym: "perception of light" RELATED []
  is_a: GO:0009416 ! response to light stimulus
-@@ -101192,7 +101597,7 @@
+@@ -101192,7 +101600,7 @@
  id: GO:0009584
  name: detection of visible light
  namespace: biological_process
@@ -10063,7 +10088,7 @@
  synonym: "perception of visible light" RELATED []
  is_a: GO:0009583 ! detection of light stimulus
  
-@@ -101210,7 +101615,7 @@
+@@ -101210,7 +101618,7 @@
  id: GO:0009587
  name: obsolete phototrophin mediated phototransduction
  namespace: biological_process
@@ -10072,7 +10097,7 @@
  synonym: "phototrophin mediated phototransduction" EXACT []
  is_obsolete: true
  replaced_by: GO:0007602
-@@ -101229,7 +101634,7 @@
+@@ -101229,7 +101637,7 @@
  id: GO:0009589
  name: detection of UV
  namespace: biological_process
@@ -10081,7 +10106,7 @@
  synonym: "detection of ultraviolet light stimulus" EXACT []
  synonym: "detection of ultraviolet radiation stimulus" EXACT []
  synonym: "detection of UV light stimulus" EXACT []
-@@ -101419,7 +101824,7 @@
+@@ -101419,7 +101827,7 @@
  name: response to wounding
  namespace: biological_process
  alt_id: GO:0002245
@@ -10090,7 +10115,7 @@
  synonym: "physiological response to wounding" EXACT []
  is_a: GO:0006950 ! response to stress
  
-@@ -101437,7 +101842,7 @@
+@@ -101437,7 +101845,7 @@
  id: GO:0009614
  name: obsolete disease resistance
  namespace: biological_process
@@ -10099,7 +10124,7 @@
  comment: This term was made obsolete because 'resistance' implies a phenotype rather than a biological process.
  synonym: "disease resistance" EXACT []
  is_obsolete: true
-@@ -101487,7 +101892,7 @@
+@@ -101487,7 +101895,7 @@
  id: GO:0009619
  name: obsolete resistance to pathogenic bacteria
  namespace: biological_process
@@ -10108,7 +10133,7 @@
  comment: This term was made obsolete because 'resistance' implies a phenotype rather than a biological process.
  synonym: "resistance to pathogenic bacteria" EXACT []
  is_obsolete: true
-@@ -101506,7 +101911,7 @@
+@@ -101506,7 +101914,7 @@
  id: GO:0009622
  name: obsolete resistance to pathogenic fungi
  namespace: biological_process
@@ -10117,7 +10142,7 @@
  comment: This term was made obsolete because 'resistance' implies a phenotype rather than a biological process.
  synonym: "resistance to pathogenic fungi" EXACT []
  is_obsolete: true
-@@ -101593,7 +101998,7 @@
+@@ -101593,7 +102001,7 @@
  id: GO:0009632
  name: obsolete freezing tolerance
  namespace: biological_process
@@ -10126,7 +10151,7 @@
  comment: This term was made obsolete because 'tolerance' implies a phenotype rather than a biological process.
  synonym: "freezing tolerance" EXACT []
  is_obsolete: true
-@@ -101603,7 +102008,7 @@
+@@ -101603,7 +102011,7 @@
  id: GO:0009633
  name: obsolete drought tolerance
  namespace: biological_process
@@ -10135,7 +10160,7 @@
  comment: This term was made obsolete because 'tolerance' implies a phenotype rather than a biological process.
  synonym: "drought tolerance" EXACT []
  is_obsolete: true
-@@ -101614,7 +102019,7 @@
+@@ -101614,7 +102022,7 @@
  id: GO:0009634
  name: obsolete heavy metal sensitivity/resistance
  namespace: biological_process
@@ -10144,7 +10169,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "heavy metal sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -101688,7 +102093,7 @@
+@@ -101688,7 +102096,7 @@
  id: GO:0009642
  name: response to light intensity
  namespace: biological_process
@@ -10153,7 +10178,7 @@
  is_a: GO:0009416 ! response to light stimulus
  
  [Term]
-@@ -101704,21 +102109,21 @@
+@@ -101704,21 +102112,21 @@
  id: GO:0009644
  name: response to high light intensity
  namespace: biological_process
@@ -10178,7 +10203,7 @@
  synonym: "response to darkness" RELATED []
  is_a: GO:0009642 ! response to light intensity
  
-@@ -101785,7 +102190,7 @@
+@@ -101785,7 +102193,7 @@
  id: GO:0009653
  name: anatomical structure morphogenesis
  namespace: biological_process
@@ -10187,7 +10212,7 @@
  synonym: "anatomical structure organization" EXACT []
  synonym: "embryogenesis and morphogenesis" BROAD []
  synonym: "morphogenesis" EXACT []
-@@ -102231,8 +102636,14 @@
+@@ -102231,8 +102639,14 @@
  synonym: "ethylene formation" EXACT []
  synonym: "ethylene synthesis" EXACT []
  xref: MetaCyc:ETHYL-PWY
@@ -10202,7 +10227,7 @@
  
  [Term]
  id: GO:0009694
-@@ -102275,10 +102686,16 @@
+@@ -102275,10 +102689,16 @@
  synonym: "salicylic acid biosynthesis" EXACT []
  synonym: "salicylic acid formation" EXACT []
  synonym: "salicylic acid synthesis" EXACT []
@@ -10219,7 +10244,7 @@
  
  [Term]
  id: GO:0009698
-@@ -102461,7 +102878,7 @@
+@@ -102461,7 +102881,7 @@
  id: GO:0009713
  name: catechol-containing compound biosynthetic process
  namespace: biological_process
@@ -10228,7 +10253,7 @@
  synonym: "catechol anabolism" RELATED []
  synonym: "catechol biosynthesis" RELATED []
  synonym: "catechol biosynthetic process" RELATED []
-@@ -102484,7 +102901,7 @@
+@@ -102484,7 +102904,7 @@
  id: GO:0009715
  name: chalcone biosynthetic process
  namespace: biological_process
@@ -10237,7 +10262,7 @@
  synonym: "chalcone anabolism" EXACT []
  synonym: "chalcone biosynthesis" EXACT []
  synonym: "chalcone formation" EXACT []
-@@ -103174,7 +103591,7 @@
+@@ -103174,7 +103594,7 @@
  name: embryo development
  namespace: biological_process
  alt_id: GO:0009795
@@ -10246,7 +10271,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_chembl
  subset: goslim_plant
-@@ -103189,7 +103606,7 @@
+@@ -103189,7 +103609,7 @@
  id: GO:0009791
  name: post-embryonic development
  namespace: biological_process
@@ -10255,7 +10280,7 @@
  subset: goslim_plant
  is_a: GO:0032501 ! multicellular organismal process
  relationship: part_of GO:0007275 ! multicellular organism development
-@@ -103198,7 +103615,7 @@
+@@ -103198,7 +103618,7 @@
  id: GO:0009792
  name: embryo development ending in birth or egg hatching
  namespace: biological_process
@@ -10264,7 +10289,7 @@
  synonym: "embryogenesis" BROAD []
  is_a: GO:0009790 ! embryo development
  
-@@ -103206,7 +103623,7 @@
+@@ -103206,7 +103626,7 @@
  id: GO:0009793
  name: embryo development ending in seed dormancy
  namespace: biological_process
@@ -10273,7 +10298,7 @@
  synonym: "embryogenesis" BROAD []
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0009790 ! embryo development
-@@ -103216,7 +103633,7 @@
+@@ -103216,7 +103636,7 @@
  id: GO:0009794
  name: regulation of mitotic cell cycle, embryonic
  namespace: biological_process
@@ -10282,7 +10307,7 @@
  synonym: "embryonic mitotic cell cycle modulation" EXACT []
  synonym: "embryonic mitotic cell cycle regulation" EXACT []
  synonym: "embryonic mitotic cell cycle regulator" RELATED []
-@@ -103233,7 +103650,7 @@
+@@ -103233,7 +103653,7 @@
  id: GO:0009798
  name: axis specification
  namespace: biological_process
@@ -10291,7 +10316,7 @@
  synonym: "axis determination" RELATED []
  is_a: GO:0007389 ! pattern specification process
  
-@@ -103241,7 +103658,7 @@
+@@ -103241,7 +103661,7 @@
  id: GO:0009799
  name: specification of symmetry
  namespace: biological_process
@@ -10300,7 +10325,7 @@
  synonym: "determination of symmetry" EXACT [GOC:dph]
  is_a: GO:0007389 ! pattern specification process
  
-@@ -103482,8 +103899,11 @@
+@@ -103482,8 +103902,11 @@
  synonym: "cytokinin breakdown" EXACT []
  synonym: "cytokinin catabolism" EXACT []
  synonym: "cytokinin degradation" EXACT []
@@ -10312,7 +10337,7 @@
  
  [Term]
  id: GO:0009824
-@@ -103589,7 +104009,7 @@
+@@ -103589,7 +104012,7 @@
  id: GO:0009832
  name: plant-type cell wall biogenesis
  namespace: biological_process
@@ -10321,7 +10346,7 @@
  synonym: "cell wall anabolism" BROAD []
  synonym: "cell wall assembly" BROAD []
  synonym: "cell wall biosynthetic process" BROAD []
-@@ -103767,7 +104187,7 @@
+@@ -103767,7 +104190,7 @@
  id: GO:0009849
  name: tryptophan-independent indoleacetic acid biosynthetic process
  namespace: biological_process
@@ -10330,7 +10355,7 @@
  synonym: "indoleacetic acid biosynthesis, tryptophan-independent" EXACT []
  synonym: "indoleacetic acid biosynthetic process, tryptophan-independent" EXACT []
  synonym: "tryptophan-independent IAA biosynthetic process" EXACT []
-@@ -103816,8 +104236,14 @@
+@@ -103816,8 +104239,14 @@
  def: "A light-dependent catabolic process occurring concomitantly with photosynthesis in plants (especially C3 plants) whereby dioxygen (O2) is consumed and carbon dioxide (CO2) is evolved. The substrate is glycolate formed in large quantities in chloroplasts from 2-phosphoglycolate generated from ribulose 1,5-bisphosphate by the action of ribulose-bisphosphate carboxylase; the glycolate enters the peroxisomes where it is converted by glycolate oxidase to glyoxylate which undergoes transamination to glycine. This then passes into the mitochondria where it is decarboxylated forming one molecule of serine for every two molecules of glycine. This pathway also exists in photosynthetic bacteria." [ISBN:0198506732]
  synonym: "photorespiratory pathway" EXACT [GOC:cjm]
  xref: MetaCyc:PWY-181
@@ -10345,7 +10370,7 @@
  
  [Term]
  id: GO:0009854
-@@ -103831,7 +104257,7 @@
+@@ -103831,7 +104260,7 @@
  id: GO:0009855
  name: determination of bilateral symmetry
  namespace: biological_process
@@ -10354,7 +10379,7 @@
  synonym: "determination of bilateral asymmetry" EXACT [GOC:dph]
  is_a: GO:0009799 ! specification of symmetry
  
-@@ -104067,7 +104493,7 @@
+@@ -104067,7 +104496,7 @@
  id: GO:0009879
  name: determination of radial symmetry
  namespace: biological_process
@@ -10363,7 +10388,7 @@
  synonym: "determination of radial asymmetry" EXACT [GOC:dph]
  is_a: GO:0009799 ! specification of symmetry
  relationship: part_of GO:0009956 ! radial pattern formation
-@@ -104076,7 +104502,7 @@
+@@ -104076,7 +104505,7 @@
  id: GO:0009880
  name: embryonic pattern specification
  namespace: biological_process
@@ -10372,7 +10397,7 @@
  synonym: "embryonic pattern biosynthesis" BROAD []
  synonym: "embryonic pattern formation" BROAD []
  synonym: "ventral/lateral system" RELATED []
-@@ -104087,7 +104513,7 @@
+@@ -104087,7 +104516,7 @@
  id: GO:0009881
  name: photoreceptor activity
  namespace: molecular_function
@@ -10381,7 +10406,7 @@
  synonym: "blue-sensitive opsin" NARROW []
  synonym: "green-sensitive opsin" NARROW []
  synonym: "long-wave-sensitive opsin" NARROW []
-@@ -104135,7 +104561,7 @@
+@@ -104135,7 +104564,7 @@
  id: GO:0009886
  name: post-embryonic animal morphogenesis
  namespace: biological_process
@@ -10390,7 +10415,7 @@
  synonym: "post-embryonic morphogenesis of an anatomical structure" EXACT []
  is_a: GO:0009653 ! anatomical structure morphogenesis
  relationship: part_of GO:0009791 ! post-embryonic development
-@@ -104144,7 +104570,7 @@
+@@ -104144,7 +104573,7 @@
  id: GO:0009887
  name: animal organ morphogenesis
  namespace: biological_process
@@ -10399,7 +10424,7 @@
  synonym: "histogenesis and organogenesis" BROAD []
  is_a: GO:0009653 ! anatomical structure morphogenesis
  relationship: part_of GO:0048513 ! animal organ development
-@@ -104163,7 +104589,7 @@
+@@ -104163,7 +104592,7 @@
  id: GO:0009889
  name: regulation of biosynthetic process
  namespace: biological_process
@@ -10408,7 +10433,7 @@
  subset: gocheck_do_not_annotate
  synonym: "regulation of anabolism" EXACT []
  synonym: "regulation of biosynthesis" EXACT []
-@@ -104178,7 +104604,7 @@
+@@ -104178,7 +104607,7 @@
  id: GO:0009890
  name: negative regulation of biosynthetic process
  namespace: biological_process
@@ -10417,7 +10442,7 @@
  subset: gocheck_do_not_annotate
  synonym: "down regulation of biosynthetic process" EXACT []
  synonym: "down-regulation of biosynthetic process" EXACT []
-@@ -104199,7 +104625,7 @@
+@@ -104199,7 +104628,7 @@
  id: GO:0009891
  name: positive regulation of biosynthetic process
  namespace: biological_process
@@ -10426,7 +10451,7 @@
  subset: gocheck_do_not_annotate
  synonym: "activation of biosynthetic process" NARROW []
  synonym: "positive regulation of anabolism" EXACT []
-@@ -104222,7 +104648,7 @@
+@@ -104222,7 +104651,7 @@
  name: negative regulation of metabolic process
  namespace: biological_process
  alt_id: GO:0044252
@@ -10435,7 +10460,7 @@
  subset: gocheck_do_not_annotate
  synonym: "down regulation of metabolic process" EXACT []
  synonym: "down-regulation of metabolic process" EXACT []
-@@ -104244,7 +104670,7 @@
+@@ -104244,7 +104673,7 @@
  name: positive regulation of metabolic process
  namespace: biological_process
  alt_id: GO:0044253
@@ -10444,7 +10469,7 @@
  subset: gocheck_do_not_annotate
  synonym: "activation of metabolic process" NARROW []
  synonym: "positive regulation of metabolism" EXACT []
-@@ -104256,6 +104682,7 @@
+@@ -104256,6 +104685,7 @@
  synonym: "up-regulation of metabolic process" EXACT []
  synonym: "up-regulation of organismal metabolic process" NARROW []
  synonym: "upregulation of metabolic process" EXACT []
@@ -10452,7 +10477,7 @@
  is_a: GO:0019222 ! regulation of metabolic process
  is_a: GO:0048522 ! positive regulation of cellular process
  intersection_of: GO:0065007 ! biological regulation
-@@ -104267,7 +104694,7 @@
+@@ -104267,7 +104697,7 @@
  id: GO:0009894
  name: regulation of catabolic process
  namespace: biological_process
@@ -10461,7 +10486,7 @@
  subset: gocheck_do_not_annotate
  synonym: "regulation of breakdown" EXACT []
  synonym: "regulation of catabolism" EXACT []
-@@ -104281,7 +104708,7 @@
+@@ -104281,7 +104711,7 @@
  id: GO:0009895
  name: negative regulation of catabolic process
  namespace: biological_process
@@ -10470,7 +10495,7 @@
  synonym: "down regulation of catabolic process" EXACT []
  synonym: "down-regulation of catabolic process" EXACT []
  synonym: "downregulation of catabolic process" EXACT []
-@@ -104299,7 +104726,7 @@
+@@ -104299,7 +104729,7 @@
  id: GO:0009896
  name: positive regulation of catabolic process
  namespace: biological_process
@@ -10479,7 +10504,7 @@
  synonym: "activation of catabolic process" NARROW []
  synonym: "positive regulation of breakdown" EXACT []
  synonym: "positive regulation of catabolism" EXACT []
-@@ -104318,24 +104745,26 @@
+@@ -104318,24 +104748,26 @@
  id: GO:0009897
  name: external side of plasma membrane
  namespace: cellular_component
@@ -10508,7 +10533,7 @@
  
  [Term]
  id: GO:0009899
-@@ -104419,7 +104848,7 @@
+@@ -104419,7 +104851,7 @@
  id: GO:0009906
  name: response to photoperiod, blue light
  namespace: biological_process
@@ -10517,7 +10542,7 @@
  is_a: GO:0009637 ! response to blue light
  is_a: GO:0009648 ! photoperiodism
  
-@@ -104427,7 +104856,7 @@
+@@ -104427,7 +104859,7 @@
  id: GO:0009907
  name: response to photoperiod, red light
  namespace: biological_process
@@ -10526,7 +10551,7 @@
  is_a: GO:0009648 ! photoperiodism
  is_a: GO:0010114 ! response to red light
  
-@@ -104445,7 +104874,7 @@
+@@ -104445,7 +104877,7 @@
  id: GO:0009909
  name: regulation of flower development
  namespace: biological_process
@@ -10535,7 +10560,7 @@
  is_a: GO:0048580 ! regulation of post-embryonic development
  is_a: GO:0048831 ! regulation of shoot system development
  is_a: GO:2000241 ! regulation of reproductive process
-@@ -104457,7 +104886,7 @@
+@@ -104457,7 +104889,7 @@
  id: GO:0009910
  name: negative regulation of flower development
  namespace: biological_process
@@ -10544,7 +10569,7 @@
  synonym: "down regulation of flower development" EXACT []
  synonym: "down-regulation of flower development" EXACT []
  synonym: "downregulation of flower development" EXACT []
-@@ -104473,7 +104902,7 @@
+@@ -104473,7 +104905,7 @@
  id: GO:0009911
  name: positive regulation of flower development
  namespace: biological_process
@@ -10553,7 +10578,7 @@
  synonym: "activation of flower development" NARROW []
  synonym: "stimulation of flower development" NARROW []
  synonym: "up regulation of flower development" EXACT []
-@@ -104500,7 +104929,7 @@
+@@ -104500,7 +104932,7 @@
  name: epidermal cell differentiation
  namespace: biological_process
  alt_id: GO:0043355
@@ -10562,7 +10587,7 @@
  synonym: "hypodermal cell differentiation" RELATED [GOC:kmv, GOC:rk]
  is_a: GO:0030855 ! epithelial cell differentiation
  relationship: part_of GO:0008544 ! epidermis development
-@@ -104636,7 +105065,7 @@
+@@ -104636,7 +105068,7 @@
  id: GO:0009925
  name: basal plasma membrane
  namespace: cellular_component
@@ -10571,7 +10596,7 @@
  is_a: GO:0098590 ! plasma membrane region
  relationship: part_of GO:0045178 ! basal part of cell
  
-@@ -104726,7 +105155,7 @@
+@@ -104726,7 +105158,7 @@
  id: GO:0009937
  name: regulation of gibberellic acid mediated signaling pathway
  namespace: biological_process
@@ -10580,7 +10605,7 @@
  synonym: "regulation of gibberellic acid mediated signalling" EXACT []
  is_a: GO:0009966 ! regulation of signal transduction
  intersection_of: GO:0065007 ! biological regulation
-@@ -104768,10 +105197,13 @@
+@@ -104768,10 +105200,13 @@
  
  [Term]
  id: GO:0009940
@@ -10597,7 +10622,7 @@
  
  [Term]
  id: GO:0009941
-@@ -104813,7 +105245,7 @@
+@@ -104813,7 +105248,7 @@
  id: GO:0009945
  name: radial axis specification
  namespace: biological_process
@@ -10606,7 +10631,7 @@
  is_a: GO:0009798 ! axis specification
  relationship: part_of GO:0009956 ! radial pattern formation
  
-@@ -104821,7 +105253,7 @@
+@@ -104821,7 +105256,7 @@
  id: GO:0009946
  name: proximal/distal axis specification
  namespace: biological_process
@@ -10615,7 +10640,7 @@
  synonym: "proximal/distal axis determination" RELATED [GOC:dph]
  synonym: "proximodistal axis specification" EXACT []
  is_a: GO:0009798 ! axis specification
-@@ -104841,7 +105273,7 @@
+@@ -104841,7 +105276,7 @@
  id: GO:0009948
  name: anterior/posterior axis specification
  namespace: biological_process
@@ -10624,7 +10649,7 @@
  synonym: "anterior/posterior axis determination" RELATED [GOC:dph]
  is_a: GO:0009798 ! axis specification
  relationship: part_of GO:0009952 ! anterior/posterior pattern specification
-@@ -104850,7 +105282,7 @@
+@@ -104850,7 +105285,7 @@
  id: GO:0009949
  name: polarity specification of anterior/posterior axis
  namespace: biological_process
@@ -10633,7 +10658,7 @@
  is_a: GO:0065001 ! specification of axis polarity
  relationship: part_of GO:0009948 ! anterior/posterior axis specification
  
-@@ -104858,7 +105290,7 @@
+@@ -104858,7 +105293,7 @@
  id: GO:0009950
  name: dorsal/ventral axis specification
  namespace: biological_process
@@ -10642,7 +10667,7 @@
  synonym: "dorsal-ventral axis specification" EXACT [GOC:mah]
  synonym: "dorsal/ventral axis determination" RELATED [GOC:dph]
  synonym: "dorsoventral axis specification" EXACT [GOC:mah]
-@@ -104869,7 +105301,7 @@
+@@ -104869,7 +105304,7 @@
  id: GO:0009951
  name: polarity specification of dorsal/ventral axis
  namespace: biological_process
@@ -10651,7 +10676,7 @@
  synonym: "polarity specification of dorsal-ventral axis" EXACT [GOC:mah]
  synonym: "polarity specification of dorsoventral axis" EXACT [GOC:mah]
  is_a: GO:0065001 ! specification of axis polarity
-@@ -104879,7 +105311,7 @@
+@@ -104879,7 +105314,7 @@
  id: GO:0009952
  name: anterior/posterior pattern specification
  namespace: biological_process
@@ -10660,7 +10685,7 @@
  synonym: "anterior/posterior pattern formation" RELATED []
  is_a: GO:0003002 ! regionalization
  
-@@ -104887,7 +105319,7 @@
+@@ -104887,7 +105322,7 @@
  id: GO:0009953
  name: dorsal/ventral pattern formation
  namespace: biological_process
@@ -10669,7 +10694,7 @@
  synonym: "dorsal-ventral pattern formation" EXACT [GOC:mah]
  synonym: "dorsal/ventral pattern specification" NARROW []
  synonym: "dorsoventral pattern formation" EXACT [GOC:mah]
-@@ -104897,7 +105329,7 @@
+@@ -104897,7 +105332,7 @@
  id: GO:0009954
  name: proximal/distal pattern formation
  namespace: biological_process
@@ -10678,7 +10703,7 @@
  synonym: "proximal/distal pattern specification" NARROW []
  is_a: GO:0003002 ! regionalization
  
-@@ -104913,7 +105345,7 @@
+@@ -104913,7 +105348,7 @@
  id: GO:0009956
  name: radial pattern formation
  namespace: biological_process
@@ -10687,7 +10712,7 @@
  synonym: "radial pattern specification" NARROW []
  is_a: GO:0003002 ! regionalization
  
-@@ -105019,7 +105451,7 @@
+@@ -105019,7 +105454,7 @@
  id: GO:0009965
  name: leaf morphogenesis
  namespace: biological_process
@@ -10696,7 +10721,7 @@
  is_a: GO:1905392 ! plant organ morphogenesis
  relationship: part_of GO:0010016 ! shoot system morphogenesis
  relationship: part_of GO:0048366 ! leaf development
-@@ -105202,7 +105634,7 @@
+@@ -105202,7 +105637,7 @@
  synonym: "delta-pH-dependent protein transporter activity" EXACT []
  synonym: "pH-dependent protein transporter activity" EXACT []
  synonym: "twin-arginine targeting transmembrane transporter activity" EXACT []
@@ -10705,7 +10730,7 @@
  is_a: GO:0015291 ! secondary active transmembrane transporter activity
  
  [Term]
-@@ -105260,11 +105692,13 @@
+@@ -105260,11 +105695,13 @@
  alt_id: GO:0016439
  def: "Catalysis of the reaction: a uridine in RNA = a pseudouridine in RNA. Conversion of uridine in an RNA molecule to pseudouridine by rotation of the C1'-N-1 glycosidic bond of uridine in RNA to a C1'-C5." [GOC:mah, RHEA:48348]
  comment: Note that this term should not be confused with 'pseudouridylate synthase activity ; GO:0004730', which refers to the formation of free pseudouridine from uracil and ribose-5-phosphate.
@@ -10723,7 +10748,7 @@
  xref: RHEA:48348
  is_a: GO:0016866 ! intramolecular transferase activity
  property_value: skos:exactMatch RHEA:48348
-@@ -105320,7 +105754,7 @@
+@@ -105320,7 +105757,7 @@
  alt_id: GO:0008151
  alt_id: GO:0044763
  alt_id: GO:0050875
@@ -10732,7 +10757,7 @@
  comment: This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term.
  subset: gocheck_do_not_annotate
  subset: goslim_plant
-@@ -105358,7 +105792,7 @@
+@@ -105358,7 +105795,7 @@
  id: GO:0009991
  name: obsolete response to extracellular stimulus
  namespace: biological_process
@@ -10741,7 +10766,7 @@
  comment: The reason for obsoletion is that this term is too vague.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27020" xsd:anyURI
  is_obsolete: true
-@@ -105378,7 +105812,7 @@
+@@ -105378,7 +105815,7 @@
  id: GO:0009994
  name: oocyte differentiation
  namespace: biological_process
@@ -10750,7 +10775,7 @@
  synonym: "oocyte cell differentiation" EXACT []
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0030154 ! cell differentiation
-@@ -105388,14 +105822,14 @@
+@@ -105388,14 +105825,14 @@
  id: GO:0009995
  name: soluble molecule recognition
  namespace: biological_process
@@ -10767,7 +10792,7 @@
  synonym: "down regulation of cell fate specification" EXACT []
  synonym: "down-regulation of cell fate specification" EXACT []
  synonym: "downregulation of cell fate specification" EXACT []
-@@ -105412,7 +105846,7 @@
+@@ -105412,7 +105849,7 @@
  name: negative regulation of cardioblast cell fate specification
  namespace: biological_process
  alt_id: GO:0042687
@@ -10776,7 +10801,7 @@
  synonym: "down regulation of cardioblast cell fate specification" EXACT []
  synonym: "down-regulation of cardioblast cell fate specification" EXACT []
  synonym: "downregulation of cardioblast cell fate specification" EXACT []
-@@ -105429,7 +105863,7 @@
+@@ -105429,7 +105866,7 @@
  id: GO:0009998
  name: negative regulation of retinal cone cell fate specification
  namespace: biological_process
@@ -10785,7 +10810,7 @@
  synonym: "down regulation of retinal cone cell fate specification" EXACT []
  synonym: "down-regulation of retinal cone cell fate specification" EXACT []
  synonym: "downregulation of retinal cone cell fate specification" EXACT []
-@@ -105448,7 +105882,7 @@
+@@ -105448,7 +105885,7 @@
  id: GO:0009999
  name: negative regulation of auditory receptor cell fate specification
  namespace: biological_process
@@ -10794,7 +10819,7 @@
  synonym: "down regulation of auditory receptor cell fate specification" EXACT []
  synonym: "down-regulation of auditory receptor cell fate specification" EXACT []
  synonym: "downregulation of auditory receptor cell fate specification" EXACT []
-@@ -105469,7 +105903,7 @@
+@@ -105469,7 +105906,7 @@
  namespace: biological_process
  alt_id: GO:0007404
  alt_id: GO:0043360
@@ -10803,7 +10828,7 @@
  synonym: "glia cell differentiation" EXACT []
  synonym: "neuroglia differentiation" EXACT []
  is_a: GO:0030154 ! cell differentiation
-@@ -105479,7 +105913,7 @@
+@@ -105479,7 +105916,7 @@
  id: GO:0010002
  name: cardioblast differentiation
  namespace: biological_process
@@ -10812,7 +10837,7 @@
  synonym: "cardiac precursor cell differentiation" EXACT [GOC:mtg_heart]
  synonym: "cardioblast cell differentiation" EXACT []
  synonym: "cardiomyocyte generation" RELATED []
-@@ -105490,7 +105924,7 @@
+@@ -105490,7 +105927,7 @@
  id: GO:0010004
  name: gastrulation involving germ band extension
  namespace: biological_process
@@ -10821,7 +10846,7 @@
  is_a: GO:0001703 ! gastrulation with mouth forming first
  
  [Term]
-@@ -105531,11 +105965,12 @@
+@@ -105531,11 +105968,12 @@
  id: GO:0010009
  name: cytoplasmic side of endosome membrane
  namespace: cellular_component
@@ -10835,7 +10860,7 @@
  
  [Term]
  id: GO:0010011
-@@ -106660,10 +107095,14 @@
+@@ -106660,10 +107098,14 @@
  synonym: "phenylacetate breakdown" EXACT []
  synonym: "phenylacetate catabolism" EXACT []
  synonym: "phenylacetate degradation" EXACT []
@@ -10850,7 +10875,7 @@
  
  [Term]
  id: GO:0010125
-@@ -106715,14 +107154,21 @@
+@@ -106715,14 +107157,21 @@
  
  [Term]
  id: GO:0010129
@@ -10874,7 +10899,7 @@
  
  [Term]
  id: GO:0010130
-@@ -107488,10 +107934,12 @@
+@@ -107488,10 +107937,12 @@
  
  [Term]
  id: GO:0010209
@@ -10889,7 +10914,7 @@
  
  [Term]
  id: GO:0010210
-@@ -107529,7 +107977,7 @@
+@@ -107529,7 +107980,7 @@
  id: GO:0010214
  name: seed coat development
  namespace: biological_process
@@ -10898,7 +10923,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0048856 ! anatomical structure development
  relationship: part_of GO:0048316 ! seed development
-@@ -107756,7 +108204,11 @@
+@@ -107756,7 +108207,11 @@
  synonym: "plastoquinone formation" EXACT []
  synonym: "plastoquinone synthesis" EXACT []
  xref: MetaCyc:PWY-1581
@@ -10910,7 +10935,7 @@
  
  [Term]
  id: GO:0010238
-@@ -108218,10 +108670,11 @@
+@@ -108218,10 +108673,11 @@
  
  [Term]
  id: GO:0010285
@@ -10924,7 +10949,7 @@
  synonym: "LL-2,6-diaminoheptanedioate:2-oxoglutarate aminotransferase activity" EXACT []
  synonym: "LL-DAP aminotransferase activity" RELATED [EC:2.6.1.83]
  synonym: "LL-DAP-AT activity" RELATED [EC:2.6.1.83]
-@@ -108235,6 +108688,7 @@
+@@ -108235,6 +108691,7 @@
  property_value: skos:exactMatch EC:2.6.1.83
  property_value: skos:exactMatch RHEA:23988
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -10932,7 +10957,7 @@
  
  [Term]
  id: GO:0010286
-@@ -108653,7 +109107,6 @@
+@@ -108653,7 +109110,6 @@
  namespace: biological_process
  alt_id: GO:1902534
  def: "The infolding of a membrane." [GOC:tb]
@@ -10940,7 +10965,7 @@
  synonym: "single-organism membrane invagination" RELATED []
  is_a: GO:0061024 ! membrane organization
  created_by: jl
-@@ -108669,17 +109122,19 @@
+@@ -108669,17 +109125,19 @@
  
  [Term]
  id: GO:0010326
@@ -10962,7 +10987,7 @@
  
  [Term]
  id: GO:0010327
-@@ -108938,12 +109393,10 @@
+@@ -108938,12 +109396,10 @@
  
  [Term]
  id: GO:0010355
@@ -10978,7 +11003,7 @@
  
  [Term]
  id: GO:0010356
-@@ -109802,7 +110255,7 @@
+@@ -109802,7 +110258,7 @@
  id: GO:0010446
  name: response to alkaline pH
  namespace: biological_process
@@ -10987,7 +11012,7 @@
  synonym: "response to alkalinity" BROAD []
  synonym: "response to basic pH" EXACT []
  is_a: GO:0009268 ! response to pH
-@@ -109811,7 +110264,7 @@
+@@ -109811,7 +110267,7 @@
  id: GO:0010447
  name: response to acidic pH
  namespace: biological_process
@@ -10996,7 +11021,7 @@
  comment: This term should be used to annotate instances where a cell or organism is responding to a chemical that is playing the role of an acid (e.g. proton donor) and therefore lowering the pH. If instead you wish to describe a response to a specific acid as a chemical, such as the anion portion of glutamate, please annotate to the appropriate child of GO:0001101 'response to acid chemical'.
  synonym: "response to acidity" BROAD []
  is_a: GO:0009268 ! response to pH
-@@ -110307,6 +110760,7 @@
+@@ -110307,6 +110763,7 @@
  name: proteasomal ubiquitin-independent protein catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of a protein or peptide by hydrolysis of its peptide bonds that is mediated by the proteasome but do not involve ubiquitin." [GOC:tb]
@@ -11004,7 +11029,7 @@
  is_a: GO:0010498 ! proteasomal protein catabolic process
  
  [Term]
-@@ -110796,23 +111250,27 @@
+@@ -110796,23 +111253,27 @@
  name: regulation of macromolecule biosynthetic process
  namespace: biological_process
  def: "Any process that modulates the rate, frequency or extent of the chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." [GOC:dph, GOC:tb]
@@ -11032,7 +11057,7 @@
  
  [Term]
  id: GO:0010558
-@@ -111241,14 +111699,12 @@
+@@ -111241,14 +111702,12 @@
  
  [Term]
  id: GO:0010602
@@ -11052,7 +11077,7 @@
  
  [Term]
  id: GO:0010603
-@@ -112686,7 +113142,6 @@
+@@ -112686,7 +113145,6 @@
  synonym: "protein kinase A signal transduction" EXACT [GOC:signaling]
  synonym: "protein kinase A signaling cascade" RELATED [GOC:signaling]
  synonym: "protein kinase A signalling cascade" RELATED [GOC:mah]
@@ -11060,7 +11085,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26794" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26899" xsd:anyURI
  is_obsolete: true
-@@ -114823,10 +115278,13 @@
+@@ -114823,10 +115281,13 @@
  
  [Term]
  id: GO:0010944
@@ -11077,7 +11102,7 @@
  
  [Term]
  id: GO:0010945
-@@ -114912,6 +115370,7 @@
+@@ -114912,6 +115373,7 @@
  namespace: biological_process
  def: "Any process that increases the frequency, rate or extent of endopeptidase activity, the endohydrolysis of peptide bonds within proteins." [GOC:dph, GOC:tb]
  subset: gocheck_obsoletion_candidate
@@ -11085,7 +11110,7 @@
  is_a: GO:0010952 ! positive regulation of peptidase activity
  is_a: GO:0052548 ! regulation of endopeptidase activity
  intersection_of: GO:0065007 ! biological regulation
-@@ -114927,6 +115386,7 @@
+@@ -114927,6 +115389,7 @@
  def: "Any process that decreases the frequency, rate or extent of endopeptidase activity, the endohydrolysis of peptide bonds within proteins." [GOC:dph, GOC:tb]
  subset: gocheck_obsoletion_candidate
  subset: goslim_chembl
@@ -11093,7 +11118,7 @@
  is_a: GO:0010466 ! negative regulation of peptidase activity
  is_a: GO:0052548 ! regulation of endopeptidase activity
  intersection_of: GO:0065007 ! biological regulation
-@@ -118203,7 +118663,6 @@
+@@ -118203,7 +118666,6 @@
  xref: MetaCyc:2.4.1.135-RXN
  xref: Reactome:R-HSA-1889955 "B3GAT dimers transfer GlcA to tetrasaccharide linker"
  xref: Reactome:R-HSA-3560802 "Defective B3GAT3 does not transfer GlcA to tetrasaccharide linker"
@@ -11101,7 +11126,7 @@
  xref: RHEA:24168
  is_a: GO:0015020 ! glucuronosyltransferase activity
  property_value: skos:exactMatch EC:2.4.1.135
-@@ -118304,13 +118763,13 @@
+@@ -118304,13 +118766,13 @@
  xref: Reactome:R-HSA-2162099 "abacavir + UDP-glucuronate => abacavir 5'-glucuronide + UDP"
  xref: Reactome:R-HSA-5604954 "Defective UGT1A4 does not transfer GlcA from UDP-GlcA to BIL"
  xref: Reactome:R-HSA-5604975 "Defective UGT1A1 does not transfer GlcA from UDP-GlcA to BIL"
@@ -11117,7 +11142,7 @@
  xref: Reactome:R-HSA-9749977 "UGT1A6 glucuronates ST"
  xref: Reactome:R-HSA-9756134 "UGT1A3 lactonizes 2-OH-ATV to 2-OH-ATVL"
  xref: Reactome:R-HSA-9756156 "UGT1A3 lactonizes ATV to ATVL"
-@@ -118380,7 +118839,7 @@
+@@ -118380,7 +118842,7 @@
  namespace: molecular_function
  alt_id: GO:0015027
  alt_id: GO:0015028
@@ -11126,7 +11151,7 @@
  synonym: "coreceptor, insoluble ligand activity" RELATED [GOC:mah]
  synonym: "coreceptor, soluble ligand activity" RELATED [GOC:mah]
  is_a: GO:0038023 ! signaling receptor activity
-@@ -118453,7 +118912,7 @@
+@@ -118453,7 +118915,7 @@
  namespace: molecular_function
  alt_id: GO:0008895
  alt_id: GO:0015037
@@ -11135,7 +11160,7 @@
  synonym: "haem lyase disulphide oxidoreductase activity" NARROW []
  synonym: "heme lyase disulfide oxidoreductase activity" NARROW []
  synonym: "peptide disulfide oxidoreductase activity" EXACT []
-@@ -118461,7 +118920,6 @@
+@@ -118461,7 +118923,6 @@
  synonym: "protein disulfide oxidoreductase activity" EXACT []
  synonym: "protein disulfide-oxidoreductase activity" EXACT []
  synonym: "protein disulphide oxidoreductase activity" EXACT []
@@ -11143,7 +11168,7 @@
  xref: Reactome:R-HSA-1307802 "MIA40:ERV1 (CHCHD4:GFER) oxidizes cysteine residues to cystine disulfide bonds"
  xref: Reactome:R-HSA-264997 "P4HB mediates disulfide bond formation in Proinsulin"
  xref: Reactome:R-HSA-3299753 "CCS transfers Cu to SOD1 and oxidizes cysteine residues in SOD1"
-@@ -118469,6 +118927,7 @@
+@@ -118469,6 +118930,7 @@
  is_a: GO:0015036 ! disulfide oxidoreductase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20219" xsd:anyURI
@@ -11151,7 +11176,7 @@
  
  [Term]
  id: GO:0015036
-@@ -119094,6 +119553,8 @@
+@@ -119094,6 +119556,8 @@
  xref: Reactome:R-HSA-1362417 "Mitoferrin translocates iron from the mitochondrial intermembrane space to the mitochondrial matrix"
  xref: Reactome:R-HSA-442368 "SLC40A1:HEPH:6Cu2+ transports Fe2+ from cytosol to extracellular region"
  xref: Reactome:R-HSA-5655760 "Defective SLC40A1 does not transport Fe3+ from extracellular region to cytosol"
@@ -11160,7 +11185,7 @@
  is_a: GO:0005381 ! iron ion transmembrane transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26941" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27521" xsd:anyURI
-@@ -119177,16 +119638,6 @@
+@@ -119177,16 +119641,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Enables the transfer of organic cations from one side of a membrane to the other. Organic cations are atoms or small molecules with a positive charge that contain carbon in covalent linkage." [GOC:ai, GOC:mtg_transport, ISBN:0815340729]
  comment: The reason for obsoletion is that this term was an unnecessary and confusing grouping term.
@@ -11177,7 +11202,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30715" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0022857
-@@ -119280,7 +119731,7 @@
+@@ -119280,7 +119734,7 @@
  namespace: molecular_function
  def: "Enables the transfer of iodide ions from one side of a membrane to the other." [GOC:ai]
  xref: Reactome:R-HSA-209910 "Iodide is taken up by thyroid epithelial cells"
@@ -11186,7 +11211,7 @@
  xref: Reactome:R-HSA-5627870 "SLC26A4 does not transport I- from cytosol to extracellular region"
  is_a: GO:0008509 ! monoatomic anion transmembrane transporter activity
  relationship: part_of GO:0015705 ! iodide transport
-@@ -119335,8 +119786,9 @@
+@@ -119335,8 +119789,9 @@
  synonym: "sulfate permease activity" RELATED []
  synonym: "sulphate transporter activity" EXACT []
  xref: Reactome:R-HSA-3560789 "Defective SLC26A2 does not cotransport extracellular SO4(2-), H+ to cytosol"
@@ -11197,7 +11222,7 @@
  is_a: GO:1901682 ! sulfur compound transmembrane transporter activity
  relationship: part_of GO:1902358 ! sulfate transmembrane transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27521" xsd:anyURI
-@@ -119510,6 +119962,7 @@
+@@ -119510,6 +119965,7 @@
  name: glucuronate transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of glucuronate from one side of a membrane to the other. Glucuronate is the uronic acid formally derived from glucose by oxidation of the hydroxymethylene group at C-6 to a carboxyl group." [GOC:ai]
@@ -11205,7 +11230,7 @@
  is_a: GO:0015133 ! uronic acid transmembrane transporter activity
  relationship: part_of GO:0015738 ! glucuronate transmembrane transport
  
-@@ -119739,6 +120192,8 @@
+@@ -119739,6 +120195,8 @@
  name: polysaccharide transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of polysaccharides from one side of a membrane to the other. A polysaccharide is a polymer of many (typically more than 10) monosaccharide residues linked glycosidically." [GOC:ai, GOC:mtg_transport, ISBN:0815340729]
@@ -11214,7 +11239,7 @@
  is_a: GO:0015144 ! carbohydrate transmembrane transporter activity
  is_a: GO:0022884 ! macromolecule transmembrane transporter activity
  relationship: part_of GO:0015774 ! polysaccharide transport
-@@ -119842,7 +120297,6 @@
+@@ -119842,7 +120300,6 @@
  synonym: "hydroxy/aromatic amino acid permease activity" RELATED []
  xref: Reactome:R-HSA-210439 "glutamate uptake by astrocytes"
  xref: Reactome:R-HSA-212642 "L-Glutamine transport into neurons"
@@ -11222,7 +11247,7 @@
  xref: Reactome:R-HSA-351987 "SLC6A6-mediated uptake of taurine and beta-alanine"
  xref: Reactome:R-HSA-352029 "SLC6A12 (BGT-1)-mediated uptake of GABA and betaine"
  xref: Reactome:R-HSA-352052 "SLC6A20 cotransports L-Pro, Na+ from the extracellular region to cytosol"
-@@ -119856,7 +120310,6 @@
+@@ -119856,7 +120313,6 @@
  xref: Reactome:R-HSA-352174 "SLC38A3-mediated uptake of glutamine, histidine, asparagine, and alanine"
  xref: Reactome:R-HSA-352182 "SLC38A5-mediated uptake of glutamine, histidine, asparagine, and serine"
  xref: Reactome:R-HSA-352191 "SLC7A8-mediated uptake of neutral amino acids"
@@ -11230,7 +11255,7 @@
  xref: Reactome:R-HSA-352347 "SLC1A4-mediated exchange of extracellular serine for cytosolic alanine, threonine, or cysteine"
  xref: Reactome:R-HSA-352354 "SLC1A4-mediated exchange of extracellular cysteine for cytosolic alanine, serine, or threonine"
  xref: Reactome:R-HSA-352364 "SLC1A4-mediated exchange of extracellular alanine for cytosolic serine, threonine, or cysteine"
-@@ -119880,7 +120333,6 @@
+@@ -119880,7 +120336,6 @@
  xref: Reactome:R-HSA-5655702 "Defective SLC3A1 (in SLC7A9:SLC3A1) does not exchange L-Arg, CySS-, L-Lys for L-Leu"
  xref: Reactome:R-HSA-5659674 "Variant SLC6A14 cotransports SLC6A14 ligands, Cl-, 2Na+ from extracellular region to cytosol"
  xref: Reactome:R-HSA-5659734 "Defective SLC6A19 does not cotransport neutral amino acids, Na+ from extracellular region to cytosol"
@@ -11238,7 +11263,7 @@
  xref: Reactome:R-HSA-5660694 "Variant SLC6A20 does not cotransport L-Pro, Na+ from extracellulare region to cytosol"
  xref: Reactome:R-HSA-5660890 "Defective SLC7A9 (in SLC7A9:SLC3A1) does not exchange L-Arg, CySS-, L-Lys for L-Leu"
  xref: Reactome:R-HSA-5660910 "Defective SLC7A7 does not exchange L-Arg for L-Leu, Na+ across the plasma membrane"
-@@ -119952,6 +120404,7 @@
+@@ -119952,6 +120407,7 @@
  def: "Enables the transfer of an L-amino acid from one side of a membrane to the other. L-amino acids are the L-enantiomers of amino acids." [GOC:ai, GOC:jsg, GOC:mah, GOC:mtg_transport, ISBN:0815340729]
  synonym: "L-amino acid transporter activity" BROAD []
  xref: Reactome:R-HSA-212614 "Glutamine transport from astrocytes"
@@ -11246,7 +11271,7 @@
  is_a: GO:0015171 ! amino acid transmembrane transporter activity
  is_a: GO:0046943 ! carboxylic acid transmembrane transporter activity
  relationship: part_of GO:1902475 ! L-alpha-amino acid transmembrane transport
-@@ -119960,7 +120413,7 @@
+@@ -119960,7 +120416,7 @@
  id: GO:0015180
  name: L-alanine transmembrane transporter activity
  namespace: molecular_function
@@ -11255,7 +11280,7 @@
  synonym: "L-alanine transporter activity" BROAD []
  is_a: GO:0015179 ! L-amino acid transmembrane transporter activity
  is_a: GO:0022858 ! alanine transmembrane transporter activity
-@@ -119970,7 +120423,7 @@
+@@ -119970,7 +120426,7 @@
  id: GO:0015182
  name: L-asparagine transmembrane transporter activity
  namespace: molecular_function
@@ -11264,7 +11289,7 @@
  synonym: "asparagine/glutamine permease activity" NARROW []
  synonym: "L-asparagine transporter activity" BROAD []
  is_a: GO:0015175 ! neutral L-amino acid transmembrane transporter activity
-@@ -119981,7 +120434,7 @@
+@@ -119981,7 +120437,7 @@
  id: GO:0015183
  name: L-aspartate transmembrane transporter activity
  namespace: molecular_function
@@ -11273,7 +11298,7 @@
  synonym: "glutamate/aspartate porter activity" NARROW []
  synonym: "glutamate/aspartate:sodium symporter activity" NARROW []
  synonym: "L-aspartate transporter activity" BROAD []
-@@ -119995,7 +120448,7 @@
+@@ -119995,7 +120451,7 @@
  id: GO:0015184
  name: L-cystine transmembrane transporter activity
  namespace: molecular_function
@@ -11282,7 +11307,7 @@
  synonym: "cystine/diaminopimelate porter activity" NARROW []
  synonym: "L-cystine transporter activity" BROAD []
  xref: Reactome:R-HSA-5340130 "CTNS cotransports CySS-, H+ from lysosomal lumen to cytosol"
-@@ -120008,7 +120461,7 @@
+@@ -120008,7 +120464,7 @@
  id: GO:0015185
  name: gamma-aminobutyric acid transmembrane transporter activity
  namespace: molecular_function
@@ -11291,7 +11316,7 @@
  synonym: "4-aminobutanoate transporter activity" EXACT []
  synonym: "4-aminobutyrate transporter activity" EXACT []
  synonym: "betaine/GABA:sodium symporter activity" NARROW []
-@@ -120123,7 +120576,6 @@
+@@ -120123,7 +120579,6 @@
  synonym: "L-serine transporter activity" BROAD []
  synonym: "serine transporter activity" BROAD []
  synonym: "threonine/serine:sodium symporter activity" RELATED []
@@ -11299,7 +11324,7 @@
  is_a: GO:0015179 ! L-amino acid transmembrane transporter activity
  relationship: part_of GO:0015825 ! L-serine transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27521" xsd:anyURI
-@@ -120210,7 +120662,7 @@
+@@ -120210,7 +120665,7 @@
  id: GO:0015207
  name: adenine transmembrane transporter activity
  namespace: molecular_function
@@ -11308,7 +11333,7 @@
  xref: Reactome:R-HSA-163215 "SLC25A5,6 dimers exchange ATP for ADP across the mitochondrial inner membrane"
  xref: Reactome:R-HSA-5672027 "ARL2:GTP:ARL2BP:SLC25A4 dimer exchanges ATP for ADP across the mitochondrial inner membrane"
  is_a: GO:0005345 ! purine nucleobase transmembrane transporter activity
-@@ -120221,7 +120673,7 @@
+@@ -120221,7 +120676,7 @@
  id: GO:0015208
  name: guanine transmembrane transporter activity
  namespace: molecular_function
@@ -11317,7 +11342,7 @@
  is_a: GO:0005345 ! purine nucleobase transmembrane transporter activity
  relationship: part_of GO:1903716 ! guanine transmembrane transport
  
-@@ -120229,7 +120681,7 @@
+@@ -120229,7 +120684,7 @@
  id: GO:0015209
  name: cytosine transmembrane transporter activity
  namespace: molecular_function
@@ -11326,7 +11351,7 @@
  is_a: GO:0005350 ! pyrimidine nucleobase transmembrane transporter activity
  relationship: part_of GO:0015856 ! cytosine transport
  
-@@ -120237,7 +120689,7 @@
+@@ -120237,7 +120692,7 @@
  id: GO:0015210
  name: uracil transmembrane transporter activity
  namespace: molecular_function
@@ -11335,7 +11360,7 @@
  synonym: "uracil/uridine permease activity" RELATED []
  is_a: GO:0005350 ! pyrimidine nucleobase transmembrane transporter activity
  relationship: part_of GO:1903791 ! uracil transmembrane transport
-@@ -120254,7 +120706,7 @@
+@@ -120254,7 +120709,7 @@
  id: GO:0015212
  name: cytidine transmembrane transporter activity
  namespace: molecular_function
@@ -11344,7 +11369,7 @@
  is_a: GO:0015214 ! pyrimidine nucleoside transmembrane transporter activity
  relationship: part_of GO:0015861 ! cytidine transport
  
-@@ -120262,7 +120714,7 @@
+@@ -120262,7 +120717,7 @@
  id: GO:0015213
  name: uridine transmembrane transporter activity
  namespace: molecular_function
@@ -11353,7 +11378,7 @@
  synonym: "uracil/uridine permease activity" NARROW []
  is_a: GO:0015214 ! pyrimidine nucleoside transmembrane transporter activity
  relationship: part_of GO:0015862 ! uridine transmembrane transport
-@@ -120306,6 +120758,7 @@
+@@ -120306,6 +120761,7 @@
  name: pyrimidine nucleotide transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of a pyrimidine nucleotide, any compound consisting of a pyrimidine nucleoside esterified with (ortho)phosphate, from one side of a membrane to the other." [GOC:ai]
@@ -11361,7 +11386,7 @@
  is_a: GO:0015215 ! nucleotide transmembrane transporter activity
  relationship: part_of GO:0006864 ! pyrimidine nucleotide transport
  
-@@ -120468,6 +120921,8 @@
+@@ -120468,6 +120924,8 @@
  xref: Reactome:R-HSA-917870 "SLC46A1 transports hemes from extracellular region to cytosol"
  xref: Reactome:R-HSA-917892 "FLVCR1-1 transports heme from cytosol to extracellular region"
  xref: Reactome:R-HSA-9661408 "FLVCR1-2 transports heme from mitochondrial matrix to cytosol"
@@ -11370,7 +11395,7 @@
  is_a: GO:0022857 ! transmembrane transporter activity
  relationship: part_of GO:0015886 ! heme transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19472" xsd:anyURI
-@@ -120558,7 +121013,6 @@
+@@ -120558,7 +121016,6 @@
  def: "Enables the transfer of aminophospholipids from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP. Aminophospholipids contain phosphoric acid as a mono- or diester and an amino (NH2) group." [GOC:pg]
  synonym: "aminophospholipid transmembrane transporter activity" RELATED []
  synonym: "aminophospholipid transporter activity" RELATED []
@@ -11378,7 +11403,7 @@
  is_a: GO:0140327 ! flippase activity
  relationship: part_of GO:0140331 ! aminophospholipid translocation
  property_value: skos:broadMatch RHEA:66132
-@@ -120755,6 +121209,9 @@
+@@ -120755,6 +121212,9 @@
  synonym: "substrate-specific channel activity" RELATED []
  xref: Reactome:R-HSA-3779381 "H2O2 diffuses from the mitochondrial matrix to the cytosol"
  xref: Reactome:R-HSA-8953430 "PXMP2 trimer transports glycolate from cytosol to peroxisomal matrix"
@@ -11388,7 +11413,7 @@
  xref: TC:1
  is_a: GO:0022803 ! passive transmembrane transporter activity
  
-@@ -120897,6 +121354,11 @@
+@@ -120897,6 +121357,11 @@
  def: "Enables the transfer of substances, sized less than 1000 Da, from one side of a membrane to the other. The transmembrane portions of porins consist exclusively of beta-strands which form a beta-barrel. They are found in the outer membranes of Gram-negative bacteria, mitochondria, plastids and possibly acid-fast Gram-positive bacteria." [GOC:mtg_transport, ISBN:0815340729, PMID:10839820, TC:1.B.1.-.-]
  synonym: "outer membrane exporter porin" NARROW []
  synonym: "porin" EXACT []
@@ -11400,7 +11425,7 @@
  xref: Wikipedia:Porin_(protein)
  is_a: GO:0022829 ! wide pore channel activity
  
-@@ -120934,6 +121396,18 @@
+@@ -120934,6 +121399,18 @@
  synonym: "porter activity" EXACT []
  synonym: "porters" EXACT []
  synonym: "secondary carrier-type facilitators" EXACT []
@@ -11419,7 +11444,7 @@
  xref: TC:2.A
  is_a: GO:0022804 ! active transmembrane transporter activity
  
-@@ -121444,6 +121918,11 @@
+@@ -121444,6 +121921,11 @@
  synonym: "siderophore transporter activity" RELATED []
  synonym: "siderophore-iron transporter activity" RELATED []
  xref: Reactome:R-HSA-1222597 "Loaded mycobactin gets imported"
@@ -11431,7 +11456,7 @@
  xref: TC:2.A.1.16.1
  xref: TC:2.A.1.16.2
  xref: TC:2.A.1.16.3
-@@ -121502,19 +121981,8 @@
+@@ -121502,19 +121984,8 @@
  id: GO:0015347
  name: obsolete sodium-independent organic anion transmembrane transporter activity
  namespace: molecular_function
@@ -11452,7 +11477,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30715" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0015291
-@@ -122852,7 +123320,7 @@
+@@ -122852,7 +123323,7 @@
  synonym: "P-P-bond-hydrolysis-driven protein transmembrane transporter activity" RELATED []
  synonym: "protein translocase activity" EXACT []
  xref: Reactome:R-HSA-1222523 "SodB gets secreted"
@@ -11461,7 +11486,7 @@
  is_a: GO:0042626 ! ATPase-coupled transmembrane transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21271" xsd:anyURI
  
-@@ -124154,6 +124622,7 @@
+@@ -124154,6 +124625,7 @@
  name: iron chelate transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of an iron chelate from one side of a membrane to the other. An iron chelate is a heterocyclic compound having a metal ion attached by coordinate bonds to at least two nonmetal ions." [PMID:17660286]
@@ -11469,7 +11494,7 @@
  is_a: GO:0022857 ! transmembrane transporter activity
  relationship: part_of GO:0033214 ! siderophore-iron import into cell
  
-@@ -124317,6 +124786,8 @@
+@@ -124317,6 +124789,8 @@
  name: ferric-enterobactin transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of ferric-enterobactin from one side of a membrane to the other." [GOC:ai]
@@ -11478,7 +11503,7 @@
  is_a: GO:0015343 ! siderophore-iron transmembrane transporter activity
  relationship: part_of GO:0015685 ! ferric-enterobactin import into cell
  
-@@ -124377,7 +124848,7 @@
+@@ -124377,7 +124851,7 @@
  id: GO:0015626
  name: L-diaminopimelate transmembrane transporter activity
  namespace: molecular_function
@@ -11487,7 +11512,7 @@
  synonym: "cystine/diaminopimelate porter activity" NARROW []
  synonym: "L-diaminopimelate transporter activity" BROAD []
  is_a: GO:0015179 ! L-amino acid transmembrane transporter activity
-@@ -124724,6 +125195,12 @@
+@@ -124724,6 +125198,12 @@
  name: alcohol transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of an alcohol from one side of a membrane to the other. An alcohol is any carbon compound that contains a hydroxyl group." [ISBN:0198506732]
@@ -11500,7 +11525,7 @@
  is_a: GO:0022857 ! transmembrane transporter activity
  
  [Term]
-@@ -125066,6 +125543,7 @@
+@@ -125066,6 +125546,7 @@
  name: organic anion transport
  namespace: biological_process
  def: "The directed movement of organic anions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic anions are atoms or small molecules with a negative charge which contain carbon in covalent linkage." [GOC:ai, GOC:krc]
@@ -11508,7 +11533,7 @@
  is_a: GO:0006810 ! transport
  
  [Term]
-@@ -125154,6 +125632,7 @@
+@@ -125154,6 +125635,7 @@
  synonym: "bile acid transport" NARROW []
  synonym: "bile salt transport" NARROW []
  xref: Reactome:R-HSA-159418 "Recycling of bile acids and salts"
@@ -11516,7 +11541,7 @@
  is_a: GO:0006869 ! lipid transport
  is_a: GO:0015718 ! monocarboxylic acid transport
  is_a: GO:0015850 ! organic hydroxy compound transport
-@@ -125845,7 +126324,7 @@
+@@ -125845,7 +126327,7 @@
  id: GO:0015810
  name: aspartate transmembrane transport
  namespace: biological_process
@@ -11525,7 +11550,7 @@
  synonym: "aspartate transport" BROAD []
  synonym: "mitochondrial aspartate/glutamate transport" RELATED []
  is_a: GO:0003333 ! amino acid transmembrane transport
-@@ -125859,7 +126338,7 @@
+@@ -125859,7 +126341,7 @@
  id: GO:0015811
  name: L-cystine transport
  namespace: biological_process
@@ -11534,7 +11559,7 @@
  is_a: GO:0000101 ! sulfur amino acid transport
  is_a: GO:0015804 ! neutral amino acid transport
  is_a: GO:0015807 ! L-amino acid transport
-@@ -125869,7 +126348,7 @@
+@@ -125869,7 +126351,7 @@
  id: GO:0015812
  name: gamma-aminobutyric acid transport
  namespace: biological_process
@@ -11543,7 +11568,7 @@
  comment: See also the biological process term 'neurotransmitter transport ; GO:0006836'.
  synonym: "4-aminobutanoate transport" EXACT []
  synonym: "4-aminobutyrate transport" EXACT []
-@@ -126047,7 +126526,7 @@
+@@ -126047,7 +126529,7 @@
  id: GO:0015830
  name: diaminopimelate transport
  namespace: biological_process
@@ -11552,7 +11577,7 @@
  is_a: GO:0046942 ! carboxylic acid transport
  is_a: GO:0071705 ! nitrogen compound transport
  is_a: GO:1901571 ! fatty acid derivative transport
-@@ -126056,7 +126535,7 @@
+@@ -126056,7 +126538,7 @@
  id: GO:0015832
  name: obsolete holin
  namespace: biological_process
@@ -11561,7 +11586,7 @@
  comment: This term was made obsolete because it represents a class of gene products.
  synonym: "holin" EXACT []
  is_obsolete: true
-@@ -126105,6 +126584,7 @@
+@@ -126105,6 +126587,7 @@
  def: "The directed movement of amines, including polyamines, organic compounds containing one or more amino groups, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." [GOC:ai, ISBN:0198506732]
  subset: goslim_pir
  synonym: "amine/polyamine transport" RELATED []
@@ -11569,7 +11594,7 @@
  is_a: GO:0071705 ! nitrogen compound transport
  
  [Term]
-@@ -126215,7 +126695,7 @@
+@@ -126215,7 +126698,7 @@
  id: GO:0015853
  name: adenine transport
  namespace: biological_process
@@ -11578,7 +11603,7 @@
  synonym: "adenine transmembrane transport" EXACT [GOC:mah]
  is_a: GO:0006863 ! purine nucleobase transport
  
-@@ -126223,7 +126703,7 @@
+@@ -126223,7 +126706,7 @@
  id: GO:0015854
  name: guanine transport
  namespace: biological_process
@@ -11587,7 +11612,7 @@
  is_a: GO:0006863 ! purine nucleobase transport
  
  [Term]
-@@ -126232,7 +126712,7 @@
+@@ -126232,7 +126715,7 @@
  namespace: biological_process
  def: "The directed movement of pyrimidine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." [GOC:ai]
  synonym: "pyrimidine base transmembrane transport" EXACT [GOC:mah]
@@ -11596,7 +11621,7 @@
  synonym: "pyrimidine transmembrane transport" RELATED [GOC:mah]
  synonym: "pyrimidine transport" RELATED []
  is_a: GO:0015851 ! nucleobase transport
-@@ -126241,7 +126721,7 @@
+@@ -126241,7 +126724,7 @@
  id: GO:0015856
  name: cytosine transport
  namespace: biological_process
@@ -11605,7 +11630,7 @@
  synonym: "cytosine transmembrane transport" EXACT [GOC:mah]
  is_a: GO:0015855 ! pyrimidine nucleobase transport
  
-@@ -126249,7 +126729,7 @@
+@@ -126249,7 +126732,7 @@
  id: GO:0015857
  name: uracil transport
  namespace: biological_process
@@ -11614,7 +11639,7 @@
  is_a: GO:0015855 ! pyrimidine nucleobase transport
  
  [Term]
-@@ -126284,14 +126764,14 @@
+@@ -126284,14 +126767,14 @@
  id: GO:0015861
  name: cytidine transport
  namespace: biological_process
@@ -11631,7 +11656,7 @@
  is_a: GO:0015864 ! pyrimidine nucleoside transport
  is_a: GO:0072531 ! pyrimidine-containing compound transmembrane transport
  is_a: GO:1901642 ! nucleoside transmembrane transport
-@@ -127084,7 +127564,7 @@
+@@ -127084,7 +127567,7 @@
  id: GO:0015945
  name: methanol metabolic process
  namespace: biological_process
@@ -11640,7 +11665,7 @@
  synonym: "methanol metabolism" EXACT []
  is_a: GO:0034308 ! primary alcohol metabolic process
  
-@@ -127566,6 +128046,8 @@
+@@ -127566,6 +128049,8 @@
  is_a: GO:0006779 ! porphyrin-containing compound biosynthetic process
  is_a: GO:0015994 ! chlorophyll metabolic process
  is_a: GO:0046148 ! pigment biosynthetic process
@@ -11649,7 +11674,7 @@
  
  [Term]
  id: GO:0015996
-@@ -127595,15 +128077,17 @@
+@@ -127595,15 +128080,17 @@
  
  [Term]
  id: GO:0016002
@@ -11670,7 +11695,7 @@
  
  [Term]
  id: GO:0016004
-@@ -127703,7 +128187,7 @@
+@@ -127703,7 +128190,7 @@
  id: GO:0016015
  name: morphogen activity
  namespace: molecular_function
@@ -11679,7 +11704,7 @@
  is_a: GO:0048018 ! receptor ligand activity
  
  [Term]
-@@ -127781,7 +128265,7 @@
+@@ -127781,7 +128268,7 @@
  id: GO:0016025
  name: obsolete proteasome endopeptidase regulator
  namespace: molecular_function
@@ -11688,7 +11713,7 @@
  comment: This term was made obsolete because it does not represent a molecular function.
  synonym: "proteasome endopeptidase regulator" EXACT []
  is_obsolete: true
-@@ -127791,7 +128275,7 @@
+@@ -127791,7 +128278,7 @@
  id: GO:0016026
  name: obsolete proteasome endopeptidase core
  namespace: molecular_function
@@ -11697,7 +11722,7 @@
  comment: This term was made obsolete because it does not represent a molecular function.
  synonym: "proteasome endopeptidase core" EXACT []
  is_obsolete: true
-@@ -127896,7 +128380,7 @@
+@@ -127896,7 +128383,7 @@
  id: GO:0016037
  name: light absorption
  namespace: biological_process
@@ -11706,7 +11731,7 @@
  synonym: "absorption of light" EXACT []
  is_a: GO:0009987 ! cellular process
  relationship: part_of GO:0009583 ! detection of light stimulus
-@@ -127905,22 +128389,21 @@
+@@ -127905,22 +128392,21 @@
  id: GO:0016038
  name: absorption of visible light
  namespace: biological_process
@@ -11732,7 +11757,7 @@
  synonym: "glutamate (reduced nicotinamide adenine dinucleotide) synthase" RELATED [EC:1.4.1.14]
  synonym: "GOGAT activity" BROAD []
  synonym: "L-glutamate synthase (NADH)" RELATED [EC:1.4.1.14]
-@@ -127938,15 +128421,14 @@
+@@ -127938,15 +128424,14 @@
  property_value: skos:exactMatch EC:1.4.1.14
  property_value: skos:exactMatch MetaCyc:GLUTAMATE-SYNTHASE-NADH-RXN
  property_value: skos:exactMatch RHEA:13753
@@ -11750,7 +11775,7 @@
  synonym: "ferredoxin-dependent glutamate synthase activity" RELATED [EC:1.4.7.1]
  synonym: "ferredoxin-glutamate synthase activity" RELATED [EC:1.4.7.1]
  synonym: "glutamate synthase (ferredoxin-dependent)" RELATED [EC:1.4.7.1]
-@@ -127959,8 +128441,8 @@
+@@ -127959,8 +128444,8 @@
  property_value: skos:exactMatch EC:1.4.7.1
  property_value: skos:exactMatch MetaCyc:GLUTAMATE-SYNTHASE-FERREDOXIN-RXN
  property_value: skos:exactMatch RHEA:12128
@@ -11760,7 +11785,7 @@
  
  [Term]
  id: GO:0016042
-@@ -127968,7 +128450,7 @@
+@@ -127968,7 +128453,7 @@
  namespace: biological_process
  alt_id: GO:0006724
  alt_id: GO:0044240
@@ -11769,7 +11794,7 @@
  synonym: "lipid breakdown" EXACT []
  synonym: "lipid catabolism" EXACT []
  synonym: "lipid degradation" EXACT []
-@@ -128220,7 +128702,7 @@
+@@ -128220,7 +128705,7 @@
  id: GO:0016061
  name: obsolete regulation of light-activated channel activity
  namespace: biological_process
@@ -11778,7 +11803,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22455" xsd:anyURI
  is_obsolete: true
-@@ -128506,7 +128988,7 @@
+@@ -128506,7 +128991,7 @@
  id: GO:0016091
  name: prenol biosynthetic process
  namespace: biological_process
@@ -11787,7 +11812,7 @@
  synonym: "prenol anabolism" EXACT []
  synonym: "prenol biosynthesis" EXACT []
  synonym: "prenol formation" EXACT []
-@@ -128519,7 +129001,7 @@
+@@ -128519,7 +129004,7 @@
  id: GO:0016092
  name: prenol catabolic process
  namespace: biological_process
@@ -11796,7 +11821,7 @@
  synonym: "prenol breakdown" EXACT []
  synonym: "prenol catabolism" EXACT []
  synonym: "prenol degradation" EXACT []
-@@ -128540,7 +129022,7 @@
+@@ -128540,7 +129025,7 @@
  id: GO:0016094
  name: polyprenol biosynthetic process
  namespace: biological_process
@@ -11805,7 +11830,7 @@
  synonym: "polyprenol anabolism" EXACT []
  synonym: "polyprenol biosynthesis" EXACT []
  synonym: "polyprenol formation" EXACT []
-@@ -128553,7 +129035,7 @@
+@@ -128553,7 +129038,7 @@
  id: GO:0016095
  name: polyprenol catabolic process
  namespace: biological_process
@@ -11814,7 +11839,7 @@
  synonym: "polyprenol breakdown" EXACT []
  synonym: "polyprenol catabolism" EXACT []
  synonym: "polyprenol degradation" EXACT []
-@@ -128573,7 +129055,7 @@
+@@ -128573,7 +129058,7 @@
  id: GO:0016099
  name: monoterpenoid biosynthetic process
  namespace: biological_process
@@ -11823,7 +11848,7 @@
  synonym: "monoterpenoid anabolism" EXACT []
  synonym: "monoterpenoid biosynthesis" EXACT []
  synonym: "monoterpenoid formation" EXACT []
-@@ -128586,7 +129068,7 @@
+@@ -128586,7 +129071,7 @@
  id: GO:0016100
  name: monoterpenoid catabolic process
  namespace: biological_process
@@ -11832,7 +11857,7 @@
  synonym: "monoterpenoid breakdown" EXACT []
  synonym: "monoterpenoid catabolism" EXACT []
  synonym: "monoterpenoid degradation" EXACT []
-@@ -128634,7 +129116,7 @@
+@@ -128634,7 +129119,7 @@
  id: GO:0016104
  name: triterpenoid biosynthetic process
  namespace: biological_process
@@ -11841,7 +11866,7 @@
  synonym: "triterpene biosynthesis" NARROW []
  synonym: "triterpene biosynthetic process" NARROW []
  synonym: "triterpenoid anabolism" EXACT []
-@@ -128648,7 +129130,7 @@
+@@ -128648,7 +129133,7 @@
  id: GO:0016105
  name: triterpenoid catabolic process
  namespace: biological_process
@@ -11850,7 +11875,7 @@
  synonym: "triterpene catabolic process" NARROW []
  synonym: "triterpene catabolism" NARROW []
  synonym: "triterpenoid breakdown" EXACT []
-@@ -128661,7 +129143,7 @@
+@@ -128661,7 +129146,7 @@
  id: GO:0016106
  name: sesquiterpenoid biosynthetic process
  namespace: biological_process
@@ -11859,7 +11884,7 @@
  synonym: "sesquiterpenoid anabolism" EXACT []
  synonym: "sesquiterpenoid biosynthesis" EXACT []
  synonym: "sesquiterpenoid formation" EXACT []
-@@ -128673,7 +129155,7 @@
+@@ -128673,7 +129158,7 @@
  id: GO:0016107
  name: sesquiterpenoid catabolic process
  namespace: biological_process
@@ -11868,7 +11893,7 @@
  synonym: "sesquiterpenoid breakdown" EXACT []
  synonym: "sesquiterpenoid catabolism" EXACT []
  synonym: "sesquiterpenoid degradation" EXACT []
-@@ -128696,7 +129178,7 @@
+@@ -128696,7 +129181,7 @@
  id: GO:0016109
  name: tetraterpenoid biosynthetic process
  namespace: biological_process
@@ -11877,7 +11902,7 @@
  synonym: "tetraterpene biosynthesis" NARROW []
  synonym: "tetraterpene biosynthetic process" NARROW []
  synonym: "tetraterpenoid anabolism" EXACT []
-@@ -128709,7 +129191,7 @@
+@@ -128709,7 +129194,7 @@
  id: GO:0016110
  name: tetraterpenoid catabolic process
  namespace: biological_process
@@ -11886,7 +11911,7 @@
  synonym: "tetraterpene catabolic process" NARROW []
  synonym: "tetraterpene catabolism" NARROW []
  synonym: "tetraterpenoid breakdown" EXACT []
-@@ -128733,7 +129215,7 @@
+@@ -128733,7 +129218,7 @@
  id: GO:0016112
  name: polyterpenoid biosynthetic process
  namespace: biological_process
@@ -11895,7 +11920,7 @@
  synonym: "polyterpene biosynthesis" NARROW []
  synonym: "polyterpene biosynthetic process" NARROW []
  synonym: "polyterpenoid anabolism" EXACT []
-@@ -128746,7 +129228,7 @@
+@@ -128746,7 +129231,7 @@
  id: GO:0016113
  name: polyterpenoid catabolic process
  namespace: biological_process
@@ -11904,7 +11929,7 @@
  synonym: "polyterpene catabolic process" NARROW []
  synonym: "polyterpene catabolism" NARROW []
  synonym: "polyterpenoid breakdown" EXACT []
-@@ -128790,7 +129272,7 @@
+@@ -128790,7 +129275,7 @@
  id: GO:0016117
  name: carotenoid biosynthetic process
  namespace: biological_process
@@ -11913,7 +11938,7 @@
  synonym: "carotenoid anabolism" EXACT []
  synonym: "carotenoid biosynthesis" EXACT []
  synonym: "carotenoid formation" EXACT []
-@@ -128804,7 +129286,7 @@
+@@ -128804,7 +129289,7 @@
  id: GO:0016118
  name: carotenoid catabolic process
  namespace: biological_process
@@ -11922,7 +11947,7 @@
  synonym: "carotenoid breakdown" EXACT []
  synonym: "carotenoid catabolism" EXACT []
  synonym: "carotenoid degradation" EXACT []
-@@ -128823,7 +129305,7 @@
+@@ -128823,7 +129308,7 @@
  id: GO:0016120
  name: carotene biosynthetic process
  namespace: biological_process
@@ -11931,7 +11956,7 @@
  synonym: "carotene anabolism" EXACT []
  synonym: "carotene biosynthesis" EXACT []
  synonym: "carotene formation" EXACT []
-@@ -128835,7 +129317,7 @@
+@@ -128835,7 +129320,7 @@
  id: GO:0016121
  name: carotene catabolic process
  namespace: biological_process
@@ -11940,7 +11965,7 @@
  synonym: "carotene breakdown" EXACT []
  synonym: "carotene catabolism" EXACT []
  synonym: "carotene degradation" EXACT []
-@@ -128854,7 +129336,7 @@
+@@ -128854,7 +129339,7 @@
  id: GO:0016123
  name: xanthophyll biosynthetic process
  namespace: biological_process
@@ -11949,7 +11974,7 @@
  synonym: "xanthophyll anabolism" EXACT []
  synonym: "xanthophyll biosynthesis" EXACT []
  synonym: "xanthophyll formation" EXACT []
-@@ -128866,7 +129348,7 @@
+@@ -128866,7 +129351,7 @@
  id: GO:0016124
  name: xanthophyll catabolic process
  namespace: biological_process
@@ -11958,7 +11983,7 @@
  synonym: "xanthophyll breakdown" EXACT []
  synonym: "xanthophyll catabolism" EXACT []
  synonym: "xanthophyll degradation" EXACT []
-@@ -128886,7 +129368,7 @@
+@@ -128886,7 +129371,7 @@
  id: GO:0016126
  name: sterol biosynthetic process
  namespace: biological_process
@@ -11967,7 +11992,7 @@
  synonym: "sterol anabolism" EXACT []
  synonym: "sterol biosynthesis" EXACT []
  synonym: "sterol formation" EXACT []
-@@ -128899,7 +129381,7 @@
+@@ -128899,7 +129384,7 @@
  id: GO:0016127
  name: sterol catabolic process
  namespace: biological_process
@@ -11976,7 +12001,7 @@
  synonym: "sterol breakdown" EXACT []
  synonym: "sterol catabolism" EXACT []
  synonym: "sterol degradation" EXACT []
-@@ -128920,7 +129402,7 @@
+@@ -128920,7 +129405,7 @@
  id: GO:0016129
  name: phytosteroid biosynthetic process
  namespace: biological_process
@@ -11985,7 +12010,7 @@
  synonym: "phytosteroid anabolism" EXACT []
  synonym: "phytosteroid biosynthesis" EXACT []
  synonym: "phytosteroid formation" EXACT []
-@@ -128931,7 +129413,7 @@
+@@ -128931,7 +129416,7 @@
  id: GO:0016130
  name: phytosteroid catabolic process
  namespace: biological_process
@@ -11994,7 +12019,7 @@
  synonym: "phytosteroid breakdown" EXACT []
  synonym: "phytosteroid catabolism" EXACT []
  synonym: "phytosteroid degradation" EXACT []
-@@ -128987,7 +129469,7 @@
+@@ -128987,7 +129472,7 @@
  id: GO:0016135
  name: saponin biosynthetic process
  namespace: biological_process
@@ -12003,7 +12028,7 @@
  synonym: "saponin anabolism" EXACT []
  synonym: "saponin biosynthesis" EXACT []
  synonym: "saponin formation" EXACT []
-@@ -128999,7 +129481,7 @@
+@@ -128999,7 +129484,7 @@
  id: GO:0016136
  name: saponin catabolic process
  namespace: biological_process
@@ -12012,7 +12037,7 @@
  synonym: "saponin breakdown" EXACT []
  synonym: "saponin catabolism" EXACT []
  synonym: "saponin degradation" EXACT []
-@@ -129022,7 +129504,7 @@
+@@ -129022,7 +129507,7 @@
  name: glycoside biosynthetic process
  namespace: biological_process
  alt_id: GO:0016141
@@ -12021,7 +12046,7 @@
  synonym: "glycoside anabolism" EXACT []
  synonym: "glycoside biosynthesis" EXACT []
  synonym: "glycoside formation" EXACT []
-@@ -129040,7 +129522,7 @@
+@@ -129040,7 +129525,7 @@
  name: glycoside catabolic process
  namespace: biological_process
  alt_id: GO:0016142
@@ -12030,7 +12055,7 @@
  synonym: "glycoside breakdown" EXACT []
  synonym: "glycoside catabolism" EXACT []
  synonym: "glycoside degradation" EXACT []
-@@ -129188,7 +129670,7 @@
+@@ -129188,7 +129673,7 @@
  xref: EC:4.2.1.49
  xref: KEGG_REACTION:R02914
  xref: MetaCyc:UROCANATE-HYDRATASE-RXN
@@ -12039,7 +12064,7 @@
  xref: RHEA:13101
  is_a: GO:0016836 ! hydro-lyase activity
  property_value: skos:exactMatch EC:4.2.1.49
-@@ -129278,6 +129760,7 @@
+@@ -129278,6 +129763,7 @@
  synonym: "phytate 3-phosphatase activity" EXACT []
  xref: EC:3.1.3.8
  xref: MetaCyc:RXN0-1001
@@ -12047,7 +12072,7 @@
  xref: RHEA:16989
  is_a: GO:0004446 ! inositol hexakisphosphate phosphatase activity
  property_value: skos:broadMatch EC:3.1.3.62
-@@ -129487,7 +129970,7 @@
+@@ -129487,7 +129973,7 @@
  id: GO:0016174
  name: NAD(P)H oxidase H2O2-forming activity
  namespace: molecular_function
@@ -12056,7 +12081,7 @@
  synonym: "dual oxidase activity" RELATED [EC:1.6.3.1]
  synonym: "NAD(P)H oxidase activity" BROAD []
  synonym: "NAD(P)H:oxygen oxidoreductase activity" RELATED [EC:1.6.3.1]
-@@ -129499,7 +129982,7 @@
+@@ -129499,7 +129985,7 @@
  synonym: "thyroid oxidase 2 activity" NARROW [EC:1.6.3.1]
  synonym: "thyroid oxidase activity" NARROW [EC:1.6.3.1]
  xref: EC:1.6.3.1
@@ -12065,7 +12090,7 @@
  xref: Reactome:R-HSA-9698758 "FLT3 ITD- and NOX4-dependent H2O2 production"
  xref: RHEA:11260
  xref: RHEA:11264
-@@ -129715,7 +130198,7 @@
+@@ -129715,7 +130201,7 @@
  id: GO:0016202
  name: regulation of striated muscle tissue development
  namespace: biological_process
@@ -12074,7 +12099,7 @@
  is_a: GO:0048634 ! regulation of muscle organ development
  is_a: GO:1901861 ! regulation of muscle tissue development
  intersection_of: GO:0065007 ! biological regulation
-@@ -129804,7 +130287,6 @@
+@@ -129804,7 +130290,6 @@
  xref: MetaCyc:4-COUMARATE--COA-LIGASE-RXN
  xref: RHEA:19641
  is_a: GO:0016405 ! CoA-ligase activity
@@ -12082,7 +12107,7 @@
  property_value: skos:exactMatch EC:6.2.1.12
  property_value: skos:exactMatch RHEA:19641
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -129813,8 +130295,10 @@
+@@ -129813,8 +130298,10 @@
  id: GO:0016208
  name: AMP binding
  namespace: molecular_function
@@ -12094,7 +12119,7 @@
  is_a: GO:0032559 ! adenyl ribonucleotide binding
  is_a: GO:0043168 ! anion binding
  is_a: GO:0043169 ! cation binding
-@@ -129856,13 +130340,13 @@
+@@ -129856,13 +130343,13 @@
  id: GO:0016211
  name: ammonia ligase activity
  namespace: molecular_function
@@ -12110,7 +12135,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: 2-oxoglutarate + L-kynurenine = H2O + kynurenate + L-glutamate. The product 4-(2-aminophenyl)-2,4-dioxobutanoate is converted into kynurenate by a spontaneous reaction. Also acts on 3-hydroxykynurenine to form xanthurenate." [EC:2.6.1.7]
  synonym: "kynurenine 2-oxoglutarate transaminase activity" RELATED [EC:2.6.1.7]
-@@ -129870,14 +130354,15 @@
+@@ -129870,14 +130357,15 @@
  synonym: "kynurenine transaminase (cyclizing)" RELATED [EC:2.6.1.7]
  synonym: "kynurenine--oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.7]
  synonym: "kynurenine-oxoglutarate aminotransferase activity" EXACT []
@@ -12128,7 +12153,7 @@
  xref: RHEA:65560
  xref: RHEA:65884
  is_a: GO:0008483 ! transaminase activity
-@@ -129887,6 +130372,7 @@
+@@ -129887,6 +130375,7 @@
  property_value: skos:narrowMatch RHEA:65560
  property_value: skos:narrowMatch RHEA:65884
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25811" xsd:anyURI
@@ -12136,7 +12161,7 @@
  
  [Term]
  id: GO:0016213
-@@ -129955,11 +130441,12 @@
+@@ -129955,11 +130444,12 @@
  
  [Term]
  id: GO:0016217
@@ -12153,7 +12178,7 @@
  
  [Term]
  id: GO:0016218
-@@ -129987,7 +130474,7 @@
+@@ -129987,7 +130477,7 @@
  id: GO:0016223
  name: beta-alanine:pyruvate transaminase activity
  namespace: molecular_function
@@ -12162,7 +12187,7 @@
  synonym: "beta-alanine--pyruvate aminotransferase activity" RELATED [EC:2.6.1.18]
  synonym: "beta-alanine-alpha-alanine transaminase activity" RELATED [EC:2.6.1.18]
  synonym: "beta-alanine-pyruvate aminotransferase activity" EXACT []
-@@ -129997,7 +130484,7 @@
+@@ -129997,7 +130487,7 @@
  xref: MetaCyc:2.6.1.18-RXN
  xref: Reactome:R-HSA-909776 "beta-alanine + pyruvate => 3-oxopropanoate + alanine"
  xref: RHEA:14077
@@ -12171,7 +12196,7 @@
  property_value: skos:exactMatch EC:2.6.1.18
  property_value: skos:exactMatch RHEA:14077
  
-@@ -130064,6 +130551,7 @@
+@@ -130064,6 +130554,7 @@
  def: "Catalysis of the synthesis of the HKK-1 carbohydrate epitope; adds a sulfate group to a precursor, GlcA-beta-(1->3)-Gal-beta-(1->4)-GlcNAc-beta-(1->R), forming sulfo-3GlcA-beta-(1->3)-Gal-beta-(1->4)-GlcNAc-beta-(1->R)." [PMID:9478973]
  synonym: "HNK-1 sulphotransferase activity" EXACT []
  xref: Reactome:R-HSA-6786048 "CHST10 transfers SO4(2-) from PAPS to GlcA-LacN on NCAM1"
@@ -12179,7 +12204,7 @@
  is_a: GO:0008146 ! sulfotransferase activity
  
  [Term]
-@@ -130121,7 +130609,7 @@
+@@ -130121,7 +130612,7 @@
  id: GO:0016239
  name: positive regulation of macroautophagy
  namespace: biological_process
@@ -12188,7 +12213,7 @@
  synonym: "activation of macroautophagy" NARROW []
  synonym: "positive regulation of starvation-induced autophagy" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
  synonym: "stimulation of macroautophagy" NARROW []
-@@ -130160,7 +130648,7 @@
+@@ -130160,7 +130651,7 @@
  id: GO:0016242
  name: negative regulation of macroautophagy
  namespace: biological_process
@@ -12197,7 +12222,7 @@
  synonym: "down regulation of macroautophagy" EXACT []
  synonym: "down-regulation of macroautophagy" EXACT []
  synonym: "downregulation of macroautophagy" EXACT []
-@@ -130306,7 +130794,7 @@
+@@ -130306,7 +130797,7 @@
  id: GO:0016259
  name: selenocysteine metabolic process
  namespace: biological_process
@@ -12206,7 +12231,7 @@
  synonym: "selenocysteine metabolism" EXACT []
  xref: Reactome:R-HSA-2408522 "Selenoamino acid metabolism"
  is_a: GO:1901605 ! alpha-amino acid metabolic process
-@@ -130315,7 +130803,7 @@
+@@ -130315,7 +130806,7 @@
  id: GO:0016260
  name: L-selenocysteine biosynthetic process
  namespace: biological_process
@@ -12215,7 +12240,7 @@
  synonym: "selenocysteine anabolism" EXACT []
  synonym: "selenocysteine biosynthesis" EXACT []
  synonym: "selenocysteine formation" EXACT []
-@@ -130334,7 +130822,7 @@
+@@ -130334,7 +130825,7 @@
  id: GO:0016261
  name: selenocysteine catabolic process
  namespace: biological_process
@@ -12224,7 +12249,7 @@
  synonym: "selenocysteine breakdown" EXACT []
  synonym: "selenocysteine catabolism" EXACT []
  synonym: "selenocysteine degradation" EXACT []
-@@ -131092,7 +131580,7 @@
+@@ -131092,7 +131583,7 @@
  id: GO:0016323
  name: basolateral plasma membrane
  namespace: cellular_component
@@ -12233,7 +12258,7 @@
  is_a: GO:0098590 ! plasma membrane region
  relationship: part_of GO:0009925 ! basal plasma membrane
  
-@@ -131335,7 +131823,7 @@
+@@ -131335,7 +131826,7 @@
  id: GO:0016352
  name: obsolete insecticide susceptibility/resistance
  namespace: biological_process
@@ -12242,7 +12267,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "insecticide susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -131345,7 +131833,7 @@
+@@ -131345,7 +131836,7 @@
  id: GO:0016353
  name: obsolete carbamate susceptibility/resistance
  namespace: biological_process
@@ -12251,7 +12276,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "carbamate susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -131355,7 +131843,7 @@
+@@ -131355,7 +131846,7 @@
  id: GO:0016354
  name: obsolete cyclodiene susceptibility/resistance
  namespace: biological_process
@@ -12260,7 +12285,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "cyclodiene susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -131375,7 +131863,7 @@
+@@ -131375,7 +131866,7 @@
  id: GO:0016356
  name: obsolete organophosphorus susceptibility/resistance
  namespace: biological_process
@@ -12269,7 +12294,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "organophosphorus susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -131385,7 +131873,7 @@
+@@ -131385,7 +131876,7 @@
  id: GO:0016357
  name: obsolete pyrethroid susceptibility/resistance
  namespace: biological_process
@@ -12278,7 +12303,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "pyrethroid susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -131403,7 +131891,7 @@
+@@ -131403,7 +131894,7 @@
  id: GO:0016360
  name: sensory organ precursor cell fate determination
  namespace: biological_process
@@ -12287,7 +12312,7 @@
  synonym: "sense organ precursor cell fate determination" EXACT [GOC:dph]
  is_a: GO:0060582 ! cell fate determination involved in pattern specification
  relationship: part_of GO:0008052 ! sensory organ boundary specification
-@@ -131514,15 +132002,16 @@
+@@ -131514,15 +132005,16 @@
  xref: Reactome:R-HSA-159443 "benzoate + Coenzyme A + ATP => benzoyl-CoA + AMP + pyrophosphate"
  xref: Reactome:R-HSA-159567 "ACSM2B-like proteins transform ST to ST-CoA"
  xref: Reactome:R-HSA-177157 "phenylacetate + Coenzyme A + ATP => phenylacetyl-CoA + AMP + pyrophosphate"
@@ -12306,7 +12331,7 @@
  is_a: GO:0008374 ! O-acyltransferase activity
  
  [Term]
-@@ -131687,7 +132176,7 @@
+@@ -131687,7 +132179,7 @@
  name: tRNA (guanine) methyltransferase activity
  namespace: molecular_function
  alt_id: GO:0016424
@@ -12315,7 +12340,7 @@
  synonym: "tRNA (guanosine) methyltransferase activity" EXACT []
  is_a: GO:0008175 ! tRNA methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
-@@ -131697,7 +132186,7 @@
+@@ -131697,7 +132189,7 @@
  id: GO:0016426
  name: tRNA (adenine) methyltransferase activity
  namespace: molecular_function
@@ -12324,7 +12349,7 @@
  synonym: "tRNA (adenine-C2-)-methyltransferase activity" BROAD []
  is_a: GO:0008175 ! tRNA methyltransferase activity
  is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
-@@ -131706,19 +132195,20 @@
+@@ -131706,19 +132198,20 @@
  id: GO:0016427
  name: tRNA (cytidine) methyltransferase activity
  namespace: molecular_function
@@ -12348,7 +12373,7 @@
  synonym: "tRNA (cytosine-5-)-methyltransferase activity" EXACT []
  xref: Reactome:R-HSA-6782388 "NSUN2 methylates cytidine-34, cytidine-48 of unspliced tRNA(Leu)(CAA)"
  xref: Reactome:R-HSA-6782419 "TRDMT1 (DNMT2) methylates cytidine-38 of tRNA(Asp)"
-@@ -131730,6 +132220,7 @@
+@@ -131730,6 +132223,7 @@
  property_value: skos:exactMatch RHEA:61468
  property_value: skos:relatedMatch EC:2.1.1.202
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24771" xsd:anyURI
@@ -12356,7 +12381,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -131754,20 +132245,15 @@
+@@ -131754,20 +132248,15 @@
  
  [Term]
  id: GO:0016430
@@ -12382,7 +12407,7 @@
  
  [Term]
  id: GO:0016432
-@@ -131789,14 +132275,14 @@
+@@ -131789,14 +132278,14 @@
  id: GO:0016433
  name: rRNA (adenine) methyltransferase activity
  namespace: molecular_function
@@ -12399,7 +12424,7 @@
  is_a: GO:0008649 ! rRNA methyltransferase activity
  
  [Term]
-@@ -131811,7 +132297,7 @@
+@@ -131811,7 +132300,7 @@
  id: GO:0016436
  name: rRNA (uridine) methyltransferase activity
  namespace: molecular_function
@@ -12408,7 +12433,7 @@
  is_a: GO:0008649 ! rRNA methyltransferase activity
  
  [Term]
-@@ -132146,7 +132632,7 @@
+@@ -132146,7 +132635,7 @@
  id: GO:0016479
  name: negative regulation of transcription by RNA polymerase I
  namespace: biological_process
@@ -12417,7 +12442,7 @@
  synonym: "down regulation of transcription from RNA polymerase I promoter" EXACT []
  synonym: "down-regulation of transcription from RNA polymerase I promoter" EXACT []
  synonym: "downregulation of transcription from RNA polymerase I promoter" EXACT []
-@@ -132163,7 +132649,7 @@
+@@ -132163,7 +132652,7 @@
  id: GO:0016480
  name: negative regulation of transcription by RNA polymerase III
  namespace: biological_process
@@ -12426,7 +12451,7 @@
  synonym: "down regulation of transcription from RNA polymerase III promoter" EXACT []
  synonym: "down-regulation of transcription from RNA polymerase III promoter" EXACT []
  synonym: "downregulation of transcription from RNA polymerase III promoter" EXACT []
-@@ -132216,6 +132702,7 @@
+@@ -132216,6 +132705,7 @@
  synonym: "protein maturation by peptide bond cleavage" EXACT [GOC:bf]
  synonym: "protein maturation by peptide bond hydrolysis" EXACT [GOC:mah]
  synonym: "protein maturation by proteolysis" RELATED [GOC:mah]
@@ -12434,7 +12459,7 @@
  xref: Reactome:R-HSA-9033500 "TYSND1 cleaves peroxisomal proteins"
  is_a: GO:0006508 ! proteolysis
  is_a: GO:0051604 ! protein maturation
-@@ -132235,7 +132722,7 @@
+@@ -132235,7 +132725,7 @@
  id: GO:0016487
  name: farnesol metabolic process
  namespace: biological_process
@@ -12443,7 +12468,7 @@
  synonym: "farnesol metabolism" EXACT []
  is_a: GO:0006714 ! sesquiterpenoid metabolic process
  is_a: GO:0016093 ! polyprenol metabolic process
-@@ -132245,7 +132732,7 @@
+@@ -132245,7 +132735,7 @@
  id: GO:0016488
  name: farnesol catabolic process
  namespace: biological_process
@@ -12452,7 +12477,7 @@
  synonym: "farnesol breakdown" EXACT []
  synonym: "farnesol catabolism" EXACT []
  synonym: "farnesol degradation" EXACT []
-@@ -132280,15 +132767,11 @@
+@@ -132280,15 +132770,11 @@
  synonym: "redox activity" EXACT []
  xref: EC:1.-.-.-
  xref: Reactome:R-HSA-1614362 "SUMF1 mediates the oxidation of cysteine to formylglycine, producing active arylsulfatases"
@@ -12468,7 +12493,7 @@
  xref: Reactome:R-HSA-8936442 "MARC1,MARC2 reduce N-hydroxylated compounds"
  xref: Reactome:R-HSA-9020249 "Hydroperoxy reductase reduces 4(S)-Hp-17(S)-HDHA to RvD6"
  xref: Reactome:R-HSA-9020260 "Hydroperoxy reductase reduces 7(S)-Hp-17(S)-HDHA to RvD5"
-@@ -132598,7 +133081,7 @@
+@@ -132598,7 +133084,7 @@
  id: GO:0016525
  name: negative regulation of angiogenesis
  namespace: biological_process
@@ -12477,7 +12502,7 @@
  synonym: "down regulation of angiogenesis" EXACT []
  synonym: "down-regulation of angiogenesis" EXACT []
  synonym: "downregulation of angiogenesis" EXACT []
-@@ -132839,6 +133322,7 @@
+@@ -132839,6 +133325,7 @@
  comment: The term 'RNA editing' (GO:0016547) was merged into 'RNA modification' (GO:0009451) on the basis of statements in the preface of Modification and Editing of RNA (ISBN:1555811337) that there is no clear distinction between modification and editing. Parallel changes were made for substrate (e.g. tRNA, rRNA, etc.) specific child terms of 'RNA editing'.
  synonym: "mRNA editing" NARROW [GOC:dph, GOC:hjd, GOC:tb]
  xref: Reactome:R-HSA-75072 "mRNA Editing"
@@ -12485,7 +12510,7 @@
  is_a: GO:0009451 ! RNA modification
  is_a: GO:0016071 ! mRNA metabolic process
  
-@@ -133122,7 +133606,7 @@
+@@ -133122,7 +133609,7 @@
  id: GO:0016583
  name: obsolete nucleosome modeling
  namespace: biological_process
@@ -12494,7 +12519,7 @@
  comment: This term was made obsolete because it has been replaced by more specific terms.
  synonym: "nucleosome modeling" EXACT []
  is_obsolete: true
-@@ -133572,7 +134056,6 @@
+@@ -133572,7 +134059,6 @@
  def: "Catalysis of an oxidation-reduction (redox) reaction in which a CH-CH group acts as a hydrogen or electron donor and reduces a hydrogen or electron acceptor." [EC:1.3.-.-]
  synonym: "oxidoreductase activity, acting on the CH-CH group of donors, other acceptors" NARROW []
  xref: EC:1.3.-.-
@@ -12502,7 +12527,7 @@
  xref: Reactome:R-HSA-9661710 "An unknown oxidase oxidises D-UBGN to UBN"
  is_a: GO:0016491 ! oxidoreductase activity
  property_value: skos:exactMatch EC:1.3.-.-
-@@ -133584,7 +134067,6 @@
+@@ -133584,7 +134070,6 @@
  namespace: molecular_function
  def: "Catalysis of an oxidation-reduction (redox) reaction in which a CH-CH group acts as a hydrogen or electron donor and reduces NAD or NADP." [EC:1.3.1.-]
  xref: EC:1.3.1.-
@@ -12510,7 +12535,7 @@
  xref: Reactome:R-HSA-4755572 "Defective SRD5A3 does not reduce pPNOL to DCHOL"
  xref: Reactome:R-HSA-9661726 "An unknown reductase reduces D-UBGN to STBN"
  xref: Reactome:R-HSA-9661745 "An unknown BILR reduces BIL to D-UBGN"
-@@ -133837,6 +134319,7 @@
+@@ -133837,6 +134322,7 @@
  namespace: molecular_function
  def: "Catalysis of an oxidation-reduction (redox) reaction in which a CH-NH group acts as a hydrogen or electron donor and reduces quinone or similar compound." [GOC:jl]
  xref: EC:1.5.5.-
@@ -12518,7 +12543,7 @@
  is_a: GO:0016645 ! oxidoreductase activity, acting on the CH-NH group of donors
  property_value: skos:exactMatch EC:1.5.5.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -134067,6 +134550,7 @@
+@@ -134067,6 +134553,7 @@
  def: "Catalysis of an oxidation-reduction (redox) reaction in which a sulfur-containing group acts as a hydrogen or electron donor and reduces disulfide." [GOC:jl]
  synonym: "oxidoreductase activity, acting on sulphur group of donors, disulphide as acceptor" EXACT []
  xref: EC:1.8.4.-
@@ -12526,7 +12551,7 @@
  is_a: GO:0016667 ! oxidoreductase activity, acting on a sulfur group of donors
  property_value: skos:exactMatch EC:1.8.4.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -134112,7 +134596,6 @@
+@@ -134112,7 +134599,6 @@
  synonym: "oxidoreductase activity, acting on haem group of donors" EXACT []
  synonym: "oxidoreductase activity, acting on heme group of donors, other acceptors" NARROW []
  xref: EC:1.9.-.-
@@ -12534,7 +12559,7 @@
  is_a: GO:0016491 ! oxidoreductase activity
  property_value: skos:exactMatch EC:1.9.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -134213,7 +134696,7 @@
+@@ -134213,7 +134699,7 @@
  id: GO:0016688
  name: L-ascorbate peroxidase activity
  namespace: molecular_function
@@ -12543,7 +12568,7 @@
  synonym: "ascorbate peroxidase activity" RELATED [EC:1.11.1.11]
  synonym: "ascorbic acid peroxidase activity" RELATED [EC:1.11.1.11]
  synonym: "L-ascorbate:hydrogen-peroxide oxidoreductase activity" RELATED [EC:1.11.1.11]
-@@ -134231,7 +134714,7 @@
+@@ -134231,7 +134717,7 @@
  id: GO:0016689
  name: manganese peroxidase activity
  namespace: molecular_function
@@ -12552,7 +12577,7 @@
  synonym: "Mn(II):hydrogen-peroxide oxidoreductase activity" RELATED [EC:1.11.1.13]
  synonym: "Mn-dependent (NADH-oxidizing) peroxidase activity" RELATED [EC:1.11.1.13]
  synonym: "Mn-dependent peroxidase activity" RELATED [EC:1.11.1.13]
-@@ -134461,6 +134944,7 @@
+@@ -134461,6 +134947,7 @@
  def: "Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from each of two donors, and molecular oxygen is reduced or incorporated into a donor." [EC:1.14.-.-]
  synonym: "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, miscellaneous" NARROW []
  xref: EC:1.14.-.-
@@ -12560,7 +12585,7 @@
  is_a: GO:0016491 ! oxidoreductase activity
  property_value: skos:exactMatch EC:1.14.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -134598,7 +135082,7 @@
+@@ -134598,7 +135085,7 @@
  xref: EC:1.14.14.-
  xref: EC:1.14.14.1
  xref: MetaCyc:UNSPECIFIC-MONOOXYGENASE-RXN
@@ -12569,7 +12594,7 @@
  xref: Reactome:R-HSA-211966 "CYP2D6 4-hydroxylates debrisoquine"
  xref: RHEA:17149
  is_a: GO:0004497 ! monooxygenase activity
-@@ -134929,6 +135413,7 @@
+@@ -134929,6 +135416,7 @@
  xref: EC:2.-.-.-
  xref: Reactome:R-HSA-1483089 "PE is converted to PS by PTDSS2"
  xref: Reactome:R-HSA-1483186 "PC is converted to PS by PTDSS1"
@@ -12577,7 +12602,7 @@
  xref: Reactome:R-HSA-5668414 "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
  xref: Reactome:R-HSA-8868783 "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
  is_a: GO:0003824 ! catalytic activity
-@@ -135168,6 +135653,7 @@
+@@ -135168,6 +135656,7 @@
  synonym: "uridine diphosphoglucose-cellulose glucosyltransferase activity" RELATED [EC:2.4.1.12]
  xref: EC:2.4.1.12
  xref: MetaCyc:CELLULOSE-SYNTHASE-UDP-FORMING-RXN
@@ -12585,7 +12610,7 @@
  xref: RHEA:19929
  is_a: GO:0016759 ! cellulose synthase activity
  is_a: GO:0035251 ! UDP-glucosyltransferase activity
-@@ -135309,6 +135795,7 @@
+@@ -135309,6 +135798,7 @@
  comment: Note that this term encompasses all kinase activities, as well as activities that transfer other phosphorus-containing groups such as diphosphate or nucleotides.
  subset: goslim_chembl
  xref: EC:2.7.-.-
@@ -12593,7 +12618,7 @@
  is_a: GO:0016740 ! transferase activity
  property_value: skos:exactMatch EC:2.7.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -135321,6 +135808,7 @@
+@@ -135321,6 +135811,7 @@
  subset: goslim_drosophila
  xref: EC:2.7.1.-
  xref: Reactome:R-HSA-2161193 "abacavir + AMP => abacavir monophosphate + adenosine"
@@ -12601,7 +12626,7 @@
  is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
  property_value: skos:exactMatch EC:2.7.1.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -135389,6 +135877,8 @@
+@@ -135389,6 +135880,8 @@
  xref: EC:2.7.8.-
  xref: Reactome:R-HSA-162742 "(ethanolamineP) mannose (a1-2) mannose (a1-6) (ethanolamineP) mannose (a1-4) glucosaminyl-acyl-PI -> (ethanolamineP) mannose (a1-2) (ethanolamineP) mannose (a1-6) (ethanolamineP) mannose (a1-4) glucosaminyl-acyl-PI"
  xref: Reactome:R-HSA-163069 "mannose (a1-2) mannose (a1-6) (ethanolamineP) mannose (a1-4) glucosaminyl-acyl-PI + phosphatidylethanolamine -> (ethanolamineP) mannose (a1-2) mannose (a1-6) (ethanolamineP) mannose (a1-4) glucosaminyl-acyl-PI (acyl-GPI) + diacylglycerol"
@@ -12610,7 +12635,7 @@
  is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
  property_value: skos:exactMatch EC:2.7.8.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -135423,6 +135913,10 @@
+@@ -135423,6 +135916,10 @@
  xref: EC:2.8.1.-
  xref: Reactome:R-HSA-1614618 "Persulfide sulfur is transferred onto sulfite"
  xref: Reactome:R-HSA-6782264 "CTU1:CTU2:URM1 thiolates uridine-34 in tRNAs"
@@ -12621,7 +12646,7 @@
  xref: Reactome:R-HSA-947538 "Transfer of sulfur from MOCS3-S-S onto MOCS2A"
  is_a: GO:0016782 ! transferase activity, transferring sulphur-containing groups
  property_value: skos:exactMatch EC:2.8.1.-
-@@ -135439,10 +135933,6 @@
+@@ -135439,10 +135936,6 @@
  synonym: "mercaptopyruvate sulfurtransferase activity" EXACT []
  xref: EC:2.8.1.2
  xref: MetaCyc:MERCAPYSTRANS-RXN
@@ -12632,7 +12657,7 @@
  xref: RHEA:21740
  is_a: GO:0016783 ! sulfurtransferase activity
  property_value: skos:exactMatch EC:2.8.1.2
-@@ -135486,6 +135976,7 @@
+@@ -135486,6 +135979,7 @@
  xref: Reactome:R-HSA-6788295 "HDHD1:Mg2+ dephosphorylates PURIDP"
  xref: Reactome:R-HSA-8938314 "ENPPs hydrolyse CoA-SH to PPANT, PAP"
  xref: Reactome:R-HSA-8952137 "Phospholipid phosphatase 6 hydrolyses Presqualene diphosphate to presqualene monophosphate"
@@ -12640,7 +12665,7 @@
  is_a: GO:0003824 ! catalytic activity
  property_value: skos:exactMatch EC:3.-.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -135535,6 +136026,7 @@
+@@ -135535,6 +136029,7 @@
  xref: Reactome:R-HSA-4419986 "Unknown pPPP phosphatase dephosphorylates pPPP to pPNOL"
  xref: Reactome:R-HSA-9636457 "SapM dephosphorylates PI3P"
  xref: Reactome:R-HSA-9837419 "PANK4 hydrolyzes PPANT to pantetheine"
@@ -12648,7 +12673,7 @@
  is_a: GO:0042578 ! phosphoric ester hydrolase activity
  property_value: skos:exactMatch EC:3.1.3.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25755" xsd:anyURI
-@@ -135608,6 +136100,7 @@
+@@ -135608,6 +136103,7 @@
  xref: EC:3.2.-.-
  xref: Reactome:R-HSA-1793176 "DS is cleaved from its proteoglycan"
  xref: Reactome:R-HSA-2065233 "CS is cleaved from its proteoglycan"
@@ -12656,7 +12681,7 @@
  is_a: GO:0016787 ! hydrolase activity
  property_value: skos:exactMatch EC:3.2.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -135763,7 +136256,7 @@
+@@ -135763,7 +136259,7 @@
  namespace: molecular_function
  def: "Catalysis of the hydrolysis of any non-peptide carbon-nitrogen bond in a cyclic amide." [EC:3.5.2.-]
  xref: EC:3.5.2.-
@@ -12665,7 +12690,7 @@
  is_a: GO:0016810 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
  property_value: skos:exactMatch EC:3.5.2.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -135976,6 +136469,7 @@
+@@ -135976,6 +136472,7 @@
  xref: Reactome:R-HSA-6787757 "PXLP-K333-GADL1 decarboxylates acidic AAs"
  xref: Reactome:R-HSA-6814165 "PXLP-K333-GADL1 decarboxylates CSA to HTAU"
  xref: Reactome:R-HSA-71223 "2-amino-3-carboxymuconate semialdehyde => 2-aminomuconate semialdehyde + CO2"
@@ -12673,7 +12698,7 @@
  is_a: GO:0016830 ! carbon-carbon lyase activity
  property_value: skos:exactMatch EC:4.1.1.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -136035,7 +136529,6 @@
+@@ -136035,7 +136532,6 @@
  def: "Catalysis of the cleavage of a carbon-oxygen bond by elimination of water." [EC:4.2.1.-]
  xref: EC:4.2.1.-
  xref: Reactome:R-HSA-2161659 "PGE2 is dehydrated to PGA2"
@@ -12681,7 +12706,7 @@
  is_a: GO:0016835 ! carbon-oxygen lyase activity
  property_value: skos:exactMatch EC:4.2.1.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -136075,7 +136568,7 @@
+@@ -136075,7 +136571,7 @@
  id: GO:0016840
  name: carbon-nitrogen lyase activity
  namespace: molecular_function
@@ -12690,7 +12715,7 @@
  synonym: "other carbon-nitrogen lyase activity" NARROW []
  xref: EC:4.3.-.-
  is_a: GO:0016829 ! lyase activity
-@@ -136152,6 +136645,8 @@
+@@ -136152,6 +136648,8 @@
  synonym: "carbon-sulphur lyase activity" EXACT []
  xref: EC:4.4.-.-
  xref: Reactome:R-HSA-1614567 "Excess homocysteine yields homolanthionine and H2S"
@@ -12699,7 +12724,7 @@
  is_a: GO:0016829 ! lyase activity
  property_value: skos:exactMatch EC:4.4.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -136272,7 +136767,7 @@
+@@ -136272,7 +136770,7 @@
  xref: EC:5.-.-.-
  xref: Reactome:R-HSA-2161666 "PGA2 is isomerised to PGC2"
  xref: Reactome:R-HSA-2161735 "PGC2 is isomerised to PGB2"
@@ -12708,7 +12733,7 @@
  is_a: GO:0003824 ! catalytic activity
  property_value: skos:exactMatch EC:5.-.-.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -136382,6 +136877,7 @@
+@@ -136382,6 +136880,7 @@
  def: "Catalysis of an oxidation-reduction (redox) reaction in which the hydrogen donor and acceptor are the same molecule, one or more carbon-carbon double bonds in the molecule are rearranged, and no oxidized product appears." [EC:5.3.3.-, GOC:mah]
  synonym: "intramolecular isomerase activity, transposing C=C bonds" EXACT []
  xref: EC:5.3.3.-
@@ -12716,7 +12741,7 @@
  is_a: GO:0016860 ! intramolecular oxidoreductase activity
  property_value: skos:exactMatch EC:5.3.3.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -136576,7 +137072,7 @@
+@@ -136576,7 +137075,7 @@
  id: GO:0016880
  name: acid-ammonia (or amide) ligase activity
  namespace: molecular_function
@@ -12725,7 +12750,7 @@
  synonym: "amide synthase activity" EXACT []
  xref: EC:6.3.1.-
  is_a: GO:0016879 ! ligase activity, forming carbon-nitrogen bonds
-@@ -136681,6 +137177,9 @@
+@@ -136681,6 +137180,9 @@
  xref: Reactome:R-HSA-9668415 "VPS4 mediates disassembly of ESCRTIII subunits to promote sealing of holes in the nuclear envelope"
  xref: Reactome:R-HSA-9706399 "RHOBTB3 hydrolyzes ATP"
  xref: Reactome:R-HSA-9749350 "ATP-dependent release of CDT1 from the OCCM complex"
@@ -12735,7 +12760,7 @@
  xref: RHEA:13065
  is_a: GO:0017111 ! ribonucleoside triphosphate phosphatase activity
  relationship: part_of GO:0140657 ! ATP-dependent activity
-@@ -136808,6 +137307,7 @@
+@@ -136808,6 +137310,7 @@
  synonym: "exoribonuclease activity, producing 5'-phosphomonoesters" EXACT []
  xref: EC:3.1.13.-
  xref: Reactome:R-HSA-429860 "DCP1-DCP2 complex decaps mRNA"
@@ -12743,7 +12768,7 @@
  is_a: GO:0004532 ! RNA exonuclease activity
  property_value: skos:exactMatch EC:3.1.13.-
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24408" xsd:anyURI
-@@ -137484,8 +137984,7 @@
+@@ -137484,8 +137987,7 @@
  xref: MetaCyc:RXN0-1141
  xref: MetaCyc:RXN0-5098
  xref: RHEA:49288
@@ -12753,7 +12778,7 @@
  is_a: GO:0140096 ! catalytic activity, acting on a protein
  property_value: skos:exactMatch EC:6.3.1.20
  property_value: skos:exactMatch MetaCyc:RXN-17127
-@@ -137493,6 +137992,7 @@
+@@ -137493,6 +137995,7 @@
  property_value: skos:narrowMatch MetaCyc:RXN0-1141
  property_value: skos:narrowMatch MetaCyc:RXN0-5098
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
@@ -12761,7 +12786,7 @@
  
  [Term]
  id: GO:0016980
-@@ -137613,7 +138113,7 @@
+@@ -137613,7 +138116,7 @@
  id: GO:0016990
  name: arginine deiminase activity
  namespace: molecular_function
@@ -12770,7 +12795,7 @@
  synonym: "arginine dihydrolase activity" RELATED [EC:3.5.3.6]
  synonym: "citrulline iminase activity" RELATED [EC:3.5.3.6]
  synonym: "L-arginine deiminase activity" RELATED [EC:3.5.3.6]
-@@ -137740,7 +138240,7 @@
+@@ -137740,7 +138243,7 @@
  name: cell wall macromolecule catabolic process
  namespace: biological_process
  alt_id: GO:0044039
@@ -12779,7 +12804,7 @@
  synonym: "cell wall breakdown" RELATED [GOC:mah]
  synonym: "cell wall catabolism" RELATED [GOC:mah]
  synonym: "cell wall degradation" RELATED [GOC:mah]
-@@ -137763,7 +138263,7 @@
+@@ -137763,7 +138266,7 @@
  id: GO:0017000
  name: antibiotic biosynthetic process
  namespace: biological_process
@@ -12788,7 +12813,7 @@
  subset: goslim_metagenomics
  synonym: "antibiotic anabolism" EXACT []
  synonym: "antibiotic biosynthesis" EXACT []
-@@ -137776,7 +138276,7 @@
+@@ -137776,7 +138279,7 @@
  id: GO:0017001
  name: antibiotic catabolic process
  namespace: biological_process
@@ -12797,7 +12822,7 @@
  synonym: "antibiotic breakdown" EXACT []
  synonym: "antibiotic catabolism" EXACT []
  synonym: "antibiotic degradation" EXACT []
-@@ -138095,6 +138595,7 @@
+@@ -138095,6 +138598,7 @@
  xref: Reactome:R-HSA-1606602 "ASAH1 hydrolyzes ceramide"
  xref: Reactome:R-HSA-428205 "ACER2 hydrolyzes ceramide (Golgi)"
  xref: Reactome:R-HSA-428231 "ACER1 hydrolyzes ceramide (endoplasmic reticulum)"
@@ -12805,7 +12830,7 @@
  xref: RHEA:20856
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
  property_value: skos:exactMatch EC:3.5.1.23
-@@ -138179,8 +138680,6 @@
+@@ -138179,8 +138683,6 @@
  def: "OBSOLETE. Catalysis of the reaction: sphingosine + ATP = sphingosine 1-phosphate + ADP." [RHEA:35847]
  comment: This term was obsoleted because it represents a specific substrate of sphingosine kinase activity ; GO:0008481.
  synonym: "sphingosine kinase activity" BROAD []
@@ -12814,7 +12839,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30243" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0008481
-@@ -138229,7 +138728,7 @@
+@@ -138229,7 +138731,7 @@
  id: GO:0017055
  name: negative regulation of RNA polymerase II transcription preinitiation complex assembly
  namespace: biological_process
@@ -12823,7 +12848,7 @@
  synonym: "down regulation of RNA polymerase II transcriptional preinitiation complex assembly" EXACT []
  synonym: "down-regulation of RNA polymerase II transcriptional preinitiation complex assembly" EXACT []
  synonym: "downregulation of RNA polymerase II transcriptional preinitiation complex assembly" EXACT []
-@@ -138255,11 +138754,10 @@
+@@ -138255,11 +138757,10 @@
  synonym: "nuclear pore activity" RELATED []
  synonym: "nucleocytoplasmic transporter activity" EXACT []
  xref: Reactome:R-HSA-1176059 "Translocation of Influenza A virus nonstructural protein 1 (NS1A) into the nucleus"
@@ -12836,7 +12861,7 @@
  xref: Reactome:R-HSA-5661474 "Defective NPC does not transport GCK1:GKRP from cytosol to nucleoplasm"
  xref: Reactome:R-HSA-6783483 "tRNA:XPOT:RAN:GTP translocates from the nucleus to the cytosol"
  is_a: GO:0005198 ! structural molecule activity
-@@ -138281,7 +138779,7 @@
+@@ -138281,7 +138782,7 @@
  xref: EC:3.1.1.31
  xref: KEGG_REACTION:R02035
  xref: MetaCyc:6PGLUCONOLACT-RXN
@@ -12845,7 +12870,7 @@
  xref: RHEA:12556
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
  property_value: skos:exactMatch EC:3.1.1.31
-@@ -138292,7 +138790,7 @@
+@@ -138292,7 +138793,7 @@
  id: GO:0017058
  name: FH1 domain binding
  namespace: molecular_function
@@ -12854,7 +12879,7 @@
  is_a: GO:0019904 ! protein domain specific binding
  
  [Term]
-@@ -138641,7 +139139,7 @@
+@@ -138641,7 +139142,7 @@
  id: GO:0017088
  name: obsolete X-Pro dipeptidyl-peptidase activity
  namespace: molecular_function
@@ -12863,7 +12888,7 @@
  comment: This term was made obsolete because it represents a gene product.
  synonym: "X-Pro dipeptidyl-peptidase activity" EXACT []
  synonym: "Xaa-Pro dipeptidyl-peptidase activity" EXACT []
-@@ -138873,6 +139371,7 @@
+@@ -138873,6 +139374,7 @@
  xref: Reactome:R-HSA-5651782 "FEN1 bound to POLB cleaves displaced DNA strand (flap)"
  xref: Reactome:R-HSA-5687664 "FEN1 cleaves displaced ssDNA flaps during MMEJ"
  xref: Reactome:R-HSA-69152 "Removal of remaining Flap"
@@ -12871,7 +12896,7 @@
  is_a: GO:0016888 ! DNA endonuclease activity, producing 5'-phosphomonoesters
  is_a: GO:0048256 ! flap endonuclease activity
  
-@@ -139018,14 +139517,15 @@
+@@ -139018,14 +139520,15 @@
  
  [Term]
  id: GO:0017119
@@ -12889,7 +12914,7 @@
  
  [Term]
  id: GO:0017120
-@@ -139066,7 +139566,7 @@
+@@ -139066,7 +139569,7 @@
  id: GO:0017124
  name: SH3 domain binding
  namespace: molecular_function
@@ -12898,7 +12923,7 @@
  is_a: GO:0019904 ! protein domain specific binding
  
  [Term]
-@@ -139095,8 +139595,7 @@
+@@ -139095,8 +139598,7 @@
  namespace: molecular_function
  def: "Catalysis of the movement of phospholipids from one membrane bilayer leaflet to the other, by an ATP-independent mechanism." [GOC:cjm, PMID:20043909, PMID:20302864]
  comment: Nomenclature note. Scramblases are ATP-independent, non-selective, translocases inducing non-specific transbilayer movements across the membrane. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases).
@@ -12908,7 +12933,7 @@
  relationship: part_of GO:0017121 ! plasma membrane phospholipid scrambling
  
  [Term]
-@@ -139192,7 +139691,7 @@
+@@ -139192,7 +139694,7 @@
  id: GO:0017139
  name: obsolete arsenate sensitivity/resistance
  namespace: biological_process
@@ -12917,7 +12942,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "arsenate sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -139202,7 +139701,7 @@
+@@ -139202,7 +139704,7 @@
  id: GO:0017141
  name: obsolete antibiotic susceptibility/resistance
  namespace: biological_process
@@ -12926,7 +12951,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "antibiotic susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -139212,7 +139711,7 @@
+@@ -139212,7 +139714,7 @@
  id: GO:0017142
  name: obsolete toxin susceptibility/resistance
  namespace: biological_process
@@ -12935,7 +12960,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "toxin susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -139347,7 +139846,7 @@
+@@ -139347,7 +139849,7 @@
  id: GO:0017156
  name: calcium-ion regulated exocytosis
  namespace: biological_process
@@ -12944,7 +12969,7 @@
  comment: Note that the calcium regulated exocytosis pathway can be leaky: some level of exocytosis via this pathway occurs spontaneously. This phenomenon underlies spontaneous neurotransmitter release from presynapses. This phenomenon is distinct from the unregulated, calcium independent exocytosis pathway.
  synonym: "calcium ion-dependent exocytosis" EXACT []
  is_a: GO:0045055 ! regulated exocytosis
-@@ -139356,7 +139855,7 @@
+@@ -139356,7 +139858,7 @@
  id: GO:0017157
  name: regulation of exocytosis
  namespace: biological_process
@@ -12953,7 +12978,7 @@
  is_a: GO:0060627 ! regulation of vesicle-mediated transport
  is_a: GO:1903530 ! regulation of secretion by cell
  intersection_of: GO:0065007 ! biological regulation
-@@ -139367,7 +139866,7 @@
+@@ -139367,7 +139869,7 @@
  id: GO:0017158
  name: regulation of calcium ion-dependent exocytosis
  namespace: biological_process
@@ -12962,7 +12987,7 @@
  is_a: GO:1903305 ! regulation of regulated secretory pathway
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0017156 ! calcium-ion regulated exocytosis
-@@ -139603,7 +140102,7 @@
+@@ -139603,7 +140105,7 @@
  id: GO:0017179
  name: obsolete peptidyl-diphthine metabolic process
  namespace: biological_process
@@ -12971,7 +12996,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping term.
  synonym: "peptidyl-diphthine metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25694" xsd:anyURI
-@@ -139613,7 +140112,7 @@
+@@ -139613,7 +140115,7 @@
  id: GO:0017180
  name: obsolete protein histidyl modification to diphthine
  namespace: biological_process
@@ -12980,7 +13005,7 @@
  comment: This term was obsoleted because there is no evidence that this process exists.
  synonym: "peptidyl-diphthine anabolism from peptidyl-histidine" EXACT []
  synonym: "peptidyl-diphthine biosynthetic process from peptidyl-histidine" EXACT []
-@@ -139626,7 +140125,7 @@
+@@ -139626,7 +140128,7 @@
  id: GO:0017181
  name: obsolete peptidyl-diphthine catabolic process
  namespace: biological_process
@@ -12989,7 +13014,7 @@
  comment: This term was obsoleted because there is no evidence that this process exists.
  synonym: "peptidyl-diphthine breakdown" EXACT []
  synonym: "peptidyl-diphthine catabolism" EXACT []
-@@ -139638,7 +140137,7 @@
+@@ -139638,7 +140140,7 @@
  id: GO:0017182
  name: obsolete peptidyl-diphthamide metabolic process
  namespace: biological_process
@@ -12998,7 +13023,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping term.
  synonym: "peptidyl-diphthamide metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25694" xsd:anyURI
-@@ -139661,7 +140160,7 @@
+@@ -139661,7 +140163,7 @@
  id: GO:0017184
  name: obsolete peptidyl-diphthamide catabolic process
  namespace: biological_process
@@ -13007,7 +13032,7 @@
  comment: This term was obsoleted because there is no evidence that this process exists.
  synonym: "peptidyl-diphthamide breakdown" EXACT []
  synonym: "peptidyl-diphthamide catabolism" EXACT []
-@@ -139715,7 +140214,7 @@
+@@ -139715,7 +140217,7 @@
  xref: EC:2.3.1.17
  xref: KEGG_REACTION:R00487
  xref: MetaCyc:ASPARTATE-N-ACETYLTRANSFERASE-RXN
@@ -13016,7 +13041,7 @@
  xref: RHEA:14165
  is_a: GO:0140085 ! L-amino-acid N-acetyltransferase activity
  property_value: skos:exactMatch EC:2.3.1.17
-@@ -141677,14 +142176,13 @@
+@@ -141677,14 +142179,13 @@
  namespace: biological_process
  def: "The alteration of an amino acid residue in a peptide." [GOC:mah]
  subset: gocheck_do_not_annotate
@@ -13032,7 +13057,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141692,7 +142190,7 @@
+@@ -141692,7 +142193,7 @@
  id: GO:0018195
  name: peptidyl-arginine modification
  namespace: biological_process
@@ -13041,7 +13066,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141700,7 +142198,7 @@
+@@ -141700,7 +142201,7 @@
  id: GO:0018196
  name: obsolete peptidyl-asparagine modification
  namespace: biological_process
@@ -13050,7 +13075,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23829" xsd:anyURI
  is_obsolete: true
-@@ -141717,7 +142215,7 @@
+@@ -141717,7 +142218,7 @@
  id: GO:0018198
  name: peptidyl-cysteine modification
  namespace: biological_process
@@ -13059,7 +13084,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141725,7 +142223,7 @@
+@@ -141725,7 +142226,7 @@
  id: GO:0018199
  name: peptidyl-glutamine modification
  namespace: biological_process
@@ -13068,7 +13093,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141733,7 +142231,7 @@
+@@ -141733,7 +142234,7 @@
  id: GO:0018200
  name: peptidyl-glutamic acid modification
  namespace: biological_process
@@ -13077,7 +13102,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141741,7 +142239,7 @@
+@@ -141741,7 +142242,7 @@
  id: GO:0018201
  name: peptidyl-glycine modification
  namespace: biological_process
@@ -13086,7 +13111,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141757,7 +142255,7 @@
+@@ -141757,7 +142258,7 @@
  id: GO:0018203
  name: peptidyl-isoleucine modification
  namespace: biological_process
@@ -13095,7 +13120,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141765,7 +142263,7 @@
+@@ -141765,7 +142266,7 @@
  id: GO:0018204
  name: peptidyl-leucine modification
  namespace: biological_process
@@ -13104,7 +13129,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141773,7 +142271,7 @@
+@@ -141773,7 +142274,7 @@
  id: GO:0018205
  name: peptidyl-lysine modification
  namespace: biological_process
@@ -13113,7 +13138,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141781,7 +142279,7 @@
+@@ -141781,7 +142282,7 @@
  id: GO:0018206
  name: peptidyl-methionine modification
  namespace: biological_process
@@ -13122,7 +13147,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141789,7 +142287,7 @@
+@@ -141789,7 +142290,7 @@
  id: GO:0018207
  name: peptidyl-phenylalanine modification
  namespace: biological_process
@@ -13131,7 +13156,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141797,7 +142295,7 @@
+@@ -141797,7 +142298,7 @@
  id: GO:0018208
  name: peptidyl-proline modification
  namespace: biological_process
@@ -13140,7 +13165,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141805,7 +142303,7 @@
+@@ -141805,7 +142306,7 @@
  id: GO:0018209
  name: peptidyl-serine modification
  namespace: biological_process
@@ -13149,7 +13174,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141813,7 +142311,7 @@
+@@ -141813,7 +142314,7 @@
  id: GO:0018210
  name: peptidyl-threonine modification
  namespace: biological_process
@@ -13158,7 +13183,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141829,7 +142327,7 @@
+@@ -141829,7 +142330,7 @@
  id: GO:0018212
  name: peptidyl-tyrosine modification
  namespace: biological_process
@@ -13167,7 +13192,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -141837,7 +142335,7 @@
+@@ -141837,7 +142338,7 @@
  id: GO:0018213
  name: peptidyl-valine modification
  namespace: biological_process
@@ -13176,7 +13201,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0018193 ! peptidyl-amino acid modification
  
-@@ -142392,15 +142890,6 @@
+@@ -142392,15 +142893,6 @@
  def: "OBSOLETE. Catalysis of the reaction: ATP + biotin + protein = AMP + diphosphate + biotin-protein." [GOC:mah]
  comment: The reason for obsoletion is this term is an unnecessary grouping term.
  synonym: "biotin-apoprotein ligase activity" EXACT []
@@ -13192,7 +13217,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28107" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0004077
-@@ -142479,9 +142968,6 @@
+@@ -142479,9 +142971,6 @@
  def: "OBSOLETE. The glycosylation of protein via the N4 atom of peptidyl-asparagine forming N4-glycosyl-L-asparagine; the most common form is N-acetylglucosaminyl asparagine; N-acetylgalactosaminyl asparagine and N4 glucosyl asparagine also occur. This modification typically occurs in extracellular peptides with an N-X-(ST) motif. Partial modification has been observed to occur with cysteine, rather than serine or threonine, in the third position; secondary structure features are important, and proline in the second or fourth positions inhibits modification." [GOC:jsg]
  comment: The reason for obsoletion is that this term is equivalent to protein N-linked glycosylation.
  synonym: "protein amino acid N-linked glycosylation via asparagine" EXACT [GOC:bf]
@@ -13202,7 +13227,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30880" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0006487
-@@ -144403,7 +144889,7 @@
+@@ -144403,7 +144892,7 @@
  id: GO:0018488
  name: aryl-aldehyde oxidase activity
  namespace: molecular_function
@@ -13211,7 +13236,7 @@
  synonym: "aryl-aldehyde:oxygen oxidoreductase activity" RELATED [EC:1.2.3.9]
  xref: EC:1.2.3.9
  xref: MetaCyc:ARYL-ALDEHYDE-OXIDASE-RXN
-@@ -144953,7 +145439,7 @@
+@@ -144953,7 +145442,7 @@
  id: GO:0018527
  name: cyclohexylamine oxidase activity
  namespace: molecular_function
@@ -13220,7 +13245,7 @@
  synonym: "cyclohexylamine:oxygen oxidoreductase (deaminating)" RELATED [EC:1.4.3.12]
  xref: EC:1.4.3.12
  xref: MetaCyc:CYCLOHEXYLAMINE-OXIDASE-RXN
-@@ -145001,7 +145487,7 @@
+@@ -145001,7 +145490,7 @@
  xref: MetaCyc:R-6-HYDROXYNICOTINE-OXIDASE-RXN
  xref: RHEA:10012
  xref: UM-BBD_reactionID:r0477
@@ -13229,7 +13254,7 @@
  property_value: skos:exactMatch EC:1.5.3.6
  property_value: skos:exactMatch RHEA:10012
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
-@@ -145021,7 +145507,7 @@
+@@ -145021,7 +145510,7 @@
  xref: MetaCyc:S-6-HYDROXYNICOTINE-OXIDASE-RXN
  xref: RHEA:11880
  xref: UM-BBD_reactionID:r0478
@@ -13238,7 +13263,7 @@
  property_value: skos:exactMatch EC:1.5.3.5
  property_value: skos:exactMatch RHEA:11880
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -145190,7 +145676,6 @@
+@@ -145190,7 +145679,6 @@
  def: "OBSOLETE. Catalysis of the removal of one or more nitrite (NO2-) groups from nitroglycerin or a derivative." [GOC:curators]
  comment: This term was obsoleted because there is no evidence that this specific reaction exists.
  synonym: "NG reductase activity" EXACT []
@@ -13246,7 +13271,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28261" xsd:anyURI
  is_obsolete: true
  
-@@ -145207,7 +145692,7 @@
+@@ -145207,7 +145695,7 @@
  id: GO:0018549
  name: methanethiol oxidase activity
  namespace: molecular_function
@@ -13255,7 +13280,7 @@
  synonym: "(MM)-oxidase activity" RELATED [EC:1.8.3.4]
  synonym: "methanethiol:oxygen oxidoreductase activity" RELATED [EC:1.8.3.4]
  synonym: "methyl mercaptan oxidase activity" RELATED [EC:1.8.3.4]
-@@ -145965,7 +146450,7 @@
+@@ -145965,7 +146453,7 @@
  id: GO:0018618
  name: anthranilate 1,2-dioxygenase (deaminating, decarboxylating) activity
  namespace: molecular_function
@@ -13264,7 +13289,7 @@
  synonym: "AntA" RELATED []
  synonym: "AntB" RELATED []
  synonym: "AntC" RELATED []
-@@ -147278,30 +147763,30 @@
+@@ -147278,30 +147766,30 @@
  
  [Term]
  id: GO:0018711
@@ -13310,7 +13335,7 @@
  
  [Term]
  id: GO:0018715
-@@ -147341,12 +147826,18 @@
+@@ -147341,12 +147829,18 @@
  
  [Term]
  id: GO:0018719
@@ -13331,7 +13356,7 @@
  
  [Term]
  id: GO:0018720
-@@ -147681,7 +148172,7 @@
+@@ -147681,7 +148175,7 @@
  id: GO:0018750
  name: biuret amidohydrolase activity
  namespace: molecular_function
@@ -13340,7 +13365,7 @@
  xref: EC:3.5.1.84
  xref: RHEA:17525
  xref: UM-BBD_reactionID:r0846
-@@ -147701,12 +148192,12 @@
+@@ -147701,12 +148195,12 @@
  
  [Term]
  id: GO:0018752
@@ -13358,7 +13383,7 @@
  
  [Term]
  id: GO:0018753
-@@ -147725,40 +148216,48 @@
+@@ -147725,40 +148219,48 @@
  
  [Term]
  id: GO:0018754
@@ -13418,7 +13443,7 @@
  
  [Term]
  id: GO:0018758
-@@ -147826,7 +148325,7 @@
+@@ -147826,7 +148328,7 @@
  id: GO:0018762
  name: aliphatic nitrilase activity
  namespace: molecular_function
@@ -13427,7 +13452,7 @@
  synonym: "aliphatic nitrile aminohydrolase activity" RELATED [EC:3.5.5.7]
  xref: EC:3.5.5.7
  xref: MetaCyc:3.5.5.7-RXN
-@@ -147886,13 +148385,12 @@
+@@ -147886,13 +148388,12 @@
  
  [Term]
  id: GO:0018766
@@ -13446,7 +13471,7 @@
  
  [Term]
  id: GO:0018767
-@@ -147954,12 +148452,12 @@
+@@ -147954,12 +148455,12 @@
  
  [Term]
  id: GO:0018772
@@ -13464,7 +13489,7 @@
  
  [Term]
  id: GO:0018773
-@@ -148423,12 +148921,12 @@
+@@ -148423,12 +148924,12 @@
  
  [Term]
  id: GO:0018811
@@ -13482,7 +13507,7 @@
  
  [Term]
  id: GO:0018812
-@@ -148496,12 +148994,12 @@
+@@ -148496,12 +148997,12 @@
  
  [Term]
  id: GO:0018815
@@ -13500,7 +13525,7 @@
  
  [Term]
  id: GO:0018816
-@@ -148657,7 +149155,7 @@
+@@ -148657,7 +149158,7 @@
  id: GO:0018826
  name: methionine gamma-lyase activity
  namespace: molecular_function
@@ -13509,7 +13534,7 @@
  synonym: "L-methioninase activity" RELATED [EC:4.4.1.11]
  synonym: "L-methionine gamma-lyase activity" RELATED [EC:4.4.1.11]
  synonym: "L-methionine methanethiol-lyase (deaminating)" RELATED [EC:4.4.1.11]
-@@ -148981,21 +149479,18 @@
+@@ -148981,21 +149482,18 @@
  xref: RHEA:33419
  xref: UM-BBD_reactionID:r0429
  is_a: GO:0016405 ! CoA-ligase activity
@@ -13536,7 +13561,7 @@
  
  [Term]
  id: GO:0018857
-@@ -149021,7 +149516,6 @@
+@@ -149021,7 +149519,6 @@
  xref: RHEA:10132
  xref: UM-BBD_reactionID:r0189
  is_a: GO:0016405 ! CoA-ligase activity
@@ -13544,7 +13569,7 @@
  property_value: skos:exactMatch EC:6.2.1.25
  property_value: skos:exactMatch RHEA:10132
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -149042,7 +149536,6 @@
+@@ -149042,7 +149539,6 @@
  xref: RHEA:23116
  xref: UM-BBD_reactionID:r0156
  is_a: GO:0016405 ! CoA-ligase activity
@@ -13552,7 +13577,7 @@
  property_value: skos:exactMatch EC:6.2.1.27
  property_value: skos:exactMatch RHEA:23116
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -149064,7 +149557,6 @@
+@@ -149064,7 +149560,6 @@
  xref: RHEA:10828
  xref: UM-BBD_reactionID:r0341
  is_a: GO:0016405 ! CoA-ligase activity
@@ -13560,7 +13585,7 @@
  property_value: skos:exactMatch EC:6.2.1.32
  property_value: skos:exactMatch RHEA:10828
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -149081,7 +149573,6 @@
+@@ -149081,7 +149576,6 @@
  xref: RHEA:23220
  xref: UM-BBD_reactionID:r0139
  is_a: GO:0016405 ! CoA-ligase activity
@@ -13568,7 +13593,7 @@
  property_value: skos:exactMatch EC:6.2.1.33
  property_value: skos:exactMatch RHEA:23220
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -150233,11 +150724,9 @@
+@@ -150233,11 +150727,9 @@
  synonym: "thiocyanate metabolism" EXACT []
  synonym: "thiocyanic acid metabolic process" EXACT []
  synonym: "thiocyanic acid metabolism" EXACT []
@@ -13581,7 +13606,7 @@
  
  [Term]
  id: GO:0018970
-@@ -150501,7 +150990,7 @@
+@@ -150501,7 +150993,7 @@
  id: GO:0018997
  name: obsolete electron transfer carrier
  namespace: molecular_function
@@ -13590,7 +13615,7 @@
  comment: This term was made obsolete because the parent terms cover its function.
  synonym: "electron transfer carrier" EXACT []
  is_obsolete: true
-@@ -150952,10 +151441,6 @@
+@@ -150952,10 +151444,6 @@
  synonym: "viral host defence evasion" NARROW []
  synonym: "viral host defense evasion" NARROW []
  synonym: "viral regulation of antiviral response" EXACT []
@@ -13601,7 +13626,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23043" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25016" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29236" xsd:anyURI
-@@ -151016,8 +151501,6 @@
+@@ -151016,8 +151504,6 @@
  synonym: "regulation of cellular process in host by virus" EXACT []
  synonym: "regulation of host cellular process by virus" EXACT []
  synonym: "viral host cell process manipulation" EXACT []
@@ -13610,7 +13635,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26621" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0044068
-@@ -151626,6 +152109,7 @@
+@@ -151626,6 +152112,7 @@
  def: "Catalysis of the transfer of a myristoyl (CH3-[CH2]12-CO-) group to an acceptor molecule." [GOC:ai]
  xref: Reactome:R-HSA-141367 "Myristoylation of tBID by NMT1"
  xref: Reactome:R-HSA-162914 "Myristoylation of Nef"
@@ -13618,7 +13643,7 @@
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  
  [Term]
-@@ -151657,10 +152141,12 @@
+@@ -151657,10 +152144,12 @@
  
  [Term]
  id: GO:0019112
@@ -13634,7 +13659,7 @@
  
  [Term]
  id: GO:0019113
-@@ -151696,11 +152182,14 @@
+@@ -151696,11 +152185,14 @@
  
  [Term]
  id: GO:0019116
@@ -13652,7 +13677,7 @@
  
  [Term]
  id: GO:0019117
-@@ -151954,7 +152443,6 @@
+@@ -151954,7 +152446,6 @@
  namespace: molecular_function
  alt_id: GO:0046420
  def: "Catalysis of the reaction: N6-dimethylallyladenine + acceptor + H2O = adenine + 3-methylbut-2-enal + reduced electron acceptor." [EC:1.5.99.12]
@@ -13660,7 +13685,7 @@
  synonym: "6-N-dimethylallyladenine:acceptor oxidoreductase activity" RELATED [EC:1.5.99.12]
  synonym: "cytokinin oxidase activity" RELATED []
  synonym: "N6-dimethylallyladenine:(acceptor) oxidoreductase activity" RELATED [EC:1.5.99.12]
-@@ -151966,8 +152454,8 @@
+@@ -151966,8 +152457,8 @@
  property_value: skos:exactMatch EC:1.5.99.12
  property_value: skos:exactMatch MetaCyc:1.5.99.12-RXN
  property_value: skos:exactMatch RHEA:13625
@@ -13670,7 +13695,7 @@
  
  [Term]
  id: GO:0019140
-@@ -152118,7 +152606,7 @@
+@@ -152118,7 +152609,7 @@
  id: GO:0019148
  name: D-cysteine desulfhydrase activity
  namespace: molecular_function
@@ -13679,7 +13704,7 @@
  synonym: "D-cysteine lyase activity" RELATED [EC:4.4.1.15]
  synonym: "D-cysteine sulfide-lyase (deaminating)" RELATED [EC:4.4.1.15]
  synonym: "D-cysteine sulfide-lyase (deaminating; pyruvate-forming)" RELATED [EC:4.4.1.15]
-@@ -152134,7 +152622,7 @@
+@@ -152134,7 +152625,7 @@
  id: GO:0019149
  name: 3-chloro-D-alanine dehydrochlorinase activity
  namespace: molecular_function
@@ -13688,7 +13713,7 @@
  synonym: "3-chloro-D-alanine chloride-lyase (deaminating)" RELATED [EC:4.5.1.2]
  synonym: "3-chloro-D-alanine chloride-lyase (deaminating; pyruvate-forming)" RELATED [EC:4.5.1.2]
  synonym: "beta-chloro-D-alanine dehydrochlorinase activity" RELATED [EC:4.5.1.2]
-@@ -152283,6 +152771,7 @@
+@@ -152283,6 +152774,7 @@
  synonym: "mannokinase (phosphorylating)" RELATED [EC:2.7.1.7]
  xref: EC:2.7.1.7
  xref: MetaCyc:MANNKIN-RXN
@@ -13696,7 +13721,7 @@
  xref: Reactome:R-HSA-9909159 "HK1 phosphorylates Mannose to Man6P"
  xref: RHEA:11028
  is_a: GO:0004396 ! hexokinase activity
-@@ -152294,7 +152783,7 @@
+@@ -152294,7 +152786,7 @@
  id: GO:0019159
  name: nicotinamide-nucleotide amidase activity
  namespace: molecular_function
@@ -13705,7 +13730,7 @@
  synonym: "nicotinamide mononucleotide amidohydrolase activity" RELATED [EC:3.5.1.42]
  synonym: "nicotinamide mononucleotide deamidase activity" RELATED [EC:3.5.1.42]
  synonym: "nicotinamide-D-ribonucleotide amidohydrolase activity" RELATED [EC:3.5.1.42]
-@@ -152330,12 +152819,13 @@
+@@ -152330,12 +152822,13 @@
  
  [Term]
  id: GO:0019161
@@ -13721,7 +13746,7 @@
  synonym: "diamine-ketoglutaric transaminase activity" RELATED [EC:2.6.1.29]
  synonym: "diamine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.29]
  xref: EC:2.6.1.29
-@@ -152345,14 +152835,16 @@
+@@ -152345,14 +152838,16 @@
  property_value: skos:exactMatch EC:2.6.1.29
  property_value: skos:exactMatch RHEA:18217
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -13740,7 +13765,7 @@
  synonym: "pyridoxamine:oxaloacetate aminotransferase activity" RELATED [EC:2.6.1.31]
  xref: EC:2.6.1.31
  xref: KEGG_REACTION:R01713
-@@ -152362,17 +152854,19 @@
+@@ -152362,17 +152857,19 @@
  property_value: skos:exactMatch EC:2.6.1.31
  property_value: skos:exactMatch RHEA:10844
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -13762,7 +13787,7 @@
  xref: EC:2.6.1.54
  xref: MetaCyc:PYRDAMPTRANS-RXN
  xref: RHEA:15877
-@@ -152380,6 +152874,7 @@
+@@ -152380,6 +152877,7 @@
  property_value: skos:exactMatch EC:2.6.1.54
  property_value: skos:exactMatch RHEA:15877
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -13770,7 +13795,7 @@
  
  [Term]
  id: GO:0019164
-@@ -152560,10 +153055,11 @@
+@@ -152560,10 +153058,11 @@
  
  [Term]
  id: GO:0019179
@@ -13784,7 +13809,7 @@
  synonym: "dTDP-4-amino-4,6-dideoxy-D-glucose:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.33]
  synonym: "TDP-4-keto-6-deoxy-D-glucose transaminase activity" RELATED [EC:2.6.1.33]
  synonym: "TDP-4-oxo-6-deoxy-D-glucose transaminase activity" RELATED [EC:2.6.1.33]
-@@ -152578,14 +153074,16 @@
+@@ -152578,14 +153077,16 @@
  property_value: skos:exactMatch EC:2.6.1.33
  property_value: skos:exactMatch RHEA:19085
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -13803,7 +13828,7 @@
  synonym: "dTDP-fucosamine aminotransferase activity" EXACT []
  synonym: "thymidine diphosphate 4-keto-6-deoxy-D-glucose transaminase activity" RELATED [EC:2.6.1.59]
  synonym: "thymidine diphosphoaminodideoxygalactose aminotransferase activity" RELATED [EC:2.6.1.59]
-@@ -152597,6 +153095,7 @@
+@@ -152597,6 +153098,7 @@
  property_value: skos:exactMatch EC:2.6.1.59
  property_value: skos:exactMatch RHEA:10368
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -13811,7 +13836,7 @@
  
  [Term]
  id: GO:0019181
-@@ -152721,7 +153220,6 @@
+@@ -152721,7 +153223,6 @@
  name: carbohydrate kinase activity
  namespace: molecular_function
  def: "Catalysis of the transfer of a phosphate group, usually from ATP, to a carbohydrate substrate molecule." [GOC:jl]
@@ -13819,7 +13844,7 @@
  is_a: GO:0016301 ! kinase activity
  
  [Term]
-@@ -152807,6 +153305,7 @@
+@@ -152807,6 +153308,7 @@
  name: kinase inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents or reduces the activity of a kinase." [GOC:mah]
@@ -13827,7 +13852,7 @@
  is_a: GO:0004857 ! enzyme inhibitor activity
  is_a: GO:0019207 ! kinase regulator activity
  relationship: negatively_regulates GO:0016301 ! kinase activity
-@@ -152816,6 +153315,11 @@
+@@ -152816,6 +153318,11 @@
  name: phosphatase activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of a phosphatase." [GOC:ai]
@@ -13839,7 +13864,7 @@
  is_a: GO:0008047 ! enzyme activator activity
  is_a: GO:0019208 ! phosphatase regulator activity
  relationship: positively_regulates GO:0016791 ! phosphatase activity
-@@ -152863,7 +153367,7 @@
+@@ -152863,7 +153370,7 @@
  id: GO:0019216
  name: regulation of lipid metabolic process
  namespace: biological_process
@@ -13848,7 +13873,7 @@
  synonym: "regulation of lipid metabolism" EXACT []
  xref: Reactome:R-HSA-2426168 "Activation of gene expression by SREBF (SREBP)"
  xref: Reactome:R-HSA-400206 "Regulation of lipid metabolism by PPARalpha"
-@@ -152877,7 +153381,7 @@
+@@ -152877,7 +153384,7 @@
  name: regulation of fatty acid metabolic process
  namespace: biological_process
  alt_id: GO:0006632
@@ -13857,7 +13882,7 @@
  synonym: "regulation of fatty acid metabolism" EXACT []
  is_a: GO:0010565 ! regulation of ketone metabolic process
  is_a: GO:0019216 ! regulation of lipid metabolic process
-@@ -152890,7 +153394,7 @@
+@@ -152890,7 +153397,7 @@
  id: GO:0019218
  name: regulation of steroid metabolic process
  namespace: biological_process
@@ -13866,7 +13891,7 @@
  synonym: "regulation of steroid metabolism" EXACT []
  is_a: GO:0019216 ! regulation of lipid metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -152901,19 +153405,21 @@
+@@ -152901,19 +153408,21 @@
  id: GO:0019219
  name: regulation of nucleobase-containing compound metabolic process
  namespace: biological_process
@@ -13890,7 +13915,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "regulation of phosphate metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
-@@ -152939,7 +153445,7 @@
+@@ -152939,7 +153448,7 @@
  name: regulation of metabolic process
  namespace: biological_process
  alt_id: GO:0044246
@@ -13899,7 +13924,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_metagenomics
  synonym: "regulation of metabolism" EXACT []
-@@ -153068,10 +153574,9 @@
+@@ -153068,10 +153577,9 @@
  id: GO:0019239
  name: deaminase activity
  namespace: molecular_function
@@ -13911,7 +13936,7 @@
  xref: Reactome:R-HSA-9734745 "Defective ADA does not deaminate (deoxy)adenosine"
  xref: Reactome:R-HSA-9754964 "ADA deamidates RBV"
  is_a: GO:0016810 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds
-@@ -153094,7 +153599,7 @@
+@@ -153094,7 +153602,7 @@
  id: GO:0019241
  name: L-citrulline catabolic process
  namespace: biological_process
@@ -13920,7 +13945,7 @@
  synonym: "citrulline breakdown" EXACT []
  synonym: "citrulline catabolism" EXACT []
  synonym: "citrulline degradation" EXACT []
-@@ -153103,6 +153608,7 @@
+@@ -153103,6 +153611,7 @@
  is_a: GO:0170044 ! non-proteinogenic amino acid catabolic process
  is_a: GO:1901606 ! alpha-amino acid catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30202" xsd:anyURI
@@ -13928,7 +13953,7 @@
  
  [Term]
  id: GO:0019242
-@@ -153138,7 +153644,7 @@
+@@ -153138,7 +153647,7 @@
  id: GO:0019244
  name: lactate biosynthetic process from pyruvate
  namespace: biological_process
@@ -13937,7 +13962,7 @@
  synonym: "lactate anabolism from pyruvate" EXACT []
  synonym: "lactate formation from pyruvate" EXACT []
  synonym: "lactate synthesis from pyruvate" EXACT []
-@@ -153151,7 +153657,7 @@
+@@ -153151,7 +153660,7 @@
  id: GO:0019245
  name: D(-)-lactate biosynthetic process from pyruvate
  namespace: biological_process
@@ -13946,7 +13971,7 @@
  synonym: "D(-)-lactate anabolism from pyruvate" EXACT []
  synonym: "D(-)-lactate formation from pyruvate" EXACT []
  synonym: "D(-)-lactate synthesis from pyruvate" EXACT []
-@@ -153162,7 +153668,7 @@
+@@ -153162,7 +153671,7 @@
  id: GO:0019246
  name: L(+)-lactate biosynthetic process from pyruvate
  namespace: biological_process
@@ -13955,7 +13980,7 @@
  synonym: "L(+)-lactate anabolism from pyruvate" EXACT []
  synonym: "L(+)-lactate formation from pyruvate" EXACT []
  synonym: "L(+)-lactate synthesis from pyruvate" EXACT []
-@@ -153195,7 +153701,7 @@
+@@ -153195,7 +153704,7 @@
  id: GO:0019249
  name: lactate biosynthetic process
  namespace: biological_process
@@ -13964,7 +13989,7 @@
  synonym: "lactate anabolism" EXACT []
  synonym: "lactate biosynthesis" EXACT []
  synonym: "lactate formation" EXACT []
-@@ -153207,7 +153713,7 @@
+@@ -153207,7 +153716,7 @@
  id: GO:0019250
  name: aerobic cobalamin biosynthetic process
  namespace: biological_process
@@ -13973,7 +13998,7 @@
  synonym: "aerobic cobalamin anabolism" EXACT []
  synonym: "aerobic cobalamin biosynthesis" EXACT []
  synonym: "aerobic cobalamin formation" EXACT []
-@@ -153225,7 +153731,7 @@
+@@ -153225,7 +153734,7 @@
  id: GO:0019251
  name: anaerobic cobalamin biosynthetic process
  namespace: biological_process
@@ -13982,7 +14007,7 @@
  synonym: "anaerobic cobalamin anabolism" EXACT []
  synonym: "anaerobic cobalamin biosynthesis" EXACT []
  synonym: "anaerobic cobalamin formation" EXACT []
-@@ -153236,8 +153742,9 @@
+@@ -153236,8 +153745,9 @@
  synonym: "cobalamin biosynthetic process, anaerobic" EXACT []
  synonym: "vitamin B12 biosynthesis, anaerobic" EXACT []
  synonym: "vitamin B12 biosynthetic process, anaerobic" EXACT []
@@ -13993,7 +14018,7 @@
  
  [Term]
  id: GO:0019252
-@@ -153268,7 +153775,7 @@
+@@ -153268,7 +153778,7 @@
  id: GO:0019254
  name: carnitine metabolic process, CoA-linked
  namespace: biological_process
@@ -14002,7 +14027,7 @@
  synonym: "carnitine metabolism, CoA-linked" EXACT []
  xref: MetaCyc:CARNMET-PWY
  is_a: GO:0009437 ! carnitine metabolic process
-@@ -153322,13 +153829,17 @@
+@@ -153322,13 +153832,17 @@
  synonym: "4NT catabolic process" EXACT []
  synonym: "4NT catabolism" EXACT []
  xref: MetaCyc:P421-PWY
@@ -14021,7 +14046,7 @@
  synonym: "1,2-dichloroethane breakdown" EXACT []
  synonym: "1,2-dichloroethane catabolism" EXACT []
  synonym: "1,2-dichloroethane degradation" EXACT []
-@@ -153361,6 +153872,7 @@
+@@ -153361,6 +153875,7 @@
  is_a: GO:0006054 ! N-acetylneuraminate metabolic process
  is_a: GO:0046348 ! amino sugar catabolic process
  is_a: GO:0046395 ! carboxylic acid catabolic process
@@ -14029,7 +14054,7 @@
  
  [Term]
  id: GO:0019263
-@@ -153382,33 +153894,28 @@
+@@ -153382,33 +153897,28 @@
  synonym: "glycine anabolism from serine" EXACT []
  synonym: "glycine formation from serine" EXACT []
  synonym: "glycine synthesis from serine" EXACT []
@@ -14065,7 +14090,7 @@
  is_a: GO:0006107 ! oxaloacetate metabolic process
  is_a: GO:0043649 ! dicarboxylic acid catabolic process
  is_a: GO:0070981 ! L-asparagine biosynthetic process
-@@ -153416,22 +153923,22 @@
+@@ -153416,22 +153926,22 @@
  
  [Term]
  id: GO:0019267
@@ -14094,7 +14119,7 @@
  comment: This term was made obsolete because it represents a molecular function.
  synonym: "glutamate anabolism, using glutamate dehydrogenase (NAD(P)+)" EXACT []
  synonym: "glutamate biosynthetic process, using glutamate dehydrogenase (NAD(P)+)" EXACT []
-@@ -153444,7 +153951,7 @@
+@@ -153444,7 +153954,7 @@
  id: GO:0019269
  name: obsolete glutamate biosynthetic process, using glutamate synthase (NADPH)
  namespace: biological_process
@@ -14103,7 +14128,7 @@
  comment: This term was made obsolete because it refers to a molecular function.
  synonym: "glutamate anabolism, using glutamate synthase (NADPH)" EXACT []
  synonym: "glutamate biosynthetic process, using glutamate synthase (NADPH)" EXACT []
-@@ -153477,21 +153984,19 @@
+@@ -153477,21 +153987,19 @@
  id: GO:0019272
  name: L-alanine biosynthetic process from pyruvate
  namespace: biological_process
@@ -14127,7 +14152,7 @@
  comment: The reason for obsoletion is that there is no evidence that this process exists in vivo.
  synonym: "L-alanine anabolism via ornithine" EXACT []
  synonym: "L-alanine formation via ornithine" EXACT []
-@@ -153517,15 +154022,18 @@
+@@ -153517,15 +154025,18 @@
  synonym: "UDP-N-acetylgalactosamine biosynthesis" EXACT []
  synonym: "UDP-N-acetylgalactosamine formation" EXACT []
  synonym: "UDP-N-acetylgalactosamine synthesis" EXACT []
@@ -14146,7 +14171,7 @@
  
  [Term]
  id: GO:0019278
-@@ -153541,69 +154049,78 @@
+@@ -153541,69 +154052,78 @@
  
  [Term]
  id: GO:0019279
@@ -14248,7 +14273,7 @@
  
  [Term]
  id: GO:0019285
-@@ -153630,7 +154147,7 @@
+@@ -153630,7 +154150,7 @@
  id: GO:0019286
  name: glycine betaine biosynthetic process from glycine
  namespace: biological_process
@@ -14257,7 +14282,7 @@
  synonym: "glycine betaine anabolism from glycine" EXACT []
  synonym: "glycine betaine formation from glycine" EXACT []
  synonym: "glycine betaine synthesis from glycine" EXACT []
-@@ -153644,7 +154161,7 @@
+@@ -153644,7 +154164,7 @@
  id: GO:0019287
  name: isopentenyl diphosphate biosynthetic process, mevalonate pathway
  namespace: biological_process
@@ -14266,7 +14291,7 @@
  synonym: "Ac-MVA pathway" EXACT [PMID:14517367]
  synonym: "acetate-mevalonate pathway" EXACT [PMID:14517367]
  synonym: "isopentenyl diphosphate anabolism, mevalonate pathway" EXACT []
-@@ -153660,7 +154177,7 @@
+@@ -153660,7 +154180,7 @@
  id: GO:0019288
  name: isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway
  namespace: biological_process
@@ -14275,7 +14300,7 @@
  synonym: "isopentenyl diphosphate anabolism, mevalonate-independent pathway" EXACT []
  synonym: "isopentenyl diphosphate biosynthesis, mevalonate-independent" EXACT []
  synonym: "isopentenyl diphosphate biosynthesis, non-mevalonate pathway" EXACT []
-@@ -153719,13 +154236,12 @@
+@@ -153719,13 +154239,12 @@
  id: GO:0019292
  name: L-tyrosine biosynthetic process from chorismate via 4-hydroxyphenylpyruvate
  namespace: biological_process
@@ -14290,7 +14315,7 @@
  is_a: GO:0006571 ! L-tyrosine biosynthetic process
  is_a: GO:0046417 ! chorismate metabolic process
  
-@@ -153739,7 +154255,6 @@
+@@ -153739,7 +154258,6 @@
  synonym: "tyrosine anabolism, by oxidation of phenylalanine" EXACT []
  synonym: "tyrosine formation, by oxidation of phenylalanine" EXACT []
  synonym: "tyrosine synthesis, by oxidation of phenylalanine" EXACT []
@@ -14298,7 +14323,7 @@
  is_a: GO:0006571 ! L-tyrosine biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20583" xsd:anyURI
  
-@@ -153770,14 +154285,18 @@
+@@ -153770,14 +154288,18 @@
  synonym: "coenzyme M formation" EXACT []
  synonym: "coenzyme M synthesis" EXACT []
  xref: MetaCyc:P261-PWY
@@ -14318,7 +14343,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "coenzyme M metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
-@@ -153787,7 +154306,7 @@
+@@ -153787,7 +154309,7 @@
  id: GO:0019297
  name: obsolete coenzyme B metabolic process
  namespace: biological_process
@@ -14327,7 +14352,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "coenzyme B metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
-@@ -153836,8 +154355,14 @@
+@@ -153836,8 +154358,14 @@
  synonym: "rhamnose breakdown" EXACT []
  synonym: "rhamnose catabolism" EXACT []
  synonym: "rhamnose degradation" EXACT []
@@ -14342,7 +14367,7 @@
  
  [Term]
  id: GO:0019302
-@@ -153937,7 +154462,7 @@
+@@ -153937,7 +154465,7 @@
  id: GO:0019310
  name: inositol catabolic process
  namespace: biological_process
@@ -14351,7 +14376,7 @@
  synonym: "inositol breakdown" EXACT []
  synonym: "inositol catabolism" EXACT []
  synonym: "inositol degradation" EXACT []
-@@ -153946,8 +154471,12 @@
+@@ -153946,8 +154474,12 @@
  synonym: "vitamin Bh catabolic process" EXACT []
  synonym: "vitamin Bh catabolism" EXACT []
  xref: MetaCyc:P562-PWY
@@ -14364,7 +14389,7 @@
  
  [Term]
  id: GO:0019311
-@@ -154019,9 +154548,9 @@
+@@ -154019,9 +154551,9 @@
  synonym: "fucose breakdown" EXACT []
  synonym: "fucose catabolism" EXACT []
  synonym: "fucose degradation" EXACT []
@@ -14375,7 +14400,7 @@
  
  [Term]
  id: GO:0019318
-@@ -154191,10 +154720,15 @@
+@@ -154191,10 +154723,15 @@
  def: "The reduction of nitrate to dinitrogen by four reduction reactions: nitrate reduced to nitrite, then to nitric oxide, then to nitrous oxide, and finally to dinitrogen." [MetaCyc:DENITRIFICATION-PWY]
  xref: kegg.module:M00529
  xref: MetaCyc:DENITRIFICATION-PWY
@@ -14392,7 +14417,7 @@
  
  [Term]
  id: GO:0019334
-@@ -154231,9 +154765,9 @@
+@@ -154231,9 +154768,9 @@
  synonym: "phenol-containing compound breakdown" EXACT []
  synonym: "phenol-containing compound catabolism" EXACT []
  synonym: "phenol-containing compound degradation" EXACT []
@@ -14403,7 +14428,7 @@
  
  [Term]
  id: GO:0019337
-@@ -154253,7 +154787,7 @@
+@@ -154253,7 +154790,7 @@
  id: GO:0019338
  name: pentachlorophenol catabolic process
  namespace: biological_process
@@ -14412,7 +14437,7 @@
  synonym: "pentachlorophenol breakdown" EXACT []
  synonym: "pentachlorophenol catabolism" EXACT []
  synonym: "pentachlorophenol degradation" EXACT []
-@@ -154317,47 +154851,64 @@
+@@ -154317,47 +154854,64 @@
  
  [Term]
  id: GO:0019343
@@ -14488,7 +14513,7 @@
  
  [Term]
  id: GO:0019346
-@@ -154444,7 +154995,7 @@
+@@ -154444,7 +154998,7 @@
  id: GO:0019352
  name: protoporphyrinogen IX biosynthetic process from glycine
  namespace: biological_process
@@ -14497,7 +14522,7 @@
  synonym: "protoporphyrinogen IX anabolism from glycine" EXACT []
  synonym: "protoporphyrinogen IX formation from glycine" EXACT []
  synonym: "protoporphyrinogen IX synthesis from glycine" EXACT []
-@@ -154482,7 +155033,7 @@
+@@ -154482,7 +155036,7 @@
  id: GO:0019356
  name: obsolete nicotinate nucleotide biosynthetic process from tryptophan
  namespace: biological_process
@@ -14506,7 +14531,7 @@
  comment: The reason for obsoletion is that this term is essentially equivalent to 'de novo' NAD+ biosynthetic process from L-tryptophan.
  synonym: "nicotinate nucleotide anabolism from tryptophan" EXACT []
  synonym: "nicotinate nucleotide formation from tryptophan" EXACT []
-@@ -154495,7 +155046,7 @@
+@@ -154495,7 +155049,7 @@
  id: GO:0019357
  name: nicotinate nucleotide biosynthetic process
  namespace: biological_process
@@ -14515,7 +14540,7 @@
  synonym: "nicotinate nucleotide anabolism" EXACT []
  synonym: "nicotinate nucleotide biosynthesis" EXACT []
  synonym: "nicotinate nucleotide formation" EXACT []
-@@ -154506,7 +155057,7 @@
+@@ -154506,7 +155060,7 @@
  id: GO:0019358
  name: nicotinate nucleotide salvage
  namespace: biological_process
@@ -14524,7 +14549,7 @@
  synonym: "nicotinate nucleotide biosynthesis, salvage pathway" EXACT []
  synonym: "nicotinate nucleotide biosynthetic process, salvage pathway" EXACT []
  xref: MetaCyc:PWY3O-224
-@@ -154519,7 +155070,7 @@
+@@ -154519,7 +155073,7 @@
  id: GO:0019359
  name: nicotinamide nucleotide biosynthetic process
  namespace: biological_process
@@ -14533,7 +14558,7 @@
  synonym: "nicotinamide nucleotide anabolism" EXACT []
  synonym: "nicotinamide nucleotide biosynthesis" EXACT []
  synonym: "nicotinamide nucleotide formation" EXACT []
-@@ -154531,7 +155082,7 @@
+@@ -154531,7 +155085,7 @@
  id: GO:0019360
  name: nicotinamide nucleotide biosynthetic process from niacinamide
  namespace: biological_process
@@ -14542,7 +14567,7 @@
  synonym: "nicotinamide nucleotide anabolism from niacinamide" EXACT []
  synonym: "nicotinamide nucleotide formation from niacinamide" EXACT []
  synonym: "nicotinamide nucleotide synthesis from niacinamide" EXACT []
-@@ -154605,8 +155156,8 @@
+@@ -154605,8 +155159,8 @@
  name: fatty acid elongation, unsaturated fatty acid
  namespace: biological_process
  def: "Elongation of a fatty acid chain into which one or more C-C double bonds have been introduced." [GOC:mah]
@@ -14552,7 +14577,7 @@
  
  [Term]
  id: GO:0019369
-@@ -154628,7 +155179,7 @@
+@@ -154628,7 +155182,7 @@
  id: GO:0019370
  name: leukotriene biosynthetic process
  namespace: biological_process
@@ -14561,7 +14586,7 @@
  synonym: "leukotriene anabolism" EXACT []
  synonym: "leukotriene biosynthesis" EXACT []
  synonym: "leukotriene formation" EXACT []
-@@ -154682,8 +155233,13 @@
+@@ -154682,8 +155236,13 @@
  synonym: "galactolipid biosynthesis" EXACT []
  synonym: "galactolipid formation" EXACT []
  synonym: "galactolipid synthesis" EXACT []
@@ -14575,7 +14600,7 @@
  
  [Term]
  id: GO:0019376
-@@ -154700,7 +155256,7 @@
+@@ -154700,7 +155259,7 @@
  id: GO:0019377
  name: glycolipid catabolic process
  namespace: biological_process
@@ -14584,7 +14609,7 @@
  synonym: "glycolipid breakdown" EXACT []
  synonym: "glycolipid catabolism" EXACT []
  synonym: "glycolipid degradation" EXACT []
-@@ -154755,7 +155311,7 @@
+@@ -154755,7 +155314,7 @@
  id: GO:0019382
  name: carbon tetrachloride catabolic process
  namespace: biological_process
@@ -14593,7 +14618,7 @@
  synonym: "carbon tetrachloride breakdown" EXACT []
  synonym: "carbon tetrachloride catabolism" EXACT []
  synonym: "carbon tetrachloride degradation" EXACT []
-@@ -154905,7 +155461,6 @@
+@@ -154905,7 +155464,6 @@
  synonym: "glucarate breakdown" EXACT []
  synonym: "glucarate catabolism" EXACT []
  synonym: "glucarate degradation" EXACT []
@@ -14601,7 +14626,7 @@
  is_a: GO:0019579 ! aldaric acid catabolic process
  
  [Term]
-@@ -155078,7 +155633,7 @@
+@@ -155078,7 +155636,7 @@
  id: GO:0019409
  name: aerobic respiration, using ammonia as electron donor
  namespace: biological_process
@@ -14610,7 +14635,7 @@
  synonym: "aerobic ammonia oxidation to nitrite via hydrazine" EXACT [GOC:mah]
  synonym: "nitrification" RELATED []
  xref: MetaCyc:AMMOXID-PWY
-@@ -155117,7 +155672,7 @@
+@@ -155117,7 +155675,7 @@
  id: GO:0019413
  name: acetate biosynthetic process
  namespace: biological_process
@@ -14619,7 +14644,7 @@
  synonym: "acetate anabolism" EXACT []
  synonym: "acetate biosynthesis" EXACT []
  synonym: "acetate formation" EXACT []
-@@ -155138,7 +155693,7 @@
+@@ -155138,7 +155696,7 @@
  id: GO:0019415
  name: acetate biosynthetic process from carbon monoxide
  namespace: biological_process
@@ -14628,7 +14653,7 @@
  synonym: "acetate anabolism from carbon monoxide" EXACT []
  synonym: "acetate formation from carbon monoxide" EXACT []
  synonym: "acetate synthesis from carbon monoxide" EXACT []
-@@ -155147,11 +155702,20 @@
+@@ -155147,11 +155705,20 @@
  
  [Term]
  id: GO:0019416
@@ -14650,7 +14675,7 @@
  
  [Term]
  id: GO:0019417
-@@ -155204,10 +155768,14 @@
+@@ -155204,10 +155771,14 @@
  id: GO:0019422
  name: disproportionation of elemental sulfur
  namespace: biological_process
@@ -14666,7 +14691,7 @@
  
  [Term]
  id: GO:0019423
-@@ -155261,7 +155829,7 @@
+@@ -155261,7 +155832,7 @@
  id: GO:0019428
  name: allantoin biosynthetic process
  namespace: biological_process
@@ -14675,7 +14700,7 @@
  synonym: "allantoin anabolism" EXACT []
  synonym: "allantoin biosynthesis" EXACT []
  synonym: "allantoin formation" EXACT []
-@@ -155282,9 +155850,13 @@
+@@ -155282,9 +155853,13 @@
  synonym: "fluorene metabolic process" NARROW []
  synonym: "fluorene metabolism" EXACT []
  xref: MetaCyc:FLUORENE-DEG-9-ONE-PWY
@@ -14689,7 +14714,7 @@
  
  [Term]
  id: GO:0019430
-@@ -155303,7 +155875,7 @@
+@@ -155303,7 +155878,7 @@
  id: GO:0019431
  name: acetyl-CoA biosynthetic process from ethanol
  namespace: biological_process
@@ -14698,7 +14723,7 @@
  synonym: "acetyl-CoA anabolism from ethanol" EXACT []
  synonym: "acetyl-CoA formation from ethanol" EXACT []
  synonym: "acetyl-CoA synthesis from ethanol" EXACT []
-@@ -155409,7 +155981,7 @@
+@@ -155409,7 +155984,7 @@
  id: GO:0019440
  name: obsolete L-tryptophan catabolic process to indole-3-acetate
  namespace: biological_process
@@ -14707,7 +14732,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "tryptophan breakdown to indole-3-acetate" EXACT []
  synonym: "tryptophan catabolic process to IAA" EXACT []
-@@ -155426,7 +155998,7 @@
+@@ -155426,7 +156001,7 @@
  id: GO:0019441
  name: obsolete L-tryptophan catabolic process to L-kynurenine
  namespace: biological_process
@@ -14716,7 +14741,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "tryptophan breakdown to kynurenine" EXACT []
  synonym: "tryptophan catabolic process to kynurenine" EXACT []
-@@ -155440,7 +156012,7 @@
+@@ -155440,7 +156015,7 @@
  id: GO:0019442
  name: obsolete L-tryptophan catabolic process to acetyl-CoA
  namespace: biological_process
@@ -14725,7 +14750,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "tryptophan breakdown to acetyl-CoA" EXACT []
  synonym: "tryptophan catabolic process to acetyl-CoA" EXACT []
-@@ -155467,7 +156039,7 @@
+@@ -155467,7 +156042,7 @@
  id: GO:0019444
  name: obsolete L-tryptophan catabolic process to catechol
  namespace: biological_process
@@ -14734,7 +14759,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "tryptophan breakdown to catechol" EXACT []
  synonym: "tryptophan catabolic process to catechol" EXACT []
-@@ -155480,7 +156052,7 @@
+@@ -155480,7 +156055,7 @@
  id: GO:0019445
  name: obsolete L-tyrosine catabolic process to fumarate
  namespace: biological_process
@@ -14743,7 +14768,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "tyrosine breakdown to fumarate" EXACT []
  synonym: "tyrosine degradation to fumarate" EXACT []
-@@ -155492,7 +156064,7 @@
+@@ -155492,7 +156067,7 @@
  id: GO:0019446
  name: obsolete tyrosine catabolic process to phosphoenolpyruvate
  namespace: biological_process
@@ -14752,7 +14777,7 @@
  comment: The reason for obsoletion is that there is no evidence that this is a real process.
  synonym: "tyrosine breakdown to phosphoenolpyruvate" EXACT []
  synonym: "tyrosine degradation to phosphoenolpyruvate" EXACT []
-@@ -155500,21 +156072,21 @@
+@@ -155500,21 +156075,21 @@
  
  [Term]
  id: GO:0019447
@@ -14780,7 +14805,7 @@
  synonym: "L-cysteine breakdown" EXACT []
  synonym: "L-cysteine catabolism" EXACT []
  synonym: "L-cysteine degradation" EXACT []
-@@ -155529,12 +156101,13 @@
+@@ -155529,12 +156104,13 @@
  property_value: skos:narrowMatch MetaCyc:LCYSDEG-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-5329
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30202" xsd:anyURI
@@ -14795,7 +14820,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "L-cysteine breakdown to hypotaurine" EXACT []
  synonym: "L-cysteine degradation to hypotaurine" EXACT []
-@@ -155546,7 +156119,7 @@
+@@ -155546,7 +156122,7 @@
  id: GO:0019450
  name: obsolete L-cysteine catabolic process to pyruvate
  namespace: biological_process
@@ -14804,7 +14829,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "L-cysteine breakdown to pyruvate" EXACT []
  synonym: "L-cysteine degradation to pyruvate" EXACT []
-@@ -155556,37 +156129,33 @@
+@@ -155556,37 +156132,33 @@
  
  [Term]
  id: GO:0019451
@@ -14854,7 +14879,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "L-cysteine breakdown via cystine" EXACT []
  synonym: "L-cysteine degradation via cystine" EXACT []
-@@ -155596,40 +156165,46 @@
+@@ -155596,40 +156168,46 @@
  
  [Term]
  id: GO:0019454
@@ -14914,7 +14939,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "methionine breakdown to succinyl-CoA" EXACT []
  synonym: "methionine degradation to succinyl-CoA" EXACT []
-@@ -155641,7 +156216,7 @@
+@@ -155641,7 +156219,7 @@
  id: GO:0019458
  name: obsolete L-methionine catabolic process via 2-oxobutanoate
  namespace: biological_process
@@ -14923,7 +14948,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "methionine breakdown via 2-oxobutanoate" EXACT []
  synonym: "methionine degradation via 2-oxobutanoate" EXACT []
-@@ -155653,7 +156228,7 @@
+@@ -155653,7 +156231,7 @@
  id: GO:0019460
  name: obsolete glutamine catabolic process to fumarate
  namespace: biological_process
@@ -14932,7 +14957,7 @@
  comment: The reason for obsoletion is that this term is the same as the parent term.
  synonym: "glutamate catabolic process to fumarate" NARROW [GOC:bf, GOC:jl]
  synonym: "glutamine breakdown to fumarate" EXACT []
-@@ -155692,7 +156267,7 @@
+@@ -155692,7 +156270,7 @@
  id: GO:0019463
  name: obsolete glycine catabolic process to creatine
  namespace: biological_process
@@ -14941,7 +14966,7 @@
  comment: The reason for obsoletion is that there is no evidence that this process exists.
  synonym: "glycine breakdown to creatine" EXACT []
  synonym: "glycine degradation to creatine" EXACT []
-@@ -155714,7 +156289,7 @@
+@@ -155714,7 +156292,7 @@
  id: GO:0019465
  name: obsolete aspartate transamidation
  namespace: biological_process
@@ -14950,7 +14975,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28527" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28786" xsd:anyURI
-@@ -155722,26 +156297,30 @@
+@@ -155722,26 +156300,30 @@
  
  [Term]
  id: GO:0019466
@@ -14989,7 +15014,7 @@
  
  [Term]
  id: GO:0019468
-@@ -155771,7 +156350,7 @@
+@@ -155771,7 +156353,7 @@
  id: GO:0019470
  name: trans-4-hydroxy-L-proline catabolic process
  namespace: biological_process
@@ -14998,7 +15023,7 @@
  synonym: "4-hydroxyproline breakdown" EXACT []
  synonym: "4-hydroxyproline catabolism" EXACT []
  synonym: "4-hydroxyproline degradation" EXACT []
-@@ -155784,6 +156363,7 @@
+@@ -155784,6 +156366,7 @@
  property_value: skos:narrowMatch MetaCyc:PWY-5159
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30202" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31361" xsd:anyURI
@@ -15006,7 +15031,7 @@
  
  [Term]
  id: GO:0019471
-@@ -155797,22 +156377,22 @@
+@@ -155797,22 +156380,22 @@
  
  [Term]
  id: GO:0019472
@@ -15035,7 +15060,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "L-lysine breakdown to glutarate, by acetylation" EXACT []
  synonym: "L-lysine degradation to glutarate, by acetylation" EXACT []
-@@ -155824,7 +156404,7 @@
+@@ -155824,7 +156407,7 @@
  id: GO:0019474
  name: obsolete L-lysine catabolic process to acetyl-CoA
  namespace: biological_process
@@ -15044,7 +15069,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "L-lysine breakdown to acetyl-CoA" EXACT []
  synonym: "L-lysine degradation to acetyl-CoA" EXACT []
-@@ -155852,20 +156432,21 @@
+@@ -155852,20 +156435,21 @@
  
  [Term]
  id: GO:0019476
@@ -15071,7 +15096,7 @@
  synonym: "L-lysine breakdown" EXACT []
  synonym: "L-lysine catabolism" EXACT []
  synonym: "L-lysine degradation" EXACT []
-@@ -155874,6 +156455,9 @@
+@@ -155874,6 +156458,9 @@
  xref: MetaCyc:PWY-5280
  xref: MetaCyc:PWY-5283
  xref: MetaCyc:PWY-5298
@@ -15081,7 +15106,7 @@
  xref: MetaCyc:PWY-6328
  xref: MetaCyc:PWY0-461
  xref: MetaCyc:PWY66-425
-@@ -155885,10 +156469,15 @@
+@@ -155885,10 +156472,15 @@
  property_value: skos:narrowMatch MetaCyc:PWY-5280
  property_value: skos:narrowMatch MetaCyc:PWY-5283
  property_value: skos:narrowMatch MetaCyc:PWY-5298
@@ -15097,7 +15122,7 @@
  
  [Term]
  id: GO:0019478
-@@ -155926,7 +156515,7 @@
+@@ -155926,7 +156518,7 @@
  id: GO:0019481
  name: obsolete L-alanine catabolic process, by transamination
  namespace: biological_process
@@ -15106,7 +15131,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "L-alanine breakdown, by transamination" EXACT []
  synonym: "L-alanine degradation, by transamination" EXACT []
-@@ -155952,15 +156541,26 @@
+@@ -155952,15 +156544,26 @@
  synonym: "beta-alanine biosynthesis" EXACT []
  synonym: "beta-alanine formation" EXACT []
  synonym: "beta-alanine synthesis" EXACT []
@@ -15134,7 +15159,7 @@
  synonym: "beta-alanine breakdown" EXACT []
  synonym: "beta-alanine catabolism" EXACT []
  synonym: "beta-alanine degradation" EXACT []
-@@ -155974,25 +156574,31 @@
+@@ -155974,25 +156577,31 @@
  property_value: skos:narrowMatch MetaCyc:PWY-1781
  property_value: skos:narrowMatch MetaCyc:PWY-8120
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31361" xsd:anyURI
@@ -15173,7 +15198,7 @@
  
  [Term]
  id: GO:0019487
-@@ -156068,7 +156674,7 @@
+@@ -156068,7 +156677,7 @@
  id: GO:0019493
  name: obsolete L-arginine catabolic process to L-proline
  namespace: biological_process
@@ -15182,7 +15207,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "arginine breakdown to proline" EXACT []
  synonym: "arginine degradation to proline" EXACT []
-@@ -156080,7 +156686,7 @@
+@@ -156080,7 +156689,7 @@
  id: GO:0019495
  name: obsolete proline catabolic process to 2-oxoglutarate
  namespace: biological_process
@@ -15191,7 +15216,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "proline breakdown to 2-oxoglutarate" EXACT []
  synonym: "proline catabolic process to 2-ketoglutarate" EXACT []
-@@ -156168,24 +156774,23 @@
+@@ -156168,24 +156777,23 @@
  
  [Term]
  id: GO:0019503
@@ -15222,7 +15247,7 @@
  synonym: "stachydrine breakdown" EXACT []
  synonym: "stachydrine catabolic process" EXACT []
  synonym: "stachydrine catabolism" EXACT []
-@@ -156200,6 +156805,7 @@
+@@ -156200,6 +156808,7 @@
  property_value: skos:narrowMatch MetaCyc:PWY-8109
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23577" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31361" xsd:anyURI
@@ -15230,7 +15255,7 @@
  
  [Term]
  id: GO:0019505
-@@ -156248,41 +156854,37 @@
+@@ -156248,41 +156857,37 @@
  synonym: "2,5-dihydroxypyridine utilization" RELATED []
  synonym: "maleamate pathway" EXACT []
  synonym: "pyridine-2,5-diol catabolic process to fumarate" EXACT []
@@ -15284,7 +15309,7 @@
  
  [Term]
  id: GO:0019511
-@@ -156298,7 +156900,7 @@
+@@ -156298,7 +156903,7 @@
  id: GO:0019512
  name: lactose catabolic process via tagatose-6-phosphate
  namespace: biological_process
@@ -15293,7 +15318,7 @@
  synonym: "lactose breakdown via tagatose-6-phosphate" EXACT []
  synonym: "lactose degradation via tagatose-6-phosphate" EXACT []
  xref: MetaCyc:LACTOSECAT-PWY
-@@ -156329,7 +156931,7 @@
+@@ -156329,7 +156934,7 @@
  id: GO:0019515
  name: lactose catabolic process via UDP-galactose
  namespace: biological_process
@@ -15302,7 +15327,7 @@
  synonym: "lactose breakdown via UDP-galactose" EXACT []
  synonym: "lactose degradation via UDP-galactose" EXACT []
  is_a: GO:0005990 ! lactose catabolic process
-@@ -156493,9 +157095,17 @@
+@@ -156493,9 +157098,17 @@
  synonym: "taurine breakdown" EXACT []
  synonym: "taurine catabolism" EXACT []
  synonym: "taurine degradation" EXACT []
@@ -15320,7 +15345,7 @@
  
  [Term]
  id: GO:0019530
-@@ -156623,7 +157233,7 @@
+@@ -156623,7 +157236,7 @@
  id: GO:0019541
  name: propionate metabolic process
  namespace: biological_process
@@ -15329,7 +15354,7 @@
  synonym: "propanoate metabolic process" EXACT []
  synonym: "propanoate metabolism" EXACT []
  synonym: "propionate metabolism" EXACT []
-@@ -156633,7 +157243,7 @@
+@@ -156633,7 +157246,7 @@
  id: GO:0019542
  name: propionate biosynthetic process
  namespace: biological_process
@@ -15338,7 +15363,7 @@
  synonym: "propionate anabolism" EXACT []
  synonym: "propionate biosynthesis" EXACT []
  synonym: "propionate formation" EXACT []
-@@ -156645,7 +157255,7 @@
+@@ -156645,7 +157258,7 @@
  id: GO:0019543
  name: propionate catabolic process
  namespace: biological_process
@@ -15347,7 +15372,7 @@
  synonym: "propionate breakdown" EXACT []
  synonym: "propionate catabolism" EXACT []
  synonym: "propionate degradation" EXACT []
-@@ -156656,7 +157266,7 @@
+@@ -156656,7 +157269,7 @@
  id: GO:0019544
  name: obsolete L-arginine catabolic process to L-glutamate
  namespace: biological_process
@@ -15356,7 +15381,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "arginine breakdown to glutamate" EXACT []
  synonym: "arginine degradation to glutamate" EXACT []
-@@ -156669,7 +157279,7 @@
+@@ -156669,7 +157282,7 @@
  id: GO:0019545
  name: obsolete L-arginine catabolic process to succinate
  namespace: biological_process
@@ -15365,7 +15390,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "arginine breakdown to succinate" EXACT []
  synonym: "arginine degradation to succinate" EXACT []
-@@ -156692,7 +157302,7 @@
+@@ -156692,7 +157305,7 @@
  id: GO:0019547
  name: obsolete arginine catabolic process to ornithine
  namespace: biological_process
@@ -15374,7 +15399,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "arginine breakdown to ornithine" EXACT []
  synonym: "arginine degradation to ornithine" EXACT []
-@@ -156704,7 +157314,7 @@
+@@ -156704,7 +157317,7 @@
  id: GO:0019548
  name: obsolete arginine catabolic process to spermine
  namespace: biological_process
@@ -15383,7 +15408,7 @@
  comment: The reason for obsoletion is that this term was added in error.
  synonym: "arginine breakdown to spermine" EXACT []
  synonym: "arginine degradation to spermine" EXACT []
-@@ -156716,7 +157326,7 @@
+@@ -156716,7 +157329,7 @@
  id: GO:0019549
  name: obsolete glutamate catabolic process to succinate via succinate semialdehyde
  namespace: biological_process
@@ -15392,7 +15417,7 @@
  comment: The reason for obsoletion is that this term was added in error (unnecessary specificity, these are steps in a single pathway)
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28355" xsd:anyURI
  is_obsolete: true
-@@ -156726,7 +157336,7 @@
+@@ -156726,7 +157339,7 @@
  id: GO:0019550
  name: obsolete L-glutamate catabolic process to aspartate
  namespace: biological_process
@@ -15401,7 +15426,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "glutamate breakdown to aspartate" EXACT []
  synonym: "glutamate degradation to aspartate" EXACT []
-@@ -156738,7 +157348,7 @@
+@@ -156738,7 +157351,7 @@
  id: GO:0019551
  name: obsolete glutamate catabolic process to 2-oxoglutarate
  namespace: biological_process
@@ -15410,7 +15435,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "glutamate breakdown to 2-oxoglutarate" EXACT []
  synonym: "glutamate catabolic process to 2-ketoglutarate" EXACT []
-@@ -156754,35 +157364,34 @@
+@@ -156754,35 +157367,34 @@
  
  [Term]
  id: GO:0019552
@@ -15457,7 +15482,7 @@
  comment: The reason for obsoletion is that there is no evidence that this function/process/component exists.
  synonym: "glutamate breakdown to oxaloacetate" EXACT []
  synonym: "glutamate degradation to oxaloacetate" EXACT []
-@@ -156793,7 +157402,7 @@
+@@ -156793,7 +157405,7 @@
  id: GO:0019555
  name: obsolete L-glutamate catabolic process to ornithine
  namespace: biological_process
@@ -15466,7 +15491,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "glutamate breakdown to ornithine" EXACT []
  synonym: "glutamate degradation to ornithine" EXACT []
-@@ -156805,7 +157414,7 @@
+@@ -156805,7 +157417,7 @@
  id: GO:0019556
  name: obsolete L-histidine catabolic process to glutamate and formamide
  namespace: biological_process
@@ -15475,7 +15500,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "histidine breakdown to glutamate and formamide" EXACT []
  synonym: "histidine catabolic process to glutamate and formamide" BROAD []
-@@ -156818,7 +157427,7 @@
+@@ -156818,7 +157430,7 @@
  id: GO:0019557
  name: obsolete L-histidine catabolic process to glutamate and formate
  namespace: biological_process
@@ -15484,7 +15509,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "histidine breakdown to glutamate and formate" EXACT []
  synonym: "histidine catabolic process to glutamate and formate" BROAD []
-@@ -156831,7 +157440,7 @@
+@@ -156831,7 +157443,7 @@
  id: GO:0019558
  name: obsolete L-histidine catabolic process to 2-oxoglutarate
  namespace: biological_process
@@ -15493,7 +15518,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "histidine breakdown to 2-oxoglutarate" EXACT []
  synonym: "histidine catabolic process to 2-ketoglutarate" EXACT []
-@@ -156850,7 +157459,7 @@
+@@ -156850,7 +157462,7 @@
  id: GO:0019559
  name: obsolete L-histidine catabolic process to imidazol-5-yl-lactate
  namespace: biological_process
@@ -15502,7 +15527,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "histidine breakdown to imidazol-5-yl-lactate" EXACT []
  synonym: "histidine degradation to imidazol-5-yl-lactate" EXACT []
-@@ -156862,7 +157471,7 @@
+@@ -156862,7 +157474,7 @@
  id: GO:0019560
  name: obsolete L-histidine catabolic process to hydantoin-5-propionate
  namespace: biological_process
@@ -15511,7 +15536,7 @@
  comment: This term was obsoleted because it represents a specific instance of a pathway that should be captured as a GO-CAM model.
  synonym: "histidine breakdown to hydantoin-5-propionate" EXACT []
  synonym: "histidine degradation to hydantoin-5-propionate" EXACT []
-@@ -156884,7 +157493,7 @@
+@@ -156884,7 +157496,7 @@
  id: GO:0019562
  name: obsolete L-phenylalanine catabolic process to phosphoenolpyruvate
  namespace: biological_process
@@ -15520,7 +15545,7 @@
  comment: The reason for obsoletion is that there is no evidence that this is a real process.
  synonym: "phenylalanine breakdown to phosphoenolpyruvate" EXACT []
  synonym: "phenylalanine degradation to phosphoenolpyruvate" EXACT []
-@@ -156894,14 +157503,17 @@
+@@ -156894,14 +157506,17 @@
  id: GO:0019563
  name: glycerol catabolic process
  namespace: biological_process
@@ -15539,7 +15564,7 @@
  
  [Term]
  id: GO:0019564
-@@ -156953,7 +157565,7 @@
+@@ -156953,7 +157568,7 @@
  id: GO:0019569
  name: L-arabinose catabolic process to D-xylulose 5-phosphate
  namespace: biological_process
@@ -15548,7 +15573,7 @@
  synonym: "L-arabinose breakdown to xylulose 5-phosphate" EXACT []
  synonym: "L-arabinose degradation to xylulose 5-phosphate" EXACT []
  xref: MetaCyc:ARABCAT-PWY
-@@ -156965,7 +157577,7 @@
+@@ -156965,7 +157580,7 @@
  id: GO:0019570
  name: L-arabinose catabolic process to 2-oxoglutarate
  namespace: biological_process
@@ -15557,7 +15582,7 @@
  synonym: "L-arabinose breakdown to 2-oxoglutarate" EXACT []
  synonym: "L-arabinose catabolic process to 2-ketoglutarate" EXACT []
  synonym: "L-arabinose catabolic process to alpha-ketoglutarate" EXACT []
-@@ -157002,7 +157614,7 @@
+@@ -157002,7 +157617,7 @@
  id: GO:0019573
  name: D-arabinose catabolic process to D-xylulose 5-phosphate
  namespace: biological_process
@@ -15566,7 +15591,7 @@
  synonym: "D-arabinose breakdown to xylulose 5-phosphate" EXACT []
  synonym: "D-arabinose degradation to xylulose 5-phosphate" EXACT []
  xref: MetaCyc:DARABCAT-PWY
-@@ -157012,23 +157624,18 @@
+@@ -157012,23 +157627,18 @@
  
  [Term]
  id: GO:0019574
@@ -15596,7 +15621,7 @@
  
  [Term]
  id: GO:0019575
-@@ -157126,8 +157733,9 @@
+@@ -157126,8 +157736,9 @@
  name: glucuronate metabolic process
  namespace: biological_process
  alt_id: GO:0019699
@@ -15607,7 +15632,7 @@
  xref: Wikipedia:Glucuronic_acid
  is_a: GO:0032787 ! monocarboxylic acid metabolic process
  
-@@ -157183,11 +157791,14 @@
+@@ -157183,11 +157794,14 @@
  synonym: "mannitol breakdown" EXACT []
  synonym: "mannitol catabolism" EXACT []
  synonym: "mannitol degradation" EXACT []
@@ -15622,7 +15647,7 @@
  
  [Term]
  id: GO:0019593
-@@ -157225,7 +157836,7 @@
+@@ -157225,7 +157839,7 @@
  id: GO:0019596
  name: mandelate catabolic process
  namespace: biological_process
@@ -15631,7 +15656,7 @@
  synonym: "mandelate breakdown" EXACT []
  synonym: "mandelate catabolism" EXACT []
  synonym: "mandelate degradation" EXACT []
-@@ -157236,7 +157847,7 @@
+@@ -157236,7 +157850,7 @@
  id: GO:0019597
  name: (R)-mandelate catabolic process to benzoate
  namespace: biological_process
@@ -15640,7 +15665,7 @@
  synonym: "(R)-mandelate breakdown to benzoate" EXACT []
  synonym: "(R)-mandelate degradation to benzoate" EXACT []
  is_a: GO:0018874 ! benzoate metabolic process
-@@ -157247,7 +157858,7 @@
+@@ -157247,7 +157861,7 @@
  id: GO:0019598
  name: (R)-mandelate catabolic process to catechol
  namespace: biological_process
@@ -15649,7 +15674,7 @@
  synonym: "(R)-mandelate breakdown to catechol" EXACT []
  synonym: "(R)-mandelate degradation to catechol" EXACT []
  is_a: GO:0009713 ! catechol-containing compound biosynthetic process
-@@ -157330,7 +157941,11 @@
+@@ -157330,7 +157944,11 @@
  synonym: "alpha-ketobutyrate catabolic process" EXACT []
  synonym: "alpha-ketobutyrate catabolism" EXACT []
  xref: MetaCyc:2OXOBUTYRATECAT-PWY
@@ -15661,7 +15686,7 @@
  
  [Term]
  id: GO:0019607
-@@ -157341,9 +157956,13 @@
+@@ -157341,9 +157959,13 @@
  synonym: "phenylethylamine catabolism" EXACT []
  synonym: "phenylethylamine degradation" EXACT []
  xref: MetaCyc:2PHENDEG-PWY
@@ -15675,7 +15700,7 @@
  
  [Term]
  id: GO:0019608
-@@ -157354,9 +157973,19 @@
+@@ -157354,9 +157976,19 @@
  synonym: "nicotine catabolism" EXACT []
  synonym: "nicotine degradation" EXACT []
  xref: MetaCyc:P181-PWY
@@ -15695,7 +15720,7 @@
  
  [Term]
  id: GO:0019609
-@@ -157413,7 +158042,7 @@
+@@ -157413,7 +158045,7 @@
  id: GO:0019614
  name: catechol-containing compound catabolic process
  namespace: biological_process
@@ -15704,7 +15729,36 @@
  synonym: "catechol breakdown" RELATED []
  synonym: "catechol catabolic process" RELATED []
  synonym: "catechol catabolism" RELATED []
-@@ -157497,7 +158126,7 @@
+@@ -157429,8 +158061,12 @@
+ synonym: "catechol breakdown, ortho-cleavage" EXACT []
+ synonym: "catechol degradation, ortho-cleavage" EXACT []
+ xref: MetaCyc:CATECHOL-ORTHO-CLEAVAGE-PWY
++xref: MetaCyc:PWY-5417
+ is_a: GO:0019614 ! catechol-containing compound catabolic process
+ is_a: GO:0042952 ! beta-ketoadipate pathway
++property_value: skos:narrowMatch MetaCyc:CATECHOL-ORTHO-CLEAVAGE-PWY
++property_value: skos:narrowMatch MetaCyc:PWY-5417
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+ 
+ [Term]
+ id: GO:0019616
+@@ -157440,7 +158076,15 @@
+ synonym: "catechol breakdown, meta-cleavage" EXACT []
+ synonym: "catechol degradation, meta-cleavage" EXACT []
+ xref: MetaCyc:P183-PWY
++xref: MetaCyc:PWY-5415
++xref: MetaCyc:PWY-5419
++xref: MetaCyc:PWY-5420
+ is_a: GO:0019614 ! catechol-containing compound catabolic process
++property_value: skos:narrowMatch MetaCyc:P183-PWY
++property_value: skos:narrowMatch MetaCyc:PWY-5415
++property_value: skos:narrowMatch MetaCyc:PWY-5419
++property_value: skos:narrowMatch MetaCyc:PWY-5420
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+ 
+ [Term]
+ id: GO:0019617
+@@ -157497,7 +158141,7 @@
  id: GO:0019621
  name: creatinine catabolic process to formate
  namespace: biological_process
@@ -15713,7 +15767,7 @@
  synonym: "creatinine breakdown to formate" EXACT []
  synonym: "creatinine degradation to formate" EXACT []
  xref: MetaCyc:CRNFORCAT-PWY
-@@ -157591,7 +158220,7 @@
+@@ -157591,7 +158235,7 @@
  id: GO:0019629
  name: propionate catabolic process, 2-methylcitrate cycle
  namespace: biological_process
@@ -15722,7 +15776,7 @@
  synonym: "propionate breakdown, 2-methylcitrate cycle" EXACT []
  synonym: "propionate degradation, 2-methylcitrate cycle" EXACT []
  is_a: GO:0019543 ! propionate catabolic process
-@@ -157618,8 +158247,12 @@
+@@ -157618,8 +158262,12 @@
  synonym: "quinate degradation" EXACT []
  synonym: "quinic acid catabolic process" EXACT []
  synonym: "quinic acid catabolism" EXACT []
@@ -15735,7 +15789,7 @@
  
  [Term]
  id: GO:0019632
-@@ -157633,13 +158266,17 @@
+@@ -157633,13 +158281,17 @@
  id: GO:0019633
  name: shikimate catabolic process
  namespace: biological_process
@@ -15754,7 +15808,7 @@
  
  [Term]
  id: GO:0019634
-@@ -157664,8 +158301,14 @@
+@@ -157664,8 +158316,14 @@
  synonym: "ciliatine catabolic process" EXACT []
  synonym: "ciliatine catabolism" EXACT []
  xref: MetaCyc:PHOSPHONOTASE-PWY
@@ -15769,7 +15823,7 @@
  
  [Term]
  id: GO:0019636
-@@ -157723,7 +158366,7 @@
+@@ -157723,7 +158381,7 @@
  id: GO:0019640
  name: D-glucuronate catabolic process to D-xylulose 5-phosphate
  namespace: biological_process
@@ -15778,7 +15832,19 @@
  synonym: "glucuronate breakdown to xylulose 5-phosphate" EXACT []
  synonym: "glucuronate catabolic process to xylulose 5-phosphate" EXACT []
  synonym: "glucuronate degradation to xylulose 5-phosphate" EXACT []
-@@ -157854,7 +158497,7 @@
+@@ -157773,9 +158431,11 @@
+ synonym: "NADH-O2 electron transport" NARROW []
+ synonym: "succinate-O2 electron transport" NARROW []
+ synonym: "ubiquinone-8-O2 electron transport" NARROW []
++xref: MetaCyc:PWY-3781
+ is_a: GO:0009060 ! aerobic respiration
+ is_a: GO:0022904 ! respiratory electron transport chain
+ relationship: part_of GO:0006119 ! oxidative phosphorylation
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+ 
+ [Term]
+ id: GO:0019647
+@@ -157854,7 +158514,7 @@
  name: purine fermentation
  namespace: biological_process
  def: "The anaerobic chemical reactions and pathways resulting in the breakdown of purine nucleobases, yielding acetate and CO2." [GOC:mah]
@@ -15787,7 +15853,7 @@
  synonym: "anaerobic purine base catabolism" EXACT []
  synonym: "anaerobic purine catabolic process" RELATED []
  synonym: "anaerobic purine nucleobase catabolic process" EXACT []
-@@ -157964,10 +158607,13 @@
+@@ -157964,10 +158624,13 @@
  namespace: biological_process
  def: "The fermentation process resulting in the oxygen-independent conversion of pyruvate to reduced end products (e.g., lactate, ethanol, and acetate), accompanied by the concomitant oxidation of NADH to NAD." [GOC:curators]
  synonym: "glycolytic fermentation" RELATED []
@@ -15801,7 +15867,7 @@
  
  [Term]
  id: GO:0019661
-@@ -158022,7 +158668,7 @@
+@@ -158022,7 +158685,7 @@
  id: GO:0019665
  name: amino acid fermentation
  namespace: biological_process
@@ -15810,7 +15876,7 @@
  synonym: "anaerobic amino acid catabolic process" EXACT []
  is_a: GO:0006113 ! fermentation
  is_a: GO:0009063 ! amino acid catabolic process
-@@ -158042,7 +158688,7 @@
+@@ -158042,7 +158705,7 @@
  id: GO:0019667
  name: L-alanine fermentation
  namespace: biological_process
@@ -15819,7 +15885,7 @@
  synonym: "anaerobic L-alanine catabolic process" EXACT []
  xref: MetaCyc:PROPFERM-PWY
  xref: MetaCyc:PWY-8188
-@@ -158093,13 +158739,11 @@
+@@ -158093,13 +158756,11 @@
  name: obsolete glutamate catabolic process via mesaconate and citramalate
  namespace: biological_process
  def: "OBSOLETE. The anaerobic chemical reactions and pathways resulting in the breakdown of glutamate via the intermediates mesaconate and S-citramalate, yielding energy in the form of ATP." [GOC:rynl]
@@ -15834,7 +15900,7 @@
  
  [Term]
  id: GO:0019672
-@@ -158135,7 +158779,6 @@
+@@ -158135,7 +158796,6 @@
  synonym: "oxidized NAD metabolism" EXACT []
  synonym: "oxidized nicotinamide adenine dinucleotide metabolic process" EXACT []
  synonym: "oxidized nicotinamide adenine dinucleotide metabolism" EXACT []
@@ -15842,7 +15908,7 @@
  is_a: GO:0006163 ! purine nucleotide metabolic process
  is_a: GO:0046496 ! nicotinamide nucleotide metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21577" xsd:anyURI
-@@ -158201,7 +158844,6 @@
+@@ -158201,7 +158861,6 @@
  synonym: "reduced NAD catabolism" EXACT []
  synonym: "reduced nicotinamide adenine dinucleotide catabolic process" EXACT []
  synonym: "reduced nicotinamide adenine dinucleotide catabolism" EXACT []
@@ -15850,7 +15916,7 @@
  is_a: GO:0006195 ! purine nucleotide catabolic process
  is_a: GO:0019364 ! pyridine nucleotide catabolic process
  is_a: GO:0019674 ! NAD+ metabolic process
-@@ -158213,7 +158855,9 @@
+@@ -158213,7 +158872,9 @@
  id: GO:0019678
  name: propionate metabolic process, methylmalonyl pathway
  namespace: biological_process
@@ -15861,7 +15927,7 @@
  synonym: "propionate metabolism, methylmalonyl pathway" EXACT []
  xref: MetaCyc:PROPIONMET-PWY
  is_a: GO:0019541 ! propionate metabolic process
-@@ -158222,7 +158866,7 @@
+@@ -158222,7 +158883,7 @@
  id: GO:0019679
  name: propionate metabolic process, methylcitrate cycle
  namespace: biological_process
@@ -15870,7 +15936,7 @@
  synonym: "propionate metabolism, methylcitrate cycle" EXACT []
  xref: MetaCyc:PWY0-42
  is_a: GO:0019541 ! propionate metabolic process
-@@ -158291,9 +158935,13 @@
+@@ -158291,9 +158952,13 @@
  def: "The light reactions of photosynthesis, which take place in photosystems II and I. Light energy is harvested and used to power the transfer of electrons among a series of electron donors and acceptors. The final electron acceptor is NADP+, which is reduced to NADPH. NADPH generated from light reactions is used in sugar synthesis in dark reactions. Light reactions also generate a proton motive force across the thylakoid membrane, and the proton gradient is used to synthesize ATP. There are two chemical reactions involved in the light reactions: water oxidation in photosystem II, and NADP reduction in photosystem I." [PMID:15746074]
  synonym: "photolysis" RELATED []
  xref: MetaCyc:PWY-101
@@ -15884,7 +15950,7 @@
  
  [Term]
  id: GO:0019685
-@@ -158315,7 +158963,7 @@
+@@ -158315,7 +158980,7 @@
  id: GO:0019687
  name: pyruvate biosynthetic process from acetate
  namespace: biological_process
@@ -15893,7 +15959,7 @@
  synonym: "pyruvate anabolism from acetate" EXACT []
  synonym: "pyruvate formation from acetate" EXACT []
  synonym: "pyruvate synthesis from acetate" EXACT []
-@@ -158406,9 +159054,13 @@
+@@ -158406,9 +159071,13 @@
  synonym: "xylitol degradation to xylulose 5-phosphate" EXACT []
  synonym: "xylitol utilization" RELATED []
  xref: MetaCyc:LARABITOLUTIL-PWY
@@ -15907,7 +15973,7 @@
  
  [Term]
  id: GO:0019698
-@@ -158419,9 +159071,17 @@
+@@ -158419,9 +159088,17 @@
  synonym: "D-galacturonate catabolism" EXACT []
  synonym: "D-galacturonate degradation" EXACT []
  xref: MetaCyc:GALACTUROCAT-PWY
@@ -15925,7 +15991,7 @@
  
  [Term]
  id: GO:0019700
-@@ -158523,6 +159183,8 @@
+@@ -158523,6 +159200,8 @@
  name: protein-cysteine S-acyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the transfer of an acyl group to a sulfur atom on the cysteine of a protein molecule." [GOC:ai, RHEA:63372]
@@ -15934,7 +16000,7 @@
  xref: RHEA:63372
  is_a: GO:0016417 ! S-acyltransferase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
-@@ -158566,7 +159228,7 @@
+@@ -158566,7 +159245,7 @@
  id: GO:0019711
  name: obsolete peptidyl-beta-carboxyaspartic acid biosynthetic process from peptidyl-aspartic acid
  namespace: biological_process
@@ -15943,7 +16009,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "peptidyl-beta-carboxyaspartic acid anabolism from peptidyl-aspartic acid" EXACT []
  synonym: "peptidyl-beta-carboxyaspartic acid formation from peptidyl-aspartic acid" EXACT []
-@@ -158751,7 +159413,7 @@
+@@ -158751,7 +159430,7 @@
  namespace: biological_process
  alt_id: GO:0006960
  alt_id: GO:0019735
@@ -15952,7 +16018,7 @@
  xref: Reactome:R-HSA-6803157 "Antimicrobial peptides"
  is_a: GO:0006959 ! humoral immune response
  is_a: GO:0140546 ! defense response to symbiont
-@@ -158762,7 +159424,7 @@
+@@ -158762,7 +159441,7 @@
  namespace: biological_process
  alt_id: GO:0006961
  alt_id: GO:0019733
@@ -15961,7 +16027,7 @@
  is_a: GO:0019730 ! antimicrobial humoral response
  is_a: GO:0042742 ! defense response to bacterium
  
-@@ -158772,7 +159434,7 @@
+@@ -158772,7 +159451,7 @@
  namespace: biological_process
  alt_id: GO:0006966
  alt_id: GO:0019734
@@ -15970,7 +16036,7 @@
  is_a: GO:0019730 ! antimicrobial humoral response
  is_a: GO:0050832 ! defense response to fungus
  
-@@ -158861,7 +159523,7 @@
+@@ -158861,7 +159540,7 @@
  id: GO:0019747
  name: regulation of isoprenoid metabolic process
  namespace: biological_process
@@ -15979,7 +16045,7 @@
  synonym: "regulation of isoprenoid metabolism" EXACT []
  is_a: GO:0019216 ! regulation of lipid metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -158872,7 +159534,7 @@
+@@ -158872,7 +159551,7 @@
  id: GO:0019748
  name: secondary metabolic process
  namespace: biological_process
@@ -15988,7 +16054,7 @@
  subset: goslim_chembl
  subset: goslim_euk_cellular_processes_ribbon
  subset: goslim_pir
-@@ -159197,6 +159859,7 @@
+@@ -159197,6 +159876,7 @@
  namespace: molecular_function
  def: "Catalysis of the activation of the small ubiquitin-related modifier ISG15, through the formation of an ATP-dependent high-energy thiolester bond." [GOC:mah]
  synonym: "UBE1L" NARROW []
@@ -15996,7 +16062,7 @@
  is_a: GO:0008641 ! ubiquitin-like modifier activating enzyme activity
  
  [Term]
-@@ -159450,6 +160113,8 @@
+@@ -159450,6 +160130,8 @@
  xref: Reactome:R-HSA-6804468 "PIAS1 SUMOylates SP3 with SUMO2"
  xref: Reactome:R-HSA-6804485 "PIAS1 SUMOylates L3MBTL2 with SUMO2"
  xref: Reactome:R-HSA-8956365 "ZBED1 (DREF) SUMOylates CHD3 with SUMO1"
@@ -16005,7 +16071,7 @@
  is_a: GO:0019787 ! ubiquitin-like protein transferase activity
  
  [Term]
-@@ -159668,7 +160333,7 @@
+@@ -159668,7 +160350,7 @@
  synonym: "N-acyl-L-aspartate amidohydrolase activity" RELATED [EC:3.5.1.15]
  xref: EC:3.5.1.15
  xref: MetaCyc:ASPARTOACYLASE-RXN
@@ -16014,7 +16080,7 @@
  xref: RHEA:10872
  is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
  property_value: skos:exactMatch EC:3.5.1.15
-@@ -159882,7 +160547,7 @@
+@@ -159882,7 +160564,7 @@
  id: GO:0019830
  name: obsolete cadmium sensitivity/resistance
  namespace: biological_process
@@ -16023,7 +16089,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "cadmium sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -159892,7 +160557,7 @@
+@@ -159892,7 +160574,7 @@
  id: GO:0019831
  name: obsolete chromate sensitivity/resistance
  namespace: biological_process
@@ -16032,7 +16098,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "chromate sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -159902,7 +160567,7 @@
+@@ -159902,7 +160584,7 @@
  id: GO:0019832
  name: obsolete mercuric sensitivity/resistance
  namespace: biological_process
@@ -16041,7 +16107,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "mercuric sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -159961,7 +160626,7 @@
+@@ -159961,7 +160643,7 @@
  id: GO:0019837
  name: obsolete herbicide susceptibility/resistance
  namespace: biological_process
@@ -16050,7 +16116,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "herbicide susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -160117,7 +160782,7 @@
+@@ -160117,7 +160799,7 @@
  id: GO:0019854
  name: L-ascorbic acid catabolic process
  namespace: biological_process
@@ -16059,7 +16125,7 @@
  synonym: "ascorbate catabolic process" EXACT []
  synonym: "ascorbate catabolism" EXACT []
  synonym: "L-ascorbic acid breakdown" EXACT []
-@@ -160125,18 +160790,29 @@
+@@ -160125,18 +160807,29 @@
  synonym: "L-ascorbic acid degradation" EXACT []
  synonym: "vitamin C catabolic process" EXACT []
  synonym: "vitamin C catabolism" EXACT []
@@ -16089,7 +16155,7 @@
  is_a: GO:0005246 ! calcium channel regulator activity
  is_a: GO:0008200 ! ion channel inhibitor activity
  relationship: negatively_regulates GO:0005262 ! calcium channel activity
-@@ -160145,10 +160821,10 @@
+@@ -160145,10 +160838,10 @@
  id: GO:0019856
  name: pyrimidine nucleobase biosynthetic process
  namespace: biological_process
@@ -16102,7 +16168,7 @@
  synonym: "pyrimidine base formation" EXACT []
  synonym: "pyrimidine base synthesis" EXACT []
  is_a: GO:0006206 ! pyrimidine nucleobase metabolic process
-@@ -160179,7 +160855,7 @@
+@@ -160179,7 +160872,7 @@
  id: GO:0019859
  name: thymine metabolic process
  namespace: biological_process
@@ -16111,7 +16177,7 @@
  synonym: "thymine metabolism" EXACT []
  is_a: GO:0006206 ! pyrimidine nucleobase metabolic process
  
-@@ -160187,7 +160863,7 @@
+@@ -160187,7 +160880,7 @@
  id: GO:0019860
  name: uracil metabolic process
  namespace: biological_process
@@ -16120,7 +16186,7 @@
  synonym: "uracil metabolism" EXACT []
  is_a: GO:0006206 ! pyrimidine nucleobase metabolic process
  
-@@ -160246,7 +160922,7 @@
+@@ -160246,7 +160939,7 @@
  id: GO:0019867
  name: outer membrane
  namespace: cellular_component
@@ -16129,7 +16195,7 @@
  subset: goslim_metagenomics
  is_a: GO:0016020 ! membrane
  
-@@ -160264,6 +160940,8 @@
+@@ -160264,6 +160957,8 @@
  name: potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of a potassium channel." [GOC:mah]
@@ -16138,7 +16204,7 @@
  is_a: GO:0008200 ! ion channel inhibitor activity
  is_a: GO:0015459 ! potassium channel regulator activity
  relationship: negatively_regulates GO:0005267 ! potassium channel activity
-@@ -160294,7 +160972,7 @@
+@@ -160294,7 +160989,7 @@
  id: GO:0019873
  name: obsolete tellurium sensitivity/resistance
  namespace: biological_process
@@ -16147,7 +16213,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "tellurium sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -160354,12 +161032,13 @@
+@@ -160354,12 +161049,13 @@
  is_a: GO:0008652 ! amino acid biosynthetic process
  is_a: GO:0043650 ! dicarboxylic acid biosynthetic process
  is_a: GO:1901570 ! fatty acid derivative biosynthetic process
@@ -16162,7 +16228,7 @@
  synonym: "lysine anabolism via aminoadipic acid" EXACT []
  synonym: "lysine biosynthesis, aminoadipic acid pathway" EXACT []
  synonym: "lysine biosynthesis, aminoadipic pathway" EXACT []
-@@ -160386,7 +161065,7 @@
+@@ -160386,7 +161082,7 @@
  id: GO:0019880
  name: obsolete bacteriocin susceptibility/resistance
  namespace: biological_process
@@ -16171,7 +16237,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "bacteriocin susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -160396,7 +161075,7 @@
+@@ -160396,7 +161092,7 @@
  id: GO:0019881
  name: obsolete streptomycin susceptibility/resistance
  namespace: biological_process
@@ -16180,7 +16246,7 @@
  comment: This term was made obsolete because 'susceptibility/resistance' implies a phenotype rather than a biological process.
  synonym: "streptomycin susceptibility/resistance" EXACT []
  is_obsolete: true
-@@ -160498,7 +161177,7 @@
+@@ -160498,7 +161194,7 @@
  id: GO:0019889
  name: pteridine metabolic process
  namespace: biological_process
@@ -16189,7 +16255,7 @@
  synonym: "pteridine metabolism" EXACT []
  is_a: GO:0042558 ! pteridine-containing compound metabolic process
  
-@@ -160608,7 +161287,7 @@
+@@ -160608,7 +161304,7 @@
  id: GO:0019904
  name: protein domain specific binding
  namespace: molecular_function
@@ -16198,7 +16264,7 @@
  subset: goslim_chembl
  synonym: "protein domain-specific binding" EXACT []
  is_a: GO:0005515 ! protein binding
-@@ -160621,12 +161300,9 @@
+@@ -160621,12 +161317,9 @@
  alt_id: GO:0030349
  alt_id: GO:0050430
  alt_id: GO:0051535
@@ -16213,7 +16279,7 @@
  
  [Term]
  id: GO:0019907
-@@ -160686,7 +161362,7 @@
+@@ -160686,7 +161379,7 @@
  name: obsolete cyclin-dependent protein kinase activating kinase activity
  namespace: molecular_function
  alt_id: GO:0019913
@@ -16222,7 +16288,7 @@
  comment: The reason for obsoletion is that the term is s kinase+ substrate, but covers a number of unrelated kinases.
  synonym: "CAK" EXACT []
  synonym: "cdk-activating kinase activity" EXACT []
-@@ -160765,7 +161441,7 @@
+@@ -160765,7 +161458,7 @@
  id: GO:0019920
  name: obsolete peptidyl-1-thioglycine biosynthetic process, internal
  namespace: biological_process
@@ -16231,7 +16297,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "peptidyl-1-thioglycine anabolism, internal" EXACT []
  synonym: "peptidyl-1-thioglycine formation, internal" EXACT []
-@@ -160777,7 +161453,7 @@
+@@ -160777,7 +161470,7 @@
  id: GO:0019921
  name: obsolete peptidyl-1-thioglycine biosynthetic process, carboxy-terminal
  namespace: biological_process
@@ -16240,7 +16306,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "peptidyl-1-thioglycine anabolism, carboxy-terminal" EXACT []
  synonym: "peptidyl-1-thioglycine formation, carboxy-terminal" EXACT []
-@@ -160982,7 +161658,7 @@
+@@ -160982,7 +161675,7 @@
  id: GO:0019941
  name: modification-dependent protein catabolic process
  namespace: biological_process
@@ -16249,7 +16315,7 @@
  synonym: "modification-dependent protein breakdown" EXACT []
  synonym: "modification-dependent protein catabolism" EXACT []
  synonym: "modification-dependent protein degradation" EXACT []
-@@ -161287,7 +161963,7 @@
+@@ -161287,7 +161980,7 @@
  id: GO:0019987
  name: obsolete negative regulation of anti-apoptosis
  namespace: biological_process
@@ -16258,7 +16324,7 @@
  comment: This term was made obsolete because it was ill-defined.
  synonym: "down regulation of anti-apoptosis" EXACT []
  synonym: "down-regulation of anti-apoptosis" EXACT []
-@@ -161542,7 +162218,7 @@
+@@ -161542,7 +162235,7 @@
  id: GO:0020027
  name: hemoglobin metabolic process
  namespace: biological_process
@@ -16267,7 +16333,7 @@
  synonym: "haemoglobin metabolic process" EXACT []
  synonym: "haemoglobin metabolism" EXACT []
  synonym: "hemoglobin metabolism" EXACT []
-@@ -161629,6 +162305,7 @@
+@@ -161629,6 +162322,7 @@
  namespace: molecular_function
  def: "Binding to a heme, a compound composed of iron complexed in a porphyrin (tetrapyrrole) ring." [GOC:ai]
  synonym: "haem binding" EXACT []
@@ -16275,7 +16341,7 @@
  is_a: GO:0046906 ! tetrapyrrole binding
  
  [Term]
-@@ -167050,7 +167727,7 @@
+@@ -167050,7 +167744,7 @@
  id: GO:0022825
  name: obsolete copper-exporting ATPase activity
  namespace: molecular_function
@@ -16284,7 +16350,7 @@
  comment: This term was made obsolete because it was a placeholder during work on transporter terms, and was not defined.
  synonym: "copper-exporting ATPase activity" EXACT []
  is_obsolete: true
-@@ -167248,8 +167925,9 @@
+@@ -167248,8 +167942,9 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + glucose(out) = protein histidine + glucose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "glucose PTS transporter activity" EXACT []
@@ -16295,7 +16361,7 @@
  
  [Term]
  id: GO:0022856
-@@ -167257,8 +167935,9 @@
+@@ -167257,8 +167952,9 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + sorbitol(out) = protein histidine + sorbitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "sorbitol PTS transporter activity" EXACT []
@@ -16306,7 +16372,7 @@
  
  [Term]
  id: GO:0022857
-@@ -167278,12 +167957,26 @@
+@@ -167278,12 +167974,26 @@
  synonym: "uptake permease activity" RELATED []
  synonym: "uptake transmembrane transporter activity" RELATED []
  xref: Reactome:R-HSA-1236947 "Egress of internalized antigen to the cytosol via sec61"
@@ -16333,7 +16399,7 @@
  is_a: GO:0005215 ! transporter activity
  relationship: part_of GO:0055085 ! transmembrane transport
  
-@@ -167337,17 +168030,23 @@
+@@ -167337,17 +168047,23 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + lactose(out) = protein histidine + lactose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "lactose PTS transporter activity" EXACT []
@@ -16360,7 +16426,7 @@
  
  [Term]
  id: GO:0022871
-@@ -167358,13 +168057,14 @@
+@@ -167358,13 +168074,14 @@
  xref: EC:2.7.1.206
  xref: MetaCyc:RXN-15094
  xref: RHEA:49296
@@ -16377,7 +16443,7 @@
  
  [Term]
  id: GO:0022872
-@@ -167372,8 +168072,9 @@
+@@ -167372,8 +168089,9 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + mannitol(out) = protein histidine + mannitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "mannitol PTS transporter activity" EXACT []
@@ -16388,7 +16454,7 @@
  
  [Term]
  id: GO:0022873
-@@ -167382,16 +168083,22 @@
+@@ -167382,16 +168100,22 @@
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + maltose(out) = protein histidine + maltose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "maltose PTS transporter activity" EXACT []
  is_a: GO:0005363 ! maltose transmembrane transporter activity
@@ -16414,7 +16480,7 @@
  
  [Term]
  id: GO:0022875
-@@ -167399,8 +168106,9 @@
+@@ -167399,8 +168123,9 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + galactitol(out) = protein histidine + galactitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "galactitol PTS transporter activity" EXACT []
@@ -16425,7 +16491,7 @@
  
  [Term]
  id: GO:0022876
-@@ -167408,8 +168116,9 @@
+@@ -167408,8 +168133,9 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + galactosamine(out) = protein histidine + galactosamine phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "galactosamine PTS transporter activity" EXACT []
@@ -16436,7 +16502,7 @@
  
  [Term]
  id: GO:0022877
-@@ -167418,7 +168127,8 @@
+@@ -167418,7 +168144,8 @@
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + fructose(out) = protein histidine + fructose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "fructose PTS transporter activity" EXACT []
  is_a: GO:0005353 ! fructose transmembrane transporter activity
@@ -16446,7 +16512,7 @@
  
  [Term]
  id: GO:0022878
-@@ -167426,12 +168136,15 @@
+@@ -167426,12 +168153,15 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + sucrose(out) = protein histidine + sucrose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "sucrose PTS transporter activity" EXACT []
@@ -16463,7 +16529,7 @@
  
  [Term]
  id: GO:0022879
-@@ -167439,18 +168152,24 @@
+@@ -167439,18 +168169,24 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + trehalose(out) = protein histidine + trehalose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "trehalose PTS transporter activity" EXACT []
@@ -16491,7 +16557,7 @@
  
  [Term]
  id: GO:0022881
-@@ -167458,18 +168177,19 @@
+@@ -167458,18 +168194,19 @@
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N-acetylgalactosamine(out) = protein histidine + N-acetylgalactosamine phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
  synonym: "N-acetylgalactosamine PTS transporter activity" EXACT []
@@ -16515,7 +16581,7 @@
  
  [Term]
  id: GO:0022883
-@@ -168279,6 +168999,7 @@
+@@ -168279,6 +169016,7 @@
  synonym: "divalent metal ion transport" NARROW []
  synonym: "heavy metal ion transport" NARROW []
  synonym: "metal ion export" NARROW []
@@ -16523,7 +16589,7 @@
  is_a: GO:0006812 ! monoatomic cation transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23033" xsd:anyURI
  created_by: mah
-@@ -168904,7 +169625,7 @@
+@@ -168904,7 +169642,7 @@
  id: GO:0030068
  name: obsolete lytic viral life cycle
  namespace: biological_process
@@ -16532,7 +16598,7 @@
  comment: This term was made obsolete because more specific terms were created.
  synonym: "lytic viral life cycle" EXACT []
  is_obsolete: true
-@@ -169105,7 +169826,7 @@
+@@ -169105,7 +169843,7 @@
  id: GO:0030092
  name: obsolete regulation of flagellum assembly
  namespace: biological_process
@@ -16541,7 +16607,7 @@
  comment: This term was made obsolete because microtubule-based flagellum (GO:0009434) and motile cilium (GO:0031514), as referenced by this term, were determined to be equivalent and merged. When a merge for this term was considered, it was noticed that both eukaryotic and prokaryotic proteins are annotated to it because its meaning had been ambiguous so obsoletion was considered safest.
  synonym: "regulation of flagella assembly" RELATED [GOC:mah]
  synonym: "regulation of flagella biogenesis" RELATED []
-@@ -169179,7 +169900,7 @@
+@@ -169179,7 +169917,7 @@
  name: lymphocyte differentiation
  namespace: biological_process
  alt_id: GO:0046650
@@ -16550,7 +16616,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "lymphocyte cell differentiation" EXACT []
  synonym: "lymphocyte development" RELATED [GOC:add]
-@@ -169199,7 +169920,7 @@
+@@ -169199,7 +169937,7 @@
  id: GO:0030100
  name: regulation of endocytosis
  namespace: biological_process
@@ -16559,7 +16625,7 @@
  is_a: GO:0051128 ! regulation of cellular component organization
  is_a: GO:0060627 ! regulation of vesicle-mediated transport
  intersection_of: GO:0065007 ! biological regulation
-@@ -169559,7 +170280,7 @@
+@@ -169559,7 +170297,7 @@
  id: GO:0030139
  name: endocytic vesicle
  namespace: cellular_component
@@ -16568,7 +16634,7 @@
  synonym: "endocytotic transport vesicle" EXACT []
  synonym: "endocytotic vesicle" EXACT []
  xref: NIF_Subcellular:sao1362520468
-@@ -169627,6 +170348,7 @@
+@@ -169627,6 +170365,7 @@
  synonym: "uridine diphosphoacetylglucosamine-alpha-mannoside beta1->6-acetylglucosaminyltransferase activity" RELATED [EC:2.4.1.155]
  xref: EC:2.4.1.155
  xref: MetaCyc:2.4.1.155-RXN
@@ -16576,7 +16642,7 @@
  xref: Reactome:R-HSA-9696980 "Spike trimer glycoside chains get additional branches"
  xref: Reactome:R-HSA-975916 "Addition of GlcNAc to position 5 by MGAT5"
  xref: RHEA:16921
-@@ -169870,6 +170592,7 @@
+@@ -169870,6 +170609,7 @@
  subset: goslim_generic
  subset: goslim_pombe
  subset: goslim_prokaryote
@@ -16584,7 +16650,7 @@
  synonym: "cellular protein breakdown" EXACT []
  synonym: "cellular protein catabolic process" EXACT []
  synonym: "cellular protein catabolism" EXACT []
-@@ -169897,7 +170620,7 @@
+@@ -169897,7 +170637,7 @@
  id: GO:0030165
  name: PDZ domain binding
  namespace: molecular_function
@@ -16593,7 +16659,7 @@
  synonym: "DHR-domain binding" EXACT []
  synonym: "GLGF-domain binding" EXACT []
  is_a: GO:0019904 ! protein domain specific binding
-@@ -169923,6 +170646,7 @@
+@@ -169923,6 +170663,7 @@
  synonym: "proteoglycan breakdown" EXACT []
  synonym: "proteoglycan catabolism" EXACT []
  synonym: "proteoglycan degradation" EXACT []
@@ -16601,7 +16667,7 @@
  is_a: GO:0006029 ! proteoglycan metabolic process
  is_a: GO:0006516 ! glycoprotein catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29745" xsd:anyURI
-@@ -169979,7 +170703,7 @@
+@@ -169979,7 +170720,7 @@
  id: GO:0030173
  name: obsolete integral component of Golgi membrane
  namespace: cellular_component
@@ -16610,7 +16676,7 @@
  comment: This term was obsoleted because it represents protein topology, not a cellular component.
  synonym: "Golgi integral membrane protein" RELATED []
  synonym: "integral to Golgi membrane" NARROW []
-@@ -170031,7 +170755,7 @@
+@@ -170031,7 +170772,7 @@
  name: positive regulation of Wnt signaling pathway
  namespace: biological_process
  alt_id: GO:0045811
@@ -16619,7 +16685,7 @@
  synonym: "activation of frizzled signaling pathway" NARROW []
  synonym: "activation of Wnt receptor signaling pathway" NARROW []
  synonym: "positive regulation of frizzled signaling pathway" EXACT []
-@@ -170058,7 +170782,7 @@
+@@ -170058,7 +170799,7 @@
  name: negative regulation of Wnt signaling pathway
  namespace: biological_process
  alt_id: GO:0045810
@@ -16628,7 +16694,7 @@
  synonym: "down regulation of frizzled signaling pathway" EXACT []
  synonym: "down regulation of Wnt receptor signaling pathway" EXACT []
  synonym: "down-regulation of frizzled signaling pathway" EXACT []
-@@ -170346,6 +171070,7 @@
+@@ -170346,6 +171087,7 @@
  synonym: "heparan sulphate proteoglycan metabolic process" EXACT []
  synonym: "heparan sulphate proteoglycan metabolism" EXACT []
  synonym: "heparin proteoglycan metabolic process" RELATED []
@@ -16636,7 +16702,7 @@
  is_a: GO:0006029 ! proteoglycan metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29294" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29745" xsd:anyURI
-@@ -170380,7 +171105,6 @@
+@@ -170380,7 +171122,6 @@
  synonym: "chondroitin sulfate metabolism" EXACT []
  synonym: "chondroitin sulphate metabolic process" EXACT []
  synonym: "chondroitin sulphate metabolism" EXACT []
@@ -16644,7 +16710,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28977" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0050654
-@@ -170412,7 +171136,6 @@
+@@ -170412,7 +171153,6 @@
  synonym: "chondroitin sulfate synthesis" EXACT []
  synonym: "chondroitin sulphate biosynthesis" EXACT []
  synonym: "chondroitin sulphate biosynthetic process" EXACT []
@@ -16652,7 +16718,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27107" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28977" xsd:anyURI
  is_obsolete: true
-@@ -170453,7 +171176,6 @@
+@@ -170453,7 +171193,6 @@
  synonym: "dermatan sulfate synthesis" EXACT []
  synonym: "dermatan sulphate biosynthesis" EXACT []
  synonym: "dermatan sulphate biosynthetic process" EXACT []
@@ -16660,7 +16726,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27107" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28977" xsd:anyURI
  is_obsolete: true
-@@ -170531,7 +171253,6 @@
+@@ -170531,7 +171270,6 @@
  synonym: "hyaluronan biosynthesis" EXACT []
  synonym: "hyaluronan formation" EXACT []
  synonym: "hyaluronan synthesis" EXACT []
@@ -16668,7 +16734,7 @@
  is_a: GO:0006024 ! glycosaminoglycan biosynthetic process
  is_a: GO:0030212 ! hyaluronan metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29745" xsd:anyURI
-@@ -170545,7 +171266,7 @@
+@@ -170545,7 +171283,7 @@
  synonym: "hyaluronan catabolism" EXACT []
  synonym: "hyaluronan degradation" EXACT []
  xref: MetaCyc:PWY-7645
@@ -16677,7 +16743,7 @@
  is_a: GO:0006027 ! glycosaminoglycan catabolic process
  is_a: GO:0030212 ! hyaluronan metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27107" xsd:anyURI
-@@ -170581,6 +171302,7 @@
+@@ -170581,6 +171319,7 @@
  synonym: "T lymphocyte differentiation" EXACT []
  synonym: "T-cell differentiation" EXACT []
  synonym: "T-lymphocyte differentiation" EXACT []
@@ -16685,7 +16751,7 @@
  is_a: GO:0030098 ! lymphocyte differentiation
  is_a: GO:0042110 ! T cell activation
  
-@@ -171207,14 +171929,14 @@
+@@ -171207,14 +171946,14 @@
  id: GO:0030274
  name: LIM domain binding
  namespace: molecular_function
@@ -16702,7 +16768,7 @@
  is_a: GO:0019904 ! protein domain specific binding
  
  [Term]
-@@ -171236,7 +171958,7 @@
+@@ -171236,7 +171975,7 @@
  id: GO:0030278
  name: regulation of ossification
  namespace: biological_process
@@ -16711,7 +16777,7 @@
  synonym: "regulation of bone biosynthesis" EXACT []
  synonym: "regulation of bone formation" EXACT []
  is_a: GO:0051239 ! regulation of multicellular organismal process
-@@ -171248,7 +171970,7 @@
+@@ -171248,7 +171987,7 @@
  id: GO:0030279
  name: negative regulation of ossification
  namespace: biological_process
@@ -16720,7 +16786,7 @@
  synonym: "down regulation of ossification" EXACT []
  synonym: "down-regulation of ossification" EXACT []
  synonym: "downregulation of ossification" EXACT []
-@@ -171291,7 +172013,6 @@
+@@ -171291,7 +172030,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: testosterone + NAD(P)+ = androst-4-ene-3,17-dione + NAD(P)H + H+." [EC:1.1.1.51]
  comment: This term was obsoleted because it is an unnecessary grouing class.
@@ -16728,7 +16794,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28298" xsd:anyURI
  is_obsolete: true
  consider: GO:0047035
-@@ -171311,7 +172032,7 @@
+@@ -171311,7 +172049,7 @@
  id: GO:0030285
  name: obsolete integral component of synaptic vesicle membrane
  namespace: cellular_component
@@ -16737,7 +16803,7 @@
  comment: This term was obsoleted because it represents protein topology, not a cellular component.
  synonym: "integral to synaptic vesicle membrane" NARROW []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23424" xsd:anyURI
-@@ -171504,7 +172225,7 @@
+@@ -171504,7 +172242,7 @@
  id: GO:0030307
  name: positive regulation of cell growth
  namespace: biological_process
@@ -16746,7 +16812,7 @@
  synonym: "activation of cell growth" NARROW []
  synonym: "stimulation of cell growth" NARROW []
  synonym: "up regulation of cell growth" EXACT []
-@@ -171521,7 +172242,7 @@
+@@ -171521,7 +172259,7 @@
  id: GO:0030308
  name: negative regulation of cell growth
  namespace: biological_process
@@ -16755,7 +16821,7 @@
  synonym: "down regulation of cell growth" EXACT []
  synonym: "down-regulation of cell growth" EXACT []
  synonym: "downregulation of cell growth" EXACT []
-@@ -171568,7 +172289,7 @@
+@@ -171568,7 +172306,7 @@
  id: GO:0030312
  name: external encapsulating structure
  namespace: cellular_component
@@ -16764,7 +16830,7 @@
  comment: The outer membrane (of gram negative bacteria) or cell wall (of yeast or Gram positive bacteria) are defined as parts of this structure, see 'external encapsulating structure part'.
  subset: goslim_chembl
  subset: goslim_drosophila
-@@ -171746,11 +172467,13 @@
+@@ -171746,11 +172484,13 @@
  name: DNA damage response, signal transduction by p53 class mediator
  namespace: biological_process
  alt_id: GO:0006976
@@ -16779,7 +16845,7 @@
  is_a: GO:0042770 ! signal transduction in response to DNA damage
  is_a: GO:0072331 ! signal transduction by p53 class mediator
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26003" xsd:anyURI
-@@ -171775,7 +172498,7 @@
+@@ -171775,7 +172515,7 @@
  id: GO:0030334
  name: regulation of cell migration
  namespace: biological_process
@@ -16788,7 +16854,7 @@
  is_a: GO:2000145 ! regulation of cell motility
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0016477 ! cell migration
-@@ -171785,7 +172508,7 @@
+@@ -171785,7 +172525,7 @@
  id: GO:0030335
  name: positive regulation of cell migration
  namespace: biological_process
@@ -16797,7 +16863,7 @@
  synonym: "activation of cell migration" NARROW []
  synonym: "stimulation of cell migration" NARROW []
  synonym: "up regulation of cell migration" EXACT []
-@@ -171801,7 +172524,7 @@
+@@ -171801,7 +172541,7 @@
  id: GO:0030336
  name: negative regulation of cell migration
  namespace: biological_process
@@ -16806,7 +16872,7 @@
  synonym: "down regulation of cell migration" EXACT []
  synonym: "down-regulation of cell migration" EXACT []
  synonym: "downregulation of cell migration" EXACT []
-@@ -172576,26 +173299,28 @@
+@@ -172576,26 +173316,28 @@
  id: GO:0030418
  name: nicotianamine biosynthetic process
  namespace: biological_process
@@ -16841,7 +16907,7 @@
  
  [Term]
  id: GO:0030420
-@@ -172698,7 +173423,7 @@
+@@ -172698,7 +173440,7 @@
  synonym: "L-kynurenine hydrolase activity" RELATED [EC:3.7.1.3]
  xref: EC:3.7.1.3
  xref: MetaCyc:KYNURENINASE-RXN
@@ -16850,7 +16916,7 @@
  xref: RHEA:16813
  xref: RHEA:25143
  is_a: GO:0016823 ! hydrolase activity, acting on carbon-carbon bonds, in ketonic substances
-@@ -172899,7 +173624,7 @@
+@@ -172899,7 +173641,7 @@
  id: GO:0030449
  name: regulation of complement activation
  namespace: biological_process
@@ -16859,7 +16925,7 @@
  synonym: "regulation of complement cascade" EXACT [GOC:add]
  xref: Reactome:R-HSA-977606 "Regulation of Complement cascade"
  is_a: GO:0002697 ! regulation of immune effector process
-@@ -172912,7 +173637,7 @@
+@@ -172912,7 +173654,7 @@
  id: GO:0030450
  name: regulation of complement activation, classical pathway
  namespace: biological_process
@@ -16868,7 +16934,7 @@
  synonym: "regulation of complement cascade, classical pathway" EXACT [GOC:add]
  is_a: GO:0002923 ! regulation of humoral immune response mediated by circulating immunoglobulin
  is_a: GO:0030449 ! regulation of complement activation
-@@ -172924,7 +173649,7 @@
+@@ -172924,7 +173666,7 @@
  id: GO:0030451
  name: regulation of complement activation, alternative pathway
  namespace: biological_process
@@ -16877,7 +16943,7 @@
  synonym: "regulation of complement cascade, alternative pathway" EXACT [GOC:add]
  is_a: GO:0030449 ! regulation of complement activation
  is_a: GO:0045088 ! regulation of innate immune response
-@@ -172996,7 +173721,7 @@
+@@ -172996,7 +173738,7 @@
  id: GO:0030463
  name: obsolete cell aging (sensu Fungi)
  namespace: biological_process
@@ -16886,7 +16952,7 @@
  comment: This term was made obsolete because it does not describe a biological process that is distinct from 'cell aging'.
  synonym: "cell aging (sensu Fungi)" EXACT []
  is_obsolete: true
-@@ -173015,7 +173740,7 @@
+@@ -173015,7 +173757,7 @@
  id: GO:0030465
  name: obsolete autophagic death (sensu Fungi)
  namespace: biological_process
@@ -16895,7 +16961,7 @@
  comment: This term was made obsolete because a more correct term has been created.
  synonym: "autophagic death (sensu Fungi)" EXACT []
  is_obsolete: true
-@@ -173234,7 +173959,7 @@
+@@ -173234,7 +173976,7 @@
  id: GO:0030495
  name: bacteriochlorophyll catabolic process
  namespace: biological_process
@@ -16904,7 +16970,7 @@
  synonym: "bacteriochlorophyll breakdown" EXACT []
  synonym: "bacteriochlorophyll catabolism" EXACT []
  synonym: "bacteriochlorophyll degradation" EXACT []
-@@ -173260,7 +173985,7 @@
+@@ -173260,7 +174002,7 @@
  id: GO:0030500
  name: regulation of bone mineralization
  namespace: biological_process
@@ -16913,7 +16979,7 @@
  is_a: GO:0030278 ! regulation of ossification
  is_a: GO:0070167 ! regulation of biomineral tissue development
  intersection_of: GO:0065007 ! biological regulation
-@@ -173271,7 +173996,7 @@
+@@ -173271,7 +174013,7 @@
  id: GO:0030501
  name: positive regulation of bone mineralization
  namespace: biological_process
@@ -16922,7 +16988,7 @@
  synonym: "activation of bone mineralization" NARROW []
  synonym: "stimulation of bone mineralization" NARROW []
  synonym: "up regulation of bone mineralization" EXACT []
-@@ -173288,7 +174013,7 @@
+@@ -173288,7 +174030,7 @@
  id: GO:0030502
  name: negative regulation of bone mineralization
  namespace: biological_process
@@ -16931,7 +16997,7 @@
  synonym: "down regulation of bone mineralization" EXACT []
  synonym: "down-regulation of bone mineralization" EXACT []
  synonym: "downregulation of bone mineralization" EXACT []
-@@ -173307,7 +174032,6 @@
+@@ -173307,7 +174049,6 @@
  def: "OBSOLETE. Enables the transfer of inorganic diphosphate across a membrane." [PMID:11326272]
  comment: The reason for obsoletion is that this term was an unnecessary and confusing grouping term.
  synonym: "inorganic pyrophosphate transporter activity" EXACT []
@@ -16939,7 +17005,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30715" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0022857
-@@ -173394,7 +174118,7 @@
+@@ -173394,7 +174135,7 @@
  id: GO:0030511
  name: positive regulation of transforming growth factor beta receptor signaling pathway
  namespace: biological_process
@@ -16948,7 +17014,7 @@
  synonym: "activation of transforming growth factor beta receptor signaling pathway" NARROW []
  synonym: "positive regulation of TGF-beta receptor signaling pathway" EXACT []
  synonym: "positive regulation of TGFbeta receptor signaling pathway" EXACT []
-@@ -173434,7 +174158,7 @@
+@@ -173434,7 +174175,7 @@
  name: positive regulation of BMP signaling pathway
  namespace: biological_process
  alt_id: GO:0090098
@@ -16957,7 +17023,7 @@
  synonym: "activation of BMP signaling pathway" NARROW []
  synonym: "positive regulation of BMP receptor signaling pathway" RELATED []
  synonym: "positive regulation of BMP signalling pathway" EXACT []
-@@ -173460,7 +174184,7 @@
+@@ -173460,7 +174201,7 @@
  name: negative regulation of BMP signaling pathway
  namespace: biological_process
  alt_id: GO:0090099
@@ -16966,7 +17032,7 @@
  synonym: "down regulation of BMP signaling pathway" EXACT []
  synonym: "down-regulation of BMP signaling pathway" EXACT []
  synonym: "downregulation of BMP signaling pathway" EXACT []
-@@ -173492,7 +174216,7 @@
+@@ -173492,7 +174233,7 @@
  id: GO:0030516
  name: regulation of axon extension
  namespace: biological_process
@@ -16975,7 +17041,7 @@
  is_a: GO:0048638 ! regulation of developmental growth
  is_a: GO:0061387 ! regulation of extent of cell growth
  intersection_of: GO:0065007 ! biological regulation
-@@ -173663,7 +174387,7 @@
+@@ -173663,7 +174404,7 @@
  id: GO:0030535
  name: obsolete adult feeding behavior (sensu Insecta)
  namespace: biological_process
@@ -16984,7 +17050,7 @@
  comment: This term was made obsolete because there is no clear difference between the sensu Insecta term and the generic term.
  synonym: "adult feeding behavior (sensu Insecta)" EXACT []
  is_obsolete: true
-@@ -174017,7 +174741,7 @@
+@@ -174017,7 +174758,7 @@
  name: bile acid catabolic process
  namespace: biological_process
  alt_id: GO:0019613
@@ -16993,7 +17059,7 @@
  synonym: "bile acid 7alpha-dehydroxylation pathway" NARROW []
  synonym: "bile acid breakdown" EXACT []
  synonym: "bile acid catabolism" EXACT []
-@@ -174082,7 +174806,7 @@
+@@ -174082,7 +174823,7 @@
  id: GO:0030579
  name: obsolete ubiquitin-dependent SMAD protein catabolic process
  namespace: biological_process
@@ -17002,7 +17068,7 @@
  comment: The reason for obsoletion is that the substrate should be captured as the input.
  synonym: "ubiquitin-dependent SMAD protein breakdown" EXACT []
  synonym: "ubiquitin-dependent SMAD protein catabolism" EXACT []
-@@ -174632,7 +175356,6 @@
+@@ -174632,7 +175373,6 @@
  synonym: "D-alanine formation" EXACT []
  synonym: "D-alanine synthesis" EXACT []
  is_a: GO:0006523 ! alanine biosynthetic process
@@ -17010,7 +17076,7 @@
  is_a: GO:0046437 ! D-amino acid biosynthetic process
  
  [Term]
-@@ -175056,6 +175779,12 @@
+@@ -175056,6 +175796,12 @@
  synonym: "protein recruiting activity" RELATED []
  synonym: "protein-containing complex scaffold activity" BROAD []
  synonym: "protein-protein adaptor" NARROW []
@@ -17023,7 +17089,7 @@
  is_a: GO:0060090 ! molecular adaptor activity
  relationship: has_part GO:0005515 ! protein binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18655" xsd:anyURI
-@@ -175504,7 +176233,7 @@
+@@ -175504,7 +176250,7 @@
  id: GO:0030716
  name: oocyte fate determination
  namespace: biological_process
@@ -17032,7 +17098,7 @@
  synonym: "oocyte cell fate determination" EXACT []
  is_a: GO:0001709 ! cell fate determination
  
-@@ -175630,7 +176359,6 @@
+@@ -175630,7 +176376,6 @@
  xref: Reactome:R-HSA-5694494 "AACS ligates CoA-SH to ACA, forming ACA-CoA"
  xref: RHEA:16117
  is_a: GO:0016405 ! CoA-ligase activity
@@ -17040,7 +17106,7 @@
  property_value: skos:exactMatch EC:6.2.1.16
  property_value: skos:exactMatch RHEA:16117
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -175777,7 +176505,7 @@
+@@ -175777,7 +176522,7 @@
  id: GO:0030738
  name: tyramine N-methyltransferase activity
  namespace: molecular_function
@@ -17049,7 +17115,7 @@
  synonym: "DIB O-methyltransferase (3,5-diiodo-4-hydroxy-benzoic acid)" RELATED [EC:2.1.1.27]
  synonym: "S-adenosyl-L-methionine:tyramine N-methyltransferase activity" RELATED [EC:2.1.1.27]
  synonym: "S-adenosyl-methionine:tyramine N-methyltransferase activity" RELATED [EC:2.1.1.27]
-@@ -175852,15 +176580,16 @@
+@@ -175852,15 +176597,16 @@
  id: GO:0030742
  name: GTP-dependent protein binding
  namespace: molecular_function
@@ -17068,7 +17134,7 @@
  synonym: "ribosomal ribonucleate adenosine 2'-methyltransferase activity" RELATED [EC:2.1.1.230]
  synonym: "RNA-pentose methylase activity" RELATED []
  synonym: "rRNA adenosine 2'-methylase activity" RELATED [EC:2.1.1.230]
-@@ -176329,7 +177058,7 @@
+@@ -176329,7 +177075,7 @@
  id: GO:0030772
  name: tryptophan 2-C-methyltransferase activity
  namespace: molecular_function
@@ -17077,7 +17143,7 @@
  synonym: "S-adenosyl-L-methionine:L-tryptophan 2-C-methyltransferase activity" RELATED [EC:2.1.1.106]
  synonym: "S-adenosylmethionine:tryptophan 2-methyltransferase activity" RELATED [EC:2.1.1.106]
  synonym: "tryptophan 2-methyltransferase activity" RELATED [EC:2.1.1.106]
-@@ -179376,12 +180105,12 @@
+@@ -179376,12 +180122,12 @@
  synonym: "negative regulation of septation initiation network" EXACT []
  synonym: "negative regulation of septation initiation signaling cascade" RELATED [GOC:signaling]
  synonym: "negative regulation of septation initiation signalling" EXACT []
@@ -17091,7 +17157,7 @@
  
  [Term]
  id: GO:0031031
-@@ -179396,7 +180125,6 @@
+@@ -179396,7 +180142,6 @@
  synonym: "up regulation of septation initiation signaling" EXACT []
  synonym: "up-regulation of septation initiation signaling" EXACT []
  synonym: "upregulation of septation initiation signaling" EXACT []
@@ -17099,7 +17165,7 @@
  is_a: GO:0031029 ! regulation of septation initiation signaling
  is_a: GO:0051057 ! positive regulation of small GTPase mediated signal transduction
  intersection_of: GO:0065007 ! biological regulation
-@@ -180003,12 +180731,14 @@
+@@ -180003,12 +180748,14 @@
  name: organelle membrane
  namespace: cellular_component
  def: "A membrane that is one of the two lipid bilayers of an organelle envelope or the outermost membrane of single membrane bound organelle." [GOC:dos, GOC:mah]
@@ -17114,7 +17180,7 @@
  
  [Term]
  id: GO:0031091
-@@ -181066,6 +181796,8 @@
+@@ -181066,6 +181813,8 @@
  name: phosphatidylcholine binding
  namespace: molecular_function
  def: "Binding to a phosphatidylcholine, a glycophospholipid in which a phosphatidyl group is esterified to the hydroxyl group of choline." [GOC:mah, ISBN:0198506732]
@@ -17123,7 +17189,7 @@
  is_a: GO:0005543 ! phospholipid binding
  is_a: GO:0043169 ! cation binding
  is_a: GO:0050997 ! quaternary ammonium group binding
-@@ -181376,24 +182108,26 @@
+@@ -181376,24 +182125,26 @@
  id: GO:0031240
  name: external side of cell outer membrane
  namespace: cellular_component
@@ -17152,7 +17218,7 @@
  
  [Term]
  id: GO:0031242
-@@ -182004,7 +182738,7 @@
+@@ -182004,7 +182755,7 @@
  synonym: "T-cell co-stimulation" EXACT []
  synonym: "T-cell costimulation" EXACT []
  synonym: "T-lymphocyte costimulation" EXACT []
@@ -17161,7 +17227,7 @@
  is_a: GO:0031294 ! lymphocyte costimulation
  is_a: GO:0050870 ! positive regulation of T cell activation
  
-@@ -182055,9 +182789,10 @@
+@@ -182055,9 +182806,10 @@
  
  [Term]
  id: GO:0031299
@@ -17174,7 +17240,7 @@
  synonym: "taurine:pyruvate aminotransferase activity" RELATED [EC:2.6.1.77]
  synonym: "Tpa" RELATED [EC:2.6.1.77]
  xref: EC:2.6.1.77
-@@ -182068,6 +182803,7 @@
+@@ -182068,6 +182820,7 @@
  property_value: skos:exactMatch EC:2.6.1.77
  property_value: skos:exactMatch RHEA:10420
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -17182,7 +17248,7 @@
  
  [Term]
  id: GO:0031300
-@@ -182370,7 +183106,6 @@
+@@ -182370,7 +183123,6 @@
  synonym: "up regulation of cellular metabolic process" EXACT []
  synonym: "up-regulation of cellular metabolic process" EXACT []
  synonym: "upregulation of cellular metabolic process" EXACT []
@@ -17190,7 +17256,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27189" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29021" xsd:anyURI
  is_obsolete: true
-@@ -183251,7 +183986,6 @@
+@@ -183251,7 +184003,6 @@
  name: regulation of protein modification process
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of the covalent alteration of one or more amino acid residues within a protein." [GOC:mah, GOC:tb]
@@ -17198,7 +17264,7 @@
  is_a: GO:0051246 ! regulation of protein metabolic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0036211 ! protein modification process
-@@ -184421,7 +185155,6 @@
+@@ -184421,7 +185172,6 @@
  synonym: "chromatin silencing at pericentric region" RELATED [GOC:mah]
  synonym: "heterochromatic silencing at centromere" EXACT []
  synonym: "pericentric heterochromatin assembly" EXACT []
@@ -17206,7 +17272,7 @@
  is_a: GO:0140719 ! constitutive heterochromatin formation
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18954" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19112" xsd:anyURI
-@@ -184842,6 +185575,7 @@
+@@ -184842,6 +185592,7 @@
  xref: Reactome:R-HSA-1234177 "Cytosolic PHD2,3 hydroxylates proline residues on HIF1A"
  xref: Reactome:R-HSA-1234179 "Cytosolic PHD2,3 hydroxylates proline residues on EPAS1 (HIF2A)"
  xref: Reactome:R-HSA-1234181 "Nuclear PHD1,3 hydroxylates proline residues on HIF1A"
@@ -17214,7 +17280,7 @@
  xref: RHEA:63484
  is_a: GO:0031543 ! peptidyl-proline dioxygenase activity
  property_value: skos:exactMatch RHEA:63484
-@@ -189029,7 +189763,7 @@
+@@ -189029,7 +189780,7 @@
  id: GO:0031992
  name: energy transducer activity
  namespace: molecular_function
@@ -17223,7 +17289,7 @@
  subset: goslim_pir
  synonym: "light harvesting activity" RELATED []
  synonym: "photon capture" RELATED []
-@@ -189384,7 +190118,9 @@
+@@ -189384,7 +190135,9 @@
  synonym: "up regulation of insulin secretion" EXACT []
  synonym: "up-regulation of insulin secretion" EXACT []
  synonym: "upregulation of insulin secretion" EXACT []
@@ -17233,7 +17299,7 @@
  is_a: GO:0050714 ! positive regulation of protein secretion
  is_a: GO:0050796 ! regulation of insulin secretion
  is_a: GO:0090277 ! positive regulation of peptide hormone secretion
-@@ -189621,9 +190357,15 @@
+@@ -189621,9 +190374,15 @@
  synonym: "diphosphatidylglycerol biosynthesis" RELATED []
  synonym: "diphosphatidylglycerol biosynthetic process" RELATED []
  xref: MetaCyc:PWY-5269
@@ -17249,7 +17315,7 @@
  
  [Term]
  id: GO:0032050
-@@ -189644,6 +190386,7 @@
+@@ -189644,6 +190403,7 @@
  name: bile acid binding
  namespace: molecular_function
  def: "Binding to a bile acid, a steroid carboxylic acids occurring in bile." [GOC:rph]
@@ -17257,7 +17323,7 @@
  is_a: GO:0033293 ! monocarboxylic acid binding
  
  [Term]
-@@ -191488,17 +192231,17 @@
+@@ -191488,17 +192248,17 @@
  
  [Term]
  id: GO:0032220
@@ -17281,7 +17347,7 @@
  created_by: mah
  creation_date: 2009-08-20T02:24:56Z
  
-@@ -191989,10 +192732,12 @@
+@@ -191989,10 +192749,12 @@
  name: methylation
  namespace: biological_process
  def: "The process in which a methyl group is covalently attached to a molecule." [GOC:mah]
@@ -17294,7 +17360,7 @@
  
  [Term]
  id: GO:0032260
-@@ -192054,6 +192799,7 @@
+@@ -192054,6 +192816,7 @@
  def: "Binding to phosphatidylinositol-3-phosphate, a derivative of phosphatidylinositol in which the inositol ring is phosphorylated at the 3' position." [GOC:bf, PMID:10209156, PMID:11395417, PMID:11557775]
  synonym: "phosphatidylinositol 3-phosphate binding" EXACT []
  synonym: "PtdIns-3-P binding" EXACT []
@@ -17302,7 +17368,7 @@
  is_a: GO:1901981 ! phosphatidylinositol phosphate binding
  
  [Term]
-@@ -193032,13 +193778,14 @@
+@@ -193032,13 +193795,14 @@
  
  [Term]
  id: GO:0032361
@@ -17319,7 +17385,7 @@
  
  [Term]
  id: GO:0032362
-@@ -194344,7 +195091,7 @@
+@@ -194344,7 +195108,7 @@
  id: GO:0032473
  name: cytoplasmic side of mitochondrial outer membrane
  namespace: cellular_component
@@ -17328,7 +17394,7 @@
  comment: In GO, 'external side' still refers to part of the membrane and does not refer to components beyond (outside of) the membrane.
  synonym: "cytosolic side of mitochondrial outer membrane" EXACT []
  synonym: "external leaflet of mitochondrial outer membrane" EXACT [GOC:ab]
-@@ -194352,6 +195099,7 @@
+@@ -194352,6 +195116,7 @@
  synonym: "external side of mitochondrial outer membrane" EXACT []
  is_a: GO:0098562 ! cytoplasmic side of membrane
  relationship: part_of GO:0005741 ! mitochondrial outer membrane
@@ -17336,7 +17402,7 @@
  
  [Term]
  id: GO:0032474
-@@ -195038,7 +195786,7 @@
+@@ -195038,7 +195803,7 @@
  id: GO:0032543
  name: mitochondrial translation
  namespace: biological_process
@@ -17345,7 +17411,7 @@
  subset: goslim_yeast
  synonym: "mitochondrial protein anabolism" EXACT []
  synonym: "mitochondrial protein biosynthesis" EXACT []
-@@ -195057,7 +195805,7 @@
+@@ -195057,7 +195822,7 @@
  id: GO:0032544
  name: plastid translation
  namespace: biological_process
@@ -17354,7 +17420,7 @@
  synonym: "plastid protein anabolism" EXACT []
  synonym: "plastid protein biosynthesis" EXACT []
  synonym: "plastid protein formation" EXACT []
-@@ -198701,6 +199449,7 @@
+@@ -198701,6 +199466,7 @@
  name: lead ion binding
  namespace: molecular_function
  def: "Binding to lead (Pb) ions." [GOC:mah]
@@ -17362,7 +17428,7 @@
  is_a: GO:0046872 ! metal ion binding
  
  [Term]
-@@ -199397,64 +200146,34 @@
+@@ -199397,64 +200163,34 @@
  
  [Term]
  id: GO:0032847
@@ -17446,7 +17512,7 @@
  
  [Term]
  id: GO:0032865
-@@ -200892,7 +201611,8 @@
+@@ -200892,7 +201628,8 @@
  xref: Reactome:R-HSA-1307803 "TIMM22 inserts proteins into inner membrane"
  xref: Reactome:R-HSA-9902096 "COX18 inserts nascent MT-CO2 in COX20:TMEM77"
  xref: Reactome:R-HSA-9906955 "MT-ND4 is translated"
@@ -17456,7 +17522,7 @@
  relationship: part_of GO:0090150 ! establishment of protein localization to membrane
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16976" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20414" xsd:anyURI
-@@ -202130,13 +202850,14 @@
+@@ -202130,13 +202867,14 @@
  
  [Term]
  id: GO:0033094
@@ -17473,7 +17539,7 @@
  synonym: "putrescine-alpha-ketoglutarate transaminase activity" RELATED [EC:2.6.1.82]
  synonym: "putrescine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.82]
  synonym: "putrescine:alpha-ketoglutarate aminotransferase activity" RELATED [EC:2.6.1.82]
-@@ -202149,6 +202870,7 @@
+@@ -202149,6 +202887,7 @@
  property_value: skos:exactMatch RHEA:12268
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25992" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -17481,7 +17547,7 @@
  
  [Term]
  id: GO:0033095
-@@ -203164,7 +203886,7 @@
+@@ -203164,7 +203903,7 @@
  id: GO:0033196
  name: tryparedoxin peroxidase activity
  namespace: molecular_function
@@ -17490,7 +17556,7 @@
  synonym: "TXNPx activity" EXACT []
  xref: MetaCyc:1.11.1.15-RXN
  is_a: GO:0004601 ! peroxidase activity
-@@ -204258,7 +204980,7 @@
+@@ -204258,7 +204997,7 @@
  id: GO:0033300
  name: dehydroascorbic acid transmembrane transporter activity
  namespace: molecular_function
@@ -17499,7 +17565,7 @@
  synonym: "dehydroascorbate transporter activity" EXACT []
  synonym: "dehydroascorbic acid transporter activity" RELATED []
  xref: Reactome:R-HSA-198818 "SLC2A1,3 transports DeHA from extracellular region to cytosol"
-@@ -204366,8 +205088,14 @@
+@@ -204366,8 +205105,14 @@
  synonym: "chlorophyll a catabolism" EXACT []
  synonym: "chlorophyll a degradation" EXACT []
  xref: MetaCyc:PWY-5098
@@ -17514,7 +17580,7 @@
  
  [Term]
  id: GO:0033311
-@@ -204614,9 +205342,13 @@
+@@ -204614,9 +205359,13 @@
  synonym: "ent-kaurene formation" EXACT []
  synonym: "ent-kaurene synthesis" EXACT []
  xref: MetaCyc:PWY-5032
@@ -17528,7 +17594,7 @@
  
  [Term]
  id: GO:0033333
-@@ -204810,12 +205542,16 @@
+@@ -204810,12 +205559,16 @@
  id: GO:0033353
  name: S-adenosylmethionine cycle
  namespace: biological_process
@@ -17546,7 +17612,7 @@
  
  [Term]
  id: GO:0033354
-@@ -204829,7 +205565,7 @@
+@@ -204829,7 +205582,7 @@
  id: GO:0033355
  name: ascorbate glutathione cycle
  namespace: biological_process
@@ -17555,7 +17621,7 @@
  synonym: "hydrogen peroxide detoxification" RELATED []
  xref: MetaCyc:PWY-2261
  is_a: GO:0006749 ! glutathione metabolic process
-@@ -204877,13 +205613,12 @@
+@@ -204877,13 +205630,12 @@
  id: GO:0033359
  name: L-lysine biosynthetic process via diaminopimelate and N-succinyl-2-amino-6-ketopimelate
  namespace: biological_process
@@ -17570,7 +17636,7 @@
  is_a: GO:0009089 ! L-lysine biosynthetic process via diaminopimelate
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28523" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30820" xsd:anyURI
-@@ -204892,13 +205627,12 @@
+@@ -204892,13 +205644,12 @@
  id: GO:0033360
  name: L-lysine biosynthetic process via diaminopimelate and L-2-acetamido-6-oxoheptanedioate
  namespace: biological_process
@@ -17585,7 +17651,7 @@
  is_a: GO:0009089 ! L-lysine biosynthetic process via diaminopimelate
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30820" xsd:anyURI
  
-@@ -204906,12 +205640,11 @@
+@@ -204906,12 +205657,11 @@
  id: GO:0033361
  name: L-lysine biosynthetic process via diaminopimelate, dehydrogenase pathway
  namespace: biological_process
@@ -17599,7 +17665,7 @@
  is_a: GO:0009089 ! L-lysine biosynthetic process via diaminopimelate
  relationship: has_part GO:0047850 ! diaminopimelate dehydrogenase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30820" xsd:anyURI
-@@ -204920,15 +205653,14 @@
+@@ -204920,15 +205670,14 @@
  id: GO:0033362
  name: L-lysine biosynthetic process via diaminopimelate, diaminopimelate-aminotransferase pathway
  namespace: biological_process
@@ -17617,7 +17683,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30820" xsd:anyURI
  
  [Term]
-@@ -205199,14 +205931,17 @@
+@@ -205199,14 +205948,17 @@
  synonym: "geranylgeranyl diphosphate biosynthesis" EXACT []
  synonym: "geranylgeranyl diphosphate formation" EXACT []
  synonym: "geranylgeranyl diphosphate synthesis" EXACT []
@@ -17635,7 +17701,7 @@
  
  [Term]
  id: GO:0033387
-@@ -205296,38 +206031,44 @@
+@@ -205296,38 +206048,44 @@
  
  [Term]
  id: GO:0033394
@@ -17692,7 +17758,7 @@
  
  [Term]
  id: GO:0033397
-@@ -206180,7 +206921,11 @@
+@@ -206180,7 +206938,11 @@
  synonym: "UDP-D-galacturonate formation" EXACT []
  synonym: "UDP-D-galacturonate synthesis" EXACT []
  xref: MetaCyc:PWY-4
@@ -17704,7 +17770,7 @@
  
  [Term]
  id: GO:0033481
-@@ -206290,7 +207035,6 @@
+@@ -206290,7 +207052,6 @@
  synonym: "cholesterol formation via desmosterol" EXACT []
  synonym: "cholesterol synthesis via desmosterol" EXACT []
  xref: MetaCyc:PWY66-4
@@ -17712,7 +17778,7 @@
  is_a: GO:0006695 ! cholesterol biosynthetic process
  
  [Term]
-@@ -206303,7 +207047,6 @@
+@@ -206303,7 +207064,6 @@
  synonym: "cholesterol formation via lathosterol" EXACT []
  synonym: "cholesterol synthesis via lathosterol" EXACT []
  xref: MetaCyc:PWY66-341
@@ -17720,7 +17786,7 @@
  is_a: GO:0006695 ! cholesterol biosynthetic process
  
  [Term]
-@@ -206505,31 +207248,44 @@
+@@ -206505,31 +207265,44 @@
  
  [Term]
  id: GO:0033508
@@ -17773,7 +17839,7 @@
  
  [Term]
  id: GO:0033510
-@@ -206555,34 +207311,40 @@
+@@ -206555,34 +207328,40 @@
  
  [Term]
  id: GO:0033512
@@ -17826,7 +17892,7 @@
  
  [Term]
  id: GO:0033515
-@@ -206607,7 +207369,7 @@
+@@ -206607,7 +207386,7 @@
  synonym: "L-methionine synthesis from homoserine via O-phospho-L-homoserine and cystathionine" EXACT [GOC:mah]
  synonym: "methionine biosynthetic process from homoserine via O-phospho-L-homoserine and cystathionine" EXACT [GOC:mah]
  is_obsolete: true
@@ -17835,7 +17901,7 @@
  
  [Term]
  id: GO:0033517
-@@ -207169,7 +207931,7 @@
+@@ -207169,7 +207948,7 @@
  name: lactoferrin transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of lactoferrin from one side of a membrane to the other." [GOC:mlg]
@@ -17844,7 +17910,7 @@
  relationship: part_of GO:0033571 ! lactoferrin transport
  
  [Term]
-@@ -207323,7 +208085,6 @@
+@@ -207323,7 +208102,6 @@
  synonym: "L-tyrosine formation from chorismate via L-arogenate" EXACT []
  synonym: "L-tyrosine synthesis from chorismate via L-arogenate" EXACT []
  synonym: "tyrosine biosynthetic process from chorismate via L-arogenate" BROAD []
@@ -17852,7 +17918,7 @@
  is_a: GO:0006571 ! L-tyrosine biosynthetic process
  is_a: GO:0009095 ! aromatic amino acid family biosynthetic process, prephenate pathway
  is_a: GO:0046417 ! chorismate metabolic process
-@@ -207333,12 +208094,11 @@
+@@ -207333,12 +208111,11 @@
  id: GO:0033585
  name: L-phenylalanine biosynthetic process from chorismate via phenylpyruvate
  namespace: biological_process
@@ -17866,7 +17932,7 @@
  is_a: GO:0009094 ! L-phenylalanine biosynthetic process
  is_a: GO:0046417 ! chorismate metabolic process
  
-@@ -207346,12 +208106,11 @@
+@@ -207346,12 +208123,11 @@
  id: GO:0033586
  name: L-phenylalanine biosynthetic process from chorismate via L-arogenate
  namespace: biological_process
@@ -17880,7 +17946,7 @@
  is_a: GO:0009094 ! L-phenylalanine biosynthetic process
  is_a: GO:0009095 ! aromatic amino acid family biosynthetic process, prephenate pathway
  is_a: GO:0046417 ! chorismate metabolic process
-@@ -208450,7 +209209,7 @@
+@@ -208450,7 +209226,7 @@
  id: GO:0033692
  name: obsolete cellular polysaccharide biosynthetic process
  namespace: biological_process
@@ -17889,7 +17955,7 @@
  comment: This term was obsoleted because it is not different from its parent, polysaccharide biosynthetic process ; GO:0000271.
  synonym: "cellular glycan biosynthesis" EXACT []
  synonym: "cellular glycan biosynthetic process" EXACT []
-@@ -208758,7 +209517,7 @@
+@@ -208758,7 +209534,7 @@
  id: GO:0033713
  name: choline:oxygen 1-oxidoreductase activity
  namespace: molecular_function
@@ -17898,7 +17964,7 @@
  synonym: "choline oxidase activity" BROAD [EC:1.1.3.17]
  xref: EC:1.1.3.17
  xref: MetaCyc:CHOLINE-OXIDASE-RXN
-@@ -208803,7 +209562,7 @@
+@@ -208803,7 +209579,7 @@
  id: GO:0033716
  name: nucleoside oxidase (hydrogen peroxide-forming) activity
  namespace: molecular_function
@@ -17907,7 +17973,7 @@
  comment: Two other reactions might be associated with this activity: (1a) adenosine + O2 = 5'-dehydroadenosine + hydrogen peroxide, and (1b) 5'-dehydroadenosine + O2 = 9-riburonosyladenine + hydrogen peroxide.
  synonym: "nucleoside:oxygen 5'-oxidoreductase (hydrogen peroxide-forming) activity" RELATED [EC:1.1.3.39]
  xref: EC:1.1.3.39
-@@ -209782,9 +210541,6 @@
+@@ -209782,9 +210558,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: 7alpha-hydroxycholest-4-en-3-one + H+ + NADPH + O2 = 7alpha,12alpha-dihydroxycholest-4-en-3-one + H2O + NADP+." [PMID:10051404, PMID:1400444]
  comment: This term was obsoleted because it represents a specific susbstrate of sterol 12-alpha-hydroxylase activity ; GO:0008397.
@@ -17917,7 +17983,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24843" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29331" xsd:anyURI
  is_obsolete: true
-@@ -209794,7 +210550,7 @@
+@@ -209794,7 +210567,7 @@
  id: GO:0033779
  name: obsolete 5-beta-cholestane-3-alpha,7-alpha-diol 12-alpha-hydroxylase activity
  namespace: molecular_function
@@ -17926,7 +17992,7 @@
  comment: This term was obsoleted because it represents a specific susbstrate of sterol 12-alpha-hydroxylase activity ; GO:0008397.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24843" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29331" xsd:anyURI
-@@ -210125,6 +210881,7 @@
+@@ -210125,6 +210898,7 @@
  synonym: "type III iodothyronine deiodinase activity" NARROW [EC:1.21.99.3]
  xref: EC:1.21.99.3
  xref: MetaCyc:1.97.1.11-RXN
@@ -17934,7 +18000,7 @@
  xref: RHEA:18897
  is_a: GO:0046992 ! oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond
  property_value: skos:exactMatch EC:1.21.99.3
-@@ -210171,7 +210928,7 @@
+@@ -210171,7 +210945,7 @@
  id: GO:0033801
  name: vitexin 2''-O-rhamnoside 7-O-methyltransferase activity
  namespace: molecular_function
@@ -17943,7 +18009,7 @@
  synonym: "S-adenosyl-L-methionine:vitexin-2''-O-beta-L-rhamnoside 7-O-methyltransferase activity" RELATED [EC:2.1.1.153]
  xref: EC:2.1.1.153
  xref: MetaCyc:RXN-4981
-@@ -211009,14 +211766,15 @@
+@@ -211009,14 +211783,15 @@
  
  [Term]
  id: GO:0033852
@@ -17961,7 +18027,7 @@
  xref: EC:2.6.1.26
  xref: KEGG_REACTION:R03952
  xref: MetaCyc:THYROID-HORMONE-AMINOTRANSFERASE-RXN
-@@ -211025,12 +211783,14 @@
+@@ -211025,12 +211800,14 @@
  property_value: skos:exactMatch EC:2.6.1.26
  property_value: skos:exactMatch RHEA:19133
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -17977,7 +18043,7 @@
  synonym: "L-arogenate:oxaloacetate aminotransferase activity" RELATED [EC:2.6.1.78]
  synonym: "L-aspartate:prephenate aminotransferase activity" RELATED [EC:2.6.1.78]
  synonym: "PAT" RELATED [EC:2.6.1.78]
-@@ -211039,16 +211799,18 @@
+@@ -211039,16 +211816,18 @@
  xref: EC:2.6.1.78
  xref: MetaCyc:PREPHENATE-ASP-TRANSAMINE-RXN
  xref: RHEA:20445
@@ -17999,7 +18065,7 @@
  synonym: "L-arogenate:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.79]
  synonym: "L-glutamate:prephenate aminotransferase activity" RELATED [EC:2.6.1.79]
  synonym: "PAT" RELATED [EC:2.6.1.79]
-@@ -211057,20 +211819,22 @@
+@@ -211057,20 +211836,22 @@
  xref: KEGG_REACTION:R07276
  xref: MetaCyc:PREPHENATE-TRANSAMINE-RXN
  xref: RHEA:22880
@@ -18025,7 +18091,7 @@
  synonym: "nicotianamine transaminase activity" RELATED [EC:2.6.1.80]
  synonym: "nicotianamine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.80]
  xref: EC:2.6.1.80
-@@ -211081,6 +211845,7 @@
+@@ -211081,6 +211862,7 @@
  property_value: skos:exactMatch EC:2.6.1.80
  property_value: skos:exactMatch RHEA:22104
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -18033,7 +18099,7 @@
  
  [Term]
  id: GO:0033856
-@@ -212034,6 +212799,8 @@
+@@ -212034,6 +212816,8 @@
  xref: Reactome:R-HSA-548890 "Removal of the third glucose by glucosidase II and release from the chaperone"
  xref: Reactome:R-HSA-9683663 "N-glycan trimming of Spike"
  xref: Reactome:R-HSA-9694364 "N-glycan glucose trimming of Spike"
@@ -18042,7 +18108,7 @@
  is_a: GO:0090599 ! alpha-glucosidase activity
  property_value: skos:exactMatch EC:3.2.1.84
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -214092,7 +214859,6 @@
+@@ -214092,7 +214876,6 @@
  synonym: "negative regulation by symbiont of plant hypersensitive response" NARROW [GOC:pamgo_curators]
  synonym: "suppression by symbiont of host defense-related programmed cell death" EXACT []
  synonym: "suppression of HR" NARROW [GOC:pamgo_curators]
@@ -18050,7 +18116,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29278" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0052041
-@@ -215792,7 +216558,7 @@
+@@ -215792,7 +216575,7 @@
  id: GO:0034203
  name: glycolipid translocation
  namespace: biological_process
@@ -18059,7 +18125,7 @@
  is_a: GO:0034204 ! lipid translocation
  is_a: GO:0046836 ! glycolipid transport
  
-@@ -216169,7 +216935,7 @@
+@@ -216169,7 +216952,7 @@
  name: macrophage fusion
  namespace: biological_process
  def: "The binding and fusion of a macrophage to one or more other cells to form a multinucleated cell." [GOC:sl]
@@ -18068,7 +18134,7 @@
  
  [Term]
  id: GO:0034239
-@@ -216208,12 +216974,11 @@
+@@ -216208,12 +216991,11 @@
  name: negative regulation of syncytium formation by plasma membrane fusion
  namespace: biological_process
  def: "Any process that decreases the frequency, rate or extent of the formation of a syncytium, a mass of cytoplasm containing several nuclei enclosed within a single plasma membrane, by the fusion of the plasma membranes of two or more individual cells." [GOC:mah]
@@ -18083,7 +18149,7 @@
  
  [Term]
  id: GO:0034243
-@@ -216519,30 +217284,28 @@
+@@ -216519,30 +217301,28 @@
  
  [Term]
  id: GO:0034268
@@ -18124,7 +18190,7 @@
  
  [Term]
  id: GO:0034270
-@@ -217445,6 +218208,7 @@
+@@ -217445,24 +218225,29 @@
  synonym: "NAD biosynthetic process via the salvage pathway" EXACT []
  synonym: "NAD salvage" EXACT []
  synonym: "NAD salvage pathway" EXACT []
@@ -18132,7 +18198,10 @@
  xref: MetaCyc:NAD-BIOSYNTHESIS-III
  xref: MetaCyc:PWY-5381
  xref: MetaCyc:PWY-7761
-@@ -217454,6 +218218,7 @@
+ xref: MetaCyc:PWY-8511
++xref: MetaCyc:PWY3O-4106
+ xref: MetaCyc:PWY3O-4107
+ xref: MetaCyc:PYRIDNUCSAL-PWY
  is_a: GO:0009435 ! NAD+ biosynthetic process
  is_a: GO:0019365 ! pyridine nucleotide salvage
  is_a: GO:0032261 ! purine nucleotide salvage
@@ -18140,7 +18209,10 @@
  property_value: skos:narrowMatch MetaCyc:NAD-BIOSYNTHESIS-III
  property_value: skos:narrowMatch MetaCyc:PWY-5381
  property_value: skos:narrowMatch MetaCyc:PWY-7761
-@@ -217463,6 +218228,7 @@
+ property_value: skos:narrowMatch MetaCyc:PWY-8511
++property_value: skos:narrowMatch MetaCyc:PWY3O-4106
+ property_value: skos:narrowMatch MetaCyc:PWY3O-4107
+ property_value: skos:narrowMatch MetaCyc:PYRIDNUCSAL-PWY
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21577" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29050" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29666" xsd:anyURI
@@ -18148,15 +18220,16 @@
  
  [Term]
  id: GO:0034356
-@@ -217473,7 +218239,6 @@
+@@ -217472,8 +218257,6 @@
+ comment: This term was obsoleted because it is the unique child class of NAD biosynthetic process via the salvage pathway ; GO:0034355.
  synonym: "nicotinamide riboside salvage pathway" EXACT []
  synonym: "NR salvage pathway" EXACT []
- xref: MetaCyc:PWY3O-4106
+-xref: MetaCyc:PWY3O-4106
 -xref: Reactome:R-HSA-197264 "Nicotinamide salvaging"
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29050" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0034355
-@@ -217786,6 +218551,7 @@
+@@ -217786,6 +218569,7 @@
  synonym: "gamma-aminobutyric acid-alpha-ketoglutaric acid aminotransferase activity" RELATED [EC:2.6.1.19]
  xref: EC:2.6.1.19
  xref: MetaCyc:GABATRANSAM-RXN
@@ -18164,7 +18237,7 @@
  xref: RHEA:23352
  is_a: GO:0008483 ! transaminase activity
  property_value: skos:exactMatch EC:2.6.1.19
-@@ -218806,6 +219572,7 @@
+@@ -218806,6 +219590,7 @@
  synonym: "chondroitin 2-O-sulfotransferase activity" EXACT []
  synonym: "chondroitin 2-O-sulphotransferase activity" EXACT []
  xref: MetaCyc:RXN-11560
@@ -18172,7 +18245,7 @@
  is_a: GO:0034481 ! chondroitin sulfotransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28380" xsd:anyURI
  
-@@ -219379,31 +220146,37 @@
+@@ -219379,31 +220164,37 @@
  
  [Term]
  id: GO:0034547
@@ -18219,7 +18292,7 @@
  
  [Term]
  id: GO:0034550
-@@ -219472,13 +220245,13 @@
+@@ -219472,13 +220263,13 @@
  
  [Term]
  id: GO:0034557
@@ -18238,7 +18311,7 @@
  
  [Term]
  id: GO:0034558
-@@ -219985,8 +220758,6 @@
+@@ -219985,8 +220776,6 @@
  def: "OBSOLETE. Catalysis of the exonucleolytic cleavage of oligoribonucleotides to yield ribonucleoside 5'-phosphates." [GOC:mah]
  comment: This term was obsoleted because it corresponds to an assay.
  synonym: "RNA oligonucleotidase activity" EXACT []
@@ -18247,7 +18320,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24408" xsd:anyURI
  is_obsolete: true
  
-@@ -220038,6 +220809,7 @@
+@@ -220038,6 +220827,7 @@
  synonym: "H4biopterin binding" EXACT []
  synonym: "sapropterin binding" EXACT []
  xref: Reactome:R-HSA-1497784 "The cofactor BH4 is required for electron transfer in the eNOS catalytic cycle"
@@ -18255,7 +18328,7 @@
  is_a: GO:0005488 ! binding
  
  [Term]
-@@ -220411,18 +221183,21 @@
+@@ -220411,18 +221201,21 @@
  name: nucleobase-containing compound biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of nucleobases, nucleosides, nucleotides and nucleic acids." [GOC:mah]
@@ -18277,7 +18350,7 @@
  subset: goslim_chembl
  synonym: "nucleobase, nucleoside, nucleotide and nucleic acid breakdown" EXACT []
  synonym: "nucleobase, nucleoside, nucleotide and nucleic acid catabolic process" RELATED [GOC:dph, GOC:tb]
-@@ -220430,6 +221205,7 @@
+@@ -220430,6 +221223,7 @@
  synonym: "nucleobase, nucleoside, nucleotide and nucleic acid degradation" EXACT []
  is_a: GO:0006139 ! nucleobase-containing compound metabolic process
  is_a: GO:0009056 ! catabolic process
@@ -18285,7 +18358,7 @@
  
  [Term]
  id: GO:0034656
-@@ -220570,7 +221346,7 @@
+@@ -220570,7 +221364,7 @@
  id: GO:0034670
  name: chemotaxis to arachidonate
  namespace: biological_process
@@ -18294,7 +18367,7 @@
  synonym: "chemotaxis to arachidonic acid" EXACT []
  is_a: GO:0006935 ! chemotaxis
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28648" xsd:anyURI
-@@ -221300,7 +222076,7 @@
+@@ -221300,7 +222094,7 @@
  def: "A protein complex that acts as an aryl hydrocarbon (Ah) receptor. Cytosolic and nuclear Ah receptor complexes have different subunit composition, but both contain the ligand-binding subunit AhR." [GOC:mah, PMID:7598497]
  synonym: "AhR complex" EXACT []
  synonym: "AHRC" EXACT []
@@ -18303,7 +18376,7 @@
  is_a: GO:0140535 ! intracellular protein-containing complex
  
  [Term]
-@@ -222091,13 +222867,12 @@
+@@ -222091,13 +222885,12 @@
  
  [Term]
  id: GO:0034823
@@ -18322,7 +18395,7 @@
  
  [Term]
  id: GO:0034824
-@@ -222916,12 +223691,12 @@
+@@ -222916,12 +223709,12 @@
  
  [Term]
  id: GO:0034912
@@ -18340,7 +18413,7 @@
  
  [Term]
  id: GO:0034914
-@@ -224199,7 +224974,7 @@
+@@ -224199,7 +224992,7 @@
  id: GO:0035050
  name: embryonic heart tube development
  namespace: biological_process
@@ -18349,7 +18422,7 @@
  is_a: GO:0035295 ! tube development
  is_a: GO:0060429 ! epithelium development
  relationship: part_of GO:0007507 ! heart development
-@@ -224891,7 +225666,7 @@
+@@ -224891,7 +225684,7 @@
  name: forelimb morphogenesis
  namespace: biological_process
  alt_id: GO:0035140
@@ -18358,7 +18431,7 @@
  synonym: "arm morphogenesis" NARROW [GOC:bf, GOC:cjm]
  is_a: GO:0035108 ! limb morphogenesis
  
-@@ -224899,7 +225674,7 @@
+@@ -224899,7 +225692,7 @@
  id: GO:0035137
  name: hindlimb morphogenesis
  namespace: biological_process
@@ -18367,7 +18440,7 @@
  is_a: GO:0035108 ! limb morphogenesis
  
  [Term]
-@@ -226015,9 +226790,11 @@
+@@ -226015,9 +226808,11 @@
  id: GO:0035248
  name: alpha-1,4-N-acetylgalactosaminyltransferase activity
  namespace: molecular_function
@@ -18380,7 +18453,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31147" xsd:anyURI
  
  [Term]
-@@ -226051,9 +226828,8 @@
+@@ -226051,9 +226846,8 @@
  name: UDP-xylosyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the transfer of a xylosyl group from UDP-xylose to an acceptor molecule." [PMID:30127001]
@@ -18391,7 +18464,7 @@
  is_a: GO:0008194 ! UDP-glycosyltransferase activity
  is_a: GO:0042285 ! xylosyltransferase activity
  
-@@ -227284,6 +228060,7 @@
+@@ -227284,6 +228078,7 @@
  namespace: molecular_function
  def: "Binding to a selenocysteine insertion sequence (SECIS), a regulatory sequence within mRNA which directs incorporation of a selenocysteine at a stop codon (UGA) during translation." [GOC:imk, PMID:10760958]
  synonym: "SECIS binding" EXACT []
@@ -18399,7 +18472,7 @@
  is_a: GO:0003729 ! mRNA binding
  created_by: bf
  creation_date: 2010-03-11T10:42:28Z
-@@ -227410,12 +228187,14 @@
+@@ -227410,12 +228205,14 @@
  
  [Term]
  id: GO:0035380
@@ -18417,7 +18490,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
  created_by: bf
  creation_date: 2010-03-18T11:23:05Z
-@@ -228027,6 +228806,7 @@
+@@ -228027,6 +228824,7 @@
  def: "The process in which a phosphate is transported across a membrane." [GOC:vw]
  comment: Note that this term is not intended for use in annotating lateral movement within membranes.
  synonym: "phosphate ion membrane transport" EXACT []
@@ -18425,7 +18498,7 @@
  is_a: GO:0006817 ! phosphate ion transport
  is_a: GO:0055085 ! transmembrane transport
  created_by: bf
-@@ -228806,9 +229586,11 @@
+@@ -228806,9 +229604,11 @@
  synonym: "carnosine biosynthesis" EXACT []
  synonym: "carnosine formation" EXACT []
  synonym: "carnosine synthesis" EXACT []
@@ -18437,7 +18510,7 @@
  created_by: bf
  creation_date: 2010-04-29T01:20:56Z
  
-@@ -228858,7 +229640,7 @@
+@@ -228858,7 +229658,7 @@
  id: GO:0035504
  name: obsolete regulation of myosin light chain kinase activity
  namespace: biological_process
@@ -18446,7 +18519,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22455" xsd:anyURI
  is_obsolete: true
-@@ -228869,7 +229651,7 @@
+@@ -228869,7 +229669,7 @@
  id: GO:0035505
  name: obsolete positive regulation of myosin light chain kinase activity
  namespace: biological_process
@@ -18455,7 +18528,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22455" xsd:anyURI
  is_obsolete: true
-@@ -228880,7 +229662,7 @@
+@@ -228880,7 +229680,7 @@
  id: GO:0035506
  name: obsolete negative regulation of myosin light chain kinase activity
  namespace: biological_process
@@ -18464,7 +18537,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28482" xsd:anyURI
  is_obsolete: true
-@@ -228891,7 +229673,7 @@
+@@ -228891,7 +229691,7 @@
  id: GO:0035507
  name: obsolete regulation of myosin-light-chain-phosphatase activity
  namespace: biological_process
@@ -18473,7 +18546,7 @@
  comment: The reason for obsoletion is that this term represents a single-step process (regulation of MF).
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28499" xsd:anyURI
  is_obsolete: true
-@@ -228902,7 +229684,7 @@
+@@ -228902,7 +229702,7 @@
  id: GO:0035508
  name: obsolete positive regulation of myosin-light-chain-phosphatase activity
  namespace: biological_process
@@ -18482,7 +18555,7 @@
  comment: The reason for obsoletion is that this term represents a single-step process (regulation of MF).
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28499" xsd:anyURI
  is_obsolete: true
-@@ -228913,7 +229695,7 @@
+@@ -228913,7 +229713,7 @@
  id: GO:0035509
  name: obsolete negative regulation of myosin-light-chain-phosphatase activity
  namespace: biological_process
@@ -18491,7 +18564,7 @@
  comment: The reason for obsoletion is that this term represents a single-step process (regulation of MF).
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28499" xsd:anyURI
  is_obsolete: true
-@@ -229690,9 +230472,13 @@
+@@ -229690,9 +230490,13 @@
  synonym: "histone H4K20me demethylase activity" EXACT []
  xref: Reactome:R-HSA-2172678 "PHF8 demethylates histone H4K20me1"
  xref: RHEA:67804
@@ -18505,7 +18578,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21089" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29636" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -230448,7 +231234,7 @@
+@@ -230448,7 +231252,7 @@
  id: GO:0035636
  name: obsolete multi-organism signaling
  namespace: biological_process
@@ -18514,7 +18587,7 @@
  comment: This term was obsoleted because it was a grouping term but had no subclasses.
  synonym: "multi-organism signalling" EXACT [GOC:bf]
  synonym: "pheromone signaling" NARROW [GOC:bf]
-@@ -230462,7 +231248,7 @@
+@@ -230462,7 +231266,7 @@
  id: GO:0035637
  name: obsolete multicellular organismal signaling
  namespace: biological_process
@@ -18523,7 +18596,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "multicellular organismal signalling" EXACT [GOC:bf]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24029" xsd:anyURI
-@@ -230859,6 +231645,7 @@
+@@ -230859,6 +231663,7 @@
  def: "The process in which an oligopeptide is transported across a membrane. Oligopeptides are molecules that contain a small number (2 to 20) of amino-acid residues connected by peptide linkages." [GOC:vw, ISBN:0198506732]
  comment: Note that this term is not intended for use in annotating lateral movement within membranes.
  synonym: "oligopeptide membrane transport" EXACT []
@@ -18531,7 +18604,7 @@
  is_a: GO:0006857 ! oligopeptide transport
  is_a: GO:0055085 ! transmembrane transport
  created_by: bf
-@@ -231065,7 +231852,7 @@
+@@ -231065,7 +231870,7 @@
  name: macrophage migration inhibitory factor receptor complex
  namespace: cellular_component
  def: "A protein complex that binds macrophage migration inhibitory factor. Comprises CD74 and CD44 cell surface proteins." [GOC:BHF, PMID:12782713, PMID:17045821]
@@ -18540,7 +18613,7 @@
  created_by: bf
  creation_date: 2011-02-25T11:33:15Z
  
-@@ -231421,6 +232208,7 @@
+@@ -231421,6 +232226,7 @@
  def: "A process in which a sodium ion is transported from one side of a membrane to the other by means of some agent such as a transporter or pore." [GOC:vw]
  comment: Note that this term is not intended for use in annotating lateral movement within membranes.
  synonym: "sodium ion membrane transport" EXACT []
@@ -18548,7 +18621,7 @@
  is_a: GO:0006814 ! sodium ion transport
  is_a: GO:0098655 ! monoatomic cation transmembrane transport
  created_by: bf
-@@ -231696,11 +232484,14 @@
+@@ -231696,11 +232502,14 @@
  
  [Term]
  id: GO:0035751
@@ -18567,7 +18640,7 @@
  created_by: bf
  creation_date: 2011-03-23T10:23:41Z
  
-@@ -231710,7 +232501,6 @@
+@@ -231710,7 +232519,6 @@
  namespace: biological_process
  def: "Any process that increases the pH of the lysosomal lumen, measured by the concentration of the hydrogen ion." [GOC:bf, GOC:rph]
  synonym: "lysosome pH elevation" EXACT [GOC:bf, GOC:rph]
@@ -18575,7 +18648,7 @@
  is_a: GO:0051454 ! intracellular pH elevation
  created_by: bf
  creation_date: 2011-03-23T10:24:24Z
-@@ -231902,7 +232692,7 @@
+@@ -231902,7 +232710,7 @@
  id: GO:0035770
  name: ribonucleoprotein granule
  namespace: cellular_component
@@ -18584,7 +18657,7 @@
  synonym: "mRNP granule" EXACT []
  synonym: "RNA granule" NARROW []
  synonym: "RNP granule" EXACT []
-@@ -233509,18 +234299,21 @@
+@@ -233509,18 +234317,21 @@
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a lack of contact with other members of the same species." [GOC:bf, PMID:20203532]
  synonym: "response to social isolation" EXACT [PMID:20203532]
@@ -18611,7 +18684,7 @@
  created_by: bf
  creation_date: 2011-06-22T09:43:34Z
  
-@@ -234737,6 +235530,8 @@
+@@ -234737,6 +235548,8 @@
  xref: MetaCyc:PWY-2201
  is_a: GO:0006730 ! one-carbon metabolic process
  is_a: GO:0046653 ! tetrahydrofolate metabolic process
@@ -18620,7 +18693,7 @@
  created_by: bf
  creation_date: 2011-09-02T01:35:49Z
  
-@@ -234760,8 +235555,12 @@
+@@ -234760,8 +235573,12 @@
  synonym: "'de novo' pyridoxal 5'-phosphate formation" EXACT [GOC:bf]
  synonym: "'de novo' pyridoxal 5'-phosphate synthesis" EXACT [GOC:bf]
  synonym: "'de novo' pyridoxal phosphate biosynthetic process" BROAD [GOC:bf]
@@ -18634,7 +18707,7 @@
  created_by: bf
  creation_date: 2011-09-06T02:04:53Z
  
-@@ -235421,6 +236220,7 @@
+@@ -235421,6 +236238,7 @@
  synonym: "peptidyl-succinyllysine desuccinylase activity" EXACT []
  synonym: "succinyl lysine desuccinylase activity" BROAD [GOC:bf]
  synonym: "succinyllysine desuccinylase activity" BROAD []
@@ -18642,7 +18715,7 @@
  xref: RHEA:47668
  is_a: GO:0141218 ! NAD-dependent protein lysine deacylase activity
  relationship: part_of GO:0036049 ! peptidyl-lysine desuccinylation
-@@ -235711,7 +236511,7 @@
+@@ -235711,7 +236529,7 @@
  id: GO:0036081
  name: extracellular ammonia-gated monoatomic ion channel activity
  namespace: molecular_function
@@ -18651,7 +18724,7 @@
  synonym: "extracellular ammonia-gated ion channel activity" BROAD []
  synonym: "ionotropic ammonia receptor activity" RELATED [PMID:19135896]
  is_a: GO:0005230 ! extracellular ligand-gated monoatomic ion channel activity
-@@ -235793,12 +236593,14 @@
+@@ -235793,12 +236611,14 @@
  id: GO:0036088
  name: D-serine catabolic process
  namespace: biological_process
@@ -18668,7 +18741,7 @@
  created_by: bf
  creation_date: 2012-01-06T10:58:51Z
  
-@@ -236782,7 +237584,6 @@
+@@ -236782,7 +237602,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: 3-methoxy-4-hydroxy-5-decaprenylbenzoic acid -> 2-methoxy-6-decaprenylphenol + CO2." [GOC:mw, PMID:620805, PMID:7028108]
  comment: The reason for obsoletion is that this term is equivalent to 4-hydroxy-3-methoxy-5-polyprenylbenzoate decarboxylase activity.
@@ -18676,7 +18749,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29459" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0120539
-@@ -239302,7 +240103,7 @@
+@@ -239302,7 +240121,7 @@
  id: GO:0036381
  name: pyridoxal 5'-phosphate synthase (glutamine hydrolysing) activity
  namespace: molecular_function
@@ -18685,7 +18758,7 @@
  synonym: "PdxST activity" RELATED [EC:4.3.3.6]
  synonym: "pyridoxal 5'-phosphate synthase (glutamine hydrolyzing) activity" RELATED [EC:4.3.3.6]
  xref: EC:4.3.3.6
-@@ -239471,8 +240272,9 @@
+@@ -239471,8 +240290,9 @@
  id: GO:0036393
  name: thiocyanate peroxidase activity
  namespace: molecular_function
@@ -18696,7 +18769,7 @@
  is_a: GO:0004601 ! peroxidase activity
  relationship: part_of GO:0018969 ! thiocyanate metabolic process
  created_by: bf
-@@ -239911,12 +240713,12 @@
+@@ -239911,12 +240731,12 @@
  
  [Term]
  id: GO:0036426
@@ -18714,7 +18787,7 @@
  created_by: bf
  creation_date: 2013-09-16T13:21:01Z
  
-@@ -240262,6 +241064,7 @@
+@@ -240262,6 +241082,7 @@
  def: "Catalysis of the transfer of a iron-sulfur cluster from one compound (donor) to another (acceptor)." [GOC:bhm]
  synonym: "Fe-S transferase activity" EXACT [GOC:bf]
  xref: Reactome:R-HSA-2564828 "CIA Targeting Complex transfers 4Fe-4S cluster to apoproteins"
@@ -18722,7 +18795,7 @@
  is_a: GO:0016782 ! transferase activity, transferring sulphur-containing groups
  created_by: bf
  creation_date: 2013-11-14T11:17:37Z
-@@ -241585,11 +242388,13 @@
+@@ -241585,11 +242406,13 @@
  synonym: "receptor activity involved in receptor-mediated endocytosis" NARROW [GOC:bf]
  synonym: "transport receptor activity" BROAD [GOC:signaling]
  xref: Reactome:R-HSA-203716 "eNOS:Caveolin-1 complex binds to Nostrin"
@@ -18736,7 +18809,7 @@
  xref: Reactome:R-HSA-9759202 "LRP2-mediated TCN2:RCbl uptake and delivery to lysosome"
  xref: Reactome:R-HSA-9759209 "LRP2 binds extracellular TCN2:RCbl"
  is_a: GO:0003674 ! molecular_function
-@@ -242573,7 +243378,7 @@
+@@ -242573,7 +243396,7 @@
  def: "A protein complex containing at least a type II activin receptor, a type I activin receptor, and a coreceptor (EGF-CFC protein) such as Cripto or Cryptic. Nodal receptor complexes are capable of binding a nodal protein and transducing the signal into the cell." [GOC:bf, GOC:signaling, PMID:11024047, PMID:15062104]
  comment: Nodal signals through activin receptors but (unlike activin) also requires EGF-CFC coreceptors (such as Cripto or Cryptic in mammals) to signal. This term is intended for receptor/co-receptor components and not a nodal-receptor complex.
  synonym: "ActRIIB.ALK4.EGF-CFC complex" NARROW [GOC:bf]
@@ -18745,7 +18818,7 @@
  created_by: bf
  creation_date: 2012-02-17T11:12:21Z
  
-@@ -246888,7 +247693,7 @@
+@@ -246888,7 +247711,7 @@
  id: GO:0040013
  name: negative regulation of locomotion
  namespace: biological_process
@@ -18754,7 +18827,7 @@
  synonym: "down regulation of locomotion" EXACT []
  synonym: "down-regulation of locomotion" EXACT []
  synonym: "downregulation of locomotion" EXACT []
-@@ -246938,7 +247743,7 @@
+@@ -246938,7 +247761,7 @@
  id: GO:0040017
  name: positive regulation of locomotion
  namespace: biological_process
@@ -18763,7 +18836,7 @@
  synonym: "activation of locomotion" NARROW []
  synonym: "stimulation of locomotion" NARROW []
  synonym: "up regulation of locomotion" EXACT []
-@@ -246954,7 +247759,7 @@
+@@ -246954,7 +247777,7 @@
  id: GO:0040018
  name: positive regulation of multicellular organism growth
  namespace: biological_process
@@ -18772,7 +18845,7 @@
  synonym: "positive regulation of body growth" EXACT [GOC:dph, GOC:tb]
  synonym: "positive regulation of body size" EXACT [GOC:dph, GOC:tb]
  is_a: GO:0040014 ! regulation of multicellular organism growth
-@@ -246968,7 +247773,7 @@
+@@ -246968,7 +247791,7 @@
  id: GO:0040019
  name: positive regulation of embryonic development
  namespace: biological_process
@@ -18781,7 +18854,7 @@
  synonym: "activation of embryonic development" NARROW []
  synonym: "stimulation of embryonic development" NARROW []
  synonym: "up regulation of embryonic development" EXACT []
-@@ -247146,7 +247951,7 @@
+@@ -247146,7 +247969,7 @@
  id: GO:0040036
  name: regulation of fibroblast growth factor receptor signaling pathway
  namespace: biological_process
@@ -18790,7 +18863,7 @@
  synonym: "regulation of FGF receptor signaling pathway" EXACT []
  synonym: "regulation of FGF receptor signalling pathway" EXACT []
  synonym: "regulation of FGFR signaling pathway" EXACT []
-@@ -247160,7 +247965,7 @@
+@@ -247160,7 +247983,7 @@
  id: GO:0040037
  name: negative regulation of fibroblast growth factor receptor signaling pathway
  namespace: biological_process
@@ -18799,7 +18872,7 @@
  synonym: "down regulation of fibroblast growth factor receptor signaling pathway" EXACT []
  synonym: "down-regulation of fibroblast growth factor receptor signaling pathway" EXACT []
  synonym: "downregulation of fibroblast growth factor receptor signaling pathway" EXACT []
-@@ -247211,6 +248016,7 @@
+@@ -247211,6 +248034,7 @@
  synonym: "translocation of peptides or proteins into other organism involved in symbiotic interaction" BROAD []
  synonym: "transport of peptides or proteins into host" EXACT []
  synonym: "transport of peptides or proteins into other organism during symbiotic interaction" BROAD []
@@ -18807,7 +18880,7 @@
  is_a: GO:0044417 ! translocation of molecules into host
  
  [Term]
-@@ -247449,7 +248255,6 @@
+@@ -247449,7 +248273,6 @@
  namespace: molecular_function
  def: "Binds to and stops, prevents or reduces an ATP hydrolysis activity." [GOC:jl]
  synonym: "adenosinetriphosphatase inhibitor" EXACT []
@@ -18815,7 +18888,7 @@
  is_a: GO:0140678 ! molecular function inhibitor activity
  relationship: negatively_regulates GO:0140657 ! ATP-dependent activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20955" xsd:anyURI
-@@ -247619,7 +248424,7 @@
+@@ -247619,7 +248442,7 @@
  id: GO:0042053
  name: regulation of dopamine metabolic process
  namespace: biological_process
@@ -18824,7 +18897,7 @@
  synonym: "regulation of dopamine metabolism" EXACT []
  is_a: GO:0042069 ! regulation of catecholamine metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -247648,7 +248453,7 @@
+@@ -247648,7 +248471,7 @@
  id: GO:0042056
  name: chemoattractant activity
  namespace: molecular_function
@@ -18833,7 +18906,7 @@
  subset: goslim_chembl
  subset: goslim_pir
  synonym: "attractant" BROAD []
-@@ -247673,7 +248478,7 @@
+@@ -247673,7 +248496,7 @@
  id: GO:0042058
  name: regulation of epidermal growth factor receptor signaling pathway
  namespace: biological_process
@@ -18842,7 +18915,7 @@
  synonym: "regulation of EGF receptor signaling pathway" EXACT []
  synonym: "regulation of EGF receptor signalling pathway" EXACT []
  synonym: "regulation of EGFR signaling pathway" EXACT []
-@@ -247686,7 +248491,7 @@
+@@ -247686,7 +248509,7 @@
  id: GO:0042059
  name: negative regulation of epidermal growth factor receptor signaling pathway
  namespace: biological_process
@@ -18851,7 +18924,7 @@
  synonym: "down regulation of epidermal growth factor receptor signaling pathway" EXACT []
  synonym: "down-regulation of epidermal growth factor receptor signaling pathway" EXACT []
  synonym: "downregulation of epidermal growth factor receptor signaling pathway" EXACT []
-@@ -247767,7 +248572,7 @@
+@@ -247767,7 +248590,7 @@
  id: GO:0042068
  name: obsolete regulation of pteridine metabolic process
  namespace: biological_process
@@ -18860,7 +18933,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "regulation of pteridine metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30570" xsd:anyURI
-@@ -247777,7 +248582,7 @@
+@@ -247777,7 +248600,7 @@
  id: GO:0042069
  name: regulation of catecholamine metabolic process
  namespace: biological_process
@@ -18869,7 +18942,7 @@
  synonym: "regulation of catecholamine metabolism" EXACT []
  is_a: GO:0033238 ! regulation of amine metabolic process
  is_a: GO:0080090 ! regulation of primary metabolic process
-@@ -247919,7 +248724,7 @@
+@@ -247919,7 +248742,7 @@
  id: GO:0042081
  name: obsolete GSI anchor metabolic process
  namespace: biological_process
@@ -18878,7 +18951,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping term.
  synonym: "GPI/GSI anchor metabolic process" BROAD []
  synonym: "GPI/GSI anchor metabolism" BROAD []
-@@ -247931,7 +248736,7 @@
+@@ -247931,7 +248754,7 @@
  id: GO:0042082
  name: obsolete GSI anchor biosynthetic process
  namespace: biological_process
@@ -18887,7 +18960,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "GPI/GSI anchor biosynthesis" BROAD []
  synonym: "GPI/GSI anchor biosynthetic process" BROAD []
-@@ -248281,12 +249086,18 @@
+@@ -248281,12 +249104,18 @@
  def: "The nitrogen metabolic process that encompasses the uptake of nitrate from the environment and reduction to ammonia, and results in the incorporation of nitrogen derived from nitrate into cellular substances." [GOC:das, GOC:mah, PMID:10542156, PMID:8122899]
  synonym: "assimilatory nitrate reduction" NARROW []
  xref: MetaCyc:PWY-381
@@ -18906,7 +18979,7 @@
  
  [Term]
  id: GO:0042129
-@@ -248607,12 +249418,13 @@
+@@ -248607,12 +249436,13 @@
  
  [Term]
  id: GO:0042162
@@ -18923,7 +18996,7 @@
  
  [Term]
  id: GO:0042163
-@@ -248683,14 +249495,14 @@
+@@ -248683,14 +249513,14 @@
  id: GO:0042169
  name: SH2 domain binding
  namespace: molecular_function
@@ -18940,7 +19013,7 @@
  is_a: GO:0031090 ! organelle membrane
  intersection_of: GO:0016020 ! membrane
  intersection_of: part_of GO:0009536 ! plastid
-@@ -248718,7 +249530,7 @@
+@@ -248718,7 +249548,7 @@
  id: GO:0042174
  name: negative regulation of sporulation resulting in formation of a cellular spore
  namespace: biological_process
@@ -18949,7 +19022,7 @@
  synonym: "down regulation of sporulation" EXACT []
  synonym: "down-regulation of sporulation" EXACT []
  synonym: "downregulation of sporulation" EXACT []
-@@ -248750,7 +249562,7 @@
+@@ -248750,7 +249580,7 @@
  namespace: biological_process
  alt_id: GO:1903362
  alt_id: GO:2000598
@@ -18958,7 +19031,7 @@
  synonym: "regulation of cellular protein breakdown" EXACT [GOC:TermGenie]
  synonym: "regulation of cellular protein catabolic process" EXACT []
  synonym: "regulation of cellular protein catabolism" EXACT [GOC:TermGenie]
-@@ -248864,7 +249676,7 @@
+@@ -248864,7 +249694,7 @@
  id: GO:0042181
  name: ketone biosynthetic process
  namespace: biological_process
@@ -18967,7 +19040,7 @@
  synonym: "ketone anabolism" EXACT []
  synonym: "ketone biosynthesis" EXACT []
  synonym: "ketone formation" EXACT []
-@@ -248876,7 +249688,7 @@
+@@ -248876,7 +249706,7 @@
  id: GO:0042182
  name: ketone catabolic process
  namespace: biological_process
@@ -18976,7 +19049,7 @@
  synonym: "ketone breakdown" EXACT []
  synonym: "ketone catabolism" EXACT []
  synonym: "ketone degradation" EXACT []
-@@ -248900,7 +249712,7 @@
+@@ -248900,7 +249730,7 @@
  id: GO:0042184
  name: xylene catabolic process
  namespace: biological_process
@@ -18985,7 +19058,7 @@
  synonym: "xylene breakdown" EXACT []
  synonym: "xylene catabolism" EXACT []
  synonym: "xylene degradation" EXACT []
-@@ -248912,7 +249724,7 @@
+@@ -248912,7 +249742,7 @@
  id: GO:0042185
  name: m-xylene catabolic process
  namespace: biological_process
@@ -18994,7 +19067,7 @@
  synonym: "m-xylene breakdown" EXACT []
  synonym: "m-xylene catabolism" EXACT []
  synonym: "m-xylene degradation" EXACT []
-@@ -249029,7 +249841,7 @@
+@@ -249029,7 +249859,7 @@
  id: GO:0042194
  name: quinate biosynthetic process
  namespace: biological_process
@@ -19003,7 +19076,7 @@
  synonym: "quinate anabolism" EXACT []
  synonym: "quinate biosynthesis" EXACT []
  synonym: "quinate formation" EXACT []
-@@ -249305,21 +250117,21 @@
+@@ -249305,21 +250135,21 @@
  
  [Term]
  id: GO:0042217
@@ -19031,7 +19104,7 @@
  synonym: "1-aminocyclopropane-1-carboxylate anabolism" EXACT []
  synonym: "1-aminocyclopropane-1-carboxylate biosynthesis" EXACT []
  synonym: "1-aminocyclopropane-1-carboxylate formation" EXACT []
-@@ -249895,6 +250707,7 @@
+@@ -249895,6 +250725,7 @@
  def: "Catalysis of the transfer of ISG15 from one protein to another via the reaction X-ISG15 + Y = Y-ISG15 + X, where both X-ISG15 and Y-ISG15 are covalent linkages." [GOC:mah, PMID:12826404]
  synonym: "ISG15 conjugating enzyme activity" NARROW []
  xref: Reactome:R-HSA-5653754 "UBE2L6:TRIM25 ISGylates monoUb:K164-PCNA"
@@ -19039,7 +19112,7 @@
  is_a: GO:0019787 ! ubiquitin-like protein transferase activity
  
  [Term]
-@@ -249966,7 +250779,7 @@
+@@ -249966,7 +250797,7 @@
  id: GO:0042304
  name: regulation of fatty acid biosynthetic process
  namespace: biological_process
@@ -19048,7 +19121,7 @@
  synonym: "regulation of fatty acid anabolism" EXACT []
  synonym: "regulation of fatty acid biosynthesis" EXACT []
  synonym: "regulation of fatty acid formation" EXACT []
-@@ -250155,7 +250968,7 @@
+@@ -250155,7 +250986,7 @@
  id: GO:0042321
  name: negative regulation of circadian sleep/wake cycle, sleep
  namespace: biological_process
@@ -19057,7 +19130,7 @@
  synonym: "down regulation of circadian sleep/wake cycle, sleep" EXACT []
  synonym: "down-regulation of circadian sleep/wake cycle, sleep" EXACT []
  synonym: "downregulation of circadian sleep/wake cycle, sleep" EXACT []
-@@ -250172,7 +250985,7 @@
+@@ -250172,7 +251003,7 @@
  id: GO:0042322
  name: negative regulation of circadian sleep/wake cycle, REM sleep
  namespace: biological_process
@@ -19066,7 +19139,7 @@
  synonym: "down regulation of circadian sleep/wake cycle, REM sleep" EXACT []
  synonym: "down-regulation of circadian sleep/wake cycle, REM sleep" EXACT []
  synonym: "downregulation of circadian sleep/wake cycle, REM sleep" EXACT []
-@@ -250536,8 +251349,15 @@
+@@ -250536,8 +251367,15 @@
  synonym: "L-fucose breakdown" EXACT []
  synonym: "L-fucose catabolism" EXACT []
  synonym: "L-fucose degradation" EXACT []
@@ -19082,7 +19155,7 @@
  
  [Term]
  id: GO:0042356
-@@ -250618,7 +251438,7 @@
+@@ -250618,7 +251456,7 @@
  synonym: "tocopherol metabolic process" EXACT []
  synonym: "tocopherol metabolism" EXACT []
  synonym: "vitamin E metabolism" EXACT []
@@ -19091,7 +19164,7 @@
  is_a: GO:0008152 ! metabolic process
  
  [Term]
-@@ -250647,6 +251467,7 @@
+@@ -250647,6 +251485,7 @@
  synonym: "fat-soluble vitamin biosynthesis" EXACT []
  synonym: "fat-soluble vitamin formation" EXACT []
  synonym: "fat-soluble vitamin synthesis" EXACT []
@@ -19099,7 +19172,7 @@
  is_a: GO:0009110 ! vitamin biosynthetic process
  
  [Term]
-@@ -250668,6 +251489,7 @@
+@@ -250668,6 +251507,7 @@
  synonym: "water-soluble vitamin biosynthesis" EXACT []
  synonym: "water-soluble vitamin formation" EXACT []
  synonym: "water-soluble vitamin synthesis" EXACT []
@@ -19107,7 +19180,7 @@
  is_a: GO:0009110 ! vitamin biosynthetic process
  
  [Term]
-@@ -250684,7 +251506,7 @@
+@@ -250684,7 +251524,7 @@
  id: GO:0042366
  name: cobalamin catabolic process
  namespace: biological_process
@@ -19116,7 +19189,7 @@
  synonym: "cobalamin breakdown" EXACT []
  synonym: "cobalamin catabolism" EXACT []
  synonym: "cobalamin degradation" EXACT []
-@@ -251086,7 +251908,7 @@
+@@ -251086,7 +251926,7 @@
  id: GO:0042402
  name: biogenic amine catabolic process
  namespace: biological_process
@@ -19125,7 +19198,7 @@
  synonym: "biogenic amine breakdown" EXACT []
  synonym: "biogenic amine catabolism" EXACT []
  synonym: "biogenic amine degradation" EXACT []
-@@ -251190,7 +252012,6 @@
+@@ -251190,7 +252030,6 @@
  xref: MetaCyc:6-CARBOXYHEXANOATE--COA-LIGASE-RXN
  xref: RHEA:14781
  is_a: GO:0016405 ! CoA-ligase activity
@@ -19133,7 +19206,7 @@
  property_value: skos:exactMatch EC:6.2.1.14
  property_value: skos:exactMatch RHEA:14781
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -251204,8 +252025,15 @@
+@@ -251204,8 +252043,15 @@
  synonym: "taurine biosynthesis" EXACT []
  synonym: "taurine formation" EXACT []
  synonym: "taurine synthesis" EXACT []
@@ -19149,7 +19222,7 @@
  
  [Term]
  id: GO:0042413
-@@ -251385,6 +252213,7 @@
+@@ -251385,6 +252231,7 @@
  xref: MetaCyc:CHOLINE-BETAINE-ANA-PWY
  xref: MetaCyc:P542-PWY
  xref: MetaCyc:PWY-3721
@@ -19157,7 +19230,7 @@
  xref: MetaCyc:PWY-7494
  xref: Reactome:R-HSA-6798163 "Choline catabolism"
  is_a: GO:0019695 ! choline metabolic process
-@@ -251392,9 +252221,11 @@
+@@ -251392,9 +252239,11 @@
  property_value: skos:narrowMatch MetaCyc:CHOLINE-BETAINE-ANA-PWY
  property_value: skos:narrowMatch MetaCyc:P542-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-3721
@@ -19169,7 +19242,7 @@
  
  [Term]
  id: GO:0042427
-@@ -251666,7 +252497,7 @@
+@@ -251666,7 +252515,7 @@
  id: GO:0042451
  name: purine nucleoside biosynthetic process
  namespace: biological_process
@@ -19178,7 +19251,7 @@
  synonym: "purine nucleoside anabolism" EXACT []
  synonym: "purine nucleoside biosynthesis" EXACT []
  synonym: "purine nucleoside formation" EXACT []
-@@ -251736,7 +252567,7 @@
+@@ -251736,7 +252585,7 @@
  id: GO:0042458
  name: obsolete nopaline catabolic process to proline
  namespace: biological_process
@@ -19187,7 +19260,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "nopaline breakdown to proline" EXACT []
  synonym: "nopaline degradation to proline" EXACT []
-@@ -251747,7 +252578,7 @@
+@@ -251747,7 +252596,7 @@
  id: GO:0042459
  name: obsolete octopine catabolic process to proline
  namespace: biological_process
@@ -19196,7 +19269,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "octopine breakdown to proline" EXACT []
  synonym: "octopine degradation to proline" EXACT []
-@@ -251759,7 +252590,7 @@
+@@ -251759,7 +252608,7 @@
  name: photoreceptor cell development
  namespace: biological_process
  alt_id: GO:0046531
@@ -19205,7 +19278,7 @@
  synonym: "photoreceptor morphogenesis" EXACT []
  is_a: GO:0048666 ! neuron development
  relationship: part_of GO:0046530 ! photoreceptor cell differentiation
-@@ -252448,14 +253279,14 @@
+@@ -252448,14 +253297,14 @@
  id: GO:0042549
  name: photosystem II stabilization
  namespace: biological_process
@@ -19222,7 +19295,7 @@
  is_a: GO:0042548 ! regulation of photosynthesis, light reaction
  
  [Term]
-@@ -252692,7 +253523,7 @@
+@@ -252692,7 +253541,7 @@
  id: GO:0042576
  name: obsolete aspartyl aminopeptidase activity
  namespace: molecular_function
@@ -19231,7 +19304,7 @@
  comment: This term was made obsolete because it represents a gene product.
  synonym: "aspartyl aminopeptidase activity" EXACT []
  is_obsolete: true
-@@ -252852,14 +253683,14 @@
+@@ -252852,14 +253701,14 @@
  id: GO:0042593
  name: glucose homeostasis
  namespace: biological_process
@@ -19248,7 +19321,7 @@
  subset: goslim_yeast
  is_a: GO:0006950 ! response to stress
  is_a: GO:0031667 ! response to nutrient levels
-@@ -252868,7 +253699,7 @@
+@@ -252868,7 +253717,7 @@
  id: GO:0042595
  name: behavioral response to starvation
  namespace: biological_process
@@ -19257,7 +19330,7 @@
  synonym: "behavioural response to starvation" EXACT []
  is_a: GO:0042594 ! response to starvation
  
-@@ -252877,7 +253708,7 @@
+@@ -252877,7 +253726,7 @@
  name: fear response
  namespace: biological_process
  alt_id: GO:0001663
@@ -19266,7 +19339,7 @@
  synonym: "physiological fear response" EXACT []
  is_a: GO:0033555 ! multicellular organismal response to stress
  
-@@ -252886,7 +253717,7 @@
+@@ -252886,7 +253735,7 @@
  name: periplasmic space
  namespace: cellular_component
  alt_id: GO:0005620
@@ -19275,7 +19348,7 @@
  subset: goslim_metagenomics
  subset: goslim_pir
  subset: goslim_prokaryote
-@@ -253160,10 +253991,12 @@
+@@ -253160,10 +254009,12 @@
  synonym: "P-P-bond-hydrolysis-driven transmembrane transporter activity" BROAD []
  synonym: "P-P-bond-hydrolysis-driven transporter" BROAD []
  xref: EC:7.2.2.-
@@ -19288,7 +19361,7 @@
  xref: Reactome:R-HSA-9033499 "PEX1:PEX6:PEX26:ZFAND6 dissociates Ub:PEX5L and PEX7 from PEX14:PEX13:PEX2:PEX10:PEX12 and translocates PEX5L and PEX7 from the peroxisomal membrane to the cytosol"
  xref: Reactome:R-HSA-9033505 "PEX1:PEX6:PEX26:ZFAND6:Ub:PEX5S,L:PEX14:PEX13:PEX2:PEX10:PEX12 dissociates yielding cytosolic Ub:PEX5S,L and membrane PEX14:PEX13:PEX2:PEX10:PEX12"
  xref: Reactome:R-HSA-9659680 "ABCB1 transports xenobiotics out of the cell"
-@@ -253228,7 +254061,7 @@
+@@ -253228,7 +254079,7 @@
  id: GO:0042631
  name: cellular response to water deprivation
  namespace: biological_process
@@ -19297,7 +19370,7 @@
  synonym: "cellular response to drought" EXACT []
  is_a: GO:0009414 ! response to water deprivation
  is_a: GO:0033554 ! cellular response to stress
-@@ -253240,7 +254073,7 @@
+@@ -253240,7 +254091,7 @@
  namespace: biological_process
  alt_id: GO:2000188
  alt_id: GO:2000189
@@ -19306,7 +19379,7 @@
  synonym: "positive regulation of cholesterol homeostasis" RELATED []
  synonym: "regulation of cholesterol homeostasis" RELATED []
  is_a: GO:0055092 ! sterol homeostasis
-@@ -253249,14 +254082,14 @@
+@@ -253249,14 +254100,14 @@
  id: GO:0042633
  name: hair cycle
  namespace: biological_process
@@ -19323,7 +19396,7 @@
  is_a: GO:0051239 ! regulation of multicellular organismal process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042633 ! hair cycle
-@@ -253266,7 +254099,7 @@
+@@ -253266,7 +254117,7 @@
  id: GO:0042635
  name: positive regulation of hair cycle
  namespace: biological_process
@@ -19332,7 +19405,7 @@
  synonym: "activation of hair cycle" NARROW []
  synonym: "stimulation of hair cycle" NARROW []
  synonym: "up regulation of hair cycle" EXACT []
-@@ -253282,7 +254115,7 @@
+@@ -253282,7 +254133,7 @@
  id: GO:0042636
  name: negative regulation of hair cycle
  namespace: biological_process
@@ -19341,7 +19414,7 @@
  synonym: "down regulation of hair cycle" EXACT []
  synonym: "down-regulation of hair cycle" EXACT []
  synonym: "downregulation of hair cycle" EXACT []
-@@ -253340,7 +254173,7 @@
+@@ -253340,7 +254191,7 @@
  id: GO:0042641
  name: actomyosin
  namespace: cellular_component
@@ -19350,7 +19423,7 @@
  synonym: "actomyosin complex" EXACT []
  synonym: "actomyosin structure" EXACT []
  is_a: GO:0110165 ! cellular anatomical structure
-@@ -253350,7 +254183,7 @@
+@@ -253350,7 +254201,7 @@
  id: GO:0042642
  name: actomyosin, myosin complex part
  namespace: cellular_component
@@ -19359,7 +19432,7 @@
  is_a: GO:0016459 ! myosin complex
  intersection_of: GO:0016459 ! myosin complex
  intersection_of: part_of GO:0042641 ! actomyosin
-@@ -253360,7 +254193,7 @@
+@@ -253360,7 +254211,7 @@
  id: GO:0042643
  name: obsolete actomyosin, actin portion
  namespace: cellular_component
@@ -19368,7 +19441,7 @@
  comment: This term was obsoleted because it corresponds to a gene product, actin.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19570" xsd:anyURI
  is_obsolete: true
-@@ -253516,7 +254349,7 @@
+@@ -253516,7 +254367,7 @@
  id: GO:0042659
  name: regulation of cell fate specification
  namespace: biological_process
@@ -19377,7 +19450,7 @@
  is_a: GO:0010453 ! regulation of cell fate commitment
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0001708 ! cell fate specification
-@@ -253526,7 +254359,7 @@
+@@ -253526,7 +254377,7 @@
  id: GO:0042660
  name: positive regulation of cell fate specification
  namespace: biological_process
@@ -19386,7 +19459,7 @@
  synonym: "activation of cell fate specification" NARROW []
  synonym: "stimulation of cell fate specification" NARROW []
  synonym: "up regulation of cell fate specification" EXACT []
-@@ -253542,7 +254375,7 @@
+@@ -253542,7 +254393,7 @@
  id: GO:0042661
  name: regulation of mesodermal cell fate specification
  namespace: biological_process
@@ -19395,7 +19468,7 @@
  is_a: GO:0042659 ! regulation of cell fate specification
  is_a: GO:1905770 ! regulation of mesodermal cell differentiation
  is_a: GO:2000027 ! regulation of animal organ morphogenesis
-@@ -253554,7 +254387,7 @@
+@@ -253554,7 +254405,7 @@
  id: GO:0042662
  name: negative regulation of mesodermal cell fate specification
  namespace: biological_process
@@ -19404,7 +19477,7 @@
  synonym: "down regulation of mesodermal cell fate specification" EXACT []
  synonym: "down-regulation of mesodermal cell fate specification" EXACT []
  synonym: "downregulation of mesodermal cell fate specification" EXACT []
-@@ -253571,7 +254404,7 @@
+@@ -253571,7 +254422,7 @@
  id: GO:0042663
  name: regulation of endodermal cell fate specification
  namespace: biological_process
@@ -19413,7 +19486,7 @@
  synonym: "regulation of endoderm cell fate specification" EXACT []
  is_a: GO:0042659 ! regulation of cell fate specification
  is_a: GO:1903224 ! regulation of endodermal cell differentiation
-@@ -253583,7 +254416,7 @@
+@@ -253583,7 +254434,7 @@
  id: GO:0042664
  name: negative regulation of endodermal cell fate specification
  namespace: biological_process
@@ -19422,7 +19495,7 @@
  synonym: "down regulation of endodermal cell fate specification" EXACT []
  synonym: "down-regulation of endodermal cell fate specification" EXACT []
  synonym: "downregulation of endodermal cell fate specification" EXACT []
-@@ -253602,7 +254435,7 @@
+@@ -253602,7 +254453,7 @@
  id: GO:0042665
  name: regulation of ectodermal cell fate specification
  namespace: biological_process
@@ -19431,7 +19504,7 @@
  synonym: "regulation of ectoderm cell fate specification" EXACT []
  is_a: GO:0042659 ! regulation of cell fate specification
  intersection_of: GO:0065007 ! biological regulation
-@@ -253613,7 +254446,7 @@
+@@ -253613,7 +254464,7 @@
  id: GO:0042666
  name: negative regulation of ectodermal cell fate specification
  namespace: biological_process
@@ -19440,7 +19513,7 @@
  synonym: "down regulation of ectodermal cell fate specification" EXACT []
  synonym: "down-regulation of ectodermal cell fate specification" EXACT []
  synonym: "downregulation of ectodermal cell fate specification" EXACT []
-@@ -253631,7 +254464,7 @@
+@@ -253631,7 +254482,7 @@
  id: GO:0042667
  name: auditory receptor cell fate specification
  namespace: biological_process
@@ -19449,7 +19522,7 @@
  synonym: "auditory hair cell fate specification" EXACT []
  is_a: GO:0048665 ! neuron fate specification
  relationship: part_of GO:0009912 ! auditory receptor cell fate commitment
-@@ -253640,7 +254473,7 @@
+@@ -253640,7 +254491,7 @@
  id: GO:0042668
  name: auditory receptor cell fate determination
  namespace: biological_process
@@ -19458,7 +19531,7 @@
  synonym: "auditory hair cell fate determination" EXACT []
  is_a: GO:0048664 ! neuron fate determination
  relationship: part_of GO:0009912 ! auditory receptor cell fate commitment
-@@ -253649,7 +254482,7 @@
+@@ -253649,7 +254500,7 @@
  id: GO:0042669
  name: regulation of inner ear auditory receptor cell fate specification
  namespace: biological_process
@@ -19467,7 +19540,7 @@
  synonym: "regulation of auditory hair cell fate specification" EXACT []
  is_a: GO:0042659 ! regulation of cell fate specification
  is_a: GO:0045607 ! regulation of inner ear auditory receptor cell differentiation
-@@ -253661,14 +254494,14 @@
+@@ -253661,14 +254512,14 @@
  id: GO:0042670
  name: retinal cone cell differentiation
  namespace: biological_process
@@ -19484,7 +19557,7 @@
  is_a: GO:0043703 ! photoreceptor cell fate determination
  relationship: part_of GO:0046551 ! retinal cone cell fate commitment
  
-@@ -253676,7 +254509,7 @@
+@@ -253676,7 +254527,7 @@
  id: GO:0042672
  name: retinal cone cell fate specification
  namespace: biological_process
@@ -19493,7 +19566,7 @@
  is_a: GO:0043704 ! photoreceptor cell fate specification
  relationship: part_of GO:0046551 ! retinal cone cell fate commitment
  
-@@ -253684,7 +254517,7 @@
+@@ -253684,7 +254535,7 @@
  id: GO:0042673
  name: regulation of retinal cone cell fate specification
  namespace: biological_process
@@ -19502,7 +19575,7 @@
  is_a: GO:0042659 ! regulation of cell fate specification
  is_a: GO:0060222 ! regulation of retinal cone cell fate commitment
  intersection_of: GO:0065007 ! biological regulation
-@@ -253759,7 +254592,7 @@
+@@ -253759,7 +254610,7 @@
  id: GO:0042684
  name: cardioblast cell fate commitment
  namespace: biological_process
@@ -19511,7 +19584,7 @@
  is_a: GO:0060911 ! cardiac cell fate commitment
  relationship: part_of GO:0010002 ! cardioblast differentiation
  
-@@ -253767,7 +254600,7 @@
+@@ -253767,7 +254618,7 @@
  id: GO:0042685
  name: cardioblast cell fate specification
  namespace: biological_process
@@ -19520,7 +19593,7 @@
  is_a: GO:0060912 ! cardiac cell fate specification
  relationship: part_of GO:0042684 ! cardioblast cell fate commitment
  
-@@ -253775,7 +254608,7 @@
+@@ -253775,7 +254626,7 @@
  id: GO:0042686
  name: regulation of cardioblast cell fate specification
  namespace: biological_process
@@ -19529,7 +19602,7 @@
  is_a: GO:0051890 ! regulation of cardioblast differentiation
  is_a: GO:2000043 ! regulation of cardiac cell fate specification
  intersection_of: GO:0065007 ! biological regulation
-@@ -253793,7 +254626,7 @@
+@@ -253793,7 +254644,7 @@
  id: GO:0042689
  name: regulation of crystal cell differentiation
  namespace: biological_process
@@ -19538,7 +19611,7 @@
  is_a: GO:0045610 ! regulation of hemocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042688 ! crystal cell differentiation
-@@ -253803,7 +254636,7 @@
+@@ -253803,7 +254654,7 @@
  id: GO:0042690
  name: negative regulation of crystal cell differentiation
  namespace: biological_process
@@ -19547,7 +19620,7 @@
  synonym: "down regulation of crystal cell differentiation" EXACT []
  synonym: "down-regulation of crystal cell differentiation" EXACT []
  synonym: "downregulation of crystal cell differentiation" EXACT []
-@@ -253818,7 +254651,7 @@
+@@ -253818,7 +254669,7 @@
  id: GO:0042691
  name: positive regulation of crystal cell differentiation
  namespace: biological_process
@@ -19556,7 +19629,7 @@
  synonym: "activation of crystal cell differentiation" NARROW []
  synonym: "stimulation of crystal cell differentiation" NARROW []
  synonym: "up regulation of crystal cell differentiation" EXACT []
-@@ -253834,7 +254667,7 @@
+@@ -253834,7 +254685,7 @@
  id: GO:0042692
  name: muscle cell differentiation
  namespace: biological_process
@@ -19565,7 +19638,7 @@
  synonym: "myogenesis" RELATED []
  is_a: GO:0030154 ! cell differentiation
  relationship: part_of GO:0061061 ! muscle structure development
-@@ -253843,7 +254676,7 @@
+@@ -253843,7 +254694,7 @@
  id: GO:0042693
  name: muscle cell fate commitment
  namespace: biological_process
@@ -19574,7 +19647,7 @@
  is_a: GO:0045165 ! cell fate commitment
  relationship: part_of GO:0042692 ! muscle cell differentiation
  
-@@ -253851,7 +254684,7 @@
+@@ -253851,7 +254702,7 @@
  id: GO:0042694
  name: muscle cell fate specification
  namespace: biological_process
@@ -19583,7 +19656,7 @@
  is_a: GO:0001708 ! cell fate specification
  relationship: part_of GO:0042693 ! muscle cell fate commitment
  
-@@ -253954,7 +254787,7 @@
+@@ -253954,7 +254805,7 @@
  id: GO:0042705
  name: ocellus photoreceptor cell differentiation
  namespace: biological_process
@@ -19592,7 +19665,7 @@
  is_a: GO:0046530 ! photoreceptor cell differentiation
  
  [Term]
-@@ -253998,6 +254831,7 @@
+@@ -253998,6 +254849,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_candida
  subset: goslim_pir
@@ -19600,7 +19673,7 @@
  is_a: GO:0098630 ! aggregation of unicellular organisms
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17727" xsd:anyURI
  
-@@ -254013,7 +254847,7 @@
+@@ -254013,7 +254865,7 @@
  id: GO:0042712
  name: paternal behavior
  namespace: biological_process
@@ -19609,7 +19682,7 @@
  synonym: "paternal behaviour" EXACT []
  is_a: GO:0060746 ! parental behavior
  
-@@ -254450,7 +255284,7 @@
+@@ -254450,7 +255302,7 @@
  id: GO:0042753
  name: positive regulation of circadian rhythm
  namespace: biological_process
@@ -19618,7 +19691,7 @@
  synonym: "activation of circadian rhythm" NARROW []
  synonym: "stimulation of circadian rhythm" NARROW []
  synonym: "up regulation of circadian rhythm" EXACT []
-@@ -254466,7 +255300,7 @@
+@@ -254466,7 +255318,7 @@
  id: GO:0042754
  name: negative regulation of circadian rhythm
  namespace: biological_process
@@ -19627,7 +19700,7 @@
  synonym: "down regulation of circadian rhythm" EXACT []
  synonym: "down-regulation of circadian rhythm" EXACT []
  synonym: "downregulation of circadian rhythm" EXACT []
-@@ -254558,15 +255392,19 @@
+@@ -254558,15 +255410,19 @@
  synonym: "very-long-chain fatty acid formation" EXACT []
  synonym: "very-long-chain fatty acid synthesis" EXACT []
  xref: MetaCyc:PWY-5080
@@ -19648,7 +19721,7 @@
  synonym: "regulation of sulfur metabolism" EXACT []
  synonym: "regulation of sulphur metabolic process" EXACT []
  synonym: "regulation of sulphur metabolism" EXACT []
-@@ -254587,7 +255425,7 @@
+@@ -254587,7 +255443,7 @@
  id: GO:0042764
  name: ascospore-type prospore
  namespace: cellular_component
@@ -19657,7 +19730,7 @@
  is_a: GO:0042763 ! intracellular immature spore
  
  [Term]
-@@ -254664,7 +255502,7 @@
+@@ -254664,7 +255520,7 @@
  id: GO:0042769
  name: obsolete DNA damage response, detection of DNA damage
  namespace: biological_process
@@ -19666,7 +19739,7 @@
  comment: This term has been obsoleted because it represents a molecular function.
  synonym: "detection of DNA damage during DNA damage response" EXACT []
  synonym: "DNA damage response, perception of DNA damage" RELATED []
-@@ -254679,7 +255517,7 @@
+@@ -254679,7 +255535,7 @@
  name: signal transduction in response to DNA damage
  namespace: biological_process
  alt_id: GO:0006975
@@ -19675,7 +19748,7 @@
  synonym: "DNA damage induced protein phosphorylation" NARROW []
  synonym: "DNA damage response, signal transduction" EXACT []
  synonym: "response to DNA damage stimulus by intracellular signaling cascade" EXACT [GOC:dph, GOC:tb]
-@@ -254691,7 +255529,7 @@
+@@ -254691,7 +255547,7 @@
  id: GO:0042771
  name: intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator
  namespace: biological_process
@@ -19684,7 +19757,7 @@
  synonym: "DNA damage response, signal transduction by p53 class mediator resulting in induction of apoptosis" RELATED []
  is_a: GO:0008630 ! intrinsic apoptotic signaling pathway in response to DNA damage
  is_a: GO:0072332 ! intrinsic apoptotic signaling pathway by p53 class mediator
-@@ -254700,7 +255538,7 @@
+@@ -254700,7 +255556,7 @@
  id: GO:0042772
  name: DNA damage response, signal transduction resulting in transcription
  namespace: biological_process
@@ -19693,7 +19766,7 @@
  is_a: GO:0042770 ! signal transduction in response to DNA damage
  
  [Term]
-@@ -254762,14 +255600,14 @@
+@@ -254762,14 +255618,14 @@
  id: GO:0042778
  name: tRNA end turnover
  namespace: biological_process
@@ -19710,7 +19783,7 @@
  comment: The reason for obsoletion is that the term represents a molecular function.
  synonym: "removal of tRNA 3'-trailer sequence" EXACT []
  synonym: "tRNA 3'-end cleavage" EXACT []
-@@ -254781,7 +255619,7 @@
+@@ -254781,7 +255637,7 @@
  id: GO:0042780
  name: tRNA 3'-end processing
  namespace: biological_process
@@ -19719,7 +19792,7 @@
  synonym: "tRNA 3' processing" EXACT []
  is_a: GO:0008033 ! tRNA processing
  is_a: GO:0031123 ! RNA 3'-end processing
-@@ -255044,13 +255882,14 @@
+@@ -255044,13 +255900,14 @@
  synonym: "histone methyltransferase activity (H3-K4 specific)" EXACT []
  synonym: "histone-H3K4 methyltransferase activity" EXACT []
  xref: Reactome:R-HSA-1214188 "PRDM9 trimethylates histone H3"
@@ -19736,7 +19809,7 @@
  is_a: GO:0016279 ! protein-lysine N-methyltransferase activity
  is_a: GO:0140938 ! histone H3 methyltransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24866" xsd:anyURI
-@@ -255180,7 +256019,7 @@
+@@ -255180,7 +256037,7 @@
  id: GO:0042813
  name: Wnt receptor activity
  namespace: molecular_function
@@ -19745,7 +19818,7 @@
  subset: goslim_chembl
  synonym: "frizzled receptor activity" RELATED []
  synonym: "frizzled-2 receptor activity" RELATED []
-@@ -255278,7 +256117,7 @@
+@@ -255278,7 +256135,7 @@
  
  [Term]
  id: GO:0042822
@@ -19754,7 +19827,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving pyridoxal phosphate, pyridoxal phosphorylated at the hydroxymethyl group of C-5, the active form of vitamin B6." [GOC:jl]
  synonym: "active vitamin B6 metabolic process" EXACT []
-@@ -255291,7 +256130,7 @@
+@@ -255291,7 +256148,7 @@
  
  [Term]
  id: GO:0042823
@@ -19763,7 +19836,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of pyridoxal phosphate, pyridoxal phosphorylated at the hydroxymethyl group of C-5, the active form of vitamin B6." [GOC:jl]
  synonym: "active vitamin B6 biosynthesis" EXACT []
-@@ -255302,7 +256141,7 @@
+@@ -255302,7 +256159,7 @@
  synonym: "pyridoxal phosphate synthesis" EXACT []
  xref: MetaCyc:PWY0-845
  is_a: GO:0042819 ! vitamin B6 biosynthetic process
@@ -19772,7 +19845,7 @@
  is_a: GO:0046184 ! aldehyde biosynthetic process
  is_a: GO:0090407 ! organophosphate biosynthetic process
  
-@@ -255367,7 +256206,7 @@
+@@ -255367,7 +256224,7 @@
  id: GO:0042834
  name: peptidoglycan binding
  namespace: molecular_function
@@ -19781,7 +19854,7 @@
  is_a: GO:0005539 ! glycosaminoglycan binding
  
  [Term]
-@@ -255413,9 +256252,14 @@
+@@ -255413,9 +256270,14 @@
  synonym: "D-glucarate degradation" EXACT []
  synonym: "saccharate catabolic process" EXACT []
  synonym: "saccharate catabolism" EXACT []
@@ -19796,7 +19869,7 @@
  
  [Term]
  id: GO:0042839
-@@ -255478,8 +256322,21 @@
+@@ -255478,8 +256340,21 @@
  synonym: "D-xylose breakdown" EXACT []
  synonym: "D-xylose catabolism" EXACT []
  synonym: "D-xylose degradation" EXACT []
@@ -19818,7 +19891,7 @@
  
  [Term]
  id: GO:0042844
-@@ -255570,6 +256427,7 @@
+@@ -255570,6 +256445,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving L-alanine, the L-enantiomer of 2-aminopropanoic acid, i.e. (2S)-2-aminopropanoic acid." [GOC:jl, GOC:jsg, GOC:mah]
  synonym: "L-alanine metabolism" EXACT []
@@ -19826,7 +19899,7 @@
  is_a: GO:0006522 ! alanine metabolic process
  is_a: GO:0170033 ! L-amino acid metabolic process
  is_a: GO:0170039 ! proteinogenic amino acid metabolic process
-@@ -255578,23 +256436,28 @@
+@@ -255578,23 +256454,28 @@
  id: GO:0042852
  name: L-alanine biosynthetic process
  namespace: biological_process
@@ -19859,7 +19932,7 @@
  synonym: "L-alanine breakdown" EXACT []
  synonym: "L-alanine catabolism" EXACT []
  synonym: "L-alanine degradation" EXACT []
-@@ -255608,6 +256471,7 @@
+@@ -255608,6 +256489,7 @@
  property_value: skos:narrowMatch MetaCyc:ALADEG-PWY
  property_value: skos:narrowMatch MetaCyc:ALANINE-DEG3-PWY
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30202" xsd:anyURI
@@ -19867,7 +19940,7 @@
  
  [Term]
  id: GO:0042854
-@@ -255784,11 +256648,12 @@
+@@ -255784,11 +256666,12 @@
  id: GO:0042866
  name: pyruvate biosynthetic process
  namespace: biological_process
@@ -19881,7 +19954,7 @@
  is_a: GO:0006090 ! pyruvate metabolic process
  is_a: GO:0072330 ! monocarboxylic acid biosynthetic process
  
-@@ -255796,7 +256661,7 @@
+@@ -255796,7 +256679,7 @@
  id: GO:0042867
  name: pyruvate catabolic process
  namespace: biological_process
@@ -19890,7 +19963,7 @@
  synonym: "pyruvate breakdown" EXACT []
  synonym: "pyruvate catabolism" EXACT []
  synonym: "pyruvate degradation" EXACT []
-@@ -255815,7 +256680,7 @@
+@@ -255815,7 +256698,7 @@
  id: GO:0042869
  name: aldarate transmembrane transport
  namespace: biological_process
@@ -19899,7 +19972,7 @@
  synonym: "aldarate transport" RELATED []
  is_a: GO:0006835 ! dicarboxylic acid transport
  is_a: GO:1905039 ! carboxylic acid transmembrane transport
-@@ -255859,7 +256724,7 @@
+@@ -255859,7 +256742,7 @@
  id: GO:0042876
  name: aldarate transmembrane transporter activity
  namespace: molecular_function
@@ -19908,7 +19981,7 @@
  is_a: GO:0046943 ! carboxylic acid transmembrane transporter activity
  relationship: part_of GO:0042869 ! aldarate transmembrane transport
  
-@@ -256135,7 +257000,7 @@
+@@ -256135,7 +257018,7 @@
  name: xenobiotic transport
  namespace: biological_process
  alt_id: GO:0015893
@@ -19917,7 +19990,7 @@
  subset: goslim_pir
  synonym: "drug transport" RELATED []
  is_a: GO:0006810 ! transport
-@@ -256159,7 +257024,7 @@
+@@ -256159,7 +257042,7 @@
  alt_id: GO:0015559
  alt_id: GO:0015564
  alt_id: GO:0090484
@@ -19926,7 +19999,7 @@
  subset: goslim_metagenomics
  synonym: "drug transmembrane transporter activity" RELATED []
  synonym: "drug transporter activity" RELATED []
-@@ -256169,6 +257034,15 @@
+@@ -256169,6 +257052,15 @@
  synonym: "xenobiotic transporter activity" RELATED []
  xref: Reactome:R-HSA-5625574 "Defective SLC22A18 does not exchange extracellular organic cations for cytosolic H+"
  xref: Reactome:R-HSA-597628 "SLC22A18 exchanges extracellular organic cations for cytosolic H+"
@@ -19942,7 +20015,7 @@
  is_a: GO:0022857 ! transmembrane transporter activity
  relationship: part_of GO:0042908 ! xenobiotic transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19460" xsd:anyURI
-@@ -256234,7 +257108,7 @@
+@@ -256234,7 +257126,7 @@
  id: GO:0042920
  name: 3-hydroxyphenylpropionic acid transmembrane transport
  namespace: biological_process
@@ -19951,7 +20024,7 @@
  synonym: "3-(3-hydroxyphenyl)propionic acid transport" EXACT []
  synonym: "3-hydroxyphenylpropionic acid transport" BROAD []
  synonym: "m-hydroxyphenylpropionic acid transport" EXACT []
-@@ -256331,6 +257205,8 @@
+@@ -256331,6 +257223,8 @@
  def: "Enables the directed movement of the siderochrome enterochelin, a cyclic trimer of 2, 3 dihydroxybenzoylserine from one side of a membrane to the other." [GOC:jl]
  synonym: "enterobactin transporter activity" RELATED []
  synonym: "enterochelin transporter activity" EXACT []
@@ -19960,7 +20033,7 @@
  is_a: GO:0015343 ! siderophore-iron transmembrane transporter activity
  relationship: part_of GO:0042930 ! enterobactin transport
  
-@@ -256609,7 +257485,7 @@
+@@ -256609,7 +257503,7 @@
  id: GO:0042964
  name: obsolete thioredoxin reduction
  namespace: biological_process
@@ -19969,7 +20042,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "thioredoxin anabolism" EXACT []
  synonym: "thioredoxin biosynthesis" EXACT []
-@@ -256622,7 +257498,7 @@
+@@ -256622,7 +257516,7 @@
  id: GO:0042965
  name: obsolete glutaredoxin biosynthetic process
  namespace: biological_process
@@ -19978,7 +20051,7 @@
  comment: This term was made obsolete because it refers to the biosynthesis of a protein.
  synonym: "glutaredoxin anabolism" EXACT []
  synonym: "glutaredoxin biosynthesis" EXACT []
-@@ -256634,7 +257510,7 @@
+@@ -256634,7 +257528,7 @@
  id: GO:0042966
  name: biotin carboxyl carrier protein biosynthetic process
  namespace: biological_process
@@ -19987,7 +20060,7 @@
  synonym: "BCCP biosynthesis" EXACT []
  synonym: "BCCP biosynthetic process" EXACT []
  synonym: "biotin carboxyl carrier protein anabolism" EXACT []
-@@ -256647,7 +257523,7 @@
+@@ -256647,7 +257541,7 @@
  id: GO:0042967
  name: obsolete acyl-carrier-protein biosynthetic process
  namespace: biological_process
@@ -19996,7 +20069,7 @@
  comment: The reason for obsoletion is that acyl-carrier-protein is synthesized by the ribosome like any other protein.
  synonym: "ACP biosynthesis" EXACT []
  synonym: "ACP biosynthetic process" EXACT []
-@@ -256674,7 +257550,7 @@
+@@ -256674,7 +257568,7 @@
  id: GO:0042969
  name: obsolete lactone transport
  namespace: biological_process
@@ -20005,7 +20078,7 @@
  comment: This term aws obsoleted because there is no evidence for a specific pathway to transport lactone.
  is_obsolete: true
  
-@@ -256682,7 +257558,7 @@
+@@ -256682,7 +257576,7 @@
  id: GO:0042970
  name: L-homoserine transmembrane transporter activity
  namespace: molecular_function
@@ -20014,7 +20087,7 @@
  synonym: "homoserine transmembrane transporter activity" BROAD []
  synonym: "homoserine transporter activity" BROAD []
  is_a: GO:0015175 ! neutral L-amino acid transmembrane transporter activity
-@@ -256694,7 +257570,7 @@
+@@ -256694,7 +257588,7 @@
  id: GO:0042971
  name: obsolete lactone transmembrane transporter activity
  namespace: molecular_function
@@ -20023,7 +20096,7 @@
  comment: This term was obsoleted because there is no evidence for a specific lactone transporter.
  is_obsolete: true
  
-@@ -256791,6 +257667,7 @@
+@@ -256791,6 +257685,7 @@
  namespace: molecular_function
  def: "Binds to and increases ornithine decarboxylase activity." [GOC:jl]
  synonym: "L-ornithine carboxy-lyase activator activity" NARROW []
@@ -20031,7 +20104,7 @@
  is_a: GO:0008047 ! enzyme activator activity
  is_a: GO:0042979 ! ornithine decarboxylase regulator activity
  relationship: positively_regulates GO:0004586 ! ornithine decarboxylase activity
-@@ -256833,7 +257710,7 @@
+@@ -256833,7 +257728,7 @@
  id: GO:0042982
  name: amyloid precursor protein metabolic process
  namespace: biological_process
@@ -20040,7 +20113,7 @@
  synonym: "amyloid precursor protein metabolism" EXACT []
  synonym: "APP metabolic process" EXACT []
  synonym: "APP metabolism" EXACT []
-@@ -256843,7 +257720,7 @@
+@@ -256843,7 +257738,7 @@
  id: GO:0042983
  name: amyloid precursor protein biosynthetic process
  namespace: biological_process
@@ -20049,7 +20122,7 @@
  synonym: "amyloid precursor protein anabolism" EXACT []
  synonym: "amyloid precursor protein biosynthesis" EXACT []
  synonym: "amyloid precursor protein formation" EXACT []
-@@ -256857,7 +257734,7 @@
+@@ -256857,7 +257752,7 @@
  id: GO:0042984
  name: regulation of amyloid precursor protein biosynthetic process
  namespace: biological_process
@@ -20058,7 +20131,7 @@
  synonym: "regulation of amyloid precursor protein anabolism" EXACT []
  synonym: "regulation of amyloid precursor protein biosynthesis" EXACT []
  synonym: "regulation of amyloid precursor protein formation" EXACT []
-@@ -256873,7 +257750,7 @@
+@@ -256873,7 +257768,7 @@
  id: GO:0042985
  name: negative regulation of amyloid precursor protein biosynthetic process
  namespace: biological_process
@@ -20067,7 +20140,7 @@
  synonym: "down regulation of amyloid precursor protein biosynthetic process" EXACT []
  synonym: "down-regulation of amyloid precursor protein biosynthetic process" EXACT []
  synonym: "downregulation of amyloid precursor protein biosynthetic process" EXACT []
-@@ -256894,7 +257771,7 @@
+@@ -256894,7 +257789,7 @@
  id: GO:0042986
  name: positive regulation of amyloid precursor protein biosynthetic process
  namespace: biological_process
@@ -20076,7 +20149,7 @@
  synonym: "activation of amyloid precursor protein biosynthetic process" NARROW []
  synonym: "positive regulation of amyloid precursor protein anabolism" EXACT []
  synonym: "positive regulation of amyloid precursor protein biosynthesis" EXACT []
-@@ -256916,7 +257793,7 @@
+@@ -256916,7 +257811,7 @@
  id: GO:0042987
  name: amyloid precursor protein catabolic process
  namespace: biological_process
@@ -20085,7 +20158,7 @@
  synonym: "amyloid precursor protein breakdown" EXACT []
  synonym: "amyloid precursor protein catabolism" EXACT []
  synonym: "amyloid precursor protein degradation" EXACT []
-@@ -256936,7 +257813,7 @@
+@@ -256936,7 +257831,7 @@
  id: GO:0042989
  name: obsolete sequestering of actin monomers
  namespace: biological_process
@@ -20094,7 +20167,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function, not biological process
  synonym: "actin monomer retention" EXACT []
  synonym: "actin monomer sequestering" EXACT []
-@@ -257215,7 +258092,7 @@
+@@ -257215,7 +258110,7 @@
  namespace: biological_process
  alt_id: GO:0001747
  alt_id: GO:0031075
@@ -20103,7 +20176,7 @@
  is_a: GO:0001654 ! eye development
  
  [Term]
-@@ -257234,8 +258111,8 @@
+@@ -257234,8 +258129,8 @@
  namespace: biological_process
  def: "Any process that modulates the binding and fusion of a sperm to the oocyte plasma membrane." [GOC:jl, PMID:11483596]
  synonym: "regulation of sperm-oocyte fusion" NARROW []
@@ -20113,7 +20186,7 @@
  is_a: GO:2000241 ! regulation of reproductive process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0007342 ! fusion of sperm to egg plasma membrane involved in single fertilization
-@@ -257253,7 +258130,7 @@
+@@ -257253,7 +258148,7 @@
  synonym: "inhibition of sperm-oocyte fusion" NARROW []
  synonym: "negative regulation of sperm-oocyte fusion" NARROW []
  is_a: GO:0043012 ! regulation of fusion of sperm to egg plasma membrane
@@ -20122,7 +20195,7 @@
  is_a: GO:0051241 ! negative regulation of multicellular organismal process
  is_a: GO:2000242 ! negative regulation of reproductive process
  intersection_of: GO:0065007 ! biological regulation
-@@ -257291,7 +258168,7 @@
+@@ -257291,7 +258186,7 @@
  id: GO:0043021
  name: ribonucleoprotein complex binding
  namespace: molecular_function
@@ -20131,7 +20204,7 @@
  subset: goslim_pir
  synonym: "protein-RNA complex binding" EXACT [GOC:bf, GOC:vk]
  synonym: "ribonucleoprotein binding" EXACT [GOC:bf, GOC:vk]
-@@ -257303,7 +258180,7 @@
+@@ -257303,7 +258198,7 @@
  name: ribosome binding
  namespace: molecular_function
  alt_id: GO:0030376
@@ -20140,7 +20213,7 @@
  synonym: "ribosome receptor activity" NARROW []
  is_a: GO:0043021 ! ribonucleoprotein complex binding
  
-@@ -257311,21 +258188,21 @@
+@@ -257311,21 +258206,21 @@
  id: GO:0043023
  name: ribosomal large subunit binding
  namespace: molecular_function
@@ -20165,7 +20238,7 @@
  comment: Note that 'cell body' and 'cell soma' are not used in the literature for cells that lack projections, nor for some cells (e.g. yeast with mating projections) that do have projections.
  subset: goslim_pir
  synonym: "neuron cell body" EXACT []
-@@ -257507,7 +258384,7 @@
+@@ -257507,7 +258402,7 @@
  id: GO:0043045
  name: epigenetic programming of gene expression
  namespace: biological_process
@@ -20174,7 +20247,7 @@
  synonym: "de novo DNA methylation" RELATED []
  synonym: "DNA methylation involved in embryo development" RELATED []
  synonym: "epigenetic regulation of embryonic gene expression" RELATED []
-@@ -257519,7 +258396,7 @@
+@@ -257519,7 +258414,7 @@
  id: GO:0043046
  name: obsolete DNA methylation involved in gamete generation
  namespace: biological_process
@@ -20183,7 +20256,7 @@
  comment: This term was obsoleted because it represent the same process as genomic imprinting ; GO:0071514 .
  synonym: "de novo DNA methylation" RELATED []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25313" xsd:anyURI
-@@ -257532,7 +258409,7 @@
+@@ -257532,7 +258427,7 @@
  namespace: molecular_function
  def: "Binding to single-stranded telomere-associated DNA." [GOC:jl, ISBN:0321000382]
  synonym: "telomeric ssDNA binding" EXACT [GOC:mah]
@@ -20192,7 +20265,7 @@
  is_a: GO:0098847 ! sequence-specific single stranded DNA binding
  
  [Term]
-@@ -257545,6 +258422,7 @@
+@@ -257545,6 +258440,7 @@
  synonym: "dolichyl monophosphate formation" EXACT []
  synonym: "dolichyl monophosphate synthesis" EXACT []
  xref: MetaCyc:PWY-6129
@@ -20200,7 +20273,7 @@
  is_a: GO:0008654 ! phospholipid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30675" xsd:anyURI
  
-@@ -257552,7 +258430,7 @@
+@@ -257552,7 +258448,7 @@
  id: GO:0043049
  name: otic placode formation
  namespace: biological_process
@@ -20209,7 +20282,7 @@
  is_a: GO:0060788 ! ectodermal placode formation
  relationship: part_of GO:0030916 ! otic vesicle formation
  
-@@ -257617,21 +258495,21 @@
+@@ -257617,21 +258513,21 @@
  id: GO:0043056
  name: forward locomotion
  namespace: biological_process
@@ -20234,7 +20307,7 @@
  is_a: GO:0040012 ! regulation of locomotion
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0043057 ! backward locomotion
-@@ -257641,7 +258519,7 @@
+@@ -257641,7 +258537,7 @@
  id: GO:0043059
  name: regulation of forward locomotion
  namespace: biological_process
@@ -20243,7 +20316,7 @@
  is_a: GO:0040012 ! regulation of locomotion
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0043056 ! forward locomotion
-@@ -257797,7 +258675,7 @@
+@@ -257797,7 +258693,7 @@
  id: GO:0043073
  name: germ cell nucleus
  namespace: cellular_component
@@ -20252,7 +20325,7 @@
  synonym: "germ-cell nucleus" EXACT []
  is_a: GO:0005634 ! nucleus
  
-@@ -257994,7 +258872,7 @@
+@@ -257994,7 +258890,7 @@
  name: purine nucleobase salvage
  namespace: biological_process
  def: "Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." [GOC:jl]
@@ -20261,7 +20334,7 @@
  is_a: GO:0009113 ! purine nucleobase biosynthetic process
  is_a: GO:0043101 ! purine-containing compound salvage
  
-@@ -258030,7 +258908,7 @@
+@@ -258030,7 +258926,7 @@
  name: pyrimidine nucleobase salvage
  namespace: biological_process
  def: "Any process that generates pyrimidine nucleobases, 1,3-diazine organic nitrogenous bases, from derivatives of them without de novo synthesis." [GOC:jl]
@@ -20270,7 +20343,7 @@
  is_a: GO:0008655 ! pyrimidine-containing compound salvage
  is_a: GO:0019856 ! pyrimidine nucleobase biosynthetic process
  
-@@ -258094,7 +258972,7 @@
+@@ -258094,7 +258990,7 @@
  id: GO:0043107
  name: type IV pilus-dependent motility
  namespace: biological_process
@@ -20279,7 +20352,7 @@
  synonym: "social gliding motility" NARROW []
  synonym: "TFP-dependent motility" EXACT []
  synonym: "TFP-dependent movement" EXACT []
-@@ -258107,7 +258985,7 @@
+@@ -258107,7 +259003,7 @@
  id: GO:0043108
  name: pilus retraction
  namespace: biological_process
@@ -20288,7 +20361,7 @@
  is_a: GO:0043711 ! pilus organization
  
  [Term]
-@@ -258348,7 +259226,6 @@
+@@ -258348,7 +259244,6 @@
  name: ubiquitin binding
  namespace: molecular_function
  def: "Binding to ubiquitin, a protein that when covalently bound to other cellular proteins marks them for proteolytic degradation." [GOC:ecd]
@@ -20296,7 +20369,7 @@
  xref: Reactome:R-HSA-205008 "Polyubiquitinated NRIF binds to p62 (Sequestosome)"
  xref: Reactome:R-HSA-983152 "Transfer of ubiquitin from E1 to E2"
  is_a: GO:0032182 ! ubiquitin-like protein binding
-@@ -258413,7 +259290,7 @@
+@@ -258413,7 +259308,7 @@
  synonym: "glycerol-1-phosphatase activity" BROAD [EC:3.1.3.21]
  synonym: "glycerol-3-phosphatase activity" BROAD []
  xref: MetaCyc:RXN-14965
@@ -20305,7 +20378,7 @@
  xref: RHEA:66372
  is_a: GO:0016791 ! phosphatase activity
  property_value: skos:broadMatch EC:3.1.3.21
-@@ -258468,6 +259345,7 @@
+@@ -258468,6 +259363,7 @@
  synonym: "DNA helicase IV activity" NARROW []
  xref: EC:5.6.2.3
  xref: Reactome:R-HSA-6782131 "ERCC2-facilitated RNA Pol II backtracking in TC-NER"
@@ -20313,7 +20386,7 @@
  is_a: GO:0003678 ! DNA helicase activity
  property_value: skos:exactMatch EC:5.6.2.3
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23533" xsd:anyURI
-@@ -258493,7 +259371,7 @@
+@@ -258493,7 +259389,7 @@
  id: GO:0043144
  name: sno(s)RNA processing
  namespace: biological_process
@@ -20322,7 +20395,7 @@
  subset: goslim_yeast
  is_a: GO:0006396 ! RNA processing
  is_a: GO:0016074 ! sno(s)RNA metabolic process
-@@ -258503,7 +259381,7 @@
+@@ -258503,7 +259399,7 @@
  id: GO:0043145
  name: sno(s)RNA 3'-end cleavage
  namespace: biological_process
@@ -20331,7 +20404,7 @@
  synonym: "sno(s)RNA 3' end cleavage" EXACT []
  synonym: "snoRNA 3'-end cleavage" NARROW []
  synonym: "sRNA 3'-end cleavage" NARROW []
-@@ -258514,7 +259392,7 @@
+@@ -258514,7 +259410,7 @@
  id: GO:0043149
  name: stress fiber assembly
  namespace: biological_process
@@ -20340,7 +20413,7 @@
  synonym: "actin cable assembly" RELATED [GOC:mah]
  synonym: "actin cable formation" RELATED [GOC:mah]
  synonym: "stress fibre biosynthesis" RELATED []
-@@ -258526,7 +259404,7 @@
+@@ -258526,7 +259422,7 @@
  id: GO:0043150
  name: DNA synthesis involved in double-strand break repair via homologous recombination
  namespace: biological_process
@@ -20349,7 +20422,7 @@
  synonym: "DNA synthesis during double-strand break repair via homologous recombination" RELATED [GOC:dph, GOC:tb]
  is_a: GO:0000731 ! DNA synthesis involved in DNA repair
  intersection_of: GO:0071897 ! DNA biosynthetic process
-@@ -258537,7 +259415,7 @@
+@@ -258537,7 +259433,7 @@
  id: GO:0043151
  name: obsolete DNA synthesis involved in double-strand break repair via single-strand annealing
  namespace: biological_process
@@ -20358,7 +20431,7 @@
  comment: This term was obsoleted because it is a pre-composed term that should be captured as a GO-CAM model.
  synonym: "DNA synthesis during double-strand break repair via single-strand annealing" RELATED [GOC:dph, GOC:tb]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31306" xsd:anyURI
-@@ -258573,7 +259451,6 @@
+@@ -258573,7 +259469,6 @@
  synonym: "inhibition of caspase activity" NARROW []
  synonym: "negative regulation of caspase activation" EXACT []
  synonym: "negative regulation of caspase activity" BROAD []
@@ -20366,7 +20439,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28468" xsd:anyURI
  is_obsolete: true
  
-@@ -258631,7 +259508,7 @@
+@@ -258631,7 +259526,7 @@
  id: GO:0043160
  name: acrosomal lumen
  namespace: cellular_component
@@ -20375,7 +20448,7 @@
  is_a: GO:0034774 ! secretory granule lumen
  is_a: GO:0043202 ! lysosomal lumen
  relationship: part_of GO:0001669 ! acrosomal vesicle
-@@ -258640,7 +259517,7 @@
+@@ -258640,7 +259535,7 @@
  id: GO:0043161
  name: proteasome-mediated ubiquitin-dependent protein catabolic process
  namespace: biological_process
@@ -20384,7 +20457,7 @@
  synonym: "proteasomal pathway" EXACT []
  synonym: "proteasomal processing" RELATED []
  synonym: "proteasomal ubiquitin-dependent protein breakdown" EXACT []
-@@ -258817,14 +259694,14 @@
+@@ -258817,14 +259712,14 @@
  id: GO:0043179
  name: rhythmic excitation
  namespace: biological_process
@@ -20401,7 +20474,7 @@
  is_a: GO:0060024 ! rhythmic synaptic transmission
  
  [Term]
-@@ -259056,7 +259933,7 @@
+@@ -259056,7 +259951,7 @@
  id: GO:0043207
  name: response to external biotic stimulus
  namespace: biological_process
@@ -20410,7 +20483,7 @@
  is_a: GO:0009605 ! response to external stimulus
  is_a: GO:0009607 ! response to biotic stimulus
  
-@@ -259247,8 +260124,6 @@
+@@ -259247,8 +260142,6 @@
  synonym: "anion-transporting ATPase activity" EXACT []
  synonym: "ATP-dependent anion transmembrane transporter activity" EXACT []
  synonym: "ATPase-coupled anion transmembrane transporter activity" EXACT []
@@ -20419,7 +20492,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30715" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0042626
-@@ -259257,7 +260132,7 @@
+@@ -259257,7 +260150,7 @@
  id: GO:0043226
  name: organelle
  namespace: cellular_component
@@ -20428,7 +20501,7 @@
  subset: goslim_chembl
  subset: goslim_generic
  subset: goslim_pir
-@@ -259271,7 +260146,7 @@
+@@ -259271,7 +260164,7 @@
  id: GO:0043227
  name: membrane-bounded organelle
  namespace: cellular_component
@@ -20437,7 +20510,7 @@
  subset: gocheck_do_not_annotate
  synonym: "membrane-enclosed organelle" EXACT []
  xref: NIF_Subcellular:sao414196390
-@@ -259285,7 +260160,7 @@
+@@ -259285,7 +260178,7 @@
  id: GO:0043228
  name: membraneless organelle
  namespace: cellular_component
@@ -20446,7 +20519,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_mouse
  synonym: "biological condensate" RELATED []
-@@ -259302,7 +260177,7 @@
+@@ -259302,7 +260195,7 @@
  id: GO:0043229
  name: intracellular organelle
  namespace: cellular_component
@@ -20455,7 +20528,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_pir
  is_a: GO:0043226 ! organelle
-@@ -259326,7 +260201,7 @@
+@@ -259326,7 +260219,7 @@
  id: GO:0043231
  name: intracellular membrane-bounded organelle
  namespace: cellular_component
@@ -20464,7 +20537,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_pir
  synonym: "intracellular membrane-enclosed organelle" EXACT []
-@@ -259339,7 +260214,7 @@
+@@ -259339,7 +260232,7 @@
  id: GO:0043232
  name: intracellular membraneless organelle
  namespace: cellular_component
@@ -20473,7 +20546,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_pir
  synonym: "intracellular non-membrane-bounded organelle" EXACT []
-@@ -259363,11 +260238,13 @@
+@@ -259363,11 +260256,13 @@
  
  [Term]
  id: GO:0043235
@@ -20489,7 +20562,7 @@
  
  [Term]
  id: GO:0043236
-@@ -259385,7 +260262,7 @@
+@@ -259385,7 +260280,7 @@
  id: GO:0043237
  name: laminin-1 binding
  namespace: molecular_function
@@ -20498,7 +20571,7 @@
  synonym: "laminin-111 binding" EXACT [GOC:dph, PMID:15979864]
  is_a: GO:0043236 ! laminin binding
  
-@@ -259472,7 +260349,7 @@
+@@ -259472,7 +260367,7 @@
  id: GO:0043248
  name: proteasome assembly
  namespace: biological_process
@@ -20507,7 +20580,7 @@
  synonym: "26S proteasome assembly" NARROW []
  synonym: "proteasome complex assembly" EXACT []
  synonym: "proteasome maturation" EXACT []
-@@ -259493,7 +260370,7 @@
+@@ -259493,7 +260388,7 @@
  id: GO:0043250
  name: obsolete sodium-dependent organic anion transmembrane transporter activity
  namespace: molecular_function
@@ -20516,7 +20589,7 @@
  comment: The reason for obsoletion is that this term was an unnecessary and confusing grouping term.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30715" xsd:anyURI
  is_obsolete: true
-@@ -259503,15 +260380,15 @@
+@@ -259503,15 +260398,15 @@
  id: GO:0043251
  name: sodium-dependent organic anion transport
  namespace: biological_process
@@ -20535,7 +20608,7 @@
  is_a: GO:0015711 ! organic anion transport
  
  [Term]
-@@ -259559,9 +260436,9 @@
+@@ -259559,9 +260454,9 @@
  subset: goslim_pir
  synonym: "laminin complex" BROAD []
  is_a: GO:0032991 ! protein-containing complex
@@ -20546,7 +20619,7 @@
  
  [Term]
  id: GO:0043257
-@@ -259895,7 +260772,6 @@
+@@ -259895,7 +260790,6 @@
  comment: The reason for obsoletion is that this term represents a GO-CAM model.
  synonym: "regulation of caspase activation" NARROW []
  synonym: "regulation of caspase activity" BROAD []
@@ -20554,7 +20627,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28468" xsd:anyURI
  is_obsolete: true
  
-@@ -259903,7 +260779,7 @@
+@@ -259903,7 +260797,7 @@
  id: GO:0043282
  name: chordate pharyngeal muscle development
  namespace: biological_process
@@ -20563,7 +20636,7 @@
  is_a: GO:0007517 ! muscle organ development
  relationship: part_of GO:0160093 ! chordate pharynx development
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18285" xsd:anyURI
-@@ -259979,7 +260855,7 @@
+@@ -259979,7 +260873,7 @@
  id: GO:0043292
  name: contractile muscle fiber
  namespace: cellular_component
@@ -20572,7 +20645,7 @@
  synonym: "contractile fibre" EXACT []
  is_a: GO:0043232 ! intracellular membraneless organelle
  is_a: GO:0099512 ! supramolecular fiber
-@@ -260020,7 +260896,7 @@
+@@ -260020,7 +260914,7 @@
  id: GO:0043296
  name: apical junction complex
  namespace: cellular_component
@@ -20581,7 +20654,7 @@
  synonym: "apical cell junction complex" EXACT [GOC:mah]
  synonym: "apical junction" EXACT []
  is_a: GO:0005911 ! cell-cell junction
-@@ -260029,7 +260905,7 @@
+@@ -260029,7 +260923,7 @@
  id: GO:0043297
  name: apical junction assembly
  namespace: biological_process
@@ -20590,7 +20663,7 @@
  synonym: "apical junction complex assembly" EXACT [GOC:mah]
  is_a: GO:0007043 ! cell-cell junction assembly
  
-@@ -260448,14 +261324,14 @@
+@@ -260448,14 +261342,14 @@
  id: GO:0043325
  name: phosphatidylinositol-3,4-bisphosphate binding
  namespace: molecular_function
@@ -20607,7 +20680,7 @@
  is_a: GO:0006935 ! chemotaxis
  is_a: GO:0051593 ! response to folic acid
  
-@@ -260463,7 +261339,7 @@
+@@ -260463,7 +261357,7 @@
  id: GO:0043327
  name: chemotaxis to cAMP
  namespace: biological_process
@@ -20616,7 +20689,7 @@
  synonym: "chemotaxis to 3',5' cAMP" EXACT []
  synonym: "chemotaxis to 3',5'-cAMP" EXACT []
  synonym: "chemotaxis to adenosine 3',5'-cyclophosphate" EXACT []
-@@ -260513,7 +261389,7 @@
+@@ -260513,7 +261407,7 @@
  id: GO:0043330
  name: response to exogenous dsRNA
  namespace: biological_process
@@ -20625,7 +20698,7 @@
  comment: Note that the presence of exogenous double-stranded RNA is usually indicative of a viral infection. Consider also annotating to 'response to virus ; GO:0009615'.
  synonym: "response to exogenous double-stranded RNA" EXACT []
  synonym: "response to viral dsRNA" NARROW []
-@@ -260618,7 +261494,7 @@
+@@ -260618,7 +261512,7 @@
  id: GO:0043353
  name: enucleate erythrocyte differentiation
  namespace: biological_process
@@ -20634,7 +20707,7 @@
  synonym: "enucleate RBC differentiation" EXACT [CL:0000232]
  synonym: "enucleate red blood cell differentiation" EXACT [CL:0000232]
  is_a: GO:0030218 ! erythrocyte differentiation
-@@ -260627,7 +261503,7 @@
+@@ -260627,7 +261521,7 @@
  id: GO:0043354
  name: enucleate erythrocyte maturation
  namespace: biological_process
@@ -20643,7 +20716,7 @@
  synonym: "enucleate RBC maturation" EXACT [CL:0000232]
  synonym: "enucleate red blood cell maturation" EXACT [CL:0000232]
  is_a: GO:0043249 ! erythrocyte maturation
-@@ -261070,7 +261946,7 @@
+@@ -261070,7 +261964,7 @@
  id: GO:0043393
  name: regulation of protein binding
  namespace: biological_process
@@ -20652,7 +20725,7 @@
  subset: gocheck_do_not_annotate
  is_a: GO:0051098 ! regulation of binding
  intersection_of: GO:0065007 ! biological regulation
-@@ -261097,7 +261973,7 @@
+@@ -261097,7 +261991,7 @@
  id: GO:0043396
  name: corticotropin-releasing hormone secretion
  namespace: biological_process
@@ -20661,7 +20734,7 @@
  synonym: "corticotropin-releasing factor secretion" EXACT []
  synonym: "CRF secretion" EXACT []
  synonym: "CRH secretion" EXACT []
-@@ -261107,7 +261983,7 @@
+@@ -261107,7 +262001,7 @@
  id: GO:0043397
  name: regulation of corticotropin-releasing hormone secretion
  namespace: biological_process
@@ -20670,7 +20743,7 @@
  synonym: "regulation of corticotropin-releasing factor secretion" EXACT []
  synonym: "regulation of CRF secretion" EXACT []
  synonym: "regulation of CRH secretion" EXACT []
-@@ -261120,7 +261996,7 @@
+@@ -261120,7 +262014,7 @@
  id: GO:0043398
  name: HLH domain binding
  namespace: molecular_function
@@ -20679,7 +20752,7 @@
  is_a: GO:0019904 ! protein domain specific binding
  
  [Term]
-@@ -261189,7 +262065,7 @@
+@@ -261189,7 +262083,7 @@
  id: GO:0043405
  name: regulation of MAP kinase activity
  namespace: biological_process
@@ -20688,7 +20761,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "Regulation of MAPK activity" EXACT [GOC:dph]
  synonym: "regulation of mitogen activated protein kinase activity" EXACT []
-@@ -261203,7 +262079,7 @@
+@@ -261203,7 +262097,7 @@
  id: GO:0043406
  name: positive regulation of MAP kinase activity
  namespace: biological_process
@@ -20697,7 +20770,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "positive regulation of mitogen activated protein kinase activity" EXACT []
  synonym: "positive regulation of mitogen-activated protein kinase activity" EXACT []
-@@ -261222,7 +262098,7 @@
+@@ -261222,7 +262116,7 @@
  id: GO:0043407
  name: negative regulation of MAP kinase activity
  namespace: biological_process
@@ -20706,7 +20779,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "down regulation of MAPK activity" EXACT []
  synonym: "down-regulation of MAPK activity" EXACT []
-@@ -261241,7 +262117,7 @@
+@@ -261241,7 +262135,7 @@
  id: GO:0043408
  name: regulation of MAPK cascade
  namespace: biological_process
@@ -20715,7 +20788,7 @@
  synonym: "regulation of MAP kinase cascade" EXACT [GOC:signaling]
  synonym: "regulation of MAP kinase kinase kinase cascade" EXACT []
  synonym: "regulation of MAPKKK cascade" EXACT [GOC:signaling]
-@@ -261258,7 +262134,7 @@
+@@ -261258,7 +262152,7 @@
  id: GO:0043409
  name: negative regulation of MAPK cascade
  namespace: biological_process
@@ -20724,7 +20797,7 @@
  synonym: "down regulation of MAPK cascade" EXACT [GOC:signaling]
  synonym: "down regulation of MAPKKK cascade" EXACT []
  synonym: "down-regulation of MAPK cascade" EXACT [GOC:signaling]
-@@ -261284,7 +262160,7 @@
+@@ -261284,7 +262178,7 @@
  id: GO:0043410
  name: positive regulation of MAPK cascade
  namespace: biological_process
@@ -20733,7 +20806,7 @@
  synonym: "activation of MAPK cascade" NARROW [GOC:signaling]
  synonym: "activation of MAPKKK cascade" NARROW []
  synonym: "positive regulation of MAP kinase cascade" EXACT [GOC:signaling]
-@@ -261310,7 +262186,7 @@
+@@ -261310,7 +262204,7 @@
  id: GO:0043411
  name: obsolete myopalladin binding
  namespace: molecular_function
@@ -20742,7 +20815,7 @@
  comment: This term was made obsolete because it represents binding to an individual protein.
  synonym: "myopalladin binding" EXACT []
  is_obsolete: true
-@@ -261320,7 +262196,7 @@
+@@ -261320,7 +262214,7 @@
  id: GO:0043412
  name: macromolecule modification
  namespace: biological_process
@@ -20751,7 +20824,7 @@
  subset: gocheck_obsoletion_candidate
  subset: goslim_pir
  is_a: GO:0043170 ! macromolecule metabolic process
-@@ -261340,7 +262216,7 @@
+@@ -261340,7 +262234,7 @@
  id: GO:0043414
  name: macromolecule methylation
  namespace: biological_process
@@ -20760,7 +20833,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0032259 ! methylation
  is_a: GO:0043412 ! macromolecule modification
-@@ -261451,10 +262327,18 @@
+@@ -261451,10 +262345,18 @@
  synonym: "ortho-aminobenzoic acid catabolic process" NARROW []
  synonym: "ortho-aminobenzoic acid catabolism" NARROW []
  xref: MetaCyc:2AMINOBENZDEG-PWY
@@ -20779,7 +20852,7 @@
  
  [Term]
  id: GO:0043422
-@@ -261910,19 +262794,24 @@
+@@ -261910,19 +262812,24 @@
  
  [Term]
  id: GO:0043464
@@ -20808,7 +20881,7 @@
  
  [Term]
  id: GO:0043465
-@@ -261940,7 +262829,7 @@
+@@ -261940,7 +262847,7 @@
  namespace: biological_process
  def: "OBSOLETE. The anaerobic conversion of pyrimidine nucleobases, yielding energy in the form of ATP." [GOC:jl]
  comment: The reason for obsoletion is that this term is not clearly defined.
@@ -20817,7 +20890,7 @@
  synonym: "pyrimidine fermentation" RELATED []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29511" xsd:anyURI
  is_obsolete: true
-@@ -262170,7 +263059,7 @@
+@@ -262170,7 +263077,7 @@
  id: GO:0043489
  name: RNA stabilization
  namespace: biological_process
@@ -20826,7 +20899,7 @@
  is_a: GO:0043487 ! regulation of RNA stability
  is_a: GO:1902369 ! negative regulation of RNA catabolic process
  
-@@ -262186,7 +263075,7 @@
+@@ -262186,7 +263093,7 @@
  xref: Reactome:R-HSA-9856872 "Malate-aspartate shuttle"
  xref: Wikipedia:Malate-aspartate_shuttle
  is_a: GO:0019674 ! NAD+ metabolic process
@@ -20835,7 +20908,7 @@
  relationship: has_part GO:0030060 ! L-malate dehydrogenase (NAD+) activity
  relationship: has_part GO:1990542 ! mitochondrial transmembrane transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28982" xsd:anyURI
-@@ -262244,11 +263133,13 @@
+@@ -262244,11 +263151,13 @@
  id: GO:0043495
  name: protein-membrane adaptor activity
  namespace: molecular_function
@@ -20850,7 +20923,7 @@
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19090" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24964" xsd:anyURI
-@@ -262321,7 +263212,7 @@
+@@ -262321,7 +263230,7 @@
  id: GO:0043502
  name: regulation of muscle adaptation
  namespace: biological_process
@@ -20859,7 +20932,7 @@
  synonym: "regulation of muscle plasticity" RELATED []
  is_a: GO:0048583 ! regulation of response to stimulus
  is_a: GO:0090257 ! regulation of muscle system process
-@@ -262355,7 +263246,7 @@
+@@ -262355,7 +263264,7 @@
  id: GO:0043505
  name: CENP-A containing nucleosome
  namespace: cellular_component
@@ -20868,7 +20941,7 @@
  synonym: "CenH3 containing nucleosome" EXACT []
  synonym: "CENP-S-T-W-X" EXACT [GOC:vw, PMID:22304917]
  synonym: "centromere specific nucleosome" RELATED []
-@@ -262417,7 +263308,7 @@
+@@ -262417,7 +263326,7 @@
  name: activin A complex
  namespace: cellular_component
  alt_id: GO:0048181
@@ -20877,7 +20950,7 @@
  comment: Note that the actions of the activin complex are the opposite of those of the inhibin complex, which is a dimer of an inhibin beta-A or inhibin beta-B subunit and an inhibin alpha subunit. See also the cellular component term 'inhibin complex ; GO:0043511'.
  is_a: GO:0048180 ! activin complex
  
-@@ -262426,7 +263317,7 @@
+@@ -262426,7 +263335,7 @@
  name: activin B complex
  namespace: cellular_component
  alt_id: GO:0048182
@@ -20886,7 +20959,7 @@
  comment: Note that the actions of the activin complex are the opposite of those of the inhibin complex, which is a dimer of an inhibin beta-A or inhibin beta-B subunit and a inhibin alpha subunit. See 'inhibin complex ; GO:0043511'.
  is_a: GO:0048180 ! activin complex
  
-@@ -262573,7 +263464,7 @@
+@@ -262573,7 +263482,7 @@
  id: GO:0043523
  name: regulation of neuron apoptotic process
  namespace: biological_process
@@ -20895,7 +20968,7 @@
  synonym: "regulation of apoptosis of neuronal cells" EXACT []
  synonym: "regulation of apoptosis of neurons" EXACT []
  synonym: "regulation of neuron apoptosis" NARROW []
-@@ -262590,7 +263481,7 @@
+@@ -262590,7 +263499,7 @@
  id: GO:0043524
  name: negative regulation of neuron apoptotic process
  namespace: biological_process
@@ -20904,7 +20977,7 @@
  synonym: "down regulation of neuron apoptosis" EXACT []
  synonym: "down-regulation of neuron apoptosis" EXACT []
  synonym: "downregulation of neuron apoptosis" EXACT []
-@@ -262608,7 +263499,7 @@
+@@ -262608,7 +263517,7 @@
  id: GO:0043525
  name: positive regulation of neuron apoptotic process
  namespace: biological_process
@@ -20913,7 +20986,7 @@
  synonym: "activation of neuron apoptosis" NARROW []
  synonym: "positive regulation of neuron apoptosis" NARROW []
  synonym: "positive regulation of programmed cell death, neurons" EXACT []
-@@ -262690,7 +263581,7 @@
+@@ -262690,7 +263599,7 @@
  id: GO:0043533
  name: inositol 1,3,4,5 tetrakisphosphate binding
  namespace: molecular_function
@@ -20922,7 +20995,7 @@
  synonym: "InsP4 binding" EXACT []
  synonym: "IP4 binding" EXACT []
  is_a: GO:0043168 ! anion binding
-@@ -262707,7 +263598,7 @@
+@@ -262707,7 +263616,7 @@
  id: GO:0043535
  name: regulation of blood vessel endothelial cell migration
  namespace: biological_process
@@ -20931,7 +21004,7 @@
  is_a: GO:0010594 ! regulation of endothelial cell migration
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0043534 ! blood vessel endothelial cell migration
-@@ -262717,7 +263608,7 @@
+@@ -262717,7 +263626,7 @@
  id: GO:0043536
  name: positive regulation of blood vessel endothelial cell migration
  namespace: biological_process
@@ -20940,7 +21013,7 @@
  synonym: "activation of blood vessel endothelial cell migration" NARROW []
  synonym: "stimulation of blood vessel endothelial cell migration" NARROW []
  synonym: "up regulation of blood vessel endothelial cell migration" EXACT []
-@@ -262733,7 +263624,7 @@
+@@ -262733,7 +263642,7 @@
  id: GO:0043537
  name: negative regulation of blood vessel endothelial cell migration
  namespace: biological_process
@@ -20949,7 +21022,7 @@
  synonym: "down regulation of blood vessel endothelial cell migration" EXACT []
  synonym: "down-regulation of blood vessel endothelial cell migration" EXACT []
  synonym: "downregulation of blood vessel endothelial cell migration" EXACT []
-@@ -262748,7 +263639,7 @@
+@@ -262748,7 +263657,7 @@
  id: GO:0043538
  name: obsolete regulation of actin phosphorylation
  namespace: biological_process
@@ -20958,7 +21031,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28278" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28482" xsd:anyURI
-@@ -262758,7 +263649,7 @@
+@@ -262758,7 +263667,7 @@
  id: GO:0043539
  name: protein serine/threonine kinase activator activity
  namespace: molecular_function
@@ -20967,7 +21040,7 @@
  synonym: "protein ser/thr kinase activator activity" EXACT []
  is_a: GO:0030295 ! protein kinase activator activity
  relationship: positively_regulates GO:0004674 ! protein serine/threonine kinase activity
-@@ -262791,7 +263682,7 @@
+@@ -262791,7 +263700,7 @@
  id: GO:0043542
  name: endothelial cell migration
  namespace: biological_process
@@ -20976,7 +21049,7 @@
  is_a: GO:0016477 ! cell migration
  
  [Term]
-@@ -262800,7 +263691,6 @@
+@@ -262800,7 +263709,6 @@
  namespace: biological_process
  def: "The addition of an acyl group, any group or radical of the form RCO- where R is an organic group, to a protein amino acid." [GOC:jl]
  subset: gocheck_obsoletion_candidate
@@ -20984,7 +21057,7 @@
  synonym: "protein amino acid acylation" EXACT [GOC:bf]
  is_a: GO:0036211 ! protein modification process
  
-@@ -262808,7 +263698,7 @@
+@@ -262808,7 +263716,7 @@
  id: GO:0043544
  name: lipoamide binding
  namespace: molecular_function
@@ -20993,7 +21066,7 @@
  is_a: GO:1901681 ! sulfur compound binding
  
  [Term]
-@@ -263331,7 +264221,7 @@
+@@ -263331,7 +264239,7 @@
  name: endospore external encapsulating structure
  namespace: cellular_component
  alt_id: GO:0055030
@@ -21002,7 +21075,7 @@
  subset: goslim_pir
  synonym: "endospore wall" EXACT [GOC:mah]
  synonym: "peptidoglycan-based spore wall" EXACT [GOC:mtg_sensu]
-@@ -263585,7 +264475,7 @@
+@@ -263585,7 +264493,7 @@
  id: GO:0043615
  name: astrocyte cell migration
  namespace: biological_process
@@ -21011,7 +21084,7 @@
  synonym: "astrocyte migration" EXACT []
  synonym: "astrocytic glial cell migration" EXACT []
  is_a: GO:0008347 ! glial cell migration
-@@ -264229,10 +265119,6 @@
+@@ -264229,10 +265137,6 @@
  synonym: "Cu2+-exporting ATPase activity" RELATED [EC:7.2.2.9]
  xref: EC:7.2.2.9
  xref: MetaCyc:TRANS-RXN-178
@@ -21022,7 +21095,7 @@
  xref: RHEA:10376
  is_a: GO:0005375 ! copper ion transmembrane transporter activity
  is_a: GO:0015662 ! P-type ion transporter activity
-@@ -264717,10 +265603,12 @@
+@@ -264717,10 +265621,12 @@
  
  [Term]
  id: GO:0043730
@@ -21038,7 +21111,7 @@
  
  [Term]
  id: GO:0043731
-@@ -265011,12 +265899,16 @@
+@@ -265011,12 +265917,16 @@
  xref: EC:2.3.1.168
  xref: MetaCyc:2.3.1.168-RXN
  xref: RHEA:18865
@@ -21055,7 +21128,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17835" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29951" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30031" xsd:anyURI
-@@ -265088,7 +265980,7 @@
+@@ -265088,7 +265998,7 @@
  xref: EC:6.2.1.13
  xref: MetaCyc:ACETATE--COA-LIGASE-ADP-FORMING-RXN
  xref: RHEA:15081
@@ -21064,7 +21137,7 @@
  property_value: skos:exactMatch EC:6.2.1.13
  property_value: skos:exactMatch RHEA:15081
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -265111,12 +266003,16 @@
+@@ -265111,12 +266021,16 @@
  
  [Term]
  id: GO:0043760
@@ -21084,7 +21157,7 @@
  
  [Term]
  id: GO:0043761
-@@ -265558,7 +266454,7 @@
+@@ -265558,7 +266472,7 @@
  id: GO:0043799
  name: glycine oxidase activity
  namespace: molecular_function
@@ -21093,7 +21166,7 @@
  synonym: "glycine:oxygen oxidoreductase (deaminating)" EXACT []
  xref: EC:1.4.3.19
  xref: MetaCyc:1.4.3.19-RXN
-@@ -265948,9 +266844,9 @@
+@@ -265948,9 +266862,9 @@
  
  [Term]
  id: GO:0043825
@@ -21105,7 +21178,7 @@
  synonym: "2-N-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase activity" RELATED [EC:2.6.1.81]
  synonym: "AstC" RELATED []
  synonym: "N(2)-succinylornithine 5-aminotransferase activity" RELATED [EC:2.6.1.81]
-@@ -265960,6 +266856,7 @@
+@@ -265960,6 +266874,7 @@
  synonym: "succinyl ornithine transaminase activity" EXACT []
  synonym: "succinyl-ornithine transaminase activity" RELATED [EC:2.6.1.81]
  synonym: "succinylornithine aminotransferase activity" BROAD [EC:2.6.1.81]
@@ -21113,7 +21186,7 @@
  xref: EC:2.6.1.81
  xref: KEGG_REACTION:R04217
  xref: MetaCyc:SUCCORNTRANSAM-RXN
-@@ -265968,6 +266865,7 @@
+@@ -265968,6 +266883,7 @@
  property_value: skos:exactMatch EC:2.6.1.81
  property_value: skos:exactMatch RHEA:16953
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -21121,7 +21194,7 @@
  
  [Term]
  id: GO:0043826
-@@ -266018,7 +266916,7 @@
+@@ -266018,7 +266934,7 @@
  id: GO:0043829
  name: tRNA-specific adenosine-37 deaminase activity
  namespace: molecular_function
@@ -21130,7 +21203,7 @@
  synonym: "TAD1" RELATED []
  synonym: "tRNA(Ala)-A37 deaminase activity" EXACT []
  synonym: "tRNA-specific adenosine deaminase 1" EXACT []
-@@ -266314,7 +267212,7 @@
+@@ -266314,7 +267230,7 @@
  id: GO:0043852
  name: monomethylamine methyltransferase activity
  namespace: molecular_function
@@ -21139,7 +21212,7 @@
  comment: This function is the first step in the pathway of methanogenesis from monomethylamine.
  synonym: "MMAMT" RELATED []
  synonym: "monomethylamine:corrinoid methyltransferase activity" EXACT []
-@@ -266644,7 +267542,7 @@
+@@ -266644,7 +267560,7 @@
  id: GO:0043877
  name: galactosamine-6-phosphate isomerase activity
  namespace: molecular_function
@@ -21148,7 +21221,7 @@
  comment: This function is part of the pathway of N-acetyl-galactosamine and galactosamine utilization.
  synonym: "AgaI" RELATED []
  synonym: "galactosamine-6-phosphate deaminase activity" EXACT []
-@@ -267139,11 +268037,15 @@
+@@ -267139,11 +268055,15 @@
  
  [Term]
  id: GO:0043911
@@ -21167,7 +21240,7 @@
  
  [Term]
  id: GO:0043912
-@@ -267168,21 +268070,27 @@
+@@ -267168,21 +268088,27 @@
  
  [Term]
  id: GO:0043914
@@ -21198,7 +21271,7 @@
  
  [Term]
  id: GO:0043915
-@@ -267648,7 +268556,6 @@
+@@ -267648,7 +268574,6 @@
  xref: EC:6.2.1.36
  xref: RHEA:26534
  is_a: GO:0016405 ! CoA-ligase activity
@@ -21206,7 +21279,7 @@
  property_value: skos:exactMatch EC:6.2.1.36
  property_value: skos:exactMatch RHEA:26534
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -267728,10 +268635,12 @@
+@@ -267728,10 +268653,12 @@
  
  [Term]
  id: GO:0043960
@@ -21222,7 +21295,7 @@
  
  [Term]
  id: GO:0043961
-@@ -268249,6 +269158,8 @@
+@@ -268249,6 +269176,8 @@
  synonym: "regulation by symbiont of host system process" NARROW []
  xref: Reactome:R-HSA-9635644 "Inhibition of membrane repair"
  xref: Reactome:R-HSA-9636667 "Manipulation of host energy metabolism"
@@ -21231,7 +21304,7 @@
  is_a: GO:0035821 ! modulation of process of another organism
  is_a: GO:0051701 ! biological process involved in interaction with host
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18719" xsd:anyURI
-@@ -268654,7 +269565,7 @@
+@@ -268654,7 +269583,7 @@
  id: GO:0044038
  name: cell wall macromolecule biosynthetic process
  namespace: biological_process
@@ -21240,7 +21313,7 @@
  synonym: "cell wall macromolecule anabolism" EXACT [GOC:mah]
  synonym: "cell wall macromolecule biosynthesis" EXACT [GOC:mah]
  synonym: "cell wall macromolecule biosynthetic process at cellular level" EXACT [GOC:mah]
-@@ -270092,6 +271003,7 @@
+@@ -270092,6 +271021,7 @@
  name: protein folding chaperone
  namespace: molecular_function
  def: "Binding to a protein or a protein-containing complex to assist the protein folding process." [GOC:mtg_cambridge_2009]
@@ -21248,7 +21321,7 @@
  subset: goslim_chembl
  subset: goslim_drosophila
  subset: goslim_generic
-@@ -270105,6 +271017,7 @@
+@@ -270105,6 +271035,7 @@
  is_a: GO:0003674 ! molecular_function
  relationship: has_part GO:0051082 ! unfolded protein binding
  relationship: part_of GO:0006457 ! protein folding
@@ -21256,7 +21329,7 @@
  created_by: jl
  creation_date: 2009-09-25T11:33:48Z
  
-@@ -270628,11 +271541,10 @@
+@@ -270628,11 +271559,10 @@
  id: GO:0044237
  name: obsolete cellular metabolic process
  namespace: biological_process
@@ -21269,7 +21342,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29021" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0008152
-@@ -270641,13 +271553,14 @@
+@@ -270641,13 +271571,14 @@
  id: GO:0044238
  name: primary metabolic process
  namespace: biological_process
@@ -21285,7 +21358,7 @@
  xref: Wikipedia:Primary_metabolite
  is_a: GO:0008152 ! metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26424" xsd:anyURI
-@@ -270668,7 +271581,7 @@
+@@ -270668,7 +271599,7 @@
  id: GO:0044241
  name: lipid digestion
  namespace: biological_process
@@ -21294,7 +21367,7 @@
  xref: Reactome:R-HSA-192456 "Digestion of dietary lipid"
  is_a: GO:0007586 ! digestion
  
-@@ -270690,7 +271603,7 @@
+@@ -270690,7 +271621,7 @@
  id: GO:0044245
  name: polysaccharide digestion
  namespace: biological_process
@@ -21303,7 +21376,7 @@
  xref: Reactome:R-HSA-189085 "Digestion of dietary carbohydrate"
  is_a: GO:0007586 ! digestion
  
-@@ -270775,7 +271688,7 @@
+@@ -270775,7 +271706,7 @@
  id: GO:0044256
  name: protein digestion
  namespace: biological_process
@@ -21312,7 +21385,7 @@
  is_a: GO:0007586 ! digestion
  
  [Term]
-@@ -270953,11 +271866,13 @@
+@@ -270953,11 +271884,13 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving small molecules, any low molecular weight, monomeric, non-encoded molecule." [GOC:curators, GOC:pde, GOC:vw]
  comment: Small molecules in GO include monosaccharides but exclude disaccharides and polysaccharides.
@@ -21326,7 +21399,7 @@
  created_by: jl
  creation_date: 2010-01-26T12:05:20Z
  
-@@ -270967,9 +271882,11 @@
+@@ -270967,9 +271900,11 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of small molecules, any low molecular weight, monomeric, non-encoded molecule." [GOC:curators, GOC:vw]
  comment: Small molecules in GO include monosaccharides but exclude disaccharides and polysaccharides.
@@ -21338,7 +21411,7 @@
  created_by: jl
  creation_date: 2010-01-26T12:06:10Z
  
-@@ -270979,11 +271896,13 @@
+@@ -270979,11 +271914,13 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of small molecules, any low molecular weight, monomeric, non-encoded molecule." [GOC:curators, GOC:pde, GOC:vw]
  comment: Small molecules in GO include monosaccharides but exclude disaccharides and polysaccharides.
@@ -21352,7 +21425,7 @@
  created_by: jl
  creation_date: 2010-01-26T12:06:49Z
  
-@@ -271122,7 +272041,7 @@
+@@ -271122,7 +272059,7 @@
  id: GO:0044297
  name: cell body
  namespace: cellular_component
@@ -21361,7 +21434,7 @@
  comment: Note that 'cell body' and 'cell soma' are not used in the literature for cells that lack projections, nor for some cells (e.g. yeast with mating projections) that do have projections.
  synonym: "cell soma" EXACT []
  xref: FBbt:00005107
-@@ -272284,6 +273203,7 @@
+@@ -272284,6 +273221,7 @@
  synonym: "symbiotic interaction between organisms" RELATED []
  synonym: "symbiotic interaction between species" RELATED []
  synonym: "symbiotic process" RELATED []
@@ -21369,7 +21442,7 @@
  is_a: GO:0044419 ! biological process involved in interspecies interaction between organisms
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14807" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20191" xsd:anyURI
-@@ -272309,6 +273229,7 @@
+@@ -272309,6 +273247,7 @@
  synonym: "adhesion to other organism during symbiotic interaction" RELATED [GOC:dph]
  synonym: "adhesion to other organism involved in symbiotic interaction" EXACT []
  synonym: "host adhesion" NARROW []
@@ -21377,7 +21450,7 @@
  is_a: GO:0051701 ! biological process involved in interaction with host
  
  [Term]
-@@ -273876,7 +274797,7 @@
+@@ -273876,7 +274815,7 @@
  id: GO:0044540
  name: L-cystine L-cysteine-lyase (deaminating) activity
  namespace: molecular_function
@@ -21386,7 +21459,7 @@
  xref: EC:4.4.1.35
  xref: KEGG_REACTION:R02408
  xref: RHEA:24927
-@@ -277099,6 +278020,7 @@
+@@ -277099,6 +278038,7 @@
  synonym: "iron acquisition" BROAD []
  synonym: "iron acquisition by symbiont from host" EXACT []
  synonym: "iron acquisition by symbiont from host heme" NARROW []
@@ -21394,7 +21467,7 @@
  is_a: GO:0044002 ! acquisition of nutrients from host
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17896" xsd:anyURI
  created_by: jl
-@@ -277652,7 +278574,7 @@
+@@ -277652,7 +278592,7 @@
  id: GO:0045019
  name: negative regulation of nitric oxide biosynthetic process
  namespace: biological_process
@@ -21403,7 +21476,7 @@
  synonym: "down regulation of nitric oxide biosynthetic process" EXACT []
  synonym: "down-regulation of nitric oxide biosynthetic process" EXACT []
  synonym: "downregulation of nitric oxide biosynthetic process" EXACT []
-@@ -277728,14 +278650,16 @@
+@@ -277728,14 +278668,16 @@
  
  [Term]
  id: GO:0045026
@@ -21424,7 +21497,7 @@
  
  [Term]
  id: GO:0045027
-@@ -278125,6 +279049,7 @@
+@@ -278125,6 +279067,7 @@
  def: "The process in which a relatively unspecialized T cell acquires the specialized features of a T-helper 1 (Th1) cell. A Th1 cell is a CD4-positive, alpha-beta T cell that has the phenotype T-bet-positive and produces interferon-gamma." [CL:0000545, GOC:ebc]
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "T-helper 1 cell development" RELATED [GOC:add]
@@ -21432,7 +21505,7 @@
  is_a: GO:0002287 ! alpha-beta T cell activation involved in immune response
  is_a: GO:0002292 ! T cell differentiation involved in immune response
  is_a: GO:0042093 ! T-helper cell differentiation
-@@ -278222,7 +279147,7 @@
+@@ -278222,7 +279165,7 @@
  id: GO:0045071
  name: negative regulation of viral genome replication
  namespace: biological_process
@@ -21441,7 +21514,7 @@
  synonym: "down regulation of viral genome replication" EXACT []
  synonym: "down-regulation of viral genome replication" EXACT []
  synonym: "downregulation of viral genome replication" EXACT []
-@@ -278281,7 +279206,7 @@
+@@ -278281,7 +279224,7 @@
  id: GO:0045091
  name: regulation of single stranded viral RNA replication via double stranded DNA intermediate
  namespace: biological_process
@@ -21450,7 +21523,7 @@
  synonym: "regulation of retroviral genome replication" EXACT [GOC:bf, GOC:jl]
  is_a: GO:0045069 ! regulation of viral genome replication
  is_a: GO:2001141 ! regulation of RNA biosynthetic process
-@@ -278479,7 +279404,7 @@
+@@ -278479,7 +279422,7 @@
  id: GO:0045112
  name: integrin biosynthetic process
  namespace: biological_process
@@ -21459,7 +21532,7 @@
  synonym: "integrin anabolism" EXACT []
  synonym: "integrin biosynthesis" EXACT []
  synonym: "integrin formation" EXACT []
-@@ -278491,7 +279416,7 @@
+@@ -278491,7 +279434,7 @@
  id: GO:0045113
  name: regulation of integrin biosynthetic process
  namespace: biological_process
@@ -21468,7 +21541,7 @@
  synonym: "regulation of integrin anabolism" EXACT []
  synonym: "regulation of integrin biosynthesis" EXACT []
  synonym: "regulation of integrin formation" EXACT []
-@@ -278505,7 +279430,7 @@
+@@ -278505,7 +279448,7 @@
  id: GO:0045114
  name: beta 2 integrin biosynthetic process
  namespace: biological_process
@@ -21477,7 +21550,7 @@
  synonym: "beta 2 integrin anabolism" EXACT []
  synonym: "beta 2 integrin biosynthesis" EXACT []
  synonym: "beta 2 integrin formation" EXACT []
-@@ -278516,7 +279441,7 @@
+@@ -278516,7 +279459,7 @@
  id: GO:0045115
  name: regulation of beta 2 integrin biosynthetic process
  namespace: biological_process
@@ -21486,7 +21559,7 @@
  synonym: "regulation of beta 2 integrin anabolism" EXACT []
  synonym: "regulation of beta 2 integrin biosynthesis" EXACT []
  synonym: "regulation of beta 2 integrin formation" EXACT []
-@@ -278540,7 +279465,7 @@
+@@ -278540,7 +279483,7 @@
  id: GO:0045117
  name: azole transmembrane transport
  namespace: biological_process
@@ -21495,7 +21568,7 @@
  synonym: "azole transport" RELATED []
  is_a: GO:0055085 ! transmembrane transport
  is_a: GO:0071705 ! nitrogen compound transport
-@@ -278627,6 +279552,7 @@
+@@ -278627,6 +279570,7 @@
  name: bioactive lipid receptor activity
  namespace: molecular_function
  def: "Combining with a bioactive lipid and transmitting the signal across the membrane by activating an associated G-protein; promotes the exchange of GDP for GTP on the alpha subunit of a heterotrimeric G-protein complex. A bioactive lipid is a lipid for which changes in lipid levels result in functional consequences in a variety of cellular processes." [GOC:bf, GOC:mah, PMID:12215548, PMID:18216770]
@@ -21503,7 +21576,7 @@
  is_a: GO:0004930 ! G protein-coupled receptor activity
  
  [Term]
-@@ -278692,7 +279618,7 @@
+@@ -278692,7 +279636,7 @@
  synonym: "keratan sulphotransferase activity" EXACT []
  xref: EC:2.8.2.21
  xref: MetaCyc:KERATAN-SULFOTRANSFERASE-RXN
@@ -21512,7 +21585,7 @@
  is_a: GO:0050698 ! proteoglycan sulfotransferase activity
  property_value: skos:exactMatch EC:2.8.2.21
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28380" xsd:anyURI
-@@ -278802,7 +279728,7 @@
+@@ -278802,7 +279746,7 @@
  id: GO:0045139
  name: obsolete copper sensitivity/resistance
  namespace: biological_process
@@ -21521,7 +21594,7 @@
  comment: This term was made obsolete because 'sensitivity/resistance' implies a phenotype rather than a biological process.
  synonym: "copper sensitivity/resistance" EXACT []
  is_obsolete: true
-@@ -278892,7 +279818,7 @@
+@@ -278892,7 +279836,7 @@
  id: GO:0045147
  name: obsolete regulation of initiation of acetate catabolic process by acetate
  namespace: biological_process
@@ -21530,7 +21603,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "regulation of initiation of acetate breakdown by acetate" EXACT []
  synonym: "regulation of initiation of acetate degradation by acetate" EXACT []
-@@ -279085,7 +280011,7 @@
+@@ -279085,7 +280029,7 @@
  id: GO:0045168
  name: cell-cell signaling involved in cell fate commitment
  namespace: biological_process
@@ -21539,7 +21612,7 @@
  synonym: "cell fate commitment, cell-cell signaling" EXACT []
  synonym: "cell fate commitment, cell-cell signalling" EXACT []
  synonym: "cell-cell signaling during in cell fate commitment" EXACT []
-@@ -279132,7 +280058,7 @@
+@@ -279132,7 +280076,7 @@
  id: GO:0045173
  name: O-sialoglycoprotein catabolic process
  namespace: biological_process
@@ -21548,7 +21621,7 @@
  synonym: "O-sialoglycoprotein breakdown" EXACT []
  synonym: "O-sialoglycoprotein catabolism" EXACT []
  synonym: "O-sialoglycoprotein degradation" EXACT []
-@@ -279301,7 +280227,7 @@
+@@ -279301,7 +280245,7 @@
  id: GO:0045188
  name: regulation of circadian sleep/wake cycle, non-REM sleep
  namespace: biological_process
@@ -21557,7 +21630,7 @@
  synonym: "regulation of non-REM sleep" EXACT []
  is_a: GO:0045187 ! regulation of circadian sleep/wake cycle, sleep
  intersection_of: GO:0065007 ! biological regulation
-@@ -279354,7 +280280,7 @@
+@@ -279354,7 +280298,7 @@
  id: GO:0045192
  name: obsolete low-density lipoprotein catabolic process
  namespace: biological_process
@@ -21566,7 +21639,7 @@
  comment: This term was made obsolete because low-density lipoprotein is a macromolecular complex, not a single class of molecule; its degradation involves the dissociation of non-covalently attached constituents as well as some breaking and reforming of covalent bonds.
  synonym: "LDL catabolic process" EXACT []
  synonym: "LDL catabolism" EXACT []
-@@ -279368,7 +280294,7 @@
+@@ -279368,7 +280312,7 @@
  id: GO:0045193
  name: obsolete acetylated low-density lipoprotein catabolic process
  namespace: biological_process
@@ -21575,7 +21648,7 @@
  comment: This term was made obsolete because low-density lipoprotein is a macromolecular complex, not a single class of molecule; its degradation involves the dissociation of non-covalently attached constituents as well as some breaking and reforming of covalent bonds.
  synonym: "Ac-LDL catabolic process" EXACT []
  synonym: "Ac-LDL catabolism" EXACT []
-@@ -279382,7 +280308,7 @@
+@@ -279382,7 +280326,7 @@
  id: GO:0045194
  name: obsolete oxidized low-density lipoprotein catabolic process
  namespace: biological_process
@@ -21584,7 +21657,7 @@
  comment: This term was made obsolete because low-density lipoprotein is a macromolecular complex, not a single class of molecule; its degradation involves the dissociation of non-covalently attached constituents as well as some breaking and reforming of covalent bonds.
  synonym: "Ox-LDL catabolic process" EXACT []
  synonym: "Ox-LDL catabolism" EXACT []
-@@ -279482,7 +280408,7 @@
+@@ -279482,7 +280426,7 @@
  id: GO:0045203
  name: obsolete integral component of cell outer membrane
  namespace: cellular_component
@@ -21593,7 +21666,7 @@
  comment: This term was obsoleted because it represents protein topology, not a cellular component.
  synonym: "integral to cell outer membrane" NARROW []
  synonym: "integral to external membrane" RELATED []
-@@ -279605,7 +280531,7 @@
+@@ -279605,7 +280549,7 @@
  id: GO:0045213
  name: obsolete neurotransmitter receptor metabolic process
  namespace: biological_process
@@ -21602,7 +21675,7 @@
  comment: The reason for obsoletion is that 'neurotransmitter' is unnecessary grouping in the metabolism branch of the ontology, and it creates true path violations.
  synonym: "neurotransmitter receptor metabolism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25736" xsd:anyURI
-@@ -279654,7 +280580,7 @@
+@@ -279654,7 +280598,7 @@
  id: GO:0045219
  name: obsolete regulation of FasL production
  namespace: biological_process
@@ -21611,7 +21684,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "regulation of FasL anabolism" EXACT []
  synonym: "regulation of FasL biosynthesis" EXACT []
-@@ -279668,7 +280594,7 @@
+@@ -279668,7 +280612,7 @@
  id: GO:0045220
  name: obsolete positive regulation of FasL production
  namespace: biological_process
@@ -21620,7 +21693,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "activation of FasL biosynthetic process" NARROW []
  synonym: "positive regulation of FasL anabolism" EXACT []
-@@ -279688,7 +280614,7 @@
+@@ -279688,7 +280632,7 @@
  id: GO:0045221
  name: obsolete negative regulation of FasL production
  namespace: biological_process
@@ -21629,7 +21702,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "down regulation of FasL biosynthetic process" EXACT []
  synonym: "down-regulation of FasL biosynthetic process" EXACT []
-@@ -279707,7 +280633,7 @@
+@@ -279707,7 +280651,7 @@
  id: GO:0045222
  name: obsolete CD4 biosynthetic process
  namespace: biological_process
@@ -21638,7 +21711,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "CD4 anabolism" EXACT []
  synonym: "CD4 biosynthesis" EXACT []
-@@ -279721,7 +280647,7 @@
+@@ -279721,7 +280665,7 @@
  id: GO:0045223
  name: obsolete regulation of CD4 production
  namespace: biological_process
@@ -21647,7 +21720,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "regulation of CD4 anabolism" EXACT []
  synonym: "regulation of CD4 biosynthesis" EXACT []
-@@ -279736,7 +280662,7 @@
+@@ -279736,7 +280680,7 @@
  id: GO:0045224
  name: obsolete positive regulation of CD4 production
  namespace: biological_process
@@ -21656,7 +21729,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "activation of CD4 biosynthetic process" NARROW []
  synonym: "positive regulation of CD4 anabolism" EXACT []
-@@ -279756,7 +280682,7 @@
+@@ -279756,7 +280700,7 @@
  id: GO:0045225
  name: obsolete negative regulation of CD4 production
  namespace: biological_process
@@ -21665,7 +21738,7 @@
  comment: The reason for obsoletion is that this term represents a gene product.
  synonym: "down regulation of CD4 biosynthetic process" EXACT []
  synonym: "down-regulation of CD4 biosynthetic process" EXACT []
-@@ -279775,7 +280701,7 @@
+@@ -279775,7 +280719,7 @@
  id: GO:0045226
  name: obsolete extracellular polysaccharide biosynthetic process
  namespace: biological_process
@@ -21674,7 +21747,7 @@
  comment: The reason for obsoletion is that this term is now redundant with GO:0000271, polysaccharide biosynthetic process
  synonym: "extracellular polysaccharide anabolism" EXACT []
  synonym: "extracellular polysaccharide biosynthesis" EXACT []
-@@ -279789,7 +280715,7 @@
+@@ -279789,7 +280733,7 @@
  id: GO:0045227
  name: capsule polysaccharide biosynthetic process
  namespace: biological_process
@@ -21683,7 +21756,7 @@
  synonym: "capsular polysaccharide biosynthesis" EXACT []
  synonym: "capsular polysaccharide biosynthetic process" EXACT []
  synonym: "capsule polysaccharide anabolism" EXACT []
-@@ -279803,7 +280729,7 @@
+@@ -279803,7 +280747,7 @@
  id: GO:0045228
  name: slime layer polysaccharide biosynthetic process
  namespace: biological_process
@@ -21692,7 +21765,7 @@
  synonym: "slime layer polysaccharide anabolism" EXACT []
  synonym: "slime layer polysaccharide biosynthesis" EXACT []
  synonym: "slime layer polysaccharide formation" EXACT []
-@@ -280551,15 +281477,16 @@
+@@ -280551,15 +281495,16 @@
  
  [Term]
  id: GO:0045303
@@ -21711,7 +21784,7 @@
  synonym: "EctB" RELATED [EC:2.6.1.76]
  synonym: "L-2,4-diaminobutanoate:2-oxoglutarate 4-aminotransferase activity" RELATED [EC:2.6.1.76]
  synonym: "L-2,4-diaminobutyrate:2-ketoglutarate 4-aminotransferase activity" RELATED [EC:2.6.1.76]
-@@ -280572,6 +281499,7 @@
+@@ -280572,6 +281517,7 @@
  property_value: skos:exactMatch EC:2.6.1.76
  property_value: skos:exactMatch RHEA:11160
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -21719,7 +21792,7 @@
  
  [Term]
  id: GO:0045304
-@@ -280619,7 +281547,7 @@
+@@ -280619,7 +281565,7 @@
  id: GO:0045309
  name: protein phosphorylated amino acid binding
  namespace: molecular_function
@@ -21728,7 +21801,7 @@
  synonym: "phosphoprotein amino acid binding" RELATED []
  is_a: GO:0051219 ! phosphoprotein binding
  
-@@ -280627,7 +281555,7 @@
+@@ -280627,7 +281573,7 @@
  id: GO:0045310
  name: obsolete phosphoserine/phosphothreonine binding
  namespace: molecular_function
@@ -21737,7 +21810,7 @@
  comment: This term was made obsolete because it represents two functions.
  synonym: "phosphoserine/phosphothreonine binding" EXACT []
  is_obsolete: true
-@@ -280646,7 +281574,7 @@
+@@ -280646,7 +281592,7 @@
  id: GO:0045312
  name: nor-spermidine biosynthetic process
  namespace: biological_process
@@ -21746,7 +21819,7 @@
  synonym: "nor-spermidine anabolism" EXACT []
  synonym: "nor-spermidine biosynthesis" EXACT []
  synonym: "nor-spermidine formation" EXACT []
-@@ -280884,7 +281812,7 @@
+@@ -280884,7 +281830,7 @@
  id: GO:0045334
  name: clathrin-coated endocytic vesicle
  namespace: cellular_component
@@ -21755,7 +21828,7 @@
  xref: NIF_Subcellular:sao1243595998
  is_a: GO:0030136 ! clathrin-coated vesicle
  is_a: GO:0030139 ! endocytic vesicle
-@@ -280893,7 +281821,7 @@
+@@ -280893,7 +281839,7 @@
  id: GO:0045335
  name: phagocytic vesicle
  namespace: cellular_component
@@ -21764,7 +21837,7 @@
  synonym: "phagosome" EXACT []
  xref: Wikipedia:Phagosome
  is_a: GO:0030139 ! endocytic vesicle
-@@ -280902,7 +281830,7 @@
+@@ -280902,7 +281848,7 @@
  id: GO:0045336
  name: clathrin-coated phagocytic vesicle
  namespace: cellular_component
@@ -21773,7 +21846,7 @@
  synonym: "clathrin-coated phagosome" EXACT []
  is_a: GO:0045334 ! clathrin-coated endocytic vesicle
  is_a: GO:0045335 ! phagocytic vesicle
-@@ -280925,7 +281853,7 @@
+@@ -280925,7 +281871,7 @@
  id: GO:0045338
  name: farnesyl diphosphate metabolic process
  namespace: biological_process
@@ -21782,7 +21855,7 @@
  synonym: "farnesyl diphosphate metabolism" EXACT []
  is_a: GO:0006644 ! phospholipid metabolic process
  is_a: GO:0006721 ! terpenoid metabolic process
-@@ -280934,7 +281862,7 @@
+@@ -280934,7 +281880,7 @@
  id: GO:0045339
  name: farnesyl diphosphate catabolic process
  namespace: biological_process
@@ -21791,7 +21864,7 @@
  synonym: "farnesyl diphosphate breakdown" EXACT []
  synonym: "farnesyl diphosphate catabolism" EXACT []
  synonym: "farnesyl diphosphate degradation" EXACT []
-@@ -280946,7 +281874,7 @@
+@@ -280946,7 +281892,7 @@
  id: GO:0045340
  name: mercury ion binding
  namespace: molecular_function
@@ -21800,7 +21873,7 @@
  synonym: "Hg ion binding" EXACT []
  synonym: "mercury binding" EXACT []
  is_a: GO:0046914 ! transition metal ion binding
-@@ -280955,7 +281883,7 @@
+@@ -280955,7 +281901,7 @@
  id: GO:0045341
  name: MHC class I biosynthetic process
  namespace: biological_process
@@ -21809,7 +21882,7 @@
  synonym: "major histocompatibility complex class I biosynthesis" EXACT []
  synonym: "major histocompatibility complex class I biosynthetic process" EXACT []
  synonym: "MHC class I anabolism" EXACT []
-@@ -280968,7 +281896,7 @@
+@@ -280968,7 +281914,7 @@
  id: GO:0045342
  name: MHC class II biosynthetic process
  namespace: biological_process
@@ -21818,7 +21891,7 @@
  synonym: "major histocompatibility complex class II biosynthesis" EXACT []
  synonym: "major histocompatibility complex class II biosynthetic process" EXACT []
  synonym: "MHC class II anabolism" EXACT []
-@@ -280981,7 +281909,7 @@
+@@ -280981,7 +281927,7 @@
  id: GO:0045343
  name: regulation of MHC class I biosynthetic process
  namespace: biological_process
@@ -21827,7 +21900,7 @@
  synonym: "regulation of major histocompatibility complex class I biosynthesis" EXACT []
  synonym: "regulation of major histocompatibility complex class I biosynthetic process" EXACT []
  synonym: "regulation of MHC class I anabolism" EXACT []
-@@ -280997,7 +281925,7 @@
+@@ -280997,7 +281943,7 @@
  id: GO:0045344
  name: negative regulation of MHC class I biosynthetic process
  namespace: biological_process
@@ -21836,7 +21909,7 @@
  synonym: "down regulation of MHC class I biosynthetic process" EXACT []
  synonym: "down-regulation of MHC class I biosynthetic process" EXACT []
  synonym: "downregulation of MHC class I biosynthetic process" EXACT []
-@@ -281018,7 +281946,7 @@
+@@ -281018,7 +281964,7 @@
  id: GO:0045345
  name: positive regulation of MHC class I biosynthetic process
  namespace: biological_process
@@ -21845,7 +21918,7 @@
  synonym: "activation of MHC class I biosynthetic process" NARROW []
  synonym: "positive regulation of major histocompatibility complex class I biosynthesis" EXACT []
  synonym: "positive regulation of major histocompatibility complex class I biosynthetic process" EXACT []
-@@ -281040,7 +281968,7 @@
+@@ -281040,7 +281986,7 @@
  id: GO:0045346
  name: regulation of MHC class II biosynthetic process
  namespace: biological_process
@@ -21854,7 +21927,7 @@
  synonym: "regulation of major histocompatibility complex class II biosynthesis" EXACT []
  synonym: "regulation of major histocompatibility complex class II biosynthetic process" EXACT []
  synonym: "regulation of MHC class II anabolism" EXACT []
-@@ -281056,7 +281984,7 @@
+@@ -281056,7 +282002,7 @@
  id: GO:0045347
  name: negative regulation of MHC class II biosynthetic process
  namespace: biological_process
@@ -21863,7 +21936,7 @@
  synonym: "down regulation of MHC class II biosynthetic process" EXACT []
  synonym: "down-regulation of MHC class II biosynthetic process" EXACT []
  synonym: "downregulation of MHC class II biosynthetic process" EXACT []
-@@ -281077,7 +282005,7 @@
+@@ -281077,7 +282023,7 @@
  id: GO:0045348
  name: positive regulation of MHC class II biosynthetic process
  namespace: biological_process
@@ -21872,7 +21945,7 @@
  synonym: "activation of MHC class II biosynthetic process" NARROW []
  synonym: "positive regulation of major histocompatibility complex class II biosynthesis" EXACT []
  synonym: "positive regulation of major histocompatibility complex class II biosynthetic process" EXACT []
-@@ -281124,7 +282052,7 @@
+@@ -281124,7 +282070,7 @@
  id: GO:0045428
  name: regulation of nitric oxide biosynthetic process
  namespace: biological_process
@@ -21881,7 +21954,7 @@
  synonym: "regulation of nitric oxide anabolism" EXACT []
  synonym: "regulation of nitric oxide biosynthesis" EXACT []
  synonym: "regulation of nitric oxide formation" EXACT []
-@@ -281139,7 +282067,7 @@
+@@ -281139,7 +282085,7 @@
  id: GO:0045429
  name: positive regulation of nitric oxide biosynthetic process
  namespace: biological_process
@@ -21890,7 +21963,7 @@
  synonym: "activation of nitric oxide biosynthetic process" NARROW []
  synonym: "positive regulation of nitric oxide anabolism" EXACT []
  synonym: "positive regulation of nitric oxide biosynthesis" EXACT []
-@@ -281299,7 +282227,7 @@
+@@ -281299,7 +282245,7 @@
  id: GO:0045443
  name: juvenile hormone secretion
  namespace: biological_process
@@ -21899,7 +21972,7 @@
  is_a: GO:0046865 ! terpenoid transport
  is_a: GO:0060986 ! endocrine hormone secretion
  is_a: GO:0140353 ! lipid export from cell
-@@ -281308,7 +282236,7 @@
+@@ -281308,7 +282254,7 @@
  id: GO:0045444
  name: fat cell differentiation
  namespace: biological_process
@@ -21908,7 +21981,7 @@
  synonym: "adipocyte cell differentiation" EXACT []
  synonym: "adipocyte differentiation" EXACT []
  synonym: "adipogenesis" RELATED []
-@@ -281319,7 +282247,7 @@
+@@ -281319,7 +282265,7 @@
  id: GO:0045445
  name: myoblast differentiation
  namespace: biological_process
@@ -21917,7 +21990,7 @@
  synonym: "myoblast cell differentiation" EXACT []
  is_a: GO:0030154 ! cell differentiation
  relationship: part_of GO:0061061 ! muscle structure development
-@@ -281328,7 +282256,7 @@
+@@ -281328,7 +282274,7 @@
  id: GO:0045446
  name: endothelial cell differentiation
  namespace: biological_process
@@ -21926,7 +21999,7 @@
  is_a: GO:0030855 ! epithelial cell differentiation
  relationship: part_of GO:0003158 ! endothelium development
  
-@@ -281336,7 +282264,7 @@
+@@ -281336,7 +282282,7 @@
  id: GO:0045448
  name: mitotic cell cycle, embryonic
  namespace: biological_process
@@ -21935,7 +22008,7 @@
  is_a: GO:0000278 ! mitotic cell cycle
  relationship: part_of GO:0009790 ! embryo development
  
-@@ -281344,7 +282272,7 @@
+@@ -281344,7 +282290,7 @@
  id: GO:0045450
  name: bicoid mRNA localization
  namespace: biological_process
@@ -21944,7 +22017,7 @@
  synonym: "bicoid mRNA localisation" EXACT [GOC:mah]
  synonym: "establishment and maintenance of bicoid mRNA localization" EXACT []
  is_a: GO:0060811 ! intracellular mRNA localization involved in anterior/posterior axis specification
-@@ -281354,7 +282282,7 @@
+@@ -281354,7 +282300,7 @@
  id: GO:0045451
  name: pole plasm oskar mRNA localization
  namespace: biological_process
@@ -21953,7 +22026,7 @@
  synonym: "establishment and maintenance of oskar mRNA localization in pole plasm" EXACT []
  synonym: "establishment and maintenance of pole plasm oskar mRNA localization" EXACT []
  synonym: "oocyte pole plasm oskar mRNA localization" EXACT []
-@@ -281404,7 +282332,7 @@
+@@ -281404,7 +282350,7 @@
  id: GO:0045456
  name: ecdysteroid biosynthetic process
  namespace: biological_process
@@ -21962,7 +22035,7 @@
  synonym: "ecdysteroid anabolism" EXACT []
  synonym: "ecdysteroid biosynthesis" EXACT []
  synonym: "ecdysteroid formation" EXACT []
-@@ -281418,14 +282346,14 @@
+@@ -281418,14 +282364,14 @@
  id: GO:0045457
  name: ecdysteroid secretion
  namespace: biological_process
@@ -21979,7 +22052,7 @@
  comment: Note that this term was reinstated from obsolete.
  synonym: "recombination within ribosomal DNA repeats" EXACT []
  is_a: GO:0006310 ! DNA recombination
-@@ -281542,21 +282470,21 @@
+@@ -281542,21 +282488,21 @@
  name: response to ethanol
  namespace: biological_process
  alt_id: GO:0017036
@@ -22004,7 +22077,7 @@
  comment: This term was made obsolete because there is no clear difference between the sensu Insecta term and the generic term.
  synonym: "response to ethanol (sensu Insecta)" EXACT []
  is_obsolete: true
-@@ -281566,7 +282494,7 @@
+@@ -281566,7 +282512,7 @@
  id: GO:0045474
  name: obsolete response to ether (sensu Insecta)
  namespace: biological_process
@@ -22013,7 +22086,7 @@
  comment: This term was made obsolete because there is no clear difference between the sensu Insecta term and the generic term.
  synonym: "response to ether (sensu Insecta)" EXACT []
  is_obsolete: true
-@@ -281576,7 +282504,7 @@
+@@ -281576,7 +282522,7 @@
  id: GO:0045475
  name: locomotor rhythm
  namespace: biological_process
@@ -22022,7 +22095,7 @@
  synonym: "circadian locomotor activity rhythm" NARROW []
  is_a: GO:0007626 ! locomotory behavior
  is_a: GO:0048512 ! circadian behavior
-@@ -281612,7 +282540,7 @@
+@@ -281612,7 +282558,7 @@
  id: GO:0045478
  name: fusome organization
  namespace: biological_process
@@ -22031,7 +22104,7 @@
  subset: goslim_pir
  synonym: "fusome organisation" EXACT []
  synonym: "fusome organization and biogenesis" RELATED [GOC:mah]
-@@ -281632,7 +282560,7 @@
+@@ -281632,7 +282578,7 @@
  id: GO:0045480
  name: galactose oxidase activity
  namespace: molecular_function
@@ -22040,7 +22113,7 @@
  synonym: "beta-galactose oxidase activity" RELATED [EC:1.1.3.9]
  synonym: "D-galactose oxidase activity" RELATED [EC:1.1.3.9]
  synonym: "D-galactose:oxygen 6-oxidoreductase activity" RELATED [EC:1.1.3.9]
-@@ -281696,9 +282624,10 @@
+@@ -281696,9 +282642,10 @@
  
  [Term]
  id: GO:0045484
@@ -22053,7 +22126,7 @@
  synonym: "L-lysine aminotransferase activity" RELATED [EC:2.6.1.36]
  synonym: "L-lysine transaminase activity" RELATED [EC:2.6.1.36]
  synonym: "L-lysine-alpha-ketoglutarate 6-aminotransferase activity" RELATED [EC:2.6.1.36]
-@@ -281712,10 +282641,11 @@
+@@ -281712,10 +282659,11 @@
  xref: KEGG_REACTION:R00457
  xref: MetaCyc:L-LYSINE-AMINOTRANSFERASE-RXN
  xref: RHEA:21200
@@ -22066,7 +22139,7 @@
  
  [Term]
  id: GO:0045485
-@@ -281753,7 +282683,7 @@
+@@ -281753,7 +282701,7 @@
  id: GO:0045487
  name: gibberellin catabolic process
  namespace: biological_process
@@ -22075,7 +22148,7 @@
  synonym: "gibberellic acid breakdown" NARROW []
  synonym: "gibberellic acid catabolic process" NARROW []
  synonym: "gibberellic acid catabolism" NARROW []
-@@ -281775,7 +282705,7 @@
+@@ -281775,7 +282723,7 @@
  id: GO:0045489
  name: pectin biosynthetic process
  namespace: biological_process
@@ -22084,7 +22157,7 @@
  synonym: "pectin anabolism" EXACT []
  synonym: "pectin biosynthesis" EXACT []
  synonym: "pectin formation" EXACT []
-@@ -281787,7 +282717,7 @@
+@@ -281787,7 +282735,7 @@
  id: GO:0045490
  name: pectin catabolic process
  namespace: biological_process
@@ -22093,7 +22166,7 @@
  synonym: "pectin breakdown" EXACT []
  synonym: "pectin catabolism" EXACT []
  synonym: "pectin degradation" EXACT []
-@@ -281798,7 +282728,7 @@
+@@ -281798,7 +282746,7 @@
  id: GO:0045491
  name: xylan metabolic process
  namespace: biological_process
@@ -22102,7 +22175,7 @@
  synonym: "xylan metabolism" EXACT []
  is_a: GO:0005976 ! polysaccharide metabolic process
  
-@@ -281806,7 +282736,7 @@
+@@ -281806,7 +282754,7 @@
  id: GO:0045492
  name: xylan biosynthetic process
  namespace: biological_process
@@ -22111,7 +22184,7 @@
  synonym: "xylan anabolism" EXACT []
  synonym: "xylan biosynthesis" EXACT []
  synonym: "xylan formation" EXACT []
-@@ -281818,7 +282748,7 @@
+@@ -281818,7 +282766,7 @@
  id: GO:0045493
  name: xylan catabolic process
  namespace: biological_process
@@ -22120,7 +22193,7 @@
  synonym: "xylan breakdown" EXACT []
  synonym: "xylan catabolism" EXACT []
  synonym: "xylan degradation" EXACT []
-@@ -281888,7 +282818,7 @@
+@@ -281888,7 +282836,7 @@
  id: GO:0045501
  name: regulation of sevenless signaling pathway
  namespace: biological_process
@@ -22129,7 +22202,7 @@
  synonym: "regulation of sev signaling pathway" EXACT []
  synonym: "regulation of sevenless signalling pathway" EXACT []
  is_a: GO:0009966 ! regulation of signal transduction
-@@ -281963,7 +282893,7 @@
+@@ -281963,7 +282911,7 @@
  id: GO:0045510
  name: interleukin-24 binding
  namespace: molecular_function
@@ -22138,7 +22211,7 @@
  synonym: "IL-24 binding" EXACT []
  is_a: GO:0019955 ! cytokine binding
  
-@@ -281971,7 +282901,7 @@
+@@ -281971,7 +282919,7 @@
  id: GO:0045511
  name: interleukin-25 binding
  namespace: molecular_function
@@ -22147,7 +22220,7 @@
  synonym: "IL-25 binding" EXACT []
  is_a: GO:0019975 ! interleukin-17 binding
  
-@@ -281979,7 +282909,7 @@
+@@ -281979,7 +282927,7 @@
  id: GO:0045512
  name: interleukin-26 binding
  namespace: molecular_function
@@ -22156,7 +22229,7 @@
  synonym: "IL-26 binding" EXACT []
  is_a: GO:0019955 ! cytokine binding
  
-@@ -281987,7 +282917,7 @@
+@@ -281987,7 +282935,7 @@
  id: GO:0045513
  name: interleukin-27 binding
  namespace: molecular_function
@@ -22165,7 +22238,7 @@
  synonym: "IL-27 binding" EXACT []
  is_a: GO:0019975 ! interleukin-17 binding
  
-@@ -281995,7 +282925,7 @@
+@@ -281995,7 +282943,7 @@
  id: GO:0045514
  name: interleukin-16 receptor binding
  namespace: molecular_function
@@ -22174,7 +22247,7 @@
  synonym: "IL-16" NARROW []
  synonym: "interleukin-16 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282004,7 +282934,7 @@
+@@ -282004,7 +282952,7 @@
  id: GO:0045515
  name: interleukin-18 receptor binding
  namespace: molecular_function
@@ -22183,7 +22256,7 @@
  synonym: "IL-18" NARROW []
  synonym: "interleukin-18 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282013,7 +282943,7 @@
+@@ -282013,7 +282961,7 @@
  id: GO:0045516
  name: interleukin-19 receptor binding
  namespace: molecular_function
@@ -22192,7 +22265,7 @@
  synonym: "IL-19" NARROW []
  synonym: "interleukin-19 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282022,7 +282952,7 @@
+@@ -282022,7 +282970,7 @@
  id: GO:0045517
  name: interleukin-20 receptor binding
  namespace: molecular_function
@@ -22201,7 +22274,7 @@
  synonym: "IL-20" NARROW []
  synonym: "interleukin-20 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282031,7 +282961,7 @@
+@@ -282031,7 +282979,7 @@
  id: GO:0045518
  name: interleukin-22 receptor binding
  namespace: molecular_function
@@ -22210,7 +22283,7 @@
  synonym: "IL-22" NARROW []
  synonym: "interleukin-22 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282040,7 +282970,7 @@
+@@ -282040,7 +282988,7 @@
  id: GO:0045519
  name: interleukin-23 receptor binding
  namespace: molecular_function
@@ -22219,7 +22292,7 @@
  synonym: "IL-23" NARROW []
  synonym: "interleukin-23 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282049,7 +282979,7 @@
+@@ -282049,7 +282997,7 @@
  id: GO:0045520
  name: interleukin-24 receptor binding
  namespace: molecular_function
@@ -22228,7 +22301,7 @@
  synonym: "IL-24" NARROW []
  synonym: "interleukin-24 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282058,7 +282988,7 @@
+@@ -282058,7 +283006,7 @@
  id: GO:0045521
  name: interleukin-25 receptor binding
  namespace: molecular_function
@@ -22237,7 +22310,7 @@
  synonym: "IL-25" NARROW []
  synonym: "interleukin-25 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282067,7 +282997,7 @@
+@@ -282067,7 +283015,7 @@
  id: GO:0045522
  name: interleukin-26 receptor binding
  namespace: molecular_function
@@ -22246,7 +22319,7 @@
  synonym: "IL-26" NARROW []
  synonym: "interleukin-26 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282076,7 +283006,7 @@
+@@ -282076,7 +283024,7 @@
  id: GO:0045523
  name: interleukin-27 receptor binding
  namespace: molecular_function
@@ -22255,7 +22328,7 @@
  synonym: "IL-27" NARROW []
  synonym: "interleukin-27 receptor ligand" NARROW []
  is_a: GO:0005126 ! cytokine receptor binding
-@@ -282085,7 +283015,7 @@
+@@ -282085,7 +283033,7 @@
  id: GO:0045540
  name: regulation of cholesterol biosynthetic process
  namespace: biological_process
@@ -22264,7 +22337,7 @@
  synonym: "regulation of cholesterol anabolism" EXACT []
  synonym: "regulation of cholesterol biosynthesis" EXACT []
  synonym: "regulation of cholesterol formation" EXACT []
-@@ -282102,7 +283032,7 @@
+@@ -282102,7 +283050,7 @@
  id: GO:0045541
  name: negative regulation of cholesterol biosynthetic process
  namespace: biological_process
@@ -22273,7 +22346,7 @@
  synonym: "down regulation of cholesterol biosynthetic process" EXACT []
  synonym: "down-regulation of cholesterol biosynthetic process" EXACT []
  synonym: "downregulation of cholesterol biosynthetic process" EXACT []
-@@ -282123,7 +283053,7 @@
+@@ -282123,7 +283071,7 @@
  id: GO:0045542
  name: positive regulation of cholesterol biosynthetic process
  namespace: biological_process
@@ -22282,7 +22355,7 @@
  synonym: "activation of cholesterol biosynthetic process" NARROW []
  synonym: "positive regulation of cholesterol anabolism" EXACT []
  synonym: "positive regulation of cholesterol biosynthesis" EXACT []
-@@ -282181,7 +283111,7 @@
+@@ -282181,7 +283129,7 @@
  id: GO:0045545
  name: syndecan binding
  namespace: molecular_function
@@ -22291,7 +22364,7 @@
  is_a: GO:0043394 ! proteoglycan binding
  
  [Term]
-@@ -282292,7 +283222,7 @@
+@@ -282292,7 +283240,7 @@
  id: GO:0045557
  name: obsolete TRAIL receptor biosynthetic process
  namespace: biological_process
@@ -22300,7 +22373,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "TRAIL receptor anabolism" EXACT []
  synonym: "TRAIL receptor biosynthesis" EXACT []
-@@ -282305,7 +283235,7 @@
+@@ -282305,7 +283253,7 @@
  id: GO:0045558
  name: obsolete TRAIL receptor 1 biosynthetic process
  namespace: biological_process
@@ -22309,7 +22382,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "TRAIL receptor 1 anabolism" EXACT []
  synonym: "TRAIL receptor 1 biosynthesis" EXACT []
-@@ -282319,7 +283249,7 @@
+@@ -282319,7 +283267,7 @@
  id: GO:0045559
  name: obsolete TRAIL receptor 2 biosynthetic process
  namespace: biological_process
@@ -22318,7 +22391,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "TRAIL receptor 2 anabolism" EXACT []
  synonym: "TRAIL receptor 2 biosynthesis" EXACT []
-@@ -282333,7 +283263,7 @@
+@@ -282333,7 +283281,7 @@
  id: GO:0045560
  name: obsolete regulation of TRAIL receptor biosynthetic process
  namespace: biological_process
@@ -22327,7 +22400,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "regulation of TRAIL receptor anabolism" EXACT []
  synonym: "regulation of TRAIL receptor biosynthesis" EXACT []
-@@ -282346,7 +283276,7 @@
+@@ -282346,7 +283294,7 @@
  id: GO:0045561
  name: obsolete regulation of TRAIL receptor 1 biosynthetic process
  namespace: biological_process
@@ -22336,7 +22409,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "regulation of TRAIL receptor 1 anabolism" EXACT []
  synonym: "regulation of TRAIL receptor 1 biosynthesis" EXACT []
-@@ -282359,7 +283289,7 @@
+@@ -282359,7 +283307,7 @@
  id: GO:0045562
  name: obsolete regulation of TRAIL receptor 2 biosynthetic process
  namespace: biological_process
@@ -22345,7 +22418,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "regulation of TRAIL receptor 2 anabolism" EXACT []
  synonym: "regulation of TRAIL receptor 2 biosynthesis" EXACT []
-@@ -282372,7 +283302,7 @@
+@@ -282372,7 +283320,7 @@
  id: GO:0045563
  name: obsolete negative regulation of TRAIL receptor biosynthetic process
  namespace: biological_process
@@ -22354,7 +22427,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "down regulation of TRAIL receptor biosynthetic process" EXACT []
  synonym: "down-regulation of TRAIL receptor biosynthetic process" EXACT []
-@@ -282389,7 +283319,7 @@
+@@ -282389,7 +283337,7 @@
  id: GO:0045564
  name: obsolete positive regulation of TRAIL receptor biosynthetic process
  namespace: biological_process
@@ -22363,7 +22436,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "activation of TRAIL receptor biosynthetic process" NARROW []
  synonym: "positive regulation of TRAIL receptor anabolism" EXACT []
-@@ -282407,7 +283337,7 @@
+@@ -282407,7 +283355,7 @@
  id: GO:0045565
  name: obsolete negative regulation of TRAIL receptor 1 biosynthetic process
  namespace: biological_process
@@ -22372,7 +22445,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "down regulation of TRAIL receptor 1 biosynthetic process" EXACT []
  synonym: "down-regulation of TRAIL receptor 1 biosynthetic process" EXACT []
-@@ -282424,7 +283354,7 @@
+@@ -282424,7 +283372,7 @@
  id: GO:0045566
  name: obsolete positive regulation of TRAIL receptor 1 biosynthetic process
  namespace: biological_process
@@ -22381,7 +22454,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "activation of TRAIL receptor 1 biosynthetic process" NARROW []
  synonym: "positive regulation of TRAIL receptor 1 anabolism" EXACT []
-@@ -282442,7 +283372,7 @@
+@@ -282442,7 +283390,7 @@
  id: GO:0045567
  name: obsolete negative regulation of TRAIL receptor 2 biosynthetic process
  namespace: biological_process
@@ -22390,7 +22463,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "down regulation of TRAIL receptor 2 biosynthetic process" EXACT []
  synonym: "down-regulation of TRAIL receptor 2 biosynthetic process" EXACT []
-@@ -282459,7 +283389,7 @@
+@@ -282459,7 +283407,7 @@
  id: GO:0045568
  name: obsolete positive regulation of TRAIL receptor 2 biosynthetic process
  namespace: biological_process
@@ -22399,7 +22472,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "activation of TRAIL receptor 2 biosynthetic process" NARROW []
  synonym: "positive regulation of TRAIL receptor 2 anabolism" EXACT []
-@@ -282477,7 +283407,7 @@
+@@ -282477,7 +283425,7 @@
  id: GO:0045569
  name: TRAIL binding
  namespace: molecular_function
@@ -22408,7 +22481,7 @@
  subset: goslim_chembl
  synonym: "Apo-2L binding" EXACT []
  is_a: GO:0005515 ! protein binding
-@@ -282486,7 +283416,7 @@
+@@ -282486,7 +283434,7 @@
  id: GO:0045570
  name: regulation of imaginal disc growth
  namespace: biological_process
@@ -22417,7 +22490,7 @@
  is_a: GO:0048638 ! regulation of developmental growth
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0007446 ! imaginal disc growth
-@@ -282496,7 +283426,7 @@
+@@ -282496,7 +283444,7 @@
  id: GO:0045571
  name: negative regulation of imaginal disc growth
  namespace: biological_process
@@ -22426,7 +22499,7 @@
  synonym: "down regulation of imaginal disc growth" EXACT []
  synonym: "down-regulation of imaginal disc growth" EXACT []
  synonym: "downregulation of imaginal disc growth" EXACT []
-@@ -282511,7 +283441,7 @@
+@@ -282511,7 +283459,7 @@
  id: GO:0045572
  name: positive regulation of imaginal disc growth
  namespace: biological_process
@@ -22435,7 +22508,7 @@
  synonym: "activation of imaginal disc growth" NARROW []
  synonym: "stimulation of imaginal disc growth" NARROW []
  synonym: "up regulation of imaginal disc growth" EXACT []
-@@ -282527,7 +283457,7 @@
+@@ -282527,7 +283475,7 @@
  id: GO:0045574
  name: sterigmatocystin catabolic process
  namespace: biological_process
@@ -22444,7 +22517,7 @@
  synonym: "sterigmatocystin breakdown" EXACT []
  synonym: "sterigmatocystin catabolism" EXACT []
  synonym: "sterigmatocystin degradation" EXACT []
-@@ -282553,7 +283483,7 @@
+@@ -282553,7 +283501,7 @@
  id: GO:0045577
  name: regulation of B cell differentiation
  namespace: biological_process
@@ -22453,7 +22526,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of B cell development" RELATED [GOC:add]
  synonym: "regulation of B lymphocyte differentiation" EXACT []
-@@ -282569,7 +283499,7 @@
+@@ -282569,7 +283517,7 @@
  id: GO:0045578
  name: negative regulation of B cell differentiation
  namespace: biological_process
@@ -22462,7 +22535,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of B cell differentiation" EXACT []
  synonym: "down-regulation of B cell differentiation" EXACT []
-@@ -282590,7 +283520,7 @@
+@@ -282590,7 +283538,7 @@
  id: GO:0045579
  name: positive regulation of B cell differentiation
  namespace: biological_process
@@ -22471,7 +22544,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of B cell differentiation" NARROW []
  synonym: "positive regulation of B cell development" RELATED [GOC:add]
-@@ -282612,7 +283542,7 @@
+@@ -282612,7 +283560,7 @@
  id: GO:0045580
  name: regulation of T cell differentiation
  namespace: biological_process
@@ -22480,7 +22553,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of T cell development" RELATED [GOC:add]
  synonym: "regulation of T lymphocyte differentiation" EXACT []
-@@ -282628,7 +283558,7 @@
+@@ -282628,7 +283576,7 @@
  id: GO:0045581
  name: negative regulation of T cell differentiation
  namespace: biological_process
@@ -22489,7 +22562,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of T cell differentiation" EXACT []
  synonym: "down-regulation of T cell differentiation" EXACT []
-@@ -282649,7 +283579,7 @@
+@@ -282649,7 +283597,7 @@
  id: GO:0045582
  name: positive regulation of T cell differentiation
  namespace: biological_process
@@ -22498,7 +22571,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of T cell differentiation" NARROW []
  synonym: "positive regulation of T cell development" RELATED [GOC:add]
-@@ -282671,7 +283601,7 @@
+@@ -282671,7 +283619,7 @@
  id: GO:0045583
  name: regulation of cytotoxic T cell differentiation
  namespace: biological_process
@@ -22507,7 +22580,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of cytotoxic T cell development" RELATED [GOC:add]
  synonym: "regulation of cytotoxic T lymphocyte differentiation" EXACT []
-@@ -282686,7 +283616,7 @@
+@@ -282686,7 +283634,7 @@
  id: GO:0045584
  name: negative regulation of cytotoxic T cell differentiation
  namespace: biological_process
@@ -22516,7 +22589,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of cytotoxic T cell differentiation" EXACT []
  synonym: "down-regulation of cytotoxic T cell differentiation" EXACT []
-@@ -282706,7 +283636,7 @@
+@@ -282706,7 +283654,7 @@
  id: GO:0045585
  name: positive regulation of cytotoxic T cell differentiation
  namespace: biological_process
@@ -22525,7 +22598,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of cytotoxic T cell differentiation" NARROW []
  synonym: "positive regulation of cytotoxic T cell development" RELATED [GOC:add]
-@@ -282727,7 +283657,7 @@
+@@ -282727,7 +283675,7 @@
  id: GO:0045586
  name: regulation of gamma-delta T cell differentiation
  namespace: biological_process
@@ -22534,7 +22607,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of gamma-delta T cell development" RELATED [GOC:add]
  synonym: "regulation of gamma-delta T lymphocyte differentiation" EXACT []
-@@ -282743,7 +283673,7 @@
+@@ -282743,7 +283691,7 @@
  id: GO:0045587
  name: negative regulation of gamma-delta T cell differentiation
  namespace: biological_process
@@ -22543,7 +22616,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of gamma-delta T cell differentiation" EXACT []
  synonym: "down-regulation of gamma-delta T cell differentiation" EXACT []
-@@ -282764,7 +283694,7 @@
+@@ -282764,7 +283712,7 @@
  id: GO:0045588
  name: positive regulation of gamma-delta T cell differentiation
  namespace: biological_process
@@ -22552,7 +22625,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of gamma-delta T cell differentiation" NARROW []
  synonym: "positive regulation of gamma-delta T cell development" RELATED [GOC:add]
-@@ -282851,7 +283781,7 @@
+@@ -282851,7 +283799,7 @@
  id: GO:0045592
  name: regulation of cumulus cell differentiation
  namespace: biological_process
@@ -22561,7 +22634,7 @@
  synonym: "regulation of ovarian cumulus cell differentiation" EXACT []
  is_a: GO:0030856 ! regulation of epithelial cell differentiation
  is_a: GO:2000387 ! regulation of antral ovarian follicle growth
-@@ -282863,7 +283793,7 @@
+@@ -282863,7 +283811,7 @@
  id: GO:0045593
  name: negative regulation of cumulus cell differentiation
  namespace: biological_process
@@ -22570,7 +22643,7 @@
  synonym: "down regulation of cumulus cell differentiation" EXACT []
  synonym: "down-regulation of cumulus cell differentiation" EXACT []
  synonym: "downregulation of cumulus cell differentiation" EXACT []
-@@ -282880,7 +283810,7 @@
+@@ -282880,7 +283828,7 @@
  id: GO:0045594
  name: positive regulation of cumulus cell differentiation
  namespace: biological_process
@@ -22579,7 +22652,7 @@
  synonym: "activation of cumulus cell differentiation" NARROW []
  synonym: "positive regulation of ovarian cumulus cell differentiation" EXACT []
  synonym: "stimulation of cumulus cell differentiation" NARROW []
-@@ -282898,7 +283828,7 @@
+@@ -282898,7 +283846,7 @@
  id: GO:0045595
  name: regulation of cell differentiation
  namespace: biological_process
@@ -22588,7 +22661,7 @@
  is_a: GO:0050793 ! regulation of developmental process
  is_a: GO:0050794 ! regulation of cellular process
  intersection_of: GO:0065007 ! biological regulation
-@@ -282909,7 +283839,7 @@
+@@ -282909,7 +283857,7 @@
  id: GO:0045596
  name: negative regulation of cell differentiation
  namespace: biological_process
@@ -22597,7 +22670,7 @@
  synonym: "down regulation of cell differentiation" EXACT []
  synonym: "down-regulation of cell differentiation" EXACT []
  synonym: "downregulation of cell differentiation" EXACT []
-@@ -282925,7 +283855,7 @@
+@@ -282925,7 +283873,7 @@
  id: GO:0045597
  name: positive regulation of cell differentiation
  namespace: biological_process
@@ -22606,7 +22679,7 @@
  synonym: "activation of cell differentiation" NARROW []
  synonym: "stimulation of cell differentiation" NARROW []
  synonym: "up regulation of cell differentiation" EXACT []
-@@ -282942,7 +283872,7 @@
+@@ -282942,7 +283890,7 @@
  id: GO:0045598
  name: regulation of fat cell differentiation
  namespace: biological_process
@@ -22615,7 +22688,7 @@
  synonym: "regulation of adipocyte cell differentiation" EXACT []
  synonym: "regulation of adipocyte differentiation" EXACT []
  is_a: GO:0045595 ! regulation of cell differentiation
-@@ -282954,7 +283884,7 @@
+@@ -282954,7 +283902,7 @@
  id: GO:0045599
  name: negative regulation of fat cell differentiation
  namespace: biological_process
@@ -22624,7 +22697,7 @@
  synonym: "down regulation of fat cell differentiation" EXACT []
  synonym: "down-regulation of fat cell differentiation" EXACT []
  synonym: "downregulation of fat cell differentiation" EXACT []
-@@ -282971,7 +283901,7 @@
+@@ -282971,7 +283919,7 @@
  id: GO:0045600
  name: positive regulation of fat cell differentiation
  namespace: biological_process
@@ -22633,7 +22706,7 @@
  synonym: "activation of fat cell differentiation" NARROW []
  synonym: "positive regulation of adipocyte cell differentiation" EXACT []
  synonym: "positive regulation of adipocyte differentiation" EXACT []
-@@ -282989,7 +283919,7 @@
+@@ -282989,7 +283937,7 @@
  id: GO:0045601
  name: regulation of endothelial cell differentiation
  namespace: biological_process
@@ -22642,7 +22715,7 @@
  is_a: GO:0030856 ! regulation of epithelial cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0045446 ! endothelial cell differentiation
-@@ -282999,7 +283929,7 @@
+@@ -282999,7 +283947,7 @@
  id: GO:0045602
  name: negative regulation of endothelial cell differentiation
  namespace: biological_process
@@ -22651,7 +22724,7 @@
  synonym: "down regulation of endothelial cell differentiation" EXACT []
  synonym: "down-regulation of endothelial cell differentiation" EXACT []
  synonym: "downregulation of endothelial cell differentiation" EXACT []
-@@ -283014,7 +283944,7 @@
+@@ -283014,7 +283962,7 @@
  id: GO:0045603
  name: positive regulation of endothelial cell differentiation
  namespace: biological_process
@@ -22660,7 +22733,7 @@
  synonym: "activation of endothelial cell differentiation" NARROW []
  synonym: "stimulation of endothelial cell differentiation" NARROW []
  synonym: "up regulation of endothelial cell differentiation" EXACT []
-@@ -283030,7 +283960,7 @@
+@@ -283030,7 +283978,7 @@
  id: GO:0045604
  name: regulation of epidermal cell differentiation
  namespace: biological_process
@@ -22669,7 +22742,7 @@
  synonym: "regulation of hypodermal cell differentiation" RELATED [GOC:kmv, GOC:rk]
  is_a: GO:0030856 ! regulation of epithelial cell differentiation
  is_a: GO:0045682 ! regulation of epidermis development
-@@ -283042,7 +283972,7 @@
+@@ -283042,7 +283990,7 @@
  id: GO:0045605
  name: negative regulation of epidermal cell differentiation
  namespace: biological_process
@@ -22678,7 +22751,7 @@
  synonym: "down regulation of epidermal cell differentiation" EXACT []
  synonym: "down-regulation of epidermal cell differentiation" EXACT []
  synonym: "downregulation of epidermal cell differentiation" EXACT []
-@@ -283059,7 +283989,7 @@
+@@ -283059,7 +284007,7 @@
  id: GO:0045606
  name: positive regulation of epidermal cell differentiation
  namespace: biological_process
@@ -22687,7 +22760,7 @@
  synonym: "activation of epidermal cell differentiation" NARROW []
  synonym: "positive regulation of hypodermal cell differentiation" RELATED [GOC:kmv, GOC:rk]
  synonym: "stimulation of epidermal cell differentiation" NARROW []
-@@ -283077,7 +284007,7 @@
+@@ -283077,7 +284025,7 @@
  id: GO:0045607
  name: regulation of inner ear auditory receptor cell differentiation
  namespace: biological_process
@@ -22696,7 +22769,7 @@
  synonym: "regulation of auditory hair cell differentiation" EXACT []
  synonym: "regulation of auditory receptor cell differentiation" RELATED []
  is_a: GO:0045604 ! regulation of epidermal cell differentiation
-@@ -283090,7 +284020,7 @@
+@@ -283090,7 +284038,7 @@
  id: GO:0045608
  name: negative regulation of inner ear auditory receptor cell differentiation
  namespace: biological_process
@@ -22705,7 +22778,7 @@
  synonym: "down regulation of auditory receptor cell differentiation" EXACT []
  synonym: "down-regulation of auditory receptor cell differentiation" EXACT []
  synonym: "downregulation of auditory receptor cell differentiation" EXACT []
-@@ -283108,7 +284038,7 @@
+@@ -283108,7 +284056,7 @@
  id: GO:0045609
  name: positive regulation of inner ear auditory receptor cell differentiation
  namespace: biological_process
@@ -22714,7 +22787,7 @@
  synonym: "activation of auditory receptor cell differentiation" NARROW []
  synonym: "positive regulation of auditory hair cell differentiation" EXACT []
  synonym: "positive regulation of auditory receptor cell differentiation" RELATED []
-@@ -283127,7 +284057,7 @@
+@@ -283127,7 +284075,7 @@
  id: GO:0045610
  name: regulation of hemocyte differentiation
  namespace: biological_process
@@ -22723,7 +22796,7 @@
  synonym: "regulation of arthropod blood cell differentiation" EXACT []
  is_a: GO:0002682 ! regulation of immune system process
  is_a: GO:0045595 ! regulation of cell differentiation
-@@ -283140,7 +284070,7 @@
+@@ -283140,7 +284088,7 @@
  id: GO:0045611
  name: negative regulation of hemocyte differentiation
  namespace: biological_process
@@ -22732,7 +22805,7 @@
  synonym: "down regulation of hemocyte differentiation" EXACT []
  synonym: "down-regulation of hemocyte differentiation" EXACT []
  synonym: "downregulation of hemocyte differentiation" EXACT []
-@@ -283157,7 +284087,7 @@
+@@ -283157,7 +284105,7 @@
  id: GO:0045612
  name: positive regulation of hemocyte differentiation
  namespace: biological_process
@@ -22741,7 +22814,7 @@
  synonym: "activation of hemocyte differentiation" NARROW []
  synonym: "positive regulation of arthropod blood cell differentiation" EXACT []
  synonym: "stimulation of hemocyte differentiation" NARROW []
-@@ -283175,7 +284105,7 @@
+@@ -283175,7 +284123,7 @@
  id: GO:0045613
  name: regulation of plasmatocyte differentiation
  namespace: biological_process
@@ -22750,7 +22823,7 @@
  is_a: GO:0045610 ! regulation of hemocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042387 ! plasmatocyte differentiation
-@@ -283185,7 +284115,7 @@
+@@ -283185,7 +284133,7 @@
  id: GO:0045614
  name: negative regulation of plasmatocyte differentiation
  namespace: biological_process
@@ -22759,7 +22832,7 @@
  synonym: "down regulation of plasmatocyte differentiation" EXACT []
  synonym: "down-regulation of plasmatocyte differentiation" EXACT []
  synonym: "downregulation of plasmatocyte differentiation" EXACT []
-@@ -283200,7 +284130,7 @@
+@@ -283200,7 +284148,7 @@
  id: GO:0045615
  name: positive regulation of plasmatocyte differentiation
  namespace: biological_process
@@ -22768,7 +22841,7 @@
  synonym: "activation of plasmatocyte differentiation" NARROW []
  synonym: "stimulation of plasmatocyte differentiation" NARROW []
  synonym: "up regulation of plasmatocyte differentiation" EXACT []
-@@ -283216,7 +284146,7 @@
+@@ -283216,7 +284164,7 @@
  id: GO:0045616
  name: regulation of keratinocyte differentiation
  namespace: biological_process
@@ -22777,7 +22850,7 @@
  xref: Reactome:R-HSA-8939242 "RUNX1 regulates transcription of genes involved in differentiation of keratinocytes"
  is_a: GO:0045604 ! regulation of epidermal cell differentiation
  intersection_of: GO:0065007 ! biological regulation
-@@ -283227,7 +284157,7 @@
+@@ -283227,7 +284175,7 @@
  id: GO:0045617
  name: negative regulation of keratinocyte differentiation
  namespace: biological_process
@@ -22786,7 +22859,7 @@
  synonym: "down regulation of keratinocyte differentiation" EXACT []
  synonym: "down-regulation of keratinocyte differentiation" EXACT []
  synonym: "downregulation of keratinocyte differentiation" EXACT []
-@@ -283243,7 +284173,7 @@
+@@ -283243,7 +284191,7 @@
  id: GO:0045618
  name: positive regulation of keratinocyte differentiation
  namespace: biological_process
@@ -22795,7 +22868,7 @@
  synonym: "activation of keratinocyte differentiation" NARROW []
  synonym: "stimulation of keratinocyte differentiation" NARROW []
  synonym: "up regulation of keratinocyte differentiation" EXACT []
-@@ -283260,7 +284190,7 @@
+@@ -283260,7 +284208,7 @@
  id: GO:0045619
  name: regulation of lymphocyte differentiation
  namespace: biological_process
@@ -22804,7 +22877,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of lymphocyte development" RELATED [GOC:add]
  is_a: GO:0051249 ! regulation of lymphocyte activation
-@@ -283273,7 +284203,7 @@
+@@ -283273,7 +284221,7 @@
  id: GO:0045620
  name: negative regulation of lymphocyte differentiation
  namespace: biological_process
@@ -22813,7 +22886,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of lymphocyte differentiation" EXACT []
  synonym: "down-regulation of lymphocyte differentiation" EXACT []
-@@ -283291,7 +284221,7 @@
+@@ -283291,7 +284239,7 @@
  id: GO:0045621
  name: positive regulation of lymphocyte differentiation
  namespace: biological_process
@@ -22822,7 +22895,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of lymphocyte differentiation" NARROW []
  synonym: "positive regulation of lymphocyte development" RELATED [GOC:add]
-@@ -283310,7 +284240,7 @@
+@@ -283310,7 +284258,7 @@
  id: GO:0045622
  name: regulation of T-helper cell differentiation
  namespace: biological_process
@@ -22831,7 +22904,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of T-helper cell development" RELATED [GOC:add]
  is_a: GO:0043370 ! regulation of CD4-positive, alpha-beta T cell differentiation
-@@ -283323,7 +284253,7 @@
+@@ -283323,7 +284271,7 @@
  id: GO:0045623
  name: negative regulation of T-helper cell differentiation
  namespace: biological_process
@@ -22840,7 +22913,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of T-helper cell differentiation" EXACT []
  synonym: "down-regulation of T-helper cell differentiation" EXACT []
-@@ -283341,7 +284271,7 @@
+@@ -283341,7 +284289,7 @@
  id: GO:0045624
  name: positive regulation of T-helper cell differentiation
  namespace: biological_process
@@ -22849,7 +22922,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of T-helper cell differentiation" NARROW []
  synonym: "positive regulation of T-helper cell development" RELATED [GOC:add]
-@@ -283360,7 +284290,7 @@
+@@ -283360,7 +284308,7 @@
  id: GO:0045625
  name: regulation of T-helper 1 cell differentiation
  namespace: biological_process
@@ -22858,7 +22931,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of T-helper 1 cell development" RELATED [GOC:add]
  is_a: GO:0002697 ! regulation of immune effector process
-@@ -283374,7 +284304,7 @@
+@@ -283374,7 +284322,7 @@
  id: GO:0045626
  name: negative regulation of T-helper 1 cell differentiation
  namespace: biological_process
@@ -22867,7 +22940,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of T-helper 1 cell differentiation" EXACT []
  synonym: "down-regulation of T-helper 1 cell differentiation" EXACT []
-@@ -283393,7 +284323,7 @@
+@@ -283393,7 +284341,7 @@
  id: GO:0045627
  name: positive regulation of T-helper 1 cell differentiation
  namespace: biological_process
@@ -22876,7 +22949,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of T-helper 1 cell differentiation" NARROW []
  synonym: "positive regulation of T-helper 1 cell development" RELATED [GOC:add]
-@@ -283412,7 +284342,7 @@
+@@ -283412,7 +284360,7 @@
  id: GO:0045628
  name: regulation of T-helper 2 cell differentiation
  namespace: biological_process
@@ -22885,7 +22958,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "regulation of T-helper 2 cell development" RELATED [GOC:add]
  is_a: GO:0002697 ! regulation of immune effector process
-@@ -283426,7 +284356,7 @@
+@@ -283426,7 +284374,7 @@
  id: GO:0045629
  name: negative regulation of T-helper 2 cell differentiation
  namespace: biological_process
@@ -22894,7 +22967,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "down regulation of T-helper 2 cell differentiation" EXACT []
  synonym: "down-regulation of T-helper 2 cell differentiation" EXACT []
-@@ -283445,7 +284375,7 @@
+@@ -283445,7 +284393,7 @@
  id: GO:0045630
  name: positive regulation of T-helper 2 cell differentiation
  namespace: biological_process
@@ -22903,7 +22976,7 @@
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "activation of T-helper 2 cell differentiation" NARROW []
  synonym: "positive regulation of T-helper 2 cell development" RELATED [GOC:add]
-@@ -283465,7 +284395,7 @@
+@@ -283465,7 +284413,7 @@
  id: GO:0045631
  name: regulation of mechanoreceptor differentiation
  namespace: biological_process
@@ -22912,7 +22985,7 @@
  is_a: GO:0045664 ! regulation of neuron differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042490 ! mechanoreceptor differentiation
-@@ -283475,7 +284405,7 @@
+@@ -283475,7 +284423,7 @@
  id: GO:0045632
  name: negative regulation of mechanoreceptor differentiation
  namespace: biological_process
@@ -22921,7 +22994,7 @@
  synonym: "down regulation of mechanoreceptor differentiation" EXACT []
  synonym: "down-regulation of mechanoreceptor differentiation" EXACT []
  synonym: "downregulation of mechanoreceptor differentiation" EXACT []
-@@ -283490,7 +284420,7 @@
+@@ -283490,7 +284438,7 @@
  id: GO:0045633
  name: positive regulation of mechanoreceptor differentiation
  namespace: biological_process
@@ -22930,7 +23003,7 @@
  synonym: "activation of mechanoreceptor differentiation" NARROW []
  synonym: "stimulation of mechanoreceptor differentiation" NARROW []
  synonym: "up regulation of mechanoreceptor differentiation" EXACT []
-@@ -283506,7 +284436,7 @@
+@@ -283506,7 +284454,7 @@
  id: GO:0045634
  name: regulation of melanocyte differentiation
  namespace: biological_process
@@ -22939,7 +23012,7 @@
  synonym: "regulation of melanophore differentiation" EXACT []
  is_a: GO:0050932 ! regulation of pigment cell differentiation
  intersection_of: GO:0065007 ! biological regulation
-@@ -283517,7 +284447,7 @@
+@@ -283517,7 +284465,7 @@
  id: GO:0045635
  name: negative regulation of melanocyte differentiation
  namespace: biological_process
@@ -22948,7 +23021,7 @@
  synonym: "down regulation of melanocyte differentiation" EXACT []
  synonym: "down-regulation of melanocyte differentiation" EXACT []
  synonym: "downregulation of melanocyte differentiation" EXACT []
-@@ -283533,7 +284463,7 @@
+@@ -283533,7 +284481,7 @@
  id: GO:0045636
  name: positive regulation of melanocyte differentiation
  namespace: biological_process
@@ -22957,7 +23030,7 @@
  synonym: "activation of melanocyte differentiation" NARROW []
  synonym: "positive regulation of melanophore differentiation" EXACT []
  synonym: "stimulation of melanocyte differentiation" NARROW []
-@@ -283550,7 +284480,7 @@
+@@ -283550,7 +284498,7 @@
  id: GO:0045637
  name: regulation of myeloid cell differentiation
  namespace: biological_process
@@ -22966,7 +23039,7 @@
  xref: Reactome:R-HSA-8939246 "RUNX1 regulates transcription of genes involved in differentiation of myeloid cells"
  is_a: GO:1903706 ! regulation of hemopoiesis
  intersection_of: GO:0065007 ! biological regulation
-@@ -283561,7 +284491,7 @@
+@@ -283561,7 +284509,7 @@
  id: GO:0045638
  name: negative regulation of myeloid cell differentiation
  namespace: biological_process
@@ -22975,7 +23048,7 @@
  synonym: "down regulation of myeloid cell differentiation" EXACT []
  synonym: "down-regulation of myeloid cell differentiation" EXACT []
  synonym: "downregulation of myeloid cell differentiation" EXACT []
-@@ -283576,7 +284506,7 @@
+@@ -283576,7 +284524,7 @@
  id: GO:0045639
  name: positive regulation of myeloid cell differentiation
  namespace: biological_process
@@ -22984,7 +23057,7 @@
  synonym: "activation of myeloid cell differentiation" NARROW []
  synonym: "stimulation of myeloid cell differentiation" NARROW []
  synonym: "up regulation of myeloid cell differentiation" EXACT []
-@@ -283592,7 +284522,7 @@
+@@ -283592,7 +284540,7 @@
  id: GO:0045640
  name: regulation of basophil differentiation
  namespace: biological_process
@@ -22993,7 +23066,7 @@
  is_a: GO:0030852 ! regulation of granulocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030221 ! basophil differentiation
-@@ -283602,7 +284532,7 @@
+@@ -283602,7 +284550,7 @@
  id: GO:0045641
  name: negative regulation of basophil differentiation
  namespace: biological_process
@@ -23002,7 +23075,7 @@
  synonym: "down regulation of basophil differentiation" EXACT []
  synonym: "down-regulation of basophil differentiation" EXACT []
  synonym: "downregulation of basophil differentiation" EXACT []
-@@ -283617,7 +284547,7 @@
+@@ -283617,7 +284565,7 @@
  id: GO:0045642
  name: positive regulation of basophil differentiation
  namespace: biological_process
@@ -23011,7 +23084,7 @@
  synonym: "activation of basophil differentiation" NARROW []
  synonym: "stimulation of basophil differentiation" NARROW []
  synonym: "up regulation of basophil differentiation" EXACT []
-@@ -283633,7 +284563,7 @@
+@@ -283633,7 +284581,7 @@
  id: GO:0045643
  name: regulation of eosinophil differentiation
  namespace: biological_process
@@ -23020,7 +23093,7 @@
  is_a: GO:0030852 ! regulation of granulocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030222 ! eosinophil differentiation
-@@ -283643,7 +284573,7 @@
+@@ -283643,7 +284591,7 @@
  id: GO:0045644
  name: negative regulation of eosinophil differentiation
  namespace: biological_process
@@ -23029,7 +23102,7 @@
  synonym: "down regulation of eosinophil differentiation" EXACT []
  synonym: "down-regulation of eosinophil differentiation" EXACT []
  synonym: "downregulation of eosinophil differentiation" EXACT []
-@@ -283658,7 +284588,7 @@
+@@ -283658,7 +284606,7 @@
  id: GO:0045645
  name: positive regulation of eosinophil differentiation
  namespace: biological_process
@@ -23038,7 +23111,7 @@
  synonym: "activation of eosinophil differentiation" NARROW []
  synonym: "stimulation of eosinophil differentiation" NARROW []
  synonym: "up regulation of eosinophil differentiation" EXACT []
-@@ -283674,7 +284604,7 @@
+@@ -283674,7 +284622,7 @@
  id: GO:0045646
  name: regulation of erythrocyte differentiation
  namespace: biological_process
@@ -23047,7 +23120,7 @@
  synonym: "regulation of RBC differentiation" EXACT [CL:0000232]
  synonym: "regulation of red blood cell differentiation" EXACT [CL:0000232]
  is_a: GO:0045637 ! regulation of myeloid cell differentiation
-@@ -283686,7 +284616,7 @@
+@@ -283686,7 +284634,7 @@
  id: GO:0045647
  name: negative regulation of erythrocyte differentiation
  namespace: biological_process
@@ -23056,7 +23129,7 @@
  synonym: "down regulation of erythrocyte differentiation" EXACT []
  synonym: "down-regulation of erythrocyte differentiation" EXACT []
  synonym: "downregulation of erythrocyte differentiation" EXACT []
-@@ -283703,7 +284633,7 @@
+@@ -283703,7 +284651,7 @@
  id: GO:0045648
  name: positive regulation of erythrocyte differentiation
  namespace: biological_process
@@ -23065,7 +23138,7 @@
  synonym: "activation of erythrocyte differentiation" NARROW []
  synonym: "positive regulation of RBC differentiation" EXACT [CL:0000232]
  synonym: "positive regulation of red blood cell differentiation" EXACT [CL:0000232]
-@@ -283721,7 +284651,7 @@
+@@ -283721,7 +284669,7 @@
  id: GO:0045649
  name: regulation of macrophage differentiation
  namespace: biological_process
@@ -23074,7 +23147,7 @@
  is_a: GO:0002761 ! regulation of myeloid leukocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030225 ! macrophage differentiation
-@@ -283731,7 +284661,7 @@
+@@ -283731,7 +284679,7 @@
  id: GO:0045650
  name: negative regulation of macrophage differentiation
  namespace: biological_process
@@ -23083,7 +23156,7 @@
  synonym: "down regulation of macrophage differentiation" EXACT []
  synonym: "down-regulation of macrophage differentiation" EXACT []
  synonym: "downregulation of macrophage differentiation" EXACT []
-@@ -283746,7 +284676,7 @@
+@@ -283746,7 +284694,7 @@
  id: GO:0045651
  name: positive regulation of macrophage differentiation
  namespace: biological_process
@@ -23092,7 +23165,7 @@
  synonym: "activation of macrophage differentiation" NARROW []
  synonym: "stimulation of macrophage differentiation" NARROW []
  synonym: "up regulation of macrophage differentiation" EXACT []
-@@ -283762,7 +284692,7 @@
+@@ -283762,7 +284710,7 @@
  id: GO:0045652
  name: regulation of megakaryocyte differentiation
  namespace: biological_process
@@ -23101,7 +23174,7 @@
  xref: Reactome:R-HSA-8936459 "RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function"
  is_a: GO:0045637 ! regulation of myeloid cell differentiation
  intersection_of: GO:0065007 ! biological regulation
-@@ -283773,7 +284703,7 @@
+@@ -283773,7 +284721,7 @@
  id: GO:0045653
  name: negative regulation of megakaryocyte differentiation
  namespace: biological_process
@@ -23110,7 +23183,7 @@
  synonym: "down regulation of megakaryocyte differentiation" EXACT []
  synonym: "down-regulation of megakaryocyte differentiation" EXACT []
  synonym: "downregulation of megakaryocyte differentiation" EXACT []
-@@ -283788,7 +284718,7 @@
+@@ -283788,7 +284736,7 @@
  id: GO:0045654
  name: positive regulation of megakaryocyte differentiation
  namespace: biological_process
@@ -23119,7 +23192,7 @@
  synonym: "activation of megakaryocyte differentiation" NARROW []
  synonym: "stimulation of megakaryocyte differentiation" NARROW []
  synonym: "up regulation of megakaryocyte differentiation" EXACT []
-@@ -283804,7 +284734,7 @@
+@@ -283804,7 +284752,7 @@
  id: GO:0045655
  name: regulation of monocyte differentiation
  namespace: biological_process
@@ -23128,7 +23201,7 @@
  is_a: GO:0002761 ! regulation of myeloid leukocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030224 ! monocyte differentiation
-@@ -283814,7 +284744,7 @@
+@@ -283814,7 +284762,7 @@
  id: GO:0045656
  name: negative regulation of monocyte differentiation
  namespace: biological_process
@@ -23137,7 +23210,7 @@
  synonym: "down regulation of monocyte differentiation" EXACT []
  synonym: "down-regulation of monocyte differentiation" EXACT []
  synonym: "downregulation of monocyte differentiation" EXACT []
-@@ -283829,7 +284759,7 @@
+@@ -283829,7 +284777,7 @@
  id: GO:0045657
  name: positive regulation of monocyte differentiation
  namespace: biological_process
@@ -23146,7 +23219,7 @@
  synonym: "activation of monocyte differentiation" NARROW []
  synonym: "stimulation of monocyte differentiation" NARROW []
  synonym: "up regulation of monocyte differentiation" EXACT []
-@@ -283845,7 +284775,7 @@
+@@ -283845,7 +284793,7 @@
  id: GO:0045658
  name: regulation of neutrophil differentiation
  namespace: biological_process
@@ -23155,7 +23228,7 @@
  is_a: GO:0030852 ! regulation of granulocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030223 ! neutrophil differentiation
-@@ -283855,7 +284785,7 @@
+@@ -283855,7 +284803,7 @@
  id: GO:0045659
  name: negative regulation of neutrophil differentiation
  namespace: biological_process
@@ -23164,7 +23237,7 @@
  synonym: "down regulation of neutrophil differentiation" EXACT []
  synonym: "down-regulation of neutrophil differentiation" EXACT []
  synonym: "downregulation of neutrophil differentiation" EXACT []
-@@ -283870,7 +284800,7 @@
+@@ -283870,7 +284818,7 @@
  id: GO:0045660
  name: positive regulation of neutrophil differentiation
  namespace: biological_process
@@ -23173,7 +23246,7 @@
  synonym: "activation of neutrophil differentiation" NARROW []
  synonym: "stimulation of neutrophil differentiation" NARROW []
  synonym: "up regulation of neutrophil differentiation" EXACT []
-@@ -283886,7 +284816,7 @@
+@@ -283886,7 +284834,7 @@
  id: GO:0045661
  name: regulation of myoblast differentiation
  namespace: biological_process
@@ -23182,7 +23255,7 @@
  is_a: GO:0045595 ! regulation of cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0045445 ! myoblast differentiation
-@@ -283896,7 +284826,7 @@
+@@ -283896,7 +284844,7 @@
  id: GO:0045662
  name: negative regulation of myoblast differentiation
  namespace: biological_process
@@ -23191,7 +23264,7 @@
  synonym: "down regulation of myoblast differentiation" EXACT []
  synonym: "down-regulation of myoblast differentiation" EXACT []
  synonym: "downregulation of myoblast differentiation" EXACT []
-@@ -283911,7 +284841,7 @@
+@@ -283911,7 +284859,7 @@
  id: GO:0045663
  name: positive regulation of myoblast differentiation
  namespace: biological_process
@@ -23200,7 +23273,7 @@
  synonym: "activation of myoblast differentiation" NARROW []
  synonym: "stimulation of myoblast differentiation" NARROW []
  synonym: "up regulation of myoblast differentiation" EXACT []
-@@ -283927,7 +284857,7 @@
+@@ -283927,7 +284875,7 @@
  id: GO:0045664
  name: regulation of neuron differentiation
  namespace: biological_process
@@ -23209,7 +23282,7 @@
  is_a: GO:0045595 ! regulation of cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030182 ! neuron differentiation
-@@ -283937,7 +284867,7 @@
+@@ -283937,7 +284885,7 @@
  id: GO:0045665
  name: negative regulation of neuron differentiation
  namespace: biological_process
@@ -23218,7 +23291,7 @@
  synonym: "down regulation of neuron differentiation" EXACT []
  synonym: "down-regulation of neuron differentiation" EXACT []
  synonym: "downregulation of neuron differentiation" EXACT []
-@@ -283952,7 +284882,7 @@
+@@ -283952,7 +284900,7 @@
  id: GO:0045666
  name: positive regulation of neuron differentiation
  namespace: biological_process
@@ -23227,7 +23300,7 @@
  synonym: "activation of neuron differentiation" NARROW []
  synonym: "stimulation of neuron differentiation" NARROW []
  synonym: "up regulation of neuron differentiation" EXACT []
-@@ -283968,7 +284898,7 @@
+@@ -283968,7 +284916,7 @@
  id: GO:0045667
  name: regulation of osteoblast differentiation
  namespace: biological_process
@@ -23236,7 +23309,7 @@
  is_a: GO:0045595 ! regulation of cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0001649 ! osteoblast differentiation
-@@ -283978,7 +284908,7 @@
+@@ -283978,7 +284926,7 @@
  id: GO:0045668
  name: negative regulation of osteoblast differentiation
  namespace: biological_process
@@ -23245,7 +23318,7 @@
  synonym: "down regulation of osteoblast differentiation" EXACT []
  synonym: "down-regulation of osteoblast differentiation" EXACT []
  synonym: "downregulation of osteoblast differentiation" EXACT []
-@@ -283993,7 +284923,7 @@
+@@ -283993,7 +284941,7 @@
  id: GO:0045669
  name: positive regulation of osteoblast differentiation
  namespace: biological_process
@@ -23254,7 +23327,7 @@
  synonym: "activation of osteoblast differentiation" NARROW []
  synonym: "stimulation of osteoblast differentiation" NARROW []
  synonym: "up regulation of osteoblast differentiation" EXACT []
-@@ -284009,7 +284939,7 @@
+@@ -284009,7 +284957,7 @@
  id: GO:0045670
  name: regulation of osteoclast differentiation
  namespace: biological_process
@@ -23263,7 +23336,7 @@
  is_a: GO:0002761 ! regulation of myeloid leukocyte differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030316 ! osteoclast differentiation
-@@ -284019,7 +284949,7 @@
+@@ -284019,7 +284967,7 @@
  id: GO:0045671
  name: negative regulation of osteoclast differentiation
  namespace: biological_process
@@ -23272,7 +23345,7 @@
  synonym: "down regulation of osteoclast differentiation" EXACT []
  synonym: "down-regulation of osteoclast differentiation" EXACT []
  synonym: "downregulation of osteoclast differentiation" EXACT []
-@@ -284034,7 +284964,7 @@
+@@ -284034,7 +284982,7 @@
  id: GO:0045672
  name: positive regulation of osteoclast differentiation
  namespace: biological_process
@@ -23281,7 +23354,7 @@
  synonym: "activation of osteoclast differentiation" NARROW []
  synonym: "stimulation of osteoclast differentiation" NARROW []
  synonym: "up regulation of osteoclast differentiation" EXACT []
-@@ -284050,7 +284980,7 @@
+@@ -284050,7 +284998,7 @@
  id: GO:0045676
  name: regulation of R7 cell differentiation
  namespace: biological_process
@@ -23290,7 +23363,7 @@
  is_a: GO:0110116 ! regulation of compound eye photoreceptor cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0045466 ! R7 cell differentiation
-@@ -284060,7 +284990,7 @@
+@@ -284060,7 +285008,7 @@
  id: GO:0045677
  name: negative regulation of R7 cell differentiation
  namespace: biological_process
@@ -23299,7 +23372,7 @@
  synonym: "down regulation of R7 differentiation" EXACT []
  synonym: "down-regulation of R7 differentiation" EXACT []
  synonym: "downregulation of R7 differentiation" EXACT []
-@@ -284076,7 +285006,7 @@
+@@ -284076,7 +285024,7 @@
  id: GO:0045678
  name: positive regulation of R7 cell differentiation
  namespace: biological_process
@@ -23308,7 +23381,7 @@
  synonym: "activation of R7 differentiation" NARROW []
  synonym: "positive regulation of R7 differentiation" EXACT [GOC:dph, GOC:tb]
  synonym: "stimulation of R7 differentiation" NARROW []
-@@ -284093,7 +285023,7 @@
+@@ -284093,7 +285041,7 @@
  id: GO:0045679
  name: regulation of R8 cell differentiation
  namespace: biological_process
@@ -23317,7 +23390,7 @@
  is_a: GO:0110116 ! regulation of compound eye photoreceptor cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0045465 ! R8 cell differentiation
-@@ -284103,7 +285033,7 @@
+@@ -284103,7 +285051,7 @@
  id: GO:0045680
  name: negative regulation of R8 cell differentiation
  namespace: biological_process
@@ -23326,7 +23399,7 @@
  synonym: "down regulation of R8 differentiation" EXACT []
  synonym: "down-regulation of R8 differentiation" EXACT []
  synonym: "downregulation of R8 differentiation" EXACT []
-@@ -284119,7 +285049,7 @@
+@@ -284119,7 +285067,7 @@
  id: GO:0045681
  name: positive regulation of R8 cell differentiation
  namespace: biological_process
@@ -23335,7 +23408,7 @@
  synonym: "activation of R8 differentiation" NARROW []
  synonym: "positive regulation of R8 differentiation" EXACT [GOC:dph, GOC:tb]
  synonym: "stimulation of R8 differentiation" NARROW []
-@@ -284136,7 +285066,7 @@
+@@ -284136,7 +285084,7 @@
  id: GO:0045682
  name: regulation of epidermis development
  namespace: biological_process
@@ -23344,7 +23417,7 @@
  synonym: "regulation of epidermal development" EXACT []
  synonym: "regulation of hypodermis development" RELATED [GOC:kmv, GOC:rk]
  is_a: GO:0050793 ! regulation of developmental process
-@@ -284148,7 +285078,7 @@
+@@ -284148,7 +285096,7 @@
  id: GO:0045683
  name: negative regulation of epidermis development
  namespace: biological_process
@@ -23353,7 +23426,7 @@
  synonym: "down regulation of epidermis development" EXACT []
  synonym: "down-regulation of epidermis development" EXACT []
  synonym: "downregulation of epidermis development" EXACT []
-@@ -284165,7 +285095,7 @@
+@@ -284165,7 +285113,7 @@
  id: GO:0045684
  name: positive regulation of epidermis development
  namespace: biological_process
@@ -23362,7 +23435,7 @@
  synonym: "activation of epidermis development" NARROW []
  synonym: "positive regulation of epidermal development" EXACT []
  synonym: "positive regulation of hypodermis development" RELATED [GOC:kmv, GOC:rk]
-@@ -284183,7 +285113,7 @@
+@@ -284183,7 +285131,7 @@
  id: GO:0045685
  name: regulation of glial cell differentiation
  namespace: biological_process
@@ -23371,7 +23444,7 @@
  synonym: "regulation of glia cell differentiation" EXACT []
  synonym: "regulation of neuroglia differentiation" EXACT []
  is_a: GO:0045595 ! regulation of cell differentiation
-@@ -284195,7 +285125,7 @@
+@@ -284195,7 +285143,7 @@
  id: GO:0045686
  name: negative regulation of glial cell differentiation
  namespace: biological_process
@@ -23380,7 +23453,7 @@
  synonym: "down regulation of glial cell differentiation" EXACT []
  synonym: "down-regulation of glial cell differentiation" EXACT []
  synonym: "downregulation of glial cell differentiation" EXACT []
-@@ -284212,7 +285142,7 @@
+@@ -284212,7 +285160,7 @@
  id: GO:0045687
  name: positive regulation of glial cell differentiation
  namespace: biological_process
@@ -23389,7 +23462,7 @@
  synonym: "activation of glial cell differentiation" NARROW []
  synonym: "positive regulation of glia cell differentiation" EXACT []
  synonym: "positive regulation of neuroglia differentiation" EXACT []
-@@ -284230,7 +285160,7 @@
+@@ -284230,7 +285178,7 @@
  id: GO:0045688
  name: regulation of antipodal cell differentiation
  namespace: biological_process
@@ -23398,7 +23471,7 @@
  is_a: GO:0045595 ! regulation of cell differentiation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0009557 ! antipodal cell differentiation
-@@ -284240,7 +285170,7 @@
+@@ -284240,7 +285188,7 @@
  id: GO:0045689
  name: negative regulation of antipodal cell differentiation
  namespace: biological_process
@@ -23407,7 +23480,7 @@
  synonym: "down regulation of antipodal cell differentiation" EXACT []
  synonym: "down-regulation of antipodal cell differentiation" EXACT []
  synonym: "downregulation of antipodal cell differentiation" EXACT []
-@@ -284255,7 +285185,7 @@
+@@ -284255,7 +285203,7 @@
  id: GO:0045690
  name: positive regulation of antipodal cell differentiation
  namespace: biological_process
@@ -23416,7 +23489,7 @@
  synonym: "activation of antipodal cell differentiation" NARROW []
  synonym: "stimulation of antipodal cell differentiation" NARROW []
  synonym: "up regulation of antipodal cell differentiation" EXACT []
-@@ -284272,7 +285202,7 @@
+@@ -284272,7 +285220,7 @@
  id: GO:0045691
  name: regulation of embryo sac central cell differentiation
  namespace: biological_process
@@ -23425,7 +23498,7 @@
  synonym: "regulation of female gametophyte central cell differentiation" EXACT []
  is_a: GO:0045595 ! regulation of cell differentiation
  is_a: GO:2000026 ! regulation of multicellular organismal development
-@@ -284284,7 +285214,7 @@
+@@ -284284,7 +285232,7 @@
  id: GO:0045692
  name: negative regulation of embryo sac central cell differentiation
  namespace: biological_process
@@ -23434,7 +23507,7 @@
  synonym: "down regulation of female gametophyte central cell differentiation" EXACT []
  synonym: "down-regulation of female gametophyte central cell differentiation" EXACT []
  synonym: "downregulation of female gametophyte central cell differentiation" EXACT []
-@@ -284301,7 +285231,7 @@
+@@ -284301,7 +285249,7 @@
  id: GO:0045693
  name: positive regulation of embryo sac central cell differentiation
  namespace: biological_process
@@ -23443,7 +23516,7 @@
  synonym: "activation of female gametophyte central cell differentiation" NARROW []
  synonym: "positive regulation of female gametophyte central cell differentiation" EXACT []
  synonym: "stimulation of female gametophyte central cell differentiation" NARROW []
-@@ -284319,7 +285249,7 @@
+@@ -284319,7 +285267,7 @@
  id: GO:0045694
  name: regulation of embryo sac egg cell differentiation
  namespace: biological_process
@@ -23452,7 +23525,7 @@
  synonym: "regulation of female gametophyte egg cell differentiation" EXACT []
  is_a: GO:0045595 ! regulation of cell differentiation
  is_a: GO:2000241 ! regulation of reproductive process
-@@ -284331,7 +285261,7 @@
+@@ -284331,7 +285279,7 @@
  id: GO:0045695
  name: negative regulation of embryo sac egg cell differentiation
  namespace: biological_process
@@ -23461,7 +23534,7 @@
  synonym: "down regulation of female gametophyte egg cell differentiation" EXACT []
  synonym: "down-regulation of female gametophyte egg cell differentiation" EXACT []
  synonym: "downregulation of female gametophyte egg cell differentiation" EXACT []
-@@ -284349,7 +285279,7 @@
+@@ -284349,7 +285297,7 @@
  id: GO:0045696
  name: positive regulation of embryo sac egg cell differentiation
  namespace: biological_process
@@ -23470,7 +23543,7 @@
  synonym: "activation of female gametophyte egg cell differentiation" NARROW []
  synonym: "positive regulation of female gametophyte egg cell differentiation" EXACT []
  synonym: "stimulation of female gametophyte egg cell differentiation" NARROW []
-@@ -284368,7 +285298,7 @@
+@@ -284368,7 +285316,7 @@
  id: GO:0045697
  name: regulation of synergid differentiation
  namespace: biological_process
@@ -23479,7 +23552,7 @@
  synonym: "regulation of synergid cell differentiation" EXACT []
  is_a: GO:0045595 ! regulation of cell differentiation
  intersection_of: GO:0065007 ! biological regulation
-@@ -284379,7 +285309,7 @@
+@@ -284379,7 +285327,7 @@
  id: GO:0045698
  name: negative regulation of synergid differentiation
  namespace: biological_process
@@ -23488,7 +23561,7 @@
  synonym: "down regulation of synergid differentiation" EXACT []
  synonym: "down-regulation of synergid differentiation" EXACT []
  synonym: "downregulation of synergid differentiation" EXACT []
-@@ -284396,7 +285326,7 @@
+@@ -284396,7 +285344,7 @@
  id: GO:0045699
  name: positive regulation of synergid differentiation
  namespace: biological_process
@@ -23497,7 +23570,7 @@
  synonym: "activation of synergid differentiation" NARROW []
  synonym: "positive regulation of synergid cell differentiation" EXACT []
  synonym: "stimulation of synergid differentiation" NARROW []
-@@ -284414,7 +285344,7 @@
+@@ -284414,7 +285362,7 @@
  id: GO:0045700
  name: regulation of spermatid nuclear differentiation
  namespace: biological_process
@@ -23506,7 +23579,7 @@
  is_a: GO:0051239 ! regulation of multicellular organismal process
  is_a: GO:1903353 ! regulation of nucleus organization
  intersection_of: GO:0065007 ! biological regulation
-@@ -284425,7 +285355,7 @@
+@@ -284425,7 +285373,7 @@
  id: GO:0045701
  name: negative regulation of spermatid nuclear differentiation
  namespace: biological_process
@@ -23515,7 +23588,7 @@
  synonym: "down regulation of spermatid nuclear differentiation" EXACT []
  synonym: "down-regulation of spermatid nuclear differentiation" EXACT []
  synonym: "downregulation of spermatid nuclear differentiation" EXACT []
-@@ -284443,7 +285373,7 @@
+@@ -284443,7 +285391,7 @@
  id: GO:0045702
  name: positive regulation of spermatid nuclear differentiation
  namespace: biological_process
@@ -23524,7 +23597,7 @@
  synonym: "activation of spermatid nuclear differentiation" NARROW []
  synonym: "stimulation of spermatid nuclear differentiation" NARROW []
  synonym: "up regulation of spermatid nuclear differentiation" EXACT []
-@@ -284468,7 +285398,7 @@
+@@ -284468,7 +285416,7 @@
  id: GO:0045704
  name: regulation of salivary gland boundary specification
  namespace: biological_process
@@ -23533,7 +23606,7 @@
  synonym: "regulation of salivary gland determination" EXACT [GOC:tb]
  is_a: GO:0050793 ! regulation of developmental process
  is_a: GO:0051239 ! regulation of multicellular organismal process
-@@ -284480,7 +285410,7 @@
+@@ -284480,7 +285428,7 @@
  id: GO:0045705
  name: negative regulation of salivary gland boundary specification
  namespace: biological_process
@@ -23542,7 +23615,7 @@
  synonym: "down regulation of salivary gland determination" EXACT []
  synonym: "down-regulation of salivary gland determination" EXACT []
  synonym: "downregulation of salivary gland determination" EXACT []
-@@ -284497,7 +285427,7 @@
+@@ -284497,7 +285445,7 @@
  id: GO:0045706
  name: positive regulation of salivary gland boundary specification
  namespace: biological_process
@@ -23551,7 +23624,7 @@
  synonym: "activation of salivary gland determination" NARROW []
  synonym: "positive regulation of salivary gland determination" EXACT [GOC:tb]
  synonym: "stimulation of salivary gland determination" NARROW []
-@@ -284515,7 +285445,7 @@
+@@ -284515,7 +285463,7 @@
  id: GO:0045707
  name: regulation of adult salivary gland boundary specification
  namespace: biological_process
@@ -23560,7 +23633,7 @@
  synonym: "regulation of adult salivary gland determination" EXACT [GOC:tb]
  is_a: GO:0045704 ! regulation of salivary gland boundary specification
  intersection_of: GO:0065007 ! biological regulation
-@@ -284526,7 +285456,7 @@
+@@ -284526,7 +285474,7 @@
  id: GO:0045708
  name: regulation of larval salivary gland boundary specification
  namespace: biological_process
@@ -23569,7 +23642,7 @@
  synonym: "regulation of larval salivary gland determination" EXACT [GOC:tb]
  is_a: GO:0045704 ! regulation of salivary gland boundary specification
  intersection_of: GO:0065007 ! biological regulation
-@@ -284537,7 +285467,7 @@
+@@ -284537,7 +285485,7 @@
  id: GO:0045709
  name: negative regulation of adult salivary gland boundary specification
  namespace: biological_process
@@ -23578,7 +23651,7 @@
  synonym: "down regulation of adult salivary gland determination" EXACT []
  synonym: "down-regulation of adult salivary gland determination" EXACT []
  synonym: "downregulation of adult salivary gland determination" EXACT []
-@@ -284553,7 +285483,7 @@
+@@ -284553,7 +285501,7 @@
  id: GO:0045710
  name: negative regulation of larval salivary gland boundary specification
  namespace: biological_process
@@ -23587,7 +23660,7 @@
  synonym: "down regulation of larval salivary gland determination" EXACT []
  synonym: "down-regulation of larval salivary gland determination" EXACT []
  synonym: "downregulation of larval salivary gland determination" EXACT []
-@@ -284569,7 +285499,7 @@
+@@ -284569,7 +285517,7 @@
  id: GO:0045711
  name: positive regulation of adult salivary gland boundary specification
  namespace: biological_process
@@ -23596,7 +23669,7 @@
  synonym: "activation of adult salivary gland determination" NARROW []
  synonym: "positive regulation of adult salivary gland determination" EXACT [GOC:tb]
  synonym: "stimulation of adult salivary gland determination" NARROW []
-@@ -284586,7 +285516,7 @@
+@@ -284586,7 +285534,7 @@
  id: GO:0045712
  name: positive regulation of larval salivary gland boundary specification
  namespace: biological_process
@@ -23605,7 +23678,7 @@
  synonym: "activation of larval salivary gland determination" NARROW []
  synonym: "positive regulation of larval salivary gland determination" EXACT [GOC:tb]
  synonym: "stimulation of larval salivary gland determination" NARROW []
-@@ -284603,7 +285533,7 @@
+@@ -284603,7 +285551,7 @@
  id: GO:0045713
  name: obsolete low-density lipoprotein particle receptor biosynthetic process
  namespace: biological_process
@@ -23614,7 +23687,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "LDLr biosynthesis" EXACT []
  synonym: "LDLr biosynthetic process" EXACT []
-@@ -284619,7 +285549,7 @@
+@@ -284619,7 +285567,7 @@
  id: GO:0045714
  name: obsolete regulation of low-density lipoprotein particle receptor biosynthetic process
  namespace: biological_process
@@ -23623,7 +23696,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "regulation of LDLr biosynthesis" EXACT []
  synonym: "regulation of LDLr biosynthetic process" EXACT []
-@@ -284635,7 +285565,7 @@
+@@ -284635,7 +285583,7 @@
  id: GO:0045715
  name: obsolete negative regulation of low-density lipoprotein particle receptor biosynthetic process
  namespace: biological_process
@@ -23632,7 +23705,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "down regulation of low-density lipoprotein receptor biosynthetic process" EXACT []
  synonym: "down-regulation of low-density lipoprotein receptor biosynthetic process" EXACT []
-@@ -284653,7 +285583,7 @@
+@@ -284653,7 +285601,7 @@
  id: GO:0045716
  name: obsolete positive regulation of low-density lipoprotein particle receptor biosynthetic process
  namespace: biological_process
@@ -23641,7 +23714,7 @@
  comment: The reason for obsoletion is that those represent specific gene products, and genes annotated to those terms should be annotated to 'regulation of gene expression' or 'regulation of transcription' or some signaling term.
  synonym: "activation of low-density lipoprotein receptor biosynthetic process" NARROW []
  synonym: "positive regulation of low-density lipoprotein receptor anabolism" EXACT []
-@@ -284672,7 +285602,7 @@
+@@ -284672,7 +285620,7 @@
  id: GO:0045717
  name: negative regulation of fatty acid biosynthetic process
  namespace: biological_process
@@ -23650,7 +23723,7 @@
  synonym: "down regulation of fatty acid biosynthetic process" EXACT []
  synonym: "down-regulation of fatty acid biosynthetic process" EXACT []
  synonym: "downregulation of fatty acid biosynthetic process" EXACT []
-@@ -284692,7 +285622,7 @@
+@@ -284692,7 +285640,7 @@
  id: GO:0045718
  name: obsolete negative regulation of flagellum assembly
  namespace: biological_process
@@ -23659,7 +23732,7 @@
  comment: This term was made obsolete because microtubule-based flagellum (GO:0009434) and motile cilium (GO:0031514), as referenced by this term, were determined to be equivalent and merged. When a merge for this term was considered, it was noticed that both eukaryotic and prokaryotic proteins are annotated to it because its meaning had been ambiguous so obsoletion was considered safest.
  synonym: "down regulation of flagellum assembly" EXACT []
  synonym: "down-regulation of flagellum assembly" EXACT []
-@@ -284708,7 +285638,7 @@
+@@ -284708,7 +285656,7 @@
  id: GO:0045719
  name: negative regulation of glycogen biosynthetic process
  namespace: biological_process
@@ -23668,7 +23741,7 @@
  synonym: "down regulation of glycogen biosynthetic process" EXACT []
  synonym: "down-regulation of glycogen biosynthetic process" EXACT []
  synonym: "downregulation of glycogen biosynthetic process" EXACT []
-@@ -284728,7 +285658,7 @@
+@@ -284728,7 +285676,7 @@
  id: GO:0045720
  name: negative regulation of integrin biosynthetic process
  namespace: biological_process
@@ -23677,7 +23750,7 @@
  synonym: "down regulation of integrin biosynthetic process" EXACT []
  synonym: "down-regulation of integrin biosynthetic process" EXACT []
  synonym: "downregulation of integrin biosynthetic process" EXACT []
-@@ -284748,7 +285678,7 @@
+@@ -284748,7 +285696,7 @@
  id: GO:0045721
  name: negative regulation of gluconeogenesis
  namespace: biological_process
@@ -23686,7 +23759,7 @@
  synonym: "down regulation of gluconeogenesis" EXACT []
  synonym: "down-regulation of gluconeogenesis" EXACT []
  synonym: "downregulation of gluconeogenesis" EXACT []
-@@ -284765,7 +285695,7 @@
+@@ -284765,7 +285713,7 @@
  id: GO:0045722
  name: positive regulation of gluconeogenesis
  namespace: biological_process
@@ -23695,7 +23768,7 @@
  synonym: "activation of gluconeogenesis" NARROW []
  synonym: "stimulation of gluconeogenesis" NARROW []
  synonym: "up regulation of gluconeogenesis" EXACT []
-@@ -284782,7 +285712,7 @@
+@@ -284782,7 +285730,7 @@
  id: GO:0045723
  name: positive regulation of fatty acid biosynthetic process
  namespace: biological_process
@@ -23704,7 +23777,7 @@
  synonym: "activation of fatty acid biosynthetic process" NARROW []
  synonym: "positive regulation of fatty acid anabolism" EXACT []
  synonym: "positive regulation of fatty acid biosynthesis" EXACT []
-@@ -284803,7 +285733,7 @@
+@@ -284803,7 +285751,7 @@
  id: GO:0045724
  name: positive regulation of cilium assembly
  namespace: biological_process
@@ -23713,7 +23786,7 @@
  synonym: "activation of cilium assembly" NARROW []
  synonym: "positive regulation of flagellum assembly" BROAD []
  synonym: "positive regulation of flagellum biogenesis" RELATED [GOC:mah]
-@@ -284822,7 +285752,7 @@
+@@ -284822,7 +285770,7 @@
  id: GO:0045725
  name: positive regulation of glycogen biosynthetic process
  namespace: biological_process
@@ -23722,7 +23795,7 @@
  synonym: "activation of glycogen biosynthetic process" NARROW []
  synonym: "positive regulation of glycogen anabolism" EXACT []
  synonym: "positive regulation of glycogen biosynthesis" EXACT []
-@@ -284843,7 +285773,7 @@
+@@ -284843,7 +285791,7 @@
  id: GO:0045726
  name: positive regulation of integrin biosynthetic process
  namespace: biological_process
@@ -23731,7 +23804,7 @@
  synonym: "activation of integrin biosynthetic process" NARROW []
  synonym: "positive regulation of integrin anabolism" EXACT []
  synonym: "positive regulation of integrin biosynthesis" EXACT []
-@@ -284865,7 +285795,7 @@
+@@ -284865,7 +285813,7 @@
  name: positive regulation of translation
  namespace: biological_process
  alt_id: GO:0045946
@@ -23740,7 +23813,7 @@
  synonym: "activation of protein biosynthetic process" NARROW []
  synonym: "positive regulation of protein anabolism" EXACT []
  synonym: "positive regulation of protein biosynthesis" EXACT []
-@@ -284920,7 +285850,7 @@
+@@ -284920,7 +285868,7 @@
  namespace: biological_process
  alt_id: GO:1903364
  alt_id: GO:2000600
@@ -23749,7 +23822,7 @@
  synonym: "activation of cellular protein breakdown" NARROW [GOC:TermGenie]
  synonym: "activation of cellular protein catabolic process" NARROW [GOC:TermGenie]
  synonym: "activation of cellular protein catabolism" NARROW [GOC:TermGenie]
-@@ -284967,7 +285897,7 @@
+@@ -284967,7 +285915,7 @@
  name: acetate catabolic process
  namespace: biological_process
  alt_id: GO:0019663
@@ -23758,7 +23831,7 @@
  synonym: "acetate breakdown" EXACT []
  synonym: "acetate catabolism" EXACT []
  synonym: "acetate degradation" EXACT []
-@@ -284979,7 +285909,7 @@
+@@ -284979,7 +285927,7 @@
  id: GO:0045734
  name: regulation of acetate catabolic process
  namespace: biological_process
@@ -23767,7 +23840,7 @@
  synonym: "regulation of acetate breakdown" EXACT []
  synonym: "regulation of acetate catabolism" EXACT []
  synonym: "regulation of acetate degradation" EXACT []
-@@ -285008,7 +285938,7 @@
+@@ -285008,7 +285956,7 @@
  id: GO:0045736
  name: negative regulation of cyclin-dependent protein serine/threonine kinase activity
  namespace: biological_process
@@ -23776,7 +23849,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0000079 ! regulation of cyclin-dependent protein serine/threonine kinase activity
  is_a: GO:0045786 ! negative regulation of cell cycle
-@@ -285022,7 +285952,7 @@
+@@ -285022,7 +285970,7 @@
  id: GO:0045737
  name: positive regulation of cyclin-dependent protein serine/threonine kinase activity
  namespace: biological_process
@@ -23785,7 +23858,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "activation of cyclin-dependent protein kinase activity" BROAD []
  synonym: "positive regulation of CDK activity" BROAD []
-@@ -285043,7 +285973,7 @@
+@@ -285043,7 +285991,7 @@
  id: GO:0045738
  name: negative regulation of DNA repair
  namespace: biological_process
@@ -23794,7 +23867,7 @@
  synonym: "down regulation of DNA repair" EXACT []
  synonym: "down-regulation of DNA repair" EXACT []
  synonym: "downregulation of DNA repair" EXACT []
-@@ -285059,7 +285989,7 @@
+@@ -285059,7 +286007,7 @@
  id: GO:0045739
  name: positive regulation of DNA repair
  namespace: biological_process
@@ -23803,7 +23876,7 @@
  synonym: "activation of DNA repair" NARROW []
  synonym: "stimulation of DNA repair" NARROW []
  synonym: "up regulation of DNA repair" EXACT []
-@@ -285076,7 +286006,7 @@
+@@ -285076,7 +286024,7 @@
  id: GO:0045740
  name: positive regulation of DNA replication
  namespace: biological_process
@@ -23812,7 +23885,7 @@
  synonym: "activation of DNA replication" NARROW []
  synonym: "stimulation of DNA replication" NARROW []
  synonym: "up regulation of DNA replication" EXACT []
-@@ -285093,7 +286023,7 @@
+@@ -285093,7 +286041,7 @@
  id: GO:0045741
  name: obsolete positive regulation of epidermal growth factor-activated receptor activity
  namespace: biological_process
@@ -23821,7 +23894,7 @@
  comment: This term was obsoleted because it represents a molecular function. Consider molecular function regulator activity ; GO:0098772 or a child.
  synonym: "activation of epidermal growth factor receptor activity" NARROW []
  synonym: "positive regulation of EGF receptor activity" EXACT []
-@@ -285112,7 +286042,7 @@
+@@ -285112,7 +286060,7 @@
  id: GO:0045742
  name: positive regulation of epidermal growth factor receptor signaling pathway
  namespace: biological_process
@@ -23830,7 +23903,7 @@
  synonym: "activation of epidermal growth factor receptor signaling pathway" NARROW []
  synonym: "positive regulation of EGF receptor signaling pathway" EXACT []
  synonym: "positive regulation of EGF receptor signalling pathway" EXACT []
-@@ -285132,7 +286062,7 @@
+@@ -285132,7 +286080,7 @@
  id: GO:0045743
  name: positive regulation of fibroblast growth factor receptor signaling pathway
  namespace: biological_process
@@ -23839,7 +23912,7 @@
  synonym: "activation of fibroblast growth factor receptor signaling pathway" NARROW []
  synonym: "positive regulation of FGF receptor signaling pathway" EXACT []
  synonym: "positive regulation of FGF receptor signalling pathway" EXACT []
-@@ -285151,7 +286081,7 @@
+@@ -285151,7 +286099,7 @@
  id: GO:0045744
  name: negative regulation of G protein-coupled receptor signaling pathway
  namespace: biological_process
@@ -23848,7 +23921,7 @@
  synonym: "down regulation of G-protein coupled receptor protein signaling pathway" EXACT []
  synonym: "down-regulation of G-protein coupled receptor protein signaling pathway" EXACT []
  synonym: "downregulation of G-protein coupled receptor protein signaling pathway" EXACT []
-@@ -285173,7 +286103,7 @@
+@@ -285173,7 +286121,7 @@
  id: GO:0045745
  name: positive regulation of G protein-coupled receptor signaling pathway
  namespace: biological_process
@@ -23857,7 +23930,7 @@
  synonym: "activation of G-protein coupled receptor protein signaling pathway" NARROW []
  synonym: "positive regulation of G protein coupled receptor protein signaling pathway" EXACT []
  synonym: "positive regulation of G protein coupled receptor protein signalling pathway" EXACT []
-@@ -285197,7 +286127,7 @@
+@@ -285197,7 +286145,7 @@
  id: GO:0045746
  name: negative regulation of Notch signaling pathway
  namespace: biological_process
@@ -23866,7 +23939,7 @@
  synonym: "down regulation of Notch signaling pathway" EXACT []
  synonym: "down-regulation of Notch signaling pathway" EXACT []
  synonym: "downregulation of Notch signaling pathway" EXACT []
-@@ -285216,7 +286146,7 @@
+@@ -285216,7 +286164,7 @@
  id: GO:0045747
  name: positive regulation of Notch signaling pathway
  namespace: biological_process
@@ -23875,7 +23948,7 @@
  synonym: "activation of Notch signaling pathway" NARROW []
  synonym: "positive regulation of N signaling pathway" EXACT []
  synonym: "positive regulation of N signalling pathway" EXACT []
-@@ -285235,7 +286165,7 @@
+@@ -285235,7 +286183,7 @@
  id: GO:0045748
  name: positive regulation of R8 cell spacing in compound eye
  namespace: biological_process
@@ -23884,7 +23957,7 @@
  synonym: "activation of R8 spacing" NARROW []
  synonym: "positive regulation of R8 spacing" EXACT [GOC:dph, GOC:tb]
  synonym: "stimulation of R8 spacing" NARROW []
-@@ -285248,7 +286178,7 @@
+@@ -285248,7 +286196,7 @@
  id: GO:0045749
  name: obsolete negative regulation of S phase of mitotic cell cycle
  namespace: biological_process
@@ -23893,7 +23966,7 @@
  comment: This term was made obsolete as part of the cell cycle overhaul. This is because it was decided that cell cycle phases are intervals and so cannot be regulated, rather it is the transitions between the phases that are regulated.
  synonym: "down regulation of S phase of mitotic cell cycle" EXACT []
  synonym: "down-regulation of S phase of mitotic cell cycle" EXACT []
-@@ -285262,7 +286192,7 @@
+@@ -285262,7 +286210,7 @@
  id: GO:0045750
  name: obsolete positive regulation of S phase of mitotic cell cycle
  namespace: biological_process
@@ -23902,7 +23975,7 @@
  comment: This term was made obsolete as part of the cell cycle overhaul. This is because it was decided that cell cycle phases are intervals and so cannot be regulated, rather it is the transitions between the phases that are regulated.
  synonym: "activation of S phase of mitotic cell cycle" NARROW []
  synonym: "positive regulation of S phase of mitotic cell cycle" EXACT []
-@@ -285277,7 +286207,7 @@
+@@ -285277,7 +286225,7 @@
  id: GO:0045751
  name: negative regulation of Toll signaling pathway
  namespace: biological_process
@@ -23911,7 +23984,7 @@
  synonym: "down regulation of Toll signaling pathway" EXACT []
  synonym: "down-regulation of Toll signaling pathway" EXACT []
  synonym: "downregulation of Toll signaling pathway" EXACT []
-@@ -285294,7 +286224,7 @@
+@@ -285294,7 +286242,7 @@
  id: GO:0045752
  name: positive regulation of Toll signaling pathway
  namespace: biological_process
@@ -23920,7 +23993,7 @@
  synonym: "activation of Toll signaling pathway" NARROW []
  synonym: "positive regulation of Tl signaling pathway" EXACT []
  synonym: "positive regulation of Tl signalling pathway" EXACT []
-@@ -285312,7 +286242,7 @@
+@@ -285312,7 +286260,7 @@
  id: GO:0045753
  name: negative regulation of acetate catabolic process
  namespace: biological_process
@@ -23929,7 +24002,7 @@
  synonym: "down regulation of acetate catabolic process" EXACT []
  synonym: "down-regulation of acetate catabolic process" EXACT []
  synonym: "downregulation of acetate catabolic process" EXACT []
-@@ -285331,7 +286261,7 @@
+@@ -285331,7 +286279,7 @@
  id: GO:0045754
  name: positive regulation of acetate catabolic process
  namespace: biological_process
@@ -23938,7 +24011,7 @@
  synonym: "activation of acetate catabolic process" NARROW []
  synonym: "positive regulation of acetate breakdown" EXACT []
  synonym: "positive regulation of acetate catabolism" EXACT []
-@@ -285351,7 +286281,7 @@
+@@ -285351,7 +286299,7 @@
  id: GO:0045755
  name: obsolete negative regulation of initiation of acetate catabolic process by acetate
  namespace: biological_process
@@ -23947,7 +24020,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "down regulation of initiation of acetate catabolic process by acetate" EXACT []
  synonym: "down-regulation of initiation of acetate catabolic process by acetate" EXACT []
-@@ -285366,7 +286296,7 @@
+@@ -285366,7 +286314,7 @@
  id: GO:0045756
  name: obsolete positive regulation of initiation of acetate catabolic process by acetate
  namespace: biological_process
@@ -23956,7 +24029,7 @@
  comment: The reason for obsoletion is that this term represents a molecular function.
  synonym: "activation of initiation of acetate catabolic process by acetate" NARROW []
  synonym: "positive regulation of initiation of acetate breakdown by acetate" EXACT []
-@@ -285382,7 +286312,7 @@
+@@ -285382,7 +286330,7 @@
  id: GO:0045757
  name: obsolete negative regulation of actin polymerization and/or depolymerization
  namespace: biological_process
@@ -23965,7 +24038,7 @@
  comment: This term was made obsolete because it has been split.
  synonym: "negative regulation of actin polymerization and/or depolymerization" EXACT []
  is_obsolete: true
-@@ -285393,7 +286323,7 @@
+@@ -285393,7 +286341,7 @@
  id: GO:0045758
  name: obsolete positive regulation of actin polymerization and/or depolymerization
  namespace: biological_process
@@ -23974,7 +24047,7 @@
  comment: This term was made obsolete because it has been split.
  synonym: "positive regulation of actin polymerization and/or depolymerization" EXACT []
  is_obsolete: true
-@@ -285404,7 +286334,7 @@
+@@ -285404,7 +286352,7 @@
  id: GO:0045759
  name: negative regulation of action potential
  namespace: biological_process
@@ -23983,7 +24056,7 @@
  synonym: "down regulation of action potential" EXACT []
  synonym: "down-regulation of action potential" EXACT []
  synonym: "downregulation of action potential" EXACT []
-@@ -285419,7 +286349,7 @@
+@@ -285419,7 +286367,7 @@
  id: GO:0045760
  name: positive regulation of action potential
  namespace: biological_process
@@ -23992,7 +24065,7 @@
  synonym: "activation of action potential" NARROW []
  synonym: "stimulation of action potential" NARROW []
  synonym: "up regulation of action potential" EXACT []
-@@ -285435,7 +286365,7 @@
+@@ -285435,7 +286383,7 @@
  id: GO:0045761
  name: regulation of adenylate cyclase activity
  namespace: biological_process
@@ -24001,7 +24074,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "adenylate cyclase regulator" RELATED []
  synonym: "regulation of adenylyl cyclase activity" EXACT []
-@@ -285448,7 +286378,7 @@
+@@ -285448,7 +286396,7 @@
  id: GO:0045762
  name: positive regulation of adenylate cyclase activity
  namespace: biological_process
@@ -24010,7 +24083,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "adenylate cyclase activator" RELATED []
  synonym: "positive regulation of adenylyl cyclase activity" EXACT []
-@@ -285467,7 +286397,7 @@
+@@ -285467,7 +286415,7 @@
  id: GO:0045763
  name: negative regulation of amino acid metabolic process
  namespace: biological_process
@@ -24019,7 +24092,7 @@
  synonym: "down regulation of amino acid metabolic process" EXACT []
  synonym: "down-regulation of amino acid metabolic process" EXACT []
  synonym: "downregulation of amino acid metabolic process" EXACT []
-@@ -285484,7 +286414,7 @@
+@@ -285484,7 +286432,7 @@
  id: GO:0045764
  name: positive regulation of amino acid metabolic process
  namespace: biological_process
@@ -24028,7 +24101,7 @@
  synonym: "activation of amino acid metabolic process" NARROW []
  synonym: "positive regulation of amino acid metabolism" EXACT []
  synonym: "positive regulation of cellular amino acid metabolic process" EXACT []
-@@ -285502,7 +286432,7 @@
+@@ -285502,7 +286450,7 @@
  id: GO:0045765
  name: regulation of angiogenesis
  namespace: biological_process
@@ -24037,7 +24110,7 @@
  is_a: GO:0022603 ! regulation of anatomical structure morphogenesis
  is_a: GO:1901342 ! regulation of vasculature development
  intersection_of: GO:0065007 ! biological regulation
-@@ -285513,7 +286443,7 @@
+@@ -285513,7 +286461,7 @@
  id: GO:0045766
  name: positive regulation of angiogenesis
  namespace: biological_process
@@ -24046,7 +24119,7 @@
  synonym: "activation of angiogenesis" NARROW []
  synonym: "stimulation of angiogenesis" NARROW []
  synonym: "up regulation of angiogenesis" EXACT []
-@@ -285529,7 +286459,7 @@
+@@ -285529,7 +286477,7 @@
  id: GO:0045767
  name: obsolete regulation of anti-apoptosis
  namespace: biological_process
@@ -24055,7 +24128,7 @@
  comment: This term was made obsolete because it was ill-defined.
  synonym: "regulation of anti-apoptosis" EXACT []
  is_obsolete: true
-@@ -285538,7 +286468,7 @@
+@@ -285538,7 +286486,7 @@
  id: GO:0045768
  name: obsolete positive regulation of anti-apoptosis
  namespace: biological_process
@@ -24064,7 +24137,7 @@
  comment: This term was made obsolete because it was ill-defined.
  synonym: "activation of anti-apoptosis" NARROW []
  synonym: "positive regulation of anti-apoptosis" EXACT []
-@@ -285552,7 +286482,7 @@
+@@ -285552,7 +286500,7 @@
  id: GO:0045769
  name: negative regulation of asymmetric cell division
  namespace: biological_process
@@ -24073,7 +24146,7 @@
  synonym: "down regulation of asymmetric cell division" EXACT []
  synonym: "down-regulation of asymmetric cell division" EXACT []
  synonym: "downregulation of asymmetric cell division" EXACT []
-@@ -285567,7 +286497,7 @@
+@@ -285567,7 +286515,7 @@
  id: GO:0045770
  name: positive regulation of asymmetric cell division
  namespace: biological_process
@@ -24082,7 +24155,7 @@
  synonym: "activation of asymmetric cell division" NARROW []
  synonym: "stimulation of asymmetric cell division" NARROW []
  synonym: "up regulation of asymmetric cell division" EXACT []
-@@ -285583,7 +286513,7 @@
+@@ -285583,7 +286531,7 @@
  id: GO:0045771
  name: negative regulation of autophagosome size
  namespace: biological_process
@@ -24091,7 +24164,7 @@
  synonym: "down regulation of autophagic vacuole size" EXACT []
  synonym: "down-regulation of autophagic vacuole size" EXACT []
  synonym: "downregulation of autophagic vacuole size" EXACT []
-@@ -285595,7 +286525,7 @@
+@@ -285595,7 +286543,7 @@
  id: GO:0045772
  name: positive regulation of autophagosome size
  namespace: biological_process
@@ -24100,7 +24173,7 @@
  synonym: "activation of autophagic vacuole size" NARROW []
  synonym: "positive regulation of autophagic vacuole size" EXACT [GOC:autophagy]
  synonym: "stimulation of autophagic vacuole size" NARROW []
-@@ -285608,7 +286538,7 @@
+@@ -285608,7 +286556,7 @@
  id: GO:0045773
  name: positive regulation of axon extension
  namespace: biological_process
@@ -24109,7 +24182,7 @@
  synonym: "activation of axon extension" NARROW []
  synonym: "stimulation of axon extension" NARROW []
  synonym: "up regulation of axon extension" EXACT []
-@@ -285626,7 +286556,7 @@
+@@ -285626,7 +286574,7 @@
  id: GO:0045774
  name: negative regulation of beta 2 integrin biosynthetic process
  namespace: biological_process
@@ -24118,7 +24191,7 @@
  synonym: "down regulation of beta 2 integrin biosynthetic process" EXACT []
  synonym: "down-regulation of beta 2 integrin biosynthetic process" EXACT []
  synonym: "downregulation of beta 2 integrin biosynthetic process" EXACT []
-@@ -285645,7 +286575,7 @@
+@@ -285645,7 +286593,7 @@
  id: GO:0045775
  name: positive regulation of beta 2 integrin biosynthetic process
  namespace: biological_process
@@ -24127,7 +24200,7 @@
  synonym: "activation of beta 2 integrin biosynthetic process" NARROW []
  synonym: "positive regulation of beta 2 integrin anabolism" EXACT []
  synonym: "positive regulation of beta 2 integrin biosynthesis" EXACT []
-@@ -285665,7 +286595,7 @@
+@@ -285665,7 +286613,7 @@
  id: GO:0045776
  name: negative regulation of blood pressure
  namespace: biological_process
@@ -24136,7 +24209,7 @@
  synonym: "down regulation of blood pressure" EXACT []
  synonym: "down-regulation of blood pressure" EXACT []
  synonym: "downregulation of blood pressure" EXACT []
-@@ -285676,7 +286606,7 @@
+@@ -285676,7 +286624,7 @@
  id: GO:0045777
  name: positive regulation of blood pressure
  namespace: biological_process
@@ -24145,7 +24218,7 @@
  synonym: "activation of blood pressure" NARROW []
  synonym: "stimulation of blood pressure" NARROW []
  synonym: "up regulation of blood pressure" EXACT []
-@@ -285688,7 +286618,7 @@
+@@ -285688,7 +286636,7 @@
  id: GO:0045778
  name: positive regulation of ossification
  namespace: biological_process
@@ -24154,7 +24227,7 @@
  synonym: "activation of ossification" NARROW []
  synonym: "positive regulation of bone biosynthesis" EXACT []
  synonym: "positive regulation of bone formation" EXACT []
-@@ -285706,7 +286636,7 @@
+@@ -285706,7 +286654,7 @@
  id: GO:0045779
  name: negative regulation of bone resorption
  namespace: biological_process
@@ -24163,7 +24236,7 @@
  synonym: "down regulation of bone resorption" EXACT []
  synonym: "down-regulation of bone resorption" EXACT []
  synonym: "downregulation of bone resorption" EXACT []
-@@ -285721,7 +286651,7 @@
+@@ -285721,7 +286669,7 @@
  id: GO:0045780
  name: positive regulation of bone resorption
  namespace: biological_process
@@ -24172,7 +24245,7 @@
  synonym: "activation of bone resorption" NARROW []
  synonym: "stimulation of bone resorption" NARROW []
  synonym: "up regulation of bone resorption" EXACT []
-@@ -285737,7 +286667,7 @@
+@@ -285737,7 +286685,7 @@
  id: GO:0045781
  name: negative regulation of cell budding
  namespace: biological_process
@@ -24181,7 +24254,7 @@
  synonym: "down regulation of cell budding" EXACT []
  synonym: "down-regulation of cell budding" EXACT []
  synonym: "downregulation of cell budding" EXACT []
-@@ -285754,7 +286684,7 @@
+@@ -285754,7 +286702,7 @@
  id: GO:0045782
  name: positive regulation of cell budding
  namespace: biological_process
@@ -24190,7 +24263,7 @@
  synonym: "activation of cell budding" NARROW []
  synonym: "positive regulation of budding" BROAD []
  synonym: "stimulation of cell budding" NARROW []
-@@ -285772,7 +286702,7 @@
+@@ -285772,7 +286720,7 @@
  id: GO:0045783
  name: obsolete negative regulation of calcium in ER
  namespace: biological_process
@@ -24199,7 +24272,7 @@
  comment: This term was made obsolete because the term name is ambiguous and as a result, the term was incorrectly placed in the ontology (it was a descendant of 'protein transport').
  synonym: "negative regulation of calcium in ER" EXACT []
  is_obsolete: true
-@@ -285783,7 +286713,7 @@
+@@ -285783,7 +286731,7 @@
  id: GO:0045784
  name: obsolete positive regulation of calcium in ER
  namespace: biological_process
@@ -24208,7 +24281,7 @@
  comment: This term was made obsolete because the term name is ambiguous and as a result, the term was incorrectly placed in the ontology (it was a descendant of 'protein transport').
  synonym: "positive regulation of calcium in ER" EXACT []
  is_obsolete: true
-@@ -285794,7 +286724,7 @@
+@@ -285794,7 +286742,7 @@
  id: GO:0045785
  name: positive regulation of cell adhesion
  namespace: biological_process
@@ -24217,7 +24290,7 @@
  synonym: "activation of cell adhesion" NARROW []
  synonym: "stimulation of cell adhesion" NARROW []
  synonym: "up regulation of cell adhesion" EXACT []
-@@ -285810,7 +286740,7 @@
+@@ -285810,7 +286758,7 @@
  id: GO:0045786
  name: negative regulation of cell cycle
  namespace: biological_process
@@ -24226,7 +24299,7 @@
  synonym: "down regulation of progression through cell cycle" EXACT []
  synonym: "down-regulation of progression through cell cycle" EXACT []
  synonym: "downregulation of progression through cell cycle" EXACT []
-@@ -285828,7 +286758,7 @@
+@@ -285828,7 +286776,7 @@
  id: GO:0045787
  name: positive regulation of cell cycle
  namespace: biological_process
@@ -24235,7 +24308,7 @@
  synonym: "activation of progression through cell cycle" NARROW []
  synonym: "positive regulation of cell cycle progression" EXACT []
  synonym: "positive regulation of progression through cell cycle" EXACT [GOC:dph, GOC:tb]
-@@ -285847,7 +286777,7 @@
+@@ -285847,7 +286795,7 @@
  id: GO:0045792
  name: negative regulation of cell size
  namespace: biological_process
@@ -24244,7 +24317,7 @@
  synonym: "down regulation of cell size" EXACT []
  synonym: "down-regulation of cell size" EXACT []
  synonym: "downregulation of cell size" EXACT []
-@@ -285858,7 +286788,7 @@
+@@ -285858,7 +286806,7 @@
  id: GO:0045793
  name: positive regulation of cell size
  namespace: biological_process
@@ -24253,7 +24326,7 @@
  synonym: "activation of cell size" NARROW []
  synonym: "stimulation of cell size" NARROW []
  synonym: "up regulation of cell size" EXACT []
-@@ -285870,7 +286800,7 @@
+@@ -285870,7 +286818,7 @@
  id: GO:0045794
  name: negative regulation of cell volume
  namespace: biological_process
@@ -24262,7 +24335,7 @@
  synonym: "cell regulatory volume decrease" RELATED [PMID:12388065]
  synonym: "RVD" RELATED [PMID:12388065]
  is_a: GO:0006884 ! cell volume homeostasis
-@@ -285879,14 +286809,14 @@
+@@ -285879,14 +286827,14 @@
  id: GO:0045795
  name: positive regulation of cell volume
  namespace: biological_process
@@ -24279,7 +24352,7 @@
  synonym: "down regulation of cholesterol absorption" EXACT []
  synonym: "down-regulation of cholesterol absorption" EXACT []
  synonym: "downregulation of cholesterol absorption" EXACT []
-@@ -285901,7 +286831,7 @@
+@@ -285901,7 +286849,7 @@
  id: GO:0045797
  name: positive regulation of intestinal cholesterol absorption
  namespace: biological_process
@@ -24288,7 +24361,7 @@
  synonym: "activation of cholesterol absorption" NARROW []
  synonym: "stimulation of cholesterol absorption" NARROW []
  synonym: "up regulation of cholesterol absorption" EXACT []
-@@ -285917,7 +286847,7 @@
+@@ -285917,7 +286865,7 @@
  id: GO:0045800
  name: negative regulation of chitin-based cuticle tanning
  namespace: biological_process
@@ -24297,7 +24370,7 @@
  synonym: "down regulation of cuticle tanning" EXACT []
  synonym: "down-regulation of cuticle tanning" EXACT []
  synonym: "downregulation of cuticle tanning" EXACT []
-@@ -285935,7 +286865,7 @@
+@@ -285935,7 +286883,7 @@
  id: GO:0045801
  name: positive regulation of chitin-based cuticle tanning
  namespace: biological_process
@@ -24306,7 +24379,7 @@
  synonym: "activation of cuticle tanning" NARROW []
  synonym: "positive regulation of cuticle hardening" NARROW []
  synonym: "positive regulation of cuticle tanning" EXACT []
-@@ -285954,7 +286884,7 @@
+@@ -285954,7 +286902,7 @@
  id: GO:0045802
  name: obsolete negative regulation of cytoskeleton
  namespace: biological_process
@@ -24315,7 +24388,7 @@
  comment: This term was made obsolete because cytoskeleton is not a process, so the term made no sense.
  synonym: "negative regulation of cytoskeleton" EXACT []
  is_obsolete: true
-@@ -285964,7 +286894,7 @@
+@@ -285964,7 +286912,7 @@
  id: GO:0045803
  name: obsolete positive regulation of cytoskeleton
  namespace: biological_process
@@ -24324,7 +24397,7 @@
  comment: This term was made obsolete because cytoskeleton is not a process, so the term made no sense.
  synonym: "positive regulation of cytoskeleton" EXACT []
  is_obsolete: true
-@@ -285974,7 +286904,7 @@
+@@ -285974,7 +286922,7 @@
  id: GO:0045804
  name: negative regulation of eclosion
  namespace: biological_process
@@ -24333,7 +24406,7 @@
  synonym: "down regulation of eclosion" EXACT []
  synonym: "down-regulation of eclosion" EXACT []
  synonym: "downregulation of eclosion" EXACT []
-@@ -285990,7 +286920,7 @@
+@@ -285990,7 +286938,7 @@
  id: GO:0045805
  name: positive regulation of eclosion
  namespace: biological_process
@@ -24342,7 +24415,7 @@
  synonym: "activation of eclosion" NARROW []
  synonym: "stimulation of eclosion" NARROW []
  synonym: "up regulation of eclosion" EXACT []
-@@ -286006,7 +286936,7 @@
+@@ -286006,7 +286954,7 @@
  id: GO:0045806
  name: negative regulation of endocytosis
  namespace: biological_process
@@ -24351,7 +24424,7 @@
  synonym: "down regulation of endocytosis" EXACT []
  synonym: "down-regulation of endocytosis" EXACT []
  synonym: "downregulation of endocytosis" EXACT []
-@@ -286022,7 +286952,7 @@
+@@ -286022,7 +286970,7 @@
  id: GO:0045807
  name: positive regulation of endocytosis
  namespace: biological_process
@@ -24360,7 +24433,7 @@
  synonym: "activation of endocytosis" NARROW []
  synonym: "stimulation of endocytosis" NARROW []
  synonym: "up regulation of endocytosis" EXACT []
-@@ -286039,7 +286969,7 @@
+@@ -286039,7 +286987,7 @@
  id: GO:0045808
  name: negative regulation of establishment of competence for transformation
  namespace: biological_process
@@ -24369,7 +24442,7 @@
  synonym: "down regulation of establishment of competence for transformation" EXACT []
  synonym: "down-regulation of establishment of competence for transformation" EXACT []
  synonym: "downregulation of establishment of competence for transformation" EXACT []
-@@ -286056,7 +286986,7 @@
+@@ -286056,7 +287004,7 @@
  id: GO:0045809
  name: positive regulation of establishment of competence for transformation
  namespace: biological_process
@@ -24378,7 +24451,7 @@
  synonym: "activation of establishment of competence for transformation" NARROW []
  synonym: "activator of the establishment of competence for transformation activity" RELATED []
  synonym: "stimulation of establishment of competence for transformation" NARROW []
-@@ -286074,7 +287004,7 @@
+@@ -286074,7 +287022,7 @@
  id: GO:0045812
  name: negative regulation of Wnt signaling pathway, calcium modulating pathway
  namespace: biological_process
@@ -24387,7 +24460,7 @@
  synonym: "down regulation of frizzled-2 signaling pathway" EXACT []
  synonym: "down-regulation of frizzled-2 signaling pathway" EXACT []
  synonym: "downregulation of frizzled-2 signaling pathway" EXACT []
-@@ -286093,7 +287023,7 @@
+@@ -286093,7 +287041,7 @@
  id: GO:0045813
  name: positive regulation of Wnt signaling pathway, calcium modulating pathway
  namespace: biological_process
@@ -24396,7 +24469,7 @@
  synonym: "activation of frizzled-2 signaling pathway" NARROW []
  synonym: "positive regulation of frizzled-2 signaling pathway" EXACT []
  synonym: "positive regulation of frizzled-2 signalling pathway" EXACT []
-@@ -286157,7 +287087,7 @@
+@@ -286157,7 +287105,7 @@
  id: GO:0045818
  name: negative regulation of glycogen catabolic process
  namespace: biological_process
@@ -24405,7 +24478,7 @@
  synonym: "down regulation of glycogen catabolic process" EXACT []
  synonym: "down-regulation of glycogen catabolic process" EXACT []
  synonym: "downregulation of glycogen catabolic process" EXACT []
-@@ -286178,7 +287108,7 @@
+@@ -286178,7 +287126,7 @@
  id: GO:0045819
  name: positive regulation of glycogen catabolic process
  namespace: biological_process
@@ -24414,7 +24487,7 @@
  synonym: "activation of glycogen catabolic process" NARROW []
  synonym: "positive regulation of glycogen breakdown" EXACT []
  synonym: "positive regulation of glycogen catabolism" EXACT []
-@@ -286200,7 +287130,7 @@
+@@ -286200,7 +287148,7 @@
  id: GO:0045820
  name: negative regulation of glycolytic process
  namespace: biological_process
@@ -24423,7 +24496,7 @@
  synonym: "down regulation of glycolysis" EXACT []
  synonym: "down-regulation of glycolysis" EXACT []
  synonym: "downregulation of glycolysis" EXACT []
-@@ -286217,7 +287147,7 @@
+@@ -286217,7 +287165,7 @@
  id: GO:0045821
  name: positive regulation of glycolytic process
  namespace: biological_process
@@ -24432,7 +24505,7 @@
  synonym: "activation of glycolysis" NARROW []
  synonym: "stimulation of glycolysis" NARROW []
  synonym: "up regulation of glycolysis" EXACT []
-@@ -286236,7 +287166,7 @@
+@@ -286236,7 +287184,7 @@
  id: GO:0045822
  name: negative regulation of heart contraction
  namespace: biological_process
@@ -24441,7 +24514,7 @@
  synonym: "down regulation of heart contraction" EXACT []
  synonym: "down-regulation of heart contraction" EXACT []
  synonym: "downregulation of heart contraction" EXACT []
-@@ -286252,7 +287182,7 @@
+@@ -286252,7 +287200,7 @@
  id: GO:0045823
  name: positive regulation of heart contraction
  namespace: biological_process
@@ -24450,7 +24523,7 @@
  synonym: "activation of heart contraction" NARROW []
  synonym: "positive regulation of cardiac contraction" EXACT []
  synonym: "stimulation of heart contraction" NARROW []
-@@ -286269,7 +287199,7 @@
+@@ -286269,7 +287217,7 @@
  id: GO:0045824
  name: negative regulation of innate immune response
  namespace: biological_process
@@ -24459,7 +24532,7 @@
  synonym: "down regulation of innate immune response" EXACT []
  synonym: "down-regulation of innate immune response" EXACT []
  synonym: "downregulation of innate immune response" EXACT []
-@@ -286287,7 +287217,7 @@
+@@ -286287,7 +287235,7 @@
  id: GO:0045825
  name: obsolete negative regulation of intermediate filament polymerization and/or depolymerization
  namespace: biological_process
@@ -24468,7 +24541,7 @@
  comment: This term was made obsolete because it has been split.
  synonym: "negative regulation of intermediate filament polymerization and/or depolymerization" EXACT []
  is_obsolete: true
-@@ -286298,7 +287228,7 @@
+@@ -286298,7 +287246,7 @@
  id: GO:0045826
  name: obsolete positive regulation of intermediate filament polymerization and/or depolymerization
  namespace: biological_process
@@ -24477,7 +24550,7 @@
  comment: This term was made obsolete because it has been split.
  synonym: "positive regulation of intermediate filament polymerization and/or depolymerization" EXACT []
  is_obsolete: true
-@@ -286309,7 +287239,7 @@
+@@ -286309,7 +287257,7 @@
  id: GO:0045827
  name: negative regulation of isoprenoid metabolic process
  namespace: biological_process
@@ -24486,7 +24559,7 @@
  synonym: "down regulation of isoprenoid metabolic process" EXACT []
  synonym: "down-regulation of isoprenoid metabolic process" EXACT []
  synonym: "downregulation of isoprenoid metabolic process" EXACT []
-@@ -286325,7 +287255,7 @@
+@@ -286325,7 +287273,7 @@
  id: GO:0045828
  name: obsolete positive regulation of isoprenoid metabolic process
  namespace: biological_process
@@ -24495,7 +24568,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "activation of isoprenoid metabolic process" NARROW []
  synonym: "positive regulation of isoprenoid metabolism" EXACT []
-@@ -286340,7 +287270,7 @@
+@@ -286340,7 +287288,7 @@
  id: GO:0045829
  name: negative regulation of isotype switching
  namespace: biological_process
@@ -24504,7 +24577,7 @@
  synonym: "down regulation of isotype switching" EXACT []
  synonym: "down-regulation of isotype switching" EXACT []
  synonym: "downregulation of isotype switching" EXACT []
-@@ -286362,7 +287292,7 @@
+@@ -286362,7 +287310,7 @@
  id: GO:0045830
  name: positive regulation of isotype switching
  namespace: biological_process
@@ -24513,7 +24586,7 @@
  synonym: "activation of isotype switching" NARROW []
  synonym: "positive regulation of class switch recombination" EXACT []
  synonym: "positive regulation of class switching" EXACT []
-@@ -286385,7 +287315,7 @@
+@@ -286385,7 +287333,7 @@
  id: GO:0045831
  name: obsolete negative regulation of light-activated channel activity
  namespace: biological_process
@@ -24522,7 +24595,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "down regulation of light-activated channel activity" EXACT []
  synonym: "down-regulation of light-activated channel activity" EXACT []
-@@ -286398,7 +287328,7 @@
+@@ -286398,7 +287346,7 @@
  id: GO:0045832
  name: obsolete positive regulation of light-activated channel activity
  namespace: biological_process
@@ -24531,7 +24604,7 @@
  comment: This term was obsoleted because it represents a molecular function.
  synonym: "activation of light-activated channel activity" NARROW []
  synonym: "stimulation of light-activated channel activity" NARROW []
-@@ -286412,7 +287342,7 @@
+@@ -286412,7 +287360,7 @@
  id: GO:0045833
  name: negative regulation of lipid metabolic process
  namespace: biological_process
@@ -24540,7 +24613,7 @@
  synonym: "down regulation of lipid metabolic process" EXACT []
  synonym: "down-regulation of lipid metabolic process" EXACT []
  synonym: "downregulation of lipid metabolic process" EXACT []
-@@ -286428,7 +287358,7 @@
+@@ -286428,7 +287376,7 @@
  id: GO:0045834
  name: positive regulation of lipid metabolic process
  namespace: biological_process
@@ -24549,7 +24622,7 @@
  synonym: "activation of lipid metabolic process" NARROW []
  synonym: "positive regulation of lipid metabolism" EXACT []
  synonym: "stimulation of lipid metabolic process" NARROW []
-@@ -286445,7 +287375,7 @@
+@@ -286445,7 +287393,7 @@
  id: GO:0045835
  name: negative regulation of meiotic nuclear division
  namespace: biological_process
@@ -24558,7 +24631,7 @@
  synonym: "down regulation of meiosis" EXACT []
  synonym: "down-regulation of meiosis" EXACT []
  synonym: "downregulation of meiosis" EXACT []
-@@ -286463,7 +287393,7 @@
+@@ -286463,7 +287411,7 @@
  id: GO:0045836
  name: positive regulation of meiotic nuclear division
  namespace: biological_process
@@ -24567,7 +24640,7 @@
  synonym: "activation of meiosis" NARROW []
  synonym: "positive regulation of meiosis" EXACT []
  synonym: "stimulation of meiosis" NARROW []
-@@ -286482,7 +287412,7 @@
+@@ -286482,7 +287430,7 @@
  id: GO:0045837
  name: negative regulation of membrane potential
  namespace: biological_process
@@ -24576,7 +24649,7 @@
  synonym: "down regulation of membrane potential" EXACT []
  synonym: "down-regulation of membrane potential" EXACT []
  synonym: "downregulation of membrane potential" EXACT []
-@@ -286494,7 +287424,7 @@
+@@ -286494,7 +287442,7 @@
  id: GO:0045838
  name: positive regulation of membrane potential
  namespace: biological_process
@@ -24585,7 +24658,7 @@
  synonym: "activation of membrane potential" NARROW []
  synonym: "elevation of membrane potential" EXACT [GOC:rph]
  synonym: "stimulation of membrane potential" NARROW []
-@@ -286507,7 +287437,7 @@
+@@ -286507,7 +287455,7 @@
  id: GO:0045839
  name: negative regulation of mitotic nuclear division
  namespace: biological_process
@@ -24594,7 +24667,7 @@
  synonym: "down regulation of mitosis" EXACT []
  synonym: "down-regulation of mitosis" EXACT []
  synonym: "downregulation of mitosis" EXACT []
-@@ -286525,7 +287455,7 @@
+@@ -286525,7 +287473,7 @@
  id: GO:0045840
  name: positive regulation of mitotic nuclear division
  namespace: biological_process
@@ -24603,7 +24676,7 @@
  synonym: "activation of mitosis" NARROW []
  synonym: "mitogenic activity" NARROW []
  synonym: "positive regulation of mitosis" EXACT []
-@@ -286544,7 +287474,7 @@
+@@ -286544,7 +287492,7 @@
  id: GO:0045841
  name: negative regulation of mitotic metaphase/anaphase transition
  namespace: biological_process
@@ -24612,7 +24685,7 @@
  synonym: "down regulation of mitotic metaphase/anaphase transition" EXACT []
  synonym: "down-regulation of mitotic metaphase/anaphase transition" EXACT []
  synonym: "downregulation of mitotic metaphase/anaphase transition" EXACT []
-@@ -286562,7 +287492,7 @@
+@@ -286562,7 +287510,7 @@
  id: GO:0045842
  name: positive regulation of mitotic metaphase/anaphase transition
  namespace: biological_process
@@ -24621,7 +24694,7 @@
  synonym: "activation of mitotic metaphase/anaphase transition" NARROW []
  synonym: "stimulation of mitotic metaphase/anaphase transition" NARROW []
  synonym: "up regulation of mitotic metaphase/anaphase transition" EXACT []
-@@ -286581,7 +287511,7 @@
+@@ -286581,7 +287529,7 @@
  id: GO:0045843
  name: negative regulation of striated muscle tissue development
  namespace: biological_process
@@ -24630,7 +24703,7 @@
  synonym: "down regulation of striated muscle development" EXACT []
  synonym: "down-regulation of striated muscle development" EXACT []
  synonym: "downregulation of striated muscle development" EXACT []
-@@ -286597,7 +287527,7 @@
+@@ -286597,7 +287545,7 @@
  id: GO:0045844
  name: positive regulation of striated muscle tissue development
  namespace: biological_process
@@ -24639,7 +24712,7 @@
  synonym: "activation of striated muscle development" NARROW []
  synonym: "stimulation of striated muscle development" NARROW []
  synonym: "up regulation of striated muscle development" EXACT []
-@@ -286614,7 +287544,7 @@
+@@ -286614,7 +287562,7 @@
  id: GO:0045847
  name: negative regulation of nitrogen utilization
  namespace: biological_process
@@ -24648,7 +24721,7 @@
  synonym: "down regulation of nitrogen utilization" EXACT []
  synonym: "down-regulation of nitrogen utilization" EXACT []
  synonym: "downregulation of nitrogen utilization" EXACT []
-@@ -286629,7 +287559,7 @@
+@@ -286629,7 +287577,7 @@
  id: GO:0045848
  name: positive regulation of nitrogen utilization
  namespace: biological_process
@@ -24657,7 +24730,7 @@
  synonym: "activation of nitrogen utilization" NARROW []
  synonym: "stimulation of nitrogen utilization" NARROW []
  synonym: "up regulation of nitrogen utilization" EXACT []
-@@ -286645,7 +287575,7 @@
+@@ -286645,7 +287593,7 @@
  id: GO:0045849
  name: negative regulation of nurse cell apoptotic process
  namespace: biological_process
@@ -24666,7 +24739,7 @@
  synonym: "down regulation of nurse cell apoptosis" EXACT []
  synonym: "down-regulation of nurse cell apoptosis" EXACT []
  synonym: "downregulation of nurse cell apoptosis" EXACT []
-@@ -286662,7 +287592,7 @@
+@@ -286662,7 +287610,7 @@
  id: GO:0045850
  name: positive regulation of nurse cell apoptotic process
  namespace: biological_process
@@ -24675,7 +24748,7 @@
  synonym: "activation of nurse cell apoptosis" NARROW []
  synonym: "positive regulation of nurse cell apoptosis" NARROW []
  synonym: "stimulation of nurse cell apoptosis" NARROW []
-@@ -286680,7 +287610,7 @@
+@@ -286680,7 +287628,7 @@
  id: GO:0045851
  name: pH reduction
  namespace: biological_process
@@ -24684,7 +24757,7 @@
  synonym: "acidification" EXACT []
  is_a: GO:0006885 ! regulation of pH
  
-@@ -286688,14 +287618,14 @@
+@@ -286688,14 +287636,14 @@
  id: GO:0045852
  name: pH elevation
  namespace: biological_process
@@ -24701,7 +24774,7 @@
  synonym: "down regulation of bicoid mRNA localization" EXACT []
  synonym: "down-regulation of bicoid mRNA localization" EXACT []
  synonym: "downregulation of bicoid mRNA localization" EXACT []
-@@ -286711,7 +287641,7 @@
+@@ -286711,7 +287659,7 @@
  id: GO:0045854
  name: positive regulation of bicoid mRNA localization
  namespace: biological_process
@@ -24710,7 +24783,7 @@
  synonym: "activation of bicoid mRNA localization" NARROW []
  synonym: "positive regulation of bicoid mRNA localisation" EXACT [GOC:mah]
  synonym: "stimulation of bicoid mRNA localization" NARROW []
-@@ -286729,7 +287659,7 @@
+@@ -286729,7 +287677,7 @@
  id: GO:0045855
  name: negative regulation of pole plasm oskar mRNA localization
  namespace: biological_process
@@ -24719,7 +24792,7 @@
  synonym: "down regulation of pole plasm oskar mRNA localization" EXACT []
  synonym: "down-regulation of pole plasm oskar mRNA localization" EXACT []
  synonym: "downregulation of pole plasm oskar mRNA localization" EXACT []
-@@ -286746,7 +287676,7 @@
+@@ -286746,7 +287694,7 @@
  id: GO:0045856
  name: positive regulation of pole plasm oskar mRNA localization
  namespace: biological_process
@@ -24728,7 +24801,7 @@
  synonym: "activation of pole plasm oskar mRNA localization" NARROW []
  synonym: "positive regulation of oocyte pole plasm oskar mRNA localization" EXACT []
  synonym: "positive regulation of pole plasm oskar mRNA localisation" EXACT [GOC:mah]
-@@ -286764,7 +287694,7 @@
+@@ -286764,7 +287712,7 @@
  id: GO:0045857
  name: obsolete negative regulation of molecular function, epigenetic
  namespace: biological_process
@@ -24737,7 +24810,7 @@
  comment: This term was obsoleted because it is not an active process.
  synonym: "down regulation of protein activity, epigenetic" EXACT []
  synonym: "down-regulation of protein activity, epigenetic" EXACT []
-@@ -286778,7 +287708,7 @@
+@@ -286778,7 +287726,7 @@
  id: GO:0045858
  name: obsolete positive regulation of molecular function, epigenetic
  namespace: biological_process
@@ -24746,7 +24819,7 @@
  comment: This term was obsoleted because it is not an active process.
  synonym: "activation of protein activity, epigenetic" NARROW []
  synonym: "positive regulation of protein activity, epigenetic" EXACT [GOC:dph, GOC:tb]
-@@ -286793,7 +287723,7 @@
+@@ -286793,7 +287741,7 @@
  id: GO:0045859
  name: regulation of protein kinase activity
  namespace: biological_process
@@ -24755,7 +24828,7 @@
  subset: gocheck_obsoletion_candidate
  is_a: GO:0001932 ! regulation of protein phosphorylation
  is_a: GO:0043549 ! regulation of kinase activity
-@@ -286805,7 +287735,7 @@
+@@ -286805,7 +287753,7 @@
  id: GO:0045860
  name: positive regulation of protein kinase activity
  namespace: biological_process
@@ -24764,7 +24837,7 @@
  subset: gocheck_obsoletion_candidate
  synonym: "stimulation of protein kinase activity" NARROW []
  synonym: "up regulation of protein kinase activity" EXACT []
-@@ -286822,7 +287752,7 @@
+@@ -286822,7 +287770,7 @@
  id: GO:0045861
  name: negative regulation of proteolysis
  namespace: biological_process
@@ -24773,7 +24846,7 @@
  synonym: "down regulation of proteolysis" EXACT []
  synonym: "down-regulation of proteolysis" EXACT []
  synonym: "downregulation of proteolysis" EXACT []
-@@ -286838,7 +287768,7 @@
+@@ -286838,7 +287786,7 @@
  id: GO:0045862
  name: positive regulation of proteolysis
  namespace: biological_process
@@ -24782,7 +24855,7 @@
  synonym: "activation of proteolysis" NARROW []
  synonym: "positive regulation of peptidolysis" EXACT []
  synonym: "stimulation of proteolysis" NARROW []
-@@ -286855,7 +287785,7 @@
+@@ -286855,7 +287803,7 @@
  id: GO:0045863
  name: obsolete negative regulation of pteridine metabolic process
  namespace: biological_process
@@ -24791,7 +24864,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "down regulation of pteridine metabolic process" EXACT []
  synonym: "down-regulation of pteridine metabolic process" EXACT []
-@@ -286869,7 +287799,7 @@
+@@ -286869,7 +287817,7 @@
  id: GO:0045864
  name: obsolete positive regulation of pteridine metabolic process
  namespace: biological_process
@@ -24800,7 +24873,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "activation of pteridine metabolic process" NARROW []
  synonym: "positive regulation of pteridine metabolism" EXACT []
-@@ -286884,7 +287814,7 @@
+@@ -286884,7 +287832,7 @@
  id: GO:0045865
  name: obsolete regulation of recombination within rDNA repeats
  namespace: biological_process
@@ -24809,7 +24882,7 @@
  comment: This term was made obsolete because it describes a substrate-specific process.
  synonym: "regulation of recombination within rDNA repeats" EXACT []
  is_obsolete: true
-@@ -286894,7 +287824,7 @@
+@@ -286894,7 +287842,7 @@
  id: GO:0045866
  name: obsolete positive regulation of recombination within rDNA repeats
  namespace: biological_process
@@ -24818,7 +24891,7 @@
  comment: This term was made obsolete because it describes a substrate-specific process.
  synonym: "positive regulation of recombination within rDNA repeats" EXACT []
  is_obsolete: true
-@@ -286904,7 +287834,7 @@
+@@ -286904,7 +287852,7 @@
  id: GO:0045869
  name: negative regulation of single stranded viral RNA replication via double stranded DNA intermediate
  namespace: biological_process
@@ -24827,7 +24900,7 @@
  synonym: "down regulation of retroviral genome replication" EXACT []
  synonym: "down-regulation of retroviral genome replication" EXACT []
  synonym: "downregulation of retroviral genome replication" EXACT []
-@@ -286922,7 +287852,7 @@
+@@ -286922,7 +287870,7 @@
  id: GO:0045870
  name: positive regulation of single stranded viral RNA replication via double stranded DNA intermediate
  namespace: biological_process
@@ -24836,7 +24909,7 @@
  synonym: "activation of retroviral genome replication" NARROW []
  synonym: "positive regulation of retroviral genome replication" EXACT [GOC:bf, GOC:jl]
  synonym: "stimulation of retroviral genome replication" NARROW []
-@@ -286940,7 +287870,7 @@
+@@ -286940,7 +287888,7 @@
  id: GO:0045871
  name: obsolete negative regulation of rhodopsin gene expression
  namespace: biological_process
@@ -24845,7 +24918,7 @@
  comment: This term was obsoleted because it refers to a specific gene product. The gene product should be captured as an annotation extension using 'has input'.
  synonym: "down regulation of rhodopsin gene activity" EXACT []
  synonym: "down-regulation of rhodopsin gene activity" EXACT []
-@@ -286954,7 +287884,7 @@
+@@ -286954,7 +287902,7 @@
  id: GO:0045872
  name: obsolete positive regulation of rhodopsin gene expression
  namespace: biological_process
@@ -24854,7 +24927,7 @@
  comment: This term was obsoleted because it refers to a specific gene product. The gene product should be captured as an annotation extension using 'has input'.
  synonym: "activation of rhodopsin gene activity" NARROW []
  synonym: "positive regulation of rhodopsin gene activity" EXACT [GOC:dph, GOC:tb]
-@@ -286969,7 +287899,7 @@
+@@ -286969,7 +287917,7 @@
  id: GO:0045873
  name: negative regulation of sevenless signaling pathway
  namespace: biological_process
@@ -24863,7 +24936,7 @@
  synonym: "down regulation of sevenless signaling pathway" EXACT []
  synonym: "down-regulation of sevenless signaling pathway" EXACT []
  synonym: "downregulation of sevenless signaling pathway" EXACT []
-@@ -286988,7 +287918,7 @@
+@@ -286988,7 +287936,7 @@
  id: GO:0045874
  name: positive regulation of sevenless signaling pathway
  namespace: biological_process
@@ -24872,7 +24945,7 @@
  synonym: "activation of sevenless signaling pathway" NARROW []
  synonym: "positive regulation of sev signaling pathway" EXACT []
  synonym: "positive regulation of sevenless signalling pathway" EXACT []
-@@ -287006,7 +287936,7 @@
+@@ -287006,7 +287954,7 @@
  id: GO:0045875
  name: negative regulation of sister chromatid cohesion
  namespace: biological_process
@@ -24881,7 +24954,7 @@
  synonym: "down regulation of sister chromatid cohesion" EXACT []
  synonym: "down-regulation of sister chromatid cohesion" EXACT []
  synonym: "downregulation of sister chromatid cohesion" EXACT []
-@@ -287022,7 +287952,7 @@
+@@ -287022,7 +287970,7 @@
  id: GO:0045876
  name: positive regulation of sister chromatid cohesion
  namespace: biological_process
@@ -24890,7 +24963,7 @@
  synonym: "activation of sister chromatid cohesion" NARROW []
  synonym: "stimulation of sister chromatid cohesion" NARROW []
  synonym: "up regulation of sister chromatid cohesion" EXACT []
-@@ -287040,7 +287970,7 @@
+@@ -287040,7 +287988,7 @@
  name: negative regulation of smoothened signaling pathway
  namespace: biological_process
  alt_id: GO:0045877
@@ -24899,7 +24972,7 @@
  synonym: "down regulation of smoothened signaling pathway" EXACT []
  synonym: "down-regulation of smoothened signaling pathway" EXACT []
  synonym: "downregulation of smoothened signaling pathway" EXACT []
-@@ -287062,7 +287992,7 @@
+@@ -287062,7 +288010,7 @@
  name: positive regulation of smoothened signaling pathway
  namespace: biological_process
  alt_id: GO:0045878
@@ -24908,7 +24981,7 @@
  synonym: "activation of smoothened signaling pathway" NARROW []
  synonym: "positive regulation of hedgehog signaling pathway" EXACT [GOC:bf, GOC:ecd]
  synonym: "positive regulation of hh signaling pathway" EXACT [GOC:bf, GOC:ecd]
-@@ -287083,7 +288013,7 @@
+@@ -287083,7 +288031,7 @@
  id: GO:0045881
  name: positive regulation of sporulation resulting in formation of a cellular spore
  namespace: biological_process
@@ -24917,7 +24990,7 @@
  synonym: "activation of sporulation" NARROW []
  synonym: "stimulation of sporulation" NARROW []
  synonym: "up regulation of sporulation" EXACT []
-@@ -287099,7 +288029,7 @@
+@@ -287099,7 +288047,7 @@
  id: GO:0045882
  name: negative regulation of sulfur utilization
  namespace: biological_process
@@ -24926,7 +24999,7 @@
  synonym: "down regulation of sulfur utilization" EXACT []
  synonym: "down-regulation of sulfur utilization" EXACT []
  synonym: "downregulation of sulfur utilization" EXACT []
-@@ -287115,7 +288045,7 @@
+@@ -287115,7 +288063,7 @@
  id: GO:0045883
  name: positive regulation of sulfur utilization
  namespace: biological_process
@@ -24935,7 +25008,7 @@
  synonym: "activation of sulfur utilization" NARROW []
  synonym: "positive regulation of sulphur utilization" EXACT []
  synonym: "stimulation of sulfur utilization" NARROW []
-@@ -287132,7 +288062,7 @@
+@@ -287132,7 +288080,7 @@
  id: GO:0045884
  name: obsolete regulation of survival gene product expression
  namespace: biological_process
@@ -24944,7 +25017,7 @@
  comment: This term was made obsolete because the meaning of the term is ambiguous: the same gene product may or may not have a role in apoptosis depending on the cell type, tissue type, condition, etc.
  synonym: "regulation of survival gene product activity" BROAD [GOC:dph, GOC:tb]
  synonym: "regulation of survival gene product expression" EXACT []
-@@ -287143,7 +288073,7 @@
+@@ -287143,7 +288091,7 @@
  id: GO:0045885
  name: obsolete positive regulation of survival gene product expression
  namespace: biological_process
@@ -24953,7 +25026,7 @@
  comment: This term was made obsolete because the meaning of the term is ambiguous: the same gene product may or may not have a role in apoptosis depending on the cell type, tissue type, condition, etc.
  synonym: "activation of survival gene product activity" BROAD []
  synonym: "positive regulation of survival gene product activity" BROAD [GOC:dph, GOC:tb]
-@@ -287159,7 +288089,7 @@
+@@ -287159,7 +288107,7 @@
  id: GO:0045886
  name: negative regulation of synaptic assembly at neuromuscular junction
  namespace: biological_process
@@ -24962,7 +25035,7 @@
  synonym: "down regulation of synaptic growth at neuromuscular junction" EXACT []
  synonym: "down-regulation of synaptic growth at neuromuscular junction" EXACT []
  synonym: "downregulation of synaptic growth at neuromuscular junction" EXACT []
-@@ -287177,7 +288107,7 @@
+@@ -287177,7 +288125,7 @@
  id: GO:0045887
  name: positive regulation of synaptic assembly at neuromuscular junction
  namespace: biological_process
@@ -24971,7 +25044,7 @@
  synonym: "activation of synaptic growth at neuromuscular junction" NARROW []
  synonym: "positive regulation of synaptic growth at neuromuscular junction" RELATED []
  synonym: "stimulation of synaptic growth at neuromuscular junction" NARROW []
-@@ -287196,7 +288126,7 @@
+@@ -287196,7 +288144,7 @@
  id: GO:0045888
  name: obsolete regulation of transcription of homeotic gene (Polycomb group)
  namespace: biological_process
@@ -24980,7 +25053,7 @@
  comment: This term was made obsolete because it relates to a specific gene family rather than a process.
  synonym: "regulation of transcription of homeotic gene (Polycomb group)" EXACT []
  is_obsolete: true
-@@ -287206,7 +288136,7 @@
+@@ -287206,7 +288154,7 @@
  id: GO:0045889
  name: obsolete positive regulation of transcription of homeotic gene (Polycomb group)
  namespace: biological_process
@@ -24989,7 +25062,7 @@
  comment: This term was made obsolete because it relates to a specific gene family rather than a process.
  synonym: "positive regulation of transcription of homeotic gene (Polycomb group)" EXACT []
  is_obsolete: true
-@@ -287216,7 +288146,7 @@
+@@ -287216,7 +288164,7 @@
  id: GO:0045890
  name: obsolete regulation of transcription of homeotic gene (trithorax group)
  namespace: biological_process
@@ -24998,7 +25071,7 @@
  comment: This term was made obsolete because it relates to a specific gene family rather than a process.
  synonym: "regulation of transcription of homeotic gene (trithorax group)" EXACT []
  is_obsolete: true
-@@ -287226,7 +288156,7 @@
+@@ -287226,7 +288174,7 @@
  id: GO:0045891
  name: obsolete negative regulation of transcription of homeotic gene (trithorax group)
  namespace: biological_process
@@ -25007,7 +25080,7 @@
  comment: This term was made obsolete because it relates to a specific gene family rather than a process.
  synonym: "negative regulation of transcription of homeotic gene (trithorax group)" EXACT []
  is_obsolete: true
-@@ -287239,7 +288169,7 @@
+@@ -287239,7 +288187,7 @@
  alt_id: GO:0016481
  alt_id: GO:0032582
  alt_id: GO:0061021
@@ -25016,7 +25089,7 @@
  synonym: "down regulation of gene-specific transcription" RELATED []
  synonym: "down regulation of transcription, DNA-dependent" EXACT []
  synonym: "down-regulation of gene-specific transcription" RELATED []
-@@ -287266,7 +288196,7 @@
+@@ -287266,7 +288214,7 @@
  alt_id: GO:0043193
  alt_id: GO:0045941
  alt_id: GO:0061020
@@ -25025,7 +25098,7 @@
  synonym: "activation of gene-specific transcription" RELATED []
  synonym: "activation of transcription, DNA-dependent" NARROW []
  synonym: "positive regulation of cellular transcription, DNA-dependent" EXACT []
-@@ -287292,7 +288222,7 @@
+@@ -287292,7 +288240,7 @@
  id: GO:0045894
  name: negative regulation of mating-type specific transcription, DNA-templated
  namespace: biological_process
@@ -25034,7 +25107,7 @@
  synonym: "down regulation of transcription, mating-type specific" EXACT []
  synonym: "down-regulation of transcription, mating-type specific" EXACT []
  synonym: "downregulation of transcription, mating-type specific" EXACT []
-@@ -287305,7 +288235,7 @@
+@@ -287305,7 +288253,7 @@
  id: GO:0045895
  name: positive regulation of mating-type specific transcription, DNA-templated
  namespace: biological_process
@@ -25043,7 +25116,7 @@
  synonym: "activation of transcription, mating-type specific" NARROW []
  synonym: "positive regulation of mating-type specific transcription, DNA-dependent" EXACT [GOC:txnOH]
  synonym: "stimulation of transcription, mating-type specific" NARROW []
-@@ -287319,7 +288249,7 @@
+@@ -287319,7 +288267,7 @@
  id: GO:0045896
  name: obsolete regulation of transcription during mitotic cell cycle
  namespace: biological_process
@@ -25052,7 +25125,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "mitotic regulation of transcription" EXACT []
  synonym: "regulation of transcription, mitotic" EXACT [GOC:mah]
-@@ -287332,7 +288262,7 @@
+@@ -287332,7 +288280,7 @@
  id: GO:0045897
  name: obsolete positive regulation of transcription during mitotic cell cycle
  namespace: biological_process
@@ -25061,7 +25134,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "activation of transcription during mitosis" NARROW [GOC:mah]
  synonym: "mitotic activation of transcription" EXACT []
-@@ -287350,7 +288280,7 @@
+@@ -287350,7 +288298,7 @@
  id: GO:0045898
  name: regulation of RNA polymerase II transcription preinitiation complex assembly
  namespace: biological_process
@@ -25070,7 +25143,7 @@
  synonym: "regulation of RNA polymerase II transcriptional pre-initiation complex assembly" EXACT []
  synonym: "regulation of RNA polymerase II transcriptional pre-initiation complex biosynthesis" EXACT []
  synonym: "regulation of RNA polymerase II transcriptional preinitiation complex assembly" EXACT []
-@@ -287365,7 +288295,7 @@
+@@ -287365,7 +288313,7 @@
  id: GO:0045899
  name: positive regulation of RNA polymerase II transcription preinitiation complex assembly
  namespace: biological_process
@@ -25079,7 +25152,7 @@
  synonym: "activation of RNA polymerase II transcriptional preinitiation complex assembly" NARROW []
  synonym: "positive regulation of RNA polymerase II transcriptional pre-initiation complex assembly" EXACT []
  synonym: "positive regulation of RNA polymerase II transcriptional pre-initiation complex biosynthesis" EXACT []
-@@ -287386,7 +288316,7 @@
+@@ -287386,7 +288334,7 @@
  id: GO:0045900
  name: negative regulation of translational elongation
  namespace: biological_process
@@ -25088,7 +25161,7 @@
  synonym: "down regulation of translational elongation" EXACT []
  synonym: "down-regulation of translational elongation" EXACT []
  synonym: "downregulation of translational elongation" EXACT []
-@@ -287401,7 +288331,7 @@
+@@ -287401,7 +288349,7 @@
  id: GO:0045901
  name: positive regulation of translational elongation
  namespace: biological_process
@@ -25097,7 +25170,7 @@
  synonym: "activation of translational elongation" NARROW []
  synonym: "stimulation of translational elongation" NARROW []
  synonym: "up regulation of translational elongation" EXACT []
-@@ -287442,7 +288372,7 @@
+@@ -287442,7 +288390,7 @@
  id: GO:0045904
  name: negative regulation of translational termination
  namespace: biological_process
@@ -25106,7 +25179,7 @@
  synonym: "down regulation of translational termination" EXACT []
  synonym: "down-regulation of translational termination" EXACT []
  synonym: "downregulation of translational termination" EXACT []
-@@ -287458,7 +288388,7 @@
+@@ -287458,7 +288406,7 @@
  id: GO:0045905
  name: positive regulation of translational termination
  namespace: biological_process
@@ -25115,7 +25188,7 @@
  synonym: "activation of translational termination" NARROW []
  synonym: "stimulation of translational termination" NARROW []
  synonym: "up regulation of translational termination" EXACT []
-@@ -287475,7 +288405,7 @@
+@@ -287475,7 +288423,7 @@
  id: GO:0045906
  name: negative regulation of vasoconstriction
  namespace: biological_process
@@ -25124,7 +25197,7 @@
  synonym: "down regulation of vasoconstriction" EXACT []
  synonym: "down-regulation of vasoconstriction" EXACT []
  synonym: "downregulation of vasoconstriction" EXACT []
-@@ -287490,7 +288420,7 @@
+@@ -287490,7 +288438,7 @@
  id: GO:0045907
  name: positive regulation of vasoconstriction
  namespace: biological_process
@@ -25133,7 +25206,7 @@
  synonym: "activation of vasoconstriction" NARROW []
  synonym: "stimulation of vasoconstriction" NARROW []
  synonym: "up regulation of vasoconstriction" EXACT []
-@@ -287506,7 +288436,7 @@
+@@ -287506,7 +288454,7 @@
  id: GO:0045910
  name: negative regulation of DNA recombination
  namespace: biological_process
@@ -25142,7 +25215,7 @@
  synonym: "down regulation of DNA recombination" EXACT []
  synonym: "down-regulation of DNA recombination" EXACT []
  synonym: "downregulation of DNA recombination" EXACT []
-@@ -287521,7 +288451,7 @@
+@@ -287521,7 +288469,7 @@
  id: GO:0045911
  name: positive regulation of DNA recombination
  namespace: biological_process
@@ -25151,7 +25224,7 @@
  synonym: "activation of DNA recombination" NARROW []
  synonym: "stimulation of DNA recombination" NARROW []
  synonym: "up regulation of DNA recombination" EXACT []
-@@ -287537,7 +288467,7 @@
+@@ -287537,7 +288485,7 @@
  id: GO:0045912
  name: negative regulation of carbohydrate metabolic process
  namespace: biological_process
@@ -25160,7 +25233,7 @@
  synonym: "down regulation of carbohydrate metabolic process" EXACT []
  synonym: "down-regulation of carbohydrate metabolic process" EXACT []
  synonym: "downregulation of carbohydrate metabolic process" EXACT []
-@@ -287553,7 +288483,7 @@
+@@ -287553,7 +288501,7 @@
  id: GO:0045913
  name: positive regulation of carbohydrate metabolic process
  namespace: biological_process
@@ -25169,7 +25242,7 @@
  synonym: "activation of carbohydrate metabolic process" NARROW []
  synonym: "positive regulation of carbohydrate metabolism" EXACT []
  synonym: "stimulation of carbohydrate metabolic process" NARROW []
-@@ -287570,7 +288500,7 @@
+@@ -287570,7 +288518,7 @@
  id: GO:0045914
  name: obsolete negative regulation of catecholamine metabolic process
  namespace: biological_process
@@ -25178,7 +25251,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "down regulation of catecholamine metabolic process" EXACT []
  synonym: "down-regulation of catecholamine metabolic process" EXACT []
-@@ -287584,7 +288514,7 @@
+@@ -287584,7 +288532,7 @@
  id: GO:0045915
  name: obsolete positive regulation of catecholamine metabolic process
  namespace: biological_process
@@ -25187,7 +25260,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "activation of catecholamine metabolic process" NARROW []
  synonym: "positive regulation of catecholamine metabolism" EXACT []
-@@ -287599,7 +288529,7 @@
+@@ -287599,7 +288547,7 @@
  id: GO:0045916
  name: negative regulation of complement activation
  namespace: biological_process
@@ -25196,7 +25269,7 @@
  synonym: "down regulation of complement activation" EXACT []
  synonym: "down-regulation of complement activation" EXACT []
  synonym: "downregulation of complement activation" EXACT []
-@@ -287616,7 +288546,7 @@
+@@ -287616,7 +288564,7 @@
  id: GO:0045917
  name: positive regulation of complement activation
  namespace: biological_process
@@ -25205,7 +25278,7 @@
  synonym: "activation of complement activation" NARROW []
  synonym: "positive regulation of complement cascade" EXACT [GOC:add]
  synonym: "stimulation of complement activation" NARROW []
-@@ -287634,7 +288564,7 @@
+@@ -287634,7 +288582,7 @@
  id: GO:0045918
  name: negative regulation of cytolysis
  namespace: biological_process
@@ -25214,7 +25287,7 @@
  synonym: "down regulation of cytolysis" EXACT []
  synonym: "down-regulation of cytolysis" EXACT []
  synonym: "downregulation of cytolysis" EXACT []
-@@ -287649,7 +288579,7 @@
+@@ -287649,7 +288597,7 @@
  id: GO:0045919
  name: positive regulation of cytolysis
  namespace: biological_process
@@ -25223,7 +25296,7 @@
  synonym: "activation of cytolysis" NARROW []
  synonym: "stimulation of cytolysis" NARROW []
  synonym: "up regulation of cytolysis" EXACT []
-@@ -287665,7 +288595,7 @@
+@@ -287665,7 +288613,7 @@
  id: GO:0045920
  name: negative regulation of exocytosis
  namespace: biological_process
@@ -25232,7 +25305,7 @@
  synonym: "down regulation of exocytosis" EXACT []
  synonym: "down-regulation of exocytosis" EXACT []
  synonym: "downregulation of exocytosis" EXACT []
-@@ -287680,7 +288610,7 @@
+@@ -287680,7 +288628,7 @@
  id: GO:0045921
  name: positive regulation of exocytosis
  namespace: biological_process
@@ -25241,7 +25314,7 @@
  synonym: "activation of exocytosis" NARROW []
  synonym: "stimulation of exocytosis" NARROW []
  synonym: "up regulation of exocytosis" EXACT []
-@@ -287696,7 +288626,7 @@
+@@ -287696,7 +288644,7 @@
  id: GO:0045922
  name: negative regulation of fatty acid metabolic process
  namespace: biological_process
@@ -25250,7 +25323,7 @@
  synonym: "down regulation of fatty acid metabolic process" EXACT []
  synonym: "down-regulation of fatty acid metabolic process" EXACT []
  synonym: "downregulation of fatty acid metabolic process" EXACT []
-@@ -287713,7 +288643,7 @@
+@@ -287713,7 +288661,7 @@
  id: GO:0045923
  name: positive regulation of fatty acid metabolic process
  namespace: biological_process
@@ -25259,7 +25332,7 @@
  synonym: "activation of fatty acid metabolic process" NARROW []
  synonym: "positive regulation of fatty acid metabolism" EXACT []
  synonym: "stimulation of fatty acid metabolic process" NARROW []
-@@ -287732,7 +288662,7 @@
+@@ -287732,7 +288680,7 @@
  name: regulation of female receptivity
  namespace: biological_process
  alt_id: GO:0060181
@@ -25268,7 +25341,7 @@
  synonym: "female receptivity" RELATED [GOC:dph, GOC:tb]
  is_a: GO:0060180 ! female mating behavior
  is_a: GO:0065008 ! regulation of biological quality
-@@ -287741,7 +288671,7 @@
+@@ -287741,7 +288689,7 @@
  id: GO:0045925
  name: positive regulation of female receptivity
  namespace: biological_process
@@ -25277,7 +25350,7 @@
  synonym: "activation of female receptivity" NARROW []
  synonym: "stimulation of female receptivity" NARROW []
  synonym: "up regulation of female receptivity" EXACT []
-@@ -287753,7 +288683,7 @@
+@@ -287753,7 +288701,7 @@
  id: GO:0045926
  name: negative regulation of growth
  namespace: biological_process
@@ -25286,7 +25359,7 @@
  synonym: "down regulation of growth" EXACT []
  synonym: "down-regulation of growth" EXACT []
  synonym: "downregulation of growth" EXACT []
-@@ -287768,7 +288698,7 @@
+@@ -287768,7 +288716,7 @@
  id: GO:0045927
  name: positive regulation of growth
  namespace: biological_process
@@ -25295,7 +25368,7 @@
  synonym: "activation of growth" NARROW []
  synonym: "stimulation of growth" NARROW []
  synonym: "up regulation of growth" EXACT []
-@@ -287784,7 +288714,7 @@
+@@ -287784,7 +288732,7 @@
  id: GO:0045928
  name: negative regulation of juvenile hormone metabolic process
  namespace: biological_process
@@ -25304,7 +25377,7 @@
  synonym: "down regulation of juvenile hormone metabolic process" EXACT []
  synonym: "down-regulation of juvenile hormone metabolic process" EXACT []
  synonym: "downregulation of juvenile hormone metabolic process" EXACT []
-@@ -287800,7 +288730,7 @@
+@@ -287800,7 +288748,7 @@
  id: GO:0045929
  name: obsolete positive regulation of juvenile hormone metabolic process
  namespace: biological_process
@@ -25313,7 +25386,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "activation of juvenile hormone metabolic process" NARROW []
  synonym: "positive regulation of juvenile hormone metabolism" EXACT []
-@@ -287815,7 +288745,7 @@
+@@ -287815,7 +288763,7 @@
  id: GO:0045930
  name: negative regulation of mitotic cell cycle
  namespace: biological_process
@@ -25322,7 +25395,7 @@
  synonym: "down regulation of progression through mitotic cell cycle" EXACT []
  synonym: "down-regulation of progression through mitotic cell cycle" EXACT []
  synonym: "downregulation of progression through mitotic cell cycle" EXACT []
-@@ -287833,7 +288763,7 @@
+@@ -287833,7 +288781,7 @@
  id: GO:0045931
  name: positive regulation of mitotic cell cycle
  namespace: biological_process
@@ -25331,7 +25404,7 @@
  synonym: "activation of progression through mitotic cell cycle" NARROW []
  synonym: "positive regulation of mitotic cell cycle progression" EXACT []
  synonym: "positive regulation of progression through mitotic cell cycle" EXACT [GOC:dph, GOC:tb]
-@@ -287851,7 +288781,7 @@
+@@ -287851,7 +288799,7 @@
  id: GO:0045932
  name: negative regulation of muscle contraction
  namespace: biological_process
@@ -25340,7 +25413,7 @@
  synonym: "down regulation of muscle contraction" EXACT []
  synonym: "down-regulation of muscle contraction" EXACT []
  synonym: "downregulation of muscle contraction" EXACT []
-@@ -287866,7 +288796,7 @@
+@@ -287866,7 +288814,7 @@
  id: GO:0045933
  name: positive regulation of muscle contraction
  namespace: biological_process
@@ -25349,7 +25422,7 @@
  synonym: "activation of muscle contraction" NARROW []
  synonym: "stimulation of muscle contraction" NARROW []
  synonym: "up regulation of muscle contraction" EXACT []
-@@ -287882,7 +288812,8 @@
+@@ -287882,7 +288830,8 @@
  id: GO:0045934
  name: negative regulation of nucleobase-containing compound metabolic process
  namespace: biological_process
@@ -25359,7 +25432,7 @@
  synonym: "down regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" EXACT []
  synonym: "down-regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" EXACT []
  synonym: "downregulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" EXACT []
-@@ -287894,12 +288825,13 @@
+@@ -287894,12 +288843,13 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0006139 ! nucleobase-containing compound metabolic process
  relationship: negatively_regulates GO:0006139 ! nucleobase-containing compound metabolic process
@@ -25374,7 +25447,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "activation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" NARROW []
  synonym: "positive regulation of nucleobase, nucleoside, nucleotide and nucleic acid metabolic process" RELATED [GOC:dph, GOC:tb]
-@@ -287915,7 +288847,7 @@
+@@ -287915,7 +288865,7 @@
  id: GO:0045936
  name: negative regulation of phosphate metabolic process
  namespace: biological_process
@@ -25383,7 +25456,7 @@
  synonym: "down regulation of phosphate metabolic process" EXACT []
  synonym: "down-regulation of phosphate metabolic process" EXACT []
  synonym: "downregulation of phosphate metabolic process" EXACT []
-@@ -287930,7 +288862,7 @@
+@@ -287930,7 +288880,7 @@
  id: GO:0045937
  name: positive regulation of phosphate metabolic process
  namespace: biological_process
@@ -25392,7 +25465,7 @@
  synonym: "activation of phosphate metabolic process" NARROW []
  synonym: "positive regulation of phosphate metabolism" EXACT []
  synonym: "stimulation of phosphate metabolic process" NARROW []
-@@ -287946,7 +288878,7 @@
+@@ -287946,7 +288896,7 @@
  id: GO:0045938
  name: positive regulation of circadian sleep/wake cycle, sleep
  namespace: biological_process
@@ -25401,7 +25474,7 @@
  synonym: "activation of circadian sleep/wake cycle, sleep" NARROW []
  synonym: "positive regulation of sleep" EXACT []
  synonym: "stimulation of circadian sleep/wake cycle, sleep" NARROW []
-@@ -287964,7 +288896,7 @@
+@@ -287964,7 +288914,7 @@
  id: GO:0045939
  name: negative regulation of steroid metabolic process
  namespace: biological_process
@@ -25410,7 +25483,7 @@
  synonym: "down regulation of steroid metabolic process" EXACT []
  synonym: "down-regulation of steroid metabolic process" EXACT []
  synonym: "downregulation of steroid metabolic process" EXACT []
-@@ -287980,7 +288912,7 @@
+@@ -287980,7 +288930,7 @@
  id: GO:0045940
  name: positive regulation of steroid metabolic process
  namespace: biological_process
@@ -25419,7 +25492,7 @@
  synonym: "activation of steroid metabolic process" NARROW []
  synonym: "positive regulation of steroid metabolism" EXACT []
  synonym: "stimulation of steroid metabolic process" NARROW []
-@@ -287997,7 +288929,7 @@
+@@ -287997,7 +288947,7 @@
  id: GO:0045942
  name: negative regulation of phosphorus utilization
  namespace: biological_process
@@ -25428,7 +25501,7 @@
  synonym: "down regulation of phosphorus utilization" EXACT []
  synonym: "down-regulation of phosphorus utilization" EXACT []
  synonym: "downregulation of phosphorus utilization" EXACT []
-@@ -288012,7 +288944,7 @@
+@@ -288012,7 +288962,7 @@
  id: GO:0045943
  name: positive regulation of transcription by RNA polymerase I
  namespace: biological_process
@@ -25437,7 +25510,7 @@
  synonym: "activation of transcription from RNA polymerase I promoter" NARROW []
  synonym: "positive regulation of transcription from Pol I promoter" EXACT []
  synonym: "positive regulation of transcription from RNA polymerase I promoter" EXACT []
-@@ -288032,7 +288964,7 @@
+@@ -288032,7 +288982,7 @@
  namespace: biological_process
  alt_id: GO:0010552
  alt_id: GO:0045817
@@ -25446,7 +25519,7 @@
  synonym: "activation of global transcription from RNA polymerase II promoter" RELATED []
  synonym: "activation of transcription from RNA polymerase II promoter" EXACT []
  synonym: "positive regulation of gene-specific transcription from RNA polymerase II promoter" RELATED []
-@@ -288061,7 +288993,7 @@
+@@ -288061,7 +289011,7 @@
  id: GO:0045945
  name: positive regulation of transcription by RNA polymerase III
  namespace: biological_process
@@ -25455,7 +25528,7 @@
  synonym: "activation of transcription from RNA polymerase III promoter" NARROW []
  synonym: "positive regulation of transcription from Pol III promoter" EXACT []
  synonym: "positive regulation of transcription from RNA polymerase III promoter" EXACT []
-@@ -288079,7 +289011,7 @@
+@@ -288079,7 +289029,7 @@
  id: GO:0045947
  name: negative regulation of translational initiation
  namespace: biological_process
@@ -25464,7 +25537,7 @@
  synonym: "down regulation of translational initiation" EXACT []
  synonym: "down-regulation of translational initiation" EXACT []
  synonym: "downregulation of translational initiation" EXACT []
-@@ -288094,7 +289026,7 @@
+@@ -288094,7 +289044,7 @@
  id: GO:0045948
  name: positive regulation of translational initiation
  namespace: biological_process
@@ -25473,7 +25546,7 @@
  synonym: "activation of translational initiation" NARROW []
  synonym: "stimulation of translational initiation" NARROW []
  synonym: "up regulation of translational initiation" EXACT []
-@@ -288110,7 +289042,7 @@
+@@ -288110,7 +289060,7 @@
  id: GO:0045949
  name: positive regulation of phosphorus utilization
  namespace: biological_process
@@ -25482,7 +25555,7 @@
  synonym: "activation of phosphorus utilization" NARROW []
  synonym: "stimulation of phosphorus utilization" NARROW []
  synonym: "up regulation of phosphorus utilization" EXACT []
-@@ -288126,7 +289058,7 @@
+@@ -288126,7 +289076,7 @@
  id: GO:0045950
  name: negative regulation of mitotic recombination
  namespace: biological_process
@@ -25491,7 +25564,7 @@
  synonym: "down regulation of mitotic recombination" EXACT []
  synonym: "down-regulation of mitotic recombination" EXACT []
  synonym: "downregulation of mitotic recombination" EXACT []
-@@ -288142,7 +289074,7 @@
+@@ -288142,7 +289092,7 @@
  id: GO:0045951
  name: positive regulation of mitotic recombination
  namespace: biological_process
@@ -25500,7 +25573,7 @@
  synonym: "activation of mitotic recombination" NARROW []
  synonym: "positive regulation of recombination within rDNA repeats" NARROW []
  synonym: "stimulation of mitotic recombination" NARROW []
-@@ -288159,7 +289091,7 @@
+@@ -288159,7 +289109,7 @@
  id: GO:0045952
  name: regulation of juvenile hormone catabolic process
  namespace: biological_process
@@ -25509,7 +25582,7 @@
  synonym: "regulation of juvenile hormone breakdown" EXACT []
  synonym: "regulation of juvenile hormone catabolism" EXACT []
  synonym: "regulation of juvenile hormone degradation" EXACT []
-@@ -288221,7 +289153,7 @@
+@@ -288221,7 +289171,7 @@
  id: GO:0045955
  name: negative regulation of calcium ion-dependent exocytosis
  namespace: biological_process
@@ -25518,7 +25591,7 @@
  synonym: "down regulation of calcium ion-dependent exocytosis" EXACT []
  synonym: "down-regulation of calcium ion-dependent exocytosis" EXACT []
  synonym: "downregulation of calcium ion-dependent exocytosis" EXACT []
-@@ -288236,7 +289168,7 @@
+@@ -288236,7 +289186,7 @@
  id: GO:0045956
  name: positive regulation of calcium ion-dependent exocytosis
  namespace: biological_process
@@ -25527,7 +25600,7 @@
  synonym: "activation of calcium ion-dependent exocytosis" NARROW []
  synonym: "stimulation of calcium ion-dependent exocytosis" NARROW []
  synonym: "up regulation of calcium ion-dependent exocytosis" EXACT []
-@@ -288252,7 +289184,7 @@
+@@ -288252,7 +289202,7 @@
  id: GO:0045957
  name: negative regulation of complement activation, alternative pathway
  namespace: biological_process
@@ -25536,7 +25609,7 @@
  synonym: "down regulation of complement activation, alternative pathway" EXACT []
  synonym: "down-regulation of complement activation, alternative pathway" EXACT []
  synonym: "downregulation of complement activation, alternative pathway" EXACT []
-@@ -288269,7 +289201,7 @@
+@@ -288269,7 +289219,7 @@
  id: GO:0045958
  name: positive regulation of complement activation, alternative pathway
  namespace: biological_process
@@ -25545,7 +25618,7 @@
  synonym: "activation of complement activation, alternative pathway" NARROW []
  synonym: "positive regulation of complement cascade, alternative pathway" EXACT [GOC:add]
  synonym: "stimulation of complement activation, alternative pathway" NARROW []
-@@ -288287,7 +289219,7 @@
+@@ -288287,7 +289237,7 @@
  id: GO:0045959
  name: negative regulation of complement activation, classical pathway
  namespace: biological_process
@@ -25554,7 +25627,7 @@
  synonym: "down regulation of complement activation, classical pathway" EXACT []
  synonym: "down-regulation of complement activation, classical pathway" EXACT []
  synonym: "downregulation of complement activation, classical pathway" EXACT []
-@@ -288304,7 +289236,7 @@
+@@ -288304,7 +289254,7 @@
  id: GO:0045960
  name: positive regulation of complement activation, classical pathway
  namespace: biological_process
@@ -25563,7 +25636,7 @@
  synonym: "activation of complement activation, classical pathway" NARROW []
  synonym: "positive regulation of complement cascade, classical pathway" EXACT [GOC:add]
  synonym: "stimulation of complement activation, classical pathway" NARROW []
-@@ -288322,7 +289254,7 @@
+@@ -288322,7 +289272,7 @@
  id: GO:0045961
  name: negative regulation of development, heterochronic
  namespace: biological_process
@@ -25572,7 +25645,7 @@
  synonym: "down regulation of development, heterochronic" EXACT []
  synonym: "down-regulation of development, heterochronic" EXACT []
  synonym: "downregulation of development, heterochronic" EXACT []
-@@ -288333,7 +289265,7 @@
+@@ -288333,7 +289283,7 @@
  id: GO:0045962
  name: positive regulation of development, heterochronic
  namespace: biological_process
@@ -25581,7 +25654,7 @@
  synonym: "activation of development, heterochronic" NARROW []
  synonym: "stimulation of development, heterochronic" NARROW []
  synonym: "up regulation of development, heterochronic" EXACT []
-@@ -288345,7 +289277,7 @@
+@@ -288345,7 +289295,7 @@
  id: GO:0045963
  name: negative regulation of dopamine metabolic process
  namespace: biological_process
@@ -25590,7 +25663,7 @@
  synonym: "down regulation of dopamine metabolic process" EXACT []
  synonym: "down-regulation of dopamine metabolic process" EXACT []
  synonym: "downregulation of dopamine metabolic process" EXACT []
-@@ -288361,7 +289293,7 @@
+@@ -288361,7 +289311,7 @@
  id: GO:0045964
  name: positive regulation of dopamine metabolic process
  namespace: biological_process
@@ -25599,7 +25672,7 @@
  synonym: "activation of dopamine metabolic process" NARROW []
  synonym: "positive regulation of dopamine metabolism" EXACT []
  synonym: "stimulation of dopamine metabolic process" NARROW []
-@@ -288378,7 +289310,7 @@
+@@ -288378,7 +289328,7 @@
  id: GO:0045965
  name: obsolete negative regulation of ecdysteroid metabolic process
  namespace: biological_process
@@ -25608,7 +25681,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "down regulation of ecdysteroid metabolic process" EXACT []
  synonym: "down-regulation of ecdysteroid metabolic process" EXACT []
-@@ -288392,7 +289324,7 @@
+@@ -288392,7 +289342,7 @@
  id: GO:0045966
  name: obsolete positive regulation of ecdysteroid metabolic process
  namespace: biological_process
@@ -25617,7 +25690,7 @@
  comment: This term was obsoleted because it is an unnecessary grouping class.
  synonym: "activation of ecdysteroid metabolic process" NARROW []
  synonym: "positive regulation of ecdysteroid metabolism" EXACT []
-@@ -288420,7 +289352,7 @@
+@@ -288420,7 +289370,7 @@
  id: GO:0045968
  name: negative regulation of juvenile hormone biosynthetic process
  namespace: biological_process
@@ -25626,7 +25699,7 @@
  synonym: "down regulation of juvenile hormone biosynthetic process" EXACT []
  synonym: "down-regulation of juvenile hormone biosynthetic process" EXACT []
  synonym: "downregulation of juvenile hormone biosynthetic process" EXACT []
-@@ -288441,7 +289373,7 @@
+@@ -288441,7 +289391,7 @@
  id: GO:0045969
  name: positive regulation of juvenile hormone biosynthetic process
  namespace: biological_process
@@ -25635,7 +25708,7 @@
  synonym: "activation of juvenile hormone biosynthetic process" NARROW []
  synonym: "positive regulation of juvenile hormone anabolism" EXACT []
  synonym: "positive regulation of juvenile hormone biosynthesis" EXACT []
-@@ -288462,7 +289394,7 @@
+@@ -288462,7 +289412,7 @@
  id: GO:0045970
  name: negative regulation of juvenile hormone catabolic process
  namespace: biological_process
@@ -25644,7 +25717,7 @@
  synonym: "down regulation of juvenile hormone catabolic process" EXACT []
  synonym: "down-regulation of juvenile hormone catabolic process" EXACT []
  synonym: "downregulation of juvenile hormone catabolic process" EXACT []
-@@ -288481,7 +289413,7 @@
+@@ -288481,7 +289431,7 @@
  id: GO:0045971
  name: positive regulation of juvenile hormone catabolic process
  namespace: biological_process
@@ -25653,7 +25726,7 @@
  synonym: "activation of juvenile hormone catabolic process" NARROW []
  synonym: "positive regulation of juvenile hormone breakdown" EXACT []
  synonym: "positive regulation of juvenile hormone catabolism" EXACT []
-@@ -288501,7 +289433,7 @@
+@@ -288501,7 +289451,7 @@
  id: GO:0045972
  name: negative regulation of juvenile hormone secretion
  namespace: biological_process
@@ -25662,7 +25735,7 @@
  synonym: "down regulation of juvenile hormone secretion" EXACT []
  synonym: "down-regulation of juvenile hormone secretion" EXACT []
  synonym: "downregulation of juvenile hormone secretion" EXACT []
-@@ -288518,7 +289450,7 @@
+@@ -288518,7 +289468,7 @@
  id: GO:0045973
  name: positive regulation of juvenile hormone secretion
  namespace: biological_process
@@ -25671,7 +25744,7 @@
  synonym: "activation of juvenile hormone secretion" NARROW []
  synonym: "stimulation of juvenile hormone secretion" NARROW []
  synonym: "up regulation of juvenile hormone secretion" EXACT []
-@@ -288535,14 +289467,14 @@
+@@ -288535,14 +289485,14 @@
  id: GO:0045974
  name: regulation of translation, ncRNA-mediated
  namespace: biological_process
@@ -25688,7 +25761,7 @@
  synonym: "activation of mRNA translation, ncRNA-mediated" NARROW []
  synonym: "stimulation of mRNA translation, ncRNA-mediated" NARROW []
  synonym: "up regulation of mRNA translation, ncRNA-mediated" EXACT []
-@@ -288555,7 +289487,7 @@
+@@ -288555,7 +289505,7 @@
  id: GO:0045976
  name: negative regulation of mitotic cell cycle, embryonic
  namespace: biological_process
@@ -25697,7 +25770,7 @@
  synonym: "down regulation of progression through embryonic mitotic cell cycle" EXACT []
  synonym: "down-regulation of progression through embryonic mitotic cell cycle" EXACT []
  synonym: "downregulation of progression through embryonic mitotic cell cycle" EXACT []
-@@ -288573,7 +289505,7 @@
+@@ -288573,7 +289523,7 @@
  id: GO:0045977
  name: positive regulation of mitotic cell cycle, embryonic
  namespace: biological_process
@@ -25706,7 +25779,7 @@
  synonym: "activation of mitotic cell cycle, embryonic" NARROW []
  synonym: "positive regulation of embryonic mitotic cell cycle" EXACT [GOC:dph, GOC:tb]
  synonym: "positive regulation of embryonic mitotic cell cycle progression" EXACT []
-@@ -288592,7 +289524,7 @@
+@@ -288592,7 +289542,7 @@
  id: GO:0045978
  name: negative regulation of nucleoside metabolic process
  namespace: biological_process
@@ -25715,7 +25788,7 @@
  synonym: "down regulation of nucleoside metabolic process" EXACT []
  synonym: "down-regulation of nucleoside metabolic process" EXACT []
  synonym: "downregulation of nucleoside metabolic process" EXACT []
-@@ -288609,7 +289541,7 @@
+@@ -288609,7 +289559,7 @@
  id: GO:0045979
  name: positive regulation of nucleoside metabolic process
  namespace: biological_process
@@ -25724,7 +25797,7 @@
  synonym: "activation of nucleoside metabolic process" NARROW []
  synonym: "positive regulation of nucleoside metabolism" EXACT []
  synonym: "stimulation of nucleoside metabolic process" NARROW []
-@@ -288626,7 +289558,7 @@
+@@ -288626,7 +289576,7 @@
  id: GO:0045980
  name: negative regulation of nucleotide metabolic process
  namespace: biological_process
@@ -25733,7 +25806,7 @@
  synonym: "down regulation of nucleotide metabolic process" EXACT []
  synonym: "down-regulation of nucleotide metabolic process" EXACT []
  synonym: "downregulation of nucleotide metabolic process" EXACT []
-@@ -288644,7 +289576,7 @@
+@@ -288644,7 +289594,7 @@
  id: GO:0045981
  name: positive regulation of nucleotide metabolic process
  namespace: biological_process
@@ -25742,7 +25815,7 @@
  synonym: "activation of nucleotide metabolic process" NARROW []
  synonym: "positive regulation of nucleotide metabolism" EXACT []
  synonym: "stimulation of nucleotide metabolic process" NARROW []
-@@ -288662,12 +289594,12 @@
+@@ -288662,12 +289612,12 @@
  id: GO:0045982
  name: negative regulation of purine nucleobase metabolic process
  namespace: biological_process
@@ -25757,7 +25830,7 @@
  synonym: "negative regulation of purine base metabolism" EXACT []
  is_a: GO:0006141 ! regulation of purine nucleobase metabolic process
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
-@@ -288680,7 +289612,7 @@
+@@ -288680,7 +289630,7 @@
  id: GO:0045983
  name: positive regulation of purine nucleobase metabolic process
  namespace: biological_process
@@ -25766,7 +25839,7 @@
  synonym: "activation of purine base metabolic process" NARROW []
  synonym: "positive regulation of purine base metabolic process" EXACT []
  synonym: "positive regulation of purine base metabolism" EXACT []
-@@ -288698,12 +289630,12 @@
+@@ -288698,12 +289648,12 @@
  id: GO:0045984
  name: negative regulation of pyrimidine nucleobase metabolic process
  namespace: biological_process
@@ -25781,7 +25854,7 @@
  synonym: "negative regulation of pyrimidine base metabolism" EXACT []
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
-@@ -288715,9 +289647,9 @@
+@@ -288715,9 +289665,9 @@
  id: GO:0045985
  name: positive regulation of pyrimidine nucleobase metabolic process
  namespace: biological_process
@@ -25793,7 +25866,7 @@
  synonym: "positive regulation of pyrimidine base metabolism" EXACT []
  synonym: "stimulation of pyrimidine base metabolic process" NARROW []
  synonym: "up regulation of pyrimidine base metabolic process" EXACT []
-@@ -288733,7 +289665,7 @@
+@@ -288733,7 +289683,7 @@
  id: GO:0045986
  name: negative regulation of smooth muscle contraction
  namespace: biological_process
@@ -25802,7 +25875,7 @@
  synonym: "down regulation of smooth muscle contraction" EXACT []
  synonym: "down-regulation of smooth muscle contraction" EXACT []
  synonym: "downregulation of smooth muscle contraction" EXACT []
-@@ -288749,7 +289681,7 @@
+@@ -288749,7 +289699,7 @@
  id: GO:0045987
  name: positive regulation of smooth muscle contraction
  namespace: biological_process
@@ -25811,7 +25884,7 @@
  synonym: "activation of smooth muscle contraction" NARROW []
  synonym: "stimulation of smooth muscle contraction" NARROW []
  synonym: "up regulation of smooth muscle contraction" EXACT []
-@@ -288765,7 +289697,7 @@
+@@ -288765,7 +289715,7 @@
  id: GO:0045988
  name: negative regulation of striated muscle contraction
  namespace: biological_process
@@ -25820,7 +25893,7 @@
  synonym: "down regulation of striated muscle contraction" EXACT []
  synonym: "down-regulation of striated muscle contraction" EXACT []
  synonym: "downregulation of striated muscle contraction" EXACT []
-@@ -288780,7 +289712,7 @@
+@@ -288780,7 +289730,7 @@
  id: GO:0045989
  name: positive regulation of striated muscle contraction
  namespace: biological_process
@@ -25829,7 +25902,7 @@
  synonym: "activation of striated muscle contraction" NARROW []
  synonym: "stimulation of striated muscle contraction" NARROW []
  synonym: "up regulation of striated muscle contraction" EXACT []
-@@ -288796,7 +289728,7 @@
+@@ -288796,7 +289746,7 @@
  id: GO:0045990
  name: carbon catabolite regulation of transcription
  namespace: biological_process
@@ -25838,7 +25911,7 @@
  synonym: "regulation of transcription by carbon catabolites" EXACT [GOC:mah]
  is_a: GO:0006355 ! regulation of DNA-templated transcription
  is_a: GO:0031670 ! cellular response to nutrient
-@@ -288814,7 +289746,7 @@
+@@ -288814,7 +289764,7 @@
  id: GO:0045992
  name: negative regulation of embryonic development
  namespace: biological_process
@@ -25847,7 +25920,7 @@
  synonym: "down regulation of embryonic development" EXACT []
  synonym: "down-regulation of embryonic development" EXACT []
  synonym: "downregulation of embryonic development" EXACT []
-@@ -288830,7 +289762,7 @@
+@@ -288830,7 +289780,7 @@
  id: GO:0045993
  name: negative regulation of translational initiation by iron
  namespace: biological_process
@@ -25856,7 +25929,7 @@
  synonym: "down regulation of translational initiation by iron" EXACT []
  synonym: "down-regulation of translational initiation by iron" EXACT []
  synonym: "downregulation of translational initiation by iron" EXACT []
-@@ -288842,7 +289774,7 @@
+@@ -288842,7 +289792,7 @@
  id: GO:0045994
  name: positive regulation of translational initiation by iron
  namespace: biological_process
@@ -25865,7 +25938,7 @@
  synonym: "activation of translational initiation by iron" NARROW []
  synonym: "stimulation of translational initiation by iron" NARROW []
  synonym: "up regulation of translational initiation by iron" EXACT []
-@@ -288855,7 +289787,7 @@
+@@ -288855,7 +289805,7 @@
  id: GO:0045995
  name: regulation of embryonic development
  namespace: biological_process
@@ -25874,7 +25947,7 @@
  is_a: GO:2000026 ! regulation of multicellular organismal development
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0009790 ! embryo development
-@@ -288865,7 +289797,7 @@
+@@ -288865,7 +289815,7 @@
  id: GO:0045996
  name: obsolete negative regulation of transcription by pheromones
  namespace: biological_process
@@ -25883,7 +25956,7 @@
  comment: This term has been obsoleted because it represents a GO-CAM model.
  synonym: "down regulation of transcription by pheromones" EXACT []
  synonym: "down-regulation of transcription by pheromones" EXACT []
-@@ -288878,7 +289810,7 @@
+@@ -288878,7 +289828,7 @@
  id: GO:0045997
  name: negative regulation of ecdysteroid biosynthetic process
  namespace: biological_process
@@ -25892,7 +25965,7 @@
  synonym: "down regulation of ecdysteroid biosynthetic process" EXACT []
  synonym: "down-regulation of ecdysteroid biosynthetic process" EXACT []
  synonym: "downregulation of ecdysteroid biosynthetic process" EXACT []
-@@ -288898,7 +289830,7 @@
+@@ -288898,7 +289848,7 @@
  id: GO:0045998
  name: positive regulation of ecdysteroid biosynthetic process
  namespace: biological_process
@@ -25901,7 +25974,7 @@
  synonym: "activation of ecdysteroid biosynthetic process" NARROW []
  synonym: "positive regulation of ecdysteroid anabolism" EXACT []
  synonym: "positive regulation of ecdysteroid biosynthesis" EXACT []
-@@ -288919,7 +289851,7 @@
+@@ -288919,7 +289869,7 @@
  id: GO:0045999
  name: negative regulation of ecdysteroid secretion
  namespace: biological_process
@@ -25910,7 +25983,7 @@
  synonym: "down regulation of ecdysteroid secretion" EXACT []
  synonym: "down-regulation of ecdysteroid secretion" EXACT []
  synonym: "downregulation of ecdysteroid secretion" EXACT []
-@@ -288934,7 +289866,7 @@
+@@ -288934,7 +289884,7 @@
  id: GO:0046000
  name: positive regulation of ecdysteroid secretion
  namespace: biological_process
@@ -25919,7 +25992,7 @@
  synonym: "activation of ecdysteroid secretion" NARROW []
  synonym: "stimulation of ecdysteroid secretion" NARROW []
  synonym: "up regulation of ecdysteroid secretion" EXACT []
-@@ -288950,7 +289882,7 @@
+@@ -288950,7 +289900,7 @@
  id: GO:0046001
  name: negative regulation of preblastoderm mitotic cell cycle
  namespace: biological_process
@@ -25928,7 +26001,7 @@
  synonym: "down regulation of progression through preblastoderm mitotic cell cycle" EXACT []
  synonym: "down-regulation of progression through preblastoderm mitotic cell cycle" EXACT []
  synonym: "downregulation of progression through preblastoderm mitotic cell cycle" EXACT []
-@@ -288967,7 +289899,7 @@
+@@ -288967,7 +289917,7 @@
  id: GO:0046002
  name: positive regulation of preblastoderm mitotic cell cycle
  namespace: biological_process
@@ -25937,7 +26010,7 @@
  synonym: "activation of progression through preblastoderm mitotic cell cycle" NARROW []
  synonym: "positive regulation of preblastoderm mitotic cell cycle progression" EXACT []
  synonym: "positive regulation of progression through preblastoderm mitotic cell cycle" EXACT [GOC:dph, GOC:tb]
-@@ -288985,7 +289917,7 @@
+@@ -288985,7 +289935,7 @@
  id: GO:0046003
  name: negative regulation of syncytial blastoderm mitotic cell cycle
  namespace: biological_process
@@ -25946,7 +26019,7 @@
  synonym: "down regulation of progression through syncytial blastoderm mitotic cell cycle" EXACT []
  synonym: "down-regulation of progression through syncytial blastoderm mitotic cell cycle" EXACT []
  synonym: "downregulation of progression through syncytial blastoderm mitotic cell cycle" EXACT []
-@@ -289002,7 +289934,7 @@
+@@ -289002,7 +289952,7 @@
  id: GO:0046004
  name: positive regulation of syncytial blastoderm mitotic cell cycle
  namespace: biological_process
@@ -25955,7 +26028,7 @@
  synonym: "activation of progression through syncytial blastoderm mitotic cell cycle" NARROW []
  synonym: "positive regulation of progression through syncytial blastoderm mitotic cell cycle" EXACT [GOC:dph, GOC:tb]
  synonym: "positive regulation of syncytial blastoderm cell cycle progression" EXACT []
-@@ -289020,7 +289952,7 @@
+@@ -289020,7 +289970,7 @@
  id: GO:0046005
  name: positive regulation of circadian sleep/wake cycle, REM sleep
  namespace: biological_process
@@ -25964,7 +26037,7 @@
  synonym: "activation of circadian sleep/wake cycle, REM sleep" NARROW []
  synonym: "positive regulation of REM sleep" EXACT []
  synonym: "stimulation of circadian sleep/wake cycle, REM sleep" NARROW []
-@@ -289037,7 +289969,7 @@
+@@ -289037,7 +289987,7 @@
  id: GO:0046006
  name: regulation of activated T cell proliferation
  namespace: biological_process
@@ -25973,7 +26046,7 @@
  synonym: "regulation of activated T lymphocyte proliferation" EXACT []
  synonym: "regulation of activated T-cell proliferation" EXACT []
  synonym: "regulation of activated T-lymphocyte proliferation" EXACT []
-@@ -289050,7 +289982,7 @@
+@@ -289050,7 +290000,7 @@
  id: GO:0046007
  name: negative regulation of activated T cell proliferation
  namespace: biological_process
@@ -25982,7 +26055,7 @@
  synonym: "down regulation of activated T cell proliferation" EXACT []
  synonym: "down-regulation of activated T cell proliferation" EXACT []
  synonym: "downregulation of activated T cell proliferation" EXACT []
-@@ -289068,14 +290000,14 @@
+@@ -289068,14 +290018,14 @@
  id: GO:0046008
  name: regulation of female receptivity, post-mating
  namespace: biological_process
@@ -25999,7 +26072,7 @@
  synonym: "activation of female receptivity, post-mating" NARROW []
  synonym: "stimulation of female receptivity, post-mating" NARROW []
  synonym: "up regulation of female receptivity, post-mating" EXACT []
-@@ -289088,7 +290020,7 @@
+@@ -289088,7 +290038,7 @@
  id: GO:0046010
  name: positive regulation of circadian sleep/wake cycle, non-REM sleep
  namespace: biological_process
@@ -26008,7 +26081,7 @@
  synonym: "activation of circadian sleep/wake cycle, non-REM sleep" NARROW []
  synonym: "positive regulation of non-REM sleep" EXACT []
  synonym: "stimulation of circadian sleep/wake cycle, non-REM sleep" NARROW []
-@@ -289105,14 +290037,14 @@
+@@ -289105,14 +290055,14 @@
  id: GO:0046011
  name: regulation of oskar mRNA translation
  namespace: biological_process
@@ -26025,7 +26098,7 @@
  synonym: "activation of oskar mRNA translation" NARROW []
  synonym: "stimulation of oskar mRNA translation" NARROW []
  synonym: "up regulation of oskar mRNA translation" EXACT []
-@@ -289125,7 +290057,7 @@
+@@ -289125,7 +290075,7 @@
  id: GO:0046013
  name: regulation of T cell homeostatic proliferation
  namespace: biological_process
@@ -26034,7 +26107,7 @@
  synonym: "regulation of resting T cell proliferation" EXACT []
  synonym: "regulation of T lymphocyte homeostatic proliferation" EXACT []
  synonym: "regulation of T-cell homeostatic proliferation" EXACT []
-@@ -289139,7 +290071,7 @@
+@@ -289139,7 +290089,7 @@
  id: GO:0046014
  name: negative regulation of T cell homeostatic proliferation
  namespace: biological_process
@@ -26043,7 +26116,7 @@
  synonym: "down regulation of T cell homeostatic proliferation" EXACT []
  synonym: "down-regulation of T cell homeostatic proliferation" EXACT []
  synonym: "downregulation of T cell homeostatic proliferation" EXACT []
-@@ -289158,14 +290090,14 @@
+@@ -289158,14 +290108,14 @@
  id: GO:0046015
  name: regulation of transcription by glucose
  namespace: biological_process
@@ -26060,7 +26133,7 @@
  synonym: "activation of transcription by glucose" NARROW []
  synonym: "stimulation of transcription by glucose" NARROW []
  synonym: "up regulation of transcription by glucose" EXACT []
-@@ -289178,7 +290110,7 @@
+@@ -289178,7 +290128,7 @@
  id: GO:0046017
  name: obsolete regulation of transcription from RNA polymerase I promoter during mitotic cell cycle
  namespace: biological_process
@@ -26069,7 +26142,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "mitotic regulation of transcription from Pol I promoter" EXACT []
  synonym: "regulation of transcription from Pol I promoter during mitosis" EXACT [GOC:dph, GOC:tb]
-@@ -289192,7 +290124,7 @@
+@@ -289192,7 +290142,7 @@
  id: GO:0046018
  name: obsolete positive regulation of transcription from RNA polymerase I promoter during mitotic cell cycle
  namespace: biological_process
@@ -26078,7 +26151,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "activation of transcription from RNA polymerase I promoter during mitosis" NARROW [GOC:mah]
  synonym: "mitotic activation of transcription from Pol I promoter" EXACT []
-@@ -289211,7 +290143,7 @@
+@@ -289211,7 +290161,7 @@
  id: GO:0046019
  name: obsolete regulation of transcription from RNA polymerase II promoter by pheromones
  namespace: biological_process
@@ -26087,7 +26160,7 @@
  comment: This term has been obsoleted because it represents a GO-CAM model.
  synonym: "regulation of transcription from Pol II promoter by pheromones" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12739" xsd:anyURI
-@@ -289221,7 +290153,7 @@
+@@ -289221,7 +290171,7 @@
  id: GO:0046020
  name: obsolete negative regulation of transcription from RNA polymerase II promoter by pheromones
  namespace: biological_process
@@ -26096,7 +26169,7 @@
  comment: This term has been obsoleted because it represents a GO-CAM model.
  synonym: "down regulation of transcription from RNA polymerase II promoter by pheromones" EXACT []
  synonym: "down-regulation of transcription from RNA polymerase II promoter by pheromones" EXACT []
-@@ -289235,7 +290167,7 @@
+@@ -289235,7 +290185,7 @@
  id: GO:0046021
  name: obsolete regulation of transcription from RNA polymerase II promoter during mitotic cell cycle
  namespace: biological_process
@@ -26105,7 +26178,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "mitotic regulation of transcription from Pol II promoter" EXACT []
  synonym: "regulation of transcription from Pol II promoter, mitotic" EXACT []
-@@ -289249,7 +290181,7 @@
+@@ -289249,7 +290199,7 @@
  id: GO:0046022
  name: obsolete positive regulation of transcription from RNA polymerase II promoter during mitotic cell cycle
  namespace: biological_process
@@ -26114,7 +26187,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "activation of transcription from RNA polymerase II promoter during mitosis" NARROW [GOC:mah]
  synonym: "mitotic activation of transcription from Pol II promoter" EXACT []
-@@ -289268,7 +290200,7 @@
+@@ -289268,7 +290218,7 @@
  id: GO:0046023
  name: obsolete regulation of transcription from RNA polymerase III promoter during mitotic cell cycle
  namespace: biological_process
@@ -26123,7 +26196,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "mitotic regulation of transcription from Pol III promoter" EXACT []
  synonym: "regulation of transcription from Pol III promoter, mitotic" EXACT []
-@@ -289282,7 +290214,7 @@
+@@ -289282,7 +290232,7 @@
  id: GO:0046024
  name: obsolete positive regulation of transcription from RNA polymerase III promoter during mitotic cell cycle
  namespace: biological_process
@@ -26132,7 +26205,7 @@
  comment: The reason for obsoletion is that 'during' should be captured using an annotation extension.
  synonym: "activation of transcription from RNA polymerase III promoter during mitosis" NARROW [GOC:mah]
  synonym: "mitotic activation of transcription from Pol III promoter" EXACT []
-@@ -289385,7 +290317,7 @@
+@@ -289385,7 +290335,7 @@
  id: GO:0046031
  name: ADP metabolic process
  namespace: biological_process
@@ -26141,7 +26214,7 @@
  synonym: "ADP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0009179 ! purine ribonucleoside diphosphate metabolic process
-@@ -289394,7 +290326,7 @@
+@@ -289394,7 +290344,7 @@
  id: GO:0046032
  name: ADP catabolic process
  namespace: biological_process
@@ -26150,7 +26223,7 @@
  synonym: "ADP breakdown" EXACT []
  synonym: "ADP catabolism" EXACT []
  synonym: "ADP degradation" EXACT []
-@@ -289406,7 +290338,7 @@
+@@ -289406,7 +290356,7 @@
  id: GO:0046033
  name: AMP metabolic process
  namespace: biological_process
@@ -26159,7 +26232,7 @@
  synonym: "adenylate forming enzyme activity" RELATED []
  synonym: "AMP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
-@@ -289416,7 +290348,7 @@
+@@ -289416,7 +290366,7 @@
  id: GO:0046034
  name: ATP metabolic process
  namespace: biological_process
@@ -26168,7 +26241,7 @@
  synonym: "ATP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0009205 ! purine ribonucleoside triphosphate metabolic process
-@@ -289425,7 +290357,7 @@
+@@ -289425,7 +290375,7 @@
  id: GO:0046035
  name: CMP metabolic process
  namespace: biological_process
@@ -26177,7 +26250,7 @@
  synonym: "CMP metabolism" EXACT []
  is_a: GO:0009173 ! pyrimidine ribonucleoside monophosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289435,7 +290367,7 @@
+@@ -289435,7 +290385,7 @@
  name: CTP metabolic process
  namespace: biological_process
  alt_id: GO:0006243
@@ -26186,7 +26259,7 @@
  synonym: "CTP deamination" NARROW []
  synonym: "CTP metabolism" EXACT []
  is_a: GO:0009208 ! pyrimidine ribonucleoside triphosphate metabolic process
-@@ -289445,7 +290377,7 @@
+@@ -289445,7 +290395,7 @@
  id: GO:0046037
  name: GMP metabolic process
  namespace: biological_process
@@ -26195,7 +26268,7 @@
  synonym: "GMP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0009167 ! purine ribonucleoside monophosphate metabolic process
-@@ -289454,7 +290386,7 @@
+@@ -289454,7 +290404,7 @@
  id: GO:0046038
  name: GMP catabolic process
  namespace: biological_process
@@ -26204,7 +26277,7 @@
  synonym: "GMP breakdown" EXACT []
  synonym: "GMP catabolism" EXACT []
  synonym: "GMP degradation" EXACT []
-@@ -289466,7 +290398,7 @@
+@@ -289466,7 +290416,7 @@
  id: GO:0046039
  name: GTP metabolic process
  namespace: biological_process
@@ -26213,7 +26286,7 @@
  synonym: "GTP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0009205 ! purine ribonucleoside triphosphate metabolic process
-@@ -289475,7 +290407,7 @@
+@@ -289475,7 +290425,7 @@
  id: GO:0046040
  name: IMP metabolic process
  namespace: biological_process
@@ -26222,7 +26295,7 @@
  synonym: "IMP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0009167 ! purine ribonucleoside monophosphate metabolic process
-@@ -289484,7 +290416,7 @@
+@@ -289484,7 +290434,7 @@
  id: GO:0046041
  name: ITP metabolic process
  namespace: biological_process
@@ -26231,7 +26304,7 @@
  synonym: "ITP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0009205 ! purine ribonucleoside triphosphate metabolic process
-@@ -289493,7 +290425,7 @@
+@@ -289493,7 +290443,7 @@
  id: GO:0046042
  name: ITP biosynthetic process
  namespace: biological_process
@@ -26240,7 +26313,7 @@
  synonym: "ITP anabolism" EXACT []
  synonym: "ITP biosynthesis" EXACT []
  synonym: "ITP formation" EXACT []
-@@ -289506,7 +290438,7 @@
+@@ -289506,7 +290456,7 @@
  id: GO:0046043
  name: TDP metabolic process
  namespace: biological_process
@@ -26249,7 +26322,7 @@
  synonym: "TDP metabolism" EXACT []
  is_a: GO:0009193 ! pyrimidine ribonucleoside diphosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289515,7 +290447,7 @@
+@@ -289515,7 +290465,7 @@
  id: GO:0046044
  name: TMP metabolic process
  namespace: biological_process
@@ -26258,7 +26331,7 @@
  synonym: "TMP metabolism" EXACT []
  is_a: GO:0009173 ! pyrimidine ribonucleoside monophosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289524,7 +290456,7 @@
+@@ -289524,7 +290474,7 @@
  id: GO:0046045
  name: TMP catabolic process
  namespace: biological_process
@@ -26267,7 +26340,7 @@
  synonym: "TMP breakdown" EXACT []
  synonym: "TMP catabolism" EXACT []
  synonym: "TMP degradation" EXACT []
-@@ -289536,7 +290468,7 @@
+@@ -289536,7 +290486,7 @@
  id: GO:0046046
  name: TTP metabolic process
  namespace: biological_process
@@ -26276,7 +26349,7 @@
  synonym: "TTP metabolism" EXACT []
  is_a: GO:0009208 ! pyrimidine ribonucleoside triphosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289545,7 +290477,7 @@
+@@ -289545,7 +290495,7 @@
  id: GO:0046047
  name: TTP catabolic process
  namespace: biological_process
@@ -26285,7 +26358,7 @@
  synonym: "TTP breakdown" EXACT []
  synonym: "TTP catabolism" EXACT []
  synonym: "TTP degradation" EXACT []
-@@ -289558,7 +290490,7 @@
+@@ -289558,7 +290508,7 @@
  id: GO:0046048
  name: UDP metabolic process
  namespace: biological_process
@@ -26294,7 +26367,7 @@
  synonym: "UDP metabolism" EXACT []
  is_a: GO:0009193 ! pyrimidine ribonucleoside diphosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289567,7 +290499,7 @@
+@@ -289567,7 +290517,7 @@
  id: GO:0046049
  name: UMP metabolic process
  namespace: biological_process
@@ -26303,7 +26376,7 @@
  synonym: "UMP metabolism" EXACT []
  is_a: GO:0009173 ! pyrimidine ribonucleoside monophosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289576,7 +290508,7 @@
+@@ -289576,7 +290526,7 @@
  id: GO:0046050
  name: UMP catabolic process
  namespace: biological_process
@@ -26312,7 +26385,7 @@
  synonym: "UMP breakdown" EXACT []
  synonym: "UMP catabolism" EXACT []
  synonym: "UMP degradation" EXACT []
-@@ -289588,7 +290520,7 @@
+@@ -289588,7 +290538,7 @@
  id: GO:0046051
  name: UTP metabolic process
  namespace: biological_process
@@ -26321,7 +26394,7 @@
  synonym: "UTP metabolism" EXACT []
  is_a: GO:0009208 ! pyrimidine ribonucleoside triphosphate metabolic process
  is_a: GO:0009218 ! pyrimidine ribonucleotide metabolic process
-@@ -289597,7 +290529,7 @@
+@@ -289597,7 +290547,7 @@
  id: GO:0046052
  name: UTP catabolic process
  namespace: biological_process
@@ -26330,7 +26403,7 @@
  synonym: "UTP breakdown" EXACT []
  synonym: "UTP catabolism" EXACT []
  synonym: "UTP degradation" EXACT []
-@@ -289610,7 +290542,7 @@
+@@ -289610,7 +290560,7 @@
  id: GO:0046053
  name: dAMP metabolic process
  namespace: biological_process
@@ -26339,7 +26412,7 @@
  synonym: "dAMP metabolism" EXACT []
  is_a: GO:0009151 ! purine deoxyribonucleotide metabolic process
  is_a: GO:0009170 ! purine deoxyribonucleoside monophosphate metabolic process
-@@ -289619,7 +290551,7 @@
+@@ -289619,7 +290569,7 @@
  id: GO:0046054
  name: dGMP metabolic process
  namespace: biological_process
@@ -26348,7 +26421,7 @@
  synonym: "dGMP metabolism" EXACT []
  is_a: GO:0009151 ! purine deoxyribonucleotide metabolic process
  is_a: GO:0009170 ! purine deoxyribonucleoside monophosphate metabolic process
-@@ -289628,7 +290560,7 @@
+@@ -289628,7 +290578,7 @@
  id: GO:0046055
  name: dGMP catabolic process
  namespace: biological_process
@@ -26357,7 +26430,7 @@
  synonym: "dGMP breakdown" EXACT []
  synonym: "dGMP catabolism" EXACT []
  synonym: "dGMP degradation" EXACT []
-@@ -289640,7 +290572,7 @@
+@@ -289640,7 +290590,7 @@
  id: GO:0046056
  name: dADP metabolic process
  namespace: biological_process
@@ -26366,7 +26439,7 @@
  synonym: "dADP metabolism" EXACT []
  is_a: GO:0009151 ! purine deoxyribonucleotide metabolic process
  is_a: GO:0009182 ! purine deoxyribonucleoside diphosphate metabolic process
-@@ -289649,7 +290581,7 @@
+@@ -289649,7 +290599,7 @@
  id: GO:0046057
  name: dADP catabolic process
  namespace: biological_process
@@ -26375,7 +26448,7 @@
  synonym: "dADP breakdown" EXACT []
  synonym: "dADP catabolism" EXACT []
  synonym: "dADP degradation" EXACT []
-@@ -289661,7 +290593,7 @@
+@@ -289661,7 +290611,7 @@
  id: GO:0046058
  name: cAMP metabolic process
  namespace: biological_process
@@ -26384,7 +26457,7 @@
  synonym: "3',5' cAMP metabolic process" EXACT []
  synonym: "3',5' cAMP metabolism" EXACT []
  synonym: "3',5'-cAMP metabolic process" EXACT []
-@@ -289679,7 +290611,7 @@
+@@ -289679,7 +290629,7 @@
  id: GO:0046059
  name: dAMP catabolic process
  namespace: biological_process
@@ -26393,7 +26466,7 @@
  synonym: "dAMP breakdown" EXACT []
  synonym: "dAMP catabolism" EXACT []
  synonym: "dAMP degradation" EXACT []
-@@ -289691,7 +290623,7 @@
+@@ -289691,7 +290641,7 @@
  id: GO:0046060
  name: dATP metabolic process
  namespace: biological_process
@@ -26402,7 +26475,7 @@
  synonym: "dATP metabolism" EXACT []
  is_a: GO:0009151 ! purine deoxyribonucleotide metabolic process
  is_a: GO:0009215 ! purine deoxyribonucleoside triphosphate metabolic process
-@@ -289700,7 +290632,7 @@
+@@ -289700,7 +290650,7 @@
  id: GO:0046061
  name: dATP catabolic process
  namespace: biological_process
@@ -26411,7 +26484,7 @@
  synonym: "dATP breakdown" EXACT []
  synonym: "dATP catabolism" EXACT []
  synonym: "dATP degradation" EXACT []
-@@ -289712,7 +290644,7 @@
+@@ -289712,7 +290662,7 @@
  id: GO:0046062
  name: dCDP metabolic process
  namespace: biological_process
@@ -26420,7 +26493,7 @@
  synonym: "dCDP metabolism" EXACT []
  is_a: GO:0009196 ! pyrimidine deoxyribonucleoside diphosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289721,7 +290653,7 @@
+@@ -289721,7 +290671,7 @@
  id: GO:0046063
  name: dCMP metabolic process
  namespace: biological_process
@@ -26429,7 +26502,7 @@
  synonym: "dCMP metabolism" EXACT []
  is_a: GO:0009176 ! pyrimidine deoxyribonucleoside monophosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289730,7 +290662,7 @@
+@@ -289730,7 +290680,7 @@
  id: GO:0046064
  name: dCMP biosynthetic process
  namespace: biological_process
@@ -26438,7 +26511,7 @@
  synonym: "dCMP anabolism" EXACT []
  synonym: "dCMP biosynthesis" EXACT []
  synonym: "dCMP formation" EXACT []
-@@ -289743,7 +290675,7 @@
+@@ -289743,7 +290693,7 @@
  id: GO:0046065
  name: dCTP metabolic process
  namespace: biological_process
@@ -26447,7 +26520,7 @@
  synonym: "dCTP metabolism" EXACT []
  is_a: GO:0009211 ! pyrimidine deoxyribonucleoside triphosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289752,7 +290684,7 @@
+@@ -289752,7 +290702,7 @@
  id: GO:0046066
  name: dGDP metabolic process
  namespace: biological_process
@@ -26456,7 +26529,7 @@
  synonym: "dGDP metabolism" EXACT []
  is_a: GO:0009151 ! purine deoxyribonucleotide metabolic process
  is_a: GO:0009182 ! purine deoxyribonucleoside diphosphate metabolic process
-@@ -289761,7 +290693,7 @@
+@@ -289761,7 +290711,7 @@
  id: GO:0046067
  name: dGDP catabolic process
  namespace: biological_process
@@ -26465,7 +26538,7 @@
  synonym: "dGDP breakdown" EXACT []
  synonym: "dGDP catabolism" EXACT []
  synonym: "dGDP degradation" EXACT []
-@@ -289773,7 +290705,7 @@
+@@ -289773,7 +290723,7 @@
  id: GO:0046068
  name: cGMP metabolic process
  namespace: biological_process
@@ -26474,7 +26547,7 @@
  synonym: "cGMP metabolism" EXACT []
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0052652 ! cyclic purine nucleotide metabolic process
-@@ -289782,7 +290714,7 @@
+@@ -289782,7 +290732,7 @@
  id: GO:0046069
  name: cGMP catabolic process
  namespace: biological_process
@@ -26483,7 +26556,7 @@
  synonym: "cGMP breakdown" EXACT []
  synonym: "cGMP catabolism" EXACT []
  synonym: "cGMP degradation" EXACT []
-@@ -289794,7 +290726,7 @@
+@@ -289794,7 +290744,7 @@
  id: GO:0046070
  name: dGTP metabolic process
  namespace: biological_process
@@ -26492,7 +26565,7 @@
  synonym: "dGTP metabolism" EXACT []
  is_a: GO:0009151 ! purine deoxyribonucleotide metabolic process
  is_a: GO:0009215 ! purine deoxyribonucleoside triphosphate metabolic process
-@@ -289803,7 +290735,7 @@
+@@ -289803,7 +290753,7 @@
  id: GO:0046071
  name: dGTP biosynthetic process
  namespace: biological_process
@@ -26501,7 +26574,7 @@
  synonym: "dGTP anabolism" EXACT []
  synonym: "dGTP biosynthesis" EXACT []
  synonym: "dGTP formation" EXACT []
-@@ -289816,7 +290748,7 @@
+@@ -289816,7 +290766,7 @@
  id: GO:0046072
  name: dTDP metabolic process
  namespace: biological_process
@@ -26510,7 +26583,7 @@
  synonym: "dTDP metabolism" EXACT []
  is_a: GO:0009196 ! pyrimidine deoxyribonucleoside diphosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289825,7 +290757,7 @@
+@@ -289825,7 +290775,7 @@
  id: GO:0046073
  name: dTMP metabolic process
  namespace: biological_process
@@ -26519,7 +26592,7 @@
  synonym: "dTMP metabolism" EXACT []
  is_a: GO:0009176 ! pyrimidine deoxyribonucleoside monophosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289834,7 +290766,7 @@
+@@ -289834,7 +290784,7 @@
  id: GO:0046074
  name: dTMP catabolic process
  namespace: biological_process
@@ -26528,7 +26601,7 @@
  synonym: "dTMP breakdown" EXACT []
  synonym: "dTMP catabolism" EXACT []
  synonym: "dTMP degradation" EXACT []
-@@ -289846,7 +290778,7 @@
+@@ -289846,7 +290796,7 @@
  id: GO:0046075
  name: dTTP metabolic process
  namespace: biological_process
@@ -26537,7 +26610,7 @@
  synonym: "dTTP metabolism" EXACT []
  is_a: GO:0009211 ! pyrimidine deoxyribonucleoside triphosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289855,7 +290787,7 @@
+@@ -289855,7 +290805,7 @@
  id: GO:0046076
  name: dTTP catabolic process
  namespace: biological_process
@@ -26546,7 +26619,7 @@
  synonym: "dTTP breakdown" EXACT []
  synonym: "dTTP catabolism" EXACT []
  synonym: "dTTP degradation" EXACT []
-@@ -289867,7 +290799,7 @@
+@@ -289867,7 +290817,7 @@
  id: GO:0046077
  name: dUDP metabolic process
  namespace: biological_process
@@ -26555,7 +26628,7 @@
  synonym: "dUDP metabolism" EXACT []
  is_a: GO:0009196 ! pyrimidine deoxyribonucleoside diphosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289876,7 +290808,7 @@
+@@ -289876,7 +290826,7 @@
  id: GO:0046078
  name: dUMP metabolic process
  namespace: biological_process
@@ -26564,7 +26637,7 @@
  synonym: "dUMP metabolism" EXACT []
  is_a: GO:0009176 ! pyrimidine deoxyribonucleoside monophosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289885,7 +290817,7 @@
+@@ -289885,7 +290835,7 @@
  id: GO:0046079
  name: dUMP catabolic process
  namespace: biological_process
@@ -26573,7 +26646,7 @@
  synonym: "dUMP breakdown" EXACT []
  synonym: "dUMP catabolism" EXACT []
  synonym: "dUMP degradation" EXACT []
-@@ -289897,7 +290829,7 @@
+@@ -289897,7 +290847,7 @@
  id: GO:0046080
  name: dUTP metabolic process
  namespace: biological_process
@@ -26582,7 +26655,7 @@
  synonym: "dUTP metabolism" EXACT []
  is_a: GO:0009211 ! pyrimidine deoxyribonucleoside triphosphate metabolic process
  is_a: GO:0009219 ! pyrimidine deoxyribonucleotide metabolic process
-@@ -289906,7 +290838,7 @@
+@@ -289906,7 +290856,7 @@
  id: GO:0046081
  name: dUTP catabolic process
  namespace: biological_process
@@ -26591,7 +26664,7 @@
  synonym: "dUTP breakdown" EXACT []
  synonym: "dUTP catabolism" EXACT []
  synonym: "dUTP degradation" EXACT []
-@@ -289918,7 +290850,7 @@
+@@ -289918,7 +290868,7 @@
  id: GO:0046082
  name: obsolete 5-methylcytosine biosynthetic process
  namespace: biological_process
@@ -26600,7 +26673,7 @@
  comment: This term was obsoleted because itis redundant with DNA methylation-dependent heterochromatin formation ; GO:0006346 or its children.
  synonym: "5-methylcytosine anabolism" EXACT []
  synonym: "5-methylcytosine biosynthesis" EXACT []
-@@ -289932,7 +290864,7 @@
+@@ -289932,7 +290882,7 @@
  id: GO:0046083
  name: adenine metabolic process
  namespace: biological_process
@@ -26609,7 +26682,7 @@
  synonym: "adenine metabolism" EXACT []
  is_a: GO:0006144 ! purine nucleobase metabolic process
  
-@@ -289940,7 +290872,7 @@
+@@ -289940,7 +290890,7 @@
  id: GO:0046084
  name: adenine biosynthetic process
  namespace: biological_process
@@ -26618,7 +26691,7 @@
  synonym: "adenine anabolism" EXACT []
  synonym: "adenine biosynthesis" EXACT []
  synonym: "adenine formation" EXACT []
-@@ -289952,7 +290884,7 @@
+@@ -289952,7 +290902,7 @@
  id: GO:0046085
  name: adenosine metabolic process
  namespace: biological_process
@@ -26627,7 +26700,7 @@
  synonym: "adenosine metabolism" EXACT []
  is_a: GO:0046128 ! purine ribonucleoside metabolic process
  
-@@ -289960,7 +290892,7 @@
+@@ -289960,7 +290910,7 @@
  id: GO:0046086
  name: adenosine biosynthetic process
  namespace: biological_process
@@ -26636,7 +26709,7 @@
  synonym: "adenosine anabolism" EXACT []
  synonym: "adenosine biosynthesis" EXACT []
  synonym: "adenosine formation" EXACT []
-@@ -289972,7 +290904,7 @@
+@@ -289972,7 +290922,7 @@
  id: GO:0046087
  name: cytidine metabolic process
  namespace: biological_process
@@ -26645,7 +26718,7 @@
  synonym: "cytidine metabolism" EXACT []
  is_a: GO:0046131 ! pyrimidine ribonucleoside metabolic process
  
-@@ -289980,7 +290912,7 @@
+@@ -289980,7 +290930,7 @@
  id: GO:0046088
  name: obsolete cytidine biosynthetic process
  namespace: biological_process
@@ -26654,7 +26727,7 @@
  comment: The reason for obsoletion is that there is no evidence that this process exists.
  synonym: "cytidine anabolism" EXACT []
  synonym: "cytidine biosynthesis" EXACT []
-@@ -289993,7 +290925,7 @@
+@@ -289993,7 +290943,7 @@
  id: GO:0046089
  name: obsolete cytosine biosynthetic process
  namespace: biological_process
@@ -26663,7 +26736,7 @@
  comment: The reason for obsoletion is that there is no evidence that this process exists.
  synonym: "cytosine anabolism" EXACT []
  synonym: "cytosine biosynthesis" EXACT []
-@@ -290006,7 +290938,7 @@
+@@ -290006,7 +290956,7 @@
  id: GO:0046090
  name: deoxyadenosine metabolic process
  namespace: biological_process
@@ -26672,7 +26745,7 @@
  synonym: "deoxyadenosine metabolism" EXACT []
  is_a: GO:0046122 ! purine deoxyribonucleoside metabolic process
  
-@@ -290014,7 +290946,7 @@
+@@ -290014,7 +290964,7 @@
  id: GO:0046091
  name: deoxyadenosine biosynthetic process
  namespace: biological_process
@@ -26681,7 +26754,7 @@
  synonym: "deoxyadenosine anabolism" EXACT []
  synonym: "deoxyadenosine biosynthesis" EXACT []
  synonym: "deoxyadenosine formation" EXACT []
-@@ -290026,7 +290958,7 @@
+@@ -290026,7 +290976,7 @@
  id: GO:0046092
  name: deoxycytidine metabolic process
  namespace: biological_process
@@ -26690,7 +26763,7 @@
  synonym: "deoxycytidine metabolism" EXACT []
  is_a: GO:0046125 ! pyrimidine deoxyribonucleoside metabolic process
  
-@@ -290034,7 +290966,7 @@
+@@ -290034,7 +290984,7 @@
  id: GO:0046093
  name: deoxycytidine biosynthetic process
  namespace: biological_process
@@ -26699,7 +26772,7 @@
  synonym: "deoxycytidine anabolism" EXACT []
  synonym: "deoxycytidine biosynthesis" EXACT []
  synonym: "deoxycytidine formation" EXACT []
-@@ -290046,7 +290978,7 @@
+@@ -290046,7 +290996,7 @@
  id: GO:0046094
  name: deoxyinosine metabolic process
  namespace: biological_process
@@ -26708,7 +26781,7 @@
  synonym: "deoxyinosine metabolism" EXACT []
  is_a: GO:0046122 ! purine deoxyribonucleoside metabolic process
  
-@@ -290054,7 +290986,7 @@
+@@ -290054,7 +291004,7 @@
  id: GO:0046095
  name: deoxyinosine biosynthetic process
  namespace: biological_process
@@ -26717,7 +26790,7 @@
  synonym: "deoxyinosine anabolism" EXACT []
  synonym: "deoxyinosine biosynthesis" EXACT []
  synonym: "deoxyinosine formation" EXACT []
-@@ -290066,7 +290998,7 @@
+@@ -290066,7 +291016,7 @@
  id: GO:0046096
  name: deoxyuridine metabolic process
  namespace: biological_process
@@ -26726,7 +26799,7 @@
  synonym: "deoxyuridine metabolism" EXACT []
  is_a: GO:0046125 ! pyrimidine deoxyribonucleoside metabolic process
  
-@@ -290074,7 +291006,7 @@
+@@ -290074,7 +291024,7 @@
  id: GO:0046097
  name: deoxyuridine biosynthetic process
  namespace: biological_process
@@ -26735,7 +26808,7 @@
  synonym: "deoxyuridine anabolism" EXACT []
  synonym: "deoxyuridine biosynthesis" EXACT []
  synonym: "deoxyuridine formation" EXACT []
-@@ -290086,7 +291018,7 @@
+@@ -290086,7 +291036,7 @@
  id: GO:0046098
  name: guanine metabolic process
  namespace: biological_process
@@ -26744,7 +26817,7 @@
  synonym: "guanine metabolism" EXACT []
  is_a: GO:0006144 ! purine nucleobase metabolic process
  
-@@ -290094,7 +291026,7 @@
+@@ -290094,7 +291044,7 @@
  id: GO:0046099
  name: guanine biosynthetic process
  namespace: biological_process
@@ -26753,7 +26826,7 @@
  synonym: "guanine anabolism" EXACT []
  synonym: "guanine biosynthesis" EXACT []
  synonym: "guanine formation" EXACT []
-@@ -290106,7 +291038,7 @@
+@@ -290106,7 +291056,7 @@
  id: GO:0046100
  name: hypoxanthine metabolic process
  namespace: biological_process
@@ -26762,7 +26835,7 @@
  synonym: "hypoxanthine metabolism" EXACT []
  is_a: GO:0006144 ! purine nucleobase metabolic process
  
-@@ -290114,7 +291046,7 @@
+@@ -290114,7 +291064,7 @@
  id: GO:0046101
  name: hypoxanthine biosynthetic process
  namespace: biological_process
@@ -26771,7 +26844,7 @@
  synonym: "hypoxanthine anabolism" EXACT []
  synonym: "hypoxanthine biosynthesis" EXACT []
  synonym: "hypoxanthine formation" EXACT []
-@@ -290126,7 +291058,7 @@
+@@ -290126,7 +291076,7 @@
  id: GO:0046102
  name: inosine metabolic process
  namespace: biological_process
@@ -26780,7 +26853,7 @@
  synonym: "inosine metabolism" EXACT []
  is_a: GO:0046128 ! purine ribonucleoside metabolic process
  
-@@ -290134,7 +291066,7 @@
+@@ -290134,7 +291084,7 @@
  id: GO:0046103
  name: inosine biosynthetic process
  namespace: biological_process
@@ -26789,7 +26862,7 @@
  synonym: "inosine anabolism" EXACT []
  synonym: "inosine biosynthesis" EXACT []
  synonym: "inosine formation" EXACT []
-@@ -290146,7 +291078,7 @@
+@@ -290146,7 +291096,7 @@
  id: GO:0046104
  name: thymidine metabolic process
  namespace: biological_process
@@ -26798,7 +26871,7 @@
  synonym: "deoxyribosylthymine metabolic process" EXACT []
  synonym: "deoxyribosylthymine metabolism" EXACT []
  synonym: "thymidine metabolism" EXACT []
-@@ -290156,7 +291088,7 @@
+@@ -290156,7 +291106,7 @@
  id: GO:0046105
  name: thymidine biosynthetic process
  namespace: biological_process
@@ -26807,7 +26880,7 @@
  synonym: "deoxyribosylthymine biosynthesis" EXACT []
  synonym: "deoxyribosylthymine biosynthetic process" EXACT []
  synonym: "thymidine anabolism" EXACT []
-@@ -290170,7 +291102,7 @@
+@@ -290170,7 +291120,7 @@
  id: GO:0046106
  name: thymine biosynthetic process
  namespace: biological_process
@@ -26816,7 +26889,7 @@
  synonym: "thymine anabolism" EXACT []
  synonym: "thymine biosynthesis" EXACT []
  synonym: "thymine formation" EXACT []
-@@ -290182,7 +291114,7 @@
+@@ -290182,7 +291132,7 @@
  id: GO:0046107
  name: uracil biosynthetic process
  namespace: biological_process
@@ -26825,7 +26898,7 @@
  synonym: "uracil anabolism" EXACT []
  synonym: "uracil biosynthesis" EXACT []
  synonym: "uracil formation" EXACT []
-@@ -290194,7 +291126,7 @@
+@@ -290194,7 +291144,7 @@
  id: GO:0046108
  name: uridine metabolic process
  namespace: biological_process
@@ -26834,7 +26907,7 @@
  synonym: "uridine metabolism" EXACT []
  is_a: GO:0046131 ! pyrimidine ribonucleoside metabolic process
  
-@@ -290202,7 +291134,7 @@
+@@ -290202,7 +291152,7 @@
  id: GO:0046109
  name: uridine biosynthetic process
  namespace: biological_process
@@ -26843,7 +26916,7 @@
  synonym: "uridine anabolism" EXACT []
  synonym: "uridine biosynthesis" EXACT []
  synonym: "uridine formation" EXACT []
-@@ -290214,7 +291146,7 @@
+@@ -290214,7 +291164,7 @@
  id: GO:0046110
  name: xanthine metabolic process
  namespace: biological_process
@@ -26852,7 +26925,7 @@
  synonym: "xanthine metabolism" EXACT []
  is_a: GO:0006144 ! purine nucleobase metabolic process
  
-@@ -290222,7 +291154,7 @@
+@@ -290222,7 +291172,7 @@
  id: GO:0046111
  name: xanthine biosynthetic process
  namespace: biological_process
@@ -26861,7 +26934,7 @@
  synonym: "xanthine anabolism" EXACT []
  synonym: "xanthine biosynthesis" EXACT []
  synonym: "xanthine formation" EXACT []
-@@ -290257,7 +291189,7 @@
+@@ -290257,7 +291207,7 @@
  id: GO:0046114
  name: guanosine biosynthetic process
  namespace: biological_process
@@ -26870,7 +26943,7 @@
  synonym: "guanosine anabolism" EXACT []
  synonym: "guanosine biosynthesis" EXACT []
  synonym: "guanosine formation" EXACT []
-@@ -290270,7 +291202,7 @@
+@@ -290270,7 +291220,7 @@
  name: guanosine catabolic process
  namespace: biological_process
  alt_id: GO:0006160
@@ -26879,7 +26952,7 @@
  synonym: "guanosine breakdown" EXACT []
  synonym: "guanosine catabolism" EXACT []
  synonym: "guanosine degradation" EXACT []
-@@ -290842,23 +291774,27 @@
+@@ -290842,23 +291792,27 @@
  name: alcohol catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of alcohols, any of a class of compounds containing one or more hydroxyl groups attached to a saturated carbon atom." [GOC:ai]
@@ -26907,7 +26980,7 @@
  
  [Term]
  id: GO:0046166
-@@ -291659,7 +292595,7 @@
+@@ -291659,7 +292613,7 @@
  id: GO:0046233
  name: obsolete 3-hydroxyphenylacetate biosynthetic process
  namespace: biological_process
@@ -26916,7 +26989,7 @@
  comment: This term was made obsolete because 3-hydroxyphenylacetate is not synthesized by living organisms and GO does not cover non-biological processes.
  synonym: "3-hydroxyphenylacetate anabolism" EXACT []
  synonym: "3-hydroxyphenylacetate biosynthesis" EXACT []
-@@ -292067,10 +293003,13 @@
+@@ -292067,10 +293021,13 @@
  synonym: "thiocyanate breakdown" EXACT []
  synonym: "thiocyanate catabolism" EXACT []
  synonym: "thiocyanate degradation" EXACT []
@@ -26932,7 +27005,7 @@
  
  [Term]
  id: GO:0046266
-@@ -292457,6 +293396,10 @@
+@@ -292457,6 +293414,10 @@
  is_a: GO:0009441 ! glycolate metabolic process
  is_a: GO:0034310 ! primary alcohol catabolic process
  is_a: GO:0072329 ! monocarboxylic acid catabolic process
@@ -26943,7 +27016,7 @@
  
  [Term]
  id: GO:0046297
-@@ -293626,20 +294569,23 @@
+@@ -293626,20 +294587,23 @@
  
  [Term]
  id: GO:0046392
@@ -26970,7 +27043,7 @@
  
  [Term]
  id: GO:0046394
-@@ -293854,7 +294800,7 @@
+@@ -293854,7 +294818,7 @@
  id: GO:0046411
  name: 2-keto-3-deoxygluconate transmembrane transport
  namespace: biological_process
@@ -26979,7 +27052,7 @@
  synonym: "2-keto-3-deoxygluconate transport" RELATED []
  is_a: GO:0015718 ! monocarboxylic acid transport
  is_a: GO:0015749 ! monosaccharide transmembrane transport
-@@ -294152,12 +295098,15 @@
+@@ -294152,12 +295116,15 @@
  
  [Term]
  id: GO:0046436
@@ -26999,7 +27072,7 @@
  
  [Term]
  id: GO:0046437
-@@ -294188,7 +295137,7 @@
+@@ -294188,7 +295155,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving L-cysteine, the L-enantiomer of 2-amino-3-mercaptopropanoic acid, i.e. (2R)-2-amino-3-mercaptopropanoic acid." [GOC:ai, GOC:jsg, GOC:mah]
  synonym: "L-cysteine metabolism" EXACT []
@@ -27008,7 +27081,7 @@
  is_a: GO:0170033 ! L-amino acid metabolic process
  is_a: GO:0170039 ! proteinogenic amino acid metabolic process
  
-@@ -294835,15 +295784,13 @@
+@@ -294835,15 +295802,13 @@
  
  [Term]
  id: GO:0046498
@@ -27029,7 +27102,7 @@
  
  [Term]
  id: GO:0046499
-@@ -294858,7 +295805,7 @@
+@@ -294858,7 +295823,7 @@
  id: GO:0046500
  name: S-adenosylmethionine metabolic process
  namespace: biological_process
@@ -27038,7 +27111,7 @@
  synonym: "S-adenosyl methionine metabolic process" EXACT []
  synonym: "S-adenosyl methionine metabolism" EXACT []
  synonym: "S-adenosylmethionine metabolism" EXACT []
-@@ -295153,8 +296100,8 @@
+@@ -295153,8 +296118,8 @@
  xref: EC:5.3.1.23
  xref: KEGG_REACTION:R04420
  xref: MetaCyc:5.3.1.23-RXN
@@ -27049,7 +27122,7 @@
  xref: RHEA:19989
  is_a: GO:0016861 ! intramolecular oxidoreductase activity, interconverting aldoses and ketoses
  property_value: skos:exactMatch EC:5.3.1.23
-@@ -295262,7 +296209,7 @@
+@@ -295262,7 +296227,7 @@
  name: regulation of photoreceptor cell differentiation
  namespace: biological_process
  alt_id: GO:0045673
@@ -27058,7 +27131,7 @@
  synonym: "regulation of photoreceptor differentiation" EXACT []
  is_a: GO:0045664 ! regulation of neuron differentiation
  intersection_of: GO:0065007 ! biological regulation
-@@ -295274,7 +296221,7 @@
+@@ -295274,7 +296239,7 @@
  name: negative regulation of photoreceptor cell differentiation
  namespace: biological_process
  alt_id: GO:0045674
@@ -27067,7 +27140,7 @@
  synonym: "down regulation of photoreceptor cell differentiation" EXACT []
  synonym: "down regulation of photoreceptor differentiation" EXACT []
  synonym: "down-regulation of photoreceptor cell differentiation" EXACT []
-@@ -295296,7 +296243,7 @@
+@@ -295296,7 +296261,7 @@
  name: positive regulation of photoreceptor cell differentiation
  namespace: biological_process
  alt_id: GO:0045675
@@ -27076,7 +27149,7 @@
  synonym: "activation of photoreceptor cell differentiation" NARROW []
  synonym: "activation of photoreceptor differentiation" NARROW []
  synonym: "positive regulation of photoreceptor differentiation" EXACT []
-@@ -295826,14 +296773,15 @@
+@@ -295826,14 +296791,15 @@
  id: GO:0046572
  name: versicolorin B synthase activity
  namespace: molecular_function
@@ -27094,7 +27167,7 @@
  
  [Term]
  id: GO:0046573
-@@ -296374,7 +297322,7 @@
+@@ -296374,7 +297340,7 @@
  id: GO:0046618
  name: xenobiotic export from cell
  namespace: biological_process
@@ -27103,7 +27176,7 @@
  synonym: "drug export" RELATED []
  synonym: "xenobiotic export" RELATED []
  is_a: GO:0042908 ! xenobiotic transport
-@@ -296437,21 +297385,23 @@
+@@ -296437,21 +297403,23 @@
  synonym: "sphingolipid flippase activity" EXACT []
  synonym: "sphingolipid floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
  synonym: "sphingolipid-translocating ATPase activity" RELATED []
@@ -27130,7 +27203,7 @@
  
  [Term]
  id: GO:0046625
-@@ -297133,7 +298083,9 @@
+@@ -297133,7 +298101,9 @@
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an antibiotic stimulus. An antibiotic is a chemical substance produced by a microorganism which has the capacity to inhibit the growth of or to kill other microorganisms." [GOC:ai, GOC:ef]
  subset: goslim_chembl
  synonym: "antibiotic susceptibility/resistance" RELATED []
@@ -27140,7 +27213,7 @@
  is_a: GO:0042221 ! response to chemical
  
  [Term]
-@@ -297316,7 +298268,7 @@
+@@ -297316,7 +298286,7 @@
  def: "A multiprotein complex that consists of at least three proteins, CD14, TLR4, and MD-2, each of which is glycosylated and which functions as a lipopolysaccharide (LPS) receptor that primes the innate immune response against bacterial pathogens." [PMID:11706042, PMID:9665271]
  comment: Note that this term should not be used to refer to CD14 alone, but the multiprotein receptor complex that it is part of.
  synonym: "LPS receptor complex" EXACT []
@@ -27149,7 +27222,7 @@
  is_a: GO:0098796 ! membrane protein complex
  
  [Term]
-@@ -298098,7 +299050,7 @@
+@@ -298098,7 +299068,7 @@
  id: GO:0046785
  name: microtubule polymerization
  namespace: biological_process
@@ -27158,7 +27231,7 @@
  synonym: "microtubule assembly" EXACT []
  synonym: "microtubule formation" RELATED []
  is_a: GO:0031109 ! microtubule polymerization or depolymerization
-@@ -298390,12 +299342,12 @@
+@@ -298390,12 +299360,12 @@
  
  [Term]
  id: GO:0046820
@@ -27173,7 +27246,7 @@
  synonym: "chorismate:L-glutamine amido-ligase activity" RELATED [EC:2.6.1.85]
  synonym: "p-aminobenzoate synthetase" RELATED []
  synonym: "PabB activity" RELATED [EC:2.6.1.85]
-@@ -298409,6 +299361,7 @@
+@@ -298409,6 +299379,7 @@
  property_value: skos:exactMatch EC:2.6.1.85
  property_value: skos:exactMatch RHEA:11672
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27181,7 +27254,7 @@
  
  [Term]
  id: GO:0046821
-@@ -299488,7 +300441,7 @@
+@@ -299488,7 +300459,7 @@
  id: GO:0046912
  name: acyltransferase activity, acyl groups converted into alkyl on transfer
  namespace: molecular_function
@@ -27190,7 +27263,7 @@
  synonym: "acyltransferase, acyl groups converted into alkyl on transfer" EXACT []
  synonym: "transferase activity, transferring acyl groups, acyl groups converted into alkyl on transfer" EXACT []
  xref: EC:2.3.3.-
-@@ -299564,7 +300517,7 @@
+@@ -299564,7 +300535,7 @@
  synonym: "alpha(1,3)-fucosyltransferase activity" EXACT []
  synonym: "alpha-(1,3)-fucosyltransferase activity" EXACT []
  synonym: "alpha-1,3-fucosyltransferase activity" EXACT []
@@ -27199,7 +27272,7 @@
  xref: Reactome:R-HSA-9605609 "FUT3 transfers Fuc to Type 1 MSGG to form sLeA"
  xref: Reactome:R-HSA-9605644 "FUT3 transfers Fuc to Type 1 DSGG to form dsLeA"
  xref: Reactome:R-HSA-9605682 "FUT3,5,6,7 transfers Fuc to Type 2 MSGG to form sLeX"
-@@ -299595,7 +300548,6 @@
+@@ -299595,7 +300566,6 @@
  xref: Reactome:R-HSA-5173192 "POFUT2 transfers fucose to TSR domain-containing proteins"
  is_a: GO:0008417 ! fucosyltransferase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -27207,7 +27280,7 @@
  property_value: skos:exactMatch EC:2.4.1.221
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
-@@ -299969,7 +300921,6 @@
+@@ -299969,7 +300939,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone, as carried out by individual cells. Although 3-hydroxybutyrate is not a ketone, it is classed as a ketone body because it exists in an equilibrium with acetoacetate. Ketone bodies may accumulate in excessive amounts in the body in starvation, diabetes mellitus or in other defects of carbohydrate metabolism." [ISBN:0198506732]
  comment: The reason for obsoletion is that this term is redundant to GO:1902224, ketone body metabolic process
  synonym: "cellular ketone body metabolism" EXACT []
@@ -27215,7 +27288,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29021" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:1902224
-@@ -300138,7 +301089,7 @@
+@@ -300138,7 +301107,7 @@
  synonym: "3'-phosphoadenosine 5'-phosphosulphate transporter activity" EXACT []
  synonym: "adenosine 3'-phosphate 5'-phosphosulfate transmembrane transporter activity" EXACT []
  synonym: "PAPS transporter activity" EXACT []
@@ -27224,7 +27297,7 @@
  is_a: GO:0000295 ! adenine nucleotide transmembrane transporter activity
  is_a: GO:0005346 ! purine ribonucleotide transmembrane transporter activity
  is_a: GO:1901682 ! sulfur compound transmembrane transporter activity
-@@ -300287,6 +301238,8 @@
+@@ -300287,6 +301256,8 @@
  synonym: "histone methyltransferase activity (H3-K27 specific)" EXACT []
  synonym: "histone-H3K27 methyltransferase activity" EXACT []
  xref: Reactome:R-HSA-3240295 "PRC2-EZH2 trimethylates nucleosomes associated with CDKN2A promoter"
@@ -27233,7 +27306,7 @@
  is_a: GO:0016279 ! protein-lysine N-methyltransferase activity
  is_a: GO:0140938 ! histone H3 methyltransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24337" xsd:anyURI
-@@ -301348,6 +302301,7 @@
+@@ -301348,6 +302319,7 @@
  xref: EC:1.1.1.64 {status="skos:exactMatch"}
  xref: KEGG_REACTION:R01838
  xref: MetaCyc:1.1.1.64-RXN
@@ -27241,7 +27314,7 @@
  xref: RHEA:14981
  xref: Wikipedia:Testosterone_17beta-dehydrogenase_(NADP+)
  is_a: GO:0072582 ! 17-beta-hydroxysteroid dehydrogenase (NADP+) activity
-@@ -302698,6 +303652,7 @@
+@@ -302698,6 +303670,7 @@
  synonym: "P2C reductase activity" RELATED [EC:1.5.1.21]
  xref: EC:1.5.1.21
  xref: MetaCyc:RXN-8166
@@ -27249,7 +27322,7 @@
  xref: RHEA:12524
  is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.5.1.21
-@@ -302730,7 +303685,6 @@
+@@ -302730,7 +303703,6 @@
  synonym: "thiomorpholine-3-carboxylate:NAD(P)+ 5,6-oxidoreductase activity" RELATED [EC:1.5.1.25]
  xref: EC:1.5.1.25
  xref: MetaCyc:1.5.1.25-RXN
@@ -27257,7 +27330,7 @@
  is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.5.1.25
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -303156,7 +304110,7 @@
+@@ -303156,7 +304128,7 @@
  id: GO:0047151
  name: tRNA (uracil(54)-C5)-methyltransferase activity, 5,10-methylenetetrahydrofolate-dependent
  namespace: molecular_function
@@ -27266,7 +27339,7 @@
  synonym: "5,10-methylenetetrahydrofolate:tRNA (uracil-5-)-methyltransferase activity" RELATED [EC:2.1.1.74]
  synonym: "5,10-methylenetetrahydrofolate:tRNA-UPsiC (uracil-5-)-methyl-transferase activity" RELATED [EC:2.1.1.74]
  synonym: "folate-dependent ribothymidyl synthase activity" RELATED [EC:2.1.1.74]
-@@ -303167,9 +304121,11 @@
+@@ -303167,9 +304139,11 @@
  xref: KEGG_REACTION:R03704
  xref: MetaCyc:2.1.1.74-RXN
  xref: RHEA:16873
@@ -27279,7 +27352,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26118" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
-@@ -303976,7 +304932,7 @@
+@@ -303976,7 +304950,7 @@
  id: GO:0047198
  name: L-cysteine-S-conjugate N-acetyltransferase activity
  namespace: molecular_function
@@ -27288,7 +27361,7 @@
  synonym: "acetyl-CoA:S-substituted L-cysteine N-acetyltransferase activity" RELATED [EC:2.3.1.80]
  synonym: "cysteine-S-conjugate N-acetyltransferase activity" EXACT []
  xref: EC:2.3.1.80
-@@ -304008,7 +304964,7 @@
+@@ -304008,7 +304982,7 @@
  id: GO:0047200
  name: tetrahydrodipicolinate N-acetyltransferase activity
  namespace: molecular_function
@@ -27297,7 +27370,7 @@
  synonym: "acetyl-CoA:(S)-2,3,4,5-tetrahydrodipicolinate-2,6-dicarboxylate N2-acetyltransferase activity" RELATED [EC:2.3.1.89]
  synonym: "acetyl-CoA:(S)-2,3,4,5-tetrahydropyridine-2,6-dicarboxylate 2-N-acetyltransferase activity" RELATED [EC:2.3.1.89]
  synonym: "acetyl-CoA:L-2,3,4,5-tetrahydrodipicolinate N2-acetyltransferase activity" RELATED [EC:2.3.1.89]
-@@ -304411,7 +305367,6 @@
+@@ -304411,7 +305385,6 @@
  synonym: "uridine diphosphoacetylglucosamine-mucin beta(1->3)-acetylglucosaminyltransferase (elongating)" RELATED [EC:2.4.1.146]
  xref: EC:2.4.1.146
  xref: MetaCyc:2.4.1.146-RXN
@@ -27305,7 +27378,7 @@
  xref: Reactome:R-HSA-5617096 "Defective POMGNT1 does not transfer GlcNAc from UDP-GlcNAc to Man-O-Ser-DAG1"
  is_a: GO:0008375 ! acetylglucosaminyltransferase activity
  is_a: GO:0140103 ! catalytic activity, acting on a glycoprotein
-@@ -304431,6 +305386,7 @@
+@@ -304431,6 +305404,7 @@
  synonym: "uridine diphosphoacetylglucosamine-mucin beta(1->3)-acetylglucosaminyltransferase activity" RELATED [EC:2.4.1.147]
  xref: EC:2.4.1.147
  xref: MetaCyc:2.4.1.147-RXN
@@ -27313,7 +27386,7 @@
  xref: RHEA:46880
  xref: RHEA:46884
  is_a: GO:0008375 ! acetylglucosaminyltransferase activity
-@@ -304671,10 +305627,10 @@
+@@ -304671,10 +305645,10 @@
  synonym: "uridine diphosphoacetylgalactosamine-chondroitin acetylgalactosaminyltransferase II activity" RELATED [EC:2.4.1.175]
  xref: EC:2.4.1.175
  xref: MetaCyc:RXN-16325
@@ -27327,7 +27400,7 @@
  is_a: GO:0008376 ! acetylgalactosaminyltransferase activity
  property_value: skos:exactMatch EC:2.4.1.175
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -305117,7 +306073,7 @@
+@@ -305117,7 +306091,7 @@
  id: GO:0047263
  name: obsolete N-acylsphingosine galactosyltransferase activity
  namespace: molecular_function
@@ -27336,7 +27409,7 @@
  comment: The reason for obsoletion is that this term is equivalent to GO:0003851.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27410" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28173" xsd:anyURI
-@@ -305550,6 +306506,7 @@
+@@ -305550,6 +306524,7 @@
  synonym: "monosialoganglioside sialyltransferase" EXACT [EC:2.4.3.2]
  xref: EC:2.4.3.2
  xref: MetaCyc:RXN-18256
@@ -27344,7 +27417,7 @@
  xref: RHEA:52380
  is_a: GO:0008373 ! sialyltransferase activity
  property_value: skos:exactMatch EC:2.4.3.2
-@@ -305689,39 +306646,41 @@
+@@ -305689,39 +306664,41 @@
  id: GO:0047296
  name: homospermidine synthase activity
  namespace: molecular_function
@@ -27394,7 +27467,7 @@
  synonym: "beta-aminobutyric transaminase activity" RELATED [EC:2.6.1.22]
  synonym: "beta-aminoisobutyrate-alpha-ketoglutarate transaminase activity" RELATED [EC:2.6.1.22]
  synonym: "L-3-aminoisobutyrate aminotransferase activity" RELATED [EC:2.6.1.22]
-@@ -305736,32 +306695,36 @@
+@@ -305736,32 +306713,36 @@
  property_value: skos:exactMatch EC:2.6.1.22
  property_value: skos:exactMatch RHEA:13993
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27436,7 +27509,7 @@
  synonym: "pyridoxamine-pyruvic transaminase" BROAD [EC:2.6.1.30]
  synonym: "pyridoxamine:pyruvate aminotransferase activity" RELATED [EC:2.6.1.30]
  synonym: "pyridoxamineu-pyruvic transaminase activity" RELATED [EC:2.6.1.30]
-@@ -305773,32 +306736,36 @@
+@@ -305773,32 +306754,36 @@
  property_value: skos:exactMatch EC:2.6.1.30
  property_value: skos:exactMatch RHEA:12841
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27478,7 +27551,7 @@
  synonym: "UDP-2-acetamido-4-amino-2,4,6-trideoxyglucose:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.34]
  synonym: "UDP-4-amino-2-acetamido-2,4,6-trideoxyglucose aminotransferase activity" EXACT []
  synonym: "UDP-4-amino-2-acetamido-2,4,6-trideoxyglucose transaminase activity" EXACT []
-@@ -305811,30 +306778,33 @@
+@@ -305811,30 +306796,33 @@
  property_value: skos:exactMatch EC:2.6.1.34
  property_value: skos:exactMatch RHEA:31663
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27517,7 +27590,7 @@
  synonym: "(2-aminoethyl)phosphonate aminotransferase activity" RELATED [EC:2.6.1.37]
  synonym: "(2-aminoethyl)phosphonate transaminase activity" RELATED [EC:2.6.1.37]
  synonym: "(2-aminoethyl)phosphonate--pyruvate aminotransferase activity" RELATED [EC:2.6.1.37]
-@@ -305843,6 +306813,7 @@
+@@ -305843,6 +306831,7 @@
  synonym: "2-aminoethylphosphonate aminotransferase activity" RELATED [EC:2.6.1.37]
  synonym: "2-aminoethylphosphonate--pyruvate aminotransferase activity" RELATED [EC:2.6.1.37]
  synonym: "2-aminoethylphosphonate-pyruvate aminotransferase activity" EXACT []
@@ -27525,7 +27598,7 @@
  xref: EC:2.6.1.37
  xref: KEGG_REACTION:R04152
  xref: MetaCyc:2.6.1.37-RXN
-@@ -305851,20 +306822,21 @@
+@@ -305851,20 +306840,21 @@
  property_value: skos:exactMatch EC:2.6.1.37
  property_value: skos:exactMatch RHEA:17021
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27550,7 +27623,7 @@
  synonym: "beta-aminoisobutyrate--pyruvate transaminase activity" RELATED [EC:2.6.1.40]
  synonym: "beta-aminoisobutyrate-pyruvate aminotransferase activity" RELATED [EC:2.6.1.40]
  synonym: "D-3-aminoisobutyrate--pyruvate aminotransferase activity" RELATED [EC:2.6.1.40]
-@@ -305881,33 +306853,37 @@
+@@ -305881,33 +306871,37 @@
  property_value: skos:exactMatch EC:2.6.1.40
  property_value: skos:exactMatch RHEA:18393
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27593,7 +27666,7 @@
  synonym: "L-2,4-diaminobutanoate:pyruvate aminotransferase activity" RELATED [EC:2.6.1.46]
  synonym: "L-diaminobutyric acid transaminase activity" RELATED [EC:2.6.1.46]
  xref: EC:2.6.1.46
-@@ -305918,12 +306894,13 @@
+@@ -305918,12 +306912,13 @@
  property_value: skos:exactMatch EC:2.6.1.46
  property_value: skos:exactMatch RHEA:12380
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27609,7 +27682,7 @@
  synonym: "alanine--oxomalonate aminotransferase activity" RELATED [EC:2.6.1.47]
  synonym: "alanine-ketomalonate (mesoxalate) transaminase activity" RELATED [EC:2.6.1.47]
  synonym: "alanine-oxomalonate aminotransferase activity" EXACT []
-@@ -305933,19 +306910,21 @@
+@@ -305933,19 +306928,21 @@
  xref: KEGG_REACTION:R02970
  xref: MetaCyc:2.6.1.47-RXN
  xref: RHEA:18809
@@ -27634,7 +27707,7 @@
  synonym: "DOPA aminotransferase activity" RELATED [EC:2.6.1.49]
  synonym: "dopa transaminase activity" RELATED [EC:2.6.1.49]
  synonym: "glutamate-DOPP transaminase (GDT)" RELATED [EC:2.6.1.49]
-@@ -305955,19 +306934,20 @@
+@@ -305955,19 +306952,20 @@
  xref: KEGG_REACTION:R02077
  xref: MetaCyc:2.6.1.49-RXN
  xref: RHEA:15273
@@ -27658,7 +27731,7 @@
  synonym: "glutamine-scyllo-inosose aminotransferase activity" EXACT []
  synonym: "glutamine-scyllo-inosose transaminase activity" EXACT []
  synonym: "L-glutamine-keto-scyllo-inositol aminotransferase activity" RELATED [EC:2.6.1.50]
-@@ -305977,17 +306957,19 @@
+@@ -305977,17 +306975,19 @@
  xref: KEGG_REACTION:R02781
  xref: MetaCyc:2.6.1.50-RXN
  xref: RHEA:22920
@@ -27681,7 +27754,7 @@
  synonym: "1D-1-guanidino-3-amino-1,3-dideoxy-scyllo-inositol:pyruvate aminotransferase activity" RELATED [EC:2.6.1.56]
  synonym: "guanidinoaminodideoxy-scyllo-inositol-pyruvate aminotransferase activity" RELATED [EC:2.6.1.56]
  synonym: "L-alanine-N-amidino-3-(or 5-)keto-scyllo-inosamine transaminase activity" RELATED [EC:2.6.1.56]
-@@ -305999,53 +306981,58 @@
+@@ -305999,53 +306999,58 @@
  property_value: skos:exactMatch EC:2.6.1.56
  property_value: skos:exactMatch RHEA:15497
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27750,7 +27823,7 @@
  synonym: "L-kynurenine:glyoxylate aminotransferase (cyclizing)" RELATED [EC:2.6.1.63]
  xref: EC:2.6.1.63
  xref: KEGG_REACTION:R01957
-@@ -306055,34 +307042,38 @@
+@@ -306055,34 +307060,38 @@
  property_value: skos:exactMatch EC:2.6.1.63
  property_value: skos:exactMatch RHEA:19249
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27794,7 +27867,7 @@
  xref: EC:2.6.1.65
  xref: MetaCyc:2.6.1.65-RXN
  xref: RHEA:16889
-@@ -306090,29 +307081,33 @@
+@@ -306090,29 +307099,33 @@
  property_value: skos:exactMatch EC:2.6.1.65
  property_value: skos:exactMatch RHEA:16889
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27833,7 +27906,7 @@
  synonym: "D-4-hydroxyphenylglycine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.72]
  synonym: "D-hydroxyphenylglycine aminotransferase activity" RELATED [EC:2.6.1.72]
  xref: EC:2.6.1.72
-@@ -306123,6 +307118,7 @@
+@@ -306123,6 +307136,7 @@
  property_value: skos:exactMatch EC:2.6.1.72
  property_value: skos:exactMatch RHEA:15589
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -27841,7 +27914,7 @@
  
  [Term]
  id: GO:0047321
-@@ -306190,7 +307186,6 @@
+@@ -306190,7 +307204,6 @@
  synonym: "STK2" RELATED [EC:2.7.11.4]
  xref: EC:2.7.11.4
  xref: MetaCyc:2.7.11.4-RXN
@@ -27849,7 +27922,7 @@
  xref: Reactome:R-HSA-9912480 "BCKDK loss-of-function mutations do not phosphorylate BCKDH"
  xref: RHEA:17301
  is_a: GO:0004674 ! protein serine/threonine kinase activity
-@@ -306299,7 +307294,7 @@
+@@ -306299,7 +307312,7 @@
  id: GO:0047329
  name: phosphoramidate-hexose phosphotransferase activity
  namespace: molecular_function
@@ -27858,7 +27931,7 @@
  synonym: "phosphoramidate-hexose transphosphorylase activity" RELATED [EC:2.7.1.62]
  synonym: "phosphoramidate:hexose 1-phosphotransferase activity" RELATED [EC:2.7.1.62]
  synonym: "phosphoramidic-hexose transphosphorylase activity" RELATED [EC:2.7.1.62]
-@@ -306687,6 +307682,7 @@
+@@ -306687,6 +307700,7 @@
  xref: EC:2.7.7.40
  xref: KEGG_REACTION:R02921
  xref: MetaCyc:2.7.7.40-RXN
@@ -27866,7 +27939,7 @@
  xref: RHEA:12456
  is_a: GO:0070567 ! cytidylyltransferase activity
  property_value: skos:exactMatch EC:2.7.7.40
-@@ -307335,6 +308331,7 @@
+@@ -307335,6 +308349,7 @@
  synonym: "branched-chain oxo-acid dehydrogenase phosphatase activity" EXACT []
  xref: EC:3.1.3.52
  xref: MetaCyc:3.1.3.52-RXN
@@ -27874,7 +27947,7 @@
  xref: RHEA:77247
  is_a: GO:0004721 ! phosphoprotein phosphatase activity
  property_value: skos:exactMatch EC:3.1.3.52
-@@ -307767,7 +308764,7 @@
+@@ -307767,7 +308782,7 @@
  id: GO:0047411
  name: 2-(acetamidomethylene)succinate hydrolase activity
  namespace: molecular_function
@@ -27883,7 +27956,7 @@
  synonym: "2-(acetamidomethylene)succinate amidohydrolase (deaminating, decarboxylating)" RELATED [EC:3.5.1.29]
  synonym: "alpha-(N-acetylaminomethylene)succinic acid hydrolase activity" RELATED [EC:3.5.1.29]
  xref: EC:3.5.1.29
-@@ -307867,7 +308864,7 @@
+@@ -307867,7 +308882,7 @@
  id: GO:0047417
  name: N-carbamoyl-D-amino acid hydrolase activity
  namespace: molecular_function
@@ -27892,7 +27965,7 @@
  synonym: "N-carbamoyl-D-amino acid amidohydrolase activity" RELATED [EC:3.5.1.77]
  xref: EC:3.5.1.77
  xref: MetaCyc:3.5.1.77-RXN
-@@ -307974,7 +308971,7 @@
+@@ -307974,7 +308989,7 @@
  id: GO:0047424
  name: methylenediurea deaminase activity
  namespace: molecular_function
@@ -27901,7 +27974,7 @@
  synonym: "methylenediurea aminohydrolase activity" RELATED [EC:3.5.3.21]
  synonym: "methylenediurease activity" RELATED [EC:3.5.3.21]
  xref: EC:3.5.3.21
-@@ -308007,7 +309004,7 @@
+@@ -308007,7 +309022,7 @@
  id: GO:0047426
  name: ricinine nitrilase activity
  namespace: molecular_function
@@ -27910,7 +27983,7 @@
  synonym: "ricinine aminohydrolase activity" RELATED [EC:3.5.5.2]
  xref: EC:3.5.5.2
  xref: MetaCyc:3.5.5.2-RXN
-@@ -308037,7 +309034,7 @@
+@@ -308037,7 +309052,7 @@
  id: GO:0047428
  name: arylacetonitrilase activity
  namespace: molecular_function
@@ -27919,7 +27992,7 @@
  synonym: "arylacetonitrile aminohydrolase activity" RELATED [EC:3.5.5.5]
  xref: EC:3.5.5.5
  xref: MetaCyc:3.5.5.5-RXN
-@@ -308379,7 +309376,7 @@
+@@ -308379,7 +309394,7 @@
  id: GO:0047447
  name: erythro-3-hydroxyaspartate ammonia-lyase activity
  namespace: molecular_function
@@ -27928,7 +28001,7 @@
  synonym: "3-hydroxyaspartate dehydratase activity" BROAD [EC:4.3.1.20]
  synonym: "erythro-3-hydroxy-L(s)-aspartate hydro-lyase (deaminating) activity" RELATED [EC:4.3.1.20]
  synonym: "erythro-3-hydroxy-Ls-aspartate ammonia-lyase (oxaloacetate-forming)" RELATED [EC:4.3.1.20]
-@@ -308844,11 +309841,13 @@
+@@ -308844,11 +309859,13 @@
  id: GO:0047473
  name: D-alanine [D-alanyl carrier protein] ligase activity
  namespace: molecular_function
@@ -27943,7 +28016,7 @@
  is_a: GO:0016878 ! acid-thiol ligase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14237" xsd:anyURI
  
-@@ -308887,7 +309886,6 @@
+@@ -308887,7 +309904,6 @@
  xref: MetaCyc:RXN-10819
  xref: RHEA:20956
  is_a: GO:0016405 ! CoA-ligase activity
@@ -27951,7 +28024,7 @@
  property_value: skos:exactMatch EC:6.2.1.30
  property_value: skos:exactMatch RHEA:20956
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -308905,7 +309903,6 @@
+@@ -308905,7 +309921,6 @@
  xref: MetaCyc:6.2.1.28-RXN
  xref: RHEA:21776
  is_a: GO:0016405 ! CoA-ligase activity
@@ -27959,7 +28032,7 @@
  property_value: skos:exactMatch EC:6.2.1.28
  property_value: skos:exactMatch RHEA:21776
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -309774,13 +310771,17 @@
+@@ -309774,13 +310789,17 @@
  id: GO:0047530
  name: 2,4-diaminopentanoate dehydrogenase activity
  namespace: molecular_function
@@ -27978,7 +28051,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -309859,10 +310860,11 @@
+@@ -309859,10 +310878,11 @@
  
  [Term]
  id: GO:0047536
@@ -27992,7 +28065,7 @@
  synonym: "2-aminoadipic aminotransferase activity" RELATED [EC:2.6.1.39]
  synonym: "alpha-aminoadipate aminotransferase activity" RELATED [EC:2.6.1.39]
  synonym: "glutamate-alpha-ketoadipate transaminase activity" RELATED [EC:2.6.1.39]
-@@ -309878,13 +310880,15 @@
+@@ -309878,13 +310898,15 @@
  property_value: skos:exactMatch EC:2.6.1.39
  property_value: skos:exactMatch RHEA:12601
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28010,7 +28083,7 @@
  synonym: "L-2-aminohexanoate:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.67]
  synonym: "leucine L-norleucine: 2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.67]
  synonym: "norleucine (leucine) aminotransferase activity" RELATED [EC:2.6.1.67]
-@@ -309897,6 +310901,7 @@
+@@ -309897,6 +310919,7 @@
  property_value: skos:exactMatch EC:2.6.1.67
  property_value: skos:exactMatch RHEA:23600
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28018,7 +28091,7 @@
  
  [Term]
  id: GO:0047538
-@@ -309958,7 +310963,6 @@
+@@ -309958,7 +310981,6 @@
  xref: MetaCyc:2-FUROATE--COA-LIGASE-RXN
  xref: RHEA:19269
  is_a: GO:0016405 ! CoA-ligase activity
@@ -28026,7 +28099,7 @@
  property_value: skos:exactMatch EC:6.2.1.31
  property_value: skos:exactMatch RHEA:19269
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -310625,19 +311629,21 @@
+@@ -310625,19 +311647,21 @@
  
  [Term]
  id: GO:0047578
@@ -28052,7 +28125,7 @@
  
  [Term]
  id: GO:0047579
-@@ -310792,7 +311798,7 @@
+@@ -310792,7 +311816,7 @@
  id: GO:0047588
  name: 5-aminopentanamidase activity
  namespace: molecular_function
@@ -28061,7 +28134,7 @@
  synonym: "5-aminonorvaleramidase activity" RELATED [EC:3.5.1.30]
  synonym: "5-aminopentanamide amidohydrolase activity" RELATED [EC:3.5.1.30]
  synonym: "5-aminovaleramidase activity" RELATED [EC:3.5.1.30]
-@@ -310806,11 +311812,12 @@
+@@ -310806,11 +311830,12 @@
  
  [Term]
  id: GO:0047589
@@ -28076,7 +28149,7 @@
  synonym: "delta-aminovalerate aminotransferase activity" RELATED [EC:2.6.1.48]
  synonym: "delta-aminovalerate transaminase activity" RELATED [EC:2.6.1.48]
  xref: EC:2.6.1.48
-@@ -310821,6 +311828,7 @@
+@@ -310821,6 +311846,7 @@
  property_value: skos:exactMatch EC:2.6.1.48
  property_value: skos:exactMatch RHEA:10212
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28084,7 +28157,7 @@
  
  [Term]
  id: GO:0047590
-@@ -311196,7 +312204,7 @@
+@@ -311196,7 +312222,7 @@
  xref: KEGG_REACTION:R00394
  xref: MetaCyc:ACID--COA-LIGASE-GDP-FORMING-RXN
  xref: RHEA:10968
@@ -28093,7 +28166,7 @@
  property_value: skos:exactMatch EC:6.2.1.10
  property_value: skos:exactMatch RHEA:10968
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -311393,7 +312401,7 @@
+@@ -311393,7 +312419,7 @@
  id: GO:0047623
  name: adenosine-phosphate deaminase activity
  namespace: molecular_function
@@ -28102,7 +28175,7 @@
  comment: Consider instead annotating to one of the more specific terms: AMP deaminase activity ; GO:0003876, ADP deaminase activity ; GO:0047629, or ATP deaminase activity ; GO:0047692.
  synonym: "adenine nucleotide deaminase activity" RELATED [EC:3.5.4.17]
  synonym: "adenosine (phosphate) deaminase activity" RELATED [EC:3.5.4.17]
-@@ -311485,7 +312493,7 @@
+@@ -311485,7 +312511,7 @@
  id: GO:0047629
  name: ADP deaminase activity
  namespace: molecular_function
@@ -28111,7 +28184,7 @@
  synonym: "adenosine diphosphate deaminase activity" RELATED [EC:3.5.4.7]
  synonym: "adenosinepyrophosphate deaminase activity" RELATED [EC:3.5.4.7]
  synonym: "ADP aminohydrolase activity" RELATED [EC:3.5.4.7]
-@@ -311539,7 +312547,7 @@
+@@ -311539,7 +312565,7 @@
  id: GO:0047632
  name: agmatine deiminase activity
  namespace: molecular_function
@@ -28120,7 +28193,7 @@
  synonym: "agmatine amidinohydrolase" BROAD [EC:3.5.3.12]
  synonym: "agmatine iminohydrolase activity" RELATED [EC:3.5.3.12]
  xref: EC:3.5.3.12
-@@ -311588,23 +312596,25 @@
+@@ -311588,23 +312614,25 @@
  
  [Term]
  id: GO:0047635
@@ -28149,7 +28222,7 @@
  
  [Term]
  id: GO:0047636
-@@ -311883,7 +312893,7 @@
+@@ -311883,7 +312911,7 @@
  id: GO:0047652
  name: allantoate deiminase activity
  namespace: molecular_function
@@ -28158,7 +28231,7 @@
  synonym: "allantoate amidinohydrolase (decarboxylating)" RELATED [EC:3.5.3.9]
  synonym: "allantoate amidohydrolase activity" RELATED [EC:3.5.3.9]
  xref: EC:3.5.3.9
-@@ -312081,7 +313091,7 @@
+@@ -312081,7 +313109,7 @@
  id: GO:0047664
  name: aminoimidazolase activity
  namespace: molecular_function
@@ -28167,7 +28240,7 @@
  synonym: "4-aminoimidazole aminohydrolase activity" RELATED [EC:3.5.4.8]
  synonym: "4-aminoimidazole hydrolase activity" RELATED [EC:3.5.4.8]
  xref: EC:3.5.4.8
-@@ -312094,9 +313104,9 @@
+@@ -312094,9 +313122,9 @@
  
  [Term]
  id: GO:0047665
@@ -28179,7 +28252,7 @@
  synonym: "4,5-dioxovalerate aminotransferase activity" RELATED [EC:2.6.1.43]
  synonym: "4,5-dioxovaleric acid aminotransferase activity" RELATED [EC:2.6.1.43]
  synonym: "4,5-dioxovaleric acid transaminase activity" RELATED [EC:2.6.1.43]
-@@ -312106,7 +313116,7 @@
+@@ -312106,7 +313134,7 @@
  synonym: "alanine-dioxovalerate aminotransferase activity" RELATED [EC:2.6.1.43]
  synonym: "alanine-gamma,delta-dioxovalerate aminotransferase activity" RELATED [EC:2.6.1.43]
  synonym: "alanine:4,5-dioxovalerate aminotransferase activity" RELATED [EC:2.6.1.43]
@@ -28188,7 +28261,7 @@
  synonym: "aminolevulinic acid transaminase activity" RELATED [EC:2.6.1.43]
  synonym: "dioxovalerate transaminase activity" RELATED [EC:2.6.1.43]
  synonym: "DOVA transaminase activity" RELATED [EC:2.6.1.43]
-@@ -312123,6 +313133,7 @@
+@@ -312123,6 +313151,7 @@
  property_value: skos:exactMatch EC:2.6.1.43
  property_value: skos:exactMatch RHEA:12480
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28196,7 +28269,7 @@
  
  [Term]
  id: GO:0047666
-@@ -312562,15 +313573,14 @@
+@@ -312562,15 +313591,14 @@
  id: GO:0047692
  name: ATP deaminase activity
  namespace: molecular_function
@@ -28214,7 +28287,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -312679,7 +313689,7 @@
+@@ -312679,7 +313707,7 @@
  id: GO:0047698
  name: beta-alanyl-CoA ammonia-lyase activity
  namespace: molecular_function
@@ -28223,7 +28296,7 @@
  synonym: "b-alanyl-CoA ammonia-lyase activity" EXACT []
  synonym: "beta-alanyl coenzyme A ammonia-lyase activity" RELATED [EC:4.3.1.6]
  synonym: "beta-alanyl-CoA ammonia-lyase (acryloyl-CoA-forming)" RELATED [EC:4.3.1.6]
-@@ -312831,7 +313841,6 @@
+@@ -312831,7 +313859,6 @@
  xref: MetaCyc:BIOTIN--COA-LIGASE-RXN
  xref: RHEA:19681
  is_a: GO:0016405 ! CoA-ligase activity
@@ -28231,7 +28304,7 @@
  property_value: skos:exactMatch EC:6.2.1.11
  property_value: skos:exactMatch RHEA:19681
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -312900,7 +313909,7 @@
+@@ -312900,7 +313927,7 @@
  id: GO:0047711
  name: blasticidin-S deaminase activity
  namespace: molecular_function
@@ -28240,7 +28313,7 @@
  synonym: "blasticidin-S aminohydrolase activity" RELATED [EC:3.5.4.23]
  xref: EC:3.5.4.23
  xref: MetaCyc:BLASTICIDIN-S-DEAMINASE-RXN
-@@ -313153,16 +314162,17 @@
+@@ -313153,16 +314180,17 @@
  id: GO:0047726
  name: iron-cytochrome-c reductase activity
  namespace: molecular_function
@@ -28264,7 +28337,7 @@
  
  [Term]
  id: GO:0047727
-@@ -313393,10 +314403,11 @@
+@@ -313393,10 +314421,11 @@
  
  [Term]
  id: GO:0047740
@@ -28278,7 +28351,7 @@
  synonym: "cephalosporin-C:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.74]
  synonym: "L-alanine:cephalosporin-C aminotransferase activity" RELATED [EC:2.6.1.74]
  xref: EC:2.6.1.74
-@@ -313407,6 +314418,7 @@
+@@ -313407,6 +314436,7 @@
  property_value: skos:exactMatch EC:2.6.1.74
  property_value: skos:exactMatch RHEA:14553
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28286,7 +28359,7 @@
  
  [Term]
  id: GO:0047741
-@@ -313535,7 +314547,6 @@
+@@ -313535,7 +314565,6 @@
  xref: RHEA:47128
  xref: RHEA:47136
  is_a: GO:0016405 ! CoA-ligase activity
@@ -28294,7 +28367,7 @@
  property_value: skos:exactMatch EC:6.2.1.7
  property_value: skos:narrowMatch RHEA:22976
  property_value: skos:narrowMatch RHEA:23532
-@@ -313681,7 +314692,7 @@
+@@ -313681,7 +314710,7 @@
  synonym: "chondroitin 4-sulphotransferase activity" EXACT []
  xref: EC:2.8.2.5
  xref: MetaCyc:CHONDROITIN-4-SULFOTRANSFERASE-RXN
@@ -28303,7 +28376,7 @@
  xref: RHEA:16101
  is_a: GO:0034481 ! chondroitin sulfotransferase activity
  property_value: skos:exactMatch EC:2.8.2.5
-@@ -313700,7 +314711,7 @@
+@@ -313700,7 +314729,7 @@
  synonym: "urunosyl C-5 epimerase activity" RELATED [EC:5.1.3.19]
  xref: EC:5.1.3.19
  xref: MetaCyc:CHONDROITIN-GLUCURONATE-5-EPIMERASE-RXN
@@ -28312,7 +28385,7 @@
  xref: RHEA:21084
  is_a: GO:0016857 ! racemase and epimerase activity, acting on carbohydrates and derivatives
  property_value: skos:exactMatch EC:5.1.3.19
-@@ -314039,7 +315050,7 @@
+@@ -314039,7 +315068,7 @@
  xref: KEGG_REACTION:R01322
  xref: MetaCyc:CITRATE--COA-LIGASE-RXN
  xref: RHEA:21472
@@ -28321,7 +28394,7 @@
  property_value: skos:exactMatch EC:6.2.1.18
  property_value: skos:exactMatch RHEA:21472
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -314062,7 +315073,7 @@
+@@ -314062,7 +315091,7 @@
  id: GO:0047781
  name: citrullinase activity
  namespace: molecular_function
@@ -28330,7 +28403,7 @@
  synonym: "citrulline hydrolase activity" RELATED [EC:3.5.1.20]
  synonym: "citrulline ureidase activity" RELATED [EC:3.5.1.20]
  synonym: "L-citrulline 5-N-carbamoyldihydrolase activity" RELATED [EC:3.5.1.20]
-@@ -314248,7 +315259,7 @@
+@@ -314248,7 +315277,7 @@
  id: GO:0047790
  name: creatinine deaminase activity
  namespace: molecular_function
@@ -28339,7 +28412,7 @@
  synonym: "creatinine desiminase activity" RELATED [EC:3.5.4.21]
  synonym: "creatinine hydrolase" BROAD [EC:3.5.4.21]
  synonym: "creatinine iminohydrolase activity" RELATED [EC:3.5.4.21]
-@@ -314434,28 +315445,31 @@
+@@ -314434,28 +315463,31 @@
  
  [Term]
  id: GO:0047801
@@ -28376,7 +28449,7 @@
  synonym: "S-(4-bromophenyl)-L-cysteine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.75]
  xref: EC:2.6.1.75
  xref: KEGG_REACTION:R04338
-@@ -314465,6 +315479,7 @@
+@@ -314465,6 +315497,7 @@
  property_value: skos:exactMatch EC:2.6.1.75
  property_value: skos:exactMatch RHEA:13485
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28384,7 +28457,7 @@
  
  [Term]
  id: GO:0047803
-@@ -314607,11 +315622,12 @@
+@@ -314607,11 +315640,12 @@
  
  [Term]
  id: GO:0047810
@@ -28399,7 +28472,7 @@
  synonym: "D-alanine-D-glutamate transaminase activity" RELATED [EC:2.6.1.21]
  synonym: "D-amino acid aminotransferase activity" BROAD [EC:2.6.1.21]
  synonym: "D-amino acid transaminase activity" BROAD [EC:2.6.1.21]
-@@ -314622,10 +315638,11 @@
+@@ -314622,10 +315656,11 @@
  xref: EC:2.6.1.21
  xref: MetaCyc:D-ALANINE-AMINOTRANSFERASE-RXN
  xref: RHEA:15869
@@ -28412,7 +28485,7 @@
  
  [Term]
  id: GO:0047811
-@@ -314653,10 +315670,11 @@
+@@ -314653,10 +315688,11 @@
  xref: EC:2.3.1.36
  xref: MetaCyc:D-AMINO-ACID-N-ACETYLTRANSFERASE-RXN
  xref: RHEA:20704
@@ -28425,7 +28498,7 @@
  
  [Term]
  id: GO:0047813
-@@ -315057,9 +316075,11 @@
+@@ -315057,9 +316093,11 @@
  xref: MetaCyc:D-TRYPTOPHAN-N-MALONYLTRANSFERASE-RXN
  xref: RHEA:23320
  is_a: GO:0050735 ! N-malonyltransferase activity
@@ -28437,7 +28510,7 @@
  
  [Term]
  id: GO:0047837
-@@ -315320,7 +316340,7 @@
+@@ -315320,7 +316358,7 @@
  xref: EC:6.2.1.23
  xref: MetaCyc:DICARBOXYLATE--COA-LIGASE-RXN
  xref: RHEA:14289
@@ -28446,7 +28519,7 @@
  property_value: skos:exactMatch EC:6.2.1.23
  property_value: skos:exactMatch RHEA:14289
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -315453,25 +316473,20 @@
+@@ -315453,25 +316491,20 @@
  name: diiodophenylpyruvate reductase (NAD+) activity
  namespace: molecular_function
  def: "Catalysis of the reaction: 3-(3,5-diiodo-4-hydroxyphenyl)lactate + NAD+ = 3-(3,5-diiodo-4-hydroxyphenyl)pyruvate + H+ + NADH." [RHEA:20293]
@@ -28475,7 +28548,7 @@
  synonym: "3,5-diiodo-L-tyrosine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.24]
  synonym: "diiodotyrosine aminotransferase activity" EXACT []
  synonym: "halogenated tyrosine aminotransferase activity" RELATED [EC:2.6.1.24]
-@@ -315484,6 +316499,7 @@
+@@ -315484,6 +316517,7 @@
  property_value: skos:exactMatch EC:2.6.1.24
  property_value: skos:exactMatch RHEA:19781
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -28483,7 +28556,7 @@
  
  [Term]
  id: GO:0047862
-@@ -315871,7 +316887,7 @@
+@@ -315871,7 +316905,7 @@
  id: GO:0047883
  name: ethanolamine oxidase activity
  namespace: molecular_function
@@ -28492,7 +28565,7 @@
  synonym: "ethanolamine:oxygen oxidoreductase (deaminating)" RELATED [EC:1.4.3.8]
  xref: EC:1.4.3.8
  xref: MetaCyc:ETHANOLAMINE-OXIDASE-RXN
-@@ -316672,7 +317688,7 @@
+@@ -316672,7 +317706,7 @@
  name: glucosaminate ammonia-lyase activity
  namespace: molecular_function
  alt_id: GO:0050443
@@ -28501,7 +28574,7 @@
  comment: Note that this function was EC:4.3.1.21.
  synonym: "2-amino-2-deoxy-D-gluconate ammonia-lyase activity" RELATED [EC:4.3.1.9]
  synonym: "2-amino-2-deoxy-D-gluconate hydro-lyase (deaminating) activity" RELATED [EC:4.3.1.9]
-@@ -316933,9 +317949,9 @@
+@@ -316933,9 +317967,9 @@
  
  [Term]
  id: GO:0047945
@@ -28513,7 +28586,7 @@
  synonym: "gamma-glutaminyltransferase activity" RELATED [EC:2.6.1.15]
  synonym: "glutaminase II activity" RELATED [EC:2.6.1.15]
  synonym: "glutamine transaminase activity" BROAD [EC:2.6.1.15]
-@@ -316948,26 +317964,29 @@
+@@ -316948,26 +317982,29 @@
  synonym: "glutamine-oxo acid aminotransferase activity" BROAD [EC:2.6.1.15]
  synonym: "glutamine-pyruvate transaminase activity" BROAD [EC:2.6.1.15]
  synonym: "L-glutamine transaminase L" RELATED [EC:2.6.1.15]
@@ -28547,7 +28620,7 @@
  property_value: skos:exactMatch EC:2.3.1.68
  property_value: skos:exactMatch RHEA:18469
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -317000,7 +318019,7 @@
+@@ -317000,7 +318037,7 @@
  xref: KEGG_REACTION:R02402
  xref: MetaCyc:GLUTARATE--COA-LIGASE-RXN
  xref: RHEA:14169
@@ -28556,7 +28629,7 @@
  property_value: skos:exactMatch EC:6.2.1.6
  property_value: skos:exactMatch RHEA:14169
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -317020,16 +318039,17 @@
+@@ -317020,16 +318057,17 @@
  id: GO:0047950
  name: glutathione oxidase activity
  namespace: molecular_function
@@ -28576,7 +28649,7 @@
  
  [Term]
  id: GO:0047951
-@@ -317160,29 +318180,31 @@
+@@ -317160,29 +318198,31 @@
  
  [Term]
  id: GO:0047958
@@ -28612,7 +28685,7 @@
  synonym: "glycine-cytochrome c reductase activity" RELATED [EC:1.4.2.1]
  synonym: "glycine:ferricytochrome-c oxidoreductase (deaminating)" RELATED [EC:1.4.2.1]
  synonym: "reductase, glycine-cytochrome c" RELATED [EC:1.4.2.1]
-@@ -317214,7 +318236,7 @@
+@@ -317214,7 +318254,7 @@
  id: GO:0047961
  name: glycine N-acyltransferase activity
  namespace: molecular_function
@@ -28621,7 +28694,7 @@
  synonym: "acyl-CoA:glycine N-acyltransferase activity" RELATED [EC:2.3.1.13]
  synonym: "glycine acyltransferase activity" RELATED [EC:2.3.1.13]
  synonym: "glycine-N-acylase activity" RELATED [EC:2.3.1.13]
-@@ -317222,10 +318244,11 @@
+@@ -317222,10 +318262,11 @@
  xref: MetaCyc:GLYCINE-N-ACYLTRANSFERASE-RXN
  xref: Reactome:R-HSA-2534040 "Unknown NAT N-acylates Gly in GNAT1"
  xref: RHEA:19869
@@ -28634,7 +28707,7 @@
  
  [Term]
  id: GO:0047962
-@@ -317443,7 +318466,7 @@
+@@ -317443,7 +318484,7 @@
  id: GO:0047974
  name: guanosine deaminase activity
  namespace: molecular_function
@@ -28643,7 +28716,7 @@
  synonym: "guanosine aminase activity" RELATED [EC:3.5.4.15]
  synonym: "guanosine aminohydrolase activity" RELATED [EC:3.5.4.15]
  xref: EC:3.5.4.15
-@@ -317564,7 +318587,7 @@
+@@ -317564,7 +318605,7 @@
  id: GO:0047981
  name: L-histidine N-acetyltransferase activity
  namespace: molecular_function
@@ -28652,7 +28725,7 @@
  synonym: "acetyl-CoA:L-histidine N-acetyltransferase activity" RELATED [EC:2.3.1.33]
  synonym: "acetylhistidine synthetase activity" RELATED [EC:2.3.1.33]
  synonym: "histidine acetyltransferase activity" RELATED [EC:2.3.1.33]
-@@ -317582,7 +318605,7 @@
+@@ -317582,7 +318623,7 @@
  id: GO:0047982
  name: homocysteine desulfhydrase activity
  namespace: molecular_function
@@ -28661,7 +28734,7 @@
  synonym: "homocysteine desulfurase activity" RELATED [EC:4.4.1.2]
  synonym: "L-homocysteine hydrogen-sulfide-lyase (deaminating)" RELATED [EC:4.4.1.2]
  synonym: "L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)" RELATED [EC:4.4.1.2]
-@@ -318058,8 +319081,8 @@
+@@ -318058,8 +319099,8 @@
  synonym: "receptor agonist activity" RELATED [GOC:molecular_function_refactoring]
  synonym: "signaling molecule" BROAD []
  synonym: "signaling receptor ligand activity" EXACT []
@@ -28671,7 +28744,7 @@
  is_a: GO:0030546 ! signaling receptor activator activity
  relationship: has_part GO:0005102 ! signaling receptor binding
  relationship: part_of GO:0007165 ! signal transduction
-@@ -319382,7 +320405,7 @@
+@@ -319382,7 +320423,7 @@
  id: GO:0048180
  name: activin complex
  namespace: cellular_component
@@ -28680,7 +28753,7 @@
  comment: Note that the actions of the activin complex are the opposite of those of the inhibin complex, which is a dimer of an inhibin beta-A or inhibin beta-B subunit and a inhibin alpha subunit. See 'inhibin complex ; GO:0043511'.
  subset: goslim_pir
  is_a: GO:0032991 ! protein-containing complex
-@@ -319392,7 +320415,7 @@
+@@ -319392,7 +320433,7 @@
  id: GO:0048183
  name: activin AB complex
  namespace: cellular_component
@@ -28689,7 +28762,7 @@
  comment: Note that the actions of the activin complex are the opposite of those of the inhibin complex, which is a dimer of an inhibin beta-A or inhibin beta-B subunit and a inhibin alpha subunit. See 'inhibin complex ; GO:0043511'.
  synonym: "inhibin beta-A" NARROW []
  synonym: "inhibin beta-B" NARROW []
-@@ -320059,17 +321082,18 @@
+@@ -320059,17 +321100,18 @@
  
  [Term]
  id: GO:0048258
@@ -28713,7 +28786,7 @@
  synonym: "regulation of receptor mediated endocytosis" EXACT [GOC:tb]
  is_a: GO:0030100 ! regulation of endocytosis
  intersection_of: GO:0065007 ! biological regulation
-@@ -320080,7 +321104,7 @@
+@@ -320080,7 +321122,7 @@
  id: GO:0048260
  name: positive regulation of receptor-mediated endocytosis
  namespace: biological_process
@@ -28722,7 +28795,7 @@
  synonym: "activation of receptor mediated endocytosis" NARROW []
  synonym: "positive regulation of receptor mediated endocytosis" EXACT [GOC:tb]
  synonym: "stimulation of receptor mediated endocytosis" NARROW []
-@@ -320097,7 +321121,7 @@
+@@ -320097,7 +321139,7 @@
  id: GO:0048261
  name: negative regulation of receptor-mediated endocytosis
  namespace: biological_process
@@ -28731,7 +28804,7 @@
  synonym: "down regulation of receptor mediated endocytosis" EXACT []
  synonym: "down-regulation of receptor mediated endocytosis" EXACT []
  synonym: "downregulation of receptor mediated endocytosis" EXACT []
-@@ -320154,7 +321178,8 @@
+@@ -320154,7 +321196,8 @@
  def: "Any process that results in a change in the behavior of an organism as a result of a pain stimulus. Pain stimuli cause activation of nociceptors, peripheral receptors for pain, include receptors which are sensitive to painful mechanical stimuli, extreme heat or cold, and chemical stimuli." [GOC:jid]
  synonym: "behavioural response to pain" EXACT []
  is_a: GO:0007610 ! behavior
@@ -28741,7 +28814,7 @@
  
  [Term]
  id: GO:0048268
-@@ -320656,7 +321681,7 @@
+@@ -320656,7 +321699,7 @@
  id: GO:0048317
  name: seed morphogenesis
  namespace: biological_process
@@ -28750,7 +28823,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0090698 ! post-embryonic plant morphogenesis
  relationship: part_of GO:0048316 ! seed development
-@@ -320672,7 +321697,7 @@
+@@ -320672,7 +321715,7 @@
  id: GO:0048319
  name: axial mesoderm morphogenesis
  namespace: biological_process
@@ -28759,7 +28832,7 @@
  is_a: GO:0048332 ! mesoderm morphogenesis
  relationship: part_of GO:0048318 ! axial mesoderm development
  
-@@ -320816,7 +321841,7 @@
+@@ -320816,7 +321859,7 @@
  id: GO:0048332
  name: mesoderm morphogenesis
  namespace: biological_process
@@ -28768,7 +28841,7 @@
  is_a: GO:0048729 ! tissue morphogenesis
  relationship: part_of GO:0007498 ! mesoderm development
  
-@@ -320911,7 +321936,7 @@
+@@ -320911,7 +321954,7 @@
  id: GO:0048340
  name: paraxial mesoderm morphogenesis
  namespace: biological_process
@@ -28777,7 +28850,7 @@
  is_a: GO:0048332 ! mesoderm morphogenesis
  is_a: GO:0072132 ! mesenchyme morphogenesis
  relationship: part_of GO:0048339 ! paraxial mesoderm development
-@@ -321176,7 +322201,7 @@
+@@ -321176,7 +322219,7 @@
  id: GO:0048366
  name: leaf development
  namespace: biological_process
@@ -28786,7 +28859,7 @@
  is_a: GO:0048827 ! phyllome development
  
  [Term]
-@@ -321184,7 +322209,7 @@
+@@ -321184,7 +322227,7 @@
  name: shoot system development
  namespace: biological_process
  alt_id: GO:0022621
@@ -28795,7 +28868,7 @@
  synonym: "shoot development" EXACT []
  is_a: GO:0048731 ! system development
  
-@@ -321192,7 +322217,7 @@
+@@ -321192,7 +322235,7 @@
  id: GO:0048368
  name: lateral mesoderm development
  namespace: biological_process
@@ -28804,7 +28877,7 @@
  synonym: "lateral plate mesoderm development" EXACT []
  is_a: GO:0007498 ! mesoderm development
  is_a: GO:0060485 ! mesenchyme development
-@@ -321201,7 +322226,7 @@
+@@ -321201,7 +322244,7 @@
  id: GO:0048369
  name: lateral mesoderm morphogenesis
  namespace: biological_process
@@ -28813,7 +28886,7 @@
  synonym: "lateral plate mesoderm morphogenesis" EXACT []
  is_a: GO:0048332 ! mesoderm morphogenesis
  is_a: GO:0072132 ! mesenchyme morphogenesis
-@@ -321458,7 +322483,7 @@
+@@ -321458,7 +322501,7 @@
  id: GO:0048390
  name: intermediate mesoderm morphogenesis
  namespace: biological_process
@@ -28822,7 +28895,7 @@
  is_a: GO:0048332 ! mesoderm morphogenesis
  relationship: part_of GO:0048389 ! intermediate mesoderm development
  
-@@ -321639,7 +322664,7 @@
+@@ -321639,7 +322682,7 @@
  name: floral organ development
  namespace: biological_process
  alt_id: GO:0048433
@@ -28831,7 +28904,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0099402 ! plant organ development
  relationship: part_of GO:0009908 ! flower development
-@@ -321649,7 +322674,7 @@
+@@ -321649,7 +322692,7 @@
  name: floral whorl development
  namespace: biological_process
  alt_id: GO:0048413
@@ -28840,7 +28913,7 @@
  comment: Consider instead annotating to one of the more specific child terms, or to 'floral organ development ; GO:0048438' or one of its child terms.
  synonym: "collective phyllome structure development" BROAD [GOC:PO_curators, PO:0025023]
  is_a: GO:0003006 ! developmental process involved in reproduction
-@@ -321661,7 +322686,7 @@
+@@ -321661,7 +322704,7 @@
  name: flower morphogenesis
  namespace: biological_process
  alt_id: GO:0048411
@@ -28849,7 +28922,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0010016 ! shoot system morphogenesis
  is_a: GO:0090698 ! post-embryonic plant morphogenesis
-@@ -321672,7 +322697,7 @@
+@@ -321672,7 +322715,7 @@
  name: carpel development
  namespace: biological_process
  alt_id: GO:0048429
@@ -28858,7 +28931,7 @@
  is_a: GO:0048437 ! floral organ development
  is_a: GO:0048827 ! phyllome development
  relationship: part_of GO:0048467 ! gynoecium development
-@@ -321682,7 +322707,7 @@
+@@ -321682,7 +322725,7 @@
  name: petal development
  namespace: biological_process
  alt_id: GO:0048417
@@ -28867,7 +28940,7 @@
  is_a: GO:0048437 ! floral organ development
  is_a: GO:0048827 ! phyllome development
  relationship: part_of GO:0048465 ! corolla development
-@@ -321692,7 +322717,7 @@
+@@ -321692,7 +322735,7 @@
  name: sepal development
  namespace: biological_process
  alt_id: GO:0048421
@@ -28876,7 +28949,7 @@
  is_a: GO:0048437 ! floral organ development
  is_a: GO:0048827 ! phyllome development
  relationship: part_of GO:0048464 ! flower calyx development
-@@ -321702,7 +322727,7 @@
+@@ -321702,7 +322745,7 @@
  name: stamen development
  namespace: biological_process
  alt_id: GO:0048425
@@ -28885,7 +28958,7 @@
  is_a: GO:0048437 ! floral organ development
  is_a: GO:0048827 ! phyllome development
  relationship: part_of GO:0048466 ! androecium development
-@@ -321712,7 +322737,7 @@
+@@ -321712,7 +322755,7 @@
  name: floral organ morphogenesis
  namespace: biological_process
  alt_id: GO:0048434
@@ -28894,7 +28967,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0090697 ! post-embryonic plant organ morphogenesis
  relationship: part_of GO:0048437 ! floral organ development
-@@ -321722,7 +322747,7 @@
+@@ -321722,7 +322765,7 @@
  name: carpel morphogenesis
  namespace: biological_process
  alt_id: GO:0048430
@@ -28903,7 +28976,7 @@
  is_a: GO:0048444 ! floral organ morphogenesis
  relationship: part_of GO:0048440 ! carpel development
  
-@@ -321731,7 +322756,7 @@
+@@ -321731,7 +322774,7 @@
  name: petal morphogenesis
  namespace: biological_process
  alt_id: GO:0048418
@@ -28912,7 +28985,7 @@
  is_a: GO:0048444 ! floral organ morphogenesis
  relationship: part_of GO:0048441 ! petal development
  
-@@ -321740,7 +322765,7 @@
+@@ -321740,7 +322783,7 @@
  name: sepal morphogenesis
  namespace: biological_process
  alt_id: GO:0048422
@@ -28921,7 +28994,7 @@
  is_a: GO:0048444 ! floral organ morphogenesis
  relationship: part_of GO:0048442 ! sepal development
  
-@@ -321749,7 +322774,7 @@
+@@ -321749,7 +322792,7 @@
  name: stamen morphogenesis
  namespace: biological_process
  alt_id: GO:0048426
@@ -28930,7 +29003,7 @@
  is_a: GO:0048444 ! floral organ morphogenesis
  relationship: part_of GO:0048443 ! stamen development
  
-@@ -321836,7 +322861,7 @@
+@@ -321836,7 +322879,7 @@
  name: floral whorl morphogenesis
  namespace: biological_process
  alt_id: GO:0048414
@@ -28939,7 +29012,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0090698 ! post-embryonic plant morphogenesis
  relationship: part_of GO:0048438 ! floral whorl development
-@@ -321908,28 +322933,28 @@
+@@ -321908,28 +322951,28 @@
  id: GO:0048464
  name: flower calyx development
  namespace: biological_process
@@ -28972,7 +29045,7 @@
  synonym: "pistil development" EXACT []
  is_a: GO:0048438 ! floral whorl development
  
-@@ -321937,7 +322962,7 @@
+@@ -321937,7 +322980,7 @@
  id: GO:0048468
  name: cell development
  namespace: biological_process
@@ -28981,7 +29054,7 @@
  subset: goslim_candida
  synonym: "terminal differentiation" RELATED [GOC:dph, GOC:tb]
  is_a: GO:0048856 ! anatomical structure development
-@@ -321949,7 +322974,7 @@
+@@ -321949,7 +322992,7 @@
  id: GO:0048469
  name: cell maturation
  namespace: biological_process
@@ -28990,7 +29063,7 @@
  subset: goslim_pir
  synonym: "functional differentiation" RELATED [GOC:dph]
  is_a: GO:0048869 ! cellular developmental process
-@@ -322370,7 +323395,7 @@
+@@ -322370,7 +323413,7 @@
  id: GO:0048512
  name: circadian behavior
  namespace: biological_process
@@ -28999,7 +29072,7 @@
  synonym: "circadian rhythm behavior" EXACT []
  is_a: GO:0007622 ! rhythmic behavior
  is_a: GO:0007623 ! circadian rhythm
-@@ -322623,7 +323648,7 @@
+@@ -322623,7 +323666,7 @@
  id: GO:0048532
  name: anatomical structure arrangement
  namespace: biological_process
@@ -29008,7 +29081,7 @@
  synonym: "anatomical structure organization" BROAD []
  synonym: "anatomical structure structural organization" EXACT []
  synonym: "organization of an anatomical structure" EXACT []
-@@ -322756,7 +323781,7 @@
+@@ -322756,7 +323799,7 @@
  id: GO:0048545
  name: response to steroid hormone
  namespace: biological_process
@@ -29017,7 +29090,7 @@
  synonym: "response to steroid hormone stimulus" EXACT [GOC:dos]
  is_a: GO:0009725 ! response to hormone
  is_a: GO:0033993 ! response to lipid
-@@ -322766,7 +323791,7 @@
+@@ -322766,7 +323809,7 @@
  name: digestive tract morphogenesis
  namespace: biological_process
  alt_id: GO:0048547
@@ -29026,7 +29099,7 @@
  synonym: "alimentary canal morphogenesis" EXACT []
  synonym: "digestive tube morphogenesis" EXACT []
  synonym: "gastrointestinal tract morphogenesis" EXACT []
-@@ -322779,7 +323804,7 @@
+@@ -322779,7 +323822,7 @@
  id: GO:0048548
  name: regulation of pinocytosis
  namespace: biological_process
@@ -29035,7 +29108,7 @@
  is_a: GO:0030100 ! regulation of endocytosis
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006907 ! pinocytosis
-@@ -322789,7 +323814,7 @@
+@@ -322789,7 +323832,7 @@
  id: GO:0048549
  name: positive regulation of pinocytosis
  namespace: biological_process
@@ -29044,7 +29117,7 @@
  synonym: "activation of pinocytosis" NARROW []
  synonym: "stimulation of pinocytosis" NARROW []
  synonym: "up regulation of pinocytosis" EXACT []
-@@ -322805,7 +323830,7 @@
+@@ -322805,7 +323848,7 @@
  id: GO:0048550
  name: negative regulation of pinocytosis
  namespace: biological_process
@@ -29053,7 +29126,7 @@
  synonym: "down regulation of pinocytosis" EXACT []
  synonym: "down-regulation of pinocytosis" EXACT []
  synonym: "downregulation of pinocytosis" EXACT []
-@@ -322840,7 +323865,7 @@
+@@ -322840,7 +323883,7 @@
  name: embryonic digestive tract morphogenesis
  namespace: biological_process
  alt_id: GO:0048558
@@ -29062,7 +29135,7 @@
  synonym: "embryonic gut morphogenesis" BROAD [GOC:dph]
  is_a: GO:0048562 ! embryonic organ morphogenesis
  relationship: part_of GO:0048546 ! digestive tract morphogenesis
-@@ -322895,7 +323920,7 @@
+@@ -322895,7 +323938,7 @@
  name: photosystem I assembly
  namespace: biological_process
  alt_id: GO:0010251
@@ -29071,7 +29144,7 @@
  is_a: GO:0065003 ! protein-containing complex assembly
  relationship: part_of GO:0019684 ! photosynthesis, light reaction
  
-@@ -322903,7 +323928,7 @@
+@@ -322903,7 +323946,7 @@
  id: GO:0048565
  name: digestive tract development
  namespace: biological_process
@@ -29080,7 +29153,7 @@
  synonym: "gut development" BROAD [GOC:dph]
  synonym: "intestinal development" NARROW []
  synonym: "intestine development" NARROW []
-@@ -322914,7 +323939,7 @@
+@@ -322914,7 +323957,7 @@
  id: GO:0048566
  name: embryonic digestive tract development
  namespace: biological_process
@@ -29089,7 +29162,7 @@
  is_a: GO:0048565 ! digestive tract development
  is_a: GO:0048568 ! embryonic organ development
  
-@@ -323198,7 +324223,7 @@
+@@ -323198,7 +324241,7 @@
  id: GO:0048588
  name: developmental cell growth
  namespace: biological_process
@@ -29098,7 +29171,7 @@
  subset: gocheck_do_not_annotate
  synonym: "developmental growth of a unicellular organism" EXACT []
  is_a: GO:0016049 ! cell growth
-@@ -323210,7 +324235,7 @@
+@@ -323210,7 +324253,7 @@
  id: GO:0048589
  name: developmental growth
  namespace: biological_process
@@ -29107,7 +29180,7 @@
  is_a: GO:0040007 ! growth
  intersection_of: GO:0040007 ! growth
  intersection_of: part_of GO:0032502 ! developmental process
-@@ -323271,7 +324296,7 @@
+@@ -323271,7 +324314,7 @@
  id: GO:0048599
  name: oocyte development
  namespace: biological_process
@@ -29116,7 +29189,7 @@
  is_a: GO:0007281 ! germ cell development
  relationship: part_of GO:0009994 ! oocyte differentiation
  
-@@ -323279,7 +324304,7 @@
+@@ -323279,7 +324322,7 @@
  id: GO:0048600
  name: oocyte fate commitment
  namespace: biological_process
@@ -29125,7 +29198,7 @@
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0045165 ! cell fate commitment
  relationship: part_of GO:0009994 ! oocyte differentiation
-@@ -323288,7 +324313,7 @@
+@@ -323288,7 +324331,7 @@
  id: GO:0048601
  name: oocyte morphogenesis
  namespace: biological_process
@@ -29134,7 +29207,7 @@
  synonym: "oocyte morphogenesis during differentiation" EXACT []
  is_a: GO:0000902 ! cell morphogenesis
  is_a: GO:0003006 ! developmental process involved in reproduction
-@@ -323438,7 +324463,7 @@
+@@ -323438,7 +324481,7 @@
  id: GO:0048623
  name: seed germination on parent plant
  namespace: biological_process
@@ -29143,7 +29216,7 @@
  synonym: "non-vegetative vivipary" BROAD []
  synonym: "pre-harvest sprouting" EXACT []
  synonym: "vivipary" BROAD []
-@@ -323448,7 +324473,7 @@
+@@ -323448,7 +324491,7 @@
  id: GO:0048624
  name: plantlet formation on parent plant
  namespace: biological_process
@@ -29152,7 +29225,7 @@
  synonym: "vegetative vivipary" BROAD []
  synonym: "vivipary" BROAD []
  is_a: GO:0003006 ! developmental process involved in reproduction
-@@ -323557,7 +324582,7 @@
+@@ -323557,7 +324600,7 @@
  id: GO:0048634
  name: regulation of muscle organ development
  namespace: biological_process
@@ -29161,7 +29234,7 @@
  is_a: GO:0050793 ! regulation of developmental process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0007517 ! muscle organ development
-@@ -323567,7 +324592,7 @@
+@@ -323567,7 +324610,7 @@
  id: GO:0048635
  name: negative regulation of muscle organ development
  namespace: biological_process
@@ -29170,7 +29243,7 @@
  synonym: "down regulation of muscle development" EXACT []
  synonym: "down-regulation of muscle development" EXACT []
  synonym: "downregulation of muscle development" EXACT []
-@@ -323583,7 +324608,7 @@
+@@ -323583,7 +324626,7 @@
  id: GO:0048636
  name: positive regulation of muscle organ development
  namespace: biological_process
@@ -29179,7 +29252,7 @@
  synonym: "activation of muscle development" NARROW []
  synonym: "stimulation of muscle development" NARROW []
  synonym: "up regulation of muscle development" EXACT []
-@@ -323600,7 +324625,7 @@
+@@ -323600,7 +324643,7 @@
  id: GO:0048638
  name: regulation of developmental growth
  namespace: biological_process
@@ -29188,7 +29261,7 @@
  is_a: GO:0040008 ! regulation of growth
  is_a: GO:0050793 ! regulation of developmental process
  intersection_of: GO:0065007 ! biological regulation
-@@ -323611,7 +324636,7 @@
+@@ -323611,7 +324654,7 @@
  id: GO:0048639
  name: positive regulation of developmental growth
  namespace: biological_process
@@ -29197,7 +29270,7 @@
  synonym: "activation of developmental growth" NARROW []
  synonym: "stimulation of developmental growth" NARROW []
  synonym: "up regulation of developmental growth" EXACT []
-@@ -323628,7 +324653,7 @@
+@@ -323628,7 +324671,7 @@
  id: GO:0048640
  name: negative regulation of developmental growth
  namespace: biological_process
@@ -29206,7 +29279,7 @@
  synonym: "down regulation of developmental growth" EXACT []
  synonym: "down-regulation of developmental growth" EXACT []
  synonym: "downregulation of developmental growth" EXACT []
-@@ -323644,7 +324669,7 @@
+@@ -323644,7 +324687,7 @@
  id: GO:0048641
  name: regulation of skeletal muscle tissue development
  namespace: biological_process
@@ -29215,7 +29288,7 @@
  is_a: GO:0016202 ! regulation of striated muscle tissue development
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0007519 ! skeletal muscle tissue development
-@@ -323654,7 +324679,7 @@
+@@ -323654,7 +324697,7 @@
  id: GO:0048642
  name: negative regulation of skeletal muscle tissue development
  namespace: biological_process
@@ -29224,7 +29297,7 @@
  synonym: "down regulation of skeletal muscle development" EXACT []
  synonym: "down-regulation of skeletal muscle development" EXACT []
  synonym: "downregulation of skeletal muscle development" EXACT []
-@@ -323669,7 +324694,7 @@
+@@ -323669,7 +324712,7 @@
  id: GO:0048643
  name: positive regulation of skeletal muscle tissue development
  namespace: biological_process
@@ -29233,7 +29306,7 @@
  synonym: "activation of skeletal muscle development" NARROW []
  synonym: "stimulation of skeletal muscle development" NARROW []
  synonym: "up regulation of skeletal muscle development" EXACT []
-@@ -326576,7 +327601,7 @@
+@@ -326576,7 +327619,7 @@
  id: GO:0050001
  name: D-glutaminase activity
  namespace: molecular_function
@@ -29242,7 +29315,7 @@
  synonym: "D-glutamine amidohydrolase activity" RELATED [EC:3.5.1.35]
  xref: EC:3.5.1.35
  xref: MetaCyc:D-GLUTAMINASE-RXN
-@@ -326979,7 +328004,7 @@
+@@ -326979,7 +328022,7 @@
  id: GO:0050025
  name: L-glutamate oxidase activity
  namespace: molecular_function
@@ -29251,7 +29324,7 @@
  synonym: "glutamate (acceptor) dehydrogenase activity" RELATED [EC:1.4.3.11]
  synonym: "glutamate oxidase activity" RELATED [EC:1.4.3.11]
  synonym: "glutamic acid oxidase activity" RELATED [EC:1.4.3.11]
-@@ -327049,7 +328074,6 @@
+@@ -327049,7 +328092,6 @@
  name: L-lysine oxidase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: H2O + L-lysine + O2 = 6-amino-2-oxohexanoate + H2O2 + NH4+." [RHEA:14437]
@@ -29259,7 +29332,7 @@
  synonym: "L-lysine alpha-oxidase activity" RELATED [EC:1.4.3.14]
  synonym: "L-lysine:oxygen 2-oxidoreductase (deaminating)" RELATED [EC:1.4.3.14]
  synonym: "L-lysyl-alpha-oxidase activity" RELATED [EC:1.4.3.14]
-@@ -327062,8 +328086,8 @@
+@@ -327062,8 +328104,8 @@
  property_value: skos:exactMatch KEGG_REACTION:R00447
  property_value: skos:exactMatch MetaCyc:L-LYSINE-OXIDASE-RXN
  property_value: skos:exactMatch RHEA:14437
@@ -29269,7 +29342,7 @@
  
  [Term]
  id: GO:0050030
-@@ -327409,7 +328433,7 @@
+@@ -327409,7 +328451,7 @@
  id: GO:0050050
  name: L-leucine N-acetyltransferase activity
  namespace: molecular_function
@@ -29278,7 +29351,7 @@
  synonym: "acetyl-CoA:L-leucine N-acetyltransferase activity" RELATED [EC:2.3.1.66]
  synonym: "leucine acetyltransferase activity" RELATED [EC:2.3.1.66]
  xref: EC:2.3.1.66
-@@ -327664,25 +328688,26 @@
+@@ -327664,25 +328706,26 @@
  
  [Term]
  id: GO:0050065
@@ -29310,7 +29383,7 @@
  
  [Term]
  id: GO:0050066
-@@ -327820,7 +328845,7 @@
+@@ -327820,7 +328863,7 @@
  xref: EC:6.2.1.9
  xref: MetaCyc:MALATE--COA-LIGASE-RXN
  xref: RHEA:26193
@@ -29319,7 +29392,7 @@
  property_value: skos:exactMatch EC:6.2.1.9
  property_value: skos:exactMatch RHEA:26193
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -328143,20 +329168,22 @@
+@@ -328143,20 +329186,22 @@
  
  [Term]
  id: GO:0050094
@@ -29345,7 +29418,7 @@
  
  [Term]
  id: GO:0050095
-@@ -328825,9 +329852,11 @@
+@@ -328825,9 +329870,11 @@
  xref: MetaCyc:N6-HYDROXYLYSINE-O-ACETYLTRANSFERASE-RXN
  xref: RHEA:22388
  is_a: GO:0016413 ! O-acetyltransferase activity
@@ -29357,7 +29430,7 @@
  
  [Term]
  id: GO:0050134
-@@ -328970,7 +329999,7 @@
+@@ -328970,7 +330017,7 @@
  id: GO:0050142
  name: nitrogenase (flavodoxin) activity
  namespace: molecular_function
@@ -29366,7 +29439,7 @@
  synonym: "reduced flavodoxin:dinitrogen oxidoreductase (ATP-hydrolysing)" RELATED [EC:1.19.6.1]
  xref: EC:1.19.6.1
  xref: MetaCyc:NITROGENASE-FLAVODOXIN-RXN
-@@ -329439,12 +330468,13 @@
+@@ -329439,12 +330486,13 @@
  
  [Term]
  id: GO:0050170
@@ -29382,7 +29455,7 @@
  synonym: "peptidyl-L-glutamine amidohydrolase activity" RELATED [EC:3.5.1.43]
  xref: EC:3.5.1.43
  xref: MetaCyc:PEPTIDYL-GLUTAMINASE-RXN
-@@ -329456,9 +330486,10 @@
+@@ -329456,9 +330504,10 @@
  
  [Term]
  id: GO:0050171
@@ -29395,7 +29468,7 @@
  synonym: "phenol b-glucosyltransferase activity" EXACT []
  synonym: "phenol-beta-D-glucosyltransferase activity" RELATED [EC:2.4.1.35]
  synonym: "UDP glucosyltransferase activity" RELATED [EC:2.4.1.35]
-@@ -329469,9 +330500,9 @@
+@@ -329469,9 +330518,9 @@
  synonym: "uridine diphosphoglucosyltransferase activity" RELATED [EC:2.4.1.35]
  xref: EC:2.4.1.35
  xref: MetaCyc:PHENOL-BETA-GLUCOSYLTRANSFERASE-RXN
@@ -29407,7 +29480,7 @@
  
  [Term]
  id: GO:0050172
-@@ -329544,7 +330575,7 @@
+@@ -329544,7 +330593,7 @@
  id: GO:0050176
  name: L-phenylalanine N-acetyltransferase activity
  namespace: molecular_function
@@ -29416,7 +29489,7 @@
  synonym: "acetyl-CoA-L-phenylalanine alpha-N-acetyltransferase activity" RELATED [EC:2.3.1.53]
  synonym: "acetyl-CoA:L-phenylalanine N-acetyltransferase activity" RELATED [EC:2.3.1.53]
  synonym: "phenylalanine N-acetyltransferase activity" EXACT []
-@@ -329942,7 +330973,6 @@
+@@ -329942,7 +330991,6 @@
  xref: Reactome:R-HSA-389622 "phytanate + CoA-SH + ATP => phytanoyl-CoA + AMP + pyrophosphate"
  xref: RHEA:21380
  is_a: GO:0016405 ! CoA-ligase activity
@@ -29424,7 +29497,7 @@
  property_value: skos:exactMatch EC:6.2.1.24
  property_value: skos:exactMatch RHEA:21380
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -330009,7 +331039,7 @@
+@@ -330009,7 +331057,7 @@
  xref: EC:2.7.1.52
  xref: KEGG_REACTION:R03161
  xref: MetaCyc:FUCOKINASE-RXN
@@ -29433,7 +29506,7 @@
  xref: RHEA:13241
  is_a: GO:0016301 ! kinase activity
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
-@@ -330047,7 +331077,6 @@
+@@ -330047,7 +331095,6 @@
  xref: MetaCyc:OXALATE--COA-LIGASE-RXN
  xref: RHEA:18293
  is_a: GO:0016405 ! CoA-ligase activity
@@ -29441,7 +29514,7 @@
  property_value: skos:exactMatch EC:6.2.1.8
  property_value: skos:exactMatch RHEA:18293
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -330197,22 +331226,20 @@
+@@ -330197,22 +331244,20 @@
  id: GO:0050212
  name: progesterone 11-alpha-monooxygenase activity
  namespace: molecular_function
@@ -29472,7 +29545,7 @@
  
  [Term]
  id: GO:0050213
-@@ -330661,7 +331688,7 @@
+@@ -330661,7 +331706,7 @@
  id: GO:0050239
  name: pyrithiamine deaminase activity
  namespace: molecular_function
@@ -29481,7 +29554,7 @@
  synonym: "1-(4-amino-2-methylpyrimid-5-ylmethyl)-3-(beta-hydroxyethyl)-2-methylpyridinium-bromide aminohydrolase activity" RELATED [EC:3.5.4.20]
  xref: EC:3.5.4.20
  xref: MetaCyc:PYRITHIAMIN-DEAMINASE-RXN
-@@ -331347,7 +332374,7 @@
+@@ -331347,7 +332392,7 @@
  id: GO:0050279
  name: sepiapterin deaminase activity
  namespace: molecular_function
@@ -29490,7 +29563,7 @@
  synonym: "sepiapterin aminohydrolase activity" RELATED [EC:3.5.4.24]
  xref: EC:3.5.4.24
  xref: MetaCyc:SEPIAPTERIN-DEAMINASE-RXN
-@@ -331375,19 +332402,21 @@
+@@ -331375,19 +332420,21 @@
  
  [Term]
  id: GO:0050281
@@ -29515,7 +29588,7 @@
  
  [Term]
  id: GO:0050282
-@@ -331410,7 +332439,7 @@
+@@ -331410,7 +332457,7 @@
  id: GO:0050283
  name: serine-sulfate ammonia-lyase activity
  namespace: molecular_function
@@ -29524,7 +29597,7 @@
  synonym: "(L-SOS)lyase activity" RELATED [EC:4.3.1.10]
  synonym: "L-serine-O-sulfate ammonia-lyase (pyruvate-forming)" RELATED [EC:4.3.1.10]
  synonym: "serine-sulphate ammonia-lyase activity" EXACT []
-@@ -331758,7 +332787,6 @@
+@@ -331758,7 +332805,6 @@
  name: L-lysine 6-dehydrogenase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: L-lysine + NAD+ = L-1-piperideine-6-carboxylate + NH4+ + NADH + 2 H+." [RHEA:12408]
@@ -29532,7 +29605,7 @@
  synonym: "L-lysine epsilon-dehydrogenase activity" RELATED [EC:1.4.1.18]
  synonym: "L-lysine:NAD+ 6-oxidoreductase (deaminating)" RELATED [EC:1.4.1.18]
  synonym: "LysDH activity" RELATED [EC:1.4.1.18]
-@@ -331769,11 +332797,11 @@
+@@ -331769,11 +332815,11 @@
  property_value: skos:exactMatch EC:1.4.1.18
  property_value: skos:exactMatch MetaCyc:LYSINE-6-DEHYDROGENASE-RXN
  property_value: skos:exactMatch RHEA:12408
@@ -29545,7 +29618,7 @@
  
  [Term]
  id: GO:0050304
-@@ -332084,13 +333112,14 @@
+@@ -332084,13 +333130,14 @@
  
  [Term]
  id: GO:0050322
@@ -29561,7 +29634,7 @@
  synonym: "taurine:2-oxoglutarate aminotransferase activity" RELATED [EC:2.6.1.55]
  xref: EC:2.6.1.55
  xref: MetaCyc:RXN-2301
-@@ -332099,6 +333128,7 @@
+@@ -332099,6 +333146,7 @@
  property_value: skos:exactMatch EC:2.6.1.55
  property_value: skos:exactMatch RHEA:16353
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -29569,7 +29642,7 @@
  
  [Term]
  id: GO:0050323
-@@ -332723,7 +333753,7 @@
+@@ -332723,7 +333771,7 @@
  id: GO:0050360
  name: tryptophan 2'-dioxygenase activity
  namespace: molecular_function
@@ -29578,7 +29651,7 @@
  synonym: "indole-3-alkane alpha-hydroxylase activity" RELATED [EC:1.13.99.3]
  synonym: "indolyl-3-alkan alpha-hydroxylase activity" RELATED [EC:1.13.99.3]
  synonym: "L-tryptophan:oxygen 2'-oxidoreductase (side-chain-cleaving)" RELATED [EC:1.13.99.3]
-@@ -332760,23 +333790,25 @@
+@@ -332760,23 +333808,25 @@
  
  [Term]
  id: GO:0050362
@@ -29607,7 +29680,7 @@
  
  [Term]
  id: GO:0050363
-@@ -333036,8 +334068,7 @@
+@@ -333036,8 +334086,7 @@
  id: GO:0050378
  name: UDP-glucuronate 4-epimerase activity
  namespace: molecular_function
@@ -29617,7 +29690,7 @@
  synonym: "UDP glucuronic epimerase activity" RELATED [EC:5.1.3.6]
  synonym: "UDP-D-galacturonic acid 4-epimerase activity" RELATED [EC:5.1.3.6]
  synonym: "UDP-galacturonate 4-epimerase activity" RELATED [EC:5.1.3.6]
-@@ -333054,8 +334085,8 @@
+@@ -333054,8 +334103,8 @@
  property_value: skos:exactMatch KEGG_REACTION:R01385
  property_value: skos:exactMatch MetaCyc:UDP-GLUCURONATE-4-EPIMERASE-RXN
  property_value: skos:exactMatch RHEA:11404
@@ -29627,7 +29700,7 @@
  
  [Term]
  id: GO:0050379
-@@ -333646,7 +334677,7 @@
+@@ -333646,7 +334695,7 @@
  id: GO:0050414
  name: formimidoylaspartate deiminase activity
  namespace: molecular_function
@@ -29636,7 +29709,7 @@
  synonym: "formiminoaspartate deiminase activity" EXACT []
  synonym: "N-formimidoyl-L-aspartate iminohydrolase activity" RELATED [EC:3.5.3.5]
  xref: EC:3.5.3.5
-@@ -333680,7 +334711,7 @@
+@@ -333680,7 +334729,7 @@
  id: GO:0050416
  name: formimidoylglutamate deiminase activity
  namespace: molecular_function
@@ -29645,7 +29718,7 @@
  synonym: "formiminoglutamate deiminase activity" EXACT []
  synonym: "formiminoglutamic iminohydrolase activity" RELATED [EC:3.5.3.13]
  synonym: "N-formimidoyl-L-glutamate iminohydrolase activity" RELATED [EC:3.5.3.13]
-@@ -333696,7 +334727,7 @@
+@@ -333696,7 +334745,7 @@
  id: GO:0050417
  name: glutamin-(asparagin-)ase activity
  namespace: molecular_function
@@ -29654,7 +29727,7 @@
  synonym: "glutaminase-(asparagin-)ase activity" EXACT []
  synonym: "glutaminase-asparaginase activity" RELATED [EC:3.5.1.38]
  synonym: "L-ASNase/L-GLNase activity" RELATED [EC:3.5.1.38]
-@@ -333714,7 +334745,7 @@
+@@ -333714,7 +334763,7 @@
  id: GO:0050418
  name: hydroxylamine reductase activity
  namespace: molecular_function
@@ -29663,7 +29736,7 @@
  synonym: "ammonia:(acceptor) oxidoreductase activity" RELATED [EC:1.7.99.1]
  synonym: "ammonia:acceptor oxidoreductase activity" RELATED [EC:1.7.99.1]
  synonym: "hydroxylamine (acceptor) reductase activity" RELATED [EC:1.7.99.1]
-@@ -333869,6 +334900,7 @@
+@@ -333869,6 +334918,7 @@
  synonym: "phosphoadenosine phosphosulfate metabolic process" EXACT []
  synonym: "phosphoadenosine phosphosulfate metabolism" EXACT []
  xref: Reactome:R-HSA-156584 "Cytosolic sulfonation of small molecules"
@@ -29671,7 +29744,7 @@
  is_a: GO:0006790 ! sulfur compound metabolic process
  is_a: GO:0009150 ! purine ribonucleotide metabolic process
  is_a: GO:0034035 ! purine ribonucleoside bisphosphate metabolic process
-@@ -335002,7 +336034,7 @@
+@@ -335002,7 +336052,7 @@
  synonym: "spHAS" RELATED [EC:2.4.1.212]
  xref: EC:2.4.1.212
  xref: MetaCyc:2.4.1.212-RXN
@@ -29680,7 +29753,7 @@
  xref: RHEA:12528
  is_a: GO:0008194 ! UDP-glycosyltransferase activity
  is_a: GO:0016758 ! hexosyltransferase activity
-@@ -335120,12 +336152,9 @@
+@@ -335120,12 +336170,9 @@
  synonym: "UDP-N-acetyl-D-glucosamine:beta-D-glucuronosyl-(1->4)-N-acetyl-alpha-D-glucosaminyl-proteoglycan 4-alpha-N-acetylglucosaminyltransferase activity" RELATED [EC:2.4.1.224]
  xref: EC:2.4.1.224
  xref: MetaCyc:2.4.1.224-RXN
@@ -29694,7 +29767,7 @@
  xref: RHEA:16213
  is_a: GO:0008375 ! acetylglucosaminyltransferase activity
  property_value: skos:exactMatch EC:2.4.1.224
-@@ -335144,7 +336173,7 @@
+@@ -335144,7 +336191,7 @@
  synonym: "UDP-alpha-D-glucuronate:N-acetyl-alpha-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-proteoglycan 4-beta-glucuronosyltransferase activity" RELATED [EC:2.4.1.225]
  xref: EC:2.4.1.225
  xref: MetaCyc:2.4.1.225-RXN
@@ -29703,7 +29776,7 @@
  xref: Reactome:R-HSA-2076392 "EXT1:EXT2 transfers GlcA to heparan"
  xref: Reactome:R-HSA-3656257 "Defective EXT1 (in EXT1:EXT2) does not transfer GlcA to heparan"
  xref: Reactome:R-HSA-3656267 "Defective EXT2 (in EXT1:EXT2) does not transfer GlcA to heparan"
-@@ -335167,9 +336196,8 @@
+@@ -335167,9 +336214,8 @@
  synonym: "N-acetylgalactosaminyl-proteoglycan 3-b-glucuronosyltransferase activity" EXACT []
  xref: EC:2.4.1.226
  xref: MetaCyc:RXN-16324
@@ -29714,7 +29787,7 @@
  is_a: GO:0015020 ! glucuronosyltransferase activity
  property_value: skos:exactMatch EC:2.4.1.226
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -335233,7 +336261,7 @@
+@@ -335233,7 +336279,7 @@
  id: GO:0050514
  name: homospermidine synthase (spermidine-specific) activity
  namespace: molecular_function
@@ -29723,7 +29796,7 @@
  synonym: "spermidine:putrescine 4-aminobutyltransferase (propane-1,3-diamine-forming)" RELATED [EC:2.5.1.45]
  xref: EC:2.5.1.45
  xref: MetaCyc:2.5.1.45-RXN
-@@ -336129,7 +337157,7 @@
+@@ -336129,7 +337175,7 @@
  id: GO:0050568
  name: protein-glutamine glutaminase activity
  namespace: molecular_function
@@ -29732,7 +29805,7 @@
  synonym: "destabilase activity" RELATED [EC:3.5.1.44]
  synonym: "glutaminyl-peptide glutaminase activity" RELATED [EC:3.5.1.44]
  synonym: "glutaminylpeptide glutaminase activity" RELATED [EC:3.5.1.44]
-@@ -336188,6 +337216,7 @@
+@@ -336188,6 +337234,7 @@
  xref: EC:1.1.1.263
  xref: KEGG_REACTION:R05682
  xref: MetaCyc:1.1.1.263-RXN
@@ -29740,7 +29813,7 @@
  xref: RHEA:20665
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.263
-@@ -336269,7 +337298,7 @@
+@@ -336269,7 +337316,7 @@
  synonym: "GDP-L-fucose:NADP+ 4-oxidoreductase (3,5-epimerizing)" RELATED [EC:1.1.1.271]
  xref: EC:1.1.1.271
  xref: MetaCyc:1.1.1.271-RXN
@@ -29749,7 +29822,7 @@
  xref: RHEA:18885
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  relationship: part_of GO:0042350 ! GDP-L-fucose biosynthetic process
-@@ -336860,6 +337889,7 @@
+@@ -336860,6 +337907,7 @@
  xref: MetaCyc:RXN66-14
  xref: Reactome:R-HSA-194674 "4,4-dimethylcholesta-8(9),14,24-trien-3beta-ol is reduced to 4,4-dimethylcholesta-8(9),24-dien-3beta-ol [LBR]"
  xref: Reactome:R-HSA-194698 "4,4-dimethylcholesta-8(9),14,24-trien-3beta-ol is reduced to 4,4-dimethylcholesta-8(9),24-dien-3beta-ol [TM7SF2]"
@@ -29757,7 +29830,7 @@
  xref: RHEA:18561
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.3.1.70
-@@ -337459,6 +338489,7 @@
+@@ -337459,6 +338507,7 @@
  synonym: "chondroitin sulphate proteoglycan biosynthesis" EXACT []
  synonym: "chondroitin sulphate proteoglycan biosynthetic process" EXACT []
  xref: MetaCyc:PWY-6567
@@ -29765,7 +29838,7 @@
  is_a: GO:0030166 ! proteoglycan biosynthetic process
  is_a: GO:0050654 ! chondroitin sulfate proteoglycan metabolic process
  is_a: GO:0180064 ! protein O-linked glycosylation via xylose
-@@ -337480,6 +338511,7 @@
+@@ -337480,6 +338529,7 @@
  synonym: "dermatan sulphate proteoglycan biosynthesis" EXACT []
  synonym: "dermatan sulphate proteoglycan biosynthetic process" EXACT []
  xref: MetaCyc:PWY-6568
@@ -29773,7 +29846,7 @@
  is_a: GO:0030166 ! proteoglycan biosynthetic process
  is_a: GO:0050655 ! dermatan sulfate proteoglycan metabolic process
  is_a: GO:0180064 ! protein O-linked glycosylation via xylose
-@@ -337592,7 +338624,8 @@
+@@ -337592,7 +338642,8 @@
  xref: KEGG_REACTION:R10869
  xref: MetaCyc:RXN-7953
  xref: MetaCyc:RXN-7954
@@ -29783,7 +29856,7 @@
  xref: RHEA:54300
  xref: RHEA:54304
  is_a: GO:0008146 ! sulfotransferase activity
-@@ -337931,6 +338964,9 @@
+@@ -337931,6 +338982,9 @@
  synonym: "downregulation of antiviral response" EXACT []
  synonym: "inhibition of antiviral response" NARROW []
  synonym: "negative regulation of antiviral response" EXACT [GOC:dph]
@@ -29793,7 +29866,7 @@
  is_a: GO:0002832 ! negative regulation of response to biotic stimulus
  is_a: GO:0031348 ! negative regulation of defense response
  is_a: GO:0032102 ! negative regulation of response to external stimulus
-@@ -338383,6 +339419,7 @@
+@@ -338383,6 +339437,7 @@
  def: "Binding to a low-density lipoprotein receptor." [GOC:ai]
  synonym: "LDL receptor binding" EXACT []
  synonym: "low-density lipoprotein receptor binding" EXACT [GOC:dph]
@@ -29801,7 +29874,7 @@
  is_a: GO:0070325 ! lipoprotein particle receptor binding
  
  [Term]
-@@ -338450,7 +339487,7 @@
+@@ -338450,7 +339505,7 @@
  id: GO:0050761
  name: depsipeptide metabolic process
  namespace: biological_process
@@ -29810,7 +29883,7 @@
  subset: goslim_pir
  synonym: "depsipeptide metabolism" EXACT []
  is_a: GO:0008152 ! metabolic process
-@@ -338459,7 +339496,7 @@
+@@ -338459,7 +339514,7 @@
  id: GO:0050762
  name: depsipeptide catabolic process
  namespace: biological_process
@@ -29819,7 +29892,7 @@
  synonym: "depsipeptide breakdown" EXACT []
  synonym: "depsipeptide catabolism" EXACT []
  synonym: "depsipeptide degradation" EXACT []
-@@ -338470,7 +339507,7 @@
+@@ -338470,7 +339525,7 @@
  id: GO:0050763
  name: depsipeptide biosynthetic process
  namespace: biological_process
@@ -29828,7 +29901,7 @@
  synonym: "depsipeptide anabolism" EXACT []
  synonym: "depsipeptide biosynthesis" EXACT []
  synonym: "depsipeptide formation" EXACT []
-@@ -338808,7 +339845,7 @@
+@@ -338808,7 +339863,7 @@
  name: regulation of biological process
  namespace: biological_process
  alt_id: GO:0050791
@@ -29837,7 +29910,7 @@
  subset: gocheck_do_not_annotate
  subset: goslim_candida
  subset: goslim_pir
-@@ -338837,7 +339874,7 @@
+@@ -338837,7 +339892,7 @@
  id: GO:0050792
  name: regulation of viral process
  namespace: biological_process
@@ -29846,7 +29919,7 @@
  synonym: "regulation of viral reproduction" NARROW [GOC:bf, GOC:jl]
  is_a: GO:0050789 ! regulation of biological process
  intersection_of: GO:0065007 ! biological regulation
-@@ -338848,7 +339885,7 @@
+@@ -338848,7 +339903,7 @@
  id: GO:0050793
  name: regulation of developmental process
  namespace: biological_process
@@ -29855,7 +29928,7 @@
  is_a: GO:0050789 ! regulation of biological process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0032502 ! developmental process
-@@ -338859,7 +339896,7 @@
+@@ -338859,7 +339914,7 @@
  name: regulation of cellular process
  namespace: biological_process
  alt_id: GO:0051244
@@ -29864,7 +29937,7 @@
  subset: gocheck_do_not_annotate
  synonym: "regulation of cellular physiological process" EXACT []
  is_a: GO:0050789 ! regulation of biological process
-@@ -338871,7 +339908,7 @@
+@@ -338871,7 +339926,7 @@
  id: GO:0050795
  name: regulation of behavior
  namespace: biological_process
@@ -29873,7 +29946,7 @@
  synonym: "regulation of behaviour" EXACT []
  is_a: GO:0051239 ! regulation of multicellular organismal process
  intersection_of: GO:0065007 ! biological regulation
-@@ -341682,7 +342719,7 @@
+@@ -341682,7 +342737,7 @@
  id: GO:0051037
  name: obsolete regulation of transcription involved in meiotic cell cycle
  namespace: biological_process
@@ -29882,7 +29955,7 @@
  comment: This term was obsoleted because it represents a GO-CAM model.
  synonym: "meiotic regulation of transcription" EXACT []
  synonym: "regulation of transcription, meiotic" EXACT [GOC:mah]
-@@ -341970,7 +343007,7 @@
+@@ -341970,7 +343025,7 @@
  id: GO:0051056
  name: regulation of small GTPase mediated signal transduction
  namespace: biological_process
@@ -29891,7 +29964,7 @@
  synonym: "regulation of small GTPase-mediated signal transduction" EXACT []
  xref: Reactome:R-HSA-9012999 "RHO GTPase cycle"
  is_a: GO:1902531 ! regulation of intracellular signal transduction
-@@ -342337,7 +343374,6 @@
+@@ -342337,7 +343392,6 @@
  def: "OBSOLETE. The process of assisting in the correct noncovalent assembly of posttranslational proteins and does not depend on additional protein cofactors. This function occurs over one or more cycles of nucleotide-dependent binding and release." [GOC:rb]
  comment: This term represent a GO-CAM model
  synonym: "chaperone cofactor-independent protein folding" EXACT [GOC:rb]
@@ -29899,7 +29972,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21869" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0006457
-@@ -342383,7 +343419,6 @@
+@@ -342383,7 +343437,6 @@
  synonym: "regulation of sequence-specific DNA binding transcription factor activity" EXACT []
  synonym: "regulation of thyroid hormone receptor activity" NARROW []
  synonym: "regulation of transcription factor activity" BROAD [GOC:dph, GOC:tb]
@@ -29907,7 +29980,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30856" xsd:anyURI
  is_obsolete: true
  
-@@ -342625,7 +343660,6 @@
+@@ -342625,7 +343678,6 @@
  xref: MetaCyc:DCARNCOALIG-RXN
  xref: RHEA:30543
  is_a: GO:0016405 ! CoA-ligase activity
@@ -29915,7 +29988,7 @@
  property_value: skos:exactMatch RHEA:30543
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
-@@ -342633,14 +343667,21 @@
+@@ -342633,14 +343685,21 @@
  id: GO:0051109
  name: crotonobetaine-CoA ligase activity
  namespace: molecular_function
@@ -29939,7 +30012,7 @@
  
  [Term]
  id: GO:0051110
-@@ -342762,8 +343803,6 @@
+@@ -342762,8 +343821,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: 12S-5Z,8Z,10E,14Z-12-hydro(pero)xy-eicosa-5,8,10,14-tetraenoic acid = (5Z,9E,14Z)-(8,11R,12S)-11,12-epoxy-8-hydroxyicosa-5,9,14-trienoate. 12S-5Z,8Z,10E,14Z-12-hydro(pero)xy-eicosa-5,8,10,14-tetraenoic acid is also known as 12S-HpETE, and (5Z,9E,14Z)-(8,11R,12S)-11,12-epoxy-8-hydroxyicosa-5,9,14-trienoate as hepoxilin A3." [PMID:15123652]
  comment: The reason for obsoletion is that this term is equivalent to hydroperoxy icosatetraenoate isomerase activity.
@@ -29948,7 +30021,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29695" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0106255
-@@ -342775,7 +343814,6 @@
+@@ -342775,7 +343832,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving hepoxilins, a class of bioactive icosanoids with roles in the regulation of cell physiology." [PMID:15123652]
  comment: This term was obsoleted because it is an unnecessary grouping term.
  synonym: "hepoxilin metabolism" EXACT []
@@ -29956,7 +30029,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30524" xsd:anyURI
  is_obsolete: true
  
-@@ -344641,10 +345679,11 @@
+@@ -344641,10 +345697,11 @@
  xref: KEGG_REACTION:R02864
  xref: MetaCyc:SIROHEME-FERROCHELAT-RXN
  xref: RHEA:24360
@@ -29969,7 +30042,7 @@
  
  [Term]
  id: GO:0051267
-@@ -344938,7 +345977,7 @@
+@@ -344938,7 +345995,7 @@
  id: GO:0051289
  name: protein homotetramerization
  namespace: biological_process
@@ -29978,7 +30051,7 @@
  synonym: "protein homotetramer assembly" EXACT []
  synonym: "protein homotetramer biosynthesis" EXACT []
  synonym: "protein homotetramer biosynthetic process" EXACT []
-@@ -344950,7 +345989,7 @@
+@@ -344950,7 +346007,7 @@
  id: GO:0051290
  name: protein heterotetramerization
  namespace: biological_process
@@ -29987,7 +30060,7 @@
  synonym: "protein heterotetramer assembly" EXACT []
  synonym: "protein heterotetramer biosynthesis" EXACT []
  synonym: "protein heterotetramer biosynthetic process" EXACT []
-@@ -345070,7 +346109,7 @@
+@@ -345070,7 +346127,7 @@
  id: GO:0051301
  name: cell division
  namespace: biological_process
@@ -29996,7 +30069,7 @@
  comment: Note that this term differs from 'cytokinesis ; GO:0000910' in that cytokinesis does not include nuclear division.
  subset: goslim_chembl
  subset: goslim_drosophila
-@@ -345082,7 +346121,7 @@
+@@ -345082,7 +346139,7 @@
  id: GO:0051302
  name: regulation of cell division
  namespace: biological_process
@@ -30005,7 +30078,7 @@
  is_a: GO:0050794 ! regulation of cellular process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0051301 ! cell division
-@@ -348608,17 +349647,16 @@
+@@ -348608,17 +349665,16 @@
  
  [Term]
  id: GO:0051600
@@ -30028,7 +30101,7 @@
  
  [Term]
  id: GO:0051601
-@@ -348667,6 +349705,7 @@
+@@ -348667,6 +349723,7 @@
  subset: goslim_pombe
  subset: goslim_prokaryote
  subset: goslim_yeast
@@ -30036,7 +30109,7 @@
  is_a: GO:0019538 ! protein metabolic process
  relationship: part_of GO:0010467 ! gene expression
  
-@@ -349797,6 +350836,7 @@
+@@ -349797,6 +350854,7 @@
  synonym: "growth of symbiont in host vacuole" NARROW []
  synonym: "interaction with host" EXACT []
  xref: Reactome:R-HSA-9635486 "Infection with Mycobacterium tuberculosis"
@@ -30044,7 +30117,7 @@
  xref: Reactome:R-HSA-9658195 "Leishmania infection"
  is_a: GO:0044403 ! biological process involved in symbiotic interaction
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20191" xsd:anyURI
-@@ -350069,7 +351109,6 @@
+@@ -350069,7 +351127,6 @@
  def: "OBSOLETE. Catalysis of the reaction: C-terminal protein amino acid methyl ester + H2O = protein amino acid + methanol." [PMID:10318862, PMID:8650216]
  comment: This seems to be outside the scope of GO: it represent a specific protein and a 'domain.
  synonym: "protein phosphatase methylesterase activity" NARROW []
@@ -30052,7 +30125,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27558" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0051723
-@@ -350086,6 +351125,7 @@
+@@ -350086,6 +351143,7 @@
  xref: EC:3.1.1.89
  xref: MetaCyc:RXN-12322
  xref: Reactome:R-HSA-5367022 "DPH7 hydrolyzes a methyl group on Me-diphthine EEF2"
@@ -30060,7 +30133,7 @@
  xref: RHEA:48548
  is_a: GO:0052689 ! carboxylic ester hydrolase activity
  is_a: GO:0140096 ! catalytic activity, acting on a protein
-@@ -350111,6 +351151,7 @@
+@@ -350111,6 +351169,7 @@
  synonym: "oxidized nicotinamide adenine dinucleotide transmembrane transporter activity" EXACT []
  synonym: "reduced NAD transporter activity" EXACT []
  synonym: "reduced nicotinamide adenine dinucleotide transmembrane transporter activity" EXACT []
@@ -30068,7 +30141,7 @@
  is_a: GO:0000295 ! adenine nucleotide transmembrane transporter activity
  relationship: part_of GO:0035352 ! NAD transmembrane transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21577" xsd:anyURI
-@@ -350897,7 +351938,7 @@
+@@ -350897,7 +351956,7 @@
  id: GO:0051788
  name: response to misfolded protein
  namespace: biological_process
@@ -30077,7 +30150,7 @@
  is_a: GO:0035966 ! response to topologically incorrect protein
  
  [Term]
-@@ -353031,10 +354072,9 @@
+@@ -353031,10 +354090,9 @@
  id: GO:0051975
  name: L-lysine biosynthetic process via alpha-aminoadipate and saccharopine
  namespace: biological_process
@@ -30089,7 +30162,7 @@
  is_a: GO:0019878 ! L-lysine biosynthetic process via aminoadipic acid
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30820" xsd:anyURI
  
-@@ -353042,10 +354082,9 @@
+@@ -353042,10 +354100,9 @@
  id: GO:0051976
  name: L-lysine biosynthetic process via alpha-aminoadipate and N2-acetyl-alpha-aminoadipate
  namespace: biological_process
@@ -30101,7 +30174,7 @@
  is_a: GO:0019878 ! L-lysine biosynthetic process via aminoadipic acid
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30820" xsd:anyURI
  
-@@ -353063,7 +354102,6 @@
+@@ -353063,7 +354120,6 @@
  namespace: molecular_function
  def: "Enables the directed movement of lysophospholipids from one side of a membrane to the other. A lysophospholipid is a phospholipid that lacks one of its fatty acyl chains; it is an intermediate formed during digestion of dietary and biliary phospholipids." [GOC:ai]
  synonym: "lysophospholipid transporter activity" BROAD []
@@ -30109,7 +30182,7 @@
  is_a: GO:0015370 ! solute:sodium symporter activity
  is_a: GO:0015605 ! organophosphate ester transmembrane transporter activity
  is_a: GO:0170055 ! lipid transmembrane transporter activity
-@@ -353268,11 +354306,13 @@
+@@ -353268,11 +354324,13 @@
  
  [Term]
  id: GO:0051994
@@ -30126,7 +30199,7 @@
  created_by: ai
  creation_date: 2010-07-16T04:39:34Z
  
-@@ -353298,6 +354338,8 @@
+@@ -353298,6 +354356,8 @@
  synonym: "squalene synthetase activity" RELATED [EC:2.5.1.21]
  xref: EC:2.5.1.21
  xref: MetaCyc:RXN66-281
@@ -30135,7 +30208,7 @@
  xref: RHEA:32295
  xref: RHEA:32299
  is_a: GO:0004659 ! prenyltransferase activity
-@@ -353863,6 +354905,7 @@
+@@ -353863,6 +354923,7 @@
  synonym: "negative regulation by symbiont of host programmed cell death" EXACT []
  synonym: "suppression by symbiont of host PCD" EXACT []
  synonym: "suppression by symbiont of host programmed cell death" EXACT []
@@ -30143,7 +30216,7 @@
  is_a: GO:0052040 ! symbiont-mediated perturbation of host programmed cell death
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23652" xsd:anyURI
  
-@@ -355005,8 +356048,8 @@
+@@ -355005,8 +356066,8 @@
  synonym: "modulation by symbiont of host apoptotic process" EXACT []
  synonym: "modulation by virus of host apoptosis" NARROW []
  synonym: "regulation by virus of host apoptosis" NARROW []
@@ -30153,7 +30226,7 @@
  is_a: GO:0052040 ! symbiont-mediated perturbation of host programmed cell death
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25986" xsd:anyURI
  
-@@ -358266,6 +359309,7 @@
+@@ -358266,6 +359327,7 @@
  synonym: "modulation by organism of immune response of other organism involved in symbiotic interaction" BROAD []
  synonym: "modulation by symbiont of host immune response" EXACT []
  synonym: "perturbation of host immune response" EXACT []
@@ -30161,7 +30234,7 @@
  is_a: GO:0052031 ! symbiont-mediated perturbation of host defense response
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25569" xsd:anyURI
  
-@@ -358685,7 +359729,7 @@
+@@ -358685,7 +359747,7 @@
  id: GO:0052595
  name: aliphatic amine oxidase activity
  namespace: molecular_function
@@ -30170,7 +30243,7 @@
  synonym: "aliphatic-amine oxidase activity" EXACT []
  synonym: "aliphatic-amine:oxygen oxidoreductase(deaminating) activity" EXACT []
  xref: MetaCyc:AMINEOXID-RXN
-@@ -359549,44 +360593,51 @@
+@@ -359549,44 +360611,51 @@
  
  [Term]
  id: GO:0052654
@@ -30231,7 +30304,7 @@
  property_value: skos:exactMatch RHEA:24801
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  
-@@ -360064,27 +361115,26 @@
+@@ -360064,27 +361133,26 @@
  synonym: "perillyl-CoA synthetase activity" BROAD [UM-BBD_reactionID:r0731]
  xref: KEGG_REACTION:R06368
  is_a: GO:0016405 ! CoA-ligase activity
@@ -30269,7 +30342,7 @@
  
  [Term]
  id: GO:0052689
-@@ -360193,7 +361243,6 @@
+@@ -360193,7 +361261,6 @@
  synonym: "cellular glucuronide biosynthetic process" EXACT []
  synonym: "cellular glucuronoside biosynthesis" EXACT []
  synonym: "cellular glucuronoside biosynthetic process" EXACT []
@@ -30277,7 +30350,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28506" xsd:anyURI
  is_obsolete: true
  creation_date: 2011-07-27T05:28:18Z
-@@ -360530,10 +361579,12 @@
+@@ -360530,10 +361597,12 @@
  
  [Term]
  id: GO:0052715
@@ -30293,7 +30366,7 @@
  created_by: ai
  creation_date: 2011-08-05T08:02:57Z
  
-@@ -360560,7 +361611,7 @@
+@@ -360560,7 +361629,7 @@
  id: GO:0052717
  name: tRNA-specific adenosine-34 deaminase activity
  namespace: molecular_function
@@ -30302,7 +30375,7 @@
  synonym: "tRNA(Ala)-A34 deaminase activity" EXACT []
  xref: EC:3.5.4.33
  xref: RHEA:43168
-@@ -360873,12 +361924,13 @@
+@@ -360873,12 +361942,13 @@
  
  [Term]
  id: GO:0052735
@@ -30317,7 +30390,7 @@
  synonym: "tRNA (cytosine 3)-methyltransferase activity" EXACT []
  synonym: "tRNA (cytosine-3-)-methyltransferase activity" EXACT []
  synonym: "tRNA cytosine 3-methyltransferase activity" EXACT []
-@@ -360887,6 +361939,7 @@
+@@ -360887,6 +361957,7 @@
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
  property_value: skos:exactMatch RHEA:60908
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25722" xsd:anyURI
@@ -30325,7 +30398,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -360933,7 +361986,6 @@
+@@ -360933,7 +362004,6 @@
  def: "OBSOLETE. Catalysis of the reaction: phosphatidylserine + H2O = 2-acyl-sn-glycero-3-phosphoserine + fatty acid." [KEGG_REACTION:R04034]
  comment: The reason for obsoletion is that this molecular function is equivalent to phospholipase A1 activity.
  xref: KEGG_REACTION:R04034
@@ -30333,7 +30406,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28816" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0008970
-@@ -361075,7 +362127,7 @@
+@@ -361075,7 +362145,7 @@
  id: GO:0052750
  name: versatile peroxidase activity
  namespace: molecular_function
@@ -30342,7 +30415,7 @@
  synonym: "reactive-black-5:hydrogen-peroxide oxidoreductase activity" BROAD [EC:1.11.1.16]
  xref: EC:1.11.1.16
  xref: KEGG_REACTION:R07612
-@@ -361100,15 +362152,12 @@
+@@ -361100,15 +362170,12 @@
  
  [Term]
  id: GO:0052752
@@ -30363,7 +30436,7 @@
  
  [Term]
  id: GO:0052753
-@@ -361123,17 +362172,17 @@
+@@ -361123,17 +362190,17 @@
  
  [Term]
  id: GO:0052754
@@ -30386,7 +30459,7 @@
  created_by: ai
  creation_date: 2011-09-22T03:25:30Z
  
-@@ -361734,7 +362783,7 @@
+@@ -361734,7 +362801,7 @@
  xref: EC:1.8.98.3
  xref: MetaCyc:RXN-15618
  xref: RHEA:42808
@@ -30395,7 +30468,7 @@
  property_value: skos:exactMatch EC:1.8.98.3
  property_value: skos:exactMatch MetaCyc:RXN-15618
  property_value: skos:exactMatch RHEA:42808
-@@ -362011,7 +363060,6 @@
+@@ -362011,7 +363078,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: myo-inositol hexakisphosphate + H2O = myo-inositol 1,3,4,5,6-pentakisphosphate + phosphate." [GOC:curators]
  comment: The reason for obsoletion is that this term is equivalent to inositol hexakisphosphate 3-phosphatase activity.
@@ -30403,7 +30476,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30385" xsd:anyURI
  is_obsolete: true
-@@ -362354,6 +363402,7 @@
+@@ -362354,6 +363420,7 @@
  xref: KEGG_REACTION:R09541
  xref: MetaCyc:RXN0-6555
  xref: Reactome:R-HSA-917811 "STEAP3,STEAP4 reduce Fe3+ to Fe2+"
@@ -30411,7 +30484,7 @@
  xref: RHEA:28795
  is_a: GO:0000293 ! ferric-chelate reductase activity
  is_a: GO:0016723 ! oxidoreductase activity, acting on metal ions, NAD or NADP as acceptor
-@@ -362391,6 +363440,7 @@
+@@ -362391,6 +363458,7 @@
  synonym: "NADHX epimerase activity" NARROW []
  synonym: "NADPHX epimerase activity" NARROW []
  xref: EC:5.1.99.6
@@ -30419,7 +30492,7 @@
  xref: RHEA:32215
  xref: RHEA:32227
  is_a: GO:0016854 ! racemase and epimerase activity
-@@ -362405,7 +363455,6 @@
+@@ -362405,7 +363473,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: (R)-NADPHX = (S)-NADPHX." [PMID:21994945]
  comment: This term was obsoleted because it represents the same activity as NADHX epimerase activity ; GO:0052856.
@@ -30427,7 +30500,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0052856
-@@ -362565,9 +363614,11 @@
+@@ -362565,9 +363632,11 @@
  id: GO:0052868
  name: protein-lysine lysyltransferase activity
  namespace: molecular_function
@@ -30440,7 +30513,7 @@
  created_by: ai
  creation_date: 2012-01-11T03:05:27Z
  
-@@ -363079,23 +364130,29 @@
+@@ -363079,23 +364148,29 @@
  synonym: "N1-acetylspermine:oxygen oxidoreductase (3-acetamidopropanal-forming) activity" NARROW [EC:1.5.3.13]
  xref: EC:1.5.3.13
  xref: KEGG_REACTION:R03899
@@ -30473,7 +30546,7 @@
  
  [Term]
  id: GO:0052904
-@@ -363103,8 +364160,6 @@
+@@ -363103,8 +364178,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: H2O + N(1)-acetylspermidine + O2 = 3-acetamidopropanal + H2O2 + putrescine." [GOC:curators]
  comment: This term was obsoleted because it represents a specific substrate of N(1)-acetylpolyamine oxidase (3-acetamidopropanal-forming) activity ; GO:0052903.
@@ -30482,7 +30555,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24701" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  is_obsolete: true
-@@ -363993,17 +365048,21 @@
+@@ -363993,17 +365066,21 @@
  
  [Term]
  id: GO:0055042
@@ -30510,7 +30583,7 @@
  
  [Term]
  id: GO:0055044
-@@ -364118,9 +365177,11 @@
+@@ -364118,9 +365195,11 @@
  def: "Enables the transfer of the D-enantiomer of the hexose monosaccharide glucose from one side of a membrane to the other." [GOC:jid, GOC:jsg, GOC:mah]
  xref: Reactome:R-HSA-429094 "SLC2A6,8,10,12 transport Glc from extracellular region to cytosol"
  xref: Reactome:R-HSA-450095 "GLUT2 (SLC2A2) transports Glc from cytosol to extracellular region"
@@ -30522,7 +30595,7 @@
  xref: Reactome:R-HSA-8981553 "GLUT14 (SLC2A14) tetramer transports Glc from extracellular region to cytosol"
  xref: Reactome:R-HSA-8981564 "GLUT3 (SLC2A3) tetramer transports Glc from extracellular region to cytosol"
  xref: Reactome:R-HSA-8981570 "GLUT4 (SLC2A4) tetramer transports Glc from extracellular region to cytosol"
-@@ -364781,15 +365842,18 @@
+@@ -364781,15 +365860,18 @@
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of L-proline, an L-enantiomer of a chiral, cyclic, nonessential alpha-amino acid found in peptide linkage in proteins." [GOC:ecd]
  synonym: "pyrrolidine-2-carboxylic acid biosynthetic process" BROAD []
@@ -30541,7 +30614,7 @@
  created_by: jid
  creation_date: 2009-10-22T01:59:56Z
  
-@@ -364797,10 +365861,13 @@
+@@ -364797,10 +365879,13 @@
  id: GO:0055130
  name: D-alanine catabolic process
  namespace: biological_process
@@ -30557,7 +30630,7 @@
  created_by: jid
  creation_date: 2009-10-22T02:02:42Z
  
-@@ -365679,10 +366746,10 @@
+@@ -365679,10 +366764,10 @@
  subset: goslim_prokaryote
  subset: goslim_prokaryote_ribbon
  synonym: "binding, bridging" EXACT []
@@ -30570,7 +30643,7 @@
  
  [Term]
  id: GO:0060091
-@@ -366191,10 +367258,11 @@
+@@ -366191,10 +367276,11 @@
  id: GO:0060138
  name: fetal process involved in parturition
  namespace: biological_process
@@ -30583,7 +30656,7 @@
  
  [Term]
  id: GO:0060140
-@@ -366213,6 +367281,7 @@
+@@ -366213,6 +367299,7 @@
  def: "A process in which a symbiont initiates, promotes, or enhances the formation of a syncytium, a mass of cytoplasm containing several nuclei enclosed within a single plasma membrane, by the fusion of the plasma membranes of two or more individual host cells. Syncytia are produced by viruses that are able to fuse directly at the cell surface without requiring endocytosis." [GOC:dph]
  synonym: "positive regulation of syncytium formation by virus" EXACT []
  synonym: "syncytium formation induced by viral infection" EXACT [VZ:5957]
@@ -30591,7 +30664,7 @@
  xref: VZ:5957
  is_a: GO:0044068 ! symbiont-mediated perturbation of host cellular process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28791" xsd:anyURI
-@@ -366222,23 +367291,21 @@
+@@ -366222,23 +367309,21 @@
  name: regulation of syncytium formation by plasma membrane fusion
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of the formation of a syncytium, a mass of cytoplasm containing several nuclei enclosed within a single plasma membrane, by the fusion of the plasma membranes of two or more individual cells." [GOC:dph]
@@ -30619,7 +30692,7 @@
  
  [Term]
  id: GO:0060144
-@@ -367080,6 +368147,7 @@
+@@ -367080,6 +368165,7 @@
  name: lipase activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of a lipase, an enzyme that catalyzes of the hydrolysis of a lipid." [GOC:BHF, GOC:dph, GOC:tb]
@@ -30627,7 +30700,7 @@
  is_a: GO:0008047 ! enzyme activator activity
  relationship: positively_regulates GO:0016298 ! lipase activity
  
-@@ -370825,9 +371893,10 @@
+@@ -370825,9 +371911,10 @@
  namespace: molecular_function
  def: "Binds to and modulates the activity of an ATP hydrolysis activity." [GOC:dph, GOC:tb]
  synonym: "ATP hydrolysis regulator activity" EXACT []
@@ -30640,7 +30713,7 @@
  created_by: dph
  creation_date: 2009-05-08T02:49:24Z
  
-@@ -380099,7 +381168,7 @@
+@@ -380099,7 +381186,7 @@
  id: GO:0061402
  name: obsolete positive regulation of transcription from RNA polymerase II promoter in response to acidic pH
  namespace: biological_process
@@ -30649,7 +30722,7 @@
  comment: This term was obsoleted because it represents a GO-CAM model.
  synonym: "positive regulation of transcription from RNA polymerase II promoter in response to acidity" BROAD []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26004" xsd:anyURI
-@@ -381106,12 +382175,14 @@
+@@ -381106,12 +382193,14 @@
  
  [Term]
  id: GO:0061502
@@ -30668,7 +30741,7 @@
  created_by: dph
  creation_date: 2013-01-04T07:24:56Z
  
-@@ -382277,7 +383348,6 @@
+@@ -382277,7 +383366,6 @@
  synonym: "N-terminal propionyltransferase activity" EXACT [PMID:23043182]
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -30676,7 +30749,7 @@
  created_by: dph
  creation_date: 2014-02-11T14:24:35Z
  
-@@ -382287,6 +383357,7 @@
+@@ -382287,6 +383375,7 @@
  namespace: molecular_function
  def: "Combining with a nuclear import signal (NIS) on a cargo to be transported, to mediate transport of the cargo through the nuclear pore, from the cytoplasm to the nuclear lumen. The cargo can be either a RNA or a protein." [GOC:dph, GOC:pg, GOC:vw, PMID:28713609, Wikipedia:Nuclear_transport]
  synonym: "importin activity" RELATED []
@@ -30684,7 +30757,7 @@
  is_a: GO:0140142 ! nucleocytoplasmic carrier activity
  intersection_of: GO:0140142 ! nucleocytoplasmic carrier activity
  intersection_of: part_of GO:0051170 ! import into nucleus
-@@ -382714,6 +383785,15 @@
+@@ -382714,6 +383803,15 @@
  xref: Reactome:R-HSA-9762091 "NFE2L2 is ubiquitinated by BTRC:SKP1:CUL1:RBX1"
  xref: Reactome:R-HSA-9766645 "CUL3:RBX1 ubiquitinates KEAP1"
  xref: Reactome:R-HSA-990526 "Recruitment of ITCH and K48 ubiquitination of MAVS"
@@ -30700,7 +30773,7 @@
  is_a: GO:0004842 ! ubiquitin-protein transferase activity
  is_a: GO:0061659 ! ubiquitin-like protein ligase activity
  property_value: skos:narrowMatch EC:2.3.2.26
-@@ -382949,6 +384029,7 @@
+@@ -382949,6 +384047,7 @@
  namespace: molecular_function
  def: "Isoenergetic transfer of ISG15 from one protein to another via the reaction X-ISG15 + Y = Y-ISG15 + X, where both the X-ISG15 and Y-ISG15 linkages are thioester bonds between the C-terminal amino acid of ISG15 and a sulfhydryl side group of a cysteine residue." [GOC:dph]
  synonym: "E2" BROAD [GOC:dph]
@@ -30708,7 +30781,7 @@
  is_a: GO:0042296 ! ISG15 transferase activity
  is_a: GO:0061650 ! ubiquitin-like protein conjugating enzyme activity
  created_by: dph
-@@ -383052,6 +384133,13 @@
+@@ -383052,6 +384151,13 @@
  namespace: molecular_function
  def: "Catalysis of the transfer of a ISG15 to a substrate protein via the reaction X-ISG15 + S = X + S-ISG15, where X is either an E2 or E3 enzyme, the X-ISG15 linkage is a thioester bond, and the S-ISG15 linkage is an isopeptide bond between the C-terminal amino acid of ISG15 and the epsilon-amino group of lysine residues in the substrate." [GOC:dph]
  synonym: "E3" BROAD [GOC:dph]
@@ -30722,7 +30795,7 @@
  is_a: GO:0042296 ! ISG15 transferase activity
  is_a: GO:0061659 ! ubiquitin-like protein ligase activity
  created_by: dph
-@@ -383204,6 +384292,7 @@
+@@ -383204,6 +384310,7 @@
  name: importin-alpha family protein binding
  namespace: molecular_function
  def: "Binding to a member of the importin-alpha family." [PMID:15350979, PMID:17170104, PMID:23734157]
@@ -30730,7 +30803,7 @@
  is_a: GO:0005515 ! protein binding
  created_by: dph
  creation_date: 2015-01-10T18:25:22Z
-@@ -383315,7 +384404,7 @@
+@@ -383315,7 +384422,7 @@
  is_a: GO:0030163 ! protein catabolic process
  relationship: has_part GO:0005102 ! signaling receptor binding
  relationship: has_part GO:0051087 ! protein-folding chaperone binding
@@ -30739,7 +30812,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20850" xsd:anyURI
  created_by: dph
  creation_date: 2015-03-04T14:35:26Z
-@@ -383472,6 +384561,7 @@
+@@ -383472,6 +384579,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: N(6)-glutaryl-L-lysyl-[protein] + NAD+ + H2O = 2''-O-glutaryl-ADP-D-ribose + nicotinamide + L-lysyl-[protein]." [PMID:24703693, RHEA:47664]
  comment: This reaction is the removal of a glutaryl group from a glutarylated lysine residue of a protein or peptide.
@@ -30747,7 +30820,7 @@
  xref: RHEA:47664
  is_a: GO:0141218 ! NAD-dependent protein lysine deacylase activity
  property_value: skos:exactMatch RHEA:47664
-@@ -383632,6 +384722,7 @@
+@@ -383632,6 +384740,7 @@
  def: "Catalysis of the reaction: L-threonine + hydrogencarbonate + ATP = L-threonylcarbamoyladenylate + diphosphate + H2O." [RHEA:36407]
  xref: EC:2.7.7.87
  xref: MetaCyc:RXN-14569
@@ -30755,7 +30828,7 @@
  xref: RHEA:36407
  is_a: GO:0016779 ! nucleotidyltransferase activity
  property_value: skos:exactMatch EC:2.7.7.87
-@@ -383649,7 +384740,8 @@
+@@ -383649,7 +384758,8 @@
  synonym: "t6A synthase activity" EXACT []
  xref: EC:2.3.1.234
  xref: MetaCyc:RXN-14570
@@ -30765,7 +30838,7 @@
  xref: RHEA:37059
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  is_a: GO:0140101 ! catalytic activity, acting on a tRNA
-@@ -383687,6 +384779,7 @@
+@@ -383687,6 +384797,7 @@
  namespace: molecular_function
  def: "Combining selectively with extracellular folic acid and delivering it into the cell via endocytosis." [GOC:BHF, GOC:hal]
  synonym: "folate receptor activity" EXACT []
@@ -30773,7 +30846,7 @@
  is_a: GO:0038024 ! cargo receptor activity
  relationship: has_part GO:0005542 ! folic acid binding
  relationship: part_of GO:0015884 ! folic acid transport
-@@ -383947,6 +385040,7 @@
+@@ -383947,6 +385058,7 @@
  xref: Reactome:R-HSA-9701531 "p-Y705,S727 STAT3 is acetylated"
  xref: Reactome:R-HSA-9756494 "CREBBP acetylates SARS-CoV-2 N at K375"
  xref: Reactome:R-HSA-9825747 "CREBBP acetylates HINT1 dimer"
@@ -30781,7 +30854,7 @@
  xref: RHEA:45948
  is_a: GO:0034212 ! protein N-acetyltransferase activity
  property_value: skos:exactMatch EC:2.3.1.48
-@@ -385187,7 +386281,7 @@
+@@ -385187,7 +386299,7 @@
  name: telomeric G-quadruplex DNA binding
  namespace: molecular_function
  def: "Binding to telomeric G-quadruplex DNA structures, in which groups of four guanines adopt a flat, cyclic Hoogsteen hydrogen-bonding arrangement known as a guanine tetrad. The stacking of guanine tetrads results in G-quadruplex DNA structures in telomeres." [GOC:BHF, GOC:BHF_telomere, GOC:nc, PMID:16142245, PMID:9512530]
@@ -30790,7 +30863,7 @@
  is_a: GO:0051880 ! G-quadruplex DNA binding
  
  [Term]
-@@ -385957,6 +387051,7 @@
+@@ -385957,6 +387069,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: glutathione = 5-oxoproline + L-cysteinylglycine." [PMID:23070364, PMID:27913623]
  xref: EC:4.3.2.7
@@ -30798,7 +30871,7 @@
  xref: RHEA:47724
  is_a: GO:0016842 ! amidine-lyase activity
  property_value: skos:exactMatch EC:4.3.2.7
-@@ -386049,7 +387144,6 @@
+@@ -386049,7 +387162,6 @@
  namespace: biological_process
  def: "The binding and fusion of a sperm, with the plasma membrane of the oocyte as part of the process of double fertilization forming a zygote and endosperm." [PMID:21123745]
  is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
@@ -30806,7 +30879,7 @@
  relationship: part_of GO:0009567 ! double fertilization forming a zygote and endosperm
  created_by: dph
  creation_date: 2017-09-05T18:43:24Z
-@@ -386206,6 +387300,12 @@
+@@ -386206,6 +387318,12 @@
  name: mRNA (adenine-N1-)-methyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenine in mRNA = S-adenosyl-L-homocysteine + N(1)-methyladenine in mRNA." [PMID:29072297]
@@ -30819,7 +30892,7 @@
  is_a: GO:0008174 ! mRNA methyltransferase activity
  created_by: dph
  creation_date: 2017-11-08T13:26:35Z
-@@ -386713,12 +387813,14 @@
+@@ -386713,12 +387831,14 @@
  name: regulation of small molecule metabolic process
  namespace: biological_process
  def: "Any process that modulates the rate, frequency or extent of a small molecule metabolic process." [GOC:vw]
@@ -30834,7 +30907,7 @@
  created_by: dph
  creation_date: 2018-03-19T14:11:54Z
  
-@@ -386727,12 +387829,14 @@
+@@ -386727,12 +387847,14 @@
  name: positive regulation of small molecule metabolic process
  namespace: biological_process
  def: "Any process that activates or increases the frequency, rate or extent of a small molecule metabolic process." [GOC:vw]
@@ -30849,7 +30922,7 @@
  created_by: dph
  creation_date: 2018-03-19T14:25:10Z
  
-@@ -386741,12 +387845,14 @@
+@@ -386741,12 +387863,14 @@
  name: negative regulation of small molecule metabolic process
  namespace: biological_process
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of a small molecule metabolic process." [GOC:vw]
@@ -30864,7 +30937,7 @@
  created_by: dph
  creation_date: 2018-03-19T14:27:23Z
  
-@@ -387024,10 +388130,12 @@
+@@ -387024,10 +388148,12 @@
  
  [Term]
  id: GO:0062045
@@ -30879,7 +30952,7 @@
  created_by: dph
  creation_date: 2018-05-11T12:13:57Z
  
-@@ -388044,7 +389152,7 @@
+@@ -388044,7 +389170,7 @@
  id: GO:0062146
  name: 4-chloro-allylglycine synthase activity
  namespace: molecular_function
@@ -30888,7 +30961,7 @@
  xref: RHEA:59888
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
  property_value: skos:exactMatch RHEA:59888
-@@ -389313,11 +390421,12 @@
+@@ -389313,11 +390439,12 @@
  
  [Term]
  id: GO:0070007
@@ -30905,7 +30978,7 @@
  
  [Term]
  id: GO:0070008
-@@ -389591,9 +390700,10 @@
+@@ -389591,9 +390718,10 @@
  
  [Term]
  id: GO:0070039
@@ -30917,7 +30990,7 @@
  xref: Reactome:R-HSA-6793096 "MRM3 (RNMTL1) methylates guanosine-1370 of 16S rRNA yielding 2'-O-methylguanosine-1370"
  xref: Reactome:R-HSA-6793122 "MRM1 methylates guanosine-1145 of 16S rRNA yielding 2'-O-methylguanosine-1145"
  is_a: GO:0016435 ! rRNA (guanine) methyltransferase activity
-@@ -390463,6 +391573,7 @@
+@@ -390463,6 +391591,7 @@
  def: "The process resulting in the release of a polypeptide chain from the ribosome in a mitochondrion, usually in response to a termination codon (note that mitochondria use variants of the universal genetic code that differ between different taxa)." [GOC:mah, http://mitogenome.org/index.php/Genetic_Code_of_mitochondria]
  synonym: "mitochondrial translation termination" EXACT [GOC:mah]
  xref: Reactome:R-HSA-5419276 "Mitochondrial translation termination"
@@ -30925,7 +30998,7 @@
  is_a: GO:0006415 ! translational termination
  intersection_of: GO:0006415 ! translational termination
  intersection_of: occurs_in GO:0005739 ! mitochondrion
-@@ -390984,11 +392095,15 @@
+@@ -390984,11 +392113,15 @@
  
  [Term]
  id: GO:0070178
@@ -30944,7 +31017,7 @@
  
  [Term]
  id: GO:0070179
-@@ -391000,7 +392115,6 @@
+@@ -391000,7 +392133,6 @@
  synonym: "D-serine formation" EXACT []
  synonym: "D-serine synthesis" EXACT []
  is_a: GO:0046437 ! D-amino acid biosynthetic process
@@ -30952,7 +31025,7 @@
  
  [Term]
  id: GO:0070180
-@@ -391151,7 +392265,7 @@
+@@ -391151,7 +392283,7 @@
  name: growth hormone receptor complex
  namespace: cellular_component
  def: "A receptor complex that consists of two identical subunits and binds growth hormone." [GOC:BHF, GOC:mah, GOC:vk, PMID:11445442]
@@ -30961,7 +31034,7 @@
  
  [Term]
  id: GO:0070196
-@@ -391494,12 +392608,14 @@
+@@ -391494,12 +392626,14 @@
  
  [Term]
  id: GO:0070226
@@ -30980,7 +31053,7 @@
  
  [Term]
  id: GO:0070227
-@@ -391898,7 +393014,6 @@
+@@ -391898,7 +393032,6 @@
  xref: Reactome:R-HSA-389632 "pristanate + CoA-SH + ATP => pristanoyl-CoA + AMP + pyrophosphate"
  xref: RHEA:47264
  is_a: GO:0016405 ! CoA-ligase activity
@@ -30988,7 +31061,7 @@
  property_value: skos:exactMatch RHEA:47264
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
-@@ -392079,6 +393194,8 @@
+@@ -392079,6 +393212,8 @@
  def: "A gasdermin-dependent inflammatory response that is associated with the generation of pyrogenic mediators such as IL-1beta and IL-18. Gasdermins are activated by caspase-1 or caspase-4/11, or by certain granzymes. In some, but not all cells, it can lead to pyroptotic programmed cell death." [PMID:18846107, PMID:21760595, PMID:33883744]
  synonym: "pyroptosis" BROAD []
  xref: Reactome:R-HSA-5620971 "Pyroptosis"
@@ -30997,7 +31070,7 @@
  is_a: GO:0006954 ! inflammatory response
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27753" xsd:anyURI
  
-@@ -392132,7 +393249,7 @@
+@@ -392132,7 +393267,7 @@
  id: GO:0070275
  name: aerobic ammonia oxidation to nitrite via pyruvic oxime
  namespace: biological_process
@@ -31006,7 +31079,7 @@
  xref: MetaCyc:PWY-2242
  is_a: GO:0019329 ! ammonia oxidation
  
-@@ -394225,7 +395342,7 @@
+@@ -394225,7 +395360,7 @@
  id: GO:0070472
  name: regulation of uterine smooth muscle contraction
  namespace: biological_process
@@ -31015,7 +31088,7 @@
  synonym: "regulation of myometrial contraction" EXACT [GOC:sl]
  synonym: "regulation of myometrial smooth muscle contraction" EXACT [GOC:sl]
  synonym: "regulation of myometrium contraction" EXACT [GOC:sl]
-@@ -394238,7 +395355,7 @@
+@@ -394238,7 +395373,7 @@
  id: GO:0070473
  name: negative regulation of uterine smooth muscle contraction
  namespace: biological_process
@@ -31024,7 +31097,7 @@
  synonym: "down regulation of uterine smooth muscle contraction" EXACT [GOC:mah]
  synonym: "down-regulation of uterine smooth muscle contraction" EXACT [GOC:mah]
  synonym: "downregulation of uterine smooth muscle contraction" EXACT [GOC:mah]
-@@ -394257,7 +395374,7 @@
+@@ -394257,7 +395392,7 @@
  id: GO:0070474
  name: positive regulation of uterine smooth muscle contraction
  namespace: biological_process
@@ -31033,7 +31106,7 @@
  synonym: "activation of uterine smooth muscle contraction" NARROW [GOC:mah]
  synonym: "positive regulation of myometrial contraction" EXACT [GOC:sl]
  synonym: "positive regulation of myometrial smooth muscle contraction" EXACT [GOC:sl]
-@@ -394756,6 +395873,7 @@
+@@ -394756,6 +395891,7 @@
  name: 11-beta-hydroxysteroid dehydrogenase (NAD+) activity
  namespace: molecular_function
  def: "Catalysis of the reaction: an 11-beta-hydroxysteroid + NAD+ = an 11-oxosteroid + NADH + H+." [PMID:15761036, RHEA:53116]
@@ -31041,7 +31114,7 @@
  xref: RHEA:53116
  xref: Wikipedia:11beta-hydroxysteroid_dehydrogenase
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
-@@ -394817,10 +395935,14 @@
+@@ -394817,10 +395953,14 @@
  
  [Term]
  id: GO:0070529
@@ -31059,7 +31132,7 @@
  
  [Term]
  id: GO:0070530
-@@ -394972,10 +396094,14 @@
+@@ -394972,10 +396112,14 @@
  
  [Term]
  id: GO:0070548
@@ -31077,7 +31150,7 @@
  
  [Term]
  id: GO:0070549
-@@ -395173,6 +396299,7 @@
+@@ -395173,6 +396317,7 @@
  name: adenylyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the transfer of an adenylyl group to an acceptor." [GOC:mah]
@@ -31085,7 +31158,7 @@
  is_a: GO:0016779 ! nucleotidyltransferase activity
  created_by: mah
  creation_date: 2009-04-15T11:04:22Z
-@@ -395258,9 +396385,9 @@
+@@ -395258,9 +396403,9 @@
  def: "Catalysis of the hydrolysis of a dipeptide by a mechanism in which water acts as a nucleophile, one or two metal ions hold the water molecule in place, and charged amino acid side chains are ligands for the metal ions." [GOC:mah, https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE]
  synonym: "metallo-exo-dipeptidase activity" EXACT [GOC:rb]
  synonym: "metalloexodipeptidase activity" EXACT [GOC:mah]
@@ -31098,7 +31171,7 @@
  is_a: GO:0008235 ! metalloexopeptidase activity
  is_a: GO:0016805 ! dipeptidase activity
  created_by: mah
-@@ -395465,6 +396592,7 @@
+@@ -395465,6 +396610,7 @@
  synonym: "calcium ion membrane transport" EXACT []
  synonym: "transmembrane calcium transport" EXACT [GOC:mah]
  xref: Reactome:R-HSA-3295583 "TRP channels"
@@ -31106,7 +31179,7 @@
  is_a: GO:0006816 ! calcium ion transport
  is_a: GO:0098655 ! monoatomic cation transmembrane transport
  created_by: mah
-@@ -396609,9 +397737,10 @@
+@@ -396609,9 +397755,10 @@
  
  [Term]
  id: GO:0070677
@@ -31118,7 +31191,7 @@
  is_a: GO:0016434 ! rRNA (cytosine) methyltransferase activity
  is_a: GO:0062105 ! RNA 2'-O-methyltransferase activity
  property_value: skos:broadMatch RHEA:58956
-@@ -397678,7 +398807,7 @@
+@@ -397678,7 +398825,7 @@
  id: GO:0070773
  name: protein-N-terminal glutamine amidohydrolase activity
  namespace: molecular_function
@@ -31127,7 +31200,7 @@
  synonym: "NtQ-amidase activity" EXACT [PMID:19560421]
  xref: EC:3.5.1.122
  xref: RHEA:50680
-@@ -397697,7 +398826,6 @@
+@@ -397697,7 +398844,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: a phytoceramide + H2O = a fatty acid + phytosphingosine." [GOC:pde, PMID:11356846]
  comment: The reason for obsoletion is that this term represents a specific substrate of GO:0017040 N-acylsphingosine amidohydrolase activity.
@@ -31135,7 +31208,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28294" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0017040
-@@ -400224,8 +401352,13 @@
+@@ -400224,8 +401370,13 @@
  synonym: "L-asparagine biosynthesis" EXACT [GOC:mah]
  synonym: "L-asparagine formation" EXACT [GOC:mah]
  synonym: "L-asparagine synthesis" EXACT [GOC:mah]
@@ -31149,7 +31222,7 @@
  created_by: mah
  creation_date: 2009-10-27T12:59:42Z
  
-@@ -402931,7 +404064,7 @@
+@@ -402931,7 +404082,7 @@
  id: GO:0071229
  name: cellular response to acid chemical
  namespace: biological_process
@@ -31158,7 +31231,7 @@
  comment: This term should be used to describe a response to a specific acid as a chemical. E.g., if a cell were responding to glutamate, then the response would be glutamate-specific; the cell is actually responding to the chemical structure of the anion portion of the dissociated acid. Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC. If annotating experiments where an acid is playing a role as a proton donor, please annotate to GO:0071468 'cellular response to acidic pH' instead.
  subset: gocheck_do_not_annotate
  synonym: "cellular response to acid" BROAD []
-@@ -403372,6 +404505,7 @@
+@@ -403372,6 +404523,7 @@
  is_a: GO:0006555 ! methionine metabolic process
  is_a: GO:0009067 ! aspartate family amino acid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31068" xsd:anyURI
@@ -31166,7 +31239,7 @@
  created_by: mah
  creation_date: 2009-12-09T04:28:15Z
  
-@@ -403379,12 +404513,26 @@
+@@ -403379,12 +404531,26 @@
  id: GO:0071266
  name: 'de novo' L-methionine biosynthetic process
  namespace: biological_process
@@ -31194,7 +31267,7 @@
  created_by: mah
  creation_date: 2009-12-09T04:34:41Z
  
-@@ -403393,9 +404541,18 @@
+@@ -403393,9 +404559,18 @@
  name: L-methionine salvage
  namespace: biological_process
  def: "Any process that generates L-methionine from derivatives of it, without de novo synthesis." [GOC:ecd]
@@ -31213,7 +31286,7 @@
  created_by: mah
  creation_date: 2009-12-09T04:36:49Z
  
-@@ -403419,16 +404576,18 @@
+@@ -403419,16 +404594,18 @@
  id: GO:0071269
  name: L-homocysteine biosynthetic process
  namespace: biological_process
@@ -31233,7 +31306,7 @@
  created_by: mah
  creation_date: 2009-12-09T05:36:37Z
  
-@@ -405726,7 +406885,7 @@
+@@ -405726,7 +406903,7 @@
  id: GO:0071468
  name: cellular response to acidic pH
  namespace: biological_process
@@ -31242,7 +31315,7 @@
  comment: This term should be used to annotate instances where a cell is responding to a chemical that is playing the role of an acid (e.g. proton donor) and therefore lowering the pH. If instead you wish to describe a response to a specific acid as a chemical, such as the anion portion of glutamate, please annotate to the appropriate child of GO:0071229 'cellular response to acid chemical'.
  synonym: "cellular response to acidity" BROAD []
  is_a: GO:0010447 ! response to acidic pH
-@@ -405738,7 +406897,7 @@
+@@ -405738,7 +406915,7 @@
  id: GO:0071469
  name: cellular response to alkaline pH
  namespace: biological_process
@@ -31251,7 +31324,7 @@
  synonym: "cellular response to alkalinity" BROAD []
  synonym: "cellular response to basic pH" EXACT [GOC:mah]
  is_a: GO:0010446 ! response to alkaline pH
-@@ -406389,7 +407548,7 @@
+@@ -406389,7 +407566,7 @@
  id: GO:0071522
  name: ureidoglycine aminohydrolase activity
  namespace: molecular_function
@@ -31260,7 +31333,7 @@
  xref: EC:3.5.3.26
  xref: MetaCyc:URUR-RXN
  xref: RHEA:25241
-@@ -406414,15 +407573,17 @@
+@@ -406414,15 +407591,17 @@
  id: GO:0071524
  name: pyrrolysine biosynthetic process
  namespace: biological_process
@@ -31279,7 +31352,7 @@
  created_by: mah
  creation_date: 2010-01-07T02:40:24Z
  
-@@ -407321,7 +408482,7 @@
+@@ -407321,7 +408500,7 @@
  id: GO:0071598
  name: neuronal ribonucleoprotein granule
  namespace: cellular_component
@@ -31288,7 +31361,7 @@
  synonym: "neuronal RNA granule" NARROW []
  synonym: "neuronal RNP granule" EXACT []
  is_a: GO:0036464 ! cytoplasmic ribonucleoprotein granule
-@@ -411418,6 +412579,7 @@
+@@ -411418,6 +412597,7 @@
  def: "Binding to the oxidized form, FAD, of flavin-adenine dinucleotide, the coenzyme or the prosthetic group of various flavoprotein oxidoreductase enzymes." [GOC:mah]
  synonym: "oxidized flavin adenine dinucleotide binding" EXACT [GOC:mah]
  synonym: "oxidized flavine-adenine dinucleotide binding" EXACT [GOC:mah]
@@ -31296,7 +31369,7 @@
  is_a: GO:0050660 ! flavin adenine dinucleotide binding
  created_by: mah
  creation_date: 2010-10-07T12:30:28Z
-@@ -415491,7 +416653,7 @@
+@@ -415491,7 +416671,7 @@
  def: "The directed movement of proteins from the plasma membrane across the periplasmic space to the outer membrane or cell wall." [GOC:mah, PMID:20378773]
  synonym: "chaperone-mediated protein transport across periplasmic space" NARROW []
  is_a: GO:0015031 ! protein transport
@@ -31305,7 +31378,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15917" xsd:anyURI
  created_by: mah
  creation_date: 2010-10-28T04:24:59Z
-@@ -415735,6 +416897,7 @@
+@@ -415735,6 +416915,7 @@
  name: rescue of stalled cytosolic ribosome
  namespace: biological_process
  def: "A process of cytosolic translational elongation that takes place when a cytosolic ribosome has stalled during translation, and results in freeing the ribosome from the stalled translation complex." [GOC:jh2, GOC:mah, PMID:18557701, PMID:19170872, PMID:20117091, PMID:20185543]
@@ -31313,7 +31386,7 @@
  is_a: GO:0002182 ! cytoplasmic translational elongation
  is_a: GO:0032790 ! ribosome disassembly
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22227" xsd:anyURI
-@@ -417044,6 +418207,7 @@
+@@ -417044,6 +418225,7 @@
  synonym: "ammonia transport" BROAD []
  synonym: "ammonium membrane transport" EXACT []
  synonym: "ammonium transport" BROAD []
@@ -31321,7 +31394,7 @@
  is_a: GO:0055085 ! transmembrane transport
  is_a: GO:0071705 ! nitrogen compound transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22228" xsd:anyURI
-@@ -418059,7 +419223,6 @@
+@@ -418059,7 +419241,6 @@
  namespace: molecular_function
  def: "Binds to and modulates the activity of ATP-hydrolyzing DNA topoisomerase. DNA topoisomerase (ATP-hydrolyzing) regulator activity catalyzes a DNA topological transformation by transiently cleaving a pair of complementary DNA strands to form a gate through which a second double-stranded DNA segment is passed, after which the severed strands in the first DNA segment are rejoined; product release is coupled to ATP binding and hydrolysis; changes the linking number in multiples of 2." [GOC:mah]
  is_a: GO:0030234 ! enzyme regulator activity
@@ -31329,7 +31402,7 @@
  relationship: regulates GO:0003918 ! DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
  created_by: mah
  creation_date: 2011-02-09T05:31:50Z
-@@ -418610,7 +419773,7 @@
+@@ -418610,7 +419791,7 @@
  name: osteoclast fusion
  namespace: biological_process
  def: "The plasma membrane fusion process that results in fusion of mononuclear osteoclasts to form a multinuclear osteoclast." [CL:0000092, CL:0000779, GOC:BHF, GOC:mah, PMID:12713016]
@@ -31338,7 +31411,7 @@
  relationship: part_of GO:0072674 ! multinuclear osteoclast differentiation
  created_by: mah
  creation_date: 2011-02-22T02:14:34Z
-@@ -423306,12 +424469,14 @@
+@@ -423306,12 +424487,14 @@
  id: GO:0080002
  name: UDP-glucose:4-aminobenzoate acylglucosyltransferase activity
  namespace: molecular_function
@@ -31354,7 +31427,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28273" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28775" xsd:anyURI
  
-@@ -423923,10 +425088,11 @@
+@@ -423923,10 +425106,11 @@
  id: GO:0080061
  name: indole-3-acetonitrile nitrilase activity
  namespace: molecular_function
@@ -31367,7 +31440,7 @@
  property_value: skos:exactMatch RHEA:45776
  created_by: dhl
  creation_date: 2009-04-13T03:30:42Z
-@@ -424195,10 +425361,12 @@
+@@ -424195,10 +425379,12 @@
  name: regulation of primary metabolic process
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism involving those compounds formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism." [PMID:19211694]
@@ -31380,7 +31453,7 @@
  created_by: dhl
  creation_date: 2009-04-22T04:30:52Z
  
-@@ -424271,40 +425439,48 @@
+@@ -424271,40 +425457,48 @@
  
  [Term]
  id: GO:0080097
@@ -31439,7 +31512,7 @@
  created_by: dhl
  creation_date: 2009-04-23T03:51:20Z
  
-@@ -424654,20 +425830,21 @@
+@@ -424654,20 +425848,21 @@
  
  [Term]
  id: GO:0080130
@@ -31464,7 +31537,7 @@
  created_by: dhl
  creation_date: 2009-04-29T03:42:47Z
  
-@@ -424847,8 +426024,6 @@
+@@ -424847,8 +426042,6 @@
  def: "Catalysis of the reaction: L-cysteine + H2O = hydrogen sulfide + pyruvate + NH4+ + H+." [PMID:19955263, RHEA:24931]
  xref: EC:4.4.1.28
  xref: MetaCyc:LCYSDESULF-RXN
@@ -31473,7 +31546,7 @@
  xref: RHEA:24931
  is_a: GO:0016846 ! carbon-sulfur lyase activity
  property_value: skos:broadMatch EC:4.4.1.1
-@@ -425125,7 +426300,7 @@
+@@ -425125,7 +426318,7 @@
  id: GO:0080170
  name: hydrogen peroxide transmembrane transport
  namespace: biological_process
@@ -31482,7 +31555,7 @@
  comment: Note that this term is not intended for use in annotating lateral movement within membranes.
  synonym: "hydrogen peroxide membrane transport" EXACT []
  is_a: GO:0055085 ! transmembrane transport
-@@ -431571,32 +432746,27 @@
+@@ -431571,32 +432764,27 @@
  
  [Term]
  id: GO:0090357
@@ -31525,7 +31598,7 @@
  created_by: tb
  creation_date: 2010-06-29T02:38:48Z
  
-@@ -431717,14 +432887,13 @@
+@@ -431717,14 +432905,13 @@
  
  [Term]
  id: GO:0090368
@@ -31546,7 +31619,7 @@
  created_by: tb
  creation_date: 2010-07-12T11:14:12Z
  
-@@ -432280,7 +433449,7 @@
+@@ -432280,7 +433467,7 @@
  name: nicotinate transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of nicotinate from one side of a membrane to the other." [GOC:tb]
@@ -31555,7 +31628,7 @@
  is_a: GO:0008028 ! monocarboxylic acid transmembrane transporter activity
  relationship: part_of GO:2001142 ! nicotinate transport
  created_by: tb
-@@ -432474,7 +433643,7 @@
+@@ -432474,7 +433661,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: ATP + palmitic acid + CoA = AMP + diphosphate + palmitoyl-CoA." [GOC:al, PMID:18071249]
  synonym: "palmitoyl-CoA synthetase activity" EXACT []
@@ -31564,7 +31637,7 @@
  is_a: GO:0004467 ! long-chain fatty acid-CoA ligase activity
  created_by: tb
  creation_date: 2012-07-25T03:31:31Z
-@@ -432941,10 +434110,11 @@
+@@ -432941,10 +434128,11 @@
  
  [Term]
  id: GO:0090486
@@ -31577,7 +31650,7 @@
  xref: EC:2.1.1.386
  xref: RHEA:37887
  is_a: GO:0062105 ! RNA 2'-O-methyltransferase activity
-@@ -433644,7 +434814,7 @@
+@@ -433644,7 +434832,7 @@
  synonym: "phosphatidylcholine floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
  synonym: "phosphatidylcholine-translocating ATPase activity" BROAD []
  xref: RHEA:38583
@@ -31586,7 +31659,7 @@
  is_a: GO:0140328 ! floppase activity
  property_value: skos:broadMatch RHEA:66132
  property_value: skos:exactMatch RHEA:38583
-@@ -433678,7 +434848,6 @@
+@@ -433678,7 +434866,6 @@
  synonym: "phosphatidylserine floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
  synonym: "phosphatidylserine-translocating ATPase activity" BROAD []
  xref: RHEA:38567
@@ -31594,7 +31667,7 @@
  is_a: GO:0140328 ! floppase activity
  property_value: skos:broadMatch RHEA:66132
  property_value: skos:exactMatch RHEA:38567
-@@ -433744,7 +434913,8 @@
+@@ -433744,7 +434931,8 @@
  name: protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N,N'-diacetylchitobiose(out) = protein histidine + N,N'-diacetylchitobiose phosphate(in)." [GOC:am, PMID:10913119]
@@ -31604,7 +31677,7 @@
  created_by: tb
  creation_date: 2014-04-08T14:55:02Z
  
-@@ -433995,10 +435165,13 @@
+@@ -433995,10 +435183,13 @@
  
  [Term]
  id: GO:0090590
@@ -31621,7 +31694,7 @@
  created_by: tb
  creation_date: 2014-06-04T16:33:01Z
  
-@@ -434007,7 +435180,8 @@
+@@ -434007,7 +435198,8 @@
  name: protein-N(PI)-phosphohistidine-N-acetyl-mannosamine phosphotransferase system transporter activity
  namespace: molecular_function
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N-acetyl-mannosamine(out) = protein histidine +N-acetyl- mannosamine-6-phosphate(in)." [PMID:9864311]
@@ -31631,7 +31704,7 @@
  created_by: tb
  creation_date: 2014-06-04T16:33:01Z
  
-@@ -434048,7 +435222,7 @@
+@@ -434048,7 +435240,7 @@
  id: GO:0090595
  name: L-lysine N6-acetyltransferase activity
  namespace: molecular_function
@@ -31640,7 +31713,7 @@
  synonym: "acetyl-CoA:L-lysine N6-acetyltransferase" EXACT []
  xref: EC:2.3.1.306
  xref: MetaCyc:LYSACET-RXN
-@@ -434208,7 +435382,7 @@
+@@ -434208,7 +435400,7 @@
  id: GO:0090612
  name: cAMP deaminase activity
  namespace: molecular_function
@@ -31649,7 +31722,7 @@
  synonym: "cyclic adenosine monophosphate deaminase activity" EXACT []
  xref: EC:3.5.4.46
  xref: RHEA:22908
-@@ -434225,7 +435399,7 @@
+@@ -434225,7 +435417,7 @@
  id: GO:0090613
  name: 5'-deoxyadenosine deaminase activity
  namespace: molecular_function
@@ -31658,7 +31731,7 @@
  xref: EC:3.5.4.41
  xref: RHEA:42892
  is_a: GO:0016814 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines
-@@ -434240,7 +435414,7 @@
+@@ -434240,7 +435432,7 @@
  id: GO:0090614
  name: 5'-methylthioadenosine deaminase activity
  namespace: molecular_function
@@ -31667,7 +31740,7 @@
  xref: EC:3.5.4.31
  xref: RHEA:25025
  is_a: GO:0016814 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines
-@@ -434680,7 +435854,7 @@
+@@ -434680,7 +435872,7 @@
  namespace: molecular_function
  def: "Binding to a junction formed at the point where double-stranded telomeric DNA becomes a single-stranded G-rich telomeric DNA 3' overhang." [GOC:BHF, GOC:BHF_telomere, GOC:bhm, GOC:nc, PMID:21852327]
  is_a: GO:0000406 ! double-strand/single-strand DNA junction binding
@@ -31676,7 +31749,7 @@
  created_by: tb
  creation_date: 2015-07-02T11:33:39Z
  
-@@ -436163,10 +437337,21 @@
+@@ -436163,10 +437355,21 @@
  synonym: "L-glutamate biosynthesis" EXACT []
  synonym: "L-glutamate formation" EXACT []
  synonym: "L-glutamate synthesis" EXACT []
@@ -31698,7 +31771,7 @@
  created_by: pr
  creation_date: 2011-05-24T04:30:38Z
  
-@@ -437217,7 +438402,6 @@
+@@ -437217,7 +438420,6 @@
  comment: The reason for obsoletion is that this term represents a GO-CAM model.
  synonym: "caspase activity" BROAD []
  synonym: "metacaspase activity" NARROW [GOC:mtg_apoptosis]
@@ -31706,7 +31779,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28468" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0004197
-@@ -437279,7 +438463,6 @@
+@@ -437279,7 +438481,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Binding to an organic cyclic compound, any molecular entity that contains carbon arranged in a cyclic molecular structure." [GOC:sjw, PMID:7583672]
  comment: The reason for obsoletion is that this term was an unnecessary grouping term.
@@ -31714,7 +31787,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29143" xsd:anyURI
  is_obsolete: true
  created_by: pr
-@@ -437647,6 +438830,7 @@
+@@ -437647,6 +438848,7 @@
  comment: This term can be used to annotate gene products involved in apoptotic events happening downstream of the cross-talk point between the extrinsic and intrinsic apoptotic pathways. The cross-talk starts when caspase-8 cleaves Bid and truncated Bid interacts with mitochondria. From this point on it is not possible to distinguish between extrinsic and intrinsic pathways.
  synonym: "apoptotic signalling pathway" EXACT [GOC:mah]
  synonym: "induction of apoptosis by extracellular signals" EXACT []
@@ -31722,7 +31795,7 @@
  xref: Reactome:R-HSA-193681 "Ceramide signalling"
  xref: Reactome:R-HSA-204998 "Cell death signalling via NRAGE, NRIF and NADE"
  xref: Reactome:R-HSA-75157 "FasL/ CD95L signaling"
-@@ -438450,7 +439634,6 @@
+@@ -438450,7 +439652,6 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: leukotriene A4 = eoxin A4." [GOC:mw, PMID:18184802, PMID:18647347]
  comment: The reason for obsoletion is that this term is equivalent to leukotriene-C4 synthase activity.
@@ -31730,7 +31803,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29695" xsd:anyURI
  is_obsolete: true
  replaced_by: GO:0004464
-@@ -438877,7 +440060,6 @@
+@@ -438877,7 +440078,6 @@
  comment: Components of the DISC (death-inducing signaling complex) may be annotated to this term. These include ligand-bound receptors such as FAS/CD95 (though care should be taken because FAS can also act as a non-apoptotic signal transducer), and signaling molecules such as FADD (FAS-associated protein with a death domain), cIAPs (cellular inhibitor of apoptosis proteins), c-FLIPs and caspases 8 and 10. Note that GO:0097296 should only be used to annotate gene products directly involved in the initiation or start up of an inactive cysteine-type endopeptidase activity involved in the apoptotic signaling pathway (also known as an initiator caspase). If the evidence provided is not sufficient to account for direct activation of this enzymatic activity, consider using the more generic terms GO:2001269 positive regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway or GO:0043280 positive regulation of cysteine-type endopeptidase activity involved in apoptotic process.\nThe reason for obsoletion is that this term represents a GO-CAM model.
  synonym: "activation of cysteine-type endopeptidase activity involved in apoptotic signalling pathway" EXACT []
  synonym: "activation of initiator caspase activity" NARROW []
@@ -31738,7 +31811,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28468" xsd:anyURI
  is_obsolete: true
  created_by: pr
-@@ -439561,6 +440743,7 @@
+@@ -439561,6 +440761,7 @@
  synonym: "protein O-GlcNAc transferase activity" EXACT []
  synonym: "UDP-N-acetyl-D-glucosamine:protein-O-beta-N-acetyl-D-glucosaminyl transferase" EXACT []
  xref: EC:2.4.1.255
@@ -31746,7 +31819,7 @@
  xref: Reactome:R-HSA-9687828 "O-GlcNAcylation of RIPK3 (TLR4 signaling)"
  xref: RHEA:48904
  xref: RHEA:48908
-@@ -441321,7 +442504,7 @@
+@@ -441321,7 +442522,7 @@
  id: GO:0097532
  name: stress response to acid chemical
  namespace: biological_process
@@ -31755,7 +31828,7 @@
  synonym: "response to acid stress" BROAD []
  synonym: "stress response to acid" BROAD []
  is_a: GO:0001101 ! response to acid chemical
-@@ -441333,7 +442516,7 @@
+@@ -441333,7 +442534,7 @@
  id: GO:0097533
  name: cellular stress response to acid chemical
  namespace: biological_process
@@ -31764,7 +31837,7 @@
  synonym: "cellular response to acid stress" BROAD []
  synonym: "cellular stress response to acid" BROAD []
  is_a: GO:0097532 ! stress response to acid chemical
-@@ -443245,7 +444428,7 @@
+@@ -443245,7 +444446,7 @@
  id: GO:0097697
  name: tRNA (5-carboxymethoxyuridine(34)-5-O)-methyltransferase activity
  namespace: molecular_function
@@ -31773,7 +31846,7 @@
  synonym: "tRNA 5-carboxymethoxyuridine methyltransferase activity" RELATED []
  xref: RHEA:54080
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
-@@ -444697,10 +445880,11 @@
+@@ -444697,10 +445898,11 @@
  id: GO:0098538
  name: lumenal side of transport vesicle membrane
  namespace: cellular_component
@@ -31786,7 +31859,7 @@
  created_by: dos
  creation_date: 2013-10-24T11:43:55Z
  
-@@ -444708,10 +445892,11 @@
+@@ -444708,10 +445910,11 @@
  id: GO:0098539
  name: cytoplasmic side of transport vesicle membrane
  namespace: cellular_component
@@ -31799,7 +31872,7 @@
  created_by: dos
  creation_date: 2013-10-24T11:48:07Z
  
-@@ -444719,10 +445904,11 @@
+@@ -444719,10 +445922,11 @@
  id: GO:0098540
  name: lumenal side of trans-Golgi network transport vesicle membrane
  namespace: cellular_component
@@ -31812,7 +31885,7 @@
  created_by: dos
  creation_date: 2013-10-24T11:55:02Z
  
-@@ -444730,10 +445916,11 @@
+@@ -444730,10 +445934,11 @@
  id: GO:0098541
  name: cytoplasmic side of trans-Golgi network transport vesicle membrane
  namespace: cellular_component
@@ -31825,7 +31898,7 @@
  created_by: dos
  creation_date: 2013-10-24T11:56:30Z
  
-@@ -444793,9 +445980,10 @@
+@@ -444793,9 +445998,10 @@
  id: GO:0098547
  name: lumenal side of Golgi membrane
  namespace: cellular_component
@@ -31837,7 +31910,7 @@
  created_by: dos
  creation_date: 2013-12-03T10:44:23Z
  
-@@ -444803,9 +445991,10 @@
+@@ -444803,9 +446009,10 @@
  id: GO:0098548
  name: cytoplasmic side of Golgi membrane
  namespace: cellular_component
@@ -31849,7 +31922,7 @@
  created_by: dos
  creation_date: 2013-12-03T10:49:33Z
  
-@@ -444820,27 +446009,29 @@
+@@ -444820,27 +446027,29 @@
  id: GO:0098550
  name: lumenal side of early endosome membrane
  namespace: cellular_component
@@ -31882,7 +31955,7 @@
  is_a: GO:0110165 ! cellular anatomical structure
  relationship: has_part GO:0097478 ! leaflet of membrane bilayer
  relationship: part_of GO:0016020 ! membrane
-@@ -444851,9 +446042,10 @@
+@@ -444851,9 +446060,10 @@
  id: GO:0098553
  name: lumenal side of endoplasmic reticulum membrane
  namespace: cellular_component
@@ -31894,7 +31967,7 @@
  created_by: dos
  creation_date: 2013-12-03T12:08:37Z
  
-@@ -444861,9 +446053,10 @@
+@@ -444861,9 +446071,10 @@
  id: GO:0098554
  name: cytoplasmic side of endoplasmic reticulum membrane
  namespace: cellular_component
@@ -31906,7 +31979,7 @@
  created_by: dos
  creation_date: 2013-12-03T12:09:47Z
  
-@@ -444871,9 +446064,10 @@
+@@ -444871,9 +446082,10 @@
  id: GO:0098555
  name: lumenal side of rough endoplasmic reticulum membrane
  namespace: cellular_component
@@ -31918,7 +31991,7 @@
  created_by: dos
  creation_date: 2013-12-03T12:13:24Z
  
-@@ -444881,9 +446075,10 @@
+@@ -444881,9 +446093,10 @@
  id: GO:0098556
  name: cytoplasmic side of rough endoplasmic reticulum membrane
  namespace: cellular_component
@@ -31930,7 +32003,7 @@
  created_by: dos
  creation_date: 2013-12-03T12:15:44Z
  
-@@ -444891,9 +446086,10 @@
+@@ -444891,9 +446104,10 @@
  id: GO:0098557
  name: cytoplasmic side of smooth endoplasmic reticulum membrane
  namespace: cellular_component
@@ -31942,7 +32015,7 @@
  created_by: dos
  creation_date: 2013-12-03T12:17:58Z
  
-@@ -444901,9 +446097,10 @@
+@@ -444901,9 +446115,10 @@
  id: GO:0098558
  name: lumenal side of smooth endoplasmic reticulum membrane
  namespace: cellular_component
@@ -31954,7 +32027,7 @@
  created_by: dos
  creation_date: 2013-12-03T12:19:28Z
  
-@@ -444911,23 +446108,25 @@
+@@ -444911,23 +446126,25 @@
  id: GO:0098559
  name: cytoplasmic side of early endosome membrane
  namespace: cellular_component
@@ -31982,7 +32055,7 @@
  
  [Term]
  id: GO:0098561
-@@ -444941,8 +446140,9 @@
+@@ -444941,8 +446158,9 @@
  id: GO:0098562
  name: cytoplasmic side of membrane
  namespace: cellular_component
@@ -31993,7 +32066,7 @@
  created_by: dos
  creation_date: 2013-12-12T11:21:30Z
  
-@@ -444969,11 +446169,12 @@
+@@ -444969,11 +446187,12 @@
  id: GO:0098565
  name: lumenal side of endosome membrane
  namespace: cellular_component
@@ -32007,7 +32080,7 @@
  
  [Term]
  id: GO:0098566
-@@ -444987,8 +446188,9 @@
+@@ -444987,8 +446206,9 @@
  id: GO:0098567
  name: periplasmic side of plasma membrane
  namespace: cellular_component
@@ -32018,7 +32091,7 @@
  created_by: dos
  creation_date: 2013-12-19T09:31:30Z
  
-@@ -444996,39 +446198,44 @@
+@@ -444996,39 +446216,44 @@
  id: GO:0098568
  name: external side of mycolate outer membrane
  namespace: cellular_component
@@ -32068,7 +32141,7 @@
  
  [Term]
  id: GO:0098573
-@@ -445045,28 +446252,31 @@
+@@ -445045,28 +446270,31 @@
  id: GO:0098574
  name: cytoplasmic side of lysosomal membrane
  namespace: cellular_component
@@ -32103,7 +32176,7 @@
  
  [Term]
  id: GO:0098577
-@@ -445191,9 +446401,10 @@
+@@ -445191,9 +446419,10 @@
  id: GO:0098591
  name: external side of apical plasma membrane
  namespace: cellular_component
@@ -32115,7 +32188,7 @@
  created_by: dos
  creation_date: 2014-03-06T12:04:33Z
  
-@@ -445201,9 +446412,10 @@
+@@ -445201,9 +446430,10 @@
  id: GO:0098592
  name: cytoplasmic side of apical plasma membrane
  namespace: cellular_component
@@ -32127,7 +32200,7 @@
  created_by: dos
  creation_date: 2014-03-06T12:07:32Z
  
-@@ -445352,12 +446564,13 @@
+@@ -445352,12 +446582,13 @@
  
  [Term]
  id: GO:0098607
@@ -32145,7 +32218,7 @@
  created_by: dos
  creation_date: 2014-04-16T11:24:12Z
  
-@@ -445694,6 +446907,7 @@
+@@ -445694,6 +446925,7 @@
  is_a: GO:0005581 ! collagen trimer
  intersection_of: GO:0005581 ! collagen trimer
  intersection_of: part_of GO:0098645 ! complex of network-forming collagens
@@ -32153,7 +32226,7 @@
  relationship: part_of GO:0098645 ! complex of network-forming collagens
  
  [Term]
-@@ -445717,7 +446931,7 @@
+@@ -445717,7 +446949,7 @@
  synonym: "Supramolecular collagen assembly" EXACT [PMID:21421911]
  is_a: GO:0099080 ! supramolecular complex
  relationship: has_part GO:0005581 ! collagen trimer
@@ -32162,7 +32235,7 @@
  
  [Term]
  id: GO:0098645
-@@ -445730,14 +446944,18 @@
+@@ -445730,14 +446962,18 @@
  
  [Term]
  id: GO:0098646
@@ -32183,7 +32256,7 @@
  
  [Term]
  id: GO:0098647
-@@ -445933,7 +447151,7 @@
+@@ -445933,7 +447169,7 @@
  synonym: "5-HT receptor complex" EXACT []
  synonym: "5-hydroxytryptamine receptor complex" EXACT []
  synonym: "5HT receptor complex" EXACT []
@@ -32192,7 +32265,7 @@
  created_by: dos
  creation_date: 2016-12-21T12:24:56Z
  
-@@ -445943,7 +447161,7 @@
+@@ -445943,7 +447179,7 @@
  namespace: cellular_component
  def: "A protein complex that is capable of G protein-coupled serotonin receptor activity." [GO_REF:0000088, GOC:bhm, GOC:TermGenie]
  synonym: "G-protein coupled serotonin receptor complex" EXACT []
@@ -32201,7 +32274,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12942" xsd:anyURI
  created_by: dos
  creation_date: 2016-12-21T12:28:12Z
-@@ -446759,6 +447977,7 @@
+@@ -446759,6 +447995,7 @@
  name: 1-phosphatidylinositol 4-kinase activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of 1-phosphatidylinositol 4-kinase." [PMID:21288895]
@@ -32209,7 +32282,7 @@
  is_a: GO:0019209 ! kinase activator activity
  relationship: positively_regulates GO:0004430 ! 1-phosphatidylinositol 4-kinase activity
  
-@@ -447296,7 +448515,7 @@
+@@ -447296,7 +448533,7 @@
  def: "Any protein complex that is part of the plasma membrane and which functions as a signaling receptor." [GOC:dos]
  comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
  subset: gocheck_do_not_annotate
@@ -32218,7 +32291,7 @@
  is_a: GO:0098797 ! plasma membrane protein complex
  
  [Term]
-@@ -448266,7 +449485,7 @@
+@@ -448266,7 +449503,7 @@
  id: GO:0098900
  name: regulation of action potential
  namespace: biological_process
@@ -32227,7 +32300,7 @@
  comment: The ion channels through which current flows during an action potential should be annotated to the process 'action potential'. Gene products involved in modulating the characteristics of an action potential via changing the expression levels or the activity of these channels (e.g. modulating their kinetics or voltage sensitivity) should be annotated to this regulation term.
  is_a: GO:0042391 ! regulation of membrane potential
  is_a: GO:0050789 ! regulation of biological process
-@@ -450289,6 +451508,7 @@
+@@ -450289,6 +451526,7 @@
  name: potassium channel activator activity
  namespace: molecular_function
  def: "Binds to and increases the activity of a potassium channel, resulting in its opening." [GOC:dos]
@@ -32235,7 +32308,7 @@
  is_a: GO:0015459 ! potassium channel regulator activity
  is_a: GO:0099103 ! channel activator activity
  relationship: positively_regulates GO:0005267 ! potassium channel activity
-@@ -452296,6 +453516,10 @@
+@@ -452296,6 +453534,10 @@
  name: ligand-gated calcium channel activity
  namespace: molecular_function
  def: "Enables the transmembrane transfer of a calcium ions by a channel that opens when a specific ligand has been bound by the channel complex or one of its constituent parts." [GOC:dos]
@@ -32246,7 +32319,7 @@
  is_a: GO:0005262 ! calcium channel activity
  is_a: GO:0099094 ! ligand-gated monoatomic cation channel activity
  relationship: part_of GO:0019722 ! calcium-mediated signaling
-@@ -452412,9 +453636,10 @@
+@@ -452412,9 +453654,10 @@
  id: GO:0099617
  name: matrix side of mitochondrial inner membrane
  namespace: cellular_component
@@ -32258,7 +32331,7 @@
  
  [Term]
  id: GO:0099618
-@@ -452449,11 +453674,12 @@
+@@ -452449,11 +453692,12 @@
  
  [Term]
  id: GO:0099620
@@ -32272,7 +32345,7 @@
  synonym: "UDP-4-amino-4-deoxy-L-arabinose---oxoglutarate aminotransferase" EXACT []
  synonym: "UDP-Ara4O aminotransferase" EXACT []
  synonym: "UDP-L-Ara4N transaminase" EXACT []
-@@ -452463,6 +453689,7 @@
+@@ -452463,6 +453707,7 @@
  property_value: skos:exactMatch EC:2.6.1.87
  property_value: skos:exactMatch RHEA:24710
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -32280,7 +32353,7 @@
  
  [Term]
  id: GO:0099621
-@@ -453523,6 +454750,7 @@
+@@ -453523,6 +454768,7 @@
  comment: There are two main classes of deubiquitinating enzymes: cysteine proteases (i.e., thiol dependent) and metalloproteases.
  synonym: "ubiquitinyl hydrolase activity" EXACT []
  xref: Reactome:R-HSA-9674127 "USP30 deubiquitinates ATM dimer:Ub-p-PEX5"
@@ -32288,7 +32361,7 @@
  is_a: GO:0019783 ! ubiquitin-like protein peptidase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17398" xsd:anyURI
  created_by: mec
-@@ -453989,19 +455217,22 @@
+@@ -453989,19 +455235,22 @@
  
  [Term]
  id: GO:0102037
@@ -32318,7 +32391,7 @@
  
  [Term]
  id: GO:0102039
-@@ -454070,11 +455301,12 @@
+@@ -454070,11 +455319,12 @@
  
  [Term]
  id: GO:0102044
@@ -32335,7 +32408,7 @@
  
  [Term]
  id: GO:0102045
-@@ -454725,11 +455957,12 @@
+@@ -454725,11 +455975,12 @@
  
  [Term]
  id: GO:0102115
@@ -32352,7 +32425,7 @@
  
  [Term]
  id: GO:0102116
-@@ -454827,11 +456060,12 @@
+@@ -454827,11 +456078,12 @@
  
  [Term]
  id: GO:0102126
@@ -32369,7 +32442,7 @@
  
  [Term]
  id: GO:0102127
-@@ -454900,19 +456134,21 @@
+@@ -454900,19 +456152,21 @@
  
  [Term]
  id: GO:0102134
@@ -32399,7 +32472,7 @@
  
  [Term]
  id: GO:0102136
-@@ -455065,7 +456301,7 @@
+@@ -455065,7 +456319,7 @@
  id: GO:0102149
  name: farnesylcysteine lyase activity
  namespace: molecular_function
@@ -32408,7 +32481,7 @@
  xref: EC:1.8.3.6
  xref: MetaCyc:RXN-11623
  xref: RHEA:30231
-@@ -455923,11 +457159,12 @@
+@@ -455923,11 +457177,12 @@
  
  [Term]
  id: GO:0102235
@@ -32425,7 +32498,7 @@
  
  [Term]
  id: GO:0102236
-@@ -456060,11 +457297,12 @@
+@@ -456060,11 +457315,12 @@
  
  [Term]
  id: GO:0102249
@@ -32442,7 +32515,7 @@
  
  [Term]
  id: GO:0102250
-@@ -456723,7 +457961,7 @@
+@@ -456723,7 +457979,7 @@
  id: GO:0102317
  name: 4-methylaminobutyrate oxidase (demethylating) activity
  namespace: molecular_function
@@ -32451,7 +32524,7 @@
  xref: EC:1.5.3.19
  xref: MetaCyc:RXN-13067
  xref: RHEA:33907
-@@ -457134,7 +458372,9 @@
+@@ -457134,7 +458390,9 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: mithramycin DK + NADPH + H+ = iso-mithramycin + NADP+. Note that  iso-mithramycin (iso-MTM) is a C2-epimer of mithramycin.  This intermediate appears to be biologically important because it is non-toxic, then exported out of the cell and finally spontaneously epimerized into the toxic mithramycin. This could represent a self-resistance mechanism against MTM toxicity." [PMID:31702856]
  xref: MetaCyc:RXN-13385
@@ -32461,7 +32534,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30329" xsd:anyURI
  
-@@ -457249,11 +458489,12 @@
+@@ -457249,11 +458507,12 @@
  
  [Term]
  id: GO:0102369
@@ -32478,7 +32551,7 @@
  
  [Term]
  id: GO:0102370
-@@ -458174,13 +459415,14 @@
+@@ -458174,13 +459433,14 @@
  
  [Term]
  id: GO:0102459
@@ -32497,7 +32570,7 @@
  
  [Term]
  id: GO:0102460
-@@ -458228,11 +459470,12 @@
+@@ -458228,11 +459488,12 @@
  
  [Term]
  id: GO:0102465
@@ -32514,7 +32587,7 @@
  
  [Term]
  id: GO:0102466
-@@ -459982,11 +461225,12 @@
+@@ -459982,11 +461243,12 @@
  
  [Term]
  id: GO:0102641
@@ -32531,7 +32604,7 @@
  
  [Term]
  id: GO:0102643
-@@ -461203,11 +462447,12 @@
+@@ -461203,11 +462465,12 @@
  
  [Term]
  id: GO:0102762
@@ -32548,7 +32621,7 @@
  
  [Term]
  id: GO:0102763
-@@ -461324,6 +462569,7 @@
+@@ -461324,6 +462587,7 @@
  synonym: "sphingolipid long-chain base 4-hydroxylase activity" RELATED []
  xref: EC:1.14.18.5
  xref: MetaCyc:RXN-14250
@@ -32556,7 +32629,7 @@
  xref: RHEA:55808
  is_a: GO:0016716 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, another compound as one donor, and incorporation of one atom of oxygen
  property_value: skos:exactMatch EC:1.14.18.5
-@@ -461382,7 +462628,7 @@
+@@ -461382,7 +462646,7 @@
  id: GO:0102778
  name: delta9-tetrahydrocannabinolate synthase activity
  namespace: molecular_function
@@ -32565,7 +32638,7 @@
  xref: EC:1.21.3.7
  xref: MetaCyc:RXN-7854
  xref: RHEA:34135
-@@ -461395,7 +462641,7 @@
+@@ -461395,7 +462659,7 @@
  id: GO:0102779
  name: cannabidiolate synthase activity
  namespace: molecular_function
@@ -32574,7 +32647,7 @@
  xref: EC:1.21.3.8
  xref: MetaCyc:RXN-7855
  xref: RHEA:34411
-@@ -461792,12 +463038,13 @@
+@@ -461792,12 +463056,13 @@
  
  [Term]
  id: GO:0102818
@@ -32592,7 +32665,7 @@
  
  [Term]
  id: GO:0102819
-@@ -462992,9 +464239,10 @@
+@@ -462992,9 +464257,10 @@
  
  [Term]
  id: GO:0102933
@@ -32605,7 +32678,7 @@
  xref: EC:2.6.1.102
  xref: MetaCyc:RXN-8953
  xref: RHEA:36779
-@@ -463002,6 +464250,7 @@
+@@ -463002,6 +464268,7 @@
  property_value: skos:exactMatch EC:2.6.1.102
  property_value: skos:exactMatch RHEA:36779
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -32613,7 +32686,7 @@
  
  [Term]
  id: GO:0102934
-@@ -463036,11 +464285,12 @@
+@@ -463036,11 +464303,12 @@
  
  [Term]
  id: GO:0102937
@@ -32630,7 +32703,7 @@
  
  [Term]
  id: GO:0102938
-@@ -463129,11 +464379,12 @@
+@@ -463129,11 +464397,12 @@
  
  [Term]
  id: GO:0102947
@@ -32647,7 +32720,7 @@
  
  [Term]
  id: GO:0102948
-@@ -463181,11 +464432,12 @@
+@@ -463181,11 +464450,12 @@
  
  [Term]
  id: GO:0102953
@@ -32664,7 +32737,7 @@
  
  [Term]
  id: GO:0102954
-@@ -463526,7 +464778,6 @@
+@@ -463526,7 +464796,6 @@
  name: trehalose synthase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: an NDP-alpha-D-glucose + D-glucose = a ribonucleoside 5'-diphosphate + alpha,alpha-trehalose + H+." [RHEA:47416]
@@ -32672,7 +32745,7 @@
  xref: EC:2.4.1.245
  xref: MetaCyc:RXN-9603
  xref: RHEA:47416
-@@ -463534,10 +464785,8 @@
+@@ -463534,10 +464803,8 @@
  property_value: skos:exactMatch EC:2.4.1.245
  property_value: skos:exactMatch MetaCyc:RXN-9603
  property_value: skos:exactMatch RHEA:47416
@@ -32684,7 +32757,7 @@
  
  [Term]
  id: GO:0102987
-@@ -463753,11 +465002,12 @@
+@@ -463753,11 +465020,12 @@
  
  [Term]
  id: GO:0103004
@@ -32701,7 +32774,7 @@
  
  [Term]
  id: GO:0103005
-@@ -463770,11 +465020,12 @@
+@@ -463770,11 +465038,12 @@
  
  [Term]
  id: GO:0103006
@@ -32718,7 +32791,7 @@
  
  [Term]
  id: GO:0103007
-@@ -463978,11 +465229,12 @@
+@@ -463978,11 +465247,12 @@
  
  [Term]
  id: GO:0103033
@@ -32735,7 +32808,7 @@
  
  [Term]
  id: GO:0103035
-@@ -464268,14 +465520,14 @@
+@@ -464268,14 +465538,14 @@
  
  [Term]
  id: GO:0103068
@@ -32754,7 +32827,7 @@
  
  [Term]
  id: GO:0103069
-@@ -464621,19 +465873,18 @@
+@@ -464621,19 +465891,18 @@
  
  [Term]
  id: GO:0103111
@@ -32780,7 +32853,7 @@
  
  [Term]
  id: GO:0103113
-@@ -465234,15 +466485,13 @@
+@@ -465234,15 +466503,13 @@
  
  [Term]
  id: GO:0106045
@@ -32802,7 +32875,7 @@
  
  [Term]
  id: GO:0106046
-@@ -465289,14 +466538,17 @@
+@@ -465289,14 +466556,17 @@
  
  [Term]
  id: GO:0106050
@@ -32824,7 +32897,7 @@
  created_by: hjd
  creation_date: 2017-08-11T20:30:31Z
  
-@@ -465368,10 +466620,11 @@
+@@ -465368,10 +466638,11 @@
  
  [Term]
  id: GO:0106059
@@ -32837,7 +32910,7 @@
  xref: EC:2.1.1.206
  xref: MetaCyc:RXN-11869
  xref: RHEA:42968
-@@ -466459,13 +467712,16 @@
+@@ -466459,13 +467730,16 @@
  
  [Term]
  id: GO:0106162
@@ -32855,7 +32928,7 @@
  created_by: hjd
  creation_date: 2018-12-18T19:19:06Z
  
-@@ -466681,9 +467937,10 @@
+@@ -466681,9 +467955,10 @@
  id: GO:0106186
  name: cytoplasmic side of plasma membrane, cell tip
  namespace: cellular_component
@@ -32867,7 +32940,7 @@
  created_by: hjd
  creation_date: 2019-05-01T17:48:02Z
  
-@@ -467053,6 +468310,7 @@
+@@ -467053,6 +468328,7 @@
  name: peptide glutaryltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: glutaryl-CoA + L-lysyl-[protein] = CoA + H+ + N6-glutaryl-L-lysyl-[protein]." [GOC:sp, PMID:31542297]
@@ -32875,7 +32948,7 @@
  xref: RHEA:18009
  is_a: GO:0016410 ! N-acyltransferase activity
  property_value: skos:exactMatch RHEA:18009
-@@ -467357,6 +468615,8 @@
+@@ -467357,6 +468633,8 @@
  namespace: molecular_function
  def: "A hydroperoxy icosatetraenoate = a hydroxy epoxy icosatrienoate." [PMID:12881489, RHEA:55560]
  xref: EC:5.4.4.7
@@ -32884,7 +32957,7 @@
  xref: RHEA:55560
  is_a: GO:0050486 ! intramolecular hydroxytransferase activity
  property_value: skos:exactMatch EC:5.4.4.7
-@@ -467964,6 +469224,7 @@
+@@ -467964,6 +469242,7 @@
  xref: Reactome:R-HSA-9841265 "p-S473-AKT1 phosphorylates ESR1 on serine-167"
  xref: Reactome:R-HSA-9860792 "Phospho-AKT1 phosphorylates NOS3 (eNOS) on serine-1177"
  xref: Reactome:R-HSA-9860808 "p-T816-PKN2 phosphorylates NOS3 (eNOS) on serine-1179"
@@ -32892,7 +32965,7 @@
  xref: RHEA:17989
  is_a: GO:0004672 ! protein kinase activity
  property_value: skos:exactMatch RHEA:17989
-@@ -468182,7 +469443,7 @@
+@@ -468182,7 +469461,7 @@
  id: GO:0106329
  name: L-phenylalaine oxidase activity
  namespace: molecular_function
@@ -32901,7 +32974,7 @@
  xref: RHEA:61240
  is_a: GO:0001716 ! L-amino-acid oxidase activity
  property_value: skos:exactMatch RHEA:61240
-@@ -468256,7 +469517,7 @@
+@@ -468256,7 +469535,7 @@
  id: GO:0106335
  name: tRNA (5-carboxymethyluridine(34)-5-O)-methyltransferase activity
  namespace: molecular_function
@@ -32910,7 +32983,7 @@
  xref: EC:2.1.1.229
  xref: RHEA:43208
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
-@@ -468280,10 +469541,11 @@
+@@ -468280,10 +469559,11 @@
  
  [Term]
  id: GO:0106339
@@ -32923,7 +32996,7 @@
  xref: MetaCyc:RXN-11866
  xref: RHEA:42932
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
-@@ -468302,12 +469564,15 @@
+@@ -468302,12 +469582,15 @@
  
  [Term]
  id: GO:0106340
@@ -32941,7 +33014,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25257" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26085" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26086" xsd:anyURI
-@@ -468389,9 +469654,10 @@
+@@ -468389,9 +469672,10 @@
  
  [Term]
  id: GO:0106347
@@ -32954,7 +33027,7 @@
  xref: RHEA:62672
  is_a: GO:0106346 ! snRNA methyltransferase activity
  property_value: skos:exactMatch RHEA:62672
-@@ -468401,9 +469667,11 @@
+@@ -468401,9 +469685,11 @@
  
  [Term]
  id: GO:0106348
@@ -32967,7 +33040,7 @@
  is_a: GO:0106346 ! snRNA methyltransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27392" xsd:anyURI
  created_by: hjd
-@@ -469851,11 +471119,14 @@
+@@ -469851,11 +471137,14 @@
  
  [Term]
  id: GO:0110035
@@ -32986,7 +33059,7 @@
  created_by: kmv
  creation_date: 2017-07-17T21:09:50Z
  
-@@ -471502,13 +472773,19 @@
+@@ -471502,13 +472791,19 @@
  namespace: molecular_function
  def: "Removes a lipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. This results in intermembrane transfer of lipids." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
  synonym: "intermembrane lipid transfer activity" EXACT []
@@ -33008,7 +33081,7 @@
  created_by: krc
  creation_date: 2017-03-17T03:17:29Z
  
-@@ -471519,9 +472796,9 @@
+@@ -471519,9 +472814,9 @@
  def: "Removes a phospholipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
  synonym: "intermembrane phospholipid transfer activity" NARROW []
  synonym: "phospholipid carrier activity" EXACT []
@@ -33019,7 +33092,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
  created_by: krc
  creation_date: 2017-03-17T03:34:17Z
-@@ -471550,7 +472827,6 @@
+@@ -471550,7 +472845,6 @@
  def: "Removes a sphingolipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
  synonym: "intermembrane sphingolipid transfer activity" NARROW []
  synonym: "sphingolipid carrier activity" NARROW []
@@ -33027,7 +33100,7 @@
  is_a: GO:0120013 ! lipid transfer activity
  relationship: has_part GO:0046625 ! sphingolipid binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
-@@ -471566,6 +472842,7 @@
+@@ -471566,6 +472860,7 @@
  synonym: "ceramide carrier activity" EXACT []
  synonym: "ceramide transporter activity" BROAD []
  synonym: "intermembrane ceramide transfer activity" NARROW []
@@ -33035,7 +33108,7 @@
  is_a: GO:0120016 ! sphingolipid transfer activity
  relationship: has_part GO:0097001 ! ceramide binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
-@@ -471582,7 +472859,7 @@
+@@ -471582,7 +472877,7 @@
  xref: Reactome:R-HSA-1483087 "PI is exchanged with PC by PITPNB"
  xref: Reactome:R-HSA-1483211 "PC:PITPNB is transported from the Golgi membrane to the ER membrane"
  xref: Reactome:R-HSA-1483219 "PC is exchanged with PI by PITPNB"
@@ -33044,7 +33117,7 @@
  is_a: GO:0120014 ! phospholipid transfer activity
  relationship: has_part GO:0031210 ! phosphatidylcholine binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
-@@ -471923,9 +473200,10 @@
+@@ -471923,9 +473218,10 @@
  
  [Term]
  id: GO:0120048
@@ -33056,7 +33129,7 @@
  xref: EC:2.1.1.346
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
-@@ -471953,6 +473231,7 @@
+@@ -471953,6 +473249,7 @@
  name: ribitol beta-1,4-xylosyltransferase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: UDP-D-xylose + D-ribitol 5-phosphate-R = UDP + beta1,4-xylosyl-D-ribitol 5-phosphate-R." [PMID:27733679]
@@ -33064,7 +33137,7 @@
  is_a: GO:0035252 ! UDP-xylosyltransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13641" xsd:anyURI
  created_by: krc
-@@ -474020,7 +475299,7 @@
+@@ -474020,7 +475317,7 @@
  id: GO:0120216
  name: matrilin complex
  namespace: cellular_component
@@ -33073,7 +33146,7 @@
  synonym: "matrilin family complex" RELATED [GOC:bhm]
  synonym: "matrilin-1 complex" NARROW [GOC:bhm]
  synonym: "matrilin-2 complex" NARROW [GOC:bhm]
-@@ -474226,10 +475505,12 @@
+@@ -474226,10 +475523,12 @@
  synonym: "prenylated FMNH2 biosynthetic process" EXACT []
  synonym: "prenylated FMNH2 formation" EXACT []
  synonym: "prenylated FMNH2 synthesis" EXACT []
@@ -33086,7 +33159,7 @@
  created_by: krc
  creation_date: 2020-06-30T19:09:11Z
  
-@@ -474366,10 +475647,11 @@
+@@ -474366,10 +475665,11 @@
  id: GO:0120242
  name: 2-iminobutanoate deaminase activity
  namespace: molecular_function
@@ -33099,7 +33172,7 @@
  xref: RHEA:39975
  is_a: GO:0120241 ! 2-iminobutanoate/2-iminopropanoate deaminase activity
  property_value: skos:exactMatch RHEA:39975
-@@ -474382,7 +475664,7 @@
+@@ -474382,7 +475682,7 @@
  id: GO:0120243
  name: 2-iminopropanoate deaminase activity
  namespace: molecular_function
@@ -33108,7 +33181,7 @@
  synonym: "2-iminobutanoate/2-iminopropanoate deaminase" BROAD [EC:3.5.99.10]
  xref: KEGG_REACTION:R11099
  xref: MetaCyc:RXN-15127
-@@ -475114,7 +476396,7 @@
+@@ -475114,7 +476414,7 @@
  id: GO:0120294
  name: peptide serotonyltransferase activity
  namespace: molecular_function
@@ -33117,7 +33190,7 @@
  xref: RHEA:66552
  is_a: GO:0016410 ! N-acyltransferase activity
  property_value: skos:exactMatch RHEA:66552
-@@ -475127,7 +476409,7 @@
+@@ -475127,7 +476427,7 @@
  id: GO:0120295
  name: histone serotonyltransferase activity
  namespace: molecular_function
@@ -33126,7 +33199,7 @@
  is_a: GO:0120294 ! peptide serotonyltransferase activity
  is_a: GO:0140993 ! histone modifying activity
  property_value: skos:broadMatch RHEA:66552
-@@ -475140,7 +476422,7 @@
+@@ -475140,7 +476440,7 @@
  id: GO:0120296
  name: peptide dopaminyltransferase activity
  namespace: molecular_function
@@ -33135,7 +33208,7 @@
  xref: RHEA:66556
  is_a: GO:0016410 ! N-acyltransferase activity
  property_value: skos:exactMatch RHEA:66556
-@@ -475153,7 +476435,7 @@
+@@ -475153,7 +476453,7 @@
  id: GO:0120297
  name: histone dopaminyltransferase activity
  namespace: molecular_function
@@ -33144,7 +33217,7 @@
  is_a: GO:0120296 ! peptide dopaminyltransferase activity
  is_a: GO:0140993 ! histone modifying activity
  property_value: skos:broadMatch RHEA:66556
-@@ -475166,7 +476448,7 @@
+@@ -475166,7 +476466,7 @@
  id: GO:0120298
  name: peptide noradrenalinyltransferase activity
  namespace: molecular_function
@@ -33153,7 +33226,7 @@
  xref: RHEA:66560
  is_a: GO:0016410 ! N-acyltransferase activity
  property_value: skos:exactMatch RHEA:66560
-@@ -476107,7 +477389,6 @@
+@@ -476107,7 +477407,6 @@
  name: choline trimethylamine lyase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: choline = acetaldehyde + trimethylamine." [RHEA:35095]
@@ -33161,7 +33234,7 @@
  xref: EC:4.3.99.4
  xref: KEGG_REACTION:R10285
  xref: MetaCyc:RXN-13946
-@@ -476117,8 +477398,8 @@
+@@ -476117,8 +477416,8 @@
  property_value: skos:exactMatch KEGG_REACTION:R10285
  property_value: skos:exactMatch MetaCyc:RXN-13946
  property_value: skos:exactMatch RHEA:35095
@@ -33171,7 +33244,7 @@
  created_by: sjm
  creation_date: 2024-08-30T13:13:55Z
  
-@@ -476228,6 +477509,7 @@
+@@ -476228,6 +477527,7 @@
  synonym: "Glycosaminoglycan biosynthesis, linkage tetrasaccharide" EXACT []
  synonym: "glycosaminoglycan-protein linkage region biosynthesis" EXACT [MetaCyc:PWY-6557]
  xref: MetaCyc:PWY-6557
@@ -33179,7 +33252,7 @@
  is_a: GO:0180064 ! protein O-linked glycosylation via xylose
  relationship: part_of GO:0015012 ! heparan sulfate proteoglycan biosynthetic process
  relationship: part_of GO:0030210 ! heparin proteoglycan biosynthetic process
-@@ -476316,6 +477598,7 @@
+@@ -476316,6 +477616,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: a 4-hydroxy-3-methoxy-5-(all-trans-polyprenyl)benzoate + H+ = a 2-methoxy-6-(all-trans-polyprenyl)phenol + CO2." [PMID:38295803, PMID:38425362, RHEA:81179]
  xref: EC:4.1.1.130
@@ -33187,7 +33260,7 @@
  xref: RHEA:81179
  is_a: GO:0016831 ! carboxy-lyase activity
  relationship: part_of GO:0006744 ! ubiquinone biosynthetic process
-@@ -476423,6 +477706,7 @@
+@@ -476423,6 +477724,7 @@
  def: "Catalysis of the reaction: Fe(II)-heme o + 2 acceptor + H2O = Fe(II)-heme a + 2 acceptor-H2. The conversion of heme o to heme a occcurs by two successive hydroxylations of the methyl group at C8 using water as the oxygen source. The first hydroxylation forms heme i, the second hydroxylation results in an unstable dihydroxymethyl group, which spontaneously dehydrates, resulting in the formyl group of heme A." [PMID:30397130, RHEA:63388]
  xref: EC:1.17.99.9
  xref: MetaCyc:RXN-18399
@@ -33195,7 +33268,7 @@
  xref: RHEA:63388
  is_a: GO:0016725 ! oxidoreductase activity, acting on CH or CH2 groups
  property_value: skos:exactMatch EC:1.17.99.9
-@@ -476527,15 +477811,17 @@
+@@ -476527,15 +477829,17 @@
  
  [Term]
  id: GO:0120554
@@ -33214,7 +33287,7 @@
  created_by: sjm
  creation_date: 2025-05-15T14:38:07Z
  
-@@ -477576,7 +478862,7 @@
+@@ -477576,7 +478880,7 @@
  id: GO:0140070
  name: hydrogen peroxide channel activity
  namespace: molecular_function
@@ -33223,7 +33296,7 @@
  synonym: "hydrogen peroxide transmembrane transporter activity" RELATED []
  is_a: GO:0015267 ! channel activity
  relationship: part_of GO:0080170 ! hydrogen peroxide transmembrane transport
-@@ -477757,11 +479043,12 @@
+@@ -477757,11 +479061,12 @@
  id: GO:0140085
  name: L-amino-acid N-acetyltransferase activity
  namespace: molecular_function
@@ -33239,7 +33312,7 @@
  created_by: pg
  creation_date: 2025-01-24T10:40:36Z
  
-@@ -477985,10 +479272,23 @@
+@@ -477985,10 +479290,23 @@
  subset: goslim_prokaryote
  subset: goslim_prokaryote_ribbon
  xref: Reactome:R-HSA-1449687 "Corticosteroids bind to CBG in blood"
@@ -33263,7 +33336,7 @@
  is_a: GO:0003674 ! molecular_function
  relationship: has_part GO:0005488 ! binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14221" xsd:anyURI
-@@ -478599,12 +479899,14 @@
+@@ -478599,12 +479917,14 @@
  
  [Term]
  id: GO:0140155
@@ -33282,7 +33355,7 @@
  created_by: pg
  creation_date: 2025-03-26T06:55:36Z
  
-@@ -478687,11 +479989,12 @@
+@@ -478687,11 +480007,12 @@
  
  [Term]
  id: GO:0140164
@@ -33297,7 +33370,7 @@
  created_by: pg
  creation_date: 2018-02-08T11:49:38Z
  
-@@ -478865,7 +480168,7 @@
+@@ -478865,7 +480186,7 @@
  id: GO:0140177
  name: membrane-membrane adaptor activity
  namespace: molecular_function
@@ -33306,7 +33379,7 @@
  is_a: GO:0060090 ! molecular adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24964" xsd:anyURI
  created_by: pg
-@@ -478875,10 +480178,11 @@
+@@ -478875,10 +480196,11 @@
  id: GO:0140178
  name: lumenal side of cis-Golgi network membrane
  namespace: cellular_component
@@ -33319,7 +33392,7 @@
  created_by: pg
  creation_date: 2025-06-05T08:47:14Z
  
-@@ -478886,10 +480190,11 @@
+@@ -478886,10 +480208,11 @@
  id: GO:0140179
  name: cytoplasmic side of cis-Golgi network membrane
  namespace: cellular_component
@@ -33332,7 +33405,7 @@
  created_by: pg
  creation_date: 2025-06-05T08:50:47Z
  
-@@ -478898,8 +480203,9 @@
+@@ -478898,8 +480221,9 @@
  name: centriole scaffold activity
  namespace: molecular_function
  def: "The binding activity of a protein that contributes to the stable formation of a centriole by forming persistent structures, or templates, upon which other centriolar proteins assemble." [PMID:29784964, PMID:32956907, PMID:34702818]
@@ -33343,7 +33416,7 @@
  created_by: pg
  creation_date: 2025-06-11T13:59:35Z
  
-@@ -479250,6 +480556,8 @@
+@@ -479250,6 +480574,8 @@
  name: folic acid:proton symporter activity
  namespace: molecular_function
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: folic acid(out) + H+(out) = folic acid(in) + H+(in). The main folic acid symporter is the Proton-Coupled Folate Transporter (PCFT/SLC46A1), which has similar affinity for transport of reduced folates (5-methyl THF, 5-formyl THF) and folic acid." [PMID:24745983]
@@ -33352,7 +33425,7 @@
  xref: TC:2.A.1.50.1
  is_a: GO:0008517 ! folic acid transmembrane transporter activity
  is_a: GO:0015295 ! solute:proton symporter activity
-@@ -479816,8 +481124,8 @@
+@@ -479816,8 +481142,8 @@
  def: "A cellular process in which two or more cells combine together, their plasma membrane fusing, producing a single cell. In some cases, nuclei fuse, producing a polyploid cell, while in other cases, nuclei remain separate, producing a syncytium." [Wikipedia:Cell_fusion]
  synonym: "cell cell fusion" EXACT []
  synonym: "cell fusion" BROAD []
@@ -33362,7 +33435,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15939" xsd:anyURI
  created_by: pg
  creation_date: 2018-08-13T18:38:18Z
-@@ -480414,6 +481722,7 @@
+@@ -480414,6 +481740,7 @@
  synonym: "small molecular sensor activity" EXACT []
  synonym: "small molecule sensing activity" EXACT []
  synonym: "small molecule sensor activity" NARROW []
@@ -33370,7 +33443,7 @@
  is_a: GO:0098772 ! molecular function regulator activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28772" xsd:anyURI
  created_by: pg
-@@ -480451,15 +481760,18 @@
+@@ -480451,15 +481778,18 @@
  
  [Term]
  id: GO:0140303
@@ -33391,7 +33464,7 @@
  created_by: pg
  creation_date: 2019-03-01T20:14:09Z
  
-@@ -480527,13 +481839,16 @@
+@@ -480527,13 +481857,16 @@
  
  [Term]
  id: GO:0140309
@@ -33412,7 +33485,7 @@
  created_by: pg
  creation_date: 2025-11-03T13:14:32Z
  
-@@ -480556,6 +481871,7 @@
+@@ -480556,6 +481889,7 @@
  name: protein sequestering activity
  namespace: molecular_function
  def: "Binding to a protein to prevent it from interacting with other partners or to inhibit its localization to the area of the cell or complex where it is active." [PMID:1493333]
@@ -33420,7 +33493,7 @@
  is_a: GO:0140313 ! molecular sequestering activity
  intersection_of: GO:0140313 ! molecular sequestering activity
  intersection_of: has_part GO:0005515 ! protein binding
-@@ -480593,6 +481909,7 @@
+@@ -480593,6 +481927,7 @@
  subset: goslim_prokaryote_ribbon
  xref: Reactome:R-HSA-203553 "eNOS binds NOSIP"
  xref: Reactome:R-HSA-203680 "eNOS:NOSIP translocation from caveolae to intracellular compartments"
@@ -33428,7 +33501,7 @@
  xref: Reactome:R-HSA-3245898 "TCN1 binds correnoids in the circulation"
  is_a: GO:0003674 ! molecular_function
  created_by: pg
-@@ -480726,7 +482043,11 @@
+@@ -480726,7 +482061,11 @@
  name: lysophospholipase C activity
  namespace: molecular_function
  def: "Hydrolysis of a lysoglycerophospholipid at the first phosphodiester bond between the phosphate and glycerol." [PMID:32917725]
@@ -33440,7 +33513,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30949" xsd:anyURI
  created_by: pg
  creation_date: 2025-11-10T12:35:51Z
-@@ -480747,12 +482068,13 @@
+@@ -480747,12 +482086,13 @@
  
  [Term]
  id: GO:0140326
@@ -33455,7 +33528,7 @@
  synonym: "ATPase-coupled phospholipid transporter activity" RELATED []
  synonym: "ATPase-dependent phospholipid transporter activity" RELATED []
  synonym: "phospholipid flippase activity" NARROW []
-@@ -480763,7 +482085,7 @@
+@@ -480763,7 +482103,7 @@
  xref: MetaCyc:3.6.3.1-RXN
  xref: Reactome:R-HSA-939763 "P-type ATPases type IV transport external-facing APLs to internal side of the plasma membrane"
  xref: Reactome:R-HSA-947591 "P-type ATPases type IV transport internal-facing APLs to external side of the plasma membrane"
@@ -33464,7 +33537,7 @@
  is_a: GO:0140657 ! ATP-dependent activity
  property_value: skos:broadMatch RHEA:66132
  property_value: skos:exactMatch EC:7.6.2.1
-@@ -480781,7 +482103,7 @@
+@@ -480781,7 +482121,7 @@
  def: "Catalysis of the movement of lipids from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:20043909, PMID:25284293, Wikipedia:Flippase]
  comment: Nomenclature note. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases). Scramblases are ATP-independent, non-selective, inducing non-specific transbilayer movements across the membrane. The direction of the translocation should be taken into account for annotation (from the exoplasmic to the cytosolic leaflet of a membrane).
  synonym: "flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
@@ -33473,7 +33546,7 @@
  property_value: skos:broadMatch RHEA:66132
  created_by: pg
  creation_date: 2019-04-29T12:51:21Z
-@@ -480793,7 +482115,7 @@
+@@ -480793,7 +482133,7 @@
  def: "Catalysis of the movement of a lipid from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:20043909, PMID:25284293, Wikipedia:Flippase]
  comment: Nomenclature note. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases). Scramblases are ATP-independent, non-selective, inducing non-specific transbilayer movements across the membrane. The direction of the translocation should be taken into account for annotation (from the cytosolic to the exoplasmic leaflet of a membrane).
  synonym: "floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
@@ -33482,7 +33555,7 @@
  property_value: skos:broadMatch RHEA:66132
  created_by: pg
  creation_date: 2019-04-29T12:58:53Z
-@@ -480849,7 +482171,6 @@
+@@ -480849,7 +482189,6 @@
  namespace: molecular_function
  def: "Catalysis of the movement of a glycerophospholipid from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:26212235]
  synonym: "glycerophospholipid flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
@@ -33490,7 +33563,7 @@
  is_a: GO:0140327 ! flippase activity
  property_value: skos:broadMatch RHEA:66132
  created_by: pg
-@@ -480874,7 +482195,9 @@
+@@ -480874,7 +482213,9 @@
  synonym: "glycoprotein phospholipase C activity" EXACT []
  synonym: "glycosylphosphatidyl inositol-anchor protein phospholipase C activity" EXACT []
  synonym: "GPI-PLC activity" EXACT []
@@ -33500,7 +33573,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28868" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31078" xsd:anyURI
  created_by: pg
-@@ -480945,7 +482268,6 @@
+@@ -480945,7 +482286,6 @@
  namespace: molecular_function
  def: "Catalysis of the movement of phosphatidylethanolamine from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:10029989]
  synonym: "phosphatidylethanolamine floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
@@ -33508,7 +33581,7 @@
  is_a: GO:0140328 ! floppase activity
  property_value: skos:broadMatch RHEA:66132
  created_by: pg
-@@ -480987,7 +482309,7 @@
+@@ -480987,7 +482327,7 @@
  namespace: molecular_function
  def: "Catalysis of the movement of phosphatidylcholine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:11870854]
  synonym: "phosphatidylcholine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
@@ -33517,7 +33590,7 @@
  is_a: GO:0140333 ! glycerophospholipid flippase activity
  property_value: skos:broadMatch RHEA:66132
  created_by: pg
-@@ -481039,7 +482361,9 @@
+@@ -481039,7 +482379,9 @@
  def: "A supramolecular network that forms mainly through linkages of the short laminin arms between the N-terminal regions of one alpha, one beta, and one gamma chain. The laminin network associates with the collagen network to create the stable, sheet-like structure of the basement membrane ECM." [PMID:1577869, PMID:21421915, PMID:23263632, PMID:28187500]
  synonym: "laminin complex" BROAD []
  is_a: GO:0099080 ! supramolecular complex
@@ -33527,7 +33600,7 @@
  created_by: pg
  creation_date: 2025-12-01T12:38:57Z
  
-@@ -481063,7 +482387,7 @@
+@@ -481063,7 +482405,7 @@
  synonym: "glucosylceramide flippase activity" NARROW []
  synonym: "glycoceramide flippase activity" EXACT []
  synonym: "glycosylceramide flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
@@ -33536,7 +33609,7 @@
  is_a: GO:0140327 ! flippase activity
  property_value: skos:broadMatch RHEA:66132
  created_by: pg
-@@ -481224,7 +482548,7 @@
+@@ -481224,7 +482566,7 @@
  namespace: cellular_component
  def: "A ribonucleoprotein granule located in the cytoplasm and the nucleus. GW-bodies minimally contain the Argonaute2 (Ago2) and TNRC6B proteins, together with specific target RNAs." [PMID:16418578, PMID:26930655, PMID:29576456]
  synonym: "GW-body" EXACT []
@@ -33545,7 +33618,7 @@
  created_by: pg
  creation_date: 2019-07-25T19:26:48Z
  
-@@ -481264,7 +482588,7 @@
+@@ -481264,7 +482606,7 @@
  def: "A receptor complex that recognizes, binds and sequesters a specific receptor ligand to prevent it from binding to its regular receptor. May be soluble or membrane bound." [GOC:bhm, PMID:30621730, PMID:9168977]
  synonym: "osteoclastogenesis inhibitory factor" NARROW []
  synonym: "osteoprotegerin complex" NARROW []
@@ -33554,7 +33627,7 @@
  created_by: pg
  creation_date: 2019-09-13T16:39:24Z
  
-@@ -481297,8 +482621,10 @@
+@@ -481297,8 +482639,10 @@
  name: ornithine lipid biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of ornithine lipids, any of a class of phosphorus-free bacterial membrane lipids with an L-ornithine-derived head group." [PMID:22724388]
@@ -33565,7 +33638,7 @@
  created_by: pg
  creation_date: 2026-01-20T12:30:41Z
  
-@@ -481368,6 +482694,29 @@
+@@ -481368,6 +482712,29 @@
  creation_date: 2026-01-21T10:01:05Z
  
  [Term]
@@ -33595,7 +33668,7 @@
  id: GO:0140380
  name: psilocybin biosynthetic process
  namespace: biological_process
-@@ -481443,6 +482792,75 @@
+@@ -481443,6 +482810,75 @@
  creation_date: 2019-11-20T13:25:55Z
  
  [Term]
@@ -33671,7 +33744,7 @@
  id: GO:0140393
  name: norsolorinic acid ketoreductase activity
  namespace: molecular_function
-@@ -482196,11 +483614,13 @@
+@@ -482196,11 +483632,13 @@
  
  [Term]
  id: GO:0140462
@@ -33688,7 +33761,7 @@
  created_by: pg
  creation_date: 2020-05-06T07:47:09Z
  
-@@ -483074,6 +484494,7 @@
+@@ -483074,6 +484512,7 @@
  name: defense response to symbiont
  namespace: biological_process
  def: "Reactions triggered in response to the presence of a symbiont that act to protect or prevent damage to the host." [GOC:pg]
@@ -33696,7 +33769,7 @@
  is_a: GO:0098542 ! defense response to other organism
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20261" xsd:anyURI
  created_by: pg
-@@ -483228,13 +484649,15 @@
+@@ -483228,13 +484667,15 @@
  name: membrane protein dislocase activity
  namespace: molecular_function
  def: "The activity of removing a protein from a membrane, by binding to a transmembrane helical fragment of a tail-anchored protein and releasing it from the the hydrophobic region of one or both lipid bilayers. The reaction is driven by ATP hydrolysis." [PMID:24821790, PMID:28712723, PMID:32973005]
@@ -33714,7 +33787,7 @@
  created_by: pg
  creation_date: 2020-12-15T07:13:21Z
  
-@@ -483366,6 +484789,10 @@
+@@ -483366,6 +484807,10 @@
  comment: Note that this enzyme transports Cu(+) or Ag(+), and cannot transport the divalent ions, contrary to EC:7.2.2.9, which mainly transports the divalent copper ion (source: EC:7.2.2.8).
  xref: EC:7.2.2.8
  xref: MetaCyc:RXN-14455
@@ -33725,7 +33798,7 @@
  xref: RHEA:25792
  is_a: GO:0005375 ! copper ion transmembrane transporter activity
  is_a: GO:0015662 ! P-type ion transporter activity
-@@ -483549,16 +484976,16 @@
+@@ -483549,16 +484994,16 @@
  
  [Term]
  id: GO:0140597
@@ -33746,7 +33819,7 @@
  created_by: pg
  creation_date: 2021-02-10T06:16:16Z
  
-@@ -483567,7 +484994,7 @@
+@@ -483567,7 +485012,7 @@
  name: lipoprotein carrier activity
  namespace: molecular_function
  def: "Binding to and carrying a lipoprotein between two different cellular locations by moving along with the target lipoprotein." [PMID:7628437]
@@ -33755,7 +33828,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15917" xsd:anyURI
  created_by: pg
  creation_date: 2021-02-10T06:16:26Z
-@@ -483732,6 +485159,8 @@
+@@ -483732,6 +485177,8 @@
  synonym: "monoiodotyrosine deiodinase activity" RELATED []
  synonym: "tyrosine iodinase activity" RELATED []
  xref: EC:1.21.1.1
@@ -33764,7 +33837,7 @@
  xref: RHEA:32479
  is_a: GO:0046992 ! oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond
  property_value: skos:exactMatch EC:1.21.1.1
-@@ -484551,6 +485980,7 @@
+@@ -484551,6 +485998,7 @@
  namespace: molecular_function
  def: "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target." [GOC:curators]
  comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
@@ -33772,7 +33845,7 @@
  is_a: GO:0098772 ! molecular function regulator activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21782" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25165" xsd:anyURI
-@@ -484996,7 +486426,7 @@
+@@ -484996,7 +486444,7 @@
  synonym: "histone carrier activity" EXACT []
  synonym: "nucleosome remodeling activity" RELATED []
  xref: Reactome:R-HSA-9822185 "HIRA and NPM2 assemble H3.3-containing nucleosomes on paternal DNA"
@@ -33781,7 +33854,7 @@
  relationship: has_part GO:0042393 ! histone binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22126" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22129" xsd:anyURI
-@@ -485352,8 +486782,9 @@
+@@ -485352,8 +486800,9 @@
  id: GO:0140740
  name: ADP-riboxanase activity
  namespace: molecular_function
@@ -33792,7 +33865,7 @@
  xref: RHEA:69500
  xref: RHEA:75883
  xref: RHEA:75887
-@@ -485588,14 +487019,16 @@
+@@ -485588,14 +487037,16 @@
  id: GO:0140759
  name: histone H3K56 methyltransferase activity
  namespace: molecular_function
@@ -33810,7 +33883,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22757" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24337" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-@@ -485615,8 +487048,12 @@
+@@ -485615,8 +487066,12 @@
  synonym: "histone H3-tri/dimethyl-lysine-56 demethylase activity" EXACT []
  synonym: "histone H3K56me2 demethylase activity" RELATED []
  synonym: "histone H3K56me3 demethylase activity" RELATED []
@@ -33823,7 +33896,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22757" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29636" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30578" xsd:anyURI
-@@ -485724,6 +487161,7 @@
+@@ -485724,6 +487179,7 @@
  synonym: "protein substrate chaperone activity" RELATED []
  synonym: "protein-substrate adaptor activity" BROAD []
  xref: Reactome:R-HSA-202137 "AKT1 binds eNOS complex via HSP90"
@@ -33831,7 +33904,7 @@
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22972" xsd:anyURI
  created_by: pg
-@@ -486533,6 +487971,7 @@
+@@ -486533,6 +487989,7 @@
  name: lactoperoxidase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: 2 a phenolic donor + H2O2 = 2 a phenolic radical donor + 2 H2O." [PMID:19339248, RHEA:56136]
@@ -33839,7 +33912,7 @@
  synonym: "peroxidase activity" BROAD []
  xref: EC:1.11.1.7
  xref: MetaCyc:PEROXID-RXN
-@@ -487690,6 +489129,11 @@
+@@ -487690,6 +489147,11 @@
  name: halogenase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: R-CH + a halogen + oxygen donor = R-C-halogen +H2O." [PMID:28466644, PMID:34368824]
@@ -33851,7 +33924,7 @@
  is_a: GO:0016705 ! oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23587" xsd:anyURI
  created_by: pg
-@@ -490001,6 +491445,7 @@
+@@ -490001,6 +491463,7 @@
  namespace: molecular_function
  def: "Binding to and responding, e.g. by conformational change, to changes in the cellular level of glucose." [PMID:17470517]
  synonym: "glucose sensing activity" EXACT []
@@ -33859,7 +33932,7 @@
  is_a: GO:0140299 ! molecular sensor activity
  relationship: has_part GO:0005536 ! D-glucose binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25267" xsd:anyURI
-@@ -490117,10 +491562,11 @@
+@@ -490117,10 +491580,11 @@
  
  [Term]
  id: GO:0141098
@@ -33872,7 +33945,7 @@
  xref: MetaCyc:RXN-11860
  xref: RHEA:43084
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
-@@ -490134,9 +491580,10 @@
+@@ -490134,9 +491598,10 @@
  
  [Term]
  id: GO:0141100
@@ -33884,7 +33957,7 @@
  synonym: "tRNA (guanosine(18)-2'-O)-methyltransferase activity" EXACT []
  xref: EC:2.1.1.34
  xref: MetaCyc:2.1.1.34-RXN
-@@ -490151,10 +491598,11 @@
+@@ -490151,10 +491616,11 @@
  
  [Term]
  id: GO:0141101
@@ -33897,7 +33970,7 @@
  xref: EC:2.1.1.211
  xref: MetaCyc:RXN-12368
  xref: Reactome:R-HSA-6788707 "TRMT44 2'-O-methylates uridine-44 in tRNA(Ser)"
-@@ -490169,9 +491617,10 @@
+@@ -490169,9 +491635,10 @@
  
  [Term]
  id: GO:0141102
@@ -33909,7 +33982,7 @@
  synonym: "tRNA (cytidine(34)/5-carboxymethylaminomethyluridine(34)-2'-O)- methyltransferase activity" EXACT []
  xref: RHEA:43088
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
-@@ -490360,6 +491809,7 @@
+@@ -490360,6 +491827,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: Fe(II)-heme b-[protein] + nitric oxide + O2 = Fe(III)-heme b-[protein] + nitrate." [PMID:20511233]
  comment: Note that this activity is similar to nitric oxide dioxygenase activity ; GO:0008941, but GO:000894 uses NADPH as the electron donor.
@@ -33917,7 +33990,7 @@
  xref: RHEA:78091
  is_a: GO:0016675 ! oxidoreductase activity, acting on a heme group of donors
  property_value: skos:exactMatch RHEA:78091
-@@ -490836,6 +492286,7 @@
+@@ -490836,6 +492304,7 @@
  synonym: "cAMP/PKA signaling cassette" EXACT []
  synonym: "PKA signaling" BROAD []
  synonym: "protein kinase A signaling" BROAD []
@@ -33925,7 +33998,7 @@
  is_a: GO:0141124 ! intracellular signaling cassette
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26899" xsd:anyURI
  created_by: pg
-@@ -492485,9 +493936,10 @@
+@@ -492485,9 +493954,10 @@
  id: GO:0150103
  name: reactive gliosis
  namespace: biological_process
@@ -33937,7 +34010,7 @@
  created_by: bc
  creation_date: 2019-05-21T12:37:31Z
  
-@@ -493982,8 +495434,9 @@
+@@ -493982,8 +495452,9 @@
  def: "The binding activity of a molecule that brings together an ubiquitin ligase and an ubiquitin ligase-substrate adaptor, permitting those molecules to function in a coordinated way." [PMID:27664236]
  synonym: "core protein activity for the CUL-RING ubiquitin ligase complex" NARROW []
  synonym: "core protein activity for the Cullin-RING ubiquitin ligase complex" NARROW []
@@ -33948,7 +34021,7 @@
  created_by: rynl
  creation_date: 2022-12-21T22:41:32Z
  
-@@ -494013,6 +495466,8 @@
+@@ -494013,6 +495484,8 @@
  name: non-canonical inflammasome complex assembly
  namespace: biological_process
  def: "The aggregation, arrangement and bonding together of a set of components to form a non-canonical inflammasome complex." [PMID:27291964]
@@ -33957,7 +34030,7 @@
  is_a: GO:0065003 ! protein-containing complex assembly
  created_by: rynl
  creation_date: 2023-01-25T22:38:01Z
-@@ -494216,7 +495671,7 @@
+@@ -494216,7 +495689,7 @@
  id: GO:0160096
  name: nematode pharyngeal muscle development
  namespace: biological_process
@@ -33966,7 +34039,7 @@
  is_a: GO:0007517 ! muscle organ development
  relationship: part_of GO:0160094 ! nematode pharynx development
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18285" xsd:anyURI
-@@ -495446,6 +496901,7 @@
+@@ -495446,6 +496919,7 @@
  def: "Catalysis of the reaction: a di-trans,poly-cis-polyprenol + NAD+ = a di-trans,poly-cis-polyprenal + NADH + H+." [PMID:38821050, RHEA:80719]
  synonym: "polyprenol dehydrogenase activity" BROAD []
  xref: MetaCyc:RXN-24567
@@ -33974,7 +34047,7 @@
  xref: RHEA:80719
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
  property_value: skos:broadMatch EC:1.1.1.441
-@@ -495478,6 +496934,7 @@
+@@ -495478,6 +496952,7 @@
  def: "Catalysis of the reaction: ditrans,polycis-polyprenal+ H+ + NADPH = ditrans,polycis-dolichal+ NADP." [PMID:38821050, RHEA:80727]
  xref: EC:1.3.1.94
  xref: MetaCyc:RXN-9971
@@ -33982,7 +34055,7 @@
  xref: RHEA:80727
  is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.3.1.94
-@@ -495564,10 +497021,11 @@
+@@ -495564,10 +497039,11 @@
  
  [Term]
  id: GO:0160206
@@ -33995,7 +34068,7 @@
  xref: EC:2.1.1.200
  xref: RHEA:42936
  is_a: GO:0016300 ! tRNA (uridine) methyltransferase activity
-@@ -496050,6 +497508,7 @@
+@@ -496050,6 +497526,7 @@
  name: NADPH-iron-sulfur [2Fe-2S] protein oxidoreductase activity
  namespace: molecular_function
  def: "Catalysis of the reaction: 2 oxidized [2Fe-2S]-[protein] + NADPH = 2 reduced [2Fe-2S]-[protein] + NADP+ + H+." [RHEA:67716]
@@ -34003,7 +34076,7 @@
  xref: RHEA:67716
  is_a: GO:0016731 ! oxidoreductase activity, acting on iron-sulfur proteins as donors, NAD or NADP as acceptor
  property_value: skos:exactMatch RHEA:67716
-@@ -496358,9 +497817,11 @@
+@@ -496358,9 +497835,11 @@
  id: GO:0160272
  name: RNA 2',3'-cyclic phosphatase activity
  namespace: molecular_function
@@ -34016,7 +34089,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28001" xsd:anyURI
  created_by: rynl
  creation_date: 2025-05-28T05:44:27Z
-@@ -496369,11 +497830,13 @@
+@@ -496369,11 +497848,13 @@
  id: GO:0160273
  name: RNA 2'-phosphatase activity
  namespace: molecular_function
@@ -34031,7 +34104,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28002" xsd:anyURI
  created_by: rynl
  creation_date: 2025-05-28T16:38:49Z
-@@ -496420,12 +497883,13 @@
+@@ -496420,12 +497901,13 @@
  id: GO:0160277
  name: lumenal side of cis-Golgi cisternae membrane
  namespace: cellular_component
@@ -34046,7 +34119,7 @@
  created_by: rynl
  creation_date: 2025-06-21T00:29:16Z
  
-@@ -496433,12 +497897,13 @@
+@@ -496433,12 +497915,13 @@
  id: GO:0160278
  name: cytoplasmic side of cis-Golgi cisternae membrane
  namespace: cellular_component
@@ -34061,7 +34134,7 @@
  created_by: rynl
  creation_date: 2025-06-22T17:19:30Z
  
-@@ -496446,12 +497911,13 @@
+@@ -496446,12 +497929,13 @@
  id: GO:0160279
  name: cytoplasmic side of medial-Golgi cisterna membrane
  namespace: cellular_component
@@ -34076,7 +34149,7 @@
  created_by: rynl
  creation_date: 2025-06-22T21:12:40Z
  
-@@ -496459,12 +497925,13 @@
+@@ -496459,12 +497943,13 @@
  id: GO:0160280
  name: lumenal side of medial-Golgi cisterna membrane
  namespace: cellular_component
@@ -34091,7 +34164,7 @@
  created_by: rynl
  creation_date: 2025-06-22T21:36:28Z
  
-@@ -496472,13 +497939,14 @@
+@@ -496472,13 +497957,14 @@
  id: GO:0160281
  name: cytoplasmic side of trans-Golgi network membrane
  namespace: cellular_component
@@ -34107,7 +34180,7 @@
  created_by: rynl
  creation_date: 2025-06-22T23:41:33Z
  
-@@ -496486,13 +497954,14 @@
+@@ -496486,13 +497972,14 @@
  id: GO:0160282
  name: lumenal side of trans-Golgi network membrane
  namespace: cellular_component
@@ -34123,7 +34196,7 @@
  created_by: rynl
  creation_date: 2025-06-23T00:11:57Z
  
-@@ -496500,9 +497969,11 @@
+@@ -496500,9 +497987,11 @@
  id: GO:0160283
  name: queuine transmembrane transporter activity
  namespace: molecular_function
@@ -34136,7 +34209,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30470" xsd:anyURI
  created_by: rynl
  creation_date: 2025-06-24T17:27:38Z
-@@ -496522,9 +497993,11 @@
+@@ -496522,9 +498011,11 @@
  id: GO:0160286
  name: queuosine transmembrane transporter activity
  namespace: molecular_function
@@ -34149,7 +34222,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30470" xsd:anyURI
  created_by: rynl
  creation_date: 2025-06-27T00:30:53Z
-@@ -496544,13 +498017,14 @@
+@@ -496544,13 +498035,14 @@
  id: GO:0160288
  name: cytoplasmic side of trans-Golgi cisterna membrane
  namespace: cellular_component
@@ -34165,7 +34238,7 @@
  created_by: rynl
  creation_date: 2025-06-27T05:51:59Z
  
-@@ -496558,13 +498032,14 @@
+@@ -496558,13 +498050,14 @@
  id: GO:0160289
  name: lumenal side of trans-Golgi cisternae membrane
  namespace: cellular_component
@@ -34181,7 +34254,7 @@
  created_by: rynl
  creation_date: 2025-06-27T06:11:48Z
  
-@@ -496584,10 +498059,12 @@
+@@ -496584,10 +498077,12 @@
  id: GO:0160291
  name: phosphatidylinositol-4-phosphate-cholesterol exchange activity
  namespace: molecular_function
@@ -34195,7 +34268,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27059" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30432" xsd:anyURI
  created_by: rynl
-@@ -496663,9 +498140,13 @@
+@@ -496663,9 +498158,13 @@
  id: GO:0160298
  name: pyridinol guanylyltransferase activity
  namespace: molecular_function
@@ -34210,7 +34283,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30718" xsd:anyURI
  created_by: rynl
  creation_date: 2025-08-21T00:46:39Z
-@@ -496685,9 +498166,13 @@
+@@ -496685,9 +498184,13 @@
  id: GO:0160301
  name: guanylylpyridinol adenylase activity
  namespace: molecular_function
@@ -34225,7 +34298,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30720" xsd:anyURI
  created_by: rynl
  creation_date: 2025-08-21T22:49:37Z
-@@ -496696,9 +498181,11 @@
+@@ -496696,9 +498199,11 @@
  id: GO:0160302
  name: 6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity
  namespace: molecular_function
@@ -34238,7 +34311,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30721" xsd:anyURI
  created_by: rynl
  creation_date: 2025-08-21T23:15:13Z
-@@ -496721,9 +498208,11 @@
+@@ -496721,9 +498226,11 @@
  id: GO:0160304
  name: 4-vinylphenol methyltransferase activity
  namespace: molecular_function
@@ -34251,7 +34324,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30708" xsd:anyURI
  created_by: rynl
  creation_date: 2025-08-23T00:16:21Z
-@@ -496890,17 +498379,13 @@
+@@ -496890,17 +498397,13 @@
  
  [Term]
  id: GO:0160320
@@ -34274,7 +34347,7 @@
  
  [Term]
  id: GO:0170001
-@@ -496970,6 +498455,8 @@
+@@ -496970,6 +498473,8 @@
  name: endoplasmic reticulum-lipid droplet tether activity
  namespace: molecular_function
  def: "The binding activity of a molecule that brings together a lipid droplet with an endoplasmic reticulum membrane, via membrane lipid binding, to establish membrane contact sites and mediate exchange and communication." [PMID:35389430]
@@ -34283,7 +34356,7 @@
  is_a: GO:0043495 ! protein-membrane adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25428" xsd:anyURI
  created_by: ew
-@@ -497135,6 +498622,8 @@
+@@ -497135,6 +498640,8 @@
  def: "The chemical reactions and pathways involving an L-amino acid." [GOC:edw]
  synonym: "L-alpha-amino acid metabolism" EXACT []
  synonym: "L-amino acid metabolism" EXACT []
@@ -34292,7 +34365,7 @@
  is_a: GO:1901605 ! alpha-amino acid metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23268" xsd:anyURI
  created_by: ew
-@@ -497278,7 +498767,6 @@
+@@ -497278,7 +498785,6 @@
  def: "Enables the transfer of isopentenyl pyrophosphate from one side of a membrane to the other." [GOC:ew, PMID:37813972]
  synonym: "IPP transmembrane transport activity" EXACT []
  synonym: "isopentenyl diphosphate transmembrane transport activity" EXACT []
@@ -34300,7 +34373,7 @@
  is_a: GO:0015605 ! organophosphate ester transmembrane transporter activity
  is_a: GO:0170055 ! lipid transmembrane transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26285" xsd:anyURI
-@@ -497393,7 +498881,6 @@
+@@ -497393,7 +498899,6 @@
  namespace: molecular_function
  def: "Enables the transfer of a lipid from one side of a membrane to the other." [GOC:curators]
  subset: gocheck_do_not_annotate
@@ -34308,7 +34381,7 @@
  is_a: GO:0022857 ! transmembrane transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27252" xsd:anyURI
  created_by: ew
-@@ -497479,6 +498966,7 @@
+@@ -497479,6 +498984,7 @@
  name: transmembrane transport from lysosomal lumen to cytosol
  namespace: biological_process
  def: "The directed movement of a solute from the lysosomal lumen across the lysosomal membrane and into the cytosol." [PMID:26631267]
@@ -34316,7 +34389,7 @@
  is_a: GO:0007041 ! lysosomal transport
  is_a: GO:0034486 ! vacuolar transmembrane transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20070" xsd:anyURI
-@@ -497517,9 +499005,7 @@
+@@ -497517,9 +499023,7 @@
  def: "The chemical reactions and pathways resulting in the formation of arginine (2-amino-5-guanidinopentanoic acid) via the intermediate compound N-acetyl-L-citrulline." [PMID:16585758]
  synonym: "arginine biosynthesis via N-acetyl intermediates" EXACT []
  synonym: "arginine biosynthesis, N-acetylated pathway" EXACT []
@@ -34326,7 +34399,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29602" xsd:anyURI
  created_by: ew
  creation_date: 2025-03-14T17:04:09Z
-@@ -497583,6 +499069,17 @@
+@@ -497583,6 +499087,17 @@
  creation_date: 2025-08-12T21:56:57Z
  
  [Term]
@@ -34344,7 +34417,7 @@
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -497729,6 +499226,7 @@
+@@ -497729,6 +499244,7 @@
  def: "Any process involved in transcription termination-coupled 3' processing of RNA polymerase II mRNA transcripts by the 3' end cleavage and addition of a poly(A) tail." [PMID:31499460]
  synonym: "cotranscriptional 3' processing of RNA polymerase II mRNA transcripts" EXACT []
  synonym: "mRNA polyadenylation" RELATED []
@@ -34352,7 +34425,7 @@
  is_a: GO:0031124 ! mRNA 3'-end processing
  is_a: GO:0180012 ! co-transcriptional RNA 3'-end processing, cleavage and polyadenylation pathway
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24921" xsd:anyURI
-@@ -497853,7 +499351,7 @@
+@@ -497853,7 +499369,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + U6 snRNA = S-adenosyl-L-homocysteine + U6 containing a 3'-terminal 2'-O-methylnucleotide + H+." [PMID:37403782, RHEA:63088]
  xref: RHEA:63088
@@ -34361,7 +34434,7 @@
  property_value: skos:exactMatch RHEA:63088
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25706" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -498402,6 +499900,21 @@
+@@ -498402,6 +499918,21 @@
  creation_date: 2025-06-27T07:22:01Z
  
  [Term]
@@ -34383,7 +34456,7 @@
  id: GO:0180068
  name: negative regulation of carbohydrate utilization
  namespace: biological_process
-@@ -498412,6 +499925,20 @@
+@@ -498412,6 +499943,20 @@
  creation_date: 2026-01-19T11:52:03Z
  
  [Term]
@@ -34404,7 +34477,7 @@
  id: GO:0198738
  name: obsolete cell-cell signaling by wnt
  namespace: biological_process
-@@ -506319,7 +507846,7 @@
+@@ -506319,7 +507864,7 @@
  id: GO:1900371
  name: regulation of purine nucleotide biosynthetic process
  namespace: biological_process
@@ -34413,7 +34486,7 @@
  synonym: "regulation of purine nucleotide anabolism" EXACT [GOC:TermGenie]
  synonym: "regulation of purine nucleotide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "regulation of purine nucleotide formation" EXACT [GOC:TermGenie]
-@@ -506336,7 +507863,7 @@
+@@ -506336,7 +507881,7 @@
  id: GO:1900372
  name: negative regulation of purine nucleotide biosynthetic process
  namespace: biological_process
@@ -34422,7 +34495,7 @@
  synonym: "down regulation of purine nucleotide anabolism" EXACT [GOC:TermGenie]
  synonym: "down regulation of purine nucleotide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "down regulation of purine nucleotide biosynthetic process" EXACT [GOC:TermGenie]
-@@ -506374,7 +507901,7 @@
+@@ -506374,7 +507919,7 @@
  id: GO:1900373
  name: positive regulation of purine nucleotide biosynthetic process
  namespace: biological_process
@@ -34431,7 +34504,7 @@
  synonym: "activation of purine nucleotide anabolism" EXACT [GOC:TermGenie]
  synonym: "activation of purine nucleotide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "activation of purine nucleotide biosynthetic process" NARROW [GOC:TermGenie]
-@@ -506412,7 +507939,7 @@
+@@ -506412,7 +507957,7 @@
  id: GO:1900374
  name: obsolete positive regulation of mating type switching by regulation of transcription from RNA polymerase II promoter
  namespace: biological_process
@@ -34440,7 +34513,7 @@
  comment: This term was obsoleted because it represents a GO-CAM model.
  synonym: "activation of mating type switching by regulation of transcription from RNA polymerase II promoter" NARROW [GOC:TermGenie]
  synonym: "stimulation of mating type switching by regulation of transcription from RNA polymerase II promoter" NARROW [GOC:TermGenie]
-@@ -506427,7 +507954,7 @@
+@@ -506427,7 +507972,7 @@
  id: GO:1900375
  name: obsolete positive regulation of inositol biosynthetic process by positive regulation of transcription from RNA polymerase II promoter
  namespace: biological_process
@@ -34449,7 +34522,7 @@
  comment: This term was obsoleted because it represents a GO-CAM model.
  synonym: "activation of inositol anabolism by positive regulation of transcription from RNA polymerase II promoter" EXACT [GOC:TermGenie]
  synonym: "activation of inositol biosynthesis by positive regulation of transcription from RNA polymerase II promoter" EXACT [GOC:TermGenie]
-@@ -507294,12 +508821,14 @@
+@@ -507294,12 +508839,14 @@
  name: regulation of alcohol catabolic process
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of alcohol catabolic process within a cell." [GOC:TermGenie]
@@ -34464,7 +34537,7 @@
  created_by: krc
  creation_date: 2012-04-20T10:21:18Z
  
-@@ -507308,6 +508837,7 @@
+@@ -507308,6 +508855,7 @@
  name: negative regulation of alcohol catabolic process
  namespace: biological_process
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of  alcohol catabolic process within a cell." [GOC:TermGenie]
@@ -34472,7 +34545,7 @@
  synonym: "down regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
  synonym: "down-regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
  synonym: "downregulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
-@@ -507318,6 +508848,7 @@
+@@ -507318,6 +508866,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0046164 ! alcohol catabolic process
  relationship: negatively_regulates GO:0046164 ! alcohol catabolic process
@@ -34480,7 +34553,7 @@
  created_by: krc
  creation_date: 2012-04-20T10:21:28Z
  
-@@ -507326,6 +508857,7 @@
+@@ -507326,6 +508875,7 @@
  name: positive regulation of alcohol catabolic process
  namespace: biological_process
  def: "Any process that activates or increases the frequency, rate or extent of alcohol catabolic process within a cell." [GOC:TermGenie]
@@ -34488,7 +34561,7 @@
  synonym: "activation of cellular alcohol catabolic process" NARROW [GOC:TermGenie]
  synonym: "up regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
-@@ -507337,6 +508869,7 @@
+@@ -507337,6 +508887,7 @@
  intersection_of: positively_regulates GO:0046164 ! alcohol catabolic process
  relationship: positively_regulates GO:0046164 ! alcohol catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28908" xsd:anyURI
@@ -34496,7 +34569,7 @@
  created_by: krc
  creation_date: 2012-04-20T10:21:46Z
  
-@@ -507432,6 +508965,7 @@
+@@ -507432,6 +508983,7 @@
  synonym: "negative regulation of defence response to bacterium" EXACT [GOC:TermGenie]
  synonym: "negative regulation of defense response to bacteria" EXACT [GOC:TermGenie]
  synonym: "negative regulation of defense response to bacterium, incompatible interaction" NARROW []
@@ -34504,7 +34577,7 @@
  is_a: GO:0002832 ! negative regulation of response to biotic stimulus
  is_a: GO:0031348 ! negative regulation of defense response
  is_a: GO:0032102 ! negative regulation of response to external stimulus
-@@ -509733,7 +511267,21 @@
+@@ -509733,7 +511285,21 @@
  synonym: "protoheme catabolic process" EXACT []
  synonym: "protoheme degradation" EXACT []
  xref: MetaCyc:PWY-5874
@@ -34526,7 +34599,7 @@
  created_by: pr
  creation_date: 2012-05-14T12:35:18Z
  
-@@ -515476,14 +517024,15 @@
+@@ -515476,14 +517042,15 @@
  
  [Term]
  id: GO:1900829
@@ -34546,7 +34619,7 @@
  created_by: se
  creation_date: 2012-06-06T09:27:24Z
  
-@@ -515516,28 +517065,30 @@
+@@ -515516,28 +517083,30 @@
  
  [Term]
  id: GO:1900832
@@ -34585,7 +34658,7 @@
  created_by: se
  creation_date: 2012-06-06T09:37:47Z
  
-@@ -519793,16 +521344,15 @@
+@@ -519793,16 +521362,15 @@
  
  [Term]
  id: GO:1901053
@@ -34607,7 +34680,7 @@
  created_by: yaf
  creation_date: 2012-06-28T04:52:29Z
  
-@@ -526262,8 +527812,9 @@
+@@ -526262,8 +527830,9 @@
  synonym: "regulation of tetrapyrrole biosynthesis from glutamate" EXACT [GOC:TermGenie]
  synonym: "regulation of tetrapyrrole formation from glutamate" EXACT [GOC:TermGenie]
  synonym: "regulation of tetrapyrrole synthesis from glutamate" EXACT [GOC:TermGenie]
@@ -34618,7 +34691,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
  relationship: regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
-@@ -526299,9 +527850,10 @@
+@@ -526299,9 +527868,10 @@
  synonym: "negative regulation of tetrapyrrole biosynthesis from glutamate" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tetrapyrrole formation from glutamate" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tetrapyrrole synthesis from glutamate" EXACT [GOC:TermGenie]
@@ -34630,7 +34703,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
  relationship: negatively_regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
-@@ -527525,7 +529077,7 @@
+@@ -527525,7 +529095,7 @@
  name: azole transmembrane transporter activity
  namespace: molecular_function
  alt_id: GO:0045118
@@ -34639,7 +34712,7 @@
  synonym: "azole transporter activity" RELATED []
  is_a: GO:0022857 ! transmembrane transporter activity
  relationship: part_of GO:0045117 ! azole transmembrane transport
-@@ -527843,16 +529395,13 @@
+@@ -527843,16 +529413,13 @@
  
  [Term]
  id: GO:1901494
@@ -34661,7 +34734,7 @@
  created_by: vw
  creation_date: 2012-10-16T14:28:42Z
  
-@@ -528870,7 +530419,6 @@
+@@ -528870,7 +530437,6 @@
  namespace: biological_process
  def: "OBSOLETE. The chemical reactions and pathways involving organonitrogen compound." [GOC:pr, GOC:TermGenie]
  comment: The reason for obsoletion is that this term was an unnecessary grouping term.
@@ -34669,7 +34742,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26424" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27194" xsd:anyURI
  is_obsolete: true
-@@ -530336,7 +531884,7 @@
+@@ -530336,7 +531902,7 @@
  name: quinone metabolic process
  namespace: biological_process
  alt_id: GO:0042375
@@ -34678,7 +34751,7 @@
  synonym: "quinone cofactor metabolic process" RELATED []
  synonym: "quinone cofactor metabolism" RELATED []
  synonym: "quinone metabolism" EXACT [GOC:TermGenie]
-@@ -530349,7 +531897,7 @@
+@@ -530349,7 +531915,7 @@
  name: quinone catabolic process
  namespace: biological_process
  alt_id: GO:0042378
@@ -34687,7 +34760,7 @@
  synonym: "quinone breakdown" EXACT [GOC:TermGenie]
  synonym: "quinone catabolism" EXACT [GOC:TermGenie]
  synonym: "quinone cofactor breakdown" RELATED []
-@@ -531282,8 +532830,12 @@
+@@ -531282,8 +532848,12 @@
  synonym: "L-glutamine biosynthesis" EXACT [GOC:TermGenie]
  synonym: "L-glutamine formation" EXACT [GOC:TermGenie]
  synonym: "L-glutamine synthesis" EXACT [GOC:TermGenie]
@@ -34700,7 +34773,7 @@
  created_by: pde
  creation_date: 2012-12-13T23:32:52Z
  
-@@ -531296,8 +532848,21 @@
+@@ -531296,8 +532866,21 @@
  synonym: "L-isoleucine biosynthesis" EXACT [GOC:TermGenie]
  synonym: "L-isoleucine formation" EXACT [GOC:TermGenie]
  synonym: "L-isoleucine synthesis" EXACT [GOC:TermGenie]
@@ -34723,7 +34796,7 @@
  created_by: pde
  creation_date: 2012-12-13T23:32:56Z
  
-@@ -533560,6 +535125,7 @@
+@@ -533560,6 +535143,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving nicotinate." [GOC:TermGenie, GOC:yaf, UniPathway:UPA00830]
  synonym: "nicotinate metabolism" EXACT [GOC:TermGenie]
@@ -34731,7 +34804,7 @@
  is_a: GO:0009820 ! alkaloid metabolic process
  is_a: GO:0032787 ! monocarboxylic acid metabolic process
  is_a: GO:0072524 ! pyridine-containing compound metabolic process
-@@ -533574,10 +535140,17 @@
+@@ -533574,10 +535158,17 @@
  synonym: "nicotinate breakdown" EXACT [GOC:TermGenie]
  synonym: "nicotinate catabolism" EXACT [GOC:TermGenie]
  synonym: "nicotinate degradation" EXACT [GOC:TermGenie]
@@ -34749,7 +34822,7 @@
  created_by: yaf
  creation_date: 2013-01-28T11:23:52Z
  
-@@ -536147,8 +537720,9 @@
+@@ -536147,8 +537738,9 @@
  synonym: "regulation of indoleacetic acid anabolism via tryptophan" EXACT [GOC:TermGenie]
  synonym: "regulation of indoleacetic acid formation via tryptophan" EXACT [GOC:TermGenie]
  synonym: "regulation of indoleacetic acid synthesis via tryptophan" EXACT [GOC:TermGenie]
@@ -34760,7 +34833,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0009848 ! indoleacetic acid biosynthetic process via tryptophan
  relationship: regulates GO:0009848 ! indoleacetic acid biosynthetic process via tryptophan
-@@ -536302,7 +537876,7 @@
+@@ -536302,7 +537894,7 @@
  synonym: "regulation of proline biosynthetic process" BROAD []
  synonym: "regulation of proline formation" EXACT [GOC:TermGenie]
  synonym: "regulation of proline synthesis" EXACT [GOC:TermGenie]
@@ -34769,7 +34842,7 @@
  is_a: GO:2000282 ! regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0055129 ! L-proline biosynthetic process
-@@ -537728,15 +539302,15 @@
+@@ -537728,15 +539320,15 @@
  
  [Term]
  id: GO:1902079
@@ -34790,7 +34863,7 @@
  created_by: al
  creation_date: 2013-04-23T21:34:29Z
  
-@@ -538446,12 +540020,13 @@
+@@ -538446,12 +540038,13 @@
  
  [Term]
  id: GO:1902114
@@ -34808,7 +34881,7 @@
  created_by: al
  creation_date: 2013-05-13T23:27:23Z
  
-@@ -540295,6 +541870,7 @@
+@@ -540295,6 +541888,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving ketone body." [GOC:pr, GOC:TermGenie]
  synonym: "ketone body metabolism" EXACT [GOC:TermGenie]
@@ -34816,7 +34889,7 @@
  is_a: GO:0006091 ! generation of precursor metabolites and energy
  is_a: GO:0044281 ! small molecule metabolic process
  is_a: GO:1901568 ! fatty acid derivative metabolic process
-@@ -544318,6 +545894,7 @@
+@@ -544318,6 +545912,7 @@
  name: chloride transmembrane transport
  namespace: biological_process
  def: "The process in which chloride is transported across a membrane." [GOC:TermGenie, GOC:vw]
@@ -34824,7 +34897,7 @@
  is_a: GO:0006821 ! chloride transport
  is_a: GO:0098656 ! monoatomic anion transmembrane transport
  created_by: bf
-@@ -548263,7 +549840,7 @@
+@@ -548263,7 +549858,7 @@
  namespace: cellular_component
  def: "A protein complex which is capable of GABA receptor activity. Upon binding of gamma-aminobutyric acid (GABA) it transmits the signal from one side of the membrane to the other to initiate a change in cell activity. Major inhibitory receptor in vertebrate brain. Also found in other vertebrate tissues, invertebrates and possibly in plants. Effective benzodiazepine receptor." [GO_REF:0000088, GOC:bhm, GOC:TermGenie, PMID:18790874]
  synonym: "gamma-aminobutyric acid receptor complex" EXACT []
@@ -34833,7 +34906,7 @@
  created_by: bhm
  creation_date: 2014-02-20T16:07:48Z
  
-@@ -548947,8 +550524,7 @@
+@@ -548947,8 +550542,7 @@
  synonym: "sulfurated eukaryotic molybdenum cofactor(2-) formation" EXACT [GOC:TermGenie]
  synonym: "sulfurated eukaryotic molybdenum cofactor(2-) synthesis" EXACT [GOC:TermGenie]
  xref: MetaCyc:PWY-5963
@@ -34843,7 +34916,7 @@
  relationship: has_part GO:0008265 ! molybdenum cofactor sulfurtransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28388" xsd:anyURI
  created_by: dph
-@@ -549009,6 +550585,7 @@
+@@ -549009,6 +550603,7 @@
  synonym: "Mo-molybdopterin-cytosine-dinucleotide cofactor biosynthetic process" EXACT []
  xref: MetaCyc:PWY-6476
  is_a: GO:0006777 ! Mo-molybdopterin cofactor biosynthetic process
@@ -34851,7 +34924,7 @@
  relationship: has_part GO:0061602 ! molybdenum cofactor cytidylyltransferase activity
  created_by: dph
  creation_date: 2014-03-06T14:00:43Z
-@@ -552035,6 +553612,7 @@
+@@ -552035,6 +553630,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0046165 ! alcohol biosynthetic process
  relationship: regulates GO:0046165 ! alcohol biosynthetic process
@@ -34859,7 +34932,7 @@
  created_by: tt
  creation_date: 2014-04-22T21:55:03Z
  
-@@ -552043,6 +553621,7 @@
+@@ -552043,6 +553639,7 @@
  name: negative regulation of alcohol biosynthetic process
  namespace: biological_process
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of alcohol biosynthetic process." [GO_REF:0000058, GOC:mengo_curators, GOC:TermGenie, PMID:23332010]
@@ -34867,7 +34940,7 @@
  synonym: "down regulation of alcohol anabolism" EXACT [GOC:TermGenie]
  synonym: "down regulation of alcohol biosynthesis" EXACT [GOC:TermGenie]
  synonym: "down regulation of alcohol biosynthetic process" EXACT [GOC:TermGenie]
-@@ -552074,6 +553653,7 @@
+@@ -552074,6 +553671,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0046165 ! alcohol biosynthetic process
  relationship: negatively_regulates GO:0046165 ! alcohol biosynthetic process
@@ -34875,7 +34948,7 @@
  created_by: tt
  creation_date: 2014-04-22T21:55:13Z
  
-@@ -552082,6 +553662,7 @@
+@@ -552082,6 +553680,7 @@
  name: positive regulation of alcohol biosynthetic process
  namespace: biological_process
  def: "Any process that activates or increases the frequency, rate or extent of alcohol biosynthetic process." [GO_REF:0000058, GOC:mengo_curators, GOC:TermGenie, PMID:23332010]
@@ -34883,7 +34956,7 @@
  synonym: "activation of alcohol anabolism" NARROW [GOC:TermGenie]
  synonym: "activation of alcohol biosynthesis" NARROW [GOC:TermGenie]
  synonym: "activation of alcohol biosynthetic process" NARROW [GOC:TermGenie]
-@@ -552113,6 +553694,7 @@
+@@ -552113,6 +553712,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0046165 ! alcohol biosynthetic process
  relationship: positively_regulates GO:0046165 ! alcohol biosynthetic process
@@ -34891,7 +34964,7 @@
  created_by: tt
  creation_date: 2014-04-22T21:55:19Z
  
-@@ -552160,6 +553742,7 @@
+@@ -552160,6 +553760,7 @@
  namespace: molecular_function
  def: "Binding to phosphatidylinositol bisphosphate." [GO_REF:0000067, GOC:bhm, GOC:TermGenie, PMID:18690034]
  comment: An example of this is KCNJ2 in human (P63252) in PMID:18690034 (inferred from direct assay)
@@ -34899,7 +34972,7 @@
  is_a: GO:0043168 ! anion binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27059" xsd:anyURI
  created_by: bhm
-@@ -552349,7 +553932,6 @@
+@@ -552349,7 +553950,6 @@
  synonym: "metalloendoproteinase activity involved in amyloid precursor protein degradation" NARROW [GOC:TermGenie]
  synonym: "metalloendoproteinase activity involved in APP catabolic process" NARROW [GOC:TermGenie]
  synonym: "metalloendoproteinase activity involved in APP catabolism" NARROW [GOC:TermGenie]
@@ -34907,7 +34980,7 @@
  is_a: GO:0004222 ! metalloendopeptidase activity
  intersection_of: GO:0004222 ! metalloendopeptidase activity
  intersection_of: part_of GO:0042987 ! amyloid precursor protein catabolic process
-@@ -552593,7 +554175,6 @@
+@@ -552593,7 +554193,6 @@
  synonym: "upregulation of TPK I" RELATED [GOC:TermGenie]
  synonym: "upregulation of TPK II" RELATED [GOC:TermGenie]
  synonym: "upregulation of TTK" RELATED [GOC:TermGenie]
@@ -34915,7 +34988,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22455" xsd:anyURI
  is_obsolete: true
  created_by: sjp
-@@ -552700,31 +554281,25 @@
+@@ -552700,31 +554299,25 @@
  
  [Term]
  id: GO:1902954
@@ -34959,7 +35032,7 @@
  created_by: sjp
  creation_date: 2014-05-02T09:06:29Z
  
-@@ -558015,13 +559590,16 @@
+@@ -558015,13 +559608,16 @@
  
  [Term]
  id: GO:1903212
@@ -34979,7 +35052,7 @@
  created_by: mah
  creation_date: 2014-07-24T09:38:12Z
  
-@@ -559071,8 +560649,9 @@
+@@ -559071,8 +560667,9 @@
  synonym: "regulation of ornithine breakdown" EXACT [GOC:TermGenie]
  synonym: "regulation of ornithine catabolism" EXACT [GOC:TermGenie]
  synonym: "regulation of ornithine degradation" EXACT [GOC:TermGenie]
@@ -34990,7 +35063,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006593 ! L-ornithine catabolic process
  relationship: regulates GO:0006593 ! L-ornithine catabolic process
-@@ -564778,30 +566357,29 @@
+@@ -564778,30 +566375,29 @@
  
  [Term]
  id: GO:1903559
@@ -35030,7 +35103,7 @@
  created_by: kmv
  creation_date: 2014-10-21T17:13:26Z
  
-@@ -568820,7 +570398,7 @@
+@@ -568820,7 +570416,7 @@
  name: taste receptor complex
  namespace: cellular_component
  def: "A protein complex which is capable of taste receptor activity." [GO_REF:0000088, GOC:BHF, GOC:rl, GOC:TermGenie, PMID:16720576]
@@ -35039,7 +35112,7 @@
  created_by: rl
  creation_date: 2014-12-22T16:53:45Z
  
-@@ -589048,6 +590626,8 @@
+@@ -589048,6 +590644,8 @@
  name: all-trans-retinol binding
  namespace: molecular_function
  def: "Binding to all-trans-retinol." [GO_REF:0000067, GOC:kmv, GOC:TermGenie, PMID:19828452]
@@ -35048,7 +35121,7 @@
  is_a: GO:0019841 ! retinol binding
  created_by: kmv
  creation_date: 2015-10-27T21:14:47Z
-@@ -594253,7 +595833,7 @@
+@@ -594253,7 +595851,7 @@
  def: "Any process that modulates the frequency, rate or extent of 'de novo' NAD biosynthetic process from L-tryptophan." [GO_REF:0000058, GOC:bf, GOC:PARL, GOC:TermGenie, PMID:12140278, PMID:19843166]
  synonym: "regulation of 'de novo' NAD biosynthetic process from tryptophan" BROAD []
  synonym: "regulation of de novo NAD biosynthetic process from tryptophan" RELATED [GOC:TermGenie]
@@ -35057,7 +35130,7 @@
  is_a: GO:1900371 ! regulation of purine nucleotide biosynthetic process
  is_a: GO:1902688 ! regulation of NAD metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -594304,7 +595884,7 @@
+@@ -594304,7 +595902,7 @@
  synonym: "up-regulation of de novo NAD biosynthetic process from tryptophan" RELATED [GOC:TermGenie]
  synonym: "upregulation of 'de novo' NAD biosynthetic process from tryptophan" EXACT [GOC:TermGenie]
  synonym: "upregulation of de novo NAD biosynthetic process from tryptophan" RELATED [GOC:TermGenie]
@@ -35066,7 +35139,7 @@
  is_a: GO:1900373 ! positive regulation of purine nucleotide biosynthetic process
  is_a: GO:1902690 ! positive regulation of NAD metabolic process
  is_a: GO:1905012 ! regulation of 'de novo' NAD biosynthetic process from L-tryptophan
-@@ -604651,47 +606231,45 @@
+@@ -604651,47 +606249,45 @@
  
  [Term]
  id: GO:1905526
@@ -35132,7 +35205,7 @@
  created_by: dph
  creation_date: 2016-10-05T13:16:41Z
  
-@@ -604896,7 +606474,7 @@
+@@ -604896,7 +606492,7 @@
  synonym: "IL-7-receptor complex" EXACT []
  synonym: "IL7 receptor complex" EXACT []
  synonym: "IL7-receptor complex" EXACT []
@@ -35141,7 +35214,7 @@
  created_by: bhm
  creation_date: 2016-10-10T07:44:05Z
  
-@@ -604948,7 +606526,7 @@
+@@ -604948,7 +606544,7 @@
  synonym: "IL15 receptor complex" EXACT []
  synonym: "IL15-receptor complex" EXACT []
  synonym: "interleukin-15-receptor complex" EXACT []
@@ -35150,7 +35223,7 @@
  created_by: bhm
  creation_date: 2016-10-10T13:38:12Z
  
-@@ -605801,7 +607379,7 @@
+@@ -605801,7 +607397,7 @@
  synonym: "IL-10-receptor complex" EXACT []
  synonym: "IL10 receptor complex" EXACT []
  synonym: "interleukin-10-receptor complex" EXACT []
@@ -35159,7 +35232,7 @@
  created_by: bhm
  creation_date: 2016-10-19T09:45:22Z
  
-@@ -614860,6 +616438,8 @@
+@@ -614860,6 +616456,8 @@
  namespace: molecular_function
  def: "Catalysis of the removal of the cap from an unmethylated 5'-end capped RNA resulting in the release of the entire cap structure (GpppN) and a 5' monophosphorylated RNA." [GOC:dgf, PMID:20802481]
  synonym: "G(5')pppN pyrophosphatase activity" RELATED []
@@ -35168,7 +35241,7 @@
  is_a: GO:0016891 ! RNA endonuclease activity producing 5'-phosphomonoesters, hydrolytic mechanism
  created_by: tb
  creation_date: 2013-08-26T17:51:00Z
-@@ -615982,7 +617562,7 @@
+@@ -615982,7 +617580,7 @@
  synonym: "PDGF-DD-receptor beta complex" NARROW []
  synonym: "receptor-ligand complex" BROAD []
  is_a: GO:0098797 ! plasma membrane protein complex
@@ -35177,7 +35250,7 @@
  relationship: has_part GO:1990265 ! platelet-derived growth factor complex
  created_by: bhm
  creation_date: 2014-01-14T11:12:22Z
-@@ -617749,7 +619329,7 @@
+@@ -617749,7 +619347,7 @@
  id: GO:1990451
  name: cellular stress response to acidic pH
  namespace: biological_process
@@ -35186,7 +35259,7 @@
  comment: An example of this is NOX1 in human (Q9Y5S8) in PMID:10615049.
  synonym: "cellular stress response to acidity" BROAD []
  is_a: GO:0062197 ! cellular response to chemical stress
-@@ -619569,7 +621149,7 @@
+@@ -619569,7 +621167,7 @@
  def: "A receptor complex composed of two ANPR-A molecules and expressed in the heart atrium in mammals; it plays a major role in the regulation of blood pressure and salt-fluid volume homeostasis. Binding of the ligand AMP in response to atrial distension (high blood volume) leads to guanylate cyclase activity of the ANPR-A receptor complex, thereby elevating intracellular cGMP levels. The end result is a reduction in blood volume and, therefore, a reduction in cardiac output and systemic blood pressure." [GOC:ame, PMID:15117952]
  comment: An example of this is Npr1 in rat (UniProt symbol P18910) in PMID:15117952 (inferred from direct assay).
  synonym: "NPR1 receptor complex" RELATED []
@@ -35195,7 +35268,7 @@
  created_by: ame
  creation_date: 2015-01-28T16:03:22Z
  
-@@ -621301,9 +622881,10 @@
+@@ -621301,9 +622899,10 @@
  id: GO:1990780
  name: cytoplasmic side of dendritic spine plasma membrane
  namespace: cellular_component
@@ -35207,7 +35280,7 @@
  created_by: sl
  creation_date: 2015-06-23T18:35:39Z
  
-@@ -621719,8 +623300,11 @@
+@@ -621719,8 +623318,11 @@
  synonym: "RNA adenylyltransferase activity" EXACT []
  xref: EC:2.7.7.19
  xref: MetaCyc:POLYNUCLEOTIDE-ADENYLYLTRANSFERASE-RXN
@@ -35220,7 +35293,7 @@
  xref: RHEA:11332
  is_a: GO:0070566 ! adenylyltransferase activity
  property_value: skos:exactMatch EC:2.7.7.19
-@@ -622461,6 +624045,7 @@
+@@ -622461,6 +624063,7 @@
  def: "Catalysis of the reaction: a cytidine in 18S rRNA + acetyl-CoA + ATP + H2O = an N(4)-acetylcytidine in 18S rRNA + ADP + phosphate + CoA + H+." [PMID:25402480, RHEA:51424]
  xref: RHEA:51424
  is_a: GO:0008080 ! N-acetyltransferase activity
@@ -35228,7 +35301,7 @@
  property_value: skos:exactMatch RHEA:51424
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29506" xsd:anyURI
  created_by: al
-@@ -622746,7 +624331,8 @@
+@@ -622746,7 +624349,8 @@
  name: response to psychosocial stress
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of exposure to aversive or demanding psychological and social conditions that tax or exceed the behavioral resources of the organism." [PMID:22922217, PMID:26458179]
@@ -35238,7 +35311,7 @@
  created_by: sl
  creation_date: 2015-12-07T20:38:35Z
  
-@@ -623091,12 +624677,15 @@
+@@ -623091,12 +624695,15 @@
  
  [Term]
  id: GO:1990943
@@ -35257,7 +35330,7 @@
  created_by: mah
  creation_date: 2016-04-06T16:08:43Z
  
-@@ -624154,6 +625743,7 @@
+@@ -624154,6 +625761,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
  xref: Reactome:R-HSA-9764260 "Regulation of Expression and Function of Type II Classical Cadherins"
@@ -35265,7 +35338,7 @@
  is_a: GO:0022407 ! regulation of cell-cell adhesion
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0044331 ! cell-cell adhesion mediated by cadherin
-@@ -626542,34 +628132,29 @@
+@@ -626542,34 +628150,29 @@
  
  [Term]
  id: GO:2000211
@@ -35310,7 +35383,7 @@
  created_by: mah
  creation_date: 2010-11-03T02:43:55Z
  
-@@ -626589,16 +628174,14 @@
+@@ -626589,16 +628192,14 @@
  
  [Term]
  id: GO:2000214
@@ -35332,7 +35405,7 @@
  created_by: mah
  creation_date: 2010-11-03T02:45:20Z
  
-@@ -639599,8 +641182,9 @@
+@@ -639599,8 +641200,9 @@
  synonym: "regulation of proline catabolic process to glutamate" BROAD []
  synonym: "regulation of proline degradation to glutamate" EXACT [GOC:obol]
  synonym: "regulation of proline oxidation" RELATED [GOC:obol]
@@ -35343,7 +35416,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006562 ! L-proline catabolic process
  relationship: regulates GO:0006562 ! L-proline catabolic process
-@@ -640593,6 +642177,7 @@
+@@ -640593,6 +642195,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of apoptotic signaling pathway." [GOC:mtg_apoptosis]
  synonym: "regulation of apoptotic signalling pathway" EXACT [GOC:mah]
@@ -35351,7 +35424,7 @@
  is_a: GO:0009966 ! regulation of signal transduction
  is_a: GO:0042981 ! regulation of apoptotic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -640836,8 +642421,9 @@
+@@ -640836,8 +642439,9 @@
  def: "Any process that modulates the frequency, rate or extent of ammonia assimilation cycle." [GOC:BHF]
  synonym: "regulation of glutamate metabolic process via glutamine and ammonia" EXACT [GOC:obol]
  synonym: "regulation of glutamate metabolism via glutamine and ammonia" EXACT [GOC:obol]
@@ -35362,7 +35435,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0019676 ! ammonia assimilation cycle
  relationship: regulates GO:0019676 ! ammonia assimilation cycle
-@@ -640851,8 +642437,9 @@
+@@ -640851,8 +642455,9 @@
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of ammonia assimilation cycle." [GOC:BHF]
  synonym: "negative regulation of glutamate metabolic process via glutamine and ammonia" EXACT [GOC:obol]
  synonym: "negative regulation of glutamate metabolism via glutamine and ammonia" EXACT [GOC:obol]
@@ -35373,7 +35446,7 @@
  is_a: GO:2001248 ! regulation of ammonia assimilation cycle
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0019676 ! ammonia assimilation cycle
-@@ -641552,15 +643139,15 @@
+@@ -641552,15 +643157,15 @@
  
  [Term]
  id: GO:2001297
@@ -35394,7 +35467,7 @@
  created_by: pr
  creation_date: 2012-02-14T03:38:21Z
  
-@@ -641578,15 +643165,15 @@
+@@ -641578,15 +643183,15 @@
  
  [Term]
  id: GO:2001299
@@ -35415,7 +35488,7 @@
  created_by: pr
  creation_date: 2012-02-14T03:40:03Z
  
-@@ -641911,8 +643498,10 @@
+@@ -641911,8 +643516,10 @@
  id: GO:7770002
  name: sodium:ammonium:chloride symporter activity
  namespace: molecular_function
@@ -35427,7 +35500,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30468" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-19T23:39:51Z
-@@ -641993,9 +643582,11 @@
+@@ -641993,9 +643600,11 @@
  id: GO:7770009
  name: L-tryptophan conjugated cholate hydrolase activity
  namespace: molecular_function
@@ -35440,7 +35513,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -642270,9 +643861,12 @@
+@@ -642270,9 +643879,12 @@
  def: "The chemical reactions and pathways resulting in the formation of nickel-pincer nucleotide (NPN) cofactor, also known as nickel pyridinium-3,5-bisthiocarboxylic acid mononucleotide." [PMID:24710389, PMID:27114550, PMID:33093595, PMID:39667499, PMID:39827451]
  synonym: "NPN cofactor biosynthetic process" EXACT []
  xref: MetaCyc:PWY-7928
@@ -35454,7 +35527,7 @@
  created_by: dragon-ai-agent
  
  [Term]
-@@ -642313,6 +643907,211 @@
+@@ -642313,6 +643925,211 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30887" xsd:anyURI
  created_by: dragon-ai-agent
  
