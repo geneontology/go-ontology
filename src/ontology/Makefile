@@ -158,30 +158,54 @@ $(SRC)-check: $(SRC) GO.xrf_abbs
 
 # consider using snapshot release
 PREVIOUS=go-lastrelease.owl
+PREVIOUS_OBO=go-lastrelease.obo
+PREVIOUS_PLUS=go-plus-lastrelease.owl
 $(PREVIOUS): $(SRC)
+	wget $(OBO)/go.owl -O $@ && touch $@
+
+$(PREVIOUS_OBO): $(SRC)
 	wget $(OBO)/go.obo -O $@ && touch $@
+
+$(PREVIOUS_PLUS): $(SRC)
+	wget $(OBO)/go/extensions/go-plus.owl -O $@ && touch $@
 
 # ensure no IDs are lost
 change-report.txt: $(SRC) $(PREVIOUS)
 	$(OWLTOOLS) $(USECAT) $< --verify-changes -p $(PREVIOUS) -o $@ --id-prefix-filter GO: --check-missing-labels && touch $@
+
+go-owl-diff.md: $(PREVIOUS) go.ofn
+	$(ROBOT) diff --left $(PREVIOUS) --right go.ofn --format markdown -o $@
+
+go-plus-owl-diff.md: $(PREVIOUS_PLUS) $(GO_PLUS).ofn
+	$(ROBOT) diff --left $(PREVIOUS_PLUS) --right $(GO_PLUS).ofn --format markdown -o $@
+
+go-obo-txt-diff.md: $(PREVIOUS_OBO) go.obo
+	{ echo "# Textual diff for go.obo\\n"; echo "\`\`\`diff"; diff -u $(PREVIOUS_OBO) go.obo; echo "\`\`\`"; } >$@
+
+go-obo-status.md: $(PREVIOUS_OBO) go.obo ../gh_pages_templates/go-obo-status.md
+	{ echo "---"; runoak -i simpleobo:go.obo statistics --group-by-obo-namespace --compare-with simpleobo:$(PREVIOUS_OBO); echo "---"; cat ../gh_pages_templates/go-obo-status.md; } >$@
 
 # ----------------------------------------
 # OWL
 # ----------------------------------------
 
 #Uses file provided by Reactome to generate xrefs for import
-#add_xrefs:
-imports/reactome_xrefs_import.owl: $(SRC)
+
+../resources/Reactions2GoTerms_human.txt:
+	wget -O $@ --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
+
+../resources/Pathways2GoTerms_human.txt:
+	wget -O $@ --no-check-certificate https://reactome.org/download/current/Pathways2GoTerms_human.txt
+
+imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt
 	mkdir -p reactome-tmp
-	wget -O reactome-tmp/Reactions2GoTerms_human.txt --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
-	wget -O reactome-tmp/Pathways2GoTerms_human.txt --no-check-certificate https://github.com/user-attachments/files/17652333/Pathways2GoTerms_human.txt
-	sed -i '1s/.*/Identifier\tName\tdefined_class/' reactome-tmp/Reactions2GoTerms_human.txt
-	sed -i '1d' reactome-tmp/Pathways2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' reactome-tmp/Reactions2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' reactome-tmp/Pathways2GoTerms_human.txt
-	cat reactome-tmp/Reactions2GoTerms_human.txt reactome-tmp/Pathways2GoTerms_human.txt >reactome-tmp/combined.txt
-	rm reactome-tmp/Reactions2GoTerms_human.txt.bak
-	rm reactome-tmp/Pathways2GoTerms_human.txt.bak
+	sed -i '1s/.*/Identifier\tName\tdefined_class/' ../resources/Reactions2GoTerms_human.txt
+	sed -i '1d' ../resources/Pathways2GoTerms_human.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Reactions2GoTerms_human.txt
+	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Pathways2GoTerms_human.txt
+	cat ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt >reactome-tmp/combined.txt
+	rm ../resources/Reactions2GoTerms_human.txt.bak
+	rm ../resources/Pathways2GoTerms_human.txt.bak
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
@@ -190,8 +214,8 @@ go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
 
-go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc mirror/rhea.rdf
-	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml mirror/rhea.rdf $@
+go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc ../resources/rhea.rdf
+	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml ../resources/rhea.rdf $@
 
 # merge in some imported GO modules
 # remove editor-only annotations
@@ -232,7 +256,7 @@ $(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-module
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
-$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
+$(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl mirror/users.ttl mirror/groups.ttl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
 	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
@@ -279,8 +303,8 @@ go.obo: $(ONT).ofn
 # remove non-basic relationship types (e.g. has_part)
 # assuming materialization step already done for these properties when making go.obo
 # NOTE - '--add-prefixes prefixes.jsonld' is necessary due to https://github.com/ontodev/robot/issues/1266
-go-simple-filtered.ofn: go.ofn $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru
-	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru convert --add-prefixes prefixes.jsonld -f ofn --output $@
+go-simple-filtered.ofn: go.ofn $(SPARQLDIR)/remove-cross-namespace-relations.ru $(SPARQLDIR)/remove-mf-regulates-links.ru $(SPARQLDIR)/remove-multiply-labeled-edges.ru
+	$(ROBOT) remove --input $< $(addprefix --term ,$(GO_BASIC_RELATIONS)) --select complement --select object-properties --signature true --trim true remove --term 'oboInOwl:created_by' --term 'oboInOwl:creation_date' --term 'IAO:0000233' --term 'IAO:0000589' --term 'RO:0002175' --signature true --trim true remove --axioms "DisjointClasses EquivalentClasses" query --update $(SPARQLDIR)/remove-cross-namespace-relations.ru --update $(SPARQLDIR)/remove-mf-regulates-links.ru --update $(SPARQLDIR)/remove-multiply-labeled-edges.ru convert --add-prefixes prefixes.jsonld -f ofn --output $@
 
 go-basic.ofn: go-simple-filtered.ofn
 	$(ROBOT) reduce -r elk -i $< -o $@
@@ -423,7 +447,7 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
+CHEBI_SOURCE=http://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel247/ontology/chebi.owl.gz # ChEBI is currently missing a version IRI
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2025-01-08/cl-base.owl
 FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
 PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
@@ -502,8 +526,19 @@ mirror/%-download.owl: $(SRC)
 	wget --no-check-certificate $(OBO)/$*.owl $(WGET_OUT)
 .PRECIOUS: mirror/%-download.owl
 
-mirror/rhea.rdf:
-	curl -L -o $@.gz 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz' && gunzip $@.gz
+mirror/users.ttl:
+	curl -L -o $@.tmp 'https://snapshot.geneontology.org/metadata/users.ttl' &&\
+	$(ROBOT) annotate -i $@.tmp --ontology-iri 'http://snapshot.geneontology.org/metadata/users.ttl' -o $@
+
+mirror/groups.ttl:
+	curl -L -o $@.tmp 'https://snapshot.geneontology.org/metadata/groups.ttl' &&\
+	$(ROBOT) annotate -i $@.tmp --ontology-iri 'http://snapshot.geneontology.org/metadata/groups.ttl' -o $@
+
+../resources/rhea.rdf.gz:
+	curl -L -o $@ 'https://ftp.expasy.org/databases/rhea/rdf/rhea.rdf.gz'
+
+../resources/rhea.rdf: ../resources/rhea.rdf.gz
+	 gunzip $< -c > $@
 
 ../resources/obsolete_ec.txt:
 	curl -L -o ../resources/enzyme.rdf 'https://ftp.expasy.org/databases/enzyme/enzyme.rdf' &&\
@@ -590,8 +625,8 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 # IMPORTED AND TRANSFERRED RHEA AXIOMS
 # ----------------------------------------
 
-rhea.ttl: ../sparql/construct-rhea-reactions.sparql mirror/rhea.rdf
-	arq -q --data=mirror/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
+rhea.ttl: ../sparql/construct-rhea-reactions.sparql ../resources/rhea.rdf
+	arq -q --data=../resources/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
 	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \

@@ -129,8 +129,8 @@ http://purl.obolibrary.org/obo/GO_0015383	sulfate:bicarbonate antiporter activit
 http://purl.obolibrary.org/obo/GO_0015383	sulfate:bicarbonate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17544	hydrogencarbonate	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
 http://purl.obolibrary.org/obo/GO_0160044	sulfate:chloride antiporter activity	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate	http://purl.obolibrary.org/obo/CHEBI_17996	chloride
 http://purl.obolibrary.org/obo/GO_0160044	sulfate:chloride antiporter activity	http://purl.obolibrary.org/obo/CHEBI_17996	chloride	http://purl.obolibrary.org/obo/CHEBI_16189	sulfate
-http://purl.obolibrary.org/obo/GO_0015516	tartrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt
-http://purl.obolibrary.org/obo/GO_0015516	tartrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_50562	tartrate salt	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
+http://purl.obolibrary.org/obo/GO_0015516	tartrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)	http://purl.obolibrary.org/obo/CHEBI_30929	2,3-dihydroxybutanedioate
+http://purl.obolibrary.org/obo/GO_0015516	tartrate:succinate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_30929	2,3-dihydroxybutanedioate	http://purl.obolibrary.org/obo/CHEBI_30031	succinate(2-)
 http://purl.obolibrary.org/obo/GO_0015520	tetracycline:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_15378	hydron	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion
 http://purl.obolibrary.org/obo/GO_0015520	tetracycline:proton antiporter activity	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion	http://purl.obolibrary.org/obo/CHEBI_15378	hydron
 http://purl.obolibrary.org/obo/GO_0009670	triose-phosphate:phosphate antiporter activity	http://purl.obolibrary.org/obo/CHEBI_35142	aldotriose phosphate	http://purl.obolibrary.org/obo/CHEBI_43474	hydrogenphosphate

@@ -12,10 +12,13 @@ You should __NOT__ use this repository to download production versions of GO.
 
 Instructions for editing the ontology can be found in the [GO wiki/Ontology section](http://wiki.geneontology.org/index.php/Ontology_Development#Editing_the_Ontology). 
 
+[Status pages](https://geneontology.github.io/go-ontology/) — ontology developers can review changes in the repository since the last official ontology release
+
 ## Ontology Pipeline Overview
 
  - GitHub Actions performs tests on every commit or pull request - https://github.com/geneontology/go-ontology/actions?query=workflow%3ACI
  - A Jenkins job produces SNAPSHOT releases every second day- https://build.geneontology.org/job/geneontology/job/pipeline/job/snapshot/
     * The S3 bucket for go-data-product-snapshot/ontology/, mapped to http://snapshot.geneontology.org/ontology/, is redirected to from the OBO Library PURL (http://purl.obolibrary.org/obo/go/snapshot/FOO)
  - A Jenkins job produces monthly production releases (https://build.geneontology.org/job/geneontology/job/pipeline/job/release/)
+
 
