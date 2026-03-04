@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-03-03 05:48:20.424718166 +0000
-+++ go.obo	2026-03-03 05:57:03.949454947 +0000
+--- go-lastrelease.obo	2026-03-04 05:45:44.860814100 +0000
++++ go.obo	2026-03-04 05:54:55.392193829 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-01-23
-+data-version: releases/2026-03-03
++data-version: releases/2026-03-04
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-01-23" xsd:string
-+property_value: owl:versionInfo "2026-03-03" xsd:string
++property_value: owl:versionInfo "2026-03-04" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -6479,8 +6479,21 @@
  xref: Wikipedia:Microtubule_nucleation
  is_a: GO:0000226 ! microtubule cytoskeleton organization
  relationship: part_of GO:0046785 ! microtubule polymerization
-@@ -75572,7 +75881,6 @@
- def: "Any process that reduces the pH of the lysosomal lumen, measured by the concentration of the hydrogen ion." [GOC:jid]
+@@ -75511,7 +75820,7 @@
+ id: GO:0007035
+ name: vacuolar acidification
+ namespace: biological_process
+-def: "Any process that reduces the pH of the vacuole, measured by the concentration of the hydrogen ion." [GOC:jid]
++def: "Any process that reduces the pH of the vacuole, corresponding to an increase in hydrogen ion concentration." [GOC:jid]
+ is_a: GO:0051452 ! intracellular pH reduction
+ 
+ [Term]
+@@ -75569,10 +75878,9 @@
+ id: GO:0007042
+ name: lysosomal lumen acidification
+ namespace: biological_process
+-def: "Any process that reduces the pH of the lysosomal lumen, measured by the concentration of the hydrogen ion." [GOC:jid]
++def: "Any process that reduces the pH of the lysosomal lumen, corresponding to an increase in hydrogen ion concentration." [GOC:jid]
  synonym: "lysosome pH reduction" EXACT [GOC:bf, GOC:rph]
  is_a: GO:0007035 ! vacuolar acidification
 -is_a: GO:0035751 ! regulation of lysosomal lumen pH
@@ -18660,9 +18673,12 @@
  created_by: bf
  creation_date: 2011-03-23T10:23:41Z
  
-@@ -231710,7 +232519,6 @@
+@@ -231708,9 +232517,8 @@
+ id: GO:0035752
+ name: lysosomal lumen pH elevation
  namespace: biological_process
- def: "Any process that increases the pH of the lysosomal lumen, measured by the concentration of the hydrogen ion." [GOC:bf, GOC:rph]
+-def: "Any process that increases the pH of the lysosomal lumen, measured by the concentration of the hydrogen ion." [GOC:bf, GOC:rph]
++def: "Any process that increases the pH of the lysosomal lumen, corresponding to a decrease in hydrogen ion concentration." [GOC:bf, GOC:rph]
  synonym: "lysosome pH elevation" EXACT [GOC:bf, GOC:rph]
 -is_a: GO:0035751 ! regulation of lysosomal lumen pH
  is_a: GO:0051454 ! intracellular pH elevation
@@ -21479,6 +21495,15 @@
  xref: EC:4.4.1.35
  xref: KEGG_REACTION:R02408
  xref: RHEA:24927
+@@ -275206,7 +276145,7 @@
+ id: GO:0044655
+ name: phagosome reneutralization
+ namespace: biological_process
+-def: "Any process that increases the pH of the phagosome, measured by the concentration of the hydrogen ion, as part of the process of phagosome maturation." [GOC:rjd, PMID:22008230]
++def: "Any process that increases the pH of the phagosome, corresponding to a decrease in hydrogen ion concentration, as part of the process of phagosome maturation." [GOC:rjd, PMID:22008230]
+ synonym: "phagosomal reneutralization" EXACT []
+ synonym: "phagosome pH elevation" EXACT []
+ is_a: GO:0051454 ! intracellular pH elevation
 @@ -277099,6 +278038,7 @@
  synonym: "iron acquisition" BROAD []
  synonym: "iron acquisition by symbiont from host" EXACT []
@@ -24773,7 +24798,7 @@
  name: pH reduction
  namespace: biological_process
 -def: "Any process that reduces the internal pH of an organism, part of an organism or a cell, measured by the concentration of the hydrogen ion." [GOC:go_curators]
-+def: "Any process that reduces the internal pH of an organism, part of an organism or a cell, measured by the concentration of the hydrogen ion." [GOC:curators]
++def: "Any process that reduces the internal pH of an organism, part of an organism or a cell, corresponding to an increase in hydrogen ion concentration." [GOC:curators]
  synonym: "acidification" EXACT []
  is_a: GO:0006885 ! regulation of pH
  
@@ -24782,7 +24807,7 @@
  name: pH elevation
  namespace: biological_process
 -def: "Any process that increases the internal pH of an organism, part of an organism or a cell, measured by the concentration of the hydrogen ion." [GOC:go_curators]
-+def: "Any process that increases the internal pH of an organism, part of an organism or a cell, measured by the concentration of the hydrogen ion." [GOC:curators]
++def: "Any process that increases the internal pH of an organism, part of an organism or a cell, corresponding to a decrease in hydrogen ion concentration." [GOC:curators]
  is_a: GO:0006885 ! regulation of pH
  
  [Term]
@@ -28906,6 +28931,15 @@
  synonym: "lateral plate mesoderm morphogenesis" EXACT []
  is_a: GO:0048332 ! mesoderm morphogenesis
  is_a: GO:0072132 ! mesenchyme morphogenesis
+@@ -321443,7 +322486,7 @@
+ id: GO:0048388
+ name: endosomal lumen acidification
+ namespace: biological_process
+-def: "Any process that reduces the pH of the endosomal lumen, measured by the concentration of the hydrogen ion." [GOC:jid]
++def: "Any process that reduces the pH of the endosomal lumen, corresponding to an increase in hydrogen ion concentration." [GOC:jid]
+ is_a: GO:0051452 ! intracellular pH reduction
+ relationship: part_of GO:0007032 ! endosome organization
+ 
 @@ -321458,7 +322501,7 @@
  id: GO:0048390
  name: intermediate mesoderm morphogenesis
@@ -30116,9 +30150,21 @@
  is_a: GO:0050794 ! regulation of cellular process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0051301 ! cell division
-@@ -346933,10 +347993,14 @@
+@@ -346919,7 +347979,7 @@
+ id: GO:0051452
+ name: intracellular pH reduction
  namespace: biological_process
- def: "Any process that modulates the internal pH of a cell, measured by the concentration of the hydrogen ion." [GOC:ai, GOC:dph, GOC:tb]
+-def: "Any process that reduces the internal pH of a cell, measured by the concentration of the hydrogen ion." [GOC:ai]
++def: "Any process that reduces the internal pH of a cell, corresponding to an increase in hydrogen ion concentration." [GOC:ai]
+ synonym: "cell pH reduction" EXACT []
+ synonym: "cellular acidification" EXACT []
+ synonym: "intracellular acidification" RELATED []
+@@ -346931,12 +347991,16 @@
+ id: GO:0051453
+ name: regulation of intracellular pH
+ namespace: biological_process
+-def: "Any process that modulates the internal pH of a cell, measured by the concentration of the hydrogen ion." [GOC:ai, GOC:dph, GOC:tb]
++def: "Any process that modulates the internal pH of a cell, corresponding to a change in hydrogen ion concentration." [GOC:ai, GOC:dph, GOC:tb]
  synonym: "cell pH regulation" EXACT []
 +synonym: "cellular hydrogen ion homeostasis" EXACT [GOC:dph, GOC:tb]
  synonym: "cellular pH regulation" EXACT []
@@ -30132,6 +30178,15 @@
  is_a: GO:0065008 ! regulation of biological quality
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29164" xsd:anyURI
  
+@@ -346944,7 +348008,7 @@
+ id: GO:0051454
+ name: intracellular pH elevation
+ namespace: biological_process
+-def: "Any process that increases the internal pH of a cell, measured by the concentration of the hydrogen ion." [GOC:ai]
++def: "Any process that increases the internal pH of a cell, corresponding to a decrease in hydrogen ion concentration." [GOC:ai]
+ synonym: "cell pH elevation" EXACT []
+ synonym: "cellular alkalinization" EXACT []
+ synonym: "elevation of cellular pH" EXACT []
 @@ -348608,17 +349672,16 @@
  
  [Term]
@@ -30908,6 +30963,15 @@
  xref: RHEA:45948
  is_a: GO:0034212 ! protein N-acetyltransferase activity
  property_value: skos:exactMatch EC:2.3.1.48
+@@ -384631,7 +385750,7 @@
+ id: GO:0061795
+ name: Golgi lumen acidification
+ namespace: biological_process
+-def: "Any process that reduces the pH of the Golgi lumen, measured by the concentration of the hydrogen ion." [GOC:dph, PMID:23447592]
++def: "Any process that reduces the pH of the Golgi lumen, corresponding to an increase in hydrogen ion concentration." [GOC:dph, PMID:23447592]
+ synonym: "Golgi apparatus lumen acidification" EXACT []
+ is_a: GO:0051452 ! intracellular pH reduction
+ created_by: dph
 @@ -385187,7 +386306,7 @@
  name: telomeric G-quadruplex DNA binding
  namespace: molecular_function
@@ -31673,6 +31737,24 @@
  created_by: tb
  creation_date: 2010-07-12T11:14:12Z
  
+@@ -431911,7 +433105,7 @@
+ id: GO:0090383
+ name: phagosome acidification
+ namespace: biological_process
+-def: "Any process that reduces the pH of the phagosome, measured by the concentration of the hydrogen ion." [GOC:kmv, GOC:tb]
++def: "Any process that reduces the pH of the phagosome, corresponding to an increase in hydrogen ion concentration." [GOC:kmv, GOC:tb]
+ synonym: "phagosomal acidification" EXACT [GOC:kmv, GOC:tb]
+ is_a: GO:0051452 ! intracellular pH reduction
+ relationship: part_of GO:0090382 ! phagosome maturation
+@@ -431992,7 +433186,7 @@
+ id: GO:0090390
+ name: phagosome acidification involved in apoptotic cell clearance
+ namespace: biological_process
+-def: "Any process that reduces the pH of the phagosome, measured by the concentration of the hydrogen ion, and occurs as a part of apoptotic cell clearance." [GOC:kmv, GOC:tb]
++def: "Any process that reduces the pH of the phagosome, corresponding to an increase in hydrogen ion concentration, and occurs as a part of apoptotic cell clearance." [GOC:kmv, GOC:tb]
+ is_a: GO:0090383 ! phagosome acidification
+ intersection_of: GO:0090383 ! phagosome acidification
+ intersection_of: part_of GO:0090386 ! phagosome maturation involved in apoptotic cell clearance
 @@ -432280,7 +433474,7 @@
  name: nicotinate transmembrane transporter activity
  namespace: molecular_function
@@ -34378,7 +34460,47 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30708" xsd:anyURI
  created_by: rynl
  creation_date: 2025-08-23T00:16:21Z
-@@ -496890,17 +498404,13 @@
+@@ -496789,6 +498303,39 @@
+ creation_date: 2025-11-19T23:57:27Z
+ 
+ [Term]
++id: GO:0160310
++name: dopamine loading into synaptic vesicle
++namespace: biological_process
++def: "The active transport of dopamine neurotransmitters into a synaptic vesicle." [PMID:29666153]
++is_a: GO:0015872 ! dopamine transport
++is_a: GO:0098700 ! neurotransmitter loading into synaptic vesicle
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31143" xsd:anyURI
++created_by: rynl
++creation_date: 2025-12-02T22:02:35Z
++
++[Term]
++id: GO:0160311
++name: tyramine loading into synaptic vesicle
++namespace: biological_process
++def: "The active transport of tyramine neurotransmitters into a synaptic vesicle." [PMID:15849736, PMID:9870940]
++is_a: GO:0098700 ! neurotransmitter loading into synaptic vesicle
++is_a: GO:7770032 ! tyramine transport
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31143" xsd:anyURI
++created_by: rynl
++creation_date: 2025-12-02T23:16:14Z
++
++[Term]
++id: GO:0160312
++name: octopamine loading into synaptic vesicle
++namespace: biological_process
++def: "The active transport of octopamine neurotransmitters into a synaptic vesicle." [PMID:15849736, PMID:9870940]
++is_a: GO:0098700 ! neurotransmitter loading into synaptic vesicle
++is_a: GO:7770033 ! octopamine transport
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31143" xsd:anyURI
++created_by: rynl
++creation_date: 2025-12-02T23:21:33Z
++
++[Term]
+ id: GO:0160313
+ name: endosomal intralumenal vesicle
+ namespace: cellular_component
+@@ -496890,17 +498437,13 @@
  
  [Term]
  id: GO:0160320
@@ -34401,7 +34523,7 @@
  
  [Term]
  id: GO:0170001
-@@ -496970,6 +498480,8 @@
+@@ -496970,6 +498513,8 @@
  name: endoplasmic reticulum-lipid droplet tether activity
  namespace: molecular_function
  def: "The binding activity of a molecule that brings together a lipid droplet with an endoplasmic reticulum membrane, via membrane lipid binding, to establish membrane contact sites and mediate exchange and communication." [PMID:35389430]
@@ -34410,7 +34532,7 @@
  is_a: GO:0043495 ! protein-membrane adaptor activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25428" xsd:anyURI
  created_by: ew
-@@ -497135,6 +498647,8 @@
+@@ -497135,6 +498680,8 @@
  def: "The chemical reactions and pathways involving an L-amino acid." [GOC:edw]
  synonym: "L-alpha-amino acid metabolism" EXACT []
  synonym: "L-amino acid metabolism" EXACT []
@@ -34419,7 +34541,7 @@
  is_a: GO:1901605 ! alpha-amino acid metabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23268" xsd:anyURI
  created_by: ew
-@@ -497278,7 +498792,6 @@
+@@ -497278,7 +498825,6 @@
  def: "Enables the transfer of isopentenyl pyrophosphate from one side of a membrane to the other." [GOC:ew, PMID:37813972]
  synonym: "IPP transmembrane transport activity" EXACT []
  synonym: "isopentenyl diphosphate transmembrane transport activity" EXACT []
@@ -34427,7 +34549,7 @@
  is_a: GO:0015605 ! organophosphate ester transmembrane transporter activity
  is_a: GO:0170055 ! lipid transmembrane transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26285" xsd:anyURI
-@@ -497393,7 +498906,6 @@
+@@ -497393,7 +498939,6 @@
  namespace: molecular_function
  def: "Enables the transfer of a lipid from one side of a membrane to the other." [GOC:curators]
  subset: gocheck_do_not_annotate
@@ -34435,7 +34557,7 @@
  is_a: GO:0022857 ! transmembrane transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27252" xsd:anyURI
  created_by: ew
-@@ -497479,6 +498991,7 @@
+@@ -497479,6 +499024,7 @@
  name: transmembrane transport from lysosomal lumen to cytosol
  namespace: biological_process
  def: "The directed movement of a solute from the lysosomal lumen across the lysosomal membrane and into the cytosol." [PMID:26631267]
@@ -34443,7 +34565,7 @@
  is_a: GO:0007041 ! lysosomal transport
  is_a: GO:0034486 ! vacuolar transmembrane transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20070" xsd:anyURI
-@@ -497517,9 +499030,7 @@
+@@ -497517,9 +499063,7 @@
  def: "The chemical reactions and pathways resulting in the formation of arginine (2-amino-5-guanidinopentanoic acid) via the intermediate compound N-acetyl-L-citrulline." [PMID:16585758]
  synonym: "arginine biosynthesis via N-acetyl intermediates" EXACT []
  synonym: "arginine biosynthesis, N-acetylated pathway" EXACT []
@@ -34453,7 +34575,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29602" xsd:anyURI
  created_by: ew
  creation_date: 2025-03-14T17:04:09Z
-@@ -497583,6 +499094,17 @@
+@@ -497583,6 +499127,17 @@
  creation_date: 2025-08-12T21:56:57Z
  
  [Term]
@@ -34471,7 +34593,7 @@
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -497729,6 +499251,7 @@
+@@ -497729,6 +499284,7 @@
  def: "Any process involved in transcription termination-coupled 3' processing of RNA polymerase II mRNA transcripts by the 3' end cleavage and addition of a poly(A) tail." [PMID:31499460]
  synonym: "cotranscriptional 3' processing of RNA polymerase II mRNA transcripts" EXACT []
  synonym: "mRNA polyadenylation" RELATED []
@@ -34479,7 +34601,7 @@
  is_a: GO:0031124 ! mRNA 3'-end processing
  is_a: GO:0180012 ! co-transcriptional RNA 3'-end processing, cleavage and polyadenylation pathway
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24921" xsd:anyURI
-@@ -497853,7 +499376,7 @@
+@@ -497853,7 +499409,7 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + U6 snRNA = S-adenosyl-L-homocysteine + U6 containing a 3'-terminal 2'-O-methylnucleotide + H+." [PMID:37403782, RHEA:63088]
  xref: RHEA:63088
@@ -34488,7 +34610,7 @@
  property_value: skos:exactMatch RHEA:63088
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25706" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -498402,6 +499925,21 @@
+@@ -498402,6 +499958,21 @@
  creation_date: 2025-06-27T07:22:01Z
  
  [Term]
@@ -34510,7 +34632,7 @@
  id: GO:0180068
  name: negative regulation of carbohydrate utilization
  namespace: biological_process
-@@ -498412,6 +499950,20 @@
+@@ -498412,6 +499983,20 @@
  creation_date: 2026-01-19T11:52:03Z
  
  [Term]
@@ -34531,7 +34653,7 @@
  id: GO:0198738
  name: obsolete cell-cell signaling by wnt
  namespace: biological_process
-@@ -506319,7 +507871,7 @@
+@@ -506319,7 +507904,7 @@
  id: GO:1900371
  name: regulation of purine nucleotide biosynthetic process
  namespace: biological_process
@@ -34540,7 +34662,7 @@
  synonym: "regulation of purine nucleotide anabolism" EXACT [GOC:TermGenie]
  synonym: "regulation of purine nucleotide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "regulation of purine nucleotide formation" EXACT [GOC:TermGenie]
-@@ -506336,7 +507888,7 @@
+@@ -506336,7 +507921,7 @@
  id: GO:1900372
  name: negative regulation of purine nucleotide biosynthetic process
  namespace: biological_process
@@ -34549,7 +34671,7 @@
  synonym: "down regulation of purine nucleotide anabolism" EXACT [GOC:TermGenie]
  synonym: "down regulation of purine nucleotide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "down regulation of purine nucleotide biosynthetic process" EXACT [GOC:TermGenie]
-@@ -506374,7 +507926,7 @@
+@@ -506374,7 +507959,7 @@
  id: GO:1900373
  name: positive regulation of purine nucleotide biosynthetic process
  namespace: biological_process
@@ -34558,7 +34680,7 @@
  synonym: "activation of purine nucleotide anabolism" EXACT [GOC:TermGenie]
  synonym: "activation of purine nucleotide biosynthesis" EXACT [GOC:TermGenie]
  synonym: "activation of purine nucleotide biosynthetic process" NARROW [GOC:TermGenie]
-@@ -506412,7 +507964,7 @@
+@@ -506412,7 +507997,7 @@
  id: GO:1900374
  name: obsolete positive regulation of mating type switching by regulation of transcription from RNA polymerase II promoter
  namespace: biological_process
@@ -34567,7 +34689,7 @@
  comment: This term was obsoleted because it represents a GO-CAM model.
  synonym: "activation of mating type switching by regulation of transcription from RNA polymerase II promoter" NARROW [GOC:TermGenie]
  synonym: "stimulation of mating type switching by regulation of transcription from RNA polymerase II promoter" NARROW [GOC:TermGenie]
-@@ -506427,7 +507979,7 @@
+@@ -506427,7 +508012,7 @@
  id: GO:1900375
  name: obsolete positive regulation of inositol biosynthetic process by positive regulation of transcription from RNA polymerase II promoter
  namespace: biological_process
@@ -34576,7 +34698,7 @@
  comment: This term was obsoleted because it represents a GO-CAM model.
  synonym: "activation of inositol anabolism by positive regulation of transcription from RNA polymerase II promoter" EXACT [GOC:TermGenie]
  synonym: "activation of inositol biosynthesis by positive regulation of transcription from RNA polymerase II promoter" EXACT [GOC:TermGenie]
-@@ -507294,12 +508846,14 @@
+@@ -507294,12 +508879,14 @@
  name: regulation of alcohol catabolic process
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of alcohol catabolic process within a cell." [GOC:TermGenie]
@@ -34591,7 +34713,7 @@
  created_by: krc
  creation_date: 2012-04-20T10:21:18Z
  
-@@ -507308,6 +508862,7 @@
+@@ -507308,6 +508895,7 @@
  name: negative regulation of alcohol catabolic process
  namespace: biological_process
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of  alcohol catabolic process within a cell." [GOC:TermGenie]
@@ -34599,7 +34721,7 @@
  synonym: "down regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
  synonym: "down-regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
  synonym: "downregulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
-@@ -507318,6 +508873,7 @@
+@@ -507318,6 +508906,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0046164 ! alcohol catabolic process
  relationship: negatively_regulates GO:0046164 ! alcohol catabolic process
@@ -34607,7 +34729,7 @@
  created_by: krc
  creation_date: 2012-04-20T10:21:28Z
  
-@@ -507326,6 +508882,7 @@
+@@ -507326,6 +508915,7 @@
  name: positive regulation of alcohol catabolic process
  namespace: biological_process
  def: "Any process that activates or increases the frequency, rate or extent of alcohol catabolic process within a cell." [GOC:TermGenie]
@@ -34615,7 +34737,7 @@
  synonym: "activation of cellular alcohol catabolic process" NARROW [GOC:TermGenie]
  synonym: "up regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cellular alcohol catabolic process" EXACT [GOC:TermGenie]
-@@ -507337,6 +508894,7 @@
+@@ -507337,6 +508927,7 @@
  intersection_of: positively_regulates GO:0046164 ! alcohol catabolic process
  relationship: positively_regulates GO:0046164 ! alcohol catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28908" xsd:anyURI
@@ -34623,7 +34745,7 @@
  created_by: krc
  creation_date: 2012-04-20T10:21:46Z
  
-@@ -507432,6 +508990,7 @@
+@@ -507432,6 +509023,7 @@
  synonym: "negative regulation of defence response to bacterium" EXACT [GOC:TermGenie]
  synonym: "negative regulation of defense response to bacteria" EXACT [GOC:TermGenie]
  synonym: "negative regulation of defense response to bacterium, incompatible interaction" NARROW []
@@ -34631,7 +34753,7 @@
  is_a: GO:0002832 ! negative regulation of response to biotic stimulus
  is_a: GO:0031348 ! negative regulation of defense response
  is_a: GO:0032102 ! negative regulation of response to external stimulus
-@@ -509733,7 +511292,21 @@
+@@ -509733,7 +511325,21 @@
  synonym: "protoheme catabolic process" EXACT []
  synonym: "protoheme degradation" EXACT []
  xref: MetaCyc:PWY-5874
@@ -34653,7 +34775,7 @@
  created_by: pr
  creation_date: 2012-05-14T12:35:18Z
  
-@@ -515476,14 +517049,15 @@
+@@ -515476,14 +517082,15 @@
  
  [Term]
  id: GO:1900829
@@ -34673,7 +34795,7 @@
  created_by: se
  creation_date: 2012-06-06T09:27:24Z
  
-@@ -515516,28 +517090,30 @@
+@@ -515516,28 +517123,30 @@
  
  [Term]
  id: GO:1900832
@@ -34712,7 +34834,7 @@
  created_by: se
  creation_date: 2012-06-06T09:37:47Z
  
-@@ -519793,16 +521369,15 @@
+@@ -519793,16 +521402,15 @@
  
  [Term]
  id: GO:1901053
@@ -34734,7 +34856,7 @@
  created_by: yaf
  creation_date: 2012-06-28T04:52:29Z
  
-@@ -526262,8 +527837,9 @@
+@@ -526262,8 +527870,9 @@
  synonym: "regulation of tetrapyrrole biosynthesis from glutamate" EXACT [GOC:TermGenie]
  synonym: "regulation of tetrapyrrole formation from glutamate" EXACT [GOC:TermGenie]
  synonym: "regulation of tetrapyrrole synthesis from glutamate" EXACT [GOC:TermGenie]
@@ -34745,7 +34867,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
  relationship: regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
-@@ -526299,9 +527875,10 @@
+@@ -526299,9 +527908,10 @@
  synonym: "negative regulation of tetrapyrrole biosynthesis from glutamate" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tetrapyrrole formation from glutamate" EXACT [GOC:TermGenie]
  synonym: "negative regulation of tetrapyrrole synthesis from glutamate" EXACT [GOC:TermGenie]
@@ -34757,7 +34879,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
  relationship: negatively_regulates GO:0033526 ! tetrapyrrole biosynthetic process from glutamate
-@@ -527525,7 +529102,7 @@
+@@ -527525,7 +529135,7 @@
  name: azole transmembrane transporter activity
  namespace: molecular_function
  alt_id: GO:0045118
@@ -34766,7 +34888,7 @@
  synonym: "azole transporter activity" RELATED []
  is_a: GO:0022857 ! transmembrane transporter activity
  relationship: part_of GO:0045117 ! azole transmembrane transport
-@@ -527843,16 +529420,13 @@
+@@ -527843,16 +529453,13 @@
  
  [Term]
  id: GO:1901494
@@ -34788,7 +34910,7 @@
  created_by: vw
  creation_date: 2012-10-16T14:28:42Z
  
-@@ -528870,7 +530444,6 @@
+@@ -528870,7 +530477,6 @@
  namespace: biological_process
  def: "OBSOLETE. The chemical reactions and pathways involving organonitrogen compound." [GOC:pr, GOC:TermGenie]
  comment: The reason for obsoletion is that this term was an unnecessary grouping term.
@@ -34796,7 +34918,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26424" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27194" xsd:anyURI
  is_obsolete: true
-@@ -530336,7 +531909,7 @@
+@@ -530336,7 +531942,7 @@
  name: quinone metabolic process
  namespace: biological_process
  alt_id: GO:0042375
@@ -34805,7 +34927,7 @@
  synonym: "quinone cofactor metabolic process" RELATED []
  synonym: "quinone cofactor metabolism" RELATED []
  synonym: "quinone metabolism" EXACT [GOC:TermGenie]
-@@ -530349,7 +531922,7 @@
+@@ -530349,7 +531955,7 @@
  name: quinone catabolic process
  namespace: biological_process
  alt_id: GO:0042378
@@ -34814,7 +34936,7 @@
  synonym: "quinone breakdown" EXACT [GOC:TermGenie]
  synonym: "quinone catabolism" EXACT [GOC:TermGenie]
  synonym: "quinone cofactor breakdown" RELATED []
-@@ -531282,8 +532855,12 @@
+@@ -531282,8 +532888,12 @@
  synonym: "L-glutamine biosynthesis" EXACT [GOC:TermGenie]
  synonym: "L-glutamine formation" EXACT [GOC:TermGenie]
  synonym: "L-glutamine synthesis" EXACT [GOC:TermGenie]
@@ -34827,7 +34949,7 @@
  created_by: pde
  creation_date: 2012-12-13T23:32:52Z
  
-@@ -531296,8 +532873,21 @@
+@@ -531296,8 +532906,21 @@
  synonym: "L-isoleucine biosynthesis" EXACT [GOC:TermGenie]
  synonym: "L-isoleucine formation" EXACT [GOC:TermGenie]
  synonym: "L-isoleucine synthesis" EXACT [GOC:TermGenie]
@@ -34850,7 +34972,7 @@
  created_by: pde
  creation_date: 2012-12-13T23:32:56Z
  
-@@ -533560,6 +535150,7 @@
+@@ -533560,6 +535183,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving nicotinate." [GOC:TermGenie, GOC:yaf, UniPathway:UPA00830]
  synonym: "nicotinate metabolism" EXACT [GOC:TermGenie]
@@ -34858,7 +34980,7 @@
  is_a: GO:0009820 ! alkaloid metabolic process
  is_a: GO:0032787 ! monocarboxylic acid metabolic process
  is_a: GO:0072524 ! pyridine-containing compound metabolic process
-@@ -533574,10 +535165,17 @@
+@@ -533574,10 +535198,17 @@
  synonym: "nicotinate breakdown" EXACT [GOC:TermGenie]
  synonym: "nicotinate catabolism" EXACT [GOC:TermGenie]
  synonym: "nicotinate degradation" EXACT [GOC:TermGenie]
@@ -34876,7 +34998,7 @@
  created_by: yaf
  creation_date: 2013-01-28T11:23:52Z
  
-@@ -536147,8 +537745,9 @@
+@@ -536147,8 +537778,9 @@
  synonym: "regulation of indoleacetic acid anabolism via tryptophan" EXACT [GOC:TermGenie]
  synonym: "regulation of indoleacetic acid formation via tryptophan" EXACT [GOC:TermGenie]
  synonym: "regulation of indoleacetic acid synthesis via tryptophan" EXACT [GOC:TermGenie]
@@ -34887,7 +35009,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0009848 ! indoleacetic acid biosynthetic process via tryptophan
  relationship: regulates GO:0009848 ! indoleacetic acid biosynthetic process via tryptophan
-@@ -536302,7 +537901,7 @@
+@@ -536302,7 +537934,7 @@
  synonym: "regulation of proline biosynthetic process" BROAD []
  synonym: "regulation of proline formation" EXACT [GOC:TermGenie]
  synonym: "regulation of proline synthesis" EXACT [GOC:TermGenie]
@@ -34896,7 +35018,7 @@
  is_a: GO:2000282 ! regulation of amino acid biosynthetic process
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0055129 ! L-proline biosynthetic process
-@@ -537728,15 +539327,15 @@
+@@ -537728,15 +539360,15 @@
  
  [Term]
  id: GO:1902079
@@ -34917,7 +35039,7 @@
  created_by: al
  creation_date: 2013-04-23T21:34:29Z
  
-@@ -538446,12 +540045,13 @@
+@@ -538446,12 +540078,13 @@
  
  [Term]
  id: GO:1902114
@@ -34935,7 +35057,7 @@
  created_by: al
  creation_date: 2013-05-13T23:27:23Z
  
-@@ -540295,6 +541895,7 @@
+@@ -540295,6 +541928,7 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving ketone body." [GOC:pr, GOC:TermGenie]
  synonym: "ketone body metabolism" EXACT [GOC:TermGenie]
@@ -34943,7 +35065,7 @@
  is_a: GO:0006091 ! generation of precursor metabolites and energy
  is_a: GO:0044281 ! small molecule metabolic process
  is_a: GO:1901568 ! fatty acid derivative metabolic process
-@@ -544318,6 +545919,7 @@
+@@ -544318,6 +545952,7 @@
  name: chloride transmembrane transport
  namespace: biological_process
  def: "The process in which chloride is transported across a membrane." [GOC:TermGenie, GOC:vw]
@@ -34951,7 +35073,7 @@
  is_a: GO:0006821 ! chloride transport
  is_a: GO:0098656 ! monoatomic anion transmembrane transport
  created_by: bf
-@@ -548263,7 +549865,7 @@
+@@ -548263,7 +549898,7 @@
  namespace: cellular_component
  def: "A protein complex which is capable of GABA receptor activity. Upon binding of gamma-aminobutyric acid (GABA) it transmits the signal from one side of the membrane to the other to initiate a change in cell activity. Major inhibitory receptor in vertebrate brain. Also found in other vertebrate tissues, invertebrates and possibly in plants. Effective benzodiazepine receptor." [GO_REF:0000088, GOC:bhm, GOC:TermGenie, PMID:18790874]
  synonym: "gamma-aminobutyric acid receptor complex" EXACT []
@@ -34960,7 +35082,7 @@
  created_by: bhm
  creation_date: 2014-02-20T16:07:48Z
  
-@@ -548947,8 +550549,7 @@
+@@ -548947,8 +550582,7 @@
  synonym: "sulfurated eukaryotic molybdenum cofactor(2-) formation" EXACT [GOC:TermGenie]
  synonym: "sulfurated eukaryotic molybdenum cofactor(2-) synthesis" EXACT [GOC:TermGenie]
  xref: MetaCyc:PWY-5963
@@ -34970,7 +35092,7 @@
  relationship: has_part GO:0008265 ! molybdenum cofactor sulfurtransferase activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28388" xsd:anyURI
  created_by: dph
-@@ -549009,6 +550610,7 @@
+@@ -549009,6 +550643,7 @@
  synonym: "Mo-molybdopterin-cytosine-dinucleotide cofactor biosynthetic process" EXACT []
  xref: MetaCyc:PWY-6476
  is_a: GO:0006777 ! Mo-molybdopterin cofactor biosynthetic process
@@ -34978,7 +35100,7 @@
  relationship: has_part GO:0061602 ! molybdenum cofactor cytidylyltransferase activity
  created_by: dph
  creation_date: 2014-03-06T14:00:43Z
-@@ -552035,6 +553637,7 @@
+@@ -552035,6 +553670,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0046165 ! alcohol biosynthetic process
  relationship: regulates GO:0046165 ! alcohol biosynthetic process
@@ -34986,7 +35108,7 @@
  created_by: tt
  creation_date: 2014-04-22T21:55:03Z
  
-@@ -552043,6 +553646,7 @@
+@@ -552043,6 +553679,7 @@
  name: negative regulation of alcohol biosynthetic process
  namespace: biological_process
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of alcohol biosynthetic process." [GO_REF:0000058, GOC:mengo_curators, GOC:TermGenie, PMID:23332010]
@@ -34994,7 +35116,7 @@
  synonym: "down regulation of alcohol anabolism" EXACT [GOC:TermGenie]
  synonym: "down regulation of alcohol biosynthesis" EXACT [GOC:TermGenie]
  synonym: "down regulation of alcohol biosynthetic process" EXACT [GOC:TermGenie]
-@@ -552074,6 +553678,7 @@
+@@ -552074,6 +553711,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0046165 ! alcohol biosynthetic process
  relationship: negatively_regulates GO:0046165 ! alcohol biosynthetic process
@@ -35002,7 +35124,7 @@
  created_by: tt
  creation_date: 2014-04-22T21:55:13Z
  
-@@ -552082,6 +553687,7 @@
+@@ -552082,6 +553720,7 @@
  name: positive regulation of alcohol biosynthetic process
  namespace: biological_process
  def: "Any process that activates or increases the frequency, rate or extent of alcohol biosynthetic process." [GO_REF:0000058, GOC:mengo_curators, GOC:TermGenie, PMID:23332010]
@@ -35010,7 +35132,7 @@
  synonym: "activation of alcohol anabolism" NARROW [GOC:TermGenie]
  synonym: "activation of alcohol biosynthesis" NARROW [GOC:TermGenie]
  synonym: "activation of alcohol biosynthetic process" NARROW [GOC:TermGenie]
-@@ -552113,6 +553719,7 @@
+@@ -552113,6 +553752,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0046165 ! alcohol biosynthetic process
  relationship: positively_regulates GO:0046165 ! alcohol biosynthetic process
@@ -35018,7 +35140,7 @@
  created_by: tt
  creation_date: 2014-04-22T21:55:19Z
  
-@@ -552160,6 +553767,7 @@
+@@ -552160,6 +553800,7 @@
  namespace: molecular_function
  def: "Binding to phosphatidylinositol bisphosphate." [GO_REF:0000067, GOC:bhm, GOC:TermGenie, PMID:18690034]
  comment: An example of this is KCNJ2 in human (P63252) in PMID:18690034 (inferred from direct assay)
@@ -35026,7 +35148,7 @@
  is_a: GO:0043168 ! anion binding
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27059" xsd:anyURI
  created_by: bhm
-@@ -552349,7 +553957,6 @@
+@@ -552349,7 +553990,6 @@
  synonym: "metalloendoproteinase activity involved in amyloid precursor protein degradation" NARROW [GOC:TermGenie]
  synonym: "metalloendoproteinase activity involved in APP catabolic process" NARROW [GOC:TermGenie]
  synonym: "metalloendoproteinase activity involved in APP catabolism" NARROW [GOC:TermGenie]
@@ -35034,7 +35156,7 @@
  is_a: GO:0004222 ! metalloendopeptidase activity
  intersection_of: GO:0004222 ! metalloendopeptidase activity
  intersection_of: part_of GO:0042987 ! amyloid precursor protein catabolic process
-@@ -552593,7 +554200,6 @@
+@@ -552593,7 +554233,6 @@
  synonym: "upregulation of TPK I" RELATED [GOC:TermGenie]
  synonym: "upregulation of TPK II" RELATED [GOC:TermGenie]
  synonym: "upregulation of TTK" RELATED [GOC:TermGenie]
@@ -35042,7 +35164,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22455" xsd:anyURI
  is_obsolete: true
  created_by: sjp
-@@ -552700,31 +554306,25 @@
+@@ -552700,31 +554339,25 @@
  
  [Term]
  id: GO:1902954
@@ -35086,7 +35208,7 @@
  created_by: sjp
  creation_date: 2014-05-02T09:06:29Z
  
-@@ -558015,13 +559615,16 @@
+@@ -558015,13 +559648,16 @@
  
  [Term]
  id: GO:1903212
@@ -35106,7 +35228,7 @@
  created_by: mah
  creation_date: 2014-07-24T09:38:12Z
  
-@@ -559071,8 +560674,9 @@
+@@ -559071,8 +560707,9 @@
  synonym: "regulation of ornithine breakdown" EXACT [GOC:TermGenie]
  synonym: "regulation of ornithine catabolism" EXACT [GOC:TermGenie]
  synonym: "regulation of ornithine degradation" EXACT [GOC:TermGenie]
@@ -35117,7 +35239,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006593 ! L-ornithine catabolic process
  relationship: regulates GO:0006593 ! L-ornithine catabolic process
-@@ -564778,30 +566382,29 @@
+@@ -564778,30 +566415,29 @@
  
  [Term]
  id: GO:1903559
@@ -35157,7 +35279,7 @@
  created_by: kmv
  creation_date: 2014-10-21T17:13:26Z
  
-@@ -568820,7 +570423,7 @@
+@@ -568820,7 +570456,7 @@
  name: taste receptor complex
  namespace: cellular_component
  def: "A protein complex which is capable of taste receptor activity." [GO_REF:0000088, GOC:BHF, GOC:rl, GOC:TermGenie, PMID:16720576]
@@ -35166,7 +35288,7 @@
  created_by: rl
  creation_date: 2014-12-22T16:53:45Z
  
-@@ -589048,6 +590651,8 @@
+@@ -589048,6 +590684,8 @@
  name: all-trans-retinol binding
  namespace: molecular_function
  def: "Binding to all-trans-retinol." [GO_REF:0000067, GOC:kmv, GOC:TermGenie, PMID:19828452]
@@ -35175,7 +35297,7 @@
  is_a: GO:0019841 ! retinol binding
  created_by: kmv
  creation_date: 2015-10-27T21:14:47Z
-@@ -594253,7 +595858,7 @@
+@@ -594253,7 +595891,7 @@
  def: "Any process that modulates the frequency, rate or extent of 'de novo' NAD biosynthetic process from L-tryptophan." [GO_REF:0000058, GOC:bf, GOC:PARL, GOC:TermGenie, PMID:12140278, PMID:19843166]
  synonym: "regulation of 'de novo' NAD biosynthetic process from tryptophan" BROAD []
  synonym: "regulation of de novo NAD biosynthetic process from tryptophan" RELATED [GOC:TermGenie]
@@ -35184,7 +35306,7 @@
  is_a: GO:1900371 ! regulation of purine nucleotide biosynthetic process
  is_a: GO:1902688 ! regulation of NAD metabolic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -594304,7 +595909,7 @@
+@@ -594304,7 +595942,7 @@
  synonym: "up-regulation of de novo NAD biosynthetic process from tryptophan" RELATED [GOC:TermGenie]
  synonym: "upregulation of 'de novo' NAD biosynthetic process from tryptophan" EXACT [GOC:TermGenie]
  synonym: "upregulation of de novo NAD biosynthetic process from tryptophan" RELATED [GOC:TermGenie]
@@ -35193,7 +35315,7 @@
  is_a: GO:1900373 ! positive regulation of purine nucleotide biosynthetic process
  is_a: GO:1902690 ! positive regulation of NAD metabolic process
  is_a: GO:1905012 ! regulation of 'de novo' NAD biosynthetic process from L-tryptophan
-@@ -604651,47 +606256,45 @@
+@@ -604651,47 +606289,45 @@
  
  [Term]
  id: GO:1905526
@@ -35259,7 +35381,7 @@
  created_by: dph
  creation_date: 2016-10-05T13:16:41Z
  
-@@ -604896,7 +606499,7 @@
+@@ -604896,7 +606532,7 @@
  synonym: "IL-7-receptor complex" EXACT []
  synonym: "IL7 receptor complex" EXACT []
  synonym: "IL7-receptor complex" EXACT []
@@ -35268,7 +35390,7 @@
  created_by: bhm
  creation_date: 2016-10-10T07:44:05Z
  
-@@ -604948,7 +606551,7 @@
+@@ -604948,7 +606584,7 @@
  synonym: "IL15 receptor complex" EXACT []
  synonym: "IL15-receptor complex" EXACT []
  synonym: "interleukin-15-receptor complex" EXACT []
@@ -35277,7 +35399,7 @@
  created_by: bhm
  creation_date: 2016-10-10T13:38:12Z
  
-@@ -605801,7 +607404,7 @@
+@@ -605801,7 +607437,7 @@
  synonym: "IL-10-receptor complex" EXACT []
  synonym: "IL10 receptor complex" EXACT []
  synonym: "interleukin-10-receptor complex" EXACT []
@@ -35286,7 +35408,7 @@
  created_by: bhm
  creation_date: 2016-10-19T09:45:22Z
  
-@@ -614860,6 +616463,8 @@
+@@ -614860,6 +616496,8 @@
  namespace: molecular_function
  def: "Catalysis of the removal of the cap from an unmethylated 5'-end capped RNA resulting in the release of the entire cap structure (GpppN) and a 5' monophosphorylated RNA." [GOC:dgf, PMID:20802481]
  synonym: "G(5')pppN pyrophosphatase activity" RELATED []
@@ -35295,7 +35417,7 @@
  is_a: GO:0016891 ! RNA endonuclease activity producing 5'-phosphomonoesters, hydrolytic mechanism
  created_by: tb
  creation_date: 2013-08-26T17:51:00Z
-@@ -615982,7 +617587,7 @@
+@@ -615982,7 +617620,7 @@
  synonym: "PDGF-DD-receptor beta complex" NARROW []
  synonym: "receptor-ligand complex" BROAD []
  is_a: GO:0098797 ! plasma membrane protein complex
@@ -35304,7 +35426,7 @@
  relationship: has_part GO:1990265 ! platelet-derived growth factor complex
  created_by: bhm
  creation_date: 2014-01-14T11:12:22Z
-@@ -617749,7 +619354,7 @@
+@@ -617749,7 +619387,7 @@
  id: GO:1990451
  name: cellular stress response to acidic pH
  namespace: biological_process
@@ -35313,7 +35435,7 @@
  comment: An example of this is NOX1 in human (Q9Y5S8) in PMID:10615049.
  synonym: "cellular stress response to acidity" BROAD []
  is_a: GO:0062197 ! cellular response to chemical stress
-@@ -619569,7 +621174,7 @@
+@@ -619569,7 +621207,7 @@
  def: "A receptor complex composed of two ANPR-A molecules and expressed in the heart atrium in mammals; it plays a major role in the regulation of blood pressure and salt-fluid volume homeostasis. Binding of the ligand AMP in response to atrial distension (high blood volume) leads to guanylate cyclase activity of the ANPR-A receptor complex, thereby elevating intracellular cGMP levels. The end result is a reduction in blood volume and, therefore, a reduction in cardiac output and systemic blood pressure." [GOC:ame, PMID:15117952]
  comment: An example of this is Npr1 in rat (UniProt symbol P18910) in PMID:15117952 (inferred from direct assay).
  synonym: "NPR1 receptor complex" RELATED []
@@ -35322,7 +35444,7 @@
  created_by: ame
  creation_date: 2015-01-28T16:03:22Z
  
-@@ -621301,9 +622906,10 @@
+@@ -621301,9 +622939,10 @@
  id: GO:1990780
  name: cytoplasmic side of dendritic spine plasma membrane
  namespace: cellular_component
@@ -35334,7 +35456,7 @@
  created_by: sl
  creation_date: 2015-06-23T18:35:39Z
  
-@@ -621719,8 +623325,11 @@
+@@ -621719,8 +623358,11 @@
  synonym: "RNA adenylyltransferase activity" EXACT []
  xref: EC:2.7.7.19
  xref: MetaCyc:POLYNUCLEOTIDE-ADENYLYLTRANSFERASE-RXN
@@ -35347,7 +35469,7 @@
  xref: RHEA:11332
  is_a: GO:0070566 ! adenylyltransferase activity
  property_value: skos:exactMatch EC:2.7.7.19
-@@ -622461,6 +624070,7 @@
+@@ -622461,6 +624103,7 @@
  def: "Catalysis of the reaction: a cytidine in 18S rRNA + acetyl-CoA + ATP + H2O = an N(4)-acetylcytidine in 18S rRNA + ADP + phosphate + CoA + H+." [PMID:25402480, RHEA:51424]
  xref: RHEA:51424
  is_a: GO:0008080 ! N-acetyltransferase activity
@@ -35355,7 +35477,7 @@
  property_value: skos:exactMatch RHEA:51424
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29506" xsd:anyURI
  created_by: al
-@@ -622746,7 +624356,8 @@
+@@ -622746,7 +624389,8 @@
  name: response to psychosocial stress
  namespace: biological_process
  def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of exposure to aversive or demanding psychological and social conditions that tax or exceed the behavioral resources of the organism." [PMID:22922217, PMID:26458179]
@@ -35365,7 +35487,7 @@
  created_by: sl
  creation_date: 2015-12-07T20:38:35Z
  
-@@ -623091,12 +624702,15 @@
+@@ -623091,12 +624735,15 @@
  
  [Term]
  id: GO:1990943
@@ -35384,7 +35506,7 @@
  created_by: mah
  creation_date: 2016-04-06T16:08:43Z
  
-@@ -624154,6 +625768,7 @@
+@@ -624154,6 +625801,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
  xref: Reactome:R-HSA-9764260 "Regulation of Expression and Function of Type II Classical Cadherins"
@@ -35392,7 +35514,7 @@
  is_a: GO:0022407 ! regulation of cell-cell adhesion
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0044331 ! cell-cell adhesion mediated by cadherin
-@@ -626542,34 +628157,29 @@
+@@ -626542,34 +628190,29 @@
  
  [Term]
  id: GO:2000211
@@ -35437,7 +35559,7 @@
  created_by: mah
  creation_date: 2010-11-03T02:43:55Z
  
-@@ -626589,16 +628199,14 @@
+@@ -626589,16 +628232,14 @@
  
  [Term]
  id: GO:2000214
@@ -35459,7 +35581,7 @@
  created_by: mah
  creation_date: 2010-11-03T02:45:20Z
  
-@@ -639599,8 +641207,9 @@
+@@ -639599,8 +641240,9 @@
  synonym: "regulation of proline catabolic process to glutamate" BROAD []
  synonym: "regulation of proline degradation to glutamate" EXACT [GOC:obol]
  synonym: "regulation of proline oxidation" RELATED [GOC:obol]
@@ -35470,7 +35592,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006562 ! L-proline catabolic process
  relationship: regulates GO:0006562 ! L-proline catabolic process
-@@ -640593,6 +642202,7 @@
+@@ -640593,6 +642235,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of apoptotic signaling pathway." [GOC:mtg_apoptosis]
  synonym: "regulation of apoptotic signalling pathway" EXACT [GOC:mah]
@@ -35478,7 +35600,7 @@
  is_a: GO:0009966 ! regulation of signal transduction
  is_a: GO:0042981 ! regulation of apoptotic process
  intersection_of: GO:0065007 ! biological regulation
-@@ -640836,8 +642446,9 @@
+@@ -640836,8 +642479,9 @@
  def: "Any process that modulates the frequency, rate or extent of ammonia assimilation cycle." [GOC:BHF]
  synonym: "regulation of glutamate metabolic process via glutamine and ammonia" EXACT [GOC:obol]
  synonym: "regulation of glutamate metabolism via glutamine and ammonia" EXACT [GOC:obol]
@@ -35489,7 +35611,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0019676 ! ammonia assimilation cycle
  relationship: regulates GO:0019676 ! ammonia assimilation cycle
-@@ -640851,8 +642462,9 @@
+@@ -640851,8 +642495,9 @@
  def: "Any process that stops, prevents or reduces the frequency, rate or extent of ammonia assimilation cycle." [GOC:BHF]
  synonym: "negative regulation of glutamate metabolic process via glutamine and ammonia" EXACT [GOC:obol]
  synonym: "negative regulation of glutamate metabolism via glutamine and ammonia" EXACT [GOC:obol]
@@ -35500,7 +35622,7 @@
  is_a: GO:2001248 ! regulation of ammonia assimilation cycle
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0019676 ! ammonia assimilation cycle
-@@ -641552,15 +643164,15 @@
+@@ -641552,15 +643197,15 @@
  
  [Term]
  id: GO:2001297
@@ -35521,7 +35643,7 @@
  created_by: pr
  creation_date: 2012-02-14T03:38:21Z
  
-@@ -641578,15 +643190,15 @@
+@@ -641578,15 +643223,15 @@
  
  [Term]
  id: GO:2001299
@@ -35542,7 +35664,7 @@
  created_by: pr
  creation_date: 2012-02-14T03:40:03Z
  
-@@ -641911,8 +643523,10 @@
+@@ -641911,8 +643556,10 @@
  id: GO:7770002
  name: sodium:ammonium:chloride symporter activity
  namespace: molecular_function
@@ -35554,7 +35676,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30468" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-19T23:39:51Z
-@@ -641993,9 +643607,11 @@
+@@ -641993,9 +643640,11 @@
  id: GO:7770009
  name: L-tryptophan conjugated cholate hydrolase activity
  namespace: molecular_function
@@ -35567,7 +35689,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30487" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2025-06-25T00:18:58Z
-@@ -642270,9 +643886,12 @@
+@@ -642270,9 +643919,12 @@
  def: "The chemical reactions and pathways resulting in the formation of nickel-pincer nucleotide (NPN) cofactor, also known as nickel pyridinium-3,5-bisthiocarboxylic acid mononucleotide." [PMID:24710389, PMID:27114550, PMID:33093595, PMID:39667499, PMID:39827451]
  synonym: "NPN cofactor biosynthetic process" EXACT []
  xref: MetaCyc:PWY-7928
@@ -35581,7 +35703,7 @@
  created_by: dragon-ai-agent
  
  [Term]
-@@ -642313,6 +643932,222 @@
+@@ -642313,6 +643965,222 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30887" xsd:anyURI
  created_by: dragon-ai-agent
  
@@ -35589,7 +35711,7 @@
 +id: GO:7770038
 +name: melanosomal lumen acidification
 +namespace: biological_process
-+def: "Any process that reduces the pH of the melanosomal lumen, measured by the concentration of the hydrogen ion." [PMID:23205854, PMID:35469906]
++def: "Any process that reduces the pH of the melanosomal lumen, corresponding to an increase in hydrogen ion concentration." [PMID:23205854, PMID:35469906]
 +synonym: "melanosome pH reduction" EXACT []
 +is_a: GO:0051452 ! intracellular pH reduction
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28838" xsd:anyURI
@@ -35599,7 +35721,7 @@
 +id: GO:7770039
 +name: melanosomal lumen pH elevation
 +namespace: biological_process
-+def: "Any process that increases the pH of the melanosomal lumen, measured by the concentration of the hydrogen ion." [PMID:11310796, PMID:27140606, PMID:32966160, PMID:35469906]
++def: "Any process that increases the pH of the melanosomal lumen, corresponding to a decrease in hydrogen ion concentration." [PMID:11310796, PMID:27140606, PMID:32966160, PMID:35469906]
 +synonym: "melanosome pH elevation" EXACT []
 +is_a: GO:0051454 ! intracellular pH elevation
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28838" xsd:anyURI
@@ -35794,7 +35916,7 @@
 +id: GO:7770055
 +name: intestinal lumen acidification
 +namespace: biological_process
-+def: "Any process that reduces the pH of the intestinal lumen, measured by the concentration of the hydrogen ion." [PMID:19741196]
++def: "Any process that reduces the pH of the intestinal lumen, corresponding to an increase in hydrogen ion concentration." [PMID:19741196]
 +synonym: "intestinal lumen pH reduction" EXACT []
 +is_a: GO:0045851 ! pH reduction
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31657" xsd:anyURI
