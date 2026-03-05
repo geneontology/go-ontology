@@ -742,6 +742,6 @@ GO:1990074	polyuridylation-dependent mRNA catabolic process	NCBITaxon:2	Bacteria
 GO:1901174	phytoene biosynthetic process	NCBITaxon:33208	Metazoa	
 GO:1901174	phytoene biosynthetic process	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:35209220
 GO:1901174	phytoene biosynthetic process	NCBITaxon:4896	Saccharomyces cerevisiae	PMID:35209220
-GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:33208	Metazoa		
+GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:33208	Metazoa	
 GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:35209220
 GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:4896	Saccharomyces cerevisiae	PMID:35209220
