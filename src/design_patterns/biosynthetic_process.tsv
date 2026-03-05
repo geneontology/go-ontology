@@ -49,7 +49,6 @@ http://purl.obolibrary.org/obo/GO_0046279	3,4-dihydroxybenzoate biosynthetic pro
 http://purl.obolibrary.org/obo/GO_1901792	3-(2,3-dihydroxyphenyl)propanoate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_46951	3-(2,3-dihydroxyphenyl)propanoate
 http://purl.obolibrary.org/obo/GO_1901795	3-(3-hydroxyphenyl)propanoate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57277	3-(3-hydroxyphenyl)propanoate
 http://purl.obolibrary.org/obo/GO_1901169	3-chlorocatechol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_27715	3-chlorocatechol
-http://purl.obolibrary.org/obo/GO_1903560	3-cyano-L-alanine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_77860	3-cyano-L-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_1902200	3-methylbut-2-enoyl-CoA(4-) biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57344	3-methylbut-2-enoyl-CoA(4-)
 http://purl.obolibrary.org/obo/GO_1901015	3alpha(S)-strictosidine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58193	3alpha(S)-strictosidinium(1+)
 http://purl.obolibrary.org/obo/GO_0048107	4-amino-3-isothiazolidinone biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64599	4-amino-3-isothiazolidinone
@@ -57,7 +56,6 @@ http://purl.obolibrary.org/obo/GO_0036108	4-amino-4-deoxy-alpha-L-arabinopyranos
 http://purl.obolibrary.org/obo/GO_0008153	4-aminobenzoate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17836	4-aminobenzoate
 http://purl.obolibrary.org/obo/GO_1901884	4-hydroxycoumarin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_77858	4-hydroxycoumarin(1-)
 http://purl.obolibrary.org/obo/GO_1901024	4-hydroxyphenylacetate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_48999	4-hydroxyphenylacetate
-http://purl.obolibrary.org/obo/GO_0019472	4-hydroxyproline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_63137	4-hydroxyproline zwitterion
 http://purl.obolibrary.org/obo/GO_0160305	4-vinylanisole biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_235375	4-vinylanisole
 http://purl.obolibrary.org/obo/GO_1901285	5,6,7,8-tetrahydromethanopterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58103	5,6,7,8-tetrahydromethanopterin(3-)
 http://purl.obolibrary.org/obo/GO_1901855	5,6,7,8-tetrahydrosarcinapterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59924	5,6,7,8-tetrahydrosarcinapterin(4-)
@@ -87,10 +85,10 @@ http://purl.obolibrary.org/obo/GO_0042837	D-glucarate biosynthetic process	http:
 http://purl.obolibrary.org/obo/GO_0046178	D-gluconate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18391	D-gluconate
 http://purl.obolibrary.org/obo/GO_0042841	D-glucuronate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15748	D-glucuronate
 http://purl.obolibrary.org/obo/GO_2001061	D-glycero-D-manno-heptose 7-phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59955	D-glycero-D-manno-heptose 7-phosphate(2-)
-http://purl.obolibrary.org/obo/GO_1900833	D-leucine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_143079	D-leucine zwitterion
 http://purl.obolibrary.org/obo/GO_1901280	D-ribose 5-phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58273	aldehydo-D-ribose 5-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0019302	D-ribose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16988	D-ribose
 http://purl.obolibrary.org/obo/GO_0070179	D-serine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35247	D-serine zwitterion
+http://purl.obolibrary.org/obo/GO_0006061	D-sorbitol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17924	D-glucitol
 http://purl.obolibrary.org/obo/GO_0042842	D-xylose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15936	aldehydo-D-xylose
 http://purl.obolibrary.org/obo/GO_1901159	D-xylulose 5-phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57737	D-xylulose 5-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0031148	DIF-1 biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_90397	1-(3,5-dichloro-2,6-dihydroxy-4-methoxyphenyl)hexan-1-one(1-)
@@ -139,7 +137,6 @@ http://purl.obolibrary.org/obo/GO_0071265	L-methionine biosynthetic process	http
 http://purl.obolibrary.org/obo/GO_0019680	L-methylmalonyl-CoA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57326	(R)-methylmalonyl-CoA(5-)
 http://purl.obolibrary.org/obo/GO_0009094	L-phenylalanine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58095	L-phenylalanine zwitterion
 http://purl.obolibrary.org/obo/GO_0062034	L-pipecolic acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_61185	L-pipecolic acid zwitterion
-http://purl.obolibrary.org/obo/GO_0019503	L-proline betaine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35280	L-proline betaine
 http://purl.obolibrary.org/obo/GO_0055129	L-proline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60039	L-proline zwitterion
 http://purl.obolibrary.org/obo/GO_0062143	L-propargylglycine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_143285	L-propargylglycine zwitterion
 http://purl.obolibrary.org/obo/GO_0016260	L-selenocysteine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57843	L-selenocysteine zwitterion
@@ -408,7 +405,6 @@ http://purl.obolibrary.org/obo/GO_0050992	dimethylallyl diphosphate biosynthetic
 http://purl.obolibrary.org/obo/GO_0034312	diol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23824	diol
 http://purl.obolibrary.org/obo/GO_1900572	diorcinol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64413	diorcinol
 http://purl.obolibrary.org/obo/GO_0046351	disaccharide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36233	disaccharide
-http://purl.obolibrary.org/obo/GO_0034268	discadenine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57585	discadenine zwitterion
 http://purl.obolibrary.org/obo/GO_0051502	diterpene phytoalexin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60952	diterpene phytoalexin
 http://purl.obolibrary.org/obo/GO_0016102	diterpenoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_23849	diterpenoid
 http://purl.obolibrary.org/obo/GO_0180047	dolichol phosphate mannose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58211	dolichyl beta-D-mannosyl phosphate(1-)
@@ -876,8 +872,8 @@ http://purl.obolibrary.org/obo/GO_0046220	pyridine biosynthetic process	http://p
 http://purl.obolibrary.org/obo/GO_0071589	pyridine nucleoside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_47896	pyridine nucleoside
 http://purl.obolibrary.org/obo/GO_0019363	pyridine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36980	pyridine nucleotide
 http://purl.obolibrary.org/obo/GO_0072525	pyridine-containing compound biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26421	pyridines
+http://purl.obolibrary.org/obo/GO_0042823	pyridoxal 5'-phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_597326	pyridoxal 5'-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0042821	pyridoxal biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17310	pyridoxal
-http://purl.obolibrary.org/obo/GO_0042823	pyridoxal phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_597326	pyridoxal 5'-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0008615	pyridoxine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16709	pyridoxine
 http://purl.obolibrary.org/obo/GO_0046126	pyrimidine deoxyribonucleoside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_19255	pyrimidine 2'-deoxyribonucleoside
 http://purl.obolibrary.org/obo/GO_0009197	pyrimidine deoxyribonucleoside diphosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26433	pyrimidine 2'-deoxyribonucleoside diphosphate
@@ -947,7 +943,6 @@ http://purl.obolibrary.org/obo/GO_0033525	sinapate ester biosynthetic process	ht
 http://purl.obolibrary.org/obo/GO_0019354	siroheme biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_60052	siroheme(8-)
 http://purl.obolibrary.org/obo/GO_0140377	sophorolipid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_51075	sophorolipid
 http://purl.obolibrary.org/obo/GO_0019435	sophorosyloxydocosanoate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_51078	13-sophorosyloxydocosanoate 6',6''-diacetate
-http://purl.obolibrary.org/obo/GO_0006061	sorbitol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_30911	glucitol
 http://purl.obolibrary.org/obo/GO_0008295	spermidine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57834	spermidine(3+)
 http://purl.obolibrary.org/obo/GO_0080088	spermidine hydroxycinnamate conjugate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_61233	spermidine hydroxycinnamic acid conjugate
 http://purl.obolibrary.org/obo/GO_0006597	spermine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_45725	spermine(4+)
@@ -985,6 +980,7 @@ http://purl.obolibrary.org/obo/GO_1900608	tensidol B biosynthetic process	http:/
 http://purl.obolibrary.org/obo/GO_0046246	terpene biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_35186	terpene
 http://purl.obolibrary.org/obo/GO_0016114	terpenoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26873	terpenoid
 http://purl.obolibrary.org/obo/GO_0009709	terpenoid indole alkaloid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_65321	terpenoid indole alkaloid
+http://purl.obolibrary.org/obo/GO_0180067	terreate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_233617	terreate
 http://purl.obolibrary.org/obo/GO_0140880	terrein biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_177543	terrein
 http://purl.obolibrary.org/obo/GO_1900796	terrequinone A biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64534	terrequinone A
 http://purl.obolibrary.org/obo/GO_1902645	tertiary alcohol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26878	tertiary alcohol
