@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-03-05/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-03-07/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-01-23" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-05" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-07" 
 
 
 ### 'de novo' L-methionine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071266`
@@ -1846,6 +1846,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### CNTFR-CLCF1 complex `http://purl.obolibrary.org/obo/GO_0097059`
+#### Removed
+- [CNTFR-CLCF1 complex](http://purl.obolibrary.org/obo/GO_0097059) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [CNTFR-CLCF1 complex](http://purl.obolibrary.org/obo/GO_0097059) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [CNTFR-CLCF1 complex](http://purl.obolibrary.org/obo/GO_0097059) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### CO-methylating acetyl-CoA synthase activity `http://purl.obolibrary.org/obo/GO_0043884`
 #### Removed
 - [CO-methylating acetyl-CoA synthase activity](http://purl.obolibrary.org/obo/GO_0043884) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: acetyl-CoA + corrinoid protein = CO + methylcorrinoid protein + CoA." 
@@ -1888,6 +1898,16 @@
 - [CP2 mannose-ethanolamine phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0051267) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 
+### CRLF-CLCF1 complex `http://purl.obolibrary.org/obo/GO_0097058`
+#### Removed
+- [CRLF-CLCF1 complex](http://purl.obolibrary.org/obo/GO_0097058) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [CRLF-CLCF1 complex](http://purl.obolibrary.org/obo/GO_0097058) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [CRLF-CLCF1 complex](http://purl.obolibrary.org/obo/GO_0097058) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### CTP metabolic process `http://purl.obolibrary.org/obo/GO_0046036`
 #### Removed
 - [CTP metabolic process](http://purl.obolibrary.org/obo/GO_0046036) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving CTP, cytidine triphosphate." 
@@ -1916,9 +1936,21 @@
 - [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of D(-)-lactate from other compounds, including pyruvate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
+- [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [label](http://www.w3.org/2000/01/rdf-schema#label) "D(-)-lactate biosynthetic process from pyruvate" 
+
+- [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [D-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008720) 
+
 #### Added
+- [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [label](http://www.w3.org/2000/01/rdf-schema#label) "pyruvate fermentation to D(-)-lactate" 
+
+- [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8274" 
+
+- [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of D(-)-lactate from other compounds, including pyruvate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [D(-)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019245) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "D(-)-lactate biosynthetic process from pyruvate" 
 
 
 ### D-4-hydroxyphenylglycine transaminase activity `http://purl.obolibrary.org/obo/GO_0047320`
@@ -2900,6 +2932,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23447592" 
 
 
+### Golgi to endosome transport `http://purl.obolibrary.org/obo/GO_0006895`
+
+#### Added
+- [Golgi to endosome transport](http://purl.obolibrary.org/obo/GO_0006895) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### Golgi to secretory granule transport `http://purl.obolibrary.org/obo/GO_0055107`
+
+#### Added
+- [Golgi to secretory granule transport](http://purl.obolibrary.org/obo/GO_0055107) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### Golgi to vacuole transport `http://purl.obolibrary.org/obo/GO_0006896`
+
+#### Added
+- [Golgi to vacuole transport](http://purl.obolibrary.org/obo/GO_0006896) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### Golgi transport complex `http://purl.obolibrary.org/obo/GO_0017119`
 #### Removed
 - [Golgi transport complex](http://purl.obolibrary.org/obo/GO_0017119) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "COG complex" 
@@ -3027,12 +3077,22 @@
 
 ### L(+)-lactate biosynthetic process from pyruvate `http://purl.obolibrary.org/obo/GO_0019246`
 #### Removed
+- [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) [label](http://www.w3.org/2000/01/rdf-schema#label) "L(+)-lactate biosynthetic process from pyruvate" 
+
 - [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L(+)-lactate from other compounds, including pyruvate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
+- [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [L-lactate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004459) 
+
 #### Added
+- [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "L(+)-lactate biosynthetic process from pyruvate" 
+
+- [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) [label](http://www.w3.org/2000/01/rdf-schema#label) "pyruvate fermentation to L(+)-lactate" 
+
 - [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L(+)-lactate from other compounds, including pyruvate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [L(+)-lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019246) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### L,L-diaminopimelate aminotransferase activity `http://purl.obolibrary.org/obo/GO_0010285`
@@ -3463,6 +3523,12 @@
 
 - [L-aspartate catabolic process](http://purl.obolibrary.org/obo/GO_0006533) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-aspartate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### L-aspartate transmembrane export from vacuole `http://purl.obolibrary.org/obo/GO_0089703`
+
+#### Added
+- [L-aspartate transmembrane export from vacuole](http://purl.obolibrary.org/obo/GO_0089703) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### L-aspartate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015183`
@@ -4259,6 +4325,12 @@
 
 - [L-glutamate gamma-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6784402" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDH4A1 converts 1PYR-3OH-5COOH to 4-OH-L-glutamate" 
+
+
+### L-glutamate import into mitochondrion `http://purl.obolibrary.org/obo/GO_0110141`
+
+#### Added
+- [L-glutamate import into mitochondrion](http://purl.obolibrary.org/obo/GO_0110141) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### L-glutamate oxidase activity `http://purl.obolibrary.org/obo/GO_0050025`
@@ -6625,6 +6697,12 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "DENV mRNA is decapped" 
 
 
+### RNA import into mitochondrion `http://purl.obolibrary.org/obo/GO_0035927`
+
+#### Added
+- [RNA import into mitochondrion](http://purl.obolibrary.org/obo/GO_0035927) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### RNA methylation `http://purl.obolibrary.org/obo/GO_0001510`
 
 #### Added
@@ -7679,9 +7757,15 @@
 - [activin complex](http://purl.obolibrary.org/obo/GO_0048180) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A nonsteroidal regulator, composed of two covalently linked inhibin beta subunits, inhibin beta-A and inhibin beta-B (sometimes known as activin beta or activin/inhibin beta). There are three forms of activin complex, activin A, which is composed of 2 inhibin beta-A subunits, activin B, which is composed of 2 inhibin beta-B subunits, and activin AB, which is composed of an inhibin beta-A and an inhibin beta-B subunit." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
+- [activin complex](http://purl.obolibrary.org/obo/GO_0048180) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+- [activin complex](http://purl.obolibrary.org/obo/GO_0048180) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
 #### Added
 - [activin complex](http://purl.obolibrary.org/obo/GO_0048180) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A nonsteroidal regulator, composed of two covalently linked inhibin beta subunits, inhibin beta-A and inhibin beta-B (sometimes known as activin beta or activin/inhibin beta). There are three forms of activin complex, activin A, which is composed of 2 inhibin beta-A subunits, activin B, which is composed of 2 inhibin beta-B subunits, and activin AB, which is composed of an inhibin beta-A and an inhibin beta-B subunit." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [activin complex](http://purl.obolibrary.org/obo/GO_0048180) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### actomyosin `http://purl.obolibrary.org/obo/GO_0042641`
@@ -8365,6 +8449,18 @@ GO:0047635"
 - [amino acid transaminase activity](http://purl.obolibrary.org/obo/GO_0140385) SubClassOf [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) 
 
 
+### amino acid transmembrane export from vacuole `http://purl.obolibrary.org/obo/GO_0032974`
+
+#### Added
+- [amino acid transmembrane export from vacuole](http://purl.obolibrary.org/obo/GO_0032974) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### amino acid transmembrane import into vacuole `http://purl.obolibrary.org/obo/GO_0032975`
+
+#### Added
+- [amino acid transmembrane import into vacuole](http://purl.obolibrary.org/obo/GO_0032975) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### amino acid transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015171`
 #### Removed
 - [amino acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015171) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-352232" 
@@ -8647,6 +8743,16 @@ GO:0047635"
 #### Added
 - [androecium development](http://purl.obolibrary.org/obo/GO_0048466) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the androecium over time, from its formation to the mature structure." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### angiogenin-PRI complex `http://purl.obolibrary.org/obo/GO_0032311`
+#### Removed
+- [angiogenin-PRI complex](http://purl.obolibrary.org/obo/GO_0032311) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+- [angiogenin-PRI complex](http://purl.obolibrary.org/obo/GO_0032311) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+#### Added
+- [angiogenin-PRI complex](http://purl.obolibrary.org/obo/GO_0032311) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### animal organ morphogenesis `http://purl.obolibrary.org/obo/GO_0009887`
@@ -10130,6 +10236,14 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10148" 
 
 
+### blood microparticle `http://purl.obolibrary.org/obo/GO_0072562`
+#### Removed
+- [blood microparticle](http://purl.obolibrary.org/obo/GO_0072562) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [blood microparticle](http://purl.obolibrary.org/obo/GO_0072562) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+
 ### branched-chain 2-oxo acid dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0003863`
 
 #### Added
@@ -10186,6 +10300,16 @@ GO:0047635"
 #### Added
 - [budding cell isotropic bud growth](http://purl.obolibrary.org/obo/GO_0007119) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Unlocalized bud growth such that the entire surface of the bud expands evenly, in a cell that reproduces by budding." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### bursicon neuropeptide hormone complex `http://purl.obolibrary.org/obo/GO_0031395`
+#### Removed
+- [bursicon neuropeptide hormone complex](http://purl.obolibrary.org/obo/GO_0031395) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+- [bursicon neuropeptide hormone complex](http://purl.obolibrary.org/obo/GO_0031395) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+#### Added
+- [bursicon neuropeptide hormone complex](http://purl.obolibrary.org/obo/GO_0031395) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### cAMP deaminase activity `http://purl.obolibrary.org/obo/GO_0090612`
@@ -10256,11 +10380,29 @@ GO:0047635"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PKG phosphorylates NS5" 
 
 
+### cadmium ion import into vacuole `http://purl.obolibrary.org/obo/GO_0036249`
+
+#### Added
+- [cadmium ion import into vacuole](http://purl.obolibrary.org/obo/GO_0036249) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### calcium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_0019855`
 
 #### Added
 - [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-400046" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "L-type Calcium Channels close in pancreatic beta cells" 
+
+
+### calcium import into the mitochondrion `http://purl.obolibrary.org/obo/GO_0036444`
+
+#### Added
+- [calcium import into the mitochondrion](http://purl.obolibrary.org/obo/GO_0036444) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### calcium ion import into vacuole `http://purl.obolibrary.org/obo/GO_0140146`
+
+#### Added
+- [calcium ion import into vacuole](http://purl.obolibrary.org/obo/GO_0140146) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### calcium ion transmembrane transport `http://purl.obolibrary.org/obo/GO_0070588`
@@ -11431,6 +11573,14 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:11940" 
 
 
+### classical-complement-pathway C3/C5 convertase complex `http://purl.obolibrary.org/obo/GO_0005601`
+#### Removed
+- [classical-complement-pathway C3/C5 convertase complex](http://purl.obolibrary.org/obo/GO_0005601) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [classical-complement-pathway C3/C5 convertase complex](http://purl.obolibrary.org/obo/GO_0005601) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### clathrin-coated endocytic vesicle `http://purl.obolibrary.org/obo/GO_0045334`
 #### Removed
 - [clathrin-coated endocytic vesicle](http://purl.obolibrary.org/obo/GO_0045334) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A clathrin-coated, membrane-bounded intracellular vesicle formed by invagination of the plasma membrane around an extracellular substance." 
@@ -11502,6 +11652,26 @@ GO:0047635"
 - [collagen type VIII trimer](http://purl.obolibrary.org/obo/GO_0005591) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [interstitial hexagonal collagen network](http://purl.obolibrary.org/obo/GO_0098646) 
 
 
+### complement component C1 complex `http://purl.obolibrary.org/obo/GO_0005602`
+#### Removed
+- [complement component C1 complex](http://purl.obolibrary.org/obo/GO_0005602) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [complement component C1 complex](http://purl.obolibrary.org/obo/GO_0005602) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [complement component C1 complex](http://purl.obolibrary.org/obo/GO_0005602) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
+### complement component C1q complex `http://purl.obolibrary.org/obo/GO_0062167`
+#### Removed
+- [complement component C1q complex](http://purl.obolibrary.org/obo/GO_0062167) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+- [complement component C1q complex](http://purl.obolibrary.org/obo/GO_0062167) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+#### Added
+- [complement component C1q complex](http://purl.obolibrary.org/obo/GO_0062167) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### complex of collagen trimers `http://purl.obolibrary.org/obo/GO_0098644`
 #### Removed
 - [complex of collagen trimers](http://purl.obolibrary.org/obo/GO_0098644) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular matrix](http://purl.obolibrary.org/obo/GO_0031012) 
@@ -11556,6 +11726,18 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815316194" 
+
+
+### copper import into the mitochondrion `http://purl.obolibrary.org/obo/GO_0140636`
+
+#### Added
+- [copper import into the mitochondrion](http://purl.obolibrary.org/obo/GO_0140636) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### copper ion export from vacuole `http://purl.obolibrary.org/obo/GO_0140145`
+
+#### Added
+- [copper ion export from vacuole](http://purl.obolibrary.org/obo/GO_0140145) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### copper ion transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005375`
@@ -12361,6 +12543,18 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15163540" 
+
+
+### cytosol to Golgi apparatus transport `http://purl.obolibrary.org/obo/GO_0140820`
+
+#### Added
+- [cytosol to Golgi apparatus transport](http://purl.obolibrary.org/obo/GO_0140820) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### cytosol to endoplasmic reticulum transport `http://purl.obolibrary.org/obo/GO_0046967`
+
+#### Added
+- [cytosol to endoplasmic reticulum transport](http://purl.obolibrary.org/obo/GO_0046967) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### dADP catabolic process `http://purl.obolibrary.org/obo/GO_0046057`
@@ -14079,6 +14273,35 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0521436125" 
 
 
+### embryonic sheath `http://purl.obolibrary.org/obo/GO_0140400`
+
+#### Added
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31680"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A specialized, transient apical extracellular matrix (aECM) that overlays the apical surface of the embryonic epidermis in Caenorhabditis elegans. It is secreted just prior to the start of embryonic elongation and acts as a mechanical scaffold to maintain embryonic integrity, distribute actomyosin-dependent stress, and anchor developing muscles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28526752" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33036165" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22278925" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25798732" 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-03-06T09:07:34Z" 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140400" 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [label](http://www.w3.org/2000/01/rdf-schema#label) "embryonic sheath" 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- Class: [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) SubClassOf [specialized extracellular matrix](http://purl.obolibrary.org/obo/GO_0140047) 
+
+
 ### endocytic vesicle `http://purl.obolibrary.org/obo/GO_0030139`
 #### Removed
 - [endocytic vesicle](http://purl.obolibrary.org/obo/GO_0030139) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A membrane-bounded intracellular vesicle formed by invagination of the plasma membrane around an extracellular substance. Endocytic vesicles fuse with early endosomes to deliver the cargo for further sorting." 
@@ -14206,6 +14429,30 @@ GO:0047635"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Proteasome-dependent degradation of ubiquitinated CDH1" 
 
 
+### endoplasmic reticulum to Golgi vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_0006888`
+
+#### Added
+- [endoplasmic reticulum to Golgi vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0006888) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### endoplasmic reticulum to chloroplast transport `http://purl.obolibrary.org/obo/GO_1901965`
+
+#### Added
+- [endoplasmic reticulum to chloroplast transport](http://purl.obolibrary.org/obo/GO_1901965) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### endoplasmic reticulum to cytosol auxin transport `http://purl.obolibrary.org/obo/GO_0080162`
+
+#### Added
+- [endoplasmic reticulum to cytosol auxin transport](http://purl.obolibrary.org/obo/GO_0080162) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### endoplasmic reticulum to cytosol transport `http://purl.obolibrary.org/obo/GO_1903513`
+
+#### Added
+- [endoplasmic reticulum to cytosol transport](http://purl.obolibrary.org/obo/GO_1903513) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### endoplasmic reticulum-lipid droplet tether activity `http://purl.obolibrary.org/obo/GO_0170007`
 
 #### Added
@@ -14255,6 +14502,18 @@ GO:0047635"
 #### Added
 - [endosomal lumen acidification](http://purl.obolibrary.org/obo/GO_0048388) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that reduces the pH of the endosomal lumen, corresponding to an increase in hydrogen ion concentration." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+
+### endosome to lysosome transport `http://purl.obolibrary.org/obo/GO_0008333`
+
+#### Added
+- [endosome to lysosome transport](http://purl.obolibrary.org/obo/GO_0008333) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### endosome to pigment granule transport `http://purl.obolibrary.org/obo/GO_0043485`
+
+#### Added
+- [endosome to pigment granule transport](http://purl.obolibrary.org/obo/GO_0043485) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### endospore external encapsulating structure `http://purl.obolibrary.org/obo/GO_0043591`
@@ -14599,6 +14858,12 @@ GO:0047635"
 - [ethylene biosynthetic process](http://purl.obolibrary.org/obo/GO_0009693) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6854](http://identifiers.org/metacyc.reaction/PWY-6854) 
 
 
+### export from the mitochondrion `http://purl.obolibrary.org/obo/GO_0170037`
+
+#### Added
+- [export from the mitochondrion](http://purl.obolibrary.org/obo/GO_0170037) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### external encapsulating structure `http://purl.obolibrary.org/obo/GO_0030312`
 #### Removed
 - [external encapsulating structure](http://purl.obolibrary.org/obo/GO_0030312) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A structure that lies outside the plasma membrane and surrounds the entire cell or cells. This does not include the periplasmic space." 
@@ -14691,6 +14956,59 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19135896" 
 
 
+### extracellular exosome `http://purl.obolibrary.org/obo/GO_0070062`
+#### Removed
+- [extracellular exosome](http://purl.obolibrary.org/obo/GO_0070062) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+
+
+### extracellular exosome complex `http://purl.obolibrary.org/obo/GO_1990563`
+#### Removed
+- [extracellular exosome complex](http://purl.obolibrary.org/obo/GO_1990563) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [extracellular exosome complex](http://purl.obolibrary.org/obo/GO_1990563) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
+### extracellular isoamylase complex `http://purl.obolibrary.org/obo/GO_0010367`
+#### Removed
+- [extracellular isoamylase complex](http://purl.obolibrary.org/obo/GO_0010367) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+#### Added
+- [extracellular isoamylase complex](http://purl.obolibrary.org/obo/GO_0010367) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
+### extracellular protein-containing complex `http://purl.obolibrary.org/obo/GO_0140392`
+
+#### Added
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2020-09-09T05:12:38Z" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140392" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "extracellular protein complex" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31673"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together outside a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [label](http://www.w3.org/2000/01/rdf-schema#label) "extracellular protein-containing complex" 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- Class: [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) EquivalentTo [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576)) 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+
 ### extracellular region `http://purl.obolibrary.org/obo/GO_0005576`
 #### Removed
 - [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite." 
@@ -14699,6 +15017,42 @@ GO:0047635"
 #### Added
 - [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The space external to the outermost structure of a cell. For cells without external protective or external encapsulating structures this refers to space outside of the plasma membrane. This term covers the host cell environment outside an intracellular parasite." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_drosophila](http://purl.obolibrary.org/obo/go#goslim_drosophila) 
+
+
+### extracellular space `http://purl.obolibrary.org/obo/GO_0005615`
+#### Removed
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_drosophila](http://purl.obolibrary.org/obo/go#goslim_drosophila) 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_chembl](http://purl.obolibrary.org/obo/go#goslim_chembl) 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that for multicellular organisms, the extracellular space refers to everything outside a cell, but still within the organism (excluding the extracellular matrix). Gene products from a multi-cellular organism that are secreted from a cell into the interstitial fluid or blood can therefore be annotated to this term." 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "That part of a multicellular organism outside the cells proper, usually taken to be outside the plasma membranes, and occupied by fluid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198547684" 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_generic](http://purl.obolibrary.org/obo/go#goslim_generic) 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [label](http://www.w3.org/2000/01/rdf-schema#label) "extracellular space" 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) SubClassOf [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) 
+
+#### Added
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete extracellular space" 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31545"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. That part of a multicellular organism outside the cells proper, usually taken to be outside the plasma membranes, and occupied by fluid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198547684" 
+
+- [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same concept as extracellular region; GO:0005576." 
 
 
 ### extracellular transport `http://purl.obolibrary.org/obo/GO_0006858`
@@ -14907,11 +15261,29 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 
+### fibrinogen complex `http://purl.obolibrary.org/obo/GO_0005577`
+#### Removed
+- [fibrinogen complex](http://purl.obolibrary.org/obo/GO_0005577) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+- [fibrinogen complex](http://purl.obolibrary.org/obo/GO_0005577) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [fibrinogen complex](http://purl.obolibrary.org/obo/GO_0005577) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### first spliceosomal transesterification activity `http://purl.obolibrary.org/obo/GO_0000384`
 
 #### Added
 - [first spliceosomal transesterification activity](http://purl.obolibrary.org/obo/GO_0000384) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9794542" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Formation of the Spliceosomal C complex containing intron lariat" 
+
+
+### flavonoid transport from endoplasmic reticulum to plant-type vacuole `http://purl.obolibrary.org/obo/GO_1903415`
+#### Removed
+- [flavonoid transport from endoplasmic reticulum to plant-type vacuole](http://purl.obolibrary.org/obo/GO_1903415) SubClassOf [transport](http://purl.obolibrary.org/obo/GO_0006810) 
+
+#### Added
+- [flavonoid transport from endoplasmic reticulum to plant-type vacuole](http://purl.obolibrary.org/obo/GO_1903415) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### floral organ development `http://purl.obolibrary.org/obo/GO_0048437`
@@ -15026,6 +15398,12 @@ GO:0047635"
 - [fluorene catabolic process](http://purl.obolibrary.org/obo/GO_0019429) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31634"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### folate import into mitochondrion `http://purl.obolibrary.org/obo/GO_1904947`
+
+#### Added
+- [folate import into mitochondrion](http://purl.obolibrary.org/obo/GO_1904947) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### folic acid receptor activity `http://purl.obolibrary.org/obo/GO_0061714`
 
 #### Added
@@ -15105,6 +15483,12 @@ GO:0047635"
 #### Added
 - [forward locomotion](http://purl.obolibrary.org/obo/GO_0043056) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Anterior movement of an organism, following the direction of the head of the animal." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### fructose export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_1902334`
+
+#### Added
+- [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### fructose-2,6-bisphosphate 2-phosphatase activity `http://purl.obolibrary.org/obo/GO_0004331`
@@ -15950,6 +16334,12 @@ GO:0047635"
 
 
 
+### glutathione import into mitochondrion `http://purl.obolibrary.org/obo/GO_0160007`
+
+#### Added
+- [glutathione import into mitochondrion](http://purl.obolibrary.org/obo/GO_0160007) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### glutathione metabolic process `http://purl.obolibrary.org/obo/GO_0006749`
 
 #### Added
@@ -15994,6 +16384,12 @@ GO:0047635"
 #### Added
 - [glutathione specific gamma-glutamylcyclotransferase activity](http://purl.obolibrary.org/obo/GO_0061928) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6785928" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CHAC1,2 cleaves GSH to OPRO and CysGly" 
+
+
+### glutathione transmembrane import into vacuole `http://purl.obolibrary.org/obo/GO_0071996`
+
+#### Added
+- [glutathione transmembrane import into vacuole](http://purl.obolibrary.org/obo/GO_0071996) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0004365`
@@ -16714,6 +17110,12 @@ GO:0047635"
 
 
 
+### heme export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_0140357`
+
+#### Added
+- [heme export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_0140357) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### heme transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015232`
 
 #### Added
@@ -16981,6 +17383,24 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18645" 
 
 
+### host extracellular space `http://purl.obolibrary.org/obo/GO_0043655`
+#### Removed
+- [host extracellular space](http://purl.obolibrary.org/obo/GO_0043655) [label](http://www.w3.org/2000/01/rdf-schema#label) "host extracellular space" 
+
+- [host extracellular space](http://purl.obolibrary.org/obo/GO_0043655) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The space within a host but external to the plasma membrane of host cells, e.g. within host bloodstream." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cc" 
+
+#### Added
+- [host extracellular space](http://purl.obolibrary.org/obo/GO_0043655) [label](http://www.w3.org/2000/01/rdf-schema#label) "host extracellular region" 
+
+- [host extracellular space](http://purl.obolibrary.org/obo/GO_0043655) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "host extracellular space" 
+
+- [host extracellular space](http://purl.obolibrary.org/obo/GO_0043655) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31545"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [host extracellular space](http://purl.obolibrary.org/obo/GO_0043655) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The space within a host but external to the plasma membrane of host cells, e.g. host bloodstream." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cc" 
+
+
 ### hyaluronan biosynthetic process `http://purl.obolibrary.org/obo/GO_0030213`
 #### Removed
 - [hyaluronan biosynthetic process](http://purl.obolibrary.org/obo/GO_0030213) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2142850" 
@@ -17180,6 +17600,26 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### immunoglobulin complex, circulating `http://purl.obolibrary.org/obo/GO_0042571`
+#### Removed
+- [immunoglobulin complex, circulating](http://purl.obolibrary.org/obo/GO_0042571) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [immunoglobulin complex, circulating](http://purl.obolibrary.org/obo/GO_0042571) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
+### import into nucleus `http://purl.obolibrary.org/obo/GO_0051170`
+
+#### Added
+- [import into nucleus](http://purl.obolibrary.org/obo/GO_0051170) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### import into the mitochondrion `http://purl.obolibrary.org/obo/GO_0170036`
+
+#### Added
+- [import into the mitochondrion](http://purl.obolibrary.org/obo/GO_0170036) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### importin-alpha family protein binding `http://purl.obolibrary.org/obo/GO_0061676`
 
 #### Added
@@ -17211,6 +17651,16 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:45776" 
 
 - [indole-3-acetonitrile nitrilase activity](http://purl.obolibrary.org/obo/GO_0080061) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [3.5.5.1](http://purl.uniprot.org/enzyme/3.5.5.1) 
+
+
+### inhibin complex `http://purl.obolibrary.org/obo/GO_0043511`
+#### Removed
+- [inhibin complex](http://purl.obolibrary.org/obo/GO_0043511) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+- [inhibin complex](http://purl.obolibrary.org/obo/GO_0043511) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [inhibin complex](http://purl.obolibrary.org/obo/GO_0043511) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### inosine biosynthetic process `http://purl.obolibrary.org/obo/GO_0046103`
@@ -17288,6 +17738,14 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### insulin-like growth factor binding protein complex `http://purl.obolibrary.org/obo/GO_0016942`
+#### Removed
+- [insulin-like growth factor binding protein complex](http://purl.obolibrary.org/obo/GO_0016942) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [insulin-like growth factor binding protein complex](http://purl.obolibrary.org/obo/GO_0016942) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### integrin biosynthetic process `http://purl.obolibrary.org/obo/GO_0045112`
 #### Removed
 - [integrin biosynthetic process](http://purl.obolibrary.org/obo/GO_0045112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of integrins, a large family of transmembrane proteins that act as receptors for cell-adhesion molecules." 
@@ -17302,6 +17760,12 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 
+### intercellular transport `http://purl.obolibrary.org/obo/GO_0010496`
+
+#### Added
+- [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31545"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### interleukin-1 receptor binding `http://purl.obolibrary.org/obo/GO_0005149`
 #### Removed
 - [interleukin-1 receptor binding](http://purl.obolibrary.org/obo/GO_0005149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an interleukin-1 receptor." 
@@ -17310,6 +17774,16 @@ GO:0047635"
 #### Added
 - [interleukin-1 receptor binding](http://purl.obolibrary.org/obo/GO_0005149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an interleukin-1 receptor." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### interleukin-12 complex `http://purl.obolibrary.org/obo/GO_0043514`
+#### Removed
+- [interleukin-12 complex](http://purl.obolibrary.org/obo/GO_0043514) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+- [interleukin-12 complex](http://purl.obolibrary.org/obo/GO_0043514) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [interleukin-12 complex](http://purl.obolibrary.org/obo/GO_0043514) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### interleukin-16 receptor binding `http://purl.obolibrary.org/obo/GO_0045514`
@@ -17360,6 +17834,16 @@ GO:0047635"
 #### Added
 - [interleukin-22 receptor binding](http://purl.obolibrary.org/obo/GO_0045518) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an interleukin-22 receptor." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### interleukin-23 complex `http://purl.obolibrary.org/obo/GO_0070743`
+#### Removed
+- [interleukin-23 complex](http://purl.obolibrary.org/obo/GO_0070743) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+- [interleukin-23 complex](http://purl.obolibrary.org/obo/GO_0070743) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [interleukin-23 complex](http://purl.obolibrary.org/obo/GO_0070743) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### interleukin-23 receptor binding `http://purl.obolibrary.org/obo/GO_0045519`
@@ -17442,6 +17926,16 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### interleukin-27 complex `http://purl.obolibrary.org/obo/GO_0070744`
+#### Removed
+- [interleukin-27 complex](http://purl.obolibrary.org/obo/GO_0070744) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+- [interleukin-27 complex](http://purl.obolibrary.org/obo/GO_0070744) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [interleukin-27 complex](http://purl.obolibrary.org/obo/GO_0070744) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### interleukin-27 receptor binding `http://purl.obolibrary.org/obo/GO_0045523`
 #### Removed
 - [interleukin-27 receptor binding](http://purl.obolibrary.org/obo/GO_0045523) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an interleukin-27 receptor." 
@@ -17450,6 +17944,16 @@ GO:0047635"
 #### Added
 - [interleukin-27 receptor binding](http://purl.obolibrary.org/obo/GO_0045523) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an interleukin-27 receptor." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### interleukin-35 complex `http://purl.obolibrary.org/obo/GO_0070745`
+#### Removed
+- [interleukin-35 complex](http://purl.obolibrary.org/obo/GO_0070745) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+- [interleukin-35 complex](http://purl.obolibrary.org/obo/GO_0070745) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [interleukin-35 complex](http://purl.obolibrary.org/obo/GO_0070745) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### interleukin-8 receptor binding `http://purl.obolibrary.org/obo/GO_0005153`
@@ -17732,6 +18236,12 @@ GO:0047635"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FecBCDE imports Fe3+-citrates to cytosol" 
 
 
+### iron import into the mitochondrion `http://purl.obolibrary.org/obo/GO_0048250`
+
+#### Added
+- [iron import into the mitochondrion](http://purl.obolibrary.org/obo/GO_0048250) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### iron-cytochrome-c reductase activity `http://purl.obolibrary.org/obo/GO_0047726`
 #### Removed
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ferrocytochrome c + Fe3+ = ferricytochrome c + Fe2+." 
@@ -17770,6 +18280,12 @@ GO:0047635"
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.16.2.1](http://purl.uniprot.org/enzyme/1.16.2.1) 
 
 - [iron-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0047726) SubClassOf [oxidoreductase activity, acting on metal ions](http://purl.obolibrary.org/obo/GO_0016722) 
+
+
+### iron-sulfur cluster export from the mitochondrion `http://purl.obolibrary.org/obo/GO_0140466`
+
+#### Added
+- [iron-sulfur cluster export from the mitochondrion](http://purl.obolibrary.org/obo/GO_0140466) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### iron-sulfur transferase activity `http://purl.obolibrary.org/obo/GO_0036455`
@@ -18033,12 +18549,32 @@ GO:0047635"
 
 ### lactate biosynthetic process from pyruvate `http://purl.obolibrary.org/obo/GO_0019244`
 #### Removed
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pyruvate fermentation to lactate" 
+
 - [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lactate from other compounds, including pyruvate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:go_curators" 
 
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [label](http://www.w3.org/2000/01/rdf-schema#label) "lactate biosynthetic process from pyruvate" 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) SubClassOf [pyruvate metabolic process](http://purl.obolibrary.org/obo/GO_0006090) 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [lactate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004457) 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) SubClassOf [lactate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019249) 
+
 #### Added
-- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lactate from other compounds, including pyruvate." 
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic chemical reactions and pathways resulting in the breakdown of pyruvate into lactate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lactate biosynthetic process from pyruvate" 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) [label](http://www.w3.org/2000/01/rdf-schema#label) "pyruvate fermentation to lactate" 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) SubClassOf [lactate metabolic process](http://purl.obolibrary.org/obo/GO_0006089) 
+
+- [lactate biosynthetic process from pyruvate](http://purl.obolibrary.org/obo/GO_0019244) SubClassOf [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) 
 
 
 ### lactoperoxidase activity `http://purl.obolibrary.org/obo/GO_0140825`
@@ -18129,6 +18665,16 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### larval serum protein complex `http://purl.obolibrary.org/obo/GO_0005616`
+#### Removed
+- [larval serum protein complex](http://purl.obolibrary.org/obo/GO_0005616) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+- [larval serum protein complex](http://purl.obolibrary.org/obo/GO_0005616) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [larval serum protein complex](http://purl.obolibrary.org/obo/GO_0005616) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### larval walking behavior `http://purl.obolibrary.org/obo/GO_0008346`
 #### Removed
 - [larval walking behavior](http://purl.obolibrary.org/obo/GO_0008346) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The behavior of a larval organism relating to the progression of that organism along the ground by the process of lifting and setting down each leg." 
@@ -18141,6 +18687,18 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+
+### late endosome to lysosome transport `http://purl.obolibrary.org/obo/GO_1902774`
+
+#### Added
+- [late endosome to lysosome transport](http://purl.obolibrary.org/obo/GO_1902774) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### late endosome to vacuole transport `http://purl.obolibrary.org/obo/GO_0045324`
+
+#### Added
+- [late endosome to vacuole transport](http://purl.obolibrary.org/obo/GO_0045324) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### lateral mesoderm development `http://purl.obolibrary.org/obo/GO_0048368`
@@ -18435,6 +18993,12 @@ GO:0047635"
 #### Added
 - [locomotor rhythm](http://purl.obolibrary.org/obo/GO_0045475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The rhythm of the locomotor activity of an organism during its 24 hour activity cycle." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### long-chain fatty acid import into peroxisome `http://purl.obolibrary.org/obo/GO_0015910`
+
+#### Added
+- [long-chain fatty acid import into peroxisome](http://purl.obolibrary.org/obo/GO_0015910) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### long-chain fatty acid transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005324`
@@ -18855,6 +19419,12 @@ GO:0047635"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rph" 
 
 
+### lysosome to ER cholesterol transport `http://purl.obolibrary.org/obo/GO_0090120`
+
+#### Added
+- [lysosome to ER cholesterol transport](http://purl.obolibrary.org/obo/GO_0090120) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### m-xylene catabolic process `http://purl.obolibrary.org/obo/GO_0042185`
 #### Removed
 - [m-xylene catabolic process](http://purl.obolibrary.org/obo/GO_0042185) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of m-xylene, 1,3-dimethylbenzene, a colorless, liquid aromatic hydrocarbon." 
@@ -18944,6 +19514,12 @@ GO:0047635"
 #### Added
 - [macromolecule modification](http://purl.obolibrary.org/obo/GO_0043412) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The covalent alteration of one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule, resulting in a change in its properties." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### magnesium ion export from mitochondrion `http://purl.obolibrary.org/obo/GO_1990616`
+
+#### Added
+- [magnesium ion export from mitochondrion](http://purl.obolibrary.org/obo/GO_1990616) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### malate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0050074`
@@ -19798,6 +20374,18 @@ transmembrane protein dislocase activity"
 - [mitochondrial-lysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770051) SubClassOf [vacuole-mitochondrion membrane contact site](http://purl.obolibrary.org/obo/GO_1990816) 
 
 
+### mitochondrion to lysosome vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_0099074`
+
+#### Added
+- [mitochondrion to lysosome vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0099074) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### mitochondrion to peroxisome vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_0099076`
+
+#### Added
+- [mitochondrion to peroxisome vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0099076) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### mitotic cell cycle, embryonic `http://purl.obolibrary.org/obo/GO_0045448`
 #### Removed
 - [mitotic cell cycle, embryonic](http://purl.obolibrary.org/obo/GO_0045448) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The eukaryotic cell cycle in which a cell is duplicated without changing ploidy, occurring in the embryo." 
@@ -19907,6 +20495,12 @@ transmembrane protein dislocase activity"
 #### Added
 - [molecular sequestering activity](http://purl.obolibrary.org/obo/GO_0140313) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404134" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "RBP4:atROL binds TTR" 
+
+
+### molybdate ion export from vacuole `http://purl.obolibrary.org/obo/GO_0090414`
+
+#### Added
+- [molybdate ion export from vacuole](http://purl.obolibrary.org/obo/GO_0090414) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### monoamine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0008504`
@@ -22735,6 +23329,18 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20368989" 
 
 
+### neurotransmitter loading into synaptic vesicle `http://purl.obolibrary.org/obo/GO_0098700`
+
+#### Added
+- [neurotransmitter loading into synaptic vesicle](http://purl.obolibrary.org/obo/GO_0098700) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### neurotransmitter receptor transport, endosome to postsynaptic membrane `http://purl.obolibrary.org/obo/GO_0098887`
+
+#### Added
+- [neurotransmitter receptor transport, endosome to postsynaptic membrane](http://purl.obolibrary.org/obo/GO_0098887) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### neurotransmitter transport `http://purl.obolibrary.org/obo/GO_0006836`
 
 #### Added
@@ -23020,6 +23626,12 @@ transmembrane protein dislocase activity"
 #### Added
 - [norepinephrine:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005334) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-443997" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC6A2 cotransports NAd, Na+,Cl- from extracellular region to cytosol" 
+
+
+### nuclear export `http://purl.obolibrary.org/obo/GO_0051168`
+
+#### Added
+- [nuclear export](http://purl.obolibrary.org/obo/GO_0051168) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### nuclear import signal receptor activity `http://purl.obolibrary.org/obo/GO_0061608`
@@ -28149,6 +28761,12 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### oligopeptide export from mitochondrion `http://purl.obolibrary.org/obo/GO_0090374`
+
+#### Added
+- [oligopeptide export from mitochondrion](http://purl.obolibrary.org/obo/GO_0090374) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### oligopeptide transmembrane transport `http://purl.obolibrary.org/obo/GO_0035672`
 
 #### Added
@@ -28303,6 +28921,12 @@ transmembrane protein dislocase activity"
 - [ornithine lipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0140371) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31510"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### ornithine transmembrane import into vacuole `http://purl.obolibrary.org/obo/GO_0090455`
+
+#### Added
+- [ornithine transmembrane import into vacuole](http://purl.obolibrary.org/obo/GO_0090455) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### otic placode formation `http://purl.obolibrary.org/obo/GO_0043049`
 #### Removed
 - [otic placode formation](http://purl.obolibrary.org/obo/GO_0043049) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial developmental process that will lead to the formation of the vertebrate inner ear. The otic placode forms as a thickening of the head ectoderm adjacent to the developing hindbrain." 
@@ -28325,6 +28949,14 @@ transmembrane protein dislocase activity"
 #### Added
 - [outer membrane](http://purl.obolibrary.org/obo/GO_0019867) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The external membrane of Gram-negative bacteria or certain organelles such as mitochondria and chloroplasts; freely permeable to most ions and metabolites." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### ovarian nurse cell to oocyte transport `http://purl.obolibrary.org/obo/GO_0007300`
+#### Removed
+- [ovarian nurse cell to oocyte transport](http://purl.obolibrary.org/obo/GO_0007300) SubClassOf [transport](http://purl.obolibrary.org/obo/GO_0006810) 
+
+#### Added
+- [ovarian nurse cell to oocyte transport](http://purl.obolibrary.org/obo/GO_0007300) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### oxalate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0050203`
@@ -29730,6 +30362,12 @@ transmembrane protein dislocase activity"
 
 
 
+### phytochelatin import into vacuole `http://purl.obolibrary.org/obo/GO_0071995`
+
+#### Added
+- [phytochelatin import into vacuole](http://purl.obolibrary.org/obo/GO_0071995) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### phytosteroid biosynthetic process `http://purl.obolibrary.org/obo/GO_0016129`
 #### Removed
 - [phytosteroid biosynthetic process](http://purl.obolibrary.org/obo/GO_0016129) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of phytosteroids, steroids that differ from animal steroids in having substitutions at C24 and/or a double bond at C22. Phytosteroids are so named because they occur in higher plants; some, notably ergosterol, are also found in fungi." 
@@ -29776,6 +30414,16 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17355871" 
 
 
+### pituitary gonadotropin complex `http://purl.obolibrary.org/obo/GO_0061696`
+#### Removed
+- [pituitary gonadotropin complex](http://purl.obolibrary.org/obo/GO_0061696) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [pituitary gonadotropin complex](http://purl.obolibrary.org/obo/GO_0061696) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [pituitary gonadotropin complex](http://purl.obolibrary.org/obo/GO_0061696) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### plant-type cell wall biogenesis `http://purl.obolibrary.org/obo/GO_0009832`
 #### Removed
 - [plant-type cell wall biogenesis](http://purl.obolibrary.org/obo/GO_0009832) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a cellulose and pectin-containing cell wall. An example of this is found in Arabidopsis thaliana." 
@@ -29802,6 +30450,14 @@ transmembrane protein dislocase activity"
 #### Added
 - [plantlet formation on parent plant](http://purl.obolibrary.org/obo/GO_0048624) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a new plantlet develops from a meristem on the plant body. As part of this process, when the plantlet is large enough to live independently, the physical connection between the new plantlet and the main plant is severed." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### plasma lipoprotein particle `http://purl.obolibrary.org/obo/GO_0034358`
+#### Removed
+- [plasma lipoprotein particle](http://purl.obolibrary.org/obo/GO_0034358) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [plasma lipoprotein particle](http://purl.obolibrary.org/obo/GO_0034358) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### plasma membrane fusion `http://purl.obolibrary.org/obo/GO_0045026`
@@ -29876,6 +30532,12 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20124341" 
+
+
+### plastid to vacuole vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_1904962`
+
+#### Added
+- [plastid to vacuole vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_1904962) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### plastid translation `http://purl.obolibrary.org/obo/GO_0032544`
@@ -29988,6 +30650,12 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+
+### polyphosphate import into vacuole `http://purl.obolibrary.org/obo/GO_0180042`
+
+#### Added
+- [polyphosphate import into vacuole](http://purl.obolibrary.org/obo/GO_0180042) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### polyphosphate metabolic process `http://purl.obolibrary.org/obo/GO_0006797`
@@ -33042,6 +33710,18 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
+### protein import into mitochondrial intermembrane space `http://purl.obolibrary.org/obo/GO_0045041`
+
+#### Added
+- [protein import into mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0045041) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### protein import into mitochondrial matrix `http://purl.obolibrary.org/obo/GO_0030150`
+
+#### Added
+- [protein import into mitochondrial matrix](http://purl.obolibrary.org/obo/GO_0030150) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### protein kinase activity `http://purl.obolibrary.org/obo/GO_0004672`
 
 #### Added
@@ -33324,6 +34004,12 @@ transmembrane protein dislocase activity"
 - [protein translocation chaperone activity](http://purl.obolibrary.org/obo/GO_0140388) SubClassOf [protein carrier chaperone](http://purl.obolibrary.org/obo/GO_0140597) 
 
 - [protein translocation chaperone activity](http://purl.obolibrary.org/obo/GO_0140388) SubClassOf [ATP-dependent activity](http://purl.obolibrary.org/obo/GO_0140657) 
+
+
+### protein transmembrane import into intracellular organelle `http://purl.obolibrary.org/obo/GO_0044743`
+
+#### Added
+- [protein transmembrane import into intracellular organelle](http://purl.obolibrary.org/obo/GO_0044743) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### protein transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0008320`
@@ -34374,6 +35060,12 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 
+### purine nucleotide import into lysosome `http://purl.obolibrary.org/obo/GO_0141013`
+
+#### Added
+- [purine nucleotide import into lysosome](http://purl.obolibrary.org/obo/GO_0141013) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### purine nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0006163`
 #### Removed
 - [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a purine nucleotide, a compound consisting of nucleoside (a purine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar." 
@@ -35160,6 +35852,12 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 
+### pyrimidine nucleotide import into mitochondrion `http://purl.obolibrary.org/obo/GO_1990519`
+
+#### Added
+- [pyrimidine nucleotide import into mitochondrion](http://purl.obolibrary.org/obo/GO_1990519) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### pyrimidine nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0006220`
 #### Removed
 - [pyrimidine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006220) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a pyrimidine nucleotide, a compound consisting of nucleoside (a pyrimidine base linked to a deoxyribose or ribose sugar) esterified with a phosphate group at either the 3' or 5'-hydroxyl group of the sugar." 
@@ -35449,13 +36147,143 @@ transmembrane protein dislocase activity"
 
 
 ### pyruvate fermentation `http://purl.obolibrary.org/obo/GO_0019660`
+#### Removed
+- [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:Pyruvate-Degradation" 
 
 #### Added
-- [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P41-PWY" 
-
 - [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31634"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [P41-PWY](http://identifiers.org/metacyc.reaction/P41-PWY) 
+- [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### pyruvate fermentation to acetate `http://purl.obolibrary.org/obo/GO_0019654`
+
+#### Added
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5485](http://identifiers.org/metacyc.reaction/PWY-5485) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5600](http://identifiers.org/metacyc.reaction/PWY-5600) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5768" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5537" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5482](http://identifiers.org/metacyc.reaction/PWY-5482) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5482" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5538](http://identifiers.org/metacyc.reaction/PWY-5538) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5483](http://identifiers.org/metacyc.reaction/PWY-5483) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [P142-PWY](http://identifiers.org/metacyc.reaction/P142-PWY) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5768](http://identifiers.org/metacyc.reaction/PWY-5768) 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5485" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5600" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5538" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5483" 
+
+- [pyruvate fermentation to acetate](http://purl.obolibrary.org/obo/GO_0019654) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5537](http://identifiers.org/metacyc.reaction/PWY-5537) 
+
+
+### pyruvate fermentation to ethanol `http://purl.obolibrary.org/obo/GO_0019655`
+#### Removed
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:Pyruvate-Ethanol-Fermentation" 
+
+#### Added
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6587](http://identifiers.org/metacyc.reaction/PWY-6587) 
+
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5480" 
+
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5486](http://identifiers.org/metacyc.reaction/PWY-5486) 
+
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6587" 
+
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5480](http://identifiers.org/metacyc.reaction/PWY-5480) 
+
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [pyruvate fermentation to ethanol](http://purl.obolibrary.org/obo/GO_0019655) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5486" 
+
+
+### pyruvate fermentation via PFL `http://purl.obolibrary.org/obo/GO_0044814`
+#### Removed
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [label](http://www.w3.org/2000/01/rdf-schema#label) "pyruvate fermentation via PFL" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5480" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "glycolytic fermentation via PFL pathway" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic metabolic process in which pyruvate is converted to acetyl-CoA and formate by the action of pyruvate formate lyase (PFL), typically occurring in facultative anaerobic bacteria during mixed-acid fermentation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2248795" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19752030" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5485" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5480](http://identifiers.org/metacyc.reaction/PWY-5480) 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5485](http://identifiers.org/metacyc.reaction/PWY-5485) 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) EquivalentTo [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) and ([has part](http://purl.obolibrary.org/obo/BFO_0000051) some [formate C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008861)) 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [formate C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008861) 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) SubClassOf [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) 
+
+#### Added
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete pyruvate fermentation via PFL" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [formate C-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008861) 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The anaerobic metabolic process in which pyruvate is converted to acetyl-CoA and formate by the action of pyruvate formate lyase (PFL), typically occurring in facultative anaerobic bacteria during mixed-acid fermentation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2248795" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19752030" 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [pyruvate fermentation via PFL](http://purl.obolibrary.org/obo/GO_0044814) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a single enzymatic step (the conversion of pyruvate to acetyl-CoA and formate by pyruvate formate lyase) which is a molecular function, not a biological process." 
+
+
+### pyruvate fermentation via PFOR `http://purl.obolibrary.org/obo/GO_0044813`
+#### Removed
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) [label](http://www.w3.org/2000/01/rdf-schema#label) "pyruvate fermentation via PFOR" 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic chemical reactions and pathways resulting in the breakdown of pyruvate via pyruvate:ferredoxin oxidoreductase (PFOR) activity. This pathway is found in strict anaerobes such as Clostridia species." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20395274" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20692761" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) EquivalentTo [pyruvate fermentation](http://purl.obolibrary.org/obo/GO_0019660) and ([has part](http://purl.obolibrary.org/obo/BFO_0000051) some [pyruvate synthase activity](http://purl.obolibrary.org/obo/GO_0019164)) 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [pyruvate synthase activity](http://purl.obolibrary.org/obo/GO_0019164) 
+
+#### Added
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31679"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic chemical reactions and pathways resulting in the breakdown of pyruvate into butanoate. This pathway is found in strict anaerobes such as Clostridia species." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20395274" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20692761" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pyruvate fermentation via PFOR" 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) [label](http://www.w3.org/2000/01/rdf-schema#label) "pyruvate fermentation to butanoate" 
+
+- [pyruvate fermentation via PFOR](http://purl.obolibrary.org/obo/GO_0044813) SubClassOf [butyrate metabolic process](http://purl.obolibrary.org/obo/GO_0019605) 
 
 
 ### pyruvate kinase activity `http://purl.obolibrary.org/obo/GO_0004743`
@@ -35824,6 +36652,16 @@ transmembrane protein dislocase activity"
 - [reduced coenzyme F420:heterodisulfide oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0052752) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete reduced coenzyme F420:heterodisulfide oxidoreductase activity" 
 
 - [reduced coenzyme F420:heterodisulfide oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0052752) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31518"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### reelin complex `http://purl.obolibrary.org/obo/GO_0110157`
+#### Removed
+- [reelin complex](http://purl.obolibrary.org/obo/GO_0110157) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+- [reelin complex](http://purl.obolibrary.org/obo/GO_0110157) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular space](http://purl.obolibrary.org/obo/GO_0005615) 
+
+#### Added
+- [reelin complex](http://purl.obolibrary.org/obo/GO_0110157) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### regulation of 'de novo' NAD biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_1905012`
@@ -38481,6 +39319,12 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
 
+### release of sequestered calcium ion into cytosol `http://purl.obolibrary.org/obo/GO_0051209`
+
+#### Added
+- [release of sequestered calcium ion into cytosol](http://purl.obolibrary.org/obo/GO_0051209) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### rescue of stalled cytosolic ribosome `http://purl.obolibrary.org/obo/GO_0072344`
 
 #### Added
@@ -38772,6 +39616,12 @@ transmembrane protein dislocase activity"
 #### Added
 - [retinal cone cell fate specification](http://purl.obolibrary.org/obo/GO_0042672) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a cell becomes capable of differentiating autonomously into a retinal cone cell in an environment that is neutral with respect to the developmental pathway; upon specification, the cell fate can be reversed." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### retrograde transport, endosome to Golgi `http://purl.obolibrary.org/obo/GO_0042147`
+
+#### Added
+- [retrograde transport, endosome to Golgi](http://purl.obolibrary.org/obo/GO_0042147) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### rhamnose catabolic process `http://purl.obolibrary.org/obo/GO_0019301`
@@ -40443,6 +41293,12 @@ transmembrane protein dislocase activity"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Suppression of autophagy" 
 
 
+### synaptic vesicle lumen acidification `http://purl.obolibrary.org/obo/GO_0097401`
+
+#### Added
+- [synaptic vesicle lumen acidification](http://purl.obolibrary.org/obo/GO_0097401) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### syncytium formation `http://purl.obolibrary.org/obo/GO_0006949`
 #### Removed
 - [syncytium formation](http://purl.obolibrary.org/obo/GO_0006949) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The formation of a syncytium, a mass of cytoplasm containing several nuclei enclosed within a single plasma membrane. Syncytia are normally derived from single cells that fuse or fail to complete cell division." 
@@ -41447,6 +42303,12 @@ transmembrane protein dislocase activity"
 - [trans-4-hydroxy-L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0019470) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31405"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### trans-Golgi network to recycling endosome transport `http://purl.obolibrary.org/obo/GO_0044795`
+
+#### Added
+- [trans-Golgi network to recycling endosome transport](http://purl.obolibrary.org/obo/GO_0044795) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### transcription coregulator activity `http://purl.obolibrary.org/obo/GO_0003712`
 #### Removed
 - [transcription coregulator activity](http://purl.obolibrary.org/obo/GO_0003712) SubClassOf [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) 
@@ -41479,6 +42341,16 @@ transmembrane protein dislocase activity"
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "BcsG transfers pEtN from PE onto cellulose" 
 
 
+### transforming growth factor beta complex `http://purl.obolibrary.org/obo/GO_0099126`
+#### Removed
+- [transforming growth factor beta complex](http://purl.obolibrary.org/obo/GO_0099126) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) 
+
+- [transforming growth factor beta complex](http://purl.obolibrary.org/obo/GO_0099126) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
+
+#### Added
+- [transforming growth factor beta complex](http://purl.obolibrary.org/obo/GO_0099126) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
 ### translation `http://purl.obolibrary.org/obo/GO_0006412`
 #### Removed
 - [translation](http://purl.obolibrary.org/obo/GO_0006412) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA or circRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA or circRNA. Translation ends with the release of a polypeptide chain from the ribosome." 
@@ -41494,6 +42366,12 @@ transmembrane protein dislocase activity"
 #### Added
 - [translocation of peptides or proteins into host](http://purl.obolibrary.org/obo/GO_0042000) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9760173" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Secretion of toxins" 
+
+
+### transmembrane phosphate ion transport from cytosol to vacuole `http://purl.obolibrary.org/obo/GO_1905011`
+
+#### Added
+- [transmembrane phosphate ion transport from cytosol to vacuole](http://purl.obolibrary.org/obo/GO_1905011) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### transmembrane signaling receptor activity `http://purl.obolibrary.org/obo/GO_0004888`
@@ -41514,6 +42392,8 @@ transmembrane protein dislocase activity"
 
 #### Added
 - [transmembrane transport from lysosomal lumen to cytosol](http://purl.obolibrary.org/obo/GO_0170063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "export from lysosome lumen to cytosol" 
+
+- [transmembrane transport from lysosomal lumen to cytosol](http://purl.obolibrary.org/obo/GO_0170063) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0022857`
@@ -42309,6 +43189,12 @@ transmembrane protein dislocase activity"
 - [very long-chain-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) SubClassOf [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) 
 
 
+### vesicle-mediated transport between endosomal compartments `http://purl.obolibrary.org/obo/GO_0098927`
+
+#### Added
+- [vesicle-mediated transport between endosomal compartments](http://purl.obolibrary.org/obo/GO_0098927) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
 ### virus receptor activity `http://purl.obolibrary.org/obo/GO_0001618`
 
 #### Added
@@ -42595,6 +43481,36 @@ transmembrane protein dislocase activity"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
 - [zeaxanthin 2,2'-beta-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102465) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete zeaxanthin 2,2'-beta-hydroxylase activity" 
+
+
+### zinc ion export from vacuole `http://purl.obolibrary.org/obo/GO_0140147`
+
+#### Added
+- [zinc ion export from vacuole](http://purl.obolibrary.org/obo/GO_0140147) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### zinc ion import into lysosome `http://purl.obolibrary.org/obo/GO_0140916`
+
+#### Added
+- [zinc ion import into lysosome](http://purl.obolibrary.org/obo/GO_0140916) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### zinc ion import into mitochondrion `http://purl.obolibrary.org/obo/GO_0140917`
+
+#### Added
+- [zinc ion import into mitochondrion](http://purl.obolibrary.org/obo/GO_0140917) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### zinc ion import into secretory vesicle `http://purl.obolibrary.org/obo/GO_0140914`
+
+#### Added
+- [zinc ion import into secretory vesicle](http://purl.obolibrary.org/obo/GO_0140914) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+### zinc ion import into synaptic vesicle `http://purl.obolibrary.org/obo/GO_0099180`
+
+#### Added
+- [zinc ion import into synaptic vesicle](http://purl.obolibrary.org/obo/GO_0099180) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
 
 ### zinc ion transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005385`
