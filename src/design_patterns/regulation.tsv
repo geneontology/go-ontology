@@ -126,6 +126,7 @@ http://purl.obolibrary.org/obo/GO_1900234	regulation of Kit signaling pathway	ht
 http://purl.obolibrary.org/obo/GO_1905541	regulation of L-arginine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097638	L-arginine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000082	regulation of L-ascorbic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0019853	L-ascorbic acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903195	regulation of L-dopa biosynthetic process	http://purl.obolibrary.org/obo/GO_1903185	L-dopa biosynthetic process
+http://purl.obolibrary.org/obo/GO_0043468	regulation of L-fucose catabolic process	http://purl.obolibrary.org/obo/GO_0042355	L-fucose catabolic process
 http://purl.obolibrary.org/obo/GO_0002036	regulation of L-glutamate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098712	L-glutamate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0062132	regulation of L-glutamine biosynthetic process	http://purl.obolibrary.org/obo/GO_1901704	L-glutamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1901034	regulation of L-glutamine import across plasma membrane	http://purl.obolibrary.org/obo/GO_1903803	L-glutamine import across plasma membrane
@@ -1110,7 +1111,6 @@ http://purl.obolibrary.org/obo/GO_0090337	regulation of formin-nucleated actin c
 http://purl.obolibrary.org/obo/GO_0043059	regulation of forward locomotion	http://purl.obolibrary.org/obo/GO_0043056	forward locomotion
 http://purl.obolibrary.org/obo/GO_0032644	regulation of fractalkine production	http://purl.obolibrary.org/obo/GO_0032603	fractalkine production
 http://purl.obolibrary.org/obo/GO_1904542	regulation of free ubiquitin chain polymerization	http://purl.obolibrary.org/obo/GO_0010994	free ubiquitin chain polymerization
-http://purl.obolibrary.org/obo/GO_0043468	regulation of fucose catabolic process	http://purl.obolibrary.org/obo/GO_0019317	fucose catabolic process
 http://purl.obolibrary.org/obo/GO_1902090	regulation of fumagillin biosynthetic process	http://purl.obolibrary.org/obo/GO_1902086	fumagillin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900837	regulation of fumigaclavine C biosynthetic process	http://purl.obolibrary.org/obo/GO_1900809	fumigaclavine C biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900683	regulation of fumonisin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900541	fumonisin biosynthetic process
