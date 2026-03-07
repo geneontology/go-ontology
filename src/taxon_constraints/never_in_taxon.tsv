@@ -69,8 +69,6 @@ GO:0031252	cell leading edge	NCBITaxon:4751	Fungi
 GO:0050321	tau-protein kinase activity	NCBITaxon:4751	Fungi	
 GO:0031910	cytostome	NCBITaxon:4751	Fungi	
 GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4930	Saccharomyces cerevisiae	
 GO:0019853	L-ascorbic acid biosynthetic process	NCBITaxon:4890	Ascomycota	
 GO:0019853	L-ascorbic acid biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4896	Schizosaccharomyces pombe	
