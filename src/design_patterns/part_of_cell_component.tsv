@@ -111,6 +111,7 @@ http://purl.obolibrary.org/obo/GO_0010367	extracellular isoamylase complex	http:
 http://purl.obolibrary.org/obo/GO_0065010	extracellular membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043227	membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0043264	extracellular membraneless organelle	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0043230	extracellular organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
+http://purl.obolibrary.org/obo/GO_0140392	extracellular protein-containing complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_1903561	extracellular vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0090498	extrinsic component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
 http://purl.obolibrary.org/obo/GO_0031244	extrinsic component of cell outer membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009279	cell outer membrane
