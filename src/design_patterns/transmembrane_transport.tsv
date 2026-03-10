@@ -20,7 +20,7 @@ http://purl.obolibrary.org/obo/GO_0042942	D-serine transmembrane transport	http:
 http://purl.obolibrary.org/obo/GO_0015753	D-xylose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_15936	aldehydo-D-xylose
 http://purl.obolibrary.org/obo/GO_0035350	FAD transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57692	FAD(3-)
 http://purl.obolibrary.org/obo/GO_0015783	GDP-fucose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_64608	GDP-fucose
-http://purl.obolibrary.org/obo/GO_1990570	GDP-mannose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_21168	GDP-mannose
+http://purl.obolibrary.org/obo/GO_1990570	GDP-mannose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57527	GDP-alpha-D-mannose(2-)
 http://purl.obolibrary.org/obo/GO_1904557	L-alanine transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_57972	L-alanine zwitterion
 http://purl.obolibrary.org/obo/GO_1902475	L-alpha-amino acid transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_59869	L-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0042882	L-arabinose transmembrane transport	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
