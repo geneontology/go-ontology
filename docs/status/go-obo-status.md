@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-03-11go.owl-statistics
+id: obo:go/releases/2026-03-12go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-03-11go.owl
+  version: obo:go/releases/2026-03-12go.owl
 was_generated_by:
-  started_at_time: '2026-03-11T05:58:30.963722'
+  started_at_time: '2026-03-12T06:01:19.940941'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,16 +47,16 @@ partitions:
     synonym_statement_count: 94475
     change_summary:
       NodeTextDefinitionChange: 1782
-      RemoveMapping: 310
-      NodeRename: 157
       MappingCreation: 135
-      EdgeCreation: 434
-      NodeUnobsoletion: 129
       EdgeDeletion: 205
-      RemoveSynonym: 36
+      EdgeCreation: 434
+      NodeRename: 157
+      NodeUnobsoletion: 129
+      RemoveMapping: 310
       RemoveNodeFromSubset: 25
-      NodeDeletion: 13
       AddNodeToSubset: 10
+      NodeDeletion: 13
+      RemoveSynonym: 36
       NewSynonym: 51
       All_Obsoletion: 0
       All_Synonym: 87
@@ -93,16 +93,16 @@ partitions:
     distinct_synonym_count: 28598
     synonym_statement_count: 29747
     change_summary:
-      NodeTextDefinitionChange: 491
-      RemoveMapping: 655
-      MappingCreation: 275
-      NodeUnobsoletion: 77
-      NodeRename: 208
-      EdgeCreation: 230
-      RemoveSynonym: 156
-      EdgeDeletion: 115
-      NewSynonym: 39
       NodeDeletion: 13
+      EdgeDeletion: 115
+      NodeTextDefinitionChange: 491
+      MappingCreation: 275
+      RemoveMapping: 2555
+      NodeRename: 208
+      RemoveSynonym: 156
+      EdgeCreation: 230
+      NodeUnobsoletion: 77
+      NewSynonym: 39
       NodeObsoletion: 1
       All_Obsoletion: 1
       All_Synonym: 195
@@ -127,14 +127,14 @@ partitions:
     distinct_synonym_count: 5099
     synonym_statement_count: 5297
     change_summary:
-      EdgeDeletion: 38
-      NodeTextDefinitionChange: 116
+      NodeTextDefinitionChange: 117
       EdgeCreation: 50
+      EdgeDeletion: 38
       NodeRename: 6
       RemoveSynonym: 6
-      NodeDeletion: 9
       NewSynonym: 1
       RemoveNodeFromSubset: 2
+      NodeDeletion: 9
       NodeUnobsoletion: 2
       AddNodeToSubset: 3
       All_Obsoletion: 0
