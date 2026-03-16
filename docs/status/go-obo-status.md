@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-03-15go.owl-statistics
+id: obo:go/releases/2026-03-16go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-03-15go.owl
+  version: obo:go/releases/2026-03-16go.owl
 was_generated_by:
-  started_at_time: '2026-03-15T06:09:14.147146'
+  started_at_time: '2026-03-16T06:19:35.656496'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,15 +47,15 @@ partitions:
     synonym_statement_count: 94476
     change_summary:
       NodeTextDefinitionChange: 1782
-      RemoveNodeFromSubset: 25
       RemoveMapping: 314
-      MappingCreation: 137
+      NodeRename: 160
       NodeUnobsoletion: 132
       EdgeCreation: 440
-      AddNodeToSubset: 10
-      NodeRename: 160
+      MappingCreation: 137
       EdgeDeletion: 210
+      RemoveNodeFromSubset: 25
       RemoveSynonym: 37
+      AddNodeToSubset: 10
       NodeDeletion: 13
       NewSynonym: 51
       All_Obsoletion: 0
@@ -94,16 +94,16 @@ partitions:
     synonym_statement_count: 29751
     change_summary:
       RemoveMapping: 2555
-      MappingCreation: 275
-      NodeRename: 211
       NodeTextDefinitionChange: 491
-      NodeUnobsoletion: 77
-      EdgeCreation: 230
       RemoveSynonym: 159
-      NewSynonym: 39
       EdgeDeletion: 116
-      NodeDeletion: 14
+      EdgeCreation: 230
+      NodeRename: 211
+      MappingCreation: 275
+      NodeUnobsoletion: 77
+      NewSynonym: 39
       NodeObsoletion: 1
+      NodeDeletion: 14
       All_Obsoletion: 1
       All_Synonym: 198
     edge_count: 13562
@@ -129,14 +129,14 @@ partitions:
     change_summary:
       NodeTextDefinitionChange: 124
       RemoveSynonym: 6
-      NodeRename: 6
-      EdgeCreation: 65
-      EdgeDeletion: 71
       NewSynonym: 1
+      NodeRename: 6
+      EdgeDeletion: 71
       NodeDeletion: 9
+      EdgeCreation: 65
+      RemoveNodeFromSubset: 2
       NodeUnobsoletion: 2
       AddNodeToSubset: 3
-      RemoveNodeFromSubset: 2
       All_Obsoletion: 0
       All_Synonym: 7
     edge_count: 6677
