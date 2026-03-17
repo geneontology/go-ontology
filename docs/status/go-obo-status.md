@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-03-16go.owl-statistics
+id: obo:go/releases/2026-03-17go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-03-16go.owl
+  version: obo:go/releases/2026-03-17go.owl
 was_generated_by:
-  started_at_time: '2026-03-16T06:19:35.656496'
+  started_at_time: '2026-03-17T06:04:11.626804'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,17 +47,17 @@ partitions:
     synonym_statement_count: 94476
     change_summary:
       NodeTextDefinitionChange: 1782
-      RemoveMapping: 314
-      NodeRename: 160
-      NodeUnobsoletion: 132
       EdgeCreation: 440
+      RemoveMapping: 314
       MappingCreation: 137
+      NodeUnobsoletion: 132
+      NodeRename: 160
       EdgeDeletion: 210
-      RemoveNodeFromSubset: 25
       RemoveSynonym: 37
-      AddNodeToSubset: 10
-      NodeDeletion: 13
       NewSynonym: 51
+      AddNodeToSubset: 10
+      RemoveNodeFromSubset: 25
+      NodeDeletion: 13
       All_Obsoletion: 0
       All_Synonym: 88
     edge_count: 54669
@@ -90,22 +90,22 @@ partitions:
       RO:0002211:
         facet: RO:0002211
         filtered_count: 49
-    distinct_synonym_count: 28602
-    synonym_statement_count: 29751
+    distinct_synonym_count: 28603
+    synonym_statement_count: 29752
     change_summary:
-      RemoveMapping: 2555
-      NodeTextDefinitionChange: 491
-      RemoveSynonym: 159
+      RemoveMapping: 2562
+      NodeTextDefinitionChange: 493
+      MappingCreation: 276
       EdgeDeletion: 116
       EdgeCreation: 230
-      NodeRename: 211
-      MappingCreation: 275
-      NodeUnobsoletion: 77
+      NodeRename: 212
+      RemoveSynonym: 160
       NewSynonym: 39
-      NodeObsoletion: 1
+      NodeUnobsoletion: 77
       NodeDeletion: 14
+      NodeObsoletion: 1
       All_Obsoletion: 1
-      All_Synonym: 198
+      All_Synonym: 199
     edge_count: 13562
   cellular_component:
     id: cellular_component
@@ -127,14 +127,14 @@ partitions:
     distinct_synonym_count: 5099
     synonym_statement_count: 5297
     change_summary:
-      NodeTextDefinitionChange: 124
-      RemoveSynonym: 6
-      NewSynonym: 1
-      NodeRename: 6
+      EdgeCreation: 65
       EdgeDeletion: 71
       NodeDeletion: 9
-      EdgeCreation: 65
+      NodeTextDefinitionChange: 124
       RemoveNodeFromSubset: 2
+      NodeRename: 6
+      RemoveSynonym: 6
+      NewSynonym: 1
       NodeUnobsoletion: 2
       AddNodeToSubset: 3
       All_Obsoletion: 0
