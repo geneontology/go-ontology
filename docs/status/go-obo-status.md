@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-03-20go.owl-statistics
+id: obo:go/releases/2026-03-21go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-03-20go.owl
+  version: obo:go/releases/2026-03-21go.owl
 was_generated_by:
-  started_at_time: '2026-03-20T06:01:11.365913'
+  started_at_time: '2026-03-21T05:54:22.765387'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,17 +47,17 @@ partitions:
     synonym_statement_count: 94476
     change_summary:
       NodeTextDefinitionChange: 1785
-      EdgeDeletion: 210
-      NodeRename: 164
-      NodeUnobsoletion: 136
-      EdgeCreation: 454
       MappingCreation: 143
-      AddNodeToSubset: 10
-      RemoveMapping: 320
       RemoveNodeFromSubset: 25
+      NodeUnobsoletion: 136
+      NodeRename: 164
+      EdgeCreation: 454
+      EdgeDeletion: 210
+      RemoveMapping: 320
       RemoveSynonym: 37
       NodeDeletion: 13
       NewSynonym: 51
+      AddNodeToSubset: 10
       All_Obsoletion: 0
       All_Synonym: 88
     edge_count: 54655
@@ -90,22 +90,22 @@ partitions:
       RO:0002211:
         facet: RO:0002211
         filtered_count: 49
-    distinct_synonym_count: 28603
-    synonym_statement_count: 29752
+    distinct_synonym_count: 28602
+    synonym_statement_count: 29751
     change_summary:
       RemoveMapping: 2562
-      NodeTextDefinitionChange: 493
       MappingCreation: 276
-      EdgeCreation: 230
+      NodeTextDefinitionChange: 493
       NodeRename: 212
-      NodeUnobsoletion: 77
-      RemoveSynonym: 160
-      NewSynonym: 39
+      RemoveSynonym: 159
       EdgeDeletion: 116
+      EdgeCreation: 230
+      NodeUnobsoletion: 77
       NodeDeletion: 14
+      NewSynonym: 39
       NodeObsoletion: 1
       All_Obsoletion: 1
-      All_Synonym: 199
+      All_Synonym: 198
     edge_count: 13562
   cellular_component:
     id: cellular_component
@@ -128,15 +128,15 @@ partitions:
     synonym_statement_count: 5297
     change_summary:
       NodeTextDefinitionChange: 124
+      RemoveNodeFromSubset: 2
       EdgeCreation: 65
       EdgeDeletion: 71
+      NodeUnobsoletion: 2
+      NodeRename: 6
       NodeDeletion: 9
       RemoveSynonym: 6
-      NodeRename: 6
-      AddNodeToSubset: 3
-      NodeUnobsoletion: 2
-      RemoveNodeFromSubset: 2
       NewSynonym: 1
+      AddNodeToSubset: 3
       All_Obsoletion: 0
       All_Synonym: 7
     edge_count: 6677
