@@ -118,8 +118,8 @@ GO:0051321	Wikipedia:Meiosis	oio:hasDbXref	UbergraphImplementation	None	UsageCon
 ...
 ```
 
-The first row is intra-go (via part-of). The second is also intra-go, and arises from axioms we add for taxon constraints. The FYPO and CL rows are important as they show that these two ontologies
-have axioms that *directly* reference GO, and sufficient warning should be given to these ontologies. The final row is also intra-go and can be ignored (it just tells us we have a mapping)
+The first row is a GO-internal axiom (a `part_of` relationship between two GO terms). The second row arises from GO axioms we add for taxon constraints: it is still a GO-internal axiom, but it *references* an external identifier from NCBITaxon rather than indicating that NCBITaxon depends on GO. The FYPO and CL rows are important because they show that these two ontologies
+have axioms that *directly* reference GO terms; for these kinds of external ontologies, sufficient warning should be given to the ontology maintainers when making impactful changes. The final row shows a GO dbxref mapping to an external resource (Wikipedia) that is maintained within GO and does not, by itself, imply an external ontology that needs to be notified.
 
 ## Analyzing impact of obsoletion on GO annotations
 
