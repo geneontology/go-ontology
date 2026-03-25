@@ -102,7 +102,7 @@ If you deem the impact of obsoletion to be too high or you need feedback on how 
 
 ## Analyzing impact of obsoletion on other ontologies
 
-Many of the core biological ontologies that use GO are in Ubergraph
+Many of the core biological ontologies that use GO are in Ubergraph:
 
 `runoak -i ubergraph: usages GO:1234567`
 
