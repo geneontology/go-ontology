@@ -100,6 +100,27 @@ If you are obsoleting GO:1234567, you can find usages:
 You must remove these usages. Do not just delete edges without thinking. You must think hard about replacement terms.
 If you deem the impact of obsoletion to be too high or you need feedback on how to handle cascading effects, you should stop short of obsoleting the term, and instead provide an impact analysis and open questions in your gh issue summary.
 
+## Analyzing impact of obsoletion on other ontologies
+
+Many of the core biological ontologies that use GO are in Ubergraph:
+
+`runoak -i ubergraph: usages GO:1234567`
+
+For example, if we use this with `GO:0051321` (meiotic cell cycle), we see something like:
+
+```
+used_id	used_by_id	predicate	source	dataset	context	axiom	description
+GO:0051321	GO:0019953	BFO:0000050	UbergraphImplementation	None	UsageContext.RELATIONSHIP_SUBJECT	None	None
+GO:0051321	NCBITaxon:2759	RO:0002162	UbergraphImplementation	None	UsageContext.RELATIONSHIP_SUBJECT	None	None
+GO:0051321	FYPO:0000052	UPHENO:0000001	UbergraphImplementation	None	UsageContext.RELATIONSHIP_OBJECT	None	None
+GO:0051321	CL:0000657	RO:0002216	UbergraphImplementation	None	UsageContext.RELATIONSHIP_OBJECT	None	None
+GO:0051321	Wikipedia:Meiosis	oio:hasDbXref	UbergraphImplementation	None	UsageContext.MAPPING_SUBJECT	None	None
+...
+```
+
+The first row is a GO-internal axiom (a `part_of` relationship between two GO terms). The second row arises from GO axioms we add for taxon constraints: it is still a GO-internal axiom, but it *references* an external identifier from NCBITaxon rather than indicating that NCBITaxon depends on GO. The FYPO and CL rows are important because they show that these two ontologies
+have axioms that *directly* reference GO terms; for these kinds of external ontologies, sufficient warning should be given to the ontology maintainers when making impactful changes. The final row shows a GO dbxref mapping to an external resource (Wikipedia) that is maintained within GO and does not, by itself, imply an external ontology that needs to be notified.
+
 ## Analyzing impact of obsoletion on GO annotations
 
 For all obsoletions, analyze the impact on gene annotations. You will want to maintain a specific TODO list here, and report back your analysis when you report back on the issue
