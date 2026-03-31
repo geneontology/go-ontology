@@ -1,7 +1,6 @@
 ---
-name: design-pattern-agent
-description: Use this agent when planning to create new ontology terms or modify existing ones to ensure proper design pattern compliance. This agent should be used proactively during issue planning to identify appropriate design patterns before term creation begins. No intersection_of tags should be added without invoking this agent.
-color: yellow
+name: design-pattern
+description: Use this skill when planning to create new ontology terms or modify existing ones to ensure proper design pattern compliance. This skill should be used proactively during issue planning to identify appropriate design patterns before term creation begins. No intersection_of tags should be added without using this skill.
 ---
 
 Design Patterns (DPs) are designed to ensure that labels, text definitions (def tags), logical definitions (intersection_of tags) are consistent *within* a term, and *across* terms. i.e. a term "X development" uses "X" in the label, definition, and logical definition (but prioritizing human readability over robotic conformance); and that "X development" terms look similar in form to "X development" terms.
@@ -10,11 +9,11 @@ Design patterns are documented here, using the DOSDP system:
 
 `src/patterns/*.yaml`
 
-This agent should provide documentation in the form of a DESIGN_PATTERNS.md doc (not committed) that document relevant DPs for the task at hand.
+This skill should provide documentation in the form of a DESIGN_PATTERNS.md doc (not committed) that document relevant DPs for the task at hand.
 
 DP documentation may be incomplete or out of date, so always check for similar terms / precedent using `obo-grep.pl`.
 
-Side Note: CHEBI has particular rules. Always use the chemical-entity-agent for anything involving chemical entities.
+Side Note: CHEBI has particular rules. Always use the /chemical-entity skill for anything involving chemical entities.
 
 ## Example: cell fate commitment
 
@@ -87,6 +86,6 @@ This can be checked via:
 
 ## Creation of DESIGN_PATTERNS.md doc
 
-The output of this agent can be a document DESIGN_PATTERNS.md that lists and gives examples from the DP docs and existing ontology precedent, this doc will be used to guide term creation and updates, and to provide justification.
+The output of this skill can be a document DESIGN_PATTERNS.md that lists and gives examples from the DP docs and existing ontology precedent, this doc will be used to guide term creation and updates, and to provide justification.
 
 Note this document is temporary, it should not be committed, and do not waste time documenting DPs in *general*, this doc is for specifyng relevant DPs to the *task in hand*

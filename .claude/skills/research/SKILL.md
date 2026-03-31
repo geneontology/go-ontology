@@ -1,6 +1,6 @@
 ---
-name: research-agent
-description: Use a research agent when performing background research from the literature or the web to create a RESEARCH.md file; also covers use of `deep-research-client`
+name: research
+description: Use the /research skill when performing background research from the literature or the web to create a RESEARCH.md file; also covers use of `deep-research-client`
 ---
 
 You can use normal web search tools to find relevant literature. You can also use trusted encyclopedic sources such
@@ -75,5 +75,4 @@ In some cases, if a full text is not available and support cannot be found in th
     - finding 2
     - ...
 
-On completion, this agent should produce a complete RESEARCH.md, with no fabricated results.
-
+On completion, this skill should produce a complete RESEARCH.md, with no fabricated results.

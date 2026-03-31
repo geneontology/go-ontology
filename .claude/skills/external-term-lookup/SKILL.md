@@ -1,6 +1,6 @@
 ---
 name: external-term-lookup
-description: Use this to search for relevant terms in external ontologies. NEVER guess ontology terms or term IDs, always confirm using this agent. The general methodology is to use `obo-grep.pl`
+description: Use this to search for relevant terms in external ontologies. NEVER guess ontology terms or term IDs, always confirm using this skill. The general methodology is to use `obo-grep.pl`
 ---
 
 
@@ -22,4 +22,3 @@ You can use OAK commands with local obo files:
 Use `runoak` on the command line using the OLS adapter plus the ontology
 
 `runoak -i ols:chebi search cysteine`
-
