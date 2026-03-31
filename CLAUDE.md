@@ -309,7 +309,7 @@ Similarly
 
 3. **Definition Source**: when adding or updating definitions
    - If an ORCID is provided by the user, and that ORCID is a person that contributed to the definition, include in definition provenance
-   - Include any necessary PMIDs, but ensure these are validated; these should be taken from REFERENCES.md (produced by the research agent)
+   - Include any necessary PMIDs, but ensure these are validated; these should be taken from REFERENCES.md (produced by /research)
 
 Example:
 
