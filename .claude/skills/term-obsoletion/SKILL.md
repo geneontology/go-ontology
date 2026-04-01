@@ -1,6 +1,6 @@
 ---
 name: term-obsoletion
-description: An agent for being able to handle the process around obsoleting GO terms. This is a complex process involving substantial analysis of impact, both on existing terms that reference to the to-be-obsoleted term, and on annotations
+description: For handling the process around obsoleting GO terms. This is a complex process involving substantial analysis of impact, both on existing terms that reference to the to-be-obsoleted term, and on annotations
 ---
 
 ## About obsoletion
@@ -149,7 +149,7 @@ Update the todo list with one item per unique PMID for detailed analysis.
 
 ### Step 2: Analyze Each Publication (One PMID at a Time)
 
-Use research-agent.md to explore publications. This should give you a clue for potential replacement terms.
+Use the /research skill to explore publications. This should give you a clue for potential replacement terms.
 
 #### 2a. Analyze Annotation Validity
 
