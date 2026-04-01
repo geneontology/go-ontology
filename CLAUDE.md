@@ -37,7 +37,7 @@ Create a plan for addressing the issue. The plan MUST have the following compone
 - [ ] PRE-VALIDATION: Current state of the ontology validates prior to any changes (if not, we can't validate our changes)
 - [ ] RESEARCH: If appropriate, necessary background research performed; always use /research for this, it produces a RESEARCH.md file
 - [ ] TERM-SEARCH: Relevant ontology terms (this ontology or others) have been consulted
-- [ ] DESIGN-PATTERNS: Existing design patterms, terms, and documentation consulted; always use /design-pattern for this, which produces a DESIGN_PATTERNS.md doc
+- [ ] DESIGN-PATTERNS: Existing design patterns, terms, and documentation consulted; always use /design-pattern for this, which produces a DESIGN_PATTERNS.md doc
 - [ ] EDITS: correct procedure is followed for making edits, using checkin/checkout commands, and local `./terms/ folder
 - [ ] RELATIONSHIPS: appropriate relationships and logical axioms are included
     - [ ] logical definitions are appropriate, and are not over-specified, and conform to DESIGN_PATTERNS.md doc
@@ -47,7 +47,7 @@ Create a plan for addressing the issue. The plan MUST have the following compone
 - [ ] SPECIALIZED-EDITS: include checklists from the following skills as appropriate, depending on the nature of the request
     - /term-obsoletion skill; MUST be used for anything involving obsoletion/deprecation of terms
     - /chemical-entity skill; for any request involving CHEBI or chemical terms or nomenclature
-    - /reaction skill; for any request involving RHEA, EC, or the cataltic activity branch of GO
+    - /reaction skill; for any request involving RHEA, EC, or the catalytic activity branch of GO
     - /taxon-constraint skill; for any request involving restricting usage of a term or branch to a taxon/clade
 - [ ] METADATA: The metadata for the changes is correct
 - [ ] AUTOMATED-VALIDATION: The ontology validates correctly using `make travis_build` after changes have been made
