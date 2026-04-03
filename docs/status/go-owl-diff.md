@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-02/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-03/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-02" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-03" 
 
 
 ### 3'-phosphoadenosine 5'-phosphosulfate transport `http://purl.obolibrary.org/obo/GO_0046963`
@@ -32,6 +32,29 @@
 #### Removed
 - [4-(trimethylammonio)butanoate transport](http://purl.obolibrary.org/obo/GO_1900751) SubClassOf [obsolete organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) 
 
+
+
+### 4-phosphoerythronate phosphatase activity `http://purl.obolibrary.org/obo/GO_0140401`
+
+#### Added
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-02T12:52:47Z" 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31118"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140401" 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-phospho-D-erythronate + H2O = D-erythronate + phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27294321" 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-phosphoerythronate phosphatase activity" 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- Class: [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
 
 
 ### 5'-adenylyl sulfate transmembrane transport `http://purl.obolibrary.org/obo/GO_1902558`
@@ -766,13 +789,31 @@
 
 
 ### ketone body biosynthetic process `http://purl.obolibrary.org/obo/GO_0046951`
+#### Removed
+- [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Biosynthesis involves the formation of hydroxymethylglutaryl-CoA, which is cleaved to acetate and acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 #### Added
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31806"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ketogenesis" 
+
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
 
-- [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ketogenesis" 
+- [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Biosynthesis involves the formation of hydroxymethylglutaryl-CoA, which is cleaved to acetate and acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
+
+
+### ketone body catabolic process `http://purl.obolibrary.org/obo/GO_0046952`
+#### Removed
+- [ketone body catabolic process](http://purl.obolibrary.org/obo/GO_0046952) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Ketone bodies can be used as an energy source as an alternative to glucose. Utilization of ketone bodies in peripheral tissues involves conversion of acetoacetate to acetoacetyl-CoA, which is then converted to two molecules of acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+#### Added
+- [ketone body catabolic process](http://purl.obolibrary.org/obo/GO_0046952) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31806"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ketone body catabolic process](http://purl.obolibrary.org/obo/GO_0046952) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Ketone bodies can be used as an energy source as an alternative to glucose. Utilization of ketone bodies in peripheral tissues involves conversion of acetoacetate to acetoacetyl-CoA, which is then converted to two molecules of acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
 
 
 ### mating projection actin fusion focus `http://purl.obolibrary.org/obo/GO_1990819`
@@ -1128,6 +1169,48 @@
 
 #### Added
 - [obsolete glycoprotein-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0003759) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
+
+
+### obsolete maintenance of unfolded protein `http://purl.obolibrary.org/obo/GO_0036506`
+#### Removed
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Maintaining a protein in an unfolded, soluble state." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21636303" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of unfolded protein" 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) SubClassOf [regulation of protein stability](http://purl.obolibrary.org/obo/GO_0031647) 
+
+#### Added
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete maintenance of unfolded protein" 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [protein carrier activity](http://purl.obolibrary.org/obo/GO_0140597) 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Maintaining a protein in an unfolded, soluble state." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21636303" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31758"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term describes a molecular function (holdase activity) rather than a biological process." 
 
 
 ### obsolete negative regulation of nitric oxide mediated signal transduction `http://purl.obolibrary.org/obo/GO_0010751`
