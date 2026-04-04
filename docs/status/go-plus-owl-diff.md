@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-03/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-04/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-03" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-04" 
 
 
 ### 3'-phosphoadenosine 5'-phosphosulfate transport `http://purl.obolibrary.org/obo/GO_0046963`
@@ -46,7 +46,7 @@
 - [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140401" 
 
 - [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-phospho-D-erythronate + H2O = D-erythronate + phosphate." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27294321" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27294321" 
 
 - [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-phosphoerythronate phosphatase activity" 
 
@@ -71,7 +71,7 @@
 
 ### 5-phosphoribose 1-diphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0006015`
 #### Removed
-- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73843" 
+- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73843" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5-Phosphoribose 1-diphosphate biosynthesis" 
 
 
@@ -79,7 +79,7 @@
 ### 6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0160302`
 
 #### Added
-- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.400" 
+- [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.1.1.400" 
 
 - [6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0160302) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.1.1.400](http://purl.uniprot.org/enzyme/2.1.1.400) 
 
@@ -173,7 +173,7 @@
 ### L-cysteine export across plasma membrane `http://purl.obolibrary.org/obo/GO_0033228`
 #### Removed
 - [L-cysteine export across plasma membrane](http://purl.obolibrary.org/obo/GO_0033228) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of cysteine from inside of a cell, across the plasma membrane and into the extracellular region." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
 
 - [L-cysteine export across plasma membrane](http://purl.obolibrary.org/obo/GO_0033228) [label](http://www.w3.org/2000/01/rdf-schema#label) "cysteine export across plasma membrane" 
 
@@ -181,7 +181,7 @@
 
 #### Added
 - [L-cysteine export across plasma membrane](http://purl.obolibrary.org/obo/GO_0033228) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of L-cysteine from inside of a cell, across the plasma membrane and into the extracellular region." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
 
 - [L-cysteine export across plasma membrane](http://purl.obolibrary.org/obo/GO_0033228) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-cysteine export across plasma membrane" 
 
@@ -199,11 +199,11 @@
 - [L-cysteine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903712) [label](http://www.w3.org/2000/01/rdf-schema#label) "cysteine transmembrane transport" 
 
 - [L-cysteine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of cysteine across a membrane." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17435223" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17435223" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000069" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000069" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [L-cysteine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903712) EquivalentTo [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [cysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_35237)) 
 
@@ -217,11 +217,11 @@
 - [L-cysteine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903712) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-cysteine transmembrane transport" 
 
 - [L-cysteine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of L-cysteine across a membrane." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17435223" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17435223" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000069" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000069" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [L-cysteine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903712) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "cysteine transmembrane transport" 
 
@@ -235,7 +235,7 @@
 - [L-cysteine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0033229) [label](http://www.w3.org/2000/01/rdf-schema#label) "cysteine transmembrane transporter activity" 
 
 - [L-cysteine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0033229) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of cysteine from one side of a membrane to the other." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [L-cysteine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0033229) EquivalentTo [transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022857) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [cysteine zwitterion](http://purl.obolibrary.org/obo/CHEBI_35237)) 
 
@@ -247,7 +247,7 @@
 - [L-cysteine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0033229) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "cysteine transmembrane transporter activity" 
 
 - [L-cysteine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0033229) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of L-cysteine from one side of a membrane to the other." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [L-cysteine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0033229) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-cysteine transmembrane transporter activity" 
 
@@ -263,9 +263,9 @@
 - [L-cysteine transport](http://purl.obolibrary.org/obo/GO_0042883) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "L-cysteine transport" 
 
 - [L-cysteine transport](http://purl.obolibrary.org/obo/GO_0042883) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of cysteine into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 - [L-cysteine transport](http://purl.obolibrary.org/obo/GO_0042883) [label](http://www.w3.org/2000/01/rdf-schema#label) "cysteine transport" 
 
@@ -279,9 +279,9 @@
 - [L-cysteine transport](http://purl.obolibrary.org/obo/GO_0042883) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-cysteine transport" 
 
 - [L-cysteine transport](http://purl.obolibrary.org/obo/GO_0042883) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of L-cysteine into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 - [L-cysteine transport](http://purl.obolibrary.org/obo/GO_0042883) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "cysteine transport" 
 
@@ -388,7 +388,7 @@
 - [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
 
 - [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of multipass-membrane proteins from the cytosol and their insertion into the mitochondrial inner membrane, supported by tiny-tim chaperones." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
 
 - [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "carrier pathway" 
 
@@ -411,7 +411,7 @@
 - [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) [label](http://www.w3.org/2000/01/rdf-schema#label) "TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane" 
 
 - [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of proteins from the cytosol across the outer mitochondrial membrane and laterally inserted into the inner membrane. Typically acting on single-pass transmembrane proteins with an N-terminal targeting sequence and an internal hydrophobic stop-transfer sequence which targets them for lateral insertion." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
 
 - [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-01T13:32:53Z" 
 
@@ -540,7 +540,7 @@
 - [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
 
 - [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of alpha helical and tail-anchored proteins from the cytosol and their insertion into the mitochondrial outer membrane." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40782022" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40782022" 
 
 - [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31711"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -681,9 +681,9 @@
 
 #### Added
 - [copper ion import into Golgi lumen](http://purl.obolibrary.org/obo/GO_7770057) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed import of copper cation from the cytosol across the Golgi membrane into the Golgi lumen." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9325307" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9325307" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7708696" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7708696" 
 
 - [copper ion import into Golgi lumen](http://purl.obolibrary.org/obo/GO_7770057) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-01T09:01:56Z" 
 
@@ -807,15 +807,15 @@
 ### cysteinyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006423`
 #### Removed
 - [cysteinyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006423) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of coupling cysteine to cysteinyl-tRNA, catalyzed by cysteinyl-tRNA synthetase. A cysteinyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a cysteine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716730510" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716730510" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
 
 #### Added
 - [cysteinyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006423) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of coupling L-cysteine to cysteinyl-tRNA, catalyzed by cysteinyl-tRNA synthetase. A cysteinyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a cysteine-accepting tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716730510" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716730510" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
 
 
 ### cytochrome-c oxidase activity `http://purl.obolibrary.org/obo/GO_0004129`
@@ -1013,11 +1013,11 @@
 ### glutamate-cysteine ligase complex `http://purl.obolibrary.org/obo/GO_0017109`
 #### Removed
 - [glutamate-cysteine ligase complex](http://purl.obolibrary.org/obo/GO_0017109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enzyme complex that catalyzes the ligation of glutamate to cysteine, forming glutamylcysteine." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9675072" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9675072" 
 
 #### Added
 - [glutamate-cysteine ligase complex](http://purl.obolibrary.org/obo/GO_0017109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enzyme complex that catalyzes the ligation of L-glutamate to L-cysteine, forming gamma-L-glutamyl-L-cysteine." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9675072" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9675072" 
 
 
 ### glutathione transport `http://purl.obolibrary.org/obo/GO_0034635`
@@ -1125,11 +1125,11 @@
 ### intracellular cysteine homeostasis `http://purl.obolibrary.org/obo/GO_0080145`
 #### Removed
 - [intracellular cysteine homeostasis](http://purl.obolibrary.org/obo/GO_0080145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A homeostatic process involved in the maintenance of a steady state level of cysteine within a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19955263" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19955263" 
 
 #### Added
 - [intracellular cysteine homeostasis](http://purl.obolibrary.org/obo/GO_0080145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A homeostatic process involved in the maintenance of a steady state level of L-cysteine within a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19955263" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19955263" 
 
 
 ### isopentenyl pyrophosphate import into mitochondrion `http://purl.obolibrary.org/obo/GO_0170046`
@@ -1165,29 +1165,29 @@
 ### ketone body biosynthetic process `http://purl.obolibrary.org/obo/GO_0046951`
 #### Removed
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Biosynthesis involves the formation of hydroxymethylglutaryl-CoA, which is cleaved to acetate and acetyl-CoA." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 #### Added
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31806"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ketogenesis" 
 
-- [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
+- [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
 
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Biosynthesis involves the formation of hydroxymethylglutaryl-CoA, which is cleaved to acetate and acetyl-CoA." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
 
 
 ### ketone body catabolic process `http://purl.obolibrary.org/obo/GO_0046952`
 #### Removed
 - [ketone body catabolic process](http://purl.obolibrary.org/obo/GO_0046952) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Ketone bodies can be used as an energy source as an alternative to glucose. Utilization of ketone bodies in peripheral tissues involves conversion of acetoacetate to acetoacetyl-CoA, which is then converted to two molecules of acetyl-CoA." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 #### Added
 - [ketone body catabolic process](http://purl.obolibrary.org/obo/GO_0046952) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31806"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [ketone body catabolic process](http://purl.obolibrary.org/obo/GO_0046952) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Ketone bodies can be used as an energy source as an alternative to glucose. Utilization of ketone bodies in peripheral tissues involves conversion of acetoacetate to acetoacetyl-CoA, which is then converted to two molecules of acetyl-CoA." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-367" 
 
 
 ### luteinizing hormone secretion `http://purl.obolibrary.org/obo/GO_0032275`
@@ -1219,11 +1219,11 @@
 ### mating projection actin fusion focus `http://purl.obolibrary.org/obo/GO_1990819`
 #### Removed
 - [mating projection actin fusion focus](http://purl.obolibrary.org/obo/GO_1990819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A focus at the mating projection tip where the cell wall is degraded during conjugation with cellular fusion. Actin filaments form an aster-like structure from this location." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
 
 #### Added
 - [mating projection actin fusion focus](http://purl.obolibrary.org/obo/GO_1990819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A focus at the mating projection tip where the cell wall is degraded during cytogamy. Actin filaments form an aster-like structure from this location." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
 
 - [mating projection actin fusion focus](http://purl.obolibrary.org/obo/GO_1990819) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31774"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -1253,11 +1253,11 @@
 - [mating projection tip cell wall disassembly](http://purl.obolibrary.org/obo/GO_1904541) [label](http://www.w3.org/2000/01/rdf-schema#label) "fungal-type cell wall disassembly involved in conjugation with cellular fusion" 
 
 - [mating projection tip cell wall disassembly](http://purl.obolibrary.org/obo/GO_1904541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any fungal-type cell wall disassembly that is involved in conjugation with cellular fusion." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 #### Added
 - [mating projection tip cell wall disassembly](http://purl.obolibrary.org/obo/GO_1904541) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31753"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -1265,11 +1265,11 @@
 - [mating projection tip cell wall disassembly](http://purl.obolibrary.org/obo/GO_1904541) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "fungal-type cell wall disassembly involved in conjugation with cellular fusion" 
 
 - [mating projection tip cell wall disassembly](http://purl.obolibrary.org/obo/GO_1904541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any fungal-type cell wall disassembly that is involved in conjugation with cellular fusion, where the cell wall is locally disassembled to enable conjugation with cellular fusion." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25825517" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [mating projection tip cell wall disassembly](http://purl.obolibrary.org/obo/GO_1904541) [label](http://www.w3.org/2000/01/rdf-schema#label) "mating projection tip cell wall disassembly" 
 
@@ -1317,29 +1317,29 @@
 ### mitochondrial cysteinyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0070147`
 #### Removed
 - [mitochondrial cysteinyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0070147) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of coupling cysteine to cysteinyl-tRNA in a mitochondrion, catalyzed by cysteinyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
 
 #### Added
 - [mitochondrial cysteinyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0070147) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of coupling L-cysteine to cysteinyl-tRNA in a mitochondrion, catalyzed by cysteinyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
 
 
 ### mitochondrial gene expression `http://purl.obolibrary.org/obo/GO_0140053`
 #### Removed
 - [mitochondrial gene expression](http://purl.obolibrary.org/obo/GO_0140053) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a mitochondrial gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27058308" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27058308" 
 
 #### Added
 - [mitochondrial gene expression](http://purl.obolibrary.org/obo/GO_0140053) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of transcribing and translating the mitochondrial genome (mtDNA) to produce at least a subset of oxidative phosphorylation (OXPHOS) proteins, 2 rRNAs, and mitochondrial tRNAs, which are critical for ATP production. Protein maturation is included when required to form an active form of a product from an inactive precursor form." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27058308" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27058308" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38117001" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38117001" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31861673" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31861673" 
 
 - [mitochondrial gene expression](http://purl.obolibrary.org/obo/GO_0140053) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31659"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -1358,7 +1358,7 @@
 - [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
 
 - [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of proteins from the cytosol to their final destination in the mitochondria." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
 
 - [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mitochondrial protein import" 
 
@@ -1374,11 +1374,11 @@
 ### mitochondrial tRNA wobble position uridine thiolation `http://purl.obolibrary.org/obo/GO_1990799`
 #### Removed
 - [mitochondrial tRNA wobble position uridine thiolation](http://purl.obolibrary.org/obo/GO_1990799) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a uridine residue at position 34 in the anticodon of a mitochondrial tRNA is post-transcriptionally thiolated at the C2 position. This process involves transfer of a sulfur from cysteine to position C2 by several steps." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15509579" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15509579" 
 
 #### Added
 - [mitochondrial tRNA wobble position uridine thiolation](http://purl.obolibrary.org/obo/GO_1990799) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a uridine residue at position 34 in the anticodon of a mitochondrial tRNA is post-transcriptionally thiolated at the C2 position. This process involves transfer of a sulfur from L-cysteine to position C2 by several steps." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15509579" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15509579" 
 
 
 ### molecular_function `http://purl.obolibrary.org/obo/GO_0003674`
@@ -1422,7 +1422,7 @@
 #### Added
 - [nor-spermidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0045312) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31766"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [nor-spermidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0045312) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6562" 
+- [nor-spermidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0045312) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6562" 
 
 
 ### norepinephrine transport `http://purl.obolibrary.org/obo/GO_0015874`
@@ -1464,7 +1464,7 @@
 - [obsolete active borate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046715) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "boron uptake transmembrane transporter activity" 
 
 - [obsolete active borate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046715) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transport of borate across a membrane against the concentration gradient." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12447444" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12447444" 
 
 - [obsolete active borate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046715) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "boron transmembrane transporter activity" 
 
@@ -1492,7 +1492,7 @@
 - [obsolete active borate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046715) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 - [obsolete active borate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046715) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Enables the transport of borate across a membrane against the concentration gradient." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12447444" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12447444" 
 
 
 ### obsolete binding unfolded ER proteins `http://purl.obolibrary.org/obo/GO_0006459`
@@ -1550,7 +1550,7 @@
 - [obsolete denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term should not be confused with 'unfolded protein binding ; GO:0051082', which usually refers to proteins that have not yet folded into their active states. Denatured proteins once were in their correct functional conformations, but have become incorrectly folded, and often form aggregates." 
 
 - [obsolete denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a denatured protein." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
 
 - [obsolete denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) SubClassOf [protein binding](http://purl.obolibrary.org/obo/GO_0005515) 
 
@@ -1568,7 +1568,7 @@
 - [obsolete denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) 
 
 - [obsolete denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a denatured protein." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mlg" 
 
 
 ### obsolete endocrine hormone secretion `http://purl.obolibrary.org/obo/GO_0060986`
@@ -1584,7 +1584,7 @@
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
 
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The regulated release of a hormone into the circulatory system." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
 
@@ -1610,7 +1610,7 @@
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [hormone secretion](http://purl.obolibrary.org/obo/GO_0046879) 
 
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The regulated release of a hormone into the circulatory system." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 
 ### obsolete fimbrium-specific chaperone activity `http://purl.obolibrary.org/obo/GO_0015472`
@@ -1632,15 +1632,15 @@
 ### obsolete maintenance of unfolded protein `http://purl.obolibrary.org/obo/GO_0036506`
 #### Removed
 - [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Maintaining a protein in an unfolded, soluble state." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21636303" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21636303" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nc" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of unfolded protein" 
 
@@ -1654,15 +1654,15 @@
 - [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
 
 - [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Maintaining a protein in an unfolded, soluble state." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21636303" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21636303" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nc" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete maintenance of unfolded protein](http://purl.obolibrary.org/obo/GO_0036506) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31758"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -1678,11 +1678,11 @@
 - [obsolete negative regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010751) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of nitric oxide-mediated signal transduction" 
 
 - [obsolete negative regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010751) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that decreases the rate, frequency or extent of nitric oxide mediated signal transduction. Nitric oxide mediated signal transduction is The series of molecular signals mediated by the detection of nitric oxide (NO)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete negative regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010751) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263)) 
 
@@ -1696,11 +1696,11 @@
 - [obsolete negative regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010751) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26613"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [obsolete negative regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010751) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that decreases the rate, frequency or extent of nitric oxide mediated signal transduction. Nitric oxide mediated signal transduction is The series of molecular signals mediated by the detection of nitric oxide (NO)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete negative regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010751) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of nitric oxide mediated signal transduction" 
 
@@ -1714,9 +1714,9 @@
 ### obsolete nitric oxide mediated signal transduction `http://purl.obolibrary.org/obo/GO_0007263`
 #### Removed
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An intracellular signaling cassette that starts with production of nitric oxide, detection by receptors/sensors for nitric oxide (such as soluble guanylyl cyclase/sGC) and ends with the activation of downstream effectors that further transmit the signal within the cell. Nitric oxide transmits its downstream effects through either cyclic GMP (cGMP)-dependent or independent mechanisms." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21549190" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21549190" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitric oxide mediated signal transduction" 
 
@@ -1727,7 +1727,7 @@
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NO-mediated signal transduction" 
 
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nitric oxide signaling" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [nitric oxide](http://purl.obolibrary.org/obo/CHEBI_16480) 
 
@@ -1735,9 +1735,9 @@
 
 #### Added
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. An intracellular signaling cassette that starts with production of nitric oxide, detection by receptors/sensors for nitric oxide (such as soluble guanylyl cyclase/sGC) and ends with the activation of downstream effectors that further transmit the signal within the cell. Nitric oxide transmits its downstream effects through either cyclic GMP (cGMP)-dependent or independent mechanisms." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21549190" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21549190" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 - [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26613"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -1755,9 +1755,9 @@
 - [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) [label](http://www.w3.org/2000/01/rdf-schema#label) "organic anion transport" 
 
 - [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of organic anions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic anions are atoms or small molecules with a negative charge which contain carbon in covalent linkage." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
 
 - [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) EquivalentTo [transport](http://purl.obolibrary.org/obo/GO_0006810) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [organic anion](http://purl.obolibrary.org/obo/CHEBI_25696)) 
 
@@ -1767,9 +1767,9 @@
 
 #### Added
 - [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The directed movement of organic anions into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic anions are atoms or small molecules with a negative charge which contain carbon in covalent linkage." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
 
 - [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
 
@@ -1785,7 +1785,7 @@
 ### obsolete organic cation transport `http://purl.obolibrary.org/obo/GO_0015695`
 #### Removed
 - [obsolete organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of organic cations into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic cations are atoms or small molecules with a positive charge which contain carbon in covalent linkage." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [obsolete organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) [label](http://www.w3.org/2000/01/rdf-schema#label) "organic cation transport" 
 
@@ -1797,7 +1797,7 @@
 
 #### Added
 - [obsolete organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The directed movement of organic cations into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore. Organic cations are atoms or small molecules with a positive charge which contain carbon in covalent linkage." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [obsolete organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) 
 
@@ -1817,11 +1817,11 @@
 - [obsolete positive regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010750) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of nitric oxide mediated signal transduction" 
 
 - [obsolete positive regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the rate, frequency or extent of nitric oxide mediated signal transduction. Nitric oxide mediated signal transduction is The series of molecular signals mediated by the detection of nitric oxide (NO)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete positive regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010750) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263)) 
 
@@ -1835,11 +1835,11 @@
 - [obsolete positive regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term has been inconsistently used and NO signaling proceeds via cGMP, so the more specific replacement term is preferred." 
 
 - [obsolete positive regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the rate, frequency or extent of nitric oxide mediated signal transduction. Nitric oxide mediated signal transduction is The series of molecular signals mediated by the detection of nitric oxide (NO)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete positive regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of nitric oxide mediated signal transduction" 
 
@@ -1857,11 +1857,11 @@
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of nitric oxide-mediated signal transduction" 
 
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of nitric oxide mediated signal transduction. Nitric oxide mediated signal transduction is The series of molecular signals mediated by the detection of nitric oxide (NO)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0007263)) 
 
@@ -1877,11 +1877,11 @@
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the rate, frequency or extent of nitric oxide mediated signal transduction. Nitric oxide mediated signal transduction is The series of molecular signals mediated by the detection of nitric oxide (NO)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
 
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of nitric oxide-cGMP mediated signal transduction](http://purl.obolibrary.org/obo/GO_0141149) 
 
@@ -1903,7 +1903,7 @@
 - [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_yeast](http://purl.obolibrary.org/obo/go#goslim_yeast) 
 
 - [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an unfolded protein." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "chaperone activity" 
 
@@ -1915,7 +1915,7 @@
 
 #### Added
 - [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to an unfolded protein." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete unfolded protein binding" 
 
@@ -2025,7 +2025,7 @@
 ### protein import into mitochondrial intermembrane space `http://purl.obolibrary.org/obo/GO_0045041`
 #### Removed
 - [protein import into mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0045041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of proteins into the space between the inner and outer mitochondrial membranes." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
 
 - [protein import into mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0045041) EquivalentTo [transport](http://purl.obolibrary.org/obo/GO_0006810) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0005758)) and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0005741)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [protein](http://purl.obolibrary.org/obo/PR_000000001)) 
 
@@ -2047,7 +2047,7 @@
 - [protein import into mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0045041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31711"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [protein import into mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0045041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of proteins from the cytosol across the outer mitochondrial membrane into the intermembrane space." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
 
 - [protein import into mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0045041) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
@@ -2057,7 +2057,7 @@
 ### protein import into mitochondrial matrix `http://purl.obolibrary.org/obo/GO_0030150`
 #### Removed
 - [protein import into mitochondrial matrix](http://purl.obolibrary.org/obo/GO_0030150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of proteins across the outer and inner mitochondrial membranes into the matrix. Unfolded proteins enter the mitochondrial matrix with a chaperone protein; the information required to target the precursor protein from the cytosol to the mitochondrial matrix is contained within its N-terminal matrix-targeting sequence. Translocation of precursors to the matrix occurs at the rare sites where the outer and inner membranes are close together." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
 
 - [protein import into mitochondrial matrix](http://purl.obolibrary.org/obo/GO_0030150) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "/github.com/geneontology/go-ontology/issues/29962"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -2075,9 +2075,9 @@
 
 #### Added
 - [protein import into mitochondrial matrix](http://purl.obolibrary.org/obo/GO_0030150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of proteins with mitochondrial targeting sequence from the cytosol across the mitochondrial outer and inner membranes into the matrix via TOM-TIM23-PAM." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
 
 - [protein import into mitochondrial matrix](http://purl.obolibrary.org/obo/GO_0030150) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29962"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
@@ -2099,9 +2099,9 @@
 - [protein import into the intermembrane space via the disulfide relay system](http://purl.obolibrary.org/obo/GO_0160203) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrial disulfide relay system" 
 
 - [protein import into the intermembrane space via the disulfide relay system](http://purl.obolibrary.org/obo/GO_0160203) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein folding process that facilitates the import of a subset of soluble proteins into mitochondrial intermembrane space via disulfide bond formation." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37159021" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37159021" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32936885" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32936885" 
 
 - [protein import into the intermembrane space via the disulfide relay system](http://purl.obolibrary.org/obo/GO_0160203) SubClassOf [protein folding](http://purl.obolibrary.org/obo/GO_0006457) 
 
@@ -2115,9 +2115,9 @@
 - [protein import into the intermembrane space via the disulfide relay system](http://purl.obolibrary.org/obo/GO_0160203) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein import into the intermembrane space via the disulfide relay system" 
 
 - [protein import into the intermembrane space via the disulfide relay system](http://purl.obolibrary.org/obo/GO_0160203) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of small cysteine-containing proteins from the cytosol across the outer mitochondrial membrane via the TOM complex driven by oxidative folding." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37159021" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37159021" 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32936885" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32936885" 
 
 - [protein import into the intermembrane space via the disulfide relay system](http://purl.obolibrary.org/obo/GO_0160203) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "CHCHD4/Mia40-dependent import" 
 
@@ -2173,17 +2173,17 @@
 ### putrescine catabolic process `http://purl.obolibrary.org/obo/GO_0009447`
 
 #### Added
-- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-0" 
+- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-0" 
 
-- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1221" 
+- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1221" 
 
 - [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-0](http://identifiers.org/metacyc.reaction/PWY-0) 
 
-- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PUTDEG-PWY" 
+- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PUTDEG-PWY" 
 
 - [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2](http://identifiers.org/metacyc.reaction/PWY-2) 
 
-- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2" 
+- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2" 
 
 - [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PUTDEG-PWY](http://identifiers.org/metacyc.reaction/PUTDEG-PWY) 
 
@@ -2193,7 +2193,7 @@
 
 - [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31766"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3" 
+- [putrescine catabolic process](http://purl.obolibrary.org/obo/GO_0009447) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3" 
 
 
 ### putrescine transport `http://purl.obolibrary.org/obo/GO_0015847`
@@ -2391,17 +2391,17 @@
 ### tRNA wobble position uridine thiolation `http://purl.obolibrary.org/obo/GO_0002143`
 #### Removed
 - [tRNA wobble position uridine thiolation](http://purl.obolibrary.org/obo/GO_0002143) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a uridine residue at position 34 in the anticodon of a tRNA is post-transcriptionally thiolated at the C2 position. This process involves transfer of a sulfur from cysteine to position C2 by several steps." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16871210" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16871210" 
 
 #### Added
 - [tRNA wobble position uridine thiolation](http://purl.obolibrary.org/obo/GO_0002143) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a uridine residue at position 34 in the anticodon of a tRNA is post-transcriptionally thiolated at the C2 position. This process involves transfer of a sulfur from L-cysteine to position C2 by several steps." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16871210" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16871210" 
 
 
 ### testosterone dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047045`
 
 #### Added
-- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
 
 
 ### tetracycline transmembrane transport `http://purl.obolibrary.org/obo/GO_0015904`
