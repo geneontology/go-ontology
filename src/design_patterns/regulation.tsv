@@ -109,6 +109,7 @@ http://purl.obolibrary.org/obo/GO_1903450	regulation of G1 to G0 transition	http
 http://purl.obolibrary.org/obo/GO_2000045	regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0010389	regulation of G2/M transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000086	G2/M transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0110030	regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
+http://purl.obolibrary.org/obo/GO_1901715	regulation of GABA catabolic process	http://purl.obolibrary.org/obo/GO_0009450	GABA catabolic process
 http://purl.obolibrary.org/obo/GO_0106040	regulation of GABA-A receptor activity	http://purl.obolibrary.org/obo/GO_0004890	GABA-A receptor activity
 http://purl.obolibrary.org/obo/GO_0043087	regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
 http://purl.obolibrary.org/obo/GO_1901472	regulation of Golgi calcium ion export	http://purl.obolibrary.org/obo/GO_0061454	release of sequestered calcium ion into cytosol by Golgi
@@ -1122,7 +1123,6 @@ http://purl.obolibrary.org/obo/GO_1903913	regulation of fusion of virus membrane
 http://purl.obolibrary.org/obo/GO_2000912	regulation of galactoglucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000885	galactoglucomannan catabolic process
 http://purl.obolibrary.org/obo/GO_2000991	regulation of galactomannan catabolic process	http://purl.obolibrary.org/obo/GO_0051682	galactomannan catabolic process
 http://purl.obolibrary.org/obo/GO_1900291	regulation of galactotriose transport	http://purl.obolibrary.org/obo/GO_2001093	galactotriose transport
-http://purl.obolibrary.org/obo/GO_1901715	regulation of gamma-aminobutyric acid catabolic process	http://purl.obolibrary.org/obo/GO_0009450	gamma-aminobutyric acid catabolic process
 http://purl.obolibrary.org/obo/GO_0014052	regulation of gamma-aminobutyric acid secretion	http://purl.obolibrary.org/obo/GO_0014051	gamma-aminobutyric acid secretion
 http://purl.obolibrary.org/obo/GO_0046643	regulation of gamma-delta T cell activation	http://purl.obolibrary.org/obo/GO_0046629	gamma-delta T cell activation
 http://purl.obolibrary.org/obo/GO_0045586	regulation of gamma-delta T cell differentiation	http://purl.obolibrary.org/obo/GO_0042492	gamma-delta T cell differentiation
@@ -1893,7 +1893,6 @@ http://purl.obolibrary.org/obo/GO_1902622	regulation of neutrophil migration	htt
 http://purl.obolibrary.org/obo/GO_1900357	regulation of nigerotriose transport	http://purl.obolibrary.org/obo/GO_2001091	nigerotriose transport
 http://purl.obolibrary.org/obo/GO_0090352	regulation of nitrate assimilation	http://purl.obolibrary.org/obo/GO_0042128	nitrate assimilation
 http://purl.obolibrary.org/obo/GO_0045428	regulation of nitric oxide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006809	nitric oxide biosynthetic process
-http://purl.obolibrary.org/obo/GO_0010749	regulation of nitric oxide mediated signal transduction	http://purl.obolibrary.org/obo/GO_0007263	nitric oxide mediated signal transduction
 http://purl.obolibrary.org/obo/GO_0080164	regulation of nitric oxide metabolic process	http://purl.obolibrary.org/obo/GO_0046209	nitric oxide metabolic process
 http://purl.obolibrary.org/obo/GO_0141149	regulation of nitric oxide-cGMP mediated signal transduction	http://purl.obolibrary.org/obo/GO_0038060	nitric oxide-cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0050999	regulation of nitric-oxide synthase activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
