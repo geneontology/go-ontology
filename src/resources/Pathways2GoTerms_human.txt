@@ -1,8 +1,7 @@
 Identifier	Name	GO_Term
 R-HSA-73843	5-Phosphoribose 1-diphosphate biosynthesis	GO:0006015
 R-HSA-1369062	ABC transporters in lipid homeostasis	GO:0006869
-R-HSA-382556	ABC-family proteins mediated transport	GO:0055085
-R-HSA-9660821	ADORA2B mediated anti-inflammatory cytokines production	GO:0002862
+R-HSA-382556	ABC-family protein mediated transport	GO:0055085
 R-HSA-418592	ADP signalling through P2Y purinoceptor 1	GO:0030168
 R-HSA-392170	ADP signalling through P2Y purinoceptor 12	GO:0030168
 R-HSA-198323	AKT phosphorylates targets in the cytosol	GO:0043491
@@ -74,7 +73,7 @@ R-HSA-977225	Amyloid fiber formation	GO:1990000
 R-HSA-2214320	Anchoring fibril formation	GO:0030199
 R-HSA-5620912	Anchoring of the basal body to the plasma membrane	GO:0097711
 R-HSA-193048	Androgen biosynthesis	GO:0006702
-R-HSA-9662851	Anti-inflammatory response favouring Leishmania parasite infection	GO:0051711
+R-HSA-9662851	Anti-inflammatory response favouring Leishmania parasite infection	GO:0002862
 R-HSA-1236975	Antigen processing-Cross presentation	GO:0042590
 R-HSA-9912633	Antigen processing: Ub, ATP-independent proteasomal degradation	GO:0010499
 R-HSA-983168	Antigen processing: Ubiquitination & Proteasome degradation	GO:0000209
@@ -132,7 +131,6 @@ R-HSA-9960519	CASP4-mediated substrate cleavage	GO:0070269
 R-HSA-9948011	CASP5 inflammasome assembly	GO:0160075
 R-HSA-9960525	CASP5-mediated substrate cleavage	GO:0070269
 R-HSA-5218900	CASP8 activity is inhibited	GO:0010951
-R-HSA-9662834	CD163 mediating an anti-inflammatory response	GO:0002862
 R-HSA-6811434	COPI-dependent Golgi-to-ER retrograde traffic	GO:0006890
 R-HSA-204005	COPII-mediated vesicle transport	GO:0048208
 R-HSA-140180	COX reactions	GO:0006692
@@ -145,6 +143,7 @@ R-HSA-1296052	Ca2+ activated K+ channels	GO:1901381
 R-HSA-4086398	Ca2+ pathway	GO:0007223
 R-HSA-5576891	Cardiac conduction	GO:0061337
 R-HSA-9733709	Cardiogenesis	GO:0060914
+R-HSA-5620920	Cargo trafficking to the periciliary membrane	GO:0060271
 R-HSA-200425	Carnitine shuttle	GO:0006853
 R-HSA-71262	Carnitine synthesis	GO:0045329
 R-HSA-140534	Caspase activation via Death Receptors in the presence of ligand	GO:0010950
@@ -240,7 +239,7 @@ R-HSA-3299685	Detoxification of Reactive Oxygen Species	GO:0034599
 R-HSA-5688426	Deubiquitination	GO:0016579
 R-HSA-9725554	Differentiation of Keratinocytes in Interfollicular Epidermis in Mammalian Skin	GO:0003334
 R-HSA-9945266	Differentiation of T cells	GO:0030217
-R-HSA-9942503	Differentiation of naive CD+ T cells to T helper 1 cells (Th1 cells)	GO:0045063
+R-HSA-9942503	Differentiation of naive CD4+ T cells to T helper 1 cells (Th1 cells)	GO:0045063
 R-HSA-8935690	Digestion	GO:0007586
 R-HSA-189085	Digestion of dietary carbohydrate	GO:0044245
 R-HSA-192456	Digestion of dietary lipid	GO:0044241
@@ -282,12 +281,11 @@ R-HSA-72764	Eukaryotic Translation Termination	GO:0006415
 R-HSA-168274	Export of Viral Ribonucleoproteins from Nucleus	GO:0075733
 R-HSA-9752946	Expression and translocation of olfactory receptors	GO:0010468
 R-HSA-1474244	Extracellular matrix organization	GO:0030198
-R-HSA-140834	Extrinsic Pathway of Fibrin Clot Formation	GO:0007598
 R-HSA-9837092	FASTK family proteins regulate processing and stability of mitochondrial RNAs	GO:0044528
 R-HSA-8854050	FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	GO:0045930
-R-HSA-9664323	FCGR3A-mediated IL10 synthesis	GO:0002862
 R-HSA-9664422	FCGR3A-mediated phagocytosis	GO:0038096
 R-HSA-9607240	FLT3 Signaling	GO:0019221
+R-HSA-9970672	FXIIa activates plasma kallikrein-kinin system	GO:0002353
 R-HSA-6783310	Fanconi Anemia Pathway	GO:0036297
 R-HSA-75157	FasL/ CD95L signaling	GO:0097190
 R-HSA-8978868	Fatty acid metabolism	GO:0006631
@@ -448,7 +446,6 @@ R-HSA-434313	Intracellular metabolism of fatty acids regulates insulin secretion
 R-HSA-8981607	Intracellular oxygen transport	GO:0015671
 R-HSA-5620924	Intraflagellar transport	GO:0035735
 R-HSA-109606	Intrinsic Pathway for Apoptosis	GO:0097193
-R-HSA-140837	Intrinsic Pathway of Fibrin Clot Formation	GO:0007597
 R-HSA-983712	Ion channel transport	GO:0034220
 R-HSA-5578775	Ion homeostasis	GO:1903779
 R-HSA-917937	Iron uptake and transport	GO:0006879
@@ -463,7 +460,6 @@ R-HSA-9664420	Killing mechanisms	GO:0031343
 R-HSA-983189	Kinesins	GO:0007018
 R-HSA-8964038	LDL clearance	GO:0034383
 R-HSA-8964041	LDL remodeling	GO:0034374
-R-HSA-9664535	LTC4-CYSLTR mediated IL4 production	GO:0002862
 R-HSA-5653890	Lactose synthesis	GO:0005989
 R-HSA-9615710	Late endosomal microautophagy	GO:0061738
 R-HSA-1222499	Latent infection - Other responses of Mtb to phagocytosis	GO:0052572
@@ -520,7 +516,7 @@ R-HSA-6806664	Metabolism of vitamin K	GO:0042373
 R-HSA-196849	Metabolism of water-soluble vitamins and cofactors	GO:0042364
 R-HSA-425410	Metal ion SLC transporters	GO:0030001
 R-HSA-9638482	Metal ion assimilation from the host	GO:0044847
-R-HSA-1237112	Methionine salvage pathway	GO:0019509
+R-HSA-1237112	Methionine salvage pathway	GO:0071267
 R-HSA-156581	Methylation	GO:0032259
 R-HSA-2408552	Methylation of MeSeH for excretion	GO:0001887
 R-HSA-203927	MicroRNA (miRNA) biogenesis	GO:0010586
@@ -536,7 +532,7 @@ R-HSA-8949215	Mitochondrial calcium ion transport	GO:0006851
 R-HSA-1362409	Mitochondrial iron-sulfur cluster biogenesis	GO:0016226
 R-HSA-9937008	Mitochondrial mRNA modification	GO:0016556
 R-HSA-9837999	Mitochondrial protein degradation	GO:0035694
-R-HSA-1268020	Mitochondrial protein import	GO:0006626
+R-HSA-1268020	Mitochondrial protein import	GO:0070585
 R-HSA-9937383	Mitochondrial ribosome-associated quality control	GO:0070126
 R-HSA-163282	Mitochondrial transcription initiation	GO:0006391
 R-HSA-163316	Mitochondrial transcription termination	GO:0006393
@@ -676,7 +672,6 @@ R-HSA-391251	Protein folding	GO:0051084
 R-HSA-9629569	Protein hydroxylation	GO:0018126
 R-HSA-9857492	Protein lipoylation	GO:0009249
 R-HSA-9609507	Protein localization	GO:0008104
-R-HSA-8876725	Protein methylation	GO:0006479
 R-HSA-5676934	Protein repair	GO:0030091
 R-HSA-8852135	Protein ubiquitination	GO:0016567
 R-HSA-74259	Purine catabolism	GO:0006195
@@ -754,7 +749,7 @@ R-HSA-422356	Regulation of insulin secretion	GO:0050796
 R-HSA-400206	Regulation of lipid metabolism by PPARalpha	GO:0019216
 R-HSA-450531	Regulation of mRNA stability by proteins that bind AU-rich elements	GO:0043488
 R-HSA-5675482	Regulation of necroptotic cell death	GO:0060544
-R-HSA-350562	Regulation of ornithine decarboxylase (ODC)	GO:0090368
+R-HSA-350562	Regulation of ornithine decarboxylase (ODC)	GO:0006596
 R-HSA-204174	Regulation of pyruvate dehydrogenase (PDH) complex	GO:0010510
 R-HSA-9861718	Regulation of pyruvate metabolism	GO:0062012
 R-HSA-350864	Regulation of thyroid hormone activity	GO:0042403
@@ -788,7 +783,6 @@ R-HSA-425407	SLC-mediated transmembrane transport	GO:0055085
 R-HSA-9958863	SLC-mediated transport of amino acids	GO:0006865
 R-HSA-442660	SLC-mediated transport of neurotransmitters	GO:0006836
 R-HSA-9959399	SLC-mediated transport of oligopeptides	GO:0035672
-R-HSA-9955298	SLC-mediated transport of organic anions	GO:0015711
 R-HSA-549127	SLC-mediated transport of organic cations	GO:0015837
 R-HSA-9860276	SLC15A4:TASL-dependent IRF5 activation	GO:0034121
 R-HSA-2173796	SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	GO:0045944
@@ -797,11 +791,12 @@ R-HSA-9645135	STAT5 Activation	GO:0034097
 R-HSA-2990846	SUMOylation	GO:0016925
 R-HSA-9760173	Secretion of toxins	GO:0042000
 R-HSA-2408522	Selenoamino acid metabolism	GO:0016259
+R-HSA-2408557	Selenocysteine synthesis	GO:0016260
 R-HSA-9709957	Sensory Perception	GO:0007600
 R-HSA-9717189	Sensory perception of taste	GO:0050909
 R-HSA-9659379	Sensory processing of sound	GO:0007605
 R-HSA-2467813	Separation of Sister Chromatids	GO:0051306
-R-HSA-977347	Serine metabolism	GO:0006563
+R-HSA-977347	Serine metabolism	GO:1901605
 R-HSA-181429	Serotonin Neurotransmitter Release Cycle	GO:0006836
 R-HSA-209931	Serotonin and melatonin biosynthesis	GO:0046219
 R-HSA-201451	Signaling by BMP	GO:0030509
@@ -906,7 +901,7 @@ R-HSA-167826	The fatty acid cycling model	GO:1902600
 R-HSA-2514856	The phototransduction cascade	GO:0016056
 R-HSA-2187335	The retinoid cycle in cones (daylight vision)	GO:0001523
 R-HSA-8852276	The role of GTSE1 in G2/M progression after G2 checkpoint	GO:1902749
-R-HSA-8849175	Threonine catabolism	GO:0019518
+R-HSA-8849175	Threonine catabolism	GO:0006567
 R-HSA-209968	Thyroxine biosynthesis	GO:0006590
 R-HSA-420029	Tight junction interactions	GO:0070830
 R-HSA-1222538	Tolerance by Mtb to nitric oxide produced by macrophages	GO:0141082
