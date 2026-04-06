@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-04-05go.owl-statistics
+id: obo:go/releases/2026-04-06go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-04-05go.owl
+  version: obo:go/releases/2026-04-06go.owl
 was_generated_by:
-  started_at_time: '2026-04-05T06:12:27.514356'
+  started_at_time: '2026-04-06T06:18:21.454586'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,13 +47,13 @@ partitions:
     synonym_statement_count: 94494
     change_summary:
       EdgeCreation: 134
-      EdgeDeletion: 43
-      NodeTextDefinitionChange: 23
-      RemoveSynonym: 11
-      NewSynonym: 8
-      NodeRename: 13
-      NodeDeletion: 5
       NodeUnobsoletion: 8
+      NewSynonym: 8
+      NodeTextDefinitionChange: 23
+      NodeRename: 13
+      EdgeDeletion: 43
+      RemoveSynonym: 11
+      NodeDeletion: 5
       RemoveMapping: 7
       MappingCreation: 1
       All_Obsoletion: 0
@@ -91,16 +91,16 @@ partitions:
     distinct_synonym_count: 28598
     synonym_statement_count: 29746
     change_summary:
-      NodeTextDefinitionChange: 4
       EdgeDeletion: 6
       RemoveSynonym: 4
+      NodeTextDefinitionChange: 4
       NodeRename: 5
       EdgeCreation: 10
-      RemoveMapping: 1
+      NodeDeletion: 1
       NodeUnobsoletion: 3
       NewSynonym: 9
       AddNodeToSubset: 3
-      NodeDeletion: 1
+      RemoveMapping: 1
       All_Obsoletion: 0
       All_Synonym: 13
     edge_count: 13558
@@ -124,8 +124,8 @@ partitions:
     distinct_synonym_count: 5099
     synonym_statement_count: 5297
     change_summary:
-      EdgeDeletion: 3
       NodeTextDefinitionChange: 2
+      EdgeDeletion: 3
       All_Obsoletion: 0
       All_Synonym: 0
     edge_count: 6680
