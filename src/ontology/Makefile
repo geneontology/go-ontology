@@ -114,7 +114,7 @@ prepare_release:
 	cp external2go/* $(RELEASEDIR)/external2go &&\
 	cp go-basic.* $(RELEASEDIR) &&\
 	cp go-base.owl $(RELEASEDIR) &&\
-	cp subsets/* $(RELEASEDIR)/subsets &&\
+	find subsets/ -maxdepth 1 -type f ! -name '*.tmp' -exec cp {} $(RELEASEDIR)/subsets/ \; &&\
 	cp reports/* $(RELEASEDIR)/reports &&\
 	echo "Release files are now in $(RELEASEDIR)"
 
@@ -341,10 +341,10 @@ subsets/subset-terms.tsv: $(ONT).owl $(SPARQLDIR)/subset-terms.sparql
 	$(ROBOT) query -i $< -f tsv --query $(word 2,$^) $@
 
 subsets/subset-properties.tsv: $(ONT).owl $(SPARQLDIR)/subset-properties.sparql
-	$(ROBOT) query -i $< -f tsv --query $(word 2,$^) $@.tmp && sed 's/"//g' $@.tmp >$@
+	$(ROBOT) query -i $< -f tsv --query $(word 2,$^) $@.tmp && sed 's/"//g' $@.tmp >$@ && rm -f $@.tmp
 
 subsets/%-terms.txt: subsets/subset-terms.tsv subsets/subset-properties.tsv
-	grep '"$*"' $< | cut -f1 | sed 's/"//g' >$@.tmp && cat $@.tmp $(word 2,$^) >$@
+	grep '"$*"' $< | cut -f1 | sed 's/"//g' >$@.tmp && cat $@.tmp $(word 2,$^) >$@ && rm -f $@.tmp
 
 # Also generates %.obo and %.json
 subsets/%.owl: $(ONT).ofn subsets/%-terms.txt

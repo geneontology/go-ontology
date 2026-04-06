@@ -98,6 +98,7 @@ http://purl.obolibrary.org/obo/GO_1903452	positive regulation of G1 to G0 transi
 http://purl.obolibrary.org/obo/GO_1900087	positive regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0010971	positive regulation of G2/M transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000086	G2/M transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0110032	positive regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
+http://purl.obolibrary.org/obo/GO_1901717	positive regulation of GABA catabolic process	http://purl.obolibrary.org/obo/GO_0009450	GABA catabolic process
 http://purl.obolibrary.org/obo/GO_1904426	positive regulation of GTP binding	http://purl.obolibrary.org/obo/GO_0005525	GTP binding
 http://purl.obolibrary.org/obo/GO_0043547	positive regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
 http://purl.obolibrary.org/obo/GO_0042998	positive regulation of Golgi to plasma membrane protein transport	http://purl.obolibrary.org/obo/GO_0043001	Golgi to plasma membrane protein transport
@@ -1002,7 +1003,6 @@ http://purl.obolibrary.org/obo/GO_1903915	positive regulation of fusion of virus
 http://purl.obolibrary.org/obo/GO_2000914	positive regulation of galactoglucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000885	galactoglucomannan catabolic process
 http://purl.obolibrary.org/obo/GO_2000993	positive regulation of galactomannan catabolic process	http://purl.obolibrary.org/obo/GO_0051682	galactomannan catabolic process
 http://purl.obolibrary.org/obo/GO_1900293	positive regulation of galactotriose transport	http://purl.obolibrary.org/obo/GO_2001093	galactotriose transport
-http://purl.obolibrary.org/obo/GO_1901717	positive regulation of gamma-aminobutyric acid catabolic process	http://purl.obolibrary.org/obo/GO_0009450	gamma-aminobutyric acid catabolic process
 http://purl.obolibrary.org/obo/GO_0014054	positive regulation of gamma-aminobutyric acid secretion	http://purl.obolibrary.org/obo/GO_0014051	gamma-aminobutyric acid secretion
 http://purl.obolibrary.org/obo/GO_0046645	positive regulation of gamma-delta T cell activation	http://purl.obolibrary.org/obo/GO_0046629	gamma-delta T cell activation
 http://purl.obolibrary.org/obo/GO_0045588	positive regulation of gamma-delta T cell differentiation	http://purl.obolibrary.org/obo/GO_0042492	gamma-delta T cell differentiation
@@ -1707,7 +1707,6 @@ http://purl.obolibrary.org/obo/GO_1902624	positive regulation of neutrophil migr
 http://purl.obolibrary.org/obo/GO_0160160	positive regulation of nicotine catabolic process	http://purl.obolibrary.org/obo/GO_0019608	nicotine catabolic process
 http://purl.obolibrary.org/obo/GO_1900359	positive regulation of nigerotriose transport	http://purl.obolibrary.org/obo/GO_2001091	nigerotriose transport
 http://purl.obolibrary.org/obo/GO_0045429	positive regulation of nitric oxide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006809	nitric oxide biosynthetic process
-http://purl.obolibrary.org/obo/GO_0010750	positive regulation of nitric oxide mediated signal transduction	http://purl.obolibrary.org/obo/GO_0007263	nitric oxide mediated signal transduction
 http://purl.obolibrary.org/obo/GO_0141150	positive regulation of nitric oxide-cGMP mediated signal transduction	http://purl.obolibrary.org/obo/GO_0038060	nitric oxide-cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0051000	positive regulation of nitric-oxide synthase activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
 http://purl.obolibrary.org/obo/GO_1903316	positive regulation of nitrogen cycle metabolic process	http://purl.obolibrary.org/obo/GO_0071941	nitrogen cycle metabolic process

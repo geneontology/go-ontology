@@ -744,3 +744,11 @@ GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:33208	Metazoa
 GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:35209220
 GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:4896	Saccharomyces cerevisiae	PMID:35209220
 GO:0046146	tetrahydrobiopterin metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	 
+GO:0030212	hyaluronan metabolic process	NCBITaxon:4751	Fungi	
+GO:0030212	hyaluronan metabolic process	NCBITaxon:6656	Arthropoda	
+GO:0050655	dermatan sulfate proteoglycan metabolic process	NCBITaxon:4751	Fungi	
+GO:0050655	dermatan sulfate proteoglycan metabolic process	NCBITaxon:6656	Arthropoda	
+GO:0030202	heparin proteoglycan metabolic process	NCBITaxon:4751	Fungi	
+GO:0030202	heparin proteoglycan metabolic process	NCBITaxon:6656	Arthropoda	
+GO:0042339	keratan sulfate proteoglycan metabolic proces	NCBITaxon:4751	Fungi	
+GO:0042339	keratan sulfate proteoglycan metabolic proces	NCBITaxon:6656	Arthropoda	

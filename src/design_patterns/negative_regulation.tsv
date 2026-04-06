@@ -1,5 +1,6 @@
 defined_class	defined_class_label	entity	entity_label
 http://purl.obolibrary.org/obo/GO_0002085	inhibition of neuroepithelial cell differentiation	http://purl.obolibrary.org/obo/GO_0060563	neuroepithelial cell differentiation
+http://purl.obolibrary.org/obo/GO_0170075	negative regluation of nuclear-transribed mRNA catabolic process, no-go decay	http://purl.obolibrary.org/obo/GO_0070966	nuclear-transcribed mRNA catabolic process, no-go decay
 http://purl.obolibrary.org/obo/GO_0140540	negative regulation melanotic encapsulation of foreign target	http://purl.obolibrary.org/obo/GO_0035011	melanotic encapsulation of foreign target
 http://purl.obolibrary.org/obo/GO_1905013	negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan	http://purl.obolibrary.org/obo/GO_0034354	'de novo' NAD+ biosynthetic process from L-tryptophan
 http://purl.obolibrary.org/obo/GO_1900693	negative regulation of (+)-kotanin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900596	(+)-kotanin biosynthetic process
@@ -95,6 +96,7 @@ http://purl.obolibrary.org/obo/GO_1903451	negative regulation of G1 to G0 transi
 http://purl.obolibrary.org/obo/GO_2000134	negative regulation of G1/S transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000082	G1/S transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0010972	negative regulation of G2/M transition of mitotic cell cycle	http://purl.obolibrary.org/obo/GO_0000086	G2/M transition of mitotic cell cycle
 http://purl.obolibrary.org/obo/GO_0110031	negative regulation of G2/MI transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0008315	G2/MI transition of meiotic cell cycle
+http://purl.obolibrary.org/obo/GO_1901716	negative regulation of GABA catabolic process	http://purl.obolibrary.org/obo/GO_0009450	GABA catabolic process
 http://purl.obolibrary.org/obo/GO_7770045	negative regulation of GCN2-mediated signaling	http://purl.obolibrary.org/obo/GO_0140469	GCN2-mediated signaling
 http://purl.obolibrary.org/obo/GO_0160145	negative regulation of GDF15-GFRAL signaling pathway	http://purl.obolibrary.org/obo/GO_0160144	GDF15-GFRAL signaling pathway
 http://purl.obolibrary.org/obo/GO_0034260	negative regulation of GTPase activity	http://purl.obolibrary.org/obo/GO_0003924	GTPase activity
@@ -1022,7 +1024,6 @@ http://purl.obolibrary.org/obo/GO_1903914	negative regulation of fusion of virus
 http://purl.obolibrary.org/obo/GO_2000913	negative regulation of galactoglucomannan catabolic process	http://purl.obolibrary.org/obo/GO_2000885	galactoglucomannan catabolic process
 http://purl.obolibrary.org/obo/GO_2000992	negative regulation of galactomannan catabolic process	http://purl.obolibrary.org/obo/GO_0051682	galactomannan catabolic process
 http://purl.obolibrary.org/obo/GO_1900292	negative regulation of galactotriose transport	http://purl.obolibrary.org/obo/GO_2001093	galactotriose transport
-http://purl.obolibrary.org/obo/GO_1901716	negative regulation of gamma-aminobutyric acid catabolic process	http://purl.obolibrary.org/obo/GO_0009450	gamma-aminobutyric acid catabolic process
 http://purl.obolibrary.org/obo/GO_0014053	negative regulation of gamma-aminobutyric acid secretion	http://purl.obolibrary.org/obo/GO_0014051	gamma-aminobutyric acid secretion
 http://purl.obolibrary.org/obo/GO_0046644	negative regulation of gamma-delta T cell activation	http://purl.obolibrary.org/obo/GO_0046629	gamma-delta T cell activation
 http://purl.obolibrary.org/obo/GO_0045587	negative regulation of gamma-delta T cell differentiation	http://purl.obolibrary.org/obo/GO_0042492	gamma-delta T cell differentiation
@@ -1724,7 +1725,6 @@ http://purl.obolibrary.org/obo/GO_0070955	negative regulation of neutrophil medi
 http://purl.obolibrary.org/obo/GO_1902623	negative regulation of neutrophil migration	http://purl.obolibrary.org/obo/GO_1990266	neutrophil migration
 http://purl.obolibrary.org/obo/GO_1900358	negative regulation of nigerotriose transport	http://purl.obolibrary.org/obo/GO_2001091	nigerotriose transport
 http://purl.obolibrary.org/obo/GO_0045019	negative regulation of nitric oxide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006809	nitric oxide biosynthetic process
-http://purl.obolibrary.org/obo/GO_0010751	negative regulation of nitric oxide mediated signal transduction	http://purl.obolibrary.org/obo/GO_0007263	nitric oxide mediated signal transduction
 http://purl.obolibrary.org/obo/GO_0141151	negative regulation of nitric oxide-cGMP mediated signal transduction	http://purl.obolibrary.org/obo/GO_0038060	nitric oxide-cGMP-mediated signaling
 http://purl.obolibrary.org/obo/GO_0051001	negative regulation of nitric-oxide synthase activity	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
 http://purl.obolibrary.org/obo/GO_1903315	negative regulation of nitrogen cycle metabolic process	http://purl.obolibrary.org/obo/GO_0071941	nitrogen cycle metabolic process
