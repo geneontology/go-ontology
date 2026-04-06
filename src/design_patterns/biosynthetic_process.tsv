@@ -98,6 +98,7 @@ http://purl.obolibrary.org/obo/GO_1900611	F-9775A biosynthetic process	http://pu
 http://purl.obolibrary.org/obo/GO_1900614	F-9775B biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_64409	F-9775B
 http://purl.obolibrary.org/obo/GO_0006747	FAD biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57692	FAD(3-)
 http://purl.obolibrary.org/obo/GO_0009398	FMN biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58210	FMN(3-)
+http://purl.obolibrary.org/obo/GO_0009449	GABA biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046711	GDP biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58189	GDP(3-)
 http://purl.obolibrary.org/obo/GO_0019306	GDP-D-rhamnose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58224	GDP-6-deoxy-alpha-D-mannose(2-)
 http://purl.obolibrary.org/obo/GO_0042350	GDP-L-fucose biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_57984	GDP-L-fucose(2-)
@@ -485,7 +486,6 @@ http://purl.obolibrary.org/obo/GO_0046369	galactose biosynthetic process	http://
 http://purl.obolibrary.org/obo/GO_0006682	galactosylceramide biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_36498	galactosylceramide
 http://purl.obolibrary.org/obo/GO_0062191	galactoxylomannan biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_145656	galactoxylomannan
 http://purl.obolibrary.org/obo/GO_0033481	galacturonate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_24175	galacturonate
-http://purl.obolibrary.org/obo/GO_0009449	gamma-aminobutyric acid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
 http://purl.obolibrary.org/obo/GO_0001574	ganglioside biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28892	ganglioside
 http://purl.obolibrary.org/obo/GO_1901130	gentamycin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17833	gentamycin
 http://purl.obolibrary.org/obo/GO_1903448	geraniol biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_17447	geraniol

@@ -47,8 +47,8 @@ This pattern is for classes representing types of negative regulation differenti
 | defined_class | defined_class_label | entity | entity_label |
 |:--|:--|:--|:--|
 | [http://purl.obolibrary.org/obo/GO_0002085](http://purl.obolibrary.org/obo/GO_0002085) | inhibition of neuroepithelial cell differentiation | [http://purl.obolibrary.org/obo/GO_0060563](http://purl.obolibrary.org/obo/GO_0060563) | neuroepithelial cell differentiation |
+| [http://purl.obolibrary.org/obo/GO_0170075](http://purl.obolibrary.org/obo/GO_0170075) | negative regluation of nuclear-transribed mRNA catabolic process, no-go decay | [http://purl.obolibrary.org/obo/GO_0070966](http://purl.obolibrary.org/obo/GO_0070966) | nuclear-transcribed mRNA catabolic process, no-go decay |
 | [http://purl.obolibrary.org/obo/GO_0140540](http://purl.obolibrary.org/obo/GO_0140540) | negative regulation melanotic encapsulation of foreign target | [http://purl.obolibrary.org/obo/GO_0035011](http://purl.obolibrary.org/obo/GO_0035011) | melanotic encapsulation of foreign target |
 | [http://purl.obolibrary.org/obo/GO_1905013](http://purl.obolibrary.org/obo/GO_1905013) | negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan | [http://purl.obolibrary.org/obo/GO_0034354](http://purl.obolibrary.org/obo/GO_0034354) | 'de novo' NAD+ biosynthetic process from L-tryptophan |
 | [http://purl.obolibrary.org/obo/GO_1900693](http://purl.obolibrary.org/obo/GO_1900693) | negative regulation of (+)-kotanin biosynthetic process | [http://purl.obolibrary.org/obo/GO_1900596](http://purl.obolibrary.org/obo/GO_1900596) | (+)-kotanin biosynthetic process |
-| [http://purl.obolibrary.org/obo/GO_0060636](http://purl.obolibrary.org/obo/GO_0060636) | negative regulation of (1->3)-beta-D-glucan biosynthetic process | [http://purl.obolibrary.org/obo/GO_0006075](http://purl.obolibrary.org/obo/GO_0006075) | (1->3)-beta-D-glucan biosynthetic process |
 
