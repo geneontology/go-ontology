@@ -61,6 +61,7 @@ http://purl.obolibrary.org/obo/GO_0052645	F420-0 metabolic process	http://purl.o
 http://purl.obolibrary.org/obo/GO_0046443	FAD metabolic process	http://purl.obolibrary.org/obo/CHEBI_57692	FAD(3-)
 http://purl.obolibrary.org/obo/GO_0006746	FADH2 metabolic process	http://purl.obolibrary.org/obo/CHEBI_58307	FADH2(2-)
 http://purl.obolibrary.org/obo/GO_0046444	FMN metabolic process	http://purl.obolibrary.org/obo/CHEBI_58210	FMN(3-)
+http://purl.obolibrary.org/obo/GO_0009448	GABA metabolic process	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046710	GDP metabolic process	http://purl.obolibrary.org/obo/CHEBI_58189	GDP(3-)
 http://purl.obolibrary.org/obo/GO_0046368	GDP-L-fucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_57984	GDP-L-fucose(2-)
 http://purl.obolibrary.org/obo/GO_0019673	GDP-mannose metabolic process	http://purl.obolibrary.org/obo/CHEBI_57527	GDP-alpha-D-mannose(2-)
@@ -338,7 +339,6 @@ http://purl.obolibrary.org/obo/GO_0006012	galactose metabolic process	http://pur
 http://purl.obolibrary.org/obo/GO_0006681	galactosylceramide metabolic process	http://purl.obolibrary.org/obo/CHEBI_36498	galactosylceramide
 http://purl.obolibrary.org/obo/GO_0010393	galacturonan metabolic process	http://purl.obolibrary.org/obo/CHEBI_24174	galacturonan
 http://purl.obolibrary.org/obo/GO_0018919	gamma-1,2,3,4,5,6-hexachlorocyclohexane metabolic process	http://purl.obolibrary.org/obo/CHEBI_32888	gamma-hexachlorocyclohexane
-http://purl.obolibrary.org/obo/GO_0009448	gamma-aminobutyric acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_59888	gamma-aminobutyric acid zwitterion
 http://purl.obolibrary.org/obo/GO_0001573	ganglioside metabolic process	http://purl.obolibrary.org/obo/CHEBI_28892	ganglioside
 http://purl.obolibrary.org/obo/GO_1901128	gentamycin metabolic process	http://purl.obolibrary.org/obo/CHEBI_17833	gentamycin
 http://purl.obolibrary.org/obo/GO_0033383	geranyl diphosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58057	geranyl diphosphate(3-)
