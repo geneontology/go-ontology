@@ -380,7 +380,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061708>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061794>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070097>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070342>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070485>))
@@ -3709,13 +3708,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obo
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0070097> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0070097> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
 DisjointClasses(<http://purl.obolibrary.org/obo/GO_0070097> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))
-
-# Class: <http://purl.obolibrary.org/obo/GO_0070189> (<http://purl.obolibrary.org/obo/GO_0070189>)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002161> <http://purl.obolibrary.org/obo/GO_0070189> <http://purl.obolibrary.org/obo/NCBITaxon_4896>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0070189> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4896>)))
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0070189> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_4896>)))
-DisjointClasses(<http://purl.obolibrary.org/obo/GO_0070189> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4896>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0070193> (<http://purl.obolibrary.org/obo/GO_0070193>)
 
