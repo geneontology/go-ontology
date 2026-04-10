@@ -3,9 +3,20 @@ name: research
 description: Use the /research skill when performing background research from the literature or the web to create a RESEARCH.md file; also covers use of `deep-research-client`
 ---
 
+## Context
+
 You can use normal web search tools to find relevant literature. You can also use trusted encyclopedic sources such
-as wikipedia but it's good to follow up with the publications themselves. All research must be summarized in a file RESEARCH.md
-(not committed).
+as wikipedia but it's good to follow up with the publications themselves. All research must be summarized in a file RESEARCH.md.
+This file is NOT to be committed, however, it MUST be communicated back appropriately to the user.
+
+Remember, most of the time you are likely to be running in a GitHub actions context, when triggered from an issue (via a `@dragon-ai-agent` invocation). If this is the case, the RESEARCH.md contents
+should be copied onto the issue comments. Otherwise, the user has no way of seeing the RESEARCH.md file, as it disappears alongside the temporary github actions workspace.
+
+This is especially true if the user asks you explicitly to research a topic  - they want to see the full report! Even if you make the RESEARCH.md as part of a broader task, it is good to post the contents.
+
+You can editorialize if need be
+
+## When to invoke
 
 Use this appropriately. If the request is to fix a typo in a synonym or definition, there is no need to do research (write as N/A in any checklists). Similarly if the request pertains to a trivial compositional term then research is not required. But if there is any nuanced biology involved, it is good to do the appropriate level of research.
 
@@ -24,7 +35,14 @@ For detailed searches, you can do deep research queries:
 deep-research-client research --provider perplexity "<DETAILED RESEARCH QUESTION HERE>" --output results.md --separate-citations citations.md
 ```
 
-This will take around 5 minutes or so
+This will take around 5 minutes or so.
+
+If the user wants to do more extensive research, or if perplexity credits are exhaustive, then use the `cyberian` provider:
+
+
+```
+deep-research-client research --provider cyberian ....
+```
 
 ## Caching PMIDs and DOIs
 
@@ -74,5 +92,9 @@ In some cases, if a full text is not available and support cannot be found in th
     - finding 1
     - finding 2
     - ...
+
+## What to at the end of the research phase
+
+Remember that if the user is communicating with you via github action they will not see the RESEARCH.md file
 
 On completion, this skill should produce a complete RESEARCH.md, with no fabricated results.
