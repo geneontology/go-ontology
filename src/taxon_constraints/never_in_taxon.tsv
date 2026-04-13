@@ -748,3 +748,5 @@ GO:0030202	heparin proteoglycan metabolic process	NCBITaxon:4751	Fungi
 GO:0030202	heparin proteoglycan metabolic process	NCBITaxon:6656	Arthropoda	
 GO:0042339	keratan sulfate proteoglycan metabolic proces	NCBITaxon:4751	Fungi	
 GO:0042339	keratan sulfate proteoglycan metabolic proces	NCBITaxon:6656	Arthropoda	
+GO:0061678	Entner-Doudoroff pathway	NCBITaxon:4751	Fungi	PMID:27114545
+GO:0061678	Entner-Doudoroff pathway	NCBITaxon:33208	Metazoa	PMID:27114545
