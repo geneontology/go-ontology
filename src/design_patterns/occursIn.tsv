@@ -5,7 +5,6 @@ http://purl.obolibrary.org/obo/GO_0002421	B cell antigen processing and presenta
 http://purl.obolibrary.org/obo/GO_0001783	B cell apoptotic process	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0006915	apoptotic process
 http://purl.obolibrary.org/obo/GO_0050853	B cell receptor signaling pathway	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0050851	antigen receptor-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0002514	B cell tolerance induction	http://purl.obolibrary.org/obo/CL_0000236	B cell	http://purl.obolibrary.org/obo/GO_0002507	tolerance induction
-http://purl.obolibrary.org/obo/GO_1904381	Golgi apparatus mannose trimming	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0036508	protein alpha-1,2-demannosylation
 http://purl.obolibrary.org/obo/GO_0032468	Golgi calcium ion homeostasis	http://purl.obolibrary.org/obo/GO_0005794	Golgi apparatus	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
 http://purl.obolibrary.org/obo/GO_0086017	Purkinje myocyte action potential	http://purl.obolibrary.org/obo/CL_0002068	Purkinje myocyte	http://purl.obolibrary.org/obo/GO_0001508	action potential
 http://purl.obolibrary.org/obo/GO_0086015	SA node cell action potential	http://purl.obolibrary.org/obo/CL_1000409	myocyte of sinoatrial node	http://purl.obolibrary.org/obo/GO_0001508	action potential
@@ -22,7 +21,7 @@ http://purl.obolibrary.org/obo/GO_0099624	atrial cardiac muscle cell membrane re
 http://purl.obolibrary.org/obo/GO_0032291	axon ensheathment in central nervous system	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system	http://purl.obolibrary.org/obo/GO_0008366	axon ensheathment
 http://purl.obolibrary.org/obo/GO_0099124	axonal dopamine secretion	http://purl.obolibrary.org/obo/GO_0030424	axon	http://purl.obolibrary.org/obo/GO_0014046	dopamine secretion
 http://purl.obolibrary.org/obo/GO_0060404	axonemal microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0005930	axoneme	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization
-http://purl.obolibrary.org/obo/GO_0036386	bacterial nucleoid packaging	http://purl.obolibrary.org/obo/GO_0043590	bacterial nucleoid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
+http://purl.obolibrary.org/obo/GO_0036386	bacterial nucleoid DNA packaging	http://purl.obolibrary.org/obo/GO_0043590	bacterial nucleoid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
 http://purl.obolibrary.org/obo/GO_0002561	basophil degranulation	http://purl.obolibrary.org/obo/CL_0000767	basophil	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_0097497	blood vessel endothelial cell delamination	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell	http://purl.obolibrary.org/obo/GO_0060232	delamination
 http://purl.obolibrary.org/obo/GO_0030709	border follicle cell delamination	http://purl.obolibrary.org/obo/CL_0000579	border follicle cell	http://purl.obolibrary.org/obo/GO_0060232	delamination
@@ -110,7 +109,6 @@ http://purl.obolibrary.org/obo/GO_0010450	inflorescence meristem growth	http://p
 http://purl.obolibrary.org/obo/GO_0002227	innate immune response in mucosa	http://purl.obolibrary.org/obo/UBERON_0000344	mucosa	http://purl.obolibrary.org/obo/GO_0045087	innate immune response
 http://purl.obolibrary.org/obo/GO_0044258	intestinal lipid catabolic process	http://purl.obolibrary.org/obo/UBERON_0000160	intestine	http://purl.obolibrary.org/obo/GO_0016042	lipid catabolic process
 http://purl.obolibrary.org/obo/GO_0032367	intracellular cholesterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0030301	cholesterol transport
-http://purl.obolibrary.org/obo/GO_0015859	intracellular nucleoside transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport
 http://purl.obolibrary.org/obo/GO_0035556	intracellular signal transduction	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0007165	signal transduction
 http://purl.obolibrary.org/obo/GO_0032366	intracellular sterol transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0015918	sterol transport
 http://purl.obolibrary.org/obo/GO_0046907	intracellular transport	http://purl.obolibrary.org/obo/GO_0005622	intracellular anatomical structure	http://purl.obolibrary.org/obo/GO_0006810	transport
@@ -166,7 +164,6 @@ http://purl.obolibrary.org/obo/GO_0070146	mitochondrial aspartyl-tRNA aminoacyla
 http://purl.obolibrary.org/obo/GO_0051560	mitochondrial calcium ion homeostasis	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0055074	calcium ion homeostasis
 http://purl.obolibrary.org/obo/GO_0090139	mitochondrial chromosome packaging	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
 http://purl.obolibrary.org/obo/GO_0070147	mitochondrial cysteinyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006423	cysteinyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0033617	mitochondrial cytochrome c oxidase assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly
 http://purl.obolibrary.org/obo/GO_0051882	mitochondrial depolarization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0051899	membrane depolarization
 http://purl.obolibrary.org/obo/GO_0140053	mitochondrial gene expression	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0010467	gene expression
 http://purl.obolibrary.org/obo/GO_0070148	mitochondrial glutaminyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006425	glutaminyl-tRNA aminoacylation
@@ -182,15 +179,14 @@ http://purl.obolibrary.org/obo/GO_0080156	mitochondrial mRNA modification	http:/
 http://purl.obolibrary.org/obo/GO_0090615	mitochondrial mRNA processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
 http://purl.obolibrary.org/obo/GO_0007006	mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0061024	membrane organization
 http://purl.obolibrary.org/obo/GO_0070155	mitochondrial methionyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006431	methionyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0090144	mitochondrial nucleoid organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0090143	nucleoid organization
 http://purl.obolibrary.org/obo/GO_0070156	mitochondrial phenylalanyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006432	phenylalanyl-tRNA aminoacylation
-http://purl.obolibrary.org/obo/GO_0140040	mitochondrial polycistronic RNA processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0031426	polycistronic mRNA processing
 http://purl.obolibrary.org/obo/GO_0070157	mitochondrial prolyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006433	prolyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0035694	mitochondrial protein catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030163	protein catabolic process
 http://purl.obolibrary.org/obo/GO_0034982	mitochondrial protein processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016485	protein processing
 http://purl.obolibrary.org/obo/GO_0033615	mitochondrial proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_0034553	mitochondrial respiratory chain complex II assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0034552	respiratory chain complex II assembly
 http://purl.obolibrary.org/obo/GO_0034551	mitochondrial respiratory chain complex III assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly
+http://purl.obolibrary.org/obo/GO_0033617	mitochondrial respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly
 http://purl.obolibrary.org/obo/GO_0070158	mitochondrial seryl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006434	seryl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_1990180	mitochondrial tRNA 3'-end processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0042780	tRNA 3'-end processing
 http://purl.obolibrary.org/obo/GO_0070901	mitochondrial tRNA methylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030488	tRNA methylation

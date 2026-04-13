@@ -1,0 +1,11 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT ?term
+WHERE {
+  { ?termIRI a owl:AnnotationProperty }
+  UNION
+  { ?termIRI a owl:DatatypeProperty }
+  UNION
+  { ?termIRI a owl:ObjectProperty }
+  FILTER(isIRI(?termIRI))
+  BIND(STR(?termIRI) AS ?term)
+}

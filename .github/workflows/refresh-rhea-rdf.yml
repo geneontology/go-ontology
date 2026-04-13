@@ -1,0 +1,27 @@
+name: Refresh Rhea RDF data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Refresh Rhea RDF data
+        run: cd src/ontology && rm ../resources/rhea.rdf.gz && make ../resources/rhea.rdf.gz && cd ../..
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: Refresh Rhea RDF data
+          branch: refresh-rhea-rdf
+          add-paths: |
+            src/resources/rhea.rdf.gz
+          token: ${{ secrets.PR_ACTION_TOKEN }}

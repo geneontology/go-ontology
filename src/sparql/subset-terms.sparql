@@ -1,0 +1,9 @@
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+SELECT ?term ?subset
+WHERE {
+  ?termIRI oio:inSubset ?subsetIRI .
+  FILTER(isIRI(?termIRI))
+  FILTER(isIRI(?subsetIRI))
+  BIND(STR(?termIRI) AS ?term)
+  BIND(REPLACE(STR(?subsetIRI), "http://purl.obolibrary.org/obo/go#", "") AS ?subset)
+}

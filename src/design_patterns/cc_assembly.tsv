@@ -82,7 +82,6 @@ http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0070726	cell wall assembly	http://purl.obolibrary.org/obo/GO_0005618	cell wall
 http://purl.obolibrary.org/obo/GO_0044575	cellulosome assembly	http://purl.obolibrary.org/obo/GO_0043263	cellulosome
 http://purl.obolibrary.org/obo/GO_0098534	centriole assembly	http://purl.obolibrary.org/obo/GO_0005814	centriole
-http://purl.obolibrary.org/obo/GO_0034508	centromere complex assembly	http://purl.obolibrary.org/obo/GO_0000775	chromosome, centromeric region
 http://purl.obolibrary.org/obo/GO_1904763	chaperone-mediated autophagy translocation complex assembly	http://purl.obolibrary.org/obo/GO_0061742	chaperone-mediated autophagy translocation complex
 http://purl.obolibrary.org/obo/GO_0051026	chiasma assembly	http://purl.obolibrary.org/obo/GO_0005712	chiasma
 http://purl.obolibrary.org/obo/GO_0034378	chylomicron assembly	http://purl.obolibrary.org/obo/GO_0042627	chylomicron
@@ -126,7 +125,7 @@ http://purl.obolibrary.org/obo/GO_0048041	focal adhesion assembly	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0001732	formation of cytoplasmic translation initiation complex	http://purl.obolibrary.org/obo/GO_0070992	translation initiation complex
 http://purl.obolibrary.org/obo/GO_0001325	formation of extrachromosomal circular DNA	http://purl.obolibrary.org/obo/GO_0005727	extrachromosomal circular DNA
 http://purl.obolibrary.org/obo/GO_0001677	formation of translation initiation ternary complex	http://purl.obolibrary.org/obo/GO_0044207	translation initiation ternary complex
-http://purl.obolibrary.org/obo/GO_0001731	formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0070993	translation preinitiation complex
+http://purl.obolibrary.org/obo/GO_0001731	formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0070993	cytosolic translation preinitiation complex
 http://purl.obolibrary.org/obo/GO_0070649	formin-nucleated actin cable assembly	http://purl.obolibrary.org/obo/GO_0070648	formin-nucleated actin cable
 http://purl.obolibrary.org/obo/GO_0071940	fungal-type cell wall assembly	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
 http://purl.obolibrary.org/obo/GO_1902481	gamma-tubulin complex assembly	http://purl.obolibrary.org/obo/GO_0000930	gamma-tubulin complex
@@ -139,6 +138,7 @@ http://purl.obolibrary.org/obo/GO_0034380	high-density lipoprotein particle asse
 http://purl.obolibrary.org/obo/GO_0036118	hyaluranon cable assembly	http://purl.obolibrary.org/obo/GO_0036117	hyaluranon cable
 http://purl.obolibrary.org/obo/GO_0070841	inclusion body assembly	http://purl.obolibrary.org/obo/GO_0016234	inclusion body
 http://purl.obolibrary.org/obo/GO_0036159	inner dynein arm assembly	http://purl.obolibrary.org/obo/GO_0036156	inner dynein arm
+http://purl.obolibrary.org/obo/GO_0160234	integrator complex assembly	http://purl.obolibrary.org/obo/GO_0032039	integrator complex
 http://purl.obolibrary.org/obo/GO_0033622	integrin activation	http://purl.obolibrary.org/obo/GO_0008305	integrin complex
 http://purl.obolibrary.org/obo/GO_0031024	interphase microtubule organizing center assembly	http://purl.obolibrary.org/obo/GO_0031021	interphase microtubule organizing center
 http://purl.obolibrary.org/obo/GO_1905861	intranuclear rod assembly	http://purl.obolibrary.org/obo/GO_0061836	intranuclear rod
@@ -152,7 +152,6 @@ http://purl.obolibrary.org/obo/GO_0060988	lipid tube assembly	http://purl.obolib
 http://purl.obolibrary.org/obo/GO_0110105	mRNA cleavage and polyadenylation specificity factor complex assembly	http://purl.obolibrary.org/obo/GO_0005847	mRNA cleavage and polyadenylation specificity factor complex
 http://purl.obolibrary.org/obo/GO_0035039	male pronucleus assembly	http://purl.obolibrary.org/obo/GO_0001940	male pronucleus
 http://purl.obolibrary.org/obo/GO_1905198	manchette assembly	http://purl.obolibrary.org/obo/GO_0002177	manchette
-http://purl.obolibrary.org/obo/GO_1904600	mating projection actin fusion focus assembly	http://purl.obolibrary.org/obo/GO_1990819	mating projection actin fusion focus
 http://purl.obolibrary.org/obo/GO_0031382	mating projection formation	http://purl.obolibrary.org/obo/GO_0005937	mating projection
 http://purl.obolibrary.org/obo/GO_0032130	medial membrane band assembly	http://purl.obolibrary.org/obo/GO_0032178	medial membrane band
 http://purl.obolibrary.org/obo/GO_0036034	mediator complex assembly	http://purl.obolibrary.org/obo/GO_0016592	mediator complex
@@ -243,6 +242,7 @@ http://purl.obolibrary.org/obo/GO_0036060	slit diaphragm assembly	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0000491	small nucleolar ribonucleoprotein complex assembly	http://purl.obolibrary.org/obo/GO_0005732	sno(s)RNA-containing ribonucleoprotein complex
 http://purl.obolibrary.org/obo/GO_0034462	small-subunit processome assembly	http://purl.obolibrary.org/obo/GO_0032040	small-subunit processome
 http://purl.obolibrary.org/obo/GO_0090528	smooth septate junction assembly	http://purl.obolibrary.org/obo/GO_0005920	smooth septate junction
+http://purl.obolibrary.org/obo/GO_0160293	sodium-translocating NADH-quinone reductase complex assembly	http://purl.obolibrary.org/obo/GO_0160292	sodium-translocating NADH:quinone reductase complex
 http://purl.obolibrary.org/obo/GO_0051225	spindle assembly	http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/GO_0051255	spindle midzone assembly	http://purl.obolibrary.org/obo/GO_0051233	spindle midzone
 http://purl.obolibrary.org/obo/GO_0030474	spindle pole body duplication	http://purl.obolibrary.org/obo/GO_0005816	spindle pole body

@@ -1,0 +1,33 @@
+pattern_name: transmembrane transport
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/transmembrane_transport.yaml
+
+description: This pattern is for representing transmembrane transport, differentiated by the type of cargo.
+
+classes:
+  transmembrane transport: 'GO:0055085'
+  chemical entity: 'CHEBI:24431'
+
+relations: 
+  has primary input: 'RO:0004009'
+
+vars:
+  cargo: "'chemical entity'"
+
+name:
+  text: "%s transmembrane transport"
+  vars:
+    - 'cargo'
+
+def:
+  text: "The process in which a %s is transported across a membrane."
+  vars:
+    - 'cargo'
+
+namespace: 
+  text: 'biological_process'
+  
+equivalentTo:
+  text: "'transmembrane transport' and ('has primary input' some %s)"
+  vars:
+    - 'cargo'

@@ -1,69 +1,78 @@
 format-version: 1.2
-data-version: go/releases/2024-08-14/imports/oba_import.owl
+data-version: go/releases/2025-01-23/imports/oba_import.owl
 ontology: go/imports/oba_import
 
 [Term]
 id: OBA:0000001
 name: biological attribute
+namespace: oba
 
 [Term]
 id: OBA:0000006
 name: Malpighian tubule diameter
-def: "The diameter of a Malpighian tubule." []
-synonym: "diameter of Malpighian tubule" EXACT []
+namespace: oba
+def: "The diameter of a Malpighian tubule." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of Malpighian tubule" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000007 ! Malpighian tubule size
 is_a: OBA:0000171 ! tube diameter
 
 [Term]
 id: OBA:0000007
 name: Malpighian tubule size
-def: "The size of a Malpighian tubule." []
-synonym: "size of Malpighian tubule" EXACT []
+namespace: oba
+def: "The size of a Malpighian tubule." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of Malpighian tubule" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000172 ! tube size
 is_a: OBA:VT0000516 ! urinary system morphology trait
 
 [Term]
 id: OBA:0000009
 name: RNA stability
-def: "The macromolecular stability of a RNA." []
-synonym: "macromolecular stability of RNA" EXACT []
+namespace: oba
+def: "The macromolecular stability of a RNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of RNA" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0001001 ! macromolecular stability
 
 [Term]
 id: OBA:0000011
 name: actin filament length
-def: "The length of a actin filament." []
-synonym: "length of actin filament" EXACT []
+namespace: oba
+def: "The length of a actin filament." [AUTO:patterns/patterns/entity_attribute]
+synonym: "length of actin filament" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000013 ! cytoskeleton morphology
 
 [Term]
 id: OBA:0000015
 name: anatomical structure size
-def: "The size of a anatomical structure." []
-synonym: "size of anatomical structure" EXACT []
+namespace: oba
+def: "The size of a anatomical structure." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of anatomical structure" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:0000016
 name: angiotensin levels in blood
-def: "The amount of a angiotensin II when measured in blood." []
-synonym: "blood angiotensin II amount" EXACT []
+namespace: oba
+def: "The amount of a angiotensin II when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "blood angiotensin II amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000079 ! hormone levels
 is_a: OBA:VT0005416 ! blood protein amount
 
 [Term]
 id: OBA:0000018
 name: appetite
-def: "The quality of a hunger motivation behavior." []
-synonym: "quality of hunger motivation behavior" EXACT []
+namespace: oba
+def: "The quality of a hunger motivation behavior." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of hunger motivation behavior" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000369 ! behavior process quality
 
 [Term]
 id: OBA:0000022
 name: autophagic vacuole size
-def: "The size of a autophagosome." []
-synonym: "size of autophagosome" EXACT []
+namespace: oba
+def: "The size of a autophagosome." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of autophagosome" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:1001065 ! cell morphology trait
@@ -71,140 +80,159 @@ is_a: OBA:1001065 ! cell morphology trait
 [Term]
 id: OBA:0000023
 name: axon diameter
-def: "The diameter of a axon." []
-synonym: "diameter of axon" EXACT []
+namespace: oba
+def: "The diameter of a axon." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of axon" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0003797 ! axon size
 
 [Term]
 id: OBA:0000032
 name: blood vessel size
-def: "The size of a blood vessel." []
-synonym: "size of blood vessel" EXACT []
+namespace: oba
+def: "The size of a blood vessel." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of blood vessel" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000172 ! tube size
 is_a: OBA:VT0001614 ! blood vessel morphology trait
 
 [Term]
 id: OBA:0000036
 name: body fluid levels
-def: "The volume of a bodily fluid." []
-synonym: "volume of bodily fluid" EXACT []
+namespace: oba
+def: "The volume of a bodily fluid." [AUTO:patterns/patterns/entity_attribute]
+synonym: "volume of bodily fluid" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:2045412 ! anatomical entity morphology
 is_a: OBA:2045431 ! body fluid attribute
 
 [Term]
 id: OBA:0000037
+namespace: oba
 is_obsolete: true
 replaced_by: PATO:0000276
 
 [Term]
 id: OBA:0000040
 name: calcium ion concentration
-def: "The concentration of of a calcium ion." []
-synonym: "concentration of of calcium ion" EXACT []
-is_a: OBA:0100004 ! chemical entity attribute
+namespace: oba
+def: "The concentration of of a calcium ion." [AUTO:patterns/patterns/entity_attribute]
+synonym: "concentration of of calcium ion" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:1000940 ! monoatomic ion amount
 
 [Term]
 id: OBA:0000046
 name: cardiac muscle cell membrane potential
-def: "The membrane potential trait of a cardiac muscle cell." []
-synonym: "membrane potential trait of cardiac muscle cell" EXACT []
+namespace: oba
+def: "The membrane potential trait of a cardiac muscle cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "membrane potential trait of cardiac muscle cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000099 ! membrane potential trait
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000048
 name: cell diameter
-def: "The diameter of a cell." []
-synonym: "diameter of cell" EXACT []
+namespace: oba
+def: "The diameter of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000055 ! cell size
 
 [Term]
 id: OBA:0000050
+namespace: oba
 is_obsolete: true
 replaced_by: OBA:0000058
 
 [Term]
 id: OBA:0000051
 name: cell projection size
-def: "The size of a cell projection." []
-synonym: "size of cell projection" EXACT []
+namespace: oba
+def: "The size of a cell projection." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of cell projection" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:0000052
 name: cell shape
-def: "The shape of a cell." []
-synonym: "shape of cell" EXACT []
+namespace: oba
+def: "The shape of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "shape of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1001065 ! cell morphology trait
 is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:0000055
 name: cell size
-def: "The size of a cell." []
-synonym: "size of cell" EXACT []
+namespace: oba
+def: "The size of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:0000056
 name: cell volume
-def: "The volume of a cell." []
-synonym: "volume of cell" EXACT []
+namespace: oba
+def: "The volume of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "volume of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000055 ! cell size
 
 [Term]
 id: OBA:0000057
 name: cellular component size
-def: "The size of a cellular_component." []
-synonym: "size of cellular_component" EXACT []
+namespace: oba
+def: "The size of a cellular_component." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of cellular_component" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:0100001 ! cellular component attribute
 
 [Term]
 id: OBA:0000058
 name: cellular pH
-def: "The acidity when measured in cell." []
-synonym: "cell acidity" EXACT []
+namespace: oba
+def: "The acidity when measured in cell." [AUTO:patterns/patterns/attribute_location]
+synonym: "cell acidity" EXACT [AUTO:patterns/patterns/attribute_location]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000061
 name: circulating fibrinogen levels
-def: "The amount of a fibrinogen complex." []
-synonym: "amount of fibrinogen complex" EXACT []
+namespace: oba
+def: "The amount of a fibrinogen complex." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of fibrinogen complex" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0000066
 name: direction of cell growth
-def: "The direction of a cell growth." []
-synonym: "direction of cell growth" EXACT []
+namespace: oba
+def: "The direction of a cell growth." [AUTO:patterns/patterns/entity_attribute]
+synonym: "direction of cell growth" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000052 ! cell shape
 is_a: OBA:VT0100007 ! growth trait
 
 [Term]
 id: OBA:0000067
 name: embryonic cell shape
-def: "The shape of a embryonic cell (metazoa)." []
-synonym: "shape of embryonic cell (metazoa)" EXACT []
+namespace: oba
+def: "The shape of a embryonic cell (metazoa)." [AUTO:patterns/patterns/entity_attribute]
+synonym: "shape of embryonic cell (metazoa)" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000052 ! cell shape
 
 [Term]
 id: OBA:0000068
 name: endosome size
-def: "The size of a endosome." []
-synonym: "size of endosome" EXACT []
+namespace: oba
+def: "The size of a endosome." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of endosome" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000014 ! endomembrane system morphology
 is_a: OBA:1000142 ! vesicle size
 
 [Term]
 id: OBA:0000072
 name: follicle cell microvillus length
-def: "The microvillus length of a follicle cell of egg chamber." []
-synonym: "microvillus length of follicle cell of egg chamber" EXACT []
+namespace: oba
+def: "The microvillus length of a follicle cell of egg chamber." [AUTO:patterns/patterns/entity_attribute]
+synonym: "microvillus length of follicle cell of egg chamber" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000102 ! microvillus length
 is_a: OBA:2040145 ! cell length
 is_a: OBA:VT0001126 ! ovary morphology trait
@@ -212,90 +240,103 @@ is_a: OBA:VT0001126 ! ovary morphology trait
 [Term]
 id: OBA:0000079
 name: hormone levels
-def: "The amount of hormone." []
-synonym: "amount of hormone" EXACT []
+namespace: oba
+def: "The amount of hormone." [AUTO:patterns/patterns/chemical_role_attribute]
+comment: TODO - unify levels vs amount
+synonym: "amount of hormone" EXACT [AUTO:patterns/patterns/chemical_role_attribute]
 is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000084
 name: imaginal disc-derived wing size
-def: "The size of a imaginal disc-derived wing." []
-synonym: "size of imaginal disc-derived wing" EXACT []
+namespace: oba
+def: "The size of a imaginal disc-derived wing." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of imaginal disc-derived wing" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:VT0015071 ! appendage morphology trait
 
 [Term]
 id: OBA:0000089
 name: long-term neuronal synaptic plasticity
+namespace: oba
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
 id: OBA:0000090
 name: lung blood pressure
-def: "The pressure of a blood when measured in lung." []
-synonym: "lung blood pressure" EXACT []
+namespace: oba
+def: "The pressure of a blood when measured in lung." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "lung blood pressure" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:VT0000183 ! blood pressure trait
 is_a: OBA:VT0015059 ! thorax trait
 
 [Term]
 id: OBA:0000091
 name: lysosomal lumen pH
-def: "The acidity when measured in lysosomal lumen." []
-synonym: "lysosomal lumen acidity" EXACT []
+namespace: oba
+def: "The acidity when measured in lysosomal lumen." [AUTO:patterns/patterns/attribute_location]
+synonym: "lysosomal lumen acidity" EXACT [AUTO:patterns/patterns/attribute_location]
 is_a: OBA:1000076 ! attribute of cell
 is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0000092
 name: lysosomal membrane permeability
-def: "The permeability of a lysosomal membrane." []
-synonym: "permeability of lysosomal membrane" EXACT []
+namespace: oba
+def: "The permeability of a lysosomal membrane." [AUTO:patterns/patterns/entity_attribute]
+synonym: "permeability of lysosomal membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0004122 ! lysosome morphology
 is_a: OBA:1000028 ! membrane permeability
 
 [Term]
 id: OBA:0000093
 name: mRNA stability
-def: "The macromolecular stability of a mRNA." []
-synonym: "macromolecular stability of mRNA" EXACT []
+namespace: oba
+def: "The macromolecular stability of a mRNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of mRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000009 ! RNA stability
 is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000098
 name: membrane lipid distribution
-def: "The spatial pattern of a lipid when measured in membrane." []
-synonym: "membrane lipid spatial pattern" EXACT []
+namespace: oba
+def: "The spatial pattern of a lipid when measured in membrane." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "membrane lipid spatial pattern" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0100004 ! chemical entity attribute
 is_a: OBA:1000091 ! membrane morphology
 
 [Term]
 id: OBA:0000099
 name: membrane potential trait
-def: "The electric potential of a membrane." []
-synonym: "electric potential of membrane" EXACT []
+namespace: oba
+def: "The electric potential of a membrane." [AUTO:patterns/patterns/entity_attribute]
+synonym: "electric potential of membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000090 ! membrane quality
 
 [Term]
 id: OBA:0000101
 name: metanephric kidney size
-def: "The size of a metanephros." []
-synonym: "size of metanephros" EXACT []
+namespace: oba
+def: "The size of a metanephros." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of metanephros" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0005425 ! metanephros morphology
 is_a: OBA:VT0002706 ! kidney size trait
 
 [Term]
 id: OBA:0000102
 name: microvillus length
-def: "The length of a microvillus." []
-synonym: "length of microvillus" EXACT []
+namespace: oba
+def: "The length of a microvillus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "length of microvillus" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000051 ! cell projection size
 
 [Term]
 id: OBA:0000103
 name: mitochondrial mRNA stability
-def: "The macromolecular stability of a mRNA when measured in mitochondrion." []
-synonym: "mitochondrion mRNA macromolecular stability" EXACT []
+namespace: oba
+def: "The macromolecular stability of a mRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "mitochondrion mRNA macromolecular stability" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000093 ! mRNA stability
 is_a: OBA:1000076 ! attribute of cell
 is_a: OBA:1000078 ! attribute of organelle
@@ -303,16 +344,18 @@ is_a: OBA:1000078 ! attribute of organelle
 [Term]
 id: OBA:0000104
 name: mitochondrial membrane permeability
-def: "The permeability of a mitochondrial membrane." []
-synonym: "permeability of mitochondrial membrane" EXACT []
+namespace: oba
+def: "The permeability of a mitochondrial membrane." [AUTO:patterns/patterns/entity_attribute]
+synonym: "permeability of mitochondrial membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0002821 ! mitochondrion morphology
 is_a: OBA:1000028 ! membrane permeability
 
 [Term]
 id: OBA:0000105
 name: mitochondrial membrane potential
-def: "The membrane potential of a mitochondrial membrane." []
-synonym: "membrane potential of mitochondrial membrane" EXACT []
+namespace: oba
+def: "The membrane potential of a mitochondrial membrane." [AUTO:patterns/patterns/entity_attribute]
+synonym: "membrane potential of mitochondrial membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000099 ! membrane potential trait
 is_a: OBA:1000076 ! attribute of cell
 is_a: OBA:1000078 ! attribute of organelle
@@ -320,39 +363,36 @@ is_a: OBA:1000078 ! attribute of organelle
 [Term]
 id: OBA:0000106
 name: mitochondrial rRNA stability
-def: "The macromolecular stability of a rRNA when measured in mitochondrion." []
-synonym: "mitochondrion rRNA macromolecular stability" EXACT []
+namespace: oba
+def: "The macromolecular stability of a rRNA when measured in mitochondrion." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "mitochondrion rRNA macromolecular stability" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000129 ! rRNA stability
 is_a: OBA:1000076 ! attribute of cell
 is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
-id: OBA:0000107
-name: multivesicular body size
-def: "The size of a multivesicular body." []
-synonym: "size of multivesicular body" EXACT []
-is_a: OBA:0000068 ! endosome size
-
-[Term]
 id: OBA:0000110
 name: muscle filament sliding speed
-def: "The speed of a muscle filament sliding." []
-synonym: "speed of muscle filament sliding" EXACT []
+namespace: oba
+def: "The speed of a muscle filament sliding." [AUTO:patterns/patterns/entity_attribute]
+synonym: "speed of muscle filament sliding" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:0000112
 name: myofibril number
-def: "The amount of a myofibril." []
-synonym: "amount of myofibril" EXACT []
+namespace: oba
+def: "The amount of a myofibril." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of myofibril" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000076 ! attribute of cell
 is_a: OBA:1000078 ! attribute of organelle
 
 [Term]
 id: OBA:0000113
 name: myofibril size
-def: "The size of a myofibril." []
-synonym: "size of myofibril" EXACT []
+namespace: oba
+def: "The size of a myofibril." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of myofibril" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:VT0004087 ! muscle cell morphology trait
@@ -360,123 +400,144 @@ is_a: OBA:VT0004087 ! muscle cell morphology trait
 [Term]
 id: OBA:0000114
 name: neuronal synaptic plasticity
-def: "The synaptic plasticity of a neuron." []
-synonym: "synaptic plasticity of neuron" EXACT []
+namespace: oba
+def: "The synaptic plasticity of a neuron." [AUTO:patterns/patterns/entity_attribute]
+synonym: "synaptic plasticity of neuron" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000141 ! synaptic plasticity
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:0000117
 name: nuclear size
-def: "The size of a nucleus." []
-synonym: "size of nucleus" EXACT []
+namespace: oba
+def: "The size of a nucleus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of nucleus" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000019 ! nucleus morphology
 
 [Term]
 id: OBA:0000122
 name: peroxisome size
-def: "The size of a peroxisome." []
-synonym: "size of peroxisome" EXACT []
+namespace: oba
+def: "The size of a peroxisome." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of peroxisome" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:0005997 ! peroxisome morphology
 
 [Term]
 id: OBA:0000123
 name: plasma membrane sterol distribution
-def: "The spatial pattern of a sterol when measured in plasma membrane." []
-synonym: "plasma membrane sterol spatial pattern" EXACT []
+namespace: oba
+def: "The spatial pattern of a sterol when measured in plasma membrane." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "plasma membrane sterol spatial pattern" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000098 ! membrane lipid distribution
 is_a: OBA:1000089 ! plasma membrane morphology
 
 [Term]
 id: OBA:0000124
 name: post-lysosomal vacuole size
-def: "The size of a post-lysosomal vacuole." []
-synonym: "size of post-lysosomal vacuole" EXACT []
+namespace: oba
+def: "The size of a post-lysosomal vacuole." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of post-lysosomal vacuole" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000142 ! vesicle size
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:0000127
 name: pronephric kidney size
-def: "The size of a pronephros." []
-synonym: "size of pronephros" EXACT []
+namespace: oba
+def: "The size of a pronephros." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of pronephros" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:VT0002706 ! kidney size trait
 
 [Term]
 id: OBA:0000128
 name: protein stability
-def: "The macromolecular stability of a protein." []
-synonym: "macromolecular stability of protein" EXACT []
+namespace: oba
+def: "The macromolecular stability of a protein." [AUTO:patterns/patterns/entity_attribute]
+comment: See http://code.google.com/p/pato/issues/detail?id=1
+synonym: "macromolecular stability of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0001001 ! macromolecular stability
 is_a: OBA:0100005 ! protein attribute
 
 [Term]
 id: OBA:0000129
 name: rRNA stability
-def: "The macromolecular stability of a rRNA." []
-synonym: "macromolecular stability of rRNA" EXACT []
+namespace: oba
+def: "The macromolecular stability of a rRNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of rRNA" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0001001 ! macromolecular stability
 is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:0000134
 name: resting membrane potential
+namespace: oba
 is_a: OBA:0000099 ! membrane potential trait
 
 [Term]
 id: OBA:0000136
 name: short-term neuronal synaptic plasticity
+namespace: oba
 is_a: OBA:0000114 ! neuronal synaptic plasticity
 
 [Term]
 id: OBA:0000139
 name: synapse structure and activity
-def: "The quality of a synapse." []
-synonym: "quality of synapse" EXACT []
+namespace: oba
+def: "The quality of a synapse." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of synapse" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:0000140
 name: synaptic metaplasticity
+namespace: oba
+comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000141 ! synaptic plasticity
 
 [Term]
 id: OBA:0000141
 name: synaptic plasticity
+namespace: oba
+comment: http://code.google.com/p/pato/issues/detail?id=2
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000143
 name: systemic arterial blood pressure
-def: "The pressure of a blood when measured in systemic artery." []
-synonym: "systemic artery blood pressure" EXACT []
+namespace: oba
+def: "The pressure of a blood when measured in systemic artery." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "systemic artery blood pressure" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:1000554 ! systemic arterial system quality
 is_a: OBA:VT0000183 ! blood pressure trait
 
 [Term]
 id: OBA:0000160
 name: thalamus size
-def: "The size of a dorsal plus ventral thalamus." []
-synonym: "size of dorsal plus ventral thalamus" EXACT []
+namespace: oba
+def: "The size of a dorsal plus ventral thalamus." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of dorsal plus ventral thalamus" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:VT0000832 ! thalamus morphology trait
 
 [Term]
 id: OBA:0000161
 name: force of heart contraction
-def: "The force of a heart contraction." []
-synonym: "force of heart contraction" EXACT []
+namespace: oba
+def: "The force of a heart contraction." [AUTO:patterns/patterns/entity_attribute]
+synonym: "force of heart contraction" EXACT [AUTO:patterns/patterns/entity_attribute]
 synonym: "the force of heart contraction" EXACT []
 is_a: OBA:1000258 ! blood circulation quality
 
 [Term]
 id: OBA:0000164
 name: velocity of shortening of skeletal muscle modulating contraction
-def: "The speed of a skeletal muscle contraction." []
-synonym: "speed of skeletal muscle contraction" EXACT []
+namespace: oba
+def: "The speed of a skeletal muscle contraction." [AUTO:patterns/patterns/entity_attribute]
+comment: check this
+synonym: "speed of skeletal muscle contraction" EXACT [AUTO:patterns/patterns/entity_attribute]
 synonym: "the velocity of shortening of skeletal muscle modulating contraction" EXACT []
 synonym: "velocity of shortening of skeletal muscle" RELATED []
 is_a: OBA:1000727 ! multicellular organismal movement quality
@@ -484,534 +545,645 @@ is_a: OBA:1000727 ! multicellular organismal movement quality
 [Term]
 id: OBA:0000166
 name: tracheal tube diameter
-def: "The diameter of a respiratory tube." []
-synonym: "diameter of respiratory tube" EXACT []
+namespace: oba
+def: "The diameter of a respiratory tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of respiratory tube" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000168 ! tracheal tube size
 is_a: OBA:0000171 ! tube diameter
 
 [Term]
 id: OBA:0000167
 name: tracheal tube length
-def: "The length of a respiratory tube." []
-synonym: "length of respiratory tube" EXACT []
+namespace: oba
+def: "The length of a respiratory tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "length of respiratory tube" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000168 ! tracheal tube size
 
 [Term]
 id: OBA:0000168
 name: tracheal tube size
-def: "The size of a respiratory tube." []
-synonym: "size of respiratory tube" EXACT []
+namespace: oba
+def: "The size of a respiratory tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of respiratory tube" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000172 ! tube size
 is_a: OBA:VT0004391 ! respiratory conducting tube morphology trait
 
 [Term]
 id: OBA:0000169
 name: translational accuracy
-def: "The functionality of a translation." []
-synonym: "functionality of translation" EXACT []
-synonym: "translational fidelity" EXACT []
+namespace: oba
+def: "The functionality of a translation." [AUTO:patterns/patterns/entity_attribute]
+synonym: "functionality of translation" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "translational fidelity" EXACT [GO:0006450]
 is_a: OBA:VT0002121 ! metabolism trait
 
 [Term]
 id: OBA:0000171
 name: tube diameter
-def: "The diameter of a tube." []
-synonym: "diameter of tube" EXACT []
+namespace: oba
+def: "The diameter of a tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of tube" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000172 ! tube size
 
 [Term]
 id: OBA:0000172
 name: tube size
-def: "The size of a tube." []
-synonym: "size of tube" EXACT []
+namespace: oba
+def: "The size of a tube." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of tube" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000015 ! anatomical structure size
 
 [Term]
 id: OBA:0000173
 name: urinary volume
-def: "The volume of a urine." []
-synonym: "volume of urine" EXACT []
+namespace: oba
+def: "The volume of a urine." [AUTO:patterns/patterns/entity_attribute]
+synonym: "volume of urine" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000036 ! body fluid levels
 is_a: OBA:VT0000056 ! urine trait
 
 [Term]
 id: OBA:0000174
 name: vascular permeability
-def: "The permeability of a vessel." []
-synonym: "permeability of vessel" EXACT []
+namespace: oba
+def: "The permeability of a vessel." [AUTO:patterns/patterns/entity_attribute]
+synonym: "permeability of vessel" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:2045412 ! anatomical entity morphology
 
 [Term]
 id: OBA:0000181
 name: viral protein levels
+namespace: oba
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0000183
 name: blood vessel diameter
-def: "The diameter of a blood vessel." []
-synonym: "diameter of blood vessel" EXACT []
+namespace: oba
+def: "The diameter of a blood vessel." [AUTO:patterns/patterns/entity_attribute]
+synonym: "diameter of blood vessel" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000032 ! blood vessel size
 is_a: OBA:0000171 ! tube diameter
 
 [Term]
 id: OBA:0001001
 name: macromolecular stability
+namespace: oba
+comment: See http://code.google.com/p/pato/issues/detail?id=1
 is_a: OBA:0000001 ! biological attribute
 
 [Term]
 id: OBA:0002821
 name: mitochondrion morphology
-def: "The morphology of a mitochondrion." []
-synonym: "morphology of mitochondrion" EXACT []
+namespace: oba
+def: "The morphology of a mitochondrion." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of mitochondrion" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:0003797
 name: axon size
-def: "The size of a axon." []
-synonym: "size of axon" EXACT []
+namespace: oba
+def: "The size of a axon." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of axon" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000051 ! cell projection size
 is_a: OBA:VT0005404 ! axon morphology trait
 
 [Term]
 id: OBA:0004122
 name: lysosome morphology
-def: "The morphology of a lysosome." []
-synonym: "morphology of lysosome" EXACT []
+namespace: oba
+def: "The morphology of a lysosome." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of lysosome" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:0004650
 name: female reproductive organ morphology
-def: "The morphology of a female reproductive organ." []
-synonym: "morphology of female reproductive organ" EXACT []
+namespace: oba
+def: "The morphology of a female reproductive organ." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of female reproductive organ" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0001119 ! female reproductive system morphology trait
 
 [Term]
 id: OBA:0005425
 name: metanephros morphology
-def: "The morphology of a metanephros." []
-synonym: "morphology of metanephros" EXACT []
+namespace: oba
+def: "The morphology of a metanephros." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of metanephros" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0002135 ! kidney morphology trait
 
 [Term]
 id: OBA:0005997
 name: peroxisome morphology
-def: "The morphology of a peroxisome." []
-synonym: "morphology of peroxisome" EXACT []
+namespace: oba
+def: "The morphology of a peroxisome." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of peroxisome" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:0006038
 name: concentration of of calcium ion in cytosol
-def: "The concentration of of a calcium ion when measured in cytosol." []
-synonym: "cytosol calcium ion concentration of" EXACT []
+namespace: oba
+def: "The concentration of of a calcium ion when measured in cytosol." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "cytosol calcium ion concentration of" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0000040 ! calcium ion concentration
 is_a: OBA:1000077 ! attribute of cytosol
 
 [Term]
 id: OBA:0007000
 name: DNA stability
-def: "The macromolecular stability of a DNA." []
-synonym: "macromolecular stability of DNA" EXACT []
+namespace: oba
+def: "The macromolecular stability of a DNA." [AUTO:patterns/patterns/entity_attribute]
+synonym: "macromolecular stability of DNA" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0001001 ! macromolecular stability
 
 [Term]
 id: OBA:0100001
 name: cellular component attribute
-def: "The quality of a cellular_component." []
-synonym: "quality of cellular_component" EXACT []
-is_a: OBA:0000001 ! biological attribute
+namespace: oba
+def: "The quality of a cellular_component." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of cellular_component" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100002
 name: biological process attribute
-def: "The quality of a biological process." []
-synonym: "quality of biological process" EXACT []
-is_a: OBA:0000001 ! biological attribute
+namespace: oba
+def: "The quality of a biological process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of biological process" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100003
 name: anatomical entity attribute
-def: "The quality of a anatomical entity." []
-synonym: "quality of anatomical entity" EXACT []
-is_a: OBA:0000001 ! biological attribute
+namespace: oba
+def: "The quality of a anatomical entity." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of anatomical entity" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100004
 name: chemical entity attribute
-def: "The quality of a chemical entity." []
-synonym: "quality of chemical entity" EXACT []
-is_a: OBA:0000001 ! biological attribute
+namespace: oba
+def: "The quality of a chemical entity." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of chemical entity" EXACT [obo:oba/patterns/entity_attribute_part_of]
+is_a: OBA:0000001 {is_asserted="true"} ! biological attribute
 
 [Term]
 id: OBA:0100005
 name: protein attribute
-def: "The quality of a protein." []
-synonym: "quality of protein" EXACT []
+namespace: oba
+def: "The quality of a protein." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of protein" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1000013
 name: cytoskeleton morphology
-def: "The morphology of a cytoskeleton." []
-synonym: "cytoskeleton morphology trait" EXACT []
-synonym: "morphology of cytoskeleton" EXACT []
+namespace: oba
+def: "The morphology of a cytoskeleton." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "cytoskeleton morphology trait" EXACT [GOC:TermGenie]
+synonym: "morphology of cytoskeleton" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:1001065 ! cell morphology trait
+created_by: cjmungall
+creation_date: 2013-05-15T05:53:18Z
 
 [Term]
 id: OBA:1000014
 name: endomembrane system morphology
-def: "The morphology of a endomembrane system." []
-synonym: "endomembrane system morphology trait" EXACT []
-synonym: "morphology of endomembrane system" EXACT []
+namespace: oba
+def: "The morphology of a endomembrane system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "endomembrane system morphology trait" EXACT [GOC:TermGenie]
+synonym: "morphology of endomembrane system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:1001065 ! cell morphology trait
+created_by: cjmungall
+creation_date: 2013-05-15T05:53:21Z
 
 [Term]
 id: OBA:1000019
 name: nucleus morphology
-def: "The morphology of a nucleus." []
-synonym: "morphology of nucleus" EXACT []
-synonym: "nucleus morphology trait" EXACT []
+namespace: oba
+def: "The morphology of a nucleus." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of nucleus" EXACT [obo:oba/patterns/entity_attribute_part_of]
+synonym: "nucleus morphology trait" EXACT [GOC:TermGenie]
 is_a: OBA:1000078 ! attribute of organelle
 is_a: OBA:1001065 ! cell morphology trait
+created_by: cjmungall
+creation_date: 2013-05-15T05:56:08Z
 
 [Term]
 id: OBA:1000028
 name: membrane permeability
-def: "The permeability of a membrane." []
-synonym: "membrane permeability trait" EXACT []
-synonym: "permeability of membrane" EXACT []
+namespace: oba
+def: "The permeability of a membrane." [AUTO:patterns/patterns/entity_attribute]
+synonym: "membrane permeability trait" EXACT [GOC:TermGenie]
+synonym: "permeability of membrane" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000091 ! membrane morphology
 is_a: OBA:2045412 ! anatomical entity morphology
+created_by: cjmungall
+creation_date: 2013-06-11T07:21:47Z
 
 [Term]
 id: OBA:1000035
 name: lens of camera-type eye opacity
-def: "The opacity of a lens of camera-type eye." []
-synonym: "lens of camera-type eye opacity trait" EXACT []
+namespace: oba
+def: "The opacity of a lens of camera-type eye." [AUTO:patterns/patterns/entity_attribute]
+synonym: "lens of camera-type eye opacity trait" EXACT [GOC:TermGenie]
 synonym: "lens opacity" BROAD []
 synonym: "lens transparency" BROAD []
-synonym: "opacity of lens of camera-type eye" EXACT []
+synonym: "opacity of lens of camera-type eye" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000227 ! lens of camera-type eye quality
+created_by: cjmungall
+creation_date: 2013-09-25T23:32:06Z
 
 [Term]
 id: OBA:1000076
 name: attribute of cell
-def: "The quality of a cell." []
-synonym: "cell quality trait" EXACT []
-synonym: "quality of cell" EXACT []
+namespace: oba
+def: "The quality of a cell." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "cell quality trait" EXACT [GOC:TermGenie]
+synonym: "quality of cell" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
+created_by: cjmungall
+creation_date: 2014-06-04T19:24:06Z
 
 [Term]
 id: OBA:1000077
 name: attribute of cytosol
-def: "The quality of a cytosol." []
-synonym: "cytosol quality trait" EXACT []
-synonym: "quality of cytosol" EXACT []
+namespace: oba
+def: "The quality of a cytosol." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "cytosol quality trait" EXACT [GOC:TermGenie]
+synonym: "quality of cytosol" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:1000076 ! attribute of cell
+created_by: cjmungall
+creation_date: 2014-06-04T19:24:09Z
 
 [Term]
 id: OBA:1000078
 name: attribute of organelle
-def: "The quality of a organelle." []
-synonym: "organelle quality trait" EXACT []
-synonym: "quality of organelle" EXACT []
+namespace: oba
+def: "The quality of a organelle." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "organelle quality trait" EXACT [GOC:TermGenie]
+synonym: "quality of organelle" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:0100003 ! anatomical entity attribute
+created_by: cjmungall
+creation_date: 2014-06-04T19:24:13Z
 
 [Term]
 id: OBA:1000088
 name: plasma membrane quality
-def: "The quality of a plasma membrane." []
-synonym: "plasma membrane quality trait" EXACT []
-synonym: "quality of plasma membrane" EXACT []
+namespace: oba
+def: "The quality of a plasma membrane." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "plasma membrane quality trait" EXACT [GOC:TermGenie]
+synonym: "quality of plasma membrane" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000090 ! membrane quality
+created_by: cjmungall
+creation_date: 2014-06-06T16:11:34Z
 
 [Term]
 id: OBA:1000089
 name: plasma membrane morphology
-def: "The morphology of a plasma membrane." []
-synonym: "morphology of plasma membrane" EXACT []
-synonym: "plasma membrane morphology trait" EXACT []
+namespace: oba
+def: "The morphology of a plasma membrane." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of plasma membrane" EXACT [obo:oba/patterns/entity_attribute_part_of]
+synonym: "plasma membrane morphology trait" EXACT [GOC:TermGenie]
 is_a: OBA:1000088 ! plasma membrane quality
 is_a: OBA:1000091 ! membrane morphology
+created_by: cjmungall
+creation_date: 2014-06-06T16:11:38Z
 
 [Term]
 id: OBA:1000090
 name: membrane quality
-def: "The quality of a membrane." []
-synonym: "membrane quality trait" EXACT []
-synonym: "quality of membrane" EXACT []
+namespace: oba
+def: "The quality of a membrane." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "membrane quality trait" EXACT [GOC:TermGenie]
+synonym: "quality of membrane" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:0100003 ! anatomical entity attribute
+created_by: cjmungall
+creation_date: 2014-06-06T16:11:41Z
 
 [Term]
 id: OBA:1000091
 name: membrane morphology
-def: "The morphology of a membrane." []
-synonym: "membrane morphology trait" EXACT []
-synonym: "morphology of membrane" EXACT []
+namespace: oba
+def: "The morphology of a membrane." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "membrane morphology trait" EXACT [GOC:TermGenie]
+synonym: "morphology of membrane" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000090 ! membrane quality
+created_by: cjmungall
+creation_date: 2014-06-06T16:11:45Z
 
 [Term]
 id: OBA:1000099
 name: appendage trait
-def: "The quality of a appendage." []
-synonym: "appendage quality trait" EXACT []
-synonym: "quality of appendage" EXACT []
+namespace: oba
+def: "The quality of a appendage." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "appendage quality trait" EXACT [GOC:TermGenie]
+synonym: "quality of appendage" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0100003 ! organism subdivision trait
+created_by: cjmungall
+creation_date: 2014-07-07T02:17:51Z
 
 [Term]
 id: OBA:1000142
 name: vesicle size
-def: "The size of a vesicle." []
-synonym: "size of vesicle" EXACT []
-synonym: "vesicle size trait" EXACT []
+namespace: oba
+def: "The size of a vesicle." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of vesicle" EXACT [AUTO:patterns/patterns/entity_attribute]
+synonym: "vesicle size trait" EXACT [GOC:TermGenie]
 is_a: OBA:0000057 ! cellular component size
 is_a: OBA:1000078 ! attribute of organelle
+created_by: cjmungall
+creation_date: 2015-04-14T22:09:46Z
 
 [Term]
 id: OBA:1000213
 name: female reproductive system quality
-def: "The quality of a female reproductive system." []
-synonym: "quality of female reproductive system" EXACT []
+namespace: oba
+def: "The quality of a female reproductive system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of female reproductive system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000227
 name: lens of camera-type eye quality
-def: "The quality of a lens of camera-type eye." []
-synonym: "quality of lens of camera-type eye" EXACT []
+namespace: oba
+def: "The quality of a lens of camera-type eye." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of lens of camera-type eye" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000390 ! anterior segment of eyeball quality
 
 [Term]
 id: OBA:1000258
 name: blood circulation quality
-def: "The quality of a blood circulation." []
-synonym: "quality of blood circulation" EXACT []
+namespace: oba
+def: "The quality of a blood circulation." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of blood circulation" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:1000282
 name: upper urinary tract quality
-def: "The quality of a upper urinary tract." []
-synonym: "quality of upper urinary tract" EXACT []
+namespace: oba
+def: "The quality of a upper urinary tract." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of upper urinary tract" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000369
 name: behavior process quality
-def: "The quality of a behavior process." []
-synonym: "quality of behavior process" EXACT []
+namespace: oba
+def: "The quality of a behavior process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of behavior process" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0010442 ! behavior trait
 
 [Term]
 id: OBA:1000390
 name: anterior segment of eyeball quality
-def: "The quality of a anterior segment of eyeball." []
-synonym: "quality of anterior segment of eyeball" EXACT []
+namespace: oba
+def: "The quality of a anterior segment of eyeball." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of anterior segment of eyeball" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000608 ! eyeball of camera-type eye quality
 
 [Term]
 id: OBA:1000412
 name: diencephalon quality
-def: "The quality of a diencephalon." []
-synonym: "quality of diencephalon" EXACT []
+namespace: oba
+def: "The quality of a diencephalon." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of diencephalon" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000545
 name: ovary quality
-def: "The quality of a ovary." []
-synonym: "quality of ovary" EXACT []
+namespace: oba
+def: "The quality of a ovary." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of ovary" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000213 ! female reproductive system quality
 
 [Term]
 id: OBA:1000554
 name: systemic arterial system quality
-def: "The quality of a systemic arterial system." []
-synonym: "quality of systemic arterial system" EXACT []
+namespace: oba
+def: "The quality of a systemic arterial system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of systemic arterial system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000608
 name: eyeball of camera-type eye quality
-def: "The quality of a eyeball of camera-type eye." []
-synonym: "quality of eyeball of camera-type eye" EXACT []
+namespace: oba
+def: "The quality of a eyeball of camera-type eye." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of eyeball of camera-type eye" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0005382 ! head trait
 
 [Term]
 id: OBA:1000617
 name: hematopoietic system quality
-def: "The quality of a hematopoietic system." []
-synonym: "quality of hematopoietic system" EXACT []
+namespace: oba
+def: "The quality of a hematopoietic system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of hematopoietic system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:1000625
 name: abdomen quality
-def: "The quality of a abdomen." []
-synonym: "quality of abdomen" EXACT []
+namespace: oba
+def: "The quality of a abdomen." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of abdomen" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0100003 ! organism subdivision trait
 
 [Term]
 id: OBA:1000727
 name: multicellular organismal movement quality
-def: "The quality of a multicellular organismal movement." []
-synonym: "quality of multicellular organismal movement" EXACT []
+namespace: oba
+def: "The quality of a multicellular organismal movement." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of multicellular organismal movement" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100002 ! biological process attribute
+
+[Term]
+id: OBA:1000940
+name: monoatomic ion amount
+namespace: oba
+def: "The amount of a monoatomic ion." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of monoatomic ion" EXACT [AUTO:patterns/patterns/entity_attribute]
+is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1000947
 name: nitrogen molecular entity amount
-def: "The amount of a nitrogen molecular entity." []
-synonym: "amount of nitrogen molecular entity" EXACT []
+namespace: oba
+def: "The amount of a nitrogen molecular entity." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of nitrogen molecular entity" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100004 ! chemical entity attribute
 
 [Term]
 id: OBA:1001065
 name: cell morphology trait
-def: "The morphology of a cell." []
-synonym: "morphology of cell" EXACT []
+namespace: oba
+def: "The morphology of a cell." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of cell" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000076 ! attribute of cell
 
 [Term]
 id: OBA:1001087
 name: heart rate
-def: "The rate of a heart contraction." []
-synonym: "rate of heart contraction" EXACT []
+namespace: oba
+def: "The rate of a heart contraction." [AUTO:patterns/patterns/entity_attribute]
+synonym: "rate of heart contraction" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000258 ! blood circulation quality
 
 [Term]
 id: OBA:2020003
 name: chemical in blood amount
-def: "The amount of a chemical entity when measured in blood." []
-synonym: "blood chemical entity amount" EXACT []
+namespace: oba
+def: "The amount of a chemical entity when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "blood chemical entity amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:0100004 ! chemical entity attribute
 is_a: OBA:1000617 ! hematopoietic system quality
 
 [Term]
 id: OBA:2040145
 name: cell length
-def: "The length of a cell." []
-synonym: "length of cell" EXACT []
+namespace: oba
+def: "The length of a cell." [AUTO:patterns/patterns/entity_attribute]
+synonym: "length of cell" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000055 ! cell size
+property_value: terms:contributor "https://orcid.org/0000-0001-8314-2140" xsd:string
 
 [Term]
 id: OBA:2045412
 name: anatomical entity morphology
-def: "The morphology of a anatomical entity." []
-synonym: "morphology of anatomical entity" EXACT []
+namespace: oba
+def: "The morphology of a anatomical entity." [AUTO:patterns/patterns/entity_attribute]
+synonym: "morphology of anatomical entity" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
+property_value: terms:contributor "https://orcid.org/0000-0001-8314-2140" xsd:string
 
 [Term]
 id: OBA:2045431
 name: body fluid attribute
-def: "The quality of a bodily fluid." []
-synonym: "quality of bodily fluid" EXACT []
+namespace: oba
+def: "The quality of a bodily fluid." [AUTO:patterns/patterns/entity_attribute]
+synonym: "quality of bodily fluid" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100003 ! anatomical entity attribute
+property_value: terms:contributor "https://orcid.org/0000-0001-8314-2140" xsd:string
 
 [Term]
 id: OBA:VT0000056
 name: urine trait
-def: "The quality when measured in urine." []
-synonym: "urine quality" EXACT []
+namespace: oba
+def: "The quality when measured in urine." [AUTO:patterns/patterns/attribute_location]
+synonym: "urine quality" EXACT [AUTO:patterns/patterns/attribute_location]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0000183
 name: blood pressure trait
-def: "The pressure of a blood." []
-synonym: "pressure of blood" EXACT []
+namespace: oba
+def: "The pressure of a blood." [AUTO:patterns/patterns/entity_attribute]
+synonym: "pressure of blood" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:1000617 ! hematopoietic system quality
 is_a: OBA:2045431 ! body fluid attribute
 
 [Term]
 id: OBA:VT0000516
 name: urinary system morphology trait
-def: "The morphology of a renal system." []
-synonym: "morphology of renal system" EXACT []
+namespace: oba
+def: "The morphology of a renal system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of renal system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0000783
 name: forebrain morphology trait
-def: "The morphology of a forebrain." []
-synonym: "morphology of forebrain" EXACT []
+namespace: oba
+def: "The morphology of a forebrain." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of forebrain" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0002152 ! brain morphology trait
 
 [Term]
 id: OBA:VT0000830
 name: diencephalon morphology trait
-def: "The morphology of a diencephalon." []
-synonym: "morphology of diencephalon" EXACT []
+namespace: oba
+def: "The morphology of a diencephalon." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of diencephalon" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000412 ! diencephalon quality
 is_a: OBA:VT0000783 ! forebrain morphology trait
 
 [Term]
 id: OBA:VT0000832
 name: thalamus morphology trait
-def: "The morphology of a dorsal plus ventral thalamus." []
-synonym: "morphology of dorsal plus ventral thalamus" EXACT []
+namespace: oba
+def: "The morphology of a dorsal plus ventral thalamus." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of dorsal plus ventral thalamus" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0000830 ! diencephalon morphology trait
 
 [Term]
 id: OBA:VT0001119
 name: female reproductive system morphology trait
-def: "The morphology of a female reproductive system." []
-synonym: "morphology of female reproductive system" EXACT []
+namespace: oba
+def: "The morphology of a female reproductive system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of female reproductive system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000213 ! female reproductive system quality
 is_a: OBA:VT0002160 ! reproductive system morphology trait
 
 [Term]
 id: OBA:VT0001126
 name: ovary morphology trait
-def: "The morphology of a ovary." []
-synonym: "morphology of ovary" EXACT []
+namespace: oba
+def: "The morphology of a ovary." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of ovary" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0004650 ! female reproductive organ morphology
 is_a: OBA:1000545 ! ovary quality
 
 [Term]
 id: OBA:VT0001614
 name: blood vessel morphology trait
-def: "The morphology of a blood vessel." []
-synonym: "morphology of blood vessel" EXACT []
+namespace: oba
+def: "The morphology of a blood vessel." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of blood vessel" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0002127 ! cardiovascular system morphology trait
 
 [Term]
 id: OBA:VT0002121
 name: metabolism trait
-def: "The quality of a metabolic process." []
-synonym: "quality of metabolic process" EXACT []
+namespace: oba
+def: "The quality of a metabolic process." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of metabolic process" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:VT0002127
 name: cardiovascular system morphology trait
-def: "The morphology of a cardiovascular system." []
-synonym: "morphology of cardiovascular system" EXACT []
+namespace: oba
+def: "The morphology of a cardiovascular system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of cardiovascular system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0100016 ! circulatory system morphology trait
 
 [Term]
 id: OBA:VT0002132
 name: respiratory system morphology trait
-def: "The morphology of a respiratory system." []
-synonym: "morphology of respiratory system" EXACT []
+namespace: oba
+def: "The morphology of a respiratory system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of respiratory system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0002135
 name: kidney morphology trait
-def: "The morphology of a kidney." []
-synonym: "morphology of kidney" EXACT []
+namespace: oba
+def: "The morphology of a kidney." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of kidney" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000282 ! upper urinary tract quality
 is_a: OBA:1000625 ! abdomen quality
 is_a: OBA:VT0000516 ! urinary system morphology trait
@@ -1019,131 +1191,149 @@ is_a: OBA:VT0000516 ! urinary system morphology trait
 [Term]
 id: OBA:VT0002152
 name: brain morphology trait
-def: "The morphology of a brain." []
-synonym: "morphology of brain" EXACT []
+namespace: oba
+def: "The morphology of a brain." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of brain" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0003632 ! nervous system morphology trait
 
 [Term]
 id: OBA:VT0002160
 name: reproductive system morphology trait
-def: "The morphology of a reproductive system." []
-synonym: "morphology of reproductive system" EXACT []
+namespace: oba
+def: "The morphology of a reproductive system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of reproductive system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0002706
 name: kidney size trait
-def: "The size of a kidney." []
-synonym: "size of kidney" EXACT []
+namespace: oba
+def: "The size of a kidney." [AUTO:patterns/patterns/entity_attribute]
+synonym: "size of kidney" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0000015 ! anatomical structure size
 is_a: OBA:VT0002135 ! kidney morphology trait
 
 [Term]
 id: OBA:VT0002882
 name: neuron morphology trait
-def: "The morphology of a neuron." []
-synonym: "morphology of neuron" EXACT []
+namespace: oba
+def: "The morphology of a neuron." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of neuron" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1001065 ! cell morphology trait
 is_a: OBA:VT0003632 ! nervous system morphology trait
 
 [Term]
 id: OBA:VT0003632
 name: nervous system morphology trait
-def: "The morphology of a nervous system." []
-synonym: "morphology of nervous system" EXACT []
+namespace: oba
+def: "The morphology of a nervous system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of nervous system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0004087
 name: muscle cell morphology trait
-def: "The morphology of a muscle cell." []
-synonym: "morphology of muscle cell" EXACT []
+namespace: oba
+def: "The morphology of a muscle cell." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of muscle cell" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1001065 ! cell morphology trait
 
 [Term]
 id: OBA:VT0004391
 name: respiratory conducting tube morphology trait
-def: "The morphology of a respiratory tube." []
-synonym: "morphology of respiratory tube" EXACT []
+namespace: oba
+def: "The morphology of a respiratory tube." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of respiratory tube" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0002132 ! respiratory system morphology trait
 
 [Term]
 id: OBA:VT0005382
 name: head trait
-def: "The quality of a head." []
-synonym: "quality of head" EXACT []
+namespace: oba
+def: "The quality of a head." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of head" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0100003 ! organism subdivision trait
 
 [Term]
 id: OBA:VT0005404
 name: axon morphology trait
-def: "The morphology of a axon." []
-synonym: "morphology of axon" EXACT []
+namespace: oba
+def: "The morphology of a axon." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of axon" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0015108 ! neurite morphology trait
 
 [Term]
 id: OBA:VT0005416
 name: blood protein amount
-def: "The amount of a protein when measured in blood." []
-synonym: "blood protein amount" EXACT []
+namespace: oba
+def: "The amount of a protein when measured in blood." [AUTO:patterns/patterns/entity_attribute_location]
+synonym: "blood protein amount" EXACT [AUTO:patterns/patterns/entity_attribute_location]
 is_a: OBA:2020003 ! chemical in blood amount
 is_a: OBA:VT0010120 ! protein amount
 
 [Term]
 id: OBA:VT0010120
 name: protein amount
-def: "The amount of a protein." []
-synonym: "amount of protein" EXACT []
+namespace: oba
+def: "The amount of a protein." [AUTO:patterns/patterns/entity_attribute]
+synonym: "amount of protein" EXACT [AUTO:patterns/patterns/entity_attribute]
 is_a: OBA:0100005 ! protein attribute
 is_a: OBA:1000947 ! nitrogen molecular entity amount
 
 [Term]
 id: OBA:VT0010442
 name: behavior trait
-def: "The quality of a behavior." []
-synonym: "quality of behavior" EXACT []
+namespace: oba
+def: "The quality of a behavior." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of behavior" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:VT0015059
 name: thorax trait
-def: "The quality of a thoracic segment of trunk." []
-synonym: "quality of thoracic segment of trunk" EXACT []
+namespace: oba
+def: "The quality of a thoracic segment of trunk." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of thoracic segment of trunk" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:VT0100003 ! organism subdivision trait
 
 [Term]
 id: OBA:VT0015071
 name: appendage morphology trait
-def: "The morphology of a appendage." []
-synonym: "morphology of appendage" EXACT []
+namespace: oba
+def: "The morphology of a appendage." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of appendage" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:1000099 ! appendage trait
 
 [Term]
 id: OBA:VT0015108
 name: neurite morphology trait
-def: "The morphology of a neuron projection." []
-synonym: "morphology of neuron projection" EXACT []
+namespace: oba
+def: "The morphology of a neuron projection." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of neuron projection" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100001 ! cellular component attribute
 is_a: OBA:VT0002882 ! neuron morphology trait
 
 [Term]
 id: OBA:VT0100003
 name: organism subdivision trait
-def: "The quality of a organism subdivision." []
-synonym: "quality of organism subdivision" EXACT []
+namespace: oba
+def: "The quality of a organism subdivision." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of organism subdivision" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 
 [Term]
 id: OBA:VT0100007
 name: growth trait
-def: "The quality of a growth." []
-synonym: "quality of growth" EXACT []
+namespace: oba
+def: "The quality of a growth." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "quality of growth" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100002 ! biological process attribute
 
 [Term]
 id: OBA:VT0100016
 name: circulatory system morphology trait
-def: "The morphology of a circulatory system." []
-synonym: "morphology of circulatory system" EXACT []
+namespace: oba
+def: "The morphology of a circulatory system." [obo:oba/patterns/entity_attribute_part_of]
+synonym: "morphology of circulatory system" EXACT [obo:oba/patterns/entity_attribute_part_of]
 is_a: OBA:0100003 ! anatomical entity attribute
 

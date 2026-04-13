@@ -1,10 +1,10 @@
 # vesicle-mediated transport differentiated by start and end locations
 
-[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_from_to.yaml)
+[http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml](http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml)
 
 ## Description
 
-TODO
+This pattern is for representing vesicle-mediated transport, differentiated by the start and end locations.
 
 
 
@@ -13,8 +13,8 @@ TODO
 
 | Variable name | Allowed type |
 |:--------------|:-------------|
-| `{start location}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
-| `{end location}` | [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) |
+| `{start location}` | [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) |
+| `{end location}` | [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) |
 
 ## Name
 

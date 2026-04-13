@@ -35,7 +35,7 @@ http://purl.obolibrary.org/obo/GO_0030964	NADH dehydrogenase complex	http://purl
 http://purl.obolibrary.org/obo/GO_0043020	NADPH oxidase complex	http://purl.obolibrary.org/obo/GO_0016175	superoxide-generating NAD(P)H oxidase activity
 http://purl.obolibrary.org/obo/GO_0017146	NMDA selective glutamate receptor complex	http://purl.obolibrary.org/obo/GO_0004972	NMDA glutamate receptor activity
 http://purl.obolibrary.org/obo/GO_0036396	RNA N6-methyladenosine methyltransferase complex	http://purl.obolibrary.org/obo/GO_0008174	mRNA methyltransferase activity
-http://purl.obolibrary.org/obo/GO_0031379	RNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0003968	RNA-dependent RNA polymerase activity
+http://purl.obolibrary.org/obo/GO_0031379	RNA-directed RNA polymerase complex	http://purl.obolibrary.org/obo/GO_0003968	RNA-directed RNA polymerase activity
 http://purl.obolibrary.org/obo/GO_0005968	Rab-protein geranylgeranyltransferase complex	http://purl.obolibrary.org/obo/GO_0004663	Rab geranylgeranyltransferase activity
 http://purl.obolibrary.org/obo/GO_0031510	SUMO activating enzyme complex	http://purl.obolibrary.org/obo/GO_0019948	SUMO activating enzyme activity
 http://purl.obolibrary.org/obo/GO_0070622	UDP-N-acetylglucosamine-lysosomal-enzyme N-acetylglucosaminephosphotransferase complex	http://purl.obolibrary.org/obo/GO_0003976	UDP-N-acetylglucosamine-lysosomal-enzyme N-acetylglucosaminephosphotransferase activity
@@ -55,7 +55,6 @@ http://purl.obolibrary.org/obo/GO_0005950	anthranilate synthase complex	http://p
 http://purl.obolibrary.org/obo/GO_0009347	aspartate carbamoyltransferase complex	http://purl.obolibrary.org/obo/GO_0004070	aspartate carbamoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1905379	beta-N-acetylhexosaminidase complex	http://purl.obolibrary.org/obo/GO_0004563	beta-N-acetylhexosaminidase activity
 http://purl.obolibrary.org/obo/GO_0009341	beta-galactosidase complex	http://purl.obolibrary.org/obo/GO_0004565	beta-galactosidase activity
-http://purl.obolibrary.org/obo/GO_0160157	branched-chain alpha-ketoacid dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0047101	branched-chain alpha-keto acid dehydrogenase activity
 http://purl.obolibrary.org/obo/GO_1903439	calcitonin family receptor complex	http://purl.obolibrary.org/obo/GO_0097642	calcitonin family receptor activity
 http://purl.obolibrary.org/obo/GO_0034704	calcium channel complex	http://purl.obolibrary.org/obo/GO_0005262	calcium channel activity
 http://purl.obolibrary.org/obo/GO_0061993	calcium:proton antiporter complex	http://purl.obolibrary.org/obo/GO_0015369	calcium:proton antiporter activity
@@ -134,10 +133,7 @@ http://purl.obolibrary.org/obo/GO_0017023	myosin phosphatase complex	http://purl
 http://purl.obolibrary.org/obo/GO_0098878	neurotransmitter receptor complex	http://purl.obolibrary.org/obo/GO_0030594	neurotransmitter receptor activity
 http://purl.obolibrary.org/obo/GO_0009325	nitrate reductase complex	http://purl.obolibrary.org/obo/GO_0008940	nitrate reductase activity
 http://purl.obolibrary.org/obo/GO_1903958	nitric-oxide synthase complex	http://purl.obolibrary.org/obo/GO_0004517	nitric-oxide synthase activity
-http://purl.obolibrary.org/obo/GO_0005900	oncostatin-M receptor complex	http://purl.obolibrary.org/obo/GO_0004924	oncostatin-M receptor activity
 http://purl.obolibrary.org/obo/GO_1990204	oxidoreductase complex	http://purl.obolibrary.org/obo/GO_0016491	oxidoreductase activity
-http://purl.obolibrary.org/obo/GO_0160167	oxoadipate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0160166	2-oxoadipate dehydrogenase activity
-http://purl.obolibrary.org/obo/GO_0045252	oxoglutarate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0034602	oxoglutarate dehydrogenase (NAD+) activity
 http://purl.obolibrary.org/obo/GO_0002178	palmitoyltransferase complex	http://purl.obolibrary.org/obo/GO_0016409	palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1905368	peptidase complex	http://purl.obolibrary.org/obo/GO_0008233	peptidase activity
 http://purl.obolibrary.org/obo/GO_1904090	peptidase inhibitor complex	http://purl.obolibrary.org/obo/GO_0030414	peptidase inhibitor activity
@@ -167,9 +163,7 @@ http://purl.obolibrary.org/obo/GO_1904096	protein tyrosine phosphatase complex	h
 http://purl.obolibrary.org/obo/GO_1905961	protein-cysteine S-palmitoyltransferase complex	http://purl.obolibrary.org/obo/GO_0019706	protein-cysteine S-palmitoyltransferase activity
 http://purl.obolibrary.org/obo/GO_1902792	pyrroline-5-carboxylate reductase complex	http://purl.obolibrary.org/obo/GO_0004735	pyrroline-5-carboxylate reductase activity
 http://purl.obolibrary.org/obo/GO_0045253	pyruvate dehydrogenase (lipoamide) phosphatase complex	http://purl.obolibrary.org/obo/GO_0004741	[pyruvate dehydrogenase (acetyl-transferring)]-phosphatase activity
-http://purl.obolibrary.org/obo/GO_0045254	pyruvate dehydrogenase complex	http://purl.obolibrary.org/obo/GO_0034604	pyruvate dehydrogenase (NAD+) activity
 http://purl.obolibrary.org/obo/GO_1902912	pyruvate kinase complex	http://purl.obolibrary.org/obo/GO_0004743	pyruvate kinase activity
-http://purl.obolibrary.org/obo/GO_0043235	receptor complex	http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
 http://purl.obolibrary.org/obo/GO_0009349	riboflavin synthase complex	http://purl.obolibrary.org/obo/GO_0004746	riboflavin synthase activity
 http://purl.obolibrary.org/obo/GO_1903095	ribonuclease III complex	http://purl.obolibrary.org/obo/GO_0004525	ribonuclease III activity
 http://purl.obolibrary.org/obo/GO_0005971	ribonucleoside-diphosphate reductase complex	http://purl.obolibrary.org/obo/GO_0061731	ribonucleoside-diphosphate reductase activity
@@ -177,13 +171,14 @@ http://purl.obolibrary.org/obo/GO_0002189	ribose phosphate diphosphokinase compl
 http://purl.obolibrary.org/obo/GO_0048492	ribulose bisphosphate carboxylase complex	http://purl.obolibrary.org/obo/GO_0016984	ribulose-bisphosphate carboxylase activity
 http://purl.obolibrary.org/obo/GO_0032921	sarcosine oxidase complex	http://purl.obolibrary.org/obo/GO_0008115	sarcosine oxidase activity
 http://purl.obolibrary.org/obo/GO_0002116	semaphorin receptor complex	http://purl.obolibrary.org/obo/GO_0017154	semaphorin receptor activity
-http://purl.obolibrary.org/obo/GO_0005969	serine-pyruvate aminotransferase complex	http://purl.obolibrary.org/obo/GO_0004760	L-serine-pyruvate transaminase activity
+http://purl.obolibrary.org/obo/GO_0005969	serine-pyruvate aminotransferase complex	http://purl.obolibrary.org/obo/GO_0004760	L-serine:pyruvate transaminase activity
 http://purl.obolibrary.org/obo/GO_1905370	serine-type endopeptidase complex	http://purl.obolibrary.org/obo/GO_0004252	serine-type endopeptidase activity
 http://purl.obolibrary.org/obo/GO_1905286	serine-type peptidase complex	http://purl.obolibrary.org/obo/GO_0008236	serine-type peptidase activity
 http://purl.obolibrary.org/obo/GO_1902554	serine/threonine protein kinase complex	http://purl.obolibrary.org/obo/GO_0004674	protein serine/threonine kinase activity
 http://purl.obolibrary.org/obo/GO_0098665	serotonin receptor complex	http://purl.obolibrary.org/obo/GO_0099589	serotonin receptor activity
 http://purl.obolibrary.org/obo/GO_1904602	serotonin-activated cation-selective channel complex	http://purl.obolibrary.org/obo/GO_0022850	serotonin-gated monoatomic cation channel activity
 http://purl.obolibrary.org/obo/GO_1903865	sigma factor antagonist complex	http://purl.obolibrary.org/obo/GO_0016989	sigma factor antagonist activity
+http://purl.obolibrary.org/obo/GO_0043235	signaling receptor complex	http://purl.obolibrary.org/obo/GO_0038023	signaling receptor activity
 http://purl.obolibrary.org/obo/GO_1903114	silver ion transmembrane transporter complex	http://purl.obolibrary.org/obo/GO_0015080	silver ion transmembrane transporter activity
 http://purl.obolibrary.org/obo/GO_0017117	single-stranded DNA-dependent ATP-dependent DNA helicase complex	http://purl.obolibrary.org/obo/GO_0017116	single-stranded DNA helicase activity
 http://purl.obolibrary.org/obo/GO_0034706	sodium channel complex	http://purl.obolibrary.org/obo/GO_0005272	sodium channel activity

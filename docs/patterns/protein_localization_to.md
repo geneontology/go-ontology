@@ -21,9 +21,9 @@ TODO
 
 ## Annotations
 
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localization in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation to `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation to `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localisation in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "establishment of protein localization in `{target}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
@@ -31,7 +31,7 @@ TODO
 
 ## Equivalent to
 
-[protein localization](http://purl.obolibrary.org/obo/GO_0008104)  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some `{target}`)
+[intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104)  and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some `{target}`)
 
 
 

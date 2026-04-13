@@ -1,10 +1,10 @@
 // scala 2.13.3
 // ammonite 2.3.8
 
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.6`
+import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
 import $ivy.`org.phenoscape::scowl:1.3.4`
 import $ivy.`com.outr::scribe-slf4j:2.7.12`
-import $ivy.`org.obolibrary.robot:robot-core:1.8.1`
+import $ivy.`org.obolibrary.robot:robot-core:1.9.7`
 import $ivy.`org.apache.jena:jena-core:3.17.0`
 
 import java.io.FileInputStream

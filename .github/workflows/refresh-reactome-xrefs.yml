@@ -1,0 +1,33 @@
+name: Refresh xrefs from Reactome
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '17 4 * * 0'
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+      
+    - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+      
+    - name: Download latest xrefs from Reactome and refresh import
+      run: cd src/ontology && rm ../resources/Pathways2GoTerms_human.txt && rm ../resources/Reactions2GoTerms_human.txt && make imports/reactome_xrefs_import.owl && cd ../..
+    
+    - name: Create PR
+      uses: peter-evans/create-pull-request@v7
+      with:
+        title: Update Reactome xrefs
+        branch: refresh-reactome-xrefs
+        add-paths: |
+          src/resources/Pathways2GoTerms_human.txt
+          src/resources/Reactions2GoTerms_human.txt
+          src/ontology/imports/reactome_xrefs_import.owl
+        token: ${{ secrets.PR_ACTION_TOKEN }}

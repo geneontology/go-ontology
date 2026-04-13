@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
       run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
@@ -22,7 +22,7 @@ jobs:
       run: touch src/taxon_constraints/never_in_taxon.tsv src/taxon_constraints/only_in_taxon.tsv src/taxon_constraints/present_in_taxon.tsv && cd src/ontology && make imports/go_taxon_constraints.owl && cd ../..
     
     - name: Create PR
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         title: Update taxon constraints
         branch: update-taxon-constraints

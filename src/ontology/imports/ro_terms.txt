@@ -1,11 +1,11 @@
-http://purl.obolibrary.org/obo/BFO_0000050 ## part of
-http://purl.obolibrary.org/obo/BFO_0000051 ## has part
-http://purl.obolibrary.org/obo/BFO_0000066 ## occurs in
-http://purl.obolibrary.org/obo/BFO_0000141 ## immaterial entity
-http://purl.obolibrary.org/obo/BFO_0000023 ## role
-http://purl.obolibrary.org/obo/BFO_0000034 ## function
-http://purl.obolibrary.org/obo/CHEBI_50906 ## role
-http://purl.obolibrary.org/obo/RO_0002160
+BFO:0000050 ## part of
+BFO:0000051 ## has part
+BFO:0000066 ## occurs in
+BFO:0000141 ## immaterial entity
+BFO:0000023 ## role
+BFO:0000034 ## function
+CHEBI:50906 ## role
+RO:0002160
 RO:0002202
 RO:0002494
 RO:0002588
@@ -18,3 +18,11 @@ RO:0002013
 RO:0002233
 RO:0002019
 RO:0002025
+BFO:0000002 ## continuant
+BFO:0000003 ## occurrent
+BFO:0000004 ## independent continuant
+BFO:0000015 ## process
+BFO:0000019 ## quality
+BFO:0000020 ## specifically dependent continuant
+BFO:0000023 ## role
+BFO:0000040 ## material entity
