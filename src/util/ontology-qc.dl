@@ -8,6 +8,7 @@
 #define OWL_AXIOM "<http://www.w3.org/2002/07/owl#Axiom>"
 #define OWL_ANNOTATED_SOURCE "<http://www.w3.org/2002/07/owl#annotatedSource>"
 #define OWL_ANNOTATED_PROPERTY "<http://www.w3.org/2002/07/owl#annotatedProperty>"
+#define OWL_ANNOTATED_TARGET "<http://www.w3.org/2002/07/owl#annotatedTarget>"
 #define OWL_TRANSITIVE_PROPERTY "<http://www.w3.org/2002/07/owl#TransitiveProperty>"
 #define OIO_HAS_DB_XREF "<http://www.geneontology.org/formats/oboInOwl#hasDbXref>"
 #define OIO_HAS_EXACT_SYNONYM "<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>"
@@ -16,10 +17,12 @@
 #define OIO_HAS_BROAD_SYNONYM "<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>"
 #define OIO_SUBSET_PROPERTY "<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>"
 #define OIO_IN_SUBSET "<http://www.geneontology.org/formats/oboInOwl#inSubset>"
+#define OIO_SOURCE "<http://www.geneontology.org/formats/oboInOwl#source>"
 #define IAO_DEFINITION "<http://purl.obolibrary.org/obo/IAO_0000115>"
 
 .decl error(message: symbol)
 .decl ontrdf(s: symbol, p: symbol, o: symbol)
+.decl ontrdf_reasoned(s: symbol, p: symbol, o: symbol) // this is currently used just to get the inferred GO hierarchy
 .decl term(iri: symbol)
 .decl obsolete_term(iri: symbol)
 .decl valid_term(iri: symbol)
@@ -34,9 +37,18 @@
 .decl obsolete_ec(ec: symbol)
 .decl ec_xref(term: symbol, ref: symbol)
 .decl ec_defxref(term: symbol, ref: symbol)
+.decl rhea_xref(term: symbol, ref: symbol)
+.decl rhea_subclass_of_file(subclass: symbol, is_a: symbol, superclass: symbol)
+.decl rhea_subclass_of(subclass: symbol, superclass: symbol)
+.decl scoped_xref(term: symbol, ref: symbol, scope: symbol)
+.decl valid_rhea_subclass_xref(child: symbol, parent: symbol)
+.decl is_a(child: symbol, parent: symbol)
+.decl subclass_of(child: symbol, parent: symbol)
 
 .input ontrdf(filename="go-edit.facts")
+.input ontrdf_reasoned(filename="reasoned.facts")
 .input ec(filename="../resources/obsolete_ec.txt")
+.input rhea_subclass_of_file(filename="../resources/rhea-relationships.tsv")
 
 obsolete_ec(ec) :- ec(ec, obsolete), obsolete = "true".
 
@@ -53,11 +65,18 @@ obsolete_term(iri) :- term(iri), ontrdf(iri, OWL_DEPRECATED, "\"true\"^^<http://
 
 valid_term(iri) :- term(iri), !obsolete_term(iri).
 
+is_a(child, parent) :- ontrdf_reasoned(child, RDFS_SUBCLASS_OF, parent), term(child), term(parent).
+subclass_of(child, parent) :- is_a(child, parent).
+subclass_of(child, other) :- is_a(child, parent), subclass_of(parent, other).
+
 declared_subset(iri) :- ontrdf(iri, RDF_TYPE, OWL_ANNOTATION_PROPERTY), ontrdf(iri, RDFS_SUBPROPERTY_OF, OIO_SUBSET_PROPERTY).
 subset_assertion(term, subset) :- ontrdf(term, OIO_IN_SUBSET, subset).
 
+rhea_subclass_of(cat("\"RHEA:", c, "\""), cat("\"RHEA:", p, "\"")) :- rhea_subclass_of_file(c, _, p).
+
 xref(term, ref) :- ontrdf(term, OIO_HAS_DB_XREF, ref), term(term).
 ec_xref(term, ref) :- xref(term, ref), match("\"EC:.+\"", ref).
+rhea_xref(term, ref) :- xref(term, ref), match("\"RHEA:.+\"", ref).
 
 defxref(term, ref) :- 
     ontrdf(axiom, OWL_ANNOTATED_SOURCE, term),
@@ -73,6 +92,16 @@ synonym_xref(term, property, ref) :-
     synonym_property(property),
     ontrdf(axiom, OIO_HAS_DB_XREF, ref).
 
+scoped_xref(term, ref, scope) :-
+    ontrdf(axiom, OWL_ANNOTATED_SOURCE, term),
+    term(term),
+    ontrdf(axiom, OWL_ANNOTATED_PROPERTY, OIO_HAS_DB_XREF),
+    ontrdf(axiom, OWL_ANNOTATED_TARGET, ref),
+    ontrdf(axiom, OIO_SOURCE, scope).
+
+valid_rhea_subclass_xref(child, ref) :- rhea_xref(term, ref), rhea_subclass_of(child, ref), scoped_xref(term, child, "\"skos:narrowMatch\"").
+valid_rhea_subclass_xref(ref, parent) :- rhea_xref(childterm, ref), rhea_subclass_of(ref, parent), rhea_xref(parentterm, parent), subclass_of(childterm, parentterm).
+
 error(cat("ERROR: ", term, " has an xref to an obsolete EC: ", ec)) :- ec_xref(term, ec), valid_term(term), obsolete_ec(ec).
 error(cat("ERROR: ", term, " has an xref to an unknown EC: ", ec)) :- ec_xref(term, ec), valid_term(term), !ec(ec, _).
 error(cat("ERROR: ", term, " has a definition xref to an obsolete EC: ", ec)) :- ec_defxref(term, ec), valid_term(term), obsolete_ec(ec).
@@ -81,5 +110,6 @@ error(cat("ERROR: ", term, " has a synonym xref to an obsolete EC: ", ec)) :- sy
 error(cat("ERROR: ", term, " references an undeclared subset: ", subset)) :- subset_assertion(term, subset), !declared_subset(subset).
 error(cat("ERROR: empty literal value for ", s, " ", p)) :- triple_with_literal(s, p, o), match("\"\".*", o).
 error(cat("ERROR: ", term, " has a comment that seems to be a URI")) :- triple_with_literal(term, RDFS_COMMENT, o), match("\"http.*", o).
+error(cat("ERROR: ", term, " has a Rhea xref, ", ref, ", with child reaction, ", child, ", that is not a narrow xref or is an xref on a term that is not a subclass")) :- rhea_xref(term, ref), rhea_subclass_of(child, ref), rhea_xref(_, child), !valid_rhea_subclass_xref(child, ref).
 
 .output error(filename="datalog-violations.tsv")
