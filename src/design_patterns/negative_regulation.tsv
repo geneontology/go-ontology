@@ -111,7 +111,6 @@ http://purl.obolibrary.org/obo/GO_0043508	negative regulation of JUN kinase acti
 http://purl.obolibrary.org/obo/GO_1900235	negative regulation of Kit signaling pathway	http://purl.obolibrary.org/obo/GO_0038109	Kit signaling pathway
 http://purl.obolibrary.org/obo/GO_1905542	negative regulation of L-arginine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097638	L-arginine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000083	negative regulation of L-ascorbic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0019853	L-ascorbic acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_1903196	negative regulation of L-dopa biosynthetic process	http://purl.obolibrary.org/obo/GO_1903185	L-dopa biosynthetic process
 http://purl.obolibrary.org/obo/GO_0140387	negative regulation of L-glutamate biosynthetic process	http://purl.obolibrary.org/obo/GO_0097054	L-glutamate biosynthetic process
 http://purl.obolibrary.org/obo/GO_0002037	negative regulation of L-glutamate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098712	L-glutamate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0062133	negative regulation of L-glutamine biosynthetic process	http://purl.obolibrary.org/obo/GO_1901704	L-glutamine biosynthetic process
@@ -686,7 +685,7 @@ http://purl.obolibrary.org/obo/GO_0042322	negative regulation of circadian sleep
 http://purl.obolibrary.org/obo/GO_0042323	negative regulation of circadian sleep/wake cycle, non-REM sleep	http://purl.obolibrary.org/obo/GO_0042748	circadian sleep/wake cycle, non-REM sleep
 http://purl.obolibrary.org/obo/GO_0042321	negative regulation of circadian sleep/wake cycle, sleep	http://purl.obolibrary.org/obo/GO_0050802	circadian sleep/wake cycle, sleep
 http://purl.obolibrary.org/obo/GO_1904326	negative regulation of circadian sleep/wake cycle, wakefulness	http://purl.obolibrary.org/obo/GO_0042746	circadian sleep/wake cycle, wakefulness
-http://purl.obolibrary.org/obo/GO_1903249	negative regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	citrulline biosynthetic process
+http://purl.obolibrary.org/obo/GO_1903249	negative regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	L-citrulline biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905444	negative regulation of clathrin coat assembly	http://purl.obolibrary.org/obo/GO_0048268	clathrin coat assembly
 http://purl.obolibrary.org/obo/GO_1900186	negative regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070797	negative regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
@@ -1191,7 +1190,6 @@ http://purl.obolibrary.org/obo/GO_0002638	negative regulation of immunoglobulin 
 http://purl.obolibrary.org/obo/GO_2000521	negative regulation of immunological synapse formation	http://purl.obolibrary.org/obo/GO_0001771	immunological synapse formation
 http://purl.obolibrary.org/obo/GO_0090084	negative regulation of inclusion body assembly	http://purl.obolibrary.org/obo/GO_0070841	inclusion body assembly
 http://purl.obolibrary.org/obo/GO_1901997	negative regulation of indoleacetic acid biosynthetic process via tryptophan	http://purl.obolibrary.org/obo/GO_0009848	indoleacetic acid biosynthetic process via tryptophan
-http://purl.obolibrary.org/obo/GO_0010515	negative regulation of induction of conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0010514	induction of conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0075186	negative regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
 http://purl.obolibrary.org/obo/GO_0141086	negative regulation of inflammasome-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0141084	inflammasome-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0050728	negative regulation of inflammatory response	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
@@ -1849,7 +1847,6 @@ http://purl.obolibrary.org/obo/GO_1905163	negative regulation of phagosome matur
 http://purl.obolibrary.org/obo/GO_1900981	negative regulation of phenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_0002047	phenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900240	negative regulation of phenotypic switching	http://purl.obolibrary.org/obo/GO_0036166	phenotypic switching
 http://purl.obolibrary.org/obo/GO_0180040	negative regulation of pheromone response MAPK cascade	http://purl.obolibrary.org/obo/GO_0071507	pheromone response MAPK cascade
-http://purl.obolibrary.org/obo/GO_0090029	negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0000750	pheromone-dependent signal transduction involved in conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0070806	negative regulation of phialide development	http://purl.obolibrary.org/obo/GO_0070790	phialide development
 http://purl.obolibrary.org/obo/GO_0010923	negative regulation of phosphatase activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
 http://purl.obolibrary.org/obo/GO_0045936	negative regulation of phosphate metabolic process	http://purl.obolibrary.org/obo/GO_0006796	phosphate-containing compound metabolic process
