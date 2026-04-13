@@ -126,7 +126,6 @@ http://purl.obolibrary.org/obo/GO_0043506	regulation of JUN kinase activity	http
 http://purl.obolibrary.org/obo/GO_1900234	regulation of Kit signaling pathway	http://purl.obolibrary.org/obo/GO_0038109	Kit signaling pathway
 http://purl.obolibrary.org/obo/GO_1905541	regulation of L-arginine import across plasma membrane	http://purl.obolibrary.org/obo/GO_0097638	L-arginine import across plasma membrane
 http://purl.obolibrary.org/obo/GO_2000082	regulation of L-ascorbic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0019853	L-ascorbic acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_1903195	regulation of L-dopa biosynthetic process	http://purl.obolibrary.org/obo/GO_1903185	L-dopa biosynthetic process
 http://purl.obolibrary.org/obo/GO_0043468	regulation of L-fucose catabolic process	http://purl.obolibrary.org/obo/GO_0042355	L-fucose catabolic process
 http://purl.obolibrary.org/obo/GO_0002036	regulation of L-glutamate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0098712	L-glutamate import across plasma membrane
 http://purl.obolibrary.org/obo/GO_0062132	regulation of L-glutamine biosynthetic process	http://purl.obolibrary.org/obo/GO_1901704	L-glutamine biosynthetic process
@@ -758,7 +757,7 @@ http://purl.obolibrary.org/obo/GO_0042320	regulation of circadian sleep/wake cyc
 http://purl.obolibrary.org/obo/GO_0045188	regulation of circadian sleep/wake cycle, non-REM sleep	http://purl.obolibrary.org/obo/GO_0042748	circadian sleep/wake cycle, non-REM sleep
 http://purl.obolibrary.org/obo/GO_0045187	regulation of circadian sleep/wake cycle, sleep	http://purl.obolibrary.org/obo/GO_0050802	circadian sleep/wake cycle, sleep
 http://purl.obolibrary.org/obo/GO_0010840	regulation of circadian sleep/wake cycle, wakefulness	http://purl.obolibrary.org/obo/GO_0042746	circadian sleep/wake cycle, wakefulness
-http://purl.obolibrary.org/obo/GO_1903248	regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	citrulline biosynthetic process
+http://purl.obolibrary.org/obo/GO_1903248	regulation of citrulline biosynthetic process	http://purl.obolibrary.org/obo/GO_0019240	L-citrulline biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905443	regulation of clathrin coat assembly	http://purl.obolibrary.org/obo/GO_0048268	clathrin coat assembly
 http://purl.obolibrary.org/obo/GO_2000369	regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070796	regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
@@ -2030,7 +2029,6 @@ http://purl.obolibrary.org/obo/GO_1900980	regulation of phenazine biosynthetic p
 http://purl.obolibrary.org/obo/GO_1900239	regulation of phenotypic switching	http://purl.obolibrary.org/obo/GO_0036166	phenotypic switching
 http://purl.obolibrary.org/obo/GO_2000762	regulation of phenylpropanoid metabolic process	http://purl.obolibrary.org/obo/GO_0009698	phenylpropanoid metabolic process
 http://purl.obolibrary.org/obo/GO_0180039	regulation of pheromone response MAPK cascade	http://purl.obolibrary.org/obo/GO_0071507	pheromone response MAPK cascade
-http://purl.obolibrary.org/obo/GO_0010969	regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion	http://purl.obolibrary.org/obo/GO_0000750	pheromone-dependent signal transduction involved in conjugation with cellular fusion
 http://purl.obolibrary.org/obo/GO_0070805	regulation of phialide development	http://purl.obolibrary.org/obo/GO_0070790	phialide development
 http://purl.obolibrary.org/obo/GO_0010921	regulation of phosphatase activity	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
 http://purl.obolibrary.org/obo/GO_2000185	regulation of phosphate transmembrane transport	http://purl.obolibrary.org/obo/GO_0035435	phosphate ion transmembrane transport
