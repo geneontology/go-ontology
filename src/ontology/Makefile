@@ -702,6 +702,9 @@ go-edit.facts: $(SRC)
 	$(ROBOT) convert -i $(SRC) -o go-edit.facts.ttl &&\
 	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
+../resources/rhea-relationships.tsv:
+	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
+
 datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
 	souffle ../util/ontology-qc.dl &&\
 	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty

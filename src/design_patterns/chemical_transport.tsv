@@ -84,7 +84,6 @@ http://purl.obolibrary.org/obo/GO_0015670	carbon dioxide transport	http://purl.o
 http://purl.obolibrary.org/obo/GO_0046942	carboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_29067	carboxylic acid anion
 http://purl.obolibrary.org/obo/GO_0015879	carnitine transport	http://purl.obolibrary.org/obo/CHEBI_17126	carnitine
 http://purl.obolibrary.org/obo/GO_0046867	carotenoid transport	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
-http://purl.obolibrary.org/obo/GO_0051937	catecholamine transport	http://purl.obolibrary.org/obo/CHEBI_33567	catecholamine
 http://purl.obolibrary.org/obo/GO_0019533	cellobiose transport	http://purl.obolibrary.org/obo/CHEBI_17057	cellobiose
 http://purl.obolibrary.org/obo/GO_2001096	cellotriose transport	http://purl.obolibrary.org/obo/CHEBI_3528	cellotriose
 http://purl.obolibrary.org/obo/GO_1902389	ceramide 1-phosphate transport	http://purl.obolibrary.org/obo/CHEBI_57674	N-acylsphingosine 1-phosphate(2-)
@@ -115,11 +114,9 @@ http://purl.obolibrary.org/obo/GO_0015830	diaminopimelate transport	http://purl.
 http://purl.obolibrary.org/obo/GO_0006835	dicarboxylic acid transport	http://purl.obolibrary.org/obo/CHEBI_35693	dicarboxylic acid anion
 http://purl.obolibrary.org/obo/GO_0042938	dipeptide transport	http://purl.obolibrary.org/obo/CHEBI_46761	dipeptide
 http://purl.obolibrary.org/obo/GO_0015766	disaccharide transport	http://purl.obolibrary.org/obo/CHEBI_36233	disaccharide
-http://purl.obolibrary.org/obo/GO_0015872	dopamine transport	http://purl.obolibrary.org/obo/CHEBI_59905	dopaminium(1+)
 http://purl.obolibrary.org/obo/GO_1900753	doxorubicin transport	http://purl.obolibrary.org/obo/CHEBI_64816	doxorubicin(1+)
 http://purl.obolibrary.org/obo/GO_0033227	dsRNA transport	http://purl.obolibrary.org/obo/CHEBI_67208	double-stranded RNA
 http://purl.obolibrary.org/obo/GO_0042930	enterobactin transport	http://purl.obolibrary.org/obo/CHEBI_77805	enterobactin(1-)
-http://purl.obolibrary.org/obo/GO_0048241	epinephrine transport	http://purl.obolibrary.org/obo/CHEBI_71406	(R)-adrenaline(1+)
 http://purl.obolibrary.org/obo/GO_0034229	ethanolamine transport	http://purl.obolibrary.org/obo/CHEBI_57603	ethanolaminium(1+)
 http://purl.obolibrary.org/obo/GO_1901571	fatty acid derivative transport	http://purl.obolibrary.org/obo/CHEBI_61697	fatty acid derivative
 http://purl.obolibrary.org/obo/GO_0015908	fatty acid transport	http://purl.obolibrary.org/obo/CHEBI_28868	fatty acid anion
@@ -205,7 +202,6 @@ http://purl.obolibrary.org/obo/GO_0042884	microcin transport	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_1905431	microcystin transport	http://purl.obolibrary.org/obo/CHEBI_48041	microcystin
 http://purl.obolibrary.org/obo/GO_0072337	modified amino acid transport	http://purl.obolibrary.org/obo/CHEBI_83821	amino-acid derivative
 http://purl.obolibrary.org/obo/GO_0015689	molybdate ion transport	http://purl.obolibrary.org/obo/CHEBI_36264	molybdate
-http://purl.obolibrary.org/obo/GO_0015844	monoamine transport	http://purl.obolibrary.org/obo/CHEBI_63534	monoamine
 http://purl.obolibrary.org/obo/GO_0006820	monoatomic anion transport	http://purl.obolibrary.org/obo/CHEBI_23905	monoatomic anion
 http://purl.obolibrary.org/obo/GO_0006812	monoatomic cation transport	http://purl.obolibrary.org/obo/CHEBI_23906	monoatomic cation
 http://purl.obolibrary.org/obo/GO_0006811	monoatomic ion transport	http://purl.obolibrary.org/obo/CHEBI_24867	monoatomic ion
@@ -223,7 +219,6 @@ http://purl.obolibrary.org/obo/GO_1902025	nitrate import	http://purl.obolibrary.
 http://purl.obolibrary.org/obo/GO_0030185	nitric oxide transport	http://purl.obolibrary.org/obo/CHEBI_16480	nitric oxide
 http://purl.obolibrary.org/obo/GO_0015707	nitrite transport	http://purl.obolibrary.org/obo/CHEBI_16301	nitrite
 http://purl.obolibrary.org/obo/GO_0071705	nitrogen compound transport	http://purl.obolibrary.org/obo/CHEBI_51143	nitrogen molecular entity
-http://purl.obolibrary.org/obo/GO_0015874	norepinephrine transport	http://purl.obolibrary.org/obo/CHEBI_72587	(R)-noradrenaline(1+)
 http://purl.obolibrary.org/obo/GO_0050657	nucleic acid transport	http://purl.obolibrary.org/obo/CHEBI_33696	nucleic acid
 http://purl.obolibrary.org/obo/GO_0015851	nucleobase transport	http://purl.obolibrary.org/obo/CHEBI_18282	nucleobase
 http://purl.obolibrary.org/obo/GO_0015931	nucleobase-containing compound transport	http://purl.obolibrary.org/obo/CHEBI_61120	nucleobase-containing molecular entity
@@ -282,7 +277,6 @@ http://purl.obolibrary.org/obo/GO_0032218	riboflavin transport	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_0042948	salicin transport	http://purl.obolibrary.org/obo/CHEBI_17814	salicin
 http://purl.obolibrary.org/obo/GO_0080160	selenate transport	http://purl.obolibrary.org/obo/CHEBI_15075	selenate
 http://purl.obolibrary.org/obo/GO_0032329	serine transport	http://purl.obolibrary.org/obo/CHEBI_35243	serine zwitterion
-http://purl.obolibrary.org/obo/GO_0006837	serotonin transport	http://purl.obolibrary.org/obo/CHEBI_350546	serotonin(1+)
 http://purl.obolibrary.org/obo/GO_0015912	short-chain fatty acid transport	http://purl.obolibrary.org/obo/CHEBI_58951	short-chain fatty acid anion
 http://purl.obolibrary.org/obo/GO_0015739	sialic acid transport	http://purl.obolibrary.org/obo/CHEBI_62944	sialic acid anion
 http://purl.obolibrary.org/obo/GO_0015891	siderophore transport	http://purl.obolibrary.org/obo/GOCHE_26672	substance with siderophore role
@@ -322,7 +316,6 @@ http://purl.obolibrary.org/obo/GO_0042939	tripeptide transport	http://purl.oboli
 http://purl.obolibrary.org/obo/GO_2001088	trisaccharide transport	http://purl.obolibrary.org/obo/CHEBI_27150	trisaccharide
 http://purl.obolibrary.org/obo/GO_0015827	tryptophan transport	http://purl.obolibrary.org/obo/CHEBI_64554	tryptophan zwitterion
 http://purl.obolibrary.org/obo/GO_0070614	tungstate ion transport	http://purl.obolibrary.org/obo/CHEBI_46502	tungstate
-http://purl.obolibrary.org/obo/GO_7770032	tyramine transport	http://purl.obolibrary.org/obo/CHEBI_327995	tyraminium
 http://purl.obolibrary.org/obo/GO_0015828	tyrosine transport	http://purl.obolibrary.org/obo/CHEBI_58315	L-tyrosine zwitterion
 http://purl.obolibrary.org/obo/GO_0015857	uracil transport	http://purl.obolibrary.org/obo/CHEBI_17568	uracil
 http://purl.obolibrary.org/obo/GO_0015747	urate transport	http://purl.obolibrary.org/obo/CHEBI_17775	7,9-dihydro-1H-purine-2,6,8(3H)-trione
