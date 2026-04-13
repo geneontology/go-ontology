@@ -1,10 +1,9 @@
-// scala 2.13.9
-// ammonite 2.5.5
-
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
-import $ivy.`org.phenoscape::scowl:1.3.4`
-import $ivy.`org.apache.jena:apache-jena-libs:3.15.0`
-import $ivy.`com.outr::scribe-slf4j:2.7.12`
+//> using scala "2.13"
+//> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.29"
+//> using dep "org.phenoscape::scowl:1.4.1"
+//> using dep "org.apache.jena:apache-jena-libs:3.15.0"
+//> using dep "com.outr::scribe-slf4j2:3.16.1"
+//> using dep "com.lihaoyi::os-lib:0.9.3"
 
 import java.io.FileInputStream
 import org.phenoscape.scowl._
@@ -42,9 +41,10 @@ val HasEC = ResourceFactory.createProperty("http://rdf.rhea-db.org/ec")
   * @param rheaTTL RDF data exported from Rhea triplestore
   * @param outfile location to save ontology in OWL functional syntax
   */
-@main
-def main(rheaRDF: os.Path, outfile: os.Path) = {
-  val rhea = ModelFactory.createDefaultModel()
+val rheaRDF = os.Path(args(0), os.pwd)
+val outfile = os.Path(args(1), os.pwd)
+
+val rhea = ModelFactory.createDefaultModel()
   rhea.read(new FileInputStream(rheaRDF.toIO), "", "TURTLE")
   val axioms = rhea.listResourcesWithProperty(RDFS.subClassOf, Reaction).asScala.flatMap(makeReaction(_, rhea)).toSet
   val compoundLabelAxioms = rhea
@@ -57,7 +57,6 @@ def main(rheaRDF: os.Path, outfile: os.Path) = {
   val ontology =
     manager.createOntology(allAxioms.asJava, IRI.create("http://purl.obolibrary.org/obo/go/extensions/rhea.ofn"))
   manager.saveOntology(ontology, new FunctionalSyntaxDocumentFormat(), IRI.create(outfile.toIO))
-}
 
 def makeReaction(reactionNode: Resource, rhea: Model) = {
   val reaction = Class(reactionNode.getURI)

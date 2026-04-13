@@ -1,10 +1,9 @@
-// scala 2.13.9
-// ammonite 2.5.5
-
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
-import $ivy.`org.phenoscape::scowl:1.3.4`
-import $ivy.`org.obolibrary.robot:robot-core:1.9.7`
-import $ivy.`com.outr::scribe-slf4j:2.7.12`
+//> using scala "2.13"
+//> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.29"
+//> using dep "org.phenoscape::scowl:1.4.1"
+//> using dep "org.obolibrary.robot:robot-core:1.9.8"
+//> using dep "com.outr::scribe-slf4j2:3.16.1"
+//> using dep "com.lihaoyi::os-lib:0.9.3"
 
 import org.obolibrary.robot.CatalogXmlIRIMapper
 import org.phenoscape.scowl._
@@ -29,9 +28,12 @@ val RheaPrefix = "http://rdf.rhea-db.org/"
   * @param goFile
   * @param catalog
   */
-@main
-def main(rheaFile: os.Path, goFile: os.Path, catalog: os.Path, outfile: os.Path) = {
-  val manager = OWLManager.createOWLOntologyManager()
+val rheaFile = os.Path(args(0), os.pwd)
+val goFile = os.Path(args(1), os.pwd)
+val catalog = os.Path(args(2), os.pwd)
+val outfile = os.Path(args(3), os.pwd)
+
+val manager = OWLManager.createOWLOntologyManager()
   manager.addIRIMapper(new CatalogXmlIRIMapper(catalog.toIO))
   val rhea = manager.loadOntology(IRI.create(rheaFile.toIO))
   val go = manager.loadOntology(IRI.create(goFile.toIO))
@@ -55,9 +57,8 @@ def main(rheaFile: os.Path, goFile: os.Path, catalog: os.Path, outfile: os.Path)
   } yield superClassAxioms ++ xrefs).flatten
   val ontology = OWLManager.createOWLOntologyManager().createOntology(axioms.asJava, IRI.create("http://purl.obolibrary.org/obo/go/imports/go-catalytic-activities-participants.owl"))
   manager.saveOntology(ontology, new RDFXMLDocumentFormat(), IRI.create(outfile.toIO))
-}
 
-def isDeprecated(term: IRI, ontology: OWLOntology) = 
+def isDeprecated(term: IRI, ontology: OWLOntology) =
   EntitySearcher.getAnnotationObjects(term, ontology, OWLManager.getOWLDataFactory().getOWLDeprecated()).asScala
   .flatMap(_.getValue().asLiteral().asSet().asScala).exists {
     case "true" ^^ _ => true

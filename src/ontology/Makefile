@@ -36,8 +36,7 @@ OWLTOOLS = $(OWLTOOLS_ENV) owltools
 DOSDP_ENV = JAVA_OPTS=-Xmx6G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
-AMM_ENV = JAVA_OPTS=-Xmx6G
-AMM = $(AMM_ENV) amm --silent
+SCALA_CLI = scala-cli run --server=false --java-opt=-Xmx6g
 
 # OWL catalogs map ontology IRIs to local paths
 USECAT= --use-catalog
@@ -215,7 +214,7 @@ go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
 
 go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc ../resources/rhea.rdf
-	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml ../resources/rhea.rdf $@
+	$(SCALA_CLI) ../util/filter-rhea-xrefs.sc -- $< catalog-v001.xml ../resources/rhea.rdf $@
 
 # merge in some imported GO modules
 # remove editor-only annotations
@@ -629,15 +628,15 @@ rhea.ttl: ../sparql/construct-rhea-reactions.sparql ../resources/rhea.rdf
 	arq -q --data=../resources/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
-	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
+	$(SCALA_CLI) ../util/construct_rhea_ontology.sc -- $< rhea-reactions.ofn && \
 	$(ROBOT) annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/rhea-reactions-simple.ttl: rhea.ttl
-	$(AMM) ../util/construct_rhea_ontology_simplified.sc $< rhea-reactions-simple.ofn && \
+	$(SCALA_CLI) ../util/construct_rhea_ontology_simplified.sc -- $< rhea-reactions-simple.ofn && \
 	$(ROBOT) annotate -i rhea-reactions-simple.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 imports/go-catalytic-activities-participants.owl: extensions/rhea-reactions-simple.ttl $(SRC)
-	$(AMM) ../util/transfer_rhea_relations.sc $< $(SRC) catalog-v001.xml $@.tmp && \
+	$(SCALA_CLI) ../util/transfer_rhea_relations.sc -- $< $(SRC) catalog-v001.xml $@.tmp && \
 	$(ROBOT) annotate -i $@.tmp -O $(BASE)/$@ -o $@
 
 imports/go-catalytic-activities-participants.obo: imports/go-catalytic-activities-participants.owl
