@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-15/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-16/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-15" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-16" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -3801,6 +3801,26 @@ ketone body catabolic process ;  GO:0046952."
 - [atrazine catabolic process to urea](http://purl.obolibrary.org/obo/GO_0019623) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete atrazine catabolic process to urea" 
 
 
+### autophagosome-membrane adaptor activity `http://purl.obolibrary.org/obo/GO_0160183`
+#### Removed
+- [autophagosome-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160183) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a target membrane and an autophagosome during autophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36635405" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30544615" 
+
+- [autophagosome-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160183) SubClassOf [protein-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0043495) 
+
+#### Added
+- [autophagosome-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160183) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [autophagosome-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160183) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a target membrane and an autophagosome membrane during autophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36635405" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30544615" 
+
+- [autophagosome-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160183) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
 ### benzene 1,2-dioxygenase activity `http://purl.obolibrary.org/obo/GO_0018619`
 #### Removed
 - [benzene 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018619) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: benzene + H+ + NADH + O2 = cis-cyclohexa-3,5-diene-1,2-diol + NAD+." 
@@ -3829,6 +3849,41 @@ ketone body catabolic process ;  GO:0046952."
 
 #### Added
 - [benzoate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0042925) SubClassOf [monocarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008028) 
+
+
+### beta barrel protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_7770063`
+
+#### Added
+- Class: [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31711"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-15T13:26:12Z" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "TOM-SAM pathway" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770063" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of beta barrel proteins from the cytosol and their insertion into the mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36931257" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta barrel protein insertion into mitochondrial outer membrane" 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [intracellular protein transport](http://purl.obolibrary.org/obo/GO_0006886) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
 
 
 ### beta-alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019483`
@@ -5136,6 +5191,50 @@ ketone body catabolic process ;  GO:0046952."
 - [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [77675](http://rdf.rhea-db.org/77675) 
 
 
+### endoplasmic reticulum-autophagosome adaptor activity `http://purl.obolibrary.org/obo/GO_0140506`
+#### Removed
+- [endoplasmic reticulum-autophagosome adaptor activity](http://purl.obolibrary.org/obo/GO_0140506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together an ER membrane and an autophagosome during reticulophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32735772" 
+
+#### Added
+- [endoplasmic reticulum-autophagosome adaptor activity](http://purl.obolibrary.org/obo/GO_0140506) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum-autophagosome adaptor activity](http://purl.obolibrary.org/obo/GO_0140506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together an ER membrane and an autophagosome membrane during reticulophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32735772" 
+
+
+### endoplasmic reticulum-endosome tether activity `http://purl.obolibrary.org/obo/GO_0170016`
+#### Removed
+- [endoplasmic reticulum-endosome tether activity](http://purl.obolibrary.org/obo/GO_0170016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together an endosome and an ER membrane either via membrane lipid binding or by interacting with an endosome protein, to establish and facilitate organelle exchange." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33124732" 
+
+#### Added
+- [endoplasmic reticulum-endosome tether activity](http://purl.obolibrary.org/obo/GO_0170016) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum-endosome tether activity](http://purl.obolibrary.org/obo/GO_0170016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together an endosome membrane and an ER membrane either via membrane lipid binding or by interacting with an endosome protein, to establish and facilitate organelle exchange." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33124732" 
+
+
+### endoplasmic reticulum-organelle membrane tether activity `http://purl.obolibrary.org/obo/GO_0170009`
+#### Removed
+- [endoplasmic reticulum-organelle membrane tether activity](http://purl.obolibrary.org/obo/GO_0170009) SubClassOf [protein-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0043495) 
+
+#### Added
+- [endoplasmic reticulum-organelle membrane tether activity](http://purl.obolibrary.org/obo/GO_0170009) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum-organelle membrane tether activity](http://purl.obolibrary.org/obo/GO_0170009) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
+### endoplasmic reticulum-plasma membrane adaptor activity `http://purl.obolibrary.org/obo/GO_0160214`
+#### Removed
+- [endoplasmic reticulum-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160214) SubClassOf [protein-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0043495) 
+
+#### Added
+- [endoplasmic reticulum-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160214) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160214) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
 ### enterobactin transport `http://purl.obolibrary.org/obo/GO_0042930`
 #### Removed
 - [enterobactin transport](http://purl.obolibrary.org/obo/GO_0042930) SubClassOf [organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
@@ -5266,6 +5365,44 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [ethanolamine transport](http://purl.obolibrary.org/obo/GO_0034229) SubClassOf [organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) 
 
+
+
+### exocytic insertion of neurotransmitter receptor to plasma membrane `http://purl.obolibrary.org/obo/GO_0098881`
+#### Removed
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "neurotransmitter receptor insertion" 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_synapse](http://purl.obolibrary.org/obo/go#goslim_synapse) 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The exocytic fusion of neurotransmitter receptor-containing vesicles with plasma membrane, resulting in the integration of neurotransmitter receptors into the plasma membrane. This process includes tethering and docking steps that prepare vesicles for fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19503082" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:aruk" 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [label](http://www.w3.org/2000/01/rdf-schema#label) "exocytic insertion of neurotransmitter receptor to plasma membrane" 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) SubClassOf [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) SubClassOf [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [neurotransmitter receptor transport to plasma membrane](http://purl.obolibrary.org/obo/GO_0098877) 
+
+#### Added
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31869"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The exocytic fusion of neurotransmitter receptor-containing vesicles with plasma membrane, resulting in the integration of neurotransmitter receptors into the plasma membrane. This process includes tethering and docking steps that prepare vesicles for fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19503082" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:aruk" 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the meaning of the term is ambiguous. It was placed under both tethering and docking involved in exocytosis, but it is unclear which part of exocytosis it refers to, and it has not been used." 
+
+- [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete exocytic insertion of neurotransmitter receptor to plasma membrane" 
 
 
 ### fatty acid omega-1 hydroxylase activity `http://purl.obolibrary.org/obo/GO_0120502`
@@ -6677,6 +6814,60 @@ ketone body catabolic process ;  GO:0046952."
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15509579" 
 
 
+### mitochondrion autophagosome adaptor activity `http://purl.obolibrary.org/obo/GO_0140580`
+#### Removed
+- [mitochondrion autophagosome adaptor activity](http://purl.obolibrary.org/obo/GO_0140580) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a mitochondrial membrane and an autophagosome during mitophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33138913" 
+
+#### Added
+- [mitochondrion autophagosome adaptor activity](http://purl.obolibrary.org/obo/GO_0140580) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrion autophagosome adaptor activity](http://purl.obolibrary.org/obo/GO_0140580) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a mitochondrial membrane and an autophagosome membrane during mitophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33138913" 
+
+
+### mitochondrion-endoplasmic reticulum membrane tether activity `http://purl.obolibrary.org/obo/GO_0140474`
+#### Removed
+- [mitochondrion-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0140474) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a mitochondrion and an ER membrane either via membrane lipid binding or by interacting with a mitochondrial outer membrane protein, to establish or maintain the localization of the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19556461" 
+
+#### Added
+- [mitochondrion-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0140474) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrion-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0140474) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a mitochondrial outer membrane and an ER membrane either via membrane lipid binding or by interacting with a mitochondrial outer membrane protein, to establish or maintain the localization of the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19556461" 
+
+
+### mitochondrion-mitochondrion outer membrane tether activity `http://purl.obolibrary.org/obo/GO_0160204`
+#### Removed
+- [mitochondrion-mitochondrion outer membrane tether activity](http://purl.obolibrary.org/obo/GO_0160204) SubClassOf [protein-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0043495) 
+
+#### Added
+- [mitochondrion-mitochondrion outer membrane tether activity](http://purl.obolibrary.org/obo/GO_0160204) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrion-mitochondrion outer membrane tether activity](http://purl.obolibrary.org/obo/GO_0160204) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
+### mitochondrion-plasma membrane adaptor activity `http://purl.obolibrary.org/obo/GO_0140443`
+#### Removed
+- [mitochondrion-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140443) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a mitochondrion and a plasma membrane either via membrane lipid binding or by interacting with a mitochondrial outer membrane protein, to establish or maintain the localization of the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31582398" 
+
+- [mitochondrion-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140443) SubClassOf [protein-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0043495) 
+
+#### Added
+- [mitochondrion-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140443) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrion-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140443) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a mitochondrial outer membrane and a plasma membrane either via membrane lipid binding or by interacting with a mitochondrial outer membrane protein, to establish or maintain the localization of the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31582398" 
+
+- [mitochondrion-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140443) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
 ### mixed acid fermentation `http://purl.obolibrary.org/obo/GO_0019664`
 #### Removed
 - [mixed acid fermentation](http://purl.obolibrary.org/obo/GO_0019664) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
@@ -7398,6 +7589,40 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete fimbrium-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0015472) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
 
 
+### obsolete glutamic-type endopeptidase activity `http://purl.obolibrary.org/obo/GO_0070007`
+#### Removed
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the hydrolysis of internal peptide bonds in a polypeptide chain by a mechanism involving a glutamate/glutamine catalytic dyad." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#ENDOPEPTIDASE" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE" 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glutamic-type endopeptidase activity" 
+
+#### Added
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31893"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the hydrolysis of internal peptide bonds in a polypeptide chain by a mechanism involving a glutamate/glutamine catalytic dyad." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#ENDOPEPTIDASE" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.ebi.ac.uk/merops/about/glossary.shtml#CATTYPE" 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Unobsoleted, since similar terms exist." 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamic-type endopeptidase activity" 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) SubClassOf [endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004175) 
+
+- [obsolete glutamic-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0070007) SubClassOf [glutamic-type peptidase activity](http://purl.obolibrary.org/obo/GO_0070002) 
+
+
 ### obsolete glycoprotein-specific chaperone activity `http://purl.obolibrary.org/obo/GO_0003759`
 #### Removed
 - [obsolete glycoprotein-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0003759) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) 
@@ -7982,6 +8207,38 @@ ketone body catabolic process ;  GO:0046952."
 
 #### Added
 - [peptidyl-lysine N6-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0018031) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+
+### peroxisome-endoplasmic reticulum membrane tether activity `http://purl.obolibrary.org/obo/GO_0160229`
+#### Removed
+- [peroxisome-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0160229) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a peroxisome and an ER membrane, either via membrane lipid binding or by interacting with a membrane protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39271061" 
+
+#### Added
+- [peroxisome-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0160229) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peroxisome-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0160229) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a peroxisome membrane and an ER membrane, either via membrane lipid binding or by interacting with a membrane protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39271061" 
+
+
+### peroxisome-mitochondrion membrane tether activity `http://purl.obolibrary.org/obo/GO_0160190`
+#### Removed
+- [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together the peroxisome and the mitochondrial outer membrane, establishing the localization of the peroxisome close to the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38669296" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29720625" 
+
+- [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) SubClassOf [protein-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0043495) 
+
+#### Added
+- [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together the peroxisome membrane and the mitochondrial outer membrane, establishing the localization of the peroxisome close to the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38669296" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29720625" 
+
+- [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
 
 
 ### pheromone response MAPK cascade `http://purl.obolibrary.org/obo/GO_0071507`
