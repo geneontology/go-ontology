@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-16/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-17/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-16" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-17" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -9042,6 +9042,18 @@ ketone body catabolic process ;  GO:0046952."
 - [protein-lysine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016279) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [55544](http://rdf.rhea-db.org/55544) 
 
 - [protein-lysine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0016279) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [67108](http://rdf.rhea-db.org/67108) 
+
+
+### protein-macromolecule adaptor activity `http://purl.obolibrary.org/obo/GO_0030674`
+#### Removed
+- [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "protein complex scaffold activity" 
+
+- [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "protein-containing complex scaffold activity" 
+
+#### Added
+- [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31444"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that protein complex scaffolds should use GO:0140378 protein complex scaffold activity." 
 
 
 ### protoporphyrinogen IX biosynthetic process `http://purl.obolibrary.org/obo/GO_0006782`

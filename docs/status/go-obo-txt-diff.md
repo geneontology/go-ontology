@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-04-16 06:09:14.039990307 +0000
-+++ go.obo	2026-04-16 06:18:16.561818772 +0000
+--- go-lastrelease.obo	2026-04-17 06:12:07.807219079 +0000
++++ go.obo	2026-04-17 06:21:04.274207683 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-03-25
-+data-version: releases/2026-04-16
++data-version: releases/2026-04-17
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-03-25" xsd:string
-+property_value: owl:versionInfo "2026-04-16" xsd:string
++property_value: owl:versionInfo "2026-04-17" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -4663,6 +4663,28 @@
  
  [Term]
  id: GO:0030463
+@@ -177892,12 +178762,11 @@
+ name: protein-macromolecule adaptor activity
+ namespace: molecular_function
+ def: "An adaptor activity that brings together two or more macromolecules in contact, permitting those molecules to function in a coordinated way. The adaptor can bring together two proteins, or a protein and another macromolecule such as a lipid or a nucleic acid." [GOC:bf, GOC:mah, GOC:vw]
++comment: Note that protein complex scaffolds should use GO:0140378 protein complex scaffold activity.
+ subset: goslim_chembl
+ subset: goslim_yeast
+ synonym: "protein binding, bridging" EXACT []
+-synonym: "protein complex scaffold activity" BROAD []
+ synonym: "protein recruiting activity" RELATED []
+-synonym: "protein-containing complex scaffold activity" BROAD []
+ synonym: "protein-protein adaptor" NARROW []
+ xref: Reactome:R-HSA-3780997 "PPP1R3C binds to glycogen:GYG2:GYS2"
+ xref: Reactome:R-HSA-3781001 "EPM2A dimer binds PPP1R3C:phosphoglycogen-GYG1 complex"
+@@ -177910,6 +178779,7 @@
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18655" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19409" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22925" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31444" xsd:anyURI
+ 
+ [Term]
+ id: GO:0030677
 @@ -181692,7 +182562,6 @@
  synonym: "thiamine pyrophosphate transport" NARROW []
  synonym: "TPP transport" EXACT []
