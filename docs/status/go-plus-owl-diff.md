@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-17/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-18/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-18" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -2810,6 +2810,39 @@
 - [actin-based cell projection](http://purl.obolibrary.org/obo/GO_0098858) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [actin cytoskeleton](http://purl.obolibrary.org/obo/GO_0015629) 
 
 
+### actin-filament cross-linking activity `http://purl.obolibrary.org/obo/GO_7770064`
+
+#### Added
+- Class: [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19185"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-16T11:21:46Z" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "F-actin cross-linking activity" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "actin filament cross-linking activity" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "actin filament crosslinking activity" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770064" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An adaptor activity that brings together two actin filaments, enabling the bundling or networking of actin filaments (F-actin)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37025173" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) [label](http://www.w3.org/2000/01/rdf-schema#label) "actin-filament cross-linking activity" 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) SubClassOf [cytoskeletal adaptor activity](http://purl.obolibrary.org/obo/GO_0008093) 
+
+- [actin-filament cross-linking activity](http://purl.obolibrary.org/obo/GO_7770064) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [actin filament binding](http://purl.obolibrary.org/obo/GO_0051015) 
+
+
 ### actinorhodin biosynthetic process `http://purl.obolibrary.org/obo/GO_1901112`
 #### Removed
 - [actinorhodin biosynthetic process](http://purl.obolibrary.org/obo/GO_1901112) SubClassOf [dicarboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0043650) 
@@ -4359,6 +4392,20 @@
 - [cytochrome-c oxidase activity](http://purl.obolibrary.org/obo/GO_0004129) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/25935"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [cytochrome-c oxidase activity](http://purl.obolibrary.org/obo/GO_0004129) SubClassOf [oxidoreductase activity, acting on a heme group of donors](http://purl.obolibrary.org/obo/GO_0016675) 
+
+
+### cytoskeletal adaptor activity `http://purl.obolibrary.org/obo/GO_0008093`
+#### Removed
+- [cytoskeletal adaptor activity](http://purl.obolibrary.org/obo/GO_0008093) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cytoskeletal adaptor activity" 
+
+- [cytoskeletal adaptor activity](http://purl.obolibrary.org/obo/GO_0008093) [label](http://www.w3.org/2000/01/rdf-schema#label) "cytoskeletal anchor activity" 
+
+#### Added
+- [cytoskeletal adaptor activity](http://purl.obolibrary.org/obo/GO_0008093) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19185"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoskeletal adaptor activity](http://purl.obolibrary.org/obo/GO_0008093) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "cytoskeletal anchor activity" 
+
+- [cytoskeletal adaptor activity](http://purl.obolibrary.org/obo/GO_0008093) [label](http://www.w3.org/2000/01/rdf-schema#label) "cytoskeletal adaptor activity" 
 
 
 ### dADP biosynthetic process `http://purl.obolibrary.org/obo/GO_0006173`
@@ -12676,6 +12723,31 @@ ketone body catabolic process ;  GO:0046952."
 
 #### Added
 - [uronic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015133) SubClassOf [monocarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008028) 
+
+
+### vesicle docking activity `http://purl.obolibrary.org/obo/GO_0160321`
+
+#### Added
+- Class: [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "rynl" 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-17T21:35:33Z" 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0160321" 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a protein that directly mediates the stable attachment of a transport vesicle to a target membrane, bringing the two membranes into close apposition." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28237810" 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Vesicle docking activity succeeds vesicle tethering activity and precedes fusogenic activity in the vesicle membrane fusion pathway." 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle docking activity" 
+
+- [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
 
 
 ### vesicle membrane tethering activity `http://purl.obolibrary.org/obo/GO_7770062`
