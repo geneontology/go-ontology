@@ -17,13 +17,13 @@ The project follows standard ODK layout:
  * terms/   ## checked out copies, for editing
     * GO_NNNNNNN.obo # checked out local copy
  * .claude/
-    * agents/   ## specific agent instructions    
+    * skills/   ## specific skill instructions
 
  For make targets, a standard pattern is `cd src/ontology && make <TARGET>`. Beware of accidentally changing to the `src/ontology`
  dir and forgetting where you are. It is best to run things from the top level
 
-These instructions are optimized for claude code. Subagents are used, and defined
-in `.claude/agents/`
+These instructions are optimized for claude code. Skills are used, and defined
+in `.claude/skills/`
 
 ## PLAN: Analyze Issue, Plan Approach, and create a TODO/checklist
 
@@ -35,26 +35,26 @@ Create a plan for addressing the issue. The plan MUST have the following compone
 
 - [ ] PLAN: The issue and all its context has been analyzed, the intent is clear, and a plan for addressing it has been created
 - [ ] PRE-VALIDATION: Current state of the ontology validates prior to any changes (if not, we can't validate our changes)
-- [ ] RESEARCH: If appropriate, necessary background research performed; always invoke [research-agent] for this, it produces a RESEARCH.md file
+- [ ] RESEARCH: If appropriate, necessary background research performed; always use /research for this, it produces a RESEARCH.md file
 - [ ] TERM-SEARCH: Relevant ontology terms (this ontology or others) have been consulted
-- [ ] DESIGN-PATTERNS: Existing design patterms, terms, and documentation consulted; always invoke [design-pattern-agent] for this, which produces a DESIGN_PATTERNS.md doc
+- [ ] DESIGN-PATTERNS: Existing design patterns, terms, and documentation consulted; always use /design-pattern for this, which produces a DESIGN_PATTERNS.md doc
 - [ ] EDITS: correct procedure is followed for making edits, using checkin/checkout commands, and local `./terms/ folder
 - [ ] RELATIONSHIPS: appropriate relationships and logical axioms are included
     - [ ] logical definitions are appropriate, and are not over-specified, and conform to DESIGN_PATTERNS.md doc
     - [ ] relationships conform to other similar terms in the ontology
     - [ ] is_a is not over-asserted
     - [ ] is_a, part_of, and other relationships specified appropriately
-- [ ] SPECIALIZED-EDITS: include checklists from the following subagents as appropriate, depending on the nature of the request
-    - term-obsoletion agent; MUST be invoked for anything involving obsoletion/deprecation of terms
-    - chemical-entity-agent; for any request involving CHEBI or chemical terms or nomenclature
-    - reaction-agent; for any request involving RHEA, EC, or the cataltic activity branch of GO
-    - taxon-constraint-agent; for any request involving restricting usage of a term or branch to a taxon/clade
+- [ ] SPECIALIZED-EDITS: include checklists from the following skills as appropriate, depending on the nature of the request
+    - /term-obsoletion skill; MUST be used for anything involving obsoletion/deprecation of terms
+    - /chemical-entity skill; for any request involving CHEBI or chemical terms or nomenclature
+    - /reaction skill; for any request involving RHEA, EC, or the catalytic activity branch of GO
+    - /taxon-constraint skill; for any request involving restricting usage of a term or branch to a taxon/clade
 - [ ] METADATA: The metadata for the changes is correct
 - [ ] AUTOMATED-VALIDATION: The ontology validates correctly using `make travis_build` after changes have been made
-- [ ] REFERENCE-VALIDATION: All references (eg PMIDs) introduced have been validated, and are relevant, and not typos or hallucinations; always invoke [research-agent] for this
+- [ ] REFERENCE-VALIDATION: All references (eg PMIDs) introduced have been validated, and are relevant, and not typos or hallucinations; always use /research for this
 - [ ] CHANGES-COMMITTED
     - [ ] RELEVANT-FILES: changes to src/ontology/go-edit.obo and any other content file are committed with detailed messages and signatures
-    - [ ] ACCURACY: The changes made are biologically correct, accurate, and reasonably complete; always invoke [research-agent] to obtain background material
+    - [ ] ACCURACY: The changes made are biologically correct, accurate, and reasonably complete; always use /research to obtain background material
     - [ ] ISSUE-ALIGNMENT: The changes made are in accordance with the issue request and forms a coherent unit of work;
     - [ ] PR is created or amended
     - [ ] Communicate high level summary of changes on original issue(s), and any requests for further info 
@@ -72,13 +72,13 @@ BEFORE you start work, and this requires a minor fix, go ahead and make it.
 Otherwise you should not make edits, and end after communicating back on the original issue with
 a detailed description of what is invalid, and a plan for how to fix things.
 
-## RESEARCH [see also: research-agent]
+## RESEARCH [see also: /research skill]
 
 You can do searches for literature using web search tools. For focused deep research, you can use `deep-research-client`.
 
 Use PMIDs where possible, and ALWAYS check that these PMIDs are the correct ones, and not typos or hallucinated.
 
-Never fabricate PMIDs or other reference IDs, always use the research-agent to produce a RESEARCH.md file which you can copy from.
+Never fabricate PMIDs or other reference IDs, always use /research to produce a RESEARCH.md file which you can copy from.
 
 ## TERM-SEARCH: Search and lookup of GO terms
 
@@ -103,12 +103,12 @@ Troubleshooting: if you can't find `go-edit.obo` it likely means you have change
 
 ### Searching terms in other ontologies
 
-See [external-term-lookup] agent if you need to find non-GO terms.
+Use the /external-term-lookup skill if you need to find non-GO terms.
 
 ## DESIGN-PATTERNS: consult documented patterns for categories of ontology terms
 
 This ontology includes many design patterns for different categories of term. If your plan involves making non-trivial edits then
-you must use the *design-pattern-agent* to research what design patterns exist for terms to be edited.
+you must use the /design-pattern skill to research what design patterns exist for terms to be edited.
 
 ### EDITS: creating changes to be checked into the edit obo file
 
@@ -201,7 +201,7 @@ These are necessary and sufficient conditions, so if there is another term for d
 
 The reasoner can find the most specific `is_a`, so it's OK to leave this off. The edit file is in "pre-reasoned" state. Similarly, it's generally an anti-pattern to have more than one asserted `is_a`.
 
-Always make sure that design patterns are conformed to, especially for compositional terms. Use the [design-pattern] agent to check for conformance of name, def and logical def.
+Always make sure that design patterns are conformed to, especially for compositional terms. Use the /design-pattern skill to check for conformance of name, def and logical def.
 
 But also use prior art: look for similar terms with `obo-grep.pl`
 
@@ -309,7 +309,7 @@ Similarly
 
 3. **Definition Source**: when adding or updating definitions
    - If an ORCID is provided by the user, and that ORCID is a person that contributed to the definition, include in definition provenance
-   - Include any necessary PMIDs, but ensure these are validated; these should be taken from REFERENCES.md (produced by the research agent)
+   - Include any necessary PMIDs, but ensure these are validated; these should be taken from REFERENCES.md (produced by /research)
 
 Example:
 
@@ -340,21 +340,21 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 ```
 
 
-## SPECIALIZED-EDITS: appropriate subagents should be used for special cases
+## SPECIALIZED-EDITS: appropriate skills should be used for special cases
 
-- term obsoletions, invoke the [term-obsoletion] agent
+- term obsoletions, use the /term-obsoletion skill
     - ensure no references (in ontology or annotations) to obsolete terms; rewire if necessary
     - ensure migration of axioms
     - ensure minimal axioms remain in obsolete term
     - follow metadata conventions
-- anything involving CHEBI/chemical entities, invoke the [chemical-entity-agent]
+- anything involving CHEBI/chemical entities, use the /chemical-entity skill
     - use ph7.3 forms
-- mappings, invoke the [mapping-agent] agent
+- mappings, use the /mapping skill
     - always provide the skos predicate on a mapping when you can
     - always check the mapped term to see if a mapping makes sense
     - look at mappings holistically
-- for anything involving reactions/catalytic activities/RHEA/EC, invoke the [reaction-agent]
-- for taxon constraints, see the [taxon-constraint-agent]
+- for anything involving reactions/catalytic activities/RHEA/EC, use the /reaction skill
+- for taxon constraints, use the /taxon-constraint skill
     - these are in `src/taxon_constraints` (not the main obo file)
         - `never_in_taxon.tsv`
         - `only_in_taxon.tsv`
@@ -393,7 +393,7 @@ To debug syntax errors, try: `cd src/ontology && robot convert -vvv -i go-edit.o
 
 ## REFERENCE-VALIDATION
 
-Ensure that any references introduced came from the RESEARCH.md file created by the research-agent.
+Ensure that any references introduced came from the RESEARCH.md file created by /research.
 
 RESEARCH.md can be included in your gh issue comments verbatim (but you can exclude references that turned out to be irrelevant)
 

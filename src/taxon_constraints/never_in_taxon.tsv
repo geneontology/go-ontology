@@ -8,8 +8,6 @@ GO:0006097	glyoxylate cycle	NCBITaxon:6656	Arthropoda	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:4895	Schizosaccharomyces	
 GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	PMID:28732077
 GO:0103016	tRNA-uridine 2-sulfurtransferase activity	NCBITaxon:33208	Metazoa	PMID:28732077
-GO:0070189 	kynurenine metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0019628 	urate catabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0003885 	D-arabinono-1,4-lactone oxidase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0032115 	sorbose reductase activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:31132130
 GO:0050085	mannitol 2-dehydrogenase (NADP+) activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:31132130
@@ -69,8 +67,6 @@ GO:0031252	cell leading edge	NCBITaxon:4751	Fungi
 GO:0050321	tau-protein kinase activity	NCBITaxon:4751	Fungi	
 GO:0031910	cytostome	NCBITaxon:4751	Fungi	
 GO:0004131	cytosine deaminase activity	NCBITaxon:7742	Vertebrata <Metazoa>	
-GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4896	Schizosaccharomyces pombe	
-GO:0009089	lysine biosynthetic process via diaminopimelate	NCBITaxon:4930	Saccharomyces cerevisiae	
 GO:0019853	L-ascorbic acid biosynthetic process	NCBITaxon:4890	Ascomycota	
 GO:0019853	L-ascorbic acid biosynthetic process	NCBITaxon:9606	Homo sapiens	
 GO:0006540	gamma-aminobutyrate shunt	NCBITaxon:4896	Schizosaccharomyces pombe	
@@ -485,8 +481,6 @@ GO:0014850	response to muscle activity	NCBITaxon:4751	Fungi
 GO:0007164	establishment of tissue polarity	NCBITaxon:4751	Fungi	
 GO:0090698	post-embryonic plant morphogenesis	NCBITaxon:4751	Fungi	
 GO:0031547	brain-derived neurotrophic factor receptor signaling pathway	NCBITaxon:4751	Fungi	
-GO:0019353	protoporphyrinogen IX biosynthetic process from glutamate	NCBITaxon:4751	Fungi	
-GO:0019353	protoporphyrinogen IX biosynthetic process from glutamate	NCBITaxon:33208	Metazoa	
 GO:0043588	skin development	NCBITaxon:50557	Insecta	
 GO:0001533	cornified envelope	NCBITaxon:50557	Insecta	
 GO:0007338	single fertilization	NCBITaxon:58024	Spermatophyta	
@@ -738,3 +732,19 @@ GO:0042566	hydrogenosome	NCBITaxon:4890	Ascomycota
 GO:0042566	hydrogenosome	NCBITaxon:33090	Viridiplantae	
 GO:0033099	attachment organelle	NCBITaxon:2759	Eukaryota	
 GO:0000050	urea cycle	NCBITaxon:50557	Insecta	
+GO:1990074	polyuridylation-dependent mRNA catabolic process	NCBITaxon:2	Bacteria	
+GO:1901174	phytoene biosynthetic process	NCBITaxon:33208	Metazoa	
+GO:1901174	phytoene biosynthetic process	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:35209220
+GO:1901174	phytoene biosynthetic process	NCBITaxon:4896	Saccharomyces cerevisiae	PMID:35209220
+GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:33208	Metazoa	
+GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:35209220
+GO:0046905	15-cis-phytoene synthase activity	NCBITaxon:4896	Saccharomyces cerevisiae	PMID:35209220
+GO:0046146	tetrahydrobiopterin metabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	 
+GO:0030212	hyaluronan metabolic process	NCBITaxon:4751	Fungi	
+GO:0030212	hyaluronan metabolic process	NCBITaxon:6656	Arthropoda	
+GO:0050655	dermatan sulfate proteoglycan metabolic process	NCBITaxon:4751	Fungi	
+GO:0050655	dermatan sulfate proteoglycan metabolic process	NCBITaxon:6656	Arthropoda	
+GO:0030202	heparin proteoglycan metabolic process	NCBITaxon:4751	Fungi	
+GO:0030202	heparin proteoglycan metabolic process	NCBITaxon:6656	Arthropoda	
+GO:0042339	keratan sulfate proteoglycan metabolic proces	NCBITaxon:4751	Fungi	
+GO:0042339	keratan sulfate proteoglycan metabolic proces	NCBITaxon:6656	Arthropoda	

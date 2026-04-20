@@ -19,7 +19,6 @@ GO:0000426	micropexophagy	NCBITaxon:716545	saccharomyceta
 GO:0000747	conjugation with cellular fusion	NCBITaxon:Union_0000022	Fungi or Dictyostelium	
 GO:0000748	conjugation with mutual genetic exchange	NCBITaxon:5878	Ciliophora	
 GO:0000749	response to pheromone triggering conjugation with cellular fusion	NCBITaxon:4751	Fungi	
-GO:0000750	pheromone-dependent signal transduction involved in conjugation with cellular fusion	NCBITaxon:4751	Fungi	
 GO:0000751	mitotic cell cycle G1 arrest in response to pheromone	NCBITaxon:4751	Fungi	
 GO:0000755	cytogamy	NCBITaxon:4751	Fungi	
 GO:0000911	cytokinesis by cell plate formation	NCBITaxon:33090	Viridiplantae	
@@ -953,3 +952,5 @@ GO:0098795	global gene silencing by mRNA cleavage	NCBITaxon:2	Bacteria
 GO:0141065	maternal mRNA clearance	NCBITaxon:2759	Eukaryota	
 GO:0000958	mitochondrial mRNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0000956	nuclear-transcribed mRNA catabolic process	NCBITaxon:2759	Eukaryota	
+GO:0140400	embryonic sheath	NCBITaxon:6231	Nematoda	PMID:28526752
+GO:0019658	bifid shunt	NCBITaxon:2	Bacteria	

@@ -107,10 +107,10 @@ http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle	http://
 http://purl.obolibrary.org/obo/GO_0160315	endosomal intralumenal vesicle lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center	http://purl.obolibrary.org/obo/GO_0032153	cell division site
 http://purl.obolibrary.org/obo/GO_0062246	exocytic vesicle lumen	http://purl.obolibrary.org/obo/GO_0098566	transport vesicle lumen	http://purl.obolibrary.org/obo/GO_0070382	exocytic vesicle
-http://purl.obolibrary.org/obo/GO_0010367	extracellular isoamylase complex	http://purl.obolibrary.org/obo/GO_0043033	isoamylase complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0065010	extracellular membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0043227	membrane-bounded organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0043264	extracellular membraneless organelle	http://purl.obolibrary.org/obo/GO_0043228	membraneless organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0043230	extracellular organelle	http://purl.obolibrary.org/obo/GO_0043226	organelle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
+http://purl.obolibrary.org/obo/GO_0140392	extracellular protein-containing complex	http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_1903561	extracellular vesicle	http://purl.obolibrary.org/obo/GO_0031982	vesicle	http://purl.obolibrary.org/obo/GO_0005576	extracellular region
 http://purl.obolibrary.org/obo/GO_0090498	extrinsic component of Golgi membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0000139	Golgi membrane
 http://purl.obolibrary.org/obo/GO_0031244	extrinsic component of cell outer membrane	http://purl.obolibrary.org/obo/GO_0019898	extrinsic component of membrane	http://purl.obolibrary.org/obo/GO_0009279	cell outer membrane
@@ -179,7 +179,6 @@ http://purl.obolibrary.org/obo/GO_1902673	left posteriolateral basal body	http:/
 http://purl.obolibrary.org/obo/GO_1902675	left ventral basal body	http://purl.obolibrary.org/obo/GO_0036064	ciliary basal body	http://purl.obolibrary.org/obo/GO_0097558	left ventral flagellum
 http://purl.obolibrary.org/obo/GO_0014803	longitudinal sarcoplasmic reticulum lumen	http://purl.obolibrary.org/obo/GO_0031974	membrane-enclosed lumen	http://purl.obolibrary.org/obo/GO_0014801	longitudinal sarcoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_1902501	lysosomal HOPS complex	http://purl.obolibrary.org/obo/GO_0030897	HOPS complex	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
-http://purl.obolibrary.org/obo/GO_0090123	lysosomal glycocalyx	http://purl.obolibrary.org/obo/GO_0030112	glycocalyx	http://purl.obolibrary.org/obo/GO_0005764	lysosome
 http://purl.obolibrary.org/obo/GO_0046611	lysosomal proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0033176	proton-transporting V-type ATPase complex	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
 http://purl.obolibrary.org/obo/GO_0046610	lysosomal proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0033179	proton-transporting V-type ATPase, V0 domain	http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane
 http://purl.obolibrary.org/obo/GO_0046612	lysosomal proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0033180	proton-transporting V-type ATPase, V1 domain	http://purl.obolibrary.org/obo/GO_0005764	lysosome

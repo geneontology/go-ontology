@@ -20,7 +20,7 @@ name: AI Agent GitHub Mentions
 
 env:
   AGENT_NAME: dragon-ai-agent
-  MODEL: claude-opus-4-5-20251101
+  MODEL: claude-opus-4-7
   TOOLS_DIR: ${{ github.workspace }}/tools
   ARTIFACT_RETENTION_DAYS: 90
   TIMEOUT_MINUTES: 30
