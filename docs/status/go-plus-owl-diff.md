@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-20/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-21/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-21" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -671,11 +671,15 @@
 
 - [3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0000252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60088" 
 
+- [3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0000252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60096" 
+
 - [3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0000252) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [20673](http://rdf.rhea-db.org/20673) 
 
 - [3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0000252) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33447](http://rdf.rhea-db.org/33447) 
 
 - [3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0000252) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60088](http://rdf.rhea-db.org/60088) 
+
+- [3-beta-hydroxysteroid dehydrogenase [NAD(P)+]/C4-decarboxylase activity](http://purl.obolibrary.org/obo/GO_0000252) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60096](http://rdf.rhea-db.org/60096) 
 
 
 ### 3-butenylglucosinolate 2-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0062131`
@@ -753,6 +757,10 @@
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31075" 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31163" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31171" 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31191" 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31199" 
@@ -767,25 +775,79 @@
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:45992" 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47424" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47436" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47452" 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:72579" 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76647" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78559" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78575" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78591" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78603" 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78911" 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78915" 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:82923" 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:82959" 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:82995" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83027" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83063" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83067" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83147" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83211" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83323" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83359" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83375" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83391" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84395" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84399" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84403" 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84407" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84627" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84631" 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84659" 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84663" 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84667" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85127" 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [30547](http://rdf.rhea-db.org/30547) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [31075](http://rdf.rhea-db.org/31075) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [31163](http://rdf.rhea-db.org/31163) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [31171](http://rdf.rhea-db.org/31171) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [31191](http://rdf.rhea-db.org/31191) 
 
@@ -801,21 +863,71 @@
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [45992](http://rdf.rhea-db.org/45992) 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47424](http://rdf.rhea-db.org/47424) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47436](http://rdf.rhea-db.org/47436) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47452](http://rdf.rhea-db.org/47452) 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [72579](http://rdf.rhea-db.org/72579) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76647](http://rdf.rhea-db.org/76647) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78559](http://rdf.rhea-db.org/78559) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78575](http://rdf.rhea-db.org/78575) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78591](http://rdf.rhea-db.org/78591) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78603](http://rdf.rhea-db.org/78603) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78911](http://rdf.rhea-db.org/78911) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78915](http://rdf.rhea-db.org/78915) 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [82923](http://rdf.rhea-db.org/82923) 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [82959](http://rdf.rhea-db.org/82959) 
 
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [82995](http://rdf.rhea-db.org/82995) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83027](http://rdf.rhea-db.org/83027) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83063](http://rdf.rhea-db.org/83063) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83067](http://rdf.rhea-db.org/83067) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83147](http://rdf.rhea-db.org/83147) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83211](http://rdf.rhea-db.org/83211) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83323](http://rdf.rhea-db.org/83323) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83359](http://rdf.rhea-db.org/83359) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83375](http://rdf.rhea-db.org/83375) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83391](http://rdf.rhea-db.org/83391) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84395](http://rdf.rhea-db.org/84395) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84399](http://rdf.rhea-db.org/84399) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84403](http://rdf.rhea-db.org/84403) 
+
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84407](http://rdf.rhea-db.org/84407) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84627](http://rdf.rhea-db.org/84627) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84631](http://rdf.rhea-db.org/84631) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84659](http://rdf.rhea-db.org/84659) 
 
 - [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84663](http://rdf.rhea-db.org/84663) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84667](http://rdf.rhea-db.org/84667) 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85127](http://rdf.rhea-db.org/85127) 
 
 
 ### 3-oxoadipate CoA-transferase activity `http://purl.obolibrary.org/obo/GO_0047569`
@@ -1186,13 +1298,21 @@
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38847" 
 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40427" 
+
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40519" 
+
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40643" 
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40651" 
 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40811" 
+
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41223" 
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53500" 
+
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:56428" 
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62036" 
 
@@ -1200,13 +1320,21 @@
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38847](http://rdf.rhea-db.org/38847) 
 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40427](http://rdf.rhea-db.org/40427) 
+
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40519](http://rdf.rhea-db.org/40519) 
+
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40643](http://rdf.rhea-db.org/40643) 
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40651](http://rdf.rhea-db.org/40651) 
 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40811](http://rdf.rhea-db.org/40811) 
+
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [41223](http://rdf.rhea-db.org/41223) 
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53500](http://rdf.rhea-db.org/53500) 
+
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [56428](http://rdf.rhea-db.org/56428) 
 
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [62036](http://rdf.rhea-db.org/62036) 
 
@@ -2407,6 +2535,8 @@
 
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47756" 
 
+- [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47768" 
+
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47772" 
 
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47776" 
@@ -2425,11 +2555,19 @@
 
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47756](http://rdf.rhea-db.org/47756) 
 
+- [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47768](http://rdf.rhea-db.org/47768) 
+
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47772](http://rdf.rhea-db.org/47772) 
 
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47776](http://rdf.rhea-db.org/47776) 
 
 - [RNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0062105) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [73759](http://rdf.rhea-db.org/73759) 
+
+
+### RNA polymerase II termination complex `http://purl.obolibrary.org/obo/GO_0110103`
+
+#### Added
+- [RNA polymerase II termination complex](http://purl.obolibrary.org/obo/GO_0110103) SubClassOf [phosphatase complex](http://purl.obolibrary.org/obo/GO_1903293) 
 
 
 ### RNA translocase activity `http://purl.obolibrary.org/obo/GO_0039630`
@@ -2474,6 +2612,30 @@
 #### Removed
 - [S-succinyltransferase activity](http://purl.obolibrary.org/obo/GO_0016751) SubClassOf [obsolete S-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016417) 
 
+
+
+### SIN/MEN two-component GAP complex `http://purl.obolibrary.org/obo/GO_1990334`
+#### Removed
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex that acts as a two-component GTPase-activating protein for Tem1 GTPase, thus regulating a signal transduction cascade, called the mitotic exit network (MEN), which is required for mitotic exit and cytokinesis. Bub2/Bfa1 keeps Tem1 inactive until the spindle is properly oriented, thus inhibiting MEN activation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16449187" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bhm" 
+
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [label](http://www.w3.org/2000/01/rdf-schema#label) "Bfa1-Bub2 complex" 
+
+#### Added
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31636"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Bfa1-Bub2 complex" 
+
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Byr4-Cdc16 GAP complex" 
+
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex that acts as a two-component GTPase-activating protein for the Tem1/Spg1 GTPase, thus regulating a signal transduction cascade (the mitotic exit network, MEN, in budding yeast; the septation initiation network, SIN, in fission yeast), which is required for mitotic exit and cytokinesis. The complex keeps the GTPase inactive until the spindle is properly oriented, thus inhibiting MEN/SIN activation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16449187" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bhm" 
+
+- [SIN/MEN two-component GAP complex](http://purl.obolibrary.org/obo/GO_1990334) [label](http://www.w3.org/2000/01/rdf-schema#label) "SIN/MEN two-component GAP complex" 
 
 
 ### TOM-TIM22-mediated mitochondrial inner membrane protein insertion `http://purl.obolibrary.org/obo/GO_7770061`
@@ -3030,6 +3192,12 @@
 
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42060" 
 
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42184" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42188" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43924" 
+
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:45120" 
 
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48728" 
@@ -3154,6 +3322,12 @@
 
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [42060](http://rdf.rhea-db.org/42060) 
 
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [42184](http://rdf.rhea-db.org/42184) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [42188](http://rdf.rhea-db.org/42188) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [43924](http://rdf.rhea-db.org/43924) 
+
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [45120](http://rdf.rhea-db.org/45120) 
 
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [48728](http://rdf.rhea-db.org/48728) 
@@ -3248,13 +3422,51 @@
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:54920" 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58328" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58332" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58336" 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58364" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58368" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58372" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58376" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58380" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58384" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58400" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58404" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58408" 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58420" 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58424" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58428" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58432" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58436" 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58668" 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59448" 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59452" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59456" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59460" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59464" 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59928" 
 
@@ -3284,13 +3496,51 @@
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [54920](http://rdf.rhea-db.org/54920) 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58328](http://rdf.rhea-db.org/58328) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58332](http://rdf.rhea-db.org/58332) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58336](http://rdf.rhea-db.org/58336) 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58364](http://rdf.rhea-db.org/58364) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58368](http://rdf.rhea-db.org/58368) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58372](http://rdf.rhea-db.org/58372) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58376](http://rdf.rhea-db.org/58376) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58380](http://rdf.rhea-db.org/58380) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58384](http://rdf.rhea-db.org/58384) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58400](http://rdf.rhea-db.org/58400) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58404](http://rdf.rhea-db.org/58404) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58408](http://rdf.rhea-db.org/58408) 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58420](http://rdf.rhea-db.org/58420) 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58424](http://rdf.rhea-db.org/58424) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58428](http://rdf.rhea-db.org/58428) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58432](http://rdf.rhea-db.org/58432) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58436](http://rdf.rhea-db.org/58436) 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58668](http://rdf.rhea-db.org/58668) 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59448](http://rdf.rhea-db.org/59448) 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59452](http://rdf.rhea-db.org/59452) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59456](http://rdf.rhea-db.org/59456) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59460](http://rdf.rhea-db.org/59460) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59464](http://rdf.rhea-db.org/59464) 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59928](http://rdf.rhea-db.org/59928) 
 
@@ -3346,13 +3596,65 @@
 ### aldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0033721`
 
 #### Added
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:27918" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59428" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59904" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59908" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59912" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59916" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60692" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60720" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60724" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76651" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76659" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76663" 
+
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76967" 
 
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:80815" 
 
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:80819" 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [27918](http://rdf.rhea-db.org/27918) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59428](http://rdf.rhea-db.org/59428) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59904](http://rdf.rhea-db.org/59904) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59908](http://rdf.rhea-db.org/59908) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59912](http://rdf.rhea-db.org/59912) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59916](http://rdf.rhea-db.org/59916) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60692](http://rdf.rhea-db.org/60692) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60720](http://rdf.rhea-db.org/60720) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60724](http://rdf.rhea-db.org/60724) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76651](http://rdf.rhea-db.org/76651) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76659](http://rdf.rhea-db.org/76659) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76663](http://rdf.rhea-db.org/76663) 
+
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76967](http://rdf.rhea-db.org/76967) 
 
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [80815](http://rdf.rhea-db.org/80815) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [80819](http://rdf.rhea-db.org/80819) 
 
 
 ### alditol phosphate metabolic process `http://purl.obolibrary.org/obo/GO_0052646`
@@ -3601,23 +3903,61 @@
 ### aminoacylase activity `http://purl.obolibrary.org/obo/GO_0004046`
 
 #### Added
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47124" 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49796" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51300" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51312" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51316" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51352" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51356" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51360" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51444" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51456" 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:51460" 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:54188" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64108" 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64112" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64116" 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64120" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64124" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64128" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64132" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64136" 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64140" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64144" 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64156" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64176" 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64180" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64184" 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64188" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64192" 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64196" 
 
@@ -3627,23 +3967,61 @@
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64212" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [47124](http://rdf.rhea-db.org/47124) 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [49796](http://rdf.rhea-db.org/49796) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51300](http://rdf.rhea-db.org/51300) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51312](http://rdf.rhea-db.org/51312) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51316](http://rdf.rhea-db.org/51316) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51352](http://rdf.rhea-db.org/51352) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51356](http://rdf.rhea-db.org/51356) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51360](http://rdf.rhea-db.org/51360) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51444](http://rdf.rhea-db.org/51444) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51456](http://rdf.rhea-db.org/51456) 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [51460](http://rdf.rhea-db.org/51460) 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [54188](http://rdf.rhea-db.org/54188) 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64108](http://rdf.rhea-db.org/64108) 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64112](http://rdf.rhea-db.org/64112) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64116](http://rdf.rhea-db.org/64116) 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64120](http://rdf.rhea-db.org/64120) 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64124](http://rdf.rhea-db.org/64124) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64128](http://rdf.rhea-db.org/64128) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64132](http://rdf.rhea-db.org/64132) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64136](http://rdf.rhea-db.org/64136) 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64140](http://rdf.rhea-db.org/64140) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64144](http://rdf.rhea-db.org/64144) 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64156](http://rdf.rhea-db.org/64156) 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64176](http://rdf.rhea-db.org/64176) 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64180](http://rdf.rhea-db.org/64180) 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64184](http://rdf.rhea-db.org/64184) 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64188](http://rdf.rhea-db.org/64188) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64192](http://rdf.rhea-db.org/64192) 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64196](http://rdf.rhea-db.org/64196) 
 
@@ -4811,17 +5189,35 @@
 #### Added
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18761" 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33275" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:35663" 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38383" 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38455" 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38483" 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38511" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38595" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38651" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38659" 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39935" 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39939" 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40967" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41219" 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42604" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44176" 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44712" 
 
@@ -4833,17 +5229,35 @@
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [18761](http://rdf.rhea-db.org/18761) 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33275](http://rdf.rhea-db.org/33275) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [35663](http://rdf.rhea-db.org/35663) 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38383](http://rdf.rhea-db.org/38383) 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38455](http://rdf.rhea-db.org/38455) 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38483](http://rdf.rhea-db.org/38483) 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38511](http://rdf.rhea-db.org/38511) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38595](http://rdf.rhea-db.org/38595) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38651](http://rdf.rhea-db.org/38651) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38659](http://rdf.rhea-db.org/38659) 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [39935](http://rdf.rhea-db.org/39935) 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [39939](http://rdf.rhea-db.org/39939) 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40967](http://rdf.rhea-db.org/40967) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [41219](http://rdf.rhea-db.org/41219) 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [42604](http://rdf.rhea-db.org/42604) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44176](http://rdf.rhea-db.org/44176) 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44712](http://rdf.rhea-db.org/44712) 
 
@@ -5104,6 +5518,35 @@
 - [endoplasmic reticulum-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160214) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31866"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [endoplasmic reticulum-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160214) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
+### endoplasmic reticulum-vacuole tether activity `http://purl.obolibrary.org/obo/GO_7770066`
+
+#### Added
+- Class: [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31874"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-21T00:26:25Z" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ER-vacuole tether activity" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vacuole-ER tether activity" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vacuole-endoplasmic reticulum tether activity" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770066" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together an endoplasmic reticulum membrane and a vacuole membrane either via membrane lipid binding or by interacting with a membrane protein, to establish or maintain membrane contact sites." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26283797" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum-vacuole tether activity" 
+
+- [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) SubClassOf [endoplasmic reticulum-organelle membrane tether activity](http://purl.obolibrary.org/obo/GO_0170009) 
 
 
 ### enterobactin transport `http://purl.obolibrary.org/obo/GO_0042930`
@@ -5939,17 +6382,25 @@
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:66708" 
 
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:73967" 
+
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:73971" 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:73975" 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74103" 
 
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74159" 
+
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74163" 
+
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74247" 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74251" 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76971" 
+
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76975" 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76979" 
 
@@ -5985,17 +6436,25 @@
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [66708](http://rdf.rhea-db.org/66708) 
 
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [73967](http://rdf.rhea-db.org/73967) 
+
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [73971](http://rdf.rhea-db.org/73971) 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [73975](http://rdf.rhea-db.org/73975) 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74103](http://rdf.rhea-db.org/74103) 
 
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74159](http://rdf.rhea-db.org/74159) 
+
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74163](http://rdf.rhea-db.org/74163) 
+
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74247](http://rdf.rhea-db.org/74247) 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74251](http://rdf.rhea-db.org/74251) 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76971](http://rdf.rhea-db.org/76971) 
+
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76975](http://rdf.rhea-db.org/76975) 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76979](http://rdf.rhea-db.org/76979) 
 
@@ -6560,9 +7019,19 @@
 
 
 
+### mRNA 5'-diphosphatase activity `http://purl.obolibrary.org/obo/GO_0034353`
+
+#### Added
+- [mRNA 5'-diphosphatase activity](http://purl.obolibrary.org/obo/GO_0034353) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31924"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mRNA 5'-diphosphatase activity](http://purl.obolibrary.org/obo/GO_0034353) SubClassOf [polynucleotide 5'-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004651) 
+
+
 ### mRNA 5'-triphosphate monophosphatase activity `http://purl.obolibrary.org/obo/GO_0140818`
 
 #### Added
+- [mRNA 5'-triphosphate monophosphatase activity](http://purl.obolibrary.org/obo/GO_0140818) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31924"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [mRNA 5'-triphosphate monophosphatase activity](http://purl.obolibrary.org/obo/GO_0140818) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60828" 
 
 - [mRNA 5'-triphosphate monophosphatase activity](http://purl.obolibrary.org/obo/GO_0140818) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60832" 
@@ -6570,6 +7039,16 @@
 - [mRNA 5'-triphosphate monophosphatase activity](http://purl.obolibrary.org/obo/GO_0140818) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60828](http://rdf.rhea-db.org/60828) 
 
 - [mRNA 5'-triphosphate monophosphatase activity](http://purl.obolibrary.org/obo/GO_0140818) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60832](http://rdf.rhea-db.org/60832) 
+
+- [mRNA 5'-triphosphate monophosphatase activity](http://purl.obolibrary.org/obo/GO_0140818) SubClassOf [polynucleotide 5'-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004651) 
+
+
+### mRNA phosphatase activator activity `http://purl.obolibrary.org/obo/GO_0170008`
+#### Removed
+- [mRNA phosphatase activator activity](http://purl.obolibrary.org/obo/GO_0170008) SubClassOf [enzyme activator activity](http://purl.obolibrary.org/obo/GO_0008047) 
+
+#### Added
+- [mRNA phosphatase activator activity](http://purl.obolibrary.org/obo/GO_0170008) SubClassOf [phosphatase activator activity](http://purl.obolibrary.org/obo/GO_0019211) 
 
 
 ### malate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015140`
@@ -6763,7 +7242,15 @@
 #### Added
 - [methyltransferase cap1 activity](http://purl.obolibrary.org/obo/GO_0004483) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19617" 
 
+- [methyltransferase cap1 activity](http://purl.obolibrary.org/obo/GO_0004483) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60860" 
+
+- [methyltransferase cap1 activity](http://purl.obolibrary.org/obo/GO_0004483) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60864" 
+
 - [methyltransferase cap1 activity](http://purl.obolibrary.org/obo/GO_0004483) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [19617](http://rdf.rhea-db.org/19617) 
+
+- [methyltransferase cap1 activity](http://purl.obolibrary.org/obo/GO_0004483) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60860](http://rdf.rhea-db.org/60860) 
+
+- [methyltransferase cap1 activity](http://purl.obolibrary.org/obo/GO_0004483) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60864](http://rdf.rhea-db.org/60864) 
 
 
 ### methyltransferase cap2 activity `http://purl.obolibrary.org/obo/GO_0120550`
@@ -6988,6 +7475,8 @@
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39959" 
 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40607" 
+
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44312" 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44316" 
@@ -7025,6 +7514,8 @@
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38491](http://rdf.rhea-db.org/38491) 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [39959](http://rdf.rhea-db.org/39959) 
+
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40607](http://rdf.rhea-db.org/40607) 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44312](http://rdf.rhea-db.org/44312) 
 
@@ -8510,6 +9001,34 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents fake precision. The distinction between endocrine and other modes of hormone dispersal (paracrine, autocrine) is not always clear-cut, and this term was unevenly used relative to its parent." 
 
 - [obsolete endocrine hormone secretion](http://purl.obolibrary.org/obo/GO_0060986) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete endocrine hormone secretion" 
+
+
+### obsolete endoplasmic reticulum-peroxisome tethering `http://purl.obolibrary.org/obo/GO_0062095`
+#### Removed
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of an endoplasmic reticulum membrane to a peroxisome via molecular tethers that physically bridge the two membranes and attach them to each other." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28463579" 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum-peroxisome tethering" 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) SubClassOf [peroxisome localization](http://purl.obolibrary.org/obo/GO_0060151) 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31879"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [peroxisome-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0160229) 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of an endoplasmic reticulum membrane to a peroxisome via molecular tethers that physically bridge the two membranes and attach them to each other." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28463579" 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function rather than a biological process." 
+
+- [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete endoplasmic reticulum-peroxisome tethering" 
 
 
 ### obsolete epinephrine transport `http://purl.obolibrary.org/obo/GO_0048241`
@@ -10485,6 +11004,8 @@ ketone body catabolic process ;  GO:0046952."
 ### omega-hydroxyceramide transacylase activity `http://purl.obolibrary.org/obo/GO_0106341`
 
 #### Added
+- [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:55264" 
+
 - [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65648" 
 
 - [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65652" 
@@ -10506,6 +11027,8 @@ ketone body catabolic process ;  GO:0046952."
 - [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78007" 
 
 - [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78011" 
+
+- [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [55264](http://rdf.rhea-db.org/55264) 
 
 - [omega-hydroxyceramide transacylase activity](http://purl.obolibrary.org/obo/GO_0106341) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65648](http://rdf.rhea-db.org/65648) 
 
@@ -10780,6 +11303,31 @@ ketone body catabolic process ;  GO:0046952."
 - [peptidyl-lysine N6-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0018031) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 
+### peroxisome-chloroplast membrane tether activity `http://purl.obolibrary.org/obo/GO_7770065`
+
+#### Added
+- Class: [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31877"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-20T22:23:03Z" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "peroxisome-chloroplast membrane adaptor activity" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770065" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together the peroxisome membrane and the chloroplast membrane, establishing the localization of the peroxisome close to the chloroplast." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17215364" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome-chloroplast membrane tether activity" 
+
+- [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
 ### peroxisome-endoplasmic reticulum membrane tether activity `http://purl.obolibrary.org/obo/GO_0160229`
 #### Removed
 - [peroxisome-endoplasmic reticulum membrane tether activity](http://purl.obolibrary.org/obo/GO_0160229) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together a peroxisome and an ER membrane, either via membrane lipid binding or by interacting with a membrane protein." 
@@ -10923,9 +11471,45 @@ ketone body catabolic process ;  GO:0046952."
 - [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) SubClassOf [obsolete O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0008374) 
 
 #### Added
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53448" 
+
 - [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53452" 
 
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53456" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53460" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53464" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53468" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53472" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53476" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53516" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53520" 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53448](http://rdf.rhea-db.org/53448) 
+
 - [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53452](http://rdf.rhea-db.org/53452) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53456](http://rdf.rhea-db.org/53456) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53460](http://rdf.rhea-db.org/53460) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53464](http://rdf.rhea-db.org/53464) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53468](http://rdf.rhea-db.org/53468) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53472](http://rdf.rhea-db.org/53472) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53476](http://rdf.rhea-db.org/53476) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53516](http://rdf.rhea-db.org/53516) 
+
+- [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [53520](http://rdf.rhea-db.org/53520) 
 
 - [phosphatidylcholine-sterol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004607) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
@@ -12584,6 +13168,8 @@ ketone body catabolic process ;  GO:0046952."
 ### triacylglycerol lipase activity `http://purl.obolibrary.org/obo/GO_0004806`
 
 #### Added
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33271" 
+
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38379" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38387" 
@@ -12597,6 +13183,10 @@ ketone body catabolic process ;  GO:0046952."
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38411" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38419" 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38423" 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38499" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39931" 
 
@@ -12612,6 +13202,8 @@ ketone body catabolic process ;  GO:0046952."
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63436" 
 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33271](http://rdf.rhea-db.org/33271) 
+
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38379](http://rdf.rhea-db.org/38379) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38387](http://rdf.rhea-db.org/38387) 
@@ -12625,6 +13217,10 @@ ketone body catabolic process ;  GO:0046952."
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38411](http://rdf.rhea-db.org/38411) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38419](http://rdf.rhea-db.org/38419) 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38423](http://rdf.rhea-db.org/38423) 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38499](http://rdf.rhea-db.org/38499) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [39931](http://rdf.rhea-db.org/39931) 
 
@@ -12641,6 +13237,16 @@ ketone body catabolic process ;  GO:0046952."
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63436](http://rdf.rhea-db.org/63436) 
 
 
+### tricarboxylate secondary active transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005371`
+#### Removed
+- [tricarboxylate secondary active transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005371) SubClassOf [carboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046943) 
+
+- [tricarboxylate secondary active transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005371) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35753) 
+
+#### Added
+- [tricarboxylate secondary active transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005371) SubClassOf [tricarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015142) 
+
+
 ### tricarboxylic acid transmembrane transport `http://purl.obolibrary.org/obo/GO_0035674`
 #### Removed
 - [tricarboxylic acid transmembrane transport](http://purl.obolibrary.org/obo/GO_0035674) EquivalentTo [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_27093)) 
@@ -12651,6 +13257,18 @@ ketone body catabolic process ;  GO:0046952."
 - [tricarboxylic acid transmembrane transport](http://purl.obolibrary.org/obo/GO_0035674) EquivalentTo [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35753)) 
 
 - [tricarboxylic acid transmembrane transport](http://purl.obolibrary.org/obo/GO_0035674) SubClassOf [tricarboxylic acid transport](http://purl.obolibrary.org/obo/GO_0006842) 
+
+
+### tricarboxylic acid transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015142`
+#### Removed
+- [tricarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015142) EquivalentTo [transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022857) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_27093)) 
+
+- [tricarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015142) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid](http://purl.obolibrary.org/obo/CHEBI_27093) 
+
+#### Added
+- [tricarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015142) EquivalentTo [transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022857) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35753)) 
+
+- [tricarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015142) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [tricarboxylic acid anion](http://purl.obolibrary.org/obo/CHEBI_35753) 
 
 
 ### triglyceride-sterol O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047197`
