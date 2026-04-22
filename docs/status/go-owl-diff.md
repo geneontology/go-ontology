@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-21/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-22/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-21" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-22" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -4843,6 +4843,33 @@ ketone body catabolic process ;  GO:0046952."
 
 
 
+### contractile vacuole-plasma membrane tether activity `http://purl.obolibrary.org/obo/GO_7770067`
+
+#### Added
+- Class: [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31870"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-21T19:33:16Z" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "contractile vacuole-plasma membrane tethering activity" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "plasma membrane-contractile vacuole tether activity" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770067" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding activity of a molecule that brings together the contractile vacuolar membrane and the plasma membrane, either via membrane lipid binding or by interacting with a membrane protein, to establish or maintain the localization of the contractile vacuole at a specific plasma membrane discharge site." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22323285" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) [label](http://www.w3.org/2000/01/rdf-schema#label) "contractile vacuole-plasma membrane tether activity" 
+
+- [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
 ### copper ion import into Golgi lumen `http://purl.obolibrary.org/obo/GO_7770057`
 
 #### Added
@@ -5610,6 +5637,22 @@ ketone body catabolic process ;  GO:0046952."
 
 
 
+### early endosome to late endosome transport `http://purl.obolibrary.org/obo/GO_0045022`
+#### Removed
+- [early endosome to late endosome transport](http://purl.obolibrary.org/obo/GO_0045022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances, in membrane-bounded vesicles, from the early sorting endosomes to the late sorting endosomes; transport occurs along microtubules and can be experimentally blocked with microtubule-depolymerizing drugs." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29980602" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815316194" 
+
+#### Added
+- [early endosome to late endosome transport](http://purl.obolibrary.org/obo/GO_0045022) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31923"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [early endosome to late endosome transport](http://purl.obolibrary.org/obo/GO_0045022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances, in membrane-bounded vesicles, from the early sorting endosomes to the late sorting endosomes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29980602" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815316194" 
+
+
 ### ecdysone O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0004173`
 #### Removed
 - [ecdysone O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0004173) SubClassOf [O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0008374) 
@@ -5881,6 +5924,30 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [ethanolamine transport](http://purl.obolibrary.org/obo/GO_0034229) SubClassOf [organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) 
 
+
+
+### exocyst `http://purl.obolibrary.org/obo/GO_0000145`
+#### Removed
+- [exocyst](http://purl.obolibrary.org/obo/GO_0000145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse. At least eight complex components are conserved between yeast and mammals." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cilia" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15292201" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9700152" 
+
+#### Added
+- [exocyst](http://purl.obolibrary.org/obo/GO_0000145) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31922"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [exocyst](http://purl.obolibrary.org/obo/GO_0000145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle tethering complex peripherally associated with the plasma membrane that determines where vesicles dock and fuse. At least eight complex components are conserved between yeast and mammals." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cilia" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15292201" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9700152" 
 
 
 ### exocytic insertion of neurotransmitter receptor to plasma membrane `http://purl.obolibrary.org/obo/GO_0098881`
@@ -11413,6 +11480,42 @@ ketone body catabolic process ;  GO:0046952."
 - [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle membrane tethering activity" 
 
 - [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
+### vesicle targeting, trans-Golgi to periciliary membrane compartment `http://purl.obolibrary.org/obo/GO_0097712`
+#### Removed
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which vesicles formed at the trans-Golgi network are directed to the plasma membrane surrounding the base of the cilium, including the ciliary pocket, mediated by molecules at the vesicle membrane and target membrane surfaces." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26485645" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cilia" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24814148" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20106869" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23351793" 
+
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle targeting, trans-Golgi to periciliary membrane compartment" 
+
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) SubClassOf [vesicle targeting, to, from or within Golgi](http://purl.obolibrary.org/obo/GO_0048199) 
+
+#### Added
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31865"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "vesicle targeting, trans-Golgi to periciliary membrane compartment" 
+
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances from the trans-Golgi network to the periciliary membrane compartment, the specialized region of the plasma membrane surrounding the base of the cilium including the ciliary pocket, via vesicle-mediated transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26485645" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24814148" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20106869" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23351793" 
+
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Golgi to periciliary membrane compartment transport" 
+
+- [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) SubClassOf [Golgi to plasma membrane transport](http://purl.obolibrary.org/obo/GO_0006893) 
 
 
 ### vitamin B6 metabolic process `http://purl.obolibrary.org/obo/GO_0042816`
