@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-22/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-23/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-22" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-23" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -8972,6 +8972,46 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete citrulline metabolic process](http://purl.obolibrary.org/obo/GO_0000052) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete citrulline metabolic process" 
 
 
+### obsolete contractile vacuole tethering involved in discharge `http://purl.obolibrary.org/obo/GO_0140025`
+#### Removed
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/13407"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2017-05-02T09:50:10Z" 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "contractile vacuole tethering to plasma membrane" 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial, indirect interaction between a contractile vacuole membrane and a site of discharge in the plasma membrane. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior to docking and fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22323285" 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [label](http://www.w3.org/2000/01/rdf-schema#label) "contractile vacuole tethering involved in discharge" 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) EquivalentTo [vesicle targeting](http://purl.obolibrary.org/obo/GO_0006903) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [contractile vacuole discharge](http://purl.obolibrary.org/obo/GO_0070177)) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) SubClassOf [vesicle targeting](http://purl.obolibrary.org/obo/GO_0006903) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) SubClassOf [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [contractile vacuole discharge](http://purl.obolibrary.org/obo/GO_0070177) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31870"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [contractile vacuole-plasma membrane tether activity](http://purl.obolibrary.org/obo/GO_7770067) 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial, indirect interaction between a contractile vacuole membrane and a site of discharge in the plasma membrane. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior to docking and fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22323285" 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Obsoleted because this term describes a molecular function (tethering activity) rather than a biological process. Replaced by the molecular_function term GO:7770067 contractile vacuole-plasma membrane tether activity." 
+
+- [obsolete contractile vacuole tethering involved in discharge](http://purl.obolibrary.org/obo/GO_0140025) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete contractile vacuole tethering involved in discharge" 
+
+
 ### obsolete denatured protein binding `http://purl.obolibrary.org/obo/GO_0031249`
 #### Removed
 - [obsolete denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a denatured protein." 
@@ -10033,6 +10073,36 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete pheromone-dependent signal transduction involved in conjugation with cellular fusion" 
 
 
+### obsolete phosphoglucomutase (glucose-cofactor) activity `http://purl.obolibrary.org/obo/GO_0047468`
+#### Removed
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30193"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: glucose-1-phosphate = glucose-6-phosphate; using D-glucose as a cofactor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.4.2.5" 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "alpha-D-glucose 1,6-phosphomutase (glucose-cofactor)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.4.2.5" 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "glucose-1-phosphate phosphotransferase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.4.2.5" 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphoglucomutase (glucose-cofactor) activity" 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) SubClassOf [phosphoglucomutase activity](http://purl.obolibrary.org/obo/GO_0004614) 
+
+#### Added
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31927"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: glucose-1-phosphate = glucose-6-phosphate; using D-glucose as a cofactor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.4.2.5" 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this activity (EC:5.4.2.5) is not known to be catalyzed by any gene product. RHEA:23536, which is shared between EC:5.4.2.2 and EC:5.4.2.5, actually represents the EC:5.4.2.2 mechanism (alpha-D-glucose 1,6-bisphosphate-dependent) and remains as the exactMatch xref on the parent term GO:0004614 (phosphoglucomutase activity). EC:5.4.2.5 is retained on this obsolete term as the valid external reference." 
+
+- [obsolete phosphoglucomutase (glucose-cofactor) activity](http://purl.obolibrary.org/obo/GO_0047468) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phosphoglucomutase (glucose-cofactor) activity" 
+
+
 ### obsolete polyamine acetylation `http://purl.obolibrary.org/obo/GO_0032917`
 #### Removed
 - [obsolete polyamine acetylation](http://purl.obolibrary.org/obo/GO_0032917) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of polyamines by addition of acetyl groups." 
@@ -10844,6 +10914,92 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete spermine acetylation](http://purl.obolibrary.org/obo/GO_0032919) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete spermine acetylation" 
 
 
+### obsolete sulfide oxidation, using sulfide dehydrogenase `http://purl.obolibrary.org/obo/GO_0070222`
+#### Removed
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5274" 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide dehydrogenase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5274" 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfide oxidation, using sulfide dehydrogenase" 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) SubClassOf [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) 
+
+#### Added
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31842"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide dehydrogenase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ew" 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent a GO-CAM model." 
+
+- [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sulfide oxidation, using sulfide dehydrogenase" 
+
+
+### obsolete sulfide oxidation, using sulfur dioxygenase `http://purl.obolibrary.org/obo/GO_0070223`
+#### Removed
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5285" 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfur dioxygenase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5285" 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfide oxidation, using sulfur dioxygenase" 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) SubClassOf [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) 
+
+#### Added
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31842"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A sulfide oxidation process that proceeds via the reaction catalyzed by sulfur dioxygenase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ew" 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent a GO-CAM model." 
+
+- [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sulfide oxidation, using sulfur dioxygenase" 
+
+
+### obsolete synaptic vesicle targeting `http://purl.obolibrary.org/obo/GO_0016080`
+#### Removed
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which synaptic vesicles are directed to specific destination membranes, mediated by molecules at the vesicle membrane and target membrane surfaces." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [label](http://www.w3.org/2000/01/rdf-schema#label) "synaptic vesicle targeting" 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) EquivalentTo [vesicle targeting](http://purl.obolibrary.org/obo/GO_0006903) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [synaptic vesicle](http://purl.obolibrary.org/obo/GO_0008021)) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) SubClassOf [vesicle targeting](http://purl.obolibrary.org/obo/GO_0006903) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) SubClassOf [exocytic process](http://purl.obolibrary.org/obo/GO_0140029) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0016079) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [synaptic vesicle](http://purl.obolibrary.org/obo/GO_0008021) 
+
+#### Added
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31864"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0016079) 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The process in which synaptic vesicles are directed to specific destination membranes, mediated by molecules at the vesicle membrane and target membrane surfaces." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was made obsolete because the meaning of the term is ambiguous and usage has been inconsistent. The process it intended to describe is encompassed by the parent term synaptic vesicle exocytosis." 
+
+- [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete synaptic vesicle targeting" 
+
+
 ### obsolete trimethylenediamine catabolic process `http://purl.obolibrary.org/obo/GO_1901056`
 #### Removed
 - [obsolete trimethylenediamine catabolic process](http://purl.obolibrary.org/obo/GO_1901056) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
@@ -11020,6 +11176,50 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete unfolded protein binding" 
 
 
+### obsolete vacuole-ER tethering `http://purl.obolibrary.org/obo/GO_1990854`
+#### Removed
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "mcc" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2015-09-15T18:50:04Z" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vacuole-ER attachment" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vacuole-endoplasmic reticulum attachment" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vacuole-endoplasmic reticulum tethering" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of a lytic vacuole to the endoplasmic reticulum, which may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26283797" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [label](http://www.w3.org/2000/01/rdf-schema#label) "vacuole-ER tethering" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) SubClassOf [cellular component organization](http://purl.obolibrary.org/obo/GO_0016043) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) SubClassOf [maintenance of ER location](http://purl.obolibrary.org/obo/GO_0051685) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) SubClassOf [vacuolar localization](http://purl.obolibrary.org/obo/GO_1990849) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) SubClassOf [results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [endoplasmic reticulum-vacuole membrane contact site](http://purl.obolibrary.org/obo/GO_0098853) 
+
+#### Added
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31874"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endoplasmic reticulum-vacuole tether activity](http://purl.obolibrary.org/obo/GO_7770066) 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of a lytic vacuole to the endoplasmic reticulum, which may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26283797" 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. The molecular function is captured by GO:7770066 endoplasmic reticulum-vacuole tether activity." 
+
+- [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vacuole-ER tethering" 
+
+
 ### obsolete valine metabolic process `http://purl.obolibrary.org/obo/GO_0006573`
 #### Removed
 - [obsolete valine metabolic process](http://purl.obolibrary.org/obo/GO_0006573) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
@@ -11052,6 +11252,12 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete valine metabolic process](http://purl.obolibrary.org/obo/GO_0006573) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
 
 - [obsolete valine metabolic process](http://purl.obolibrary.org/obo/GO_0006573) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete valine metabolic process" 
+
+
+### obsolete vesicle targeting `http://purl.obolibrary.org/obo/GO_0005482`
+#### Removed
+- [obsolete vesicle targeting](http://purl.obolibrary.org/obo/GO_0005482) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [obsolete synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) 
+
 
 
 ### octopamine loading into synaptic vesicle `http://purl.obolibrary.org/obo/GO_0160312`
@@ -12563,6 +12769,36 @@ ketone body catabolic process ;  GO:0046952."
 - [retinol O-fatty-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050252) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 
+### retrograde cargo receptor complex, Golgi to ER `http://purl.obolibrary.org/obo/GO_0061852`
+#### Removed
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "retrograde transporter complex, Golgi to endoplasmic reticulum" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Transporter complex that recognises, binds and returns endoplasmic reticulum (ER) resident proteins that have trafficked to Golgi compartments. Targets proteins lacking the HDEL motif recognised by COPI-coated vesicles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bhm" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16093310" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [label](http://www.w3.org/2000/01/rdf-schema#label) "retrograde transporter complex, Golgi to ER" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) SubClassOf [transporter complex](http://purl.obolibrary.org/obo/GO_1990351) 
+
+#### Added
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31935"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "retrograde transporter complex, Golgi to ER" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "retrograde cargo receptor complex, Golgi to endoplasmic reticulum" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Cargo receptor complex that recognizes, binds and returns endoplasmic reticulum (ER) resident proteins that have trafficked to Golgi compartments. Targets proteins lacking the HDEL motif recognised by COPI-coated vesicles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bhm" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16093310" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) [label](http://www.w3.org/2000/01/rdf-schema#label) "retrograde cargo receptor complex, Golgi to ER" 
+
+- [retrograde cargo receptor complex, Golgi to ER](http://purl.obolibrary.org/obo/GO_0061852) SubClassOf [cargo receptor complex](http://purl.obolibrary.org/obo/GO_0062137) 
+
+
 ### riboflavin transport `http://purl.obolibrary.org/obo/GO_0032218`
 #### Removed
 - [riboflavin transport](http://purl.obolibrary.org/obo/GO_0032218) SubClassOf [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
@@ -12963,6 +13199,54 @@ ketone body catabolic process ;  GO:0046952."
 #### Added
 - [sulfate adenylyltransferase (ATP) activity](http://purl.obolibrary.org/obo/GO_0004781) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: sulfate + ATP + H+ = adenosine 5'-phosphosulfate + diphosphate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18133" 
+
+
+### sulfide oxidation `http://purl.obolibrary.org/obo/GO_0019418`
+#### Removed
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:Sulfide-Oxidation" 
+
+#### Added
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31842"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5274" 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5285" 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7927" 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "hydrogen sulfide catabolic process" 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [P222-PWY](http://identifiers.org/metacyc.reaction/P222-PWY) 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5274](http://identifiers.org/metacyc.reaction/PWY-5274) 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5285](http://identifiers.org/metacyc.reaction/PWY-5285) 
+
+- [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7927](http://identifiers.org/metacyc.reaction/PWY-7927) 
+
+
+### sulfide oxidation, using sulfide:quinone oxidoreductase `http://purl.obolibrary.org/obo/GO_0070221`
+#### Removed
+- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulfide oxidation, using sulfide-quinone reductase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide:quinone oxidoreductase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+#### Added
+- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31842"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide:quinone oxidoreductase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ew" 
+
+- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulfide oxidation, using sulfide-quinone reductase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 
 ### sulfopropanediol 3-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102157`
