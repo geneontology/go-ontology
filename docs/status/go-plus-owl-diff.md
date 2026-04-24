@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-23/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-24/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-23" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-24" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1728,6 +1728,10 @@
 #### Removed
 - [GABA catabolic process](http://purl.obolibrary.org/obo/GO_0009450) SubClassOf [obsolete GABA metabolic process](http://purl.obolibrary.org/obo/GO_0009448) 
 
+#### Added
+- [GABA catabolic process](http://purl.obolibrary.org/obo/GO_0009450) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:4AMINOBUTMETAB-PWY" 
+
+- [GABA catabolic process](http://purl.obolibrary.org/obo/GO_0009450) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [AMINOBUTMETAB-PWY](http://identifiers.org/metacyc.reaction/4AMINOBUTMETAB-PWY) 
 
 
 ### GDP-fucose import into Golgi lumen `http://purl.obolibrary.org/obo/GO_0036085`
@@ -5762,6 +5766,16 @@
 
 
 
+### extracellular region `http://purl.obolibrary.org/obo/GO_0005576`
+#### Removed
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products from multicellular organisms which are secreted from a cell but retained within the organism (i.e. released into the interstitial fluid or blood), consider the cellular component term 'extracellular space ; GO:0005615'." 
+
+#### Added
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31545"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897." 
+
+
 ### farnesyl diphosphate biosynthetic process, mevalonate pathway `http://purl.obolibrary.org/obo/GO_0010142`
 #### Removed
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has intermediate](http://purl.obolibrary.org/obo/RO_0002505) some [mevalonate](http://purl.obolibrary.org/obo/CHEBI_25350)) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [farnesyl diphosphate](http://purl.obolibrary.org/obo/CHEBI_50277)) 
@@ -8380,6 +8394,44 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete acetoacetic acid metabolic process](http://purl.obolibrary.org/obo/GO_0043438) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
 
 - [obsolete acetoacetic acid metabolic process](http://purl.obolibrary.org/obo/GO_0043438) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete acetoacetic acid metabolic process" 
+
+
+### obsolete actin capping protein of dynactin complex `http://purl.obolibrary.org/obo/GO_0005870`
+#### Removed
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A heterodimer consisting of alpha and beta subunits that binds to and caps the barbed ends of actin filaments, nucleates the polymerization of actin monomers but does not sever actin filaments, and which is a part of the dynactin complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18221362" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18544499" 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [label](http://www.w3.org/2000/01/rdf-schema#label) "actin capping protein of dynactin complex" 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) EquivalentTo [F-actin capping protein complex](http://purl.obolibrary.org/obo/GO_0008290) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dynactin complex](http://purl.obolibrary.org/obo/GO_0005869)) 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) SubClassOf [F-actin capping protein complex](http://purl.obolibrary.org/obo/GO_0008290) 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dynactin complex](http://purl.obolibrary.org/obo/GO_0005869) 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31956"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [F-actin capping protein complex](http://purl.obolibrary.org/obo/GO_0008290) 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A heterodimer consisting of alpha and beta subunits that binds to and caps the barbed ends of actin filaments, nucleates the polymerization of actin monomers but does not sever actin filaments, and which is a part of the dynactin complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18221362" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18544499" 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is redundant with GO:0008290 (F-actin capping protein complex). Annotations can be migrated to the replacement term." 
+
+- [obsolete actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete actin capping protein of dynactin complex" 
 
 
 ### obsolete activation of MAPK (mating sensu Fungi) `http://purl.obolibrary.org/obo/GO_0030456`
@@ -11218,6 +11270,30 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. The molecular function is captured by GO:7770066 endoplasmic reticulum-vacuole tether activity." 
 
 - [obsolete vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vacuole-ER tethering" 
+
+
+### obsolete vacuole-mitochondria membrane tethering `http://purl.obolibrary.org/obo/GO_0140057`
+#### Removed
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of a mitochondrial membrane to a vacuolar membrane via molecular tethers that physically bridge their respective membranes and attach them to each other. The tethering may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [label](http://www.w3.org/2000/01/rdf-schema#label) "vacuole-mitochondria membrane tethering" 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of a mitochondrial membrane to a vacuolar membrane via molecular tethers that physically bridge their respective membranes and attach them to each other. The tethering may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error." 
+
+- [obsolete vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vacuole-mitochondria membrane tethering" 
 
 
 ### obsolete valine metabolic process `http://purl.obolibrary.org/obo/GO_0006573`

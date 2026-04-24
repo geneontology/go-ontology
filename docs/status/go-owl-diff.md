@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-23/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-24/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-23" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-24" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1687,6 +1687,10 @@
 #### Removed
 - [GABA catabolic process](http://purl.obolibrary.org/obo/GO_0009450) SubClassOf [GABA metabolic process](http://purl.obolibrary.org/obo/GO_0009448) 
 
+#### Added
+- [GABA catabolic process](http://purl.obolibrary.org/obo/GO_0009450) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:4AMINOBUTMETAB-PWY" 
+
+- [GABA catabolic process](http://purl.obolibrary.org/obo/GO_0009450) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [AMINOBUTMETAB-PWY](http://identifiers.org/metacyc.reaction/4AMINOBUTMETAB-PWY) 
 
 
 ### GABA metabolic process `http://purl.obolibrary.org/obo/GO_0009448`
@@ -2852,6 +2856,42 @@ ketone body catabolic process ;  GO:0046952."
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64716" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21169366" 
+
+
+### actin capping protein of dynactin complex `http://purl.obolibrary.org/obo/GO_0005870`
+#### Removed
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A heterodimer consisting of alpha and beta subunits that binds to and caps the barbed ends of actin filaments, nucleates the polymerization of actin monomers but does not sever actin filaments, and which is a part of the dynactin complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18221362" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18544499" 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [label](http://www.w3.org/2000/01/rdf-schema#label) "actin capping protein of dynactin complex" 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) EquivalentTo [F-actin capping protein complex](http://purl.obolibrary.org/obo/GO_0008290) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dynactin complex](http://purl.obolibrary.org/obo/GO_0005869)) 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) SubClassOf [F-actin capping protein complex](http://purl.obolibrary.org/obo/GO_0008290) 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dynactin complex](http://purl.obolibrary.org/obo/GO_0005869) 
+
+#### Added
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31956"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [F-actin capping protein complex](http://purl.obolibrary.org/obo/GO_0008290) 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A heterodimer consisting of alpha and beta subunits that binds to and caps the barbed ends of actin filaments, nucleates the polymerization of actin monomers but does not sever actin filaments, and which is a part of the dynactin complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18221362" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18544499" 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is redundant with GO:0008290 (F-actin capping protein complex). Annotations can be migrated to the replacement term." 
+
+- [actin capping protein of dynactin complex](http://purl.obolibrary.org/obo/GO_0005870) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete actin capping protein of dynactin complex" 
 
 
 ### actin-based cell projection `http://purl.obolibrary.org/obo/GO_0098858`
@@ -6024,6 +6064,16 @@ ketone body catabolic process ;  GO:0046952."
 - [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the meaning of the term is ambiguous. It was placed under both tethering and docking involved in exocytosis, but it is unclear which part of exocytosis it refers to, and it has not been used." 
 
 - [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete exocytic insertion of neurotransmitter receptor to plasma membrane" 
+
+
+### extracellular region `http://purl.obolibrary.org/obo/GO_0005576`
+#### Removed
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products from multicellular organisms which are secreted from a cell but retained within the organism (i.e. released into the interstitial fluid or blood), consider the cellular component term 'extracellular space ; GO:0005615'." 
+
+#### Added
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31545"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular region](http://purl.obolibrary.org/obo/GO_0005576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is intended to annotate gene products that are not attached to the cell surface. For gene products at the cell surface, consider annotating to external side of plasma membrane ; GO:0009897." 
 
 
 ### fatty acid omega-1 hydroxylase activity `http://purl.obolibrary.org/obo/GO_0120502`
@@ -11670,6 +11720,28 @@ ketone body catabolic process ;  GO:0046952."
 - [vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. The molecular function is captured by GO:7770066 endoplasmic reticulum-vacuole tether activity." 
 
 - [vacuole-ER tethering](http://purl.obolibrary.org/obo/GO_1990854) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vacuole-ER tethering" 
+
+
+### vacuole-mitochondria membrane tethering `http://purl.obolibrary.org/obo/GO_0140057`
+#### Removed
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of a mitochondrial membrane to a vacuolar membrane via molecular tethers that physically bridge their respective membranes and attach them to each other. The tethering may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [label](http://www.w3.org/2000/01/rdf-schema#label) "vacuole-mitochondria membrane tethering" 
+
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+#### Added
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of a mitochondrial membrane to a vacuolar membrane via molecular tethers that physically bridge their respective membranes and attach them to each other. The tethering may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error." 
+
+- [vacuole-mitochondria membrane tethering](http://purl.obolibrary.org/obo/GO_0140057) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vacuole-mitochondria membrane tethering" 
 
 
 ### valine metabolic process `http://purl.obolibrary.org/obo/GO_0006573`
