@@ -101,7 +101,7 @@ You must remove these usages. Do not just delete edges without thinking. You mus
 If you deem the impact of obsoletion to be too high or you need feedback on how to handle cascading effects, you should stop short of obsoleting the term, and instead provide an impact analysis and open questions in your gh issue summary.
 
 ## Taxon constraints and obsoletion
-When obsoleting a term, you may need to remove the taxon constraint, as these should never point to obsoletes. Use the /taxon-constraint skill.
+When obsoleting a term, you may need to remove taxon constraints, as these should never reference obsolete terms. Use the /taxon-constraint skill.
 
 ## Analyzing impact of obsoletion on other ontologies
 
