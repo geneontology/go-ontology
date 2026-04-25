@@ -100,6 +100,9 @@ If you are obsoleting GO:1234567, you can find usages:
 You must remove these usages. Do not just delete edges without thinking. You must think hard about replacement terms.
 If you deem the impact of obsoletion to be too high or you need feedback on how to handle cascading effects, you should stop short of obsoleting the term, and instead provide an impact analysis and open questions in your gh issue summary.
 
+## Taxon constraints and obsoletion
+When obsoleting a term, you may need to remove the taxon constraint, as these should never point to obsoletes. Use the /taxon-constraint skill.
+
 ## Analyzing impact of obsoletion on other ontologies
 
 Many of the core biological ontologies that use GO are in Ubergraph:
