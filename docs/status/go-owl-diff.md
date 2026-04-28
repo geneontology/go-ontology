@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-27/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-28/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-28" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -746,28 +746,36 @@
 - [3-galactosyl-N-acetylglucosaminide 4-alpha-L-fucosyltransferase activity](http://purl.obolibrary.org/obo/GO_0017060) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [48328](http://rdf.rhea-db.org/48328) 
 
 
-### 3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0047081`
+### 3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0047081`
 #### Removed
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [10864](http://rdf.rhea-db.org/10864) 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [10864](http://rdf.rhea-db.org/10864) 
 
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: O2 + NADPH + H+ + 3-hydroxy-2-methylpyridine-5-carboxylate = NADP+ + 2-(acetamidomethylene)succinate." 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: O2 + NADPH + H+ + 3-hydroxy-2-methylpyridine-5-carboxylate = NADP+ + 2-(acetamidomethylene)succinate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:1.14.12.4-RXN" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.242" 
 
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-hydroxy-2-methylpyridinecarboxylate dioxygenase activity" 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-hydroxy-2-methylpyridinecarboxylate dioxygenase activity" 
+
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of two atoms of oxygen into one donor](http://purl.obolibrary.org/obo/GO_0016708) 
 
 #### Added
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10860" 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [10860](http://rdf.rhea-db.org/10860) 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10860" 
 
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [10864](http://rdf.rhea-db.org/10864) 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity" 
 
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: O2 + NAD(P)H + H+ + 3-hydroxy-2-methylpyridine-5-carboxylate = NAD(P)+ + 2-(acetamidomethylene)succinate." 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [10860](http://rdf.rhea-db.org/10860) 
+
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [10864](http://rdf.rhea-db.org/10864) 
+
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-hydroxy-2-methylpyridine-5-carboxylate + NAD(P)H + O2 = 2-(acetamidomethylene)succinate + NAD(P)+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.242" 
 
-- [3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-hydroxy-2-methylpyridinecarboxylate dioxygenase [NAD(P)H] activity" 
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity" 
+
+- [3-hydroxy-2-methylpyridine-5-carboxylate monooxygenase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047081) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
 
 
 ### 3-hydroxyacyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0018812`
@@ -1074,28 +1082,30 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14689" 
 
 
-### 4-hydroxy-L-isoleucine dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102394`
+### 4-hydroxy-tetrahydrodipicolinate reductase activity `http://purl.obolibrary.org/obo/GO_0008839`
 #### Removed
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2S,3R,4S)-4-hydroxy-L-isoleucine + NAD = (2S,3R)-2-amino-3-methyl-4-ketopentanoate + NADH + H+." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21069315" 
+- [4-hydroxy-tetrahydrodipicolinate reductase activity](http://purl.obolibrary.org/obo/GO_0008839) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016628) 
 
 #### Added
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [4-hydroxy-tetrahydrodipicolinate reductase activity](http://purl.obolibrary.org/obo/GO_0008839) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.11.45" 
+- [4-hydroxy-tetrahydrodipicolinate reductase activity](http://purl.obolibrary.org/obo/GO_0008839) SubClassOf [oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016726) 
 
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41448" 
 
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.14.11.45](http://purl.uniprot.org/enzyme/1.14.11.45) 
+### 4-hydroxybenzoyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0018525`
+#### Removed
+- [4-hydroxybenzoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: benzoyl-CoA + oxidized ferredoxin + H2O = 4-hydroxybenzoyl-CoA + reduced ferredoxin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29603" 
 
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [41448](http://rdf.rhea-db.org/41448) 
+- [4-hydroxybenzoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018525) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, iron-sulfur protein as acceptor](http://purl.obolibrary.org/obo/GO_0016636) 
 
-- [4-hydroxy-L-isoleucine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-isoleucine + 2-oxoglutarate + O2 = (4S)-4-hydroxy-L-isoleucine + succinate + CO2." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21069315" 
+#### Added
+- [4-hydroxybenzoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018525) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41448" 
+- [4-hydroxybenzoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: oxidized 2[4Fe-4S]-[ferredoxin] + benzoyl-CoA + H2O = 4-hydroxybenzoyl-CoA + reduced 2[4Fe-4S]-[ferredoxin] + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:29603" 
+
+- [4-hydroxybenzoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018525) SubClassOf [oxidoreductase activity, acting on CH-OH group of donors](http://purl.obolibrary.org/obo/GO_0016614) 
 
 
 ### 4-hydroxybutanoyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0043721`
@@ -1151,6 +1161,46 @@
 #### Added
 - [4-sulfobenzoate 3,4-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018621) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-sulfobenzoate + H+ + NADH + O2 = 3,4-dihydroxybenzoate + NAD+ + sulfite." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13937" 
+
+
+### 4alpha-monomethylsterol monooxygenase activity `http://purl.obolibrary.org/obo/GO_0102177`
+#### Removed
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-11930" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58872" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [58872](http://rdf.rhea-db.org/58872) 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 24-methylenelophenol + O2 + NADH + H+ = 4alpha-hydroxymethyl-ergosta-7,24(241)-dien-3beta-ol + NAD + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11707264" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58872" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [label](http://www.w3.org/2000/01/rdf-schema#label) "24-methylenelophenol methyl oxidase activity" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31985"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-19724" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58868" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "24-methylenelophenol methyl oxidase activity" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [58868](http://rdf.rhea-db.org/58868) 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 24-methylidenelophenol + 6 Fe(II)-[cytochrome b5] + 3 O2 + 5 H+ = 4alpha-carboxy-ergosta-7,24(24(1))-dien-3beta-ol + 6 Fe(III)-[cytochrome b5] + 4 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11707264" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58868" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) [label](http://www.w3.org/2000/01/rdf-schema#label) "4alpha-monomethylsterol monooxygenase activity" 
+
+- [4alpha-monomethylsterol monooxygenase activity](http://purl.obolibrary.org/obo/GO_0102177) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, another compound as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016716) 
 
 
 ### 5'-(N(7)-methyl 5'-triphosphoguanosine)-[mRNA] diphosphatase activity `http://purl.obolibrary.org/obo/GO_0140932`
@@ -1280,6 +1330,16 @@
 - [6,7-dihydropteridine reductase activity](http://purl.obolibrary.org/obo/GO_0004155) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [32247](http://rdf.rhea-db.org/32247) 
 
 - [6,7-dihydropteridine reductase activity](http://purl.obolibrary.org/obo/GO_0004155) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [32251](http://rdf.rhea-db.org/32251) 
+
+
+### 6-beta-hydroxyhyoscyamine epoxidase activity `http://purl.obolibrary.org/obo/GO_0047594`
+#### Removed
+- [6-beta-hydroxyhyoscyamine epoxidase activity](http://purl.obolibrary.org/obo/GO_0047594) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
+
+#### Added
+- [6-beta-hydroxyhyoscyamine epoxidase activity](http://purl.obolibrary.org/obo/GO_0047594) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [6-beta-hydroxyhyoscyamine epoxidase activity](http://purl.obolibrary.org/obo/GO_0047594) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated](http://purl.obolibrary.org/obo/GO_0050498) 
 
 
 ### 6-carboxymethyl-5-methyl-4-hydroxypyridin-2-ol 3-C-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0160302`
@@ -1596,6 +1656,14 @@
 - [D-galactarate catabolic process](http://purl.obolibrary.org/obo/GO_0046392) SubClassOf [dicarboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0043649) 
 
 
+### D-galactonate catabolic process `http://purl.obolibrary.org/obo/GO_0034194`
+#### Removed
+- [D-galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0034194) SubClassOf [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) 
+
+#### Added
+- [D-galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0034194) SubClassOf [aldonic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046176) 
+
+
 ### D-glucarate biosynthetic process `http://purl.obolibrary.org/obo/GO_0042837`
 #### Removed
 - [D-glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0042837) SubClassOf [obsolete glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019393) 
@@ -1676,6 +1744,24 @@
 #### Removed
 - [D-xylulose 5-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0051167) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
 
+
+
+### DIBOA-glucoside oxygenase activity `http://purl.obolibrary.org/obo/GO_0102717`
+#### Removed
+- [DIBOA-glucoside oxygenase activity](http://purl.obolibrary.org/obo/GO_0102717) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: DIBOA-beta-D-glucoside + O2 + 2-oxoglutarate = TRIBOA-beta-D-glucoside + succinate + carbon dioxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.11.59" 
+
+- [DIBOA-glucoside oxygenase activity](http://purl.obolibrary.org/obo/GO_0102717) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated](http://purl.obolibrary.org/obo/GO_0050498) 
+
+#### Added
+- [DIBOA-glucoside oxygenase activity](http://purl.obolibrary.org/obo/GO_0102717) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [DIBOA-glucoside oxygenase activity](http://purl.obolibrary.org/obo/GO_0102717) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: DIBOA beta-D-glucoside + 2-oxoglutarate + O2 = TRIBOA beta-D-glucoside + succinate + CO2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:32115" 
+
+- [DIBOA-glucoside oxygenase activity](http://purl.obolibrary.org/obo/GO_0102717) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
 
 
 ### FAD transport `http://purl.obolibrary.org/obo/GO_0015883`
@@ -1890,6 +1976,14 @@
 
 
 
+### L-galactonate catabolic process `http://purl.obolibrary.org/obo/GO_0034195`
+#### Removed
+- [L-galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0034195) SubClassOf [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) 
+
+#### Added
+- [L-galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0034195) SubClassOf [aldonic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046176) 
+
+
 ### L-glutamate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005313`
 
 #### Added
@@ -1924,6 +2018,42 @@
 #### Removed
 - [L-idonate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015568) SubClassOf [monocarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008028) 
 
+
+
+### L-isoleucine 4-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102394`
+#### Removed
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2S,3R,4S)-4-hydroxy-L-isoleucine + NAD = (2S,3R)-2-amino-3-methyl-4-ketopentanoate + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21069315" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-hydroxy-L-isoleucine dehydrogenase activity" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.11.45" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41448" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "4-hydroxy-L-isoleucine dehydrogenase activity" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.14.11.45](http://purl.uniprot.org/enzyme/1.14.11.45) 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [41448](http://rdf.rhea-db.org/41448) 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-isoleucine + 2-oxoglutarate + O2 = (4S)-4-hydroxy-L-isoleucine + succinate + CO2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21069315" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41448" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-isoleucine 4-hydroxylase activity" 
+
+- [L-isoleucine 4-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102394) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
 
 
 ### L-isoleucine biosynthetic process `http://purl.obolibrary.org/obo/GO_1901705`
@@ -2384,6 +2514,28 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.13.12.5" 
 
 
+### S-(hydroxymethyl)mycothiol dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0050607`
+#### Removed
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: formaldehyde + mycothiol + NAD+ = S-formylmycothiol + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.306" 
+
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) [label](http://www.w3.org/2000/01/rdf-schema#label) "mycothiol-dependent formaldehyde dehydrogenase activity" 
+
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mycothiol-dependent formaldehyde dehydrogenase activity" 
+
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: S-(hydroxymethyl)mycothiol + NAD+ = S-formylmycothiol + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28502" 
+
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) [label](http://www.w3.org/2000/01/rdf-schema#label) "S-(hydroxymethyl)mycothiol dehydrogenase activity" 
+
+- [S-(hydroxymethyl)mycothiol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050607) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+
 ### S-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0016418`
 #### Removed
 - [S-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0016418) SubClassOf [obsolete S-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016417) 
@@ -2498,6 +2650,22 @@
 #### Removed
 - [UDP-N-acetylglucosamine transmembrane transport](http://purl.obolibrary.org/obo/GO_1990569) SubClassOf [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
 
+
+
+### UDP-N-acetylmuramate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0008762`
+#### Removed
+- [UDP-N-acetylmuramate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: UDP-N-acetylmuramate + NADP+ = UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.3.1.98" 
+
+- [UDP-N-acetylmuramate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008762) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [UDP-N-acetylmuramate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008762) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [UDP-N-acetylmuramate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: UDP-N-acetyl-alpha-D-muramate + NADP+ = UDP-N-acetyl-3-O-(1-carboxyvinyl)-alpha-D-glucosamine + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12248" 
+
+- [UDP-N-acetylmuramate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008762) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016628) 
 
 
 ### UDP-beta-L-arabinofuranose import into Golgi lumen `http://purl.obolibrary.org/obo/GO_0140821`
@@ -2915,6 +3083,30 @@
 
 #### Added
 - [adiponectin secretion](http://purl.obolibrary.org/obo/GO_0070162) SubClassOf [hormone secretion](http://purl.obolibrary.org/obo/GO_0046879) 
+
+
+### aerobic carbon monoxide dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0008805`
+#### Removed
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: CO + H2O + ferrocytochrome b-561 = CO2 + 2 H+ + 2 ferricytochrome b-561." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48880" 
+
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) [label](http://www.w3.org/2000/01/rdf-schema#label) "carbon-monoxide oxygenase activity" 
+
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, cytochrome as acceptor](http://purl.obolibrary.org/obo/GO_0016622) 
+
+#### Added
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31984"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "carbon-monoxide oxygenase activity" 
+
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: CO + a quinone + H2O = a quinol + CO2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48880" 
+
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) [label](http://www.w3.org/2000/01/rdf-schema#label) "aerobic carbon monoxide dehydrogenase activity" 
+
+- [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, with a quinone or similar compound as acceptor](http://purl.obolibrary.org/obo/GO_0052738) 
 
 
 ### alanine transport `http://purl.obolibrary.org/obo/GO_0032328`
@@ -3804,6 +3996,18 @@
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64212](http://rdf.rhea-db.org/64212) 
 
 
+### anaerobic carbon-monoxide dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0043885`
+#### Removed
+- [anaerobic carbon-monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043885) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: CO + H2O + oxidized ferredoxin = CO2 + reduced ferredoxin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21040" 
+
+#### Added
+- [anaerobic carbon-monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043885) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31984"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [anaerobic carbon-monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043885) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: CO + 2 oxidized [2Fe-2S]-[ferredoxin] + H2O = 2 reduced [2Fe-2S]-[ferredoxin] + CO2 + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21040" 
+
+
 ### angelicin synthase activity `http://purl.obolibrary.org/obo/GO_0102995`
 #### Removed
 - [angelicin synthase activity](http://purl.obolibrary.org/obo/GO_0102995) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
@@ -3824,6 +4028,16 @@
 - [anthranilate 1,2-dioxygenase (deaminating, decarboxylating) activity](http://purl.obolibrary.org/obo/GO_0018618) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [11072](http://rdf.rhea-db.org/11072) 
 
 - [anthranilate 1,2-dioxygenase (deaminating, decarboxylating) activity](http://purl.obolibrary.org/obo/GO_0018618) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [11076](http://rdf.rhea-db.org/11076) 
+
+
+### apo-beta-carotenoid-14',13'-dioxygenase activity `http://purl.obolibrary.org/obo/GO_0050588`
+#### Removed
+- [apo-beta-carotenoid-14',13'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050588) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)](http://purl.obolibrary.org/obo/GO_0016703) 
+
+#### Added
+- [apo-beta-carotenoid-14',13'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050588) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [apo-beta-carotenoid-14',13'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050588) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen](http://purl.obolibrary.org/obo/GO_0016702) 
 
 
 ### arginine metabolic process `http://purl.obolibrary.org/obo/GO_0006525`
@@ -4039,6 +4253,16 @@
 
 
 
+### calcidiol 1-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004498`
+#### Removed
+- [calcidiol 1-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004498) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [calcidiol 1-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004498) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [calcidiol 1-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004498) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016713) 
+
+
 ### carbamoyl phosphate metabolic process `http://purl.obolibrary.org/obo/GO_0070408`
 #### Removed
 - [carbamoyl phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0070408) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
@@ -4175,6 +4399,26 @@
 - [ceramide-1-phosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0106235) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62040" 
 
 - [ceramide-1-phosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0106235) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [62040](http://rdf.rhea-db.org/62040) 
+
+
+### chlorophyllide a oxygenase activity `http://purl.obolibrary.org/obo/GO_0010277`
+#### Removed
+- [chlorophyllide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0010277) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)](http://purl.obolibrary.org/obo/GO_0016703) 
+
+#### Added
+- [chlorophyllide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0010277) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [chlorophyllide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0010277) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+
+### cholest-4-en-3-one 26-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0036199`
+#### Removed
+- [cholest-4-en-3-one 26-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0036199) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [cholest-4-en-3-one 26-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0036199) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cholest-4-en-3-one 26-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0036199) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016713) 
 
 
 ### cholesterol 24-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0033781`
@@ -4969,6 +5213,26 @@
 - [dihydrolipoyllysine-residue glutaryltransferase activity](http://purl.obolibrary.org/obo/GO_0120571) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 
+### dihydromethanopterin reductase activity `http://purl.obolibrary.org/obo/GO_0044684`
+#### Removed
+- [dihydromethanopterin reductase activity](http://purl.obolibrary.org/obo/GO_0044684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 7,8-dihydromethanopterin + NADPH = 5,6,7,8-tetrahydromethanopterin + NADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15028691" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [dihydromethanopterin reductase activity](http://purl.obolibrary.org/obo/GO_0044684) SubClassOf [oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016646) 
+
+#### Added
+- [dihydromethanopterin reductase activity](http://purl.obolibrary.org/obo/GO_0044684) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dihydromethanopterin reductase activity](http://purl.obolibrary.org/obo/GO_0044684) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5,6,7,8-tetrahydromethanopterin + acceptor = 7,8-dihydromethanopterin + reduced acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15028691" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42804" 
+
+- [dihydromethanopterin reductase activity](http://purl.obolibrary.org/obo/GO_0044684) SubClassOf [oxidoreductase activity, acting on the CH-NH group of donors](http://purl.obolibrary.org/obo/GO_0016645) 
+
+
 ### dihydroorotate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0106430`
 
 #### Added
@@ -5326,6 +5590,16 @@
 
 
 
+### flavone synthase activity `http://purl.obolibrary.org/obo/GO_0033759`
+#### Removed
+- [flavone synthase activity](http://purl.obolibrary.org/obo/GO_0033759) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
+
+#### Added
+- [flavone synthase activity](http://purl.obolibrary.org/obo/GO_0033759) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [flavone synthase activity](http://purl.obolibrary.org/obo/GO_0033759) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated](http://purl.obolibrary.org/obo/GO_0050498) 
+
+
 ### flavonoid 3',5'-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0033772`
 #### Removed
 - [flavonoid 3',5'-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033772) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
@@ -5346,12 +5620,52 @@
 - [flavonoid 3'-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0016711) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
 
 
+### flavonol synthase activity `http://purl.obolibrary.org/obo/GO_0045431`
+#### Removed
+- [flavonol synthase activity](http://purl.obolibrary.org/obo/GO_0045431) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
+
+#### Added
+- [flavonol synthase activity](http://purl.obolibrary.org/obo/GO_0045431) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [flavonol synthase activity](http://purl.obolibrary.org/obo/GO_0045431) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated](http://purl.obolibrary.org/obo/GO_0050498) 
+
+
 ### folic acid transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0008517`
 #### Removed
 - [folic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008517) SubClassOf [carboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046943) 
 
 #### Added
 - [folic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008517) SubClassOf [dicarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005310) 
+
+
+### formate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0008863`
+#### Removed
+- [formate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008863) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [formate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008863) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [formate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008863) SubClassOf [oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016726) 
+
+
+### formate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047899`
+#### Removed
+- [formate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047899) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [formate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047899) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [formate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047899) SubClassOf [oxidoreductase activity, acting on CH or CH2 groups, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016726) 
+
+
+### formate dehydrogenase (cytochrome-c-553) activity `http://purl.obolibrary.org/obo/GO_0047111`
+#### Removed
+- [formate dehydrogenase (cytochrome-c-553) activity](http://purl.obolibrary.org/obo/GO_0047111) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, cytochrome as acceptor](http://purl.obolibrary.org/obo/GO_0016622) 
+
+#### Added
+- [formate dehydrogenase (cytochrome-c-553) activity](http://purl.obolibrary.org/obo/GO_0047111) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [formate dehydrogenase (cytochrome-c-553) activity](http://purl.obolibrary.org/obo/GO_0047111) SubClassOf [oxidoreductase activity, acting on CH or CH2 groups](http://purl.obolibrary.org/obo/GO_0016725) 
 
 
 ### formate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0036397`
@@ -5502,6 +5816,36 @@
 - [geraniol 10-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102811) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31967"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [geraniol 10-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102811) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
+
+
+### gluconate 2-dehydrogenase (acceptor) activity `http://purl.obolibrary.org/obo/GO_0033717`
+#### Removed
+- [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) SubClassOf [gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) 
+
+#### Added
+- [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) SubClassOf [oxidoreductase activity, acting on CH-OH group of donors](http://purl.obolibrary.org/obo/GO_0016614) 
+
+
+### gluconate import across plasma membrane `http://purl.obolibrary.org/obo/GO_0140270`
+#### Removed
+- [gluconate import across plasma membrane](http://purl.obolibrary.org/obo/GO_0140270) SubClassOf [import across plasma membrane](http://purl.obolibrary.org/obo/GO_0098739) 
+
+#### Added
+- [gluconate import across plasma membrane](http://purl.obolibrary.org/obo/GO_0140270) SubClassOf [carbohydrate import across plasma membrane](http://purl.obolibrary.org/obo/GO_0098704) 
+
+
+### gluconate transmembrane transport `http://purl.obolibrary.org/obo/GO_0035429`
+
+#### Added
+- [gluconate transmembrane transport](http://purl.obolibrary.org/obo/GO_0035429) SubClassOf [carbohydrate transmembrane transport](http://purl.obolibrary.org/obo/GO_0034219) 
+
+
+### gluconate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015128`
+
+#### Added
+- [gluconate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015128) SubClassOf [carbohydrate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015144) 
 
 
 ### glucosaminyl-phosphatidylinositol O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0032216`
@@ -6102,6 +6446,14 @@
 - [hexuronate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015134) SubClassOf [carboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046943) 
 
 
+### histamine oxidase activity `http://purl.obolibrary.org/obo/GO_0052598`
+#### Removed
+- [histamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052598) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.4.3.22](http://purl.uniprot.org/enzyme/1.4.3.22) 
+
+#### Added
+- [histamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052598) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31964"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### histamine secretion, neurotransmission `http://purl.obolibrary.org/obo/GO_0061538`
 #### Removed
 - [histamine secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061538) SubClassOf [obsolete organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) 
@@ -6236,6 +6588,22 @@
 - [juvenile hormone secretion](http://purl.obolibrary.org/obo/GO_0045443) SubClassOf [hormone secretion](http://purl.obolibrary.org/obo/GO_0046879) 
 
 
+### keto-D-gluconate biosynthetic process `http://purl.obolibrary.org/obo/GO_0046179`
+#### Removed
+- [keto-D-gluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046179) SubClassOf [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) 
+
+#### Added
+- [keto-D-gluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046179) SubClassOf [aldonic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046175) 
+
+
+### keto-D-gluconate catabolic process `http://purl.obolibrary.org/obo/GO_0019524`
+#### Removed
+- [keto-D-gluconate catabolic process](http://purl.obolibrary.org/obo/GO_0019524) SubClassOf [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) 
+
+#### Added
+- [keto-D-gluconate catabolic process](http://purl.obolibrary.org/obo/GO_0019524) SubClassOf [aldonic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046176) 
+
+
 ### ketone body biosynthetic process `http://purl.obolibrary.org/obo/GO_0046951`
 #### Removed
 - [ketone body biosynthetic process](http://purl.obolibrary.org/obo/GO_0046951) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of ketone bodies, any one of the three substances: acetoacetate, D-3-hydroxybutyrate (beta-hydroxybutyrate) or acetone. Biosynthesis involves the formation of hydroxymethylglutaryl-CoA, which is cleaved to acetate and acetyl-CoA." 
@@ -6274,6 +6642,16 @@
 - [kynurenic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0034276) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31588"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [kynurenic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0034276) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "kynurenine pathway" 
+
+
+### leucocyanidin oxygenase activity `http://purl.obolibrary.org/obo/GO_0050589`
+#### Removed
+- [leucocyanidin oxygenase activity](http://purl.obolibrary.org/obo/GO_0050589) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
+
+#### Added
+- [leucocyanidin oxygenase activity](http://purl.obolibrary.org/obo/GO_0050589) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [leucocyanidin oxygenase activity](http://purl.obolibrary.org/obo/GO_0050589) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated](http://purl.obolibrary.org/obo/GO_0050498) 
 
 
 ### lipid X metabolic process `http://purl.obolibrary.org/obo/GO_2001289`
@@ -6811,28 +7189,32 @@
 - [negative regulation of acetyl-CoA biosynthesis](http://purl.obolibrary.org/obo/GO_0140391) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
 
 
-### negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA `http://purl.obolibrary.org/obo/GO_1900495`
+### negative regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_1904736`
 #### Removed
-- [negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
+- [negative regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904736) SubClassOf [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) 
+
+
+
+### negative regulation of glycolytic process through fructose-6-phosphate `http://purl.obolibrary.org/obo/GO_1904539`
+#### Removed
+- [negative regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904539) SubClassOf [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) 
+
+
+
+### negative regulation of indoleacetic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_1901997`
+#### Removed
+- [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of indoleacetic acid biosynthetic process via tryptophan" 
+
+- [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) SubClassOf [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) 
 
 #### Added
-- [negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+- [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "negative regulation of indoleacetic acid biosynthetic process via tryptophan" 
 
-### negative regulation of butyryl-CoA catabolic process to butanol `http://purl.obolibrary.org/obo/GO_1900498`
-#### Removed
-- [negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
+- [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of indoleacetic acid biosynthetic process" 
 
-#### Added
-- [negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
-
-
-### negative regulation of butyryl-CoA catabolic process to butyrate `http://purl.obolibrary.org/obo/GO_1900501`
-#### Removed
-- [negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
-
-#### Added
-- [negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
+- [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) SubClassOf [regulation of auxin biosynthetic process](http://purl.obolibrary.org/obo/GO_0010600) 
 
 
 ### negative regulation of inositol phosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0010920`
@@ -6889,14 +7271,6 @@
 
 #### Added
 - [negative regulation of sarcinapterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900972) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
-
-
-### negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA `http://purl.obolibrary.org/obo/GO_1901414`
-#### Removed
-- [negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
-
-#### Added
-- [negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010563) 
 
 
 ### negative regulation of thiamine diphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0070617`
@@ -8258,6 +8632,34 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete fimbrium-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0015472) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
 
 
+### obsolete galactonate catabolic process `http://purl.obolibrary.org/obo/GO_0019584`
+#### Removed
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/28388"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of galactonate, the anion of galactonic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [label](http://www.w3.org/2000/01/rdf-schema#label) "galactonate catabolic process" 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) SubClassOf [aldonic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046176) 
+
+#### Added
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31978"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [D-galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0034194) 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0034195) 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of galactonate, the anion of galactonic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouing term." 
+
+- [obsolete galactonate catabolic process](http://purl.obolibrary.org/obo/GO_0019584) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete galactonate catabolic process" 
+
+
 ### obsolete glucarate biosynthetic process `http://purl.obolibrary.org/obo/GO_0019393`
 #### Removed
 - [obsolete glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019393) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of glucarate, the anion of glucaric acid." 
@@ -8280,6 +8682,34 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019393) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as D-glucarate biosynthetic process ; GO:0042837." 
 
 - [obsolete glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019393) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glucarate biosynthetic process" 
+
+
+### obsolete glycoprotein cargo receptor activity `http://purl.obolibrary.org/obo/GO_7770028`
+#### Removed
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31038"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding specifically to a glycoprotein (cargo) to deliver it to a transport vesicle. Glycoprotein cargo receptors span membranes, binding simultaneously to cargo molecules and coat adaptors, to efficiently recruit the cargo molecules to nascent vesicles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41203586" 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycoprotein cargo receptor activity" 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) SubClassOf [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) 
+
+#### Added
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31948"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding specifically to a glycoprotein (cargo) to deliver it to a transport vesicle. Glycoprotein cargo receptors span membranes, binding simultaneously to cargo molecules and coat adaptors, to efficiently recruit the cargo molecules to nascent vesicles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41203586" 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. Most vesicle cargo are glycoproteins, so classifying cargo receptors by glycoprotein substrate introduces an additional, unhelpful axis of classification. Cargo receptor activities should instead be organized by transport domain (i.e., the vesicles they connect cargo to), with substrates captured via has_input." 
+
+- [obsolete glycoprotein cargo receptor activity](http://purl.obolibrary.org/obo/GO_7770028) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glycoprotein cargo receptor activity" 
 
 
 ### obsolete glycoprotein-specific chaperone activity `http://purl.obolibrary.org/obo/GO_0003759`
@@ -8360,6 +8790,54 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete isoleucine metabolic process](http://purl.obolibrary.org/obo/GO_0006549) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
 
 - [obsolete isoleucine metabolic process](http://purl.obolibrary.org/obo/GO_0006549) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete isoleucine metabolic process" 
+
+
+### obsolete ketogluconate biosynthetic process `http://purl.obolibrary.org/obo/GO_0046180`
+#### Removed
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of ketogluconate, the anion of ketogluconic acid, an aldonic acid derived from glucose containing a ketonic carbonyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [label](http://www.w3.org/2000/01/rdf-schema#label) "ketogluconate biosynthetic process" 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) SubClassOf [aldonic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046175) 
+
+#### Added
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31978"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [keto-D-gluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046179) 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of ketogluconate, the anion of ketogluconic acid, an aldonic acid derived from glucose containing a ketonic carbonyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete ketogluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046180) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ketogluconate biosynthetic process" 
+
+
+### obsolete ketogluconate catabolic process `http://purl.obolibrary.org/obo/GO_0046181`
+#### Removed
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of ketogluconate, the anion of ketogluconic acid, an aldonic acid derived from glucose containing a ketonic carbonyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [label](http://www.w3.org/2000/01/rdf-schema#label) "ketogluconate catabolic process" 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) SubClassOf [aldonic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046176) 
+
+#### Added
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31978"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [keto-D-gluconate catabolic process](http://purl.obolibrary.org/obo/GO_0019524) 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of ketogluconate, the anion of ketogluconic acid, an aldonic acid derived from glucose containing a ketonic carbonyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents an unnecessary grouping term." 
+
+- [obsolete ketogluconate catabolic process](http://purl.obolibrary.org/obo/GO_0046181) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ketogluconate catabolic process" 
 
 
 ### obsolete ketone body metabolic process `http://purl.obolibrary.org/obo/GO_1902224`
@@ -8540,6 +9018,122 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete negative regulation of L-dopa biosynthetic process](http://purl.obolibrary.org/obo/GO_1903196) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of L-dopa biosynthetic process" 
 
 
+### obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA `http://purl.obolibrary.org/obo/GO_1900495`
+#### Removed
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of butyryl-CoA biosynthetic process from acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA" 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_0044579)) 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [negative regulation of fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0045717) 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_0044579) 
+
+#### Added
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of butyryl-CoA biosynthetic process from acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900495) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA" 
+
+
+### obsolete negative regulation of butyryl-CoA catabolic process to butanol `http://purl.obolibrary.org/obo/GO_1900498`
+#### Removed
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of butyryl-CoA catabolic process to butanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of butyryl-CoA catabolic process to butanol" 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_0044582)) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0045922) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050995) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of lipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0051055) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negative regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902931) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_0044582) 
+
+#### Added
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of butyryl-CoA catabolic process to butanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900498) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of butyryl-CoA catabolic process to butanol" 
+
+
+### obsolete negative regulation of butyryl-CoA catabolic process to butyrate `http://purl.obolibrary.org/obo/GO_1900501`
+#### Removed
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of butyryl-CoA catabolic process to butyrate" 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_0044581)) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negative regulation of fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0045717) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negative regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050995) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_0044581) 
+
+#### Added
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900501) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of butyryl-CoA catabolic process to butyrate" 
+
+
 ### obsolete negative regulation of induction of conjugation with cellular fusion `http://purl.obolibrary.org/obo/GO_0010515`
 #### Removed
 - [obsolete negative regulation of induction of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency or rate of initiation of conjugation with cellular fusion." 
@@ -8570,6 +9164,288 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete negative regulation of induction of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010515) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a pre-composed term that should be represented as a GO-CAM model." 
 
 - [obsolete negative regulation of induction of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010515) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of induction of conjugation with cellular fusion" 
+
+
+### obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid `http://purl.obolibrary.org/obo/GO_1900334`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from 3-(methylthio)propionic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid" 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_2001132)) 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) SubClassOf [negative regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0045922) 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) SubClassOf [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_2001132) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from 3-(methylthio)propionic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900334) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid" 
+
+
+### obsolete negative regulation of methane biosynthetic process from carbon monoxide `http://purl.obolibrary.org/obo/GO_1900337`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from carbon monoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from carbon monoxide" 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_2001134)) 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) SubClassOf [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_2001134) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from carbon monoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900337) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from carbon monoxide" 
+
+
+### obsolete negative regulation of methane biosynthetic process from dimethyl sulfide `http://purl.obolibrary.org/obo/GO_1900343`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from dimethyl sulfide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from dimethyl sulfide" 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_2001131)) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) SubClassOf [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_2001131) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from dimethyl sulfide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900343) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from dimethyl sulfide" 
+
+
+### obsolete negative regulation of methane biosynthetic process from dimethylamine `http://purl.obolibrary.org/obo/GO_1900319`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from dimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from dimethylamine" 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_2001129)) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) SubClassOf [negative regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) SubClassOf [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_2001129) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from dimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900319) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from dimethylamine" 
+
+
+### obsolete negative regulation of methane biosynthetic process from formic acid `http://purl.obolibrary.org/obo/GO_1900340`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from formic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from formic acid" 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_2001127)) 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) SubClassOf [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_2001127) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from formic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900340) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from formic acid" 
+
+
+### obsolete negative regulation of methane biosynthetic process from methanethiol `http://purl.obolibrary.org/obo/GO_1900346`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from methanethiol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from methanethiol" 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_2001133)) 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) SubClassOf [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_2001133) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from methanethiol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900346) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from methanethiol" 
+
+
+### obsolete negative regulation of methane biosynthetic process from methylamine `http://purl.obolibrary.org/obo/GO_1900349`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from methylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from methylamine" 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_2001128)) 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) SubClassOf [negative regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) SubClassOf [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_2001128) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from methylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900349) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from methylamine" 
+
+
+### obsolete negative regulation of methane biosynthetic process from trimethylamine `http://purl.obolibrary.org/obo/GO_1900331`
+#### Removed
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from trimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of methane biosynthetic process from trimethylamine" 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_2001130)) 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) SubClassOf [negative regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033239) 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) SubClassOf [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) SubClassOf [negative regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901578) 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) SubClassOf [negative regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901856) 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_2001130) 
+
+#### Added
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of methane biosynthetic process from trimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of methane biosynthetic process from trimethylamine" 
 
 
 ### obsolete negative regulation of nitric oxide mediated signal transduction `http://purl.obolibrary.org/obo/GO_0010751`
@@ -8644,6 +9520,86 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0090029) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a pre-composed term that should be represented as a GO-CAM model." 
 
 - [obsolete negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0090029) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion" 
+
+
+### obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate `http://purl.obolibrary.org/obo/GO_1901411`
+#### Removed
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of tetrapyrrole biosynthetic process from glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of tetrapyrrole biosynthetic process from glutamate" 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_0033526)) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) SubClassOf [negative regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045763) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) SubClassOf [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) SubClassOf [negative regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901464) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_0033526) 
+
+#### Added
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901464) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of tetrapyrrole biosynthetic process from glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901411) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of tetrapyrrole biosynthetic process from glutamate" 
+
+
+### obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA `http://purl.obolibrary.org/obo/GO_1901414`
+#### Removed
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of tetrapyrrole biosynthetic process from glycine and succinyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_0033527)) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045763) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0045934) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045936) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negative regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901464) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_0033527) 
+
+#### Added
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901464) 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of tetrapyrrole biosynthetic process from glycine and succinyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901414) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" 
 
 
 ### obsolete nitric oxide mediated signal transduction `http://purl.obolibrary.org/obo/GO_0007263`
@@ -8957,6 +9913,32 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete para-aminobenzoic acid metabolic process](http://purl.obolibrary.org/obo/GO_0046482) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete para-aminobenzoic acid metabolic process" 
 
 
+### obsolete peroxisome-chloroplast membrane tethering `http://purl.obolibrary.org/obo/GO_0010381`
+#### Removed
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "attachment of peroxisome to chloroplast" 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of a peroxisome to a chloroplast via molecular tethers that physically bridge their respective membranes and attach them to each other. The tethering may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17215364" 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome-chloroplast membrane tethering" 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+#### Added
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31877"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [peroxisome-chloroplast membrane tether activity](http://purl.obolibrary.org/obo/GO_7770065) 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of a peroxisome to a chloroplast via molecular tethers that physically bridge their respective membranes and attach them to each other. The tethering may facilitate exchange of metabolites between the organelles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17215364" 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was made obsolete because it represents a molecular function rather than a biological process." 
+
+- [obsolete peroxisome-chloroplast membrane tethering](http://purl.obolibrary.org/obo/GO_0010381) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peroxisome-chloroplast membrane tethering" 
+
+
 ### obsolete pheromone-dependent signal transduction involved in conjugation with cellular fusion `http://purl.obolibrary.org/obo/GO_0000750`
 #### Removed
 - [obsolete pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0000750) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "transduction of mating signal" 
@@ -9115,6 +10097,116 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete positive regulation of L-dopa biosynthetic process](http://purl.obolibrary.org/obo/GO_1903197) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of L-dopa biosynthetic process" 
 
 
+### obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA `http://purl.obolibrary.org/obo/GO_1900496`
+#### Removed
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of butyryl-CoA biosynthetic process from acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA" 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_0044579)) 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) SubClassOf [positive regulation of fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0045723) 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) SubClassOf [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_0044579) 
+
+#### Added
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of butyryl-CoA biosynthetic process from acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA" 
+
+
+### obsolete positive regulation of butyryl-CoA catabolic process to butanol `http://purl.obolibrary.org/obo/GO_1900499`
+#### Removed
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of butyryl-CoA catabolic process to butanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of butyryl-CoA catabolic process to butanol" 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_0044582)) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0045923) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of lipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046889) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050996) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902932) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_0044582) 
+
+#### Added
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of butyryl-CoA catabolic process to butanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of butyryl-CoA catabolic process to butanol" 
+
+
+### obsolete positive regulation of butyryl-CoA catabolic process to butyrate `http://purl.obolibrary.org/obo/GO_1900502`
+#### Removed
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of butyryl-CoA catabolic process to butyrate" 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_0044581)) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [positive regulation of fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0045723) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [positive regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050996) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_0044581) 
+
+#### Added
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of butyryl-CoA catabolic process to butyrate" 
+
+
 ### obsolete positive regulation of induction of conjugation with cellular fusion `http://purl.obolibrary.org/obo/GO_1900237`
 #### Removed
 - [obsolete positive regulation of induction of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_1900237) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of induction of conjugation with cellular fusion." 
@@ -9150,6 +10242,288 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete positive regulation of induction of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_1900237) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a pre-composed term that should be represented as a GO-CAM model." 
 
 - [obsolete positive regulation of induction of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_1900237) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of induction of conjugation with cellular fusion" 
+
+
+### obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid `http://purl.obolibrary.org/obo/GO_1900335`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from 3-(methylthio)propionic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid" 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_2001132)) 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) SubClassOf [positive regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0045923) 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) SubClassOf [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_2001132) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from 3-(methylthio)propionic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900335) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from 3-(methylthio)propionic acid" 
+
+
+### obsolete positive regulation of methane biosynthetic process from carbon monoxide `http://purl.obolibrary.org/obo/GO_1900338`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from carbon monoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from carbon monoxide" 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_2001134)) 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) SubClassOf [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_2001134) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from carbon monoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900338) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from carbon monoxide" 
+
+
+### obsolete positive regulation of methane biosynthetic process from dimethyl sulfide `http://purl.obolibrary.org/obo/GO_1900344`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from dimethyl sulfide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from dimethyl sulfide" 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_2001131)) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) SubClassOf [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_2001131) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from dimethyl sulfide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900344) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from dimethyl sulfide" 
+
+
+### obsolete positive regulation of methane biosynthetic process from dimethylamine `http://purl.obolibrary.org/obo/GO_1900320`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from dimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from dimethylamine" 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_2001129)) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) SubClassOf [positive regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) SubClassOf [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_2001129) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from dimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900320) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from dimethylamine" 
+
+
+### obsolete positive regulation of methane biosynthetic process from formic acid `http://purl.obolibrary.org/obo/GO_1900341`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from formic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from formic acid" 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_2001127)) 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) SubClassOf [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_2001127) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from formic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900341) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from formic acid" 
+
+
+### obsolete positive regulation of methane biosynthetic process from methanethiol `http://purl.obolibrary.org/obo/GO_1900347`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from methanethiol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from methanethiol" 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_2001133)) 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) SubClassOf [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_2001133) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from methanethiol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900347) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from methanethiol" 
+
+
+### obsolete positive regulation of methane biosynthetic process from methylamine `http://purl.obolibrary.org/obo/GO_1900350`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from methylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from methylamine" 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_2001128)) 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) SubClassOf [positive regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) SubClassOf [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_2001128) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from methylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900350) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from methylamine" 
+
+
+### obsolete positive regulation of methane biosynthetic process from trimethylamine `http://purl.obolibrary.org/obo/GO_1900332`
+#### Removed
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from trimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of methane biosynthetic process from trimethylamine" 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_2001130)) 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) SubClassOf [positive regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033240) 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) SubClassOf [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) SubClassOf [positive regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901579) 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) SubClassOf [positive regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_1901857) 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_2001130) 
+
+#### Added
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of methane biosynthetic process from trimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900332) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of methane biosynthetic process from trimethylamine" 
 
 
 ### obsolete positive regulation of nitric oxide mediated signal transduction `http://purl.obolibrary.org/obo/GO_0010750`
@@ -9196,6 +10570,84 @@ ketone body catabolic process ;  GO:0046952."
 
 #### Added
 - [obsolete positive regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0090028) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of pheromone response MAPK cascade](http://purl.obolibrary.org/obo/GO_0062038) 
+
+
+### obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate `http://purl.obolibrary.org/obo/GO_1901412`
+#### Removed
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of tetrapyrrole biosynthetic process from glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of tetrapyrrole biosynthetic process from glutamate" 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_0033526)) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) SubClassOf [positive regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) SubClassOf [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) SubClassOf [positive regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901465) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_0033526) 
+
+#### Added
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901465) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of tetrapyrrole biosynthetic process from glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901412) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of tetrapyrrole biosynthetic process from glutamate" 
+
+
+### obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA `http://purl.obolibrary.org/obo/GO_1901415`
+#### Removed
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of tetrapyrrole biosynthetic process from glycine and succinyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_0033527)) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positive regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positive regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901465) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_0033527) 
+
+#### Added
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901465) 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of tetrapyrrole biosynthetic process from glycine and succinyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" 
 
 
 ### obsolete protoporphyrinogen IX biosynthetic process `http://purl.obolibrary.org/obo/GO_0006782`
@@ -9496,6 +10948,506 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete regulation of L-dopa biosynthetic process](http://purl.obolibrary.org/obo/GO_1903195) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of L-dopa biosynthetic process" 
 
 
+### obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA `http://purl.obolibrary.org/obo/GO_1900494`
+#### Removed
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of butyryl-CoA biosynthetic process from acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of butyryl-CoA biosynthetic process from acetyl-CoA" 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_0044579)) 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) SubClassOf [regulation of fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0042304) 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) SubClassOf [regulation of acyl-CoA biosynthetic process](http://purl.obolibrary.org/obo/GO_0050812) 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_0044579) 
+
+#### Added
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of butyryl-CoA biosynthetic process from acetyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900494) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of butyryl-CoA biosynthetic process from acetyl-CoA" 
+
+
+### obsolete regulation of butyryl-CoA catabolic process to butanol `http://purl.obolibrary.org/obo/GO_1900497`
+#### Removed
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of butyryl-CoA catabolic process to butanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of butyryl-CoA catabolic process to butanol" 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_0044582)) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0019217) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of sulfur metabolic process](http://purl.obolibrary.org/obo/GO_0042762) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of lipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046890) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050994) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulation of alcohol biosynthetic process](http://purl.obolibrary.org/obo/GO_1902930) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_0044582) 
+
+#### Added
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of butyryl-CoA catabolic process to butanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900497) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of butyryl-CoA catabolic process to butanol" 
+
+
+### obsolete regulation of butyryl-CoA catabolic process to butyrate `http://purl.obolibrary.org/obo/GO_1900500`
+#### Removed
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of butyryl-CoA catabolic process to butyrate" 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_0044581)) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) SubClassOf [regulation of fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0042304) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) SubClassOf [regulation of sulfur metabolic process](http://purl.obolibrary.org/obo/GO_0042762) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) SubClassOf [regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050994) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_0044581) 
+
+#### Added
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of butyryl-CoA catabolic process to butyrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of butyryl-CoA catabolic process to butyrate" 
+
+
+### obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_1904735`
+#### Removed
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of fatty acid beta-oxidation using acyl-CoA dehydrogenase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25416781" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase" 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539)) 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) SubClassOf [regulation of fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0031998) 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539) 
+
+#### Added
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0031998) 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of fatty acid beta-oxidation using acyl-CoA dehydrogenase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25416781" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase" 
+
+
+### obsolete regulation of glycolytic process through fructose-6-phosphate `http://purl.obolibrary.org/obo/GO_1904538`
+#### Removed
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of glycolytic process through fructose-6-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879010479" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0201090910" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of glycolytic process through fructose-6-phosphate" 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061615)) 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) SubClassOf [regulation of glycolytic process](http://purl.obolibrary.org/obo/GO_0006110) 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061615) 
+
+#### Added
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of glycolytic process](http://purl.obolibrary.org/obo/GO_0006110) 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of glycolytic process through fructose-6-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879010479" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0201090910" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of glycolytic process through fructose-6-phosphate" 
+
+
+### obsolete regulation of indoleacetic acid biosynthetic process via tryptophan `http://purl.obolibrary.org/obo/GO_1901996`
+#### Removed
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of indoleacetic acid biosynthetic process via tryptophan." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23377040" 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of indoleacetic acid biosynthetic process via tryptophan" 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_0009848)) 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) SubClassOf [regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006521) 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) SubClassOf [regulation of auxin biosynthetic process](http://purl.obolibrary.org/obo/GO_0010600) 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_0009848) 
+
+#### Added
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of indoleacetic acid biosynthetic process via tryptophan." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23377040" 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of indoleacetic acid biosynthetic process via tryptophan](http://purl.obolibrary.org/obo/GO_1901996) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of indoleacetic acid biosynthetic process via tryptophan" 
+
+
+### obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid `http://purl.obolibrary.org/obo/GO_1900333`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from 3-(methylthio)propionic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from 3-(methylthio)propionic acid" 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_2001132)) 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) SubClassOf [regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0019217) 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) SubClassOf [regulation of sulfur metabolic process](http://purl.obolibrary.org/obo/GO_0042762) 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_2001132) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from 3-(methylthio)propionic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid](http://purl.obolibrary.org/obo/GO_1900333) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from 3-(methylthio)propionic acid" 
+
+
+### obsolete regulation of methane biosynthetic process from carbon monoxide `http://purl.obolibrary.org/obo/GO_1900336`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from carbon monoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from carbon monoxide" 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_2001134)) 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_2001134) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from carbon monoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from carbon monoxide](http://purl.obolibrary.org/obo/GO_1900336) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from carbon monoxide" 
+
+
+### obsolete regulation of methane biosynthetic process from dimethyl sulfide `http://purl.obolibrary.org/obo/GO_1900342`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from dimethyl sulfide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from dimethyl sulfide" 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_2001131)) 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) SubClassOf [regulation of sulfur metabolic process](http://purl.obolibrary.org/obo/GO_0042762) 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_2001131) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from dimethyl sulfide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from dimethyl sulfide](http://purl.obolibrary.org/obo/GO_1900342) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from dimethyl sulfide" 
+
+
+### obsolete regulation of methane biosynthetic process from dimethylamine `http://purl.obolibrary.org/obo/GO_1900318`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from dimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from dimethylamine" 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_2001129)) 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) SubClassOf [regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033238) 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_2001129) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from dimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from dimethylamine](http://purl.obolibrary.org/obo/GO_1900318) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from dimethylamine" 
+
+
+### obsolete regulation of methane biosynthetic process from formic acid `http://purl.obolibrary.org/obo/GO_1900339`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from formic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from formic acid" 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_2001127)) 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) SubClassOf [regulation of ketone metabolic process](http://purl.obolibrary.org/obo/GO_0010565) 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_2001127) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from formic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from formic acid](http://purl.obolibrary.org/obo/GO_1900339) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from formic acid" 
+
+
+### obsolete regulation of methane biosynthetic process from methanethiol `http://purl.obolibrary.org/obo/GO_1900345`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from methanethiol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from methanethiol" 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_2001133)) 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) SubClassOf [regulation of sulfur metabolic process](http://purl.obolibrary.org/obo/GO_0042762) 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_2001133) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from methanethiol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from methanethiol](http://purl.obolibrary.org/obo/GO_1900345) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from methanethiol" 
+
+
+### obsolete regulation of methane biosynthetic process from methylamine `http://purl.obolibrary.org/obo/GO_1900348`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from methylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from methylamine" 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_2001128)) 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) SubClassOf [regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033238) 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_2001128) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from methylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from methylamine](http://purl.obolibrary.org/obo/GO_1900348) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from methylamine" 
+
+
+### obsolete regulation of methane biosynthetic process from trimethylamine `http://purl.obolibrary.org/obo/GO_1900330`
+#### Removed
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of methane biosynthetic process from trimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of methane biosynthetic process from trimethylamine" 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_2001130)) 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) SubClassOf [regulation of amine metabolic process](http://purl.obolibrary.org/obo/GO_0033238) 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) SubClassOf [regulation of cellular respiration](http://purl.obolibrary.org/obo/GO_0043457) 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) SubClassOf [regulation of alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_1901577) 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_2001130) 
+
+#### Added
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of methane biosynthetic process from trimethylamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of methane biosynthetic process from trimethylamine](http://purl.obolibrary.org/obo/GO_1900330) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of methane biosynthetic process from trimethylamine" 
+
+
 ### obsolete regulation of nitric oxide mediated signal transduction `http://purl.obolibrary.org/obo/GO_0010749`
 #### Removed
 - [obsolete regulation of nitric oxide mediated signal transduction](http://purl.obolibrary.org/obo/GO_0010749) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of nitric oxide-mediated signal transduction" 
@@ -9566,6 +11518,82 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010969) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a pre-composed term that should be represented as a GO-CAM model." 
 
 - [obsolete regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010969) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion" 
+
+
+### obsolete regulation of tetrapyrrole biosynthetic process from glutamate `http://purl.obolibrary.org/obo/GO_1901410`
+#### Removed
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of tetrapyrrole biosynthetic process from glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of tetrapyrrole biosynthetic process from glutamate" 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_0033526)) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) SubClassOf [regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006521) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) SubClassOf [regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901463) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_0033526) 
+
+#### Added
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of tetrapyrrole biosynthetic process from glutamate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glutamate](http://purl.obolibrary.org/obo/GO_1901410) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of tetrapyrrole biosynthetic process from glutamate" 
+
+
+### obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA `http://purl.obolibrary.org/obo/GO_1901413`
+#### Removed
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of tetrapyrrole biosynthetic process from glycine and succinyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_0033527)) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006521) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulation of nucleobase-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0019219) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulation of sulfur metabolic process](http://purl.obolibrary.org/obo/GO_0042762) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0051174) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901463) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_0033527) 
+
+#### Added
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of tetrapyrrole biosynthetic process](http://purl.obolibrary.org/obo/GO_1901463) 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of tetrapyrrole biosynthetic process from glycine and succinyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901413) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA" 
 
 
 ### obsolete ribosomal chaperone activity `http://purl.obolibrary.org/obo/GO_0000005`
@@ -10242,6 +12270,16 @@ ketone body catabolic process ;  GO:0046952."
 - [oxygen evolving activity](http://purl.obolibrary.org/obo/GO_0010242) SubClassOf [oxidoreductase activity, acting on diphenols and related substances as donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016682) 
 
 
+### p-cumate 2,3-dioxygenase activity `http://purl.obolibrary.org/obo/GO_0018570`
+#### Removed
+- [p-cumate 2,3-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018570) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen](http://purl.obolibrary.org/obo/GO_0016702) 
+
+#### Added
+- [p-cumate 2,3-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018570) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [p-cumate 2,3-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018570) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of two atoms of oxygen into one donor](http://purl.obolibrary.org/obo/GO_0016708) 
+
+
 ### pantothenate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015233`
 #### Removed
 - [pantothenate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015233) SubClassOf [carboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046943) 
@@ -10439,6 +12477,24 @@ ketone body catabolic process ;  GO:0046952."
 - [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
 
 
+### pheophorbide a oxygenase activity `http://purl.obolibrary.org/obo/GO_0032441`
+#### Removed
+- [pheophorbide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0032441) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: pheophorbide a + reduced ferredoxin + 2 O2 = red chlorophyll catabolite + oxidized ferredoxin + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14657372" 
+
+- [pheophorbide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0032441) SubClassOf [oxidoreductase activity, acting on iron-sulfur proteins as donors](http://purl.obolibrary.org/obo/GO_0016730) 
+
+#### Added
+- [pheophorbide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0032441) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [pheophorbide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0032441) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: pheophorbide a + 2 reduced [2Fe-2S]-[ferredoxin] + O2 + 2 H(+) = red chlorophyll catabolite + 2 oxidized [2Fe-2S]-[ferredoxin]." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48140" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14657372" 
+
+- [pheophorbide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0032441) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016713) 
+
+
 ### pheromone response MAPK cascade `http://purl.obolibrary.org/obo/GO_0071507`
 #### Removed
 - [pheromone response MAPK cascade](http://purl.obolibrary.org/obo/GO_0071507) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0000750) 
@@ -10595,6 +12651,12 @@ ketone body catabolic process ;  GO:0046952."
 - [phosphatidylglycerophosphatase activity](http://purl.obolibrary.org/obo/GO_0008962) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [42305](http://rdf.rhea-db.org/42305) 
 
 
+### phosphatidylinositol-5-phosphate binding `http://purl.obolibrary.org/obo/GO_0010314`
+
+#### Added
+- [phosphatidylinositol-5-phosphate binding](http://purl.obolibrary.org/obo/GO_0010314) SubClassOf [anion binding](http://purl.obolibrary.org/obo/GO_0043168) 
+
+
 ### phosphocreatine metabolic process `http://purl.obolibrary.org/obo/GO_0006603`
 #### Removed
 - [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
@@ -10639,6 +12701,26 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [phytochelatin transport](http://purl.obolibrary.org/obo/GO_0071993) SubClassOf [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
 
+
+
+### piperitol synthase activity `http://purl.obolibrary.org/obo/GO_0102915`
+#### Removed
+- [piperitol synthase activity](http://purl.obolibrary.org/obo/GO_0102915) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + (+)-pinoresinol + NADPH + O2 = (+)-piperitol + NADP + 2 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.19.74" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16785429" 
+
+- [piperitol synthase activity](http://purl.obolibrary.org/obo/GO_0102915) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [piperitol synthase activity](http://purl.obolibrary.org/obo/GO_0102915) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [piperitol synthase activity](http://purl.obolibrary.org/obo/GO_0102915) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (+)-pinoresinol + reduced [NADPH--hemoprotein reductase] + O2 = (+)-piperitol + oxidized [NADPH--hemoprotein reductase] + 2 H2O + H+. Also catalyzes the synthesis of (+)-sesamin from (+)-piperitol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.19.74" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16785429" 
+
+- [piperitol synthase activity](http://purl.obolibrary.org/obo/GO_0102915) SubClassOf [oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water](http://purl.obolibrary.org/obo/GO_0016717) 
 
 
 ### plasmalogen synthase activity `http://purl.obolibrary.org/obo/GO_0047159`
@@ -10743,34 +12825,16 @@ ketone body catabolic process ;  GO:0046952."
 - [positive regulation of acetyl-CoA biosynthesis](http://purl.obolibrary.org/obo/GO_0140390) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
 
 
-### positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA `http://purl.obolibrary.org/obo/GO_1900496`
-#### Removed
-- [positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
-
-#### Added
-- [positive regulation of butyryl-CoA biosynthetic process from acetyl-CoA](http://purl.obolibrary.org/obo/GO_1900496) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
-
-
-### positive regulation of butyryl-CoA catabolic process to butanol `http://purl.obolibrary.org/obo/GO_1900499`
-#### Removed
-- [positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
-
-#### Added
-- [positive regulation of butyryl-CoA catabolic process to butanol](http://purl.obolibrary.org/obo/GO_1900499) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
-
-
-### positive regulation of butyryl-CoA catabolic process to butyrate `http://purl.obolibrary.org/obo/GO_1900502`
-#### Removed
-- [positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
-
-#### Added
-- [positive regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900502) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
-
-
 ### positive regulation of cytochrome-c oxidase activity `http://purl.obolibrary.org/obo/GO_1904960`
 
 #### Added
 - [positive regulation of cytochrome-c oxidase activity](http://purl.obolibrary.org/obo/GO_1904960) SubClassOf [positive regulation of oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0051353) 
+
+
+### positive regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_1904737`
+#### Removed
+- [positive regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904737) SubClassOf [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) 
+
 
 
 ### positive regulation of fructose 1,6-bisphosphate metabolic process `http://purl.obolibrary.org/obo/GO_0060552`
@@ -10779,6 +12843,12 @@ ketone body catabolic process ;  GO:0046952."
 
 #### Added
 - [positive regulation of fructose 1,6-bisphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0060552) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
+
+
+### positive regulation of glycolytic process through fructose-6-phosphate `http://purl.obolibrary.org/obo/GO_1904540`
+#### Removed
+- [positive regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904540) SubClassOf [obsolete regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904538) 
+
 
 
 ### positive regulation of inositol phosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0060732`
@@ -10841,14 +12911,6 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [positive regulation of taurine biosynthetic process](http://purl.obolibrary.org/obo/GO_0062090) SubClassOf [positive regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062013) 
 
-
-
-### positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA `http://purl.obolibrary.org/obo/GO_1901415`
-#### Removed
-- [positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positive regulation of phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045937) 
-
-#### Added
-- [positive regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA](http://purl.obolibrary.org/obo/GO_1901415) SubClassOf [positive regulation of phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0010562) 
 
 
 ### post-chaperonin tubulin folding pathway `http://purl.obolibrary.org/obo/GO_0007023`
@@ -11087,6 +13149,16 @@ ketone body catabolic process ;  GO:0046952."
 - [protein-glutamic acid ligase activity, initiating](http://purl.obolibrary.org/obo/GO_0106437) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [69196](http://rdf.rhea-db.org/69196) 
 
 
+### protein-lysine 6-oxidase activity `http://purl.obolibrary.org/obo/GO_0004720`
+#### Removed
+- [protein-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0004720) SubClassOf [diamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052597) 
+
+#### Added
+- [protein-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0004720) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31964"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein-lysine 6-oxidase activity](http://purl.obolibrary.org/obo/GO_0004720) SubClassOf [oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016641) 
+
+
 ### protein-lysine N-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0016279`
 
 #### Added
@@ -11153,6 +13225,58 @@ ketone body catabolic process ;  GO:0046952."
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19583219" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62000" 
+
+
+### protoporphyrinogen oxidase activity, oxygen as acceptor `http://purl.obolibrary.org/obo/GO_0004729`
+#### Removed
+- [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) [label](http://www.w3.org/2000/01/rdf-schema#label) "oxygen-dependent protoporphyrinogen oxidase activity" 
+
+#### Added
+- [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31965"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oxygen-dependent protoporphyrinogen oxidase activity" 
+
+- [protoporphyrinogen oxidase activity, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0004729) [label](http://www.w3.org/2000/01/rdf-schema#label) "protoporphyrinogen oxidase activity, oxygen as acceptor" 
+
+
+### protoporphyrinogen oxidase activity, quinone as acceptor `http://purl.obolibrary.org/obo/GO_0070819`
+#### Removed
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.3.3.4](http://purl.uniprot.org/enzyme/1.3.3.4) 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protoporphyrinogen-IX:menaquinone oxidoreductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: protoporphyrinogen IX + menaquinone = protoporphyrin IX + reduced menaquinone." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19583219" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [label](http://www.w3.org/2000/01/rdf-schema#label) "menaquinone-dependent protoporphyrinogen oxidase activity" 
+
+#### Added
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31965"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.3.5.3" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65032" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quinone-dependent protoporphyrinogen oxidase activity" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "menaquinone-dependent protoporphyrinogen oxidase activity" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.3.5.3](http://purl.uniprot.org/enzyme/1.3.5.3) 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [65032](http://rdf.rhea-db.org/65032) 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protoporphyrinogen-IX:menaquinone oxidoreductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: protoporphyrinogen IX + 3 a quinone = protoporphyrin IX + 3 a quinol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19583219" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65032" 
+
+- [protoporphyrinogen oxidase activity, quinone as acceptor](http://purl.obolibrary.org/obo/GO_0070819) [label](http://www.w3.org/2000/01/rdf-schema#label) "protoporphyrinogen oxidase activity, quinone as acceptor" 
 
 
 ### psilocybin biosynthetic process `http://purl.obolibrary.org/obo/GO_0140380`
@@ -11313,44 +13437,6 @@ ketone body catabolic process ;  GO:0046952."
 - [quinol-cytochrome-c reductase activity](http://purl.obolibrary.org/obo/GO_0008121) SubClassOf [oxidoreductase activity, acting on diphenols and related substances as donors](http://purl.obolibrary.org/obo/GO_0016679) 
 
 
-### quinone-dependent protoporphyrinogen oxidase activity `http://purl.obolibrary.org/obo/GO_0070819`
-#### Removed
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.3.3.4](http://purl.uniprot.org/enzyme/1.3.3.4) 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protoporphyrinogen-IX:menaquinone oxidoreductase activity" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: protoporphyrinogen IX + menaquinone = protoporphyrin IX + reduced menaquinone." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19583219" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [label](http://www.w3.org/2000/01/rdf-schema#label) "menaquinone-dependent protoporphyrinogen oxidase activity" 
-
-#### Added
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31965"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.3.5.3" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65032" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "menaquinone-dependent protoporphyrinogen oxidase activity" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.3.5.3](http://purl.uniprot.org/enzyme/1.3.5.3) 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [65032](http://rdf.rhea-db.org/65032) 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protoporphyrinogen-IX:menaquinone oxidoreductase activity" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: protoporphyrinogen IX + 3 a quinone = protoporphyrin IX + 3 a quinol." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19583219" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65032" 
-
-- [quinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [label](http://www.w3.org/2000/01/rdf-schema#label) "quinone-dependent protoporphyrinogen oxidase activity" 
-
-
 ### rRNA (uridine-2'-O-ribose)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0008650`
 
 #### Added
@@ -11509,6 +13595,50 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [sarcinapterin metabolic process](http://purl.obolibrary.org/obo/GO_1900867) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
 
+
+
+### scopoletin 8-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0106145`
+#### Removed
+- [scopoletin 8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalyzes of the reaction: scopoletin + 2-oxoglutarate+O2=fraxetin +succinate+ CO2)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:57848" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lr" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29581584" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29361149" 
+
+- [scopoletin 8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106145) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
+
+#### Added
+- [scopoletin 8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106145) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [scopoletin 8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: scopoletin + 2-oxoglutarate + O2 = fraxetin + succinate + CO2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:57848" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29581584" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29361149" 
+
+- [scopoletin 8-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0106145) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
+
+
+### secologanin synthase activity `http://purl.obolibrary.org/obo/GO_0050616`
+#### Removed
+- [secologanin synthase activity](http://purl.obolibrary.org/obo/GO_0050616) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: loganin + NADPH + H+ + O2 = secologanin + NADP+ + 2 H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.19.62" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:1.3.3.9-RXN" 
+
+- [secologanin synthase activity](http://purl.obolibrary.org/obo/GO_0050616) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016634) 
+
+#### Added
+- [secologanin synthase activity](http://purl.obolibrary.org/obo/GO_0050616) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [secologanin synthase activity](http://purl.obolibrary.org/obo/GO_0050616) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: loganin + reduced [NADPH--hemoprotein reductase] + O2 = secologanin + oxidized [NADPH--hemoprotein reductase] + 2 H2O + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:20585" 
+
+- [secologanin synthase activity](http://purl.obolibrary.org/obo/GO_0050616) SubClassOf [oxidoreductase activity, acting on paired donors, with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water](http://purl.obolibrary.org/obo/GO_0016717) 
 
 
 ### secondary active monocarboxylate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015355`
