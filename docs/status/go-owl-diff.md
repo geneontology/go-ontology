@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-29/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-30/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-29" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-30" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1301,6 +1301,16 @@
 - [4-hydroxyphenylacetaldehyde oxime monooxygenase activity](http://purl.obolibrary.org/obo/GO_0050592) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
 
 
+### 4-hydroxysphinganine ceramide fatty acyl 2-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0120521`
+#### Removed
+- [4-hydroxysphinganine ceramide fatty acyl 2-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120521) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.14.18.6](http://purl.uniprot.org/enzyme/1.14.18.6) 
+
+#### Added
+- [4-hydroxysphinganine ceramide fatty acyl 2-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120521) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.18.6" 
+
+- [4-hydroxysphinganine ceramide fatty acyl 2-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0120521) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.14.18.6](http://purl.uniprot.org/enzyme/1.14.18.6) 
+
+
 ### 4-phosphoerythronate phosphatase activity `http://purl.obolibrary.org/obo/GO_0140401`
 
 #### Added
@@ -1833,6 +1843,28 @@
 #### Removed
 - [CMP-N-acetylneuraminate transmembrane transport](http://purl.obolibrary.org/obo/GO_0015782) SubClassOf [organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
 
+
+
+### COPII vesicle coating `http://purl.obolibrary.org/obo/GO_0048208`
+#### Removed
+- [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "COPII vesicle coat assembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208) [label](http://www.w3.org/2000/01/rdf-schema#label) "COPII vesicle coating" 
+
+#### Added
+- [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "COPII vesicle coating" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208) [label](http://www.w3.org/2000/01/rdf-schema#label) "COPII vesicle coat assembly" 
 
 
 ### Cypridina-luciferin 2-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0047712`
@@ -4127,6 +4159,30 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [alkanesulfonate transmembrane transport](http://purl.obolibrary.org/obo/GO_0042918) SubClassOf [organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
 
+
+
+### alkyl hydroperoxide reductase activity `http://purl.obolibrary.org/obo/GO_0008785`
+#### Removed
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: octane hydroperoxide + NADH + H+ = H2O + NAD+ + 1-octanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [label](http://www.w3.org/2000/01/rdf-schema#label) "alkyl hydroperoxide reductase activity" 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) SubClassOf [oxidoreductase activity, acting on a sulfur group of donors, NAD(P) as acceptor](http://purl.obolibrary.org/obo/GO_0016668) 
+
+#### Added
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31961"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [NADH-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0102039) 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: octane hydroperoxide + NADH + H+ = H2O + NAD+ + 1-octanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that, despite the generic-sounding name, this term represented a substrate-specific activity that is more specific than the specificity of any known gene product. 'Alkyl hydroperoxide reductase' is listed as a synonym of EC 1.11.1.26, which corresponds to GO:0102039 NADH-dependent peroxiredoxin activity, the appropriate replacement." 
+
+- [alkyl hydroperoxide reductase activity](http://purl.obolibrary.org/obo/GO_0008785) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete alkyl hydroperoxide reductase activity" 
 
 
 ### allantoate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015124`
@@ -6845,6 +6901,35 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [ferric-enterobactin import into cell](http://purl.obolibrary.org/obo/GO_0015685) SubClassOf [organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
 
+
+
+### ferritinophagy `http://purl.obolibrary.org/obo/GO_7770069`
+
+#### Added
+- Class: [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30894"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-29T15:27:39Z" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ferritin-specific autophagy" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770069" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The selective degradation of ferritin to release iron by macroautophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25327288" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26436293" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38714719" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) [label](http://www.w3.org/2000/01/rdf-schema#label) "ferritinophagy" 
+
+- [ferritinophagy](http://purl.obolibrary.org/obo/GO_7770069) SubClassOf [macroautophagy](http://purl.obolibrary.org/obo/GO_0016236) 
 
 
 ### flavone synthase activity `http://purl.obolibrary.org/obo/GO_0033759`
@@ -12591,6 +12676,48 @@ ketone body catabolic process ;  GO:0046952."
 - [reductive iron assimilation](http://purl.obolibrary.org/obo/GO_0033215) SubClassOf [iron ion import across plasma membrane](http://purl.obolibrary.org/obo/GO_0098711) 
 
 
+### regulation of COPII vesicle coating `http://purl.obolibrary.org/obo/GO_0003400`
+#### Removed
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency, or extent of the addition of COPII proteins and adaptor proteins to ER membranes during the formation of transport vesicles, forming a vesicle coat." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jp" 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of COPII vesicle coating" 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208)) 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) SubClassOf [regulation of organelle organization](http://purl.obolibrary.org/obo/GO_0033043) 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) SubClassOf [regulation of protein-containing complex assembly](http://purl.obolibrary.org/obo/GO_0043254) 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208) 
+
+#### Added
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31945"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0048208) 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the rate, frequency, or extent of the addition of COPII proteins and adaptor proteins to ER membranes during the formation of transport vesicles, forming a vesicle coat." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jp" 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the proteins previously annotated to it are part_of the COPII vesicle coating pathway rather than upstream regulators of it. Annotations should be moved to GO:0048208 COPII vesicle coat assembly." 
+
+- [regulation of COPII vesicle coating](http://purl.obolibrary.org/obo/GO_0003400) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of COPII vesicle coating" 
+
+
 ### regulation of L-dopa biosynthetic process `http://purl.obolibrary.org/obo/GO_1903195`
 #### Removed
 - [regulation of L-dopa biosynthetic process](http://purl.obolibrary.org/obo/GO_1903195) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of L-dopa biosynthetic process." 
@@ -14189,6 +14316,34 @@ ketone body catabolic process ;  GO:0046952."
 - [synaptic vesicle targeting](http://purl.obolibrary.org/obo/GO_0016080) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete synaptic vesicle targeting" 
 
 
+### synaptic vesicle tethering involved in synaptic vesicle exocytosis `http://purl.obolibrary.org/obo/GO_0099069`
+#### Removed
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial, indirect interaction between a synaptic vesicle membrane and a the preseynaptic membrane active zone. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. This process is distinct from and prior to synaptic vesicle priming and fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rn" 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [label](http://www.w3.org/2000/01/rdf-schema#label) "synaptic vesicle tethering involved in synaptic vesicle exocytosis" 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) SubClassOf [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) 
+
+#### Added
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31871"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0016079) 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial, indirect interaction between a synaptic vesicle membrane and a the preseynaptic membrane active zone. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. This process is distinct from and prior to synaptic vesicle priming and fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rn" 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function (vesicle membrane tethering activity) rather than a biological process, and is pre-composed; the same information is better represented as a GO-CAM model. Annotations should be reviewed and reannotated to the new MF term GO:7770062 'vesicle membrane tethering activity', combined with GO:0016079 'synaptic vesicle exocytosis' as appropriate." 
+
+- [synaptic vesicle tethering involved in synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0099069) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete synaptic vesicle tethering involved in synaptic vesicle exocytosis" 
+
+
 ### tRNA (cytidine-N5)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0016428`
 
 #### Added
@@ -14767,6 +14922,18 @@ ketone body catabolic process ;  GO:0046952."
 - [valine metabolic process](http://purl.obolibrary.org/obo/GO_0006573) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete valine metabolic process" 
 
 
+### vesicle coating `http://purl.obolibrary.org/obo/GO_0006901`
+#### Removed
+- [vesicle coating](http://purl.obolibrary.org/obo/GO_0006901) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "vesicle coat assembly" 
+
+- [vesicle coating](http://purl.obolibrary.org/obo/GO_0006901) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle coating" 
+
+#### Added
+- [vesicle coating](http://purl.obolibrary.org/obo/GO_0006901) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vesicle coating" 
+
+- [vesicle coating](http://purl.obolibrary.org/obo/GO_0006901) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle coat assembly" 
+
+
 ### vesicle docking activity `http://purl.obolibrary.org/obo/GO_0160321`
 
 #### Added
@@ -14855,6 +15022,132 @@ ketone body catabolic process ;  GO:0046952."
 - [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Golgi to periciliary membrane compartment transport" 
 
 - [vesicle targeting, trans-Golgi to periciliary membrane compartment](http://purl.obolibrary.org/obo/GO_0097712) SubClassOf [Golgi to plasma membrane transport](http://purl.obolibrary.org/obo/GO_0006893) 
+
+
+### vesicle tethering `http://purl.obolibrary.org/obo/GO_0099022`
+#### Removed
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial, indirect interaction between a vesicle membrane and a membrane to which it is targeted for fusion. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior to interaction between factors involved in fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle tethering" 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) SubClassOf [cellular component organization](http://purl.obolibrary.org/obo/GO_0016043) 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [vesicle targeting](http://purl.obolibrary.org/obo/GO_0006903) 
+
+#### Added
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31881"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial, indirect interaction between a vesicle membrane and a membrane to which it is targeted for fusion. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior to interaction between factors involved in fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function (vesicle membrane tethering activity) rather than a biological process. Annotations should be reviewed and reannotated to the new MF term GO:7770062 'vesicle membrane tethering activity', and where appropriate combined with the relevant vesicle-mediated transport / exocytosis process term in a GO-CAM model." 
+
+- [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vesicle tethering" 
+
+
+### vesicle tethering involved in exocytosis `http://purl.obolibrary.org/obo/GO_0090522`
+#### Removed
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "vesicle tethering to plasma membrane" 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial, indirect interaction between a secretory vesicle membrane and a site of exocytosis in the plasma membrane. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior to docking and fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22420621" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10559876" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17488620" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17052174" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rn" 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle tethering involved in exocytosis" 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) EquivalentTo [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [exocytosis](http://purl.obolibrary.org/obo/GO_0006887)) 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) SubClassOf [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) SubClassOf [exocytic process](http://purl.obolibrary.org/obo/GO_0140029) 
+
+#### Added
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31872"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exocytosis](http://purl.obolibrary.org/obo/GO_0006887) 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial, indirect interaction between a secretory vesicle membrane and a site of exocytosis in the plasma membrane. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior to docking and fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22420621" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10559876" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17488620" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17052174" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rn" 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function (vesicle membrane tethering activity) rather than a biological process, and is pre-composed; the same information is better represented as a GO-CAM model. Annotations should be reviewed and reannotated to the new MF term GO:7770062 'vesicle membrane tethering activity', combined with GO:0006887 'exocytosis' or a descendant as appropriate." 
+
+- [vesicle tethering involved in exocytosis](http://purl.obolibrary.org/obo/GO_0090522) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vesicle tethering involved in exocytosis" 
+
+
+### vesicle tethering to Golgi `http://purl.obolibrary.org/obo/GO_0099041`
+#### Removed
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial, indirect interaction between a transport vesicle membrane and the membrane of the Golgi. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle tethering to Golgi" 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) SubClassOf [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) 
+
+#### Added
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31872"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial, indirect interaction between a transport vesicle membrane and the membrane of the Golgi. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function rather than a biological process, and is pre-composed; the same information is better represented as a GO-CAM model. Annotations should be reviewed and reannotated to GO:7770062 'vesicle membrane tethering activity', combined with the appropriate vesicle transport pathway BP term as part of a GO-CAM model." 
+
+- [vesicle tethering to Golgi](http://purl.obolibrary.org/obo/GO_0099041) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vesicle tethering to Golgi" 
+
+
+### vesicle tethering to endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0099044`
+#### Removed
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial, indirect interaction between a transport vesicle membrane and the membrane of the endoplasmic reticulum. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle tethering to endoplasmic reticulum" 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) SubClassOf [vesicle tethering](http://purl.obolibrary.org/obo/GO_0099022) 
+
+#### Added
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31868"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial, indirect interaction between a transport vesicle membrane and the membrane of the endoplasmic reticulum. This interaction is mediated by tethering factors (or complexes), which interact with both membranes. Interaction can occur via direct binding to membrane phospholipids or membrane proteins, or via binding to vesicle coat proteins. This process is distinct from and prior fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27243008" 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function rather than a biological process. Annotations should be reviewed; the VAP-related proteins previously annotated here are lipid transfer/adaptor proteins rather than vesicle tethers, and other types of membrane adaptor terms may be more appropriate. Where the activity is genuinely vesicle tethering, reannotate to GO:7770062 'vesicle membrane tethering activity'." 
+
+- [vesicle tethering to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0099044) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vesicle tethering to endoplasmic reticulum" 
 
 
 ### vinorine hydroxylase activity `http://purl.obolibrary.org/obo/GO_0050596`
