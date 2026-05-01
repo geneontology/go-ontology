@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-04-30/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-01/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-04-30" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-01" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -4564,6 +4564,22 @@
 - [aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid biosynthetic process, prephenate pathway" 
 
 
+### aromatic amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0009074`
+#### Removed
+- [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid family catabolic process" 
+
+#### Added
+- [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32000"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of an amino acid whose structure includes an aromatic ring." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid catabolic process" 
+
+
 ### aspartate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009067`
 #### Removed
 - [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of amino acids of the aspartate family, comprising asparagine, aspartate, lysine, methionine and threonine." 
@@ -5379,6 +5395,33 @@
 - [cytochrome-c oxidase activity](http://purl.obolibrary.org/obo/GO_0004129) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/25935"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [cytochrome-c oxidase activity](http://purl.obolibrary.org/obo/GO_0004129) SubClassOf [oxidoreductase activity, acting on a heme group of donors](http://purl.obolibrary.org/obo/GO_0016675) 
+
+
+### cytoplasmic lattice complex `http://purl.obolibrary.org/obo/GO_0140419`
+
+#### Added
+- Class: [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31998"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-04-30T10:01:02Z" 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140419" 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex at least composed of PADI6, TLE6, NLRP14 and KHDC3 that forms fibrous structures in the mammalian ooplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41917274" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41845018" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41986725" 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) [label](http://www.w3.org/2000/01/rdf-schema#label) "cytoplasmic lattice complex" 
+
+- [cytoplasmic lattice complex](http://purl.obolibrary.org/obo/GO_0140419) SubClassOf [protein-containing complex](http://purl.obolibrary.org/obo/GO_0032991) 
 
 
 ### cytoskeletal adaptor activity `http://purl.obolibrary.org/obo/GO_0008093`
@@ -9881,7 +9924,7 @@ ketone body catabolic process ;  GO:0046952."
 
 - [obsolete aromatic amino acid family catabolic process to alcohol via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000949) SubClassOf [obsolete amino acid catabolic process to alcohol via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000947) 
 
-- [obsolete aromatic amino acid family catabolic process to alcohol via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000949) SubClassOf [aromatic amino acid family catabolic process](http://purl.obolibrary.org/obo/GO_0009074) 
+- [obsolete aromatic amino acid family catabolic process to alcohol via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000949) SubClassOf [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) 
 
 #### Added
 - [obsolete aromatic amino acid family catabolic process to alcohol via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000949) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31839"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -9915,7 +9958,7 @@ ketone body catabolic process ;  GO:0046952."
 
 - [obsolete aromatic amino acid family catabolic process to carboxylic acid via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000952) SubClassOf [obsolete amino acid catabolic process to carboxylic acid via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000948) 
 
-- [obsolete aromatic amino acid family catabolic process to carboxylic acid via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000952) SubClassOf [aromatic amino acid family catabolic process](http://purl.obolibrary.org/obo/GO_0009074) 
+- [obsolete aromatic amino acid family catabolic process to carboxylic acid via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000952) SubClassOf [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) 
 
 #### Added
 - [obsolete aromatic amino acid family catabolic process to carboxylic acid via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000952) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31839"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
