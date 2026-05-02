@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-01/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-02/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-01" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-02" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1794,6 +1794,22 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:32115" 
 
 - [DIBOA-glucoside oxygenase activity](http://purl.obolibrary.org/obo/GO_0102717) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
+
+
+### ER lumen protein retrieval receptor activity `http://purl.obolibrary.org/obo/GO_0046923`
+#### Removed
+- [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an endoplasmic reticulum (ER) retention sequence, a specific peptide sequence that ensures a protein is retained within the ER." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [label](http://www.w3.org/2000/01/rdf-schema#label) "ER retention sequence binding" 
+
+#### Added
+- [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ER retention sequence binding" 
+
+- [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an endoplasmic reticulum (ER) retention sequence, a short stretch of amino acids found in a protein that acts as a signal to retain the protein within the ER." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [label](http://www.w3.org/2000/01/rdf-schema#label) "ER lumen protein retrieval receptor activity" 
 
 
 ### FAD transport `http://purl.obolibrary.org/obo/GO_0015883`
@@ -4509,6 +4525,24 @@
 - [chlorophyllide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0010277) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
 
 
+### chloroplast targeting sequence receptor activity `http://purl.obolibrary.org/obo/GO_0030941`
+#### Removed
+- [chloroplast targeting sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030941) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a chloroplast targeting sequence, a specific peptide sequence that acts as a signal to localize the protein within the chloroplast." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [chloroplast targeting sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030941) [label](http://www.w3.org/2000/01/rdf-schema#label) "chloroplast targeting sequence binding" 
+
+#### Added
+- [chloroplast targeting sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030941) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [chloroplast targeting sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030941) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "chloroplast targeting sequence binding" 
+
+- [chloroplast targeting sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030941) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a chloroplast targeting sequence, a short stretch of amino acids found in a protein that acts as a signal to localize the protein to the chloroplast." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35929083" 
+
+- [chloroplast targeting sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030941) [label](http://www.w3.org/2000/01/rdf-schema#label) "chloroplast targeting sequence receptor activity" 
+
+
 ### cholest-4-en-3-one 26-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0036199`
 #### Removed
 - [cholest-4-en-3-one 26-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0036199) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
@@ -5468,6 +5502,24 @@
 - [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:77675" 
 
 - [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [77675](http://rdf.rhea-db.org/77675) 
+
+
+### endoplasmic reticulum signal sequence receptor activity `http://purl.obolibrary.org/obo/GO_0030942`
+#### Removed
+- [endoplasmic reticulum signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030942) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an endoplasmic reticulum signal peptide, a specific peptide sequence that acts as a signal to localize the protein within the endoplasmic reticulum." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [endoplasmic reticulum signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030942) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum signal peptide binding" 
+
+#### Added
+- [endoplasmic reticulum signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030942) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030942) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "endoplasmic reticulum signal peptide binding" 
+
+- [endoplasmic reticulum signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030942) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an endoplasmic reticulum signal peptide, a short stretch of amino acids found in a protein that acts as a signal to localize the protein to the endoplasmic reticulum." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [endoplasmic reticulum signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0030942) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum signal sequence receptor activity" 
 
 
 ### endoplasmic reticulum-autophagosome adaptor activity `http://purl.obolibrary.org/obo/GO_0140506`
@@ -13007,6 +13059,26 @@ ketone body catabolic process ;  GO:0046952."
 - [peptidyl-lysine N6-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0018031) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 
+### peroxisome signal sequence receptor activity `http://purl.obolibrary.org/obo/GO_0000268`
+#### Removed
+- [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a peroxisomal targeting sequence, a sequence of amino acids within a protein that acts as a signal for the localization of a protein into the peroxisome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879693568" 
+
+- [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome targeting sequence binding" 
+
+#### Added
+- [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "peroxisome targeting sequence binding" 
+
+- [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a peroxisomal targeting sequence, a short stretch of amino acids found in a protein that acts as a signal to localize the protein to the peroxisome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20659419" 
+
+- [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome signal sequence receptor activity" 
+
+
 ### peroxisome-chloroplast membrane tether activity `http://purl.obolibrary.org/obo/GO_7770065`
 
 #### Added
@@ -14318,6 +14390,28 @@ ketone body catabolic process ;  GO:0046952."
 - [short-chain 2-methyl fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003853) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48256" 
 
 - [short-chain 2-methyl fatty acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003853) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [48256](http://rdf.rhea-db.org/48256) 
+
+
+### signal sequence receptor activity `http://purl.obolibrary.org/obo/GO_0005048`
+#### Removed
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a signal sequence, a specific peptide sequence found on protein precursors or mature proteins that dictates where the mature protein is localized." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) [label](http://www.w3.org/2000/01/rdf-schema#label) "signal sequence binding" 
+
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) SubClassOf [peptide binding](http://purl.obolibrary.org/obo/GO_0042277) 
+
+#### Added
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "signal sequence binding" 
+
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a signal sequence, a short stretch of amino acids found in a protein that acts as a signal for its proper localization in the cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) [label](http://www.w3.org/2000/01/rdf-schema#label) "signal sequence receptor activity" 
+
+- [signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0005048) SubClassOf [molecular_function](http://purl.obolibrary.org/obo/GO_0003674) 
 
 
 ### sinapoyl spermidine:sinapoyl CoA N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0080089`
