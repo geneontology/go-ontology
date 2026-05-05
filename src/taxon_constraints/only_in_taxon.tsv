@@ -378,6 +378,7 @@ GO:0044782	cilium organization	NCBITaxon:2759	Eukaryota
 GO:0044787	bacterial-type DNA replication	NCBITaxon:2	Bacteria	
 GO:0044849	estrous cycle	NCBITaxon:32525	Theria <Mammalia>	
 GO:0044850	menstrual cycle	NCBITaxon:9443	Primates	
+GO:0045136	development of secondary sexual characteristics, sensu Metazoa	NCBITaxon:33208	Metazoa	https://github.com/geneontology/go-ontology/issues/31051
 GO:0045138	nematode male tail tip morphogenesis	NCBITaxon:6231	Nematoda	
 GO:0045152	antisigma factor binding	NCBITaxon:2	Bacteria	
 GO:0045170	spectrosome	NCBITaxon:6656	Arthropoda	
