@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-04/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-05/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-04" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-05" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1810,6 +1810,28 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [label](http://www.w3.org/2000/01/rdf-schema#label) "ER lumen protein retrieval receptor activity" 
+
+
+### Entner-Doudoroff pathway `http://purl.obolibrary.org/obo/GO_0061678`
+#### Removed
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:Entner-Doudoroff-Pathways" 
+
+#### Added
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ENTNER-DOUDOROFF-PWY" 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NPGLUCAT-PWY" 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2221" 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8004" 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ENTNER-DOUDOROFF-PWY](http://identifiers.org/metacyc.reaction/ENTNER-DOUDOROFF-PWY) 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [NPGLUCAT-PWY](http://identifiers.org/metacyc.reaction/NPGLUCAT-PWY) 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2221](http://identifiers.org/metacyc.reaction/PWY-2221) 
+
+- [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8004](http://identifiers.org/metacyc.reaction/PWY-8004) 
 
 
 ### FAD transport `http://purl.obolibrary.org/obo/GO_0015883`
@@ -4124,14 +4146,6 @@
 - [aromatic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009073) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid biosynthetic process" 
 
 
-### aromatic amino acid biosynthetic process, prephenate pathway `http://purl.obolibrary.org/obo/GO_0009095`
-#### Removed
-- [aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid family biosynthetic process, prephenate pathway" 
-
-#### Added
-- [aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid biosynthetic process, prephenate pathway" 
-
-
 ### aromatic amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0009074`
 #### Removed
 - [aromatic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009074) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of aromatic amino acid family, amino acids with aromatic ring (phenylalanine, tyrosine, tryptophan)." 
@@ -5250,6 +5264,60 @@
 - [deoxysarpagine hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033775) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
 
 
+### development of secondary female sexual characteristics, sensu Metazoa `http://purl.obolibrary.org/obo/GO_0046543`
+#### Removed
+- [development of secondary female sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046543) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the secondary female sexual characteristics over time, from their formation to the mature structures. In female humans, these include growth of axillary and pubic hair, breast development and menstrual periods. Their development occurs in response to sex hormone secretion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [development of secondary female sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046543) [label](http://www.w3.org/2000/01/rdf-schema#label) "development of secondary female sexual characteristics" 
+
+#### Added
+- [development of secondary female sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046543) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31051"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [development of secondary female sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046543) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "development of secondary female sexual characteristics" 
+
+- [development of secondary female sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046543) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the secondary female sexual characteristics over time, from their formation to the mature structures. In female mammals, examples include growth of axillary and pubic hair, breast development and menstrual periods. Their development occurs in response to sex hormone secretion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [development of secondary female sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046543) [label](http://www.w3.org/2000/01/rdf-schema#label) "development of secondary female sexual characteristics, sensu Metazoa" 
+
+
+### development of secondary male sexual characteristics, sensu Metazoa `http://purl.obolibrary.org/obo/GO_0046544`
+#### Removed
+- [development of secondary male sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the secondary male sexual characteristics over time, from their formation to the mature structures. In male humans, these include growth of axillary, chest, and pubic hair, voice changes, and testicular/penile enlargement. Development occurs in response to sex hormone secretion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [development of secondary male sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046544) [label](http://www.w3.org/2000/01/rdf-schema#label) "development of secondary male sexual characteristics" 
+
+#### Added
+- [development of secondary male sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046544) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31051"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [development of secondary male sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046544) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "development of secondary male sexual characteristics" 
+
+- [development of secondary male sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046544) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the secondary male sexual characteristics over time, from their formation to the mature structures. In male mammals, examples include growth of axillary, chest, and pubic hair, voice changes, and testicular/penile enlargement. Development occurs in response to sex hormone secretion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [development of secondary male sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0046544) [label](http://www.w3.org/2000/01/rdf-schema#label) "development of secondary male sexual characteristics, sensu Metazoa" 
+
+
+### development of secondary sexual characteristics, sensu Metazoa `http://purl.obolibrary.org/obo/GO_0045136`
+#### Removed
+- [development of secondary sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0045136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the secondary sexual characteristics over time, from their formation to the mature structures. In humans, these include growth of axillary, chest, and pubic hair, voice changes, testicular/penile enlargement, breast development and menstrual periods. Development occurs in response to sex hormone secretion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [development of secondary sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0045136) [label](http://www.w3.org/2000/01/rdf-schema#label) "development of secondary sexual characteristics" 
+
+#### Added
+- [development of secondary sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0045136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31051"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [development of secondary sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0045136) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "development of secondary sexual characteristics" 
+
+- [development of secondary sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0045136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the secondary sexual characteristics over time, from their formation to the mature structures. In mammals, examples include growth of axillary, chest, and pubic hair, voice changes, testicular/penile enlargement, breast development and menstrual periods. Development occurs in response to sex hormone secretion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [development of secondary sexual characteristics, sensu Metazoa](http://purl.obolibrary.org/obo/GO_0045136) [label](http://www.w3.org/2000/01/rdf-schema#label) "development of secondary sexual characteristics, sensu Metazoa" 
+
+
 ### diacylglycerol lipase activity `http://purl.obolibrary.org/obo/GO_0120516`
 
 #### Added
@@ -5675,10 +5743,26 @@
 - [epoxide hydrolase activity](http://purl.obolibrary.org/obo/GO_0004301) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [54016](http://rdf.rhea-db.org/54016) 
 
 
+### ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide `http://purl.obolibrary.org/obo/GO_0052704`
+
+#### Added
+- [ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide](http://purl.obolibrary.org/obo/GO_0052704) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32018"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### ergothioneine biosynthetic process `http://purl.obolibrary.org/obo/GO_0052699`
 #### Removed
 - [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) SubClassOf [obsolete ergothioneine metabolic process](http://purl.obolibrary.org/obo/GO_0052698) 
 
+#### Added
+- [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32018"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7255" 
+
+- [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7550" 
+
+- [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7255](http://identifiers.org/metacyc.reaction/PWY-7255) 
+
+- [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7550](http://identifiers.org/metacyc.reaction/PWY-7550) 
 
 
 ### ergothioneine catabolic process `http://purl.obolibrary.org/obo/GO_0052700`
@@ -6127,14 +6211,58 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:26229" 
 
 
+### gluconate 2-dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0008873`
+#### Removed
+- [gluconate 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008873) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconate 2-dehydrogenase activity" 
+
+- [gluconate 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008873) SubClassOf [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) 
+
+#### Added
+- [gluconate 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008873) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "gluconate 2-dehydrogenase activity" 
+
+- [gluconate 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008873) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconate 2-dehydrogenase (NADP+) activity" 
+
+- [gluconate 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008873) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+
 ### gluconate 2-dehydrogenase (acceptor) activity `http://purl.obolibrary.org/obo/GO_0033717`
 #### Removed
-- [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) SubClassOf [gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) 
+- [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) SubClassOf [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) 
 
 #### Added
 - [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31969"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [gluconate 2-dehydrogenase (acceptor) activity](http://purl.obolibrary.org/obo/GO_0033717) SubClassOf [oxidoreductase activity, acting on CH-OH group of donors](http://purl.obolibrary.org/obo/GO_0016614) 
+
+
+### gluconate 5-dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0008874`
+#### Removed
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-gluconate + NADP+ = 5-dehydro-D-gluconate + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.69" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconate 5-dehydrogenase activity" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) SubClassOf [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) 
+
+#### Added
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31989"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23936" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23940" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "gluconate 5-dehydrogenase activity" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [23936](http://rdf.rhea-db.org/23936) 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [23940](http://rdf.rhea-db.org/23940) 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-gluconate + NAD(P)+ = 5-dehydro-D-gluconate + NAD(P)H + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.69" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconate 5-dehydrogenase [NAD(P)+] activity" 
+
+- [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
 
 
 ### gluconate import across plasma membrane `http://purl.obolibrary.org/obo/GO_0140270`
@@ -6761,6 +6889,14 @@
 
 #### Added
 - [gonadotropin secretion](http://purl.obolibrary.org/obo/GO_0032274) SubClassOf [hormone secretion](http://purl.obolibrary.org/obo/GO_0046879) 
+
+
+### hercynylcysteine sulfoxide synthase activity `http://purl.obolibrary.org/obo/GO_0061686`
+#### Removed
+- [hercynylcysteine sulfoxide synthase activity](http://purl.obolibrary.org/obo/GO_0061686) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) 
+
+#### Added
+- [hercynylcysteine sulfoxide synthase activity](http://purl.obolibrary.org/obo/GO_0061686) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) 
 
 
 ### hexuronate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015134`
@@ -7652,6 +7788,28 @@
 - [nitroalkane oxidase activity](http://purl.obolibrary.org/obo/GO_0052664) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [50772](http://rdf.rhea-db.org/50772) 
 
 
+### non-proteinogenic amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0170043`
+
+#### Added
+- [non-proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170043) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31996"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [non-proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170043) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### non-proteinogenic amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0170044`
+
+#### Added
+- [non-proteinogenic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170044) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31996"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [non-proteinogenic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170044) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### non-proteinogenic amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0170041`
+
+#### Added
+- [non-proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31996"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### nor-spermidine biosynthetic process `http://purl.obolibrary.org/obo/GO_0045312`
 
 #### Added
@@ -7816,6 +7974,160 @@
 - [obsolete C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016408) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents an unnecessary grouping class that lacks an EC cross-reference and leads to misclassification of children." 
 
 - [obsolete C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016408) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete C-acyltransferase activity" 
+
+
+### obsolete Entner-Doudoroff pathway through 6-phosphogluconate `http://purl.obolibrary.org/obo/GO_0009255`
+#### Removed
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8004" 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A pathway that converts a carbohydrate to pyruvate and glyceraldehyde-3 phosphate by producing 6-phosphogluconate and then dehydrating it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12981024" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921356" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8004" 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [label](http://www.w3.org/2000/01/rdf-schema#label) "Entner-Doudoroff pathway through 6-phosphogluconate" 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) SubClassOf [glyceraldehyde-3-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019682) 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) SubClassOf [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [phosphogluconate dehydratase activity](http://purl.obolibrary.org/obo/GO_0004456) 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [2-dehydro-3-deoxy-phosphogluconate aldolase activity](http://purl.obolibrary.org/obo/GO_0008675) 
+
+#### Added
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A pathway that converts a carbohydrate to pyruvate and glyceraldehyde-3 phosphate by producing 6-phosphogluconate and then dehydrating it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12981024" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921356" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8004" 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the variant Entner-Doudoroff pathways are better represented by the parent term GO:0061678 (Entner-Doudoroff pathway). MetaCyc treats these as 'variant pathways' and such variants are better captured as GO-CAMs rather than as nested ontology terms." 
+
+- [obsolete Entner-Doudoroff pathway through 6-phosphogluconate](http://purl.obolibrary.org/obo/GO_0009255) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Entner-Doudoroff pathway through 6-phosphogluconate" 
+
+
+### obsolete Entner-Doudoroff pathway through gluconate `http://purl.obolibrary.org/obo/GO_0061679`
+#### Removed
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gluconate pathway" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The Entner-Doudoroff pathway that proceeds through a D-gluconate intermediate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921536" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [label](http://www.w3.org/2000/01/rdf-schema#label) "Entner-Doudoroff pathway through gluconate" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) SubClassOf [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [gluconate dehydratase activity](http://purl.obolibrary.org/obo/GO_0047929) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [glucose 1-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047935) 
+
+#### Added
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The Entner-Doudoroff pathway that proceeds through a D-gluconate intermediate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921536" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the variant Entner-Doudoroff pathways are better represented by the parent term GO:0061678 (Entner-Doudoroff pathway). MetaCyc treats these as 'variant pathways' and such variants are better captured as GO-CAMs rather than as nested ontology terms." 
+
+- [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Entner-Doudoroff pathway through gluconate" 
+
+
+### obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde `http://purl.obolibrary.org/obo/GO_0061680`
+#### Removed
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NPGLUCAT-PWY" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The Entner-Doudoroff pathway that proceeds through a D-gluconate intermediate and yields pyruvate and D-glyceraldehyde." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921536" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NPGLUCAT-PWY" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [label](http://www.w3.org/2000/01/rdf-schema#label) "Entner-Doudoroff pathway through gluconate to D-glyceraldehyde" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) SubClassOf [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) SubClassOf [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) SubClassOf [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [2-dehydro-3-deoxy-D-gluconate aldolase activity](http://purl.obolibrary.org/obo/GO_0061677) 
+
+#### Added
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The Entner-Doudoroff pathway that proceeds through a D-gluconate intermediate and yields pyruvate and D-glyceraldehyde." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921536" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NPGLUCAT-PWY" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the variant Entner-Doudoroff pathways are better represented by the parent term GO:0061678 (Entner-Doudoroff pathway). MetaCyc treats these as 'variant pathways' and such variants are better captured as GO-CAMs rather than as nested ontology terms." 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde](http://purl.obolibrary.org/obo/GO_0061680) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde" 
+
+
+### obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate `http://purl.obolibrary.org/obo/GO_0061681`
+#### Removed
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2221" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The Entner-Doudoroff pathway that proceeds through a D-gluconate intermediate and yields pyruvate and D-glyceraldehyde-3-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921536" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [label](http://www.w3.org/2000/01/rdf-schema#label) "Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) SubClassOf [glyceraldehyde-3-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019682) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) SubClassOf [obsolete Entner-Doudoroff pathway through gluconate](http://purl.obolibrary.org/obo/GO_0061679) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [2-dehydro-3-deoxygluconokinase activity](http://purl.obolibrary.org/obo/GO_0008673) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [2-dehydro-3-deoxy-phosphogluconate aldolase activity](http://purl.obolibrary.org/obo/GO_0008675) 
+
+#### Added
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The Entner-Doudoroff pathway that proceeds through a D-gluconate intermediate and yields pyruvate and D-glyceraldehyde-3-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12921536" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the variant Entner-Doudoroff pathways are better represented by the parent term GO:0061678 (Entner-Doudoroff pathway). MetaCyc treats these as 'variant pathways' and such variants are better captured as GO-CAMs rather than as nested ontology terms." 
+
+- [obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate](http://purl.obolibrary.org/obo/GO_0061681) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Entner-Doudoroff pathway through gluconate to D-glyceraldehyde-3-phosphate" 
 
 
 ### obsolete GABA metabolic process `http://purl.obolibrary.org/obo/GO_0009448`
@@ -8419,6 +8731,56 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete amino acid catabolic process via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000955) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete amino acid catabolic process via Ehrlich pathway" 
 
 
+### obsolete aromatic amino acid biosynthetic process, prephenate pathway `http://purl.obolibrary.org/obo/GO_0009095`
+#### Removed
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31091"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3481" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family anabolism, prephenate pathway" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family formation, prephenate pathway" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family synthesis, prephenate pathway" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of phenylalanine and tyrosine from other compounds, including chorismate, via the intermediate prephenate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0471331309" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3481" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family biosynthetic process via prephenate" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aromatic amino acid family biosynthetic process via prephenate(2-)" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pr" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [label](http://www.w3.org/2000/01/rdf-schema#label) "aromatic amino acid family biosynthetic process, prephenate pathway" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) SubClassOf [aromatic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009073) 
+
+#### Added
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32005"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-tyrosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006571) 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [L-phenylalanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009094) 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of phenylalanine and tyrosine from other compounds, including chorismate, via the intermediate prephenate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0471331309" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3481" 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a pre-composed pathway combining L-phenylalanine and L-tyrosine biosynthesis. MetaCyc:PWY-3481 is the 'superpathway of L-phenylalanine and L-tyrosine biosynthesis' and is composed of two separate pathways (PWY-3462 L-phenylalanine biosynthesis II and PWY-3461 L-tyrosine biosynthesis II) which are already represented as narrowMatch xrefs on GO:0009094 (L-phenylalanine biosynthetic process) and GO:0006571 (L-tyrosine biosynthetic process), respectively. Annotations should be transferred to the appropriate consider term(s)." 
+
+- [obsolete aromatic amino acid biosynthetic process, prephenate pathway](http://purl.obolibrary.org/obo/GO_0009095) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete aromatic amino acid biosynthetic process, prephenate pathway" 
+
+
 ### obsolete aromatic amino acid family catabolic process to alcohol via Ehrlich pathway `http://purl.obolibrary.org/obo/GO_0000949`
 #### Removed
 - [obsolete aromatic amino acid family catabolic process to alcohol via Ehrlich pathway](http://purl.obolibrary.org/obo/GO_0000949) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving the catabolism of aromatic amino acids to produce aromatic alcohols with one carbon less than the starting amino acid. In S. cerevisiae, this is known to occur for leucine, isoleucine, valine, methionine, phenylalanine, tyrosine, or tryptophan. When an aromatic family amino acid, phenylalanine, tyrosine, or tryptophan, is used as the substrate, 2-phenylethanol, 4-hydroxyphenylethanol, or tryptophol, respectively, is produced. Often referred to as the Ehrlich pathway, these reactions generally occur during fermentation to produce a variety of alcohols, often collectively referred to as fusel alcohols. Depending on the redox state of the cells, carboxylic acid derivatives may be produced instead of alcohols." 
@@ -8919,6 +9281,53 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete endoplasmic reticulum-peroxisome tethering](http://purl.obolibrary.org/obo/GO_0062095) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete endoplasmic reticulum-peroxisome tethering" 
 
 
+### obsolete endoplasmic reticulum-plasma membrane tethering `http://purl.obolibrary.org/obo/GO_0061817`
+#### Removed
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ER-plasma membrane tethering" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of an endoplasmic reticulum membrane to the plasma membrane via molecular tethers." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23237950" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26877082" 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum-plasma membrane tethering" 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) SubClassOf [endoplasmic reticulum localization](http://purl.obolibrary.org/obo/GO_0051643) 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+#### Added
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31873"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endoplasmic reticulum localization](http://purl.obolibrary.org/obo/GO_0051643) 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endoplasmic reticulum-plasma membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0160214) 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of an endoplasmic reticulum membrane to the plasma membrane via molecular tethers." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23237950" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27875684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26877082" 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be migrated to GO:0160214 'endoplasmic reticulum-plasma membrane adaptor activity'; the biological process aspect (if any) is captured by GO:0051643 'endoplasmic reticulum localization'." 
+
+- [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete endoplasmic reticulum-plasma membrane tethering" 
+
+
 ### obsolete epinephrine transport `http://purl.obolibrary.org/obo/GO_0048241`
 #### Removed
 - [obsolete epinephrine transport](http://purl.obolibrary.org/obo/GO_0048241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "adrenaline transport" 
@@ -8943,6 +9352,34 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete epinephrine transport](http://purl.obolibrary.org/obo/GO_0048241) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term and annotations should be made to more mechanism/location specific terms." 
 
 - [obsolete epinephrine transport](http://purl.obolibrary.org/obo/GO_0048241) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete epinephrine transport" 
+
+
+### obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase `http://purl.obolibrary.org/obo/GO_0140479`
+#### Removed
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A biosynthetic process that results in the formation of ergothioneine from histidine via a set of steps including the hercynylcysteine sulfoxide synthase reaction, which converts N-alpha,N-alpha,N-alpha-trimethyl-L-histidine directly to hercynylcysteine sulfoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24828577" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22209968" 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [label](http://www.w3.org/2000/01/rdf-schema#label) "ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase" 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) SubClassOf [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) 
+
+#### Added
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32018"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [ergothioneine biosynthetic process](http://purl.obolibrary.org/obo/GO_0052699) 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A biosynthetic process that results in the formation of ergothioneine from histidine via a set of steps including the hercynylcysteine sulfoxide synthase reaction, which converts N-alpha,N-alpha,N-alpha-trimethyl-L-histidine directly to hercynylcysteine sulfoxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24828577" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22209968" 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a GO-CAM model" 
+
+- [obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase](http://purl.obolibrary.org/obo/GO_0140479) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase" 
 
 
 ### obsolete ergothioneine metabolic process `http://purl.obolibrary.org/obo/GO_0052698`
@@ -9093,6 +9530,66 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019393) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as D-glucarate biosynthetic process ; GO:0042837." 
 
 - [obsolete glucarate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019393) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glucarate biosynthetic process" 
+
+
+### obsolete gluconate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0008875`
+#### Removed
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/28243"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-gluconate + NADP+ = dehydro-D-gluconate + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [label](http://www.w3.org/2000/01/rdf-schema#label) "gluconate dehydrogenase activity" 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31989"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [gluconate 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008873) 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [gluconate 5-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0008874) 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: D-gluconate + NADP+ = dehydro-D-gluconate + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [obsolete gluconate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008875) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete gluconate dehydrogenase activity" 
+
+
+### obsolete glycolytic process via Entner-Doudoroff Pathway `http://purl.obolibrary.org/obo/GO_0061688`
+#### Removed
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "gluconate pathway" 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glycolytic process in which the glucose is catabolized to pyruvate by first entering the Entner-Doudoroff pathway to yield pyruvate and glyceraldehyde-3-phosphate. The glyceraldehyde-3-phosphate is subsequently converted to pyruvate by the core glycolytic enzymes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9657988" 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycolytic process via Entner-Doudoroff Pathway" 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) SubClassOf [glycolytic process](http://purl.obolibrary.org/obo/GO_0006096) 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+#### Added
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [glycolytic process](http://purl.obolibrary.org/obo/GO_0006096) 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A glycolytic process in which the glucose is catabolized to pyruvate by first entering the Entner-Doudoroff pathway to yield pyruvate and glyceraldehyde-3-phosphate. The glyceraldehyde-3-phosphate is subsequently converted to pyruvate by the core glycolytic enzymes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9657988" 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the existing IEA annotations are better captured by the parent term GO:0006096 (glycolytic process); pathway variants are better represented as GO-CAMs rather than as nested ontology terms." 
+
+- [obsolete glycolytic process via Entner-Doudoroff Pathway](http://purl.obolibrary.org/obo/GO_0061688) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glycolytic process via Entner-Doudoroff Pathway" 
 
 
 ### obsolete glycoprotein cargo receptor activity `http://purl.obolibrary.org/obo/GO_7770028`
@@ -12289,6 +12786,40 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete sulfide oxidation, using sulfide dehydrogenase](http://purl.obolibrary.org/obo/GO_0070222) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sulfide oxidation, using sulfide dehydrogenase" 
 
 
+### obsolete sulfide oxidation, using sulfide:quinone oxidoreductase `http://purl.obolibrary.org/obo/GO_0070221`
+#### Removed
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulfide oxidation, using sulfide-quinone reductase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide:quinone oxidoreductase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfide oxidation, using sulfide:quinone oxidoreductase" 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) SubClassOf [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) 
+
+#### Added
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31842"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide:quinone oxidoreductase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ew" 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulfide oxidation, using sulfide-quinone reductase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a GO-CAM." 
+
+- [obsolete sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete sulfide oxidation, using sulfide:quinone oxidoreductase" 
+
+
 ### obsolete sulfide oxidation, using sulfur dioxygenase `http://purl.obolibrary.org/obo/GO_0070223`
 #### Removed
 - [obsolete sulfide oxidation, using sulfur dioxygenase](http://purl.obolibrary.org/obo/GO_0070223) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5285" 
@@ -13856,6 +14387,30 @@ ketone body catabolic process ;  GO:0046952."
 - [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that protein complex scaffolds should use GO:0140378 protein complex scaffold activity." 
 
 
+### proteinogenic amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0170038`
+
+#### Added
+- [proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170038) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31996"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170038) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### proteinogenic amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0170040`
+
+#### Added
+- [proteinogenic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170040) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31996"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [proteinogenic amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170040) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### proteinogenic amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0170039`
+
+#### Added
+- [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31996"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
 ### protopanaxadiol 6-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102557`
 #### Removed
 - [protopanaxadiol 6-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102557) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016709) 
@@ -14744,28 +15299,6 @@ ketone body catabolic process ;  GO:0046952."
 - [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5285](http://identifiers.org/metacyc.reaction/PWY-5285) 
 
 - [sulfide oxidation](http://purl.obolibrary.org/obo/GO_0019418) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7927](http://identifiers.org/metacyc.reaction/PWY-7927) 
-
-
-### sulfide oxidation, using sulfide:quinone oxidoreductase `http://purl.obolibrary.org/obo/GO_0070221`
-#### Removed
-- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
-
-- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulfide oxidation, using sulfide-quinone reductase" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
-
-- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide:quinone oxidoreductase." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P222-PWY" 
-
-#### Added
-- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31842"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A sulfide oxidation process that proceeds via the reaction catalyzed by sulfide:quinone oxidoreductase." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ew" 
-
-- [sulfide oxidation, using sulfide:quinone oxidoreductase](http://purl.obolibrary.org/obo/GO_0070221) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sulfide oxidation, using sulfide-quinone reductase" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 
 ### sulfopropanediol 3-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102157`
