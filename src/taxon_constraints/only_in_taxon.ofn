@@ -538,6 +538,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044787>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044849>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044850>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045136>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045152>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045169>))
@@ -3665,6 +3666,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0044850> ObjectAllValuesFrom(<http
 
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0045120> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0045120> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+
+# Class: <http://purl.obolibrary.org/obo/GO_0045136> (<http://purl.obolibrary.org/obo/GO_0045136>)
+
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "https://github.com/geneontology/go-ontology/issues/31051"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0045136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002160> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "https://github.com/geneontology/go-ontology/issues/31051"^^xsd:string) <http://purl.obolibrary.org/obo/GO_0045136> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 
 # Class: <http://purl.obolibrary.org/obo/GO_0045138> (<http://purl.obolibrary.org/obo/GO_0045138>)
 
