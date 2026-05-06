@@ -212,6 +212,7 @@ http://purl.obolibrary.org/obo/GO_0019813	type III site-specific deoxyribonuclea
 http://purl.obolibrary.org/obo/GO_0032068	type IV site-specific deoxyribonuclease complex	http://purl.obolibrary.org/obo/GO_0032067	type IV site-specific deoxyribonuclease activity
 http://purl.obolibrary.org/obo/GO_0150006	urease activator complex	http://purl.obolibrary.org/obo/GO_0018237	urease activator activity
 http://purl.obolibrary.org/obo/GO_0035550	urease complex	http://purl.obolibrary.org/obo/GO_0009039	urease activity
+http://purl.obolibrary.org/obo/GO_0099023	vesicle tethering complex	http://purl.obolibrary.org/obo/GO_7770062	vesicle membrane tethering activity
 http://purl.obolibrary.org/obo/GO_0005891	voltage-gated calcium channel complex	http://purl.obolibrary.org/obo/GO_0005245	voltage-gated calcium channel activity
 http://purl.obolibrary.org/obo/GO_0008076	voltage-gated potassium channel complex	http://purl.obolibrary.org/obo/GO_0005249	voltage-gated potassium channel activity
 http://purl.obolibrary.org/obo/GO_0001518	voltage-gated sodium channel complex	http://purl.obolibrary.org/obo/GO_0005248	voltage-gated sodium channel activity
