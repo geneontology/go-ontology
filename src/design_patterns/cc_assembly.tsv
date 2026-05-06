@@ -2,7 +2,7 @@ defined_class	defined_class_label	target	target_label
 http://purl.obolibrary.org/obo/GO_0034463	90S preribosome assembly	http://purl.obolibrary.org/obo/GO_0030686	90S preribosome
 http://purl.obolibrary.org/obo/GO_1904745	Atg1/ULK1 kinase complex assembly	http://purl.obolibrary.org/obo/GO_1990316	Atg1/ULK1 kinase complex
 http://purl.obolibrary.org/obo/GO_0010387	COP9 signalosome assembly	http://purl.obolibrary.org/obo/GO_0008180	COP9 signalosome
-http://purl.obolibrary.org/obo/GO_0048208	COPII vesicle coating	http://purl.obolibrary.org/obo/GO_0030127	COPII vesicle coat
+http://purl.obolibrary.org/obo/GO_0048208	COPII vesicle coat assembly	http://purl.obolibrary.org/obo/GO_0030127	COPII vesicle coat
 http://purl.obolibrary.org/obo/GO_0160073	Casparian strip assembly	http://purl.obolibrary.org/obo/GO_0048226	Casparian strip
 http://purl.obolibrary.org/obo/GO_0071255	Cvt vesicle assembly	http://purl.obolibrary.org/obo/GO_0033107	Cvt vesicle
 http://purl.obolibrary.org/obo/GO_0071770	DIM/DIP cell wall layer assembly	http://purl.obolibrary.org/obo/GO_0097735	DIM/DIP cell wall layer
@@ -87,7 +87,6 @@ http://purl.obolibrary.org/obo/GO_0051026	chiasma assembly	http://purl.obolibrar
 http://purl.obolibrary.org/obo/GO_0034378	chylomicron assembly	http://purl.obolibrary.org/obo/GO_0042627	chylomicron
 http://purl.obolibrary.org/obo/GO_0120273	ciliary centrin arm assembly	http://purl.obolibrary.org/obo/GO_0120269	ciliary centrin arm
 http://purl.obolibrary.org/obo/GO_1905352	ciliary necklace assembly	http://purl.obolibrary.org/obo/GO_0097538	ciliary necklace
-http://purl.obolibrary.org/obo/GO_1905353	ciliary transition fiber assembly	http://purl.obolibrary.org/obo/GO_0097539	ciliary transition fiber
 http://purl.obolibrary.org/obo/GO_1905349	ciliary transition zone assembly	http://purl.obolibrary.org/obo/GO_0035869	ciliary transition zone
 http://purl.obolibrary.org/obo/GO_1905556	ciliary vesicle assembly	http://purl.obolibrary.org/obo/GO_0097721	ciliary vesicle
 http://purl.obolibrary.org/obo/GO_0060271	cilium assembly	http://purl.obolibrary.org/obo/GO_0005929	cilium
