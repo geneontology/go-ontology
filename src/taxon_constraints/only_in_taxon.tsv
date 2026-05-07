@@ -378,6 +378,7 @@ GO:0044782	cilium organization	NCBITaxon:2759	Eukaryota
 GO:0044787	bacterial-type DNA replication	NCBITaxon:2	Bacteria	
 GO:0044849	estrous cycle	NCBITaxon:32525	Theria <Mammalia>	
 GO:0044850	menstrual cycle	NCBITaxon:9443	Primates	
+GO:0045136	development of secondary sexual characteristics, sensu Metazoa	NCBITaxon:33208	Metazoa	https://github.com/geneontology/go-ontology/issues/31051
 GO:0045138	nematode male tail tip morphogenesis	NCBITaxon:6231	Nematoda	
 GO:0045152	antisigma factor binding	NCBITaxon:2	Bacteria	
 GO:0045170	spectrosome	NCBITaxon:6656	Arthropoda	
@@ -742,8 +743,6 @@ GO:0006836	neurotransmitter transport	NCBITaxon:33208	Metazoa
 GO:0140446	fumigermin biosynthetic process	NCBITaxon:4751	Fungi	
 GO:0036411	H-NS-Cnu complex	NCBITaxon:2	Bacteria	
 GO:1990198	ModE complex	NCBITaxon:2	Bacteria	
-GO:0052704	ergothioneine biosynthesis from histidine via gamma-glutamyl-hercynylcysteine sulfoxide	NCBITaxon:2	Bacteria	
-GO:0140479	ergothioneine biosynthesis from histidine via hercynylcysteine sulfoxide synthase	NCBITaxon:4751	Fungi	
 GO:0140495	migracytosis	NCBITaxon:7742	Vertebrata <Metazoa>	
 GO:0120259	7SK snRNP	NCBITaxon:33208	Metazoa	
 GO:0120260	ciliary microtubule quartet	NCBITaxon:5653	Kinetoplastida	
@@ -941,7 +940,7 @@ GO:0044311	exoneme	NCBITaxon:2759	Eukaryota
 GO:0061468	karyomere	NCBITaxon:2759	Eukaryota	
 GO:0070074	mononeme	NCBITaxon:2759	Eukaryota	
 GO:0071212	subsynaptic reticulum	NCBITaxon:2759	Eukaryota	
-GO:0140494	migrasome	NCBITaxon:7742	NCBITaxon:2759	Eukaryota  PMID:40712579|PMID:25342562
+GO:0140494	migrasome	NCBITaxon:2759	Eukaryota	PMID:40712579|PMID:25342562
 GO:0160045	TMEM240-body	NCBITaxon:2759	Eukaryota	
 GO:0160201	polaroplast	NCBITaxon:2759	Eukaryota	
 GO:0160208	fibrous body-membranous organelle	NCBITaxon:6231	Nematoda	
@@ -949,5 +948,8 @@ GO:1990413	eyespot apparatus	NCBITaxon:2759	Eukaryota
 GO:1990462	omegasome	NCBITaxon:2759	Eukaryota	
 GO:0019905	syntaxin binding	NCBITaxon:2	Bacteria	
 GO:0098795	global gene silencing by mRNA cleavage	NCBITaxon:2	Bacteria	
+GO:0141065	maternal mRNA clearance	NCBITaxon:2759	Eukaryota	
+GO:0000958	mitochondrial mRNA catabolic process	NCBITaxon:2759	Eukaryota	
+GO:0000956	nuclear-transcribed mRNA catabolic process	NCBITaxon:2759	Eukaryota	
 GO:0140400	embryonic sheath	NCBITaxon:6231	Nematoda	PMID:28526752
 GO:0019658	bifid shunt	NCBITaxon:2	Bacteria	

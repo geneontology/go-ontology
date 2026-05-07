@@ -60,7 +60,6 @@ http://purl.obolibrary.org/obo/GO_0043376	regulation of CD8-positive, alpha-beta
 http://purl.obolibrary.org/obo/GO_2000449	regulation of CD8-positive, alpha-beta T cell extravasation	http://purl.obolibrary.org/obo/GO_0035697	CD8-positive, alpha-beta T cell extravasation
 http://purl.obolibrary.org/obo/GO_2000564	regulation of CD8-positive, alpha-beta T cell proliferation	http://purl.obolibrary.org/obo/GO_0035740	CD8-positive, alpha-beta T cell proliferation
 http://purl.obolibrary.org/obo/GO_2000452	regulation of CD8-positive, alpha-beta cytotoxic T cell extravasation	http://purl.obolibrary.org/obo/GO_0035698	CD8-positive, alpha-beta cytotoxic T cell extravasation
-http://purl.obolibrary.org/obo/GO_0003400	regulation of COPII vesicle coating	http://purl.obolibrary.org/obo/GO_0048208	COPII vesicle coating
 http://purl.obolibrary.org/obo/GO_0090111	regulation of COPII vesicle uncoating	http://purl.obolibrary.org/obo/GO_0090112	COPII vesicle uncoating
 http://purl.obolibrary.org/obo/GO_0032489	regulation of Cdc42 protein signal transduction	http://purl.obolibrary.org/obo/GO_0032488	Cdc42 protein signal transduction
 http://purl.obolibrary.org/obo/GO_0140215	regulation of D-aspartate import across plasma membrane	http://purl.obolibrary.org/obo/GO_0070779	D-aspartate import across plasma membrane
@@ -508,9 +507,6 @@ http://purl.obolibrary.org/obo/GO_1900457	regulation of brassinosteroid mediated
 http://purl.obolibrary.org/obo/GO_0090335	regulation of brown fat cell differentiation	http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0070347	regulation of brown fat cell proliferation	http://purl.obolibrary.org/obo/GO_0070342	brown fat cell proliferation
 http://purl.obolibrary.org/obo/GO_0010568	regulation of budding cell apical bud growth	http://purl.obolibrary.org/obo/GO_0007118	budding cell apical bud growth
-http://purl.obolibrary.org/obo/GO_1900494	regulation of butyryl-CoA biosynthetic process from acetyl-CoA	http://purl.obolibrary.org/obo/GO_0044579	butyryl-CoA biosynthetic process from acetyl-CoA
-http://purl.obolibrary.org/obo/GO_1900497	regulation of butyryl-CoA catabolic process to butanol	http://purl.obolibrary.org/obo/GO_0044582	butyryl-CoA catabolic process to butanol
-http://purl.obolibrary.org/obo/GO_1900500	regulation of butyryl-CoA catabolic process to butyrate	http://purl.obolibrary.org/obo/GO_0044581	butyryl-CoA catabolic process to butyrate
 http://purl.obolibrary.org/obo/GO_0061940	regulation of c-di-GMP signaling	http://purl.obolibrary.org/obo/GO_0061939	c-di-GMP signaling
 http://purl.obolibrary.org/obo/GO_2000479	regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0141161	regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
@@ -1055,7 +1051,6 @@ http://purl.obolibrary.org/obo/GO_1904649	regulation of fat cell apoptotic proce
 http://purl.obolibrary.org/obo/GO_0045598	regulation of fat cell differentiation	http://purl.obolibrary.org/obo/GO_0045444	fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0070344	regulation of fat cell proliferation	http://purl.obolibrary.org/obo/GO_0070341	fat cell proliferation
 http://purl.obolibrary.org/obo/GO_0031998	regulation of fatty acid beta-oxidation	http://purl.obolibrary.org/obo/GO_0006635	fatty acid beta-oxidation
-http://purl.obolibrary.org/obo/GO_1904735	regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase	http://purl.obolibrary.org/obo/GO_0033539	fatty acid beta-oxidation using acyl-CoA dehydrogenase
 http://purl.obolibrary.org/obo/GO_0042304	regulation of fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0006633	fatty acid biosynthetic process
 http://purl.obolibrary.org/obo/GO_0019217	regulation of fatty acid metabolic process	http://purl.obolibrary.org/obo/GO_0006631	fatty acid metabolic process
 http://purl.obolibrary.org/obo/GO_0046320	regulation of fatty acid oxidation	http://purl.obolibrary.org/obo/GO_0019395	fatty acid oxidation
@@ -1187,7 +1182,6 @@ http://purl.obolibrary.org/obo/GO_0005981	regulation of glycogen catabolic proce
 http://purl.obolibrary.org/obo/GO_0070873	regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
 http://purl.obolibrary.org/obo/GO_2001154	regulation of glycolytic fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	pyruvate fermentation to ethanol
 http://purl.obolibrary.org/obo/GO_0006110	regulation of glycolytic process	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
-http://purl.obolibrary.org/obo/GO_1904538	regulation of glycolytic process through fructose-6-phosphate	http://purl.obolibrary.org/obo/GO_0061615	glycolytic process through fructose-6-phosphate
 http://purl.obolibrary.org/obo/GO_0010559	regulation of glycoprotein biosynthetic process	http://purl.obolibrary.org/obo/GO_0009101	glycoprotein biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903018	regulation of glycoprotein metabolic process	http://purl.obolibrary.org/obo/GO_0009100	glycoprotein metabolic process
 http://purl.obolibrary.org/obo/GO_2000874	regulation of glyoxylate cycle	http://purl.obolibrary.org/obo/GO_0006097	glyoxylate cycle
@@ -1301,7 +1295,6 @@ http://purl.obolibrary.org/obo/GO_0002637	regulation of immunoglobulin productio
 http://purl.obolibrary.org/obo/GO_2000557	regulation of immunoglobulin production in mucosal tissue	http://purl.obolibrary.org/obo/GO_0002426	immunoglobulin production in mucosal tissue
 http://purl.obolibrary.org/obo/GO_2000520	regulation of immunological synapse formation	http://purl.obolibrary.org/obo/GO_0001771	immunological synapse formation
 http://purl.obolibrary.org/obo/GO_0090083	regulation of inclusion body assembly	http://purl.obolibrary.org/obo/GO_0070841	inclusion body assembly
-http://purl.obolibrary.org/obo/GO_1901996	regulation of indoleacetic acid biosynthetic process via tryptophan	http://purl.obolibrary.org/obo/GO_0009848	indoleacetic acid biosynthetic process via tryptophan
 http://purl.obolibrary.org/obo/GO_0060905	regulation of induction of conjugation upon nitrogen starvation	http://purl.obolibrary.org/obo/GO_0031142	induction of conjugation upon nitrogen starvation
 http://purl.obolibrary.org/obo/GO_0075184	regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
 http://purl.obolibrary.org/obo/GO_0141085	regulation of inflammasome-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0141084	inflammasome-mediated signaling pathway
@@ -1670,14 +1663,6 @@ http://purl.obolibrary.org/obo/GO_1905186	regulation of metaphase/anaphase trans
 http://purl.obolibrary.org/obo/GO_1905189	regulation of metaphase/anaphase transition of meiosis II	http://purl.obolibrary.org/obo/GO_1990950	metaphase/anaphase transition of meiosis II
 http://purl.obolibrary.org/obo/GO_1902102	regulation of metaphase/anaphase transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0044785	metaphase/anaphase transition of meiotic cell cycle
 http://purl.obolibrary.org/obo/GO_0090060	regulation of metaxylem development	http://purl.obolibrary.org/obo/GO_0090058	metaxylem development
-http://purl.obolibrary.org/obo/GO_1900333	regulation of methane biosynthetic process from 3-(methylthio)propionic acid	http://purl.obolibrary.org/obo/GO_2001132	methane biosynthetic process from 3-(methylthio)propionic acid
-http://purl.obolibrary.org/obo/GO_1900336	regulation of methane biosynthetic process from carbon monoxide	http://purl.obolibrary.org/obo/GO_2001134	methane biosynthetic process from carbon monoxide
-http://purl.obolibrary.org/obo/GO_1900342	regulation of methane biosynthetic process from dimethyl sulfide	http://purl.obolibrary.org/obo/GO_2001131	methane biosynthetic process from dimethyl sulfide
-http://purl.obolibrary.org/obo/GO_1900318	regulation of methane biosynthetic process from dimethylamine	http://purl.obolibrary.org/obo/GO_2001129	methane biosynthetic process from dimethylamine
-http://purl.obolibrary.org/obo/GO_1900339	regulation of methane biosynthetic process from formic acid	http://purl.obolibrary.org/obo/GO_2001127	methane biosynthetic process from formic acid
-http://purl.obolibrary.org/obo/GO_1900345	regulation of methane biosynthetic process from methanethiol	http://purl.obolibrary.org/obo/GO_2001133	methane biosynthetic process from methanethiol
-http://purl.obolibrary.org/obo/GO_1900348	regulation of methane biosynthetic process from methylamine	http://purl.obolibrary.org/obo/GO_2001128	methane biosynthetic process from methylamine
-http://purl.obolibrary.org/obo/GO_1900330	regulation of methane biosynthetic process from trimethylamine	http://purl.obolibrary.org/obo/GO_2001130	methane biosynthetic process from trimethylamine
 http://purl.obolibrary.org/obo/GO_1900351	regulation of methanofuran biosynthetic process	http://purl.obolibrary.org/obo/GO_2001120	methanofuran biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900962	regulation of methanophenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_1900630	methanophenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902322	regulation of methyl-branched fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1902321	methyl-branched fatty acid biosynthetic process
@@ -2666,8 +2651,6 @@ http://purl.obolibrary.org/obo/GO_2000804	regulation of termination of RNA polym
 http://purl.obolibrary.org/obo/GO_2000224	regulation of testosterone biosynthetic process	http://purl.obolibrary.org/obo/GO_0061370	testosterone biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000843	regulation of testosterone secretion	http://purl.obolibrary.org/obo/GO_0035936	testosterone secretion
 http://purl.obolibrary.org/obo/GO_1901463	regulation of tetrapyrrole biosynthetic process	http://purl.obolibrary.org/obo/GO_0033014	tetrapyrrole biosynthetic process
-http://purl.obolibrary.org/obo/GO_1901410	regulation of tetrapyrrole biosynthetic process from glutamate	http://purl.obolibrary.org/obo/GO_0033526	tetrapyrrole biosynthetic process from glutamate
-http://purl.obolibrary.org/obo/GO_1901413	regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA	http://purl.obolibrary.org/obo/GO_0033527	tetrapyrrole biosynthetic process from glycine and succinyl-CoA
 http://purl.obolibrary.org/obo/GO_1901404	regulation of tetrapyrrole catabolic process	http://purl.obolibrary.org/obo/GO_0033015	tetrapyrrole catabolic process
 http://purl.obolibrary.org/obo/GO_1901401	regulation of tetrapyrrole metabolic process	http://purl.obolibrary.org/obo/GO_0033013	tetrapyrrole metabolic process
 http://purl.obolibrary.org/obo/GO_0140920	regulation of thermomorphogenesis	http://purl.obolibrary.org/obo/GO_0140919	thermomorphogenesis

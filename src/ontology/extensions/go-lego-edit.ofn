@@ -121,6 +121,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/ZFA_0100000> ObjectIntersectio
 SubClassOf(<http://purl.obolibrary.org/obo/ZFS_0100000> <http://purl.obolibrary.org/obo/UBERON_0000105>)
 
 
-SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/emapa#ends_at> <http://purl.obolibrary.org/obo/TS_0>) <http://purl.obolibrary.org/obo/EMAPA_0>)
-SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/emapa#starts_at> <http://purl.obolibrary.org/obo/TS_0>) <http://purl.obolibrary.org/obo/EMAPA_0>)
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002493> <http://purl.obolibrary.org/obo/TS_0>) <http://purl.obolibrary.org/obo/EMAPA_0>)
+SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002489> <http://purl.obolibrary.org/obo/TS_0>) <http://purl.obolibrary.org/obo/EMAPA_0>)
 )

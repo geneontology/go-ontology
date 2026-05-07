@@ -176,10 +176,6 @@ GO:0010166	wax metabolic process	NCBITaxon:4895	Schizosaccharomyces
 GO:0010205	photoinhibition	NCBITaxon:33208	Metazoa	
 GO:0010206	photosystem II repair	NCBITaxon:33208	Metazoa	
 GO:0010380	regulation of chlorophyll biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:28009	Choanoflagellida	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:33208	Metazoa	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:4751	Fungi	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:554915	Amoebozoa	
 GO:0010436	carotenoid dioxygenase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0010436	carotenoid dioxygenase activity	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0010547	thylakoid membrane disassembly	NCBITaxon:33208	Metazoa	
