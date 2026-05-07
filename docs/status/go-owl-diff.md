@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-06/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-07/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-06" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-07" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -11303,6 +11303,45 @@ ketone body catabolic process ;  GO:0046952."
 - [p-cumate 2,3-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018570) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of two atoms of oxygen into one donor](http://purl.obolibrary.org/obo/GO_0016708) 
 
 
+### p24 cargo receptor complex `http://purl.obolibrary.org/obo/GO_7770070`
+
+#### Added
+- Class: [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31295"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-06T17:36:35Z" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "p24 complex" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Emp24-Erv25 complex" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "TMED complex" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "p24 family complex" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770070" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A conserved, hetero-oligomeric (often tetrameric) cycling ER-Golgi protein complex that selectively recruits secretory cargo, especially GPI-anchored proteins, into COPII vesicles and helps maintain early secretory pathway organization. A functional p24 complex typically contains one member of each subfamily of p24 proteins, alpha, beta, gamma and delta." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32456004" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34647572" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19566487" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26224213" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27569046" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) [label](http://www.w3.org/2000/01/rdf-schema#label) "p24 cargo receptor complex" 
+
+- [p24 cargo receptor complex](http://purl.obolibrary.org/obo/GO_7770070) SubClassOf [cargo receptor complex](http://purl.obolibrary.org/obo/GO_0062137) 
+
+
 ### pantothenate transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015233`
 #### Removed
 - [pantothenate transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015233) SubClassOf [carboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046943) 
@@ -15689,6 +15728,34 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [tyrosine transport](http://purl.obolibrary.org/obo/GO_0015828) SubClassOf [organic cation transport](http://purl.obolibrary.org/obo/GO_0015695) 
 
+
+
+### ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0090611`
+#### Removed
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of a protein or peptide, via the multivesicular body (MVB) sorting pathway; proteins are sorted into MVBs, and delivered to a lysosome/vacuole for degradation. This process is independent of ubiquitination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22547407" 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway" 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [protein catabolic process in the vacuole](http://purl.obolibrary.org/obo/GO_0007039) 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) 
+
+#### Added
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32038"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a protein or peptide, via the multivesicular body (MVB) sorting pathway; proteins are sorted into MVBs, and delivered to a lysosome/vacuole for degradation. This process is independent of ubiquitination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22547407" 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is defined negatively, and is redundant with other existing terms." 
+
+- [ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0090611) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway" 
 
 
 ### unfolded protein binding `http://purl.obolibrary.org/obo/GO_0051082`
