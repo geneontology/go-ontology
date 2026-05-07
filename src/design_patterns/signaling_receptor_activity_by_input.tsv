@@ -21,6 +21,7 @@ http://purl.obolibrary.org/obo/GO_0004897	ciliary neurotrophic factor receptor a
 http://purl.obolibrary.org/obo/GO_0004978	corticotropin receptor activity	http://purl.obolibrary.org/obo/CHEBI_3892	corticotropin
 http://purl.obolibrary.org/obo/GO_0043404	corticotropin-releasing hormone receptor activity	http://purl.obolibrary.org/obo/CHEBI_65311	corticotropin-releasing hormone
 http://purl.obolibrary.org/obo/GO_0009884	cytokinin receptor activity	http://purl.obolibrary.org/obo/GOCHE_23530	substance with cytokinin role
+http://purl.obolibrary.org/obo/GO_7770072	double-stranded RNA immune receptor activity	http://purl.obolibrary.org/obo/CHEBI_67208	double-stranded RNA
 http://purl.obolibrary.org/obo/GO_0004900	erythropoietin receptor activity	http://purl.obolibrary.org/obo/PR_000007141	erythropoietin
 http://purl.obolibrary.org/obo/GO_0038199	ethylene receptor activity	http://purl.obolibrary.org/obo/CHEBI_18153	ethene
 http://purl.obolibrary.org/obo/GO_0004966	galanin receptor activity	http://purl.obolibrary.org/obo/PR_000007806	galanin
