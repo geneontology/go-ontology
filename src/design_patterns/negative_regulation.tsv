@@ -458,9 +458,6 @@ http://purl.obolibrary.org/obo/GO_0010423	negative regulation of brassinosteroid
 http://purl.obolibrary.org/obo/GO_1900458	negative regulation of brassinosteroid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0009742	brassinosteroid mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_1903444	negative regulation of brown fat cell differentiation	http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation
 http://purl.obolibrary.org/obo/GO_0070348	negative regulation of brown fat cell proliferation	http://purl.obolibrary.org/obo/GO_0070342	brown fat cell proliferation
-http://purl.obolibrary.org/obo/GO_1900495	negative regulation of butyryl-CoA biosynthetic process from acetyl-CoA	http://purl.obolibrary.org/obo/GO_0044579	butyryl-CoA biosynthetic process from acetyl-CoA
-http://purl.obolibrary.org/obo/GO_1900498	negative regulation of butyryl-CoA catabolic process to butanol	http://purl.obolibrary.org/obo/GO_0044582	butyryl-CoA catabolic process to butanol
-http://purl.obolibrary.org/obo/GO_1900501	negative regulation of butyryl-CoA catabolic process to butyrate	http://purl.obolibrary.org/obo/GO_0044581	butyryl-CoA catabolic process to butyrate
 http://purl.obolibrary.org/obo/GO_0061942	negative regulation of c-di-GMP signaling	http://purl.obolibrary.org/obo/GO_0061939	c-di-GMP signaling
 http://purl.obolibrary.org/obo/GO_2000480	negative regulation of cAMP-dependent protein kinase activity	http://purl.obolibrary.org/obo/GO_0004691	cAMP-dependent protein kinase activity
 http://purl.obolibrary.org/obo/GO_0141162	negative regulation of cAMP/PKA signal transduction	http://purl.obolibrary.org/obo/GO_0141156	cAMP/PKA signal transduction
@@ -1189,7 +1186,7 @@ http://purl.obolibrary.org/obo/GO_0002890	negative regulation of immunoglobulin 
 http://purl.obolibrary.org/obo/GO_0002638	negative regulation of immunoglobulin production	http://purl.obolibrary.org/obo/GO_0002377	immunoglobulin production
 http://purl.obolibrary.org/obo/GO_2000521	negative regulation of immunological synapse formation	http://purl.obolibrary.org/obo/GO_0001771	immunological synapse formation
 http://purl.obolibrary.org/obo/GO_0090084	negative regulation of inclusion body assembly	http://purl.obolibrary.org/obo/GO_0070841	inclusion body assembly
-http://purl.obolibrary.org/obo/GO_1901997	negative regulation of indoleacetic acid biosynthetic process via tryptophan	http://purl.obolibrary.org/obo/GO_0009848	indoleacetic acid biosynthetic process via tryptophan
+http://purl.obolibrary.org/obo/GO_1901997	negative regulation of indoleacetic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_0009848	indoleacetic acid biosynthetic process via tryptophan
 http://purl.obolibrary.org/obo/GO_0075186	negative regulation of infection cushion formation	http://purl.obolibrary.org/obo/GO_0075183	infection cushion formation
 http://purl.obolibrary.org/obo/GO_0141086	negative regulation of inflammasome-mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0141084	inflammasome-mediated signaling pathway
 http://purl.obolibrary.org/obo/GO_0050728	negative regulation of inflammatory response	http://purl.obolibrary.org/obo/GO_0006954	inflammatory response
@@ -1528,14 +1525,6 @@ http://purl.obolibrary.org/obo/GO_1902100	negative regulation of metaphase/anaph
 http://purl.obolibrary.org/obo/GO_1905187	negative regulation of metaphase/anaphase transition of meiosis I	http://purl.obolibrary.org/obo/GO_1990949	metaphase/anaphase transition of meiosis I
 http://purl.obolibrary.org/obo/GO_1905190	negative regulation of metaphase/anaphase transition of meiosis II	http://purl.obolibrary.org/obo/GO_1990950	metaphase/anaphase transition of meiosis II
 http://purl.obolibrary.org/obo/GO_1902103	negative regulation of metaphase/anaphase transition of meiotic cell cycle	http://purl.obolibrary.org/obo/GO_0044785	metaphase/anaphase transition of meiotic cell cycle
-http://purl.obolibrary.org/obo/GO_1900334	negative regulation of methane biosynthetic process from 3-(methylthio)propionic acid	http://purl.obolibrary.org/obo/GO_2001132	methane biosynthetic process from 3-(methylthio)propionic acid
-http://purl.obolibrary.org/obo/GO_1900337	negative regulation of methane biosynthetic process from carbon monoxide	http://purl.obolibrary.org/obo/GO_2001134	methane biosynthetic process from carbon monoxide
-http://purl.obolibrary.org/obo/GO_1900343	negative regulation of methane biosynthetic process from dimethyl sulfide	http://purl.obolibrary.org/obo/GO_2001131	methane biosynthetic process from dimethyl sulfide
-http://purl.obolibrary.org/obo/GO_1900319	negative regulation of methane biosynthetic process from dimethylamine	http://purl.obolibrary.org/obo/GO_2001129	methane biosynthetic process from dimethylamine
-http://purl.obolibrary.org/obo/GO_1900340	negative regulation of methane biosynthetic process from formic acid	http://purl.obolibrary.org/obo/GO_2001127	methane biosynthetic process from formic acid
-http://purl.obolibrary.org/obo/GO_1900346	negative regulation of methane biosynthetic process from methanethiol	http://purl.obolibrary.org/obo/GO_2001133	methane biosynthetic process from methanethiol
-http://purl.obolibrary.org/obo/GO_1900349	negative regulation of methane biosynthetic process from methylamine	http://purl.obolibrary.org/obo/GO_2001128	methane biosynthetic process from methylamine
-http://purl.obolibrary.org/obo/GO_1900331	negative regulation of methane biosynthetic process from trimethylamine	http://purl.obolibrary.org/obo/GO_2001130	methane biosynthetic process from trimethylamine
 http://purl.obolibrary.org/obo/GO_1900352	negative regulation of methanofuran biosynthetic process	http://purl.obolibrary.org/obo/GO_2001120	methanofuran biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900963	negative regulation of methanophenazine biosynthetic process	http://purl.obolibrary.org/obo/GO_1900630	methanophenazine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902323	negative regulation of methyl-branched fatty acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1902321	methyl-branched fatty acid biosynthetic process
@@ -2372,8 +2361,6 @@ http://purl.obolibrary.org/obo/GO_2000805	negative regulation of termination of 
 http://purl.obolibrary.org/obo/GO_2000225	negative regulation of testosterone biosynthetic process	http://purl.obolibrary.org/obo/GO_0061370	testosterone biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000844	negative regulation of testosterone secretion	http://purl.obolibrary.org/obo/GO_0035936	testosterone secretion
 http://purl.obolibrary.org/obo/GO_1901464	negative regulation of tetrapyrrole biosynthetic process	http://purl.obolibrary.org/obo/GO_0033014	tetrapyrrole biosynthetic process
-http://purl.obolibrary.org/obo/GO_1901411	negative regulation of tetrapyrrole biosynthetic process from glutamate	http://purl.obolibrary.org/obo/GO_0033526	tetrapyrrole biosynthetic process from glutamate
-http://purl.obolibrary.org/obo/GO_1901414	negative regulation of tetrapyrrole biosynthetic process from glycine and succinyl-CoA	http://purl.obolibrary.org/obo/GO_0033527	tetrapyrrole biosynthetic process from glycine and succinyl-CoA
 http://purl.obolibrary.org/obo/GO_1901405	negative regulation of tetrapyrrole catabolic process	http://purl.obolibrary.org/obo/GO_0033015	tetrapyrrole catabolic process
 http://purl.obolibrary.org/obo/GO_0140921	negative regulation of thermomorphogenesis	http://purl.obolibrary.org/obo/GO_0140919	thermomorphogenesis
 http://purl.obolibrary.org/obo/GO_0070624	negative regulation of thiamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0009228	thiamine biosynthetic process
