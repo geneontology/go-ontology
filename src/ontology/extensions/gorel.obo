@@ -12,7 +12,7 @@ subsetdef: taxon_extension ""
 subsetdef: valid_for_annotation_extension ""
 synonymtypedef: RO:0008000 "display label for users"
 default-namespace: external
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 1925 Logical Axioms: 480]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2225 Logical Axioms: 527]
 ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
@@ -391,6 +391,7 @@ property_value: IAO:0000118 "influences (processual)" xsd:string
 is_transitive: true
 is_a: causal_relation_between_processes ! causal relation between processes
 inverse_of: causally_downstream_of_or_within ! causally downstream of or within
+transitive_over: part_of ! part of
 
 [Typedef]
 id: causally_upstream_of_or_within,_negative_effect
@@ -542,9 +543,9 @@ name: device utilizes material
 def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 synonym: "utilizes" BROAD []
 xref: RO:0017001
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-9625-1899
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
-property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899
-property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: capable_of has_input
@@ -711,7 +712,7 @@ name: during which ends
 comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002122 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
 subset: ro-eco
 xref: RO:0002084
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_a: temporally_related_to ! temporally related to
 inverse_of: ends_during ! ends during
 
@@ -721,7 +722,7 @@ name: during which starts
 comment: Previously had ID  http://purl.obolibrary.org/obo/RO_0002123 in test files in sandpit - but this seems to have been dropped from ro-edit.owl at some point.  No re-use under this ID AFAIK, but leaving note here in case we run in to clashes down the line.  Official ID now chosen from DOS ID range.
 subset: ro-eco
 xref: RO:0002088
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_a: temporally_related_to ! temporally related to
 inverse_of: starts_during ! starts during
 
@@ -794,7 +795,7 @@ name: ends after
 comment: X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)
 subset: ro-eco
 xref: RO:0002086
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 holds_over_chain: ends_during preceded_by
 is_transitive: true
 is_a: temporally_related_to ! temporally related to
@@ -805,7 +806,7 @@ name: ends during
 comment: X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). 
 subset: ro-eco
 xref: RO:0002093
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "o" xsd:string
 property_value: IAO:0000118 "overlaps" xsd:string
 is_a: temporally_related_to ! temporally related to
@@ -1002,7 +1003,7 @@ subset: valid_for_annotation_extension
 synonym: "during" BROAD RO:0008000 [PomBase:curators]
 synonym: "occurs_during" EXACT [GOC:mah]
 xref: RO:0002092
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "d" xsd:string
 property_value: IAO:0000118 "during" xsd:string
 property_value: local_domain BFO:0000015 xsd:string
@@ -1367,6 +1368,7 @@ is_a: go_annotation_extension_relation ! go annotation extension relation
 [Typedef]
 id: has_pathogen
 name: has pathogen
+def: "A host interaction where the smaller of the two members of a symbiosis causes a disease in the larger member" []
 subset: ro-eco
 subset: taxon_extension
 xref: RO:0002557
@@ -1395,23 +1397,6 @@ property_value: IAO:0000116 "A bearer can have many qualities, and its qualities
 property_value: IAO:0000118 "has_quality" xsd:string
 range: BFO:0000019
 is_a: has_characteristic ! has characteristic
-
-[Typedef]
-id: has_regulation_target
-name: has_regulation_target
-namespace: go/extensions/gorel
-comment: probably want to add one or two new subtypes that capture something about directness
-subset: AE_sequence_or_complex
-subset: display_for_curators
-subset: valid_for_annotation_extension
-synonym: "regulates" BROAD RO:0008000 []
-xref: GOREL:0000015
-property_value: local_range "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697" xsd:string
-property_value: usage "Use this relationship to link a regulatory process or function to an entity that (such as a gene, gene product, or complex) participates in the regulated process.  This is a very general relation.  Use something more specific wherever possible, e.g. 'regulates expression of' or 'regulates transport of'." xsd:string
-domain: BFO:0000015
-range: BFO:0000002
-holds_over_chain: regulates has_participant
-is_a: go_annotation_extension_relation ! go annotation extension relation
 
 [Typedef]
 id: has_regulatory_component_activity
@@ -1620,7 +1605,7 @@ id: immediately_preceded_by
 name: immediately preceded by
 comment: X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)
 xref: RO:0002087
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "starts_at_end_of" xsd:string
 is_a: preceded_by ! preceded by
 inverse_of: immediately_precedes ! immediately precedes
@@ -1631,7 +1616,6 @@ name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 subset: ro-eco
 xref: RO:0002090
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
@@ -1897,6 +1881,15 @@ is_a: functionally_related_to ! functionally related to
 is_a: overlaps ! overlaps
 
 [Typedef]
+id: is_anatomical_entity
+name: is anatomical entity
+def: "This property only applies to anatomical entities." []
+xref: RO:0020105
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-6677-8489
+property_value: http://purl.org/dc/terms/date 2024-10-29T09:55:07Z xsd:dateTime
+domain: UBERON:0001062
+
+[Typedef]
 id: is_kinase_activity
 name: is kinase activity
 xref: RO:0002481
@@ -2099,6 +2092,14 @@ created_by: pg
 creation_date: 2019-11-21T16:32:15Z
 
 [Typedef]
+id: obsolete_has_regulation_target
+name: obsolete has_regulation_target
+comment: This term was deprecated in favor or 'has input' or 'has primary input'.
+xref: GOREL:0000015
+holds_over_chain: regulates has_participant
+is_obsolete: true
+
+[Typedef]
 id: obsolete_mediated_by
 name: obsolete mediated by
 namespace: go/extensions/gorel
@@ -2149,7 +2150,7 @@ property_value: IAO:0000118 "unfolds in" xsd:string
 property_value: IAO:0000118 "unfolds_in" xsd:string
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBbt:00007002 ZFA:0100000" xsd:string
 property_value: seeAlso https://wiki.geneontology.org/Occurs_in xsd:anyURI
 property_value: usage "Identifies the cell, tissue, cellular component or anatomical entity within which all parts of the molecular function or biological process occurs" xsd:string
 domain: BFO:0000003
@@ -2191,6 +2192,7 @@ expand_expression_to: "http://purl.obolibrary.org/obo/BFO_0000051 some (http://p
 [Typedef]
 id: parasite_of
 name: parasite of
+def: "A parasite-host relationship where an organism benefits at the expense of another." []
 subset: ro-eco
 subset: taxon_extension
 synonym: "direct parasite of" EXACT []
@@ -2207,6 +2209,7 @@ inverse_of: parasitized_by ! parasitized by
 [Typedef]
 id: parasitized_by
 name: parasitized by
+def: "Inverse of parasite of" []
 subset: ro-eco
 synonym: "directly parasitized by" EXACT []
 xref: RO:0002445
@@ -2243,7 +2246,7 @@ property_value: IAO:0000116 "Occurrents are not subject to change and so parthoo
 property_value: IAO:0000116 "Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)\n\nA continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'." xsd:string
 property_value: IAO:0000118 "part_of" xsd:string
 property_value: local_domain BFO:0000001 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBdv:00007012 FBbt:00007002" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 GO:0008150 PO:0009012 PO:0025131 UBERON:0001062 ZFS:0100000 WBls:0000075 WBbt:0004017 WBbt:0005766 NCBITaxon:1 FBbt:10000000 FBdv:00007012 FBbt:00007002 EMAPA:0 ZFA:0100000" xsd:string
 property_value: RO:0001900 RO:0001901
 property_value: RO:0040042 BFO:0000002
 property_value: RO:0040042 BFO:0000003
@@ -2293,13 +2296,14 @@ subset: ro-eco
 xref: RO:0002574
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://dx.doi.org/10.1016/j.ecoinf.2014.08.005
-domain: OBI:0100026
-range: OBI:0100026
+domain: COB:0000022
+range: COB:0000022
 is_a: biotically_interacts_with ! biotically interacts with
 
 [Typedef]
 id: pathogen_of
 name: pathogen of
+def: "Inverse of has pathogen" []
 subset: ro-eco
 subset: taxon_extension
 xref: RO:0002556
@@ -2446,6 +2450,20 @@ domain: GO:0010952
 is_obsolete: true
 
 [Typedef]
+id: provides_input_for
+name: provides input for
+def: "p provides input for q iff p is immediately causally upstream of q, and there exists some c such that p has_output c and q has_input c." []
+xref: RO:0002413
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000118 "directly provides input for" xsd:string
+property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
+property_value: IAO:0000589 "directly provides input for (process to process)" xsd:string
+property_value: seeAlso https://wiki.geneontology.org/Provides_input_for xsd:anyURI
+holds_over_chain: has_output has_input
+is_a: immediately_causally_upstream_of ! immediately causally upstream of
+is_a: transitively_provides_input_for ! transitively provides input for
+
+[Typedef]
 id: quality_of
 name: quality of
 def: "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence" []
@@ -2537,8 +2555,6 @@ name: obsolete regulates expression of
 def: "OBSOLETE. A relationship that holds between a process and a gene whose expression is regulated by that process." []
 comment: Usage of this relation has been deprecated in favor of 'has direct input'.
 xref: GOREL:0098789
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Relates a regulatory process or function to the gene whose expression it regulates.  Expression encompasses transcription, regulation and processing involved in maturation." xsd:string {xref="GOC:dos"}
 is_obsolete: true
 
@@ -2658,7 +2674,7 @@ name: regulates formation of
 def: "This is the combination of the regulates relation with the results_in_formation_of relation." [GOC:mtg_berkeley_2013]
 xref: GOREL:0001025
 property_value: usage "This is the combination of the regulates relation with the results_in_formation_of relation." xsd:string
-equivalent_to_chain: regulates results_in_formation_of ! results in formation of
+equivalent_to_chain: regulates results_in_formation_of ! results in formation of anatomical entity
 
 [Typedef]
 id: regulates_o_results_in_maturation_of
@@ -2724,11 +2740,7 @@ name: obsolete regulates translation of
 def: "OBSOLETE. A relationship that holds between a process and a protein coding gene whose translation is regulated by that process." []
 comment: Regulation of translation includes processes that regulate the levels of mature mRNA available for translation, as well as direct regulation of the rate of translation.
 comment: Usage of this relation has been deprecated in favor of 'has direct input'.
-subset: display_for_curators
-subset: valid_for_annotation_extension
 xref: GOREL:0098790
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Relates a regulatory process or function to the gene whose translation it regulates." xsd:string {xref="GOC:dos"}
 is_obsolete: true
 
@@ -2737,16 +2749,12 @@ id: regulates_transport_of
 name: regulates transport of
 def: "A relationship that holds between a  process that regulates a transport process and the entity transported by that process." []
 subset: AE_chemical
-subset: display_for_curators
 subset: ro-eco
-subset: valid_for_annotation_extension
 xref: RO:0002011
 property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
-property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CHEBI:24431 PR:000000001 GO:0005575 SO:0000673 CHEBI:33697" xsd:string
 property_value: usage "Use this relation to link a process that regulates transport to the the entity being transported." xsd:string
 holds_over_chain: regulates transports_or_maintains_localization_of
-is_a: go_annotation_extension_relation ! go annotation extension relation
+is_a: directly_regulates ! directly regulates
 
 [Typedef]
 id: related_via_localization_to
@@ -2888,7 +2896,7 @@ property_value: IAO:0000112 "an annotation of gene X to cell differentiation wit
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0030154 xsd:string
-property_value: local_range "CL:0000000 PO:0009002 WBbt:0004017 FBbt:00007002" xsd:string
+property_value: local_range "CL:0000000 PO:0009002 WBbt:0004017 FBbt:00007002 EMAPA:0" xsd:string
 property_value: usage "Use this relation to link a cell differentiation process to the cell type that the process results in the differentiation of." xsd:string
 range: UBERON:0000061
 is_a: go_annotation_extension_relation ! go annotation extension relation
@@ -2969,7 +2977,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.geneontology.org/GO.doc.development.shtml xsd:anyURI
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000 EMAPA:0 ZFA:0100000" xsd:string
 property_value: usage "The relationship linking an entity and its participation in a process that changes it through time from the formation of the entity to the resultant mature state." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3008,7 +3016,7 @@ is_a: has_participant ! has participant
 
 [Typedef]
 id: results_in_formation_of
-name: results in formation of
+name: results in formation of anatomical entity
 namespace: go/extensions/gorel
 alt_id: GOREL:0001020
 def: "The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists." [GOC:mtg_berkeley_2013]
@@ -3026,7 +3034,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000 EMAPA:0 ZFA:0100000" xsd:string
 property_value: usage "The relationship linking a entity and its participation in a process whereby at the beginning of the process the entity does not exist and at the end of the process the entity exists." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: has_output ! has output
@@ -3055,7 +3063,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0009012 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000 EMAPA:0 ZFA:0100000" xsd:string
 property_value: usage "The relationship that links an entity with a process that results in the progression of the entity over time that is independent of changes in it's shape and results in an end point state of that entity." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3082,7 +3090,7 @@ property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
 property_value: local_domain BFO:0000015 xsd:string
-property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000" xsd:string
+property_value: local_range "CL:0000000 GO:0005575 PO:0025131 UBERON:0001062 WBbt:0004017 WBbt:0005766 FBbt:00007002 FBbt:10000000 EMAPA:0 ZFA:0100000" xsd:string
 property_value: usage "The relationship that links an entity with the process that results in the formation and shaping of that entity over time from an immature to a mature state." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3103,9 +3111,8 @@ subset: http://purl.obolibrary.org/obo/valid_for_gocam
 subset: valid_for_annotation_extension
 xref: RO:0002565
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000232 "" xsd:string
 property_value: local_domain GO:0008150 xsd:string
-property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002" xsd:string
+property_value: local_range "CL:0000000 WBbt:0004017 FBbt:00007002 EMAPA:0" xsd:string
 property_value: usage "Use this relation to link a locomotion process to the type of cell or anatomical structure or organism that the process results in locomotion of." xsd:string
 is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: results_in_changes_to_anatomical_or_cellular_structure ! results in changes to anatomical or cellular structure
@@ -3177,13 +3184,8 @@ name: obsolete stabilizes
 namespace: go/extensions/gorel
 def: "OBSOLETE. Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)" [GOC:mah]
 comment: Obsoleted, see https://github.com/geneontology/go-ontology/issues/18540.
-subset: AE_sequence_or_complex
-subset: display_for_curators
-subset: valid_for_annotation_extension
 synonym: "stabilizes" EXACT RO:0008000 [PomBase:curators]
 xref: GOREL:0000018
-property_value: local_domain GO:0031647 xsd:string
-property_value: local_range "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697" xsd:string
 property_value: usage "Identifies specific gene product stabilized in a protein stabilization process (or regulation thereof)" xsd:string
 is_obsolete: true
 
@@ -3193,7 +3195,7 @@ name: starts during
 comment: X starts_during Y iff: (start(Y) before_or_simultaneous_with start(X)) AND (start(X) before_or_simultaneous_with end(Y))
 subset: ro-eco
 xref: RO:0002091
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "io" xsd:string
 domain: BFO:0000003
 range: BFO:0000003
@@ -3205,6 +3207,7 @@ name: symbiotically interacts with
 def: "A biotic interaction in which the two organisms live together in more or less intimate association." []
 subset: ro-eco
 xref: RO:0002440
+property_value: IAO:0000112 "whales symbiotically interact with the barnacles that attach to them" xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/19278549 xsd:anyURI
 property_value: IAO:0000232 "We follow GO and PAMGO in using 'symbiosis' as the broad term encompassing mutualism through parasitism" xsd:string
@@ -3237,6 +3240,20 @@ property_value: usage "OBSOLETE. Identifies gene whose transcription is regulate
 domain: GO:0006355
 is_obsolete: true
 replaced_by: has_regulation_target
+
+[Typedef]
+id: transitively_provides_input_for
+name: transitively provides input for
+def: "transitive form of directly_provides_input_for" []
+xref: RO:0002414
+property_value: IAO:0000114 IAO:0000428
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000232 "This is a grouping relation that should probably not be used in annotation. Consider instead the child relation 'provides input for'." xsd:string
+property_value: IAO:0000589 "transitively provides input for (process to process)" xsd:string
+domain: BFO:0000015
+range: BFO:0000015
+is_transitive: true
+is_a: causally_upstream_of_or_within,_positive_effect ! causally upstream of or within, positive effect
 
 [Typedef]
 id: transports
