@@ -1,11 +1,10 @@
-// scala 2.13.3
-// ammonite 2.3.8
-
-import $ivy.`net.sourceforge.owlapi:owlapi-distribution:4.5.29`
-import $ivy.`org.phenoscape::scowl:1.3.4`
-import $ivy.`com.outr::scribe-slf4j:2.7.12`
-import $ivy.`org.obolibrary.robot:robot-core:1.9.7`
-import $ivy.`org.apache.jena:jena-core:3.17.0`
+//> using scala "2.13"
+//> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.29"
+//> using dep "org.phenoscape::scowl:1.4.1"
+//> using dep "com.outr::scribe-slf4j2:3.16.1"
+//> using dep "org.obolibrary.robot:robot-core:1.9.8"
+//> using dep "org.apache.jena:jena-core:3.17.0"
+//> using dep "com.lihaoyi::os-lib:0.9.3"
 
 import java.io.FileInputStream
 import scala.io.Source
@@ -40,9 +39,12 @@ val Obsolete = ResourceFactory.createResource(s"${RheaNS}Obsolete")
   * Find any xrefs or definition xrefs in the ontology referencing an unknown Rhea term,
   * remove these axioms, and save.
   */
-@main
-def main(ontologyFile: os.Path, catalogFile: os.Path, rheaFile: os.Path, outFile: os.Path) = {
-  val model = ModelFactory.createDefaultModel()
+val ontologyFile = os.Path(args(0), os.pwd)
+val catalogFile = os.Path(args(1), os.pwd)
+val rheaFile = os.Path(args(2), os.pwd)
+val outFile = os.Path(args(3), os.pwd)
+
+val model = ModelFactory.createDefaultModel()
   Using.resource(new FileInputStream(rheaFile.toIO))(model.read(_, ""))
   val undirectedReactions = model.listResourcesWithProperty(RDFS.subClassOf, Reaction).asScala.to(Set)
   val directionalReactions = model.listResourcesWithProperty(RDFS.subClassOf, DirectionalReaction).asScala.to(Set)
@@ -102,4 +104,3 @@ def main(ontologyFile: os.Path, catalogFile: os.Path, rheaFile: os.Path, outFile
   manager.applyChanges(defXrefsToRemove.to(List).asJava)
   manager.applyChanges(defXrefsToAdd.to(List).asJava)
   manager.saveOntology(ontology, new FunctionalSyntaxDocumentFormat(), IRI.create(outFile.toIO))
-}
