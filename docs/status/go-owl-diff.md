@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-07/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-08/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-07" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-08" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -237,6 +237,64 @@
   - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
 
 - [(R)-sulfopropanediol 2-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfopropanediol 3-dehydrogenase activity" 
+
+
+### 1,2-dehydro-N-acetyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120577`
+
+#### Added
+- Class: [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32029"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "sjm" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T08:02:58Z" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "N-acetyldopamine biosynthesis" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "NADA biosynthesis" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0120577" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of 1,2-dehydro-N-acetyldopamine via N-acetyldopamine (NADA). In insects, these sclerotizing precursors are involved in the cross-linking of cuticular proteins hardening (sclerotizing) and pigmenting the cuticle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19932179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32709620" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N-acetyldopamine biosynthetic process" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [pigment biosynthetic process](http://purl.obolibrary.org/obo/GO_0046148) 
+
+
+### 1,2-dehydro-N-beta-alanyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120576`
+
+#### Added
+- Class: [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32029"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "sjm" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T08:02:35Z" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "N-beta-alanyldopamine biosynthesis" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "NBAD biosynthesis" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0120576" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of 1,2-dehydro-N-beta-alanyldopamine via N-beta-alanyldopamine (NBAD). In insects, these sclerotizing precursors are involved in the cross-linking of cuticular proteins hardening (sclerotizing) and pigmenting the cuticle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19932179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32709620" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N-beta-alanyldopamine biosynthetic process" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [pigment biosynthetic process](http://purl.obolibrary.org/obo/GO_0046148) 
 
 
 ### 1,2-dihydroxynaphthalene dioxygenase activity `http://purl.obolibrary.org/obo/GO_0018554`
@@ -4024,6 +4082,8 @@ ketone body catabolic process ;  GO:0046952."
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58408" 
 
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58416" 
+
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58420" 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:58424" 
@@ -4097,6 +4157,8 @@ ketone body catabolic process ;  GO:0046952."
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58404](http://rdf.rhea-db.org/58404) 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58408](http://rdf.rhea-db.org/58408) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58416](http://rdf.rhea-db.org/58416) 
 
 - [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [58420](http://rdf.rhea-db.org/58420) 
 
@@ -6680,7 +6742,15 @@ ketone body catabolic process ;  GO:0046952."
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38483" 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38507" 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38511" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38515" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38519" 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38523" 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38595" 
 
@@ -6720,7 +6790,15 @@ ketone body catabolic process ;  GO:0046952."
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38483](http://rdf.rhea-db.org/38483) 
 
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38507](http://rdf.rhea-db.org/38507) 
+
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38511](http://rdf.rhea-db.org/38511) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38515](http://rdf.rhea-db.org/38515) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38519](http://rdf.rhea-db.org/38519) 
+
+- [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38523](http://rdf.rhea-db.org/38523) 
 
 - [diacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0120516) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38595](http://rdf.rhea-db.org/38595) 
 
@@ -6901,6 +6979,37 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [dopamine uptake](http://purl.obolibrary.org/obo/GO_0090494) SubClassOf [dopamine transport](http://purl.obolibrary.org/obo/GO_0015872) 
 
+
+
+### double-stranded RNA immune receptor activity `http://purl.obolibrary.org/obo/GO_7770072`
+
+#### Added
+- Class: [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32046"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T12:45:27Z" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dsRNA immune receptor activity" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770072" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with a double-stranded RNA and transmitting the signal to initiate an innate immune response." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33243852" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23273991" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34678144" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) [label](http://www.w3.org/2000/01/rdf-schema#label) "double-stranded RNA immune receptor activity" 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) SubClassOf [pattern recognition receptor activity](http://purl.obolibrary.org/obo/GO_0038187) 
+
+- [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [double-stranded RNA binding](http://purl.obolibrary.org/obo/GO_0003725) 
 
 
 ### doxorubicin transport `http://purl.obolibrary.org/obo/GO_1900753`
@@ -9071,6 +9180,31 @@ ketone body catabolic process ;  GO:0046952."
 - [kynurenine metabolic process](http://purl.obolibrary.org/obo/GO_0070189) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete kynurenine metabolic process" 
 
 
+### left-handed Z-RNA immune receptor activity `http://purl.obolibrary.org/obo/GO_7770073`
+
+#### Added
+- Class: [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32046"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T12:45:27Z" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Z-RNA immune receptor activity" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770073" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with a left-handed Z-RNA and transmitting the signal to initiate an innate immune response. Z-RNA is a left-handed double-helical conformation of RNA in which the phosphate backbone zigzags." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32200799" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) [label](http://www.w3.org/2000/01/rdf-schema#label) "left-handed Z-RNA immune receptor activity" 
+
+- [left-handed Z-RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770073) SubClassOf [double-stranded RNA immune receptor activity](http://purl.obolibrary.org/obo/GO_7770072) 
+
+
 ### leucocyanidin oxygenase activity `http://purl.obolibrary.org/obo/GO_0050589`
 #### Removed
 - [leucocyanidin oxygenase activity](http://purl.obolibrary.org/obo/GO_0050589) SubClassOf [2-oxoglutarate-dependent dioxygenase activity](http://purl.obolibrary.org/obo/GO_0016706) 
@@ -9308,6 +9442,10 @@ ketone body catabolic process ;  GO:0046952."
 
 - [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.3.5.3" 
 
+- [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:27409" 
+
+- [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63936" 
+
 - [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65032" 
 
 - [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quinone-dependent protoporphyrinogen oxidase activity" 
@@ -9317,6 +9455,10 @@ ketone body catabolic process ;  GO:0046952."
 - [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.3.5.3](http://purl.uniprot.org/enzyme/1.3.5.3) 
 
 - [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [65032](http://rdf.rhea-db.org/65032) 
+
+- [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [27409](http://rdf.rhea-db.org/27409) 
+
+- [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63936](http://rdf.rhea-db.org/63936) 
 
 - [menaquinone-dependent protoporphyrinogen oxidase activity](http://purl.obolibrary.org/obo/GO_0070819) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protoporphyrinogen-IX:menaquinone oxidoreductase activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
@@ -12814,6 +12956,45 @@ ketone body catabolic process ;  GO:0046952."
 - [protein N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0140186) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 
+### protein O-linked glycosylation via N-acetyl-galactosamine `http://purl.obolibrary.org/obo/GO_0016266`
+#### Removed
+- [protein O-linked glycosylation via N-acetyl-galactosamine](http://purl.obolibrary.org/obo/GO_0016266) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein O-linked glycosylation via N-acetyl-galactosamine" 
+
+#### Added
+- [protein O-linked glycosylation via N-acetyl-galactosamine](http://purl.obolibrary.org/obo/GO_0016266) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32044"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein O-linked glycosylation via N-acetyl-galactosamine](http://purl.obolibrary.org/obo/GO_0016266) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein O-linked glycosylation via N-acetyl-galactosamine" 
+
+- [protein O-linked glycosylation via N-acetyl-galactosamine](http://purl.obolibrary.org/obo/GO_0016266) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein O-linked glycosylation via N-acetylgalactosamine" 
+
+
+### protein O-linked glycosylation via N-acetylglucosamine `http://purl.obolibrary.org/obo/GO_7770074`
+
+#### Added
+- Class: [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32044"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "sjm" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T16:32:08Z" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein O-linked GlcNAcylation" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein O-linked N-acetylglucosaminylation" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770074" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glycoprotein biosynthetic process in which a single N-acetylglucosamine is covalently linked via a beta-glycosidic bond to the oxygen atom of a serine or threonine side chain in a protein, resulting in the formation of a protein O-linked glycan. The sugar is not elongated into a larger oligosaccharide chain." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35536957" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein O-linked glycosylation via N-acetylglucosamine" 
+
+- [protein O-linked glycosylation via N-acetylglucosamine](http://purl.obolibrary.org/obo/GO_7770074) SubClassOf [protein O-linked glycosylation](http://purl.obolibrary.org/obo/GO_0006493) 
+
+
 ### protein carrier activity `http://purl.obolibrary.org/obo/GO_0140597`
 #### Removed
 - [protein carrier activity](http://purl.obolibrary.org/obo/GO_0140597) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to and carrying a protein to an acceptor molecule or to a specific location by moving along with the target protein." 
@@ -15489,13 +15670,23 @@ ketone body catabolic process ;  GO:0046952."
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38395" 
 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38399" 
+
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38403" 
 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38407" 
+
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38411" 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38415" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38419" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38423" 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38427" 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38431" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38499" 
 
@@ -15504,6 +15695,8 @@ ketone body catabolic process ;  GO:0046952."
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40047" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40055" 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40627" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43732" 
 
@@ -15523,13 +15716,23 @@ ketone body catabolic process ;  GO:0046952."
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38395](http://rdf.rhea-db.org/38395) 
 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38399](http://rdf.rhea-db.org/38399) 
+
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38403](http://rdf.rhea-db.org/38403) 
 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38407](http://rdf.rhea-db.org/38407) 
+
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38411](http://rdf.rhea-db.org/38411) 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38415](http://rdf.rhea-db.org/38415) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38419](http://rdf.rhea-db.org/38419) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38423](http://rdf.rhea-db.org/38423) 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38427](http://rdf.rhea-db.org/38427) 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38431](http://rdf.rhea-db.org/38431) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [38499](http://rdf.rhea-db.org/38499) 
 
@@ -15538,6 +15741,8 @@ ketone body catabolic process ;  GO:0046952."
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40047](http://rdf.rhea-db.org/40047) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40055](http://rdf.rhea-db.org/40055) 
+
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40627](http://rdf.rhea-db.org/40627) 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [43732](http://rdf.rhea-db.org/43732) 
 
@@ -15904,6 +16109,93 @@ ketone body catabolic process ;  GO:0046952."
 - [valine metabolic process](http://purl.obolibrary.org/obo/GO_0006573) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
 
 - [valine metabolic process](http://purl.obolibrary.org/obo/GO_0006573) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete valine metabolic process" 
+
+
+### venom-mediated activation of inflammatory response `http://purl.obolibrary.org/obo/GO_7770071`
+
+#### Added
+- Class: [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T07:41:13Z" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "venom-mediated inflammation" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "envenomation resulting in positive regulation of inflammatory response in another organism" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770071" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process by which an organism causes inflammatory response in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19000915" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated activation of inflammatory response" 
+
+- [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) SubClassOf [venom-mediated perturbation of biological process](http://purl.obolibrary.org/obo/GO_0035738) 
+
+
+### venom-mediated leukocyte infiltration `http://purl.obolibrary.org/obo/GO_7770075`
+
+#### Added
+- Class: [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T13:33:49Z" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "envenomation resulting in positive regulation of leukocyte migration involved in inflammatory response in another organism" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770075" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A venom-mediated activation of inflammatory response that triggers leucocyte infiltration in another organism." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19000915" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26072684" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated leukocyte infiltration" 
+
+- [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) SubClassOf [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) 
+
+
+### venom-mediated release of inflammatory mediator `http://purl.obolibrary.org/obo/GO_7770076`
+
+#### Added
+- Class: [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-07T13:33:49Z" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "envenomation resulting in positive regulation of production of molecular mediator involved in inflammatory response in another organism" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "venom-mediated production of proinflammatory mediator" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770076" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A venom-mediated activation of inflammatory response that triggers release of an inflammatory mediator in another organism. Inflammatory mediators include cytokines or interleukins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26072684" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated release of inflammatory mediator" 
+
+- [venom-mediated release of inflammatory mediator](http://purl.obolibrary.org/obo/GO_7770076) SubClassOf [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) 
 
 
 ### vesicle coating `http://purl.obolibrary.org/obo/GO_0006901`
