@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-05-08go.owl-statistics
+id: obo:go/releases/2026-05-09go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-05-08go.owl
+  version: obo:go/releases/2026-05-09go.owl
 was_generated_by:
-  started_at_time: '2026-05-08T06:14:29.617037'
+  started_at_time: '2026-05-09T06:30:01.131289'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -47,16 +47,16 @@ partitions:
     synonym_statement_count: 94487
     change_summary:
       EdgeCreation: 697
-      EdgeDeletion: 190
-      NodeDeletion: 17
-      NodeRename: 166
       NodeUnobsoletion: 145
+      NodeRename: 166
       NodeTextDefinitionChange: 174
-      RemoveNodeFromSubset: 5
-      MappingCreation: 20
-      RemoveSynonym: 42
-      NewSynonym: 62
+      EdgeDeletion: 190
       RemoveMapping: 23
+      MappingCreation: 20
+      NodeDeletion: 17
+      NewSynonym: 62
+      RemoveSynonym: 42
+      RemoveNodeFromSubset: 5
       AddNodeToSubset: 2
       All_Obsoletion: 0
       All_Synonym: 104
@@ -93,18 +93,18 @@ partitions:
     distinct_synonym_count: 28633
     synonym_statement_count: 29780
     change_summary:
-      EdgeDeletion: 212
       EdgeCreation: 240
-      NodeRename: 44
       RemoveSynonym: 30
-      RemoveMapping: 791
+      EdgeDeletion: 212
+      NodeRename: 44
       NodeTextDefinitionChange: 103
-      NodeDeletion: 10
+      RemoveMapping: 791
       NodeUnobsoletion: 16
+      NodeDeletion: 10
       NewSynonym: 16
+      MappingCreation: 11
       AddNodeToSubset: 3
       NodeObsoletion: 1
-      MappingCreation: 11
       All_Obsoletion: 1
       All_Synonym: 46
     edge_count: 13534
@@ -128,12 +128,12 @@ partitions:
     distinct_synonym_count: 5106
     synonym_statement_count: 5304
     change_summary:
-      EdgeDeletion: 9
-      EdgeCreation: 10
-      NodeRename: 5
-      NodeUnobsoletion: 3
       NodeTextDefinitionChange: 8
       RemoveSynonym: 4
+      NodeRename: 5
+      EdgeDeletion: 9
+      EdgeCreation: 10
+      NodeUnobsoletion: 3
       NewSynonym: 1
       NodeDeletion: 2
       All_Obsoletion: 0
