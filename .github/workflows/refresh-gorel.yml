@@ -1,0 +1,29 @@
+name: Refresh GOREL files
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Refresh GOREL files
+        run: cd src/ontology/extensions && rm -f gorel.owl gorel.obo && make gorel.owl gorel.obo
+
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: Refresh GOREL files
+          branch: refresh-gorel-files
+          add-paths: |
+            src/ontology/extensions/gorel.owl
+            src/ontology/extensions/gorel.obo
+          token: ${{ secrets.PR_ACTION_TOKEN }}

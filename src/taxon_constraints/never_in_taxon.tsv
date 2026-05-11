@@ -8,7 +8,6 @@ GO:0006097	glyoxylate cycle	NCBITaxon:6656	Arthropoda	PMID:31301737
 GO:0006097	glyoxylate cycle	NCBITaxon:4895	Schizosaccharomyces	
 GO:0061708	tRNA-5-taurinomethyluridine 2-sulfurtransferase	NCBITaxon:4751	Fungi	PMID:28732077
 GO:0103016	tRNA-uridine 2-sulfurtransferase activity	NCBITaxon:33208	Metazoa	PMID:28732077
-GO:0019628 	urate catabolic process	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0003885 	D-arabinono-1,4-lactone oxidase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0032115 	sorbose reductase activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:31132130
 GO:0050085	mannitol 2-dehydrogenase (NADP+) activity	NCBITaxon:4896	Schizosaccharomyces pombe	PMID:31132130
@@ -177,10 +176,6 @@ GO:0010166	wax metabolic process	NCBITaxon:4895	Schizosaccharomyces
 GO:0010205	photoinhibition	NCBITaxon:33208	Metazoa	
 GO:0010206	photosystem II repair	NCBITaxon:33208	Metazoa	
 GO:0010380	regulation of chlorophyll biosynthetic process	NCBITaxon:33208	Metazoa	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:28009	Choanoflagellida	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:33208	Metazoa	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:4751	Fungi	
-GO:0010381	peroxisome-chloroplast membrane tethering	NCBITaxon:554915	Amoebozoa	
 GO:0010436	carotenoid dioxygenase activity	NCBITaxon:4896	Schizosaccharomyces pombe	
 GO:0010436	carotenoid dioxygenase activity	NCBITaxon:4932	Saccharomyces cerevisiae	
 GO:0010547	thylakoid membrane disassembly	NCBITaxon:33208	Metazoa	

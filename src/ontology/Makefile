@@ -36,8 +36,7 @@ OWLTOOLS = $(OWLTOOLS_ENV) owltools
 DOSDP_ENV = JAVA_OPTS=-Xmx6G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
-AMM_ENV = JAVA_OPTS=-Xmx6G
-AMM = $(AMM_ENV) amm --silent
+SCALA_CLI = scala-cli run --server=false --java-opt=-Xmx6g
 
 # OWL catalogs map ontology IRIs to local paths
 USECAT= --use-catalog
@@ -215,7 +214,7 @@ go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
 
 go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc ../resources/rhea.rdf
-	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml ../resources/rhea.rdf $@
+	$(SCALA_CLI) ../util/filter-rhea-xrefs.sc -- $< catalog-v001.xml ../resources/rhea.rdf $@
 
 # merge in some imported GO modules
 # remove editor-only annotations
@@ -629,15 +628,15 @@ rhea.ttl: ../sparql/construct-rhea-reactions.sparql ../resources/rhea.rdf
 	arq -q --data=../resources/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
-	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
+	$(SCALA_CLI) ../util/construct_rhea_ontology.sc -- $< rhea-reactions.ofn && \
 	$(ROBOT) annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/rhea-reactions-simple.ttl: rhea.ttl
-	$(AMM) ../util/construct_rhea_ontology_simplified.sc $< rhea-reactions-simple.ofn && \
+	$(SCALA_CLI) ../util/construct_rhea_ontology_simplified.sc -- $< rhea-reactions-simple.ofn && \
 	$(ROBOT) annotate -i rhea-reactions-simple.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 imports/go-catalytic-activities-participants.owl: extensions/rhea-reactions-simple.ttl $(SRC)
-	$(AMM) ../util/transfer_rhea_relations.sc $< $(SRC) catalog-v001.xml $@.tmp && \
+	$(SCALA_CLI) ../util/transfer_rhea_relations.sc -- $< $(SRC) catalog-v001.xml $@.tmp && \
 	$(ROBOT) annotate -i $@.tmp -O $(BASE)/$@ -o $@
 
 imports/go-catalytic-activities-participants.obo: imports/go-catalytic-activities-participants.owl
@@ -703,6 +702,9 @@ go-edit.facts: $(SRC)
 	$(ROBOT) convert -i $(SRC) -o go-edit.facts.ttl &&\
 	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
 
+../resources/rhea-relationships.tsv:
+	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
+
 datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
 	souffle ../util/ontology-qc.dl &&\
 	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
@@ -711,13 +713,15 @@ reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # intermediate files in this target must be lexically, not numerically sorted, for use with comm
-chebi_pH_7_3_check: reports/referenced_chebi_terms.tsv ../biochebi/chebi_pH7_3_mapping.tsv
+# terms listed in ../biochebi/chebi-allow.txt are exempted from the pH 7.3 requirement
+chebi_pH_7_3_check: reports/referenced_chebi_terms.tsv ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/chebi-allow.txt
 	tail -n +2 reports/referenced_chebi_terms.tsv | sed 's/<http:\/\/purl.obolibrary.org\/obo\/CHEBI_//g' | sed 's/>//g' | sort -u >tmp_referenced_chebi_nums.txt &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | cut -f 1 | sort -u >tmp_mapped_chebi_nums.txt &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | cut -f 2 | sort -u >tmp_7_3_chebi_nums.txt &&\
-	comm -12 tmp_referenced_chebi_nums.txt tmp_mapped_chebi_nums.txt >tmp_referenced_mapped_chebi_nums.txt &&\
-	comm -23 tmp_referenced_mapped_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
-	if [ -s 'tmp_referenced_chebi_nums_not_7_3.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3:" && cat tmp_referenced_chebi_nums_not_7_3.txt && exit 1; else exit 0; fi
+	grep '^CHEBI:' ../biochebi/chebi-allow.txt | sed 's/^CHEBI://' | sort -u >tmp_chebi_allow_nums.txt &&\
+	comm -23 tmp_referenced_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
+	comm -23 tmp_referenced_chebi_nums_not_7_3.txt tmp_chebi_allow_nums.txt >tmp_referenced_chebi_nums_not_7_3_not_allowed.txt &&\
+	if [ -s 'tmp_referenced_chebi_nums_not_7_3_not_allowed.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3 (or added to ../biochebi/chebi-allow.txt):" && cat tmp_referenced_chebi_nums_not_7_3_not_allowed.txt && exit 1; else exit 0; fi
 
 # ----------------------------------------
 # REPORTS
