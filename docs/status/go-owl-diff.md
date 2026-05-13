@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-12/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-13/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-12" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-13" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -3696,6 +3696,58 @@ ketone body catabolic process ;  GO:0046952."
 #### Removed
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016408) 
 
+
+
+### acetyl-CoA fermentation to butanoate `http://purl.obolibrary.org/obo/GO_0030645`
+#### Removed
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Metacyc:PWY-5676" 
+
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic chemical reactions and pathways resulting in the production of acetic acid, butyric acid, and dihydrogen from acetyl-CoA; effected by some saccharolytic species of Clostridium, e.g. C. butyricum." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Metacyc:PWY-5676" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [fermentation](http://purl.obolibrary.org/obo/GO_0006113) 
+
+#### Added
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32079"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5676" 
+
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-5676](http://identifiers.org/metacyc.reaction/PWY-5676) 
+
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic chemical reactions and pathways resulting in the breakdown of acetyl-CoA to butyrate, yielding energy in the form of ATP. Butanoate is secreted by the cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5676" 
+
+- [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) SubClassOf [fermentation](http://purl.obolibrary.org/obo/GO_0006113) 
+
+
+### acetyl-CoA fermentation to butyrate `http://purl.obolibrary.org/obo/GO_0019672`
+#### Removed
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5676" 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-5676](http://identifiers.org/metacyc.reaction/PWY-5676) 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The anaerobic chemical reactions and pathways resulting in the breakdown of acetyl-CoA to butyrate, yielding energy in the form of ATP. Butanoate is secreted by the cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5676" 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [label](http://www.w3.org/2000/01/rdf-schema#label) "acetyl-CoA fermentation to butyrate" 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) SubClassOf [fermentation](http://purl.obolibrary.org/obo/GO_0006113) 
+
+#### Added
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32079"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [acetyl-CoA fermentation to butanoate](http://purl.obolibrary.org/obo/GO_0030645) 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The anaerobic chemical reactions and pathways resulting in the breakdown of acetyl-CoA to butyrate, yielding energy in the form of ATP. Butanoate is secreted by the cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5676" 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is a duplicate of GO:0030645 acetyl-CoA fermentation to butanoate. Butyrate and butanoate are synonyms, and both terms referenced the same MetaCyc pathway (PWY-5676)." 
+
+- [acetyl-CoA fermentation to butyrate](http://purl.obolibrary.org/obo/GO_0019672) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete acetyl-CoA fermentation to butyrate" 
 
 
 ### acetylcholine transport `http://purl.obolibrary.org/obo/GO_0015870`
@@ -8265,8 +8317,28 @@ ketone body catabolic process ;  GO:0046952."
 
 ### galactose catabolic process via UDP-galactose, Leloir pathway `http://purl.obolibrary.org/obo/GO_0033499`
 #### Removed
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of galactose, via the intermediate UDP-galactose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [label](http://www.w3.org/2000/01/rdf-schema#label) "galactose catabolic process via UDP-galactose, Leloir pathway" 
+
 - [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) SubClassOf [phosphate-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0006796) 
 
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) SubClassOf [organophosphate catabolic process](http://purl.obolibrary.org/obo/GO_0046434) 
+
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) SubClassOf [carbohydrate derivative catabolic process](http://purl.obolibrary.org/obo/GO_1901136) 
+
+#### Added
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "galactose catabolic process via UDP-galactose, Leloir pathway" 
+
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of beta-D-galactose, via the intermediate UDP-galactose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6317" 
+
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-D-galactose catabolic process via UDP-galactose, Leloir pathway" 
+
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) SubClassOf [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) 
+
+- [galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) SubClassOf [carbohydrate derivative metabolic process](http://purl.obolibrary.org/obo/GO_1901135) 
 
 
 ### galactoside 2-alpha-L-fucosyltransferase activity `http://purl.obolibrary.org/obo/GO_0008107`
