@@ -1,39 +1,39 @@
 ---
-id: obo:go/releases/2026-05-13go.owl-statistics
+id: obo:go/releases/2026-05-14go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-05-13go.owl
+  version: obo:go/releases/2026-05-14go.owl
 was_generated_by:
-  started_at_time: '2026-05-13T06:49:01.336739'
+  started_at_time: '2026-05-14T06:47:51.721373'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
     class_count: 30874
-    deprecated_class_count: 6587
-    non_deprecated_class_count: 24287
+    deprecated_class_count: 6718
+    non_deprecated_class_count: 24156
     class_count_with_text_definitions: 30874
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 41081
+        filtered_count: 40860
       RO:0002211:
         facet: RO:0002211
-        filtered_count: 2906
+        filtered_count: 2905
       BFO:0000050:
         facet: BFO:0000050
-        filtered_count: 4480
+        filtered_count: 4479
       BFO:0000051:
         facet: BFO:0000051
-        filtered_count: 373
+        filtered_count: 330
       RO:0002212:
         facet: RO:0002212
-        filtered_count: 2562
+        filtered_count: 2561
       RO:0002213:
         facet: RO:0002213
-        filtered_count: 2576
+        filtered_count: 2575
       BFO:0000066:
         facet: BFO:0000066
         filtered_count: 138
@@ -43,24 +43,24 @@ partitions:
       RO:0002093:
         facet: RO:0002093
         filtered_count: 1
-    distinct_synonym_count: 93696
-    synonym_statement_count: 94473
+    distinct_synonym_count: 93661
+    synonym_statement_count: 94438
     change_summary:
-      EdgeCreation: 757
-      EdgeDeletion: 221
-      NodeUnobsoletion: 158
-      NodeTextDefinitionChange: 190
-      NodeRename: 180
-      MappingCreation: 22
-      NewSynonym: 77
+      NodeTextDefinitionChange: 334
+      NodeUnobsoletion: 289
+      EdgeCreation: 1024
+      NodeRename: 312
+      MappingCreation: 100
+      EdgeDeletion: 220
       NodeDeletion: 17
-      RemoveMapping: 24
-      RemoveSynonym: 43
-      RemoveNodeFromSubset: 5
-      AddNodeToSubset: 2
+      RemoveMapping: 92
+      RemoveSynonym: 46
+      RemoveNodeFromSubset: 6
+      NewSynonym: 115
+      AddNodeToSubset: 3
       All_Obsoletion: 0
-      All_Synonym: 120
-    edge_count: 54130
+      All_Synonym: 161
+    edge_count: 53862
   molecular_function:
     id: molecular_function
     class_count: 12850
@@ -74,7 +74,7 @@ partitions:
         filtered_count: 12279
       BFO:0000050:
         facet: BFO:0000050
-        filtered_count: 798
+        filtered_count: 794
       RO:0002212:
         facet: RO:0002212
         filtered_count: 76
@@ -93,21 +93,21 @@ partitions:
     distinct_synonym_count: 28633
     synonym_statement_count: 29780
     change_summary:
+      EdgeCreation: 246
       EdgeDeletion: 215
-      EdgeCreation: 242
-      RemoveMapping: 792
-      NewSynonym: 17
-      NodeObsoletion: 1
+      RemoveSynonym: 31
       NodeTextDefinitionChange: 105
       NodeRename: 44
-      RemoveSynonym: 31
-      NodeDeletion: 11
       NodeUnobsoletion: 16
+      NewSynonym: 17
+      RemoveMapping: 792
       MappingCreation: 13
       AddNodeToSubset: 3
+      NodeDeletion: 11
+      NodeObsoletion: 1
       All_Obsoletion: 1
       All_Synonym: 48
-    edge_count: 13535
+    edge_count: 13531
   cellular_component:
     id: cellular_component
     class_count: 4597
@@ -129,10 +129,10 @@ partitions:
     synonym_statement_count: 5304
     change_summary:
       NodeTextDefinitionChange: 8
-      EdgeCreation: 10
-      EdgeDeletion: 9
       RemoveSynonym: 4
       NodeRename: 5
+      EdgeCreation: 10
+      EdgeDeletion: 9
       NodeUnobsoletion: 3
       NewSynonym: 1
       NodeDeletion: 2
