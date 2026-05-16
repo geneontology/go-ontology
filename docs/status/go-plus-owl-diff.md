@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-15/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-16/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-15" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-16" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -6906,6 +6906,52 @@
 
 #### Added
 - [Gnetopsida](http://purl.obolibrary.org/obo/NCBITaxon_3372) [TAXRANK_1000000](http://purl.obolibrary.org/obo/TAXRANK_1000000) [TAXRANK_0000002](http://purl.obolibrary.org/obo/TAXRANK_0000002) 
+
+
+### Golgi vesicle docking `http://purl.obolibrary.org/obo/GO_0048211`
+#### Removed
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Golgi vesicle docking with target membrane" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Golgi vesicle to membrane docking" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Golgi-derived vesicle docking" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "dictyosome vesicle docking to target membrane" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial attachment of a Golgi transport vesicle membrane to a target membrane, mediated by proteins protruding from the membrane of the Golgi vesicle and the target membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10219233" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [label](http://www.w3.org/2000/01/rdf-schema#label) "Golgi vesicle docking" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) SubClassOf [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [Golgi vesicle transport](http://purl.obolibrary.org/obo/GO_0048193) 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial attachment of a Golgi transport vesicle membrane to a target membrane, mediated by proteins protruding from the membrane of the Golgi vesicle and the target membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10219233" 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be transferred to GO:0160321 vesicle docking activity or GO:7770062 vesicle membrane tethering activity." 
+
+- [Golgi vesicle docking](http://purl.obolibrary.org/obo/GO_0048211) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete Golgi vesicle docking" 
 
 
 ### Gorilla `http://purl.obolibrary.org/obo/NCBITaxon_9592`
@@ -17715,6 +17761,46 @@ ketone body catabolic process ;  GO:0046952."
 - [denatured protein binding](http://purl.obolibrary.org/obo/GO_0031249) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete denatured protein binding" 
 
 
+### dense core granule docking `http://purl.obolibrary.org/obo/GO_0061790`
+#### Removed
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial attachment of a dense core granule membrane to the plasma membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26575293" 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [label](http://www.w3.org/2000/01/rdf-schema#label) "dense core granule docking" 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) EquivalentTo [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dense core granule exocytosis](http://purl.obolibrary.org/obo/GO_1990504)) 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) SubClassOf [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dense core granule exocytosis](http://purl.obolibrary.org/obo/GO_1990504) 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial attachment of a dense core granule membrane to the plasma membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26575293" 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be transferred to GO:0160321 vesicle docking activity or GO:7770062 vesicle membrane tethering activity." 
+
+- [dense core granule docking](http://purl.obolibrary.org/obo/GO_0061790) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete dense core granule docking" 
+
+
 ### deoxyribonucleoside diphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009189`
 #### Removed
 - [deoxyribonucleoside diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009189) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [2'-deoxyribonucleoside diphosphate](http://purl.obolibrary.org/obo/CHEBI_17955)) 
@@ -19026,6 +19112,18 @@ ketone body catabolic process ;  GO:0046952."
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9700152" 
 
 
+### exocyst assembly `http://purl.obolibrary.org/obo/GO_0001927`
+#### Removed
+- [exocyst assembly](http://purl.obolibrary.org/obo/GO_0001927) SubClassOf [exocytic process](http://purl.obolibrary.org/obo/GO_0140029) 
+
+- [exocyst assembly](http://purl.obolibrary.org/obo/GO_0001927) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) 
+
+- [exocyst assembly](http://purl.obolibrary.org/obo/GO_0001927) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [exocyst assembly](http://purl.obolibrary.org/obo/GO_0001927) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+
 ### exocytic insertion of neurotransmitter receptor to plasma membrane `http://purl.obolibrary.org/obo/GO_0098881`
 #### Removed
 - [exocytic insertion of neurotransmitter receptor to plasma membrane](http://purl.obolibrary.org/obo/GO_0098881) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "neurotransmitter receptor insertion" 
@@ -20030,6 +20128,34 @@ ketone body catabolic process ;  GO:0046952."
 - [geranylgeranyl reductase activity](http://purl.obolibrary.org/obo/GO_0045550) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it lacked a proper enzyme cross-reference and is equivalent to GO:0102067 'geranylgeranyl diphosphate reductase activity' (EC:1.3.1.83, RHEA:26229), which describes the same reaction (PMID:9492312: reduction of geranylgeranyl diphosphate to phytyl diphosphate, also acting on geranylgeranyl-chlorophyll a)." 
 
 - [geranylgeranyl reductase activity](http://purl.obolibrary.org/obo/GO_0045550) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete geranylgeranyl reductase activity" 
+
+
+### germ cell migration `http://purl.obolibrary.org/obo/GO_0008354`
+#### Removed
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ-cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "primordial germ cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) EquivalentTo [cell migration](http://purl.obolibrary.org/obo/GO_0016477) and ([results in movement of](http://purl.obolibrary.org/obo/RO_0002565) some [germ cell](http://purl.obolibrary.org/obo/CL_0000586)) 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) SubClassOf [results in movement of](http://purl.obolibrary.org/obo/RO_0002565) some [germ cell](http://purl.obolibrary.org/obo/CL_0000586) 
+
+#### Added
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/25651"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "germ cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "germ-cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "embryonic germ cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) [label](http://www.w3.org/2000/01/rdf-schema#label) "primordial germ cell migration" 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) EquivalentTo [cell migration](http://purl.obolibrary.org/obo/GO_0016477) and ([results in movement of](http://purl.obolibrary.org/obo/RO_0002565) some [primordial germ cell](http://purl.obolibrary.org/obo/CL_0000670)) 
+
+- [germ cell migration](http://purl.obolibrary.org/obo/GO_0008354) SubClassOf [results in movement of](http://purl.obolibrary.org/obo/RO_0002565) some [primordial germ cell](http://purl.obolibrary.org/obo/CL_0000670) 
 
 
 ### globin `http://purl.obolibrary.org/obo/CHEBI_5386`
@@ -24046,6 +24172,14 @@ ketone body catabolic process ;  GO:0046952."
 - [negative regulation of deadenylation-dependent decapping of nuclear-transcribed mRNA](http://purl.obolibrary.org/obo/GO_0106289) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
+### negative regulation of exocyst assembly `http://purl.obolibrary.org/obo/GO_0001929`
+#### Removed
+- [negative regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001929) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [negative regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001929) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+
 ### negative regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_1904736`
 #### Removed
 - [negative regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of fatty acid beta-oxidation using acyl-CoA dehydrogenase." 
@@ -24770,6 +24904,42 @@ ketone body catabolic process ;  GO:0046952."
 
 
 
+### negative regulation of vesicle docking `http://purl.obolibrary.org/obo/GO_0106021`
+#### Removed
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of vesicle to membrane docking" 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22810233" 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of vesicle docking" 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278)) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) SubClassOf [negative regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048523) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) SubClassOf [negative regulation of transport](http://purl.obolibrary.org/obo/GO_0051051) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) SubClassOf [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+#### Added
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22810233" 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because vesicle docking is now represented as a molecular function (GO:0160321 vesicle docking activity)." 
+
+- [negative regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106021) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of vesicle docking" 
+
+
 ### neomycin catabolic process `http://purl.obolibrary.org/obo/GO_1901157`
 #### Removed
 - [neomycin catabolic process](http://purl.obolibrary.org/obo/GO_1901157) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "neomycin breakdown" 
@@ -25435,6 +25605,22 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [obsolete inactivation of MAPK (mating sensu Saccharomyces)](http://purl.obolibrary.org/obo/GO_0000174) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [pheromone response MAPK cascade](http://purl.obolibrary.org/obo/GO_0071507) 
 
 
+### obsolete negative regulation of sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051283`
+
+#### Added
+- [obsolete negative regulation of sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051283) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24112"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051283) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium ion sequestering activity](http://purl.obolibrary.org/obo/GO_0140314) 
+
+
+### obsolete nonexocytotic vesicle docking `http://purl.obolibrary.org/obo/GO_0048277`
+#### Removed
+- [obsolete nonexocytotic vesicle docking](http://purl.obolibrary.org/obo/GO_0048277) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+#### Added
+- [obsolete nonexocytotic vesicle docking](http://purl.obolibrary.org/obo/GO_0048277) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+
 ### obsolete nuclear translocation of MAPK (mating sensu Fungi) `http://purl.obolibrary.org/obo/GO_0030460`
 #### Removed
 - [obsolete nuclear translocation of MAPK (mating sensu Fungi)](http://purl.obolibrary.org/obo/GO_0030460) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0000750) 
@@ -25451,10 +25637,34 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [obsolete nuclear translocation of MAPK (mating sensu Saccharomyces)](http://purl.obolibrary.org/obo/GO_0007248) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [pheromone response MAPK cascade](http://purl.obolibrary.org/obo/GO_0071507) 
 
 
+### obsolete phagosome-lysosome docking involved in apoptotic cell clearance `http://purl.obolibrary.org/obo/GO_0090388`
+#### Removed
+- [obsolete phagosome-lysosome docking involved in apoptotic cell clearance](http://purl.obolibrary.org/obo/GO_0090388) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) 
+
+#### Added
+- [obsolete phagosome-lysosome docking involved in apoptotic cell clearance](http://purl.obolibrary.org/obo/GO_0090388) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+
 ### obsolete positive regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion `http://purl.obolibrary.org/obo/GO_0090028`
 
 #### Added
 - [obsolete positive regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0090028) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of pheromone response MAPK cascade](http://purl.obolibrary.org/obo/GO_0062038) 
+
+
+### obsolete positive regulation of sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051284`
+
+#### Added
+- [obsolete positive regulation of sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051284) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24112"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051284) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium ion sequestering activity](http://purl.obolibrary.org/obo/GO_0140314) 
+
+
+### obsolete regulation of sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051282`
+
+#### Added
+- [obsolete regulation of sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051282) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24112"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051282) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium ion sequestering activity](http://purl.obolibrary.org/obo/GO_0140314) 
 
 
 ### obsolete ribosomal chaperone activity `http://purl.obolibrary.org/obo/GO_0000005`
@@ -25463,6 +25673,14 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 
 #### Added
 - [obsolete ribosomal chaperone activity](http://purl.obolibrary.org/obo/GO_0000005) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
+
+
+### obsolete sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051208`
+
+#### Added
+- [obsolete sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051208) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/24112"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete sequestering of calcium ion](http://purl.obolibrary.org/obo/GO_0051208) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium ion sequestering activity](http://purl.obolibrary.org/obo/GO_0140314) 
 
 
 ### obsolete sucrose catabolic process, using beta-fructofuranosidase `http://purl.obolibrary.org/obo/GO_0019575`
@@ -26349,6 +26567,49 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29720625" 
 
 - [peroxisome-mitochondrion membrane tether activity](http://purl.obolibrary.org/obo/GO_0160190) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
+### phagosome-lysosome docking `http://purl.obolibrary.org/obo/GO_0090384`
+#### Removed
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial attachment of a phagosome membrane to a lysosome membrane. Docking requires only that the proteins come close enough to interact and adhere." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:kmv" 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lysosome recruitment to phagosome" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:kmv" 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [label](http://www.w3.org/2000/01/rdf-schema#label) "phagosome-lysosome docking" 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) SubClassOf [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagolysosome assembly](http://purl.obolibrary.org/obo/GO_0001845) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial attachment of a phagosome membrane to a lysosome membrane. Docking requires only that the proteins come close enough to interact and adhere." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:kmv" 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be transferred to GO:0160321 vesicle docking activity or GO:7770062 vesicle membrane tethering activity." 
+
+- [phagosome-lysosome docking](http://purl.obolibrary.org/obo/GO_0090384) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phagosome-lysosome docking" 
 
 
 ### phenanthrene catabolic process `http://purl.obolibrary.org/obo/GO_0042216`
@@ -27473,6 +27734,14 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [positive regulation of deadenylation-independent decapping of nuclear-transcribed mRNA](http://purl.obolibrary.org/obo/GO_1901835) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
+### positive regulation of exocyst assembly `http://purl.obolibrary.org/obo/GO_0001930`
+#### Removed
+- [positive regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001930) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [positive regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001930) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+
 ### positive regulation of fatty acid beta-oxidation by octopamine signaling pathway `http://purl.obolibrary.org/obo/GO_1904122`
 #### Removed
 - [positive regulation of fatty acid beta-oxidation by octopamine signaling pathway](http://purl.obolibrary.org/obo/GO_1904122) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of fatty acid beta-oxidation by octopamine signaling pathway" 
@@ -28262,6 +28531,40 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 #### Removed
 - [positive regulation of urea catabolic process](http://purl.obolibrary.org/obo/GO_1901714) SubClassOf [positive regulation of nitrogen cycle metabolic process](http://purl.obolibrary.org/obo/GO_1903316) 
 
+
+
+### positive regulation of vesicle docking `http://purl.obolibrary.org/obo/GO_0106022`
+#### Removed
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of vesicle to membrane docking" 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22810233" 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of vesicle docking" 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278)) 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) SubClassOf [positive regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048522) 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) SubClassOf [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+#### Added
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22810233" 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because vesicle docking is now represented as a molecular function (GO:0160321 vesicle docking activity)." 
+
+- [positive regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106022) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of vesicle docking" 
 
 
 ### post-chaperonin tubulin folding pathway `http://purl.obolibrary.org/obo/GO_0007023`
@@ -29631,6 +29934,16 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [regulation of dephosphorylation](http://purl.obolibrary.org/obo/GO_0035303) SubClassOf [regulation of metabolic process](http://purl.obolibrary.org/obo/GO_0019222) 
 
 
+### regulation of exocyst assembly `http://purl.obolibrary.org/obo/GO_0001928`
+#### Removed
+- [regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001928) SubClassOf [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) 
+
+- [regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001928) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [regulation of exocyst assembly](http://purl.obolibrary.org/obo/GO_0001928) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+
 ### regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_1904735`
 #### Removed
 - [regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
@@ -30257,6 +30570,38 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [regulation of podosome assembly](http://purl.obolibrary.org/obo/GO_0071801) SubClassOf [regulation of plasma membrane bounded cell projection assembly](http://purl.obolibrary.org/obo/GO_0120032) 
 
 
+### regulation of synaptic vesicle docking `http://purl.obolibrary.org/obo/GO_0099148`
+#### Removed
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_synapse](http://purl.obolibrary.org/obo/go#goslim_synapse) 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of synaptic vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of synaptic vesicle docking" 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081)) 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) SubClassOf [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) 
+
+#### Added
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of synaptic vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because synaptic vesicle docking (GO:0016081) is now represented as a molecular function (GO:0160321 vesicle docking activity)." 
+
+- [regulation of synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0099148) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of synaptic vesicle docking" 
+
+
 ### regulation of taurine biosynthetic process `http://purl.obolibrary.org/obo/GO_0062089`
 #### Removed
 - [regulation of taurine biosynthetic process](http://purl.obolibrary.org/obo/GO_0062089) SubClassOf [regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062012) 
@@ -30353,10 +30698,60 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 
 
 
+### regulation of vesicle docking `http://purl.obolibrary.org/obo/GO_0106020`
+#### Removed
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of vesicle to membrane docking" 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22810233" 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of vesicle docking" 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278)) 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) SubClassOf [regulation of localization](http://purl.obolibrary.org/obo/GO_0032879) 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) SubClassOf [regulation of cellular process](http://purl.obolibrary.org/obo/GO_0050794) 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+#### Added
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of vesicle docking." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22810233" 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because vesicle docking is now represented as a molecular function (GO:0160321 vesicle docking activity)." 
+
+- [regulation of vesicle docking](http://purl.obolibrary.org/obo/GO_0106020) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of vesicle docking" 
+
+
 ### relatedMatch `http://www.w3.org/2004/02/skos/core#relatedMatch`
 #### Removed
 - AnnotationProperty: [relatedMatch](http://www.w3.org/2004/02/skos/core#relatedMatch) 
 
+
+
+### release of sequestered calcium ion into postsynaptic cytosol `http://purl.obolibrary.org/obo/GO_0099586`
+#### Removed
+- [release of sequestered calcium ion into postsynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099586) EquivalentTo [transport](http://purl.obolibrary.org/obo/GO_0006810) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [intracellular membrane-bounded organelle](http://purl.obolibrary.org/obo/GO_0043231)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [postsynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099524)) and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [organelle membrane](http://purl.obolibrary.org/obo/GO_0031090)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [calcium(2+)](http://purl.obolibrary.org/obo/CHEBI_29108)) 
+
+#### Added
+- [release of sequestered calcium ion into postsynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099586) EquivalentTo [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [intracellular membrane-bounded organelle](http://purl.obolibrary.org/obo/GO_0043231)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [postsynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099524)) and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [organelle membrane](http://purl.obolibrary.org/obo/GO_0031090)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [calcium(2+)](http://purl.obolibrary.org/obo/CHEBI_29108)) 
+
+
+### release of sequestered calcium ion into presynaptic cytosol `http://purl.obolibrary.org/obo/GO_0099585`
+#### Removed
+- [release of sequestered calcium ion into presynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099585) EquivalentTo [transport](http://purl.obolibrary.org/obo/GO_0006810) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [intracellular membrane-bounded organelle](http://purl.obolibrary.org/obo/GO_0043231)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [presynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099523)) and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [organelle membrane](http://purl.obolibrary.org/obo/GO_0031090)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [calcium(2+)](http://purl.obolibrary.org/obo/CHEBI_29108)) 
+
+#### Added
+- [release of sequestered calcium ion into presynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099585) EquivalentTo [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [intracellular membrane-bounded organelle](http://purl.obolibrary.org/obo/GO_0043231)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [presynaptic cytosol](http://purl.obolibrary.org/obo/GO_0099523)) and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [organelle membrane](http://purl.obolibrary.org/obo/GO_0031090)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [calcium(2+)](http://purl.obolibrary.org/obo/CHEBI_29108)) 
 
 
 ### respiratory chain complex III `http://purl.obolibrary.org/obo/GO_0045275`
@@ -30813,6 +31208,30 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 
 #### Added
 - [sordariomyceta](http://purl.obolibrary.org/obo/NCBITaxon_715989) [TAXRANK_1000000](http://purl.obolibrary.org/obo/TAXRANK_1000000) [TAXRANK_0001004](http://purl.obolibrary.org/obo/TAXRANK_0001004) 
+
+
+### sperm migration through the uterotubal junction `http://purl.obolibrary.org/obo/GO_0160131`
+#### Removed
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Zygnematales](http://purl.obolibrary.org/obo/NCBITaxon_3176) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Gnetales](http://purl.obolibrary.org/obo/NCBITaxon_3378) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Magnoliopsida](http://purl.obolibrary.org/obo/NCBITaxon_3398) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Dictyostelium](http://purl.obolibrary.org/obo/NCBITaxon_5782) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Zygnematales](http://purl.obolibrary.org/obo/NCBITaxon_3176)) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Gnetales](http://purl.obolibrary.org/obo/NCBITaxon_3378)) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Magnoliopsida](http://purl.obolibrary.org/obo/NCBITaxon_3398)) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Dictyostelium](http://purl.obolibrary.org/obo/NCBITaxon_5782)) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [flagellated sperm motility](http://purl.obolibrary.org/obo/GO_0030317) 
+
+- [sperm migration through the uterotubal junction](http://purl.obolibrary.org/obo/GO_0160131) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
 
 
 ### spermidine acetylation `http://purl.obolibrary.org/obo/GO_0032918`
@@ -31759,6 +32178,49 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [symbiont-mediated suppression of host stress granule assembly](http://purl.obolibrary.org/obo/GO_0140411) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742)) 
 
 - [symbiont-mediated suppression of host stress granule assembly](http://purl.obolibrary.org/obo/GO_0140411) SubClassOf [negatively regulates in another organism](http://purl.obolibrary.org/obo/RO_0012014) some [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) 
+
+
+### synaptic vesicle docking `http://purl.obolibrary.org/obo/GO_0016081`
+#### Removed
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "synaptic vesicle docking involved in exocytosis" 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_synapse](http://purl.obolibrary.org/obo/go#goslim_synapse) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "synaptic vesicle docking during exocytosis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial (indirect) attachment of a synaptic vesicle membrane to the presynaptic active zone membrane, mediated by proteins protruding from the membrane and proteins of the presynaptic active zone cytoplasmic component. Synaptic vesicle tethering is the first step in this process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15217342" 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Although this process can occur outside of synaptic transmission, by convention we treat it as a part of synaptic transmission (dos, pvn, fk synapse project 2015)." 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [label](http://www.w3.org/2000/01/rdf-schema#label) "synaptic vesicle docking" 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) EquivalentTo [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0016079)) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) SubClassOf [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [synaptic vesicle exocytosis](http://purl.obolibrary.org/obo/GO_0016079) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+#### Added
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial (indirect) attachment of a synaptic vesicle membrane to the presynaptic active zone membrane, mediated by proteins protruding from the membrane and proteins of the presynaptic active zone cytoplasmic component. Synaptic vesicle tethering is the first step in this process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15217342" 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be transferred to GO:0160321 vesicle docking activity or GO:7770062 vesicle membrane tethering activity." 
+
+- [synaptic vesicle docking](http://purl.obolibrary.org/obo/GO_0016081) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete synaptic vesicle docking" 
 
 
 ### synaptic vesicle targeting `http://purl.obolibrary.org/obo/GO_0016080`
@@ -33036,6 +33498,44 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [vesicle coating](http://purl.obolibrary.org/obo/GO_0006901) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle coat assembly" 
 
 
+### vesicle docking `http://purl.obolibrary.org/obo/GO_0048278`
+#### Removed
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "vesicle to membrane docking" 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial attachment of a transport vesicle membrane to the target membrane, mediated by proteins protruding from the membrane of the vesicle and the target membrane. Docking requires only that the two membranes come close enough for these proteins to interact and adhere." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle docking" 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) SubClassOf [organelle localization by membrane tethering](http://purl.obolibrary.org/obo/GO_0140056) 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [vesicle](http://purl.obolibrary.org/obo/GO_0031982) 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial attachment of a transport vesicle membrane to the target membrane, mediated by proteins protruding from the membrane of the vesicle and the target membrane. Docking requires only that the two membranes come close enough for these proteins to interact and adhere." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be transferred to GO:0160321 vesicle docking activity or GO:7770062 vesicle membrane tethering activity." 
+
+- [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vesicle docking" 
+
+
 ### vesicle docking activity `http://purl.obolibrary.org/obo/GO_0160321`
 
 #### Added
@@ -33059,6 +33559,55 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle docking activity" 
 
 - [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) SubClassOf [membrane-membrane adaptor activity](http://purl.obolibrary.org/obo/GO_0140177) 
+
+
+### vesicle docking involved in exocytosis `http://purl.obolibrary.org/obo/GO_0006904`
+#### Removed
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The initial attachment of a vesicle membrane to a target membrane, mediated by proteins protruding from the membrane of the vesicle and the target membrane, that contributes to exocytosis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:aruk" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22438915" 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "vesicle docking during exocytosis" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [label](http://www.w3.org/2000/01/rdf-schema#label) "vesicle docking involved in exocytosis" 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) EquivalentTo [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [exocytosis](http://purl.obolibrary.org/obo/GO_0006887)) 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) SubClassOf [vesicle docking](http://purl.obolibrary.org/obo/GO_0048278) 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) SubClassOf [exocytic process](http://purl.obolibrary.org/obo/GO_0140029) 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31880"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle docking activity](http://purl.obolibrary.org/obo/GO_0160321) 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle membrane tethering activity](http://purl.obolibrary.org/obo/GO_7770062) 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The initial attachment of a vesicle membrane to a target membrane, mediated by proteins protruding from the membrane of the vesicle and the target membrane, that contributes to exocytosis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:aruk" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22438915" 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function. Annotations should be transferred to GO:0160321 vesicle docking activity or GO:7770062 vesicle membrane tethering activity." 
+
+- [vesicle docking involved in exocytosis](http://purl.obolibrary.org/obo/GO_0006904) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete vesicle docking involved in exocytosis" 
 
 
 ### vesicle membrane tethering activity `http://purl.obolibrary.org/obo/GO_7770062`
