@@ -8,7 +8,7 @@ These live in `src/taxon_constraints`
 - `never_in_taxon.tsv`
 - `only_in_taxon.tsv`
 
-Taxon constraints don't get added in the main go-edit.obo file.
+Taxon constraints don't get added in the main go-edit.obo file or to any other file in the repo.
 
 ## Creating new taxon constraints
 
