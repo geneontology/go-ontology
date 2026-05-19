@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-18/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-19/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-18" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -378,6 +378,40 @@
 #### Removed
 - [(R)-lactoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_70980) SubClassOf [RO_0018039](http://purl.obolibrary.org/obo/RO_0018039) some [(S)-lactoyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_231528) 
 
+
+
+### (R)-mandelate catabolic process `http://purl.obolibrary.org/obo/GO_0019596`
+#### Removed
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of mandelate, the anion of mandelic acid. Mandelic acid (alpha-hydroxybenzeneacetic acid) is an 8-carbon alpha-hydroxy acid (AHA) that is used in organic chemistry and as a urinary antiseptic." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [label](http://www.w3.org/2000/01/rdf-schema#label) "mandelate catabolic process" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [mandelate](http://purl.obolibrary.org/obo/CHEBI_25147)) 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [mandelate](http://purl.obolibrary.org/obo/CHEBI_25147) 
+
+#### Added
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31932"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "mandelate catabolic process" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-1501" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6957" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-1501](http://identifiers.org/metacyc.reaction/PWY-1501) 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6957](http://identifiers.org/metacyc.reaction/PWY-6957) 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of (R)-mandelate, the anion of (R)-mandelic acid. Mandelic acid (alpha-hydroxybenzeneacetic acid) is an 8-carbon alpha-hydroxy acid (AHA) that is used in organic chemistry and as a urinary antiseptic." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-mandelate catabolic process" 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(R)-mandelate](http://purl.obolibrary.org/obo/CHEBI_32382)) 
+
+- [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(R)-mandelate](http://purl.obolibrary.org/obo/CHEBI_32382) 
 
 
 ### (R,R)-2-oleoylglycero-1-phospho-1'-glycerol(1-) `http://purl.obolibrary.org/obo/CHEBI_139230`
@@ -2144,6 +2178,10 @@
 #### Removed
 - [6-sulfoquinovose(1-) catabolic process](http://purl.obolibrary.org/obo/GO_1902777) SubClassOf [obsolete organic acid catabolic process](http://purl.obolibrary.org/obo/GO_0016054) 
 
+#### Added
+- [6-sulfoquinovose(1-) catabolic process](http://purl.obolibrary.org/obo/GO_1902777) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7446" 
+
+- [6-sulfoquinovose(1-) catabolic process](http://purl.obolibrary.org/obo/GO_1902777) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7446](http://identifiers.org/metacyc.reaction/PWY-7446) 
 
 
 ### 7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity `http://purl.obolibrary.org/obo/GO_0044688`
@@ -4553,6 +4591,10 @@
 - [D-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019571) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [D-arabinose](http://purl.obolibrary.org/obo/CHEBI_17108) 
 
 #### Added
+- [D-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019571) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:DARABCAT-PWY" 
+
+- [D-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019571) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [DARABCAT-PWY](http://identifiers.org/metacyc.reaction/DARABCAT-PWY) 
+
 - [D-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019571) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [D-arabinopyranose](http://purl.obolibrary.org/obo/CHEBI_46994)) 
 
 - [D-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019571) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [D-arabinopyranose](http://purl.obolibrary.org/obo/CHEBI_46994) 
@@ -6485,10 +6527,22 @@
 - [L-arginine transmembrane transport](http://purl.obolibrary.org/obo/GO_1903826) EquivalentTo [transport](http://purl.obolibrary.org/obo/GO_0006810) and ([results in transport across](http://purl.obolibrary.org/obo/RO_0002342) some [membrane](http://purl.obolibrary.org/obo/GO_0016020)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [L-argininium(1+)](http://purl.obolibrary.org/obo/CHEBI_32682)) 
 
 
+### L-ascorbic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0019853`
+
+#### Added
+- [L-ascorbic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0019853) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-882" 
+
+- [L-ascorbic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0019853) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-882](http://identifiers.org/metacyc.reaction/PWY-882) 
+
+
 ### L-asparagine biosynthetic process `http://purl.obolibrary.org/obo/GO_0070981`
 #### Removed
 - [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) SubClassOf [obsolete asparagine metabolic process](http://purl.obolibrary.org/obo/GO_0006528) 
 
+#### Added
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY490-4" 
+
+- [L-asparagine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070981) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY490-4](http://identifiers.org/metacyc.reaction/PWY490-4) 
 
 
 ### L-asparagine catabolic process `http://purl.obolibrary.org/obo/GO_0006530`
@@ -11592,6 +11646,18 @@
 - [aerobic carbon monoxide dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008805) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, with a quinone or similar compound as acceptor](http://purl.obolibrary.org/obo/GO_0052738) 
 
 
+### ajugose biosynthetic process `http://purl.obolibrary.org/obo/GO_0033536`
+
+#### Added
+- [ajugose biosynthetic process](http://purl.obolibrary.org/obo/GO_0033536) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5342" 
+
+- [ajugose biosynthetic process](http://purl.obolibrary.org/obo/GO_0033536) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5343" 
+
+- [ajugose biosynthetic process](http://purl.obolibrary.org/obo/GO_0033536) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5342](http://identifiers.org/metacyc.reaction/PWY-5342) 
+
+- [ajugose biosynthetic process](http://purl.obolibrary.org/obo/GO_0033536) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5343](http://identifiers.org/metacyc.reaction/PWY-5343) 
+
+
 ### alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006523`
 #### Removed
 - [alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006523) SubClassOf [obsolete alpha-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901607) 
@@ -12777,11 +12843,15 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 #### Added
+- [benzoate catabolic process](http://purl.obolibrary.org/obo/GO_0043639) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2503" 
+
 - [benzoate catabolic process](http://purl.obolibrary.org/obo/GO_0043639) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-283" 
 
 - [benzoate catabolic process](http://purl.obolibrary.org/obo/GO_0043639) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7402" 
 
 - [benzoate catabolic process](http://purl.obolibrary.org/obo/GO_0043639) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-7402](http://identifiers.org/metacyc.reaction/PWY-7402) 
+
+- [benzoate catabolic process](http://purl.obolibrary.org/obo/GO_0043639) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2503](http://identifiers.org/metacyc.reaction/PWY-2503) 
 
 - [benzoate catabolic process](http://purl.obolibrary.org/obo/GO_0043639) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-283](http://identifiers.org/metacyc.reaction/PWY-283) 
 
@@ -13286,6 +13356,18 @@
 - [ceramide-1-phosphate phosphatase activity](http://purl.obolibrary.org/obo/GO_0106235) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [62040](http://rdf.rhea-db.org/62040) 
 
 
+### chlorophyll a biosynthetic process `http://purl.obolibrary.org/obo/GO_0033305`
+
+#### Added
+- [chlorophyll a biosynthetic process](http://purl.obolibrary.org/obo/GO_0033305) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5064" 
+
+- [chlorophyll a biosynthetic process](http://purl.obolibrary.org/obo/GO_0033305) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5086" 
+
+- [chlorophyll a biosynthetic process](http://purl.obolibrary.org/obo/GO_0033305) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5064](http://identifiers.org/metacyc.reaction/PWY-5064) 
+
+- [chlorophyll a biosynthetic process](http://purl.obolibrary.org/obo/GO_0033305) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5086](http://identifiers.org/metacyc.reaction/PWY-5086) 
+
+
 ### chlorophyllide a oxygenase activity `http://purl.obolibrary.org/obo/GO_0010277`
 #### Removed
 - [chlorophyllide a oxygenase activity](http://purl.obolibrary.org/obo/GO_0010277) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases)](http://purl.obolibrary.org/obo/GO_0016703) 
@@ -13332,6 +13414,38 @@
 - [cholesterol 24-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033781) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31967"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [cholesterol 24-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0033781) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
+
+
+### cholesterol biosynthetic process `http://purl.obolibrary.org/obo/GO_0006695`
+
+#### Added
+- [cholesterol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006695) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-3" 
+
+- [cholesterol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006695) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-341" 
+
+- [cholesterol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006695) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-4" 
+
+- [cholesterol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006695) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY66-341](http://identifiers.org/metacyc.reaction/PWY66-341) 
+
+- [cholesterol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006695) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY66-3](http://identifiers.org/metacyc.reaction/PWY66-3) 
+
+- [cholesterol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006695) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY66-4](http://identifiers.org/metacyc.reaction/PWY66-4) 
+
+
+### choline biosynthetic process `http://purl.obolibrary.org/obo/GO_0042425`
+
+#### Added
+- [choline biosynthetic process](http://purl.obolibrary.org/obo/GO_0042425) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3385" 
+
+- [choline biosynthetic process](http://purl.obolibrary.org/obo/GO_0042425) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3542" 
+
+- [choline biosynthetic process](http://purl.obolibrary.org/obo/GO_0042425) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3561" 
+
+- [choline biosynthetic process](http://purl.obolibrary.org/obo/GO_0042425) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3385](http://identifiers.org/metacyc.reaction/PWY-3385) 
+
+- [choline biosynthetic process](http://purl.obolibrary.org/obo/GO_0042425) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3542](http://identifiers.org/metacyc.reaction/PWY-3542) 
+
+- [choline biosynthetic process](http://purl.obolibrary.org/obo/GO_0042425) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3561](http://identifiers.org/metacyc.reaction/PWY-3561) 
 
 
 ### choline kinase activity `http://purl.obolibrary.org/obo/GO_0004103`
@@ -15568,6 +15682,18 @@
 - [food stabiliser](http://purl.obolibrary.org/obo/CHEBI_77966) SubClassOf [stabilizer](http://purl.obolibrary.org/obo/CHEBI_747330) 
 
 
+### formaldehyde assimilation `http://purl.obolibrary.org/obo/GO_0019649`
+
+#### Added
+- [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P185-PWY" 
+
+- [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-1861" 
+
+- [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [P185-PWY](http://identifiers.org/metacyc.reaction/P185-PWY) 
+
+- [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-1861](http://identifiers.org/metacyc.reaction/PWY-1861) 
+
+
 ### formate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0008863`
 #### Removed
 - [formate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0008863) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
@@ -15974,6 +16100,18 @@
 #### Removed
 - [glucose-6-phosphate transport](http://purl.obolibrary.org/obo/GO_0015760) SubClassOf [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) 
 
+
+
+### glucosinolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0019761`
+
+#### Added
+- [glucosinolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019761) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-1187" 
+
+- [glucosinolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019761) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-2821" 
+
+- [glucosinolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019761) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-1187](http://identifiers.org/metacyc.reaction/PWY-1187) 
+
+- [glucosinolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019761) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2821](http://identifiers.org/metacyc.reaction/PWY-2821) 
 
 
 ### glucuronosyltransferase activity `http://purl.obolibrary.org/obo/GO_0015020`
@@ -17357,6 +17495,18 @@
 
 
 
+### lycopene biosynthetic process `http://purl.obolibrary.org/obo/GO_1901177`
+
+#### Added
+- [lycopene biosynthetic process](http://purl.obolibrary.org/obo/GO_1901177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5942" 
+
+- [lycopene biosynthetic process](http://purl.obolibrary.org/obo/GO_1901177) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6475" 
+
+- [lycopene biosynthetic process](http://purl.obolibrary.org/obo/GO_1901177) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5942](http://identifiers.org/metacyc.reaction/PWY-5942) 
+
+- [lycopene biosynthetic process](http://purl.obolibrary.org/obo/GO_1901177) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6475](http://identifiers.org/metacyc.reaction/PWY-6475) 
+
+
 ### lyso-ornithine lipid acyltransferase activity `http://purl.obolibrary.org/obo/GO_0043808`
 #### Removed
 - [lyso-ornithine lipid acyltransferase activity](http://purl.obolibrary.org/obo/GO_0043808) SubClassOf [obsolete N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016410) 
@@ -18051,6 +18201,8 @@
 
 - [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6372" 
 
+- [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6554" 
+
 - [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6555" 
 
 - [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4661](http://identifiers.org/metacyc.reaction/PWY-4661) 
@@ -18058,6 +18210,8 @@
 - [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6362](http://identifiers.org/metacyc.reaction/PWY-6362) 
 
 - [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6372](http://identifiers.org/metacyc.reaction/PWY-6372) 
+
+- [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6554](http://identifiers.org/metacyc.reaction/PWY-6554) 
 
 - [myo-inositol hexakisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0010264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6555](http://identifiers.org/metacyc.reaction/PWY-6555) 
 
@@ -18535,7 +18689,7 @@
 
 - [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) SubClassOf [benzoate metabolic process](http://purl.obolibrary.org/obo/GO_0018874) 
 
-- [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) SubClassOf [mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
+- [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) SubClassOf [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
 
 - [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) SubClassOf [monocarboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0072330) 
 
@@ -18546,7 +18700,7 @@
 #### Added
 - [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31932"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
+- [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
 
 - [obsolete (R)-mandelate catabolic process to benzoate](http://purl.obolibrary.org/obo/GO_0019597) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of (R)-mandelate into other compounds, including benzoate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
@@ -18569,7 +18723,7 @@
 
 - [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) SubClassOf [catechol-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0009713) 
 
-- [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) SubClassOf [mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
+- [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) SubClassOf [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
 
 - [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [catechol](http://purl.obolibrary.org/obo/CHEBI_18135) 
 
@@ -18578,7 +18732,7 @@
 #### Added
 - [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31932"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
+- [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [(R)-mandelate catabolic process](http://purl.obolibrary.org/obo/GO_0019596) 
 
 - [obsolete (R)-mandelate catabolic process to catechol](http://purl.obolibrary.org/obo/GO_0019598) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of (R)-mandelate into other compounds, including catechol." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
@@ -31170,6 +31324,34 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [phosphatidyl-N-methylethanolamine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0000773) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [70771](http://rdf.rhea-db.org/70771) 
 
 
+### phosphatidylcholine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006656`
+
+#### Added
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6825" 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6826" 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7470" 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY4FS-2" 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY4FS-3" 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY4FS-4" 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6825](http://identifiers.org/metacyc.reaction/PWY-6825) 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6826](http://identifiers.org/metacyc.reaction/PWY-6826) 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7470](http://identifiers.org/metacyc.reaction/PWY-7470) 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY4FS-2](http://identifiers.org/metacyc.reaction/PWY4FS-2) 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY4FS-3](http://identifiers.org/metacyc.reaction/PWY4FS-3) 
+
+- [phosphatidylcholine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006656) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY4FS-4](http://identifiers.org/metacyc.reaction/PWY4FS-4) 
+
+
 ### phosphatidylcholine-dolichol O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047199`
 #### Removed
 - [phosphatidylcholine-dolichol O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047199) SubClassOf [obsolete O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0008374) 
@@ -34178,6 +34360,18 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 
 #### Added
 - [uronic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015133) SubClassOf [monocarboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0008028) 
+
+
+### uroporphyrinogen III biosynthetic process `http://purl.obolibrary.org/obo/GO_0006780`
+
+#### Added
+- [uroporphyrinogen III biosynthetic process](http://purl.obolibrary.org/obo/GO_0006780) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5188" 
+
+- [uroporphyrinogen III biosynthetic process](http://purl.obolibrary.org/obo/GO_0006780) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5189" 
+
+- [uroporphyrinogen III biosynthetic process](http://purl.obolibrary.org/obo/GO_0006780) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5188](http://identifiers.org/metacyc.reaction/PWY-5188) 
+
+- [uroporphyrinogen III biosynthetic process](http://purl.obolibrary.org/obo/GO_0006780) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5189](http://identifiers.org/metacyc.reaction/PWY-5189) 
 
 
 ### valine N-monooxygenase (oxime forming) activity `http://purl.obolibrary.org/obo/GO_0102002`
