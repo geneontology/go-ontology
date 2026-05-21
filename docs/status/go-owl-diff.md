@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-20/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-21/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-21" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -7471,8 +7471,6 @@ ketone body catabolic process ;  GO:0046952."
 ### carnitine catabolic process `http://purl.obolibrary.org/obo/GO_0042413`
 
 #### Added
-- [carnitine catabolic process](http://purl.obolibrary.org/obo/GO_0042413) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:" 
-
 - [carnitine catabolic process](http://purl.obolibrary.org/obo/GO_0042413) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CARNMET-PWY" 
 
 - [carnitine catabolic process](http://purl.obolibrary.org/obo/GO_0042413) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3602" 
