@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-05-21 06:48:13.675346178 +0000
-+++ go.obo	2026-05-21 06:56:48.950489331 +0000
+--- go-lastrelease.obo	2026-05-22 06:47:20.914614464 +0000
++++ go.obo	2026-05-22 06:56:37.792412190 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-03-25
-+data-version: releases/2026-05-21
++data-version: releases/2026-05-22
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-03-25" xsd:string
-+property_value: owl:versionInfo "2026-05-21" xsd:string
++property_value: owl:versionInfo "2026-05-22" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -19236,7 +19236,7 @@
  is_a: GO:0015850 ! organic hydroxy compound transport
  is_a: GO:0071705 ! nitrogen compound transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31143" xsd:anyURI
-@@ -648387,6 +650505,262 @@
+@@ -648387,6 +650505,281 @@
  created_by: dragon-ai-agent
  creation_date: 2026-03-24T17:37:00Z
  
@@ -19495,6 +19495,25 @@
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31902" xsd:anyURI
 +created_by: dragon-ai-agent
 +creation_date: 2026-05-07T13:33:49Z
++
++[Term]
++id: GO:7770077
++name: negative regulation of PKR/eIFalpha signaling
++namespace: biological_process
++def: "Any process that stops, prevents or reduces the frequency, rate or extent of PKR/eIFalpha signaling." [PMID:19733181, PMID:29395325]
++synonym: "down regulation of PKR/eIFalpha signaling" EXACT []
++synonym: "down-regulation of PKR/eIFalpha signaling" EXACT []
++synonym: "downregulation of PKR/eIFalpha signaling" EXACT []
++synonym: "negative regulation of EIF2AK2 signal transduction" EXACT []
++synonym: "negative regulation of PKR signal transduction" EXACT []
++is_a: GO:0080135 ! regulation of cellular response to stress
++is_a: GO:1902532 ! negative regulation of intracellular signal transduction
++intersection_of: GO:0065007 ! biological regulation
++intersection_of: negatively_regulates GO:0039585 ! PKR/eIFalpha signaling
++relationship: negatively_regulates GO:0039585 ! PKR/eIFalpha signaling
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32127" xsd:anyURI
++created_by: dragon-ai-agent
++creation_date: 2026-05-21T09:17:29Z
 +
  [Typedef]
  id: ends_during

@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-21/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-22/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-21" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-22" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -14047,6 +14047,47 @@ ketone body catabolic process ;  GO:0046952."
 - [negative regulation of L-dopa biosynthetic process](http://purl.obolibrary.org/obo/GO_1903196) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [negative regulation of L-dopa biosynthetic process](http://purl.obolibrary.org/obo/GO_1903196) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of L-dopa biosynthetic process" 
+
+
+### negative regulation of PKR/eIFalpha signaling `http://purl.obolibrary.org/obo/GO_7770077`
+
+#### Added
+- Class: [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32127"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-21T09:17:29Z" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of PKR/eIFalpha signaling" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of PKR/eIFalpha signaling" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of PKR/eIFalpha signaling" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of EIF2AK2 signal transduction" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of PKR signal transduction" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770077" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of PKR/eIFalpha signaling." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19733181" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29395325" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of PKR/eIFalpha signaling" 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_0039585)) 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) SubClassOf [regulation of cellular response to stress](http://purl.obolibrary.org/obo/GO_0080135) 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) SubClassOf [negative regulation of intracellular signal transduction](http://purl.obolibrary.org/obo/GO_1902532) 
+
+- [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_0039585) 
 
 
 ### negative regulation of UDP-N-acetylglucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0106279`
