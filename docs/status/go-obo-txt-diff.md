@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-05-22 06:47:20.914614464 +0000
-+++ go.obo	2026-05-22 06:56:37.792412190 +0000
+--- go-lastrelease.obo	2026-05-23 06:33:42.580088856 +0000
++++ go.obo	2026-05-23 06:43:02.456083380 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-03-25
-+data-version: releases/2026-05-22
++data-version: releases/2026-05-23
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-03-25" xsd:string
-+property_value: owl:versionInfo "2026-05-22" xsd:string
++property_value: owl:versionInfo "2026-05-23" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -19236,7 +19236,7 @@
  is_a: GO:0015850 ! organic hydroxy compound transport
  is_a: GO:0071705 ! nitrogen compound transport
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31143" xsd:anyURI
-@@ -648387,6 +650505,281 @@
+@@ -648387,6 +650505,314 @@
  created_by: dragon-ai-agent
  creation_date: 2026-03-24T17:37:00Z
  
@@ -19514,6 +19514,39 @@
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32127" xsd:anyURI
 +created_by: dragon-ai-agent
 +creation_date: 2026-05-21T09:17:29Z
++
++[Term]
++id: GO:7770078
++name: regulation of cytogamy
++namespace: biological_process
++def: "Any process that modulates the frequency, rate or extent of cytogamy." [PMID:27798845]
++is_a: GO:0050794 ! regulation of cellular process
++is_a: GO:2000241 ! regulation of reproductive process
++intersection_of: GO:0065007 ! biological regulation
++intersection_of: regulates GO:0000755 ! cytogamy
++relationship: regulates GO:0000755 ! cytogamy
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32085" xsd:anyURI
++created_by: dragon-ai-agent
++creation_date: 2026-05-22T09:23:32Z
++
++[Term]
++id: GO:7770079
++name: positive regulation of cytogamy
++namespace: biological_process
++def: "Any process that activates or increases the frequency, rate or extent of cytogamy." [PMID:27798845]
++synonym: "up regulation of cytogamy" EXACT []
++synonym: "up-regulation of cytogamy" EXACT []
++synonym: "upregulation of cytogamy" EXACT []
++is_a: GO:0048522 ! positive regulation of cellular process
++is_a: GO:2000243 ! positive regulation of reproductive process
++is_a: GO:7770078 ! regulation of cytogamy
++intersection_of: GO:0065007 ! biological regulation
++intersection_of: positively_regulates GO:0000755 ! cytogamy
++relationship: part_of GO:0031139 ! positive regulation of conjugation with cellular fusion
++relationship: positively_regulates GO:0000755 ! cytogamy
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32085" xsd:anyURI
++created_by: dragon-ai-agent
++creation_date: 2026-05-22T09:23:32Z
 +
  [Typedef]
  id: ends_during
