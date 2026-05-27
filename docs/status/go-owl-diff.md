@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-26/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-27/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-03-25" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-26" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-27" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -12641,6 +12641,40 @@ ketone body catabolic process ;  GO:0046952."
 - [obsolete endoplasmic reticulum-plasma membrane tethering](http://purl.obolibrary.org/obo/GO_0061817) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete endoplasmic reticulum-plasma membrane tethering" 
 
 
+### obsolete ent-kaurene oxidation to kaurenoic acid `http://purl.obolibrary.org/obo/GO_0010241`
+#### Removed
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ent-kaurene oxidation to ent-kaur-16-en-19-oate" 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ent-kaurene oxidation to ent-kaurenoate" 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ent-kaurene oxidation to kaurenoic acid by ent-kaurene oxidase" 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The three successive oxidations of the 4-methyl group of ent-kaurene to form ent-kaur-16-en-19-oate, kaurenoic acid. This process may be carried out entirely by the enzyme ent-kaurene oxidase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term was in molecular function but was moved to biological process as it represents three successive reactions." 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [label](http://www.w3.org/2000/01/rdf-schema#label) "ent-kaurene oxidation to kaurenoic acid" 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) SubClassOf [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [ent-kaurene oxidase activity](http://purl.obolibrary.org/obo/GO_0052615) 
+
+#### Added
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32078"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [gibberellin biosynthetic process](http://purl.obolibrary.org/obo/GO_0009686) 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The three successive oxidations of the 4-methyl group of ent-kaurene to form ent-kaur-16-en-19-oate, kaurenoic acid. This process may be carried out entirely by the enzyme ent-kaurene oxidase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the data from the paper for which the term was requested can be accurately described using GO:0009686 gibberellin biosynthetic process." 
+
+- [obsolete ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ent-kaurene oxidation to kaurenoic acid" 
+
+
 ### obsolete epinephrine transport `http://purl.obolibrary.org/obo/GO_0048241`
 #### Removed
 - [obsolete epinephrine transport](http://purl.obolibrary.org/obo/GO_0048241) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "adrenaline transport" 
@@ -15076,6 +15110,100 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [obsolete negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0090029) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion" 
 
 
+### obsolete negative regulation of protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_1903637`
+#### Removed
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein import into mitochondrial outer membrane" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of protein insertion into mitochondrial outer membrane" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040)) 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) SubClassOf [negative regulation of organelle organization](http://purl.obolibrary.org/obo/GO_0010639) 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) SubClassOf [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) SubClassOf [negative regulation of establishment of protein localization](http://purl.obolibrary.org/obo/GO_1904950) 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) 
+
+#### Added
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32102"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. It is the negative regulation child of GO:1903636, regulating GO:0045040 (protein insertion into mitochondrial outer membrane), which is being obsoleted as part of the restructuring of mitochondrial protein import (see https://github.com/geneontology/go-ontology/issues/31711)." 
+
+- [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of protein insertion into mitochondrial outer membrane" 
+
+
 ### obsolete negative regulation of sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051283`
 
 #### Added
@@ -16836,6 +16964,100 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [obsolete positive regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0090028) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of pheromone response MAPK cascade](http://purl.obolibrary.org/obo/GO_0062038) 
 
 
+### obsolete positive regulation of protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_1903638`
+#### Removed
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein import into mitochondrial outer membrane" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein import into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein insertion into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of protein insertion into mitochondrial outer membrane" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040)) 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) SubClassOf [positive regulation of organelle organization](http://purl.obolibrary.org/obo/GO_0010638) 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) SubClassOf [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) SubClassOf [positive regulation of establishment of protein localization](http://purl.obolibrary.org/obo/GO_1904951) 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) 
+
+#### Added
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32102"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. It is the positive regulation child of GO:1903636, regulating GO:0045040 (protein insertion into mitochondrial outer membrane), which is being obsoleted as part of the restructuring of mitochondrial protein import (see https://github.com/geneontology/go-ontology/issues/31711)." 
+
+- [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of protein insertion into mitochondrial outer membrane" 
+
+
 ### obsolete positive regulation of sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051284`
 
 #### Added
@@ -17510,6 +17732,31 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [obsolete regulation of butyryl-CoA catabolic process to butyrate](http://purl.obolibrary.org/obo/GO_1900500) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of butyryl-CoA catabolic process to butyrate" 
 
 
+### obsolete regulation of cytogamy `http://purl.obolibrary.org/obo/GO_7770078`
+
+#### Added
+- Class: [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32085"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-22T09:23:32Z" 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770078" 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of cytogamy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27798845" 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was created as a grouping parent for positive regulation of cytogamy (GO:7770079), but the GO does not automatically generate regulation triads. The parent term is unnecessary as there is no curation use case." 
+
+- [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cytogamy" 
+
+
 ### obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_1904735`
 #### Removed
 - [obsolete regulation of fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_1904735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of fatty acid beta-oxidation using acyl-CoA dehydrogenase." 
@@ -18002,6 +18249,52 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 - [obsolete regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010969) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a pre-composed term that should be represented as a GO-CAM model." 
 
 - [obsolete regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0010969) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of pheromone-dependent signal transduction involved in conjugation with cellular fusion" 
+
+
+### obsolete regulation of protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_1903636`
+#### Removed
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein import into mitochondrial outer membrane" 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of mitochondrial outer membrane protein import" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein transport into mitochondrial outer membrane" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of protein insertion into mitochondrial outer membrane" 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040)) 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) SubClassOf [regulation of mitochondrion organization](http://purl.obolibrary.org/obo/GO_0010821) 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) SubClassOf [regulation of cellular localization](http://purl.obolibrary.org/obo/GO_0060341) 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) SubClassOf [regulation of establishment of protein localization](http://purl.obolibrary.org/obo/GO_0070201) 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) 
+
+#### Added
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32102"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. It is the regulation parent of GO:0045040 (protein insertion into mitochondrial outer membrane), which is being obsoleted as part of the restructuring of mitochondrial protein import (see https://github.com/geneontology/go-ontology/issues/31711)." 
+
+- [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of protein insertion into mitochondrial outer membrane" 
 
 
 ### obsolete regulation of sequestering of calcium ion `http://purl.obolibrary.org/obo/GO_0051282`
@@ -20774,8 +21067,6 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) SubClassOf [positive regulation of reproductive process](http://purl.obolibrary.org/obo/GO_2000243) 
 
-- [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) SubClassOf [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) 
-
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [positive regulation of conjugation with cellular fusion](http://purl.obolibrary.org/obo/GO_0031139) 
 
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cytogamy](http://purl.obolibrary.org/obo/GO_0000755) 
@@ -21564,35 +21855,6 @@ GO:0033499 name: galactose catabolic process via UDP-galactose"
 
 #### Added
 - [regulation of cytochrome-c oxidase activity](http://purl.obolibrary.org/obo/GO_1904959) SubClassOf [regulation of oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0051341) 
-
-
-### regulation of cytogamy `http://purl.obolibrary.org/obo/GO_7770078`
-
-#### Added
-- Class: [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32085"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-05-22T09:23:32Z" 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770078" 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of cytogamy." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27798845" 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cytogamy" 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [cytogamy](http://purl.obolibrary.org/obo/GO_0000755)) 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) SubClassOf [regulation of cellular process](http://purl.obolibrary.org/obo/GO_0050794) 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) SubClassOf [regulation of reproductive process](http://purl.obolibrary.org/obo/GO_2000241) 
-
-- [regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [cytogamy](http://purl.obolibrary.org/obo/GO_0000755) 
 
 
 ### regulation of dephosphorylation `http://purl.obolibrary.org/obo/GO_0035303`
