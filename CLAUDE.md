@@ -96,7 +96,7 @@ The recommended way to find terms in `src/ontology/go-edit.obo` is using `obo-gr
     - `obo-grep.pl --noheader -r '(hand|foot)' src/ontology/go-edit.obo`
 - Regexes; all mentions of hand or foot in the definition line:
     - `obo-grep.pl --noheader -r 'def: ".*(hand|foot)' src/ontology/go-edit.obo`
-- Note that `obo-grep.pl` is in your PATH, no need to search for it    
+- `obo-grep.pl` is not a baseline command — it comes from the obo-scripts tooling (upstream `cmungall/obo-scripts`, also bundled in the `editing-obo-ontologies` skill) and is only on your PATH once that tooling is installed (or the skill is loaded). If you get `command not found`, install/locate it (`find ~ -name obo-grep.pl 2>/dev/null`, or clone `cmungall/obo-scripts`) and call it by full path — don't fall back to plain `grep`, which loses stanza-aware matching.
 - Only search over `src/ontology/go-edit.obo`
 
 Troubleshooting: if you can't find `go-edit.obo` it likely means you have changed folder, navigate back up to where the repo is checked out
@@ -135,7 +135,7 @@ The general procedure is:
      - `obo-checkin.pl src/ontology/go-edit.obo terms/my_batch.obo`
 - checking in will update the edit file and remove the file from `terms/`
 - Commits are then made on src/ontology/go-edit.obo as appropriate
-- Note that `obo-checkout.pl` and `obo-checkin.pl` are in your PATH, no need to search for it    
+- `obo-checkout.pl` and `obo-checkin.pl` come from the same obo-scripts tooling (`cmungall/obo-scripts` / the `editing-obo-ontologies` skill) and are likewise only on PATH once it's installed/loaded. If not found, install/locate them and call by full path — don't work around their absence by editing the megafile directly; the checkin/checkout procedure is required.
 - Always validate after checkin via `cd src/ontology && make travis_build`
 
 ### Creation of new terms
