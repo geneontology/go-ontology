@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-05-29 06:51:43.526288555 +0000
-+++ go.obo	2026-05-29 07:01:11.509724871 +0000
+--- go-lastrelease.obo	2026-05-30 06:37:58.747159156 +0000
++++ go.obo	2026-05-30 06:46:50.624729453 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-05-19
-+data-version: releases/2026-05-29
++data-version: releases/2026-05-30
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-05-19" xsd:string
-+property_value: owl:versionInfo "2026-05-29" xsd:string
++property_value: owl:versionInfo "2026-05-30" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -1558,6 +1558,17 @@
  
  [Term]
  id: GO:0030945
+@@ -183028,8 +183026,8 @@
+ synonym: "protein dislocation from ER" EXACT [GOC:dph, GOC:krc]
+ synonym: "protein retrotranslocation, ER to cytosol" EXACT [GOC:bf]
+ synonym: "retrograde protein transport, endoplasmic reticulum to cytosol" EXACT []
+-is_a: GO:0032527 ! protein exit from endoplasmic reticulum
+-is_a: GO:1903513 ! endoplasmic reticulum to cytosol transport
++is_a: GO:0010496 ! intercellular transport
++is_a: GO:0015031 ! protein transport
+ relationship: part_of GO:0036503 ! ERAD pathway
+ 
+ [Term]
 @@ -183468,6 +183466,7 @@
  def: "The process whose specific outcome is the progression of the pancreas over time, from its formation to the mature structure. The pancreas is an endoderm derived structure that produces precursors of digestive enzymes and blood glucose regulating hormones." [GOC:cvs]
  xref: Wikipedia:Pancreas
@@ -1575,7 +1586,30 @@
  relationship: part_of GO:0031016 ! pancreas development
  relationship: part_of GO:0035270 ! endocrine system development
  
-@@ -203628,7 +203627,7 @@
+@@ -199159,14 +199158,15 @@
+ 
+ [Term]
+ id: GO:0032527
+-name: protein exit from endoplasmic reticulum
++name: obsolete protein exit from endoplasmic reticulum
+ namespace: biological_process
+-def: "The directed movement of proteins from the endoplasmic reticulum." [GOC:rb]
+-synonym: "protein exit from ER" EXACT []
+-synonym: "protein export from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "protein export from ER" EXACT [GOC:mah]
+-is_a: GO:0006886 ! intracellular protein transport
+-relationship: occurs_in GO:0005737 ! cytoplasm
++def: "OBSOLETE. The directed movement of proteins from the endoplasmic reticulum." [GOC:rb]
++comment: The reason for obsoletion is that this term conflated multiple distinct processes (retrograde transport from ER to cytosol, transmembrane transport of small molecules, and COPII-vesicle-mediated trafficking) and was used inconsistently. For COPII-vesicle-mediated forward transport from the ER, consider GO:0090114 'COPII-coated vesicle budding' or GO:0006888 'endoplasmic reticulum to Golgi vesicle-mediated transport'. For retrograde transport of misfolded proteins from ER to cytosol, consider GO:0030970 'retrograde protein transport, ER to cytosol'.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19122" xsd:anyURI
++is_obsolete: true
++consider: GO:0006888
++consider: GO:0030970
++consider: GO:0090114
+ 
+ [Term]
+ id: GO:0032528
+@@ -203628,7 +203628,7 @@
  namespace: biological_process
  def: "The progression of the glomerulus over time from its initial formation until its mature state. The glomerulus is a capillary tuft which forms a close network with the visceral epithelium (podocytes) and the mesangium to form the filtration barrier and is surrounded by Bowman's capsule in nephrons of the vertebrate kidney. The glomerulus is part of the nephron and is restricted to one body segment." [GOC:mah, GOC:mtg_kidney_jan10]
  synonym: "glomerular development" EXACT []
@@ -1584,7 +1618,7 @@
  relationship: part_of GO:0072006 ! nephron development
  
  [Term]
-@@ -208888,14 +208887,17 @@
+@@ -208888,14 +208888,17 @@
  
  [Term]
  id: GO:0033328
@@ -1605,7 +1639,7 @@
  
  [Term]
  id: GO:0033329
-@@ -210832,7 +210834,7 @@
+@@ -210832,7 +210835,7 @@
  name: floor plate development
  namespace: biological_process
  def: "The progression of the floor plate over time from its initial formation until its mature state." [GOC:dh]
@@ -1614,7 +1648,7 @@
  relationship: part_of GO:0021915 ! neural tube development
  
  [Term]
-@@ -230795,6 +230797,7 @@
+@@ -230795,6 +230798,7 @@
  namespace: biological_process
  def: "Progression of the endocrine system over time, from its formation to a mature structure. The endocrine system is a system of hormones and ductless glands, where the glands release hormones directly into the blood, lymph or other intercellular fluid, and the hormones circulate within the body to affect distant organs. The major glands that make up the human endocrine system are the hypothalamus, pituitary, thyroid, parathryoids, adrenals, pineal body, and the reproductive glands which include the ovaries and testes." [GOC:bf, Wikipedia:Development_of_the_endocrine_system]
  is_a: GO:0048731 ! system development
@@ -1622,7 +1656,7 @@
  
  [Term]
  id: GO:0035271
-@@ -230811,6 +230814,7 @@
+@@ -230811,6 +230815,7 @@
  namespace: biological_process
  def: "Progression of the exocrine system over time, from its formation to a mature structure. The exocrine system is a system of hormones and glands, where the glands secrete straight to a target site via ducts or tubes. The human exocrine system includes the salivary glands, sweat glands and many glands of the digestive system." [GOC:bf, Wikipedia:Exocrine_gland]
  is_a: GO:0048731 ! system development
@@ -1630,7 +1664,7 @@
  
  [Term]
  id: GO:0035273
-@@ -231022,7 +231026,7 @@
+@@ -231022,7 +231027,7 @@
  name: tube development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a tube over time, from its initial formation to a mature structure. Epithelial and endothelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues including lung and trachea, kidney, the mammary gland, the vascular system and the gastrointestinal and urinary-genital tracts." [PMID:12526790]
@@ -1639,7 +1673,7 @@
  relationship: part_of GO:0007275 ! multicellular organism development
  
  [Term]
-@@ -236896,7 +236900,7 @@
+@@ -236896,7 +236901,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the adrenal cortex over time, from its formation to the mature structure. The adrenal cortex is located at the periphery of the adrenal gland and controls glucose and electrolyte metabolism, response to stress and sexual development through the production of different classes of steroid hormones (glucocorticoids, mineralocorticoids and androgens)." [PMID:12185666, PMID:21115154, Wikipedia:Adrenal_cortex]
  synonym: "adrenal gland cortex development" EXACT [MA:0000118]
@@ -1648,7 +1682,7 @@
  relationship: part_of GO:0030325 ! adrenal gland development
  created_by: bf
  creation_date: 2011-04-18T10:25:39Z
-@@ -237432,7 +237436,7 @@
+@@ -237432,7 +237437,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the cloaca over time, from it's formation to the mature structure. The cloaca is the common chamber into which intestinal, genital and urinary canals open in vertebrates." [GOC:dgh, ISBN:0582227089]
  synonym: "cloacal development" EXACT [GOC:bf]
@@ -1657,7 +1691,7 @@
  relationship: part_of GO:0001655 ! urogenital system development
  relationship: part_of GO:0048546 ! digestive tract morphogenesis
  created_by: bf
-@@ -237845,7 +237849,7 @@
+@@ -237845,7 +237850,7 @@
  name: nail development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a nail over time, from its formation to the mature structure. A nail is a horn-like envelope covering the outer end of a finger or toe, and consists of the nail plate, the nail matrix and the nail bed below it, and the grooves surrounding it." [GOC:bf, ISBN:0323025781, UBERON:0001705, Wikipedia:Nail_(anatomy)]
@@ -1666,7 +1700,7 @@
  relationship: part_of GO:0060173 ! limb development
  created_by: bf
  creation_date: 2011-05-31T02:30:34Z
-@@ -238181,7 +238185,7 @@
+@@ -238181,7 +238186,7 @@
  name: ascending aorta development
  namespace: biological_process
  def: "The progression of the ascending aorta over time, from its initial formation to the mature structure. The ascending aorta is the portion of the aorta in a two-pass circulatory system that lies between the heart and the arch of aorta. In a two-pass circulatory system blood passes twice through the heart to supply the body once." [GOC:bf, GOC:dgh, MA:0002570, UBERON:0001496, Wikipedia:Ascending_aorta]
@@ -1675,7 +1709,7 @@
  relationship: part_of GO:0035904 ! aorta development
  created_by: bf
  creation_date: 2011-06-24T11:02:01Z
-@@ -238191,7 +238195,7 @@
+@@ -238191,7 +238196,7 @@
  name: descending aorta development
  namespace: biological_process
  def: "The progression of the descending aorta over time, from its initial formation to the mature structure. The descending aorta is the portion of the aorta in a two-pass circulatory system from the arch of aorta to the point where it divides into the common iliac arteries. In a two-pass circulatory system blood passes twice through the heart to supply the body once." [GOC:bf, GOC:dgh, MA:0002571, UBERON:0001514, Wikipedia:Descending_aorta]
@@ -1684,7 +1718,7 @@
  relationship: part_of GO:0035904 ! aorta development
  created_by: bf
  creation_date: 2011-06-24T11:05:22Z
-@@ -240639,25 +240643,29 @@
+@@ -240639,25 +240644,29 @@
  
  [Term]
  id: GO:0036105
@@ -1722,7 +1756,7 @@
  created_by: bf
  creation_date: 2012-01-27T02:02:22Z
  
-@@ -246255,15 +246263,12 @@
+@@ -246255,15 +246264,12 @@
  synonym: "transport receptor activity" BROAD [GOC:signaling]
  xref: Reactome:R-HSA-203716 "eNOS:Caveolin-1 complex binds to Nostrin"
  xref: Reactome:R-HSA-2160915 "Receptor-mediated uptake of HA"
@@ -1738,7 +1772,7 @@
  xref: Reactome:R-HSA-9759202 "LRP2-mediated TCN2:RCbl uptake and delivery to lysosome"
  xref: Reactome:R-HSA-9759209 "LRP2 binds extracellular TCN2:RCbl"
  is_a: GO:0003674 ! molecular_function
-@@ -248520,7 +248525,7 @@
+@@ -248520,7 +248526,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the rectal diverticulum over time, from its formation to the mature structure. The rectal diverticulum is an outgrowth of the cloaca and links the pronephric kidney to the exterior." [GOC:mtg_kidney_jan10, PMID:10535314, PMID:18226983, XAO:0001015]
  synonym: "pronephric rectal diverticulum development" EXACT [GOC:mtg_kidney_jan10]
@@ -1747,7 +1781,7 @@
  relationship: part_of GO:0048793 ! pronephros development
  created_by: bf
  creation_date: 2010-07-02T09:48:58Z
-@@ -248627,7 +248632,7 @@
+@@ -248627,7 +248633,7 @@
  name: nephrostome development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the nephrostome over time, from its formation to the mature structure. The nephrostome is the opening of the pronephros into the body cavity." [GOC:mtg_kidney_jan10, PMID:14686690, PMID:15647339, XAO:0000062]
@@ -1756,7 +1790,7 @@
  relationship: part_of GO:0048793 ! pronephros development
  created_by: bf
  creation_date: 2010-07-02T10:08:16Z
-@@ -255038,7 +255043,7 @@
+@@ -255038,7 +255044,7 @@
  synonym: "cuticle biosynthetic process" EXACT []
  synonym: "cuticle formation" EXACT []
  synonym: "cuticle synthesis" EXACT []
@@ -1765,7 +1799,7 @@
  relationship: part_of GO:0007275 ! multicellular organism development
  
  [Term]
-@@ -255925,7 +255930,6 @@
+@@ -255925,7 +255931,6 @@
  synonym: "carnitine degradation" EXACT []
  synonym: "vitamin Bt catabolic process" EXACT []
  synonym: "vitamin Bt catabolism" EXACT []
@@ -1773,7 +1807,7 @@
  xref: MetaCyc:CARNMET-PWY
  xref: MetaCyc:PWY-3602
  xref: MetaCyc:PWY-3641
-@@ -257897,7 +257901,6 @@
+@@ -257897,7 +257902,6 @@
  synonym: "P-P-bond-hydrolysis-driven transmembrane transporter activity" BROAD []
  synonym: "P-P-bond-hydrolysis-driven transporter" BROAD []
  xref: EC:7.2.2.-
@@ -1781,7 +1815,7 @@
  xref: Reactome:R-HSA-1454916 "The ABCC family mediates organic anion transport"
  xref: Reactome:R-HSA-1467457 "ABCA8,B1,B5 transport xenobiotics from cytosol to extracellular region"
  xref: Reactome:R-HSA-2161506 "abacavir [cytosol] + ATP + H2O => abacavir[extracellular] + ADP + phosphate"
-@@ -268112,6 +268115,7 @@
+@@ -268112,6 +268116,7 @@
  def: "The process whose specific outcome is the progression of the skin over time, from its formation to the mature structure. The skin is the external membranous integument of an animal. In vertebrates the skin generally consists of two layers, an outer nonsensitive and nonvascular epidermis (cuticle or skarfskin) composed of cells which are constantly growing and multiplying in the deeper, and being thrown off in the superficial layers, as well as an inner vascular dermis (cutis, corium or true skin) composed mostly of connective tissue." [GOC:jl, UBERON:0002097]
  synonym: "animal skin development" EXACT []
  is_a: GO:0048513 ! animal organ development
@@ -1789,7 +1823,7 @@
  
  [Term]
  id: GO:0043589
-@@ -274970,8 +274974,6 @@
+@@ -274970,8 +274975,6 @@
  synonym: "chaperone activity" BROAD []
  synonym: "protein binding involved in protein folding" EXACT []
  xref: Reactome:R-HSA-9018785 "RHOBTB2 binds GTP"
@@ -1798,7 +1832,7 @@
  xref: Reactome:R-HSA-9855212 "SDHA binds to SDHB"
  xref: Reactome:R-HSA-9865893 "MT-CYB is translated"
  xref: Reactome:R-HSA-9866253 "apo-UQCRFS1 binds LYRM7"
-@@ -277110,7 +277112,7 @@
+@@ -277110,7 +277113,7 @@
  synonym: "envenomation resulting in induction of edema in another organism" EXACT []
  synonym: "envenomation resulting in induction of edema in other organism" EXACT []
  synonym: "envenomation resulting in induction of oedema in other organism" EXACT []
@@ -1807,7 +1841,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29375" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29851" xsd:anyURI
  created_by: jl
-@@ -278010,7 +278012,7 @@
+@@ -278010,7 +278013,7 @@
  def: "A process in which an organism alters or subverts mast cell degranulation in another organism via the action of a venom." [GOC:fj, GOC:jl, PMID:21549739]
  synonym: "envenomation resulting in modulation of mast cell degranulation in another organism" EXACT []
  synonym: "envenomation resulting in modulation of mast cell degranulation in other organism" EXACT []
@@ -1816,7 +1850,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29851" xsd:anyURI
  created_by: jl
  creation_date: 2012-01-19T02:51:51Z
-@@ -280020,14 +280022,14 @@
+@@ -280020,14 +280023,14 @@
  
  [Term]
  id: GO:0044646
@@ -1835,7 +1869,7 @@
  created_by: jl
  creation_date: 2012-07-11T12:49:28Z
  
-@@ -282524,11 +282526,14 @@
+@@ -282524,11 +282527,14 @@
  
  [Term]
  id: GO:0045015
@@ -1853,7 +1887,7 @@
  
  [Term]
  id: GO:0045016
-@@ -283041,7 +283046,7 @@
+@@ -283041,7 +283047,7 @@
  def: "The process in which a relatively unspecialized T cell acquires the specialized features of a T-helper 1 (Th1) cell. A Th1 cell is a CD4-positive, alpha-beta T cell that has the phenotype T-bet-positive and produces interferon-gamma." [CL:0000545, GOC:ebc]
  comment: Note that immunologists typically use the word 'development' to refer to cells of B or T cell lineages undergoing the process that GO describes as 'cell differentiation'.
  synonym: "T-helper 1 cell development" RELATED [GOC:add]
@@ -1862,7 +1896,7 @@
  is_a: GO:0002287 ! alpha-beta T cell activation involved in immune response
  is_a: GO:0002292 ! T cell differentiation involved in immune response
  is_a: GO:0042093 ! T-helper cell differentiation
-@@ -304667,8 +304672,14 @@
+@@ -304667,8 +304673,14 @@
  name: ER lumen protein retrieval receptor activity
  namespace: molecular_function
  def: "Binding to an endoplasmic reticulum (ER) retention sequence, a short stretch of amino acids found in a protein that acts as a signal to retain the protein within the ER." [GOC:ai]
@@ -1877,7 +1911,7 @@
  is_a: GO:0005048 ! signal sequence receptor activity
  
  [Term]
-@@ -311201,7 +311212,7 @@
+@@ -311201,7 +311213,7 @@
  xref: EC:2.6.1.40
  xref: KEGG_REACTION:R02050
  xref: MetaCyc:2.6.1.40-RXN
@@ -1886,7 +1920,7 @@
  xref: RHEA:18393
  is_a: GO:0008483 ! transaminase activity
  property_value: skos:exactMatch EC:2.6.1.40
-@@ -314675,6 +314686,8 @@
+@@ -314675,6 +314687,8 @@
  comment: This term was made obsolete because it represents information outside the scope of GO.
  synonym: "calcium-dependent cytosolic phospholipase A2 activity" NARROW []
  synonym: "calcium-dependent secreted phospholipase A2 activity" NARROW []
@@ -1895,7 +1929,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31061" xsd:anyURI
-@@ -314688,6 +314701,7 @@
+@@ -314688,6 +314702,7 @@
  def: "OBSOLETE. Catalysis of the reaction: phosphatidylcholine + H2O = 1-acylglycerophosphocholine + a carboxylate. This reaction does not require Ca2+." [PMID:34831185]
  comment: This term was made obsolete because it represents information outside the scope of GO.
  synonym: "calcium-independent cytosolic phospholipase A2 activity" NARROW []
@@ -1903,7 +1937,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28324" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31061" xsd:anyURI
-@@ -322951,7 +322965,6 @@
+@@ -322951,7 +322966,6 @@
  xref: EC:2.3.1.13
  xref: MetaCyc:GLYCINE-N-ACYLTRANSFERASE-RXN
  xref: Reactome:R-HSA-2534040 "Unknown NAT N-acylates Gly in GNAT1"
@@ -1911,7 +1945,7 @@
  xref: RHEA:19869
  xref: RHEA:49772
  xref: RHEA:49780
-@@ -323003,8 +323016,6 @@
+@@ -323003,8 +323017,6 @@
  xref: Reactome:R-HSA-159566 "benzoyl-CoA + glycine => benzoyl glycine (hippuric acid) + Coenzyme A"
  xref: Reactome:R-HSA-159574 "GLYAT-like proteins transfer glycine to ST-CoA to form SUA"
  xref: Reactome:R-HSA-9750001 "GLYAT-like proteins transfer glycine to 2,5-DHB-CoA to form gentisuric acid"
@@ -1920,7 +1954,7 @@
  xref: RHEA:18493
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  property_value: skos:exactMatch EC:2.3.1.71
-@@ -326051,7 +326062,7 @@
+@@ -326051,7 +326063,7 @@
  def: "The process whose specific outcome is the progression of the alveolus over time, from its formation to the mature structure. The alveolus is a sac for holding air in the lungs; formed by the terminal dilation of air passageways." [GOC:mtg_lung, PMID:9751757]
  synonym: "alveolarization" EXACT [PMID:17911382]
  synonym: "alveologenesis" EXACT [GOC:17911382]
@@ -1929,7 +1963,7 @@
  relationship: part_of GO:0030324 ! lung development
  
  [Term]
-@@ -327846,6 +327857,7 @@
+@@ -327846,6 +327858,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the autonomic nervous system over time, from its formation to the mature structure. The autonomic nervous system is composed of neurons that are not under conscious control, and is comprised of two antagonistic components, the sympathetic and parasympathetic nervous systems. The autonomic nervous system regulates key functions including the activity of the cardiac (heart) muscle, smooth muscles (e.g. of the gut), and glands." [FMA:9905, GOC:jid, GOC:sr]
  is_a: GO:0048731 ! system development
@@ -1937,7 +1971,7 @@
  relationship: part_of GO:0007399 ! nervous system development
  
  [Term]
-@@ -327854,6 +327866,7 @@
+@@ -327854,6 +327867,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the enteric nervous system over time, from its formation to the mature structure. The enteric nervous system is composed of two ganglionated neural plexuses in the gut wall which form one of the three major divisions of the autonomic nervous system. The enteric nervous system innervates the gastrointestinal tract, the pancreas, and the gallbladder. It contains sensory neurons, interneurons, and motor neurons. Thus the circuitry can autonomously sense the tension and the chemical environment in the gut and regulate blood vessel tone, motility, secretions, and fluid transport. The system is itself governed by the central nervous system and receives both parasympathetic and sympathetic innervation." [FMA:66070, GOC:jid, GOC:sr]
  is_a: GO:0048731 ! system development
@@ -1945,7 +1979,7 @@
  relationship: part_of GO:0048483 ! autonomic nervous system development
  
  [Term]
-@@ -327862,6 +327875,7 @@
+@@ -327862,6 +327876,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the sympathetic nervous system over time, from its formation to the mature structure. The sympathetic nervous system is one of the two divisions of the vertebrate autonomic nervous system (the other being the parasympathetic nervous system). The sympathetic preganglionic neurons have their cell bodies in the thoracic and lumbar regions of the spinal cord and connect to the paravertebral chain of sympathetic ganglia. Innervate heart and blood vessels, sweat glands, viscera and the adrenal medulla. Most sympathetic neurons, but not all, use noradrenaline as a post-ganglionic neurotransmitter." [FMA:9906, GOC:jid, GOC:sr]
  is_a: GO:0048731 ! system development
@@ -1953,7 +1987,7 @@
  relationship: part_of GO:0048483 ! autonomic nervous system development
  
  [Term]
-@@ -327870,6 +327884,7 @@
+@@ -327870,6 +327885,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the parasympathetic nervous system over time, from its formation to the mature structure. The parasympathetic nervous system is one of the two divisions of the vertebrate autonomic nervous system. Parasympathetic nerves emerge cranially as pre ganglionic fibers from oculomotor, facial, glossopharyngeal and vagus and from the sacral region of the spinal cord. Most neurons are cholinergic and responses are mediated by muscarinic receptors. The parasympathetic system innervates, for example: salivary glands, thoracic and abdominal viscera, bladder and genitalia." [FMA:9907, GOC:jid, GOC:sr]
  is_a: GO:0048731 ! system development
@@ -1961,7 +1995,7 @@
  relationship: part_of GO:0048483 ! autonomic nervous system development
  
  [Term]
-@@ -328092,7 +328107,7 @@
+@@ -328092,7 +328108,7 @@
  name: meristem development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the meristem over time, from its formation to the mature structure." [GOC:jid]
@@ -1970,7 +2004,7 @@
  
  [Term]
  id: GO:0048508
-@@ -328421,6 +328436,7 @@
+@@ -328421,6 +328437,7 @@
  def: "The process whose specific outcome is the progression of lymph nodes over time, from their formation to the mature structure. A lymph node is a round, oval, or bean shaped structure localized in clusters along the lymphatic vessels, with a distinct internal structure including specialized vasculature and B- and T-zones for the activation of lymphocytes." [GOC:add, ISBN:068340007X, ISBN:0781735149]
  synonym: "lymph gland development" BROAD []
  is_a: GO:0048534 ! hematopoietic or lymphoid organ development
@@ -1978,7 +2012,7 @@
  
  [Term]
  id: GO:0048536
-@@ -328428,6 +328444,7 @@
+@@ -328428,6 +328445,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the spleen over time, from its formation to the mature structure. The spleen is a large vascular lymphatic organ composed of white and red pulp, involved both in hemopoietic and immune system functions." [GOC:add, ISBN:0781735149]
  is_a: GO:0048534 ! hematopoietic or lymphoid organ development
@@ -1986,7 +2020,7 @@
  
  [Term]
  id: GO:0048537
-@@ -328469,6 +328486,7 @@
+@@ -328469,6 +328487,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the bursa of Fabricius over time, from its formation to the mature structure. The bursa of Fabricius is an organ found in birds involved in B cell differentiation." [GOC:add, ISBN:0781735149]
  is_a: GO:0048534 ! hematopoietic or lymphoid organ development
@@ -1994,7 +2028,7 @@
  
  [Term]
  id: GO:0048541
-@@ -328697,6 +328715,7 @@
+@@ -328697,6 +328716,7 @@
  def: "Development, taking place during the embryonic phase, of a tissue or tissues that work together to perform a specific function or functions. Development pertains to the process whose specific outcome is the progression of a structure over time, from its formation to the mature structure. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions." [GOC:jid]
  synonym: "embryonic organogenesis" EXACT []
  is_a: GO:0048513 ! animal organ development
@@ -2002,7 +2036,7 @@
  relationship: part_of GO:0009790 ! embryo development
  
  [Term]
-@@ -330392,6 +330411,7 @@
+@@ -330392,6 +330412,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a gland over time, from its formation to the mature structure. A gland is an organ specialised for secretion." [GOC:jid]
  is_a: GO:0048513 ! animal organ development
@@ -2010,7 +2044,7 @@
  
  [Term]
  id: GO:0048733
-@@ -330424,7 +330444,7 @@
+@@ -330424,7 +330445,7 @@
  name: appendage development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of an appendage over time, from its formation to the mature structure. An appendage is an organ or part that is attached to the trunk of an organism, such as a limb or a branch." [GOC:jid, GOC:rc]
@@ -2019,7 +2053,7 @@
  relationship: part_of GO:0007275 ! multicellular organism development
  
  [Term]
-@@ -330998,6 +331018,7 @@
+@@ -330998,6 +331019,7 @@
  def: "The process whose specific outcome is the progression of the swim bladder over time, from its formation to the mature structure. The swim bladder is used by some fishes to maintain buoyancy and may function in addition as a sound producing organ, a sound receptor, and a respiratory organ." [GOC:mh]
  synonym: "gas bladder development" EXACT []
  is_a: GO:0048513 ! animal organ development
@@ -2027,7 +2061,7 @@
  
  [Term]
  id: GO:0048795
-@@ -331110,6 +331131,7 @@
+@@ -331110,6 +331132,7 @@
  synonym: "genital development" EXACT []
  is_a: GO:0048513 ! animal organ development
  is_a: GO:0048608 ! reproductive structure development
@@ -2035,7 +2069,7 @@
  relationship: part_of GO:0007548 ! sex differentiation
  
  [Term]
-@@ -331416,7 +331438,7 @@
+@@ -331416,7 +331439,7 @@
  name: inner ear development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the inner ear over time, from its formation to the mature structure." [GOC:sr]
@@ -2044,7 +2078,7 @@
  relationship: part_of GO:0043583 ! ear development
  
  [Term]
-@@ -331619,7 +331641,7 @@
+@@ -331619,7 +331642,7 @@
  name: neural nucleus development
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a neural nucleus from its initial condition to its mature state. A neural nucleus is an anatomical structure consisting of a discrete aggregate of neuronal soma." [GO_REF:0000021]
@@ -2053,7 +2087,7 @@
  
  [Term]
  id: GO:0048858
-@@ -331803,6 +331825,7 @@
+@@ -331803,6 +331826,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a sensory system over time from its formation to the mature structure." [GOC:dgh]
  is_a: GO:0048731 ! system development
@@ -2061,7 +2095,7 @@
  
  [Term]
  id: GO:0048881
-@@ -335012,7 +335035,6 @@
+@@ -335012,7 +335036,6 @@
  xref: EC:1.1.1.66
  xref: KEGG_REACTION:R03886
  xref: MetaCyc:OMEGA-HYDROXYDECANOATE-DEHYDROGENASE-RXN
@@ -2069,7 +2103,7 @@
  xref: RHEA:20880
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.66
-@@ -336733,7 +336755,7 @@
+@@ -336733,7 +336756,7 @@
  synonym: "retinyl palmitate hydrolyase activity" RELATED []
  synonym: "retinyl-palmitate palmitohydrolase activity" RELATED []
  xref: MetaCyc:RETINYL-PALMITATE-ESTERASE-RXN
@@ -2078,7 +2112,7 @@
  xref: Reactome:R-HSA-8848355 "PNPLA4 hydrolyzes retinyl palmitate"
  xref: Reactome:R-HSA-975593 "PNLIP:CLPS hydrolyses RPALM to atROL and PALM"
  xref: Reactome:R-HSA-975594 "PLB1 hydrolyses RPALM to atROL"
-@@ -348222,6 +348244,8 @@
+@@ -348222,6 +348245,8 @@
  namespace: molecular_function
  def: "OBSOLETE. Binding to an unfolded protein." [GOC:ai]
  comment: The reason for obsoletion is that this binding term should be replaced by an activity term such as protein folding chaperone (GO:0044183) or unfolded protein holdase activity (GO:0140309).
@@ -2087,7 +2121,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21436" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30962" xsd:anyURI
  is_obsolete: true
-@@ -349954,6 +349978,7 @@
+@@ -349954,6 +349979,7 @@
  synonym: "chondrogenesis" EXACT []
  xref: Wikipedia:Chondrogenesis
  is_a: GO:0048513 ! animal organ development
@@ -2095,7 +2129,7 @@
  relationship: part_of GO:0001501 ! skeletal system development
  relationship: part_of GO:0061448 ! connective tissue development
  
-@@ -355880,6 +355905,7 @@
+@@ -355880,6 +355906,7 @@
  synonym: "downregulation of killing of cells of another organism" EXACT []
  synonym: "inhibition of killing of cells of another organism" NARROW []
  synonym: "negative regulation of killing of cells of other organism" EXACT []
@@ -2103,7 +2137,7 @@
  is_a: GO:0031342 ! negative regulation of cell killing
  is_a: GO:0051709 ! regulation of killing of cells of another organism
  intersection_of: GO:0065007 ! biological regulation
-@@ -364740,7 +364766,6 @@
+@@ -364740,7 +364767,6 @@
  xref: KEGG_REACTION:R02150
  xref: MetaCyc:RXN-9600
  xref: Reactome:R-HSA-5696131 "AOC1 deaminates Hist"
@@ -2111,7 +2145,7 @@
  xref: RHEA:25625
  is_a: GO:0052597 ! diamine oxidase activity
  property_value: skos:exactMatch RHEA:25625
-@@ -370633,7 +370658,7 @@
+@@ -370633,7 +370659,7 @@
  subset: goslim_yeast
  synonym: "ATP hydrolysis coupled transmembrane transport" NARROW []
  synonym: "membrane transport" EXACT []
@@ -2120,7 +2154,7 @@
  xref: Reactome:R-HSA-425407 "SLC-mediated transmembrane transport"
  xref: Reactome:R-HSA-5223345 "Miscellaneous transport and binding events"
  is_a: GO:0006810 ! transport
-@@ -370969,6 +370994,7 @@
+@@ -370969,6 +370995,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the digestive system over time, from its formation to the mature structure. The digestive system is the entire structure in which digestion takes place. Digestion is all of the physical, chemical, and biochemical processes carried out by multicellular organisms to break down ingested nutrients into components that may be easily absorbed and directed into metabolism." [GOC:jid]
  is_a: GO:0048731 ! system development
@@ -2128,7 +2162,7 @@
  
  [Term]
  id: GO:0055124
-@@ -371222,7 +371248,7 @@
+@@ -371222,7 +371249,7 @@
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of the roof of the mouth from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure. The roof of the mouth is the partition that separates the nasal and oral cavities." [GOC:dph, ISBN:0721662544]
  synonym: "palatum development" EXACT [ISBN:0721662544]
@@ -2137,7 +2171,7 @@
  
  [Term]
  id: GO:0060022
-@@ -371230,7 +371256,7 @@
+@@ -371230,7 +371257,7 @@
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of the hard palate from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. The hard palate is the anterior portion of the palate consisting of bone and mucous membranes." [GOC:dph, ISBN:0721662544]
  synonym: "palatum durum development" EXACT [ISBN:0721662544]
@@ -2146,7 +2180,7 @@
  relationship: part_of GO:0062009 ! secondary palate development
  
  [Term]
-@@ -371240,7 +371266,7 @@
+@@ -371240,7 +371267,7 @@
  def: "The biological process whose specific outcome is the progression of the soft palate from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. The soft palate is the posterior portion of the palate extending from the posterior edge of the hard palate." [GOC:dph, ISBN:0721662544]
  synonym: "palatum molle development" EXACT [ISBN:0721662544]
  synonym: "velum palatum development" EXACT [ISBN:0721662544]
@@ -2155,7 +2189,7 @@
  relationship: part_of GO:0062009 ! secondary palate development
  
  [Term]
-@@ -371361,6 +371387,7 @@
+@@ -371361,6 +371388,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the pharyngeal system over time, from its formation to the mature structure. The pharyngeal system is a transient embryonic complex that is specific to vertebrates. It comprises the pharyngeal arches, bulges of tissues of mesoderm and neural crest derivation through which pass nerves and pharyngeal arch arteries. The arches are separated internally by pharyngeal pouches, evaginations of foregut endoderm, and externally by pharyngeal clefts, invaginations of surface ectoderm. The development of the system ends when the structure it contributes to are forming: the thymus, thyroid, parathyroids, maxilla, mandible, aortic arch, cardiac outflow tract, external and middle ear." [GOC:dph]
  is_a: GO:0048731 ! system development
@@ -2163,7 +2197,7 @@
  relationship: part_of GO:0043009 ! chordate embryonic development
  
  [Term]
-@@ -371399,7 +371426,7 @@
+@@ -371399,7 +371427,7 @@
  def: "The process whose specific outcome is the progression of the retina over time, from its formation to the mature structure. The retina is the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates." [GOC:bf, GOC:dph, ISBN:0815340729]
  synonym: "retina development in camera-style eye" EXACT []
  synonym: "retinal development" RELATED [GOC:dph, GOC:tb]
@@ -2172,7 +2206,7 @@
  relationship: part_of GO:0043010 ! camera-type eye development
  
  [Term]
-@@ -371647,6 +371674,7 @@
+@@ -371647,6 +371675,7 @@
  synonym: "Mullerian tract development" RELATED []
  is_a: GO:0048513 ! animal organ development
  is_a: GO:0048608 ! reproductive structure development
@@ -2180,7 +2214,7 @@
  
  [Term]
  id: GO:0060066
-@@ -371665,6 +371693,7 @@
+@@ -371665,6 +371694,7 @@
  def: "The reproductive developmental process whose specific outcome is the progression of the cervix over time, from its formation to the mature structure." [GOC:dph, GOC:ebc]
  synonym: "Mullerian tract development" RELATED []
  is_a: GO:0048608 ! reproductive structure development
@@ -2188,7 +2222,7 @@
  
  [Term]
  id: GO:0060068
-@@ -372604,6 +372633,7 @@
+@@ -372604,6 +372634,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the urinary bladder over time, from its formation to the mature structure. The urinary bladder is an elastic, muscular sac situated in the anterior part of the pelvic cavity in which urine collects before excretion." [GOC:dph, GOC:ln, GOC:mr, PMID:11768524, PMID:18276178, PMID:538956]
  is_a: GO:0048513 ! animal organ development
@@ -2196,7 +2230,7 @@
  relationship: part_of GO:0072001 ! renal system development
  
  [Term]
-@@ -373747,7 +373777,6 @@
+@@ -373747,7 +373778,6 @@
  synonym: "cilium organization" RELATED [GOC:dph]
  synonym: "microtubule-based flagellum assembly" EXACT []
  xref: Reactome:R-HSA-5617833 "Cilium Assembly"
@@ -2204,7 +2238,7 @@
  is_a: GO:0044782 ! cilium organization
  is_a: GO:0070925 ! organelle assembly
  is_a: GO:0120031 ! plasma membrane bounded cell projection assembly
-@@ -374313,7 +374342,7 @@
+@@ -374313,7 +374343,7 @@
  name: head development
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a head from an initial condition to its mature state. The head is the anterior-most division of the body." [GOC:dph]
@@ -2213,7 +2247,7 @@
  
  [Term]
  id: GO:0060323
-@@ -374329,7 +374358,7 @@
+@@ -374329,7 +374359,7 @@
  name: face development
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a face from an initial condition to its mature state. The face is the ventral division of the head." [GOC:dph]
@@ -2222,7 +2256,7 @@
  relationship: part_of GO:0060322 ! head development
  
  [Term]
-@@ -374626,6 +374655,7 @@
+@@ -374626,6 +374656,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of bone over time, from its formation to the mature structure. Bone is the hard skeletal connective tissue consisting of both mineral and cellular components." [GOC:dph]
  is_a: GO:0048513 ! animal organ development
@@ -2230,7 +2264,7 @@
  relationship: part_of GO:0001501 ! skeletal system development
  
  [Term]
-@@ -375408,7 +375438,7 @@
+@@ -375408,7 +375439,7 @@
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a lung saccule from an initial condition to its mature state. The lung saccule is the primitive gas exchange portion of the lung composed of type I and type II cells." [GOC:dph, GOC:mtg_lung]
  synonym: "lung saccular development" BROAD [GOC:dph]
@@ -2239,7 +2273,7 @@
  relationship: part_of GO:0048286 ! lung alveolus development
  
  [Term]
-@@ -375477,6 +375507,7 @@
+@@ -375477,6 +375508,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a trachea over time, from its formation to the mature structure. The trachea is the portion of the airway that attaches to the bronchi as it branches." [GOC:dph]
  is_a: GO:0048513 ! animal organ development
@@ -2247,7 +2281,7 @@
  relationship: part_of GO:0060541 ! respiratory system development
  
  [Term]
-@@ -375715,7 +375746,7 @@
+@@ -375715,7 +375747,7 @@
  name: lung lobe development
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a lung lobe from an initial condition to its mature state. This process begins with the formation of a lung lobe by branching morphogenesis and ends with the mature structure. A lung lobe is one of the rounded projections that compose the lung." [GOC:dph]
@@ -2256,7 +2290,7 @@
  relationship: part_of GO:0030324 ! lung development
  
  [Term]
-@@ -375741,7 +375772,7 @@
+@@ -375741,7 +375773,7 @@
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a pharynx from an initial condition to its mature state. The pharynx is the part of the digestive system immediately posterior to the mouth." [GOC:dph, GOC:rk]
  synonym: "pharyngeal development" RELATED []
@@ -2265,7 +2299,7 @@
  relationship: part_of GO:0048565 ! digestive tract development
  
  [Term]
-@@ -376351,7 +376382,7 @@
+@@ -376351,7 +376383,7 @@
  namespace: biological_process
  def: "The progression of a glandular acinus of the prostate gland over time, from its initial formation to the mature structure. The glandular acini are the saclike structures of the gland." [GOC:dph, PMID:18977204]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -2274,7 +2308,7 @@
  relationship: part_of GO:0030850 ! prostate gland development
  
  [Term]
-@@ -376510,6 +376541,7 @@
+@@ -376510,6 +376542,7 @@
  def: "The progression of the respiratory system over time from its formation to its mature structure. The respiratory system carries out respiratory gaseous exchange." [GOC:dph]
  subset: goslim_drosophila
  is_a: GO:0048731 ! system development
@@ -2282,7 +2316,7 @@
  created_by: dph
  creation_date: 2009-04-10T08:55:42Z
  
-@@ -377393,7 +377425,7 @@
+@@ -377393,7 +377426,7 @@
  name: nipple development
  namespace: biological_process
  def: "The progression of the nipple over time, from its formation to the mature structure. The nipple is a part of the mammary gland that protrudes from the surface ectoderm." [GOC:dph]
@@ -2291,7 +2325,7 @@
  relationship: part_of GO:0030879 ! mammary gland development
  created_by: dph
  creation_date: 2009-05-18T09:29:38Z
-@@ -378492,7 +378524,7 @@
+@@ -378492,7 +378525,7 @@
  name: labyrinthine layer development
  namespace: biological_process
  def: "The process in which the labyrinthine layer of the placenta progresses, from its formation to its mature state." [GOC:dph]
@@ -2300,7 +2334,7 @@
  relationship: part_of GO:0001892 ! embryonic placenta development
  created_by: dph
  creation_date: 2009-06-09T03:27:43Z
-@@ -378927,7 +378959,7 @@
+@@ -378927,7 +378960,7 @@
  name: mammary gland alveolus development
  namespace: biological_process
  def: "The progression of the mammary gland alveolus over time, from its formation to its mature state. The mammary gland alveolus is a sac-like structure that is found in the mature gland." [GOC:dph]
@@ -2309,7 +2343,7 @@
  relationship: part_of GO:0061377 ! mammary gland lobule development
  created_by: dph
  creation_date: 2009-06-22T10:52:12Z
-@@ -381943,6 +381975,7 @@
+@@ -381943,6 +381976,7 @@
  def: "The progression of the hepaticobiliary system over time, from its formation to the mature structure. The hepaticobiliary system is responsible for metabolic and catabolic processing of small molecules absorbed from the blood or gut, hormones and serum proteins, detoxification, storage of glycogen, triglycerides, metals and lipid soluble vitamins and excretion of bile. Included are the synthesis of albumin, blood coagulation factors, complement, and specific binding proteins." [GOC:dph]
  synonym: "hepatobiliary system development" EXACT [GOC:dph]
  is_a: GO:0048731 ! system development
@@ -2317,7 +2351,7 @@
  created_by: dph
  creation_date: 2010-01-22T09:11:59Z
  
-@@ -381966,6 +381999,7 @@
+@@ -381966,6 +382000,7 @@
  namespace: biological_process
  def: "The progression of the gallbladder over time, from its initial formation to the mature structure. The gallbladder is a cavitated organ that stores bile." [GOC:dph]
  is_a: GO:0048513 ! animal organ development
@@ -2325,7 +2359,7 @@
  relationship: part_of GO:0061008 ! hepaticobiliary system development
  created_by: dph
  creation_date: 2010-01-22T09:38:44Z
-@@ -382109,7 +382143,7 @@
+@@ -382109,7 +382144,7 @@
  name: eyelid development in camera-type eye
  namespace: biological_process
  def: "The progression of the eyelid in a camera-type eye from its formation to the mature state. The eyelid is a membranous cover that helps protect and lubricate the eye." [GOC:dph, GOC:yaf]
@@ -2334,7 +2368,7 @@
  relationship: part_of GO:0043010 ! camera-type eye development
  created_by: dph
  creation_date: 2010-02-09T09:36:11Z
-@@ -382141,7 +382175,7 @@
+@@ -382141,7 +382176,7 @@
  namespace: biological_process
  def: "The progression of the visceral serous pericardium from its formation to the mature structure. The visceral serous pericardium is the inner layer of the pericardium." [GOC:dph, GOC:yaf]
  synonym: "epicardium development" EXACT [GOC:dph]
@@ -2343,7 +2377,7 @@
  relationship: part_of GO:0060039 ! pericardium development
  created_by: dph
  creation_date: 2010-02-09T09:52:49Z
-@@ -382498,7 +382532,7 @@
+@@ -382498,7 +382533,7 @@
  namespace: biological_process
  def: "The progression of a muscle structure over time, from its formation to its mature state. Muscle structures are contractile cells, tissues or organs that are found in multicellular organisms." [GOC:dph]
  subset: goslim_drosophila
@@ -2352,7 +2386,7 @@
  created_by: dph
  creation_date: 2010-03-09T08:55:14Z
  
-@@ -382584,6 +382618,7 @@
+@@ -382584,6 +382619,7 @@
  namespace: biological_process
  def: "The progression of the urethra over time from its initial formation to the mature structure. The urethra is a renal system organ that carries urine from the bladder to outside the body." [GOC:dph]
  is_a: GO:0048513 ! animal organ development
@@ -2360,7 +2394,7 @@
  relationship: part_of GO:0072001 ! renal system development
  created_by: dph
  creation_date: 2010-03-12T08:24:52Z
-@@ -383524,7 +383559,7 @@
+@@ -383524,7 +383560,7 @@
  name: trachea submucosa development
  namespace: biological_process
  def: "The progression of the trachea submucosa over time from its formation to the mature structure. The trachea submucosa is made up of the glands and elastic tissue that lie under the mucosa in the trachea." [GOC:dph, GOC:yaf]
@@ -2369,7 +2403,7 @@
  relationship: part_of GO:0060438 ! trachea development
  created_by: dph
  creation_date: 2010-06-07T09:58:40Z
-@@ -384011,7 +384046,7 @@
+@@ -384011,7 +384047,7 @@
  name: fungiform papilla development
  namespace: biological_process
  def: "The progression of the fungiform papilla over time, from its formation to the mature structure. The fungiform papilla is a mushroom-shaped papilla of the tongue." [GOC:dph]
@@ -2378,7 +2412,7 @@
  relationship: part_of GO:0043586 ! tongue development
  created_by: dph
  creation_date: 2010-07-27T12:23:48Z
-@@ -385197,7 +385232,7 @@
+@@ -385197,7 +385233,7 @@
  name: cornea development in camera-type eye
  namespace: biological_process
  def: "The progression of the cornea over time, from its formation to the mature structure. The cornea is the transparent structure that covers the anterior of the eye." [GOC:dph]
@@ -2387,7 +2421,7 @@
  relationship: part_of GO:0043010 ! camera-type eye development
  created_by: dph
  creation_date: 2010-09-14T02:09:08Z
-@@ -386067,7 +386102,7 @@
+@@ -386067,7 +386103,7 @@
  name: mammary gland lobule development
  namespace: biological_process
  def: "The progression of the mammary gland lobule over time, from its formation to the mature structure. A mammary gland lobule is a small rounded projection of the mammary gland." [GOC:dph, GOC:yaf]
@@ -2396,7 +2430,7 @@
  relationship: part_of GO:0030879 ! mammary gland development
  created_by: dph
  creation_date: 2010-11-09T09:36:29Z
-@@ -386077,7 +386112,7 @@
+@@ -386077,7 +386113,7 @@
  name: corpora quadrigemina development
  namespace: biological_process
  def: "The progression of the corpora quadrigemina over time, from its formation to the mature structure. The corpora quadrigemina is a part of the midbrain that is made up of the superior and inferior colliculi." [GOC:dph, GOC:yaf]
@@ -2405,7 +2439,7 @@
  relationship: part_of GO:0030901 ! midbrain development
  created_by: dph
  creation_date: 2010-11-09T09:45:36Z
-@@ -386087,7 +386122,7 @@
+@@ -386087,7 +386123,7 @@
  name: inferior colliculus development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the inferior colliculus over time, from its formation to the mature structure. The inferior colliculus (IC) (Latin, lower hill) is the principal midbrain nucleus of the auditory pathway and receives input from several more peripheral brainstem nuclei in the auditory pathway, as well as inputs from the auditory cortex. The inferior colliculus has three subdivisions: the central nucleus (CIC), a dorsal cortex (DCIC) by which it is surrounded, and an external cortex (ICX) which is located laterally." [GOC:dph, GOC:yaf]
@@ -2414,7 +2448,7 @@
  relationship: part_of GO:0061378 ! corpora quadrigemina development
  created_by: dph
  creation_date: 2010-11-09T09:49:24Z
-@@ -386097,7 +386132,7 @@
+@@ -386097,7 +386133,7 @@
  name: superior colliculus development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the superior colliculus over time, from its formation to the mature structure. The superior colliculus is also known as the optic tectum or simply tectum and is a paired structure that forms a major component of the vertebrate midbrain." [GOC:dph, GOC:yaf]
@@ -2423,7 +2457,7 @@
  relationship: part_of GO:0061378 ! corpora quadrigemina development
  created_by: dph
  creation_date: 2010-11-09T09:51:00Z
-@@ -386977,6 +387012,7 @@
+@@ -386977,6 +387013,7 @@
  namespace: biological_process
  def: "The progression of the reproductive system over time from its formation to the mature structure. The reproductive system consists of the organs that function in reproduction." [GOC:dph]
  is_a: GO:0048731 ! system development
@@ -2431,7 +2465,7 @@
  created_by: dph
  creation_date: 2012-08-22T17:47:53Z
  
-@@ -387592,7 +387628,7 @@
+@@ -387592,7 +387629,7 @@
  name: central canal development
  namespace: biological_process
  def: "The process whose specific outcome is the formation of the central canal of the spinal cord from its formation to the mature structure. The central canal is a spinal cord structure that is part of the ventricular system and is filled with cerebral-spinal fluid and runs the length of the spinal cord." [GOC:cvs, GOC:dph, PMID:23409159]
@@ -2440,7 +2474,7 @@
  relationship: part_of GO:0021510 ! spinal cord development
  created_by: dph
  creation_date: 2013-04-20T08:18:31Z
-@@ -393794,7 +393830,7 @@
+@@ -393794,7 +393831,7 @@
  name: stomach development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the stomach over time, from its formation to the mature structure. The stomach is an expanded region of the vertebrate alimentary tract that serves as a food storage compartment and digestive organ." [PMID:11967278]
@@ -2449,7 +2483,7 @@
  relationship: part_of GO:0048565 ! digestive tract development
  created_by: dph
  creation_date: 2018-11-20T18:15:45Z
-@@ -394449,9 +394485,9 @@
+@@ -394449,9 +394486,9 @@
  synonym: "MAPDA" EXACT [PMID:29884623]
  synonym: "N6-mAMP deaminase activity" EXACT []
  synonym: "N6-methyl-AMP/dAMP aminohydrolase" EXACT [PMID:21755941]
@@ -2461,7 +2495,7 @@
  xref: RHEA:16001
  is_a: GO:0019239 ! deaminase activity
  property_value: skos:exactMatch RHEA:16001
-@@ -401804,7 +401840,6 @@
+@@ -401804,7 +401841,6 @@
  def: "A process in which a protein is transported to, or maintained in, a location within the mitochondrion." [GOC:ecd]
  synonym: "protein localisation in mitochondrion" EXACT [GOC:mah]
  synonym: "protein localization in mitochondrion" EXACT []
@@ -2469,7 +2503,101 @@
  is_a: GO:0033365 ! protein localization to organelle
  created_by: mah
  creation_date: 2009-04-24T02:31:18Z
-@@ -409843,7 +409878,6 @@
+@@ -405114,57 +405150,34 @@
+ 
+ [Term]
+ id: GO:0070861
+-name: regulation of protein exit from endoplasmic reticulum
++name: obsolete regulation of protein exit from endoplasmic reticulum
+ namespace: biological_process
+-def: "Any process that modulates the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." [GOC:mah]
+-synonym: "regulation of protein exit from ER" EXACT [GOC:mah]
+-synonym: "regulation of protein export from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "regulation of protein export from ER" EXACT [GOC:mah]
+-is_a: GO:0033157 ! regulation of intracellular protein transport
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: regulates GO:0032527 ! protein exit from endoplasmic reticulum
+-relationship: regulates GO:0032527 ! protein exit from endoplasmic reticulum
++def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." [GOC:mah]
++comment: The reason for obsoletion is that the parent term GO:0032527 'protein exit from endoplasmic reticulum' was obsoleted because it conflated multiple distinct processes. For regulation of COPII-vesicle-mediated forward transport from the ER, consider GO:0060627 'regulation of vesicle-mediated transport' or descendants.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19122" xsd:anyURI
++is_obsolete: true
+ created_by: mah
+ creation_date: 2009-08-17T03:39:18Z
+ 
+ [Term]
+ id: GO:0070862
+-name: negative regulation of protein exit from endoplasmic reticulum
++name: obsolete negative regulation of protein exit from endoplasmic reticulum
+ namespace: biological_process
+-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." [GOC:mah]
+-synonym: "down regulation of protein exit from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "down-regulation of protein exit from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "downregulation of protein exit from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "inhibition of protein exit from endoplasmic reticulum" NARROW [GOC:mah]
+-synonym: "negative regulation of protein exit from ER" EXACT [GOC:mah]
+-synonym: "negative regulation of protein export from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "negative regulation of protein export from ER" EXACT [GOC:mah]
+-is_a: GO:0070861 ! regulation of protein exit from endoplasmic reticulum
+-is_a: GO:0090317 ! negative regulation of intracellular protein transport
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: negatively_regulates GO:0032527 ! protein exit from endoplasmic reticulum
+-relationship: negatively_regulates GO:0032527 ! protein exit from endoplasmic reticulum
++def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." [GOC:mah]
++comment: The reason for obsoletion is that the parent term GO:0032527 'protein exit from endoplasmic reticulum' was obsoleted because it conflated multiple distinct processes.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19122" xsd:anyURI
++is_obsolete: true
+ created_by: mah
+ creation_date: 2009-08-17T03:45:56Z
+ 
+ [Term]
+ id: GO:0070863
+-name: positive regulation of protein exit from endoplasmic reticulum
++name: obsolete positive regulation of protein exit from endoplasmic reticulum
+ namespace: biological_process
+-def: "Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." [GOC:mah]
+-synonym: "activation of protein exit from endoplasmic reticulum" NARROW [GOC:mah]
+-synonym: "positive regulation of protein exit from ER" EXACT [GOC:mah]
+-synonym: "positive regulation of protein export from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "positive regulation of protein export from ER" EXACT [GOC:mah]
+-synonym: "stimulation of protein exit from endoplasmic reticulum" NARROW [GOC:mah]
+-synonym: "up regulation of protein exit from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "up-regulation of protein exit from endoplasmic reticulum" EXACT [GOC:mah]
+-synonym: "upregulation of protein exit from endoplasmic reticulum" EXACT [GOC:mah]
+-is_a: GO:0070861 ! regulation of protein exit from endoplasmic reticulum
+-is_a: GO:0090316 ! positive regulation of intracellular protein transport
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: positively_regulates GO:0032527 ! protein exit from endoplasmic reticulum
+-relationship: positively_regulates GO:0032527 ! protein exit from endoplasmic reticulum
++def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." [GOC:mah]
++comment: The reason for obsoletion is that the parent term GO:0032527 'protein exit from endoplasmic reticulum' was obsoleted because it conflated multiple distinct processes.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19122" xsd:anyURI
++is_obsolete: true
+ created_by: mah
+ creation_date: 2009-08-17T03:50:04Z
+ 
+@@ -406533,12 +406546,15 @@
+ 
+ [Term]
+ id: GO:0070973
+-name: protein localization to endoplasmic reticulum exit site
++name: obsolete protein localization to endoplasmic reticulum exit site
+ namespace: biological_process
+-def: "A process in which a protein is transported to, or maintained in, a location at an endoplasmic reticulum exit site." [GOC:mah]
+-synonym: "protein localisation to endoplasmic reticulum exit site" EXACT [GOC:mah]
+-synonym: "protein localization to ER exit site" EXACT [GOC:mah]
+-is_a: GO:0070972 ! protein localization to endoplasmic reticulum
++def: "OBSOLETE. A process in which a protein is transported to, or maintained in, a location at an endoplasmic reticulum exit site." [GOC:mah]
++comment: The reason for obsoletion is that this term conflated multiple distinct processes and curators used it inconsistently. Suggested replacements depend on the specific biological context, e.g. GO:0048208 'COPII vesicle coat assembly', GO:0006888 'endoplasmic reticulum to Golgi vesicle-mediated transport', or descendants of GO:0034976 'response to endoplasmic reticulum stress' for quality-control contexts.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19122" xsd:anyURI
++is_obsolete: true
++consider: GO:0006888
++consider: GO:0034976
++consider: GO:0048208
+ created_by: mah
+ creation_date: 2009-10-02T12:45:41Z
+ 
+@@ -409843,7 +409859,6 @@
  xref: MetaCyc:PWY-7527
  xref: MetaCyc:PWY-7528
  xref: MetaCyc:PWY-8132
@@ -2477,7 +2605,7 @@
  is_a: GO:0043102 ! amino acid salvage
  is_a: GO:0071265 ! L-methionine biosynthetic process
  property_value: skos:narrowMatch MetaCyc:ADENOSYLHOMOCYSCAT-PWY
-@@ -418442,6 +418476,7 @@
+@@ -418442,6 +418457,7 @@
  synonym: "urinary system development" BROAD [GOC:yaf]
  synonym: "urinary tract development" BROAD [GOC:yaf, PMID:17881463]
  is_a: GO:0048731 ! system development
@@ -2485,7 +2613,7 @@
  created_by: mah
  creation_date: 2010-01-25T10:31:00Z
  
-@@ -418494,7 +418529,7 @@
+@@ -418494,7 +418510,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the nephron over time, from its formation to the mature structure. A nephron is the functional unit of the kidney." [GOC:mtg_kidney_jan10]
  synonym: "nephrogenesis" RELATED [GOC:rph]
@@ -2494,7 +2622,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T01:37:16Z
-@@ -418602,6 +418637,7 @@
+@@ -418602,6 +418618,7 @@
  def: "The process whose specific outcome is the progression of a glomerular parietal epithelial cell over time, from its formation to the mature structure. Glomerular parietal epithelial cells are specialized epithelial cells that form tight junctions as a barrier to protein transport." [GOC:mtg_kidney_jan10]
  synonym: "Bowman's capsule development" EXACT [GOC:mtg_kidney_jan10]
  is_a: GO:0072310 ! glomerular epithelial cell development
@@ -2502,7 +2630,7 @@
  relationship: part_of GO:0072139 ! glomerular parietal epithelial cell differentiation
  created_by: mah
  creation_date: 2010-01-25T02:13:16Z
-@@ -418651,7 +418687,7 @@
+@@ -418651,7 +418668,7 @@
  name: descending thin limb development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the descending thin limb over time, from its formation to the mature structure. The descending thin limb is a part of the loop of Henle situated just after the proximal straight tubule (S3). It extends to the tip of the loop of Henle." [GOC:mtg_kidney_jan10]
@@ -2511,7 +2639,7 @@
  relationship: part_of GO:0072070 ! loop of Henle development
  created_by: mah
  creation_date: 2010-01-25T02:37:47Z
-@@ -418975,7 +419011,7 @@
+@@ -418975,7 +418992,7 @@
  name: juxtaglomerular apparatus development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the juxtaglomerular apparatus over time, from its formation to the mature structure. The juxtaglomerular apparatus is an anatomical structure that lies adjacent to the glomerulus and regulates kidney function." [GOC:mtg_kidney_jan10]
@@ -2520,7 +2648,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T03:52:23Z
-@@ -418996,7 +419032,7 @@
+@@ -418996,7 +419013,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the renal inner medulla over time, from its formation to the mature structure. The renal inner medulla is unique to mammalian kidneys and is the innermost region of the mammalian kidney." [GOC:mtg_kidney_jan10]
  synonym: "inner renal medulla development" EXACT [GOC:mtg_kidney_jan10]
@@ -2529,7 +2657,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T03:59:37Z
-@@ -419007,7 +419043,7 @@
+@@ -419007,7 +419024,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the renal outer medulla over time, from its formation to the mature structure. The renal outer medulla is the region of the kidney that lies between the renal cortex and the renal inner medulla." [GOC:mtg_kidney_jan10]
  synonym: "outer renal medulla development" EXACT [GOC:mtg_kidney_jan10]
@@ -2538,7 +2666,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T04:00:42Z
-@@ -419017,7 +419053,7 @@
+@@ -419017,7 +419034,7 @@
  name: renal cortex development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the renal cortex over time, from its formation to the mature structure. The renal cortex is the outer region of the kidney." [GOC:mtg_kidney_jan10]
@@ -2547,7 +2675,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T04:01:12Z
-@@ -419031,7 +419067,7 @@
+@@ -419031,7 +419048,7 @@
  synonym: "pyramids development" EXACT [GOC:mah]
  synonym: "renal medulla development" EXACT [GOC:mah]
  synonym: "renal pyramid development" EXACT [GOC:mah]
@@ -2556,7 +2684,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T04:01:36Z
-@@ -419041,7 +419077,7 @@
+@@ -419041,7 +419058,7 @@
  name: inner stripe development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the inner stripe over time, from its formation to the mature structure. The inner stripe is a deep, centrally located portion of the renal outer medulla and is traversed by thin descending and thick ascending portions of the loops of Henle." [GOC:mtg_kidney_jan10]
@@ -2565,7 +2693,7 @@
  relationship: part_of GO:0072054 ! renal outer medulla development
  created_by: mah
  creation_date: 2010-01-25T04:01:58Z
-@@ -419051,7 +419087,7 @@
+@@ -419051,7 +419068,7 @@
  name: outer stripe development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the outer stripe over time, from its formation to the mature structure. The outer stripe is the region of the kidney outer medulla that lies just below the cortex. The proximal straight tubules (S3) characterize this region." [GOC:mtg_kidney_jan10]
@@ -2574,7 +2702,7 @@
  relationship: part_of GO:0072054 ! renal outer medulla development
  created_by: mah
  creation_date: 2010-01-25T04:02:56Z
-@@ -419061,7 +419097,7 @@
+@@ -419061,7 +419078,7 @@
  name: cortical collecting duct development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the cortical collecting duct over time, from its formation to the mature structure. The cortical collecting duct is the portion of the collecting duct that resides in the renal cortex." [GOC:mtg_kidney_jan10]
@@ -2583,7 +2711,7 @@
  created_by: mah
  creation_date: 2010-01-25T04:07:07Z
  
-@@ -422383,6 +422419,7 @@
+@@ -422383,6 +422400,7 @@
  subset: goslim_drosophila
  synonym: "cardiovascular system development" NARROW []
  is_a: GO:0048731 ! system development
@@ -2591,7 +2719,7 @@
  created_by: mah
  creation_date: 2010-11-16T11:27:39Z
  
-@@ -430505,7 +430542,7 @@
+@@ -430505,7 +430523,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the integument over time, from its formation to the mature structure. Integument is one of the layers of tissue that usually covers the ovule, enveloping the nucellus and forming the micropyle at the apex." [PMID:19054366, PO:0020021]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -2600,7 +2728,7 @@
  relationship: part_of GO:0048481 ! plant ovule development
  created_by: dhl
  creation_date: 2009-04-13T02:58:07Z
-@@ -435024,7 +435061,7 @@
+@@ -435024,7 +435042,7 @@
  name: cochlea development
  namespace: biological_process
  def: "The progression of the cochlea over time from its formation to the mature structure. The cochlea is the snail-shaped portion of the inner ear that is responsible for the detection of sound." [GOC:dph, GOC:tb]
@@ -2609,7 +2737,7 @@
  relationship: part_of GO:0048839 ! inner ear development
  created_by: tb
  creation_date: 2009-11-18T11:42:15Z
-@@ -438317,6 +438354,7 @@
+@@ -438317,6 +438335,7 @@
  namespace: biological_process
  def: "OBSOLETE. Any process that modulates the rate, frequency, or extent of the chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." [GOC:dph, GOC:jp, GOC:tb]
  comment: The reason for obsoletion is that this term was an unnecessary grouping terms and only 'biosynthetic' or 'catabolic' process should be used.
@@ -2617,7 +2745,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31171" xsd:anyURI
  is_obsolete: true
  created_by: tb
-@@ -440303,7 +440341,7 @@
+@@ -440303,7 +440322,7 @@
  name: plant epidermis development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the plant epidermis over time, from its formation to the mature structure." [GOC:tb]
@@ -2626,7 +2754,7 @@
  created_by: tb
  creation_date: 2014-02-27T15:17:37Z
  
-@@ -464769,7 +464807,6 @@
+@@ -464769,7 +464788,6 @@
  def: "Catalysis of the reaction: a (2S)-2-hydroxycarboxylate + NAD+ = a 2-oxocarboxylate + NADH + H+." [RHEA:34555]
  xref: EC:1.1.1.337
  xref: MetaCyc:RXN-13927
@@ -2634,7 +2762,7 @@
  xref: RHEA:10176
  xref: RHEA:15533
  xref: RHEA:34555
-@@ -472189,6 +472226,9 @@
+@@ -472189,6 +472207,9 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: S-adenosyl-L-methionine + tRNA = S-adenosyl-L-homocysteine + tRNA containing a 2'-O-nucleotide." [PMID:17242307]
  comment: This term was obsoleted because it is an unnecessray grouping term.
@@ -2644,7 +2772,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31519" xsd:anyURI
  is_obsolete: true
  consider: GO:0106339
-@@ -475304,7 +475344,6 @@
+@@ -475304,7 +475325,6 @@
  synonym: "tRNA (cytidine 32-2'-O)-methyltransferase activity" EXACT []
  synonym: "tRNA (cytidine(32)-2'-O)-methyltransferase activity" EXACT []
  xref: MetaCyc:RXN-11866
@@ -2652,7 +2780,7 @@
  xref: RHEA:42932
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
  property_value: skos:broadMatch EC:2.1.1.200
-@@ -478699,13 +478738,6 @@
+@@ -478699,13 +478719,6 @@
  def: "Removes a phospholipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
  synonym: "intermembrane phospholipid transfer activity" NARROW []
  synonym: "phospholipid carrier activity" EXACT []
@@ -2666,7 +2794,7 @@
  is_a: GO:0120013 ! lipid transfer activity
  relationship: has_part GO:0005543 ! phospholipid binding
  relationship: part_of GO:0015914 ! phospholipid transport
-@@ -481315,6 +481347,7 @@
+@@ -481315,6 +481328,7 @@
  namespace: biological_process
  def: "The biological process whose specific outcome is the progression of a larynx from an initial condition to its mature state. This process begins with the formation of the larynx and ends with the mature structure. A larynx is a continuation of the pharynx that is involved in breathing, sound production, and protecting the trachea against food aspiration." [GOC:krc, PMID:28177282]
  is_a: GO:0048513 ! animal organ development
@@ -2674,7 +2802,7 @@
  relationship: part_of GO:0060541 ! respiratory system development
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18924" xsd:anyURI
  created_by: krc
-@@ -488221,6 +488254,9 @@
+@@ -488221,6 +488235,9 @@
  comment: Examples of protein carriers include the soluble TIM chaperone complexes of S. cerevisiae Tim9-Tim10 and Tim8-Tim13, that provide a shuttle system between TOM and the membrane insertases TIM22 and SAM and, thus, ensure that precursors are kept in a translocation-competent conformation.
  synonym: "protein carrier activity" RELATED []
  synonym: "protein transport chaperone" RELATED []
@@ -2684,7 +2812,7 @@
  is_a: GO:0005215 ! transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17073" xsd:anyURI
  created_by: pg
-@@ -489064,8 +489100,6 @@
+@@ -489064,8 +489081,6 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: cytidine(4) in tRNA + S-adenosyl-L-methionine = 2'-O-methylcytidine(4) in tRNA + S-adenosyl-L-homocysteine + H+. Acts on  cytidine(4) on tRNAPro and tRNAGly(GCC), and on adenosine(4) in tRNAHis." [EC:2.1.1.225, PMID:17242307]
  xref: EC:2.1.1.225
@@ -2693,7 +2821,7 @@
  xref: RHEA:32767
  xref: RHEA:43192
  xref: RHEA:43196
-@@ -489643,6 +489677,16 @@
+@@ -489643,6 +489658,16 @@
  creation_date: 2026-05-11T07:09:55Z
  
  [Term]
@@ -2710,7 +2838,7 @@
  id: GO:0140429
  name: positive regulation of mitotic sister chromatid biorientation
  namespace: biological_process
-@@ -489742,6 +489786,18 @@
+@@ -489742,6 +489767,18 @@
  creation_date: 2020-02-24T13:27:15Z
  
  [Term]
@@ -2729,7 +2857,7 @@
  id: GO:0140438
  name: protein stearoylation
  namespace: biological_process
-@@ -502316,7 +502372,7 @@
+@@ -502316,7 +502353,7 @@
  namespace: biological_process
  def: "Any developmental process whose specific outcome is the progression of a gross anatomical part of an animal from an initial immature state, to a later, more mature state." [GOC:pg]
  synonym: "animal development" RELATED []
@@ -2738,7 +2866,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22994" xsd:anyURI
  created_by: rynl
  creation_date: 2023-09-18T20:43:55Z
-@@ -516603,8 +516659,8 @@
+@@ -516603,8 +516640,8 @@
  is_a: GO:2001210 ! regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0019287 ! isopentenyl diphosphate biosynthetic process, mevalonate pathway
@@ -2748,7 +2876,7 @@
  created_by: al
  creation_date: 2012-05-02T10:46:46Z
  
-@@ -537466,7 +537522,6 @@
+@@ -537466,7 +537503,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving an alpha-amino acid." [GOC:TermGenie]
  comment: The reason for obsoletion is that this term was an unnecessary grouping term and more specific terms were created.
  synonym: "alpha-amino acid metabolism" EXACT [GOC:TermGenie]
@@ -2756,7 +2884,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31993" xsd:anyURI
  is_obsolete: true
  created_by: tb
-@@ -544176,34 +544231,34 @@
+@@ -544176,34 +544212,34 @@
  
  [Term]
  id: GO:1901997
@@ -2818,7 +2946,7 @@
  is_a: GO:0010600 ! regulation of auxin biosynthetic process
  is_a: GO:0032353 ! negative regulation of hormone biosynthetic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
-@@ -574563,84 +574618,34 @@
+@@ -574563,84 +574599,34 @@
  
  [Term]
  id: GO:1903636
@@ -2918,7 +3046,7 @@
  created_by: pga
  creation_date: 2014-11-20T15:55:01Z
  
-@@ -575720,7 +575725,7 @@
+@@ -575720,7 +575706,7 @@
  synonym: "intestinum caecum development" RELATED [GOC:TermGenie]
  synonym: "intestinum crassum caecum development" EXACT [GOC:TermGenie]
  synonym: "intestinum crassum cecum development" RELATED [GOC:TermGenie]
@@ -2927,7 +3055,7 @@
  created_by: cls
  creation_date: 2014-12-03T12:05:00Z
  
-@@ -575732,7 +575737,7 @@
+@@ -575732,7 +575718,7 @@
  synonym: "corneal stroma development" EXACT [GOC:TermGenie]
  synonym: "stroma of cornea development" EXACT [GOC:TermGenie]
  synonym: "substantia propria development" RELATED [GOC:TermGenie]
@@ -2936,7 +3064,7 @@
  created_by: cls
  creation_date: 2014-12-03T13:12:09Z
  
-@@ -575744,7 +575749,7 @@
+@@ -575744,7 +575730,7 @@
  synonym: "esophageal development" EXACT [MGI:csmith]
  synonym: "gullet development" EXACT [GOC:TermGenie]
  synonym: "oesophagus development" EXACT [GOC:TermGenie]
@@ -2945,7 +3073,7 @@
  created_by: cls
  creation_date: 2014-12-03T14:41:30Z
  
-@@ -578622,7 +578627,7 @@
+@@ -578622,7 +578608,7 @@
  name: extraembryonic membrane development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of an extraembryonic membrane over time, from its formation to the mature structure." [GO_REF:0000094, GOC:TermGenie, ISBN:0073040584]
@@ -2954,7 +3082,63 @@
  created_by: cjm
  creation_date: 2015-02-05T00:42:16Z
  
-@@ -598085,7 +598090,7 @@
+@@ -584457,7 +584443,8 @@
+ synonym: "regulation of protein dislocation from ER" EXACT [GOC:TermGenie]
+ synonym: "regulation of protein retrotranslocation from ER" EXACT [GOC:bf]
+ synonym: "regulation of retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
+-is_a: GO:0070861 ! regulation of protein exit from endoplasmic reticulum
++is_a: GO:0050794 ! regulation of cellular process
++is_a: GO:0051223 ! regulation of protein transport
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: regulates GO:0030970 ! retrograde protein transport, ER to cytosol
+ relationship: regulates GO:0030970 ! retrograde protein transport, ER to cytosol
+@@ -584484,7 +584471,8 @@
+ synonym: "negative regulation of protein dislocation from ER" EXACT [GOC:TermGenie]
+ synonym: "negative regulation of protein retrotranslocation from ER" EXACT [GOC:bf]
+ synonym: "negative regulation of retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
+-is_a: GO:0070862 ! negative regulation of protein exit from endoplasmic reticulum
++is_a: GO:0048523 ! negative regulation of cellular process
++is_a: GO:0051224 ! negative regulation of protein transport
+ is_a: GO:1904152 ! regulation of retrograde protein transport, ER to cytosol
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: negatively_regulates GO:0030970 ! retrograde protein transport, ER to cytosol
+@@ -584513,7 +584501,8 @@
+ synonym: "upregulation of protein dislocation from ER" EXACT [GOC:TermGenie]
+ synonym: "upregulation of retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
+ synonym: "upregulation of retrograde protein transport, ER to cytosol" EXACT [GOC:TermGenie]
+-is_a: GO:0070863 ! positive regulation of protein exit from endoplasmic reticulum
++is_a: GO:0048522 ! positive regulation of cellular process
++is_a: GO:0051222 ! positive regulation of protein transport
+ is_a: GO:1904152 ! regulation of retrograde protein transport, ER to cytosol
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: positively_regulates GO:0030970 ! retrograde protein transport, ER to cytosol
+@@ -585353,18 +585342,14 @@
+ 
+ [Term]
+ id: GO:1904211
+-name: membrane protein proteolysis involved in retrograde protein transport, ER to cytosol
++name: obsolete membrane protein proteolysis involved in retrograde protein transport, ER to cytosol
+ namespace: biological_process
+-def: "Any membrane protein proteolysis that is involved in retrograde protein transport, ER to cytosol." [GO_REF:0000060, GOC:bf, GOC:PARL, GOC:TermGenie, PMID:22795130]
+-synonym: "intramembrane cleavage of ERAD substrate" BROAD [PMID:22795130]
+-synonym: "intramembrane proteolysis involved in ERAD" EXACT [PMID:22795130]
+-synonym: "membrane protein proteolysis involved in protein dislocation from ER" EXACT [GOC:TermGenie]
+-synonym: "membrane protein proteolysis involved in protein retrotranslocation, ER to cytosol" EXACT [GOC:TermGenie]
+-synonym: "membrane protein proteolysis involved in retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
+-is_a: GO:0033619 ! membrane protein proteolysis
+-intersection_of: GO:0033619 ! membrane protein proteolysis
+-intersection_of: part_of GO:0030970 ! retrograde protein transport, ER to cytosol
+-relationship: part_of GO:0030970 ! retrograde protein transport, ER to cytosol
++def: "OBSOLETE. Any membrane protein proteolysis that is involved in retrograde protein transport, ER to cytosol." [GO_REF:0000060, GOC:bf, GOC:PARL, GOC:TermGenie, PMID:22795130]
++comment: The reason for obsoletion is that this term was obsoleted alongside GO:0032527 'protein exit from endoplasmic reticulum' as part of the cleanup of ambiguous ER-exit terms. Consider GO:0033619 'membrane protein proteolysis' or GO:0030970 'retrograde protein transport, ER to cytosol'.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19122" xsd:anyURI
++is_obsolete: true
++consider: GO:0030970
++consider: GO:0033619
+ created_by: bf
+ creation_date: 2015-05-14T15:26:44Z
+ 
+@@ -598085,7 +598070,7 @@
  synonym: "serosa development" RELATED [GOC:TermGenie]
  synonym: "tunica serosa development" EXACT [GOC:TermGenie]
  synonym: "wall of serous sac development" EXACT [GOC:TermGenie]
@@ -2963,7 +3147,7 @@
  created_by: dph
  creation_date: 2015-11-17T19:00:01Z
  
-@@ -598094,7 +598099,7 @@
+@@ -598094,7 +598079,7 @@
  name: visceral peritoneum development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a visceral peritoneum over time, from its formation to the mature structure." [GO_REF:0000094, GOC:dph, GOC:TermGenie, PMID:15840053]
@@ -2972,7 +3156,7 @@
  relationship: part_of GO:1904820 ! peritoneum development
  created_by: dph
  creation_date: 2015-11-17T19:00:17Z
-@@ -598105,7 +598110,7 @@
+@@ -598105,7 +598090,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a parietal peritoneum over time, from its formation to the mature structure." [GO_REF:0000094, GOC:dph, GOC:TermGenie, PMID:15840053]
  synonym: "peritoneal cavity lining development" EXACT [GOC:TermGenie]
@@ -2981,7 +3165,7 @@
  relationship: part_of GO:1904820 ! peritoneum development
  created_by: dph
  creation_date: 2015-11-17T19:00:24Z
-@@ -599018,7 +599023,7 @@
+@@ -599018,7 +599003,7 @@
  synonym: "ventral tegmentum development" EXACT [Wikipedia:Ventral_tegmental_area]
  synonym: "ventromedial mesencephalic tegmentum development" RELATED [GOC:TermGenie]
  synonym: "VTA development" BROAD [GOC:TermGenie]
@@ -2990,7 +3174,7 @@
  relationship: part_of GO:0030901 ! midbrain development
  created_by: bf
  creation_date: 2015-12-17T14:44:18Z
-@@ -599415,7 +599420,7 @@
+@@ -599415,7 +599400,7 @@
  synonym: "craniofacial development" NARROW [PMID:11262227]
  synonym: "cranium development" RELATED [GOC:TermGenie]
  synonym: "osteocranium development" NARROW [GOC:TermGenie]
@@ -2999,7 +3183,7 @@
  created_by: bf
  creation_date: 2016-01-07T13:45:06Z
  
-@@ -624895,6 +624900,7 @@
+@@ -624895,6 +624880,7 @@
  synonym: "penile bone development" EXACT [GOC:sl]
  synonym: "penis bone development" EXACT [GOC:sl]
  is_a: GO:0048608 ! reproductive structure development
@@ -3007,7 +3191,7 @@
  created_by: sl
  creation_date: 2014-05-01T23:59:13Z
  
-@@ -626000,11 +626006,13 @@
+@@ -626000,11 +625986,13 @@
  
  [Term]
  id: GO:1990473
@@ -3024,7 +3208,7 @@
  created_by: pr
  creation_date: 2014-09-02T08:22:03Z
  
-@@ -648282,13 +648290,13 @@
+@@ -648282,13 +648270,13 @@
  synonym: "regulation of isopentenyl diphosphate formation, mevalonate pathway" EXACT [GOC:obol]
  synonym: "regulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:obol]
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
@@ -3039,7 +3223,7 @@
  created_by: bf
  creation_date: 2011-11-15T10:53:42Z
  
-@@ -648302,7 +648310,6 @@
+@@ -648302,7 +648290,6 @@
  synonym: "negative regulation of isopentenyl diphosphate anabolism, mevalonate pathway" EXACT [GOC:obol]
  synonym: "negative regulation of isopentenyl diphosphate formation, mevalonate pathway" EXACT [GOC:obol]
  synonym: "negative regulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:obol]
@@ -3047,7 +3231,7 @@
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:0071072 ! negative regulation of phospholipid biosynthetic process
-@@ -648310,6 +648317,7 @@
+@@ -648310,6 +648297,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0019287 ! isopentenyl diphosphate biosynthetic process, mevalonate pathway
  relationship: negatively_regulates GO:0019287 ! isopentenyl diphosphate biosynthetic process, mevalonate pathway
@@ -3055,7 +3239,7 @@
  created_by: bf
  creation_date: 2011-11-15T10:53:45Z
  
-@@ -650760,7 +650768,7 @@
+@@ -650760,7 +650748,7 @@
  def: "A process by which an organism causes inflammatory response in another organism via the action of a venom." [PMID:19000915, PMID:32024243]
  synonym: "envenomation resulting in positive regulation of inflammatory response in another organism" EXACT []
  synonym: "venom-mediated inflammation" BROAD []
@@ -3064,7 +3248,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31902" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2026-05-07T07:41:13Z
-@@ -650802,12 +650810,18 @@
+@@ -650802,12 +650790,18 @@
  
  [Term]
  id: GO:7770075
@@ -3085,7 +3269,7 @@
  created_by: dragon-ai-agent
  creation_date: 2026-05-07T13:33:49Z
  
-@@ -650823,6 +650837,54 @@
+@@ -650823,6 +650817,54 @@
  created_by: dragon-ai-agent
  creation_date: 2026-05-07T13:33:49Z
  

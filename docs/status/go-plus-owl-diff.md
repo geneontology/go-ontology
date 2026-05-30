@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-29/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-05-30/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-29" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-30" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -142,6 +142,12 @@
 
 - [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73647" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "UTP + glutamine + ATP + H2O =&gt; CTP + glutamate + ADP + orthophosphate [CTPS]" 
+
+
+### Cdc50p-Drs2p complex `http://purl.obolibrary.org/obo/GO_1990530`
+#### Removed
+- [Cdc50p-Drs2p complex](http://purl.obolibrary.org/obo/GO_1990530) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) 
+
 
 
 ### DDEL sequence binding `http://purl.obolibrary.org/obo/GO_0030944`
@@ -1490,6 +1496,69 @@
 - [medulla oblongata development](http://purl.obolibrary.org/obo/GO_0021550) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### membrane protein proteolysis involved in retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904211`
+#### Removed
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any membrane protein proteolysis that is involved in retrograde protein transport, ER to cytosol." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "membrane protein proteolysis involved in protein dislocation from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "membrane protein proteolysis involved in protein retrotranslocation, ER to cytosol" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "membrane protein proteolysis involved in retrograde protein transport, endoplasmic reticulum to cytosol" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "intramembrane cleavage of ERAD substrate" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intramembrane proteolysis involved in ERAD" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane protein proteolysis involved in retrograde protein transport, ER to cytosol" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) EquivalentTo [membrane protein proteolysis](http://purl.obolibrary.org/obo/GO_0033619) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970)) 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) SubClassOf [membrane protein proteolysis](http://purl.obolibrary.org/obo/GO_0033619) 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [membrane protein proteolysis](http://purl.obolibrary.org/obo/GO_0033619) 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any membrane protein proteolysis that is involved in retrograde protein transport, ER to cytosol." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was obsoleted alongside GO:0032527 'protein exit from endoplasmic reticulum' as part of the cleanup of ambiguous ER-exit terms. Consider GO:0033619 'membrane protein proteolysis' or GO:0030970 'retrograde protein transport, ER to cytosol'." 
+
+- [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete membrane protein proteolysis involved in retrograde protein transport, ER to cytosol" 
+
+
 ### meristem development `http://purl.obolibrary.org/obo/GO_0048507`
 #### Removed
 - [meristem development](http://purl.obolibrary.org/obo/GO_0048507) SubClassOf [tissue development](http://purl.obolibrary.org/obo/GO_0009888) 
@@ -1893,6 +1962,57 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Anti-inflammatory response favouring Leishmania parasite infection" 
 
 
+### negative regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070862`
+#### Removed
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein exit from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein export from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein export from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of protein exit from endoplasmic reticulum" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527)) 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) SubClassOf [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) SubClassOf [negative regulation of intracellular protein transport](http://purl.obolibrary.org/obo/GO_0090317) 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) 
+
+#### Added
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the parent term GO:0032527 'protein exit from endoplasmic reticulum' was obsoleted because it conflated multiple distinct processes." 
+
+- [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of protein exit from endoplasmic reticulum" 
+
+
 ### negative regulation of protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_1903637`
 #### Removed
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein import into mitochondrial outer membrane" 
@@ -1987,6 +2107,18 @@
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. It is the negative regulation child of GO:1903636, regulating GO:0045040 (protein insertion into mitochondrial outer membrane), which is being obsoleted as part of the restructuring of mitochondrial protein import (see https://github.com/geneontology/go-ontology/issues/31711)." 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of protein insertion into mitochondrial outer membrane" 
+
+
+### negative regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904153`
+#### Removed
+- [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) 
+
+- [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048523) 
+
+- [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051224) 
 
 
 ### nephron development `http://purl.obolibrary.org/obo/GO_0072006`
@@ -2679,6 +2811,60 @@
 - [positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_1900486) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### positive regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070863`
+#### Removed
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein exit from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein export from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein export from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "stimulation of protein exit from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of protein exit from endoplasmic reticulum" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527)) 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) SubClassOf [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) SubClassOf [positive regulation of intracellular protein transport](http://purl.obolibrary.org/obo/GO_0090316) 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) 
+
+#### Added
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the parent term GO:0032527 'protein exit from endoplasmic reticulum' was obsoleted because it conflated multiple distinct processes." 
+
+- [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of protein exit from endoplasmic reticulum" 
+
+
 ### positive regulation of protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_1903638`
 #### Removed
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein import into mitochondrial outer membrane" 
@@ -2775,6 +2961,18 @@
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of protein insertion into mitochondrial outer membrane" 
 
 
+### positive regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904154`
+#### Removed
+- [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) 
+
+- [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048522) 
+
+- [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051222) 
+
+
 ### preganglionic parasympathetic fiber development `http://purl.obolibrary.org/obo/GO_0021783`
 
 #### Added
@@ -2789,6 +2987,50 @@
 - [prostate glandular acinus development](http://purl.obolibrary.org/obo/GO_0060525) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0032527`
+#### Removed
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein exit from ER" 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein export from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein export from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein exit from endoplasmic reticulum" 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) EquivalentTo [transport](http://purl.obolibrary.org/obo/GO_0006810) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [cytoplasm](http://purl.obolibrary.org/obo/GO_0005737)) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0005783)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [protein](http://purl.obolibrary.org/obo/PR_000000001)) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) SubClassOf [intracellular protein transport](http://purl.obolibrary.org/obo/GO_0006886) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [cytoplasm](http://purl.obolibrary.org/obo/GO_0005737) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) SubClassOf [has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0005783) 
+
+#### Added
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endoplasmic reticulum to Golgi vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0006888) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [COPII-coated vesicle budding](http://purl.obolibrary.org/obo/GO_0090114) 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term conflated multiple distinct processes (retrograde transport from ER to cytosol, transmembrane transport of small molecules, and COPII-vesicle-mediated trafficking) and was used inconsistently. For COPII-vesicle-mediated forward transport from the ER, consider GO:0090114 'COPII-coated vesicle budding' or GO:0006888 'endoplasmic reticulum to Golgi vesicle-mediated transport'. For retrograde transport of misfolded proteins from ER to cytosol, consider GO:0030970 'retrograde protein transport, ER to cytosol'." 
+
+- [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein exit from endoplasmic reticulum" 
+
+
 ### protein folding chaperone `http://purl.obolibrary.org/obo/GO_0044183`
 #### Removed
 - [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9683772" 
@@ -2797,6 +3039,44 @@
 - [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9694337" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Trimmed spike protein binds to calnexin" 
 
+
+
+### protein localization to endoplasmic reticulum exit site `http://purl.obolibrary.org/obo/GO_0070973`
+#### Removed
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which a protein is transported to, or maintained in, a location at an endoplasmic reticulum exit site." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein localisation to endoplasmic reticulum exit site" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein localization to ER exit site" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein localization to endoplasmic reticulum exit site" 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) EquivalentTo [intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070971)) 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) SubClassOf [protein localization to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070972) 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) SubClassOf [has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070971) 
+
+#### Added
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endoplasmic reticulum to Golgi vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0006888) 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_0034976) 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [COPII vesicle coat assembly](http://purl.obolibrary.org/obo/GO_0048208) 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which a protein is transported to, or maintained in, a location at an endoplasmic reticulum exit site." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term conflated multiple distinct processes and curators used it inconsistently. Suggested replacements depend on the specific biological context, e.g. GO:0048208 'COPII vesicle coat assembly', GO:0006888 'endoplasmic reticulum to Golgi vesicle-mediated transport', or descendants of GO:0034976 'response to endoplasmic reticulum stress' for quality-control contexts." 
+
+- [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein localization to endoplasmic reticulum exit site" 
 
 
 ### protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_0070585`
@@ -2955,6 +3235,43 @@
 - [regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_2001210) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070861`
+#### Removed
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein exit from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein export from ER" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein export from endoplasmic reticulum" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of protein exit from endoplasmic reticulum" 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527)) 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) SubClassOf [regulation of intracellular protein transport](http://purl.obolibrary.org/obo/GO_0033157) 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) 
+
+#### Added
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the parent term GO:0032527 'protein exit from endoplasmic reticulum' was obsoleted because it conflated multiple distinct processes. For regulation of COPII-vesicle-mediated forward transport from the ER, consider GO:0060627 'regulation of vesicle-mediated transport' or descendants." 
+
+- [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of protein exit from endoplasmic reticulum" 
+
+
 ### regulation of protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_1903636`
 #### Removed
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein import into mitochondrial outer membrane" 
@@ -3001,6 +3318,18 @@
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. It is the regulation parent of GO:0045040 (protein insertion into mitochondrial outer membrane), which is being obsoleted as part of the restructuring of mitochondrial protein import (see https://github.com/geneontology/go-ontology/issues/31711)." 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of protein insertion into mitochondrial outer membrane" 
+
+
+### regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904152`
+#### Removed
+- [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) 
+
+- [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of cellular process](http://purl.obolibrary.org/obo/GO_0050794) 
+
+- [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051223) 
 
 
 ### renal cortex development `http://purl.obolibrary.org/obo/GO_0072055`
@@ -3061,6 +3390,24 @@
 #### Added
 - [retinyl-palmitate esterase activity](http://purl.obolibrary.org/obo/GO_0050253) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404133" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "A REH hydrolses atREs to atROL and FAs" 
+
+
+### retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_0030970`
+#### Removed
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) 
+
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [endoplasmic reticulum to cytosol transport](http://purl.obolibrary.org/obo/GO_1903513) 
+
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [protein transport](http://purl.obolibrary.org/obo/GO_0015031) 
+
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0005783) 
+
+- [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829) 
 
 
 ### rhombomere development `http://purl.obolibrary.org/obo/GO_0021546`
