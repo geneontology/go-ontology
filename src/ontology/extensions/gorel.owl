@@ -28,7 +28,7 @@ This ontology is created by merging the relevant subset of RO together with GO-s
 Notes on editors version (gorel-edit.owl): 
 The editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of &apos;go annotation extension relation&apos;. Anything with a logical axiom is included in the final module. Consult Makefile for details</dc:description>
         <oboInOwl:default-namespace>external</oboInOwl:default-namespace>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2225 Logical Axioms: 527]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2177 Logical Axioms: 520]</rdfs:comment>
     </owl:Ontology>
     
 
@@ -5308,18 +5308,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002464 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002464">
-        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
-        <obo:IAO_0000232>This property or its subproperties is not to be used directly. These properties exist as helper properties that are used to support OWL reasoning.</obo:IAO_0000232>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002464</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helper_property_(not_for_use_in_curation)</oboInOwl:shorthand>
-        <rdfs:label>helper property (not for use in curation)</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002479 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002479">
@@ -5345,18 +5333,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         </owl:annotatedTarget>
         <obo:RO_0002581 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:RO_0002581>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002481 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002481">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002564"/>
-        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002481</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_kinase_activity</oboInOwl:shorthand>
-        <rdfs:label>is kinase activity</rdfs:label>
-    </owl:ObjectProperty>
     
 
 
@@ -5659,32 +5635,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002559</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causally_influenced_by</oboInOwl:shorthand>
         <rdfs:label>causally influenced by</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002563 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002563">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002464"/>
-        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002563</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction_relation_helper_property</oboInOwl:shorthand>
-        <rdfs:label>interaction relation helper property</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29"/>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.obolibrary.org/obo/ro/docs/interaction-relations/</rdfs:seeAlso>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002564 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002564">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002563"/>
-        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0002564</oboInOwl:hasDbXref>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular_interaction_relation_helper_property</oboInOwl:shorthand>
-        <rdfs:label>molecular interaction relation helper property</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -6527,22 +6477,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">This is the same as GO molecular function</obo:IAO_0000116>
-        <oboInOwl:hasExactSynonym>molecular function</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>GO:0003674</oboInOwl:id>
-        <rdfs:comment>Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code &apos;no data&apos; (ND), is used to indicate this. Despite its name, this is not a type of &apos;function&apos; in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.</rdfs:comment>
-        <rdfs:label xml:lang="en">gene product or complex activity</rdfs:label>
-        <rdfs:label>molecular_function</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:pdt</oboInOwl:hasDbXref>
-    </owl:Axiom>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674"/>
     
 
 
@@ -6560,27 +6495,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115>A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
-        <oboInOwl:created_by>jl</oboInOwl:created_by>
-        <oboInOwl:creation_date>2012-09-19T15:05:24Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>Wikipedia:Biological_process</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>biological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>physiological process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>single organism process</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>single-organism process</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>GO:0008150</oboInOwl:id>
-        <rdfs:comment>Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code &apos;no data&apos; (ND), is used to indicate this.</rdfs:comment>
-        <rdfs:label xml:lang="en">biological process</rdfs:label>
-        <rdfs:label>biological_process</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GOC:pdt</oboInOwl:hasDbXref>
-    </owl:Axiom>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
     
 
 
@@ -6610,40 +6525,7 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <!-- http://purl.obolibrary.org/obo/GO_0016301 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016301">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002481"/>
-                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-6788855</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Reactome:R-HSA-6788867</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>phosphokinase activity</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>GO:0016301</oboInOwl:id>
-        <rdfs:comment>Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.</rdfs:comment>
-        <rdfs:label>kinase activity</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016301"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:0198506732</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016301"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-6788855</owl:annotatedTarget>
-        <rdfs:label>FN3KRP phosphorylates PsiAm, RibAm</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016301"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Reactome:R-HSA-6788867</owl:annotatedTarget>
-        <rdfs:label>FN3K phosphorylates ketosamines</rdfs:label>
-    </owl:Axiom>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016301"/>
     
 
 
@@ -7542,8 +7424,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0004009">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
         <go_annotation_extension_relations:local_range>CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 SO:0001683 NCBITaxon:1</go_annotation_extension_relations:local_range>
