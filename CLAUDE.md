@@ -25,6 +25,36 @@ The project follows standard ODK layout:
 These instructions are optimized for claude code. Skills are used, and defined
 in `.claude/skills/`
 
+## Local Setup (skip if running in a GitHub Action)
+
+The editing workflow below relies on three Perl scripts (`obo-grep.pl`, `obo-checkout.pl`, `obo-checkin.pl`) and `robot`. When this repo is driven by the `ai-agent` / `copilot-setup-steps` workflows, these are installed automatically — skip this section.
+
+If you are running locally (e.g. from an editor-driven Claude Code session), check whether the tools are already available **before doing anything else**:
+
+```bash
+which obo-grep.pl obo-checkout.pl obo-checkin.pl robot
+```
+
+If any of the `obo-*.pl` scripts are missing, install them from https://github.com/cmungall/obo-scripts. The fastest, least-invasive option is:
+
+```bash
+# pick any persistent location; ~/.local/share is a reasonable default
+mkdir -p ~/.local/share
+git clone --depth 1 https://github.com/cmungall/obo-scripts.git ~/.local/share/obo-scripts
+
+# symlink the three scripts into a directory already on PATH
+mkdir -p ~/bin
+ln -sf ~/.local/share/obo-scripts/obo-grep.pl     ~/bin/obo-grep.pl
+ln -sf ~/.local/share/obo-scripts/obo-checkout.pl ~/bin/obo-checkout.pl
+ln -sf ~/.local/share/obo-scripts/obo-checkin.pl  ~/bin/obo-checkin.pl
+```
+
+If `~/bin` is not already on `PATH`, either add it (`export PATH="$HOME/bin:$PATH"` in `~/.bashrc` / `~/.zshrc`) or substitute a directory that is (e.g. `/usr/local/bin`).
+
+If `robot` is missing, install per https://robot.obolibrary.org/ (the easiest route on macOS is `brew install robot`; otherwise download the jar + launcher script and put both on `PATH`). `robot` requires Java 11+.
+
+After installation, re-run the `which` check above and confirm all four resolve before continuing. Do not fall back to manually grepping `go-edit.obo` or hand-editing it — that path is much slower and error-prone, and the rest of this guide assumes the tools are present.
+
 ## PLAN: Analyze Issue, Plan Approach, and create a TODO/checklist
 
 Read the entire issue and all associated comments. Be aware that some issues may have auxhiliary discussions, your must first infer the
