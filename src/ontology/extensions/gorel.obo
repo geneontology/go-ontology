@@ -12,7 +12,7 @@ subsetdef: taxon_extension ""
 subsetdef: valid_for_annotation_extension ""
 synonymtypedef: RO:0008000 "display label for users"
 default-namespace: external
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2225 Logical Axioms: 527]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2177 Logical Axioms: 520]
 ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
@@ -1533,13 +1533,6 @@ domain: GO:0008150
 is_obsolete: true
 
 [Typedef]
-id: helper_property_(not_for_use_in_curation)
-name: helper property (not for use in curation)
-xref: RO:0002464
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: IAO:0000232 "This property or its subproperties is not to be used directly. These properties exist as helper properties that are used to support OWL reasoning." xsd:string
-
-[Typedef]
 id: host_of
 name: host of
 subset: ro-eco
@@ -1770,15 +1763,6 @@ is_a: functionally_related_to ! functionally related to
 is_a: participates_in ! participates in
 
 [Typedef]
-id: interaction_relation_helper_property
-name: interaction relation helper property
-xref: RO:0002563
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29
-property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/interaction-relations/ xsd:anyURI
-is_a: helper_property_(not_for_use_in_curation) ! helper property (not for use in curation)
-
-[Typedef]
 id: interacts_with
 name: interacts with
 def: "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." []
@@ -1890,13 +1874,6 @@ property_value: http://purl.org/dc/terms/date 2024-10-29T09:55:07Z xsd:dateTime
 domain: UBERON:0001062
 
 [Typedef]
-id: is_kinase_activity
-name: is kinase activity
-xref: RO:0002481
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: molecular_interaction_relation_helper_property ! molecular interaction relation helper property
-
-[Typedef]
 id: localization_dependent_on
 name: obsolete localization_dependent_on
 namespace: go/extensions/gorel
@@ -1944,13 +1921,6 @@ property_value: local_domain MOD:00000 xsd:string
 property_value: local_range "GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704" xsd:string
 property_value: usage "Identifies the gene product that catalyzes a modification on the annotated gene product" xsd:string
 is_obsolete: true
-
-[Typedef]
-id: molecular_interaction_relation_helper_property
-name: molecular interaction relation helper property
-xref: RO:0002564
-property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
-is_a: interaction_relation_helper_property ! interaction relation helper property
 
 [Typedef]
 id: molecularly_interacts_with

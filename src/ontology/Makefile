@@ -621,6 +621,32 @@ imports/substance_by_role.obo: imports/substance_by_role.owl
 	$(ROBOT) convert -i $< -o $@
 
 # ----------------------------------------
+# GO ANNOTATION EXTENSION RELATIONS (GOREL)
+# ----------------------------------------
+# gorel.owl bundles the GO annotation-extension relations (GOREL_* plus the RO
+# relations seeded from gorel-edit) for import into go-gaf.owl. It is a checked-in
+# product, refreshed by .github/workflows/refresh-gorel.yml. These rules were moved
+# here from extensions/Makefile so the build uses the same RO we mirror everywhere else.
+#
+# The RO content is extracted from the locally-cleaned mirror/ro.owl, NOT the released
+# ro.owl from the web. mirror/ro.owl has GO-internal axioms stripped (see its rule above),
+# which removes the foreign labels RO/COB assert on GO roots (e.g. the @en
+# "gene product or complex activity" on GO:0003674, and "biological process"@en on
+# GO:0008150). Sourcing gorel from mirror/ro.owl keeps those out of gorel.owl, and hence
+# out of go-gaf.owl -> go-amigo.owl / the GOlr index. See issue #32154.
+#
+# Note: -s uses mirror/ro.owl's own ontology IRI, which its annotate step sets to
+# $(OBO)/mirror/ro.owl (it is NOT $(OBO)/ro.owl).
+extensions/gorel-ro-import.owl: extensions/gorel-edit.owl mirror/ro.owl
+	owltools --map-ontology-iri $(OBO)/ro.owl mirror/ro.owl extensions/gorel-edit.owl --add-support-from-imports --extract-module -c -s $(OBO)/mirror/ro.owl -o $@
+
+extensions/gorel.owl: extensions/gorel-edit.owl extensions/gorel-ro-import.owl
+	owltools --map-ontology-iri $(OBO)/ro.owl extensions/gorel-ro-import.owl extensions/gorel-edit.owl --merge-imports-closure --add-obo-shorthand-to-properties -o $@
+
+extensions/gorel.obo: extensions/gorel.owl
+	owltools $< --add-obo-shorthand-to-properties --remove-tbox -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
+
+# ----------------------------------------
 # IMPORTED AND TRANSFERRED RHEA AXIOMS
 # ----------------------------------------
 

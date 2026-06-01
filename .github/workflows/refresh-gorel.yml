@@ -16,7 +16,7 @@ jobs:
         run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
 
       - name: Refresh GOREL files
-        run: cd src/ontology/extensions && rm -f gorel.owl gorel.obo && make gorel.owl gorel.obo
+        run: cd src/ontology && rm -f extensions/gorel.owl extensions/gorel.obo && make extensions/gorel.owl extensions/gorel.obo
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v7
