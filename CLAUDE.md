@@ -49,6 +49,7 @@ Create a plan for addressing the issue. The plan MUST have the following compone
     - /chemical-entity skill; for any request involving CHEBI or chemical terms or nomenclature
     - /reaction skill; for any request involving RHEA, EC, or the catalytic activity branch of GO
     - /taxon-constraint skill; for any request involving restricting usage of a term or branch to a taxon/clade
+- [ ] TERM-TRACKER: Every term stanza you created or modified has a `term_tracker_item` linking to the issue
 - [ ] METADATA: The metadata for the changes is correct
 - [ ] AUTOMATED-VALIDATION: The ontology validates correctly using `make travis_build` after changes have been made
 - [ ] REFERENCE-VALIDATION: All references (eg PMIDs) introduced have been validated, and are relevant, and not typos or hallucinations; always use /research for this
@@ -128,6 +129,7 @@ The general procedure is:
 - This will create a single stanza obo files `terms/go_1234567.obo` which you can easily edit
      - (note the colon is replaced with an underscore)
 - You can go ahead and edit the smallers files in the `terms/` folder
+- **Before checking in**, verify every modified stanza contains a `property_value: term_tracker_item` line linking to the issue. This applies to ALL terms you touched, not just new ones.
 - After edits, check back in: `obo-checkin.pl src/ontology/go-edit.obo GO:1234567 [OTHER IDS]`
 - if you like you can edit multiple terms in one batch, e.g. `terms/my_batch.obo`
      - `obo-checkout.pl src/ontology/go-edit.obo terms/my_batch.obo`
@@ -253,10 +255,21 @@ Here the DP, label (and synonyms), text def, logical def all align, and the OWL 
 
 ## METADATA
 
+### term_tracker_item (required on ALL modified terms)
+
+**EVERY term you modify or create MUST have a `term_tracker_item` linking to the GitHub issue that motivated the change.** This is not optional metadata -- it is a required annotation on any stanza you touch, whether you are creating a new term, adding a synonym, updating a definition, or making any other edit. If a term already has a `term_tracker_item` for the current issue, do not add a duplicate.
+
+```
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/<NUMBER>" xsd:anyURI
+```
+
+A term may accumulate multiple `term_tracker_item` entries over time (one per issue that modified it). This is expected and correct.
+
+### Other metadata rules
+
 - ALWAYS include created_by and creation_date for terms YOU CREATE
 - NEVER add or modify these properties if you are simply editing an existing term
 - Unlike other obo ontologies, there is always a `namespace:` tag in GO (including on obsolete terms)
-- Link back to the issue you are dealing with using the `term_tracker_item`
 - All terms should have definitions, with at least one definition xref, ideally a PMID
 
 You are a GO ontology metadata validation specialist with deep expertise in OBO format standards and GO-specific curation requirements. Your primary responsibility is to ensure that all newly added or modified terms comply with GO's strict metadata standards.
@@ -329,15 +342,7 @@ In GO, sometimes a GOC:<userId> is acceptable for definition provenance.
 
 NEVER guess ORCIDs or PMIDs or GOC IDs. Always validate PMIDs and conform that these are validated. Never guess an ORCID based on a person in an issue.
 
-4. **Check Term Tracker Links**:
-   - Verify presence of term_tracker_item property linking to the relevant GitHub issue
-   - Ensure the URL format is correct: https://github.com/geneontology/go-ontology/issues/[NUMBER]
-
-These MUST have the following format:
-
-```
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/<NUMBER>" xsd:anyURI
-```
+4. **Check Term Tracker Links**: see the "term_tracker_item (required on ALL modified terms)" section above. Every term you touched must have one.
 
 
 ## SPECIALIZED-EDITS: appropriate skills should be used for special cases
