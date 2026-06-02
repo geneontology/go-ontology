@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-01/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-02/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-01" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-02" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -239,6 +239,48 @@
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate." 
 
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete HDEL sequence binding" 
+
+
+### ICAM-3 receptor activity `http://purl.obolibrary.org/obo/GO_0030369`
+#### Removed
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with ICAM-3, intercellular adhesion molecule 3, and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity. ICAM-3, or CD50, are constitutively expressed on monocytes, granulocytes and lymphocytes; on physiological stimulation, they become transiently phosphorylated on serine residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7515813" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term represents an activity and not a gene product. Consider also annotating to the molecular function terms 'cell adhesion molecule binding ; GO:0050839' and 'receptor binding ; GO:0005102' and the biological process term 'cell adhesion ; GO:0007155'." 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [label](http://www.w3.org/2000/01/rdf-schema#label) "ICAM-3 receptor activity" 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) EquivalentTo [signaling receptor activity](http://purl.obolibrary.org/obo/GO_0038023) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [intercellular adhesion molecule 3](http://purl.obolibrary.org/obo/PR_000001468)) 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) SubClassOf [transmembrane signaling receptor activity](http://purl.obolibrary.org/obo/GO_0004888) 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [intercellular adhesion molecule 3](http://purl.obolibrary.org/obo/PR_000001468) 
+
+#### Added
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30560"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [transmembrane signaling receptor activity](http://purl.obolibrary.org/obo/GO_0004888) 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Combining with ICAM-3, intercellular adhesion molecule 3, and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity. ICAM-3, or CD50, are constitutively expressed on monocytes, granulocytes and lymphocytes; on physiological stimulation, they become transiently phosphorylated on serine residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7515813" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is more specific than the specificity of any known gene product. ICAM-3 is a ligand of the ITGAL:ITGB2, ITGAD:ITGB2, and CD209 receptors; the receptor activity of these gene products can be more accurately captured by annotating to the parent term GO:0004888 transmembrane signaling receptor activity together with a has_input annotation extension specifying ICAM-3 (PR:000001468)." 
+
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ICAM-3 receptor activity" 
 
 
 ### KDEL sequence binding `http://purl.obolibrary.org/obo/GO_0005046`
