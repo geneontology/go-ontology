@@ -7,6 +7,7 @@ src/ontology/seed.txt
 src/ontology/imports/*terms_combined.txt
 src/ontology/build/
 src/ontology/extensions/go-plus*
+src/ontology/extensions/gorel-ro-import.owl
 src/ontology/go.obo
 src/ontology/go.owl
 src/ontology/go.owl
