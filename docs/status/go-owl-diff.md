@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-02/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-03/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-02" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-03" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -297,6 +297,14 @@
 - [KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete KDEL sequence binding" 
 
 
+### Kupffer's vesicle development `http://purl.obolibrary.org/obo/GO_0070121`
+#### Removed
+- [Kupffer's vesicle development](http://purl.obolibrary.org/obo/GO_0070121) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [Kupffer's vesicle development](http://purl.obolibrary.org/obo/GO_0070121) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### L-2-hydroxycarboxylate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0102443`
 #### Removed
 - [L-2-hydroxycarboxylate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102443) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971565" 
@@ -525,12 +533,74 @@
 - [ammon gyrus development](http://purl.obolibrary.org/obo/GO_0021541) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### amygdala development `http://purl.obolibrary.org/obo/GO_0021764`
+#### Removed
+- [amygdala development](http://purl.obolibrary.org/obo/GO_0021764) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [amygdala development](http://purl.obolibrary.org/obo/GO_0021764) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### analia development `http://purl.obolibrary.org/obo/GO_0007487`
+#### Removed
+- [analia development](http://purl.obolibrary.org/obo/GO_0007487) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [analia development](http://purl.obolibrary.org/obo/GO_0007487) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### animal gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160108`
 #### Removed
+- [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any developmental process whose specific outcome is the progression of a gross anatomical part of an animal from an initial immature state, to a later, more mature state." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [developmental process](http://purl.obolibrary.org/obo/GO_0032502) 
 
 #### Added
+- [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A developmental process whose specific outcome is the progression of a gross anatomical part of an animal over time from an initial condition to a later condition." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+
+### animal organ development `http://purl.obolibrary.org/obo/GO_0048513`
+#### Removed
+- [animal organ development](http://purl.obolibrary.org/obo/GO_0048513) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [animal organ development](http://purl.obolibrary.org/obo/GO_0048513) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### antennal joint development `http://purl.obolibrary.org/obo/GO_0048098`
+#### Removed
+- [antennal joint development](http://purl.obolibrary.org/obo/GO_0048098) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [antennal joint development](http://purl.obolibrary.org/obo/GO_0048098) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### anterior cibarial plate development `http://purl.obolibrary.org/obo/GO_0048722`
+#### Removed
+- [anterior cibarial plate development](http://purl.obolibrary.org/obo/GO_0048722) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [anterior cibarial plate development](http://purl.obolibrary.org/obo/GO_0048722) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### anterior midgut development `http://purl.obolibrary.org/obo/GO_0007496`
+#### Removed
+- [anterior midgut development](http://purl.obolibrary.org/obo/GO_0007496) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [anterior midgut development](http://purl.obolibrary.org/obo/GO_0007496) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### anterior rotation of the optic cup `http://purl.obolibrary.org/obo/GO_0003410`
+#### Removed
+- [anterior rotation of the optic cup](http://purl.obolibrary.org/obo/GO_0003410) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [anterior rotation of the optic cup](http://purl.obolibrary.org/obo/GO_0003410) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### appendage development `http://purl.obolibrary.org/obo/GO_0048736`
@@ -549,6 +619,14 @@
 - [ascending aorta development](http://purl.obolibrary.org/obo/GO_0035905) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### atrioventricular canal development `http://purl.obolibrary.org/obo/GO_0036302`
+#### Removed
+- [atrioventricular canal development](http://purl.obolibrary.org/obo/GO_0036302) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [atrioventricular canal development](http://purl.obolibrary.org/obo/GO_0036302) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### autonomic nervous system development `http://purl.obolibrary.org/obo/GO_0048483`
 
 #### Added
@@ -559,6 +637,14 @@
 
 #### Added
 - [baculum development](http://purl.obolibrary.org/obo/GO_1990375) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### beak development `http://purl.obolibrary.org/obo/GO_0071728`
+#### Removed
+- [beak development](http://purl.obolibrary.org/obo/GO_0071728) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [beak development](http://purl.obolibrary.org/obo/GO_0071728) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### beta-ureidopropionase activity `http://purl.obolibrary.org/obo/GO_0003837`
@@ -575,6 +661,14 @@
 
 - [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73591" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-ureidopropionate + H2O =&gt; beta-alanine + NH4+ + CO2" 
+
+
+### blastocyst development `http://purl.obolibrary.org/obo/GO_0001824`
+#### Removed
+- [blastocyst development](http://purl.obolibrary.org/obo/GO_0001824) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [blastocyst development](http://purl.obolibrary.org/obo/GO_0001824) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### blood coagulation, extrinsic pathway `http://purl.obolibrary.org/obo/GO_0007598`
@@ -599,30 +693,12 @@
 - [blood vessel development](http://purl.obolibrary.org/obo/GO_0001568) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### bone development `http://purl.obolibrary.org/obo/GO_0060348`
-
-#### Added
-- [bone development](http://purl.obolibrary.org/obo/GO_0060348) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### brain development `http://purl.obolibrary.org/obo/GO_0007420`
-
-#### Added
-- [brain development](http://purl.obolibrary.org/obo/GO_0007420) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### brainstem development `http://purl.obolibrary.org/obo/GO_0003360`
 #### Removed
 - [brainstem development](http://purl.obolibrary.org/obo/GO_0003360) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [brainstem development](http://purl.obolibrary.org/obo/GO_0003360) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### bursa of Fabricius development `http://purl.obolibrary.org/obo/GO_0048540`
-
-#### Added
-- [bursa of Fabricius development](http://purl.obolibrary.org/obo/GO_0048540) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### caecum development `http://purl.obolibrary.org/obo/GO_1903700`
@@ -682,12 +758,6 @@
 
 
 
-### cartilage development `http://purl.obolibrary.org/obo/GO_0051216`
-
-#### Added
-- [cartilage development](http://purl.obolibrary.org/obo/GO_0051216) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### central canal development `http://purl.obolibrary.org/obo/GO_0061524`
 #### Removed
 - [central canal development](http://purl.obolibrary.org/obo/GO_0061524) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -696,10 +766,50 @@
 - [central canal development](http://purl.obolibrary.org/obo/GO_0061524) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### central complex development `http://purl.obolibrary.org/obo/GO_0048036`
+#### Removed
+- [central complex development](http://purl.obolibrary.org/obo/GO_0048036) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [central complex development](http://purl.obolibrary.org/obo/GO_0048036) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### central nervous system development `http://purl.obolibrary.org/obo/GO_0007417`
 
 #### Added
 - [central nervous system development](http://purl.obolibrary.org/obo/GO_0007417) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cerebellar Purkinje cell layer development `http://purl.obolibrary.org/obo/GO_0021680`
+#### Removed
+- [cerebellar Purkinje cell layer development](http://purl.obolibrary.org/obo/GO_0021680) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cerebellar Purkinje cell layer development](http://purl.obolibrary.org/obo/GO_0021680) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cerebellar cortex development `http://purl.obolibrary.org/obo/GO_0021695`
+#### Removed
+- [cerebellar cortex development](http://purl.obolibrary.org/obo/GO_0021695) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cerebellar cortex development](http://purl.obolibrary.org/obo/GO_0021695) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cerebellar granular layer development `http://purl.obolibrary.org/obo/GO_0021681`
+#### Removed
+- [cerebellar granular layer development](http://purl.obolibrary.org/obo/GO_0021681) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cerebellar granular layer development](http://purl.obolibrary.org/obo/GO_0021681) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cerebellar molecular layer development `http://purl.obolibrary.org/obo/GO_0021679`
+#### Removed
+- [cerebellar molecular layer development](http://purl.obolibrary.org/obo/GO_0021679) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cerebellar molecular layer development](http://purl.obolibrary.org/obo/GO_0021679) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### cerebellum development `http://purl.obolibrary.org/obo/GO_0021549`
@@ -708,6 +818,14 @@
 
 #### Added
 - [cerebellum development](http://purl.obolibrary.org/obo/GO_0021549) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cerebral cortex development `http://purl.obolibrary.org/obo/GO_0021987`
+#### Removed
+- [cerebral cortex development](http://purl.obolibrary.org/obo/GO_0021987) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cerebral cortex development](http://purl.obolibrary.org/obo/GO_0021987) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### cervix development `http://purl.obolibrary.org/obo/GO_0060067`
@@ -771,6 +889,14 @@
 
 
 
+### cingulate gyrus development `http://purl.obolibrary.org/obo/GO_0021765`
+#### Removed
+- [cingulate gyrus development](http://purl.obolibrary.org/obo/GO_0021765) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cingulate gyrus development](http://purl.obolibrary.org/obo/GO_0021765) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### circulatory system development `http://purl.obolibrary.org/obo/GO_0072359`
 
 #### Added
@@ -785,12 +911,28 @@
 - [cloaca development](http://purl.obolibrary.org/obo/GO_0035844) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### clypeus development `http://purl.obolibrary.org/obo/GO_0048723`
+#### Removed
+- [clypeus development](http://purl.obolibrary.org/obo/GO_0048723) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [clypeus development](http://purl.obolibrary.org/obo/GO_0048723) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### cochlea development `http://purl.obolibrary.org/obo/GO_0090102`
 #### Removed
 - [cochlea development](http://purl.obolibrary.org/obo/GO_0090102) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [cochlea development](http://purl.obolibrary.org/obo/GO_0090102) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### compound eye corneal lens development `http://purl.obolibrary.org/obo/GO_0048058`
+#### Removed
+- [compound eye corneal lens development](http://purl.obolibrary.org/obo/GO_0048058) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [compound eye corneal lens development](http://purl.obolibrary.org/obo/GO_0048058) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### cornea development in camera-type eye `http://purl.obolibrary.org/obo/GO_0061303`
@@ -809,6 +951,14 @@
 - [corpora quadrigemina development](http://purl.obolibrary.org/obo/GO_0061378) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### corpus callosum development `http://purl.obolibrary.org/obo/GO_0022038`
+#### Removed
+- [corpus callosum development](http://purl.obolibrary.org/obo/GO_0022038) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [corpus callosum development](http://purl.obolibrary.org/obo/GO_0022038) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### cortical collecting duct development `http://purl.obolibrary.org/obo/GO_0072059`
 #### Removed
 - [cortical collecting duct development](http://purl.obolibrary.org/obo/GO_0072059) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -823,6 +973,14 @@
 
 #### Added
 - [cranial skeletal system development](http://purl.obolibrary.org/obo/GO_1904888) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cupula development `http://purl.obolibrary.org/obo/GO_0048887`
+#### Removed
+- [cupula development](http://purl.obolibrary.org/obo/GO_0048887) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [cupula development](http://purl.obolibrary.org/obo/GO_0048887) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### cuticle development `http://purl.obolibrary.org/obo/GO_0042335`
@@ -853,12 +1011,28 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "dUTP + H2O =&gt; dUMP + pyrophosphate" 
 
 
+### deltoid tuberosity development `http://purl.obolibrary.org/obo/GO_0035993`
+#### Removed
+- [deltoid tuberosity development](http://purl.obolibrary.org/obo/GO_0035993) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [deltoid tuberosity development](http://purl.obolibrary.org/obo/GO_0035993) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### dentate gyrus development `http://purl.obolibrary.org/obo/GO_0021542`
 #### Removed
 - [dentate gyrus development](http://purl.obolibrary.org/obo/GO_0021542) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [dentate gyrus development](http://purl.obolibrary.org/obo/GO_0021542) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### dermatome development `http://purl.obolibrary.org/obo/GO_0061054`
+#### Removed
+- [dermatome development](http://purl.obolibrary.org/obo/GO_0061054) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [dermatome development](http://purl.obolibrary.org/obo/GO_0061054) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### descending aorta development `http://purl.obolibrary.org/obo/GO_0035906`
@@ -923,6 +1097,14 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "uracil + NADPH + H+ =&gt; 5,6-dihydrouracil + NADP+" 
 
 
+### dorsal spinal cord development `http://purl.obolibrary.org/obo/GO_0021516`
+#### Removed
+- [dorsal spinal cord development](http://purl.obolibrary.org/obo/GO_0021516) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [dorsal spinal cord development](http://purl.obolibrary.org/obo/GO_0021516) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### embryo development `http://purl.obolibrary.org/obo/GO_0009790`
 
 #### Added
@@ -937,10 +1119,12 @@
 - [embryo development ending in seed dormancy](http://purl.obolibrary.org/obo/GO_0009793) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 
-### embryonic organ development `http://purl.obolibrary.org/obo/GO_0048568`
+### embryonic heart tube elongation `http://purl.obolibrary.org/obo/GO_0036306`
+#### Removed
+- [embryonic heart tube elongation](http://purl.obolibrary.org/obo/GO_0036306) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
-- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [embryonic heart tube elongation](http://purl.obolibrary.org/obo/GO_0036306) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### endocardium development `http://purl.obolibrary.org/obo/GO_0003157`
@@ -1067,6 +1251,14 @@
 - [enteric nervous system development](http://purl.obolibrary.org/obo/GO_0048484) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### epistomal sclerite development `http://purl.obolibrary.org/obo/GO_0048724`
+#### Removed
+- [epistomal sclerite development](http://purl.obolibrary.org/obo/GO_0048724) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [epistomal sclerite development](http://purl.obolibrary.org/obo/GO_0048724) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### epithalamus development `http://purl.obolibrary.org/obo/GO_0021538`
 #### Removed
 - [epithalamus development](http://purl.obolibrary.org/obo/GO_0021538) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1113,12 +1305,6 @@
 - [face development](http://purl.obolibrary.org/obo/GO_0060324) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### fat body development `http://purl.obolibrary.org/obo/GO_0007503`
-
-#### Added
-- [fat body development](http://purl.obolibrary.org/obo/GO_0007503) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### floor plate development `http://purl.obolibrary.org/obo/GO_0033504`
 #### Removed
 - [floor plate development](http://purl.obolibrary.org/obo/GO_0033504) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1133,6 +1319,14 @@
 
 #### Added
 - [forebrain development](http://purl.obolibrary.org/obo/GO_0030900) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### forebrain-midbrain boundary formation `http://purl.obolibrary.org/obo/GO_0021905`
+#### Removed
+- [forebrain-midbrain boundary formation](http://purl.obolibrary.org/obo/GO_0021905) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [forebrain-midbrain boundary formation](http://purl.obolibrary.org/obo/GO_0021905) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### fourth ventricle development `http://purl.obolibrary.org/obo/GO_0021592`
@@ -1151,24 +1345,6 @@
 - [fungiform papilla development](http://purl.obolibrary.org/obo/GO_0061196) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### gallbladder development `http://purl.obolibrary.org/obo/GO_0061010`
-
-#### Added
-- [gallbladder development](http://purl.obolibrary.org/obo/GO_0061010) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### genitalia development `http://purl.obolibrary.org/obo/GO_0048806`
-
-#### Added
-- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### gland development `http://purl.obolibrary.org/obo/GO_0048732`
-
-#### Added
-- [gland development](http://purl.obolibrary.org/obo/GO_0048732) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### glomerular parietal epithelial cell development `http://purl.obolibrary.org/obo/GO_0072016`
 
 #### Added
@@ -1181,6 +1357,14 @@
 
 #### Added
 - [glomerulus development](http://purl.obolibrary.org/obo/GO_0032835) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### glomus development `http://purl.obolibrary.org/obo/GO_0072013`
+#### Removed
+- [glomus development](http://purl.obolibrary.org/obo/GO_0072013) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [glomus development](http://purl.obolibrary.org/obo/GO_0072013) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### glycine N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047961`
@@ -1198,12 +1382,6 @@
 - [glycine N-benzoyltransferase activity](http://purl.obolibrary.org/obo/GO_0047962) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971063" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GLYAT-like proteins transfer glycine to phenylacetyl-CoA" 
 
-
-
-### gonad development `http://purl.obolibrary.org/obo/GO_0008406`
-
-#### Added
-- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### guanyl-nucleotide exchange factor activity `http://purl.obolibrary.org/obo/GO_0005085`
@@ -1243,12 +1421,6 @@
 
 #### Added
 - [head development](http://purl.obolibrary.org/obo/GO_0060322) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### heart development `http://purl.obolibrary.org/obo/GO_0007507`
-
-#### Added
-- [heart development](http://purl.obolibrary.org/obo/GO_0007507) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### heart valve development `http://purl.obolibrary.org/obo/GO_0003170`
@@ -1306,12 +1478,6 @@
 - [hypothalamus development](http://purl.obolibrary.org/obo/GO_0021854) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### imaginal disc development `http://purl.obolibrary.org/obo/GO_0007444`
-
-#### Added
-- [imaginal disc development](http://purl.obolibrary.org/obo/GO_0007444) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### immune system development `http://purl.obolibrary.org/obo/GO_0002520`
 
 #### Added
@@ -1356,6 +1522,14 @@
 - [integument development](http://purl.obolibrary.org/obo/GO_0080060) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 
+### intermediate reticular formation development `http://purl.obolibrary.org/obo/GO_0021727`
+#### Removed
+- [intermediate reticular formation development](http://purl.obolibrary.org/obo/GO_0021727) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [intermediate reticular formation development](http://purl.obolibrary.org/obo/GO_0021727) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### juxtaglomerular apparatus development `http://purl.obolibrary.org/obo/GO_0072051`
 #### Removed
 - [juxtaglomerular apparatus development](http://purl.obolibrary.org/obo/GO_0072051) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1364,10 +1538,12 @@
 - [juxtaglomerular apparatus development](http://purl.obolibrary.org/obo/GO_0072051) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### kidney development `http://purl.obolibrary.org/obo/GO_0001822`
+### labrum development `http://purl.obolibrary.org/obo/GO_0048726`
+#### Removed
+- [labrum development](http://purl.obolibrary.org/obo/GO_0048726) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
-- [kidney development](http://purl.obolibrary.org/obo/GO_0001822) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [labrum development](http://purl.obolibrary.org/obo/GO_0048726) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### labyrinthine layer development `http://purl.obolibrary.org/obo/GO_0060711`
@@ -1384,18 +1560,28 @@
 - [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### larynx development `http://purl.obolibrary.org/obo/GO_0120224`
-
-#### Added
-- [larynx development](http://purl.obolibrary.org/obo/GO_0120224) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### lateral ventricle development `http://purl.obolibrary.org/obo/GO_0021670`
 #### Removed
 - [lateral ventricle development](http://purl.obolibrary.org/obo/GO_0021670) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [lateral ventricle development](http://purl.obolibrary.org/obo/GO_0021670) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### left horn of sinus venosus development `http://purl.obolibrary.org/obo/GO_0061079`
+#### Removed
+- [left horn of sinus venosus development](http://purl.obolibrary.org/obo/GO_0061079) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [left horn of sinus venosus development](http://purl.obolibrary.org/obo/GO_0061079) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### lens development in camera-type eye `http://purl.obolibrary.org/obo/GO_0002088`
+#### Removed
+- [lens development in camera-type eye](http://purl.obolibrary.org/obo/GO_0002088) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [lens development in camera-type eye](http://purl.obolibrary.org/obo/GO_0002088) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### limbic system development `http://purl.obolibrary.org/obo/GO_0021761`
@@ -1412,12 +1598,6 @@
 - [lung alveolus development](http://purl.obolibrary.org/obo/GO_0048286) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### lung development `http://purl.obolibrary.org/obo/GO_0030324`
-
-#### Added
-- [lung development](http://purl.obolibrary.org/obo/GO_0030324) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### lung lobe development `http://purl.obolibrary.org/obo/GO_0060462`
 #### Removed
 - [lung lobe development](http://purl.obolibrary.org/obo/GO_0060462) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1432,12 +1612,6 @@
 
 #### Added
 - [lung saccule development](http://purl.obolibrary.org/obo/GO_0060430) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### lymph node development `http://purl.obolibrary.org/obo/GO_0048535`
-
-#### Added
-- [lymph node development](http://purl.obolibrary.org/obo/GO_0048535) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### lymph vessel development `http://purl.obolibrary.org/obo/GO_0001945`
@@ -1464,6 +1638,14 @@
 - [mammary gland lobule development](http://purl.obolibrary.org/obo/GO_0061377) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### mammillary axonal complex development `http://purl.obolibrary.org/obo/GO_0061373`
+#### Removed
+- [mammillary axonal complex development](http://purl.obolibrary.org/obo/GO_0061373) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [mammillary axonal complex development](http://purl.obolibrary.org/obo/GO_0061373) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### mammillary body development `http://purl.obolibrary.org/obo/GO_0021767`
 #### Removed
 - [mammillary body development](http://purl.obolibrary.org/obo/GO_0021767) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1472,12 +1654,52 @@
 - [mammillary body development](http://purl.obolibrary.org/obo/GO_0021767) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### mammillotectal axonal tract development `http://purl.obolibrary.org/obo/GO_0061375`
+#### Removed
+- [mammillotectal axonal tract development](http://purl.obolibrary.org/obo/GO_0061375) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [mammillotectal axonal tract development](http://purl.obolibrary.org/obo/GO_0061375) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### mammillotegmental axonal tract development `http://purl.obolibrary.org/obo/GO_0061376`
+#### Removed
+- [mammillotegmental axonal tract development](http://purl.obolibrary.org/obo/GO_0061376) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [mammillotegmental axonal tract development](http://purl.obolibrary.org/obo/GO_0061376) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### mammillothalamic axonal tract development `http://purl.obolibrary.org/obo/GO_0061374`
+#### Removed
+- [mammillothalamic axonal tract development](http://purl.obolibrary.org/obo/GO_0061374) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [mammillothalamic axonal tract development](http://purl.obolibrary.org/obo/GO_0061374) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### maternal placenta development `http://purl.obolibrary.org/obo/GO_0001893`
+#### Removed
+- [maternal placenta development](http://purl.obolibrary.org/obo/GO_0001893) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [maternal placenta development](http://purl.obolibrary.org/obo/GO_0001893) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### medulla oblongata development `http://purl.obolibrary.org/obo/GO_0021550`
 #### Removed
 - [medulla oblongata development](http://purl.obolibrary.org/obo/GO_0021550) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [medulla oblongata development](http://purl.obolibrary.org/obo/GO_0021550) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### medullary reticular formation development `http://purl.obolibrary.org/obo/GO_0021723`
+#### Removed
+- [medullary reticular formation development](http://purl.obolibrary.org/obo/GO_0021723) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [medullary reticular formation development](http://purl.obolibrary.org/obo/GO_0021723) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### membrane protein proteolysis involved in retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904211`
@@ -1578,6 +1800,14 @@
 - [midbrain development](http://purl.obolibrary.org/obo/GO_0030901) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### midbrain-hindbrain boundary development `http://purl.obolibrary.org/obo/GO_0030917`
+#### Removed
+- [midbrain-hindbrain boundary development](http://purl.obolibrary.org/obo/GO_0030917) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [midbrain-hindbrain boundary development](http://purl.obolibrary.org/obo/GO_0030917) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### mitochondrial signal sequence receptor activity `http://purl.obolibrary.org/obo/GO_0140436`
 
 #### Added
@@ -1644,6 +1874,22 @@
 
 #### Added
 - [muscle structure development](http://purl.obolibrary.org/obo/GO_0061061) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### mushroom body development `http://purl.obolibrary.org/obo/GO_0016319`
+#### Removed
+- [mushroom body development](http://purl.obolibrary.org/obo/GO_0016319) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [mushroom body development](http://purl.obolibrary.org/obo/GO_0016319) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### myotome development `http://purl.obolibrary.org/obo/GO_0061055`
+#### Removed
+- [myotome development](http://purl.obolibrary.org/obo/GO_0061055) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [myotome development](http://purl.obolibrary.org/obo/GO_0061055) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### nail development `http://purl.obolibrary.org/obo/GO_0035878`
@@ -2127,12 +2373,28 @@
 - [neural nucleus development](http://purl.obolibrary.org/obo/GO_0048857) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### neural retina development `http://purl.obolibrary.org/obo/GO_0003407`
+#### Removed
+- [neural retina development](http://purl.obolibrary.org/obo/GO_0003407) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [neural retina development](http://purl.obolibrary.org/obo/GO_0003407) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### nipple development `http://purl.obolibrary.org/obo/GO_0060618`
 #### Removed
 - [nipple development](http://purl.obolibrary.org/obo/GO_0060618) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [nipple development](http://purl.obolibrary.org/obo/GO_0060618) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### notum development `http://purl.obolibrary.org/obo/GO_0007477`
+#### Removed
+- [notum development](http://purl.obolibrary.org/obo/GO_0007477) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [notum development](http://purl.obolibrary.org/obo/GO_0007477) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### nuclear export signal receptor activity `http://purl.obolibrary.org/obo/GO_0005049`
@@ -2362,6 +2624,14 @@
 - [olfactory bulb development](http://purl.obolibrary.org/obo/GO_0021772) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### olfactory bulb mitral cell layer development `http://purl.obolibrary.org/obo/GO_0061034`
+#### Removed
+- [olfactory bulb mitral cell layer development](http://purl.obolibrary.org/obo/GO_0061034) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [olfactory bulb mitral cell layer development](http://purl.obolibrary.org/obo/GO_0061034) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### olfactory cortex development `http://purl.obolibrary.org/obo/GO_0021989`
 #### Removed
 - [olfactory cortex development](http://purl.obolibrary.org/obo/GO_0021989) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -2378,11 +2648,43 @@
 - [olfactory lobe development](http://purl.obolibrary.org/obo/GO_0021988) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### olfactory pit development `http://purl.obolibrary.org/obo/GO_0060166`
+#### Removed
+- [olfactory pit development](http://purl.obolibrary.org/obo/GO_0060166) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [olfactory pit development](http://purl.obolibrary.org/obo/GO_0060166) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### omega-hydroxydecanoate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0050153`
 #### Removed
 - [omega-hydroxydecanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050153) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971258" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADH7 dehydrogenates 10-OH-DECA" 
 
+
+
+### optic chiasma development `http://purl.obolibrary.org/obo/GO_0061360`
+#### Removed
+- [optic chiasma development](http://purl.obolibrary.org/obo/GO_0061360) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [optic chiasma development](http://purl.obolibrary.org/obo/GO_0061360) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### orbitofrontal cortex development `http://purl.obolibrary.org/obo/GO_0021769`
+#### Removed
+- [orbitofrontal cortex development](http://purl.obolibrary.org/obo/GO_0021769) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [orbitofrontal cortex development](http://purl.obolibrary.org/obo/GO_0021769) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### otolith development `http://purl.obolibrary.org/obo/GO_0048840`
+#### Removed
+- [otolith development](http://purl.obolibrary.org/obo/GO_0048840) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [otolith development](http://purl.obolibrary.org/obo/GO_0048840) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### outer stripe development `http://purl.obolibrary.org/obo/GO_0072058`
@@ -2409,10 +2711,12 @@
 - [pallium development](http://purl.obolibrary.org/obo/GO_0021543) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### pancreas development `http://purl.obolibrary.org/obo/GO_0031016`
+### parahippocampal gyrus development `http://purl.obolibrary.org/obo/GO_0021770`
+#### Removed
+- [parahippocampal gyrus development](http://purl.obolibrary.org/obo/GO_0021770) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
-- [pancreas development](http://purl.obolibrary.org/obo/GO_0031016) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [parahippocampal gyrus development](http://purl.obolibrary.org/obo/GO_0021770) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### parasympathetic nervous system development `http://purl.obolibrary.org/obo/GO_0048486`
@@ -2685,18 +2989,22 @@
 
 
 
-### placenta development `http://purl.obolibrary.org/obo/GO_0001890`
-
-#### Added
-- [placenta development](http://purl.obolibrary.org/obo/GO_0001890) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### plant epidermis development `http://purl.obolibrary.org/obo/GO_0090558`
 #### Removed
 - [plant epidermis development](http://purl.obolibrary.org/obo/GO_0090558) SubClassOf [tissue development](http://purl.obolibrary.org/obo/GO_0009888) 
 
 #### Added
 - [plant epidermis development](http://purl.obolibrary.org/obo/GO_0090558) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+
+### plant gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160109`
+#### Removed
+- [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any developmental process whose specific outcome is the progression of a gross anatomical part of a plant from an initial immature state, to a later, more mature state." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+
+#### Added
+- [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A developmental process whose specific outcome is the progression of a gross anatomical part of a plant over time from an initial condition to a later condition." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
 
 
 ### plasma kallikrein-kinin cascade `http://purl.obolibrary.org/obo/GO_0002353`
@@ -2922,10 +3230,42 @@
 - [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051222) 
 
 
+### posterior cibarial plate development `http://purl.obolibrary.org/obo/GO_0048727`
+#### Removed
+- [posterior cibarial plate development](http://purl.obolibrary.org/obo/GO_0048727) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [posterior cibarial plate development](http://purl.obolibrary.org/obo/GO_0048727) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### posterior midgut development `http://purl.obolibrary.org/obo/GO_0007497`
+#### Removed
+- [posterior midgut development](http://purl.obolibrary.org/obo/GO_0007497) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [posterior midgut development](http://purl.obolibrary.org/obo/GO_0007497) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### preganglionic parasympathetic fiber development `http://purl.obolibrary.org/obo/GO_0021783`
 
 #### Added
 - [preganglionic parasympathetic fiber development](http://purl.obolibrary.org/obo/GO_0021783) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### progression of morphogenetic furrow involved in compound eye morphogenesis `http://purl.obolibrary.org/obo/GO_0007458`
+#### Removed
+- [progression of morphogenetic furrow involved in compound eye morphogenesis](http://purl.obolibrary.org/obo/GO_0007458) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [progression of morphogenetic furrow involved in compound eye morphogenesis](http://purl.obolibrary.org/obo/GO_0007458) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### pronephric sinus development `http://purl.obolibrary.org/obo/GO_0039012`
+#### Removed
+- [pronephric sinus development](http://purl.obolibrary.org/obo/GO_0039012) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [pronephric sinus development](http://purl.obolibrary.org/obo/GO_0039012) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### prostate glandular acinus development `http://purl.obolibrary.org/obo/GO_0060525`
@@ -3333,18 +3673,20 @@
 - [rhombomere development](http://purl.obolibrary.org/obo/GO_0021546) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### right horn of sinus venosus development `http://purl.obolibrary.org/obo/GO_0061080`
+#### Removed
+- [right horn of sinus venosus development](http://purl.obolibrary.org/obo/GO_0061080) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [right horn of sinus venosus development](http://purl.obolibrary.org/obo/GO_0061080) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### roof of mouth development `http://purl.obolibrary.org/obo/GO_0060021`
 #### Removed
 - [roof of mouth development](http://purl.obolibrary.org/obo/GO_0060021) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [roof of mouth development](http://purl.obolibrary.org/obo/GO_0060021) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### sensory organ development `http://purl.obolibrary.org/obo/GO_0007423`
-
-#### Added
-- [sensory organ development](http://purl.obolibrary.org/obo/GO_0007423) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### sensory system development `http://purl.obolibrary.org/obo/GO_0048880`
@@ -3469,12 +3811,6 @@
 - [skeletal system development](http://purl.obolibrary.org/obo/GO_0001501) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### skin development `http://purl.obolibrary.org/obo/GO_0043588`
-
-#### Added
-- [skin development](http://purl.obolibrary.org/obo/GO_0043588) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### soft palate development `http://purl.obolibrary.org/obo/GO_0060023`
 #### Removed
 - [soft palate development](http://purl.obolibrary.org/obo/GO_0060023) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -3498,12 +3834,6 @@
 - [spinal cord development](http://purl.obolibrary.org/obo/GO_0021510) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### spleen development `http://purl.obolibrary.org/obo/GO_0048536`
-
-#### Added
-- [spleen development](http://purl.obolibrary.org/obo/GO_0048536) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
 ### stele development `http://purl.obolibrary.org/obo/GO_0010479`
 #### Removed
 - [stele development](http://purl.obolibrary.org/obo/GO_0010479) SubClassOf [tissue development](http://purl.obolibrary.org/obo/GO_0009888) 
@@ -3524,6 +3854,14 @@
 
 #### Added
 - [stomatogastric nervous system development](http://purl.obolibrary.org/obo/GO_0007421) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### striatum development `http://purl.obolibrary.org/obo/GO_0021756`
+#### Removed
+- [striatum development](http://purl.obolibrary.org/obo/GO_0021756) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [striatum development](http://purl.obolibrary.org/obo/GO_0021756) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### subpallium development `http://purl.obolibrary.org/obo/GO_0021544`
@@ -3558,17 +3896,27 @@
 - [superior colliculus development](http://purl.obolibrary.org/obo/GO_0061380) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### superior reticular formation development `http://purl.obolibrary.org/obo/GO_0021729`
+#### Removed
+- [superior reticular formation development](http://purl.obolibrary.org/obo/GO_0021729) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [superior reticular formation development](http://purl.obolibrary.org/obo/GO_0021729) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### superior temporal gyrus development `http://purl.obolibrary.org/obo/GO_0071109`
+#### Removed
+- [superior temporal gyrus development](http://purl.obolibrary.org/obo/GO_0071109) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [superior temporal gyrus development](http://purl.obolibrary.org/obo/GO_0071109) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
 ### superoxide dismutase copper chaperone activity `http://purl.obolibrary.org/obo/GO_0016532`
 #### Removed
 - [superoxide dismutase copper chaperone activity](http://purl.obolibrary.org/obo/GO_0016532) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3299753" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CCS transfers Cu to SOD1 and oxidizes cysteine residues in SOD1" 
 
-
-
-### swim bladder development `http://purl.obolibrary.org/obo/GO_0048794`
-
-#### Added
-- [swim bladder development](http://purl.obolibrary.org/obo/GO_0048794) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### sympathetic nervous system development `http://purl.obolibrary.org/obo/GO_0048485`
@@ -3646,10 +3994,18 @@
 - [tissue development](http://purl.obolibrary.org/obo/GO_0009888) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### trachea development `http://purl.obolibrary.org/obo/GO_0060438`
+### tissue regeneration `http://purl.obolibrary.org/obo/GO_0042246`
 
 #### Added
-- [trachea development](http://purl.obolibrary.org/obo/GO_0060438) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [tissue regeneration](http://purl.obolibrary.org/obo/GO_0042246) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### tooth eruption `http://purl.obolibrary.org/obo/GO_0044691`
+#### Removed
+- [tooth eruption](http://purl.obolibrary.org/obo/GO_0044691) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [tooth eruption](http://purl.obolibrary.org/obo/GO_0044691) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### trachea submucosa development `http://purl.obolibrary.org/obo/GO_0061152`
@@ -3692,16 +4048,12 @@
 
 
 
-### urethra development `http://purl.obolibrary.org/obo/GO_0061068`
+### umbilical cord development `http://purl.obolibrary.org/obo/GO_0061027`
+#### Removed
+- [umbilical cord development](http://purl.obolibrary.org/obo/GO_0061027) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
-- [urethra development](http://purl.obolibrary.org/obo/GO_0061068) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
-
-
-### urinary bladder development `http://purl.obolibrary.org/obo/GO_0060157`
-
-#### Added
-- [urinary bladder development](http://purl.obolibrary.org/obo/GO_0060157) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [umbilical cord development](http://purl.obolibrary.org/obo/GO_0061027) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### urogenital system development `http://purl.obolibrary.org/obo/GO_0001655`
@@ -3710,10 +4062,12 @@
 - [urogenital system development](http://purl.obolibrary.org/obo/GO_0001655) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### uterus development `http://purl.obolibrary.org/obo/GO_0060065`
+### vascular cord development `http://purl.obolibrary.org/obo/GO_0072360`
+#### Removed
+- [vascular cord development](http://purl.obolibrary.org/obo/GO_0072360) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
-- [uterus development](http://purl.obolibrary.org/obo/GO_0060065) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [vascular cord development](http://purl.obolibrary.org/obo/GO_0072360) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### vasculature development `http://purl.obolibrary.org/obo/GO_0001944`
@@ -3803,10 +4157,20 @@
 - [venom-mediated perturbation of mast cell degranulation](http://purl.obolibrary.org/obo/GO_0044479) SubClassOf [venom-mediated perturbation of immune response](http://purl.obolibrary.org/obo/GO_0140428) 
 
 
-### ventral cord development `http://purl.obolibrary.org/obo/GO_0007419`
+### ventral midline development `http://purl.obolibrary.org/obo/GO_0007418`
+#### Removed
+- [ventral midline development](http://purl.obolibrary.org/obo/GO_0007418) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
-- [ventral cord development](http://purl.obolibrary.org/obo/GO_0007419) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+- [ventral midline development](http://purl.obolibrary.org/obo/GO_0007418) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### ventral spinal cord development `http://purl.obolibrary.org/obo/GO_0021517`
+#### Removed
+- [ventral spinal cord development](http://purl.obolibrary.org/obo/GO_0021517) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [ventral spinal cord development](http://purl.obolibrary.org/obo/GO_0021517) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
 ### ventral tegmental area development `http://purl.obolibrary.org/obo/GO_1904866`
@@ -3837,4 +4201,12 @@
 
 #### Added
 - [visceral serous pericardium development](http://purl.obolibrary.org/obo/GO_0061032) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### yolk syncytial layer development `http://purl.obolibrary.org/obo/GO_0106336`
+#### Removed
+- [yolk syncytial layer development](http://purl.obolibrary.org/obo/GO_0106336) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+#### Added
+- [yolk syncytial layer development](http://purl.obolibrary.org/obo/GO_0106336) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
