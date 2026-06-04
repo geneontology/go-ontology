@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-03/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-04/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-03" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-04" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -513,6 +513,18 @@
 
 #### Added
 - [anterior rotation of the optic cup](http://purl.obolibrary.org/obo/GO_0003410) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### anther development `http://purl.obolibrary.org/obo/GO_0048653`
+
+#### Added
+- [anther development](http://purl.obolibrary.org/obo/GO_0048653) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### anther wall tapetum development `http://purl.obolibrary.org/obo/GO_0048658`
+
+#### Added
+- [anther wall tapetum development](http://purl.obolibrary.org/obo/GO_0048658) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### appendage development `http://purl.obolibrary.org/obo/GO_0048736`
@@ -1010,6 +1022,8 @@
 #### Added
 - [embryo development ending in seed dormancy](http://purl.obolibrary.org/obo/GO_0009793) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+- [embryo development ending in seed dormancy](http://purl.obolibrary.org/obo/GO_0009793) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
 
 ### embryonic heart tube elongation `http://purl.obolibrary.org/obo/GO_0036306`
 #### Removed
@@ -1061,6 +1075,8 @@
 
 #### Added
 - [endosperm development](http://purl.obolibrary.org/obo/GO_0009960) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+- [endosperm development](http://purl.obolibrary.org/obo/GO_0009960) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### enoyl-CoA hydratase activity `http://purl.obolibrary.org/obo/GO_0004300`
@@ -1171,6 +1187,12 @@
 - [floor plate development](http://purl.obolibrary.org/obo/GO_0033504) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### floral whorl development `http://purl.obolibrary.org/obo/GO_0048438`
+
+#### Added
+- [floral whorl development](http://purl.obolibrary.org/obo/GO_0048438) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### forebrain development `http://purl.obolibrary.org/obo/GO_0030900`
 #### Removed
 - [forebrain development](http://purl.obolibrary.org/obo/GO_0030900) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1195,12 +1217,36 @@
 - [fourth ventricle development](http://purl.obolibrary.org/obo/GO_0021592) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### fruit development `http://purl.obolibrary.org/obo/GO_0010154`
+
+#### Added
+- [fruit development](http://purl.obolibrary.org/obo/GO_0010154) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### fruit replum development `http://purl.obolibrary.org/obo/GO_1990058`
+
+#### Added
+- [fruit replum development](http://purl.obolibrary.org/obo/GO_1990058) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### fruit valve development `http://purl.obolibrary.org/obo/GO_1990059`
+
+#### Added
+- [fruit valve development](http://purl.obolibrary.org/obo/GO_1990059) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### fungiform papilla development `http://purl.obolibrary.org/obo/GO_0061196`
 #### Removed
 - [fungiform papilla development](http://purl.obolibrary.org/obo/GO_0061196) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [fungiform papilla development](http://purl.obolibrary.org/obo/GO_0061196) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### gametophyte development `http://purl.obolibrary.org/obo/GO_0048229`
+
+#### Added
+- [gametophyte development](http://purl.obolibrary.org/obo/GO_0048229) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### glomerular parietal epithelial cell development `http://purl.obolibrary.org/obo/GO_0072016`
@@ -1390,6 +1436,8 @@
 
 #### Added
 - [integument development](http://purl.obolibrary.org/obo/GO_0080060) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+- [integument development](http://purl.obolibrary.org/obo/GO_0080060) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### intermediate reticular formation development `http://purl.obolibrary.org/obo/GO_0021727`
@@ -1585,6 +1633,8 @@
 #### Added
 - [meristem development](http://purl.obolibrary.org/obo/GO_0048507) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+- [meristem development](http://purl.obolibrary.org/obo/GO_0048507) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
 
 ### metalloendopeptidase activity `http://purl.obolibrary.org/obo/GO_0004222`
 #### Removed
@@ -1726,6 +1776,12 @@
 - [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855188" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "IP6 transports from the cytosol to the nucleus" 
 
+
+
+### nectary development `http://purl.obolibrary.org/obo/GO_0010254`
+
+#### Added
+- [nectary development](http://purl.obolibrary.org/obo/GO_0010254) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### negative regulation of PKR/eIFalpha signaling `http://purl.obolibrary.org/obo/GO_7770077`
@@ -3416,6 +3472,12 @@
 - [ovarian follicle development](http://purl.obolibrary.org/obo/GO_0001541) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### palisade mesophyll development `http://purl.obolibrary.org/obo/GO_1903866`
+
+#### Added
+- [palisade mesophyll development](http://purl.obolibrary.org/obo/GO_1903866) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### pallium development `http://purl.obolibrary.org/obo/GO_0021543`
 #### Removed
 - [pallium development](http://purl.obolibrary.org/obo/GO_0021543) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -3507,6 +3569,8 @@
 #### Added
 - [phloem or xylem histogenesis](http://purl.obolibrary.org/obo/GO_0010087) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+- [phloem or xylem histogenesis](http://purl.obolibrary.org/obo/GO_0010087) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
 
 ### phospholipid scramblase activity `http://purl.obolibrary.org/obo/GO_0017128`
 #### Removed
@@ -3559,6 +3623,8 @@
 #### Added
 - [plant epidermis development](http://purl.obolibrary.org/obo/GO_0090558) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+- [plant epidermis development](http://purl.obolibrary.org/obo/GO_0090558) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
 
 ### plant gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160109`
 #### Removed
@@ -3568,6 +3634,24 @@
 #### Added
 - [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A developmental process whose specific outcome is the progression of a gross anatomical part of a plant over time from an initial condition to a later condition." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+
+
+### plant organ development `http://purl.obolibrary.org/obo/GO_0099402`
+
+#### Added
+- [plant organ development](http://purl.obolibrary.org/obo/GO_0099402) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### plant septum development `http://purl.obolibrary.org/obo/GO_1905328`
+
+#### Added
+- [plant septum development](http://purl.obolibrary.org/obo/GO_1905328) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### plant-type ovary development `http://purl.obolibrary.org/obo/GO_0035670`
+
+#### Added
+- [plant-type ovary development](http://purl.obolibrary.org/obo/GO_0035670) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### plasma kallikrein-kinin cascade `http://purl.obolibrary.org/obo/GO_0002353`
@@ -3996,6 +4080,30 @@
 - [roof of mouth development](http://purl.obolibrary.org/obo/GO_0060021) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### root cap development `http://purl.obolibrary.org/obo/GO_0048829`
+
+#### Added
+- [root cap development](http://purl.obolibrary.org/obo/GO_0048829) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### root system development `http://purl.obolibrary.org/obo/GO_0022622`
+
+#### Added
+- [root system development](http://purl.obolibrary.org/obo/GO_0022622) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### seed coat development `http://purl.obolibrary.org/obo/GO_0010214`
+
+#### Added
+- [seed coat development](http://purl.obolibrary.org/obo/GO_0010214) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### seed development `http://purl.obolibrary.org/obo/GO_0048316`
+
+#### Added
+- [seed development](http://purl.obolibrary.org/obo/GO_0048316) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### sensory system development `http://purl.obolibrary.org/obo/GO_0048880`
 
 #### Added
@@ -4112,6 +4220,12 @@
 - [serous membrane development](http://purl.obolibrary.org/obo/GO_1904817) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### shoot system development `http://purl.obolibrary.org/obo/GO_0048367`
+
+#### Added
+- [shoot system development](http://purl.obolibrary.org/obo/GO_0048367) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### skeletal system development `http://purl.obolibrary.org/obo/GO_0001501`
 
 #### Added
@@ -4141,12 +4255,32 @@
 - [spinal cord development](http://purl.obolibrary.org/obo/GO_0021510) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### stamen filament development `http://purl.obolibrary.org/obo/GO_0080086`
+
+#### Added
+- [stamen filament development](http://purl.obolibrary.org/obo/GO_0080086) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### stele development `http://purl.obolibrary.org/obo/GO_0010479`
 #### Removed
 - [stele development](http://purl.obolibrary.org/obo/GO_0010479) SubClassOf [tissue development](http://purl.obolibrary.org/obo/GO_0009888) 
 
 #### Added
 - [stele development](http://purl.obolibrary.org/obo/GO_0010479) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+- [stele development](http://purl.obolibrary.org/obo/GO_0010479) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### stigma development `http://purl.obolibrary.org/obo/GO_0048480`
+
+#### Added
+- [stigma development](http://purl.obolibrary.org/obo/GO_0048480) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### stipule development `http://purl.obolibrary.org/obo/GO_0010865`
+
+#### Added
+- [stipule development](http://purl.obolibrary.org/obo/GO_0010865) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### stomach development `http://purl.obolibrary.org/obo/GO_0062094`
@@ -4163,12 +4297,24 @@
 - [stomatogastric nervous system development](http://purl.obolibrary.org/obo/GO_0007421) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### stomium development `http://purl.obolibrary.org/obo/GO_0080166`
+
+#### Added
+- [stomium development](http://purl.obolibrary.org/obo/GO_0080166) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
 ### striatum development `http://purl.obolibrary.org/obo/GO_0021756`
 #### Removed
 - [striatum development](http://purl.obolibrary.org/obo/GO_0021756) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [striatum development](http://purl.obolibrary.org/obo/GO_0021756) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### style development `http://purl.obolibrary.org/obo/GO_0048479`
+
+#### Added
+- [style development](http://purl.obolibrary.org/obo/GO_0048479) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### subpallium development `http://purl.obolibrary.org/obo/GO_0021544`
@@ -4224,6 +4370,12 @@
 - [superoxide dismutase copper chaperone activity](http://purl.obolibrary.org/obo/GO_0016532) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3299753" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CCS transfers Cu to SOD1 and oxidizes cysteine residues in SOD1" 
 
+
+
+### suspensor development `http://purl.obolibrary.org/obo/GO_0010098`
+
+#### Added
+- [suspensor development](http://purl.obolibrary.org/obo/GO_0010098) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
 ### sympathetic nervous system development `http://purl.obolibrary.org/obo/GO_0048485`
