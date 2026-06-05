@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-04/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-05/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-04" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-05" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -651,6 +651,16 @@
 #### Removed
 - [carnitine catabolic process](http://purl.obolibrary.org/obo/GO_0042413) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:" 
 
+
+
+### carnitine shuttle `http://purl.obolibrary.org/obo/GO_0006853`
+#### Removed
+- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Carnitine#Role_in_fatty_acid_metabolism" 
+
+#### Added
+- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32167"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6111" 
 
 
 ### carnitine:O-acyl-L-carnitine antiporter activity `http://purl.obolibrary.org/obo/GO_0005476`
