@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Skills — A Tutorial (GO Ontology)</title>
+<style>
+  :root{
+    --bg:#0d1117; --bg2:#161b22; --fg:#e6edf3; --muted:#9da7b3;
+    --accent:#58a6ff; --accent2:#a371f7; --green:#3fb950; --amber:#d29922;
+    --border:#30363d; --code:#0b1220;
+    --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:var(--sans)}
+  #deck{height:100vh;width:100vw;overflow:hidden;position:relative}
+  .slide{
+    position:absolute;inset:0;display:none;flex-direction:column;
+    padding:4.5vh 6vw 8vh;overflow:auto;animation:fade .35s ease;
+  }
+  .slide.active{display:flex}
+  @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  h1{font-size:clamp(2rem,5vw,3.6rem);line-height:1.07;margin:.2em 0 .3em}
+  h2{font-size:clamp(1.5rem,3.4vw,2.5rem);margin:0 0 .55em;color:var(--fg);
+     border-bottom:2px solid var(--border);padding-bottom:.25em}
+  h3{font-size:clamp(1.05rem,2vw,1.35rem);margin:.9em 0 .35em;color:var(--accent)}
+  p,li{font-size:clamp(1rem,1.7vw,1.4rem);line-height:1.5}
+  ul,ol{margin:.2em 0 .2em 1.1em}
+  li{margin:.32em 0}
+  .lead{color:var(--muted);font-size:clamp(1.1rem,2.2vw,1.7rem);max-width:46ch}
+  .kicker{color:var(--accent2);font-weight:700;letter-spacing:.12em;
+          text-transform:uppercase;font-size:.8rem;margin-bottom:.6em}
+  code{font-family:var(--mono);background:var(--bg2);border:1px solid var(--border);
+       border-radius:5px;padding:.08em .4em;font-size:.92em;color:#ffd9a0}
+  pre{background:var(--code);border:1px solid var(--border);border-radius:10px;
+      padding:1em 1.2em;overflow:auto;margin:.5em 0}
+  pre code{background:none;border:none;padding:0;color:#cdd9e5;font-size:clamp(.78rem,1.25vw,1.02rem);line-height:1.45}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:2.2vw;align-items:start}
+  .three{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4vw}
+  .card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;
+        padding:1em 1.15em}
+  .card h3{margin-top:0}
+  .pill{display:inline-block;background:rgba(88,166,255,.12);border:1px solid var(--accent);
+        color:var(--accent);border-radius:999px;padding:.12em .8em;font-size:.85rem;
+        font-family:var(--mono);margin:.15em .25em .15em 0}
+  .pill.p2{background:rgba(163,113,247,.12);border-color:var(--accent2);color:var(--accent2)}
+  .pill.g{background:rgba(63,185,80,.12);border-color:var(--green);color:var(--green)}
+  .muted{color:var(--muted)}
+  .accent{color:var(--accent)}
+  .big{font-size:clamp(1.2rem,2.6vw,1.9rem)}
+  .center{justify-content:center}
+  .grid-skills{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1vw;margin-top:.5em}
+  .skill-tile{background:var(--bg2);border:1px solid var(--border);border-radius:10px;
+              padding:.8em .9em}
+  .skill-tile .nm{font-family:var(--mono);color:var(--accent);font-weight:700;font-size:1rem}
+  .skill-tile .ds{color:var(--muted);font-size:.82rem;line-height:1.35;margin-top:.3em}
+  .flow{display:flex;align-items:center;gap:.6em;flex-wrap:wrap;margin:.6em 0;font-family:var(--mono);font-size:clamp(.8rem,1.4vw,1.05rem)}
+  .flow .step{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:.4em .7em}
+  .flow .arr{color:var(--accent2);font-weight:700}
+  .tag{font-family:var(--mono);font-size:.8rem;color:var(--amber)}
+  footer{position:fixed;bottom:0;left:0;right:0;height:5vh;display:flex;align-items:center;
+         justify-content:space-between;padding:0 2vw;font-size:.8rem;color:var(--muted);
+         background:linear-gradient(transparent,rgba(13,17,23,.9));pointer-events:none}
+  #bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .3s}
+  .nav{pointer-events:auto}
+  .nav button{background:var(--bg2);color:var(--fg);border:1px solid var(--border);
+              border-radius:6px;padding:.25em .7em;cursor:pointer;font-size:.85rem}
+  .nav button:hover{border-color:var(--accent)}
+  kbd{font-family:var(--mono);background:var(--bg2);border:1px solid var(--border);
+      border-bottom-width:2px;border-radius:4px;padding:.05em .45em;font-size:.85em}
+  .note{border-left:3px solid var(--amber);background:rgba(210,153,34,.07);
+        padding:.55em .9em;border-radius:0 8px 8px 0;margin:.6em 0}
+  table{border-collapse:collapse;width:100%;margin:.4em 0}
+  td,th{border:1px solid var(--border);padding:.45em .7em;text-align:left;font-size:clamp(.85rem,1.4vw,1.1rem)}
+  th{background:var(--bg2);color:var(--accent)}
+  .title-wrap{flex:1;display:flex;flex-direction:column;justify-content:center}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<div id="deck">
+
+  <!-- 1 -->
+  <section class="slide active center">
+    <div class="title-wrap">
+      <div class="kicker">Tutorial · Claude Code</div>
+      <h1>Claude Skills</h1>
+      <p class="lead">How skills work — and the eight skills that power editing of the <strong>GO Ontology</strong> repository.</p>
+      <p class="muted" style="margin-top:2em">Use <kbd>→</kbd> / <kbd>←</kbd> or <kbd>Space</kbd> to navigate · <kbd>F</kbd> fullscreen · <kbd>O</kbd> overview</p>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section class="slide">
+    <h2>What is a Claude skill?</h2>
+    <div class="two">
+      <div>
+        <p>A <strong>skill</strong> is a folder of instructions and optional resources that teaches Claude how to do a specialized task <em>well</em>, your way.</p>
+        <ul>
+          <li>Lives in <code>.claude/skills/&lt;name&gt;/</code></li>
+          <li>Always contains a <code>SKILL.md</code></li>
+          <li>May bundle scripts, templates, reference docs</li>
+          <li>Loaded <strong>on demand</strong> — only when relevant</li>
+        </ul>
+        <p class="muted">Think of it as an expert checklist Claude pulls off the shelf at the right moment, instead of cramming every procedure into one giant prompt.</p>
+      </div>
+      <div>
+        <pre><code>.claude/
+└── skills/
+    └── term-obsoletion/
+        └── SKILL.md      ← the instructions
+        (+ scripts, refs,
+           templates …)</code></pre>
+        <p><span class="pill">portable</span><span class="pill p2">version-controlled</span><span class="pill g">composable</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section class="slide">
+    <h2>The problem skills solve</h2>
+    <div class="two">
+      <div>
+        <h3>Without skills</h3>
+        <ul>
+          <li>One enormous system prompt with every rule for every task</li>
+          <li>Wastes context on procedures you aren't using right now</li>
+          <li>Hard to maintain, hard to share, easy to contradict</li>
+        </ul>
+      </div>
+      <div>
+        <h3>With skills</h3>
+        <ul>
+          <li>Each procedure is a small, focused file</li>
+          <li>Claude reads only the metadata until a skill is needed</li>
+          <li>Full instructions load <em>just in time</em></li>
+          <li>Reusable across sessions, repos, and teammates</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note big">Core idea: <strong>progressive disclosure</strong> — show Claude a little, then more only when it matters.</div>
+  </section>
+
+  <!-- 4 -->
+  <section class="slide">
+    <h2>Anatomy of a <code>SKILL.md</code></h2>
+    <div class="two">
+      <div>
+        <pre><code>---
+name: term-obsoletion
+description: For handling the
+  process around obsoleting GO
+  terms. ... use this skill ...
+---
+
+## About obsoletion
+Obsoletions fall into 3 categories:
+1. With direct replacement
+2. With candidate replacements
+3. With no replacement
+...detailed procedure...</code></pre>
+      </div>
+      <div>
+        <h3>Two parts</h3>
+        <p><strong>1. YAML frontmatter</strong></p>
+        <ul>
+          <li><code>name</code> — the skill's id (and its <code>/slash</code> command)</li>
+          <li><code>description</code> — <em>when</em> to use it. This is the most important line you write.</li>
+        </ul>
+        <p><strong>2. The body (Markdown)</strong></p>
+        <ul>
+          <li><em>How</em> to do the task: steps, rules, examples, gotchas</li>
+        </ul>
+        <div class="note">Claude sees only <code>name</code> + <code>description</code> by default. It reads the body when it decides the skill applies.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 -->
+  <section class="slide">
+    <h2>How Claude discovers &amp; invokes a skill</h2>
+    <div class="flow">
+      <span class="step">read all skill <em>descriptions</em></span><span class="arr">→</span>
+      <span class="step">task matches a description</span><span class="arr">→</span>
+      <span class="step">load full SKILL.md</span><span class="arr">→</span>
+      <span class="step">follow it (+ open bundled files)</span>
+    </div>
+    <div class="two" style="margin-top:.6em">
+      <div>
+        <h3>Two ways a skill fires</h3>
+        <ul>
+          <li><strong>Automatic</strong> — Claude recognizes the task fits a <code>description</code> and pulls the skill in itself.</li>
+          <li><strong>Explicit</strong> — the user (or another instruction) types <code>/term-obsoletion</code> to invoke it by name.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Why <code>description</code> is king</h3>
+        <p>It's the only thing Claude sees up front. A vague description = the skill never fires. A sharp one says <em>exactly</em> which situations it covers.</p>
+        <pre><code>description: For working with any
+  terms in the catalytic activity
+  branch; these often correspond
+  to RHEA or EC terms</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section class="slide">
+    <h2>Progressive disclosure: 3 levels</h2>
+    <div class="three">
+      <div class="card">
+        <span class="pill">Level 1</span>
+        <h3>Metadata</h3>
+        <p><code>name</code> + <code>description</code> for every skill, always loaded. Tiny. Lets Claude decide what's relevant.</p>
+      </div>
+      <div class="card">
+        <span class="pill p2">Level 2</span>
+        <h3>SKILL.md body</h3>
+        <p>Loaded when the skill is triggered. The full procedure, examples, and rules for the task at hand.</p>
+      </div>
+      <div class="card">
+        <span class="pill g">Level 3</span>
+        <h3>Bundled resources</h3>
+        <p>Scripts, templates, large reference docs — opened only if the body points to them. Keeps everything else lean.</p>
+      </div>
+    </div>
+    <p class="muted" style="margin-top:1em">The result: deep expertise available on demand, without paying the context cost when you don't need it.</p>
+  </section>
+
+  <!-- 7 -->
+  <section class="slide">
+    <h2>Authoring a good skill</h2>
+    <div class="two">
+      <div>
+        <h3>Do</h3>
+        <ul>
+          <li>Write a <strong>trigger-focused description</strong> ("use this when…")</li>
+          <li>Keep the body actionable: steps, checklists, concrete examples</li>
+          <li>Show real input/output (exemplar terms work great)</li>
+          <li>Name the exact tools/commands to run</li>
+          <li>Call out anti-patterns and gotchas</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Avoid</h3>
+        <ul>
+          <li>Generic descriptions ("helps with ontology stuff")</li>
+          <li>Dumping everything in one giant body — push detail to Level 3</li>
+          <li>Guessing IDs / refs instead of pointing to a lookup procedure</li>
+          <li>Overlapping skills that fight over the same trigger</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note">A skill is documentation that Claude actually <em>executes</em>. Write it for a competent newcomer who will follow it literally.</div>
+  </section>
+
+  <!-- 8 -->
+  <section class="slide">
+    <h2>The skills in this repo</h2>
+    <p class="muted">Eight skills under <code>.claude/skills/</code>, each invokable as a <code>/slash</code> command. They encode GO curation expertise.</p>
+    <div class="grid-skills">
+      <div class="skill-tile"><div class="nm">/research</div><div class="ds">Literature &amp; web research → a RESEARCH.md report</div></div>
+      <div class="skill-tile"><div class="nm">/design-pattern</div><div class="ds">Apply DOSDP patterns to new/edited terms</div></div>
+      <div class="skill-tile"><div class="nm">/external-term-lookup</div><div class="ds">Find terms in CHEBI, CL, UBERON, NCBITaxon…</div></div>
+      <div class="skill-tile"><div class="nm">/chemical-entity</div><div class="ds">CHEBI selection &amp; pH 7.3 protonation rules</div></div>
+      <div class="skill-tile"><div class="nm">/reaction</div><div class="ds">Catalytic activity terms: RHEA / EC mappings</div></div>
+      <div class="skill-tile"><div class="nm">/mapping</div><div class="ds">Cross-references with SKOS match predicates</div></div>
+      <div class="skill-tile"><div class="nm">/taxon-constraint</div><div class="ds">never_in_taxon / only_in_taxon constraints</div></div>
+      <div class="skill-tile"><div class="nm">/term-obsoletion</div><div class="ds">Safe obsoletion, rewiring &amp; impact analysis</div></div>
+    </div>
+    <p class="muted" style="margin-top:.8em">Next: a closer look at each.</p>
+  </section>
+
+  <!-- 9 research -->
+  <section class="slide">
+    <h2><code>/research</code></h2>
+    <p class="lead">Background research from literature and the web, captured in a <code>RESEARCH.md</code> file.</p>
+    <div class="two">
+      <div>
+        <h3>What it does</h3>
+        <ul>
+          <li>Web / literature search; prefers recent reviews + PMIDs</li>
+          <li>Supports a <code>deep-research-client</code> for focused deep dives</li>
+          <li>Writes findings to <code>RESEARCH.md</code> (not committed)</li>
+        </ul>
+        <h3>Key rules</h3>
+        <ul>
+          <li>GO is pan-species — don't over-fit to human biology</li>
+          <li>Skip it for trivial typo / compositional fixes (mark N/A)</li>
+          <li>Post the report back on the issue — the temp file vanishes</li>
+        </ul>
+      </div>
+      <div>
+        <div class="note">Used to satisfy the <strong>RESEARCH</strong> and <strong>REFERENCE-VALIDATION</strong> steps of the editing checklist — every PMID must be verified, never fabricated.</div>
+        <p class="tag"># produces → RESEARCH.md</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10 design-pattern -->
+  <section class="slide">
+    <h2><code>/design-pattern</code></h2>
+    <p class="lead">Ensures labels, text definitions, and logical definitions stay consistent within and across terms.</p>
+    <div class="two">
+      <div>
+        <ul>
+          <li>Documents relevant patterns in <code>DESIGN_PATTERNS.md</code></li>
+          <li>Patterns live as DOSDP YAML in <code>src/patterns/*.yaml</code></li>
+          <li>Required before adding any <code>intersection_of</code> axioms</li>
+          <li>Cross-checks against real precedent via <code>obo-grep.pl</code></li>
+        </ul>
+      </div>
+      <div>
+        <pre><code>id: GO:0001710
+name: mesodermal cell fate commitment
+intersection_of: GO:0045165 ! cell
+  fate commitment
+intersection_of: results_in_commitment_to
+  CL:0000222 ! mesodermal cell</code></pre>
+        <p class="muted">Genus + differentia: the logical def mirrors the label and text def.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 external-term-lookup -->
+  <section class="slide">
+    <h2><code>/external-term-lookup</code></h2>
+    <p class="lead">Never guess an ID. Confirm every external term against the source ontology.</p>
+    <div class="two">
+      <div>
+        <h3>In the import closure</h3>
+        <pre><code>obo-grep.pl --noheader -r cysteine \
+  src/ontology/imports/chebi_import.obo</code></pre>
+        <h3>Anything else (via OAK + OLS)</h3>
+        <pre><code>runoak -i ols:chebi search cysteine</code></pre>
+      </div>
+      <div>
+        <h3>Query GO structure locally</h3>
+        <pre><code>runoak -i simpleobo:src/ontology/\
+go-edit.obo tree -p i GO:0160022</code></pre>
+        <div class="note">The backbone for finding CHEBI / CL / UBERON / NCBITaxon IDs used in definitions and relationships.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 chemical-entity -->
+  <section class="slide">
+    <h2><code>/chemical-entity</code></h2>
+    <p class="lead">CHEBI is full of traps — the friendliest-looking label is often the wrong term.</p>
+    <div class="two">
+      <div>
+        <h3>The golden rules</h3>
+        <ul>
+          <li><strong>pH 7.3 canonicalization</strong>: use the major species at physiological pH</li>
+          <li>Pick the correct <strong>L / D</strong> stereoisomer</li>
+          <li>Verify parent classes &amp; cross-references</li>
+        </ul>
+        <p class="muted">Mandatory for any term touching a chemical or CHEBI ID.</p>
+      </div>
+      <div>
+        <pre><code>id: GO:0005290
+name: L-histidine transmembrane
+  transporter activity
+def: "...L-histidine is 2-amino-3-
+  (1H-imidazol-4-yl)propanoic acid."</code></pre>
+        <div class="note">Charged forms (e.g. <code>L-histidinium</code>) vs neutral matter for correct logical definitions.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13 reaction -->
+  <section class="slide">
+    <h2><code>/reaction</code></h2>
+    <p class="lead">For the catalytic-activity branch — terms that map to RHEA or EC.</p>
+    <div class="two">
+      <div>
+        <ul>
+          <li>One <strong>source of truth</strong> reaction in the <code>def</code> xref (usually RHEA)</li>
+          <li>Mappings qualified with SKOS via <code>{source="…"}</code></li>
+          <li>EC numbers often appear as <code>RELATED</code> synonyms</li>
+        </ul>
+      </div>
+      <div>
+        <pre><code>def: "Catalysis of the reaction:
+  ... = ..." [RHEA:17341]
+xref: EC:1.1.1.101
+  {source="skos:exactMatch"}
+xref: RHEA:36175
+  {source="skos:narrowMatch"}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14 mapping -->
+  <section class="slide">
+    <h2><code>/mapping</code></h2>
+    <p class="lead">Cross-references (<code>xref</code>) carry <em>meaning</em> — say how the terms relate.</p>
+    <div class="two">
+      <div>
+        <ul>
+          <li>Mappings are <strong>term-level</strong>, not the same as def provenance</li>
+          <li>Modern mappings include a <strong>SKOS predicate</strong></li>
+          <li>Don't confuse mappings with external logical definitions</li>
+        </ul>
+        <table>
+          <tr><th>predicate</th><th>meaning</th></tr>
+          <tr><td>exactMatch</td><td>same concept</td></tr>
+          <tr><td>narrowMatch</td><td>external is narrower</td></tr>
+          <tr><td>broadMatch</td><td>external is broader</td></tr>
+        </table>
+      </div>
+      <div>
+        <pre><code>id: GO:0000031
+name: mannosylphosphate
+  transferase activity
+xref: MetaCyc:RXN-22693
+  {source="skos:narrowMatch"}</code></pre>
+        <p class="muted">Check the mapped term, and look at mappings holistically.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 15 taxon-constraint -->
+  <section class="slide">
+    <h2><code>/taxon-constraint</code></h2>
+    <p class="lead">Restrict where a term may be used — in separate TSV files, not the OBO.</p>
+    <div class="two">
+      <div>
+        <ul>
+          <li>Files: <code>src/taxon_constraints/never_in_taxon.tsv</code> &amp; <code>only_in_taxon.tsv</code></li>
+          <li>Favor parsimony — constrain to a more general clade when sensible</li>
+          <li>Don't infer constraints from a GO name alone</li>
+          <li>Constraints on referenced CL/UBERON terms are inherited — no duplication</li>
+        </ul>
+      </div>
+      <div>
+        <pre><code># query NCBITaxon via OAK
+runoak -i ols:ncbitaxon \
+  info Mammalia</code></pre>
+        <div class="note">Great care required: "heart development" may be meant broadly (incl. insect hearts) or narrowly.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 16 term-obsoletion -->
+  <section class="slide">
+    <h2><code>/term-obsoletion</code></h2>
+    <p class="lead">The most involved skill — safely retiring a term and cleaning up after it.</p>
+    <div class="two">
+      <div>
+        <h3>Three flavors</h3>
+        <ol>
+          <li>With direct <code>replaced_by</code></li>
+          <li>With <code>consider</code> candidates</li>
+          <li>With no replacement</li>
+        </ol>
+        <p class="muted">No more merges/<code>alt_ids</code> — a "merge" request means obsoletion-with-replacement.</p>
+      </div>
+      <div>
+        <h3>An obsolete term must</h3>
+        <ul>
+          <li>drop all <code>is_a</code> / <code>relationship</code> / <code>intersection_of</code></li>
+          <li>be renamed <code>obsolete &lt;name&gt;</code></li>
+          <li>prefix def with <code>OBSOLETE.</code></li>
+          <li>carry a tracker item + reason in a comment</li>
+          <li>have all inbound references rewired first</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 17 workflow -->
+  <section class="slide">
+    <h2>How skills plug into the GO workflow</h2>
+    <p class="muted">The repo's <code>CLAUDE.md</code> defines a PLAN checklist; skills are the specialists it calls.</p>
+    <div class="flow">
+      <span class="step">PLAN</span><span class="arr">→</span>
+      <span class="step">/research</span><span class="arr">→</span>
+      <span class="step">/external-term-lookup</span><span class="arr">→</span>
+      <span class="step">/design-pattern</span><span class="arr">→</span>
+      <span class="step">EDIT</span><span class="arr">→</span>
+      <span class="step">validate</span>
+    </div>
+    <div class="two" style="margin-top:.4em">
+      <div>
+        <h3>Specialized edits route to skills</h3>
+        <ul>
+          <li>chemicals → <code>/chemical-entity</code></li>
+          <li>RHEA / EC → <code>/reaction</code></li>
+          <li>obsoletion → <code>/term-obsoletion</code></li>
+          <li>taxon scope → <code>/taxon-constraint</code></li>
+          <li>xrefs → <code>/mapping</code></li>
+        </ul>
+      </div>
+      <div>
+        <div class="note big">Skills keep each procedure correct and consistent, so the main guide stays a high-level map rather than a 2000-line manual.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 18 write your own -->
+  <section class="slide">
+    <h2>Write your own skill</h2>
+    <ol>
+      <li>Create <code>.claude/skills/&lt;name&gt;/SKILL.md</code></li>
+      <li>Add frontmatter — a sharp <code>name</code> and trigger-focused <code>description</code></li>
+      <li>Write the procedure: steps, exemplars, commands, anti-patterns</li>
+      <li>Push large refs/scripts into sibling files (Level 3)</li>
+      <li>Commit it — now it travels with the repo for everyone</li>
+    </ol>
+    <pre><code>---
+name: my-skill
+description: Use this when &lt;specific trigger situation&gt;.
+---
+
+## Steps
+1. ...
+2. ...
+
+## Example
+&lt;concrete input → output&gt;</code></pre>
+  </section>
+
+  <!-- 19 recap -->
+  <section class="slide center">
+    <div class="title-wrap">
+      <div class="kicker">Recap</div>
+      <h1>Takeaways</h1>
+      <ul class="big">
+        <li>A skill = <code>SKILL.md</code> (frontmatter + body) ± bundled files</li>
+        <li><strong>Progressive disclosure</strong>: metadata → body → resources</li>
+        <li>The <code>description</code> decides whether a skill ever fires</li>
+        <li>This repo ships <strong>8 skills</strong> encoding GO curation expertise</li>
+        <li>They turn a long manual into on-demand, executable specialists</li>
+      </ul>
+      <p class="muted" style="margin-top:1.5em">Explore them in <code>.claude/skills/</code> · invoke with <code>/&lt;name&gt;</code></p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <span>Claude Skills · GO Ontology</span>
+  <span class="nav">
+    <button onclick="go(-1)">‹ Prev</button>
+    <span id="counter" style="margin:0 .6em"></span>
+    <button onclick="go(1)">Next ›</button>
+  </span>
+</footer>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  let i=0;
+  function render(){
+    slides.forEach((s,n)=>s.classList.toggle('active',n===i));
+    document.getElementById('counter').textContent=(i+1)+' / '+slides.length;
+    document.getElementById('bar').style.width=((i+1)/slides.length*100)+'%';
+    location.hash=i+1;
+  }
+  function go(d){i=Math.min(slides.length-1,Math.max(0,i+d));render();}
+  function goto(n){i=Math.min(slides.length-1,Math.max(0,n));render();}
+  let overview=false;
+  function toggleOverview(){
+    overview=!overview;
+    const deck=document.getElementById('deck');
+    if(overview){
+      deck.style.cssText='height:100vh;width:100vw;overflow:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;padding:14px;background:#06090d';
+      slides.forEach((s,n)=>{s.style.cssText='position:relative;inset:auto;display:flex;transform:scale(1);height:30vh;border:1px solid #30363d;border-radius:10px;cursor:pointer;overflow:hidden;font-size:.5rem';s.onclick=()=>{toggleOverview();goto(n);};});
+    } else {
+      deck.style.cssText='';
+      slides.forEach(s=>{s.style.cssText='';s.onclick=null;});
+      render();
+    }
+  }
+  document.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){go(1);e.preventDefault();}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){go(-1);e.preventDefault();}
+    else if(e.key==='Home'){goto(0);}
+    else if(e.key==='End'){goto(slides.length-1);}
+    else if(e.key.toLowerCase()==='f'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+    else if(e.key.toLowerCase()==='o'){toggleOverview();}
+  });
+  if(location.hash){const n=parseInt(location.hash.slice(1));if(n)i=Math.min(slides.length-1,Math.max(0,n-1));}
+  render();
+</script>
+</body>
+</html>
