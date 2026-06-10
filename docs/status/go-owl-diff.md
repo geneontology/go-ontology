@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-09/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-10/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-09" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-10" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -1682,9 +1682,15 @@
 #### Added
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32082"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7560" 
+
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MEP pathway" 
 
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methylerythritol phosphate pathway" 
+
+- [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [NONMEVIPP-PWY](http://identifiers.org/metacyc.reaction/NONMEVIPP-PWY) 
+
+- [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7560](http://identifiers.org/metacyc.reaction/PWY-7560) 
 
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of isopentenyl diphosphate by the methylerythritol phosphate pathway, also known as the mevalonate-independent pathway. Isopentenyl diphosphate (IPP) is the fundamental unit in isoprenoid biosynthesis and is produced from pyruvate and glyceraldehyde 3-phosphate via intermediates, including methylerythritol 4-phosphate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NONMEVIPP-PWY" 
@@ -1697,9 +1703,23 @@
 ### isopentenyl diphosphate biosynthetic process, mevalonate pathway `http://purl.obolibrary.org/obo/GO_0019287`
 
 #### Added
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6174" 
+
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7524" 
+
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8125" 
+
 - [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MVA pathway" 
 
 - [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mevalonate pathway" 
+
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6174](http://identifiers.org/metacyc.reaction/PWY-6174) 
+
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7524](http://identifiers.org/metacyc.reaction/PWY-7524) 
+
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8125](http://identifiers.org/metacyc.reaction/PWY-8125) 
+
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-922](http://identifiers.org/metacyc.reaction/PWY-922) 
 
 
 ### juxtaglomerular apparatus development `http://purl.obolibrary.org/obo/GO_0072051`
