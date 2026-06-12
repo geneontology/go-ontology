@@ -615,7 +615,7 @@ imports/substance_by_role_equiv.obo: role.obo
 	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
 
 imports/substance_by_role.owl: imports/substance_by_role_equiv.obo
-	$(ROBOT) reason -i $< --exclude-duplicate-axioms true --exclude-tautologies structural remove --axioms equivalent -o $@
+	$(ROBOT) reason -i $< --exclude-duplicate-axioms true --exclude-tautologies structural relax remove --axioms equivalent -o $@
 
 imports/substance_by_role.obo: imports/substance_by_role.owl
 	$(ROBOT) convert -i $< -o $@
