@@ -1,0 +1,35 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?term ?xref ?property ?value ?reason
+WHERE {
+  ?axiom a owl:Axiom ;
+    owl:annotatedSource ?term ;
+    owl:annotatedProperty oio:hasDbXref ;
+    owl:annotatedTarget ?xref ;
+    ?property ?value .
+
+  FILTER(?property NOT IN (
+    rdf:type,
+    owl:annotatedSource,
+    owl:annotatedProperty,
+    owl:annotatedTarget,
+    rdfs:label
+  ))
+
+  FILTER(?property != oio:source || STR(?value) NOT IN (
+    "skos:exactMatch",
+    "skos:narrowMatch",
+    "skos:broadMatch",
+    "skos:relatedMatch",
+    "skos:closeMatch"
+  ))
+
+  BIND(IF(
+    ?property != oio:source,
+    "Xref axiom annotations must use the source property.",
+    "Xref source values must be supported skos mapping categories."
+  ) AS ?reason)
+}
