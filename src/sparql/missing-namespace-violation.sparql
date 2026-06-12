@@ -1,0 +1,28 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX GO: <http://purl.obolibrary.org/obo/GO_>
+PREFIX has_obsolescence_reason: <http://purl.obolibrary.org/obo/IAO_0000231>
+PREFIX terms_merged: <http://purl.obolibrary.org/obo/IAO_0000227>
+
+SELECT DISTINCT ?error
+WHERE { 
+  ?term a owl:Class .
+  FILTER(isIRI(?term))
+  FILTER(STRSTARTS(STR(?term), "http://purl.obolibrary.org/obo/GO_"))
+  FILTER NOT EXISTS {
+    # Don't check alt_ids
+    ?term has_obsolescence_reason: terms_merged: .
+  }
+  FILTER NOT EXISTS {
+    ?term oio:hasOBONamespace ?term_namespace .
+    VALUES ?term_namespace {
+      "molecular_function"^^xsd:string
+      "biological_process"^^xsd:string
+      "cellular_component"^^xsd:string
+    }
+  }
+  BIND(CONCAT("Error: term ", STR(?term), " is missing namespace") AS ?error)
+}

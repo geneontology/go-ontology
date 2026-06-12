@@ -43,9 +43,9 @@ TODO
 
 | defined_class | defined_class_label | component | component_label |
 |:--|:--|:--|:--|
+| [http://purl.obolibrary.org/obo/GO_0034080](http://purl.obolibrary.org/obo/GO_0034080) | CENP-A containing chromatin assembly | [http://purl.obolibrary.org/obo/GO_0061638](http://purl.obolibrary.org/obo/GO_0061638) | CENP-A containing chromatin |
 | [http://purl.obolibrary.org/obo/GO_0030576](http://purl.obolibrary.org/obo/GO_0030576) | Cajal body organization | [http://purl.obolibrary.org/obo/GO_0015030](http://purl.obolibrary.org/obo/GO_0015030) | Cajal body |
 | [http://purl.obolibrary.org/obo/GO_0080119](http://purl.obolibrary.org/obo/GO_0080119) | ER body organization | [http://purl.obolibrary.org/obo/GO_0010168](http://purl.obolibrary.org/obo/GO_0010168) | ER body |
 | [http://purl.obolibrary.org/obo/GO_0007030](http://purl.obolibrary.org/obo/GO_0007030) | Golgi organization | [http://purl.obolibrary.org/obo/GO_0005794](http://purl.obolibrary.org/obo/GO_0005794) | Golgi apparatus |
 | [http://purl.obolibrary.org/obo/GO_0030577](http://purl.obolibrary.org/obo/GO_0030577) | Lands organization | [http://purl.obolibrary.org/obo/GO_0016606](http://purl.obolibrary.org/obo/GO_0016606) | LYSP100-associated nuclear domain |
-| [http://purl.obolibrary.org/obo/GO_0030719](http://purl.obolibrary.org/obo/GO_0030719) | P granule organization | [http://purl.obolibrary.org/obo/GO_0043186](http://purl.obolibrary.org/obo/GO_0043186) | P granule |
 

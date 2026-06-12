@@ -19,7 +19,7 @@ jobs:
       run: cd src/ontology && rm ../resources/obsolete_ec.txt && make ../resources/obsolete_ec.txt && cd ../..
     
     - name: Create PR
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v7
       with:
         title: Refresh obsolete ECs file
         branch: refresh-obsolete-ecs

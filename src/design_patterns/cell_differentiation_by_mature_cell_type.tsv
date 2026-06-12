@@ -59,6 +59,7 @@ http://purl.obolibrary.org/obo/GO_0055011	atrial cardiac muscle cell differentia
 http://purl.obolibrary.org/obo/GO_0003167	atrioventricular bundle cell differentiation	http://purl.obolibrary.org/obo/CL_0010005	atrioventricular bundle cell
 http://purl.obolibrary.org/obo/GO_0060922	atrioventricular node cell differentiation	http://purl.obolibrary.org/obo/CL_1000410	myocyte of atrioventricular node
 http://purl.obolibrary.org/obo/GO_0030221	basophil differentiation	http://purl.obolibrary.org/obo/CL_0000767	basophil
+http://purl.obolibrary.org/obo/GO_0160274	beige fat cell differentiation	http://purl.obolibrary.org/obo/CL_0001070	beige adipocyte
 http://purl.obolibrary.org/obo/GO_0060837	blood vessel endothelial cell differentiation	http://purl.obolibrary.org/obo/CL_0000071	blood vessel endothelial cell
 http://purl.obolibrary.org/obo/GO_0050873	brown fat cell differentiation	http://purl.obolibrary.org/obo/CL_0000449	brown adipocyte
 http://purl.obolibrary.org/obo/GO_0060219	camera-type eye photoreceptor cell differentiation	http://purl.obolibrary.org/obo/CL_0010009	camera-type eye photoreceptor cell
@@ -148,6 +149,7 @@ http://purl.obolibrary.org/obo/GO_0001826	inner cell mass cell differentiation	h
 http://purl.obolibrary.org/obo/GO_0042491	inner ear auditory receptor cell differentiation	http://purl.obolibrary.org/obo/CL_0000202	auditory hair cell
 http://purl.obolibrary.org/obo/GO_0061453	interstitial cell of Cajal differentiation	http://purl.obolibrary.org/obo/CL_0002088	interstitial cell of Cajal
 http://purl.obolibrary.org/obo/GO_0060575	intestinal epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0002563	intestinal epithelial cell
+http://purl.obolibrary.org/obo/GO_7770025	intestinal type D enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0000502	type D enteroendocrine cell
 http://purl.obolibrary.org/obo/GO_0062236	ionocyte differentiation	http://purl.obolibrary.org/obo/CL_0005006	ionocyte
 http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation	http://purl.obolibrary.org/obo/CL_0000431	iridophore
 http://purl.obolibrary.org/obo/GO_0072052	juxtaglomerulus cell differentiation	http://purl.obolibrary.org/obo/CL_1000618	juxtaglomerular complex cell

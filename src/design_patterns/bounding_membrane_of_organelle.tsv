@@ -9,6 +9,7 @@ http://purl.obolibrary.org/obo/GO_0002080	acrosomal membrane	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0032578	aleurone grain membrane	http://purl.obolibrary.org/obo/GO_0033095	aleurone grain
 http://purl.obolibrary.org/obo/GO_0097233	alveolar lamellar body membrane	http://purl.obolibrary.org/obo/GO_0097208	alveolar lamellar body
 http://purl.obolibrary.org/obo/GO_1904930	amphisome membrane	http://purl.obolibrary.org/obo/GO_0044753	amphisome
+http://purl.obolibrary.org/obo/GO_0030668	apicomplexan dense granule membrane	http://purl.obolibrary.org/obo/GO_0020026	apicomplexan dense granule
 http://purl.obolibrary.org/obo/GO_0033111	attachment organelle membrane	http://purl.obolibrary.org/obo/GO_0033099	attachment organelle
 http://purl.obolibrary.org/obo/GO_0120281	autolysosome membrane	http://purl.obolibrary.org/obo/GO_0044754	autolysosome
 http://purl.obolibrary.org/obo/GO_0000421	autophagosome membrane	http://purl.obolibrary.org/obo/GO_0005776	autophagosome
@@ -34,8 +35,10 @@ http://purl.obolibrary.org/obo/GO_0032127	dense core granule membrane	http://pur
 http://purl.obolibrary.org/obo/GO_0031901	early endosome membrane	http://purl.obolibrary.org/obo/GO_0005769	early endosome
 http://purl.obolibrary.org/obo/GO_0036186	early phagosome membrane	http://purl.obolibrary.org/obo/GO_0032009	early phagosome
 http://purl.obolibrary.org/obo/GO_0030666	endocytic vesicle membrane	http://purl.obolibrary.org/obo/GO_0030139	endocytic vesicle
+http://purl.obolibrary.org/obo/GO_0160317	endolysosomal intralumenal vesicle membrane	http://purl.obolibrary.org/obo/GO_0160316	endolysosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0036020	endolysosome membrane	http://purl.obolibrary.org/obo/GO_0036019	endolysosome
 http://purl.obolibrary.org/obo/GO_0033116	endoplasmic reticulum-Golgi intermediate compartment membrane	http://purl.obolibrary.org/obo/GO_0005793	endoplasmic reticulum-Golgi intermediate compartment
+http://purl.obolibrary.org/obo/GO_0160314	endosomal intralumenal vesicle membrane	http://purl.obolibrary.org/obo/GO_0160313	endosomal intralumenal vesicle
 http://purl.obolibrary.org/obo/GO_0010008	endosome membrane	http://purl.obolibrary.org/obo/GO_0005768	endosome
 http://purl.obolibrary.org/obo/GO_0097234	epidermal lamellar body membrane	http://purl.obolibrary.org/obo/GO_0097209	epidermal lamellar body
 http://purl.obolibrary.org/obo/GO_0033118	esterosome membrane	http://purl.obolibrary.org/obo/GO_0033117	esterosome
@@ -52,7 +55,6 @@ http://purl.obolibrary.org/obo/GO_0005765	lysosomal membrane	http://purl.obolibr
 http://purl.obolibrary.org/obo/GO_0098852	lytic vacuole membrane	http://purl.obolibrary.org/obo/GO_0000323	lytic vacuole
 http://purl.obolibrary.org/obo/GO_0160056	macropinosome membrane	http://purl.obolibrary.org/obo/GO_0044354	macropinosome
 http://purl.obolibrary.org/obo/GO_0033162	melanosome membrane	http://purl.obolibrary.org/obo/GO_0042470	melanosome
-http://purl.obolibrary.org/obo/GO_0030668	merozoite dense granule membrane	http://purl.obolibrary.org/obo/GO_0020026	merozoite dense granule
 http://purl.obolibrary.org/obo/GO_0031903	microbody membrane	http://purl.obolibrary.org/obo/GO_0042579	microbody
 http://purl.obolibrary.org/obo/GO_0033163	microneme membrane	http://purl.obolibrary.org/obo/GO_0020009	microneme
 http://purl.obolibrary.org/obo/GO_0005741	mitochondrial outer membrane	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
