@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-11/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-12/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-11" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-12" 
 
 
 ### (10R,17S)-dihydroxy-(7Z,11E,13E,15Z,19Z)-docosapentaenoate `http://purl.obolibrary.org/obo/CHEBI_140405`
@@ -7277,6 +7277,14 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GMP + NADPH + H+ =&gt; IMP + NADP+ + NH4+ (GMPR,GMPR2)" 
 
 
+### GO_0030646 `http://purl.obolibrary.org/obo/GO_0030646`
+#### Removed
+- [GO_0030646](http://purl.obolibrary.org/obo/GO_0030646) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [obsolete pyruvate fermentation to butanediol](http://purl.obolibrary.org/obo/GO_0019650) 
+
+#### Added
+- [GO_0030646](http://purl.obolibrary.org/obo/GO_0030646) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [butanediol biosynthetic process](http://purl.obolibrary.org/obo/GO_0034079) 
+
+
 ### GlcNAc-beta1,3-Gal-R `http://purl.obolibrary.org/obo/CHEBI_140876`
 
 #### Added
@@ -7352,7 +7360,7 @@
 
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is more specific than the specificity of any known gene product. ICAM-3 is a ligand of the ITGAL:ITGB2, ITGAD:ITGB2, and CD209 receptors; the receptor activity of these gene products can be more accurately captured by annotating to the parent term GO:0004888 transmembrane signaling receptor activity together with a has_input annotation extension specifying ICAM-3 (PR:000001468)." 
+- [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is more specific than the specificity of any known gene product. ICAM-3 is a ligand of the ITGAL:ITGB2, ITGAD:ITGB2, and CD209 receptors." 
 
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ICAM-3 receptor activity" 
 
@@ -10303,6 +10311,12 @@
 - [brainstem development](http://purl.obolibrary.org/obo/GO_0003360) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### butanediol biosynthetic process `http://purl.obolibrary.org/obo/GO_0034079`
+
+#### Added
+- [butanediol biosynthetic process](http://purl.obolibrary.org/obo/GO_0034079) [has_alternative_id](http://www.geneontology.org/formats/oboInOwl#hasAlternativeId) "GO:0030646" 
+
+
 ### caecum development `http://purl.obolibrary.org/obo/GO_1903700`
 #### Removed
 - [caecum development](http://purl.obolibrary.org/obo/GO_1903700) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -10659,6 +10673,40 @@
 
 #### Added
 - [compound eye corneal lens development](http://purl.obolibrary.org/obo/GO_0048058) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cone photoresponse recovery `http://purl.obolibrary.org/obo/GO_0036368`
+#### Removed
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The processes required for a cone photoreceptor to recover, following light activation, so that it can respond to a subsequent light stimulus. Cone recovery requires the shutoff of active participants in the phototransduction cascade, including the visual pigment and downstream signal transducers." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802362" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16039565" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:gap" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cone response recovery" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12732716" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [label](http://www.w3.org/2000/01/rdf-schema#label) "cone photoresponse recovery" 
+
+#### Added
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32182"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "cone photoresponse recovery" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "rod photoresponse recovery" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "rod response recovery" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "cone response recovery" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12732716" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The processes required for a photoreceptor to recover, following light activation, so that it can respond to a subsequent light stimulus. Photoreceptor recovery requires the shutoff of active participants in the phototransduction cascade, including the visual pigment and downstream signal transducers." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802362" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16039565" 
+
+- [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [label](http://www.w3.org/2000/01/rdf-schema#label) "photoresponse recovery" 
 
 
 ### cornea development in camera-type eye `http://purl.obolibrary.org/obo/GO_0061303`
@@ -12652,6 +12700,24 @@
 - [lymph vessel development](http://purl.obolibrary.org/obo/GO_0001945) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### macrolide 2'-kinase activity `http://purl.obolibrary.org/obo/GO_0050073`
+#### Removed
+- [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [18333](http://rdf.rhea-db.org/18333) 
+
+- [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + oleandomycin = ADP + 2 H+ + oleandomycin 2'-O-phosphate." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18333" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
+
+#### Added
+- [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32136"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [18333](http://rdf.rhea-db.org/18333) 
+
+- [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + a macrolide = ADP + 2 H+ + a macrolide-2'-O-phosphate. Substrates include oleandomycin, erythromycin, spiramycin and other macrolide antibiotics." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
+
+
 ### mammary gland alveolus development `http://purl.obolibrary.org/obo/GO_0060749`
 #### Removed
 - [mammary gland alveolus development](http://purl.obolibrary.org/obo/GO_0060749) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -13927,6 +13993,12 @@
 #### Added
 - [obsolete protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006626) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1268020" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Mitochondrial protein import" 
+
+
+### obsolete pyruvate fermentation to butanediol `http://purl.obolibrary.org/obo/GO_0019650`
+#### Removed
+- [obsolete pyruvate fermentation to butanediol](http://purl.obolibrary.org/obo/GO_0019650) [has_alternative_id](http://www.geneontology.org/formats/oboInOwl#hasAlternativeId) "GO:0030646" 
+
 
 
 ### obsolete regulation of cytogamy `http://purl.obolibrary.org/obo/GO_7770078`
