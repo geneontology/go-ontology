@@ -1,24 +1,24 @@
 ---
-id: obo:go/releases/2026-06-12go.owl-statistics
+id: obo:go/releases/2026-06-13go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-06-12go.owl
+  version: obo:go/releases/2026-06-13go.owl
 was_generated_by:
-  started_at_time: '2026-06-12T07:20:07.224373'
+  started_at_time: '2026-06-13T07:00:39.353458'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
-    class_count: 30878
-    deprecated_class_count: 6750
-    non_deprecated_class_count: 24128
-    class_count_with_text_definitions: 30878
+    class_count: 30881
+    deprecated_class_count: 6752
+    non_deprecated_class_count: 24129
+    class_count_with_text_definitions: 30881
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 40869
+        filtered_count: 40867
       RO:0002211:
         facet: RO:0002211
         filtered_count: 2900
@@ -43,23 +43,23 @@ partitions:
       RO:0002093:
         facet: RO:0002093
         filtered_count: 1
-    distinct_synonym_count: 93585
-    synonym_statement_count: 94363
+    distinct_synonym_count: 93586
+    synonym_statement_count: 94364
     change_summary:
-      EdgeDeletion: 258
-      EdgeCreation: 227
       RemoveMapping: 20
-      NodeDeletion: 4
-      NodeRename: 19
-      NodeObsoletion: 1
-      NodeTextDefinitionChange: 20
-      RemoveSynonym: 40
-      MappingCreation: 12
-      NodeUnobsoletion: 12
+      EdgeDeletion: 261
+      EdgeCreation: 232
+      NodeDeletion: 7
+      NodeTextDefinitionChange: 22
+      NodeRename: 21
+      NodeUnobsoletion: 14
       NewSynonym: 99
+      MappingCreation: 12
+      RemoveSynonym: 41
+      NodeObsoletion: 1
       All_Obsoletion: 1
-      All_Synonym: 139
-    edge_count: 53842
+      All_Synonym: 140
+    edge_count: 53840
   molecular_function:
     id: molecular_function
     class_count: 12851
@@ -93,13 +93,13 @@ partitions:
     synonym_statement_count: 29793
     change_summary:
       MappingCreation: 91
-      NodeDeletion: 1
-      EdgeDeletion: 2
       RemoveMapping: 26
-      EdgeCreation: 12
       NodeRename: 12
+      EdgeCreation: 12
       NodeUnobsoletion: 12
       NodeTextDefinitionChange: 13
+      NodeDeletion: 1
+      EdgeDeletion: 2
       RemoveSynonym: 14
       NewSynonym: 2
       All_Obsoletion: 0

@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-12/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-13/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-12" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-13" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -95,6 +95,17 @@
 
 
 
+### 7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity `http://purl.obolibrary.org/obo/GO_0044688`
+#### Removed
+- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12357" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "skos:narrowMatch" 
+
+#### Added
+- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12357" 
+
+- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-12357](http://identifiers.org/metacyc.reaction/RXN-12357) 
+
+
 ### A2-type glycerophospholipase activity `http://purl.obolibrary.org/obo/GO_0004623`
 #### Removed
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952251" 
@@ -106,6 +117,19 @@
 - [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111881" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Phospho-cPLA2 translocates to membranes when intracellular calcium levels increase" 
 
+#### Added
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-15067](http://identifiers.org/metacyc.reaction/RXN-15067) 
+
+
+### ADP-ribosylarginine-[protein] hydrolase activity `http://purl.obolibrary.org/obo/GO_0003875`
+#### Removed
+- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:3.2.2.24-RXN" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "skos:narrowMatch" 
+
+#### Added
+- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:3.2.2.24-RXN" 
+
+- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN](http://identifiers.org/metacyc.reaction/3.2.2.24-RXN) 
 
 
 ### ATP hydrolysis activity `http://purl.obolibrary.org/obo/GO_0016887`
@@ -199,6 +223,17 @@
 #### Added
 - [GDP-fucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005457) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-742345" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC35C1 transport GDP-Fuc from cytosol to Golgi lumen" 
+
+
+### GDP-mannose biosynthetic process `http://purl.obolibrary.org/obo/GO_0009298`
+#### Removed
+- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5659" 
+  - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
+
+#### Added
+- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5659" 
+
+- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-5659](http://identifiers.org/metacyc.reaction/PWY-5659) 
 
 
 ### GMP reductase activity `http://purl.obolibrary.org/obo/GO_0003920`
@@ -320,6 +355,17 @@
 
 
 
+### L-arabinose catabolic process `http://purl.obolibrary.org/obo/GO_0019572`
+#### Removed
+- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
+  - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:narrowMatch" 
+
+#### Added
+- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
+
+- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ARABCAT-PWY](http://identifiers.org/metacyc.reaction/ARABCAT-PWY) 
+
+
 ### L-methionine salvage `http://purl.obolibrary.org/obo/GO_0071267`
 #### Removed
 - [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237112" 
@@ -353,6 +399,12 @@
 - [N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008080) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971629" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown NAT N-acetylates kynurenine" 
 
+
+
+### N-hydroxy-2-acetamidofluorene reductase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0047137`
+
+#### Added
+- [N-hydroxy-2-acetamidofluorene reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0047137) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.7.1.12](http://purl.uniprot.org/enzyme/1.7.1.12) 
 
 
 ### N6-methyl-AMP deaminase activity `http://purl.obolibrary.org/obo/GO_0062154`
@@ -1389,6 +1441,40 @@
 - [face development](http://purl.obolibrary.org/obo/GO_0060324) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### farnesyl diphosphate biosynthetic process, mevalonate pathway `http://purl.obolibrary.org/obo/GO_0010142`
+#### Removed
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The pathway that converts acetate, in the form of acetyl-CoA, to farnesyl diphosphate (FPP) through a series of mevalonate intermediates. Farnesyl diphosphate is an important substrate for other essential pathways, such as biosynthesis of sterols." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-922" 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [label](http://www.w3.org/2000/01/rdf-schema#label) "farnesyl diphosphate biosynthetic process, mevalonate pathway" 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) SubClassOf [phospholipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008654) 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) SubClassOf [terpenoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0016114) 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) SubClassOf [farnesyl diphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0045338) 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) SubClassOf [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) 
+
+#### Added
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32082"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [trans, trans-farnesyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0045337) 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The pathway that converts acetate, in the form of acetyl-CoA, to farnesyl diphosphate (FPP) through a series of mevalonate intermediates. Farnesyl diphosphate is an important substrate for other essential pathways, such as biosynthesis of sterols." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is represented by isopentenyl diphosphate biosynthetic process, mevalonate pathway ; GO:0019287 or trans, trans-farnesyl diphosphate biosynthetic process ; GO:0045337." 
+
+- [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete farnesyl diphosphate biosynthetic process, mevalonate pathway" 
+
+
 ### fertilization `http://purl.obolibrary.org/obo/GO_0009566`
 #### Removed
 - [fertilization](http://purl.obolibrary.org/obo/GO_0009566) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "https://github.com/geneontology/go-ontology/issues/31270" 
@@ -1768,6 +1854,44 @@
 - [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8125](http://identifiers.org/metacyc.reaction/PWY-8125) 
 
 - [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-922](http://identifiers.org/metacyc.reaction/PWY-922) 
+
+
+### isoprenoid biosynthetic process via mevalonate `http://purl.obolibrary.org/obo/GO_1902767`
+#### Removed
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of isoprenoid via mevalonate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11078528" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000092" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [label](http://www.w3.org/2000/01/rdf-schema#label) "isoprenoid biosynthetic process via mevalonate" 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) SubClassOf [isoprenoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008299) 
+
+#### Added
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32082"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [trans, trans-farnesyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0045337) 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of isoprenoid via mevalonate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11078528" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000092" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is represented by isopentenyl diphosphate biosynthetic process, mevalonate pathway ; GO:0019287 or trans, trans-farnesyl diphosphate biosynthetic process ; GO:0045337." 
+
+- [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete isoprenoid biosynthetic process via mevalonate" 
 
 
 ### juxtaglomerular apparatus development `http://purl.obolibrary.org/obo/GO_0072051`
@@ -4182,6 +4306,12 @@
 - [stamen filament development](http://purl.obolibrary.org/obo/GO_0080086) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
+### status `http://www.geneontology.org/formats/oboInOwl#status`
+#### Removed
+- AnnotationProperty: [status](http://www.geneontology.org/formats/oboInOwl#status) 
+
+
+
 ### stele development `http://purl.obolibrary.org/obo/GO_0010479`
 #### Removed
 - [stele development](http://purl.obolibrary.org/obo/GO_0010479) SubClassOf [tissue development](http://purl.obolibrary.org/obo/GO_0009888) 
@@ -4262,6 +4392,17 @@
 - [subthalamus development](http://purl.obolibrary.org/obo/GO_0021539) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### sulfopropanediol 3-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102157`
+#### Removed
+- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28074" 
+  - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
+
+#### Added
+- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28074" 
+
+- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [28074](http://rdf.rhea-db.org/28074) 
+
+
 ### superior colliculus development `http://purl.obolibrary.org/obo/GO_0061380`
 #### Removed
 - [superior colliculus development](http://purl.obolibrary.org/obo/GO_0061380) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -4328,6 +4469,15 @@
 
 #### Added
 - [telencephalon development](http://purl.obolibrary.org/obo/GO_0021537) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### testosterone dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047045`
+#### Removed
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
+  - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
+
+#### Added
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
 
 
 ### thalamus development `http://purl.obolibrary.org/obo/GO_0021794`
@@ -4464,6 +4614,64 @@
 - [venom-mediated activation of inflammatory response](http://purl.obolibrary.org/obo/GO_7770071) SubClassOf [venom-mediated perturbation of immune response](http://purl.obolibrary.org/obo/GO_0140428) 
 
 
+### venom-mediated disruption of chemical synaptic transmission `http://purl.obolibrary.org/obo/GO_0140437`
+
+#### Added
+- Class: [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32180"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-12T11:38:03Z" 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140437" 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the synaptic transmission in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16549768" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19481459" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26221036" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26048991" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12507705" 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated disruption of chemical synaptic transmission" 
+
+- [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) SubClassOf [venom-mediated perturbation of transmission of nerve impulse](http://purl.obolibrary.org/obo/GO_0044487) 
+
+
+### venom-mediated disruption of neuromuscular synaptic transmission `http://purl.obolibrary.org/obo/GO_0140465`
+
+#### Added
+- Class: [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32180"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-12T11:38:48Z" 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140465" 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the synaptic transmission at the neuromuscular junction in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11091135" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28623170" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34204855" 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated disruption of neuromuscular synaptic transmission" 
+
+- [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) SubClassOf [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) 
+
+
 ### venom-mediated edema `http://purl.obolibrary.org/obo/GO_0044398`
 #### Removed
 - [venom-mediated edema](http://purl.obolibrary.org/obo/GO_0044398) SubClassOf [venom-mediated perturbation of biological process](http://purl.obolibrary.org/obo/GO_0035738) 
@@ -4506,6 +4714,33 @@
 - [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated leukocyte migration" 
 
 
+### venom-mediated perturbation of cholinergic synaptic transmission `http://purl.obolibrary.org/obo/GO_0140452`
+
+#### Added
+- Class: [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32180"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-12T11:38:36Z" 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140452" 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the synaptic transmission mediated by the neurotransmitter acetylcholine in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11091135" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28623170" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34204855" 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of cholinergic synaptic transmission" 
+
+- [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) SubClassOf [venom-mediated perturbation of transmission of nerve impulse](http://purl.obolibrary.org/obo/GO_0044487) 
+
+
 ### venom-mediated perturbation of immune response `http://purl.obolibrary.org/obo/GO_0140428`
 
 #### Added
@@ -4535,6 +4770,14 @@
 
 #### Added
 - [venom-mediated perturbation of mast cell degranulation](http://purl.obolibrary.org/obo/GO_0044479) SubClassOf [venom-mediated perturbation of immune response](http://purl.obolibrary.org/obo/GO_0140428) 
+
+
+### venom-mediated perturbation of transmission of nerve impulse `http://purl.obolibrary.org/obo/GO_0044487`
+
+#### Added
+- [venom-mediated perturbation of transmission of nerve impulse](http://purl.obolibrary.org/obo/GO_0044487) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32180"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of transmission of nerve impulse](http://purl.obolibrary.org/obo/GO_0044487) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "venom-mediated perturbation of neuronal signaling" 
 
 
 ### ventral midline development `http://purl.obolibrary.org/obo/GO_0007418`
