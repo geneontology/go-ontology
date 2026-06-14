@@ -1409,7 +1409,7 @@ http://purl.obolibrary.org/obo/GO_0034759	regulation of iron ion transmembrane t
 http://purl.obolibrary.org/obo/GO_0034756	regulation of iron ion transport	http://purl.obolibrary.org/obo/GO_0006826	iron ion transport
 http://purl.obolibrary.org/obo/GO_1903329	regulation of iron-sulfur cluster assembly	http://purl.obolibrary.org/obo/GO_0016226	iron-sulfur cluster assembly
 http://purl.obolibrary.org/obo/GO_1900506	regulation of iron-sulfur-molybdenum cofactor assembly	http://purl.obolibrary.org/obo/GO_0044593	iron-sulfur-molybdenum cofactor assembly
-http://purl.obolibrary.org/obo/GO_0010322	regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	http://purl.obolibrary.org/obo/GO_0019288	isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway
+http://purl.obolibrary.org/obo/GO_0010322	regulation of isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway	http://purl.obolibrary.org/obo/GO_0019288	isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway
 http://purl.obolibrary.org/obo/GO_2001210	regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway	http://purl.obolibrary.org/obo/GO_0019287	isopentenyl diphosphate biosynthetic process, mevalonate pathway
 http://purl.obolibrary.org/obo/GO_1900947	regulation of isoprene biosynthetic process	http://purl.obolibrary.org/obo/GO_0043612	isoprene biosynthetic process
 http://purl.obolibrary.org/obo/GO_0019747	regulation of isoprenoid metabolic process	http://purl.obolibrary.org/obo/GO_0006720	isoprenoid metabolic process
