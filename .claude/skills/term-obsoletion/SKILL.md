@@ -28,7 +28,7 @@ An obsolete term should have
 - the definition MUST be `def: "OBSOLETE. <original def>" [<original dbxrefs>]`
 - a term tracker item
 - a reason for obsoletion in the comment
-- obsolete terms SHOULD NOT have synonyms unless explicitly requested
+- synonyms preserved from the original term (see "Synonyms on obsolete terms" below)
 - original axioms transferred to other terms as appropriate
 
 Here is an exemplar obsoleted term:
@@ -40,17 +40,30 @@ name: obsolete sphingosine hydroxylase activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the hydroxylation of sphingolipid long chain bases." [PMID:9556590]
 comment: The reason for obsoletion is that this term is equivalent to sphingolipid C4-monooxygenase activity.
+synonym: "sphingosine hydroxylase" RELATED [PMID:9556590]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29717" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0102772
 ```
 
-Note that the only information that remains is criticial provenance about either the history of the term (name, definition, placement via namespace), or obsoletion metadata. There are no relationships or synonym
+Note that the information that remains is critical provenance about either the history of the term (name, definition, placement via namespace, synonyms with their source attribution), or obsoletion metadata. There are no relationships or logical axioms.
+
+## Synonyms on obsolete terms
+
+For GO, **synonyms are preserved on obsoleted terms by default**. This includes:
+
+- All synonyms regardless of scope (EXACT, BROAD, NARROW, RELATED)
+- All synonym metadata, including any PMID or other dbxref attributions on the synonym
+- Synonyms remain useful as a search aid: a curator looking up an old synonym still lands on the obsolete stanza and can follow the `replaced_by` / `consider` pointers to the current term(s)
+
+Do not strip synonyms when obsoleting a GO term unless the requester explicitly asks for it (e.g. because a synonym is misleading, or because it has been transferred to a replacement term and would now be ambiguous on the obsolete stanza).
 
 ## Transferring axioms
 
 Usually when a term is obsoleted, any "good" information is typically transferred to other terms. For obsoletions with direct replacement,
 this is a straightforward transfer. For more complex cases (e.g. splits or merges, cases where the original term was ambiguous), then judgment should be applied, and in general we want to preserve where things go.
+
+Note that synonym *transfer* to a replacement term is separate from synonym *retention* on the obsolete stanza — for GO, do both where appropriate: copy useful synonyms onto the replacement term AND keep them on the obsolete term.
 
 For example consider a poor ontology term that is ambiguous:
 
@@ -72,6 +85,9 @@ This may be obsoleted with two potential replacements:
 id: GO:ORIGINAL1
 name: obsolete leg development
 def: "OBSOLETE. Development of a leg. A leg is an appendage on which an organism walks" [Wikipedia:Leg]
+synonym: "limb development" EXACT []
+synonym: "appendage development" EXACT []
+synonym: "development of limb" EXACT []
 
 [Term]
 id: GO:NEW1
@@ -88,7 +104,7 @@ def: "Development of an insect limb." [PMID:<...>]
 is_a: ...
 ```
 
-Note the obsoleted term retains no synonyms, as these have either been transferred OR the synonym has become the primary label ("limb development"). The provenance for the original (poor) definition remains, as a matter of history.
+Note the obsoleted term retains its synonyms (per GO convention) — even though some have also been transferred to replacement terms or have become the primary label ("limb development") on a replacement. Keeping them on the obsolete stanza preserves the search aid: a curator looking up "limb development" against the historical ID still lands on the obsolete term and can follow `replaced_by` / `consider`. The provenance for the original (poor) definition also remains, as a matter of history.
 
 
 ## Ensure no existing terms reference the term to be obsoleted
