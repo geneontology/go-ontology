@@ -955,3 +955,4 @@ GO:0019658	bifid shunt	NCBITaxon:2	Bacteria
 GO:0120576	1,2-dehydro-N-beta-alanyldopamine biosynthetic process	NCBITaxon:50557	Insecta	PMID:19932179|PMID:32709620
 GO:0120577	1,2-dehydro-N-acetyldopamine biosynthetic process	NCBITaxon:50557	Insecta	PMID:19932179|PMID:32709620
 GO:0160109	plant gross anatomical part developmental process	NCBITaxon:33090	Viridiplantae	
+GO:0160108	animal gross anatomical part developmental process	NCBITaxon:33208	Metazoa	
