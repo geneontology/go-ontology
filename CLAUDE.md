@@ -136,7 +136,7 @@ The general procedure is:
 - checking in will update the edit file and remove the file from `terms/`
 - Commits are then made on src/ontology/go-edit.obo as appropriate
 - `obo-checkout.pl` and `obo-checkin.pl` come from the same obo-scripts tooling (`cmungall/obo-scripts` / the `editing-obo-ontologies` skill) and are likewise only on PATH once it's installed/loaded. If not found, install/locate them and call by full path — don't work around their absence by editing the megafile directly; the checkin/checkout procedure is required.
-- Always validate after checkin via `cd src/ontology && make travis_build`
+- Always validate after checkin via `cd src/ontology && make travis_build` (this must run in the ODK Docker image — see the /odk-make skill)
 
 ### Creation of new terms
 
@@ -362,6 +362,8 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 ## AUTOMATED-VALIDATION using Makefile
 
 This ontology uses standard ODK/ROBOT tests plus custom tests to ensure the ontology is logically, syntactically, and stylistically valid.
+
+IMPORTANT: every `make` target and every one-off `robot`/`owltools` command in this section must run inside the pinned ODK Docker image (`obolibrary/odkfull`), NOT against host tools — otherwise results won't match CI. Use the /odk-make skill, which explains this and provides a non-interactive runner (`.claude/skills/odk-make/odk-run.sh make travis_build`, etc). The bare `cd src/ontology && make ...`/`robot ...` forms shown below assume you are already inside the ODK environment (as in GitHub Actions); locally, wrap them via /odk-make.
 
 Ensure that full validation is performed, using `cd src/ontology && make travis_build` (being sure you are in the right folder)
 
