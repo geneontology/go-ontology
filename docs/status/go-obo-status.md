@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-06-18go.owl-statistics
+id: obo:go/releases/2026-06-19go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-06-18go.owl
+  version: obo:go/releases/2026-06-19go.owl
 was_generated_by:
-  started_at_time: '2026-06-18T07:17:24.083217'
+  started_at_time: '2026-06-19T07:19:09.001932'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,17 +46,17 @@ partitions:
     distinct_synonym_count: 93586
     synonym_statement_count: 94364
     change_summary:
-      NodeRename: 21
+      MappingCreation: 12
+      EdgeDeletion: 302
+      EdgeCreation: 263
+      RemoveMapping: 20
+      NodeTextDefinitionChange: 23
       RemoveSynonym: 41
-      NodeTextDefinitionChange: 22
-      EdgeDeletion: 297
-      EdgeCreation: 258
+      NodeDeletion: 7
+      NodeRename: 21
       NewSynonym: 99
       NodeUnobsoletion: 14
-      RemoveMapping: 20
-      NodeDeletion: 7
       NodeObsoletion: 1
-      MappingCreation: 12
       All_Obsoletion: 1
       All_Synonym: 140
     edge_count: 53850
@@ -92,16 +92,16 @@ partitions:
     distinct_synonym_count: 28648
     synonym_statement_count: 29795
     change_summary:
-      MappingCreation: 95
       RemoveMapping: 58
-      NodeRename: 13
+      RemoveSynonym: 14
+      MappingCreation: 95
+      NodeDeletion: 3
+      EdgeDeletion: 4
+      NewSynonym: 2
       EdgeCreation: 13
       NodeUnobsoletion: 13
       NodeTextDefinitionChange: 16
-      NodeDeletion: 3
-      EdgeDeletion: 4
-      RemoveSynonym: 14
-      NewSynonym: 2
+      NodeRename: 13
       All_Obsoletion: 0
       All_Synonym: 16
     edge_count: 13522
@@ -122,8 +122,13 @@ partitions:
       BFO:0000051:
         facet: BFO:0000051
         filtered_count: 181
-    distinct_synonym_count: 5106
-    synonym_statement_count: 5304
+    distinct_synonym_count: 5107
+    synonym_statement_count: 5305
+    change_summary:
+      NodeRename: 1
+      RemoveSynonym: 1
+      All_Obsoletion: 0
+      All_Synonym: 1
     edge_count: 6676
   external:
     id: external

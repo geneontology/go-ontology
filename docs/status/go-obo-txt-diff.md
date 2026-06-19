@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-06-18 07:08:16.493128609 +0000
-+++ go.obo	2026-06-18 07:17:09.851320883 +0000
+--- go-lastrelease.obo	2026-06-19 07:09:58.111884422 +0000
++++ go.obo	2026-06-19 07:18:53.948627444 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-05-19
-+data-version: releases/2026-06-18
++data-version: releases/2026-06-19
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-05-19" xsd:string
-+property_value: owl:versionInfo "2026-06-18" xsd:string
++property_value: owl:versionInfo "2026-06-19" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -4137,7 +4137,21 @@
  relationship: part_of GO:0072022 ! descending thin limb development
  created_by: mah
  creation_date: 2010-01-25T04:14:02Z
-@@ -422383,6 +422502,7 @@
+@@ -421923,10 +422042,11 @@
+ id: GO:0072319
+ name: vesicle uncoating
+ namespace: biological_process
+-def: "A protein depolymerization process that results in the disassembly of vesicle coat proteins." [GOC:mah]
++def: "The disaggregation of a vesicle coat into its constituent components, resulting in removal of the protein coat from a transport vesicle. Uncoating occurs after vesicle budding and can be coupled to vesicle docking and fusion with the target membrane." [GOC:mah, PMID:20706600]
+ synonym: "vesicle coat disassembly" EXACT [GOC:mah]
+-is_a: GO:0051261 ! protein depolymerization
++is_a: GO:0032984 ! protein-containing complex disassembly
+ relationship: part_of GO:0016192 ! vesicle-mediated transport
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32179" xsd:anyURI
+ created_by: mah
+ creation_date: 2010-10-26T12:09:21Z
+ 
+@@ -422383,6 +422503,7 @@
  subset: goslim_drosophila
  synonym: "cardiovascular system development" NARROW []
  is_a: GO:0048731 ! system development
@@ -4145,7 +4159,7 @@
  created_by: mah
  creation_date: 2010-11-16T11:27:39Z
  
-@@ -422391,7 +422511,7 @@
+@@ -422391,7 +422512,7 @@
  name: vascular cord development
  namespace: biological_process
  def: "The progression of the vascular cord over time from its initial formation until its mature state. The vascular cord is the primordial vasculature that will develop into blood vessels by the process of tubulogenesis." [GOC:mah, PMID:7084422, ZFA:0005077]
@@ -4154,7 +4168,7 @@
  relationship: part_of GO:0072359 ! circulatory system development
  created_by: mah
  creation_date: 2010-11-16T11:46:55Z
-@@ -423814,6 +423934,7 @@
+@@ -423814,6 +423935,7 @@
  def: "The reproductive developmental process whose specific outcome is the progression of the seminiferous tubule over time, from its formation to the mature structure. Seminiferous tubules are ducts located in the testicles, and are the specific location of meiosis, and the subsequent creation of gametes, namely spermatozoa." [GOC:BHF, GOC:mah, UBERON:0001343]
  is_a: GO:0035295 ! tube development
  is_a: GO:0048608 ! reproductive structure development
@@ -4162,7 +4176,7 @@
  relationship: part_of GO:0008584 ! male gonad development
  created_by: mah
  creation_date: 2011-01-04T12:50:36Z
-@@ -430505,7 +430626,7 @@
+@@ -430505,7 +430627,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the integument over time, from its formation to the mature structure. Integument is one of the layers of tissue that usually covers the ovule, enveloping the nucellus and forming the micropyle at the apex." [PMID:19054366, PO:0020021]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -4171,7 +4185,7 @@
  relationship: part_of GO:0048481 ! plant ovule development
  created_by: dhl
  creation_date: 2009-04-13T02:58:07Z
-@@ -430759,7 +430880,7 @@
+@@ -430759,7 +430881,7 @@
  def: "The process whose specific outcome is the progression of the filament over time, from its formation to the mature structure. Filament is the stalk of a stamen." [PMID:19139039, PO:0009067]
  synonym: "filament development" EXACT []
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -4180,7 +4194,7 @@
  relationship: part_of GO:0048443 ! stamen development
  created_by: dhl
  creation_date: 2009-04-22T03:12:03Z
-@@ -431685,7 +431806,7 @@
+@@ -431685,7 +431807,7 @@
  def: "The process whose specific outcome is the progression of the stomium over time, from its formation to the mature structure. A stomium is a fissure or pore in the anther lobe through which the pollen is released." [GOC:tb]
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
@@ -4189,7 +4203,7 @@
  relationship: part_of GO:0048653 ! anther development
  created_by: dhl
  creation_date: 2010-09-23T05:03:40Z
-@@ -433947,6 +434068,7 @@
+@@ -433947,6 +434069,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the hypoblast over time, from its formation to the mature structure. The hypoblast is a tissue formed from the inner cell mass that lies beneath the epiblast." [GOC:dph, GOC:sdb_2009, GOC:tb]
  is_a: GO:0009888 ! tissue development
@@ -4197,7 +4211,7 @@
  created_by: tb
  creation_date: 2009-07-29T10:25:54Z
  
-@@ -435024,7 +435146,7 @@
+@@ -435024,7 +435147,7 @@
  name: cochlea development
  namespace: biological_process
  def: "The progression of the cochlea over time from its formation to the mature structure. The cochlea is the snail-shaped portion of the inner ear that is responsible for the detection of sound." [GOC:dph, GOC:tb]
@@ -4206,7 +4220,16 @@
  relationship: part_of GO:0048839 ! inner ear development
  created_by: tb
  creation_date: 2009-11-18T11:42:15Z
-@@ -438317,6 +438439,7 @@
+@@ -435131,7 +435254,7 @@
+ name: regulation of COPII vesicle uncoating
+ namespace: biological_process
+ def: "Any process that modulates the frequency, rate or extent of COPII vesicle uncoating, the process in which COPII vesicle coat proteins are disassembled, and released." [GOC:ascb_2009, GOC:dph, GOC:tb]
+-is_a: GO:1901879 ! regulation of protein depolymerization
++is_a: GO:0043244 ! regulation of protein-containing complex disassembly
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: regulates GO:0090112 ! COPII vesicle uncoating
+ relationship: regulates GO:0090112 ! COPII vesicle uncoating
+@@ -438317,6 +438440,7 @@
  namespace: biological_process
  def: "OBSOLETE. Any process that modulates the rate, frequency, or extent of the chemical reactions and pathways involving ornithine, an amino acid only rarely found in proteins, but which is important in living organisms as an intermediate in the reactions of the urea cycle and in arginine biosynthesis." [GOC:dph, GOC:jp, GOC:tb]
  comment: The reason for obsoletion is that this term was an unnecessary grouping terms and only 'biosynthetic' or 'catabolic' process should be used.
@@ -4214,7 +4237,27 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31171" xsd:anyURI
  is_obsolete: true
  created_by: tb
-@@ -440303,7 +440426,7 @@
+@@ -439188,16 +439312,18 @@
+ 
+ [Term]
+ id: GO:0090443
+-name: FAR/SIN/STRIPAK complex
++name: FAR/SIP/STRIPAK complex
+ namespace: cellular_component
+ def: "A conserved protein phosphatase type 2A complex which contains a protein phosphatase type 2A, a protein phosphatase regulatory subunit, a striatin, an FHA domain protein and other subunits (at least six proteins). In fission yeast this complex negatively regulate the septation initiation network at the spindle pole body." [GOC:vw, PMID:21561862, PMID:22119525]
+ synonym: "FAR complex" RELATED [GOC:vw]
++synonym: "FAR/SIN/STRIPAK complex" RELATED []
+ synonym: "SIN inhibitory phosphatase (SIP) complex" EXACT []
+ synonym: "SIN inhibitory phosphatase complex" EXACT []
+ synonym: "SIP complex" EXACT [PMID:22119525]
+ synonym: "striatin interacting phosphatase and kinase complex" EXACT [GOC:vw]
+ synonym: "STRIPAK signalling complex" RELATED [GOC:vw]
+ is_a: GO:0032991 ! protein-containing complex
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32223" xsd:anyURI
+ created_by: tb
+ creation_date: 2012-08-23T14:20:39Z
+ 
+@@ -440303,7 +440429,7 @@
  name: plant epidermis development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the plant epidermis over time, from its formation to the mature structure." [GOC:tb]
@@ -4223,7 +4266,7 @@
  created_by: tb
  creation_date: 2014-02-27T15:17:37Z
  
-@@ -457994,7 +458117,7 @@
+@@ -457994,7 +458120,7 @@
  namespace: biological_process
  def: "Development of a plant organ, a multi-tissue plant structure that forms a functional unit." [GOC:dos]
  synonym: "development of a plant organ" EXACT []
@@ -4232,7 +4275,7 @@
  relationship: part_of GO:0048731 ! system development
  
  [Term]
-@@ -461870,9 +461993,10 @@
+@@ -461870,9 +461996,10 @@
  def: "Catalysis of the reaction: (2R)-3-sulfopropanediol + 2 NAD+ + H2O = (2R)-3-sulfolactate + 2 NADH + 3 H+." [PMID:20150239, RHEA:28074]
  xref: EC:1.1.1.308
  xref: MetaCyc:RXN-11727
@@ -4244,7 +4287,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
  
  [Term]
-@@ -464769,7 +464893,6 @@
+@@ -464769,7 +464896,6 @@
  def: "Catalysis of the reaction: a (2S)-2-hydroxycarboxylate + NAD+ = a 2-oxocarboxylate + NADH + H+." [RHEA:34555]
  xref: EC:1.1.1.337
  xref: MetaCyc:RXN-13927
@@ -4252,7 +4295,7 @@
  xref: RHEA:10176
  xref: RHEA:15533
  xref: RHEA:34555
-@@ -472189,6 +472312,9 @@
+@@ -472189,6 +472315,9 @@
  namespace: molecular_function
  def: "OBSOLETE. Catalysis of the reaction: S-adenosyl-L-methionine + tRNA = S-adenosyl-L-homocysteine + tRNA containing a 2'-O-nucleotide." [PMID:17242307]
  comment: This term was obsoleted because it is an unnecessray grouping term.
@@ -4262,7 +4305,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31519" xsd:anyURI
  is_obsolete: true
  consider: GO:0106339
-@@ -475292,7 +475418,7 @@
+@@ -475292,7 +475421,7 @@
  def: "The progression of the yolk syncytial layer over time, from its initial formation to the mature structure. The yolk syncytial layer is the peripheral layer of the yolk cell including nuclei and non-yolky cytoplasm." [PMID:29180571]
  comment: The "yolk syncytial layer" structure can be found in Teleostei, Myxini, Chondrichthyes, Lepisosteiformes and Cephalopoda according.
  synonym: "YSL development" RELATED []
@@ -4271,7 +4314,7 @@
  created_by: hjd
  creation_date: 2020-11-05T17:56:43Z
  
-@@ -475304,7 +475430,6 @@
+@@ -475304,7 +475433,6 @@
  synonym: "tRNA (cytidine 32-2'-O)-methyltransferase activity" EXACT []
  synonym: "tRNA (cytidine(32)-2'-O)-methyltransferase activity" EXACT []
  xref: MetaCyc:RXN-11866
@@ -4279,7 +4322,7 @@
  xref: RHEA:42932
  is_a: GO:0016427 ! tRNA (cytidine) methyltransferase activity
  property_value: skos:broadMatch EC:2.1.1.200
-@@ -478699,13 +478824,6 @@
+@@ -478699,13 +478827,6 @@
  def: "Removes a phospholipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
  synonym: "intermembrane phospholipid transfer activity" NARROW []
  synonym: "phospholipid carrier activity" EXACT []
@@ -4293,7 +4336,7 @@
  is_a: GO:0120013 ! lipid transfer activity
  relationship: has_part GO:0005543 ! phospholipid binding
  relationship: part_of GO:0015914 ! phospholipid transport
-@@ -483979,8 +484097,12 @@
+@@ -483979,8 +484100,12 @@
  synonym: "phosphatidylethanolamine lysophospholipase A1-type activity" EXACT []
  synonym: "phosphatidylethanolamine lysophospholipase activity" BROAD []
  xref: RHEA:32967
@@ -4306,7 +4349,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30258" xsd:anyURI
  created_by: sjm
  creation_date: 2025-05-23T13:15:13Z
-@@ -483995,10 +484117,14 @@
+@@ -483995,10 +484120,14 @@
  synonym: "phosphatidylserine-specific phospholipase A1" RELATED [EC:3.1.1.111]
  xref: MetaCyc:RXN-20544
  xref: RHEA:32979
@@ -4321,7 +4364,7 @@
  property_value: skos:narrowMatch RHEA:51184
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30258" xsd:anyURI
  created_by: sjm
-@@ -488221,6 +488347,9 @@
+@@ -488221,6 +488350,9 @@
  comment: Examples of protein carriers include the soluble TIM chaperone complexes of S. cerevisiae Tim9-Tim10 and Tim8-Tim13, that provide a shuttle system between TOM and the membrane insertases TIM22 and SAM and, thus, ensure that precursors are kept in a translocation-competent conformation.
  synonym: "protein carrier activity" RELATED []
  synonym: "protein transport chaperone" RELATED []
@@ -4331,7 +4374,7 @@
  is_a: GO:0005215 ! transporter activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17073" xsd:anyURI
  created_by: pg
-@@ -489064,8 +489193,6 @@
+@@ -489064,8 +489196,6 @@
  namespace: molecular_function
  def: "Catalysis of the reaction: cytidine(4) in tRNA + S-adenosyl-L-methionine = 2'-O-methylcytidine(4) in tRNA + S-adenosyl-L-homocysteine + H+. Acts on  cytidine(4) on tRNAPro and tRNAGly(GCC), and on adenosine(4) in tRNAHis." [EC:2.1.1.225, PMID:17242307]
  xref: EC:2.1.1.225
@@ -4340,7 +4383,7 @@
  xref: RHEA:32767
  xref: RHEA:43192
  xref: RHEA:43196
-@@ -489643,6 +489770,16 @@
+@@ -489643,6 +489773,16 @@
  creation_date: 2026-05-11T07:09:55Z
  
  [Term]
@@ -4357,7 +4400,7 @@
  id: GO:0140429
  name: positive regulation of mitotic sister chromatid biorientation
  namespace: biological_process
-@@ -489742,6 +489879,28 @@
+@@ -489742,6 +489882,28 @@
  creation_date: 2020-02-24T13:27:15Z
  
  [Term]
@@ -4386,7 +4429,7 @@
  id: GO:0140438
  name: protein stearoylation
  namespace: biological_process
-@@ -489920,6 +490079,16 @@
+@@ -489920,6 +490082,16 @@
  creation_date: 2020-04-15T08:52:26Z
  
  [Term]
@@ -4403,7 +4446,7 @@
  id: GO:0140453
  name: protein aggregate center
  namespace: cellular_component
-@@ -490054,6 +490223,16 @@
+@@ -490054,6 +490226,16 @@
  creation_date: 2020-05-13T05:13:24Z
  
  [Term]
@@ -4420,7 +4463,7 @@
  id: GO:0140466
  name: iron-sulfur cluster export from the mitochondrion
  namespace: biological_process
-@@ -502314,9 +502493,9 @@
+@@ -502314,9 +502496,9 @@
  id: GO:0160108
  name: animal gross anatomical part developmental process
  namespace: biological_process
@@ -4432,7 +4475,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22994" xsd:anyURI
  created_by: rynl
  creation_date: 2023-09-18T20:43:55Z
-@@ -502325,9 +502504,9 @@
+@@ -502325,9 +502507,9 @@
  id: GO:0160109
  name: plant gross anatomical part developmental process
  namespace: biological_process
@@ -4444,7 +4487,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22994" xsd:anyURI
  created_by: rynl
  creation_date: 2023-09-18T20:55:06Z
-@@ -516603,8 +516782,8 @@
+@@ -516603,8 +516785,8 @@
  is_a: GO:2001210 ! regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0019287 ! isopentenyl diphosphate biosynthetic process, mevalonate pathway
@@ -4454,7 +4497,7 @@
  created_by: al
  creation_date: 2012-05-02T10:46:46Z
  
-@@ -537466,7 +537645,6 @@
+@@ -537466,7 +537648,6 @@
  def: "OBSOLETE. The chemical reactions and pathways involving an alpha-amino acid." [GOC:TermGenie]
  comment: The reason for obsoletion is that this term was an unnecessary grouping term and more specific terms were created.
  synonym: "alpha-amino acid metabolism" EXACT [GOC:TermGenie]
@@ -4462,7 +4505,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31993" xsd:anyURI
  is_obsolete: true
  created_by: tb
-@@ -540210,7 +540388,7 @@
+@@ -540210,7 +540391,7 @@
  id: GO:1901755
  name: vitamin D3 biosynthetic process
  namespace: biological_process
@@ -4471,7 +4514,7 @@
  synonym: "calciol anabolism" EXACT [GOC:TermGenie]
  synonym: "calciol biosynthesis" EXACT [GOC:TermGenie]
  synonym: "calciol biosynthetic process" EXACT [GOC:pr]
-@@ -540222,10 +540400,10 @@
+@@ -540222,10 +540403,10 @@
  synonym: "vitamin D3 biosynthesis" EXACT [GOC:yaf]
  synonym: "vitamin D3 formation" EXACT [GOC:yaf]
  synonym: "vitamin D3 synthesis" EXACT [GOC:yaf]
@@ -4485,7 +4528,7 @@
  created_by: yaf
  creation_date: 2013-01-14T11:11:09Z
  
-@@ -544176,34 +544354,34 @@
+@@ -544176,34 +544357,34 @@
  
  [Term]
  id: GO:1901997
@@ -4547,7 +4590,7 @@
  is_a: GO:0010600 ! regulation of auxin biosynthetic process
  is_a: GO:0032353 ! negative regulation of hormone biosynthetic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
-@@ -557109,14 +557287,18 @@
+@@ -557109,14 +557290,18 @@
  
  [Term]
  id: GO:1902767
@@ -4569,7 +4612,35 @@
  created_by: tt
  creation_date: 2014-03-10T23:45:10Z
  
-@@ -574563,84 +574745,34 @@
+@@ -569536,7 +569721,7 @@
+ def: "Any process that modulates the frequency, rate or extent of synaptic vesicle uncoating." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:21563316]
+ synonym: "regulation of synaptic vesicle coat depolymerization" EXACT [GOC:TermGenie]
+ synonym: "regulation of synaptic vesicle coat protein depolymerization" EXACT [GOC:TermGenie]
+-is_a: GO:1901879 ! regulation of protein depolymerization
++is_a: GO:0043244 ! regulation of protein-containing complex disassembly
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: regulates GO:0016191 ! synaptic vesicle uncoating
+ relationship: regulates GO:0016191 ! synaptic vesicle uncoating
+@@ -569562,8 +569747,8 @@
+ synonym: "inhibition of synaptic vesicle uncoating" NARROW [GOC:TermGenie]
+ synonym: "negative regulation of synaptic vesicle coat depolymerization" EXACT [GOC:TermGenie]
+ synonym: "negative regulation of synaptic vesicle coat protein depolymerization" EXACT [GOC:TermGenie]
++is_a: GO:0043242 ! negative regulation of protein-containing complex disassembly
+ is_a: GO:1900243 ! negative regulation of synaptic vesicle endocytosis
+-is_a: GO:1901880 ! negative regulation of protein depolymerization
+ is_a: GO:1903388 ! regulation of synaptic vesicle uncoating
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: negatively_regulates GO:0016191 ! synaptic vesicle uncoating
+@@ -569590,7 +569775,7 @@
+ synonym: "upregulation of synaptic vesicle coat depolymerization" EXACT [GOC:TermGenie]
+ synonym: "upregulation of synaptic vesicle coat protein depolymerization" EXACT [GOC:TermGenie]
+ synonym: "upregulation of synaptic vesicle uncoating" EXACT [GOC:TermGenie]
+-is_a: GO:1901881 ! positive regulation of protein depolymerization
++is_a: GO:0043243 ! positive regulation of protein-containing complex disassembly
+ is_a: GO:1903388 ! regulation of synaptic vesicle uncoating
+ intersection_of: GO:0065007 ! biological regulation
+ intersection_of: positively_regulates GO:0016191 ! synaptic vesicle uncoating
+@@ -574563,84 +574748,34 @@
  
  [Term]
  id: GO:1903636
@@ -4669,7 +4740,7 @@
  created_by: pga
  creation_date: 2014-11-20T15:55:01Z
  
-@@ -575720,7 +575852,7 @@
+@@ -575720,7 +575855,7 @@
  synonym: "intestinum caecum development" RELATED [GOC:TermGenie]
  synonym: "intestinum crassum caecum development" EXACT [GOC:TermGenie]
  synonym: "intestinum crassum cecum development" RELATED [GOC:TermGenie]
@@ -4678,7 +4749,7 @@
  created_by: cls
  creation_date: 2014-12-03T12:05:00Z
  
-@@ -575732,7 +575864,7 @@
+@@ -575732,7 +575867,7 @@
  synonym: "corneal stroma development" EXACT [GOC:TermGenie]
  synonym: "stroma of cornea development" EXACT [GOC:TermGenie]
  synonym: "substantia propria development" RELATED [GOC:TermGenie]
@@ -4687,7 +4758,7 @@
  created_by: cls
  creation_date: 2014-12-03T13:12:09Z
  
-@@ -575744,7 +575876,7 @@
+@@ -575744,7 +575879,7 @@
  synonym: "esophageal development" EXACT [MGI:csmith]
  synonym: "gullet development" EXACT [GOC:TermGenie]
  synonym: "oesophagus development" EXACT [GOC:TermGenie]
@@ -4696,7 +4767,7 @@
  created_by: cls
  creation_date: 2014-12-03T14:41:30Z
  
-@@ -578613,7 +578745,7 @@
+@@ -578613,7 +578748,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a palisade mesophyll over time, from its formation to the mature structure." [GO_REF:0000080, GOC:TermGenie, PMID:24663344]
  synonym: "palisade parenchyma development" RELATED [GOC:TermGenie]
@@ -4705,7 +4776,7 @@
  created_by: tb
  creation_date: 2015-02-04T21:51:44Z
  
-@@ -578622,7 +578754,7 @@
+@@ -578622,7 +578757,7 @@
  name: extraembryonic membrane development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of an extraembryonic membrane over time, from its formation to the mature structure." [GO_REF:0000094, GOC:TermGenie, ISBN:0073040584]
@@ -4714,7 +4785,7 @@
  created_by: cjm
  creation_date: 2015-02-05T00:42:16Z
  
-@@ -584457,7 +584589,8 @@
+@@ -584457,7 +584592,8 @@
  synonym: "regulation of protein dislocation from ER" EXACT [GOC:TermGenie]
  synonym: "regulation of protein retrotranslocation from ER" EXACT [GOC:bf]
  synonym: "regulation of retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
@@ -4724,7 +4795,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0030970 ! retrograde protein transport, ER to cytosol
  relationship: regulates GO:0030970 ! retrograde protein transport, ER to cytosol
-@@ -584484,7 +584617,8 @@
+@@ -584484,7 +584620,8 @@
  synonym: "negative regulation of protein dislocation from ER" EXACT [GOC:TermGenie]
  synonym: "negative regulation of protein retrotranslocation from ER" EXACT [GOC:bf]
  synonym: "negative regulation of retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
@@ -4734,7 +4805,7 @@
  is_a: GO:1904152 ! regulation of retrograde protein transport, ER to cytosol
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0030970 ! retrograde protein transport, ER to cytosol
-@@ -584513,7 +584647,8 @@
+@@ -584513,7 +584650,8 @@
  synonym: "upregulation of protein dislocation from ER" EXACT [GOC:TermGenie]
  synonym: "upregulation of retrograde protein transport, endoplasmic reticulum to cytosol" EXACT [GOC:TermGenie]
  synonym: "upregulation of retrograde protein transport, ER to cytosol" EXACT [GOC:TermGenie]
@@ -4744,7 +4815,7 @@
  is_a: GO:1904152 ! regulation of retrograde protein transport, ER to cytosol
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0030970 ! retrograde protein transport, ER to cytosol
-@@ -585353,18 +585488,14 @@
+@@ -585353,18 +585491,14 @@
  
  [Term]
  id: GO:1904211
@@ -4770,7 +4841,7 @@
  created_by: bf
  creation_date: 2015-05-14T15:26:44Z
  
-@@ -598085,7 +598216,7 @@
+@@ -598085,7 +598219,7 @@
  synonym: "serosa development" RELATED [GOC:TermGenie]
  synonym: "tunica serosa development" EXACT [GOC:TermGenie]
  synonym: "wall of serous sac development" EXACT [GOC:TermGenie]
@@ -4779,7 +4850,7 @@
  created_by: dph
  creation_date: 2015-11-17T19:00:01Z
  
-@@ -598094,7 +598225,7 @@
+@@ -598094,7 +598228,7 @@
  name: visceral peritoneum development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a visceral peritoneum over time, from its formation to the mature structure." [GO_REF:0000094, GOC:dph, GOC:TermGenie, PMID:15840053]
@@ -4788,7 +4859,7 @@
  relationship: part_of GO:1904820 ! peritoneum development
  created_by: dph
  creation_date: 2015-11-17T19:00:17Z
-@@ -598105,7 +598236,7 @@
+@@ -598105,7 +598239,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a parietal peritoneum over time, from its formation to the mature structure." [GO_REF:0000094, GOC:dph, GOC:TermGenie, PMID:15840053]
  synonym: "peritoneal cavity lining development" EXACT [GOC:TermGenie]
@@ -4797,7 +4868,7 @@
  relationship: part_of GO:1904820 ! peritoneum development
  created_by: dph
  creation_date: 2015-11-17T19:00:24Z
-@@ -599018,7 +599149,7 @@
+@@ -599018,7 +599152,7 @@
  synonym: "ventral tegmentum development" EXACT [Wikipedia:Ventral_tegmental_area]
  synonym: "ventromedial mesencephalic tegmentum development" RELATED [GOC:TermGenie]
  synonym: "VTA development" BROAD [GOC:TermGenie]
@@ -4806,7 +4877,7 @@
  relationship: part_of GO:0030901 ! midbrain development
  created_by: bf
  creation_date: 2015-12-17T14:44:18Z
-@@ -599415,7 +599546,7 @@
+@@ -599415,7 +599549,7 @@
  synonym: "craniofacial development" NARROW [PMID:11262227]
  synonym: "cranium development" RELATED [GOC:TermGenie]
  synonym: "osteocranium development" NARROW [GOC:TermGenie]
@@ -4815,7 +4886,7 @@
  created_by: bf
  creation_date: 2016-01-07T13:45:06Z
  
-@@ -603589,6 +603720,7 @@
+@@ -603589,6 +603723,7 @@
  def: "The process whose specific outcome is the progression of cardiac jelly over time, from its formation to the mature structure. The cardiac jelly is an acellular gelatinous matrix secreted by the myocardium and plays a central role in the septation of the heart." [GO_REF:0000094, GOC:BHF, GOC:rl, GOC:TermGenie, PMID:10645959, PMID:16314491, PMID:19703439]
  synonym: "heart cardiac jelly development" EXACT [GOC:TermGenie]
  is_a: GO:0009888 ! tissue development
@@ -4823,7 +4894,7 @@
  relationship: part_of GO:0007507 ! heart development
  created_by: rl
  creation_date: 2016-03-23T13:17:59Z
-@@ -608304,7 +608436,7 @@
+@@ -608304,7 +608439,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a septum over time, from its formation to the mature structure." [GO_REF:0000080, GOC:tb, GOC:TermGenie, PMID:4562349]
  synonym: "dissepiment development" BROAD [GOC:TermGenie]
@@ -4832,7 +4903,7 @@
  created_by: tb
  creation_date: 2016-07-21T18:25:49Z
  
-@@ -619201,6 +619333,7 @@
+@@ -619201,6 +619336,7 @@
  def: "The process whose specific outcome is the progression of an epididymis over time, from its formation to the mature structure." [GO_REF:0000094, GOC:TermGenie, PMID:12388089]
  synonym: "epididymus development" EXACT [GOC:TermGenie]
  is_a: GO:0035295 ! tube development
@@ -4840,7 +4911,7 @@
  created_by: sl
  creation_date: 2017-01-27T00:00:33Z
  
-@@ -621624,7 +621757,7 @@
+@@ -621624,7 +621760,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the fruit replum over time, from its formation to the mature structure. The fruit replum is a portion of fruit placenta tissue that divides a fruit into two or more chambers and develops from a replum." [PMID:23133401, PO:0025267]
  is_a: GO:0009791 ! post-embryonic development
@@ -4849,7 +4920,7 @@
  relationship: part_of GO:0010154 ! fruit development
  created_by: dhl
  creation_date: 2013-03-12T21:15:15Z
-@@ -621635,7 +621768,7 @@
+@@ -621635,7 +621771,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the fruit valve over time, from its formation to the mature structure. The fruit valve is a part of a fruit that splits apart when the fruit dehisces." [PMID:23133401, PO:0000033]
  is_a: GO:0009791 ! post-embryonic development
@@ -4858,7 +4929,7 @@
  relationship: part_of GO:0010154 ! fruit development
  created_by: dhl
  creation_date: 2013-03-12T21:21:15Z
-@@ -624895,6 +625028,7 @@
+@@ -624895,6 +625031,7 @@
  synonym: "penile bone development" EXACT [GOC:sl]
  synonym: "penis bone development" EXACT [GOC:sl]
  is_a: GO:0048608 ! reproductive structure development
@@ -4866,7 +4937,7 @@
  created_by: sl
  creation_date: 2014-05-01T23:59:13Z
  
-@@ -626000,11 +626134,13 @@
+@@ -626000,11 +626137,13 @@
  
  [Term]
  id: GO:1990473
@@ -4883,7 +4954,7 @@
  created_by: pr
  creation_date: 2014-09-02T08:22:03Z
  
-@@ -648282,13 +648418,13 @@
+@@ -648282,13 +648421,13 @@
  synonym: "regulation of isopentenyl diphosphate formation, mevalonate pathway" EXACT [GOC:obol]
  synonym: "regulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:obol]
  is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
@@ -4898,7 +4969,7 @@
  created_by: bf
  creation_date: 2011-11-15T10:53:42Z
  
-@@ -648302,7 +648438,6 @@
+@@ -648302,7 +648441,6 @@
  synonym: "negative regulation of isopentenyl diphosphate anabolism, mevalonate pathway" EXACT [GOC:obol]
  synonym: "negative regulation of isopentenyl diphosphate formation, mevalonate pathway" EXACT [GOC:obol]
  synonym: "negative regulation of isopentenyl diphosphate synthesis, mevalonate pathway" EXACT [GOC:obol]
@@ -4906,7 +4977,7 @@
  is_a: GO:0045934 ! negative regulation of nucleobase-containing compound metabolic process
  is_a: GO:0062014 ! negative regulation of small molecule metabolic process
  is_a: GO:0071072 ! negative regulation of phospholipid biosynthetic process
-@@ -648310,6 +648445,7 @@
+@@ -648310,6 +648448,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0019287 ! isopentenyl diphosphate biosynthetic process, mevalonate pathway
  relationship: negatively_regulates GO:0019287 ! isopentenyl diphosphate biosynthetic process, mevalonate pathway
@@ -4914,7 +4985,7 @@
  created_by: bf
  creation_date: 2011-11-15T10:53:45Z
  
-@@ -650760,7 +650896,7 @@
+@@ -650760,7 +650899,7 @@
  def: "A process by which an organism causes inflammatory response in another organism via the action of a venom." [PMID:19000915, PMID:32024243]
  synonym: "envenomation resulting in positive regulation of inflammatory response in another organism" EXACT []
  synonym: "venom-mediated inflammation" BROAD []
@@ -4923,7 +4994,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31902" xsd:anyURI
  created_by: dragon-ai-agent
  creation_date: 2026-05-07T07:41:13Z
-@@ -650802,12 +650938,18 @@
+@@ -650802,12 +650941,18 @@
  
  [Term]
  id: GO:7770075
@@ -4944,7 +5015,7 @@
  created_by: dragon-ai-agent
  creation_date: 2026-05-07T13:33:49Z
  
-@@ -650823,6 +650965,84 @@
+@@ -650823,6 +650968,84 @@
  created_by: dragon-ai-agent
  creation_date: 2026-05-07T13:33:49Z
  

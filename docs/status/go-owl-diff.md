@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-18/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-19/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-18" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-19" 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -213,6 +213,18 @@
 - [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "KDEL sequence binding" 
 
 - [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "KDEL signal sequence receptor activity" 
+
+
+### FAR/SIN/STRIPAK complex `http://purl.obolibrary.org/obo/GO_0090443`
+#### Removed
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [label](http://www.w3.org/2000/01/rdf-schema#label) "FAR/SIN/STRIPAK complex" 
+
+#### Added
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32223"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "FAR/SIN/STRIPAK complex" 
+
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [label](http://www.w3.org/2000/01/rdf-schema#label) "FAR/SIP/STRIPAK complex" 
 
 
 ### GDP-fucose transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005457`
@@ -3033,6 +3045,14 @@
 - [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051224) 
 
 
+### negative regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903389`
+#### Removed
+- [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901880) 
+
+#### Added
+- [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043242) 
+
+
 ### nephron development `http://purl.obolibrary.org/obo/GO_0072006`
 #### Removed
 - [nephron development](http://purl.obolibrary.org/obo/GO_0072006) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -4050,6 +4070,14 @@
 - [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051222) 
 
 
+### positive regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903390`
+#### Removed
+- [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901881) 
+
+#### Added
+- [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043243) 
+
+
 ### posterior cibarial plate development `http://purl.obolibrary.org/obo/GO_0048727`
 #### Removed
 - [posterior cibarial plate development](http://purl.obolibrary.org/obo/GO_0048727) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -4438,6 +4466,14 @@
 - [rectal diverticulum development](http://purl.obolibrary.org/obo/GO_0039009) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### regulation of COPII vesicle uncoating `http://purl.obolibrary.org/obo/GO_0090111`
+#### Removed
+- [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
+
+#### Added
+- [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
+
+
 ### regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway `http://purl.obolibrary.org/obo/GO_0010322`
 #### Removed
 - [regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0010322) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway" 
@@ -4573,6 +4609,14 @@
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of cellular process](http://purl.obolibrary.org/obo/GO_0050794) 
 
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051223) 
+
+
+### regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903388`
+#### Removed
+- [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
+
+#### Added
+- [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
 
 
 ### renal cortex development `http://purl.obolibrary.org/obo/GO_0072055`
@@ -5412,6 +5456,24 @@
 
 #### Added
 - [ventricular system development](http://purl.obolibrary.org/obo/GO_0021591) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### vesicle uncoating `http://purl.obolibrary.org/obo/GO_0072319`
+#### Removed
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein depolymerization process that results in the disassembly of vesicle coat proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) SubClassOf [protein depolymerization](http://purl.obolibrary.org/obo/GO_0051261) 
+
+#### Added
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32179"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The disaggregation of a vesicle coat into its constituent components, resulting in removal of the protein coat from a transport vesicle. Uncoating occurs after vesicle budding and can be coupled to vesicle docking and fusion with the target membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20706600" 
+
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) SubClassOf [protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0032984) 
 
 
 ### visceral peritoneum development `http://purl.obolibrary.org/obo/GO_1904818`

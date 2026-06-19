@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-18/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-19/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-18" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-19" 
 
 
 ### (10R,17S)-dihydroxy-(7Z,11E,13E,15Z,19Z)-docosapentaenoate `http://purl.obolibrary.org/obo/CHEBI_140405`
@@ -646,47 +646,47 @@
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
 #### Removed
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77254" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77254" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-3-Hydroxydodecanoyl-CoA+NAD =&gt; 3-Oxododecanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77303" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77303" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-3-Hydroxyhexadecanoyl-CoA+NAD =&gt; 3-Oxopalmitoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77283" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77283" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-3-Hydroxytetradecanoyl-CoA+NAD =&gt; 3-Oxotetradecanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77312" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77312" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxybutanoyl-CoA+NAD =&gt; Acetoacetyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77342" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77342" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxydecanoyl-CoA+NAD =&gt; 3-Oxodecanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77323" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77323" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxyhexanoyl-CoA+NAD =&gt; 3-Oxohexanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77331" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77331" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxyoctanoyl-CoA+NAD =&gt; 3-Oxooctanoyl-CoA+NADH+H" 
 
 #### Added
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77254" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77254" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-3-Hydroxydodecanoyl-CoA+NAD&lt;=&gt;3-Oxododecanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77303" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77303" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-3-Hydroxyhexadecanoyl-CoA+NAD&lt;=&gt;3-Oxopalmitoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77283" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77283" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-3-Hydroxytetradecanoyl-CoA+NAD&lt;=&gt;3-Oxotetradecanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77312" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77312" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxybutanoyl-CoA+NAD&lt;=&gt;Acetoacetyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77342" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77342" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxydecanoyl-CoA+NAD&lt;=&gt;3-Oxodecanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77323" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77323" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxyhexanoyl-CoA+NAD&lt;=&gt;3-Oxohexanoyl-CoA+NADH+H" 
 
-- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77331" 
+- [(3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0003857) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77331" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(S)-Hydroxyoctanoyl-CoA+NAD&lt;=&gt;3-Oxooctanoyl-CoA+NADH+H" 
 
 
@@ -2154,11 +2154,11 @@
 
 ### (R)-3-amino-2-methylpropionate:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0047305`
 #### Removed
-- [(R)-3-amino-2-methylpropionate:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047305) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-909780" 
+- [(R)-3-amino-2-methylpropionate:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047305) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-909780" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-3-amino-2-methylpropanoate + pyruvate =&gt; 2-methyl-3-oxopropanoate + L-alanine" 
 
 #### Added
-- [(R)-3-amino-2-methylpropionate:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047305) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-909780" 
+- [(R)-3-amino-2-methylpropionate:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047305) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-909780" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-3-aminoisobutyric acid + pyruvate =&gt; 2-methyl-3-oxopropanoate + alanine" 
 
 
@@ -4154,11 +4154,11 @@
 
 ### 5'-nucleotidase activity `http://purl.obolibrary.org/obo/GO_0008253`
 #### Removed
-- [5'-nucleotidase activity](http://purl.obolibrary.org/obo/GO_0008253) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-109387" 
+- [5'-nucleotidase activity](http://purl.obolibrary.org/obo/GO_0008253) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-109387" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(2'-deoxy)purine nucleoside 5'-monophosphate + H2O =&gt; (2'-deoxy)purine nucleoside + orthophosphate [NT5C1A]" 
 
 #### Added
-- [5'-nucleotidase activity](http://purl.obolibrary.org/obo/GO_0008253) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-109387" 
+- [5'-nucleotidase activity](http://purl.obolibrary.org/obo/GO_0008253) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-109387" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(d)AMP, (d)GMP, or (d)IMP + H2O =&gt; (deoxy)adenosine, (deoxy)guanosine, or (deoxy)inosine + orthophosphate (NT5C1A)" 
 
 
@@ -4394,7 +4394,7 @@
 
 ### 5-phosphoribose 1-diphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0006015`
 #### Removed
-- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73843" 
+- [5-phosphoribose 1-diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0006015) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73843" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5-Phosphoribose 1-diphosphate biosynthesis" 
 
 
@@ -4799,11 +4799,11 @@
 
 ### 7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity `http://purl.obolibrary.org/obo/GO_0044688`
 #### Removed
-- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12357" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "skos:narrowMatch" 
+- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12357" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "skos:narrowMatch" 
 
 #### Added
-- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12357" 
+- [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-12357" 
 
 - [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0044688) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-12357](http://identifiers.org/metacyc.reaction/RXN-12357) 
 
@@ -5250,13 +5250,13 @@
 
 ### A2-type glycerophospholipase activity `http://purl.obolibrary.org/obo/GO_0004623`
 #### Removed
-- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952251" 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952251" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PLA2G15 hydrolyses LPC to GPCho and LCFA(-)" 
 
-- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111883" 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111883" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PLA2G4A (cPLA2) hydrolyzes phosphatidylcholine" 
 
-- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111881" 
+- [A2-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0004623) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111881" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Phospho-cPLA2 translocates to membranes when intracellular calcium levels increase" 
 
 #### Added
@@ -5265,31 +5265,31 @@
 
 ### ADP-ribosylarginine-[protein] hydrolase activity `http://purl.obolibrary.org/obo/GO_0003875`
 #### Removed
-- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:3.2.2.24-RXN" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "skos:narrowMatch" 
+- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:3.2.2.24-RXN" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "skos:narrowMatch" 
 
 #### Added
-- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:3.2.2.24-RXN" 
+- [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:3.2.2.24-RXN" 
 
 - [ADP-ribosylarginine-[protein] hydrolase activity](http://purl.obolibrary.org/obo/GO_0003875) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN](http://identifiers.org/metacyc.reaction/3.2.2.24-RXN) 
 
 
 ### ATP hydrolysis activity `http://purl.obolibrary.org/obo/GO_0016887`
 #### Removed
-- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9943614" 
+- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9943614" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CHD2-dependent H3.3 deposition at MYOG gene" 
 
-- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944087" 
+- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944087" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CHD6-9-dependent ATP hydrolysis" 
 
-- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944091" 
+- [ATP hydrolysis activity](http://purl.obolibrary.org/obo/GO_0016887) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944091" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NuRD hydrolyzes ATP to affect nucleosome organization" 
 
 
 
 ### ATPase-coupled transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0042626`
 #### Removed
-- [ATPase-coupled transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0042626) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1222523" 
+- [ATPase-coupled transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0042626) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1222523" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SodB gets secreted" 
 
 
@@ -5466,19 +5466,25 @@
 
 
 
+### CHEBI_235408 `http://purl.obolibrary.org/obo/CHEBI_235408`
+
+#### Added
+- Class: [CHEBI_235408](http://purl.obolibrary.org/obo/CHEBI_235408) 
+
+
 ### CTP synthase activity `http://purl.obolibrary.org/obo/GO_0003883`
 #### Removed
-- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73647" 
+- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73647" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Amination of uridine 5'-triphosphate (UTP) to form cytidine 5'-triphosphate (CTPS)" 
 
-- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-504054" 
+- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-504054" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Amination of uridine 5'-triphosphate (UTP) to form cytidine 5'-triphosphate (CTPS2)" 
 
 #### Added
-- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-504054" 
+- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-504054" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "UTP + glutamine + ATP + H2O =&gt; CTP + glutamate + ADP + orthophosphate [CTPS2]" 
 
-- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73647" 
+- [CTP synthase activity](http://purl.obolibrary.org/obo/GO_0003883) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73647" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "UTP + glutamine + ATP + H2O =&gt; CTP + glutamate + ADP + orthophosphate [CTPS]" 
 
 
@@ -5529,7 +5535,7 @@
 ### DDEL sequence binding `http://purl.obolibrary.org/obo/GO_0030944`
 #### Removed
 - [DDEL sequence binding](http://purl.obolibrary.org/obo/GO_0030944) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a KDEL sequence, the C terminus tetrapeptide sequence Asp-Asp-Glu-Leu found in proteins that are to be retained in the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [DDEL sequence binding](http://purl.obolibrary.org/obo/GO_0030944) [label](http://www.w3.org/2000/01/rdf-schema#label) "DDEL sequence binding" 
 
@@ -5541,7 +5547,7 @@
 - [DDEL sequence binding](http://purl.obolibrary.org/obo/GO_0030944) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) 
 
 - [DDEL sequence binding](http://purl.obolibrary.org/obo/GO_0030944) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a KDEL sequence, the C terminus tetrapeptide sequence Asp-Asp-Glu-Leu found in proteins that are to be retained in the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [DDEL sequence binding](http://purl.obolibrary.org/obo/GO_0030944) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -5552,7 +5558,7 @@
 
 ### DNA ligase activity `http://purl.obolibrary.org/obo/GO_0003909`
 #### Removed
-- [DNA ligase activity](http://purl.obolibrary.org/obo/GO_0003909) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5686663" 
+- [DNA ligase activity](http://purl.obolibrary.org/obo/GO_0003909) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5686663" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Completion of SSA" 
 
 
@@ -5665,6 +5671,18 @@
 - [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "KDEL sequence binding" 
 
 - [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "KDEL signal sequence receptor activity" 
+
+
+### FAR/SIN/STRIPAK complex `http://purl.obolibrary.org/obo/GO_0090443`
+#### Removed
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [label](http://www.w3.org/2000/01/rdf-schema#label) "FAR/SIN/STRIPAK complex" 
+
+#### Added
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32223"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "FAR/SIN/STRIPAK complex" 
+
+- [FAR/SIN/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [label](http://www.w3.org/2000/01/rdf-schema#label) "FAR/SIP/STRIPAK complex" 
 
 
 ### GCIs 
@@ -7283,32 +7301,32 @@
 
 ### GDP-fucose transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005457`
 #### Removed
-- [GDP-fucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005457) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-742345" 
+- [GDP-fucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005457) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-742345" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC35C1 transports GDP-Fuc from cytosol to Golgi lumen" 
 
 #### Added
-- [GDP-fucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005457) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-742345" 
+- [GDP-fucose transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005457) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-742345" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC35C1 transport GDP-Fuc from cytosol to Golgi lumen" 
 
 
 ### GDP-mannose biosynthetic process `http://purl.obolibrary.org/obo/GO_0009298`
 #### Removed
-- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5659" 
+- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5659" 
   - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
 
 #### Added
-- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5659" 
+- [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5659" 
 
 - [GDP-mannose biosynthetic process](http://purl.obolibrary.org/obo/GO_0009298) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-5659](http://identifiers.org/metacyc.reaction/PWY-5659) 
 
 
 ### GMP reductase activity `http://purl.obolibrary.org/obo/GO_0003920`
 #### Removed
-- [GMP reductase activity](http://purl.obolibrary.org/obo/GO_0003920) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-514604" 
+- [GMP reductase activity](http://purl.obolibrary.org/obo/GO_0003920) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-514604" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GMP + NADPH + 2 H+ =&gt; IMP + NADP+ + NH4+ (GMPR,GMPR2)" 
 
 #### Added
-- [GMP reductase activity](http://purl.obolibrary.org/obo/GO_0003920) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-514604" 
+- [GMP reductase activity](http://purl.obolibrary.org/obo/GO_0003920) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-514604" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GMP + NADPH + H+ =&gt; IMP + NADP+ + NH4+ (GMPR,GMPR2)" 
 
 
@@ -7335,7 +7353,7 @@
 ### HDEL sequence binding `http://purl.obolibrary.org/obo/GO_0045015`
 #### Removed
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a HDEL sequence, the C terminus tetrapeptide sequence His-Asp-Glu-Leu found in proteins that are to be retained in the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1327759" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1327759" 
 
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [label](http://www.w3.org/2000/01/rdf-schema#label) "HDEL sequence binding" 
 
@@ -7347,7 +7365,7 @@
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) 
 
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a HDEL sequence, the C terminus tetrapeptide sequence His-Asp-Glu-Leu found in proteins that are to be retained in the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1327759" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1327759" 
 
 - [HDEL sequence binding](http://purl.obolibrary.org/obo/GO_0045015) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -7361,13 +7379,13 @@
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [conformsTo](http://purl.org/dc/terms/conformsTo) [signaling_receptor_activity_by_input.yaml](http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml) 
 
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with ICAM-3, intercellular adhesion molecule 3, and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity. ICAM-3, or CD50, are constitutively expressed on monocytes, granulocytes and lymphocytes; on physiological stimulation, they become transiently phosphorylated on serine residues." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7515813" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7515813" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term represents an activity and not a gene product. Consider also annotating to the molecular function terms 'cell adhesion molecule binding ; GO:0050839' and 'receptor binding ; GO:0005102' and the biological process term 'cell adhesion ; GO:0007155'." 
 
@@ -7385,13 +7403,13 @@
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [transmembrane signaling receptor activity](http://purl.obolibrary.org/obo/GO_0004888) 
 
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Combining with ICAM-3, intercellular adhesion molecule 3, and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity. ICAM-3, or CD50, are constitutively expressed on monocytes, granulocytes and lymphocytes; on physiological stimulation, they become transiently phosphorylated on serine residues." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7515813" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7515813" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
 - [ICAM-3 receptor activity](http://purl.obolibrary.org/obo/GO_0030369) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -7403,7 +7421,7 @@
 ### KDEL sequence binding `http://purl.obolibrary.org/obo/GO_0005046`
 #### Removed
 - [KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a KDEL sequence, the C terminus tetrapeptide sequence Lys-Asp-Glu-Leu found in proteins that are to be retained in the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [label](http://www.w3.org/2000/01/rdf-schema#label) "KDEL sequence binding" 
 
@@ -7415,7 +7433,7 @@
 - [KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) 
 
 - [KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a KDEL sequence, the C terminus tetrapeptide sequence Lys-Asp-Glu-Leu found in proteins that are to be retained in the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -7434,7 +7452,7 @@
 
 ### L-2-hydroxycarboxylate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0102443`
 #### Removed
-- [L-2-hydroxycarboxylate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102443) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971565" 
+- [L-2-hydroxycarboxylate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102443) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971565" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown enzyme hydrogenates HPP" 
 
 
@@ -7455,11 +7473,11 @@
 
 ### L-arabinose catabolic process `http://purl.obolibrary.org/obo/GO_0019572`
 #### Removed
-- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
+- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
   - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:narrowMatch" 
 
 #### Added
-- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
+- [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
 
 - [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ARABCAT-PWY](http://identifiers.org/metacyc.reaction/ARABCAT-PWY) 
 
@@ -7540,14 +7558,14 @@
 
 ### L-methionine salvage `http://purl.obolibrary.org/obo/GO_0071267`
 #### Removed
-- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237112" 
+- [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237112" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Methionine salvage pathway" 
 
 
 
 ### L-selenocysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0016260`
 #### Removed
-- [L-selenocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0016260) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2408557" 
+- [L-selenocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0016260) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2408557" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Selenocysteine synthesis" 
 
 
@@ -7555,13 +7573,13 @@
 ### L-serine metabolic process `http://purl.obolibrary.org/obo/GO_0006563`
 
 #### Added
-- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-977347" 
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-977347" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Serine metabolism" 
 
 
 ### L-threonine catabolic process `http://purl.obolibrary.org/obo/GO_0006567`
 #### Removed
-- [L-threonine catabolic process](http://purl.obolibrary.org/obo/GO_0006567) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8849175" 
+- [L-threonine catabolic process](http://purl.obolibrary.org/obo/GO_0006567) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8849175" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Threonine catabolism" 
 
 
@@ -7780,7 +7798,7 @@
 
 ### N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0008080`
 #### Removed
-- [N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008080) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971629" 
+- [N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0008080) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971629" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown NAT N-acetylates kynurenine" 
 
 
@@ -7925,17 +7943,17 @@
 
 ### N6-methyl-AMP deaminase activity `http://purl.obolibrary.org/obo/GO_0062154`
 #### Removed
-- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2161187" 
+- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2161187" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MAPDA hydrolyzes N6-methyl-AMP to IMP and methylamine" 
 
-- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9731661" 
+- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9731661" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MAPDA hydrolyzes N6-methyl-dAMP to dIMP and methylamine" 
 
 #### Added
-- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2161187" 
+- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2161187" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADAL1 hydrolyzes N6-methyl-AMP to IMP and methylamine" 
 
-- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9731661" 
+- [N6-methyl-AMP deaminase activity](http://purl.obolibrary.org/obo/GO_0062154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9731661" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADAL1 hydrolyzes N6-methyl-dAMP to dIMP and methylamine" 
 
 
@@ -8033,10 +8051,10 @@
 
 ### RNA-directed RNA polymerase activity `http://purl.obolibrary.org/obo/GO_0003968`
 #### Removed
-- [RNA-directed RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0003968) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944255" 
+- [RNA-directed RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0003968) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944255" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CHD6 negatively regulates influenza transcription" 
 
-- [RNA-directed RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0003968) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944257" 
+- [RNA-directed RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0003968) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944257" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CHD6 negatively regulates positive strand RNA synthesis" 
 
 
@@ -8069,21 +8087,21 @@
 
 ### SUMO transferase activity `http://purl.obolibrary.org/obo/GO_0019789`
 #### Removed
-- [SUMO transferase activity](http://purl.obolibrary.org/obo/GO_0019789) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9940470" 
+- [SUMO transferase activity](http://purl.obolibrary.org/obo/GO_0019789) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9940470" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GATAD2A is SUMOylated" 
 
-- [SUMO transferase activity](http://purl.obolibrary.org/obo/GO_0019789) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9940458" 
+- [SUMO transferase activity](http://purl.obolibrary.org/obo/GO_0019789) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9940458" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GATAD2B is SUMOylated" 
 
 
 
 ### T-helper 1 cell differentiation `http://purl.obolibrary.org/obo/GO_0045063`
 #### Removed
-- [T-helper 1 cell differentiation](http://purl.obolibrary.org/obo/GO_0045063) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9942503" 
+- [T-helper 1 cell differentiation](http://purl.obolibrary.org/obo/GO_0045063) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9942503" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Differentiation of naive CD4+ T cells to T helper 1 cells (Th1 cells)" 
 
 #### Added
-- [T-helper 1 cell differentiation](http://purl.obolibrary.org/obo/GO_0045063) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9942503" 
+- [T-helper 1 cell differentiation](http://purl.obolibrary.org/obo/GO_0045063) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9942503" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Differentiation of naive CD+ T cells to T helper 1 cells (Th1 cells)" 
 
 
@@ -8139,11 +8157,11 @@
 
 ### UDP-N-acetylglucosamine 2-epimerase activity `http://purl.obolibrary.org/obo/GO_0008761`
 #### Removed
-- [UDP-N-acetylglucosamine 2-epimerase activity](http://purl.obolibrary.org/obo/GO_0008761) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-4085021" 
+- [UDP-N-acetylglucosamine 2-epimerase activity](http://purl.obolibrary.org/obo/GO_0008761) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-4085021" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GNE hydrolyzes and epimerises UDP-GlcNAc to ManNAc and UDP" 
 
 #### Added
-- [UDP-N-acetylglucosamine 2-epimerase activity](http://purl.obolibrary.org/obo/GO_0008761) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-4085021" 
+- [UDP-N-acetylglucosamine 2-epimerase activity](http://purl.obolibrary.org/obo/GO_0008761) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-4085021" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GNE hydrolyzes/epimerises UDP-GlcNAc to ManNAc and UDP" 
 
 
@@ -8215,41 +8233,41 @@
 
 ### acetyl-CoA C-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0003988`
 #### Removed
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77340" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77340" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxodecanoyl-CoA+CoA-SH =&gt; Octanoyl-CoA + acetyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77309" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77309" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxododecanoyl-CoA+CoA-SH =&gt; Decanoyl-CoA + acetyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77321" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77321" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxohexanoyl-CoA+CoA-SH =&gt; Butanoyl-CoA + acetyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77329" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77329" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxooctanoyl-CoA+CoA-SH =&gt; Hexanoyl-CoA + acetyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77304" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77304" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxopalmitoyl-CoA+CoA-SH =&gt; myristoyl-CoA+acetyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77271" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77271" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxotetradecanoyl-CoA+CoA-SH =&gt; Lauroyl-CoA + acetyl-CoA" 
 
 #### Added
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77340" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77340" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxodecanoyl-CoA+CoA-SH&lt;=&gt;Octanoyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77309" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77309" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxododecanoyl-CoA+CoA-SH&lt;=&gt;Decanoyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77321" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77321" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxohexanoyl-CoA+CoA-SH&lt;=&gt;Butanoyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77329" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77329" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxooctanoyl-CoA+CoA-SH&lt;=&gt;Hexanoyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77304" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77304" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxopalmitoyl-CoA+CoA-SH&lt;=&gt;myristoyl-CoA" 
 
-- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77271" 
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77271" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxotetradecanoyl-CoA+CoA-SH&lt;=&gt;Lauroyl-CoA" 
 
 
@@ -8277,47 +8295,47 @@
 
 ### acyl-CoA dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0003995`
 #### Removed
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77319" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77319" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Butanoyl-CoA+FAD =&gt; Crotonoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77345" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77345" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Decanoyl-CoA+FAD =&gt; trans-Dec-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77327" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77327" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Hexanoyl-CoA+FAD =&gt; trans-Hex-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77338" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77338" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Octanoyl-CoA+FAD =&gt; trans-Oct-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77263" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77263" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "lauroyl-CoA+FAD =&gt; 2-trans-Dodecenoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77274" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77274" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "myristoyl-CoA+FAD =&gt; trans-tetradec-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77299" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77299" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "palmitoyl-CoA+FAD =&gt; trans-Hexadec-2-enoyl-CoA+FADH2" 
 
 #### Added
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77319" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77319" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Butanoyl-CoA+FAD&lt;=&gt;Crotonoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77345" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77345" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Decanoyl-CoA+FAD&lt;=&gt;trans-Dec-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77327" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77327" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Hexanoyl-CoA+FAD&lt;=&gt;trans-Hex-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77338" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77338" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Octanoyl-CoA+FAD&lt;=&gt;trans-Oct-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77263" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77263" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "lauroyl-CoA+FAD&lt;=&gt;2-trans-Dodecenoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77274" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77274" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "myristoyl-CoA+FAD&lt;=&gt;trans-Tetradec-2-enoyl-CoA+FADH2" 
 
-- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77299" 
+- [acyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003995) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77299" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "palmitoyl-CoA+FAD&lt;=&gt;trans-Hexadec-2-enoyl-CoA+FADH2" 
 
 
@@ -8576,9 +8594,9 @@
 ### alcohol dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004022`
 
 #### Added
-- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25225" 
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25225" 
 
-- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:37963" 
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:37963" 
 
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [25225](http://rdf.rhea-db.org/25225) 
 
@@ -8587,13 +8605,13 @@
 
 ### aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004029`
 #### Removed
-- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971429" 
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971429" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown ALDH oxidizes 10-oxo-DECA" 
 
-- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971446" 
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971446" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown ALDH oxidizes 3-AAPNAL" 
 
-- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970035" 
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970035" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown ALDH oxidizes methylimidazolealdehyde" 
 
 
@@ -8649,7 +8667,7 @@
 ### aldose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004032`
 
 #### Added
-- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:37967" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:37967" 
 
 - [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [37967](http://rdf.rhea-db.org/37967) 
 
@@ -9188,7 +9206,7 @@
 
 ### amino-acid betaine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015199`
 #### Removed
-- [amino-acid betaine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015199) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797957" 
+- [amino-acid betaine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015199) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797957" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC22A4 transports BET from mitochondrial matrix to cytosol" 
 
 
@@ -9196,7 +9214,7 @@
 ### aminoacylase activity `http://purl.obolibrary.org/obo/GO_0004046`
 
 #### Added
-- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28598" 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28598" 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [28598](http://rdf.rhea-db.org/28598) 
 
@@ -9234,7 +9252,7 @@
 ### animal gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160108`
 #### Removed
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any developmental process whose specific outcome is the progression of a gross anatomical part of an animal from an initial immature state, to a later, more mature state." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
 
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [developmental process](http://purl.obolibrary.org/obo/GO_0032502) 
 
@@ -9242,7 +9260,7 @@
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
 
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A developmental process whose specific outcome is the progression of a gross anatomical part of an animal over time from an initial condition to a later condition." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
 
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
@@ -10285,17 +10303,17 @@
 
 ### beta-ureidopropionase activity `http://purl.obolibrary.org/obo/GO_0003837`
 #### Removed
-- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73620" 
+- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73620" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "conversion of 3-Ureidoiosbutyrate to 3-Aminoisobutyrate" 
 
-- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73591" 
+- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73591" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "conversion of 3-ureidopropionate to beta-alanine" 
 
 #### Added
-- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73620" 
+- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73620" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-ureidoisobutyrate + H2O =&gt; 3-aminoisobutyrate + NH4+ + CO2" 
 
-- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73591" 
+- [beta-ureidopropionase activity](http://purl.obolibrary.org/obo/GO_0003837) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73591" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-ureidopropionate + H2O =&gt; beta-alanine + NH4+ + CO2" 
 
 
@@ -10360,14 +10378,14 @@
 ### blood coagulation, extrinsic pathway `http://purl.obolibrary.org/obo/GO_0007598`
 
 #### Added
-- [blood coagulation, extrinsic pathway](http://purl.obolibrary.org/obo/GO_0007598) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140834" 
+- [blood coagulation, extrinsic pathway](http://purl.obolibrary.org/obo/GO_0007598) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140834" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Extrinsic Pathway of Fibrin Clot Formation" 
 
 
 ### blood coagulation, intrinsic pathway `http://purl.obolibrary.org/obo/GO_0007597`
 
 #### Added
-- [blood coagulation, intrinsic pathway](http://purl.obolibrary.org/obo/GO_0007597) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140837" 
+- [blood coagulation, intrinsic pathway](http://purl.obolibrary.org/obo/GO_0007597) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140837" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Intrinsic Pathway of Fibrin Clot Formation" 
 
 
@@ -10471,43 +10489,43 @@
 
 ### cargo receptor activity `http://purl.obolibrary.org/obo/GO_0038024`
 #### Removed
-- [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2248891" 
+- [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2248891" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "M6PR transports activated ARSA to the lysosome" 
 
-- [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662747" 
+- [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662747" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "iRHOM2 transports ADAM17 from ER to the Golgi-network" 
 
-- [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662818" 
+- [cargo receptor activity](http://purl.obolibrary.org/obo/GO_0038024) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662818" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "iRHOM2 transports ADAM17:Zn2+ from Golgi to the plasma membrane" 
 
 
 
 ### carnitine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0016406`
 #### Removed
-- [carnitine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016406) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971123" 
+- [carnitine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0016406) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971123" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CRAT transfers ISB to CAR" 
 
 
 
 ### carnitine catabolic process `http://purl.obolibrary.org/obo/GO_0042413`
 #### Removed
-- [carnitine catabolic process](http://purl.obolibrary.org/obo/GO_0042413) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:" 
+- [carnitine catabolic process](http://purl.obolibrary.org/obo/GO_0042413) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:" 
 
 
 
 ### carnitine shuttle `http://purl.obolibrary.org/obo/GO_0006853`
 #### Removed
-- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Carnitine#Role_in_fatty_acid_metabolism" 
+- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Carnitine#Role_in_fatty_acid_metabolism" 
 
 #### Added
 - [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32167"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6111" 
+- [carnitine shuttle](http://purl.obolibrary.org/obo/GO_0006853) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6111" 
 
 
 ### carnitine:O-acyl-L-carnitine antiporter activity `http://purl.obolibrary.org/obo/GO_0005476`
 #### Removed
-- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971094" 
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971094" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC25A20 exports excess acyl-CAR" 
 
 
@@ -10614,26 +10632,26 @@
 
 ### choline transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015220`
 #### Removed
-- [choline transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015220) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797956" 
+- [choline transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015220) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797956" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC44A1 and SLC44A2 transport Cho from cytosol to mitochondrial matrix" 
 
 #### Added
-- [choline transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015220) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797956" 
+- [choline transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015220) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797956" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC44A1 transports Cho from cytosol to mitochondrial matrix" 
 
 
 ### ciliary targeting signal binding `http://purl.obolibrary.org/obo/GO_1990473`
 #### Removed
 - [ciliary targeting signal binding](http://purl.obolibrary.org/obo/GO_1990473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a ciliary targeting sequence, a specific peptide sequence that acts as a signal to localize a membrane protein to the ciliary membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18256283" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20697559" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20603001" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20697559" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20603001" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19575670" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19575670" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18256283" 
 
 - [ciliary targeting signal binding](http://purl.obolibrary.org/obo/GO_1990473) [label](http://www.w3.org/2000/01/rdf-schema#label) "ciliary targeting signal binding" 
 
@@ -10643,15 +10661,15 @@
 - [ciliary targeting signal binding](http://purl.obolibrary.org/obo/GO_1990473) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [ciliary targeting signal binding](http://purl.obolibrary.org/obo/GO_1990473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a ciliary targeting sequence, a specific peptide sequence that acts as a signal to localize a membrane protein to the ciliary membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18256283" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20697559" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20603001" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20697559" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20603001" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19575670" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19575670" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18256283" 
 
 - [ciliary targeting signal binding](http://purl.obolibrary.org/obo/GO_1990473) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -10662,7 +10680,7 @@
 
 ### cilium assembly `http://purl.obolibrary.org/obo/GO_0060271`
 #### Removed
-- [cilium assembly](http://purl.obolibrary.org/obo/GO_0060271) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5620920" 
+- [cilium assembly](http://purl.obolibrary.org/obo/GO_0060271) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5620920" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Cargo trafficking to the periciliary membrane" 
 
 
@@ -10796,14 +10814,14 @@
 ### cone photoresponse recovery `http://purl.obolibrary.org/obo/GO_0036368`
 #### Removed
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The processes required for a cone photoreceptor to recover, following light activation, so that it can respond to a subsequent light stimulus. Cone recovery requires the shutoff of active participants in the phototransduction cascade, including the visual pigment and downstream signal transducers." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802362" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16039565" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16039565" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:gap" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:gap" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802362" 
 
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cone response recovery" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12732716" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12732716" 
 
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [label](http://www.w3.org/2000/01/rdf-schema#label) "cone photoresponse recovery" 
 
@@ -10817,12 +10835,12 @@
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "rod response recovery" 
 
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "cone response recovery" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12732716" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12732716" 
 
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The processes required for a photoreceptor to recover, following light activation, so that it can respond to a subsequent light stimulus. Photoreceptor recovery requires the shutoff of active participants in the phototransduction cascade, including the visual pigment and downstream signal transducers." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802362" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16039565" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16039565" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802362" 
 
 - [cone photoresponse recovery](http://purl.obolibrary.org/obo/GO_0036368) [label](http://www.w3.org/2000/01/rdf-schema#label) "photoresponse recovery" 
 
@@ -10905,11 +10923,11 @@
 
 ### cytidine deaminase activity `http://purl.obolibrary.org/obo/GO_0004126`
 #### Removed
-- [cytidine deaminase activity](http://purl.obolibrary.org/obo/GO_0004126) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73608" 
+- [cytidine deaminase activity](http://purl.obolibrary.org/obo/GO_0004126) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73608" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "deamination of 2'-Deoxycytidine to 2'-Deoxyuridine" 
 
 #### Added
-- [cytidine deaminase activity](http://purl.obolibrary.org/obo/GO_0004126) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73608" 
+- [cytidine deaminase activity](http://purl.obolibrary.org/obo/GO_0004126) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73608" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(deoxy)cytidine + H2O =&gt; (deoxy)uridine + NH4+ (CDA)" 
 
 
@@ -10939,11 +10957,11 @@
 
 ### dUTP diphosphatase activity `http://purl.obolibrary.org/obo/GO_0004170`
 #### Removed
-- [dUTP diphosphatase activity](http://purl.obolibrary.org/obo/GO_0004170) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73666" 
+- [dUTP diphosphatase activity](http://purl.obolibrary.org/obo/GO_0004170) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73666" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "hydrolysis of  2'-deoxyuridine 5'-triphosphate to form  2'-deoxyuridine 5'-phosphate" 
 
 #### Added
-- [dUTP diphosphatase activity](http://purl.obolibrary.org/obo/GO_0004170) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73666" 
+- [dUTP diphosphatase activity](http://purl.obolibrary.org/obo/GO_0004170) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73666" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "dUTP + H2O =&gt; dUMP + pyrophosphate" 
 
 
@@ -11119,33 +11137,33 @@
 
 ### dihydropyrimidinase activity `http://purl.obolibrary.org/obo/GO_0004157`
 #### Removed
-- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73618" 
+- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73618" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "conversion of 5,6-Dihydrothymine to 3-Ureidoisobutyrate" 
 
-- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73589" 
+- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73589" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "conversion of 5,6-dihydrouracil to 3-ureidopropionate" 
 
 #### Added
-- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73618" 
+- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73618" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5,6-dihydrothymine + H2O =&gt; beta-ureidoisobutyrate" 
 
-- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73589" 
+- [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73589" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5,6-dihydrouracil + H2O =&gt; beta-ureidopropionate" 
 
 
 ### dihydropyrimidine dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0017113`
 #### Removed
-- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73616" 
+- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73616" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "reduction of thymine to form 5,6-Dihydrothymine" 
 
-- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73585" 
+- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73585" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "reduction of uracil to form dihydrouracil" 
 
 #### Added
-- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73616" 
+- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73616" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "thymine + NADPH + H+ =&gt; 5,6-dihydrothymine + NADP+" 
 
-- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73585" 
+- [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73585" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "uracil + NADPH + H+ =&gt; 5,6-dihydrouracil + NADP+" 
 
 
@@ -11424,13 +11442,13 @@
 ### endonuclease activity `http://purl.obolibrary.org/obo/GO_0004519`
 
 #### Added
-- [endonuclease activity](http://purl.obolibrary.org/obo/GO_0004519) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-72180" 
+- [endonuclease activity](http://purl.obolibrary.org/obo/GO_0004519) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-72180" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Cleavage of mRNA at the 3'-end" 
 
 
 ### endopeptidase activity `http://purl.obolibrary.org/obo/GO_0004175`
 #### Removed
-- [endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004175) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958874" 
+- [endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004175) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958874" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "26S proteasome degrades ubiquitinated RAC1, CDC42" 
 
 
@@ -11445,41 +11463,41 @@
 
 ### enoyl-CoA hydratase activity `http://purl.obolibrary.org/obo/GO_0004300`
 #### Removed
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77256" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77256" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "2-trans-Dodecenoyl-CoA+H2O =&gt;( S)-3-Hydroxydodecanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77314" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77314" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Crotonoyl-CoA+H2O =&gt; (S)-3-Hydroxybutanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77344" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77344" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Dec-2-enoyl-CoA+H2O =&gt; (S)-Hydroxydecanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77301" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77301" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Hexadec-2-enoyl-CoA+H2O =&gt; (S)-3-Hydroxyhexadecanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77333" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77333" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Oct-2-enoyl-CoA+H2O =&gt; (S)-Hydroxyoctanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77277" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77277" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Tetradec-2-enoyl-CoA+H2O =&gt; (S)-3-Hydroxytetradecanoyl-CoA" 
 
 #### Added
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77256" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77256" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "2-trans-Dodecenoyl-CoA+H2O&lt;=&gt;(S)-3-Hydroxydodecanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77314" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77314" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Crotonoyl-CoA+H2O&lt;=&gt;(S)-3-Hydroxybutanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77344" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77344" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Dec-2-enoyl-CoA+H2O&lt;=&gt;(S)-Hydroxydecanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77301" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77301" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Hexadec-2-enoyl-CoA+H2O&lt;=&gt;(S)-3-Hydroxyhexadecanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77333" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77333" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Oct-2-enoyl-CoA+H2O&lt;=&gt;(S)-Hydroxyoctanoyl-CoA" 
 
-- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77277" 
+- [enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0004300) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77277" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-Tetradec-2-enoyl-CoA+H2O&lt;=&gt;(S)-3-Hydroxytetradecanoyl-CoA" 
 
 
@@ -11492,7 +11510,7 @@
 - [ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ent-kaurene oxidation to kaurenoic acid by ent-kaurene oxidase" 
 
 - [ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The three successive oxidations of the 4-methyl group of ent-kaurene to form ent-kaur-16-en-19-oate, kaurenoic acid. This process may be carried out entirely by the enzyme ent-kaurene oxidase." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
 - [ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term was in molecular function but was moved to biological process as it represents three successive reactions." 
 
@@ -11508,7 +11526,7 @@
 - [ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [gibberellin biosynthetic process](http://purl.obolibrary.org/obo/GO_0009686) 
 
 - [ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The three successive oxidations of the 4-methyl group of ent-kaurene to form ent-kaur-16-en-19-oate, kaurenoic acid. This process may be carried out entirely by the enzyme ent-kaurene oxidase." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
 - [ent-kaurene oxidation to kaurenoic acid](http://purl.obolibrary.org/obo/GO_0010241) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -11782,9 +11800,9 @@
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
 
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The pathway that converts acetate, in the form of acetyl-CoA, to farnesyl diphosphate (FPP) through a series of mevalonate intermediates. Farnesyl diphosphate is an important substrate for other essential pathways, such as biosynthesis of sterols." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-922" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-922" 
 
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [label](http://www.w3.org/2000/01/rdf-schema#label) "farnesyl diphosphate biosynthetic process, mevalonate pathway" 
 
@@ -11810,7 +11828,7 @@
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [trans, trans-farnesyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0045337) 
 
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The pathway that converts acetate, in the form of acetyl-CoA, to farnesyl diphosphate (FPP) through a series of mevalonate intermediates. Farnesyl diphosphate is an important substrate for other essential pathways, such as biosynthesis of sterols." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
 
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -12136,24 +12154,24 @@
 ### glycerophospholipid phospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0008970`
 
 #### Added
-- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41320" 
+- [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:41320" 
 
 - [glycerophospholipid phospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0008970) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [41320](http://rdf.rhea-db.org/41320) 
 
 
 ### glycine N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047961`
 #### Removed
-- [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971621" 
+- [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971621" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GLYAT transfers ISB to glycine" 
 
 
 
 ### glycine N-benzoyltransferase activity `http://purl.obolibrary.org/obo/GO_0047962`
 #### Removed
-- [glycine N-benzoyltransferase activity](http://purl.obolibrary.org/obo/GO_0047962) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9972916" 
+- [glycine N-benzoyltransferase activity](http://purl.obolibrary.org/obo/GO_0047962) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9972916" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GLYAT-like proteins transfer glycine to aminobenzoyl-CoA" 
 
-- [glycine N-benzoyltransferase activity](http://purl.obolibrary.org/obo/GO_0047962) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971063" 
+- [glycine N-benzoyltransferase activity](http://purl.obolibrary.org/obo/GO_0047962) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971063" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GLYAT-like proteins transfer glycine to phenylacetyl-CoA" 
 
 
@@ -12234,7 +12252,7 @@
 
 ### guanyl-nucleotide exchange factor activity `http://purl.obolibrary.org/obo/GO_0005085`
 #### Removed
-- [guanyl-nucleotide exchange factor activity](http://purl.obolibrary.org/obo/GO_0005085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970163" 
+- [guanyl-nucleotide exchange factor activity](http://purl.obolibrary.org/obo/GO_0005085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970163" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SRC-phosphorylated RAC1,(CDC42) GEFs activate RAC1,(CDC42)" 
 
 
@@ -12353,17 +12371,17 @@
 
 ### histamine oxidase activity `http://purl.obolibrary.org/obo/GO_0052598`
 #### Removed
-- [histamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052598) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970023" 
+- [histamine oxidase activity](http://purl.obolibrary.org/obo/GO_0052598) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970023" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AOC1 dimer oxidizes MeHist" 
 
 
 
 ### histone deacetylase activity `http://purl.obolibrary.org/obo/GO_0004407`
 #### Removed
-- [histone deacetylase activity](http://purl.obolibrary.org/obo/GO_0004407) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944092" 
+- [histone deacetylase activity](http://purl.obolibrary.org/obo/GO_0004407) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944092" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NuRD deacetylates nucleosomes" 
 
-- [histone deacetylase activity](http://purl.obolibrary.org/obo/GO_0004407) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9941704" 
+- [histone deacetylase activity](http://purl.obolibrary.org/obo/GO_0004407) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9941704" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NuRD deacetylates telomeric nucleosomes" 
 
 
@@ -12424,12 +12442,14 @@
 
 ### hypochlorous acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0002149`
 #### Removed
+- [hypochlorous acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0002149) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [hypochlorous acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0002149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of hypochlorous acid." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10085024" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10085024" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:176150" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:176150" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
 - [hypochlorous acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0002149) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this reaction is catalyzed by myeloperoxidase in neutrophils." 
 
@@ -12449,11 +12469,11 @@
 - [hypochlorous acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0002149) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/22891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [hypochlorous acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0002149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of hypochlorous acid." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10085024" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10085024" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:176150" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:176150" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
 - [hypochlorous acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0002149) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -12464,8 +12484,10 @@
 
 ### hypochlorous acid catabolic process `http://purl.obolibrary.org/obo/GO_0002150`
 #### Removed
+- [hypochlorous acid catabolic process](http://purl.obolibrary.org/obo/GO_0002150) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [hypochlorous acid catabolic process](http://purl.obolibrary.org/obo/GO_0002150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of hypochlorous acid." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
 - [hypochlorous acid catabolic process](http://purl.obolibrary.org/obo/GO_0002150) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypochlorous acid catabolic process" 
 
@@ -12483,7 +12505,7 @@
 - [hypochlorous acid catabolic process](http://purl.obolibrary.org/obo/GO_0002150) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/22891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [hypochlorous acid catabolic process](http://purl.obolibrary.org/obo/GO_0002150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of hypochlorous acid." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
 - [hypochlorous acid catabolic process](http://purl.obolibrary.org/obo/GO_0002150) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -12637,18 +12659,18 @@
 ### isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway `http://purl.obolibrary.org/obo/GO_0019288`
 #### Removed
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of isopentenyl diphosphate by the mevalonate-independent pathway. Isopentenyl diphosphate (IPP) is the fundamental unit in isoprenoid biosynthesis and is biosynthesized from pyruvate and glyceraldehyde 3-phosphate via intermediates, including 1-deoxy-D-xylulose 5-phosphate." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18948055" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NONMEVIPP-PWY" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NONMEVIPP-PWY" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18948055" 
 
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [label](http://www.w3.org/2000/01/rdf-schema#label) "isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway" 
 
 #### Added
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32082"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7560" 
+- [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7560" 
 
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MEP pathway" 
 
@@ -12659,9 +12681,9 @@
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7560](http://identifiers.org/metacyc.reaction/PWY-7560) 
 
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of isopentenyl diphosphate by the methylerythritol phosphate pathway, also known as the mevalonate-independent pathway. Isopentenyl diphosphate (IPP) is the fundamental unit in isoprenoid biosynthesis and is produced from pyruvate and glyceraldehyde 3-phosphate via intermediates, including methylerythritol 4-phosphate." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18948055" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NONMEVIPP-PWY" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NONMEVIPP-PWY" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18948055" 
 
 - [isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway](http://purl.obolibrary.org/obo/GO_0019288) [label](http://www.w3.org/2000/01/rdf-schema#label) "isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway" 
 
@@ -12669,11 +12691,11 @@
 ### isopentenyl diphosphate biosynthetic process, mevalonate pathway `http://purl.obolibrary.org/obo/GO_0019287`
 
 #### Added
-- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6174" 
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6174" 
 
-- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7524" 
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7524" 
 
-- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8125" 
+- [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8125" 
 
 - [isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0019287) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MVA pathway" 
 
@@ -12693,13 +12715,13 @@
 - [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
 
 - [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of isoprenoid via mevalonate." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000092" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11078528" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11078528" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000092" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
 
 - [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [label](http://www.w3.org/2000/01/rdf-schema#label) "isoprenoid biosynthetic process via mevalonate" 
 
@@ -12719,13 +12741,13 @@
 - [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [trans, trans-farnesyl diphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0045337) 
 
 - [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of isoprenoid via mevalonate." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000092" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11078528" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11078528" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000092" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
 
 - [isoprenoid biosynthetic process via mevalonate](http://purl.obolibrary.org/obo/GO_1902767) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -12911,9 +12933,9 @@
 ### long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0016509`
 
 #### Added
-- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83075" 
+- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83075" 
 
-- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83327" 
+- [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83327" 
 
 - [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83075](http://rdf.rhea-db.org/83075) 
 
@@ -13001,9 +13023,9 @@
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [18333](http://rdf.rhea-db.org/18333) 
 
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + oleandomycin = ADP + 2 H+ + oleandomycin 2'-O-phosphate." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18333" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18333" 
 
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
 
@@ -13021,7 +13043,7 @@
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [18333](http://rdf.rhea-db.org/18333) 
 
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + a macrolide = ADP + 2 H+ + a macrolide-2'-O-phosphate. Substrates include oleandomycin, erythromycin, spiramycin and other macrolide antibiotics." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
 
 
 ### mammary gland alveolus development `http://purl.obolibrary.org/obo/GO_0060749`
@@ -13129,30 +13151,30 @@
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [conformsTo](http://purl.org/dc/terms/conformsTo) [involved_in_x_y.yaml](http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml) 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any membrane protein proteolysis that is involved in retrograde protein transport, ER to cytosol." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "membrane protein proteolysis involved in protein dislocation from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "membrane protein proteolysis involved in protein retrotranslocation, ER to cytosol" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "membrane protein proteolysis involved in retrograde protein transport, endoplasmic reticulum to cytosol" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "intramembrane cleavage of ERAD substrate" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intramembrane proteolysis involved in ERAD" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane protein proteolysis involved in retrograde protein transport, ER to cytosol" 
 
@@ -13172,15 +13194,15 @@
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [membrane protein proteolysis](http://purl.obolibrary.org/obo/GO_0033619) 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any membrane protein proteolysis that is involved in retrograde protein transport, ER to cytosol." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000060" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22795130" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [membrane protein proteolysis involved in retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904211) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -13217,7 +13239,7 @@
 
 ### metalloendopeptidase activity `http://purl.obolibrary.org/obo/GO_0004222`
 #### Removed
-- [metalloendopeptidase activity](http://purl.obolibrary.org/obo/GO_0004222) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9934645" 
+- [metalloendopeptidase activity](http://purl.obolibrary.org/obo/GO_0004222) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9934645" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADAMTS13 cleaves VWF multimer bound to FVIII" 
 
 
@@ -13402,7 +13424,7 @@
 - [mitochondrial signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0140436) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140436" 
 
 - [mitochondrial signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0140436) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a mitochondrial targeting sequence, a short stretch of amino acids found in a protein that acts as a signal to localize the protein to the mitochondrion." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20729931" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20729931" 
 
 - [mitochondrial signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0140436) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrial signal sequence receptor activity" 
 
@@ -13416,7 +13438,7 @@
 ### mitochondrion targeting sequence binding `http://purl.obolibrary.org/obo/GO_0030943`
 #### Removed
 - [mitochondrion targeting sequence binding](http://purl.obolibrary.org/obo/GO_0030943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a mitochondrion targeting sequence, a specific peptide sequence that acts as a signal to localize the protein within the mitochondrion." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [mitochondrion targeting sequence binding](http://purl.obolibrary.org/obo/GO_0030943) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrion targeting sequence binding" 
 
@@ -13430,7 +13452,7 @@
 - [mitochondrion targeting sequence binding](http://purl.obolibrary.org/obo/GO_0030943) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0140436) 
 
 - [mitochondrion targeting sequence binding](http://purl.obolibrary.org/obo/GO_0030943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a mitochondrion targeting sequence, a specific peptide sequence that acts as a signal to localize the protein within the mitochondrion." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [mitochondrion targeting sequence binding](http://purl.obolibrary.org/obo/GO_0030943) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -13460,15 +13482,15 @@
 ### monoacylglycerol lipase activity `http://purl.obolibrary.org/obo/GO_0047372`
 
 #### Added
-- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:26132" 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:26132" 
 
-- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39963" 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39963" 
 
-- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44328" 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44328" 
 
-- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44732" 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44732" 
 
-- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48428" 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48428" 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [26132](http://rdf.rhea-db.org/26132) 
 
@@ -13483,7 +13505,7 @@
 
 ### monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004497`
 #### Removed
-- [monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004497) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971246" 
+- [monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004497) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971246" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Unknown CYP 450 omega-hydroxylates C10 fatty acid" 
 
 
@@ -13535,24 +13557,24 @@
 ### myo-inositol:proton symporter activity `http://purl.obolibrary.org/obo/GO_0005366`
 #### Removed
 - [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: myo-inositol(out) + H+(out) = myo-inositol(in) + H+(in)." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.8" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.8" 
 
 #### Added
 - [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32214"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.20" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.20" 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.25" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.25" 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.26" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.26" 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.27" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.27" 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.62" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.62" 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.63" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.63" 
 
-- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.8" 
+- [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.1.1.8" 
 
 - [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [A.1.1.20](http://identifiers.org/tcdb/2.A.1.1.20) 
 
@@ -13569,24 +13591,24 @@
 - [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [A.1.1.8](http://identifiers.org/tcdb/2.A.1.1.8) 
 
 - [myo-inositol:proton symporter activity](http://purl.obolibrary.org/obo/GO_0005366) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: myo-inositol(out) + H+(out) = myo-inositol(in) + H+(in)." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60364" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60364" 
 
 
 ### myo-inositol:sodium symporter activity `http://purl.obolibrary.org/obo/GO_0005367`
 #### Removed
 - [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: myo-inositol(out) + Na+(out) = myo-inositol(in) + Na+(in)." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.4.-" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.4.-" 
 
 #### Added
 - [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32214"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:72987" 
+- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:72987" 
 
-- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.3.14" 
+- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.3.14" 
 
-- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.3.5" 
+- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.3.5" 
 
-- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.3.6" 
+- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "TC:2.A.21.3.6" 
 
 - [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [72987](http://rdf.rhea-db.org/72987) 
 
@@ -13597,7 +13619,11 @@
 - [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [A.21.3.6](http://identifiers.org/tcdb/2.A.21.3.6) 
 
 - [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: myo-inositol(out) + Na+(out) = myo-inositol(in) + Na+(in)." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:72987" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:72987" 
+
+- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [myo-inositol](http://purl.obolibrary.org/obo/CHEBI_17268) 
+
+- [myo-inositol:sodium symporter activity](http://purl.obolibrary.org/obo/GO_0005367) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sodium(1+)](http://purl.obolibrary.org/obo/CHEBI_29101) 
 
 
 ### myotome development `http://purl.obolibrary.org/obo/GO_0061055`
@@ -13618,31 +13644,31 @@
 
 ### narrow pore channel activity `http://purl.obolibrary.org/obo/GO_0022842`
 #### Removed
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855220" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855220" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(PP)2-IP4 transports from the nucleus to the cytosol" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855212" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855212" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "1/3-PP-IP5 transports from the cytosol to the nucleus" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855173" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855173" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5-PP-IP4 transports from the nucleus to the cytosol" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855203" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855203" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "5-PP-IP5 transports from the nucleus to the cytosol" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855168" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855168" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I(1,3,4,5)P4 transports from the cytosol to the nucleus" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855161" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855161" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I(1,3,4,5,6)P5 transports from the nucleus to the cytosol" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855201" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855201" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I(1,3,4,6)P4 transports from the cytosol to the nucleus" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855190" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855190" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "I(1,4,5)P3 transports from the cytosol to the nucleus" 
 
-- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855188" 
+- [narrow pore channel activity](http://purl.obolibrary.org/obo/GO_0022842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1855188" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "IP6 transports from the cytosol to the nucleus" 
 
 
@@ -13683,9 +13709,9 @@
 - [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770077" 
 
 - [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of PKR/eIFalpha signaling." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19733181" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19733181" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29395325" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29395325" 
 
 - [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of PKR/eIFalpha signaling" 
 
@@ -13703,81 +13729,81 @@
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "negative regulation of indoleacetic acid biosynthetic process via tryptophan" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of IAA biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid anabolism via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid formation via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid synthesis via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of IAA biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid anabolism via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid formation via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid synthesis via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of IAA biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid anabolism via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid formation via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid synthesis via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of IAA biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of indoleacetic acid anabolism via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of indoleacetic acid formation via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of indoleacetic acid synthesis via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of IAA biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of indoleacetic acid anabolism via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of indoleacetic acid formation via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of indoleacetic acid synthesis via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of indoleacetic acid biosynthetic process via tryptophan" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of indoleacetic acid biosynthetic process via tryptophan." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23377040" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23377040" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of indoleacetic acid biosynthetic process" 
 
@@ -13785,101 +13811,101 @@
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "negative regulation of indoleacetic acid biosynthetic process" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of IAA biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid anabolism" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid formation" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of indoleacetic acid synthesis" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of IAA biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid anabolism" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid formation" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of indoleacetic acid synthesis" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of IAA biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid anabolism" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid formation" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of indoleacetic acid synthesis" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of IAA biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of indoleacetic acid anabolism" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of indoleacetic acid formation" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "inhibition of indoleacetic acid synthesis" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of IAA biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of indoleacetic acid anabolism" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of indoleacetic acid formation" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of indoleacetic acid synthesis" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of indoleacetic acid biosynthetic process" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of auxin biosynthetic process." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23377040" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23377040" 
 
 - [negative regulation of indoleacetic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of auxin biosynthetic process" 
 
 
 ### negative regulation of inflammatory response to antigenic stimulus `http://purl.obolibrary.org/obo/GO_0002862`
 #### Removed
-- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662851" 
+- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662851" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Anti-inflammatory response favouring Leishmania parasite infection" 
 
 #### Added
-- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9660821" 
+- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9660821" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADORA2B mediated anti-inflammatory cytokines production" 
 
-- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662834" 
+- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662834" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CD163 mediating an anti-inflammatory response" 
 
-- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9664323" 
+- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9664323" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FCGR3A-mediated IL10 synthesis" 
 
-- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9664535" 
+- [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9664535" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "LTC4-CYSLTR mediated IL4 production" 
 
 
@@ -13910,7 +13936,7 @@
 ### negative regulation of killing of cells of another organism `http://purl.obolibrary.org/obo/GO_0051711`
 
 #### Added
-- [negative regulation of killing of cells of another organism](http://purl.obolibrary.org/obo/GO_0051711) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662851" 
+- [negative regulation of killing of cells of another organism](http://purl.obolibrary.org/obo/GO_0051711) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662851" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Anti-inflammatory response favouring Leishmania parasite infection" 
 
 
@@ -13929,28 +13955,28 @@
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein exit from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein export from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein export from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of protein exit from endoplasmic reticulum" 
 
@@ -13968,7 +13994,7 @@
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [negative regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070862) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -13984,65 +14010,65 @@
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein import into mitochondrial outer membrane" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of protein insertion into mitochondrial outer membrane" 
 
@@ -14062,11 +14088,11 @@
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32102"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
 - [negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14085,6 +14111,14 @@
 - [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048523) 
 
 - [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051224) 
+
+
+### negative regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903389`
+#### Removed
+- [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901880) 
+
+#### Added
+- [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043242) 
 
 
 ### nephron development `http://purl.obolibrary.org/obo/GO_0072006`
@@ -14158,7 +14192,7 @@
 ### nuclear localization sequence binding `http://purl.obolibrary.org/obo/GO_0008139`
 #### Removed
 - [nuclear localization sequence binding](http://purl.obolibrary.org/obo/GO_0008139) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear localization sequence, a specific peptide sequence that acts as a signal to localize the protein within the nucleus." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [nuclear localization sequence binding](http://purl.obolibrary.org/obo/GO_0008139) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear localization sequence binding" 
 
@@ -14170,7 +14204,7 @@
 - [nuclear localization sequence binding](http://purl.obolibrary.org/obo/GO_0008139) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [nucleocytoplasmic carrier activity](http://purl.obolibrary.org/obo/GO_0140142) 
 
 - [nuclear localization sequence binding](http://purl.obolibrary.org/obo/GO_0008139) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear localization sequence, a specific peptide sequence that acts as a signal to localize the protein within the nucleus." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 - [nuclear localization sequence binding](http://purl.obolibrary.org/obo/GO_0008139) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14181,24 +14215,24 @@
 
 ### nucleoside diphosphate kinase activity `http://purl.obolibrary.org/obo/GO_0004550`
 #### Removed
-- [nucleoside diphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0004550) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6806877" 
+- [nucleoside diphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0004550) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6806877" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NME1:NME3 heterohexamer phosphorylates NDPs to NTPs" 
 
-- [nucleoside diphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0004550) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9605496" 
+- [nucleoside diphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0004550) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9605496" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NME6 phosphorylates (d)NDPs to (d)NTPs" 
 
 #### Added
-- [nucleoside diphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0004550) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6806877" 
+- [nucleoside diphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0004550) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6806877" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "NME1:NME3 heterohexamer, NME2P1 phosphorylate NDPs to NTPs" 
 
 
 ### nucleoside kinase activity `http://purl.obolibrary.org/obo/GO_0019206`
 #### Removed
-- [nucleoside kinase activity](http://purl.obolibrary.org/obo/GO_0019206) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73632" 
+- [nucleoside kinase activity](http://purl.obolibrary.org/obo/GO_0019206) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73632" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphorylation of 2'-Deoxythymidine to dTMP" 
 
 #### Added
-- [nucleoside kinase activity](http://purl.obolibrary.org/obo/GO_0019206) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73632" 
+- [nucleoside kinase activity](http://purl.obolibrary.org/obo/GO_0019206) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73632" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "thymidine + ATP =&gt; TMP (deoxythymidine 5'-monophosphate) + ADP [TK1]" 
 
 
@@ -14217,7 +14251,7 @@
 ### obsolete L-methionine salvage from methylthioadenosine `http://purl.obolibrary.org/obo/GO_0019509`
 
 #### Added
-- [obsolete L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237112" 
+- [obsolete L-methionine salvage from methylthioadenosine](http://purl.obolibrary.org/obo/GO_0019509) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237112" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Methionine salvage pathway" 
 
 
@@ -14230,7 +14264,7 @@
 ### obsolete L-threonine catabolic process to glycine `http://purl.obolibrary.org/obo/GO_0019518`
 
 #### Added
-- [obsolete L-threonine catabolic process to glycine](http://purl.obolibrary.org/obo/GO_0019518) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8849175" 
+- [obsolete L-threonine catabolic process to glycine](http://purl.obolibrary.org/obo/GO_0019518) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8849175" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Threonine catabolism" 
 
 
@@ -14262,7 +14296,7 @@
 #### Removed
 - [obsolete alpha-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_1901605) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
-- [obsolete alpha-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_1901605) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-977347" 
+- [obsolete alpha-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_1901605) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-977347" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Serine metabolism" 
 
 
@@ -14282,17 +14316,17 @@
 ### obsolete calcium-dependent phospholipase A2 activity `http://purl.obolibrary.org/obo/GO_0047498`
 
 #### Added
-- [obsolete calcium-dependent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047498) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111883" 
+- [obsolete calcium-dependent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047498) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111883" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PLA2G4A (cPLA2) hydrolyzes phosphatidylcholine" 
 
-- [obsolete calcium-dependent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047498) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111881" 
+- [obsolete calcium-dependent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047498) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-111881" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Phospho-cPLA2 translocates to membranes when intracellular calcium levels increase" 
 
 
 ### obsolete calcium-independent phospholipase A2 activity `http://purl.obolibrary.org/obo/GO_0047499`
 
 #### Added
-- [obsolete calcium-independent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047499) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952251" 
+- [obsolete calcium-independent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047499) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952251" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PLA2G15 hydrolyses LPC to GPCho and LCFA(-)" 
 
 
@@ -14311,11 +14345,11 @@
 ### obsolete envenomation resulting in modulation of complement activation in another organism `http://purl.obolibrary.org/obo/GO_0044646`
 #### Removed
 - [obsolete envenomation resulting in modulation of complement activation in another organism](http://purl.obolibrary.org/obo/GO_0044646) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process that begins with venom being forced into an organism by the bite or sting of another organism, and ends with the resultant modulation of complement activation in the bitten/stung organism." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20837040" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20837040" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
 
 - [obsolete envenomation resulting in modulation of complement activation in another organism](http://purl.obolibrary.org/obo/GO_0044646) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14329,15 +14363,15 @@
 - [obsolete envenomation resulting in modulation of complement activation in another organism](http://purl.obolibrary.org/obo/GO_0044646) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
 
 - [obsolete envenomation resulting in modulation of complement activation in another organism](http://purl.obolibrary.org/obo/GO_0044646) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism activates or inhibits the complement system in another organism via the action of a venom." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27846429" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20417224" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20837040" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27846429" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35622591" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20837040" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35622591" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20417224" 
 
 - [obsolete envenomation resulting in modulation of complement activation in another organism](http://purl.obolibrary.org/obo/GO_0044646) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of complement activation" 
 
@@ -14385,32 +14419,32 @@
 ### obsolete organic anion transport `http://purl.obolibrary.org/obo/GO_0015711`
 
 #### Added
-- [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9955298" 
+- [obsolete organic anion transport](http://purl.obolibrary.org/obo/GO_0015711) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9955298" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC-mediated transport of organic anions" 
 
 
 ### obsolete phospholipid transporter activity `http://purl.obolibrary.org/obo/GO_0005548`
 
 #### Added
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-216757" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-216757" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "4xPALM-C-p-2S-ABCA1 tetramer transports PL from transport vesicle membrane to plasma membrane" 
 
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382553" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382553" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABCA7:Apo1A-mediated phospholipid efflux" 
 
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678706" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678706" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABCB4 transports PC from plasma membrane to extracellular region" 
 
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678749" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678749" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective ABCB4 does not transport PC from plasma membrane to extracellular region" 
 
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8857662" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8857662" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ESYT1:ESYT2:ESYT3 transport GPL from plasma membrane to ER membrane" 
 
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8865637" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8865637" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MFSD2A transports LPC from extracellular region to plasma membrane" 
 
-- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8867876" 
+- [obsolete phospholipid transporter activity](http://purl.obolibrary.org/obo/GO_0005548) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8867876" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "OSBPL5,8,10 exchange PS with PI4P from ER membrane to plasma membrane" 
 
 
@@ -14435,7 +14469,7 @@
 ### obsolete protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_0006626`
 
 #### Added
-- [obsolete protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006626) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1268020" 
+- [obsolete protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006626) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1268020" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Mitochondrial protein import" 
 
 
@@ -14461,7 +14495,7 @@
 - [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770078" 
 
 - [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of cytogamy." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27798845" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27798845" 
 
 - [obsolete regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770078) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14481,7 +14515,7 @@
 ### obsolete regulation of ornithine metabolic process `http://purl.obolibrary.org/obo/GO_0090368`
 
 #### Added
-- [obsolete regulation of ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0090368) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
+- [obsolete regulation of ornithine metabolic process](http://purl.obolibrary.org/obo/GO_0090368) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Regulation of ornithine decarboxylase (ODC)" 
 
 
@@ -14518,23 +14552,23 @@
 ### obsolete tRNA 2'-O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0106050`
 
 #### Added
-- [obsolete tRNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106050) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9024159" 
+- [obsolete tRNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106050) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9024159" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FTSJ1 2'-O-methylates cytidine-32 in tRNA(Phe)" 
 
-- [obsolete tRNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106050) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788668" 
+- [obsolete tRNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106050) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788668" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TRMT13 2'-O-methylates adenosine-4 in tRNA" 
 
-- [obsolete tRNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106050) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788684" 
+- [obsolete tRNA 2'-O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106050) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788684" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TRMT13 2'-O-methylates cytidine-4 in tRNA" 
 
 
 ### obsolete unfolded protein binding `http://purl.obolibrary.org/obo/GO_0051082`
 
 #### Added
-- [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9683772" 
+- [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9683772" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Trimmed spike protein binds to calnexin" 
 
-- [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9694337" 
+- [obsolete unfolded protein binding](http://purl.obolibrary.org/obo/GO_0051082) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9694337" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Trimmed spike protein binds to calnexin" 
 
 
@@ -14618,7 +14652,7 @@
 
 ### omega-hydroxydecanoate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0050153`
 #### Removed
-- [omega-hydroxydecanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050153) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971258" 
+- [omega-hydroxydecanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050153) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9971258" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADH7 dehydrogenates 10-OH-DECA" 
 
 
@@ -14845,11 +14879,11 @@
 
 ### peptidase activity `http://purl.obolibrary.org/obo/GO_0008233`
 #### Removed
-- [peptidase activity](http://purl.obolibrary.org/obo/GO_0008233) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9935547" 
+- [peptidase activity](http://purl.obolibrary.org/obo/GO_0008233) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9935547" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Lysosomal degradation of ubiquitinated CDH1" 
 
 #### Added
-- [peptidase activity](http://purl.obolibrary.org/obo/GO_0008233) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9935547" 
+- [peptidase activity](http://purl.obolibrary.org/obo/GO_0008233) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9935547" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Lysosomal degradation of ubiqutinated CDH1" 
 
 
@@ -14874,9 +14908,9 @@
 ### peroxisome matrix targeting signal-1 binding `http://purl.obolibrary.org/obo/GO_0005052`
 #### Removed
 - [peroxisome matrix targeting signal-1 binding](http://purl.obolibrary.org/obo/GO_0005052) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a type 1 peroxisome targeting signal, a tripeptide with the consensus sequence (S/A/C)-(K/R/H)-L." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
 
 - [peroxisome matrix targeting signal-1 binding](http://purl.obolibrary.org/obo/GO_0005052) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome matrix targeting signal-1 binding" 
 
@@ -14888,9 +14922,9 @@
 - [peroxisome matrix targeting signal-1 binding](http://purl.obolibrary.org/obo/GO_0005052) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) 
 
 - [peroxisome matrix targeting signal-1 binding](http://purl.obolibrary.org/obo/GO_0005052) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a type 1 peroxisome targeting signal, a tripeptide with the consensus sequence (S/A/C)-(K/R/H)-L." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
 
 - [peroxisome matrix targeting signal-1 binding](http://purl.obolibrary.org/obo/GO_0005052) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14902,9 +14936,9 @@
 ### peroxisome matrix targeting signal-2 binding `http://purl.obolibrary.org/obo/GO_0005053`
 #### Removed
 - [peroxisome matrix targeting signal-2 binding](http://purl.obolibrary.org/obo/GO_0005053) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a type 2 peroxisome targeting signal, a nonapeptide with a broad consensus sequence of (R/K)-(L/V/I)-(XXXXX)-(H/Q)-(L/A/F)." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
 
 - [peroxisome matrix targeting signal-2 binding](http://purl.obolibrary.org/obo/GO_0005053) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome matrix targeting signal-2 binding" 
 
@@ -14916,9 +14950,9 @@
 - [peroxisome matrix targeting signal-2 binding](http://purl.obolibrary.org/obo/GO_0005053) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) 
 
 - [peroxisome matrix targeting signal-2 binding](http://purl.obolibrary.org/obo/GO_0005053) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a type 2 peroxisome targeting signal, a nonapeptide with a broad consensus sequence of (R/K)-(L/V/I)-(XXXXX)-(H/Q)-(L/A/F)." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11687502" 
 
 - [peroxisome matrix targeting signal-2 binding](http://purl.obolibrary.org/obo/GO_0005053) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14930,11 +14964,11 @@
 ### peroxisome membrane class-1 targeting sequence binding `http://purl.obolibrary.org/obo/GO_0036105`
 #### Removed
 - [peroxisome membrane class-1 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a class I peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane in a PEX19-dependent manner." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
 
 - [peroxisome membrane class-1 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036105) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Currently identified mPTSs vary greatly in length, and cannot be distinguished by primary structure analysis, suggesting that the peroxisomal sorting information is not contained within a specific amino acid sequence. There do however appear to be two classes of mPTSs: class 1 mPTSs that are bound by PEX19 and imported in a PEX19-dependent manner, and class 2 mPTSs that are not bound by PEX19 and mediate protein import independently of PEX19. The two classes cannot be defined based on their amino acid sequence." 
 
@@ -14948,11 +14982,11 @@
 - [peroxisome membrane class-1 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036105) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) 
 
 - [peroxisome membrane class-1 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a class I peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane in a PEX19-dependent manner." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
 
 - [peroxisome membrane class-1 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036105) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14964,11 +14998,11 @@
 ### peroxisome membrane class-2 targeting sequence binding `http://purl.obolibrary.org/obo/GO_0036106`
 #### Removed
 - [peroxisome membrane class-2 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a class II peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane in a PEX19-independent manner." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
 
 - [peroxisome membrane class-2 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036106) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Currently identified mPTSs vary greatly in length, and cannot be distinguished by primary structure analysis, suggesting that the peroxisomal sorting information is not contained within a specific amino acid sequence. There do however appear to be two classes of mPTSs: class 1 mPTSs that are bound by PEX19 and imported in a PEX19-dependent manner, and class 2 mPTSs that are not bound by PEX19 and mediate protein import independently of PEX19. The two classes cannot be defined based on their amino acid sequence." 
 
@@ -14982,11 +15016,11 @@
 - [peroxisome membrane class-2 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036106) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) 
 
 - [peroxisome membrane class-2 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a class II peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane in a PEX19-independent manner." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pm" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14709540" 
 
 - [peroxisome membrane class-2 targeting sequence binding](http://purl.obolibrary.org/obo/GO_0036106) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -14998,11 +15032,11 @@
 ### peroxisome membrane targeting sequence binding `http://purl.obolibrary.org/obo/GO_0033328`
 #### Removed
 - [peroxisome membrane targeting sequence binding](http://purl.obolibrary.org/obo/GO_0033328) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15133130" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15133130" 
 
 - [peroxisome membrane targeting sequence binding](http://purl.obolibrary.org/obo/GO_0033328) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisome membrane targeting sequence binding" 
 
@@ -15014,11 +15048,11 @@
 - [peroxisome membrane targeting sequence binding](http://purl.obolibrary.org/obo/GO_0033328) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [peroxisome signal sequence receptor activity](http://purl.obolibrary.org/obo/GO_0000268) 
 
 - [peroxisome membrane targeting sequence binding](http://purl.obolibrary.org/obo/GO_0033328) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15133130" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17020786" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15133130" 
 
 - [peroxisome membrane targeting sequence binding](http://purl.obolibrary.org/obo/GO_0033328) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -15208,9 +15242,9 @@
 ### phosphatidylethanolamine lysophospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0120559`
 
 #### Added
-- [phosphatidylethanolamine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120559) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40891" 
+- [phosphatidylethanolamine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120559) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40891" 
 
-- [phosphatidylethanolamine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120559) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40895" 
+- [phosphatidylethanolamine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120559) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40895" 
 
 - [phosphatidylethanolamine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120559) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40891](http://rdf.rhea-db.org/40891) 
 
@@ -15250,9 +15284,9 @@
 ### phosphatidylserine lysophospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0120560`
 
 #### Added
-- [phosphatidylserine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120560) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40499" 
+- [phosphatidylserine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120560) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40499" 
 
-- [phosphatidylserine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120560) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44552" 
+- [phosphatidylserine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120560) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44552" 
 
 - [phosphatidylserine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0120560) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40499](http://rdf.rhea-db.org/40499) 
 
@@ -15261,38 +15295,38 @@
 
 ### phospholipid scramblase activity `http://purl.obolibrary.org/obo/GO_0017128`
 #### Removed
-- [phospholipid scramblase activity](http://purl.obolibrary.org/obo/GO_0017128) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9854657" 
+- [phospholipid scramblase activity](http://purl.obolibrary.org/obo/GO_0017128) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9854657" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ANO5, ANO6 expose PS, PE on endothelial cells" 
 
-- [phospholipid scramblase activity](http://purl.obolibrary.org/obo/GO_0017128) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9853809" 
+- [phospholipid scramblase activity](http://purl.obolibrary.org/obo/GO_0017128) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9853809" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ANO6 exposes PS, PE on the platelet membrane" 
 
-- [phospholipid scramblase activity](http://purl.obolibrary.org/obo/GO_0017128) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9853849" 
+- [phospholipid scramblase activity](http://purl.obolibrary.org/obo/GO_0017128) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9853849" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective ANO6 does not expose PS, PE on the platelet membrane" 
 
 
 
 ### phospholipid transfer activity `http://purl.obolibrary.org/obo/GO_0120014`
 #### Removed
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-216757" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-216757" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "4xPALM-C-p-2S-ABCA1 tetramer transports PL from transport vesicle membrane to plasma membrane" 
 
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382553" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382553" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABCA7:Apo1A-mediated phospholipid efflux" 
 
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678706" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678706" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABCB4 transports PC from plasma membrane to extracellular region" 
 
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678749" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5678749" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Defective ABCB4 does not transport PC from plasma membrane to extracellular region" 
 
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8857662" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8857662" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ESYT1:ESYT2:ESYT3 transport GPL from plasma membrane to ER membrane" 
 
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8865637" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8865637" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MFSD2A transports LPC from extracellular region to plasma membrane" 
 
-- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8867876" 
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8867876" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "OSBPL5,8,10 exchange PS with PI4P from ER membrane to plasma membrane" 
 
 
@@ -15314,13 +15348,13 @@
 ### plant gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160109`
 #### Removed
 - [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any developmental process whose specific outcome is the progression of a gross anatomical part of a plant from an initial immature state, to a later, more mature state." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
 
 - [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) SubClassOf [developmental process](http://purl.obolibrary.org/obo/GO_0032502) 
 
 #### Added
 - [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A developmental process whose specific outcome is the progression of a gross anatomical part of a plant over time from an initial condition to a later condition." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
 
 - [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
@@ -15351,14 +15385,14 @@
 
 ### plasma kallikrein-kinin cascade `http://purl.obolibrary.org/obo/GO_0002353`
 #### Removed
-- [plasma kallikrein-kinin cascade](http://purl.obolibrary.org/obo/GO_0002353) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970672" 
+- [plasma kallikrein-kinin cascade](http://purl.obolibrary.org/obo/GO_0002353) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970672" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FXIIa activates plasma kallikrein-kinin system" 
 
 
 
 ### polyamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006596`
 #### Removed
-- [polyamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006596) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
+- [polyamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006596) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Regulation of ornithine decarboxylase (ODC)" 
 
 
@@ -15395,7 +15429,7 @@
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770079" 
 
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of cytogamy." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27798845" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27798845" 
 
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cytogamy" 
 
@@ -15436,31 +15470,31 @@
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein exit from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein export from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein export from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "stimulation of protein exit from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of protein exit from endoplasmic reticulum" 
 
@@ -15478,7 +15512,7 @@
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -15494,65 +15528,65 @@
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein import into mitochondrial outer membrane" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein import into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein insertion into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of protein insertion into mitochondrial outer membrane" 
 
@@ -15572,11 +15606,11 @@
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32102"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
 - [positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -15595,6 +15629,14 @@
 - [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of cellular process](http://purl.obolibrary.org/obo/GO_0048522) 
 
 - [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051222) 
+
+
+### positive regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903390`
+#### Removed
+- [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901881) 
+
+#### Added
+- [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043243) 
 
 
 ### posterior cibarial plate development `http://purl.obolibrary.org/obo/GO_0048727`
@@ -15834,13 +15876,13 @@
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein exit from ER" 
 
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein export from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein export from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
 
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein exit from endoplasmic reticulum" 
 
@@ -15864,7 +15906,7 @@
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [COPII-coated vesicle budding](http://purl.obolibrary.org/obo/GO_0090114) 
 
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rb" 
 
 - [protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0032527) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -15875,10 +15917,10 @@
 
 ### protein folding chaperone `http://purl.obolibrary.org/obo/GO_0044183`
 #### Removed
-- [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9683772" 
+- [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9683772" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Trimmed spike protein binds to calnexin" 
 
-- [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9694337" 
+- [protein folding chaperone](http://purl.obolibrary.org/obo/GO_0044183) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9694337" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Trimmed spike protein binds to calnexin" 
 
 
@@ -15888,13 +15930,13 @@
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [conformsTo](http://purl.org/dc/terms/conformsTo) [protein_localization_to.yaml](http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml) 
 
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which a protein is transported to, or maintained in, a location at an endoplasmic reticulum exit site." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein localisation to endoplasmic reticulum exit site" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein localization to ER exit site" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein localization to endoplasmic reticulum exit site" 
 
@@ -15914,7 +15956,7 @@
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [COPII vesicle coat assembly](http://purl.obolibrary.org/obo/GO_0048208) 
 
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which a protein is transported to, or maintained in, a location at an endoplasmic reticulum exit site." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [protein localization to endoplasmic reticulum exit site](http://purl.obolibrary.org/obo/GO_0070973) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -15925,7 +15967,7 @@
 
 ### protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_0070585`
 #### Removed
-- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1268020" 
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1268020" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Mitochondrial protein import" 
 
 
@@ -15933,63 +15975,63 @@
 ### protein methylation `http://purl.obolibrary.org/obo/GO_0006479`
 
 #### Added
-- [protein methylation](http://purl.obolibrary.org/obo/GO_0006479) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8876725" 
+- [protein methylation](http://purl.obolibrary.org/obo/GO_0006479) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8876725" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Protein methylation" 
 
 
 ### protein serine/threonine kinase activity `http://purl.obolibrary.org/obo/GO_0004674`
 #### Removed
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-377186" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-377186" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Activated AKT phosphorylates AKT1S1 (PRAS40)" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9975250" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9975250" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PGK1 phosphorylates AKT1S1" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-165162" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-165162" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Phosphorylation of TSC2 by AKT (PKB)" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-198640" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-198640" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "mTORC2 phosphorylates AKT at S473" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6795290" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6795290" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "mTORC2 phosphorylates SGK1" 
 
 #### Added
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-377186" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-377186" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Activated Akt1 phosphorylates AKT1S1 (PRAS40)" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-165162" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-165162" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Phosphorylation of TSC2 by PKB" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-198640" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-198640" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TORC2 (mTOR) phosphorylates AKT at S473" 
 
-- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6795290" 
+- [protein serine/threonine kinase activity](http://purl.obolibrary.org/obo/GO_0004674) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6795290" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TORC2 complex phosphorylates SGK1" 
 
 
 ### protein transporter activity `http://purl.obolibrary.org/obo/GO_0140318`
 
 #### Added
-- [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2248891" 
+- [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2248891" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "M6PR transports activated ARSA to the lysosome" 
 
-- [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662747" 
+- [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662747" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "iRHOM2 transports ADAM17 from ER to the Golgi-network" 
 
-- [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662818" 
+- [protein transporter activity](http://purl.obolibrary.org/obo/GO_0140318) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662818" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "iRHOM2 transports ADAM17:Zn2+ from Golgi to the plasma membrane" 
 
 
 ### protein tyrosine kinase activity `http://purl.obolibrary.org/obo/GO_0004713`
 #### Removed
-- [protein tyrosine kinase activity](http://purl.obolibrary.org/obo/GO_0004713) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958889" 
+- [protein tyrosine kinase activity](http://purl.obolibrary.org/obo/GO_0004713) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958889" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SRC phosphorylates CDH1" 
 
-- [protein tyrosine kinase activity](http://purl.obolibrary.org/obo/GO_0004713) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958892" 
+- [protein tyrosine kinase activity](http://purl.obolibrary.org/obo/GO_0004713) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958892" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SRC promotes RAC1 and CDC42 activation by phosphorylating RAC1 and CDC42 GEFs" 
 
-- [protein tyrosine kinase activity](http://purl.obolibrary.org/obo/GO_0004713) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958871" 
+- [protein tyrosine kinase activity](http://purl.obolibrary.org/obo/GO_0004713) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958871" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Tyrosine phosphorylation of STAT3 by IL6 receptor" 
 
 
@@ -16003,13 +16045,13 @@
 ### protein-disulfide reductase activity `http://purl.obolibrary.org/obo/GO_0015035`
 
 #### Added
-- [protein-disulfide reductase activity](http://purl.obolibrary.org/obo/GO_0015035) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3299753" 
+- [protein-disulfide reductase activity](http://purl.obolibrary.org/obo/GO_0015035) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3299753" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CCS transfers Cu to SOD1 and oxidizes cysteine residues in SOD1" 
 
 
 ### protein-glutamine gamma-glutamyltransferase activity `http://purl.obolibrary.org/obo/GO_0003810`
 #### Removed
-- [protein-glutamine gamma-glutamyltransferase activity](http://purl.obolibrary.org/obo/GO_0003810) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9921091" 
+- [protein-glutamine gamma-glutamyltransferase activity](http://purl.obolibrary.org/obo/GO_0003810) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9921091" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "IIb3:fibrin multimer -&gt;IIb3:fibrin multimer, crosslinked + NH4+" 
 
 
@@ -16017,7 +16059,7 @@
 ### protein-transporting ATPase activity `http://purl.obolibrary.org/obo/GO_0015450`
 
 #### Added
-- [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1222523" 
+- [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1222523" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SodB gets secreted" 
 
 
@@ -16035,17 +16077,17 @@
 
 ### purine-nucleoside phosphorylase activity `http://purl.obolibrary.org/obo/GO_0004731`
 #### Removed
-- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112034" 
+- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112034" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PNP catalyzes the conversion of guanine and (deoxy)ribose-1-phosphate to (deoxy)guanosine" 
 
-- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112033" 
+- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112033" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PNP catalyzes the conversion of hypoxanthine and (deoxy)ribose-1-phosphate to (deoxy)inosine" 
 
 #### Added
-- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112034" 
+- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112034" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PNP catalyzes the conversion of guanine and (deoxy)ribose to (deoxy)guanosine" 
 
-- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112033" 
+- [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112033" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PNP catalyzes the conversion of hypoxanthine and (deoxy)ribose to (deoxy)inosine" 
 
 
@@ -16098,9 +16140,9 @@
 
 - [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-16T14:35:50Z" 
 
-- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.13.11.96" 
+- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.13.11.96" 
 
-- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86143" 
+- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86143" 
 
 - [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
 
@@ -16113,37 +16155,45 @@
 - [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86143](http://rdf.rhea-db.org/86143) 
 
 - [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: questin hydroquinone + O2 = demethylsulochrin + 2 H+." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34586791" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86143" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86143" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34586791" 
 
 - [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) [label](http://www.w3.org/2000/01/rdf-schema#label) "questin hydroquinone dioxygenase activity" 
 
 - [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen](http://purl.obolibrary.org/obo/GO_0016702) 
 
+- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [dioxygen](http://purl.obolibrary.org/obo/CHEBI_15379) 
+
+- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235408](http://purl.obolibrary.org/obo/CHEBI_235408) 
+
+- [questin hydroquinone dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770081) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [demethylsulochrin(2-)](http://purl.obolibrary.org/obo/CHEBI_77886) 
+
 
 ### questin monooxygenase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0050246`
 #### Removed
-- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.43" 
+- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.43" 
 
-- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R02417" 
+- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R02417" 
 
-- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:QUESTIN-MONOOXYGENASE-RXN" 
+- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:QUESTIN-MONOOXYGENASE-RXN" 
 
-- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10836" 
+- [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10836" 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.14.13.43](http://purl.uniprot.org/enzyme/1.14.13.43) 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [10836](http://rdf.rhea-db.org/10836) 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "questin oxygenase activity" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.43" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.43" 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "questin,NADPH:oxygen oxidoreductase (hydroxylating, anthraquinone-ring-opening)" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.43" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.14.13.43" 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: H+ + NADPH + O2 + questin = demethylsulochrin + NADP+." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10836" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10836" 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [label](http://www.w3.org/2000/01/rdf-schema#label) "questin monooxygenase (NADPH) activity" 
 
@@ -16171,7 +16221,7 @@
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "questin,NADPH:oxygen oxidoreductase (hydroxylating, anthraquinone-ring-opening)" 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: H+ + NADPH + O2 + questin = demethylsulochrin + NADP+." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34586791" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34586791" 
 
 - [questin monooxygenase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0050246) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -16193,9 +16243,9 @@
 
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "questin reductase activity" 
 
-- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.443" 
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.443" 
 
-- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86147" 
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86147" 
 
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
 
@@ -16206,13 +16256,23 @@
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86147](http://rdf.rhea-db.org/86147) 
 
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: questin hydroquinone + NADP+ = questin + NADPH + 2 H+." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34586791" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86147" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86147" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34586791" 
 
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) [label](http://www.w3.org/2000/01/rdf-schema#label) "questin reductase (NADPH) activity" 
 
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [CHEBI_235408](http://purl.obolibrary.org/obo/CHEBI_235408) 
+
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [questin-2-olate](http://purl.obolibrary.org/obo/CHEBI_57676) 
+
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [NADP(3-)](http://purl.obolibrary.org/obo/CHEBI_58349) 
 
 
 ### rectal diverticulum development `http://purl.obolibrary.org/obo/GO_0039009`
@@ -16221,6 +16281,14 @@
 
 #### Added
 - [rectal diverticulum development](http://purl.obolibrary.org/obo/GO_0039009) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### regulation of COPII vesicle uncoating `http://purl.obolibrary.org/obo/GO_0090111`
+#### Removed
+- [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
+
+#### Added
+- [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
 
 
 ### regulation of DNA-templated transcription `http://purl.obolibrary.org/obo/GO_0006355`
@@ -16282,16 +16350,16 @@
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein exit from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein export from ER" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein export from endoplasmic reticulum" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of protein exit from endoplasmic reticulum" 
 
@@ -16307,7 +16375,7 @@
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19122"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of the directed movement of proteins from the endoplasmic reticulum." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 - [regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070861) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -16325,17 +16393,17 @@
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein import into mitochondrial outer membrane" 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of mitochondrial outer membrane protein import" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of protein transport into mitochondrial outer membrane" 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of protein insertion into mitochondrial outer membrane" 
 
@@ -16355,11 +16423,11 @@
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32102"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of protein insertion into mitochondrial outer membrane." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16374546" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
 
 - [regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
@@ -16378,6 +16446,14 @@
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of cellular process](http://purl.obolibrary.org/obo/GO_0050794) 
 
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051223) 
+
+
+### regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903388`
+#### Removed
+- [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
+
+#### Added
+- [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
 
 
 ### release of sequestered calcium ion into postsynaptic cytosol `http://purl.obolibrary.org/obo/GO_0099586`
@@ -16826,11 +16902,11 @@
 
 ### retinyl-palmitate esterase activity `http://purl.obolibrary.org/obo/GO_0050253`
 #### Removed
-- [retinyl-palmitate esterase activity](http://purl.obolibrary.org/obo/GO_0050253) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404133" 
+- [retinyl-palmitate esterase activity](http://purl.obolibrary.org/obo/GO_0050253) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404133" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "A REH hydrolyses atREs to atROL and FAs" 
 
 #### Added
-- [retinyl-palmitate esterase activity](http://purl.obolibrary.org/obo/GO_0050253) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404133" 
+- [retinyl-palmitate esterase activity](http://purl.obolibrary.org/obo/GO_0050253) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2404133" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "A REH hydrolses atREs to atROL and FAs" 
 
 
@@ -17000,102 +17076,102 @@
 
 ### serine-type carboxypeptidase activity `http://purl.obolibrary.org/obo/GO_0004185`
 #### Removed
-- [serine-type carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0004185) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9857945" 
+- [serine-type carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0004185) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9857945" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "prekallikrein:kininogen:C1QBP, C1QBP:KRT1, PLAUR:KRT1-&gt; kallikrein:kininogen:C1QBP, C1QBP:KRT1, PLAUR:KRT1 (PRCP catalyst)" 
 
 #### Added
-- [serine-type carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0004185) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-158251" 
+- [serine-type carboxypeptidase activity](http://purl.obolibrary.org/obo/GO_0004185) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-158251" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "prekallikrein:kininogen:C1q binding protein tetramer -&gt; kallikrein:kininogen:C1q binding protein tetramer" 
 
 
 ### serine-type endopeptidase activity `http://purl.obolibrary.org/obo/GO_0004252`
 #### Removed
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930440" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930440" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "F5 R334T, I387T is not cleaved by activated protein C" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930452" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930452" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "F5 R534Q, A540V is not cleaved by activated protein C" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9655840" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9655840" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FXIIa is cleaved to -FXIIa" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9822513" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9822513" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TF:FVII+FX -&gt; TF:FVII:FXa + FX activation peptide (TF:F7 catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9929060" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9929060" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TF:FVII:FXa -&gt;TF:FVIIa:FXa (FXa catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9929051" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9929051" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TF:FVIIa+FIX -&gt; TF:FVIIa:FIXa + FIX activation peptide (TF:F7a catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9822514" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9822514" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TF:FVIIa+FX -&gt; TF:FVIIa:FXa + FX activation peptide (TF:F7a catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9936467" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9936467" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor IX -&gt; factor IXa + factor IX activation peptide (kallikrein catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9769737" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9769737" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor V -&gt; factor Va intermediate + factor V activation peptide (FXa catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930790" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930790" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor V -&gt; factor Va intermediate + factor V activation peptide (thrombin catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9822522" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9822522" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor VIII -&gt; factor VIIIa + factor VIII B chain+ factor VIII A3 acidic polypeptide +VWF multimer (TF:FVIIa:FXa catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930792" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9930792" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor Va intermediate  -&gt; factor Va" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9678434" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9678434" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor X -&gt; factor Xa + factor X activation peptide (emicizumab:FIXa catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9936430" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9936430" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor XI:kininogen:GPIb:IX:V complex -&gt; factor XIa:kininogen:GPIb:IX:V complex (XIIa catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9936906" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9936906" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor XII:-amyloid:Zn2+-&gt; factor XIIa + -amyloid:Zn2+ (autocatalysis)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9855735" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9855735" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor XII:polyanionic activator -&gt; factor XIIa + polyanionic activator (autocatalysis)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9938539" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9938539" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "kallikrein:kininogen:cell surface receptor -&gt; kallikrein + cleaved kininogen:cell surface receptor + bradykinin" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9909046" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9909046" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "kallikrein:kininogen:cell surface receptor:factor XII -&gt; kallikrein:kininogen:cell surface receptor + factor XIIa (kallikrein catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9655850" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9655850" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "prekallikrein:kininogen:C1QBP, C1QBP:KRT1, PLAUR:KRT1-&gt; kallikrein:kininogen:C1QBP, C1QBP:KRT1, PLAUR:KRT1 (FXIIa catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9857814" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9857814" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "prekallikrein:kininogen:cell surface receptor:factor XII -&gt; factor XIIa + prekallikrein:kininogen:cell surface receptor (FXII autocatalysis on the cell surface)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9909048" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9909048" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "prekallikrein:kininogen:cell surface receptor:factor XII -&gt; kallikrein:kininogen:cell surface receptor:factor XII (FXII catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140870" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140870" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "thrombin:antithrombin III:heparan sulfate -&gt; thrombin:cleaved antithrombin III:heparan sulfate" 
 
 #### Added
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140823" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140823" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor IX -&gt; factor IXa + factor IX activation peptide (TF:F7a catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140777" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140777" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor X -&gt; factor Xa + factor X activation peptide (TF:F7 catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140736" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140736" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "factor X -&gt; factor Xa + factor X activation peptide (TF:F7a catalyst)" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-158311" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-158311" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "kallikrein:kininogen:C1q binding protein tetramer -&gt; kallikrein + activated kininogen:C1q binding protein tetramer + bradykinin" 
 
-- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140870" 
+- [serine-type endopeptidase activity](http://purl.obolibrary.org/obo/GO_0004252) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-140870" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "thrombin:antithrombin III:heparin -&gt; thrombin:cleaved antithrombin III:heparin" 
 
 
 ### serine-type endopeptidase inhibitor activity `http://purl.obolibrary.org/obo/GO_0004867`
 #### Removed
-- [serine-type endopeptidase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004867) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9823284" 
+- [serine-type endopeptidase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004867) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9823284" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FXa binds SERPINC1:HS" 
 
 
@@ -17154,7 +17230,7 @@
 
 ### sphingomyelin phosphodiesterase activity `http://purl.obolibrary.org/obo/GO_0004767`
 #### Removed
-- [sphingomyelin phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0004767) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9769742" 
+- [sphingomyelin phosphodiesterase activity](http://purl.obolibrary.org/obo/GO_0004767) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9769742" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SMPD1 converts sphingomyelin to ceramide" 
 
 
@@ -17325,11 +17401,11 @@
 
 ### sulfopropanediol 3-dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102157`
 #### Removed
-- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28074" 
+- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28074" 
   - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
 
 #### Added
-- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28074" 
+- [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28074" 
 
 - [sulfopropanediol 3-dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102157) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [28074](http://rdf.rhea-db.org/28074) 
 
@@ -17360,7 +17436,7 @@
 
 ### superoxide dismutase copper chaperone activity `http://purl.obolibrary.org/obo/GO_0016532`
 #### Removed
-- [superoxide dismutase copper chaperone activity](http://purl.obolibrary.org/obo/GO_0016532) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3299753" 
+- [superoxide dismutase copper chaperone activity](http://purl.obolibrary.org/obo/GO_0016532) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3299753" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "CCS transfers Cu to SOD1 and oxidizes cysteine residues in SOD1" 
 
 
@@ -17393,17 +17469,17 @@
 
 ### tRNA (cytidine(32)-2'-O-ribose)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0106339`
 #### Removed
-- [tRNA (cytidine(32)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106339) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9024159" 
+- [tRNA (cytidine(32)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106339) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9024159" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FTSJ1 2'-O-methylates cytidine-32 in tRNA(Phe)" 
 
 
 
 ### tRNA (cytidine(4)/adenine(4)-2'-O-ribose)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0140386`
 #### Removed
-- [tRNA (cytidine(4)/adenine(4)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0140386) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788668" 
+- [tRNA (cytidine(4)/adenine(4)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0140386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788668" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TRMT13 2'-O-methylates adenosine-4 in tRNA" 
 
-- [tRNA (cytidine(4)/adenine(4)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0140386) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788684" 
+- [tRNA (cytidine(4)/adenine(4)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0140386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6788684" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "TRMT13 2'-O-methylates cytidine-4 in tRNA" 
 
 
@@ -17486,11 +17562,11 @@
 
 ### testosterone dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047045`
 #### Removed
-- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
   - [status](http://www.geneontology.org/formats/oboInOwl#status) "skos:exactMatch" 
 
 #### Added
-- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
+- [testosterone dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047045) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.64" 
 
 
 ### thalamus development `http://purl.obolibrary.org/obo/GO_0021794`
@@ -17555,11 +17631,11 @@
 
 ### thioredoxin-disulfide reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004791`
 #### Removed
-- [thioredoxin-disulfide reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004791) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73646" 
+- [thioredoxin-disulfide reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004791) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73646" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Regeneration of active (reduced) Thioredoxin" 
 
 #### Added
-- [thioredoxin-disulfide reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004791) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73646" 
+- [thioredoxin-disulfide reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004791) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73646" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "thioredoxin, oxidized + NADPH + H+ =&gt; thioredoxin, reduced + NADP+" 
 
 
@@ -17573,11 +17649,11 @@
 
 ### thymidylate synthase activity `http://purl.obolibrary.org/obo/GO_0004799`
 #### Removed
-- [thymidylate synthase activity](http://purl.obolibrary.org/obo/GO_0004799) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73605" 
+- [thymidylate synthase activity](http://purl.obolibrary.org/obo/GO_0004799) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73605" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "conversion of dUMP to dTMP" 
 
 #### Added
-- [thymidylate synthase activity](http://purl.obolibrary.org/obo/GO_0004799) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73605" 
+- [thymidylate synthase activity](http://purl.obolibrary.org/obo/GO_0004799) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73605" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "dUMP + N5,N10-methylene tetrahydrofolate =&gt; TMP + dihydrofolate" 
 
 
@@ -17635,33 +17711,33 @@
 
 ### transaminase activity `http://purl.obolibrary.org/obo/GO_0008483`
 #### Removed
-- [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9972889" 
+- [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9972889" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "AADAT transaminates 3HKYN to xanthurenate" 
 
 
 
 ### transmembrane transport `http://purl.obolibrary.org/obo/GO_0055085`
 #### Removed
-- [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382556" 
+- [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382556" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABC-family protein mediated transport" 
 
 #### Added
-- [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382556" 
+- [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382556" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABC-family proteins mediated transport" 
 
 
 ### triacylglycerol lipase activity `http://purl.obolibrary.org/obo/GO_0004806`
 
 #### Added
-- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40611" 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40611" 
 
-- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40615" 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40615" 
 
-- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40619" 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40619" 
 
-- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40623" 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40623" 
 
-- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40631" 
+- [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40631" 
 
 - [triacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0004806) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40611](http://rdf.rhea-db.org/40611) 
 
@@ -17764,7 +17840,7 @@
 
 ### ubiquitin-protein transferase activity `http://purl.obolibrary.org/obo/GO_0004842`
 #### Removed
-- [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958873" 
+- [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9958873" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Cell-to-cell contact through homophilic cadherin interactions inhibits RAC1/CDC42 ubiquitination" 
 
 
@@ -17877,15 +17953,15 @@
 - [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140437" 
 
 - [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the synaptic transmission in another organism via the action of a venom." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26048991" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16549768" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26221036" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19481459" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12507705" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26221036" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16549768" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26048991" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19481459" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12507705" 
 
 - [venom-mediated disruption of chemical synaptic transmission](http://purl.obolibrary.org/obo/GO_0140437) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated disruption of chemical synaptic transmission" 
 
@@ -17916,11 +17992,11 @@
 - [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140465" 
 
 - [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the synaptic transmission at the neuromuscular junction in another organism via the action of a venom." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28623170" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11091135" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34204855" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28623170" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11091135" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34204855" 
 
 - [venom-mediated disruption of neuromuscular synaptic transmission](http://purl.obolibrary.org/obo/GO_0140465) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated disruption of neuromuscular synaptic transmission" 
 
@@ -17944,11 +18020,11 @@
 ### venom-mediated leukocyte infiltration `http://purl.obolibrary.org/obo/GO_7770075`
 #### Removed
 - [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A venom-mediated activation of inflammatory response that triggers leucocyte infiltration in another organism." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26072684" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19000915" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19000915" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26072684" 
 
 - [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated leukocyte infiltration" 
 
@@ -17966,11 +18042,11 @@
 - [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "venom-mediated polymorphonuclear leukocyte migration" 
 
 - [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A venom-mediated activation of inflammatory response that triggers leukocyte migration in another organism." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26072684" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32024243" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19000915" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19000915" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26072684" 
 
 - [venom-mediated leukocyte infiltration](http://purl.obolibrary.org/obo/GO_7770075) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated leukocyte migration" 
 
@@ -17993,11 +18069,11 @@
 - [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140452" 
 
 - [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the synaptic transmission mediated by the neurotransmitter acetylcholine in another organism via the action of a venom." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28623170" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11091135" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34204855" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28623170" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11091135" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34204855" 
 
 - [venom-mediated perturbation of cholinergic synaptic transmission](http://purl.obolibrary.org/obo/GO_0140452) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of cholinergic synaptic transmission" 
 
@@ -18028,7 +18104,7 @@
 - [venom-mediated perturbation of immune response](http://purl.obolibrary.org/obo/GO_0140428) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140428" 
 
 - [venom-mediated perturbation of immune response](http://purl.obolibrary.org/obo/GO_0140428) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism induces an immune response in another organism via the action of a venom." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35622591" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35622591" 
 
 - [venom-mediated perturbation of immune response](http://purl.obolibrary.org/obo/GO_0140428) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of immune response" 
 
@@ -18087,6 +18163,24 @@
 - [ventricular system development](http://purl.obolibrary.org/obo/GO_0021591) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### vesicle uncoating `http://purl.obolibrary.org/obo/GO_0072319`
+#### Removed
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein depolymerization process that results in the disassembly of vesicle coat proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) SubClassOf [protein depolymerization](http://purl.obolibrary.org/obo/GO_0051261) 
+
+#### Added
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32179"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The disaggregation of a vesicle coat into its constituent components, resulting in removal of the protein coat from a transport vesicle. Uncoating occurs after vesicle budding and can be coupled to vesicle docking and fusion with the target membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20706600" 
+
+- [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) SubClassOf [protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0032984) 
+
+
 ### vesicular glutamate transport inhibitor `http://purl.obolibrary.org/obo/CHEBI_72483`
 
 #### Added
@@ -18126,11 +18220,11 @@
 ### vitamin D3 biosynthetic process `http://purl.obolibrary.org/obo/GO_1901755`
 #### Removed
 - [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of vitamin D3." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Unipathway:UPA00955" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Unipathway:UPA00955" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
 - [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [calciol](http://purl.obolibrary.org/obo/CHEBI_28940)) 
 
@@ -18145,16 +18239,16 @@
 #### Added
 - [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32077"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6076" 
+- [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6076" 
 
 - [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of vitamin D3." 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Unipathway:UPA00955" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Unipathway:UPA00955" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6076" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
-  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6076" 
 
 - [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [calcitriol](http://purl.obolibrary.org/obo/CHEBI_17823)) 
 
