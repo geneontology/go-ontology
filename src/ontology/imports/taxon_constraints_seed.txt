@@ -27,7 +27,6 @@ NCBITaxon:32524 ## Amniota
 NCBITaxon:32525 ## Theria <Mammalia>
 NCBITaxon:33083 ## Dictyostelids
 NCBITaxon:33090 ## Viridiplantae
-NCBITaxon:3312 ## Coniferophyta
 NCBITaxon:33154 ## Opisthokonta
 NCBITaxon:33208 ## Metazoa
 NCBITaxon:33213 ## Bilateria
@@ -36,6 +35,7 @@ NCBITaxon:33392 ## Holometabola
 NCBITaxon:33511 ## Deuterostomia
 NCBITaxon:33630 ## Alveolata
 NCBITaxon:33682 ## Euglenozoa
+NCBITaxon:3372 ## Gnetopsida
 NCBITaxon:3378 ## Gnetales
 NCBITaxon:3398 ## Magnoliophyta
 NCBITaxon:35493 ## Streptophyta
@@ -62,7 +62,7 @@ NCBITaxon:5738 ## Diplomonadida
 NCBITaxon:5740 ## Giardia
 NCBITaxon:5782 ## Dictyostelium
 NCBITaxon:5794 ## Apicomplexa
-NCBITaxon:58022 ## Gnetophyta
+NCBITaxon:58019 ## Pinopsida
 NCBITaxon:58024 ## Spermatophyta
 NCBITaxon:5820 ## Plasmodium
 NCBITaxon:5878 ## Ciliophora

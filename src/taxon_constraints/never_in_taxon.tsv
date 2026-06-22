@@ -104,7 +104,7 @@ GO:0002162	dystroglycan binding	NCBITaxon:4751	Fungi
 GO:0002376	immune system process	NCBITaxon:4895	Schizosaccharomyces	
 GO:0003146	heart jogging	NCBITaxon:40674	Mammalia	
 GO:0003341	cilium movement	NCBITaxon:3176	Zygnematales	
-GO:0003341	cilium movement	NCBITaxon:3312	Coniferophyta	
+GO:0003341	cilium movement	NCBITaxon:58019	Pinopsida	
 GO:0003341	cilium movement	NCBITaxon:3378	Gnetales	
 GO:0003341	cilium movement	NCBITaxon:3398	Magnoliophyta	
 GO:0003341	cilium movement	NCBITaxon:4890	Ascomycota	
@@ -120,7 +120,7 @@ GO:0005813	centrosome	NCBITaxon:27896	Planariidae
 GO:0005813	centrosome	NCBITaxon:33090	Viridiplantae	
 GO:0005813	centrosome	NCBITaxon:4751	Fungi	
 GO:0005929	cilium	NCBITaxon:3176	Zygnematales	
-GO:0005929	cilium	NCBITaxon:3312	Coniferophyta	
+GO:0005929	cilium	NCBITaxon:58019	Pinopsida	
 GO:0005929	cilium	NCBITaxon:3378	Gnetales	
 GO:0005929	cilium	NCBITaxon:3398	Magnoliophyta	
 GO:0005929	cilium	NCBITaxon:4890	Ascomycota	
@@ -302,7 +302,7 @@ GO:0055100	adiponectin binding	NCBITaxon:4751	Fungi
 GO:0060023	soft palate development	NCBITaxon:8782	Aves	
 GO:0060157	urinary bladder development	NCBITaxon:8782	Aves	
 GO:0060271	cilium assembly	NCBITaxon:3176	Zygnematales	
-GO:0060271	cilium assembly	NCBITaxon:3312	Coniferophyta	
+GO:0060271	cilium assembly	NCBITaxon:58019	Pinopsida	
 GO:0060271	cilium assembly	NCBITaxon:3378	Gnetales	
 GO:0060271	cilium assembly	NCBITaxon:3398	Magnoliophyta	
 GO:0060271	cilium assembly	NCBITaxon:4890	Ascomycota	
@@ -407,11 +407,11 @@ GO:0097652	phosphatidylinositol 3-kinase complex, class II	NCBITaxon:4932	Saccha
 GO:0097677	STAT family protein binding	NCBITaxon:4751	Fungi	
 GO:0097678	SOCS family protein binding	NCBITaxon:4751	Fungi	
 GO:0097727	blepharoplast	NCBITaxon:3176	Zygnematales	
-GO:0097727	blepharoplast	NCBITaxon:3312	Coniferophyta	
+GO:0097727	blepharoplast	NCBITaxon:58019	Pinopsida	
 GO:0097727	blepharoplast	NCBITaxon:3378	Gnetales	
 GO:0097727	blepharoplast	NCBITaxon:3398	Magnoliophyta	
 GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3176	Zygnematales	
-GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3312	Coniferophyta	
+GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:58019	Pinopsida	
 GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3378	Gnetales	
 GO:0097743	de novo centriole assembly via blepharoplast	NCBITaxon:3398	Magnoliophyta	
 GO:0098521	inhibitory neuromuscular junction	NCBITaxon:7742	Vertebrata <Metazoa>	
@@ -441,7 +441,7 @@ GO:1990377	organomineral extracellular matrix	NCBITaxon:2157	Archaea
 GO:1990405	protein antigen binding	NCBITaxon:4751	Fungi	
 GO:1990917	ooplasm	NCBITaxon:4751	Fungi	
 GO:0061512	protein localization to cilium	NCBITaxon:3176	Zygnematales	
-GO:0061512	protein localization to cilium	NCBITaxon:3312	Coniferophyta	
+GO:0061512	protein localization to cilium	NCBITaxon:58019	Pinopsida	
 GO:0061512	protein localization to cilium	NCBITaxon:3378	Gnetales	
 GO:0061512	protein localization to cilium	NCBITaxon:3398	Magnoliophyta	
 GO:0061512	protein localization to cilium	NCBITaxon:4890	Ascomycota	
@@ -506,7 +506,7 @@ GO:0033259	plastid DNA replication	NCBITaxon:4751	Fungi
 GO:0033259	plastid DNA replication	NCBITaxon:554915	Amoebozoa	
 GO:0039660	structural constituent of virion	NCBITaxon:131567	cellular organisms	
 GO:0042073	intraciliary transport	NCBITaxon:3176	Zygnematales	
-GO:0042073	intraciliary transport	NCBITaxon:3312	Coniferophyta	
+GO:0042073	intraciliary transport	NCBITaxon:58019	Pinopsida	
 GO:0042073	intraciliary transport	NCBITaxon:3378	Gnetales	
 GO:0042073	intraciliary transport	NCBITaxon:3398	Magnoliophyta	
 GO:0042073	intraciliary transport	NCBITaxon:5782	Dictyostelium	
