@@ -1,0 +1,27 @@
+pattern_name: taxon_constraint_class_only_in
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/taxon_constraint_class_only_in
+description: "Generates a named 'only in <taxon>' taxon constraint class. A GO term applies an only-in taxon constraint by asserting is_a to this class; the in_taxon restrictions are inherited. The defined_class IRI is supplied deterministically in the input TSV."
+
+classes:
+  thing: owl:Thing
+
+relations:
+  in_taxon: RO:0002162
+
+vars:
+  taxon: thing
+
+name:
+  text: "only in %s"
+  vars:
+    - taxon
+
+logical_axioms:
+  - axiom_type: equivalentTo
+    text: "in_taxon some %s"
+    vars:
+      - taxon
+  - axiom_type: subClassOf
+    text: "in_taxon only %s"
+    vars:
+      - taxon

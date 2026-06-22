@@ -1,0 +1,9 @@
+# Select every NCBITaxon class referenced (as a filler) by the taxon constraint classes and the
+# taxon unions. Used to seed a minimal BOT module from taxslim so the hierarchy precompute reasons
+# over just the relevant slice of the taxonomy (NCBITaxon_Union_* terms are absent from taxslim and
+# are simply ignored by the extraction).
+SELECT DISTINCT ?t
+WHERE {
+  ?s ?p ?t .
+  FILTER(isIRI(?t) && STRSTARTS(STR(?t), "http://purl.obolibrary.org/obo/NCBITaxon_"))
+}

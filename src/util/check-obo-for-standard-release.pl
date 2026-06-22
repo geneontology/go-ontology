@@ -417,7 +417,7 @@ unless ($disabled{'single-labeled-edges'}) {
 
 unless ($disabled{'referenced-id-syntax-check'}) {
     foreach my $id (@referenced_ids) {
-        if ($id =~ /^(\S+):(\d+)/) {
+        if ($id =~ /^(\S+):(\d+)/ || is_taxon_constraint_class_id($id)) {
             ##check_xref($id);
         }
         else {
@@ -437,6 +437,7 @@ unless ($disabled{'single-intersection-tag'}) {
 unless ($disabled{'namespace-switch'}) {
     foreach my $x ((keys %isa), (keys %genus)) {
         foreach my $y ((@{$isa{$x} || []}), (@{$genus{$x} || []})) {
+            next if is_taxon_constraint_class_id($y);
             if ($ns{$x} ne $ns{$y}) {
                 flag('namespace-different-from-is_a-parent',"$x in $ns{$x}, $y in $ns{$y}");
             }
@@ -599,6 +600,11 @@ sub check_xref {
     }
 }
 
+sub is_taxon_constraint_class_id {
+    my $id = shift || '';
+    return $id =~ /^onlyin:(?:\d+|Union_\d+)$/ || $id =~ /^neverin:\d+$/;
+}
+
 sub flag {
     my $type = shift;
     my $msg = shift;
@@ -656,4 +662,3 @@ If all checks pass with no problems flagged, exists with zero error code
 EOM
 
 }
-

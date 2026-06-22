@@ -11,9 +11,6 @@ The project follows standard ODK layout:
        * go-edit.obo
        * Makefile
        * ...
-    * taxon_constraints/
-       * only_in_taxon.tsv
-       * never_in_taxon.tsv
  * terms/   ## checked out copies, for editing
     * GO_NNNNNNN.obo # checked out local copy
  * .claude/
@@ -397,9 +394,6 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
     - look at mappings holistically
 - for anything involving reactions/catalytic activities/RHEA/EC, use the /reaction skill
 - for taxon constraints, use the /taxon-constraint skill
-    - these are in `src/taxon_constraints` (not the main obo file)
-        - `never_in_taxon.tsv`
-        - `only_in_taxon.tsv`
 
 ## AUTOMATED-VALIDATION using Makefile
 
@@ -444,7 +438,6 @@ RESEARCH.md can be included in your gh issue comments verbatim (but you can excl
 ## COMMITTING
 
 Commit only the files YOU edited. These are generally to src/ontology/go-edit.obo.
-In some cases you may also need to change taxon constraint files or other ancilliary content files.
 If you did not modify a file yourself, don't commit it. There may be modifications in files like this CLAUDE.md, this is expected, don't commit them.
 
 Include detailed comments.
