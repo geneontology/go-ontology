@@ -878,7 +878,7 @@ GO:0052907	23S rRNA (adenine(1618)-N(6))-methyltransferase activity	NCBITaxon:Un
 GO:0043292	contractile muscle fiber	NCBITaxon:6072	Eumetazoa	
 GO:0160175	somatic muscle attachment to chitin-based cuticle	NCBITaxon:6656	Arthropoda	
 GO:0001734	mRNA (N6-adenosine)-methyltransferase activity	NCBITaxon:2759	Eukaryota	
-xGO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
+GO:0016605	PML body	NCBITaxon:6072	Eumetazoa	
 GO:0006699	bile acid biosynthetic process	NCBITaxon:6072	Eumetazoa	
 GO:0050870	positive regulation of T cell activation	NCBITaxon:6072	Eumetazoa	
 GO:0043123	positive regulation of canonical NF-kappaB signal transduction	NCBITaxon:6072	Eumetazoa	
