@@ -25,6 +25,48 @@ The project follows standard ODK layout:
 These instructions are optimized for claude code. Skills are used, and defined
 in `.claude/skills/`
 
+## Local Setup (skip if running in a GitHub Action)
+
+The editing workflow below relies on two sets of tools:
+
+1. **ODK-provided tools** — `robot`, `owltools`, `dosdp-tools`, etc. These come from the pinned `obolibrary/odkfull` Docker image and **must not** be installed from Homebrew, the upstream releases page, or any other source. CI runs against the pinned image, and any other copy will drift in version and may give results that don't match CI. See the AUTOMATED-VALIDATION section and the `/odk-make` skill below for how to invoke them.
+2. **obo-scripts** — three Perl scripts (`obo-grep.pl`, `obo-checkout.pl`, `obo-checkin.pl`) used for stanza-aware search and the checkout/checkin procedure. These are not part of ODK and have to be on `PATH` separately.
+
+When this repo is driven by the `ai-agent` / `copilot-setup-steps` workflows, both are taken care of (the job runs inside the ODK container, and obo-scripts is cloned in) — skip this section.
+
+For a local editor-driven Claude Code session:
+
+**ODK tools.** Install Docker if you do not already have it. Do not install `robot` or other ODK tools on the host. Drive every `make` / `robot` / `owltools` / `dosdp-tools` invocation through the `/odk-make` skill's non-interactive wrapper, e.g.
+
+```bash
+.claude/skills/odk-make/odk-run.sh robot --version
+.claude/skills/odk-make/odk-run.sh make travis_build
+```
+
+The wrapper uses the same image tag as `src/ontology/run.sh` (the canonical console invocation), so the version of `robot` you run matches the one CI uses. See the `/odk-make` skill for details and common targets.
+
+**obo-scripts.** Check whether they are on `PATH`:
+
+```bash
+which obo-grep.pl obo-checkout.pl obo-checkin.pl
+```
+
+If any are missing, install from https://github.com/cmungall/obo-scripts:
+
+```bash
+mkdir -p ~/.local/share
+git clone --depth 1 https://github.com/cmungall/obo-scripts.git ~/.local/share/obo-scripts
+
+mkdir -p ~/bin
+ln -sf ~/.local/share/obo-scripts/obo-grep.pl     ~/bin/obo-grep.pl
+ln -sf ~/.local/share/obo-scripts/obo-checkout.pl ~/bin/obo-checkout.pl
+ln -sf ~/.local/share/obo-scripts/obo-checkin.pl  ~/bin/obo-checkin.pl
+```
+
+If `~/bin` is not already on `PATH`, add it (`export PATH="$HOME/bin:$PATH"` in your shell rc) or substitute a directory that is. The `editing-obo-ontologies` skill, if available, also bundles these.
+
+Do not fall back to plain `grep` or to hand-editing `go-edit.obo` — that path is much slower and error-prone, and the rest of this guide assumes the tools are in place.
+
 ## PLAN: Analyze Issue, Plan Approach, and create a TODO/checklist
 
 Read the entire issue and all associated comments. Be aware that some issues may have auxhiliary discussions, your must first infer the
@@ -136,7 +178,7 @@ The general procedure is:
 - checking in will update the edit file and remove the file from `terms/`
 - Commits are then made on src/ontology/go-edit.obo as appropriate
 - `obo-checkout.pl` and `obo-checkin.pl` come from the same obo-scripts tooling (`cmungall/obo-scripts` / the `editing-obo-ontologies` skill) and are likewise only on PATH once it's installed/loaded. If not found, install/locate them and call by full path — don't work around their absence by editing the megafile directly; the checkin/checkout procedure is required.
-- Always validate after checkin via `cd src/ontology && make travis_build`
+- Always validate after checkin via `cd src/ontology && make travis_build` (this must run in the ODK Docker image — see the /odk-make skill)
 
 ### Creation of new terms
 
@@ -362,6 +404,8 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 ## AUTOMATED-VALIDATION using Makefile
 
 This ontology uses standard ODK/ROBOT tests plus custom tests to ensure the ontology is logically, syntactically, and stylistically valid.
+
+IMPORTANT: every `make` target and every one-off `robot`/`owltools` command in this section must run inside the pinned ODK Docker image (`obolibrary/odkfull`), NOT against host tools — otherwise results won't match CI. Use the /odk-make skill, which explains this and provides a non-interactive runner (`.claude/skills/odk-make/odk-run.sh make travis_build`, etc). The bare `cd src/ontology && make ...`/`robot ...` forms shown below assume you are already inside the ODK environment (as in GitHub Actions); locally, wrap them via /odk-make.
 
 Ensure that full validation is performed, using `cd src/ontology && make travis_build` (being sure you are in the right folder)
 
