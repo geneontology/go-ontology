@@ -1,0 +1,86 @@
+# Seed list of atomic NCBITaxon terms used to generate taxon constraint classes.
+# Format mirrors the other imports/*_terms.txt files: 'NCBITaxon:<id> ## <label>'.
+# Only OFFICIAL (atomic) NCBITaxon terms go here. Union/grouping taxa (NCBITaxon_Union_*)
+# are sourced automatically from imports/go-taxon-groupings.owl and only receive 'only in'
+# classes (never 'never in'). For each atomic term below the build generates one 'only in'
+# and one 'never in' taxon constraint class; an editor applies a constraint by asserting is_a to one
+# of these (e.g. 'is_a: onlyin:33213 ! only in Bilateria').
+#
+# Initial set = distinct atomic taxa already referenced in only_in_taxon.tsv / never_in_taxon.tsv.
+NCBITaxon:10090 ## Mus musculus
+NCBITaxon:10239 ## Viruses
+NCBITaxon:1117 ## Cyanobacteria
+NCBITaxon:131567 ## cellular organisms
+NCBITaxon:147537 ## Saccharomycotina
+NCBITaxon:147554 ## Schizosaccharomycetes
+NCBITaxon:2 ## Bacteria
+NCBITaxon:2157 ## Archaea
+NCBITaxon:241407 ## Saccharomycetales incertae sedis
+NCBITaxon:2759 ## Eukaryota
+NCBITaxon:27896 ## Planariidae
+NCBITaxon:28009 ## Choanoflagellida
+NCBITaxon:2864 ## Dinophyceae
+NCBITaxon:3176 ## Zygnematales
+NCBITaxon:3193 ## Embryophyta
+NCBITaxon:32443 ## Teleostei
+NCBITaxon:32524 ## Amniota
+NCBITaxon:32525 ## Theria <Mammalia>
+NCBITaxon:33083 ## Dictyostelids
+NCBITaxon:33090 ## Viridiplantae
+NCBITaxon:3312 ## Coniferophyta
+NCBITaxon:33154 ## Opisthokonta
+NCBITaxon:33208 ## Metazoa
+NCBITaxon:33213 ## Bilateria
+NCBITaxon:33317 ## Protostomia
+NCBITaxon:33392 ## Holometabola
+NCBITaxon:33511 ## Deuterostomia
+NCBITaxon:33630 ## Alveolata
+NCBITaxon:33682 ## Euglenozoa
+NCBITaxon:3378 ## Gnetales
+NCBITaxon:3398 ## Magnoliophyta
+NCBITaxon:35493 ## Streptophyta
+NCBITaxon:38254 ## Glaucocystophyceae
+NCBITaxon:40674 ## Mammalia
+NCBITaxon:451864 ## Dikarya
+NCBITaxon:451866 ## Taphrinomycotina
+NCBITaxon:4751 ## Fungi
+NCBITaxon:47570 ## Schizotrypanum
+NCBITaxon:4762 ## Oomycetes
+NCBITaxon:4890 ## Ascomycota
+NCBITaxon:4891 ## Saccharomycetes
+NCBITaxon:4895 ## Schizosaccharomyces
+NCBITaxon:4896 ## Schizosaccharomyces pombe
+NCBITaxon:4899 ## Schizosaccharomyces octosporus
+NCBITaxon:4930 ## Saccharomyces
+NCBITaxon:4932 ## Saccharomyces cerevisiae
+NCBITaxon:4952 ## Yarrowia lipolytica
+NCBITaxon:50557 ## Insecta
+NCBITaxon:554915 ## Amoebozoa
+NCBITaxon:5653 ## Kinetoplastea
+NCBITaxon:5654 ## Trypanosomatidae
+NCBITaxon:5738 ## Diplomonadida
+NCBITaxon:5740 ## Giardia
+NCBITaxon:5782 ## Dictyostelium
+NCBITaxon:5794 ## Apicomplexa
+NCBITaxon:58022 ## Gnetophyta
+NCBITaxon:58024 ## Spermatophyta
+NCBITaxon:5820 ## Plasmodium
+NCBITaxon:5878 ## Ciliophora
+NCBITaxon:6072 ## Eumetazoa
+NCBITaxon:6073 ## Cnidaria
+NCBITaxon:6231 ## Nematoda
+NCBITaxon:6237 ## Caenorhabditis
+NCBITaxon:6656 ## Arthropoda
+NCBITaxon:71193 ## Elateroidea
+NCBITaxon:7147 ## Diptera
+NCBITaxon:716545 ## saccharomyceta
+NCBITaxon:7203 ## Brachycera
+NCBITaxon:7215 ## Drosophila
+NCBITaxon:7711 ## Chordata
+NCBITaxon:7742 ## Vertebrata
+NCBITaxon:7776 ## Gnathostomata <vertebrate>
+NCBITaxon:8457 ## Sauropsida
+NCBITaxon:8782 ## Aves
+NCBITaxon:89593 ## Craniata <chordata>
+NCBITaxon:9443 ## Primates
+NCBITaxon:9606 ## Homo sapiens
