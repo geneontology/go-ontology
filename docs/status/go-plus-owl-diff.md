@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-22/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-23/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-22" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-23" 
 
 
 ### (10R,17S)-dihydroxy-(7Z,11E,13E,15Z,19Z)-docosapentaenoate `http://purl.obolibrary.org/obo/CHEBI_140405`
@@ -2264,6 +2264,22 @@
 - [(hydridodioxido)oxidocarbon(.)](http://purl.obolibrary.org/obo/CHEBI_29790) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [(dioxido)oxidocarbonate(.1-)](http://purl.obolibrary.org/obo/CHEBI_29788) 
 
 
+### 1,2-dehydro-N-acetyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120577`
+#### Removed
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+
+
+### 1,2-dehydro-N-beta-alanyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120576`
+#### Removed
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+
+
 ### 1,4-benzoquinone imine `http://purl.obolibrary.org/obo/CHEBI_50192`
 
 #### Added
@@ -2538,6 +2554,14 @@
 - [14(S),21-dihydroxy-(7Z,10Z,12E,16Z,19Z)-docosapentaenoic acid](http://purl.obolibrary.org/obo/CHEBI_140258) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [human xenobiotic metabolite](http://purl.obolibrary.org/obo/CHEBI_76967) 
 
 - [14(S),21-dihydroxy-(7Z,10Z,12E,16Z,19Z)-docosapentaenoic acid](http://purl.obolibrary.org/obo/CHEBI_140258) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [14(S),21-dihydroxy-(7Z,10Z,12E,16Z,19Z)-docosapentaenoate](http://purl.obolibrary.org/obo/CHEBI_140393) 
+
+
+### 15-cis-phytoene synthase activity `http://purl.obolibrary.org/obo/GO_0046905`
+#### Removed
+- [15-cis-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0046905) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [15-cis-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0046905) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
 
 
 ### 15-deoxy-Delta(12,14)-prostaglandin A2 `http://purl.obolibrary.org/obo/CHEBI_63975`
@@ -5404,6 +5428,74 @@
 - [Aflatoxin B1 exo-cysteinylglycine conjugate](http://purl.obolibrary.org/obo/CHEBI_78584) SubClassOf [organic molecular entity](http://purl.obolibrary.org/obo/CHEBI_50860) 
 
 
+### B cell anergy `http://purl.obolibrary.org/obo/GO_0002515`
+#### Removed
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [B cell anergy](http://purl.obolibrary.org/obo/GO_0002515) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### B cell receptor editing `http://purl.obolibrary.org/obo/GO_0002452`
+#### Removed
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002452) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002514`
+#### Removed
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002514) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### Benzo[a]pyrene-4,5-oxide `http://purl.obolibrary.org/obo/CHEBI_34560`
 
 #### Added
@@ -7622,6 +7714,14 @@
 - [Lewis Y antigen](http://purl.obolibrary.org/obo/CHEBI_140912) SubClassOf [organic molecular entity](http://purl.obolibrary.org/obo/CHEBI_50860) 
 
 
+### Mon1-Ccz1 complex `http://purl.obolibrary.org/obo/GO_0035658`
+#### Removed
+- [Mon1-Ccz1 complex](http://purl.obolibrary.org/obo/GO_0035658) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [Mon1-Ccz1 complex](http://purl.obolibrary.org/obo/GO_0035658) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
+
+
 ### N'-acetylisoniazid `http://purl.obolibrary.org/obo/CHEBI_7207`
 
 #### Added
@@ -7957,6 +8057,24 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ADAL1 hydrolyzes N6-methyl-dAMP to dIMP and methylamine" 
 
 
+### NADH dehydrogenase (ubiquinone) activity `http://purl.obolibrary.org/obo/GO_0008137`
+#### Removed
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4930) 
+
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895))) 
+
+- [NADH dehydrogenase (ubiquinone) activity](http://purl.obolibrary.org/obo/GO_0008137) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Saccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4930))) 
+
+
+
+### NCBITaxon_58019 `http://purl.obolibrary.org/obo/NCBITaxon_58019`
+
+#### Added
+- Class: [NCBITaxon_58019](http://purl.obolibrary.org/obo/NCBITaxon_58019) 
+
+
 ### NMR solvent `http://purl.obolibrary.org/obo/CHEBI_197449`
 
 #### Added
@@ -7981,6 +8099,54 @@
 - [Olmesartan medoxomil](http://purl.obolibrary.org/obo/CHEBI_31932) [label](http://www.w3.org/2000/01/rdf-schema#label) "Olmesartan medoxomil" 
 
 - [Olmesartan medoxomil](http://purl.obolibrary.org/obo/CHEBI_31932) SubClassOf [biphenyls](http://purl.obolibrary.org/obo/CHEBI_22888) 
+
+
+### P1 peroxisome `http://purl.obolibrary.org/obo/GO_0019819`
+#### Removed
+- [P1 peroxisome](http://purl.obolibrary.org/obo/GO_0019819) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+- [P1 peroxisome](http://purl.obolibrary.org/obo/GO_0019819) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+
+
+### P2 peroxisome `http://purl.obolibrary.org/obo/GO_0019820`
+#### Removed
+- [P2 peroxisome](http://purl.obolibrary.org/obo/GO_0019820) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+- [P2 peroxisome](http://purl.obolibrary.org/obo/GO_0019820) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+
+
+### P3 peroxisome `http://purl.obolibrary.org/obo/GO_0019821`
+#### Removed
+- [P3 peroxisome](http://purl.obolibrary.org/obo/GO_0019821) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+- [P3 peroxisome](http://purl.obolibrary.org/obo/GO_0019821) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+
+
+### P4 peroxisome `http://purl.obolibrary.org/obo/GO_0019822`
+#### Removed
+- [P4 peroxisome](http://purl.obolibrary.org/obo/GO_0019822) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+- [P4 peroxisome](http://purl.obolibrary.org/obo/GO_0019822) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+
+
+### P5 peroxisome `http://purl.obolibrary.org/obo/GO_0019823`
+#### Removed
+- [P5 peroxisome](http://purl.obolibrary.org/obo/GO_0019823) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+- [P5 peroxisome](http://purl.obolibrary.org/obo/GO_0019823) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+
+
+### P6 peroxisome `http://purl.obolibrary.org/obo/GO_0019824`
+#### Removed
+- [P6 peroxisome](http://purl.obolibrary.org/obo/GO_0019824) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
+- [P6 peroxisome](http://purl.obolibrary.org/obo/GO_0019824) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Yarrowia lipolytica](http://purl.obolibrary.org/obo/NCBITaxon_4952) 
+
 
 
 ### PE(16:1(9Z)/14:0) zwitterion `http://purl.obolibrary.org/obo/CHEBI_195408`
@@ -8049,6 +8215,22 @@
 - [PE(18:0/16:1(9Z)) zwitterion](http://purl.obolibrary.org/obo/CHEBI_195411) SubClassOf [organic molecular entity](http://purl.obolibrary.org/obo/CHEBI_50860) 
 
 
+### PML body `http://purl.obolibrary.org/obo/GO_0016605`
+#### Removed
+- [PML body](http://purl.obolibrary.org/obo/GO_0016605) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [PML body](http://purl.obolibrary.org/obo/GO_0016605) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eumetazoa](http://purl.obolibrary.org/obo/NCBITaxon_6072) 
+
+
+### RAM/MOR signaling `http://purl.obolibrary.org/obo/GO_0062200`
+#### Removed
+- [RAM/MOR signaling](http://purl.obolibrary.org/obo/GO_0062200) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [RAM/MOR signaling](http://purl.obolibrary.org/obo/GO_0062200) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+
+
 ### RNA-directed RNA polymerase activity `http://purl.obolibrary.org/obo/GO_0003968`
 #### Removed
 - [RNA-directed RNA polymerase activity](http://purl.obolibrary.org/obo/GO_0003968) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944255" 
@@ -8093,6 +8275,74 @@
 - [SUMO transferase activity](http://purl.obolibrary.org/obo/GO_0019789) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9940458" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GATAD2B is SUMOylated" 
 
+
+
+### Sertoli cell proliferation `http://purl.obolibrary.org/obo/GO_0060011`
+#### Removed
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [Sertoli cell proliferation](http://purl.obolibrary.org/obo/GO_0060011) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### T cell anergy `http://purl.obolibrary.org/obo/GO_0002870`
+#### Removed
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [T cell anergy](http://purl.obolibrary.org/obo/GO_0002870) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### T cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002517`
+#### Removed
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002517) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### T-helper 1 cell differentiation `http://purl.obolibrary.org/obo/GO_0045063`
@@ -8163,6 +8413,26 @@
 #### Added
 - [UDP-N-acetylglucosamine 2-epimerase activity](http://purl.obolibrary.org/obo/GO_0008761) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-4085021" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GNE hydrolyzes/epimerises UDP-GlcNAc to ManNAc and UDP" 
+
+
+### V(D)J recombination `http://purl.obolibrary.org/obo/GO_0033151`
+#### Removed
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033151) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### acetaminophen O-beta-D-glucosiduronate `http://purl.obolibrary.org/obo/CHEBI_132962`
@@ -9162,6 +9432,30 @@
 - [alpha-Neup5Ac-(2->3)-beta-D-Galp-(1->4)-[alpha-L-Fucp-(1->3)]-D-GlcpNAc](http://purl.obolibrary.org/obo/CHEBI_61711) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [epitope](http://purl.obolibrary.org/obo/CHEBI_53000) 
 
 
+### alternate splicing of immunoglobulin genes `http://purl.obolibrary.org/obo/GO_0002564`
+#### Removed
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [alternate splicing of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002564) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### amino heptasaccharide `http://purl.obolibrary.org/obo/CHEBI_70970`
 
 #### Added
@@ -9227,6 +9521,30 @@
 - [ammon gyrus development](http://purl.obolibrary.org/obo/GO_0021541) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### amphibian larval development `http://purl.obolibrary.org/obo/GO_0002117`
+#### Removed
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [amphibian larval development](http://purl.obolibrary.org/obo/GO_0002117) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### amygdala development `http://purl.obolibrary.org/obo/GO_0021764`
 #### Removed
 - [amygdala development](http://purl.obolibrary.org/obo/GO_0021764) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -9257,12 +9575,12 @@
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [developmental process](http://purl.obolibrary.org/obo/GO_0032502) 
 
 #### Added
-- [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
-
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A developmental process whose specific outcome is the progression of a gross anatomical part of an animal over time from an initial condition to a later condition." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
 
 - [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+- [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### animal organ development `http://purl.obolibrary.org/obo/GO_0048513`
@@ -9271,6 +9589,24 @@
 
 #### Added
 - [animal organ development](http://purl.obolibrary.org/obo/GO_0048513) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [animal organ development](http://purl.obolibrary.org/obo/GO_0048513) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### animal organ maturation `http://purl.obolibrary.org/obo/GO_0048799`
+#### Removed
+- [animal organ maturation](http://purl.obolibrary.org/obo/GO_0048799) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [animal organ maturation](http://purl.obolibrary.org/obo/GO_0048799) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### animal organ regeneration `http://purl.obolibrary.org/obo/GO_0031100`
+#### Removed
+- [animal organ regeneration](http://purl.obolibrary.org/obo/GO_0031100) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [animal organ regeneration](http://purl.obolibrary.org/obo/GO_0031100) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### antennal joint development `http://purl.obolibrary.org/obo/GO_0048098`
@@ -9319,6 +9655,14 @@
 
 #### Added
 - [anther wall tapetum development](http://purl.obolibrary.org/obo/GO_0048658) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### apicoplast `http://purl.obolibrary.org/obo/GO_0020011`
+#### Removed
+- [apicoplast](http://purl.obolibrary.org/obo/GO_0020011) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Apicomplexa](http://purl.obolibrary.org/obo/NCBITaxon_5794) 
+
+- [apicoplast](http://purl.obolibrary.org/obo/GO_0020011) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Apicomplexa](http://purl.obolibrary.org/obo/NCBITaxon_5794) 
+
 
 
 ### appendage development `http://purl.obolibrary.org/obo/GO_0048736`
@@ -10367,6 +10711,34 @@
 - [biological_process](http://purl.obolibrary.org/obo/GO_0008150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." 
 
 
+### biomineral tissue development `http://purl.obolibrary.org/obo/GO_0031214`
+#### Removed
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [biomineral tissue development](http://purl.obolibrary.org/obo/GO_0031214) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### blastocyst development `http://purl.obolibrary.org/obo/GO_0001824`
 #### Removed
 - [blastocyst development](http://purl.obolibrary.org/obo/GO_0001824) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -10437,6 +10809,26 @@
 - [calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) 
 
 
+### callus formation `http://purl.obolibrary.org/obo/GO_1990110`
+#### Removed
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [callus formation](http://purl.obolibrary.org/obo/GO_1990110) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### carbohydrate allergen `http://purl.obolibrary.org/obo/CHEBI_143231`
 
 #### Added
@@ -10477,6 +10869,18 @@
 
 #### Added
 - [cardiac jelly development](http://purl.obolibrary.org/obo/GO_1905072) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cardiac muscle tissue regeneration `http://purl.obolibrary.org/obo/GO_0061026`
+#### Removed
+- [cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_0061026) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_0061026) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_0061026) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_0061026) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### cardiac septum development `http://purl.obolibrary.org/obo/GO_0003279`
@@ -10542,6 +10946,74 @@
 - [cellular_component](http://purl.obolibrary.org/obo/GO_0005575) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)." 
 
 
+### central B cell receptor editing `http://purl.obolibrary.org/obo/GO_0002511`
+#### Removed
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [central B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002511) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### central B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002510`
+#### Removed
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002510) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### central T cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002512`
+#### Removed
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [central T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002512) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### central canal development `http://purl.obolibrary.org/obo/GO_0061524`
 #### Removed
 - [central canal development](http://purl.obolibrary.org/obo/GO_0061524) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -10562,6 +11034,54 @@
 
 #### Added
 - [central nervous system development](http://purl.obolibrary.org/obo/GO_0007417) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### central tolerance induction `http://purl.obolibrary.org/obo/GO_0002508`
+#### Removed
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [central tolerance induction](http://purl.obolibrary.org/obo/GO_0002508) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### central tolerance induction to self antigen `http://purl.obolibrary.org/obo/GO_0002509`
+#### Removed
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [central tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002509) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### cerebellar Purkinje cell layer development `http://purl.obolibrary.org/obo/GO_0021680`
@@ -10630,6 +11150,18 @@
 - [chitin-based cuticle sclerotization by biomineralization](http://purl.obolibrary.org/obo/GO_0036340) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### chloroplast `http://purl.obolibrary.org/obo/GO_0009507`
+#### Removed
+- [chloroplast](http://purl.obolibrary.org/obo/GO_0009507) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009) 
+
+- [chloroplast](http://purl.obolibrary.org/obo/GO_0009507) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [chloroplast](http://purl.obolibrary.org/obo/GO_0009507) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [chloroplast](http://purl.obolibrary.org/obo/GO_0009507) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915) 
+
+
+
 ### choline transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015220`
 #### Removed
 - [choline transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015220) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797956" 
@@ -10638,6 +11170,14 @@
 #### Added
 - [choline transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015220) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-6797956" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "SLC44A1 transports Cho from cytosol to mitochondrial matrix" 
+
+
+### chromosomal 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway `http://purl.obolibrary.org/obo/GO_0141169`
+#### Removed
+- [chromosomal 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway](http://purl.obolibrary.org/obo/GO_0141169) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [chromosomal 5-methylcytosine DNA demethylation, direct 5-methylcytosine excision pathway](http://purl.obolibrary.org/obo/GO_0141169) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
 
 
 ### ciliary targeting signal binding `http://purl.obolibrary.org/obo/GO_1990473`
@@ -10789,6 +11329,14 @@
 
 #### Added
 - [collagen and cuticulin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040002) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### collagen trimer `http://purl.obolibrary.org/obo/GO_0005581`
+#### Removed
+- [collagen trimer](http://purl.obolibrary.org/obo/GO_0005581) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [collagen trimer](http://purl.obolibrary.org/obo/GO_0005581) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
 
 
 ### collecting duct development `http://purl.obolibrary.org/obo/GO_0072044`
@@ -11083,6 +11631,14 @@
 - [deuterated compound](http://purl.obolibrary.org/obo/CHEBI_76107) SubClassOf [isotopically modified compound](http://purl.obolibrary.org/obo/CHEBI_139358) 
 
 
+### development of animal secondary sexual characteristics `http://purl.obolibrary.org/obo/GO_0045136`
+#### Removed
+- [development of animal secondary sexual characteristics](http://purl.obolibrary.org/obo/GO_0045136) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [development of animal secondary sexual characteristics](http://purl.obolibrary.org/obo/GO_0045136) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+
 ### di-mu-sulfido-diiron(0) `http://purl.obolibrary.org/obo/CHEBI_33739`
 
 #### Added
@@ -11118,9 +11674,29 @@
 
 
 ### digestive system development `http://purl.obolibrary.org/obo/GO_0055123`
+#### Removed
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 #### Added
 - [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [digestive system development](http://purl.obolibrary.org/obo/GO_0055123) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### digestive tract development `http://purl.obolibrary.org/obo/GO_0048565`
@@ -11219,6 +11795,22 @@
 - [dimethylselenide](http://purl.obolibrary.org/obo/CHEBI_4610) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [plant metabolite](http://purl.obolibrary.org/obo/CHEBI_76924) 
 
 - [dimethylselenide](http://purl.obolibrary.org/obo/CHEBI_4610) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [bacterial xenobiotic metabolite](http://purl.obolibrary.org/obo/CHEBI_76976) 
+
+
+### diphthine methyl ester synthase activity `http://purl.obolibrary.org/obo/GO_0141133`
+#### Removed
+- [diphthine methyl ester synthase activity](http://purl.obolibrary.org/obo/GO_0141133) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [diphthine methyl ester synthase activity](http://purl.obolibrary.org/obo/GO_0141133) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
+
+### diphthine synthase activity `http://purl.obolibrary.org/obo/GO_0004164`
+#### Removed
+- [diphthine synthase activity](http://purl.obolibrary.org/obo/GO_0004164) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [diphthine synthase activity](http://purl.obolibrary.org/obo/GO_0004164) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
 
 
 ### dipyrrole `http://purl.obolibrary.org/obo/CHEBI_36316`
@@ -11327,6 +11919,24 @@
 - [dorsal spinal cord development](http://purl.obolibrary.org/obo/GO_0021516) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### dosage compensation by inactivation of X chromosome `http://purl.obolibrary.org/obo/GO_0009048`
+#### Removed
+- [dosage compensation by inactivation of X chromosome](http://purl.obolibrary.org/obo/GO_0009048) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Amniota](http://purl.obolibrary.org/obo/NCBITaxon_32524) 
+
+- [dosage compensation by inactivation of X chromosome](http://purl.obolibrary.org/obo/GO_0009048) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Amniota](http://purl.obolibrary.org/obo/NCBITaxon_32524) 
+
+
+
+### double fertilization forming two zygotes `http://purl.obolibrary.org/obo/GO_0009677`
+#### Removed
+- [double fertilization forming two zygotes](http://purl.obolibrary.org/obo/GO_0009677) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [double fertilization forming two zygotes](http://purl.obolibrary.org/obo/GO_0009677) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [NCBITaxon_58022](http://purl.obolibrary.org/obo/NCBITaxon_58022) 
+
+#### Added
+- [double fertilization forming two zygotes](http://purl.obolibrary.org/obo/GO_0009677) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Gnetopsida](http://purl.obolibrary.org/obo/NCBITaxon_3372) 
+
+
 ### doxorubicinol `http://purl.obolibrary.org/obo/CHEBI_133817`
 
 #### Added
@@ -11383,6 +11993,28 @@
 - [ecgonine benzoate](http://purl.obolibrary.org/obo/CHEBI_41001) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [ecgonine](http://purl.obolibrary.org/obo/CHEBI_4743) 
 
 
+### echolocation `http://purl.obolibrary.org/obo/GO_0050959`
+#### Removed
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) [present in taxon](http://purl.obolibrary.org/obo/RO_0002175) [Typhlomys](http://purl.obolibrary.org/obo/NCBITaxon_687454) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) [present in taxon](http://purl.obolibrary.org/obo/RO_0002175) [Chiroptera](http://purl.obolibrary.org/obo/NCBITaxon_9397) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) [present in taxon](http://purl.obolibrary.org/obo/RO_0002175) [Odontoceti](http://purl.obolibrary.org/obo/NCBITaxon_9722) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Mus musculus](http://purl.obolibrary.org/obo/NCBITaxon_10090) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Primates](http://purl.obolibrary.org/obo/NCBITaxon_9443) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Amniota](http://purl.obolibrary.org/obo/NCBITaxon_32524) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Amniota](http://purl.obolibrary.org/obo/NCBITaxon_32524) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Mus musculus](http://purl.obolibrary.org/obo/NCBITaxon_10090))) 
+
+- [echolocation](http://purl.obolibrary.org/obo/GO_0050959) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Primates](http://purl.obolibrary.org/obo/NCBITaxon_9443))) 
+
+
+
 ### ectoderm development `http://purl.obolibrary.org/obo/GO_0007398`
 
 #### Added
@@ -11403,12 +12035,116 @@
 - [embryo development ending in seed dormancy](http://purl.obolibrary.org/obo/GO_0009793) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
+### embryonic brain development `http://purl.obolibrary.org/obo/GO_1990403`
+#### Removed
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [embryonic brain development](http://purl.obolibrary.org/obo/GO_1990403) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### embryonic heart tube elongation `http://purl.obolibrary.org/obo/GO_0036306`
 #### Removed
 - [embryonic heart tube elongation](http://purl.obolibrary.org/obo/GO_0036306) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [embryonic heart tube elongation](http://purl.obolibrary.org/obo/GO_0036306) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### embryonic liver development `http://purl.obolibrary.org/obo/GO_1990402`
+#### Removed
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [embryonic liver development](http://purl.obolibrary.org/obo/GO_1990402) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### embryonic lung development `http://purl.obolibrary.org/obo/GO_1990401`
+#### Removed
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [embryonic lung development](http://purl.obolibrary.org/obo/GO_1990401) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### embryonic organ development `http://purl.obolibrary.org/obo/GO_0048568`
+#### Removed
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [embryonic organ development](http://purl.obolibrary.org/obo/GO_0048568) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### embryonic sheath `http://purl.obolibrary.org/obo/GO_0140400`
+#### Removed
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Nematoda](http://purl.obolibrary.org/obo/NCBITaxon_6231) 
+
+- [embryonic sheath](http://purl.obolibrary.org/obo/GO_0140400) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Nematoda](http://purl.obolibrary.org/obo/NCBITaxon_6231) 
+
 
 
 ### endocardium development `http://purl.obolibrary.org/obo/GO_0003157`
@@ -11646,9 +12382,37 @@
 
 
 ### epidermis development `http://purl.obolibrary.org/obo/GO_0008544`
+#### Removed
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 #### Added
 - [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [epidermis development](http://purl.obolibrary.org/obo/GO_0008544) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### epididymis development `http://purl.obolibrary.org/obo/GO_1905867`
@@ -11835,6 +12599,30 @@
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is represented by isopentenyl diphosphate biosynthetic process, mevalonate pathway ; GO:0019287 or trans, trans-farnesyl diphosphate biosynthetic process ; GO:0045337." 
 
 - [farnesyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_0010142) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete farnesyl diphosphate biosynthetic process, mevalonate pathway" 
+
+
+### female genitalia development `http://purl.obolibrary.org/obo/GO_0030540`
+#### Removed
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [female genitalia development](http://purl.obolibrary.org/obo/GO_0030540) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### ferricytochrome `http://purl.obolibrary.org/obo/CHEBI_15719`
@@ -12083,6 +12871,58 @@
 - [ganglion development](http://purl.obolibrary.org/obo/GO_0061548) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### gene conversion of immunoglobulin genes `http://purl.obolibrary.org/obo/GO_0002206`
+#### Removed
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [gene conversion of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0002206) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### gene silencing by siRNA-directed DNA methylation `http://purl.obolibrary.org/obo/GO_0080188`
+#### Removed
+- [gene silencing by siRNA-directed DNA methylation](http://purl.obolibrary.org/obo/GO_0080188) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [gene silencing by siRNA-directed DNA methylation](http://purl.obolibrary.org/obo/GO_0080188) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+
+
+### genitalia development `http://purl.obolibrary.org/obo/GO_0048806`
+#### Removed
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [genitalia development](http://purl.obolibrary.org/obo/GO_0048806) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### geranylgeranyl-chlorophyll a `http://purl.obolibrary.org/obo/CHEBI_64668`
 #### Removed
 - Class: [geranylgeranyl-chlorophyll a](http://purl.obolibrary.org/obo/CHEBI_64668) 
@@ -12149,6 +12989,14 @@
 - [glycal derivative](http://purl.obolibrary.org/obo/CHEBI_63380) SubClassOf [anhydro sugar derivative](http://purl.obolibrary.org/obo/CHEBI_63378) 
 
 - [glycal derivative](http://purl.obolibrary.org/obo/CHEBI_63380) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [glycal](http://purl.obolibrary.org/obo/CHEBI_63140) 
+
+
+### glycerol-3-phosphate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0141153`
+#### Removed
+- [glycerol-3-phosphate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0141153) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Prokaryota](http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004) 
+
+- [glycerol-3-phosphate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0141153) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Prokaryota](http://purl.obolibrary.org/obo/NCBITaxon_Union_0000004) 
+
 
 
 ### glycerophospholipid phospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0008970`
@@ -12250,6 +13098,42 @@
 - [glycosylxylose](http://purl.obolibrary.org/obo/CHEBI_35380) SubClassOf [disaccharide](http://purl.obolibrary.org/obo/CHEBI_36233) 
 
 
+### glyoxylate cycle `http://purl.obolibrary.org/obo/GO_0006097`
+#### Removed
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511) 
+
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656) 
+
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Deuterostomia](http://purl.obolibrary.org/obo/NCBITaxon_33511))) 
+
+- [glyoxylate cycle](http://purl.obolibrary.org/obo/GO_0006097) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Arthropoda](http://purl.obolibrary.org/obo/NCBITaxon_6656))) 
+
+
+
+### gonad development `http://purl.obolibrary.org/obo/GO_0008406`
+#### Removed
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [gonad development](http://purl.obolibrary.org/obo/GO_0008406) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### guanyl-nucleotide exchange factor activity `http://purl.obolibrary.org/obo/GO_0005085`
 #### Removed
 - [guanyl-nucleotide exchange factor activity](http://purl.obolibrary.org/obo/GO_0005085) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9970163" 
@@ -12319,6 +13203,50 @@
 - [heart valve development](http://purl.obolibrary.org/obo/GO_0003170) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### hematopoietic or lymphoid organ development `http://purl.obolibrary.org/obo/GO_0048534`
+#### Removed
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [hematopoietic or lymphoid organ development](http://purl.obolibrary.org/obo/GO_0048534) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### hemolymph coagulation `http://purl.obolibrary.org/obo/GO_0042381`
+#### Removed
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [hemolymph coagulation](http://purl.obolibrary.org/obo/GO_0042381) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### hepaticobiliary system development `http://purl.obolibrary.org/obo/GO_0061008`
 
 #### Added
@@ -12376,6 +13304,14 @@
 
 
 
+### histone H2AT120 kinase activity `http://purl.obolibrary.org/obo/GO_1990244`
+#### Removed
+- [histone H2AT120 kinase activity](http://purl.obolibrary.org/obo/GO_1990244) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [histone H2AT120 kinase activity](http://purl.obolibrary.org/obo/GO_1990244) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751))) 
+
+
+
 ### histone deacetylase activity `http://purl.obolibrary.org/obo/GO_0004407`
 #### Removed
 - [histone deacetylase activity](http://purl.obolibrary.org/obo/GO_0004407) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9944092" 
@@ -12386,10 +13322,16 @@
 
 
 
-### host-mediated suppression of symbiont invasion `http://purl.obolibrary.org/obo/GO_0046597`
+### hopanoid biosynthetic process `http://purl.obolibrary.org/obo/GO_0019746`
+#### Removed
+- [hopanoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0019746) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
 
-#### Added
-- [host-mediated suppression of symbiont invasion](http://purl.obolibrary.org/obo/GO_0046597) SubClassOf [innate immune response](http://purl.obolibrary.org/obo/GO_0045087) 
+- [hopanoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0019746) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [hopanoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0019746) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2))) 
+
+- [hopanoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0019746) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
 
 
 ### hydrazide `http://purl.obolibrary.org/obo/CHEBI_35362`
@@ -12529,9 +13471,89 @@
 
 
 ### immune system development `http://purl.obolibrary.org/obo/GO_0002520`
+#### Removed
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 #### Added
 - [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [immune system development](http://purl.obolibrary.org/obo/GO_0002520) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### immunoglobulin V(D)J recombination `http://purl.obolibrary.org/obo/GO_0033152`
+#### Removed
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [immunoglobulin V(D)J recombination](http://purl.obolibrary.org/obo/GO_0033152) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### immunoglobulin heavy chain V-D-J recombination `http://purl.obolibrary.org/obo/GO_0071707`
+#### Removed
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [immunoglobulin heavy chain V-D-J recombination](http://purl.obolibrary.org/obo/GO_0071707) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### immunoglobulin light chain V-J recombination `http://purl.obolibrary.org/obo/GO_0071708`
+#### Removed
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [immunoglobulin light chain V-J recombination](http://purl.obolibrary.org/obo/GO_0071708) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### indole-5,6-quinone-2-carboxylate `http://purl.obolibrary.org/obo/CHEBI_177869`
@@ -12835,9 +13857,29 @@
 
 
 ### larval development `http://purl.obolibrary.org/obo/GO_0002164`
+#### Removed
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 #### Added
 - [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [larval development](http://purl.obolibrary.org/obo/GO_0002164) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### lateral line development `http://purl.obolibrary.org/obo/GO_0048882`
@@ -13018,6 +14060,30 @@
 - [lymph vessel development](http://purl.obolibrary.org/obo/GO_0001945) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### lymphocyte anergy `http://purl.obolibrary.org/obo/GO_0002249`
+#### Removed
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002249) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### macrolide 2'-kinase activity `http://purl.obolibrary.org/obo/GO_0050073`
 #### Removed
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [18333](http://rdf.rhea-db.org/18333) 
@@ -13044,6 +14110,86 @@
 
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + a macrolide = ADP + 2 H+ + a macrolide-2'-O-phosphate. Substrates include oleandomycin, erythromycin, spiramycin and other macrolide antibiotics." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
+
+
+### macrophage tolerance induction `http://purl.obolibrary.org/obo/GO_0010931`
+#### Removed
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010931) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### maintenance of animal organ identity `http://purl.obolibrary.org/obo/GO_0048496`
+#### Removed
+- [maintenance of animal organ identity](http://purl.obolibrary.org/obo/GO_0048496) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [maintenance of animal organ identity](http://purl.obolibrary.org/obo/GO_0048496) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### male genitalia development `http://purl.obolibrary.org/obo/GO_0030539`
+#### Removed
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [male genitalia development](http://purl.obolibrary.org/obo/GO_0030539) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### male gonad development `http://purl.obolibrary.org/obo/GO_0008584`
+#### Removed
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [male gonad development](http://purl.obolibrary.org/obo/GO_0008584) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### mammary gland alveolus development `http://purl.obolibrary.org/obo/GO_0060749`
@@ -13102,6 +14248,14 @@
 - [mammillothalamic axonal tract development](http://purl.obolibrary.org/obo/GO_0061374) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### mannitol 2-dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0050085`
+#### Removed
+- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [mannitol 2-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0050085) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
+
+
 ### material anatomical entity `http://purl.obolibrary.org/obo/UBERON_0000465`
 
 #### Added
@@ -13144,6 +14298,18 @@
 
 #### Added
 - [medullary reticular formation development](http://purl.obolibrary.org/obo/GO_0021723) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### melanosome `http://purl.obolibrary.org/obo/GO_0042470`
+#### Removed
+- [melanosome](http://purl.obolibrary.org/obo/GO_0042470) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Caenorhabditis](http://purl.obolibrary.org/obo/NCBITaxon_6237) 
+
+- [melanosome](http://purl.obolibrary.org/obo/GO_0042470) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Caenorhabditis](http://purl.obolibrary.org/obo/NCBITaxon_6237) 
+
+- [melanosome](http://purl.obolibrary.org/obo/GO_0042470) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Caenorhabditis](http://purl.obolibrary.org/obo/NCBITaxon_6237)) 
+
+- [melanosome](http://purl.obolibrary.org/obo/GO_0042470) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Caenorhabditis](http://purl.obolibrary.org/obo/NCBITaxon_6237))) 
+
 
 
 ### membrane protein proteolysis involved in retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904211`
@@ -13245,9 +14411,29 @@
 
 
 ### metamorphosis `http://purl.obolibrary.org/obo/GO_0007552`
+#### Removed
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 #### Added
 - [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [metamorphosis](http://purl.obolibrary.org/obo/GO_0007552) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### metanephric part of ureteric bud development `http://purl.obolibrary.org/obo/GO_0035502`
@@ -13404,6 +14590,14 @@
 
 #### Added
 - [midbrain-hindbrain boundary development](http://purl.obolibrary.org/obo/GO_0030917) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### migrasome `http://purl.obolibrary.org/obo/GO_0140494`
+#### Removed
+- [migrasome](http://purl.obolibrary.org/obo/GO_0140494) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [migrasome](http://purl.obolibrary.org/obo/GO_0140494) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
 
 
 ### mitochondrial signal sequence receptor activity `http://purl.obolibrary.org/obo/GO_0140436`
@@ -13673,12 +14867,84 @@
 
 
 
+### natural killer cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002519`
+#### Removed
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002519) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### nectary development `http://purl.obolibrary.org/obo/GO_0010254`
 #### Removed
 - [nectary development](http://purl.obolibrary.org/obo/GO_0010254) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [nectary development](http://purl.obolibrary.org/obo/GO_0010254) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### negative regulation of B cell anergy `http://purl.obolibrary.org/obo/GO_0002671`
+#### Removed
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002671) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002662`
+#### Removed
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002662) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### negative regulation of PKR/eIFalpha signaling `http://purl.obolibrary.org/obo/GO_7770077`
@@ -13722,6 +14988,198 @@
 - [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) SubClassOf [negative regulation of intracellular signal transduction](http://purl.obolibrary.org/obo/GO_1902532) 
 
 - [negative regulation of PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_7770077) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [PKR/eIFalpha signaling](http://purl.obolibrary.org/obo/GO_0039585) 
+
+
+### negative regulation of T cell anergy `http://purl.obolibrary.org/obo/GO_0002668`
+#### Removed
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002668) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of T cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002665`
+#### Removed
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002665) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of biomineral tissue development `http://purl.obolibrary.org/obo/GO_0070168`
+#### Removed
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [negative regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070168) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of cardiac muscle tissue regeneration `http://purl.obolibrary.org/obo/GO_1905179`
+#### Removed
+- [negative regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905179) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [negative regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905179) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [negative regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905179) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905179) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of central B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002896`
+#### Removed
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002896) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of central tolerance induction `http://purl.obolibrary.org/obo/GO_0002647`
+#### Removed
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002647) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of epidermis development `http://purl.obolibrary.org/obo/GO_0045683`
+#### Removed
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [negative regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045683) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of gonad development `http://purl.obolibrary.org/obo/GO_1905940`
+#### Removed
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905940) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### negative regulation of indoleacetic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_1901997`
@@ -13940,6 +15398,54 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Anti-inflammatory response favouring Leishmania parasite infection" 
 
 
+### negative regulation of lymphocyte anergy `http://purl.obolibrary.org/obo/GO_0002912`
+#### Removed
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002912) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of male gonad development `http://purl.obolibrary.org/obo/GO_2000019`
+#### Removed
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000019) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### negative regulation of phosphatidylinositol biosynthetic process `http://purl.obolibrary.org/obo/GO_0010512`
 #### Removed
 - [negative regulation of phosphatidylinositol biosynthetic process](http://purl.obolibrary.org/obo/GO_0010512) SubClassOf [negative regulation of biosynthetic process](http://purl.obolibrary.org/obo/GO_0009890) 
@@ -13948,6 +15454,18 @@
 
 #### Added
 - [negative regulation of phosphatidylinositol biosynthetic process](http://purl.obolibrary.org/obo/GO_0010512) SubClassOf [negative regulation of phospholipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0071072) 
+
+
+### negative regulation of plasma membrane repair `http://purl.obolibrary.org/obo/GO_1905685`
+#### Removed
+- [negative regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905685) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [negative regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905685) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [negative regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905685) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905685) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### negative regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070862`
@@ -14113,12 +15631,100 @@
 - [negative regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904153) SubClassOf [negative regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051224) 
 
 
+### negative regulation of shell calcification `http://purl.obolibrary.org/obo/GO_1905649`
+#### Removed
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [negative regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905649) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### negative regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903389`
 #### Removed
 - [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901880) 
 
 #### Added
 - [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043242) 
+
+
+### negative regulation of tolerance induction `http://purl.obolibrary.org/obo/GO_0002644`
+#### Removed
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002644) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of tolerance induction to self antigen `http://purl.obolibrary.org/obo/GO_0002650`
+#### Removed
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002650) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### negative regulation of wound healing `http://purl.obolibrary.org/obo/GO_0061045`
+#### Removed
+- [negative regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061045) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [negative regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061045) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [negative regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061045) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [negative regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061045) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### nephron development `http://purl.obolibrary.org/obo/GO_0072006`
@@ -14831,6 +16437,14 @@
 - [pallium development](http://purl.obolibrary.org/obo/GO_0021543) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### pancreas regeneration `http://purl.obolibrary.org/obo/GO_1990798`
+#### Removed
+- [pancreas regeneration](http://purl.obolibrary.org/obo/GO_1990798) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [pancreas regeneration](http://purl.obolibrary.org/obo/GO_1990798) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### paracetamol sulfate `http://purl.obolibrary.org/obo/CHEBI_32635`
 
 #### Added
@@ -14899,10 +16513,38 @@
 - [perfluorinated compound](http://purl.obolibrary.org/obo/CHEBI_134091) SubClassOf [organofluorine compound](http://purl.obolibrary.org/obo/CHEBI_37143) 
 
 
+### peripheral B cell receptor editing `http://purl.obolibrary.org/obo/GO_0002345`
+#### Removed
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [peripheral B cell receptor editing](http://purl.obolibrary.org/obo/GO_0002345) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### peripheral nervous system development `http://purl.obolibrary.org/obo/GO_0007422`
 
 #### Added
 - [peripheral nervous system development](http://purl.obolibrary.org/obo/GO_0007422) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### periplasmic space `http://purl.obolibrary.org/obo/GO_0042597`
+#### Removed
+- [periplasmic space](http://purl.obolibrary.org/obo/GO_0042597) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Fungi or Bacteria or Archaea](http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023) 
+
+- [periplasmic space](http://purl.obolibrary.org/obo/GO_0042597) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Fungi or Bacteria or Archaea](http://purl.obolibrary.org/obo/NCBITaxon_Union_0000023) 
+
 
 
 ### peroxisome matrix targeting signal-1 binding `http://purl.obolibrary.org/obo/GO_0005052`
@@ -15331,6 +16973,14 @@
 
 
 
+### phytoene biosynthetic process `http://purl.obolibrary.org/obo/GO_1901174`
+#### Removed
+- [phytoene biosynthetic process](http://purl.obolibrary.org/obo/GO_1901174) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [phytoene biosynthetic process](http://purl.obolibrary.org/obo/GO_1901174) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
+
+
 ### plant anatomical entity `http://purl.obolibrary.org/obo/PO_0025131`
 
 #### Added
@@ -15390,6 +17040,78 @@
 
 
 
+### plasma membrane repair `http://purl.obolibrary.org/obo/GO_0001778`
+#### Removed
+- [plasma membrane repair](http://purl.obolibrary.org/obo/GO_0001778) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [plasma membrane repair](http://purl.obolibrary.org/obo/GO_0001778) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [plasma membrane repair](http://purl.obolibrary.org/obo/GO_0001778) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [plasma membrane repair](http://purl.obolibrary.org/obo/GO_0001778) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### plastid `http://purl.obolibrary.org/obo/GO_0009536`
+#### Removed
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009))) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751))) 
+
+- [plastid](http://purl.obolibrary.org/obo/GO_0009536) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915))) 
+
+
+
+### plastid localization `http://purl.obolibrary.org/obo/GO_0051644`
+#### Removed
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009))) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751))) 
+
+- [plastid localization](http://purl.obolibrary.org/obo/GO_0051644) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915))) 
+
+
+
+### plastid organization `http://purl.obolibrary.org/obo/GO_0009657`
+#### Removed
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Choanoflagellata](http://purl.obolibrary.org/obo/NCBITaxon_28009))) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751))) 
+
+- [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Amoebozoa](http://purl.obolibrary.org/obo/NCBITaxon_554915))) 
+
+
+
 ### polyamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006596`
 #### Removed
 - [polyamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006596) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-350562" 
@@ -15403,6 +17125,190 @@
 
 #### Added
 - [pons development](http://purl.obolibrary.org/obo/GO_0021548) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### positive regulation of B cell anergy `http://purl.obolibrary.org/obo/GO_0002672`
+#### Removed
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002672) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002663`
+#### Removed
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002663) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of T cell anergy `http://purl.obolibrary.org/obo/GO_0002669`
+#### Removed
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002669) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of T cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002666`
+#### Removed
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002666) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of biomineral tissue development `http://purl.obolibrary.org/obo/GO_0070169`
+#### Removed
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [positive regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070169) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of cardiac muscle tissue regeneration `http://purl.obolibrary.org/obo/GO_1905180`
+#### Removed
+- [positive regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905180) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [positive regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905180) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [positive regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905180) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905180) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of central B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002897`
+#### Removed
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002897) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of central tolerance induction `http://purl.obolibrary.org/obo/GO_0002648`
+#### Removed
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002648) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### positive regulation of cytogamy `http://purl.obolibrary.org/obo/GO_7770079`
@@ -15446,6 +17352,74 @@
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cytogamy](http://purl.obolibrary.org/obo/GO_0000755) 
 
 
+### positive regulation of epidermis development `http://purl.obolibrary.org/obo/GO_0045684`
+#### Removed
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [positive regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045684) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of epithelial cell proliferation involved in wound healing `http://purl.obolibrary.org/obo/GO_0060054`
+#### Removed
+- [positive regulation of epithelial cell proliferation involved in wound healing](http://purl.obolibrary.org/obo/GO_0060054) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [positive regulation of epithelial cell proliferation involved in wound healing](http://purl.obolibrary.org/obo/GO_0060054) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [positive regulation of epithelial cell proliferation involved in wound healing](http://purl.obolibrary.org/obo/GO_0060054) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of epithelial cell proliferation involved in wound healing](http://purl.obolibrary.org/obo/GO_0060054) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of gonad development `http://purl.obolibrary.org/obo/GO_1905941`
+#### Removed
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905941) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway `http://purl.obolibrary.org/obo/GO_1900486`
 #### Removed
 - [positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_1900486) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [isoprenoid metabolic process](http://purl.obolibrary.org/obo/GO_0006720) 
@@ -15453,6 +17427,78 @@
 
 #### Added
 - [positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_1900486) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### positive regulation of lymphocyte anergy `http://purl.obolibrary.org/obo/GO_0002913`
+#### Removed
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002913) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of macrophage tolerance induction `http://purl.obolibrary.org/obo/GO_0010933`
+#### Removed
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010933) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of male gonad development `http://purl.obolibrary.org/obo/GO_2000020`
+#### Removed
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000020) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### positive regulation of phosphatidylinositol biosynthetic process `http://purl.obolibrary.org/obo/GO_0010513`
@@ -15463,6 +17509,18 @@
 
 #### Added
 - [positive regulation of phosphatidylinositol biosynthetic process](http://purl.obolibrary.org/obo/GO_0010513) SubClassOf [positive regulation of phospholipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0071073) 
+
+
+### positive regulation of plasma membrane repair `http://purl.obolibrary.org/obo/GO_1905686`
+#### Removed
+- [positive regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905686) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [positive regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905686) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [positive regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905686) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905686) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### positive regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070863`
@@ -15631,12 +17689,100 @@
 - [positive regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904154) SubClassOf [positive regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051222) 
 
 
+### positive regulation of shell calcification `http://purl.obolibrary.org/obo/GO_1905650`
+#### Removed
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [positive regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905650) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### positive regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903390`
 #### Removed
 - [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901881) 
 
 #### Added
 - [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043243) 
+
+
+### positive regulation of tolerance induction `http://purl.obolibrary.org/obo/GO_0002645`
+#### Removed
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002645) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of tolerance induction to self antigen `http://purl.obolibrary.org/obo/GO_0002651`
+#### Removed
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002651) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of wound healing `http://purl.obolibrary.org/obo/GO_0090303`
+#### Removed
+- [positive regulation of wound healing](http://purl.obolibrary.org/obo/GO_0090303) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [positive regulation of wound healing](http://purl.obolibrary.org/obo/GO_0090303) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [positive regulation of wound healing](http://purl.obolibrary.org/obo/GO_0090303) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [positive regulation of wound healing](http://purl.obolibrary.org/obo/GO_0090303) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### posterior cibarial plate development `http://purl.obolibrary.org/obo/GO_0048727`
@@ -16283,6 +18429,54 @@
 - [rectal diverticulum development](http://purl.obolibrary.org/obo/GO_0039009) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### regulation of B cell anergy `http://purl.obolibrary.org/obo/GO_0002670`
+#### Removed
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of B cell anergy](http://purl.obolibrary.org/obo/GO_0002670) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002661`
+#### Removed
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002661) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### regulation of COPII vesicle uncoating `http://purl.obolibrary.org/obo/GO_0090111`
 #### Removed
 - [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
@@ -16291,10 +18485,196 @@
 - [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
 
 
-### regulation of DNA-templated transcription `http://purl.obolibrary.org/obo/GO_0006355`
+### regulation of T cell anergy `http://purl.obolibrary.org/obo/GO_0002667`
+#### Removed
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 #### Added
-- [regulation of DNA-templated transcription](http://purl.obolibrary.org/obo/GO_0006355) SubClassOf [regulation of gene expression](http://purl.obolibrary.org/obo/GO_0010468) 
+- [regulation of T cell anergy](http://purl.obolibrary.org/obo/GO_0002667) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of T cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002664`
+#### Removed
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of T cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002664) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of biomineral tissue development `http://purl.obolibrary.org/obo/GO_0070167`
+#### Removed
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [regulation of biomineral tissue development](http://purl.obolibrary.org/obo/GO_0070167) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of cardiac muscle tissue regeneration `http://purl.obolibrary.org/obo/GO_1905178`
+#### Removed
+- [regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905178) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905178) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905178) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of cardiac muscle tissue regeneration](http://purl.obolibrary.org/obo/GO_1905178) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of central B cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002895`
+#### Removed
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of central B cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002895) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of central tolerance induction `http://purl.obolibrary.org/obo/GO_0002646`
+#### Removed
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of central tolerance induction](http://purl.obolibrary.org/obo/GO_0002646) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of epidermis development `http://purl.obolibrary.org/obo/GO_0045682`
+#### Removed
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [regulation of epidermis development](http://purl.obolibrary.org/obo/GO_0045682) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of gonad development `http://purl.obolibrary.org/obo/GO_1905939`
+#### Removed
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of gonad development](http://purl.obolibrary.org/obo/GO_1905939) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway `http://purl.obolibrary.org/obo/GO_0010322`
@@ -16323,6 +18703,102 @@
 - [regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_2001210) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31933"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### regulation of lymphocyte anergy `http://purl.obolibrary.org/obo/GO_0002911`
+#### Removed
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of lymphocyte anergy](http://purl.obolibrary.org/obo/GO_0002911) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of macrophage tolerance induction `http://purl.obolibrary.org/obo/GO_0010932`
+#### Removed
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of macrophage tolerance induction](http://purl.obolibrary.org/obo/GO_0010932) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of male gonad development `http://purl.obolibrary.org/obo/GO_2000018`
+#### Removed
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of male gonad development](http://purl.obolibrary.org/obo/GO_2000018) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of natural killer cell tolerance induction `http://purl.obolibrary.org/obo/GO_0002871`
+#### Removed
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of natural killer cell tolerance induction](http://purl.obolibrary.org/obo/GO_0002871) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### regulation of phosphatidylinositol biosynthetic process `http://purl.obolibrary.org/obo/GO_0010511`
 #### Removed
 - [regulation of phosphatidylinositol biosynthetic process](http://purl.obolibrary.org/obo/GO_0010511) SubClassOf [regulation of biosynthetic process](http://purl.obolibrary.org/obo/GO_0009889) 
@@ -16341,6 +18817,18 @@
 
 #### Added
 - [regulation of phosphatidylinositol dephosphorylation](http://purl.obolibrary.org/obo/GO_0060304) SubClassOf [regulation of phospholipid metabolic process](http://purl.obolibrary.org/obo/GO_1903725) 
+
+
+### regulation of plasma membrane repair `http://purl.obolibrary.org/obo/GO_1905684`
+#### Removed
+- [regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905684) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905684) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905684) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of plasma membrane repair](http://purl.obolibrary.org/obo/GO_1905684) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070861`
@@ -16448,12 +18936,100 @@
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) SubClassOf [regulation of protein transport](http://purl.obolibrary.org/obo/GO_0051223) 
 
 
+### regulation of shell calcification `http://purl.obolibrary.org/obo/GO_1905648`
+#### Removed
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [regulation of shell calcification](http://purl.obolibrary.org/obo/GO_1905648) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903388`
 #### Removed
 - [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
 
 #### Added
 - [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
+
+
+### regulation of tolerance induction `http://purl.obolibrary.org/obo/GO_0002643`
+#### Removed
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of tolerance induction](http://purl.obolibrary.org/obo/GO_0002643) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of tolerance induction to self antigen `http://purl.obolibrary.org/obo/GO_0002649`
+#### Removed
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002649) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### regulation of wound healing `http://purl.obolibrary.org/obo/GO_0061041`
+#### Removed
+- [regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061041) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061041) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061041) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [regulation of wound healing](http://purl.obolibrary.org/obo/GO_0061041) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### release of sequestered calcium ion into postsynaptic cytosol `http://purl.obolibrary.org/obo/GO_0099586`
@@ -16928,6 +19504,14 @@
 - [retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_0030970) SubClassOf [has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829) 
 
 
+### rhabdomere `http://purl.obolibrary.org/obo/GO_0016028`
+#### Removed
+- [rhabdomere](http://purl.obolibrary.org/obo/GO_0016028) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [rhabdomere](http://purl.obolibrary.org/obo/GO_0016028) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+
+
 ### rhombomere development `http://purl.obolibrary.org/obo/GO_0021546`
 #### Removed
 - [rhombomere development](http://purl.obolibrary.org/obo/GO_0021546) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -17002,6 +19586,26 @@
 - [salicyluric acid](http://purl.obolibrary.org/obo/CHEBI_9008) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [salicylurate](http://purl.obolibrary.org/obo/CHEBI_132923) 
 
 - [salicyluric acid](http://purl.obolibrary.org/obo/CHEBI_9008) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [glycine](http://purl.obolibrary.org/obo/CHEBI_15428) 
+
+
+### scab formation `http://purl.obolibrary.org/obo/GO_0035314`
+#### Removed
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [scab formation](http://purl.obolibrary.org/obo/GO_0035314) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### seed coat development `http://purl.obolibrary.org/obo/GO_0010214`
@@ -17185,9 +19789,33 @@
 
 
 ### shell calcification `http://purl.obolibrary.org/obo/GO_0031215`
+#### Removed
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_147554)) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Alveolata](http://purl.obolibrary.org/obo/NCBITaxon_33630)) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Euglenozoa](http://purl.obolibrary.org/obo/NCBITaxon_33682)) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Glaucocystophyceae](http://purl.obolibrary.org/obo/NCBITaxon_38254)) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomycetes](http://purl.obolibrary.org/obo/NCBITaxon_4891)) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 #### Added
 - [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [shell calcification](http://purl.obolibrary.org/obo/GO_0031215) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### shoot system development `http://purl.obolibrary.org/obo/GO_0048367`
@@ -17226,6 +19854,310 @@
 
 #### Added
 - [soft palate development](http://purl.obolibrary.org/obo/GO_0060023) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### somatic diversification of DSCAM-based immune receptors `http://purl.obolibrary.org/obo/GO_0002201`
+#### Removed
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of DSCAM-based immune receptors](http://purl.obolibrary.org/obo/GO_0002201) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of FREP-based immune receptors `http://purl.obolibrary.org/obo/GO_0002567`
+#### Removed
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of FREP-based immune receptors](http://purl.obolibrary.org/obo/GO_0002567) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immune receptors `http://purl.obolibrary.org/obo/GO_0002200`
+#### Removed
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immune receptors](http://purl.obolibrary.org/obo/GO_0002200) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immune receptors by N region addition `http://purl.obolibrary.org/obo/GO_0002569`
+#### Removed
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immune receptors by N region addition](http://purl.obolibrary.org/obo/GO_0002569) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immune receptors via alternate splicing `http://purl.obolibrary.org/obo/GO_0002563`
+#### Removed
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immune receptors via alternate splicing](http://purl.obolibrary.org/obo/GO_0002563) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immune receptors via gene conversion `http://purl.obolibrary.org/obo/GO_0002565`
+#### Removed
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immune receptors via gene conversion](http://purl.obolibrary.org/obo/GO_0002565) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immune receptors via germline recombination within a single locus `http://purl.obolibrary.org/obo/GO_0002562`
+#### Removed
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immune receptors via germline recombination within a single locus](http://purl.obolibrary.org/obo/GO_0002562) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immune receptors via somatic mutation `http://purl.obolibrary.org/obo/GO_0002566`
+#### Removed
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immune receptors via somatic mutation](http://purl.obolibrary.org/obo/GO_0002566) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immunoglobulin genes by N region addition `http://purl.obolibrary.org/obo/GO_0002570`
+#### Removed
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immunoglobulin genes by N region addition](http://purl.obolibrary.org/obo/GO_0002570) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of immunoglobulins `http://purl.obolibrary.org/obo/GO_0016445`
+#### Removed
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of immunoglobulins](http://purl.obolibrary.org/obo/GO_0016445) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic diversification of variable lymphocyte receptors of jawless fish `http://purl.obolibrary.org/obo/GO_0002202`
+#### Removed
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic diversification of variable lymphocyte receptors of jawless fish](http://purl.obolibrary.org/obo/GO_0002202) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic hypermutation of immunoglobulin genes `http://purl.obolibrary.org/obo/GO_0016446`
+#### Removed
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic hypermutation of immunoglobulin genes](http://purl.obolibrary.org/obo/GO_0016446) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### somatic recombination of immunoglobulin gene segments `http://purl.obolibrary.org/obo/GO_0016447`
+#### Removed
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [somatic recombination of immunoglobulin gene segments](http://purl.obolibrary.org/obo/GO_0016447) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### sorbose reductase activity `http://purl.obolibrary.org/obo/GO_0032115`
+#### Removed
+- [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [sorbose reductase activity](http://purl.obolibrary.org/obo/GO_0032115) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896))) 
+
 
 
 ### sphingomyelin phosphodiesterase activity `http://purl.obolibrary.org/obo/GO_0004767`
@@ -17484,6 +20416,30 @@
 
 
 
+### tRNA (guanosine(34)-2'-O-ribose)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0106340`
+#### Removed
+- [tRNA (guanosine(34)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106340) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [tRNA (guanosine(34)-2'-O-ribose)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106340) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157))) 
+
+
+
+### tRNA-5-taurinomethyluridine 2-sulfurtransferase activity `http://purl.obolibrary.org/obo/GO_0061708`
+#### Removed
+- [tRNA-5-taurinomethyluridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0061708) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [tRNA-5-taurinomethyluridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0061708) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751))) 
+
+
+
+### tRNA-uridine 2-sulfurtransferase activity `http://purl.obolibrary.org/obo/GO_0103016`
+#### Removed
+- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+- [tRNA-uridine 2-sulfurtransferase activity](http://purl.obolibrary.org/obo/GO_0103016) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208))) 
+
+
+
 ### tamoxifen `http://purl.obolibrary.org/obo/CHEBI_41774`
 
 #### Added
@@ -17550,6 +20506,30 @@
 - [tamoxifen N-oxide](http://purl.obolibrary.org/obo/CHEBI_63825) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [tamoxifen](http://purl.obolibrary.org/obo/CHEBI_41774) 
 
 - [tamoxifen N-oxide](http://purl.obolibrary.org/obo/CHEBI_63825) SubClassOf [RO_0018040](http://purl.obolibrary.org/obo/RO_0018040) some [stilbene](http://purl.obolibrary.org/obo/CHEBI_26775) 
+
+
+### taurine dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0050323`
+#### Removed
+- [taurine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050323) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [taurine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050323) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+
+
+### taurine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0050322`
+#### Removed
+- [taurine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0050322) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [taurine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0050322) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+
+
+### taurine:pyruvate transaminase activity `http://purl.obolibrary.org/obo/GO_0031299`
+#### Removed
+- [taurine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0031299) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) only [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [taurine:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0031299) SubClassOf [only in taxon](http://purl.obolibrary.org/obo/RO_0002160) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
 
 
 ### telencephalon development `http://purl.obolibrary.org/obo/GO_0021537`
@@ -17658,9 +20638,97 @@
 
 
 ### tissue regeneration `http://purl.obolibrary.org/obo/GO_0042246`
+#### Removed
+- [tissue regeneration](http://purl.obolibrary.org/obo/GO_0042246) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [tissue regeneration](http://purl.obolibrary.org/obo/GO_0042246) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [tissue regeneration](http://purl.obolibrary.org/obo/GO_0042246) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 #### Added
 - [tissue regeneration](http://purl.obolibrary.org/obo/GO_0042246) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [tissue regeneration](http://purl.obolibrary.org/obo/GO_0042246) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### tolerance induction `http://purl.obolibrary.org/obo/GO_0002507`
+#### Removed
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [tolerance induction](http://purl.obolibrary.org/obo/GO_0002507) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### tolerance induction to lipopolysaccharide `http://purl.obolibrary.org/obo/GO_0072573`
+#### Removed
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [tolerance induction to lipopolysaccharide](http://purl.obolibrary.org/obo/GO_0072573) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### tolerance induction to self antigen `http://purl.obolibrary.org/obo/GO_0002513`
+#### Removed
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Saccharomyces cerevisiae](http://purl.obolibrary.org/obo/NCBITaxon_4932)) 
+
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [tolerance induction to self antigen](http://purl.obolibrary.org/obo/GO_0002513) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### toll-like receptor signaling pathway `http://purl.obolibrary.org/obo/GO_0002224`
+#### Removed
+- [toll-like receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0002224) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Drosophila <flies,genus>](http://purl.obolibrary.org/obo/NCBITaxon_7215) 
+
+- [toll-like receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0002224) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Drosophila <flies,genus>](http://purl.obolibrary.org/obo/NCBITaxon_7215))) 
+
 
 
 ### tooth eruption `http://purl.obolibrary.org/obo/GO_0044691`
@@ -18257,6 +21325,18 @@
 - [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [calcitriol](http://purl.obolibrary.org/obo/CHEBI_17823) 
 
 
+### wound healing `http://purl.obolibrary.org/obo/GO_0042060`
+#### Removed
+- [wound healing](http://purl.obolibrary.org/obo/GO_0042060) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [wound healing](http://purl.obolibrary.org/obo/GO_0042060) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [wound healing](http://purl.obolibrary.org/obo/GO_0042060) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [wound healing](http://purl.obolibrary.org/obo/GO_0042060) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
 ### xanthurenate `http://purl.obolibrary.org/obo/CHEBI_71201`
 
 #### Added
@@ -18305,4 +21385,6 @@
 
 #### Added
 - [yolk syncytial layer development](http://purl.obolibrary.org/obo/GO_0106336) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+- [yolk syncytial layer development](http://purl.obolibrary.org/obo/GO_0106336) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
