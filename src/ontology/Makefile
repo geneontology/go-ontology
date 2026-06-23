@@ -443,7 +443,7 @@ imports/go-taxon-constraint-classes.ofn: imports/taxon_constraints_seed.txt impo
 	$(ROBOT) extract -i mirror/taxslim.owl --method BOT --term-file go-taxon-constraint-taxa.tmp.txt -o go-taxon-constraint-taxmodule.tmp.owl &&\
 	$(ROBOT) merge -i go-taxon-constraint-onlyin.tmp.ofn -i go-taxon-constraint-neverin.tmp.ofn -i imports/go-taxon-groupings-edit.owl -i go-taxon-constraint-taxmodule.tmp.owl reason -r jfact --axiom-generators "SubClass" --exclude-tautologies structural unmerge -i imports/go-taxon-groupings-edit.owl unmerge -i go-taxon-constraint-taxmodule.tmp.owl query --update ../sparql/remove-leaked-taxon-axioms.ru annotate -O $(BASE)/$@ -o $@
 
-imports/go-computed-taxon-constraints.ofn: $(SRC) imports/go-taxon-constraint-classes.ofn $(SPARQLDIR)/taxon-constraints-materialization.ru ../util/materialize-taxon-constraints.dl
+imports/go-computed-taxon-constraints.owl: $(SRC) imports/go-taxon-constraint-classes.ofn $(SPARQLDIR)/taxon-constraints-materialization.ru ../util/materialize-taxon-constraints.dl
 	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru -o taxon-constraints-materialization-temp.ofn &&\
 	JAVA_OPTS=-Xmx12G relation-graph --ontology-file taxon-constraints-materialization-temp.ofn --output-file taxon-constraints-materialization-temp.nt --property 'http://purl.obolibrary.org/obo/RO_0002162' --output-subclasses true --reflexive-subclasses false &&\
 	sed 's/ /\t/' taxon-constraints-materialization-temp.nt | sed 's/ /\t/' | sed 's/ \.$$//' >taxonconstraintsrelationgraph.facts &&\
