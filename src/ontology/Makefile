@@ -78,9 +78,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
+travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
 
 # This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
@@ -408,9 +408,13 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl ../sparql/add-tax
 check_taxon_constraint_columns_%: ../taxon_constraints/%.tsv
 	awk -F'\t' '{print NF}' $< | sort -nu | wc -l | sed -e 's/[[:blank:]]//g' | grep -q "^1$$" && exit 0 || (echo "ERROR: wrong number of columns in $<. Check for spaces where tabs should be." && exit 1)
 
+# Ensure go-edit.obo keeps the internal idspaces used by onlyin:/neverin: taxon constraints.
+check_taxon_constraint_idspaces: $(SRC)
+	awk 'BEGIN { in_header=1; found["neverin"]=0; found["onlyin"]=0 } /^\[/ { in_header=0 } in_header && /^idspace:[[:space:]]+/ { if ($$2 == "neverin" && $$3 == "http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_") found["neverin"]=1; if ($$2 == "onlyin" && $$3 == "http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_") found["onlyin"]=1 } END { missing=0; if (!found["neverin"]) { print "ERROR: missing header idspace: neverin http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_"; missing=1 } if (!found["onlyin"]) { print "ERROR: missing header idspace: onlyin http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_"; missing=1 } exit missing }' $<
+
 check_all_taxon_constraints_columns: check_taxon_constraint_columns_present_in_taxon
 
-.PHONY: check_all_taxon_constraints_columns
+.PHONY: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 
 ../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
