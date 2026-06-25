@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-23/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-25/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,151 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-05-19" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-23" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-25" 
+
+
+### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
+#### Removed
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
+#### Removed
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### (2E)-enoyl-CoA hydratase activity `http://purl.obolibrary.org/obo/GO_0080023`
+
+#### Added
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84807" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84811" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84823" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84915" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84919" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86491" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86587" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86595" 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84807](http://rdf.rhea-db.org/84807) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84811](http://rdf.rhea-db.org/84811) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84823](http://rdf.rhea-db.org/84823) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84915](http://rdf.rhea-db.org/84915) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84919](http://rdf.rhea-db.org/84919) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86491](http://rdf.rhea-db.org/86491) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86587](http://rdf.rhea-db.org/86587) 
+
+- [(2E)-enoyl-CoA hydratase activity](http://purl.obolibrary.org/obo/GO_0080023) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86595](http://rdf.rhea-db.org/86595) 
+
+
+### (3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0106386`
+
+#### Added
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83123" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84307" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84383" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84387" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84795" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84803" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84815" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84831" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84867" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84871" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84875" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85335" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85339" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86171" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86175" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86179" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86183" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86187" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86191" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86195" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86199" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86203" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86207" 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83123](http://rdf.rhea-db.org/83123) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84307](http://rdf.rhea-db.org/84307) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84383](http://rdf.rhea-db.org/84383) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84387](http://rdf.rhea-db.org/84387) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84795](http://rdf.rhea-db.org/84795) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84803](http://rdf.rhea-db.org/84803) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84815](http://rdf.rhea-db.org/84815) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84831](http://rdf.rhea-db.org/84831) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84867](http://rdf.rhea-db.org/84867) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84871](http://rdf.rhea-db.org/84871) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84875](http://rdf.rhea-db.org/84875) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85335](http://rdf.rhea-db.org/85335) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85339](http://rdf.rhea-db.org/85339) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86171](http://rdf.rhea-db.org/86171) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86175](http://rdf.rhea-db.org/86175) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86179](http://rdf.rhea-db.org/86179) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86183](http://rdf.rhea-db.org/86183) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86187](http://rdf.rhea-db.org/86187) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86191](http://rdf.rhea-db.org/86191) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86195](http://rdf.rhea-db.org/86195) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86199](http://rdf.rhea-db.org/86199) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86203](http://rdf.rhea-db.org/86203) 
+
+- [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86207](http://rdf.rhea-db.org/86207) 
 
 
 ### (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0003857`
@@ -76,6 +220,66 @@
 #### Added
 - [(R)-3-amino-2-methylpropionate:pyruvate transaminase activity](http://purl.obolibrary.org/obo/GO_0047305) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-909780" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-3-aminoisobutyric acid + pyruvate =&gt; 2-methyl-3-oxopropanoate + alanine" 
+
+
+### 11-beta-hydroxysteroid dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0070524`
+
+#### Added
+- [11-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0070524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86411" 
+
+- [11-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0070524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86451" 
+
+- [11-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0070524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86411](http://rdf.rhea-db.org/86411) 
+
+- [11-beta-hydroxysteroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0070524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86451](http://rdf.rhea-db.org/86451) 
+
+
+### 2-acylglycerophosphocholine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047190`
+
+#### Added
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86879" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86891" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86895" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86879](http://rdf.rhea-db.org/86879) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86891](http://rdf.rhea-db.org/86891) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86895](http://rdf.rhea-db.org/86895) 
+
+
+### 3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0140169`
+
+#### Added
+- [3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0140169) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84203" 
+
+- [3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0140169) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84203](http://rdf.rhea-db.org/84203) 
+
+
+### 3-hydroxyacyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0018812`
+
+#### Added
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84655" 
+
+- [3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0018812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84655](http://rdf.rhea-db.org/84655) 
+
+
+### 4-phosphoerythronate phosphatase activity `http://purl.obolibrary.org/obo/GO_0140401`
+#### Removed
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-phospho-D-erythronate + H2O = D-erythronate + phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27294321" 
+
+#### Added
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86555" 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86555](http://rdf.rhea-db.org/86555) 
+
+- [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-phospho-D-erythronate + H2O = D-erythronate + phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27294321" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86555" 
 
 
 ### 5'-nucleotidase activity `http://purl.obolibrary.org/obo/GO_0008253`
@@ -168,6 +372,30 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "UTP + glutamine + ATP + H2O =&gt; CTP + glutamate + ADP + orthophosphate [CTPS]" 
 
 
+### D-alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030632`
+#### Removed
+- [D-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0030632) SubClassOf [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) 
+
+#### Added
+- [D-alanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0030632) SubClassOf [non-proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170043) 
+
+
+### D-amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0019478`
+#### Removed
+- [D-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0019478) SubClassOf [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) 
+
+
+
+### D-serine biosynthetic process `http://purl.obolibrary.org/obo/GO_0070179`
+#### Removed
+- [D-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070179) SubClassOf [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) 
+
+#### Added
+- [D-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070179) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+- [D-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0070179) SubClassOf [non-proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170043) 
+
+
 ### DNA ligase activity `http://purl.obolibrary.org/obo/GO_0003909`
 #### Removed
 - [DNA ligase activity](http://purl.obolibrary.org/obo/GO_0003909) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5686663" 
@@ -201,6 +429,12 @@
 - [FAR/SIP/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "FAR/SIN/STRIPAK complex" 
 
 - [FAR/SIP/STRIPAK complex](http://purl.obolibrary.org/obo/GO_0090443) [label](http://www.w3.org/2000/01/rdf-schema#label) "FAR/SIP/STRIPAK complex" 
+
+
+### GABA shunt `http://purl.obolibrary.org/obo/GO_0006540`
+#### Removed
+- [GABA shunt](http://purl.obolibrary.org/obo/GO_0006540) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
 
 
 ### GDP-fucose transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005457`
@@ -257,6 +491,14 @@
 
 
 
+### L-alanine catabolic process `http://purl.obolibrary.org/obo/GO_0042853`
+#### Removed
+- [L-alanine catabolic process](http://purl.obolibrary.org/obo/GO_0042853) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-alanine catabolic process](http://purl.obolibrary.org/obo/GO_0042853) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
 ### L-arabinose catabolic process `http://purl.obolibrary.org/obo/GO_0019572`
 #### Removed
 - [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ARABCAT-PWY" 
@@ -268,6 +510,166 @@
 - [L-arabinose catabolic process](http://purl.obolibrary.org/obo/GO_0019572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [ARABCAT-PWY](http://identifiers.org/metacyc.reaction/ARABCAT-PWY) 
 
 
+### L-arginine catabolic process `http://purl.obolibrary.org/obo/GO_0006527`
+#### Removed
+- [L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_0006527) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-arginine catabolic process](http://purl.obolibrary.org/obo/GO_0006527) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-asparagine catabolic process `http://purl.obolibrary.org/obo/GO_0006530`
+#### Removed
+- [L-asparagine catabolic process](http://purl.obolibrary.org/obo/GO_0006530) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-asparagine catabolic process](http://purl.obolibrary.org/obo/GO_0006530) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-aspartate catabolic process `http://purl.obolibrary.org/obo/GO_0006533`
+#### Removed
+- [L-aspartate catabolic process](http://purl.obolibrary.org/obo/GO_0006533) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-aspartate catabolic process](http://purl.obolibrary.org/obo/GO_0006533) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-beta-ethynylserine biosynthetic process `http://purl.obolibrary.org/obo/GO_0062142`
+#### Removed
+- [L-beta-ethynylserine biosynthetic process](http://purl.obolibrary.org/obo/GO_0062142) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [L-beta-ethynylserine biosynthetic process](http://purl.obolibrary.org/obo/GO_0062142) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
+### L-cysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019344`
+#### Removed
+- [L-cysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019344) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+
+
+### L-cysteine catabolic process `http://purl.obolibrary.org/obo/GO_0019448`
+#### Removed
+- [L-cysteine catabolic process](http://purl.obolibrary.org/obo/GO_0019448) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-cysteine catabolic process](http://purl.obolibrary.org/obo/GO_0019448) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-dopa catabolic process `http://purl.obolibrary.org/obo/GO_0120575`
+#### Removed
+- [L-dopa catabolic process](http://purl.obolibrary.org/obo/GO_0120575) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-dopa catabolic process](http://purl.obolibrary.org/obo/GO_0120575) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-glutamate catabolic process `http://purl.obolibrary.org/obo/GO_0006538`
+#### Removed
+- [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-glutamine catabolic process `http://purl.obolibrary.org/obo/GO_0006543`
+#### Removed
+- [L-glutamine catabolic process](http://purl.obolibrary.org/obo/GO_0006543) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-glutamine catabolic process](http://purl.obolibrary.org/obo/GO_0006543) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-glutamine metabolic process `http://purl.obolibrary.org/obo/GO_0006541`
+#### Removed
+- [L-glutamine metabolic process](http://purl.obolibrary.org/obo/GO_0006541) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### L-histidine biosynthetic process `http://purl.obolibrary.org/obo/GO_0000105`
+#### Removed
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [L-histidine biosynthetic process](http://purl.obolibrary.org/obo/GO_0000105) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
+### L-histidine catabolic process `http://purl.obolibrary.org/obo/GO_0006548`
+#### Removed
+- [L-histidine catabolic process](http://purl.obolibrary.org/obo/GO_0006548) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-histidine catabolic process](http://purl.obolibrary.org/obo/GO_0006548) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-homocysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0071269`
+#### Removed
+- [L-homocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0071269) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+
+
+### L-homocysteine catabolic process `http://purl.obolibrary.org/obo/GO_0043418`
+#### Removed
+- [L-homocysteine catabolic process](http://purl.obolibrary.org/obo/GO_0043418) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-homocysteine catabolic process](http://purl.obolibrary.org/obo/GO_0043418) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-homoserine biosynthetic process `http://purl.obolibrary.org/obo/GO_0009090`
+#### Removed
+- [L-homoserine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009090) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [L-homoserine biosynthetic process](http://purl.obolibrary.org/obo/GO_0009090) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
+### L-homoserine metabolic process `http://purl.obolibrary.org/obo/GO_0009092`
+#### Removed
+- [L-homoserine metabolic process](http://purl.obolibrary.org/obo/GO_0009092) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### L-isoleucine catabolic process `http://purl.obolibrary.org/obo/GO_0006550`
+#### Removed
+- [L-isoleucine catabolic process](http://purl.obolibrary.org/obo/GO_0006550) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+
+
+### L-leucine catabolic process `http://purl.obolibrary.org/obo/GO_0006552`
+#### Removed
+- [L-leucine catabolic process](http://purl.obolibrary.org/obo/GO_0006552) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+
+
+### L-leucine metabolic process `http://purl.obolibrary.org/obo/GO_0006551`
+#### Removed
+- [L-leucine metabolic process](http://purl.obolibrary.org/obo/GO_0006551) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### L-lysine catabolic process `http://purl.obolibrary.org/obo/GO_0019477`
+#### Removed
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-lysine catabolic process](http://purl.obolibrary.org/obo/GO_0019477) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-methionine catabolic process `http://purl.obolibrary.org/obo/GO_0009087`
+#### Removed
+- [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-methionine catabolic process](http://purl.obolibrary.org/obo/GO_0009087) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-methionine metabolic process `http://purl.obolibrary.org/obo/GO_0006555`
+#### Removed
+- [L-methionine metabolic process](http://purl.obolibrary.org/obo/GO_0006555) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
 ### L-methionine salvage `http://purl.obolibrary.org/obo/GO_0071267`
 #### Removed
 - [L-methionine salvage](http://purl.obolibrary.org/obo/GO_0071267) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-1237112" 
@@ -275,14 +677,88 @@
 
 
 
+### L-ornithine catabolic process `http://purl.obolibrary.org/obo/GO_0006593`
+#### Removed
+- [L-ornithine catabolic process](http://purl.obolibrary.org/obo/GO_0006593) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-ornithine catabolic process](http://purl.obolibrary.org/obo/GO_0006593) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-phenylalanine catabolic process `http://purl.obolibrary.org/obo/GO_0006559`
+#### Removed
+- [L-phenylalanine catabolic process](http://purl.obolibrary.org/obo/GO_0006559) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-phenylalanine catabolic process](http://purl.obolibrary.org/obo/GO_0006559) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-proline betaine catabolic process `http://purl.obolibrary.org/obo/GO_0019504`
+#### Removed
+- [L-proline betaine catabolic process](http://purl.obolibrary.org/obo/GO_0019504) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-proline betaine catabolic process](http://purl.obolibrary.org/obo/GO_0019504) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-proline catabolic process `http://purl.obolibrary.org/obo/GO_0006562`
+#### Removed
+- [L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0006562) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0006562) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-proline metabolic process `http://purl.obolibrary.org/obo/GO_0006560`
+#### Removed
+- [L-proline metabolic process](http://purl.obolibrary.org/obo/GO_0006560) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### L-propargylglycine biosynthetic process `http://purl.obolibrary.org/obo/GO_0062143`
+#### Removed
+- [L-propargylglycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0062143) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [L-propargylglycine biosynthetic process](http://purl.obolibrary.org/obo/GO_0062143) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
 ### L-selenocysteine biosynthetic process `http://purl.obolibrary.org/obo/GO_0016260`
 #### Removed
 - [L-selenocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0016260) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2408557" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Selenocysteine synthesis" 
 
+- [L-selenocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0016260) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [L-selenocysteine biosynthetic process](http://purl.obolibrary.org/obo/GO_0016260) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
+### L-selenocysteine catabolic process `http://purl.obolibrary.org/obo/GO_0016261`
+#### Removed
+- [L-selenocysteine catabolic process](http://purl.obolibrary.org/obo/GO_0016261) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-selenocysteine catabolic process](http://purl.obolibrary.org/obo/GO_0016261) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-serine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006564`
+#### Removed
+- [L-serine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006564) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+
+
+### L-serine catabolic process `http://purl.obolibrary.org/obo/GO_0006565`
+#### Removed
+- [L-serine catabolic process](http://purl.obolibrary.org/obo/GO_0006565) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-serine catabolic process](http://purl.obolibrary.org/obo/GO_0006565) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
 
 
 ### L-serine metabolic process `http://purl.obolibrary.org/obo/GO_0006563`
+#### Removed
+- [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
 
 #### Added
 - [L-serine metabolic process](http://purl.obolibrary.org/obo/GO_0006563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-977347" 
@@ -294,6 +770,54 @@
 - [L-threonine catabolic process](http://purl.obolibrary.org/obo/GO_0006567) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8849175" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Threonine catabolism" 
 
+- [L-threonine catabolic process](http://purl.obolibrary.org/obo/GO_0006567) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-threonine catabolic process](http://purl.obolibrary.org/obo/GO_0006567) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-threonine metabolic process `http://purl.obolibrary.org/obo/GO_0006566`
+#### Removed
+- [L-threonine metabolic process](http://purl.obolibrary.org/obo/GO_0006566) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### L-tryptophan catabolic process `http://purl.obolibrary.org/obo/GO_0006569`
+#### Removed
+- [L-tryptophan catabolic process](http://purl.obolibrary.org/obo/GO_0006569) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-tryptophan catabolic process](http://purl.obolibrary.org/obo/GO_0006569) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-tyrosine catabolic process `http://purl.obolibrary.org/obo/GO_0006572`
+#### Removed
+- [L-tyrosine catabolic process](http://purl.obolibrary.org/obo/GO_0006572) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [L-tyrosine catabolic process](http://purl.obolibrary.org/obo/GO_0006572) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
+### L-valine catabolic process `http://purl.obolibrary.org/obo/GO_0006574`
+#### Removed
+- [L-valine catabolic process](http://purl.obolibrary.org/obo/GO_0006574) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+
+
+### N(6),N(6),N(6)-trimethyl-L-lysine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_7770026`
+
+#### Added
+- [N(6),N(6),N(6)-trimethyl-L-lysine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770026) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86419" 
+
+- [N(6),N(6),N(6)-trimethyl-L-lysine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770026) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86419](http://rdf.rhea-db.org/86419) 
+
+
+### N-acetylglucosamine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015572`
+
+#### Added
+- [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86427" 
+
+- [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86427](http://rdf.rhea-db.org/86427) 
 
 
 ### N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0008080`
@@ -398,6 +922,34 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxotetradecanoyl-CoA+CoA-SH =&gt; Lauroyl-CoA + acetyl-CoA" 
 
 #### Added
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83127" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84311" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84391" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84835" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84903" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85327" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85331" 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83127](http://rdf.rhea-db.org/83127) 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84311](http://rdf.rhea-db.org/84311) 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84391](http://rdf.rhea-db.org/84391) 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84835](http://rdf.rhea-db.org/84835) 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84903](http://rdf.rhea-db.org/84903) 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85327](http://rdf.rhea-db.org/85327) 
+
+- [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85331](http://rdf.rhea-db.org/85331) 
+
 - [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-77340" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "3-Oxodecanoyl-CoA+CoA-SH&lt;=&gt;Octanoyl-CoA" 
 
@@ -463,6 +1015,18 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "palmitoyl-CoA+FAD&lt;=&gt;trans-Hexadec-2-enoyl-CoA+FADH2" 
 
 
+### acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0003997`
+
+#### Added
+- [acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0003997) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86619" 
+
+- [acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0003997) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86699" 
+
+- [acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0003997) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86619](http://rdf.rhea-db.org/86619) 
+
+- [acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0003997) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86699](http://rdf.rhea-db.org/86699) 
+
+
 ### adenohypophysis development `http://purl.obolibrary.org/obo/GO_0021984`
 #### Removed
 - [adenohypophysis development](http://purl.obolibrary.org/obo/GO_0021984) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -509,7 +1073,23 @@
 #### Added
 - [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:37967" 
 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59932" 
+
 - [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [37967](http://rdf.rhea-db.org/37967) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59932](http://rdf.rhea-db.org/59932) 
+
+
+### amine N-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0030748`
+
+#### Added
+- [amine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030748) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74203" 
+
+- [amine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030748) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:74207" 
+
+- [amine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030748) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74203](http://rdf.rhea-db.org/74203) 
+
+- [amine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0030748) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [74207](http://rdf.rhea-db.org/74207) 
 
 
 ### amino-acid betaine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015199`
@@ -524,7 +1104,19 @@
 #### Added
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28598" 
 
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86755" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86759" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86767" 
+
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [28598](http://rdf.rhea-db.org/28598) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86755](http://rdf.rhea-db.org/86755) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86759](http://rdf.rhea-db.org/86759) 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86767](http://rdf.rhea-db.org/86767) 
 
 
 ### ammon gyrus development `http://purl.obolibrary.org/obo/GO_0021541`
@@ -629,12 +1221,28 @@
 - [appendage development](http://purl.obolibrary.org/obo/GO_0048736) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### aryl-alcohol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047681`
+
+#### Added
+- [aryl-alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047681) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:59944" 
+
+- [aryl-alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047681) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [59944](http://rdf.rhea-db.org/59944) 
+
+
 ### ascending aorta development `http://purl.obolibrary.org/obo/GO_0035905`
 #### Removed
 - [ascending aorta development](http://purl.obolibrary.org/obo/GO_0035905) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [ascending aorta development](http://purl.obolibrary.org/obo/GO_0035905) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### aspartate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009067`
+#### Removed
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
 
 
 ### atrioventricular canal development `http://purl.obolibrary.org/obo/GO_0036302`
@@ -663,6 +1271,45 @@
 
 #### Added
 - [beak development](http://purl.obolibrary.org/obo/GO_0071728) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### beta-N-acetylhexosaminidase complex `http://purl.obolibrary.org/obo/GO_1905379`
+#### Removed
+- [beta-N-acetylhexosaminidase complex](http://purl.obolibrary.org/obo/GO_1905379) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "HEX A complex" 
+
+
+
+### beta-hexosaminidase A complex `http://purl.obolibrary.org/obo/GO_7770082`
+
+#### Added
+- Class: [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32235"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-23T17:39:17Z" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Hex A complex" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "hexosaminidase A complex" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lysosomal beta-hexosaminidase A complex" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "beta-hexosaminidase heterodimer" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770082" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A beta-N-acetylhexosaminidase complex composed of an alpha subunit and a beta subunit. In humans the subunits are encoded by HEXA and HEXB. In association with the GM2 activator protein, the complex degrades GM2 ganglioside within the lysosome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16698036" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15485660" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-hexosaminidase A complex" 
+
+- [beta-hexosaminidase A complex](http://purl.obolibrary.org/obo/GO_7770082) SubClassOf [beta-N-acetylhexosaminidase complex](http://purl.obolibrary.org/obo/GO_1905379) 
 
 
 ### beta-ureidopropionase activity `http://purl.obolibrary.org/obo/GO_0003837`
@@ -731,6 +1378,12 @@
 - [butanediol biosynthetic process](http://purl.obolibrary.org/obo/GO_0034079) [has_alternative_id](http://www.geneontology.org/formats/oboInOwl#hasAlternativeId) "GO:0030646" 
 
 
+### butyryl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0044580`
+#### Removed
+- [butyryl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_0044580) SubClassOf [fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0009062) 
+
+
+
 ### caecum development `http://purl.obolibrary.org/obo/GO_1903700`
 #### Removed
 - [caecum development](http://purl.obolibrary.org/obo/GO_1903700) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -739,14 +1392,12 @@
 - [caecum development](http://purl.obolibrary.org/obo/GO_1903700) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
-### calcitriol biosynthetic process from calciol `http://purl.obolibrary.org/obo/GO_0036378`
+### calcidiol 1-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004498`
 #### Removed
-- [calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [vitamin D biosynthetic process](http://purl.obolibrary.org/obo/GO_0042368) 
-
-- [calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [polyol biosynthetic process](http://purl.obolibrary.org/obo/GO_0046173) 
+- [calcidiol 1-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004498) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) 
 
 #### Added
-- [calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) 
+- [calcidiol 1-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004498) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) 
 
 
 ### cardiac chamber development `http://purl.obolibrary.org/obo/GO_0003205`
@@ -1063,6 +1714,42 @@
 - [decidualization](http://purl.obolibrary.org/obo/GO_0046697) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### delta(3)-delta(2)-enoyl-CoA isomerase activity `http://purl.obolibrary.org/obo/GO_0004165`
+
+#### Added
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84219" 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84495" 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84503" 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84783" 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84851" 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84855" 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84219](http://rdf.rhea-db.org/84219) 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84495](http://rdf.rhea-db.org/84495) 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84503](http://rdf.rhea-db.org/84503) 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84783](http://rdf.rhea-db.org/84783) 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84851](http://rdf.rhea-db.org/84851) 
+
+- [delta(3)-delta(2)-enoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0004165) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84855](http://rdf.rhea-db.org/84855) 
+
+
+### delta(3,5)-delta(2,4)-dienoyl-CoA isomerase activity `http://purl.obolibrary.org/obo/GO_0051750`
+
+#### Added
+- [delta(3,5)-delta(2,4)-dienoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0051750) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84779" 
+
+- [delta(3,5)-delta(2,4)-dienoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0051750) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84779](http://rdf.rhea-db.org/84779) 
+
+
 ### deltoid tuberosity development `http://purl.obolibrary.org/obo/GO_0035993`
 #### Removed
 - [deltoid tuberosity development](http://purl.obolibrary.org/obo/GO_0035993) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1077,6 +1764,14 @@
 
 #### Added
 - [dentate gyrus development](http://purl.obolibrary.org/obo/GO_0021542) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### deoxynucleoside phosphate kinase activity, dTTP as phosphate donor `http://purl.obolibrary.org/obo/GO_0106368`
+
+#### Added
+- [deoxynucleoside phosphate kinase activity, dTTP as phosphate donor](http://purl.obolibrary.org/obo/GO_0106368) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62156" 
+
+- [deoxynucleoside phosphate kinase activity, dTTP as phosphate donor](http://purl.obolibrary.org/obo/GO_0106368) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [62156](http://rdf.rhea-db.org/62156) 
 
 
 ### dermatome development `http://purl.obolibrary.org/obo/GO_0061054`
@@ -1129,6 +1824,20 @@
 - [digestive tract mesoderm development](http://purl.obolibrary.org/obo/GO_0007502) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### dihydrolipoyllysine-residue glutaryltransferase activity `http://purl.obolibrary.org/obo/GO_0120571`
+#### Removed
+- [dihydrolipoyllysine-residue glutaryltransferase activity](http://purl.obolibrary.org/obo/GO_0120571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: N6-[(R)-dihydrolipoyl]-L-lysyl-[protein] + glutaryl-CoA = CoA + N6-[(R)-S8-glutaryldihydrolipoyl]-L-lysyl-[protein]." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29191460" 
+
+#### Added
+- [dihydrolipoyllysine-residue glutaryltransferase activity](http://purl.obolibrary.org/obo/GO_0120571) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86675" 
+
+- [dihydrolipoyllysine-residue glutaryltransferase activity](http://purl.obolibrary.org/obo/GO_0120571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: N6-[(R)-dihydrolipoyl]-L-lysyl-[protein] + glutaryl-CoA = CoA + N6-[(R)-S8-glutaryldihydrolipoyl]-L-lysyl-[protein]." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86675" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29191460" 
+
+
 ### dihydropyrimidinase activity `http://purl.obolibrary.org/obo/GO_0004157`
 #### Removed
 - [dihydropyrimidinase activity](http://purl.obolibrary.org/obo/GO_0004157) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73618" 
@@ -1159,6 +1868,14 @@
 
 - [dihydropyrimidine dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0017113) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73585" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "uracil + NADPH + H+ =&gt; 5,6-dihydrouracil + NADP+" 
+
+
+### dimethylarginine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_7770027`
+
+#### Added
+- [dimethylarginine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770027) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86423" 
+
+- [dimethylarginine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770027) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86423](http://rdf.rhea-db.org/86423) 
 
 
 ### dorsal spinal cord development `http://purl.obolibrary.org/obo/GO_0021516`
@@ -1233,6 +1950,26 @@
 
 #### Added
 - [endoderm development](http://purl.obolibrary.org/obo/GO_0007492) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### endoglycosylceramidase activity `http://purl.obolibrary.org/obo/GO_0047876`
+
+#### Added
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86911" 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86915" 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86919" 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86923" 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86911](http://rdf.rhea-db.org/86911) 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86915](http://rdf.rhea-db.org/86915) 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86919](http://rdf.rhea-db.org/86919) 
+
+- [endoglycosylceramidase activity](http://purl.obolibrary.org/obo/GO_0047876) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86923](http://rdf.rhea-db.org/86923) 
 
 
 ### endonuclease activity `http://purl.obolibrary.org/obo/GO_0004519`
@@ -1337,12 +2074,48 @@
 - [epithelium development](http://purl.obolibrary.org/obo/GO_0060429) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_1902223`
+#### Removed
+- [erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1902223) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1902223) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
 ### esophagus development `http://purl.obolibrary.org/obo/GO_1903702`
 #### Removed
 - [esophagus development](http://purl.obolibrary.org/obo/GO_1903702) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
 #### Added
 - [esophagus development](http://purl.obolibrary.org/obo/GO_1903702) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### establishment of germ plasm mRNA localization `http://purl.obolibrary.org/obo/GO_0046595`
+#### Removed
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment of oocyte pole plasm mRNA localization" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that results in the directed movement of mRNA to the oocyte pole plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment of pole plasm mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of pole plasm mRNA localization" 
+
+#### Added
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment of oocyte pole plasm mRNA localization" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment of pole plasm mRNA localization" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that results in the directed movement of mRNA to the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment of germ plasm mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [establishment of germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of germ plasm mRNA localization" 
 
 
 ### exocrine system development `http://purl.obolibrary.org/obo/GO_0035272`
@@ -1373,6 +2146,50 @@
 
 #### Added
 - [face development](http://purl.obolibrary.org/obo/GO_0060324) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### fatty acid alpha-oxidation `http://purl.obolibrary.org/obo/GO_0001561`
+
+#### Added
+- [fatty acid alpha-oxidation](http://purl.obolibrary.org/obo/GO_0001561) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fatty acid alpha-oxidation](http://purl.obolibrary.org/obo/GO_0001561) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-387" 
+
+- [fatty acid alpha-oxidation](http://purl.obolibrary.org/obo/GO_0001561) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-2501](http://identifiers.org/metacyc.reaction/PWY-2501) 
+
+- [fatty acid alpha-oxidation](http://purl.obolibrary.org/obo/GO_0001561) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY66-387](http://identifiers.org/metacyc.reaction/PWY66-387) 
+
+
+### fatty acid beta-oxidation using acyl-CoA dehydrogenase `http://purl.obolibrary.org/obo/GO_0033539`
+
+#### Added
+- [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8181" 
+
+- [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "mitochondrial fatty acid beta-oxidation" 
+
+- [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [FAO-PWY](http://identifiers.org/metacyc.reaction/FAO-PWY) 
+
+- [fatty acid beta-oxidation using acyl-CoA dehydrogenase](http://purl.obolibrary.org/obo/GO_0033539) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8181](http://identifiers.org/metacyc.reaction/PWY-8181) 
+
+
+### fatty acid beta-oxidation using acyl-CoA oxidase `http://purl.obolibrary.org/obo/GO_0033540`
+
+#### Added
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7288" 
+
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-391" 
+
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "peroxisomal fatty acid beta-oxidation" 
+
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5136](http://identifiers.org/metacyc.reaction/PWY-5136) 
+
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7288](http://identifiers.org/metacyc.reaction/PWY-7288) 
+
+- [fatty acid beta-oxidation using acyl-CoA oxidase](http://purl.obolibrary.org/obo/GO_0033540) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY66-391](http://identifiers.org/metacyc.reaction/PWY66-391) 
 
 
 ### fertilization `http://purl.obolibrary.org/obo/GO_0009566`
@@ -1465,6 +2282,284 @@
 - [ganglion development](http://purl.obolibrary.org/obo/GO_0061548) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### germ plasm `http://purl.obolibrary.org/obo/GO_0060293`
+#### Removed
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Differentiated cytoplasm associated with a pole of an oocyte, egg or early embryo that will be inherited by the cells that will give rise to the germ line." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) SubClassOf [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) 
+
+#### Added
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "polar plasm" 
+
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm" 
+
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Differentiated cytoplasm associated with an oocyte, egg or early embryo that will be inherited by the cells that will give rise to the germ line." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16168720" 
+
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that germ plasm is not necessarily localised to a pole of the egg/oocyte. For example, in zebrafish the germ plasm is localised to the cleavage furrow (PMID:16168720)." 
+
+- [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) SubClassOf [cytoplasm](http://purl.obolibrary.org/obo/GO_0005737) 
+
+
+### germ plasm RNA localization `http://purl.obolibrary.org/obo/GO_0007316`
+#### Removed
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of pole plasm RNA localization" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm RNA localization" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which RNA is transported to, or maintained in, the oocyte pole plasm. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm RNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm RNA localization" 
+
+#### Added
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of germ plasm RNA localization" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm RNA localization" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm RNA localization" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which RNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm RNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm RNA localization](http://purl.obolibrary.org/obo/GO_0007316) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm RNA localization" 
+
+
+### germ plasm assembly `http://purl.obolibrary.org/obo/GO_0007315`
+#### Removed
+- [germ plasm assembly](http://purl.obolibrary.org/obo/GO_0007315) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Establishment of the specialized cytoplasm found at the poles of the egg. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+- [germ plasm assembly](http://purl.obolibrary.org/obo/GO_0007315) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm assembly" 
+
+#### Added
+- [germ plasm assembly](http://purl.obolibrary.org/obo/GO_0007315) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm assembly](http://purl.obolibrary.org/obo/GO_0007315) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm assembly" 
+
+- [germ plasm assembly](http://purl.obolibrary.org/obo/GO_0007315) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of a set of components to form the germ plasm, the differentiated cytoplasm associated with an oocyte, egg or early embryo that will be inherited by the cells that will give rise to the germ line." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+- [germ plasm assembly](http://purl.obolibrary.org/obo/GO_0007315) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm assembly" 
+
+
+### germ plasm mRNA localization `http://purl.obolibrary.org/obo/GO_0019094`
+#### Removed
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of mRNA localization in pole plasm" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of pole plasm mRNA localization" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm mRNA localization" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mRNA is transported to, or maintained in, the oocyte pole plasm. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm mRNA localization" 
+
+#### Added
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of germ plasm mRNA localization" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of mRNA localization in pole plasm" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of pole plasm mRNA localization" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm mRNA localization" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm mRNA localization" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mRNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0019094) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm mRNA localization" 
+
+
+### germ plasm mitochondrial lrRNA localization `http://purl.obolibrary.org/obo/GO_0019096`
+#### Removed
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of mitochondrial lrRNA localization in pole plasm" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm mitochondrial lrRNA localization" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm mitochondrial lrRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mitochondrial large ribosomal RNA is transported to, or maintained in, the oocyte pole plasm. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm mitochondrial lrRNA localization" 
+
+#### Added
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of mitochondrial lrRNA localization in pole plasm" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm mitochondrial lrRNA localization" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm mitochondrial lrRNA localization" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm mitochondrial lrRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mitochondrial large ribosomal RNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+- [germ plasm mitochondrial lrRNA localization](http://purl.obolibrary.org/obo/GO_0019096) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm mitochondrial lrRNA localization" 
+
+
+### germ plasm mitochondrial rRNA localization `http://purl.obolibrary.org/obo/GO_0019095`
+#### Removed
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of mitochondrial rRNA localization in pole plasm" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm mitochondrial rRNA localization" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm mitochondrial rRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mitochondrial ribosomal RNA is transported to, or maintained in, the oocyte pole plasm. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm mitochondrial rRNA localization" 
+
+#### Added
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of mitochondrial rRNA localization in pole plasm" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm mitochondrial rRNA localization" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm mitochondrial rRNA localization" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm mitochondrial rRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mitochondrial ribosomal RNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+- [germ plasm mitochondrial rRNA localization](http://purl.obolibrary.org/obo/GO_0019095) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm mitochondrial rRNA localization" 
+
+
+### germ plasm mitochondrial srRNA localization `http://purl.obolibrary.org/obo/GO_0019097`
+#### Removed
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of mitochondrial localization in pole plasm" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm mitochondrial srRNA localization" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm mitochondrial srRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mitochondrial small ribosomal RNA is transported to, or maintained in, the oocyte pole plasm. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm mitochondrial srRNA localization" 
+
+#### Added
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of mitochondrial localization in pole plasm" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm mitochondrial srRNA localization" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm mitochondrial srRNA localization" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm mitochondrial srRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which mitochondrial small ribosomal RNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+- [germ plasm mitochondrial srRNA localization](http://purl.obolibrary.org/obo/GO_0019097) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm mitochondrial srRNA localization" 
+
+
+### germ plasm oskar mRNA localization `http://purl.obolibrary.org/obo/GO_0045451`
+#### Removed
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of oskar mRNA localization in pole plasm" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of pole plasm oskar mRNA localization" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm oskar mRNA localization" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which oskar mRNA is transported to, or maintained in, the oocyte pole plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm oskar mRNA localization" 
+
+#### Added
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of germ plasm oskar mRNA localization" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of oskar mRNA localization in pole plasm" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "establishment and maintenance of pole plasm oskar mRNA localization" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm oskar mRNA localization" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm oskar mRNA localization" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which oskar mRNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045451) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm oskar mRNA localization" 
+
+
+### germ plasm protein localization `http://purl.obolibrary.org/obo/GO_0007318`
+#### Removed
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of pole plasm protein localization" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oocyte pole plasm protein localization" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which a protein is transported to, or maintained in, the oocyte pole plasm. An example of this is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "pole plasm protein localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm protein localization" 
+
+#### Added
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment and maintenance of germ plasm protein localization" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "oocyte pole plasm protein localization" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "pole plasm protein localization" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which a protein is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "germ plasm protein localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [germ plasm protein localization](http://purl.obolibrary.org/obo/GO_0007318) [label](http://www.w3.org/2000/01/rdf-schema#label) "germ plasm protein localization" 
+
+
 ### glomerular parietal epithelial cell development `http://purl.obolibrary.org/obo/GO_0072016`
 
 #### Added
@@ -1485,6 +2580,14 @@
 
 #### Added
 - [glomus development](http://purl.obolibrary.org/obo/GO_0072013) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### glutamate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009084`
+#### Removed
+- [glutamate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [glutamate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
 
 
 ### glycerophospholipid phospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0008970`
@@ -1533,6 +2636,14 @@
 
 #### Added
 - [hair follicle development](http://purl.obolibrary.org/obo/GO_0001942) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### haloalkane dehalogenase activity `http://purl.obolibrary.org/obo/GO_0018786`
+
+#### Added
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67720" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [67720](http://rdf.rhea-db.org/67720) 
 
 
 ### hard palate development `http://purl.obolibrary.org/obo/GO_0060022`
@@ -1808,6 +2919,74 @@
 - [long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0016509) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83327](http://rdf.rhea-db.org/83327) 
 
 
+### long-chain fatty acid transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0005324`
+
+#### Added
+- [long-chain fatty acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005324) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86475" 
+
+- [long-chain fatty acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005324) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86483" 
+
+- [long-chain fatty acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005324) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86475](http://rdf.rhea-db.org/86475) 
+
+- [long-chain fatty acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0005324) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86483](http://rdf.rhea-db.org/86483) 
+
+
+### long-chain fatty acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0120524`
+
+#### Added
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84211" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84723" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84727" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84731" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84735" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84859" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84907" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84911" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86107" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86155" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86167" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86487" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86591" 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84211](http://rdf.rhea-db.org/84211) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84723](http://rdf.rhea-db.org/84723) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84727](http://rdf.rhea-db.org/84727) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84731](http://rdf.rhea-db.org/84731) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84735](http://rdf.rhea-db.org/84735) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84859](http://rdf.rhea-db.org/84859) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84907](http://rdf.rhea-db.org/84907) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84911](http://rdf.rhea-db.org/84911) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86107](http://rdf.rhea-db.org/86107) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86155](http://rdf.rhea-db.org/86155) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86167](http://rdf.rhea-db.org/86167) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86487](http://rdf.rhea-db.org/86487) 
+
+- [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86591](http://rdf.rhea-db.org/86591) 
+
+
 ### lung alveolus development `http://purl.obolibrary.org/obo/GO_0048286`
 #### Removed
 - [lung alveolus development](http://purl.obolibrary.org/obo/GO_0048286) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1856,6 +3035,38 @@
 
 - [macrolide 2'-kinase activity](http://purl.obolibrary.org/obo/GO_0050073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + a macrolide = ADP + 2 H+ + a macrolide-2'-O-phosphate. Substrates include oleandomycin, erythromycin, spiramycin and other macrolide antibiotics." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.136" 
+
+
+### maintenance of germ plasm mRNA location `http://purl.obolibrary.org/obo/GO_0046594`
+#### Removed
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "maintenance of oocyte pole plasm mRNA localization" 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of maintaining mRNA in a specific location in the oocyte pole plasm. An example of this process is found in Drosophila melanogaster." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of pole plasm mRNA location" 
+
+#### Added
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "maintenance of germ plasm mRNA localization" 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "maintenance of oocyte pole plasm mRNA localization" 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "maintenance of pole plasm mRNA location" 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of maintaining mRNA in a specific location in the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [maintenance of germ plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of germ plasm mRNA location" 
 
 
 ### mammary gland alveolus development `http://purl.obolibrary.org/obo/GO_0060749`
@@ -2041,6 +3252,8 @@
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39963" 
 
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40603" 
+
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44328" 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44732" 
@@ -2050,6 +3263,8 @@
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [26132](http://rdf.rhea-db.org/26132) 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [39963](http://rdf.rhea-db.org/39963) 
+
+- [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40603](http://rdf.rhea-db.org/40603) 
 
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44328](http://rdf.rhea-db.org/44328) 
 
@@ -2429,6 +3644,50 @@
 - [negative regulation of auxin biosynthetic process](http://purl.obolibrary.org/obo/GO_1901997) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of auxin biosynthetic process" 
 
 
+### negative regulation of germ plasm oskar mRNA localization `http://purl.obolibrary.org/obo/GO_0045855`
+#### Removed
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of oocyte pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of a process in which oskar mRNA is transported to, or maintained in, the oocyte pole plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of pole plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of pole plasm oskar mRNA localization" 
+
+#### Added
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of germ plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of germ plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of germ plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of germ plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "negative regulation of oocyte pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "negative regulation of pole plasm oskar mRNA localization" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of a process in which oskar mRNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of germ plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045855) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of germ plasm oskar mRNA localization" 
+
+
 ### negative regulation of inflammatory response to antigenic stimulus `http://purl.obolibrary.org/obo/GO_0002862`
 #### Removed
 - [negative regulation of inflammatory response to antigenic stimulus](http://purl.obolibrary.org/obo/GO_0002862) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9662851" 
@@ -2561,6 +3820,14 @@
 - [nipple development](http://purl.obolibrary.org/obo/GO_0060618) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### nitrilase activity `http://purl.obolibrary.org/obo/GO_0000257`
+
+#### Added
+- [nitrilase activity](http://purl.obolibrary.org/obo/GO_0000257) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86867" 
+
+- [nitrilase activity](http://purl.obolibrary.org/obo/GO_0000257) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86867](http://rdf.rhea-db.org/86867) 
+
+
 ### notum development `http://purl.obolibrary.org/obo/GO_0007477`
 #### Removed
 - [notum development](http://purl.obolibrary.org/obo/GO_0007477) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -2596,6 +3863,62 @@
 #### Added
 - [nucleoside kinase activity](http://purl.obolibrary.org/obo/GO_0019206) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-73632" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "thymidine + ATP =&gt; TMP (deoxythymidine 5'-monophosphate) + ADP [TK1]" 
+
+
+### obsolete D-amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0046437`
+#### Removed
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of D-amino acids, the D-enantiomers of amino acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-amino acid biosynthetic process" 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) SubClassOf [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) SubClassOf [non-proteinogenic amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170043) 
+
+#### Added
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32062"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of D-amino acids, the D-enantiomers of amino acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term." 
+
+- [obsolete D-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046437) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete D-amino acid biosynthetic process" 
+
+
+### obsolete D-amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0046416`
+#### Removed
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving D-amino acids, the D-enantiomers of amino acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-amino acid metabolic process" 
+
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) SubClassOf [non-proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170041) 
+
+#### Added
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32062"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving D-amino acids, the D-enantiomers of amino acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term." 
+
+- [obsolete D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete D-amino acid metabolic process" 
 
 
 ### obsolete DDEL sequence binding `http://purl.obolibrary.org/obo/GO_0030944`
@@ -2708,6 +4031,82 @@
 - [obsolete KDEL sequence binding](http://purl.obolibrary.org/obo/GO_0005046) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete KDEL sequence binding" 
 
 
+### obsolete L-amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0170034`
+#### Removed
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of L-amino acids, the L-enantiomers of amino acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:edw" 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-amino acid biosynthetic process" 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) SubClassOf [carboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046394) 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+#### Added
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32062"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of L-amino acids, the L-enantiomers of amino acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:edw" 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term." 
+
+- [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-amino acid biosynthetic process" 
+
+
+### obsolete L-amino acid catabolic process `http://purl.obolibrary.org/obo/GO_0170035`
+#### Removed
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of an L-amino acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:edw" 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-amino acid catabolic process" 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) SubClassOf [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+#### Added
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32062"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of an L-amino acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:edw" 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term." 
+
+- [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-amino acid catabolic process" 
+
+
+### obsolete L-amino acid metabolic process `http://purl.obolibrary.org/obo/GO_0170033`
+#### Removed
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving an L-amino acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:edw" 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-amino acid metabolic process" 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) SubClassOf [carboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0019752) 
+
+#### Added
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32062"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving an L-amino acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:edw" 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term." 
+
+- [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete L-amino acid metabolic process" 
+
+
 ### obsolete L-methionine salvage from methylthioadenosine `http://purl.obolibrary.org/obo/GO_0019509`
 
 #### Added
@@ -2729,6 +4128,46 @@
 
 
 
+### obsolete calcitriol biosynthetic process from calciol `http://purl.obolibrary.org/obo/GO_0036378`
+#### Removed
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Conversion of vitamin D3 from its largely inactive form (calciol, also called cholecalciferol) into a hormonally active form (calcitriol). Conversion requires 25-hydroxylation of calciol in the liver to form calcidiol, and subsequent 1,alpha-hydroxylation of calcidiol in the kidney to form calcitriol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20511049" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17426122" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [label](http://www.w3.org/2000/01/rdf-schema#label) "calcitriol biosynthetic process from calciol" 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [vitamin D biosynthetic process](http://purl.obolibrary.org/obo/GO_0042368) 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [polyol biosynthetic process](http://purl.obolibrary.org/obo/GO_0046173) 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) SubClassOf [vitamin D3 metabolic process](http://purl.obolibrary.org/obo/GO_0070640) 
+
+#### Added
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32077"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Conversion of vitamin D3 from its largely inactive form (calciol, also called cholecalciferol) into a hormonally active form (calcitriol). Conversion requires 25-hydroxylation of calciol in the liver to form calcidiol, and subsequent 1,alpha-hydroxylation of calcidiol in the kidney to form calcitriol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20511049" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17426122" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error." 
+
+- [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete calcitriol biosynthetic process from calciol" 
+
+
 ### obsolete calcium-dependent phospholipase A2 activity `http://purl.obolibrary.org/obo/GO_0047498`
 
 #### Added
@@ -2744,6 +4183,82 @@
 #### Added
 - [obsolete calcium-independent phospholipase A2 activity](http://purl.obolibrary.org/obo/GO_0047499) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-8952251" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PLA2G15 hydrolyses LPC to GPCho and LCFA(-)" 
+
+
+### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0000437`
+#### Removed
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of one carbon source leads to a decrease in the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [label](http://www.w3.org/2000/01/rdf-schema#label) "carbon catabolite repression of transcription from RNA polymerase II promoter" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) SubClassOf [negative regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0000122) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) SubClassOf [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) SubClassOf [carbon catabolite repression of transcription](http://purl.obolibrary.org/obo/GO_0045013) 
+
+#### Added
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of one carbon source leads to a decrease in the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM model." 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete carbon catabolite repression of transcription from RNA polymerase II promoter" 
+
+
+### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
+#### Removed
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving galactose that stops, prevents or reduces the rate of transcription from an RNA polymerase II promoter." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [label](http://www.w3.org/2000/01/rdf-schema#label) "carbon catabolite repression of transcription from RNA polymerase II promoter by galactose" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) SubClassOf [carbon catabolite repression of transcription by galactose](http://purl.obolibrary.org/obo/GO_0000410) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) SubClassOf [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) SubClassOf [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) 
+
+#### Added
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving galactose that stops, prevents or reduces the rate of transcription from an RNA polymerase II promoter." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM model." 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose" 
+
+
+### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose `http://purl.obolibrary.org/obo/GO_0000433`
+#### Removed
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of glucose leads to a decrease in the frequency, rate, or extent of transcription of specific RNA polymerase II-transcribed genes involved in the metabolism of other carbon sources. Carbon catabolite repression is a mechanism of genetic regulation which the accumulation of catabolites of one substance in the cell represses the formation of enzymes that contribute to the catabolism of other substances." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [label](http://www.w3.org/2000/01/rdf-schema#label) "carbon catabolite repression of transcription from RNA polymerase II promoter by glucose" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) SubClassOf [carbon catabolite repression of transcription by glucose](http://purl.obolibrary.org/obo/GO_0045014) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) SubClassOf [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) 
+
+#### Added
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of glucose leads to a decrease in the frequency, rate, or extent of transcription of specific RNA polymerase II-transcribed genes involved in the metabolism of other carbon sources. Carbon catabolite repression is a mechanism of genetic regulation which the accumulation of catabolites of one substance in the cell represses the formation of enzymes that contribute to the catabolism of other substances." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a GO-CAM model." 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000433) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by glucose" 
 
 
 ### obsolete ciliary targeting signal binding `http://purl.obolibrary.org/obo/GO_1990473`
@@ -3182,6 +4697,130 @@
 - [obsolete negative regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903637) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of protein insertion into mitochondrial outer membrane" 
 
 
+### obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source `http://purl.obolibrary.org/obo/GO_0061415`
+#### Removed
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of a nonfermentable carbon source leads to a decrease of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19686338" 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source" 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) SubClassOf [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000437) 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) SubClassOf [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) 
+
+#### Added
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of a nonfermentable carbon source leads to a decrease of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19686338" 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM model." 
+
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source" 
+
+
+### obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0001080`
+#### Removed
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of one nitrogen source leads to an increase in the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other nitrogen sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19104072" 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitrogen catabolite activation of transcription from RNA polymerase II promoter" 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) SubClassOf [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) SubClassOf [nitrogen catabolite activation of transcription](http://purl.obolibrary.org/obo/GO_0090294) 
+
+#### Added
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of one nitrogen source leads to an increase in the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other nitrogen sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19104072" 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM." 
+
+- [obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001080) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nitrogen catabolite activation of transcription from RNA polymerase II promoter" 
+
+
+### obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0001079`
+#### Removed
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of one nitrogen source leads to the modulation of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other nitrogen sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19104072" 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitrogen catabolite regulation of transcription from RNA polymerase II promoter" 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) SubClassOf [regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0006357) 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) SubClassOf [nitrogen catabolite regulation of transcription](http://purl.obolibrary.org/obo/GO_0090293) 
+
+#### Added
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of one nitrogen source leads to the modulation of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other nitrogen sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19104072" 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM." 
+
+- [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter" 
+
+
+### obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0001081`
+#### Removed
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of one nitrogen source leads to a decrease in the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other nitrogen sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19104072" 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [label](http://www.w3.org/2000/01/rdf-schema#label) "nitrogen catabolite repression of transcription from RNA polymerase II promoter" 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) SubClassOf [obsolete nitrogen catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001079) 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) SubClassOf [nitrogen catabolite repression of transcription](http://purl.obolibrary.org/obo/GO_0090295) 
+
+#### Added
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of one nitrogen source leads to a decrease in the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other nitrogen sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:txnOH" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19104072" 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM." 
+
+- [obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter" 
+
+
 ### obsolete nuclear localization sequence binding `http://purl.obolibrary.org/obo/GO_0008139`
 #### Removed
 - [obsolete nuclear localization sequence binding](http://purl.obolibrary.org/obo/GO_0008139) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear localization sequence, a specific peptide sequence that acts as a signal to localize the protein within the nucleus." 
@@ -3394,6 +5033,34 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "OSBPL5,8,10 exchange PS with PI4P from ER membrane to plasma membrane" 
 
 
+### obsolete pole plasm `http://purl.obolibrary.org/obo/GO_0045495`
+#### Removed
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Differentiated cytoplasm associated with a pole (animal, vegetal, anterior, or posterior) of an oocyte, egg or early embryo." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17113380" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:kmv" 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [label](http://www.w3.org/2000/01/rdf-schema#label) "pole plasm" 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) SubClassOf [cytoplasm](http://purl.obolibrary.org/obo/GO_0005737) 
+
+#### Added
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Differentiated cytoplasm associated with a pole (animal, vegetal, anterior, or posterior) of an oocyte, egg or early embryo." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17113380" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:kmv" 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent. Pole plasm has been used as a near-synonym of germ plasm, but germ plasm is not always localised to a pole of the egg/oocyte (for example, in zebrafish (PMID:16168720) the germ plasm is localised to the cleavage furrow rather than to a pole). All experimental annotations to this term can be expressed using GO:0060293 germ plasm." 
+
+- [obsolete pole plasm](http://purl.obolibrary.org/obo/GO_0045495) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete pole plasm" 
+
+
 ### obsolete positive regulation of protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0070863`
 #### Removed
 - [obsolete positive regulation of protein exit from endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0070863) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of directed movement of proteins from the endoplasmic reticulum." 
@@ -3538,6 +5205,34 @@
 - [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was added in error. It is the positive regulation child of GO:1903636, regulating GO:0045040 (protein insertion into mitochondrial outer membrane), which is being obsoleted as part of the restructuring of mitochondrial protein import (see https://github.com/geneontology/go-ontology/issues/31711)." 
 
 - [obsolete positive regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903638) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of protein insertion into mitochondrial outer membrane" 
+
+
+### obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source `http://purl.obolibrary.org/obo/GO_0061414`
+#### Removed
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of a nonfermentable carbon source leads to an increase of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19686338" 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source" 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) SubClassOf [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) SubClassOf [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) 
+
+#### Added
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of a nonfermentable carbon source leads to an increase of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19686338" 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM." 
+
+- [obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061414) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source" 
 
 
 ### obsolete protein exit from endoplasmic reticulum `http://purl.obolibrary.org/obo/GO_0032527`
@@ -3786,6 +5481,32 @@
 - [obsolete regulation of protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_1903636) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of protein insertion into mitochondrial outer membrane" 
 
 
+### obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source `http://purl.obolibrary.org/obo/GO_0061413`
+#### Removed
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of a nonfermentable carbon source leads to the modulation of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19686338" 
+
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source" 
+
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) SubClassOf [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) 
+
+#### Added
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of a nonfermentable carbon source leads to the modulation of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19686338" 
+
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM." 
+
+- [obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061413) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source" 
+
+
 ### obsolete tRNA 2'-O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0106050`
 
 #### Added
@@ -3962,6 +5683,18 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "Lysosomal degradation of ubiqutinated CDH1" 
 
 
+### peptidyl-proline hydroxylation to 3-hydroxy-L-proline `http://purl.obolibrary.org/obo/GO_0018400`
+#### Removed
+- [peptidyl-proline hydroxylation to 3-hydroxy-L-proline](http://purl.obolibrary.org/obo/GO_0018400) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
+### peptidyl-proline hydroxylation to 4-hydroxy-L-proline `http://purl.obolibrary.org/obo/GO_0018401`
+#### Removed
+- [peptidyl-proline hydroxylation to 4-hydroxy-L-proline](http://purl.obolibrary.org/obo/GO_0018401) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
 ### peripheral nervous system development `http://purl.obolibrary.org/obo/GO_0007422`
 
 #### Added
@@ -4054,6 +5787,14 @@
 - [phosphatidylinositol metabolic process](http://purl.obolibrary.org/obo/GO_0046488) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31854"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [phosphatidylinositol metabolic process](http://purl.obolibrary.org/obo/GO_0046488) SubClassOf [glycerophospholipid metabolic process](http://purl.obolibrary.org/obo/GO_0006650) 
+
+
+### phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity `http://purl.obolibrary.org/obo/GO_0004439`
+
+#### Added
+- [phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004439) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86551" 
+
+- [phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity](http://purl.obolibrary.org/obo/GO_0004439) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86551](http://rdf.rhea-db.org/86551) 
 
 
 ### phosphatidylserine lysophospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0120560`
@@ -4243,6 +5984,54 @@
 - [positive regulation of cytogamy](http://purl.obolibrary.org/obo/GO_7770079) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cytogamy](http://purl.obolibrary.org/obo/GO_0000755) 
 
 
+### positive regulation of germ plasm oskar mRNA localization `http://purl.obolibrary.org/obo/GO_0045856`
+#### Removed
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of oocyte pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "stimulation of pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of the process in which oskar mRNA is transported to, or maintained in, the oocyte pole plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of pole plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of pole plasm oskar mRNA localization" 
+
+#### Added
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of germ plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of germ plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of germ plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "activation of germ plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "stimulation of germ plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "positive regulation of oocyte pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "positive regulation of pole plasm oskar mRNA localization" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of the process in which oskar mRNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of germ plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [positive regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0045856) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of germ plasm oskar mRNA localization" 
+
+
 ### positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway `http://purl.obolibrary.org/obo/GO_1900486`
 #### Removed
 - [positive regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway](http://purl.obolibrary.org/obo/GO_1900486) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [isoprenoid metabolic process](http://purl.obolibrary.org/obo/GO_0006720) 
@@ -4412,6 +6201,14 @@
 
 
 
+### protein-cysteine S-palmitoyltransferase activity `http://purl.obolibrary.org/obo/GO_0019706`
+
+#### Added
+- [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67388" 
+
+- [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [67388](http://rdf.rhea-db.org/67388) 
+
+
 ### protein-disulfide reductase activity `http://purl.obolibrary.org/obo/GO_0015035`
 
 #### Added
@@ -4445,6 +6242,12 @@
 - [proximal convoluted tubule segment 2 development](http://purl.obolibrary.org/obo/GO_0072032) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### psilocybin biosynthetic process `http://purl.obolibrary.org/obo/GO_0140380`
+#### Removed
+- [psilocybin biosynthetic process](http://purl.obolibrary.org/obo/GO_0140380) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
+
+
 ### purine-nucleoside phosphorylase activity `http://purl.obolibrary.org/obo/GO_0004731`
 #### Removed
 - [purine-nucleoside phosphorylase activity](http://purl.obolibrary.org/obo/GO_0004731) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-112034" 
@@ -4467,6 +6270,14 @@
 
 #### Added
 - [pyramid development](http://purl.obolibrary.org/obo/GO_0072056) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### pyruvate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009079`
+#### Removed
+- [pyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009079) SubClassOf [obsolete L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
+
+#### Added
+- [pyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009079) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
 
 
 ### questin hydroquinone dioxygenase activity `http://purl.obolibrary.org/obo/GO_7770081`
@@ -4553,6 +6364,34 @@
 
 #### Added
 - [regulation of COPII vesicle uncoating](http://purl.obolibrary.org/obo/GO_0090111) SubClassOf [regulation of protein-containing complex disassembly](http://purl.obolibrary.org/obo/GO_0043244) 
+
+
+### regulation of germ plasm oskar mRNA localization `http://purl.obolibrary.org/obo/GO_0007317`
+#### Removed
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of oocyte pole plasm oskar mRNA localization" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the process in which oskar mRNA is transported to, or maintained in, the oocyte pole plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hb" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of pole plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of pole plasm oskar mRNA localization" 
+
+#### Added
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32233"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "regulation of oocyte pole plasm oskar mRNA localization" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "regulation of pole plasm oskar mRNA localization" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the process in which oskar mRNA is transported to, or maintained in, the germ plasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hb" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of germ plasm oskar mRNA localisation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [regulation of germ plasm oskar mRNA localization](http://purl.obolibrary.org/obo/GO_0007317) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of germ plasm oskar mRNA localization" 
 
 
 ### regulation of isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway `http://purl.obolibrary.org/obo/GO_0010322`
@@ -4877,6 +6716,12 @@
 - [shoot system development](http://purl.obolibrary.org/obo/GO_0048367) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
 
 
+### short-chain fatty acid catabolic process `http://purl.obolibrary.org/obo/GO_0019626`
+#### Removed
+- [short-chain fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0019626) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ACETOACETATE-DEG-PWY" 
+
+
+
 ### skeletal system development `http://purl.obolibrary.org/obo/GO_0001501`
 
 #### Added
@@ -4932,6 +6777,26 @@
 
 #### Added
 - [stele development](http://purl.obolibrary.org/obo/GO_0010479) SubClassOf [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) 
+
+
+### steroid 11-beta-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004507`
+
+#### Added
+- [steroid 11-beta-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004507) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86455" 
+
+- [steroid 11-beta-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004507) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86455](http://rdf.rhea-db.org/86455) 
+
+
+### steroid 17-alpha-monooxygenase activity `http://purl.obolibrary.org/obo/GO_0004508`
+
+#### Added
+- [steroid 17-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004508) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84247" 
+
+- [steroid 17-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004508) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84251" 
+
+- [steroid 17-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004508) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84247](http://rdf.rhea-db.org/84247) 
+
+- [steroid 17-alpha-monooxygenase activity](http://purl.obolibrary.org/obo/GO_0004508) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84251](http://rdf.rhea-db.org/84251) 
 
 
 ### stigma development `http://purl.obolibrary.org/obo/GO_0048480`
@@ -5172,6 +7037,14 @@
 - [trachea submucosa development](http://purl.obolibrary.org/obo/GO_0061152) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### trans-4-hydroxy-L-proline catabolic process `http://purl.obolibrary.org/obo/GO_0019470`
+#### Removed
+- [trans-4-hydroxy-L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0019470) SubClassOf [obsolete L-amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0170035) 
+
+#### Added
+- [trans-4-hydroxy-L-proline catabolic process](http://purl.obolibrary.org/obo/GO_0019470) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
+
+
 ### transaminase activity `http://purl.obolibrary.org/obo/GO_0008483`
 #### Removed
 - [transaminase activity](http://purl.obolibrary.org/obo/GO_0008483) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9972889" 
@@ -5187,6 +7060,12 @@
 #### Added
 - [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-382556" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ABC-family proteins mediated transport" 
+
+
+### transsulfuration `http://purl.obolibrary.org/obo/GO_0019346`
+#### Removed
+- [transsulfuration](http://purl.obolibrary.org/obo/GO_0019346) SubClassOf [obsolete L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
+
 
 
 ### triacylglycerol lipase activity `http://purl.obolibrary.org/obo/GO_0004806`
@@ -5492,6 +7371,58 @@
 - [ventricular system development](http://purl.obolibrary.org/obo/GO_0021591) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### very long-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0031957`
+
+#### Added
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83103" 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83107" 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85311" 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85315" 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83103](http://rdf.rhea-db.org/83103) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83107](http://rdf.rhea-db.org/83107) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85311](http://rdf.rhea-db.org/85311) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85315](http://rdf.rhea-db.org/85315) 
+
+
+### very long-chain fatty acyl-CoA hydrolase activity `http://purl.obolibrary.org/obo/GO_0052817`
+
+#### Added
+- [very long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052817) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83411" 
+
+- [very long-chain fatty acyl-CoA hydrolase activity](http://purl.obolibrary.org/obo/GO_0052817) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83411](http://rdf.rhea-db.org/83411) 
+
+
+### very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0102158`
+
+#### Added
+- [very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0102158) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84379" 
+
+- [very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase activity](http://purl.obolibrary.org/obo/GO_0102158) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84379](http://rdf.rhea-db.org/84379) 
+
+
+### very-long-chain fatty acyl-CoA oxidase activity `http://purl.obolibrary.org/obo/GO_0044535`
+
+#### Added
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83115" 
+
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85319" 
+
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:85323" 
+
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83115](http://rdf.rhea-db.org/83115) 
+
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85319](http://rdf.rhea-db.org/85319) 
+
+- [very-long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0044535) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [85323](http://rdf.rhea-db.org/85323) 
+
+
 ### vesicle uncoating `http://purl.obolibrary.org/obo/GO_0072319`
 #### Removed
 - [vesicle uncoating](http://purl.obolibrary.org/obo/GO_0072319) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein depolymerization process that results in the disassembly of vesicle coat proteins." 
@@ -5524,6 +7455,14 @@
 
 #### Added
 - [visceral serous pericardium development](http://purl.obolibrary.org/obo/GO_0061032) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### vitamin D 25-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0030343`
+#### Removed
+- [vitamin D 25-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0030343) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete calcitriol biosynthetic process from calciol](http://purl.obolibrary.org/obo/GO_0036378) 
+
+#### Added
+- [vitamin D 25-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0030343) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [vitamin D3 biosynthetic process](http://purl.obolibrary.org/obo/GO_1901755) 
 
 
 ### vitamin D3 biosynthetic process `http://purl.obolibrary.org/obo/GO_1901755`
