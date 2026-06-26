@@ -1036,6 +1036,7 @@ http://purl.obolibrary.org/obo/GO_0010629	negative regulation of gene expression
 http://purl.obolibrary.org/obo/GO_0060967	negative regulation of gene silencing by regulatory ncRNA	http://purl.obolibrary.org/obo/GO_0031047	regulatory ncRNA-mediated gene silencing
 http://purl.obolibrary.org/obo/GO_1900687	negative regulation of gerfelin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900578	gerfelin biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905937	negative regulation of germ cell proliferation	http://purl.obolibrary.org/obo/GO_0036093	germ cell proliferation
+http://purl.obolibrary.org/obo/GO_0045855	negative regulation of germ plasm oskar mRNA localization	http://purl.obolibrary.org/obo/GO_0045451	germ plasm oskar mRNA localization
 http://purl.obolibrary.org/obo/GO_0075012	negative regulation of germ tube formation	http://purl.obolibrary.org/obo/GO_0075009	germ tube formation
 http://purl.obolibrary.org/obo/GO_0002635	negative regulation of germinal center formation	http://purl.obolibrary.org/obo/GO_0002467	germinal center formation
 http://purl.obolibrary.org/obo/GO_0009938	negative regulation of gibberellic acid mediated signaling pathway	http://purl.obolibrary.org/obo/GO_0009740	gibberellic acid mediated signaling pathway
@@ -1894,7 +1895,6 @@ http://purl.obolibrary.org/obo/GO_0062168	negative regulation of plus-end direct
 http://purl.obolibrary.org/obo/GO_1904634	negative regulation of podocyte apoptotic process	http://purl.obolibrary.org/obo/GO_1903210	podocyte apoptotic process
 http://purl.obolibrary.org/obo/GO_0071802	negative regulation of podosome assembly	http://purl.obolibrary.org/obo/GO_0071800	podosome assembly
 http://purl.obolibrary.org/obo/GO_0030861	negative regulation of polarized epithelial cell differentiation	http://purl.obolibrary.org/obo/GO_0030859	polarized epithelial cell differentiation
-http://purl.obolibrary.org/obo/GO_0045855	negative regulation of pole plasm oskar mRNA localization	http://purl.obolibrary.org/obo/GO_0045451	pole plasm oskar mRNA localization
 http://purl.obolibrary.org/obo/GO_0160068	negative regulation of pollen tube guidance	http://purl.obolibrary.org/obo/GO_0010183	pollen tube guidance
 http://purl.obolibrary.org/obo/GO_0170066	negative regulation of polyamine biosynthetic process	http://purl.obolibrary.org/obo/GO_0006596	polyamine biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902268	negative regulation of polyamine transmembrane transport	http://purl.obolibrary.org/obo/GO_1902047	polyamine transmembrane transport
