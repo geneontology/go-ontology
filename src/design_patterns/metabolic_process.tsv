@@ -47,7 +47,6 @@ http://purl.obolibrary.org/obo/GO_0046341	CDP-diacylglycerol metabolic process	h
 http://purl.obolibrary.org/obo/GO_0046035	CMP metabolic process	http://purl.obolibrary.org/obo/CHEBI_60377	cytidine 5'-monophosphate(2-)
 http://purl.obolibrary.org/obo/GO_0046381	CMP-N-acetylneuraminate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57812	CMP-N-acetyl-beta-neuraminate(2-)
 http://purl.obolibrary.org/obo/GO_0046036	CTP metabolic process	http://purl.obolibrary.org/obo/CHEBI_37563	CTP(4-)
-http://purl.obolibrary.org/obo/GO_0046416	D-amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_59871	D-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046396	D-galacturonate metabolic process	http://purl.obolibrary.org/obo/CHEBI_12952	aldehydo-D-galacturonate
 http://purl.obolibrary.org/obo/GO_0042836	D-glucarate metabolic process	http://purl.obolibrary.org/obo/CHEBI_30612	D-glucarate(2-)
 http://purl.obolibrary.org/obo/GO_0019521	D-gluconate metabolic process	http://purl.obolibrary.org/obo/CHEBI_18391	D-gluconate
@@ -72,7 +71,6 @@ http://purl.obolibrary.org/obo/GO_0046707	IDP metabolic process	http://purl.obol
 http://purl.obolibrary.org/obo/GO_0046040	IMP metabolic process	http://purl.obolibrary.org/obo/CHEBI_58053	IMP(2-)
 http://purl.obolibrary.org/obo/GO_0046041	ITP metabolic process	http://purl.obolibrary.org/obo/CHEBI_61402	ITP(4-)
 http://purl.obolibrary.org/obo/GO_0046375	K antigen metabolic process	http://purl.obolibrary.org/obo/CHEBI_73772	K antigen
-http://purl.obolibrary.org/obo/GO_0170033	L-amino acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_59869	L-alpha-amino acid zwitterion
 http://purl.obolibrary.org/obo/GO_0046373	L-arabinose metabolic process	http://purl.obolibrary.org/obo/CHEBI_30849	L-arabinose
 http://purl.obolibrary.org/obo/GO_0019852	L-ascorbic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_38290	L-ascorbate
 http://purl.obolibrary.org/obo/GO_0042354	L-fucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_2181	L-fucopyranose
