@@ -132,7 +132,6 @@ http://purl.obolibrary.org/obo/GO_0048850	hypophysis morphogenesis	http://purl.o
 http://purl.obolibrary.org/obo/GO_0007560	imaginal disc morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000939	imaginal disc
 http://purl.obolibrary.org/obo/GO_0007480	imaginal disc-derived leg morphogenesis	http://purl.obolibrary.org/obo/UBERON_0005895	insect leg
 http://purl.obolibrary.org/obo/GO_0007476	imaginal disc-derived wing morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000984	imaginal disc-derived wing
-http://purl.obolibrary.org/obo/GO_0008586	imaginal disc-derived wing vein morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003194	imaginal disc-derived wing vein
 http://purl.obolibrary.org/obo/GO_1905317	inferior endocardial cushion morphogenesis	http://purl.obolibrary.org/obo/UBERON_0036066	inferior endocardial cushion
 http://purl.obolibrary.org/obo/GO_0021714	inferior olivary nucleus morphogenesis	http://purl.obolibrary.org/obo/UBERON_0007244	inferior olivary nucleus
 http://purl.obolibrary.org/obo/GO_0042472	inner ear morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
@@ -227,7 +226,6 @@ http://purl.obolibrary.org/obo/GO_0002072	optic cup morphogenesis involved in ca
 http://purl.obolibrary.org/obo/GO_0021631	optic nerve morphogenesis	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/GO_0003404	optic vesicle morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004128	optic vesicle
 http://purl.obolibrary.org/obo/GO_0071600	otic vesicle morphogenesis	http://purl.obolibrary.org/obo/UBERON_0003051	ear vesicle
-http://purl.obolibrary.org/obo/GO_0032474	otolith morphogenesis	http://purl.obolibrary.org/obo/UBERON_0002280	otolith
 http://purl.obolibrary.org/obo/GO_0042473	outer ear morphogenesis	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
 http://purl.obolibrary.org/obo/GO_0003151	outflow tract morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004145	outflow tract
 http://purl.obolibrary.org/obo/GO_0003148	outflow tract septum morphogenesis	http://purl.obolibrary.org/obo/UBERON_0004142	outflow tract septum

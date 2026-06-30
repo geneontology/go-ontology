@@ -30,7 +30,6 @@ http://purl.obolibrary.org/obo/GO_0021684	cerebellar granular layer formation	ht
 http://purl.obolibrary.org/obo/GO_0021688	cerebellar molecular layer formation	http://purl.obolibrary.org/obo/UBERON_0002974	molecular layer of cerebellar cortex
 http://purl.obolibrary.org/obo/GO_0021588	cerebellum formation	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
 http://purl.obolibrary.org/obo/GO_0046844	chorion micropyle formation	http://purl.obolibrary.org/obo/GO_0070825	chrorion micropyle
-http://purl.obolibrary.org/obo/GO_0007304	chorion-containing eggshell formation	http://purl.obolibrary.org/obo/UBERON_0005307	chorion-containing eggshell
 http://purl.obolibrary.org/obo/GO_0062248	cleistothecium formation	http://purl.obolibrary.org/obo/FAO_0000047	cleistothecium
 http://purl.obolibrary.org/obo/GO_0003240	conus arteriosus formation	http://purl.obolibrary.org/obo/UBERON_0003983	conus arteriosus
 http://purl.obolibrary.org/obo/GO_0003191	coronary sinus valve formation	http://purl.obolibrary.org/obo/UBERON_0004150	coronary sinus valve
@@ -39,7 +38,6 @@ http://purl.obolibrary.org/obo/GO_0021603	cranial nerve formation	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0097187	dentinogenesis	http://purl.obolibrary.org/obo/UBERON_0001751	dentine
 http://purl.obolibrary.org/obo/GO_0035764	dorsal motor nucleus of vagus nerve formation	http://purl.obolibrary.org/obo/UBERON_0002870	dorsal motor nucleus of vagus nerve
 http://purl.obolibrary.org/obo/GO_0001705	ectoderm formation	http://purl.obolibrary.org/obo/UBERON_0000924	ectoderm
-http://purl.obolibrary.org/obo/GO_0030703	eggshell formation	http://purl.obolibrary.org/obo/UBERON_0005079	eggshell
 http://purl.obolibrary.org/obo/GO_0003144	embryonic heart tube formation	http://purl.obolibrary.org/obo/UBERON_0004141	heart tube
 http://purl.obolibrary.org/obo/GO_0003272	endocardial cushion formation	http://purl.obolibrary.org/obo/UBERON_0002062	endocardial cushion
 http://purl.obolibrary.org/obo/GO_0060214	endocardium formation	http://purl.obolibrary.org/obo/UBERON_0002165	endocardium
@@ -106,7 +104,6 @@ http://purl.obolibrary.org/obo/GO_0075243	oospore formation	http://purl.obolibra
 http://purl.obolibrary.org/obo/GO_0021634	optic nerve formation	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
 http://purl.obolibrary.org/obo/GO_0003403	optic vesicle formation	http://purl.obolibrary.org/obo/UBERON_0004128	optic vesicle
 http://purl.obolibrary.org/obo/GO_0030916	otic vesicle formation	http://purl.obolibrary.org/obo/UBERON_0003051	ear vesicle
-http://purl.obolibrary.org/obo/GO_0032475	otolith formation	http://purl.obolibrary.org/obo/UBERON_0002280	otolith
 http://purl.obolibrary.org/obo/GO_0061130	pancreatic bud formation	http://purl.obolibrary.org/obo/UBERON_0003922	pancreatic epithelial bud
 http://purl.obolibrary.org/obo/GO_0048341	paraxial mesoderm formation	http://purl.obolibrary.org/obo/UBERON_0003077	paraxial mesoderm
 http://purl.obolibrary.org/obo/GO_0030220	platelet formation	http://purl.obolibrary.org/obo/CL_0000233	platelet
@@ -154,6 +151,5 @@ http://purl.obolibrary.org/obo/GO_0060676	ureteric bud formation	http://purl.obo
 http://purl.obolibrary.org/obo/GO_0021646	vagus nerve formation	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
 http://purl.obolibrary.org/obo/GO_0003196	ventriculo bulbo valve formation	http://purl.obolibrary.org/obo/UBERON_0004149	ventriculo bulbo valve
 http://purl.obolibrary.org/obo/GO_0021650	vestibulocochlear nerve formation	http://purl.obolibrary.org/obo/UBERON_0001648	vestibulocochlear nerve
-http://purl.obolibrary.org/obo/GO_0030704	vitelline membrane formation	http://purl.obolibrary.org/obo/UBERON_0003125	vitelline membrane
 http://purl.obolibrary.org/obo/GO_0022006	zona limitans intrathalamica formation	http://purl.obolibrary.org/obo/UBERON_0009848	zona limitans intrathalamica
 http://purl.obolibrary.org/obo/GO_0034296	zygospore formation	http://purl.obolibrary.org/obo/CL_0000608	zygospore
