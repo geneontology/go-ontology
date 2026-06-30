@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-06-29 07:07:15.068956312 +0000
-+++ go.obo	2026-06-29 07:22:28.205164217 +0000
+--- go-lastrelease.obo	2026-06-30 06:51:38.740519812 +0000
++++ go.obo	2026-06-30 07:05:30.250030255 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-06-15
-+data-version: releases/2026-06-29
++data-version: releases/2026-06-30
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-06-15" xsd:string
-+property_value: owl:versionInfo "2026-06-29" xsd:string
++property_value: owl:versionInfo "2026-06-30" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -168,6 +168,24 @@
  
  [Term]
  id: GO:0001562
+@@ -17749,7 +17759,7 @@
+ name: follicular dendritic cell activation
+ namespace: biological_process
+ def: "A change in the morphology or behavior of a follicular dendritic cell resulting from exposure to an activating factor such as a cellular or soluble ligand." [GOC:add, PMID:15606789]
+-is_a: GO:0001775 ! cell activation
++is_a: GO:0045321 ! leukocyte activation
+ 
+ [Term]
+ id: GO:0002267
+@@ -17769,7 +17779,7 @@
+ namespace: biological_process
+ def: "The process in which a relatively unspecialized precursor cell acquires the specialized features of a follicular dendritic cell." [GOC:add, ISBN:0781735149]
+ is_a: GO:0002266 ! follicular dendritic cell activation
+-is_a: GO:0030154 ! cell differentiation
++is_a: GO:0097028 ! dendritic cell differentiation
+ 
+ [Term]
+ id: GO:0002269
 @@ -25759,6 +25769,7 @@
  namespace: biological_process
  def: "The progression of the trabecular meshwork over time, from its formation to the mature structure. The trabecular meshwork is a fenestrated endothelial-like tissue situated at the intersection of the cornea and the iris. The trabecular meshwork provides drainage for the aqueous humor." [PMID:20568247]
@@ -1248,7 +1266,49 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -173433,8 +173535,8 @@
+@@ -167622,6 +167724,7 @@
+ def: "The process in which neuroblasts acquire specialized structural and/or functional features that characterize the mature cerebellar Purkinje cell. Differentiation includes the processes involved in commitment of a neuroblast to a Purkinje cell fate. A Purkinje cell is an inhibitory GABAergic neuron found in the cerebellar cortex that projects to the deep cerebellar nuclei and brain stem." [GO_REF:0000021, GOC:cls, GOC:dgh, GOC:dph, GOC:jid, PMID:15157725]
+ is_a: GO:0021533 ! cell differentiation in hindbrain
+ is_a: GO:0021953 ! central nervous system neuron differentiation
++is_a: GO:0097154 ! GABAergic neuron differentiation
+ relationship: part_of GO:0021694 ! cerebellar Purkinje cell layer formation
+ 
+ [Term]
+@@ -167697,6 +167800,7 @@
+ def: "The process in which neuroblasts acquire specialized structural and/or functional features that characterize the mature cerebellar stellate cell. Differentiation includes the processes involved in commitment of a neuroblast to a cerebellar stellate cell fate. A cerebellar stellate cell is an inhibitory GABAergic interneuron found in the cerebellar cortex." [GO_REF:0000021, GOC:cls, GOC:dgh, GOC:dph, GOC:jid, PMID:15157725]
+ is_a: GO:0021533 ! cell differentiation in hindbrain
+ is_a: GO:0021953 ! central nervous system neuron differentiation
++is_a: GO:0097154 ! GABAergic neuron differentiation
+ relationship: part_of GO:0021688 ! cerebellar molecular layer formation
+ 
+ [Term]
+@@ -169118,6 +169222,7 @@
+ namespace: biological_process
+ def: "The process in which a neuroblast acquires specialized structural and/or functional features of a Cajal-Retzius cell, one of a transient population of pioneering neurons in the cerebral cortex. These cells are slender bipolar cells of the developing marginal zone. One feature of these cells in mammals is that they express the Reelin gene." [GO_REF:0000021, GOC:cls, GOC:dgh, GOC:dph, GOC:jid]
+ is_a: GO:0021895 ! cerebral cortex neuron differentiation
++is_a: GO:1905962 ! glutamatergic neuron differentiation
+ 
+ [Term]
+ id: GO:0021871
+@@ -169295,7 +169400,7 @@
+ name: olfactory bulb interneuron differentiation
+ namespace: biological_process
+ def: "The process in which a neuroblast acquires specialized features of an interneuron residing in the olfactory bulb." [GO_REF:0000021, GOC:cls, GOC:dgh, GOC:dph, GOC:jid, PMID:12626695]
+-is_a: GO:0021879 ! forebrain neuron differentiation
++is_a: GO:0021953 ! central nervous system neuron differentiation
+ relationship: part_of GO:0021772 ! olfactory bulb development
+ 
+ [Term]
+@@ -169311,7 +169416,7 @@
+ name: olfactory bulb interneuron development
+ namespace: biological_process
+ def: "The process whose specific outcome is the progression of an interneuron residing in the olfactory bulb, from its initial commitment, to the fully functional differentiated cell." [GO_REF:0000021, GOC:cls, GOC:dgh, GOC:dph, GOC:jid, PMID:12626695]
+-is_a: GO:0021884 ! forebrain neuron development
++is_a: GO:0021954 ! central nervous system neuron development
+ relationship: part_of GO:0021889 ! olfactory bulb interneuron differentiation
+ 
+ [Term]
+@@ -173433,8 +173538,8 @@
  name: regulation of endocytosis
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of endocytosis." [GOC:curators]
@@ -1258,7 +1318,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0006897 ! endocytosis
  relationship: regulates GO:0006897 ! endocytosis
-@@ -175525,6 +175627,7 @@
+@@ -175525,6 +175630,7 @@
  def: "The deposition of hydroxyapatite, a form of calcium phosphate with the formula Ca10(PO4)6(OH)2, in bone tissue." [GOC:mah, PMID:22936354]
  synonym: "bone calcification" NARROW []
  is_a: GO:0031214 ! biomineral tissue development
@@ -1266,7 +1326,7 @@
  relationship: part_of GO:0001503 ! ossification
  
  [Term]
-@@ -176171,7 +176274,7 @@
+@@ -176171,7 +176277,7 @@
  xref: Reactome:R-HSA-5602147 "Defective CYP2R1 does not 25-hydroxylate vitamin D"
  xref: RHEA:32903
  is_a: GO:0008395 ! steroid hydroxylase activity
@@ -1275,7 +1335,7 @@
  property_value: skos:exactMatch EC:1.14.14.24
  property_value: skos:exactMatch RHEA:32903
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31962" xsd:anyURI
-@@ -178886,7 +178989,7 @@
+@@ -178886,7 +178992,7 @@
  synonym: "D-alanine formation" EXACT []
  synonym: "D-alanine synthesis" EXACT []
  is_a: GO:0006523 ! alanine biosynthetic process
@@ -1284,7 +1344,7 @@
  
  [Term]
  id: GO:0030633
-@@ -179794,7 +179897,7 @@
+@@ -179794,7 +179900,7 @@
  synonym: "polar granule organisation" EXACT []
  synonym: "polar granule organization and biogenesis" EXACT [GOC:dph, GOC:tb]
  is_a: GO:0006996 ! organelle organization
@@ -1293,7 +1353,7 @@
  
  [Term]
  id: GO:0030720
-@@ -180208,11 +180311,15 @@
+@@ -180208,11 +180314,15 @@
  xref: RHEA:23136
  xref: RHEA:53924
  xref: RHEA:53928
@@ -1309,7 +1369,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
-@@ -185391,6 +185498,7 @@
+@@ -185391,6 +185501,7 @@
  namespace: biological_process
  def: "The precipitation of calcium carbonate onto the organic matrix of a shell, such as a mollusc shell." [GOC:mah, PMID:15132736]
  is_a: GO:0031214 ! biomineral tissue development
@@ -1317,7 +1377,7 @@
  
  [Term]
  id: GO:0031216
-@@ -193050,14 +193158,22 @@
+@@ -193050,14 +193161,22 @@
  xref: RHEA:33639
  xref: RHEA:43748
  xref: RHEA:54536
@@ -1340,7 +1400,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26439" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -211305,20 +211421,32 @@
+@@ -211305,20 +211424,32 @@
  name: fatty acid beta-oxidation using acyl-CoA dehydrogenase
  namespace: biological_process
  def: "A fatty acid beta-oxidation pathway in which the initial step of each oxidation cycle, which converts an acyl-CoA to a trans-2-enoyl-CoA, is catalyzed by acyl-CoA dehydrogenase; the electrons removed by oxidation pass through the respiratory chain to oxygen and leave H2O as the product. Fatty acid beta-oxidation begins with the addition of coenzyme A to a fatty acid, and ends when only two or three carbons remain (as acetyl-CoA or propionyl-CoA respectively)." [GOC:mah, MetaCyc:FAO-PWY]
@@ -1373,7 +1433,7 @@
  
  [Term]
  id: GO:0033541
-@@ -222019,7 +222147,6 @@
+@@ -222019,7 +222150,6 @@
  is_a: GO:0009072 ! aromatic amino acid metabolic process
  is_a: GO:0009435 ! NAD+ biosynthetic process
  is_a: GO:0042430 ! indole-containing compound metabolic process
@@ -1381,7 +1441,7 @@
  is_a: GO:0170039 ! proteinogenic amino acid metabolic process
  property_value: skos:exactMatch MetaCyc:NADSYN-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-5653
-@@ -223623,6 +223750,7 @@
+@@ -223623,6 +223753,7 @@
  def: "The process in which calcium salts are deposited into calcareous tooth structures such as dental enamel, dentin and cementum." [GOC:mah, MP:0002817, MSH:D014074]
  synonym: "tooth calcification" EXACT []
  is_a: GO:0031214 ! biomineral tissue development
@@ -1389,7 +1449,7 @@
  relationship: part_of GO:0042476 ! odontogenesis
  
  [Term]
-@@ -224724,7 +224852,6 @@
+@@ -224724,7 +224855,6 @@
  xref: MetaCyc:PYRIDNUCSYN-PWY
  is_a: GO:0006531 ! aspartate metabolic process
  is_a: GO:0009435 ! NAD+ biosynthetic process
@@ -1397,7 +1457,7 @@
  is_a: GO:0170039 ! proteinogenic amino acid metabolic process
  property_value: skos:narrowMatch MetaCyc:PWY-8277
  property_value: skos:narrowMatch MetaCyc:PWY-8352
-@@ -231073,7 +231200,7 @@
+@@ -231073,7 +231203,7 @@
  name: tube development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a tube over time, from its initial formation to a mature structure. Epithelial and endothelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues including lung and trachea, kidney, the mammary gland, the vascular system and the gastrointestinal and urinary-genital tracts." [PMID:12526790]
@@ -1406,7 +1466,7 @@
  relationship: part_of GO:0007275 ! multicellular organism development
  
  [Term]
-@@ -233485,6 +233612,7 @@
+@@ -233485,6 +233615,7 @@
  namespace: biological_process
  def: "The development of the portion of the ureteric bud tube that contributes to the morphogenesis of the metanephros." [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -1414,7 +1474,7 @@
  relationship: part_of GO:0001657 ! ureteric bud development
  relationship: part_of GO:0003338 ! metanephros morphogenesis
  created_by: bf
-@@ -233496,6 +233624,7 @@
+@@ -233496,6 +233627,7 @@
  namespace: biological_process
  def: "The development of the portion of the ureteric bud that contributes to the morphogenesis of the ureter. The ureter ureteric bud is the initial structure that forms the ureter." [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -1422,7 +1482,7 @@
  relationship: part_of GO:0001657 ! ureteric bud development
  relationship: part_of GO:0072197 ! ureter morphogenesis
  created_by: bf
-@@ -243473,6 +243602,7 @@
+@@ -243473,6 +243605,7 @@
  synonym: "chitin-based cuticle hardening by biomineralisation" EXACT [GOC:bf]
  is_a: GO:0007593 ! chitin-based cuticle sclerotization
  is_a: GO:0031214 ! biomineral tissue development
@@ -1430,7 +1490,7 @@
  created_by: bf
  creation_date: 2012-09-11T13:50:04Z
  
-@@ -243965,16 +244095,18 @@
+@@ -243965,16 +244098,18 @@
  
  [Term]
  id: GO:0036378
@@ -1453,7 +1513,7 @@
  created_by: bf
  creation_date: 2013-05-15T11:46:08Z
  
-@@ -251504,6 +251636,7 @@
+@@ -251504,6 +251639,7 @@
  synonym: "collagen and cuticulin-based cuticle formation" EXACT []
  synonym: "collagen and cuticulin-based cuticle synthesis" EXACT []
  is_a: GO:0042335 ! cuticle development
@@ -1461,7 +1521,7 @@
  
  [Term]
  id: GO:0040003
-@@ -251515,6 +251648,7 @@
+@@ -251515,6 +251651,7 @@
  synonym: "chitin-based cuticle formation" EXACT []
  synonym: "chitin-based cuticle synthesis" EXACT []
  is_a: GO:0042335 ! cuticle development
@@ -1469,7 +1529,7 @@
  
  [Term]
  id: GO:0040004
-@@ -255095,7 +255229,7 @@
+@@ -255095,7 +255232,7 @@
  synonym: "cuticle biosynthetic process" EXACT []
  synonym: "cuticle formation" EXACT []
  synonym: "cuticle synthesis" EXACT []
@@ -1478,7 +1538,7 @@
  relationship: part_of GO:0007275 ! multicellular organism development
  
  [Term]
-@@ -260428,7 +260562,7 @@
+@@ -260428,7 +260565,7 @@
  xref: MetaCyc:ALACAT2-PWY
  xref: MetaCyc:ALADEG-PWY
  xref: MetaCyc:ALANINE-DEG3-PWY
@@ -1487,7 +1547,7 @@
  is_a: GO:0170040 ! proteinogenic amino acid catabolic process
  property_value: skos:narrowMatch MetaCyc:ALACAT2-PWY
  property_value: skos:narrowMatch MetaCyc:ALADEG-PWY
-@@ -266239,8 +266373,8 @@
+@@ -266239,8 +266376,8 @@
  synonym: "homocysteine catabolism" EXACT []
  synonym: "homocysteine degradation" EXACT []
  is_a: GO:0000098 ! sulfur amino acid catabolic process
@@ -1497,7 +1557,7 @@
  is_a: GO:0170044 ! non-proteinogenic amino acid catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31361" xsd:anyURI
  
-@@ -273960,7 +274094,7 @@
+@@ -273960,7 +274097,7 @@
  synonym: "modulation by symbiont of host receptor-mediated endocytosis" EXACT []
  synonym: "modulation of host receptor-mediated endocytosis by symbiont" EXACT []
  synonym: "regulation by symbiont of host receptor-mediated endocytosis" EXACT []
@@ -1506,7 +1566,7 @@
  
  [Term]
  id: GO:0044078
-@@ -278759,6 +278893,9 @@
+@@ -278759,6 +278896,9 @@
  xref: RHEA:78631
  xref: RHEA:78847
  xref: RHEA:83047
@@ -1516,7 +1576,7 @@
  is_a: GO:0003997 ! acyl-CoA oxidase activity
  property_value: skos:exactMatch RHEA:78847
  property_value: skos:narrowMatch RHEA:39119
-@@ -278766,6 +278903,9 @@
+@@ -278766,6 +278906,9 @@
  property_value: skos:narrowMatch RHEA:40319
  property_value: skos:narrowMatch RHEA:78631
  property_value: skos:narrowMatch RHEA:83047
@@ -1526,7 +1586,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24703" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28733" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -279312,7 +279452,6 @@
+@@ -279312,7 +279455,6 @@
  namespace: biological_process
  def: "The chemical reactions a resulting in the resulting in the breakdown of butyryl-CoA." [GOC:jl]
  synonym: "butyryl-CoA catabolism" EXACT []
@@ -1534,7 +1594,7 @@
  is_a: GO:0036115 ! fatty-acyl-CoA catabolic process
  created_by: jl
  creation_date: 2012-04-19T04:28:46Z
-@@ -285475,6 +285614,7 @@
+@@ -285475,6 +285617,7 @@
  namespace: biological_process
  def: "The precipitation of specific crystal forms of calcium carbonate with extracellular matrix proteins in the otolith organs of the vertebrate inner ear." [GOC:dsf, PMID:15581873]
  is_a: GO:0031214 ! biomineral tissue development
@@ -1542,7 +1602,7 @@
  relationship: part_of GO:0048840 ! otolith development
  
  [Term]
-@@ -286349,14 +286489,17 @@
+@@ -286349,14 +286492,17 @@
  
  [Term]
  id: GO:0045451
@@ -1567,7 +1627,7 @@
  
  [Term]
  id: GO:0045453
-@@ -286844,12 +286987,15 @@
+@@ -286844,12 +286990,15 @@
  
  [Term]
  id: GO:0045495
@@ -1586,7 +1646,7 @@
  
  [Term]
  id: GO:0045496
-@@ -291741,38 +291887,42 @@
+@@ -291741,38 +291890,42 @@
  
  [Term]
  id: GO:0045855
@@ -1652,7 +1712,7 @@
  
  [Term]
  id: GO:0045857
-@@ -298971,11 +299121,13 @@
+@@ -298971,11 +299124,13 @@
  
  [Term]
  id: GO:0046416
@@ -1669,7 +1729,7 @@
  
  [Term]
  id: GO:0046417
-@@ -299244,16 +299396,16 @@
+@@ -299244,16 +299399,16 @@
  
  [Term]
  id: GO:0046437
@@ -1691,7 +1751,7 @@
  
  [Term]
  id: GO:0046438
-@@ -301222,27 +301374,32 @@
+@@ -301222,27 +301377,32 @@
  
  [Term]
  id: GO:0046594
@@ -1733,7 +1793,7 @@
  
  [Term]
  id: GO:0046596
-@@ -302450,6 +302607,7 @@
+@@ -302450,6 +302610,7 @@
  xref: Wikipedia:Decidualization
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0009888 ! tissue development
@@ -1741,7 +1801,7 @@
  relationship: part_of GO:0001893 ! maternal placenta development
  
  [Term]
-@@ -309125,6 +309283,9 @@
+@@ -309125,6 +309286,9 @@
  xref: RHEA:74807
  xref: RHEA:74811
  xref: RHEA:74823
@@ -1751,7 +1811,7 @@
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  property_value: skos:exactMatch EC:2.3.1.62
  property_value: skos:exactMatch RHEA:10332
-@@ -309133,6 +309294,9 @@
+@@ -309133,6 +309297,9 @@
  property_value: skos:narrowMatch RHEA:74807
  property_value: skos:narrowMatch RHEA:74811
  property_value: skos:narrowMatch RHEA:74823
@@ -1761,7 +1821,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -312551,6 +312715,7 @@
+@@ -312551,6 +312718,7 @@
  xref: RHEA:38491
  xref: RHEA:39959
  xref: RHEA:39963
@@ -1769,7 +1829,7 @@
  xref: RHEA:40607
  xref: RHEA:44312
  xref: RHEA:44316
-@@ -312584,6 +312749,7 @@
+@@ -312584,6 +312752,7 @@
  property_value: skos:narrowMatch RHEA:38491
  property_value: skos:narrowMatch RHEA:39959
  property_value: skos:narrowMatch RHEA:39963
@@ -1777,7 +1837,7 @@
  property_value: skos:narrowMatch RHEA:40607
  property_value: skos:narrowMatch RHEA:44312
  property_value: skos:narrowMatch RHEA:44316
-@@ -318039,10 +318205,12 @@
+@@ -318039,10 +318208,12 @@
  xref: MetaCyc:ARYL-ALCOHOL-DEHYDROGENASE-NADP+-RXN
  xref: RHEA:17761
  xref: RHEA:58776
@@ -1790,7 +1850,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -321546,6 +321714,10 @@
+@@ -321546,6 +321717,10 @@
  xref: RHEA:65552
  xref: RHEA:65556
  xref: RHEA:77675
@@ -1801,7 +1861,7 @@
  is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
  property_value: skos:exactMatch EC:3.2.1.123
  property_value: skos:exactMatch RHEA:22288
-@@ -321555,6 +321727,10 @@
+@@ -321555,6 +321730,10 @@
  property_value: skos:narrowMatch RHEA:65552
  property_value: skos:narrowMatch RHEA:65556
  property_value: skos:narrowMatch RHEA:77675
@@ -1812,7 +1872,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -327220,6 +327396,7 @@
+@@ -327220,6 +327399,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the mesectoderm over time, from its formation to the mature structure. In animal embryos, mesectoderm development processes give rise to both mesoderm and ectoderm tissues." [GOC:jid]
  is_a: GO:0009888 ! tissue development
@@ -1820,7 +1880,7 @@
  relationship: part_of GO:0007398 ! ectoderm development
  relationship: part_of GO:0007498 ! mesoderm development
  
-@@ -327496,7 +327673,6 @@
+@@ -327496,7 +327676,6 @@
  comment: Consider instead annotating to one of the more specific child terms, or to 'floral organ development ; GO:0048438' or one of its child terms.
  synonym: "collective phyllome structure development" BROAD [GOC:PO_curators, PO:0025023]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -1828,7 +1888,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0009908 ! flower development
  
-@@ -327889,7 +328065,6 @@
+@@ -327889,7 +328068,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the style over time, from its formation to the mature structure. The style is an elongated part of a carpel, or group of fused carpels, and it lies between the ovary and the stigma." [GOC:jid, PO:0009074]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -1836,7 +1896,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048440 ! carpel development
  
-@@ -327899,7 +328074,6 @@
+@@ -327899,7 +328077,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the stigma over time, from its formation to the mature structure. The stigma is the pollen-receptive surface of a carpel or group of fused carpels, usually sticky." [GOC:jid, PO:0009073]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -1844,7 +1904,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048440 ! carpel development
  
-@@ -328179,7 +328353,6 @@
+@@ -328179,7 +328356,6 @@
  name: meristem development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the meristem over time, from its formation to the mature structure." [GOC:jid]
@@ -1852,7 +1912,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  
  [Term]
-@@ -328759,6 +328932,7 @@
+@@ -328759,6 +328935,7 @@
  synonym: "intestinal development" NARROW []
  synonym: "intestine development" NARROW []
  is_a: GO:0035295 ! tube development
@@ -1860,7 +1920,7 @@
  relationship: part_of GO:0055123 ! digestive system development
  
  [Term]
-@@ -329613,7 +329787,6 @@
+@@ -329613,7 +329790,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the anther over time, from its formation to the mature structure." [GOC:jid, GOC:sm]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -1868,7 +1928,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048443 ! stamen development
  
-@@ -329669,7 +329842,6 @@
+@@ -329669,7 +329845,6 @@
  synonym: "tapetal layer development" BROAD [GOC:tb]
  synonym: "tapetum development" BROAD [GOC:tb]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -1876,7 +1936,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048653 ! anther development
  
-@@ -331418,7 +331590,6 @@
+@@ -331418,7 +331593,6 @@
  name: root cap development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the root cap over time, from its formation to the mature structure. The root cap protects the root meristem from friction as the root grows through the soil. The cap is made up of a group of parenchyma cells which secrete a glycoprotein mucilage as a lubricant." [GOC:tb]
@@ -1884,7 +1944,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048364 ! root development
  
-@@ -331911,6 +332082,7 @@
+@@ -331911,6 +332085,7 @@
  def: "The process whose specific outcome is the progression of the lateral line over time, from its formation to the mature structure. The lateral line consists of small sensory patches (neuromasts) located superficially on the skin or just under the skin in fluid-filled canals on the head and body of all fishes and most amphibians. The lateral line develops from cranial ectodermal placodes situated behind the ear and between the eye and ear." [ISBN:0125296509]
  synonym: "LL development" EXACT []
  is_a: GO:0009888 ! tissue development
@@ -1892,7 +1952,7 @@
  relationship: part_of GO:0048925 ! lateral line system development
  
  [Term]
-@@ -336708,19 +336880,17 @@
+@@ -336708,19 +336883,17 @@
  
  [Term]
  id: GO:0050246
@@ -1921,7 +1981,7 @@
  
  [Term]
  id: GO:0050247
-@@ -345943,7 +346113,6 @@
+@@ -345943,7 +346116,6 @@
  def: "The movement of an organism or part of an organism using mechanoreceptors, the nervous system, striated muscle and/or the skeletal system." [GOC:dph]
  is_a: GO:0050879 ! multicellular organismal movement
  is_a: GO:0050905 ! neuromuscular process
@@ -1929,7 +1989,7 @@
  
  [Term]
  id: GO:0050882
-@@ -346819,9 +346988,6 @@
+@@ -346819,9 +346991,6 @@
  synonym: "perception of environment using reflected sound waves" EXACT []
  xref: Wikipedia:Echolocation
  is_a: GO:0050877 ! nervous system process
@@ -1939,7 +1999,7 @@
  
  [Term]
  id: GO:0050960
-@@ -356530,6 +356696,7 @@
+@@ -356530,6 +356699,7 @@
  xref: RHEA:47468
  xref: RHEA:84515
  xref: RHEA:84543
@@ -1947,7 +2007,7 @@
  is_a: GO:0016863 ! intramolecular oxidoreductase activity, transposing C=C bonds
  property_value: skos:exactMatch EC:5.3.3.21
  property_value: skos:exactMatch RHEA:45240
-@@ -356538,6 +356705,7 @@
+@@ -356538,6 +356708,7 @@
  property_value: skos:narrowMatch RHEA:47468
  property_value: skos:narrowMatch RHEA:84515
  property_value: skos:narrowMatch RHEA:84543
@@ -1955,7 +2015,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -368140,10 +368308,12 @@
+@@ -368140,10 +368311,12 @@
  xref: RHEA:40787
  xref: RHEA:40791
  xref: RHEA:67072
@@ -1968,7 +2028,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26441" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -371753,6 +371923,7 @@
+@@ -371753,6 +371926,7 @@
  synonym: "Mullerian tract development" RELATED []
  is_a: GO:0035295 ! tube development
  is_a: GO:0048608 ! reproductive structure development
@@ -1976,7 +2036,7 @@
  
  [Term]
  id: GO:0060067
-@@ -374074,9 +374245,13 @@
+@@ -374074,9 +374248,13 @@
  id: GO:0060293
  name: germ plasm
  namespace: cellular_component
@@ -1992,7 +2052,7 @@
  
  [Term]
  id: GO:0060294
-@@ -375496,6 +375671,7 @@
+@@ -375496,6 +375674,7 @@
  def: "The process whose specific outcome is the progression of an epithelium over time, from its formation to the mature structure. An epithelium is a tissue that covers the internal or external surfaces of an anatomical structure." [GOC:dph, GOC:mtg_lung]
  subset: goslim_drosophila
  is_a: GO:0009888 ! tissue development
@@ -2000,7 +2060,7 @@
  
  [Term]
  id: GO:0060430
-@@ -376038,6 +376214,7 @@
+@@ -376038,6 +376217,7 @@
  def: "The process whose specific outcome is the progression of a mesenchymal tissue over time, from its formation to the mature structure. A mesenchymal tissue is made up of loosely packed stellate cells." [GOC:dph]
  synonym: "mesenchymal development" EXACT [GOC:dph]
  is_a: GO:0009888 ! tissue development
@@ -2008,7 +2068,17 @@
  relationship: part_of GO:0048513 ! animal organ development
  
  [Term]
-@@ -376566,6 +376743,7 @@
+@@ -376291,7 +376471,8 @@
+ synonym: "granular pneumocyte differentiation" RELATED [GOC:dph, ISBN:0721662544]
+ synonym: "great alveolar cell differentiation" EXACT [GOC:dph, ISBN:0721662544]
+ synonym: "large alveolar cell differentiation" RELATED [GOC:dph, ISBN:0721662544]
+-is_a: GO:0061140 ! lung secretory cell differentiation
++is_a: GO:0002065 ! columnar/cuboidal epithelial cell differentiation
++is_a: GO:0060487 ! lung epithelial cell differentiation
+ 
+ [Term]
+ id: GO:0060511
+@@ -376566,6 +376747,7 @@
  namespace: biological_process
  def: "The progression of muscle tissue over time, from its initial formation to its mature state. Muscle tissue is a contractile tissue made up of actin and myosin fibers." [GOC:dph]
  is_a: GO:0009888 ! tissue development
@@ -2016,7 +2086,7 @@
  created_by: dph
  creation_date: 2009-04-10T08:05:37Z
  
-@@ -378599,6 +378777,7 @@
+@@ -378599,6 +378781,7 @@
  namespace: biological_process
  def: "The process in which the spongiotrophoblast layer of the placenta progresses from its formation to its mature state." [GOC:dph]
  is_a: GO:0009888 ! tissue development
@@ -2024,7 +2094,7 @@
  relationship: part_of GO:0001892 ! embryonic placenta development
  created_by: dph
  creation_date: 2009-06-09T03:33:40Z
-@@ -380473,6 +380652,7 @@
+@@ -380473,6 +380656,7 @@
  namespace: biological_process
  def: "The progression of the semicircular canal from its initial formation to the mature structure." [GOC:dph, GOC:sdb_2009, GOC:tb]
  is_a: GO:0035295 ! tube development
@@ -2032,7 +2102,7 @@
  relationship: part_of GO:0048839 ! inner ear development
  created_by: dph
  creation_date: 2009-08-13T09:36:37Z
-@@ -382053,6 +382233,7 @@
+@@ -382053,6 +382237,7 @@
  synonym: "EHBD development" BROAD [PMID:20614624]
  synonym: "extrahepatic bile duct development" BROAD [PMID:20614624]
  is_a: GO:0035295 ! tube development
@@ -2040,7 +2110,7 @@
  relationship: part_of GO:0061008 ! hepaticobiliary system development
  created_by: dph
  creation_date: 2010-01-22T09:17:13Z
-@@ -384208,6 +384389,7 @@
+@@ -384208,6 +384393,7 @@
  synonym: "Mullerian duct development" EXACT [GOC:dph]
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0035295 ! tube development
@@ -2048,7 +2118,7 @@
  created_by: dph
  creation_date: 2010-07-30T10:54:47Z
  
-@@ -386579,30 +386761,34 @@
+@@ -386579,30 +386765,34 @@
  
  [Term]
  id: GO:0061413
@@ -2094,7 +2164,7 @@
  created_by: dph
  creation_date: 2012-01-23T11:33:08Z
  
-@@ -386968,6 +387154,7 @@
+@@ -386968,6 +387158,7 @@
  namespace: biological_process
  def: "The progression of a connective tissue over time, from its formation to the mature structure." [GOC:BHF]
  is_a: GO:0009888 ! tissue development
@@ -2102,7 +2172,16 @@
  created_by: dph
  creation_date: 2012-03-22T12:53:41Z
  
-@@ -387074,7 +387261,6 @@
+@@ -386976,7 +387167,7 @@
+ name: olfactory bulb tufted cell development
+ namespace: biological_process
+ def: "The process whose specific outcome is the progression of an olfactory bulb tufted cell over time, from initial commitment of the cell to a specific fate, to the fully functional differentiated cell." [GOC:dph]
+-is_a: GO:0021884 ! forebrain neuron development
++is_a: GO:0021954 ! central nervous system neuron development
+ relationship: part_of GO:0021772 ! olfactory bulb development
+ created_by: dph
+ creation_date: 2012-05-15T12:30:21Z
+@@ -387074,7 +387265,6 @@
  namespace: biological_process
  def: "The progression of the reproductive system over time from its formation to the mature structure. The reproductive system consists of the organs that function in reproduction." [GOC:dph]
  is_a: GO:0048731 ! system development
@@ -2110,7 +2189,15 @@
  created_by: dph
  creation_date: 2012-08-22T17:47:53Z
  
-@@ -387973,6 +388159,7 @@
+@@ -387189,6 +387379,7 @@
+ def: "The process in which a relatively unspecialized T cell acquires specialized features of a mature T follicular helper cell." [GOC:dph, PMID:21572431]
+ synonym: "T-helper follicular cell differentiation" EXACT [GOC:dph]
+ is_a: GO:0042093 ! T-helper cell differentiation
++is_a: GO:0160083 ! exhausted T cell differentiation
+ created_by: dph
+ creation_date: 2012-11-02T09:01:48Z
+ 
+@@ -387973,6 +388164,7 @@
  synonym: "ganglia development" RELATED [GOC:dph]
  synonym: "gangliogenesis" NARROW [GOC:BHF, GOC:rl]
  is_a: GO:0009888 ! tissue development
@@ -2118,7 +2205,7 @@
  relationship: part_of GO:0007399 ! nervous system development
  created_by: dph
  creation_date: 2013-07-10T08:36:12Z
-@@ -394402,7 +394589,7 @@
+@@ -394402,7 +394594,7 @@
  name: L-beta-ethynylserine biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of L-beta-ethynylserine. L-beta-ethynylserine is an antibiotic produced by Streptomyces bacteria." [PMID:3082841, PMID:30867596]
@@ -2127,7 +2214,7 @@
  is_a: GO:0170043 ! non-proteinogenic amino acid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17763" xsd:anyURI
  created_by: dph
-@@ -394413,7 +394600,7 @@
+@@ -394413,7 +394605,7 @@
  name: L-propargylglycine biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of L-propargylglycine (Pra). L-propargylglycine is an antibiotic produced by Streptomyces bacteria." [PMID:30867596]
@@ -2136,7 +2223,7 @@
  is_a: GO:0170043 ! non-proteinogenic amino acid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17763" xsd:anyURI
  created_by: dph
-@@ -397410,7 +397597,8 @@
+@@ -397410,7 +397602,8 @@
  synonym: "D-serine biosynthesis" EXACT []
  synonym: "D-serine formation" EXACT []
  synonym: "D-serine synthesis" EXACT []
@@ -2146,7 +2233,7 @@
  
  [Term]
  id: GO:0070180
-@@ -401237,6 +401425,8 @@
+@@ -401237,6 +401430,8 @@
  xref: RHEA:11388
  xref: RHEA:42200
  xref: RHEA:84079
@@ -2155,7 +2242,7 @@
  xref: Wikipedia:11beta-hydroxysteroid_dehydrogenase
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.146
-@@ -401244,6 +401434,8 @@
+@@ -401244,6 +401439,8 @@
  property_value: skos:exactMatch RHEA:11388
  property_value: skos:narrowMatch RHEA:42200
  property_value: skos:narrowMatch RHEA:84079
@@ -2164,7 +2251,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28173" xsd:anyURI
  
-@@ -409963,7 +410155,6 @@
+@@ -409963,7 +410160,6 @@
  is_a: GO:0000097 ! sulfur amino acid biosynthetic process
  is_a: GO:0009070 ! serine family amino acid biosynthetic process
  is_a: GO:0050667 ! homocysteine metabolic process
@@ -2172,7 +2259,7 @@
  is_a: GO:0170043 ! non-proteinogenic amino acid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31510" xsd:anyURI
  created_by: mah
-@@ -418813,6 +419004,7 @@
+@@ -418813,6 +419009,7 @@
  def: "The process whose specific outcome is the progression of the S1 portion of the proximal convoluted tubule over time, from its formation to the mature structure. The S1 portion is the initial portion of the proximal convoluted tubule and is responsible for avid reabsorption of water and solutes." [GOC:mtg_kidney_jan10, MA:0002612]
  synonym: "S1 development" EXACT [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -2180,7 +2267,7 @@
  relationship: part_of GO:0072019 ! proximal convoluted tubule development
  created_by: mah
  creation_date: 2010-01-25T02:55:57Z
-@@ -418824,6 +419016,7 @@
+@@ -418824,6 +419021,7 @@
  def: "The process whose specific outcome is the progression of the S2 portion of the proximal convoluted tubule over time, from its formation to the mature structure. The S2 portion of the tubule is involved in reabsorption of water and sodium chloride." [GOC:mtg_kidney_jan10, MA:0002613]
  synonym: "S2 development" EXACT [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -2188,7 +2275,7 @@
  relationship: part_of GO:0072019 ! proximal convoluted tubule development
  created_by: mah
  creation_date: 2010-01-25T02:56:36Z
-@@ -418973,6 +419166,7 @@
+@@ -418973,6 +419171,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a collecting duct over time, from its formation to the mature structure. The collecting duct responds to vasopressin and aldosterone to regulate water, electrolyte and acid-base balance. It is the final common path through which urine flows before entering the ureter and then emptying into the bladder." [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -2196,7 +2283,7 @@
  relationship: part_of GO:0001822 ! kidney development
  created_by: mah
  creation_date: 2010-01-25T03:18:06Z
-@@ -419200,6 +419394,7 @@
+@@ -419200,6 +419399,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the long descending thin limb bend over time, from its formation to the mature structure. The long descending thin limb bend is a part of the descending thin limb of a long nephron that lies beyond the prebend segment." [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -2204,7 +2291,7 @@
  relationship: part_of GO:0072064 ! long descending thin limb development
  created_by: mah
  creation_date: 2010-01-25T04:13:38Z
-@@ -419210,6 +419405,7 @@
+@@ -419210,6 +419410,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the prebend segment over time, from its formation to the mature structure. The prebend segment is a part of the descending thin limb that lies before the bend and exhibits permeabilities characteristic of the ascending limb, especially negligible water permeability." [GOC:mtg_kidney_jan10]
  is_a: GO:0035295 ! tube development
@@ -2212,7 +2299,7 @@
  relationship: part_of GO:0072022 ! descending thin limb development
  created_by: mah
  creation_date: 2010-01-25T04:14:02Z
-@@ -422001,10 +422197,11 @@
+@@ -422001,10 +422202,11 @@
  id: GO:0072319
  name: vesicle uncoating
  namespace: biological_process
@@ -2226,7 +2313,7 @@
  created_by: mah
  creation_date: 2010-10-26T12:09:21Z
  
-@@ -423893,6 +424090,7 @@
+@@ -423893,6 +424095,7 @@
  def: "The reproductive developmental process whose specific outcome is the progression of the seminiferous tubule over time, from its formation to the mature structure. Seminiferous tubules are ducts located in the testicles, and are the specific location of meiosis, and the subsequent creation of gametes, namely spermatozoa." [GOC:BHF, GOC:mah, UBERON:0001343]
  is_a: GO:0035295 ! tube development
  is_a: GO:0048608 ! reproductive structure development
@@ -2234,7 +2321,7 @@
  relationship: part_of GO:0008584 ! male gonad development
  created_by: mah
  creation_date: 2011-01-04T12:50:36Z
-@@ -430165,6 +430363,14 @@
+@@ -430165,6 +430368,14 @@
  xref: RHEA:78863
  xref: RHEA:78867
  xref: RHEA:78931
@@ -2249,7 +2336,7 @@
  is_a: GO:0018812 ! 3-hydroxyacyl-CoA dehydratase activity
  property_value: skos:exactMatch EC:4.2.1.119
  property_value: skos:exactMatch MetaCyc:RXN-7699
-@@ -430214,6 +430420,14 @@
+@@ -430214,6 +430425,14 @@
  property_value: skos:narrowMatch RHEA:78863
  property_value: skos:narrowMatch RHEA:78867
  property_value: skos:narrowMatch RHEA:78931
@@ -2264,7 +2351,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24738" xsd:anyURI
  
  [Term]
-@@ -430584,7 +430798,6 @@
+@@ -430584,7 +430803,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the integument over time, from its formation to the mature structure. Integument is one of the layers of tissue that usually covers the ovule, enveloping the nucellus and forming the micropyle at the apex." [PMID:19054366, PO:0020021]
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -2272,7 +2359,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048481 ! plant ovule development
  created_by: dhl
-@@ -430839,7 +431052,6 @@
+@@ -430839,7 +431057,6 @@
  def: "The process whose specific outcome is the progression of the filament over time, from its formation to the mature structure. Filament is the stalk of a stamen." [PMID:19139039, PO:0009067]
  synonym: "filament development" EXACT []
  is_a: GO:0003006 ! developmental process involved in reproduction
@@ -2280,7 +2367,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048443 ! stamen development
  created_by: dhl
-@@ -431766,7 +431978,6 @@
+@@ -431766,7 +431983,6 @@
  def: "The process whose specific outcome is the progression of the stomium over time, from its formation to the mature structure. A stomium is a fissure or pore in the anther lobe through which the pollen is released." [GOC:tb]
  is_a: GO:0003006 ! developmental process involved in reproduction
  is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
@@ -2288,7 +2375,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048653 ! anther development
  created_by: dhl
-@@ -434029,6 +434240,7 @@
+@@ -434029,6 +434245,7 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the hypoblast over time, from its formation to the mature structure. The hypoblast is a tissue formed from the inner cell mass that lies beneath the epiblast." [GOC:dph, GOC:sdb_2009, GOC:tb]
  is_a: GO:0009888 ! tissue development
@@ -2296,7 +2383,7 @@
  created_by: tb
  creation_date: 2009-07-29T10:25:54Z
  
-@@ -435213,7 +435425,7 @@
+@@ -435213,7 +435430,7 @@
  name: regulation of COPII vesicle uncoating
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of COPII vesicle uncoating, the process in which COPII vesicle coat proteins are disassembled, and released." [GOC:ascb_2009, GOC:dph, GOC:tb]
@@ -2305,7 +2392,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0090112 ! COPII vesicle uncoating
  relationship: regulates GO:0090112 ! COPII vesicle uncoating
-@@ -439271,16 +439483,18 @@
+@@ -439271,16 +439488,18 @@
  
  [Term]
  id: GO:0090443
@@ -2325,7 +2412,7 @@
  created_by: tb
  creation_date: 2012-08-23T14:20:39Z
  
-@@ -440386,7 +440600,6 @@
+@@ -440386,7 +440605,6 @@
  name: plant epidermis development
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the plant epidermis over time, from its formation to the mature structure." [GOC:tb]
@@ -2333,7 +2420,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  created_by: tb
  creation_date: 2014-02-27T15:17:37Z
-@@ -458078,7 +458291,6 @@
+@@ -458078,7 +458296,6 @@
  namespace: biological_process
  def: "Development of a plant organ, a multi-tissue plant structure that forms a functional unit." [GOC:dos]
  synonym: "development of a plant organ" EXACT []
@@ -2341,7 +2428,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0048731 ! system development
  
-@@ -461977,6 +462189,7 @@
+@@ -461977,6 +462194,7 @@
  xref: RHEA:45812
  xref: RHEA:79187
  xref: RHEA:83119
@@ -2349,7 +2436,7 @@
  is_a: GO:0080023 ! (2E)-enoyl-CoA hydratase activity
  property_value: skos:exactMatch EC:4.2.1.134
  property_value: skos:exactMatch RHEA:45812
-@@ -461987,6 +462200,7 @@
+@@ -461987,6 +462205,7 @@
  property_value: skos:narrowMatch RHEA:39271
  property_value: skos:narrowMatch RHEA:79187
  property_value: skos:narrowMatch RHEA:83119
@@ -2357,7 +2444,17 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24738" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25805" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -475796,10 +476010,12 @@
+@@ -473461,8 +473680,8 @@
+ is_a: GO:0008080 ! N-acetyltransferase activity
+ is_a: GO:0140640 ! catalytic activity, acting on a nucleic acid
+ property_value: skos:exactMatch RHEA:58480
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16755" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+-property_value: terms:contributor "https://github.com/geneontology/go-ontology/issues/16755" xsd:anyURI
+ created_by: hjd
+ creation_date: 2018-12-18T19:19:06Z
+ 
+@@ -475796,10 +476015,12 @@
  def: "Catalysis of the reaction: a 2'-deoxyribonucleoside 5'-phosphate + dTTP = a 2'-deoxyribonucleoside 5'-diphosphate + dTDP." [PMID:20497505, RHEA:62132]
  xref: RHEA:62132
  xref: RHEA:62152
@@ -2370,7 +2467,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  created_by: hjd
  creation_date: 2021-03-11T20:09:34Z
-@@ -476020,6 +476236,29 @@
+@@ -476020,6 +476241,29 @@
  xref: RHEA:78879
  xref: RHEA:78935
  xref: RHEA:79191
@@ -2400,7 +2497,7 @@
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.n12
  property_value: skos:exactMatch RHEA:32711
-@@ -476040,6 +476279,29 @@
+@@ -476040,6 +476284,29 @@
  property_value: skos:narrowMatch RHEA:78879
  property_value: skos:narrowMatch RHEA:78935
  property_value: skos:narrowMatch RHEA:79191
@@ -2430,7 +2527,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27180" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30577" xsd:anyURI
  created_by: hjd
-@@ -483509,6 +483771,19 @@
+@@ -483509,6 +483776,19 @@
  xref: RHEA:78587
  xref: RHEA:78851
  xref: RHEA:83059
@@ -2450,7 +2547,7 @@
  is_a: GO:0003997 ! acyl-CoA oxidase activity
  property_value: skos:exactMatch RHEA:78851
  property_value: skos:narrowMatch RHEA:38971
-@@ -483518,6 +483793,19 @@
+@@ -483518,6 +483798,19 @@
  property_value: skos:narrowMatch RHEA:78571
  property_value: skos:narrowMatch RHEA:78587
  property_value: skos:narrowMatch RHEA:83059
@@ -2470,7 +2567,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28733" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  created_by: sjm
-@@ -484229,7 +484517,8 @@
+@@ -484229,7 +484522,8 @@
  id: GO:0120571
  name: dihydrolipoyllysine-residue glutaryltransferase activity
  namespace: molecular_function
@@ -2480,7 +2577,7 @@
  is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31280" xsd:anyURI
  created_by: sjm
-@@ -484308,9 +484597,9 @@
+@@ -484308,9 +484602,9 @@
  def: "The chemical reactions and pathways resulting in the breakdown of L-dopa." [MetaCyc:PWY-6334, MetaCyc:PWY-8110]
  xref: MetaCyc:PWY-6334
  xref: MetaCyc:PWY-8110
@@ -2491,7 +2588,7 @@
  is_a: GO:0170044 ! non-proteinogenic amino acid catabolic process
  property_value: skos:narrowMatch MetaCyc:PWY-6334
  property_value: skos:narrowMatch MetaCyc:PWY-8110
-@@ -486355,6 +486644,7 @@
+@@ -486355,6 +486649,7 @@
  xref: RHEA:69028
  xref: RHEA:84155
  xref: RHEA:84199
@@ -2499,7 +2596,7 @@
  xref: RHEA:85551
  xref: RHEA:85559
  is_a: GO:0033764 ! steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
-@@ -486369,6 +486659,7 @@
+@@ -486369,6 +486664,7 @@
  property_value: skos:narrowMatch RHEA:69028
  property_value: skos:narrowMatch RHEA:84155
  property_value: skos:narrowMatch RHEA:84199
@@ -2507,7 +2604,7 @@
  property_value: skos:narrowMatch RHEA:85551
  property_value: skos:narrowMatch RHEA:85559
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29921" xsd:anyURI
-@@ -487248,7 +487539,6 @@
+@@ -487248,7 +487544,6 @@
  subset: goslim_synapse
  is_a: GO:0006897 ! endocytosis
  is_a: GO:0051649 ! establishment of localization in cell
@@ -2515,7 +2612,7 @@
  intersection_of: GO:0006897 ! endocytosis
  intersection_of: occurs_in GO:0098793 ! presynapse
  relationship: occurs_in GO:0098793 ! presynapse
-@@ -487265,7 +487555,6 @@
+@@ -487265,7 +487560,6 @@
  subset: goslim_synapse
  is_a: GO:0006897 ! endocytosis
  is_a: GO:0051649 ! establishment of localization in cell
@@ -2523,7 +2620,7 @@
  intersection_of: GO:0006897 ! endocytosis
  intersection_of: occurs_in GO:0098794 ! postsynapse
  relationship: occurs_in GO:0098794 ! postsynapse
-@@ -489074,7 +489363,6 @@
+@@ -489074,7 +489368,6 @@
  is_a: GO:0042435 ! indole-containing compound biosynthetic process
  is_a: GO:0043386 ! mycotoxin biosynthetic process
  is_a: GO:0090407 ! organophosphate biosynthetic process
@@ -2531,7 +2628,7 @@
  is_a: GO:0170039 ! proteinogenic amino acid metabolic process
  relationship: has_part GO:0036469 ! L-tryptophan decarboxylase activity
  relationship: has_part GO:0140381 ! 4-hydroxytryptamine 4-phosphate methyltransferase activity
-@@ -489388,8 +489676,10 @@
+@@ -489388,8 +489681,10 @@
  id: GO:0140401
  name: 4-phosphoerythronate phosphatase activity
  namespace: molecular_function
@@ -2543,7 +2640,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31118" xsd:anyURI
  created_by: pg
  creation_date: 2026-04-02T12:52:47Z
-@@ -502468,7 +502758,7 @@
+@@ -502468,7 +502763,7 @@
  namespace: biological_process
  def: "A developmental process whose specific outcome is the progression of a gross anatomical part of a plant over time from an initial condition to a later condition." [GOC:pg]
  synonym: "plant development" RELATED []
@@ -2552,7 +2649,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22994" xsd:anyURI
  created_by: rynl
  creation_date: 2023-09-18T20:55:06Z
-@@ -504774,11 +505064,14 @@
+@@ -504774,11 +505069,14 @@
  
  [Term]
  id: GO:0160294
@@ -2570,7 +2667,7 @@
  created_by: rynl
  creation_date: 2025-08-04T16:38:59Z
  
-@@ -505343,47 +505636,48 @@
+@@ -505343,47 +505641,48 @@
  
  [Term]
  id: GO:0170033
@@ -2633,7 +2730,7 @@
  created_by: ew
  creation_date: 2023-11-21T00:55:07Z
  
-@@ -548441,7 +548735,7 @@
+@@ -548441,7 +548740,7 @@
  synonym: "erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthesis" EXACT [GOC:TermGenie]
  synonym: "erythrose 4-phosphate/phosphoenolpyruvate family amino acid formation" EXACT [GOC:TermGenie]
  synonym: "erythrose 4-phosphate/phosphoenolpyruvate family amino acid synthesis" EXACT [GOC:TermGenie]
@@ -2642,7 +2739,7 @@
  is_a: GO:0170038 ! proteinogenic amino acid biosynthetic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29444" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31371" xsd:anyURI
-@@ -569680,7 +569974,7 @@
+@@ -569680,7 +569979,7 @@
  def: "Any process that modulates the frequency, rate or extent of synaptic vesicle uncoating." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:21563316]
  synonym: "regulation of synaptic vesicle coat depolymerization" EXACT [GOC:TermGenie]
  synonym: "regulation of synaptic vesicle coat protein depolymerization" EXACT [GOC:TermGenie]
@@ -2651,7 +2748,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0016191 ! synaptic vesicle uncoating
  relationship: regulates GO:0016191 ! synaptic vesicle uncoating
-@@ -569706,8 +570000,8 @@
+@@ -569706,8 +570005,8 @@
  synonym: "inhibition of synaptic vesicle uncoating" NARROW [GOC:TermGenie]
  synonym: "negative regulation of synaptic vesicle coat depolymerization" EXACT [GOC:TermGenie]
  synonym: "negative regulation of synaptic vesicle coat protein depolymerization" EXACT [GOC:TermGenie]
@@ -2661,7 +2758,7 @@
  is_a: GO:1903388 ! regulation of synaptic vesicle uncoating
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0016191 ! synaptic vesicle uncoating
-@@ -569734,7 +570028,7 @@
+@@ -569734,7 +570033,7 @@
  synonym: "upregulation of synaptic vesicle coat depolymerization" EXACT [GOC:TermGenie]
  synonym: "upregulation of synaptic vesicle coat protein depolymerization" EXACT [GOC:TermGenie]
  synonym: "upregulation of synaptic vesicle uncoating" EXACT [GOC:TermGenie]
@@ -2670,7 +2767,7 @@
  is_a: GO:1903388 ! regulation of synaptic vesicle uncoating
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0016191 ! synaptic vesicle uncoating
-@@ -578707,7 +579001,6 @@
+@@ -578707,7 +579006,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a palisade mesophyll over time, from its formation to the mature structure." [GO_REF:0000080, GOC:TermGenie, PMID:24663344]
  synonym: "palisade parenchyma development" RELATED [GOC:TermGenie]
@@ -2678,7 +2775,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  created_by: tb
  creation_date: 2015-02-04T21:51:44Z
-@@ -603683,6 +603976,7 @@
+@@ -603683,6 +603981,7 @@
  def: "The process whose specific outcome is the progression of cardiac jelly over time, from its formation to the mature structure. The cardiac jelly is an acellular gelatinous matrix secreted by the myocardium and plays a central role in the septation of the heart." [GO_REF:0000094, GOC:BHF, GOC:rl, GOC:TermGenie, PMID:10645959, PMID:16314491, PMID:19703439]
  synonym: "heart cardiac jelly development" EXACT [GOC:TermGenie]
  is_a: GO:0009888 ! tissue development
@@ -2686,7 +2783,7 @@
  relationship: part_of GO:0007507 ! heart development
  created_by: rl
  creation_date: 2016-03-23T13:17:59Z
-@@ -608398,7 +608692,6 @@
+@@ -608398,7 +608697,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of a septum over time, from its formation to the mature structure." [GO_REF:0000080, GOC:tb, GOC:TermGenie, PMID:4562349]
  synonym: "dissepiment development" BROAD [GOC:TermGenie]
@@ -2694,7 +2791,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  created_by: tb
  creation_date: 2016-07-21T18:25:49Z
-@@ -609218,7 +609511,6 @@
+@@ -609218,7 +609516,6 @@
  namespace: cellular_component
  def: "A protein complex which is capable of beta-N-acetylhexosaminidase activity." [GO_REF:0000088, GOC:bhm, GOC:TermGenie, PMID:6458607]
  comment: An example of this is HEXB in human (UniProt symbol P07686) in PMID:6458607 (inferred from direct assay).
@@ -2702,7 +2799,7 @@
  synonym: "HEX B complex" NARROW []
  synonym: "HEX S complex" NARROW []
  is_a: GO:1902494 ! catalytic complex
-@@ -619296,6 +619588,7 @@
+@@ -619296,6 +619593,7 @@
  def: "The process whose specific outcome is the progression of an epididymis over time, from its formation to the mature structure." [GO_REF:0000094, GOC:TermGenie, PMID:12388089]
  synonym: "epididymus development" EXACT [GOC:TermGenie]
  is_a: GO:0035295 ! tube development
@@ -2710,7 +2807,7 @@
  created_by: sl
  creation_date: 2017-01-27T00:00:33Z
  
-@@ -621719,7 +622012,6 @@
+@@ -621719,7 +622017,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the fruit replum over time, from its formation to the mature structure. The fruit replum is a portion of fruit placenta tissue that divides a fruit into two or more chambers and develops from a replum." [PMID:23133401, PO:0025267]
  is_a: GO:0009791 ! post-embryonic development
@@ -2718,7 +2815,7 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0010154 ! fruit development
  created_by: dhl
-@@ -621731,7 +622023,6 @@
+@@ -621731,7 +622028,6 @@
  namespace: biological_process
  def: "The process whose specific outcome is the progression of the fruit valve over time, from its formation to the mature structure. The fruit valve is a part of a fruit that splits apart when the fruit dehisces." [PMID:23133401, PO:0000033]
  is_a: GO:0009791 ! post-embryonic development
@@ -2726,7 +2823,47 @@
  is_a: GO:0160109 ! plant gross anatomical part developmental process
  relationship: part_of GO:0010154 ! fruit development
  created_by: dhl
-@@ -650307,7 +650598,9 @@
+@@ -650246,6 +650542,7 @@
+ def: "The process in which relatively unspecialized cells acquire specialized structural and/or functional features of an intestinal enterochromaffin enteroendocrine cell. Enterochromaffin enteroendocrine cells are found in the gastrointestinal mucosa and secrete serotonin and some neurotransmitters including enkephalins and substance P." [PMID:37883554]
+ synonym: "type EC enteroendocrine cell differentiation" EXACT []
+ is_a: GO:0035883 ! enteroendocrine cell differentiation
++is_a: GO:0061101 ! neuroendocrine cell differentiation
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30979" xsd:anyURI
+ created_by: dragon-ai-agent
+ creation_date: 2025-10-31T00:00:00Z
+@@ -650256,6 +650553,7 @@
+ namespace: biological_process
+ def: "The process in which relatively unspecialized cells acquire specialized structural and/or functional features of an intestinal type G enteroendocrine cell. Intestinal type G enteroendocrine cells are found in the stomach and duodenum and are responsible for the secretion of gastrin and enkephalin." [PMID:37883554]
+ is_a: GO:0035883 ! enteroendocrine cell differentiation
++is_a: GO:0061101 ! neuroendocrine cell differentiation
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30979" xsd:anyURI
+ created_by: dragon-ai-agent
+ creation_date: 2025-10-31T00:00:00Z
+@@ -650267,6 +650565,7 @@
+ def: "The process in which relatively unspecialized cells acquire specialized structural and/or functional features of an intestinal type I enteroendocrine cell. Intestinal type I enteroendocrine cells are found in the duodenum and jejunum and secrete cholecystokinin." [GOC:TermGenie, PMID:37883554]
+ synonym: "CCK cell differentiation" EXACT []
+ is_a: GO:0035883 ! enteroendocrine cell differentiation
++is_a: GO:0060575 ! intestinal epithelial cell differentiation
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30979" xsd:anyURI
+ created_by: dragon-ai-agent
+ creation_date: 2025-10-31T00:00:00Z
+@@ -650277,6 +650576,7 @@
+ namespace: biological_process
+ def: "The process in which relatively unspecialized cells acquire specialized structural and/or functional features of an intestinal type L enteroendocrine cell. Intestinal type L enteroendocrine cells are found in ileum and large intestine and secrete glucagon-like peptides." [PMID:37883554]
+ is_a: GO:0035883 ! enteroendocrine cell differentiation
++is_a: GO:0060575 ! intestinal epithelial cell differentiation
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30979" xsd:anyURI
+ created_by: dragon-ai-agent
+ creation_date: 2025-10-31T00:00:00Z
+@@ -650287,6 +650587,7 @@
+ namespace: biological_process
+ def: "The process in which relatively unspecialized cells acquire specialized structural and/or functional features of an intestinal type N enteroendocrine cell. Intestinal type N enteroendocrine cells are found in the ileum and jejunum and secrete neurotensin." [PMID:37883554]
+ is_a: GO:0035883 ! enteroendocrine cell differentiation
++is_a: GO:0060575 ! intestinal epithelial cell differentiation
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30979" xsd:anyURI
+ created_by: dragon-ai-agent
+ creation_date: 2025-10-31T00:00:00Z
+@@ -650307,7 +650608,9 @@
  name: N(6),N(6),N(6)-trimethyl-L-lysine transmembrane transporter activity
  namespace: molecular_function
  def: "Enables the transfer of N(6),N(6),N(6)-trimethyl-L-lysine from one side of a membrane to the other." [PMID:41075780, PMID:41075794]
@@ -2736,7 +2873,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30986" xsd:anyURI
  created_by: dragon-ai-agent
  
-@@ -650317,8 +650610,10 @@
+@@ -650317,8 +650620,10 @@
  namespace: molecular_function
  def: "Enables the transfer of dimethylarginine from one side of a membrane to the other." [PMID:41075780, PMID:41075794]
  xref: RHEA:75047
@@ -2747,7 +2884,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30986" xsd:anyURI
  created_by: dragon-ai-agent
  
-@@ -650977,6 +651272,71 @@
+@@ -650977,6 +651282,71 @@
  created_by: dragon-ai-agent
  creation_date: 2026-05-22T09:23:32Z
  

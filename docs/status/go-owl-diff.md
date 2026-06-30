@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-29/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-30/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-29" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-30" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -267,6 +267,12 @@
 - [CLIC/GEEC-mediated endocytosis](http://purl.obolibrary.org/obo/GO_7770084) [label](http://www.w3.org/2000/01/rdf-schema#label) "CLIC/GEEC-mediated endocytosis" 
 
 - [CLIC/GEEC-mediated endocytosis](http://purl.obolibrary.org/obo/GO_7770084) SubClassOf [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) 
+
+
+### Cajal-Retzius cell differentiation `http://purl.obolibrary.org/obo/GO_0021870`
+
+#### Added
+- [Cajal-Retzius cell differentiation](http://purl.obolibrary.org/obo/GO_0021870) SubClassOf [glutamatergic neuron differentiation](http://purl.obolibrary.org/obo/GO_1905962) 
 
 
 ### D-alanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030632`
@@ -757,6 +763,12 @@
 
 
 
+### T follicular helper cell differentiation `http://purl.obolibrary.org/obo/GO_0061470`
+
+#### Added
+- [T follicular helper cell differentiation](http://purl.obolibrary.org/obo/GO_0061470) SubClassOf [exhausted T cell differentiation](http://purl.obolibrary.org/obo/GO_0160083) 
+
+
 ### acetyl-CoA C-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0003988`
 
 #### Added
@@ -1042,6 +1054,18 @@
 
 #### Added
 - [cardiac jelly development](http://purl.obolibrary.org/obo/GO_1905072) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### cerebellar Purkinje cell differentiation `http://purl.obolibrary.org/obo/GO_0021702`
+
+#### Added
+- [cerebellar Purkinje cell differentiation](http://purl.obolibrary.org/obo/GO_0021702) SubClassOf [GABAergic neuron differentiation](http://purl.obolibrary.org/obo/GO_0097154) 
+
+
+### cerebellar stellate cell differentiation `http://purl.obolibrary.org/obo/GO_0021710`
+
+#### Added
+- [cerebellar stellate cell differentiation](http://purl.obolibrary.org/obo/GO_0021710) SubClassOf [GABAergic neuron differentiation](http://purl.obolibrary.org/obo/GO_0097154) 
 
 
 ### chitin-based cuticle development `http://purl.obolibrary.org/obo/GO_0040003`
@@ -1421,6 +1445,22 @@
 
 
 
+### follicular dendritic cell activation `http://purl.obolibrary.org/obo/GO_0002266`
+#### Removed
+- [follicular dendritic cell activation](http://purl.obolibrary.org/obo/GO_0002266) SubClassOf [cell activation](http://purl.obolibrary.org/obo/GO_0001775) 
+
+#### Added
+- [follicular dendritic cell activation](http://purl.obolibrary.org/obo/GO_0002266) SubClassOf [leukocyte activation](http://purl.obolibrary.org/obo/GO_0045321) 
+
+
+### follicular dendritic cell differentiation `http://purl.obolibrary.org/obo/GO_0002268`
+#### Removed
+- [follicular dendritic cell differentiation](http://purl.obolibrary.org/obo/GO_0002268) SubClassOf [cell differentiation](http://purl.obolibrary.org/obo/GO_0030154) 
+
+#### Added
+- [follicular dendritic cell differentiation](http://purl.obolibrary.org/obo/GO_0002268) SubClassOf [dendritic cell differentiation](http://purl.obolibrary.org/obo/GO_0097028) 
+
+
 ### fruit replum development `http://purl.obolibrary.org/obo/GO_1990058`
 #### Removed
 - [fruit replum development](http://purl.obolibrary.org/obo/GO_1990058) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
@@ -1495,6 +1535,36 @@
 #### Removed
 - [integument development](http://purl.obolibrary.org/obo/GO_0080060) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+
+
+### intestinal enterochromaffin enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770020`
+
+#### Added
+- [intestinal enterochromaffin enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770020) SubClassOf [neuroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_0061101) 
+
+
+### intestinal type G enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770021`
+
+#### Added
+- [intestinal type G enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770021) SubClassOf [neuroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_0061101) 
+
+
+### intestinal type I enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770022`
+
+#### Added
+- [intestinal type I enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770022) SubClassOf [intestinal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060575) 
+
+
+### intestinal type L enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770023`
+
+#### Added
+- [intestinal type L enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770023) SubClassOf [intestinal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060575) 
+
+
+### intestinal type N enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770024`
+
+#### Added
+- [intestinal type N enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770024) SubClassOf [intestinal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060575) 
 
 
 ### lateral line development `http://purl.obolibrary.org/obo/GO_0048882`
@@ -1575,6 +1645,14 @@
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86487](http://rdf.rhea-db.org/86487) 
 
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86591](http://rdf.rhea-db.org/86591) 
+
+
+### mRNA cytidine N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0106162`
+#### Removed
+- [mRNA cytidine N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0106162) [terms_contributor](http://purl.obolibrary.org/obo/terms_contributor) "https://github.com/geneontology/go-ontology/issues/16755"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+#### Added
+- [mRNA cytidine N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0106162) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/16755"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### maintenance of pole plasm mRNA location `http://purl.obolibrary.org/obo/GO_0046594`
@@ -1921,6 +1999,30 @@
 - [nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this represents a GO-CAM." 
 
 - [nitrogen catabolite repression of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0001081) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nitrogen catabolite repression of transcription from RNA polymerase II promoter" 
+
+
+### olfactory bulb interneuron development `http://purl.obolibrary.org/obo/GO_0021891`
+#### Removed
+- [olfactory bulb interneuron development](http://purl.obolibrary.org/obo/GO_0021891) SubClassOf [forebrain neuron development](http://purl.obolibrary.org/obo/GO_0021884) 
+
+#### Added
+- [olfactory bulb interneuron development](http://purl.obolibrary.org/obo/GO_0021891) SubClassOf [central nervous system neuron development](http://purl.obolibrary.org/obo/GO_0021954) 
+
+
+### olfactory bulb interneuron differentiation `http://purl.obolibrary.org/obo/GO_0021889`
+#### Removed
+- [olfactory bulb interneuron differentiation](http://purl.obolibrary.org/obo/GO_0021889) SubClassOf [forebrain neuron differentiation](http://purl.obolibrary.org/obo/GO_0021879) 
+
+#### Added
+- [olfactory bulb interneuron differentiation](http://purl.obolibrary.org/obo/GO_0021889) SubClassOf [central nervous system neuron differentiation](http://purl.obolibrary.org/obo/GO_0021953) 
+
+
+### olfactory bulb tufted cell development `http://purl.obolibrary.org/obo/GO_0061449`
+#### Removed
+- [olfactory bulb tufted cell development](http://purl.obolibrary.org/obo/GO_0061449) SubClassOf [forebrain neuron development](http://purl.obolibrary.org/obo/GO_0021884) 
+
+#### Added
+- [olfactory bulb tufted cell development](http://purl.obolibrary.org/obo/GO_0061449) SubClassOf [central nervous system neuron development](http://purl.obolibrary.org/obo/GO_0021954) 
 
 
 ### otolith mineralization `http://purl.obolibrary.org/obo/GO_0045299`
@@ -2747,6 +2849,12 @@
 - [symbiont-mediated perturbation of host receptor-mediated endocytosis](http://purl.obolibrary.org/obo/GO_0044077) SubClassOf [symbiont-mediated perturbation of host process](http://purl.obolibrary.org/obo/GO_0044003) 
 
 
+### terms_contributor `http://purl.obolibrary.org/obo/terms_contributor`
+#### Removed
+- AnnotationProperty: [terms_contributor](http://purl.obolibrary.org/obo/terms_contributor) 
+
+
+
 ### tissue development `http://purl.obolibrary.org/obo/GO_0009888`
 #### Removed
 - [tissue development](http://purl.obolibrary.org/obo/GO_0009888) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
@@ -2787,6 +2895,16 @@
 
 #### Added
 - [tube development](http://purl.obolibrary.org/obo/GO_0035295) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
+
+
+### type II pneumocyte differentiation `http://purl.obolibrary.org/obo/GO_0060510`
+#### Removed
+- [type II pneumocyte differentiation](http://purl.obolibrary.org/obo/GO_0060510) SubClassOf [lung secretory cell differentiation](http://purl.obolibrary.org/obo/GO_0061140) 
+
+#### Added
+- [type II pneumocyte differentiation](http://purl.obolibrary.org/obo/GO_0060510) SubClassOf [columnar/cuboidal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0002065) 
+
+- [type II pneumocyte differentiation](http://purl.obolibrary.org/obo/GO_0060510) SubClassOf [lung epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060487) 
 
 
 ### ureter part of ureteric bud development `http://purl.obolibrary.org/obo/GO_0035503`
