@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-06-30/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-01/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-30" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-01" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -2847,6 +2847,124 @@
 
 #### Added
 - [symbiont-mediated perturbation of host receptor-mediated endocytosis](http://purl.obolibrary.org/obo/GO_0044077) SubClassOf [symbiont-mediated perturbation of host process](http://purl.obolibrary.org/obo/GO_0044003) 
+
+
+### symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway `http://purl.obolibrary.org/obo/GO_0039537`
+#### Removed
+- [symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0039537) [label](http://www.w3.org/2000/01/rdf-schema#label) "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway" 
+
+#### Added
+- [symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0039537) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway" 
+
+- [symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0039537) [label](http://www.w3.org/2000/01/rdf-schema#label) "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway" 
+
+
+### symbiont-mediated suppression of host TRAF-mediated signal transduction `http://purl.obolibrary.org/obo/GO_0039527`
+#### Removed
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which a symbiont interferes with, inhibits or disrupts a TRAF-mediated signal transduction pathway in the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31311877" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33372174" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20335533" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28522607" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27387501" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [label](http://www.w3.org/2000/01/rdf-schema#label) "symbiont-mediated suppression of host TRAF-mediated signal transduction" 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) SubClassOf [symbiont-mediated suppression of host signal transduction pathway](http://purl.obolibrary.org/obo/GO_0052029) 
+
+#### Added
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which a symbiont interferes with, inhibits or disrupts a TRAF-mediated signal transduction pathway in the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31311877" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33372174" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20335533" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28522607" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27387501" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it does not correspond to a specific pathway. Consider symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity ; GO:0140476 and symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity ; GO:0140470." 
+
+- [symbiont-mediated suppression of host TRAF-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0039527) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete symbiont-mediated suppression of host TRAF-mediated signal transduction" 
+
+
+### symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity `http://purl.obolibrary.org/obo/GO_0140476`
+
+#### Added
+- Class: [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32257"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-30T13:02:54Z" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "suppression by virus of host viral-induced cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inhibition of host TRAF by virus" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "suppression by virus of host TRAF activity" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140476" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which a symbiont interferes with, inhibits or disrupts a cytoplasmic pattern recognition receptor signaling pathway by reducing the activity of host TRAF activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36814922" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36845015" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) [label](http://www.w3.org/2000/01/rdf-schema#label) "symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity" 
+
+- [symbiont-mediated suppression of host cytoplasmic pattern recognition receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140476) SubClassOf [symbiont-mediated suppression of cytoplasmic pattern recognition receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0039537) 
+
+
+### symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity `http://purl.obolibrary.org/obo/GO_0140470`
+
+#### Added
+- Class: [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32257"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-06-30T12:56:30Z" 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140470" 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which a symbiont interferes with, inhibits or disrupt a toll-like receptor signaling pathway in the host organism by reducing the activity of host TRAF." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32983084" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36845015" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17349955" 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) [label](http://www.w3.org/2000/01/rdf-schema#label) "symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity" 
+
+- [symbiont-mediated suppression of host toll-like receptor signaling pathway via inhibition of TRAF activity](http://purl.obolibrary.org/obo/GO_0140470) SubClassOf [symbiont-mediated suppression of host toll-like receptor signaling pathway](http://purl.obolibrary.org/obo/GO_0039722) 
 
 
 ### terms_contributor `http://purl.obolibrary.org/obo/terms_contributor`
