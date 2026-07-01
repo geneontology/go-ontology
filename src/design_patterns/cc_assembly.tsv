@@ -129,6 +129,7 @@ http://purl.obolibrary.org/obo/GO_0070649	formin-nucleated actin cable assembly	
 http://purl.obolibrary.org/obo/GO_0071940	fungal-type cell wall assembly	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
 http://purl.obolibrary.org/obo/GO_1902481	gamma-tubulin complex assembly	http://purl.obolibrary.org/obo/GO_0000930	gamma-tubulin complex
 http://purl.obolibrary.org/obo/GO_0016264	gap junction assembly	http://purl.obolibrary.org/obo/GO_0005921	gap junction
+http://purl.obolibrary.org/obo/GO_0007315	germ plasm assembly	http://purl.obolibrary.org/obo/GO_0060293	germ plasm
 http://purl.obolibrary.org/obo/GO_0090391	granum assembly	http://purl.obolibrary.org/obo/GO_0009542	granum
 http://purl.obolibrary.org/obo/GO_1902900	gut granule assembly	http://purl.obolibrary.org/obo/GO_0044840	gut granule
 http://purl.obolibrary.org/obo/GO_0031581	hemidesmosome assembly	http://purl.obolibrary.org/obo/GO_0030056	hemidesmosome
@@ -199,7 +200,6 @@ http://purl.obolibrary.org/obo/GO_0034377	plasma lipoprotein particle assembly	h
 http://purl.obolibrary.org/obo/GO_0120031	plasma membrane bounded cell projection assembly	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
 http://purl.obolibrary.org/obo/GO_0044854	plasma membrane raft assembly	http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft
 http://purl.obolibrary.org/obo/GO_0071800	podosome assembly	http://purl.obolibrary.org/obo/GO_0002102	podosome
-http://purl.obolibrary.org/obo/GO_0007315	pole plasm assembly	http://purl.obolibrary.org/obo/GO_0045495	pole plasm
 http://purl.obolibrary.org/obo/GO_0062075	pollen aperture formation	http://purl.obolibrary.org/obo/GO_0062074	pollen aperture
 http://purl.obolibrary.org/obo/GO_0010584	pollen exine formation	http://purl.obolibrary.org/obo/GO_0043668	exine
 http://purl.obolibrary.org/obo/GO_0160030	pollen intine formation	http://purl.obolibrary.org/obo/GO_0043678	intine

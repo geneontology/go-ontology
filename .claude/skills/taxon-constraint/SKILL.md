@@ -1,6 +1,6 @@
 ---
 name: taxon-constraint
-description: For working with GO taxon constraints (TCs) using onlyin:/neverin: superclass assertions
+description: "For working with GO taxon constraints (TCs) using onlyin:/neverin: superclass assertions"
 ---
 
 Taxon constraints are edited directly in `src/ontology/go-edit.obo`.
