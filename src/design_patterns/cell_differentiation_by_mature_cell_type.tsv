@@ -91,7 +91,7 @@ http://purl.obolibrary.org/obo/GO_0001751	compound eye photoreceptor cell differ
 http://purl.obolibrary.org/obo/GO_1904390	cone retinal bipolar cell differentiation	http://purl.obolibrary.org/obo/CL_0000752	cone retinal bipolar cell
 http://purl.obolibrary.org/obo/GO_0060128	corticotropin hormone secreting cell differentiation	http://purl.obolibrary.org/obo/CL_0000467	adrenocorticotropic hormone secreting cell
 http://purl.obolibrary.org/obo/GO_0042688	crystal cell differentiation	http://purl.obolibrary.org/obo/CL_0000392	crystal cell
-http://purl.obolibrary.org/obo/GO_0001549	cumulus cell differentiation	http://purl.obolibrary.org/obo/CL_0000711	cumulus cell
+http://purl.obolibrary.org/obo/GO_0001549	cumulus cell differentiation	http://purl.obolibrary.org/obo/CL_0000711	cumulus granulosa cell
 http://purl.obolibrary.org/obo/GO_0048774	cyanophore differentiation	http://purl.obolibrary.org/obo/CL_0000747	cyanophore
 http://purl.obolibrary.org/obo/GO_0045065	cytotoxic T cell differentiation	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell
 http://purl.obolibrary.org/obo/GO_0097028	dendritic cell differentiation	http://purl.obolibrary.org/obo/CL_0000451	dendritic cell
@@ -148,8 +148,13 @@ http://purl.obolibrary.org/obo/GO_0002327	immature B cell differentiation	http:/
 http://purl.obolibrary.org/obo/GO_0001826	inner cell mass cell differentiation	http://purl.obolibrary.org/obo/CL_2000020	inner cell mass cell
 http://purl.obolibrary.org/obo/GO_0042491	inner ear auditory receptor cell differentiation	http://purl.obolibrary.org/obo/CL_0000202	auditory hair cell
 http://purl.obolibrary.org/obo/GO_0061453	interstitial cell of Cajal differentiation	http://purl.obolibrary.org/obo/CL_0002088	interstitial cell of Cajal
+http://purl.obolibrary.org/obo/GO_7770020	intestinal enterochromaffin enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0000577	type EC enteroendocrine cell
 http://purl.obolibrary.org/obo/GO_0060575	intestinal epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0002563	intestinal epithelial cell
 http://purl.obolibrary.org/obo/GO_7770025	intestinal type D enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0000502	type D enteroendocrine cell
+http://purl.obolibrary.org/obo/GO_7770021	intestinal type G enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0000508	type G enteroendocrine cell
+http://purl.obolibrary.org/obo/GO_7770022	intestinal type I enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0002277	type I enteroendocrine cell
+http://purl.obolibrary.org/obo/GO_7770023	intestinal type L enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0002279	type L enteroendocrine cell
+http://purl.obolibrary.org/obo/GO_7770024	intestinal type N enteroendocrine cell differentiation	http://purl.obolibrary.org/obo/CL_0002280	type N enteroendocrine cell
 http://purl.obolibrary.org/obo/GO_0062236	ionocyte differentiation	http://purl.obolibrary.org/obo/CL_0005006	ionocyte
 http://purl.obolibrary.org/obo/GO_0050935	iridophore differentiation	http://purl.obolibrary.org/obo/CL_0000431	iridophore
 http://purl.obolibrary.org/obo/GO_0072052	juxtaglomerulus cell differentiation	http://purl.obolibrary.org/obo/CL_1000618	juxtaglomerular complex cell
@@ -196,7 +201,7 @@ http://purl.obolibrary.org/obo/GO_0072248	metanephric podocyte differentiation	h
 http://purl.obolibrary.org/obo/GO_0014004	microglia differentiation	http://purl.obolibrary.org/obo/CL_0000129	microglial cell
 http://purl.obolibrary.org/obo/GO_1904948	midbrain dopaminergic neuron differentiation	http://purl.obolibrary.org/obo/CL_2000097	midbrain dopaminergic neuron
 http://purl.obolibrary.org/obo/GO_0030224	monocyte differentiation	http://purl.obolibrary.org/obo/CL_0000576	monocyte
-http://purl.obolibrary.org/obo/GO_1903131	mononuclear cell differentiation	http://purl.obolibrary.org/obo/CL_0000842	mononuclear cell
+http://purl.obolibrary.org/obo/GO_1903131	mononuclear cell differentiation	http://purl.obolibrary.org/obo/CL_0000842	mononuclear leukocyte
 http://purl.obolibrary.org/obo/GO_1903251	multi-ciliated epithelial cell differentiation	http://purl.obolibrary.org/obo/CL_0005012	multiciliated epithelial cell
 http://purl.obolibrary.org/obo/GO_0072674	multinuclear osteoclast differentiation	http://purl.obolibrary.org/obo/CL_0000779	multinuclear osteoclast
 http://purl.obolibrary.org/obo/GO_0042692	muscle cell differentiation	http://purl.obolibrary.org/obo/CL_0000187	muscle cell
