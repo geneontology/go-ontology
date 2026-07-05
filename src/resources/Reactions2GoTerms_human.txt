@@ -386,11 +386,11 @@ R-HSA-1482696	1-acyl LPC is hydrolyzed to GPCho by PLA2G4C	GO:0004622
 R-HSA-1482745	PG is hydrolyzed to 1-acyl LPG by PLA2G4B (IM)	GO:0004623
 R-HSA-1482759	MLCL is hydrolyzed to DLCL by PLA2G4A (IM)	GO:0004623
 R-HSA-1482771	PS is hydrolyzed to 1-acyl LPS by PLA2[9]	GO:0004623
-R-HSA-1482775	MLCL is acylated to CL by HADH (IM)	GO:0008374
+R-HSA-1482775	MLCL is acylated to CL by HADH (IM)	GO:0016747
 R-HSA-1482776	PS is hydrolyzed to 1-acyl LPS by PLA2G2A	GO:0004623
 R-HSA-1482777	TAG is hydrolyzed to DAG by PNPLA2/3	GO:0004806
 R-HSA-1482778	CL is hydrolyzed to MLCL by PLA2G6 (IM)	GO:0004623
-R-HSA-1482781	MLCL and PC are converted to CL and 1-acyl LPC by TAZ (IM) (Reversible)	GO:0008374
+R-HSA-1482781	MLCL and PC are converted to CL and 1-acyl LPC by TAZ (IM) (Reversible)	GO:0016747
 R-HSA-1482794	CL and 1-acyl LPC are converted to MLCL and PC by TAZ (IM) (Reversible)	GO:0047184
 R-HSA-1482811	DAG is hydrolyzed to 2-MAG by PNPLA2/3	GO:0004465
 R-HSA-1482816	PC is hydrolyzed to 1-acyl LPC by PLA2[6]	GO:0004623
@@ -398,11 +398,11 @@ R-HSA-1482825	PI is hydrolyzed to 1-acyl LPI by PLA2[11]	GO:0004623
 R-HSA-1482827	PC is hydrolyzed to 2-acyl LPC by PLA2G4C	GO:0008970
 R-HSA-1482828	PE is hydrolyzed to 2-acyl LPE by PLA2[4]	GO:0008970
 R-HSA-1482847	PG is hydrolysed to 2-acyl LPG by PLA2G4B (IM)	GO:0008970
-R-HSA-1482850	MLCL and PE are converted to CL and 1-acyl LPE by TAZ (IM) (Reversible)	GO:0008374
+R-HSA-1482850	MLCL and PE are converted to CL and 1-acyl LPE by TAZ (IM) (Reversible)	GO:0016747
 R-HSA-1482856	PC is hydrolyzed to 1-acyl LPC by PLA2[5]	GO:0004623
-R-HSA-1482861	MLCL is acylated to CL by LCLAT1 (ER)	GO:0008374
+R-HSA-1482861	MLCL is acylated to CL by LCLAT1 (ER)	GO:0016747
 R-HSA-1482862	PC is hydrolysed to 2-acyl LPC by PLA2[7]	GO:0008970
-R-HSA-1482867	DLCL is acylated to MLCL by LCLAT1 (ER)	GO:0008374
+R-HSA-1482867	DLCL is acylated to MLCL by LCLAT1 (ER)	GO:0016747
 R-HSA-1482868	PI is hydrolyzed to 1-acyl LPI by PLA2[12]	GO:0004623
 R-HSA-1482884	PE is hydrolyzed to 1-acyl LPE by PLA2[2]	GO:0004623
 R-HSA-1482887	PE is hydrolyzed to 1-acyl LPE by PLA2[3]	GO:0004623
@@ -606,7 +606,7 @@ R-HSA-1614665	SQR oxidizes sulfide to bound persulfide	GO:0070224
 R-HSA-162363	p-T309,S474-AKT2:PIP3 phosphorylates PDE3B	GO:0004674
 R-HSA-162425	p-S295-PDE3B hydrolyses cAMP to AMP	GO:0004114
 R-HSA-162657	Inactivation of Myt1 kinase	GO:0004674
-R-HSA-162683	glucosaminyl-PI + fatty acyl-CoA -> glucosaminyl-acyl-PI + CoA-SH	GO:0008374
+R-HSA-162683	glucosaminyl-PI + fatty acyl-CoA -> glucosaminyl-acyl-PI + CoA-SH	GO:0016747
 R-HSA-162721	dolichyl phosphate + GDP-alpha-D-mannose -> dolichyl phosphate D-mannose	GO:0004582
 R-HSA-162729	uPAR-acyl-GPI + H2O -> uPAR + long-chain fatty acid	GO:0016788
 R-HSA-162730	phosphatidylinositol + UDP-N-acetyl-D-glucosamine -> N-acetylglucosaminyl-PI + UDP	GO:0008194
@@ -640,7 +640,6 @@ R-HSA-163568	phosphorylated perilipin + H2O -> perilipin + orthophosphate	GO:000
 R-HSA-163595	2-acylglycerol + H2O -> glycerol + fatty acid	GO:0047372
 R-HSA-163617	G alpha (s) activates adenylate cyclase	GO:0010856
 R-HSA-163625	Glucagon binds to Glucagon receptor	GO:0004967
-R-HSA-163666	Formation of ChREBP:MLX heterodimer	GO:0003700
 R-HSA-163672	Phosphorylation of ChREBP at Thr(653) by PKA	GO:0004691
 R-HSA-163676	Phosphorylation of pChREBP (Thr 653) at Ser(196) by PKA	GO:0004691
 R-HSA-163688	Dephosphorylation of pChREBP (Thr 666) by PP2A	GO:0008195
@@ -686,6 +685,7 @@ R-HSA-165162	Phosphorylation of TSC2 by AKT (PKB)	GO:0004674
 R-HSA-165182	Phosphorylation of complexed TSC2 by PKB	GO:0004674
 R-HSA-1655443	PXKLP-K305-CSAD decarboxylates 3-sulfinoalanine to hypotaurine	GO:0004782
 R-HSA-1655453	FMO1:FAD oxidizes HTAU to TAU	GO:0047822
+R-HSA-1655825	SREBP1A,1C,2:SCAP binds CopII Coat Complex	GO:0140312
 R-HSA-1655842	S1P hydrolyzes SREBP1A,1C,2	GO:0004252
 R-HSA-1655851	S2P hydrolyzes SREBP1A,1C,2	GO:0004222
 R-HSA-1655879	Thiosulfate can transfer its sulfur atom to glutathione	GO:0050337
@@ -901,7 +901,7 @@ R-HSA-176646	p-nitrophenol + PAPS => p-nitrophenol sulfate + PAP	GO:0004062
 R-HSA-176664	estrone + PAPS => estrone 3-sulfate + PAP	GO:0004304
 R-HSA-176669	N-hydroxy-2-acetylaminofluorene + PAPS => 2-acetylaminofluorene-N-sulfate + PAP	GO:0008146
 R-HSA-177157	phenylacetate + Coenzyme A + ATP => phenylacetyl-CoA + AMP + pyrophosphate	GO:0016405
-R-HSA-177160	phenylacetyl-CoA + glutamine => phenylacetyl glutamine + Coenzyme A	GO:0016410
+R-HSA-177160	phenylacetyl-CoA + glutamine => phenylacetyl glutamine + Coenzyme A	GO:0047946
 R-HSA-177275	PKA phosphorylates DARPP-32 on Thr34	GO:0004691
 R-HSA-177284	PKA phosphorylates PDE4B	GO:0004691
 R-HSA-177479	Axonal transport of NGF:Trk complexes	GO:0003777
@@ -1114,27 +1114,28 @@ R-HSA-1918092	CHIP (STUB1) mediates ubiquitination of ERBB2	GO:0004842
 R-HSA-1918095	CUL5 mediates ubiquitination of ERBB2	GO:0004842
 R-HSA-191972	27-hydroxycholesterol is 7alpha-hydroxylated	GO:0008396
 R-HSA-191983	Cholesterol is hydroxylated to 25-hydroxycholesterol	GO:0008395
-R-HSA-191999	CYP27A1 27-hydroxylates 5bCHOL3a,7a,12a-triol	GO:0008395
+R-HSA-191999	CYP27A1 27-hydroxylates 5bCHOL3a,7a,12a-triol	GO:0016652
 R-HSA-192010	5beta-cholestan-3alpha, 7alpha, 12alpha-triol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
 R-HSA-192033	4-cholesten-7alpha-ol-3-one is reduced to 5beta-cholestan-7alpha-ol-3-one	GO:0008106
 R-HSA-192036	5Beta-cholesten-7alpha, 12alpha-diol-3-one is reduced to 5beta-cholestan-3alpha, 7alpha, 12alpha-triol	GO:0008106
-R-HSA-192042	5beta-cholestan-3alpha,7alpha,12alpha,27-tetrol is oxidized to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-27-al	GO:0008395
+R-HSA-192042	5beta-cholestan-3alpha,7alpha,12alpha,27-tetrol is oxidized to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-27-al	GO:0016652
 R-HSA-192051	CYP7A1 7-hydroxylates CHOL	GO:0008123
-R-HSA-192054	3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-27-al is oxidized to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoate (THCA)	GO:0008395
-R-HSA-192056	Isomerization of 25(R) THCA-CoA to 25(S) THCA-CoA	GO:0008111
+R-HSA-192054	3alpha,7alpha,12alpha-trihydroxy-5beta-cholestan-27-al is oxidized to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoate (THCA)	GO:0016652
+R-HSA-192056	Isomerization of 25(R) THCA-CoA to 25(S) THCA-CoA	GO:0016854
 R-HSA-192061	CYP46A1 24-hydroxylates CHOL	GO:0033781
 R-HSA-192065	CYP7B1 7-hydroxylates 25OH-CHOL	GO:0008396
 R-HSA-192067	4-cholesten-7alpha, 12alpha-diol-3-one is reduced to 5beta-cholesten-7alpha, 12alpha-diol-3-one	GO:0008106
-R-HSA-192097	7alpha-hydroxycholesterol is oxidized and isomerized to 4-cholesten-7alpha-ol-3-one	GO:0003854
-R-HSA-192123	CYP27A1 27-hydroxylates CHOL	GO:0008395
+R-HSA-192097	7alpha-hydroxycholesterol is oxidized and isomerized to 4-cholesten-7alpha-ol-3-one	GO:0033764
+R-HSA-192123	CYP27A1 27-hydroxylates CHOL	GO:0016652
 R-HSA-192137	THCA is conjugated with Coenzyme A (SLC27A5 BACS)	GO:0004467
 R-HSA-192157	CYP8B1 12-hydroxylates 4CHOL7aOLONE	GO:0008397
 R-HSA-192160	5beta-cholestan-7alpha-ol-3-one is reduced to 5beta-cholestan-3alpha, 7alpha-diol	GO:0008106
 R-HSA-192178	CYP39A1 7-hydroxylates 24OH-CHOL	GO:0008396
-R-HSA-192312	Choloyl CoA reacts with glycine or taurine to form glycocholate or taurocholate	GO:0016746
+R-HSA-192312	Choloyl CoA reacts with glycine or taurine to form glycocholate or taurocholate	GO:0016747
+R-HSA-192325	25(R) THCA-CoA is translocated from the cytosol to the peroxisome	GO:0042626
 R-HSA-192331	3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-enoyl-CoA (THCA-CoA) is hydrated to (24R, 25R) 3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA	GO:0033989
 R-HSA-192335	25(S) THCA-CoA is dehydrogenated to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-enoyl-CoA (THCA-CoA)	GO:0003997
-R-HSA-192341	Thiolysis of 3alpha,7alpha,12alpha-trihydroxy-5beta-cholan-24-one-CoA yields choloyl-CoA (3alpha,7alpha,12alpha-trihydroxy-5beta-cholan-24-one-CoA) and propionyl CoA	GO:0050632
+R-HSA-192341	Thiolysis of 3alpha,7alpha,12alpha-trihydroxy-5beta-cholan-24-one-CoA yields choloyl-CoA (3alpha,7alpha,12alpha-trihydroxy-5beta-cholan-24-one-CoA) and propionyl CoA	GO:0033814
 R-HSA-192417	Digestion of cholesterol esters by extracellular CEL (bile salt-dependent lipase)	GO:0004771
 R-HSA-192422	Digestion of triacylglycerols by extracellular PTL:colipase	GO:0047372
 R-HSA-192425	Digestion of monoacylglycerols by extracellular CEL (bile salt-dependent lipase)	GO:0047372
@@ -1163,18 +1164,19 @@ R-HSA-193101	CYP11A1 cleaves 20a,22b-DHCHOL	GO:0008386
 R-HSA-193143	CYP19A1 hydroxylates TEST to EST17b	GO:0008395
 R-HSA-193362	ABCB11 transports bile salts from cytosol to extracellular region	GO:0015432
 R-HSA-193369	25(S) DHCA-CoA is dehydrogenated to 25(S) 3alpha,7alpha-dihydroxy-5beta-cholest-24-enoyl-CoA	GO:0003997
-R-HSA-193385	Hydrolysis of choloyl-CoA to cholate and CoASH	GO:0016289
-R-HSA-193393	5beta-cholestan-3alpha, 7alpha-diol is hydroxylated to 5beta-cholestan-3alpha, 7alpha, 26-triol	GO:0008395
+R-HSA-193385	Hydrolysis of choloyl-CoA to cholate and CoASH	GO:0033882
+R-HSA-193393	5beta-cholestan-3alpha, 7alpha-diol is hydroxylated to 5beta-cholestan-3alpha, 7alpha, 26-triol	GO:0016652
 R-HSA-193401	THCA is conjugated with Coenzyme A (SLC27A2 VLCS)	GO:0004467
 R-HSA-193407	DHCA is conjugated with Coenzyme A (SLC27A5 BACS)	GO:0004467
 R-HSA-193424	DHCA is conjugated with Coenzyme A (SLC27A2 VLCS)	GO:0004467
-R-HSA-193452	Isomerization of 25(R) DHCA-CoA to 25(S) DHCA-CoA	GO:0008111
-R-HSA-193455	(24R, 25R) 3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA is oxidized to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-one-CoA	GO:0003857
-R-HSA-193460	3alpha, 7alpha-dihydroxy-5beta-cholestan-26-al is oxidized to 3alpha, 7alpha-dihydroxy-5beta-cholestanoate (DHCA)	GO:0008395
-R-HSA-193491	Chenodeoxycholoyl CoA reacts with glycine or taurine to form glycochenodeoxycholate or taurochenodeoxycholate	GO:0016746
-R-HSA-193497	5beta-cholestan-3alpha, 7alpha, 26-triol is oxidized to 3alpha, 7alpha-dihydroxy-5beta-cholestan-26-al	GO:0008395
-R-HSA-193508	(24R, 25R) 3alpha,7alpha,24-trihydroxy-5beta-cholestanoyl-CoA is oxidized to 3alpha,7alpha-dihydroxy-5beta-cholest-24-one-CoA	GO:0003857
-R-HSA-193533	Thiolysis of 3alpha,7alpha-dihydroxy-5beta-cholan-24-one-CoA yields chenodeoxycholoyl-CoA (3alpha,7alpha-dihydroxy-5beta-cholan-24-one-CoA) and propionyl CoA	GO:0050632
+R-HSA-193452	Isomerization of 25(R) DHCA-CoA to 25(S) DHCA-CoA	GO:0016854
+R-HSA-193455	(24R, 25R) 3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA is oxidized to 3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-one-CoA	GO:0016616
+R-HSA-193460	3alpha, 7alpha-dihydroxy-5beta-cholestan-26-al is oxidized to 3alpha, 7alpha-dihydroxy-5beta-cholestanoate (DHCA)	GO:0016652
+R-HSA-193482	25(R) DHCA-CoA is translocated from the cytosol to the peroxisome	GO:0042626
+R-HSA-193491	Chenodeoxycholoyl CoA reacts with glycine or taurine to form glycochenodeoxycholate or taurochenodeoxycholate	GO:0016747
+R-HSA-193497	5beta-cholestan-3alpha, 7alpha, 26-triol is oxidized to 3alpha, 7alpha-dihydroxy-5beta-cholestan-26-al	GO:0016652
+R-HSA-193508	(24R, 25R) 3alpha,7alpha,24-trihydroxy-5beta-cholestanoyl-CoA is oxidized to 3alpha,7alpha-dihydroxy-5beta-cholest-24-one-CoA	GO:0016616
+R-HSA-193533	Thiolysis of 3alpha,7alpha-dihydroxy-5beta-cholan-24-one-CoA yields chenodeoxycholoyl-CoA (3alpha,7alpha-dihydroxy-5beta-cholan-24-one-CoA) and propionyl CoA	GO:0033814
 R-HSA-193535	25(S) 3alpha,7alpha-dihydroxy-5beta-cholest-24-enoyl-CoA is hydrated to (24R, 25R) 3alpha,7alpha,24-trihydroxy-5beta-cholestanoyl-CoA	GO:0033989
 R-HSA-193537	5beta-cholestan-3alpha, 7alpha-diol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
 R-HSA-193647	IRAK is activated	GO:0004674
@@ -1184,29 +1186,20 @@ R-HSA-193682	gamma-secretase cleaves the p75NTR transmembrane domain	GO:0004175
 R-HSA-193703	IKKbeta is activated	GO:0004674
 R-HSA-193705	IKKbeta phosphorylates IkB causing NF-kB to dissociate	GO:0004674
 R-HSA-193706	Production of ceramide which can activate JNK and other targets	GO:0004767
-R-HSA-193709	CYP8B1 12-hydroxylates 4CHOL7a,24(S)DIOL	GO:0008397
 R-HSA-193711	3,7,24THCA is conjugated with Coenzyme A (SLC27A5 BACS)	GO:0004467
-R-HSA-193713	3alpha,7alpha,12alpha,24(S)-tetrahydroxy-5beta-cholestan-27-al is oxidized to 3alpha,7alpha,12alpha,24(S)-tetrahydroxy-5beta-cholestanoate (TetraHCA)	GO:0008395
 R-HSA-193715	5beta-cholestan-3alpha,7alpha,24(S)-triol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
-R-HSA-193719	5beta-cholestan-3alpha,7alpha,24(S),27-tetrol is oxidized to 3alpha,7alpha,24(S)-trihydroxy-5beta-cholestan-27-al	GO:0008395
-R-HSA-193727	TetraHCA is conjugated with Coenzyme A (SLC27A2 VLCS)	GO:0004467
-R-HSA-193736	Isomerization of 3,7,24THCA-CoA to (24R, 25R) 3alpha,7alpha,24-trihydroxy-5beta-cholestanoyl-CoA	GO:0008111
-R-HSA-193737	3alpha,7alpha,24(S)-trihydroxy-5beta-cholestan-27-al is oxidized to 3alpha,7alpha,24(S)-trihydroxy-5beta-cholestanoate (3,7,24THCA)	GO:0008395
+R-HSA-193719	5beta-cholestan-3alpha,7alpha,24(S),27-tetrol is oxidized to 3alpha,7alpha,24(S)-trihydroxy-5beta-cholestan-27-al	GO:0016652
+R-HSA-193736	Isomerization of 3,7,24THCA-CoA to (24R, 25R) 3alpha,7alpha,24-trihydroxy-5beta-cholestanoyl-CoA	GO:0016854
+R-HSA-193737	3alpha,7alpha,24(S)-trihydroxy-5beta-cholestan-27-al is oxidized to 3alpha,7alpha,24(S)-trihydroxy-5beta-cholestanoate (3,7,24THCA)	GO:0016652
 R-HSA-193743	3,7,24THCA is conjugated with Coenzyme A (SLC27A2 VLCS)	GO:0004467
 R-HSA-193746	4-cholesten-7alpha,24(S)-diol-3-one is reduced to 5beta-cholestan-7alpha,24(S)-diol-3-one	GO:0008106
-R-HSA-193755	4-cholesten-7alpha,12alpha,24(S)-triol-3-one is reduced to 5beta-cholestan-7alpha,12alpha,24(S)-triol-3-one	GO:0008106
+R-HSA-193753	3,7,24THCA-CoA is translocated from the cytosol to the peroxisome	GO:0042626
 R-HSA-193758	5beta-cholestan-7alpha,24(S)-diol-3-one is reduced to 5beta-cholestan-3alpha,7alpha,24(S)-triol	GO:0008106
-R-HSA-193763	Isomerization of 25(R) TetraHCA-CoA to (24R, 25R) 3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA	GO:0008111
-R-HSA-193766	TetraHCA is conjugated with Coenzyme A (SLC27A5 BACS)	GO:0004467
-R-HSA-193774	5beta-cholestan-3alpha,7alpha,12alpha,24(S)-tetrol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
-R-HSA-193780	5beta-cholestan-3alpha,7alpha,12alpha,24(S),27-pentol is oxidized to 3alpha,7alpha,12alpha,24(S)-tetrahydroxy-5beta-cholestan-27-al	GO:0008395
-R-HSA-193781	5Beta-cholestan-7alpha,12alpha,24(S)-triol-3-one is reduced to 5beta-cholestan-3alpha,7alpha,12alpha,24(S)-tetrol	GO:0008106
-R-HSA-193787	5beta-cholestan-3alpha,7alpha,12alpha,24(S)-tetrol is hydroxylated to 5beta-cholestan-3alpha,7alpha,12alpha,24(S), 27-pentol	GO:0008395
-R-HSA-193789	Cholest-5-ene-3beta,7alpha,24(S)-triol is oxidized and isomerized to 4-cholesten-7alpha,24(S)-diol-3-one	GO:0003854
-R-HSA-193792	CYP27A1 27-hydroxylates 5β-CHOL3α,7α,24(s)-triol	GO:0008395
+R-HSA-193789	Cholest-5-ene-3beta,7alpha,24(S)-triol is oxidized and isomerized to 4-cholesten-7alpha,24(S)-diol-3-one	GO:0033764
+R-HSA-193792	CYP27A1 27-hydroxylates 5β-CHOL3α,7α,24(s)-triol	GO:0016652
 R-HSA-193800	5Beta-cholestan-7alpha,12alpha,27-triol-3-one is reduced to 5beta-cholestan-3alpha,7alpha,12alpha,27-tetrol	GO:0008106
 R-HSA-193808	5beta-cholestan-3alpha,7alpha,27-triol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
-R-HSA-193816	Cholest-5-ene-3beta,7alpha,27-triol is oxidized and isomerized to 4-cholesten-7alpha,27-diol-3-one	GO:0003854
+R-HSA-193816	Cholest-5-ene-3beta,7alpha,27-triol is oxidized and isomerized to 4-cholesten-7alpha,27-diol-3-one	GO:0033764
 R-HSA-193821	4-cholesten-7alpha,12alpha,27-triol-3-one is reduced to 5beta-cholestan-7alpha,12alpha,27-triol-3-one	GO:0008106
 R-HSA-193824	4-cholesten-7alpha,27-diol-3-one is reduced to 5beta-cholestan-7alpha,27-diol-3-one	GO:0008106
 R-HSA-193832	5beta-cholestan-3alpha,7alpha,12alpha,27-tetrol is translocated from the cytosol to the mitochondrial matrix	GO:0015665
@@ -1562,6 +1555,7 @@ R-HSA-2065355	Secreted ACE:Zn2+ hydrolyzes AGT(25-34) (Angiotensin-(1-10)) to AG
 R-HSA-2065357	Prorenin:Prorenin Receptor hydrolyzes Angiotensinogen to AGT(25-35) (Angiotensin-(1-10))	GO:0004190
 R-HSA-2065539	SREBP1A,1C,2:Importin beta-1 dissociates	GO:0061676
 R-HSA-2065550	SREBP1A,1C,2 binds Importin beta-1	GO:0061608
+R-HSA-2065966	SREBP1A,1C,2 binds the TM7SF2 promoter	GO:0001228
 R-HSA-2066778	Hydration of delta2-tetracosaheptaenoyl-CoA to 3-hydroxy tetracosahexaenoyl-CoA	GO:0018812
 R-HSA-2066779	Conversion of DHA-CoA to docosahexaenoic acid (DHA)	GO:0003986
 R-HSA-2066780	Dehydrogenation of 3-hydroxy tetracosahexaenoyl-CoA	GO:0018812
@@ -1802,6 +1796,8 @@ R-HSA-2309787	Arachidonate is oxidised to PGG2 by PTGS2	GO:0004666
 R-HSA-2316352	SLC2A4 (GLUT4) vesicle translocates and docks at the plasma membrane	GO:0000146
 R-HSA-2316434	PI3K phosphorylates PIP2 to PIP3	GO:0046934
 R-HSA-2317387	PTEN cancer mutants do not dephosphorylate PIP3	GO:0016314
+R-HSA-2317530	SREBP1A,1C,2 binds SCAP:cholesterol:INSIG and is retained in the endoplasmic reticulum	GO:0140311
+R-HSA-2317531	SREBP1A,1C,2 binds SCAP:INSIG:oxysterol and is retained in the endoplasmic reticulum	GO:0140311
 R-HSA-2318373	Defective GUSB does not hydrolyse (HA)2	GO:0004566
 R-HSA-2318585	Defective HYAL1 does not hydrolyse Chondroitin chains	GO:0004415
 R-HSA-2393939	Cytosolic NUDT5 hydrolyses ADP-ribose to R5P and AMP	GO:0047631
@@ -1879,6 +1875,25 @@ R-HSA-2424480	PI3K phosphorylates PIP2 to PIP3	GO:0046934
 R-HSA-2424484	Phosphorylation of BTK by p-SYK	GO:0004713
 R-HSA-2424486	Phosphorylation and activation of VAV2/VAV3 by SYK	GO:0004713
 R-HSA-2424487	Phosphorylation of PLC-gamma by p-BTK/p-SYK	GO:0004713
+R-HSA-2426144	SREBP1A,2 binds the MVD promoter	GO:0001228
+R-HSA-2426146	SREBP1A,1C,2 binds the FDFT1 promoter	GO:0001228
+R-HSA-2426147	SREBP1A,1C,2 binds the FDPS promoter	GO:0001228
+R-HSA-2426148	SREBP1A,1C binds the FASN promoter	GO:0001228
+R-HSA-2426149	SREBP1A,1C,2 binds the ELOVL6 promoter	GO:0001228
+R-HSA-2426150	SREBP1A,1C,2 binds the HMGCS1 promoter	GO:0001228
+R-HSA-2426151	SREBP1A,2 binds the SQLE promoter	GO:0001228
+R-HSA-2426152	SREBP1A,2 binds the IDI1 promoter	GO:0001228
+R-HSA-2426153	SREBP1A,1C binds the ACACB promoter	GO:0001228
+R-HSA-2426154	SREBP1A,2 binds the LSS promoter	GO:0001228
+R-HSA-2426155	SREBP1A,2 binds the DHCR7 promoter	GO:0001228
+R-HSA-2426156	SREBP1A,2 binds the PMVK promoter	GO:0001228
+R-HSA-2426157	SREBP1A,2 binds the MVK promoter	GO:0001228
+R-HSA-2426158	SREBP1A,1C binds the GPAM promoter	GO:0001228
+R-HSA-2426160	SREBP1A,1C binds the ACACA promoter	GO:0001228
+R-HSA-2426161	SREBP1A,2 binds the GGPS1 promoter	GO:0001228
+R-HSA-2426162	SREBP1A,2 binds the HMGCR promoter	GO:0001228
+R-HSA-2426163	SREBP1A,2 binds the CYP51A1 promoter	GO:0001228
+R-HSA-2426164	SREBP1A,2 binds the SC5DL promoter	GO:0001228
 R-HSA-2428926	IGF1,2:p-Y1161,1165,1166-IGF1R phosphorylates IRS1,2,4	GO:0004713
 R-HSA-2429643	NREH hydrolyses atREs (HSPG:apoE) to atROL and FAs	GO:0047376
 R-HSA-2430533	CDK1 phosphorylates MASTL	GO:0004693
@@ -2134,7 +2149,7 @@ R-HSA-3232162	PIAS3 SUMOylates MITF with SUMO1	GO:0019789
 R-HSA-3234081	SUMOylation of TFAP2A with SUMO1	GO:0019789
 R-HSA-3234084	SUMOylation of TFAP2B with SUMO1	GO:0019789
 R-HSA-3234094	SUMOylation of TFAP2C with SUMO1	GO:0019789
-R-HSA-3238694	PORCN palmitoleoylates N-glycosyl WNTs	GO:0008374
+R-HSA-3238694	PORCN palmitoleoylates N-glycosyl WNTs	GO:0016747
 R-HSA-3238999	Activated human MKK3/MKK6 phosphorylates p38 MAPK complexed with MAPKAPK5	GO:0004708
 R-HSA-3239014	MAPKAPK5 phosphorylates TP53	GO:0004674
 R-HSA-3239019	Active p38 MAPK phosphorylates MAPKAPK5	GO:0004674
@@ -2494,17 +2509,17 @@ R-HSA-389842	HAO1 tetramer oxidizes glycolate to glyoxylate	GO:0003973
 R-HSA-389862	Conversion of glyoxylate to oxalate	GO:0047969
 R-HSA-389889	ACOX2:FAD, ACOXL:FAD oxidise (2S)-pristanoyl-CoA to trans-2,3-dehydropristanoyl-CoA	GO:0016402
 R-HSA-389891	(2S)-pristanoyl-CoA + O2 => trans-2,3-dehydropristanoyl-CoA + H2O2 (ACOX3)	GO:0016402
-R-HSA-389897	Isomerization of (2R)-pristanoyl-CoA to (2S)-pristanoyl-CoA	GO:0008111
+R-HSA-389897	Isomerization of (2R)-pristanoyl-CoA to (2S)-pristanoyl-CoA	GO:0016854
 R-HSA-3899291	SUMOylation of EP300 with SUMO1	GO:0019789
 R-HSA-389986	trans-2,3-dehydropristanoyl-CoA + H2O => 3-hydroxypristanoyl-CoA	GO:0018812
-R-HSA-389995	3-hydroxypristanoyl-CoA + NAD+ => 3-ketoxypristanoyl-CoA + NADH + H+	GO:0003857
+R-HSA-389995	3-hydroxypristanoyl-CoA + NAD+ => 3-ketoxypristanoyl-CoA + NADH + H+	GO:0016616
 R-HSA-3900047	SUMOylation of DDX17 with SUMO1	GO:0019789
 R-HSA-3900070	SUMOylation of MKL1 with SUMO1	GO:0019789
 R-HSA-3900177	SUMOylation of DDX5 with SUMO1	GO:0019789
 R-HSA-3900194	PIAS1 SUMOylates DDX5 with SUMO2	GO:0019789
-R-HSA-390224	3-ketopristanoyl-CoA + CoASH => 4,8,12-trimethyltridecanoyl-CoA + propionyl-CoA	GO:0050632
+R-HSA-390224	3-ketopristanoyl-CoA + CoASH => 4,8,12-trimethyltridecanoyl-CoA + propionyl-CoA	GO:0033814
 R-HSA-390250	3-ketohexacosanoyl-CoA + CoASH => tetracosanoyl-CoA + acetyl-CoA	GO:0003988
-R-HSA-390251	HSD17B4 dehydrogenates 3-hydroxyhexacosanoyl-CoA	GO:0003857
+R-HSA-390251	HSD17B4 dehydrogenates 3-hydroxyhexacosanoyl-CoA	GO:0016616
 R-HSA-390252	HSD17B4 hydrates trans-2,3-dehydrohexacosanoyl-CoA	GO:0018812
 R-HSA-390256	ACOX1 oxidizes C26:0 CoA	GO:0003997
 R-HSA-390281	4,8-dimethylnonanoyl-CoA + carnitine => 4,8-dimethylnonanoylcarnitine + CoASH	GO:0008458
@@ -2681,10 +2696,10 @@ R-HSA-420883	Opsins act as GEFs for G alpha-t	GO:0005085
 R-HSA-420980	Activation of Ca permeable AMPA receptors	GO:0005231
 R-HSA-421007	Endocytosis of Ca impermeable AMPA receptors	GO:0004698
 R-HSA-421835	trans-Golgi Network Vesicle Scission	GO:0003924
-R-HSA-422017	Ghrelin O-acyltransferase decanoylates Proghrelin	GO:0008374
+R-HSA-422017	Ghrelin O-acyltransferase decanoylates Proghrelin	GO:0016747
 R-HSA-422021	PCSK1 hydrolyzes acyl Proghrelin to acyl Ghrelin	GO:0004252
 R-HSA-422051	Cleavage of the signal peptide of Preproghrelin	GO:0004252
-R-HSA-422104	Ghrelin O-acyltransferase octanoylates Proghrelin	GO:0008374
+R-HSA-422104	Ghrelin O-acyltransferase octanoylates Proghrelin	GO:0016747
 R-HSA-422320	Heterotrimeric G(s) complex dissociates	GO:0003925
 R-HSA-4224014	E-cadherin degradation by ADAM10, ADAM15	GO:0004222
 R-HSA-422454	Polysialylation of NCAM1	GO:0003828
@@ -3228,7 +3243,7 @@ R-HSA-5357828	RIPK1 is cleaved by CASP8	GO:0004197
 R-HSA-5357831	CHUK, IKBKB phosphorylate CYLD at S418	GO:0004674
 R-HSA-5357845	K63polyUb-RIPK1 is deubiquitinated	GO:0061578
 R-HSA-5358340	Autoproteolytic cleavage of Hh precursors	GO:0004175
-R-HSA-5358343	HHAT palmitoylates Hh N-terminal fragment	GO:0008374
+R-HSA-5358343	HHAT palmitoylates Hh N-terminal fragment	GO:0016747
 R-HSA-5358460	HPE SHH variants don't undergo autoproteolytic cleavage	GO:0004175
 R-HSA-5358475	DPH6 ligates ammonium to diphthine-EEF2	GO:0017178
 R-HSA-5358484	DPH5 transfers four methyl groups from AdoMet to aminocarboxypropyl EEF2	GO:0141133
@@ -3271,7 +3286,7 @@ R-HSA-5433066	Unknown NAT transfers COCH3 to AFXBO-C, AFNBO-C	GO:0047198
 R-HSA-5433067	DPEPs hydrolyse glycine from AFXBO-CG, AFNBO-CG	GO:0016805
 R-HSA-5433072	GGTs hydrolyse glutamate from AFXBO-SG, AFNBO-SG	GO:0036374
 R-HSA-5433074	ACY1:Zn2+ dimer hydrolyses mercapturic acids	GO:0004046
-R-HSA-5483229	HHAT G287V doesn't palmitoylate Hh-Np	GO:0008374
+R-HSA-5483229	HHAT G287V doesn't palmitoylate Hh-Np	GO:0016747
 R-HSA-5483238	Hh processing variants are ubiquitinated	GO:0004842
 R-HSA-548800	ELOVL1,2,3,5 elongate AA-CoA and Mal-CoA to 3ODCT-CoA	GO:0009922
 R-HSA-548814	ELOVL3,6,7 elongate PALM-CoA and Mal-CoA to 3OOD-CoA	GO:0009922
@@ -4098,7 +4113,7 @@ R-HSA-6791222	21S pre-rRNA is nucleolytically processed at site E (site2a) to yi
 R-HSA-6791223	18SE pre-rRNA in pre-40S particles is nucleolytically processed during translocation from the nucleus to the cytosol	GO:0004521
 R-HSA-6791227	47S pre-rRNA is nucleolytically processed at A' (01,A1), site A0, and site 02 (site 6)  to yield 45S pre-rRNA	GO:0004534
 R-HSA-6792445	LIPH, I hydrolyse PA to 2-acyl LPA	GO:0004620
-R-HSA-6792572	LIPT1 transfers lipoyl group from lipoyl-GCSH to DBT/DLST	GO:0016410
+R-HSA-6792572	LIPT1 transfers lipoyl group from lipoyl-GCSH to DBT/DLST	GO:0017118
 R-HSA-6792712	KAT5 acetylates ATM at shortened telomeres	GO:0016407
 R-HSA-6792863	PP2A-PP2R5C dephosphorylates MDM2	GO:0004722
 R-HSA-6793057	NSUN4 methylates cytidine-841 of 12S rRNA yielding 5-methylcytidine-841	GO:0009383
@@ -4138,6 +4153,7 @@ R-HSA-6799604	GNPDA1,2 hexamers deaminate GlcN6P to Fru(6)P	GO:0004342
 R-HSA-6799695	GPX5,6 reduce H2O2 to H2O	GO:0004602
 R-HSA-6799722	TP53I3 oxidoreductase generates unstable semiquinones	GO:0003960
 R-HSA-6799977	PGLYRP2 hydrolyzes bacterial peptidoglycan	GO:0008745
+R-HSA-6800052	SREBP1A,1C binds the SCD gene	GO:0001228
 R-HSA-6800138	N6AMT1:TRMT112 transfers CH3 group from AdoMet to ETF1 dimer	GO:0036009
 R-HSA-6800149	N6AMT1:TRMT112 transfers CH3 group from AdoMet to MMAIII	GO:0008168
 R-HSA-6800198	HPN heterodimer cleaves pro-MST1 to form MST1 dimer	GO:0004252
@@ -4384,7 +4400,7 @@ R-HSA-70941	alpha-aminoadipoate semialdehyde + NAD+ => alpha-aminoadipate + NADH
 R-HSA-70952	alpha-aminoadipate + alpha-ketoglutarate <=> alpha-ketoadipate + glutamate	GO:0047536
 R-HSA-70967	IDH3 complex decarboxylates isocitrate	GO:0004449
 R-HSA-70971	ACO2 isomerizes citrate	GO:0003994
-R-HSA-70975	CS acetylates OA to citrate	GO:0004108
+R-HSA-70975	CS acetylates OA to citrate	GO:0036440
 R-HSA-70979	MDH2 dimer dehydrogenates MAL	GO:0030060
 R-HSA-70982	FH tetramer hydrates fumarate to L-malate	GO:0004333
 R-HSA-70994	SDH complex dehydrogenates succinate	GO:0008177
@@ -4483,7 +4499,7 @@ R-HSA-73635	dUMP or TMP + ATP <=> dUDP or TDP + ADP [DTYMK]	GO:0050145
 R-HSA-73646	Regeneration of active (reduced) Thioredoxin	GO:0004791
 R-HSA-73647	Amination of uridine 5'-triphosphate (UTP) to form cytidine 5'-triphosphate (CTPS)	GO:0003883
 R-HSA-73666	hydrolysis of  2'-deoxyuridine 5'-triphosphate to form  2'-deoxyuridine 5'-phosphate	GO:0004170
-R-HSA-73722	Phosphorylation of UBF-1:rDNA Promoter	GO:0004707
+R-HSA-73722	Phosphorylation of UBTF	GO:0004707
 R-HSA-73736	Acetylation of SL1	GO:0016407
 R-HSA-73788	(d)GMP + ATP <=> (d)GDP + ADP (GUK1)	GO:0004385
 R-HSA-73792	XMP + L-Glutamine + ATP + H2O => GMP + L-Glutamate + AMP + pyrophosphate	GO:0003922
@@ -5850,6 +5866,7 @@ R-HSA-9686930	RIPK3 is cleaved by CASP8	GO:0004197
 R-HSA-9686969	APC/C:Cdh1 polyubiquitinates SKP2	GO:0061630
 R-HSA-9687828	O-GlcNAcylation of RIPK3 (TLR4 signaling)	GO:0097363
 R-HSA-9688831	STUB1 ubiquitinates RIPK3 at K55, K363	GO:0004842
+R-HSA-9691267	WNV NS5 acts as a cap 2'-O-methyltransferase to modify WNV mRNAs	GO:0004483
 R-HSA-9693111	RHOF auto-activates	GO:0005085
 R-HSA-9693282	RHOF GAPs stimulate RHOF GTPase activity	GO:0005096
 R-HSA-9693722	Unknown sepiapterin synthase transforms PTHP to sepiapterin	GO:0016491
@@ -6302,7 +6319,7 @@ R-HSA-9836585	SUPV3L1:PNPT1 hydrolyzes mitochondrial RNA to yield 4-5 nucleotide
 R-HSA-9836617	p-PKR dimer phosphorylates SPHK1	GO:0004672
 R-HSA-9836664	p-PKR dimer phosphorylates PPP2R5A	GO:0004672
 R-HSA-9836822	REXO2 hydrolyzes 4-5 nucleotide RNAs to ribonucleotides	GO:0000175
-R-HSA-9836927	SUPV3L1 unwinds double-stranded mitochondiral RNA	GO:0034458
+R-HSA-9836927	SUPV3L1 unwinds double-stranded mitochondrial RNA	GO:0034458
 R-HSA-9836998	GRSF1 unwinds quadruplex G regions in RNA	GO:0002151
 R-HSA-983703	p-6Y-SYK phosphorylates BLNK (SLP65)	GO:0004713
 R-HSA-983707	SYK autophosphorylates at the activated BCR	GO:0004713
@@ -6407,7 +6424,7 @@ R-HSA-9857945	prekallikrein:kininogen:C1QBP, C1QBP:KRT1, PLAUR:KRT1-> kallikrein
 R-HSA-9858321	DHTKD1 dimer decarboxylates 2-OA	GO:0016624
 R-HSA-9858589	DLD dimer dehydrogenates dihydrolipoyl	GO:0004148
 R-HSA-9858590	DLST transfers glutaryl to CoA	GO:0106228
-R-HSA-9858752	LIPT1 transfers lipoyl group from lipoyl-GCSH to DLAT	GO:0016410
+R-HSA-9858752	LIPT1 transfers lipoyl group from lipoyl-GCSH to DLAT	GO:0017118
 R-HSA-9858800	TRPV4 tetramer:CALM1:Ca2+ transports calcium ions (Ca2+) from the extracellular region to the cytosol	GO:0005262
 R-HSA-9859148	BCKDHA:BCKDHB tetramer decarboxylates KIC, KMVA, KIV	GO:0016624
 R-HSA-9859163	DBT transfers BCAA to CoA	GO:0016747
@@ -6674,6 +6691,7 @@ R-HSA-9938195	SLC25A51 mediates mitochondrial uptake of NAD+	GO:0051724
 R-HSA-9938539	kallikrein:kininogen:cell surface receptor -> kallikrein + cleaved kininogen:cell surface receptor + bradykinin	GO:0004252
 R-HSA-9940458	GATAD2B is SUMOylated	GO:0019789
 R-HSA-9940470	GATAD2A is SUMOylated	GO:0019789
+R-HSA-9940541	B cell receptor (BCR) extracts antigen from follicular dendritic cell	GO:0000146
 R-HSA-9940718	CHST10 sulfates matriglycan chain	GO:0016232
 R-HSA-9940735	FKTN transfers RboP to GalNAc-GlcNAc-ManP-DAG1	GO:0016780
 R-HSA-9940756	FKRP dimer transfers RboP to matriglycan chain	GO:0016780
@@ -6692,6 +6710,11 @@ R-HSA-9941704	NuRD deacetylates telomeric nucleosomes	GO:0004407
 R-HSA-9942190	FITM1 binds TAGs	GO:0170007
 R-HSA-9942295	QNG1 hydrolyzes queuosine 5'-monophosphate yielding queuine and ribose 5'-monophosphate	GO:0016787
 R-HSA-9942578	Phosphorylation of CDC25A by p38 MAPK	GO:0004674
+R-HSA-9943255	AICDA at immunoglobulin variable region deaminates deoxycytidine yielding deoxyuridine	GO:0004126
+R-HSA-9943316	PCNA, APEX2, and error-prone DNA polymerase (POLH, POLI, POLZ, REV1) bind dsDNA with a deoxyribose phosphate residue (abasic site, apurinic/apyrimidinic site, AP site)	GO:0003689
+R-HSA-9943320	APEX2 endonucleolytically cleaves deoxyribose phosphate residue (dRP, abasic site, apurinic/apyrimidinic site, AP site)	GO:0016888
+R-HSA-9943321	UNG hydrolyzes 2'-deoxyuridine in DNA yielding an abasic site	GO:0004844
+R-HSA-9943350	APEX2 excises 10-12 nucleotides of single-stranded DNA from nicked double-stranded DNA	GO:0008296
 R-HSA-9943614	CHD2-dependent H3.3 deposition at MYOG gene	GO:0016887
 R-HSA-9943662	CHEK1 phosphorylates NEK11	GO:0004674
 R-HSA-9943675	GSK3B phosphorylates CDC25A	GO:0004674
@@ -6717,6 +6740,7 @@ R-HSA-9946917	XRN1 incompletely hydrolyzes DENV decapped mRNA	GO:0004534
 R-HSA-9947148	CYP51A1 14-demethylates 24,25-dhLAN to 4,4-diMeCholesta-8,14-dien-3-ol	GO:0008398
 R-HSA-9947203	MSMO1 oxidizes 4,4-diMe-5-cholest-8-en-3-ol to 4a-carboxy-4b-me-5a-cholest-8-en-3b-ol	GO:0000254
 R-HSA-9947207	MSMO1 oxidizes 4a-me-5a-cholest-8-en-3b-ol to 4a-carboxy-5a-cholest-8-ene-3b-ol	GO:0000254
+R-HSA-9947306	Error-prone DNA polymerase (REV1, POLH, POLI, POLZ) synthesizes DNA across the short single-stranded lesion	GO:0003887
 R-HSA-9947496	ACOT2 cleaves NS345	GO:0004252
 R-HSA-9947842	GBP1 hydrolyzes GTP forming GBP1 oligomers	GO:0003924
 R-HSA-9947849	CASP5 autocatalysis on LPS micelles	GO:0004197
@@ -6766,8 +6790,13 @@ R-HSA-9958873	Cell-to-cell contact through homophilic cadherin interactions inhi
 R-HSA-9958874	26S proteasome degrades ubiquitinated RAC1, CDC42	GO:0004175
 R-HSA-9958889	SRC phosphorylates CDH1	GO:0004713
 R-HSA-9958892	SRC promotes RAC1 and CDC42 activation by phosphorylating RAC1 and CDC42 GEFs	GO:0004713
+R-HSA-9959857	TP53 binds ARG1 gene	GO:0001217
+R-HSA-9959860	TP53 binds CPS1 gene	GO:0001217
+R-HSA-9959863	TP53 binds OTC gene	GO:0001217
 R-HSA-9960522	CASP5 cleaves IL1B at D27	GO:0004197
 R-HSA-9960526	CASP4 cleaves IL1B at D116	GO:0004197
+R-HSA-9968303	Error-prone DNA polymerase (REV1, POLH, POLI, POLZ) synthesizes DNA across single strand gap	GO:0003689
+R-HSA-9968308	EXO1 excises single strand DNA surrounding a U:G mismatch	GO:0035312
 R-HSA-9970023	AOC1 dimer oxidizes MeHist	GO:0052598
 R-HSA-9970035	Unknown ALDH oxidizes methylimidazolealdehyde	GO:0004029
 R-HSA-9970163	SRC-phosphorylated RAC1,(CDC42) GEFs activate RAC1,(CDC42)	GO:0005085
@@ -6798,4 +6827,8 @@ R-HSA-997311	Dephosphorylation of TYK2 by PTP1B	GO:0004725
 R-HSA-997314	Dephosphorylation of JAK1 by SHP1	GO:0004725
 R-HSA-997326	Dephosphorylation of p-STAT1 dimer by nuclear isoform of TCPTP	GO:0004725
 R-HSA-997381	TDPK phosphorylates ThDP to ThTP	GO:0050331
+R-HSA-9974220	CRL4A-DCAF8L1,CRL4-DCAF8L2 polyubiquitinates BARD1	GO:0004842
+R-HSA-9974238	CRL4A-DCAF8L1 polyubiquitinates BRCA1	GO:0004842
+R-HSA-9974400	26S Proteasome degrades polyubiquitinated BRCA1, BARD1	GO:0004175
 R-HSA-9975250	PGK1 phosphorylates AKT1S1	GO:0004674
+R-HSA-9988827	Activated ATM phosphorylates PHF6	GO:0004674
