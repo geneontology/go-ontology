@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-07/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-08/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-07" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-08" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -654,6 +654,12 @@
 - [3-hydroxybenzyl alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0018921) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-hydroxybenzyl alcohol metabolic process" 
 
 
+### 3-sulfino-L-alanine: proton, glutamate antiporter activity `http://purl.obolibrary.org/obo/GO_0000514`
+#### Removed
+- [3-sulfino-L-alanine: proton, glutamate antiporter activity](http://purl.obolibrary.org/obo/GO_0000514) SubClassOf [L-amino acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015179) 
+
+
+
 ### 4-carboxy-4'-sulfoazobenzene metabolic process `http://purl.obolibrary.org/obo/GO_0018887`
 #### Removed
 - [4-carboxy-4'-sulfoazobenzene metabolic process](http://purl.obolibrary.org/obo/GO_0018887) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:csab" 
@@ -730,6 +736,24 @@
 - [7-cyano-7-deazaguanine metabolic process](http://purl.obolibrary.org/obo/GO_0097287) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 7-cyano-7-deazaguanine metabolic process" 
 
 
+### ATP binding `http://purl.obolibrary.org/obo/GO_0005524`
+
+#### Added
+- [ATP binding](http://purl.obolibrary.org/obo/GO_0005524) SubClassOf [anion binding](http://purl.obolibrary.org/obo/GO_0043168) 
+
+
+### ATP biosynthetic process `http://purl.obolibrary.org/obo/GO_0006754`
+
+#### Added
+- [ATP biosynthetic process](http://purl.obolibrary.org/obo/GO_0006754) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+
+### ATP metabolic process `http://purl.obolibrary.org/obo/GO_0046034`
+
+#### Added
+- [ATP metabolic process](http://purl.obolibrary.org/obo/GO_0046034) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
+
+
 ### CDP-diacylglycerol biosynthetic process `http://purl.obolibrary.org/obo/GO_0016024`
 
 #### Added
@@ -771,6 +795,24 @@
 - [CLIC/GEEC-mediated endocytosis](http://purl.obolibrary.org/obo/GO_7770084) [label](http://www.w3.org/2000/01/rdf-schema#label) "CLIC/GEEC-mediated endocytosis" 
 
 - [CLIC/GEEC-mediated endocytosis](http://purl.obolibrary.org/obo/GO_7770084) SubClassOf [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) 
+
+
+### CTP biosynthetic process `http://purl.obolibrary.org/obo/GO_0006241`
+
+#### Added
+- [CTP biosynthetic process](http://purl.obolibrary.org/obo/GO_0006241) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+
+### CTP catabolic process `http://purl.obolibrary.org/obo/GO_0006254`
+
+#### Added
+- [CTP catabolic process](http://purl.obolibrary.org/obo/GO_0006254) SubClassOf [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) 
+
+
+### CTP metabolic process `http://purl.obolibrary.org/obo/GO_0046036`
+
+#### Added
+- [CTP metabolic process](http://purl.obolibrary.org/obo/GO_0046036) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
 
 
 ### Cajal-Retzius cell differentiation `http://purl.obolibrary.org/obo/GO_0021870`
@@ -897,6 +939,48 @@
 #### Removed
 - [GABA shunt](http://purl.obolibrary.org/obo/GO_0006540) SubClassOf [L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
 
+
+
+### GTP binding `http://purl.obolibrary.org/obo/GO_0005525`
+
+#### Added
+- [GTP binding](http://purl.obolibrary.org/obo/GO_0005525) SubClassOf [anion binding](http://purl.obolibrary.org/obo/GO_0043168) 
+
+
+### GTP biosynthetic process `http://purl.obolibrary.org/obo/GO_0006183`
+
+#### Added
+- [GTP biosynthetic process](http://purl.obolibrary.org/obo/GO_0006183) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+
+### GTP metabolic process `http://purl.obolibrary.org/obo/GO_0046039`
+
+#### Added
+- [GTP metabolic process](http://purl.obolibrary.org/obo/GO_0046039) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
+
+
+### ITP binding `http://purl.obolibrary.org/obo/GO_1901641`
+
+#### Added
+- [ITP binding](http://purl.obolibrary.org/obo/GO_1901641) SubClassOf [anion binding](http://purl.obolibrary.org/obo/GO_0043168) 
+
+
+### ITP biosynthetic process `http://purl.obolibrary.org/obo/GO_0046042`
+
+#### Added
+- [ITP biosynthetic process](http://purl.obolibrary.org/obo/GO_0046042) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+
+### ITP catabolic process `http://purl.obolibrary.org/obo/GO_0006193`
+
+#### Added
+- [ITP catabolic process](http://purl.obolibrary.org/obo/GO_0006193) SubClassOf [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) 
+
+
+### ITP metabolic process `http://purl.obolibrary.org/obo/GO_0046041`
+
+#### Added
+- [ITP metabolic process](http://purl.obolibrary.org/obo/GO_0046041) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
 
 
 ### K antigen biosynthetic process `http://purl.obolibrary.org/obo/GO_0009248`
@@ -1319,10 +1403,44 @@
 
 
 
+### S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity `http://purl.obolibrary.org/obo/GO_0180003`
+#### Removed
+- [S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity](http://purl.obolibrary.org/obo/GO_0180003) SubClassOf [L-amino acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015179) 
+
+#### Added
+- [S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity](http://purl.obolibrary.org/obo/GO_0180003) SubClassOf [amino acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015171) 
+
+- [S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity](http://purl.obolibrary.org/obo/GO_0180003) SubClassOf [carboxylic acid transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0046943) 
+
+
 ### T follicular helper cell differentiation `http://purl.obolibrary.org/obo/GO_0061470`
 
 #### Added
 - [T follicular helper cell differentiation](http://purl.obolibrary.org/obo/GO_0061470) SubClassOf [exhausted T cell differentiation](http://purl.obolibrary.org/obo/GO_0160083) 
+
+
+### UTP biosynthetic process `http://purl.obolibrary.org/obo/GO_0006228`
+
+#### Added
+- [UTP biosynthetic process](http://purl.obolibrary.org/obo/GO_0006228) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+
+### UTP catabolic process `http://purl.obolibrary.org/obo/GO_0046052`
+
+#### Added
+- [UTP catabolic process](http://purl.obolibrary.org/obo/GO_0046052) SubClassOf [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) 
+
+
+### UTP metabolic process `http://purl.obolibrary.org/obo/GO_0046051`
+
+#### Added
+- [UTP metabolic process](http://purl.obolibrary.org/obo/GO_0046051) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
+
+
+### XTP binding `http://purl.obolibrary.org/obo/GO_1901640`
+
+#### Added
+- [XTP binding](http://purl.obolibrary.org/obo/GO_1901640) SubClassOf [anion binding](http://purl.obolibrary.org/obo/GO_0043168) 
 
 
 ### Z-phenylacetaldoxime biosynthetic process `http://purl.obolibrary.org/obo/GO_0046307`
@@ -3941,6 +4059,30 @@
 - [nonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900876) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nonadec-1-ene metabolic process" 
 
 
+### nucleoside triphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009142`
+#### Removed
+- [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) SubClassOf [nucleoside phosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_1901293) 
+
+#### Added
+- [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) SubClassOf [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) 
+
+
+### nucleoside triphosphate catabolic process `http://purl.obolibrary.org/obo/GO_0009143`
+#### Removed
+- [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) SubClassOf [nucleoside phosphate catabolic process](http://purl.obolibrary.org/obo/GO_1901292) 
+
+#### Added
+- [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) SubClassOf [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) 
+
+
+### nucleoside triphosphate metabolic process `http://purl.obolibrary.org/obo/GO_0009141`
+#### Removed
+- [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) SubClassOf [nucleoside phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0006753) 
+
+#### Added
+- [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) SubClassOf [phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0006793) 
+
+
 ### obsolete obsolete cytoskeleton polarization involved in growth plate cartilage chondrocyte division `http://purl.obolibrary.org/obo/GO_0003426`
 #### Removed
 - [obsolete obsolete cytoskeleton polarization involved in growth plate cartilage chondrocyte division](http://purl.obolibrary.org/obo/GO_0003426) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. OBSOLETE. A process that is carried out at the cellular level which results in the polarization of cytoskeletal structures in a growth plate cartilage chondrocyte. This process results in the oriented division of the cell." 
@@ -5291,6 +5433,62 @@
 
 
 
+### purine nucleoside triphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009145`
+#### Removed
+- [purine nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009145) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+#### Added
+- [purine nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009145) SubClassOf [nucleoside phosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_1901293) 
+
+
+### purine nucleoside triphosphate catabolic process `http://purl.obolibrary.org/obo/GO_0009146`
+#### Removed
+- [purine nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009146) SubClassOf [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) 
+
+#### Added
+- [purine nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009146) SubClassOf [nucleoside phosphate catabolic process](http://purl.obolibrary.org/obo/GO_1901292) 
+
+
+### purine nucleoside triphosphate metabolic process `http://purl.obolibrary.org/obo/GO_0009144`
+#### Removed
+- [purine nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009144) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
+
+#### Added
+- [purine nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009144) SubClassOf [nucleoside phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0006753) 
+
+
+### purine ribonucleoside triphosphate binding `http://purl.obolibrary.org/obo/GO_0035639`
+#### Removed
+- [purine ribonucleoside triphosphate binding](http://purl.obolibrary.org/obo/GO_0035639) SubClassOf [anion binding](http://purl.obolibrary.org/obo/GO_0043168) 
+
+- [purine ribonucleoside triphosphate binding](http://purl.obolibrary.org/obo/GO_0035639) SubClassOf [heterocyclic compound binding](http://purl.obolibrary.org/obo/GO_1901363) 
+
+
+
+### pyrimidine nucleoside triphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009148`
+#### Removed
+- [pyrimidine nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009148) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+#### Added
+- [pyrimidine nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009148) SubClassOf [nucleoside phosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_1901293) 
+
+
+### pyrimidine nucleoside triphosphate catabolic process `http://purl.obolibrary.org/obo/GO_0009149`
+#### Removed
+- [pyrimidine nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009149) SubClassOf [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) 
+
+#### Added
+- [pyrimidine nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009149) SubClassOf [nucleoside phosphate catabolic process](http://purl.obolibrary.org/obo/GO_1901292) 
+
+
+### pyrimidine nucleoside triphosphate metabolic process `http://purl.obolibrary.org/obo/GO_0009147`
+#### Removed
+- [pyrimidine nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009147) SubClassOf [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) 
+
+#### Added
+- [pyrimidine nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009147) SubClassOf [nucleoside phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0006753) 
+
+
 ### pyruvate family amino acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009079`
 #### Removed
 - [pyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009079) SubClassOf [L-amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0170034) 
@@ -5816,6 +6014,22 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 #### Removed
 - [reproductive system development](http://purl.obolibrary.org/obo/GO_0061458) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
+
+
+### ribonucleoside triphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009201`
+#### Removed
+- [ribonucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009201) SubClassOf [nucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009142) 
+
+#### Added
+- [ribonucleoside triphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009201) SubClassOf [nucleoside phosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_1901293) 
+
+
+### ribonucleoside triphosphate catabolic process `http://purl.obolibrary.org/obo/GO_0009203`
+#### Removed
+- [ribonucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009203) SubClassOf [nucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009143) 
+
+#### Added
+- [ribonucleoside triphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0009203) SubClassOf [nucleoside phosphate catabolic process](http://purl.obolibrary.org/obo/GO_1901292) 
 
 
 ### ribosome hibernation `http://purl.obolibrary.org/obo/GO_0141014`
