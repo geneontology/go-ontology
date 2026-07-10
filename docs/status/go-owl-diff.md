@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-09/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-10/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-09" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-10" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -2175,6 +2175,18 @@
 - [monoacylglycerol lipase activity](http://purl.obolibrary.org/obo/GO_0047372) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40603](http://rdf.rhea-db.org/40603) 
 
 
+### monounsaturated fatty acid biosynthetic process `http://purl.obolibrary.org/obo/GO_1903966`
+#### Removed
+- [monounsaturated fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1903966) SubClassOf [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) 
+
+
+
+### monounsaturated fatty acid catabolic process `http://purl.obolibrary.org/obo/GO_1903965`
+#### Removed
+- [monounsaturated fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1903965) SubClassOf [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) 
+
+
+
 ### morula development `http://purl.obolibrary.org/obo/GO_0014000`
 
 #### Added
@@ -3009,6 +3021,32 @@
 - [obsolete anaerobic carbon tetrachloride metabolic process](http://purl.obolibrary.org/obo/GO_0018886) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [obsolete anaerobic carbon tetrachloride metabolic process](http://purl.obolibrary.org/obo/GO_0018886) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete anaerobic carbon tetrachloride metabolic process" 
+
+
+### obsolete anaerobic fatty acid catabolic process `http://purl.obolibrary.org/obo/GO_1990486`
+#### Removed
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of a fatty acid in the absence of oxygen. A fatty acid is any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils. Fatty acids are predominantly straight-chain acids of 4 to 24 carbon atoms, which may be saturated or unsaturated; branched fatty acids and hydroxy fatty acids also occur, and very long chain acids of over 30 carbons are found in waxes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17329794" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [label](http://www.w3.org/2000/01/rdf-schema#label) "anaerobic fatty acid catabolic process" 
+
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) SubClassOf [fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0009062) 
+
+#### Added
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a fatty acid in the absence of oxygen. A fatty acid is any of the aliphatic monocarboxylic acids that can be liberated by hydrolysis from naturally occurring fats and oils. Fatty acids are predominantly straight-chain acids of 4 to 24 carbon atoms, which may be saturated or unsaturated; branched fatty acids and hydroxy fatty acids also occur, and very long chain acids of over 30 carbons are found in waxes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17329794" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate, which is out of scope for GO." 
+
+- [obsolete anaerobic fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_1990486) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete anaerobic fatty acid catabolic process" 
 
 
 ### obsolete benzonitrile metabolic process `http://purl.obolibrary.org/obo/GO_0018876`
@@ -3931,6 +3969,42 @@
 - [obsolete methyl tert-butyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018906) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete methyl tert-butyl ether metabolic process" 
 
 
+### obsolete monounsaturated fatty acid metabolic process `http://purl.obolibrary.org/obo/GO_1903964`
+#### Removed
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving monounsaturated fatty acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16443825" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000068" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "For example, stearoyl-coenzyme A desaturase (Scd) catalyzes the desaturation of saturated fatty acids to monounsaturated fatty acids in mammals and yeast." 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [label](http://www.w3.org/2000/01/rdf-schema#label) "monounsaturated fatty acid metabolic process" 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) SubClassOf [fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0006631) 
+
+#### Added
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving monounsaturated fatty acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16443825" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000068" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate, which is out of scope for GO." 
+
+- [obsolete monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete monounsaturated fatty acid metabolic process" 
+
+
 ### obsolete naphthalenesulfonate metabolic process `http://purl.obolibrary.org/obo/GO_0018984`
 #### Removed
 - [obsolete naphthalenesulfonate metabolic process](http://purl.obolibrary.org/obo/GO_0018984) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:nphs" 
@@ -4217,6 +4291,36 @@
 - [obsolete negative regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900915) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of octadecene biosynthetic process" 
 
 
+### obsolete negative regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106394`
+#### Removed
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of a palmitic acid catabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of palmitic acid catabolic process" 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534)) 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) SubClassOf [negative regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0045922) 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) SubClassOf [negative regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050995) 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) SubClassOf [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) 
+
+#### Added
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of a palmitic acid catabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate, which is out of scope for GO." 
+
+- [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of palmitic acid catabolic process" 
+
+
 ### obsolete negative regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900975`
 #### Removed
 - [obsolete negative regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900975) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of tatiopterin biosynthetic process." 
@@ -4483,6 +4587,28 @@
 - [obsolete octadecene metabolic process](http://purl.obolibrary.org/obo/GO_1900681) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [obsolete octadecene metabolic process](http://purl.obolibrary.org/obo/GO_1900681) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete octadecene metabolic process" 
+
+
+### obsolete palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_1900534`
+#### Removed
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of palmitic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [label](http://www.w3.org/2000/01/rdf-schema#label) "palmitic acid catabolic process" 
+
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) SubClassOf [long-chain fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0042758) 
+
+#### Added
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of palmitic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate, which is out of scope for GO." 
+
+- [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete palmitic acid catabolic process" 
 
 
 ### obsolete pentadecane metabolic process `http://purl.obolibrary.org/obo/GO_1900633`
@@ -4837,6 +4963,36 @@
 - [obsolete positive regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900916) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [obsolete positive regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900916) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of octadecene biosynthetic process" 
+
+
+### obsolete positive regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106395`
+#### Removed
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of a palmitic acid catabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of palmitic acid catabolic process" 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534)) 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) SubClassOf [positive regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0045923) 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) SubClassOf [positive regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050996) 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) SubClassOf [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) 
+
+#### Added
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of a palmitic acid catabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate, which is out of scope for GO." 
+
+- [obsolete positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of palmitic acid catabolic process" 
 
 
 ### obsolete positive regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900976`
@@ -5336,6 +5492,34 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 - [obsolete regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900914) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [obsolete regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900914) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of octadecene biosynthetic process" 
+
+
+### obsolete regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106393`
+#### Removed
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of a palmitic acid catabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of palmitic acid catabolic process" 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534)) 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) SubClassOf [regulation of fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_0019217) 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) SubClassOf [regulation of lipid catabolic process](http://purl.obolibrary.org/obo/GO_0050994) 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) 
+
+#### Added
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of a palmitic acid catabolic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate, which is out of scope for GO." 
+
+- [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of palmitic acid catabolic process" 
 
 
 ### obsolete regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900974`

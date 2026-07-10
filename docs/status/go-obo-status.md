@@ -1,27 +1,27 @@
 ---
-id: obo:go/releases/2026-07-09go.owl-statistics
+id: obo:go/releases/2026-07-10go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-07-09go.owl
+  version: obo:go/releases/2026-07-10go.owl
 was_generated_by:
-  started_at_time: '2026-07-09T06:55:48.762214'
+  started_at_time: '2026-07-10T06:55:10.860241'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
     class_count: 30885
-    deprecated_class_count: 6861
-    non_deprecated_class_count: 24024
+    deprecated_class_count: 6867
+    non_deprecated_class_count: 24018
     class_count_with_text_definitions: 30885
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 40654
+        filtered_count: 40641
       RO:0002211:
         facet: RO:0002211
-        filtered_count: 2891
+        filtered_count: 2890
       BFO:0000050:
         facet: BFO:0000050
         filtered_count: 4463
@@ -30,10 +30,10 @@ partitions:
         filtered_count: 328
       RO:0002212:
         facet: RO:0002212
-        filtered_count: 2550
+        filtered_count: 2549
       RO:0002213:
         facet: RO:0002213
-        filtered_count: 2564
+        filtered_count: 2563
       BFO:0000066:
         facet: BFO:0000066
         filtered_count: 137
@@ -46,19 +46,19 @@ partitions:
     distinct_synonym_count: 93615
     synonym_statement_count: 94394
     change_summary:
+      EdgeCreation: 399
+      NodeTextDefinitionChange: 149
+      NodeUnobsoletion: 115
+      NodeRename: 146
       EdgeDeletion: 148
-      EdgeCreation: 383
-      NodeRename: 140
+      MappingCreation: 28
+      RemoveMapping: 15
       RemoveSynonym: 68
       NewSynonym: 42
-      NodeTextDefinitionChange: 143
-      RemoveMapping: 15
-      MappingCreation: 28
-      NodeUnobsoletion: 109
       NodeDeletion: 4
       All_Obsoletion: 0
       All_Synonym: 110
-    edge_count: 53601
+    edge_count: 53585
   molecular_function:
     id: molecular_function
     class_count: 12853
@@ -93,14 +93,14 @@ partitions:
     change_summary:
       RemoveMapping: 114
       NodeTextDefinitionChange: 7
-      NodeDeletion: 2
       EdgeDeletion: 10
-      NodeRename: 3
-      RemoveSynonym: 2
-      NewSynonym: 1
       EdgeCreation: 7
+      NodeRename: 3
+      NodeDeletion: 2
       MappingCreation: 4
       NodeUnobsoletion: 1
+      RemoveSynonym: 2
+      NewSynonym: 1
       All_Obsoletion: 0
       All_Synonym: 3
     edge_count: 13524
@@ -124,14 +124,14 @@ partitions:
     distinct_synonym_count: 5111
     synonym_statement_count: 5310
     change_summary:
-      EdgeCreation: 2
-      NodeRename: 2
-      NodeUnobsoletion: 1
-      NodeTextDefinitionChange: 2
-      RemoveSynonym: 3
-      NewSynonym: 1
       NodeDeletion: 1
       EdgeDeletion: 2
+      EdgeCreation: 2
+      NodeTextDefinitionChange: 2
+      RemoveSynonym: 3
+      NodeRename: 2
+      NodeUnobsoletion: 1
+      NewSynonym: 1
       All_Obsoletion: 0
       All_Synonym: 4
     edge_count: 6676
