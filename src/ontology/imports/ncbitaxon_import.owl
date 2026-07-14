@@ -16117,10 +16117,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_589449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_589449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2836"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_589449"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:TAXRANK_1000000 rdf:resource="http://purl.obolibrary.org/obo/TAXRANK_0000002"/>
+        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_class"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>NCBITaxon:589449</oboInOwl:id>
+        <rdfs:label>Thalassiosirophyceae</rdfs:label>
+    </owl:Class>
+
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_33846 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33846">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33836"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_589449"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>

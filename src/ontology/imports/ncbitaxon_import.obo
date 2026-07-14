@@ -6838,11 +6838,21 @@ property_value: has_rank NCBITaxon:kingdom
 property_value: TAXRANK:1000000 TAXRANK:0000017
 
 [Term]
+id: NCBITaxon:589449
+name: Thalassiosirophyceae
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:2836 ! Bacillariophyta
+relationship: RO:0002162 NCBITaxon:589449 ! Thalassiosirophyceae
+property_value: has_rank NCBITaxon:class
+property_value: TAXRANK:1000000 TAXRANK:0000002
+
+[Term]
 id: NCBITaxon:33846
 name: Thalassiosirophycidae
 namespace: ncbi_taxonomy
 xref: GC_ID:1
-is_a: NCBITaxon:33836 ! Coscinodiscophyceae
+is_a: NCBITaxon:589449 ! Thalassiosirophyceae
 relationship: RO:0002162 NCBITaxon:33846 ! Thalassiosirophycidae
 property_value: has_rank NCBITaxon:subclass
 property_value: TAXRANK:1000000 TAXRANK:0000007
