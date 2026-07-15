@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-14/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-15/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-14" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-15" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1431,6 +1431,26 @@
 - [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86427" 
 
 - [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86427](http://rdf.rhea-db.org/86427) 
+
+
+### NADPH regeneration `http://purl.obolibrary.org/obo/GO_0006740`
+#### Removed
+- [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolic process that generates a pool of NADPH by the reduction of NADP+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+#### Added
+- [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29818"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32298"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NADPH replenishment" 
+
+- [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolic process that replenishes the cellular or compartmental pool of NADPH by transfer of reducing equivalents from a donor substrate to NADP+, independent of the route or compartment involved." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34074675" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33028807" 
+
+- [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Covers all routes that regenerate NADPH, including the oxidative branch of the pentose phosphate pathway (consider GO:0009051 for annotation), NADP(+)-dependent isocitrate dehydrogenase and malic enzyme reactions, folate-mediated one-carbon metabolism, and nicotinamide nucleotide transhydrogenase, in any subcellular compartment." 
 
 
 ### RNA import into mitochondrion `http://purl.obolibrary.org/obo/GO_0035927`
@@ -3685,6 +3705,64 @@
 - [methyl tert-butyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018906) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [methyl tert-butyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018906) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete methyl tert-butyl ether metabolic process" 
+
+
+### methylenetetrahydrofolate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004487`
+#### Removed
+- [methylenetetrahydrofolate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004487) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5,10-methylenetetrahydrofolate + NAD+ = 5,10-methenyltetrahydrofolate + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22892" 
+
+#### Added
+- [methylenetetrahydrofolate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004487) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NAD+ = (6R)-5,10-methenyltetrahydrofolate + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22892" 
+
+
+### methylenetetrahydrofolate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0004488`
+#### Removed
+- [methylenetetrahydrofolate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0004488) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5,10-methylenetetrahydrofolate + NADP+ = 5,10-methenyltetrahydrofolate + NADPH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22812" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.5" 
+
+#### Added
+- [methylenetetrahydrofolate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0004488) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NADP+ = (6R)-5,10-methenyltetrahydrofolate + NADPH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22812" 
+
+
+### methylenetetrahydrofolate reductase (NADH) activity `http://purl.obolibrary.org/obo/GO_0106312`
+
+#### Added
+- [methylenetetrahydrofolate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0106312) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32310"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methylenetetrahydrofolate reductase (NADH) activity](http://purl.obolibrary.org/obo/GO_0106312) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R07168" 
+
+
+### methylenetetrahydrofolate reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0106313`
+
+#### Added
+- [methylenetetrahydrofolate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0106313) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32310"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methylenetetrahydrofolate reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0106313) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R01224" 
+
+
+### methylenetetrahydrofolate reductase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0004489`
+#### Removed
+- [methylenetetrahydrofolate reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004489) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R01224" 
+
+- [methylenetetrahydrofolate reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004489) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R07168" 
+
+- [methylenetetrahydrofolate reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004489) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5-methyltetrahydrofolate + NAD(P)+ = 5,10-methylenetetrahydrofolate + NAD(P)H + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.20" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26872964" 
+
+#### Added
+- [methylenetetrahydrofolate reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004489) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32310"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methylenetetrahydrofolate reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004489) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (6S)-5-methyl-5,6,7,8-tetrahydrofolate + NAD(P)+ = (6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NAD(P)H + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.20" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26872964" 
 
 
 ### mitochondrion to lysosome vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_0099074`

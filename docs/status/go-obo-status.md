@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-07-14go.owl-statistics
+id: obo:go/releases/2026-07-15go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-07-14go.owl
+  version: obo:go/releases/2026-07-15go.owl
 was_generated_by:
-  started_at_time: '2026-07-14T06:25:22.232958'
+  started_at_time: '2026-07-15T06:27:06.388419'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -43,21 +43,21 @@ partitions:
       RO:0002093:
         facet: RO:0002093
         filtered_count: 1
-    distinct_synonym_count: 93617
-    synonym_statement_count: 94396
+    distinct_synonym_count: 93618
+    synonym_statement_count: 94397
     change_summary:
-      RemoveMapping: 20
       EdgeCreation: 471
-      NodeRename: 146
-      NodeTextDefinitionChange: 149
-      RemoveSynonym: 70
-      NewSynonym: 42
-      NodeUnobsoletion: 115
-      MappingCreation: 31
       EdgeDeletion: 151
+      NodeTextDefinitionChange: 150
+      NodeRename: 146
+      RemoveSynonym: 71
+      NodeUnobsoletion: 115
+      RemoveMapping: 20
+      MappingCreation: 31
+      NewSynonym: 42
       NodeDeletion: 4
       All_Obsoletion: 0
-      All_Synonym: 112
+      All_Synonym: 113
     edge_count: 53516
   molecular_function:
     id: molecular_function
@@ -91,14 +91,14 @@ partitions:
     distinct_synonym_count: 28649
     synonym_statement_count: 29796
     change_summary:
-      RemoveMapping: 114
-      NodeRename: 3
-      MappingCreation: 4
-      NodeUnobsoletion: 1
-      EdgeCreation: 7
-      NodeTextDefinitionChange: 7
+      NodeTextDefinitionChange: 10
+      RemoveMapping: 116
       NodeDeletion: 2
       EdgeDeletion: 10
+      NodeUnobsoletion: 1
+      NodeRename: 3
+      MappingCreation: 6
+      EdgeCreation: 7
       RemoveSynonym: 2
       NewSynonym: 1
       All_Obsoletion: 0
@@ -126,11 +126,11 @@ partitions:
     change_summary:
       NodeRename: 2
       RemoveSynonym: 3
-      NodeUnobsoletion: 1
-      EdgeCreation: 2
-      NodeTextDefinitionChange: 2
       NodeDeletion: 1
       EdgeDeletion: 2
+      NodeTextDefinitionChange: 2
+      EdgeCreation: 2
+      NodeUnobsoletion: 1
       NewSynonym: 1
       All_Obsoletion: 0
       All_Synonym: 4
