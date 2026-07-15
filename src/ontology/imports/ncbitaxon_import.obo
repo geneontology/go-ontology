@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2026-05-05/imports/ncbitaxon_import.owl
+data-version: go/releases/2026-07-15/imports/ncbitaxon_import.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 ontology: go/imports/ncbitaxon_import
 
@@ -716,6 +716,7 @@ namespace: ncbi_taxonomy
 alt_id: NCBITaxon:325213
 alt_id: NCBITaxon:3452276
 alt_id: NCBITaxon:3452277
+alt_id: NCBITaxon:3686417
 alt_id: NCBITaxon:46170
 alt_id: NCBITaxon:72759
 synonym: "Micrococcus aureus" RELATED synonym []
@@ -1811,16 +1812,6 @@ property_value: has_rank NCBITaxon:family
 property_value: TAXRANK:1000000 TAXRANK:0000004
 
 [Term]
-id: NCBITaxon:1535325
-name: Candida/Lodderomyces clade
-namespace: ncbi_taxonomy
-xref: GC_ID:12
-is_a: NCBITaxon:766764 ! Debaryomycetaceae
-relationship: RO:0002162 NCBITaxon:1535325 ! Candida/Lodderomyces clade
-property_value: has_rank NCBITaxon:clade
-property_value: TAXRANK:1000000 TAXRANK:0001004
-
-[Term]
 id: NCBITaxon:15367
 name: Brachypodium
 namespace: ncbi_taxonomy
@@ -1883,7 +1874,7 @@ synonym: "Aspergillus nidulellus" RELATED synonym []
 synonym: "Emericella nidulans" RELATED synonym []
 synonym: "Sterigmatocystis nidulans" RELATED synonym []
 xref: GC_ID:1
-is_a: NCBITaxon:2720870 ! Nidulantes
+is_a: NCBITaxon:2720870 ! Aspergillus subgen. Nidulantes
 relationship: RO:0002162 NCBITaxon:162425 ! Aspergillus nidulans
 property_value: has_rank NCBITaxon:species
 property_value: TAXRANK:1000000 TAXRANK:0000006
@@ -2075,7 +2066,7 @@ property_value: TAXRANK:1000000 TAXRANK:0000002
 id: NCBITaxon:1643688
 name: Leptospirales
 namespace: ncbi_taxonomy
-synonym: "Leptospiriales" RELATED synonym []
+synonym: "Leptospirales Gupta et al. 2014" RELATED synonym []
 xref: GC_ID:11
 is_a: NCBITaxon:3118682 ! Leptospiria
 relationship: RO:0002162 NCBITaxon:1643688 ! Leptospirales
@@ -4717,26 +4708,24 @@ property_value: TAXRANK:1000000 TAXRANK:0000005
 
 [Term]
 id: NCBITaxon:2720870
-name: Nidulantes
+name: Aspergillus subgen. Nidulantes
 namespace: ncbi_taxonomy
-synonym: "Aspergillus subgen. Nidulantes" RELATED synonym []
 xref: GC_ID:1
 xref: PMID:28082760
-is_a: NCBITaxon:5052 ! Aspergillus <genus>
-disjoint_from: NCBITaxon:2720872 ! Fumigati
-relationship: RO:0002162 NCBITaxon:2720870 ! Nidulantes
+is_a: NCBITaxon:5052 ! Aspergillus
+disjoint_from: NCBITaxon:2720872 ! Aspergillus subgen. Fumigati
+relationship: RO:0002162 NCBITaxon:2720870 ! Aspergillus subgen. Nidulantes
 property_value: has_rank NCBITaxon:subgenus
 property_value: TAXRANK:1000000 TAXRANK:0000009
 
 [Term]
 id: NCBITaxon:2720872
-name: Fumigati
+name: Aspergillus subgen. Fumigati
 namespace: ncbi_taxonomy
-synonym: "Aspergillus subgen. Fumigati" RELATED synonym []
 xref: GC_ID:1
 xref: PMID:28082760
-is_a: NCBITaxon:5052 ! Aspergillus <genus>
-relationship: RO:0002162 NCBITaxon:2720872 ! Fumigati
+is_a: NCBITaxon:5052 ! Aspergillus
+relationship: RO:0002162 NCBITaxon:2720872 ! Aspergillus subgen. Fumigati
 property_value: has_rank NCBITaxon:subgenus
 property_value: TAXRANK:1000000 TAXRANK:0000009
 
@@ -5576,6 +5565,8 @@ property_value: TAXRANK:1000000 TAXRANK:0000003
 id: NCBITaxon:29202
 name: Thalassiosiraceae
 namespace: ncbi_taxonomy
+alt_id: NCBITaxon:1365474
+synonym: "Stephanodiscaceae" RELATED synonym []
 xref: GC_ID:1
 is_a: NCBITaxon:33847 ! Thalassiosirales
 relationship: RO:0002162 NCBITaxon:29202 ! Thalassiosiraceae
@@ -6687,6 +6678,7 @@ synonym: "Gnetophyta" EXACT equivalent_name []
 synonym: "gnetophytes" EXACT OMO:0003003 []
 xref: GC_ID:1
 is_a: NCBITaxon:1437180 ! Acrogymnospermae
+disjoint_from: NCBITaxon:58019 ! Pinopsida
 relationship: RO:0002162 NCBITaxon:3372 ! Gnetopsida
 property_value: has_rank NCBITaxon:class
 property_value: TAXRANK:1000000 TAXRANK:0000002
@@ -6802,17 +6794,6 @@ property_value: has_rank NCBITaxon:order
 property_value: TAXRANK:1000000 TAXRANK:0000003
 
 [Term]
-id: NCBITaxon:33836
-name: Coscinodiscophyceae
-namespace: ncbi_taxonomy
-synonym: "centric diatoms" EXACT genbank_common_name []
-xref: GC_ID:1
-is_a: NCBITaxon:2836 ! Bacillariophyta
-relationship: RO:0002162 NCBITaxon:33836 ! Coscinodiscophyceae
-property_value: has_rank NCBITaxon:class
-property_value: TAXRANK:1000000 TAXRANK:0000002
-
-[Term]
 id: NCBITaxon:3384189
 name: Fusobacteriati
 namespace: ncbi_taxonomy
@@ -6842,7 +6823,7 @@ id: NCBITaxon:33846
 name: Thalassiosirophycidae
 namespace: ncbi_taxonomy
 xref: GC_ID:1
-is_a: NCBITaxon:33836 ! Coscinodiscophyceae
+is_a: NCBITaxon:589449 ! Thalassiosirophyceae
 relationship: RO:0002162 NCBITaxon:33846 ! Thalassiosirophycidae
 property_value: has_rank NCBITaxon:subclass
 property_value: TAXRANK:1000000 TAXRANK:0000007
@@ -6851,6 +6832,8 @@ property_value: TAXRANK:1000000 TAXRANK:0000007
 id: NCBITaxon:33847
 name: Thalassiosirales
 namespace: ncbi_taxonomy
+alt_id: NCBITaxon:2910910
+synonym: "Stephanodiscales" RELATED synonym []
 xref: GC_ID:1
 is_a: NCBITaxon:33846 ! Thalassiosirophycidae
 relationship: RO:0002162 NCBITaxon:33847 ! Thalassiosirales
@@ -9489,7 +9472,7 @@ property_value: TAXRANK:1000000 TAXRANK:0000003
 
 [Term]
 id: NCBITaxon:5052
-name: Aspergillus <genus>
+name: Aspergillus
 namespace: ncbi_taxonomy
 alt_id: NCBITaxon:1131475
 alt_id: NCBITaxon:255780
@@ -9499,7 +9482,6 @@ alt_id: NCBITaxon:37503
 alt_id: NCBITaxon:41717
 alt_id: NCBITaxon:5071
 alt_id: NCBITaxon:743109
-synonym: "Aspergillus" EXACT scientific_name []
 synonym: "Chaetosartorya" RELATED synonym []
 synonym: "Dichotomomyces" RELATED synonym []
 synonym: "Emericella" RELATED synonym []
@@ -9511,7 +9493,7 @@ xref: GC_ID:1
 xref: PMID:20141373
 xref: PMID:28082760
 is_a: NCBITaxon:1131492 ! Aspergillaceae
-relationship: RO:0002162 NCBITaxon:5052 ! Aspergillus <genus>
+relationship: RO:0002162 NCBITaxon:5052 ! Aspergillus
 property_value: has_rank NCBITaxon:genus
 property_value: TAXRANK:1000000 TAXRANK:0000005
 
@@ -9866,7 +9848,7 @@ namespace: ncbi_taxonomy
 alt_id: NCBITaxon:1535326
 synonym: "Torulopsis" RELATED synonym []
 xref: GC_ID:12
-is_a: NCBITaxon:1535325 ! Candida/Lodderomyces clade
+is_a: NCBITaxon:766764 ! Debaryomycetaceae
 relationship: RO:0002162 NCBITaxon:5475 ! Candida
 property_value: has_rank NCBITaxon:genus
 property_value: TAXRANK:1000000 TAXRANK:0000005
@@ -10242,7 +10224,17 @@ property_value: TAXRANK:1000000 TAXRANK:0000001
 
 [Term]
 id: NCBITaxon:58019
+name: Pinopsida
+namespace: ncbi_taxonomy
 alt_id: NCBITaxon:3312
+synonym: "Coniferophyta" EXACT equivalent_name []
+synonym: "Coniferopsida" RELATED synonym []
+synonym: "conifers" EXACT OMO:0003003 []
+xref: GC_ID:1
+is_a: NCBITaxon:1437180 ! Acrogymnospermae
+relationship: RO:0002162 NCBITaxon:58019 ! Pinopsida
+property_value: has_rank NCBITaxon:class
+property_value: TAXRANK:1000000 TAXRANK:0000002
 
 [Term]
 id: NCBITaxon:58023
@@ -10343,6 +10335,17 @@ is_a: NCBITaxon:5884 ! Paramecium
 relationship: RO:0002162 NCBITaxon:5888 ! Paramecium tetraurelia
 property_value: has_rank NCBITaxon:species
 property_value: TAXRANK:1000000 TAXRANK:0000006
+
+[Term]
+id: NCBITaxon:589449
+name: Thalassiosirophyceae
+namespace: ncbi_taxonomy
+synonym: "Mediophyceae" RELATED synonym []
+xref: GC_ID:1
+is_a: NCBITaxon:2836 ! Bacillariophyta
+relationship: RO:0002162 NCBITaxon:589449 ! Thalassiosirophyceae
+property_value: has_rank NCBITaxon:class
+property_value: TAXRANK:1000000 TAXRANK:0000002
 
 [Term]
 id: NCBITaxon:590
@@ -11520,7 +11523,7 @@ synonym: "Sartorya fumigata" RELATED synonym []
 xref: GC_ID:1
 xref: PMID:34854710
 xref: PMID:34854717
-is_a: NCBITaxon:2720872 ! Fumigati
+is_a: NCBITaxon:2720872 ! Aspergillus subgen. Fumigati
 relationship: RO:0002162 NCBITaxon:746128 ! Aspergillus fumigatus
 property_value: has_rank NCBITaxon:species
 property_value: TAXRANK:1000000 TAXRANK:0000006
@@ -11897,8 +11900,7 @@ property_value: TAXRANK:1000000 TAXRANK:0000004
 id: NCBITaxon:777
 name: Coxiella burnetii
 namespace: ncbi_taxonomy
-synonym: "Coxiella burneti" RELATED synonym []
-synonym: "Coxiella burnetii corrig." RELATED synonym []
+synonym: "Coxiella burnetii corrig. (Derrick 1939) Philip 1948 (Approved Lists 1980)" RELATED synonym []
 synonym: "Rickettsia burneti" RELATED synonym []
 synonym: "Rickettsia diaporica" RELATED synonym []
 xref: GC_ID:11
