@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-16/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-17/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-16" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-17" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -2066,6 +2066,14 @@
 - [caveolin-mediated endocytosis](http://purl.obolibrary.org/obo/GO_0072584) SubClassOf [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) 
 
 
+### cell projection organization `http://purl.obolibrary.org/obo/GO_0030030`
+#### Removed
+- [cell projection organization](http://purl.obolibrary.org/obo/GO_0030030) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+#### Added
+- [cell projection organization](http://purl.obolibrary.org/obo/GO_0030030) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32323"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### cell wall (1->3)-alpha-glucan biosynthetic process `http://purl.obolibrary.org/obo/GO_0070598`
 #### Removed
 - [cell wall (1->3)-alpha-glucan biosynthetic process](http://purl.obolibrary.org/obo/GO_0070598) SubClassOf [cell wall (1->3)-alpha-glucan metabolic process](http://purl.obolibrary.org/obo/GO_0070597) 
@@ -2280,6 +2288,40 @@
 
 #### Added
 - [common bile duct development](http://purl.obolibrary.org/obo/GO_0061009) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### conidium development `http://purl.obolibrary.org/obo/GO_0061794`
+#### Removed
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of conidium over time, from its formation to the mature structure. Conidia are non-motile spores produced via mitotic asexual reproduction in higher fungi; they are haploid cells genetically identical to their haploid parent. They are produced by conversion of hyphal elements, or are borne on sporogenous cells on or within specialized structures termed conidiophores, and participate in dispersal of the fungus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [label](http://www.w3.org/2000/01/rdf-schema#label) "conidium development" 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) SubClassOf [cell development](http://purl.obolibrary.org/obo/GO_0048468) 
+
+#### Added
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32315"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [conidium formation](http://purl.obolibrary.org/obo/GO_0048315) 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The process whose specific outcome is the progression of conidium over time, from its formation to the mature structure. Conidia are non-motile spores produced via mitotic asexual reproduction in higher fungi; they are haploid cells genetically identical to their haploid parent. They are produced by conversion of hyphal elements, or are borne on sporogenous cells on or within specialized structures termed conidiophores, and participate in dispersal of the fungus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term. Its only child, conidium formation (GO:0048315), is the term annotators should use." 
+
+- [conidium development](http://purl.obolibrary.org/obo/GO_0061794) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete conidium development" 
+
+
+### conidium formation `http://purl.obolibrary.org/obo/GO_0048315`
+#### Removed
+- [conidium formation](http://purl.obolibrary.org/obo/GO_0048315) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [conidium development](http://purl.obolibrary.org/obo/GO_0061794) 
+
 
 
 ### connective tissue development `http://purl.obolibrary.org/obo/GO_0061448`
@@ -4313,6 +4355,24 @@
 
 
 
+### negative regulation of stress granule assembly `http://purl.obolibrary.org/obo/GO_0062030`
+#### Removed
+- [negative regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062030) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops or decreases the rate, frequency or extent of stress-granule assembly, the aggregation, arrangement and bonding together of proteins and RNA molecules to form a stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20180778" 
+
+- [negative regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062030) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of stress granule assembly" 
+
+#### Added
+- [negative regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062030) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32317"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062030) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "negative regulation of stress granule assembly" 
+
+- [negative regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062030) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops or decreases the rate, frequency or extent of cytoplasmic stress granule assembly, the aggregation, arrangement and bonding together of proteins and RNA molecules to form a cytoplasmic stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20180778" 
+
+- [negative regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062030) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cytoplasmic stress granule assembly" 
+
+
 ### negative regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903389`
 #### Removed
 - [negative regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903389) SubClassOf [negative regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901880) 
@@ -5887,6 +5947,24 @@
 
 
 
+### positive regulation of stress granule assembly `http://purl.obolibrary.org/obo/GO_0062029`
+#### Removed
+- [positive regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062029) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that starts or increases the rate, frequency or extent of stress-granule assembly, the aggregation, arrangement and bonding together of proteins and RNA molecules to form a stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20180778" 
+
+- [positive regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062029) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of stress granule assembly" 
+
+#### Added
+- [positive regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062029) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32317"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062029) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "positive regulation of stress granule assembly" 
+
+- [positive regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062029) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that starts or increases the rate, frequency or extent of cytoplasmic stress granule assembly, the aggregation, arrangement and bonding together of proteins and RNA molecules to form a cytoplasmic stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20180778" 
+
+- [positive regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062029) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cytoplasmic stress granule assembly" 
+
+
 ### positive regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903390`
 #### Removed
 - [positive regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903390) SubClassOf [positive regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901881) 
@@ -5995,6 +6073,37 @@
 - [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67388" 
 
 - [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [67388](http://rdf.rhea-db.org/67388) 
+
+
+### protocatechuate 3,4-dioxygenase complex `http://purl.obolibrary.org/obo/GO_7770085`
+
+#### Added
+- Class: [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32320"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-07-16T16:34:38Z" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "protocatechuate 3,4-oxygenase complex" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770085" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex which is capable of protocatechuate 3,4-dioxygenase activity. It consists of an alpha subunit (PcaG) and a beta subunit (PcaH), with the non-heme iron active site formed at the alpha-beta interface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25558786" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "PcaGH complex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25558786" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "PcaHG complex" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25558786" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [label](http://www.w3.org/2000/01/rdf-schema#label) "protocatechuate 3,4-dioxygenase complex" 
+
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) SubClassOf [oxidoreductase complex](http://purl.obolibrary.org/obo/GO_1990204) 
 
 
 ### proximal convoluted tubule segment 1 development `http://purl.obolibrary.org/obo/GO_0072031`
@@ -6570,6 +6679,24 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 
 
+### regulation of stress granule assembly `http://purl.obolibrary.org/obo/GO_0062028`
+#### Removed
+- [regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062028) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of stress granule assembly, the aggregation, arrangement and bonding together of proteins and RNA molecules to form a stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20180778" 
+
+- [regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062028) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of stress granule assembly" 
+
+#### Added
+- [regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062028) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32317"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062028) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of stress granule assembly" 
+
+- [regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062028) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of cytoplasmic stress granule assembly, the aggregation, arrangement and bonding together of proteins and RNA molecules to form a cytoplasmic stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20180778" 
+
+- [regulation of stress granule assembly](http://purl.obolibrary.org/obo/GO_0062028) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cytoplasmic stress granule assembly" 
+
+
 ### regulation of synaptic vesicle uncoating `http://purl.obolibrary.org/obo/GO_1903388`
 #### Removed
 - [regulation of synaptic vesicle uncoating](http://purl.obolibrary.org/obo/GO_1903388) SubClassOf [regulation of protein depolymerization](http://purl.obolibrary.org/obo/GO_1901879) 
@@ -6842,6 +6969,62 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 #### Removed
 - [stomium development](http://purl.obolibrary.org/obo/GO_0080166) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+
+
+### stress granule assembly `http://purl.obolibrary.org/obo/GO_0034063`
+#### Removed
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of proteins and RNA molecules to form a stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17392519" 
+
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "SG assembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19825938" 
+
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [label](http://www.w3.org/2000/01/rdf-schema#label) "stress granule assembly" 
+
+#### Added
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32317"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "stress granule assembly" 
+
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of proteins and RNA molecules to form a cytoplasmic stress granule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17392519" 
+
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "SG assembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19825938" 
+
+- [stress granule assembly](http://purl.obolibrary.org/obo/GO_0034063) [label](http://www.w3.org/2000/01/rdf-schema#label) "cytoplasmic stress granule assembly" 
+
+
+### stress granule disassembly `http://purl.obolibrary.org/obo/GO_0035617`
+#### Removed
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The disaggregation of a stress granule into its constituent protein and RNA parts." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19825938" 
+
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "SG disassembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19825938" 
+
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [label](http://www.w3.org/2000/01/rdf-schema#label) "stress granule disassembly" 
+
+#### Added
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32317"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "stress granule disassembly" 
+
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The disaggregation of a cytoplasmic stress granule into its constituent protein and RNA parts." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19825938" 
+
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "SG disassembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19825938" 
+
+- [stress granule disassembly](http://purl.obolibrary.org/obo/GO_0035617) [label](http://www.w3.org/2000/01/rdf-schema#label) "cytoplasmic stress granule disassembly" 
 
 
 ### style development `http://purl.obolibrary.org/obo/GO_0048479`
@@ -7336,6 +7519,16 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 - [type II pneumocyte differentiation](http://purl.obolibrary.org/obo/GO_0060510) SubClassOf [columnar/cuboidal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0002065) 
 
 - [type II pneumocyte differentiation](http://purl.obolibrary.org/obo/GO_0060510) SubClassOf [lung epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060487) 
+
+
+### unfolded protein holdase activity `http://purl.obolibrary.org/obo/GO_0140309`
+#### Removed
+- [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein carrier activity that binds to a protein in an unfolded state and escorts it to an acceptor molecule or to a specific location. The unfolded protein carrier prevents aggregation of the target protein while it's being delivers to its final destination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
+
+#### Added
+- [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein carrier activity that binds to a protein in an unfolded state and escorts it to an acceptor molecule or to a specific location. The unfolded protein carrier prevents aggregation of the target protein while its being delivers to its final destination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
 
 
 ### ureter part of ureteric bud development `http://purl.obolibrary.org/obo/GO_0035503`
