@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-17/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-18/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-18" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -296,6 +296,32 @@
 - [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86203](http://rdf.rhea-db.org/86203) 
 
 - [(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0106386) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86207](http://rdf.rhea-db.org/86207) 
+
+
+### (R)-dehydropantoate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047509`
+#### Removed
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (R)-4-dehydropantoate + H2O + NAD+ = (R)-3,3-dimethylmalate + 2 H+ + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.33" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19349" 
+
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (R)-4-dehydropantoate + NAD+ + H2O = (R)-3,3-dimethylmalate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:19349" 
+
+- [(R)-dehydropantoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047509) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### (Z)-3-hexen-1-ol acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0102165`
+#### Removed
+- [(Z)-3-hexen-1-ol acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0102165) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+#### Added
+- [(Z)-3-hexen-1-ol acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0102165) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [(Z)-3-hexen-1-ol acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0102165) SubClassOf [alcohol O-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0004026) 
 
 
 ### (Z)-nonadeca-1,14-diene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900879`
@@ -582,6 +608,16 @@
 - [18-methylnonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900880) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 18-methylnonadec-1-ene metabolic process" 
 
 
+### 2,5-dioxovalerate dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047533`
+#### Removed
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [2,5-dioxovalerate dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047533) SubClassOf [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) 
+
+
 ### 2-acylglycerophosphocholine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047190`
 
 #### Added
@@ -598,12 +634,70 @@
 - [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86895](http://rdf.rhea-db.org/86895) 
 
 
+### 2-oxobutyrate synthase activity `http://purl.obolibrary.org/obo/GO_0018491`
+#### Removed
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:2-OXOBUTYRATE-SYNTHASE-RXN" 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:32135" 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_reactionID:r0358" 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [32135](http://rdf.rhea-db.org/32135) 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-oxobutanoate + CoA + oxidized ferredoxin = propanoyl-CoA + CO2 + reduced ferredoxin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [label](http://www.w3.org/2000/01/rdf-schema#label) "2-oxobutyrate synthase activity" 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [pyruvate synthase activity](http://purl.obolibrary.org/obo/GO_0019164) 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2-oxobutanoate + CoA + oxidized ferredoxin = propanoyl-CoA + CO2 + reduced ferredoxin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate of pyruvate synthase activity ; GO:0019164." 
+
+- [2-oxobutyrate synthase activity](http://purl.obolibrary.org/obo/GO_0018491) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 2-oxobutyrate synthase activity" 
+
+
 ### 3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0140169`
 
 #### Added
 - [3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0140169) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84203" 
 
 - [3-alpha-hydroxysteroid 3-dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0140169) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84203](http://rdf.rhea-db.org/84203) 
+
+
+### 3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0033703`
+#### Removed
+- [3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033703) SubClassOf [steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0033764) 
+
+#### Added
+- [3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033703) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [3-beta-hydroxy-5-beta-steroid dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033703) SubClassOf [3-beta-hydroxysteroid 3-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0000253) 
+
+
+### 3-beta-hydroxysteroid 3-dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0000253`
+#### Removed
+- [3-beta-hydroxysteroid 3-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0000253) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 3-betahydroxyl sterol + NADP+ = a 3-oxosterol sterol + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.270" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9811880" 
+
+#### Added
+- [3-beta-hydroxysteroid 3-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0000253) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 3-betahydroxyl sterol + NADP+ = a 3-oxosterol sterol + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.270" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9811880" 
 
 
 ### 3-chloroacrylic acid metabolic process `http://purl.obolibrary.org/obo/GO_0018888`
@@ -630,6 +724,14 @@
 - [3-chloroacrylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018888) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [3-chloroacrylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018888) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-chloroacrylic acid metabolic process" 
+
+
+### 3-deoxyglucosone dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0106373`
+#### Removed
+- [3-deoxyglucosone dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0106373) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-deoxyglucosone dehydrogenase activity" 
+
+#### Added
+- [3-deoxyglucosone dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0106373) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-deoxyglucosone dehydrogenase (NAD+) activity" 
 
 
 ### 3-hydroxyacyl-CoA dehydratase activity `http://purl.obolibrary.org/obo/GO_0018812`
@@ -700,6 +802,42 @@
 - [4-carboxy-4'-sulfoazobenzene metabolic process](http://purl.obolibrary.org/obo/GO_0018887) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-carboxy-4'-sulfoazobenzene metabolic process" 
 
 
+### 4-formylbenzenesulfonate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0018482`
+#### Removed
+- [4-formylbenzenesulfonate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018482) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-formylbenzenesulfonate + H2O + NAD+ = 4-sulfobenzoate + 2 H+ + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.62" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18833" 
+
+- [4-formylbenzenesulfonate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018482) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-formylbenzenesulfonate dehydrogenase activity" 
+
+#### Added
+- [4-formylbenzenesulfonate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018482) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-formylbenzenesulfonate + NAD+ + H2O = 4-sulfobenzoate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18833" 
+
+- [4-formylbenzenesulfonate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018482) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-formylbenzenesulfonate dehydrogenase (NAD+) activity" 
+
+
+### 4-hydroxymuconic-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0018481`
+#### Removed
+- [4-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018481) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: &lt;stereo&gt;cis,trans&lt;/stereo&gt;-4-hydroxymuconate semialdehyde + H2O + NAD+ = 2 H+ + maleylacetate + NADH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.61" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22420" 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018481) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-hydroxymuconic-semialdehyde dehydrogenase activity" 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018481) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [4-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018481) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: cis,trans-4-hydroxymuconate semialdehyde + NAD+ + H2O = maleylacetate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22420" 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018481) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity" 
+
+- [4-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018481) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
 ### 4-phosphoerythronate phosphatase activity `http://purl.obolibrary.org/obo/GO_0140401`
 #### Removed
 - [4-phosphoerythronate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140401) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-phospho-D-erythronate + H2O = D-erythronate + phosphate." 
@@ -714,6 +852,72 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27294321" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86555" 
+
+
+### 4-trimethylammoniobutyraldehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047105`
+#### Removed
+- [4-trimethylammoniobutyraldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NAD+ + 4-trimethylammoniobutanal = NADH + 4-trimethylammoniobutanoate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.47" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:1.2.1.47-RXN" 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047105) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-trimethylammoniobutyraldehyde dehydrogenase activity" 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047105) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [4-trimethylammoniobutyraldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-(trimethylamino)butanal + NAD+ + H2O = 4-(trimethylamino)butanoate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17985" 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047105) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-trimethylammoniobutyraldehyde dehydrogenase (NAD+) activity" 
+
+- [4-trimethylammoniobutyraldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047105) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### 5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047024`
+#### Removed
+- [5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047024) SubClassOf [steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0033764) 
+
+#### Added
+- [5-alpha-androstane-3-beta,17-beta-diol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047024) SubClassOf [3-beta-hydroxysteroid 3-dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0000253) 
+
+
+### 5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0018480`
+#### Removed
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018480) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5-carboxymethyl-2-hydroxymuconate semialdehyde + H2O + NAD+ = 5-carboxymethyl-2-hydroxymuconate + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.60" 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018480) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity" 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018480) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018480) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-hydroxy-5-carboxymethylmuconate semialdehyde + NAD+ + H2O = (2E,4Z)-5-hydroxypenta-2,4-diene-1,2,5-tricarboxylate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15681" 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018480) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase (NAD+) activity" 
+
+- [5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018480) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### 6-oxohexanoate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0018483`
+#### Removed
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 6-oxohexanoate + NADP+ + H2O = adipate + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.63" 
+
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-oxohexanoate dehydrogenase activity" 
+
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 6-oxohexanoate + NADP+ + H2O = hexanedioate + NADPH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:13397" 
+
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) [label](http://www.w3.org/2000/01/rdf-schema#label) "6-oxohexanoate dehydrogenase (NADP+) activity" 
+
+- [6-oxohexanoate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0018483) SubClassOf [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) 
 
 
 ### 7-cyano-7-deazaguanine biosynthetic process `http://purl.obolibrary.org/obo/GO_0097288`
@@ -901,6 +1105,16 @@
 - [D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is an unnecessary grouping term." 
 
 - [D-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0046416) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete D-amino acid metabolic process" 
+
+
+### D-glutamate(D-aspartate) oxidase activity `http://purl.obolibrary.org/obo/GO_0047819`
+#### Removed
+- [D-glutamate(D-aspartate) oxidase activity](http://purl.obolibrary.org/obo/GO_0047819) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-glutamate(D-aspartate) oxidase activity" 
+
+#### Added
+- [D-glutamate(D-aspartate) oxidase activity](http://purl.obolibrary.org/obo/GO_0047819) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "D-glutamate(D-aspartate) oxidase activity" 
+
+- [D-glutamate(D-aspartate) oxidase activity](http://purl.obolibrary.org/obo/GO_0047819) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-glutamate/D-aspartate oxidase activity" 
 
 
 ### D-serine biosynthetic process `http://purl.obolibrary.org/obo/GO_0070179`
@@ -1195,6 +1409,20 @@
 - [L-glutamate catabolic process](http://purl.obolibrary.org/obo/GO_0006538) SubClassOf [amino acid catabolic process](http://purl.obolibrary.org/obo/GO_0009063) 
 
 
+### L-glutamate gamma-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0003842`
+#### Removed
+- [L-glutamate gamma-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamate gamma-semialdehyde dehydrogenase activity" 
+
+- [L-glutamate gamma-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [L-glutamate gamma-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-glutamate gamma-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity" 
+
+- [L-glutamate gamma-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0003842) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
 ### L-glutamate import into mitochondrion `http://purl.obolibrary.org/obo/GO_0110141`
 #### Removed
 - [L-glutamate import into mitochondrion](http://purl.obolibrary.org/obo/GO_0110141) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -1425,6 +1653,22 @@
 - [N(6),N(6),N(6)-trimethyl-L-lysine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770026) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86419](http://rdf.rhea-db.org/86419) 
 
 
+### N-acetyl-gamma-aminoadipyl-phosphate reductase activity `http://purl.obolibrary.org/obo/GO_0043870`
+#### Removed
+- [N-acetyl-gamma-aminoadipyl-phosphate reductase activity](http://purl.obolibrary.org/obo/GO_0043870) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetyl-gamma-aminoadipyl-phosphate reductase activity" 
+
+#### Added
+- [N-acetyl-gamma-aminoadipyl-phosphate reductase activity](http://purl.obolibrary.org/obo/GO_0043870) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetyl-gamma-aminoadipyl-phosphate reductase (NADP+) activity" 
+
+
+### N-acetyl-gamma-glutamyl-phosphate reductase activity `http://purl.obolibrary.org/obo/GO_0003942`
+#### Removed
+- [N-acetyl-gamma-glutamyl-phosphate reductase activity](http://purl.obolibrary.org/obo/GO_0003942) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetyl-gamma-glutamyl-phosphate reductase activity" 
+
+#### Added
+- [N-acetyl-gamma-glutamyl-phosphate reductase activity](http://purl.obolibrary.org/obo/GO_0003942) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetyl-gamma-glutamyl-phosphate reductase (NADP+) activity" 
+
+
 ### N-acetylglucosamine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015572`
 
 #### Added
@@ -1533,6 +1777,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P345-PWY" 
 
 
+### acetaldehyde dehydrogenase (acetylating) activity `http://purl.obolibrary.org/obo/GO_0008774`
+#### Removed
+- [acetaldehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0008774) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: acetaldehyde + CoA + NAD+ = acetyl-CoA + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.10" 
+
+- [acetaldehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0008774) [label](http://www.w3.org/2000/01/rdf-schema#label) "acetaldehyde dehydrogenase (acetylating) activity" 
+
+#### Added
+- [acetaldehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0008774) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: acetaldehyde + CoA + NAD+ = acetyl-CoA + NADH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23288" 
+
+- [acetaldehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0008774) [label](http://www.w3.org/2000/01/rdf-schema#label) "acetaldehyde dehydrogenase (acetylating, NAD+) activity" 
+
+
 ### acetyl-CoA C-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0003988`
 
 #### Added
@@ -1577,6 +1835,22 @@
 - [acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0003997) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86699](http://rdf.rhea-db.org/86699) 
 
 
+### alcohol-forming long-chain fatty acyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0102965`
+#### Removed
+- [alcohol-forming long-chain fatty acyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0102965) [label](http://www.w3.org/2000/01/rdf-schema#label) "alcohol-forming long-chain fatty acyl-CoA reductase activity" 
+
+#### Added
+- [alcohol-forming long-chain fatty acyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0102965) [label](http://www.w3.org/2000/01/rdf-schema#label) "alcohol-forming long-chain fatty acyl-CoA reductase (NADP+) activity" 
+
+
+### alcohol-forming very long-chain fatty acyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0080019`
+#### Removed
+- [alcohol-forming very long-chain fatty acyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0080019) [label](http://www.w3.org/2000/01/rdf-schema#label) "alcohol-forming very long-chain fatty acyl-CoA reductase activity" 
+
+#### Added
+- [alcohol-forming very long-chain fatty acyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0080019) [label](http://www.w3.org/2000/01/rdf-schema#label) "alcohol-forming very long-chain fatty acyl-CoA reductase (NADP+) activity" 
+
+
 ### aldose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004032`
 
 #### Added
@@ -1609,10 +1883,50 @@
 - [aldoxime metabolic process](http://purl.obolibrary.org/obo/GO_0019330) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete aldoxime metabolic process" 
 
 
+### aliphatic amine oxidase activity `http://purl.obolibrary.org/obo/GO_0052595`
+#### Removed
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:AMINEOXID-RXN" 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.4.3.21](http://purl.uniprot.org/enzyme/1.4.3.21) 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [16153](http://rdf.rhea-db.org/16153) 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an aliphatic amine + H2O + O2 = an aldehyde + NH4+ + H2O2 + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:AMINEOXID-RXN" 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [label](http://www.w3.org/2000/01/rdf-schema#label) "aliphatic amine oxidase activity" 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) SubClassOf [oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016641) 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) SubClassOf [aliphatic amine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0030058) 
+
+#### Added
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: an aliphatic amine + H2O + O2 = an aldehyde + NH4+ + H2O2 + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:AMINEOXID-RXN" 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same reaction as primary methylamine oxidase activity ; GO:0008131." 
+
+- [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete aliphatic amine oxidase activity" 
+
+
 ### alpha helical protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_7770059`
 #### Removed
 - [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### alpha-ketoester reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0051269`
+#### Removed
+- [alpha-ketoester reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0051269) [label](http://www.w3.org/2000/01/rdf-schema#label) "alpha-ketoester reductase (NADPH) activity" 
+
+#### Added
+- [alpha-ketoester reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0051269) [label](http://www.w3.org/2000/01/rdf-schema#label) "alpha-ketoester reductase (NADP+) activity" 
 
 
 ### amine N-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0030748`
@@ -1653,6 +1967,18 @@
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86759](http://rdf.rhea-db.org/86759) 
 
 - [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86767](http://rdf.rhea-db.org/86767) 
+
+
+### aminomuconate-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0047102`
+#### Removed
+- [aminomuconate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047102) [label](http://www.w3.org/2000/01/rdf-schema#label) "aminomuconate-semialdehyde dehydrogenase activity" 
+
+- [aminomuconate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [aminomuconate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047102) [label](http://www.w3.org/2000/01/rdf-schema#label) "aminomuconate-semialdehyde dehydrogenase (NAD+) activity" 
+
+- [aminomuconate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
 
 
 ### anaerobic 1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process `http://purl.obolibrary.org/obo/GO_0018978`
@@ -1741,6 +2067,12 @@
 
 
 
+### arthrospore formation `http://purl.obolibrary.org/obo/GO_0034298`
+#### Removed
+- [arthrospore formation](http://purl.obolibrary.org/obo/GO_0034298) SubClassOf [anatomical structure formation involved in morphogenesis](http://purl.obolibrary.org/obo/GO_0048646) 
+
+
+
 ### aryl-alcohol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047681`
 
 #### Added
@@ -1755,6 +2087,22 @@
 
 #### Added
 - [aspartate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009067) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
+### aspartate-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0004073`
+#### Removed
+- [aspartate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate 4-semialdehyde + NADP+ + phosphate = 4-phospho-L-aspartate + H+ + NADPH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24284" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.11" 
+
+- [aspartate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004073) [label](http://www.w3.org/2000/01/rdf-schema#label) "aspartate-semialdehyde dehydrogenase activity" 
+
+#### Added
+- [aspartate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004073) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-aspartate 4-semialdehyde + NADP+ + phosphate = 4-phospho-L-aspartate + H+ + NADPH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24284" 
+
+- [aspartate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004073) [label](http://www.w3.org/2000/01/rdf-schema#label) "aspartate-semialdehyde dehydrogenase (NADP+) activity" 
 
 
 ### benzonitrile metabolic process `http://purl.obolibrary.org/obo/GO_0018876`
@@ -1886,6 +2234,26 @@
 - [bromoxynil metabolic process](http://purl.obolibrary.org/obo/GO_0018881) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [bromoxynil metabolic process](http://purl.obolibrary.org/obo/GO_0018881) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete bromoxynil metabolic process" 
+
+
+### butanal dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0047759`
+#### Removed
+- [butanal dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0047759) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: butanal + CoA + NAD(P)+ = butanoyl-CoA + NAD(P)H + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:BUTANAL-DEHYDROGENASE-RXN" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.57" 
+
+#### Added
+- [butanal dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0047759) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22968" 
+
+- [butanal dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0047759) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22972" 
+
+- [butanal dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0047759) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [22968](http://rdf.rhea-db.org/22968) 
+
+- [butanal dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0047759) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [22972](http://rdf.rhea-db.org/22972) 
+
+- [butanal dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0047759) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: butanal + CoA + NAD(P)+ = butanoyl-CoA + NAD(P)H + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.57" 
 
 
 ### butyryl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0044580`
@@ -2232,6 +2600,20 @@
 - [chitin-based cuticle sclerotization by biomineralization](http://purl.obolibrary.org/obo/GO_0036340) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 
+### cinnamoyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0016621`
+#### Removed
+- [cinnamoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0016621) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: cinnamaldehyde + CoA + NADP+ = cinnamoyl-CoA + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.44" 
+
+- [cinnamoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0016621) [label](http://www.w3.org/2000/01/rdf-schema#label) "cinnamoyl-CoA reductase activity" 
+
+#### Added
+- [cinnamoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0016621) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (E)-cinnamaldehyde + NADP+ + CoA = (E)-cinnamoyl-CoA + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10620" 
+
+- [cinnamoyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0016621) [label](http://www.w3.org/2000/01/rdf-schema#label) "cinnamoyl-CoA reductase (NADP+) activity" 
+
+
 ### clathrin- and caveolae-independent endocytosis `http://purl.obolibrary.org/obo/GO_0160294`
 #### Removed
 - [clathrin- and caveolae-independent endocytosis](http://purl.obolibrary.org/obo/GO_0160294) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An endocytosis process that internalizes cargo via small, non-coated vesicles (~40-80 nm) without relying on clathrin or caveolin and can be dynamin-dependent or dynamin-independent." 
@@ -2322,6 +2704,8 @@
 #### Removed
 - [conidium formation](http://purl.obolibrary.org/obo/GO_0048315) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [conidium development](http://purl.obolibrary.org/obo/GO_0061794) 
 
+#### Added
+- [conidium formation](http://purl.obolibrary.org/obo/GO_0048315) SubClassOf [anatomical structure formation involved in morphogenesis](http://purl.obolibrary.org/obo/GO_0048646) 
 
 
 ### connective tissue development `http://purl.obolibrary.org/obo/GO_0061448`
@@ -2522,6 +2906,14 @@
 - [delta(3,5)-delta(2,4)-dienoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0051750) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:84779" 
 
 - [delta(3,5)-delta(2,4)-dienoyl-CoA isomerase activity](http://purl.obolibrary.org/obo/GO_0051750) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [84779](http://rdf.rhea-db.org/84779) 
+
+
+### delta1-pyrroline-5-carboxylate synthetase activity `http://purl.obolibrary.org/obo/GO_0017084`
+#### Removed
+- [delta1-pyrroline-5-carboxylate synthetase activity](http://purl.obolibrary.org/obo/GO_0017084) [label](http://www.w3.org/2000/01/rdf-schema#label) "delta1-pyrroline-5-carboxylate synthetase activity" 
+
+#### Added
+- [delta1-pyrroline-5-carboxylate synthetase activity](http://purl.obolibrary.org/obo/GO_0017084) [label](http://www.w3.org/2000/01/rdf-schema#label) "delta1-pyrroline-5-carboxylate synthetase (NADP+) activity" 
 
 
 ### deoxynucleoside phosphate kinase activity, dTTP as phosphate donor `http://purl.obolibrary.org/obo/GO_0106368`
@@ -2858,6 +3250,14 @@
 - [erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_1902223) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
 
 
+### erythrose-4-phosphate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0048001`
+#### Removed
+- [erythrose-4-phosphate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0048001) [label](http://www.w3.org/2000/01/rdf-schema#label) "erythrose-4-phosphate dehydrogenase activity" 
+
+#### Added
+- [erythrose-4-phosphate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0048001) [label](http://www.w3.org/2000/01/rdf-schema#label) "erythrose-4-phosphate dehydrogenase (NAD+) activity" 
+
+
 ### establishment of pole plasm mRNA localization `http://purl.obolibrary.org/obo/GO_0046595`
 #### Removed
 - [establishment of pole plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "establishment of oocyte pole plasm mRNA localization" 
@@ -2886,10 +3286,36 @@
 - [establishment of pole plasm mRNA localization](http://purl.obolibrary.org/obo/GO_0046595) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of germ plasm mRNA localization" 
 
 
+### ethanolamine oxidase activity `http://purl.obolibrary.org/obo/GO_0047883`
+#### Removed
+- [ethanolamine oxidase activity](http://purl.obolibrary.org/obo/GO_0047883) SubClassOf [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) 
+
+#### Added
+- [ethanolamine oxidase activity](http://purl.obolibrary.org/obo/GO_0047883) SubClassOf [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) 
+
+
 ### export from the mitochondrion `http://purl.obolibrary.org/obo/GO_0170037`
 #### Removed
 - [export from the mitochondrion](http://purl.obolibrary.org/obo/GO_0170037) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### farnesylcysteine lyase activity `http://purl.obolibrary.org/obo/GO_0102149`
+#### Removed
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: S-[(2E,6E)-farnesyl]-L-cysteine + O2 + H2O = (2-trans,6-trans)-farnesal + L-cysteine + H2O2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.8.3.6" 
+
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) SubClassOf [oxidoreductase activity, acting on a sulfur group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016670) 
+
+#### Added
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: S-[(2E,6E)-farnesyl]-L-cysteine + O2 + H2O = (2-trans,6-trans)-farnesal + L-cysteine + H2O2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.8.3.6" 
+
+- [farnesylcysteine lyase activity](http://purl.obolibrary.org/obo/GO_0102149) SubClassOf [prenylcysteine oxidase activity](http://purl.obolibrary.org/obo/GO_0001735) 
 
 
 ### fast endophilin-mediated endocytosis `http://purl.obolibrary.org/obo/GO_7770083`
@@ -3155,6 +3581,18 @@
 - [gentamycin metabolic process](http://purl.obolibrary.org/obo/GO_1901128) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete gentamycin metabolic process" 
 
 
+### geranial dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0034832`
+#### Removed
+- [geranial dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034832) [label](http://www.w3.org/2000/01/rdf-schema#label) "geranial dehydrogenase activity" 
+
+- [geranial dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034832) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [geranial dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034832) [label](http://www.w3.org/2000/01/rdf-schema#label) "geranial dehydrogenase (NAD+) activity" 
+
+- [geranial dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0034832) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
 ### germ plasm `http://purl.obolibrary.org/obo/GO_0060293`
 #### Removed
 - [germ plasm](http://purl.obolibrary.org/obo/GO_0060293) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Differentiated cytoplasm associated with a pole of an oocyte, egg or early embryo that will be inherited by the cells that will give rise to the germ line." 
@@ -3187,6 +3625,38 @@
 - [glutamate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009084) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
 
 
+### glutamate-5-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0004350`
+#### Removed
+- [glutamate-5-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004350) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamate-5-semialdehyde dehydrogenase activity" 
+
+#### Added
+- [glutamate-5-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004350) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamate-5-semialdehyde dehydrogenase (NADP+) activity" 
+
+
+### glutamyl-tRNA reductase activity `http://purl.obolibrary.org/obo/GO_0008883`
+#### Removed
+- [glutamyl-tRNA reductase activity](http://purl.obolibrary.org/obo/GO_0008883) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamyl-tRNA reductase activity" 
+
+#### Added
+- [glutamyl-tRNA reductase activity](http://purl.obolibrary.org/obo/GO_0008883) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamyl-tRNA reductase (NADP+) activity" 
+
+
+### glutarate-semialdehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0102810`
+#### Removed
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5-oxopentanoate + NADP + H2O = glutarate + NADPH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:57832" 
+
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 5-oxopentanoate + NADP + H2O = glutarate + NADPH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:57832" 
+
+- [glutarate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0102810) SubClassOf [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) 
+
+
 ### glutathione import into mitochondrion `http://purl.obolibrary.org/obo/GO_0160007`
 #### Removed
 - [glutathione import into mitochondrion](http://purl.obolibrary.org/obo/GO_0160007) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -3197,6 +3667,66 @@
 #### Removed
 - [glutathione transmembrane import into vacuole](http://purl.obolibrary.org/obo/GO_0071996) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0043878`
+
+#### Added
+- [glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043878) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0008886`
+#### Removed
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-glyceraldehyde 3-phosphate + H2O + NADP+ = 3-phospho-D-glycerate + 2 H+ + NADPH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14669" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.9" 
+
+#### Added
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-glyceraldehyde 3-phosphate + H2O + NADP+ = 3-phospho-D-glycerate + 2 H+ + NADPH." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14669" 
+
+- [glyceraldehyde-3-phosphate dehydrogenase (NADP+) (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0008886) SubClassOf [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) 
+
+
+### glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (non-phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0120533`
+#### Removed
+- [glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0120533) [label](http://www.w3.org/2000/01/rdf-schema#label) "glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (non-phosphorylating) activity" 
+
+#### Added
+- [glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (non-phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0120533) [label](http://www.w3.org/2000/01/rdf-schema#label) "glyceraldehyde-3-phosphate dehydrogenase (non-phosphorylating, [NAD(P)+] ) activity" 
+
+
+### glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0043891`
+#### Removed
+- [glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043891) [label](http://www.w3.org/2000/01/rdf-schema#label) "glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (phosphorylating) activity" 
+
+#### Added
+- [glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (phosphorylating) activity](http://purl.obolibrary.org/obo/GO_0043891) [label](http://www.w3.org/2000/01/rdf-schema#label) "glyceraldehyde-3-phosphate dehydrogenase (phosphorylating, [NAD(P)+] ) activity" 
+
+
+### glycine oxidase activity `http://purl.obolibrary.org/obo/GO_0043799`
+#### Removed
+- [glycine oxidase activity](http://purl.obolibrary.org/obo/GO_0043799) SubClassOf [aliphatic amine oxidase activity](http://purl.obolibrary.org/obo/GO_0052595) 
+
+#### Added
+- [glycine oxidase activity](http://purl.obolibrary.org/obo/GO_0043799) SubClassOf [D-amino-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003884) 
+
+
+### glyoxylate dehydrogenase (acylating) activity `http://purl.obolibrary.org/obo/GO_0047968`
+#### Removed
+- [glyoxylate dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047968) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: CoA + glyoxylate + NADP+ = H+ + NADPH + oxalyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21024" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.17" 
+
+- [glyoxylate dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047968) [label](http://www.w3.org/2000/01/rdf-schema#label) "glyoxylate dehydrogenase (acylating) activity" 
+
+#### Added
+- [glyoxylate dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047968) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: CoA + glyoxylate + NADP+ = H+ + NADPH + oxalyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21024" 
+
+- [glyoxylate dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047968) [label](http://www.w3.org/2000/01/rdf-schema#label) "glyoxylate dehydrogenase (acylating, NADP+) activity" 
 
 
 ### haloalkane dehalogenase activity `http://purl.obolibrary.org/obo/GO_0018786`
@@ -3265,6 +3795,30 @@
 - [heptadecane metabolic process](http://purl.obolibrary.org/obo/GO_1900635) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [heptadecane metabolic process](http://purl.obolibrary.org/obo/GO_1900635) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete heptadecane metabolic process" 
+
+
+### hydroxyphytanate oxidase activity `http://purl.obolibrary.org/obo/GO_0047996`
+#### Removed
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2S)-2-hydroxyphytanate + O2 = 2-oxophytanate + H2O2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21680" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.3.27" 
+
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) [label](http://www.w3.org/2000/01/rdf-schema#label) "hydroxyphytanate oxidase activity" 
+
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016899) 
+
+#### Added
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30646"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "hydroxyphytanate oxidase activity" 
+
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2S)-2-hydroxyphytanate + O2 = 2-oxophytanate + H2O2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21680" 
+
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) [label](http://www.w3.org/2000/01/rdf-schema#label) "(2S)-2-hydroxyphytanate oxidase activity" 
+
+- [hydroxyphytanate oxidase activity](http://purl.obolibrary.org/obo/GO_0047996) SubClassOf [(S)-2-hydroxy-acid oxidase activity](http://purl.obolibrary.org/obo/GO_0003973) 
 
 
 ### hypoblast development `http://purl.obolibrary.org/obo/GO_0090008`
@@ -3529,6 +4083,14 @@
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86591](http://rdf.rhea-db.org/86591) 
 
 
+### long-chain-fatty-acyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0050062`
+#### Removed
+- [long-chain-fatty-acyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0050062) [label](http://www.w3.org/2000/01/rdf-schema#label) "long-chain-fatty-acyl-CoA reductase activity" 
+
+#### Added
+- [long-chain-fatty-acyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0050062) [label](http://www.w3.org/2000/01/rdf-schema#label) "long-chain-fatty-acyl-CoA reductase (NADP+) activity" 
+
+
 ### lysosome to ER cholesterol transport `http://purl.obolibrary.org/obo/GO_0090120`
 #### Removed
 - [lysosome to ER cholesterol transport](http://purl.obolibrary.org/obo/GO_0090120) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -3579,6 +4141,30 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
 
 - [maintenance of pole plasm mRNA location](http://purl.obolibrary.org/obo/GO_0046594) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of germ plasm mRNA location" 
+
+
+### malonate-semialdehyde dehydrogenase (acetylating) activity `http://purl.obolibrary.org/obo/GO_0018478`
+#### Removed
+- [malonate-semialdehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0018478) [label](http://www.w3.org/2000/01/rdf-schema#label) "malonate-semialdehyde dehydrogenase (acetylating) activity" 
+
+- [malonate-semialdehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0018478) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [malonate-semialdehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0018478) [label](http://www.w3.org/2000/01/rdf-schema#label) "malonate-semialdehyde dehydrogenase (acetylating, [NAD(P)+]) activity" 
+
+- [malonate-semialdehyde dehydrogenase (acetylating) activity](http://purl.obolibrary.org/obo/GO_0018478) SubClassOf [aldehyde dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004030) 
+
+
+### malonate-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0033722`
+#### Removed
+- [malonate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0033722) [label](http://www.w3.org/2000/01/rdf-schema#label) "malonate-semialdehyde dehydrogenase activity" 
+
+- [malonate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0033722) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [malonate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0033722) [label](http://www.w3.org/2000/01/rdf-schema#label) "malonate-semialdehyde dehydrogenase [NAD(P)+] activity" 
+
+- [malonate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0033722) SubClassOf [aldehyde dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004030) 
 
 
 ### maltoheptaose catabolic process `http://purl.obolibrary.org/obo/GO_2001123`
@@ -3805,6 +4391,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.20" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26872964" 
+
+
+### methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity `http://purl.obolibrary.org/obo/GO_0004491`
+#### Removed
+- [methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity](http://purl.obolibrary.org/obo/GO_0004491) [label](http://www.w3.org/2000/01/rdf-schema#label) "methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity" 
+
+#### Added
+- [methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity](http://purl.obolibrary.org/obo/GO_0004491) [label](http://www.w3.org/2000/01/rdf-schema#label) "methylmalonate-semialdehyde dehydrogenase (acylating, NAD+) activity" 
 
 
 ### mitochondrion to lysosome vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_0099074`
@@ -5107,10 +5701,30 @@
 
 
 
+### phenylglyoxylate dehydrogenase (acylating) activity `http://purl.obolibrary.org/obo/GO_0047110`
+#### Removed
+- [phenylglyoxylate dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047110) [label](http://www.w3.org/2000/01/rdf-schema#label) "phenylglyoxylate dehydrogenase (acylating) activity" 
+
+#### Added
+- [phenylglyoxylate dehydrogenase (acylating) activity](http://purl.obolibrary.org/obo/GO_0047110) [label](http://www.w3.org/2000/01/rdf-schema#label) "phenylglyoxylate dehydrogenase (acylating, NAD+) activity" 
+
+
 ### phloem or xylem histogenesis `http://purl.obolibrary.org/obo/GO_0010087`
 #### Removed
 - [phloem or xylem histogenesis](http://purl.obolibrary.org/obo/GO_0010087) SubClassOf [anatomical structure development](http://purl.obolibrary.org/obo/GO_0048856) 
 
+
+
+### phosphatase activity `http://purl.obolibrary.org/obo/GO_0016791`
+#### Removed
+- [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the hydrolysis of a phosphoric monoester, releasing a phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pg" 
+
+#### Added
+- [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the hydrolysis of a phosphoric monoester, releasing a phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
 ### phosphatidic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0006654`
@@ -6061,6 +6675,18 @@
 
 
 
+### primary methylamine oxidase activity `http://purl.obolibrary.org/obo/GO_0008131`
+#### Removed
+- [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) SubClassOf [oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016641) 
+
+#### Added
+- [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:AMINEOXID-RXN" 
+
+- [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [AMINEOXID-RXN](http://identifiers.org/metacyc.reaction/AMINEOXID-RXN) 
+
+- [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) SubClassOf [monoamine oxidase activity](http://purl.obolibrary.org/obo/GO_0097621) 
+
+
 ### protein transmembrane import into intracellular organelle `http://purl.obolibrary.org/obo/GO_0044743`
 #### Removed
 - [protein transmembrane import into intracellular organelle](http://purl.obolibrary.org/obo/GO_0044743) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -6198,6 +6824,14 @@
 
 #### Added
 - [pyruvate family amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009079) SubClassOf [amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0008652) 
+
+
+### pyruvate synthase activity `http://purl.obolibrary.org/obo/GO_0019164`
+
+#### Added
+- [pyruvate synthase activity](http://purl.obolibrary.org/obo/GO_0019164) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:32135" 
+
+- [pyruvate synthase activity](http://purl.obolibrary.org/obo/GO_0019164) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [32135](http://rdf.rhea-db.org/32135) 
 
 
 ### questin hydroquinone dioxygenase activity `http://purl.obolibrary.org/obo/GO_7770081`
@@ -6771,10 +7405,81 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 
 
+### reproductive blastospore formation `http://purl.obolibrary.org/obo/GO_0034299`
+#### Removed
+- [reproductive blastospore formation](http://purl.obolibrary.org/obo/GO_0034299) SubClassOf [anatomical structure formation involved in morphogenesis](http://purl.obolibrary.org/obo/GO_0048646) 
+
+
+
 ### reproductive system development `http://purl.obolibrary.org/obo/GO_0061458`
 #### Removed
 - [reproductive system development](http://purl.obolibrary.org/obo/GO_0061458) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
+
+
+### resveratrol binding `http://purl.obolibrary.org/obo/GO_1905594`
+#### Removed
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to resveratrol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18254726" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000067" 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "(5-(aziridin-1-yl)-2,4-dinitrobenzamide" 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [label](http://www.w3.org/2000/01/rdf-schema#label) "resveratrol binding" 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) SubClassOf [binding](http://purl.obolibrary.org/obo/GO_0005488) 
+
+#### Added
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32321"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to resveratrol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18254726" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000067" 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that binding to resveratrol is not an evolved molecular function." 
+
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete resveratrol binding" 
+
+
+### resveratrol dioxygenase activity `http://purl.obolibrary.org/obo/GO_7770086`
+
+#### Added
+- Class: [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32321"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-07-16T20:45:19Z" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:73735" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "resveratrol alpha,beta-dioxygenase activity" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "resveratrol cleavage oxygenase activity" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770086" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [73735](http://rdf.rhea-db.org/73735) 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: trans-resveratrol + O2 = 3,5-dihydroxybenzaldehyde + 4-hydroxybenzaldehyde." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:73735" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28493664" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) [label](http://www.w3.org/2000/01/rdf-schema#label) "resveratrol dioxygenase activity" 
+
+- [resveratrol dioxygenase activity](http://purl.obolibrary.org/obo/GO_7770086) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen](http://purl.obolibrary.org/obo/GO_0016702) 
 
 
 ### retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_0030970`
@@ -7071,6 +7776,50 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 - [styrene metabolic process](http://purl.obolibrary.org/obo/GO_0018966) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [styrene metabolic process](http://purl.obolibrary.org/obo/GO_0018966) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete styrene metabolic process" 
+
+
+### succinate-semialdehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004777`
+
+#### Added
+- [succinate-semialdehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004777) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### succinate-semialdehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0036243`
+
+#### Added
+- [succinate-semialdehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0036243) SubClassOf [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) 
+
+
+### succinylglutamate-semialdehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0043824`
+#### Removed
+- [succinylglutamate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043824) [label](http://www.w3.org/2000/01/rdf-schema#label) "succinylglutamate-semialdehyde dehydrogenase activity" 
+
+- [succinylglutamate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043824) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [succinylglutamate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043824) [label](http://www.w3.org/2000/01/rdf-schema#label) "succinylglutamate-semialdehyde dehydrogenase (NAD+) activity" 
+
+- [succinylglutamate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0043824) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### sulfoacetaldehyde dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0102984`
+#### Removed
+- [sulfoacetaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102984) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: sulfonatoacetaldehyde + H2O + NAD = sulfonatoacetate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.1.73" 
+
+- [sulfoacetaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102984) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfoacetaldehyde dehydrogenase activity" 
+
+- [sulfoacetaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102984) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016620) 
+
+#### Added
+- [sulfoacetaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102984) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: sulfoacetaldehyde + NAD+ + H2O = sulfoacetate + NADH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25637" 
+
+- [sulfoacetaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102984) [label](http://www.w3.org/2000/01/rdf-schema#label) "sulfoacetaldehyde dehydrogenase (NAD+) activity" 
+
+- [sulfoacetaldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0102984) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
 
 
 ### suspensor development `http://purl.obolibrary.org/obo/GO_0010098`
@@ -7535,6 +8284,14 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 #### Added
 - [ureter part of ureteric bud development](http://purl.obolibrary.org/obo/GO_0035503) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### vanillin dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0050608`
+#### Removed
+- [vanillin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050608) [label](http://www.w3.org/2000/01/rdf-schema#label) "vanillin dehydrogenase activity" 
+
+#### Added
+- [vanillin dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0050608) [label](http://www.w3.org/2000/01/rdf-schema#label) "vanillin dehydrogenase (NAD+) activity" 
 
 
 ### very long-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0031957`
