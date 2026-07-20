@@ -1,0 +1,14 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# Select non-obsolete taxon union/grouping classes (NCBITaxon_Union_*) to receive an "only in"
+# taxon-constraint grouping class. (Labels are resolved later by dosdp-tools from its --ontology
+# label source, so only the IRI is needed here.) Union taxa intentionally do NOT get "never in".
+SELECT ?union
+WHERE {
+  ?union a owl:Class .
+  ?union rdfs:label ?label .
+  FILTER(STRSTARTS(STR(?union), "http://purl.obolibrary.org/obo/NCBITaxon_Union_"))
+  FILTER NOT EXISTS { ?union owl:deprecated true }
+}
+ORDER BY ?union

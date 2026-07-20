@@ -86,10 +86,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_1> <http://purl.obolibrary.
 
 SubClassOf(<http://purl.obolibrary.org/obo/OBA_0000001> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
-# Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
-
-SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000001> <http://purl.obolibrary.org/obo/BFO_0000020>)
-
 # Class: <http://purl.obolibrary.org/obo/SO_0000673> (transcript)
 
 SubClassOf(<http://purl.obolibrary.org/obo/SO_0000673> <http://purl.obolibrary.org/obo/CHEBI_33697>)

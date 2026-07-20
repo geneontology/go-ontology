@@ -36,8 +36,7 @@ OWLTOOLS = $(OWLTOOLS_ENV) owltools
 DOSDP_ENV = JAVA_OPTS=-Xmx6G
 DOSDP_TOOLS = $(DOSDP_ENV) dosdp-tools
 
-AMM_ENV = JAVA_OPTS=-Xmx6G
-AMM = $(AMM_ENV) amm --silent
+SCALA_CLI = scala-cli run --server=false --java-opt=-Xmx6g
 
 # OWL catalogs map ontology IRIs to local paths
 USECAT= --use-catalog
@@ -79,9 +78,15 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check reasoned.ofn sparql_test change-report.txt
+travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns reasoned.ofn datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
+
+# This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
+# These must be kept in sync.
+# The convert step is here only to work around https://github.com/ontodev/robot/issues/1250
+travis_build: go-edit-filtered-xrefs.ofn
+	$(ROBOT) convert -i go-edit-filtered-xrefs.ofn -o travis_build_dummy_out.ofn verify --queries $(VARGS) -O reports/ merge --collapse-import-closure false -i imports/go-taxon-constraint-classes.ofn -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o travis_build_dummy_out.ofn verify --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -203,13 +208,13 @@ imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../r
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
-# Remove reactome_xrefs_import.owl and go_taxon_constraints.owl from imports. These are merged in directly in enhanced.ofn
+# Remove reactome_xrefs_import.owl, and go-taxon-constraint-classes.ofn from imports. These are merged in directly in enhanced.ofn
 go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
-	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl' >$@
+	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn' >$@
 
 go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xrefs.sc ../resources/rhea.rdf
-	$(AMM) ../util/filter-rhea-xrefs.sc $< catalog-v001.xml ../resources/rhea.rdf $@
+	$(SCALA_CLI) ../util/filter-rhea-xrefs.sc -- $< catalog-v001.xml ../resources/rhea.rdf $@
 
 # merge in some imported GO modules
 # remove editor-only annotations
@@ -217,8 +222,8 @@ go-edit-filtered-xrefs.ofn: go-edit-trimmed-imports.obo ../util/filter-rhea-xref
 # NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
 # https://github.com/ontodev/robot/issues/1250
 # NOTE - 'convert --add-prefixes prefixes.jsonld' is necessary until ROBOT issue https://github.com/ontodev/robot/issues/1266 is fixed
-enhanced.ofn: go-edit-filtered-xrefs.ofn ../sparql/add-skos-xrefs.ru ../sparql/remove-broad-xrefs.ru ../sparql/remove-related-xrefs.ru
-	$(ROBOT) annotate -i go-edit-filtered-xrefs.ofn --annotation owl:versionInfo $(RELEASEDATE) merge --collapse-import-closure false -i imports/go_taxon_constraints.owl -i imports/reactome_xrefs_import.owl -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' annotate --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o $@
+enhanced.ofn: go-edit-filtered-xrefs.ofn imports/go-taxon-constraint-classes.ofn ../sparql/add-skos-xrefs.ru ../sparql/remove-broad-xrefs.ru ../sparql/remove-related-xrefs.ru
+	$(ROBOT) annotate -i go-edit-filtered-xrefs.ofn --annotation owl:versionInfo $(RELEASEDATE) merge --collapse-import-closure false -i imports/go-taxon-constraint-classes.ofn -i imports/reactome_xrefs_import.owl -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' annotate --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o $@
 
 # reasoned.ofn is equivalent to editors source, after materialize-reason-relax-reduce pipeline
 # note: we keep this as a distinct intermediate target as the ontology IRI needs to be 'go' for Oort to work...
@@ -231,8 +236,10 @@ present_in_taxon_check.ofn: enhanced.ofn ../taxon_constraints/present_in_taxon.o
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
 # note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
-$(GO_PLUS).ofn: reasoned.ofn imports/go-computed-taxon-constraints.owl
-	$(ROBOT) unmerge -i $< -i imports/go_taxon_constraints.owl merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
+$(GO_PLUS).ofn: reasoned.ofn imports/go-computed-taxon-constraints.owl ../sparql/remove-taxon-constraint-class-scaffolding.ru
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 $(GO_PLUS).owl: $(GO_PLUS).ofn
 	$(ROBOT) convert -i $< -o $@
@@ -240,18 +247,26 @@ $(GO_PLUS).owl: $(GO_PLUS).ofn
 
 # Create release file containing GO-asserted axioms, no external axioms.
 # GO artifacts to merge are hardcoded here.
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
 go-base.owl: $(GO_PLUS).ofn
 	$(ROBOT) remove -i $< --select imports --trim false remove --base-iri 'http://purl.obolibrary.org/obo/GO_' --base-iri 'http://purl.obolibrary.org/obo/GOREL_' --base-iri 'http://purl.obolibrary.org/obo/GOCHE_' --base-iri 'http://purl.obolibrary.org/obo/NCBITaxon_Union_' --axioms external --preserve-structure false --trim false merge -i extensions/go-gci.owl -i extensions/go-bridge.owl -i extensions/ro_pending.owl -i imports/x-disjoint.ofn annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
 $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mirror/cl.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
 $(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
 $(GO_LEGO).owl: extensions/go-lego-edit.ofn $(GO_PLUS).owl mirror/ro.owl extensions/legorel.owl extensions/go-bfo-bridge.owl mirror/taxslim.owl mirror/taxslim-disjoint-over-in-taxon.owl mirror/cl.owl mirror/uberon.owl mirror/users.ttl mirror/groups.ttl imports/go-lego-chebi-import.owl mirror/wbbt.owl mirror/eco.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
 	mkdir -p reacto-tmp
@@ -263,8 +278,10 @@ extensions/reacto.owl: $(GO_LEGO).owl mirror/chebi.owl
 	rm ./reacto-tmp/*
 	rmdir ./reacto-tmp
 
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# https://github.com/ontodev/robot/issues/1250
 $(GO_LEGO_REACTO).owl: extensions/go-lego-reacto-edit.ofn $(GO_LEGO).owl extensions/reacto.owl
-	$(ROBOT) merge -i $< --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural relax reduce --named-classes-only true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
 # OBO and subsets
@@ -354,7 +371,7 @@ subsets/%.tsv: subsets/%.owl
 # IMPORT MODULES
 # ----------------------------------------
 
-IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so opl reactome_xrefs go_taxon_constraints
+IMPORTS = chebi cl po pato ro ncbitaxon uberon ddanat fao oba so opl reactome_xrefs
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -362,8 +379,8 @@ all_imports: $(IMPORTS_OWL)
 clean_imports:
 	rm mirror/*
 
-seed.txt: enhanced.ofn imports/go_taxon_constraints.owl imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
-	$(ROBOT) merge --collapse-import-closure false -i enhanced.ofn -i imports/go_taxon_constraints.owl -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
+seed.txt: enhanced.ofn imports/go-taxon-constraint-classes.ofn imports/go-taxon-groupings-edit.owl ../taxon_constraints/present_in_taxon.ofn imports/go-catalytic-activities-participants.owl
+	$(ROBOT) merge --collapse-import-closure false -i enhanced.ofn -i imports/go-taxon-constraint-classes.ofn -i imports/go-taxon-groupings-edit.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl query -f csv --select ../sparql/terms.sparql $@
 
 # Specialize seed terms for PR. The inclusion of taxon IRIs in the full seed was causing PR to pull
 # in overly specific proteins (e.g. human forms of everything) and referencing gene IRIs. This is kind
@@ -391,15 +408,13 @@ imports/ncbitaxon_import.owl: imports/ncbitaxon_import_pre.owl ../sparql/add-tax
 check_taxon_constraint_columns_%: ../taxon_constraints/%.tsv
 	awk -F'\t' '{print NF}' $< | sort -nu | wc -l | sed -e 's/[[:blank:]]//g' | grep -q "^1$$" && exit 0 || (echo "ERROR: wrong number of columns in $<. Check for spaces where tabs should be." && exit 1)
 
-check_all_taxon_constraints_columns: check_taxon_constraint_columns_only_in_taxon check_taxon_constraint_columns_never_in_taxon check_taxon_constraint_columns_present_in_taxon
+# Ensure go-edit.obo keeps the internal idspaces used by onlyin:/neverin: taxon constraints.
+check_taxon_constraint_idspaces: $(SRC)
+	awk 'BEGIN { in_header=1; found["neverin"]=0; found["onlyin"]=0 } /^\[/ { in_header=0 } in_header && /^idspace:[[:space:]]+/ { if ($$2 == "neverin" && $$3 == "http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_") found["neverin"]=1; if ($$2 == "onlyin" && $$3 == "http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_") found["onlyin"]=1 } END { missing=0; if (!found["neverin"]) { print "ERROR: missing header idspace: neverin http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_"; missing=1 } if (!found["onlyin"]) { print "ERROR: missing header idspace: onlyin http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_"; missing=1 } exit missing }' $<
 
-.PHONY: check_all_taxon_constraints_columns
+check_all_taxon_constraints_columns: check_taxon_constraint_columns_present_in_taxon
 
-../taxon_constraints/only_in_taxon.ofn: ../taxon_constraints/only_in_taxon.yaml ../taxon_constraints/only_in_taxon.tsv
-	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/only_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
-
-../taxon_constraints/never_in_taxon.ofn: ../taxon_constraints/never_in_taxon.yaml ../taxon_constraints/never_in_taxon.tsv
-	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/never_in_taxon.tsv --obo-prefixes=true --template=$< --outfile=$@
+.PHONY: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 
 ../taxon_constraints/present_in_taxon.ofn: ../taxon_constraints/present_in_taxon.yaml ../taxon_constraints/present_in_taxon.tsv
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon.tsv --generate-defined-class=true --obo-prefixes=true --template=$< --outfile=$@
@@ -409,10 +424,30 @@ check_all_taxon_constraints_columns: check_taxon_constraint_columns_only_in_taxo
 	tail -n +2 ../taxon_constraints/present_in_taxon.tsv >>../taxon_constraints/present_in_taxon_annotations.tsv &&\
 	$(DOSDP_TOOLS) generate --infile=../taxon_constraints/present_in_taxon_annotations.tsv --obo-prefixes=true --template=$< --outfile=$@
 
-imports/go_taxon_constraints.owl: ../taxon_constraints/only_in_taxon.ofn ../taxon_constraints/never_in_taxon.ofn ../taxon_constraints/present_in_taxon_annotations.ofn
-	$(ROBOT) merge $(addprefix -i , $^) annotate -O $(BASE)/$@ -o $@
+# Generate named taxon constraint classes ("only in <taxon>" / "never in <taxon>").
+# An editor applies a taxon constraint by asserting is_a to one of these classes (e.g.
+# 'is_a: onlyin:33213 ! only in Bilateria') instead of editing a TSV and waiting for a bot.
+# only-in classes: atomic taxa from imports/taxon_constraints_seed.txt PLUS all non-obsolete
+# union taxa from go-taxon-groupings. never-in classes: atomic seed taxa only (no unions).
+# Deterministic IRIs: http://geneontology.org/internal/taxon-constraints/{only-in,never-in}/NCBITaxon_<localid>.
+# Class labels ("only in <X>" / "never in <X>") are resolved by dosdp-tools from a label source
+# = taxslim (atomic taxa) + go-taxon-groupings-edit.owl (unions), not from the input TSVs.
+# The classes are defined (EquivalentClasses); their internal subsumption hierarchy is precomputed
+# with jfact over a minimal BOT taxon module (extracted from taxslim for the referenced taxa) plus
+# the unions, then those are unmerged and the leaked taxonomy axioms removed, so a downstream
+# reasoner adds no new constraint-class inferences to go-edit.
+imports/go-taxon-constraint-classes.ofn: imports/taxon_constraints_seed.txt imports/go-taxon-groupings-edit.owl mirror/taxslim.owl ../taxon_constraints/taxon_constraint_class_only_in.yaml ../taxon_constraints/taxon_constraint_class_never_in.yaml ../sparql/taxon-grouping-unions.sparql ../sparql/select-referenced-taxa.sparql ../sparql/remove-leaked-taxon-axioms.ru ../util/make-taxon-constraint-templates.sh
+	$(ROBOT) query -i imports/go-taxon-groupings-edit.owl --query ../sparql/taxon-grouping-unions.sparql go-taxon-constraint-unions.tmp.tsv &&\
+	sh ../util/make-taxon-constraint-templates.sh imports/taxon_constraints_seed.txt go-taxon-constraint-unions.tmp.tsv go-taxon-constraint-onlyin.tmp.tsv go-taxon-constraint-neverin.tmp.tsv &&\
+	$(ROBOT) merge -i mirror/taxslim.owl -i imports/go-taxon-groupings-edit.owl -o go-taxon-constraint-labels.tmp.owl &&\
+	$(DOSDP_TOOLS) generate --ontology go-taxon-constraint-labels.tmp.owl --obo-prefixes=true --template=../taxon_constraints/taxon_constraint_class_only_in.yaml --infile=go-taxon-constraint-onlyin.tmp.tsv --outfile=go-taxon-constraint-onlyin.tmp.ofn &&\
+	$(DOSDP_TOOLS) generate --ontology go-taxon-constraint-labels.tmp.owl --obo-prefixes=true --template=../taxon_constraints/taxon_constraint_class_never_in.yaml --infile=go-taxon-constraint-neverin.tmp.tsv --outfile=go-taxon-constraint-neverin.tmp.ofn &&\
+	$(ROBOT) merge -i go-taxon-constraint-onlyin.tmp.ofn -i go-taxon-constraint-neverin.tmp.ofn -i imports/go-taxon-groupings-edit.owl query --format tsv --select ../sparql/select-referenced-taxa.sparql go-taxon-constraint-taxa.tmp.tsv &&\
+	tail -n +2 go-taxon-constraint-taxa.tmp.tsv | tr -d '<>' >go-taxon-constraint-taxa.tmp.txt &&\
+	$(ROBOT) extract -i mirror/taxslim.owl --method BOT --term-file go-taxon-constraint-taxa.tmp.txt -o go-taxon-constraint-taxmodule.tmp.owl &&\
+	$(ROBOT) merge -i go-taxon-constraint-onlyin.tmp.ofn -i go-taxon-constraint-neverin.tmp.ofn -i imports/go-taxon-groupings-edit.owl -i go-taxon-constraint-taxmodule.tmp.owl reason -r jfact --axiom-generators "SubClass" --exclude-tautologies structural unmerge -i imports/go-taxon-groupings-edit.owl unmerge -i go-taxon-constraint-taxmodule.tmp.owl query --update ../sparql/remove-leaked-taxon-axioms.ru annotate -O $(BASE)/$@ -o $@
 
-imports/go-computed-taxon-constraints.owl: $(SRC) $(SPARQLDIR)/taxon-constraints-materialization.ru ../util/materialize-taxon-constraints.dl
+imports/go-computed-taxon-constraints.owl: $(SRC) imports/go-taxon-constraint-classes.ofn $(SPARQLDIR)/taxon-constraints-materialization.ru ../util/materialize-taxon-constraints.dl
 	$(ROBOT) merge -i $< query --update $(SPARQLDIR)/taxon-constraints-materialization.ru -o taxon-constraints-materialization-temp.ofn &&\
 	JAVA_OPTS=-Xmx12G relation-graph --ontology-file taxon-constraints-materialization-temp.ofn --output-file taxon-constraints-materialization-temp.nt --property 'http://purl.obolibrary.org/obo/RO_0002162' --output-subclasses true --reflexive-subclasses false &&\
 	sed 's/ /\t/' taxon-constraints-materialization-temp.nt | sed 's/ /\t/' | sed 's/ \.$$//' >taxonconstraintsrelationgraph.facts &&\
@@ -441,8 +476,8 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
-CHEBI_SOURCE=http://ftp.ebi.ac.uk/pub/databases/chebi/archive/rel247/ontology/chebi.owl.gz # ChEBI is currently missing a version IRI
-CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2025-01-08/cl-base.owl
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/252/chebi.owl.gz
+CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
 PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
@@ -610,10 +645,36 @@ imports/substance_by_role_equiv.obo: role.obo
 	../util/make-substance-by-role.pl -s 'role' -r $(HAS_ROLE) $< > $@.tmp && mv $@.tmp $@
 
 imports/substance_by_role.owl: imports/substance_by_role_equiv.obo
-	$(ROBOT) reason -i $< --exclude-duplicate-axioms true --exclude-tautologies structural remove --axioms equivalent -o $@
+	$(ROBOT) reason -i $< --exclude-duplicate-axioms true --exclude-tautologies structural relax remove --axioms equivalent -o $@
 
 imports/substance_by_role.obo: imports/substance_by_role.owl
 	$(ROBOT) convert -i $< -o $@
+
+# ----------------------------------------
+# GO ANNOTATION EXTENSION RELATIONS (GOREL)
+# ----------------------------------------
+# gorel.owl bundles the GO annotation-extension relations (GOREL_* plus the RO
+# relations seeded from gorel-edit) for import into go-gaf.owl. It is a checked-in
+# product, refreshed by .github/workflows/refresh-gorel.yml. These rules were moved
+# here from extensions/Makefile so the build uses the same RO we mirror everywhere else.
+#
+# The RO content is extracted from the locally-cleaned mirror/ro.owl, NOT the released
+# ro.owl from the web. mirror/ro.owl has GO-internal axioms stripped (see its rule above),
+# which removes the foreign labels RO/COB assert on GO roots (e.g. the @en
+# "gene product or complex activity" on GO:0003674, and "biological process"@en on
+# GO:0008150). Sourcing gorel from mirror/ro.owl keeps those out of gorel.owl, and hence
+# out of go-gaf.owl -> go-amigo.owl / the GOlr index. See issue #32154.
+#
+# Note: -s uses mirror/ro.owl's own ontology IRI, which its annotate step sets to
+# $(OBO)/mirror/ro.owl (it is NOT $(OBO)/ro.owl).
+extensions/gorel-ro-import.owl: extensions/gorel-edit.owl mirror/ro.owl
+	owltools --map-ontology-iri $(OBO)/ro.owl mirror/ro.owl extensions/gorel-edit.owl --add-support-from-imports --extract-module -c -s $(OBO)/mirror/ro.owl -o $@
+
+extensions/gorel.owl: extensions/gorel-edit.owl extensions/gorel-ro-import.owl
+	owltools --map-ontology-iri $(OBO)/ro.owl extensions/gorel-ro-import.owl extensions/gorel-edit.owl --merge-imports-closure --add-obo-shorthand-to-properties -o $@
+
+extensions/gorel.obo: extensions/gorel.owl
+	owltools $< --add-obo-shorthand-to-properties --remove-tbox -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
 
 # ----------------------------------------
 # IMPORTED AND TRANSFERRED RHEA AXIOMS
@@ -623,15 +684,15 @@ rhea.ttl: ../sparql/construct-rhea-reactions.sparql ../resources/rhea.rdf
 	arq -q --data=../resources/rhea.rdf --query=../sparql/construct-rhea-reactions.sparql --results=turtle >$@
 
 extensions/rhea-reactions.ttl: rhea.ttl
-	$(AMM) ../util/construct_rhea_ontology.sc $< rhea-reactions.ofn && \
+	$(SCALA_CLI) ../util/construct_rhea_ontology.sc -- $< rhea-reactions.ofn && \
 	$(ROBOT) annotate -i rhea-reactions.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 extensions/rhea-reactions-simple.ttl: rhea.ttl
-	$(AMM) ../util/construct_rhea_ontology_simplified.sc $< rhea-reactions-simple.ofn && \
+	$(SCALA_CLI) ../util/construct_rhea_ontology_simplified.sc -- $< rhea-reactions-simple.ofn && \
 	$(ROBOT) annotate -i rhea-reactions-simple.ofn -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 imports/go-catalytic-activities-participants.owl: extensions/rhea-reactions-simple.ttl $(SRC)
-	$(AMM) ../util/transfer_rhea_relations.sc $< $(SRC) catalog-v001.xml $@.tmp && \
+	$(SCALA_CLI) ../util/transfer_rhea_relations.sc -- $< $(SRC) catalog-v001.xml $@.tmp && \
 	$(ROBOT) annotate -i $@.tmp -O $(BASE)/$@ -o $@
 
 imports/go-catalytic-activities-participants.obo: imports/go-catalytic-activities-participants.owl
@@ -676,7 +737,7 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace missing-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace missing-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
@@ -712,13 +773,15 @@ reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # intermediate files in this target must be lexically, not numerically sorted, for use with comm
-chebi_pH_7_3_check: reports/referenced_chebi_terms.tsv ../biochebi/chebi_pH7_3_mapping.tsv
+# terms listed in ../biochebi/chebi-allow.txt are exempted from the pH 7.3 requirement
+chebi_pH_7_3_check: reports/referenced_chebi_terms.tsv ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/chebi-allow.txt
 	tail -n +2 reports/referenced_chebi_terms.tsv | sed 's/<http:\/\/purl.obolibrary.org\/obo\/CHEBI_//g' | sed 's/>//g' | sort -u >tmp_referenced_chebi_nums.txt &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | cut -f 1 | sort -u >tmp_mapped_chebi_nums.txt &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | cut -f 2 | sort -u >tmp_7_3_chebi_nums.txt &&\
-	comm -12 tmp_referenced_chebi_nums.txt tmp_mapped_chebi_nums.txt >tmp_referenced_mapped_chebi_nums.txt &&\
-	comm -23 tmp_referenced_mapped_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
-	if [ -s 'tmp_referenced_chebi_nums_not_7_3.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3:" && cat tmp_referenced_chebi_nums_not_7_3.txt && exit 1; else exit 0; fi
+	grep '^CHEBI:' ../biochebi/chebi-allow.txt | sed 's/^CHEBI://' | sort -u >tmp_chebi_allow_nums.txt &&\
+	comm -23 tmp_referenced_chebi_nums.txt tmp_7_3_chebi_nums.txt >tmp_referenced_chebi_nums_not_7_3.txt &&\
+	comm -23 tmp_referenced_chebi_nums_not_7_3.txt tmp_chebi_allow_nums.txt >tmp_referenced_chebi_nums_not_7_3_not_allowed.txt &&\
+	if [ -s 'tmp_referenced_chebi_nums_not_7_3_not_allowed.txt' ]; then echo "ERROR: CHEBI IDs should be mapped to pH 7.3 (or added to ../biochebi/chebi-allow.txt):" && cat tmp_referenced_chebi_nums_not_7_3_not_allowed.txt && exit 1; else exit 0; fi
 
 # ----------------------------------------
 # REPORTS

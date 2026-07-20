@@ -11,9 +11,6 @@ The project follows standard ODK layout:
        * go-edit.obo
        * Makefile
        * ...
-    * taxon_constraints/
-       * only_in_taxon.tsv
-       * never_in_taxon.tsv
  * terms/   ## checked out copies, for editing
     * GO_NNNNNNN.obo # checked out local copy
  * .claude/
@@ -24,6 +21,48 @@ The project follows standard ODK layout:
 
 These instructions are optimized for claude code. Skills are used, and defined
 in `.claude/skills/`
+
+## Local Setup (skip if running in a GitHub Action)
+
+The editing workflow below relies on two sets of tools:
+
+1. **ODK-provided tools** — `robot`, `owltools`, `dosdp-tools`, etc. These come from the pinned `obolibrary/odkfull` Docker image and **must not** be installed from Homebrew, the upstream releases page, or any other source. CI runs against the pinned image, and any other copy will drift in version and may give results that don't match CI. See the AUTOMATED-VALIDATION section and the `/odk-make` skill below for how to invoke them.
+2. **obo-scripts** — three Perl scripts (`obo-grep.pl`, `obo-checkout.pl`, `obo-checkin.pl`) used for stanza-aware search and the checkout/checkin procedure. These are not part of ODK and have to be on `PATH` separately.
+
+When this repo is driven by the `ai-agent` / `copilot-setup-steps` workflows, both are taken care of (the job runs inside the ODK container, and obo-scripts is cloned in) — skip this section.
+
+For a local editor-driven Claude Code session:
+
+**ODK tools.** Install Docker if you do not already have it. Do not install `robot` or other ODK tools on the host. Drive every `make` / `robot` / `owltools` / `dosdp-tools` invocation through the `/odk-make` skill's non-interactive wrapper, e.g.
+
+```bash
+.claude/skills/odk-make/odk-run.sh robot --version
+.claude/skills/odk-make/odk-run.sh make travis_build
+```
+
+The wrapper uses the same image tag as `src/ontology/run.sh` (the canonical console invocation), so the version of `robot` you run matches the one CI uses. See the `/odk-make` skill for details and common targets.
+
+**obo-scripts.** Check whether they are on `PATH`:
+
+```bash
+which obo-grep.pl obo-checkout.pl obo-checkin.pl
+```
+
+If any are missing, install from https://github.com/cmungall/obo-scripts:
+
+```bash
+mkdir -p ~/.local/share
+git clone --depth 1 https://github.com/cmungall/obo-scripts.git ~/.local/share/obo-scripts
+
+mkdir -p ~/bin
+ln -sf ~/.local/share/obo-scripts/obo-grep.pl     ~/bin/obo-grep.pl
+ln -sf ~/.local/share/obo-scripts/obo-checkout.pl ~/bin/obo-checkout.pl
+ln -sf ~/.local/share/obo-scripts/obo-checkin.pl  ~/bin/obo-checkin.pl
+```
+
+If `~/bin` is not already on `PATH`, add it (`export PATH="$HOME/bin:$PATH"` in your shell rc) or substitute a directory that is. The `editing-obo-ontologies` skill, if available, also bundles these.
+
+Do not fall back to plain `grep` or to hand-editing `go-edit.obo` — that path is much slower and error-prone, and the rest of this guide assumes the tools are in place.
 
 ## PLAN: Analyze Issue, Plan Approach, and create a TODO/checklist
 
@@ -96,7 +135,7 @@ The recommended way to find terms in `src/ontology/go-edit.obo` is using `obo-gr
     - `obo-grep.pl --noheader -r '(hand|foot)' src/ontology/go-edit.obo`
 - Regexes; all mentions of hand or foot in the definition line:
     - `obo-grep.pl --noheader -r 'def: ".*(hand|foot)' src/ontology/go-edit.obo`
-- Note that `obo-grep.pl` is in your PATH, no need to search for it    
+- `obo-grep.pl` is not a baseline command — it comes from the obo-scripts tooling (upstream `cmungall/obo-scripts`, also bundled in the `editing-obo-ontologies` skill) and is only on your PATH once that tooling is installed (or the skill is loaded). If you get `command not found`, install/locate it (`find ~ -name obo-grep.pl 2>/dev/null`, or clone `cmungall/obo-scripts`) and call it by full path — don't fall back to plain `grep`, which loses stanza-aware matching.
 - Only search over `src/ontology/go-edit.obo`
 
 Troubleshooting: if you can't find `go-edit.obo` it likely means you have changed folder, navigate back up to where the repo is checked out
@@ -135,8 +174,8 @@ The general procedure is:
      - `obo-checkin.pl src/ontology/go-edit.obo terms/my_batch.obo`
 - checking in will update the edit file and remove the file from `terms/`
 - Commits are then made on src/ontology/go-edit.obo as appropriate
-- Note that `obo-checkout.pl` and `obo-checkin.pl` are in your PATH, no need to search for it    
-- Always validate after checkin via `cd src/ontology && make travis_build`
+- `obo-checkout.pl` and `obo-checkin.pl` come from the same obo-scripts tooling (`cmungall/obo-scripts` / the `editing-obo-ontologies` skill) and are likewise only on PATH once it's installed/loaded. If not found, install/locate them and call by full path — don't work around their absence by editing the megafile directly; the checkin/checkout procedure is required.
+- Always validate after checkin via `cd src/ontology && make travis_build` (this must run in the ODK Docker image — see the /odk-make skill)
 
 ### Creation of new terms
 
@@ -355,13 +394,12 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
     - look at mappings holistically
 - for anything involving reactions/catalytic activities/RHEA/EC, use the /reaction skill
 - for taxon constraints, use the /taxon-constraint skill
-    - these are in `src/taxon_constraints` (not the main obo file)
-        - `never_in_taxon.tsv`
-        - `only_in_taxon.tsv`
 
 ## AUTOMATED-VALIDATION using Makefile
 
 This ontology uses standard ODK/ROBOT tests plus custom tests to ensure the ontology is logically, syntactically, and stylistically valid.
+
+IMPORTANT: every `make` target and every one-off `robot`/`owltools` command in this section must run inside the pinned ODK Docker image (`obolibrary/odkfull`), NOT against host tools — otherwise results won't match CI. Use the /odk-make skill, which explains this and provides a non-interactive runner (`.claude/skills/odk-make/odk-run.sh make travis_build`, etc). The bare `cd src/ontology && make ...`/`robot ...` forms shown below assume you are already inside the ODK environment (as in GitHub Actions); locally, wrap them via /odk-make.
 
 Ensure that full validation is performed, using `cd src/ontology && make travis_build` (being sure you are in the right folder)
 
@@ -400,7 +438,6 @@ RESEARCH.md can be included in your gh issue comments verbatim (but you can excl
 ## COMMITTING
 
 Commit only the files YOU edited. These are generally to src/ontology/go-edit.obo.
-In some cases you may also need to change taxon constraint files or other ancilliary content files.
 If you did not modify a file yourself, don't commit it. There may be modifications in files like this CLAUDE.md, this is expected, don't commit them.
 
 Include detailed comments.

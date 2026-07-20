@@ -45,7 +45,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-pattern-conformance.ttl" uri="imports/go-pattern-conformance.ttl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-computed-taxon-constraints.owl" uri="imports/go-computed-taxon-constraints.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-groupings.owl" uri="imports/go-taxon-groupings.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go_taxon_constraints.owl" uri="imports/go_taxon_constraints.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn" uri="imports/go-taxon-constraint-classes.ofn"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/extensions/go-taxon-subsets.owl" uri="extensions/go-taxon-subsets.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/go-catalytic-activities-participants.owl" uri="imports/go-catalytic-activities-participants.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/go/imports/gorel.owl" uri="imports/gorel.owl"/>

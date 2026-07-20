@@ -8220,3 +8220,349 @@ http://purl.obolibrary.org/obo/CHEBI_233528 ## heparin proteoglycan
 http://purl.obolibrary.org/obo/CHEBI_60193 ## queuosine
 http://purl.obolibrary.org/obo/CHEBI_235375 ## 4-vinylanisole
 http://purl.obolibrary.org/obo/CHEBI_233617 ## terreate
+http://purl.obolibrary.org/obo/CHEBI_1301 ## (22S)-22-hydroxycholesterol
+http://purl.obolibrary.org/obo/CHEBI_1864 ## 4-hydroxycyclophosphamide
+http://purl.obolibrary.org/obo/CHEBI_2453 ## acyclovir
+http://purl.obolibrary.org/obo/CHEBI_2504 ## aflatoxin B1
+http://purl.obolibrary.org/obo/CHEBI_4610 ## dimethylselenide
+http://purl.obolibrary.org/obo/CHEBI_5615 ## halothane
+http://purl.obolibrary.org/obo/CHEBI_6030 ## isoniazide
+http://purl.obolibrary.org/obo/CHEBI_7207 ## N'-acetylisoniazid
+http://purl.obolibrary.org/obo/CHEBI_8050 ## phenacetin
+http://purl.obolibrary.org/obo/CHEBI_8082 ## phenyl acetate
+http://purl.obolibrary.org/obo/CHEBI_8107 ## phenytoin
+http://purl.obolibrary.org/obo/CHEBI_9171 ## skatole
+http://purl.obolibrary.org/obo/CHEBI_16580 ## N-hydroxy-4-aminobiphenyl
+http://purl.obolibrary.org/obo/CHEBI_17411 ## aldehydo-N-acetyl-D-glucosamine
+http://purl.obolibrary.org/obo/CHEBI_21338 ## aldehydo-L-iduronate
+http://purl.obolibrary.org/obo/CHEBI_27428 ## 3alpha,7alpha-dihydroxy-5beta-cholestan-26-al
+http://purl.obolibrary.org/obo/CHEBI_27889 ## lead(0)
+http://purl.obolibrary.org/obo/CHEBI_28104 ## 1-methylimidazole-4-acetaldehyde
+http://purl.obolibrary.org/obo/CHEBI_28540 ## 5beta-cholestane-3alpha,7alpha,26-triol
+http://purl.obolibrary.org/obo/CHEBI_29129 ## 2-chlorooxirane
+http://purl.obolibrary.org/obo/CHEBI_29132 ## N-acetyl-1,4-benzoquinone imine
+http://purl.obolibrary.org/obo/CHEBI_29138 ## trifluoroacetyl chloride
+http://purl.obolibrary.org/obo/CHEBI_29191 ## hydroxyl
+http://purl.obolibrary.org/obo/CHEBI_29788 ## (dioxido)oxidocarbonate(.1-)
+http://purl.obolibrary.org/obo/CHEBI_30614 ## benzo[a]pyrene diol epoxide I
+http://purl.obolibrary.org/obo/CHEBI_30725 ## aflatoxin B1 exo-8,9-epoxide
+http://purl.obolibrary.org/obo/CHEBI_31932 ## Olmesartan medoxomil
+http://purl.obolibrary.org/obo/CHEBI_32643 ## 5-acetamido-6-formamido-3-methyluracil
+http://purl.obolibrary.org/obo/CHEBI_33739 ## di-mu-sulfido-diiron(0)
+http://purl.obolibrary.org/obo/CHEBI_34560 ## Benzo[a]pyrene-4,5-oxide
+http://purl.obolibrary.org/obo/CHEBI_36319 ## dipyrromethane
+http://purl.obolibrary.org/obo/CHEBI_40574 ## acetyl group
+http://purl.obolibrary.org/obo/CHEBI_45360 ## pyruvoyl group
+http://purl.obolibrary.org/obo/CHEBI_48778 ## 7alpha,26-dihydroxy-5beta-cholestan-3-one
+http://purl.obolibrary.org/obo/CHEBI_48825 ## 7alpha,26-dihydroxycholest-4-en-3-one
+http://purl.obolibrary.org/obo/CHEBI_48833 ## 7alpha,12alpha,26-trihydroxycholest-4-en-3-one
+http://purl.obolibrary.org/obo/CHEBI_48834 ## 7alpha,12alpha,26-trihydroxy-5beta-cholestan-3-one
+http://purl.obolibrary.org/obo/CHEBI_50673 ## methimazole
+http://purl.obolibrary.org/obo/CHEBI_53106 ## aflatoxin B1 8,9-dihydrodiol
+http://purl.obolibrary.org/obo/CHEBI_53108 ## aflatoxin B1 triol
+http://purl.obolibrary.org/obo/CHEBI_55529 ## (R)-indole-3-lactate
+http://purl.obolibrary.org/obo/CHEBI_59440 ## alpha-L-Fucp-(1->2)-beta-D-Galp-(1->3)-[alpha-L-Fucp-(1->4)]-D-GlcNAc
+http://purl.obolibrary.org/obo/CHEBI_61334 ## alpha-L-Fucp-(1->4)-[beta-D-Galp-(1->3)]-beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-D-Glcp
+http://purl.obolibrary.org/obo/CHEBI_63797 ## 3-hydroxy-4-methoxybenzoate
+http://purl.obolibrary.org/obo/CHEBI_63804 ## 4-hydroxyphenytoin
+http://purl.obolibrary.org/obo/CHEBI_63815 ## 4-acetamidobenzoate
+http://purl.obolibrary.org/obo/CHEBI_63817 ## 4-acetamidosalicylate
+http://purl.obolibrary.org/obo/CHEBI_63824 ## (24S)-3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestan-26-oate
+http://purl.obolibrary.org/obo/CHEBI_63825 ## tamoxifen N-oxide
+http://purl.obolibrary.org/obo/CHEBI_63828 ## methimazole S-oxide
+http://purl.obolibrary.org/obo/CHEBI_63829 ## (24S)-7alpha,24-dihydroxy-5beta-cholestan-3-one
+http://purl.obolibrary.org/obo/CHEBI_63830 ## (24S)-7alpha,12alpha,24-trihydroxy-5beta-cholestan-3-one
+http://purl.obolibrary.org/obo/CHEBI_63831 ## (24S)-5beta-cholestane-3alpha,7alpha,24-triol
+http://purl.obolibrary.org/obo/CHEBI_63833 ## (24S)-5beta-cholestane-3alpha,7alpha,24,26-tetrol
+http://purl.obolibrary.org/obo/CHEBI_63834 ## (24S)-5beta-cholestane-3alpha,7alpha,12alpha,24-tetrol
+http://purl.obolibrary.org/obo/CHEBI_63835 ## (24S)-5beta-cholestane-3alpha,7alpha,12alpha,24,26-pentol
+http://purl.obolibrary.org/obo/CHEBI_63839 ## (24S)-7alpha,12alpha,24-trihydroxycholest-4-en-3-one
+http://purl.obolibrary.org/obo/CHEBI_63840 ## 5'-hydroxyomeprazole
+http://purl.obolibrary.org/obo/CHEBI_63843 ## 17alpha-hydroxypregn-5-ene-3,20-dione
+http://purl.obolibrary.org/obo/CHEBI_63848 ## (24S)-3alpha,7alpha,24-trihydroxy-5beta-cholestan-26-al
+http://purl.obolibrary.org/obo/CHEBI_63849 ## (24S)-3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestan-26-al
+http://purl.obolibrary.org/obo/CHEBI_63857 ## sulfacetamide(1-)
+http://purl.obolibrary.org/obo/CHEBI_63859 ## 6-hydroxypaclitaxel
+http://purl.obolibrary.org/obo/CHEBI_63861 ## 2-methylthioethanol
+http://purl.obolibrary.org/obo/CHEBI_63905 ## 3-methyleneindolenine
+http://purl.obolibrary.org/obo/CHEBI_63910 ## 4-methylpentan-1-ol
+http://purl.obolibrary.org/obo/CHEBI_63911 ## (24S)-1alpha,24,25-trihydroxyvitamin D3
+http://purl.obolibrary.org/obo/CHEBI_64685 ## methylselenol
+http://purl.obolibrary.org/obo/CHEBI_64703 ## p-aminohippurate
+http://purl.obolibrary.org/obo/CHEBI_65049 ## 5,10-methenyltetrahydrofolate polyglutamate macromolecule
+http://purl.obolibrary.org/obo/CHEBI_71201 ## xanthurenate
+http://purl.obolibrary.org/obo/CHEBI_71553 ## beta-D-Manp-(1->4)-beta-D-GlcpNAc
+http://purl.obolibrary.org/obo/CHEBI_73979 ## 2-acetamidoglucal
+http://purl.obolibrary.org/obo/CHEBI_77010 ## 1beta-methylseleno-N-acetyl-D-galactosamine
+http://purl.obolibrary.org/obo/CHEBI_77058 ## trimethylselenonium
+http://purl.obolibrary.org/obo/CHEBI_77062 ## methylselenenic acid
+http://purl.obolibrary.org/obo/CHEBI_78550 ## (3Z,6Z)-dodecadienoyl-CoA(4-)
+http://purl.obolibrary.org/obo/CHEBI_78576 ## aflatoxin M1
+http://purl.obolibrary.org/obo/CHEBI_78577 ## aflatoxin M1 8,9-epoxide
+http://purl.obolibrary.org/obo/CHEBI_78582 ## aflatoxin Q1
+http://purl.obolibrary.org/obo/CHEBI_78586 ## aflatoxin B1 endo-8,9-oxide
+http://purl.obolibrary.org/obo/CHEBI_81621 ## Benzo[a]pyrene-cis-4,5-dihydrodiol
+http://purl.obolibrary.org/obo/CHEBI_81626 ## benzo[a]pyrene-cis-7,8-dihydrodiol
+http://purl.obolibrary.org/obo/CHEBI_82916 ## 3-(1H-indol-3-yl)propanoate
+http://purl.obolibrary.org/obo/CHEBI_83282 ## ferriheme a3(1-)
+http://purl.obolibrary.org/obo/CHEBI_85289 ## phenyl sulfate
+http://purl.obolibrary.org/obo/CHEBI_85505 ## 4-ethoxyaniline
+http://purl.obolibrary.org/obo/CHEBI_85867 ## p-nitrophenyl butyrate
+http://purl.obolibrary.org/obo/CHEBI_86969 ## loperamide(1+)
+http://purl.obolibrary.org/obo/CHEBI_87752 ## benzo[a]pyrene-7,8-dione
+http://purl.obolibrary.org/obo/CHEBI_90152 ## 2,3-epoxymenatetrenone
+http://purl.obolibrary.org/obo/CHEBI_91279 ## alpha-D-Man-(1->3)-[alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc
+http://purl.obolibrary.org/obo/CHEBI_91280 ## alpha-D-Man-(1->3)-[alpha-D-Man-(1->3)-[alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc
+http://purl.obolibrary.org/obo/CHEBI_91284 ## alpha-D-Man-(1->2)-alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->3)-[alpha-D-Man-(1->2)-alpha-D-Man-(1->6)]-alpha-D-Man-(1->6)]-beta-D-Man-(1->4)-beta-D-GlcNAc
+http://purl.obolibrary.org/obo/CHEBI_132873 ## meadowlactone
+http://purl.obolibrary.org/obo/CHEBI_132918 ## 1-methyl-4-imidazoleacetate
+http://purl.obolibrary.org/obo/CHEBI_132923 ## salicylurate
+http://purl.obolibrary.org/obo/CHEBI_132962 ## acetaminophen O-beta-D-glucosiduronate
+http://purl.obolibrary.org/obo/CHEBI_133368 ## resolvin E2(1-)
+http://purl.obolibrary.org/obo/CHEBI_133451 ## 6-oxoprostaglandin F1alpha(1-)
+http://purl.obolibrary.org/obo/CHEBI_133524 ## dopamine 3-O-sulfate zwitterion
+http://purl.obolibrary.org/obo/CHEBI_133610 ## N-isobutyrylglycinate
+http://purl.obolibrary.org/obo/CHEBI_133967 ## aflatoxin B1 dialdehyde(1-)
+http://purl.obolibrary.org/obo/CHEBI_134656 ## resolvin T1(1-)
+http://purl.obolibrary.org/obo/CHEBI_134657 ## resolvin T2(1-)
+http://purl.obolibrary.org/obo/CHEBI_134658 ## resolvin T3(1-)
+http://purl.obolibrary.org/obo/CHEBI_134659 ## resolvin T4(1-)
+http://purl.obolibrary.org/obo/CHEBI_136056 ## (18S)-resolvin E2(1-)
+http://purl.obolibrary.org/obo/CHEBI_136057 ## (18S)-resolvin E1(1-)
+http://purl.obolibrary.org/obo/CHEBI_136525 ## (14R)-HDoHE(1-)
+http://purl.obolibrary.org/obo/CHEBI_136526 ## (14S)-HDoHE(1-)
+http://purl.obolibrary.org/obo/CHEBI_136529 ## (4Z,7Z,10Z,12E,14S,16Z,19Z)-14,22-dihydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_136530 ## (4Z,7Z,10Z,12E,14R,16Z,19Z)-14,22-dihydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_136533 ## (4Z,7Z,10Z,12E,14S,16Z,19Z,21R)-dihydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_136534 ## (4Z,7Z,10Z,12E,14S,16Z,19Z,21S)-dihydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_136535 ## (4Z,7Z,10Z,12E,14R,16Z,19Z,21R)-dihydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_136536 ## (4Z,7Z,10Z,12E,14R,16Z,19Z,21S)-dihydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_137442 ## (13R,14S)-dihydroxy-(4Z,7Z,9E,11E,16Z,19Z)-docosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_137444 ## (7R,14S)-dihydroxy-(4Z,8E,10E,12Z,16Z,19Z)-docosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_139253 ## 9-cis-4-hydroxyretinoate
+http://purl.obolibrary.org/obo/CHEBI_139350 ## alpha-D-Gal-(1->3)-alpha-D-GlcNAc-(1->4)-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_139351 ## alpha-L-Fuc-(1->2)-beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_139352 ## alpha-D-GalNAc-(1->3)-[alpha-L-Fuc-(1->2)]-beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_139353 ## alpha-D-Gal-(1->3)-[alpha-L-Fuc-(1->2)]-beta-D-Gal-(1->4)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_140162 ## beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_140180 ## alpha-L-Fuc-(1->2)-beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_140186 ## alpha-L-Fuc-(1->2)-[alpha-D-GalNAc-(1->3)]-beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_140187 ## alpha-L-Fuc-(1->2)-[alpha-D-Gal-(1->3)]-beta-D-Gal-(1->3)-beta-D-GlcNAc-(1->3)-alpha-D-Gal-yl group
+http://purl.obolibrary.org/obo/CHEBI_140208 ## aspirin-triggered protectin D1(1-)
+http://purl.obolibrary.org/obo/CHEBI_140235 ## (7Z,9E,11E,16Z,19Z)-13,14-epoxydocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140236 ## (4Z,7Z,10Z,14E,16Z,19Z)-13-oxodocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140237 ## (7Z,10Z,14E,16Z,19Z)-13-oxodocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140251 ## (4Z,7Z,10Z,12E,14S,16Z)-14-hydroxydocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140279 ## (4Z,8E,10Z,12E,14S,16Z,19Z)-14-hydroperoxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140283 ## 15-deoxy-Delta(12,14)-prostaglandin J3(1-)
+http://purl.obolibrary.org/obo/CHEBI_140285 ## prostaglandin J3(1-)
+http://purl.obolibrary.org/obo/CHEBI_140288 ## Delta(12)-prostaglandin J3(1-)
+http://purl.obolibrary.org/obo/CHEBI_140289 ## (7Z,10Z,12E,14S,16Z,19Z)-14-hydroperoxydocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140290 ## (16S,17S)-epoxy-(7Z,10Z,12E,14E,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140291 ## (7Z,10Z,13Z,15E,17S,19Z)-17-hydroperoxydocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140293 ## 7,8-epoxy,17-hydroxy-(9E,11E,13Z,15E,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140313 ## (16S,17S)-epoxy-(4Z,7Z,10Z,12E,14E,19Z)-docosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140316 ## (4Z,7Z,10Z,13Z,15E,19Z)-17-oxodocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140333 ## (7Z,10Z,13Z,15E,19Z)-17-oxodocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140337 ## (6E,8Z,11Z,14Z,17Z)-5-oxoicosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140346 ## 17R,(16)-epoxy-(4Z,7Z,10Z,13Z,19Z)-docosahexa-4,7,10,13,15,19-enoate
+http://purl.obolibrary.org/obo/CHEBI_140348 ## 22-hydroxyprotectin D1(1-)
+http://purl.obolibrary.org/obo/CHEBI_140349 ## (7S,17S)-bis(hydroperoxy)-(4Z,8E,10Z,13Z,15E,19Z)-docosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140350 ## (7S,14S)-dihydroxy-(4Z,8E,10E,12Z,16Z,19Z)-docosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140352 ## resolvin D5(1-)
+http://purl.obolibrary.org/obo/CHEBI_140373 ## (4Z,8E,10Z,13Z,16Z,19Z)-7-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140375 ## (8E,10Z,13Z,16Z,19Z)-7-hydroxydocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140381 ## (8E,10Z,13Z,15E,19Z)-7,17-bis(hydroperoxy)docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140382 ## (4Z,8E,10Z,13Z,16Z,19Z)-7-oxodocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_140386 ## (8E,10Z,13Z,16Z,19Z)-7-oxodocosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140387 ## 13,14(S)-dihydroxy-(7Z,9E,11E,16Z,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140389 ## (7R,14S)-dihydroxy-(8E,10E,12Z,16Z,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140393 ## 14(S),21-dihydroxy-(7Z,10Z,12E,16Z,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140394 ## 16(S)-glutathionyl-17(R)-hydroxy-(4Z,7Z,10,12,14,19Z)-docosahexaenoate(2-)
+http://purl.obolibrary.org/obo/CHEBI_140397 ## 16(S)-glycinylcystein-S-yl-17(R)-hydroxy-(4Z,7Z,10,12,14,19Z)-docosahexaenoate(1-)
+http://purl.obolibrary.org/obo/CHEBI_140401 ## 16(S)-cystein-S-yl,17(R)-hydroxy-(4Z,7Z,10,12,14,19Z)-docosahexaenoate(1-)
+http://purl.obolibrary.org/obo/CHEBI_140405 ## (10R,17S)-dihydroxy-(7Z,11E,13E,15Z,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140406 ## 16,17(S)-dihydroxy-(7Z,10Z,13E,14E,19Z)-docosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140409 ## (8S)-glutathionyl-(7R,17S)-dihydroxy-(4Z,9,11,13Z,15E,19Z)-docosahexaenoate(2-)
+http://purl.obolibrary.org/obo/CHEBI_140412 ## (8S)-glycinylcystein-S-yl-(7R,17S)-dihydroxy-(4Z,9,11,13Z,15E,19Z)-docosahexaenoate(1-)
+http://purl.obolibrary.org/obo/CHEBI_140413 ## (8S)-cystein-S-yl-(7R,17S)-dihydroxy-(4Z,9,11,13Z,15E,19Z)-docosahexaenoate(1-)
+http://purl.obolibrary.org/obo/CHEBI_140415 ## (7S,8,17S)-trihydroxy-(15E,19Z)-docosa-9,11,13,15,19-pentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140416 ## 7,16,17-trihydroxy-(14E,19Z)-docosa-8,10,12,14,19-pentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140419 ## 7,17-dihydroxy-(8Z,15E,19Z)-docosa-8,10,13,15,19-pentaenoate
+http://purl.obolibrary.org/obo/CHEBI_140698 ## 3-Phosphoadenylylselenate(4-)
+http://purl.obolibrary.org/obo/CHEBI_140726 ## Adenylylselenate(2-)
+http://purl.obolibrary.org/obo/CHEBI_140994 ## 4-nitrophenyl sulfate
+http://purl.obolibrary.org/obo/CHEBI_143575 ## 4alpha-carboxyzymosterol(1-)
+http://purl.obolibrary.org/obo/CHEBI_143594 ## alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1<->1')-ceramide
+http://purl.obolibrary.org/obo/CHEBI_145393 ## 2-acyl-sn-glycero-3-phosphoglycerol(1-)
+http://purl.obolibrary.org/obo/CHEBI_145938 ## N-acetyl-alpha-neuraminosyl-(2->3)-beta-D-galactosyl-(1->4)-[alpha-L-fucosyl-(1->3)]-N-acetyl-beta-D-glucosamine(1-)
+http://purl.obolibrary.org/obo/CHEBI_154964 ## beta-D-Galp-(1->3)-beta-D-Galp-(1->4)-beta-D-Xylp
+http://purl.obolibrary.org/obo/CHEBI_156082 ## 7S,14S-dihydroperoxy-(4Z,8E,10Z,12E,16Z,19Z)-docosahexaenoate(1-)
+http://purl.obolibrary.org/obo/CHEBI_156439 ## (R)-2-methylbutanoyl-CoA(4-)
+http://purl.obolibrary.org/obo/CHEBI_169976 ## N(6)-methyl-dAMP(2-)
+http://purl.obolibrary.org/obo/CHEBI_172871 ## 8-oxo-dATP(4-)
+http://purl.obolibrary.org/obo/CHEBI_172872 ## N(6)-methyl-dATP(4-)
+http://purl.obolibrary.org/obo/CHEBI_172873 ## N(6)-methyl-ATP(4-)
+http://purl.obolibrary.org/obo/CHEBI_176511 ## 3,3',5-triiodo-L-thyronine sulfate(1-)
+http://purl.obolibrary.org/obo/CHEBI_176515 ## 3,3'-diiodo-L-thyronine sulfate(1-)
+http://purl.obolibrary.org/obo/CHEBI_176593 ## 2-oxohexadecanoate
+http://purl.obolibrary.org/obo/CHEBI_176803 ## presqualene monophosphate(2-)
+http://purl.obolibrary.org/obo/CHEBI_176905 ## 2'-deoxyuridine 3'-monophosphate(2-)
+http://purl.obolibrary.org/obo/CHEBI_177869 ## indole-5,6-quinone-2-carboxylate
+http://purl.obolibrary.org/obo/CHEBI_178193 ## L-lanthionine dizwitterion
+http://purl.obolibrary.org/obo/CHEBI_178194 ## L-homolanthionine dizwitterion
+http://purl.obolibrary.org/obo/CHEBI_188497 ## 4-aminobenzoyl-CoA(4-)
+http://purl.obolibrary.org/obo/CHEBI_195348 ## protectin D1(1-)
+http://purl.obolibrary.org/obo/CHEBI_195408 ## PE(16:1(9Z)/14:0) zwitterion
+http://purl.obolibrary.org/obo/CHEBI_195410 ## PE(16:1(9Z)/16:0) zwitterion
+http://purl.obolibrary.org/obo/CHEBI_195411 ## PE(18:0/16:1(9Z)) zwitterion
+http://purl.obolibrary.org/obo/CHEBI_195476 ## N-acetyl-beta-D-galactosaminyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1')-N-acylsphingosine
+http://purl.obolibrary.org/obo/CHEBI_195517 ## 5-S-cysteinyldopa zwitterion
+http://purl.obolibrary.org/obo/CHEBI_195544 ## aspartame zwitterion
+http://purl.obolibrary.org/obo/CHEBI_195545 ## biocytin zwitterion
+http://purl.obolibrary.org/obo/CHEBI_195546 ## beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-N-acylsphingoid
+http://purl.obolibrary.org/obo/CHEBI_195634 ## (4E)-unsatiated ceramide
+http://purl.obolibrary.org/obo/CHEBI_196991 ## 4-hydroperoxycyclophosphamide
+http://purl.obolibrary.org/obo/CHEBI_231766 ## leucodopachrome zwitterion
+http://purl.obolibrary.org/obo/CHEBI_233453 ## valacyclovir(1+)
+http://purl.obolibrary.org/obo/CHEBI_233835 ## (2E,6Z)-dodecadienoyl-CoA(4-)
+http://purl.obolibrary.org/obo/CHEBI_233838 ## (4Z)-decenoyl-CoA(4-)
+http://purl.obolibrary.org/obo/CHEBI_2505 ## 8,9-dihydro-8-(S-glutathionyl)-9-hydroxyaflatoxin B1
+http://purl.obolibrary.org/obo/CHEBI_3410 ## Carboxyphosphamide
+http://purl.obolibrary.org/obo/CHEBI_4026 ## cyclophosphamide hydrate
+http://purl.obolibrary.org/obo/CHEBI_4260 ## D-Urobilinogen
+http://purl.obolibrary.org/obo/CHEBI_7772 ## omeprazole
+http://purl.obolibrary.org/obo/CHEBI_15967 ## thioredoxin dithiol
+http://purl.obolibrary.org/obo/CHEBI_16518 ## ferrocytochrome b5
+http://purl.obolibrary.org/obo/CHEBI_18097 ## ferricytochrome b5
+http://purl.obolibrary.org/obo/CHEBI_18105 ## keto-D-fructose 1-phosphate
+http://purl.obolibrary.org/obo/CHEBI_18191 ## thioredoxin disulfide
+http://purl.obolibrary.org/obo/CHEBI_26756 ## stercobilin
+http://purl.obolibrary.org/obo/CHEBI_27393 ## 3alpha,7alpha-dihydroxy-5beta-cholest-24-enoyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_27403 ## 3alpha,7alpha,24-trihydroxy-5beta-cholestan-26-oyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_28010 ## 10-formyltetrahydrofolyl polyglutamate macromolecule
+http://purl.obolibrary.org/obo/CHEBI_32635 ## paracetamol sulfate
+http://purl.obolibrary.org/obo/CHEBI_32639 ## acetaminophen glutathione conjugate
+http://purl.obolibrary.org/obo/CHEBI_32649 ## N-hydroxy-4-aminobiphenyl O-glucuronide
+http://purl.obolibrary.org/obo/CHEBI_32663 ## tamoxifen N-beta-D-glucosiduronic acid
+http://purl.obolibrary.org/obo/CHEBI_32701 ## N-hydroxy-4-aminobiphenyl O-sulfate
+http://purl.obolibrary.org/obo/CHEBI_34479 ## 7,8-dihydro-7-hydroxy-8S-glutathionylbenzo[a]pyrene
+http://purl.obolibrary.org/obo/CHEBI_34665 ## debrisoquin
+http://purl.obolibrary.org/obo/CHEBI_34778 ## glycitein
+http://purl.obolibrary.org/obo/CHEBI_35419 ## 26-hydroxycholesterol 3-sulfate
+http://purl.obolibrary.org/obo/CHEBI_35424 ## 2-acetamidofluorene N-sulfate
+http://purl.obolibrary.org/obo/CHEBI_35430 ## 3,3'-diiodothyronine
+http://purl.obolibrary.org/obo/CHEBI_35896 ## S-(2-hydroxyethyl)glutathione
+http://purl.obolibrary.org/obo/CHEBI_36378 ## urobilin
+http://purl.obolibrary.org/obo/CHEBI_41001 ## ecgonine benzoate
+http://purl.obolibrary.org/obo/CHEBI_43263 ## 5-iododeoxycytidine monophosphate
+http://purl.obolibrary.org/obo/CHEBI_48736 ## 3alpha,7alpha,24-trihydroxy-5beta-cholestan-26-oic acid
+http://purl.obolibrary.org/obo/CHEBI_52571 ## N-arachidonoylphosphatidylethanolamine
+http://purl.obolibrary.org/obo/CHEBI_61793 ## alpha-Neu5Ac-(2->3)-beta-D-Gal-(1->3)-[alpha-L-Fuc-(1->4)]-D-GlcNAc
+http://purl.obolibrary.org/obo/CHEBI_62647 ## beta-D-GalpNAc-(1->4)-[alpha-Neup5Ac-(2->3)]-beta-D-Galp-(1->4)-beta-D-GlcpNAc-(1->3)-D-Galp
+http://purl.obolibrary.org/obo/CHEBI_62772 ## 5,6,7,8-tetrahydrobiopterin radical cation
+http://purl.obolibrary.org/obo/CHEBI_62926 ## 1-diphospho-1D-myo-inositol 3,4,5,6-tetrakisphosphate
+http://purl.obolibrary.org/obo/CHEBI_62927 ## 3-diphospho-1D-myo-inositol 1,4,5,6-tetrakisphosphate
+http://purl.obolibrary.org/obo/CHEBI_62931 ## 1,5-bis(diphospho)-1D-myo-inositol 3,4,6-trisphosphate
+http://purl.obolibrary.org/obo/CHEBI_62985 ## 5-triphospho-1D-myo-inositol 1,2,3,4,6-pentakisphosphate
+http://purl.obolibrary.org/obo/CHEBI_63799 ## 4-hydroxytolbutamide
+http://purl.obolibrary.org/obo/CHEBI_63800 ## 4-hydroxydebrisoquin
+http://purl.obolibrary.org/obo/CHEBI_63805 ## alpha-D-GlcNS6S-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63806 ## alpha-D-GlcN-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63807 ## alpha-D-GlcNAc-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63808 ## beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63809 ## beta-D-IdoA-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63810 ## alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63811 ## alpha-D-GlcN-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl-yl group
+http://purl.obolibrary.org/obo/CHEBI_63846 ## beta-D-Galp6S-(1->4)-beta-D-GlcpNAc6S-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc6S-(1->3)-D-Galp
+http://purl.obolibrary.org/obo/CHEBI_63850 ## beta-D-Galp-(1->4)-beta-D-GlcpNAc6S-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc6S-(1->3)-D-Galp
+http://purl.obolibrary.org/obo/CHEBI_63851 ## beta-D-GlcpNAc6S-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc6S-(1->3)-D-Galp
+http://purl.obolibrary.org/obo/CHEBI_63852 ## beta-D-GlcpNAc-(1->3)-beta-D-Galp-(1->4)-beta-D-GlcpNAc6S-(1->3)-D-Galp
+http://purl.obolibrary.org/obo/CHEBI_63853 ## beta-D-Galp-(1->4)-beta-D-GlcpNAc6S-(1->3)-D-Galp
+http://purl.obolibrary.org/obo/CHEBI_63860 ## (S)-nicotinium N-alpha-D-glucosiduronate
+http://purl.obolibrary.org/obo/CHEBI_63868 ## beta-D-GalpNAc4S-(1->4)-beta-D-GlcpA-(1->3)-beta-D-Galp-(1->3)-beta-D-Galp-(1->4)-beta-D-Xylp
+http://purl.obolibrary.org/obo/CHEBI_63873 ## beta-D-IdopA-(1->3)-beta-D-GalpNAc4S-(1->4)-beta-D-GlcpA-(1->3)-beta-D-Galp-(1->3)-beta-D-Galp-(1->4)-beta-D-Xylp
+http://purl.obolibrary.org/obo/CHEBI_63907 ## 5-methyltetrahydrofolyl polyglutamate macromolecule
+http://purl.obolibrary.org/obo/CHEBI_63914 ## 3-hydroxypristanoyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_63975 ## 15-deoxy-Delta(12,14)-prostaglandin A2
+http://purl.obolibrary.org/obo/CHEBI_63980 ## 18-hydroxy-18-oxo-dinorleukotriene B4
+http://purl.obolibrary.org/obo/CHEBI_63991 ## 15-epi-lipoxin B4
+http://purl.obolibrary.org/obo/CHEBI_63999 ## 15-deoxy-Delta(12,14)-prostaglandin D2
+http://purl.obolibrary.org/obo/CHEBI_64043 ## desmethyl loperamide
+http://purl.obolibrary.org/obo/CHEBI_64681 ## phenol O-(beta-D-glucuronide)
+http://purl.obolibrary.org/obo/CHEBI_65130 ## (6Z,9Z,12Z,15Z,18Z,21Z)-3-hydroxytetracosahexaenoyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_65137 ## N-hydroxydebrisoquine O-glucuronide
+http://purl.obolibrary.org/obo/CHEBI_77008 ## 1beta-glutathionylseleno-N-acetyl-D-galactosamine
+http://purl.obolibrary.org/obo/CHEBI_77012 ## methylseleninic acid
+http://purl.obolibrary.org/obo/CHEBI_78578 ## Aflatoxin B1 endo-cysteinyl-conjugate
+http://purl.obolibrary.org/obo/CHEBI_78579 ## Aflatoxin B1 endo-cysteinylglycine conjugate
+http://purl.obolibrary.org/obo/CHEBI_78580 ## Aflatoxin B1 endo-N-acetylcysteine conjugate
+http://purl.obolibrary.org/obo/CHEBI_78581 ## Aflatoxin B1 endo glutathione conjugate
+http://purl.obolibrary.org/obo/CHEBI_78583 ## Aflatoxin B1 exo-cysteinyl-conjugate
+http://purl.obolibrary.org/obo/CHEBI_78584 ## Aflatoxin B1 exo-cysteinylglycine conjugate
+http://purl.obolibrary.org/obo/CHEBI_78585 ## Aflatoxin B1 exo-N-acetylcysteine conjugate
+http://purl.obolibrary.org/obo/CHEBI_78587 ## Aflatoxin B1 exo glutathione conjugate
+http://purl.obolibrary.org/obo/CHEBI_83782 ## (5Z,9E,12S,14Z)-8,11,12,20-tetrahydroxyicosa-5,9,14-trienoic acid
+http://purl.obolibrary.org/obo/CHEBI_84296 ## 2-S-cysteinyl-DOPA
+http://purl.obolibrary.org/obo/CHEBI_84298 ## 2,5-S,S'-dicysteinyldopa
+http://purl.obolibrary.org/obo/CHEBI_84301 ## 7-(2-amino-2-carboxyethyl)-5-hydroxy-2H-1,4-benzothiazine-3-carboxylic acid
+http://purl.obolibrary.org/obo/CHEBI_84343 ## 6-(2-amino-2-carboxyethyl)-4-hydroxybenzothiazole
+http://purl.obolibrary.org/obo/CHEBI_84344 ## 7-(2-amino-2-carboxyethyl)-5-hydroxy-3,4-dihydro-2H-1,4-benzothiazin-3-one
+http://purl.obolibrary.org/obo/CHEBI_85880 ## 2,3-dehydrobehenoyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_85944 ## 2-methylpentadecenoyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_85945 ## 2-methylpentadec-2-enoyl-CoA
+http://purl.obolibrary.org/obo/CHEBI_86351 ## 5-iododeoxycytidine triphosphate
+http://purl.obolibrary.org/obo/CHEBI_133817 ## doxorubicinol
+http://purl.obolibrary.org/obo/CHEBI_138179 ## aspirin-triggered resolvin D1
+http://purl.obolibrary.org/obo/CHEBI_138490 ## 5(S)6-epoxy-18(S)-HEPE
+http://purl.obolibrary.org/obo/CHEBI_138614 ## aspirin-triggered resolvin D2
+http://purl.obolibrary.org/obo/CHEBI_138615 ## aspirin-triggered resolvin D3
+http://purl.obolibrary.org/obo/CHEBI_138616 ## aspirin-triggered resolvin D4
+http://purl.obolibrary.org/obo/CHEBI_138648 ## resolvin D3
+http://purl.obolibrary.org/obo/CHEBI_138649 ## resolvin D4
+http://purl.obolibrary.org/obo/CHEBI_138673 ## (4Z,7Z,10Z,13Z,15E,17S)-17-hydroxydocosapentaenoic acid
+http://purl.obolibrary.org/obo/CHEBI_138674 ## 10(S),17(S)-dihydroxy-omega 6-docosapentaenoic acid
+http://purl.obolibrary.org/obo/CHEBI_140876 ## GlcNAc-beta1,3-Gal-R
+http://purl.obolibrary.org/obo/CHEBI_140911 ## Lewis X antigen
+http://purl.obolibrary.org/obo/CHEBI_140912 ## Lewis Y antigen
+http://purl.obolibrary.org/obo/CHEBI_140915 ## disialyl-Lewis A antigen
+http://purl.obolibrary.org/obo/CHEBI_140917 ## Type 1 monosialylgalactosylgloboside
+http://purl.obolibrary.org/obo/CHEBI_140918 ## Type 2 monosialylgalactosylgloboside
+http://purl.obolibrary.org/obo/CHEBI_140919 ## Type 1 disialyl-paragloboside
+http://purl.obolibrary.org/obo/CHEBI_176976 ## 1-salicylate O-glucuronide(1-)
+http://purl.obolibrary.org/obo/CHEBI_229639 ## S-(alpha-chlorocarboxymethyl)glutathione
+http://purl.obolibrary.org/obo/CHEBI_746924 ## N-acetylkynureninate(1-)
+http://purl.obolibrary.org/obo/CHEBI_747162 ## 6-epi-lipoxin A4(-)
+http://purl.obolibrary.org/obo/CHEBI_747177 ## 10S,17S-DiHDoHE(1-)
+http://purl.obolibrary.org/obo/CHEBI_747182 ## 5,6-DHET(1-)
+http://purl.obolibrary.org/obo/CHEBI_747191 ## eoxin C4(2-)
+http://purl.obolibrary.org/obo/CHEBI_747194 ## eoxin E4(1-)
+http://purl.obolibrary.org/obo/CHEBI_747385 ## beta-D-GlcpA-(1->3)-beta-D-Galp-(1->3)-beta-D-Galp-(1->4)-beta-D-Xylp(1-)
+http://purl.obolibrary.org/obo/CHEBI_747387 ## beta-D-GalNAc-(1->4)-beta-D-GlcA-(1->3)-beta-D-GalNAc-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(2-)
+http://purl.obolibrary.org/obo/CHEBI_747389 ## beta-D-GalNAc-(1->4)-beta-D-GlcA-(1->3)-beta-D-GalNAc6S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(3-)
+http://purl.obolibrary.org/obo/CHEBI_747391 ## beta-D-GalNAc-(1->4)-beta-D-GlcA-(1->3)-beta-D-GalNAc4S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(3-)
+http://purl.obolibrary.org/obo/CHEBI_747393 ## beta-D-GalNAc-(1->4)-beta-D-GlcA-(1->3)-beta-D-GalNAc4,6S2-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(4-)
+http://purl.obolibrary.org/obo/CHEBI_747395 ## beta-D-GalNAc-(1->4)-beta-D-IdoA-(1->3)-beta-D-GalNAc4S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(3-)
+http://purl.obolibrary.org/obo/CHEBI_747397 ## beta-D-GalNAc-(1->4)-beta-D-IdoA2S-(1->3)-beta-D-GalNAc4S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(4-)
+http://purl.obolibrary.org/obo/CHEBI_747399 ## beta-D-GalNAc4S-(1->4)-beta-D-IdoA2S-(1->3)-beta-D-GalNAc4S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(4-)
+http://purl.obolibrary.org/obo/CHEBI_747401 ## alpha-D-GlcNAc-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(1-)
+http://purl.obolibrary.org/obo/CHEBI_747403 ## beta-D-IdoA-(1->4)-alpha-D-GlcNS6S-(1->4)-beta-D-IdoA2S-(1->4)-alpha-D-GlcNS3S-(1->4)-beta-D-GlcA-(1->3)-beta-D-Gal-(1->3)-beta-D-Gal-(1->4)-beta-D-Xyl(8-)
+http://purl.obolibrary.org/obo/CHEBI_747564 ## glycitein 4'-O-glucuronide(1-)
+http://purl.obolibrary.org/obo/CHEBI_747565 ## resolvin E3(1-)
+http://purl.obolibrary.org/obo/CHEBI_747569 ## (18R)-resolvin E3(1-)
+http://purl.obolibrary.org/obo/CHEBI_747570 ## (5Z,8Z,11Z,14Z,16E,18R)-18-hydroperoxyicosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_747572 ## (4Z,7Z,10Z,13Z,15E,17R,19Z)-17-hydroperoxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747573 ## 4(S)-hydroperoxy-17(R)-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747574 ## 7(S)-hydroperoxy-17(R)-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747575 ## 4S(5)-epoxy-17R-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747576 ## 7S,8S-epoxy-17R-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747578 ## aspirin-triggered resolvin D5(1-)
+http://purl.obolibrary.org/obo/CHEBI_747581 ## 7S(8)-epoxy-17(S)-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747582 ## 4S(5)-epoxy-17(S)-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747583 ## eoxin D4(1-)
+http://purl.obolibrary.org/obo/CHEBI_747593 ## resolvin D6(1-)
+http://purl.obolibrary.org/obo/CHEBI_747594 ## 7(S)-hydroperoxy-17(S)-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747595 ## 4(S)-hydroperoxy-17(S)-hydroxydocosahexaenoate
+http://purl.obolibrary.org/obo/CHEBI_747596 ## aspirin-triggered resolvin D6(1-)
+http://purl.obolibrary.org/obo/CHEBI_747601 ## (18S)-hydroperoxyicosapentaenoate
+http://purl.obolibrary.org/obo/CHEBI_45701 ## morpholin-4-ylsulfonyl group

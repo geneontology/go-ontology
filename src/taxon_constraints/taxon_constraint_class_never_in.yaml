@@ -1,0 +1,31 @@
+pattern_name: taxon_constraint_class_never_in
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/taxon_constraint_class_never_in
+description: "Generates a named 'never in <taxon>' taxon constraint class. A GO term applies a never-in taxon constraint by asserting is_a to this class; the negation/disjointness axioms are inherited. The defined_class IRI is supplied deterministically in the input TSV. Not generated for union taxa."
+
+classes:
+  thing: owl:Thing
+
+relations:
+  in_taxon: RO:0002162
+
+vars:
+  taxon: thing
+
+name:
+  text: "never in %s"
+  vars:
+    - taxon
+
+logical_axioms:
+  - axiom_type: equivalentTo
+    text: "not (in_taxon some %s)"
+    vars:
+      - taxon
+  - axiom_type: subClassOf
+    text: "in_taxon some (not %s)"
+    vars:
+      - taxon
+  - axiom_type: disjointWith
+    text: "in_taxon some %s"
+    vars:
+      - taxon
