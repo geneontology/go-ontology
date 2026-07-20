@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-07-19go.owl-statistics
+id: obo:go/releases/2026-07-20go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-07-19go.owl
+  version: obo:go/releases/2026-07-20go.owl
 was_generated_by:
-  started_at_time: '2026-07-19T06:38:48.328321'
+  started_at_time: '2026-07-20T06:50:25.230557'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,16 +46,16 @@ partitions:
     distinct_synonym_count: 93623
     synonym_statement_count: 94402
     change_summary:
-      EdgeCreation: 475
-      MappingCreation: 31
-      EdgeDeletion: 152
-      NodeRename: 152
-      RemoveSynonym: 78
-      NewSynonym: 44
       NodeTextDefinitionChange: 156
       NodeUnobsoletion: 116
+      EdgeCreation: 475
+      NodeRename: 152
+      EdgeDeletion: 152
+      MappingCreation: 31
+      RemoveSynonym: 78
       RemoveMapping: 20
       NodeDeletion: 4
+      NewSynonym: 44
       AddNodeToSubset: 1
       All_Obsoletion: 0
       All_Synonym: 122
@@ -92,14 +92,14 @@ partitions:
     distinct_synonym_count: 28653
     synonym_statement_count: 29800
     change_summary:
-      RemoveMapping: 120
-      EdgeDeletion: 37
-      EdgeCreation: 33
-      NodeTextDefinitionChange: 32
       NodeRename: 40
+      RemoveMapping: 120
+      NodeTextDefinitionChange: 32
       MappingCreation: 10
-      NodeDeletion: 3
       NodeUnobsoletion: 4
+      EdgeCreation: 33
+      EdgeDeletion: 37
+      NodeDeletion: 3
       RemoveSynonym: 4
       NewSynonym: 1
       All_Obsoletion: 0
@@ -125,14 +125,14 @@ partitions:
     distinct_synonym_count: 5114
     synonym_statement_count: 5313
     change_summary:
-      NodeDeletion: 2
-      EdgeDeletion: 3
-      NodeRename: 2
-      NodeTextDefinitionChange: 2
-      NodeUnobsoletion: 1
-      EdgeCreation: 2
       RemoveSynonym: 3
+      NodeTextDefinitionChange: 2
+      EdgeDeletion: 3
+      EdgeCreation: 2
       NewSynonym: 1
+      NodeDeletion: 2
+      NodeRename: 2
+      NodeUnobsoletion: 1
       All_Obsoletion: 0
       All_Synonym: 4
     edge_count: 6677
