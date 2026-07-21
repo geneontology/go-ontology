@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-20/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-21/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-21" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1677,6 +1677,24 @@
 - [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86427](http://rdf.rhea-db.org/86427) 
 
 
+### NADP+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0006741`
+#### Removed
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide phosphate (NADP+), a coenzyme that interconverts with its reduced form, NADPH, in many redox and biosynthetic reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+#### Added
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32206"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8148" 
+
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-8148](http://identifiers.org/metacyc.reaction/PWY-8148) 
+
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide phosphate (NADP+) from NAD+. NADP+ is a coenzyme that interconverts with its reduced form, NADPH, in many redox and biosynthetic reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) SubClassOf [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674) 
+
+
 ### NADPH regeneration `http://purl.obolibrary.org/obo/GO_0006740`
 #### Removed
 - [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolic process that generates a pool of NADPH by the reduction of NADP+." 
@@ -1979,6 +1997,12 @@
 - [aminomuconate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047102) [label](http://www.w3.org/2000/01/rdf-schema#label) "aminomuconate-semialdehyde dehydrogenase (NAD+) activity" 
 
 - [aminomuconate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047102) SubClassOf [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) 
+
+
+### amoeboid sperm motility `http://purl.obolibrary.org/obo/GO_0097723`
+
+#### Added
+- [amoeboid sperm motility](http://purl.obolibrary.org/obo/GO_0097723) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32337"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### anaerobic 1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process `http://purl.obolibrary.org/obo/GO_0018978`
