@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-21/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-22/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-21" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-22" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1675,6 +1675,28 @@
 - [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86427" 
 
 - [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86427](http://rdf.rhea-db.org/86427) 
+
+
+### NADH regeneration `http://purl.obolibrary.org/obo/GO_0006735`
+#### Removed
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolic process that generates a pool of NADH by the reduction of NAD+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [label](http://www.w3.org/2000/01/rdf-schema#label) "NADH regeneration" 
+
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) SubClassOf [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674) 
+
+#### Added
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29818"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A metabolic process that generates a pool of NADH by the reduction of NAD+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists; NADH is highly abundant in cells." 
+
+- [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete NADH regeneration" 
 
 
 ### NADP+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0006741`
@@ -5857,6 +5879,46 @@
 - [phosphinothricin metabolic process](http://purl.obolibrary.org/obo/GO_1901764) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [phosphinothricin metabolic process](http://purl.obolibrary.org/obo/GO_1901764) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phosphinothricin metabolic process" 
+
+
+### photosynthetic NADP+ reduction `http://purl.obolibrary.org/obo/GO_0009780`
+#### Removed
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An NADPH regeneration process that contributes to the light reactions of photosynthesis. The light reactions of photosynthesis use energy from photons to generate high-energy electrons. These electrons are used directly to reduce NADP+ to NADPH. NADPH is a relatively stable molecule and can pass on its hydrogen atom to other molecules in chemical reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716746840" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0816017360" 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [label](http://www.w3.org/2000/01/rdf-schema#label) "photosynthetic NADP+ reduction" 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) SubClassOf [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [photosynthesis, light reaction](http://purl.obolibrary.org/obo/GO_0019684) 
+
+#### Added
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29818"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [photosynthetic electron transport in photosystem I](http://purl.obolibrary.org/obo/GO_0009773) 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. An NADPH regeneration process that contributes to the light reactions of photosynthesis. The light reactions of photosynthesis use energy from photons to generate high-energy electrons. These electrons are used directly to reduce NADP+ to NADPH. NADPH is a relatively stable molecule and can pass on its hydrogen atom to other molecules in chemical reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716746840" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0816017360" 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as photosynthetic electron transport in photosystem I ; GO:0009773." 
+
+- [photosynthetic NADP+ reduction](http://purl.obolibrary.org/obo/GO_0009780) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete photosynthetic NADP+ reduction" 
+
+
+### photosynthetic electron transport in photosystem I `http://purl.obolibrary.org/obo/GO_0009773`
+
+#### Added
+- [photosynthetic electron transport in photosystem I](http://purl.obolibrary.org/obo/GO_0009773) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "photosynthetic NADP+ reduction" 
 
 
 ### phytochelatin import into vacuole `http://purl.obolibrary.org/obo/GO_0071995`
