@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-22/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-07-23/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-22" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-23" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -766,6 +766,30 @@
 - [3-hydroxybenzyl alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0018921) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
 - [3-hydroxybenzyl alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0018921) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-hydroxybenzyl alcohol metabolic process" 
+
+
+### 3-keto-sphinganine metabolic process `http://purl.obolibrary.org/obo/GO_0006666`
+#### Removed
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 3-keto-sphinganine, a derivative of sphinganine with a ketone group at C3. It is an intermediate in the synthesis of sphingosine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-keto-sphinganine metabolic process" 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) SubClassOf [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) 
+
+#### Added
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32343"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [sphingolipid biosynthetic process](http://purl.obolibrary.org/obo/GO_0030148) 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving 3-keto-sphinganine, a derivative of sphinganine with a ketone group at C3. It is an intermediate in the synthesis of sphingosine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function, 3-dehydrosphinganine reductase activity ; GO:0047560." 
+
+- [3-keto-sphinganine metabolic process](http://purl.obolibrary.org/obo/GO_0006666) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-keto-sphinganine metabolic process" 
 
 
 ### 3-sulfino-L-alanine: proton, glutamate antiporter activity `http://purl.obolibrary.org/obo/GO_0000514`
@@ -1677,6 +1701,190 @@
 - [N-acetylglucosamine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015572) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86427](http://rdf.rhea-db.org/86427) 
 
 
+### N-terminal peptidyl-L-cysteine N-palmitoylation `http://purl.obolibrary.org/obo/GO_0018009`
+#### Removed
+- [N-terminal peptidyl-L-cysteine N-palmitoylation](http://purl.obolibrary.org/obo/GO_0018009) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+
+
+### N-terminal peptidyl-alanine methylation `http://purl.obolibrary.org/obo/GO_0018011`
+#### Removed
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0061" 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0062" 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The methylation of the N-terminal alanine of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0061" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0062" 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-terminal peptidyl-alanine methylation" 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) SubClassOf [N-terminal protein amino acid methylation](http://purl.obolibrary.org/obo/GO_0006480) 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) SubClassOf [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) 
+
+#### Added
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The methylation of the N-terminal alanine of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0061" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0062" 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-terminal peptidyl-alanine methylation" 
+
+
+### N-terminal peptidyl-alanine trimethylation `http://purl.obolibrary.org/obo/GO_0018012`
+#### Removed
+- [N-terminal peptidyl-alanine trimethylation](http://purl.obolibrary.org/obo/GO_0018012) SubClassOf [N-terminal peptidyl-alanine methylation](http://purl.obolibrary.org/obo/GO_0018011) 
+
+#### Added
+- [N-terminal peptidyl-alanine trimethylation](http://purl.obolibrary.org/obo/GO_0018012) SubClassOf [N-terminal protein amino acid modification](http://purl.obolibrary.org/obo/GO_0031365) 
+
+
+### N-terminal peptidyl-aspartic acid acetylation `http://purl.obolibrary.org/obo/GO_0017190`
+#### Removed
+- [N-terminal peptidyl-aspartic acid acetylation](http://purl.obolibrary.org/obo/GO_0017190) SubClassOf [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) 
+
+
+
+### N-terminal peptidyl-glutamine acetylation `http://purl.obolibrary.org/obo/GO_0017192`
+#### Removed
+- [N-terminal peptidyl-glutamine acetylation](http://purl.obolibrary.org/obo/GO_0017192) SubClassOf [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) 
+
+
+
+### N-terminal peptidyl-proline dimethylation `http://purl.obolibrary.org/obo/GO_0018016`
+#### Removed
+- [N-terminal peptidyl-proline dimethylation](http://purl.obolibrary.org/obo/GO_0018016) SubClassOf [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) 
+
+#### Added
+- [N-terminal peptidyl-proline dimethylation](http://purl.obolibrary.org/obo/GO_0018016) SubClassOf [N-terminal protein amino acid modification](http://purl.obolibrary.org/obo/GO_0031365) 
+
+
+### N-terminal peptidyl-proline methylation `http://purl.obolibrary.org/obo/GO_0035568`
+#### Removed
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0419" 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The methylation of the N-terminal proline of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0419" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20668449" 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-terminal peptidyl-proline methylation" 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) SubClassOf [N-terminal protein amino acid methylation](http://purl.obolibrary.org/obo/GO_0006480) 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) SubClassOf [peptidyl-proline modification](http://purl.obolibrary.org/obo/GO_0018208) 
+
+#### Added
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The methylation of the N-terminal proline of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0419" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20668449" 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [N-terminal peptidyl-proline methylation](http://purl.obolibrary.org/obo/GO_0035568) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-terminal peptidyl-proline methylation" 
+
+
+### N-terminal peptidyl-serine dimethylation `http://purl.obolibrary.org/obo/GO_0035572`
+#### Removed
+- [N-terminal peptidyl-serine dimethylation](http://purl.obolibrary.org/obo/GO_0035572) SubClassOf [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) 
+
+#### Added
+- [N-terminal peptidyl-serine dimethylation](http://purl.obolibrary.org/obo/GO_0035572) SubClassOf [N-terminal protein amino acid modification](http://purl.obolibrary.org/obo/GO_0031365) 
+
+
+### N-terminal peptidyl-serine methylation `http://purl.obolibrary.org/obo/GO_0035570`
+#### Removed
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The methylation of the N-terminal serine of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20668449" 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-terminal peptidyl-serine methylation" 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) SubClassOf [N-terminal protein amino acid methylation](http://purl.obolibrary.org/obo/GO_0006480) 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+#### Added
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The methylation of the N-terminal serine of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20668449" 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-terminal peptidyl-serine methylation" 
+
+
+### N-terminal peptidyl-serine trimethylation `http://purl.obolibrary.org/obo/GO_0035573`
+#### Removed
+- [N-terminal peptidyl-serine trimethylation](http://purl.obolibrary.org/obo/GO_0035573) SubClassOf [N-terminal peptidyl-serine methylation](http://purl.obolibrary.org/obo/GO_0035570) 
+
+#### Added
+- [N-terminal peptidyl-serine trimethylation](http://purl.obolibrary.org/obo/GO_0035573) SubClassOf [N-terminal protein amino acid modification](http://purl.obolibrary.org/obo/GO_0031365) 
+
+
+### N-terminal protein amino acid deamination, from amino carbon `http://purl.obolibrary.org/obo/GO_0018058`
+#### Removed
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0127" 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0128" 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0129" 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The oxidative deamination of the alpha carbon of an encoded N-terminal amino acid, to form pyruvic acid retaining an amide bond between its 1-carboxyl group and the adjacent residue. The pyruvate 2-oxo group may become an enzyme active site, or it may be reduced to an alcohol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0127" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0128" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0129" 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-terminal protein amino acid deamination, from amino carbon" 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) SubClassOf [protein deamination](http://purl.obolibrary.org/obo/GO_0018277) 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) SubClassOf [N-terminal protein amino acid deamination](http://purl.obolibrary.org/obo/GO_0031363) 
+
+#### Added
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The oxidative deamination of the alpha carbon of an encoded N-terminal amino acid, to form pyruvic acid retaining an amide bond between its 1-carboxyl group and the adjacent residue. The pyruvate 2-oxo group may become an enzyme active site, or it may be reduced to an alcohol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0127" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0128" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0129" 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [N-terminal protein amino acid deamination, from amino carbon](http://purl.obolibrary.org/obo/GO_0018058) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-terminal protein amino acid deamination, from amino carbon" 
+
+
 ### NADH regeneration `http://purl.obolibrary.org/obo/GO_0006735`
 #### Removed
 - [NADH regeneration](http://purl.obolibrary.org/obo/GO_0006735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolic process that generates a pool of NADH by the reduction of NAD+." 
@@ -1741,6 +1949,34 @@
 #### Removed
 - [RNA import into mitochondrion](http://purl.obolibrary.org/obo/GO_0035927) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### RNA-protein covalent cross-linking via peptidyl-serine `http://purl.obolibrary.org/obo/GO_0018259`
+#### Removed
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0213" 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The formation of a covalent cross-link between RNA and a peptidyl-serine residue by the formation of O-(phospho-5'-5NA)-L-serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0213" 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [label](http://www.w3.org/2000/01/rdf-schema#label) "RNA-protein covalent cross-linking via peptidyl-serine" 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) SubClassOf [RNA-protein covalent cross-linking](http://purl.obolibrary.org/obo/GO_0018144) 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+#### Added
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The formation of a covalent cross-link between RNA and a peptidyl-serine residue by the formation of O-(phospho-5'-5NA)-L-serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0213" 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [RNA-protein covalent cross-linking via peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018259) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete RNA-protein covalent cross-linking via peptidyl-serine" 
 
 
 ### RO_0002161 `http://purl.obolibrary.org/obo/RO_0002161`
@@ -2149,6 +2385,56 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24284" 
 
 - [aspartate-semialdehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0004073) [label](http://www.w3.org/2000/01/rdf-schema#label) "aspartate-semialdehyde dehydrogenase (NADP+) activity" 
+
+
+### bacterial-type EF-P lysine modification `http://purl.obolibrary.org/obo/GO_0072580`
+#### Removed
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of a lysine residue in a protein to produce (2S)-2-amino-6-([(3S)-3,6-diaminohexanoyl]amino)hexanoic acid, and the subsequent hydroxylation of the modified lysine residue. This modification is observed in, and is probably unique to, the prokaryotic translation elongation factor P (EF-P)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0531" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0530" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22706199" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:imk" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20729861" 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The EF-P modification pathway is now thought to be composed of three steps: conversion of alpha-lysyl-EF-P to beta-lysyl-EF-P, lysylation of Lys34, and hydroxylation of Lys34." 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [label](http://www.w3.org/2000/01/rdf-schema#label) "bacterial-type EF-P lysine modification" 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) SubClassOf [peptidyl-lysine modification](http://purl.obolibrary.org/obo/GO_0018205) 
+
+#### Added
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of a lysine residue in a protein to produce (2S)-2-amino-6-([(3S)-3,6-diaminohexanoyl]amino)hexanoic acid, and the subsequent hydroxylation of the modified lysine residue. This modification is observed in, and is probably unique to, the prokaryotic translation elongation factor P (EF-P)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0531" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0530" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22706199" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:imk" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20729861" 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [bacterial-type EF-P lysine modification](http://purl.obolibrary.org/obo/GO_0072580) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete bacterial-type EF-P lysine modification" 
 
 
 ### benzonitrile metabolic process `http://purl.obolibrary.org/obo/GO_0018876`
@@ -3252,6 +3538,45 @@
 
 
 
+### endoplasmic reticulum-endolysosomal membrane contact site `http://purl.obolibrary.org/obo/GO_7770088`
+
+#### Added
+- Class: [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32348"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-07-22T21:20:31Z" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ER-endolysosomal membrane contact site" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770088" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A membrane contact site between the endoplasmic reticulum membrane and the membrane of an organelle of the endolysosomal system, such as an endosome or lysosome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31678515" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum-endolysosomal membrane contact site" 
+
+- [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) SubClassOf [organelle membrane contact site](http://purl.obolibrary.org/obo/GO_0044232) 
+
+
+### endoplasmic reticulum-endosome membrane contact site `http://purl.obolibrary.org/obo/GO_0140284`
+#### Removed
+- [endoplasmic reticulum-endosome membrane contact site](http://purl.obolibrary.org/obo/GO_0140284) SubClassOf [organelle membrane contact site](http://purl.obolibrary.org/obo/GO_0044232) 
+
+#### Added
+- [endoplasmic reticulum-endosome membrane contact site](http://purl.obolibrary.org/obo/GO_0140284) SubClassOf [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) 
+
+
+### endoplasmic reticulum-lysosome membrane contact site `http://purl.obolibrary.org/obo/GO_7770052`
+
+#### Added
+- [endoplasmic reticulum-lysosome membrane contact site](http://purl.obolibrary.org/obo/GO_7770052) SubClassOf [endoplasmic reticulum-endolysosomal membrane contact site](http://purl.obolibrary.org/obo/GO_7770088) 
+
+
 ### endosome to lysosome transport `http://purl.obolibrary.org/obo/GO_0008333`
 #### Removed
 - [endosome to lysosome transport](http://purl.obolibrary.org/obo/GO_0008333) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -3966,6 +4291,12 @@
 ### iron-sulfur cluster export from the mitochondrion `http://purl.obolibrary.org/obo/GO_0140466`
 #### Removed
 - [iron-sulfur cluster export from the mitochondrion](http://purl.obolibrary.org/obo/GO_0140466) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+
+
+### isopeptide cross-linking via N6-(L-isoglutamyl)-L-lysine `http://purl.obolibrary.org/obo/GO_0018153`
+#### Removed
+- [isopeptide cross-linking via N6-(L-isoglutamyl)-L-lysine](http://purl.obolibrary.org/obo/GO_0018153) SubClassOf [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) 
 
 
 
@@ -5057,6 +5388,50 @@
 - [negative regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900975) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of tatiopterin biosynthetic process" 
 
 
+### negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation `http://purl.obolibrary.org/obo/GO_1903125`
+#### Removed
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A peptidyl-threonine phosphorylation that results in negative regulation of thioredoxin peroxidase activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21850687" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000063" 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation" 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) EquivalentTo [peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_0018107) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379)) 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) SubClassOf [peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_0018107) 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) 
+
+#### Added
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A peptidyl-threonine phosphorylation that results in negative regulation of thioredoxin peroxidase activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21850687" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000063" 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_1903125) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of thioredoxin peroxidase activity by peptidyl-threonine phosphorylation" 
+
+
 ### negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source `http://purl.obolibrary.org/obo/GO_0061415`
 #### Removed
 - [negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of a nonfermentable carbon source leads to a decrease of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
@@ -5095,6 +5470,40 @@
 #### Removed
 - [neurotransmitter receptor transport, endosome to postsynaptic membrane](http://purl.obolibrary.org/obo/GO_0098887) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide `http://purl.obolibrary.org/obo/GO_0018418`
+#### Removed
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0293" 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The incorporation of nickel into a 3Fe-2S complex by tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0293" 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [label](http://www.w3.org/2000/01/rdf-schema#label) "nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide" 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) SubClassOf [iron-sulfur cluster assembly](http://purl.obolibrary.org/obo/GO_0016226) 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) SubClassOf [peptidyl-glutamic acid modification](http://purl.obolibrary.org/obo/GO_0018200) 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) SubClassOf [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) SubClassOf [nickel incorporation into metallo-sulfur cluster](http://purl.obolibrary.org/obo/GO_0018414) 
+
+#### Added
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The incorporation of nickel into a 3Fe-2S complex by tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0293" 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide](http://purl.obolibrary.org/obo/GO_0018418) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nickel incorporation into iron-sulfur cluster via tris-L-cysteinyl L-cysteine persulfido L-glutamato L-histidino L-serinyl nickel triiron disulfide trioxide" 
 
 
 ### nitrilase activity `http://purl.obolibrary.org/obo/GO_0000257`
@@ -5261,6 +5670,18 @@
 
 #### Added
 - [nucleoside triphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0009141) SubClassOf [phosphorus metabolic process](http://purl.obolibrary.org/obo/GO_0006793) 
+
+
+### obsolete iron incorporation into iron-sulfur cluster via hexakis-L-cysteinyl hexairon hexasulfide `http://purl.obolibrary.org/obo/GO_0018300`
+#### Removed
+- [obsolete iron incorporation into iron-sulfur cluster via hexakis-L-cysteinyl hexairon hexasulfide](http://purl.obolibrary.org/obo/GO_0018300) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+
+
+### obsolete iron incorporation into iron-sulfur cluster via hexakis-L-cysteinyl triiron trisulfide `http://purl.obolibrary.org/obo/GO_0018286`
+#### Removed
+- [obsolete iron incorporation into iron-sulfur cluster via hexakis-L-cysteinyl triiron trisulfide](http://purl.obolibrary.org/obo/GO_0018286) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
 
 
 ### obsolete obsolete cytoskeleton polarization involved in growth plate cartilage chondrocyte division `http://purl.obolibrary.org/obo/GO_0003426`
@@ -5735,6 +6156,620 @@
 - [pentaerythritol tetranitrate metabolic process](http://purl.obolibrary.org/obo/GO_0018954) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete pentaerythritol tetranitrate metabolic process" 
 
 
+### peptide cross-linking via L-cystine `http://purl.obolibrary.org/obo/GO_0018316`
+#### Removed
+- [peptide cross-linking via L-cystine](http://purl.obolibrary.org/obo/GO_0018316) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+
+
+### peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine `http://purl.obolibrary.org/obo/GO_0018173`
+#### Removed
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0265" 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of peptidyl-1-thioglycine from other compounds, including peptidyl-glycine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10660523" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0265" 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine" 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) SubClassOf [peptidyl-glycine modification](http://purl.obolibrary.org/obo/GO_0018201) 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) SubClassOf [modified amino acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0042398) 
+
+#### Added
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32100"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein maturation](http://purl.obolibrary.org/obo/GO_0051604) 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of peptidyl-1-thioglycine from other compounds, including peptidyl-glycine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10660523" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0265" 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine](http://purl.obolibrary.org/obo/GO_0018173) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-1-thioglycine biosynthetic process from peptidyl-glycine" 
+
+
+### peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine `http://purl.obolibrary.org/obo/GO_0018083`
+#### Removed
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0185" 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-cysteine or peptidyl-serine to peptidyl-L-3-oxoalanine; characteristic of the active sites of arylsulfatases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0185" 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine" 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+#### Added
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32100"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein maturation](http://purl.obolibrary.org/obo/GO_0051604) 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-cysteine or peptidyl-serine to peptidyl-L-3-oxoalanine; characteristic of the active sites of arylsulfatases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0185" 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine](http://purl.obolibrary.org/obo/GO_0018083) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-L-3-oxoalanine biosynthetic process from peptidyl-cysteine or peptidyl-serine" 
+
+
+### peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine `http://purl.obolibrary.org/obo/GO_0018061`
+#### Removed
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0128" 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of a N-terminal peptidyl-phenylalanine residue by either oxidative deamination or by transamination and subsequent reduction to form peptidyl-L-3-phenyllactic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0128" 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine" 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) SubClassOf [peptidyl-phenylalanine modification](http://purl.obolibrary.org/obo/GO_0018207) 
+
+#### Added
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32100"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine" 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of a N-terminal peptidyl-phenylalanine residue by either oxidative deamination or by transamination and subsequent reduction to form peptidyl-L-3-phenyllactic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0128" 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-L-3-phenyllactic acid biosynthetic process from peptidyl-phenylalanine](http://purl.obolibrary.org/obo/GO_0018061) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-terminal protein phenylalanine modification to L-3-phenyllactic acid" 
+
+
+### peptidyl-L-cysteine S-palmitoylation `http://purl.obolibrary.org/obo/GO_0018230`
+#### Removed
+- [peptidyl-L-cysteine S-palmitoylation](http://purl.obolibrary.org/obo/GO_0018230) SubClassOf [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) 
+
+
+
+### peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine `http://purl.obolibrary.org/obo/GO_0018231`
+#### Removed
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0107" 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-cysteine to form peptidyl-S-diacylglycerol-L-cysteine; the oleate and palmitate actually represent mixtures of saturated (generally at 3') and unsaturated (generally at 2') fatty acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0107" 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine" 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+#### Added
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32100"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein maturation](http://purl.obolibrary.org/obo/GO_0051604) 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-cysteine to form peptidyl-S-diacylglycerol-L-cysteine; the oleate and palmitate actually represent mixtures of saturated (generally at 3') and unsaturated (generally at 2') fatty acids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0107" 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine](http://purl.obolibrary.org/obo/GO_0018231) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-S-diacylglycerol-L-cysteine biosynthetic process from peptidyl-cysteine" 
+
+
+### peptidyl-alanine modification `http://purl.obolibrary.org/obo/GO_0018194`
+#### Removed
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-alanine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-alanine modification" 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-alanine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-alanine modification](http://purl.obolibrary.org/obo/GO_0018194) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-alanine modification" 
+
+
+### peptidyl-amino acid modification `http://purl.obolibrary.org/obo/GO_0018193`
+#### Removed
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The alteration of an amino acid residue in a peptide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-amino acid modification" 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+#### Added
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The alteration of an amino acid residue in a peptide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-amino acid modification" 
+
+
+### peptidyl-arginine deglycation `http://purl.obolibrary.org/obo/GO_0036527`
+#### Removed
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of a sugar or dicarbonyl from an arginine residue of a glycated protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25416785" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14568004" 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-arginine deglycation" 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) SubClassOf [peptidyl-arginine modification](http://purl.obolibrary.org/obo/GO_0018195) 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) SubClassOf [protein deglycation](http://purl.obolibrary.org/obo/GO_0036525) 
+
+#### Added
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of a sugar or dicarbonyl from an arginine residue of a glycated protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25416785" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14568004" 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-arginine deglycation](http://purl.obolibrary.org/obo/GO_0036527) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-arginine deglycation" 
+
+
+### peptidyl-arginine modification `http://purl.obolibrary.org/obo/GO_0018195`
+#### Removed
+- [peptidyl-arginine modification](http://purl.obolibrary.org/obo/GO_0018195) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-arginine modification](http://purl.obolibrary.org/obo/GO_0018195) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
+### peptidyl-aspartic acid autophosphorylation `http://purl.obolibrary.org/obo/GO_1990938`
+#### Removed
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The phosphorylation by a protein of one or more of its own aspartate amino acid residues, or an aspartate residue on an identical protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26134396" 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-aspartic acid autophosphorylation" 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) SubClassOf [peptidyl-aspartic acid phosphorylation](http://purl.obolibrary.org/obo/GO_0018217) 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) SubClassOf [protein autophosphorylation](http://purl.obolibrary.org/obo/GO_0046777) 
+
+#### Added
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The phosphorylation by a protein of one or more of its own aspartate amino acid residues, or an aspartate residue on an identical protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26134396" 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-aspartic acid autophosphorylation](http://purl.obolibrary.org/obo/GO_1990938) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-aspartic acid autophosphorylation" 
+
+
+### peptidyl-aspartic acid hydroxylation `http://purl.obolibrary.org/obo/GO_0042264`
+#### Removed
+- [peptidyl-aspartic acid hydroxylation](http://purl.obolibrary.org/obo/GO_0042264) SubClassOf [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) 
+
+
+
+### peptidyl-aspartic acid modification `http://purl.obolibrary.org/obo/GO_0018197`
+#### Removed
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-aspartic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-aspartic acid modification" 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-aspartic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-aspartic acid modification" 
+
+
+### peptidyl-aspartic acid phosphorylation `http://purl.obolibrary.org/obo/GO_0018217`
+#### Removed
+- [peptidyl-aspartic acid phosphorylation](http://purl.obolibrary.org/obo/GO_0018217) SubClassOf [peptidyl-aspartic acid modification](http://purl.obolibrary.org/obo/GO_0018197) 
+
+
+
+### peptidyl-cysteine S-nitrosylation `http://purl.obolibrary.org/obo/GO_0018119`
+#### Removed
+- [peptidyl-cysteine S-nitrosylation](http://purl.obolibrary.org/obo/GO_0018119) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+
+
+### peptidyl-cysteine acetylation `http://purl.obolibrary.org/obo/GO_0018533`
+#### Removed
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The acetylation of peptidyl-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-cysteine acetylation" 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) SubClassOf [protein acetylation](http://purl.obolibrary.org/obo/GO_0006473) 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+#### Added
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The acetylation of peptidyl-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-cysteine acetylation](http://purl.obolibrary.org/obo/GO_0018533) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-cysteine acetylation" 
+
+
+### peptidyl-cysteine deglycation `http://purl.obolibrary.org/obo/GO_0036526`
+#### Removed
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of a sugar or dicarbonyl from a cysteine residue of a glycated protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25416785" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14568004" 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-cysteine deglycation" 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) SubClassOf [protein deglycation](http://purl.obolibrary.org/obo/GO_0036525) 
+
+#### Added
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of a sugar or dicarbonyl from a cysteine residue of a glycated protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25416785" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14568004" 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-cysteine deglycation](http://purl.obolibrary.org/obo/GO_0036526) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-cysteine deglycation" 
+
+
+### peptidyl-cysteine methylation `http://purl.obolibrary.org/obo/GO_0018125`
+#### Removed
+- [peptidyl-cysteine methylation](http://purl.obolibrary.org/obo/GO_0018125) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+
+
+### peptidyl-cysteine modification `http://purl.obolibrary.org/obo/GO_0018198`
+#### Removed
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-cysteine modification" 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-cysteine modification" 
+
+
+### peptidyl-cysteine oxidation `http://purl.obolibrary.org/obo/GO_0018171`
+#### Removed
+- [peptidyl-cysteine oxidation](http://purl.obolibrary.org/obo/GO_0018171) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+
+
+### peptidyl-glutamic acid modification `http://purl.obolibrary.org/obo/GO_0018200`
+#### Removed
+- [peptidyl-glutamic acid modification](http://purl.obolibrary.org/obo/GO_0018200) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-glutamic acid modification](http://purl.obolibrary.org/obo/GO_0018200) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
+### peptidyl-glutamine modification `http://purl.obolibrary.org/obo/GO_0018199`
+#### Removed
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-glutamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-glutamine modification" 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-glutamine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-glutamine modification" 
+
+
+### peptidyl-glycine modification `http://purl.obolibrary.org/obo/GO_0018201`
+#### Removed
+- [peptidyl-glycine modification](http://purl.obolibrary.org/obo/GO_0018201) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-glycine modification](http://purl.obolibrary.org/obo/GO_0018201) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
+### peptidyl-histidine adenylylation `http://purl.obolibrary.org/obo/GO_0051111`
+#### Removed
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0371" 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The adenylylation of peptidyl-histidine to form peptidyl-1'-(phospho-5'-adenosine)-L-histidine (otherwise known as tau-AMP-histidine, tele-AMP-histidine) or peptidyl-3'-(phospho-5'-adenosine)-L-histidine (otherwise known as pi-AMP-histidine, pros-AMP-histidine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0371" 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-histidine adenylylation" 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) SubClassOf [protein adenylylation](http://purl.obolibrary.org/obo/GO_0018117) 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) SubClassOf [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) 
+
+#### Added
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The adenylylation of peptidyl-histidine to form peptidyl-1'-(phospho-5'-adenosine)-L-histidine (otherwise known as tau-AMP-histidine, tele-AMP-histidine) or peptidyl-3'-(phospho-5'-adenosine)-L-histidine (otherwise known as pi-AMP-histidine, pros-AMP-histidine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0371" 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-histidine adenylylation](http://purl.obolibrary.org/obo/GO_0051111) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-histidine adenylylation" 
+
+
+### peptidyl-histidine methylation `http://purl.obolibrary.org/obo/GO_0018021`
+#### Removed
+- [peptidyl-histidine methylation](http://purl.obolibrary.org/obo/GO_0018021) SubClassOf [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) 
+
+
+
+### peptidyl-histidine modification `http://purl.obolibrary.org/obo/GO_0018202`
+#### Removed
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-histidine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-histidine modification" 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-histidine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-histidine modification" 
+
+
+### peptidyl-histidine phosphorylation `http://purl.obolibrary.org/obo/GO_0018106`
+#### Removed
+- [peptidyl-histidine phosphorylation](http://purl.obolibrary.org/obo/GO_0018106) SubClassOf [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) 
+
+
+
+### peptidyl-histidine uridylylation `http://purl.obolibrary.org/obo/GO_0051114`
+#### Removed
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0372" 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The uridylylation of peptidyl-histidine to form peptidyl-1'-(phospho-5'-uridine)-L-histidine (otherwise known as tau-UMP-histidine, tele-UMP-histidine) or peptidyl-3'-(phospho-5'-uridine)-L-histidine (otherwise known as pi-UMP-histidine, pros-UMP-histidine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0372" 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-histidine uridylylation" 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) SubClassOf [protein uridylylation](http://purl.obolibrary.org/obo/GO_0018177) 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) SubClassOf [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) 
+
+#### Added
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The uridylylation of peptidyl-histidine to form peptidyl-1'-(phospho-5'-uridine)-L-histidine (otherwise known as tau-UMP-histidine, tele-UMP-histidine) or peptidyl-3'-(phospho-5'-uridine)-L-histidine (otherwise known as pi-UMP-histidine, pros-UMP-histidine)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0372" 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-histidine uridylylation](http://purl.obolibrary.org/obo/GO_0051114) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-histidine uridylylation" 
+
+
+### peptidyl-isoleucine modification `http://purl.obolibrary.org/obo/GO_0018203`
+#### Removed
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-isoleucine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-isoleucine modification" 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-isoleucine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-isoleucine modification](http://purl.obolibrary.org/obo/GO_0018203) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-isoleucine modification" 
+
+
+### peptidyl-leucine modification `http://purl.obolibrary.org/obo/GO_0018204`
+#### Removed
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-leucine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-leucine modification" 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-leucine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-leucine modification](http://purl.obolibrary.org/obo/GO_0018204) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-leucine modification" 
+
+
+### peptidyl-lysine modification `http://purl.obolibrary.org/obo/GO_0018205`
+#### Removed
+- [peptidyl-lysine modification](http://purl.obolibrary.org/obo/GO_0018205) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-lysine modification](http://purl.obolibrary.org/obo/GO_0018205) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
+### peptidyl-methionine modification `http://purl.obolibrary.org/obo/GO_0018206`
+#### Removed
+- [peptidyl-methionine modification](http://purl.obolibrary.org/obo/GO_0018206) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-methionine modification](http://purl.obolibrary.org/obo/GO_0018206) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
+### peptidyl-phenylalanine modification `http://purl.obolibrary.org/obo/GO_0018207`
+#### Removed
+- [peptidyl-phenylalanine modification](http://purl.obolibrary.org/obo/GO_0018207) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-phenylalanine modification](http://purl.obolibrary.org/obo/GO_0018207) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
 ### peptidyl-proline hydroxylation to 3-hydroxy-L-proline `http://purl.obolibrary.org/obo/GO_0018400`
 #### Removed
 - [peptidyl-proline hydroxylation to 3-hydroxy-L-proline](http://purl.obolibrary.org/obo/GO_0018400) SubClassOf [L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
@@ -5745,6 +6780,384 @@
 #### Removed
 - [peptidyl-proline hydroxylation to 4-hydroxy-L-proline](http://purl.obolibrary.org/obo/GO_0018401) SubClassOf [L-amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170033) 
 
+
+
+### peptidyl-proline modification `http://purl.obolibrary.org/obo/GO_0018208`
+#### Removed
+- [peptidyl-proline modification](http://purl.obolibrary.org/obo/GO_0018208) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-proline modification](http://purl.obolibrary.org/obo/GO_0018208) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
+### peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase `http://purl.obolibrary.org/obo/GO_0017186`
+#### Removed
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of peptidyl-pyroglutamic acid, catalyzed by glutaminyl-peptide cyclotransferase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0031" 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "See also the molecular function term 'glutaminyl-peptide cyclotransferase activity ; GO:0016603'." 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase" 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) SubClassOf [peptidyl-glutamine modification](http://purl.obolibrary.org/obo/GO_0018199) 
+
+#### Added
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32100"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein maturation](http://purl.obolibrary.org/obo/GO_0051604) 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of peptidyl-pyroglutamic acid, catalyzed by glutaminyl-peptide cyclotransferase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0031" 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function, glutaminyl-peptide cyclotransferase activity ; GO:0016603." 
+
+- [peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase](http://purl.obolibrary.org/obo/GO_0017186) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-pyroglutamic acid biosynthetic process, using glutaminyl-peptide cyclotransferase" 
+
+
+### peptidyl-pyrromethane cofactor linkage `http://purl.obolibrary.org/obo/GO_0018160`
+#### Removed
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0252" 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The covalent binding of a pyrromethane (dipyrrin) cofactor to protein via the sulfur atom of cysteine forming dipyrrolylmethanemethyl-L-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0252" 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-pyrromethane cofactor linkage" 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) SubClassOf [peptidyl-cysteine modification](http://purl.obolibrary.org/obo/GO_0018198) 
+
+#### Added
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The covalent binding of a pyrromethane (dipyrrin) cofactor to protein via the sulfur atom of cysteine forming dipyrrolylmethanemethyl-L-cysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0252" 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-pyrromethane cofactor linkage](http://purl.obolibrary.org/obo/GO_0018160) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-pyrromethane cofactor linkage" 
+
+
+### peptidyl-selenocysteine modification `http://purl.obolibrary.org/obo/GO_0050844`
+#### Removed
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-selenocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-selenocysteine modification" 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-selenocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-selenocysteine modification](http://purl.obolibrary.org/obo/GO_0050844) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-selenocysteine modification" 
+
+
+### peptidyl-serine O-acetylation `http://purl.obolibrary.org/obo/GO_0030919`
+#### Removed
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0364" 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The acetylation of peptidyl-serine to form peptidyl-O-acetyl-L-serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0364" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:489587" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7309355" 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-serine O-acetylation" 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) SubClassOf [peptidyl-serine acetylation](http://purl.obolibrary.org/obo/GO_0030920) 
+
+#### Added
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The acetylation of peptidyl-serine to form peptidyl-O-acetyl-L-serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0364" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:489587" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7309355" 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-serine O-acetylation](http://purl.obolibrary.org/obo/GO_0030919) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-serine O-acetylation" 
+
+
+### peptidyl-serine modification `http://purl.obolibrary.org/obo/GO_0018209`
+#### Removed
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-serine modification" 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-serine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-serine modification" 
+
+
+### peptidyl-serine octanoylation `http://purl.obolibrary.org/obo/GO_0018191`
+#### Removed
+- [peptidyl-serine octanoylation](http://purl.obolibrary.org/obo/GO_0018191) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+
+
+### peptidyl-serine phosphopantetheinylation `http://purl.obolibrary.org/obo/GO_0018070`
+#### Removed
+- [peptidyl-serine phosphopantetheinylation](http://purl.obolibrary.org/obo/GO_0018070) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+
+
+### peptidyl-serine phosphorylation `http://purl.obolibrary.org/obo/GO_0018105`
+#### Removed
+- [peptidyl-serine phosphorylation](http://purl.obolibrary.org/obo/GO_0018105) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
+
+
+### peptidyl-serine trans-autophosphorylation `http://purl.obolibrary.org/obo/GO_1990579`
+#### Removed
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The phosphorylation of a peptidyl-serine to form peptidyl-O-phospho-L-serine on an identical protein. For example, phosphorylation by the other kinase within a homodimer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21317875" 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-serine trans-autophosphorylation" 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) SubClassOf [peptidyl-serine autophosphorylation](http://purl.obolibrary.org/obo/GO_0036289) 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) SubClassOf [protein trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_0036290) 
+
+#### Added
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The phosphorylation of a peptidyl-serine to form peptidyl-O-phospho-L-serine on an identical protein. For example, phosphorylation by the other kinase within a homodimer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21317875" 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-serine trans-autophosphorylation](http://purl.obolibrary.org/obo/GO_1990579) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-serine trans-autophosphorylation" 
+
+
+### peptidyl-threonine O-acetylation `http://purl.obolibrary.org/obo/GO_0120258`
+#### Removed
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0364" 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The acetylation of peptidyl-threonine to form peptidyl-O-acetyl-L-threonine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0423" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802624" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16728640" 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-threonine O-acetylation" 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) SubClassOf [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) SubClassOf [peptidyl-threonine acetylation](http://purl.obolibrary.org/obo/GO_0120257) 
+
+#### Added
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The acetylation of peptidyl-threonine to form peptidyl-O-acetyl-L-threonine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0423" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22802624" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16728640" 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-threonine O-acetylation](http://purl.obolibrary.org/obo/GO_0120258) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-threonine O-acetylation" 
+
+
+### peptidyl-threonine modification `http://purl.obolibrary.org/obo/GO_0018210`
+#### Removed
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-threonine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-threonine modification" 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-threonine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-threonine modification" 
+
+
+### peptidyl-threonine phosphorylation `http://purl.obolibrary.org/obo/GO_0018107`
+#### Removed
+- [peptidyl-threonine phosphorylation](http://purl.obolibrary.org/obo/GO_0018107) SubClassOf [peptidyl-threonine modification](http://purl.obolibrary.org/obo/GO_0018210) 
+
+
+
+### peptidyl-tryptophan modification `http://purl.obolibrary.org/obo/GO_0018211`
+#### Removed
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical alteration of a tryptophan residue in a peptide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:isa_complete" 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-tryptophan modification" 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical alteration of a tryptophan residue in a peptide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:isa_complete" 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-tryptophan modification](http://purl.obolibrary.org/obo/GO_0018211) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-tryptophan modification" 
+
+
+### peptidyl-tyrosine dehydrogenation `http://purl.obolibrary.org/obo/GO_0018251`
+#### Removed
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0183" 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The oxidation of the C alpha-C beta bond of peptidyl-tyrosine to form peptidyl-dehydrotyrosine coupled with cyclization of neighboring residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0183" 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "See also the biological process terms 'peptide cross-linking via L-seryl-5-imidazolinone glycine ; GO:0018252' and 'peptide cross-linking via 2-imino-glutaminyl-5-imidazolinone glycine ; GO:0019729'." 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-tyrosine dehydrogenation" 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) SubClassOf [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) SubClassOf [protein dehydration](http://purl.obolibrary.org/obo/GO_0018249) 
+
+#### Added
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The oxidation of the C alpha-C beta bond of peptidyl-tyrosine to form peptidyl-dehydrotyrosine coupled with cyclization of neighboring residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0183" 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-tyrosine dehydrogenation](http://purl.obolibrary.org/obo/GO_0018251) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-tyrosine dehydrogenation" 
+
+
+### peptidyl-tyrosine modification `http://purl.obolibrary.org/obo/GO_0018212`
+#### Removed
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-tyrosine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-tyrosine modification" 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-tyrosine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-tyrosine modification" 
+
+
+### peptidyl-tyrosine phosphorylation `http://purl.obolibrary.org/obo/GO_0018108`
+#### Removed
+- [peptidyl-tyrosine phosphorylation](http://purl.obolibrary.org/obo/GO_0018108) SubClassOf [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) 
+
+
+
+### peptidyl-tyrosine sulfation `http://purl.obolibrary.org/obo/GO_0006478`
+#### Removed
+- [peptidyl-tyrosine sulfation](http://purl.obolibrary.org/obo/GO_0006478) SubClassOf [peptidyl-tyrosine modification](http://purl.obolibrary.org/obo/GO_0018212) 
+
+
+
+### peptidyl-valine modification `http://purl.obolibrary.org/obo/GO_0018213`
+#### Removed
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of peptidyl-valine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [label](http://www.w3.org/2000/01/rdf-schema#label) "peptidyl-valine modification" 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) SubClassOf [peptidyl-amino acid modification](http://purl.obolibrary.org/obo/GO_0018193) 
+
+#### Added
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of peptidyl-valine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [peptidyl-valine modification](http://purl.obolibrary.org/obo/GO_0018213) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete peptidyl-valine modification" 
 
 
 ### phenylglyoxylate dehydrogenase (acylating) activity `http://purl.obolibrary.org/obo/GO_0047110`
@@ -5843,7 +7256,7 @@
 #### Added
 - [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32295"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. OBSOLETE. The chemical reactions and pathways resulting in the breakdown of phosphinothricin." 
+- [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of phosphinothricin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
@@ -5852,7 +7265,7 @@
 
 - [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this process exists." 
 
-- [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete obsolete phosphinothricin catabolic process" 
+- [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phosphinothricin catabolic process" 
 
 
 ### phosphinothricin metabolic process `http://purl.obolibrary.org/obo/GO_1901764`
@@ -6773,6 +8186,42 @@
 - [primary methylamine oxidase activity](http://purl.obolibrary.org/obo/GO_0008131) SubClassOf [monoamine oxidase activity](http://purl.obolibrary.org/obo/GO_0097621) 
 
 
+### protein branching point deglutamylation `http://purl.obolibrary.org/obo/GO_0035611`
+#### Removed
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of a branching point glutamate residue. A branching point glutamate connects a glutamate side chain to a gene-encoded glutamate residue." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21074048" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein branching point deglutamylation" 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) SubClassOf [protein deglutamylation](http://purl.obolibrary.org/obo/GO_0035608) 
+
+#### Added
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/323475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of a branching point glutamate residue. A branching point glutamate connects a glutamate side chain to a gene-encoded glutamate residue." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21074048" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [protein branching point deglutamylation](http://purl.obolibrary.org/obo/GO_0035611) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein branching point deglutamylation" 
+
+
+### protein histidyl modification to diphthamide `http://purl.obolibrary.org/obo/GO_0017183`
+#### Removed
+- [protein histidyl modification to diphthamide](http://purl.obolibrary.org/obo/GO_0017183) SubClassOf [peptidyl-histidine modification](http://purl.obolibrary.org/obo/GO_0018202) 
+
+#### Added
+- [protein histidyl modification to diphthamide](http://purl.obolibrary.org/obo/GO_0017183) SubClassOf [protein modification process](http://purl.obolibrary.org/obo/GO_0036211) 
+
+
 ### protein transmembrane import into intracellular organelle `http://purl.obolibrary.org/obo/GO_0044743`
 #### Removed
 - [protein transmembrane import into intracellular organelle](http://purl.obolibrary.org/obo/GO_0044743) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -6785,6 +8234,12 @@
 - [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67388" 
 
 - [protein-cysteine S-palmitoyltransferase activity](http://purl.obolibrary.org/obo/GO_0019706) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [67388](http://rdf.rhea-db.org/67388) 
+
+
+### protein-phosphoribosyl dephospho-coenzyme A linkage `http://purl.obolibrary.org/obo/GO_0018247`
+#### Removed
+- [protein-phosphoribosyl dephospho-coenzyme A linkage](http://purl.obolibrary.org/obo/GO_0018247) SubClassOf [peptidyl-serine modification](http://purl.obolibrary.org/obo/GO_0018209) 
+
 
 
 ### protocatechuate 3,4-dioxygenase complex `http://purl.obolibrary.org/obo/GO_7770085`
@@ -7706,6 +9161,43 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 
 
+### sodium channel activator activity `http://purl.obolibrary.org/obo/GO_7770087`
+
+#### Added
+- Class: [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32340"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-07-22T17:08:46Z" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "sodium channel inactivation inhibitor activity" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "voltage-gated sodium channel activator activity" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "voltage-gated sodium channel inactivation inhibitor activity" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770087" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binds to and increases the activity of a sodium channel." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25492945" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27246624" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "A sodium channel activator increases channel activity through several mechanisms, including inhibition of channel inactivation and promotion of channel opening. This term is therefore appropriate for annotation when the mechanism involves inhibition of inactivation, not only when it involves promotion of opening." 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) [label](http://www.w3.org/2000/01/rdf-schema#label) "sodium channel activator activity" 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) SubClassOf [sodium channel regulator activity](http://purl.obolibrary.org/obo/GO_0017080) 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) SubClassOf [channel activator activity](http://purl.obolibrary.org/obo/GO_0099103) 
+
+- [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [sodium channel activity](http://purl.obolibrary.org/obo/GO_0005272) 
+
+
 ### spongiotrophoblast layer development `http://purl.obolibrary.org/obo/GO_0060712`
 
 #### Added
@@ -8036,6 +9528,38 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 #### Removed
 - [synaptic vesicle lumen acidification](http://purl.obolibrary.org/obo/GO_0097401) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### tRNA threonylcarbamoyladenosine metabolic process `http://purl.obolibrary.org/obo/GO_0070525`
+#### Removed
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving tRNA threonylcarbamoyladenosine, a modified nucleoside found in some tRNA molecules." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:imk" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19287007" 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA threonylcarbamoyladenosine metabolic process" 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) SubClassOf [tRNA metabolic process](http://purl.obolibrary.org/obo/GO_0006399) 
+
+#### Added
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32343"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [tRNA threonylcarbamoyladenosine modification](http://purl.obolibrary.org/obo/GO_0002949) 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving tRNA threonylcarbamoyladenosine, a modified nucleoside found in some tRNA molecules." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:imk" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19287007" 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping class." 
+
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete tRNA threonylcarbamoyladenosine metabolic process" 
 
 
 ### tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900870`
