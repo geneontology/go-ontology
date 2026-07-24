@@ -19,6 +19,7 @@ http://purl.obolibrary.org/obo/GO_1904764	chaperone-mediated autophagy transloca
 http://purl.obolibrary.org/obo/GO_1904821	chloroplast disassembly	http://purl.obolibrary.org/obo/GO_0009507	chloroplast
 http://purl.obolibrary.org/obo/GO_0061523	cilium disassembly	http://purl.obolibrary.org/obo/GO_0005929	cilium
 http://purl.obolibrary.org/obo/GO_0072318	clathrin coat disassembly	http://purl.obolibrary.org/obo/GO_0030118	clathrin coat
+http://purl.obolibrary.org/obo/GO_0035617	cytoplasmic stress granule disassembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0035921	desmosome disassembly	http://purl.obolibrary.org/obo/GO_0030057	desmosome
 http://purl.obolibrary.org/obo/GO_1905692	endoplasmic reticulum disassembly	http://purl.obolibrary.org/obo/GO_0005783	endoplasmic reticulum
 http://purl.obolibrary.org/obo/GO_0031025	equatorial microtubule organizing center disassembly	http://purl.obolibrary.org/obo/GO_0000923	equatorial microtubule organizing center
@@ -57,7 +58,6 @@ http://purl.obolibrary.org/obo/GO_0031107	septin ring disassembly	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0035045	sperm plasma membrane disassembly	http://purl.obolibrary.org/obo/GO_0097524	sperm plasma membrane
 http://purl.obolibrary.org/obo/GO_0051230	spindle disassembly	http://purl.obolibrary.org/obo/GO_0005819	spindle
 http://purl.obolibrary.org/obo/GO_0000390	spliceosomal complex disassembly	http://purl.obolibrary.org/obo/GO_0005681	spliceosomal complex
-http://purl.obolibrary.org/obo/GO_0035617	stress granule disassembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0098883	synapse pruning	http://purl.obolibrary.org/obo/GO_0045202	synapse
 http://purl.obolibrary.org/obo/GO_0070194	synaptonemal complex disassembly	http://purl.obolibrary.org/obo/GO_0000795	synaptonemal complex
 http://purl.obolibrary.org/obo/GO_0010547	thylakoid membrane disassembly	http://purl.obolibrary.org/obo/GO_0042651	thylakoid membrane
