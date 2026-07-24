@@ -97,6 +97,7 @@ http://purl.obolibrary.org/obo/GO_0010190	cytochrome b6f complex assembly	http:/
 http://purl.obolibrary.org/obo/GO_0017004	cytochrome complex assembly	http://purl.obolibrary.org/obo/GO_0070069	cytochrome complex
 http://purl.obolibrary.org/obo/GO_0035231	cytoneme assembly	http://purl.obolibrary.org/obo/GO_0035230	cytoneme
 http://purl.obolibrary.org/obo/GO_1990194	cytoplasmic U snRNP body assembly	http://purl.obolibrary.org/obo/GO_0071254	cytoplasmic U snRNP body
+http://purl.obolibrary.org/obo/GO_0034063	cytoplasmic stress granule assembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0180023	cytosolic large ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0022625	cytosolic large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0180025	cytosolic small ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0022627	cytosolic small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0071550	death-inducing signaling complex assembly	http://purl.obolibrary.org/obo/GO_0031264	death-inducing signaling complex
@@ -252,7 +253,6 @@ http://purl.obolibrary.org/obo/GO_0000244	spliceosomal tri-snRNP complex assembl
 http://purl.obolibrary.org/obo/GO_0042244	spore wall assembly	http://purl.obolibrary.org/obo/GO_0031160	spore wall
 http://purl.obolibrary.org/obo/GO_0044574	starch utilization system complex assembly	http://purl.obolibrary.org/obo/GO_0044570	starch utilization system complex
 http://purl.obolibrary.org/obo/GO_0043149	stress fiber assembly	http://purl.obolibrary.org/obo/GO_0001725	stress fiber
-http://purl.obolibrary.org/obo/GO_0034063	stress granule assembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0071688	striated muscle myosin thick filament assembly	http://purl.obolibrary.org/obo/GO_0005863	striated muscle myosin thick filament
 http://purl.obolibrary.org/obo/GO_0007130	synaptonemal complex assembly	http://purl.obolibrary.org/obo/GO_0000795	synaptonemal complex
 http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_0000333	telomerase catalytic core complex
