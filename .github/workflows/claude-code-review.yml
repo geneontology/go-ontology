@@ -126,7 +126,7 @@ jobs:
           allowed_bots: 'claude,github-actions,ai4c-agent'
           claude_args: |
             --model ${{ env.REVIEW_MODEL }}
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api repos/:*),Bash(gh api /repos/:*),Bash(gh api users/:*),Bash(gh api /users/:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api repos/:*),Bash(gh api /repos/:*),Bash(gh api users/:*),Bash(gh api /users/:*),Bash(gh api graphql:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
 
           prompt: |
             REPO: ${{ github.repository }}
@@ -170,6 +170,22 @@ jobs:
             link to the tracking comment. Curators see both, so restating the
             report there doubles what they have to read, and the two copies
             drift as you condense.
+
+            THEN COLLAPSE YOUR OWN EARLIER REPORTS:
+            A new tracking comment is opened per run, so on an active PR your
+            reports stack up and a curator has to work out which is current.
+            After your new report is posted, minimize your previous ones as
+            outdated. List your own comments:
+
+            gh api repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.user.login == "ai4c-reviewer[bot]") | "\(.id) \(.node_id) \(.created_at)"'
+
+            and for each one older than your current report:
+
+            gh api graphql -f query='mutation($id:ID!){minimizeComment(input:{subjectId:$id,classifier:OUTDATED}){clientMutationId}}' -F id=<node_id>
+
+            Minimize ONLY comments authored by you, and never your current one.
+            A human's comment is never yours to hide. If you cannot identify
+            which comment is your current report, minimize nothing.
 
             VERDICT:
             If there are any CRITICAL or IMPORTANT findings:
