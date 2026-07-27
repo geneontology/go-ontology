@@ -125,6 +125,17 @@ jobs:
             .claude/skills/pr-review/. It defines what to check, how to grade
             severity, and how to report coverage. Follow it.
 
+            LOADING THE SKILL:
+            This action restores `.claude/` and CLAUDE.md from the BASE branch
+            before you start, so a PR that edits the skill is reviewed under the
+            old copy, and a newly added skill file is absent entirely. If
+            `pr-review` is not in your skill list, read it directly:
+            `git show HEAD:.claude/skills/pr-review/SKILL.md`, or from
+            `.claude-pr/.claude/skills/pr-review/SKILL.md` if that snapshot
+            exists. If you cannot obtain the criteria by any route, say so
+            prominently and stop -- do not review against no criteria and emit
+            something shaped like a review anyway.
+
             THIS ENVIRONMENT:
             - ROBOT, owltools and the ODK toolchain are NOT installed on this
               runner, and the `ontology_qc` required check already covers
@@ -137,23 +148,28 @@ jobs:
             - You have web access; use it to verify PMIDs against PubMed rather
               than assuming a plausible-looking id is real.
 
-            VERDICT:
-            After reviewing, submit a GitHub review. Use inline comments for
-            findings anchored to specific lines, and the review body for the
-            summary.
+            WRITE THE REPORT EXACTLY ONCE:
+            Your final response is posted as the PR tracking comment. That is
+            the single home for the full review -- the coverage report the skill
+            specifies, every finding, and all supporting detail. Anchor findings
+            to specific lines with inline comments.
 
+            The `gh pr review` body is NOT a second copy. It is a stub of at
+            most three lines: the verdict, finding counts by severity, and a
+            link to the tracking comment. Curators see both, so restating the
+            report there doubles what they have to read, and the two copies
+            drift as you condense.
+
+            VERDICT:
             If there are any CRITICAL or IMPORTANT findings:
             ```
-            gh pr review ${{ env.PR_NUMBER }} --request-changes --body "<summary>"
+            gh pr review ${{ env.PR_NUMBER }} --request-changes --body "<stub>"
             ```
 
             If there are only SUGGESTIONs, or nothing to report:
             ```
-            gh pr review ${{ env.PR_NUMBER }} --approve --body "<summary>"
+            gh pr review ${{ env.PR_NUMBER }} --approve --body "<stub>"
             ```
-
-            The review body must open with the coverage report the skill
-            specifies -- a reader has to be able to tell coverage from silence.
 
       # claude-code-action exits 0 even when the agent run itself errored,
       # producing no posted review and a green check -- a phantom pass. Two

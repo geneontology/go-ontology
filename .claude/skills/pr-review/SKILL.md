@@ -116,8 +116,9 @@ switched off.
 
 ## Report coverage, not just findings
 
-Open the review with what you actually verified, so a reader can distinguish
-coverage from silence:
+Open the report with what you actually verified, so a reader can distinguish
+coverage from silence. Write it once, wherever the caller says the report
+goes:
 
 - Scope of review (full or sampled, and why)
 - References checked: N verified, M unverifiable
