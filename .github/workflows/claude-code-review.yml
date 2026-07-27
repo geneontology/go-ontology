@@ -9,10 +9,15 @@
 # Fork PRs cannot be reviewed automatically (no access to secrets); use the
 # workflow_dispatch trigger, or comment /review, for those.
 #
+# The review substance lives in the `pr-review` skill
+# (.claude/skills/pr-review/SKILL.md), not in the prompt below, so the same
+# criteria apply when a human reviews a PR locally. The prompt here carries
+# only what is specific to running in CI: what is installed on the runner, and
+# how to submit the verdict.
+#
 # This does NOT re-run ontology validation. The `ontology_qc` required status
-# check already runs the full ODK build, so this job stays on bare
-# ubuntu-latest and reviews what CI cannot see: reference validity, design
-# pattern conformance, axiom appropriateness, and metadata conventions.
+# check already runs the full ODK build, so the job stays on bare
+# ubuntu-latest.
 #
 # Required secrets: CLAUDE_CODE_OAUTH_TOKEN, AI4C_REVIEWER_APP_ID,
 #                   AI4C_REVIEWER_PRIVATE_KEY
@@ -116,95 +121,26 @@ jobs:
             REPO: ${{ github.repository }}
             PR NUMBER: ${{ env.PR_NUMBER }}
 
-            You are reviewing a pull request against the Gene Ontology. Read
-            CLAUDE.md in the repo root first -- it is the authoritative statement
-            of this project's editing conventions, and most of what you are
-            checking is specified there. Consult the relevant skills in
-            .claude/skills/ (design-pattern, term-obsoletion, chemical-entity,
-            reaction, taxon-constraint) when the diff touches those areas.
+            Review this pull request using the `pr-review` skill in
+            .claude/skills/pr-review/. It defines what to check, how to grade
+            severity, and how to report coverage. Follow it.
 
-            SCOPE -- what NOT to spend effort on:
-            The `ontology_qc` required check already runs the full ODK build:
-            OBO syntax, ELK reasoning, unsatisfiable classes, and the SPARQL QC
-            suite. Do not re-derive any of that, and do not run ROBOT (it is not
-            installed here). Review what CI cannot see.
-
-            Start by sizing the change: `gh pr diff ${{ env.PR_NUMBER }} --patch | wc -l`.
-            If the diff is very large (>2000 lines) or is an obviously mechanical
-            bulk update, do not attempt a stanza-by-stanza review. Say so plainly,
-            spot-check a representative sample, and scope your verdict to what you
-            actually examined. Never imply coverage you did not achieve.
-
-            WHAT TO CHECK:
-
-            1. References. Every PMID/DOI introduced must be real, correctly
-               transcribed, and actually about the subject it is cited for. Verify
-               them (WebFetch against PubMed or `gh api`); do not trust that a
-               plausible-looking PMID exists. A fabricated or mis-transcribed
-               reference is always CRITICAL. Check ORCIDs and GOC ids are not
-               invented.
-
-            2. Logical axioms. This is where the most damaging errors hide.
-               - `intersection_of` asserts necessary AND sufficient conditions.
-                 Flag over-specification: axioms where the intersection admits
-                 things that are not instances of the term. CLAUDE.md's
-                 keratinization example is the canonical anti-pattern.
-               - Label, text definition, and logical definition must all describe
-                 the same thing. If the label does not read as a name for the
-                 logical definition, that is a red flag.
-               - `is_a` should not be over-asserted: the reasoner infers the most
-                 specific parent, so redundant or multiple asserted `is_a` is
-                 usually wrong.
-               - Check `part_of` / `regulates` / `occurs_in` are used where a
-                 relationship suffices and an equivalence axiom would overreach.
-
-            3. Design patterns. For compositional terms, confirm name, definition,
-               and logical definition conform to the documented pattern. Compare
-               against sibling terms found with `obo-grep.pl` -- prior art in the
-               ontology is strong evidence for what the pattern should be.
-
-            4. Metadata conventions.
-               - `namespace` present, and one of biological_process,
-                 molecular_function, cellular_component.
-               - Definition present with at least one xref.
-               - `created_by` / `creation_date` on NEW terms only. Adding or
-                 modifying either on a pre-existing term is an error.
-               - `term_tracker_item` exactly as:
-                 `property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/N" xsd:anyURI`
-               - Synonym scopes correct; no synonym duplicating the label.
-
-            5. Obsoletions. Verify the full procedure: no remaining references to
-               the obsoleted term from other terms, `replaced_by` / `consider`
-               populated appropriately, axioms stripped down, and the impact on
-               existing annotations considered.
-
-            6. Chemicals. CHEBI terms should use ph7.3 forms where applicable.
-
-            7. Scope discipline. Changes should match the linked issue and form a
-               coherent unit. Flag unrelated drive-by edits, and especially flag
-               any stanza that looks accidentally clobbered -- the checkout/checkin
-               workflow can silently damage neighbouring terms.
-
-            TONE:
-            Most PR authors here are expert GO curators with decades of domain
-            knowledge. Be specific and technical, cite the term id and the
-            convention being violated, and skip anything you cannot substantiate.
-            No praise padding, no restating the diff back at them, no style
-            nitpicks. If you are unsure whether something is wrong, say so as a
-            question rather than asserting a defect. A short review with three
-            real findings is far more valuable than a long one with twenty
-            speculative ones.
-
-            SEVERITY:
-            - CRITICAL: wrong or fabricated data -- hallucinated PMIDs, incorrect
-              biology, axioms that would misclassify terms, damaged stanzas.
-            - IMPORTANT: convention violations with real consequences -- design
-              pattern nonconformance, over-specified equivalence axioms, metadata
-              on the wrong terms, incomplete obsoletion.
-            - SUGGESTION: improvements that are genuinely optional.
+            THIS ENVIRONMENT:
+            - ROBOT, owltools and the ODK toolchain are NOT installed on this
+              runner, and the `ontology_qc` required check already covers
+              everything they would tell you. Do not attempt to run them.
+            - `obo-grep.pl` IS available, for stanza-aware search of
+              src/ontology/go-edit.obo when checking prior art.
+            - Get the diff with `gh pr diff ${{ env.PR_NUMBER }}`, and size it
+              first with `gh pr diff ${{ env.PR_NUMBER }} --patch | wc -l`.
+            - Read the linked issue (`gh issue view`) to judge scope discipline.
+            - You have web access; use it to verify PMIDs against PubMed rather
+              than assuming a plausible-looking id is real.
 
             VERDICT:
-            After reviewing, submit a GitHub review.
+            After reviewing, submit a GitHub review. Use inline comments for
+            findings anchored to specific lines, and the review body for the
+            summary.
 
             If there are any CRITICAL or IMPORTANT findings:
             ```
@@ -216,14 +152,8 @@ jobs:
             gh pr review ${{ env.PR_NUMBER }} --approve --body "<summary>"
             ```
 
-            Open your review body with what you actually verified, so a reader can
-            tell coverage from silence:
-            - Scope of review (full / sampled, and why)
-            - References checked: N verified, M unverifiable
-            - Logical axioms reviewed
-            - Design pattern conformance checked against: <sibling terms consulted>
-            - Metadata conventions checked
-            - Obsoletion procedure checked / N/A
+            The review body must open with the coverage report the skill
+            specifies -- a reader has to be able to tell coverage from silence.
 
       # claude-code-action exits 0 even when the agent run itself errored,
       # producing no posted review and a green check -- a phantom pass. Two
