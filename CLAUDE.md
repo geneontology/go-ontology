@@ -327,7 +327,7 @@ These should ALWAYS be added for NEW terms, but NEVER added to existing terms.
 Whenever you are creating an entirely new term, ensure that the following are generated:
 
    ```
-   created_by: dragon-ai-agent
+   created_by: ai4c-agent
    creation_date: <YYYY-MM-DD>T<HH:MM:DD>Z
    ```
 
