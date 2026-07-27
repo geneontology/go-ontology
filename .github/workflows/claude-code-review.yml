@@ -25,7 +25,7 @@ name: Claude Code Review
 
 on:
   pull_request:
-    types: [opened, synchronize, ready_for_review]
+    types: [opened, reopened, synchronize, ready_for_review]
     paths-ignore:
       # Auto-generated diff reports; reviewing them is pure cost.
       - 'docs/status/**'
@@ -62,7 +62,7 @@ jobs:
         (
           github.event_name == 'issue_comment' &&
           github.event.issue.pull_request != null &&
-          github.event.comment.body == '/review' &&
+          startsWith(github.event.comment.body, '/review') &&
           contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
         )
       }}
@@ -72,7 +72,6 @@ jobs:
       contents: read
       pull-requests: write
       issues: read
-      id-token: write
 
     env:
       PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || github.event.inputs.pr_number }}
@@ -90,11 +89,19 @@ jobs:
         run: gh pr checkout ${{ env.PR_NUMBER }}
 
       # Needed so the reviewer can check prior art in go-edit.obo stanza-wise
-      # rather than with plain grep. Cheap: a shallow clone, no Docker.
+      # rather than with plain grep. Cheap: a small clone, no Docker.
+      # Cloned into RUNNER_TEMP, not the workspace: an untracked tools/ dir
+      # inside the checkout shows up as a stray file, which the review criteria
+      # now instruct the agent to flag -- the workflow was generating its own
+      # false positive. Pinned, since it executes inside a job holding tokens.
       - name: Add obo-scripts to PATH
+        env:
+          OBO_SCRIPTS_SHA: cb38971ce39654bc9e4e96efcd22e950c3561f5d
         run: |
-          git clone --depth 1 https://github.com/cmungall/obo-scripts.git "${{ github.workspace }}/tools/obo-scripts"
-          echo "${{ github.workspace }}/tools/obo-scripts" >> $GITHUB_PATH
+          set -euo pipefail
+          git clone --quiet https://github.com/cmungall/obo-scripts.git "$RUNNER_TEMP/obo-scripts"
+          git -C "$RUNNER_TEMP/obo-scripts" checkout --quiet "$OBO_SCRIPTS_SHA"
+          echo "$RUNNER_TEMP/obo-scripts" >> $GITHUB_PATH
 
       - name: Mint reviewer app token
         id: reviewer-token
@@ -108,6 +115,10 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Fallback when the OAuth token hits its quota. Without this, an
+          # exhausted token red-Xes every open PR at once; the secret already
+          # exists in this repo and ai-agent.yml passes both.
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ steps.reviewer-token.outputs.token }}
           track_progress: ${{ github.event_name == 'pull_request' }}
           # ai4c-agent must be listed, or PRs opened by the editing agent --
@@ -115,7 +126,7 @@ jobs:
           allowed_bots: 'claude,github-actions,ai4c-agent'
           claude_args: |
             --model ${{ env.REVIEW_MODEL }}
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api repos/:*),Bash(gh api /repos/:*),Bash(gh api users/:*),Bash(gh api /users/:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
 
           prompt: |
             REPO: ${{ github.repository }}
@@ -176,8 +187,11 @@ jobs:
       # failure modes seen in practice: a Claude usage limit on the OAuth token
       # (silently no-ops every agent workflow account-wide), and an invalid or
       # retired --model id. Inspect the execution log and fail loudly instead.
+      # Not `always()`: concurrency cancels superseded runs mid-flight, and an
+      # unconditional check turns every one of those into a spurious
+      # "review failed" error.
       - name: Verify the review agent actually ran
-        if: always()
+        if: '!cancelled()'
         env:
           EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
         run: |
@@ -222,11 +236,17 @@ jobs:
               print(f"Claude review completed cleanly: {stats}")
               sys.exit(0)
 
-          reason = str(r.get("error") or "").strip()
+          # The result event carries no top-level "error" key -- the error kind
+          # is in "subtype" (e.g. error_max_turns, error_during_execution). The
+          # original version keyed the usage-limit branch off r["error"] alone,
+          # so it could never fire. Read both, and include subtype in the text
+          # searched for limit wording.
+          subtype = str(r.get("subtype") or "").strip()
+          reason = str(r.get("error") or "").strip() or subtype
           detail = str(r.get("result") or "").strip()
-          haystack = f"{reason} {detail}".lower()
+          haystack = f"{reason} {subtype} {detail}".lower()
 
-          if reason == "rate_limit" or "usage limit" in haystack or "weekly limit" in haystack:
+          if "rate_limit" in haystack or "usage limit" in haystack or "weekly limit" in haystack:
               msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is an "
                      "account-quota issue on CLAUDE_CODE_OAUTH_TOKEN, NOT a problem with this "
                      "PR. Fix: wait for the limit to reset, rotate the token to an account with "

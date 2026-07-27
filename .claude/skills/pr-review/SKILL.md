@@ -13,7 +13,8 @@ concerns.
 CLAUDE.md is the authoritative statement of this project's editing
 conventions, and most of what you are checking is specified there. Read it
 first. Consult `design-pattern`, `term-obsoletion`, `chemical-entity`,
-`reaction`, and `taxon-constraint` when the diff touches those areas.
+`reaction`, `taxon-constraint`, and `mapping` when the diff touches those
+areas.
 
 ## Do not re-derive what CI already covers
 
@@ -79,6 +80,10 @@ are wrong — either way it is worth raising.
 - `term_tracker_item` exactly as:
   `property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/N" xsd:anyURI`
 - Synonym scopes correct; no synonym duplicating the label.
+- New ids minted by an agent are in the `GO:777xxxx` range, and no new id
+  collides with an existing `id:` or `alt_id:` anywhere in go-edit.obo.
+  Review is the natural place to catch this: a collision is invisible in the
+  diff and only surfaces later as two terms sharing an identifier.
 
 **5. Obsoletions.** Verify the full procedure: no remaining references to the
 obsoleted term from other terms, `replaced_by` / `consider` populated
