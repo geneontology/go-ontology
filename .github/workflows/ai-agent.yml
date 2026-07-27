@@ -6,8 +6,10 @@
 # Authenticates as the `ai4c-agent` GitHub App (installation token minted per
 # job), not as a machine account PAT.
 #
-# Required secrets: ANTHROPIC_API_KEY, AI4C_AGENT_PRIVATE_KEY
-# Required variables: AI4C_AGENT_APP_ID
+# Required secrets: ANTHROPIC_API_KEY, AI4C_AGENT_APP_ID, AI4C_AGENT_PRIVATE_KEY
+# (the app id is not actually sensitive, but is stored as a secret for
+# consistency with the private key; note this is the *app* id, distinct from
+# the AGENT_USER_ID below, which is the bot account's user id)
 # Configuration: .github/ai-controllers.json (list of authorized usernames)
 #
 # ============================================================================
@@ -31,8 +33,9 @@ env:
   # once curators have moved to @ai4c-agent.
   AGENT_MENTION_LEGACY: dragon-ai-agent
   # GitHub App bot identity, used for commit attribution. AGENT_USER_ID is the
-  # numeric id of ai4c-agent[bot] (`gh api /users/ai4c-agent%5Bbot%5D`); without
-  # it, commits are not linked back to the app.
+  # numeric id of the ai4c-agent[bot] *account* (`gh api /users/ai4c-agent%5Bbot%5D`),
+  # NOT the app id in AI4C_AGENT_APP_ID -- they are different numbers. It is
+  # public, hence plain env. Without it commits are not linked back to the app.
   AGENT_LOGIN: ai4c-agent[bot]
   AGENT_USER_ID: 242316268
   MODEL: claude-opus-4-7
@@ -79,7 +82,7 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v2
         with:
-          app-id: ${{ vars.AI4C_AGENT_APP_ID }}
+          app-id: ${{ secrets.AI4C_AGENT_APP_ID }}
           private-key: ${{ secrets.AI4C_AGENT_PRIVATE_KEY }}
       - name: Check for qualifying mention
         id: check
@@ -283,7 +286,7 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v2
         with:
-          app-id: ${{ vars.AI4C_AGENT_APP_ID }}
+          app-id: ${{ secrets.AI4C_AGENT_APP_ID }}
           private-key: ${{ secrets.AI4C_AGENT_PRIVATE_KEY }}
 
       - name: Checkout repository
