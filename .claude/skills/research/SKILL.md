@@ -9,7 +9,7 @@ You can use normal web search tools to find relevant literature. You can also us
 as wikipedia but it's good to follow up with the publications themselves. All research must be summarized in a file RESEARCH.md.
 This file is NOT to be committed, however, it MUST be communicated back appropriately to the user.
 
-Remember, most of the time you are likely to be running in a GitHub actions context, when triggered from an issue (via a `@dragon-ai-agent` invocation). If this is the case, the RESEARCH.md contents
+Remember, most of the time you are likely to be running in a GitHub actions context, when triggered from an issue (via a `@ai4c-agent` invocation). If this is the case, the RESEARCH.md contents
 should be copied onto the issue comments. Otherwise, the user has no way of seeing the RESEARCH.md file, as it disappears alongside the temporary github actions workspace.
 
 This is especially true if the user asks you explicitly to research a topic  - they want to see the full report! Even if you make the RESEARCH.md as part of a broader task, it is good to post the contents.

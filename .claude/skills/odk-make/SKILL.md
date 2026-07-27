@@ -51,7 +51,7 @@ Decision rule:
 
 - **Local development / agent on a workstation** (Docker available, you are NOT
   already inside the ODK container): always go through `odk-run.sh`.
-- **Already inside the ODK image** (GitHub Actions / `dragon-ai-agent`, where the
+- **Already inside the ODK image** (GitHub Actions / `ai4c-agent`, where the
   job itself runs in the ODK container; or you launched an interactive
   `./run.sh bash` shell): the tools are already on PATH, so call `make` / `robot`
   directly with **no** wrapper. Don't nest Docker.

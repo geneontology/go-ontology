@@ -3,7 +3,13 @@
 # Listens for @<agent-name> please <request> mentions from authorized users
 # and runs Claude Code to respond.
 #
-# Required secrets: ANTHROPIC_API_KEY, PAT_FOR_PR
+# Authenticates as the `ai4c-agent` GitHub App (installation token minted per
+# job), not as a machine account PAT.
+#
+# Required secrets: ANTHROPIC_API_KEY, AI4C_AGENT_APP_ID, AI4C_AGENT_PRIVATE_KEY
+# (the app id is not actually sensitive, but is stored as a secret for
+# consistency with the private key; note this is the *app* id, distinct from
+# the AGENT_USER_ID below, which is the bot account's user id)
 # Configuration: .github/ai-controllers.json (list of authorized usernames)
 #
 # ============================================================================
@@ -19,7 +25,19 @@
 name: AI Agent GitHub Mentions
 
 env:
-  AGENT_NAME: dragon-ai-agent
+  # The handle curators type to invoke the agent. Note this is NOT a real
+  # GitHub account: the app's login is AGENT_LOGIN (`<name>[bot]`), and apps
+  # cannot be @-mentioned, so "@ai4c-agent" renders as plain text.
+  AGENT_MENTION: ai4c-agent
+  # Deprecated handles still honoured as triggers (comma-separated). Drop this
+  # once curators have moved to @ai4c-agent.
+  AGENT_MENTION_LEGACY: dragon-ai-agent
+  # GitHub App bot identity, used for commit attribution. AGENT_USER_ID is the
+  # numeric id of the ai4c-agent[bot] *account* (`gh api /users/ai4c-agent%5Bbot%5D`),
+  # NOT the app id in AI4C_AGENT_APP_ID -- they are different numbers. It is
+  # public, hence plain env. Without it commits are not linked back to the app.
+  AGENT_LOGIN: ai4c-agent[bot]
+  AGENT_USER_ID: 242316268
   MODEL: claude-opus-4-7
   TOOLS_DIR: ${{ github.workspace }}/tools
   ARTIFACT_RETENTION_DAYS: 90
@@ -57,12 +75,20 @@ jobs:
       result: ${{ steps.check.outputs.result }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4        
+        uses: actions/checkout@v4
+      # Minted per-job: installation tokens are short-lived (1h) and must not be
+      # passed between jobs, since GitHub's log masking does not follow job outputs.
+      - name: Mint app token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.AI4C_AGENT_APP_ID }}
+          private-key: ${{ secrets.AI4C_AGENT_PRIVATE_KEY }}
       - name: Check for qualifying mention
         id: check
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.PAT_FOR_PR }}
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const fs = require('fs');
 
@@ -76,7 +102,13 @@ jobs:
               allowedUsers = ['cmungall']; // Fallback
             }
 
-            const agentName = process.env.AGENT_NAME || 'dragon-ai-agent';
+            // Trigger on the canonical handle plus any legacy aliases, with an
+            // optional [bot] suffix (people paste back what they see the bot signing as).
+            const agentName = process.env.AGENT_MENTION;
+            const legacyNames = (process.env.AGENT_MENTION_LEGACY || '')
+              .split(',').map(s => s.trim()).filter(Boolean);
+            const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const mentionAlternation = [agentName, ...legacyNames].map(escapeRe).join('|');
 
             // Handle workflow_dispatch (manual trigger)
             if (context.eventName === 'workflow_dispatch') {
@@ -145,15 +177,24 @@ jobs:
               commentId = context.payload.comment.id;
             }
 
+            // Never act on our own output. Unlike GITHUB_TOKEN, events authored
+            // with an app installation token do retrigger workflows.
+            if (userLogin.endsWith('[bot]')) {
+              console.log(`Ignoring bot author: ${userLogin}`);
+              return { qualifiedMention: false };
+            }
+
             // Check authorization and extract prompt
             const isAllowed = allowedUsers.includes(userLogin);
-            const mentionRegex = new RegExp(`@${agentName}\\s+please\\s+(.*)`, 'is');
+            const mentionRegex = new RegExp(`@(${mentionAlternation})(?:\\[bot\\])?\\s+please\\s+(.*)`, 'is');
             const mentionMatch = content.match(mentionRegex);
 
             const qualifiedMention = isAllowed && mentionMatch !== null;
-            const prompt = qualifiedMention ? mentionMatch[1].trim() : '';
+            const prompt = qualifiedMention ? mentionMatch[2].trim() : '';
+            const mentionUsed = mentionMatch ? mentionMatch[1] : '';
+            const usedLegacyMention = qualifiedMention && mentionUsed.toLowerCase() !== agentName.toLowerCase();
 
-            console.log(`User: ${userLogin}, Allowed: ${isAllowed}, Has mention: ${mentionMatch !== null}`);
+            console.log(`User: ${userLogin}, Allowed: ${isAllowed}, Has mention: ${mentionMatch !== null}, Handle: ${mentionUsed}`);
 
             if (!qualifiedMention) {
               return { qualifiedMention: false };
@@ -184,7 +225,10 @@ jobs:
             // Post "working on it" comment immediately
             try {
               const runUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
-              const commentBody = `🤖 Working on it...\n\nFollow along: [View workflow run](${runUrl})\n\n*— @${agentName}*`;
+              const deprecationNote = usedLegacyMention
+                ? `\n\n> [!NOTE]\n> \`@${mentionUsed}\` is deprecated and will stop working. Please use \`@${agentName} please ...\` from now on.`
+                : '';
+              const commentBody = `🤖 Working on it...\n\nFollow along: [View workflow run](${runUrl})${deprecationNote}\n\n*— @${agentName}*`;
 
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
@@ -235,16 +279,26 @@ jobs:
     runs-on: ubuntu-latest
     container: ${{ fromJSON(needs.check-mention.outputs.result).useOdkContainer && 'obolibrary/odkfull:latest' || null }}
     steps:
+      # Must precede checkout: the token is persisted as the git credential and
+      # is what later `git push` calls authenticate with. Valid for 1h, which
+      # bounds how far timeout-minutes above can safely be raised.
+      - name: Mint app token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.AI4C_AGENT_APP_ID }}
+          private-key: ${{ secrets.AI4C_AGENT_PRIVATE_KEY }}
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          token: ${{ secrets.PAT_FOR_PR }}
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: Configure Git
         run: |
-          git config --global user.name "${{ env.AGENT_NAME }}[bot]"
-          git config --global user.email "${{ env.AGENT_NAME }}[bot]@users.noreply.github.com"
+          git config --global user.name "${{ env.AGENT_LOGIN }}"
+          git config --global user.email "${{ env.AGENT_USER_ID }}+${{ env.AGENT_LOGIN }}@users.noreply.github.com"
 
       - name: Create tools directory
         run: mkdir -p ${{ env.TOOLS_DIR }}
@@ -263,7 +317,7 @@ jobs:
 
       - name: Set up GitHub token for gh CLI
         env:
-          GH_TOKEN: ${{ secrets.PAT_FOR_PR }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           echo "GH_TOKEN=$GH_TOKEN" >> $GITHUB_ENV
 
@@ -276,7 +330,7 @@ jobs:
         uses: anthropics/claude-code-base-action@main
         with:
           prompt: |
-            You are @${{ env.AGENT_NAME }}, responding to a request from @${{ fromJSON(needs.check-mention.outputs.result).user }} on GitHub ${{ fromJSON(needs.check-mention.outputs.result).itemType }} #${{ fromJSON(needs.check-mention.outputs.result).itemNumber }}.
+            You are @${{ env.AGENT_MENTION }}, responding to a request from @${{ fromJSON(needs.check-mention.outputs.result).user }} on GitHub ${{ fromJSON(needs.check-mention.outputs.result).itemType }} #${{ fromJSON(needs.check-mention.outputs.result).itemNumber }}.
 
             ${{ fromJSON(needs.check-mention.outputs.result).skipOdkNote }}
 
@@ -311,7 +365,7 @@ jobs:
             Always include the following signature block in (1) git commit message and (2) comments on the GitHub issue (3) comments on the GitHub PR
             ```
             ---
-            🤖 **Generated by @${{ env.AGENT_NAME }}**
+            🤖 **Generated by @${{ env.AGENT_MENTION }}**
             - Model: `${{ env.MODEL }}`
             - Agent harness: claude-code
             - Triggered by: @${{ fromJSON(needs.check-mention.outputs.result).user }}
@@ -329,5 +383,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: claude-response-${{ github.run_id }}
-          path: /home/runner/work/_temp/claude-execution-output.json
+          # runner.temp, not the host path: inside the ODK container this is /__w/_temp
+          path: ${{ runner.temp }}/claude-execution-output.json
           retention-days: ${{ env.ARTIFACT_RETENTION_DAYS }}
