@@ -1,0 +1,299 @@
+# AI review of pull requests, by the `ai4c-reviewer` GitHub App.
+#
+# Runs automatically on every same-repo PR except those authored by `ontobot`
+# (the automated refresh/update workflows produce large mechanical diffs that
+# are not worth reviewing). PRs authored by `ai4c-agent[bot]` ARE reviewed --
+# self-review of agent work is the highest-value case, since it catches
+# hallucinated PMIDs and bogus axioms before a curator spends time on them.
+#
+# Fork PRs cannot be reviewed automatically (no access to secrets); use the
+# workflow_dispatch trigger, or comment /review, for those.
+#
+# This does NOT re-run ontology validation. The `ontology_qc` required status
+# check already runs the full ODK build, so this job stays on bare
+# ubuntu-latest and reviews what CI cannot see: reference validity, design
+# pattern conformance, axiom appropriateness, and metadata conventions.
+#
+# Required secrets: CLAUDE_CODE_OAUTH_TOKEN, AI4C_REVIEWER_APP_ID,
+#                   AI4C_REVIEWER_PRIVATE_KEY
+name: Claude Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, ready_for_review]
+    paths-ignore:
+      # Auto-generated diff reports; reviewing them is pure cost.
+      - 'docs/status/**'
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to review (use for fork PRs, where secrets are unavailable on the pull_request event)'
+        required: true
+        type: number
+
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number || github.event.issue.number || github.event.inputs.pr_number }}
+  cancel-in-progress: true
+
+env:
+  # NOTE: deliberately newer than the `claude-opus-4-7` pinned in ai-agent.yml.
+  # If this id is wrong the "Verify the review agent actually ran" step below
+  # fails loudly rather than silently posting nothing.
+  REVIEW_MODEL: claude-opus-5
+
+jobs:
+  claude-review:
+    if: >-
+      ${{
+        (
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          github.event.pull_request.draft == false &&
+          github.event.pull_request.user.login != 'ontobot'
+        ) ||
+        github.event_name == 'workflow_dispatch' ||
+        (
+          github.event_name == 'issue_comment' &&
+          github.event.issue.pull_request != null &&
+          github.event.comment.body == '/review' &&
+          contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+        )
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+      id-token: write
+
+    env:
+      PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || github.event.inputs.pr_number }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout PR branch (manual and /review triggers)
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'issue_comment'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr checkout ${{ env.PR_NUMBER }}
+
+      # Needed so the reviewer can check prior art in go-edit.obo stanza-wise
+      # rather than with plain grep. Cheap: a shallow clone, no Docker.
+      - name: Add obo-scripts to PATH
+        run: |
+          git clone --depth 1 https://github.com/cmungall/obo-scripts.git "${{ github.workspace }}/tools/obo-scripts"
+          echo "${{ github.workspace }}/tools/obo-scripts" >> $GITHUB_PATH
+
+      - name: Mint reviewer app token
+        id: reviewer-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.AI4C_REVIEWER_APP_ID }}
+          private-key: ${{ secrets.AI4C_REVIEWER_PRIVATE_KEY }}
+
+      - name: Run Claude Code Review
+        id: claude-review
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ steps.reviewer-token.outputs.token }}
+          track_progress: ${{ github.event_name == 'pull_request' }}
+          # ai4c-agent must be listed, or PRs opened by the editing agent --
+          # the main reason this workflow exists -- would be ignored as bot noise.
+          allowed_bots: 'claude,github-actions,ai4c-agent'
+          claude_args: |
+            --model ${{ env.REVIEW_MODEL }}
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
+
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ env.PR_NUMBER }}
+
+            You are reviewing a pull request against the Gene Ontology. Read
+            CLAUDE.md in the repo root first -- it is the authoritative statement
+            of this project's editing conventions, and most of what you are
+            checking is specified there. Consult the relevant skills in
+            .claude/skills/ (design-pattern, term-obsoletion, chemical-entity,
+            reaction, taxon-constraint) when the diff touches those areas.
+
+            SCOPE -- what NOT to spend effort on:
+            The `ontology_qc` required check already runs the full ODK build:
+            OBO syntax, ELK reasoning, unsatisfiable classes, and the SPARQL QC
+            suite. Do not re-derive any of that, and do not run ROBOT (it is not
+            installed here). Review what CI cannot see.
+
+            Start by sizing the change: `gh pr diff ${{ env.PR_NUMBER }} --patch | wc -l`.
+            If the diff is very large (>2000 lines) or is an obviously mechanical
+            bulk update, do not attempt a stanza-by-stanza review. Say so plainly,
+            spot-check a representative sample, and scope your verdict to what you
+            actually examined. Never imply coverage you did not achieve.
+
+            WHAT TO CHECK:
+
+            1. References. Every PMID/DOI introduced must be real, correctly
+               transcribed, and actually about the subject it is cited for. Verify
+               them (WebFetch against PubMed or `gh api`); do not trust that a
+               plausible-looking PMID exists. A fabricated or mis-transcribed
+               reference is always CRITICAL. Check ORCIDs and GOC ids are not
+               invented.
+
+            2. Logical axioms. This is where the most damaging errors hide.
+               - `intersection_of` asserts necessary AND sufficient conditions.
+                 Flag over-specification: axioms where the intersection admits
+                 things that are not instances of the term. CLAUDE.md's
+                 keratinization example is the canonical anti-pattern.
+               - Label, text definition, and logical definition must all describe
+                 the same thing. If the label does not read as a name for the
+                 logical definition, that is a red flag.
+               - `is_a` should not be over-asserted: the reasoner infers the most
+                 specific parent, so redundant or multiple asserted `is_a` is
+                 usually wrong.
+               - Check `part_of` / `regulates` / `occurs_in` are used where a
+                 relationship suffices and an equivalence axiom would overreach.
+
+            3. Design patterns. For compositional terms, confirm name, definition,
+               and logical definition conform to the documented pattern. Compare
+               against sibling terms found with `obo-grep.pl` -- prior art in the
+               ontology is strong evidence for what the pattern should be.
+
+            4. Metadata conventions.
+               - `namespace` present, and one of biological_process,
+                 molecular_function, cellular_component.
+               - Definition present with at least one xref.
+               - `created_by` / `creation_date` on NEW terms only. Adding or
+                 modifying either on a pre-existing term is an error.
+               - `term_tracker_item` exactly as:
+                 `property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/N" xsd:anyURI`
+               - Synonym scopes correct; no synonym duplicating the label.
+
+            5. Obsoletions. Verify the full procedure: no remaining references to
+               the obsoleted term from other terms, `replaced_by` / `consider`
+               populated appropriately, axioms stripped down, and the impact on
+               existing annotations considered.
+
+            6. Chemicals. CHEBI terms should use ph7.3 forms where applicable.
+
+            7. Scope discipline. Changes should match the linked issue and form a
+               coherent unit. Flag unrelated drive-by edits, and especially flag
+               any stanza that looks accidentally clobbered -- the checkout/checkin
+               workflow can silently damage neighbouring terms.
+
+            TONE:
+            Most PR authors here are expert GO curators with decades of domain
+            knowledge. Be specific and technical, cite the term id and the
+            convention being violated, and skip anything you cannot substantiate.
+            No praise padding, no restating the diff back at them, no style
+            nitpicks. If you are unsure whether something is wrong, say so as a
+            question rather than asserting a defect. A short review with three
+            real findings is far more valuable than a long one with twenty
+            speculative ones.
+
+            SEVERITY:
+            - CRITICAL: wrong or fabricated data -- hallucinated PMIDs, incorrect
+              biology, axioms that would misclassify terms, damaged stanzas.
+            - IMPORTANT: convention violations with real consequences -- design
+              pattern nonconformance, over-specified equivalence axioms, metadata
+              on the wrong terms, incomplete obsoletion.
+            - SUGGESTION: improvements that are genuinely optional.
+
+            VERDICT:
+            After reviewing, submit a GitHub review.
+
+            If there are any CRITICAL or IMPORTANT findings:
+            ```
+            gh pr review ${{ env.PR_NUMBER }} --request-changes --body "<summary>"
+            ```
+
+            If there are only SUGGESTIONs, or nothing to report:
+            ```
+            gh pr review ${{ env.PR_NUMBER }} --approve --body "<summary>"
+            ```
+
+            Open your review body with what you actually verified, so a reader can
+            tell coverage from silence:
+            - Scope of review (full / sampled, and why)
+            - References checked: N verified, M unverifiable
+            - Logical axioms reviewed
+            - Design pattern conformance checked against: <sibling terms consulted>
+            - Metadata conventions checked
+            - Obsoletion procedure checked / N/A
+
+      # claude-code-action exits 0 even when the agent run itself errored,
+      # producing no posted review and a green check -- a phantom pass. Two
+      # failure modes seen in practice: a Claude usage limit on the OAuth token
+      # (silently no-ops every agent workflow account-wide), and an invalid or
+      # retired --model id. Inspect the execution log and fail loudly instead.
+      - name: Verify the review agent actually ran
+        if: always()
+        env:
+          EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
+        run: |
+          set -euo pipefail
+          file="${EXECUTION_FILE:-}"
+          if [[ -z "$file" || ! -f "$file" ]]; then
+            file="${RUNNER_TEMP}/claude-execution-output.json"
+          fi
+          if [[ ! -f "$file" ]]; then
+            echo "::error title=Claude review failed::No execution log found; the review agent did not run."
+            exit 1
+          fi
+          python3 - "$file" <<'PY'
+          import json, os, sys
+
+          def summary(md):
+              path = os.environ.get("GITHUB_STEP_SUMMARY")
+              if path:
+                  with open(path, "a", encoding="utf-8") as fh:
+                      fh.write(md + "\n")
+
+          raw = open(sys.argv[1], encoding="utf-8").read().strip()
+          try:
+              events = json.loads(raw)
+              if not isinstance(events, list):
+                  events = [events]
+          except json.JSONDecodeError:
+              events = [json.loads(line) for line in raw.splitlines() if line.strip()]
+
+          results = [e for e in events if isinstance(e, dict) and e.get("type") == "result"]
+          if not results:
+              print("::error title=Claude review failed::No result event in the execution "
+                    "log; the agent did not complete.")
+              summary("### Claude review failed\nNo result event -- the agent did not complete.")
+              sys.exit(1)
+
+          r = results[-1]
+          stats = (f"num_turns={r.get('num_turns')} cost=${r.get('total_cost_usd')} "
+                   f"subtype={r.get('subtype')}")
+
+          if not r.get("is_error"):
+              print(f"Claude review completed cleanly: {stats}")
+              sys.exit(0)
+
+          reason = str(r.get("error") or "").strip()
+          detail = str(r.get("result") or "").strip()
+          haystack = f"{reason} {detail}".lower()
+
+          if reason == "rate_limit" or "usage limit" in haystack or "weekly limit" in haystack:
+              msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is an "
+                     "account-quota issue on CLAUDE_CODE_OAUTH_TOKEN, NOT a problem with this "
+                     "PR. Fix: wait for the limit to reset, rotate the token to an account with "
+                     "headroom, or set ANTHROPIC_API_KEY (pay-per-use) on the workflow. "
+                     "Re-run this check afterward.")
+              print(f"::error title=Claude review skipped: usage limit::{msg}")
+              summary("### Claude review skipped -- usage limit reached\n\n" + msg)
+              sys.exit(1)
+
+          msg = (f"Review agent errored (is_error=true); NO review was posted. "
+                 f"error={reason!r} detail={detail!r} {stats}. Common causes: an "
+                 "invalid/retired --model, a bad CLAUDE_CODE_OAUTH_TOKEN, or an aborted run.")
+          print(f"::error title=Claude review errored::{msg}")
+          summary("### Claude review errored\n\n" + msg)
+          sys.exit(1)
+          PY
