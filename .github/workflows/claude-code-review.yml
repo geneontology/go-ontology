@@ -1,0 +1,310 @@
+# AI review of pull requests, by the `ai4c-reviewer` GitHub App.
+#
+# Runs automatically on every same-repo PR except those authored by `ontobot`
+# (the automated refresh/update workflows produce large mechanical diffs that
+# are not worth reviewing). PRs authored by `ai4c-agent[bot]` ARE reviewed --
+# self-review of agent work is the highest-value case, since it catches
+# hallucinated PMIDs and bogus axioms before a curator spends time on them.
+#
+# Fork PRs cannot be reviewed automatically (no access to secrets); use the
+# workflow_dispatch trigger, or comment /review, for those.
+#
+# The review substance lives in the `pr-review` skill
+# (.claude/skills/pr-review/SKILL.md), not in the prompt below, so the same
+# criteria apply when a human reviews a PR locally. The prompt here carries
+# only what is specific to running in CI: what is installed on the runner, and
+# how to submit the verdict.
+#
+# This does NOT re-run ontology validation. The `ontology_qc` required status
+# check already runs the full ODK build, so the job stays on bare
+# ubuntu-latest.
+#
+# Required secrets: CLAUDE_CODE_OAUTH_TOKEN, AI4C_REVIEWER_APP_ID,
+#                   AI4C_REVIEWER_PRIVATE_KEY
+name: Claude Code Review
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    paths-ignore:
+      # Auto-generated diff reports; reviewing them is pure cost.
+      - 'docs/status/**'
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'PR number to review (use for fork PRs, where secrets are unavailable on the pull_request event)'
+        required: true
+        type: number
+
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number || github.event.issue.number || github.event.inputs.pr_number }}
+  cancel-in-progress: true
+
+env:
+  # NOTE: deliberately newer than the `claude-opus-4-7` pinned in ai-agent.yml.
+  # If this id is wrong the "Verify the review agent actually ran" step below
+  # fails loudly rather than silently posting nothing.
+  REVIEW_MODEL: claude-opus-5
+
+jobs:
+  claude-review:
+    if: >-
+      ${{
+        (
+          github.event_name == 'pull_request' &&
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          github.event.pull_request.draft == false &&
+          github.event.pull_request.user.login != 'ontobot'
+        ) ||
+        github.event_name == 'workflow_dispatch' ||
+        (
+          github.event_name == 'issue_comment' &&
+          github.event.issue.pull_request != null &&
+          (github.event.comment.body == '/review' ||
+           startsWith(github.event.comment.body, '/review ') ||
+           startsWith(github.event.comment.body, fromJSON('"/review\n"')) ||
+           startsWith(github.event.comment.body, fromJSON('"/review\r\n"'))) &&
+          contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+        )
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+
+    env:
+      PR_NUMBER: ${{ github.event.pull_request.number || github.event.issue.number || github.event.inputs.pr_number }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout PR branch (manual and /review triggers)
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'issue_comment'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr checkout ${{ env.PR_NUMBER }}
+
+      # Needed so the reviewer can check prior art in go-edit.obo stanza-wise
+      # rather than with plain grep. Cheap: a small clone, no Docker.
+      # Cloned into RUNNER_TEMP, not the workspace: an untracked tools/ dir
+      # inside the checkout shows up as a stray file, which the review criteria
+      # now instruct the agent to flag -- the workflow was generating its own
+      # false positive. Pinned, since it executes inside a job holding tokens.
+      - name: Add obo-scripts to PATH
+        env:
+          OBO_SCRIPTS_SHA: cb38971ce39654bc9e4e96efcd22e950c3561f5d
+        run: |
+          set -euo pipefail
+          git clone --quiet https://github.com/cmungall/obo-scripts.git "$RUNNER_TEMP/obo-scripts"
+          git -C "$RUNNER_TEMP/obo-scripts" checkout --quiet "$OBO_SCRIPTS_SHA"
+          echo "$RUNNER_TEMP/obo-scripts" >> $GITHUB_PATH
+
+      - name: Mint reviewer app token
+        id: reviewer-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.AI4C_REVIEWER_APP_ID }}
+          private-key: ${{ secrets.AI4C_REVIEWER_PRIVATE_KEY }}
+
+      - name: Run Claude Code Review
+        id: claude-review
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Fallback when the OAuth token hits its quota. Without this, an
+          # exhausted token red-Xes every open PR at once; the secret already
+          # exists in this repo and ai-agent.yml passes both.
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ steps.reviewer-token.outputs.token }}
+          # Not just pull_request: workflow_dispatch is the documented route for
+          # fork PRs, and with no tracking comment there the full report has
+          # nowhere to go and the collapse step has no anchor. Agent mode on
+          # dispatch still yields no tracking comment, so the prompt carries a
+          # gh pr comment fallback.
+          track_progress: ${{ github.event_name != 'workflow_dispatch' }}
+          # ai4c-agent must be listed, or PRs opened by the editing agent --
+          # the main reason this workflow exists -- would be ignored as bot noise.
+          allowed_bots: 'claude,github-actions,ai4c-agent'
+          claude_args: |
+            --model ${{ env.REVIEW_MODEL }}
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
+
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR NUMBER: ${{ env.PR_NUMBER }}
+
+            Review this pull request using the `pr-review` skill in
+            .claude/skills/pr-review/. It defines what to check, how to grade
+            severity, and how to report coverage. Follow it.
+
+            LOADING THE SKILL:
+            This action restores `.claude/` and CLAUDE.md from the BASE branch
+            before you start, so a PR that edits the skill is reviewed under the
+            old copy, and a newly added skill file is absent entirely. If
+            `pr-review` is not in your skill list, read it directly:
+            `git show HEAD:.claude/skills/pr-review/SKILL.md`, or from
+            `.claude-pr/.claude/skills/pr-review/SKILL.md` if that snapshot
+            exists. If you cannot obtain the criteria by any route, say so
+            prominently and stop -- do not review against no criteria and emit
+            something shaped like a review anyway.
+
+            THIS ENVIRONMENT:
+            - ROBOT, owltools and the ODK toolchain are NOT installed on this
+              runner, and the `ontology_qc` required check already covers
+              everything they would tell you. Do not attempt to run them.
+            - `obo-grep.pl` IS available, for stanza-aware search of
+              src/ontology/go-edit.obo when checking prior art.
+            - Get the diff with `gh pr diff ${{ env.PR_NUMBER }}`, and size it
+              first with `gh pr diff ${{ env.PR_NUMBER }} --patch | wc -l`. The
+              checkout is shallow, so there is no merge base: `git diff
+              origin/master...HEAD` will fail. Use `gh pr diff`. `git show
+              HEAD:<path>` does work, which is how to read a file the
+              `.claude/` restore removed.
+            - Read the linked issue (`gh issue view`) to judge scope discipline.
+            - You have web access; use it to verify PMIDs against PubMed rather
+              than assuming a plausible-looking id is real.
+
+            WRITE THE REPORT EXACTLY ONCE:
+            Your final response is posted as the PR tracking comment. That is
+            the single home for the full review -- the coverage report the skill
+            specifies, every finding, and all supporting detail. Anchor findings
+            to specific lines with inline comments.
+
+            If no tracking comment exists (this happens on workflow_dispatch,
+            which runs in agent mode), post the report yourself instead:
+            `gh pr comment ${{ env.PR_NUMBER }} --body-file <file>`. Check
+            before assuming -- a report with no home is a review that did not
+            happen.
+
+            The `gh pr review` body is NOT a second copy. It is a stub of at
+            most three lines: the verdict, finding counts by severity, and a
+            link to the tracking comment. Curators see both, so restating the
+            report there doubles what they have to read, and the two copies
+            drift as you condense.
+
+            THEN COLLAPSE YOUR OWN EARLIER REPORTS:
+            A new tracking comment is opened per run, so on an active PR your
+            reports stack up and a curator has to work out which is current.
+            After your new report is posted, minimize your previous ones as
+            outdated. List your own comments:
+
+            gh api --paginate repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.user.login == "ai4c-reviewer[bot]") | "\(.id) \(.node_id) \(.created_at)"'
+
+            Identify your current tracking comment by its id if you were given
+            one. Otherwise select it by the run link the action itself puts in
+            every tracking comment body -- do NOT rely on any marker you add,
+            since comment bodies are sanitized and HTML comments are stripped:
+
+            gh api --paginate repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.body | contains("actions/runs/${{ github.run_id }}")) | .node_id'
+
+            Minimize every OTHER comment of yours in the list. Note the GraphQL
+            argument separator below is a SPACE, not a comma: a comma inside
+            braces reads as bash brace expansion and the command is refused
+            before it runs.
+
+            gh api graphql -f query='mutation($id:ID!){minimizeComment(input:{subjectId:$id classifier:OUTDATED}){clientMutationId}}' -F id=<node_id>
+
+            Minimize ONLY comments authored by you, and never this run's own.
+            A human's comment is never yours to hide. If you cannot identify
+            which comment is your current report, minimize nothing and say so
+            in the report.
+
+            VERDICT:
+            If there are any CRITICAL or IMPORTANT findings:
+            ```
+            gh pr review ${{ env.PR_NUMBER }} --request-changes --body "<stub>"
+            ```
+
+            If there are only SUGGESTIONs, or nothing to report:
+            ```
+            gh pr review ${{ env.PR_NUMBER }} --approve --body "<stub>"
+            ```
+
+      # claude-code-action exits 0 even when the agent run itself errored,
+      # producing no posted review and a green check -- a phantom pass. Two
+      # failure modes seen in practice: a Claude usage limit on the OAuth token
+      # (silently no-ops every agent workflow account-wide), and an invalid or
+      # retired --model id. Inspect the execution log and fail loudly instead.
+      # Not `always()`: concurrency cancels superseded runs mid-flight, and an
+      # unconditional check turns every one of those into a spurious
+      # "review failed" error.
+      - name: Verify the review agent actually ran
+        if: '!cancelled()'
+        env:
+          EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
+        run: |
+          set -euo pipefail
+          file="${EXECUTION_FILE:-}"
+          if [[ -z "$file" || ! -f "$file" ]]; then
+            file="${RUNNER_TEMP}/claude-execution-output.json"
+          fi
+          if [[ ! -f "$file" ]]; then
+            echo "::error title=Claude review failed::No execution log found; the review agent did not run."
+            exit 1
+          fi
+          python3 - "$file" <<'PY'
+          import json, os, sys
+
+          def summary(md):
+              path = os.environ.get("GITHUB_STEP_SUMMARY")
+              if path:
+                  with open(path, "a", encoding="utf-8") as fh:
+                      fh.write(md + "\n")
+
+          raw = open(sys.argv[1], encoding="utf-8").read().strip()
+          try:
+              events = json.loads(raw)
+              if not isinstance(events, list):
+                  events = [events]
+          except json.JSONDecodeError:
+              events = [json.loads(line) for line in raw.splitlines() if line.strip()]
+
+          results = [e for e in events if isinstance(e, dict) and e.get("type") == "result"]
+          if not results:
+              print("::error title=Claude review failed::No result event in the execution "
+                    "log; the agent did not complete.")
+              summary("### Claude review failed\nNo result event -- the agent did not complete.")
+              sys.exit(1)
+
+          r = results[-1]
+          stats = (f"num_turns={r.get('num_turns')} cost=${r.get('total_cost_usd')} "
+                   f"subtype={r.get('subtype')}")
+
+          if not r.get("is_error"):
+              print(f"Claude review completed cleanly: {stats}")
+              sys.exit(0)
+
+          # The result event carries no top-level "error" key -- the error kind
+          # is in "subtype" (e.g. error_max_turns, error_during_execution). The
+          # original version keyed the usage-limit branch off r["error"] alone,
+          # so it could never fire. Read both, and include subtype in the text
+          # searched for limit wording.
+          subtype = str(r.get("subtype") or "").strip()
+          reason = str(r.get("error") or "").strip() or subtype
+          detail = str(r.get("result") or "").strip()
+          haystack = f"{reason} {subtype} {detail}".lower()
+
+          if "rate_limit" in haystack or "usage limit" in haystack or "weekly limit" in haystack:
+              msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is an "
+                     "account-quota issue on CLAUDE_CODE_OAUTH_TOKEN, NOT a problem with this "
+                     "PR. ANTHROPIC_API_KEY is already wired as a fallback, so if this fired "
+                     "that key is missing or also exhausted. Fix: wait for the limit to reset, "
+                     "or rotate either credential to an account with headroom, then re-run.")
+              print(f"::error title=Claude review skipped: usage limit::{msg}")
+              summary("### Claude review skipped -- usage limit reached\n\n" + msg)
+              sys.exit(1)
+
+          msg = (f"Review agent errored (is_error=true); NO review was posted. "
+                 f"error={reason!r} detail={detail!r} {stats}. Common causes: an "
+                 "invalid/retired --model, a bad CLAUDE_CODE_OAUTH_TOKEN, or an aborted run.")
+          print(f"::error title=Claude review errored::{msg}")
+          summary("### Claude review errored\n\n" + msg)
+          sys.exit(1)
+          PY
