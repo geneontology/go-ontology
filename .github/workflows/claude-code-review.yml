@@ -38,8 +38,24 @@ on:
         required: true
         type: number
 
+# Concurrency is claimed at the workflow level, BEFORE the job's `if` is
+# evaluated. A run that will be skipped entirely still takes the group, and
+# cancel-in-progress then kills the incumbent. Two consequences, both observed
+# live on #32379:
+#
+#   * Grouping by PR number alone put pull_request and issue_comment runs in the
+#     same group, so any comment during a review aborted it.
+#   * Worse: the reviewer's own "Claude Code is working..." progress comment is
+#     itself an issue_comment event, so the review cancelled the run that had
+#     just posted it. Every review self-destructed.
+#
+# The group therefore has to be unique per triggering comment, not per PR.
+# event_name separates the trigger paths, and comment.id gives each
+# comment-triggered run its own group. pull_request still groups by PR number,
+# so a synchronize push cancels the previous review -- the one cancellation
+# worth keeping.
 concurrency:
-  group: claude-review-${{ github.event.pull_request.number || github.event.issue.number || github.event.inputs.pr_number }}
+  group: claude-review-${{ github.event_name }}-${{ github.event.comment.id || github.event.pull_request.number || github.event.inputs.pr_number }}
   cancel-in-progress: true
 
 env:
