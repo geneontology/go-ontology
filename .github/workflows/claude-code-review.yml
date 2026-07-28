@@ -63,7 +63,9 @@ jobs:
           github.event_name == 'issue_comment' &&
           github.event.issue.pull_request != null &&
           (github.event.comment.body == '/review' ||
-           startsWith(github.event.comment.body, '/review ')) &&
+           startsWith(github.event.comment.body, '/review ') ||
+           startsWith(github.event.comment.body, fromJSON('"/review\n"')) ||
+           startsWith(github.event.comment.body, fromJSON('"/review\r\n"'))) &&
           contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
         )
       }}
@@ -160,7 +162,11 @@ jobs:
             - `obo-grep.pl` IS available, for stanza-aware search of
               src/ontology/go-edit.obo when checking prior art.
             - Get the diff with `gh pr diff ${{ env.PR_NUMBER }}`, and size it
-              first with `gh pr diff ${{ env.PR_NUMBER }} --patch | wc -l`.
+              first with `gh pr diff ${{ env.PR_NUMBER }} --patch | wc -l`. The
+              checkout is shallow, so there is no merge base: `git diff
+              origin/master...HEAD` will fail. Use `gh pr diff`. `git show
+              HEAD:<path>` does work, which is how to read a file the
+              `.claude/` restore removed.
             - Read the linked issue (`gh issue view`) to judge scope discipline.
             - You have web access; use it to verify PMIDs against PubMed rather
               than assuming a plausible-looking id is real.
@@ -170,10 +176,6 @@ jobs:
             the single home for the full review -- the coverage report the skill
             specifies, every finding, and all supporting detail. Anchor findings
             to specific lines with inline comments.
-
-            End the report with this line verbatim, so the comment is
-            identifiable as yours and as belonging to this run:
-            `<!-- ai4c-reviewer run ${{ github.run_id }} -->`
 
             If no tracking comment exists (this happens on workflow_dispatch,
             which runs in agent mode), post the report yourself instead:
@@ -193,20 +195,26 @@ jobs:
             After your new report is posted, minimize your previous ones as
             outdated. List your own comments:
 
-            gh api repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.user.login == "ai4c-reviewer[bot]") | "\(.id) \(.node_id) \(.created_at)"'
+            gh api --paginate repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.user.login == "ai4c-reviewer[bot]") | "\(.id) \(.node_id) \(.created_at)"'
 
-            Your current report is the one whose body contains
-            `run ${{ github.run_id }}`. Minimize every OTHER comment in that
-            list -- note the GraphQL argument separator below is a SPACE, not a
-            comma: a comma inside braces reads as bash brace expansion and the
-            command is refused before it runs.
+            Identify your current tracking comment by its id if you were given
+            one. Otherwise select it by the run link the action itself puts in
+            every tracking comment body -- do NOT rely on any marker you add,
+            since comment bodies are sanitized and HTML comments are stripped:
+
+            gh api --paginate repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.body | contains("actions/runs/${{ github.run_id }}")) | .node_id'
+
+            Minimize every OTHER comment of yours in the list. Note the GraphQL
+            argument separator below is a SPACE, not a comma: a comma inside
+            braces reads as bash brace expansion and the command is refused
+            before it runs.
 
             gh api graphql -f query='mutation($id:ID!){minimizeComment(input:{subjectId:$id classifier:OUTDATED}){clientMutationId}}' -F id=<node_id>
 
-            Minimize ONLY comments authored by you, and never the one carrying
-            this run's marker. A human's comment is never yours to hide. If you
-            cannot identify which comment is your current report, minimize
-            nothing and say so in the report.
+            Minimize ONLY comments authored by you, and never this run's own.
+            A human's comment is never yours to hide. If you cannot identify
+            which comment is your current report, minimize nothing and say so
+            in the report.
 
             VERDICT:
             If there are any CRITICAL or IMPORTANT findings:
