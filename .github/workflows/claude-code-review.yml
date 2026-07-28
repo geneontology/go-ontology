@@ -62,7 +62,8 @@ jobs:
         (
           github.event_name == 'issue_comment' &&
           github.event.issue.pull_request != null &&
-          startsWith(github.event.comment.body, '/review') &&
+          (github.event.comment.body == '/review' ||
+           startsWith(github.event.comment.body, '/review ')) &&
           contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
         )
       }}
@@ -120,13 +121,18 @@ jobs:
           # exists in this repo and ai-agent.yml passes both.
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ steps.reviewer-token.outputs.token }}
-          track_progress: ${{ github.event_name == 'pull_request' }}
+          # Not just pull_request: workflow_dispatch is the documented route for
+          # fork PRs, and with no tracking comment there the full report has
+          # nowhere to go and the collapse step has no anchor. Agent mode on
+          # dispatch still yields no tracking comment, so the prompt carries a
+          # gh pr comment fallback.
+          track_progress: ${{ github.event_name != 'workflow_dispatch' }}
           # ai4c-agent must be listed, or PRs opened by the editing agent --
           # the main reason this workflow exists -- would be ignored as bot noise.
           allowed_bots: 'claude,github-actions,ai4c-agent'
           claude_args: |
             --model ${{ env.REVIEW_MODEL }}
-            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api repos/:*),Bash(gh api /repos/:*),Bash(gh api users/:*),Bash(gh api /users/:*),Bash(gh api graphql:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Read,Glob,Grep,WebFetch,WebSearch,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*),Bash(gh pr review:*),Bash(gh issue view:*),Bash(gh api:*),Bash(git diff:*),Bash(git log:*),Bash(git show:*),Bash(obo-grep.pl:*),Bash(cat:*),Bash(grep:*),Bash(head:*),Bash(tail:*),Bash(wc:*),Bash(find:*),Bash(ls:*)"
 
           prompt: |
             REPO: ${{ github.repository }}
@@ -165,6 +171,16 @@ jobs:
             specifies, every finding, and all supporting detail. Anchor findings
             to specific lines with inline comments.
 
+            End the report with this line verbatim, so the comment is
+            identifiable as yours and as belonging to this run:
+            `<!-- ai4c-reviewer run ${{ github.run_id }} -->`
+
+            If no tracking comment exists (this happens on workflow_dispatch,
+            which runs in agent mode), post the report yourself instead:
+            `gh pr comment ${{ env.PR_NUMBER }} --body-file <file>`. Check
+            before assuming -- a report with no home is a review that did not
+            happen.
+
             The `gh pr review` body is NOT a second copy. It is a stub of at
             most three lines: the verdict, finding counts by severity, and a
             link to the tracking comment. Curators see both, so restating the
@@ -179,13 +195,18 @@ jobs:
 
             gh api repos/${{ github.repository }}/issues/${{ env.PR_NUMBER }}/comments --jq '.[] | select(.user.login == "ai4c-reviewer[bot]") | "\(.id) \(.node_id) \(.created_at)"'
 
-            and for each one older than your current report:
+            Your current report is the one whose body contains
+            `run ${{ github.run_id }}`. Minimize every OTHER comment in that
+            list -- note the GraphQL argument separator below is a SPACE, not a
+            comma: a comma inside braces reads as bash brace expansion and the
+            command is refused before it runs.
 
-            gh api graphql -f query='mutation($id:ID!){minimizeComment(input:{subjectId:$id,classifier:OUTDATED}){clientMutationId}}' -F id=<node_id>
+            gh api graphql -f query='mutation($id:ID!){minimizeComment(input:{subjectId:$id classifier:OUTDATED}){clientMutationId}}' -F id=<node_id>
 
-            Minimize ONLY comments authored by you, and never your current one.
-            A human's comment is never yours to hide. If you cannot identify
-            which comment is your current report, minimize nothing.
+            Minimize ONLY comments authored by you, and never the one carrying
+            this run's marker. A human's comment is never yours to hide. If you
+            cannot identify which comment is your current report, minimize
+            nothing and say so in the report.
 
             VERDICT:
             If there are any CRITICAL or IMPORTANT findings:
@@ -265,9 +286,9 @@ jobs:
           if "rate_limit" in haystack or "usage limit" in haystack or "weekly limit" in haystack:
               msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is an "
                      "account-quota issue on CLAUDE_CODE_OAUTH_TOKEN, NOT a problem with this "
-                     "PR. Fix: wait for the limit to reset, rotate the token to an account with "
-                     "headroom, or set ANTHROPIC_API_KEY (pay-per-use) on the workflow. "
-                     "Re-run this check afterward.")
+                     "PR. ANTHROPIC_API_KEY is already wired as a fallback, so if this fired "
+                     "that key is missing or also exhausted. Fix: wait for the limit to reset, "
+                     "or rotate either credential to an account with headroom, then re-run.")
               print(f"::error title=Claude review skipped: usage limit::{msg}")
               summary("### Claude review skipped -- usage limit reached\n\n" + msg)
               sys.exit(1)
