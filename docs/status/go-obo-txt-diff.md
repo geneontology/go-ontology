@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-08-03 06:38:58.343543921 +0000
-+++ go.obo	2026-08-03 06:52:37.539671334 +0000
+--- go-lastrelease.obo	2026-08-04 06:23:49.468346233 +0000
++++ go.obo	2026-08-04 06:37:07.141774613 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-06-15
-+data-version: releases/2026-08-03
++data-version: releases/2026-08-04
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-06-15" xsd:string
-+property_value: owl:versionInfo "2026-08-03" xsd:string
++property_value: owl:versionInfo "2026-08-04" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -3611,6 +3611,20 @@
  
  [Term]
  id: GO:0031216
+@@ -188758,12 +188882,12 @@
+ synonym: "telomeric heterochromatin formation" RELATED []
+ synonym: "telomeric silencing" EXACT [GOC:bf]
+ is_a: GO:0140719 ! constitutive heterochromatin formation
+-relationship: occurs_in GO:0000781 ! chromosome, telomeric region
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19188" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19308" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22027" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23553" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29160" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32403" xsd:anyURI
+ 
+ [Term]
+ id: GO:0031510
 @@ -193050,14 +193174,22 @@
  xref: RHEA:33639
  xref: RHEA:43748
@@ -3662,6 +3676,17 @@
  is_a: GO:0034486 ! vacuolar transmembrane transport
  
  [Term]
+@@ -205229,9 +205359,9 @@
+ xref: Reactome:R-HSA-9906955 "MT-ND4 is translated"
+ xref: Reactome:R-HSA-9926981 "Bam complex inserts Hbp into outer membrane"
+ is_a: GO:0140597 ! protein carrier activity
+-relationship: part_of GO:0090150 ! establishment of protein localization to membrane
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16976" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20414" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32404" xsd:anyURI
+ 
+ [Term]
+ id: GO:0032978
 @@ -211305,20 +211435,32 @@
  name: fatty acid beta-oxidation using acyl-CoA dehydrogenase
  namespace: biological_process

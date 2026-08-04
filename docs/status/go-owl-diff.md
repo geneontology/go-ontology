@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-03/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-04/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-03" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-04" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -3457,6 +3457,14 @@
 #### Removed
 - [maltoheptaose catabolic process](http://purl.obolibrary.org/obo/GO_2001123) SubClassOf [obsolete maltoheptaose metabolic process](http://purl.obolibrary.org/obo/GO_2001122) 
 
+
+
+### membrane insertase activity `http://purl.obolibrary.org/obo/GO_0032977`
+#### Removed
+- [membrane insertase activity](http://purl.obolibrary.org/obo/GO_0032977) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of protein localization to membrane](http://purl.obolibrary.org/obo/GO_0090150) 
+
+#### Added
+- [membrane insertase activity](http://purl.obolibrary.org/obo/GO_0032977) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32404"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### meristem development `http://purl.obolibrary.org/obo/GO_0048507`
@@ -10636,6 +10644,14 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 #### Added
 - [styrene catabolic process](http://purl.obolibrary.org/obo/GO_0042207) SubClassOf [benzene-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0042537) 
+
+
+### subtelomeric heterochromatin formation `http://purl.obolibrary.org/obo/GO_0031509`
+#### Removed
+- [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [chromosome, telomeric region](http://purl.obolibrary.org/obo/GO_0000781) 
+
+#### Added
+- [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32403"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### succinate-semialdehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004777`
