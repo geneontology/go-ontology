@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-05/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-06/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-05" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-06" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -36,6 +36,8 @@
 
 ### (+)-larreatricin metabolic process `http://purl.obolibrary.org/obo/GO_1901709`
 #### Removed
+- [(+)-larreatricin metabolic process](http://purl.obolibrary.org/obo/GO_1901709) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [(+)-larreatricin metabolic process](http://purl.obolibrary.org/obo/GO_1901709) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving (+)-larreatricin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -53,6 +55,8 @@
 
 #### Added
 - [(+)-larreatricin metabolic process](http://purl.obolibrary.org/obo/GO_1901709) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32295"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [(+)-larreatricin metabolic process](http://purl.obolibrary.org/obo/GO_1901709) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
 
 - [(+)-larreatricin metabolic process](http://purl.obolibrary.org/obo/GO_1901709) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "(+)-larreatricin metabolic process" 
 
@@ -82,6 +86,8 @@
 
 ### (1->3)-alpha-glucan metabolic process `http://purl.obolibrary.org/obo/GO_0070595`
 #### Removed
+- [(1->3)-alpha-glucan metabolic process](http://purl.obolibrary.org/obo/GO_0070595) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [(1->3)-alpha-glucan metabolic process](http://purl.obolibrary.org/obo/GO_0070595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving (1-&gt;3)-alpha-D-glucans, compounds composed of glucose residues linked by (1-&gt;3)-alpha-D-glucosidic bonds." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
@@ -114,6 +120,8 @@
 
 ### (1->4)-alpha-glucan metabolic process `http://purl.obolibrary.org/obo/GO_0070629`
 #### Removed
+- [(1->4)-alpha-glucan metabolic process](http://purl.obolibrary.org/obo/GO_0070629) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [(1->4)-alpha-glucan metabolic process](http://purl.obolibrary.org/obo/GO_0070629) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving (1-&gt;4)-alpha-glucans, compounds composed of glucose residues linked by (1-&gt;4)-alpha-D-glucosidic bonds." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
@@ -140,6 +148,8 @@
 
 ### (25S)-Delta(7)-dafachronate metabolic process `http://purl.obolibrary.org/obo/GO_1902056`
 #### Removed
+- [(25S)-Delta(7)-dafachronate metabolic process](http://purl.obolibrary.org/obo/GO_1902056) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [(25S)-Delta(7)-dafachronate metabolic process](http://purl.obolibrary.org/obo/GO_1902056) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "(25S)-Delta(7)-dafachronate metabolism" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -162,6 +172,8 @@
 
 #### Added
 - [(25S)-Delta(7)-dafachronate metabolic process](http://purl.obolibrary.org/obo/GO_1902056) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32295"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [(25S)-Delta(7)-dafachronate metabolic process](http://purl.obolibrary.org/obo/GO_1902056) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
 
 - [(25S)-Delta(7)-dafachronate metabolic process](http://purl.obolibrary.org/obo/GO_1902056) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "(25S)-Delta(7)-dafachronate biosynthesis" 
 
@@ -364,6 +376,8 @@
 
 ### (Z)-nonadeca-1,14-diene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900879`
 #### Removed
+- [(Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900879) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [(Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900879) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of (Z)-nonadeca-1,14-diene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -396,6 +410,8 @@
 
 ### (Z)-nonadeca-1,14-diene metabolic process `http://purl.obolibrary.org/obo/GO_1900878`
 #### Removed
+- [(Z)-nonadeca-1,14-diene metabolic process](http://purl.obolibrary.org/obo/GO_1900878) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [(Z)-nonadeca-1,14-diene metabolic process](http://purl.obolibrary.org/obo/GO_1900878) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving (Z)-nonadeca-1,14-diene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -434,6 +450,8 @@
 
 ### 1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process `http://purl.obolibrary.org/obo/GO_0018977`
 #### Removed
+- [1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process](http://purl.obolibrary.org/obo/GO_0018977) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process](http://purl.obolibrary.org/obo/GO_0018977) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:ddt" 
 
 - [1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane metabolic process](http://purl.obolibrary.org/obo/GO_0018977) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 1,1,1-trichloro-2,2-bis-(4-chlorophenyl)ethane (DDT), a chlorinated broad spectrum contact insecticide." 
@@ -482,6 +500,8 @@
 
 ### 1,2,3-tribromopropane metabolic process `http://purl.obolibrary.org/obo/GO_0018976`
 #### Removed
+- [1,2,3-tribromopropane metabolic process](http://purl.obolibrary.org/obo/GO_0018976) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [1,2,3-tribromopropane metabolic process](http://purl.obolibrary.org/obo/GO_0018976) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:tbp" 
 
 - [1,2,3-tribromopropane metabolic process](http://purl.obolibrary.org/obo/GO_0018976) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 1,2,3-tribromopropane, a toxic and volatile organic compound commonly used as a nematocide in agriculture." 
@@ -540,6 +560,8 @@
 
 ### 1,3-dichloropropene metabolic process `http://purl.obolibrary.org/obo/GO_0018903`
 #### Removed
+- [1,3-dichloropropene metabolic process](http://purl.obolibrary.org/obo/GO_0018903) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [1,3-dichloropropene metabolic process](http://purl.obolibrary.org/obo/GO_0018903) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:cpr" 
 
 - [1,3-dichloropropene metabolic process](http://purl.obolibrary.org/obo/GO_0018903) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving members of the 1,3-dichloropropene family, which includes cis- and trans-1,3-dichloropropene. The 1,3-dichloropropenes are chlorinated hydrocarbons and the major active ingredients of commercial products for control of plant-parasitic nematodes." 
@@ -582,6 +604,8 @@
 
 ### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
 #### Removed
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:1CMET2-PWY" 
 
 - [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3841" 
@@ -656,6 +680,8 @@
 
 ### 17-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900883`
 #### Removed
+- [17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900883) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900883) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of 17-methylnonadec-1-ene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -688,6 +714,8 @@
 
 ### 17-methylnonadec-1-ene metabolic process `http://purl.obolibrary.org/obo/GO_1900882`
 #### Removed
+- [17-methylnonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900882) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [17-methylnonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900882) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 17-methylnonadec-1-ene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -732,6 +760,8 @@
 
 ### 18-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900881`
 #### Removed
+- [18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900881) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900881) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of 18-methylnonadec-1-ene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -764,6 +794,8 @@
 
 ### 18-methylnonadec-1-ene metabolic process `http://purl.obolibrary.org/obo/GO_1900880`
 #### Removed
+- [18-methylnonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900880) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [18-methylnonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900880) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 18-methylnonadec-1-ene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -1088,6 +1120,8 @@
 
 ### 3-chloroacrylic acid metabolic process `http://purl.obolibrary.org/obo/GO_0018888`
 #### Removed
+- [3-chloroacrylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018888) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [3-chloroacrylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018888) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:caa" 
 
 - [3-chloroacrylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018888) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 3-chloroacrylic acid, ClHC=CHCOOH, a chlorinated derivative of acrylic acid." 
@@ -1134,6 +1168,8 @@
 
 ### 3-hydroxybenzyl alcohol metabolic process `http://purl.obolibrary.org/obo/GO_0018921`
 #### Removed
+- [3-hydroxybenzyl alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0018921) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [3-hydroxybenzyl alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0018921) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:mcr" 
 
 - [3-hydroxybenzyl alcohol metabolic process](http://purl.obolibrary.org/obo/GO_0018921) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 3-hydroxybenzyl alcohol, an aromatic compound which is an intermediate in several metabolic pathways, including the biosynthesis of patulin, a toxin and antiviral agent produced by some moulds such as Penicillium patulinum." 
@@ -1315,6 +1351,8 @@
 
 ### 4-carboxy-4'-sulfoazobenzene metabolic process `http://purl.obolibrary.org/obo/GO_0018887`
 #### Removed
+- [4-carboxy-4'-sulfoazobenzene metabolic process](http://purl.obolibrary.org/obo/GO_0018887) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [4-carboxy-4'-sulfoazobenzene metabolic process](http://purl.obolibrary.org/obo/GO_0018887) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:csab" 
 
 - [4-carboxy-4'-sulfoazobenzene metabolic process](http://purl.obolibrary.org/obo/GO_0018887) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 4-carboxy-4'-sulfoazobenzene, a sulfonated azo compound synthesized by nitro-amine condensation from sulfanilic acid and 4-nitrobenzoic acid." 
@@ -1579,6 +1617,8 @@
 
 ### 7-cyano-7-deazaguanine metabolic process `http://purl.obolibrary.org/obo/GO_0097287`
 #### Removed
+- [7-cyano-7-deazaguanine metabolic process](http://purl.obolibrary.org/obo/GO_0097287) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [7-cyano-7-deazaguanine metabolic process](http://purl.obolibrary.org/obo/GO_0097287) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving the Q nucleoside precursor 7-cyano-7-deazaguanine, also known as 2-amino-4-oxo-4,7-dihydro-3H-pyrrolo[2,3-d]pyrimidine-5-carbonitrile or preQo." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
@@ -3340,6 +3380,8 @@ In addition to layer formation, Cajal-Retzius cells also play a role in synaptic
 
 ### FADH2 metabolic process `http://purl.obolibrary.org/obo/GO_0006746`
 #### Removed
+- [FADH2 metabolic process](http://purl.obolibrary.org/obo/GO_0006746) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [FADH2 metabolic process](http://purl.obolibrary.org/obo/GO_0006746) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving the reduced form of flavin adenine dinucleotide." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
@@ -3932,6 +3974,8 @@ GABAergic interneurons are not a homogenous group, they vary in terms of morphol
 
 ### K antigen metabolic process `http://purl.obolibrary.org/obo/GO_0046375`
 #### Removed
+- [K antigen metabolic process](http://purl.obolibrary.org/obo/GO_0046375) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [K antigen metabolic process](http://purl.obolibrary.org/obo/GO_0046375) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving K antigen, a capsular polysaccharide antigen carried on the surface of bacterial capsules that masks somatic (O) antigens." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
@@ -4861,6 +4905,8 @@ Apart from testosterone production, Leydig cells also secrete insulin-like facto
 
 ### NADP+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0006741`
 #### Removed
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide phosphate (NADP+), a coenzyme that interconverts with its reduced form, NADPH, in many redox and biosynthetic reactions." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
@@ -5582,6 +5628,8 @@ Growing evidence suggests that there is high plasticity among Schwann cell precu
 - Class: [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) 
 
 - [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32314"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) [conformsTo](http://purl.org/dc/terms/conformsTo) [cc_assembly.yaml](http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml) 
 
 - [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
 
@@ -6872,6 +6920,8 @@ The adrenal gland glandular cells have a rich blood supply which facilitates the
 
 ### aldoxime metabolic process `http://purl.obolibrary.org/obo/GO_0019330`
 #### Removed
+- [aldoxime metabolic process](http://purl.obolibrary.org/obo/GO_0019330) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [aldoxime metabolic process](http://purl.obolibrary.org/obo/GO_0019330) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P345-PWY" 
 
 - [aldoxime metabolic process](http://purl.obolibrary.org/obo/GO_0019330) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving aldoximes, compounds derived by the reaction of an aldose with hydroxylamine, thus containing the aldoxime group -HC=NOH." 
@@ -10200,6 +10250,8 @@ In addition to their primary restorative function, basal epithelial cells are al
 
 ### benzonitrile metabolic process `http://purl.obolibrary.org/obo/GO_0018876`
 #### Removed
+- [benzonitrile metabolic process](http://purl.obolibrary.org/obo/GO_0018876) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [benzonitrile metabolic process](http://purl.obolibrary.org/obo/GO_0018876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:bzn" 
 
 - [benzonitrile metabolic process](http://purl.obolibrary.org/obo/GO_0018876) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving benzonitrile. Benzonitrile is used as a solvent and chemical intermediate in the pharmaceutical, dyestuffs and rubber industries. It is highly toxic and harmful in contact with skin." 
@@ -10236,6 +10288,8 @@ In addition to their primary restorative function, basal epithelial cells are al
 
 ### beta-1,2,3,4,5,6-hexachlorocyclohexane metabolic process `http://purl.obolibrary.org/obo/GO_0018877`
 #### Removed
+- [beta-1,2,3,4,5,6-hexachlorocyclohexane metabolic process](http://purl.obolibrary.org/obo/GO_0018877) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [beta-1,2,3,4,5,6-hexachlorocyclohexane metabolic process](http://purl.obolibrary.org/obo/GO_0018877) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:hch" 
 
 - [beta-1,2,3,4,5,6-hexachlorocyclohexane metabolic process](http://purl.obolibrary.org/obo/GO_0018877) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving beta-1,2,3,4,5,6-hexachlorocyclohexane, a halogenated organic insecticide that has been used worldwide for agriculture and public health." 
@@ -11305,6 +11359,8 @@ Furthermore, the bone marrow hematopoietic cells have a unique ability to replac
 
 ### bromoxynil metabolic process `http://purl.obolibrary.org/obo/GO_0018881`
 #### Removed
+- [bromoxynil metabolic process](http://purl.obolibrary.org/obo/GO_0018881) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [bromoxynil metabolic process](http://purl.obolibrary.org/obo/GO_0018881) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:box" 
 
 - [bromoxynil metabolic process](http://purl.obolibrary.org/obo/GO_0018881) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving bromoxynil, C7H3Br2NO, a dibrominated phenol derivative with a cyano (-CN) group attached. Bromoxynil is used as a herbicide for post-emergent control of annual broadleaf weeds and works by inhibiting photosynthesis in the target plants." 
@@ -13408,6 +13464,8 @@ Additionally, skeletal muscle cells exhibit a high degree of plasticity, which a
 
 ### cellodextrin metabolic process `http://purl.obolibrary.org/obo/GO_2000889`
 #### Removed
+- [cellodextrin metabolic process](http://purl.obolibrary.org/obo/GO_2000889) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [cellodextrin metabolic process](http://purl.obolibrary.org/obo/GO_2000889) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a cellodextrin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
 
@@ -13442,6 +13500,8 @@ Additionally, skeletal muscle cells exhibit a high degree of plasticity, which a
 
 ### cellotriose metabolic process `http://purl.obolibrary.org/obo/GO_2000893`
 #### Removed
+- [cellotriose metabolic process](http://purl.obolibrary.org/obo/GO_2000893) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [cellotriose metabolic process](http://purl.obolibrary.org/obo/GO_2000893) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a cellotriose." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
 
@@ -13850,6 +13910,8 @@ CNS macrophages are also involved in the initiation and progression of many neur
 
 ### cephalosporin C metabolic process `http://purl.obolibrary.org/obo/GO_1901266`
 #### Removed
+- [cephalosporin C metabolic process](http://purl.obolibrary.org/obo/GO_1901266) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [cephalosporin C metabolic process](http://purl.obolibrary.org/obo/GO_1901266) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving cephalosporin C." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
@@ -14900,6 +14962,8 @@ Cortical neurons further define the functional structure of the cerebral cortex 
 
 
 ### chitin-based cuticle development `http://purl.obolibrary.org/obo/GO_0040003`
+#### Removed
+- [chitin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040003) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
 
 #### Added
 - [chitin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040003) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
@@ -15173,6 +15237,12 @@ The chondrocyte lifecycle involves proliferation, maturation, and hypertrophy, c
 ### chorion-containing eggshell `http://purl.obolibrary.org/obo/UBERON_0005307`
 #### Removed
 - [chorion-containing eggshell](http://purl.obolibrary.org/obo/UBERON_0005307) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+
+
+### chorion-containing eggshell formation `http://purl.obolibrary.org/obo/GO_0007304`
+#### Removed
+- [chorion-containing eggshell formation](http://purl.obolibrary.org/obo/GO_0007304) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml) 
 
 
 
@@ -16229,6 +16299,8 @@ Another vital role of club cells is their capacity to self-proliferate and diffe
 
 
 ### collagen and cuticulin-based cuticle development `http://purl.obolibrary.org/obo/GO_0040002`
+#### Removed
+- [collagen and cuticulin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040002) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
 
 #### Added
 - [collagen and cuticulin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040002) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
@@ -17126,6 +17198,8 @@ In addition to their role in antigen presentation, cDCs have other important fun
 
 ### cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900799`
 #### Removed
+- [cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900799) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900799) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cordyol C." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -17162,6 +17236,8 @@ In addition to their role in antigen presentation, cDCs have other important fun
 
 ### cordyol C catabolic process `http://purl.obolibrary.org/obo/GO_1900798`
 #### Removed
+- [cordyol C catabolic process](http://purl.obolibrary.org/obo/GO_1900798) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [cordyol C catabolic process](http://purl.obolibrary.org/obo/GO_1900798) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of cordyol C." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -17198,6 +17274,8 @@ In addition to their role in antigen presentation, cDCs have other important fun
 
 ### cordyol C metabolic process `http://purl.obolibrary.org/obo/GO_1900797`
 #### Removed
+- [cordyol C metabolic process](http://purl.obolibrary.org/obo/GO_1900797) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [cordyol C metabolic process](http://purl.obolibrary.org/obo/GO_1900797) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving cordyol C." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -18021,6 +18099,8 @@ Their unique function and morphology, along with the numerous subtypes distingui
 
 ### cuticle development `http://purl.obolibrary.org/obo/GO_0042335`
 #### Removed
+- [cuticle development](http://purl.obolibrary.org/obo/GO_0042335) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
+
 - [cuticle development](http://purl.obolibrary.org/obo/GO_0042335) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
 
 #### Added
@@ -18063,6 +18143,8 @@ Their unique function and morphology, along with the numerous subtypes distingui
 
 ### cyclohexylsulfamate metabolic process `http://purl.obolibrary.org/obo/GO_0018892`
 #### Removed
+- [cyclohexylsulfamate metabolic process](http://purl.obolibrary.org/obo/GO_0018892) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [cyclohexylsulfamate metabolic process](http://purl.obolibrary.org/obo/GO_0018892) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:chs" 
 
 - [cyclohexylsulfamate metabolic process](http://purl.obolibrary.org/obo/GO_0018892) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving cyclohexylsulfamate, also known as cyclamic acid. Sodium cyclohexylsulfamate (CHS-Na) was a widely used sweetening agent but was banned because of the suspicion of carcinogenicity and metabolic conversion to cyclohexylamine (CHA), a toxic substance. It is now used as a fungicide." 
@@ -19469,6 +19551,8 @@ Additionally, the dendritic cells can influence the type of immune response the 
 
 ### dimethyl ether metabolic process `http://purl.obolibrary.org/obo/GO_0018905`
 #### Removed
+- [dimethyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018905) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [dimethyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018905) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:dme" 
 
 - [dimethyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018905) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving dimethyl ether, CH3-O-CH3, the simplest ether. Dimethyl ether, also known wood ether and methyl ether, is a colorless gas that has been used in refrigeration applications." 
@@ -19519,6 +19603,8 @@ Additionally, the dendritic cells can influence the type of immune response the 
 
 ### dimethylsilanediol metabolic process `http://purl.obolibrary.org/obo/GO_0046454`
 #### Removed
+- [dimethylsilanediol metabolic process](http://purl.obolibrary.org/obo/GO_0046454) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [dimethylsilanediol metabolic process](http://purl.obolibrary.org/obo/GO_0046454) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving dimethylsilanediol, the smallest member of the dialkylsilanediols. Dimethylsilanediol is the monomer of polydimethylsiloxane, a compound which can be found in a wide range of industrial and consumer products." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
@@ -19567,6 +19653,8 @@ Additionally, the dendritic cells can influence the type of immune response the 
 
 ### diorcinol biosynthetic process `http://purl.obolibrary.org/obo/GO_1900572`
 #### Removed
+- [diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900572) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900572) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of diorcinol." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -19603,6 +19691,8 @@ Additionally, the dendritic cells can influence the type of immune response the 
 
 ### diorcinol catabolic process `http://purl.obolibrary.org/obo/GO_1900571`
 #### Removed
+- [diorcinol catabolic process](http://purl.obolibrary.org/obo/GO_1900571) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [diorcinol catabolic process](http://purl.obolibrary.org/obo/GO_1900571) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of diorcinol." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -19639,6 +19729,8 @@ Additionally, the dendritic cells can influence the type of immune response the 
 
 ### diorcinol metabolic process `http://purl.obolibrary.org/obo/GO_1900570`
 #### Removed
+- [diorcinol metabolic process](http://purl.obolibrary.org/obo/GO_1900570) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [diorcinol metabolic process](http://purl.obolibrary.org/obo/GO_1900570) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving diorcinol." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -20841,6 +20933,12 @@ As a result of their specialized function, any impairment in the function of duc
 ### eggshell `http://purl.obolibrary.org/obo/UBERON_0005079`
 #### Removed
 - [eggshell](http://purl.obolibrary.org/obo/UBERON_0005079) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+
+
+### eggshell formation `http://purl.obolibrary.org/obo/GO_0030703`
+#### Removed
+- [eggshell formation](http://purl.obolibrary.org/obo/GO_0030703) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml) 
 
 
 
@@ -27140,6 +27238,8 @@ Gametes have a primary role in sexual reproduction and genetic variation, which 
 
 ### gamma-1,2,3,4,5,6-hexachlorocyclohexane metabolic process `http://purl.obolibrary.org/obo/GO_0018919`
 #### Removed
+- [gamma-1,2,3,4,5,6-hexachlorocyclohexane metabolic process](http://purl.obolibrary.org/obo/GO_0018919) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [gamma-1,2,3,4,5,6-hexachlorocyclohexane metabolic process](http://purl.obolibrary.org/obo/GO_0018919) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving gamma-1,2,3,4,5,6-hexachlorocyclohexane (also known as Lindane), the most common form of hexachlorohexane, a halogenated organic insecticide that has been used worldwide for agriculture and public health." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:ghch" 
 
@@ -27550,6 +27650,8 @@ Furthermore, these ganglion interneurons have significant roles in the formulati
 
 ### gentamycin catabolic process `http://purl.obolibrary.org/obo/GO_1901129`
 #### Removed
+- [gentamycin catabolic process](http://purl.obolibrary.org/obo/GO_1901129) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [gentamycin catabolic process](http://purl.obolibrary.org/obo/GO_1901129) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of gentamycin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UniPathway:UPA00967" 
 
@@ -27584,6 +27686,8 @@ Furthermore, these ganglion interneurons have significant roles in the formulati
 
 ### gentamycin metabolic process `http://purl.obolibrary.org/obo/GO_1901128`
 #### Removed
+- [gentamycin metabolic process](http://purl.obolibrary.org/obo/GO_1901128) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [gentamycin metabolic process](http://purl.obolibrary.org/obo/GO_1901128) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving gentamycin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UniPathway:UPA00967" 
 
@@ -28096,6 +28200,8 @@ When glioblast multiplication is dysregulated, it can lead to harmful manifestat
 
 ### glomerular basement membrane development `http://purl.obolibrary.org/obo/GO_0032836`
 #### Removed
+- [glomerular basement membrane development](http://purl.obolibrary.org/obo/GO_0032836) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
+
 - [glomerular basement membrane development](http://purl.obolibrary.org/obo/GO_0032836) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Gnathostomata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7776) 
 
 #### Added
@@ -28470,6 +28576,16 @@ Glomerular cells can be differentiated into three main types: podocytes, mesangi
 
 - [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
 
+- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alcohol](http://purl.obolibrary.org/obo/CHEBI_30879) 
+
+- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [peroxol](http://purl.obolibrary.org/obo/CHEBI_35924) 
+
+- [glutaredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770099) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
+
 
 ### glutathione import into mitochondrion `http://purl.obolibrary.org/obo/GO_0160007`
 #### Removed
@@ -28518,6 +28634,16 @@ Glomerular cells can be differentiated into three main types: podocytes, mesangi
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutathione-dependent peroxiredoxin activity" 
 
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) SubClassOf [peroxidase activity](http://purl.obolibrary.org/obo/GO_0004601) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alcohol](http://purl.obolibrary.org/obo/CHEBI_30879) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [peroxol](http://purl.obolibrary.org/obo/CHEBI_35924) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [glutathionate(1-)](http://purl.obolibrary.org/obo/CHEBI_57925) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [glutathione disulfide(2-)](http://purl.obolibrary.org/obo/CHEBI_58297) 
 
 
 ### glyceraldehyde-3-phosphate dehydrogenase (NAD+) (non-phosphorylating) activity `http://purl.obolibrary.org/obo/GO_0043878`
@@ -30217,6 +30343,8 @@ Alterations in hepatocyte function have significant implications for overall hum
 
 ### heptadecane metabolic process `http://purl.obolibrary.org/obo/GO_1900635`
 #### Removed
+- [heptadecane metabolic process](http://purl.obolibrary.org/obo/GO_1900635) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [heptadecane metabolic process](http://purl.obolibrary.org/obo/GO_1900635) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving heptadecane." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -31057,6 +31185,12 @@ Alterations in hepatocyte function have significant implications for overall hum
 ### imaginal disc-derived wing vein `http://purl.obolibrary.org/obo/UBERON_0003194`
 #### Removed
 - [imaginal disc-derived wing vein](http://purl.obolibrary.org/obo/UBERON_0003194) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+
+
+### imaginal disc-derived wing vein morphogenesis `http://purl.obolibrary.org/obo/GO_0008586`
+#### Removed
+- [imaginal disc-derived wing vein morphogenesis](http://purl.obolibrary.org/obo/GO_0008586) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_morphogenesis.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml) 
 
 
 
@@ -32703,6 +32837,8 @@ Research studies suggest that dysregulation in intestinal crypt stem cell prolif
 - [intestinal enterochromaffin enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770020) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eumetazoa](http://purl.obolibrary.org/obo/NCBITaxon_6072) 
 
 #### Added
+- [intestinal enterochromaffin enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770020) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
 - [intestinal enterochromaffin enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770020) SubClassOf [neuroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_0061101) 
 
 - [intestinal enterochromaffin enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770020) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742) 
@@ -32848,6 +32984,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 ### intestinal type G enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770021`
 
 #### Added
+- [intestinal type G enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770021) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
 - [intestinal type G enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770021) SubClassOf [neuroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_0061101) 
 
 
@@ -32856,6 +32994,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [intestinal type I enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770022) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eumetazoa](http://purl.obolibrary.org/obo/NCBITaxon_6072) 
 
 #### Added
+- [intestinal type I enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770022) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
 - [intestinal type I enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770022) SubClassOf [intestinal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060575) 
 
 - [intestinal type I enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770022) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742) 
@@ -32866,6 +33006,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [intestinal type L enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770023) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eumetazoa](http://purl.obolibrary.org/obo/NCBITaxon_6072) 
 
 #### Added
+- [intestinal type L enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770023) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
 - [intestinal type L enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770023) SubClassOf [intestinal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060575) 
 
 - [intestinal type L enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770023) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Chordata](http://purl.obolibrary.org/obo/NCBITaxon_7711) 
@@ -32876,6 +33018,8 @@ Moreover, intestinal tuft cells are also involved in regulating intestinal epith
 - [intestinal type N enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770024) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eumetazoa](http://purl.obolibrary.org/obo/NCBITaxon_6072) 
 
 #### Added
+- [intestinal type N enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770024) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
 - [intestinal type N enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770024) SubClassOf [intestinal epithelial cell differentiation](http://purl.obolibrary.org/obo/GO_0060575) 
 
 - [intestinal type N enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770024) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742) 
@@ -33281,6 +33425,8 @@ Malfunctioning ionocytes have been implicated in various diseases, including cys
 
 ### iprodione metabolic process `http://purl.obolibrary.org/obo/GO_0018922`
 #### Removed
+- [iprodione metabolic process](http://purl.obolibrary.org/obo/GO_0018922) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [iprodione metabolic process](http://purl.obolibrary.org/obo/GO_0018922) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:ipd" 
 
 - [iprodione metabolic process](http://purl.obolibrary.org/obo/GO_0018922) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving prodione, a colorless, odorless crystal. It is used as a dicarboximide contact fungicide to control a wide variety of crop diseases by inhibiting the germination of spores and the growth of the fungal mat (mycelium)." 
@@ -33418,6 +33564,8 @@ Malfunctioning ionocytes have been implicated in various diseases, including cys
 
 ### isoprene biosynthetic process `http://purl.obolibrary.org/obo/GO_0043612`
 #### Removed
+- [isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_0043612) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_0043612) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of isoprene, C5H8." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
@@ -33460,6 +33608,8 @@ Malfunctioning ionocytes have been implicated in various diseases, including cys
 
 ### isoprene metabolic process `http://purl.obolibrary.org/obo/GO_0043611`
 #### Removed
+- [isoprene metabolic process](http://purl.obolibrary.org/obo/GO_0043611) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [isoprene metabolic process](http://purl.obolibrary.org/obo/GO_0043611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving isoprene, C5H8." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
@@ -38503,6 +38653,8 @@ The matured male germ cells or sperm cells are highly specialized, having a stre
 
 ### maltoheptaose metabolic process `http://purl.obolibrary.org/obo/GO_2001122`
 #### Removed
+- [maltoheptaose metabolic process](http://purl.obolibrary.org/obo/GO_2001122) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [maltoheptaose metabolic process](http://purl.obolibrary.org/obo/GO_2001122) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a maltoheptaose." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
 
@@ -42809,6 +42961,8 @@ These cells have adaptive capabilities that facilitate their role in many pathol
 
 ### methanesulfonic acid metabolic process `http://purl.obolibrary.org/obo/GO_0018926`
 #### Removed
+- [methanesulfonic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018926) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [methanesulfonic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018926) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:msa" 
 
 - [methanesulfonic acid metabolic process](http://purl.obolibrary.org/obo/GO_0018926) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving methanesulfonic acid, a strong acid produced by the oxidation of dimethyl sulfide." 
@@ -42847,6 +43001,8 @@ These cells have adaptive capabilities that facilitate their role in many pathol
 
 ### methanophenazine metabolic process `http://purl.obolibrary.org/obo/GO_1900629`
 #### Removed
+- [methanophenazine metabolic process](http://purl.obolibrary.org/obo/GO_1900629) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [methanophenazine metabolic process](http://purl.obolibrary.org/obo/GO_1900629) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving methanophenazine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -42877,6 +43033,8 @@ These cells have adaptive capabilities that facilitate their role in many pathol
 
 ### methyl fluoride metabolic process `http://purl.obolibrary.org/obo/GO_0018929`
 #### Removed
+- [methyl fluoride metabolic process](http://purl.obolibrary.org/obo/GO_0018929) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [methyl fluoride metabolic process](http://purl.obolibrary.org/obo/GO_0018929) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:mf" 
 
 - [methyl fluoride metabolic process](http://purl.obolibrary.org/obo/GO_0018929) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving methyl fluoride, fluorine-substituted methane, a gaseous halogenated hydrocarbon that has been investigated as an inhibitor of methanotrophy and nitrification in soils." 
@@ -42927,6 +43085,8 @@ These cells have adaptive capabilities that facilitate their role in many pathol
 
 ### methyl tert-butyl ether metabolic process `http://purl.obolibrary.org/obo/GO_0018906`
 #### Removed
+- [methyl tert-butyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018906) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [methyl tert-butyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018906) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:mtb" 
 
 - [methyl tert-butyl ether metabolic process](http://purl.obolibrary.org/obo/GO_0018906) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving methyl tert-butyl ether, 2-methoxy-2-methylpropane. Methyl tert-butyl ether is a synthetic chemical which is mixed with gasoline for use in reformulated gasoline. It was first introduced as an additive for unleaded gasoline in the 1980s. It is also used as a laboratory reagent and a pharmaceutical agent." 
@@ -43367,6 +43527,8 @@ While their protective role generally benefits the brain, their over-activation 
 
 ### mitochondrial membrane organization `http://purl.obolibrary.org/obo/GO_0007006`
 #### Removed
+- [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) [conformsTo](http://purl.org/dc/terms/conformsTo) [occursIn.yaml](http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml) 
+
 - [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) EquivalentTo [membrane organization](http://purl.obolibrary.org/obo/GO_0061024) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739)) 
 
 - [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) SubClassOf [mitochondrion organization](http://purl.obolibrary.org/obo/GO_0007005) 
@@ -43614,6 +43776,8 @@ Mononuclear phagocytes play key roles in tissue repair and remodeling. After inf
 
 ### monounsaturated fatty acid metabolic process `http://purl.obolibrary.org/obo/GO_1903964`
 #### Removed
+- [monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [monounsaturated fatty acid metabolic process](http://purl.obolibrary.org/obo/GO_1903964) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving monounsaturated fatty acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -45051,6 +45215,16 @@ Muscle precursor cells are characterized by their proliferative capacity and rap
 
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
 
+- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cysteine residue](http://purl.obolibrary.org/obo/CHEBI_29950) 
+
+- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [alcohol](http://purl.obolibrary.org/obo/CHEBI_30879) 
+
+- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [peroxol](http://purl.obolibrary.org/obo/CHEBI_35924) 
+
+- [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
+
 
 ### myelencephalon `http://purl.obolibrary.org/obo/UBERON_0005290`
 #### Removed
@@ -45578,6 +45752,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### naphthalenesulfonate metabolic process `http://purl.obolibrary.org/obo/GO_0018984`
 #### Removed
+- [naphthalenesulfonate metabolic process](http://purl.obolibrary.org/obo/GO_0018984) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [naphthalenesulfonate metabolic process](http://purl.obolibrary.org/obo/GO_0018984) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:nphs" 
 
 - [naphthalenesulfonate metabolic process](http://purl.obolibrary.org/obo/GO_0018984) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving naphthalenesulfonate, sulfonated derivatives of naphthalene." 
@@ -45899,6 +46075,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of (Z)-nonadeca-1,14-diene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900942`
 #### Removed
+- [negative regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900942) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900942) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of (Z)-nonadeca-1,14-diene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -45931,6 +46109,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of 17-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900957`
 #### Removed
+- [negative regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900957) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900957) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of 17-methylnonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -45963,6 +46143,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of 18-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900951`
 #### Removed
+- [negative regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900951) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900951) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of 18-methylnonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -46473,6 +46655,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900862`
 #### Removed
+- [negative regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900862) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900862) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of cordyol C biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -46557,6 +46741,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of diorcinol biosynthetic process `http://purl.obolibrary.org/obo/GO_1900656`
 #### Removed
+- [negative regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900656) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of diorcinol biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -46841,6 +47027,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of isoprene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900948`
 #### Removed
+- [negative regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900948) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900948) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of isoprene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -47319,6 +47507,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of nonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900936`
 #### Removed
+- [negative regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900936) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900936) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of nonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -47351,6 +47541,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of octadecene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900915`
 #### Removed
+- [negative regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900915) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900915) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of octadecene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -47439,6 +47631,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106394`
 #### Removed
+- [negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of a palmitic acid catabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
 
@@ -47765,6 +47959,8 @@ Furthermore, na&iuml;ve B cells play a crucial role in the establishment of germ
 
 ### negative regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900975`
 #### Removed
+- [negative regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900975) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
 - [negative regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900975) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of tatiopterin biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -49807,6 +50003,8 @@ Non-classical monocytes are also able to induce CD4+ T cell proliferation and se
 
 ### nonadec-1-ene metabolic process `http://purl.obolibrary.org/obo/GO_1900876`
 #### Removed
+- [nonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900876) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [nonadec-1-ene metabolic process](http://purl.obolibrary.org/obo/GO_1900876) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving nonadec-1-ene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -50517,6 +50715,8 @@ Non-classical monocytes are also able to induce CD4+ T cell proliferation and se
 
 ### octadecene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900682`
 #### Removed
+- [octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900682) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900682) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of octadecene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -50549,6 +50749,8 @@ Non-classical monocytes are also able to induce CD4+ T cell proliferation and se
 
 ### octadecene metabolic process `http://purl.obolibrary.org/obo/GO_1900681`
 #### Removed
+- [octadecene metabolic process](http://purl.obolibrary.org/obo/GO_1900681) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [octadecene metabolic process](http://purl.obolibrary.org/obo/GO_1900681) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving octadecene." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -51751,10 +51953,28 @@ Osteoclasts also collaborate with osteoblasts, responsible for new bone formatio
 
 
 
+### otolith development `http://purl.obolibrary.org/obo/GO_0048840`
+#### Removed
+- [otolith development](http://purl.obolibrary.org/obo/GO_0048840) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
+
+
+
+### otolith formation `http://purl.obolibrary.org/obo/GO_0032475`
+#### Removed
+- [otolith formation](http://purl.obolibrary.org/obo/GO_0032475) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml) 
+
+
+
 ### otolith mineralization `http://purl.obolibrary.org/obo/GO_0045299`
 
 #### Added
 - [otolith mineralization](http://purl.obolibrary.org/obo/GO_0045299) SubClassOf [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) 
+
+
+### otolith morphogenesis `http://purl.obolibrary.org/obo/GO_0032474`
+#### Removed
+- [otolith morphogenesis](http://purl.obolibrary.org/obo/GO_0032474) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_morphogenesis.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml) 
+
 
 
 ### otolith organ `http://purl.obolibrary.org/obo/UBERON_0002518`
@@ -52380,6 +52600,8 @@ Osteoclasts also collaborate with osteoblasts, responsible for new bone formatio
 
 ### palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_1900534`
 #### Removed
+- [palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_1900534) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of palmitic acid." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -53657,6 +53879,8 @@ These cells have been implicated in the progression of pancreatic cancer. Activa
 
 ### pentadecane metabolic process `http://purl.obolibrary.org/obo/GO_1900633`
 #### Removed
+- [pentadecane metabolic process](http://purl.obolibrary.org/obo/GO_1900633) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [pentadecane metabolic process](http://purl.obolibrary.org/obo/GO_1900633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving pentadecane." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -53717,6 +53941,8 @@ These cells have been implicated in the progression of pancreatic cancer. Activa
 
 ### pentaerythritol tetranitrate metabolic process `http://purl.obolibrary.org/obo/GO_0018954`
 #### Removed
+- [pentaerythritol tetranitrate metabolic process](http://purl.obolibrary.org/obo/GO_0018954) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [pentaerythritol tetranitrate metabolic process](http://purl.obolibrary.org/obo/GO_0018954) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:petn" 
 
 - [pentaerythritol tetranitrate metabolic process](http://purl.obolibrary.org/obo/GO_0018954) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving pentaerythritol tetranitrate, C(CH2-O-NO2)4, a substance produced for use as an explosive and a vasodilator." 
@@ -55638,6 +55864,8 @@ Phagocytes are predominantly neutrophils or monocytes. Neutrophils are the most 
 
 ### phosphinothricin catabolic process `http://purl.obolibrary.org/obo/GO_1901765`
 #### Removed
+- [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [phosphinothricin catabolic process](http://purl.obolibrary.org/obo/GO_1901765) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of phosphinothricin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
@@ -55670,6 +55898,8 @@ Phagocytes are predominantly neutrophils or monocytes. Neutrophils are the most 
 
 ### phosphinothricin metabolic process `http://purl.obolibrary.org/obo/GO_1901764`
 #### Removed
+- [phosphinothricin metabolic process](http://purl.obolibrary.org/obo/GO_1901764) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [phosphinothricin metabolic process](http://purl.obolibrary.org/obo/GO_1901764) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving phosphinothricin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
 
@@ -56926,6 +57156,8 @@ The importance of podocytes is further emphasized by the effects of their damage
 
 ### poly(hydroxyalkanoate) metabolic process `http://purl.obolibrary.org/obo/GO_1901440`
 #### Removed
+- [poly(hydroxyalkanoate) metabolic process](http://purl.obolibrary.org/obo/GO_1901440) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [poly(hydroxyalkanoate) metabolic process](http://purl.obolibrary.org/obo/GO_1901440) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving poly(hydroxyalkanoate)." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -57096,6 +57328,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of (Z)-nonadeca-1,14-diene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900943`
 #### Removed
+- [positive regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900943) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of (Z)-nonadeca-1,14-diene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -57128,6 +57362,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of 17-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900958`
 #### Removed
+- [positive regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900958) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900958) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of 17-methylnonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -57160,6 +57396,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of 18-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900952`
 #### Removed
+- [positive regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900952) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900952) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of 18-methylnonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -57654,6 +57892,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900863`
 #### Removed
+- [positive regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900863) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900863) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of cordyol C biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -57738,6 +57978,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of diorcinol biosynthetic process `http://purl.obolibrary.org/obo/GO_1900657`
 #### Removed
+- [positive regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900657) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900657) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of diorcinol biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -58494,6 +58736,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of nonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900937`
 #### Removed
+- [positive regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900937) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900937) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of nonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -58526,6 +58770,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of octadecene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900916`
 #### Removed
+- [positive regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900916) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900916) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of octadecene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -58614,6 +58860,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106395`
 #### Removed
+- [positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106395) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of a palmitic acid catabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
 
@@ -58936,6 +59184,8 @@ Polyploid cells also play a potential role in cancer development. Some cancer ce
 
 ### positive regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900976`
 #### Removed
+- [positive regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900976) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
 - [positive regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900976) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of tatiopterin biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -61589,6 +61839,8 @@ Beyond their immune response role through differentiation, promonocytes may part
 
 - [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32320"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [conformsTo](http://purl.org/dc/terms/conformsTo) [protein_complex_by_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml) 
+
 - [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "dragon-ai-agent" 
 
 - [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-07-16T16:34:38Z" 
@@ -63221,6 +63473,10 @@ Cardiac myocytes are capable of automaticity, meaning they have the unique abili
 
 ### regulation of (Z)-nonadeca-1,14-diene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900941`
 #### Removed
+- [regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900941) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900941) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of (Z)-nonadeca-1,14-diene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900941) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of (Z)-nonadeca-1,14-diene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -63251,6 +63507,10 @@ Cardiac myocytes are capable of automaticity, meaning they have the unique abili
 
 ### regulation of 17-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900956`
 #### Removed
+- [regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900956) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900956) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of 17-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900956) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of 17-methylnonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -63281,6 +63541,10 @@ Cardiac myocytes are capable of automaticity, meaning they have the unique abili
 
 ### regulation of 18-methylnonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900950`
 #### Removed
+- [regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900950) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900950) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of 18-methylnonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900950) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of 18-methylnonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -63883,6 +64147,10 @@ Cardiac myocytes are capable of automaticity, meaning they have the unique abili
 
 ### regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900861`
 #### Removed
+- [regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900861) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900861) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900861) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of cordyol C biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -63973,6 +64241,10 @@ Cardiac myocytes are capable of automaticity, meaning they have the unique abili
 
 ### regulation of diorcinol biosynthetic process `http://purl.obolibrary.org/obo/GO_1900655`
 #### Removed
+- [regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900655) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900655) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of diorcinol biosynthetic process](http://purl.obolibrary.org/obo/GO_1900655) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of diorcinol biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -64255,6 +64527,10 @@ Cardiac myocytes are capable of automaticity, meaning they have the unique abili
 
 ### regulation of isoprene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900947`
 #### Removed
+- [regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900947) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900947) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900947) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of isoprene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -64804,6 +65080,10 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 ### regulation of nonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900935`
 #### Removed
+- [regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900935) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900935) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900935) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of nonadec-1-ene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -64834,6 +65114,10 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 ### regulation of octadecene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900914`
 #### Removed
+- [regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900914) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900914) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of octadecene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900914) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of octadecene biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -64920,6 +65204,10 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 ### regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106393`
 #### Removed
+- [regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of a palmitic acid catabolic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14677856" 
 
@@ -65282,6 +65570,10 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 
 ### regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900974`
 #### Removed
+- [regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900974) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900974) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
 - [regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900974) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of tatiopterin biosynthetic process." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -66422,6 +66714,8 @@ Beyond mucociliary clearance, respiratory ciliated cells also contribute to sens
 
 ### resveratrol binding `http://purl.obolibrary.org/obo/GO_1905594`
 #### Removed
+- [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [conformsTo](http://purl.org/dc/terms/conformsTo) [binding.yaml](http://purl.obolibrary.org/obo/go/patterns/binding.yaml) 
+
 - [resveratrol binding](http://purl.obolibrary.org/obo/GO_1905594) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to resveratrol." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18254726" 
 
@@ -67943,6 +68237,8 @@ In response to stimulation, these glandular cells release saliva through a netwo
 
 ### sarcinapterin metabolic process `http://purl.obolibrary.org/obo/GO_1900867`
 #### Removed
+- [sarcinapterin metabolic process](http://purl.obolibrary.org/obo/GO_1900867) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [sarcinapterin metabolic process](http://purl.obolibrary.org/obo/GO_1900867) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving sarcinapterin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -73175,6 +73471,8 @@ Clinically and in research, stromal cells often draw attention due to their inte
 
 ### styrene metabolic process `http://purl.obolibrary.org/obo/GO_0018966`
 #### Removed
+- [styrene metabolic process](http://purl.obolibrary.org/obo/GO_0018966) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [styrene metabolic process](http://purl.obolibrary.org/obo/GO_0018966) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:sty" 
 
 - [styrene metabolic process](http://purl.obolibrary.org/obo/GO_0018966) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving styrene, an aromatic hydrocarbon liquid soluble in ether and alcohol. When heated, exposed to light or added to a peroxide catalyst, it undergoes polymerization to form polystyrene, a versatile material used in the manufacture of plastics, synthetic rubber, thermal insulation, and packaging. Styrene is a classified mutagen and a suspected carcinogen." 
@@ -75555,6 +75853,8 @@ Functionally, the sympathetic neurons help the body respond to stressful or thre
 
 ### tRNA threonylcarbamoyladenosine metabolic process `http://purl.obolibrary.org/obo/GO_0070525`
 #### Removed
+- [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [tRNA threonylcarbamoyladenosine metabolic process](http://purl.obolibrary.org/obo/GO_0070525) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving tRNA threonylcarbamoyladenosine, a modified nucleoside found in some tRNA molecules." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
@@ -75855,6 +76155,8 @@ Taste receptor cells are involved in the transduction of taste stimuli into neur
 
 ### tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900870`
 #### Removed
+- [tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900870) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900870) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of tatiopterin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -75889,6 +76191,8 @@ Taste receptor cells are involved in the transduction of taste stimuli into neur
 
 ### tatiopterin metabolic process `http://purl.obolibrary.org/obo/GO_1900869`
 #### Removed
+- [tatiopterin metabolic process](http://purl.obolibrary.org/obo/GO_1900869) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [tatiopterin metabolic process](http://purl.obolibrary.org/obo/GO_1900869) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving tatiopterin." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -77297,6 +77601,8 @@ In addition to their immunological roles, tissue-resident macrophages also have 
 
 ### toluene metabolic process `http://purl.obolibrary.org/obo/GO_0018970`
 #### Removed
+- [toluene metabolic process](http://purl.obolibrary.org/obo/GO_0018970) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [toluene metabolic process](http://purl.obolibrary.org/obo/GO_0018970) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving toluene, a volatile monoaromatic hydrocarbon found in crude petroleum and petroleum products such as gasoline and commonly used as a paint thinning agent and in other solvent applications." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
@@ -78177,6 +78483,8 @@ Tracheobronchial smooth muscle cells, beyond their contractile function, activel
 
 ### tri-n-butyltin metabolic process `http://purl.obolibrary.org/obo/GO_0018944`
 #### Removed
+- [tri-n-butyltin metabolic process](http://purl.obolibrary.org/obo/GO_0018944) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [tri-n-butyltin metabolic process](http://purl.obolibrary.org/obo/GO_0018944) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "UM-BBD_pathwayID:tbt" 
 
 - [tri-n-butyltin metabolic process](http://purl.obolibrary.org/obo/GO_0018944) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving tri-n-butyltin, an organometallic compound composed of three butyl chains attached to a tin atom. Tri-n-butyltin is used as an antifouling agent in ship bottom paints and can be toxic to many marine organisms." 
@@ -78255,6 +78563,8 @@ Tracheobronchial smooth muscle cells, beyond their contractile function, activel
 
 ### tridecane metabolic process `http://purl.obolibrary.org/obo/GO_1900631`
 #### Removed
+- [tridecane metabolic process](http://purl.obolibrary.org/obo/GO_1900631) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [tridecane metabolic process](http://purl.obolibrary.org/obo/GO_1900631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving tridecane." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
 
@@ -82195,6 +82505,12 @@ Ventricular cardiac muscle cells contribute not only mechanically but also bioch
 ### vitelline membrane `http://purl.obolibrary.org/obo/UBERON_0003125`
 #### Removed
 - [vitelline membrane](http://purl.obolibrary.org/obo/UBERON_0003125) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "uberon" 
+
+
+
+### vitelline membrane formation `http://purl.obolibrary.org/obo/GO_0030704`
+#### Removed
+- [vitelline membrane formation](http://purl.obolibrary.org/obo/GO_0030704) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_formation.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml) 
 
 
 
