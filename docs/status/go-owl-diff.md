@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-07/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-08/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-06-15" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-07" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-08" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -644,6 +644,43 @@
 - [ATP-dependent folded protein transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770098) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-dependent folded protein transmembrane transporter activity" 
 
 - [ATP-dependent folded protein transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_7770098) SubClassOf [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) 
+
+
+### ATP-dependent protein-RNA complex displacement activity `http://purl.obolibrary.org/obo/GO_7770106`
+
+#### Added
+- Class: [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32232"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-07T16:59:22Z" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "RNP remodeling ATPase activity" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ATP-dependent RNA-protein complex displacement activity" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "RNPase activity" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770106" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An activity that displaces a protein or protein complex from RNA in a ribonucleoprotein (RNP) complex, driven by ATP hydrolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28864812" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11175897" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39122693" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15118161" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Analogous to the DNA-side activity GO:0061995 (ATP-dependent protein-DNA complex displacement activity). The community-used term &quot;RNPase&quot; refers to this activity." 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-dependent protein-RNA complex displacement activity" 
+
+- [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) SubClassOf [ATP-dependent activity, acting on RNA](http://purl.obolibrary.org/obo/GO_0008186) 
 
 
 ### CDP-diacylglycerol biosynthetic process `http://purl.obolibrary.org/obo/GO_0016024`
@@ -1443,6 +1480,37 @@
 - [NADPH regeneration](http://purl.obolibrary.org/obo/GO_0006740) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Covers all routes that regenerate NADPH, including the oxidative branch of the pentose phosphate pathway (consider GO:0009051 for annotation), NADP(+)-dependent isocitrate dehydrogenase and malic enzyme reactions, folate-mediated one-carbon metabolism, and nicotinamide nucleotide transhydrogenase, in any subcellular compartment." 
 
 
+### RNA (adenine-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_7770107`
+
+#### Added
+- Class: [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27200"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-07T23:44:01Z" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "RNA (N6-adenosine)-methyltransferase activity" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "RNA m6A methyltransferase activity" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770107" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an adenosine in RNA + S-adenosyl-L-methionine = an N(6)-methyladenosine in RNA + S-adenosyl-L-homocysteine + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34023900" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36736310" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) [label](http://www.w3.org/2000/01/rdf-schema#label) "RNA (adenine-N6)-methyltransferase activity" 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
+
+- [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [RNA methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008173) 
+
+
 ### RNA import into mitochondrion `http://purl.obolibrary.org/obo/GO_0035927`
 #### Removed
 - [RNA import into mitochondrion](http://purl.obolibrary.org/obo/GO_0035927) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -1557,6 +1625,72 @@
 
 #### Added
 - [T follicular helper cell differentiation](http://purl.obolibrary.org/obo/GO_0061470) SubClassOf [exhausted T cell differentiation](http://purl.obolibrary.org/obo/GO_0160083) 
+
+
+### Tim8-Tim13 complex `http://purl.obolibrary.org/obo/GO_7770104`
+
+#### Added
+- Class: [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32408"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-07T16:51:54Z" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "TIM8-13 complex" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770104" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A chaperone complex located in the mitochondrial intermembrane space, composed of the small TIM proteins Tim8 and Tim13." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33355130" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11101512" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tim8-Tim13 complex" 
+
+- [Tim8-Tim13 complex](http://purl.obolibrary.org/obo/GO_7770104) SubClassOf [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) 
+
+
+### Tim9-Tim10 complex `http://purl.obolibrary.org/obo/GO_7770105`
+
+#### Added
+- Class: [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32408"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-07T16:51:54Z" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "TIM9-10 complex" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770105" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A chaperone complex located in the mitochondrial intermembrane space, composed of the small TIM proteins Tim9 and Tim10." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16387659" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33355130" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) [label](http://www.w3.org/2000/01/rdf-schema#label) "Tim9-Tim10 complex" 
+
+- [Tim9-Tim10 complex](http://purl.obolibrary.org/obo/GO_7770105) SubClassOf [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) 
+
+
+### U2 snRNA (adenine-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0106348`
+
+#### Added
+- [U2 snRNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0106348) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
+### U6 snRNA (adenine(43)-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0120048`
+
+#### Added
+- [U6 snRNA (adenine(43)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120048) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
 ### UTP biosynthetic process `http://purl.obolibrary.org/obo/GO_0006228`
@@ -2721,10 +2855,16 @@
 - [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
-### fructose export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_1902334`
+### fructose export from vacuole to cytosol `http://purl.obolibrary.org/obo/GO_1902334`
 #### Removed
-- [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
 
+- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+#### Added
+- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytosol" 
 
 
 ### fruit replum development `http://purl.obolibrary.org/obo/GO_1990058`
@@ -3305,10 +3445,16 @@
 
 
 
-### heme export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_0140357`
+### heme export from vacuole to cytosol `http://purl.obolibrary.org/obo/GO_0140357`
 #### Removed
-- [heme export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_0140357) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytoplasm" 
 
+- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
+
+#### Added
+- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytosol" 
 
 
 ### heptadecane biosynthetic process `http://purl.obolibrary.org/obo/GO_1900636`
@@ -3637,6 +3783,12 @@
 - [mRNA cytidine N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0106162) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/16755"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### mRNA m(6)A methyltransferase activity `http://purl.obolibrary.org/obo/GO_0001734`
+
+#### Added
+- [mRNA m(6)A methyltransferase activity](http://purl.obolibrary.org/obo/GO_0001734) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
 ### magnesium ion export from mitochondrion `http://purl.obolibrary.org/obo/GO_1990616`
 #### Removed
 - [magnesium ion export from mitochondrion](http://purl.obolibrary.org/obo/GO_1990616) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
@@ -3813,6 +3965,16 @@
 
 #### Added
 - [methylmalonate-semialdehyde dehydrogenase (acylating, NAD+) activity](http://purl.obolibrary.org/obo/GO_0004491) [label](http://www.w3.org/2000/01/rdf-schema#label) "methylmalonate-semialdehyde dehydrogenase (acylating, NAD+) activity" 
+
+
+### mitochondrial intermembrane space chaperone complex `http://purl.obolibrary.org/obo/GO_0042719`
+#### Removed
+- [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Tim8-Tim13 complex" 
+
+- [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Tim9-Tim10 complex" 
+
+#### Added
+- [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32408"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### mitochondrial membrane organization `http://purl.obolibrary.org/obo/GO_0007006`
@@ -10605,6 +10767,14 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 - [questin reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_7770080) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
 
 
+### rRNA (adenine-N6-)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0008988`
+#### Removed
+- [rRNA (adenine-N6-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008988) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
+
+#### Added
+- [rRNA (adenine-N6-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008988) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
 ### receptor-mediated endocytosis `http://purl.obolibrary.org/obo/GO_0006898`
 
 #### Added
@@ -11130,6 +11300,14 @@ methylerythritol 4-phosphate pathway ; GO:0010322."
 #### Removed
 - [synaptic vesicle lumen acidification](http://purl.obolibrary.org/obo/GO_0097401) SubClassOf [intercellular transport](http://purl.obolibrary.org/obo/GO_0010496) 
 
+
+
+### tRNA(Val) (adenine(37)-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_7770054`
+#### Removed
+- [tRNA(Val) (adenine(37)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770054) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
+
+#### Added
+- [tRNA(Val) (adenine(37)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770054) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
 ### terms_contributor `http://purl.obolibrary.org/obo/terms_contributor`
