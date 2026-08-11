@@ -129,39 +129,58 @@ near the top of the "What to check" content — placement is not load-bearing):
 ```
 ## Empty-diff short-circuit
 
-If the review was triggered by a synchronize event whose combined diff on the
-ontology-relevant files is empty (e.g. a merge from master that touched no
-in-scope stanza), do not re-run the full review.
+If the review was triggered by a synchronize event whose diff on the in-scope
+files is empty (e.g. a merge from master that touched no in-scope stanza), do
+not re-run the full review.
 
-The in-scope files are the ones the PR itself declares — derive them, do
-not hardcode. Inspect the combined diff of the new head against its merge
-parents, path-restricted to those files:
+Run this from the repo root. The in-scope files are the ones the PR itself
+declares — derive them, do not hardcode. Capture them first and verify the
+substitution is non-empty (a failed `gh` call yields an empty list, which
+would silently become an unrestricted diff):
 
-    git show --cc HEAD -- $(gh pr diff <PR-NUMBER> --name-only)
+    FILES=$(gh pr diff <PR-NUMBER> --name-only)
+    [ -n "$FILES" ] || { echo "gh pr diff returned no files; review normally"; exit 0; }
 
-`HEAD` is load-bearing: this must inspect the commit the synchronize event
-just delivered, not the previous round's head. And `--cc` on a merge commit
-shows only the conflicted hunks, so it is empty for a *clean* master merge
-— that is the intended trigger. A path-restricted `git diff <previous-SHA>
-HEAD -- <files>` would answer the same question, but requires the previous
-round's SHA at the point of use; `git show --cc HEAD -- <files>` does not.
+Recover the previous round's head SHA and round number by listing this bot's
+own prior tracking comments on the PR. Filter out the current run's own
+in-progress tracking comment (matched by this run's workflow URL, which the
+action injects into every tracking comment body), paginate in case the trail
+exceeds one page, and select the last remaining match. Substitute real values
+for `<OWNER>`, `<REPO>`, `<PR-NUMBER>`, and `<THIS-RUN-URL>`:
 
-Recover the previous round's head SHA and round number by listing this
-bot's own prior tracking comments on the PR — substitute real values for
-`<OWNER>`, `<REPO>`, `<PR-NUMBER>` (they are not `gh api` placeholders),
-and select the last matching comment rather than slicing lines:
+    gh api --paginate repos/<OWNER>/<REPO>/issues/<PR-NUMBER>/comments \
+      --jq '[.[] | select(.user.login == "ai4c-reviewer[bot]")
+                 | select(.body | contains("<THIS-RUN-URL>") | not)]
+            | last | .body'
 
-    gh api repos/<OWNER>/<REPO>/issues/<PR-NUMBER>/comments \
-      --jq '[.[] | select(.user.login == "ai4c-reviewer[bot]")] | last | .body'
+Extract `<PREV-SHA>` and round `N` from that body with tolerant patterns
+(`^Head reviewed:` and `^### Review — PR #\d+, round \d+`, rest ignored) —
+do not require them at a fixed line number, since the workflow prepends a
+banner and separator rule the agent cannot suppress. If either pattern
+fails, the short-circuit is not applicable: review normally.
 
 For this to be recoverable at all, every tracking comment this bot posts
 must state its round number and reviewed head SHA in a fixed, greppable
-form on the first line — e.g. `Review — PR #<N>, round <K>` followed by
-`Head reviewed: <full-SHA>` on the next line. Free-form phrasings do not
-survive automated extraction.
+form somewhere in the body — e.g. an `### Review — PR #<N>, round <K>`
+heading followed by a `Head reviewed: <full-SHA>` line, both anchored to
+column 0. Free-form phrasings do not survive automated extraction.
 
-If, and only if, the output on every in-scope file is empty, post a
-one-line comment of the form
+Then compute the delta since the previous round, path-restricted to the
+in-scope files:
+
+    git diff <PREV-SHA> HEAD -- $FILES
+
+`git diff <PREV-SHA> HEAD -- <files>` is preferred over `git show --cc HEAD
+-- <files>`: it directly answers "has anything changed on these files since
+the previous round" regardless of whether the intervening commits were
+regular commits, merges, or a mix (`--cc HEAD` only shows conflicted hunks
+on the tip commit, and reports empty for any change delivered by an earlier
+non-tip commit). Both `<PREV-SHA>` and `HEAD` must be present in the local
+checkout; on shallow clones fetch enough history first (`git fetch
+--deepen=50` is usually sufficient), otherwise review normally.
+
+If, and only if, that diff is empty on every in-scope file, post a one-line
+comment of the form
 
     No content changed on <file(s)> since round N (SHA <shortsha>); previous
     findings unchanged.
