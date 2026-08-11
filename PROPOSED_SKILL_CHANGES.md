@@ -133,26 +133,35 @@ If the review was triggered by a synchronize event whose combined diff on the
 ontology-relevant files is empty (e.g. a merge from master that touched no
 in-scope stanza), do not re-run the full review.
 
-Recover the previous round's head SHA and round number by listing this bot's
-own prior tracking comments on the PR:
+The in-scope files are the ones the PR itself declares — derive them, do
+not hardcode. Inspect the combined diff of the new head against its merge
+parents, path-restricted to those files:
 
-    gh api repos/{owner}/{repo}/issues/{pr}/comments \
-      --jq '.[] | select(.user.login == "ai4c-reviewer[bot]") | .body' \
-      | tail -n 20
+    git show --cc HEAD -- $(gh pr diff <PR-NUMBER> --name-only)
 
-The most recent such comment names the round and the SHA it reviewed. Then
-diff the current head against that SHA on the in-scope files:
+`HEAD` is load-bearing: this must inspect the commit the synchronize event
+just delivered, not the previous round's head. And `--cc` on a merge commit
+shows only the conflicted hunks, so it is empty for a *clean* master merge
+— that is the intended trigger. A path-restricted `git diff <previous-SHA>
+HEAD -- <files>` would answer the same question, but requires the previous
+round's SHA at the point of use; `git show --cc HEAD -- <files>` does not.
 
-    git show --cc <SHA> -- src/ontology/go-edit.obo
+Recover the previous round's head SHA and round number by listing this
+bot's own prior tracking comments on the PR — substitute real values for
+`<OWNER>`, `<REPO>`, `<PR-NUMBER>` (they are not `gh api` placeholders),
+and select the last matching comment rather than slicing lines:
 
-Note **`git show --cc`**, not `git diff`: `--cc` on a merge commit shows only
-the conflicted hunks, so it is empty for a *clean* master merge — that is
-the intended trigger. `git diff` against the previous head would be non-empty
-even for a clean merge (the merged-in master commits show up), and would
-defeat the short-circuit.
+    gh api repos/<OWNER>/<REPO>/issues/<PR-NUMBER>/comments \
+      --jq '[.[] | select(.user.login == "ai4c-reviewer[bot]")] | last | .body'
 
-If, and only if, the output on every in-scope file is empty, post a one-line
-comment of the form
+For this to be recoverable at all, every tracking comment this bot posts
+must state its round number and reviewed head SHA in a fixed, greppable
+form on the first line — e.g. `Review — PR #<N>, round <K>` followed by
+`Head reviewed: <full-SHA>` on the next line. Free-form phrasings do not
+survive automated extraction.
+
+If, and only if, the output on every in-scope file is empty, post a
+one-line comment of the form
 
     No content changed on <file(s)> since round N (SHA <shortsha>); previous
     findings unchanged.
