@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-10/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-11/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-10" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-11" 
 
 
 ### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
@@ -508,6 +508,38 @@
 - [ammonia assimilation cycle](http://purl.obolibrary.org/obo/GO_0019676) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
+### autophagy cargo adaptor activity `http://purl.obolibrary.org/obo/GO_0160247`
+#### Removed
+- [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) 
+
+#### Added
+- [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [macroautophagy](http://purl.obolibrary.org/obo/GO_0016236) 
+
+
+### binding `http://purl.obolibrary.org/obo/GO_0005488`
+
+#### Added
+- [binding](http://purl.obolibrary.org/obo/GO_0005488) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [binding](http://purl.obolibrary.org/obo/GO_0005488) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### carboxylic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0046394`
+
+#### Added
+- [carboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046394) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0046394) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### carboxylic acid catabolic process `http://purl.obolibrary.org/obo/GO_0046395`
+
+#### Added
+- [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
 ### cellular response to interleukin-5 `http://purl.obolibrary.org/obo/GO_7770103`
 
 #### Added
@@ -557,6 +589,41 @@
 - [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytosol" 
+
+
+### ganglioside metabolic process `http://purl.obolibrary.org/obo/GO_0001573`
+
+#### Added
+- [ganglioside metabolic process](http://purl.obolibrary.org/obo/GO_0001573) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32322"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### gap endonuclease activity `http://purl.obolibrary.org/obo/GO_0170076`
+
+#### Added
+- Class: [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32367"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-10T17:51:18Z" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "GEN activity" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Gap specific endonuclease activity" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170076" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Specific recognition and catalysis of the internal cleavage of the phosphodiester backbone within single-stranded DNA gaps or looped DNA structures at the junctions of single-stranded and double-stranded DNA. Primarily involved in the resolution of triplet repeat sequences, removal of aberrant secondary structures formed during the maturation of Okazaki fragments, telomeric R-loop resolution and the processing of stalled replication forks, that all involve cleavage at internal or branched DNA structures." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15592449" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10330154" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) [label](http://www.w3.org/2000/01/rdf-schema#label) "gap endonuclease activity" 
+
+- [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) SubClassOf [DNA endonuclease activity](http://purl.obolibrary.org/obo/GO_0004520) 
 
 
 ### glutaredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_7770099`
@@ -671,6 +738,14 @@
 
 #### Added
 - [interleukin-5-mediated signaling pathway](http://purl.obolibrary.org/obo/GO_0038043) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) 
+
+
+### intracellular organelle lumen `http://purl.obolibrary.org/obo/GO_0070013`
+
+#### Added
+- [intracellular organelle lumen](http://purl.obolibrary.org/obo/GO_0070013) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intracellular organelle lumen](http://purl.obolibrary.org/obo/GO_0070013) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
 ### inward rectifier potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_0070320`
@@ -866,6 +941,29 @@
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
 
 
+### negative regulation of coenzyme A biosynthetic process `http://purl.obolibrary.org/obo/GO_0170077`
+
+#### Added
+- Class: [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32390"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-10T18:46:59Z" 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170077" 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of coenzyme A." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42000723" 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of coenzyme A biosynthetic process" 
+
+- [negative regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0170077) SubClassOf [regulation of coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0080020) 
+
+
 ### negative regulation of cristae formation `http://purl.obolibrary.org/obo/GO_1903851`
 #### Removed
 - [negative regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903851) SubClassOf [negative regulation of organelle organization](http://purl.obolibrary.org/obo/GO_0010639) 
@@ -935,6 +1033,30 @@
 #### Removed
 - [obsolete envenomation resulting in slowing of activation kinetics of voltage-gated potassium channel](http://purl.obolibrary.org/obo/GO_0044563) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) 
 
+
+
+### organophosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0090407`
+
+#### Added
+- [organophosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0090407) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [organophosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0090407) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### organophosphate catabolic process `http://purl.obolibrary.org/obo/GO_0046434`
+
+#### Added
+- [organophosphate catabolic process](http://purl.obolibrary.org/obo/GO_0046434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [organophosphate catabolic process](http://purl.obolibrary.org/obo/GO_0046434) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### organophosphate metabolic process `http://purl.obolibrary.org/obo/GO_0019637`
+
+#### Added
+- [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
 ### outward rectifier potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_0140628`
@@ -1038,6 +1160,42 @@
 
 - [riboflavin kinase activity](http://purl.obolibrary.org/obo/GO_0008531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: riboflavin + ATP = FMN + ADP + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14357" 
+
+
+### substrate localization to autophagosome `http://purl.obolibrary.org/obo/GO_0061753`
+#### Removed
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The localization process by which an autophagic substrate is delivered to a forming autophagosome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23545414" 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [label](http://www.w3.org/2000/01/rdf-schema#label) "substrate localization to autophagosome" 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) SubClassOf [establishment of localization in cell](http://purl.obolibrary.org/obo/GO_0051649) 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [autophagosome assembly](http://purl.obolibrary.org/obo/GO_0000045) 
+
+#### Added
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32304"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The localization process by which an autophagic substrate is delivered to a forming autophagosome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23545414" 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term: localization terms that are not transport terms are largely uninformative about biological process. The intended biology in every observed use is better captured by a specific selective-autophagy term (e.g. mitophagy, glycophagy, reticulophagy). See the annotation review at https://github.com/geneontology/go-annotation/issues/6497 for per-annotation transfer recommendations." 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete substrate localization to autophagosome" 
 
 
 ### subtelomeric heterochromatin formation `http://purl.obolibrary.org/obo/GO_0031509`
