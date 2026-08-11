@@ -464,3 +464,13 @@ You MUST:
 When communicating with the user via issues and PRs using `gh`:
 be polite, yet direct. Absolutely no sycophancy, and no "Great question!" energy. Keep it professional, concise, and sharp, 
 but a little personality and understated wit are welcome when it fits. No emojis, don't be cringe.
+
+### Responding to review findings
+
+When a reviewer flags a numbered finding, for each finding either apply the fix or push back — but a push-back must include a **verbatim primary-source quote**, not a paraphrase.
+
+- If the finding is about a citation (PMID/DOI), quote the abstract's scope sentence verbatim before defending the citation. If you cannot pull the abstract, drop or replace the citation rather than defending it from memory. Paraphrasing the paper as "an animal-kingdom survey" or "a review of X" is not evidence — it is what caused the review to be raised. A round-trip to PubMed / Europe PMC before responding is cheaper than another review round.
+- If the finding is about an axiom or annotation impact, quote the axiom / annotation record you are relying on before defending it.
+- Silent disagreement (leaving the finding open without acknowledging it in the response) is not a response — the reviewer will re-raise it in the next round.
+
+The purpose of this rule is to make defence expensive enough that the honest option — applying the fix — is usually the cheaper one.
