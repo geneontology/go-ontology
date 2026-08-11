@@ -13,11 +13,8 @@ http://purl.obolibrary.org/obo/GO_0032953	regulation of (1->3)-beta-D-glucan bio
 http://purl.obolibrary.org/obo/GO_0060917	regulation of (1->6)-beta-D-glucan biosynthetic process	http://purl.obolibrary.org/obo/GO_0006078	(1->6)-beta-D-glucan biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902272	regulation of (R)-carnitine transmembrane transport	http://purl.obolibrary.org/obo/GO_1902270	(R)-carnitine transmembrane transport
 http://purl.obolibrary.org/obo/GO_0106107	regulation of (R)-mevalonic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1901737	(R)-mevalonic acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_1900941	regulation of (Z)-nonadeca-1,14-diene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900879	(Z)-nonadeca-1,14-diene biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902646	regulation of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate biosynthetic process	http://purl.obolibrary.org/obo/GO_1902635	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate biosynthetic process
 http://purl.obolibrary.org/obo/GO_1902641	regulation of 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate catabolic process	http://purl.obolibrary.org/obo/GO_1902634	1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate catabolic process
-http://purl.obolibrary.org/obo/GO_1900956	regulation of 17-methylnonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900883	17-methylnonadec-1-ene biosynthetic process
-http://purl.obolibrary.org/obo/GO_1900950	regulation of 18-methylnonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900881	18-methylnonadec-1-ene biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905868	regulation of 3'-UTR-mediated mRNA stabilization	http://purl.obolibrary.org/obo/GO_0070935	3'-UTR-mediated mRNA stabilization
 http://purl.obolibrary.org/obo/GO_0060634	regulation of 4,6-pyruvylated galactose residue biosynthetic process	http://purl.obolibrary.org/obo/GO_0051072	4,6-pyruvylated galactose residue biosynthetic process
 http://purl.obolibrary.org/obo/GO_0140971	regulation of AIM2 inflammasome complex assembly	http://purl.obolibrary.org/obo/GO_0140970	AIM2 inflammasome complex assembly
@@ -758,7 +755,7 @@ http://purl.obolibrary.org/obo/GO_1905443	regulation of clathrin coat assembly	h
 http://purl.obolibrary.org/obo/GO_2000369	regulation of clathrin-dependent endocytosis	http://purl.obolibrary.org/obo/GO_0072583	clathrin-dependent endocytosis
 http://purl.obolibrary.org/obo/GO_0070796	regulation of cleistothecium development	http://purl.obolibrary.org/obo/GO_0070791	cleistothecium development
 http://purl.obolibrary.org/obo/GO_0050818	regulation of coagulation	http://purl.obolibrary.org/obo/GO_0050817	coagulation
-http://purl.obolibrary.org/obo/GO_0106064	regulation of cobalamin metabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
+http://purl.obolibrary.org/obo/GO_0106064	regulation of cobalamin catabolic process	http://purl.obolibrary.org/obo/GO_0009235	cobalamin metabolic process
 http://purl.obolibrary.org/obo/GO_0080020	regulation of coenzyme A biosynthetic process	http://purl.obolibrary.org/obo/GO_0015937	coenzyme A biosynthetic process
 http://purl.obolibrary.org/obo/GO_1900288	regulation of coenzyme F420-dependent bicyclic nitroimidazole catabolic process	http://purl.obolibrary.org/obo/GO_0052799	coenzyme F420-dependent bicyclic nitroimidazole catabolic process
 http://purl.obolibrary.org/obo/GO_0120161	regulation of cold-induced thermogenesis	http://purl.obolibrary.org/obo/GO_0106106	cold-induced thermogenesis
@@ -793,7 +790,6 @@ http://purl.obolibrary.org/obo/GO_1903433	regulation of constitutive secretory p
 http://purl.obolibrary.org/obo/GO_1901232	regulation of convergent extension involved in axis elongation	http://purl.obolibrary.org/obo/GO_0060028	convergent extension involved in axis elongation
 http://purl.obolibrary.org/obo/GO_1904103	regulation of convergent extension involved in gastrulation	http://purl.obolibrary.org/obo/GO_0060027	convergent extension involved in gastrulation
 http://purl.obolibrary.org/obo/GO_1902311	regulation of copper ion transmembrane transport	http://purl.obolibrary.org/obo/GO_0035434	copper ion transmembrane transport
-http://purl.obolibrary.org/obo/GO_1900861	regulation of cordyol C biosynthetic process	http://purl.obolibrary.org/obo/GO_1900799	cordyol C biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905715	regulation of cornification	http://purl.obolibrary.org/obo/GO_0070268	cornification
 http://purl.obolibrary.org/obo/GO_2000846	regulation of corticosteroid hormone secretion	http://purl.obolibrary.org/obo/GO_0035930	corticosteroid hormone secretion
 http://purl.obolibrary.org/obo/GO_2000852	regulation of corticosterone secretion	http://purl.obolibrary.org/obo/GO_0035934	corticosterone secretion
@@ -826,6 +822,7 @@ http://purl.obolibrary.org/obo/GO_0042268	regulation of cytolysis	http://purl.ob
 http://purl.obolibrary.org/obo/GO_0010603	regulation of cytoplasmic mRNA processing body assembly	http://purl.obolibrary.org/obo/GO_0033962	P-body assembly
 http://purl.obolibrary.org/obo/GO_0010937	regulation of cytoplasmic microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0010938	cytoplasmic microtubule depolymerization
 http://purl.obolibrary.org/obo/GO_0039531	regulation of cytoplasmic pattern recognition receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0002753	cytoplasmic pattern recognition receptor signaling pathway
+http://purl.obolibrary.org/obo/GO_0062028	regulation of cytoplasmic stress granule assembly	http://purl.obolibrary.org/obo/GO_0034063	cytoplasmic stress granule assembly
 http://purl.obolibrary.org/obo/GO_2000765	regulation of cytoplasmic translation	http://purl.obolibrary.org/obo/GO_0002181	cytoplasmic translation
 http://purl.obolibrary.org/obo/GO_1900247	regulation of cytoplasmic translational elongation	http://purl.obolibrary.org/obo/GO_0002182	cytoplasmic translational elongation
 http://purl.obolibrary.org/obo/GO_1903270	regulation of cytoplasmic translational elongation through polyproline stretches	http://purl.obolibrary.org/obo/GO_0097622	cytoplasmic translational elongation through polyproline stretches
@@ -880,7 +877,6 @@ http://purl.obolibrary.org/obo/GO_0050793	regulation of developmental process	ht
 http://purl.obolibrary.org/obo/GO_1905613	regulation of developmental vegetative growth	http://purl.obolibrary.org/obo/GO_0080186	developmental vegetative growth
 http://purl.obolibrary.org/obo/GO_1900480	regulation of diacylglycerol biosynthetic process	http://purl.obolibrary.org/obo/GO_0006651	diacylglycerol biosynthetic process
 http://purl.obolibrary.org/obo/GO_0044058	regulation of digestive system process	http://purl.obolibrary.org/obo/GO_0022600	digestive system process
-http://purl.obolibrary.org/obo/GO_1900655	regulation of diorcinol biosynthetic process	http://purl.obolibrary.org/obo/GO_1900572	diorcinol biosynthetic process
 http://purl.obolibrary.org/obo/GO_2001148	regulation of dipeptide transmembrane transport	http://purl.obolibrary.org/obo/GO_0035442	dipeptide transmembrane transport
 http://purl.obolibrary.org/obo/GO_0090089	regulation of dipeptide transport	http://purl.obolibrary.org/obo/GO_0042938	dipeptide transport
 http://purl.obolibrary.org/obo/GO_1903354	regulation of distal tip cell migration	http://purl.obolibrary.org/obo/GO_0097628	distal tip cell migration
@@ -1412,7 +1408,6 @@ http://purl.obolibrary.org/obo/GO_1903329	regulation of iron-sulfur cluster asse
 http://purl.obolibrary.org/obo/GO_1900506	regulation of iron-sulfur-molybdenum cofactor assembly	http://purl.obolibrary.org/obo/GO_0044593	iron-sulfur-molybdenum cofactor assembly
 http://purl.obolibrary.org/obo/GO_0010322	regulation of isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway	http://purl.obolibrary.org/obo/GO_0019288	isopentenyl diphosphate biosynthetic process, methylerythritol phosphate pathway
 http://purl.obolibrary.org/obo/GO_2001210	regulation of isopentenyl diphosphate biosynthetic process, mevalonate pathway	http://purl.obolibrary.org/obo/GO_0019287	isopentenyl diphosphate biosynthetic process, mevalonate pathway
-http://purl.obolibrary.org/obo/GO_1900947	regulation of isoprene biosynthetic process	http://purl.obolibrary.org/obo/GO_0043612	isoprene biosynthetic process
 http://purl.obolibrary.org/obo/GO_0019747	regulation of isoprenoid metabolic process	http://purl.obolibrary.org/obo/GO_0006720	isoprenoid metabolic process
 http://purl.obolibrary.org/obo/GO_0045191	regulation of isotype switching	http://purl.obolibrary.org/obo/GO_0045190	isotype switching
 http://purl.obolibrary.org/obo/GO_0048296	regulation of isotype switching to IgA isotypes	http://purl.obolibrary.org/obo/GO_0048290	isotype switching to IgA isotypes
@@ -1889,7 +1884,6 @@ http://purl.obolibrary.org/obo/GO_1901222	regulation of non-canonical NF-kappaB 
 http://purl.obolibrary.org/obo/GO_2000050	regulation of non-canonical Wnt signaling pathway	http://purl.obolibrary.org/obo/GO_0035567	non-canonical Wnt signaling pathway
 http://purl.obolibrary.org/obo/GO_1902855	regulation of non-motile cilium assembly	http://purl.obolibrary.org/obo/GO_1905515	non-motile cilium assembly
 http://purl.obolibrary.org/obo/GO_0002619	regulation of non-professional antigen presenting cell antigen processing and presentation	http://purl.obolibrary.org/obo/GO_0002473	non-professional antigen presenting cell antigen processing and presentation
-http://purl.obolibrary.org/obo/GO_1900935	regulation of nonadec-1-ene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900877	nonadec-1-ene biosynthetic process
 http://purl.obolibrary.org/obo/GO_0014061	regulation of norepinephrine secretion	http://purl.obolibrary.org/obo/GO_0048243	norepinephrine secretion
 http://purl.obolibrary.org/obo/GO_0051621	regulation of norepinephrine uptake	http://purl.obolibrary.org/obo/GO_0051620	norepinephrine uptake
 http://purl.obolibrary.org/obo/GO_0033262	regulation of nuclear cell cycle DNA replication	http://purl.obolibrary.org/obo/GO_0033260	nuclear DNA replication
@@ -1916,7 +1910,6 @@ http://purl.obolibrary.org/obo/GO_2000819	regulation of nucleotide-excision repa
 http://purl.obolibrary.org/obo/GO_1903353	regulation of nucleus organization	http://purl.obolibrary.org/obo/GO_0006997	nucleus organization
 http://purl.obolibrary.org/obo/GO_0045477	regulation of nurse cell apoptotic process	http://purl.obolibrary.org/obo/GO_0045476	nurse cell apoptotic process
 http://purl.obolibrary.org/obo/GO_1900698	regulation of o-orsellinic acid biosynthetic process	http://purl.obolibrary.org/obo/GO_1900584	o-orsellinic acid biosynthetic process
-http://purl.obolibrary.org/obo/GO_1900914	regulation of octadecene biosynthetic process	http://purl.obolibrary.org/obo/GO_1900682	octadecene biosynthetic process
 http://purl.obolibrary.org/obo/GO_2000125	regulation of octopamine or tyramine signaling pathway	http://purl.obolibrary.org/obo/GO_0007211	octopamine or tyramine signaling pathway
 http://purl.obolibrary.org/obo/GO_2000128	regulation of octopamine signaling pathway	http://purl.obolibrary.org/obo/GO_0071927	octopamine signaling pathway
 http://purl.obolibrary.org/obo/GO_1901329	regulation of odontoblast differentiation	http://purl.obolibrary.org/obo/GO_0071895	odontoblast differentiation
@@ -1965,7 +1958,6 @@ http://purl.obolibrary.org/obo/GO_0051341	regulation of oxidoreductase activity	
 http://purl.obolibrary.org/obo/GO_2000374	regulation of oxygen metabolic process	http://purl.obolibrary.org/obo/GO_0072592	oxygen metabolic process
 http://purl.obolibrary.org/obo/GO_0140667	regulation of oxytocin production	http://purl.obolibrary.org/obo/GO_0036162	oxytocin production
 http://purl.obolibrary.org/obo/GO_1900744	regulation of p38MAPK cascade	http://purl.obolibrary.org/obo/GO_0038066	p38MAPK cascade
-http://purl.obolibrary.org/obo/GO_0106393	regulation of palmitic acid catabolic process	http://purl.obolibrary.org/obo/GO_1900534	palmitic acid catabolic process
 http://purl.obolibrary.org/obo/GO_2000226	regulation of pancreatic A cell differentiation	http://purl.obolibrary.org/obo/GO_0003310	pancreatic A cell differentiation
 http://purl.obolibrary.org/obo/GO_1902276	regulation of pancreatic amylase secretion	http://purl.obolibrary.org/obo/GO_0036395	pancreatic amylase secretion
 http://purl.obolibrary.org/obo/GO_0090186	regulation of pancreatic juice secretion	http://purl.obolibrary.org/obo/GO_0030157	pancreatic juice secretion
@@ -2559,7 +2551,6 @@ http://purl.obolibrary.org/obo/GO_1901339	regulation of store-operated calcium c
 http://purl.obolibrary.org/obo/GO_2001256	regulation of store-operated calcium entry	http://purl.obolibrary.org/obo/GO_0002115	store-operated calcium entry
 http://purl.obolibrary.org/obo/GO_0060542	regulation of strand invasion	http://purl.obolibrary.org/obo/GO_0042148	DNA strand invasion
 http://purl.obolibrary.org/obo/GO_0051492	regulation of stress fiber assembly	http://purl.obolibrary.org/obo/GO_0043149	stress fiber assembly
-http://purl.obolibrary.org/obo/GO_0062028	regulation of stress granule assembly	http://purl.obolibrary.org/obo/GO_0034063	stress granule assembly
 http://purl.obolibrary.org/obo/GO_1903853	regulation of stress response to copper ion	http://purl.obolibrary.org/obo/GO_1990169	stress response to copper ion
 http://purl.obolibrary.org/obo/GO_0032872	regulation of stress-activated MAPK cascade	http://purl.obolibrary.org/obo/GO_0051403	stress-activated MAPK cascade
 http://purl.obolibrary.org/obo/GO_0070302	regulation of stress-activated protein kinase signaling cascade	http://purl.obolibrary.org/obo/GO_0031098	stress-activated protein kinase signaling cascade
@@ -2620,7 +2611,6 @@ http://purl.obolibrary.org/obo/GO_2000238	regulation of tRNA export from nucleus
 http://purl.obolibrary.org/obo/GO_1903326	regulation of tRNA metabolic process	http://purl.obolibrary.org/obo/GO_0006399	tRNA metabolic process
 http://purl.obolibrary.org/obo/GO_0110002	regulation of tRNA methylation	http://purl.obolibrary.org/obo/GO_0030488	tRNA methylation
 http://purl.obolibrary.org/obo/GO_2000235	regulation of tRNA processing	http://purl.obolibrary.org/obo/GO_0008033	tRNA processing
-http://purl.obolibrary.org/obo/GO_1900974	regulation of tatiopterin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900870	tatiopterin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0062089	regulation of taurine biosynthetic process	http://purl.obolibrary.org/obo/GO_0042412	taurine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0075256	regulation of teliospore formation	http://purl.obolibrary.org/obo/GO_0075255	teliospore formation
 http://purl.obolibrary.org/obo/GO_0075276	regulation of telium development	http://purl.obolibrary.org/obo/GO_0075275	telium development
