@@ -8,10 +8,18 @@ description: >
   cargo cannot be pinned to a single well-defined class (for example, a
   carrier that moves either proteins or RNAs), but the transport
   biological process is defined. When the cargo IS a single well-defined
-  class, use molecular_carrier_activity.yaml (Pattern 1) or
-  molecular_chaperone_activity.yaml (Pattern 2) instead. Prototype:
+  class, use molecular_carrier_activity.yaml instead. Prototype:
   GO:0140142 nucleocytoplasmic carrier activity (part_of
   GO:0006913 nucleocytoplasmic transport).
+
+  Note on the label template: '%s carrier activity' is a naming
+  convention rather than a mechanical substitution. Filling the sole
+  current instance mechanically gives 'nucleocytoplasmic transport
+  carrier activity', where the curated label is
+  'nucleocytoplasmic carrier activity' - the trailing 'transport' from
+  the process label is dropped. This is analogous to
+  chemical_transport.yaml (where CHEBI labels are similarly not always
+  substituted verbatim into the term name).
 
 classes:
   molecular carrier activity: 'GO:0140104'

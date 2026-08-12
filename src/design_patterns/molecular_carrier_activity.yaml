@@ -5,12 +5,28 @@ pattern_iri: http://purl.obolibrary.org/obo/go/patterns/molecular_carrier_activi
 description: >
   Molecular carrier activities differentiated by cargo. A carrier binds a
   specific chemical entity or protein and moves with it to an acceptor
-  molecule or a specific location. Label variant: '%s carrier activity'.
-  For carriers whose acceptor is stipulated to be a protein, curators use
-  the label '%s chaperone activity' - see the sibling pattern
-  molecular_chaperone_activity.yaml. When the cargo cannot be pinned to a
-  single class (heterogeneous cargo) but the transport process is defined,
-  use molecular_carrier_activity_by_process.yaml instead.
+  molecule or a specific location.
+
+  Label conventions (editorial, not encoded in the axiom):
+    - Default label form: '%s carrier activity' (e.g. lipid carrier activity,
+      oxygen carrier activity, lipoprotein carrier activity).
+    - For carriers whose acceptor is a protein (metal chaperones, histone
+      chaperones, etc), curators use '%s chaperone activity' instead
+      (e.g. metallochaperone activity, copper chaperone activity,
+      iron chaperone activity, iron-sulfur cluster chaperone activity,
+      zinc chaperone activity, nickel chaperone activity).
+    - Exception: GO:0140597 keeps the label 'protein carrier activity'
+      rather than 'protein chaperone activity' to avoid a collision with
+      GO:0044183 protein folding chaperone activity, which is a different
+      sense of "chaperone" (folding assistance rather than cargo delivery).
+
+  The carrier/chaperone distinction is editorial only - the equivalence
+  axiom is the same for both. Chaperone and non-chaperone terms are
+  both listed in the companion TSV.
+
+  When the cargo cannot be pinned to a single class (heterogeneous cargo)
+  but the transport process is defined, use
+  molecular_carrier_activity_by_process.yaml instead.
 
 classes:
   molecular carrier activity: 'GO:0140104'
