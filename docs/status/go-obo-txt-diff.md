@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-08-11 05:51:28.562191393 +0000
-+++ go.obo	2026-08-11 06:05:00.515897726 +0000
+--- go-lastrelease.obo	2026-08-12 06:02:03.354609715 +0000
++++ go.obo	2026-08-12 06:15:48.366555953 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-08-11
++data-version: releases/2026-08-12
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-08-11" xsd:string
++property_value: owl:versionInfo "2026-08-12" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -77,7 +77,31 @@
  
  [Term]
  id: GO:0005489
-@@ -77490,11 +77497,9 @@
+@@ -66958,6 +66965,7 @@
+ is_a: GO:0019406 ! hexitol biosynthetic process
+ property_value: skos:narrowMatch MetaCyc:PWY-5054
+ property_value: skos:narrowMatch MetaCyc:PWY-5530
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32269" xsd:anyURI
+ 
+ [Term]
+ id: GO:0006062
+@@ -73107,6 +73115,7 @@
+ xref: Reactome:R-HSA-71288 "Creatine metabolism"
+ is_a: GO:0006575 ! modified amino acid metabolic process
+ is_a: GO:0032787 ! monocarboxylic acid metabolic process
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32279" xsd:anyURI
+ 
+ [Term]
+ id: GO:0006601
+@@ -73148,6 +73157,7 @@
+ synonym: "phosphocreatine metabolism" EXACT []
+ is_a: GO:0006575 ! modified amino acid metabolic process
+ is_a: GO:0019637 ! organophosphate metabolic process
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32279" xsd:anyURI
+ 
+ [Term]
+ id: GO:0006604
+@@ -77490,11 +77500,9 @@
  def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a mitochondrial membrane, either of the lipid bilayer surrounding a mitochondrion." [GOC:ai, GOC:dph, GOC:jl, GOC:mah]
  synonym: "mitochondrial membrane organisation" EXACT []
  synonym: "mitochondrial membrane organization and biogenesis" RELATED [GOC:mah]
@@ -91,7 +115,7 @@
  
  [Term]
  id: GO:0007007
-@@ -88071,24 +88076,24 @@
+@@ -88071,24 +88079,24 @@
  
  [Term]
  id: GO:0008379
@@ -122,7 +146,7 @@
  
  [Term]
  id: GO:0008380
-@@ -90289,7 +90294,7 @@
+@@ -90289,7 +90297,7 @@
  id: GO:0008531
  name: riboflavin kinase activity
  namespace: molecular_function
@@ -131,7 +155,7 @@
  synonym: "ATP:riboflavin 5'-phosphotransferase activity" RELATED [EC:2.7.1.26]
  synonym: "FK" RELATED [EC:2.7.1.26]
  synonym: "flavokinase activity" RELATED [EC:2.7.1.26]
-@@ -90305,6 +90310,7 @@
+@@ -90305,6 +90313,7 @@
  property_value: skos:exactMatch EC:2.7.1.26
  property_value: skos:exactMatch RHEA:14357
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -139,7 +163,7 @@
  
  [Term]
  id: GO:0008532
-@@ -90754,19 +90760,17 @@
+@@ -90754,19 +90763,17 @@
  
  [Term]
  id: GO:0008566
@@ -164,7 +188,7 @@
  
  [Term]
  id: GO:0008567
-@@ -97323,8 +97327,8 @@
+@@ -97323,8 +97330,8 @@
  xref: RHEA:58724
  xref: RHEA:58728
  xref: RHEA:62612
@@ -174,7 +198,7 @@
  property_value: skos:exactMatch RHEA:58728
  property_value: skos:narrowMatch RHEA:58724
  property_value: skos:narrowMatch RHEA:62612
-@@ -100802,19 +100806,20 @@
+@@ -100802,19 +100809,20 @@
  
  [Term]
  id: GO:0009257
@@ -200,7 +224,7 @@
  
  [Term]
  id: GO:0009258
-@@ -159257,7 +159262,7 @@
+@@ -159257,7 +159265,7 @@
  synonym: "dissimilatory sulphate reduction" EXACT []
  xref: MetaCyc:DISSULFRED-PWY
  xref: Wikipedia:Sulfate-reducing_microorganism
@@ -209,7 +233,7 @@
  is_a: GO:0009061 ! anaerobic respiration
  relationship: has_part GO:0018551 ! dissimilatory sulfite reductase (NADH) activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26582" xsd:anyURI
-@@ -159772,11 +159777,12 @@
+@@ -159772,11 +159780,12 @@
  id: GO:0019464
  name: glycine decarboxylation via glycine cleavage system
  namespace: biological_process
@@ -223,7 +247,7 @@
  
  [Term]
  id: GO:0019465
-@@ -161886,10 +161892,12 @@
+@@ -161886,10 +161895,12 @@
  name: organophosphate metabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways involving organophosphates, any phosphate-containing organic compound." [ISBN:0198506732]
@@ -236,7 +260,7 @@
  
  [Term]
  id: GO:0019638
-@@ -162018,6 +162026,7 @@
+@@ -162018,6 +162029,7 @@
  xref: MetaCyc:PWY-1622
  xref: MetaCyc:PWY-1861
  is_a: GO:0046292 ! formaldehyde metabolic process
@@ -244,7 +268,7 @@
  property_value: skos:narrowMatch MetaCyc:P185-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-1622
  property_value: skos:narrowMatch MetaCyc:PWY-1861
-@@ -162409,11 +162418,13 @@
+@@ -162409,11 +162421,13 @@
  is_a: GO:0006536 ! glutamate metabolic process
  is_a: GO:0006541 ! L-glutamine metabolic process
  is_a: GO:0019740 ! nitrogen utilization
@@ -258,7 +282,7 @@
  
  [Term]
  id: GO:0019677
-@@ -164637,14 +164648,14 @@
+@@ -164637,14 +164651,14 @@
  name: obsolete diaminopimelate biosynthetic process
  namespace: biological_process
  def: "OBSOLETE. The chemical reactions and pathways resulting in the formation of diaminopimelate, both as an intermediate in lysine biosynthesis and as a component (as meso-diaminopimelate) of the peptidoglycan of Gram-negative bacterial cell walls." [GOC:ma, ISBN:0198547684]
@@ -275,7 +299,7 @@
  
  [Term]
  id: GO:0019878
-@@ -188877,12 +188888,12 @@
+@@ -188877,12 +188891,12 @@
  synonym: "telomeric heterochromatin formation" RELATED []
  synonym: "telomeric silencing" EXACT [GOC:bf]
  is_a: GO:0140719 ! constitutive heterochromatin formation
@@ -289,7 +313,7 @@
  
  [Term]
  id: GO:0031510
-@@ -205354,9 +205365,9 @@
+@@ -205354,9 +205368,9 @@
  xref: Reactome:R-HSA-9906955 "MT-ND4 is translated"
  xref: Reactome:R-HSA-9926981 "Bam complex inserts Hbp into outer membrane"
  is_a: GO:0140597 ! protein carrier activity
@@ -300,7 +324,7 @@
  
  [Term]
  id: GO:0032978
-@@ -209311,7 +209322,7 @@
+@@ -209311,7 +209325,7 @@
  id: GO:0033353
  name: L-methionine cycle
  namespace: biological_process
@@ -309,7 +333,7 @@
  synonym: "activated methyl cycle" EXACT []
  synonym: "S-adenosylmethionine cycle" EXACT []
  synonym: "SAM cycle" EXACT []
-@@ -209319,6 +209330,7 @@
+@@ -209319,6 +209333,7 @@
  xref: MetyaCyc:PWY-6151
  is_a: GO:0006555 ! L-methionine metabolic process
  is_a: GO:0006575 ! modified amino acid metabolic process
@@ -317,7 +341,7 @@
  is_a: GO:0046128 ! purine ribonucleoside metabolic process
  is_a: GO:0046500 ! S-adenosylmethionine metabolic process
  is_a: GO:0050667 ! homocysteine metabolic process
-@@ -209326,6 +209338,7 @@
+@@ -209326,6 +209341,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31318" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31840" xsd:anyURI
@@ -325,7 +349,7 @@
  
  [Term]
  id: GO:0033354
-@@ -211302,9 +211315,11 @@
+@@ -211302,9 +211318,11 @@
  id: GO:0033528
  name: S-methylmethionine cycle
  namespace: biological_process
@@ -338,7 +362,7 @@
  
  [Term]
  id: GO:0033529
-@@ -239543,11 +239558,13 @@
+@@ -239543,11 +239561,13 @@
  
  [Term]
  id: GO:0035999
@@ -355,7 +379,7 @@
  xref: MetaCyc:1CMET2-PWY
  xref: MetaCyc:PWY-2201
  xref: MetaCyc:PWY-3841
-@@ -239558,6 +239575,7 @@
+@@ -239558,6 +239578,7 @@
  property_value: skos:narrowMatch MetaCyc:PWY-3841
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32289" xsd:anyURI
@@ -363,7 +387,7 @@
  created_by: bf
  creation_date: 2011-09-02T01:35:49Z
  
-@@ -240947,7 +240965,6 @@
+@@ -240947,7 +240968,6 @@
  name: very long-chain fatty-acyl-CoA catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of very long-chain fatty-acyl-CoAs, any derivative of coenzyme A in which the sulfhydryl group is in a thioester linkage with a very long-chain fatty-acyl group. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." [GOC:pm]
@@ -371,7 +395,7 @@
  synonym: "very long-chain fatty-acyl-CoA breakdown" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA catabolism" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA degradation" EXACT [GOC:bf]
-@@ -246714,6 +246731,7 @@
+@@ -246714,6 +246734,7 @@
  synonym: "IL-5-mediated signaling pathway" EXACT [GOC:bf]
  synonym: "interleukin-5-mediated signalling pathway" EXACT [GOC:mah]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -379,7 +403,7 @@
  created_by: bf
  creation_date: 2011-11-03T04:18:21Z
  
-@@ -248084,6 +248102,7 @@
+@@ -248084,6 +248105,7 @@
  synonym: "granulocyte colony-stimulating factor receptor signaling pathway" EXACT [GOC:nhn]
  synonym: "granulocyte colony-stimulating factor signalling pathway" RELATED [GOC:bf]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -387,7 +411,7 @@
  created_by: bf
  creation_date: 2012-05-14T01:30:28Z
  
-@@ -253176,6 +253195,7 @@
+@@ -253176,6 +253198,7 @@
  xref: MetaCyc:PWY490-3
  is_a: GO:0042126 ! nitrate metabolic process
  is_a: GO:0071941 ! nitrogen cycle metabolic process
@@ -395,7 +419,7 @@
  relationship: has_part GO:0015112 ! nitrate transmembrane transporter activity
  relationship: has_part GO:0098809 ! nitrite reductase activity
  property_value: skos:narrowMatch MetaCyc:PWY-381
-@@ -253184,6 +253204,7 @@
+@@ -253184,6 +253207,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27216" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30537" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
@@ -403,7 +427,7 @@
  
  [Term]
  id: GO:0042129
-@@ -259024,11 +259045,10 @@
+@@ -259024,11 +259048,10 @@
  def: "mitochondrial protein-containing complex localised in the mitochondrial inner membrane space that chaperones proteins to the TIM22 complex for insertion into the mitochondrial inner membrane." [GOC:vw]
  synonym: "mitochondrial intermembrane space protein transporter complex" RELATED []
  synonym: "small TIM complex" EXACT []
@@ -416,7 +440,16 @@
  
  [Term]
  id: GO:0042720
-@@ -278118,66 +278138,81 @@
+@@ -260158,7 +260181,7 @@
+ name: bipolar cell growth
+ namespace: biological_process
+ def: "The process in which a cell irreversibly increases in size along one axis through simultaneous polarized growth from opposite ends of a cell, resulting in morphogenesis of the cell." [GOC:vw]
+-comment: Bipolar cell growth refers to a change in both cell size and cell shape. For shape changes where cell size is not affected, consider instead the term 'establishment or maintenance of bipolar cell polarity resulting in cell shape ; GO:0061246' and its children.
++comment: Bipolar cell growth refers to a change in both cell size and cell shape. For shape changes where cell size is not affected, consider instead the term 'establishment or maintenance of bipolar cell polarity; GO:0061245' and its children.
+ synonym: "bipolar cell elongation" NARROW []
+ synonym: "bipolar growth" BROAD []
+ synonym: "polar cell elongation" RELATED []
+@@ -278118,66 +278141,81 @@
  
  [Term]
  id: GO:0044472
@@ -513,7 +546,7 @@
  created_by: jl
  creation_date: 2012-01-19T02:28:42Z
  
-@@ -278380,38 +278415,47 @@
+@@ -278380,38 +278418,47 @@
  
  [Term]
  id: GO:0044492
@@ -570,7 +603,7 @@
  created_by: jl
  creation_date: 2012-02-01T01:29:25Z
  
-@@ -279221,28 +279265,33 @@
+@@ -279221,28 +279268,33 @@
  
  [Term]
  id: GO:0044559
@@ -610,7 +643,7 @@
  created_by: jl
  creation_date: 2012-04-05T03:46:35Z
  
-@@ -279261,13 +279310,16 @@
+@@ -279261,13 +279313,16 @@
  
  [Term]
  id: GO:0044562
@@ -630,7 +663,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:01:49Z
  
-@@ -279281,7 +279333,6 @@
+@@ -279281,7 +279336,6 @@
  synonym: "voltage-dependence of activation shift (to the left)" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -638,7 +671,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:06:29Z
  
-@@ -279294,7 +279345,6 @@
+@@ -279294,7 +279348,6 @@
  synonym: "envenomation resulting in occlusion of the pore of voltage-gated potassium channel in other organism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -646,7 +679,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:14:24Z
  
-@@ -281044,49 +281094,58 @@
+@@ -281044,49 +281097,58 @@
  
  [Term]
  id: GO:0044733
@@ -714,7 +747,7 @@
  created_by: jl
  creation_date: 2012-11-06T16:05:58Z
  
-@@ -298885,23 +298944,27 @@
+@@ -298885,23 +298947,27 @@
  name: carboxylic acid biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of carboxylic acids, any organic acid containing one or more carboxyl (-COOH) groups." [ISBN:0198506732]
@@ -742,7 +775,7 @@
  
  [Term]
  id: GO:0046396
-@@ -299390,11 +299453,13 @@
+@@ -299390,11 +299456,13 @@
  name: organophosphate catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of organophosphates, any phosphate-containing organic compound." [GOC:ai]
@@ -756,7 +789,7 @@
  
  [Term]
  id: GO:0046435
-@@ -304916,16 +304981,18 @@
+@@ -304916,16 +304984,18 @@
  id: GO:0046923
  name: ER lumen protein retrieval receptor activity
  namespace: molecular_function
@@ -782,7 +815,7 @@
  
  [Term]
  id: GO:0046924
-@@ -350108,7 +350175,6 @@
+@@ -350108,7 +350178,6 @@
  synonym: "protein-mitochondrion membrane insertion" EXACT []
  is_a: GO:0007006 ! mitochondrial membrane organization
  is_a: GO:0051205 ! protein insertion into membrane
@@ -790,7 +823,7 @@
  is_a: GO:0072594 ! establishment of protein localization to organelle
  relationship: part_of GO:0070585 ! protein localization to mitochondrion
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
-@@ -358521,7 +358587,7 @@
+@@ -358521,7 +358590,7 @@
  id: GO:0051920
  name: peroxiredoxin activity
  namespace: molecular_function
@@ -799,7 +832,7 @@
  comment: Includes redox chemistry as part of the catalytic reaction (2 R'-SH = R'-S-S-R'), where R' refers to peroxiredoxin itself).
  synonym: "PRDX activity" EXACT []
  synonym: "Prx activity" EXACT []
-@@ -358529,16 +358595,13 @@
+@@ -358529,16 +358598,13 @@
  xref: Reactome:R-HSA-1222755 "Peroxynitrite is reduced to nitrite by Tpx"
  xref: Reactome:R-HSA-1500804 "Peroxynitrite is reduced by AhpE"
  xref: RHEA:10008
@@ -817,7 +850,113 @@
  
  [Term]
  id: GO:0051921
-@@ -390717,13 +390780,14 @@
+@@ -383918,22 +383984,25 @@
+ 
+ [Term]
+ id: GO:0061160
+-name: regulation of establishment of bipolar cell polarity regulating cell shape
++name: obsolete regulation of establishment of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." [GOC:dph, GOC:vw]
+-is_a: GO:0061172 ! regulation of establishment of bipolar cell polarity
+-is_a: GO:2000100 ! regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." [GOC:dph, GOC:vw]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-06-23T09:21:36Z
+ 
+ [Term]
+ id: GO:0061161
+-name: positive regulation of establishment of bipolar cell polarity regulating cell shape
++name: obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." [GOC:dph, GOC:vw]
+-is_a: GO:0061160 ! regulation of establishment of bipolar cell polarity regulating cell shape
+-is_a: GO:0061173 ! positive regulation of establishment of bipolar cell polarity
+-is_a: GO:2000247 ! positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." [GOC:dph, GOC:vw]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-06-23T09:26:45Z
+ 
+@@ -384867,11 +384936,13 @@
+ 
+ [Term]
+ id: GO:0061246
+-name: establishment or maintenance of bipolar cell polarity regulating cell shape
++name: obsolete establishment or maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." [GOC:dph, GOC:vw]
+-is_a: GO:0061245 ! establishment or maintenance of bipolar cell polarity
+-is_a: GO:0071963 ! establishment or maintenance of cell polarity regulating cell shape
++def: "OBSOLETE. Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." [GOC:dph, GOC:vw]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-08-23T09:46:01Z
+ 
+@@ -385528,10 +385599,13 @@
+ 
+ [Term]
+ id: GO:0061305
+-name: maintenance of bipolar cell polarity regulating cell shape
++name: obsolete maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." [GOC:dph, GOC:vw]
+-is_a: GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." [GOC:dph, GOC:vw]
++comment: The reason for obsoletion is that these terms were added in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-09-16T09:25:18Z
+ 
+@@ -386203,23 +386277,25 @@
+ 
+ [Term]
+ id: GO:0061361
+-name: positive regulation of maintenance of bipolar cell polarity regulating cell shape
++name: obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." [GOC:dph]
+-is_a: GO:2000115 ! regulation of maintenance of bipolar cell polarity regulating cell shape
+-is_a: GO:2000247 ! positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+-relationship: positively_regulates GO:0061305 ! maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." [GOC:dph]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-10-13T09:00:59Z
+ 
+ [Term]
+ id: GO:0061362
+-name: negative regulation of maintenance of bipolar cell polarity regulating cell shape
++name: obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." [GOC:dph]
+-is_a: GO:2000115 ! regulation of maintenance of bipolar cell polarity regulating cell shape
+-is_a: GO:2000750 ! negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+-relationship: negatively_regulates GO:0061305 ! maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." [GOC:dph]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-10-13T09:03:42Z
+ 
+@@ -390717,13 +390793,14 @@
  
  [Term]
  id: GO:0061753
@@ -836,7 +975,27 @@
  created_by: dph
  creation_date: 2015-11-20T11:14:22Z
  
-@@ -395986,10 +396050,12 @@
+@@ -391218,13 +391295,13 @@
+ 
+ [Term]
+ id: GO:0061796
+-name: membrane addition at site of mitotic cytokinesis
++name: obsolete membrane addition at site of mitotic cytokinesis
+ namespace: biological_process
+-def: "A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." [GOC:dph, GOC:vw]
+-is_a: GO:0007107 ! membrane addition at site of cytokinesis
+-is_a: GO:1902410 ! mitotic cytokinetic process
+-intersection_of: GO:0007107 ! membrane addition at site of cytokinesis
+-intersection_of: part_of GO:0000278 ! mitotic cell cycle
++def: "OBSOLETE. A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." [GOC:dph, GOC:vw]
++comment: The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31687" xsd:anyURI
++is_obsolete: true
++consider: GO:0006887
+ created_by: dph
+ creation_date: 2016-10-05T12:06:11Z
+ 
+@@ -395986,10 +396063,12 @@
  name: intracellular organelle lumen
  namespace: cellular_component
  def: "An organelle lumen that is part of an intracellular organelle." [GOC:mah]
@@ -849,7 +1008,7 @@
  
  [Term]
  id: GO:0070014
-@@ -399284,7 +399350,7 @@
+@@ -399284,7 +399363,7 @@
  name: inward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel." [GOC:mah]
@@ -858,7 +1017,7 @@
  relationship: negatively_regulates GO:0005242 ! inward rectifier potassium channel activity
  
  [Term]
-@@ -439115,8 +439181,10 @@
+@@ -439115,8 +439194,10 @@
  name: organophosphate biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the biosynthesis of deoxyribose phosphate, the phosphorylated sugar 2-deoxy-erythro-pentose." [GOC:chem_mtg]
@@ -869,7 +1028,7 @@
  created_by: tb
  creation_date: 2011-02-26T02:22:41Z
  
-@@ -452278,7 +452346,6 @@
+@@ -452278,7 +452359,6 @@
  xref: Reactome:R-HSA-5690046 "PPT2 hydrolyses PALMCoA to PALM"
  xref: Reactome:R-HSA-9027670 "ESTG binding induces ESR depalmitoylation"
  is_a: GO:0016787 ! hydrolase activity
@@ -877,7 +1036,7 @@
  created_by: dos
  creation_date: 2014-04-11T17:57:36Z
  
-@@ -461066,10 +461133,11 @@
+@@ -461066,10 +461146,11 @@
  xref: MetaCyc:R4-RXN
  xref: Reactome:R-HSA-1222526 "AhpC reduces peroxidated lipids"
  xref: RHEA:62628
@@ -890,7 +1049,7 @@
  
  [Term]
  id: GO:0102040
-@@ -475811,6 +475879,7 @@
+@@ -475811,6 +475892,7 @@
  synonym: "U2 snRNA adenosine m6 methyltransferase activity" EXACT []
  synonym: "U2 snRNA adenosine N6 methyltransferase activity" EXACT []
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -898,7 +1057,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27392" xsd:anyURI
  created_by: hjd
  creation_date: 2020-12-18T15:12:57Z
-@@ -479500,6 +479569,7 @@
+@@ -479500,6 +479582,7 @@
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -906,7 +1065,7 @@
  property_value: skos:exactMatch EC:2.1.1.346
  property_value: skos:exactMatch RHEA:52808
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13569" xsd:anyURI
-@@ -489129,12 +489199,13 @@
+@@ -489129,12 +489212,13 @@
  
  [Term]
  id: GO:0140357
@@ -921,7 +1080,7 @@
  created_by: pg
  creation_date: 2019-05-28T07:40:48Z
  
-@@ -490818,13 +490889,15 @@
+@@ -490818,13 +490902,15 @@
  
  [Term]
  id: GO:0140493
@@ -941,7 +1100,7 @@
  created_by: pg
  creation_date: 2020-07-10T08:39:22Z
  
-@@ -492215,7 +492288,7 @@
+@@ -492215,7 +492301,7 @@
  name: outward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel." [PMID:28108814]
@@ -950,7 +1109,7 @@
  relationship: negatively_regulates GO:0015271 ! outward rectifier potassium channel activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21157" xsd:anyURI
  created_by: pg
-@@ -494862,17 +494935,26 @@
+@@ -494862,17 +494948,26 @@
  name: thioredoxin-dependent peroxiredoxin activity
  namespace: molecular_function
  def: "Catalysis of the reaction: [thioredoxin]-dithiol + a hydroperoxide = [thioredoxin]-disulfide + an alcohol + H2O." [PMID:12707274, PMID:19820102, RHEA:62620]
@@ -977,7 +1136,7 @@
  created_by: pg
  creation_date: 2022-05-18T14:25:09Z
  
-@@ -504537,7 +504619,7 @@
+@@ -504537,7 +504632,7 @@
  synonym: "autophagy adaptor activity" EXACT []
  synonym: "selective autophagy receptor activity" EXACT []
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
@@ -986,7 +1145,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28283" xsd:anyURI
  created_by: rynl
  creation_date: 2025-02-10T16:57:01Z
-@@ -506186,6 +506268,28 @@
+@@ -506186,6 +506281,42 @@
  creation_date: 2026-03-23T21:12:37Z
  
  [Term]
@@ -1012,10 +1171,24 @@
 +creation_date: 2026-08-10T18:46:59Z
 +
 +[Term]
++id: GO:0170078
++name: Sca1 Ras guanyl-nucleotide exchange factor complex
++namespace: cellular_component
++def: "A protein complex found in Dictyostelium, containing the scaffold protein Sca1, the Ras guanine nucleotide exchange factors Aimless (RasGEFA) and RasGEFH, and PP2A components, which promotes RasC activation during chemotaxis." [PMID:20493808]
++synonym: "Sca1 RasGEF complex" BROAD []
++synonym: "Sca1 signaling complex" BROAD []
++synonym: "Sca1-Aimless signaling complex" BROAD []
++synonym: "Sca1-associated Ras guanyl-nucleotide exchange factor complex" BROAD []
++is_a: GO:1905742 ! Ras guanyl-nucleotide exchange factor complex
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32432" xsd:anyURI
++created_by: ew
++creation_date: 2026-08-11T17:42:26Z
++
++[Term]
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -550711,12 +550815,13 @@
+@@ -550711,12 +550842,13 @@
  
  [Term]
  id: GO:1902334
@@ -1030,7 +1203,7 @@
  created_by: tb
  creation_date: 2013-07-26T22:18:12Z
  
-@@ -578736,7 +578841,7 @@
+@@ -578736,7 +578868,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cristae formation." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:19279012]
  comment: AN example of this is PINK1 in human (Q9BXM7) in PMID:19279012 inferred from mutant phenotype
@@ -1039,7 +1212,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042407 ! cristae formation
  relationship: regulates GO:0042407 ! cristae formation
-@@ -578753,7 +578858,7 @@
+@@ -578753,7 +578885,7 @@
  synonym: "down-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "downregulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "inhibition of cristae formation" NARROW [GOC:TermGenie]
@@ -1048,7 +1221,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0042407 ! cristae formation
-@@ -578771,7 +578876,7 @@
+@@ -578771,7 +578903,7 @@
  synonym: "up regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of cristae formation" EXACT [GOC:TermGenie]
@@ -1057,7 +1230,90 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0042407 ! cristae formation
-@@ -650961,8 +651066,8 @@
+@@ -633383,14 +633515,13 @@
+ 
+ [Term]
+ id: GO:2000100
+-name: regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
++name: obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." [GOC:obol]
+-is_a: GO:2000099 ! regulation of establishment or maintenance of bipolar cell polarity
+-is_a: GO:2000769 ! regulation of establishment or maintenance of cell polarity regulating cell shape
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: regulates GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
+-relationship: regulates GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." [GOC:obol]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-09-14T04:44:57Z
+ 
+@@ -633605,13 +633736,13 @@
+ 
+ [Term]
+ id: GO:2000115
+-name: regulation of maintenance of bipolar cell polarity regulating cell shape
++name: obsolete regulation of maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." [GOC:obol]
+-is_a: GO:2000100 ! regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: regulates GO:0061305 ! maintenance of bipolar cell polarity regulating cell shape
+-relationship: regulates GO:0061305 ! maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." [GOC:obol]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: dph
+ creation_date: 2010-09-21T06:33:26Z
+ 
+@@ -635480,14 +635611,13 @@
+ 
+ [Term]
+ id: GO:2000247
+-name: positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
++name: obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." [GOC:obol]
+-is_a: GO:2000100 ! regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+-is_a: GO:2000771 ! positive regulation of establishment or maintenance of cell polarity regulating cell shape
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: positively_regulates GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
+-relationship: positively_regulates GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." [GOC:obol]
++comment: The reason for obsoletion is that these terms were added in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: vw
+ creation_date: 2010-11-11T11:39:34Z
+ 
+@@ -642623,14 +642753,13 @@
+ 
+ [Term]
+ id: GO:2000750
+-name: negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
++name: obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+ namespace: biological_process
+-def: "Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." [GOC:mah]
+-is_a: GO:2000100 ! regulation of establishment or maintenance of bipolar cell polarity regulating cell shape
+-is_a: GO:2000770 ! negative regulation of establishment or maintenance of cell polarity regulating cell shape
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: negatively_regulates GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
+-relationship: negatively_regulates GO:0061246 ! establishment or maintenance of bipolar cell polarity regulating cell shape
++def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." [GOC:mah]
++comment: The reason for obsoletion is that this term was made in error.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21217" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0061245
+ created_by: mah
+ creation_date: 2011-06-16T11:51:49Z
+ 
+@@ -650961,8 +651090,8 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenosine(37) in tRNA(Val) = S-adenosyl-L-homocysteine + N(6)-methyladenosine(37) in tRNA(Val) + H+." [PMID:19383770, RHEA:43160]
  xref: EC:2.1.1.223
  xref: RHEA:43160
@@ -1067,7 +1323,7 @@
  property_value: skos:exactMatch EC:2.1.1.223
  property_value: skos:exactMatch RHEA:43160
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31644" xsd:anyURI
-@@ -651420,6 +651525,274 @@
+@@ -651420,6 +651549,274 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  

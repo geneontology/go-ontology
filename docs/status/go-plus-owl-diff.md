@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-11/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-12/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-11" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-12" 
 
 
 ### (+)-larreatricin biosynthetic process `http://purl.obolibrary.org/obo/GO_1901709`
@@ -165,6 +165,16 @@
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-dependent protein-RNA complex displacement activity" 
 
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) SubClassOf [ATP-dependent activity, acting on RNA](http://purl.obolibrary.org/obo/GO_0008186) 
+
+
+### D-sorbitol biosynthetic process `http://purl.obolibrary.org/obo/GO_0006061`
+
+#### Added
+- [D-sorbitol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006061) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32269"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-sorbitol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006061) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895) 
+
+- [D-sorbitol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006061) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces](http://purl.obolibrary.org/obo/NCBITaxon_4895)) 
 
 
 ### ER lumen protein retrieval receptor activity `http://purl.obolibrary.org/obo/GO_0046923`
@@ -380,6 +390,39 @@
 - [S-methylmethionine cycle](http://purl.obolibrary.org/obo/GO_0033528) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
 
 
+### Sca1 Ras guanyl-nucleotide exchange factor complex `http://purl.obolibrary.org/obo/GO_0170078`
+
+#### Added
+- Class: [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32432"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-11T17:42:26Z" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "Sca1 RasGEF complex" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "Sca1 signaling complex" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "Sca1-Aimless signaling complex" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "Sca1-associated Ras guanyl-nucleotide exchange factor complex" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170078" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex found in Dictyostelium, containing the scaffold protein Sca1, the Ras guanine nucleotide exchange factors Aimless (RasGEFA) and RasGEFH, and PP2A components, which promotes RasC activation during chemotaxis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20493808" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) [label](http://www.w3.org/2000/01/rdf-schema#label) "Sca1 Ras guanyl-nucleotide exchange factor complex" 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) SubClassOf [Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_1905742) 
+
+- [Sca1 Ras guanyl-nucleotide exchange factor complex](http://purl.obolibrary.org/obo/GO_0170078) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Dictyostelia](http://purl.obolibrary.org/obo/NCBITaxon_33083) 
+
+
 ### Sec body `http://purl.obolibrary.org/obo/GO_7770092`
 
 #### Added
@@ -558,6 +601,14 @@
 - [biological_process](http://purl.obolibrary.org/obo/GO_0008150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." 
 
 
+### bipolar cell growth `http://purl.obolibrary.org/obo/GO_0042815`
+#### Removed
+- [bipolar cell growth](http://purl.obolibrary.org/obo/GO_0042815) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Bipolar cell growth refers to a change in both cell size and cell shape. For shape changes where cell size is not affected, consider instead the term 'establishment or maintenance of bipolar cell polarity resulting in cell shape ; GO:0061246' and its children." 
+
+#### Added
+- [bipolar cell growth](http://purl.obolibrary.org/obo/GO_0042815) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Bipolar cell growth refers to a change in both cell size and cell shape. For shape changes where cell size is not affected, consider instead the term 'establishment or maintenance of bipolar cell polarity; GO:0061245' and its children." 
+
+
 ### carboxylic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0046394`
 
 #### Added
@@ -629,6 +680,48 @@
 #### Removed
 - [collagen and cuticulin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040002) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
 
+
+
+### creatine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006601`
+
+#### Added
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [creatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006601) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### creatine metabolic process `http://purl.obolibrary.org/obo/GO_0006600`
+
+#### Added
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32279"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896)) 
+
+- [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
 
 
 ### cuticle development `http://purl.obolibrary.org/obo/GO_0042335`
@@ -1483,6 +1576,38 @@
 
 
 
+### obsolete establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061246`
+#### Removed
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0071963) 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### obsolete gentamycin catabolic process `http://purl.obolibrary.org/obo/GO_1901129`
 #### Removed
 - [obsolete gentamycin catabolic process](http://purl.obolibrary.org/obo/GO_1901129) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
@@ -1519,10 +1644,74 @@
 
 
 
+### obsolete maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061305`
+#### Removed
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) SubClassOf [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### obsolete maltoheptaose metabolic process `http://purl.obolibrary.org/obo/GO_2001122`
 #### Removed
 - [obsolete maltoheptaose metabolic process](http://purl.obolibrary.org/obo/GO_2001122) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
+
+
+### obsolete membrane addition at site of mitotic cytokinesis `http://purl.obolibrary.org/obo/GO_0061796`
+#### Removed
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane addition at site of mitotic cytokinesis" 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) EquivalentTo [membrane addition at site of cytokinesis](http://purl.obolibrary.org/obo/GO_0007107) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitotic cell cycle](http://purl.obolibrary.org/obo/GO_0000278)) 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [membrane addition at site of cytokinesis](http://purl.obolibrary.org/obo/GO_0007107) 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [mitotic cytokinetic process](http://purl.obolibrary.org/obo/GO_1902410) 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+#### Added
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31687"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exocytosis](http://purl.obolibrary.org/obo/GO_0006887) 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model." 
+
+- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete membrane addition at site of mitotic cytokinesis" 
 
 
 ### obsolete methanesulfonic acid metabolic process `http://purl.obolibrary.org/obo/GO_0018926`
@@ -1619,10 +1808,72 @@
 
 
 
+### obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000750`
+#### Removed
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [negative regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000770) 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### obsolete negative regulation of isoprene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900948`
 #### Removed
 - [obsolete negative regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900948) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
 
+
+
+### obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061362`
+#### Removed
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
+
+#### Added
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
 ### obsolete negative regulation of nonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900936`
@@ -1733,6 +1984,102 @@
 
 
 
+### obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061161`
+#### Removed
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [positive regulation of establishment of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061173) 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+
+### obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000247`
+#### Removed
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [positive regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000771) 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061361`
+#### Removed
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
+
+#### Added
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### obsolete positive regulation of nonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900937`
 #### Removed
 - [obsolete positive regulation of nonadec-1-ene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900937) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
@@ -1797,12 +2144,106 @@
 
 
 
+### obsolete regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061160`
+#### Removed
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [regulation of establishment of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061172) 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+
+### obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000100`
+#### Removed
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_2000099) 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000769) 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### obsolete regulation of isoprene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900947`
 #### Removed
 - [obsolete regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900947) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
 
 - [obsolete regulation of isoprene biosynthetic process](http://purl.obolibrary.org/obo/GO_1900947) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
 
+
+
+### obsolete regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000115`
+#### Removed
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305)) 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
+
+#### Added
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
 ### obsolete regulation of nonadec-1-ene biosynthetic process `http://purl.obolibrary.org/obo/GO_1900935`
@@ -2629,6 +3070,80 @@
 
 - [phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0034045) SubClassOf [bounding layer of](http://purl.obolibrary.org/obo/RO_0002007) some [phagophore assembly site](http://purl.obolibrary.org/obo/GO_0000407) 
 
+
+
+### phosphocreatine biosynthetic process `http://purl.obolibrary.org/obo/GO_0046314`
+
+#### Added
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [phosphocreatine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046314) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### phosphocreatine catabolic process `http://purl.obolibrary.org/obo/GO_0046315`
+
+#### Added
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [phosphocreatine catabolic process](http://purl.obolibrary.org/obo/GO_0046315) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
+
+
+### phosphocreatine metabolic process `http://purl.obolibrary.org/obo/GO_0006603`
+
+#### Added
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32279"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Viridiplantae](http://purl.obolibrary.org/obo/NCBITaxon_33090)) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Insecta](http://purl.obolibrary.org/obo/NCBITaxon_50557)) 
 
 
 ### plant anatomical entity `http://purl.obolibrary.org/obo/PO_0025131`
