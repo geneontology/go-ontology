@@ -1,0 +1,42 @@
+pattern_name: molecular carrier activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/molecular_carrier_activity.yaml
+
+description: >
+  Molecular carrier activities differentiated by cargo. A carrier binds a
+  specific chemical entity or protein and moves with it to an acceptor
+  molecule or a specific location. Label variant: '%s carrier activity'.
+  For carriers whose acceptor is stipulated to be a protein, curators use
+  the label '%s chaperone activity' - see the sibling pattern
+  molecular_chaperone_activity.yaml. When the cargo cannot be pinned to a
+  single class (heterogeneous cargo) but the transport process is defined,
+  use molecular_carrier_activity_by_process.yaml instead.
+
+classes:
+  molecular carrier activity: 'GO:0140104'
+  chemical entity: 'CHEBI:24431'
+  protein: 'PR:000000001'
+
+relations:
+  has primary input: 'RO:0004009'
+
+vars:
+  cargo: "'chemical entity' or 'protein'"
+
+name:
+  text: "%s carrier activity"
+  vars:
+    - cargo
+
+def:
+  text: "Directly binding to a specific %s and delivering it either to an acceptor molecule or to a specific location."
+  vars:
+    - cargo
+
+namespace:
+  text: 'molecular_function'
+
+equivalentTo:
+  text: "'molecular carrier activity' and ('has primary input' some %s)"
+  vars:
+    - cargo
