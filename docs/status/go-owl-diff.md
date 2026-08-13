@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-12/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-13/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-12" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-13" 
 
 
 ### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
@@ -99,6 +99,16 @@
 - [4'-phosphopantetheine phosphatase activity](http://purl.obolibrary.org/obo/GO_7770095) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
 
 
+### ABC-type cadmium transporter activity `http://purl.obolibrary.org/obo/GO_0015434`
+
+#### Added
+- [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20824"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [12132](http://rdf.rhea-db.org/12132) 
+
+- [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that RHEA:12132 represents both the ABC and the P-type cadmium transporters." 
+
+
 ### ATP-dependent folded protein transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_7770098`
 
 #### Added
@@ -175,6 +185,14 @@
 
 #### Added
 - [D-sorbitol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006061) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32269"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### D-xylose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0032866`
+
+#### Added
+- [D-xylose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0032866) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27881"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-xylose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0032866) SubClassOf [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) 
 
 
 ### ER lumen protein retrieval receptor activity `http://purl.obolibrary.org/obo/GO_0046923`
@@ -297,6 +315,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17237" 
 
 
+### L-arabinose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0032867`
+
+#### Added
+- [L-arabinose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0032867) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27881"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-arabinose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0032867) SubClassOf [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) 
+
+
 ### L-methionine cycle `http://purl.obolibrary.org/obo/GO_0033353`
 #### Removed
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cyclic series of interconversions involving S-adenosyl-L-homocysteine, L-homocysteine, L-methionine and S-adenosyl-L-methionine (SAM). Couples utilization of the methyl group of SAM with recycling of the homocysteinyl group and regeneration of L-methionine." 
@@ -325,6 +351,20 @@
 - [NADH-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0102039) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32372"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [NADH-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0102039) SubClassOf [peroxidase activity](http://purl.obolibrary.org/obo/GO_0004601) 
+
+
+### P-type cadmium transporter activity `http://purl.obolibrary.org/obo/GO_0008551`
+#### Removed
+- [P-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0008551) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12132" 
+
+- [P-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0008551) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [12132](http://rdf.rhea-db.org/12132) 
+
+#### Added
+- [P-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0008551) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20824"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [P-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0008551) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [12132](http://rdf.rhea-db.org/12132) 
+
+- [P-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0008551) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that RHEA:12132 represents both the ABC and the P-type cadmium transporters." 
 
 
 ### RNA (adenine-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_7770107`
@@ -537,6 +577,71 @@
 - [U6 snRNA (adenine(43)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120048) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
+### alcohol dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004022`
+#### Removed
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12785" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12785](http://rdf.rhea-db.org/12785) 
+
+
+
+### aldose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004032`
+#### Removed
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "alditol:NADP+ 1-oxidoreductase activity" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [ALDEHYDE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/ALDEHYDE-REDUCTASE-RXN) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.1.1.21](http://purl.uniprot.org/enzyme/1.1.1.21) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [12789](http://rdf.rhea-db.org/12789) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [R02820](http://www.kegg.jp/entry/R02820) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an alditol + NADP+ = an aldose + NADPH + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "aldose reductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldose reductase (NADPH) activity" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) 
+
+#### Added
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALDEHYDE-REDUCTASE-RXN" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12785" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "alditol:NADP+ 1-oxidoreductase activity" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "aldose reductase (NADPH) activity" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [ALDEHYDE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/ALDEHYDE-REDUCTASE-RXN) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.1.1.21](http://purl.uniprot.org/enzyme/1.1.1.21) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12785](http://rdf.rhea-db.org/12785) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12789](http://rdf.rhea-db.org/12789) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [R02820](http://www.kegg.jp/entry/R02820) 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an alditol + NAD(P)+ = an aldose + NAD(P)H + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "alditol:NAD(P)+ 1-oxidoreductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aldose reductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldose reductase [NAD(P)H] activity" 
+
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0018455) 
+
+
 ### ammonia assimilation cycle `http://purl.obolibrary.org/obo/GO_0019676`
 
 #### Added
@@ -612,6 +717,51 @@
 - [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) SubClassOf [response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770102) 
 
 
+### citrate-malate shuttle `http://purl.obolibrary.org/obo/GO_7770108`
+
+#### Added
+- Class: [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32353"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-12T10:08:31Z" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Citrate-malate_shuttle" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "citrate-malate cycle" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "malate-citrate shuttle" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "acetyl-CoA biosynthesis from citrate" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "non-canonical TCA cycle" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770108" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of transferring acetyl-CoA from the mitochondrion to the cytosol via citrate. Acetyl-CoA and oxaloacetate produced in the mitochondrion are condensed to citrate by citrate synthase; the citrate is exported to the cytosol by the mitochondrial citrate/malate antiporter in exchange for malate; in the cytosol, ATP citrate lyase cleaves the citrate back to acetyl-CoA and oxaloacetate; the oxaloacetate is then reduced to malate by cytosolic malate dehydrogenase, and the malate is imported back into the mitochondrion to complete the cycle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32414018" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35264789" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) [label](http://www.w3.org/2000/01/rdf-schema#label) "citrate-malate shuttle" 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has part](http://purl.obolibrary.org/obo/BFO_0000051) some [ATP citrate synthase activity](http://purl.obolibrary.org/obo/GO_0003878)) and ([has part](http://purl.obolibrary.org/obo/BFO_0000051) some [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060)) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) SubClassOf [acetyl-CoA metabolic process](http://purl.obolibrary.org/obo/GO_0006084) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) SubClassOf [citrate metabolic process](http://purl.obolibrary.org/obo/GO_0006101) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [ATP citrate synthase activity](http://purl.obolibrary.org/obo/GO_0003878) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [mitochondrial citrate transmembrane transport](http://purl.obolibrary.org/obo/GO_0006843) 
+
+- [citrate-malate shuttle](http://purl.obolibrary.org/obo/GO_7770108) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) 
+
+
 ### creatine metabolic process `http://purl.obolibrary.org/obo/GO_0006600`
 
 #### Added
@@ -624,6 +774,40 @@
 
 #### Added
 - [dissimilatory sulfate reduction](http://purl.obolibrary.org/obo/GO_0019420) SubClassOf [sulfur compound metabolic process](http://purl.obolibrary.org/obo/GO_0006790) 
+
+
+### ent-kaurene biosynthetic process `http://purl.obolibrary.org/obo/GO_0033332`
+#### Removed
+- [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) SubClassOf [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
+
+
+
+### ent-kaurene metabolic process `http://purl.obolibrary.org/obo/GO_0033331`
+#### Removed
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving ent-kaur-16-ene. Ent-kaurene is a tetracyclic diterpenoid that is a precursor of several plant isoprenoids, including gibberellins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17064690" 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "ent-kaurene metabolic process" 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) SubClassOf [terpene metabolic process](http://purl.obolibrary.org/obo/GO_0042214) 
+
+#### Added
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/28120"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving ent-kaur-16-ene. Ent-kaurene is a tetracyclic diterpenoid that is a precursor of several plant isoprenoids, including gibberellins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17064690" 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ent-kaurene metabolic process" 
 
 
 ### establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061246`
@@ -761,6 +945,12 @@
 
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62632" 
 
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:69412" 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:69651" 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76731" 
+
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
 
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "thiol peroxidase activity" 
@@ -770,6 +960,12 @@
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.11.1.27](http://purl.uniprot.org/enzyme/1.11.1.27) 
 
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [62632](http://rdf.rhea-db.org/62632) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [69412](http://rdf.rhea-db.org/69412) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [69651](http://rdf.rhea-db.org/69651) 
+
+- [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76731](http://rdf.rhea-db.org/76731) 
 
 - [glutathione-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770101) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a hydroperoxide + 2 glutathione = an alcohol + glutathione disulfide + H2O." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:62632" 
@@ -1043,6 +1239,12 @@
 - [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
 
 - [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete mitochondrial protein-transporting ATPase activity" 
+
+
+### momilactone-A synthase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0102960`
+#### Removed
+- [momilactone-A synthase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0102960) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [25363](http://rdf.rhea-db.org/25363) 
+
 
 
 ### mycoredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_7770100`
