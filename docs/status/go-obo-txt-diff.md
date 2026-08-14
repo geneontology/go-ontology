@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-08-13 06:01:53.625949427 +0000
-+++ go.obo	2026-08-13 06:15:44.379554788 +0000
+--- go-lastrelease.obo	2026-08-14 06:00:43.949120050 +0000
++++ go.obo	2026-08-14 06:14:16.087654250 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-08-13
++data-version: releases/2026-08-14
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-08-13" xsd:string
++property_value: owl:versionInfo "2026-08-14" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -143,7 +143,37 @@
  
  [Term]
  id: GO:0006062
-@@ -73107,6 +73119,7 @@
+@@ -71811,17 +71823,19 @@
+ 
+ [Term]
+ id: GO:0006515
+-name: protein quality control for misfolded or incompletely synthesized proteins
++name: protein quality control
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of misfolded or attenuated proteins." [GOC:jl]
+-synonym: "degradation of misfolded or incompletely synthesized proteins" EXACT []
+-synonym: "misfolded or incompletely synthesized protein breakdown" EXACT []
+-synonym: "misfolded or incompletely synthesized protein catabolic process" EXACT []
+-synonym: "misfolded or incompletely synthesized protein catabolism" EXACT []
+-synonym: "misfolded or incompletely synthesized protein degradation" EXACT []
+-synonym: "protein quality control (PQC)" EXACT []
+-synonym: "protein quality control by the ubiquitin-proteasome system" BROAD []
+-is_a: GO:0030163 ! protein catabolic process
++def: "The chemical reactions and pathways resulting in the breakdown or refolding of misfolded, dysfunctional, or incompletely synthesized proteins." [PMID:21746797]
++synonym: "degradation of misfolded or incompletely synthesized proteins" NARROW []
++synonym: "misfolded or incompletely synthesized protein breakdown" NARROW []
++synonym: "misfolded or incompletely synthesized protein catabolic process" NARROW []
++synonym: "misfolded or incompletely synthesized protein catabolism" NARROW []
++synonym: "misfolded or incompletely synthesized protein degradation" NARROW []
++synonym: "PQC" EXACT []
++synonym: "protein quality control by the ubiquitin-proteasome system" NARROW []
++synonym: "protein quality control for misfolded or incompletely synthesized proteins" NARROW []
++is_a: GO:0009987 ! cellular process
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32442" xsd:anyURI
+ 
+ [Term]
+ id: GO:0006516
+@@ -73107,6 +73121,7 @@
  xref: Reactome:R-HSA-71288 "Creatine metabolism"
  is_a: GO:0006575 ! modified amino acid metabolic process
  is_a: GO:0032787 ! monocarboxylic acid metabolic process
@@ -151,7 +181,7 @@
  
  [Term]
  id: GO:0006601
-@@ -73148,6 +73161,7 @@
+@@ -73148,6 +73163,7 @@
  synonym: "phosphocreatine metabolism" EXACT []
  is_a: GO:0006575 ! modified amino acid metabolic process
  is_a: GO:0019637 ! organophosphate metabolic process
@@ -159,7 +189,7 @@
  
  [Term]
  id: GO:0006604
-@@ -77490,11 +77504,9 @@
+@@ -77490,11 +77506,9 @@
  def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a mitochondrial membrane, either of the lipid bilayer surrounding a mitochondrion." [GOC:ai, GOC:dph, GOC:jl, GOC:mah]
  synonym: "mitochondrial membrane organisation" EXACT []
  synonym: "mitochondrial membrane organization and biogenesis" RELATED [GOC:mah]
@@ -173,7 +203,231 @@
  
  [Term]
  id: GO:0007007
-@@ -88071,24 +88083,24 @@
+@@ -81065,17 +81079,19 @@
+ id: GO:0007350
+ name: blastoderm segmentation
+ namespace: biological_process
+-def: "The hierarchical steps resulting in the progressive subdivision of the anterior/posterior axis of the embryo." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The hierarchical steps resulting in the progressive subdivision of the anterior/posterior axis of the embryo." [ISBN:0879694238]
+ is_a: GO:0009880 ! embryonic pattern specification
+ is_a: GO:0035282 ! segmentation
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007351
+ name: tripartite regional subdivision
+ namespace: biological_process
+-def: "Subdivision of the embryo along the anterior/posterior axis into anterior, posterior and terminal regions." [GOC:dph, GOC:isa_complete, http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "Subdivision of the embryo along the anterior/posterior axis into anterior, posterior and terminal regions." [GOC:dph, GOC:isa_complete, ISBN:0879694238]
+ is_a: GO:0003002 ! regionalization
+ relationship: part_of GO:0007350 ! blastoderm segmentation
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007352
+@@ -81102,24 +81118,27 @@
+ id: GO:0007354
+ name: zygotic determination of anterior/posterior axis, embryo
+ namespace: biological_process
+-def: "The specification of the anterior/posterior axis of the embryo by products of genes expressed in the zygote; exemplified in insects by the gap genes, pair rule genes and segment polarity gene cascade." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The specification of the anterior/posterior axis of the embryo by products of genes expressed in the zygote; exemplified in insects by the gap genes, pair rule genes and segment polarity gene cascade." [ISBN:0879694238]
+ is_a: GO:0008595 ! anterior/posterior axis specification, embryo
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007355
+ name: anterior region determination
+ namespace: biological_process
+-def: "Specification of the anterior (head and thoracic segments) of the embryo by the gap genes; exemplified in insects by the actions of hunchback gene product." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "Specification of the anterior (head and thoracic segments) of the embryo by the gap genes; exemplified in insects by the actions of hunchback gene product." [ISBN:0879694238]
+ is_a: GO:0009952 ! anterior/posterior pattern specification
+ relationship: part_of GO:0007354 ! zygotic determination of anterior/posterior axis, embryo
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007356
+ name: thorax and anterior abdomen determination
+ namespace: biological_process
+-def: "Specification of the central (trunk) regions of the embryo by the gap genes; exemplified in insects by the actions of the Kruppel gene product." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "Specification of the central (trunk) regions of the embryo by the gap genes; exemplified in insects by the actions of the Kruppel gene product." [ISBN:0879694238]
+ is_a: GO:0009952 ! anterior/posterior pattern specification
+ relationship: part_of GO:0007354 ! zygotic determination of anterior/posterior axis, embryo
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007357
+@@ -81139,8 +81158,9 @@
+ id: GO:0007358
+ name: obsolete establishment of central gap gene boundaries
+ namespace: biological_process
+-def: "OBSOLETE. Specification of the borders of central gap gene expression mediated largely by the effects of other gap genes; in insects this is exemplified by knirps repression of Kruppel." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "OBSOLETE. Specification of the borders of central gap gene expression mediated largely by the effects of other gap genes; in insects this is exemplified by knirps repression of Kruppel." [ISBN:0879694238]
+ comment: This term has been obsoleted because it represents a transcriptional feedback loop covered by other processes.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22546" xsd:anyURI
+ is_obsolete: true
+ 
+@@ -81148,10 +81168,11 @@
+ id: GO:0007359
+ name: posterior abdomen determination
+ namespace: biological_process
+-def: "The regionalization process in which the posterior (abdominal) regions of the embryo are specified by the gap genes." [GOC:dph, GOC:isa_complete, http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The regionalization process in which the posterior (abdominal) regions of the embryo are specified by the gap genes." [GOC:dph, GOC:isa_complete, ISBN:0879694238]
+ comment: Note that this process is exemplified in insects by the actions of the knirps gene product.
+ is_a: GO:0009952 ! anterior/posterior pattern specification
+ relationship: part_of GO:0007354 ! zygotic determination of anterior/posterior axis, embryo
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007360
+@@ -81172,7 +81193,7 @@
+ id: GO:0007361
+ name: obsolete establishment of posterior gap gene boundaries
+ namespace: biological_process
+-def: "OBSOLETE. Specification of the borders of posterior gap gene expression mediated largely by the effects of other gap genes; in insects this is exemplified by hunchback and tailless repression of knirps." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "OBSOLETE. Specification of the borders of posterior gap gene expression mediated largely by the effects of other gap genes; in insects this is exemplified by hunchback and tailless repression of knirps." [ISBN:0879694238]
+ comment: This term has been obsoleted because it represents a transcriptional feedback loop covered by other processes.
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22546" xsd:anyURI
+ is_obsolete: true
+@@ -81181,9 +81202,10 @@
+ id: GO:0007362
+ name: terminal region determination
+ namespace: biological_process
+-def: "Specification of the terminal regions (the two non-segmented ends) of the embryo by the gap genes; exemplified in insects by the actions of huckebein and tailless gene products." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "Specification of the terminal regions (the two non-segmented ends) of the embryo by the gap genes; exemplified in insects by the actions of huckebein and tailless gene products." [ISBN:0879694238]
+ is_a: GO:0009880 ! embryonic pattern specification
+ relationship: part_of GO:0007354 ! zygotic determination of anterior/posterior axis, embryo
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007363
+@@ -81203,7 +81225,7 @@
+ id: GO:0007364
+ name: obsolete establishment of terminal gap gene boundary
+ namespace: biological_process
+-def: "OBSOLETE. Specification of the borders of terminal gap gene expression mediated largely by the effects of other gap genes." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "OBSOLETE. Specification of the borders of terminal gap gene expression mediated largely by the effects of other gap genes." [ISBN:0879694238]
+ comment: This term has been obsoleted because it represents a transcriptional feedback loop covered by other processes.
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22546" xsd:anyURI
+ is_obsolete: true
+@@ -81221,16 +81243,18 @@
+ id: GO:0007366
+ name: periodic partitioning by pair rule gene
+ namespace: biological_process
+-def: "Allocation of cells to parasegments in the embryo, through the action of overlapping series of pair rule gene activities." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0632030488, ISBN:0879694238]
++def: "Allocation of cells to parasegments in the embryo, through the action of overlapping series of pair rule gene activities." [ISBN:0632030488, ISBN:0879694238]
+ is_a: GO:0007365 ! periodic partitioning
+ is_a: GO:0009952 ! anterior/posterior pattern specification
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007367
+ name: segment polarity determination
+ namespace: biological_process
+-def: "Division of the 14 parasegments of the embryo into anterior and posterior compartments; exemplified by the actions of the segment polarity gene products." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0632030488, ISBN:0879694238]
++def: "Division of the 14 parasegments of the embryo into anterior and posterior compartments; exemplified by the actions of the segment polarity gene products." [ISBN:0632030488, ISBN:0879694238]
+ is_a: GO:0007365 ! periodic partitioning
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007368
+@@ -81319,9 +81343,10 @@
+ id: GO:0007379
+ name: segment specification
+ namespace: biological_process
+-def: "The process in which segments assume individual identities; exemplified in insects by the actions of the products of the homeotic genes." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The process in which segments assume individual identities; exemplified in insects by the actions of the products of the homeotic genes." [ISBN:0879694238]
+ is_a: GO:0007389 ! pattern specification process
+ relationship: part_of GO:0035282 ! segmentation
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007380
+@@ -81376,24 +81401,27 @@
+ id: GO:0007386
+ name: compartment pattern specification
+ namespace: biological_process
+-def: "The regionalization process in which embryonic segments are divided into compartments that will result in differences in cell differentiation." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The regionalization process in which embryonic segments are divided into compartments that will result in differences in cell differentiation." [ISBN:0879694238]
+ synonym: "compartment specification" RELATED [GOC:dph]
+ is_a: GO:0009952 ! anterior/posterior pattern specification
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007387
+ name: anterior compartment pattern formation
+ namespace: biological_process
+-def: "The process giving rise to specification of cell identity in the anterior compartments of the segmented embryo." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The process giving rise to specification of cell identity in the anterior compartments of the segmented embryo." [ISBN:0879694238]
+ synonym: "anterior compartment pattern specification" RELATED [GOC:dph]
+ is_a: GO:0007386 ! compartment pattern specification
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007388
+ name: posterior compartment specification
+ namespace: biological_process
+-def: "The process involved in the specification of cell identity in the posterior compartments of the segmented embryo." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The process involved in the specification of cell identity in the posterior compartments of the segmented embryo." [ISBN:0879694238]
+ is_a: GO:0007386 ! compartment pattern specification
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007389
+@@ -82047,9 +82075,10 @@
+ id: GO:0007469
+ name: antennal development
+ namespace: biological_process
+-def: "The process whose specific outcome is the progression of the antenna over time, from its formation to the mature structure. The antenna are the sensory structures on the head that are capable of detecting various environmental stimuli." [http://fly.ebi.ac.uk/.bin/cvreport2?id=FBcv0004526]
++def: "The process whose specific outcome is the progression of the antenna over time, from its formation to the mature structure. The antenna are the sensory structures on the head that are capable of detecting various environmental stimuli." [FBbt:00004511]
+ is_a: GO:0035114 ! imaginal disc-derived appendage morphogenesis
+ relationship: part_of GO:0035214 ! eye-antennal disc development
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0007470
+@@ -84132,9 +84161,10 @@
+ id: GO:0008056
+ name: ocellus development
+ namespace: biological_process
+-def: "The process whose specific outcome is the progression of the ocellus over time, from its formation to the mature structure. The ocellus is a simple visual organ of insects." [http://fly.ebi.ac.uk/.bin/cvreport2?id=FBcv0004540]
++def: "The process whose specific outcome is the progression of the ocellus over time, from its formation to the mature structure. The ocellus is a simple visual organ of insects." [FBbt:00004505]
+ is_a: GO:0007423 ! sensory organ development
+ relationship: part_of GO:0035214 ! eye-antennal disc development
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0008057
+@@ -84150,12 +84180,14 @@
+ 
+ [Term]
+ id: GO:0008058
+-name: ocellus pigment granule organization
++name: obsolete ocellus pigment granule organization
+ namespace: biological_process
+-def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of intracellular pigment storage granules in the ocellus." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm]
++def: "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of intracellular pigment storage granules in the ocellus." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm]
++comment: The reason for obsoletion is that this term was made in error.
+ synonym: "ocellus pigment granule organisation" EXACT []
+ synonym: "ocellus pigment granule organization and biogenesis" RELATED [GOC:mah]
+-is_a: GO:0048753 ! pigment granule organization
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
++is_obsolete: true
+ 
+ [Term]
+ id: GO:0008061
+@@ -87871,8 +87903,9 @@
+ id: GO:0008358
+ name: maternal determination of anterior/posterior axis, embryo
+ namespace: biological_process
+-def: "The specification of the anterior/posterior axis of the embryo by gradients of maternally-transcribed gene products; exemplified in insects by the morphogens, bicoid and nanos." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The specification of the anterior/posterior axis of the embryo by gradients of maternally-transcribed gene products; exemplified in insects by the morphogens, bicoid and nanos." [ISBN:0879694238]
+ is_a: GO:0008595 ! anterior/posterior axis specification, embryo
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0008359
+@@ -88071,24 +88104,24 @@
  
  [Term]
  id: GO:0008379
@@ -204,7 +458,7 @@
  
  [Term]
  id: GO:0008380
-@@ -90289,7 +90301,7 @@
+@@ -90289,7 +90322,7 @@
  id: GO:0008531
  name: riboflavin kinase activity
  namespace: molecular_function
@@ -213,7 +467,7 @@
  synonym: "ATP:riboflavin 5'-phosphotransferase activity" RELATED [EC:2.7.1.26]
  synonym: "FK" RELATED [EC:2.7.1.26]
  synonym: "flavokinase activity" RELATED [EC:2.7.1.26]
-@@ -90305,6 +90317,7 @@
+@@ -90305,6 +90338,7 @@
  property_value: skos:exactMatch EC:2.7.1.26
  property_value: skos:exactMatch RHEA:14357
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -221,7 +475,7 @@
  
  [Term]
  id: GO:0008532
-@@ -90547,6 +90560,7 @@
+@@ -90547,6 +90581,7 @@
  namespace: molecular_function
  alt_id: GO:0008561
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Cd2+(in) = ADP + phosphate + Cd2+(out)." [PMID:17326661]
@@ -229,7 +483,7 @@
  synonym: "cadmium exporting ATPase activity" EXACT []
  synonym: "cadmium transmembrane transporter activity, phosphorylative mechanism" RELATED []
  synonym: "cadmium-exporting ATPase activity" NARROW []
-@@ -90555,12 +90569,12 @@
+@@ -90555,12 +90590,12 @@
  synonym: "Cd2+-exporting ATPase activity" RELATED [EC:7.2.2.21]
  xref: EC:7.2.2.21
  xref: MetaCyc:3.6.3.3-RXN
@@ -244,7 +498,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26941" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -90754,19 +90768,17 @@
+@@ -90754,19 +90789,17 @@
  
  [Term]
  id: GO:0008566
@@ -269,7 +523,16 @@
  
  [Term]
  id: GO:0008567
-@@ -97323,8 +97335,8 @@
+@@ -91066,7 +91099,7 @@
+ id: GO:0008595
+ name: anterior/posterior axis specification, embryo
+ namespace: biological_process
+-def: "The specification of the anterior/posterior axis of the embryo by the products of genes expressed maternally and genes expressed in the zygote." [http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm, ISBN:0879694238]
++def: "The specification of the anterior/posterior axis of the embryo by the products of genes expressed maternally and genes expressed in the zygote." [ISBN:0879694238]
+ synonym: "anterior/posterior axis determination, embryo" RELATED [GOC:dph]
+ is_a: GO:0000578 ! embryonic axis specification
+ is_a: GO:0009948 ! anterior/posterior axis specification
+@@ -97323,8 +97356,8 @@
  xref: RHEA:58724
  xref: RHEA:58728
  xref: RHEA:62612
@@ -279,7 +542,7 @@
  property_value: skos:exactMatch RHEA:58728
  property_value: skos:narrowMatch RHEA:58724
  property_value: skos:narrowMatch RHEA:62612
-@@ -100802,19 +100814,20 @@
+@@ -100802,19 +100835,20 @@
  
  [Term]
  id: GO:0009257
@@ -305,7 +568,7 @@
  
  [Term]
  id: GO:0009258
-@@ -125811,6 +125824,7 @@
+@@ -125811,6 +125845,7 @@
  name: ABC-type cadmium transporter activity
  namespace: molecular_function
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Cd (cytosol) = ADP + phosphate + Cd (vacuole)." [PMID:12455987]
@@ -313,7 +576,7 @@
  synonym: "ATP-dependent cadmium transmembrane transporter activity" RELATED []
  synonym: "ATPase-coupled cadmium transmembrane transporter activity" RELATED []
  synonym: "cadmium ABC transporter" EXACT []
-@@ -125820,7 +125834,9 @@
+@@ -125820,7 +125855,9 @@
  is_a: GO:0015086 ! cadmium ion transmembrane transporter activity
  is_a: GO:0019829 ! ATPase-coupled monoatomic cation transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -323,7 +586,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -159257,7 +159273,7 @@
+@@ -159257,7 +159294,7 @@
  synonym: "dissimilatory sulphate reduction" EXACT []
  xref: MetaCyc:DISSULFRED-PWY
  xref: Wikipedia:Sulfate-reducing_microorganism
@@ -332,7 +595,7 @@
  is_a: GO:0009061 ! anaerobic respiration
  relationship: has_part GO:0018551 ! dissimilatory sulfite reductase (NADH) activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26582" xsd:anyURI
-@@ -159772,11 +159788,12 @@
+@@ -159772,11 +159809,12 @@
  id: GO:0019464
  name: glycine decarboxylation via glycine cleavage system
  namespace: biological_process
@@ -346,7 +609,15 @@
  
  [Term]
  id: GO:0019465
-@@ -161886,10 +161903,12 @@
+@@ -161770,7 +161808,6 @@
+ synonym: "urate degradation" EXACT []
+ synonym: "uric acid catabolic process" EXACT []
+ xref: MetaCyc:P165-PWY
+-is_a: GO:0044282 ! small molecule catabolic process
+ is_a: GO:0046415 ! urate metabolic process
+ is_a: GO:0072523 ! purine-containing compound catabolic process
+ 
+@@ -161886,10 +161923,12 @@
  name: organophosphate metabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways involving organophosphates, any phosphate-containing organic compound." [ISBN:0198506732]
@@ -359,7 +630,7 @@
  
  [Term]
  id: GO:0019638
-@@ -162018,6 +162037,7 @@
+@@ -162018,6 +162057,7 @@
  xref: MetaCyc:PWY-1622
  xref: MetaCyc:PWY-1861
  is_a: GO:0046292 ! formaldehyde metabolic process
@@ -367,7 +638,7 @@
  property_value: skos:narrowMatch MetaCyc:P185-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-1622
  property_value: skos:narrowMatch MetaCyc:PWY-1861
-@@ -162409,11 +162429,13 @@
+@@ -162409,11 +162449,13 @@
  is_a: GO:0006536 ! glutamate metabolic process
  is_a: GO:0006541 ! L-glutamine metabolic process
  is_a: GO:0019740 ! nitrogen utilization
@@ -381,7 +652,7 @@
  
  [Term]
  id: GO:0019677
-@@ -164637,14 +164659,14 @@
+@@ -164637,14 +164679,14 @@
  name: obsolete diaminopimelate biosynthetic process
  namespace: biological_process
  def: "OBSOLETE. The chemical reactions and pathways resulting in the formation of diaminopimelate, both as an intermediate in lysine biosynthesis and as a component (as meso-diaminopimelate) of the peptidoglycan of Gram-negative bacterial cell walls." [GOC:ma, ISBN:0198547684]
@@ -398,7 +669,7 @@
  
  [Term]
  id: GO:0019878
-@@ -188877,12 +188899,12 @@
+@@ -188877,12 +188919,12 @@
  synonym: "telomeric heterochromatin formation" RELATED []
  synonym: "telomeric silencing" EXACT [GOC:bf]
  is_a: GO:0140719 ! constitutive heterochromatin formation
@@ -412,7 +683,7 @@
  
  [Term]
  id: GO:0031510
-@@ -203927,11 +203949,13 @@
+@@ -203927,11 +203969,13 @@
  xref: EC:1.1.1.431
  xref: MetaCyc:RXN-8773
  xref: RHEA:27445
@@ -427,7 +698,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30910" xsd:anyURI
  
  [Term]
-@@ -203946,9 +203970,11 @@
+@@ -203946,9 +203990,11 @@
  xref: MetaCyc:RXN-8772
  xref: RHEA:25229
  xref: SABIO-RK:1858
@@ -440,7 +711,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -205354,9 +205380,9 @@
+@@ -205354,9 +205400,9 @@
  xref: Reactome:R-HSA-9906955 "MT-ND4 is translated"
  xref: Reactome:R-HSA-9926981 "Bam complex inserts Hbp into outer membrane"
  is_a: GO:0140597 ! protein carrier activity
@@ -451,7 +722,7 @@
  
  [Term]
  id: GO:0032978
-@@ -209095,11 +209121,14 @@
+@@ -209095,11 +209141,14 @@
  
  [Term]
  id: GO:0033331
@@ -469,7 +740,7 @@
  
  [Term]
  id: GO:0033332
-@@ -209112,7 +209141,6 @@
+@@ -209112,7 +209161,6 @@
  synonym: "ent-kaurene synthesis" EXACT []
  xref: MetaCyc:PWY-5032
  xref: MetaCyc:PWY-6653
@@ -477,7 +748,7 @@
  is_a: GO:0046246 ! terpene biosynthetic process
  property_value: skos:narrowMatch MetaCyc:PWY-5032
  property_value: skos:narrowMatch MetaCyc:PWY-6653
-@@ -209311,7 +209339,7 @@
+@@ -209311,7 +209359,7 @@
  id: GO:0033353
  name: L-methionine cycle
  namespace: biological_process
@@ -486,7 +757,7 @@
  synonym: "activated methyl cycle" EXACT []
  synonym: "S-adenosylmethionine cycle" EXACT []
  synonym: "SAM cycle" EXACT []
-@@ -209319,6 +209347,7 @@
+@@ -209319,6 +209367,7 @@
  xref: MetyaCyc:PWY-6151
  is_a: GO:0006555 ! L-methionine metabolic process
  is_a: GO:0006575 ! modified amino acid metabolic process
@@ -494,7 +765,7 @@
  is_a: GO:0046128 ! purine ribonucleoside metabolic process
  is_a: GO:0046500 ! S-adenosylmethionine metabolic process
  is_a: GO:0050667 ! homocysteine metabolic process
-@@ -209326,6 +209355,7 @@
+@@ -209326,6 +209375,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31318" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31840" xsd:anyURI
@@ -502,7 +773,7 @@
  
  [Term]
  id: GO:0033354
-@@ -211302,9 +211332,11 @@
+@@ -211302,9 +211352,11 @@
  id: GO:0033528
  name: S-methylmethionine cycle
  namespace: biological_process
@@ -515,7 +786,7 @@
  
  [Term]
  id: GO:0033529
-@@ -239543,11 +239575,13 @@
+@@ -239543,11 +239595,13 @@
  
  [Term]
  id: GO:0035999
@@ -532,7 +803,7 @@
  xref: MetaCyc:1CMET2-PWY
  xref: MetaCyc:PWY-2201
  xref: MetaCyc:PWY-3841
-@@ -239558,6 +239592,7 @@
+@@ -239558,6 +239612,7 @@
  property_value: skos:narrowMatch MetaCyc:PWY-3841
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32289" xsd:anyURI
@@ -540,7 +811,7 @@
  created_by: bf
  creation_date: 2011-09-02T01:35:49Z
  
-@@ -240947,7 +240982,6 @@
+@@ -240947,7 +241002,6 @@
  name: very long-chain fatty-acyl-CoA catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of very long-chain fatty-acyl-CoAs, any derivative of coenzyme A in which the sulfhydryl group is in a thioester linkage with a very long-chain fatty-acyl group. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." [GOC:pm]
@@ -548,7 +819,7 @@
  synonym: "very long-chain fatty-acyl-CoA breakdown" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA catabolism" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA degradation" EXACT [GOC:bf]
-@@ -246714,6 +246748,7 @@
+@@ -246714,6 +246768,7 @@
  synonym: "IL-5-mediated signaling pathway" EXACT [GOC:bf]
  synonym: "interleukin-5-mediated signalling pathway" EXACT [GOC:mah]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -556,7 +827,7 @@
  created_by: bf
  creation_date: 2011-11-03T04:18:21Z
  
-@@ -248084,6 +248119,7 @@
+@@ -248084,6 +248139,7 @@
  synonym: "granulocyte colony-stimulating factor receptor signaling pathway" EXACT [GOC:nhn]
  synonym: "granulocyte colony-stimulating factor signalling pathway" RELATED [GOC:bf]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -564,7 +835,7 @@
  created_by: bf
  creation_date: 2012-05-14T01:30:28Z
  
-@@ -253176,6 +253212,7 @@
+@@ -253176,6 +253232,7 @@
  xref: MetaCyc:PWY490-3
  is_a: GO:0042126 ! nitrate metabolic process
  is_a: GO:0071941 ! nitrogen cycle metabolic process
@@ -572,7 +843,7 @@
  relationship: has_part GO:0015112 ! nitrate transmembrane transporter activity
  relationship: has_part GO:0098809 ! nitrite reductase activity
  property_value: skos:narrowMatch MetaCyc:PWY-381
-@@ -253184,6 +253221,7 @@
+@@ -253184,6 +253241,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27216" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30537" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
@@ -580,7 +851,7 @@
  
  [Term]
  id: GO:0042129
-@@ -259024,11 +259062,10 @@
+@@ -259024,11 +259082,10 @@
  def: "mitochondrial protein-containing complex localised in the mitochondrial inner membrane space that chaperones proteins to the TIM22 complex for insertion into the mitochondrial inner membrane." [GOC:vw]
  synonym: "mitochondrial intermembrane space protein transporter complex" RELATED []
  synonym: "small TIM complex" EXACT []
@@ -593,7 +864,7 @@
  
  [Term]
  id: GO:0042720
-@@ -260158,7 +260195,7 @@
+@@ -260158,7 +260215,7 @@
  name: bipolar cell growth
  namespace: biological_process
  def: "The process in which a cell irreversibly increases in size along one axis through simultaneous polarized growth from opposite ends of a cell, resulting in morphogenesis of the cell." [GOC:vw]
@@ -602,7 +873,7 @@
  synonym: "bipolar cell elongation" NARROW []
  synonym: "bipolar growth" BROAD []
  synonym: "polar cell elongation" RELATED []
-@@ -278118,66 +278155,81 @@
+@@ -278118,66 +278175,81 @@
  
  [Term]
  id: GO:0044472
@@ -699,7 +970,7 @@
  created_by: jl
  creation_date: 2012-01-19T02:28:42Z
  
-@@ -278380,38 +278432,47 @@
+@@ -278380,38 +278452,47 @@
  
  [Term]
  id: GO:0044492
@@ -756,7 +1027,7 @@
  created_by: jl
  creation_date: 2012-02-01T01:29:25Z
  
-@@ -279221,28 +279282,33 @@
+@@ -279221,28 +279302,33 @@
  
  [Term]
  id: GO:0044559
@@ -796,7 +1067,7 @@
  created_by: jl
  creation_date: 2012-04-05T03:46:35Z
  
-@@ -279261,13 +279327,16 @@
+@@ -279261,13 +279347,16 @@
  
  [Term]
  id: GO:0044562
@@ -816,7 +1087,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:01:49Z
  
-@@ -279281,7 +279350,6 @@
+@@ -279281,7 +279370,6 @@
  synonym: "voltage-dependence of activation shift (to the left)" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -824,7 +1095,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:06:29Z
  
-@@ -279294,7 +279362,6 @@
+@@ -279294,7 +279382,6 @@
  synonym: "envenomation resulting in occlusion of the pore of voltage-gated potassium channel in other organism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -832,7 +1103,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:14:24Z
  
-@@ -281044,49 +281111,58 @@
+@@ -281044,49 +281131,58 @@
  
  [Term]
  id: GO:0044733
@@ -900,7 +1171,18 @@
  created_by: jl
  creation_date: 2012-11-06T16:05:58Z
  
-@@ -298885,23 +298961,27 @@
+@@ -287032,8 +287128,9 @@
+ id: GO:0045498
+ name: sex comb development
+ namespace: biological_process
+-def: "The process whose specific outcome is the progression of the sex comb over time, from its formation to the mature structure. The sex combs are the male specific chaetae located on the prothoracic tarsal segment of the prothoracic leg." [http://fly.ebi.ac.uk]
++def: "The process whose specific outcome is the progression of the sex comb over time, from its formation to the mature structure. The sex combs are the male specific chaetae located on the prothoracic tarsal segment of the prothoracic leg." [FBbt:00004296]
+ is_a: GO:0007423 ! sensory organ development
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0045499
+@@ -298885,23 +298982,27 @@
  name: carboxylic acid biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of carboxylic acids, any organic acid containing one or more carboxyl (-COOH) groups." [ISBN:0198506732]
@@ -928,7 +1210,7 @@
  
  [Term]
  id: GO:0046396
-@@ -299390,11 +299470,13 @@
+@@ -299390,11 +299491,13 @@
  name: organophosphate catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of organophosphates, any phosphate-containing organic compound." [GOC:ai]
@@ -942,7 +1224,7 @@
  
  [Term]
  id: GO:0046435
-@@ -304916,16 +304998,18 @@
+@@ -304916,16 +305019,18 @@
  id: GO:0046923
  name: ER lumen protein retrieval receptor activity
  namespace: molecular_function
@@ -968,7 +1250,21 @@
  
  [Term]
  id: GO:0046924
-@@ -350108,7 +350192,6 @@
+@@ -331504,11 +331609,12 @@
+ id: GO:0048816
+ name: ocellus morphogenesis
+ namespace: biological_process
+-def: "The process in which the anatomical structures of the ocellus are generated and organized. The ocellus is a simple visual organ of insects." [http://fly.ebi.ac.uk/.bin/cvreport2?id=FBcv0004540]
++def: "The process in which the anatomical structures of the ocellus are generated and organized. The ocellus is a simple visual organ of insects." [FBbt:00004505]
+ is_a: GO:0009886 ! post-embryonic animal morphogenesis
+ is_a: GO:0090596 ! sensory organ morphogenesis
+ relationship: part_of GO:0007455 ! eye-antennal disc morphogenesis
+ relationship: part_of GO:0008056 ! ocellus development
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18983" xsd:anyURI
+ 
+ [Term]
+ id: GO:0048817
+@@ -350108,7 +350214,6 @@
  synonym: "protein-mitochondrion membrane insertion" EXACT []
  is_a: GO:0007006 ! mitochondrial membrane organization
  is_a: GO:0051205 ! protein insertion into membrane
@@ -976,7 +1272,7 @@
  is_a: GO:0072594 ! establishment of protein localization to organelle
  relationship: part_of GO:0070585 ! protein localization to mitochondrion
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
-@@ -358521,7 +358604,7 @@
+@@ -358521,7 +358626,7 @@
  id: GO:0051920
  name: peroxiredoxin activity
  namespace: molecular_function
@@ -985,7 +1281,7 @@
  comment: Includes redox chemistry as part of the catalytic reaction (2 R'-SH = R'-S-S-R'), where R' refers to peroxiredoxin itself).
  synonym: "PRDX activity" EXACT []
  synonym: "Prx activity" EXACT []
-@@ -358529,16 +358612,13 @@
+@@ -358529,16 +358634,13 @@
  xref: Reactome:R-HSA-1222755 "Peroxynitrite is reduced to nitrite by Tpx"
  xref: Reactome:R-HSA-1500804 "Peroxynitrite is reduced by AhpE"
  xref: RHEA:10008
@@ -1003,7 +1299,7 @@
  
  [Term]
  id: GO:0051921
-@@ -383918,22 +383998,25 @@
+@@ -383918,22 +384020,25 @@
  
  [Term]
  id: GO:0061160
@@ -1038,7 +1334,7 @@
  created_by: dph
  creation_date: 2010-06-23T09:26:45Z
  
-@@ -384867,11 +384950,13 @@
+@@ -384867,11 +384972,13 @@
  
  [Term]
  id: GO:0061246
@@ -1056,7 +1352,7 @@
  created_by: dph
  creation_date: 2010-08-23T09:46:01Z
  
-@@ -385528,10 +385613,13 @@
+@@ -385528,10 +385635,13 @@
  
  [Term]
  id: GO:0061305
@@ -1073,7 +1369,7 @@
  created_by: dph
  creation_date: 2010-09-16T09:25:18Z
  
-@@ -386203,23 +386291,25 @@
+@@ -386203,23 +386313,25 @@
  
  [Term]
  id: GO:0061361
@@ -1109,7 +1405,7 @@
  created_by: dph
  creation_date: 2010-10-13T09:03:42Z
  
-@@ -390717,13 +390807,14 @@
+@@ -390717,13 +390829,14 @@
  
  [Term]
  id: GO:0061753
@@ -1128,7 +1424,7 @@
  created_by: dph
  creation_date: 2015-11-20T11:14:22Z
  
-@@ -391218,13 +391309,13 @@
+@@ -391218,13 +391331,13 @@
  
  [Term]
  id: GO:0061796
@@ -1148,7 +1444,7 @@
  created_by: dph
  creation_date: 2016-10-05T12:06:11Z
  
-@@ -395986,10 +396077,12 @@
+@@ -395986,10 +396099,12 @@
  name: intracellular organelle lumen
  namespace: cellular_component
  def: "An organelle lumen that is part of an intracellular organelle." [GOC:mah]
@@ -1161,7 +1457,7 @@
  
  [Term]
  id: GO:0070014
-@@ -399284,7 +399377,7 @@
+@@ -399284,7 +399399,7 @@
  name: inward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel." [GOC:mah]
@@ -1170,7 +1466,25 @@
  relationship: negatively_regulates GO:0005242 ! inward rectifier potassium channel activity
  
  [Term]
-@@ -439115,8 +439208,10 @@
+@@ -414502,7 +414617,7 @@
+ synonym: "nucleus-associated proteasomal ubiquitin-dependent protein catabolism" EXACT [GOC:mah]
+ synonym: "nucleus-associated proteasomal ubiquitin-dependent protein degradation" EXACT [GOC:mah]
+ synonym: "ubiquitin-dependent catabolism of misfolded proteins by nucleus-associated proteasome" EXACT []
+-is_a: GO:0006515 ! protein quality control for misfolded or incompletely synthesized proteins
++is_a: GO:0006515 ! protein quality control
+ is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
+ relationship: part_of GO:0071218 ! cellular response to misfolded protein
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26433" xsd:anyURI
+@@ -424177,7 +424292,7 @@
+ synonym: "purine-containing compound breakdown" EXACT [GOC:mah]
+ synonym: "purine-containing compound catabolism" EXACT [GOC:mah]
+ synonym: "purine-containing compound degradation" EXACT [GOC:mah]
+-is_a: GO:0009056 ! catabolic process
++is_a: GO:0034656 ! nucleobase-containing small molecule catabolic process
+ is_a: GO:0072521 ! purine-containing compound metabolic process
+ created_by: mah
+ creation_date: 2011-01-04T03:17:20Z
+@@ -439115,8 +439230,10 @@
  name: organophosphate biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the biosynthesis of deoxyribose phosphate, the phosphorylated sugar 2-deoxy-erythro-pentose." [GOC:chem_mtg]
@@ -1181,7 +1495,7 @@
  created_by: tb
  creation_date: 2011-02-26T02:22:41Z
  
-@@ -452278,7 +452373,6 @@
+@@ -452278,7 +452395,6 @@
  xref: Reactome:R-HSA-5690046 "PPT2 hydrolyses PALMCoA to PALM"
  xref: Reactome:R-HSA-9027670 "ESTG binding induces ESR depalmitoylation"
  is_a: GO:0016787 ! hydrolase activity
@@ -1189,7 +1503,7 @@
  created_by: dos
  creation_date: 2014-04-11T17:57:36Z
  
-@@ -461066,10 +461160,11 @@
+@@ -461066,10 +461182,11 @@
  xref: MetaCyc:R4-RXN
  xref: Reactome:R-HSA-1222526 "AhpC reduces peroxidated lipids"
  xref: RHEA:62628
@@ -1202,7 +1516,7 @@
  
  [Term]
  id: GO:0102040
-@@ -470428,7 +470523,6 @@
+@@ -470428,7 +470545,6 @@
  xref: RHEA:25367
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.295
@@ -1210,7 +1524,7 @@
  property_value: skos:narrowMatch RHEA:25363
  property_value: skos:narrowMatch RHEA:25367
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19648" xsd:anyURI
-@@ -475811,6 +475905,7 @@
+@@ -475811,6 +475927,7 @@
  synonym: "U2 snRNA adenosine m6 methyltransferase activity" EXACT []
  synonym: "U2 snRNA adenosine N6 methyltransferase activity" EXACT []
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -1218,7 +1532,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27392" xsd:anyURI
  created_by: hjd
  creation_date: 2020-12-18T15:12:57Z
-@@ -479500,6 +479595,7 @@
+@@ -479500,6 +479617,7 @@
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -1226,7 +1540,7 @@
  property_value: skos:exactMatch EC:2.1.1.346
  property_value: skos:exactMatch RHEA:52808
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13569" xsd:anyURI
-@@ -489129,12 +489225,13 @@
+@@ -489129,12 +489247,13 @@
  
  [Term]
  id: GO:0140357
@@ -1241,7 +1555,20 @@
  created_by: pg
  creation_date: 2019-05-28T07:40:48Z
  
-@@ -490818,13 +490915,15 @@
+@@ -490404,9 +490523,10 @@
+ id: GO:0140455
+ name: cytoplasm protein quality control
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the cytoplasm, which are either targeted to cytoplasmic proteasomes for degradation or protected by chaperones to shield thermosensitive proteins from degradation until conditions allow disaggregation and refolding." [PMID:32075773]
+-is_a: GO:0006515 ! protein quality control for misfolded or incompletely synthesized proteins
++def: "The chemical reactions and pathways resulting in the breakdown or refolding of misfolded proteins in the cytoplasm, which are either targeted to cytoplasmic proteasomes for degradation or protected by chaperones to shield thermosensitive proteins from degradation until conditions allow disaggregation and refolding." [PMID:32075773]
++is_a: GO:0006515 ! protein quality control
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19172" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32442" xsd:anyURI
+ created_by: pg
+ creation_date: 2020-04-20T15:46:20Z
+ 
+@@ -490818,13 +490938,15 @@
  
  [Term]
  id: GO:0140493
@@ -1261,7 +1588,7 @@
  created_by: pg
  creation_date: 2020-07-10T08:39:22Z
  
-@@ -492215,7 +492314,7 @@
+@@ -492215,7 +492337,7 @@
  name: outward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel." [PMID:28108814]
@@ -1270,7 +1597,7 @@
  relationship: negatively_regulates GO:0015271 ! outward rectifier potassium channel activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21157" xsd:anyURI
  created_by: pg
-@@ -494862,17 +494961,26 @@
+@@ -494862,17 +494984,26 @@
  name: thioredoxin-dependent peroxiredoxin activity
  namespace: molecular_function
  def: "Catalysis of the reaction: [thioredoxin]-dithiol + a hydroperoxide = [thioredoxin]-disulfide + an alcohol + H2O." [PMID:12707274, PMID:19820102, RHEA:62620]
@@ -1297,7 +1624,17 @@
  created_by: pg
  creation_date: 2022-05-18T14:25:09Z
  
-@@ -504537,7 +504645,7 @@
+@@ -499342,7 +499473,8 @@
+ name: mitochondrial protein quality control
+ namespace: biological_process
+ def: "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the mitochondrion, which are targeted for degradation." [PMID:38280230]
+-is_a: GO:0006515 ! protein quality control for misfolded or incompletely synthesized proteins
++is_a: GO:0006515 ! protein quality control
++is_a: GO:0030163 ! protein catabolic process
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27044" xsd:anyURI
+ created_by: pg
+ creation_date: 2024-02-14T07:11:38Z
+@@ -504537,7 +504669,7 @@
  synonym: "autophagy adaptor activity" EXACT []
  synonym: "selective autophagy receptor activity" EXACT []
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
@@ -1306,7 +1643,15 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28283" xsd:anyURI
  created_by: rynl
  creation_date: 2025-02-10T16:57:01Z
-@@ -506186,6 +506294,42 @@
+@@ -506163,6 +506295,7 @@
+ def: "A quality control pathway that degrades peroxisomal matrix protein receptors when the recycling machinery is blocked. When recycling to the cytosol fails, cargo-free receptors accumulate at the peroxisomal membrane, where they are polyubiquitinated and subsequently degraded by the ubiquitin-proteasome system (UPS)." [PMID:16390998, PMID:17011644, PMID:41076631]
+ synonym: "Receptor Accumulation and Degradation in the Absence of Recycling" EXACT []
+ is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
++is_a: GO:0170079 ! peroxisomal protein quality control
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31570" xsd:anyURI
+ created_by: ew
+ creation_date: 2026-02-17T22:02:27Z
+@@ -506186,6 +506319,53 @@
  creation_date: 2026-03-23T21:12:37Z
  
  [Term]
@@ -1346,10 +1691,21 @@
 +creation_date: 2026-08-11T17:42:26Z
 +
 +[Term]
++id: GO:0170079
++name: peroxisomal protein quality control
++namespace: biological_process
++def: "The chemical reactions and pathways resulting in the breakdown of dysfunctional peroxisomal proteins, independent of pexophagy." [PMID:19538506, PMID:25305535, PMID:37552037]
++is_a: GO:0006515 ! protein quality control
++is_a: GO:0030163 ! protein catabolic process
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32442" xsd:anyURI
++created_by: ew
++creation_date: 2026-08-12T16:13:58Z
++
++[Term]
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -550711,12 +550855,13 @@
+@@ -550711,12 +550891,13 @@
  
  [Term]
  id: GO:1902334
@@ -1364,7 +1720,7 @@
  created_by: tb
  creation_date: 2013-07-26T22:18:12Z
  
-@@ -578736,7 +578881,7 @@
+@@ -578736,7 +578917,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cristae formation." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:19279012]
  comment: AN example of this is PINK1 in human (Q9BXM7) in PMID:19279012 inferred from mutant phenotype
@@ -1373,7 +1729,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042407 ! cristae formation
  relationship: regulates GO:0042407 ! cristae formation
-@@ -578753,7 +578898,7 @@
+@@ -578753,7 +578934,7 @@
  synonym: "down-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "downregulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "inhibition of cristae formation" NARROW [GOC:TermGenie]
@@ -1382,7 +1738,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0042407 ! cristae formation
-@@ -578771,7 +578916,7 @@
+@@ -578771,7 +578952,7 @@
  synonym: "up regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of cristae formation" EXACT [GOC:TermGenie]
@@ -1391,7 +1747,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0042407 ! cristae formation
-@@ -633383,14 +633528,13 @@
+@@ -633383,14 +633564,13 @@
  
  [Term]
  id: GO:2000100
@@ -1412,7 +1768,7 @@
  created_by: dph
  creation_date: 2010-09-14T04:44:57Z
  
-@@ -633605,13 +633749,13 @@
+@@ -633605,13 +633785,13 @@
  
  [Term]
  id: GO:2000115
@@ -1432,7 +1788,7 @@
  created_by: dph
  creation_date: 2010-09-21T06:33:26Z
  
-@@ -635480,14 +635624,13 @@
+@@ -635480,14 +635660,13 @@
  
  [Term]
  id: GO:2000247
@@ -1453,7 +1809,7 @@
  created_by: vw
  creation_date: 2010-11-11T11:39:34Z
  
-@@ -642623,14 +642766,13 @@
+@@ -642623,14 +642802,13 @@
  
  [Term]
  id: GO:2000750
@@ -1474,7 +1830,7 @@
  created_by: mah
  creation_date: 2011-06-16T11:51:49Z
  
-@@ -650961,8 +651103,8 @@
+@@ -650961,8 +651139,8 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenosine(37) in tRNA(Val) = S-adenosyl-L-homocysteine + N(6)-methyladenosine(37) in tRNA(Val) + H+." [PMID:19383770, RHEA:43160]
  xref: EC:2.1.1.223
  xref: RHEA:43160
@@ -1484,7 +1840,7 @@
  property_value: skos:exactMatch EC:2.1.1.223
  property_value: skos:exactMatch RHEA:43160
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31644" xsd:anyURI
-@@ -651420,6 +651562,302 @@
+@@ -651420,6 +651598,302 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  
