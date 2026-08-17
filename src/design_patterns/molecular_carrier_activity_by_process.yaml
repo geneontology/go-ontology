@@ -37,7 +37,7 @@ name:
     - transport_process
 
 def:
-  text: "A molecular carrier activity that binds and carries a cargo as part of %s by moving along with the cargo."
+  text: "Binding to and carrying a cargo as part of %s by moving along with the cargo."
   vars:
     - transport_process
 

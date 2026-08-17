@@ -17,7 +17,7 @@ description: >
       zinc chaperone activity, nickel chaperone activity).
     - Exception: GO:0140597 keeps the label 'protein carrier activity'
       rather than 'protein chaperone activity' to avoid a collision with
-      GO:0044183 protein folding chaperone activity, which is a different
+      GO:0044183 protein folding chaperone, which is a different
       sense of "chaperone" (folding assistance rather than cargo delivery).
 
   The carrier/chaperone distinction is editorial only - the equivalence
@@ -45,7 +45,7 @@ name:
     - cargo
 
 def:
-  text: "A molecular carrier activity that binds and delivers %s to an acceptor molecule or a specific location."
+  text: "Binding to and delivering %s to an acceptor molecule or a specific location."
   vars:
     - cargo
 

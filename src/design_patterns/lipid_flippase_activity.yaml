@@ -36,7 +36,7 @@ name:
     - lipid_cargo
 
 def:
-  text: "A flippase activity that catalyzes the movement of %s from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP."
+  text: "Catalysis of the movement of %s from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP."
   vars:
     - lipid_cargo
 

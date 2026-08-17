@@ -38,7 +38,7 @@ name:
     - lipid_cargo
 
 def:
-  text: "An intramembrane lipid carrier activity that transports %s from a region of a membrane to a different region on the same membrane."
+  text: "Enables the transport of %s from a region of a membrane to a different region on the same membrane."
   vars:
     - lipid_cargo
 
