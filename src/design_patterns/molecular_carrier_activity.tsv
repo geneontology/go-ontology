@@ -1,0 +1,11 @@
+defined_class	defined_class_label	cargo	cargo_label
+http://purl.obolibrary.org/obo/GO_0005319	lipid carrier activity	http://purl.obolibrary.org/obo/CHEBI_18059	lipid
+http://purl.obolibrary.org/obo/GO_0005344	oxygen carrier activity	http://purl.obolibrary.org/obo/CHEBI_25805	oxygen atom
+http://purl.obolibrary.org/obo/GO_0016530	metallochaperone activity	http://purl.obolibrary.org/obo/CHEBI_25213	metal cation
+http://purl.obolibrary.org/obo/GO_0016531	copper chaperone activity	http://purl.obolibrary.org/obo/CHEBI_23378	copper cation
+http://purl.obolibrary.org/obo/GO_0034986	iron chaperone activity	http://purl.obolibrary.org/obo/CHEBI_24875	iron cation
+http://purl.obolibrary.org/obo/GO_0140132	iron-sulfur cluster chaperone activity	http://purl.obolibrary.org/obo/CHEBI_30408	iron-sulfur cluster
+http://purl.obolibrary.org/obo/GO_0140597	protein carrier activity	http://purl.obolibrary.org/obo/PR_000000001	protein
+http://purl.obolibrary.org/obo/GO_0140598	lipoprotein carrier activity	http://purl.obolibrary.org/obo/CHEBI_6495	lipoprotein
+http://purl.obolibrary.org/obo/GO_0140827	zinc chaperone activity	http://purl.obolibrary.org/obo/CHEBI_29105	zinc(2+)
+http://purl.obolibrary.org/obo/GO_0170061	nickel chaperone activity	http://purl.obolibrary.org/obo/CHEBI_25516	nickel cation

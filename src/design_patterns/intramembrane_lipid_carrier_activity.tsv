@@ -1,0 +1,3 @@
+defined_class	defined_class_label	lipid_cargo	lipid_cargo_label
+http://purl.obolibrary.org/obo/GO_0008525	phosphatidylcholine intramembrane carrier activity	http://purl.obolibrary.org/obo/CHEBI_64482	phosphatidylcholine
+http://purl.obolibrary.org/obo/GO_0046624	sphingolipid intramembrane carrier activity	http://purl.obolibrary.org/obo/CHEBI_26739	sphingolipid

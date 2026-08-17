@@ -1,0 +1,49 @@
+pattern_name: lipid flippase activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/lipid_flippase_activity.yaml
+
+description: >
+  Cargo-differentiated flippase activities under GO:0140327 flippase
+  activity (catalysis of the movement of lipids from the exoplasmic to
+  the cytosolic leaflet of a membrane, using energy from the hydrolysis
+  of ATP).
+
+  Related patterns for the sibling families:
+    - lipid_floppase_activity.yaml (genus GO:0140328; cytosolic to
+      exoplasmic, ATP-driven)
+    - intramembrane_lipid_carrier_activity.yaml (genus GO:0140303;
+      cargo-differentiated terms not further specialised by direction)
+
+  ATP hydrolysis: GO:0140326 ATPase-coupled intramembrane lipid carrier
+  activity (the parent of GO:0140327 and GO:0140328) asserts
+  'relationship: has_part GO:0016887 ATP hydrolysis activity' once; that
+  axiom is inherited by every flippase / floppase child and should not
+  be re-asserted on individual instances.
+
+classes:
+  flippase activity: 'GO:0140327'
+  lipid: 'CHEBI:18059'
+
+relations:
+  has primary input: 'RO:0004009'
+
+vars:
+  lipid_cargo: "'lipid'"
+
+name:
+  text: "%s flippase activity"
+  vars:
+    - lipid_cargo
+
+def:
+  text: "Catalysis of the movement of %s from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP."
+  vars:
+    - lipid_cargo
+
+namespace:
+  text: 'molecular_function'
+
+equivalentTo:
+  text: "'flippase activity' and ('has primary input' some %s)"
+  vars:
+    - lipid_cargo
