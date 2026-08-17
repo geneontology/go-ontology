@@ -45,7 +45,7 @@ name:
     - cargo
 
 def:
-  text: "Directly binding to a specific %s and delivering it either to an acceptor molecule or to a specific location."
+  text: "Binding to and delivering %s to an acceptor molecule or a specific location."
   vars:
     - cargo
 
