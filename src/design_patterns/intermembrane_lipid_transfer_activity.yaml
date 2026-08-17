@@ -29,7 +29,7 @@ name:
     - lipid_cargo
 
 def:
-  text: "Removes a %s from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle."
+  text: "A lipid transfer activity that removes a %s from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and delivers it to an acceptor membrane or lipid particle."
   vars:
     - lipid_cargo
 

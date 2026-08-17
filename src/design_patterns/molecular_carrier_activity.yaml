@@ -45,7 +45,7 @@ name:
     - cargo
 
 def:
-  text: "Binding to and delivering %s to an acceptor molecule or a specific location."
+  text: "A molecular carrier activity that binds and delivers %s to an acceptor molecule or a specific location."
   vars:
     - cargo
 

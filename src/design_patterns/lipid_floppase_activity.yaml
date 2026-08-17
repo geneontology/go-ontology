@@ -36,7 +36,7 @@ name:
     - lipid_cargo
 
 def:
-  text: "Catalysis of the movement of %s from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP."
+  text: "A floppase activity that catalyzes the movement of %s from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP."
   vars:
     - lipid_cargo
 
