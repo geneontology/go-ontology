@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-08-17 05:40:00.609434443 +0000
-+++ go.obo	2026-08-17 05:53:44.143912215 +0000
+--- go-lastrelease.obo	2026-08-18 05:38:49.942317460 +0000
++++ go.obo	2026-08-18 05:52:54.152974348 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-08-17
++data-version: releases/2026-08-18
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -15,7 +15,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-08-17" xsd:string
++property_value: owl:versionInfo "2026-08-18" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -46,6 +46,26 @@
  property_value: skos:exactMatch EC:2.1.1.348
  property_value: skos:exactMatch RHEA:55584
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27389" xsd:anyURI
+@@ -16017,13 +16021,13 @@
+ 
+ [Term]
+ id: GO:0002084
+-name: protein depalmitoylation
++name: obsolete protein depalmitoylation
+ namespace: biological_process
+-def: "The removal of palymitoyl groups from a lipoprotein." [GOC:hjd]
+-subset: gocheck_obsoletion_candidate
+-is_a: GO:0035601 ! protein deacylation
+-is_a: GO:0042159 ! lipoprotein catabolic process
+-is_a: GO:0098734 ! macromolecule depalmitoylation
++def: "OBSOLETE. The removal of palymitoyl groups from a lipoprotein." [GOC:hjd]
++comment: The reason for obsoletion is that this term represents a molecular function, not a biological process. Consider instead annotating to the molecular function 'palmitoyl-(protein) hydrolase activity' (GO:0008474).
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32290" xsd:anyURI
++is_obsolete: true
++consider: GO:0008474
+ 
+ [Term]
+ id: GO:0002085
 @@ -34490,7 +34494,7 @@
  id: GO:0003919
  name: FMN adenylyltransferase activity
@@ -532,7 +552,17 @@
  synonym: "anterior/posterior axis determination, embryo" RELATED [GOC:dph]
  is_a: GO:0000578 ! embryonic axis specification
  is_a: GO:0009948 ! anterior/posterior axis specification
-@@ -97323,8 +97356,8 @@
+@@ -97203,7 +97236,8 @@
+ xref: TC:4.A
+ is_a: GO:0015144 ! carbohydrate transmembrane transporter activity
+ is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
+-is_a: GO:0022804 ! active transmembrane transporter activity
++is_a: GO:7770111 ! group translocator activity
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27496" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
+ 
+ [Term]
+@@ -97323,8 +97357,8 @@
  xref: RHEA:58724
  xref: RHEA:58728
  xref: RHEA:62612
@@ -542,7 +572,7 @@
  property_value: skos:exactMatch RHEA:58728
  property_value: skos:narrowMatch RHEA:58724
  property_value: skos:narrowMatch RHEA:62612
-@@ -100802,19 +100835,20 @@
+@@ -100802,19 +100836,20 @@
  
  [Term]
  id: GO:0009257
@@ -568,7 +598,7 @@
  
  [Term]
  id: GO:0009258
-@@ -125811,6 +125845,7 @@
+@@ -125811,6 +125846,7 @@
  name: ABC-type cadmium transporter activity
  namespace: molecular_function
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Cd (cytosol) = ADP + phosphate + Cd (vacuole)." [PMID:12455987]
@@ -576,7 +606,7 @@
  synonym: "ATP-dependent cadmium transmembrane transporter activity" RELATED []
  synonym: "ATPase-coupled cadmium transmembrane transporter activity" RELATED []
  synonym: "cadmium ABC transporter" EXACT []
-@@ -125820,7 +125855,9 @@
+@@ -125820,7 +125856,9 @@
  is_a: GO:0015086 ! cadmium ion transmembrane transporter activity
  is_a: GO:0019829 ! ATPase-coupled monoatomic cation transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -586,7 +616,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -159257,7 +159294,7 @@
+@@ -159257,7 +159295,7 @@
  synonym: "dissimilatory sulphate reduction" EXACT []
  xref: MetaCyc:DISSULFRED-PWY
  xref: Wikipedia:Sulfate-reducing_microorganism
@@ -595,7 +625,7 @@
  is_a: GO:0009061 ! anaerobic respiration
  relationship: has_part GO:0018551 ! dissimilatory sulfite reductase (NADH) activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26582" xsd:anyURI
-@@ -159772,11 +159809,12 @@
+@@ -159772,11 +159810,12 @@
  id: GO:0019464
  name: glycine decarboxylation via glycine cleavage system
  namespace: biological_process
@@ -609,7 +639,7 @@
  
  [Term]
  id: GO:0019465
-@@ -161770,7 +161808,6 @@
+@@ -161770,7 +161809,6 @@
  synonym: "urate degradation" EXACT []
  synonym: "uric acid catabolic process" EXACT []
  xref: MetaCyc:P165-PWY
@@ -617,7 +647,7 @@
  is_a: GO:0046415 ! urate metabolic process
  is_a: GO:0072523 ! purine-containing compound catabolic process
  
-@@ -161886,10 +161923,12 @@
+@@ -161886,10 +161924,12 @@
  name: organophosphate metabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways involving organophosphates, any phosphate-containing organic compound." [ISBN:0198506732]
@@ -630,7 +660,7 @@
  
  [Term]
  id: GO:0019638
-@@ -162018,6 +162057,7 @@
+@@ -162018,6 +162058,7 @@
  xref: MetaCyc:PWY-1622
  xref: MetaCyc:PWY-1861
  is_a: GO:0046292 ! formaldehyde metabolic process
@@ -638,7 +668,7 @@
  property_value: skos:narrowMatch MetaCyc:P185-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-1622
  property_value: skos:narrowMatch MetaCyc:PWY-1861
-@@ -162409,11 +162449,13 @@
+@@ -162409,11 +162450,13 @@
  is_a: GO:0006536 ! glutamate metabolic process
  is_a: GO:0006541 ! L-glutamine metabolic process
  is_a: GO:0019740 ! nitrogen utilization
@@ -652,7 +682,7 @@
  
  [Term]
  id: GO:0019677
-@@ -164637,14 +164679,14 @@
+@@ -164637,14 +164680,14 @@
  name: obsolete diaminopimelate biosynthetic process
  namespace: biological_process
  def: "OBSOLETE. The chemical reactions and pathways resulting in the formation of diaminopimelate, both as an intermediate in lysine biosynthesis and as a component (as meso-diaminopimelate) of the peptidoglycan of Gram-negative bacterial cell walls." [GOC:ma, ISBN:0198547684]
@@ -669,7 +699,7 @@
  
  [Term]
  id: GO:0019878
-@@ -188877,12 +188919,12 @@
+@@ -188877,12 +188920,12 @@
  synonym: "telomeric heterochromatin formation" RELATED []
  synonym: "telomeric silencing" EXACT [GOC:bf]
  is_a: GO:0140719 ! constitutive heterochromatin formation
@@ -683,7 +713,7 @@
  
  [Term]
  id: GO:0031510
-@@ -203927,11 +203969,13 @@
+@@ -203927,11 +203970,13 @@
  xref: EC:1.1.1.431
  xref: MetaCyc:RXN-8773
  xref: RHEA:27445
@@ -698,7 +728,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30910" xsd:anyURI
  
  [Term]
-@@ -203946,9 +203990,11 @@
+@@ -203946,9 +203991,11 @@
  xref: MetaCyc:RXN-8772
  xref: RHEA:25229
  xref: SABIO-RK:1858
@@ -711,7 +741,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -205354,9 +205400,9 @@
+@@ -205354,9 +205401,9 @@
  xref: Reactome:R-HSA-9906955 "MT-ND4 is translated"
  xref: Reactome:R-HSA-9926981 "Bam complex inserts Hbp into outer membrane"
  is_a: GO:0140597 ! protein carrier activity
@@ -722,7 +752,7 @@
  
  [Term]
  id: GO:0032978
-@@ -209095,11 +209141,14 @@
+@@ -209095,11 +209142,14 @@
  
  [Term]
  id: GO:0033331
@@ -740,7 +770,7 @@
  
  [Term]
  id: GO:0033332
-@@ -209112,7 +209161,6 @@
+@@ -209112,7 +209162,6 @@
  synonym: "ent-kaurene synthesis" EXACT []
  xref: MetaCyc:PWY-5032
  xref: MetaCyc:PWY-6653
@@ -748,7 +778,7 @@
  is_a: GO:0046246 ! terpene biosynthetic process
  property_value: skos:narrowMatch MetaCyc:PWY-5032
  property_value: skos:narrowMatch MetaCyc:PWY-6653
-@@ -209311,7 +209359,7 @@
+@@ -209311,7 +209360,7 @@
  id: GO:0033353
  name: L-methionine cycle
  namespace: biological_process
@@ -757,7 +787,7 @@
  synonym: "activated methyl cycle" EXACT []
  synonym: "S-adenosylmethionine cycle" EXACT []
  synonym: "SAM cycle" EXACT []
-@@ -209319,6 +209367,7 @@
+@@ -209319,6 +209368,7 @@
  xref: MetyaCyc:PWY-6151
  is_a: GO:0006555 ! L-methionine metabolic process
  is_a: GO:0006575 ! modified amino acid metabolic process
@@ -765,7 +795,7 @@
  is_a: GO:0046128 ! purine ribonucleoside metabolic process
  is_a: GO:0046500 ! S-adenosylmethionine metabolic process
  is_a: GO:0050667 ! homocysteine metabolic process
-@@ -209326,6 +209375,7 @@
+@@ -209326,6 +209376,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31318" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31840" xsd:anyURI
@@ -773,7 +803,7 @@
  
  [Term]
  id: GO:0033354
-@@ -211302,9 +211352,11 @@
+@@ -211302,9 +211353,11 @@
  id: GO:0033528
  name: S-methylmethionine cycle
  namespace: biological_process
@@ -786,7 +816,7 @@
  
  [Term]
  id: GO:0033529
-@@ -222163,6 +222215,7 @@
+@@ -222163,6 +222216,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29050" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29666" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31588" xsd:anyURI
@@ -794,7 +824,7 @@
  
  [Term]
  id: GO:0034355
-@@ -239543,11 +239596,13 @@
+@@ -239543,11 +239597,13 @@
  
  [Term]
  id: GO:0035999
@@ -811,7 +841,7 @@
  xref: MetaCyc:1CMET2-PWY
  xref: MetaCyc:PWY-2201
  xref: MetaCyc:PWY-3841
-@@ -239558,6 +239613,7 @@
+@@ -239558,6 +239614,7 @@
  property_value: skos:narrowMatch MetaCyc:PWY-3841
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32289" xsd:anyURI
@@ -819,7 +849,7 @@
  created_by: bf
  creation_date: 2011-09-02T01:35:49Z
  
-@@ -240947,7 +241003,6 @@
+@@ -240947,7 +241004,6 @@
  name: very long-chain fatty-acyl-CoA catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of very long-chain fatty-acyl-CoAs, any derivative of coenzyme A in which the sulfhydryl group is in a thioester linkage with a very long-chain fatty-acyl group. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." [GOC:pm]
@@ -827,7 +857,7 @@
  synonym: "very long-chain fatty-acyl-CoA breakdown" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA catabolism" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA degradation" EXACT [GOC:bf]
-@@ -246714,6 +246769,7 @@
+@@ -246714,6 +246770,7 @@
  synonym: "IL-5-mediated signaling pathway" EXACT [GOC:bf]
  synonym: "interleukin-5-mediated signalling pathway" EXACT [GOC:mah]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -835,7 +865,7 @@
  created_by: bf
  creation_date: 2011-11-03T04:18:21Z
  
-@@ -248084,6 +248140,7 @@
+@@ -248084,6 +248141,7 @@
  synonym: "granulocyte colony-stimulating factor receptor signaling pathway" EXACT [GOC:nhn]
  synonym: "granulocyte colony-stimulating factor signalling pathway" RELATED [GOC:bf]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -843,7 +873,7 @@
  created_by: bf
  creation_date: 2012-05-14T01:30:28Z
  
-@@ -253176,6 +253233,7 @@
+@@ -253176,6 +253234,7 @@
  xref: MetaCyc:PWY490-3
  is_a: GO:0042126 ! nitrate metabolic process
  is_a: GO:0071941 ! nitrogen cycle metabolic process
@@ -851,7 +881,7 @@
  relationship: has_part GO:0015112 ! nitrate transmembrane transporter activity
  relationship: has_part GO:0098809 ! nitrite reductase activity
  property_value: skos:narrowMatch MetaCyc:PWY-381
-@@ -253184,6 +253242,7 @@
+@@ -253184,6 +253243,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27216" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30537" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
@@ -859,7 +889,7 @@
  
  [Term]
  id: GO:0042129
-@@ -259024,11 +259083,10 @@
+@@ -259024,11 +259084,10 @@
  def: "mitochondrial protein-containing complex localised in the mitochondrial inner membrane space that chaperones proteins to the TIM22 complex for insertion into the mitochondrial inner membrane." [GOC:vw]
  synonym: "mitochondrial intermembrane space protein transporter complex" RELATED []
  synonym: "small TIM complex" EXACT []
@@ -872,7 +902,7 @@
  
  [Term]
  id: GO:0042720
-@@ -260158,7 +260216,7 @@
+@@ -260158,7 +260217,7 @@
  name: bipolar cell growth
  namespace: biological_process
  def: "The process in which a cell irreversibly increases in size along one axis through simultaneous polarized growth from opposite ends of a cell, resulting in morphogenesis of the cell." [GOC:vw]
@@ -881,7 +911,7 @@
  synonym: "bipolar cell elongation" NARROW []
  synonym: "bipolar growth" BROAD []
  synonym: "polar cell elongation" RELATED []
-@@ -278118,66 +278176,81 @@
+@@ -278118,66 +278177,81 @@
  
  [Term]
  id: GO:0044472
@@ -978,7 +1008,7 @@
  created_by: jl
  creation_date: 2012-01-19T02:28:42Z
  
-@@ -278380,38 +278453,47 @@
+@@ -278380,38 +278454,47 @@
  
  [Term]
  id: GO:0044492
@@ -1035,7 +1065,7 @@
  created_by: jl
  creation_date: 2012-02-01T01:29:25Z
  
-@@ -279221,28 +279303,33 @@
+@@ -279221,28 +279304,33 @@
  
  [Term]
  id: GO:0044559
@@ -1075,7 +1105,7 @@
  created_by: jl
  creation_date: 2012-04-05T03:46:35Z
  
-@@ -279261,13 +279348,16 @@
+@@ -279261,13 +279349,16 @@
  
  [Term]
  id: GO:0044562
@@ -1095,7 +1125,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:01:49Z
  
-@@ -279281,7 +279371,6 @@
+@@ -279281,7 +279372,6 @@
  synonym: "voltage-dependence of activation shift (to the left)" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -1103,7 +1133,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:06:29Z
  
-@@ -279294,7 +279383,6 @@
+@@ -279294,7 +279384,6 @@
  synonym: "envenomation resulting in occlusion of the pore of voltage-gated potassium channel in other organism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -1111,7 +1141,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:14:24Z
  
-@@ -281044,49 +281132,58 @@
+@@ -281044,49 +281133,58 @@
  
  [Term]
  id: GO:0044733
@@ -1179,7 +1209,7 @@
  created_by: jl
  creation_date: 2012-11-06T16:05:58Z
  
-@@ -287032,8 +287129,9 @@
+@@ -287032,8 +287130,9 @@
  id: GO:0045498
  name: sex comb development
  namespace: biological_process
@@ -1190,7 +1220,7 @@
  
  [Term]
  id: GO:0045499
-@@ -298885,23 +298983,27 @@
+@@ -298885,23 +298984,27 @@
  name: carboxylic acid biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of carboxylic acids, any organic acid containing one or more carboxyl (-COOH) groups." [ISBN:0198506732]
@@ -1218,7 +1248,7 @@
  
  [Term]
  id: GO:0046396
-@@ -299390,11 +299492,13 @@
+@@ -299390,11 +299493,13 @@
  name: organophosphate catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of organophosphates, any phosphate-containing organic compound." [GOC:ai]
@@ -1232,7 +1262,7 @@
  
  [Term]
  id: GO:0046435
-@@ -304916,16 +305020,18 @@
+@@ -304916,16 +305021,18 @@
  id: GO:0046923
  name: ER lumen protein retrieval receptor activity
  namespace: molecular_function
@@ -1258,7 +1288,7 @@
  
  [Term]
  id: GO:0046924
-@@ -331504,11 +331610,12 @@
+@@ -331504,11 +331611,12 @@
  id: GO:0048816
  name: ocellus morphogenesis
  namespace: biological_process
@@ -1272,7 +1302,7 @@
  
  [Term]
  id: GO:0048817
-@@ -350108,7 +350215,6 @@
+@@ -350108,7 +350216,6 @@
  synonym: "protein-mitochondrion membrane insertion" EXACT []
  is_a: GO:0007006 ! mitochondrial membrane organization
  is_a: GO:0051205 ! protein insertion into membrane
@@ -1280,7 +1310,7 @@
  is_a: GO:0072594 ! establishment of protein localization to organelle
  relationship: part_of GO:0070585 ! protein localization to mitochondrion
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
-@@ -358521,7 +358627,7 @@
+@@ -358521,7 +358628,7 @@
  id: GO:0051920
  name: peroxiredoxin activity
  namespace: molecular_function
@@ -1289,7 +1319,7 @@
  comment: Includes redox chemistry as part of the catalytic reaction (2 R'-SH = R'-S-S-R'), where R' refers to peroxiredoxin itself).
  synonym: "PRDX activity" EXACT []
  synonym: "Prx activity" EXACT []
-@@ -358529,16 +358635,13 @@
+@@ -358529,16 +358636,13 @@
  xref: Reactome:R-HSA-1222755 "Peroxynitrite is reduced to nitrite by Tpx"
  xref: Reactome:R-HSA-1500804 "Peroxynitrite is reduced by AhpE"
  xref: RHEA:10008
@@ -1307,7 +1337,7 @@
  
  [Term]
  id: GO:0051921
-@@ -383918,22 +384021,25 @@
+@@ -383918,22 +384022,25 @@
  
  [Term]
  id: GO:0061160
@@ -1342,7 +1372,7 @@
  created_by: dph
  creation_date: 2010-06-23T09:26:45Z
  
-@@ -384867,11 +384973,13 @@
+@@ -384867,11 +384974,13 @@
  
  [Term]
  id: GO:0061246
@@ -1360,7 +1390,7 @@
  created_by: dph
  creation_date: 2010-08-23T09:46:01Z
  
-@@ -385528,10 +385636,13 @@
+@@ -385528,10 +385637,13 @@
  
  [Term]
  id: GO:0061305
@@ -1377,7 +1407,7 @@
  created_by: dph
  creation_date: 2010-09-16T09:25:18Z
  
-@@ -386203,23 +386314,25 @@
+@@ -386203,23 +386315,25 @@
  
  [Term]
  id: GO:0061361
@@ -1413,7 +1443,7 @@
  created_by: dph
  creation_date: 2010-10-13T09:03:42Z
  
-@@ -390717,13 +390830,14 @@
+@@ -390717,13 +390831,14 @@
  
  [Term]
  id: GO:0061753
@@ -1432,7 +1462,7 @@
  created_by: dph
  creation_date: 2015-11-20T11:14:22Z
  
-@@ -391218,13 +391332,13 @@
+@@ -391218,13 +391333,13 @@
  
  [Term]
  id: GO:0061796
@@ -1452,7 +1482,7 @@
  created_by: dph
  creation_date: 2016-10-05T12:06:11Z
  
-@@ -391393,14 +391507,14 @@
+@@ -391393,14 +391508,14 @@
  xref: Reactome:R-HSA-8938076 "CD38 hydrolyses NAD+ to NAM and ADP-ribose"
  xref: Reactome:R-HSA-9637699 "CpnT hydrolyses NAD+"
  xref: RHEA:38611
@@ -1469,7 +1499,7 @@
  created_by: dph
  creation_date: 2016-11-11T13:14:13Z
  
-@@ -391430,13 +391544,16 @@
+@@ -391430,13 +391545,16 @@
  
  [Term]
  id: GO:0061812
@@ -1491,7 +1521,7 @@
  created_by: dph
  creation_date: 2016-11-11T13:32:43Z
  
-@@ -395986,10 +396103,12 @@
+@@ -395986,10 +396104,12 @@
  name: intracellular organelle lumen
  namespace: cellular_component
  def: "An organelle lumen that is part of an intracellular organelle." [GOC:mah]
@@ -1504,7 +1534,7 @@
  
  [Term]
  id: GO:0070014
-@@ -399284,7 +399403,7 @@
+@@ -399284,7 +399404,7 @@
  name: inward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel." [GOC:mah]
@@ -1513,7 +1543,7 @@
  relationship: negatively_regulates GO:0005242 ! inward rectifier potassium channel activity
  
  [Term]
-@@ -414502,7 +414621,7 @@
+@@ -414502,7 +414622,7 @@
  synonym: "nucleus-associated proteasomal ubiquitin-dependent protein catabolism" EXACT [GOC:mah]
  synonym: "nucleus-associated proteasomal ubiquitin-dependent protein degradation" EXACT [GOC:mah]
  synonym: "ubiquitin-dependent catabolism of misfolded proteins by nucleus-associated proteasome" EXACT []
@@ -1522,7 +1552,7 @@
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
  relationship: part_of GO:0071218 ! cellular response to misfolded protein
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26433" xsd:anyURI
-@@ -424177,7 +424296,7 @@
+@@ -424177,7 +424297,7 @@
  synonym: "purine-containing compound breakdown" EXACT [GOC:mah]
  synonym: "purine-containing compound catabolism" EXACT [GOC:mah]
  synonym: "purine-containing compound degradation" EXACT [GOC:mah]
@@ -1531,7 +1561,17 @@
  is_a: GO:0072521 ! purine-containing compound metabolic process
  created_by: mah
  creation_date: 2011-01-04T03:17:20Z
-@@ -439115,8 +439234,10 @@
+@@ -438839,7 +438959,8 @@
+ def: "A process that is carried out at the cellular level which results in the arrangement of constituent parts of a phagosome within a cell. Phagosome maturation begins with endocytosis and formation of the early phagosome and ends with the formation of the hybrid organelle, the phagolysosome." [GOC:kmv, GOC:tb]
+ is_a: GO:0006996 ! organelle organization
+ relationship: has_part GO:0001845 ! phagolysosome assembly
+-relationship: has_part GO:0006887 ! exocytosis
++relationship: has_part GO:0006897 ! endocytosis
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32152" xsd:anyURI
+ created_by: tb
+ creation_date: 2010-10-19T11:10:34Z
+ 
+@@ -439115,8 +439236,10 @@
  name: organophosphate biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the biosynthesis of deoxyribose phosphate, the phosphorylated sugar 2-deoxy-erythro-pentose." [GOC:chem_mtg]
@@ -1542,7 +1582,17 @@
  created_by: tb
  creation_date: 2011-02-26T02:22:41Z
  
-@@ -452278,7 +452399,6 @@
+@@ -440700,7 +440823,8 @@
+ def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein S-phosphocysteine + sugar(out) = protein cysteine + sugar phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:am]
+ is_a: GO:0015144 ! carbohydrate transmembrane transporter activity
+ is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
+-is_a: GO:0022804 ! active transmembrane transporter activity
++is_a: GO:7770111 ! group translocator activity
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27496" xsd:anyURI
+ created_by: tb
+ creation_date: 2014-04-08T14:58:00Z
+ 
+@@ -452278,7 +452402,6 @@
  xref: Reactome:R-HSA-5690046 "PPT2 hydrolyses PALMCoA to PALM"
  xref: Reactome:R-HSA-9027670 "ESTG binding induces ESR depalmitoylation"
  is_a: GO:0016787 ! hydrolase activity
@@ -1550,7 +1600,25 @@
  created_by: dos
  creation_date: 2014-04-11T17:57:36Z
  
-@@ -461066,10 +461186,11 @@
+@@ -453703,10 +453826,14 @@
+ 
+ [Term]
+ id: GO:0098734
+-name: macromolecule depalmitoylation
++name: obsolete macromolecule depalmitoylation
+ namespace: biological_process
+-def: "The removal of palymitoyl groups from a macromolecule." [GOC:dos]
+-is_a: GO:0098732 ! macromolecule deacylation
++def: "OBSOLETE. The removal of palymitoyl groups from a macromolecule." [GOC:dos]
++comment: The reason for obsoletion is that this term represents a molecular function, not a biological process. Consider instead annotating to the molecular function 'palmitoyl hydrolase activity' (GO:0098599), or, for protein substrates, 'palmitoyl-(protein) hydrolase activity' (GO:0008474).
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32290" xsd:anyURI
++is_obsolete: true
++consider: GO:0008474
++consider: GO:0098599
+ 
+ [Term]
+ id: GO:0098735
+@@ -461066,10 +461193,11 @@
  xref: MetaCyc:R4-RXN
  xref: Reactome:R-HSA-1222526 "AhpC reduces peroxidated lipids"
  xref: RHEA:62628
@@ -1563,7 +1631,7 @@
  
  [Term]
  id: GO:0102040
-@@ -470428,7 +470549,6 @@
+@@ -470428,7 +470556,6 @@
  xref: RHEA:25367
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.295
@@ -1571,7 +1639,7 @@
  property_value: skos:narrowMatch RHEA:25363
  property_value: skos:narrowMatch RHEA:25367
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19648" xsd:anyURI
-@@ -475811,6 +475931,7 @@
+@@ -475811,6 +475938,7 @@
  synonym: "U2 snRNA adenosine m6 methyltransferase activity" EXACT []
  synonym: "U2 snRNA adenosine N6 methyltransferase activity" EXACT []
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -1579,7 +1647,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27392" xsd:anyURI
  created_by: hjd
  creation_date: 2020-12-18T15:12:57Z
-@@ -479500,6 +479621,7 @@
+@@ -479500,6 +479628,7 @@
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -1587,7 +1655,7 @@
  property_value: skos:exactMatch EC:2.1.1.346
  property_value: skos:exactMatch RHEA:52808
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13569" xsd:anyURI
-@@ -489129,12 +489251,13 @@
+@@ -489129,12 +489258,13 @@
  
  [Term]
  id: GO:0140357
@@ -1602,7 +1670,7 @@
  created_by: pg
  creation_date: 2019-05-28T07:40:48Z
  
-@@ -490404,9 +490527,10 @@
+@@ -490404,9 +490534,10 @@
  id: GO:0140455
  name: cytoplasm protein quality control
  namespace: biological_process
@@ -1615,7 +1683,7 @@
  created_by: pg
  creation_date: 2020-04-20T15:46:20Z
  
-@@ -490818,13 +490942,15 @@
+@@ -490818,13 +490949,15 @@
  
  [Term]
  id: GO:0140493
@@ -1635,7 +1703,7 @@
  created_by: pg
  creation_date: 2020-07-10T08:39:22Z
  
-@@ -492215,7 +492341,7 @@
+@@ -492215,7 +492348,7 @@
  name: outward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel." [PMID:28108814]
@@ -1644,7 +1712,7 @@
  relationship: negatively_regulates GO:0015271 ! outward rectifier potassium channel activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21157" xsd:anyURI
  created_by: pg
-@@ -494862,17 +494988,26 @@
+@@ -494862,17 +494995,26 @@
  name: thioredoxin-dependent peroxiredoxin activity
  namespace: molecular_function
  def: "Catalysis of the reaction: [thioredoxin]-dithiol + a hydroperoxide = [thioredoxin]-disulfide + an alcohol + H2O." [PMID:12707274, PMID:19820102, RHEA:62620]
@@ -1671,7 +1739,7 @@
  created_by: pg
  creation_date: 2022-05-18T14:25:09Z
  
-@@ -499342,7 +499477,8 @@
+@@ -499342,7 +499484,8 @@
  name: mitochondrial protein quality control
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the mitochondrion, which are targeted for degradation." [PMID:38280230]
@@ -1681,7 +1749,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27044" xsd:anyURI
  created_by: pg
  creation_date: 2024-02-14T07:11:38Z
-@@ -504537,7 +504673,7 @@
+@@ -504537,7 +504680,7 @@
  synonym: "autophagy adaptor activity" EXACT []
  synonym: "selective autophagy receptor activity" EXACT []
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
@@ -1690,7 +1758,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28283" xsd:anyURI
  created_by: rynl
  creation_date: 2025-02-10T16:57:01Z
-@@ -506163,6 +506299,7 @@
+@@ -506163,6 +506306,7 @@
  def: "A quality control pathway that degrades peroxisomal matrix protein receptors when the recycling machinery is blocked. When recycling to the cytosol fails, cargo-free receptors accumulate at the peroxisomal membrane, where they are polyubiquitinated and subsequently degraded by the ubiquitin-proteasome system (UPS)." [PMID:16390998, PMID:17011644, PMID:41076631]
  synonym: "Receptor Accumulation and Degradation in the Absence of Recycling" EXACT []
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
@@ -1698,7 +1766,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31570" xsd:anyURI
  created_by: ew
  creation_date: 2026-02-17T22:02:27Z
-@@ -506186,6 +506323,53 @@
+@@ -506186,6 +506330,53 @@
  creation_date: 2026-03-23T21:12:37Z
  
  [Term]
@@ -1752,7 +1820,7 @@
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -550711,12 +550895,13 @@
+@@ -550711,12 +550902,13 @@
  
  [Term]
  id: GO:1902334
@@ -1767,7 +1835,7 @@
  created_by: tb
  creation_date: 2013-07-26T22:18:12Z
  
-@@ -578736,7 +578921,7 @@
+@@ -578736,7 +578928,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cristae formation." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:19279012]
  comment: AN example of this is PINK1 in human (Q9BXM7) in PMID:19279012 inferred from mutant phenotype
@@ -1776,7 +1844,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042407 ! cristae formation
  relationship: regulates GO:0042407 ! cristae formation
-@@ -578753,7 +578938,7 @@
+@@ -578753,7 +578945,7 @@
  synonym: "down-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "downregulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "inhibition of cristae formation" NARROW [GOC:TermGenie]
@@ -1785,7 +1853,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0042407 ! cristae formation
-@@ -578771,7 +578956,7 @@
+@@ -578771,7 +578963,7 @@
  synonym: "up regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of cristae formation" EXACT [GOC:TermGenie]
@@ -1794,7 +1862,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0042407 ! cristae formation
-@@ -633383,14 +633568,13 @@
+@@ -633383,14 +633575,13 @@
  
  [Term]
  id: GO:2000100
@@ -1815,7 +1883,7 @@
  created_by: dph
  creation_date: 2010-09-14T04:44:57Z
  
-@@ -633605,13 +633789,13 @@
+@@ -633605,13 +633796,13 @@
  
  [Term]
  id: GO:2000115
@@ -1835,7 +1903,7 @@
  created_by: dph
  creation_date: 2010-09-21T06:33:26Z
  
-@@ -635480,14 +635664,13 @@
+@@ -635480,14 +635671,13 @@
  
  [Term]
  id: GO:2000247
@@ -1856,7 +1924,7 @@
  created_by: vw
  creation_date: 2010-11-11T11:39:34Z
  
-@@ -642623,14 +642806,13 @@
+@@ -642623,14 +642813,13 @@
  
  [Term]
  id: GO:2000750
@@ -1877,7 +1945,7 @@
  created_by: mah
  creation_date: 2011-06-16T11:51:49Z
  
-@@ -650961,8 +651143,8 @@
+@@ -650961,8 +651150,8 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenosine(37) in tRNA(Val) = S-adenosyl-L-homocysteine + N(6)-methyladenosine(37) in tRNA(Val) + H+." [PMID:19383770, RHEA:43160]
  xref: EC:2.1.1.223
  xref: RHEA:43160
@@ -1887,7 +1955,7 @@
  property_value: skos:exactMatch EC:2.1.1.223
  property_value: skos:exactMatch RHEA:43160
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31644" xsd:anyURI
-@@ -651420,6 +651602,330 @@
+@@ -651420,6 +651609,344 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  
@@ -2214,6 +2282,20 @@
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32461" xsd:anyURI
 +created_by: ai4c-agent
 +creation_date: 2026-08-14T22:52:06Z
++
++[Term]
++id: GO:7770111
++name: group translocator activity
++namespace: molecular_function
++def: "Enables the transfer of a substance from one side of a membrane to the other, where the substance is chemically modified as an integral part of the translocation process, so that the species released on the far side of the membrane is not the species that was bound on the near side. This differs from primary and secondary active transport, in which the transported substance is unchanged." [PMID:31214989, PMID:33170213]
++synonym: "group translocation activity" EXACT []
++synonym: "group translocator" RELATED []
++xref: TC:4
++is_a: GO:0022857 ! transmembrane transporter activity
++relationship: has_part GO:0003824 ! catalytic activity
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27496" xsd:anyURI
++created_by: ai4c-agent
++creation_date: 2026-08-18T00:41:26Z
 +
  [Typedef]
  id: ends_during
