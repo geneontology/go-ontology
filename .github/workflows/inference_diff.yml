@@ -19,6 +19,13 @@ jobs:
     container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
     steps:
       - uses: actions/checkout@v4
+      - name: Cache Scala CLI dependencies
+        uses: coursier/cache-action@v7
+        with:
+          path: ${{ github.workspace }}/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          ignoreJob: true
+          ignoreAmmonite: true
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.ofn
       - name: Upload PR reasoned.ofn
@@ -34,6 +41,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: master
+      - name: Cache Scala CLI dependencies
+        uses: coursier/cache-action@v7
+        with:
+          path: ${{ github.workspace }}/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          ignoreJob: true
+          ignoreAmmonite: true
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.ofn
       - name: Upload master reasoned.ofn
@@ -85,4 +99,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           file: "../../comment.md"
-
