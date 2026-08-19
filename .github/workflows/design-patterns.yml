@@ -21,7 +21,6 @@ jobs:
         path: ${{ github.workspace }}/.coursier-cache
         extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
         ignoreJob: true
-        ignoreAmmonite: true
       
     - name: Work around https://github.com/peter-evans/create-pull-request/issues/1170
       run: git config --global --add safe.directory "$GITHUB_WORKSPACE"

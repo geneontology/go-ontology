@@ -25,7 +25,6 @@ jobs:
           path: ${{ github.workspace }}/.coursier-cache
           extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
           ignoreJob: true
-          ignoreAmmonite: true
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.ofn
       - name: Upload PR reasoned.ofn
@@ -47,7 +46,6 @@ jobs:
           path: ${{ github.workspace }}/.coursier-cache
           extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
           ignoreJob: true
-          ignoreAmmonite: true
       - name: Classify ontology
         run: cd src/ontology; make -j 4 ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' reasoned.ofn
       - name: Upload master reasoned.ofn

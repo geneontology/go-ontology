@@ -36,7 +36,6 @@ jobs:
           path: ${{ github.workspace }}/.coursier-cache
           extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
           ignoreJob: true
-          ignoreAmmonite: true
 
       - name: Run ontology QC checks
         run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx14G' travis_test

@@ -20,7 +20,6 @@ jobs:
           path: ${{ github.workspace }}/.coursier-cache
           extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
           ignoreJob: true
-          ignoreAmmonite: true
 
       - name: Refresh Rhea relationships TSV
         run: cd src/ontology && rm ../resources/rhea-relationships.tsv && make ../resources/rhea-relationships.tsv && cd ../..
