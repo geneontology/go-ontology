@@ -392,6 +392,10 @@ imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
 imports/opl_terms_combined.txt: imports/opl_terms.txt seed.txt
 	cat $^ | grep 'OPL_' > $@
 
+# Include the generated ChEBI subset property in ChEBI module extractions.
+imports/chebi_terms_combined.txt: imports/chebi_terms.txt seed.txt
+	cat $^ > $@ && echo 'http://purl.obolibrary.org/obo/go#noctua_allowed' >> $@
+
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
@@ -465,7 +469,7 @@ imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
 imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --term 'http://purl.obolibrary.org/obo/go#noctua_allowed' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
@@ -573,9 +577,9 @@ mirror/groups.ttl:
 	curl -L -o ../resources/enzyme.rdf 'https://ftp.expasy.org/databases/enzyme/enzyme.rdf' &&\
 	arq -q --data=../resources/enzyme.rdf --query=../sparql/query-obsolete-ec.sparql --results=tsv | tail -n +2 | sort >$@
 
-# bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl
-	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
+# bio-chebi.owl imports ChEBI and injects subset annotations and GCI axioms to conflate conjugate bases. See Hill et al
+bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn noctua-allowed-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl
+	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i noctua-allowed-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 ../biochebi/chebi_pH7_3_mapping.tsv:
 	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
@@ -599,10 +603,10 @@ chebi-ph7_3-slim.ofn: ../biochebi/chebi_pH7_3_mapping.tsv
 noctua-allowed-slim.ofn: ../biochebi/noctua-allowed-terms.txt
 	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/noctua-allowed-slim.ofn>' >$@.tmp &&\
 	echo 'Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))' >>$@.tmp &&\
-	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#noctua-allowed>))' >>$@.tmp &&\
-	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#noctua-allowed> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
-	echo 'AnnotationAssertion(<http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.obolibrary.org/obo/go#noctua-allowed> "ChEBI terms allowed for use in Noctua, comprising the Rhea pH 7.3 subset and the GO ChEBI allow-list.")' >>$@.tmp &&\
-	sed 's|^|AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <|' $< | sed 's|$$|> <http://purl.obolibrary.org/obo/go#noctua-allowed>)|' >>$@.tmp
+	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#noctua_allowed>))' >>$@.tmp &&\
+	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#noctua_allowed> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
+	echo 'AnnotationAssertion(<http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.obolibrary.org/obo/go#noctua_allowed> "ChEBI terms allowed for use in Noctua, comprising the Rhea pH 7.3 subset and the GO ChEBI allow-list.")' >>$@.tmp &&\
+	sed 's|^|AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <|' $< | sed 's|$$|> <http://purl.obolibrary.org/obo/go#noctua_allowed>)|' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
 biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
@@ -615,8 +619,8 @@ biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 ../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/noctua-allowed-terms.txt
 	cat $^ >$@
 
-imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt noctua-allowed-slim.ofn
-	$(ROBOT) extract -i $< -T ../biochebi/go-lego-chebi-import-terms.txt --method BOT merge -i noctua-allowed-slim.ofn annotate -O $(BASE)/imports/go-lego-chebi-import.owl -V $(RELEASE_URIBASE)/imports/go-lego-chebi-import.owl -o $@
+imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt
+	$(ROBOT) extract -i $< -T ../biochebi/go-lego-chebi-import-terms.txt --method BOT annotate -O $(BASE)/imports/go-lego-chebi-import.owl -V $(RELEASE_URIBASE)/imports/go-lego-chebi-import.owl -o $@
 
 .PRECIOUS: mirror/uberon.owl
 
