@@ -295,6 +295,15 @@ jobs:
           fetch-depth: 1
           token: ${{ steps.app-token.outputs.token }}
 
+      - name: Cache Scala CLI dependencies
+        if: fromJSON(needs.check-mention.outputs.result).useOdkContainer
+        uses: coursier/cache-action@v7
+        with:
+          path: /tools/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          extraKey: ${{ github.workflow }}
+          ignoreJob: true
+
       - name: Configure Git
         run: |
           git config --global user.name "${{ env.AGENT_LOGIN }}"
