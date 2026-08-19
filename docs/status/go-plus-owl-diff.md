@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-18/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-19/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-18" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-19" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -105,6 +105,44 @@
 - [4'-phosphopantetheine phosphatase activity](http://purl.obolibrary.org/obo/GO_7770095) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-pantetheine 4'-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_61723) 
 
 
+### 7-methylguanosine cap hypermethylation `http://purl.obolibrary.org/obo/GO_0036261`
+#### Removed
+- [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Hypermethylation of the 7-(mono)methylguanosine (m(7)G) cap structure at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. This type of cap modification occurs on small nuclear RNAs (snRNAs) and small nucleolar RNAs (snoRNAs) and is dependent on prior guanine-N7 methylation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11983179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18775984" 
+
+#### Added
+- [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27628"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Hypermethylation of the 7-(mono)methylguanosine (m(7)G) cap structure at the N2 position of the guanine base to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. This type of cap modification occurs on small nuclear RNAs (snRNAs) and small nucleolar RNAs (snoRNAs) and is dependent on prior guanine-N7 methylation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11983179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18775984" 
+
+
 ### ABC-type cadmium transporter activity `http://purl.obolibrary.org/obo/GO_0015434`
 
 #### Added
@@ -185,6 +223,18 @@
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-dependent protein-RNA complex displacement activity" 
 
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) SubClassOf [ATP-dependent activity, acting on RNA](http://purl.obolibrary.org/obo/GO_0008186) 
+
+
+### D-glucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006042`
+#### Removed
+- [D-glucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006042) SubClassOf [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) 
+
+
+
+### D-glucosamine catabolic process `http://purl.obolibrary.org/obo/GO_0006043`
+#### Removed
+- [D-glucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006043) SubClassOf [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) 
+
 
 
 ### D-sorbitol biosynthetic process `http://purl.obolibrary.org/obo/GO_0006061`
@@ -357,6 +407,42 @@
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [one-carbon metabolic process](http://purl.obolibrary.org/obo/GO_0006730) 
 
 
+### N-acetylglucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006045`
+#### Removed
+- [N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006045) SubClassOf [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) 
+
+
+
+### N-acetylglucosamine catabolic process `http://purl.obolibrary.org/obo/GO_0006046`
+#### Removed
+- [N-acetylglucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006046) SubClassOf [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) 
+
+
+
+### N-acetylmannosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006052`
+#### Removed
+- [N-acetylmannosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006052) SubClassOf [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) 
+
+
+
+### N-acetylmannosamine catabolic process `http://purl.obolibrary.org/obo/GO_0006053`
+#### Removed
+- [N-acetylmannosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006053) SubClassOf [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) 
+
+
+
+### N-acetylneuraminate biosynthetic process `http://purl.obolibrary.org/obo/GO_0046380`
+#### Removed
+- [N-acetylneuraminate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046380) SubClassOf [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) 
+
+
+
+### N-acetylneuraminate catabolic process `http://purl.obolibrary.org/obo/GO_0019262`
+#### Removed
+- [N-acetylneuraminate catabolic process](http://purl.obolibrary.org/obo/GO_0019262) SubClassOf [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) 
+
+
+
 ### NAD+ nucleosidase activity, cyclic ADP-ribose generating `http://purl.obolibrary.org/obo/GO_0061809`
 #### Removed
 - [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
@@ -434,6 +520,45 @@
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
 
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [RNA methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008173) 
+
+
+### RQC-specific ribosome subunit dissociation `http://purl.obolibrary.org/obo/GO_7770113`
+
+#### Added
+- Class: [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32478"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-18T18:06:47Z" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosome disassembly involved in ribosome-associated quality control" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ASCC-dependent ribosome subunit dissociation" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "RQT-dependent ribosome subunit dissociation" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770113" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The disaggregation of a stalled ribosome into its constituent large and small ribosomal subunits as part of ribosome-associated quality control (RQC), releasing the large subunit with the incomplete nascent polypeptide chain still attached via peptidyl-tRNA for downstream RQC processing." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35452614" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32203490" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32579943" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In eukaryotes, this step is carried out by the yeast RQT complex (Rqt2/Slh1, Rqt3/Cue3, Rqt4) or the metazoan ASCC complex, acting on Hel2/ZNF598-ubiquitinated collided ribosomes. In bacteria, MutS2 splits stalled collided ribosomes; this term is not restricted to eukaryotes." 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [label](http://www.w3.org/2000/01/rdf-schema#label) "RQC-specific ribosome subunit dissociation" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) EquivalentTo [ribosome disassembly](http://purl.obolibrary.org/obo/GO_0032790) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112)) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) SubClassOf [ribosome disassembly](http://purl.obolibrary.org/obo/GO_0032790) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) 
 
 
 ### S-methylmethionine cycle `http://purl.obolibrary.org/obo/GO_0033528`
@@ -631,6 +756,18 @@
 
 #### Added
 - [U6 snRNA (adenine(43)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120048) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
+### UDP-N-acetylgalactosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019277`
+#### Removed
+- [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) SubClassOf [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) 
+
+
+
+### UDP-N-acetylglucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006048`
+#### Removed
+- [UDP-N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006048) SubClassOf [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) 
+
 
 
 ### alcohol dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004022`
@@ -1181,6 +1318,18 @@
 - [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
+### fructosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030391`
+#### Removed
+- [fructosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0030391) SubClassOf [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) 
+
+
+
+### fructosamine catabolic process `http://purl.obolibrary.org/obo/GO_0030392`
+#### Removed
+- [fructosamine catabolic process](http://purl.obolibrary.org/obo/GO_0030392) SubClassOf [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) 
+
+
+
 ### fructose export from vacuole to cytosol `http://purl.obolibrary.org/obo/GO_1902334`
 #### Removed
 - [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
@@ -1189,6 +1338,14 @@
 - [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytosol" 
+
+
+### fructoselysine metabolic process `http://purl.obolibrary.org/obo/GO_0030393`
+#### Removed
+- [fructoselysine metabolic process](http://purl.obolibrary.org/obo/GO_0030393) SubClassOf [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) 
+
+#### Added
+- [fructoselysine metabolic process](http://purl.obolibrary.org/obo/GO_0030393) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
 
 
 ### gamma-1,2,3,4,5,6-hexachlorocyclohexane catabolic process `http://purl.obolibrary.org/obo/GO_0018919`
@@ -1967,6 +2124,40 @@
 
 
 
+### obsolete D-glucosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006041`
+#### Removed
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving glucosamine (2-amino-2-deoxyglucopyranose), an aminodeoxysugar that occurs in combined form in chitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-glucosamine metabolic process" 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [2-ammonio-2-deoxy-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_58723)) 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [2-ammonio-2-deoxy-D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_58723) 
+
+#### Added
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [D-glucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006042) 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [D-glucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006043) 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving glucosamine (2-amino-2-deoxyglucopyranose), an aminodeoxysugar that occurs in combined form in chitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [obsolete D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete D-glucosamine metabolic process" 
+
+
 ### obsolete FADH2 metabolic process `http://purl.obolibrary.org/obo/GO_0006746`
 #### Removed
 - [obsolete FADH2 metabolic process](http://purl.obolibrary.org/obo/GO_0006746) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
@@ -1977,6 +2168,162 @@
 #### Removed
 - [obsolete K antigen metabolic process](http://purl.obolibrary.org/obo/GO_0046375) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
+
+
+### obsolete N-acetylglucosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006044`
+#### Removed
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving N-acetylglucosamine. The D isomer is a common structural unit of glycoproteins in plants, bacteria and animals; it is often the terminal sugar of an oligosaccharide group of a glycoprotein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetylglucosamine metabolic process" 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N-acetyl-D-glucosamine](http://purl.obolibrary.org/obo/CHEBI_506227)) 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N-acetyl-D-glucosamine](http://purl.obolibrary.org/obo/CHEBI_506227) 
+
+#### Added
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006045) 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylglucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006046) 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving N-acetylglucosamine. The D isomer is a common structural unit of glycoproteins in plants, bacteria and animals; it is often the terminal sugar of an oligosaccharide group of a glycoprotein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylglucosamine metabolic process" 
+
+
+### obsolete N-acetylmannosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006051`
+#### Removed
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving N-acetylmannosamine, the acetylated derivative of mannosamine, 2-amino-2-deoxymannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetylmannosamine metabolic process" 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N-acetylmannosamine](http://purl.obolibrary.org/obo/CHEBI_62164)) 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N-acetylmannosamine](http://purl.obolibrary.org/obo/CHEBI_62164) 
+
+#### Added
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylmannosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006052) 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylmannosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006053) 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving N-acetylmannosamine, the acetylated derivative of mannosamine, 2-amino-2-deoxymannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylmannosamine metabolic process" 
+
+
+### obsolete N-acetylneuraminate metabolic process `http://purl.obolibrary.org/obo/GO_0006054`
+#### Removed
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving N-acetylneuraminate, the anion of 5-(acetylamino)-3,5-dideoxy-D-glycero-D-galacto-non-3-ulosonic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetylneuraminate metabolic process" 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N-acetylneuraminate](http://purl.obolibrary.org/obo/CHEBI_35418)) 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) SubClassOf [carboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0019752) 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [N-acetylneuraminate](http://purl.obolibrary.org/obo/CHEBI_35418) 
+
+#### Added
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylneuraminate catabolic process](http://purl.obolibrary.org/obo/GO_0019262) 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylneuraminate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046380) 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving N-acetylneuraminate, the anion of 5-(acetylamino)-3,5-dideoxy-D-glycero-D-galacto-non-3-ulosonic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylneuraminate metabolic process" 
+
+
+### obsolete UDP-N-acetylgalactosamine metabolic process `http://purl.obolibrary.org/obo/GO_0019276`
+#### Removed
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving UDP-N-acetylgalactosamine, a substance composed of N-acetylgalactosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [label](http://www.w3.org/2000/01/rdf-schema#label) "UDP-N-acetylgalactosamine metabolic process" 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [UDP-N-acetyl-D-galactosamine(2-)](http://purl.obolibrary.org/obo/CHEBI_57847)) 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) SubClassOf [nucleotide-sugar metabolic process](http://purl.obolibrary.org/obo/GO_0009225) 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [UDP-N-acetyl-D-galactosamine(2-)](http://purl.obolibrary.org/obo/CHEBI_57847) 
+
+#### Added
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving UDP-N-acetylgalactosamine, a substance composed of N-acetylgalactosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete UDP-N-acetylgalactosamine metabolic process" 
+
+
+### obsolete UDP-N-acetylglucosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006047`
+#### Removed
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving UDP-N-acetylglucosamine, a substance composed of N-acetylglucosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [label](http://www.w3.org/2000/01/rdf-schema#label) "UDP-N-acetylglucosamine metabolic process" 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [UDP-N-acetyl-alpha-D-glucosamine(2-)](http://purl.obolibrary.org/obo/CHEBI_57705)) 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) SubClassOf [nucleotide-sugar metabolic process](http://purl.obolibrary.org/obo/GO_0009225) 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [UDP-N-acetyl-alpha-D-glucosamine(2-)](http://purl.obolibrary.org/obo/CHEBI_57705) 
+
+#### Added
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [UDP-N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006048) 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving UDP-N-acetylglucosamine, a substance composed of N-acetylglucosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete UDP-N-acetylglucosamine metabolic process" 
 
 
 ### obsolete aldoxime metabolic process `http://purl.obolibrary.org/obo/GO_0019330`
@@ -2201,6 +2548,40 @@
 - [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment or maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### obsolete fructosamine metabolic process `http://purl.obolibrary.org/obo/GO_0030389`
+#### Removed
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving fructosamine, a fructose molecule containing an amino group in place of a hydroxyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0192801023" 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructosamine metabolic process" 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [fructosamine](http://purl.obolibrary.org/obo/CHEBI_24103)) 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [fructosamine](http://purl.obolibrary.org/obo/CHEBI_24103) 
+
+#### Added
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [fructosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0030391) 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [fructosamine catabolic process](http://purl.obolibrary.org/obo/GO_0030392) 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving fructosamine, a fructose molecule containing an amino group in place of a hydroxyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0192801023" 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete fructosamine metabolic process" 
+
+
 ### obsolete gentamycin catabolic process `http://purl.obolibrary.org/obo/GO_1901129`
 #### Removed
 - [obsolete gentamycin catabolic process](http://purl.obolibrary.org/obo/GO_1901129) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
@@ -2235,6 +2616,34 @@
 #### Removed
 - [obsolete isoprene metabolic process](http://purl.obolibrary.org/obo/GO_0043611) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
+
+
+### obsolete lipid X metabolic process `http://purl.obolibrary.org/obo/GO_2001289`
+#### Removed
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving lipid X, 2,3-diacylglucosamine 1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipid X metabolic process" 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) EquivalentTo [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) and ([has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957)) 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) SubClassOf [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) SubClassOf [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+#### Added
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving lipid X, 2,3-diacylglucosamine 1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [obsolete lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipid X metabolic process" 
 
 
 ### obsolete macromolecule depalmitoylation `http://purl.obolibrary.org/obo/GO_0098734`
@@ -4110,6 +4519,16 @@
 - [regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905073) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
 
 
+### rescue of stalled mitochondrial ribosome `http://purl.obolibrary.org/obo/GO_7770016`
+#### Removed
+- [rescue of stalled mitochondrial ribosome](http://purl.obolibrary.org/obo/GO_7770016) SubClassOf [rescue of stalled cytosolic ribosome](http://purl.obolibrary.org/obo/GO_0072344) 
+
+#### Added
+- [rescue of stalled mitochondrial ribosome](http://purl.obolibrary.org/obo/GO_7770016) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [rescue of stalled mitochondrial ribosome](http://purl.obolibrary.org/obo/GO_7770016) SubClassOf [ribosome disassembly](http://purl.obolibrary.org/obo/GO_0032790) 
+
+
 ### response to interleukin-5 `http://purl.obolibrary.org/obo/GO_7770102`
 
 #### Added
@@ -4147,6 +4566,52 @@
 
 - [riboflavin kinase activity](http://purl.obolibrary.org/obo/GO_0008531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: riboflavin + ATP = FMN + ADP + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14357" 
+
+
+### ribosome-associated quality control `http://purl.obolibrary.org/obo/GO_7770112`
+
+#### Added
+- Class: [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/18610"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-18T05:06:46Z" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "RQC" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosome quality control" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770112" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosome-associated protein quality control" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26733220" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein quality control pathway that acts on ribosomes stalled during translation to target the incomplete nascent polypeptide chain for degradation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35452614" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34233554" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32569528" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The core RQC machinery (NEMF/Rqc2/RqcH and the associated untemplated C-terminal chain elongation) is conserved from bacteria to humans, so this term is not restricted to eukaryotes." 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [label](http://www.w3.org/2000/01/rdf-schema#label) "ribosome-associated quality control" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) SubClassOf [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) 
+
+
+### ribosome-associated ubiquitin-dependent protein catabolic process `http://purl.obolibrary.org/obo/GO_1990116`
+
+#### Added
+- [ribosome-associated ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_1990116) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_1990116) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) 
 
 
 ### segment polarity determination `http://purl.obolibrary.org/obo/GO_0007367`
@@ -4191,6 +4656,54 @@
 
 - [sex comb development](http://purl.obolibrary.org/obo/GO_0045498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the sex comb over time, from its formation to the mature structure. The sex combs are the male specific chaetae located on the prothoracic tarsal segment of the prothoracic leg." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004296" 
+
+
+### snRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_1990273`
+#### Removed
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snRNA. The snRNA capping process includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed U6 snRNA is also TMG capped." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27628"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine (TMG) cap structure is added to the 5' end of an snRNA. The process begins with the formation of a 7-methylguanosine cap, as found on all RNA polymerase II transcripts, followed by dimethylation at the N2 position of the guanine base to convert the monomethylated cap to a 2,2,7-trimethylguanosine cap structure." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11142384" 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "TMG capped snRNAs are RNA polymerase II transcripts. The RNA polymerase III transcribed U6 snRNA is not TMG capped; it carries a gamma-monomethyl phosphate cap added by the Bin3/MePCE family of methylphosphate capping enzymes (PMID:2229067, PMID:37403782). TMG capping of a Pol III transcript has been reported only for engineered U6 variants in which disruption of the 5' stem-loop exposes the 5'-triphosphate to the normal methylguanosine capping machinery (PMID:11142384)." 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine RNA capping](http://purl.obolibrary.org/obo/GO_0009452) 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) 
+
+
+### snoRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_0180031`
+#### Removed
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snoRNA. The snoRNA capping includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed snoRNAs are also TMG capped." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27628"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine (TMG) cap structure is added to the 5' end of an snoRNA. The process begins with the formation of a 7-methylguanosine cap, as found on all RNA polymerase II transcripts, followed by dimethylation at the N2 position of the guanine base to convert the monomethylated cap to a 2,2,7-trimethylguanosine cap structure." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11983179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "TMG capped snoRNAs are RNA polymerase II transcripts. Where a snoRNA is transcribed by RNA polymerase III it is not TMG capped: plant U3 snoRNA, which is Pol III transcribed, carries a gamma-monomethyl phosphate cap, whereas the same snoRNA is TMG capped in the animals and fungi where it is Pol II transcribed (PMID:1618872)." 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine RNA capping](http://purl.obolibrary.org/obo/GO_0009452) 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) 
 
 
 ### subtelomeric heterochromatin formation `http://purl.obolibrary.org/obo/GO_0031509`

@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-18/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-19/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,13 +19,41 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-18" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-19" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
 
 #### Added
 - ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32456"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
+#### Removed
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of 10-formyltetrahydrofolate, the formylated derivative of tetrahydrofolate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [label](http://www.w3.org/2000/01/rdf-schema#label) "10-formyltetrahydrofolate biosynthetic process" 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) SubClassOf [10-formyltetrahydrofolate metabolic process](http://purl.obolibrary.org/obo/GO_0009256) 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) SubClassOf [dicarboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0043650) 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) SubClassOf [tetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046654) 
+
+#### Added
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32289"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of 10-formyltetrahydrofolate, the formylated derivative of tetrahydrofolate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as folate cycle ; GO:0035999." 
+
+- [10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 10-formyltetrahydrofolate biosynthetic process" 
 
 
 ### 4'-phosphopantetheine phosphatase activity `http://purl.obolibrary.org/obo/GO_7770095`
@@ -75,6 +103,44 @@
 - [4'-phosphopantetheine phosphatase activity](http://purl.obolibrary.org/obo/GO_7770095) [label](http://www.w3.org/2000/01/rdf-schema#label) "4'-phosphopantetheine phosphatase activity" 
 
 - [4'-phosphopantetheine phosphatase activity](http://purl.obolibrary.org/obo/GO_7770095) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
+
+
+### 7-methylguanosine cap hypermethylation `http://purl.obolibrary.org/obo/GO_0036261`
+#### Removed
+- [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Hypermethylation of the 7-(mono)methylguanosine (m(7)G) cap structure at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. This type of cap modification occurs on small nuclear RNAs (snRNAs) and small nucleolar RNAs (snoRNAs) and is dependent on prior guanine-N7 methylation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11983179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18775984" 
+
+#### Added
+- [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27628"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Hypermethylation of the 7-(mono)methylguanosine (m(7)G) cap structure at the N2 position of the guanine base to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. This type of cap modification occurs on small nuclear RNAs (snRNAs) and small nucleolar RNAs (snoRNAs) and is dependent on prior guanine-N7 methylation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11983179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18775984" 
 
 
 ### ABC-type cadmium transporter activity `http://purl.obolibrary.org/obo/GO_0015434`
@@ -157,6 +223,48 @@
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-dependent protein-RNA complex displacement activity" 
 
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) SubClassOf [ATP-dependent activity, acting on RNA](http://purl.obolibrary.org/obo/GO_0008186) 
+
+
+### D-glucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006042`
+#### Removed
+- [D-glucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006042) SubClassOf [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) 
+
+
+
+### D-glucosamine catabolic process `http://purl.obolibrary.org/obo/GO_0006043`
+#### Removed
+- [D-glucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006043) SubClassOf [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) 
+
+
+
+### D-glucosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006041`
+#### Removed
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving glucosamine (2-amino-2-deoxyglucopyranose), an aminodeoxysugar that occurs in combined form in chitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-glucosamine metabolic process" 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+#### Added
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [D-glucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006042) 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [D-glucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006043) 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving glucosamine (2-amino-2-deoxyglucopyranose), an aminodeoxysugar that occurs in combined form in chitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete D-glucosamine metabolic process" 
 
 
 ### D-sorbitol biosynthetic process `http://purl.obolibrary.org/obo/GO_0006061`
@@ -321,6 +429,126 @@
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [one-carbon metabolic process](http://purl.obolibrary.org/obo/GO_0006730) 
 
 
+### N-acetylglucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006045`
+#### Removed
+- [N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006045) SubClassOf [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) 
+
+
+
+### N-acetylglucosamine catabolic process `http://purl.obolibrary.org/obo/GO_0006046`
+#### Removed
+- [N-acetylglucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006046) SubClassOf [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) 
+
+
+
+### N-acetylglucosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006044`
+#### Removed
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving N-acetylglucosamine. The D isomer is a common structural unit of glycoproteins in plants, bacteria and animals; it is often the terminal sugar of an oligosaccharide group of a glycoprotein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetylglucosamine metabolic process" 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+#### Added
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006045) 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylglucosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006046) 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving N-acetylglucosamine. The D isomer is a common structural unit of glycoproteins in plants, bacteria and animals; it is often the terminal sugar of an oligosaccharide group of a glycoprotein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006044) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylglucosamine metabolic process" 
+
+
+### N-acetylmannosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006052`
+#### Removed
+- [N-acetylmannosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006052) SubClassOf [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) 
+
+
+
+### N-acetylmannosamine catabolic process `http://purl.obolibrary.org/obo/GO_0006053`
+#### Removed
+- [N-acetylmannosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006053) SubClassOf [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) 
+
+
+
+### N-acetylmannosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006051`
+#### Removed
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving N-acetylmannosamine, the acetylated derivative of mannosamine, 2-amino-2-deoxymannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetylmannosamine metabolic process" 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+#### Added
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylmannosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006052) 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylmannosamine catabolic process](http://purl.obolibrary.org/obo/GO_0006053) 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving N-acetylmannosamine, the acetylated derivative of mannosamine, 2-amino-2-deoxymannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [N-acetylmannosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006051) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylmannosamine metabolic process" 
+
+
+### N-acetylneuraminate biosynthetic process `http://purl.obolibrary.org/obo/GO_0046380`
+#### Removed
+- [N-acetylneuraminate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046380) SubClassOf [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) 
+
+
+
+### N-acetylneuraminate catabolic process `http://purl.obolibrary.org/obo/GO_0019262`
+#### Removed
+- [N-acetylneuraminate catabolic process](http://purl.obolibrary.org/obo/GO_0019262) SubClassOf [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) 
+
+
+
+### N-acetylneuraminate metabolic process `http://purl.obolibrary.org/obo/GO_0006054`
+#### Removed
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving N-acetylneuraminate, the anion of 5-(acetylamino)-3,5-dideoxy-D-glycero-D-galacto-non-3-ulosonic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-acetylneuraminate metabolic process" 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) SubClassOf [carboxylic acid metabolic process](http://purl.obolibrary.org/obo/GO_0019752) 
+
+#### Added
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylneuraminate catabolic process](http://purl.obolibrary.org/obo/GO_0019262) 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [N-acetylneuraminate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046380) 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving N-acetylneuraminate, the anion of 5-(acetylamino)-3,5-dideoxy-D-glycero-D-galacto-non-3-ulosonic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylneuraminate metabolic process" 
+
+
 ### NAD+ nucleosidase activity, cyclic ADP-ribose generating `http://purl.obolibrary.org/obo/GO_0061809`
 #### Removed
 - [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
@@ -330,7 +558,7 @@
 #### Added
 - [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32457"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) 
+- [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) 
 
 
 ### NADH-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_0102039`
@@ -392,6 +620,45 @@
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
 
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [RNA methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008173) 
+
+
+### RQC-specific ribosome subunit dissociation `http://purl.obolibrary.org/obo/GO_7770113`
+
+#### Added
+- Class: [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32478"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-18T18:06:47Z" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosome disassembly involved in ribosome-associated quality control" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ASCC-dependent ribosome subunit dissociation" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "RQT-dependent ribosome subunit dissociation" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770113" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The disaggregation of a stalled ribosome into its constituent large and small ribosomal subunits as part of ribosome-associated quality control (RQC), releasing the large subunit with the incomplete nascent polypeptide chain still attached via peptidyl-tRNA for downstream RQC processing." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35452614" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32203490" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32579943" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In eukaryotes, this step is carried out by the yeast RQT complex (Rqt2/Slh1, Rqt3/Cue3, Rqt4) or the metazoan ASCC complex, acting on Hel2/ZNF598-ubiquitinated collided ribosomes. In bacteria, MutS2 splits stalled collided ribosomes; this term is not restricted to eukaryotes." 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) [label](http://www.w3.org/2000/01/rdf-schema#label) "RQC-specific ribosome subunit dissociation" 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) EquivalentTo [ribosome disassembly](http://purl.obolibrary.org/obo/GO_0032790) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112)) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) SubClassOf [ribosome disassembly](http://purl.obolibrary.org/obo/GO_0032790) 
+
+- [RQC-specific ribosome subunit dissociation](http://purl.obolibrary.org/obo/GO_7770113) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) 
 
 
 ### S-methylmethionine cycle `http://purl.obolibrary.org/obo/GO_0033528`
@@ -573,6 +840,70 @@
 - [U6 snRNA (adenine(43)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120048) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
+### UDP-N-acetylgalactosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0019277`
+#### Removed
+- [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) SubClassOf [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) 
+
+
+
+### UDP-N-acetylgalactosamine metabolic process `http://purl.obolibrary.org/obo/GO_0019276`
+#### Removed
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving UDP-N-acetylgalactosamine, a substance composed of N-acetylgalactosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [label](http://www.w3.org/2000/01/rdf-schema#label) "UDP-N-acetylgalactosamine metabolic process" 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) SubClassOf [nucleotide-sugar metabolic process](http://purl.obolibrary.org/obo/GO_0009225) 
+
+#### Added
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [UDP-N-acetylgalactosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0019277) 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving UDP-N-acetylgalactosamine, a substance composed of N-acetylgalactosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete UDP-N-acetylgalactosamine metabolic process" 
+
+
+### UDP-N-acetylglucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006048`
+#### Removed
+- [UDP-N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006048) SubClassOf [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) 
+
+
+
+### UDP-N-acetylglucosamine metabolic process `http://purl.obolibrary.org/obo/GO_0006047`
+#### Removed
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving UDP-N-acetylglucosamine, a substance composed of N-acetylglucosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [label](http://www.w3.org/2000/01/rdf-schema#label) "UDP-N-acetylglucosamine metabolic process" 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) SubClassOf [nucleotide-sugar metabolic process](http://purl.obolibrary.org/obo/GO_0009225) 
+
+#### Added
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [UDP-N-acetylglucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006048) 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving UDP-N-acetylglucosamine, a substance composed of N-acetylglucosamine, a common structural unit of oligosaccharides, in glycosidic linkage with uridine diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete UDP-N-acetylglucosamine metabolic process" 
+
+
 ### alcohol dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004022`
 #### Removed
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12785" 
@@ -581,61 +912,61 @@
 
 
 
-### aldose reductase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0004032`
+### aldose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004032`
 #### Removed
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "alditol:NADP+ 1-oxidoreductase activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "alditol:NADP+ 1-oxidoreductase activity" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [ALDEHYDE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/ALDEHYDE-REDUCTASE-RXN) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [ALDEHYDE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/ALDEHYDE-REDUCTASE-RXN) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.1.1.21](http://purl.uniprot.org/enzyme/1.1.1.21) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [1.1.1.21](http://purl.uniprot.org/enzyme/1.1.1.21) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [12789](http://rdf.rhea-db.org/12789) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [12789](http://rdf.rhea-db.org/12789) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [R02820](http://www.kegg.jp/entry/R02820) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [R02820](http://www.kegg.jp/entry/R02820) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an alditol + NADP+ = an aldose + NADPH + H+." 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an alditol + NADP+ = an aldose + NADPH + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "aldose reductase activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "aldose reductase activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldose reductase (NADPH) activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldose reductase (NADPH) activity" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) 
 
 #### Added
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALDEHYDE-REDUCTASE-RXN" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ALDEHYDE-REDUCTASE-RXN" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12785" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12785" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "alditol:NADP+ 1-oxidoreductase activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "alditol:NADP+ 1-oxidoreductase activity" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "aldose reductase (NADPH) activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "aldose reductase (NADPH) activity" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [ALDEHYDE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/ALDEHYDE-REDUCTASE-RXN) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [ALDEHYDE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/ALDEHYDE-REDUCTASE-RXN) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.1.1.21](http://purl.uniprot.org/enzyme/1.1.1.21) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.1.1.21](http://purl.uniprot.org/enzyme/1.1.1.21) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12785](http://rdf.rhea-db.org/12785) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12785](http://rdf.rhea-db.org/12785) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12789](http://rdf.rhea-db.org/12789) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12789](http://rdf.rhea-db.org/12789) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [R02820](http://www.kegg.jp/entry/R02820) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [R02820](http://www.kegg.jp/entry/R02820) 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an alditol + NAD(P)+ = an aldose + NAD(P)H + H+." 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an alditol + NAD(P)+ = an aldose + NAD(P)H + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "alditol:NAD(P)+ 1-oxidoreductase activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "alditol:NAD(P)+ 1-oxidoreductase activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aldose reductase activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aldose reductase activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.1.21" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldose reductase [NAD(P)H] activity" 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldose reductase [NAD(P)H] activity" 
 
-- [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0018455) 
+- [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0018455) 
 
 
 ### ammonia assimilation cycle `http://purl.obolibrary.org/obo/GO_0019676`
@@ -700,7 +1031,7 @@
 
 ### autophagy cargo adaptor activity `http://purl.obolibrary.org/obo/GO_0160247`
 #### Removed
-- [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) 
+- [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) 
 
 #### Added
 - [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [macroautophagy](http://purl.obolibrary.org/obo/GO_0016236) 
@@ -844,46 +1175,6 @@
 - [creatine metabolic process](http://purl.obolibrary.org/obo/GO_0006600) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32279"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
-### cyclic ADP-ribose hydrolase activity `http://purl.obolibrary.org/obo/GO_0061812`
-#### Removed
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: cyclic ADP-ribose + H20 = ADP-ribose (ADPR)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11866528" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a step in a multi-step reaction." 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cyclic ADP-ribose hydrolase" 
-
-#### Added
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32457"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cADPR hydrolase activity" 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [38615](http://rdf.rhea-db.org/38615) 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: cyclic ADP-beta-D-ribose + H2O = ADP-D-ribose." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42243876" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term was reinstated from obsolete." 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) [label](http://www.w3.org/2000/01/rdf-schema#label) "cyclic ADP-ribose hydrolase activity" 
-
-- [cyclic ADP-ribose hydrolase activity](http://purl.obolibrary.org/obo/GO_0061812) SubClassOf [hydrolase activity, hydrolyzing N-glycosyl compounds](http://purl.obolibrary.org/obo/GO_0016799) 
-
-
 ### cytoplasm protein quality control `http://purl.obolibrary.org/obo/GO_0140455`
 #### Removed
 - [cytoplasm protein quality control](http://purl.obolibrary.org/obo/GO_0140455) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the cytoplasm, which are either targeted to cytoplasmic proteasomes for degradation or protected by chaperones to shield thermosensitive proteins from degradation until conditions allow disaggregation and refolding." 
@@ -906,8 +1197,66 @@
 
 ### ent-kaurene biosynthetic process `http://purl.obolibrary.org/obo/GO_0033332`
 #### Removed
-- [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) SubClassOf [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
+- [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) SubClassOf [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
 
+
+
+### ent-kaurene metabolic process `http://purl.obolibrary.org/obo/GO_0033331`
+#### Removed
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving ent-kaur-16-ene. Ent-kaurene is a tetracyclic diterpenoid that is a precursor of several plant isoprenoids, including gibberellins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17064690" 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "ent-kaurene metabolic process" 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) SubClassOf [terpene metabolic process](http://purl.obolibrary.org/obo/GO_0042214) 
+
+#### Added
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/28120"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving ent-kaur-16-ene. Ent-kaurene is a tetracyclic diterpenoid that is a precursor of several plant isoprenoids, including gibberellins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17064690" 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ent-kaurene metabolic process" 
+
+
+### establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061246`
+#### Removed
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0071963) 
+
+#### Added
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment or maintenance of bipolar cell polarity regulating cell shape" 
 
 
 ### exit from cytosolic ribosome hibernation `http://purl.obolibrary.org/obo/GO_7770110`
@@ -941,50 +1290,70 @@
 - [exit from cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_7770110) SubClassOf [positive regulation of cytoplasmic translation](http://purl.obolibrary.org/obo/GO_2000767) 
 
 
-### folate cycle `http://purl.obolibrary.org/obo/GO_0035999`
-#### Removed
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "folate cycle" 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways by which one-carbon (C1) units are transferred between tetrahydrofolate molecules, to synthesize other tetrahydrofolate molecules." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1825999" 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [label](http://www.w3.org/2000/01/rdf-schema#label) "tetrahydrofolate interconversion" 
-
-#### Added
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32362"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "folate-mediated one-carbon metabolism" 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "folic acid cycle" 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tetrahydrofolate interconversion" 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cyclic series of interconversions of the one-carbon unit carried by tetrahydrofolate - as 10-formyltetrahydrofolate, 5,10-methenyltetrahydrofolate, 5,10-methylenetetrahydrofolate and 5-methyltetrahydrofolate. Couples the acquisition of a one-carbon unit from donors such as serine, glycine or formate with its transfer, in the appropriate oxidation state, to biosynthetic acceptors, and with regeneration of tetrahydrofolate." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18804690" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27641100" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1825999" 
-
-- [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) [label](http://www.w3.org/2000/01/rdf-schema#label) "folate cycle" 
-
-
 ### formaldehyde assimilation `http://purl.obolibrary.org/obo/GO_0019649`
 
 #### Added
 - [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
-### fructose export from vacuole to cytosol `http://purl.obolibrary.org/obo/GO_1902334`
+### fructosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030391`
 #### Removed
-- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
+- [fructosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0030391) SubClassOf [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) 
+
+
+
+### fructosamine catabolic process `http://purl.obolibrary.org/obo/GO_0030392`
+#### Removed
+- [fructosamine catabolic process](http://purl.obolibrary.org/obo/GO_0030392) SubClassOf [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) 
+
+
+
+### fructosamine metabolic process `http://purl.obolibrary.org/obo/GO_0030389`
+#### Removed
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving fructosamine, a fructose molecule containing an amino group in place of a hydroxyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0192801023" 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructosamine metabolic process" 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
 
 #### Added
-- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytosol" 
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [fructosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0030391) 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [fructosamine catabolic process](http://purl.obolibrary.org/obo/GO_0030392) 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving fructosamine, a fructose molecule containing an amino group in place of a hydroxyl group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0192801023" 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete fructosamine metabolic process" 
+
+
+### fructose export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_1902334`
+#### Removed
+- [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
+
+#### Added
+- [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytosol" 
+
+
+### fructoselysine metabolic process `http://purl.obolibrary.org/obo/GO_0030393`
+#### Removed
+- [fructoselysine metabolic process](http://purl.obolibrary.org/obo/GO_0030393) SubClassOf [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) 
+
+#### Added
+- [fructoselysine metabolic process](http://purl.obolibrary.org/obo/GO_0030393) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
 
 
 ### ganglioside metabolic process `http://purl.obolibrary.org/obo/GO_0001573`
@@ -1165,14 +1534,14 @@
 - [group translocator activity](http://purl.obolibrary.org/obo/GO_7770111) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [catalytic activity](http://purl.obolibrary.org/obo/GO_0003824) 
 
 
-### heme export from vacuole to cytosol `http://purl.obolibrary.org/obo/GO_0140357`
+### heme export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_0140357`
 #### Removed
-- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytoplasm" 
+- [heme export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytoplasm" 
 
 #### Added
-- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [heme export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_0140357) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32419"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytosol" 
+- [heme export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytosol" 
 
 
 ### interleukin-5-mediated signaling pathway `http://purl.obolibrary.org/obo/GO_0038043`
@@ -1232,6 +1601,30 @@
 - [large conductance calcium-activated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770089) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [large conductance calcium-activated potassium channel activity](http://purl.obolibrary.org/obo/GO_0060072) 
 
 
+### lipid X metabolic process `http://purl.obolibrary.org/obo/GO_2001289`
+#### Removed
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving lipid X, 2,3-diacylglucosamine 1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipid X metabolic process" 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) SubClassOf [amino sugar metabolic process](http://purl.obolibrary.org/obo/GO_0006040) 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) SubClassOf [organophosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019637) 
+
+#### Added
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32273"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving lipid X, 2,3-diacylglucosamine 1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
+
+- [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipid X metabolic process" 
+
+
 ### lipoyl-GcvH:protein N-lipoyltransferase activity `http://purl.obolibrary.org/obo/GO_7770091`
 
 #### Added
@@ -1285,6 +1678,60 @@
 - [mRNA m(6)A methyltransferase activity](http://purl.obolibrary.org/obo/GO_0001734) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
+### macromolecule depalmitoylation `http://purl.obolibrary.org/obo/GO_0098734`
+#### Removed
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of palymitoyl groups from a macromolecule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [label](http://www.w3.org/2000/01/rdf-schema#label) "macromolecule depalmitoylation" 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) SubClassOf [macromolecule deacylation](http://purl.obolibrary.org/obo/GO_0098732) 
+
+#### Added
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32290"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [palmitoyl-(protein) hydrolase activity](http://purl.obolibrary.org/obo/GO_0008474) 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [palmitoyl hydrolase activity](http://purl.obolibrary.org/obo/GO_0098599) 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of palymitoyl groups from a macromolecule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. Consider instead annotating to the molecular function 'palmitoyl hydrolase activity' (GO:0098599), or, for protein substrates, 'palmitoyl-(protein) hydrolase activity' (GO:0008474)." 
+
+- [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete macromolecule depalmitoylation" 
+
+
+### maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061305`
+#### Removed
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of bipolar cell polarity regulating cell shape" 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) SubClassOf [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### maternal determination of anterior/posterior axis, embryo `http://purl.obolibrary.org/obo/GO_0008358`
 #### Removed
 - [maternal determination of anterior/posterior axis, embryo](http://purl.obolibrary.org/obo/GO_0008358) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The specification of the anterior/posterior axis of the embryo by gradients of maternally-transcribed gene products; exemplified in insects by the morphogens, bicoid and nanos." 
@@ -1297,6 +1744,38 @@
 
 - [maternal determination of anterior/posterior axis, embryo](http://purl.obolibrary.org/obo/GO_0008358) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The specification of the anterior/posterior axis of the embryo by gradients of maternally-transcribed gene products; exemplified in insects by the morphogens, bicoid and nanos." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### membrane addition at site of mitotic cytokinesis `http://purl.obolibrary.org/obo/GO_0061796`
+#### Removed
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane addition at site of mitotic cytokinesis" 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) EquivalentTo [membrane addition at site of cytokinesis](http://purl.obolibrary.org/obo/GO_0007107) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitotic cell cycle](http://purl.obolibrary.org/obo/GO_0000278)) 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [membrane addition at site of cytokinesis](http://purl.obolibrary.org/obo/GO_0007107) 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [mitotic cytokinetic process](http://purl.obolibrary.org/obo/GO_1902410) 
+
+#### Added
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31687"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exocytosis](http://purl.obolibrary.org/obo/GO_0006887) 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model." 
+
+- [membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete membrane addition at site of mitotic cytokinesis" 
 
 
 ### membrane insertase activity `http://purl.obolibrary.org/obo/GO_0032977`
@@ -1335,6 +1814,34 @@
 
 #### Added
 - [mitochondrial protein quality control](http://purl.obolibrary.org/obo/GO_0141164) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
+
+
+### mitochondrial protein-transporting ATPase activity `http://purl.obolibrary.org/obo/GO_0008566`
+#### Removed
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the mitochondrion via the mitochondrial inner membrane translocase complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.3" 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "See also the cellular component term 'mitochondrial inner membrane presequence translocase complex ; GO:0005744'." 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrial protein-transporting ATPase activity" 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) EquivalentTo [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739)) 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) SubClassOf [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739) 
+
+#### Added
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32393"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the mitochondrion via the mitochondrial inner membrane translocase complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.3" 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete mitochondrial protein-transporting ATPase activity" 
 
 
 ### momilactone-A synthase [NAD(P)H] activity `http://purl.obolibrary.org/obo/GO_0102960`
@@ -1444,6 +1951,64 @@
 - [negative regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903851) SubClassOf [negative regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051129) 
 
 
+### negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000750`
+#### Removed
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [negative regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000770) 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### negative regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061362`
+#### Removed
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
+
+#### Added
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+
 ### nitrate assimilation `http://purl.obolibrary.org/obo/GO_0042128`
 
 #### Added
@@ -1483,32 +2048,44 @@
 - [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) SubClassOf [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) 
 
 
-### obsolete 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
+### obsolete cyclic ADP-ribose hydrolase `http://purl.obolibrary.org/obo/GO_0061812`
 #### Removed
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of 10-formyltetrahydrofolate, the formylated derivative of tetrahydrofolate." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [label](http://www.w3.org/2000/01/rdf-schema#label) "10-formyltetrahydrofolate biosynthetic process" 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: cyclic ADP-ribose + H20 = ADP-ribose (ADPR)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) SubClassOf [10-formyltetrahydrofolate metabolic process](http://purl.obolibrary.org/obo/GO_0009256) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11866528" 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) SubClassOf [dicarboxylic acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0043650) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) SubClassOf [tetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046654) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
+
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a step in a multi-step reaction." 
+
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cyclic ADP-ribose hydrolase" 
 
 #### Added
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32289"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32457"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [folate cycle](http://purl.obolibrary.org/obo/GO_0035999) 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of 10-formyltetrahydrofolate, the formylated derivative of tetrahydrofolate." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cADPR hydrolase activity" 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [38615](http://rdf.rhea-db.org/38615) 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as folate cycle ; GO:0035999." 
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: cyclic ADP-beta-D-ribose + H2O = ADP-D-ribose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42243876" 
 
-- [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 10-formyltetrahydrofolate biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
+
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term was reinstated from obsolete." 
+
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) [label](http://www.w3.org/2000/01/rdf-schema#label) "cyclic ADP-ribose hydrolase activity" 
+
+- [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) SubClassOf [hydrolase activity, hydrolyzing N-glycosyl compounds](http://purl.obolibrary.org/obo/GO_0016799) 
 
 
 ### obsolete diaminopimelate biosynthetic process `http://purl.obolibrary.org/obo/GO_0019877`
@@ -1523,43 +2100,15 @@
 - [obsolete diaminopimelate biosynthetic process](http://purl.obolibrary.org/obo/GO_0019877) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents an intermediate in L-lysine biosynthesis." 
 
 
-### obsolete ent-kaurene metabolic process `http://purl.obolibrary.org/obo/GO_0033331`
-#### Removed
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving ent-kaur-16-ene. Ent-kaurene is a tetracyclic diterpenoid that is a precursor of several plant isoprenoids, including gibberellins." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17064690" 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "ent-kaurene metabolic process" 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) SubClassOf [terpene metabolic process](http://purl.obolibrary.org/obo/GO_0042214) 
-
-#### Added
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/28120"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving ent-kaur-16-ene. Ent-kaurene is a tetracyclic diterpenoid that is a precursor of several plant isoprenoids, including gibberellins." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17064690" 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
-
-- [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ent-kaurene metabolic process" 
-
-
 ### obsolete envenomation resulting in occlusion of the pore of voltage-gated potassium channel `http://purl.obolibrary.org/obo/GO_0044564`
 #### Removed
-- [obsolete envenomation resulting in occlusion of the pore of voltage-gated potassium channel](http://purl.obolibrary.org/obo/GO_0044564) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) 
+- [obsolete envenomation resulting in occlusion of the pore of voltage-gated potassium channel](http://purl.obolibrary.org/obo/GO_0044564) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) 
 
 
 
 ### obsolete envenomation resulting in slowing of activation kinetics of voltage-gated potassium channel `http://purl.obolibrary.org/obo/GO_0044563`
 #### Removed
-- [obsolete envenomation resulting in slowing of activation kinetics of voltage-gated potassium channel](http://purl.obolibrary.org/obo/GO_0044563) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) 
+- [obsolete envenomation resulting in slowing of activation kinetics of voltage-gated potassium channel](http://purl.obolibrary.org/obo/GO_0044563) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) 
 
 
 
@@ -1601,972 +2150,6 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
-### obsolete establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061246`
-#### Removed
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) SubClassOf [establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0071963) 
-
-#### Added
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete macromolecule depalmitoylation `http://purl.obolibrary.org/obo/GO_0098734`
-#### Removed
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of palymitoyl groups from a macromolecule." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [label](http://www.w3.org/2000/01/rdf-schema#label) "macromolecule depalmitoylation" 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) SubClassOf [macromolecule deacylation](http://purl.obolibrary.org/obo/GO_0098732) 
-
-#### Added
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32290"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [palmitoyl-(protein) hydrolase activity](http://purl.obolibrary.org/obo/GO_0008474) 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [palmitoyl hydrolase activity](http://purl.obolibrary.org/obo/GO_0098599) 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of palymitoyl groups from a macromolecule." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. Consider instead annotating to the molecular function 'palmitoyl hydrolase activity' (GO:0098599), or, for protein substrates, 'palmitoyl-(protein) hydrolase activity' (GO:0008474)." 
-
-- [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete macromolecule depalmitoylation" 
-
-
-### obsolete maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061305`
-#### Removed
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) SubClassOf [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
-
-#### Added
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The maintenance of established bipolar anisotropic intracellular organization or cell growth patterns that results in the shaping of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
-
-- [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete membrane addition at site of mitotic cytokinesis `http://purl.obolibrary.org/obo/GO_0061796`
-#### Removed
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [label](http://www.w3.org/2000/01/rdf-schema#label) "membrane addition at site of mitotic cytokinesis" 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) EquivalentTo [membrane addition at site of cytokinesis](http://purl.obolibrary.org/obo/GO_0007107) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitotic cell cycle](http://purl.obolibrary.org/obo/GO_0000278)) 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [membrane addition at site of cytokinesis](http://purl.obolibrary.org/obo/GO_0007107) 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) SubClassOf [mitotic cytokinetic process](http://purl.obolibrary.org/obo/GO_1902410) 
-
-#### Added
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31687"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exocytosis](http://purl.obolibrary.org/obo/GO_0006887) 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A mitotic cell cycle process involved in the net addition of membrane at the site of cytokinesis; includes vesicle recruitment and fusion, local lipid synthesis and insertion." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is pre-composed and should be represented as a GO-CAM model." 
-
-- [obsolete membrane addition at site of mitotic cytokinesis](http://purl.obolibrary.org/obo/GO_0061796) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete membrane addition at site of mitotic cytokinesis" 
-
-
-### obsolete mitochondrial protein-transporting ATPase activity `http://purl.obolibrary.org/obo/GO_0008566`
-#### Removed
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the mitochondrion via the mitochondrial inner membrane translocase complex." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.3" 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "See also the cellular component term 'mitochondrial inner membrane presequence translocase complex ; GO:0005744'." 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrial protein-transporting ATPase activity" 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) EquivalentTo [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739)) 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) SubClassOf [protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0015450) 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739) 
-
-#### Added
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32393"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the mitochondrion via the mitochondrial inner membrane translocase complex." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.3" 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
-
-- [obsolete mitochondrial protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008566) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete mitochondrial protein-transporting ATPase activity" 
-
-
-### obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000750`
-#### Removed
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [negative regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000770) 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
-
-#### Added
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061362`
-#### Removed
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
-
-#### Added
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that decreases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete ocellus pigment granule organization `http://purl.obolibrary.org/obo/GO_0008058`
-#### Removed
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of intracellular pigment storage granules in the ocellus." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm" 
-
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [label](http://www.w3.org/2000/01/rdf-schema#label) "ocellus pigment granule organization" 
-
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) SubClassOf [pigment granule organization](http://purl.obolibrary.org/obo/GO_0048753) 
-
-#### Added
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/18983"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of intracellular pigment storage granules in the ocellus." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm" 
-
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ocellus pigment granule organization" 
-
-
-### obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061161`
-#### Removed
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment of bipolar cell polarity regulating cell shape" 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [positive regulation of establishment of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061173) 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) 
-
-#### Added
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000247`
-#### Removed
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [positive regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000771) 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
-
-#### Added
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
-
-- [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061361`
-#### Removed
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
-
-#### Added
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete protein depalmitoylation `http://purl.obolibrary.org/obo/GO_0002084`
-#### Removed
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of palymitoyl groups from a lipoprotein." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein depalmitoylation" 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) SubClassOf [protein deacylation](http://purl.obolibrary.org/obo/GO_0035601) 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) SubClassOf [lipoprotein catabolic process](http://purl.obolibrary.org/obo/GO_0042159) 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) SubClassOf [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) 
-
-#### Added
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32290"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [palmitoyl-(protein) hydrolase activity](http://purl.obolibrary.org/obo/GO_0008474) 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of palymitoyl groups from a lipoprotein." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. Consider instead annotating to the molecular function 'palmitoyl-(protein) hydrolase activity' (GO:0008474)." 
-
-- [obsolete protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein depalmitoylation" 
-
-
-### obsolete regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061160`
-#### Removed
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment of bipolar cell polarity regulating cell shape" 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [regulation of establishment of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061172) 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
-
-#### Added
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000100`
-#### Removed
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_2000099) 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000769) 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
-
-#### Added
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000115`
-#### Removed
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of maintenance of bipolar cell polarity regulating cell shape" 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305)) 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
-
-#### Added
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
-
-- [obsolete regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
-
-
-### obsolete substrate localization to autophagosome `http://purl.obolibrary.org/obo/GO_0061753`
-#### Removed
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The localization process by which an autophagic substrate is delivered to a forming autophagosome." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23545414" 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [label](http://www.w3.org/2000/01/rdf-schema#label) "substrate localization to autophagosome" 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) SubClassOf [establishment of localization in cell](http://purl.obolibrary.org/obo/GO_0051649) 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [autophagosome assembly](http://purl.obolibrary.org/obo/GO_0000045) 
-
-#### Added
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32304"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The localization process by which an autophagic substrate is delivered to a forming autophagosome." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23545414" 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term: localization terms that are not transport terms are largely uninformative about biological process. The intended biology in every observed use is better captured by a specific selective-autophagy term (e.g. mitophagy, glycophagy, reticulophagy). See the annotation review at https://github.com/geneontology/go-annotation/issues/6497 for per-annotation transfer recommendations." 
-
-- [obsolete substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete substrate localization to autophagosome" 
-
-
-### obsolete thioredoxin peroxidase activity `http://purl.obolibrary.org/obo/GO_0008379`
-#### Removed
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN0-267" 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [63528](http://rdf.rhea-db.org/63528) 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: [thioredoxin]-dithiol + H2O2 = [thioredoxin]-disulfide + H2O." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [label](http://www.w3.org/2000/01/rdf-schema#label) "thioredoxin peroxidase activity" 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) SubClassOf [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) 
-
-#### Added
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32388"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: [thioredoxin]-dithiol + H2O2 = [thioredoxin]-disulfide + H2O." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is redundant with GO:0140824 thioredoxin-dependent peroxiredoxin activity. Both enzyme activities use thioredoxin; the nominal distinction was that GO:0008379/RHEA:63528 specified hydrogen peroxide as substrate while GO:0140824/RHEA:62620 uses a hydroperoxide (of which H2O2 is a subtype). RHEA:63528 has no proteins associated with it and this term has been misannotated for enzymes with broader hydroperoxide specificity." 
-
-- [obsolete thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete thioredoxin peroxidase activity" 
-
-
-### obsolete venom-mediated activation of pH-gated ion channel activity `http://purl.obolibrary.org/obo/GO_0044734`
-#### Removed
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism initiates, promotes, or enhances the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated activation of pH-gated ion channel activity" 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) SubClassOf [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) 
-
-#### Added
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [channel activator activity](http://purl.obolibrary.org/obo/GO_0099103) 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism initiates, promotes, or enhances the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated activation of pH-gated ion channel activity" 
-
-
-### obsolete venom-mediated activation of voltage-gated sodium channel activity `http://purl.obolibrary.org/obo/GO_0044494`
-#### Removed
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism initiates, promotes, or enhances the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated activation of voltage-gated sodium channel activity" 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) SubClassOf [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) 
-
-#### Added
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism initiates, promotes, or enhances the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated activation of voltage-gated sodium channel activity" 
-
-
-### obsolete venom-mediated inhibition of calcium channel activity `http://purl.obolibrary.org/obo/GO_0044473`
-#### Removed
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of calcium channel activity" 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) SubClassOf [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) 
-
-#### Added
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of calcium channel activity" 
-
-
-### obsolete venom-mediated inhibition of high voltage-gated calcium channel activity `http://purl.obolibrary.org/obo/GO_0044475`
-#### Removed
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a high voltage-gated calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of high voltage-gated calcium channel activity" 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) SubClassOf [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) 
-
-#### Added
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a high voltage-gated calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of high voltage-gated calcium channel activity" 
-
-
-### obsolete venom-mediated inhibition of low voltage-gated calcium channel activity `http://purl.obolibrary.org/obo/GO_0044476`
-#### Removed
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a low voltage-gated calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of low voltage-gated calcium channel activity" 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) SubClassOf [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) 
-
-#### Added
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a low voltage-gated calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of low voltage-gated calcium channel activity" 
-
-
-### obsolete venom-mediated inhibition of pH-gated ion channel activity `http://purl.obolibrary.org/obo/GO_0044735`
-#### Removed
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of pH-gated ion channel activity" 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) SubClassOf [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) 
-
-#### Added
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ion channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0008200) 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of pH-gated ion channel activity" 
-
-
-### obsolete venom-mediated inhibition of voltage-gated calcium channel activity `http://purl.obolibrary.org/obo/GO_0044474`
-#### Removed
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a voltage-gated calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of voltage-gated calcium channel activity" 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) SubClassOf [obsolete venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) 
-
-#### Added
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a voltage-gated calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of voltage-gated calcium channel activity" 
-
-
-### obsolete venom-mediated inhibition of voltage-gated potassium channel activity `http://purl.obolibrary.org/obo/GO_0044562`
-#### Removed
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a  voltage-gated potassium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of voltage-gated potassium channel activity" 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) SubClassOf [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) 
-
-#### Added
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [voltage-gated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770090) 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a  voltage-gated potassium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of voltage-gated potassium channel activity" 
-
-
-### obsolete venom-mediated inhibition of voltage-gated sodium channel activity `http://purl.obolibrary.org/obo/GO_0044493`
-#### Removed
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of voltage-gated sodium channel activity" 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) SubClassOf [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) 
-
-#### Added
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [sodium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019871) 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of voltage-gated sodium channel activity" 
-
-
-### obsolete venom-mediated perturbation of calcium channel activity `http://purl.obolibrary.org/obo/GO_0044472`
-#### Removed
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of calcium channel activity" 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) SubClassOf [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
-
-#### Added
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel regulator activity](http://purl.obolibrary.org/obo/GO_0005246) 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a calcium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of calcium channel activity" 
-
-
-### obsolete venom-mediated perturbation of ion channel activity `http://purl.obolibrary.org/obo/GO_0044560`
-#### Removed
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of an ion channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of ion channel activity" 
-
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) SubClassOf [venom-mediated perturbation of biological process](http://purl.obolibrary.org/obo/GO_0035738) 
-
-#### Added
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of an ion channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of ion channel activity" 
-
-
-### obsolete venom-mediated perturbation of pH-gated ion channel activity `http://purl.obolibrary.org/obo/GO_0044733`
-#### Removed
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of pH-gated ion channel activity" 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) SubClassOf [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
-
-#### Added
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ion channel regulator activity](http://purl.obolibrary.org/obo/GO_0099106) 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of pH-gated ion channel activity" 
-
-
-### obsolete venom-mediated perturbation of voltage-gated potassium channel activity `http://purl.obolibrary.org/obo/GO_0044559`
-#### Removed
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a voltage-gated potassium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of voltage-gated potassium channel activity" 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) SubClassOf [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
-
-#### Added
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [potassium channel regulator activity](http://purl.obolibrary.org/obo/GO_0015459) 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a voltage-gated potassium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of voltage-gated potassium channel activity" 
-
-
-### obsolete venom-mediated perturbation of voltage-gated sodium channel activity `http://purl.obolibrary.org/obo/GO_0044492`
-#### Removed
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of voltage-gated sodium channel activity" 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) SubClassOf [obsolete venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
-
-#### Added
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [sodium channel regulator activity](http://purl.obolibrary.org/obo/GO_0017080) 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
-
-- [obsolete venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of voltage-gated sodium channel activity" 
-
-
-### obsolete very long-chain fatty acid beta-oxidation `http://purl.obolibrary.org/obo/GO_0140493`
-#### Removed
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A fatty acid beta-oxidation pathway acting on a very long-chain fatty acid. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons. The partway stars with the conversion of an acyl-CoA to a trans-2-enoyl-CoA, catalyzed by acyl-CoA oxidase; the electrons removed by oxidation pass directly to oxygen and produce hydrogen peroxide, which is cleaved by peroxisomal catalases. Fatty acid beta-oxidation begins with the addition of coenzyme A to a fatty acid, and ends when only two or three carbons remain (as acetyl-CoA or propionyl-CoA respectively)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32169171" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17028011" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ha" 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283)." 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain fatty acid beta-oxidation" 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) SubClassOf [very long-chain fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0042760) 
-
-#### Added
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [very long-chain fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0042760) 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A fatty acid beta-oxidation pathway acting on a very long-chain fatty acid. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons. The partway stars with the conversion of an acyl-CoA to a trans-2-enoyl-CoA, catalyzed by acyl-CoA oxidase; the electrons removed by oxidation pass directly to oxygen and produce hydrogen peroxide, which is cleaved by peroxisomal catalases. Fatty acid beta-oxidation begins with the addition of coenzyme A to a fatty acid, and ends when only two or three carbons remain (as acetyl-CoA or propionyl-CoA respectively)." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32169171" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17028011" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ha" 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as very long-chain fatty acid catabolic process ; GO:0042760." 
-
-- [obsolete very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete very long-chain fatty acid beta-oxidation" 
-
-
 ### ocellus development `http://purl.obolibrary.org/obo/GO_0008056`
 #### Removed
 - [ocellus development](http://purl.obolibrary.org/obo/GO_0008056) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the ocellus over time, from its formation to the mature structure. The ocellus is a simple visual organ of insects." 
@@ -2589,6 +2172,28 @@
 
 - [ocellus morphogenesis](http://purl.obolibrary.org/obo/GO_0048816) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which the anatomical structures of the ocellus are generated and organized. The ocellus is a simple visual organ of insects." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004505" 
+
+
+### ocellus pigment granule organization `http://purl.obolibrary.org/obo/GO_0008058`
+#### Removed
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of intracellular pigment storage granules in the ocellus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm" 
+
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [label](http://www.w3.org/2000/01/rdf-schema#label) "ocellus pigment granule organization" 
+
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) SubClassOf [pigment granule organization](http://purl.obolibrary.org/obo/GO_0048753) 
+
+#### Added
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/18983"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of intracellular pigment storage granules in the ocellus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://fly.ebi.ac.uk/allied-data/lk/interactive-fly/aimain/1aahome.htm" 
+
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ocellus pigment granule organization" 
 
 
 ### organophosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0090407`
@@ -2625,7 +2230,7 @@
 
 ### palmitoyl hydrolase activity `http://purl.obolibrary.org/obo/GO_0098599`
 #### Removed
-- [palmitoyl hydrolase activity](http://purl.obolibrary.org/obo/GO_0098599) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) 
+- [palmitoyl hydrolase activity](http://purl.obolibrary.org/obo/GO_0098599) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) 
 
 
 
@@ -2691,7 +2296,7 @@
 
 - [peroxisomal protein quality control](http://purl.obolibrary.org/obo/GO_0170079) [label](http://www.w3.org/2000/01/rdf-schema#label) "peroxisomal protein quality control" 
 
-- [peroxisomal protein quality control](http://purl.obolibrary.org/obo/GO_0170079) SubClassOf [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) 
+- [peroxisomal protein quality control](http://purl.obolibrary.org/obo/GO_0170079) SubClassOf [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) 
 
 - [peroxisomal protein quality control](http://purl.obolibrary.org/obo/GO_0170079) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
 
@@ -2718,6 +2323,96 @@
 
 #### Added
 - [positive regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903852) SubClassOf [positive regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051130) 
+
+
+### positive regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061161`
+#### Removed
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [positive regulation of establishment of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061173) 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) SubClassOf [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) 
+
+#### Added
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the rate, frequency or extent of the establishment of bipolar cell polarity that regulates the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+
+### positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000247`
+#### Removed
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [positive regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000771) 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### positive regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061361`
+#### Removed
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
+
+#### Added
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that increases the frequency, rate or extent of maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
 ### posterior abdomen determination `http://purl.obolibrary.org/obo/GO_0007359`
@@ -2756,60 +2451,90 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### protein depalmitoylation `http://purl.obolibrary.org/obo/GO_0002084`
+#### Removed
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The removal of palymitoyl groups from a lipoprotein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein depalmitoylation" 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) SubClassOf [protein deacylation](http://purl.obolibrary.org/obo/GO_0035601) 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) SubClassOf [lipoprotein catabolic process](http://purl.obolibrary.org/obo/GO_0042159) 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) SubClassOf [macromolecule depalmitoylation](http://purl.obolibrary.org/obo/GO_0098734) 
+
+#### Added
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32290"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [palmitoyl-(protein) hydrolase activity](http://purl.obolibrary.org/obo/GO_0008474) 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The removal of palymitoyl groups from a lipoprotein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function, not a biological process. Consider instead annotating to the molecular function 'palmitoyl-(protein) hydrolase activity' (GO:0008474)." 
+
+- [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein depalmitoylation" 
+
+
 ### protein insertion into mitochondrial membrane `http://purl.obolibrary.org/obo/GO_0051204`
 #### Removed
 - [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) SubClassOf [establishment of localization in cell](http://purl.obolibrary.org/obo/GO_0051649) 
 
 
 
-### protein quality control `http://purl.obolibrary.org/obo/GO_0006515`
+### protein quality control for misfolded or incompletely synthesized proteins `http://purl.obolibrary.org/obo/GO_0006515`
 #### Removed
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "protein quality control by the ubiquitin-proteasome system" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "protein quality control by the ubiquitin-proteasome system" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "degradation of misfolded or incompletely synthesized proteins" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "degradation of misfolded or incompletely synthesized proteins" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein breakdown" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein breakdown" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein catabolic process" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein catabolic process" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein catabolism" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein catabolism" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein degradation" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "misfolded or incompletely synthesized protein degradation" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein quality control (PQC)" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein quality control (PQC)" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of misfolded or attenuated proteins." 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of misfolded or attenuated proteins." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein quality control for misfolded or incompletely synthesized proteins" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein quality control for misfolded or incompletely synthesized proteins" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
 
 #### Added
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PQC" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PQC" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "degradation of misfolded or incompletely synthesized proteins" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "degradation of misfolded or incompletely synthesized proteins" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein breakdown" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein breakdown" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein catabolic process" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein catabolic process" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein catabolism" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein catabolism" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein degradation" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "misfolded or incompletely synthesized protein degradation" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protein quality control by the ubiquitin-proteasome system" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protein quality control by the ubiquitin-proteasome system" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protein quality control for misfolded or incompletely synthesized proteins" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protein quality control for misfolded or incompletely synthesized proteins" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown or refolding of misfolded, dysfunctional, or incompletely synthesized proteins." 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown or refolding of misfolded, dysfunctional, or incompletely synthesized proteins." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21746797" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein quality control" 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein quality control" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [cellular process](http://purl.obolibrary.org/obo/GO_0009987) 
+- [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [cellular process](http://purl.obolibrary.org/obo/GO_0009987) 
 
 
 ### protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0008982`
@@ -2856,6 +2581,104 @@
 - [regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903850) SubClassOf [regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051128) 
 
 
+### regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061160`
+#### Removed
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [regulation of establishment of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061172) 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+#### Added
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the rate, frequency or extent of the establishment of bipolar cell polarity that contributes to the shape of a cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+
+### regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000100`
+#### Removed
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246)) 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_2000099) 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulation of establishment or maintenance of cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000769) 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) 
+
+#### Added
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000115`
+#### Removed
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305)) 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) 
+
+#### Added
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21217"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [establishment or maintenance of bipolar cell polarity](http://purl.obolibrary.org/obo/GO_0061245) 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
+
+- [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### rescue of stalled mitochondrial ribosome `http://purl.obolibrary.org/obo/GO_7770016`
+#### Removed
+- [rescue of stalled mitochondrial ribosome](http://purl.obolibrary.org/obo/GO_7770016) SubClassOf [rescue of stalled cytosolic ribosome](http://purl.obolibrary.org/obo/GO_0072344) 
+
+#### Added
+- [rescue of stalled mitochondrial ribosome](http://purl.obolibrary.org/obo/GO_7770016) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [rescue of stalled mitochondrial ribosome](http://purl.obolibrary.org/obo/GO_7770016) SubClassOf [ribosome disassembly](http://purl.obolibrary.org/obo/GO_0032790) 
+
+
 ### response to interleukin-5 `http://purl.obolibrary.org/obo/GO_7770102`
 
 #### Added
@@ -2893,6 +2716,52 @@
 
 - [riboflavin kinase activity](http://purl.obolibrary.org/obo/GO_0008531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: riboflavin + ATP = FMN + ADP + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14357" 
+
+
+### ribosome-associated quality control `http://purl.obolibrary.org/obo/GO_7770112`
+
+#### Added
+- Class: [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/18610"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-18T05:06:46Z" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "RQC" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosome quality control" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770112" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosome-associated protein quality control" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26733220" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein quality control pathway that acts on ribosomes stalled during translation to target the incomplete nascent polypeptide chain for degradation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35452614" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34233554" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32569528" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The core RQC machinery (NEMF/Rqc2/RqcH and the associated untemplated C-terminal chain elongation) is conserved from bacteria to humans, so this term is not restricted to eukaryotes." 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) [label](http://www.w3.org/2000/01/rdf-schema#label) "ribosome-associated quality control" 
+
+- [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) SubClassOf [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) 
+
+
+### ribosome-associated ubiquitin-dependent protein catabolic process `http://purl.obolibrary.org/obo/GO_1990116`
+
+#### Added
+- [ribosome-associated ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_1990116) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/26238"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_1990116) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome-associated quality control](http://purl.obolibrary.org/obo/GO_7770112) 
 
 
 ### segment polarity determination `http://purl.obolibrary.org/obo/GO_0007367`
@@ -2939,6 +2808,90 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004296" 
 
 
+### snRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_1990273`
+#### Removed
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snRNA. The snRNA capping process includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed U6 snRNA is also TMG capped." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27628"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine (TMG) cap structure is added to the 5' end of an snRNA. The process begins with the formation of a 7-methylguanosine cap, as found on all RNA polymerase II transcripts, followed by dimethylation at the N2 position of the guanine base to convert the monomethylated cap to a 2,2,7-trimethylguanosine cap structure." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11142384" 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "TMG capped snRNAs are RNA polymerase II transcripts. The RNA polymerase III transcribed U6 snRNA is not TMG capped; it carries a gamma-monomethyl phosphate cap added by the Bin3/MePCE family of methylphosphate capping enzymes (PMID:2229067, PMID:37403782). TMG capping of a Pol III transcript has been reported only for engineered U6 variants in which disruption of the 5' stem-loop exposes the 5'-triphosphate to the normal methylguanosine capping machinery (PMID:11142384)." 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine RNA capping](http://purl.obolibrary.org/obo/GO_0009452) 
+
+- [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) 
+
+
+### snoRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_0180031`
+#### Removed
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snoRNA. The snoRNA capping includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed snoRNAs are also TMG capped." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27628"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine (TMG) cap structure is added to the 5' end of an snoRNA. The process begins with the formation of a 7-methylguanosine cap, as found on all RNA polymerase II transcripts, followed by dimethylation at the N2 position of the guanine base to convert the monomethylated cap to a 2,2,7-trimethylguanosine cap structure." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15590684" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11983179" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "TMG capped snoRNAs are RNA polymerase II transcripts. Where a snoRNA is transcribed by RNA polymerase III it is not TMG capped: plant U3 snoRNA, which is Pol III transcribed, carries a gamma-monomethyl phosphate cap, whereas the same snoRNA is TMG capped in the animals and fungi where it is Pol II transcribed (PMID:1618872)." 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine RNA capping](http://purl.obolibrary.org/obo/GO_0009452) 
+
+- [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) 
+
+
+### substrate localization to autophagosome `http://purl.obolibrary.org/obo/GO_0061753`
+#### Removed
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The localization process by which an autophagic substrate is delivered to a forming autophagosome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23545414" 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [label](http://www.w3.org/2000/01/rdf-schema#label) "substrate localization to autophagosome" 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) SubClassOf [establishment of localization in cell](http://purl.obolibrary.org/obo/GO_0051649) 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [autophagosome assembly](http://purl.obolibrary.org/obo/GO_0000045) 
+
+#### Added
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32304"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The localization process by which an autophagic substrate is delivered to a forming autophagosome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pad" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23545414" 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term: localization terms that are not transport terms are largely uninformative about biological process. The intended biology in every observed use is better captured by a specific selective-autophagy term (e.g. mitophagy, glycophagy, reticulophagy). See the annotation review at https://github.com/geneontology/go-annotation/issues/6497 for per-annotation transfer recommendations." 
+
+- [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete substrate localization to autophagosome" 
+
+
 ### subtelomeric heterochromatin formation `http://purl.obolibrary.org/obo/GO_0031509`
 #### Removed
 - [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [chromosome, telomeric region](http://purl.obolibrary.org/obo/GO_0000781) 
@@ -2975,6 +2928,66 @@
 
 - [terminal region determination](http://purl.obolibrary.org/obo/GO_0007362) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Specification of the terminal regions (the two non-segmented ends) of the embryo by the gap genes; exemplified in insects by the actions of huckebein and tailless gene products." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### tetrahydrofolate interconversion `http://purl.obolibrary.org/obo/GO_0035999`
+#### Removed
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "folate cycle" 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways by which one-carbon (C1) units are transferred between tetrahydrofolate molecules, to synthesize other tetrahydrofolate molecules." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:yaf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1825999" 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [label](http://www.w3.org/2000/01/rdf-schema#label) "tetrahydrofolate interconversion" 
+
+#### Added
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32362"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "folate-mediated one-carbon metabolism" 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "folic acid cycle" 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tetrahydrofolate interconversion" 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cyclic series of interconversions of the one-carbon unit carried by tetrahydrofolate - as 10-formyltetrahydrofolate, 5,10-methenyltetrahydrofolate, 5,10-methylenetetrahydrofolate and 5-methyltetrahydrofolate. Couples the acquisition of a one-carbon unit from donors such as serine, glycine or formate with its transfer, in the appropriate oxidation state, to biosynthetic acceptors, and with regeneration of tetrahydrofolate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18804690" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27641100" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1825999" 
+
+- [tetrahydrofolate interconversion](http://purl.obolibrary.org/obo/GO_0035999) [label](http://www.w3.org/2000/01/rdf-schema#label) "folate cycle" 
+
+
+### thioredoxin peroxidase activity `http://purl.obolibrary.org/obo/GO_0008379`
+#### Removed
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN0-267" 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [63528](http://rdf.rhea-db.org/63528) 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: [thioredoxin]-dithiol + H2O2 = [thioredoxin]-disulfide + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [label](http://www.w3.org/2000/01/rdf-schema#label) "thioredoxin peroxidase activity" 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) SubClassOf [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) 
+
+#### Added
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32388"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: [thioredoxin]-dithiol + H2O2 = [thioredoxin]-disulfide + H2O." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is redundant with GO:0140824 thioredoxin-dependent peroxiredoxin activity. Both enzyme activities use thioredoxin; the nominal distinction was that GO:0008379/RHEA:63528 specified hydrogen peroxide as substrate while GO:0140824/RHEA:62620 uses a hydroperoxide (of which H2O2 is a subtype). RHEA:63528 has no proteins associated with it and this term has been misannotated for enzymes with broader hydroperoxide specificity." 
+
+- [thioredoxin peroxidase activity](http://purl.obolibrary.org/obo/GO_0008379) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete thioredoxin peroxidase activity" 
 
 
 ### thioredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_0140824`
@@ -3039,6 +3052,474 @@
 #### Removed
 - [urate catabolic process](http://purl.obolibrary.org/obo/GO_0019628) SubClassOf [small molecule catabolic process](http://purl.obolibrary.org/obo/GO_0044282) 
 
+
+
+### venom-mediated activation of pH-gated ion channel activity `http://purl.obolibrary.org/obo/GO_0044734`
+#### Removed
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism initiates, promotes, or enhances the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated activation of pH-gated ion channel activity" 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) SubClassOf [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) 
+
+#### Added
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [channel activator activity](http://purl.obolibrary.org/obo/GO_0099103) 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism initiates, promotes, or enhances the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated activation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated activation of pH-gated ion channel activity" 
+
+
+### venom-mediated activation of voltage-gated sodium channel activity `http://purl.obolibrary.org/obo/GO_0044494`
+#### Removed
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism initiates, promotes, or enhances the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated activation of voltage-gated sodium channel activity" 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) SubClassOf [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) 
+
+#### Added
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [sodium channel activator activity](http://purl.obolibrary.org/obo/GO_7770087) 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism initiates, promotes, or enhances the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated activation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044494) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated activation of voltage-gated sodium channel activity" 
+
+
+### venom-mediated inhibition of calcium channel activity `http://purl.obolibrary.org/obo/GO_0044473`
+#### Removed
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of calcium channel activity" 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) SubClassOf [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) 
+
+#### Added
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of calcium channel activity" 
+
+
+### venom-mediated inhibition of high voltage-gated calcium channel activity `http://purl.obolibrary.org/obo/GO_0044475`
+#### Removed
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a high voltage-gated calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of high voltage-gated calcium channel activity" 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) SubClassOf [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) 
+
+#### Added
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a high voltage-gated calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of high voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044475) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of high voltage-gated calcium channel activity" 
+
+
+### venom-mediated inhibition of low voltage-gated calcium channel activity `http://purl.obolibrary.org/obo/GO_0044476`
+#### Removed
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a low voltage-gated calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of low voltage-gated calcium channel activity" 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) SubClassOf [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) 
+
+#### Added
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a low voltage-gated calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of low voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044476) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of low voltage-gated calcium channel activity" 
+
+
+### venom-mediated inhibition of pH-gated ion channel activity `http://purl.obolibrary.org/obo/GO_0044735`
+#### Removed
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of pH-gated ion channel activity" 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) SubClassOf [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) 
+
+#### Added
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ion channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0008200) 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044735) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of pH-gated ion channel activity" 
+
+
+### venom-mediated inhibition of voltage-gated calcium channel activity `http://purl.obolibrary.org/obo/GO_0044474`
+#### Removed
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a voltage-gated calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of voltage-gated calcium channel activity" 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) SubClassOf [venom-mediated inhibition of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044473) 
+
+#### Added
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019855) 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a voltage-gated calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of voltage-gated calcium channel activity](http://purl.obolibrary.org/obo/GO_0044474) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of voltage-gated calcium channel activity" 
+
+
+### venom-mediated inhibition of voltage-gated potassium channel activity `http://purl.obolibrary.org/obo/GO_0044562`
+#### Removed
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a  voltage-gated potassium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of voltage-gated potassium channel activity" 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) SubClassOf [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) 
+
+#### Added
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [voltage-gated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770090) 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a  voltage-gated potassium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044562) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of voltage-gated potassium channel activity" 
+
+
+### venom-mediated inhibition of voltage-gated sodium channel activity `http://purl.obolibrary.org/obo/GO_0044493`
+#### Removed
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated inhibition of voltage-gated sodium channel activity" 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) SubClassOf [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) 
+
+#### Added
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [sodium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019871) 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism inhibits or disrupts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated inhibition of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044493) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated inhibition of voltage-gated sodium channel activity" 
+
+
+### venom-mediated perturbation of calcium channel activity `http://purl.obolibrary.org/obo/GO_0044472`
+#### Removed
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of calcium channel activity" 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) SubClassOf [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
+
+#### Added
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [calcium channel regulator activity](http://purl.obolibrary.org/obo/GO_0005246) 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a calcium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20920515" 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated perturbation of calcium channel activity](http://purl.obolibrary.org/obo/GO_0044472) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of calcium channel activity" 
+
+
+### venom-mediated perturbation of ion channel activity `http://purl.obolibrary.org/obo/GO_0044560`
+#### Removed
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of an ion channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of ion channel activity" 
+
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) SubClassOf [venom-mediated perturbation of biological process](http://purl.obolibrary.org/obo/GO_0035738) 
+
+#### Added
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of an ion channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of ion channel activity" 
+
+
+### venom-mediated perturbation of pH-gated ion channel activity `http://purl.obolibrary.org/obo/GO_0044733`
+#### Removed
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of pH-gated ion channel activity" 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) SubClassOf [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
+
+#### Added
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ion channel regulator activity](http://purl.obolibrary.org/obo/GO_0099106) 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a pH-gated (also known as acid-sensing ion channel (ASIC)) in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23034652" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated perturbation of pH-gated ion channel activity](http://purl.obolibrary.org/obo/GO_0044733) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of pH-gated ion channel activity" 
+
+
+### venom-mediated perturbation of voltage-gated potassium channel activity `http://purl.obolibrary.org/obo/GO_0044559`
+#### Removed
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a voltage-gated potassium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of voltage-gated potassium channel activity" 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) SubClassOf [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
+
+#### Added
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [potassium channel regulator activity](http://purl.obolibrary.org/obo/GO_0015459) 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a voltage-gated potassium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated perturbation of voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0044559) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of voltage-gated potassium channel activity" 
+
+
+### venom-mediated perturbation of voltage-gated sodium channel activity `http://purl.obolibrary.org/obo/GO_0044492`
+#### Removed
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism alters or subverts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated perturbation of voltage-gated sodium channel activity" 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) SubClassOf [venom-mediated perturbation of ion channel activity](http://purl.obolibrary.org/obo/GO_0044560) 
+
+#### Added
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32401"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [sodium channel regulator activity](http://purl.obolibrary.org/obo/GO_0017080) 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which an organism alters or subverts the activity of a voltage-gated sodium channel in another organism via the action of a venom." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:fj" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21781281" 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a molecular function." 
+
+- [venom-mediated perturbation of voltage-gated sodium channel activity](http://purl.obolibrary.org/obo/GO_0044492) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete venom-mediated perturbation of voltage-gated sodium channel activity" 
+
+
+### very long-chain fatty acid beta-oxidation `http://purl.obolibrary.org/obo/GO_0140493`
+#### Removed
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A fatty acid beta-oxidation pathway acting on a very long-chain fatty acid. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons. The partway stars with the conversion of an acyl-CoA to a trans-2-enoyl-CoA, catalyzed by acyl-CoA oxidase; the electrons removed by oxidation pass directly to oxygen and produce hydrogen peroxide, which is cleaved by peroxisomal catalases. Fatty acid beta-oxidation begins with the addition of coenzyme A to a fatty acid, and ends when only two or three carbons remain (as acetyl-CoA or propionyl-CoA respectively)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32169171" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17028011" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ha" 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283)." 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain fatty acid beta-oxidation" 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) SubClassOf [very long-chain fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0042760) 
+
+#### Added
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32227"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [very long-chain fatty acid catabolic process](http://purl.obolibrary.org/obo/GO_0042760) 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A fatty acid beta-oxidation pathway acting on a very long-chain fatty acid. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons. The partway stars with the conversion of an acyl-CoA to a trans-2-enoyl-CoA, catalyzed by acyl-CoA oxidase; the electrons removed by oxidation pass directly to oxygen and produce hydrogen peroxide, which is cleaved by peroxisomal catalases. Fatty acid beta-oxidation begins with the addition of coenzyme A to a fatty acid, and ends when only two or three carbons remain (as acetyl-CoA or propionyl-CoA respectively)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32169171" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17028011" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ha" 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as very long-chain fatty acid catabolic process ; GO:0042760." 
+
+- [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete very long-chain fatty acid beta-oxidation" 
 
 
 ### very long-chain fatty-acyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0036113`
