@@ -21,10 +21,10 @@ This pattern is for classes representing types of positive regulation differenti
 
 ## Annotations
 
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "up regulation of `{entity}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "upregulation of `{entity}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "up regulation of `{entity}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
+- [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "up-regulation of `{entity}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 - [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace): "biological_process"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "upregulation of `{entity}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
-- [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym): "up-regulation of `{entity}`"^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Definition
 
