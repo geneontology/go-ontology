@@ -34,4 +34,4 @@ if [ -z "$IMG" ]; then
 fi
 
 # Same memory limit and mounts as run.sh, but no -ti.
-exec docker run --rm -m 12g -v "$REPO:/work" -v go-ontology-coursier:/root/.cache/coursier -w /work/src/ontology "$IMG" "$@"
+exec docker run --rm -m 12g -v "$REPO:/work" -v go-ontology-coursier:/root/.cache/coursier -e COURSIER_CACHE=/root/.cache/coursier -w /work/src/ontology "$IMG" "$@"

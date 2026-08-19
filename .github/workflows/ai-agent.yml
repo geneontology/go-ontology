@@ -299,8 +299,9 @@ jobs:
         if: fromJSON(needs.check-mention.outputs.result).useOdkContainer
         uses: coursier/cache-action@v7
         with:
-          path: ${{ github.workspace }}/.coursier-cache
+          path: /tools/.coursier-cache
           extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          extraKey: ${{ github.workflow }}
           ignoreJob: true
 
       - name: Configure Git
