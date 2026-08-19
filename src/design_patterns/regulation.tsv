@@ -1008,7 +1008,6 @@ http://purl.obolibrary.org/obo/GO_0070202	regulation of establishment of protein
 http://purl.obolibrary.org/obo/GO_0070203	regulation of establishment of protein localization to telomere	http://purl.obolibrary.org/obo/GO_0070200	establishment of protein localization to telomere
 http://purl.obolibrary.org/obo/GO_1904913	regulation of establishment of protein-containing complex localization to telomere	http://purl.obolibrary.org/obo/GO_0097695	establishment of protein-containing complex localization to telomere
 http://purl.obolibrary.org/obo/GO_2000099	regulation of establishment or maintenance of bipolar cell polarity	http://purl.obolibrary.org/obo/GO_0061245	establishment or maintenance of bipolar cell polarity
-http://purl.obolibrary.org/obo/GO_2000100	regulation of establishment or maintenance of bipolar cell polarity regulating cell shape	http://purl.obolibrary.org/obo/GO_0061246	establishment or maintenance of bipolar cell polarity regulating cell shape
 http://purl.obolibrary.org/obo/GO_0032878	regulation of establishment or maintenance of cell polarity	http://purl.obolibrary.org/obo/GO_0007163	establishment or maintenance of cell polarity
 http://purl.obolibrary.org/obo/GO_2000769	regulation of establishment or maintenance of cell polarity regulating cell shape	http://purl.obolibrary.org/obo/GO_0071963	establishment or maintenance of cell polarity regulating cell shape
 http://purl.obolibrary.org/obo/GO_2000864	regulation of estradiol secretion	http://purl.obolibrary.org/obo/GO_0035938	estradiol secretion
@@ -1553,7 +1552,6 @@ http://purl.obolibrary.org/obo/GO_2000446	regulation of macrophage migration inh
 http://purl.obolibrary.org/obo/GO_0120040	regulation of macrophage proliferation	http://purl.obolibrary.org/obo/GO_0061517	macrophage proliferation
 http://purl.obolibrary.org/obo/GO_0010932	regulation of macrophage tolerance induction	http://purl.obolibrary.org/obo/GO_0010931	macrophage tolerance induction
 http://purl.obolibrary.org/obo/GO_1905301	regulation of macropinocytosis	http://purl.obolibrary.org/obo/GO_0044351	macropinocytosis
-http://purl.obolibrary.org/obo/GO_2000115	regulation of maintenance of bipolar cell polarity regulating cell shape	http://purl.obolibrary.org/obo/GO_0061305	maintenance of bipolar cell polarity regulating cell shape
 http://purl.obolibrary.org/obo/GO_0034094	regulation of maintenance of meiotic sister chromatid cohesion	http://purl.obolibrary.org/obo/GO_0034090	maintenance of meiotic sister chromatid cohesion
 http://purl.obolibrary.org/obo/GO_2000709	regulation of maintenance of meiotic sister chromatid cohesion, centromeric	http://purl.obolibrary.org/obo/GO_0035875	maintenance of meiotic sister chromatid cohesion, centromeric
 http://purl.obolibrary.org/obo/GO_0034182	regulation of maintenance of mitotic sister chromatid cohesion	http://purl.obolibrary.org/obo/GO_0034088	maintenance of mitotic sister chromatid cohesion

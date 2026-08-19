@@ -1,9 +1,6 @@
 defined_class	defined_class_label	lipid_cargo	lipid_cargo_label
-http://purl.obolibrary.org/obo/GO_0015161	lipid III floppase activity	http://purl.obolibrary.org/obo/CHEBI_61496	alpha-D-FucNAc4-(1->4)-beta-D-ManNAcA-(1->4)-D-GlcNAc-undecaprenyl diphosphate(3-)
-http://purl.obolibrary.org/obo/GO_0015437	lipopolysaccharide floppase activity	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
-http://purl.obolibrary.org/obo/GO_0034202	glycolipid floppase activity	http://purl.obolibrary.org/obo/CHEBI_33563	glycolipid
-http://purl.obolibrary.org/obo/GO_0046623	sphingolipid floppase activity	http://purl.obolibrary.org/obo/CHEBI_26739	sphingolipid
-http://purl.obolibrary.org/obo/GO_0090554	phosphatidylcholine floppase activity	http://purl.obolibrary.org/obo/CHEBI_64482	phosphatidylcholine
-http://purl.obolibrary.org/obo/GO_0090556	phosphatidylserine floppase activity	http://purl.obolibrary.org/obo/CHEBI_57262	3-sn-phosphatidyl-L-serine(1-)
 http://purl.obolibrary.org/obo/GO_0099038	ceramide floppase activity	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
-http://purl.obolibrary.org/obo/GO_0140341	phosphatidylethanolamine floppase activity	http://purl.obolibrary.org/obo/CHEBI_57613	phosphatidylethanolamine zwitterion
+http://purl.obolibrary.org/obo/GO_0034202	glycolipid floppase activity	http://purl.obolibrary.org/obo/CHEBI_33563	glycolipid
+http://purl.obolibrary.org/obo/GO_0015437	lipopolysaccharide floppase activity	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
+http://purl.obolibrary.org/obo/GO_0090554	phosphatidylcholine floppase activity	http://purl.obolibrary.org/obo/CHEBI_64482	phosphatidylcholine
+http://purl.obolibrary.org/obo/GO_0046623	sphingolipid floppase activity	http://purl.obolibrary.org/obo/CHEBI_26739	sphingolipid
