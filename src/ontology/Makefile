@@ -80,7 +80,7 @@ stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ON
 
 test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
+travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check datalog-violations.tsv chebi_pH_7_3_check travis_build change-report.txt
 
 # This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
