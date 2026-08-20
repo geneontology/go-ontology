@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-19/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-20/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-19" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-20" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -2017,6 +2017,16 @@
 - [nitrate assimilation](http://purl.obolibrary.org/obo/GO_0042128) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
+### noctua_allowed `http://purl.obolibrary.org/obo/go#noctua_allowed`
+
+#### Added
+- AnnotationProperty: [noctua_allowed](http://purl.obolibrary.org/obo/go#noctua_allowed) 
+
+- [noctua_allowed](http://purl.obolibrary.org/obo/go#noctua_allowed) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "ChEBI terms allowed for use in Noctua, comprising the Rhea pH 7.3 subset and the GO ChEBI allow-list." 
+
+- [noctua_allowed](http://purl.obolibrary.org/obo/go#noctua_allowed) SubPropertyOf: [subset_property](http://www.geneontology.org/formats/oboInOwl#SubsetProperty) 
+
+
 ### nutrient assimilation `http://purl.obolibrary.org/obo/GO_7770097`
 
 #### Added
@@ -2301,6 +2311,35 @@
 - [peroxisomal protein quality control](http://purl.obolibrary.org/obo/GO_0170079) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
 
 
+### phagophore membrane `http://purl.obolibrary.org/obo/GO_7770114`
+
+#### Added
+- Class: [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29437"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-19T23:59:26Z" 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770114" 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A membrane that is part of a phagophore." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33773106" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23217709" 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Includes the membrane elements, notably Atg9/ATG9A-containing vesicles, that are recruited to the phagophore assembly site and from which the phagophore is nucleated, as well as the membrane of the expanding cup-shaped structure. Once the structure has closed, annotate to autophagosome membrane (GO:0000421) instead. Do not use for the Atg9 vesicle pool prior to recruitment." 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [label](http://www.w3.org/2000/01/rdf-schema#label) "phagophore membrane" 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) SubClassOf [membrane](http://purl.obolibrary.org/obo/GO_0016020) 
+
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore](http://purl.obolibrary.org/obo/GO_0061908) 
+
+
 ### phagosome maturation `http://purl.obolibrary.org/obo/GO_0090382`
 #### Removed
 - [phagosome maturation](http://purl.obolibrary.org/obo/GO_0090382) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [exocytosis](http://purl.obolibrary.org/obo/GO_0006887) 
@@ -2573,12 +2612,48 @@
 - [rRNA (adenine-N6-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008988) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
 
 
+### regulation of axon extension `http://purl.obolibrary.org/obo/GO_0030516`
+#### Removed
+- [regulation of axon extension](http://purl.obolibrary.org/obo/GO_0030516) SubClassOf [regulation of extent of cell growth](http://purl.obolibrary.org/obo/GO_0061387) 
+
+#### Added
+- [regulation of axon extension](http://purl.obolibrary.org/obo/GO_0030516) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of axon extension](http://purl.obolibrary.org/obo/GO_0030516) SubClassOf [regulation of cell growth](http://purl.obolibrary.org/obo/GO_0001558) 
+
+
+### regulation of collateral sprouting `http://purl.obolibrary.org/obo/GO_0048670`
+#### Removed
+- [regulation of collateral sprouting](http://purl.obolibrary.org/obo/GO_0048670) SubClassOf [regulation of extent of cell growth](http://purl.obolibrary.org/obo/GO_0061387) 
+
+#### Added
+- [regulation of collateral sprouting](http://purl.obolibrary.org/obo/GO_0048670) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of collateral sprouting](http://purl.obolibrary.org/obo/GO_0048670) SubClassOf [regulation of cell growth](http://purl.obolibrary.org/obo/GO_0001558) 
+
+
 ### regulation of cristae formation `http://purl.obolibrary.org/obo/GO_1903850`
 #### Removed
 - [regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903850) SubClassOf [regulation of mitochondrion organization](http://purl.obolibrary.org/obo/GO_0010821) 
 
 #### Added
 - [regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903850) SubClassOf [regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051128) 
+
+
+### regulation of direction of cell growth `http://purl.obolibrary.org/obo/GO_0061389`
+#### Removed
+- [regulation of direction of cell growth](http://purl.obolibrary.org/obo/GO_0061389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the direction of cell growth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [regulation of direction of cell growth](http://purl.obolibrary.org/obo/GO_0061389) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of direction of cell growth](http://purl.obolibrary.org/obo/GO_0061389) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates where in a cell additional mass is added during cell growth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
 
 
 ### regulation of establishment of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061160`
@@ -2641,6 +2716,22 @@
 - [regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000100) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### regulation of extent of cell growth `http://purl.obolibrary.org/obo/GO_0061387`
+#### Removed
+- [regulation of extent of cell growth](http://purl.obolibrary.org/obo/GO_0061387) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the extent of cell growth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [regulation of extent of cell growth](http://purl.obolibrary.org/obo/GO_0061387) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of extent of cell growth](http://purl.obolibrary.org/obo/GO_0061387) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates how much additional mass a cell adds during cell growth before growth ceases." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+
 ### regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000115`
 #### Removed
 - [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of maintenance of bipolar cell polarity regulating in cell shape." 
@@ -2667,6 +2758,32 @@
 - [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
 
 - [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### regulation of rate of cell growth `http://purl.obolibrary.org/obo/GO_0061388`
+#### Removed
+- [regulation of rate of cell growth](http://purl.obolibrary.org/obo/GO_0061388) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate of cell growth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [regulation of rate of cell growth](http://purl.obolibrary.org/obo/GO_0061388) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of rate of cell growth](http://purl.obolibrary.org/obo/GO_0061388) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates how fast a cell adds additional mass during cell growth." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+
+### regulation of sprouting of injured axon `http://purl.obolibrary.org/obo/GO_0048686`
+#### Removed
+- [regulation of sprouting of injured axon](http://purl.obolibrary.org/obo/GO_0048686) SubClassOf [regulation of extent of cell growth](http://purl.obolibrary.org/obo/GO_0061387) 
+
+#### Added
+- [regulation of sprouting of injured axon](http://purl.obolibrary.org/obo/GO_0048686) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/19737"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of sprouting of injured axon](http://purl.obolibrary.org/obo/GO_0048686) SubClassOf [regulation of cell growth](http://purl.obolibrary.org/obo/GO_0001558) 
 
 
 ### rescue of stalled mitochondrial ribosome `http://purl.obolibrary.org/obo/GO_7770016`
