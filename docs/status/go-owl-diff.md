@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-20/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-21/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-21" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -151,6 +151,16 @@
 - [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [12132](http://rdf.rhea-db.org/12132) 
 
 - [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that RHEA:12132 represents both the ABC and the P-type cadmium transporters." 
+
+
+### ATG2-ATG18 complex `http://purl.obolibrary.org/obo/GO_0062079`
+#### Removed
+- [ATG2-ATG18 complex](http://purl.obolibrary.org/obo/GO_0062079) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0034045) 
+
+#### Added
+- [ATG2-ATG18 complex](http://purl.obolibrary.org/obo/GO_0062079) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29437"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ATG2-ATG18 complex](http://purl.obolibrary.org/obo/GO_0062079) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) 
 
 
 ### ATP-dependent folded protein transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_7770098`
@@ -1029,6 +1039,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### assembly of large subunit precursor of preribosome `http://purl.obolibrary.org/obo/GO_1902626`
+#### Removed
+- [assembly of large subunit precursor of preribosome](http://purl.obolibrary.org/obo/GO_1902626) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) 
+
+#### Added
+- [assembly of large subunit precursor of preribosome](http://purl.obolibrary.org/obo/GO_1902626) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32473"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [assembly of large subunit precursor of preribosome](http://purl.obolibrary.org/obo/GO_1902626) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytosolic large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180023) 
+
+
 ### autophagy cargo adaptor activity `http://purl.obolibrary.org/obo/GO_0160247`
 #### Removed
 - [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [substrate localization to autophagosome](http://purl.obolibrary.org/obo/GO_0061753) 
@@ -1195,6 +1215,31 @@
 - [dissimilatory sulfate reduction](http://purl.obolibrary.org/obo/GO_0019420) SubClassOf [sulfur compound metabolic process](http://purl.obolibrary.org/obo/GO_0006790) 
 
 
+### endoplasmic reticulum protein quality control `http://purl.obolibrary.org/obo/GO_0170080`
+
+#### Added
+- Class: [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32495"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-20T16:01:05Z" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "ERQC" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170080" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that monitors and mediates the fidelity of protein folding in the endoplasmic reticulum, permitting export of correctly folded proteins to the Golgi apparatus while retaining, refolding, or targeting terminally misfolded proteins for degradation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12612637" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum protein quality control" 
+
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) SubClassOf [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) 
+
+
 ### ent-kaurene biosynthetic process `http://purl.obolibrary.org/obo/GO_0033332`
 #### Removed
 - [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) SubClassOf [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
@@ -1288,6 +1333,44 @@
 - [exit from cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_7770110) [label](http://www.w3.org/2000/01/rdf-schema#label) "exit from cytosolic ribosome hibernation" 
 
 - [exit from cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_7770110) SubClassOf [positive regulation of cytoplasmic translation](http://purl.obolibrary.org/obo/GO_2000767) 
+
+
+### extrinsic component of phagophore assembly site membrane `http://purl.obolibrary.org/obo/GO_0097632`
+#### Removed
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "extrinsic to phagophore assembly site membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "extrinsic component of pre-autophagosomal structure membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The component of the phagophore assembly site membrane consisting of gene products and protein complexes that are loosely bound to one of its surfaces, but not integrated into the hydrophobic region." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mf" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [label](http://www.w3.org/2000/01/rdf-schema#label) "extrinsic component of phagophore assembly site membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) EquivalentTo [extrinsic component of membrane](http://purl.obolibrary.org/obo/GO_0019898) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0034045)) 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) SubClassOf [extrinsic component of organelle membrane](http://purl.obolibrary.org/obo/GO_0031312) 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0034045) 
+
+#### Added
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29437"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "extrinsic component of phagophore assembly site membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "extrinsic component of pre-autophagosomal structure membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "extrinsic to phagophore assembly site membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The component of a phagophore membrane consisting of gene products and protein complexes that are loosely bound to one of its surfaces, but not integrated into the hydrophobic region." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mf" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) [label](http://www.w3.org/2000/01/rdf-schema#label) "extrinsic component of phagophore membrane" 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) EquivalentTo [extrinsic component of membrane](http://purl.obolibrary.org/obo/GO_0019898) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114)) 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) SubClassOf [extrinsic component of membrane](http://purl.obolibrary.org/obo/GO_0019898) 
+
+- [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) 
 
 
 ### formaldehyde assimilation `http://purl.obolibrary.org/obo/GO_0019649`
@@ -2331,7 +2414,7 @@
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23217709" 
 
-- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Includes the membrane elements, notably Atg9/ATG9A-containing vesicles, that are recruited to the phagophore assembly site and from which the phagophore is nucleated, as well as the membrane of the expanding cup-shaped structure. Once the structure has closed, annotate to autophagosome membrane (GO:0000421) instead. Do not use for the Atg9 vesicle pool prior to recruitment." 
+- [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Covers the membrane of the nascent phagophore, including membrane contributed by Atg9/ATG9A-containing vesicles once they have been incorporated into the phagophore, and the membrane of the expanding cup-shaped structure. After the structure has closed, annotate to autophagosome membrane (GO:0000421) instead. Do not use for Atg9/ATG9A-containing vesicles themselves, either before or after their recruitment to the phagophore assembly site: a vesicle is a membrane-bounded structure, not a membrane." 
 
 - [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) [label](http://www.w3.org/2000/01/rdf-schema#label) "phagophore membrane" 
 

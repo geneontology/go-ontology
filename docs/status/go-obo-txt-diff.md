@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-08-20 05:40:30.795434890 +0000
-+++ go.obo	2026-08-20 05:54:20.133467714 +0000
+--- go-lastrelease.obo	2026-08-21 05:39:38.020321600 +0000
++++ go.obo	2026-08-21 05:53:28.961738003 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-08-20
++data-version: releases/2026-08-21
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -23,7 +23,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-08-20" xsd:string
++property_value: owl:versionInfo "2026-08-21" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -1866,7 +1866,17 @@
  created_by: dph
  creation_date: 2016-11-11T13:32:43Z
  
-@@ -395986,10 +396123,12 @@
+@@ -393958,7 +394095,8 @@
+ namespace: cellular_component
+ def: "A protein complex essential for autophagy during nutrient deprivation, a catabolic process that sequesters undesired cellular material into autophagosomes for delivery to lysosomes for degradation. Contributes to nutrition homeostasis and damage control in eukaryotic cells. Functions at a late step of autophagosome formation for efficient completion of sequestration, probably through facilitating recruitment of ATG8-phosphatidylethanolamine (PE) to the preautophagosomal structure (PAS) and/or its protection from deconjugation by ATG4. Composed of ATG2 and ATG18 in Saccharomyces cerevisiae." [GOC:bhm, PMID:23230146]
+ is_a: GO:0098796 ! membrane protein complex
+-relationship: part_of GO:0034045 ! phagophore assembly site membrane
++relationship: part_of GO:7770114 ! phagophore membrane
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29437" xsd:anyURI
+ created_by: dph
+ creation_date: 2018-10-12T13:47:25Z
+ 
+@@ -395986,10 +396124,12 @@
  name: intracellular organelle lumen
  namespace: cellular_component
  def: "An organelle lumen that is part of an intracellular organelle." [GOC:mah]
@@ -1879,7 +1889,7 @@
  
  [Term]
  id: GO:0070014
-@@ -399284,7 +399423,7 @@
+@@ -399284,7 +399424,7 @@
  name: inward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel." [GOC:mah]
@@ -1888,7 +1898,7 @@
  relationship: negatively_regulates GO:0005242 ! inward rectifier potassium channel activity
  
  [Term]
-@@ -414502,7 +414641,7 @@
+@@ -414502,7 +414642,7 @@
  synonym: "nucleus-associated proteasomal ubiquitin-dependent protein catabolism" EXACT [GOC:mah]
  synonym: "nucleus-associated proteasomal ubiquitin-dependent protein degradation" EXACT [GOC:mah]
  synonym: "ubiquitin-dependent catabolism of misfolded proteins by nucleus-associated proteasome" EXACT []
@@ -1897,7 +1907,7 @@
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
  relationship: part_of GO:0071218 ! cellular response to misfolded protein
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26433" xsd:anyURI
-@@ -424177,7 +424316,7 @@
+@@ -424177,7 +424317,7 @@
  synonym: "purine-containing compound breakdown" EXACT [GOC:mah]
  synonym: "purine-containing compound catabolism" EXACT [GOC:mah]
  synonym: "purine-containing compound degradation" EXACT [GOC:mah]
@@ -1906,7 +1916,7 @@
  is_a: GO:0072521 ! purine-containing compound metabolic process
  created_by: mah
  creation_date: 2011-01-04T03:17:20Z
-@@ -438839,7 +438978,8 @@
+@@ -438839,7 +438979,8 @@
  def: "A process that is carried out at the cellular level which results in the arrangement of constituent parts of a phagosome within a cell. Phagosome maturation begins with endocytosis and formation of the early phagosome and ends with the formation of the hybrid organelle, the phagolysosome." [GOC:kmv, GOC:tb]
  is_a: GO:0006996 ! organelle organization
  relationship: has_part GO:0001845 ! phagolysosome assembly
@@ -1916,7 +1926,7 @@
  created_by: tb
  creation_date: 2010-10-19T11:10:34Z
  
-@@ -439115,8 +439255,10 @@
+@@ -439115,8 +439256,10 @@
  name: organophosphate biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the biosynthesis of deoxyribose phosphate, the phosphorylated sugar 2-deoxy-erythro-pentose." [GOC:chem_mtg]
@@ -1927,7 +1937,7 @@
  created_by: tb
  creation_date: 2011-02-26T02:22:41Z
  
-@@ -440700,7 +440842,8 @@
+@@ -440700,7 +440843,8 @@
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein S-phosphocysteine + sugar(out) = protein cysteine + sugar phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:am]
  is_a: GO:0015144 ! carbohydrate transmembrane transporter activity
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -1937,7 +1947,33 @@
  created_by: tb
  creation_date: 2014-04-08T14:58:00Z
  
-@@ -452278,7 +452421,6 @@
+@@ -449538,16 +449682,18 @@
+ 
+ [Term]
+ id: GO:0097632
+-name: extrinsic component of phagophore assembly site membrane
++name: extrinsic component of phagophore membrane
+ namespace: cellular_component
+-def: "The component of the phagophore assembly site membrane consisting of gene products and protein complexes that are loosely bound to one of its surfaces, but not integrated into the hydrophobic region." [GOC:mf]
+-synonym: "extrinsic component of pre-autophagosomal structure membrane" NARROW []
+-synonym: "extrinsic to phagophore assembly site membrane" EXACT []
++def: "The component of a phagophore membrane consisting of gene products and protein complexes that are loosely bound to one of its surfaces, but not integrated into the hydrophobic region." [GOC:mf]
++synonym: "extrinsic component of phagophore assembly site membrane" RELATED []
++synonym: "extrinsic component of pre-autophagosomal structure membrane" RELATED []
++synonym: "extrinsic to phagophore assembly site membrane" RELATED []
+ synonym: "phagophore assembly site peripheral membrane" RELATED []
+-is_a: GO:0031312 ! extrinsic component of organelle membrane
++is_a: GO:0019898 ! extrinsic component of membrane
+ intersection_of: GO:0019898 ! extrinsic component of membrane
+-intersection_of: part_of GO:0034045 ! phagophore assembly site membrane
+-relationship: part_of GO:0034045 ! phagophore assembly site membrane
++intersection_of: part_of GO:7770114 ! phagophore membrane
++relationship: part_of GO:7770114 ! phagophore membrane
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29437" xsd:anyURI
+ 
+ [Term]
+ id: GO:0097633
+@@ -452278,7 +452424,6 @@
  xref: Reactome:R-HSA-5690046 "PPT2 hydrolyses PALMCoA to PALM"
  xref: Reactome:R-HSA-9027670 "ESTG binding induces ESR depalmitoylation"
  is_a: GO:0016787 ! hydrolase activity
@@ -1945,7 +1981,7 @@
  created_by: dos
  creation_date: 2014-04-11T17:57:36Z
  
-@@ -453703,10 +453845,14 @@
+@@ -453703,10 +453848,14 @@
  
  [Term]
  id: GO:0098734
@@ -1963,7 +1999,7 @@
  
  [Term]
  id: GO:0098735
-@@ -461066,10 +461212,11 @@
+@@ -461066,10 +461215,11 @@
  xref: MetaCyc:R4-RXN
  xref: Reactome:R-HSA-1222526 "AhpC reduces peroxidated lipids"
  xref: RHEA:62628
@@ -1976,7 +2012,7 @@
  
  [Term]
  id: GO:0102040
-@@ -470428,7 +470575,6 @@
+@@ -470428,7 +470578,6 @@
  xref: RHEA:25367
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.295
@@ -1984,7 +2020,7 @@
  property_value: skos:narrowMatch RHEA:25363
  property_value: skos:narrowMatch RHEA:25367
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19648" xsd:anyURI
-@@ -475811,6 +475957,7 @@
+@@ -475811,6 +475960,7 @@
  synonym: "U2 snRNA adenosine m6 methyltransferase activity" EXACT []
  synonym: "U2 snRNA adenosine N6 methyltransferase activity" EXACT []
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -1992,7 +2028,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27392" xsd:anyURI
  created_by: hjd
  creation_date: 2020-12-18T15:12:57Z
-@@ -479500,6 +479647,7 @@
+@@ -479500,6 +479650,7 @@
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -2000,7 +2036,7 @@
  property_value: skos:exactMatch EC:2.1.1.346
  property_value: skos:exactMatch RHEA:52808
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13569" xsd:anyURI
-@@ -489129,12 +489277,13 @@
+@@ -489129,12 +489280,13 @@
  
  [Term]
  id: GO:0140357
@@ -2015,7 +2051,7 @@
  created_by: pg
  creation_date: 2019-05-28T07:40:48Z
  
-@@ -490404,9 +490553,10 @@
+@@ -490404,9 +490556,10 @@
  id: GO:0140455
  name: cytoplasm protein quality control
  namespace: biological_process
@@ -2028,7 +2064,7 @@
  created_by: pg
  creation_date: 2020-04-20T15:46:20Z
  
-@@ -490818,13 +490968,15 @@
+@@ -490818,13 +490971,15 @@
  
  [Term]
  id: GO:0140493
@@ -2048,7 +2084,7 @@
  created_by: pg
  creation_date: 2020-07-10T08:39:22Z
  
-@@ -492215,7 +492367,7 @@
+@@ -492215,7 +492370,7 @@
  name: outward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel." [PMID:28108814]
@@ -2057,7 +2093,7 @@
  relationship: negatively_regulates GO:0015271 ! outward rectifier potassium channel activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21157" xsd:anyURI
  created_by: pg
-@@ -494862,17 +495014,26 @@
+@@ -494862,17 +495017,26 @@
  name: thioredoxin-dependent peroxiredoxin activity
  namespace: molecular_function
  def: "Catalysis of the reaction: [thioredoxin]-dithiol + a hydroperoxide = [thioredoxin]-disulfide + an alcohol + H2O." [PMID:12707274, PMID:19820102, RHEA:62620]
@@ -2084,7 +2120,7 @@
  created_by: pg
  creation_date: 2022-05-18T14:25:09Z
  
-@@ -499342,7 +499503,8 @@
+@@ -499342,7 +499506,8 @@
  name: mitochondrial protein quality control
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the mitochondrion, which are targeted for degradation." [PMID:38280230]
@@ -2094,7 +2130,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27044" xsd:anyURI
  created_by: pg
  creation_date: 2024-02-14T07:11:38Z
-@@ -504537,7 +504699,7 @@
+@@ -504537,7 +504702,7 @@
  synonym: "autophagy adaptor activity" EXACT []
  synonym: "selective autophagy receptor activity" EXACT []
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
@@ -2103,7 +2139,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28283" xsd:anyURI
  created_by: rynl
  creation_date: 2025-02-10T16:57:01Z
-@@ -506163,6 +506325,7 @@
+@@ -506163,6 +506328,7 @@
  def: "A quality control pathway that degrades peroxisomal matrix protein receptors when the recycling machinery is blocked. When recycling to the cytosol fails, cargo-free receptors accumulate at the peroxisomal membrane, where they are polyubiquitinated and subsequently degraded by the ubiquitin-proteasome system (UPS)." [PMID:16390998, PMID:17011644, PMID:41076631]
  synonym: "Receptor Accumulation and Degradation in the Absence of Recycling" EXACT []
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
@@ -2111,7 +2147,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31570" xsd:anyURI
  created_by: ew
  creation_date: 2026-02-17T22:02:27Z
-@@ -506186,6 +506349,53 @@
+@@ -506186,6 +506352,64 @@
  creation_date: 2026-03-23T21:12:37Z
  
  [Term]
@@ -2162,10 +2198,21 @@
 +creation_date: 2026-08-12T16:13:58Z
 +
 +[Term]
++id: GO:0170080
++name: endoplasmic reticulum protein quality control
++namespace: biological_process
++def: "Any process that monitors and mediates the fidelity of protein folding in the endoplasmic reticulum, permitting export of correctly folded proteins to the Golgi apparatus while retaining, refolding, or targeting terminally misfolded proteins for degradation." [PMID:12612637]
++synonym: "ERQC" RELATED []
++is_a: GO:0006515 ! protein quality control
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32495" xsd:anyURI
++created_by: ew
++creation_date: 2026-08-20T16:01:05Z
++
++[Term]
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -506568,12 +506778,16 @@
+@@ -506568,12 +506792,16 @@
  id: GO:0180031
  name: snoRNA 2,2,7-trimethylguanosine (TMG) capping
  namespace: biological_process
@@ -2183,7 +2230,7 @@
  created_by: vw
  creation_date: 2024-02-07T13:55:54Z
  
-@@ -550711,12 +550925,13 @@
+@@ -550711,12 +550939,13 @@
  
  [Term]
  id: GO:1902334
@@ -2198,7 +2245,17 @@
  created_by: tb
  creation_date: 2013-07-26T22:18:12Z
  
-@@ -578736,7 +578951,7 @@
+@@ -555068,7 +555297,8 @@
+ synonym: "66S preribosome formation" NARROW [GOC:TermGenie]
+ synonym: "preribosome, large subunit precursor formation" EXACT [GOC:TermGenie]
+ is_a: GO:0022618 ! protein-RNA complex assembly
+-relationship: part_of GO:0000027 ! ribosomal large subunit assembly
++relationship: part_of GO:0180023 ! cytosolic large ribosomal subunit assembly
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32473" xsd:anyURI
+ created_by: tb
+ creation_date: 2014-01-16T19:38:05Z
+ 
+@@ -578736,7 +578966,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cristae formation." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:19279012]
  comment: AN example of this is PINK1 in human (Q9BXM7) in PMID:19279012 inferred from mutant phenotype
@@ -2207,7 +2264,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042407 ! cristae formation
  relationship: regulates GO:0042407 ! cristae formation
-@@ -578753,7 +578968,7 @@
+@@ -578753,7 +578983,7 @@
  synonym: "down-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "downregulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "inhibition of cristae formation" NARROW [GOC:TermGenie]
@@ -2216,7 +2273,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0042407 ! cristae formation
-@@ -578771,7 +578986,7 @@
+@@ -578771,7 +579001,7 @@
  synonym: "up regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of cristae formation" EXACT [GOC:TermGenie]
@@ -2225,7 +2282,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0042407 ! cristae formation
-@@ -622662,6 +622877,8 @@
+@@ -622662,6 +622892,8 @@
  synonym: "ribosome-associated ubiquitin-dependent protein catabolism" EXACT []
  synonym: "ribosome-associated ubiquitin-dependent protein degradation" EXACT []
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
@@ -2234,7 +2291,7 @@
  created_by: pr
  creation_date: 2013-06-05T11:46:01Z
  
-@@ -624414,14 +624631,18 @@
+@@ -624414,14 +624646,18 @@
  id: GO:1990273
  name: snRNA 2,2,7-trimethylguanosine (TMG) capping
  namespace: biological_process
@@ -2254,7 +2311,7 @@
  created_by: al
  creation_date: 2014-01-15T15:32:06Z
  
-@@ -633383,14 +633604,13 @@
+@@ -633383,14 +633619,13 @@
  
  [Term]
  id: GO:2000100
@@ -2275,7 +2332,7 @@
  created_by: dph
  creation_date: 2010-09-14T04:44:57Z
  
-@@ -633605,13 +633825,13 @@
+@@ -633605,13 +633840,13 @@
  
  [Term]
  id: GO:2000115
@@ -2295,7 +2352,7 @@
  created_by: dph
  creation_date: 2010-09-21T06:33:26Z
  
-@@ -635480,14 +635700,13 @@
+@@ -635480,14 +635715,13 @@
  
  [Term]
  id: GO:2000247
@@ -2316,7 +2373,7 @@
  created_by: vw
  creation_date: 2010-11-11T11:39:34Z
  
-@@ -642623,14 +642842,13 @@
+@@ -642623,14 +642857,13 @@
  
  [Term]
  id: GO:2000750
@@ -2337,7 +2394,7 @@
  created_by: mah
  creation_date: 2011-06-16T11:51:49Z
  
-@@ -649884,9 +650102,10 @@
+@@ -649884,9 +650117,10 @@
  
  [Term]
  id: GO:2001289
@@ -2350,7 +2407,7 @@
  synonym: "2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate metabolic process" RELATED [GOC:obol]
  synonym: "2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate metabolism" RELATED [GOC:obol]
  synonym: "2,3-Bis(beta-hydoroxymyristoyl)-beta-D-glucosaminyl 1-phosphate metabolic process" RELATED [GOC:obol]
-@@ -649894,8 +650113,8 @@
+@@ -649894,8 +650128,8 @@
  synonym: "2-deoxy-3-O-[(3R)-3-hydroxytetradecanoyl]-2-{[(3R)-3-hydroxytetradecanoyl]amino}-1-O-phosphono-alpha-D-glucopyranose metabolic process" EXACT [GOC:obol]
  synonym: "2-deoxy-3-O-[(3R)-3-hydroxytetradecanoyl]-2-{[(3R)-3-hydroxytetradecanoyl]amino}-1-O-phosphono-alpha-D-glucopyranose metabolism" EXACT [GOC:obol]
  synonym: "lipid X metabolism" EXACT [GOC:obol]
@@ -2361,7 +2418,7 @@
  created_by: tb
  creation_date: 2012-01-13T11:28:58Z
  
-@@ -650514,8 +650733,9 @@
+@@ -650514,8 +650748,9 @@
  name: rescue of stalled mitochondrial ribosome
  namespace: biological_process
  def: "A process of mitochondrial translational elongation that takes place when a mitochondrial ribosome has stalled during translation, and results in freeing the ribosome from the stalled translation complex." [PMID:33243891]
@@ -2372,7 +2429,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30547" xsd:anyURI
  created_by: dragon-ai-agent
  
-@@ -650961,8 +651181,8 @@
+@@ -650961,8 +651196,8 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenosine(37) in tRNA(Val) = S-adenosyl-L-homocysteine + N(6)-methyladenosine(37) in tRNA(Val) + H+." [PMID:19383770, RHEA:43160]
  xref: EC:2.1.1.223
  xref: RHEA:43160
@@ -2382,7 +2439,7 @@
  property_value: skos:exactMatch EC:2.1.1.223
  property_value: skos:exactMatch RHEA:43160
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31644" xsd:anyURI
-@@ -651420,6 +651640,388 @@
+@@ -651420,6 +651655,388 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  
@@ -2761,7 +2818,7 @@
 +name: phagophore membrane
 +namespace: cellular_component
 +def: "A membrane that is part of a phagophore." [PMID:23217709, PMID:33773106]
-+comment: Includes the membrane elements, notably Atg9/ATG9A-containing vesicles, that are recruited to the phagophore assembly site and from which the phagophore is nucleated, as well as the membrane of the expanding cup-shaped structure. Once the structure has closed, annotate to autophagosome membrane (GO:0000421) instead. Do not use for the Atg9 vesicle pool prior to recruitment.
++comment: Covers the membrane of the nascent phagophore, including membrane contributed by Atg9/ATG9A-containing vesicles once they have been incorporated into the phagophore, and the membrane of the expanding cup-shaped structure. After the structure has closed, annotate to autophagosome membrane (GO:0000421) instead. Do not use for Atg9/ATG9A-containing vesicles themselves, either before or after their recruitment to the phagophore assembly site: a vesicle is a membrane-bounded structure, not a membrane.
 +is_a: GO:0016020 ! membrane
 +relationship: part_of GO:0061908 ! phagophore
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29437" xsd:anyURI
