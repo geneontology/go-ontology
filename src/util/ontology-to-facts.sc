@@ -11,11 +11,15 @@ import java.nio.file.Paths
 import java.nio.file.StandardCopyOption
 import java.nio.file.attribute.PosixFilePermissions
 import org.semanticweb.owlapi.apibinding.OWLManager
+import org.semanticweb.owlapi.formats.FunctionalSyntaxDocumentFormat
 import org.semanticweb.owlapi.formats.NTriplesDocumentFormat
 import org.semanticweb.owlapi.formats.OBODocumentFormat
+import org.semanticweb.owlapi.formats.RDFXMLDocumentFormat
+import org.semanticweb.owlapi.formats.TurtleDocumentFormat
 import org.semanticweb.owlapi.io.FileDocumentSource
 import org.semanticweb.owlapi.model.IRI
 import org.semanticweb.owlapi.model.MissingImportHandlingStrategy
+import org.semanticweb.owlapi.model.OWLDocumentFormat
 import org.semanticweb.owlapi.model.OWLOntologyIRIMapper
 import org.semanticweb.owlapi.model.OWLOntologyLoaderConfiguration
 
@@ -142,8 +146,22 @@ def moveIntoPlace(temp: Path, output: Path): Unit = {
   }
 }
 
+def documentFormat(input: Path): OWLDocumentFormat = {
+  val fileName = input.getFileName.toString.toLowerCase(java.util.Locale.ROOT)
+  if (fileName.endsWith(".obo")) new OBODocumentFormat()
+  else if (fileName.endsWith(".ofn")) new FunctionalSyntaxDocumentFormat()
+  else if (fileName.endsWith(".owl")) new RDFXMLDocumentFormat()
+  else if (fileName.endsWith(".ttl")) new TurtleDocumentFormat()
+  else
+    throw new IllegalArgumentException(
+      s"Unsupported ontology filename extension: ${input.getFileName}"
+    )
+}
+
 if (args.length != 2) {
-  System.err.println("Usage: obo-to-facts.sc INPUT.obo OUTPUT.facts")
+  System.err.println(
+    "Usage: ontology-to-facts.sc INPUT.{obo,ofn,owl,ttl} OUTPUT.facts"
+  )
   sys.exit(2)
 }
 
@@ -175,7 +193,7 @@ manager.getIRIMappers.add(new OWLOntologyIRIMapper {
     ignoredImportDocument
 })
 val ontology = manager.loadOntologyFromOntologyDocument(
-  new FileDocumentSource(input.toFile, new OBODocumentFormat()),
+  new FileDocumentSource(input.toFile, documentFormat(input)),
   loaderConfig
 )
 

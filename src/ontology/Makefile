@@ -329,8 +329,8 @@ go-basic.obo: go-basic.ofn
 	$(ROBOT) convert -i $< -o $@
 
 # check for cycles in go-basic
-basic.facts: go-basic.owl
-	riot -q --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+basic.facts: go-basic.ofn ../util/ontology-to-facts.sc
+	$(SCALA_CLI) ../util/ontology-to-facts.sc -- $< $@
 
 basic-cycles.tsv: basic.facts ../util/cycles.dl
 	souffle ../util/cycles.dl && mv cycle.csv $@ &&\
@@ -772,8 +772,8 @@ check-obsolete-references-including-imports: reasoned.ofn
 	$(ROBOT) merge --input reasoned.ofn verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 ## Datalog validations
-go-edit.facts: $(SRC) ../util/obo-to-facts.sc
-	$(SCALA_CLI) ../util/obo-to-facts.sc -- $< $@
+go-edit.facts: $(SRC) ../util/ontology-to-facts.sc
+	$(SCALA_CLI) ../util/ontology-to-facts.sc -- $< $@
 
 ../resources/rhea-relationships.tsv:
 	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
