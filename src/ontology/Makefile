@@ -76,7 +76,7 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
 test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
@@ -329,8 +329,8 @@ go-basic.obo: go-basic.ofn
 	$(ROBOT) convert -i $< -o $@
 
 # check for cycles in go-basic
-basic.facts: go-basic.owl
-	riot -q --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+basic.facts: go-basic.ofn ../util/ontology-to-facts.sc
+	$(SCALA_CLI) ../util/ontology-to-facts.sc -- $< $@
 
 basic-cycles.tsv: basic.facts ../util/cycles.dl
 	souffle ../util/cycles.dl && mv cycle.csv $@ &&\
@@ -772,9 +772,8 @@ check-obsolete-references-including-imports: reasoned.ofn
 	$(ROBOT) merge --input reasoned.ofn verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 ## Datalog validations
-go-edit.facts: $(SRC)
-	$(ROBOT) convert -i $(SRC) -o go-edit.facts.ttl &&\
-	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+go-edit.facts: $(SRC) ../util/ontology-to-facts.sc
+	$(SCALA_CLI) ../util/ontology-to-facts.sc -- $< $@
 
 ../resources/rhea-relationships.tsv:
 	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
