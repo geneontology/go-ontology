@@ -772,9 +772,8 @@ check-obsolete-references-including-imports: reasoned.ofn
 	$(ROBOT) merge --input reasoned.ofn verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 ## Datalog validations
-go-edit.facts: $(SRC)
-	$(ROBOT) convert -i $(SRC) -o go-edit.facts.ttl &&\
-	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+go-edit.facts: $(SRC) ../util/obo-to-facts.sc
+	$(SCALA_CLI) ../util/obo-to-facts.sc -- $< $@
 
 ../resources/rhea-relationships.tsv:
 	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
