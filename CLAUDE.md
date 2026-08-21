@@ -421,6 +421,18 @@ cd src/ontology && robot reason -r ELK -i go-edit.obo -o go-edit.reasoned.obo
 To debug syntax errors, try: `cd src/ontology && robot convert -vvv -i go-edit.obo -f obo -o go-edit.TMP.obo`
 - The `-vvv` yields a full stack trace if there are errors.
 
+### Datalog QC checks
+
+Some checks are Soufflé Datalog programs in `src/util/*.dl` rather than SPARQL:
+`datalog-violations.tsv` (part of `test` and `travis_test`) and `basic-cycles.tsv`.
+Taxon-constraint materialization also runs a Datalog step. Both QC targets fail the
+build when their output file is non-empty.
+
+Use the /souffle-datalog skill for anything involving these — reading a rule,
+diagnosing a violation, or adding a new check. Soufflé's failure mode is a silently
+empty result, so a new or modified rule must be shown to fire against a synthetic
+violating fact before being committed; the skill covers that procedure.
+
 ### Logical Error Diagnosis
 
 - Execute `cd src/ontology && robot explain --input go-edit.obo --output go-edit.entailed.obo` to find entailed axioms
