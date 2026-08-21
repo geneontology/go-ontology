@@ -30,8 +30,6 @@ which renders the ontology as N-Triples and replaces the two field separators wi
 tabs, dropping the trailing ` .`. The other fact files reach the same format via
 equivalent `sed` pipelines (`Makefile:457`, `relation-diff.yml:13,28,41`). So a
 fact file is three tab-separated columns
-the ontology as N-Triples and replaces the two field separators with tabs,
-dropping the trailing ` .`. So a fact file is three tab-separated columns
 of **raw N-Triples terms, with their syntax intact**. This is the single thing
 to internalize:
 
