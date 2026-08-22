@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-21/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-22/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,13 +19,43 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-21" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-22" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
 
 #### Added
 - ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32456"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### (2R)-2-hydroxycarboxylate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0140174`
+#### Removed
+- [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) [label](http://www.w3.org/2000/01/rdf-schema#label) "(2R)-2-hydroxycarboxylate dehydrogenase activity" 
+
+#### Added
+- [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "(2R)-2-hydroxycarboxylate dehydrogenase activity" 
+
+- [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) [label](http://www.w3.org/2000/01/rdf-schema#label) "(2R)-2-hydroxycarboxylate dehydrogenase (FAD) activity" 
+
+
+### (R)-mandelate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0097620`
+#### Removed
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "D-mandelate dehydrogenase activity" 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-mandelate dehydrogenase activity" 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "(R)-mandelate dehydrogenase activity" 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "D-mandelate dehydrogenase activity" 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) [label](http://www.w3.org/2000/01/rdf-schema#label) "(R)-mandelate dehydrogenase (NAD+) activity" 
+
+- [(R)-mandelate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0097620) SubClassOf [(2R)-2-hydroxyacid dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0140175) 
 
 
 ### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
@@ -153,6 +183,18 @@
 - [ABC-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0015434) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that RHEA:12132 represents both the ABC and the P-type cadmium transporters." 
 
 
+### ABC-type protein transporter activity `http://purl.obolibrary.org/obo/GO_0015462`
+#### Removed
+- [ABC-type protein transporter activity](http://purl.obolibrary.org/obo/GO_0015462) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + protein(out) = ADP + phosphate + protein(in)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+#### Added
+- [ABC-type protein transporter activity](http://purl.obolibrary.org/obo/GO_0015462) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32395"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ABC-type protein transporter activity](http://purl.obolibrary.org/obo/GO_0015462) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a protein from one side of a membrane to the other according to the reaction: ATP + H2O + protein(out) = ADP + phosphate + protein(in)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+
 ### ATG2-ATG18 complex `http://purl.obolibrary.org/obo/GO_0062079`
 #### Removed
 - [ATG2-ATG18 complex](http://purl.obolibrary.org/obo/GO_0062079) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0034045) 
@@ -235,6 +277,44 @@
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) SubClassOf [ATP-dependent activity, acting on RNA](http://purl.obolibrary.org/obo/GO_0008186) 
 
 
+### Atg9-containing vesicle `http://purl.obolibrary.org/obo/GO_7770115`
+
+#### Added
+- Class: [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29437"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-20T23:57:41Z" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Atg9 vesicle" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ATG9A vesicle" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770115" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Atg9-containing compartment" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20855505" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A small, single-membrane cytoplasmic vesicle that carries the transmembrane autophagy protein Atg9 (ATG9A in mammals). Vesicles of this type are derived from the Golgi apparatus and from endosomal compartments, and can be delivered to the phagophore assembly site, where they contribute membrane to the nascent phagophore." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22826123" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20855505" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24034251" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32883836" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In Saccharomyces cerevisiae these vesicles are 30-60 nm in diameter and approximately three are consumed per autophagosome. In mammals ATG9A vesicles traffic via the trans-Golgi network and recycling endosomes, and a substantial part of the pool is not engaged in autophagosome formation at any given time. Use this term for the vesicle itself, at any stage of its itinerary. Membrane that has been incorporated into the phagophore is phagophore membrane (GO:7770114) rather than a vesicle. The Atg9-containing compartment/reservoir described by Mari et al. (PMID:20855505) is a cluster of these vesicles and tubules rather than a single vesicle; use this term for the individual vesicles that make up such clusters." 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [label](http://www.w3.org/2000/01/rdf-schema#label) "Atg9-containing vesicle" 
+
+- [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) SubClassOf [cytoplasmic vesicle](http://purl.obolibrary.org/obo/GO_0031410) 
+
+
 ### D-glucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006042`
 #### Removed
 - [D-glucosamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0006042) SubClassOf [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) 
@@ -275,6 +355,14 @@
 - [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
 
 - [D-glucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006041) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete D-glucosamine metabolic process" 
+
+
+### D-lactate dehydrogenase (FAD) activity `http://purl.obolibrary.org/obo/GO_0140170`
+
+#### Added
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [(2R)-2-hydroxycarboxylate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0140174) 
 
 
 ### D-sorbitol biosynthetic process `http://purl.obolibrary.org/obo/GO_0006061`
@@ -362,6 +450,22 @@
 - [ER membrane protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_7770094) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum](http://purl.obolibrary.org/obo/GO_0006890) 
 
 
+### ER overload response `http://purl.obolibrary.org/obo/GO_0006983`
+
+#### Added
+- [ER overload response](http://purl.obolibrary.org/obo/GO_0006983) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ER overload response](http://purl.obolibrary.org/obo/GO_0006983) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
+
+
+### ERAD pathway `http://purl.obolibrary.org/obo/GO_0036503`
+
+#### Added
+- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
+
+
 ### FAD regeneration via ETF:ETFQO system `http://purl.obolibrary.org/obo/GO_7770096`
 
 #### Added
@@ -417,6 +521,16 @@
 - [L-arabinose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0032867) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27881"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [L-arabinose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0032867) SubClassOf [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) 
+
+
+### L-malate dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0030060`
+#### Removed
+- [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) SubClassOf [oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016616) 
+
+#### Added
+- [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-malate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0030060) SubClassOf [L-2-hydroxycarboxylate dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0102443) 
 
 
 ### L-methionine cycle `http://purl.obolibrary.org/obo/GO_0033353`
@@ -569,6 +683,22 @@
 - [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32457"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [obsolete cyclic ADP-ribose hydrolase](http://purl.obolibrary.org/obo/GO_0061812) 
+
+
+### NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity `http://purl.obolibrary.org/obo/GO_0030701`
+#### Removed
+- [NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0030701) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NAD+ + [dinitrogen reductase] = nicotinamide + ADP-D-ribosyl-[dinitrogen reductase]." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.37" 
+
+- [NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0030701) SubClassOf [pentosyltransferase activity](http://purl.obolibrary.org/obo/GO_0016763) 
+
+#### Added
+- [NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0030701) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0030701) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-arginyl-[dinitrogen reductase] + NAD+ = N(omega)-alpha-(ADP-D-ribosyl)-L-arginyl-[dinitrogen reductase] + nicotinamide + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18077" 
+
+- [NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0030701) SubClassOf [NAD+-protein-arginine ADP-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0106274) 
 
 
 ### NADH-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_0102039`
@@ -914,6 +1044,22 @@
 - [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete UDP-N-acetylglucosamine metabolic process" 
 
 
+### acetyl-CoA C-myristoyltransferase activity `http://purl.obolibrary.org/obo/GO_0050633`
+#### Removed
+- [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: myristoyl-CoA + acetyl-CoA = 3-oxopalmitoyl-CoA + CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:2.3.1.155-RXN" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.155" 
+
+#### Added
+- [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: tetradecanoyl-CoA + acetyl-CoA = 3-oxohexadecanoyl-CoA + CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18161" 
+
+- [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) 
+
+
 ### alcohol dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004022`
 #### Removed
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:12785" 
@@ -1039,6 +1185,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### arachidonate omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0052869`
+#### Removed
+- [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
+
+#### Added
+- [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) SubClassOf [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) 
+
+
 ### assembly of large subunit precursor of preribosome `http://purl.obolibrary.org/obo/GO_1902626`
 #### Removed
 - [assembly of large subunit precursor of preribosome](http://purl.obolibrary.org/obo/GO_1902626) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) 
@@ -1128,6 +1284,18 @@
 - [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) SubClassOf [cellular response to cytokine stimulus](http://purl.obolibrary.org/obo/GO_0071345) 
 
 - [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) SubClassOf [response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770102) 
+
+
+### chloroplast protein-transporting ATPase activity `http://purl.obolibrary.org/obo/GO_0016464`
+#### Removed
+- [chloroplast protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0016464) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the chloroplast stroma." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.4" 
+
+#### Added
+- [chloroplast protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0016464) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32395"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [chloroplast protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0016464) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a protein from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the chloroplast stroma." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.4" 
 
 
 ### citrate-malate shuttle `http://purl.obolibrary.org/obo/GO_7770108`
@@ -1232,12 +1400,44 @@
 
 - [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170080" 
 
-- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that monitors and mediates the fidelity of protein folding in the endoplasmic reticulum, permitting export of correctly folded proteins to the Golgi apparatus while retaining, refolding, or targeting terminally misfolded proteins for degradation." 
+- [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that monitors and mediates the fidelity of protein folding in the endoplasmic reticulum, or prevents misfolded proteins from accumulating in or transiting the endoplasmic reticulum. Processes result in the export of correctly folded proteins to the Golgi apparatus while retaining, refolding, or targeting terminally misfolded proteins for degradation." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12612637" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17129784" 
 
 - [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) [label](http://www.w3.org/2000/01/rdf-schema#label) "endoplasmic reticulum protein quality control" 
 
 - [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) SubClassOf [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) 
+
+
+### endoplasmic reticulum stress-induced pre-emptive quality control `http://purl.obolibrary.org/obo/GO_0061857`
+#### Removed
+- [endoplasmic reticulum stress-induced pre-emptive quality control](http://purl.obolibrary.org/obo/GO_0061857) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ER stress-indiced pre-emptive quality control" 
+
+- [endoplasmic reticulum stress-induced pre-emptive quality control](http://purl.obolibrary.org/obo/GO_0061857) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The response to endoplasimic reticulum stress in which nascent proteins are degraded by attenuation of their translocation into the ER followed by rerouting to the cytosol without cleavage of the signal peptide, and subsequent degradation by the proteasome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17129784" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26565908" 
+
+#### Added
+- [endoplasmic reticulum stress-induced pre-emptive quality control](http://purl.obolibrary.org/obo/GO_0061857) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum stress-induced pre-emptive quality control](http://purl.obolibrary.org/obo/GO_0061857) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ER stress-induced pre-emptive quality control" 
+
+- [endoplasmic reticulum stress-induced pre-emptive quality control](http://purl.obolibrary.org/obo/GO_0061857) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The response to endoplasmic reticulum stress in which nascent proteins are degraded by attenuation of their translocation into the ER followed by rerouting to the cytosol without cleavage of the signal peptide, and subsequent degradation by the proteasome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17129784" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26565908" 
+
+- [endoplasmic reticulum stress-induced pre-emptive quality control](http://purl.obolibrary.org/obo/GO_0061857) SubClassOf [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
+
+
+### endoplasmic reticulum unfolded protein response `http://purl.obolibrary.org/obo/GO_0030968`
+
+#### Added
+- [endoplasmic reticulum unfolded protein response](http://purl.obolibrary.org/obo/GO_0030968) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endoplasmic reticulum unfolded protein response](http://purl.obolibrary.org/obo/GO_0030968) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
 
 
 ### ent-kaurene biosynthetic process `http://purl.obolibrary.org/obo/GO_0033332`
@@ -1474,6 +1674,33 @@
 - [gap endonuclease activity](http://purl.obolibrary.org/obo/GO_0170076) SubClassOf [DNA endonuclease activity](http://purl.obolibrary.org/obo/GO_0004520) 
 
 
+### glucose dehydrogenase (FAD, quinone) activity `http://purl.obolibrary.org/obo/GO_0140762`
+#### Removed
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN" 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47372" 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [47372](http://rdf.rhea-db.org/47372) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a quinone + D-glucose = a quinol + D-glucono-1,5-lactone." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47372" 
+
+#### Added
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32504"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN](http://identifiers.org/metacyc.reaction/GLUCOSE-DEHYDROGENASE-ACCEPTOR-RXN) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [47372](http://rdf.rhea-db.org/47372) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [R00305](http://www.kegg.jp/entry/R00305) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-glucose + a quinone = D-glucono-1,5-lactone + a quinol, using FAD as a cofactor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.5.9" 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "FAD-dependent glucose dehydrogenase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.5.9" 
+
+
 ### glutaredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_7770099`
 
 #### Added
@@ -1706,6 +1933,46 @@
 - [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error and is an unnecessary grouping term." 
 
 - [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipid X metabolic process" 
+
+
+### lipoate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009107`
+#### Removed
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lipoate, 1,2-dithiolane-3-pentanoate, the anion derived from lipoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipoate biosynthetic process" 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) SubClassOf [fatty acid biosynthetic process](http://purl.obolibrary.org/obo/GO_0006633) 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) SubClassOf [lipoate metabolic process](http://purl.obolibrary.org/obo/GO_0009106) 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) SubClassOf [sulfur compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0044272) 
+
+#### Added
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32418"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of lipoate, 1,2-dithiolane-3-pentanoate, the anion derived from lipoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term usage has been inconsistent." 
+
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipoate biosynthetic process" 
+
+
+### lipoate synthase activity `http://purl.obolibrary.org/obo/GO_0016992`
+#### Removed
+- [lipoate synthase activity](http://purl.obolibrary.org/obo/GO_0016992) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) 
+
+#### Added
+- [lipoate synthase activity](http://purl.obolibrary.org/obo/GO_0016992) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) 
 
 
 ### lipoyl-GcvH:protein N-lipoyltransferase activity `http://purl.obolibrary.org/obo/GO_7770091`
@@ -2439,6 +2706,24 @@
 - [phosphocreatine metabolic process](http://purl.obolibrary.org/obo/GO_0006603) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32279"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### phytanate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0050197`
+#### Removed
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + CoA + phytanate = AMP + diphosphate + H+ + phytanoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:6.2.1.24" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21380" 
+
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [CoA-ligase activity](http://purl.obolibrary.org/obo/GO_0016405) 
+
+#### Added
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + CoA + phytanate = AMP + diphosphate + H+ + phytanoyl-CoA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:21380" 
+
+- [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0120515) 
+
+
 ### positive regulation of cristae formation `http://purl.obolibrary.org/obo/GO_1903852`
 #### Removed
 - [positive regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903852) SubClassOf [positive regulation of organelle organization](http://purl.obolibrary.org/obo/GO_0010638) 
@@ -2609,6 +2894,28 @@
 
 
 
+### protein lipoylation `http://purl.obolibrary.org/obo/GO_0009249`
+#### Removed
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The lipoylation of peptidyl-lysine to form peptidyl-N6-lipoyl-L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0118" 
+
+#### Added
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32418"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "lipoate biosynthesis" 
+
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "lipoate biosynthetic process" 
+
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "lipoic acid biosynthetic process" 
+
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the attachment of a lipoyl group to a lipoyl carrier protein, either by de novo assembly on the carrier protein via transfer of an octanoyl group followed by sulfur insertion, or by ligation of exogenous lipoate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RESID:AA0118" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29987032" 
+
+- [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) SubClassOf [lipoate metabolic process](http://purl.obolibrary.org/obo/GO_0009106) 
+
+
 ### protein quality control for misfolded or incompletely synthesized proteins `http://purl.obolibrary.org/obo/GO_0006515`
 #### Removed
 - [protein quality control for misfolded or incompletely synthesized proteins](http://purl.obolibrary.org/obo/GO_0006515) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "protein quality control by the ubiquitin-proteasome system" 
@@ -2669,6 +2976,22 @@
 - [protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0008982) SubClassOf [group translocator activity](http://purl.obolibrary.org/obo/GO_7770111) 
 
 
+### protein-exporting ATPase activity `http://purl.obolibrary.org/obo/GO_0008564`
+#### Removed
+- [protein-exporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008564) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + protein+(in) = ADP + phosphate + protein+(out); drives the concomitant secretion of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.8" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30346996" 
+
+#### Added
+- [protein-exporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008564) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32395"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein-exporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008564) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a protein from one side of a membrane to the other according to the reaction: ATP + H2O + protein+(in) = ADP + phosphate + protein+(out); drives the concomitant secretion of proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.8" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30346996" 
+
+
 ### protein-phosphocysteine-sugar phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0090563`
 #### Removed
 - [protein-phosphocysteine-sugar phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0090563) SubClassOf [active transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022804) 
@@ -2685,6 +3008,40 @@
 
 #### Added
 - [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) SubClassOf [nucleobase-containing small molecule catabolic process](http://purl.obolibrary.org/obo/GO_0034656) 
+
+
+### quinoprotein glucose dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0008876`
+#### Removed
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R00305" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN0-6373" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22152" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [22152](http://rdf.rhea-db.org/22152) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-glucose + ubiquinone = D-glucono-1,5-lactone + ubiquinol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22152" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [label](http://www.w3.org/2000/01/rdf-schema#label) "quinoprotein glucose dehydrogenase activity" 
+
+#### Added
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32504"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "quinoprotein glucose dehydrogenase activity" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "quinoprotein glucose dehydrogenase (PQQ, quinone) activity" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [RXN0-6373](http://identifiers.org/metacyc.reaction/RXN0-6373) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [22152](http://rdf.rhea-db.org/22152) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [R06620](http://www.kegg.jp/entry/R06620) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-glucose + ubiquinone = D-glucono-1,5-lactone + ubiquinol, using PQQ as a cofactor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.1.5.2" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [label](http://www.w3.org/2000/01/rdf-schema#label) "glucose dehydrogenase (PQQ, quinone) activity" 
 
 
 ### rRNA (adenine-N6-)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0008988`
@@ -2916,6 +3273,45 @@
 
 - [riboflavin kinase activity](http://purl.obolibrary.org/obo/GO_0008531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: riboflavin + ATP = FMN + ADP + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14357" 
+
+
+### ribosome-associated chaperone complex `http://purl.obolibrary.org/obo/GO_0170081`
+
+#### Added
+- Class: [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32185"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-20T20:04:20Z" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "MPP11/Hsp70L1 complex" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Zuo1/Ssz1 complex" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "zuotin complex" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "RAC" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "ribosome-associated complex" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170081" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A conserved heterodimeric co-chaperone complex, composed of a J-domain (Hsp40-family) protein and an atypical Hsp70-family protein, that associates with the ribosome and acts on nascent polypeptide chains as they emerge from the exit tunnel to enable their co-translational folding. In Saccharomyces cerevisiae, the complex consists of the J-domain protein Zuo1 (Hsp40) and the non-canonical Hsp70 homolog Ssz1. The mammalian ortholog comprises ZRF1/MPP11 (Hsp40) and HSPA14/HSP70L1 (Hsp70)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11274393" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16002468" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term does not cover the nascent polypeptide-associated complex (GO:0005854), a distinct ribosome-associated heterodimer that acts in nascent chain sorting rather than folding." 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) [label](http://www.w3.org/2000/01/rdf-schema#label) "ribosome-associated chaperone complex" 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) SubClassOf [protein folding chaperone complex](http://purl.obolibrary.org/obo/GO_0101031) 
+
+- [ribosome-associated chaperone complex](http://purl.obolibrary.org/obo/GO_0170081) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829) 
 
 
 ### ribosome-associated quality control `http://purl.obolibrary.org/obo/GO_7770112`
