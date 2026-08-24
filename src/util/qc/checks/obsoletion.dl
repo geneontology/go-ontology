@@ -29,6 +29,12 @@ violation("replacedby-namespace", t,
 // direction, and membership of a class-expression list. The list arm covers
 // owl:intersectionOf and owl:unionOf alike, the same way the SPARQL does --
 // by matching rdf:first, not by walking the list.
+//
+// Not positional identity: the filler arms reach a restriction through
+// superclass_expr, so they see restrictions that are a superclass or an
+// equivalence-intersection member, where the SPARQL matches someValuesFrom
+// anywhere. OBO format cannot put a restriction anywhere else, so the two
+// coincide on this input.
 check("obsolete-reference", "No axiom may reference an obsolete term").
 violation("obsolete-reference", t, cat("obsolete, but still has the superclass ", super)) :-
     obsolete(t), parent(t, s), shown(s, super).

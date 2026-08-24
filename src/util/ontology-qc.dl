@@ -9,11 +9,15 @@
 //   qc/registry.dl     the check registry and the error projection
 //   qc/program.dl      the include list, shared with the self-test
 //   qc/checks/*.dl     one file per topic; each check is registered and named
+//   qc/control.dl      the control ontology, read only by the self-test
+//   qc/selftest.dl     the self-test gates, likewise
 //
 // To add a check: pick the topic file, write a `check(...)` fact and one or
-// more `violation(...)` rules against the vocabulary, then plant a violating
-// fact in qc/control.facts so `make qc-selftest` proves it fires. A check
-// with no control fact is reported as silent and fails that target.
+// more `violation(...)` rules against the vocabulary. Then, in qc/control.dl,
+// plant a term that violates it and declare it with an
+// `expected_violation(check, term)` fact -- one per rule that can go dead on
+// its own, not one per check. `make qc-selftest` fails when an expectation
+// does not fire, and equally when a violation nobody expected does.
 // ===========================================================================
 
 .decl ontrdf(s:symbol, p:symbol, o:symbol)

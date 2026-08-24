@@ -807,9 +807,11 @@ datalog-check: datalog-violations.tsv
 
 # Positive control for the QC program: runs the same checks as
 # datalog-violations.tsv against ../util/qc/control.dl, a small ontology that
-# plants one violation of each. A check that stays silent there can never fire
-# against the real ontology either -- an empty relation passes the build, so
-# this is the only thing that makes a dead rule visible.
+# plants a violation of every rule and declares each one with an
+# expected_violation fact. An expectation that does not fire means the rule is
+# dead -- Souffle reports a rule that matches nothing as an empty relation, and
+# an empty relation passes the build. A violation nobody expected means a rule
+# has grown too broad. Both fail this target.
 .PHONY: qc-selftest
 qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/selftest.dl $(QC_SOURCES) ../resources/obsolete_ec.txt
 	souffle $<

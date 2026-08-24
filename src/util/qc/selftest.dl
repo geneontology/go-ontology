@@ -7,8 +7,18 @@
 // Keying on (check, term) rather than on check name is deliberate. Several
 // checks have more than one rule -- obsolete-reference has six -- and a
 // name-keyed gate stays satisfied as long as any one arm fires, so a dead arm
-// would pass silently. control.dl therefore gives every arm its own control
-// term, and each arm is expected by name and term.
+// would pass silently.
+//
+// control.dl therefore plants one term per rule that can go dead on its own.
+// That is finer than one per arm: where a single check arm reads a
+// vocabulary-layer relation that has several rules of its own, each of those
+// gets a term too -- which is why obsolete-reference has six arms but eight
+// control terms.
+//
+// Nothing mechanically forces a NEW arm to be given a term:
+// check_without_expectation only fires when a check name has no expectation at
+// all, and Datalog gives rules no identity to key on. The convention is the
+// available answer.
 // ---------------------------------------------------------------------------
 
 .decl expected_violation(check:symbol, term:symbol)

@@ -1,8 +1,8 @@
 // ===========================================================================
 // Control ontology for the QC self-test.
 //
-// A small hand-built ontology that plants at least one violation of every
-// registered check. It is written as Datalog facts rather than as a .facts
+// A small hand-built ontology that plants a violation of every rule in the QC
+// program. It is written as Datalog facts rather than as a .facts
 // file because Souffle's fact-file reader rejects comment lines, and a
 // control file nobody can read is a control file nobody will maintain.
 //
@@ -21,9 +21,11 @@
 //   - CTRL_PARENT is the well-formed term to hang things off, and is expected
 //     to trigger nothing -- that is now enforced, not just documented;
 //   - each control term is named for the check it exercises;
-//   - a check with more than one rule gets one control term PER ARM, because
-//     the gate is keyed on (check, term). Sharing a term between arms would
-//     let a dead arm hide behind a live one.
+//   - one control term per rule that can go dead on its own -- not one per
+//     check, and not quite one per arm either. The gate is keyed on
+//     (check, term), so sharing a term between two rules lets a dead one hide
+//     behind a live one. Where a check arm reads a vocabulary relation with
+//     several rules of its own, each of those needs a term too.
 // ===========================================================================
 
 #define C_TYPE(t)       ontrdf(t, RDF_TYPE, OWL_CLASS).
@@ -64,9 +66,14 @@ C_DEF(CTRL_PARENT, "\"A well-formed control term.\"")
 #define OBS_TARGET     "<http://purl.obolibrary.org/obo/GO_0000103>"
 #define OBS_NON_GO     "<http://purl.obolibrary.org/obo/GO_0000104>"
 
-// obsolete-reference has six arms. Each gets its own obsolete term, arranged
-// so that exactly one arm fires on it -- otherwise a dead arm could hide
-// behind a live one firing on the same term.
+// obsolete-reference has six violation rules but eight control terms. The unit
+// is not the arm, it is any rule that can go dead on its own, at whatever
+// layer it lives: the two filler terms separate someValuesFrom from
+// allValuesFrom inside relationship/3, and the two equivalence terms separate
+// the two directions of equivalence/2 -- both vocabulary-layer rules that a
+// single check arm reads. Each term is arranged so exactly one arm fires on
+// it, otherwise a dead rule could hide behind a live one firing on the same
+// term.
 #define OBS_REF_SUPER      "<http://purl.obolibrary.org/obo/GO_0000105>"
 #define OBS_REF_SUB        "<http://purl.obolibrary.org/obo/GO_0000106>"
 #define OBS_REF_SUB_CHILD  "<http://purl.obolibrary.org/obo/GO_0000107>"
