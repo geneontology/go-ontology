@@ -10,8 +10,6 @@
 // a sign that something is missing here.
 // ---------------------------------------------------------------------------
 
-#define XSD_ANY_URI "^^<http://www.w3.org/2001/XMLSchema#anyURI>"
-#define XSD_BOOLEAN "^^<http://www.w3.org/2001/XMLSchema#boolean>"
 #define OBO_BASE_LEN 32   // strlen("<http://purl.obolibrary.org/obo/")
 
 .decl node(x:symbol)
@@ -25,24 +23,32 @@ iri(x) :- node(x), match("<.+>", x).
 .decl literal(x:symbol)
 literal(x) :- node(x), match("\".*", x).
 
-// -- literal text, with the quoting and datatype stripped ---------------------
+// -- literal text, with the quoting and any datatype or language tag stripped -
 //
 // text/2 gives the N-Triples *lexical* form: an embedded quote is still \" and
 // an embedded newline is still the two characters \n. Checks that look for
 // those characters have to match the escape, not the character.
+//
+// The tail is stripped generically rather than against a list of known
+// datatypes. A whitelist silently drops every literal carrying anything else,
+// which would take it out of definition/label/namespace/comment/xref/synonym
+// and shown all at once -- exactly the kind of invisible narrowing this layer
+// exists to prevent.
 
-.decl datatype_tag(tag:symbol)
-datatype_tag(XSD_ANY_URI).
-datatype_tag(XSD_BOOLEAN).
-
+// The common case: no tail, so the closing quote is the last character.
 .decl text(lit:symbol, txt:symbol)
 text(l, t) :- literal(l), match("\".*\"", l), n = strlen(l), t = substr(l, 1, n-2).
-// max() keeps the index non-negative for literals shorter than the tag.
-// Souffle is free to evaluate substr before any guard constraint placed beside
-// it, so the clamp has to live inside the call -- a `n-k >= 0` conjunct is not
-// enough and yields a run full of substr range warnings.
-text(l, t) :- literal(l), datatype_tag(tag), n = strlen(l), k = strlen(tag),
-              substr(l, max(0, n-k), k) = tag, t = substr(l, 1, max(0, n-k-2)).
+
+// Typed ("..."^^<dt>) or language-tagged ("..."@en). Neither tail can contain a
+// quote, so the closing quote is the last one in the string. Scanning is
+// confined to these -- 34,656 of 760,055 literals in the current edit file.
+.decl tagged_literal(lit:symbol)
+tagged_literal(l) :- literal(l), !match("\".*\"", l).
+
+.decl quote_at(lit:symbol, i:number)
+quote_at(l, i) :- tagged_literal(l), i = range(1, strlen(l)), substr(l, i, 1) = "\"".
+
+text(l, t) :- tagged_literal(l), j = max i : quote_at(l, i), t = substr(l, 1, j-1).
 
 // -- OBO CURIEs, for error messages a curator can paste into a search box -----
 

@@ -10,14 +10,20 @@
 // purpose: an OBO round-trip would normalise away several of the very
 // malformations being tested.
 //
-// When you add a check, add a term here that violates it. `make qc-selftest`
-// fails on any registered check this file does not trigger.
+// When you add a check, add a term here that violates it AND an
+// `expected_violation(check, term)` fact for it. `make qc-selftest` gates both
+// directions: an expectation that does not fire is a dead rule, and a
+// violation nobody expected is a rule that has become too broad.
 //
 // Conventions:
 //   - every GO class needs a namespace and a parent, or it trips
 //     missing-namespace / missing-superclass by accident;
-//   - CTRL_PARENT is the well-formed term to hang things off;
-//   - each control term is named for the check it exercises.
+//   - CTRL_PARENT is the well-formed term to hang things off, and is expected
+//     to trigger nothing -- that is now enforced, not just documented;
+//   - each control term is named for the check it exercises;
+//   - a check with more than one rule gets one control term PER ARM, because
+//     the gate is keyed on (check, term). Sharing a term between arms would
+//     let a dead arm hide behind a live one.
 // ===========================================================================
 
 #define C_TYPE(t)       ontrdf(t, RDF_TYPE, OWL_CLASS).
@@ -57,19 +63,28 @@ C_DEF(CTRL_PARENT, "\"A well-formed control term.\"")
 #define OBS_REPLACED   "<http://purl.obolibrary.org/obo/GO_0000102>"
 #define OBS_TARGET     "<http://purl.obolibrary.org/obo/GO_0000103>"
 #define OBS_NON_GO     "<http://purl.obolibrary.org/obo/GO_0000104>"
-#define OBS_REFERENCED "<http://purl.obolibrary.org/obo/GO_0000105>"
-#define OBS_CHILD      "<http://purl.obolibrary.org/obo/GO_0000106>"
-#define OBS_RELATED    "<http://purl.obolibrary.org/obo/GO_0000107>"
+
+// obsolete-reference has four arms. Each gets its own obsolete term, arranged
+// so that exactly one arm fires on it -- otherwise a dead arm could hide
+// behind a live one firing on the same term.
+#define OBS_REF_SUPER      "<http://purl.obolibrary.org/obo/GO_0000105>"
+#define OBS_REF_SUB        "<http://purl.obolibrary.org/obo/GO_0000106>"
+#define OBS_REF_SUB_CHILD  "<http://purl.obolibrary.org/obo/GO_0000107>"
+#define OBS_REF_SUBSET     "<http://purl.obolibrary.org/obo/GO_0000108>"
+#define OBS_REF_FILLER     "<http://purl.obolibrary.org/obo/GO_0000109>"
+#define OBS_REF_FILLER_SRC "<http://purl.obolibrary.org/obo/GO_0000119>"
 
 // obsolete-definition: obsolete, but the definition lacks the OBSOLETE. prefix.
 C_TYPE(OBS_NO_PREFIX)  C_LABEL(OBS_NO_PREFIX, "\"control obsolete without prefix\"")  C_BP(OBS_NO_PREFIX)
 C_OBSOLETE(OBS_NO_PREFIX)
 C_DEF(OBS_NO_PREFIX, "\"This definition is missing its obsoletion prefix.\"")
+expected_violation("obsolete-definition", OBS_NO_PREFIX).
 
 // replacedby-obsolete: replaced_by points at a term that is itself obsolete.
 C_TYPE(OBS_REPLACED)  C_LABEL(OBS_REPLACED, "\"control replaced by an obsolete term\"")  C_BP(OBS_REPLACED)
 C_OBSOLETE(OBS_REPLACED)
 ontrdf(OBS_REPLACED, IAO_REPLACED_BY, OBS_TARGET).
+expected_violation("replacedby-obsolete", OBS_REPLACED).
 C_TYPE(OBS_TARGET)  C_LABEL(OBS_TARGET, "\"control obsolete replacement\"")  C_BP(OBS_TARGET)
 C_OBSOLETE(OBS_TARGET)
 
@@ -77,23 +92,63 @@ C_OBSOLETE(OBS_TARGET)
 C_TYPE(OBS_NON_GO)  C_LABEL(OBS_NON_GO, "\"control replaced by a non-GO term\"")  C_BP(OBS_NON_GO)
 C_OBSOLETE(OBS_NON_GO)
 ontrdf(OBS_NON_GO, OIO_CONSIDER, "<http://purl.obolibrary.org/obo/CHEBI_15377>").
+expected_violation("replacedby-namespace", OBS_NON_GO).
 
-// obsolete-reference, exercising all four arms: an obsolete term that still
-// has a superclass, still has a subclass, is still in a subset, and is still
-// used as a relationship filler.
-C_TYPE(OBS_REFERENCED)  C_LABEL(OBS_REFERENCED, "\"control obsolete but referenced\"")  C_BP(OBS_REFERENCED)
-C_OBSOLETE(OBS_REFERENCED)
-C_SUB(OBS_REFERENCED, CTRL_PARENT)
-ontrdf(OBS_REFERENCED, OIO_IN_SUBSET, "<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>").
+// obsolete-reference arm 1: obsolete, still has a superclass.
+C_TYPE(OBS_REF_SUPER)  C_LABEL(OBS_REF_SUPER, "\"control obsolete with a superclass\"")  C_BP(OBS_REF_SUPER)
+C_OBSOLETE(OBS_REF_SUPER)
+C_SUB(OBS_REF_SUPER, CTRL_PARENT)
+expected_violation("obsolete-reference", OBS_REF_SUPER).
 
-C_TYPE(OBS_CHILD)  C_LABEL(OBS_CHILD, "\"control subclass of an obsolete term\"")  C_BP(OBS_CHILD)
-C_SUB(OBS_CHILD, OBS_REFERENCED)
+// obsolete-reference arm 2: obsolete, still has a subclass. No parent of its
+// own, so arm 1 does not also fire here.
+C_TYPE(OBS_REF_SUB)  C_LABEL(OBS_REF_SUB, "\"control obsolete with a subclass\"")  C_BP(OBS_REF_SUB)
+C_OBSOLETE(OBS_REF_SUB)
+expected_violation("obsolete-reference", OBS_REF_SUB).
+C_TYPE(OBS_REF_SUB_CHILD)  C_LABEL(OBS_REF_SUB_CHILD, "\"control subclass of an obsolete term\"")  C_BP(OBS_REF_SUB_CHILD)
+C_SUB(OBS_REF_SUB_CHILD, OBS_REF_SUB)
 
-C_TYPE(OBS_RELATED)  C_LABEL(OBS_RELATED, "\"control with a relationship to an obsolete term\"")  C_BP(OBS_RELATED)
-C_SUB(OBS_RELATED, CTRL_PARENT)
-C_SUB(OBS_RELATED, "_:ctrlrestriction1")
+// obsolete-reference arm 3: obsolete, still in a subset.
+C_TYPE(OBS_REF_SUBSET)  C_LABEL(OBS_REF_SUBSET, "\"control obsolete in a subset\"")  C_BP(OBS_REF_SUBSET)
+C_OBSOLETE(OBS_REF_SUBSET)
+ontrdf(OBS_REF_SUBSET, OIO_IN_SUBSET, "<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>").
+expected_violation("obsolete-reference", OBS_REF_SUBSET).
+
+// obsolete-reference arm 4: obsolete, still used as a relationship filler.
+// This is the arm that was dead before the superclass_expr/parent split.
+C_TYPE(OBS_REF_FILLER)  C_LABEL(OBS_REF_FILLER, "\"control obsolete used as a filler\"")  C_BP(OBS_REF_FILLER)
+C_OBSOLETE(OBS_REF_FILLER)
+expected_violation("obsolete-reference", OBS_REF_FILLER).
+C_TYPE(OBS_REF_FILLER_SRC)  C_LABEL(OBS_REF_FILLER_SRC, "\"control with a relationship to an obsolete term\"")  C_BP(OBS_REF_FILLER_SRC)
+C_SUB(OBS_REF_FILLER_SRC, CTRL_PARENT)
+C_SUB(OBS_REF_FILLER_SRC, "_:ctrlrestriction1")
 ontrdf("_:ctrlrestriction1", OWL_ON_PROPERTY, "<http://purl.obolibrary.org/obo/BFO_0000050>").
-ontrdf("_:ctrlrestriction1", OWL_SOME_VALUES, OBS_REFERENCED).
+ontrdf("_:ctrlrestriction1", OWL_SOME_VALUES, OBS_REF_FILLER).
+
+// obsolete-reference arm 5: obsolete, still the filler of a universal
+// restriction. go-edit.obo has no allValuesFrom today; this keeps the arm live.
+#define OBS_REF_ALL     "<http://purl.obolibrary.org/obo/GO_0000138>"
+#define OBS_REF_ALL_SRC "<http://purl.obolibrary.org/obo/GO_0000139>"
+C_TYPE(OBS_REF_ALL)  C_LABEL(OBS_REF_ALL, "\"control obsolete used as a universal filler\"")  C_BP(OBS_REF_ALL)
+C_OBSOLETE(OBS_REF_ALL)
+expected_violation("obsolete-reference", OBS_REF_ALL).
+C_TYPE(OBS_REF_ALL_SRC)  C_LABEL(OBS_REF_ALL_SRC, "\"control with a universal restriction on an obsolete term\"")  C_BP(OBS_REF_ALL_SRC)
+C_SUB(OBS_REF_ALL_SRC, CTRL_PARENT)
+C_SUB(OBS_REF_ALL_SRC, "_:ctrlrestriction2")
+ontrdf("_:ctrlrestriction2", OWL_ON_PROPERTY, "<http://purl.obolibrary.org/obo/BFO_0000050>").
+ontrdf("_:ctrlrestriction2", OWL_ALL_VALUES, OBS_REF_ALL).
+
+// obsolete-reference arm 6: obsolete, still asserted equivalent to a named
+// class. Every equivalence in the real edit file is to an anonymous
+// intersection, so only the control ontology exercises this.
+#define OBS_REF_EQ     "<http://purl.obolibrary.org/obo/GO_0000140>"
+#define OBS_REF_EQ_SRC "<http://purl.obolibrary.org/obo/GO_0000141>"
+C_TYPE(OBS_REF_EQ)  C_LABEL(OBS_REF_EQ, "\"control obsolete with a named equivalence\"")  C_BP(OBS_REF_EQ)
+C_OBSOLETE(OBS_REF_EQ)
+ontrdf(OBS_REF_EQ, OWL_EQUIVALENT, OBS_REF_EQ_SRC).
+expected_violation("obsolete-reference", OBS_REF_EQ).
+C_TYPE(OBS_REF_EQ_SRC)  C_LABEL(OBS_REF_EQ_SRC, "\"control equivalent to an obsolete term\"")  C_BP(OBS_REF_EQ_SRC)
+C_SUB(OBS_REF_EQ_SRC, CTRL_PARENT)
 
 // ---------------------------------------------------------------------------
 // definitions.dl
@@ -108,16 +163,19 @@ ontrdf("_:ctrlrestriction1", OWL_SOME_VALUES, OBS_REFERENCED).
 C_TYPE(DEF_NEWLINE)  C_LABEL(DEF_NEWLINE, "\"control definition with a newline\"")  C_BP(DEF_NEWLINE)
 C_SUB(DEF_NEWLINE, CTRL_PARENT)
 C_DEF(DEF_NEWLINE, "\"A definition split\\nover two lines.\"")
+expected_violation("definition-newline", DEF_NEWLINE).
 
 // definition-quote: an escaped double quote inside the lexical form.
 C_TYPE(DEF_QUOTE)  C_LABEL(DEF_QUOTE, "\"control definition with a quote\"")  C_BP(DEF_QUOTE)
 C_SUB(DEF_QUOTE, CTRL_PARENT)
 C_DEF(DEF_QUOTE, "\"A definition containing a \\\" quote.\"")
+expected_violation("definition-quote", DEF_QUOTE).
 
 // definition-period: no trailing period.
 C_TYPE(DEF_PERIOD)  C_LABEL(DEF_PERIOD, "\"control definition without a period\"")  C_BP(DEF_PERIOD)
 C_SUB(DEF_PERIOD, CTRL_PARENT)
 C_DEF(DEF_PERIOD, "\"A definition that just stops\"")
+expected_violation("definition-period", DEF_PERIOD).
 
 // definition-annotation: the definition axiom carries a comment, not an xref.
 C_TYPE(DEF_ANNOT)  C_LABEL(DEF_ANNOT, "\"control definition with a stray axiom annotation\"")  C_BP(DEF_ANNOT)
@@ -125,58 +183,88 @@ C_SUB(DEF_ANNOT, CTRL_PARENT)
 C_DEF(DEF_ANNOT, "\"A definition with an over-annotated axiom.\"")
 C_DEF_AXIOM("_:ctrlaxiom1", DEF_ANNOT, "\"A definition with an over-annotated axiom.\"")
 ontrdf("_:ctrlaxiom1", RDFS_COMMENT, "\"an xref is the only annotation allowed here\"").
+expected_violation("definition-annotation", DEF_ANNOT).
 
 // ---------------------------------------------------------------------------
 // hierarchy.dl
 // ---------------------------------------------------------------------------
 
-#define HIER_ORPHAN   "<http://purl.obolibrary.org/obo/GO_0000120>"
-#define HIER_MISMATCH "<http://purl.obolibrary.org/obo/GO_0000121>"
-#define HIER_NO_NS    "<http://purl.obolibrary.org/obo/GO_0000122>"
+#define HIER_ORPHAN     "<http://purl.obolibrary.org/obo/GO_0000120>"
+#define HIER_MISMATCH   "<http://purl.obolibrary.org/obo/GO_0000121>"
+#define HIER_NO_NS      "<http://purl.obolibrary.org/obo/GO_0000122>"
+#define HIER_PARENT_NS  "<http://purl.obolibrary.org/obo/GO_0000123>"
 
 // missing-superclass: live, not a root, no GO parent.
 C_TYPE(HIER_ORPHAN)  C_LABEL(HIER_ORPHAN, "\"control orphan\"")  C_BP(HIER_ORPHAN)
+expected_violation("missing-superclass", HIER_ORPHAN).
 
-// different-namespace: cellular_component under a biological_process parent.
+// different-namespace arm 1: cellular_component under a biological_process parent.
 C_TYPE(HIER_MISMATCH)  C_LABEL(HIER_MISMATCH, "\"control namespace mismatch\"")  C_CC(HIER_MISMATCH)
 C_SUB(HIER_MISMATCH, CTRL_PARENT)
+expected_violation("different-namespace", HIER_MISMATCH).
 
-// missing-namespace, and the no-namespace arm of different-namespace.
+// different-namespace arm 2 (child has no namespace), and missing-namespace.
 C_TYPE(HIER_NO_NS)  C_LABEL(HIER_NO_NS, "\"control without a namespace\"")
 C_SUB(HIER_NO_NS, CTRL_PARENT)
+expected_violation("different-namespace", HIER_NO_NS).
+expected_violation("missing-namespace", HIER_NO_NS).
+
+// different-namespace arm 3: the parent is the one missing a namespace.
+C_TYPE(HIER_PARENT_NS)  C_LABEL(HIER_PARENT_NS, "\"control whose parent has no namespace\"")  C_BP(HIER_PARENT_NS)
+C_SUB(HIER_PARENT_NS, HIER_NO_NS)
+expected_violation("different-namespace", HIER_PARENT_NS).
 
 // ---------------------------------------------------------------------------
 // xrefs.dl
 // ---------------------------------------------------------------------------
 
-#define EC_OBSOLETE "<http://purl.obolibrary.org/obo/GO_0000130>"
-#define EC_UNKNOWN  "<http://purl.obolibrary.org/obo/GO_0000131>"
-#define SUBSET_BAD  "<http://purl.obolibrary.org/obo/GO_0000132>"
+#define EC_OBSOLETE    "<http://purl.obolibrary.org/obo/GO_0000130>"
+#define SUBSET_BAD     "<http://purl.obolibrary.org/obo/GO_0000132>"
+
+// unknown-ec reaches EC ids through ec_citation, which has three arms -- a
+// term xref, a definition xref and a synonym xref. One control term each, so
+// a broken arm cannot hide behind a working one.
+#define EC_UNK_XREF    "<http://purl.obolibrary.org/obo/GO_0000131>"
+#define EC_UNK_DEFXREF "<http://purl.obolibrary.org/obo/GO_0000135>"
+#define EC_UNK_SYNXREF "<http://purl.obolibrary.org/obo/GO_0000136>"
 
 // obsolete-ec: EC:1.1.1.109 is withdrawn in ../resources/obsolete_ec.txt.
 C_TYPE(EC_OBSOLETE)  C_LABEL(EC_OBSOLETE, "\"control with an obsolete EC xref\"")  C_BP(EC_OBSOLETE)
 C_SUB(EC_OBSOLETE, CTRL_PARENT)
 C_XREF(EC_OBSOLETE, "\"EC:1.1.1.109\"")
+expected_violation("obsolete-ec", EC_OBSOLETE).
 
-// unknown-ec, cited three ways so all three arms of ec_citation are exercised:
-// a term xref, a definition xref, and a synonym xref.
-C_TYPE(EC_UNKNOWN)  C_LABEL(EC_UNKNOWN, "\"control with an unknown EC xref\"")  C_BP(EC_UNKNOWN)
-C_SUB(EC_UNKNOWN, CTRL_PARENT)
-C_XREF(EC_UNKNOWN, "\"EC:9.9.9.9\"")
-C_DEF(EC_UNKNOWN, "\"A control term citing an EC that does not exist.\"")
-C_DEF_AXIOM("_:ctrlaxiom2", EC_UNKNOWN, "\"A control term citing an EC that does not exist.\"")
+// unknown-ec arm 1: a term xref.
+C_TYPE(EC_UNK_XREF)  C_LABEL(EC_UNK_XREF, "\"control with an unknown EC xref\"")  C_BP(EC_UNK_XREF)
+C_SUB(EC_UNK_XREF, CTRL_PARENT)
+C_XREF(EC_UNK_XREF, "\"EC:9.9.9.9\"")
+expected_violation("unknown-ec", EC_UNK_XREF).
+
+// unknown-ec arm 2: a definition xref.
+C_TYPE(EC_UNK_DEFXREF)  C_LABEL(EC_UNK_DEFXREF, "\"control with an unknown EC definition xref\"")  C_BP(EC_UNK_DEFXREF)
+C_SUB(EC_UNK_DEFXREF, CTRL_PARENT)
+C_DEF(EC_UNK_DEFXREF, "\"A control term citing an EC that does not exist.\"")
+C_DEF_AXIOM("_:ctrlaxiom2", EC_UNK_DEFXREF, "\"A control term citing an EC that does not exist.\"")
 ontrdf("_:ctrlaxiom2", OIO_XREF, "\"EC:9.9.9.8\"").
-ontrdf(EC_UNKNOWN, OIO_EXACT_SYN, "\"control synonym\"").
-ontrdf("_:ctrlaxiom3", OWL_ANN_SOURCE, EC_UNKNOWN).
+expected_violation("unknown-ec", EC_UNK_DEFXREF).
+
+// unknown-ec arm 3: a synonym xref. This is the coverage the pre-split program
+// lacked, and the arm that surfaced the two malformed EC ids in #32515.
+C_TYPE(EC_UNK_SYNXREF)  C_LABEL(EC_UNK_SYNXREF, "\"control with an unknown EC synonym xref\"")  C_BP(EC_UNK_SYNXREF)
+C_SUB(EC_UNK_SYNXREF, CTRL_PARENT)
+ontrdf(EC_UNK_SYNXREF, OIO_EXACT_SYN, "\"control synonym\"").
+ontrdf("_:ctrlaxiom3", OWL_ANN_SOURCE, EC_UNK_SYNXREF).
 ontrdf("_:ctrlaxiom3", OWL_ANN_PROPERTY, OIO_EXACT_SYN).
 ontrdf("_:ctrlaxiom3", OWL_ANN_TARGET, "\"control synonym\"").
 ontrdf("_:ctrlaxiom3", OIO_XREF, "\"EC:9.9.9.7\"").
+expected_violation("unknown-ec", EC_UNK_SYNXREF).
 
 // undeclared-subset: a subset nothing declares as a SubsetProperty. The subset
-// used by OBS_REFERENCED above is declared here, so only this one fires.
+// used by OBS_REF_SUBSET above is declared here, so only this one fires.
 C_TYPE(SUBSET_BAD)  C_LABEL(SUBSET_BAD, "\"control in an undeclared subset\"")  C_BP(SUBSET_BAD)
 C_SUB(SUBSET_BAD, CTRL_PARENT)
 ontrdf(SUBSET_BAD, OIO_IN_SUBSET, "<http://purl.obolibrary.org/obo/go#control_undeclared_subset>").
+expected_violation("undeclared-subset", SUBSET_BAD).
 
 ontrdf("<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>", RDF_TYPE, OWL_ANN_PROP).
 ontrdf("<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>", RDFS_SUBPROP_OF, OIO_SUBSET_PROP).
@@ -186,12 +274,23 @@ ontrdf("<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>", RDFS_SUBPR
 // ---------------------------------------------------------------------------
 
 #define LIT_EMPTY   "<http://purl.obolibrary.org/obo/GO_0000133>"
-#define LIT_URI     "<http://purl.obolibrary.org/obo/GO_0000134>"
+#define LIT_URI          "<http://purl.obolibrary.org/obo/GO_0000134>"
+#define LIT_EMPTY_TYPED  "<http://purl.obolibrary.org/obo/GO_0000137>"
 
 C_TYPE(LIT_EMPTY)  C_LABEL(LIT_EMPTY, "\"control with an empty literal\"")  C_BP(LIT_EMPTY)
 C_SUB(LIT_EMPTY, CTRL_PARENT)
 ontrdf(LIT_EMPTY, OIO_EXACT_SYN, "\"\"").
+expected_violation("empty-literal", LIT_EMPTY).
+
+// An empty literal carrying a datatype. The pre-generic-strip version of
+// text/2 whitelisted xsd:anyURI and xsd:boolean, so an empty literal with any
+// other datatype vanished before empty-literal could see it.
+C_TYPE(LIT_EMPTY_TYPED)  C_LABEL(LIT_EMPTY_TYPED, "\"control with an empty typed literal\"")  C_BP(LIT_EMPTY_TYPED)
+C_SUB(LIT_EMPTY_TYPED, CTRL_PARENT)
+ontrdf(LIT_EMPTY_TYPED, OIO_EXACT_SYN, "\"\"^^<http://www.w3.org/2001/XMLSchema#string>").
+expected_violation("empty-literal", LIT_EMPTY_TYPED).
 
 C_TYPE(LIT_URI)  C_LABEL(LIT_URI, "\"control with a URI comment\"")  C_BP(LIT_URI)
 C_SUB(LIT_URI, CTRL_PARENT)
 ontrdf(LIT_URI, RDFS_COMMENT, "\"http://example.org/not-a-comment\"").
+expected_violation("comment-is-uri", LIT_URI).

@@ -21,8 +21,13 @@ violation("replacedby-namespace", t,
           cat(kind, " points at ", target, ", which is not a GO term")) :-
     replacement(t, kind, r), go_iri(t), !go_iri(r), shown(r, target).
 
-// The SPARQL version of this runs on reasoned.ofn and so also sees inferred
-// references; this one runs on the edit file and catches asserted ones only.
+// The SPARQL version runs on reasoned.ofn and so also sees inferred
+// references; this one runs on the edit file and catches asserted ones. The
+// arms below are the asserted positions an obsolete term can occupy in
+// go-edit.obo: superclass, subclass, subset, restriction filler (existential
+// or universal), and named equivalence. Membership of an owl:unionOf list is
+// NOT covered -- the edit file contains no unions, and the reasoned SPARQL
+// still runs over a superset of all of this.
 check("obsolete-reference", "No axiom may reference an obsolete term").
 violation("obsolete-reference", t, cat("obsolete, but still has the superclass ", super)) :-
     obsolete(t), parent(t, s), shown(s, super).
@@ -32,3 +37,5 @@ violation("obsolete-reference", t, cat("obsolete, but still in the subset ", s))
     obsolete(t), subset(t, sub), shown(sub, s).
 violation("obsolete-reference", t, cat("obsolete, but still used as the value of ", p)) :-
     obsolete(t), relationship(_, prop, t), shown(prop, p).
+violation("obsolete-reference", t, cat("obsolete, but ", o, " is still asserted equivalent to it")) :-
+    obsolete(t), equivalent_named(t, e), shown(e, o).

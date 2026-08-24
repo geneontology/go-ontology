@@ -19,6 +19,7 @@
 #define OWL_INTERSECTION  "<http://www.w3.org/2002/07/owl#intersectionOf>"
 #define OWL_ON_PROPERTY   "<http://www.w3.org/2002/07/owl#onProperty>"
 #define OWL_SOME_VALUES   "<http://www.w3.org/2002/07/owl#someValuesFrom>"
+#define OWL_ALL_VALUES    "<http://www.w3.org/2002/07/owl#allValuesFrom>"
 #define OWL_ANN_PROP      "<http://www.w3.org/2002/07/owl#AnnotationProperty>"
 #define OWL_ANN_SOURCE    "<http://www.w3.org/2002/07/owl#annotatedSource>"
 #define OWL_ANN_PROPERTY  "<http://www.w3.org/2002/07/owl#annotatedProperty>"
@@ -133,9 +134,21 @@ superclass_expr(t, s) :- equivalent_to_intersection(t, s).
 .decl parent(term:symbol, super:symbol)
 parent(t, s) :- superclass_expr(t, s), iri(s).
 
+// Existential and universal restrictions alike. go-edit.obo currently has no
+// allValuesFrom at all, but a rule that covers only someValuesFrom would go
+// quietly wrong the day one is added; control.dl exercises both.
 .decl relationship(term:symbol, property:symbol, filler:symbol)
 relationship(t, p, f) :- superclass_expr(t, r), ontrdf(r, OWL_ON_PROPERTY, p),
                                                 ontrdf(r, OWL_SOME_VALUES, f).
+relationship(t, p, f) :- superclass_expr(t, r), ontrdf(r, OWL_ON_PROPERTY, p),
+                                                ontrdf(r, OWL_ALL_VALUES, f).
+
+// owl:equivalentClass to a *named* class, in either direction. Every
+// equivalence in the current edit file points at an anonymous intersection,
+// which equivalent_to_intersection already covers.
+.decl equivalent_named(term:symbol, other:symbol)
+equivalent_named(t, o) :- ontrdf(t, OWL_EQUIVALENT, o), iri(t), iri(o).
+equivalent_named(t, o) :- ontrdf(o, OWL_EQUIVALENT, t), iri(t), iri(o).
 
 // -- how a term is named in an error message -----------------------------------
 

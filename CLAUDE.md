@@ -429,10 +429,13 @@ Some checks are Soufflé Datalog programs rather than SPARQL: `datalog-check`
 materialization also runs a Datalog step. These QC targets fail the build when
 their output file is non-empty.
 
-Each QC check registers itself by name and must be triggered by a control term in
-`src/util/qc/control.dl`. `make qc-selftest` fails on any registered check the
-control ontology does not trigger — a Soufflé rule that matches nothing yields an
-empty relation, which would otherwise pass the build silently.
+Each QC check registers itself, and every arm of every check must be triggered
+by a control term in `src/util/qc/control.dl` that declares it with an
+`expected_violation(check, term)` fact. `make qc-selftest` gates that in both
+directions: an expectation that does not fire means the rule or one of its arms
+is dead, and a violation nobody expected means a rule has grown too broad. A
+Soufflé rule that matches nothing yields an empty relation, which would
+otherwise pass the build silently.
 
 Use the /souffle-datalog skill for anything involving these — reading a rule,
 diagnosing a violation, or adding a new check. Soufflé's failure mode is a silently

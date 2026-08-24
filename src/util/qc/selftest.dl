@@ -1,0 +1,28 @@
+// ---------------------------------------------------------------------------
+// Self-test gates. Included only by ontology-qc-selftest.dl, alongside
+// control.dl -- the build program must not carry these, or every run warns
+// that expected_violation has no facts, and that warning is this repo's most
+// reliable signal of a typo'd relation name.
+//
+// Keying on (check, term) rather than on check name is deliberate. Several
+// checks have more than one rule -- obsolete-reference has four arms -- and a
+// name-keyed gate stays satisfied as long as any one arm fires, so a dead arm
+// would pass silently. control.dl therefore gives every arm its own control
+// term, and each arm is expected by name and term.
+// ---------------------------------------------------------------------------
+
+.decl expected_violation(check:symbol, term:symbol)
+
+// Planted but did not fire: the rule, or one of its arms, is dead.
+.decl missing_expected(check:symbol, term:symbol)
+missing_expected(c, t) :- expected_violation(c, t), !violation(c, t, _).
+
+// Fired but nobody planted it: the rule has become too broad. This is the
+// other direction, and the reason the control ontology can assert that its
+// well-formed terms trigger nothing.
+.decl unexpected_violation(check:symbol, term:symbol)
+unexpected_violation(c, t) :- violation(c, t, _), !expected_violation(c, t).
+
+// Registered, but control.dl plants nothing for it at all.
+.decl check_without_expectation(name:symbol)
+check_without_expectation(c) :- check(c, _), !expected_violation(c, _).

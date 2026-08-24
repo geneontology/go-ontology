@@ -797,7 +797,12 @@ datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt $(QC_SOURCES)
 # run without re-checking anything.
 .PHONY: datalog-check
 datalog-check: datalog-violations.tsv
-	@( [ -s unregistered-checks.tsv ] && { echo "ERROR: violation raised under an unregistered check name (typo?):"; cat unregistered-checks.tsv; exit 1; } || true )
+	@# Absent is not the same as empty. make skips the recipe above when the
+	@# report is current, so a missing sentinel means nothing was verified.
+	@for f in datalog-violations.tsv datalog-unregistered-checks.tsv; do \
+	  [ -f $$f ] || { echo "ERROR: $$f is missing, so nothing was checked. Remove datalog-violations.tsv and re-run."; exit 1; }; \
+	done
+	@( [ -s datalog-unregistered-checks.tsv ] && { echo "ERROR: violation raised under an unregistered check name (typo?):"; cat datalog-unregistered-checks.tsv; exit 1; } || true )
 	@( [ -s datalog-violations.tsv ] && { cat datalog-violations.tsv; exit 1; } || true ) # exit with an error if the output is not empty
 
 # Positive control for the QC program: runs the same checks as
@@ -806,10 +811,17 @@ datalog-check: datalog-violations.tsv
 # against the real ontology either -- an empty relation passes the build, so
 # this is the only thing that makes a dead rule visible.
 .PHONY: qc-selftest
-qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl $(QC_SOURCES) ../resources/obsolete_ec.txt
-	souffle $< &&\
-	( [ -s qc-unregistered-checks.tsv ] && { echo "ERROR: control facts raised a violation under an unregistered check name:"; cat qc-unregistered-checks.tsv; exit 1; } || true ) &&\
-	( [ -s qc-silent-checks.tsv ] && { echo "ERROR: registered checks that no control fact triggers -- add one to ../util/qc/control.dl, or the check is dead:"; cat qc-silent-checks.tsv; exit 1; } || true )
+qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/selftest.dl $(QC_SOURCES) ../resources/obsolete_ec.txt
+	souffle $<
+	@for f in qc-missing-expected.tsv qc-unexpected-violations.tsv qc-unexpected-checks.tsv qc-unregistered-checks.tsv; do \
+	  [ -f $$f ] || { echo "ERROR: $$f is missing, so the self-test proved nothing."; exit 1; }; \
+	done
+	@# Most specific diagnosis first: a typo'd name would otherwise be reported
+	@# by the catch-all "no control fact expected" gate.
+	@( [ -s qc-unregistered-checks.tsv ] && { echo "ERROR: violation raised under a check name nobody registered (typo?):"; cat qc-unregistered-checks.tsv; exit 1; } || true )
+	@( [ -s qc-missing-expected.tsv ] && { echo "ERROR: expected violations that did not fire -- the rule, or one of its arms, is dead:"; cat qc-missing-expected.tsv; exit 1; } || true )
+	@( [ -s qc-unexpected-checks.tsv ] && { echo "ERROR: registered checks with nothing planted for them in ../util/qc/control.dl:"; cat qc-unexpected-checks.tsv; exit 1; } || true )
+	@( [ -s qc-unexpected-violations.tsv ] && { echo "ERROR: violations no control fact expected -- a rule has become too broad, or ../util/qc/control.dl needs an expected_violation:"; cat qc-unexpected-violations.tsv; exit 1; } || true )
 
 reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v

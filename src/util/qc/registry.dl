@@ -6,10 +6,11 @@
 //
 //   - errors are grouped, named, and carry a readable subject, so
 //     datalog-violations.tsv says which check fired and on what;
-//   - a check that can never fire becomes visible. An empty relation passes
-//     the build, which is the failure mode this language makes easiest to
-//     hit, so `silent_check` exists to be run against a control fact file
-//     that plants one violation per check. See ontology-qc-selftest.dl.
+//   - a rule that can never fire becomes visible. An empty relation passes the
+//     build, which is the failure mode this language makes easiest to hit.
+//
+// Visibility is the job of control.dl and qc/selftest.dl, which plant a
+// violation of every arm and gate it in both directions.
 // ---------------------------------------------------------------------------
 
 .decl check(name:symbol, summary:symbol)
@@ -23,8 +24,3 @@ error(c, t, m) :- violation(c, t, m), !described(t, _).
 // A violation raised under a name nobody registered -- usually a typo.
 .decl unregistered_check(name:symbol)
 unregistered_check(c) :- violation(c, _, _), !check(c, _).
-
-// A registered check that stays silent against the control facts is either
-// broken or unreachable. `make qc-selftest` fails when this is non-empty.
-.decl silent_check(name:symbol, summary:symbol)
-silent_check(n, s) :- check(n, s), !violation(n, _, _).

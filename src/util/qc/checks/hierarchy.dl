@@ -21,12 +21,16 @@ check("missing-superclass", "Every live GO term except the three roots needs a G
 violation("missing-superclass", t, "has no GO superclass") :-
     go_class(t), !obsolete(t), !go_root(t), !go_parent(t, _).
 
+// Three arms, matching the SPARQL's COALESCE: the namespaces differ, the child
+// has none, or the parent has none. (Both missing is covered by the second.)
 check("different-namespace", "A GO term and its GO parent must share a namespace").
 violation("different-namespace", t,
           cat("is in ", tn, " but its parent ", p, " is in ", pn)) :-
     go_parent(t, s), namespace(t, tn), namespace(s, pn), tn != pn, shown(s, p).
 violation("different-namespace", t, cat("has no namespace, but has the parent ", p)) :-
     go_parent(t, s), !namespace(t, _), shown(s, p).
+violation("different-namespace", t, cat("is in ", tn, " but its parent ", p, " has no namespace")) :-
+    go_parent(t, s), namespace(t, tn), !namespace(s, _), shown(s, p).
 
 .decl go_namespace(ns:symbol)
 go_namespace("molecular_function").

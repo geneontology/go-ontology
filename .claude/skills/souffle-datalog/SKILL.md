@@ -17,7 +17,7 @@ directory before writing rules — especially the `match` and aggregate sections
 | Program | Invoked by | Reads | Writes |
 | --- | --- | --- | --- |
 | `src/util/ontology-qc.dl` (+ `src/util/qc/`) | `make datalog-check`, part of `test` and `travis_test` | `go-edit.facts`, `../resources/obsolete_ec.txt` | `datalog-violations.tsv` |
-| `src/util/ontology-qc-selftest.dl` | `make qc-selftest`, part of `test` and `travis_test` | `src/util/qc/control.dl` | `qc-silent-checks.tsv`, `qc-unregistered-checks.tsv` |
+| `src/util/ontology-qc-selftest.dl` | `make qc-selftest`, part of `test` and `travis_test` | `src/util/qc/control.dl` | `qc-missing-expected.tsv`, `qc-unexpected-violations.tsv`, `qc-unexpected-checks.tsv`, `qc-unregistered-checks.tsv` |
 | `src/util/cycles.dl` | `make basic-cycles.tsv` | `basic.facts` | `cycle.csv` → `basic-cycles.tsv` |
 | `src/util/materialize-taxon-constraints.dl` | `make imports/go-computed-taxon-constraints.owl` | `taxonconstraintsrelationgraph.facts` (from relation-graph) | `computed_only_in_taxon.csv`, `computed_never_in_taxon.csv` |
 | `src/util/relation-diff.dl` | `.github/workflows/relation-diff.yml` (runs from the repo root) | `left.facts`, `right.facts`, `ontrdf.facts` | `lost.csv`, `gained.csv`, `fill.csv` |
@@ -98,7 +98,8 @@ has to touch RDF:
 | --- | --- |
 | `src/util/qc/rdf.dl` | N-Triples punctuation — quote stripping, datatype tails, IRI→CURIE. The only file allowed to mention that syntax. |
 | `src/util/qc/vocabulary.dl` | The ontology as an editor talks about it: `class`, `obsolete`, `label`, `definition`, `synonym`, `xref`, `parent`, `relationship`, `merged_term`. |
-| `src/util/qc/registry.dl` | `check`/`violation`/`error`, plus `silent_check` and `unregistered_check`. |
+| `src/util/qc/registry.dl` | `check`/`violation`/`error`, plus `unregistered_check`. |
+| `src/util/qc/selftest.dl` | The self-test gates. Included only by the self-test entry point — in the build program its relations would have no facts, and that warning is this repo's best typo signal. |
 | `src/util/qc/checks/*.dl` | One file per topic. |
 | `src/util/qc/program.dl` | The include list, shared by both entry points. |
 | `src/util/qc/control.dl` | The control ontology for the self-test. |
@@ -148,17 +149,30 @@ build passes. A check that never fires is indistinguishable from a clean
 ontology. So a new or modified rule is not done until it has been shown to fire.
 
 For `ontology-qc.dl` this is mechanised. `src/util/qc/control.dl` is a small
-hand-built ontology that plants at least one violation of every registered
-check, and `make qc-selftest` runs the identical check set against it:
+hand-built ontology that plants a violation of every *arm* of every registered
+check and declares each one with an `expected_violation(check, term)` fact.
+`make qc-selftest` runs the identical check set against it:
 
 ```bash
 .claude/skills/odk-make/odk-run.sh make qc-selftest
 ```
 
-It fails when `silent_check` is non-empty — a registered check that the control
-ontology does not trigger — or when `unregistered_check` is, which catches a
-`violation` raised under a name no `check` fact declares, usually a typo. The
-run takes well under a second, so there is no reason to skip it.
+Four gates, all of which must come out empty:
+
+| Gate | Means |
+| --- | --- |
+| `unregistered_check` | A `violation` under a name no `check` declares — a typo. |
+| `missing_expected` | An expectation that did not fire — the rule, or one arm of it, is dead. |
+| `check_without_expectation` | A registered check with nothing planted for it. |
+| `unexpected_violation` | A violation nobody expected — a rule has grown too broad. |
+
+**The gate is keyed on `(check, term)`, not on the check name.** That matters:
+several checks have more than one rule — `obsolete-reference` has six arms —
+and a name-keyed gate stays satisfied as long as any one arm fires, so a dead
+arm hides behind a live one. Give every arm its own control term. The last gate
+is what lets the control ontology assert that its well-formed terms trigger
+*nothing*, which catches a rule that has become too broad rather than too
+narrow. The run takes well under a second.
 
 The control ontology is written as Datalog facts rather than a `.facts` file
 because Soufflé's fact reader rejects comment lines. It uses raw triples rather

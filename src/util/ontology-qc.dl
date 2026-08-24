@@ -25,4 +25,4 @@
 
 // A violation raised under an unregistered name is a typo, not a finding; it
 // would otherwise be reported with a check name that matches nothing.
-.output unregistered_check(filename="unregistered-checks.tsv")
+.output unregistered_check(filename="datalog-unregistered-checks.tsv")
