@@ -1,0 +1,48 @@
+name: Asserted OWL diff
+
+on:
+  # Triggers the workflow on pull request events for the master branch
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  diff_asserted_axioms:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v7
+      - name: Check out base revision
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.sha || 'master' }}
+          path: base
+      - name: Diff asserted axioms
+        run: |
+          export ROBOT_JAVA_ARGS=-Xmx6G
+          robot diff \
+            --left base/src/ontology/go-edit.obo \
+            --left-catalog base/src/ontology/catalog-v001.xml \
+            --right src/ontology/go-edit.obo \
+            --right-catalog src/ontology/catalog-v001.xml \
+            --format markdown \
+            --output asserted-owl-diff.md
+      - name: Prepare comment
+        if: github.event_name == 'pull_request'
+        run: |
+          printf '%s\n\n' "Here's the OWL diff of asserted axioms in go-edit.obo:" >comment.md
+          cat asserted-owl-diff.md >>comment.md
+      - name: Post comment
+        if: github.event_name == 'pull_request'
+        uses: NejcZdovc/comment-pr@v2.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "../../comment.md"
