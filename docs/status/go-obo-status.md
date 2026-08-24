@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-08-23go.owl-statistics
+id: obo:go/releases/2026-08-24go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-08-23go.owl
+  version: obo:go/releases/2026-08-24go.owl
 was_generated_by:
-  started_at_time: '2026-08-23T05:52:20.505172'
+  started_at_time: '2026-08-24T05:54:19.753204'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,15 +46,15 @@ partitions:
     distinct_synonym_count: 93654
     synonym_statement_count: 94435
     change_summary:
-      NodeTextDefinitionChange: 77
       EdgeCreation: 99
+      NodeTextDefinitionChange: 77
       NodeUnobsoletion: 41
       NodeRename: 45
-      NodeDeletion: 13
       EdgeDeletion: 56
       RemoveNodeFromSubset: 5
       RemoveSynonym: 15
       NewSynonym: 9
+      NodeDeletion: 13
       AddNodeToSubset: 1
       All_Obsoletion: 0
       All_Synonym: 24
@@ -91,18 +91,18 @@ partitions:
     distinct_synonym_count: 28694
     synonym_statement_count: 29847
     change_summary:
-      NodeTextDefinitionChange: 16
       EdgeDeletion: 45
       EdgeCreation: 21
-      RemoveSynonym: 20
-      NewSynonym: 8
-      NodeRename: 7
       NodeDeletion: 13
       MappingCreation: 12
+      NodeTextDefinitionChange: 16
+      RemoveSynonym: 20
       RemoveMapping: 6
+      NewSynonym: 8
+      NodeRename: 7
       NodeObsoletionWithDirectReplacement: 1
-      NodeUnobsoletion: 2
       RemoveNodeFromSubset: 1
+      NodeUnobsoletion: 2
       All_Obsoletion: 1
       All_Synonym: 28
     edge_count: 13552
@@ -126,14 +126,14 @@ partitions:
     distinct_synonym_count: 5129
     synonym_statement_count: 5328
     change_summary:
-      NodeDeletion: 7
       EdgeDeletion: 13
-      RemoveNodeFromSubset: 1
-      NewSynonym: 4
-      NodeTextDefinitionChange: 1
       EdgeCreation: 3
+      NodeDeletion: 7
+      NodeTextDefinitionChange: 1
       RemoveSynonym: 3
+      NewSynonym: 4
       NodeRename: 1
+      RemoveNodeFromSubset: 1
       All_Obsoletion: 0
       All_Synonym: 7
     edge_count: 6689
