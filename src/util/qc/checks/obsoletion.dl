@@ -23,11 +23,12 @@ violation("replacedby-namespace", t,
 
 // The SPARQL version runs on reasoned.ofn and so also sees inferred
 // references; this one runs on the edit file and catches asserted ones. The
-// arms below are the asserted positions an obsolete term can occupy in
-// go-edit.obo: superclass, subclass, subset, restriction filler (existential
-// or universal), and named equivalence. Membership of an owl:unionOf list is
-// NOT covered -- the edit file contains no unions, and the reasoned SPARQL
-// still runs over a superset of all of this.
+// arms below are the eight positions obsolete-reference-violation.sparql
+// enumerates, restricted to what is asserted: superclass, subclass, subset,
+// restriction filler (existential or universal), equivalence in either
+// direction, and membership of a class-expression list. The list arm covers
+// owl:intersectionOf and owl:unionOf alike, the same way the SPARQL does --
+// by matching rdf:first, not by walking the list.
 check("obsolete-reference", "No axiom may reference an obsolete term").
 violation("obsolete-reference", t, cat("obsolete, but still has the superclass ", super)) :-
     obsolete(t), parent(t, s), shown(s, super).
@@ -37,5 +38,7 @@ violation("obsolete-reference", t, cat("obsolete, but still in the subset ", s))
     obsolete(t), subset(t, sub), shown(sub, s).
 violation("obsolete-reference", t, cat("obsolete, but still used as the value of ", p)) :-
     obsolete(t), relationship(_, prop, t), shown(prop, p).
-violation("obsolete-reference", t, cat("obsolete, but ", o, " is still asserted equivalent to it")) :-
-    obsolete(t), equivalent_named(t, e), shown(e, o).
+violation("obsolete-reference", t, "obsolete, but still has an equivalent class axiom") :-
+    obsolete(t), equivalence(t, _).
+violation("obsolete-reference", t, "obsolete, but still appears in a class expression list") :-
+    obsolete(t), list_member(_, t).

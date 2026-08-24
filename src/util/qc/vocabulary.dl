@@ -17,6 +17,7 @@
 #define OWL_DEPRECATED    "<http://www.w3.org/2002/07/owl#deprecated>"
 #define OWL_EQUIVALENT    "<http://www.w3.org/2002/07/owl#equivalentClass>"
 #define OWL_INTERSECTION  "<http://www.w3.org/2002/07/owl#intersectionOf>"
+#define OWL_UNION         "<http://www.w3.org/2002/07/owl#unionOf>"
 #define OWL_ON_PROPERTY   "<http://www.w3.org/2002/07/owl#onProperty>"
 #define OWL_SOME_VALUES   "<http://www.w3.org/2002/07/owl#someValuesFrom>"
 #define OWL_ALL_VALUES    "<http://www.w3.org/2002/07/owl#allValuesFrom>"
@@ -143,12 +144,13 @@ relationship(t, p, f) :- superclass_expr(t, r), ontrdf(r, OWL_ON_PROPERTY, p),
 relationship(t, p, f) :- superclass_expr(t, r), ontrdf(r, OWL_ON_PROPERTY, p),
                                                 ontrdf(r, OWL_ALL_VALUES, f).
 
-// owl:equivalentClass to a *named* class, in either direction. Every
-// equivalence in the current edit file points at an anonymous intersection,
-// which equivalent_to_intersection already covers.
-.decl equivalent_named(term:symbol, other:symbol)
-equivalent_named(t, o) :- ontrdf(t, OWL_EQUIVALENT, o), iri(t), iri(o).
-equivalent_named(t, o) :- ontrdf(o, OWL_EQUIVALENT, t), iri(t), iri(o).
+// Any asserted equivalence a named term participates in, in either direction.
+// The target is deliberately unconstrained: all 20,258 equivalences in the
+// current edit file point at an anonymous intersection -- a logical definition
+// -- so requiring a named target would miss every one of them.
+.decl equivalence(term:symbol, other:symbol)
+equivalence(t, o) :- ontrdf(t, OWL_EQUIVALENT, o), iri(t).
+equivalence(t, o) :- ontrdf(o, OWL_EQUIVALENT, t), iri(t).
 
 // -- how a term is named in an error message -----------------------------------
 

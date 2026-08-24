@@ -5,7 +5,7 @@
 // reliable signal of a typo'd relation name.
 //
 // Keying on (check, term) rather than on check name is deliberate. Several
-// checks have more than one rule -- obsolete-reference has four arms -- and a
+// checks have more than one rule -- obsolete-reference has six -- and a
 // name-keyed gate stays satisfied as long as any one arm fires, so a dead arm
 // would pass silently. control.dl therefore gives every arm its own control
 // term, and each arm is expected by name and term.

@@ -64,7 +64,7 @@ C_DEF(CTRL_PARENT, "\"A well-formed control term.\"")
 #define OBS_TARGET     "<http://purl.obolibrary.org/obo/GO_0000103>"
 #define OBS_NON_GO     "<http://purl.obolibrary.org/obo/GO_0000104>"
 
-// obsolete-reference has four arms. Each gets its own obsolete term, arranged
+// obsolete-reference has six arms. Each gets its own obsolete term, arranged
 // so that exactly one arm fires on it -- otherwise a dead arm could hide
 // behind a live one firing on the same term.
 #define OBS_REF_SUPER      "<http://purl.obolibrary.org/obo/GO_0000105>"
@@ -138,17 +138,49 @@ C_SUB(OBS_REF_ALL_SRC, "_:ctrlrestriction2")
 ontrdf("_:ctrlrestriction2", OWL_ON_PROPERTY, "<http://purl.obolibrary.org/obo/BFO_0000050>").
 ontrdf("_:ctrlrestriction2", OWL_ALL_VALUES, OBS_REF_ALL).
 
-// obsolete-reference arm 6: obsolete, still asserted equivalent to a named
-// class. Every equivalence in the real edit file is to an anonymous
-// intersection, so only the control ontology exercises this.
+// obsolete-reference arm 6: obsolete, still has an equivalent class axiom.
+// The realistic shape is equivalence to an anonymous intersection -- a logical
+// definition -- which is what every equivalence in the real edit file is.
 #define OBS_REF_EQ     "<http://purl.obolibrary.org/obo/GO_0000140>"
-#define OBS_REF_EQ_SRC "<http://purl.obolibrary.org/obo/GO_0000141>"
-C_TYPE(OBS_REF_EQ)  C_LABEL(OBS_REF_EQ, "\"control obsolete with a named equivalence\"")  C_BP(OBS_REF_EQ)
+#define OBS_REF_EQ_REV "<http://purl.obolibrary.org/obo/GO_0000141>"
+#define OBS_REF_EQ_SRC "<http://purl.obolibrary.org/obo/GO_0000142>"
+C_TYPE(OBS_REF_EQ)  C_LABEL(OBS_REF_EQ, "\"control obsolete with a logical definition\"")  C_BP(OBS_REF_EQ)
 C_OBSOLETE(OBS_REF_EQ)
-ontrdf(OBS_REF_EQ, OWL_EQUIVALENT, OBS_REF_EQ_SRC).
+// The intersection holds only an anonymous restriction, never a named class:
+// equivalent_to_intersection promotes a named member to a parent, which would
+// fire the superclass arm on this same term and let a dead equivalence arm
+// hide behind it. One arm per control term is the whole point of the gate.
+ontrdf(OBS_REF_EQ, OWL_EQUIVALENT, "_:ctrlequiv1").
+ontrdf("_:ctrlequiv1", OWL_INTERSECTION, "_:ctrlequivlist1").
+ontrdf("_:ctrlequivlist1", RDF_FIRST, "_:ctrlequivrestr1").
+ontrdf("_:ctrlequivlist1", RDF_REST, "<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>").
+ontrdf("_:ctrlequivrestr1", OWL_ON_PROPERTY, "<http://purl.obolibrary.org/obo/BFO_0000050>").
+ontrdf("_:ctrlequivrestr1", OWL_SOME_VALUES, CTRL_PARENT).
 expected_violation("obsolete-reference", OBS_REF_EQ).
+
+// ...and the other direction, where something else is declared equivalent to
+// the obsolete term. This exercises the second equivalence/2 rule.
+C_TYPE(OBS_REF_EQ_REV)  C_LABEL(OBS_REF_EQ_REV, "\"control obsolete named equivalent\"")  C_BP(OBS_REF_EQ_REV)
+C_OBSOLETE(OBS_REF_EQ_REV)
+expected_violation("obsolete-reference", OBS_REF_EQ_REV).
 C_TYPE(OBS_REF_EQ_SRC)  C_LABEL(OBS_REF_EQ_SRC, "\"control equivalent to an obsolete term\"")  C_BP(OBS_REF_EQ_SRC)
 C_SUB(OBS_REF_EQ_SRC, CTRL_PARENT)
+ontrdf(OBS_REF_EQ_SRC, OWL_EQUIVALENT, OBS_REF_EQ_REV).
+
+// obsolete-reference arm 7: obsolete, still a member of a class-expression
+// list. go-edit.obo has no owl:unionOf today; this is the union case, and the
+// same arm covers intersection membership.
+#define OBS_REF_LIST     "<http://purl.obolibrary.org/obo/GO_0000143>"
+#define OBS_REF_LIST_SRC "<http://purl.obolibrary.org/obo/GO_0000144>"
+C_TYPE(OBS_REF_LIST)  C_LABEL(OBS_REF_LIST, "\"control obsolete inside a union\"")  C_BP(OBS_REF_LIST)
+C_OBSOLETE(OBS_REF_LIST)
+expected_violation("obsolete-reference", OBS_REF_LIST).
+C_TYPE(OBS_REF_LIST_SRC)  C_LABEL(OBS_REF_LIST_SRC, "\"control with a union mentioning an obsolete term\"")  C_BP(OBS_REF_LIST_SRC)
+C_SUB(OBS_REF_LIST_SRC, CTRL_PARENT)
+C_SUB(OBS_REF_LIST_SRC, "_:ctrlunion1")
+ontrdf("_:ctrlunion1", OWL_UNION, "_:ctrlunionlist1").
+ontrdf("_:ctrlunionlist1", RDF_FIRST, OBS_REF_LIST).
+ontrdf("_:ctrlunionlist1", RDF_REST, "<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>").
 
 // ---------------------------------------------------------------------------
 // definitions.dl
