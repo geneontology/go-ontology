@@ -78,9 +78,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: check_taxon_constraint_idspaces qc-selftest datalog-check $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check datalog-violations.tsv chebi_pH_7_3_check travis_build change-report.txt
+travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check qc-selftest datalog-check chebi_pH_7_3_check travis_build change-report.txt
 
 # This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
@@ -755,7 +755,13 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace missing-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
+# replacedby-obsolete, replacedby-namespace, missing-namespace,
+# obsolete-definition and definition-constraints moved to Soufflé -- see
+# ../util/qc/checks/. They ran pre-reasoning here, as they do there, and both
+# implementations were confirmed to report the same (empty) result before the
+# move. The four checks below that run against reasoned.ofn are NOT duplicated
+# by the Datalog versions, which see only asserted axioms.
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
@@ -778,9 +784,46 @@ go-edit.facts: $(SRC) ../util/ontology-to-facts.sc
 ../resources/rhea-relationships.tsv:
 	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
 
-datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
-	souffle ../util/ontology-qc.dl &&\
-	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
+# Every file the QC program is built from, so a change to a check re-runs it.
+QC_SOURCES = ../util/ontology-qc.dl ../util/qc/program.dl ../util/qc/rdf.dl \
+             ../util/qc/vocabulary.dl ../util/qc/registry.dl \
+             $(wildcard ../util/qc/checks/*.dl)
+
+datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt $(QC_SOURCES)
+	souffle ../util/ontology-qc.dl
+
+# The gate is phony and the report is not, on purpose: a non-empty report is
+# newer than its prerequisites, so a file-gated target would pass on the next
+# run without re-checking anything.
+.PHONY: datalog-check
+datalog-check: datalog-violations.tsv
+	@# Absent is not the same as empty. make skips the recipe above when the
+	@# report is current, so a missing sentinel means nothing was verified.
+	@for f in datalog-violations.tsv datalog-unregistered-checks.tsv; do \
+	  [ -f $$f ] || { echo "ERROR: $$f is missing, so nothing was checked. Remove datalog-violations.tsv and re-run."; exit 1; }; \
+	done
+	@( [ -s datalog-unregistered-checks.tsv ] && { echo "ERROR: violation raised under an unregistered check name (typo?):"; cat datalog-unregistered-checks.tsv; exit 1; } || true )
+	@( [ -s datalog-violations.tsv ] && { cat datalog-violations.tsv; exit 1; } || true ) # exit with an error if the output is not empty
+
+# Positive control for the QC program: runs the same checks as
+# datalog-violations.tsv against ../util/qc/control.dl, a small ontology that
+# plants a violation of every rule and declares each one with an
+# expected_violation fact. An expectation that does not fire means the rule is
+# dead -- Souffle reports a rule that matches nothing as an empty relation, and
+# an empty relation passes the build. A violation nobody expected means a rule
+# has grown too broad. Both fail this target.
+.PHONY: qc-selftest
+qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/selftest.dl $(QC_SOURCES) ../resources/obsolete_ec.txt
+	souffle $<
+	@for f in qc-missing-expected.tsv qc-unexpected-violations.tsv qc-unexpected-checks.tsv qc-unregistered-checks.tsv; do \
+	  [ -f $$f ] || { echo "ERROR: $$f is missing, so the self-test proved nothing."; exit 1; }; \
+	done
+	@# Most specific diagnosis first: a typo'd name would otherwise be reported
+	@# by the catch-all "no control fact expected" gate.
+	@( [ -s qc-unregistered-checks.tsv ] && { echo "ERROR: violation raised under a check name nobody registered (typo?):"; cat qc-unregistered-checks.tsv; exit 1; } || true )
+	@( [ -s qc-missing-expected.tsv ] && { echo "ERROR: expected violations that did not fire -- the rule, or one of its arms, is dead:"; cat qc-missing-expected.tsv; exit 1; } || true )
+	@( [ -s qc-unexpected-checks.tsv ] && { echo "ERROR: registered checks with nothing planted for them in ../util/qc/control.dl:"; cat qc-unexpected-checks.tsv; exit 1; } || true )
+	@( [ -s qc-unexpected-violations.tsv ] && { echo "ERROR: violations no control fact expected -- a rule has become too broad, or ../util/qc/control.dl needs an expected_violation:"; cat qc-unexpected-violations.tsv; exit 1; } || true )
 
 reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v

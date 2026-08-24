@@ -1,0 +1,14 @@
+// ---------------------------------------------------------------------------
+// Literal values that are malformed regardless of which property carries them.
+//
+// Both checks were already in ontology-qc.dl before the split; unchanged in
+// meaning, restated against the vocabulary layer.
+// ---------------------------------------------------------------------------
+
+check("empty-literal", "No annotation may carry an empty string").
+violation("empty-literal", s, cat("has an empty literal value for ", prop)) :-
+    ontrdf(s, p, lit), text(lit, ""), shown(p, prop).
+
+check("comment-is-uri", "A comment must be prose, not a bare URI").
+violation("comment-is-uri", t, "has a comment that seems to be a URI") :-
+    comment(t, c), match("http.*", c).

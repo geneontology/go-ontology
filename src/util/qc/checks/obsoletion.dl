@@ -1,0 +1,50 @@
+// ---------------------------------------------------------------------------
+// Obsoletion hygiene.
+//
+// Migrated from: obsolete-definition-violation.sparql,
+// replacedby-obsolete-violation.sparql, replacedby-namespace-violation.sparql,
+// obsolete-reference-violation.sparql.
+// ---------------------------------------------------------------------------
+
+check("obsolete-definition", "An obsolete term's definition must start with 'OBSOLETE. '").
+violation("obsolete-definition", t,
+          cat("definition does not start with 'OBSOLETE. ': ", d)) :-
+    class(t), obsolete(t), definition(t, d), !match("OBSOLETE\\. .*", d).
+
+check("replacedby-obsolete", "A replacement term must not itself be obsolete").
+violation("replacedby-obsolete", t,
+          cat(kind, " points at ", target, ", which is also obsolete")) :-
+    replacement(t, kind, r), obsolete(r), !merged_term(t), shown(r, target).
+
+check("replacedby-namespace", "A GO term's replacement must be a GO term").
+violation("replacedby-namespace", t,
+          cat(kind, " points at ", target, ", which is not a GO term")) :-
+    replacement(t, kind, r), go_iri(t), !go_iri(r), shown(r, target).
+
+// The SPARQL version runs on reasoned.ofn and so also sees inferred
+// references; this one runs on the edit file and catches asserted ones. The
+// arms below are the eight positions obsolete-reference-violation.sparql
+// enumerates, restricted to what is asserted: superclass, subclass, subset,
+// restriction filler (existential or universal), equivalence in either
+// direction, and membership of a class-expression list. The list arm covers
+// owl:intersectionOf and owl:unionOf alike, the same way the SPARQL does --
+// by matching rdf:first, not by walking the list.
+//
+// Not positional identity: the filler arms reach a restriction through
+// superclass_expr, so they see restrictions that are a superclass or an
+// equivalence-intersection member, where the SPARQL matches someValuesFrom
+// anywhere. OBO format cannot put a restriction anywhere else, so the two
+// coincide on this input.
+check("obsolete-reference", "No axiom may reference an obsolete term").
+violation("obsolete-reference", t, cat("obsolete, but still has the superclass ", super)) :-
+    obsolete(t), parent(t, s), shown(s, super).
+violation("obsolete-reference", t, cat("obsolete, but ", sub, " is still a subclass of it")) :-
+    obsolete(t), parent(c, t), shown(c, sub).
+violation("obsolete-reference", t, cat("obsolete, but still in the subset ", s)) :-
+    obsolete(t), subset(t, sub), shown(sub, s).
+violation("obsolete-reference", t, cat("obsolete, but still used as the value of ", p)) :-
+    obsolete(t), relationship(_, prop, t), shown(prop, p).
+violation("obsolete-reference", t, "obsolete, but still has an equivalent class axiom") :-
+    obsolete(t), equivalence(t, _).
+violation("obsolete-reference", t, "obsolete, but still appears in a class expression list") :-
+    obsolete(t), list_member(_, t).

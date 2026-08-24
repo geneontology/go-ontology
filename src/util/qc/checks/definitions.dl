@@ -1,0 +1,27 @@
+// ---------------------------------------------------------------------------
+// Definition text and its provenance.
+//
+// Migrated from: definition-constraints-violation.sparql.
+//
+// `definition/2` yields the N-Triples lexical form, so an embedded newline is
+// the two characters \n and an embedded quote is \" -- hence the doubled
+// backslashes below. This is the one place the escaping leaks through.
+// ---------------------------------------------------------------------------
+
+check("definition-newline", "A definition must be a single line").
+violation("definition-newline", t, "definition contains a newline") :-
+    definition(t, d), contains("\\n", d).
+
+check("definition-quote", "A definition must not contain a double quote").
+violation("definition-quote", t, "definition contains a double quote") :-
+    definition(t, d), contains("\\\"", d).
+
+check("definition-period", "A definition must end with a period").
+violation("definition-period", t, cat("definition does not end with a period: ", d)) :-
+    definition(t, d), !match(".*\\.", d).
+
+check("definition-annotation", "A definition axiom may only be annotated with an xref").
+violation("definition-annotation", t, cat("definition axiom is annotated with ", prop)) :-
+    annotated(ax, t, IAO_DEFINITION, _), ontrdf(ax, p, _), shown(p, prop),
+    p != RDF_TYPE, p != OWL_ANN_SOURCE, p != OWL_ANN_PROPERTY,
+    p != OWL_ANN_TARGET, p != OIO_XREF.

@@ -42,3 +42,13 @@ target/
 # Mac specific weirdness
 .DS_Store
 src/.DS_Store
+
+# Soufflé QC: generated fact files and reports
+src/ontology/*.facts
+src/ontology/datalog-violations.tsv
+src/ontology/datalog-unregistered-checks.tsv
+src/ontology/qc-missing-expected.tsv
+src/ontology/qc-unexpected-violations.tsv
+src/ontology/qc-unexpected-checks.tsv
+src/ontology/qc-unregistered-checks.tsv
+src/ontology/qc-selftest-violations.tsv
