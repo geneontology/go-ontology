@@ -1,0 +1,144 @@
+// ---------------------------------------------------------------------------
+// OBO layer: the ontology as an editor talks about it.
+//
+// Checks are written against these relations only. If a check needs to reach
+// for ontrdf/3 or an escaped literal, that is a sign the vocabulary is missing
+// something -- add it here, where every other check can use it too.
+// ---------------------------------------------------------------------------
+
+#define RDF_TYPE          "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"
+#define RDF_FIRST         "<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>"
+#define RDF_REST          "<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>"
+#define RDFS_LABEL        "<http://www.w3.org/2000/01/rdf-schema#label>"
+#define RDFS_COMMENT      "<http://www.w3.org/2000/01/rdf-schema#comment>"
+#define RDFS_SUBCLASS_OF  "<http://www.w3.org/2000/01/rdf-schema#subClassOf>"
+#define RDFS_SUBPROP_OF   "<http://www.w3.org/2000/01/rdf-schema#subPropertyOf>"
+#define OWL_CLASS         "<http://www.w3.org/2002/07/owl#Class>"
+#define OWL_DEPRECATED    "<http://www.w3.org/2002/07/owl#deprecated>"
+#define OWL_EQUIVALENT    "<http://www.w3.org/2002/07/owl#equivalentClass>"
+#define OWL_INTERSECTION  "<http://www.w3.org/2002/07/owl#intersectionOf>"
+#define OWL_ON_PROPERTY   "<http://www.w3.org/2002/07/owl#onProperty>"
+#define OWL_SOME_VALUES   "<http://www.w3.org/2002/07/owl#someValuesFrom>"
+#define OWL_ANN_PROP      "<http://www.w3.org/2002/07/owl#AnnotationProperty>"
+#define OWL_ANN_SOURCE    "<http://www.w3.org/2002/07/owl#annotatedSource>"
+#define OWL_ANN_PROPERTY  "<http://www.w3.org/2002/07/owl#annotatedProperty>"
+#define OWL_ANN_TARGET    "<http://www.w3.org/2002/07/owl#annotatedTarget>"
+#define OIO_XREF          "<http://www.geneontology.org/formats/oboInOwl#hasDbXref>"
+#define OIO_NAMESPACE     "<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>"
+#define OIO_IN_SUBSET     "<http://www.geneontology.org/formats/oboInOwl#inSubset>"
+#define OIO_SUBSET_PROP   "<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>"
+#define OIO_CONSIDER      "<http://www.geneontology.org/formats/oboInOwl#consider>"
+#define OIO_EXACT_SYN     "<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>"
+#define OIO_RELATED_SYN   "<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>"
+#define OIO_NARROW_SYN    "<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym>"
+#define OIO_BROAD_SYN     "<http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym>"
+#define IAO_DEFINITION    "<http://purl.obolibrary.org/obo/IAO_0000115>"
+#define IAO_REPLACED_BY   "<http://purl.obolibrary.org/obo/IAO_0100001>"
+#define IAO_OBS_REASON    "<http://purl.obolibrary.org/obo/IAO_0000231>"
+#define IAO_TERMS_MERGED  "<http://purl.obolibrary.org/obo/IAO_0000227>"
+
+// -- terms --------------------------------------------------------------------
+
+.decl class(term:symbol)
+class(t) :- ontrdf(t, RDF_TYPE, OWL_CLASS), iri(t).
+
+.decl go_iri(x:symbol)
+go_iri(x) :- iri(x), match("<http://purl\\.obolibrary\\.org/obo/GO_.*>", x).
+
+.decl go_class(term:symbol)
+go_class(t) :- class(t), go_iri(t).
+
+.decl obsolete(term:symbol)
+obsolete(t) :- ontrdf(t, OWL_DEPRECATED, "\"true\"^^<http://www.w3.org/2001/XMLSchema#boolean>").
+
+.decl live_class(term:symbol)
+live_class(t) :- class(t), !obsolete(t).
+
+// An alt_id: a merged term, exempt from most term-level requirements.
+.decl merged_term(term:symbol)
+merged_term(t) :- ontrdf(t, IAO_OBS_REASON, IAO_TERMS_MERGED).
+
+// -- annotations, as text ------------------------------------------------------
+
+.decl label(term:symbol, name:symbol)
+label(t, n) :- ontrdf(t, RDFS_LABEL, lit), text(lit, n).
+
+.decl comment(term:symbol, txt:symbol)
+comment(t, c) :- ontrdf(t, RDFS_COMMENT, lit), text(lit, c).
+
+.decl definition(term:symbol, def:symbol)
+definition(t, d) :- ontrdf(t, IAO_DEFINITION, lit), text(lit, d).
+
+.decl namespace(term:symbol, ns:symbol)
+namespace(t, n) :- ontrdf(t, OIO_NAMESPACE, lit), text(lit, n).
+
+.decl subset(term:symbol, sub:symbol)
+subset(t, s) :- ontrdf(t, OIO_IN_SUBSET, s).
+
+.decl declared_subset(sub:symbol)
+declared_subset(s) :- ontrdf(s, RDF_TYPE, OWL_ANN_PROP), ontrdf(s, RDFS_SUBPROP_OF, OIO_SUBSET_PROP).
+
+.decl synonym_scope(property:symbol, scope:symbol)
+synonym_scope(OIO_EXACT_SYN,   "exact").
+synonym_scope(OIO_RELATED_SYN, "related").
+synonym_scope(OIO_NARROW_SYN,  "narrow").
+synonym_scope(OIO_BROAD_SYN,   "broad").
+
+.decl synonym(term:symbol, scope:symbol, syn:symbol)
+synonym(t, s, v) :- synonym_scope(p, s), ontrdf(t, p, lit), text(lit, v), iri(t).
+
+.decl xref(term:symbol, ref:symbol)
+xref(t, r) :- ontrdf(t, OIO_XREF, lit), text(lit, r), iri(t).
+
+.decl replacement(term:symbol, kind:symbol, target:symbol)
+replacement(t, "replaced_by", r) :- ontrdf(t, IAO_REPLACED_BY, r).
+replacement(t, "consider",    r) :- ontrdf(t, OIO_CONSIDER, r).
+
+// -- axiom annotations (definition xrefs, synonym xrefs) ----------------------
+
+.decl annotated(axiom:symbol, term:symbol, property:symbol, target:symbol)
+annotated(ax, t, p, v) :- ontrdf(ax, OWL_ANN_SOURCE, t),
+                          ontrdf(ax, OWL_ANN_PROPERTY, p),
+                          ontrdf(ax, OWL_ANN_TARGET, v).
+
+.decl definition_xref(term:symbol, ref:symbol)
+definition_xref(t, r) :- annotated(ax, t, IAO_DEFINITION, _),
+                         ontrdf(ax, OIO_XREF, lit), text(lit, r).
+
+.decl synonym_xref(term:symbol, scope:symbol, ref:symbol)
+synonym_xref(t, s, r) :- annotated(ax, t, p, _), synonym_scope(p, s),
+                         ontrdf(ax, OIO_XREF, lit), text(lit, r).
+
+// -- class expressions ---------------------------------------------------------
+
+.decl list_member(list:symbol, member:symbol)
+list_member(l, m) :- ontrdf(l, RDF_FIRST, m).
+list_member(l, m) :- ontrdf(l, RDF_REST, r), list_member(r, m).
+
+.decl equivalent_to_intersection(term:symbol, member:symbol)
+equivalent_to_intersection(t, m) :- ontrdf(t, OWL_EQUIVALENT, n),
+                                    ontrdf(n, OWL_INTERSECTION, l),
+                                    list_member(l, m).
+
+// Everything a term is asserted to be a subclass of, plus what `robot relax`
+// would add from a logical definition -- named classes and anonymous
+// restrictions alike. Without the second rule 14,133 live GO terms look like
+// orphans; without the anonymous nodes there is no relationship/3 at all,
+// since a restriction is always a blank node.
+.decl superclass_expr(term:symbol, expr:symbol)
+superclass_expr(t, s) :- ontrdf(t, RDFS_SUBCLASS_OF, s).
+superclass_expr(t, s) :- equivalent_to_intersection(t, s).
+
+// The named-class projection: a parent an editor would recognise as a parent.
+.decl parent(term:symbol, super:symbol)
+parent(t, s) :- superclass_expr(t, s), iri(s).
+
+.decl relationship(term:symbol, property:symbol, filler:symbol)
+relationship(t, p, f) :- superclass_expr(t, r), ontrdf(r, OWL_ON_PROPERTY, p),
+                                                ontrdf(r, OWL_SOME_VALUES, f).
+
+// -- how a term is named in an error message -----------------------------------
+
+.decl described(term:symbol, txt:symbol)
+described(t, cat(c, " '", n, "'")) :- shown(t, c), label(t, n).
+described(t, c)                    :- shown(t, c), !label(t, _).

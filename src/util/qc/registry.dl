@@ -1,0 +1,30 @@
+// ---------------------------------------------------------------------------
+// The check registry.
+//
+// Every check declares itself with a `check(name, summary)` fact and reports
+// with `violation(name, term, detail)`. Two things fall out of that:
+//
+//   - errors are grouped, named, and carry a readable subject, so
+//     datalog-violations.tsv says which check fired and on what;
+//   - a check that can never fire becomes visible. An empty relation passes
+//     the build, which is the failure mode this language makes easiest to
+//     hit, so `silent_check` exists to be run against a control fact file
+//     that plants one violation per check. See ontology-qc-selftest.dl.
+// ---------------------------------------------------------------------------
+
+.decl check(name:symbol, summary:symbol)
+.decl violation(check:symbol, term:symbol, detail:symbol)
+
+// The build output: check name, the subject as a curator would read it, message.
+.decl error(check:symbol, subject:symbol, message:symbol)
+error(c, s, m) :- violation(c, t, m), described(t, s).
+error(c, t, m) :- violation(c, t, m), !described(t, _).
+
+// A violation raised under a name nobody registered -- usually a typo.
+.decl unregistered_check(name:symbol)
+unregistered_check(c) :- violation(c, _, _), !check(c, _).
+
+// A registered check that stays silent against the control facts is either
+// broken or unreachable. `make qc-selftest` fails when this is non-empty.
+.decl silent_check(name:symbol, summary:symbol)
+silent_check(n, s) :- check(n, s), !violation(n, _, _).

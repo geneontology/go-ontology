@@ -1,0 +1,80 @@
+// ---------------------------------------------------------------------------
+// RDF layer: turns raw N-Triples terms into things a check can read.
+//
+// Every value in the fact file carries its N-Triples punctuation -- IRIs are
+// wrapped in <>, literals in "", typed literals carry a ^^<datatype> tail.
+// Nothing above this file should ever have to know that.
+//
+// This is the only file in the QC program that is allowed to mention that
+// punctuation. A check that needs to match on a quote or an angle bracket is
+// a sign that something is missing here.
+// ---------------------------------------------------------------------------
+
+#define XSD_ANY_URI "^^<http://www.w3.org/2001/XMLSchema#anyURI>"
+#define XSD_BOOLEAN "^^<http://www.w3.org/2001/XMLSchema#boolean>"
+#define OBO_BASE_LEN 32   // strlen("<http://purl.obolibrary.org/obo/")
+
+.decl node(x:symbol)
+node(x) :- ontrdf(x, _, _).
+node(x) :- ontrdf(_, x, _).   // predicates too: a property named only in the
+node(x) :- ontrdf(_, _, x).   // predicate position still has to be showable
+
+.decl iri(x:symbol)
+iri(x) :- node(x), match("<.+>", x).
+
+.decl literal(x:symbol)
+literal(x) :- node(x), match("\".*", x).
+
+// -- literal text, with the quoting and datatype stripped ---------------------
+//
+// text/2 gives the N-Triples *lexical* form: an embedded quote is still \" and
+// an embedded newline is still the two characters \n. Checks that look for
+// those characters have to match the escape, not the character.
+
+.decl datatype_tag(tag:symbol)
+datatype_tag(XSD_ANY_URI).
+datatype_tag(XSD_BOOLEAN).
+
+.decl text(lit:symbol, txt:symbol)
+text(l, t) :- literal(l), match("\".*\"", l), n = strlen(l), t = substr(l, 1, n-2).
+// max() keeps the index non-negative for literals shorter than the tag.
+// Souffle is free to evaluate substr before any guard constraint placed beside
+// it, so the clamp has to live inside the call -- a `n-k >= 0` conjunct is not
+// enough and yields a run full of substr range warnings.
+text(l, t) :- literal(l), datatype_tag(tag), n = strlen(l), k = strlen(tag),
+              substr(l, max(0, n-k), k) = tag, t = substr(l, 1, max(0, n-k-2)).
+
+// -- OBO CURIEs, for error messages a curator can paste into a search box -----
+
+.decl obo_iri(x:symbol)
+obo_iri(x) :- iri(x), match("<http://purl\\.obolibrary\\.org/obo/[A-Za-z]+_[^/#>]+>", x).
+
+.decl obo_local(x:symbol, local:symbol)
+obo_local(x, l) :- obo_iri(x), n = strlen(x), l = substr(x, OBO_BASE_LEN, n-OBO_BASE_LEN-1).
+
+.decl underscore_at(local:symbol, i:number)
+underscore_at(l, i) :- obo_local(_, l), i = range(0, strlen(l)), substr(l, i, 1) = "_".
+
+.decl curie(x:symbol, curie:symbol)
+curie(x, c) :- obo_local(x, l), i = min j : underscore_at(l, j),
+               c = cat(substr(l, 0, i), ":", substr(l, i+1, strlen(l)-i-1)).
+
+// -- how any node is written in an error message ------------------------------
+
+// GO subsets and similar are named by a fragment, not an underscore local id:
+// <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>. Curators write
+// those as the bare fragment, so show them that way.
+.decl fragment(x:symbol, frag:symbol)
+fragment(x, f) :- iri(x), !curie(x, _), match("<http://purl\\.obolibrary\\.org/obo/[a-z]+#[^>]+>", x),
+                  i = min j : hash_at(x, j), n = strlen(x),
+                  f = substr(x, i+1, n-i-2).
+
+.decl hash_at(x:symbol, i:number)
+hash_at(x, i) :- iri(x), match("<http://purl\\.obolibrary\\.org/obo/[a-z]+#[^>]+>", x),
+                 i = range(0, strlen(x)), substr(x, i, 1) = "#".
+
+.decl shown(x:symbol, txt:symbol)
+shown(x, c)  :- curie(x, c).
+shown(x, f)  :- fragment(x, f).
+shown(x, x)  :- iri(x), !curie(x, _), !fragment(x, _).
+shown(l, t)  :- text(l, t).

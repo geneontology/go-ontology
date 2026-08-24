@@ -423,15 +423,21 @@ To debug syntax errors, try: `cd src/ontology && robot convert -vvv -i go-edit.o
 
 ### Datalog QC checks
 
-Some checks are Soufflé Datalog programs in `src/util/*.dl` rather than SPARQL:
-`datalog-violations.tsv` (part of `test` and `travis_test`) and `basic-cycles.tsv`.
-Taxon-constraint materialization also runs a Datalog step. Both QC targets fail the
-build when their output file is non-empty.
+Some checks are Soufflé Datalog programs rather than SPARQL: `datalog-check`
+(the ontology QC program, `src/util/ontology-qc.dl` plus `src/util/qc/`) and
+`basic-cycles.tsv`, both part of `test` and `travis_test`. Taxon-constraint
+materialization also runs a Datalog step. These QC targets fail the build when
+their output file is non-empty.
+
+Each QC check registers itself by name and must be triggered by a control term in
+`src/util/qc/control.dl`. `make qc-selftest` fails on any registered check the
+control ontology does not trigger — a Soufflé rule that matches nothing yields an
+empty relation, which would otherwise pass the build silently.
 
 Use the /souffle-datalog skill for anything involving these — reading a rule,
 diagnosing a violation, or adding a new check. Soufflé's failure mode is a silently
-empty result, so a new or modified rule must be shown to fire against a synthetic
-violating fact before being committed; the skill covers that procedure.
+empty result, so a new or modified rule must be shown to fire before being
+committed; the skill covers the layer structure and that procedure.
 
 ### Logical Error Diagnosis
 

@@ -78,9 +78,9 @@ REPORTDIR = $(RELEASEDIR)/reports
 
 stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: check_taxon_constraint_idspaces qc-selftest datalog-check $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check datalog-violations.tsv chebi_pH_7_3_check travis_build change-report.txt
+travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check qc-selftest datalog-check chebi_pH_7_3_check travis_build change-report.txt
 
 # This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
 # These must be kept in sync.
@@ -755,7 +755,13 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace missing-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
+# replacedby-obsolete, replacedby-namespace, missing-namespace,
+# obsolete-definition and definition-constraints moved to Soufflé -- see
+# ../util/qc/checks/. They ran pre-reasoning here, as they do there, and both
+# implementations were confirmed to report the same (empty) result before the
+# move. The four checks below that run against reasoned.ofn are NOT duplicated
+# by the Datalog versions, which see only asserted axioms.
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
@@ -778,9 +784,32 @@ go-edit.facts: $(SRC) ../util/ontology-to-facts.sc
 ../resources/rhea-relationships.tsv:
 	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
 
-datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
-	souffle ../util/ontology-qc.dl &&\
-	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
+# Every file the QC program is built from, so a change to a check re-runs it.
+QC_SOURCES = ../util/ontology-qc.dl ../util/qc/program.dl ../util/qc/rdf.dl \
+             ../util/qc/vocabulary.dl ../util/qc/registry.dl \
+             $(wildcard ../util/qc/checks/*.dl)
+
+datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt $(QC_SOURCES)
+	souffle ../util/ontology-qc.dl
+
+# The gate is phony and the report is not, on purpose: a non-empty report is
+# newer than its prerequisites, so a file-gated target would pass on the next
+# run without re-checking anything.
+.PHONY: datalog-check
+datalog-check: datalog-violations.tsv
+	@( [ -s unregistered-checks.tsv ] && { echo "ERROR: violation raised under an unregistered check name (typo?):"; cat unregistered-checks.tsv; exit 1; } || true )
+	@( [ -s datalog-violations.tsv ] && { cat datalog-violations.tsv; exit 1; } || true ) # exit with an error if the output is not empty
+
+# Positive control for the QC program: runs the same checks as
+# datalog-violations.tsv against ../util/qc/control.dl, a small ontology that
+# plants one violation of each. A check that stays silent there can never fire
+# against the real ontology either -- an empty relation passes the build, so
+# this is the only thing that makes a dead rule visible.
+.PHONY: qc-selftest
+qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl $(QC_SOURCES) ../resources/obsolete_ec.txt
+	souffle $< &&\
+	( [ -s qc-unregistered-checks.tsv ] && { echo "ERROR: control facts raised a violation under an unregistered check name:"; cat qc-unregistered-checks.tsv; exit 1; } || true ) &&\
+	( [ -s qc-silent-checks.tsv ] && { echo "ERROR: registered checks that no control fact triggers -- add one to ../util/qc/control.dl, or the check is dead:"; cat qc-silent-checks.tsv; exit 1; } || true )
 
 reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v

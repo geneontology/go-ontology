@@ -1,0 +1,197 @@
+// ===========================================================================
+// Control ontology for the QC self-test.
+//
+// A small hand-built ontology that plants at least one violation of every
+// registered check. It is written as Datalog facts rather than as a .facts
+// file because Souffle's fact-file reader rejects comment lines, and a
+// control file nobody can read is a control file nobody will maintain.
+//
+// The malformed content is written as raw triples rather than as OBO on
+// purpose: an OBO round-trip would normalise away several of the very
+// malformations being tested.
+//
+// When you add a check, add a term here that violates it. `make qc-selftest`
+// fails on any registered check this file does not trigger.
+//
+// Conventions:
+//   - every GO class needs a namespace and a parent, or it trips
+//     missing-namespace / missing-superclass by accident;
+//   - CTRL_PARENT is the well-formed term to hang things off;
+//   - each control term is named for the check it exercises.
+// ===========================================================================
+
+#define C_TYPE(t)       ontrdf(t, RDF_TYPE, OWL_CLASS).
+#define C_LABEL(t, n)   ontrdf(t, RDFS_LABEL, n).
+#define C_BP(t)         ontrdf(t, OIO_NAMESPACE, "\"biological_process\"").
+#define C_CC(t)         ontrdf(t, OIO_NAMESPACE, "\"cellular_component\"").
+#define C_SUB(t, p)     ontrdf(t, RDFS_SUBCLASS_OF, p).
+#define C_OBSOLETE(t)   ontrdf(t, OWL_DEPRECATED, "\"true\"^^<http://www.w3.org/2001/XMLSchema#boolean>").
+#define C_DEF(t, d)     ontrdf(t, IAO_DEFINITION, d).
+#define C_XREF(t, x)    ontrdf(t, OIO_XREF, x).
+
+// A definition axiom, so its annotations can be given a stray property.
+#define C_DEF_AXIOM(ax, t, d) \
+    ontrdf(ax, OWL_ANN_SOURCE, t). \
+    ontrdf(ax, OWL_ANN_PROPERTY, IAO_DEFINITION). \
+    ontrdf(ax, OWL_ANN_TARGET, d).
+
+// -- scaffolding --------------------------------------------------------------
+
+#define BP_ROOT     "<http://purl.obolibrary.org/obo/GO_0008150>"
+#define CTRL_PARENT "<http://purl.obolibrary.org/obo/GO_0000100>"
+
+// One of the three roots, so it is exempt from missing-superclass.
+C_TYPE(BP_ROOT)  C_LABEL(BP_ROOT, "\"biological_process\"")  C_BP(BP_ROOT)
+
+// The clean term. Should trigger nothing: if it starts turning up in
+// qc-selftest-violations.tsv, some rule has become too broad.
+C_TYPE(CTRL_PARENT)  C_LABEL(CTRL_PARENT, "\"control parent\"")  C_BP(CTRL_PARENT)
+C_SUB(CTRL_PARENT, BP_ROOT)
+C_DEF(CTRL_PARENT, "\"A well-formed control term.\"")
+
+// ---------------------------------------------------------------------------
+// obsoletion.dl
+// ---------------------------------------------------------------------------
+
+#define OBS_NO_PREFIX  "<http://purl.obolibrary.org/obo/GO_0000101>"
+#define OBS_REPLACED   "<http://purl.obolibrary.org/obo/GO_0000102>"
+#define OBS_TARGET     "<http://purl.obolibrary.org/obo/GO_0000103>"
+#define OBS_NON_GO     "<http://purl.obolibrary.org/obo/GO_0000104>"
+#define OBS_REFERENCED "<http://purl.obolibrary.org/obo/GO_0000105>"
+#define OBS_CHILD      "<http://purl.obolibrary.org/obo/GO_0000106>"
+#define OBS_RELATED    "<http://purl.obolibrary.org/obo/GO_0000107>"
+
+// obsolete-definition: obsolete, but the definition lacks the OBSOLETE. prefix.
+C_TYPE(OBS_NO_PREFIX)  C_LABEL(OBS_NO_PREFIX, "\"control obsolete without prefix\"")  C_BP(OBS_NO_PREFIX)
+C_OBSOLETE(OBS_NO_PREFIX)
+C_DEF(OBS_NO_PREFIX, "\"This definition is missing its obsoletion prefix.\"")
+
+// replacedby-obsolete: replaced_by points at a term that is itself obsolete.
+C_TYPE(OBS_REPLACED)  C_LABEL(OBS_REPLACED, "\"control replaced by an obsolete term\"")  C_BP(OBS_REPLACED)
+C_OBSOLETE(OBS_REPLACED)
+ontrdf(OBS_REPLACED, IAO_REPLACED_BY, OBS_TARGET).
+C_TYPE(OBS_TARGET)  C_LABEL(OBS_TARGET, "\"control obsolete replacement\"")  C_BP(OBS_TARGET)
+C_OBSOLETE(OBS_TARGET)
+
+// replacedby-namespace: a GO term whose consider: points outside GO.
+C_TYPE(OBS_NON_GO)  C_LABEL(OBS_NON_GO, "\"control replaced by a non-GO term\"")  C_BP(OBS_NON_GO)
+C_OBSOLETE(OBS_NON_GO)
+ontrdf(OBS_NON_GO, OIO_CONSIDER, "<http://purl.obolibrary.org/obo/CHEBI_15377>").
+
+// obsolete-reference, exercising all four arms: an obsolete term that still
+// has a superclass, still has a subclass, is still in a subset, and is still
+// used as a relationship filler.
+C_TYPE(OBS_REFERENCED)  C_LABEL(OBS_REFERENCED, "\"control obsolete but referenced\"")  C_BP(OBS_REFERENCED)
+C_OBSOLETE(OBS_REFERENCED)
+C_SUB(OBS_REFERENCED, CTRL_PARENT)
+ontrdf(OBS_REFERENCED, OIO_IN_SUBSET, "<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>").
+
+C_TYPE(OBS_CHILD)  C_LABEL(OBS_CHILD, "\"control subclass of an obsolete term\"")  C_BP(OBS_CHILD)
+C_SUB(OBS_CHILD, OBS_REFERENCED)
+
+C_TYPE(OBS_RELATED)  C_LABEL(OBS_RELATED, "\"control with a relationship to an obsolete term\"")  C_BP(OBS_RELATED)
+C_SUB(OBS_RELATED, CTRL_PARENT)
+C_SUB(OBS_RELATED, "_:ctrlrestriction1")
+ontrdf("_:ctrlrestriction1", OWL_ON_PROPERTY, "<http://purl.obolibrary.org/obo/BFO_0000050>").
+ontrdf("_:ctrlrestriction1", OWL_SOME_VALUES, OBS_REFERENCED).
+
+// ---------------------------------------------------------------------------
+// definitions.dl
+// ---------------------------------------------------------------------------
+
+#define DEF_NEWLINE "<http://purl.obolibrary.org/obo/GO_0000110>"
+#define DEF_QUOTE   "<http://purl.obolibrary.org/obo/GO_0000111>"
+#define DEF_PERIOD  "<http://purl.obolibrary.org/obo/GO_0000112>"
+#define DEF_ANNOT   "<http://purl.obolibrary.org/obo/GO_0000113>"
+
+// definition-newline: the two characters \n inside the lexical form.
+C_TYPE(DEF_NEWLINE)  C_LABEL(DEF_NEWLINE, "\"control definition with a newline\"")  C_BP(DEF_NEWLINE)
+C_SUB(DEF_NEWLINE, CTRL_PARENT)
+C_DEF(DEF_NEWLINE, "\"A definition split\\nover two lines.\"")
+
+// definition-quote: an escaped double quote inside the lexical form.
+C_TYPE(DEF_QUOTE)  C_LABEL(DEF_QUOTE, "\"control definition with a quote\"")  C_BP(DEF_QUOTE)
+C_SUB(DEF_QUOTE, CTRL_PARENT)
+C_DEF(DEF_QUOTE, "\"A definition containing a \\\" quote.\"")
+
+// definition-period: no trailing period.
+C_TYPE(DEF_PERIOD)  C_LABEL(DEF_PERIOD, "\"control definition without a period\"")  C_BP(DEF_PERIOD)
+C_SUB(DEF_PERIOD, CTRL_PARENT)
+C_DEF(DEF_PERIOD, "\"A definition that just stops\"")
+
+// definition-annotation: the definition axiom carries a comment, not an xref.
+C_TYPE(DEF_ANNOT)  C_LABEL(DEF_ANNOT, "\"control definition with a stray axiom annotation\"")  C_BP(DEF_ANNOT)
+C_SUB(DEF_ANNOT, CTRL_PARENT)
+C_DEF(DEF_ANNOT, "\"A definition with an over-annotated axiom.\"")
+C_DEF_AXIOM("_:ctrlaxiom1", DEF_ANNOT, "\"A definition with an over-annotated axiom.\"")
+ontrdf("_:ctrlaxiom1", RDFS_COMMENT, "\"an xref is the only annotation allowed here\"").
+
+// ---------------------------------------------------------------------------
+// hierarchy.dl
+// ---------------------------------------------------------------------------
+
+#define HIER_ORPHAN   "<http://purl.obolibrary.org/obo/GO_0000120>"
+#define HIER_MISMATCH "<http://purl.obolibrary.org/obo/GO_0000121>"
+#define HIER_NO_NS    "<http://purl.obolibrary.org/obo/GO_0000122>"
+
+// missing-superclass: live, not a root, no GO parent.
+C_TYPE(HIER_ORPHAN)  C_LABEL(HIER_ORPHAN, "\"control orphan\"")  C_BP(HIER_ORPHAN)
+
+// different-namespace: cellular_component under a biological_process parent.
+C_TYPE(HIER_MISMATCH)  C_LABEL(HIER_MISMATCH, "\"control namespace mismatch\"")  C_CC(HIER_MISMATCH)
+C_SUB(HIER_MISMATCH, CTRL_PARENT)
+
+// missing-namespace, and the no-namespace arm of different-namespace.
+C_TYPE(HIER_NO_NS)  C_LABEL(HIER_NO_NS, "\"control without a namespace\"")
+C_SUB(HIER_NO_NS, CTRL_PARENT)
+
+// ---------------------------------------------------------------------------
+// xrefs.dl
+// ---------------------------------------------------------------------------
+
+#define EC_OBSOLETE "<http://purl.obolibrary.org/obo/GO_0000130>"
+#define EC_UNKNOWN  "<http://purl.obolibrary.org/obo/GO_0000131>"
+#define SUBSET_BAD  "<http://purl.obolibrary.org/obo/GO_0000132>"
+
+// obsolete-ec: EC:1.1.1.109 is withdrawn in ../resources/obsolete_ec.txt.
+C_TYPE(EC_OBSOLETE)  C_LABEL(EC_OBSOLETE, "\"control with an obsolete EC xref\"")  C_BP(EC_OBSOLETE)
+C_SUB(EC_OBSOLETE, CTRL_PARENT)
+C_XREF(EC_OBSOLETE, "\"EC:1.1.1.109\"")
+
+// unknown-ec, cited three ways so all three arms of ec_citation are exercised:
+// a term xref, a definition xref, and a synonym xref.
+C_TYPE(EC_UNKNOWN)  C_LABEL(EC_UNKNOWN, "\"control with an unknown EC xref\"")  C_BP(EC_UNKNOWN)
+C_SUB(EC_UNKNOWN, CTRL_PARENT)
+C_XREF(EC_UNKNOWN, "\"EC:9.9.9.9\"")
+C_DEF(EC_UNKNOWN, "\"A control term citing an EC that does not exist.\"")
+C_DEF_AXIOM("_:ctrlaxiom2", EC_UNKNOWN, "\"A control term citing an EC that does not exist.\"")
+ontrdf("_:ctrlaxiom2", OIO_XREF, "\"EC:9.9.9.8\"").
+ontrdf(EC_UNKNOWN, OIO_EXACT_SYN, "\"control synonym\"").
+ontrdf("_:ctrlaxiom3", OWL_ANN_SOURCE, EC_UNKNOWN).
+ontrdf("_:ctrlaxiom3", OWL_ANN_PROPERTY, OIO_EXACT_SYN).
+ontrdf("_:ctrlaxiom3", OWL_ANN_TARGET, "\"control synonym\"").
+ontrdf("_:ctrlaxiom3", OIO_XREF, "\"EC:9.9.9.7\"").
+
+// undeclared-subset: a subset nothing declares as a SubsetProperty. The subset
+// used by OBS_REFERENCED above is declared here, so only this one fires.
+C_TYPE(SUBSET_BAD)  C_LABEL(SUBSET_BAD, "\"control in an undeclared subset\"")  C_BP(SUBSET_BAD)
+C_SUB(SUBSET_BAD, CTRL_PARENT)
+ontrdf(SUBSET_BAD, OIO_IN_SUBSET, "<http://purl.obolibrary.org/obo/go#control_undeclared_subset>").
+
+ontrdf("<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>", RDF_TYPE, OWL_ANN_PROP).
+ontrdf("<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>", RDFS_SUBPROP_OF, OIO_SUBSET_PROP).
+
+// ---------------------------------------------------------------------------
+// literals.dl
+// ---------------------------------------------------------------------------
+
+#define LIT_EMPTY   "<http://purl.obolibrary.org/obo/GO_0000133>"
+#define LIT_URI     "<http://purl.obolibrary.org/obo/GO_0000134>"
+
+C_TYPE(LIT_EMPTY)  C_LABEL(LIT_EMPTY, "\"control with an empty literal\"")  C_BP(LIT_EMPTY)
+C_SUB(LIT_EMPTY, CTRL_PARENT)
+ontrdf(LIT_EMPTY, OIO_EXACT_SYN, "\"\"").
+
+C_TYPE(LIT_URI)  C_LABEL(LIT_URI, "\"control with a URI comment\"")  C_BP(LIT_URI)
+C_SUB(LIT_URI, CTRL_PARENT)
+ontrdf(LIT_URI, RDFS_COMMENT, "\"http://example.org/not-a-comment\"").
