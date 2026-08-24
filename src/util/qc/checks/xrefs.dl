@@ -1,0 +1,39 @@
+// ---------------------------------------------------------------------------
+// Cross-references, and the subsets a term claims membership of.
+//
+// These checks were already in ontology-qc.dl before the split; they are
+// unchanged in meaning, restated against the vocabulary layer.
+//
+// ../resources/obsolete_ec.txt carries its EC ids already quoted, the way they
+// appear as literals in the fact file. The path is resolved relative to the
+// working directory (src/ontology), not to this file.
+// ---------------------------------------------------------------------------
+
+.decl ec_row(ec:symbol, obsolete:symbol)
+.input ec_row(filename="../resources/obsolete_ec.txt")
+
+// Strip the quotes so EC ids compare against xref text like everything else.
+.decl known_ec(ec:symbol)
+known_ec(e) :- ec_row(q, _), n = strlen(q), e = substr(q, 1, max(0, n-2)).
+
+.decl obsolete_ec(ec:symbol)
+obsolete_ec(e) :- ec_row(q, "true"), n = strlen(q), e = substr(q, 1, max(0, n-2)).
+
+// Every way an EC id can be cited, with the kind of citation named so one pair
+// of rules covers what used to be five near-identical ones.
+.decl ec_citation(term:symbol, kind:symbol, ec:symbol)
+ec_citation(t, "an xref",            e) :- xref(t, e),               match("EC:.+", e), live_class(t).
+ec_citation(t, "a definition xref",  e) :- definition_xref(t, e),    match("EC:.+", e), live_class(t).
+ec_citation(t, "a synonym xref",     e) :- synonym_xref(t, _, e),    match("EC:.+", e), live_class(t).
+
+check("obsolete-ec", "An EC xref must not cite an EC entry that has been withdrawn").
+violation("obsolete-ec", t, cat("has ", kind, " to an obsolete EC: ", e)) :-
+    ec_citation(t, kind, e), obsolete_ec(e).
+
+check("unknown-ec", "An EC xref must cite an EC entry that exists").
+violation("unknown-ec", t, cat("has ", kind, " to an unknown EC: ", e)) :-
+    ec_citation(t, kind, e), !known_ec(e).
+
+check("undeclared-subset", "A term may only be placed in a declared subset").
+violation("undeclared-subset", t, cat("references an undeclared subset: ", s)) :-
+    subset(t, sub), !declared_subset(sub), shown(sub, s).

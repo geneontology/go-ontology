@@ -1,6 +1,6 @@
 ---
 name: souffle-datalog
-description: For reading, writing, debugging, or extending Soufflé Datalog (`.dl`) programs in this repo — the `datalog-violations.tsv` QC check, the `basic-cycles.tsv` cycle check, taxon-constraint materialization, and the relation-diff CI report. Covers the RDF fact-file format these programs consume, this repo's Soufflé conventions, and the required positive-control test for any new or changed rule.
+description: For reading, writing, debugging, or extending Soufflé Datalog (`.dl`) programs in this repo — the layered ontology QC program under `src/util/qc/`, the `basic-cycles.tsv` cycle check, taxon-constraint materialization, and the relation-diff CI report. Covers the RDF fact-file format these programs consume, this repo's Soufflé conventions, the check registry, and the required control-ontology self-test for any new or changed rule.
 ---
 
 Soufflé is a Datalog engine (<https://souffle-lang.github.io/>). GO uses it for
@@ -16,12 +16,14 @@ directory before writing rules — especially the `match` and aggregate sections
 
 | Program | Invoked by | Reads | Writes |
 | --- | --- | --- | --- |
-| `src/util/ontology-qc.dl` | `make datalog-violations.tsv`, part of `test` and `travis_test` | `go-edit.facts`, `../resources/obsolete_ec.txt` | `datalog-violations.tsv` |
+| `src/util/ontology-qc.dl` (+ `src/util/qc/`) | `make datalog-check`, part of `test` and `travis_test` | `go-edit.facts`, `../resources/obsolete_ec.txt` | `datalog-violations.tsv` |
+| `src/util/ontology-qc-selftest.dl` | `make qc-selftest`, part of `test` and `travis_test` | `src/util/qc/control.dl` | `qc-missing-expected.tsv`, `qc-unexpected-violations.tsv`, `qc-unexpected-checks.tsv`, `qc-unregistered-checks.tsv` |
 | `src/util/cycles.dl` | `make basic-cycles.tsv` | `basic.facts` | `cycle.csv` → `basic-cycles.tsv` |
 | `src/util/materialize-taxon-constraints.dl` | `make imports/go-computed-taxon-constraints.owl` | `taxonconstraintsrelationgraph.facts` (from relation-graph) | `computed_only_in_taxon.csv`, `computed_never_in_taxon.csv` |
 | `src/util/relation-diff.dl` | `.github/workflows/relation-diff.yml` (runs from the repo root) | `left.facts`, `right.facts`, `ontrdf.facts` | `lost.csv`, `gained.csv`, `fill.csv` |
 
-The first two are QC gates: **the build fails if the output file is non-empty.**
+`datalog-check`, `qc-selftest`, and `basic-cycles.tsv` are QC gates: **the build
+fails if the output file is non-empty.**
 
 ## The fact-file format
 
@@ -46,7 +48,7 @@ Consequences that bite:
 - **Comparisons must include the punctuation.** `o = "true"` never matches; the
   boolean-true object is
   `"\"true\"^^<http://www.w3.org/2001/XMLSchema#boolean>"` in Soufflé source.
-  Compare with the `obsolete_term` rule in `ontology-qc.dl`.
+  Compare with the `obsolete` rule in `qc/vocabulary.dl`.
 - `match("<.+>", x)` is the repo idiom for "x is an IRI" — it excludes blank
   nodes and literals. `match("\".*", o)` is the idiom for "o is a literal".
   Restriction bnodes are everywhere in the class graph, so these guards are not
@@ -60,7 +62,8 @@ Consequences that bite:
   label or hierarchy will find nothing.
 - Axiom annotations are reified. Definition and synonym xrefs are reachable only
   via `owl:Axiom` / `owl:annotatedSource` / `owl:annotatedProperty`, as the
-  `defxref` and `synonym_xref` rules show.
+  `annotated`, `definition_xref` and `synonym_xref` rules in `qc/vocabulary.dl`
+  show.
 
 Declare IRIs as `#define` constants at the top of the file, as every existing
 program does, rather than repeating string literals.
@@ -71,7 +74,7 @@ Fact-file generation and the QC targets are Makefile recipes, so per CLAUDE.md
 and the `/odk-make` skill they run in the pinned ODK image:
 
 ```bash
-.claude/skills/odk-make/odk-run.sh make datalog-violations.tsv
+.claude/skills/odk-make/odk-run.sh make datalog-check
 ```
 
 For iterating on a rule, a host `souffle` against a small synthetic fact file is
@@ -86,27 +89,58 @@ directory** unless `-F`/`-D` are given, which is why the Makefile runs
 `<relation>.csv` and are **tab-separated despite the extension**; the recipes
 rename and re-head them afterwards.
 
-## The QC-check idiom
+## The QC program's structure
 
-`ontology-qc.dl` collects every violation into one `error` relation of
-human-readable strings:
+`ontology-qc.dl` is an entry point only. The program is split so that no check
+has to touch RDF:
+
+| File | Holds |
+| --- | --- |
+| `src/util/qc/rdf.dl` | N-Triples punctuation — quote stripping, datatype tails, IRI→CURIE. The only file allowed to mention that syntax. |
+| `src/util/qc/vocabulary.dl` | The ontology as an editor talks about it: `class`, `obsolete`, `label`, `definition`, `synonym`, `xref`, `parent`, `relationship`, `merged_term`. |
+| `src/util/qc/registry.dl` | `check`/`violation`/`error`, plus `unregistered_check`. |
+| `src/util/qc/selftest.dl` | The self-test gates. Included only by the self-test entry point — in the build program its relations would have no facts, and that warning is this repo's best typo signal. |
+| `src/util/qc/checks/*.dl` | One file per topic. |
+| `src/util/qc/program.dl` | The include list, shared by both entry points. |
+| `src/util/qc/control.dl` | The control ontology for the self-test. |
+
+`#include` resolves **relative to the including file**, not the working
+directory, so `souffle ../util/ontology-qc.dl` from `src/ontology` works
+unchanged. Both entry points include `qc/program.dl`, so the build check and
+the self-test can never disagree about which checks exist.
+
+Every check registers itself and reports through `violation/3`:
 
 ```
-.decl error(message: symbol)
-error(cat("ERROR: ", term, " has an xref to an unknown EC: ", ec)) :-
-    ec_xref(term, ec), valid_term(term), !ec(ec, _).
-.output error(filename="datalog-violations.tsv")
+check("unknown-ec", "An EC xref must cite an EC entry that exists").
+violation("unknown-ec", t, cat("has ", kind, " to an unknown EC: ", e)) :-
+    ec_citation(t, kind, e), !known_ec(e).
 ```
 
-The Makefile then fails the build if the file is non-empty. To add a check:
+`registry.dl` projects that into the three-column `error` relation the build
+reads — check name, the subject as a curator would read it (CURIE plus label),
+and the message. Write the message as the predicate of a sentence whose subject
+is the term; `described/2` supplies the subject.
 
-1. Add named intermediate relations for the concepts involved — one `.decl` per
-   idea, as the existing file does (`term`, `valid_term`, `xref`, `defxref`).
-   They are cheap, they document intent, and they are individually testable.
-2. Add one `error(cat(...))` rule. Message text should name the offending term
-   and say what is wrong — a curator reads this output, not a developer.
-3. Exclude obsolete terms with `valid_term(term)` unless the check is
-   specifically about obsoletes.
+Pass `violation/3` the **raw** node in the term position and let the registry
+render it. `shown/2` is the manual version, for a node interpolated mid-sentence
+— `shown(p, prop)` in the `empty-literal` rule turns the offending property into
+readable text. Reach for it only where the node is known to be an IRI or a
+literal, because it silently drops anything else; see the Gotchas below.
+
+To add a check:
+
+1. Pick or add a topic file under `src/util/qc/checks/`.
+2. Write one `check(name, summary)` fact and one or more `violation` rules
+   against the vocabulary layer. If a rule needs `ontrdf/3` or an escaped
+   literal, add the missing concept to `vocabulary.dl` instead — every other
+   check gets it too.
+3. Plant a violating term in `src/util/qc/control.dl`.
+4. Exclude obsolete terms with `live_class(t)` unless the check is specifically
+   about obsoletes; exclude `merged_term(t)` for term-level requirements.
+
+A relation declared in two included files is a hard compile error naming both
+files and lines, so a split tree cannot silently collide.
 
 ## Required: positive-control test
 
@@ -114,22 +148,49 @@ A wrong QC rule produces an **empty** relation, and an empty relation means the
 build passes. A check that never fires is indistinguishable from a clean
 ontology. So a new or modified rule is not done until it has been shown to fire.
 
-Build a handful of synthetic facts containing a known violation and run the real
-program against them. This is instant, versus minutes to regenerate
-`go-edit.facts`:
+For `ontology-qc.dl` this is mechanised. `src/util/qc/control.dl` is a small
+hand-built ontology that plants a violation of every *arm* of every registered
+check and declares each one with an `expected_violation(check, term)` fact.
+`make qc-selftest` runs the identical check set against it:
+
+```bash
+.claude/skills/odk-make/odk-run.sh make qc-selftest
+```
+
+Four gates, all of which must come out empty:
+
+| Gate | Means |
+| --- | --- |
+| `unregistered_check` | A `violation` under a name no `check` declares — a typo. |
+| `missing_expected` | An expectation that did not fire — the rule, or one arm of it, is dead. |
+| `check_without_expectation` | A registered check with nothing planted for it. |
+| `unexpected_violation` | A violation nobody expected — a rule has grown too broad. |
+
+**The gate is keyed on `(check, term)`, not on the check name.** That matters:
+several checks have more than one rule — `obsolete-reference` has six arms —
+and a name-keyed gate stays satisfied as long as any one arm fires, so a dead
+arm hides behind a live one. Give every arm its own control term. The last gate
+is what lets the control ontology assert that its well-formed terms trigger
+*nothing*, which catches a rule that has become too broad rather than too
+narrow. The run takes well under a second.
+
+The control ontology is written as Datalog facts rather than a `.facts` file
+because Soufflé's fact reader rejects comment lines. It uses raw triples rather
+than OBO on purpose: an OBO round-trip normalises away several of the
+malformations being tested.
+
+For the other programs, which have no registry, build a handful of synthetic
+facts containing a known violation and run the real program against them:
 
 ```bash
 mkdir -p /tmp/dl/ontology /tmp/dl/resources && cd /tmp/dl/ontology
 printf '"EC:1.1.1.2"\ttrue\n' > ../resources/obsolete_ec.txt
 printf '<http://purl.obolibrary.org/obo/GO_0000001>\t<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>\t<http://www.w3.org/2002/07/owl#Class>\n' > go-edit.facts
-printf '<http://purl.obolibrary.org/obo/GO_0000001>\t<http://www.geneontology.org/formats/oboInOwl#hasDbXref>\t"EC:1.1.1.2"\n' >> go-edit.facts
-souffle /path/to/repo/src/util/ontology-qc.dl && cat datalog-violations.tsv
+souffle /path/to/repo/src/util/cycles.dl && cat cycle.csv
 ```
 
-Confirm both directions:
-
-- the violating fact **does** produce the expected message, and
-- a corrected version of the same fact produces **no** message.
+Confirm both directions: the violating fact **does** produce the expected
+message, and a corrected version of the same fact produces **none**.
 
 Then run the real target through `odk-run.sh` and check the violation count
 against the full ontology. A new check that fires on thousands of existing terms
@@ -150,6 +211,26 @@ issue before committing.
   get the global aggregate with no warning. See `reference.md`.
 - **`substr` is 0-based** and clamps or empties on out-of-range input instead of
   failing.
+- **A guard constraint beside a `substr` does not protect it.** Soufflé may
+  evaluate the `substr` before the constraint that was written to keep its index
+  in range, producing a run full of range warnings. Clamp inside the call —
+  `substr(l, max(0, n-k), k)`, not `substr(l, n-k, k), n-k >= 0`.
+- **`shown/2` is a filter as well as a renderer.** Its four arms cover OBO
+  CURIEs, OBO fragments, bare IRIs and literal text — a blank node matches none
+  of them, so `shown(x, txt)` in a rule body drops every bnode binding with no
+  error. An empty literal on a reified axiom annotation has a `_:genid` subject,
+  so pre-rendering a subject through `shown` rather than handing `violation/3`
+  the raw node loses exactly those cases. The same applies to `described/2`,
+  which is why `registry.dl` carries a `!described(t, _)` fallback arm.
+- **Restrictions are blank nodes, so an `iri()` guard hides them.** A rule that
+  walks `rdfs:subClassOf` and filters targets to IRIs skips every
+  `owl:Restriction`; anything built on top of it is silently empty. Keep the
+  unfiltered relation and project the named-class view from it, as
+  `superclass_expr`/`parent` in `vocabulary.dl` do.
+- **`#define` does not concatenate adjacent string literals.** C's
+  `"a" "b"` → `"ab"` is a preprocessor-plus-C-lexer behaviour that Soufflé's
+  lexer does not share; `#define GO(n) "<...GO_" n ">"` is a syntax error at the
+  use site. Give each constant its own full-string `#define`.
 - **Negation cannot appear inside recursion** (stratification), and negated
   literals ground nothing.
 - **Don't commit generated artifacts.** `*.facts`, `*.csv`, `datalog-violations.tsv`,

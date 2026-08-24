@@ -1,0 +1,26 @@
+// ---------------------------------------------------------------------------
+// The check registry.
+//
+// Every check declares itself with a `check(name, summary)` fact and reports
+// with `violation(name, term, detail)`. Two things fall out of that:
+//
+//   - errors are grouped, named, and carry a readable subject, so
+//     datalog-violations.tsv says which check fired and on what;
+//   - a rule that can never fire becomes visible. An empty relation passes the
+//     build, which is the failure mode this language makes easiest to hit.
+//
+// Visibility is the job of control.dl and qc/selftest.dl, which plant a
+// violation of every arm and gate it in both directions.
+// ---------------------------------------------------------------------------
+
+.decl check(name:symbol, summary:symbol)
+.decl violation(check:symbol, term:symbol, detail:symbol)
+
+// The build output: check name, the subject as a curator would read it, message.
+.decl error(check:symbol, subject:symbol, message:symbol)
+error(c, s, m) :- violation(c, t, m), described(t, s).
+error(c, t, m) :- violation(c, t, m), !described(t, _).
+
+// A violation raised under a name nobody registered -- usually a typo.
+.decl unregistered_check(name:symbol)
+unregistered_check(c) :- violation(c, _, _), !check(c, _).
