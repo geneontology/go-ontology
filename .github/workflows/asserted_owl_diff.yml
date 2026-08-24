@@ -4,6 +4,8 @@ on:
   # Triggers the workflow on pull request events for the master branch
   pull_request:
     branches: [ master ]
+    paths:
+      - src/ontology/go-edit.obo
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -19,6 +21,8 @@ jobs:
     steps:
       - name: Check out pull request
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.ref }}
       - name: Check out base revision
         uses: actions/checkout@v7
         with:
@@ -34,11 +38,15 @@ jobs:
             --right-catalog src/ontology/catalog-v001.xml \
             --format markdown \
             --output asserted-owl-diff.md
-      - name: Prepare comment
-        if: github.event_name == 'pull_request'
+      - name: Prepare report
         run: |
           printf '%s\n\n' "Here's the OWL diff of asserted axioms in go-edit.obo:" >comment.md
           cat asserted-owl-diff.md >>comment.md
+          cat comment.md >>"$GITHUB_STEP_SUMMARY"
+          if [ "$(wc -c <comment.md)" -gt 65000 ]; then
+            printf 'The asserted OWL diff is too large for a PR comment. See the [workflow run](%s/%s/actions/runs/%s) for the full report.\n' \
+              "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >comment.md
+          fi
       - name: Post comment
         if: github.event_name == 'pull_request'
         uses: NejcZdovc/comment-pr@v2.1.0
@@ -46,3 +54,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           file: "../../comment.md"
+          single_comment: "true"
