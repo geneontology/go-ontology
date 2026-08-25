@@ -99,15 +99,27 @@ travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns
 #       filtering an unknown one would strip a definition's last xref.
 #
 #   verify $(VARGS)             the pre-reasoning SPARQL checks that have not yet
-#       moved to Soufflé. Runs before the merges, so it sees go-edit.obo alone.
+#       moved to Soufflé. Runs before the merges, so it sees only the edit file
+#       (Rhea-filtered, two imports trimmed).
 #
-#   the three merged modules    present_in_taxon.ofn is the only logic-bearing
-#       input go-edit.obo does not already import: it supplies the probe classes
-#       that turn a taxon-constraint violation into an unsatisfiable class.
-#       go-taxon-constraint-classes.ofn and go-catalytic-activities-participants.owl
-#       are imported, but are merged here so that verify -- which does not see
-#       imports -- can check them, e.g. an obsoleted MF term whose participant
-#       axioms have not been regenerated.
+#   the three merged modules    all three are GO modules, not external content --
+#       see GO MODULES vs EXTERNAL IMPORTS below. They are merged for three
+#       different reasons:
+#
+#       go-taxon-constraint-classes.ofn carries the EquivalentClasses
+#       definitions of the neverin:/onlyin: classes that go-edit.obo asserts as
+#       bare is_a parents, and go-edit-trimmed-imports.obo strips its import, so
+#       this merge is what makes a taxon-constraint violation unsatisfiable at
+#       all. Drop it and the gate does not weaken, it dies: the classes lose
+#       their axioms, ELK derives nothing, and the build passes silently.
+#
+#       present_in_taxon.ofn is never imported. It supplies probe classes of the
+#       form (GO term and in_taxon some Taxon), which expose a violation for a
+#       term that carries no offending assertion of its own.
+#
+#       go-catalytic-activities-participants.owl IS still imported, and is
+#       merged only so that verify -- which does not see imports -- can check it,
+#       e.g. an obsoleted MF term whose participant axioms were not regenerated.
 #
 #   reason -e asserted-only     unsatisfiability, inconsistency, and any
 #       equivalence ELK infers that an editor did not assert. Dropping the flag
@@ -255,7 +267,52 @@ imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../r
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
-# Remove reactome_xrefs_import.owl, and go-taxon-constraint-classes.ofn from imports. These are merged in directly in enhanced.ofn
+# ----------------------------------------
+# GO MODULES vs EXTERNAL IMPORTS
+# ----------------------------------------
+#
+# go-edit.obo's `import:` list holds two different kinds of thing, and telling
+# them apart explains most of the merge/strip/unmerge choreography below.
+#
+#   External imports -- chebi_import.owl, cl_import.owl, ncbitaxon_import.owl,
+#       uberon_import.owl, and the rest of the *_import.owl extractions.
+#       Content owned by another ontology. GO releases reference these terms but
+#       do not ship their axioms, so every release product strips them:
+#       `remove --select imports` in $(ONT)-pre.ofn and go-base.owl.
+#
+#   GO modules -- go-taxon-constraint-classes.ofn, reactome_xrefs_import.owl,
+#       go-catalytic-activities-participants.owl, go-taxon-groupings.owl,
+#       go-pattern-conformance.ttl, x-disjoint.ofn, extensions/go-*.owl.
+#       GO's own content, in separate files because it is generated rather than
+#       hand-edited. It is GO ontology content that happens not to live in
+#       go-edit.obo.
+#
+# A GO module appears on the `import:` list only so that go-edit.obo is
+# self-contained for an editor: without go-taxon-constraint-classes.ofn there,
+# `is_a: neverin:4896` dangles when the file is opened in Protege. That
+# declaration is an editing convenience, not a claim that the content is foreign.
+#
+# Hence the strip-then-merge below. ROBOT cannot promote a file out of the
+# import closure -- merging a file that is still imported leaves its axioms
+# reachable from both places -- so deleting the `import:` line is the only way to
+# say "these axioms live in the main graph and nowhere else." A GO module needs
+# that whenever its axioms must be individually addressable downstream, and the
+# two stripped here need it for opposite reasons:
+#
+#   reactome_xrefs_import.owl        must SURVIVE. Its xrefs reach the release
+#       only through the merge; left as an import, `remove --select imports` in
+#       $(ONT)-pre.ofn would drop every one of them.
+#
+#   go-taxon-constraint-classes.ofn  must be REMOVABLE. $(GO_PLUS).ofn unmerges
+#       it before collapsing the remaining import closure, and `unmerge` only
+#       bites on main-graph axioms -- with the import declaration still present
+#       the unmerge would be a no-op and the very next merge would pull the
+#       scaffolding straight back in.
+#
+# A GO module whose content is discarded downstream anyway does not need the
+# strip. That is why go-catalytic-activities-participants.owl is merged in
+# several targets while remaining a plain import: $(ONT)-pre.ofn removes every
+# non-GO class, which takes its CHEBI-facing participant restrictions with it.
 go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn' >$@
