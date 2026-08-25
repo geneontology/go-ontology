@@ -6,6 +6,7 @@ on:
     branches: [ master ]
     paths:
       - src/ontology/go-edit.obo
+      - .github/workflows/asserted_owl_diff.yml
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
