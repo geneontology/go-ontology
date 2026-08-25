@@ -37,7 +37,7 @@ For a local editor-driven Claude Code session:
 
 ```bash
 .claude/skills/odk-make/odk-run.sh robot --version
-.claude/skills/odk-make/odk-run.sh make travis_build
+.claude/skills/odk-make/odk-run.sh make travis_test
 ```
 
 The wrapper uses the same image tag as `src/ontology/run.sh` (the canonical console invocation), so the version of `robot` you run matches the one CI uses. See the `/odk-make` skill for details and common targets.
@@ -89,7 +89,7 @@ Create a plan for addressing the issue. The plan MUST have the following compone
     - /reaction skill; for any request involving RHEA, EC, or the catalytic activity branch of GO
     - /taxon-constraint skill; for any request involving restricting usage of a term or branch to a taxon/clade
 - [ ] METADATA: The metadata for the changes is correct
-- [ ] AUTOMATED-VALIDATION: The ontology validates correctly using `make travis_build` after changes have been made
+- [ ] AUTOMATED-VALIDATION: The ontology validates correctly using `make travis_test` after changes have been made
 - [ ] REFERENCE-VALIDATION: All references (eg PMIDs) introduced have been validated, and are relevant, and not typos or hallucinations; always use /research for this
 - [ ] CHANGES-COMMITTED
     - [ ] RELEVANT-FILES: changes to src/ontology/go-edit.obo and any other content file are committed with detailed messages and signatures
@@ -175,7 +175,7 @@ The general procedure is:
 - checking in will update the edit file and remove the file from `terms/`
 - Commits are then made on src/ontology/go-edit.obo as appropriate
 - `obo-checkout.pl` and `obo-checkin.pl` come from the same obo-scripts tooling (`cmungall/obo-scripts` / the `editing-obo-ontologies` skill) and are likewise only on PATH once it's installed/loaded. If not found, install/locate them and call by full path — don't work around their absence by editing the megafile directly; the checkin/checkout procedure is required.
-- Always validate after checkin via `cd src/ontology && make travis_build` (this must run in the ODK Docker image — see the /odk-make skill)
+- Always validate after checkin via `cd src/ontology && make travis_test` (this must run in the ODK Docker image — see the /odk-make skill)
 
 ### Creation of new terms
 
@@ -399,16 +399,39 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 This ontology uses standard ODK/ROBOT tests plus custom tests to ensure the ontology is logically, syntactically, and stylistically valid.
 
-IMPORTANT: every `make` target and every one-off `robot`/`owltools` command in this section must run inside the pinned ODK Docker image (`obolibrary/odkfull`), NOT against host tools — otherwise results won't match CI. Use the /odk-make skill, which explains this and provides a non-interactive runner (`.claude/skills/odk-make/odk-run.sh make travis_build`, etc). The bare `cd src/ontology && make ...`/`robot ...` forms shown below assume you are already inside the ODK environment (as in GitHub Actions); locally, wrap them via /odk-make.
+IMPORTANT: every `make` target and every one-off `robot`/`owltools` command in this section must run inside the pinned ODK Docker image (`obolibrary/odkfull`), NOT against host tools — otherwise results won't match CI. Use the /odk-make skill, which explains this and provides a non-interactive runner (`.claude/skills/odk-make/odk-run.sh make travis_test`, etc). The bare `cd src/ontology && make ...`/`robot ...` forms shown below assume you are already inside the ODK environment (as in GitHub Actions); locally, wrap them via /odk-make.
 
-Ensure that full validation is performed, using `cd src/ontology && make travis_build` (being sure you are in the right folder)
+Ensure that full validation is performed, using `cd src/ontology && make travis_test` (being sure you are in the right folder)
 
-IMPORTANT: Allow at least 10 mins for travis_build to run
+`travis_test` is exactly what CI runs. Run it, not one of its prerequisites.
+In particular `travis_build` is only the ROBOT half -- the pre-reasoning SPARQL
+checks, reasoning, and the post-reasoning SPARQL checks. Seven other
+prerequisites sit beside it under `travis_test` and are all skipped if you run
+`travis_build` alone: `check_taxon_constraint_idspaces`,
+`check_all_taxon_constraints_columns`, the perl OBO check (`go-edit.obo-check`),
+`qc-selftest`, `datalog-check`, `chebi_pH_7_3_check`, and `change-report.txt`.
+That last one is the `owltools --verify-changes` gate that catches a dropped or
+renumbered GO id and terms left without a label, which is exactly what you want
+to hear about after a checkin.
+
+`travis_build` covers pull-request integrity only. It does not build any release
+artifact, and it is deliberately not kept in sync with the
+`enhanced.ofn` -> `reasoned.ofn` release pipeline -- see the comment on the
+target in `src/ontology/Makefile`.
+
+`travis_test` needs network access, where `travis_build` does not. Both
+`GO.xrf_abbs` and `go-lastrelease.owl` list `go-edit.obo` as a prerequisite, so
+every edit to the edit file re-fetches the db-xrefs metadata and the full
+released `go.owl` on the next run. With no egress the run fails at `wget`, which
+reads as a validation failure but is not one -- there is no ontology defect
+behind it.
+
+IMPORTANT: Allow at least 10 mins for travis_test to run
 
 If the build times out you can run tests separately; SPARQL-QC checks:
 
 ```
-cd src/ontology && robot verify -i go-edit.obo --queries ../sparql/equivalent-classes-violation.sparql  ../sparql/trailing-whitespace-violation.sparql  ../sparql/owldef-self-reference-violation.sparql  ../sparql/synonym-label-match-violation.sparql  ../sparql/replacedby-obsolete-violation.sparql  ../sparql/replacedby-namespace-violation.sparql  ../sparql/missing-namespace-violation.sparql  ../sparql/duplicate-exact-synonym-violation.sparql  ../sparql/duplicate-synonym-violation.sparql  ../sparql/non-IRI-value-violation.sparql  ../sparql/non-anyURI-value-violation.sparql  ../sparql/obsolete-definition-violation.sparql  ../sparql/definition-constraints-violation.sparql  ../sparql/one-to-one-xrefs-by-subject-violation.sparql  ../sparql/one-to-one-xrefs-by-value-violation.sparql  ../sparql/xref-syntax-violation.sparql
+cd src/ontology && robot verify -i go-edit.obo --queries ../sparql/equivalent-classes-violation.sparql  ../sparql/trailing-whitespace-violation.sparql  ../sparql/owldef-self-reference-violation.sparql  ../sparql/synonym-label-match-violation.sparql  ../sparql/duplicate-exact-synonym-violation.sparql  ../sparql/duplicate-synonym-violation.sparql  ../sparql/non-IRI-value-violation.sparql  ../sparql/non-anyURI-value-violation.sparql  ../sparql/one-to-one-xrefs-by-subject-violation.sparql  ../sparql/one-to-one-xrefs-by-value-violation.sparql  ../sparql/xref-syntax-violation.sparql  ../sparql/xref-annotation-violation.sparql
 ```
 
 Reasoning:
@@ -424,10 +447,13 @@ To debug syntax errors, try: `cd src/ontology && robot convert -vvv -i go-edit.o
 ### Datalog QC checks
 
 Some checks are Soufflé Datalog programs rather than SPARQL: `datalog-check`
-(the ontology QC program, `src/util/ontology-qc.dl` plus `src/util/qc/`) and
-`basic-cycles.tsv`, both part of `test` and `travis_test`. Taxon-constraint
-materialization also runs a Datalog step. These QC targets fail the build when
-their output file is non-empty.
+(the ontology QC program, `src/util/ontology-qc.dl` plus `src/util/qc/`), which
+runs in both `test` and `travis_test`, and `basic-cycles.tsv`, which runs only
+in `test`. The cycle check is release-only on purpose: it reads `go-basic.ofn`,
+so reaching it means building the whole release-shaping chain (a `materialize`
+over nine relations plus two `reduce` passes), which is far too slow for a pull
+request. Taxon-constraint materialization also runs a Datalog step. These QC
+targets fail the build when their output file is non-empty.
 
 Each QC check registers itself, and every arm of every check must be triggered
 by a control term in `src/util/qc/control.dl` that declares it with an

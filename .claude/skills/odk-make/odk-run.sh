@@ -12,7 +12,7 @@
 # path) and reads the pinned ODK image tag straight from run.sh so it never
 # drifts from what console users / CI use.
 #
-#   .claude/skills/odk-make/odk-run.sh make travis_build
+#   .claude/skills/odk-make/odk-run.sh make travis_test
 #   .claude/skills/odk-make/odk-run.sh robot --version
 #   .claude/skills/odk-make/odk-run.sh make reasoned.ofn
 
