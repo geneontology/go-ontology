@@ -22,8 +22,6 @@ jobs:
     steps:
       - name: Check out pull request
         uses: actions/checkout@v7
-        with:
-        uses: actions/checkout@v7
       - name: Check out base revision
         uses: actions/checkout@v7
         with:
