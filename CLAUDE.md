@@ -405,15 +405,26 @@ Ensure that full validation is performed, using `cd src/ontology && make travis_
 
 `travis_test` is exactly what CI runs. Run it, not one of its prerequisites.
 In particular `travis_build` is only the ROBOT half -- the pre-reasoning SPARQL
-checks, reasoning, and the post-reasoning SPARQL checks. It does not cover the
-Datalog QC program, the QC self-test, the perl OBO check, the taxon-constraint
-column checks, or the ChEBI pH 7.3 check, all of which are siblings of
-`travis_build` under `travis_test`.
+checks, reasoning, and the post-reasoning SPARQL checks. Seven other
+prerequisites sit beside it under `travis_test` and are all skipped if you run
+`travis_build` alone: `check_taxon_constraint_idspaces`,
+`check_all_taxon_constraints_columns`, the perl OBO check (`go-edit.obo-check`),
+`qc-selftest`, `datalog-check`, `chebi_pH_7_3_check`, and `change-report.txt`.
+That last one is the `owltools --verify-changes` gate that catches a dropped or
+renumbered GO id and terms left without a label, which is exactly what you want
+to hear about after a checkin.
 
 `travis_build` covers pull-request integrity only. It does not build any release
 artifact, and it is deliberately not kept in sync with the
 `enhanced.ofn` -> `reasoned.ofn` release pipeline -- see the comment on the
 target in `src/ontology/Makefile`.
+
+`travis_test` needs network access, where `travis_build` does not. Both
+`GO.xrf_abbs` and `go-lastrelease.owl` list `go-edit.obo` as a prerequisite, so
+every edit to the edit file re-fetches the db-xrefs metadata and the full
+released `go.owl` on the next run. With no egress the run fails at `wget`, which
+reads as a validation failure but is not one -- there is no ontology defect
+behind it.
 
 IMPORTANT: Allow at least 10 mins for travis_test to run
 

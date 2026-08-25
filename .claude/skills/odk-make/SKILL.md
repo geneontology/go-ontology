@@ -81,9 +81,17 @@ Otherwise assume you need `odk-run.sh`.
 `make travis_test` is the primary post-edit validation gate, and is exactly
 what CI runs. **Allow at least ~10 minutes** for it to run; don't kill it
 early. Don't substitute `make travis_build`: that is only the ROBOT half
-(pre-reasoning SPARQL, ELK reasoning, post-reasoning SPARQL) and skips the
-Datalog QC program, the QC self-test, the perl OBO check, the
-taxon-constraint column checks, and the ChEBI pH 7.3 check. If it times out, you can run
+(pre-reasoning SPARQL, ELK reasoning, post-reasoning SPARQL) and skips all
+seven of its siblings -- `check_taxon_constraint_idspaces`,
+`check_all_taxon_constraints_columns`, the perl OBO check, `qc-selftest`,
+`datalog-check`, `chebi_pH_7_3_check`, and `change-report.txt` (the gate on
+dropped or renumbered GO ids and missing labels).
+
+`travis_test` also needs network access, where `travis_build` does not: both
+`GO.xrf_abbs` and `go-lastrelease.owl` are rebuilt whenever `go-edit.obo`
+changes, so each run re-fetches the db-xrefs metadata and the released
+`go.owl`. In a sandbox without egress it fails at `wget`, which is not an
+ontology defect. If it times out, you can run
 the SPARQL verification checks and the ELK reasoning step on their own (see the
 AUTOMATED-VALIDATION section of CLAUDE.md) — those are also Makefile-derived
 commands, so run them through `odk-run.sh` too, e.g.:
