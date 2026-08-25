@@ -271,48 +271,44 @@ imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../r
 # GO MODULES vs EXTERNAL IMPORTS
 # ----------------------------------------
 #
-# go-edit.obo's `import:` list holds two different kinds of thing, and telling
-# them apart explains most of the merge/strip/unmerge choreography below.
+# go-edit.obo's `import:` list holds two kinds of thing, and telling them apart
+# explains the strip-then-merge below.
 #
-#   External imports -- chebi_import.owl, cl_import.owl, ncbitaxon_import.owl,
-#       uberon_import.owl, and the rest of the *_import.owl extractions.
-#       Content owned by another ontology. GO releases reference these terms but
-#       do not ship their axioms, so every release product strips them:
-#       `remove --select imports` in $(ONT)-pre.ofn and go-base.owl.
+#   External imports -- the *_import.owl extractions (chebi, cl, ncbitaxon,
+#       uberon, ...). Another ontology's content. The go.owl line of products
+#       does not ship their axioms: $(ONT)-pre.ofn drops them with
+#       `remove --select imports`, and go-base.owl drops what remains by base
+#       IRI with `remove --axioms external`. go-plus.owl is the deliberate
+#       exception -- it does `merge --collapse-import-closure true` and ships
+#       the external closure, which is much of its point.
 #
-#   GO modules -- go-taxon-constraint-classes.ofn, reactome_xrefs_import.owl,
+#   GO modules -- go-taxon-constraint-classes.ofn,
 #       go-catalytic-activities-participants.owl, go-taxon-groupings.owl,
 #       go-pattern-conformance.ttl, x-disjoint.ofn, extensions/go-*.owl.
 #       GO's own content, in separate files because it is generated rather than
-#       hand-edited. It is GO ontology content that happens not to live in
-#       go-edit.obo.
+#       hand-edited. A GO module sits on the import list only so go-edit.obo is
+#       self-contained for an editor -- without go-taxon-constraint-classes.ofn
+#       there, `is_a: neverin:4896` dangles in Protege. That is an editing
+#       convenience, not a claim that the content is foreign.
 #
-# A GO module appears on the `import:` list only so that go-edit.obo is
-# self-contained for an editor: without go-taxon-constraint-classes.ofn there,
-# `is_a: neverin:4896` dangles when the file is opened in Protege. That
-# declaration is an editing convenience, not a claim that the content is foreign.
+# Being a generated GO module does not imply being imported. reactome_xrefs_import.owl
+# and ../taxon_constraints/present_in_taxon.ofn are never declared as imports;
+# targets that want them merge them directly.
 #
-# Hence the strip-then-merge below. ROBOT cannot promote a file out of the
-# import closure -- merging a file that is still imported leaves its axioms
-# reachable from both places -- so deleting the `import:` line is the only way to
-# say "these axioms live in the main graph and nowhere else." A GO module needs
-# that whenever its axioms must be individually addressable downstream, and the
-# two stripped here need it for opposite reasons:
-#
-#   reactome_xrefs_import.owl        must SURVIVE. Its xrefs reach the release
-#       only through the merge; left as an import, `remove --select imports` in
-#       $(ONT)-pre.ofn would drop every one of them.
-#
-#   go-taxon-constraint-classes.ofn  must be REMOVABLE. $(GO_PLUS).ofn unmerges
-#       it before collapsing the remaining import closure, and `unmerge` only
-#       bites on main-graph axioms -- with the import declaration still present
-#       the unmerge would be a no-op and the very next merge would pull the
-#       scaffolding straight back in.
-#
-# A GO module whose content is discarded downstream anyway does not need the
-# strip. That is why go-catalytic-activities-participants.owl is merged in
-# several targets while remaining a plain import: $(ONT)-pre.ofn removes every
-# non-GO class, which takes its CHEBI-facing participant restrictions with it.
+# The strip below is for the imported case only. ROBOT cannot promote a file out
+# of the import closure -- merging a file that is still imported leaves its
+# axioms reachable from both places -- so deleting the `import:` line is the only
+# way to give them single residency in the main graph.
+# go-taxon-constraint-classes.ofn needs that: $(GO_PLUS).ofn unmerges it before
+# collapsing the closure, and `unmerge` only bites on main-graph axioms, so with
+# the declaration still present the unmerge would be a no-op and the following
+# merge would pull the scaffolding straight back in.
+# The reactome grep is vestigial -- go-edit.obo carries no such import today --
+# and harmless: it keeps the merge correct if one is ever re-added.
+# A GO module whose content is discarded downstream needs no strip at all, which
+# is why go-catalytic-activities-participants.owl is merged in several targets
+# while remaining a plain import: $(ONT)-pre.ofn removes every non-GO class,
+# taking its CHEBI-facing participant restrictions with it.
 go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn' >$@
