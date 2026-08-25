@@ -1,0 +1,56 @@
+name: Asserted OWL diff
+
+on:
+  # Triggers the workflow on pull request events for the master branch
+  pull_request:
+    branches: [ master ]
+    paths:
+      - src/ontology/go-edit.obo
+      - .github/workflows/asserted_owl_diff.yml
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  diff_asserted_axioms:
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    steps:
+      - name: Check out pull request
+        uses: actions/checkout@v7
+      - name: Check out base revision
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.ref || 'master' }}
+          path: base
+      - name: Diff asserted axioms
+        run: |
+          export ROBOT_JAVA_ARGS=-Xmx6G
+          robot diff \
+            --left base/src/ontology/go-edit.obo \
+            --left-catalog base/src/ontology/catalog-v001.xml \
+            --right src/ontology/go-edit.obo \
+            --right-catalog src/ontology/catalog-v001.xml \
+            --format markdown \
+            --output asserted-owl-diff.md
+      - name: Prepare report
+        run: |
+          printf '%s\n\n' "Here's the OWL diff of asserted axioms in go-edit.obo:" >comment.md
+          cat asserted-owl-diff.md >>comment.md
+          cat comment.md >>"$GITHUB_STEP_SUMMARY"
+          if [ "$(wc -c <comment.md)" -gt 65000 ]; then
+            printf 'The asserted OWL diff is too large for a PR comment. See the [workflow run](%s/%s/actions/runs/%s) for the full report.\n' \
+              "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >comment.md
+          fi
+      - name: Post comment
+        if: github.event_name == 'pull_request'
+        uses: NejcZdovc/comment-pr@v2.1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "../../comment.md"
+          single_comment: "true"
