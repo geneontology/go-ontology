@@ -82,11 +82,58 @@ test: check_taxon_constraint_idspaces qc-selftest datalog-check $(SRC)-check bas
 
 travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check qc-selftest datalog-check chebi_pH_7_3_check travis_build change-report.txt
 
-# This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
-# These must be kept in sync.
-# The convert step is here only to work around https://github.com/ontodev/robot/issues/1250
+# The pull-request gate: everything that must hold for a change to go-edit.obo,
+# and nothing whose only purpose is to shape a release artifact.
+#
+# This deliberately does NOT mirror the enhanced.ofn -> reasoned.ofn pipeline,
+# and must not be "resynced" with it. The release-shaping it used to carry --
+# the reactome xref merge, the three skos xref updates, editor-annotation
+# removal, the source-annotation drop, version annotation, prefix handling, and
+# two full serializations of GO -- cannot fail a build. That work belongs to
+# `test` / `stage_release`, which exercise it on the way to an actual release.
+#
+# What is load-bearing here, and why:
+#
+#   go-edit-filtered-xrefs.ofn  ../util/filter-rhea-xrefs.sc exits non-zero when
+#       an xref or definition xref cites an obsolete Rhea reaction, or when
+#       filtering an unknown one would strip a definition's last xref.
+#
+#   verify $(VARGS)             the pre-reasoning SPARQL checks that have not yet
+#       moved to Soufflé. Runs before the merges, so it sees go-edit.obo alone.
+#
+#   the three merged modules    present_in_taxon.ofn is the only logic-bearing
+#       input go-edit.obo does not already import: it supplies the probe classes
+#       that turn a taxon-constraint violation into an unsatisfiable class.
+#       go-taxon-constraint-classes.ofn and go-catalytic-activities-participants.owl
+#       are imported, but are merged here so that verify -- which does not see
+#       imports -- can check them, e.g. an obsoleted MF term whose participant
+#       axioms have not been regenerated.
+#
+#   reason -e asserted-only     unsatisfiability, inconsistency, and any
+#       equivalence ELK infers that an editor did not assert. Dropping the flag
+#       would silently accept the third.
+#
+#   relax                       multiple-class-links matches restrictions, which
+#       relax derives from logical definitions. Without it the check still
+#       passes -- against almost nothing.
+#
+#   reduce                      reachability-preserving, so it cannot hide a
+#       violation, but it collapses one bad cross-namespace parent from a row
+#       per descendant to a single row.
+#
+# Starting the chain on `verify --input` rather than `convert -i ... -o` keeps
+# merge off the front of the chain (https://github.com/ontodev/robot/issues/1250)
+# without serializing the whole ontology to a file that is then discarded.
 travis_build: go-edit-filtered-xrefs.ofn
-	$(ROBOT) convert -i go-edit-filtered-xrefs.ofn -o travis_build_dummy_out.ofn verify --queries $(VARGS) -O reports/ merge --collapse-import-closure false -i imports/go-taxon-constraint-classes.ofn -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o travis_build_dummy_out.ofn verify --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
+	$(ROBOT) verify --input go-edit-filtered-xrefs.ofn --queries $(VARGS) -O reports/ \
+	  merge --collapse-import-closure false \
+	    -i imports/go-taxon-constraint-classes.ofn \
+	    -i imports/go-catalytic-activities-participants.owl \
+	    -i ../taxon_constraints/present_in_taxon.ofn \
+	  reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural \
+	  relax \
+	  reduce \
+	  verify --queries $(RARGS) -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -759,16 +806,32 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # obsolete-definition and definition-constraints moved to Soufflé -- see
 # ../util/qc/checks/. They ran pre-reasoning here, as they do there, and both
 # implementations were confirmed to report the same (empty) result before the
-# move. The four checks below that run against reasoned.ofn are NOT duplicated
-# by the Datalog versions, which see only asserted axioms.
+# move.
+#
+# VCHECKS run pre-reasoning, on asserted axioms only, so every one of them is a
+# candidate to follow those five into ../util/qc/checks/.
 VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
+
+# RCHECKS need the reasoned product, so they are not straightforward Soufflé
+# candidates. missing_superclass, different-namespace and obsolete-reference do
+# have Datalog counterparts, but those see only asserted (plus relax-derived)
+# axioms; running here additionally covers what ELK infers -- a logical
+# definition that lands a term under a differently-namespaced parent through a
+# chain is invisible to both ELK and the fact file. multiple-class-links has no
+# Datalog counterpart at all.
+#
+# Both users of this list run it against a graph where the GO-produced modules
+# have been merged rather than imported, because verify does not see imports.
+RCHECKS = multiple-class-links obsolete-reference missing_superclass different-namespace
+RARGS = $(foreach V,$(RCHECKS), $(SPARQLDIR)/$V-violation.sparql)
+
 sparql_test: go-edit-filtered-xrefs.ofn reasoned.ofn
 	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
 	# These purposely aren't checking problems in imports
-	$(ROBOT) verify --input reasoned.ofn --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
+	$(ROBOT) verify --input reasoned.ofn --queries $(RARGS) -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
