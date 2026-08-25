@@ -14022,22 +14022,6 @@ relationship: RO:0000057 CHEBI:57566
 relationship: RO:0000057 CHEBI:58593
 
 [Term]
-id: GO:0036432
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:16591
-relationship: RO:0000057 CHEBI:30616
-relationship: RO:0000057 CHEBI:456216
-relationship: RO:0000057 CHEBI:57654
-
-[Term]
-id: GO:0036433
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:30616
-relationship: RO:0000057 CHEBI:456216
-relationship: RO:0000057 CHEBI:60392
-relationship: RO:0000057 CHEBI:61216
-
-[Term]
 id: GO:0036434
 relationship: RO:0000057 CHEBI:15343
 relationship: RO:0000057 CHEBI:15377
