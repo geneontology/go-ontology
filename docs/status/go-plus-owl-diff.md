@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-24/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-25/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-24" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-25" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1255,6 +1255,44 @@
 - [aldose reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0018455) 
 
 
+### all-trans undecaprenol kinase activity `http://purl.obolibrary.org/obo/GO_0036432`
+#### Removed
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23752" 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [23752](http://rdf.rhea-db.org/23752) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + undecaprenol + all-trans-undecaprenyl phosphate + ADP + H+." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23752" 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [label](http://www.w3.org/2000/01/rdf-schema#label) "all-trans undecaprenol kinase activity" 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) SubClassOf [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [all-trans-undecaprenol](http://purl.obolibrary.org/obo/CHEBI_16591) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [undecaprenyl phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_57654) 
+
+#### Added
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32370"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: ATP + undecaprenol + all-trans-undecaprenyl phosphate + ADP + H+." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23752" 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because undecaprenol kinase (UdpK) has broad substrate specificity and phosphorylates both all-trans- and di-trans,poly-cis-undecaprenol (PMID:33310291), so a single grouping term (GO:0009038" 
+
+- [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete all-trans undecaprenol kinase activity" 
+
+
 ### aminophospholipid flippase activity `http://purl.obolibrary.org/obo/GO_0015247`
 
 #### Added
@@ -1337,6 +1375,36 @@
 - [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) SubClassOf [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) 
 
 
+### aryl hydrocarbon receptor binding `http://purl.obolibrary.org/obo/GO_0017162`
+#### Removed
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to an aryl hydrocarbon receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [label](http://www.w3.org/2000/01/rdf-schema#label) "aryl hydrocarbon receptor binding" 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [aryl hydrocarbon receptor](http://purl.obolibrary.org/obo/PR_000003858)) 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) SubClassOf [signaling receptor binding](http://purl.obolibrary.org/obo/GO_0005102) 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) SubClassOf [RNA polymerase II-specific DNA-binding transcription factor binding](http://purl.obolibrary.org/obo/GO_0061629) 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [aryl hydrocarbon receptor](http://purl.obolibrary.org/obo/PR_000003858) 
+
+#### Added
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32477"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [RNA polymerase II-specific DNA-binding transcription factor binding](http://purl.obolibrary.org/obo/GO_0061629) 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to an aryl hydrocarbon receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better captured with GO:0061629 RNA polymerase II-specific DNA-binding transcription factor binding, with aryl hydrocarbon receptor as 'has_input' in annotation extension." 
+
+- [aryl hydrocarbon receptor binding](http://purl.obolibrary.org/obo/GO_0017162) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete aryl hydrocarbon receptor binding" 
+
+
 ### assembly of large subunit precursor of preribosome `http://purl.obolibrary.org/obo/GO_1902626`
 #### Removed
 - [assembly of large subunit precursor of preribosome](http://purl.obolibrary.org/obo/GO_1902626) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) 
@@ -1389,6 +1457,64 @@
 
 - [blastoderm segmentation](http://purl.obolibrary.org/obo/GO_0007350) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The hierarchical steps resulting in the progressive subdivision of the anterior/posterior axis of the embryo." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### carbon catabolite activation of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0000436`
+#### Removed
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving carbon catabolites that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [label](http://www.w3.org/2000/01/rdf-schema#label) "carbon catabolite activation of transcription from RNA polymerase II promoter" 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) SubClassOf [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) SubClassOf [positive regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0045944) 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) SubClassOf [carbon catabolite activation of transcription](http://purl.obolibrary.org/obo/GO_0045991) 
+
+#### Added
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0045944) 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving carbon catabolites that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete carbon catabolite activation of transcription from RNA polymerase II promoter" 
+
+
+### carbon catabolite regulation of transcription from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0000429`
+#### Removed
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transcription regulation process in which the presence of one carbon source leads to the modulation of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [label](http://www.w3.org/2000/01/rdf-schema#label) "carbon catabolite regulation of transcription from RNA polymerase II promoter" 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) SubClassOf [regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0006357) 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) SubClassOf [carbon catabolite regulation of transcription](http://purl.obolibrary.org/obo/GO_0045990) 
+
+#### Added
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0006357) 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A transcription regulation process in which the presence of one carbon source leads to the modulation of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete carbon catabolite regulation of transcription from RNA polymerase II promoter" 
 
 
 ### carboxylic acid biosynthetic process `http://purl.obolibrary.org/obo/GO_0046394`
@@ -1671,6 +1797,58 @@
 - [desmosome organization](http://purl.obolibrary.org/obo/GO_0002934) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
 
 
+### di-trans, poly-cis-undecaprenol kinase activity `http://purl.obolibrary.org/obo/GO_0036433`
+#### Removed
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.66" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R05626" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:UNDECAPRENOL-KINASE-RXN" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28122" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "ditrans,polycis-undecaprenol kinase activity" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [UNDECAPRENOL-KINASE-RXN](http://identifiers.org/metacyc.reaction/UNDECAPRENOL-KINASE-RXN) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.66](http://purl.uniprot.org/enzyme/2.7.1.66) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [28122](http://rdf.rhea-db.org/28122) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [R05626](http://www.kegg.jp/entry/R05626) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: di-trans, octa-cis-undecaprenol + ATP = di-trans,octa-cis-undecaprenyl phosphate + ADP + H+." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28122" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [label](http://www.w3.org/2000/01/rdf-schema#label) "di-trans, poly-cis-undecaprenol kinase activity" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) SubClassOf [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ATP(4-)](http://purl.obolibrary.org/obo/CHEBI_30616) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ADP(3-)](http://purl.obolibrary.org/obo/CHEBI_456216) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ditrans,polycis-undecaprenyl phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_60392) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ditrans,polycis-undecaprenol](http://purl.obolibrary.org/obo/CHEBI_61216) 
+
+#### Added
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32370"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: di-trans, octa-cis-undecaprenol + ATP = di-trans,octa-cis-undecaprenyl phosphate + ADP + H+." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28122" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because undecaprenol kinase (UdpK) has broad substrate specificity and phosphorylates both all-trans- and di-trans,poly-cis-undecaprenol (PMID:33310291), so a single grouping term (GO:0009038" 
+
+- [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete di-trans, poly-cis-undecaprenol kinase activity" 
+
+
 ### diacylglyceride transfer activity `http://purl.obolibrary.org/obo/GO_0140337`
 
 #### Added
@@ -1945,6 +2123,16 @@
 - [fructosamine metabolic process](http://purl.obolibrary.org/obo/GO_0030389) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete fructosamine metabolic process" 
 
 
+### fructose 1,6-bisphosphate 1-phosphatase activity `http://purl.obolibrary.org/obo/GO_0042132`
+#### Removed
+- [fructose 1,6-bisphosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0042132) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "fructose-bisphosphatase activity" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.1.3.00" 
+
+#### Added
+- [fructose 1,6-bisphosphate 1-phosphatase activity](http://purl.obolibrary.org/obo/GO_0042132) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "fructose-bisphosphatase activity" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.1.3.11" 
+
+
 ### fructose export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_1902334`
 #### Removed
 - [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
@@ -2040,6 +2228,14 @@
 
 - [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a quinone + D-glucose = a quinol + D-glucono-1,5-lactone." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:47372" 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1,4-benzoquinones](http://purl.obolibrary.org/obo/CHEBI_132124) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucono-1,5-lactone](http://purl.obolibrary.org/obo/CHEBI_16217) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydroquinones](http://purl.obolibrary.org/obo/CHEBI_24646) 
+
+- [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167) 
 
 #### Added
 - [glucose dehydrogenase (FAD, quinone) activity](http://purl.obolibrary.org/obo/GO_0140762) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32504"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -2417,6 +2613,8 @@
 
 ### lipoate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009107`
 #### Removed
+- [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lipoate, 1,2-dithiolane-3-pentanoate, the anion derived from lipoic acid." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
@@ -2939,12 +3137,76 @@
 - [negative regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061362) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### negative regulation of protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_1903748`
+#### Removed
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30349"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of protein localization to mitochondrion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16857185" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of protein localization to mitochondrion" 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585)) 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) SubClassOf [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) SubClassOf [negative regulation of protein localization](http://purl.obolibrary.org/obo/GO_1903828) 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32107"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of protein localization to mitochondrion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16857185" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a phenotype and was added in error. Consider annotating to negative regulation of the specific process being regulated (e.g. negative regulation of mitophagy) or to a specific mitochondrial protein import pathway; if the underlying evidence is a readout or a phenotype, or the mechanism is unclear, consider removal rather than re-annotation." 
+
+- [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of protein localization to mitochondrion" 
+
+
 ### negative regulation of tight junction disassembly `http://purl.obolibrary.org/obo/GO_1905074`
 
 #### Added
 - [negative regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905074) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [negative regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905074) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### negative regulation of transcription from RNA polymerase II promoter by glucose `http://purl.obolibrary.org/obo/GO_0061987`
+#### Removed
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving glucose that decreases the frequency, rate or extent or transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11875061" 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of transcription from RNA polymerase II promoter by glucose" 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) SubClassOf [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) SubClassOf [negative regulation of transcription by glucose](http://purl.obolibrary.org/obo/GO_0061986) 
+
+#### Added
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0000122) 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving glucose that decreases the frequency, rate or extent or transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11875061" 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [negative regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0061987) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of transcription from RNA polymerase II promoter by glucose" 
 
 
 ### nickel chaperone activity `http://purl.obolibrary.org/obo/GO_0170061`
@@ -2969,6 +3231,406 @@
 - [noctua_allowed](http://purl.obolibrary.org/obo/go#noctua_allowed) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "ChEBI terms allowed for use in Noctua, comprising the Rhea pH 7.3 subset and the GO ChEBI allow-list." 
 
 - [noctua_allowed](http://purl.obolibrary.org/obo/go#noctua_allowed) SubPropertyOf: [subset_property](http://www.geneontology.org/formats/oboInOwl#SubsetProperty) 
+
+
+### nuclear androgen receptor binding `http://purl.obolibrary.org/obo/GO_0050681`
+#### Removed
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear androgen receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear androgen receptor binding" 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [androgen receptor](http://purl.obolibrary.org/obo/PR_000004191)) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [androgen receptor](http://purl.obolibrary.org/obo/PR_000004191) 
+
+#### Added
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear androgen receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and androgen receptor as 'has_input'." 
+
+- [nuclear androgen receptor binding](http://purl.obolibrary.org/obo/GO_0050681) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear androgen receptor binding" 
+
+
+### nuclear cortisol receptor binding `http://purl.obolibrary.org/obo/GO_0031961`
+#### Removed
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear cortisol receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12511169" 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear cortisol receptor binding" 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) SubClassOf [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+#### Added
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear cortisol receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12511169" 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and cortisol receptor as 'has_input'." 
+
+- [nuclear cortisol receptor binding](http://purl.obolibrary.org/obo/GO_0031961) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear cortisol receptor binding" 
+
+
+### nuclear estrogen receptor binding `http://purl.obolibrary.org/obo/GO_0030331`
+#### Removed
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear estrogen receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear estrogen receptor binding" 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [estrogen receptor](http://purl.obolibrary.org/obo/PR_000007204)) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [estrogen receptor](http://purl.obolibrary.org/obo/PR_000007204) 
+
+#### Added
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear estrogen receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and estrogen receptor as 'has_input'." 
+
+- [nuclear estrogen receptor binding](http://purl.obolibrary.org/obo/GO_0030331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear estrogen receptor binding" 
+
+
+### nuclear glucocorticoid receptor binding `http://purl.obolibrary.org/obo/GO_0035259`
+#### Removed
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear glucocorticoid receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear glucocorticoid receptor binding" 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [glucocorticoid receptor](http://purl.obolibrary.org/obo/PR_000011406)) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [glucocorticoid receptor](http://purl.obolibrary.org/obo/PR_000011406) 
+
+#### Added
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear glucocorticoid receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and glucocorticoid receptor as 'has_input'." 
+
+- [nuclear glucocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0035259) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear glucocorticoid receptor binding" 
+
+
+### nuclear mineralocorticoid receptor binding `http://purl.obolibrary.org/obo/GO_0031962`
+#### Removed
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear mineralocorticoid receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12511169" 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear mineralocorticoid receptor binding" 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [mineralocorticoid receptor](http://purl.obolibrary.org/obo/PR_000011407)) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [mineralocorticoid receptor](http://purl.obolibrary.org/obo/PR_000011407) 
+
+#### Added
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear mineralocorticoid receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12511169" 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and mineralocorticoid receptor as 'has_input'." 
+
+- [nuclear mineralocorticoid receptor binding](http://purl.obolibrary.org/obo/GO_0031962) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear mineralocorticoid receptor binding" 
+
+
+### nuclear progesterone receptor binding `http://purl.obolibrary.org/obo/GO_0033142`
+#### Removed
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear progesterone receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear progesterone receptor binding" 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [progesterone receptor](http://purl.obolibrary.org/obo/PR_000012621)) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [progesterone receptor](http://purl.obolibrary.org/obo/PR_000012621) 
+
+#### Added
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear progesterone receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and progesterone receptor as 'has_input'." 
+
+- [nuclear progesterone receptor binding](http://purl.obolibrary.org/obo/GO_0033142) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear progesterone receptor binding" 
+
+
+### nuclear retinoic acid receptor binding `http://purl.obolibrary.org/obo/GO_0042974`
+#### Removed
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear retinoic acid receptor, a ligand-regulated transcription factor belonging to the nuclear receptor superfamily." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12476796" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear retinoic acid receptor binding" 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+#### Added
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear retinoic acid receptor, a ligand-regulated transcription factor belonging to the nuclear receptor superfamily." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12476796" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and retinoic acid receptor as 'has_input'." 
+
+- [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear retinoic acid receptor binding" 
+
+
+### nuclear retinoid X receptor binding `http://purl.obolibrary.org/obo/GO_0046965`
+#### Removed
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear retinoid X receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear retinoid X receptor binding" 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) SubClassOf [nuclear retinoic acid receptor binding](http://purl.obolibrary.org/obo/GO_0042974) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+#### Added
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear retinoid X receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and retinoid X receptor as 'has_input'." 
+
+- [nuclear retinoid X receptor binding](http://purl.obolibrary.org/obo/GO_0046965) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear retinoid X receptor binding" 
+
+
+### nuclear thyroid hormone receptor binding `http://purl.obolibrary.org/obo/GO_0046966`
+#### Removed
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear thyroid hormone receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear thyroid hormone receptor binding" 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+#### Added
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear thyroid hormone receptor." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and thyroid hormone receptor as 'has_input'." 
+
+- [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear thyroid hormone receptor binding" 
+
+
+### nuclear vitamin D receptor binding `http://purl.obolibrary.org/obo/GO_0042809`
+#### Removed
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binding to a nuclear vitamin D receptor, a nuclear receptor that mediates the action of vitamin D by binding DNA and controlling the transcription of hormone-sensitive genes." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12637589" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [label](http://www.w3.org/2000/01/rdf-schema#label) "nuclear vitamin D receptor binding" 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [vitamin D3 receptor](http://purl.obolibrary.org/obo/PR_000017283)) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) SubClassOf [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157)) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [vitamin D3 receptor](http://purl.obolibrary.org/obo/PR_000017283) 
+
+#### Added
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Binding to a nuclear vitamin D receptor, a nuclear receptor that mediates the action of vitamin D by binding DNA and controlling the transcription of hormone-sensitive genes." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12637589" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a gene product. Better to annotate with GO:0016922 nuclear receptor binding and vitamin D3 receptor as 'has_input'." 
+
+- [nuclear vitamin D receptor binding](http://purl.obolibrary.org/obo/GO_0042809) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nuclear vitamin D receptor binding" 
 
 
 ### nucleocytoplasmic carrier activity `http://purl.obolibrary.org/obo/GO_0140142`
@@ -3132,6 +3794,16 @@
 #### Removed
 - [obsolete bromoxynil metabolic process](http://purl.obolibrary.org/obo/GO_0018881) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
+
+
+### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
+#### Removed
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+#### Added
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0000122) 
 
 
 ### obsolete cellodextrin metabolic process `http://purl.obolibrary.org/obo/GO_2000889`
@@ -3350,6 +4022,16 @@
 
 
 
+### obsolete ligand-dependent thyroid hormone receptor interactor activity `http://purl.obolibrary.org/obo/GO_0016923`
+#### Removed
+- [obsolete ligand-dependent thyroid hormone receptor interactor activity](http://purl.obolibrary.org/obo/GO_0016923) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear thyroid hormone receptor binding](http://purl.obolibrary.org/obo/GO_0046966) 
+
+#### Added
+- [obsolete ligand-dependent thyroid hormone receptor interactor activity](http://purl.obolibrary.org/obo/GO_0016923) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32475"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete ligand-dependent thyroid hormone receptor interactor activity](http://purl.obolibrary.org/obo/GO_0016923) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
+
+
 ### obsolete maltoheptaose metabolic process `http://purl.obolibrary.org/obo/GO_2001122`
 #### Removed
 - [obsolete maltoheptaose metabolic process](http://purl.obolibrary.org/obo/GO_2001122) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
@@ -3443,6 +4125,18 @@
 ### obsolete negative regulation of palmitic acid catabolic process `http://purl.obolibrary.org/obo/GO_0106394`
 #### Removed
 - [obsolete negative regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106394) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
+
+
+### obsolete negative regulation of protein processing involved in protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903217`
+#### Removed
+- [obsolete negative regulation of protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903217) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) 
+
+
+
+### obsolete negative regulation of protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903215`
+#### Removed
+- [obsolete negative regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903215) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) 
 
 
 
@@ -3554,6 +4248,18 @@
 
 
 
+### obsolete positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900740`
+#### Removed
+- [obsolete positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway](http://purl.obolibrary.org/obo/GO_1900740) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) 
+
+
+
+### obsolete positive regulation of protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903955`
+#### Removed
+- [obsolete positive regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903955) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) 
+
+
+
 ### obsolete positive regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900976`
 #### Removed
 - [obsolete positive regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900976) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
@@ -3629,6 +4335,24 @@
 - [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
 
 - [obsolete regulation of palmitic acid catabolic process](http://purl.obolibrary.org/obo/GO_0106393) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
+
+
+### obsolete regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900739`
+#### Removed
+- [obsolete regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway](http://purl.obolibrary.org/obo/GO_1900739) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
+
+
+
+### obsolete regulation of protein processing involved in protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903216`
+#### Removed
+- [obsolete regulation of protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903216) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
+
+
+
+### obsolete regulation of protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903214`
+#### Removed
+- [obsolete regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903214) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
 
 
 
@@ -4178,12 +4902,134 @@
 - [positive regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061361) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### positive regulation of protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_1903749`
+#### Removed
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30349"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of protein localization to mitochondrion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16857185" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of protein localization to mitochondrion" 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585)) 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) SubClassOf [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) SubClassOf [positive regulation of protein localization](http://purl.obolibrary.org/obo/GO_1903829) 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32107"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of protein localization to mitochondrion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16857185" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a phenotype and was added in error. Consider annotating to positive regulation of the specific process being regulated (e.g. positive regulation of mitophagy) or to a specific mitochondrial protein import pathway; if the underlying evidence is a readout or a phenotype, or the mechanism is unclear, consider removal rather than re-annotation." 
+
+- [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of protein localization to mitochondrion" 
+
+
 ### positive regulation of tight junction disassembly `http://purl.obolibrary.org/obo/GO_1905075`
 
 #### Added
 - [positive regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905075) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [positive regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905075) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### positive regulation of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000435`
+#### Removed
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving galactose that activates or increases the rate of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of transcription from RNA polymerase II promoter by galactose" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) SubClassOf [positive regulation of transcription by galactose](http://purl.obolibrary.org/obo/GO_0000411) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) SubClassOf [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) SubClassOf [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) 
+
+#### Added
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0045944) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving galactose that activates or increases the rate of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [positive regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000435) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of transcription from RNA polymerase II promoter by galactose" 
+
+
+### positive regulation of transcription from RNA polymerase II promoter by glucose `http://purl.obolibrary.org/obo/GO_0000432`
+#### Removed
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving glucose that activates or increases the rate of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of transcription from RNA polymerase II promoter by glucose" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) SubClassOf [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) SubClassOf [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) SubClassOf [positive regulation of transcription by glucose](http://purl.obolibrary.org/obo/GO_0046016) 
+
+#### Added
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0045944) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving glucose that activates or increases the rate of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [positive regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000432) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of transcription from RNA polymerase II promoter by glucose" 
+
+
+### positive regulation of transcription from RNA polymerase II promoter by oleic acid `http://purl.obolibrary.org/obo/GO_0061429`
+#### Removed
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving oleic acid that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20395639" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of transcription from RNA polymerase II promoter by oleic acid" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) SubClassOf [carbon catabolite activation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000436) 
+
+#### Added
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0045944) 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving oleic acid that activates or increases the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20395639" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [positive regulation of transcription from RNA polymerase II promoter by oleic acid](http://purl.obolibrary.org/obo/GO_0061429) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of transcription from RNA polymerase II promoter by oleic acid" 
 
 
 ### posterior abdomen determination `http://purl.obolibrary.org/obo/GO_0007359`
@@ -4384,6 +5230,22 @@
 - [protocatechuate 3,4-dioxygenase complex](http://purl.obolibrary.org/obo/GO_7770085) [conformsTo](http://purl.org/dc/terms/conformsTo) [protein_complex_by_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml) 
 
 
+### pteridine reductase activity `http://purl.obolibrary.org/obo/GO_0047040`
+#### Removed
+- [pteridine reductase activity](http://purl.obolibrary.org/obo/GO_0047040) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "pteridine reductase 1 activity" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.33e" 
+
+- [pteridine reductase activity](http://purl.obolibrary.org/obo/GO_0047040) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ptr1 activity" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.33e" 
+
+#### Added
+- [pteridine reductase activity](http://purl.obolibrary.org/obo/GO_0047040) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "pteridine reductase 1 activity" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.33" 
+
+- [pteridine reductase activity](http://purl.obolibrary.org/obo/GO_0047040) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ptr1 activity" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.33" 
+
+
 ### purine-containing compound catabolic process `http://purl.obolibrary.org/obo/GO_0072523`
 #### Removed
 - [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) SubClassOf [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) 
@@ -4406,6 +5268,14 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:22152" 
 
 - [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [label](http://www.w3.org/2000/01/rdf-schema#label) "quinoprotein glucose dehydrogenase activity" 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucono-1,5-lactone](http://purl.obolibrary.org/obo/CHEBI_16217) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ubiquinones](http://purl.obolibrary.org/obo/CHEBI_16389) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [ubiquinol](http://purl.obolibrary.org/obo/CHEBI_17976) 
+
+- [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167) 
 
 #### Added
 - [quinoprotein glucose dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0008876) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32504"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -4604,6 +5474,42 @@
 - [regulation of maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000115) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### regulation of protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_1903747`
+#### Removed
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30349"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of protein localization to mitochondrion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16857185" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of protein localization to mitochondrion" 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585)) 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) SubClassOf [regulation of protein localization](http://purl.obolibrary.org/obo/GO_0032880) 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32107"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of protein localization to mitochondrion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16857185" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a phenotype and was added in error. Consider annotating to regulation of the specific process being regulated (e.g. regulation of mitophagy) or to a specific mitochondrial protein import pathway; if the underlying evidence is a readout or a phenotype, or the mechanism is unclear, consider removal rather than re-annotation." 
+
+- [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of protein localization to mitochondrion" 
+
+
 ### regulation of rate of cell growth `http://purl.obolibrary.org/obo/GO_0061388`
 #### Removed
 - [regulation of rate of cell growth](http://purl.obolibrary.org/obo/GO_0061388) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate of cell growth." 
@@ -4636,6 +5542,58 @@
 - [regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905073) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905073) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### regulation of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000431`
+#### Removed
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving galactose that modulates the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of transcription from RNA polymerase II promoter by galactose" 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) SubClassOf [regulation of transcription by galactose](http://purl.obolibrary.org/obo/GO_0000409) 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) SubClassOf [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) 
+
+#### Added
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0006357) 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving galactose that modulates the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [regulation of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000431) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of transcription from RNA polymerase II promoter by galactose" 
+
+
+### regulation of transcription from RNA polymerase II promoter by glucose `http://purl.obolibrary.org/obo/GO_0000430`
+#### Removed
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process involving glucose that modulates the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of transcription from RNA polymerase II promoter by glucose" 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) SubClassOf [carbon catabolite regulation of transcription from RNA polymerase II promoter](http://purl.obolibrary.org/obo/GO_0000429) 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) SubClassOf [regulation of transcription by glucose](http://purl.obolibrary.org/obo/GO_0046015) 
+
+#### Added
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of transcription by RNA polymerase II](http://purl.obolibrary.org/obo/GO_0006357) 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process involving glucose that modulates the frequency, rate or extent of transcription from an RNA polymerase II promoter." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms represent GO-CAM models." 
+
+- [regulation of transcription from RNA polymerase II promoter by glucose](http://purl.obolibrary.org/obo/GO_0000430) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of transcription from RNA polymerase II promoter by glucose" 
 
 
 ### rescue of stalled mitochondrial ribosome `http://purl.obolibrary.org/obo/GO_7770016`
@@ -5132,6 +6090,48 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:isa_complete" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+
+### undecaprenol kinase activity `http://purl.obolibrary.org/obo/GO_0009038`
+#### Removed
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + undecaprenol = ADP + undecaprenyl phosphate." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+#### Added
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32370"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.66" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R05626" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:UNDECAPRENOL-KINASE-RXN" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23752" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:28122" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ditrans,polycis-undecaprenol kinase activity" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "all-trans undecaprenol kinase activity" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "di-trans, poly-cis-undecaprenol kinase activity" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.66](http://purl.uniprot.org/enzyme/2.7.1.66) 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [UNDECAPRENOL-KINASE-RXN](http://identifiers.org/metacyc.reaction/UNDECAPRENOL-KINASE-RXN) 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [23752](http://rdf.rhea-db.org/23752) 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [28122](http://rdf.rhea-db.org/28122) 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [R05626](http://www.kegg.jp/entry/R05626) 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + undecaprenol = ADP + undecaprenyl phosphate." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33310291" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Undecaprenol kinase has broad substrate specificity and is capable of phosphorylating all-trans-undecaprenol as well as di-trans,poly-cis-undecaprenol (PMID:33310291)." 
 
 
 ### urate catabolic process `http://purl.obolibrary.org/obo/GO_0019628`
