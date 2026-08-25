@@ -25,7 +25,7 @@ jobs:
       - name: Check out base revision
         uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.pull_request.base.sha || 'master' }}
+          ref: ${{ github.event.pull_request.base.ref || 'master' }}
           path: base
       - name: Diff asserted axioms
         run: |
