@@ -1,24 +1,24 @@
 ---
-id: obo:go/releases/2026-08-25go.owl-statistics
+id: obo:go/releases/2026-08-26go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-08-25go.owl
+  version: obo:go/releases/2026-08-26go.owl
 was_generated_by:
-  started_at_time: '2026-08-25T05:50:57.965137'
+  started_at_time: '2026-08-26T05:52:55.130965'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
     class_count: 30898
-    deprecated_class_count: 6963
-    non_deprecated_class_count: 23935
+    deprecated_class_count: 6964
+    non_deprecated_class_count: 23934
     class_count_with_text_definitions: 30898
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 40416
+        filtered_count: 40410
       RO:0002211:
         facet: RO:0002211
         filtered_count: 2887
@@ -46,30 +46,30 @@ partitions:
     distinct_synonym_count: 93654
     synonym_statement_count: 94435
     change_summary:
-      NodeTextDefinitionChange: 88
-      EdgeDeletion: 56
-      EdgeCreation: 125
+      NodeTextDefinitionChange: 89
+      EdgeDeletion: 59
+      EdgeCreation: 134
+      NodeUnobsoletion: 53
+      NodeRename: 57
       NodeDeletion: 13
-      NodeUnobsoletion: 52
-      NodeRename: 56
       RemoveNodeFromSubset: 5
       RemoveSynonym: 15
       NewSynonym: 9
       AddNodeToSubset: 1
       All_Obsoletion: 0
       All_Synonym: 24
-    edge_count: 53358
+    edge_count: 53352
   molecular_function:
     id: molecular_function
-    class_count: 12868
+    class_count: 12869
     deprecated_class_count: 2828
-    non_deprecated_class_count: 10040
-    class_count_with_text_definitions: 12868
+    non_deprecated_class_count: 10041
+    class_count_with_text_definitions: 12869
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 12281
+        filtered_count: 12282
       BFO:0000050:
         facet: BFO:0000050
         filtered_count: 795
@@ -81,62 +81,63 @@ partitions:
         filtered_count: 64
       BFO:0000051:
         facet: BFO:0000051
-        filtered_count: 236
+        filtered_count: 238
       BFO:0000066:
         facet: BFO:0000066
         filtered_count: 35
       RO:0002211:
         facet: RO:0002211
         filtered_count: 49
-    distinct_synonym_count: 28696
-    synonym_statement_count: 29849
+    distinct_synonym_count: 28698
+    synonym_statement_count: 29851
     change_summary:
-      NodeTextDefinitionChange: 30
-      MappingCreation: 17
-      EdgeDeletion: 45
-      EdgeCreation: 35
       NodeUnobsoletion: 15
+      EdgeCreation: 35
+      NodeTextDefinitionChange: 30
       NodeRename: 20
-      RemoveNodeFromSubset: 1
-      NodeDeletion: 13
-      RemoveMapping: 11
-      RemoveSynonym: 23
+      EdgeDeletion: 48
+      NodeDeletion: 14
       NewSynonym: 9
+      MappingCreation: 17
+      RemoveSynonym: 23
+      RemoveMapping: 11
       NodeObsoletionWithDirectReplacement: 1
+      RemoveNodeFromSubset: 1
       All_Obsoletion: 1
       All_Synonym: 32
-    edge_count: 13538
+    edge_count: 13541
   cellular_component:
     id: cellular_component
     class_count: 4607
-    deprecated_class_count: 523
-    non_deprecated_class_count: 4084
+    deprecated_class_count: 524
+    non_deprecated_class_count: 4083
     class_count_with_text_definitions: 4607
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 4703
+        filtered_count: 4702
       BFO:0000050:
         facet: BFO:0000050
-        filtered_count: 1805
+        filtered_count: 1804
       BFO:0000051:
         facet: BFO:0000051
         filtered_count: 181
     distinct_synonym_count: 5129
     synonym_statement_count: 5328
     change_summary:
-      NodeDeletion: 7
       EdgeDeletion: 13
-      NodeRename: 1
-      EdgeCreation: 3
-      NodeTextDefinitionChange: 1
-      RemoveSynonym: 3
+      EdgeCreation: 5
       NewSynonym: 4
+      NodeDeletion: 7
+      NodeTextDefinitionChange: 2
+      NodeRename: 2
+      RemoveSynonym: 3
       RemoveNodeFromSubset: 1
+      NodeUnobsoletion: 1
       All_Obsoletion: 0
       All_Synonym: 7
-    edge_count: 6689
+    edge_count: 6687
   external:
     id: external
     class_count: 0
