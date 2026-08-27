@@ -76,17 +76,76 @@ REPORTDIR = $(RELEASEDIR)/reports
 # TOP LEVEL TARGETS
 # ----------------------------------------
 
-stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
+stage_release: imports/reactome_xrefs_import.owl test $(ONT).owl $(ONT).obo $(ONT).json.gz $(GO_PLUS).owl $(GO_PLUS).json.gz go-base.owl $(GO_GAF).owl $(GO_AMIGO).owl $(GO_LEGO).owl $(GO_LEGO_REACTO).owl go-basic.owl go-basic.obo go-basic.json.gz extensions/rhea-reactions.ttl imports/go-computed-taxon-constraints.obo subset-owls subset-reports generate-mappings
 
-test: check_taxon_constraint_idspaces datalog-violations.tsv $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
+test: check_taxon_constraint_idspaces qc-selftest datalog-check $(SRC)-check basic-cycles.tsv sparql_test check_all_taxon_constraints_columns change-report.txt reasoned.ofn unsatisfiable present_in_taxon_check.ofn chebi_pH_7_3_check
 
-travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns datalog-violations.tsv chebi_pH_7_3_check $(SRC)-check travis_build change-report.txt
+travis_test: check_taxon_constraint_idspaces check_all_taxon_constraints_columns $(SRC)-check qc-selftest datalog-check chebi_pH_7_3_check travis_build change-report.txt
 
-# This target combines features from reasoned.ofn, enhanced.ofn, sparql_test into a faster mode for Travis/GitHub Actions.
-# These must be kept in sync.
-# The convert step is here only to work around https://github.com/ontodev/robot/issues/1250
+# The pull-request gate: everything that must hold for a change to go-edit.obo,
+# and nothing whose only purpose is to shape a release artifact.
+#
+# This deliberately does NOT mirror the enhanced.ofn -> reasoned.ofn pipeline,
+# and must not be "resynced" with it. The release-shaping it used to carry --
+# the reactome xref merge, the three skos xref updates, editor-annotation
+# removal, the source-annotation drop, version annotation, prefix handling, and
+# two full serializations of GO -- cannot fail a build. That work belongs to
+# `test` / `stage_release`, which exercise it on the way to an actual release.
+#
+# What is load-bearing here, and why:
+#
+#   go-edit-filtered-xrefs.ofn  ../util/filter-rhea-xrefs.sc exits non-zero when
+#       an xref or definition xref cites an obsolete Rhea reaction, or when
+#       filtering an unknown one would strip a definition's last xref.
+#
+#   verify $(VARGS)             the pre-reasoning SPARQL checks that have not yet
+#       moved to Soufflé. Runs before the merges, so it sees only the edit file
+#       (Rhea-filtered, two imports trimmed).
+#
+#   the three merged modules    all three are GO modules, not external content --
+#       see GO MODULES vs EXTERNAL IMPORTS below. They are merged for three
+#       different reasons:
+#
+#       go-taxon-constraint-classes.ofn carries the EquivalentClasses
+#       definitions of the neverin:/onlyin: classes that go-edit.obo asserts as
+#       bare is_a parents, and go-edit-trimmed-imports.obo strips its import, so
+#       this merge is what makes a taxon-constraint violation unsatisfiable at
+#       all. Drop it and the gate does not weaken, it dies: the classes lose
+#       their axioms, ELK derives nothing, and the build passes silently.
+#
+#       present_in_taxon.ofn is never imported. It supplies probe classes of the
+#       form (GO term and in_taxon some Taxon), which expose a violation for a
+#       term that carries no offending assertion of its own.
+#
+#       go-catalytic-activities-participants.owl IS still imported, and is
+#       merged only so that verify -- which does not see imports -- can check it,
+#       e.g. an obsoleted MF term whose participant axioms were not regenerated.
+#
+#   reason -e asserted-only     unsatisfiability, inconsistency, and any
+#       equivalence ELK infers that an editor did not assert. Dropping the flag
+#       would silently accept the third.
+#
+#   relax                       multiple-class-links matches restrictions, which
+#       relax derives from logical definitions. Without it the check still
+#       passes -- against almost nothing.
+#
+#   reduce                      reachability-preserving, so it cannot hide a
+#       violation, but it collapses one bad cross-namespace parent from a row
+#       per descendant to a single row.
+#
+# Starting the chain on `verify --input` rather than `convert -i ... -o` keeps
+# merge off the front of the chain (https://github.com/ontodev/robot/issues/1250)
+# without serializing the whole ontology to a file that is then discarded.
 travis_build: go-edit-filtered-xrefs.ofn
-	$(ROBOT) convert -i go-edit-filtered-xrefs.ofn -o travis_build_dummy_out.ofn verify --queries $(VARGS) -O reports/ merge --collapse-import-closure false -i imports/go-taxon-constraint-classes.ofn -i imports/reactome_xrefs_import.owl -i ../taxon_constraints/present_in_taxon.ofn -i imports/go-catalytic-activities-participants.owl remove --term 'IAO:0000116' --axioms annotation --signature true query --update ../sparql/add-skos-xrefs.ru --update ../sparql/remove-broad-xrefs.ru --update ../sparql/remove-related-xrefs.ru remove --select 'complement' --drop-axiom-annotations 'oboInOwl:source' reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural relax reduce annotate -V $(RELEASE_URIBASE)/$(ONT).owl --annotation owl:versionInfo $(RELEASEDATE) convert --add-prefixes prefixes.jsonld -o travis_build_dummy_out.ofn verify --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
+	$(ROBOT) verify --input go-edit-filtered-xrefs.ofn --queries $(VARGS) -O reports/ \
+	  merge --collapse-import-closure false \
+	    -i imports/go-taxon-constraint-classes.ofn \
+	    -i imports/go-catalytic-activities-participants.owl \
+	    -i ../taxon_constraints/present_in_taxon.ofn \
+	  reason -r ELK -e asserted-only --exclude-duplicate-axioms true --exclude-tautologies structural \
+	  relax \
+	  reduce \
+	  verify --queries $(RARGS) -O reports/
 
 unsatisfiable: $(GO_GAF).owl
 	$(ROBOT) reason --reasoner ELK --input extensions/go-gaf.owl -D $(RELEASEDIR)/core_dump.owl || true
@@ -208,7 +267,48 @@ imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../r
 	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
-# Remove reactome_xrefs_import.owl, and go-taxon-constraint-classes.ofn from imports. These are merged in directly in enhanced.ofn
+# ----------------------------------------
+# GO MODULES vs EXTERNAL IMPORTS
+# ----------------------------------------
+#
+# go-edit.obo's `import:` list holds two kinds of thing, and telling them apart
+# explains the strip-then-merge below.
+#
+#   External imports -- the *_import.owl extractions (chebi, cl, ncbitaxon,
+#       uberon, ...). Another ontology's content. The go.owl line of products
+#       does not ship their axioms: $(ONT)-pre.ofn drops them with
+#       `remove --select imports`, and go-base.owl drops what remains by base
+#       IRI with `remove --axioms external`. go-plus.owl is the deliberate
+#       exception -- it does `merge --collapse-import-closure true` and ships
+#       the external closure, which is much of its point.
+#
+#   GO modules -- go-taxon-constraint-classes.ofn,
+#       go-catalytic-activities-participants.owl, go-taxon-groupings.owl,
+#       go-pattern-conformance.ttl, x-disjoint.ofn, extensions/go-*.owl.
+#       GO's own content, in separate files because it is generated rather than
+#       hand-edited. A GO module sits on the import list only so go-edit.obo is
+#       self-contained for an editor -- without go-taxon-constraint-classes.ofn
+#       there, `is_a: neverin:4896` dangles in Protege. That is an editing
+#       convenience, not a claim that the content is foreign.
+#
+# Being a generated GO module does not imply being imported. reactome_xrefs_import.owl
+# and ../taxon_constraints/present_in_taxon.ofn are never declared as imports;
+# targets that want them merge them directly.
+#
+# The strip below is for the imported case only. ROBOT cannot promote a file out
+# of the import closure -- merging a file that is still imported leaves its
+# axioms reachable from both places -- so deleting the `import:` line is the only
+# way to give them single residency in the main graph.
+# go-taxon-constraint-classes.ofn needs that: $(GO_PLUS).ofn unmerges it before
+# collapsing the closure, and `unmerge` only bites on main-graph axioms, so with
+# the declaration still present the unmerge would be a no-op and the following
+# merge would pull the scaffolding straight back in.
+# The reactome grep is vestigial -- go-edit.obo carries no such import today --
+# and harmless: it keeps the merge correct if one is ever re-added.
+# A GO module whose content is discarded downstream needs no strip at all, which
+# is why go-catalytic-activities-participants.owl is merged in several targets
+# while remaining a plain import: $(ONT)-pre.ofn removes every non-GO class,
+# taking its CHEBI-facing participant restrictions with it.
 go-edit-trimmed-imports.obo: $(SRC)
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/reactome_xrefs_import.owl' $< |\
 	grep -v '^import: http://purl.obolibrary.org/obo/go/imports/go-taxon-constraint-classes.ofn' >$@
@@ -259,8 +359,8 @@ $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mi
 
 # NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
 # https://github.com/ontodev/robot/issues/1250
-$(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+$(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl noctua-allowed-slim.ofn
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false merge -i noctua-allowed-slim.ofn reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
 # NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
@@ -329,8 +429,8 @@ go-basic.obo: go-basic.ofn
 	$(ROBOT) convert -i $< -o $@
 
 # check for cycles in go-basic
-basic.facts: go-basic.owl
-	riot -q --output=ntriples $< | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+basic.facts: go-basic.ofn ../util/ontology-to-facts.sc
+	$(SCALA_CLI) ../util/ontology-to-facts.sc -- $< $@
 
 basic-cycles.tsv: basic.facts ../util/cycles.dl
 	souffle ../util/cycles.dl && mv cycle.csv $@ &&\
@@ -391,6 +491,10 @@ imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
 # Specialize seed terms for OPL.
 imports/opl_terms_combined.txt: imports/opl_terms.txt seed.txt
 	cat $^ | grep 'OPL_' > $@
+
+# Include the generated ChEBI subset property in ChEBI module extractions.
+imports/chebi_terms_combined.txt: imports/chebi_terms.txt seed.txt
+	cat $^ > $@ && echo 'http://purl.obolibrary.org/obo/go#noctua_allowed' >> $@
 
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
@@ -465,7 +569,7 @@ imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
 imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --term 'http://purl.obolibrary.org/obo/go#noctua_allowed' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
@@ -476,8 +580,8 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
-CL_SOURCE=http://purl.obolibrary.org/obo/cl/releases/2025-01-08/cl-base.owl
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/252/chebi.owl.gz
+CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
 PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
 UBERON_SOURCE=http://purl.obolibrary.org/obo/uberon/uberon-base.owl
@@ -573,9 +677,9 @@ mirror/groups.ttl:
 	curl -L -o ../resources/enzyme.rdf 'https://ftp.expasy.org/databases/enzyme/enzyme.rdf' &&\
 	arq -q --data=../resources/enzyme.rdf --query=../sparql/query-obsolete-ec.sparql --results=tsv | tail -n +2 | sort >$@
 
-# bio-chebi.owl imports chebi and injects GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl
-	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
+# bio-chebi.owl imports ChEBI and injects subset annotations and GCI axioms to conflate conjugate bases. See Hill et al
+bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn noctua-allowed-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl
+	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i noctua-allowed-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 ../biochebi/chebi_pH7_3_mapping.tsv:
 	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
@@ -591,6 +695,20 @@ chebi-ph7_3-slim.ofn: ../biochebi/chebi_pH7_3_mapping.tsv
 	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
+../biochebi/noctua-allowed-terms.txt: ../biochebi/chebi_pH7_3_terms.txt ../biochebi/chebi-allow.txt
+	cat ../biochebi/chebi_pH7_3_terms.txt >$@.tmp &&\
+	sed -n 's|^CHEBI:|http://purl.obolibrary.org/obo/CHEBI_|p' ../biochebi/chebi-allow.txt >>$@.tmp &&\
+	sort -u $@.tmp >$@ && rm $@.tmp
+
+noctua-allowed-slim.ofn: ../biochebi/noctua-allowed-terms.txt
+	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/noctua-allowed-slim.ofn>' >$@.tmp &&\
+	echo 'Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))' >>$@.tmp &&\
+	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#noctua_allowed>))' >>$@.tmp &&\
+	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#noctua_allowed> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
+	echo 'AnnotationAssertion(<http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.obolibrary.org/obo/go#noctua_allowed> "ChEBI terms allowed for use in Noctua, comprising the Rhea pH 7.3 subset and the GO ChEBI allow-list.")' >>$@.tmp &&\
+	sed 's|^|AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <|' $< | sed 's|$$|> <http://purl.obolibrary.org/obo/go#noctua_allowed>)|' >>$@.tmp
+	echo ')' >>$@.tmp && mv $@.tmp $@
+
 biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
 	echo 'source_chem	standard_chem' >$@.tmp &&\
 	tail -n +2 ../biochebi/chebi_pH7_3_mapping.tsv | awk -v FS='\t' -v OFS='\t' '{ if ($$1 != $$2) { print "CHEBI:"$$1, "CHEBI:"$$2} }' | grep -v -f ../biochebi/biochebi_excludes.txt >> $@.tmp && mv $@.tmp $@
@@ -598,7 +716,7 @@ biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excl
 biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
 
-../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/chebi_pH7_3_terms.txt
+../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/noctua-allowed-terms.txt
 	cat $^ >$@
 
 imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt
@@ -737,14 +855,36 @@ imports/go-taxon-groupings.obo: imports/go-taxon-groupings.owl
 # these live in the ../sparql directory, and have suffix -violation.sparql
 # adding the name here will make the violation check live
 
-VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match replacedby-obsolete replacedby-namespace missing-namespace duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value obsolete-definition definition-constraints one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
+# replacedby-obsolete, replacedby-namespace, missing-namespace,
+# obsolete-definition and definition-constraints moved to Soufflé -- see
+# ../util/qc/checks/. They ran pre-reasoning here, as they do there, and both
+# implementations were confirmed to report the same (empty) result before the
+# move.
+#
+# VCHECKS run pre-reasoning, on asserted axioms only, so every one of them is a
+# candidate to follow those five into ../util/qc/checks/.
+VCHECKS = equivalent-classes trailing-whitespace owldef-self-reference synonym-label-match duplicate-exact-synonym duplicate-synonym non-IRI-value non-anyURI-value one-to-one-xrefs-by-subject one-to-one-xrefs-by-value xref-syntax xref-annotation
 
 # run all violation checks
 VARGS = $(foreach V,$(VCHECKS), $(SPARQLDIR)/$V-violation.sparql)
+
+# RCHECKS need the reasoned product, so they are not straightforward Soufflé
+# candidates. missing_superclass, different-namespace and obsolete-reference do
+# have Datalog counterparts, but those see only asserted (plus relax-derived)
+# axioms; running here additionally covers what ELK infers -- a logical
+# definition that lands a term under a differently-namespaced parent through a
+# chain is invisible to both ELK and the fact file. multiple-class-links has no
+# Datalog counterpart at all.
+#
+# Both users of this list run it against a graph where the GO-produced modules
+# have been merged rather than imported, because verify does not see imports.
+RCHECKS = multiple-class-links obsolete-reference missing_superclass different-namespace
+RARGS = $(foreach V,$(RCHECKS), $(SPARQLDIR)/$V-violation.sparql)
+
 sparql_test: go-edit-filtered-xrefs.ofn reasoned.ofn
 	$(ROBOT) verify --input $< --queries $(VARGS) -O reports/
 	# These purposely aren't checking problems in imports
-	$(ROBOT) verify --input reasoned.ofn --queries $(SPARQLDIR)/multiple-class-links-violation.sparql $(SPARQLDIR)/obsolete-reference-violation.sparql $(SPARQLDIR)/missing_superclass-violation.sparql $(SPARQLDIR)/different-namespace-violation.sparql -O reports/
+	$(ROBOT) verify --input reasoned.ofn --queries $(RARGS) -O reports/
 
 # use this to run tests on an individual basis
 reports/%-violation.csv: $(SRC)
@@ -754,16 +894,52 @@ check-obsolete-references-including-imports: reasoned.ofn
 	$(ROBOT) merge --input reasoned.ofn verify --queries $(SPARQLDIR)/obsolete-reference-violation.sparql -O reports/
 
 ## Datalog validations
-go-edit.facts: $(SRC)
-	$(ROBOT) convert -i $(SRC) -o go-edit.facts.ttl &&\
-	riot -q --nocheck --output ntriples go-edit.facts.ttl | sed 's/ /\t/' | sed 's/ /\t/' | sed 's/ \.$$//' >$@
+go-edit.facts: $(SRC) ../util/ontology-to-facts.sc
+	$(SCALA_CLI) ../util/ontology-to-facts.sc -- $< $@
 
 ../resources/rhea-relationships.tsv:
 	wget 'https://ftp.expasy.org/databases/rhea/tsv/rhea-relationships.tsv' -O - | tail -n +2 >$@
 
-datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt
-	souffle ../util/ontology-qc.dl &&\
-	( [ -s $@ ] && { cat $@; exit 1; } || true ) # exit with an error if the output is not empty
+# Every file the QC program is built from, so a change to a check re-runs it.
+QC_SOURCES = ../util/ontology-qc.dl ../util/qc/program.dl ../util/qc/rdf.dl \
+             ../util/qc/vocabulary.dl ../util/qc/registry.dl \
+             $(wildcard ../util/qc/checks/*.dl)
+
+datalog-violations.tsv: go-edit.facts ../resources/obsolete_ec.txt $(QC_SOURCES)
+	souffle ../util/ontology-qc.dl
+
+# The gate is phony and the report is not, on purpose: a non-empty report is
+# newer than its prerequisites, so a file-gated target would pass on the next
+# run without re-checking anything.
+.PHONY: datalog-check
+datalog-check: datalog-violations.tsv
+	@# Absent is not the same as empty. make skips the recipe above when the
+	@# report is current, so a missing sentinel means nothing was verified.
+	@for f in datalog-violations.tsv datalog-unregistered-checks.tsv; do \
+	  [ -f $$f ] || { echo "ERROR: $$f is missing, so nothing was checked. Remove datalog-violations.tsv and re-run."; exit 1; }; \
+	done
+	@( [ -s datalog-unregistered-checks.tsv ] && { echo "ERROR: violation raised under an unregistered check name (typo?):"; cat datalog-unregistered-checks.tsv; exit 1; } || true )
+	@( [ -s datalog-violations.tsv ] && { cat datalog-violations.tsv; exit 1; } || true ) # exit with an error if the output is not empty
+
+# Positive control for the QC program: runs the same checks as
+# datalog-violations.tsv against ../util/qc/control.dl, a small ontology that
+# plants a violation of every rule and declares each one with an
+# expected_violation fact. An expectation that does not fire means the rule is
+# dead -- Souffle reports a rule that matches nothing as an empty relation, and
+# an empty relation passes the build. A violation nobody expected means a rule
+# has grown too broad. Both fail this target.
+.PHONY: qc-selftest
+qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/selftest.dl $(QC_SOURCES) ../resources/obsolete_ec.txt
+	souffle $<
+	@for f in qc-missing-expected.tsv qc-unexpected-violations.tsv qc-unexpected-checks.tsv qc-unregistered-checks.tsv; do \
+	  [ -f $$f ] || { echo "ERROR: $$f is missing, so the self-test proved nothing."; exit 1; }; \
+	done
+	@# Most specific diagnosis first: a typo'd name would otherwise be reported
+	@# by the catch-all "no control fact expected" gate.
+	@( [ -s qc-unregistered-checks.tsv ] && { echo "ERROR: violation raised under a check name nobody registered (typo?):"; cat qc-unregistered-checks.tsv; exit 1; } || true )
+	@( [ -s qc-missing-expected.tsv ] && { echo "ERROR: expected violations that did not fire -- the rule, or one of its arms, is dead:"; cat qc-missing-expected.tsv; exit 1; } || true )
+	@( [ -s qc-unexpected-checks.tsv ] && { echo "ERROR: registered checks with nothing planted for them in ../util/qc/control.dl:"; cat qc-unexpected-checks.tsv; exit 1; } || true )
+	@( [ -s qc-unexpected-violations.tsv ] && { echo "ERROR: violations no control fact expected -- a rule has become too broad, or ../util/qc/control.dl needs an expected_violation:"; cat qc-unexpected-violations.tsv; exit 1; } || true )
 
 reports/neo-violations.report: $(GO_LEGO).owl
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v

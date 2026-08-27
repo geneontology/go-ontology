@@ -1,0 +1,36 @@
+// ===========================================================================
+// Positive control for the QC program.
+//
+// Run from src/ontology:  souffle ../util/ontology-qc-selftest.dl
+// Usually via `make qc-selftest`.
+//
+// Runs the identical check set as ontology-qc.dl -- both include qc/program.dl
+// -- against qc/control.dl, a small hand-built ontology that plants a
+// violation of every arm of every registered check and declares each one with
+// an expected_violation fact.
+//
+// Gated in both directions: an expectation that does not fire means the rule
+// or one of its arms is dead, and a violation nobody expected means a rule has
+// become too broad. Souffle makes the first invisible by default -- a rule
+// that matches nothing produces an empty relation, and an empty relation
+// passes the build.
+//
+// The fact file path is resolved relative to the working directory
+// (src/ontology), not to this file.
+// ===========================================================================
+
+.decl ontrdf(s:symbol, p:symbol, o:symbol)
+#include "qc/program.dl"
+
+// After program.dl: the control facts are written with its #defines.
+#include "qc/selftest.dl"
+#include "qc/control.dl"
+
+.output missing_expected(filename="qc-missing-expected.tsv")
+.output unexpected_violation(filename="qc-unexpected-violations.tsv")
+.output check_without_expectation(filename="qc-unexpected-checks.tsv")
+.output unregistered_check(filename="qc-unregistered-checks.tsv")
+
+// Not a pass/fail signal by itself -- this is what the control facts triggered,
+// kept for eyeballing that the messages read the way they should.
+.output error(filename="qc-selftest-violations.tsv")

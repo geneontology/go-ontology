@@ -36,6 +36,7 @@ http://purl.obolibrary.org/obo/GO_1990115	RNA polymerase III assembly	http://pur
 http://purl.obolibrary.org/obo/GO_0036285	SAGA complex assembly	http://purl.obolibrary.org/obo/GO_0000124	SAGA complex
 http://purl.obolibrary.org/obo/GO_0010265	SCF complex assembly	http://purl.obolibrary.org/obo/GO_0019005	SCF ubiquitin ligase complex
 http://purl.obolibrary.org/obo/GO_0035493	SNARE complex assembly	http://purl.obolibrary.org/obo/GO_0031201	SNARE complex
+http://purl.obolibrary.org/obo/GO_7770093	Sec body assembly	http://purl.obolibrary.org/obo/GO_7770092	Sec body
 http://purl.obolibrary.org/obo/GO_0036399	TCR signalosome assembly	http://purl.obolibrary.org/obo/GO_0036398	TCR signalosome
 http://purl.obolibrary.org/obo/GO_1905669	TORC1 complex assembly	http://purl.obolibrary.org/obo/GO_0031931	TORC1 complex
 http://purl.obolibrary.org/obo/GO_1903074	TRAIL death-inducing signaling complex assembly	http://purl.obolibrary.org/obo/GO_0031266	TRAIL death-inducing signaling complex
@@ -97,6 +98,7 @@ http://purl.obolibrary.org/obo/GO_0010190	cytochrome b6f complex assembly	http:/
 http://purl.obolibrary.org/obo/GO_0017004	cytochrome complex assembly	http://purl.obolibrary.org/obo/GO_0070069	cytochrome complex
 http://purl.obolibrary.org/obo/GO_0035231	cytoneme assembly	http://purl.obolibrary.org/obo/GO_0035230	cytoneme
 http://purl.obolibrary.org/obo/GO_1990194	cytoplasmic U snRNP body assembly	http://purl.obolibrary.org/obo/GO_0071254	cytoplasmic U snRNP body
+http://purl.obolibrary.org/obo/GO_0034063	cytoplasmic stress granule assembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0180023	cytosolic large ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0022625	cytosolic large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0180025	cytosolic small ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0022627	cytosolic small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0071550	death-inducing signaling complex assembly	http://purl.obolibrary.org/obo/GO_0031264	death-inducing signaling complex
@@ -129,6 +131,7 @@ http://purl.obolibrary.org/obo/GO_0070649	formin-nucleated actin cable assembly	
 http://purl.obolibrary.org/obo/GO_0071940	fungal-type cell wall assembly	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
 http://purl.obolibrary.org/obo/GO_1902481	gamma-tubulin complex assembly	http://purl.obolibrary.org/obo/GO_0000930	gamma-tubulin complex
 http://purl.obolibrary.org/obo/GO_0016264	gap junction assembly	http://purl.obolibrary.org/obo/GO_0005921	gap junction
+http://purl.obolibrary.org/obo/GO_0007315	germ plasm assembly	http://purl.obolibrary.org/obo/GO_0060293	germ plasm
 http://purl.obolibrary.org/obo/GO_0090391	granum assembly	http://purl.obolibrary.org/obo/GO_0009542	granum
 http://purl.obolibrary.org/obo/GO_1902900	gut granule assembly	http://purl.obolibrary.org/obo/GO_0044840	gut granule
 http://purl.obolibrary.org/obo/GO_0031581	hemidesmosome assembly	http://purl.obolibrary.org/obo/GO_0030056	hemidesmosome
@@ -199,7 +202,6 @@ http://purl.obolibrary.org/obo/GO_0034377	plasma lipoprotein particle assembly	h
 http://purl.obolibrary.org/obo/GO_0120031	plasma membrane bounded cell projection assembly	http://purl.obolibrary.org/obo/GO_0120025	plasma membrane bounded cell projection
 http://purl.obolibrary.org/obo/GO_0044854	plasma membrane raft assembly	http://purl.obolibrary.org/obo/GO_0044853	plasma membrane raft
 http://purl.obolibrary.org/obo/GO_0071800	podosome assembly	http://purl.obolibrary.org/obo/GO_0002102	podosome
-http://purl.obolibrary.org/obo/GO_0007315	pole plasm assembly	http://purl.obolibrary.org/obo/GO_0045495	pole plasm
 http://purl.obolibrary.org/obo/GO_0062075	pollen aperture formation	http://purl.obolibrary.org/obo/GO_0062074	pollen aperture
 http://purl.obolibrary.org/obo/GO_0010584	pollen exine formation	http://purl.obolibrary.org/obo/GO_0043668	exine
 http://purl.obolibrary.org/obo/GO_0160030	pollen intine formation	http://purl.obolibrary.org/obo/GO_0043678	intine
@@ -252,7 +254,6 @@ http://purl.obolibrary.org/obo/GO_0000244	spliceosomal tri-snRNP complex assembl
 http://purl.obolibrary.org/obo/GO_0042244	spore wall assembly	http://purl.obolibrary.org/obo/GO_0031160	spore wall
 http://purl.obolibrary.org/obo/GO_0044574	starch utilization system complex assembly	http://purl.obolibrary.org/obo/GO_0044570	starch utilization system complex
 http://purl.obolibrary.org/obo/GO_0043149	stress fiber assembly	http://purl.obolibrary.org/obo/GO_0001725	stress fiber
-http://purl.obolibrary.org/obo/GO_0034063	stress granule assembly	http://purl.obolibrary.org/obo/GO_0010494	cytoplasmic stress granule
 http://purl.obolibrary.org/obo/GO_0071688	striated muscle myosin thick filament assembly	http://purl.obolibrary.org/obo/GO_0005863	striated muscle myosin thick filament
 http://purl.obolibrary.org/obo/GO_0007130	synaptonemal complex assembly	http://purl.obolibrary.org/obo/GO_0000795	synaptonemal complex
 http://purl.obolibrary.org/obo/GO_1904868	telomerase catalytic core complex assembly	http://purl.obolibrary.org/obo/GO_0000333	telomerase catalytic core complex

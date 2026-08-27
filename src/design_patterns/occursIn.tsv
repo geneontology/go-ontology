@@ -177,7 +177,6 @@ http://purl.obolibrary.org/obo/GO_0090616	mitochondrial mRNA 3'-end processing	h
 http://purl.obolibrary.org/obo/GO_0000958	mitochondrial mRNA catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006402	mRNA catabolic process
 http://purl.obolibrary.org/obo/GO_0080156	mitochondrial mRNA modification	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016556	mRNA modification
 http://purl.obolibrary.org/obo/GO_0090615	mitochondrial mRNA processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
-http://purl.obolibrary.org/obo/GO_0007006	mitochondrial membrane organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0061024	membrane organization
 http://purl.obolibrary.org/obo/GO_0070155	mitochondrial methionyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006431	methionyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0070156	mitochondrial phenylalanyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006432	phenylalanyl-tRNA aminoacylation
 http://purl.obolibrary.org/obo/GO_0070157	mitochondrial prolyl-tRNA aminoacylation	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006433	prolyl-tRNA aminoacylation

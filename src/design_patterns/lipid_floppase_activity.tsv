@@ -1,0 +1,6 @@
+defined_class	defined_class_label	lipid_cargo	lipid_cargo_label
+http://purl.obolibrary.org/obo/GO_0099038	ceramide floppase activity	http://purl.obolibrary.org/obo/CHEBI_17761	ceramide
+http://purl.obolibrary.org/obo/GO_0034202	glycolipid floppase activity	http://purl.obolibrary.org/obo/CHEBI_33563	glycolipid
+http://purl.obolibrary.org/obo/GO_0015437	lipopolysaccharide floppase activity	http://purl.obolibrary.org/obo/CHEBI_16412	lipopolysaccharide
+http://purl.obolibrary.org/obo/GO_0090554	phosphatidylcholine floppase activity	http://purl.obolibrary.org/obo/CHEBI_64482	phosphatidylcholine
+http://purl.obolibrary.org/obo/GO_0046623	sphingolipid floppase activity	http://purl.obolibrary.org/obo/CHEBI_26739	sphingolipid

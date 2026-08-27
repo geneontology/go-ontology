@@ -1,0 +1,42 @@
+pattern_name: intermembrane lipid transfer activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/intermembrane_lipid_transfer_activity.yaml
+
+description: >
+  Lipid transfer activities differentiated by the specific lipid cargo.
+  A refinement of the generic molecular_carrier_activity pattern where
+  the cargo is a lipid and delivery involves extraction from one membrane
+  or monolayer lipid particle, transit through the aqueous phase in a
+  hydrophobic pocket, and deposition into an acceptor membrane or lipid
+  particle. Inherits both is_a lipid carrier activity (GO:0005319) and
+  is_a transporter activity (GO:0005215) via the parent GO:0120013.
+  Do NOT use this pattern for cross-leaflet (intramembrane) lipid
+  movement - use intramembrane_lipid_carrier_activity.yaml for that.
+
+classes:
+  lipid transfer activity: 'GO:0120013'
+  lipid: 'CHEBI:18059'
+
+relations:
+  has primary input: 'RO:0004009'
+
+vars:
+  lipid_cargo: "'lipid'"
+
+name:
+  text: "%s transfer activity"
+  vars:
+    - lipid_cargo
+
+def:
+  text: "Removes a %s from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle."
+  vars:
+    - lipid_cargo
+
+namespace:
+  text: 'molecular_function'
+
+equivalentTo:
+  text: "'lipid transfer activity' and ('has primary input' some %s)"
+  vars:
+    - lipid_cargo

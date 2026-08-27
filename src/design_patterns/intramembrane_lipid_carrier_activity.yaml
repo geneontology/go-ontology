@@ -1,0 +1,51 @@
+pattern_name: intramembrane lipid carrier activity
+
+pattern_iri: http://purl.obolibrary.org/obo/go/patterns/intramembrane_lipid_carrier_activity.yaml
+
+description: >
+  Cargo-differentiated intramembrane lipid carriers directly under
+  GO:0140303 intramembrane lipid carrier activity, i.e. terms whose
+  genus is GO:0140303 and which are not further specialised by
+  translocation direction / energy source.
+
+  For direction-specific children, use one of the sibling patterns:
+    - lipid_flippase_activity.yaml (genus GO:0140327 flippase activity;
+      exoplasmic to cytosolic, ATP-driven)
+    - lipid_floppase_activity.yaml (genus GO:0140328 floppase activity;
+      cytosolic to exoplasmic, ATP-driven)
+
+  There is currently no cargo-differentiated pattern under GO:0017128
+  phospholipid scramblase activity (bidirectional, ATP-independent),
+  since GO:0017128 has no logical-definition children in the ontology.
+
+  Do NOT use this pattern for intermembrane lipid transfer (use
+  intermembrane_lipid_transfer_activity.yaml) or for generic lipid
+  delivery to an acceptor molecule (use molecular_carrier_activity.yaml).
+
+classes:
+  intramembrane lipid carrier activity: 'GO:0140303'
+  lipid: 'CHEBI:18059'
+
+relations:
+  has primary input: 'RO:0004009'
+
+vars:
+  lipid_cargo: "'lipid'"
+
+name:
+  text: "%s intramembrane carrier activity"
+  vars:
+    - lipid_cargo
+
+def:
+  text: "Enables the transport of %s from a region of a membrane to a different region on the same membrane."
+  vars:
+    - lipid_cargo
+
+namespace:
+  text: 'molecular_function'
+
+equivalentTo:
+  text: "'intramembrane lipid carrier activity' and ('has primary input' some %s)"
+  vars:
+    - lipid_cargo

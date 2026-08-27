@@ -13,6 +13,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "ontology_qc"
@@ -25,6 +29,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
+
+      - name: Cache Scala CLI dependencies
+        uses: coursier/cache-action@v7
+        with:
+          path: /tools/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          extraKey: ${{ github.workflow }}
+          ignoreJob: true
 
       - name: Run ontology QC checks
         run: cd src/ontology; make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx14G' travis_test

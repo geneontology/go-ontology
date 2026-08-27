@@ -1,0 +1,20 @@
+// ---------------------------------------------------------------------------
+// The QC program: every layer and every check, in dependency order.
+//
+// Included by both entry points -- ontology-qc.dl (the build check, reading
+// go-edit.facts) and ontology-qc-selftest.dl (the control-facts self-test) --
+// so the two can never drift apart on which checks they run. Neither entry
+// point declares checks of its own; they differ only in input and output.
+//
+// A new topic file goes in the list at the bottom.
+// ---------------------------------------------------------------------------
+
+#include "rdf.dl"
+#include "vocabulary.dl"
+#include "registry.dl"
+
+#include "checks/obsoletion.dl"
+#include "checks/definitions.dl"
+#include "checks/hierarchy.dl"
+#include "checks/xrefs.dl"
+#include "checks/literals.dl"

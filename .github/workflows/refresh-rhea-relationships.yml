@@ -14,6 +14,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Cache Scala CLI dependencies
+        uses: coursier/cache-action@v7
+        with:
+          path: /tools/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          extraKey: ${{ github.workflow }}
+          ignoreJob: true
+
       - name: Refresh Rhea relationships TSV
         run: cd src/ontology && rm ../resources/rhea-relationships.tsv && make ../resources/rhea-relationships.tsv && cd ../..
 

@@ -10,6 +10,7 @@
 NCBITaxon:10090 ## Mus musculus
 NCBITaxon:10239 ## Viruses
 NCBITaxon:1117 ## Cyanobacteria
+NCBITaxon:1206794 ## Ecdysozoa
 NCBITaxon:131567 ## cellular organisms
 NCBITaxon:147537 ## Saccharomycotina
 NCBITaxon:147554 ## Schizosaccharomycetes
@@ -71,6 +72,7 @@ NCBITaxon:6073 ## Cnidaria
 NCBITaxon:6231 ## Nematoda
 NCBITaxon:6237 ## Caenorhabditis
 NCBITaxon:6656 ## Arthropoda
+NCBITaxon:6960 ## Hexapoda
 NCBITaxon:71193 ## Elateroidea
 NCBITaxon:7147 ## Diptera
 NCBITaxon:716545 ## saccharomyceta

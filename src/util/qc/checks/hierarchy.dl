@@ -1,0 +1,45 @@
+// ---------------------------------------------------------------------------
+// The asserted class hierarchy, plus what `robot relax` would add to it.
+//
+// Migrated from: missing_superclass-violation.sparql,
+// different-namespace-violation.sparql, missing-namespace-violation.sparql.
+//
+// The first two run on reasoned.ofn today, so these are the pre-reasoning
+// equivalents: they catch the asserted cases early and cheaply, they do not
+// replace the post-reasoning run.
+// ---------------------------------------------------------------------------
+
+.decl go_root(term:symbol)
+go_root("<http://purl.obolibrary.org/obo/GO_0003674>").   // molecular_function
+go_root("<http://purl.obolibrary.org/obo/GO_0005575>").   // cellular_component
+go_root("<http://purl.obolibrary.org/obo/GO_0008150>").   // biological_process
+
+.decl go_parent(term:symbol, super:symbol)
+go_parent(t, s) :- parent(t, s), go_class(t), go_class(s).
+
+check("missing-superclass", "Every live GO term except the three roots needs a GO parent").
+violation("missing-superclass", t, "has no GO superclass") :-
+    go_class(t), !obsolete(t), !go_root(t), !go_parent(t, _).
+
+// Three arms, matching the SPARQL's COALESCE: the namespaces differ, the child
+// has none, or the parent has none. (Both missing is covered by the second.)
+check("different-namespace", "A GO term and its GO parent must share a namespace").
+violation("different-namespace", t,
+          cat("is in ", tn, " but its parent ", p, " is in ", pn)) :-
+    go_parent(t, s), namespace(t, tn), namespace(s, pn), tn != pn, shown(s, p).
+violation("different-namespace", t, cat("has no namespace, but has the parent ", p)) :-
+    go_parent(t, s), !namespace(t, _), shown(s, p).
+violation("different-namespace", t, cat("is in ", tn, " but its parent ", p, " has no namespace")) :-
+    go_parent(t, s), namespace(t, tn), !namespace(s, _), shown(s, p).
+
+.decl go_namespace(ns:symbol)
+go_namespace("molecular_function").
+go_namespace("biological_process").
+go_namespace("cellular_component").
+
+.decl has_go_namespace(term:symbol)
+has_go_namespace(t) :- namespace(t, n), go_namespace(n).
+
+check("missing-namespace", "Every GO class needs one of the three OBO namespaces").
+violation("missing-namespace", t, "has no biological_process/molecular_function/cellular_component namespace") :-
+    go_class(t), !merged_term(t), !has_go_namespace(t).

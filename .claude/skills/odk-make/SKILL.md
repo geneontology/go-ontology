@@ -42,7 +42,7 @@ skill instead. It mirrors `run.sh` exactly (same image tag — read live from
 works from any directory in the repo:
 
 ```sh
-.claude/skills/odk-make/odk-run.sh make travis_build
+.claude/skills/odk-make/odk-run.sh make travis_test
 .claude/skills/odk-make/odk-run.sh make reasoned.ofn
 .claude/skills/odk-make/odk-run.sh robot --version
 ```
@@ -51,7 +51,7 @@ Decision rule:
 
 - **Local development / agent on a workstation** (Docker available, you are NOT
   already inside the ODK container): always go through `odk-run.sh`.
-- **Already inside the ODK image** (GitHub Actions / `dragon-ai-agent`, where the
+- **Already inside the ODK image** (GitHub Actions / `ai4c-agent`, where the
   job itself runs in the ODK container; or you launched an interactive
   `./run.sh bash` shell): the tools are already on PATH, so call `make` / `robot`
   directly with **no** wrapper. Don't nest Docker.
@@ -60,25 +60,38 @@ If you're unsure which environment you're in: `robot --version` succeeding on th
 bare PATH and a `/work` working directory are signs you're already inside ODK.
 Otherwise assume you need `odk-run.sh`.
 
-> Note on CLAUDE.md: the project guide writes validation as
-> `cd src/ontology && make travis_build`. That shorthand assumes the ODK
+> Note on the project guide: it writes validation as
+> `cd src/ontology && make travis_test`. That shorthand assumes the ODK
 > environment is already active (as in CI). On a local machine, run the
 > equivalent through the wrapper:
-> `.claude/skills/odk-make/odk-run.sh make travis_build`.
+> `.claude/skills/odk-make/odk-run.sh make travis_test`.
 
 ## Common targets
 
 | Goal | Command (local) |
 | --- | --- |
-| Full validation (CI gate) | `.claude/skills/odk-make/odk-run.sh make travis_build` |
+| Full validation (CI gate) | `.claude/skills/odk-make/odk-run.sh make travis_test` |
+| Reasoning + SPARQL only (part of the above) | `.claude/skills/odk-make/odk-run.sh make travis_build` |
 | Test suite | `.claude/skills/odk-make/odk-run.sh make test` |
 | Reason the edit file | `.claude/skills/odk-make/odk-run.sh make reasoned.ofn` |
 | Regenerate an import | `.claude/skills/odk-make/odk-run.sh make imports/<name>.owl` |
 | Regenerate all imports | `.claude/skills/odk-make/odk-run.sh make all_imports` |
 | Simulate a release build | `.claude/skills/odk-make/odk-run.sh make` |
 
-`make travis_build` is the primary post-edit validation gate. **Allow at least
-~10 minutes** for it to run; don't kill it early. If it times out, you can run
+`make travis_test` is the primary post-edit validation gate, and is exactly
+what CI runs. **Allow at least ~10 minutes** for it to run; don't kill it
+early. Don't substitute `make travis_build`: that is only the ROBOT half
+(pre-reasoning SPARQL, ELK reasoning, post-reasoning SPARQL) and skips all
+seven of its siblings -- `check_taxon_constraint_idspaces`,
+`check_all_taxon_constraints_columns`, the perl OBO check, `qc-selftest`,
+`datalog-check`, `chebi_pH_7_3_check`, and `change-report.txt` (the gate on
+dropped or renumbered GO ids and missing labels).
+
+`travis_test` also needs network access, where `travis_build` does not: both
+`GO.xrf_abbs` and `go-lastrelease.owl` are rebuilt whenever `go-edit.obo`
+changes, so each run re-fetches the db-xrefs metadata and the released
+`go.owl`. In a sandbox without egress it fails at `wget`, which is not an
+ontology defect. If it times out, you can run
 the SPARQL verification checks and the ELK reasoning step on their own (see the
 AUTOMATED-VALIDATION section of CLAUDE.md) — those are also Makefile-derived
 commands, so run them through `odk-run.sh` too, e.g.:
