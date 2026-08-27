@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-26/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-27/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-26" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-27" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -519,6 +519,36 @@
 
 - [FMN adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0003919) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: FMN + ATP + H+ = FAD + diphosphate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17237" 
+
+
+### Hrd1p ubiquitin ligase complex `http://purl.obolibrary.org/obo/GO_0000836`
+#### Removed
+- [Hrd1p ubiquitin ligase complex](http://purl.obolibrary.org/obo/GO_0000836) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A multiprotein complex that recognizes and ubiquitinates proteins with misfolded luminal and membrane domains during ER-associated protein degradation (ERAD). In S. cerevisiae, this complex contains the ubiquitin ligase Hrd1p. In mammals, this complex contains the ubiquitin ligase HRD1 (Synoviolin) or AMFR (gp78)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16619026" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16873066" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21454652" 
+
+#### Added
+- [Hrd1p ubiquitin ligase complex](http://purl.obolibrary.org/obo/GO_0000836) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32529"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Hrd1p ubiquitin ligase complex](http://purl.obolibrary.org/obo/GO_0000836) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A multiprotein complex that recognizes and ubiquitinates proteins with misfolded luminal and membrane domains during ER-associated protein degradation (ERAD). In S. cerevisiae, this complex contains the ubiquitin ligase Hrd1p. In mammals, this complex contains the ubiquitin ligase HRD1 (Synoviolin)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20100910" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16619026" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16873066" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21454652" 
 
 
 ### L-arabinose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0032867`
@@ -1157,6 +1187,42 @@
 - [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because undecaprenol kinase (UdpK) has broad substrate specificity and phosphorylates both all-trans- and di-trans,poly-cis-undecaprenol (PMID:33310291), so a single grouping term (GO:0009038, undecaprenol kinase activity) is sufficient rather than splitting by isomer." 
 
 - [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete all-trans undecaprenol kinase activity" 
+
+
+### amino acid activation `http://purl.obolibrary.org/obo/GO_0043038`
+#### Removed
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The modification of an amino acid to an active form, for incorporation into a peptide, protein or other macromolecule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid activation" 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
+
+#### Added
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/15375"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of an amino acid to an active form, for incorporation into a peptide, protein or other macromolecule." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term grouped two processes that do not share a common biology: tRNA aminoacylation (GO:0043039), in which the amino acid is esterified to a tRNA and is not itself metabolized, and nonribosomal amino acid activation (GO:0043041), in which the amino acid is covalently modified (adenylylated). Its placement under 'amino acid metabolic process' therefore caused tRNA aminoacylation and all of its descendants to be inferred as amino acid metabolism, which the GO editors rejected. Because no residual process is common to both children, the grouping term has been obsoleted rather than redefined. Consider GO:0043039 for tRNA charging and GO:0043041 for nonribosomal activation." 
+
+- [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete amino acid activation" 
+
+
+### amino acid activation for nonribosomal peptide biosynthetic process `http://purl.obolibrary.org/obo/GO_0043041`
+#### Removed
+- [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) SubClassOf [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) 
+
+#### Added
+- [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/15375"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
 
 
 ### ammonia assimilation cycle `http://purl.obolibrary.org/obo/GO_0019676`
@@ -2109,6 +2175,35 @@
 - [large conductance calcium-activated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770089) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [large conductance calcium-activated potassium channel activity](http://purl.obolibrary.org/obo/GO_0060072) 
 
 
+### lectin-type holdase activity `http://purl.obolibrary.org/obo/GO_7770116`
+
+#### Added
+- Class: [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32494"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-26T21:57:40Z" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "carbohydrate-binding holdase" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "lectin chaperone" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770116" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A holdase activity that additionally recognizes a specific glycan structure on a protein via a lectin domain, and prevents aggregation of the protein until it is correctly folded." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16467570" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Exemplified by the ER glycoprotein quality control chaperones calnexin and calreticulin, whose lectin site binds the monoglucosylated N-linked glycan, Glc1Man9GlcNAc2, trimming intermediate while a separate site on the same protein binds the non-native polypeptide." 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) [label](http://www.w3.org/2000/01/rdf-schema#label) "lectin-type holdase activity" 
+
+- [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) SubClassOf [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
+
+
 ### lipid X metabolic process `http://purl.obolibrary.org/obo/GO_2001289`
 #### Removed
 - [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving lipid X, 2,3-diacylglucosamine 1-phosphate." 
@@ -3042,6 +3137,14 @@
 #### Added
 - [obsolete establishment of terminal gap gene boundary](http://purl.obolibrary.org/obo/GO_0007364) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Specification of the borders of terminal gap gene expression mediated largely by the effects of other gap genes." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### obsolete glycoprotein-specific chaperone activity `http://purl.obolibrary.org/obo/GO_0003759`
+
+#### Added
+- [obsolete glycoprotein-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0003759) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32494"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete glycoprotein-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0003759) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) 
 
 
 ### obsolete integral component of phagophore assembly site membrane `http://purl.obolibrary.org/obo/GO_0097634`
@@ -4431,6 +4534,38 @@
 - [sulfate assimilation](http://purl.obolibrary.org/obo/GO_0000103) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
+### tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0043039`
+#### Removed
+- [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tRNA charging" 
+
+- [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA aminoacylation" 
+
+- [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) SubClassOf [amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) 
+
+#### Added
+- [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "aminoacyl tRNA synthesis" 
+
+- [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tRNA aminoacylation" 
+
+- [tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0043039) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA charging" 
+
+
+### tRNA aminoacylation for nonribosomal peptide biosynthetic process `http://purl.obolibrary.org/obo/GO_0043040`
+#### Removed
+- [tRNA aminoacylation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043040) SubClassOf [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) 
+
+#### Added
+- [tRNA aminoacylation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043040) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/15375"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tRNA aminoacylation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043040) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019184) 
+
+
+### tRNA aminoacylation for protein translation `http://purl.obolibrary.org/obo/GO_0006418`
+#### Removed
+- [tRNA aminoacylation for protein translation](http://purl.obolibrary.org/obo/GO_0006418) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "tRNA charging" 
+
+
+
 ### tRNA(Val) (adenine(37)-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_7770054`
 #### Removed
 - [tRNA(Val) (adenine(37)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770054) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
@@ -4617,6 +4752,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33310291" 
 
 - [undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0009038) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Undecaprenol kinase has broad substrate specificity and is capable of phosphorylating all-trans-undecaprenol as well as di-trans,poly-cis-undecaprenol (PMID:33310291)." 
+
+
+### unfolded protein holdase activity `http://purl.obolibrary.org/obo/GO_0140309`
+#### Removed
+- [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein carrier activity that binds to a protein in an unfolded state and escorts it to an acceptor molecule or to a specific location. The unfolded protein carrier prevents aggregation of the target protein while its being delivers to its final destination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
+
+#### Added
+- [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein carrier activity that binds to a protein in an unfolded state and escorts it to an acceptor molecule or to a specific location. The unfolded protein carrier prevents aggregation of the target protein until it is delivered to its final destination." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
 
 
 ### urate catabolic process `http://purl.obolibrary.org/obo/GO_0019628`

@@ -1,30 +1,30 @@
 ---
-id: obo:go/releases/2026-08-26go.owl-statistics
+id: obo:go/releases/2026-08-27go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-08-26go.owl
+  version: obo:go/releases/2026-08-27go.owl
 was_generated_by:
-  started_at_time: '2026-08-26T05:52:55.130965'
+  started_at_time: '2026-08-27T08:20:29.895238'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
     class_count: 30898
-    deprecated_class_count: 6964
-    non_deprecated_class_count: 23934
+    deprecated_class_count: 6965
+    non_deprecated_class_count: 23933
     class_count_with_text_definitions: 30898
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 40410
+        filtered_count: 40407
       RO:0002211:
         facet: RO:0002211
         filtered_count: 2887
       BFO:0000050:
         facet: BFO:0000050
-        filtered_count: 4466
+        filtered_count: 4467
       BFO:0000051:
         facet: BFO:0000051
         filtered_count: 335
@@ -43,33 +43,33 @@ partitions:
       RO:0002093:
         facet: RO:0002093
         filtered_count: 1
-    distinct_synonym_count: 93654
+    distinct_synonym_count: 93655
     synonym_statement_count: 94435
     change_summary:
-      NodeTextDefinitionChange: 89
-      EdgeDeletion: 59
-      EdgeCreation: 134
-      NodeUnobsoletion: 53
-      NodeRename: 57
-      NodeDeletion: 13
       RemoveNodeFromSubset: 5
-      RemoveSynonym: 15
-      NewSynonym: 9
+      EdgeCreation: 138
+      NodeTextDefinitionChange: 90
+      NodeUnobsoletion: 54
+      NodeRename: 59
+      NodeDeletion: 13
+      EdgeDeletion: 61
+      RemoveSynonym: 17
+      NewSynonym: 11
       AddNodeToSubset: 1
       All_Obsoletion: 0
-      All_Synonym: 24
-    edge_count: 53352
+      All_Synonym: 28
+    edge_count: 53350
   molecular_function:
     id: molecular_function
-    class_count: 12869
+    class_count: 12870
     deprecated_class_count: 2828
-    non_deprecated_class_count: 10041
-    class_count_with_text_definitions: 12869
+    non_deprecated_class_count: 10042
+    class_count_with_text_definitions: 12870
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 12282
+        filtered_count: 12283
       BFO:0000050:
         facet: BFO:0000050
         filtered_count: 795
@@ -88,24 +88,24 @@ partitions:
       RO:0002211:
         facet: RO:0002211
         filtered_count: 49
-    distinct_synonym_count: 28698
-    synonym_statement_count: 29851
+    distinct_synonym_count: 28700
+    synonym_statement_count: 29853
     change_summary:
+      EdgeDeletion: 49
       NodeUnobsoletion: 15
+      NodeTextDefinitionChange: 31
       EdgeCreation: 35
-      NodeTextDefinitionChange: 30
       NodeRename: 20
-      EdgeDeletion: 48
-      NodeDeletion: 14
-      NewSynonym: 9
-      MappingCreation: 17
       RemoveSynonym: 23
-      RemoveMapping: 11
-      NodeObsoletionWithDirectReplacement: 1
+      MappingCreation: 17
+      NodeDeletion: 15
+      NewSynonym: 9
       RemoveNodeFromSubset: 1
+      NodeObsoletionWithDirectReplacement: 1
+      RemoveMapping: 11
       All_Obsoletion: 1
       All_Synonym: 32
-    edge_count: 13541
+    edge_count: 13542
   cellular_component:
     id: cellular_component
     class_count: 4607
@@ -126,15 +126,15 @@ partitions:
     distinct_synonym_count: 5129
     synonym_statement_count: 5328
     change_summary:
-      EdgeDeletion: 13
       EdgeCreation: 5
-      NewSynonym: 4
-      NodeDeletion: 7
-      NodeTextDefinitionChange: 2
-      NodeRename: 2
-      RemoveSynonym: 3
-      RemoveNodeFromSubset: 1
       NodeUnobsoletion: 1
+      NodeTextDefinitionChange: 3
+      NodeRename: 2
+      NodeDeletion: 7
+      EdgeDeletion: 13
+      RemoveSynonym: 3
+      NewSynonym: 4
+      RemoveNodeFromSubset: 1
       All_Obsoletion: 0
       All_Synonym: 7
     edge_count: 6687
