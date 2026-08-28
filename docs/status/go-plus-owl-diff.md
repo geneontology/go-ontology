@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-27/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-28/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-28" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -436,18 +436,56 @@
 - [ER overload response](http://purl.obolibrary.org/obo/GO_0006983) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
 
 
-### ERAD pathway `http://purl.obolibrary.org/obo/GO_0036503`
+### ERAD quality control pathway `http://purl.obolibrary.org/obo/GO_0036503`
 #### Removed
-- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_0034976) 
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The protein catabolic pathway which targets endoplasmic reticulum (ER)-resident proteins for degradation by the cytoplasmic proteasome. It begins with recognition of the ER-resident protein, includes retrotranslocation (dislocation) of the protein from the ER to the cytosol, protein modifications necessary for correct substrate transfer (e.g. ubiquitination), transport of the protein to the proteasome, and ends with degradation of the protein by the cytoplasmic proteasome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
-- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [response to chemical](http://purl.obolibrary.org/obo/GO_0042221) 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20940304" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21969857" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein degradation by ERAD" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "endoplasmic reticulum-associated degradation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22535891" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [label](http://www.w3.org/2000/01/rdf-schema#label) "ERAD pathway" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_0034976) 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [response to chemical](http://purl.obolibrary.org/obo/GO_0042221) 
 
 #### Added
-- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32527"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32527"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [ERAD pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32532"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "ERAD pathway" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The protein catabolic pathway which constitutively monitors and targets misfolded/aberrant endoplasmic reticulum (ER)-resident proteins for degradation by the cytoplasmic proteasome. It begins with recognition of the ER-resident protein, includes retrotranslocation (dislocation) of the protein from the ER to the cytosol, protein modifications necessary for correct substrate transfer (e.g. ubiquitination), transport of the protein to the proteasome, and ends with degradation of the protein by the cytoplasmic proteasome." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20940304" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21969857" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "protein degradation by ERAD" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "endoplasmic reticulum-associated degradation" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22535891" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) [label](http://www.w3.org/2000/01/rdf-schema#label) "ERAD quality control pathway" 
+
+- [ERAD quality control pathway](http://purl.obolibrary.org/obo/GO_0036503) SubClassOf [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
 
 
 ### FAD regeneration via ETF:ETFQO system `http://purl.obolibrary.org/obo/GO_7770096`
@@ -1497,9 +1535,15 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32075773" 
 
 #### Added
+- [cytoplasm protein quality control](http://purl.obolibrary.org/obo/GO_0140455) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32274"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [cytoplasm protein quality control](http://purl.obolibrary.org/obo/GO_0140455) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [cytoplasm protein quality control](http://purl.obolibrary.org/obo/GO_0140455) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown or refolding of misfolded proteins in the cytoplasm, which are either targeted to cytoplasmic proteasomes for degradation or protected by chaperones to shield thermosensitive proteins from degradation until conditions allow disaggregation and refolding." 
+- [cytoplasm protein quality control](http://purl.obolibrary.org/obo/GO_0140455) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown or refolding of aberrant proteins in the cytoplasm, including misfolded proteins and orphan subunits that fail to assemble into their cognate protein complex, in which the substrates are either targeted to cytoplasmic proteasomes for degradation or protected by chaperones to shield thermosensitive proteins from degradation until conditions allow disaggregation and refolding." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35316660" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30075143" 
+
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32075773" 
 
 
@@ -2753,6 +2797,56 @@
 #### Removed
 - [obsolete 4-carboxy-4'-sulfoazobenzene metabolic process](http://purl.obolibrary.org/obo/GO_0018887) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
+
+
+### obsolete 4-chlorobenzoate dehalogenase activity `http://purl.obolibrary.org/obo/GO_0047576`
+#### Removed
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.8.1.6" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R01307" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:4-CHLOROBENZOATE-DEHALOGENASE-RXN" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23440" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [3.8.1.6](http://purl.uniprot.org/enzyme/3.8.1.6) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [23440](http://rdf.rhea-db.org/23440) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 4-chlorobenzoate + H2O = 4-hydroxybenzoate + chloride + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23440" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [label](http://www.w3.org/2000/01/rdf-schema#label) "4-chlorobenzoate dehalogenase activity" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) SubClassOf [hydrolase activity, acting on halide bonds, in C-halide compounds](http://purl.obolibrary.org/obo/GO_0019120) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [4-chlorobenzoate](http://purl.obolibrary.org/obo/CHEBI_17861) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [4-hydroxybenzoate](http://purl.obolibrary.org/obo/CHEBI_17879) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [chloride](http://purl.obolibrary.org/obo/CHEBI_17996) 
+
+#### Added
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32542"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [4-hydroxybenzoyl-CoA thioesterase activity](http://purl.obolibrary.org/obo/GO_0018739) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [4-chlorobenzoyl-CoA dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018787) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [4-chlorobenzoate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0018861) 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 4-chlorobenzoate + H2O = 4-hydroxybenzoate + chloride + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:23440" 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this activity is not known to be catalyzed by any gene product, there is no evidence that this function/process/component exists, and the EC number (EC 3.8.1.6) on which this GO term was based has been deleted in the IUBMB EC list." 
+
+- [obsolete 4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-chlorobenzoate dehalogenase activity" 
 
 
 ### obsolete 7-cyano-7-deazaguanine metabolic process `http://purl.obolibrary.org/obo/GO_0097287`
@@ -6247,6 +6341,39 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### proteasomal degradation of multi-protein complex orphan subunits `http://purl.obolibrary.org/obo/GO_7770117`
+
+#### Added
+- Class: [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32274"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-08-27T23:33:52Z" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "degradation of orphan subunits of multi-protein complexes" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "orphan subunit degradation" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770117" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein quality control pathway that results in the ubiquitin-dependent, proteasome-mediated breakdown of orphan subunits of a multi-protein complex (including complexes that also contain non-protein components, such as the ribosome), i.e. subunits that have failed to assemble into their cognate complex, for example as a result of imbalanced subunit synthesis. This process eliminates unassembled subunits and thereby maintains protein complex stoichiometry." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35316660" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28774922" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37480851" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) [label](http://www.w3.org/2000/01/rdf-schema#label) "proteasomal degradation of multi-protein complex orphan subunits" 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) SubClassOf [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) 
+
+- [proteasomal degradation of multi-protein complex orphan subunits](http://purl.obolibrary.org/obo/GO_7770117) SubClassOf [proteasome-mediated ubiquitin-dependent protein catabolic process](http://purl.obolibrary.org/obo/GO_0043161) 
+
+
 ### proteasome substrate carrier activity `http://purl.obolibrary.org/obo/GO_0170082`
 
 #### Added
@@ -6336,6 +6463,8 @@
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
 
 #### Added
+- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32274"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32442"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PQC" 
@@ -6354,7 +6483,11 @@
 
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "protein quality control for misfolded or incompletely synthesized proteins" 
 
-- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown or refolding of misfolded, dysfunctional, or incompletely synthesized proteins." 
+- [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown or refolding of proteins recognized as aberrant, including misfolded, dysfunctional, or incompletely synthesized proteins, and orphan subunits that fail to assemble into their cognate protein complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35316660" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30075143" 
+
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21746797" 
 
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein quality control" 

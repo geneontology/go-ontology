@@ -1,24 +1,24 @@
 ---
-id: obo:go/releases/2026-08-27go.owl-statistics
+id: obo:go/releases/2026-08-28go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-08-27go.owl
+  version: obo:go/releases/2026-08-28go.owl
 was_generated_by:
-  started_at_time: '2026-08-27T08:20:29.895238'
+  started_at_time: '2026-08-28T08:22:02.258237'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
-    class_count: 30898
+    class_count: 30899
     deprecated_class_count: 6965
-    non_deprecated_class_count: 23933
-    class_count_with_text_definitions: 30898
+    non_deprecated_class_count: 23934
+    class_count_with_text_definitions: 30899
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 40407
+        filtered_count: 40409
       RO:0002211:
         facet: RO:0002211
         filtered_count: 2887
@@ -43,33 +43,33 @@ partitions:
       RO:0002093:
         facet: RO:0002093
         filtered_count: 1
-    distinct_synonym_count: 93655
-    synonym_statement_count: 94435
+    distinct_synonym_count: 93658
+    synonym_statement_count: 94438
     change_summary:
-      RemoveNodeFromSubset: 5
+      NodeTextDefinitionChange: 91
       EdgeCreation: 138
-      NodeTextDefinitionChange: 90
       NodeUnobsoletion: 54
-      NodeRename: 59
-      NodeDeletion: 13
-      EdgeDeletion: 61
-      RemoveSynonym: 17
-      NewSynonym: 11
+      NodeRename: 60
+      NodeDeletion: 14
+      EdgeDeletion: 63
+      RemoveSynonym: 20
+      NewSynonym: 13
       AddNodeToSubset: 1
+      RemoveNodeFromSubset: 5
       All_Obsoletion: 0
-      All_Synonym: 28
-    edge_count: 53350
+      All_Synonym: 33
+    edge_count: 53352
   molecular_function:
     id: molecular_function
     class_count: 12870
-    deprecated_class_count: 2828
-    non_deprecated_class_count: 10042
+    deprecated_class_count: 2829
+    non_deprecated_class_count: 10041
     class_count_with_text_definitions: 12870
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 12283
+        filtered_count: 12282
       BFO:0000050:
         facet: BFO:0000050
         filtered_count: 795
@@ -92,20 +92,20 @@ partitions:
     synonym_statement_count: 29853
     change_summary:
       EdgeDeletion: 49
-      NodeUnobsoletion: 15
-      NodeTextDefinitionChange: 31
-      EdgeCreation: 35
-      NodeRename: 20
-      RemoveSynonym: 23
-      MappingCreation: 17
+      EdgeCreation: 36
+      NodeTextDefinitionChange: 32
+      NodeUnobsoletion: 16
+      NodeRename: 21
       NodeDeletion: 15
+      RemoveSynonym: 23
+      MappingCreation: 21
+      RemoveMapping: 11
       NewSynonym: 9
       RemoveNodeFromSubset: 1
       NodeObsoletionWithDirectReplacement: 1
-      RemoveMapping: 11
       All_Obsoletion: 1
       All_Synonym: 32
-    edge_count: 13542
+    edge_count: 13541
   cellular_component:
     id: cellular_component
     class_count: 4607
@@ -126,15 +126,15 @@ partitions:
     distinct_synonym_count: 5129
     synonym_statement_count: 5328
     change_summary:
-      EdgeCreation: 5
-      NodeUnobsoletion: 1
-      NodeTextDefinitionChange: 3
-      NodeRename: 2
-      NodeDeletion: 7
       EdgeDeletion: 13
+      EdgeCreation: 5
       RemoveSynonym: 3
       NewSynonym: 4
+      NodeTextDefinitionChange: 3
+      NodeRename: 2
       RemoveNodeFromSubset: 1
+      NodeDeletion: 7
+      NodeUnobsoletion: 1
       All_Obsoletion: 0
       All_Synonym: 7
     edge_count: 6687
