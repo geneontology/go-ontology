@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-08-28 08:11:07.295951686 +0000
-+++ go.obo	2026-08-28 08:21:53.824356070 +0000
+--- go-lastrelease.obo	2026-08-29 05:36:26.321724420 +0000
++++ go.obo	2026-08-29 05:50:11.464381624 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-08-28
++data-version: releases/2026-08-29
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -23,7 +23,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-08-28" xsd:string
++property_value: owl:versionInfo "2026-08-29" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -233,6 +233,15 @@
  
  [Term]
  id: GO:0003762
+@@ -33624,7 +33645,7 @@
+ xref: Reactome:R-HSA-70467 "PFK tetramer phosphorylates Fru(6)P"
+ xref: RHEA:16109
+ is_a: GO:0008443 ! phosphofructokinase activity
+-relationship: part_of GO:0061615 ! glycolytic process through fructose-6-phosphate
++relationship: part_of GO:0006096 ! glycolysis
+ property_value: skos:exactMatch EC:2.7.1.11
+ property_value: skos:exactMatch RHEA:16109
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 @@ -34490,7 +34511,7 @@
  id: GO:0003919
  name: FMN adenylyltransferase activity
@@ -308,6 +317,15 @@
  property_value: skos:narrowMatch RHEA:37967
  property_value: skos:narrowMatch RHEA:59924
  property_value: skos:narrowMatch RHEA:59932
+@@ -53051,7 +53077,7 @@
+ xref: Reactome:R-HSA-71670 "Pyruvate kinase dephosphorylates PEP to PYR"
+ xref: RHEA:18157
+ is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
+-relationship: part_of GO:0006096 ! glycolytic process
++relationship: part_of GO:0006096 ! glycolysis
+ property_value: skos:exactMatch EC:2.7.1.40
+ property_value: skos:exactMatch MetaCyc:PEPDEPHOS-RXN
+ property_value: skos:exactMatch RHEA:18157
 @@ -61237,11 +61263,13 @@
  name: binding
  namespace: molecular_function
@@ -483,7 +501,74 @@
  
  [Term]
  id: GO:0006062
-@@ -70932,10 +70971,9 @@
+@@ -67371,7 +67410,7 @@
+ 
+ [Term]
+ id: GO:0006096
+-name: glycolytic process
++name: glycolysis
+ namespace: biological_process
+ alt_id: GO:0019641
+ alt_id: GO:0019642
+@@ -67379,10 +67418,15 @@
+ synonym: "anaerobic glycolysis" RELATED []
+ synonym: "Embden-Meyerhof pathway" RELATED []
+ synonym: "Embden-Meyerhof-Parnas pathway" RELATED []
+-synonym: "glycolysis" RELATED [GOC:dph]
++synonym: "glycolytic process" EXACT []
+ synonym: "modified Embden-Meyerhof pathway" RELATED []
++xref: MetaCyc:ANAGLYCOLYSIS-PWY
++xref: MetaCyc:GLYCOLYSIS
+ xref: MetaCyc:GLYCOLYSIS-VARIANTS
+ xref: MetaCyc:P341-PWY
++xref: MetaCyc:PWY-1042
++xref: MetaCyc:PWY-5484
++xref: MetaCyc:PWY-8404
+ is_a: GO:0006090 ! pyruvate metabolic process
+ is_a: GO:0006091 ! generation of precursor metabolites and energy
+ is_a: GO:0016052 ! carbohydrate catabolic process
+@@ -67397,9 +67441,15 @@
+ relationship: has_part GO:0043891 ! glyceraldehyde-3-phosphate dehydrogenase (phosphorylating, [NAD(P)+] ) activity
+ relationship: part_of GO:0009060 ! aerobic respiration
+ property_value: skos:exactMatch MetaCyc:GLYCOLYSIS-VARIANTS
++property_value: skos:narrowMatch MetaCyc:ANAGLYCOLYSIS-PWY
++property_value: skos:narrowMatch MetaCyc:GLYCOLYSIS
+ property_value: skos:narrowMatch MetaCyc:P341-PWY
++property_value: skos:narrowMatch MetaCyc:PWY-1042
++property_value: skos:narrowMatch MetaCyc:PWY-5484
++property_value: skos:narrowMatch MetaCyc:PWY-8404
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21176" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30067" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
+ 
+ [Term]
+ id: GO:0006097
+@@ -67575,19 +67625,21 @@
+ 
+ [Term]
+ id: GO:0006110
+-name: regulation of glycolytic process
++name: regulation of glycolysis
+ namespace: biological_process
+ alt_id: GO:0090525
+ def: "Any process that modulates the frequency, rate or extent of glycolysis." [GOC:curators]
+ synonym: "regulation of glycolysis involved in cellular glucose homeostasis" EXACT []
++synonym: "regulation of glycolytic process" EXACT []
+ xref: Reactome:R-HSA-170822 "Regulation of Glucokinase by Glucokinase Regulatory Protein"
+ is_a: GO:0033121 ! regulation of purine nucleotide catabolic process
+ is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
+ is_a: GO:0043470 ! regulation of carbohydrate catabolic process
+ is_a: GO:1903578 ! regulation of ATP metabolic process
+ intersection_of: GO:0065007 ! biological regulation
+-intersection_of: regulates GO:0006096 ! glycolytic process
+-relationship: regulates GO:0006096 ! glycolytic process
++intersection_of: regulates GO:0006096 ! glycolysis
++relationship: regulates GO:0006096 ! glycolysis
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
+ 
+ [Term]
+ id: GO:0006111
+@@ -70932,152 +70984,210 @@
  namespace: biological_process
  def: "The synthesis of aminoacyl tRNA by the formation of an ester bond between the 3'-hydroxyl group of the most 3' adenosine of the tRNA and the alpha carboxylic acid group of an amino acid, to be used in ribosome-mediated polypeptide synthesis." [GOC:ma]
  subset: goslim_yeast
@@ -495,7 +580,269 @@
  relationship: part_of GO:0006412 ! translation
  
  [Term]
-@@ -71811,17 +71849,20 @@
+ id: GO:0006419
+-name: alanyl-tRNA aminoacylation
++name: obsolete alanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling alanine to alanyl-tRNA, catalyzed by alanyl-tRNA synthetase. The alanyl-tRNA synthetase is a class-II synthetases. The activated amino acid is transferred to the 3'-OH group of an alanine accetping tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling alanine to alanyl-tRNA, catalyzed by alanyl-tRNA synthetase. The alanyl-tRNA synthetase is a class-II synthetases. The activated amino acid is transferred to the 3'-OH group of an alanine accetping tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004813 alanine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006420
+-name: arginyl-tRNA aminoacylation
++name: obsolete arginyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling arginine to arginyl-tRNA, catalyzed by arginyl-tRNA synthetase. The arginyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of an alanine accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling arginine to arginyl-tRNA, catalyzed by arginyl-tRNA synthetase. The arginyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of an alanine accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004814 arginine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006421
+-name: asparaginyl-tRNA aminoacylation
++name: obsolete asparaginyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling asparagine to asparaginyl-tRNA, catalyzed by asparaginyl-tRNA synthetase. The asparaginyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of an asparagine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling asparagine to asparaginyl-tRNA, catalyzed by asparaginyl-tRNA synthetase. The asparaginyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of an asparagine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004816 asparagine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006422
+-name: aspartyl-tRNA aminoacylation
++name: obsolete aspartyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling aspartate to aspartyl-tRNA, catalyzed by aspartyl-tRNA synthetase. The aspartyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of an aspartic acid accetping tRNA." [GOC:mah, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling aspartate to aspartyl-tRNA, catalyzed by aspartyl-tRNA synthetase. The aspartyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of an aspartic acid accetping tRNA." [GOC:mah, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004815 aspartate-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006423
+-name: cysteinyl-tRNA aminoacylation
++name: obsolete cysteinyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling L-cysteine to cysteinyl-tRNA, catalyzed by cysteinyl-tRNA synthetase. A cysteinyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a cysteine-accepting tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling L-cysteine to cysteinyl-tRNA, catalyzed by cysteinyl-tRNA synthetase. A cysteinyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a cysteine-accepting tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004817 cysteine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006424
+-name: glutamyl-tRNA aminoacylation
++name: obsolete glutamyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling glutamate to glutamyl-tRNA, catalyzed by glutamyl-tRNA synthetase. The glutamyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a glutamic acid-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling glutamate to glutamyl-tRNA, catalyzed by glutamyl-tRNA synthetase. The glutamyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a glutamic acid-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004818 glutamate-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006425
+-name: glutaminyl-tRNA aminoacylation
++name: obsolete glutaminyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling glutamine to glutaminyl-tRNA, catalyzed by glutaminyl-tRNA synthetase. The glutaminyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a glutamine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling glutamine to glutaminyl-tRNA, catalyzed by glutaminyl-tRNA synthetase. The glutaminyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a glutamine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004819 glutamine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006426
+-name: glycyl-tRNA aminoacylation
++name: obsolete glycyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling glycine to glycyl-tRNA, catalyzed by glycyl-tRNA synthetase. The glycyll-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a glycine-accepting tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling glycine to glycyl-tRNA, catalyzed by glycyl-tRNA synthetase. The glycyll-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a glycine-accepting tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004820 glycine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006427
+-name: histidyl-tRNA aminoacylation
++name: obsolete histidyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling histidine to histidyl-tRNA, catalyzed by histidyl-tRNA synthetase. The histidyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3''-OH group of a histidine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling histidine to histidyl-tRNA, catalyzed by histidyl-tRNA synthetase. The histidyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3''-OH group of a histidine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004821 histidine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006428
+-name: isoleucyl-tRNA aminoacylation
++name: obsolete isoleucyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling isoleucine to isoleucyl-tRNA, catalyzed by isoleucyl-tRNA synthetase. The isoleucyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a isoleucine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling isoleucine to isoleucyl-tRNA, catalyzed by isoleucyl-tRNA synthetase. The isoleucyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a isoleucine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004822 isoleucine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006429
+-name: leucyl-tRNA aminoacylation
++name: obsolete leucyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling leucine to leucyl-tRNA, catalyzed by leucyl-tRNA synthetase. The leucyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a leucine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling leucine to leucyl-tRNA, catalyzed by leucyl-tRNA synthetase. The leucyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a leucine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004823 leucine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006430
+-name: lysyl-tRNA aminoacylation
++name: obsolete lysyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling lysine to lysyl-tRNA, catalyzed by lysyl-tRNA synthetase. The lysyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a lysine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling lysine to lysyl-tRNA, catalyzed by lysyl-tRNA synthetase. The lysyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a lysine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004824 lysine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006431
+-name: methionyl-tRNA aminoacylation
++name: obsolete methionyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling methionine to methionyl-tRNA, catalyzed by methionyl-tRNA synthetase. The methionyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a methionine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling methionine to methionyl-tRNA, catalyzed by methionyl-tRNA synthetase. The methionyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a methionine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004825 methionine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006432
+-name: phenylalanyl-tRNA aminoacylation
++name: obsolete phenylalanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling phenylalanine to phenylalanyl-tRNA, catalyzed by phenylalanyl-tRNA synthetase. The phenylalanyl-tRNA synthetase is a class-II synthetase. However, unlike other class II enzymes, The activated amino acid is transferred to the 2'-OH group of a phenylalanine-accepting tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling phenylalanine to phenylalanyl-tRNA, catalyzed by phenylalanyl-tRNA synthetase. The phenylalanyl-tRNA synthetase is a class-II synthetase. However, unlike other class II enzymes, The activated amino acid is transferred to the 2'-OH group of a phenylalanine-accepting tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004826 phenylalanine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006433
+-name: prolyl-tRNA aminoacylation
++name: obsolete prolyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling proline to prolyl-tRNA, catalyzed by prolyl-tRNA synthetase. The prolyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a methionine-accetping tRNA." [GOC:mah, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling proline to prolyl-tRNA, catalyzed by prolyl-tRNA synthetase. The prolyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a methionine-accetping tRNA." [GOC:mah, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004827 proline-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006434
+-name: seryl-tRNA aminoacylation
++name: obsolete seryl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling serine to seryl-tRNA, catalyzed by seryl-tRNA synthetase. The seryl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a serine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
+-relationship: has_part GO:0001717 ! conversion of seryl-tRNAsec to selenocys-tRNAsec
++def: "OBSOLETE. The process of coupling serine to seryl-tRNA, catalyzed by seryl-tRNA synthetase. The seryl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a serine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004828 serine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006435
+-name: threonyl-tRNA aminoacylation
++name: obsolete threonyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling threonine to threonyl-tRNA, catalyzed by threonyl-tRNA synthetase. The threonyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a threonine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling threonine to threonyl-tRNA, catalyzed by threonyl-tRNA synthetase. The threonyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a threonine-accetping tRNA." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004829 threonine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006436
+-name: tryptophanyl-tRNA aminoacylation
++name: obsolete tryptophanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling tryptophan to tryptophanyl-tRNA, catalyzed by tryptophanyl-tRNA synthetase. The tryptophanyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a tryptophan-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling tryptophan to tryptophanyl-tRNA, catalyzed by tryptophanyl-tRNA synthetase. The tryptophanyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a tryptophan-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004830 tryptophan-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006437
+-name: tyrosyl-tRNA aminoacylation
++name: obsolete tyrosyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling tyrosine to tyrosyl-tRNA, catalyzed by tyrosyl-tRNA synthetase. The tyrosyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a tyrosine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling tyrosine to tyrosyl-tRNA, catalyzed by tyrosyl-tRNA synthetase. The tyrosyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a tyrosine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004831 tyrosine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006438
+-name: valyl-tRNA aminoacylation
++name: obsolete valyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling valine to valyl-tRNA, catalyzed by valyl-tRNA synthetase. The valyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a valine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
+-is_a: GO:0006418 ! tRNA aminoacylation for protein translation
++def: "OBSOLETE. The process of coupling valine to valyl-tRNA, catalyzed by valyl-tRNA synthetase. The valyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a valine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." [GOC:mcc, ISBN:0716730510]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004832 valine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ 
+ [Term]
+ id: GO:0006439
+@@ -71811,17 +71921,21 @@
  
  [Term]
  id: GO:0006515
@@ -511,7 +858,7 @@
 -synonym: "protein quality control (PQC)" EXACT []
 -synonym: "protein quality control by the ubiquitin-proteasome system" BROAD []
 -is_a: GO:0030163 ! protein catabolic process
-+def: "The chemical reactions and pathways resulting in the breakdown or refolding of proteins recognized as aberrant, including misfolded, dysfunctional, or incompletely synthesized proteins, and orphan subunits that fail to assemble into their cognate protein complex." [PMID:21746797, PMID:30075143, PMID:35316660]
++def: "A cellular process that monitors the folding, integrity, and assembly state of proteins and acts on those recognized as aberrant, including misfolded, damaged, dysfunctional, or incompletely synthesized proteins, and orphan subunits that fail to assemble into their cognate protein complex, by refolding, stabilizing, sequestering, retaining, or degrading them." [PMID:21746797, PMID:30075143, PMID:32075773, PMID:35316660]
 +synonym: "degradation of misfolded or incompletely synthesized proteins" NARROW []
 +synonym: "misfolded or incompletely synthesized protein breakdown" NARROW []
 +synonym: "misfolded or incompletely synthesized protein catabolic process" NARROW []
@@ -523,10 +870,11 @@
 +is_a: GO:0009987 ! cellular process
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32274" xsd:anyURI
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32442" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32546" xsd:anyURI
  
  [Term]
  id: GO:0006516
-@@ -73107,6 +73148,7 @@
+@@ -73107,6 +73221,7 @@
  xref: Reactome:R-HSA-71288 "Creatine metabolism"
  is_a: GO:0006575 ! modified amino acid metabolic process
  is_a: GO:0032787 ! monocarboxylic acid metabolic process
@@ -534,7 +882,7 @@
  
  [Term]
  id: GO:0006601
-@@ -73148,6 +73190,7 @@
+@@ -73148,6 +73263,7 @@
  synonym: "phosphocreatine metabolism" EXACT []
  is_a: GO:0006575 ! modified amino acid metabolic process
  is_a: GO:0019637 ! organophosphate metabolic process
@@ -542,7 +890,7 @@
  
  [Term]
  id: GO:0006604
-@@ -77269,6 +77312,8 @@
+@@ -77269,6 +77385,8 @@
  is_a: GO:0006984 ! ER-nucleus signaling pathway
  is_a: GO:0034976 ! response to endoplasmic reticulum stress
  is_a: GO:0071216 ! cellular response to biotic stimulus
@@ -551,7 +899,7 @@
  
  [Term]
  id: GO:0006984
-@@ -77490,11 +77535,9 @@
+@@ -77490,11 +77608,9 @@
  def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a mitochondrial membrane, either of the lipid bilayer surrounding a mitochondrion." [GOC:ai, GOC:dph, GOC:jl, GOC:mah]
  synonym: "mitochondrial membrane organisation" EXACT []
  synonym: "mitochondrial membrane organization and biogenesis" RELATED [GOC:mah]
@@ -565,7 +913,7 @@
  
  [Term]
  id: GO:0007007
-@@ -81065,17 +81108,19 @@
+@@ -81065,17 +81181,19 @@
  id: GO:0007350
  name: blastoderm segmentation
  namespace: biological_process
@@ -587,7 +935,7 @@
  
  [Term]
  id: GO:0007352
-@@ -81102,24 +81147,27 @@
+@@ -81102,24 +81220,27 @@
  id: GO:0007354
  name: zygotic determination of anterior/posterior axis, embryo
  namespace: biological_process
@@ -618,7 +966,7 @@
  
  [Term]
  id: GO:0007357
-@@ -81139,8 +81187,9 @@
+@@ -81139,8 +81260,9 @@
  id: GO:0007358
  name: obsolete establishment of central gap gene boundaries
  namespace: biological_process
@@ -629,7 +977,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22546" xsd:anyURI
  is_obsolete: true
  
-@@ -81148,10 +81197,11 @@
+@@ -81148,10 +81270,11 @@
  id: GO:0007359
  name: posterior abdomen determination
  namespace: biological_process
@@ -642,7 +990,7 @@
  
  [Term]
  id: GO:0007360
-@@ -81172,7 +81222,7 @@
+@@ -81172,7 +81295,7 @@
  id: GO:0007361
  name: obsolete establishment of posterior gap gene boundaries
  namespace: biological_process
@@ -651,7 +999,7 @@
  comment: This term has been obsoleted because it represents a transcriptional feedback loop covered by other processes.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22546" xsd:anyURI
  is_obsolete: true
-@@ -81181,9 +81231,10 @@
+@@ -81181,9 +81304,10 @@
  id: GO:0007362
  name: terminal region determination
  namespace: biological_process
@@ -663,7 +1011,7 @@
  
  [Term]
  id: GO:0007363
-@@ -81203,7 +81254,7 @@
+@@ -81203,7 +81327,7 @@
  id: GO:0007364
  name: obsolete establishment of terminal gap gene boundary
  namespace: biological_process
@@ -672,7 +1020,7 @@
  comment: This term has been obsoleted because it represents a transcriptional feedback loop covered by other processes.
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22546" xsd:anyURI
  is_obsolete: true
-@@ -81221,16 +81272,18 @@
+@@ -81221,16 +81345,18 @@
  id: GO:0007366
  name: periodic partitioning by pair rule gene
  namespace: biological_process
@@ -693,7 +1041,7 @@
  
  [Term]
  id: GO:0007368
-@@ -81319,9 +81372,10 @@
+@@ -81319,9 +81445,10 @@
  id: GO:0007379
  name: segment specification
  namespace: biological_process
@@ -705,7 +1053,7 @@
  
  [Term]
  id: GO:0007380
-@@ -81376,24 +81430,27 @@
+@@ -81376,24 +81503,27 @@
  id: GO:0007386
  name: compartment pattern specification
  namespace: biological_process
@@ -736,7 +1084,7 @@
  
  [Term]
  id: GO:0007389
-@@ -82047,9 +82104,10 @@
+@@ -82047,9 +82177,10 @@
  id: GO:0007469
  name: antennal development
  namespace: biological_process
@@ -748,7 +1096,7 @@
  
  [Term]
  id: GO:0007470
-@@ -84132,9 +84190,10 @@
+@@ -84132,9 +84263,10 @@
  id: GO:0008056
  name: ocellus development
  namespace: biological_process
@@ -760,7 +1108,7 @@
  
  [Term]
  id: GO:0008057
-@@ -84150,12 +84209,14 @@
+@@ -84150,12 +84282,14 @@
  
  [Term]
  id: GO:0008058
@@ -778,7 +1126,7 @@
  
  [Term]
  id: GO:0008061
-@@ -87871,8 +87932,9 @@
+@@ -87871,8 +88005,9 @@
  id: GO:0008358
  name: maternal determination of anterior/posterior axis, embryo
  namespace: biological_process
@@ -789,7 +1137,7 @@
  
  [Term]
  id: GO:0008359
-@@ -88071,24 +88133,24 @@
+@@ -88071,24 +88206,24 @@
  
  [Term]
  id: GO:0008379
@@ -820,7 +1168,7 @@
  
  [Term]
  id: GO:0008380
-@@ -90289,7 +90351,7 @@
+@@ -90289,7 +90424,7 @@
  id: GO:0008531
  name: riboflavin kinase activity
  namespace: molecular_function
@@ -829,7 +1177,7 @@
  synonym: "ATP:riboflavin 5'-phosphotransferase activity" RELATED [EC:2.7.1.26]
  synonym: "FK" RELATED [EC:2.7.1.26]
  synonym: "flavokinase activity" RELATED [EC:2.7.1.26]
-@@ -90305,6 +90367,7 @@
+@@ -90305,6 +90440,7 @@
  property_value: skos:exactMatch EC:2.7.1.26
  property_value: skos:exactMatch RHEA:14357
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -837,7 +1185,7 @@
  
  [Term]
  id: GO:0008532
-@@ -90547,6 +90610,7 @@
+@@ -90547,6 +90683,7 @@
  namespace: molecular_function
  alt_id: GO:0008561
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Cd2+(in) = ADP + phosphate + Cd2+(out)." [PMID:17326661]
@@ -845,7 +1193,7 @@
  synonym: "cadmium exporting ATPase activity" EXACT []
  synonym: "cadmium transmembrane transporter activity, phosphorylative mechanism" RELATED []
  synonym: "cadmium-exporting ATPase activity" NARROW []
-@@ -90555,12 +90619,12 @@
+@@ -90555,12 +90692,12 @@
  synonym: "Cd2+-exporting ATPase activity" RELATED [EC:7.2.2.21]
  xref: EC:7.2.2.21
  xref: MetaCyc:3.6.3.3-RXN
@@ -860,7 +1208,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26941" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-@@ -90729,7 +90793,7 @@
+@@ -90729,7 +90866,7 @@
  id: GO:0008564
  name: protein-exporting ATPase activity
  namespace: molecular_function
@@ -869,7 +1217,7 @@
  comment: Represents ATP- hydrolyzing enzymes of the general secretory pathway (Sec or Type II), of the virulence-related secretory pathway (Type III) and of the conjugal DNA-protein transfer pathway (Type IV). Type II enzymes occur in bacteria, archaea and eukaryotes, whereas type III and type IV enzymes occur in bacteria where they form components of a multi-subunit complex.
  synonym: "ATPase-coupled protein transporter activity" EXACT []
  xref: EC:7.4.2.8
-@@ -90739,6 +90803,7 @@
+@@ -90739,6 +90876,7 @@
  is_a: GO:0015450 ! protein-transporting ATPase activity
  property_value: skos:exactMatch EC:7.4.2.8
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
@@ -877,7 +1225,7 @@
  
  [Term]
  id: GO:0008565
-@@ -90754,19 +90819,17 @@
+@@ -90754,19 +90892,17 @@
  
  [Term]
  id: GO:0008566
@@ -902,7 +1250,7 @@
  
  [Term]
  id: GO:0008567
-@@ -91066,7 +91129,7 @@
+@@ -91066,7 +91202,7 @@
  id: GO:0008595
  name: anterior/posterior axis specification, embryo
  namespace: biological_process
@@ -911,7 +1259,7 @@
  synonym: "anterior/posterior axis determination, embryo" RELATED [GOC:dph]
  is_a: GO:0000578 ! embryonic axis specification
  is_a: GO:0009948 ! anterior/posterior axis specification
-@@ -95317,22 +95380,24 @@
+@@ -95317,22 +95453,24 @@
  
  [Term]
  id: GO:0008876
@@ -942,7 +1290,7 @@
  
  [Term]
  id: GO:0008877
-@@ -97203,7 +97268,8 @@
+@@ -97203,7 +97341,8 @@
  xref: TC:4.A
  is_a: GO:0015144 ! carbohydrate transmembrane transporter activity
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -952,7 +1300,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
  
  [Term]
-@@ -97323,8 +97389,8 @@
+@@ -97323,8 +97462,8 @@
  xref: RHEA:58724
  xref: RHEA:58728
  xref: RHEA:62612
@@ -962,7 +1310,7 @@
  property_value: skos:exactMatch RHEA:58728
  property_value: skos:narrowMatch RHEA:58724
  property_value: skos:narrowMatch RHEA:62612
-@@ -98146,19 +98212,34 @@
+@@ -98146,19 +98285,34 @@
  id: GO:0009038
  name: undecaprenol kinase activity
  namespace: molecular_function
@@ -998,7 +1346,7 @@
  
  [Term]
  id: GO:0009039
-@@ -99098,10 +99179,11 @@
+@@ -99098,10 +99252,11 @@
  
  [Term]
  id: GO:0009107
@@ -1012,7 +1360,7 @@
  synonym: "lipoate anabolism" EXACT []
  synonym: "lipoate biosynthesis" EXACT []
  synonym: "lipoate formation" EXACT []
-@@ -99111,9 +99193,9 @@
+@@ -99111,9 +99266,9 @@
  synonym: "lipoic acid biosynthetic process" EXACT []
  synonym: "lipoic acid formation" EXACT []
  synonym: "lipoic acid synthesis" EXACT []
@@ -1025,7 +1373,7 @@
  
  [Term]
  id: GO:0009108
-@@ -100705,13 +100787,18 @@
+@@ -100705,13 +100860,18 @@
  name: protein lipoylation
  namespace: biological_process
  alt_id: GO:0018055
@@ -1045,7 +1393,7 @@
  
  [Term]
  id: GO:0009250
-@@ -100802,19 +100889,20 @@
+@@ -100802,19 +100962,20 @@
  
  [Term]
  id: GO:0009257
@@ -1071,7 +1419,7 @@
  
  [Term]
  id: GO:0009258
-@@ -125811,6 +125899,7 @@
+@@ -125811,6 +125972,7 @@
  name: ABC-type cadmium transporter activity
  namespace: molecular_function
  def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + Cd (cytosol) = ADP + phosphate + Cd (vacuole)." [PMID:12455987]
@@ -1079,7 +1427,7 @@
  synonym: "ATP-dependent cadmium transmembrane transporter activity" RELATED []
  synonym: "ATPase-coupled cadmium transmembrane transporter activity" RELATED []
  synonym: "cadmium ABC transporter" EXACT []
-@@ -125820,7 +125909,9 @@
+@@ -125820,7 +125982,9 @@
  is_a: GO:0015086 ! cadmium ion transmembrane transporter activity
  is_a: GO:0019829 ! ATPase-coupled monoatomic cation transmembrane transporter activity
  is_a: GO:0140359 ! ABC-type transporter activity
@@ -1089,7 +1437,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -126160,7 +126251,7 @@
+@@ -126160,7 +126324,7 @@
  id: GO:0015462
  name: ABC-type protein transporter activity
  namespace: molecular_function
@@ -1098,7 +1446,7 @@
  comment: Enzymes with this activity include bacterial enzymes dedicated to the secretion of one or several closely related proteins belonging to the toxin, protease and lipase families, for example alpha-hemolysin, cyclolysin, colicin V, siderophores, bacteriocin, subtilin, competence factor and pediocin (from EC:7.4.2.5).
  synonym: "ABC-type protein transmembrane transporter activity" EXACT []
  synonym: "ATPase-coupled protein transmembrane transporter activity" RELATED []
-@@ -126171,6 +126262,7 @@
+@@ -126171,6 +126335,7 @@
  is_a: GO:0015450 ! protein-transporting ATPase activity
  is_a: GO:0140359 ! ABC-type transporter activity
  property_value: skos:broadMatch EC:7.4.2.5
@@ -1106,7 +1454,7 @@
  
  [Term]
  id: GO:0015464
-@@ -135396,7 +135488,7 @@
+@@ -135396,7 +135561,7 @@
  id: GO:0016464
  name: chloroplast protein-transporting ATPase activity
  namespace: molecular_function
@@ -1115,7 +1463,7 @@
  synonym: "AAA chloroplast protein-transporting ATPase" EXACT []
  synonym: "ATPase-coupled chloroplast protein transporter activity" EXACT []
  xref: EC:7.4.2.4
-@@ -135404,6 +135496,7 @@
+@@ -135404,6 +135569,7 @@
  is_a: GO:0015450 ! protein-transporting ATPase activity
  property_value: skos:exactMatch EC:7.4.2.4
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -1123,7 +1471,7 @@
  
  [Term]
  id: GO:0016465
-@@ -140644,8 +140737,9 @@
+@@ -140644,8 +140810,9 @@
  comment: This term was made obsolete because it represents a gene product and not a molecular function.
  synonym: "ligand-dependent thyroid hormone receptor interactor activity" EXACT []
  synonym: "TRIP4" RELATED []
@@ -1134,7 +1482,7 @@
  
  [Term]
  id: GO:0016925
-@@ -141157,7 +141251,7 @@
+@@ -141157,7 +141324,7 @@
  xref: Reactome:R-HSA-6793591 "LIAS synthesizes lipoyl-GCSH"
  xref: RHEA:16585
  is_a: GO:0016783 ! sulfurtransferase activity
@@ -1143,7 +1491,7 @@
  property_value: skos:exactMatch EC:2.8.1.8
  property_value: skos:exactMatch MetaCyc:RXN0-949
  property_value: skos:exactMatch RHEA:16585
-@@ -142973,11 +143067,13 @@
+@@ -142973,11 +143140,13 @@
  
  [Term]
  id: GO:0017162
@@ -1161,7 +1509,7 @@
  
  [Term]
  id: GO:0017163
-@@ -157306,7 +157402,6 @@
+@@ -157306,7 +157475,6 @@
  synonym: "N-acetylneuraminate catabolism" EXACT []
  synonym: "N-acetylneuraminate degradation" EXACT []
  xref: MetaCyc:P441-PWY
@@ -1169,7 +1517,7 @@
  is_a: GO:0046348 ! amino sugar catabolic process
  is_a: GO:0046395 ! carboxylic acid catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31361" xsd:anyURI
-@@ -157451,12 +157546,14 @@
+@@ -157451,12 +157619,14 @@
  
  [Term]
  id: GO:0019276
@@ -1188,7 +1536,7 @@
  
  [Term]
  id: GO:0019277
-@@ -157471,7 +157568,6 @@
+@@ -157471,7 +157641,6 @@
  xref: MetaCyc:PWY-5514
  xref: MetaCyc:PWY-8013
  is_a: GO:0009226 ! nucleotide-sugar biosynthetic process
@@ -1196,7 +1544,7 @@
  is_a: GO:0046349 ! amino sugar biosynthetic process
  property_value: skos:narrowMatch MetaCyc:PWY-5512
  property_value: skos:narrowMatch MetaCyc:PWY-5514
-@@ -159257,7 +159353,7 @@
+@@ -159257,7 +159426,7 @@
  synonym: "dissimilatory sulphate reduction" EXACT []
  xref: MetaCyc:DISSULFRED-PWY
  xref: Wikipedia:Sulfate-reducing_microorganism
@@ -1205,7 +1553,7 @@
  is_a: GO:0009061 ! anaerobic respiration
  relationship: has_part GO:0018551 ! dissimilatory sulfite reductase (NADH) activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26582" xsd:anyURI
-@@ -159772,11 +159868,12 @@
+@@ -159772,11 +159941,12 @@
  id: GO:0019464
  name: glycine decarboxylation via glycine cleavage system
  namespace: biological_process
@@ -1219,7 +1567,7 @@
  
  [Term]
  id: GO:0019465
-@@ -161770,7 +161867,6 @@
+@@ -161770,7 +161940,6 @@
  synonym: "urate degradation" EXACT []
  synonym: "uric acid catabolic process" EXACT []
  xref: MetaCyc:P165-PWY
@@ -1227,7 +1575,7 @@
  is_a: GO:0046415 ! urate metabolic process
  is_a: GO:0072523 ! purine-containing compound catabolic process
  
-@@ -161886,10 +161982,12 @@
+@@ -161886,10 +162055,12 @@
  name: organophosphate metabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways involving organophosphates, any phosphate-containing organic compound." [ISBN:0198506732]
@@ -1240,7 +1588,7 @@
  
  [Term]
  id: GO:0019638
-@@ -162018,6 +162116,7 @@
+@@ -162018,6 +162189,7 @@
  xref: MetaCyc:PWY-1622
  xref: MetaCyc:PWY-1861
  is_a: GO:0046292 ! formaldehyde metabolic process
@@ -1248,7 +1596,7 @@
  property_value: skos:narrowMatch MetaCyc:P185-PWY
  property_value: skos:narrowMatch MetaCyc:PWY-1622
  property_value: skos:narrowMatch MetaCyc:PWY-1861
-@@ -162409,11 +162508,13 @@
+@@ -162409,11 +162581,13 @@
  is_a: GO:0006536 ! glutamate metabolic process
  is_a: GO:0006541 ! L-glutamine metabolic process
  is_a: GO:0019740 ! nitrogen utilization
@@ -1262,7 +1610,7 @@
  
  [Term]
  id: GO:0019677
-@@ -164637,14 +164738,14 @@
+@@ -164637,14 +164811,14 @@
  name: obsolete diaminopimelate biosynthetic process
  namespace: biological_process
  def: "OBSOLETE. The chemical reactions and pathways resulting in the formation of diaminopimelate, both as an intermediate in lysine biosynthesis and as a component (as meso-diaminopimelate) of the peptidoglycan of Gram-negative bacterial cell walls." [GOC:ma, ISBN:0198547684]
@@ -1279,7 +1627,7 @@
  
  [Term]
  id: GO:0019878
-@@ -173177,10 +173278,11 @@
+@@ -173177,10 +173351,11 @@
  xref: Reactome:R-HSA-9856871 "MDH1 reduces OA"
  xref: RHEA:21432
  is_a: GO:0016615 ! malate dehydrogenase activity
@@ -1292,7 +1640,7 @@
  
  [Term]
  id: GO:0030061
-@@ -176116,12 +176218,15 @@
+@@ -176116,12 +176291,15 @@
  
  [Term]
  id: GO:0030331
@@ -1311,7 +1659,7 @@
  
  [Term]
  id: GO:0030332
-@@ -176629,11 +176734,15 @@
+@@ -176629,11 +176807,15 @@
  
  [Term]
  id: GO:0030389
@@ -1330,7 +1678,7 @@
  
  [Term]
  id: GO:0030391
-@@ -176644,7 +176753,6 @@
+@@ -176644,7 +176826,6 @@
  synonym: "fructosamine biosynthesis" EXACT []
  synonym: "fructosamine formation" EXACT []
  synonym: "fructosamine synthesis" EXACT []
@@ -1338,7 +1686,7 @@
  is_a: GO:0046349 ! amino sugar biosynthetic process
  
  [Term]
-@@ -176655,7 +176763,6 @@
+@@ -176655,7 +176836,6 @@
  synonym: "fructosamine breakdown" EXACT []
  synonym: "fructosamine catabolism" EXACT []
  synonym: "fructosamine degradation" EXACT []
@@ -1346,7 +1694,7 @@
  is_a: GO:0046348 ! amino sugar catabolic process
  
  [Term]
-@@ -176664,8 +176771,8 @@
+@@ -176664,8 +176844,8 @@
  namespace: biological_process
  def: "The chemical reactions and pathways involving fructoselysine, a fructose molecule containing a lysine group in place of a hydroxyl group." [GOC:ai]
  synonym: "fructoselysine metabolism" EXACT []
@@ -1356,7 +1704,7 @@
  
  [Term]
  id: GO:0030394
-@@ -177862,11 +177969,12 @@
+@@ -177862,11 +178042,12 @@
  name: regulation of axon extension
  namespace: biological_process
  def: "Any process that modulates the rate, direction or extent of axon extension." [GOC:curators]
@@ -1370,7 +1718,7 @@
  
  [Term]
  id: GO:0030517
-@@ -179725,7 +179833,7 @@
+@@ -179725,7 +179906,7 @@
  id: GO:0030701
  name: NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity
  namespace: molecular_function
@@ -1379,7 +1727,7 @@
  synonym: "ADP-ribosyltransferase activity" BROAD [EC:2.4.2.37]
  synonym: "NAD+:[dinitrogen reductase] (ADP-D-ribosyl)transferase activity" RELATED [EC:2.4.2.37]
  synonym: "NAD--azoferredoxin (ADP-ribose)transferase activity" RELATED [EC:2.4.2.37]
-@@ -179734,10 +179842,11 @@
+@@ -179734,10 +179915,11 @@
  xref: EC:2.4.2.37
  xref: MetaCyc:2.4.2.37-RXN
  xref: RHEA:18077
@@ -1392,7 +1740,7 @@
  
  [Term]
  id: GO:0030703
-@@ -183154,6 +183263,8 @@
+@@ -183154,6 +183336,8 @@
  is_a: GO:0034976 ! response to endoplasmic reticulum stress
  is_a: GO:0035556 ! intracellular signal transduction
  relationship: part_of GO:0034620 ! cellular response to unfolded protein
@@ -1401,7 +1749,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28057" xsd:anyURI
  
  [Term]
-@@ -183191,7 +183302,7 @@
+@@ -183191,7 +183375,7 @@
  synonym: "protein retrotranslocation, ER to cytosol" EXACT [GOC:bf]
  synonym: "retrograde protein transport, endoplasmic reticulum to cytosol" EXACT []
  is_a: GO:0015031 ! protein transport
@@ -1410,7 +1758,7 @@
  
  [Term]
  id: GO:0030971
-@@ -188877,12 +188988,12 @@
+@@ -188877,12 +189061,12 @@
  synonym: "telomeric heterochromatin formation" RELATED []
  synonym: "telomeric silencing" EXACT [GOC:bf]
  is_a: GO:0140719 ! constitutive heterochromatin formation
@@ -1424,7 +1772,7 @@
  
  [Term]
  id: GO:0031510
-@@ -193218,21 +193329,27 @@
+@@ -193218,21 +193402,27 @@
  
  [Term]
  id: GO:0031961
@@ -1458,7 +1806,7 @@
  
  [Term]
  id: GO:0031963
-@@ -203927,11 +204044,13 @@
+@@ -203927,11 +204117,13 @@
  xref: EC:1.1.1.431
  xref: MetaCyc:RXN-8773
  xref: RHEA:27445
@@ -1473,7 +1821,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30910" xsd:anyURI
  
  [Term]
-@@ -203946,9 +204065,11 @@
+@@ -203946,9 +204138,11 @@
  xref: MetaCyc:RXN-8772
  xref: RHEA:25229
  xref: SABIO-RK:1858
@@ -1486,7 +1834,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
  
  [Term]
-@@ -205354,9 +205475,9 @@
+@@ -205354,9 +205548,9 @@
  xref: Reactome:R-HSA-9906955 "MT-ND4 is translated"
  xref: Reactome:R-HSA-9926981 "Bam complex inserts Hbp into outer membrane"
  is_a: GO:0140597 ! protein carrier activity
@@ -1497,7 +1845,7 @@
  
  [Term]
  id: GO:0032978
-@@ -207092,12 +207213,15 @@
+@@ -207092,12 +207286,15 @@
  
  [Term]
  id: GO:0033142
@@ -1516,7 +1864,7 @@
  
  [Term]
  id: GO:0033143
-@@ -209095,11 +209219,14 @@
+@@ -209095,11 +209292,14 @@
  
  [Term]
  id: GO:0033331
@@ -1534,7 +1882,7 @@
  
  [Term]
  id: GO:0033332
-@@ -209112,7 +209239,6 @@
+@@ -209112,7 +209312,6 @@
  synonym: "ent-kaurene synthesis" EXACT []
  xref: MetaCyc:PWY-5032
  xref: MetaCyc:PWY-6653
@@ -1542,7 +1890,7 @@
  is_a: GO:0046246 ! terpene biosynthetic process
  property_value: skos:narrowMatch MetaCyc:PWY-5032
  property_value: skos:narrowMatch MetaCyc:PWY-6653
-@@ -209311,7 +209437,7 @@
+@@ -209311,7 +209510,7 @@
  id: GO:0033353
  name: L-methionine cycle
  namespace: biological_process
@@ -1551,7 +1899,7 @@
  synonym: "activated methyl cycle" EXACT []
  synonym: "S-adenosylmethionine cycle" EXACT []
  synonym: "SAM cycle" EXACT []
-@@ -209319,6 +209445,7 @@
+@@ -209319,6 +209518,7 @@
  xref: MetyaCyc:PWY-6151
  is_a: GO:0006555 ! L-methionine metabolic process
  is_a: GO:0006575 ! modified amino acid metabolic process
@@ -1559,7 +1907,7 @@
  is_a: GO:0046128 ! purine ribonucleoside metabolic process
  is_a: GO:0046500 ! S-adenosylmethionine metabolic process
  is_a: GO:0050667 ! homocysteine metabolic process
-@@ -209326,6 +209453,7 @@
+@@ -209326,6 +209526,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31318" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31840" xsd:anyURI
@@ -1567,7 +1915,7 @@
  
  [Term]
  id: GO:0033354
-@@ -211302,9 +211430,11 @@
+@@ -211302,9 +211503,11 @@
  id: GO:0033528
  name: S-methylmethionine cycle
  namespace: biological_process
@@ -1580,7 +1928,7 @@
  
  [Term]
  id: GO:0033529
-@@ -218705,15 +218835,17 @@
+@@ -218705,15 +218908,17 @@
  
  [Term]
  id: GO:0034045
@@ -1602,7 +1950,7 @@
  
  [Term]
  id: GO:0034046
-@@ -222163,6 +222295,7 @@
+@@ -222163,6 +222368,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29050" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29666" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31588" xsd:anyURI
@@ -1610,7 +1958,7 @@
  
  [Term]
  id: GO:0034355
-@@ -230871,12 +231004,15 @@
+@@ -230871,12 +231077,15 @@
  
  [Term]
  id: GO:0035259
@@ -1629,7 +1977,7 @@
  
  [Term]
  id: GO:0035260
-@@ -239543,11 +239679,13 @@
+@@ -239543,11 +239752,13 @@
  
  [Term]
  id: GO:0035999
@@ -1646,7 +1994,7 @@
  xref: MetaCyc:1CMET2-PWY
  xref: MetaCyc:PWY-2201
  xref: MetaCyc:PWY-3841
-@@ -239558,6 +239696,7 @@
+@@ -239558,6 +239769,7 @@
  property_value: skos:narrowMatch MetaCyc:PWY-3841
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32289" xsd:anyURI
@@ -1654,7 +2002,7 @@
  created_by: bf
  creation_date: 2011-09-02T01:35:49Z
  
-@@ -240947,7 +241086,6 @@
+@@ -240947,7 +241159,6 @@
  name: very long-chain fatty-acyl-CoA catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of very long-chain fatty-acyl-CoAs, any derivative of coenzyme A in which the sulfhydryl group is in a thioester linkage with a very long-chain fatty-acyl group. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." [GOC:pm]
@@ -1662,7 +2010,7 @@
  synonym: "very long-chain fatty-acyl-CoA breakdown" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA catabolism" EXACT [GOC:bf]
  synonym: "very long-chain fatty-acyl-CoA degradation" EXACT [GOC:bf]
-@@ -242784,7 +242922,7 @@
+@@ -242784,7 +242995,7 @@
  id: GO:0036261
  name: 7-methylguanosine cap hypermethylation
  namespace: biological_process
@@ -1671,7 +2019,7 @@
  synonym: "2,2,7-trimethylguanosine cap formation" EXACT [PMID:11983179]
  synonym: "conversion of m(7)G to m(3)G" EXACT [PMID:11983179]
  synonym: "hypermethylation of snoRNA cap" NARROW [GOC:bf, GOC:krc, GOC:mah]
-@@ -242796,6 +242934,7 @@
+@@ -242796,6 +243007,7 @@
  is_a: GO:0001510 ! RNA methylation
  is_a: GO:0036260 ! RNA capping
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26208" xsd:anyURI
@@ -1679,7 +2027,7 @@
  created_by: bf
  creation_date: 2012-06-15T02:21:39Z
  
-@@ -244859,32 +244998,27 @@
+@@ -244859,32 +245071,27 @@
  
  [Term]
  id: GO:0036432
@@ -1724,7 +2072,7 @@
  created_by: bf
  creation_date: 2013-09-16T14:21:12Z
  
-@@ -245744,17 +245878,20 @@
+@@ -245744,17 +245951,20 @@
  
  [Term]
  id: GO:0036503
@@ -1751,7 +2099,7 @@
  created_by: bf
  creation_date: 2015-05-14T11:43:06Z
  
-@@ -246714,6 +246851,7 @@
+@@ -246714,6 +246924,7 @@
  synonym: "IL-5-mediated signaling pathway" EXACT [GOC:bf]
  synonym: "interleukin-5-mediated signalling pathway" EXACT [GOC:mah]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -1759,7 +2107,7 @@
  created_by: bf
  creation_date: 2011-11-03T04:18:21Z
  
-@@ -248084,6 +248222,7 @@
+@@ -248084,6 +248295,7 @@
  synonym: "granulocyte colony-stimulating factor receptor signaling pathway" EXACT [GOC:nhn]
  synonym: "granulocyte colony-stimulating factor signalling pathway" RELATED [GOC:bf]
  is_a: GO:0019221 ! cytokine-mediated signaling pathway
@@ -1767,7 +2115,7 @@
  created_by: bf
  creation_date: 2012-05-14T01:30:28Z
  
-@@ -253176,6 +253315,7 @@
+@@ -253176,6 +253388,7 @@
  xref: MetaCyc:PWY490-3
  is_a: GO:0042126 ! nitrate metabolic process
  is_a: GO:0071941 ! nitrogen cycle metabolic process
@@ -1775,7 +2123,7 @@
  relationship: has_part GO:0015112 ! nitrate transmembrane transporter activity
  relationship: has_part GO:0098809 ! nitrite reductase activity
  property_value: skos:narrowMatch MetaCyc:PWY-381
-@@ -253184,6 +253324,7 @@
+@@ -253184,6 +253397,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27216" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30537" xsd:anyURI
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
@@ -1783,7 +2131,7 @@
  
  [Term]
  id: GO:0042129
-@@ -253252,7 +253393,7 @@
+@@ -253252,7 +253466,7 @@
  synonym: "fructose diphosphatase activity" RELATED [EC:3.1.3.11]
  synonym: "fructose diphosphate phosphatase activity" RELATED [EC:3.1.3.11]
  synonym: "fructose-1,6-bisphosphatase activity" RELATED [EC:3.1.3.11]
@@ -1792,7 +2140,7 @@
  synonym: "hexose bisphosphatase activity" RELATED [EC:3.1.3.11]
  synonym: "hexose diphosphatase activity" RELATED [EC:3.1.3.11]
  synonym: "hexosediphosphatase activity" BROAD [EC:3.1.3.11]
-@@ -259024,11 +259165,10 @@
+@@ -259024,11 +259238,10 @@
  def: "mitochondrial protein-containing complex localised in the mitochondrial inner membrane space that chaperones proteins to the TIM22 complex for insertion into the mitochondrial inner membrane." [GOC:vw]
  synonym: "mitochondrial intermembrane space protein transporter complex" RELATED []
  synonym: "small TIM complex" EXACT []
@@ -1805,7 +2153,7 @@
  
  [Term]
  id: GO:0042720
-@@ -260084,14 +260224,17 @@
+@@ -260084,14 +260297,17 @@
  
  [Term]
  id: GO:0042809
@@ -1826,7 +2174,7 @@
  
  [Term]
  id: GO:0042810
-@@ -260158,7 +260301,7 @@
+@@ -260158,7 +260374,7 @@
  name: bipolar cell growth
  namespace: biological_process
  def: "The process in which a cell irreversibly increases in size along one axis through simultaneous polarized growth from opposite ends of a cell, resulting in morphogenesis of the cell." [GOC:vw]
@@ -1835,7 +2183,7 @@
  synonym: "bipolar cell elongation" NARROW []
  synonym: "bipolar growth" BROAD []
  synonym: "polar cell elongation" RELATED []
-@@ -261737,13 +261880,16 @@
+@@ -261737,13 +261953,16 @@
  
  [Term]
  id: GO:0042974
@@ -1855,7 +2203,7 @@
  
  [Term]
  id: GO:0042975
-@@ -262433,22 +262579,26 @@
+@@ -262433,22 +262652,26 @@
  
  [Term]
  id: GO:0043038
@@ -1888,7 +2236,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
  
  [Term]
-@@ -262460,8 +262610,9 @@
+@@ -262460,8 +262683,9 @@
  synonym: "tRNA aminoacylation for nonribosomal peptide biosynthesis" EXACT []
  synonym: "tRNA aminoacylation for nonribosomal peptide formation" EXACT []
  synonym: "tRNA aminoacylation for nonribosomal peptide synthesis" EXACT []
@@ -1900,7 +2248,7 @@
  
  [Term]
  id: GO:0043041
-@@ -262469,8 +262620,9 @@
+@@ -262469,8 +262693,9 @@
  namespace: biological_process
  def: "Activation of an amino acid for incorporation into a peptide by a nonribosomal process." [GOC:jl]
  synonym: "nonribosomal amino acid activation" RELATED []
@@ -1911,7 +2259,7 @@
  
  [Term]
  id: GO:0043042
-@@ -278118,66 +278270,81 @@
+@@ -278118,66 +278343,81 @@
  
  [Term]
  id: GO:0044472
@@ -2008,7 +2356,7 @@
  created_by: jl
  creation_date: 2012-01-19T02:28:42Z
  
-@@ -278380,38 +278547,47 @@
+@@ -278380,38 +278620,47 @@
  
  [Term]
  id: GO:0044492
@@ -2065,7 +2413,7 @@
  created_by: jl
  creation_date: 2012-02-01T01:29:25Z
  
-@@ -279221,28 +279397,33 @@
+@@ -279221,28 +279470,33 @@
  
  [Term]
  id: GO:0044559
@@ -2105,7 +2453,7 @@
  created_by: jl
  creation_date: 2012-04-05T03:46:35Z
  
-@@ -279261,13 +279442,16 @@
+@@ -279261,13 +279515,16 @@
  
  [Term]
  id: GO:0044562
@@ -2125,7 +2473,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:01:49Z
  
-@@ -279281,7 +279465,6 @@
+@@ -279281,7 +279538,6 @@
  synonym: "voltage-dependence of activation shift (to the left)" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -2133,7 +2481,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:06:29Z
  
-@@ -279294,7 +279477,6 @@
+@@ -279294,7 +279550,6 @@
  synonym: "envenomation resulting in occlusion of the pore of voltage-gated potassium channel in other organism" EXACT []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29857" xsd:anyURI
  is_obsolete: true
@@ -2141,7 +2489,7 @@
  created_by: jl
  creation_date: 2012-04-05T04:14:24Z
  
-@@ -281044,49 +281226,58 @@
+@@ -281044,49 +281299,58 @@
  
  [Term]
  id: GO:0044733
@@ -2209,7 +2557,7 @@
  created_by: jl
  creation_date: 2012-11-06T16:05:58Z
  
-@@ -287032,8 +287223,9 @@
+@@ -287032,8 +287296,9 @@
  id: GO:0045498
  name: sex comb development
  namespace: biological_process
@@ -2220,7 +2568,56 @@
  
  [Term]
  id: GO:0045499
-@@ -298746,7 +298938,6 @@
+@@ -291375,38 +291640,40 @@
+ 
+ [Term]
+ id: GO:0045820
+-name: negative regulation of glycolytic process
++name: negative regulation of glycolysis
+ namespace: biological_process
+ def: "Any process that stops, prevents, or reduces the frequency, rate or extent of glycolysis." [GOC:curators]
+ synonym: "down regulation of glycolysis" EXACT []
+ synonym: "down-regulation of glycolysis" EXACT []
+ synonym: "downregulation of glycolysis" EXACT []
+ synonym: "inhibition of glycolysis" NARROW []
+-is_a: GO:0006110 ! regulation of glycolytic process
++synonym: "negative regulation of glycolytic process" EXACT []
++is_a: GO:0006110 ! regulation of glycolysis
+ is_a: GO:0033122 ! negative regulation of purine nucleotide catabolic process
+ is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
+ is_a: GO:1903579 ! negative regulation of ATP metabolic process
+ intersection_of: GO:0065007 ! biological regulation
+-intersection_of: negatively_regulates GO:0006096 ! glycolytic process
+-relationship: negatively_regulates GO:0006096 ! glycolytic process
++intersection_of: negatively_regulates GO:0006096 ! glycolysis
++relationship: negatively_regulates GO:0006096 ! glycolysis
+ 
+ [Term]
+ id: GO:0045821
+-name: positive regulation of glycolytic process
++name: positive regulation of glycolysis
+ namespace: biological_process
+ def: "Any process that activates or increases the frequency, rate or extent of glycolysis." [GOC:curators]
+ synonym: "activation of glycolysis" NARROW []
++synonym: "positive regulation of glycolytic process" EXACT []
+ synonym: "stimulation of glycolysis" NARROW []
+ synonym: "up regulation of glycolysis" EXACT []
+ synonym: "up-regulation of glycolysis" EXACT []
+ synonym: "upregulation of glycolysis" EXACT []
+-is_a: GO:0006110 ! regulation of glycolytic process
++is_a: GO:0006110 ! regulation of glycolysis
+ is_a: GO:0033123 ! positive regulation of purine nucleotide catabolic process
+ is_a: GO:0045913 ! positive regulation of carbohydrate metabolic process
+ is_a: GO:1903580 ! positive regulation of ATP metabolic process
+ intersection_of: GO:0065007 ! biological regulation
+-intersection_of: positively_regulates GO:0006096 ! glycolytic process
+-relationship: positively_regulates GO:0006096 ! glycolytic process
++intersection_of: positively_regulates GO:0006096 ! glycolysis
++relationship: positively_regulates GO:0006096 ! glycolysis
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29024" xsd:anyURI
+ 
+ [Term]
+@@ -298746,7 +299013,6 @@
  synonym: "N-acetylneuraminate biosynthesis" EXACT []
  synonym: "N-acetylneuraminate formation" EXACT []
  synonym: "N-acetylneuraminate synthesis" EXACT []
@@ -2228,7 +2625,7 @@
  is_a: GO:0046349 ! amino sugar biosynthetic process
  is_a: GO:0046394 ! carboxylic acid biosynthetic process
  
-@@ -298885,23 +299076,27 @@
+@@ -298885,23 +299151,27 @@
  name: carboxylic acid biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the formation of carboxylic acids, any organic acid containing one or more carboxyl (-COOH) groups." [ISBN:0198506732]
@@ -2256,7 +2653,7 @@
  
  [Term]
  id: GO:0046396
-@@ -299390,11 +299585,13 @@
+@@ -299390,11 +299660,13 @@
  name: organophosphate catabolic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the breakdown of organophosphates, any phosphate-containing organic compound." [GOC:ai]
@@ -2270,7 +2667,7 @@
  
  [Term]
  id: GO:0046435
-@@ -304916,16 +305113,18 @@
+@@ -304916,16 +305188,18 @@
  id: GO:0046923
  name: ER lumen protein retrieval receptor activity
  namespace: molecular_function
@@ -2296,7 +2693,7 @@
  
  [Term]
  id: GO:0046924
-@@ -305471,23 +305670,29 @@
+@@ -305471,23 +305745,29 @@
  
  [Term]
  id: GO:0046965
@@ -2332,7 +2729,7 @@
  
  [Term]
  id: GO:0046967
-@@ -306595,9 +306800,9 @@
+@@ -306595,9 +306875,9 @@
  def: "Catalysis of the reaction: 5,6,7,8-tetrahydrobiopterin + 2 NADP+ = biopterin + 2 H+ + 2 NADPH." [EC:1.5.1.33, RHEA:19509]
  synonym: "5,6,7,8-tetrahydrobiopterin:NADP+ oxidoreductase activity" RELATED [EC:1.5.1.33]
  synonym: "dihydrobiopterin reduction" RELATED []
@@ -2344,7 +2741,7 @@
  xref: EC:1.5.1.33
  xref: KEGG_REACTION:R01812
  xref: MetaCyc:1.1.1.253-RXN
-@@ -316323,19 +316528,18 @@
+@@ -316323,19 +316603,18 @@
  
  [Term]
  id: GO:0047576
@@ -2372,7 +2769,7 @@
  
  [Term]
  id: GO:0047577
-@@ -330005,12 +330209,13 @@
+@@ -330005,12 +330284,13 @@
  name: regulation of collateral sprouting
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of collateral sprouting." [GOC:dgh, GOC:dph, GOC:jid, GOC:lm]
@@ -2387,7 +2784,7 @@
  
  [Term]
  id: GO:0048671
-@@ -330195,12 +330400,13 @@
+@@ -330195,12 +330475,13 @@
  name: regulation of sprouting of injured axon
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of sprouting of an injured axon." [GOC:dgh, GOC:dph, GOC:jid, GOC:lm]
@@ -2402,7 +2799,7 @@
  
  [Term]
  id: GO:0048687
-@@ -331504,11 +331710,12 @@
+@@ -331504,11 +331785,12 @@
  id: GO:0048816
  name: ocellus morphogenesis
  namespace: biological_process
@@ -2416,7 +2813,7 @@
  
  [Term]
  id: GO:0048817
-@@ -336074,7 +336281,7 @@
+@@ -336074,7 +336356,7 @@
  id: GO:0050197
  name: phytanate-CoA ligase activity
  namespace: molecular_function
@@ -2425,7 +2822,7 @@
  synonym: "phytanate:CoA ligase (AMP-forming)" RELATED [EC:6.2.1.24]
  synonym: "phytanoyl-CoA ligase activity" RELATED [EC:6.2.1.24]
  xref: EC:6.2.1.24
-@@ -336082,10 +336289,11 @@
+@@ -336082,10 +336364,11 @@
  xref: MetaCyc:PHYTANATE--COA-LIGASE-RXN
  xref: Reactome:R-HSA-389622 "phytanate + CoA-SH + ATP => phytanoyl-CoA + AMP + pyrophosphate"
  xref: RHEA:21380
@@ -2438,7 +2835,7 @@
  
  [Term]
  id: GO:0050198
-@@ -343428,7 +343636,7 @@
+@@ -343428,7 +343711,7 @@
  id: GO:0050633
  name: acetyl-CoA C-myristoyltransferase activity
  namespace: molecular_function
@@ -2447,7 +2844,7 @@
  synonym: "3-oxopalmitoyl-CoA hydrolase activity" RELATED [EC:2.3.1.155]
  synonym: "3-oxopalmitoyl-CoA-CoA acetyltransferase activity" RELATED [EC:2.3.1.155]
  synonym: "myristoyl-CoA C-acetyltransferase activity" RELATED [EC:2.3.1.155]
-@@ -343436,10 +343644,12 @@
+@@ -343436,10 +343719,12 @@
  xref: EC:2.3.1.155
  xref: MetaCyc:2.3.1.155-RXN
  xref: RHEA:18161
@@ -2460,7 +2857,7 @@
  
  [Term]
  id: GO:0050634
-@@ -344096,13 +344306,16 @@
+@@ -344096,13 +344381,16 @@
  
  [Term]
  id: GO:0050681
@@ -2480,7 +2877,7 @@
  
  [Term]
  id: GO:0050682
-@@ -350108,7 +350321,6 @@
+@@ -350108,7 +350396,6 @@
  synonym: "protein-mitochondrion membrane insertion" EXACT []
  is_a: GO:0007006 ! mitochondrial membrane organization
  is_a: GO:0051205 ! protein insertion into membrane
@@ -2488,7 +2885,7 @@
  is_a: GO:0072594 ! establishment of protein localization to organelle
  relationship: part_of GO:0070585 ! protein localization to mitochondrion
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
-@@ -358521,7 +358733,7 @@
+@@ -358521,7 +358808,7 @@
  id: GO:0051920
  name: peroxiredoxin activity
  namespace: molecular_function
@@ -2497,7 +2894,7 @@
  comment: Includes redox chemistry as part of the catalytic reaction (2 R'-SH = R'-S-S-R'), where R' refers to peroxiredoxin itself).
  synonym: "PRDX activity" EXACT []
  synonym: "Prx activity" EXACT []
-@@ -358529,16 +358741,13 @@
+@@ -358529,16 +358816,13 @@
  xref: Reactome:R-HSA-1222755 "Peroxynitrite is reduced to nitrite by Tpx"
  xref: Reactome:R-HSA-1500804 "Peroxynitrite is reduced by AhpE"
  xref: RHEA:10008
@@ -2515,7 +2912,7 @@
  
  [Term]
  id: GO:0051921
-@@ -369027,10 +369236,11 @@
+@@ -369027,10 +369311,11 @@
  xref: KEGG_REACTION:R07041
  xref: MetaCyc:RXN-19677
  xref: RHEA:39755
@@ -2528,7 +2925,7 @@
  created_by: ai
  creation_date: 2012-01-30T03:05:27Z
  
-@@ -383918,22 +384128,25 @@
+@@ -383918,22 +384203,25 @@
  
  [Term]
  id: GO:0061160
@@ -2563,7 +2960,7 @@
  created_by: dph
  creation_date: 2010-06-23T09:26:45Z
  
-@@ -384867,11 +385080,13 @@
+@@ -384867,11 +385155,13 @@
  
  [Term]
  id: GO:0061246
@@ -2581,7 +2978,7 @@
  created_by: dph
  creation_date: 2010-08-23T09:46:01Z
  
-@@ -385528,10 +385743,13 @@
+@@ -385528,10 +385818,13 @@
  
  [Term]
  id: GO:0061305
@@ -2598,7 +2995,7 @@
  created_by: dph
  creation_date: 2010-09-16T09:25:18Z
  
-@@ -386203,23 +386421,25 @@
+@@ -386203,23 +386496,25 @@
  
  [Term]
  id: GO:0061361
@@ -2634,7 +3031,7 @@
  created_by: dph
  creation_date: 2010-10-13T09:03:42Z
  
-@@ -386482,9 +386702,10 @@
+@@ -386482,9 +386777,10 @@
  id: GO:0061387
  name: regulation of extent of cell growth
  namespace: biological_process
@@ -2646,7 +3043,7 @@
  created_by: dph
  creation_date: 2011-07-14T10:15:42Z
  
-@@ -386492,8 +386713,9 @@
+@@ -386492,8 +386788,9 @@
  id: GO:0061388
  name: regulation of rate of cell growth
  namespace: biological_process
@@ -2657,7 +3054,7 @@
  created_by: dph
  creation_date: 2011-07-14T10:18:06Z
  
-@@ -386501,9 +386723,10 @@
+@@ -386501,9 +386798,10 @@
  id: GO:0061389
  name: regulation of direction of cell growth
  namespace: biological_process
@@ -2669,7 +3066,7 @@
  created_by: dph
  creation_date: 2011-07-14T10:19:46Z
  
-@@ -386987,10 +387210,13 @@
+@@ -386987,10 +387285,13 @@
  
  [Term]
  id: GO:0061429
@@ -2686,7 +3083,243 @@
  created_by: dph
  creation_date: 2012-02-07T09:54:49Z
  
-@@ -390717,13 +390943,14 @@
+@@ -387461,13 +387762,13 @@
+ 
+ [Term]
+ id: GO:0061475
+-name: cytosolic valyl-tRNA aminoacylation
++name: obsolete cytosolic valyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling valine to valyl-tRNA in the cytosol, catalyzed by valyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:dph]
+-is_a: GO:0006438 ! valyl-tRNA aminoacylation
+-intersection_of: GO:0006438 ! valyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005829 ! cytosol
+-relationship: occurs_in GO:0005829 ! cytosol
++def: "OBSOLETE. The process of coupling valine to valyl-tRNA in the cytosol, catalyzed by valyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:dph]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004832 valine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ created_by: dph
+ creation_date: 2012-11-06T12:29:42Z
+ 
+@@ -388975,32 +389276,28 @@
+ 
+ [Term]
+ id: GO:0061615
+-name: glycolytic process through fructose-6-phosphate
++name: obsolete glycolytic process through fructose-6-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of a monosaccharide into pyruvate, occurring through a fructose-6-phosphate intermediate, with the concomitant production of ATP and NADH." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a monosaccharide into pyruvate, occurring through a fructose-6-phosphate intermediate, with the concomitant production of ATP and NADH." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ synonym: "glycolysis through fructose-6-phosphate" EXACT [GOC:dph]
+-xref: MetaCyc:PWY-5484
+-is_a: GO:0006096 ! glycolytic process
+-intersection_of: GO:0006096 ! glycolytic process
+-intersection_of: has_part GO:0003872 ! 6-phosphofructokinase activity
+-intersection_of: has_part GO:0004332 ! fructose-bisphosphate aldolase activity
+-intersection_of: has_part GO:0004807 ! triose-phosphate isomerase activity
+-relationship: has_part GO:0003872 ! 6-phosphofructokinase activity
+-relationship: has_part GO:0004332 ! fructose-bisphosphate aldolase activity
+-relationship: has_part GO:0004807 ! triose-phosphate isomerase activity
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-08T10:08:49Z
+ 
+ [Term]
+ id: GO:0061616
+-name: glycolytic process from fructose through fructose-6-phosphate
++name: obsolete glycolytic process from fructose through fructose-6-phosphate
+ namespace: biological_process
+-def: "The glycolytic process through fructose-6-phosphate in which fructose is catabolized into pyruvate." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++def: "OBSOLETE. The glycolytic process through fructose-6-phosphate in which fructose is catabolized into pyruvate." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ synonym: "glycolysis from fructose through fructose-6-phosphate" EXACT [GOC:dph]
+-is_a: GO:0006001 ! fructose catabolic process
+-is_a: GO:0061615 ! glycolytic process through fructose-6-phosphate
+-relationship: has_part GO:0008865 ! fructokinase activity
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28388" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-08T10:20:37Z
+ 
+@@ -389029,64 +389326,66 @@
+ 
+ [Term]
+ id: GO:0061619
+-name: glycolytic process from mannose through fructose-6-phosphate
++name: obsolete glycolytic process from mannose through fructose-6-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of mannose into pyruvate, occurring through a fructose-6-phosphate intermediate, with the concomitant production of ATP and NADH." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
+-is_a: GO:0019309 ! mannose catabolic process
+-is_a: GO:0061615 ! glycolytic process through fructose-6-phosphate
+-relationship: has_part GO:0061611 ! mannose to fructose-6-phosphate catabolic process
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of mannose into pyruvate, occurring through a fructose-6-phosphate intermediate, with the concomitant production of ATP and NADH." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-14T09:13:13Z
+ 
+ [Term]
+ id: GO:0061620
+-name: glycolytic process through glucose-6-phosphate
++name: obsolete glycolytic process through glucose-6-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, occurring through a glucose-6-phosphate intermediate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
+-is_a: GO:0061615 ! glycolytic process through fructose-6-phosphate
+-relationship: has_part GO:0004347 ! glucose-6-phosphate isomerase activity
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, occurring through a glucose-6-phosphate intermediate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26642" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29187" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-14T09:17:48Z
+ 
+ [Term]
+ id: GO:0061621
+-name: canonical glycolysis
++name: obsolete canonical glycolysis
+ namespace: biological_process
+-def: "The glycolytic process that begins with the conversion of glucose to glucose-6-phosphate by glucokinase activity. Glycolytic processes are the chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
+-xref: MetaCyc:ANAGLYCOLYSIS-PWY
++def: "OBSOLETE. The glycolytic process that begins with the conversion of glucose to glucose-6-phosphate by glucokinase activity. Glycolytic processes are the chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ xref: Reactome:R-HSA-70171 "Glycolysis"
+-xref: Wikipedia:Glycolysis
+-is_a: GO:0006007 ! glucose catabolic process
+-is_a: GO:0061620 ! glycolytic process through glucose-6-phosphate
+-relationship: has_part GO:0004340 ! glucokinase activity
+-relationship: has_part GO:0004365 ! glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28968" xsd:anyURI
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29050" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-14T09:21:54Z
+ 
+ [Term]
+ id: GO:0061622
+-name: glycolytic process through glucose-1-phosphate
++name: obsolete glycolytic process through glucose-1-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways through a glucose-1-phosphate intermediate that result in the catabolism of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910]
+-is_a: GO:0061620 ! glycolytic process through glucose-6-phosphate
+-intersection_of: GO:0061620 ! glycolytic process through glucose-6-phosphate
+-intersection_of: has_part GO:0004614 ! phosphoglucomutase activity
+-relationship: has_part GO:0004614 ! phosphoglucomutase activity
++def: "OBSOLETE. The chemical reactions and pathways through a glucose-1-phosphate intermediate that result in the catabolism of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-28T08:08:01Z
+ 
+ [Term]
+ id: GO:0061623
+-name: glycolytic process from galactose
++name: obsolete glycolytic process from galactose
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of galactose into pyruvate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910]
+-is_a: GO:0019388 ! galactose catabolic process
+-is_a: GO:0061622 ! glycolytic process through glucose-1-phosphate
+-relationship: has_part GO:0033499 ! beta-D-galactose catabolic process via UDP-galactose, Leloir pathway
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of galactose into pyruvate, with the concomitant production of a small amount of ATP." [GOC:dph, ISBN:0201090910]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-28T08:13:38Z
+ 
+@@ -389106,12 +389405,14 @@
+ 
+ [Term]
+ id: GO:0061625
+-name: glycolytic process through fructose-1-phosphate
++name: obsolete glycolytic process through fructose-1-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of fructose into pyruvate through a fructose-1-phosphate intermediate, with the concomitant production of ATP and NADH." [GOC:dph, ISBN:0201090910]
+-xref: MetaCyc:PWY-8404
+-is_a: GO:0006096 ! glycolytic process
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of fructose into pyruvate through a fructose-1-phosphate intermediate, with the concomitant production of ATP and NADH." [GOC:dph, ISBN:0201090910]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27616" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-04-29T13:04:10Z
+ 
+@@ -389338,14 +389639,14 @@
+ 
+ [Term]
+ id: GO:0061633
+-name: transport-coupled glycolytic process through glucose-6-phosphate
++name: obsolete transport-coupled glycolytic process through glucose-6-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of glucose into pyruvate, in which the glucose is converted to glucose-6-phosphate intermediate coupled to transmembrane transport." [GOC:dph]
+-xref: MetaCyc:GLYCOLYSIS
+-is_a: GO:0006007 ! glucose catabolic process
+-is_a: GO:0061620 ! glycolytic process through glucose-6-phosphate
+-relationship: has_part GO:0022855 ! protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of glucose into pyruvate, in which the glucose is converted to glucose-6-phosphate intermediate coupled to transmembrane transport." [GOC:dph]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26642" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2014-06-19T09:12:37Z
+ 
+@@ -390143,11 +390444,13 @@
+ 
+ [Term]
+ id: GO:0061704
+-name: glycolytic process from sucrose
++name: obsolete glycolytic process from sucrose
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of a sucrose into pyruvate, with the concomitant production of a small amount of ATP and the reduction of NAD(P) to NAD(P)H. Glycolysis begins with the metabolism of a carbohydrate to generate products that can enter the pathway and ends with the production of pyruvate. Pyruvate may be converted to acetyl-coenzyme A, ethanol, lactate, or other small molecules." [GOC:dph, GOC:glycolysis, PMID:15012287]
+-is_a: GO:0005987 ! sucrose catabolic process
+-is_a: GO:0006096 ! glycolytic process
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a sucrose into pyruvate, with the concomitant production of a small amount of ATP and the reduction of NAD(P) to NAD(P)H. Glycolysis begins with the metabolism of a carbohydrate to generate products that can enter the pathway and ends with the production of pyruvate. Pyruvate may be converted to acetyl-coenzyme A, ethanol, lactate, or other small molecules." [GOC:dph, GOC:glycolysis, PMID:15012287]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2015-06-11T13:26:28Z
+ 
+@@ -390165,11 +390468,13 @@
+ 
+ [Term]
+ id: GO:0061706
+-name: glycolytic process from sucrose through glucose and fructose
++name: obsolete glycolytic process from sucrose through glucose and fructose
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of sucrose into pyruvate through both glucose and fructose intermediates, with the concomitant production of a small amount of ATP and the reduction of NAD(P) to NAD(P)H. Glycolysis begins with the metabolism of a carbohydrate to generate products that can enter the pathway and ends with the production of pyruvate. Pyruvate may be converted to acetyl-coenzyme A, ethanol, lactate, or other small molecules." [GOC:dph, GOC:glycolysis, MetaCyc:PWY-1042, PMID:15012287]
+-xref: MetaCyc:PWY-1042
+-is_a: GO:0061704 ! glycolytic process from sucrose
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of sucrose into pyruvate through both glucose and fructose intermediates, with the concomitant production of a small amount of ATP and the reduction of NAD(P) to NAD(P)H. Glycolysis begins with the metabolism of a carbohydrate to generate products that can enter the pathway and ends with the production of pyruvate. Pyruvate may be converted to acetyl-coenzyme A, ethanol, lactate, or other small molecules." [GOC:dph, GOC:glycolysis, MetaCyc:PWY-1042, PMID:15012287]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ created_by: dph
+ creation_date: 2015-06-11T13:40:32Z
+ 
+@@ -390717,13 +391022,14 @@
  
  [Term]
  id: GO:0061753
@@ -2705,7 +3338,7 @@
  created_by: dph
  creation_date: 2015-11-20T11:14:22Z
  
-@@ -391218,13 +391445,13 @@
+@@ -391218,13 +391524,13 @@
  
  [Term]
  id: GO:0061796
@@ -2725,7 +3358,7 @@
  created_by: dph
  creation_date: 2016-10-05T12:06:11Z
  
-@@ -391393,14 +391620,14 @@
+@@ -391393,14 +391699,14 @@
  xref: Reactome:R-HSA-8938076 "CD38 hydrolyses NAD+ to NAM and ADP-ribose"
  xref: Reactome:R-HSA-9637699 "CpnT hydrolyses NAD+"
  xref: RHEA:38611
@@ -2742,7 +3375,7 @@
  created_by: dph
  creation_date: 2016-11-11T13:14:13Z
  
-@@ -391430,13 +391657,16 @@
+@@ -391430,13 +391736,16 @@
  
  [Term]
  id: GO:0061812
@@ -2764,7 +3397,7 @@
  created_by: dph
  creation_date: 2016-11-11T13:32:43Z
  
-@@ -391860,11 +392090,13 @@
+@@ -391860,11 +392169,13 @@
  id: GO:0061857
  name: endoplasmic reticulum stress-induced pre-emptive quality control
  namespace: biological_process
@@ -2780,7 +3413,7 @@
  created_by: dph
  creation_date: 2017-03-28T13:05:03Z
  
-@@ -393121,11 +393353,13 @@
+@@ -393121,11 +393432,13 @@
  
  [Term]
  id: GO:0061987
@@ -2798,7 +3431,7 @@
  created_by: dph
  creation_date: 2018-02-15T17:48:00Z
  
-@@ -393958,7 +394192,8 @@
+@@ -393958,7 +394271,8 @@
  namespace: cellular_component
  def: "A protein complex essential for autophagy during nutrient deprivation, a catabolic process that sequesters undesired cellular material into autophagosomes for delivery to lysosomes for degradation. Contributes to nutrition homeostasis and damage control in eukaryotic cells. Functions at a late step of autophagosome formation for efficient completion of sequestration, probably through facilitating recruitment of ATG8-phosphatidylethanolamine (PE) to the preautophagosomal structure (PAS) and/or its protection from deconjugation by ATG4. Composed of ATG2 and ATG18 in Saccharomyces cerevisiae." [GOC:bhm, PMID:23230146]
  is_a: GO:0098796 ! membrane protein complex
@@ -2808,7 +3441,7 @@
  created_by: dph
  creation_date: 2018-10-12T13:47:25Z
  
-@@ -395986,10 +396221,12 @@
+@@ -395986,10 +396300,12 @@
  name: intracellular organelle lumen
  namespace: cellular_component
  def: "An organelle lumen that is part of an intracellular organelle." [GOC:mah]
@@ -2821,7 +3454,335 @@
  
  [Term]
  id: GO:0070014
-@@ -399284,7 +399521,7 @@
+@@ -397261,173 +397577,173 @@
+ 
+ [Term]
+ id: GO:0070143
+-name: mitochondrial alanyl-tRNA aminoacylation
++name: obsolete mitochondrial alanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling alanine to alanyl-tRNA in a mitochondrion, catalyzed by alanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006419 ! alanyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006419 ! alanyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling alanine to alanyl-tRNA in a mitochondrion, catalyzed by alanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004813 alanine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070144
+-name: mitochondrial arginyl-tRNA aminoacylation
++name: obsolete mitochondrial arginyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling arginine to arginyl-tRNA in a mitochondrion, catalyzed by arginyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006420 ! arginyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006420 ! arginyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling arginine to arginyl-tRNA in a mitochondrion, catalyzed by arginyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004814 arginine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070145
+-name: mitochondrial asparaginyl-tRNA aminoacylation
++name: obsolete mitochondrial asparaginyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling asparagine to asparaginyl-tRNA in a mitochondrion, catalyzed by asparaginyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006421 ! asparaginyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006421 ! asparaginyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling asparagine to asparaginyl-tRNA in a mitochondrion, catalyzed by asparaginyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004816 asparagine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070146
+-name: mitochondrial aspartyl-tRNA aminoacylation
++name: obsolete mitochondrial aspartyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling aspartate to aspartyl-tRNA in a mitochondrion, catalyzed by aspartyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006422 ! aspartyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006422 ! aspartyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling aspartate to aspartyl-tRNA in a mitochondrion, catalyzed by aspartyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004815 aspartate-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070147
+-name: mitochondrial cysteinyl-tRNA aminoacylation
++name: obsolete mitochondrial cysteinyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling L-cysteine to cysteinyl-tRNA in a mitochondrion, catalyzed by cysteinyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006423 ! cysteinyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006423 ! cysteinyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling L-cysteine to cysteinyl-tRNA in a mitochondrion, catalyzed by cysteinyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004817 cysteine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070148
+-name: mitochondrial glutaminyl-tRNA aminoacylation
++name: obsolete mitochondrial glutaminyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling glutamine to glutaminyl-tRNA in a mitochondrion, catalyzed by glutaminyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006425 ! glutaminyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006425 ! glutaminyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling glutamine to glutaminyl-tRNA in a mitochondrion, catalyzed by glutaminyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function and adds nothing beyond it. Note that the counterpart is not a glutamine-tRNA ligase in most eukaryotes: mitochondria generally encode no mitochondrial GlnRS, and mt-tRNA(Gln) is charged indirectly by a non-discriminating mitochondrial GluRS followed by the GatCAB amidotransferase, which is GO:0050567 glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity. GO:0004819 glutamine-tRNA ligase activity applies only where a mitochondrial GlnRS is present. The biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070149
+-name: mitochondrial glutamyl-tRNA aminoacylation
++name: obsolete mitochondrial glutamyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling glutamate to glutamyl-tRNA in a mitochondrion, catalyzed by glutamyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006424 ! glutamyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006424 ! glutamyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling glutamate to glutamyl-tRNA in a mitochondrion, catalyzed by glutamyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004818 glutamate-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070150
+-name: mitochondrial glycyl-tRNA aminoacylation
++name: obsolete mitochondrial glycyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling glycine to glycyl-tRNA in a mitochondrion, catalyzed by glycyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006426 ! glycyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006426 ! glycyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling glycine to glycyl-tRNA in a mitochondrion, catalyzed by glycyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004820 glycine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070151
+-name: mitochondrial histidyl-tRNA aminoacylation
++name: obsolete mitochondrial histidyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling histidine to histidyl-tRNA in a mitochondrion, catalyzed by histidyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006427 ! histidyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006427 ! histidyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling histidine to histidyl-tRNA in a mitochondrion, catalyzed by histidyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004821 histidine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070152
+-name: mitochondrial isoleucyl-tRNA aminoacylation
++name: obsolete mitochondrial isoleucyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling isoleucine to isoleucyl-tRNA in a mitochondrion, catalyzed by isoleucyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006428 ! isoleucyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006428 ! isoleucyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling isoleucine to isoleucyl-tRNA in a mitochondrion, catalyzed by isoleucyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004822 isoleucine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070153
+-name: mitochondrial leucyl-tRNA aminoacylation
++name: obsolete mitochondrial leucyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling leucine to leucyl-tRNA in a mitochondrion, catalyzed by leucyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006429 ! leucyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006429 ! leucyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling leucine to leucyl-tRNA in a mitochondrion, catalyzed by leucyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004823 leucine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070154
+-name: mitochondrial lysyl-tRNA aminoacylation
++name: obsolete mitochondrial lysyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling lysine to lysyl-tRNA in a mitochondrion, catalyzed by lysyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006430 ! lysyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006430 ! lysyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling lysine to lysyl-tRNA in a mitochondrion, catalyzed by lysyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004824 lysine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070155
+-name: mitochondrial methionyl-tRNA aminoacylation
++name: obsolete mitochondrial methionyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling methionine to methionyl-tRNA in a mitochondrion, catalyzed by methionyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006431 ! methionyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006431 ! methionyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling methionine to methionyl-tRNA in a mitochondrion, catalyzed by methionyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004825 methionine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070156
+-name: mitochondrial phenylalanyl-tRNA aminoacylation
++name: obsolete mitochondrial phenylalanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling phenylalanine to phenylalanyl-tRNA in a mitochondrion, catalyzed by phenylalanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006432 ! phenylalanyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006432 ! phenylalanyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling phenylalanine to phenylalanyl-tRNA in a mitochondrion, catalyzed by phenylalanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004826 phenylalanine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070157
+-name: mitochondrial prolyl-tRNA aminoacylation
++name: obsolete mitochondrial prolyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling proline to prolyl-tRNA in a mitochondrion, catalyzed by prolyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006433 ! prolyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006433 ! prolyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling proline to prolyl-tRNA in a mitochondrion, catalyzed by prolyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004827 proline-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070158
+-name: mitochondrial seryl-tRNA aminoacylation
++name: obsolete mitochondrial seryl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling serine to seryl-tRNA in a mitochondrion, catalyzed by seryl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006434 ! seryl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006434 ! seryl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling serine to seryl-tRNA in a mitochondrion, catalyzed by seryl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004828 serine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070159
+-name: mitochondrial threonyl-tRNA aminoacylation
++name: obsolete mitochondrial threonyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling threonine to threonyl-tRNA in a mitochondrion, catalyzed by threonyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006435 ! threonyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006435 ! threonyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling threonine to threonyl-tRNA in a mitochondrion, catalyzed by threonyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004829 threonine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070160
+@@ -397672,33 +397988,33 @@
+ 
+ [Term]
+ id: GO:0070183
+-name: mitochondrial tryptophanyl-tRNA aminoacylation
++name: obsolete mitochondrial tryptophanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling tryptophan to tryptophanyl-tRNA in a mitochondrion, catalyzed by tryptophanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006436 ! tryptophanyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006436 ! tryptophanyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling tryptophan to tryptophanyl-tRNA in a mitochondrion, catalyzed by tryptophanyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004830 tryptophan-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070184
+-name: mitochondrial tyrosyl-tRNA aminoacylation
++name: obsolete mitochondrial tyrosyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling tyrosine to tyrosyl-tRNA in a mitochondrion, catalyzed by tyrosyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006437 ! tyrosyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006437 ! tyrosyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling tyrosine to tyrosyl-tRNA in a mitochondrion, catalyzed by tyrosyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004831 tyrosine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070185
+-name: mitochondrial valyl-tRNA aminoacylation
++name: obsolete mitochondrial valyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling valine to valyl-tRNA in a mitochondrion, catalyzed by valyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
+-is_a: GO:0006438 ! valyl-tRNA aminoacylation
+-is_a: GO:0070127 ! tRNA aminoacylation for mitochondrial protein translation
+-intersection_of: GO:0006438 ! valyl-tRNA aminoacylation
+-intersection_of: occurs_in GO:0005739 ! mitochondrion
++def: "OBSOLETE. The process of coupling valine to valyl-tRNA in a mitochondrion, catalyzed by valyl-tRNA synthetase. In tRNA aminoacylation, the amino acid is first activated by linkage to AMP and then transferred to either the 2'- or the 3'-hydroxyl group of the 3'-adenosine residue of the tRNA." [GOC:mah, GOC:mcc]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004832 valine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0070127
+ 
+ [Term]
+ id: GO:0070186
+@@ -399284,7 +399600,7 @@
  name: inward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel." [GOC:mah]
@@ -2830,25 +3791,39 @@
  relationship: negatively_regulates GO:0005242 ! inward rectifier potassium channel activity
  
  [Term]
-@@ -403380,7 +403617,7 @@
+@@ -403376,11 +403692,14 @@
+ 
+ [Term]
+ id: GO:0070681
+-name: glutaminyl-tRNAGln biosynthesis via transamidation
++name: obsolete glutaminyl-tRNAGln biosynthesis via transamidation
  namespace: biological_process
- def: "A tRNA aminoacylation process in which glutaminyl-tRNAGln is formed by a tRNA-dependent two-step pathway. In the first step a non-discriminating glutamyl-tRNAGlx synthetase generates the misacylated L-glutamyl-tRNAGln species, and in the second step it is amidated to the correctly charged L-glutaminyl-tRNAGln by a glutamyl-tRNAGln amidotransferase." [GOC:mah, MetaCyc:PWY-5921]
- xref: MetaCyc:PWY-5921
+-def: "A tRNA aminoacylation process in which glutaminyl-tRNAGln is formed by a tRNA-dependent two-step pathway. In the first step a non-discriminating glutamyl-tRNAGlx synthetase generates the misacylated L-glutamyl-tRNAGln species, and in the second step it is amidated to the correctly charged L-glutaminyl-tRNAGln by a glutamyl-tRNAGln amidotransferase." [GOC:mah, MetaCyc:PWY-5921]
+-xref: MetaCyc:PWY-5921
 -is_a: GO:0043039 ! tRNA aminoacylation
-+is_a: GO:0043039 ! tRNA charging
++def: "OBSOLETE. A tRNA aminoacylation process in which glutaminyl-tRNAGln is formed by a tRNA-dependent two-step pathway. In the first step a non-discriminating glutamyl-tRNAGlx synthetase generates the misacylated L-glutamyl-tRNAGln species, and in the second step it is amidated to the correctly charged L-glutaminyl-tRNAGln by a glutamyl-tRNAGln amidotransferase." [GOC:mah, MetaCyc:PWY-5921]
++comment: The reason for obsoletion is that this term represents a specific pathway variant, which is out of scope for GO, following the obsoletion of its structural twin GO:0070680 asparaginyl-tRNAAsn biosynthesis via transamidation. No replaced_by is given because no single term is a safe automatic substitution: the amidotransferase step is GO:0050567 glutaminyl-tRNA synthase (glutamine-hydrolyzing) activity, while GatCAB subunits act on an already-charged tRNA and may belong under GO:0019988 charged-tRNA amino acid modification rather than under tRNA charging at all. Annotations require review rather than migration.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++consider: GO:0043039
++consider: GO:0050567
  created_by: mah
  creation_date: 2009-06-02T03:15:57Z
  
-@@ -414502,7 +414739,7 @@
+@@ -414502,10 +414821,10 @@
  synonym: "nucleus-associated proteasomal ubiquitin-dependent protein catabolism" EXACT [GOC:mah]
  synonym: "nucleus-associated proteasomal ubiquitin-dependent protein degradation" EXACT [GOC:mah]
  synonym: "ubiquitin-dependent catabolism of misfolded proteins by nucleus-associated proteasome" EXACT []
 -is_a: GO:0006515 ! protein quality control for misfolded or incompletely synthesized proteins
 +is_a: GO:0006515 ! protein quality control
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
- relationship: part_of GO:0071218 ! cellular response to misfolded protein
+-relationship: part_of GO:0071218 ! cellular response to misfolded protein
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26433" xsd:anyURI
-@@ -424177,7 +424414,7 @@
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32546" xsd:anyURI
+ created_by: mah
+ creation_date: 2010-02-11T03:31:46Z
+ 
+@@ -424177,7 +424496,7 @@
  synonym: "purine-containing compound breakdown" EXACT [GOC:mah]
  synonym: "purine-containing compound catabolism" EXACT [GOC:mah]
  synonym: "purine-containing compound degradation" EXACT [GOC:mah]
@@ -2857,7 +3832,7 @@
  is_a: GO:0072521 ! purine-containing compound metabolic process
  created_by: mah
  creation_date: 2011-01-04T03:17:20Z
-@@ -438839,7 +439076,8 @@
+@@ -438839,7 +439158,8 @@
  def: "A process that is carried out at the cellular level which results in the arrangement of constituent parts of a phagosome within a cell. Phagosome maturation begins with endocytosis and formation of the early phagosome and ends with the formation of the hybrid organelle, the phagolysosome." [GOC:kmv, GOC:tb]
  is_a: GO:0006996 ! organelle organization
  relationship: has_part GO:0001845 ! phagolysosome assembly
@@ -2867,7 +3842,7 @@
  created_by: tb
  creation_date: 2010-10-19T11:10:34Z
  
-@@ -439115,8 +439353,10 @@
+@@ -439115,8 +439435,10 @@
  name: organophosphate biosynthetic process
  namespace: biological_process
  def: "The chemical reactions and pathways resulting in the biosynthesis of deoxyribose phosphate, the phosphorylated sugar 2-deoxy-erythro-pentose." [GOC:chem_mtg]
@@ -2878,7 +3853,7 @@
  created_by: tb
  creation_date: 2011-02-26T02:22:41Z
  
-@@ -440700,7 +440940,8 @@
+@@ -440700,7 +441022,8 @@
  def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein S-phosphocysteine + sugar(out) = protein cysteine + sugar phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:am]
  is_a: GO:0015144 ! carbohydrate transmembrane transporter activity
  is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
@@ -2888,7 +3863,25 @@
  created_by: tb
  creation_date: 2014-04-08T14:58:00Z
  
-@@ -447625,8 +447866,7 @@
+@@ -442495,11 +442818,13 @@
+ 
+ [Term]
+ id: GO:0093001
+-name: glycolysis from storage polysaccharide through glucose-1-phosphate
++name: obsolete glycolysis from storage polysaccharide through glucose-1-phosphate
+ namespace: biological_process
+-def: "The chemical reactions and pathways resulting in the breakdown of a storage polysaccharide into pyruvate through a glucose-1-phosphate intermediate, with the concomitant production of a small amount of ATP and the reduction of NAD to NADH." [GOC:dph, GOC:glycolysis]
+-is_a: GO:0000272 ! polysaccharide catabolic process
+-is_a: GO:0061622 ! glycolytic process through glucose-1-phosphate
++def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a storage polysaccharide into pyruvate through a glucose-1-phosphate intermediate, with the concomitant production of a small amount of ATP and the reduction of NAD to NADH." [GOC:dph, GOC:glycolysis]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006096
+ 
+ [Term]
+ id: GO:0093002
+@@ -447625,8 +447950,7 @@
  synonym: "gpERAD" EXACT [PMID:25092655]
  synonym: "misfolded or incompletely synthesized glycoprotein catabolic process" BROAD []
  is_a: GO:0006516 ! glycoprotein catabolic process
@@ -2898,7 +3891,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23092" xsd:anyURI
  created_by: pr
  creation_date: 2013-02-05T16:37:13Z
-@@ -449391,19 +449631,21 @@
+@@ -449391,19 +449715,21 @@
  
  [Term]
  id: GO:0097620
@@ -2923,7 +3916,7 @@
  created_by: pr
  creation_date: 2014-07-30T09:53:23Z
  
-@@ -449538,16 +449780,18 @@
+@@ -449538,16 +449864,18 @@
  
  [Term]
  id: GO:0097632
@@ -2949,7 +3942,7 @@
  
  [Term]
  id: GO:0097633
-@@ -449558,7 +449802,7 @@
+@@ -449558,7 +449886,7 @@
  synonym: "intrinsic to phagophore assembly site membrane" NARROW []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23424" xsd:anyURI
  is_obsolete: true
@@ -2958,7 +3951,7 @@
  
  [Term]
  id: GO:0097634
-@@ -449570,7 +449814,7 @@
+@@ -449570,7 +449898,7 @@
  synonym: "phagophore assembly site integral membrane protein" RELATED []
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23424" xsd:anyURI
  is_obsolete: true
@@ -2967,7 +3960,7 @@
  
  [Term]
  id: GO:0097635
-@@ -452278,7 +452522,6 @@
+@@ -452278,7 +452606,6 @@
  xref: Reactome:R-HSA-5690046 "PPT2 hydrolyses PALMCoA to PALM"
  xref: Reactome:R-HSA-9027670 "ESTG binding induces ESR depalmitoylation"
  is_a: GO:0016787 ! hydrolase activity
@@ -2975,7 +3968,7 @@
  created_by: dos
  creation_date: 2014-04-11T17:57:36Z
  
-@@ -453703,10 +453946,14 @@
+@@ -453703,10 +454030,14 @@
  
  [Term]
  id: GO:0098734
@@ -2993,7 +3986,7 @@
  
  [Term]
  id: GO:0098735
-@@ -461066,10 +461313,11 @@
+@@ -461066,10 +461397,11 @@
  xref: MetaCyc:R4-RXN
  xref: Reactome:R-HSA-1222526 "AhpC reduces peroxidated lipids"
  xref: RHEA:62628
@@ -3006,7 +3999,7 @@
  
  [Term]
  id: GO:0102040
-@@ -470428,7 +470676,6 @@
+@@ -470428,7 +470760,6 @@
  xref: RHEA:25367
  is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
  property_value: skos:exactMatch EC:1.1.1.295
@@ -3014,7 +4007,7 @@
  property_value: skos:narrowMatch RHEA:25363
  property_value: skos:narrowMatch RHEA:25367
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19648" xsd:anyURI
-@@ -475811,6 +476058,7 @@
+@@ -475811,6 +476142,7 @@
  synonym: "U2 snRNA adenosine m6 methyltransferase activity" EXACT []
  synonym: "U2 snRNA adenosine N6 methyltransferase activity" EXACT []
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -3022,7 +4015,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27392" xsd:anyURI
  created_by: hjd
  creation_date: 2020-12-18T15:12:57Z
-@@ -479500,6 +479748,7 @@
+@@ -479500,6 +479832,7 @@
  xref: MetaCyc:RXN-18779
  xref: RHEA:52808
  is_a: GO:0106346 ! snRNA methyltransferase activity
@@ -3030,7 +4023,7 @@
  property_value: skos:exactMatch EC:2.1.1.346
  property_value: skos:exactMatch RHEA:52808
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13569" xsd:anyURI
-@@ -486709,8 +486958,10 @@
+@@ -486709,8 +487042,10 @@
  def: "Catalysis of the reaction: (R)-lactate + FAD + H+ = FADH2 + pyruvate." [RHEA:82479]
  xref: RHEA:82479
  is_a: GO:0047809 ! D-lactate dehydrogenase activity
@@ -3041,7 +4034,7 @@
  created_by: pg
  creation_date: 2025-04-17T08:20:22Z
  
-@@ -486753,9 +487004,10 @@
+@@ -486753,9 +487088,10 @@
  
  [Term]
  id: GO:0140174
@@ -3053,7 +4046,7 @@
  xref: RHEA:82483
  xref: RHEA:82487
  xref: RHEA:82491
-@@ -488509,7 +488761,7 @@
+@@ -488509,7 +488845,7 @@
  id: GO:0140309
  name: unfolded protein holdase activity
  namespace: molecular_function
@@ -3062,7 +4055,7 @@
  comment: Note that an holdase binds an unfolded protein and keeps it unfolded, unlike a protein folding chaperone, which binds an unfolded protein to fold it.
  synonym: "holdase" EXACT []
  synonym: "holdase-carrier chaperone" EXACT []
-@@ -489129,12 +489381,13 @@
+@@ -489129,12 +489465,13 @@
  
  [Term]
  id: GO:0140357
@@ -3077,7 +4070,7 @@
  created_by: pg
  creation_date: 2019-05-28T07:40:48Z
  
-@@ -490404,9 +490657,11 @@
+@@ -490404,9 +490741,11 @@
  id: GO:0140455
  name: cytoplasm protein quality control
  namespace: biological_process
@@ -3091,7 +4084,7 @@
  created_by: pg
  creation_date: 2020-04-20T15:46:20Z
  
-@@ -490818,13 +491073,15 @@
+@@ -490818,13 +491157,15 @@
  
  [Term]
  id: GO:0140493
@@ -3111,7 +4104,7 @@
  created_by: pg
  creation_date: 2020-07-10T08:39:22Z
  
-@@ -492215,7 +492472,7 @@
+@@ -492215,7 +492556,7 @@
  name: outward rectifier potassium channel inhibitor activity
  namespace: molecular_function
  def: "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel." [PMID:28108814]
@@ -3120,7 +4113,7 @@
  relationship: negatively_regulates GO:0015271 ! outward rectifier potassium channel activity
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21157" xsd:anyURI
  created_by: pg
-@@ -493975,17 +494232,19 @@
+@@ -493975,17 +494316,19 @@
  id: GO:0140762
  name: glucose dehydrogenase (FAD, quinone) activity
  namespace: molecular_function
@@ -3144,7 +4137,7 @@
  created_by: pg
  creation_date: 2022-02-04T08:02:40Z
  
-@@ -494862,17 +495121,26 @@
+@@ -494862,17 +495205,26 @@
  name: thioredoxin-dependent peroxiredoxin activity
  namespace: molecular_function
  def: "Catalysis of the reaction: [thioredoxin]-dithiol + a hydroperoxide = [thioredoxin]-disulfide + an alcohol + H2O." [PMID:12707274, PMID:19820102, RHEA:62620]
@@ -3171,17 +4164,21 @@
  created_by: pg
  creation_date: 2022-05-18T14:25:09Z
  
-@@ -499342,7 +499610,8 @@
+@@ -499341,9 +499693,11 @@
+ id: GO:0141164
  name: mitochondrial protein quality control
  namespace: biological_process
- def: "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the mitochondrion, which are targeted for degradation." [PMID:38280230]
+-def: "The chemical reactions and pathways resulting in the breakdown of misfolded proteins in the mitochondrion, which are targeted for degradation." [PMID:38280230]
 -is_a: GO:0006515 ! protein quality control for misfolded or incompletely synthesized proteins
++def: "The chemical reactions and pathways resulting in the breakdown of aberrant proteins in the mitochondrion which are targeted for degradation, including misfolded proteins and orphan subunits that fail to assemble into their cognate complex." [PMID:34436539, PMID:38280230, PMID:7623837]
 +is_a: GO:0006515 ! protein quality control
 +is_a: GO:0030163 ! protein catabolic process
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27044" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32546" xsd:anyURI
  created_by: pg
  creation_date: 2024-02-14T07:11:38Z
-@@ -504537,7 +504806,7 @@
+ 
+@@ -504537,7 +504891,7 @@
  synonym: "autophagy adaptor activity" EXACT []
  synonym: "selective autophagy receptor activity" EXACT []
  is_a: GO:0030674 ! protein-macromolecule adaptor activity
@@ -3190,7 +4187,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28283" xsd:anyURI
  created_by: rynl
  creation_date: 2025-02-10T16:57:01Z
-@@ -505274,7 +505543,7 @@
+@@ -505274,7 +505628,7 @@
  synonym: "protein synthesis" EXACT []
  is_a: GO:0009059 ! macromolecule biosynthetic process
  is_a: GO:0019538 ! protein metabolic process
@@ -3199,7 +4196,7 @@
  relationship: part_of GO:0010467 ! gene expression
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
  created_by: rynl
-@@ -506163,6 +506432,7 @@
+@@ -506163,6 +506517,7 @@
  def: "A quality control pathway that degrades peroxisomal matrix protein receptors when the recycling machinery is blocked. When recycling to the cytosol fails, cargo-free receptors accumulate at the peroxisomal membrane, where they are polyubiquitinated and subsequently degraded by the ubiquitin-proteasome system (UPS)." [PMID:16390998, PMID:17011644, PMID:41076631]
  synonym: "Receptor Accumulation and Degradation in the Absence of Recycling" EXACT []
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
@@ -3207,7 +4204,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31570" xsd:anyURI
  created_by: ew
  creation_date: 2026-02-17T22:02:27Z
-@@ -506186,6 +506456,95 @@
+@@ -506186,6 +506541,95 @@
  creation_date: 2026-03-23T21:12:37Z
  
  [Term]
@@ -3303,7 +4300,7 @@
  id: GO:0180000
  name: histone methyltransferase inhibitor activity
  namespace: molecular_function
-@@ -506568,12 +506927,16 @@
+@@ -506568,12 +507012,16 @@
  id: GO:0180031
  name: snoRNA 2,2,7-trimethylguanosine (TMG) capping
  namespace: biological_process
@@ -3321,7 +4318,7 @@
  created_by: vw
  creation_date: 2024-02-07T13:55:54Z
  
-@@ -508107,6 +508470,7 @@
+@@ -508107,6 +508555,7 @@
  synonym: "regulation of sulphate assimilation" EXACT [GOC:TermGenie]
  synonym: "regulation of sulphate assimilation, phosphoadenylyl sulphate reduction by an oxidoreductase, acting on sulphur group of donors, NAD or NADP as acceptor" NARROW [GOC:TermGenie]
  is_a: GO:0042762 ! regulation of sulfur metabolic process
@@ -3329,7 +4326,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0000103 ! sulfate assimilation
  relationship: regulates GO:0000103 ! sulfate assimilation
-@@ -508137,7 +508501,7 @@
+@@ -508137,7 +508586,7 @@
  synonym: "upregulation of sulfate assimilation, phosphoadenylyl sulfate reduction by an oxidoreductase, acting on sulfur group of donors, NAD or NADP as acceptor" NARROW [GOC:TermGenie]
  synonym: "upregulation of sulphate assimilation" EXACT [GOC:TermGenie]
  synonym: "upregulation of sulphate assimilation, phosphoadenylyl sulphate reduction by an oxidoreductase, acting on sulphur group of donors, NAD or NADP as acceptor" NARROW [GOC:TermGenie]
@@ -3338,7 +4335,7 @@
  is_a: GO:1900058 ! regulation of sulfate assimilation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0000103 ! sulfate assimilation
-@@ -522522,7 +522886,6 @@
+@@ -522522,7 +522971,6 @@
  synonym: "regulation of protein insertion into mitochondrion membrane during induction of apoptosis" NARROW [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26245" xsd:anyURI
  is_obsolete: true
@@ -3346,7 +4343,7 @@
  created_by: pr
  creation_date: 2012-05-28T02:28:18Z
  
-@@ -522558,7 +522921,6 @@
+@@ -522558,7 +523006,6 @@
  synonym: "upregulation of protein insertion into mitochondrion membrane during induction of apoptosis" NARROW [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26245" xsd:anyURI
  is_obsolete: true
@@ -3354,7 +4351,7 @@
  created_by: pr
  creation_date: 2012-05-28T02:28:40Z
  
-@@ -550711,12 +551073,13 @@
+@@ -550711,12 +551158,13 @@
  
  [Term]
  id: GO:1902334
@@ -3369,7 +4366,7 @@
  created_by: tb
  creation_date: 2013-07-26T22:18:12Z
  
-@@ -555068,7 +555431,8 @@
+@@ -555068,7 +555516,8 @@
  synonym: "66S preribosome formation" NARROW [GOC:TermGenie]
  synonym: "preribosome, large subunit precursor formation" EXACT [GOC:TermGenie]
  is_a: GO:0022618 ! protein-RNA complex assembly
@@ -3379,7 +4376,7 @@
  created_by: tb
  creation_date: 2014-01-16T19:38:05Z
  
-@@ -566544,7 +566908,6 @@
+@@ -566544,7 +566993,6 @@
  synonym: "regulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
  is_obsolete: true
@@ -3387,7 +4384,7 @@
  created_by: bf
  creation_date: 2014-07-24T10:17:13Z
  
-@@ -566585,7 +566948,6 @@
+@@ -566585,7 +567033,6 @@
  synonym: "negative regulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
  is_obsolete: true
@@ -3395,7 +4392,7 @@
  created_by: bf
  creation_date: 2014-07-24T10:17:19Z
  
-@@ -566599,7 +566961,6 @@
+@@ -566599,7 +567046,6 @@
  synonym: "regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
  is_obsolete: true
@@ -3403,7 +4400,7 @@
  created_by: bf
  creation_date: 2014-07-24T10:20:54Z
  
-@@ -566620,7 +566981,6 @@
+@@ -566620,7 +567066,6 @@
  synonym: "negative regulation of mitochondrial protein processing during import" RELATED [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
  is_obsolete: true
@@ -3411,7 +4408,27 @@
  created_by: bf
  creation_date: 2014-07-24T10:21:00Z
  
-@@ -576858,44 +577218,36 @@
+@@ -574257,14 +574702,16 @@
+ 
+ [Term]
+ id: GO:1903608
+-name: protein localization to cytoplasmic stress granule
++name: obsolete protein localization to cytoplasmic stress granule
+ namespace: biological_process
+-def: "A process in which a protein is transported to, or maintained in, a location within a cytoplasmic stress granule." [GO_REF:0000087, GOC:TermGenie, PMID:24755092]
++def: "OBSOLETE. A process in which a protein is transported to, or maintained in, a location within a cytoplasmic stress granule." [GO_REF:0000087, GOC:TermGenie, PMID:24755092]
++comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent. In practice it was applied to proteins observed in stress granules, that is, to a co-localization readout rather than to a process that localizes a protein there. Annotations to this term have been reviewed and removed; see https://github.com/geneontology/go-annotation/issues/6484.
+ synonym: "protein localisation in cytoplasmic stress granule" EXACT [GOC:TermGenie]
+ synonym: "protein localisation to cytoplasmic stress granule" EXACT [GOC:TermGenie]
+ synonym: "protein localization in cytoplasmic stress granule" EXACT [GOC:TermGenie]
+ synonym: "protein localization to stress granule" BROAD []
+-is_a: GO:0033365 ! protein localization to organelle
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32318" xsd:anyURI
++is_obsolete: true
+ created_by: mah
+ creation_date: 2014-11-14T16:20:32Z
+ 
+@@ -576858,44 +577305,36 @@
  
  [Term]
  id: GO:1903747
@@ -3471,7 +4488,7 @@
  created_by: krc
  creation_date: 2014-12-12T22:18:26Z
  
-@@ -578736,7 +579088,7 @@
+@@ -578736,7 +579175,7 @@
  namespace: biological_process
  def: "Any process that modulates the frequency, rate or extent of cristae formation." [GO_REF:0000058, GOC:pad, GOC:PARL, GOC:TermGenie, PMID:19279012]
  comment: AN example of this is PINK1 in human (Q9BXM7) in PMID:19279012 inferred from mutant phenotype
@@ -3480,7 +4497,7 @@
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: regulates GO:0042407 ! cristae formation
  relationship: regulates GO:0042407 ! cristae formation
-@@ -578753,7 +579105,7 @@
+@@ -578753,7 +579192,7 @@
  synonym: "down-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "downregulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "inhibition of cristae formation" NARROW [GOC:TermGenie]
@@ -3489,7 +4506,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: negatively_regulates GO:0042407 ! cristae formation
-@@ -578771,7 +579123,7 @@
+@@ -578771,7 +579210,7 @@
  synonym: "up regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "up-regulation of cristae formation" EXACT [GOC:TermGenie]
  synonym: "upregulation of cristae formation" EXACT [GOC:TermGenie]
@@ -3498,7 +4515,7 @@
  is_a: GO:1903850 ! regulation of cristae formation
  intersection_of: GO:0065007 ! biological regulation
  intersection_of: positively_regulates GO:0042407 ! cristae formation
-@@ -581223,7 +581575,6 @@
+@@ -581223,7 +581662,6 @@
  synonym: "upregulation of protein-mitochondrial targeting" EXACT [GOC:TermGenie]
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
  is_obsolete: true
@@ -3506,7 +4523,7 @@
  created_by: pad
  creation_date: 2015-02-24T16:58:21Z
  
-@@ -588352,10 +588703,9 @@
+@@ -588352,10 +588790,9 @@
  synonym: "regulation of endoplasmic reticulum-associated protein degradation pathway" RELATED [GOC:TermGenie]
  synonym: "regulation of ER-associated degradation pathway" RELATED [GOC:TermGenie]
  is_a: GO:0061136 ! regulation of proteasomal protein catabolic process
@@ -3519,7 +4536,7 @@
  created_by: bf
  creation_date: 2015-06-09T14:44:27Z
  
-@@ -588384,11 +588734,10 @@
+@@ -588384,11 +588821,10 @@
  synonym: "negative regulation of endoplasmic reticulum-associated protein degradation pathway" RELATED [GOC:TermGenie]
  synonym: "negative regulation of ER-associated degradation pathway" RELATED [GOC:TermGenie]
  is_a: GO:1901799 ! negative regulation of proteasomal protein catabolic process
@@ -3533,7 +4550,7 @@
  created_by: bf
  creation_date: 2015-06-09T14:44:33Z
  
-@@ -588418,10 +588767,9 @@
+@@ -588418,10 +588854,9 @@
  synonym: "upregulation of ERAD pathway" EXACT [GOC:TermGenie]
  is_a: GO:1901800 ! positive regulation of proteasomal protein catabolic process
  is_a: GO:1904292 ! regulation of ERAD pathway
@@ -3546,7 +4563,59 @@
  created_by: bf
  creation_date: 2015-06-09T14:44:39Z
  
-@@ -622662,6 +623010,8 @@
+@@ -592740,9 +593175,10 @@
+ 
+ [Term]
+ id: GO:1904539
+-name: negative regulation of glycolytic process through fructose-6-phosphate
++name: obsolete negative regulation of glycolytic process through fructose-6-phosphate
+ namespace: biological_process
+-def: "Any process that stops, prevents or reduces the frequency, rate or extent of glycolytic process through fructose-6-phosphate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, ISBN:0201090910, ISBN:0879010479]
++def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of glycolytic process through fructose-6-phosphate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ synonym: "down regulation of glycolysis through fructose-6-phosphate" EXACT [GOC:TermGenie]
+ synonym: "down regulation of glycolytic process through fructose-6-phosphate" EXACT [GOC:TermGenie]
+ synonym: "down-regulation of glycolysis through fructose-6-phosphate" EXACT [GOC:TermGenie]
+@@ -592752,18 +593188,18 @@
+ synonym: "inhibition of glycolysis through fructose-6-phosphate" NARROW [GOC:TermGenie]
+ synonym: "inhibition of glycolytic process through fructose-6-phosphate" NARROW [GOC:TermGenie]
+ synonym: "negative regulation of glycolysis through fructose-6-phosphate" EXACT [GOC:TermGenie]
+-is_a: GO:0045820 ! negative regulation of glycolytic process
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: negatively_regulates GO:0061615 ! glycolytic process through fructose-6-phosphate
+-relationship: negatively_regulates GO:0061615 ! glycolytic process through fructose-6-phosphate
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0045820
+ created_by: dph
+ creation_date: 2015-08-07T11:35:16Z
+ 
+ [Term]
+ id: GO:1904540
+-name: positive regulation of glycolytic process through fructose-6-phosphate
++name: obsolete positive regulation of glycolytic process through fructose-6-phosphate
+ namespace: biological_process
+-def: "Any process that activates or increases the frequency, rate or extent of glycolytic process through fructose-6-phosphate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, ISBN:0201090910, ISBN:0879010479]
++def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of glycolytic process through fructose-6-phosphate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, ISBN:0201090910, ISBN:0879010479]
++comment: The reason for obsoletion is that this term represents a GO-CAM model.
+ synonym: "activation of glycolysis through fructose-6-phosphate" NARROW [GOC:TermGenie]
+ synonym: "activation of glycolytic process through fructose-6-phosphate" NARROW [GOC:TermGenie]
+ synonym: "positive regulation of glycolysis through fructose-6-phosphate" EXACT [GOC:TermGenie]
+@@ -592773,10 +593209,9 @@
+ synonym: "up-regulation of glycolytic process through fructose-6-phosphate" EXACT [GOC:TermGenie]
+ synonym: "upregulation of glycolysis through fructose-6-phosphate" EXACT [GOC:TermGenie]
+ synonym: "upregulation of glycolytic process through fructose-6-phosphate" EXACT [GOC:TermGenie]
+-is_a: GO:0045821 ! positive regulation of glycolytic process
+-intersection_of: GO:0065007 ! biological regulation
+-intersection_of: positively_regulates GO:0061615 ! glycolytic process through fructose-6-phosphate
+-relationship: positively_regulates GO:0061615 ! glycolytic process through fructose-6-phosphate
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32471" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0045821
+ created_by: dph
+ creation_date: 2015-08-07T11:35:22Z
+ 
+@@ -622662,6 +623097,8 @@
  synonym: "ribosome-associated ubiquitin-dependent protein catabolism" EXACT []
  synonym: "ribosome-associated ubiquitin-dependent protein degradation" EXACT []
  is_a: GO:0043161 ! proteasome-mediated ubiquitin-dependent protein catabolic process
@@ -3555,7 +4624,7 @@
  created_by: pr
  creation_date: 2013-06-05T11:46:01Z
  
-@@ -624414,14 +624764,18 @@
+@@ -624414,14 +624851,18 @@
  id: GO:1990273
  name: snRNA 2,2,7-trimethylguanosine (TMG) capping
  namespace: biological_process
@@ -3575,7 +4644,25 @@
  created_by: al
  creation_date: 2014-01-15T15:32:06Z
  
-@@ -633383,14 +633737,13 @@
+@@ -629552,11 +629993,13 @@
+ 
+ [Term]
+ id: GO:1990762
+-name: cytoplasmic alanyl-tRNA aminoacylation
++name: obsolete cytoplasmic alanyl-tRNA aminoacylation
+ namespace: biological_process
+-def: "The process of coupling alanine to alanyl-tRNA, catalyzed by alanyl-tRNA synthetase involved in cytoplasmic translation." [GOC:vw]
+-is_a: GO:0006419 ! alanyl-tRNA aminoacylation
+-relationship: part_of GO:0002181 ! cytoplasmic translation
++def: "OBSOLETE. The process of coupling alanine to alanyl-tRNA, catalyzed by alanyl-tRNA synthetase involved in cytoplasmic translation." [GOC:vw]
++comment: The reason for obsoletion is that this term restates an existing molecular function, GO:0004813 alanine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation.
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15375" xsd:anyURI
++is_obsolete: true
++replaced_by: GO:0006418
+ created_by: vw
+ creation_date: 2015-06-08T15:56:51Z
+ 
+@@ -633383,14 +633826,13 @@
  
  [Term]
  id: GO:2000100
@@ -3596,7 +4683,7 @@
  created_by: dph
  creation_date: 2010-09-14T04:44:57Z
  
-@@ -633605,13 +633958,13 @@
+@@ -633605,13 +634047,13 @@
  
  [Term]
  id: GO:2000115
@@ -3616,7 +4703,7 @@
  created_by: dph
  creation_date: 2010-09-21T06:33:26Z
  
-@@ -635480,14 +635833,13 @@
+@@ -635480,14 +635922,13 @@
  
  [Term]
  id: GO:2000247
@@ -3637,7 +4724,7 @@
  created_by: vw
  creation_date: 2010-11-11T11:39:34Z
  
-@@ -642623,14 +642975,13 @@
+@@ -642623,14 +643064,13 @@
  
  [Term]
  id: GO:2000750
@@ -3658,7 +4745,7 @@
  created_by: mah
  creation_date: 2011-06-16T11:51:49Z
  
-@@ -649884,9 +650235,10 @@
+@@ -649884,9 +650324,10 @@
  
  [Term]
  id: GO:2001289
@@ -3671,7 +4758,7 @@
  synonym: "2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate metabolic process" RELATED [GOC:obol]
  synonym: "2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate metabolism" RELATED [GOC:obol]
  synonym: "2,3-Bis(beta-hydoroxymyristoyl)-beta-D-glucosaminyl 1-phosphate metabolic process" RELATED [GOC:obol]
-@@ -649894,8 +650246,8 @@
+@@ -649894,8 +650335,8 @@
  synonym: "2-deoxy-3-O-[(3R)-3-hydroxytetradecanoyl]-2-{[(3R)-3-hydroxytetradecanoyl]amino}-1-O-phosphono-alpha-D-glucopyranose metabolic process" EXACT [GOC:obol]
  synonym: "2-deoxy-3-O-[(3R)-3-hydroxytetradecanoyl]-2-{[(3R)-3-hydroxytetradecanoyl]amino}-1-O-phosphono-alpha-D-glucopyranose metabolism" EXACT [GOC:obol]
  synonym: "lipid X metabolism" EXACT [GOC:obol]
@@ -3682,7 +4769,7 @@
  created_by: tb
  creation_date: 2012-01-13T11:28:58Z
  
-@@ -650514,8 +650866,9 @@
+@@ -650514,8 +650955,9 @@
  name: rescue of stalled mitochondrial ribosome
  namespace: biological_process
  def: "A process of mitochondrial translational elongation that takes place when a mitochondrial ribosome has stalled during translation, and results in freeing the ribosome from the stalled translation complex." [PMID:33243891]
@@ -3693,7 +4780,7 @@
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30547" xsd:anyURI
  created_by: dragon-ai-agent
  
-@@ -650961,8 +651314,8 @@
+@@ -650961,8 +651403,8 @@
  def: "Catalysis of the reaction: S-adenosyl-L-methionine + adenosine(37) in tRNA(Val) = S-adenosyl-L-homocysteine + N(6)-methyladenosine(37) in tRNA(Val) + H+." [PMID:19383770, RHEA:43160]
  xref: EC:2.1.1.223
  xref: RHEA:43160
@@ -3703,7 +4790,7 @@
  property_value: skos:exactMatch EC:2.1.1.223
  property_value: skos:exactMatch RHEA:43160
  property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31644" xsd:anyURI
-@@ -651420,6 +651773,428 @@
+@@ -651420,6 +651862,430 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  
@@ -4055,8 +5142,10 @@
 +synonym: "ribosome-associated protein quality control" EXACT [PMID:26733220]
 +synonym: "RQC" EXACT []
 +is_a: GO:0006515 ! protein quality control
++relationship: has_part GO:0030163 ! protein catabolic process
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18610" xsd:anyURI
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26238" xsd:anyURI
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32546" xsd:anyURI
 +created_by: ai4c-agent
 +creation_date: 2026-08-18T05:06:46Z
 +
