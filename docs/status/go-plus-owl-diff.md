@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-29/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-30/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-29" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-30" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -333,6 +333,28 @@
 - [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 - [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [autophagosome assembly](http://purl.obolibrary.org/obo/GO_0000045) 
+
+
+### B cell cytokine production `http://purl.obolibrary.org/obo/GO_0002368`
+#### Removed
+- [B cell cytokine production](http://purl.obolibrary.org/obo/GO_0002368) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [B cell](http://purl.obolibrary.org/obo/CL_0000236)) 
+
+#### Added
+- [B cell cytokine production](http://purl.obolibrary.org/obo/GO_0002368) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [B cell](http://purl.obolibrary.org/obo/CL_0000236)) 
+
+- [B cell cytokine production](http://purl.obolibrary.org/obo/GO_0002368) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [B cell](http://purl.obolibrary.org/obo/CL_0000236) 
+
+
+### CD4-positive, alpha-beta T cell cytokine production `http://purl.obolibrary.org/obo/GO_0035743`
+#### Removed
+- [CD4-positive, alpha-beta T cell cytokine production](http://purl.obolibrary.org/obo/GO_0035743) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [CD4-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000624)) 
+
+- [CD4-positive, alpha-beta T cell cytokine production](http://purl.obolibrary.org/obo/GO_0035743) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [CD4-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000624) 
+
+#### Added
+- [CD4-positive, alpha-beta T cell cytokine production](http://purl.obolibrary.org/obo/GO_0035743) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [CD4-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000624)) 
+
+- [CD4-positive, alpha-beta T cell cytokine production](http://purl.obolibrary.org/obo/GO_0035743) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [CD4-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000624) 
 
 
 ### D-glucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006042`
@@ -934,6 +956,40 @@
 - [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 - [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) SubClassOf [results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [Sec body](http://purl.obolibrary.org/obo/GO_7770092) 
+
+
+### T cell cytokine production `http://purl.obolibrary.org/obo/GO_0002369`
+#### Removed
+- [T cell cytokine production](http://purl.obolibrary.org/obo/GO_0002369) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+#### Added
+- [T cell cytokine production](http://purl.obolibrary.org/obo/GO_0002369) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+- [T cell cytokine production](http://purl.obolibrary.org/obo/GO_0002369) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T cell](http://purl.obolibrary.org/obo/CL_0000084) 
+
+
+### T-helper 1 cell cytokine production `http://purl.obolibrary.org/obo/GO_0035744`
+#### Removed
+- [T-helper 1 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035744) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T-helper 1 cell](http://purl.obolibrary.org/obo/CL_0000545)) 
+
+- [T-helper 1 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035744) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T-helper 1 cell](http://purl.obolibrary.org/obo/CL_0000545) 
+
+#### Added
+- [T-helper 1 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035744) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T-helper 1 cell](http://purl.obolibrary.org/obo/CL_0000545)) 
+
+- [T-helper 1 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035744) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T-helper 1 cell](http://purl.obolibrary.org/obo/CL_0000545) 
+
+
+### T-helper 2 cell cytokine production `http://purl.obolibrary.org/obo/GO_0035745`
+#### Removed
+- [T-helper 2 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035745) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T-helper 2 cell](http://purl.obolibrary.org/obo/CL_0000546)) 
+
+- [T-helper 2 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035745) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T-helper 2 cell](http://purl.obolibrary.org/obo/CL_0000546) 
+
+#### Added
+- [T-helper 2 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035745) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T-helper 2 cell](http://purl.obolibrary.org/obo/CL_0000546)) 
+
+- [T-helper 2 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035745) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T-helper 2 cell](http://purl.obolibrary.org/obo/CL_0000546) 
 
 
 ### Tim8-Tim13 complex `http://purl.obolibrary.org/obo/GO_7770104`
@@ -1561,6 +1617,24 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35316660" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30075143" 
+
+
+### dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002371`
+#### Removed
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms." 
+
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451)) 
+
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451) 
+
+#### Added
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted only because GO:0002443 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451)) 
+
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451) 
 
 
 ### desmosome disassembly `http://purl.obolibrary.org/obo/GO_0035921`
@@ -2205,6 +2279,42 @@
 - [heme export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_0140357) [label](http://www.w3.org/2000/01/rdf-schema#label) "heme export from vacuole to cytosol" 
 
 
+### histamine secretion by basophil `http://purl.obolibrary.org/obo/GO_0002557`
+#### Removed
+- [histamine secretion by basophil](http://purl.obolibrary.org/obo/GO_0002557) EquivalentTo [histamine secretion](http://purl.obolibrary.org/obo/GO_0001821) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [basophil](http://purl.obolibrary.org/obo/CL_0000767)) 
+
+- [histamine secretion by basophil](http://purl.obolibrary.org/obo/GO_0002557) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [basophil](http://purl.obolibrary.org/obo/CL_0000767) 
+
+#### Added
+- [histamine secretion by basophil](http://purl.obolibrary.org/obo/GO_0002557) EquivalentTo [histamine secretion](http://purl.obolibrary.org/obo/GO_0001821) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [basophil](http://purl.obolibrary.org/obo/CL_0000767)) 
+
+- [histamine secretion by basophil](http://purl.obolibrary.org/obo/GO_0002557) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [basophil](http://purl.obolibrary.org/obo/CL_0000767) 
+
+
+### histamine secretion by mast cell `http://purl.obolibrary.org/obo/GO_0002553`
+#### Removed
+- [histamine secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002553) EquivalentTo [histamine secretion](http://purl.obolibrary.org/obo/GO_0001821) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097)) 
+
+- [histamine secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002553) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097) 
+
+#### Added
+- [histamine secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002553) EquivalentTo [histamine secretion](http://purl.obolibrary.org/obo/GO_0001821) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097)) 
+
+- [histamine secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002553) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097) 
+
+
+### histamine secretion by platelet `http://purl.obolibrary.org/obo/GO_0002555`
+#### Removed
+- [histamine secretion by platelet](http://purl.obolibrary.org/obo/GO_0002555) EquivalentTo [histamine secretion](http://purl.obolibrary.org/obo/GO_0001821) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [platelet](http://purl.obolibrary.org/obo/CL_0000233)) 
+
+- [histamine secretion by platelet](http://purl.obolibrary.org/obo/GO_0002555) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
+
+#### Added
+- [histamine secretion by platelet](http://purl.obolibrary.org/obo/GO_0002555) EquivalentTo [histamine secretion](http://purl.obolibrary.org/obo/GO_0001821) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233)) 
+
+- [histamine secretion by platelet](http://purl.obolibrary.org/obo/GO_0002555) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
+
+
 ### imaginal disc-derived wing vein morphogenesis `http://purl.obolibrary.org/obo/GO_0008586`
 #### Removed
 - [imaginal disc-derived wing vein morphogenesis](http://purl.obolibrary.org/obo/GO_0008586) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_morphogenesis.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml) 
@@ -2591,6 +2701,24 @@
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [L-cystine residue](http://purl.obolibrary.org/obo/CHEBI_50058) 
 
 
+### myeloid dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002372`
+#### Removed
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms." 
+
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [myeloid dendritic cell](http://purl.obolibrary.org/obo/CL_0000782)) 
+
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [myeloid dendritic cell](http://purl.obolibrary.org/obo/CL_0000782) 
+
+#### Added
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002444 is asserted only because GO:0002444 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [myeloid dendritic cell](http://purl.obolibrary.org/obo/CL_0000782)) 
+
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [myeloid dendritic cell](http://purl.obolibrary.org/obo/CL_0000782) 
+
+
 ### myo-inositol export across plasma membrane `http://purl.obolibrary.org/obo/GO_7770109`
 
 #### Added
@@ -2628,6 +2756,16 @@
 - [myo-inositol export across plasma membrane](http://purl.obolibrary.org/obo/GO_7770109) SubClassOf [myo-inositol transport](http://purl.obolibrary.org/obo/GO_0015798) 
 
 - [myo-inositol export across plasma membrane](http://purl.obolibrary.org/obo/GO_7770109) SubClassOf [export across plasma membrane](http://purl.obolibrary.org/obo/GO_0140115) 
+
+
+### natural killer cell cytokine production `http://purl.obolibrary.org/obo/GO_0002370`
+#### Removed
+- [natural killer cell cytokine production](http://purl.obolibrary.org/obo/GO_0002370) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623)) 
+
+#### Added
+- [natural killer cell cytokine production](http://purl.obolibrary.org/obo/GO_0002370) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623)) 
+
+- [natural killer cell cytokine production](http://purl.obolibrary.org/obo/GO_0002370) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623) 
 
 
 ### negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_1905013`
@@ -8270,6 +8408,18 @@
 - [plant anatomical entity](http://purl.obolibrary.org/obo/PO_0025131) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An anatomical entity that is or was part of a plant." 
 
 
+### plasmacytoid dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002373`
+#### Removed
+- [plasmacytoid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002373) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784)) 
+
+- [plasmacytoid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002373) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) 
+
+#### Added
+- [plasmacytoid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002373) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784)) 
+
+- [plasmacytoid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002373) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) 
+
+
 ### plasmodesma organization `http://purl.obolibrary.org/obo/GO_0009663`
 
 #### Added
@@ -8518,6 +8668,18 @@
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein quality control" 
 
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [cellular process](http://purl.obolibrary.org/obo/GO_0009987) 
+
+
+### protein secretion by platelet `http://purl.obolibrary.org/obo/GO_0070560`
+#### Removed
+- [protein secretion by platelet](http://purl.obolibrary.org/obo/GO_0070560) EquivalentTo [protein secretion](http://purl.obolibrary.org/obo/GO_0009306) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [platelet](http://purl.obolibrary.org/obo/CL_0000233)) 
+
+- [protein secretion by platelet](http://purl.obolibrary.org/obo/GO_0070560) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
+
+#### Added
+- [protein secretion by platelet](http://purl.obolibrary.org/obo/GO_0070560) EquivalentTo [protein secretion](http://purl.obolibrary.org/obo/GO_0009306) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233)) 
+
+- [protein secretion by platelet](http://purl.obolibrary.org/obo/GO_0070560) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
 
 
 ### protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0008982`
@@ -8898,6 +9060,42 @@
 
 - [segment specification](http://purl.obolibrary.org/obo/GO_0007379) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which segments assume individual identities; exemplified in insects by the actions of the products of the homeotic genes." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### serotonin secretion by basophil `http://purl.obolibrary.org/obo/GO_0002556`
+#### Removed
+- [serotonin secretion by basophil](http://purl.obolibrary.org/obo/GO_0002556) EquivalentTo [serotonin secretion](http://purl.obolibrary.org/obo/GO_0001820) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [basophil](http://purl.obolibrary.org/obo/CL_0000767)) 
+
+- [serotonin secretion by basophil](http://purl.obolibrary.org/obo/GO_0002556) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [basophil](http://purl.obolibrary.org/obo/CL_0000767) 
+
+#### Added
+- [serotonin secretion by basophil](http://purl.obolibrary.org/obo/GO_0002556) EquivalentTo [serotonin secretion](http://purl.obolibrary.org/obo/GO_0001820) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [basophil](http://purl.obolibrary.org/obo/CL_0000767)) 
+
+- [serotonin secretion by basophil](http://purl.obolibrary.org/obo/GO_0002556) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [basophil](http://purl.obolibrary.org/obo/CL_0000767) 
+
+
+### serotonin secretion by mast cell `http://purl.obolibrary.org/obo/GO_0002552`
+#### Removed
+- [serotonin secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002552) EquivalentTo [serotonin secretion](http://purl.obolibrary.org/obo/GO_0001820) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097)) 
+
+- [serotonin secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002552) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097) 
+
+#### Added
+- [serotonin secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002552) EquivalentTo [serotonin secretion](http://purl.obolibrary.org/obo/GO_0001820) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097)) 
+
+- [serotonin secretion by mast cell](http://purl.obolibrary.org/obo/GO_0002552) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097) 
+
+
+### serotonin secretion by platelet `http://purl.obolibrary.org/obo/GO_0002554`
+#### Removed
+- [serotonin secretion by platelet](http://purl.obolibrary.org/obo/GO_0002554) EquivalentTo [serotonin secretion](http://purl.obolibrary.org/obo/GO_0001820) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [platelet](http://purl.obolibrary.org/obo/CL_0000233)) 
+
+- [serotonin secretion by platelet](http://purl.obolibrary.org/obo/GO_0002554) SubClassOf [process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
+
+#### Added
+- [serotonin secretion by platelet](http://purl.obolibrary.org/obo/GO_0002554) EquivalentTo [serotonin secretion](http://purl.obolibrary.org/obo/GO_0001820) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233)) 
+
+- [serotonin secretion by platelet](http://purl.obolibrary.org/obo/GO_0002554) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
 
 
 ### sex comb development `http://purl.obolibrary.org/obo/GO_0045498`

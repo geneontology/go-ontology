@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-29/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-30/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-29" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-30" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1319,6 +1319,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32075773" 
 
 
+### dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002371`
+#### Removed
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms." 
+
+#### Added
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted only because GO:0002443 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+
+
 ### dissimilatory sulfate reduction `http://purl.obolibrary.org/obo/GO_0019420`
 #### Removed
 - [dissimilatory sulfate reduction](http://purl.obolibrary.org/obo/GO_0019420) SubClassOf [sulfate assimilation](http://purl.obolibrary.org/obo/GO_0000103) 
@@ -2071,6 +2081,16 @@
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) [label](http://www.w3.org/2000/01/rdf-schema#label) "mycoredoxin-dependent peroxiredoxin activity" 
 
 - [mycoredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_7770100) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
+
+
+### myeloid dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002372`
+#### Removed
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms." 
+
+#### Added
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002444 is asserted only because GO:0002444 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
 
 
 ### myo-inositol export across plasma membrane `http://purl.obolibrary.org/obo/GO_7770109`
