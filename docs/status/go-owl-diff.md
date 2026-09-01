@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-08-31/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-01/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-08-31" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-01" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -6419,6 +6419,12 @@
 - [peroxisomal protein quality control](http://purl.obolibrary.org/obo/GO_0170079) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
 
 
+### phagolysosome assembly `http://purl.obolibrary.org/obo/GO_0001845`
+#### Removed
+- [phagolysosome assembly](http://purl.obolibrary.org/obo/GO_0001845) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagocytosis](http://purl.obolibrary.org/obo/GO_0006909) 
+
+
+
 ### phagophore membrane `http://purl.obolibrary.org/obo/GO_7770114`
 
 #### Added
@@ -6455,7 +6461,7 @@
 #### Added
 - [phagosome maturation](http://purl.obolibrary.org/obo/GO_0090382) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32152"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [phagosome maturation](http://purl.obolibrary.org/obo/GO_0090382) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) 
+- [phagosome maturation](http://purl.obolibrary.org/obo/GO_0090382) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagocytosis](http://purl.obolibrary.org/obo/GO_0006909) 
 
 
 ### phosphocreatine metabolic process `http://purl.obolibrary.org/obo/GO_0006603`

@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-08-31go.owl-statistics
+id: obo:go/releases/2026-09-01go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-08-31go.owl
+  version: obo:go/releases/2026-09-01go.owl
 was_generated_by:
-  started_at_time: '2026-08-31T05:53:36.955061'
+  started_at_time: '2026-09-01T05:53:07.330702'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -27,7 +27,7 @@ partitions:
         filtered_count: 4465
       BFO:0000051:
         facet: BFO:0000051
-        filtered_count: 324
+        filtered_count: 323
       RO:0002212:
         facet: RO:0002212
         filtered_count: 2544
@@ -46,21 +46,21 @@ partitions:
     distinct_synonym_count: 93661
     synonym_statement_count: 94441
     change_summary:
-      NodeUnobsoletion: 112
-      EdgeCreation: 240
+      EdgeCreation: 241
       NodeRename: 122
       NodeTextDefinitionChange: 150
-      EdgeDeletion: 64
+      NodeUnobsoletion: 112
       RemoveSynonym: 24
-      NodeDeletion: 14
-      RemoveNodeFromSubset: 5
       NewSynonym: 14
-      MappingCreation: 7
-      AddNodeToSubset: 1
+      EdgeDeletion: 64
+      RemoveNodeFromSubset: 5
       RemoveMapping: 5
+      AddNodeToSubset: 1
+      NodeDeletion: 14
+      MappingCreation: 7
       All_Obsoletion: 0
       All_Synonym: 38
-    edge_count: 53251
+    edge_count: 53250
   molecular_function:
     id: molecular_function
     class_count: 12870
@@ -93,16 +93,16 @@ partitions:
     distinct_synonym_count: 28700
     synonym_statement_count: 29853
     change_summary:
-      NodeDeletion: 15
-      EdgeDeletion: 50
       NodeTextDefinitionChange: 32
+      RemoveMapping: 11
+      RemoveSynonym: 23
+      NodeRename: 21
       NodeUnobsoletion: 16
       MappingCreation: 21
       EdgeCreation: 37
-      NodeRename: 21
+      EdgeDeletion: 50
+      NodeDeletion: 15
       NodeObsoletionWithDirectReplacement: 1
-      RemoveMapping: 11
-      RemoveSynonym: 23
       NewSynonym: 9
       RemoveNodeFromSubset: 1
       All_Obsoletion: 1
@@ -130,13 +130,13 @@ partitions:
     change_summary:
       NodeDeletion: 7
       EdgeDeletion: 13
+      RemoveNodeFromSubset: 1
       NewSynonym: 4
       EdgeCreation: 5
-      NodeUnobsoletion: 1
-      NodeRename: 2
       NodeTextDefinitionChange: 3
+      NodeRename: 2
+      NodeUnobsoletion: 1
       RemoveSynonym: 3
-      RemoveNodeFromSubset: 1
       All_Obsoletion: 0
       All_Synonym: 7
     edge_count: 6687
