@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-01/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-02/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-01" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-02" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -293,6 +293,22 @@
 - [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) [label](http://www.w3.org/2000/01/rdf-schema#label) "Atg9-containing vesicle" 
 
 - [Atg9-containing vesicle](http://purl.obolibrary.org/obo/GO_7770115) SubClassOf [cytoplasmic vesicle](http://purl.obolibrary.org/obo/GO_0031410) 
+
+
+### B cell tolerance induction in mucosal-associated lymphoid tissue `http://purl.obolibrary.org/obo/GO_0002402`
+#### Removed
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in the mucosal-associated lymphoid tissue (MALT) mediated by B cells." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+#### Added
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in a B cell within the mucosal-associated lymphoid tissue (MALT)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
 
 
 ### D-glucosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0006042`
@@ -854,6 +870,46 @@
 - [Sec body assembly](http://purl.obolibrary.org/obo/GO_7770093) SubClassOf [membraneless organelle assembly](http://purl.obolibrary.org/obo/GO_0140694) 
 
 
+### T cell tolerance induction in mucosal-associated lymphoid tissue `http://purl.obolibrary.org/obo/GO_0002403`
+#### Removed
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in the mucosal-associated lymphoid tissue (MALT) mediated by T cells." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16551263" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+#### Added
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in a T cell within the mucosal-associated lymphoid tissue (MALT)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16551263" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+
+### T cell tolerance induction to tumor cell `http://purl.obolibrary.org/obo/GO_0002411`
+#### Removed
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process of tolerance induction dependent on T cells which leads to immunological tolerance of a tumor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16730260" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+#### Added
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process of tolerance induction taking place in a T cell which leads to immunological tolerance of a tumor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16730260" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+
 ### Tim8-Tim13 complex `http://purl.obolibrary.org/obo/GO_7770104`
 
 #### Added
@@ -1326,7 +1382,7 @@
 #### Added
 - [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted only because GO:0002443 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted rather than inferred because GO:0002443 has no logical definition; it must be maintained by hand (see #20574)." 
 
 
 ### dissimilatory sulfate reduction `http://purl.obolibrary.org/obo/GO_0019420`
@@ -1915,6 +1971,24 @@
 - [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) SubClassOf [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
 
 
+### leukocyte mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0001909`
+#### Removed
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term and its children describe contact-dependent killing of target cells by lymphocytes and myeloid cells of the immune system." 
+
+#### Added
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term and its children describe contact-dependent killing of target cells by lymphocytes and myeloid cells of the immune system. The is_a links to GO:0001906 and GO:0002443 are asserted rather than inferred because this term has no logical definition; they must be maintained by hand (see #20574)." 
+
+
+### leukocyte mediated immunity `http://purl.obolibrary.org/obo/GO_0002443`
+
+#### Added
+- [leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002443) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002443) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term intentionally has no logical definition: it is a grouping class covering everything leukocytes do immunologically, and no relation in GO expresses that role as necessary and sufficient conditions. Subclasses must be asserted by hand (see #20574)." 
+
+
 ### lipoate synthase activity `http://purl.obolibrary.org/obo/GO_0016992`
 #### Removed
 - [lipoate synthase activity](http://purl.obolibrary.org/obo/GO_0016992) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [obsolete lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) 
@@ -1996,6 +2070,14 @@
 
 #### Added
 - [membrane insertase activity](http://purl.obolibrary.org/obo/GO_0032977) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32404"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### microglial cell mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0090634`
+
+#### Added
+- [microglial cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0090634) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [microglial cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0090634) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The is_a link to GO:0002444 is asserted rather than inferred because GO:0002444 has no logical definition; it must be maintained by hand (see #20574)." 
 
 
 ### mitochondrial intermembrane space chaperone complex `http://purl.obolibrary.org/obo/GO_0042719`
@@ -2090,7 +2172,15 @@
 #### Added
 - [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002444 is asserted only because GO:0002444 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002444 is asserted rather than inferred because GO:0002444 has no logical definition; it must be maintained by hand (see #20574)." 
+
+
+### myeloid leukocyte mediated immunity `http://purl.obolibrary.org/obo/GO_0002444`
+
+#### Added
+- [myeloid leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002444) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [myeloid leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002444) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term intentionally has no logical definition: it is a grouping class covering everything myeloid leukocytes do immunologically, and no relation in GO expresses that role as necessary and sufficient conditions. Subclasses must be asserted by hand (see #20574)." 
 
 
 ### myo-inositol export across plasma membrane `http://purl.obolibrary.org/obo/GO_7770109`

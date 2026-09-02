@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-01/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-02/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-01" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-02" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -343,6 +343,32 @@
 - [B cell cytokine production](http://purl.obolibrary.org/obo/GO_0002368) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [B cell](http://purl.obolibrary.org/obo/CL_0000236)) 
 
 - [B cell cytokine production](http://purl.obolibrary.org/obo/GO_0002368) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [B cell](http://purl.obolibrary.org/obo/CL_0000236) 
+
+
+### B cell mediated immunity `http://purl.obolibrary.org/obo/GO_0019724`
+#### Removed
+- [B cell mediated immunity](http://purl.obolibrary.org/obo/GO_0019724) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [B cell](http://purl.obolibrary.org/obo/CL_0000236)) 
+
+
+
+### B cell tolerance induction in mucosal-associated lymphoid tissue `http://purl.obolibrary.org/obo/GO_0002402`
+#### Removed
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in the mucosal-associated lymphoid tissue (MALT) mediated by B cells." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) EquivalentTo [tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002401) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [B cell](http://purl.obolibrary.org/obo/CL_0000236)) 
+
+#### Added
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in a B cell within the mucosal-associated lymphoid tissue (MALT)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+- [B cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002402) EquivalentTo [tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002401) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [B cell](http://purl.obolibrary.org/obo/CL_0000236)) 
 
 
 ### CD4-positive, alpha-beta T cell cytokine production `http://purl.obolibrary.org/obo/GO_0035743`
@@ -968,6 +994,72 @@
 - [T cell cytokine production](http://purl.obolibrary.org/obo/GO_0002369) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T cell](http://purl.obolibrary.org/obo/CL_0000084) 
 
 
+### T cell mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0001913`
+#### Removed
+- [T cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001913) EquivalentTo [cell killing](http://purl.obolibrary.org/obo/GO_0001906) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+
+
+### T cell mediated immune response to tumor cell `http://purl.obolibrary.org/obo/GO_0002424`
+#### Removed
+- [T cell mediated immune response to tumor cell](http://purl.obolibrary.org/obo/GO_0002424) EquivalentTo [immune response to tumor cell](http://purl.obolibrary.org/obo/GO_0002418) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+
+
+### T cell mediated immunity `http://purl.obolibrary.org/obo/GO_0002456`
+#### Removed
+- [T cell mediated immunity](http://purl.obolibrary.org/obo/GO_0002456) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+
+
+### T cell tolerance induction in mucosal-associated lymphoid tissue `http://purl.obolibrary.org/obo/GO_0002403`
+#### Removed
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in the mucosal-associated lymphoid tissue (MALT) mediated by T cells." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16551263" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) EquivalentTo [tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002401) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+#### Added
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Tolerance induction taking place in a T cell within the mucosal-associated lymphoid tissue (MALT)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16551263" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+- [T cell tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002403) EquivalentTo [tolerance induction in mucosal-associated lymphoid tissue](http://purl.obolibrary.org/obo/GO_0002401) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+
+### T cell tolerance induction to tumor cell `http://purl.obolibrary.org/obo/GO_0002411`
+#### Removed
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process of tolerance induction dependent on T cells which leads to immunological tolerance of a tumor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16730260" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) EquivalentTo [tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002413) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+#### Added
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process of tolerance induction taking place in a T cell which leads to immunological tolerance of a tumor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16730260" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [T cell tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002411) EquivalentTo [tolerance induction to tumor cell](http://purl.obolibrary.org/obo/GO_0002413) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T cell](http://purl.obolibrary.org/obo/CL_0000084)) 
+
+
 ### T-helper 1 cell cytokine production `http://purl.obolibrary.org/obo/GO_0035744`
 #### Removed
 - [T-helper 1 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035744) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [T-helper 1 cell](http://purl.obolibrary.org/obo/CL_0000545)) 
@@ -1273,6 +1365,12 @@
 
 #### Added
 - [autophagy cargo adaptor activity](http://purl.obolibrary.org/obo/GO_0160247) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [macroautophagy](http://purl.obolibrary.org/obo/GO_0016236) 
+
+
+### basophil mediated immunity `http://purl.obolibrary.org/obo/GO_0002560`
+#### Removed
+- [basophil mediated immunity](http://purl.obolibrary.org/obo/GO_0002560) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [basophil](http://purl.obolibrary.org/obo/CL_0000767)) 
+
 
 
 ### binding `http://purl.obolibrary.org/obo/GO_0005488`
@@ -1630,7 +1728,7 @@
 #### Added
 - [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted only because GO:0002443 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+- [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted rather than inferred because GO:0002443 has no logical definition; it must be maintained by hand (see #20574)." 
 
 - [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451)) 
 
@@ -1741,6 +1839,12 @@
 ### ent-kaurene biosynthetic process `http://purl.obolibrary.org/obo/GO_0033332`
 #### Removed
 - [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) SubClassOf [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
+
+
+
+### eosinophil mediated immunity `http://purl.obolibrary.org/obo/GO_0002447`
+#### Removed
+- [eosinophil mediated immunity](http://purl.obolibrary.org/obo/GO_0002447) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [eosinophil](http://purl.obolibrary.org/obo/CL_0000771)) 
 
 
 
@@ -2457,6 +2561,28 @@
 - [lectin-type holdase activity](http://purl.obolibrary.org/obo/GO_7770116) SubClassOf [unfolded protein holdase activity](http://purl.obolibrary.org/obo/GO_0140309) 
 
 
+### leukocyte mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0001909`
+#### Removed
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term and its children describe contact-dependent killing of target cells by lymphocytes and myeloid cells of the immune system." 
+
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) EquivalentTo [cell killing](http://purl.obolibrary.org/obo/GO_0001906) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [leukocyte](http://purl.obolibrary.org/obo/CL_0000738)) 
+
+#### Added
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [leukocyte mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0001909) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term and its children describe contact-dependent killing of target cells by lymphocytes and myeloid cells of the immune system. The is_a links to GO:0001906 and GO:0002443 are asserted rather than inferred because this term has no logical definition; they must be maintained by hand (see #20574)." 
+
+
+### leukocyte mediated immunity `http://purl.obolibrary.org/obo/GO_0002443`
+#### Removed
+- [leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002443) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [leukocyte](http://purl.obolibrary.org/obo/CL_0000738)) 
+
+#### Added
+- [leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002443) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002443) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term intentionally has no logical definition: it is a grouping class covering everything leukocytes do immunologically, and no relation in GO expresses that role as necessary and sufficient conditions. Subclasses must be asserted by hand (see #20574)." 
+
+
 ### lipid carrier activity `http://purl.obolibrary.org/obo/GO_0005319`
 
 #### Added
@@ -2536,6 +2662,12 @@
 - [lipoyl-GcvH:protein N-lipoyltransferase activity](http://purl.obolibrary.org/obo/GO_7770091) SubClassOf [catalytic activity, acting on a protein](http://purl.obolibrary.org/obo/GO_0140096) 
 
 
+### lymphocyte mediated immunity `http://purl.obolibrary.org/obo/GO_0002449`
+#### Removed
+- [lymphocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002449) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [lymphocyte](http://purl.obolibrary.org/obo/CL_0000542)) 
+
+
+
 ### lysophosphatidylcholine flippase activity `http://purl.obolibrary.org/obo/GO_0140348`
 
 #### Added
@@ -2546,6 +2678,12 @@
 
 #### Added
 - [mRNA m(6)A methyltransferase activity](http://purl.obolibrary.org/obo/GO_0001734) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
+### mast cell mediated immunity `http://purl.obolibrary.org/obo/GO_0002448`
+#### Removed
+- [mast cell mediated immunity](http://purl.obolibrary.org/obo/GO_0002448) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097)) 
+
 
 
 ### material anatomical entity `http://purl.obolibrary.org/obo/UBERON_0000465`
@@ -2582,6 +2720,16 @@
 
 #### Added
 - [metallochaperone activity](http://purl.obolibrary.org/obo/GO_0016530) [conformsTo](http://purl.org/dc/terms/conformsTo) [molecular_carrier_activity.yaml](http://purl.obolibrary.org/obo/go/patterns/molecular_carrier_activity.yaml) 
+
+
+### microglial cell mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0090634`
+#### Removed
+- [microglial cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0090634) EquivalentTo [cell killing](http://purl.obolibrary.org/obo/GO_0001906) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [microglial cell](http://purl.obolibrary.org/obo/CL_0000129)) 
+
+#### Added
+- [microglial cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0090634) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [microglial cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0090634) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The is_a link to GO:0002444 is asserted rather than inferred because GO:0002444 has no logical definition; it must be maintained by hand (see #20574)." 
 
 
 ### mitochondrial intermembrane space chaperone complex `http://purl.obolibrary.org/obo/GO_0042719`
@@ -2712,11 +2860,21 @@
 #### Added
 - [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002444 is asserted only because GO:0002444 still uses process_has_causal_agent; it was previously inferred via the shared relation and should be removed once that term is retyped (see #20574)." 
+- [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002444 is asserted rather than inferred because GO:0002444 has no logical definition; it must be maintained by hand (see #20574)." 
 
 - [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [myeloid dendritic cell](http://purl.obolibrary.org/obo/CL_0000782)) 
 
 - [myeloid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002372) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [myeloid dendritic cell](http://purl.obolibrary.org/obo/CL_0000782) 
+
+
+### myeloid leukocyte mediated immunity `http://purl.obolibrary.org/obo/GO_0002444`
+#### Removed
+- [myeloid leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002444) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [myeloid leukocyte](http://purl.obolibrary.org/obo/CL_0000766)) 
+
+#### Added
+- [myeloid leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002444) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/20574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [myeloid leukocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002444) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term intentionally has no logical definition: it is a grouping class covering everything myeloid leukocytes do immunologically, and no relation in GO expresses that role as necessary and sufficient conditions. Subclasses must be asserted by hand (see #20574)." 
 
 
 ### myo-inositol export across plasma membrane `http://purl.obolibrary.org/obo/GO_7770109`
@@ -2766,6 +2924,24 @@
 - [natural killer cell cytokine production](http://purl.obolibrary.org/obo/GO_0002370) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623)) 
 
 - [natural killer cell cytokine production](http://purl.obolibrary.org/obo/GO_0002370) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623) 
+
+
+### natural killer cell mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0042267`
+#### Removed
+- [natural killer cell mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0042267) EquivalentTo [cell killing](http://purl.obolibrary.org/obo/GO_0001906) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623)) 
+
+
+
+### natural killer cell mediated immune response to tumor cell `http://purl.obolibrary.org/obo/GO_0002423`
+#### Removed
+- [natural killer cell mediated immune response to tumor cell](http://purl.obolibrary.org/obo/GO_0002423) EquivalentTo [immune response to tumor cell](http://purl.obolibrary.org/obo/GO_0002418) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623)) 
+
+
+
+### natural killer cell mediated immunity `http://purl.obolibrary.org/obo/GO_0002228`
+#### Removed
+- [natural killer cell mediated immunity](http://purl.obolibrary.org/obo/GO_0002228) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [natural killer cell](http://purl.obolibrary.org/obo/CL_0000623)) 
+
 
 
 ### negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_1905013`
@@ -2829,6 +3005,18 @@
 - [negative regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905074) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
 
 - [negative regulation of tight junction disassembly](http://purl.obolibrary.org/obo/GO_1905074) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+
+### neutrophil mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0070942`
+#### Removed
+- [neutrophil mediated cytotoxicity](http://purl.obolibrary.org/obo/GO_0070942) EquivalentTo [cell killing](http://purl.obolibrary.org/obo/GO_0001906) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [neutrophil](http://purl.obolibrary.org/obo/CL_0000775)) 
+
+
+
+### neutrophil mediated immunity `http://purl.obolibrary.org/obo/GO_0002446`
+#### Removed
+- [neutrophil mediated immunity](http://purl.obolibrary.org/obo/GO_0002446) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [neutrophil](http://purl.obolibrary.org/obo/CL_0000775)) 
+
 
 
 ### nickel chaperone activity `http://purl.obolibrary.org/obo/GO_0170061`
