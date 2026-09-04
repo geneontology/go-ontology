@@ -11070,14 +11070,6 @@ relationship: RO:0000057 CHEBI:50058
 relationship: RO:0000057 CHEBI:57305
 
 [Term]
-id: GO:0030701
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17154
-relationship: RO:0000057 CHEBI:29965
-relationship: RO:0000057 CHEBI:57540
-relationship: RO:0000057 CHEBI:83960
-
-[Term]
 id: GO:0030729
 relationship: RO:0000057 CHEBI:13705
 relationship: RO:0000057 CHEBI:30616
@@ -19430,14 +19422,6 @@ relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:16526
 relationship: RO:0000057 CHEBI:58425
 relationship: RO:0000057 CHEBI:58771
-
-[Term]
-id: GO:0047576
-relationship: RO:0000057 CHEBI:15377
-relationship: RO:0000057 CHEBI:15378
-relationship: RO:0000057 CHEBI:17861
-relationship: RO:0000057 CHEBI:17879
-relationship: RO:0000057 CHEBI:17996
 
 [Term]
 id: GO:0047577
