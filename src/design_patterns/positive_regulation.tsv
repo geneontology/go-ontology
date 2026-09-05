@@ -75,7 +75,7 @@ http://purl.obolibrary.org/obo/GO_0045893	positive regulation of DNA-templated t
 http://purl.obolibrary.org/obo/GO_2000144	positive regulation of DNA-templated transcription initiation	http://purl.obolibrary.org/obo/GO_0006352	DNA-templated transcription initiation
 http://purl.obolibrary.org/obo/GO_0032786	positive regulation of DNA-templated transcription, elongation	http://purl.obolibrary.org/obo/GO_0006354	DNA-templated transcription elongation
 http://purl.obolibrary.org/obo/GO_1902953	positive regulation of ER to Golgi vesicle-mediated transport	http://purl.obolibrary.org/obo/GO_0006888	endoplasmic reticulum to Golgi vesicle-mediated transport
-http://purl.obolibrary.org/obo/GO_1904294	positive regulation of ERAD pathway	http://purl.obolibrary.org/obo/GO_0036503	ERAD pathway
+http://purl.obolibrary.org/obo/GO_1904294	positive regulation of ERAD pathway	http://purl.obolibrary.org/obo/GO_0036503	ERAD quality control pathway
 http://purl.obolibrary.org/obo/GO_1901186	positive regulation of ERBB signaling pathway	http://purl.obolibrary.org/obo/GO_0038127	ERBB signaling pathway
 http://purl.obolibrary.org/obo/GO_1905580	positive regulation of ERBB3 signaling pathway	http://purl.obolibrary.org/obo/GO_0038129	ERBB3 signaling pathway
 http://purl.obolibrary.org/obo/GO_0070374	positive regulation of ERK1 and ERK2 cascade	http://purl.obolibrary.org/obo/GO_0070371	ERK1 and ERK2 cascade
@@ -1052,9 +1052,8 @@ http://purl.obolibrary.org/obo/GO_2000467	positive regulation of glycogen (starc
 http://purl.obolibrary.org/obo/GO_0045725	positive regulation of glycogen biosynthetic process	http://purl.obolibrary.org/obo/GO_0005978	glycogen biosynthetic process
 http://purl.obolibrary.org/obo/GO_0045819	positive regulation of glycogen catabolic process	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/GO_0070875	positive regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
+http://purl.obolibrary.org/obo/GO_0045821	positive regulation of glycolysis	http://purl.obolibrary.org/obo/GO_0006096	glycolysis
 http://purl.obolibrary.org/obo/GO_2001172	positive regulation of glycolytic fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	pyruvate fermentation to ethanol
-http://purl.obolibrary.org/obo/GO_0045821	positive regulation of glycolytic process	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
-http://purl.obolibrary.org/obo/GO_1904540	positive regulation of glycolytic process through fructose-6-phosphate	http://purl.obolibrary.org/obo/GO_0061615	glycolytic process through fructose-6-phosphate
 http://purl.obolibrary.org/obo/GO_0010560	positive regulation of glycoprotein biosynthetic process	http://purl.obolibrary.org/obo/GO_0009101	glycoprotein biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903020	positive regulation of glycoprotein metabolic process	http://purl.obolibrary.org/obo/GO_0009100	glycoprotein metabolic process
 http://purl.obolibrary.org/obo/GO_2000876	positive regulation of glyoxylate cycle	http://purl.obolibrary.org/obo/GO_0006097	glyoxylate cycle
