@@ -86,7 +86,7 @@ http://purl.obolibrary.org/obo/GO_0006355	regulation of DNA-templated transcript
 http://purl.obolibrary.org/obo/GO_0032784	regulation of DNA-templated transcription elongation	http://purl.obolibrary.org/obo/GO_0006354	DNA-templated transcription elongation
 http://purl.obolibrary.org/obo/GO_2000142	regulation of DNA-templated transcription initiation	http://purl.obolibrary.org/obo/GO_0006352	DNA-templated transcription initiation
 http://purl.obolibrary.org/obo/GO_0060628	regulation of ER to Golgi vesicle-mediated transport	http://purl.obolibrary.org/obo/GO_0006888	endoplasmic reticulum to Golgi vesicle-mediated transport
-http://purl.obolibrary.org/obo/GO_1904292	regulation of ERAD pathway	http://purl.obolibrary.org/obo/GO_0036503	ERAD pathway
+http://purl.obolibrary.org/obo/GO_1904292	regulation of ERAD pathway	http://purl.obolibrary.org/obo/GO_0036503	ERAD quality control pathway
 http://purl.obolibrary.org/obo/GO_1901184	regulation of ERBB signaling pathway	http://purl.obolibrary.org/obo/GO_0038127	ERBB signaling pathway
 http://purl.obolibrary.org/obo/GO_1905578	regulation of ERBB3 signaling pathway	http://purl.obolibrary.org/obo/GO_0038129	ERBB3 signaling pathway
 http://purl.obolibrary.org/obo/GO_0070372	regulation of ERK1 and ERK2 cascade	http://purl.obolibrary.org/obo/GO_0070371	ERK1 and ERK2 cascade
@@ -1176,8 +1176,8 @@ http://purl.obolibrary.org/obo/GO_2000465	regulation of glycogen (starch) syntha
 http://purl.obolibrary.org/obo/GO_0005979	regulation of glycogen biosynthetic process	http://purl.obolibrary.org/obo/GO_0005978	glycogen biosynthetic process
 http://purl.obolibrary.org/obo/GO_0005981	regulation of glycogen catabolic process	http://purl.obolibrary.org/obo/GO_0005980	glycogen catabolic process
 http://purl.obolibrary.org/obo/GO_0070873	regulation of glycogen metabolic process	http://purl.obolibrary.org/obo/GO_0005977	glycogen metabolic process
+http://purl.obolibrary.org/obo/GO_0006110	regulation of glycolysis	http://purl.obolibrary.org/obo/GO_0006096	glycolysis
 http://purl.obolibrary.org/obo/GO_2001154	regulation of glycolytic fermentation to ethanol	http://purl.obolibrary.org/obo/GO_0019655	pyruvate fermentation to ethanol
-http://purl.obolibrary.org/obo/GO_0006110	regulation of glycolytic process	http://purl.obolibrary.org/obo/GO_0006096	glycolytic process
 http://purl.obolibrary.org/obo/GO_0010559	regulation of glycoprotein biosynthetic process	http://purl.obolibrary.org/obo/GO_0009101	glycoprotein biosynthetic process
 http://purl.obolibrary.org/obo/GO_1903018	regulation of glycoprotein metabolic process	http://purl.obolibrary.org/obo/GO_0009100	glycoprotein metabolic process
 http://purl.obolibrary.org/obo/GO_2000874	regulation of glyoxylate cycle	http://purl.obolibrary.org/obo/GO_0006097	glyoxylate cycle
