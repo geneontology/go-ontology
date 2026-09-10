@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-09/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-10/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-09" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-10" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -1326,16 +1326,6 @@
 - [aldose reductase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0004032) SubClassOf [alcohol dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0018455) 
 
 
-### amino acid activation for nonribosomal peptide biosynthetic process `http://purl.obolibrary.org/obo/GO_0043041`
-#### Removed
-- [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) SubClassOf [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) 
-
-#### Added
-- [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/15375"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) SubClassOf [amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006520) 
-
-
 ### amino acid--[peptidyl-carrier protein] ligase activity `http://purl.obolibrary.org/obo/GO_7770118`
 
 #### Added
@@ -1469,16 +1459,6 @@
 
 #### Added
 - [antigen processing and presentation following phagocytosis](http://purl.obolibrary.org/obo/GO_0002747) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32152"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-
-### arachidonate omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0052869`
-#### Removed
-- [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
-
-#### Added
-- [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) SubClassOf [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) 
 
 
 ### assembly of large subunit precursor of preribosome `http://purl.obolibrary.org/obo/GO_1902626`
@@ -2664,6 +2644,24 @@
 - [lipoyl-GcvH:protein N-lipoyltransferase activity](http://purl.obolibrary.org/obo/GO_7770091) SubClassOf [catalytic activity, acting on a protein](http://purl.obolibrary.org/obo/GO_0140096) 
 
 
+### long-chain fatty acid omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0102033`
+
+#### Added
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32503"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R07041" 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-19677" 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39755" 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN-19677](http://identifiers.org/metacyc.reaction/RXN-19677) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [39755](http://rdf.rhea-db.org/39755) 
+
+- [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [R07041](http://www.kegg.jp/entry/R07041) 
+
+
 ### mRNA m(6)A methyltransferase activity `http://purl.obolibrary.org/obo/GO_0001734`
 
 #### Added
@@ -3400,16 +3398,115 @@
 
 - [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [tRNA charging](http://purl.obolibrary.org/obo/GO_0043039) 
 
-- [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) 
+- [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [amino acid--[peptidyl-carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_7770118) 
 
 - [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The modification of an amino acid to an active form, for incorporation into a peptide, protein or other macromolecule." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
 
 - [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-- [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term grouped two processes that do not share a common biology: tRNA aminoacylation (GO:0043039), in which the amino acid is esterified to a tRNA and is not itself metabolized, and nonribosomal amino acid activation (GO:0043041), in which the amino acid is covalently modified (adenylylated). Its placement under 'amino acid metabolic process' therefore caused tRNA aminoacylation and all of its descendants to be inferred as amino acid metabolism, which the GO editors rejected. Because no residual process is common to both children, the grouping term has been obsoleted rather than redefined. Consider GO:0043039 for tRNA charging and GO:0043041 for nonribosomal activation." 
+- [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term grouped two processes that do not share a common biology: tRNA aminoacylation (GO:0043039), in which the amino acid is esterified to a tRNA and is not itself metabolized, and nonribosomal amino acid activation (GO:0043041), in which the amino acid is covalently modified (adenylylated). Its placement under 'amino acid metabolic process' therefore caused tRNA aminoacylation and all of its descendants to be inferred as amino acid metabolism, which the GO editors rejected. Because no residual process is common to both children, the grouping term has been obsoleted rather than redefined. Consider GO:0043039 for tRNA charging and GO:7770118 for nonribosomal activation." 
 
 - [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete amino acid activation" 
+
+
+### obsolete amino acid activation for nonribosomal peptide biosynthetic process `http://purl.obolibrary.org/obo/GO_0043041`
+#### Removed
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Activation of an amino acid for incorporation into a peptide by a nonribosomal process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid activation for nonribosomal peptide biosynthetic process" 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) SubClassOf [obsolete amino acid activation](http://purl.obolibrary.org/obo/GO_0043038) 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019184) 
+
+#### Added
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/15375"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30872"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [amino acid--[peptidyl-carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_7770118) 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Activation of an amino acid for incorporation into a peptide by a nonribosomal process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term restates a single molecular function. Activation of an amino acid for nonribosomal incorporation is one catalysed reaction, adenylation of the amino acid followed by its transfer as a thioester onto the phosphopantetheine group of a carrier protein, and is fully covered by GO:7770118. Consider GO:7770118." 
+
+- [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete amino acid activation for nonribosomal peptide biosynthetic process" 
+
+
+### obsolete amino acid adenylylation by nonribosomal peptide synthase `http://purl.obolibrary.org/obo/GO_0043042`
+#### Removed
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Activation of an amino acid for incorporation into a peptide by a nonribosomal process, catalyzed by subunits of nonribosomal peptide synthase. The amino acid is adenylated at its carboxylate group (ATP-dependent) then transferred to the thiol group of an enzyme-bound phosphopantetheine cofactor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9250661" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9712910" 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [label](http://www.w3.org/2000/01/rdf-schema#label) "amino acid adenylylation by nonribosomal peptide synthase" 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) SubClassOf [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) 
+
+#### Added
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30872"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [amino acid--[peptidyl-carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_7770118) 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Activation of an amino acid for incorporation into a peptide by a nonribosomal process, catalyzed by subunits of nonribosomal peptide synthase. The amino acid is adenylated at its carboxylate group (ATP-dependent) then transferred to the thiol group of an enzyme-bound phosphopantetheine cofactor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9250661" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9712910" 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term restates a single molecular function, and names the same reaction as its former parent GO:0043041 with the gene product carrying it out. The reaction is fully covered by GO:7770118. Consider GO:7770118." 
+
+- [obsolete amino acid adenylylation by nonribosomal peptide synthase](http://purl.obolibrary.org/obo/GO_0043042) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete amino acid adenylylation by nonribosomal peptide synthase" 
+
+
+### obsolete arachidonate omega-hydroxylase activity `http://purl.obolibrary.org/obo/GO_0052869`
+#### Removed
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "KEGG_REACTION:R07041" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-19677" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39755" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [39755](http://rdf.rhea-db.org/39755) 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase] = 20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate + H+ + H2O + oxidized [NADPH--hemoprotein reductase]. (5Z,8Z,11Z,14Z)-icosatetraenoic acid is also known as arachidonic acid is also and 20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate as 20-HETE." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39755" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "arachidonic acid:oxygen 1-oxidoreductase activity" 
+  - [has_synonym_type](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [Systematic synonym](http://purl.obolibrary.org/obo/go#systematic_synonym) 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [label](http://www.w3.org/2000/01/rdf-schema#label) "arachidonate omega-hydroxylase activity" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) SubClassOf [oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen](http://purl.obolibrary.org/obo/GO_0016712) 
+
+#### Added
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32501"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32503"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [long-chain fatty acid omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0102033) 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "arachidonic acid:oxygen 1-oxidoreductase activity" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: (5Z,8Z,11Z,14Z)-eicosatetraenoate + O2 + reduced [NADPH--hemoprotein reductase] = 20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate + H+ + H2O + oxidized [NADPH--hemoprotein reductase]. (5Z,8Z,11Z,14Z)-icosatetraenoic acid is also known as arachidonic acid is also and 20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate as 20-HETE." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:39755" 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a specific substrate of the parent term." 
+
+- [obsolete arachidonate omega-hydroxylase activity](http://purl.obolibrary.org/obo/GO_0052869) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete arachidonate omega-hydroxylase activity" 
 
 
 ### obsolete arginyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006420`
@@ -8679,7 +8776,7 @@
 
 ### tRNA aminoacylation for nonribosomal peptide biosynthetic process `http://purl.obolibrary.org/obo/GO_0043040`
 #### Removed
-- [tRNA aminoacylation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043040) SubClassOf [amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) 
+- [tRNA aminoacylation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043040) SubClassOf [obsolete amino acid activation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043041) 
 
 #### Added
 - [tRNA aminoacylation for nonribosomal peptide biosynthetic process](http://purl.obolibrary.org/obo/GO_0043040) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/15375"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
