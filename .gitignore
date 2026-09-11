@@ -52,3 +52,10 @@ src/ontology/qc-unexpected-violations.tsv
 src/ontology/qc-unexpected-checks.tsv
 src/ontology/qc-unregistered-checks.tsv
 src/ontology/qc-selftest-violations.tsv
+
+# Reference caching and research notes (/research skill, src/util/cache-references.py).
+# Both are regenerable and neither belongs in the repo: the cache can reach
+# hundreds of KB per full-text paper, and RESEARCH.md is posted to the issue.
+references_cache/
+RESEARCH.md
+RESEARCH_*.md
