@@ -46,15 +46,44 @@ deep-research-client research --provider cyberian ....
 
 ## Caching PMIDs and DOIs
 
-You can use `linkml-reference-validator` to cache references. This is in your path. Note that this will not always work for full texts.
+Use `src/util/cache-references.py`, not `linkml-reference-validator` directly:
 
-Example:
-`linkml-reference-validator cache reference PMID:28318978`
+```
+./src/util/cache-references.py PMID:28318978 PMID:21423649
+./src/util/cache-references.py --from RESEARCH.md     # every PMID the draft cites
+./src/util/cache-references.py --recheck              # retry abstract-only entries
+```
+
 ==> writes to `references_cache/PMID_28318978.md`
 
-Always use this to check that there are no typos or hallucinations with reference IDs. If the title or abstract doesn't match with what the reference is purportedly supporting, there is likely a typo or hallucination.
+The wrapper runs `linkml-reference-validator cache reference` and then recovers
+the full text the validator silently drops. The validator's own PMC HTML
+fallback searches for markup PMC retired, so when a publisher restricts the
+Entrez XML you get `content_type: abstract_only` with no indication that full
+text existed. The wrapper tries Europe PMC's JATS XML, then the rendered PMC
+page for articles Europe PMC does not carry, and appends what it finds under
+`## Full Text` -- inside the region the validator reads back, so quotes from
+Methods and Results validate exactly as abstract quotes do.
 
-Note that `references_cache` should NOT be checked back in to git.
+Check `content_type` in the cached file to know what you are quoting from:
+
+- `full_text_xml` / `full_text_pmc` -- whole paper is searchable
+- `abstract_only` with `no_pmc` reported -- there is no PMC copy; if the
+  abstract does not support the claim, use the `NO_FULL_TEXT:` form below
+  rather than quoting something you cannot verify
+
+Always cache before citing, to check for typos and hallucinations in reference
+IDs. If the title or abstract doesn't match what the reference is purportedly
+supporting, there is likely a typo or hallucination. A PMID that does not exist
+at all makes the validation run exit non-zero -- that is deliberate, see the
+comments in `.linkml-reference-validator.yaml`.
+
+That config sits at the repo root and is auto-discovered, so **run the
+validator and this wrapper from the repo root**. From elsewhere the tool falls
+back to its defaults: a placeholder NCBI email, and no `skip_prefixes`, which
+makes every `GOC:`/`GO_REF:`/`RHEA:` xref look like an unfetchable reference.
+
+`references_cache` and `RESEARCH.md` are gitignored; do not check them in.
 
 ## Incorporating research results back into your work
 
