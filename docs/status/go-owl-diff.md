@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-11/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-12/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-11" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-12" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -7221,6 +7221,10 @@
 
 ### protein-phosphatidylethanolamide deconjugating activity `http://purl.obolibrary.org/obo/GO_0019786`
 #### Removed
+- [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Atg8-specific protease activity" 
+
+- [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "APG8-PE hydrolase" 
+
 - [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: [protein]-C-terminal L-amino acid-glycyl-phosphatidylethanolamide + H2O = [protein]-C-terminal L-amino acid-glycine + a 1,2-diacyl-sn-glycero-3-phosphoethanolamine. An example of this reaction is the removal of ATG8 from membranes to which it is covalently linked to a phosphatidylethanolamid via its terminal glycine residue." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28330855" 
 
@@ -7237,6 +7241,14 @@
 #### Added
 - [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32575"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67548" 
+
+- [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "APG8-PE hydrolase" 
+
+- [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Atg8-specific protease activity" 
+
+- [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [67548](http://rdf.rhea-db.org/67548) 
+
 - [protein-phosphatidylethanolamide deconjugating activity](http://purl.obolibrary.org/obo/GO_0019786) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: [protein]-C-terminal L-amino acid-glycyl-phosphatidylethanolamide + H2O = [protein]-C-terminal L-amino acid-glycine + a 1,2-diacyl-sn-glycero-3-phosphoethanolamine. An example of this reaction is the removal of ATG8 from membranes to which it is covalently linked to a phosphatidylethanolamine via its terminal glycine residue." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28330855" 
 
@@ -7245,6 +7257,8 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22652539" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28821724" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67548" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28901328" 
 
