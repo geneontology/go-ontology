@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-13/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-14/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-13" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-14" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
@@ -2343,6 +2343,16 @@
 
 - [chloroplast protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0016464) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a protein from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the chloroplast stroma." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.4" 
+
+
+### chrorion micropyle `http://purl.obolibrary.org/obo/GO_0070825`
+#### Removed
+- [chrorion micropyle](http://purl.obolibrary.org/obo/GO_0070825) [label](http://www.w3.org/2000/01/rdf-schema#label) "chrorion micropyle" 
+
+#### Added
+- [chrorion micropyle](http://purl.obolibrary.org/obo/GO_0070825) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32594"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [chrorion micropyle](http://purl.obolibrary.org/obo/GO_0070825) [label](http://www.w3.org/2000/01/rdf-schema#label) "chorion micropyle" 
 
 
 ### citrate-malate shuttle `http://purl.obolibrary.org/obo/GO_7770108`
