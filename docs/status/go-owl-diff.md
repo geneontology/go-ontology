@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-14/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-15/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,13 +19,109 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-14" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-15" 
+
+
+### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
+#### Removed
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "'de novo' NAD biosynthetic process from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "'de novo' NAD biosynthetic process from L-aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nicotinamide nucleotide anabolism from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nicotinamide nucleotide biosynthetic process from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nicotinamide nucleotide formation from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "nicotinamide nucleotide synthesis from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide (NAD+), beginning with the catabolism of L-aspartate into the precursor quinolinate. NAD+ is a coenzyme that interconverts with its reduced form, NADH, in many redox and catabolic reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This pathway is found in bacteria, Archaea and may also occur in plants." 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [label](http://www.w3.org/2000/01/rdf-schema#label) "'de novo' NAD+ biosynthetic process from L-aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) SubClassOf [aspartate metabolic process](http://purl.obolibrary.org/obo/GO_0006531) 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
+
+#### Added
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32206"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "kynurenine pathway" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NADSYN-PWY" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5653" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "'de novo' NAD biosynthetic process from L-aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "'de novo' NAD biosynthetic process from L-tryptophan" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "'de novo' NAD biosynthetic process from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "'de novo' NAD+ biosynthetic process from L-aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "'de novo' NAD+ biosynthetic process from L-tryptophan" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "nicotinamide nucleotide anabolism from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "nicotinamide nucleotide biosynthetic process from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "nicotinamide nucleotide formation from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "nicotinamide nucleotide synthesis from aspartate" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [NADSYN-PWY](http://identifiers.org/metacyc.reaction/NADSYN-PWY) 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5653](http://identifiers.org/metacyc.reaction/PWY-5653) 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide (NAD+), beginning with the catabolism of L-aspartate (in bacteria and in Archaea) or L-tryptophan (in eukaryotes) into the precursor quinolinate. NAD+ is a coenzyme that interconverts with its reduced form, NADH, in many redox and catabolic reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17161604" 
+
+- ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) [label](http://www.w3.org/2000/01/rdf-schema#label) "'de novo' NAD+ biosynthetic process" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_0034354`
+#### Removed
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:NADSYN-PWY" 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5653" 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [NADSYN-PWY](http://identifiers.org/metacyc.reaction/NADSYN-PWY) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5653](http://identifiers.org/metacyc.reaction/PWY-5653) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide (NAD+), beginning with the catabolism of L-tryptophan into the precursor quinolinate. NAD+ is a coenzyme that interconverts with its reduced form, NADH, in many redox and catabolic reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17161604" 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [label](http://www.w3.org/2000/01/rdf-schema#label) "'de novo' NAD+ biosynthetic process from L-tryptophan" 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) SubClassOf [aromatic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0009072) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) SubClassOf [NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0009435) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) SubClassOf [indole-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0042430) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) SubClassOf [proteinogenic amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0170039) 
 
 #### Added
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32206"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32456"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of nicotinamide adenine dinucleotide (NAD+), beginning with the catabolism of L-tryptophan into the precursor quinolinate. NAD+ is a coenzyme that interconverts with its reduced form, NADH, in many redox and catabolic reactions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17161604" 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific pathway." 
+
+- ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 'de novo' NAD+ biosynthetic process from L-tryptophan" 
 
 
 ### (2R)-2-hydroxycarboxylate dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0140174`
@@ -312,6 +408,26 @@
 
 - [ABC-type protein transporter activity](http://purl.obolibrary.org/obo/GO_0015462) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a protein from one side of a membrane to the other according to the reaction: ATP + H2O + protein(out) = ADP + phosphate + protein(in)." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+
+### AMP salvage `http://purl.obolibrary.org/obo/GO_0044209`
+
+#### Added
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P121-PWY" 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6605" 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6619" 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6610](http://identifiers.org/metacyc.reaction/PWY-6610) 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [P121-PWY](http://identifiers.org/metacyc.reaction/P121-PWY) 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6605](http://identifiers.org/metacyc.reaction/PWY-6605) 
+
+- [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6619](http://identifiers.org/metacyc.reaction/PWY-6619) 
 
 
 ### ATG2-ATG18 complex `http://purl.obolibrary.org/obo/GO_0062079`
@@ -798,6 +914,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
 
+### GMP salvage `http://purl.obolibrary.org/obo/GO_0032263`
+
+#### Added
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6599" 
+
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6618" 
+
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6620" 
+
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6599](http://identifiers.org/metacyc.reaction/PWY-6599) 
+
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6618](http://identifiers.org/metacyc.reaction/PWY-6618) 
+
+- [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6620](http://identifiers.org/metacyc.reaction/PWY-6620) 
+
+
 ### GPI anchor remodelling `http://purl.obolibrary.org/obo/GO_0120574`
 #### Removed
 - [GPI anchor remodelling](http://purl.obolibrary.org/obo/GO_0120574) [label](http://www.w3.org/2000/01/rdf-schema#label) "GPI anchor remodelling" 
@@ -834,6 +968,22 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16873066" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21454652" 
+
+
+### IMP salvage `http://purl.obolibrary.org/obo/GO_0032264`
+
+#### Added
+- [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6609" 
+
+- [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6611" 
+
+- [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6610](http://identifiers.org/metacyc.reaction/PWY-6610) 
+
+- [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6609](http://identifiers.org/metacyc.reaction/PWY-6609) 
+
+- [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6611](http://identifiers.org/metacyc.reaction/PWY-6611) 
 
 
 ### L-arabinose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0032867`
@@ -1002,6 +1152,22 @@
 - [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylneuraminate metabolic process" 
 
 
+### NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0009435`
+#### Removed
+- [NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0009435) SubClassOf [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) 
+
+#### Added
+- [NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0009435) SubClassOf [pyridine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019363) 
+
+
+### NAD+ metabolic process `http://purl.obolibrary.org/obo/GO_0019674`
+#### Removed
+- [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674) SubClassOf [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) 
+
+#### Added
+- [NAD+ metabolic process](http://purl.obolibrary.org/obo/GO_0019674) SubClassOf [pyridine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072524) 
+
+
 ### NAD+ nucleosidase activity, cyclic ADP-ribose generating `http://purl.obolibrary.org/obo/GO_0061809`
 #### Removed
 - [NAD+ nucleosidase activity, cyclic ADP-ribose generating](http://purl.obolibrary.org/obo/GO_0061809) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:38615" 
@@ -1090,6 +1256,22 @@
 - [NADH-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0102039) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32372"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [NADH-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0102039) SubClassOf [peroxidase activity](http://purl.obolibrary.org/obo/GO_0004601) 
+
+
+### NADP+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0006741`
+#### Removed
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) SubClassOf [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) 
+
+#### Added
+- [NADP+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0006741) SubClassOf [pyridine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019363) 
+
+
+### NADP+ metabolic process `http://purl.obolibrary.org/obo/GO_0006739`
+#### Removed
+- [NADP+ metabolic process](http://purl.obolibrary.org/obo/GO_0006739) SubClassOf [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) 
+
+#### Added
+- [NADP+ metabolic process](http://purl.obolibrary.org/obo/GO_0006739) SubClassOf [pyridine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072524) 
 
 
 ### NAGS/NAGK complex `http://purl.obolibrary.org/obo/GO_0106098`
@@ -1551,6 +1733,16 @@
 - [UDP-N-acetylglucosamine metabolic process](http://purl.obolibrary.org/obo/GO_0006047) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete UDP-N-acetylglucosamine metabolic process" 
 
 
+### XMP salvage `http://purl.obolibrary.org/obo/GO_0032265`
+
+#### Added
+- [XMP salvage](http://purl.obolibrary.org/obo/GO_0032265) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [XMP salvage](http://purl.obolibrary.org/obo/GO_0032265) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SALVPURINE2-PWY" 
+
+- [XMP salvage](http://purl.obolibrary.org/obo/GO_0032265) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [SALVPURINE2-PWY](http://identifiers.org/metacyc.reaction/SALVPURINE2-PWY) 
+
+
 ### acetyl-CoA C-myristoyltransferase activity `http://purl.obolibrary.org/obo/GO_0050633`
 #### Removed
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: myristoyl-CoA + acetyl-CoA = 3-oxopalmitoyl-CoA + CoA." 
@@ -1565,6 +1757,42 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18161" 
 
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) 
+
+
+### adenine salvage `http://purl.obolibrary.org/obo/GO_0006168`
+#### Removed
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6610" 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [P121-PWY](http://identifiers.org/metacyc.reaction/P121-PWY) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6605](http://identifiers.org/metacyc.reaction/PWY-6605) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6609](http://identifiers.org/metacyc.reaction/PWY-6609) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6611](http://identifiers.org/metacyc.reaction/PWY-6611) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6619](http://identifiers.org/metacyc.reaction/PWY-6619) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-6610](http://identifiers.org/metacyc.reaction/PWY-6610) 
+
+#### Added
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### adenosine salvage `http://purl.obolibrary.org/obo/GO_0006169`
+#### Removed
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [P121-PWY](http://identifiers.org/metacyc.reaction/P121-PWY) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6605](http://identifiers.org/metacyc.reaction/PWY-6605) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6609](http://identifiers.org/metacyc.reaction/PWY-6609) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6611](http://identifiers.org/metacyc.reaction/PWY-6611) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6619](http://identifiers.org/metacyc.reaction/PWY-6619) 
+
+#### Added
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### alanyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006419`
@@ -2607,6 +2835,22 @@
 - [cytosolic valyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0061475) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cytosolic valyl-tRNA aminoacylation" 
 
 
+### dAMP salvage `http://purl.obolibrary.org/obo/GO_0106383`
+
+#### Added
+- [dAMP salvage](http://purl.obolibrary.org/obo/GO_0106383) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dAMP salvage](http://purl.obolibrary.org/obo/GO_0106383) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-7224](http://identifiers.org/metacyc.reaction/PWY-7224) 
+
+
+### dGMP salvage `http://purl.obolibrary.org/obo/GO_0106384`
+
+#### Added
+- [dGMP salvage](http://purl.obolibrary.org/obo/GO_0106384) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dGMP salvage](http://purl.obolibrary.org/obo/GO_0106384) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-7224](http://identifiers.org/metacyc.reaction/PWY-7224) 
+
+
 ### dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002371`
 #### Removed
 - [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms." 
@@ -3331,6 +3575,8 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 - [glycolytic process](http://purl.obolibrary.org/obo/GO_0006096) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycolytic process" 
+
+- [glycolytic process](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) 
 
 #### Added
 - [glycolytic process](http://purl.obolibrary.org/obo/GO_0006096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32471"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -4357,6 +4603,42 @@
 - [methionyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006431) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete methionyl-tRNA aminoacylation" 
 
 
+### methylenediurea deaminase activity `http://purl.obolibrary.org/obo/GO_0047424`
+#### Removed
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.5.3.21" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [3.5.3.21](http://purl.uniprot.org/enzyme/3.5.3.21) 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "methylenediurea aminohydrolase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.5.3.21" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "methylenediurease activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.5.3.21" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: methylenediurea + 2 H2O + 2 H+ = N-(hydroxymethyl)urea + 2 NH4+ + CO2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15929" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amidines](http://purl.obolibrary.org/obo/GO_0016813) 
+
+#### Added
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32600"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.5.1.141" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methylenediurea amidohydrolase activity" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "methylenediurea aminohydrolase activity" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "methylenediurease activity" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [3.5.1.141](http://purl.uniprot.org/enzyme/3.5.1.141) 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: methylenediurea + 2 H2O + 2 H+ = urea + formaldehyde + 2 NH4+ + CO2." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15929" 
+
+- [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides](http://purl.obolibrary.org/obo/GO_0016811) 
+
+
 ### microglial cell mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0090634`
 
 #### Added
@@ -5177,6 +5459,110 @@
 - [negative regluation of nuclear-transribed mRNA catabolic process, no-go decay](http://purl.obolibrary.org/obo/GO_0170075) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of nuclear-transcribed mRNA catabolic process, no-go decay" 
 
 
+### negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_1905013`
+#### Removed
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "negative regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of 'de novo' NAD biosynthetic process from L-tryptophan." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12140278" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19843166" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "down regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "down-regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "downregulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inhibition of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "negative regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354)) 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [negative regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045763) 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
+
+#### Added
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32206"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "negative regulation of 'de novo' NAD biosynthetic process" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of 'de novo' NAD+ biosynthetic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12140278" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19843166" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "inhibition of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "down regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "down-regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "downregulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "inhibition of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "negative regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of 'de novo' NAD+ biosynthetic process" 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628)) 
+
+- [negative regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905013) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
 ### negative regulation of ERAD pathway `http://purl.obolibrary.org/obo/GO_1904293`
 #### Removed
 - [negative regulation of ERAD pathway](http://purl.obolibrary.org/obo/GO_1904293) SubClassOf [negative regulation of response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_1903573) 
@@ -5242,6 +5628,24 @@
 - [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
 
 - [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### negative regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001155`
+#### Removed
+- [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of glucose catabolic process to ethanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of glycolytic fermentation to ethanol" 
+
+#### Added
+- [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "negative regulation of glycolytic fermentation to ethanol" 
+
+- [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of pyruvate fermentation to ethanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of pyruvate fermentation to ethanol" 
 
 
 ### negative regulation of glycolytic process `http://purl.obolibrary.org/obo/GO_0045820`
@@ -5487,6 +5891,54 @@
 #### Added
 - [neurotransmitter receptor transport, postsynaptic endosome to lysosome](http://purl.obolibrary.org/obo/GO_0098943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of neurotransmitter receptor from the postsynaptic endosome in transport vesicles to the lysosome for degradation." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
+
+### nicotinamide nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_0019359`
+#### Removed
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of nicotinamide nucleotides, any nucleotide that contains combined nicotinamide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [label](http://www.w3.org/2000/01/rdf-schema#label) "nicotinamide nucleotide biosynthetic process" 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) SubClassOf [pyridine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019363) 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) SubClassOf [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) 
+
+#### Added
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32583"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of nicotinamide nucleotides, any nucleotide that contains combined nicotinamide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nicotinamide nucleotide biosynthetic process" 
+
+
+### nicotinamide nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0046496`
+#### Removed
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving nicotinamide nucleotides, any nucleotide that contains combined nicotinamide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [label](http://www.w3.org/2000/01/rdf-schema#label) "nicotinamide nucleotide metabolic process" 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) SubClassOf [nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0009117) 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) SubClassOf [pyridine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072524) 
+
+#### Added
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32583"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving nicotinamide nucleotides, any nucleotide that contains combined nicotinamide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete nicotinamide nucleotide metabolic process" 
 
 
 ### nitrate assimilation `http://purl.obolibrary.org/obo/GO_0042128`
@@ -5802,6 +6254,16 @@
 - [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) SubClassOf [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) 
 
 
+### obsolete 'de novo' NAD biosynthetic process `http://purl.obolibrary.org/obo/GO_0034627`
+#### Removed
+- [obsolete 'de novo' NAD biosynthetic process](http://purl.obolibrary.org/obo/GO_0034627) [consider](http://www.geneontology.org/formats/oboInOwl#consider) ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
+
+- [obsolete 'de novo' NAD biosynthetic process](http://purl.obolibrary.org/obo/GO_0034627) [consider](http://www.geneontology.org/formats/oboInOwl#consider) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+#### Added
+- [obsolete 'de novo' NAD biosynthetic process](http://purl.obolibrary.org/obo/GO_0034627) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
 ### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
 #### Removed
 - [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -5936,6 +6398,14 @@
 - [obsolete intrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097633) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) 
 
 
+### obsolete kynurenine metabolic process `http://purl.obolibrary.org/obo/GO_0070189`
+#### Removed
+- [obsolete kynurenine metabolic process](http://purl.obolibrary.org/obo/GO_0070189) [consider](http://www.geneontology.org/formats/oboInOwl#consider) ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
+
+#### Added
+- [obsolete kynurenine metabolic process](http://purl.obolibrary.org/obo/GO_0070189) [consider](http://www.geneontology.org/formats/oboInOwl#consider) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
 ### obsolete lectin-type holdase activity `http://purl.obolibrary.org/obo/GO_7770116`
 
 #### Added
@@ -5987,6 +6457,24 @@
 #### Removed
 - [obsolete negative regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903215) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) 
 
+
+
+### obsolete nicotinamide nucleotide biosynthetic process from niacinamide `http://purl.obolibrary.org/obo/GO_0019360`
+#### Removed
+- [obsolete nicotinamide nucleotide biosynthetic process from niacinamide](http://purl.obolibrary.org/obo/GO_0019360) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) 
+
+
+
+### obsolete nicotinate nucleotide biosynthetic process from tryptophan `http://purl.obolibrary.org/obo/GO_0019356`
+#### Removed
+- [obsolete nicotinate nucleotide biosynthetic process from tryptophan](http://purl.obolibrary.org/obo/GO_0019356) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
+
+- [obsolete nicotinate nucleotide biosynthetic process from tryptophan](http://purl.obolibrary.org/obo/GO_0019356) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is essentially equivalent to 'de novo' NAD+ biosynthetic process from L-tryptophan." 
+
+#### Added
+- [obsolete nicotinate nucleotide biosynthetic process from tryptophan](http://purl.obolibrary.org/obo/GO_0019356) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+- [obsolete nicotinate nucleotide biosynthetic process from tryptophan](http://purl.obolibrary.org/obo/GO_0019356) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents the same pathway as 'de novo' NAD+ biosynthetic process." 
 
 
 ### obsolete positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900740`
@@ -6453,6 +6941,96 @@
 - [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0120515) 
 
 
+### positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_1905014`
+#### Removed
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "positive regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of 'de novo' NAD biosynthetic process from L-tryptophan." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of 'de novo' NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "activation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "positive regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "up regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "up-regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "upregulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354)) 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [positive regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0045764) 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
+
+#### Added
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32206"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "positive regulation of 'de novo' NAD biosynthetic process" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of 'de novo' NAD+ biosynthetic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of 'de novo' NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "activation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "positive regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "up regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "up-regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "upregulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of 'de novo' NAD+ biosynthetic process" 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628)) 
+
+- [positive regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905014) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
 ### positive regulation of ERAD pathway `http://purl.obolibrary.org/obo/GO_1904294`
 #### Removed
 - [positive regulation of ERAD pathway](http://purl.obolibrary.org/obo/GO_1904294) SubClassOf [positive regulation of response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_1905898) 
@@ -6549,6 +7127,24 @@
 - [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
 
 - [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
+
+
+### positive regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001172`
+#### Removed
+- [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of glucose catabolic process to ethanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of glycolytic fermentation to ethanol" 
+
+#### Added
+- [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "positive regulation of glycolytic fermentation to ethanol" 
+
+- [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of pyruvate fermentation to ethanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [positive regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001172) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of pyruvate fermentation to ethanol" 
 
 
 ### positive regulation of glycolytic process `http://purl.obolibrary.org/obo/GO_0045821`
@@ -7375,6 +7971,62 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18832033" 
 
 
+### regulation of 'de novo' NAD biosynthetic process from L-tryptophan `http://purl.obolibrary.org/obo/GO_1905012`
+#### Removed
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of 'de novo' NAD biosynthetic process from tryptophan" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of 'de novo' NAD biosynthetic process from L-tryptophan." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12140278" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19843166" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "regulation of de novo NAD biosynthetic process from tryptophan" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of 'de novo' NAD biosynthetic process from L-tryptophan" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354)) 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) SubClassOf [regulation of amino acid metabolic process](http://purl.obolibrary.org/obo/GO_0006521) 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some ['de novo' NAD+ biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_0034354) 
+
+#### Added
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32206"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of 'de novo' NAD biosynthetic process" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of 'de novo' NAD+ biosynthetic process." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12140278" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19843166" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "regulation of de novo NAD biosynthetic process" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of 'de novo' NAD+ biosynthetic process" 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628)) 
+
+- [regulation of 'de novo' NAD biosynthetic process from L-tryptophan](http://purl.obolibrary.org/obo/GO_1905012) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
+
+
 ### regulation of ERAD pathway `http://purl.obolibrary.org/obo/GO_1904292`
 #### Removed
 - [regulation of ERAD pathway](http://purl.obolibrary.org/obo/GO_1904292) SubClassOf [regulation of response to endoplasmic reticulum stress](http://purl.obolibrary.org/obo/GO_1905897) 
@@ -7509,6 +8161,28 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+
+### regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001154`
+#### Removed
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of glucose catabolic process to ethanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of glycolytic fermentation to ethanol" 
+
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) SubClassOf [regulation of carbohydrate catabolic process](http://purl.obolibrary.org/obo/GO_0043470) 
+
+#### Added
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32581"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "regulation of glycolytic fermentation to ethanol" 
+
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of pyruvate fermentation to ethanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of pyruvate fermentation to ethanol" 
+
+- [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) SubClassOf [regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009894) 
 
 
 ### regulation of glycolytic process `http://purl.obolibrary.org/obo/GO_0006110`
