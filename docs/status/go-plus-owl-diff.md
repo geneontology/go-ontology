@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-16/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-17/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-16" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-17" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -882,6 +882,28 @@
 - [GPI anchor remodeling](http://purl.obolibrary.org/obo/GO_0120574) [label](http://www.w3.org/2000/01/rdf-schema#label) "GPI anchor remodeling" 
 
 
+### GTPase-dependent fusogenic activity `http://purl.obolibrary.org/obo/GO_0140523`
+#### Removed
+- [GTPase-dependent fusogenic activity](http://purl.obolibrary.org/obo/GO_0140523) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GTPase activity that mediates the joining of two lipid bilayers to form a single membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29663589" 
+
+- [GTPase-dependent fusogenic activity](http://purl.obolibrary.org/obo/GO_0140523) SubClassOf [GTPase activity](http://purl.obolibrary.org/obo/GO_0003924) 
+
+#### Added
+- [GTPase-dependent fusogenic activity](http://purl.obolibrary.org/obo/GO_0140523) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [GTPase-dependent fusogenic activity](http://purl.obolibrary.org/obo/GO_0140523) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The activity of joining two lipid bilayers to form a single membrane by GTP-driven oligomerization." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36057374" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21368113" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29663589" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28114303" 
+
+- [GTPase-dependent fusogenic activity](http://purl.obolibrary.org/obo/GO_0140523) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is carried out by dynamin-related GTPases such as the mitofusins and atlastin, which oligomerize across the two membranes in a nucleotide-dependent manner and then undergo a GTP hydrolysis-coupled conformational change that pulls the bilayers together." 
+
+
 ### Hrd1p ubiquitin ligase complex `http://purl.obolibrary.org/obo/GO_0000836`
 #### Removed
 - [Hrd1p ubiquitin ligase complex](http://purl.obolibrary.org/obo/GO_0000836) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A multiprotein complex that recognizes and ubiquitinates proteins with misfolded luminal and membrane domains during ER-associated protein degradation (ERAD). In S. cerevisiae, this complex contains the ubiquitin ligase Hrd1p. In mammals, this complex contains the ubiquitin ligase HRD1 (Synoviolin) or AMFR (gp78)." 
@@ -998,6 +1020,81 @@
 
 #### Added
 - [L-phenylalanine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-phenylalanine oxidase activity" 
+
+
+### MCM double hexamer assembly at replication origin `http://purl.obolibrary.org/obo/GO_0140530`
+#### Removed
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The protein localization process in which two MCM complexes become associated with chromatin at replication origins. MCM loading begins when origin-bound ORC and Cdc6 (Cdc18 in fission yeast) recruit one MCM2-7/Cdt1 complex to the origin, includes formation of a succession of intermediate complexes and ATP hydrolysis-dependent Mcm2-7 ring closure, and ends when two MCM hexamers fully encircle DNA, and are oriented head-to-head. The double hexamer is inactive for DNA unwinding. MCM loading takes place during G1 phase, and precedes CMG complex assembly." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28191893" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28501329" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28191894" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23603117" 
+
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [label](http://www.w3.org/2000/01/rdf-schema#label) "MCM complex loading" 
+
+#### Added
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32181"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MCM complex loading" 
+
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The multistep protein-DNA complex assembly process in which two MCM2-7 complexes are successively loaded onto duplex DNA at a replication origin to form a head-to-head double hexamer. The process begins when origin-bound ORC and Cdc6 (Cdc18 in fission yeast) recruit a Cdt1-bound MCM2-7 hexamer to the origin, proceeds through a succession of intermediate complexes including the ORC-Cdc6-Cdt1-MCM2-7 (OCCM) helicase-loading intermediate, and ends when two MCM2-7 hexamers fully encircle the DNA in a head-to-head orientation. The resulting double hexamer is inactive for DNA unwinding. This process takes place during G1 phase and precedes CMG complex assembly." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28191893" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28501329" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28191894" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25085418" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23603117" 
+
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The individual ring-loading events within this process are mediated by MCM loader activity (GO:7770122). This term covers the whole multistep process, including formation of the intermediate complexes and the head-to-head association of the two loaded hexamers." 
+
+- [MCM double hexamer assembly at replication origin](http://purl.obolibrary.org/obo/GO_0140530) [label](http://www.w3.org/2000/01/rdf-schema#label) "MCM double hexamer assembly at replication origin" 
+
+
+### MCM loader activity `http://purl.obolibrary.org/obo/GO_7770122`
+
+#### Added
+- Class: [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32181"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-09-16T17:04:20Z" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MCM complex loader activity" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MCM helicase loader activity" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MCM loading activity" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "MCM2-7 loader activity" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770122" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [13065](http://rdf.rhea-db.org/13065) 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Facilitating the opening of the ring structure of the MCM2-7 complex at the Mcm2-Mcm5 gate and its closing around duplex DNA at a replication origin, driven by ATP hydrolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28191893" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25085418" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23603117" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In eukaryotes this activity is carried out by the origin recognition complex (ORC) acting together with Cdc6 and Cdt1, which open the MCM2-7 ring, admit duplex origin DNA and close the ring around it. The loaded single hexamers subsequently associate head-to-head; see MCM double hexamer assembly at replication origin (GO:0140530)." 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) [label](http://www.w3.org/2000/01/rdf-schema#label) "MCM loader activity" 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) SubClassOf [ATP-dependent activity, acting on DNA](http://purl.obolibrary.org/obo/GO_0008094) 
+
+- [MCM loader activity](http://purl.obolibrary.org/obo/GO_7770122) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [DNA binding](http://purl.obolibrary.org/obo/GO_0003677) 
 
 
 ### MHC class I protein binding `http://purl.obolibrary.org/obo/GO_0042288`
@@ -2479,6 +2576,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21779028" 
 
 
+### clustering of voltage-gated calcium channels `http://purl.obolibrary.org/obo/GO_0070073`
+#### Removed
+- [clustering of voltage-gated calcium channels](http://purl.obolibrary.org/obo/GO_0070073) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+
+### clustering of voltage-gated potassium channels `http://purl.obolibrary.org/obo/GO_0045163`
+#### Removed
+- [clustering of voltage-gated potassium channels](http://purl.obolibrary.org/obo/GO_0045163) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+
+### clustering of voltage-gated sodium channels `http://purl.obolibrary.org/obo/GO_0045162`
+#### Removed
+- [clustering of voltage-gated sodium channels](http://purl.obolibrary.org/obo/GO_0045162) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+
 ### cochlear hair cell ribbon synapse `http://purl.obolibrary.org/obo/GO_0098683`
 #### Removed
 - [cochlear hair cell ribbon synapse](http://purl.obolibrary.org/obo/GO_0098683) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A ribbon synpase of an auditory hair cell of the cochlear. These ribbon synapses contain spherical synaptic ribbons and lack and arciform density." 
@@ -3496,6 +3611,46 @@
 - [group translocator activity](http://purl.obolibrary.org/obo/GO_7770111) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [catalytic activity](http://purl.obolibrary.org/obo/GO_0003824) 
 
 
+### helical-bundle zippering fusogenic activity `http://purl.obolibrary.org/obo/GO_0005484`
+#### Removed
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "SNARE" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "SNAP-25" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Acting as a marker to identify a membrane and interacting selectively with one or more SNAREs on another membrane to mediate membrane fusion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14570579" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [label](http://www.w3.org/2000/01/rdf-schema#label) "SNAP receptor activity" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) SubClassOf [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [fusogenic activity](http://purl.obolibrary.org/obo/GO_0140522) 
+
+#### Added
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "SNAP receptor activity" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "SNARE activity" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "SNARE" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "SNARE-type fusogenic activity" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The activity of joining two lipid bilayers to form a single membrane, driven by the exergonic zippering of a multi-helix bundle assembled de novo from complementary helical motifs contributed by proteins anchored in the two apposed membranes, releasing the energy needed to overcome the lipid bilayer merger energy barrier." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28097727" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37848589" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term is mechanism-based and is not restricted to any one protein family, but in practice it is the molecular function of SNARE proteins (SNAP receptors), which zipper into a parallel four-helix bundle that pulls the two membranes together. Contrast with refolding-mediated fusogenic activity (GO:7770123): here the bundle is built de novo from motifs contributed by both of the apposed membranes, whereas a refolding fusogen is a single pre-folded, primed, metastable protein anchored in one membrane that inserts a hydrophobic segment into the other. Class I viral fusion proteins such as influenza HA2 and HIV gp41 also end in a helical bundle, but they reach it by refolding and so belong under GO:7770123." 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) [label](http://www.w3.org/2000/01/rdf-schema#label) "helical-bundle zippering fusogenic activity" 
+
+- [helical-bundle zippering fusogenic activity](http://purl.obolibrary.org/obo/GO_0005484) SubClassOf [fusogenic activity](http://purl.obolibrary.org/obo/GO_0140522) 
+
+
 ### heme A synthase activity `http://purl.obolibrary.org/obo/GO_0120547`
 #### Removed
 - [heme A synthase activity](http://purl.obolibrary.org/obo/GO_0120547) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: Fe(II)-heme o + 2 acceptor + H2O = Fe(II)-heme a + 2 acceptor-H2. The conversion of heme o to heme a occcurs by two successive hydroxylations of the methyl group at C8 using water as the oxygen source. The first hydroxylation forms heme i, the second hydroxylation results in an unstable dihydroxymethyl group, which spontaneously dehydrates, resulting in the formyl group of heme A." 
@@ -4087,6 +4242,14 @@
 - [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitochondrion organization](http://purl.obolibrary.org/obo/GO_0007005) 
 
 - [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) SubClassOf [results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0031966) 
+
+
+### mitochondrial protein import pathway `http://purl.obolibrary.org/obo/GO_7770058`
+
+#### Added
+- [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32292"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_pombe](http://purl.obolibrary.org/obo/go#goslim_pombe) 
 
 
 ### mitochondrial protein quality control `http://purl.obolibrary.org/obo/GO_0141164`
@@ -11898,6 +12061,37 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18832033" 
 
 
+### refolding-mediated fusogenic activity `http://purl.obolibrary.org/obo/GO_7770123`
+
+#### Added
+- Class: [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-09-16T23:52:19Z" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "refolding-driven fusogenic activity" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770123" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The activity of joining two lipid bilayers to form a single membrane, driven by a large refolding transition of an already-folded, metastable protein anchored in one of the two membranes, which inserts a hydrophobic segment into the target membrane and then collapses, bending both bilayers into a stalk and a fusion pore." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28235200" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25866377" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Covers the three structural classes of viral fusion protein and their cellular relatives, such as the gamete fusogen HAP2/GCS1. The protein is first rendered metastable by a priming event and is then triggered to refold into its lower-energy postfusion conformation; the energy released by that refolding is what overcomes the bilayer merger barrier. Contrast with helical-bundle zippering fusogenic activity (GO:0005484), where the bundle is assembled de novo from motifs contributed by proteins in both apposed membranes rather than refolded from a single pre-folded protein. Class I viral fusion proteins also finish as a helical bundle, but belong here rather than under GO:0005484." 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) [label](http://www.w3.org/2000/01/rdf-schema#label) "refolding-mediated fusogenic activity" 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) SubClassOf [fusogenic activity](http://purl.obolibrary.org/obo/GO_0140522) 
+
+- [refolding-mediated fusogenic activity](http://purl.obolibrary.org/obo/GO_7770123) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [membrane fusion](http://purl.obolibrary.org/obo/GO_0061025) 
+
+
 ### regulation of 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_1905012`
 #### Removed
 - [regulation of 'de novo' NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_1905012) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of 'de novo' NAD biosynthetic process from tryptophan" 
@@ -13320,6 +13514,32 @@
 - [voltage-driven motor activity](http://purl.obolibrary.org/obo/GO_0170085) [label](http://www.w3.org/2000/01/rdf-schema#label) "voltage-driven motor activity" 
 
 - [voltage-driven motor activity](http://purl.obolibrary.org/obo/GO_0170085) SubClassOf [energy transducer activity](http://purl.obolibrary.org/obo/GO_0031992) 
+
+
+### voltage-gated ion channel clustering `http://purl.obolibrary.org/obo/GO_0045161`
+#### Removed
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which voltage-gated ion channels become localized to distinct subcellular domains in the neuron. Specific targeting, clustering, and maintenance of these channels in their respective domains are essential to achieve high conduction velocities of action potential propagation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11456440" 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [label](http://www.w3.org/2000/01/rdf-schema#label) "neuronal ion channel clustering" 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [neuron maturation](http://purl.obolibrary.org/obo/GO_0042551) 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+#### Added
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32170"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "neuronal ion channel clustering" 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which voltage-gated ion channels become localized together at high density in distinct subcellular domains of the plasma membrane, such as the axon initial segment, the node of Ranvier, the cardiomyocyte intercalated disc, or the neuromuscular junction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24210426" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11456440" 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [label](http://www.w3.org/2000/01/rdf-schema#label) "voltage-gated ion channel clustering" 
+
+- [voltage-gated ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
 
 
 ### voltage-gated potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_7770090`
