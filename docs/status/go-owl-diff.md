@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-17/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-18/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-18" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -4388,6 +4388,14 @@
 - [intracellular organelle lumen](http://purl.obolibrary.org/obo/GO_0070013) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_0070676`
+
+#### Added
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) 
+
+
 ### inward rectifier potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_0070320`
 #### Removed
 - [inward rectifier potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0070320) SubClassOf [potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019870) 
@@ -5725,6 +5733,14 @@
 #### Removed
 - [momilactone-A synthase [NAD(P)H] activity](http://purl.obolibrary.org/obo/GO_0102960) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [25363](http://rdf.rhea-db.org/25363) 
 
+
+
+### multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0071985`
+
+#### Added
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
 
 
 ### mycoredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_7770100`

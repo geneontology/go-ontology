@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-17/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-18/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-17" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-18" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -2994,6 +2994,22 @@
 - [endoplasmic reticulum unfolded protein response](http://purl.obolibrary.org/obo/GO_0030968) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [endoplasmic reticulum protein quality control](http://purl.obolibrary.org/obo/GO_0170080) 
 
 
+### endosome to lysosome transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0032510`
+#### Removed
+- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
+### endosome transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0032509`
+#### Removed
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
 ### ent-kaurene biosynthetic process `http://purl.obolibrary.org/obo/GO_0033332`
 #### Removed
 - [ent-kaurene biosynthetic process](http://purl.obolibrary.org/obo/GO_0033332) SubClassOf [obsolete ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) 
@@ -3797,6 +3813,16 @@
 - [intracellular organelle lumen](http://purl.obolibrary.org/obo/GO_0070013) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_0070676`
+
+#### Added
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
 ### inward rectifier potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_0070320`
 #### Removed
 - [inward rectifier potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0070320) SubClassOf [potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019870) 
@@ -3866,6 +3892,22 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### late endosome to lysosome transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0061764`
+#### Removed
+- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
+### late endosome to vacuole transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0032511`
+#### Removed
+- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
 ### leukocyte mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0001909`
@@ -4292,6 +4334,24 @@
 
 
 
+### multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0071985`
+
+#### Added
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
+
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
+### multivesicular body-lysosome fusion `http://purl.obolibrary.org/obo/GO_0061763`
+#### Removed
+- [multivesicular body-lysosome fusion](http://purl.obolibrary.org/obo/GO_0061763) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [multivesicular body-lysosome fusion](http://purl.obolibrary.org/obo/GO_0061763) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
 ### mycoredoxin-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_7770100`
 
 #### Added
@@ -4591,6 +4651,12 @@
 - [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of glycolytic process" 
 
 - [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of glycolysis" 
+
+
+### negative regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905366`
+
+#### Added
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
 ### negative regulation of mitochondrial respiratory chain complex I assembly `http://purl.obolibrary.org/obo/GO_7770120`
@@ -11509,6 +11575,12 @@
 - [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of glycolysis" 
 
 
+### positive regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905367`
+
+#### Added
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
 ### positive regulation of promoter clearance from RNA polymerase II promoter `http://purl.obolibrary.org/obo/GO_0140846`
 
 #### Added
@@ -11911,6 +11983,14 @@
 - [protein secretion by platelet](http://purl.obolibrary.org/obo/GO_0070560) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [platelet](http://purl.obolibrary.org/obo/CL_0000233) 
 
 
+### protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0043328`
+#### Removed
+- [protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043328) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043328) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
 ### protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0008982`
 #### Removed
 - [protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0008982) SubClassOf [active transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022804) 
@@ -12242,6 +12322,12 @@
 - [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of glycolytic process" 
 
 - [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of glycolysis" 
+
+
+### regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905365`
+
+#### Added
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
 ### regulation of mitochondrial respiratory chain complex I assembly `http://purl.obolibrary.org/obo/GO_7770119`
@@ -13323,6 +13409,12 @@
 #### Removed
 - [ubiquitin-dependent glycoprotein ERAD pathway](http://purl.obolibrary.org/obo/GO_0097466) SubClassOf [response to glycoprotein](http://purl.obolibrary.org/obo/GO_1904587) 
 
+
+
+### ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0043162`
+
+#### Added
+- [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
 ### undecaprenol kinase activity `http://purl.obolibrary.org/obo/GO_0009038`
