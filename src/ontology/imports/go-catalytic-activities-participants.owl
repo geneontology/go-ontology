@@ -6668,6 +6668,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_172940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_172940"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_172941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_172941"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17296"/>
@@ -11321,6 +11333,12 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_34477 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34477"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_34779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_34779"/>
     
 
 
@@ -23678,12 +23696,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_76624 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76624"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_76625 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76625"/>
@@ -25415,12 +25427,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_83957 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83957"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_83960 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_83960"/>
     
 
 
@@ -75500,6 +75506,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0019786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019786">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_172940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_172941"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0019797 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019797">
@@ -77151,12 +77188,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0030701 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030701"/>
     
 
 
@@ -86871,6 +86902,43 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58622"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034353">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_138282"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15378"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167618"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -115445,12 +115513,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0047576 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0047576"/>
     
 
 
@@ -151966,12 +152028,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0052869 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0052869"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0052871 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0052871">
@@ -185170,6 +185226,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_1990422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990422">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15378"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29805"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_34779"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_1990424 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990424">
@@ -186267,9 +186354,28 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_7770124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_7770124">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 
