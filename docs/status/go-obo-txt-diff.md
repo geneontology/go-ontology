@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-09-21 05:35:40.316503009 +0000
-+++ go.obo	2026-09-21 05:43:40.288736349 +0000
+--- go-lastrelease.obo	2026-09-22 05:40:40.116783387 +0000
++++ go.obo	2026-09-22 05:53:54.639113956 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-09-21
++data-version: releases/2026-09-22
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -32,7 +32,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-09-21" xsd:string
++property_value: owl:versionInfo "2026-09-22" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -7224,7 +7224,7 @@
  created_by: dragon-ai-agent
  creation_date: 2026-04-01T10:06:36Z
  
-@@ -651420,6 +652034,553 @@
+@@ -651420,6 +652034,568 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  
@@ -7774,6 +7774,21 @@
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32633" xsd:anyURI
 +created_by: ai4c-agent
 +creation_date: 2026-09-17T12:20:20Z
++
++[Term]
++id: GO:7770125
++name: 3'-phosphoadenosine 5'-phosphosulfate phosphatase activity
++namespace: molecular_function
++def: "Catalysis of the reaction: 3'-phosphoadenylyl sulfate + H2O = adenosine 5'-phosphosulfate + phosphate." [PMID:41963701, RHEA:77639]
++synonym: "PAPS 3'-phosphatase activity" EXACT []
++synonym: "PAPS phosphatase" EXACT [PMID:41963701]
++xref: RHEA:77639
++is_a: GO:0016791 ! phosphatase activity
++property_value: skos:broadMatch EC:3.1.3.7
++property_value: skos:exactMatch RHEA:77639
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32637" xsd:anyURI
++created_by: ai4c-agent
++creation_date: 2026-09-21T18:33:15Z
 +
  [Typedef]
  id: ends_during
