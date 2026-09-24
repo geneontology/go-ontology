@@ -12,7 +12,7 @@ subsetdef: taxon_extension ""
 subsetdef: valid_for_annotation_extension ""
 synonymtypedef: RO:0008000 "display label for users"
 default-namespace: external
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2177 Logical Axioms: 520]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2191 Logical Axioms: 524]
 ontology: go/extensions/gorel
 property_value: http://purl.org/dc/elements/1.1/description "This ontology combines RO together with GO-specific relations in the GOREL namespace, used for annotation extensions. See;\n\nHuntley, R. P., Harris, M. a, Alam-Faruque, Y., et al (2014). A method for increasing expressivity of Gene Ontology annotations using a compositional approach. BMC Bioinformatics, 15(1), 155. doi:10.1186/1471-2105-15-155\n\nNotes on release edition (gorel.owl):\n\nThis ontology is created by merging the relevant subset of RO together with GO-specific annotations of RO relations, and GOREL relations\n\nNotes on editors version (gorel-edit.owl): \nThe editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of 'go annotation extension relation'. Anything with a logical axiom is included in the final module. Consult Makefile for details" xsd:string
 
@@ -476,6 +476,14 @@ is_a: go_annotation_extension_relation ! go annotation extension relation
 is_a: mereotopologically_related_to ! mereotopologically related to
 
 [Typedef]
+id: component_of
+name: component of
+def: "Inverse of 'has component'." []
+xref: RO:0019009
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-8688-6599
+is_a: part_of ! part of
+
+[Typedef]
 id: condition
 name: obsolete condition
 namespace: go/extensions/gorel
@@ -757,7 +765,6 @@ property_value: IAO:0000112 "a particular instances of akt-2 enables some instan
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "catalyzes" xsd:string
 property_value: IAO:0000118 "executes" xsd:string
-property_value: IAO:0000118 "has" xsd:string
 property_value: IAO:0000118 "is catalyzing" xsd:string
 property_value: IAO:0000118 "is executing" xsd:string
 property_value: IAO:0000232 "This relation differs from the parent relation 'capable of' in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized." xsd:string
@@ -1058,6 +1065,7 @@ property_value: IAO:0000232 "For use in recording has_part with a cardinality co
 property_value: RO:0001900 RO:0001901
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:Componency
 is_a: has_part ! has part
+inverse_of: component_of ! component of
 
 [Typedef]
 id: has_component_activity
@@ -1173,6 +1181,17 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: BFO:0000002
 range: BFO:0000004
 is_a: genomically_related_to ! genomically related to
+
+[Typedef]
+id: has_gene_product_that_enables
+name: has gene product that enables
+def: "a relationship between a gene and the molecular function or activity enabled by the gene product (e.g., protein) that it encodes" []
+xref: RO:0018042
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0003-4423-4370
+property_value: IAO:0000112 "AKT1 (HGNC:391) has gene product RAC-alpha serine/threonine-protein kinase (uniprot:P31749) which enables non-specific serine/threonine protein kinase (EC:2.7.11.1). This relation can be used as a shortcut HGNC:391 has gene product that enables EC:2.7.11.1." xsd:string
+property_value: IAO:0000233 https://github.com/oborel/obo-relations/issues/873 xsd:anyURI
+holds_over_chain: has_gene_product enables
+is_a: functionally_related_to ! functionally related to
 
 [Typedef]
 id: has_host
@@ -1770,7 +1789,7 @@ subset: ro-eco
 synonym: "in pairwise interaction with" EXACT []
 xref: RO:0002434
 property_value: closeMatch http://purl.obolibrary.org/obo/MI_0914 xsd:anyURI
-property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:anyURI
+property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:string
 property_value: IAO:0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." xsd:string
