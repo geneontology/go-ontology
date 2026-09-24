@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-23/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-24/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-23" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-24" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -28589,6 +28589,28 @@
 - [L-sorbose 1-phosphate](http://purl.obolibrary.org/obo/CHEBI_38342) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-sorbose catabolic process `http://purl.obolibrary.org/obo/GO_0042850`
+#### Removed
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-sorbose, the L-enantiomer of the ketohexose xylo-2-hexulose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+#### Added
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P302-PWY" 
+
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [P302-PWY](http://identifiers.org/metacyc.reaction/P302-PWY) 
+
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-sorbose, the L-enantiomer of the ketohexose xylo-2-hexulose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+
 ### L-tagatose `http://purl.obolibrary.org/obo/CHEBI_37462`
 
 #### Added
@@ -43728,6 +43750,30 @@
 - [cardiovascular drug](http://purl.obolibrary.org/obo/CHEBI_35554) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### cargo receptor ligand activity `http://purl.obolibrary.org/obo/GO_0140355`
+#### Removed
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The activity of a gene product that interacts with a cargo receptor and initiates endocytosis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15797858" 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [label](http://www.w3.org/2000/01/rdf-schema#label) "cargo receptor ligand activity" 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) SubClassOf [protein binding](http://purl.obolibrary.org/obo/GO_0005515) 
+
+#### Added
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32466"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [cobalamin binding](http://purl.obolibrary.org/obo/GO_0031419) 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The activity of a gene product that interacts with a cargo receptor and initiates endocytosis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15797858" 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a GO-CAM model and describes a target gene rather than an activity" 
+
+- [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cargo receptor ligand activity" 
+
+
 ### carminomycin `http://purl.obolibrary.org/obo/CHEBI_31359`
 
 #### Added
@@ -52176,6 +52222,16 @@
 - [fructose 6-phosphate](http://purl.obolibrary.org/obo/CHEBI_88003) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### fructose catabolic process `http://purl.obolibrary.org/obo/GO_0006001`
+
+#### Added
+- [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1314" 
+
+- [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY0-1314](http://identifiers.org/metacyc.reaction/PWY0-1314) 
+
+
 ### fructose export from vacuole to cytoplasm `http://purl.obolibrary.org/obo/GO_1902334`
 #### Removed
 - [fructose export from vacuole to cytoplasm](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
@@ -52570,6 +52626,32 @@
 
 #### Added
 - [galactosaminyl group](http://purl.obolibrary.org/obo/CHEBI_24160) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### galactose catabolic process `http://purl.obolibrary.org/obo/GO_0019388`
+
+#### Added
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6693" 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7568" 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GALDEG-PWY](http://identifiers.org/metacyc.reaction/GALDEG-PWY) 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6693](http://identifiers.org/metacyc.reaction/PWY-6693) 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7568](http://identifiers.org/metacyc.reaction/PWY-7568) 
+
+
+### galactose catabolic process via D-galactonate `http://purl.obolibrary.org/obo/GO_0033498`
+#### Removed
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
+
+#### Added
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### galactose phosphate `http://purl.obolibrary.org/obo/CHEBI_20960`
@@ -76434,6 +76516,36 @@
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of retrograde protein transport, ER to cytosol" 
 
 
+### regulation of rhamnose catabolic process `http://purl.obolibrary.org/obo/GO_0043463`
+#### Removed
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of rhamnose breakdown" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of rhamnose catabolism" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of rhamnose degradation" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the breakdown of rhamnose, the hexose 6-deoxy-L-mannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of rhamnose catabolic process" 
+
+#### Added
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of rhamnose breakdown" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of rhamnose catabolic process" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of rhamnose catabolism" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "regulation of rhamnose degradation" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the breakdown of L-rhamnose, the hexose 6-deoxy-L-mannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [regulation of rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0043463) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of L-rhamnose catabolic process" 
+
+
 ### regulation of ribosomal protein gene transcription by RNA polymerase II `http://purl.obolibrary.org/obo/GO_0060962`
 
 #### Added
@@ -76905,6 +77017,44 @@
 
 #### Added
 - [rhamnonolactone](http://purl.obolibrary.org/obo/CHEBI_26545) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### rhamnose catabolic process `http://purl.obolibrary.org/obo/GO_0019301`
+#### Removed
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "rhamnose breakdown" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "rhamnose catabolism" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "rhamnose degradation" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of rhamnose, the hexose 6-deoxy-L-mannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [label](http://www.w3.org/2000/01/rdf-schema#label) "rhamnose catabolic process" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [rhamnose](http://purl.obolibrary.org/obo/CHEBI_26546)) 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [rhamnose](http://purl.obolibrary.org/obo/CHEBI_26546) 
+
+#### Added
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "rhamnose breakdown" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "rhamnose catabolic process" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "rhamnose catabolism" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "rhamnose degradation" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-rhamnose, the hexose 6-deoxy-L-mannose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-rhamnose catabolic process" 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [L-rhamnopyranose](http://purl.obolibrary.org/obo/CHEBI_62346)) 
+
+- [rhamnose catabolic process](http://purl.obolibrary.org/obo/GO_0019301) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [L-rhamnopyranose](http://purl.obolibrary.org/obo/CHEBI_62346) 
 
 
 ### rhamnoside `http://purl.obolibrary.org/obo/CHEBI_26547`
@@ -78540,6 +78690,43 @@
 
 #### Added
 - [specialised pro-resolving mediator](http://purl.obolibrary.org/obo/CHEBI_140399) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### spermatid residual body `http://purl.obolibrary.org/obo/GO_7770129`
+
+#### Added
+- Class: [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32651"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-09-23T16:08:11Z" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "residual body" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cytoplasmic residual body" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "spermatogenic residual body" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "waste bag" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770129" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A membrane-bounded, anucleate mass of cytoplasm that is separated from one or more developing male germ cells during spermatogenesis and discarded. The residual body receives most of the cytoplasm and organelles not required by the spermatid or spermatozoon, such as ribosomes, endoplasmic reticulum, Golgi, and excess cytoskeletal components, and is subsequently degraded, typically by phagocytosis by somatic cells of the gonad (e.g. Sertoli cells in vertebrates, gonadal sheath cells in nematodes) or by extrusion into the reproductive tract." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:3995554" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7298721" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12591244" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The &quot;waste bag&quot; of Drosophila spermatogenesis, a cyst-level structure formed during sperm individualization that collects the discarded cytoplasm and organelles from the 64 spermatids of a syncytial cyst, is considered a narrow variant of this term." 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [label](http://www.w3.org/2000/01/rdf-schema#label) "spermatid residual body" 
+
+- [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) SubClassOf [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) 
 
 
 ### spermidine `http://purl.obolibrary.org/obo/CHEBI_16610`
