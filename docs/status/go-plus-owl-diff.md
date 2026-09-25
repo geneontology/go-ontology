@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-24/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-25/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-24" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-25" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -32700,6 +32700,58 @@
 - [NAD(P)H](http://purl.obolibrary.org/obo/CHEBI_13392) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### NAD(P)HX repair `http://purl.obolibrary.org/obo/GO_7770130`
+
+#### Added
+- Class: [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32663"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-09-25T00:10:15Z" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "cofactor repair" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NAD(P)H-hydrate repair" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NAD(P)HX repair pathway" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NAD(P)HX repair system" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NADHX/NADPHX repair" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "NADHX repair" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "NADPHX repair" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770130" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "nicotinamide nucleotide repair" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21994945" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolite repair process in which NADHX and NADPHX, the redox-inactive hydrated derivatives of NADH and NADPH that form spontaneously or by enzymatic side reactions, are converted back to NADH and NADPH. The (R)-epimers are first converted to the (S)-epimers by NAD(P)HX epimerase, and (S)-NAD(P)HX is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23334546" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27616477" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21994945" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [label](http://www.w3.org/2000/01/rdf-schema#label) "NAD(P)HX repair" 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [pyridine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072524) 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [metabolite repair](http://purl.obolibrary.org/obo/GO_0110051) 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
+
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+
+
 ### NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0009435`
 #### Removed
 - [NAD+ biosynthetic process](http://purl.obolibrary.org/obo/GO_0009435) SubClassOf [nicotinamide nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0019359) 
@@ -42160,6 +42212,18 @@
 - [bicyclic compound](http://purl.obolibrary.org/obo/CHEBI_33636) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### bifid shunt `http://purl.obolibrary.org/obo/GO_0019658`
+#### Removed
+- [bifid shunt](http://purl.obolibrary.org/obo/GO_0019658) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [lactate](http://purl.obolibrary.org/obo/CHEBI_24996)) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [acetate](http://purl.obolibrary.org/obo/CHEBI_30089)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167)) 
+
+- [bifid shunt](http://purl.obolibrary.org/obo/GO_0019658) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [lactate](http://purl.obolibrary.org/obo/CHEBI_24996) 
+
+#### Added
+- [bifid shunt](http://purl.obolibrary.org/obo/GO_0019658) EquivalentTo [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(S)-lactate](http://purl.obolibrary.org/obo/CHEBI_16651)) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [acetate](http://purl.obolibrary.org/obo/CHEBI_30089)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [D-glucopyranose](http://purl.obolibrary.org/obo/CHEBI_4167)) 
+
+- [bifid shunt](http://purl.obolibrary.org/obo/GO_0019658) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [(S)-lactate](http://purl.obolibrary.org/obo/CHEBI_16651) 
+
+
 ### biguanide `http://purl.obolibrary.org/obo/CHEBI_3095`
 
 #### Added
@@ -47104,6 +47168,26 @@
 - [cytosolic protein biosynthetic process](http://purl.obolibrary.org/obo/GO_7770127) SubClassOf [protein biosynthetic process](http://purl.obolibrary.org/obo/GO_0160307) 
 
 - [cytosolic protein biosynthetic process](http://purl.obolibrary.org/obo/GO_7770127) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829) 
+
+
+### cytosolic ribosome hibernation `http://purl.obolibrary.org/obo/GO_0141014`
+#### Removed
+- [cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_0141014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular process that results in the silencing of ribosomes in quiescent cells. Quiescence takes place when cells encounter unfavorable conditions and cease to grow in bacteria and yeast. It also takes place in some specialized cells in higher eukaryotes, such as eggs. Ribosomes in a hibernation state are kept silent via association with proteins with inhibitory and protective functions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28468753" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30177741" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36653451" 
+
+#### Added
+- [cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_0141014) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32653"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_0141014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular process that results in the silencing of ribosomes in quiescent cells. Quiescence takes place when cells encounter unfavorable conditions and cease to grow in bacteria, archaea and yeast. It also takes place in some specialized cells in higher eukaryotes, such as eggs. Ribosomes in a hibernation state are kept silent via association with proteins with inhibitory and protective functions." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28468753" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30177741" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36653451" 
 
 
 ### cytosolic valyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0061475`
@@ -53463,6 +53547,32 @@
 
 #### Added
 - [glucose](http://purl.obolibrary.org/obo/CHEBI_17234) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### glucose catabolic process to pyruvate `http://purl.obolibrary.org/obo/GO_0061718`
+#### Removed
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of glucose, with the production of pyruvate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [label](http://www.w3.org/2000/01/rdf-schema#label) "glucose catabolic process to pyruvate" 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) SubClassOf [glucose catabolic process](http://purl.obolibrary.org/obo/GO_0006007) 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) SubClassOf [pyruvate metabolic process](http://purl.obolibrary.org/obo/GO_0006090) 
+
+#### Added
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [glycolytic process](http://purl.obolibrary.org/obo/GO_0006096) 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of glucose, with the production of pyruvate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as glycolysis ; GO:0006096." 
+
+- [glucose catabolic process to pyruvate](http://purl.obolibrary.org/obo/GO_0061718) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete glucose catabolic process to pyruvate" 
 
 
 ### glucose dehydrogenase (FAD, quinone) activity `http://purl.obolibrary.org/obo/GO_0140762`
@@ -66222,6 +66332,32 @@
 
 #### Added
 - [non-narcotic analgesic](http://purl.obolibrary.org/obo/CHEBI_35481) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### non-phosphorylated glucose catabolic process `http://purl.obolibrary.org/obo/GO_0019595`
+#### Removed
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of non-phosphorylated forms of glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [label](http://www.w3.org/2000/01/rdf-schema#label) "non-phosphorylated glucose catabolic process" 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) SubClassOf [glucose catabolic process](http://purl.obolibrary.org/obo/GO_0006007) 
+
+#### Added
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [Entner-Doudoroff pathway](http://purl.obolibrary.org/obo/GO_0061678) 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of non-phosphorylated forms of glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it overlaps other GO terms: glucose 1-phosphate metabolic process ; GO:0019255 and Entner-Doudoroff pathway ; GO:0061678." 
+
+- [non-phosphorylated glucose catabolic process](http://purl.obolibrary.org/obo/GO_0019595) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete non-phosphorylated glucose catabolic process" 
 
 
 ### non-polar solvent `http://purl.obolibrary.org/obo/CHEBI_48355`
