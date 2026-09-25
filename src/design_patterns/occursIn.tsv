@@ -69,6 +69,7 @@ http://purl.obolibrary.org/obo/GO_0071026	cytoplasmic RNA surveillance	http://pu
 http://purl.obolibrary.org/obo/GO_0039709	cytoplasmic capsid assembly	http://purl.obolibrary.org/obo/GO_0030430	host cell cytoplasm	http://purl.obolibrary.org/obo/GO_0019069	viral capsid assembly
 http://purl.obolibrary.org/obo/GO_0010938	cytoplasmic microtubule depolymerization	http://purl.obolibrary.org/obo/GO_0005737	cytoplasm	http://purl.obolibrary.org/obo/GO_0007019	microtubule depolymerization
 http://purl.obolibrary.org/obo/GO_0002184	cytoplasmic translational termination	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006415	translational termination
+http://purl.obolibrary.org/obo/GO_7770127	cytosolic protein biosynthetic process	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0160307	protein biosynthetic process
 http://purl.obolibrary.org/obo/GO_0016482	cytosolic transport	http://purl.obolibrary.org/obo/GO_0005829	cytosol	http://purl.obolibrary.org/obo/GO_0006810	transport
 http://purl.obolibrary.org/obo/GO_0043316	cytotoxic T cell degranulation	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0045055	regulated exocytosis
 http://purl.obolibrary.org/obo/GO_1902483	cytotoxic T cell pyroptotic cell death	http://purl.obolibrary.org/obo/CL_0000910	cytotoxic T cell	http://purl.obolibrary.org/obo/GO_0141201	pyroptotic cell death
@@ -176,6 +177,7 @@ http://purl.obolibrary.org/obo/GO_0090616	mitochondrial mRNA 3'-end processing	h
 http://purl.obolibrary.org/obo/GO_0000958	mitochondrial mRNA catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006402	mRNA catabolic process
 http://purl.obolibrary.org/obo/GO_0080156	mitochondrial mRNA modification	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016556	mRNA modification
 http://purl.obolibrary.org/obo/GO_0090615	mitochondrial mRNA processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0006397	mRNA processing
+http://purl.obolibrary.org/obo/GO_7770126	mitochondrial protein biosynthetic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0160307	protein biosynthetic process
 http://purl.obolibrary.org/obo/GO_0035694	mitochondrial protein catabolic process	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0030163	protein catabolic process
 http://purl.obolibrary.org/obo/GO_0034982	mitochondrial protein processing	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0016485	protein processing
 http://purl.obolibrary.org/obo/GO_0033615	mitochondrial proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
