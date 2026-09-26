@@ -38,7 +38,7 @@ env:
   # public, hence plain env. Without it commits are not linked back to the app.
   AGENT_LOGIN: ai4c-agent[bot]
   AGENT_USER_ID: 242316268
-  MODEL: claude-opus-4-7
+  MODEL: claude-opus-5-5
   TOOLS_DIR: ${{ github.workspace }}/tools
   ARTIFACT_RETENTION_DAYS: 90
   TIMEOUT_MINUTES: 30
