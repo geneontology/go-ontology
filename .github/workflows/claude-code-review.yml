@@ -59,10 +59,10 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  # NOTE: deliberately newer than the `claude-opus-4-7` pinned in ai-agent.yml.
+  # Same model as MODEL in ai-agent.yml; bump the two together.
   # If this id is wrong the "Verify the review agent actually ran" step below
   # fails loudly rather than silently posting nothing.
-  REVIEW_MODEL: claude-opus-5
+  REVIEW_MODEL: claude-opus-5-5
 
 jobs:
   claude-review:
