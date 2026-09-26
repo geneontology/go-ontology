@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-25/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-26/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-25" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-26" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -699,6 +699,22 @@
 #### Added
 - [B-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0102545) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glycerophospholipase activity that cleaves both fatty acids attached to the sn-1 and the sn-2 position of the glycerol group of a glycerophospholipid. Substrates include phosphatidylcholine and phosphatidylethanolamine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30109646" 
+
+
+### D-allose catabolic process `http://purl.obolibrary.org/obo/GO_0019316`
+#### Removed
+- [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-allose, the D-enantiomer of allo-hexose, an aldohexose similar to glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jsg" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-allose to D-fructose 6-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-44" 
 
 
 ### D-amino-acid N-acetyltransferase activity `http://purl.obolibrary.org/obo/GO_0047812`
@@ -2866,6 +2882,52 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lnp" 
 
 
+### beta-D-galactofuranose catabolic process `http://purl.obolibrary.org/obo/GO_1901357`
+#### Removed
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of beta-D-galactofuranose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-D-galactofuranose catabolic process" 
+
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) SubClassOf [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) 
+
+#### Added
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of beta-D-galactofuranose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:di" 
+
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this pathway exists." 
+
+- [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete beta-D-galactofuranose catabolic process" 
+
+
+### beta-D-galactose catabolic process via UDP-galactose, Leloir pathway `http://purl.obolibrary.org/obo/GO_0033499`
+#### Removed
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of beta-D-galactose, via the intermediate UDP-galactose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6317" 
+
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-D-galactose catabolic process via UDP-galactose, Leloir pathway" 
+
+#### Added
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "D-galactose catabolic process via UDP-galactose, Leloir pathway" 
+
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "beta-D-galactose catabolic process via UDP-galactose, Leloir pathway" 
+
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-6317](http://identifiers.org/metacyc.reaction/PWY-6317) 
+
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-galactose to D-glucose 6-phosphate via the intermediate D-glucose 1-phosphate, with UDP-D-glucose consumed and regenerated in the process (UDP-D-glucose is converted to UDP-D-galactose and back into UDP-D-glucose)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6317" 
+
+- [beta-D-galactose catabolic process via UDP-galactose, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-galactose catabolic process, Leloir pathway" 
+
+
 ### binding `http://purl.obolibrary.org/obo/GO_0005488`
 
 #### Added
@@ -3929,13 +3991,13 @@
 #### Added
 - [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
-
 - [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6693" 
 
 - [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7568" 
 
-- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [GALDEG-PWY](http://identifiers.org/metacyc.reaction/GALDEG-PWY) 
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "D-galactose catabolic process" 
+
+- [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "L-galactose catabolic process" 
 
 - [galactose catabolic process](http://purl.obolibrary.org/obo/GO_0019388) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6693](http://identifiers.org/metacyc.reaction/PWY-6693) 
 
@@ -3944,10 +4006,22 @@
 
 ### galactose catabolic process via D-galactonate `http://purl.obolibrary.org/obo/GO_0033498`
 #### Removed
-- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of galactose, via the intermediate D-galactonate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
+
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [label](http://www.w3.org/2000/01/rdf-schema#label) "galactose catabolic process via D-galactonate" 
 
 #### Added
 - [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GALDEG-PWY](http://identifiers.org/metacyc.reaction/GALDEG-PWY) 
+
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-galactose to D-galactonate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GALDEG-PWY" 
+
+- [galactose catabolic process via D-galactonate](http://purl.obolibrary.org/obo/GO_0033498) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-galactose catabolic process to D-galactonate" 
 
 
 ### ganglioside metabolic process `http://purl.obolibrary.org/obo/GO_0001573`
