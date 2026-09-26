@@ -699,7 +699,10 @@ chebi-ph7_3-slim.ofn: ../biochebi/chebi_pH7_3_mapping.tsv
 	LC_ALL=C sort -u $@.tmp >$@ && rm $@.tmp
 
 # All non-obsolete ChEBI classes. Queried through TDB to avoid loading all of ChEBI into memory.
+# The TDB dir is wiped first: ROBOT only removes it on success, so a leftover from a failed run
+# would be silently reused and could yield a short chebi-terms.txt (see #32656).
 ../biochebi/chebi-terms.txt: mirror/chebi.owl $(SPARQLDIR)/chebi-terms.sparql
+	rm -rf chebi-tdb/ &&\
 	$(ROBOT) query -i $< --tdb true --tdb-directory chebi-tdb/ -f tsv --query $(SPARQLDIR)/chebi-terms.sparql $@.tmp.tsv &&\
 	tail -n +2 $@.tmp.tsv | sed 's/[<>]//g' | LC_ALL=C sort -u >$@ && rm $@.tmp.tsv
 
@@ -951,6 +954,7 @@ qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/se
 	@( [ -s qc-unexpected-violations.tsv ] && { echo "ERROR: violations no control fact expected -- a rule has become too broad, or ../util/qc/control.dl needs an expected_violation:"; cat qc-unexpected-violations.tsv; exit 1; } || true )
 
 reports/neo-violations.report: $(GO_LEGO).owl
+	rm -rf tdb/ &&\
 	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # intermediate files in this target must be lexically, not numerically sorted, for use with comm
