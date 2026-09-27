@@ -1,0 +1,107 @@
+# Configuration for linkml-reference-validator, used by the /research skill.
+#
+# The tool auto-discovers this file when run from the repo root, so the
+# commands in .claude/skills/research/SKILL.md pick it up with no --config flag.
+# Always run the validator from the repo root, or the defaults apply instead.
+
+# Where cached publications land. This is the tool's default, but it is stated
+# explicitly so a run from a subdirectory does not scatter a second cache.
+# References_cache is gitignored: it is regenerable and can get large.
+cache_dir: references_cache
+
+# NCBI asks every Entrez client to identify itself; the default is a placeholder
+# address (linkml-reference-validator@example.com), which invites throttling.
+email: raymond@wormbase.org
+
+# Zenodo-style supplementary files, off by default in the tool. Useful for GO
+# where a reaction or substrate list often lives only in a supplementary table.
+download_supplementary_files: true
+
+# unknown_prefix_severity is deliberately left at its default of ERROR, which
+# is where this config parts company with ai-gene-review's. That project sets
+# WARNING so flaky NCBI connectivity cannot fail CI. Here the point of the
+# REFERENCE-VALIDATION step is catching a PMID that does not exist, and WARNING
+# defeats it: a fabricated PMID:99999999 reports "Could not fetch reference"
+# and the run still exits 0. At the default it exits 1. A skip_prefixes entry
+# is the right way to silence a prefix; severity is not.
+#
+# The cost is that a genuine NCBI outage also fails the run. That is acceptable
+# because this is run by an editor who can read the message, not as a CI gate.
+
+# Prefixes to skip silently. GO definition xrefs are dominated by
+# non-literature identifiers -- 52k GOC, 4k ISBN, 3.8k GO_REF, 3.2k RHEA
+# against 21.6k PMID -- and snippet validation does not apply to any of them.
+# Matching is case-insensitive, so one entry covers Wikipedia/WIKIPEDIA/WIki.
+# Derived from the prefixes actually present on def: lines in go-edit.obo;
+# PMID, DOI and PMC are deliberately absent, as those are the fetchable ones.
+skip_prefixes:
+  - GOC
+  - GO
+  - GO_REF
+  - GOA
+  - GOCL
+  - ISBN
+  - ISSN
+  - RHEA
+  - EC
+  - MetaCyc
+  - RESID
+  - Wikipedia
+  - Wiki
+  - CL
+  - TC
+  - UniPathway
+  - UM-BBD_reactionID
+  - UM-BBD_pathwayID
+  - UM-BBD_enzymeID
+  - UM-BBD_ruleID
+  - VZ
+  - NIF_Subcellular
+  - InterPro
+  - PO
+  - PO_REF
+  - UniProtKB
+  - UniProtKB-KW
+  - UniProt
+  - UBERON
+  - MITRE
+  - MA
+  - ZFA
+  - ZFIN
+  - KEGG_REACTION
+  - CHEBI
+  - IUPHAR_GPCR
+  - IUPHAR_RECEPTOR
+  - Pfam
+  - MSH
+  - MeSH
+  - FBbt
+  - FB
+  - SO
+  - MP
+  - PDB
+  - XAO
+  - PubChem_Compound
+  - Prosite
+  - POC
+  - FMA
+  - WB_REF
+  - OMIM
+  - JSTOR
+  - Intact
+  - IMG
+  - RNAmods
+  - MEROPS
+  - MEROPS_fam
+  - PSI-MOD
+  - PATO
+  - LIGAND
+  - HEA
+  - GPC
+  - GOV
+  - DDANAT
+  - CORUM
+  - http
+  - https
+  - url
+  - file
