@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-09-26go.owl-statistics
+id: obo:go/releases/2026-09-27go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-09-26go.owl
+  version: obo:go/releases/2026-09-27go.owl
 was_generated_by:
-  started_at_time: '2026-09-26T05:41:55.801950'
+  started_at_time: '2026-09-27T05:53:31.346389'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,14 +46,14 @@ partitions:
     distinct_synonym_count: 93688
     synonym_statement_count: 94475
     change_summary:
-      NodeTextDefinitionChange: 224
-      NodeUnobsoletion: 136
       EdgeCreation: 315
+      NodeUnobsoletion: 136
+      NodeTextDefinitionChange: 224
       NodeRename: 164
       RemoveNodeFromSubset: 6
-      NodeDeletion: 21
-      EdgeDeletion: 105
       MappingCreation: 11
+      EdgeDeletion: 105
+      NodeDeletion: 21
       RemoveSynonym: 92
       NewSynonym: 63
       RemoveMapping: 20
@@ -93,18 +93,18 @@ partitions:
     distinct_synonym_count: 28732
     synonym_statement_count: 29884
     change_summary:
-      NodeTextDefinitionChange: 53
-      NodeUnobsoletion: 19
+      NodeDeletion: 23
+      EdgeDeletion: 62
+      MappingCreation: 28
       EdgeCreation: 45
+      NodeUnobsoletion: 19
+      NodeTextDefinitionChange: 53
       NodeRename: 37
       RemoveMapping: 56
       RemoveSynonym: 44
       NewSynonym: 19
-      EdgeDeletion: 62
-      MappingCreation: 28
-      NodeDeletion: 23
-      RemoveNodeFromSubset: 1
       NodeObsoletionWithDirectReplacement: 1
+      RemoveNodeFromSubset: 1
       All_Obsoletion: 1
       All_Synonym: 63
     edge_count: 13545
@@ -128,13 +128,13 @@ partitions:
     distinct_synonym_count: 5134
     synonym_statement_count: 5333
     change_summary:
-      NewSynonym: 4
-      NodeUnobsoletion: 3
-      EdgeCreation: 9
-      NodeRename: 6
-      NodeTextDefinitionChange: 27
       NodeDeletion: 8
       EdgeDeletion: 14
+      NodeTextDefinitionChange: 27
+      EdgeCreation: 9
+      NodeUnobsoletion: 3
+      NodeRename: 6
+      NewSynonym: 4
       RemoveSynonym: 4
       RemoveNodeFromSubset: 1
       All_Obsoletion: 0
