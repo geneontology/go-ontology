@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-09-27 05:39:53.514709548 +0000
-+++ go.obo	2026-09-27 05:53:18.424719587 +0000
+--- go-lastrelease.obo	2026-09-28 05:43:44.467793638 +0000
++++ go.obo	2026-09-28 05:57:12.975317417 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-09-27
++data-version: releases/2026-09-28
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -24,7 +24,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-09-27" xsd:string
++property_value: owl:versionInfo "2026-09-28" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -8484,7 +8484,7 @@
 +id: GO:7770130
 +name: NAD(P)HX repair
 +namespace: biological_process
-+def: "A metabolite repair process in which NADHX and NADPHX, the redox-inactive hydrated derivatives of NADH and NADPH that form spontaneously or by enzymatic side reactions, are converted back to NADH and NADPH. The (R)-epimers are first converted to the (S)-epimers by NAD(P)HX epimerase, and (S)-NAD(P)HX is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase." [PMID:21994945, PMID:23334546, PMID:27616477]
++def: "A metabolite repair process in which NADHX or NADPHX, the redox-inactive hydrated derivatives of NADH or NADPH that form spontaneously or by enzymatic side reactions, is converted back to NADH or NADPH, respectively. The (R)-epimer is first converted to the (S)-epimer by NAD(P)HX epimerase, and the (S)-epimer is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase. The same two enzymes act on both NADHX and NADPHX." [PMID:21994945, PMID:23334546, PMID:27616477]
 +synonym: "cofactor repair" BROAD []
 +synonym: "NAD(P)H-hydrate repair" EXACT []
 +synonym: "NAD(P)HX repair pathway" EXACT []

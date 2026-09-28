@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-27/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-28/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-28" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1516,7 +1516,7 @@
 - [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "nicotinamide nucleotide repair" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21994945" 
 
-- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolite repair process in which NADHX and NADPHX, the redox-inactive hydrated derivatives of NADH and NADPH that form spontaneously or by enzymatic side reactions, are converted back to NADH and NADPH. The (R)-epimers are first converted to the (S)-epimers by NAD(P)HX epimerase, and (S)-NAD(P)HX is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase." 
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolite repair process in which NADHX or NADPHX, the redox-inactive hydrated derivatives of NADH or NADPH that form spontaneously or by enzymatic side reactions, is converted back to NADH or NADPH, respectively. The (R)-epimer is first converted to the (S)-epimer by NAD(P)HX epimerase, and the (S)-epimer is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase. The same two enzymes act on both NADHX and NADPHX." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23334546" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27616477" 

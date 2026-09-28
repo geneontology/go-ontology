@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-27/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-09-28/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-09-28" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -32748,7 +32748,7 @@
 - [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "nicotinamide nucleotide repair" 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21994945" 
 
-- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolite repair process in which NADHX and NADPHX, the redox-inactive hydrated derivatives of NADH and NADPH that form spontaneously or by enzymatic side reactions, are converted back to NADH and NADPH. The (R)-epimers are first converted to the (S)-epimers by NAD(P)HX epimerase, and (S)-NAD(P)HX is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase." 
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A metabolite repair process in which NADHX or NADPHX, the redox-inactive hydrated derivatives of NADH or NADPH that form spontaneously or by enzymatic side reactions, is converted back to NADH or NADPH, respectively. The (R)-epimer is first converted to the (S)-epimer by NAD(P)HX epimerase, and the (S)-epimer is then dehydrated by an ATP- or ADP-dependent NAD(P)HX dehydratase. The same two enzymes act on both NADHX and NADPHX." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23334546" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27616477" 
@@ -32763,9 +32763,7 @@
 
 - [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [metabolite repair](http://purl.obolibrary.org/obo/GO_0110051) 
 
-- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [NADPH(4-)](http://purl.obolibrary.org/obo/CHEBI_57783) 
-
-- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [NADH(2-)](http://purl.obolibrary.org/obo/CHEBI_57945) 
+- [NAD(P)HX repair](http://purl.obolibrary.org/obo/GO_7770130) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [NAD(P)H](http://purl.obolibrary.org/obo/CHEBI_13392) 
 
 
 ### NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0009435`
