@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-09-30go.owl-statistics
+id: obo:go/releases/2026-10-01go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-09-30go.owl
+  version: obo:go/releases/2026-10-01go.owl
 was_generated_by:
-  started_at_time: '2026-09-30T05:56:41.238293'
+  started_at_time: '2026-10-01T05:56:33.845679'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,15 +46,15 @@ partitions:
     distinct_synonym_count: 93688
     synonym_statement_count: 94475
     change_summary:
+      NodeDeletion: 21
+      EdgeDeletion: 105
+      EdgeCreation: 315
       NodeRename: 164
       NodeUnobsoletion: 136
-      EdgeCreation: 315
       NodeTextDefinitionChange: 224
       RemoveSynonym: 92
       NewSynonym: 63
-      EdgeDeletion: 105
       MappingCreation: 11
-      NodeDeletion: 21
       RemoveNodeFromSubset: 6
       RemoveMapping: 20
       AddNodeToSubset: 1
@@ -93,18 +93,18 @@ partitions:
     distinct_synonym_count: 28732
     synonym_statement_count: 29884
     change_summary:
+      RemoveMapping: 56
       NodeDeletion: 23
       EdgeDeletion: 62
-      NodeTextDefinitionChange: 53
-      EdgeCreation: 45
-      RemoveSynonym: 44
-      NewSynonym: 19
       NodeRename: 37
+      RemoveSynonym: 44
+      EdgeCreation: 45
+      NewSynonym: 19
+      NodeTextDefinitionChange: 53
+      RemoveNodeFromSubset: 1
       NodeUnobsoletion: 19
-      RemoveMapping: 56
       MappingCreation: 28
       NodeObsoletionWithDirectReplacement: 1
-      RemoveNodeFromSubset: 1
       All_Obsoletion: 1
       All_Synonym: 63
     edge_count: 13545
@@ -129,12 +129,12 @@ partitions:
     synonym_statement_count: 5333
     change_summary:
       NodeTextDefinitionChange: 27
+      RemoveNodeFromSubset: 1
+      RemoveSynonym: 4
       NodeDeletion: 8
       EdgeDeletion: 14
-      RemoveNodeFromSubset: 1
-      NodeRename: 6
       EdgeCreation: 9
-      RemoveSynonym: 4
+      NodeRename: 6
       NewSynonym: 4
       NodeUnobsoletion: 3
       All_Obsoletion: 0
