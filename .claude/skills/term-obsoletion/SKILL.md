@@ -27,7 +27,7 @@ An obsolete term should have
 - the name MUST be `name: obsolete <original name>`
 - the definition MUST be `def: "OBSOLETE. <original def>" [<original dbxrefs>]`
 - a term tracker item
-- a reason for obsoletion in the comment
+- a reason for obsoletion in the comment, taken from the obsoletion announcement (see "Use the obsoletion announcement for the obsolete term's comment" below)
 - synonyms preserved from the original term (see "Synonyms on obsolete terms" below)
 - original axioms transferred to other terms as appropriate
 
@@ -251,6 +251,68 @@ Include a detailed analysis in the issue comments.
 - List specific gene products requiring annotation updates
 - Provide replacement terms with supporting evidence
 - Note any patterns or systematic issues discovered
+
+## Use the obsoletion announcement for the obsolete term's comment
+
+By the time a term is actually obsoleted, the proposal has normally already
+been announced as an issue in https://github.com/geneontology/go-announcements
+(label `obsoletion`, title `Obsoletion notice: GO:nnnnnnn <term label>`), and
+that notice links back to the original go-ontology ticket. The obsolete
+stanza's `comment:` must use the reason given in that announcement, so that
+what users were told and what the ontology says are the same.
+
+### Step 1: Find the announcement
+
+Search by GO ID, then by ticket number if nothing turns up:
+
+```bash
+gh issue list -R geneontology/go-announcements --label obsoletion --state all \
+  --search "GO:nnnnnnn" --json number,title,url
+gh issue list -R geneontology/go-announcements --label obsoletion --state all \
+  --search "go-ontology/issues/NNNNN" --json number,title,url
+gh issue view MMMM -R geneontology/go-announcements   # read the notice
+```
+
+If several notices match (for example, one covering a batch of terms), use the
+one whose body links the go-ontology ticket you are working on. Also check the
+original ticket's comments: editors often paste the notice text there too.
+
+### Step 2: Take the comment and replacements from the notice
+
+- Copy the notice's reason sentence(s) **verbatim** into the stanza:
+  `comment: The reason for obsoletion is that <reason as announced>.`
+  Fix only an obvious typo, and say so in your summary.
+- "This term is being replaced by GO:..." → `replaced_by:`
+- "Annotations can be transferred to GO:..." → `consider:` (one per term)
+- Verify every GO ID from the notice with `obo-grep.pl` before using it; if the
+  notice and the ticket discussion disagree (e.g. the replacement changed after
+  the notice went out), stop and ask rather than choosing.
+- If the notice gives an objection deadline that has not yet passed, or the
+  ticket/notice shows unresolved objections, flag this before obsoleting.
+
+Example — go-announcements#1198 for go-ontology#32640 says "The reason for
+obsoletion is that there is no evidence that this process exists" and
+"Annotations can be transferred to GO:7770063 beta barrel protein insertion
+into mitochondrial outer membrane", giving:
+
+```
+comment: The reason for obsoletion is that there is no evidence that this process exists.
+consider: GO:7770063
+```
+
+### Step 3: Record the link
+
+In the ticket comment and the PR description, cite the announcement issue
+(e.g. `Obsoletion announced in geneontology/go-announcements#1198`).
+
+### If no announcement exists
+
+Say so on the ticket/to the user and do not file one unprompted: announcing is
+the ontology editors' call. If asked to draft one, use the official template
+(https://github.com/geneontology/go-announcements/blob/master/.github/ISSUE_TEMPLATE/obsoletion-notice.md),
+keep only the reason line(s) that apply, and show the draft for approval
+before anything is posted. The stanza `comment:` then uses the same reason
+sentence as the draft.
 
 ## Best Practices
 
