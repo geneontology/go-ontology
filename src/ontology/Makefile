@@ -955,7 +955,7 @@ qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/se
 
 reports/neo-violations.report: $(GO_LEGO).owl
 	rm -rf tdb/ &&\
-	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
+	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # intermediate files in this target must be lexically, not numerically sorted, for use with comm
 # terms listed in ../biochebi/chebi-allow.txt are exempted from the pH 7.3 requirement
