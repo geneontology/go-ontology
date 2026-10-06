@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-05/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-06/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-05" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-06" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1565,6 +1565,26 @@
 - [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) SubClassOf [RNA methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008173) 
 
 
+### RNA export from nucleus `http://purl.obolibrary.org/obo/GO_0006405`
+#### Removed
+- [RNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006405) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of RNA from the nucleus to the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+#### Added
+- [RNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006405) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of RNA from the nucleus to the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+
+### RNA import into nucleus `http://purl.obolibrary.org/obo/GO_0006404`
+#### Removed
+- [RNA import into nucleus](http://purl.obolibrary.org/obo/GO_0006404) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of RNA from the cytoplasm to the nucleus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+#### Added
+- [RNA import into nucleus](http://purl.obolibrary.org/obo/GO_0006404) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The import of RNA from the cytosol to the nucleus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+
 ### RNA polymerase II termination complex `http://purl.obolibrary.org/obo/GO_0110103`
 #### Removed
 - [RNA polymerase II termination complex](http://purl.obolibrary.org/obo/GO_0110103) SubClassOf [phosphatase complex](http://purl.obolibrary.org/obo/GO_1903293) 
@@ -2422,6 +2442,16 @@
 - [chorion micropyle](http://purl.obolibrary.org/obo/GO_0070825) [label](http://www.w3.org/2000/01/rdf-schema#label) "chorion micropyle" 
 
 
+### ciliary microtubule quartet `http://purl.obolibrary.org/obo/GO_0120260`
+#### Removed
+- [ciliary microtubule quartet](http://purl.obolibrary.org/obo/GO_0120260) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytoskeleton](http://purl.obolibrary.org/obo/GO_0005856) 
+
+#### Added
+- [ciliary microtubule quartet](http://purl.obolibrary.org/obo/GO_0120260) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32687"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ciliary microtubule quartet](http://purl.obolibrary.org/obo/GO_0120260) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [microtubule cytoskeleton](http://purl.obolibrary.org/obo/GO_0015630) 
+
+
 ### citrate-malate shuttle `http://purl.obolibrary.org/obo/GO_7770108`
 
 #### Added
@@ -2560,28 +2590,44 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
-### corticotropin-releasing factor receptor activity `http://purl.obolibrary.org/obo/GO_0015056`
-#### Removed
-- [corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with the corticotrophin-releasing factor family of ligands, including the urocortins, to initiate a change in cell activity." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12032352" 
-
-- [corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [label](http://www.w3.org/2000/01/rdf-schema#label) "corticotrophin-releasing factor receptor activity" 
-
-#### Added
-- [corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with the corticotropin-releasing factor family of ligands, including the urocortins, to initiate a change in cell activity." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12032352" 
-
-- [corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [label](http://www.w3.org/2000/01/rdf-schema#label) "corticotropin-releasing factor receptor activity" 
-
-
 ### corticotropin-releasing hormone receptor activity `http://purl.obolibrary.org/obo/GO_0043404`
 #### Removed
 - [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "corticotropin-releasing factor receptor activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
 
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with corticotropin-releasing hormone and transmitting the signal to initiate a change in cell activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11027914" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15134857" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0838577016" 
+
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) SubClassOf [signaling receptor activity](http://purl.obolibrary.org/obo/GO_0038023) 
+
 #### Added
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "corticotropin-releasing factor receptor activity" 
+
 - [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "corticotropin releasing factor receptor activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with corticotropin-releasing hormone and transmitting the signal to initiate a change in cell activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11027914" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15134857" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:signaling" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12615952" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0838577016" 
+
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) SubClassOf [G protein-coupled peptide receptor activity](http://purl.obolibrary.org/obo/GO_0008528) 
+
+- [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cellular response to corticotropin-releasing hormone stimulus](http://purl.obolibrary.org/obo/GO_0071376) 
 
 
 ### creatine metabolic process `http://purl.obolibrary.org/obo/GO_0006600`
@@ -3785,6 +3831,30 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67004" 
 
 
+### mRNA export from nucleus `http://purl.obolibrary.org/obo/GO_0006406`
+#### Removed
+- [mRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006406) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of mRNA from the nucleus to the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+#### Added
+- [mRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006406) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of mRNA from the nucleus to the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+
+### mRNA export from nucleus in response to heat stress `http://purl.obolibrary.org/obo/GO_0031990`
+#### Removed
+- [mRNA export from nucleus in response to heat stress](http://purl.obolibrary.org/obo/GO_0031990) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of mRNA from the nucleus to the cytoplasm during a heat stimulus, a temperature stimulus above the optimal temperature for the organism; in particular, a process that enables an organism withstand exposure to temperatures that would otherwise lethally impair poly(A)+ mRNA-nucleus export." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+#### Added
+- [mRNA export from nucleus in response to heat stress](http://purl.obolibrary.org/obo/GO_0031990) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of mRNA from the nucleus to the cytosol during a heat stimulus, a temperature stimulus above the optimal temperature for the organism; in particular, a process that enables an organism withstand exposure to temperatures that would otherwise lethally impair poly(A)+ mRNA-nucleus export." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+
 ### mRNA m(6)A methyltransferase activity `http://purl.obolibrary.org/obo/GO_0001734`
 
 #### Added
@@ -3907,6 +3977,32 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:15929" 
 
 - [methylenediurea deaminase activity](http://purl.obolibrary.org/obo/GO_0047424) SubClassOf [hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides](http://purl.obolibrary.org/obo/GO_0016811) 
+
+
+### miRNA export from nucleus `http://purl.obolibrary.org/obo/GO_0061716`
+#### Removed
+- [miRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0061716) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of a processed miRNA from the nucleus to the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15738428" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF_miRNA" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21554756" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rph" 
+
+#### Added
+- [miRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0061716) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of a processed miRNA from the nucleus to the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15738428" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF_miRNA" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21554756" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rph" 
 
 
 ### microglial cell mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0090634`
@@ -5309,6 +5405,82 @@
 - [obsolete cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a GO-CAM model and describes a target gene rather than an activity" 
 
 - [obsolete cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cargo receptor ligand activity" 
+
+
+### obsolete cell wall glycoprotein biosynthetic process `http://purl.obolibrary.org/obo/GO_0031506`
+#### Removed
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cell wall glycoproteins, any cell wall protein that contains covalently bound sugar residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell wall glycoprotein biosynthetic process" 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) SubClassOf [glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0009101) 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) SubClassOf [cell wall macromolecule biosynthetic process](http://purl.obolibrary.org/obo/GO_0044038) 
+
+#### Added
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32671"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0009101) 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of cell wall glycoproteins, any cell wall protein that contains covalently bound sugar residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell wall glycoprotein biosynthetic process" 
+
+
+### obsolete cell wall mannoprotein biosynthetic process `http://purl.obolibrary.org/obo/GO_0000032`
+#### Removed
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cell wall mannoproteins, any cell wall protein that contains covalently bound mannose residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell wall mannoprotein biosynthetic process" 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) SubClassOf [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) 
+
+#### Added
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32671"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0009101) 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of cell wall mannoproteins, any cell wall protein that contains covalently bound mannose residues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
+
+- [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell wall mannoprotein biosynthetic process" 
+
+
+### obsolete corticotropin-releasing factor receptor activity `http://purl.obolibrary.org/obo/GO_0015056`
+#### Removed
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with the corticotrophin-releasing factor family of ligands, including the urocortins, to initiate a change in cell activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12032352" 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [label](http://www.w3.org/2000/01/rdf-schema#label) "corticotrophin-releasing factor receptor activity" 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) SubClassOf [G protein-coupled receptor activity](http://purl.obolibrary.org/obo/GO_0004930) 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cellular response to corticotropin-releasing hormone stimulus](http://purl.obolibrary.org/obo/GO_0071376) 
+
+#### Added
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32574"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Combining with the corticotropin-releasing factor family of ligands, including the urocortins, to initiate a change in cell activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12032352" 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was made obsolete because it is a duplicate of corticotropin-releasing hormone receptor activity. Corticotropin-releasing factor and corticotropin-releasing hormone are names for the same ligand (CRF per IUPHAR nomenclature, CRH per HGNC gene symbol), and every non-IEA annotation to either term is to a CRHR1 or CRHR2 ortholog, with identical PAINT/IBA annotation sets on both terms. The urocortins are not brought into the scope of the replacement term; see https://github.com/geneontology/go-ontology/issues/32574 for discussion." 
+
+- [obsolete corticotropin-releasing factor receptor activity](http://purl.obolibrary.org/obo/GO_0015056) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete corticotropin-releasing factor receptor activity" 
 
 
 ### obsolete cysteinyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006423`
@@ -6986,6 +7158,36 @@
 - [obsolete mitochondrial methionyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0070155) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term restates an existing molecular function, GO:0004825 methionine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0070127 tRNA aminoacylation for mitochondrial protein translation." 
 
 - [obsolete mitochondrial methionyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0070155) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete mitochondrial methionyl-tRNA aminoacylation" 
+
+
+### obsolete mitochondrial outer membrane translocase complex assembly `http://purl.obolibrary.org/obo/GO_0070096`
+#### Removed
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of a set of components to form a mitochondrial outer membrane translocase complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vk" 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrial outer membrane translocase complex assembly" 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) SubClassOf [protein-containing complex assembly](http://purl.obolibrary.org/obo/GO_0065003) 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [outer mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007008) 
+
+#### Added
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32640"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form a mitochondrial outer membrane translocase complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vk" 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that there is no evidence that this process exists." 
+
+- [obsolete mitochondrial outer membrane translocase complex assembly](http://purl.obolibrary.org/obo/GO_0070096) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete mitochondrial outer membrane translocase complex assembly" 
 
 
 ### obsolete mitochondrial phenylalanyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0070156`
@@ -9902,10 +10104,47 @@
 - [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) SubClassOf [fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0120515) 
 
 
+### piRNA precursor export from nucleus `http://purl.obolibrary.org/obo/GO_0140508`
+
+#### Added
+- Class: [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32682"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-05T09:05:28Z" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "piRNA export from nucleus" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Piwi-associated RNA precursor export from nucleus" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140508" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of a precursor piRNA from the nucleus to the cytosol. Piwi-associated RNAs are exported as precursors, and processed to their mature form in the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31398345" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) [label](http://www.w3.org/2000/01/rdf-schema#label) "piRNA precursor export from nucleus" 
+
+- [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) SubClassOf [RNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006405) 
+
+
 ### plastid transcription `http://purl.obolibrary.org/obo/GO_0042793`
 
 #### Added
 - [plastid transcription](http://purl.obolibrary.org/obo/GO_0042793) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32608"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### poly(A)+ mRNA export from nucleus `http://purl.obolibrary.org/obo/GO_0016973`
+#### Removed
+- [poly(A)+ mRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0016973) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of poly(A)+ mRNA out of the nucleus into the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [poly(A)+ mRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0016973) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of poly(A)+ mRNA out of the nucleus into the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 
 ### positive regulation of 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_1905014`
@@ -10178,6 +10417,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15263090" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jal" 
+
+
+### pre-miRNA export from nucleus `http://purl.obolibrary.org/obo/GO_0035281`
+#### Removed
+- [pre-miRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0035281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Transport of pre-microRNAs (pre-miRNAs) from the nucleus to the cytoplasm. Pre-miRNAs are a ~60-70 nucleotide stem loop intermediate in miRNA production, produced by the nuclear cleavage of a primary miRNA (pri-mRNA) transcript. Pre-miRNAs are transported from the nucleus to the cytoplasm where further cleavage occurs to produce a mature miRNA product." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14744438" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sl" 
+
+#### Added
+- [pre-miRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0035281) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Transport of pre-microRNAs (pre-miRNAs) from the nucleus to the cytosol. Pre-miRNAs are a ~60-70 nucleotide stem loop intermediate in miRNA production, produced by the nuclear cleavage of a primary miRNA (pri-mRNA) transcript. Pre-miRNAs are transported from the nucleus to the cytosol where further cleavage occurs to produce a mature miRNA product." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14744438" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sl" 
 
 
 ### proteasomal degradation of multi-protein complex orphan subunits `http://purl.obolibrary.org/obo/GO_7770117`
@@ -11132,6 +11385,34 @@
 - [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [7-methylguanosine cap hypermethylation](http://purl.obolibrary.org/obo/GO_0036261) 
 
 
+### snRNA export from nucleus `http://purl.obolibrary.org/obo/GO_0006408`
+#### Removed
+- [snRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006408) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of snRNA from the nucleus to the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+#### Added
+- [snRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006408) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of snRNA from the nucleus to the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+
+### snRNA import into nucleus `http://purl.obolibrary.org/obo/GO_0061015`
+#### Removed
+- [snRNA import into nucleus](http://purl.obolibrary.org/obo/GO_0061015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of snRNA, small nuclear ribonucleic acid into the nucleus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+#### Added
+- [snRNA import into nucleus](http://purl.obolibrary.org/obo/GO_0061015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of a snRNA, small nuclear ribonucleic acid from the cytosol to the nucleus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+
 ### snoRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_0180031`
 #### Removed
 - [snoRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_0180031) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snoRNA. The snoRNA capping includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed snoRNAs are also TMG capped." 
@@ -11326,6 +11607,48 @@
 - [tRNA charging](http://purl.obolibrary.org/obo/GO_0043039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "tRNA aminoacylation" 
 
 - [tRNA charging](http://purl.obolibrary.org/obo/GO_0043039) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA charging" 
+
+
+### tRNA export from nucleus `http://purl.obolibrary.org/obo/GO_0006409`
+#### Removed
+- [tRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006409) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of tRNA from the nucleus to the cytoplasm." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+#### Added
+- [tRNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006409) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of tRNA from the nucleus to the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+
+### tRNA import into nucleus `http://purl.obolibrary.org/obo/GO_0035719`
+#### Removed
+- [tRNA import into nucleus](http://purl.obolibrary.org/obo/GO_0035719) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of tRNA from the cytoplasm to the nucleus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20032305" 
+
+#### Added
+- [tRNA import into nucleus](http://purl.obolibrary.org/obo/GO_0035719) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of a tRNA from the cytosol to the nucleus." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20032305" 
+
+
+### tRNA re-export from nucleus `http://purl.obolibrary.org/obo/GO_0071528`
+#### Removed
+- [tRNA re-export from nucleus](http://purl.obolibrary.org/obo/GO_0071528) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement from the nucleus to the cytoplasm of a tRNA that was previously exported to the cytoplasm and then imported back into the nucleus. The processes of primary tRNA export and secondary export (re-export) can be distinguished because in organisms in which tRNA splicing occurs in the cytoplasm, the export of a mature tRNA must occur by re-export." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20032305" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17475781" 
+
+#### Added
+- [tRNA re-export from nucleus](http://purl.obolibrary.org/obo/GO_0071528) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement from the nucleus to the cytosol of a tRNA that was previously exported to the cytosol and then imported back into the nucleus. The processes of primary tRNA export and secondary export (re-export) can be distinguished because in organisms in which tRNA splicing occurs in the cytosol, the export of a mature tRNA must occur by re-export." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mcc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20032305" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17475781" 
 
 
 ### tRNA(Val) (adenine(37)-N6)-methyltransferase activity `http://purl.obolibrary.org/obo/GO_7770054`
