@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-06/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-07/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-06" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-07" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -21079,6 +21079,36 @@
 - [8-methyladenosine 5'-monophosphate residue](http://purl.obolibrary.org/obo/CHEBI_74787) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0035539`
+#### Removed
+- [8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035539) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 8-oxo-7,8-dihydrodeoxyguanosine-triphosphate (8-oxo-dGTP) + H2O = 8-oxo-7,8-dihydrodeoxyguanosine phosphate (8-oxo-dGMP) + diphosphate. 8-oxo-dGTP is the oxidised form of the free guanine nucleotide and can act as a potent mutagenic substrate for DNA synthesis causing transversion mutations. 8-oxo-dGTPase hydrolyses 8-oxo-dGTP to its monophosphate form to prevent the misincorporation of 8-oxo-dGTP into cellular DNA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31575" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17804481" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7782328" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7859359" 
+
+- [8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035539) [label](http://www.w3.org/2000/01/rdf-schema#label) "8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity" 
+
+#### Added
+- [8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035539) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035539) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity" 
+
+- [8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035539) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 8-oxo-dGTP + H2O = 8-oxo-dGMP + diphosphate + H+. 8-oxo-dGTP is the oxidised form of the free guanine nucleotide and can act as a potent mutagenic substrate for DNA synthesis causing transversion mutations. 8-oxo-dGTPase hydrolyses 8-oxo-dGTP to its monophosphate form to prevent the misincorporation of 8-oxo-dGTP into cellular DNA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31575" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17804481" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7782328" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7859359" 
+
+- [8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035539) [label](http://www.w3.org/2000/01/rdf-schema#label) "8-oxo-7,8-dihydrodeoxyguanosine triphosphate diphosphatase activity" 
+
+
 ### 8-oxo-ETE `http://purl.obolibrary.org/obo/CHEBI_75819`
 
 #### Added
@@ -21533,16 +21563,106 @@
 - [ADP-beta-D-ribose](http://purl.obolibrary.org/obo/CHEBI_191409) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### ADP-glucose pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0080042`
+#### Removed
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "ADP-glucose diphosphatase activity"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ADP-glucose + H2O = AMP + glucose-1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-glucose pyrophosphatase activity" 
+
+#### Added
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-10770" 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86575" 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADP-D-glucose pyrophosphatase activity" 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADP-glucose pyrophosphatase activity" 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [RXN-10770](http://identifiers.org/metacyc.reaction/RXN-10770) 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86575](http://rdf.rhea-db.org/86575) 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ADP-alpha-D-glucose + H2O = alpha-D-glucose 1-phosphate + AMP + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86575" 
+
+- [ADP-glucose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080042) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-glucose diphosphatase activity" 
+
+
 ### ADP-glycero-D-manno-heptose `http://purl.obolibrary.org/obo/CHEBI_20847`
 
 #### Added
 - [ADP-glycero-D-manno-heptose](http://purl.obolibrary.org/obo/CHEBI_20847) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### ADP-ribose diphosphatase activity `http://purl.obolibrary.org/obo/GO_0047631`
+#### Removed
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ADP-ribose + H2O = AMP + D-ribose 5-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.6.1.13" 
+
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-ribose diphosphatase activity" 
+
+#### Added
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31141"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADP-ribose diphosphatase activity" 
+
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [3.6.1.53](http://purl.uniprot.org/enzyme/3.6.1.53) 
+
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [RXN0-1441](http://identifiers.org/metacyc.reaction/RXN0-1441) 
+
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ADP-D-ribose + H2O = D-ribose 5-phosphate + AMP + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:10412" 
+
+- [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-D-ribose diphosphatase activity" 
+
+
+### ADP-ribose pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0080041`
+#### Removed
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ADP-ribose + H2O = AMP + ribose-1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-ribose pyrophosphatase activity" 
+
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) SubClassOf [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) 
+
+#### Added
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [ADP-ribose diphosphatase activity](http://purl.obolibrary.org/obo/GO_0047631) 
+
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: ADP-ribose + H2O = AMP + ribose-1-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same reaction as ADP-ribose diphosphatase activity ; GO:0047631." 
+
+- [ADP-ribose pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0080041) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ADP-ribose pyrophosphatase activity" 
+
+
 ### ADP-sugar `http://purl.obolibrary.org/obo/CHEBI_35239`
 
 #### Added
 - [ADP-sugar](http://purl.obolibrary.org/obo/CHEBI_35239) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### ADP-sugar pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0019144`
+#### Removed
+- [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADP-sugar diphosphatase activity" 
+
+- [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-sugar pyrophosphatase activity" 
+
+#### Added
+- [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ADP-sugar pyrophosphatase activity" 
+
+- [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [ADPSUGPPHOSPHAT-RXN](http://identifiers.org/metacyc.reaction/ADPSUGPPHOSPHAT-RXN) 
+
+- [ADP-sugar pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0019144) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-sugar diphosphatase activity" 
 
 
 ### AICA ribonucleotide `http://purl.obolibrary.org/obo/CHEBI_18406`
@@ -32878,6 +32998,34 @@
 - [NADH](http://purl.obolibrary.org/obo/CHEBI_16908) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### NADH pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0035529`
+#### Removed
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NADH diphosphatase activity" 
+
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NADH + H2O = AMP + NMNH + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20181750" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12399474" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48868" 
+
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [label](http://www.w3.org/2000/01/rdf-schema#label) "NADH pyrophosphatase activity" 
+
+#### Added
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NADH pyrophosphatase activity" 
+
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NADH + H2O = reduced beta-nicotinamide D-ribonucleotide + AMP + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20181750" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12399474" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:48868" 
+
+- [NADH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0035529) [label](http://www.w3.org/2000/01/rdf-schema#label) "NADH diphosphatase activity" 
+
+
 ### NADH-dependent peroxiredoxin activity `http://purl.obolibrary.org/obo/GO_0102039`
 #### Removed
 - [NADH-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0102039) SubClassOf [peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0051920) 
@@ -32922,6 +33070,32 @@
 
 #### Added
 - [NADPH](http://purl.obolibrary.org/obo/CHEBI_16474) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### NADPH pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0010943`
+#### Removed
+- [NADPH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0010943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NADPH + H2O = NMNH + ADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60820" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12790796" 
+
+- [NADPH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0010943) [label](http://www.w3.org/2000/01/rdf-schema#label) "NADPH pyrophosphatase activity" 
+
+#### Added
+- [NADPH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0010943) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [NADPH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0010943) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "NADPH pyrophosphatase activity" 
+
+- [NADPH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0010943) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: NADPH + H2O = reduced beta-nicotinamide D-ribonucleotide + adenosine 2',5'-bisphosphate + 2 H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60820" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12790796" 
+
+- [NADPH pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0010943) [label](http://www.w3.org/2000/01/rdf-schema#label) "NADPH diphosphatase activity" 
 
 
 ### NAGS/NAGK complex `http://purl.obolibrary.org/obo/GO_0106098`
@@ -47968,6 +48142,24 @@
 
 #### Added
 - [dUTP](http://purl.obolibrary.org/obo/CHEBI_17625) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### dUTP pyrophosphatase inhibitor activity `http://purl.obolibrary.org/obo/GO_0004858`
+#### Removed
+- [dUTP pyrophosphatase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004858) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binds to and stops, prevents or reduces the activity of dUTP pyrophosphatase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [dUTP pyrophosphatase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004858) [label](http://www.w3.org/2000/01/rdf-schema#label) "dUTP pyrophosphatase inhibitor activity" 
+
+#### Added
+- [dUTP pyrophosphatase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004858) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [dUTP pyrophosphatase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004858) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dUTP pyrophosphatase inhibitor activity" 
+
+- [dUTP pyrophosphatase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004858) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Binds to and stops, prevents or reduces the activity of dUTP diphosphatase." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [dUTP pyrophosphatase inhibitor activity](http://purl.obolibrary.org/obo/GO_0004858) [label](http://www.w3.org/2000/01/rdf-schema#label) "dUTP diphosphatase inhibitor activity" 
 
 
 ### dUTP(3-) `http://purl.obolibrary.org/obo/CHEBI_58212`
