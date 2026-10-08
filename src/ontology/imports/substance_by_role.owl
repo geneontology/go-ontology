@@ -12,16 +12,16 @@
      xmlns:chemrof="https://w3id.org/chemrof/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/chebi/role.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/chebi/role/chebi/252/chebi.owl/go/chebi/role.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/chebi/role/chebi/256/chebi.owl/go/chebi/role.owl"/>
         <terms:description>Chemical Entities of Biological Interest, also known as ChEBI, is a chemical database and ontology of molecular entities focused on &apos;small&apos; chemical compounds, that is part of the Open Biomedical Ontologies (OBO) effort at the European Bioinformatics Institute (EBI).</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>ChEBI Ontology</terms:title>
-        <oboInOwl:date>01:05:2026 16:42</oboInOwl:date>
+        <oboInOwl:date>06:10:2026 11:26</oboInOwl:date>
         <oboInOwl:default-namespace>chebi_ontology</oboInOwl:default-namespace>
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>chebi</oboInOwl:saved-by>
         <rdfs:comment>ChEBI subsumes and replaces the Chemical Ontology first. This ontology was developed by Michael Ashburner and Pankaj Jaiswal. Data was cuarated by The ChEBI Curation Team. For any queries contact chebi-help@ebi.ac.uk</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">252</owl:versionInfo>
+        <owl:versionInfo>256</owl:versionInfo>
         <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.ebi.ac.uk/chebi</foaf:homepage>
     </owl:Ontology>
     
@@ -7208,15 +7208,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_747607 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_747693 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_747607"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_747608 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_747608"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_747693"/>
     
 
 
@@ -7445,6 +7439,24 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_76022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76022"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_760762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_760762"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_760798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_760798"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_760800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_760800"/>
     
 
 
@@ -40408,9 +40420,6 @@
         <oboInOwl:id>GOCHE:232530</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/2_STAR"/>
         <rdfs:label>substance with mass spectrometer degradation product role</rdfs:label>
-        <chemrof:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</chemrof:charge>
-        <chemrof:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</chemrof:mass>
-        <chemrof:monoisotopic_mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</chemrof:monoisotopic_mass>
     </owl:Class>
     
 
@@ -57848,7 +57857,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46787"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A liquid that can dissolve other substances (solutes) without any change in their chemical composition.</obo:IAO_0000115>
+        <obo:IAO_0000115>A substance that dissolves other substances (solutes) to form a solution without any change in their chemical composition.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>wikipedia.en:Solvent</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Loesungsmittel</oboInOwl:hasRelatedSynonym>
@@ -102821,106 +102830,120 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GOCHE_747607 -->
+    <!-- http://purl.obolibrary.org/obo/GOCHE_747693 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_747607">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_747693">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_189683"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_76906"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_747607"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_747693"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A sigma-2 receptor antagonist, therapeutic candidate for Alzheimer&apos;s disease and dementia with Lewy bodies.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>cas:1802632-22-9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>kegg.drug:D13086</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Any EC 4.1.1.* (carboxy-lyase) inhibitor that interferes with the action of malonyl-CoA decarboxylase (EC 4.1.1.9).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>wikipedia.en:Malonyl-CoA_decarboxylase</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>CT1812</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>GOCHE:747607</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/2_STAR"/>
-        <rdfs:label>substance with Zervimesine role</rdfs:label>
-        <chemrof:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</chemrof:charge>
-        <chemrof:generalized_empirical_formula>C24H33NO4S</chemrof:generalized_empirical_formula>
-        <chemrof:inchi_key_string>ISQAPFMBJFZOLG-UHFFFAOYSA-N</chemrof:inchi_key_string>
-        <chemrof:inchi_string>InChI=1S/C24H33NO4S/c1-23(2,3)29-22-13-17(7-10-21(22)26)11-12-24(4,5)25-15-18-8-9-20(30(6,27)28)14-19(18)16-25/h7-10,13-14,26H,11-12,15-16H2,1-6H3</chemrof:inchi_string>
-        <chemrof:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">431.598</chemrof:mass>
-        <chemrof:monoisotopic_mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">431.21303</chemrof:monoisotopic_mass>
-        <chemrof:smiles_string>CC(C)(C)Oc1cc(CCC(C)(C)N2Cc3ccc(S(C)(=O)=O)cc3C2)ccc1O</chemrof:smiles_string>
+        <oboInOwl:hasRelatedSynonym>EC 4.1.1.9 (malonyl-CoA decarboxylase) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 4.1.1.9 inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 4.1.1.9 inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>MCD inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>MCD inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl coenzyme A decarboxylase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl coenzyme A decarboxylase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl-CoA carboxy-lyase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl-CoA carboxy-lyase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl-CoA carboxyl-lyase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl-CoA carboxyl-lyase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl-CoA decarboxylase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>malonyl-CoA decarboxylase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GOCHE:747693</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/3_STAR"/>
+        <rdfs:label>substance with EC 4.1.1.9 (malonyl-CoA decarboxylase) inhibitor role</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747607"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>cas:1802632-22-9</owl:annotatedTarget>
-        <oboInOwl:source>cas</oboInOwl:source>
+        <owl:annotatedTarget>wikipedia.en:Malonyl-CoA_decarboxylase</owl:annotatedTarget>
+        <oboInOwl:source>wikipedia.en</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747607"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>kegg.drug:D13086</owl:annotatedTarget>
-        <oboInOwl:source>kegg.drug</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747607"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>CT1812</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>submitter</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GOCHE_747608 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_747608">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_35569"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_747608"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>An alpha2-adrenergic agonist that is used as a horse sedative.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>cas:76631-46-4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>drugbank:DB11556</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>kegg.drug:D07795</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Dormosedan</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>GOCHE:747608</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/2_STAR"/>
-        <rdfs:label>substance with detomidine role</rdfs:label>
-        <chemrof:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</chemrof:charge>
-        <chemrof:generalized_empirical_formula>C12H14N2</chemrof:generalized_empirical_formula>
-        <chemrof:inchi_key_string>RHDJRPPFURBGLQ-UHFFFAOYSA-N</chemrof:inchi_key_string>
-        <chemrof:inchi_string>InChI=1S/C12H14N2/c1-9-4-3-5-11(10(9)2)6-12-7-13-8-14-12/h3-5,7-8H,6H2,1-2H3,(H,13,14)</chemrof:inchi_string>
-        <chemrof:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">186.258</chemrof:mass>
-        <chemrof:monoisotopic_mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">186.1157</chemrof:monoisotopic_mass>
-        <chemrof:smiles_string>Cc1cccc(Cc2cncn2)c1C</chemrof:smiles_string>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747608"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>cas:76631-46-4</owl:annotatedTarget>
-        <oboInOwl:source>cas</oboInOwl:source>
+        <owl:annotatedTarget>EC 4.1.1.9 (malonyl-CoA decarboxylase) inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747608"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>drugbank:DB11556</owl:annotatedTarget>
-        <oboInOwl:source>drugbank</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747608"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>kegg.drug:D07795</owl:annotatedTarget>
-        <oboInOwl:source>kegg.drug</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747608"/>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>Dormosedan</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>drugbank</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/BRAND_NAME"/>
+        <owl:annotatedTarget>EC 4.1.1.9 inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 4.1.1.9 inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>MCD inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>MCD inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl coenzyme A decarboxylase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl coenzyme A decarboxylase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl-CoA carboxy-lyase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl-CoA carboxy-lyase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl-CoA carboxyl-lyase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl-CoA carboxyl-lyase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl-CoA decarboxylase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_747693"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>malonyl-CoA decarboxylase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -106481,6 +106504,235 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_76022"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>soluble guanylyl cyclase activators</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GOCHE_760762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_760762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_38231"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_760762"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>(2S,7S,7aS)-7-hydroxy-2-(hydroxymethyl)-2,5,7-trimethyl-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyspiro[3a,7a-dihydro-3H-indene-6,1&apos;-cyclopropane]-1-one</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(2S,7S,7aS)-7-hydroxy-2-(hydroxymethyl)-2,5,7-trimethyl-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyspiro[3a,7a-dihydro-3H-indene-6,1&apos;-cyclopropane]-1-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GOCHE:760762</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/2_STAR"/>
+        <rdfs:label>substance with caudatoside role</rdfs:label>
+        <chemrof:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</chemrof:charge>
+        <chemrof:generalized_empirical_formula>C21H32O9</chemrof:generalized_empirical_formula>
+        <chemrof:inchi_key_string>NIERWTDCCGPRCQ-ZFVALMAISA-N</chemrof:inchi_key_string>
+        <chemrof:inchi_string>InChI=1S/C21H32O9/c1-9-16(30-18-15(26)14(25)13(24)11(7-22)29-18)10-6-19(2,8-23)17(27)12(10)20(3,28)21(9)4-5-21/h10-15,18,22-26,28H,4-8H2,1-3H3/t10?,11-,12-,13-,14+,15-,18+,19+,20+/m1/s1</chemrof:inchi_string>
+        <chemrof:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">428.478</chemrof:mass>
+        <chemrof:monoisotopic_mass rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">428.20463</chemrof:monoisotopic_mass>
+        <chemrof:smiles_string>[H]C12C[C@@](C)(CO)C(=O)[C@]1([H])[C@](C)(O)C1(CC1)C(C)=C2O[C@]1([H])O[C@]([H])(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]1([H])O</chemrof:smiles_string>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760762"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>(2S,7S,7aS)-7-hydroxy-2-(hydroxymethyl)-2,5,7-trimethyl-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyspiro[3a,7a-dihydro-3H-indene-6,1&apos;-cyclopropane]-1-one</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>IUPAC</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760762"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>(2S,7S,7aS)-7-hydroxy-2-(hydroxymethyl)-2,5,7-trimethyl-4-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyspiro[3a,7a-dihydro-3H-indene-6,1&apos;-cyclopropane]-1-one</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>iupac</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/IUPAC_NAME"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GOCHE_760798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_760798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_76741"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_760798"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor that interferes with the action of any such enzyme incorporating one atom each of oxygen into both donors with 2-oxoglutarate as one donor (EC 1.14.19.*).</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>EC 1.14.19.* (oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 1.14.19.* inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 1.14.19.* inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>inhibitor of oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>inhibitors of oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GOCHE:760798</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/3_STAR"/>
+        <rdfs:label>substance with EC 1.14.19.* (oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor) inhibitor role</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760798"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 1.14.19.* (oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor) inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760798"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 1.14.19.* inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760798"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 1.14.19.* inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760798"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>inhibitor of oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760798"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>inhibitors of oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GOCHE_760800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_760800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760798"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_760800"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An EC 1.14.19.* (oxidoreductase acting on paired donors, with incorporation of one atom each of oxygen into both donors, with 2-oxoglutarate as one donor) inhibitor that interferes with the action of stearoyl-CoA 9-desaturase (EC 1.14.19.1).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>wikipedia.en:Stearoyl-CoA_9-desaturase</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>EC 1.14.19.1 (stearoyl-CoA 9-desaturase) inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 1.14.19.1 inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>EC 1.14.19.1 inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>SCD inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>SCD inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acyl-CoA desaturase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acyl-CoA desaturase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>delta(9)-desaturase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>delta(9)-desaturase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fatty acid desaturase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fatty acid desaturase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stearoyl-CoA 9-desaturase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stearoyl-CoA 9-desaturase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stearoyl-CoA, hydrogen-donor:oxygen oxidoreductase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stearoyl-CoA, hydrogen-donor:oxygen oxidoreductase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>GOCHE:760800</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/3_STAR"/>
+        <rdfs:label>substance with EC 1.14.19.1 (stearoyl-CoA 9-desaturase) inhibitor role</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>wikipedia.en:Stearoyl-CoA_9-desaturase</owl:annotatedTarget>
+        <oboInOwl:source>wikipedia.en</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 1.14.19.1 (stearoyl-CoA 9-desaturase) inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 1.14.19.1 inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>EC 1.14.19.1 inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>SCD inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>SCD inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>acyl-CoA desaturase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>acyl-CoA desaturase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>delta(9)-desaturase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>delta(9)-desaturase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>fatty acid desaturase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>fatty acid desaturase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>stearoyl-CoA 9-desaturase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>stearoyl-CoA 9-desaturase inhibitors</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>stearoyl-CoA, hydrogen-donor:oxygen oxidoreductase inhibitor</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GOCHE_760800"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>stearoyl-CoA, hydrogen-donor:oxygen oxidoreductase inhibitors</owl:annotatedTarget>
         <oboInOwl:hasDbXref>chebi</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -136527,7 +136779,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GOCHE_83035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_76906"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GOCHE_76711"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
