@@ -582040,7 +582040,7 @@ id: GO:1905365
 name: obsolete regulation of intralumenal vesicle formation
 namespace: biological_process
 def: "OBSOLETE. Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
-comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted.
+comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted. There is no equivalent regulation term for the multivesicular body sorting pathway; existing annotations should be reviewed by curators.
 synonym: "regulation of endosome membrane budding" EXACT [GOC:TermGenie]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 is_obsolete: true
@@ -582052,7 +582052,7 @@ id: GO:1905366
 name: obsolete negative regulation of intralumenal vesicle formation
 namespace: biological_process
 def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
-comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted.
+comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted. There is no equivalent regulation term for the multivesicular body sorting pathway; existing annotations should be reviewed by curators.
 synonym: "down regulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "down regulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
 synonym: "down-regulation of endosome membrane budding" EXACT [GOC:TermGenie]
@@ -582072,7 +582072,7 @@ id: GO:1905367
 name: obsolete positive regulation of intralumenal vesicle formation
 namespace: biological_process
 def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
-comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted.
+comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted. There is no equivalent regulation term for the multivesicular body sorting pathway; existing annotations should be reviewed by curators.
 synonym: "activation of endosome membrane budding" NARROW [GOC:TermGenie]
 synonym: "activation of intralumenal vesicle formation" NARROW [GOC:TermGenie]
 synonym: "positive regulation of endosome membrane budding" EXACT [GOC:TermGenie]
