@@ -188841,28 +188841,31 @@ is_obsolete: true
 id: GO:0032509
 name: endosome transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from endosomes to lysosomes or vacuoles by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the target compartment." [GOC:mah, PMID:12461556, PMID:16689637]
+def: "A vesicle-mediated transport process in which ubiquitylated transmembrane proteins are sorted from endosomes into intralumenal vesicles of multivesicular bodies (MVBs), which then fuse with lysosomes or vacuoles, where the cargo proteins are degraded." [GOC:mah, PMID:12461556, PMID:16689637, PMID:17603537]
 synonym: "endosome transport via MVB sorting pathway" EXACT []
+synonym: "multivesicular body sorting pathway" EXACT []
 is_a: GO:0016197 ! endosomal transport
-is_a: GO:0071985 ! multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0032510
 name: endosome to lysosome transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from endosomes to lysosomes by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the lysosome." [GOC:mah, PMID:12461556, PMID:16689637]
+def: "A vesicle-mediated transport process in which ubiquitylated transmembrane proteins are sorted from endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with lysosomes, where the cargo proteins are degraded." [GOC:mah, PMID:12461556, PMID:16689637]
 synonym: "endosome to lysosome transport via MVB sorting pathway" EXACT []
 is_a: GO:0008333 ! endosome to lysosome transport
 is_a: GO:0032509 ! endosome transport via multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0032511
 name: late endosome to vacuole transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from endosomes to vacuoles by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the vacuole." [GOC:mah, PMID:12461556, PMID:16689637]
+def: "A vesicle-mediated transport process in which ubiquitylated transmembrane proteins are sorted from late endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with the vacuole, where the cargo proteins are degraded." [GOC:mah, PMID:12461556, PMID:16689637]
 synonym: "endosome to vacuole transport via MVB sorting pathway" EXACT []
 is_a: GO:0032509 ! endosome transport via multivesicular body sorting pathway
 is_a: GO:0045324 ! late endosome to vacuole transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0032515
@@ -211843,7 +211846,7 @@ def: "The controlled breakdown of the membranes of multivesicular bodies." [GOC:
 synonym: "MVB membrane disassembly" EXACT []
 intersection_of: GO:0022411 ! cellular component disassembly
 intersection_of: results_in_disassembly_of GO:0032585 ! multivesicular body membrane
-relationship: part_of GO:0036257 ! multivesicular body organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0034497
@@ -230987,27 +230990,29 @@ creation_date: 2012-06-15T01:08:00Z
 
 [Term]
 id: GO:0036257
-name: multivesicular body organization
+name: obsolete multivesicular body organization
 namespace: biological_process
-def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881]
+def: "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881]
+comment: The reason for obsoletion is that multivesicular body organization does not occur independently of vesicle-mediated transport; annotations should be made to the relevant transport pathway, such as endosome transport via multivesicular body sorting pathway.
 synonym: "MVB organization" EXACT [GOC:bf]
-is_a: GO:0007032 ! endosome organization
-intersection_of: GO:0016043 ! cellular component organization
-intersection_of: results_in_organization_of GO:0005771 ! multivesicular body
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+consider: GO:0032509
 created_by: bf
 creation_date: 2012-06-15T01:09:53Z
 
 [Term]
 id: GO:0036258
-name: multivesicular body assembly
+name: obsolete multivesicular body assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881, PMID:19571114]
+def: "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881, PMID:19571114]
+comment: The reason for obsoletion is that multivesicular body assembly does not occur independently of the multivesicular body sorting pathway; annotations should be made to the relevant transport pathway, such as endosome transport via multivesicular body sorting pathway.
 synonym: "multivesicular body biogenesis" EXACT [PMID:19571114]
 synonym: "MVB biogenesis" EXACT [PMID:19571114]
 synonym: "MVB formation" EXACT [PMID:19571114]
-is_a: GO:0070925 ! organelle assembly
-intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0005771 ! multivesicular body
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+consider: GO:0032509
 created_by: bf
 creation_date: 2012-06-15T01:12:24Z
 
@@ -251845,7 +251850,8 @@ synonym: "ubiquitin-dependent protein catabolism via the MVB pathway" EXACT []
 synonym: "ubiquitin-dependent protein degradation via the multivesicular body pathway" EXACT []
 is_a: GO:0006511 ! ubiquitin-dependent protein catabolic process
 relationship: has_part GO:0007039 ! protein catabolic process in the vacuole
-relationship: has_part GO:0071985 ! multivesicular body sorting pathway
+relationship: has_part GO:0032509 ! endosome transport via multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0043163
@@ -372833,9 +372839,10 @@ creation_date: 2016-04-15T07:12:40Z
 id: GO:0061764
 name: late endosome to lysosome transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from late endosomes to lysosomes by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the lysosome." [GOC:dph]
+def: "A vesicle-mediated transport process in which ubiquitylated transmembrane proteins are sorted from late endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with lysosomes, where the cargo proteins are degraded." [GOC:dph]
 is_a: GO:0032510 ! endosome to lysosome transport via multivesicular body sorting pathway
 is_a: GO:1902774 ! late endosome to lysosome transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 created_by: dph
 creation_date: 2016-04-19T09:29:57Z
 
@@ -384826,15 +384833,14 @@ creation_date: 2009-05-29T01:12:55Z
 
 [Term]
 id: GO:0070676
-name: intralumenal vesicle formation
+name: obsolete intralumenal vesicle formation
 namespace: biological_process
-def: "The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." [GOC:jp, PMID:19234443]
+def: "OBSOLETE. The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." [GOC:jp, PMID:19234443]
+comment: The reason for obsoletion is that intralumenal vesicle formation is a step shared by several pathways rather than a specific process; annotations should be made to the relevant pathway, such as endosome transport via multivesicular body sorting pathway.
 synonym: "endosome membrane budding" EXACT [GOC:jp, GOC:mah]
-is_a: GO:0006900 ! vesicle budding from membrane
-relationship: occurs_in GO:0010008 ! endosome membrane
-relationship: part_of GO:0036258 ! multivesicular body assembly
-relationship: results_in_organization_of GO:0005770 ! late endosome
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+consider: GO:0032509
 created_by: mah
 creation_date: 2009-05-29T02:02:30Z
 
@@ -399973,13 +399979,13 @@ creation_date: 2010-10-21T04:49:28Z
 
 [Term]
 id: GO:0071985
-name: multivesicular body sorting pathway
+name: obsolete multivesicular body sorting pathway
 namespace: biological_process
-def: "A vesicle-mediated transport process in which transmembrane proteins are ubiquitylated to facilitate their entry into luminal vesicles of multivesicular bodies (MVBs); upon subsequent fusion of MVBs with lysosomes or vacuoles, the cargo proteins are degraded." [GOC:mah, PMID:17603537]
-is_a: GO:0006810 ! transport
-is_a: GO:0016192 ! vesicle-mediated transport
-relationship: has_part GO:0070676 ! intralumenal vesicle formation
+def: "OBSOLETE. A vesicle-mediated transport process in which transmembrane proteins are ubiquitylated to facilitate their entry into luminal vesicles of multivesicular bodies (MVBs); upon subsequent fusion of MVBs with lysosomes or vacuoles, the cargo proteins are degraded." [GOC:mah, PMID:17603537]
+comment: The reason for obsoletion is that this term is equivalent to endosome transport via multivesicular body sorting pathway.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032509
 created_by: mah
 creation_date: 2010-10-22T12:04:16Z
 
@@ -582028,20 +582034,22 @@ creation_date: 2016-08-16T11:40:36Z
 
 [Term]
 id: GO:1905365
-name: regulation of intralumenal vesicle formation
+name: obsolete regulation of intralumenal vesicle formation
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted.
 synonym: "regulation of endosome membrane budding" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0070676 ! intralumenal vesicle formation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
 created_by: bc
 creation_date: 2016-08-16T12:00:01Z
 
 [Term]
 id: GO:1905366
-name: negative regulation of intralumenal vesicle formation
+name: obsolete negative regulation of intralumenal vesicle formation
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted.
 synonym: "down regulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "down regulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
 synonym: "down-regulation of endosome membrane budding" EXACT [GOC:TermGenie]
@@ -582051,17 +582059,17 @@ synonym: "downregulation of intralumenal vesicle formation" EXACT [GOC:TermGenie
 synonym: "inhibition of endosome membrane budding" NARROW [GOC:TermGenie]
 synonym: "inhibition of intralumenal vesicle formation" NARROW [GOC:TermGenie]
 synonym: "negative regulation of endosome membrane budding" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0070676 ! intralumenal vesicle formation
-relationship: negatively_regulates GO:0006810 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
 created_by: bc
 creation_date: 2016-08-16T12:00:09Z
 
 [Term]
 id: GO:1905367
-name: positive regulation of intralumenal vesicle formation
+name: obsolete positive regulation of intralumenal vesicle formation
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+comment: The reason for obsoletion is that the regulated process, intralumenal vesicle formation, has been obsoleted.
 synonym: "activation of endosome membrane budding" NARROW [GOC:TermGenie]
 synonym: "activation of intralumenal vesicle formation" NARROW [GOC:TermGenie]
 synonym: "positive regulation of endosome membrane budding" EXACT [GOC:TermGenie]
@@ -582071,9 +582079,8 @@ synonym: "up-regulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "up-regulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
 synonym: "upregulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "upregulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0070676 ! intralumenal vesicle formation
-relationship: positively_regulates GO:0006810 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
 created_by: bc
 creation_date: 2016-08-16T12:00:16Z
 
@@ -600198,8 +600205,9 @@ synonym: "Vta1-Vps4 complex" RELATED []
 is_a: GO:0036452 ! ESCRT complex
 relationship: capable_of GO:0005524 ! ATP binding
 relationship: capable_of GO:0016887 ! ATP hydrolysis activity
-relationship: capable_of_part_of GO:0070676 ! intralumenal vesicle formation
 relationship: part_of GO:0010008 ! endosome membrane
+relationship: capable_of_part_of GO:0032509 ! endosome transport via multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 created_by: pr
 creation_date: 2015-01-29T10:02:30Z
 
