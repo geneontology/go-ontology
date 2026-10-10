@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-09/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-10/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-09" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-10" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -298,6 +298,18 @@
 - [2-oxoadipate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0160166) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32557"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [2-oxoadipate dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0160166) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [30795](http://rdf.rhea-db.org/30795) 
+
+
+### 2-polyprenyl-6-hydroxyphenol methylase activity `http://purl.obolibrary.org/obo/GO_0102208`
+#### Removed
+- [2-polyprenyl-6-hydroxyphenol methylase activity](http://purl.obolibrary.org/obo/GO_0102208) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 3-(all-trans-polyprenyl)benzene-1,2-diol + S-adenosyl-L-methionine = a 2-methoxy-6-(all-trans-polyprenyl)phenol + H+ + S-adenosyl-L-homocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31411" 
+
+#### Added
+- [2-polyprenyl-6-hydroxyphenol methylase activity](http://purl.obolibrary.org/obo/GO_0102208) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 3-(all-trans-polyprenyl)benzene-1,2-diol + S-adenosyl-L-methionine = a 2-methoxy-6-(all-trans-polyprenyl)phenol + H+ + S-adenosyl-L-homocysteine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31411" 
 
 
 ### 3'-phosphoadenosine 5'-phosphosulfate phosphatase activity `http://purl.obolibrary.org/obo/GO_7770125`
@@ -804,7 +816,9 @@
 #### Added
 - [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-allose to D-fructose 6-phosphate." 
+- [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of D-allose to D-fructose 6-phosphate, which may be further catabolized by entering glycolysis." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-44" 
 
 
@@ -830,6 +844,34 @@
 - [D-amino-acid N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0047812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87255](http://rdf.rhea-db.org/87255) 
 
 - [D-amino-acid N-acetyltransferase activity](http://purl.obolibrary.org/obo/GO_0047812) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87259](http://rdf.rhea-db.org/87259) 
+
+
+### D-fructose catabolic process `http://purl.obolibrary.org/obo/GO_0006001`
+#### Removed
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of fructose, the ketohexose arabino-2-hexulose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose catabolic process" 
+
+#### Added
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8404" 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1314" 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "fructose catabolic process" 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8404](http://identifiers.org/metacyc.reaction/PWY-8404) 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY0-1314](http://identifiers.org/metacyc.reaction/PWY0-1314) 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of D-fructose to either D-fructose 6-phosphate or to dihydroxyacetone phosphate and D-glyceraldehyde 3-phosphate. These products may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-fructose catabolic process" 
 
 
 ### D-galactose catabolic process to D-galactonate `http://purl.obolibrary.org/obo/GO_0033498`
@@ -860,13 +902,15 @@
 - [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-D-galactose catabolic process via UDP-galactose, Leloir pathway" 
 
 #### Added
+- [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "D-galactose catabolic process via UDP-galactose, Leloir pathway" 
 
 - [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "beta-D-galactose catabolic process via UDP-galactose, Leloir pathway" 
 
 - [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-6317](http://identifiers.org/metacyc.reaction/PWY-6317) 
 
-- [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-galactose to D-glucose 6-phosphate via the intermediate D-glucose 1-phosphate, with UDP-D-glucose consumed and regenerated in the process (UDP-D-glucose is converted to UDP-D-galactose and back into UDP-D-glucose)." 
+- [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of D-galactose to D-glucose 6-phosphate via the intermediate D-glucose 1-phosphate, with UDP-D-glucose consumed and regenerated in the process (UDP-D-glucose is converted to UDP-D-galactose and back into UDP-D-glucose). D-glucose 6-phosphate may be further catabolized by entering glycolysis." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6317" 
 
 - [D-galactose catabolic process, Leloir pathway](http://purl.obolibrary.org/obo/GO_0033499) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-galactose catabolic process, Leloir pathway" 
@@ -892,10 +936,84 @@
 - [D-lactate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140170) SubClassOf [(2R)-2-hydroxycarboxylate dehydrogenase (FAD) activity](http://purl.obolibrary.org/obo/GO_0140174) 
 
 
+### D-mannitol catabolic process `http://purl.obolibrary.org/obo/GO_0019592`
+#### Removed
+- [D-mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of mannitol, the alditol derived from D-mannose by reduction of the aldehyde group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [D-mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [label](http://www.w3.org/2000/01/rdf-schema#label) "mannitol catabolic process" 
+
+#### Added
+- [D-mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mannitol catabolic process" 
+
+- [D-mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of D-mannitol to D-fructose 6-phosphate, which may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [D-mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-mannitol catabolic process" 
+
+
+### D-mannose catabolic process `http://purl.obolibrary.org/obo/GO_0019309`
+#### Removed
+- [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of mannose, the aldohexose manno-hexose, the C-2 epimer of glucose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) [label](http://www.w3.org/2000/01/rdf-schema#label) "mannose catabolic process" 
+
+#### Added
+- [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mannose catabolic process" 
+
+- [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of D-mannose to D-fructose 6-phosphate, which may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-mannose catabolic process" 
+
+
+### D-mannose to D-fructose-6-phosphate catabolic process `http://purl.obolibrary.org/obo/GO_0061611`
+#### Removed
+- [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways in which mannose, the aldohexose manno-hexose, is converted to fructose-6-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879010479" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0201090910" 
+
+- [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) [label](http://www.w3.org/2000/01/rdf-schema#label) "mannose to fructose-6-phosphate catabolic process" 
+
+#### Added
+- [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mannose to fructose-6-phosphate catabolic process" 
+
+- [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways in which D-mannose, the aldohexose manno-hexose, is converted to D-fructose-6-phosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879010479" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0201090910" 
+
+- [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) [label](http://www.w3.org/2000/01/rdf-schema#label) "D-mannose to D-fructose-6-phosphate catabolic process" 
+
+
 ### D-sorbitol biosynthetic process `http://purl.obolibrary.org/obo/GO_0006061`
 
 #### Added
 - [D-sorbitol biosynthetic process](http://purl.obolibrary.org/obo/GO_0006061) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32269"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### D-sorbitol catabolic process `http://purl.obolibrary.org/obo/GO_0006062`
+#### Removed
+- [D-sorbitol catabolic process](http://purl.obolibrary.org/obo/GO_0006062) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of sorbitol (D-glucitol), one of the ten stereoisomeric hexitols. It can be derived from glucose by reduction of the aldehyde group." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+#### Added
+- [D-sorbitol catabolic process](http://purl.obolibrary.org/obo/GO_0006062) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-sorbitol catabolic process](http://purl.obolibrary.org/obo/GO_0006062) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of D-sorbitol to D-fructose 6-phosphate, which may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
 ### D-xylose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0032866`
@@ -1380,14 +1498,14 @@
 #### Added
 - [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P302-PWY" 
 
 - [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [P302-PWY](http://identifiers.org/metacyc.reaction/P302-PWY) 
 
-- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-sorbose, the L-enantiomer of the ketohexose xylo-2-hexulose." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+- [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the conversion of L-sorbose to D-fructose 6-phosphate, which may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:P302-PWY" 
 
 
 ### MCM double hexamer assembly at replication origin `http://purl.obolibrary.org/obo/GO_0140530`
@@ -2511,6 +2629,16 @@
 - [ammonia assimilation cycle](http://purl.obolibrary.org/obo/GO_0019676) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
 
 
+### anaerobic glycerol catabolic process `http://purl.obolibrary.org/obo/GO_0019588`
+
+#### Added
+- [anaerobic glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019588) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [anaerobic glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019588) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6130" 
+
+- [anaerobic glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019588) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-6130](http://identifiers.org/metacyc.reaction/PWY-6130) 
+
+
 ### antennal development `http://purl.obolibrary.org/obo/GO_0007469`
 #### Removed
 - [antennal development](http://purl.obolibrary.org/obo/GO_0007469) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the antenna over time, from its formation to the mature structure. The antenna are the sensory structures on the head that are capable of detecting various environmental stimuli." 
@@ -2727,6 +2855,24 @@
 - [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### carotenoid-9',10'-cleaving dioxygenase activity `http://purl.obolibrary.org/obo/GO_0102076`
+#### Removed
+- [carotenoid-9',10'-cleaving dioxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: beta-carotene + O2 = 10'-apo-beta-carotenal + beta-ionone." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:pz" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.13.11.71" 
+
+- [carotenoid-9',10'-cleaving dioxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta,beta-carotene-9',10'-cleaving oxygenase activity" 
+
+#### Added
+- [carotenoid-9',10'-cleaving dioxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "beta,beta-carotene-9',10'-cleaving oxygenase activity" 
+
+- [carotenoid-9',10'-cleaving dioxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: all-trans-beta-carotene + O2 = all-trans-10'-apo-beta-carotenal + beta-ionone." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:26389" 
+
+- [carotenoid-9',10'-cleaving dioxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) [label](http://www.w3.org/2000/01/rdf-schema#label) "carotenoid-9',10'-cleaving dioxygenase activity" 
 
 
 ### cellular response to interleukin-5 `http://purl.obolibrary.org/obo/GO_7770103`
@@ -3465,16 +3611,6 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.1.3.11" 
 
 
-### fructose catabolic process `http://purl.obolibrary.org/obo/GO_0006001`
-
-#### Added
-- [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY0-1314" 
-
-- [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY0-1314](http://identifiers.org/metacyc.reaction/PWY0-1314) 
-
-
 ### fructose export from vacuole to cytosol `http://purl.obolibrary.org/obo/GO_1902334`
 #### Removed
 - [fructose export from vacuole to cytosol](http://purl.obolibrary.org/obo/GO_1902334) [label](http://www.w3.org/2000/01/rdf-schema#label) "fructose export from vacuole to cytoplasm" 
@@ -3743,6 +3879,34 @@
 - [glyceraldehyde oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0043795) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [30783](http://rdf.rhea-db.org/30783) 
 
 
+### glycerol catabolic process `http://purl.obolibrary.org/obo/GO_0019563`
+#### Removed
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYCEROL-DEG" 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of glycerol, 1,2,3-propanetriol, a sweet, hygroscopic, viscous liquid, widely distributed in nature as a constituent of many lipids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+#### Added
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-4261" 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-6131" 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8508" 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-4261](http://identifiers.org/metacyc.reaction/PWY-4261) 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-6131](http://identifiers.org/metacyc.reaction/PWY-6131) 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8508](http://identifiers.org/metacyc.reaction/PWY-8508) 
+
+- [glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019563) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of glycerol. The breakdown products may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
 ### glycine N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047961`
 
 #### Added
@@ -3773,15 +3937,52 @@
 
 ### glycolysis `http://purl.obolibrary.org/obo/GO_0006096`
 #### Removed
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLYCOLYSIS-VARIANTS" 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [GLYCOLYSIS-VARIANTS](http://identifiers.org/metacyc.reaction/GLYCOLYSIS-VARIANTS) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of a carbohydrate into pyruvate, with the concomitant production of a small amount of ATP and the reduction of NAD(P) to NAD(P)H. Glycolysis begins with the metabolism of a carbohydrate to generate products that can enter the pathway and ends with the production of pyruvate. Pyruvate may be converted to acetyl-coenzyme A, ethanol, lactate, or other small molecules." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879010479" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0201090910" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716720094" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Glycolysis" 
+
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "glycolysis" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycolytic process" 
 
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [carbohydrate catabolic process](http://purl.obolibrary.org/obo/GO_0016052) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [pyridine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0019364) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [ADP catabolic process](http://purl.obolibrary.org/obo/GO_0046032) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [ATP metabolic process](http://purl.obolibrary.org/obo/GO_0046034) 
+
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [obsolete nicotinamide nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0046496) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [phosphoglycerate kinase activity](http://purl.obolibrary.org/obo/GO_0004618) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [phosphoglycerate mutase activity](http://purl.obolibrary.org/obo/GO_0004619) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [phosphopyruvate hydratase activity](http://purl.obolibrary.org/obo/GO_0004634) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [pyruvate kinase activity](http://purl.obolibrary.org/obo/GO_0004743) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [glyceraldehyde-3-phosphate dehydrogenase (phosphorylating, [NAD(P)+] ) activity](http://purl.obolibrary.org/obo/GO_0043891) 
 
 #### Added
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32471"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32607"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ANAGLYCOLYSIS-PWY" 
 
@@ -3790,8 +3991,6 @@
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-1042" 
 
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5484" 
-
-- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-8404" 
 
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "glycolytic process" 
 
@@ -3803,9 +4002,16 @@
 
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5484](http://identifiers.org/metacyc.reaction/PWY-5484) 
 
-- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-8404](http://identifiers.org/metacyc.reaction/PWY-8404) 
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-glucose into pyruvate, with the concomitant production of a small amount of ATP and reduced electron carriers, usually NADH. The pathway proceeds via phosphorylated hexose intermediates that are cleaved into two triose units, one of which is glycerone phosphate (dihydroxyacetone phosphate)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33397651" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Glycolysis" 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The 'has intermediate' glycerone phosphate clause in the logical definition is the discriminator against the Entner-Doudoroff pathway (GO:0061678)." 
 
 - [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycolysis" 
+
+- [glycolysis](http://purl.obolibrary.org/obo/GO_0006096) SubClassOf [glucose catabolic process](http://purl.obolibrary.org/obo/GO_0006007) 
 
 
 ### glyoxalase (glycolate-forming) activity `http://purl.obolibrary.org/obo/GO_1990422`
@@ -4832,10 +5038,18 @@
 #### Removed
 - [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of glycolytic process" 
 
+- [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) SubClassOf [negative regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033122) 
+
+- [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) SubClassOf [negative regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903579) 
+
 #### Added
 - [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of glycolytic process" 
 
 - [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of glycolysis" 
+
+- [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) SubClassOf [negative regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009895) 
+
+- [negative regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045820) SubClassOf [negative regulation of small molecule metabolic process](http://purl.obolibrary.org/obo/GO_0062014) 
 
 
 ### negative regulation of mitochondrial respiratory chain complex I assembly `http://purl.obolibrary.org/obo/GO_7770120`
@@ -5119,6 +5333,86 @@
 - [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same process as folate cycle ; GO:0035999." 
 
 - [obsolete 10-formyltetrahydrofolate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009257) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 10-formyltetrahydrofolate biosynthetic process" 
+
+
+### obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity `http://purl.obolibrary.org/obo/GO_0043898`
+#### Removed
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2,3-dihydroxybiphenyl + O2 = 2-hydroxy-6-phenylhexa-2,4-dienoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15715866" 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [label](http://www.w3.org/2000/01/rdf-schema#label) "2,3-dihydroxybiphenyl 1,2-dioxygenase activity" 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) SubClassOf [oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen](http://purl.obolibrary.org/obo/GO_0016702) 
+
+#### Added
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [biphenyl-2,3-diol 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0018583) 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2,3-dihydroxybiphenyl + O2 = 2-hydroxy-6-phenylhexa-2,4-dienoic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15715866" 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a duplicate of biphenyl-2,3-diol = 2,3-dihydroxybiphenyl; GO:0018583." 
+
+- [obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0043898) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity" 
+
+
+### obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_1990888`
+#### Removed
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2-polyprenyl-6-hydroxyphenol + S-adenosyl-L-methionine = 2-polyprenyl-6-methoxyphenol + S-adenosyl-L-homocysteine + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10419476" 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [label](http://www.w3.org/2000/01/rdf-schema#label) "2-polyprenyl-6-hydroxyphenol O-methyltransferase activity" 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) SubClassOf [O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008171) 
+
+#### Added
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [2-polyprenyl-6-hydroxyphenol methylase activity](http://purl.obolibrary.org/obo/GO_0102208) 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2-polyprenyl-6-hydroxyphenol + S-adenosyl-L-methionine = 2-polyprenyl-6-methoxyphenol + S-adenosyl-L-homocysteine + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10419476" 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is a duplicate of 2-polyprenyl-6-hydroxyphenol methylase activity ; GO:0102208." 
+
+- [obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_1990888) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity" 
+
+
+### obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity `http://purl.obolibrary.org/obo/GO_0052791`
+#### Removed
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2-keto-3-deoxynononic acid)n + H2O = (2-keto-3-deoxynononic acid)n-1 + 2-keto-3-deoxynononic acid. This reaction is the hydrolysis of a 2-keto-3-deoxynononic acid residue from a poly-2-keto-3-deoxynononic acid chain." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21247893" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity" 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) SubClassOf [alpha-sialidase activity](http://purl.obolibrary.org/obo/GO_0016997) 
+
+#### Added
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exo-alpha-sialidase activity](http://purl.obolibrary.org/obo/GO_0004308) 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: (2-keto-3-deoxynononic acid)n + H2O = (2-keto-3-deoxynononic acid)n-1 + 2-keto-3-deoxynononic acid. This reaction is the hydrolysis of a 2-keto-3-deoxynononic acid residue from a poly-2-keto-3-deoxynononic acid chain." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21247893" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it does not correponds to reactions defined in RHEA or EC." 
+
+- [obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity](http://purl.obolibrary.org/obo/GO_0052791) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity" 
 
 
 ### obsolete 4-chlorobenzoate dehalogenase activity `http://purl.obolibrary.org/obo/GO_0047576`
@@ -5764,6 +6058,30 @@
 - [obsolete astral microtubule anchoring at mitotic spindle pole body](http://purl.obolibrary.org/obo/GO_1990734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function." 
 
 - [obsolete astral microtubule anchoring at mitotic spindle pole body](http://purl.obolibrary.org/obo/GO_1990734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete astral microtubule anchoring at mitotic spindle pole body" 
+
+
+### obsolete beta,beta-carotene-9',10'-dioxygenase activity `http://purl.obolibrary.org/obo/GO_0050541`
+#### Removed
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: beta-carotene + O2 = beta-apo-10'-carotenal + beta-ionone." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11278918" 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta,beta-carotene-9',10'-dioxygenase activity" 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) SubClassOf [oxidoreductase activity, acting on the CH-CH group of donors, oxygen as acceptor](http://purl.obolibrary.org/obo/GO_0016634) 
+
+#### Added
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [carotenoid-9',10'-cleaving dioxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: beta-carotene + O2 = beta-apo-10'-carotenal + beta-ionone." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11278918" 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents the same reaction as beta,beta-carotene-9',10'-cleaving oxygenase activity ; GO:0102076." 
+
+- [obsolete beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete beta,beta-carotene-9',10'-dioxygenase activity" 
 
 
 ### obsolete beta-D-galactofuranose catabolic process `http://purl.obolibrary.org/obo/GO_1901357`
@@ -6515,7 +6833,7 @@
 
 - [obsolete glycolytic process from fructose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061616) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycolytic process from fructose through fructose-6-phosphate" 
 
-- [obsolete glycolytic process from fructose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061616) SubClassOf [fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) 
+- [obsolete glycolytic process from fructose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061616) SubClassOf [D-fructose catabolic process](http://purl.obolibrary.org/obo/GO_0006001) 
 
 - [obsolete glycolytic process from fructose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061616) SubClassOf [obsolete glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061615) 
 
@@ -6583,11 +6901,11 @@
 
 - [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) [label](http://www.w3.org/2000/01/rdf-schema#label) "glycolytic process from mannose through fructose-6-phosphate" 
 
-- [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) SubClassOf [mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) 
+- [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) SubClassOf [D-mannose catabolic process](http://purl.obolibrary.org/obo/GO_0019309) 
 
 - [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) SubClassOf [obsolete glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061615) 
 
-- [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [mannose to fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) 
+- [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [D-mannose to D-fructose-6-phosphate catabolic process](http://purl.obolibrary.org/obo/GO_0061611) 
 
 #### Added
 - [obsolete glycolytic process from mannose through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_0061619) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32471"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -10822,10 +11140,20 @@
 #### Removed
 - [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of glycolytic process" 
 
+- [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) SubClassOf [positive regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033123) 
+
+- [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) SubClassOf [positive regulation of carbohydrate metabolic process](http://purl.obolibrary.org/obo/GO_0045913) 
+
+- [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) SubClassOf [positive regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903580) 
+
 #### Added
 - [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of glycolytic process" 
 
 - [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of glycolysis" 
+
+- [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) SubClassOf [positive regulation of catabolic process](http://purl.obolibrary.org/obo/GO_0009896) 
+
+- [positive regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0045821) SubClassOf [positive regulation of glucose metabolic process](http://purl.obolibrary.org/obo/GO_0010907) 
 
 
 ### positive regulation of mitochondrial translation `http://purl.obolibrary.org/obo/GO_0070131`
@@ -11479,12 +11807,18 @@
 #### Removed
 - [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of glycolytic process" 
 
+- [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) SubClassOf [regulation of purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0033121) 
+
+- [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) SubClassOf [regulation of ATP metabolic process](http://purl.obolibrary.org/obo/GO_1903578) 
+
 #### Added
 - [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32471"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of glycolytic process" 
 
 - [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of glycolysis" 
+
+- [regulation of glycolysis](http://purl.obolibrary.org/obo/GO_0006110) SubClassOf [regulation of glucose metabolic process](http://purl.obolibrary.org/obo/GO_0010906) 
 
 
 ### regulation of mitochondrial respiratory chain complex I assembly `http://purl.obolibrary.org/obo/GO_7770119`
@@ -12047,12 +12381,52 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23890380" 
 
 
+### starch catabolic process `http://purl.obolibrary.org/obo/GO_0005983`
+#### Removed
+- [starch catabolic process](http://purl.obolibrary.org/obo/GO_0005983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of starch, the most important reserve polysaccharide in plants." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [starch catabolic process](http://purl.obolibrary.org/obo/GO_0005983) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [starch catabolic process](http://purl.obolibrary.org/obo/GO_0005983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of starch, the most important reserve polysaccharide in plants. The breakdown products may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
 ### subtelomeric heterochromatin formation `http://purl.obolibrary.org/obo/GO_0031509`
 #### Removed
 - [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [chromosome, telomeric region](http://purl.obolibrary.org/obo/GO_0000781) 
 
 #### Added
 - [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32403"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### sucrose catabolic process `http://purl.obolibrary.org/obo/GO_0005987`
+#### Removed
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of sucrose, the disaccharide fructofuranosyl-glucopyranoside." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+#### Added
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-3801" 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-5384" 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY66-373" 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:SUCROSEUTIL2-PWY" 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-3801](http://identifiers.org/metacyc.reaction/PWY-3801) 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-5384](http://identifiers.org/metacyc.reaction/PWY-5384) 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY66-373](http://identifiers.org/metacyc.reaction/PWY66-373) 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [SUCROSEUTIL2-PWY](http://identifiers.org/metacyc.reaction/SUCROSEUTIL2-PWY) 
+
+- [sucrose catabolic process](http://purl.obolibrary.org/obo/GO_0005987) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of sucrose. The breakdown products may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
 ### sulfate assimilation `http://purl.obolibrary.org/obo/GO_0000103`
@@ -12228,6 +12602,38 @@
 
 #### Added
 - [tRNA(Val) (adenine(37)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770054) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
+### tRNA-guanine(15) transglycosylase activity `http://purl.obolibrary.org/obo/GO_0043867`
+#### Removed
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: tRNA guanine + 7-cyano-7-deazaguanine = tRNA 7-cyano-7-deazaguanine + guanine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7748953" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16407303" 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [label](http://www.w3.org/2000/01/rdf-schema#label) "7-cyano-7-deazaguanine tRNA-ribosyltransferase activity" 
+
+#### Added
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.48" 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43164" 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "7-cyano-7-deazaguanine tRNA-ribosyltransferase activity" 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transfer ribonucleic acid guanine(15) transglycosylase" 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.4.2.48](http://purl.uniprot.org/enzyme/2.4.2.48) 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [43164](http://rdf.rhea-db.org/43164) 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: guanosine15 in tRNA + 7-cyano-7-carbaguanine = 7-cyano-7-carbaguanosine15 in tRNA + guanine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7748953" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43164" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16407303" 
+
+- [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA-guanine(15) transglycosylase activity" 
 
 
 ### terminal region determination `http://purl.obolibrary.org/obo/GO_0007362`
@@ -12406,6 +12812,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dgf" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+
+### trehalose catabolic process `http://purl.obolibrary.org/obo/GO_0005993`
+#### Removed
+- [trehalose catabolic process](http://purl.obolibrary.org/obo/GO_0005993) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of trehalose, a disaccharide that consists of two molecules of glucose and is isomeric with sucrose." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0028623819" 
+
+#### Added
+- [trehalose catabolic process](http://purl.obolibrary.org/obo/GO_0005993) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32720"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [trehalose catabolic process](http://purl.obolibrary.org/obo/GO_0005993) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of trehalose. The breakdown products may be further catabolized by entering glycolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
 
 
 ### tricetin O-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0102146`
