@@ -14926,6 +14926,13 @@ relationship: RO:0000057 CHEBI:50058
 relationship: RO:0000057 CHEBI:58243
 
 [Term]
+id: GO:0043867
+relationship: RO:0000057 CHEBI:16235
+relationship: RO:0000057 CHEBI:45075
+relationship: RO:0000057 CHEBI:74269
+relationship: RO:0000057 CHEBI:82850
+
+[Term]
 id: GO:0043870
 relationship: RO:0000057 CHEBI:15378
 relationship: RO:0000057 CHEBI:43474
