@@ -147441,6 +147441,10 @@ synonym: "mannose breakdown" EXACT []
 synonym: "mannose catabolic process" EXACT []
 synonym: "mannose catabolism" EXACT []
 synonym: "mannose degradation" EXACT []
+synonym: "mannose metabolism to fructose-6-phosphate" EXACT [GOC:dph]
+synonym: "mannose to fructose-6-phosphate catabolic process" EXACT []
+xref: MetaCyc:MANNCAT-PWY {source="skos:narrowMatch"}
+xref: MetaCyc:PWY3O-1743 {source="skos:narrowMatch"}
 intersection_of: GO:0009056 ! catabolic process
 intersection_of: has_primary_input CHEBI:4208 ! D-mannopyranose
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27107" xsd:anyURI
@@ -370966,21 +370970,17 @@ creation_date: 2014-04-03T13:26:21Z
 
 [Term]
 id: GO:0061611
-name: D-mannose to D-fructose-6-phosphate catabolic process
+name: obsolete mannose to fructose-6-phosphate catabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways in which D-mannose, the aldohexose manno-hexose, is converted to D-fructose-6-phosphate." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
+def: "OBSOLETE. The chemical reactions and pathways in which D-mannose, the aldohexose manno-hexose, is converted to D-fructose-6-phosphate." [GOC:dph, ISBN:0201090910, ISBN:0879010479]
+comment: The reason for obsoletion is that this term represents the same biological process as GO:0019309.
 synonym: "mannose metabolism to fructose-6-phosphate" EXACT [GOC:dph]
 synonym: "mannose to fructose-6-phosphate catabolic process" EXACT []
-xref: MetaCyc:MANNCAT-PWY {source="skos:narrowMatch"}
-xref: MetaCyc:PWY3O-1743 {source="skos:narrowMatch"}
-intersection_of: GO:0009056 ! catabolic process
-intersection_of: ends_with GO:0004476 ! mannose-6-phosphate isomerase activity
-intersection_of: has_primary_input CHEBI:4208 ! D-mannopyranose
-intersection_of: has_primary_output CHEBI:57579 ! D-fructose 6-phosphate(2-)
-intersection_of: starts_with GO:0019158 ! mannokinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27638" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28527" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32720" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0019309
 created_by: dph
 creation_date: 2014-04-03T13:38:50Z
 
