@@ -373818,10 +373818,10 @@ name: DNA clamp unloader activity
 namespace: molecular_function
 def: "Facilitating the opening of the ring structure of the PCNA complex, or any of the related sliding clamp complexes, and their removal from the DNA duplex, driven by ATP hydrolysis." [GOC:vw, PMID:23499004]
 synonym: "DNA clamp unloading activity" EXACT []
-is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
+is_a: GO:0140083 ! ATP-dependent protein-DNA unloader activity
 relationship: has_part GO:0003677 ! DNA binding
-relationship: has_part GO:0016887 ! ATP hydrolysis activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23400" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 created_by: dph
 creation_date: 2017-04-03T11:49:46Z
 
@@ -375043,10 +375043,9 @@ name: ATP-dependent protein-DNA complex displacement activity
 namespace: molecular_function
 alt_id: GO:0061994
 def: "An activity that displaces proteins or protein complexes from DNA, sometimes in a 'wire stripping' fashion, driven by ATP hydrolysis." [PMID:18593879]
-synonym: "ATP-dependent protein-nucleic acid complex displacement activity" NARROW []
-is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
 is_a: GO:0140083 ! ATP-dependent protein-DNA unloader activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21612" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 created_by: dph
 creation_date: 2018-02-16T15:46:47Z
 
@@ -472383,11 +472382,12 @@ creation_date: 2021-06-24T11:31:45Z
 id: GO:0140670
 name: cohesin unloader activity
 namespace: molecular_function
-def: "Facilitating a conformational change to unload a cohesin complex from sister chromatids." [PMID:26687354]
+def: "Facilitating a conformational change to unload a cohesin complex from sister chromatids." [PMID:23361318, PMID:26687354]
 synonym: "cohesin unloading activity" EXACT []
-is_a: GO:0140097 ! catalytic activity, acting on DNA
+is_a: GO:0140776 ! protein-containing complex destabilizing activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21700" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23400" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 created_by: pg
 creation_date: 2021-06-24T13:36:05Z
 
