@@ -61342,9 +61342,7 @@ def: "OBSOLETE. (Was not defined before being made obsolete)." [GOC:ai]
 comment: This term was made obsolete because it represents a molecular function rather than a biological process.
 synonym: "dihydrobiopterin reduction" EXACT []
 is_obsolete: true
-consider: GO:0022900
 consider: GO:0047040
-consider: GO:0051066
 
 [Term]
 id: GO:0006135
@@ -61355,8 +61353,6 @@ comment: This term was made obsolete because it represents a molecular function 
 synonym: "dihydropteridine reduction" EXACT []
 is_obsolete: true
 consider: GO:0004155
-consider: GO:0022900
-consider: GO:0051067
 
 [Term]
 id: GO:0006139
