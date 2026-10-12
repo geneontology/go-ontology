@@ -61342,9 +61342,7 @@ def: "OBSOLETE. (Was not defined before being made obsolete)." [GOC:ai]
 comment: This term was made obsolete because it represents a molecular function rather than a biological process.
 synonym: "dihydrobiopterin reduction" EXACT []
 is_obsolete: true
-consider: GO:0022900
 consider: GO:0047040
-consider: GO:0051066
 
 [Term]
 id: GO:0006135
@@ -61355,8 +61353,6 @@ comment: This term was made obsolete because it represents a molecular function 
 synonym: "dihydropteridine reduction" EXACT []
 is_obsolete: true
 consider: GO:0004155
-consider: GO:0022900
-consider: GO:0051067
 
 [Term]
 id: GO:0006139
@@ -67879,14 +67875,21 @@ intersection_of: has_primary_output CHEBI:27601 ! pteridine
 id: GO:0006729
 name: tetrahydrobiopterin biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [ISBN:0198506732]
+def: "The chemical reactions and pathways resulting in the formation of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine), specifically the (6R)-L-erythro isomer, also known as sapropterin. It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [PMID:21867484, PMID:37237903]
 synonym: "5,6,7,8-tetrahydrobiopterin biosynthetic process" EXACT []
 synonym: "tetrahydrobiopterin anabolism" EXACT []
 synonym: "tetrahydrobiopterin biosynthesis" EXACT []
 synonym: "tetrahydrobiopterin formation" EXACT []
 synonym: "tetrahydrobiopterin synthesis" EXACT []
+synonym: "tetrahydropteridine recycling" NARROW []
+synonym: "tetrahydropteridine salvage" NARROW []
+xref: MetaCyc:PWY-5663 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY-6983 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY-8099 {source="skos:narrowMatch"}
+is_a: neverin:4896
 intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:15372 ! 5,6,7,8-tetrahydrobiopterin
+intersection_of: has_primary_output CHEBI:59560 ! sapropterin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
 
 [Term]
 id: GO:0006730
@@ -282765,26 +282768,28 @@ is_obsolete: true
 
 [Term]
 id: GO:0046146
-name: tetrahydrobiopterin metabolic process
+name: obsolete tetrahydrobiopterin metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [PMID:21871890]
+def: "OBSOLETE. The chemical reactions and pathways involving tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [PMID:21871890]
+comment: This term was obsoleted because it is an unnecessary grouping term.
 synonym: "5,6,7,8-tetrahydrobiopterin metabolic process" EXACT [GOC:curators]
 synonym: "tetrahydrobiopterin metabolism" EXACT []
-is_a: neverin:4896
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:15372 ! 5,6,7,8-tetrahydrobiopterin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
+is_obsolete: true
+consider: GO:0006729
 
 [Term]
 id: GO:0046147
-name: tetrahydrobiopterin catabolic process
+name: obsolete tetrahydrobiopterin catabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the breakdown of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [ISBN:0198506732]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [ISBN:0198506732]
+comment: This term was obsoleted because there is no evidence that there is a specific pathway for tetrahydrobiopterin degradation.
 synonym: "5,6,7,8-tetrahydrobiopterin catabolic process" EXACT [Wikipedia:Tetrahydrobiopterin]
 synonym: "tetrahydrobiopterin breakdown" EXACT []
 synonym: "tetrahydrobiopterin catabolism" EXACT []
 synonym: "tetrahydrobiopterin degradation" EXACT []
-intersection_of: GO:0009056 ! catabolic process
-intersection_of: has_primary_input CHEBI:15372 ! 5,6,7,8-tetrahydrobiopterin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0046148
@@ -331305,27 +331310,31 @@ replaced_by: GO:0008998
 
 [Term]
 id: GO:0051066
-name: dihydrobiopterin metabolic process
+name: obsolete dihydrobiopterin metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving a dihydrobiopterin, a reduced pteridine derivative related to folic acid; it acts as an electron carrier in tyrosine biosynthesis and its quinoid form is produced by oxidation of tetrahydrobiopterin in several biological hydroxylation reactions." [PMID:2557335]
+def: "OBSOLETE. The chemical reactions and pathways involving a dihydrobiopterin, a reduced pteridine derivative related to folic acid; it acts as an electron carrier in tyrosine biosynthesis and its quinoid form is produced by oxidation of tetrahydrobiopterin in several biological hydroxylation reactions." [PMID:2557335]
+comment: This term was obsoleted because it does not correspond to a specific pathway.
 synonym: "6,7-dihydrobiopterin metabolic process" NARROW [CHEBI:20680]
 synonym: "7,8-dihydrobiopterin metabolic process" NARROW [CHEBI:15375]
 synonym: "dihydrobiopterin reduction" NARROW []
 synonym: "dihydropterin metabolic process" EXACT [CHEBI:38797]
 synonym: "dihydropterin metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:38797 ! dihydropterin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
+is_obsolete: true
+consider: GO:0006729
 
 [Term]
 id: GO:0051067
-name: dihydropteridine metabolic process
+name: obsolete dihydropteridine metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving 6,7-dihydropteridine, a bicyclic compound with the formula C6H6N4." [PMID:2557335]
+def: "OBSOLETE. The chemical reactions and pathways involving 6,7-dihydropteridine, a bicyclic compound with the formula C6H6N4." [PMID:2557335]
+comment: This term was obsoleted because it does not correspond to a specific process.
 synonym: "6,7-dihydropteridine metabolic process" EXACT [PMID:19567870]
 synonym: "dihydropteridine metabolism" EXACT []
 synonym: "dihydropteridine reduction" NARROW []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:30156 ! 6,7-dihydropteridine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
+is_obsolete: true
+consider: GO:0006729
 
 [Term]
 id: GO:0051068
@@ -372935,8 +372944,8 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21700" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23400" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32677" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32677" xsd:anyURI
 created_by: dph
 creation_date: 2016-07-13T12:54:43Z
 
