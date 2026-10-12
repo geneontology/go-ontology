@@ -89048,7 +89048,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0008967
 name: phosphoglycolate phosphatase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 2-phosphoglycolate + H2O = glycolate + phosphate." [EC:3.1.3.18, RHEA:14369]
+def: "Catalysis of the reaction: 2-phosphoglycolate + H2O = glycolate + phosphate." [RHEA:14369]
 synonym: "2-phosphoglycolate phosphatase activity" RELATED [EC:3.1.3.18]
 synonym: "2-phosphoglycolate phosphohydrolase activity" RELATED [EC:3.1.3.18]
 synonym: "P-glycolate phosphatase activity" RELATED [EC:3.1.3.18]
@@ -470717,6 +470717,17 @@ intersection_of: regulates_in_another_organism GO:0035249 ! synaptic transmissio
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32711" xsd:anyURI
 created_by: pg
 creation_date: 2026-10-08T17:32:42Z
+
+[Term]
+id: GO:0140519
+name: phospholactate phosphatase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: (2S)-2-phospholactate + H2O = (S)-lactate + phosphate." [PMID:27294321, RHEA:86559]
+xref: RHEA:86559 {source="skos:exactMatch"}
+is_a: GO:0016791 ! phosphatase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31119" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-12T05:48:51Z
 
 [Term]
 id: GO:0140522
