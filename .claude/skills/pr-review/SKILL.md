@@ -105,11 +105,10 @@ search open go-ontology issues and PRs by the bare number (a quoted
 `"GO:1234567"` is rejected as invalid search syntax):
 
 ```bash
-gh search issues --repo geneontology/go-ontology --state open 1234567 --json number,title
-gh search prs    --repo geneontology/go-ontology --state open 1234567 --json number,title
+gh search issues --repo geneontology/go-ontology --state open --include-prs 1234567 --json number,title,isPullRequest
 ```
 
-Flag as IMPORTANT any target with an open obsoletion request or a conflicting
+Ignore the PR under review and the issue(s) it closes. Flag as IMPORTANT any target with an open obsoletion request or a conflicting
 open change. Passing mentions need no comment. List the searches in Coverage.
 
 ## Severity

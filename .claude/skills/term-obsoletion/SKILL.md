@@ -126,11 +126,10 @@ The ontology file only shows the current state. A replacement that looks fine in
 Search for the bare number; a quoted `"GO:1234567"` is rejected as invalid search syntax:
 
 ```bash
-gh search issues --repo geneontology/go-ontology --state open 1234567 --json number,title
-gh search prs    --repo geneontology/go-ontology --state open 1234567 --json number,title
+gh search issues --repo geneontology/go-ontology --state open --include-prs 1234567 --json number,title,isPullRequest
 ```
 
-Many hits are passing mentions. The ones that matter are open obsoletion requests, and open PRs or tickets that change the term's definition or placement. Report what you find on the ticket. If a target is under discussion, do not use it; choose another target or coordinate on that ticket first.
+Ignore the ticket you are working on and any PR implementing it. Many other hits are passing mentions. The ones that matter are open obsoletion requests, and open PRs or tickets that change the term's definition or placement. Report what you find on the ticket. If a target is under discussion, do not use it; choose another target or coordinate on that ticket first.
 
 Example: in #31770, `consider:` GO:0097734 (extracellular exosome biogenesis) was proposed while #32713 was proposing to obsolete that term; the replacement became GO:1990182 (exosomal secretion). See #32741.
 

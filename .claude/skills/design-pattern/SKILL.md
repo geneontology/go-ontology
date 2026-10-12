@@ -74,7 +74,7 @@ intersection_of: R D
 
 ## General guidelines
 
-Before using a term as a parent or in a logical definition, check it is not proposed for obsoletion or redefinition in an open ticket: `gh search issues --repo geneontology/go-ontology --state open <number without GO:>`.
+Before using a term as a parent or in a logical definition, check it is not proposed for obsoletion or redefinition in an open ticket or PR: `gh search issues --repo geneontology/go-ontology --state open --include-prs <number without GO:>`.
 
 You should not add logical definitions unless the term truly corresponds to a DP (or if a user really wants you to). A common anti-pattern is over-specifying logical definition (intersection_of), not realizing these are necessary *and sufficient* conditions. If in doubt, it is better to specify necessary only (is_a and intersection_of).
 
