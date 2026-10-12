@@ -230993,12 +230993,11 @@ id: GO:0036257
 name: obsolete multivesicular body organization
 namespace: biological_process
 def: "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881]
-comment: The reason for obsoletion is that multivesicular body organization does not occur independently of the transport pathways it serves; annotations should be made to the relevant pathway, such as endosome transport via multivesicular body sorting pathway or extracellular exosome biogenesis.
+comment: The reason for obsoletion is that multivesicular body organization does not occur independently of the multivesicular body sorting pathway; annotations should be made to the relevant transport pathway, such as endosome transport via multivesicular body sorting pathway.
 synonym: "MVB organization" EXACT [GOC:bf]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 is_obsolete: true
 consider: GO:0032509
-consider: GO:0097734
 created_by: bf
 creation_date: 2012-06-15T01:09:53Z
 
@@ -231007,14 +231006,13 @@ id: GO:0036258
 name: obsolete multivesicular body assembly
 namespace: biological_process
 def: "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881, PMID:19571114]
-comment: The reason for obsoletion is that multivesicular body assembly does not occur independently of the transport pathways it serves; annotations should be made to the relevant pathway, such as endosome transport via multivesicular body sorting pathway or extracellular exosome biogenesis.
+comment: The reason for obsoletion is that multivesicular body assembly does not occur independently of the multivesicular body sorting pathway; annotations should be made to the relevant transport pathway, such as endosome transport via multivesicular body sorting pathway.
 synonym: "multivesicular body biogenesis" EXACT [PMID:19571114]
 synonym: "MVB biogenesis" EXACT [PMID:19571114]
 synonym: "MVB formation" EXACT [PMID:19571114]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 is_obsolete: true
 consider: GO:0032509
-consider: GO:0097734
 created_by: bf
 creation_date: 2012-06-15T01:12:24Z
 
@@ -384838,12 +384836,12 @@ id: GO:0070676
 name: obsolete intralumenal vesicle formation
 namespace: biological_process
 def: "OBSOLETE. The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." [GOC:jp, PMID:19234443]
-comment: The reason for obsoletion is that intralumenal vesicle formation is a step shared by several pathways rather than a specific process; annotations should be made to the relevant pathway, such as endosome transport via multivesicular body sorting pathway or extracellular exosome biogenesis.
+comment: The reason for obsoletion is that intralumenal vesicle formation is a step shared by several pathways rather than a specific process; annotations should be made to the relevant pathway, such as endosome transport via multivesicular body sorting pathway or exosomal secretion.
 synonym: "endosome membrane budding" EXACT [GOC:jp, GOC:mah]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 is_obsolete: true
 consider: GO:0032509
-consider: GO:0097734
+consider: GO:1990182
 created_by: mah
 creation_date: 2009-05-29T02:02:30Z
 
