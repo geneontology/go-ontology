@@ -325305,7 +325305,7 @@ id: GO:0050541
 name: obsolete beta,beta-carotene-9',10'-dioxygenase activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: beta-carotene + O2 = beta-apo-10'-carotenal + beta-ionone." [PMID:11278918]
-comment: This term was obsoleted because it represents the same reaction as beta,beta-carotene-9',10'-cleaving oxygenase activity ; GO:0102076.
+comment: This term was obsoleted because it represents the same reaction as carotenoid-9',10'-cleaving dioxygenase activity ; GO:0102076.
 synonym: "b,b-carotene-9',10'-dioxygenase activity" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
 is_obsolete: true
@@ -350203,7 +350203,7 @@ id: GO:0052791
 name: obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: (2-keto-3-deoxynononic acid)n + H2O = (2-keto-3-deoxynononic acid)n-1 + 2-keto-3-deoxynononic acid. This reaction is the hydrolysis of a 2-keto-3-deoxynononic acid residue from a poly-2-keto-3-deoxynononic acid chain." [GOC:mengo_curators, PMID:21247893]
-comment: This term was obsoleted because it does not correponds to reactions defined in RHEA or EC.
+comment: This term was obsoleted because it does not correspond to any reaction from RHEA or EC.
 synonym: "2-keto-3-deoxynononic acid sialidase activity" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
 is_obsolete: true
@@ -443998,7 +443998,7 @@ xref: RHEA:44592 {source="skos:narrowMatch"}
 xref: RHEA:44608 {source="skos:narrowMatch"}
 xref: RHEA:44612 {source="skos:narrowMatch"}
 xref: RHEA:50224 {source="skos:narrowMatch"}
-is_a: GO:0008168 ! methyltransferase activity
+is_a: GO:0008171 ! O-methyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28942" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
