@@ -77909,7 +77909,7 @@ id: GO:0008094
 name: ATP-dependent activity, acting on DNA
 namespace: molecular_function
 alt_id: GO:0004011
-def: "An ATP-dependent activity that acts on DNA, for example by translocating along it, unwinding it, remodelling its packaging into chromatin, or loading or removing proteins bound to it." [GOC:pdt]
+def: "An ATP-dependent activity that acts on DNA, for example by translocating along it, unwinding it, remodelling its packaging into chromatin, or loading or removing proteins bound to it." [GOC:curators]
 synonym: "adenosinetriphosphatase (DNA-dependent)" EXACT []
 synonym: "ATPase activity, acting on DNA" EXACT []
 synonym: "ATPase, acting on DNA" EXACT []
@@ -79096,7 +79096,7 @@ id: GO:0008186
 name: ATP-dependent activity, acting on RNA
 namespace: molecular_function
 alt_id: GO:0004010
-def: "An ATP-dependent activity that acts on RNA, for example by translocating along it, unwinding it, or removing proteins bound to it." [GOC:jl]
+def: "An ATP-dependent activity that acts on RNA, for example by translocating along it, unwinding it, or removing proteins bound to it." [GOC:curators]
 synonym: "ATPase activity, acting on RNA" EXACT []
 synonym: "ATPase, acting on RNA" EXACT []
 synonym: "RNA-dependent adenosinetriphosphatase activity" EXACT []
