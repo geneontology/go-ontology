@@ -271991,7 +271991,7 @@ synonym: "acetoin anabolism" EXACT []
 synonym: "acetoin biosynthesis" EXACT []
 synonym: "acetoin formation" EXACT []
 synonym: "acetoin synthesis" EXACT []
-xref: MetaCyc:PWY30-335 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY3O-335 {source="skos:narrowMatch"}
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:15688 ! acetoin
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32260" xsd:anyURI
@@ -485520,11 +485520,11 @@ namespace: biological_process
 def: "The anaerobic chemical reactions and pathways resulting in the breakdown of pyruvate into acetoin, which is excreted as a fermentation end product." [PMID:17558661, PMID:34957872]
 synonym: "acetoin fermentation" RELATED []
 synonym: "glycolytic fermentation to acetoin" RELATED []
-synonym: "pyruvate fermentation to 3-hydroxybutan-2-one" RELATED []
+synonym: "pyruvate fermentation to 3-hydroxybutan-2-one" EXACT []
 xref: MetaCyc:PWY-5938 {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-5939 {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-6389 {source="skos:narrowMatch"}
-xref: MetaCyc:PWY30-440 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY3O-440 {source="skos:narrowMatch"}
 is_a: GO:0045151 ! acetoin biosynthetic process
 intersection_of: GO:0019660 ! pyruvate fermentation
 intersection_of: has_primary_output CHEBI:15688 ! acetoin
