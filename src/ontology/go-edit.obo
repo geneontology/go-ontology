@@ -81514,17 +81514,25 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0008413
-name: 8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity
+name: 8-oxo-(d)GTP phosphatase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 8-oxo-7,8-dihydroguanosine triphosphate (8-oxo-GTP) + H2O = 8-oxo-7,8-dihydroguanosine diphosphate (8-oxo-GDP) + phosphate. 8-oxo-7,8-dihydroguanosine triphosphate (8-oxo-GTP) is the oxidised form of the free guanine nucleotide and can act as a potent mutagenic substrate for transcription." [PMID:15878881, RHEA:60032]
-synonym: "7,8-dihydro-8-oxoguanine-triphosphatase activity" EXACT []
-synonym: "8-oxo-7,8-dihydroguanine triphosphatase activity" EXACT []
-synonym: "8-oxo-7,8-dihydroguanosine triphosphatase activity" EXACT []
+def: "Catalysis of the reaction: 8-oxo-(d)GTP + H2O = 8-oxo-(d)GDP + phosphate + H+. 8-oxo-(d)GTP, the oxidised form of the free guanine (deoxy)ribonucleotide, can be misincorporated into RNA or DNA; removal of a single phosphate prevents this." [EC:3.6.1.69, RHEA:59980, RHEA:60032]
+comment: Note that this term describes removal of the terminal (gamma) phosphate only. For hydrolysis of 8-oxo-(d)GTP to 8-oxo-(d)GMP and diphosphate, as catalyzed by MutT and MTH1/NUDT1, consider instead annotating to 'GO:0035539 8-oxo-(d)GTP diphosphatase activity'.
+synonym: "7,8-dihydro-8-oxoguanine-triphosphatase activity" RELATED []
+synonym: "8-oxo-(d)GTPase activity" RELATED []
+synonym: "8-oxo-7,8-dihydro(deoxy)guanosine triphosphate phosphatase activity" EXACT []
+synonym: "8-oxo-7,8-dihydroguanine triphosphatase activity" RELATED []
+synonym: "8-oxo-7,8-dihydroguanosine triphosphatase activity" RELATED []
+synonym: "8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity" RELATED []
+synonym: "8-oxo-dGTP phosphatase activity" NARROW []
+synonym: "8-oxo-GTP phosphatase activity" NARROW []
 xref: EC:3.6.1.69 {source="skos:exactMatch"}
-xref: RHEA:60032 {source="skos:exactMatch"}
-is_a: GO:0047429 ! nucleoside triphosphate diphosphatase activity
+xref: RHEA:59980 {source="skos:narrowMatch"}
+xref: RHEA:60032 {source="skos:narrowMatch"}
+is_a: GO:0017111 ! ribonucleoside triphosphate phosphatase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32698" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32708" xsd:anyURI
 
 [Term]
 id: GO:0008414
@@ -222128,20 +222136,28 @@ creation_date: 2010-05-07T10:48:30Z
 
 [Term]
 id: GO:0035539
-name: 8-oxo-7,8-dihydrodeoxyguanosine triphosphate diphosphatase activity
+name: 8-oxo-(d)GTP diphosphatase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 8-oxo-dGTP + H2O = 8-oxo-dGMP + diphosphate + H+. 8-oxo-dGTP is the oxidised form of the free guanine nucleotide and can act as a potent mutagenic substrate for DNA synthesis causing transversion mutations. 8-oxo-dGTPase hydrolyses 8-oxo-dGTP to its monophosphate form to prevent the misincorporation of 8-oxo-dGTP into cellular DNA." [PMID:17804481, PMID:7782328, PMID:7859359, RHEA:31575]
-synonym: "8-oxo-7,8-dihydro-2'-deoxyguanosine 5'-triphosphate pyrophosphohydrolase activity" EXACT [PMID:17804481]
-synonym: "8-oxo-7,8-dihydro-deoxyguanosine triphosphate pyrophosphatase activity" EXACT [PMID:17804481]
-synonym: "8-oxo-7,8-dihydrodeoxyguanosine triphosphatase activity" EXACT [PMID:7782328]
-synonym: "8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity" EXACT []
-synonym: "8-oxo-dGTP pyrophosphohydrolase activity" EXACT [PMID:17804481]
-synonym: "8-oxo-dGTPase activity" EXACT [PMID:7782328]
-xref: EC:3.6.1.55 {source="skos:exactMatch"}
-xref: RHEA:31575 {source="skos:exactMatch"}
-is_a: GO:0047429 ! nucleoside triphosphate diphosphatase activity
+def: "Catalysis of the reaction: 8-oxo-(d)GTP + H2O = 8-oxo-(d)GMP + diphosphate + H+. 8-oxo-(d)GTP, the oxidised form of the free guanine (deoxy)ribonucleotide, can be misincorporated into DNA, where it causes transversion mutations, or into RNA. Hydrolysis to the monophosphate form prevents this misincorporation." [PMID:15878881, PMID:17804481, PMID:7782328, PMID:7859359, RHEA:31575, RHEA:67616]
+comment: Note that this term describes hydrolysis between the alpha and beta phosphates, releasing diphosphate. For removal of the terminal phosphate only, yielding 8-oxo-(d)GDP, consider instead annotating to 'GO:0008413 8-oxo-(d)GTP phosphatase activity'.
+synonym: "8-oxo-(d)GTP pyrophosphatase activity" EXACT []
+synonym: "8-oxo-7,8-dihydro(deoxy)guanosine triphosphate diphosphatase activity" EXACT []
+synonym: "8-oxo-7,8-dihydro-2'-deoxyguanosine 5'-triphosphate pyrophosphohydrolase activity" NARROW [PMID:17804481]
+synonym: "8-oxo-7,8-dihydro-deoxyguanosine triphosphate pyrophosphatase activity" NARROW [PMID:17804481]
+synonym: "8-oxo-7,8-dihydrodeoxyguanosine triphosphatase activity" NARROW [PMID:7782328]
+synonym: "8-oxo-7,8-dihydrodeoxyguanosine triphosphate diphosphatase activity" NARROW []
+synonym: "8-oxo-7,8-dihydrodeoxyguanosine triphosphate pyrophosphatase activity" NARROW []
+synonym: "8-oxo-dGTP diphosphatase activity" NARROW [EC:3.6.1.55]
+synonym: "8-oxo-dGTP pyrophosphohydrolase activity" NARROW [PMID:17804481]
+synonym: "8-oxo-dGTPase activity" NARROW [PMID:7782328]
+synonym: "8-oxo-GTP diphosphatase activity" NARROW []
+xref: EC:3.6.1.55 {source="skos:narrowMatch"}
+xref: RHEA:31575 {source="skos:narrowMatch"}
+xref: RHEA:67616 {source="skos:narrowMatch"}
+is_a: GO:0106379 ! 8-oxo-(d)RTP hydrolase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32698" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32708" xsd:anyURI
 created_by: bf
 creation_date: 2010-05-07T10:54:19Z
 
