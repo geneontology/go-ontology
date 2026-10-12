@@ -30260,10 +30260,10 @@ synonym: "PCNA loading activity" NARROW []
 synonym: "PCNA loading complex activity" NARROW []
 synonym: "protein-DNA loading ATPase activity" RELATED []
 xref: RHEA:13065 {source="skos:broadMatch"}
-is_a: GO:0140097 ! catalytic activity, acting on DNA
+is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
 relationship: has_part GO:0003677 ! DNA binding
-relationship: has_part GO:0016887 ! ATP hydrolysis activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 
 [Term]
 id: GO:0003690
@@ -118614,9 +118614,9 @@ namespace: molecular_function
 def: "Generation of movement along a single- or double-stranded DNA molecule, driven by ATP hydrolysis." [GOC:mah, PMID:16428451, PMID:17631491]
 comment: Note that some gene products that possess DNA translocase activity, such as members of the FtsK/SpoIIIE family, can be fixed in place by interactions with other components of the cell; the relative movement between the protein and DNA bound to it results in movement of the DNA within the cell, often across a membrane.
 is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
-is_a: GO:0140097 ! catalytic activity, acting on DNA
 relationship: has_part GO:0003677 ! DNA binding
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21612" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 
 [Term]
 id: GO:0015617
@@ -372926,7 +372926,7 @@ creation_date: 2016-07-13T12:40:25Z
 id: GO:0061775
 name: cohesin loader activity
 namespace: molecular_function
-def: "Facilitating a conformational change to load a cohesin complex around sister chromatids by binding to the ATPase heads of the cohesin complex and stimulating their activity." [GOC:vw, PMID:26687354]
+def: "Facilitating a conformational change to load a cohesin complex around DNA by binding to the ATPase heads of the cohesin complex and stimulating their activity." [GOC:vw, PMID:24291789, PMID:26687354, PMID:29932904]
 synonym: "cohesin loading activity" EXACT []
 is_a: GO:0001671 ! ATPase activator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14205" xsd:anyURI
@@ -372934,6 +372934,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23400" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32677" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 created_by: dph
 creation_date: 2016-07-13T12:54:43Z
 
@@ -472382,7 +472383,7 @@ creation_date: 2021-06-24T11:31:45Z
 id: GO:0140670
 name: cohesin unloader activity
 namespace: molecular_function
-def: "Facilitating a conformational change to unload a cohesin complex from sister chromatids." [PMID:23361318, PMID:26687354]
+def: "Binding to a cohesin complex and promoting dissociation of the N-terminus of its kleisin subunit (Scc1/RAD21) from Smc3, thereby opening the ring and releasing it from DNA." [PMID:23361318, PMID:26687354]
 synonym: "cohesin unloading activity" EXACT []
 is_a: GO:0140776 ! protein-containing complex destabilizing activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21700" xsd:anyURI
@@ -621623,10 +621624,10 @@ synonym: "MCM helicase loader activity" EXACT []
 synonym: "MCM loading activity" EXACT []
 synonym: "MCM2-7 loader activity" EXACT []
 xref: RHEA:13065 {source="skos:broadMatch"}
-is_a: GO:0140097 ! catalytic activity, acting on DNA
+is_a: GO:0008094 ! ATP-dependent activity, acting on DNA
 relationship: has_part GO:0003677 ! DNA binding
-relationship: has_part GO:0016887 ! ATP hydrolysis activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32181" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-09-16T17:04:20Z
 
