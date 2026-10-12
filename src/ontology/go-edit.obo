@@ -394630,9 +394630,12 @@ creation_date: 2010-01-07T03:49:33Z
 id: GO:0071528
 name: tRNA re-export from nucleus
 namespace: biological_process
-def: "The directed movement from the nucleus to the cytosol of a tRNA that was previously exported to the cytosol and then imported back into the nucleus. The processes of primary tRNA export and secondary export (re-export) can be distinguished because in organisms in which tRNA splicing occurs in the cytosol, the export of a mature tRNA must occur by re-export." [GOC:mcc, PMID:17475781, PMID:20032305]
+def: "The directed movement of a tRNA from the nucleus to the cytosol, where the tRNA had previously been exported from the nucleus and then imported back into the nucleus by retrograde transport." [GOC:mcc, PMID:20032305, PMID:29191733]
+comment: Re-export is the third tRNA nucleocytoplasmic transport step, after primary nuclear export and retrograde import into the nucleus (GO:0035719). In organisms such as Saccharomyces cerevisiae and Schizosaccharomyces pombe, pre-tRNA splicing takes place on the cytoplasmic surface of the mitochondrial outer membrane (PMID:12925762, PMID:17352735, PMID:30228203), so a spliced tRNA found in the nucleus has returned by retrograde import, and its export is re-export. In vertebrates, pre-tRNA splicing is nuclear (PMID:29191733).
+synonym: "tRNA nuclear re-export" EXACT [PMID:29191733]
 synonym: "tRNA reexport from nucleus" EXACT [GOC:mcc]
 is_a: GO:0006409 ! tRNA export from nucleus
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32685" xsd:anyURI
 created_by: mah
 creation_date: 2010-01-07T04:17:05Z
 
