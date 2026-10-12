@@ -469718,13 +469718,14 @@ creation_date: 2026-05-28T07:29:34Z
 
 [Term]
 id: GO:0140437
-name: venom-mediated disruption of chemical synaptic transmission
+name: venom-mediated perturbation of chemical synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission in another organism via the action of a venom." [PMID:12507705, PMID:16549768, PMID:19481459, PMID:26048991, PMID:26221036]
 is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
-intersection_of: negatively_regulates_in_another_organism GO:0007268 ! chemical synaptic transmission
+intersection_of: regulates_in_another_organism GO:0007268 ! chemical synaptic transmission
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32712" xsd:anyURI
 created_by: pg
 creation_date: 2026-06-12T11:38:03Z
 
@@ -469911,7 +469912,6 @@ id: GO:0140452
 name: venom-mediated perturbation of cholinergic synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission mediated by the neurotransmitter acetylcholine in another organism via the action of a venom." [PMID:11091135, PMID:28623170, PMID:34204855]
-is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
 intersection_of: regulates_in_another_organism GO:0007271 ! synaptic transmission, cholinergic
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
@@ -470057,13 +470057,13 @@ creation_date: 2020-05-13T05:13:24Z
 
 [Term]
 id: GO:0140465
-name: venom-mediated disruption of neuromuscular synaptic transmission
+name: venom-mediated perturbation of neuromuscular synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission at the neuromuscular junction in another organism via the action of a venom." [PMID:11091135, PMID:28623170, PMID:34204855]
-is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
-intersection_of: negatively_regulates_in_another_organism GO:0007274 ! neuromuscular synaptic transmission
+intersection_of: regulates_in_another_organism GO:0007274 ! neuromuscular synaptic transmission
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32712" xsd:anyURI
 created_by: pg
 creation_date: 2026-06-12T11:38:48Z
 
@@ -470711,7 +470711,6 @@ id: GO:0140518
 name: venom-mediated perturbation of glutamatergic synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission mediated by the neurotransmitter glutamate in another organism via the action of a venom." [PMID:10604979, PMID:10953056]
-is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
 intersection_of: regulates_in_another_organism GO:0035249 ! synaptic transmission, glutamatergic
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32711" xsd:anyURI
