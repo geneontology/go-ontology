@@ -24910,9 +24910,9 @@ namespace: biological_process
 def: "The chemical reactions and pathways involved in the biosynthesis of archaeosine, an archaea-specific modified base found at position 15 in the D-loop of certain archaeal tRNAs." [PMID:20129918]
 comment: Archaeosine (7-formamidino-7-deazaguanosine) is a structural variant of the hypermodified nucleoside 7-deazaguanosine. The biosynthesis pathway starts with archaeosine tRNA-guanine transglycosylase (ArcTGT) which catalyzes the exchange of guanine at position 15 in the D-loop of archaeal tRNAs with a free 7-cyano-7-deazaguanine.
 intersection_of: GO:0006400 ! tRNA modification
-intersection_of: has_primary_output CHEBI:74418 ! N(6)-L-threonylcarbamoyladenine 5'-monophosphate(2-) residue
+intersection_of: has_primary_output CHEBI:138803 ! archaeosine 5'-phosphate zwitterionic residue
 relationship: has_part GO:0002948 ! archaeosine synthase activity
-relationship: has_part GO:0043867 ! 7-cyano-7-deazaguanine tRNA-ribosyltransferase activity
+relationship: has_part GO:0043867 ! tRNA-guanine(15) transglycosylase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27059" xsd:anyURI
 created_by: hjd
 creation_date: 2012-01-18T03:06:27Z
@@ -89048,7 +89048,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0008967
 name: phosphoglycolate phosphatase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 2-phosphoglycolate + H2O = glycolate + phosphate." [EC:3.1.3.18, RHEA:14369]
+def: "Catalysis of the reaction: 2-phosphoglycolate + H2O = glycolate + phosphate." [RHEA:14369]
 synonym: "2-phosphoglycolate phosphatase activity" RELATED [EC:3.1.3.18]
 synonym: "2-phosphoglycolate phosphohydrolase activity" RELATED [EC:3.1.3.18]
 synonym: "P-glycolate phosphatase activity" RELATED [EC:3.1.3.18]
@@ -259461,12 +259461,16 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0043867
-name: 7-cyano-7-deazaguanine tRNA-ribosyltransferase activity
+name: tRNA-guanine(15) transglycosylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: tRNA guanine + 7-cyano-7-deazaguanine = tRNA 7-cyano-7-deazaguanine + guanine." [PMID:16407303, PMID:7748953]
+def: "Catalysis of the reaction: guanosine15 in tRNA + 7-cyano-7-carbaguanine = 7-cyano-7-carbaguanosine15 in tRNA + guanine." [PMID:16407303, PMID:7748953, RHEA:43164]
+synonym: "7-cyano-7-deazaguanine tRNA-ribosyltransferase activity" EXACT []
 synonym: "archaeal tRNA-guanine transglycosylase activity" EXACT []
 synonym: "archaeosine tRNA-ribosyltransferase activity" EXACT []
 synonym: "TgtA" RELATED []
+synonym: "transfer ribonucleic acid guanine(15) transglycosylase" EXACT []
+xref: EC:2.4.2.48 {source="skos:exactMatch"}
+xref: RHEA:43164 {source="skos:exactMatch"}
 is_a: GO:0016763 ! pentosyltransferase activity
 is_a: GO:0140101 ! catalytic activity, acting on a tRNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30124" xsd:anyURI
@@ -259918,12 +259922,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0043898
-name: 2,3-dihydroxybiphenyl 1,2-dioxygenase activity
+name: obsolete 2,3-dihydroxybiphenyl 1,2-dioxygenase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 2,3-dihydroxybiphenyl + O2 = 2-hydroxy-6-phenylhexa-2,4-dienoic acid." [GOC:jl, PMID:15715866]
+def: "OBSOLETE. Catalysis of the reaction: 2,3-dihydroxybiphenyl + O2 = 2-hydroxy-6-phenylhexa-2,4-dienoic acid." [GOC:jl, PMID:15715866]
+comment: This term was obsoleted because it is a duplicate of biphenyl-2,3-diol = 2,3-dihydroxybiphenyl; GO:0018583.
 synonym: "2,3-dihydroxybiphenyl-1,2-dioxygenase activity" EXACT []
 synonym: "BphC" RELATED []
-is_a: GO:0016702 ! oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0018583
 
 [Term]
 id: GO:0043899
@@ -325299,11 +325306,14 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0050541
-name: beta,beta-carotene-9',10'-dioxygenase activity
+name: obsolete beta,beta-carotene-9',10'-dioxygenase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: beta-carotene + O2 = beta-apo-10'-carotenal + beta-ionone." [PMID:11278918]
+def: "OBSOLETE. Catalysis of the reaction: beta-carotene + O2 = beta-apo-10'-carotenal + beta-ionone." [PMID:11278918]
+comment: This term was obsoleted because it represents the same reaction as carotenoid-9',10'-cleaving dioxygenase activity ; GO:0102076.
 synonym: "b,b-carotene-9',10'-dioxygenase activity" EXACT []
-is_a: GO:0016634 ! oxidoreductase activity, acting on the CH-CH group of donors, oxygen as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0102076
 
 [Term]
 id: GO:0050542
@@ -350194,11 +350204,14 @@ creation_date: 2011-10-04T03:48:35Z
 
 [Term]
 id: GO:0052791
-name: 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity
+name: obsolete 3-deoxy-D-glycero-D-galacto-2-nonulosonic acid hydrolase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: (2-keto-3-deoxynononic acid)n + H2O = (2-keto-3-deoxynononic acid)n-1 + 2-keto-3-deoxynononic acid. This reaction is the hydrolysis of a 2-keto-3-deoxynononic acid residue from a poly-2-keto-3-deoxynononic acid chain." [GOC:mengo_curators, PMID:21247893]
+def: "OBSOLETE. Catalysis of the reaction: (2-keto-3-deoxynononic acid)n + H2O = (2-keto-3-deoxynononic acid)n-1 + 2-keto-3-deoxynononic acid. This reaction is the hydrolysis of a 2-keto-3-deoxynononic acid residue from a poly-2-keto-3-deoxynononic acid chain." [GOC:mengo_curators, PMID:21247893]
+comment: This term was obsoleted because it does not correspond to any reaction from RHEA or EC.
 synonym: "2-keto-3-deoxynononic acid sialidase activity" EXACT []
-is_a: GO:0016997 ! alpha-sialidase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0004308
 created_by: ai
 creation_date: 2011-10-04T04:53:49Z
 
@@ -442761,9 +442774,10 @@ replaced_by: GO:0004300
 
 [Term]
 id: GO:0102076
-name: beta,beta-carotene-9',10'-cleaving oxygenase activity
+name: carotenoid-9',10'-cleaving dioxygenase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: beta-carotene + O2 = 10'-apo-beta-carotenal + beta-ionone." [EC:1.13.11.71, GOC:pz]
+def: "Catalysis of the reaction: all-trans-beta-carotene + O2 = all-trans-10'-apo-beta-carotenal + beta-ionone." [RHEA:26389]
+synonym: "beta,beta-carotene-9',10'-cleaving oxygenase activity" EXACT []
 xref: EC:1.13.11.71 {source="skos:exactMatch"}
 xref: MetaCyc:RXN-10741
 xref: RHEA:26389 {source="skos:exactMatch"}
@@ -443975,7 +443989,7 @@ replaced_by: GO:0140692
 id: GO:0102208
 name: 2-polyprenyl-6-hydroxyphenol methylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: a 3-(all-trans-polyprenyl)benzene-1,2-diol + S-adenosyl-L-methionine = a 2-methoxy-6-(all-trans-polyprenyl)phenol + H+ + S-adenosyl-L-homocysteine." [GOC:pz, RHEA:31411]
+def: "Catalysis of the reaction: a 3-(all-trans-polyprenyl)benzene-1,2-diol + S-adenosyl-L-methionine = a 2-methoxy-6-(all-trans-polyprenyl)phenol + H+ + S-adenosyl-L-homocysteine." [RHEA:31411]
 xref: EC:2.1.1.222 {source="skos:exactMatch"}
 xref: MetaCyc:RXN-12160
 xref: RHEA:27770 {source="skos:narrowMatch"}
@@ -443984,7 +443998,7 @@ xref: RHEA:44592 {source="skos:narrowMatch"}
 xref: RHEA:44608 {source="skos:narrowMatch"}
 xref: RHEA:44612 {source="skos:narrowMatch"}
 xref: RHEA:50224 {source="skos:narrowMatch"}
-is_a: GO:0008168 ! methyltransferase activity
+is_a: GO:0008171 ! O-methyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28942" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -469704,13 +469718,14 @@ creation_date: 2026-05-28T07:29:34Z
 
 [Term]
 id: GO:0140437
-name: venom-mediated disruption of chemical synaptic transmission
+name: venom-mediated perturbation of chemical synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission in another organism via the action of a venom." [PMID:12507705, PMID:16549768, PMID:19481459, PMID:26048991, PMID:26221036]
 is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
-intersection_of: negatively_regulates_in_another_organism GO:0007268 ! chemical synaptic transmission
+intersection_of: regulates_in_another_organism GO:0007268 ! chemical synaptic transmission
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32712" xsd:anyURI
 created_by: pg
 creation_date: 2026-06-12T11:38:03Z
 
@@ -469897,7 +469912,6 @@ id: GO:0140452
 name: venom-mediated perturbation of cholinergic synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission mediated by the neurotransmitter acetylcholine in another organism via the action of a venom." [PMID:11091135, PMID:28623170, PMID:34204855]
-is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
 intersection_of: regulates_in_another_organism GO:0007271 ! synaptic transmission, cholinergic
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
@@ -470043,13 +470057,13 @@ creation_date: 2020-05-13T05:13:24Z
 
 [Term]
 id: GO:0140465
-name: venom-mediated disruption of neuromuscular synaptic transmission
+name: venom-mediated perturbation of neuromuscular synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission at the neuromuscular junction in another organism via the action of a venom." [PMID:11091135, PMID:28623170, PMID:34204855]
-is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
-intersection_of: negatively_regulates_in_another_organism GO:0007274 ! neuromuscular synaptic transmission
+intersection_of: regulates_in_another_organism GO:0007274 ! neuromuscular synaptic transmission
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32712" xsd:anyURI
 created_by: pg
 creation_date: 2026-06-12T11:38:48Z
 
@@ -470697,12 +470711,22 @@ id: GO:0140518
 name: venom-mediated perturbation of glutamatergic synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission mediated by the neurotransmitter glutamate in another organism via the action of a venom." [PMID:10604979, PMID:10953056]
-is_a: GO:0044487 ! venom-mediated perturbation of transmission of nerve impulse
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
 intersection_of: regulates_in_another_organism GO:0035249 ! synaptic transmission, glutamatergic
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32711" xsd:anyURI
 created_by: pg
 creation_date: 2026-10-08T17:32:42Z
+
+[Term]
+id: GO:0140519
+name: phospholactate phosphatase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: (2S)-2-phospholactate + H2O = (S)-lactate + phosphate." [PMID:27294321, RHEA:86559]
+xref: RHEA:86559 {source="skos:exactMatch"}
+is_a: GO:0016791 ! phosphatase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31119" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-12T05:48:51Z
 
 [Term]
 id: GO:0140522
@@ -603123,10 +603147,13 @@ creation_date: 2015-10-28T22:17:54Z
 
 [Term]
 id: GO:1990888
-name: 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity
+name: obsolete 2-polyprenyl-6-hydroxyphenol O-methyltransferase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 2-polyprenyl-6-hydroxyphenol + S-adenosyl-L-methionine = 2-polyprenyl-6-methoxyphenol + S-adenosyl-L-homocysteine + H+." [PMID:10419476]
-is_a: GO:0008171 ! O-methyltransferase activity
+def: "OBSOLETE. Catalysis of the reaction: 2-polyprenyl-6-hydroxyphenol + S-adenosyl-L-methionine = 2-polyprenyl-6-methoxyphenol + S-adenosyl-L-homocysteine + H+." [PMID:10419476]
+comment: This term was obsoleted because it is a duplicate of 2-polyprenyl-6-hydroxyphenol methylase activity ; GO:0102208.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0102208
 created_by: sl
 creation_date: 2015-10-28T22:31:13Z
 
