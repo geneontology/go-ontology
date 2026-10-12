@@ -470061,7 +470061,7 @@ name: venom-mediated perturbation of neuromuscular synaptic transmission
 namespace: biological_process
 def: "A process in which an organism alters or subverts the synaptic transmission at the neuromuscular junction in another organism via the action of a venom." [PMID:11091135, PMID:28623170, PMID:34204855]
 intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
-intersection_of: negatively_regulates_in_another_organism GO:0007274 ! neuromuscular synaptic transmission
+intersection_of: regulates_in_another_organism GO:0007274 ! neuromuscular synaptic transmission
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32180" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32712" xsd:anyURI
 created_by: pg
