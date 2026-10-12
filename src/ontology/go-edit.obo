@@ -282787,7 +282787,7 @@ id: GO:0046147
 name: obsolete tetrahydrobiopterin catabolic process
 namespace: biological_process
 def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [ISBN:0198506732]
-comment: This term was obsoleted because there is no evidence that there is a specific pathway for tetrahydrobiopterin degardation.
+comment: This term was obsoleted because there is no evidence that there is a specific pathway for tetrahydrobiopterin degradation.
 synonym: "5,6,7,8-tetrahydrobiopterin catabolic process" EXACT [Wikipedia:Tetrahydrobiopterin]
 synonym: "tetrahydrobiopterin breakdown" EXACT []
 synonym: "tetrahydrobiopterin catabolism" EXACT []
@@ -372948,8 +372948,8 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21700" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23400" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32677" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32677" xsd:anyURI
 created_by: dph
 creation_date: 2016-07-13T12:54:43Z
 
