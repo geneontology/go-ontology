@@ -77909,18 +77909,19 @@ id: GO:0008094
 name: ATP-dependent activity, acting on DNA
 namespace: molecular_function
 alt_id: GO:0004011
-def: "Catalytic activity that acts to modify DNA, driven by ATP hydrolysis." [GOC:pdt]
+def: "An ATP-dependent activity that acts on DNA, for example by translocating along it, unwinding it, remodelling its packaging into chromatin, or loading or removing proteins bound to it." [GOC:pdt]
 synonym: "adenosinetriphosphatase (DNA-dependent)" EXACT []
 synonym: "ATPase activity, acting on DNA" EXACT []
 synonym: "ATPase, acting on DNA" EXACT []
 synonym: "DNA dependent ATPase activity" EXACT []
 synonym: "DNA-dependent adenosinetriphosphatase activity" EXACT []
 synonym: "DNA-dependent ATPase activity" EXACT []
-intersection_of: GO:0140097 ! catalytic activity, acting on DNA
-intersection_of: has_part GO:0016887 ! ATP hydrolysis activity
+intersection_of: GO:0140657 ! ATP-dependent activity
+intersection_of: has_primary_input CHEBI:16991 ! deoxyribonucleic acid
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20876" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21612" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21775" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 
 [Term]
 id: GO:0008096
@@ -79095,7 +79096,7 @@ id: GO:0008186
 name: ATP-dependent activity, acting on RNA
 namespace: molecular_function
 alt_id: GO:0004010
-def: "Catalysis of the reaction: ATP + H2O = ADP + phosphate; this reaction requires the presence of RNA, and it drives another reaction." [GOC:jl]
+def: "An ATP-dependent activity that acts on RNA, for example by translocating along it, unwinding it, or removing proteins bound to it." [GOC:jl]
 synonym: "ATPase activity, acting on RNA" EXACT []
 synonym: "ATPase, acting on RNA" EXACT []
 synonym: "RNA-dependent adenosinetriphosphatase activity" EXACT []
@@ -79104,6 +79105,7 @@ intersection_of: GO:0140657 ! ATP-dependent activity
 intersection_of: has_primary_input CHEBI:33697 ! ribonucleic acid
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20876" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21775" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32667" xsd:anyURI
 
 [Term]
 id: GO:0008187
