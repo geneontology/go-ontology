@@ -67879,19 +67879,19 @@ intersection_of: has_primary_output CHEBI:27601 ! pteridine
 id: GO:0006729
 name: tetrahydrobiopterin biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [PMID:21867484, PMID:37237903]
+def: "The chemical reactions and pathways resulting in the formation of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine), aslso known as sapropterin. It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [PMID:21867484, PMID:37237903]
 synonym: "5,6,7,8-tetrahydrobiopterin biosynthetic process" EXACT []
 synonym: "tetrahydrobiopterin anabolism" EXACT []
 synonym: "tetrahydrobiopterin biosynthesis" EXACT []
 synonym: "tetrahydrobiopterin formation" EXACT []
 synonym: "tetrahydrobiopterin synthesis" EXACT []
-synonym: "tetrahydropteridine recylcing" EXACT []
-synonym: "tetrahydropteridine salvage" EXACT []
+synonym: "tetrahydropteridine recycling" NARROW []
+synonym: "tetrahydropteridine salvage" NARROW []
 xref: MetaCyc:PWY-5663 {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-6983 {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-8099 {source="skos:narrowMatch"}
 intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:15642 ! 4a-hydroxy-L-erythro-5,6,7,8-tetrahydrobiopterin
+intersection_of: has_primary_output CHEBI:59560 ! sapropterin
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
 
 [Term]
@@ -282772,7 +282772,7 @@ id: GO:0046146
 name: obsolete tetrahydrobiopterin metabolic process
 namespace: biological_process
 def: "OBSOLETE. The chemical reactions and pathways involving tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." [PMID:21871890]
-comment: This term was obsoleted because ot is an unnecessary grouoing term.
+comment: This term was obsoleted because it is an unnecessary grouoing term.
 synonym: "5,6,7,8-tetrahydrobiopterin metabolic process" EXACT [GOC:curators]
 synonym: "tetrahydrobiopterin metabolism" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32695" xsd:anyURI
@@ -621779,6 +621779,10 @@ relationship: positively_regulates_in_another_organism GO:0038060 ! nitric oxide
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32645" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-10-07T09:27:23Z
+
+[Term]
+id: neverin:4896
+equivalent_to: GO:0006729 ! tetrahydrobiopterin biosynthetic process
 
 [Typedef]
 id: acts_on_population_of
