@@ -621879,6 +621879,23 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-10-13T00:41:10Z
 
+[Term]
+id: GO:7770134
+name: 1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphocholine(out) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(in) = a 1,2-diacyl-sn-glycero-3-phosphocholine(in) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(out). This reaction results in the exchange of phosphatidylcholine (PC) for phosphatidylinositol (PI) between membranes." [PMID:17490911, PMID:20332109, PMID:4371468]
+synonym: "phosphatidylcholine:phosphatidylinositol exchange activity" EXACT []
+synonym: "phosphatidylinositol-phosphatidylcholine exchange activity" EXACT []
+synonym: "phosphatidylinositol:phosphatidylcholine exchange activity" EXACT []
+synonym: "PI/PC exchange activity" EXACT []
+synonym: "PtdIns/PtdCho exchange activity" EXACT []
+intersection_of: GO:7770011 ! lipid exchange activity
+intersection_of: has_primary_input CHEBI:57643 ! 1,2-diacyl-sn-glycero-3-phosphocholine
+intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32746" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-13T23:01:27Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
