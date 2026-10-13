@@ -621896,6 +621896,25 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-10-13T23:01:27Z
 
+[Term]
+id: GO:7770135
+name: 1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphate(out) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(in) = a 1,2-diacyl-sn-glycero-3-phosphate(in) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(out). This reaction results in the exchange of phosphatidic acid (PA) for phosphatidylinositol (PI) between membranes." [PMID:26028218, RHEA:86467]
+synonym: "1-phosphatidyl-1D-myo-inositol:1,2-diacyl-sn-glycerol 3-phosphate exchange activity" EXACT []
+synonym: "1-phosphatidyl-1D-myo-inositol:phosphatidate exchange activity" EXACT []
+synonym: "phosphatidic acid:phosphatidylinositol exchange activity" EXACT []
+synonym: "phosphatidylinositol-phosphatidic acid exchange activity" EXACT []
+synonym: "phosphatidylinositol:phosphatidic acid exchange activity" EXACT []
+synonym: "PI/PA exchange activity" EXACT []
+xref: RHEA:86467 {source="skos:exactMatch"}
+intersection_of: GO:7770011 ! lipid exchange activity
+intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
+intersection_of: has_primary_input CHEBI:58608 ! 1,2-diacyl-sn-glycerol 3-phosphate(2-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32745" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-13T23:35:37Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
