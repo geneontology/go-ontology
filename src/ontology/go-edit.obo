@@ -172516,7 +172516,7 @@ subset: goslim_pir
 is_a: GO:0032991 ! protein-containing complex
 intersection_of: GO:0032991 ! protein-containing complex
 intersection_of: capable_of_part_of GO:0042147 ! retrograde transport, endosome to Golgi
-relationship: capable_of_part_of GO:0032456 ! endocytic recycling
+relationship: capable_of_part_of GO:0032456 ! endosome to plasma membrane transport
 relationship: part_of GO:0012505 ! endomembrane system
 relationship: part_of GO:0016020 ! membrane
 
@@ -188262,10 +188262,12 @@ is_a: GO:0016486 ! peptide hormone processing
 
 [Term]
 id: GO:0032456
-name: endocytic recycling
+name: endosome to plasma membrane transport
 namespace: biological_process
 alt_id: GO:1990126
-def: "The directed movement of membrane-bounded vesicles from endosomes back to the plasma membrane, a trafficking pathway that promotes the recycling of internalized transmembrane proteins." [PMID:16473635, PMID:23563491]
+def: "The directed movement of substances in membrane-bounded vesicles from endosomes to the plasma membrane. This includes endocytic recycling, which returns internalized membrane proteins and lipids to the cell surface, and the delivery of newly synthesized cargo that passes through recycling endosomes en route from the Golgi apparatus to the plasma membrane." [PMID:15040445, PMID:15534004, PMID:16473635, PMID:23563491]
+synonym: "endocytic recycling" NARROW []
+synonym: "endosome to plasma membrane protein transport" NARROW []
 synonym: "retrograde transport of endocytic vesicles" RELATED []
 synonym: "retrograde transport, endosome to plasma membrane" EXACT []
 is_a: GO:0016197 ! endosomal transport
@@ -188273,6 +188275,7 @@ intersection_of: GO:0016192 ! vesicle-mediated transport
 intersection_of: has_target_end_location GO:0005886 ! plasma membrane
 intersection_of: has_target_start_location GO:0005768 ! endosome
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20747" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: sp
 creation_date: 2013-06-18T10:52:50Z
 
@@ -188282,14 +188285,14 @@ name: fast endocytic recycling
 namespace: biological_process
 def: "The directed movement of membrane-bounded vesicles from peripheral endocytic compartments back to the plasma membrane where they are recycled for further rounds of transport." [GOC:ecd, PMID:16473635]
 synonym: "direct endocytic recycling" EXACT []
-is_a: GO:0032456 ! endocytic recycling
+is_a: GO:0032456 ! endosome to plasma membrane transport
 
 [Term]
 id: GO:0032458
 name: slow endocytic recycling
 namespace: biological_process
 def: "The directed movement of membrane-bounded vesicles from deep (non-peripheral) compartments endocytic compartments back to the plasma membrane where they are recycled for further rounds of transport." [GOC:ecd, PMID:16473635]
-is_a: GO:0032456 ! endocytic recycling
+is_a: GO:0032456 ! endosome to plasma membrane transport
 
 [Term]
 id: GO:0032459
@@ -352574,7 +352577,7 @@ synonym: "endosomal recycling compartment" EXACT [PMID:20820847]
 synonym: "endosome recycling compartment" RELATED [GOC:dph, PMID:12370264]
 synonym: "ERC" RELATED [GOC:dph, PMID:1237064]
 is_a: GO:0005768 ! endosome
-relationship: capable_of_part_of GO:0032456 ! endocytic recycling
+relationship: capable_of_part_of GO:0032456 ! endosome to plasma membrane transport
 
 [Term]
 id: GO:0055038
@@ -441074,7 +441077,7 @@ id: GO:0099638
 name: obsolete endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. The directed movement of proteins from the endosome to the plasma membrane in transport vesicles." [GOC:dos]
-comment: The reason for obsoletion is that this term unnecessarily specified protein cargo, and no biologically meaningful sibling for non-protein cargo could be justified, so it was merged up into GO:0032456 endocytic recycling.
+comment: The reason for obsoletion is that this term overlapped with GO:0032456 (endosome to plasma membrane transport, formerly endocytic recycling), which was relabelled to cover all vesicle-mediated transport from endosomes to the plasma membrane; endocytic recycling is a narrower case of that process.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0032456
@@ -589472,7 +589475,7 @@ id: GO:1905749
 name: obsolete regulation of endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. Any process that modulates the frequency, rate or extent of endosome to plasma membrane protein transport." [GO_REF:0000058, GOC:TermGenie, PMID:22869721]
-comment: The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001135 regulation of endocytic recycling.
+comment: The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001135 (regulation of endosome to plasma membrane transport).
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:2001135
@@ -589484,7 +589487,7 @@ id: GO:1905750
 name: obsolete negative regulation of endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of endosome to plasma membrane protein transport." [GO_REF:0000058, GOC:TermGenie, PMID:22869721]
-comment: The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001136 negative regulation of endocytic recycling.
+comment: The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001136 (negative regulation of endosome to plasma membrane transport).
 synonym: "down regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
 synonym: "down-regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
 synonym: "downregulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
@@ -589500,7 +589503,7 @@ id: GO:1905751
 name: obsolete positive regulation of endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of endosome to plasma membrane protein transport." [GO_REF:0000058, GOC:TermGenie, PMID:22869721]
-comment: The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001137 positive regulation of endocytic recycling.
+comment: The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001137 (positive regulation of endosome to plasma membrane transport).
 synonym: "activation of endosome to plasma membrane protein transport" NARROW [GOC:TermGenie]
 synonym: "up regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
 synonym: "up-regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
@@ -601653,7 +601656,7 @@ name: EARP complex
 namespace: cellular_component
 def: "A quatrefoil tethering complex required for endocytic recycling." [PMID:25799061]
 is_a: GO:0032991 ! protein-containing complex
-relationship: capable_of_part_of GO:0032456 ! endocytic recycling
+relationship: capable_of_part_of GO:0032456 ! endosome to plasma membrane transport
 relationship: part_of GO:0055037 ! recycling endosome
 created_by: sp
 creation_date: 2015-05-15T10:23:25Z
@@ -617854,36 +617857,45 @@ creation_date: 2011-10-13T12:36:20Z
 
 [Term]
 id: GO:2001135
-name: regulation of endocytic recycling
+name: regulation of endosome to plasma membrane transport
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of endocytic recycling." [GOC:obol]
+def: "Any process that modulates the frequency, rate or extent of endosome to plasma membrane transport." [GOC:obol]
+synonym: "regulation of endocytic recycling" NARROW []
+synonym: "regulation of endosome to plasma membrane protein transport" NARROW []
 synonym: "regulation of retrograde transport of endocytic vesicles" RELATED [GOC:obol]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0032456 ! endocytic recycling
+intersection_of: regulates GO:0032456 ! endosome to plasma membrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: kmv
 creation_date: 2011-10-14T03:34:36Z
 
 [Term]
 id: GO:2001136
-name: negative regulation of endocytic recycling
+name: negative regulation of endosome to plasma membrane transport
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of endocytic recycling." [GOC:obol]
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of endosome to plasma membrane transport." [GOC:obol]
+synonym: "negative regulation of endocytic recycling" NARROW []
+synonym: "negative regulation of endosome to plasma membrane protein transport" NARROW []
 synonym: "negative regulation of retrograde transport of endocytic vesicles" RELATED [GOC:obol]
 is_a: GO:0048523 ! negative regulation of cellular process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0032456 ! endocytic recycling
+intersection_of: negatively_regulates GO:0032456 ! endosome to plasma membrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: kmv
 creation_date: 2011-10-14T03:34:43Z
 
 [Term]
 id: GO:2001137
-name: positive regulation of endocytic recycling
+name: positive regulation of endosome to plasma membrane transport
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of endocytic recycling." [GOC:obol]
+def: "Any process that activates or increases the frequency, rate or extent of endosome to plasma membrane transport." [GOC:obol]
+synonym: "positive regulation of endocytic recycling" NARROW []
+synonym: "positive regulation of endosome to plasma membrane protein transport" NARROW []
 synonym: "positive regulation of retrograde transport of endocytic vesicles" RELATED [GOC:obol]
 is_a: GO:0048522 ! positive regulation of cellular process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0032456 ! endocytic recycling
+intersection_of: positively_regulates GO:0032456 ! endosome to plasma membrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: kmv
 creation_date: 2011-10-14T03:34:49Z
 
