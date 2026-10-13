@@ -137514,7 +137514,7 @@ id: GO:0018422
 name: obsolete GDP-mannose:serine-protein mannose-1-phosphotransferase activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." [GOC:mah, PMID:10037765]
-comment: This term was obsoleted because there is no enzyme known to catalyze this reaction,
+comment: This term was obsoleted because there is no enzyme known to catalyze this reaction.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
 is_obsolete: true
 
@@ -471885,7 +471885,7 @@ id: GO:0140630
 name: obsolete all-trans-phytoene synthase activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." [PMID:12641468, PMID:7896759]
-comment: This term was obsoleted because the corresponding RHEA reaction was obsoleted,
+comment: This term was obsoleted because the corresponding RHEA reaction was obsoleted.
 synonym: "phytoene synthase activity" BROAD []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21165" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
