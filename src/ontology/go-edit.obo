@@ -82994,7 +82994,7 @@ alt_id: GO:0120018
 def: "Enables the transfer of phosphatidylinositol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane phosphatidylinositol transfer activity" NARROW []
 synonym: "intermembrane phosphotidylinositol transfer activity" NARROW []
-synonym: "phosphatidylinositol carrier activity" EXACT []
+synonym: "phosphatidylinositol carrier activity" NARROW []
 synonym: "phosphatidylinositol transporter activity" BROAD []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
@@ -132546,7 +132546,7 @@ id: GO:0017089
 name: glycolipid transfer activity
 namespace: molecular_function
 def: "Enables the transfer of a glycolipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer. A glycolipid is a compound usually containing 1-4 linked monosaccharide residues joined by a glycosyl linkage to a lipid." [PMID:30337668]
-synonym: "glycolipid carrier activity" EXACT []
+synonym: "glycolipid carrier activity" NARROW []
 synonym: "glycolipid transporter activity" BROAD []
 synonym: "intermembrane glycolipid transfer activity" NARROW []
 synonym: "intermembrane glycolipid transporter activity" NARROW []
@@ -459071,7 +459071,7 @@ name: phospholipid transfer activity
 namespace: molecular_function
 def: "Enables the transfer of a phospholipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane phospholipid transfer activity" NARROW []
-synonym: "phospholipid carrier activity" EXACT []
+synonym: "phospholipid carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:16247 ! phospholipid
 relationship: has_part GO:0005543 ! phospholipid binding
@@ -459087,7 +459087,7 @@ name: sterol transfer activity
 namespace: molecular_function
 def: "Enables the transfer of a sterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane sterol transfer activity" NARROW []
-synonym: "sterol carrier activity" EXACT []
+synonym: "sterol carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:15889 ! sterol
 relationship: has_part GO:0032934 ! sterol binding
@@ -459118,7 +459118,7 @@ name: ceramide transfer activity
 namespace: molecular_function
 alt_id: GO:0035620
 def: "Enables the transfer of a ceramide from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
-synonym: "ceramide carrier activity" EXACT []
+synonym: "ceramide carrier activity" NARROW []
 synonym: "ceramide transporter activity" BROAD []
 synonym: "intermembrane ceramide transfer activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
@@ -459135,7 +459135,7 @@ name: phosphatidylcholine transfer activity
 namespace: molecular_function
 def: "Enables the transfer of phosphatidylcholine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane phosphatidylcholine transfer activity" NARROW []
-synonym: "phosphatidylcholine carrier activity" EXACT []
+synonym: "phosphatidylcholine carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:64482 ! phosphatidylcholine
 relationship: has_part GO:0031210 ! phosphatidylcholine binding
@@ -459150,7 +459150,7 @@ name: cholesterol transfer activity
 namespace: molecular_function
 alt_id: GO:0017127
 def: "Enables the transfer of cholesterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
-synonym: "cholesterol carrier activity" EXACT []
+synonym: "cholesterol carrier activity" NARROW []
 synonym: "cholesterol transporter activity" BROAD []
 synonym: "intermembrane cholesterol transfer activity" NARROW []
 is_a: neverin:4751
@@ -459169,7 +459169,7 @@ name: oxysterol transfer activity
 namespace: molecular_function
 def: "Enables the transfer of oxysterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane oxysterol transfer activity" NARROW []
-synonym: "oxysterol carrier activity" EXACT []
+synonym: "oxysterol carrier activity" NARROW []
 intersection_of: GO:0120015 ! sterol transfer activity
 intersection_of: has_primary_input CHEBI:53030 ! oxysterol
 relationship: has_part GO:0008142 ! oxysterol binding
@@ -468445,7 +468445,7 @@ def: "Enables the transfer of a lipopolysaccharide (LPS) from a donor membrane o
 synonym: "intermembrane lipopolysaccharide transfer activity" EXACT []
 synonym: "intermembrane lipopolysaccharide transporter activity" EXACT []
 synonym: "intermembrane LPS transporter activity" EXACT []
-synonym: "lipopolysaccharide carrier activity" EXACT []
+synonym: "lipopolysaccharide carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:16412 ! lipopolysaccharide
 relationship: part_of GO:0015920 ! lipopolysaccharide transport
@@ -468511,7 +468511,7 @@ id: GO:0140337
 name: diacylglyceride transfer activity
 namespace: molecular_function
 def: "Enables the transfer of diacylglyceride from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
-synonym: "diacylglyceride carrier activity" EXACT []
+synonym: "diacylglyceride carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:18035 ! diglyceride
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
@@ -468524,7 +468524,7 @@ name: sphingomyelin transfer activity
 namespace: molecular_function
 alt_id: GO:0010175
 def: "Enables the transfer of a sphingomyelin from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
-synonym: "sphingomyelin carrier activity" EXACT []
+synonym: "sphingomyelin carrier activity" NARROW []
 synonym: "sphingosine transmembrane transporter activity" BROAD []
 is_a: GO:0120013 ! lipid transfer activity
 intersection_of: GO:0120013 ! lipid transfer activity
@@ -468538,7 +468538,7 @@ id: GO:0140339
 name: phosphatidylglycerol transfer activity
 namespace: molecular_function
 def: "Enables the transfer of phosphatidylglycerol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
-synonym: "phosphatidylglycerol carrier activity" EXACT []
+synonym: "phosphatidylglycerol carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:60523 ! phosphatidylglycerol(1-)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
@@ -468550,7 +468550,7 @@ id: GO:0140340
 name: cerebroside transfer activity
 namespace: molecular_function
 def: "Enables the transfer of a cerebroside from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
-synonym: "cerebroside carrier activity" EXACT []
+synonym: "cerebroside carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:23079 ! cerebroside
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
@@ -468598,7 +468598,7 @@ id: GO:0140344
 name: triglyceride transfer activity
 namespace: molecular_function
 def: "Enables the transfer of a triglyceride from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:23475612]
-synonym: "triglyceride carrier activity" EXACT []
+synonym: "triglyceride carrier activity" NARROW []
 is_a: GO:0120013 ! lipid transfer activity
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:17855 ! triglyceride
@@ -528208,7 +528208,7 @@ id: GO:1902388
 name: ceramide 1-phosphate transfer activity
 namespace: molecular_function
 def: "Enables the transfer of a ceramide 1-phosphate from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:TermGenie, PMID:23863933]
-synonym: "ceramide 1-phosphate carrier activity" EXACT []
+synonym: "ceramide 1-phosphate carrier activity" NARROW []
 synonym: "ceramide 1-phosphate transporter activity" BROAD []
 synonym: "intermembrane ceramide 1-phosphate transfer activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
@@ -558831,7 +558831,7 @@ name: phosphatidylethanolamine transfer activity
 namespace: molecular_function
 def: "Enables the transfer of phosphatidylethanolamine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GO_REF:0000066, GOC:TermGenie, PMID:8606365]
 synonym: "intermembrane phosphatidylethanolamine transfer activity" NARROW []
-synonym: "phosphatidylethanolamine carrier activity" EXACT []
+synonym: "phosphatidylethanolamine carrier activity" NARROW []
 synonym: "phosphatidylethanolamine transporter activity" BROAD []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57613 ! phosphatidylethanolamine zwitterion
@@ -593814,7 +593814,7 @@ namespace: molecular_function
 def: "Enables the transfer of a phosphatidic acid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer. Phosphatidic acid refers to a glycophospholipids with, in general, a saturated fatty acid bonded to carbon-1, an unsaturated fatty acid bonded to carbon-2, and a phosphate group bonded to carbon-3." [PMID:23042293]
 synonym: "intermembrane PA transfer activity" EXACT []
 synonym: "intermembrane phosphatidic acid transfer activity" NARROW []
-synonym: "phosphatidic acid carrier activity" EXACT []
+synonym: "phosphatidic acid carrier activity" NARROW []
 synonym: "phosphatidic acid transporter activity" BROAD []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57739 ! phosphatidate(2-)
