@@ -196740,8 +196740,6 @@ def: "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,
 comment: This term was made obsolete because it represents two reactions, and should be two separate terms.
 synonym: "inositol heptakisphosphate 4-kinase or 6-kinase activity" EXACT []
 is_obsolete: true
-consider: GO:0000833
-consider: GO:0000834
 
 [Term]
 id: GO:0033200
@@ -257890,8 +257888,6 @@ synonym: "MpgII" NARROW []
 is_obsolete: true
 consider: GO:0008725
 consider: GO:0043916
-consider: GO:0052821
-consider: GO:0052822
 
 [Term]
 id: GO:0043737
@@ -339261,7 +339257,6 @@ synonym: "DNA kinase activity" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25049" xsd:anyURI
 is_obsolete: true
 consider: GO:0046404
-consider: GO:0051737
 
 [Term]
 id: GO:0051734
@@ -339284,8 +339279,9 @@ def: "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GD
 comment: This term was obsoleted because it is an unnecessary grouping term.
 synonym: "GTP-dependent polynucleotide kinase activity" BROAD []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25049" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
 is_obsolete: true
-consider: GO:0051735
+consider: GO:0051730
 
 [Term]
 id: GO:0051736
@@ -339309,6 +339305,7 @@ comment: This term was obsoleted because there is no evidence that this activity
 synonym: "GTP-dependent DNA 5'-hydroxyl-kinase activity" EXACT []
 synonym: "GTP-dependent DNA kinase activity" EXACT []
 synonym: "GTP-dependent polydeoxyribonucleotide kinase activity" EXACT []
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0051730
 
