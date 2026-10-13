@@ -54096,10 +54096,13 @@ synonym: "multicopper ferroxidase iron transport mediator activity" RELATED []
 synonym: "transmembrane iron ion permease activity" EXACT []
 synonym: "transmembrane iron permease activity" EXACT []
 synonym: "zinc, iron permease activity" RELATED []
+xref: RHEA:12332 {source="skos:narrowMatch"}
+xref: RHEA:29579 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:24875 ! iron cation
 relationship: part_of GO:0034755 ! iron ion transmembrane transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17162" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21441" xsd:string
 
 [Term]
 id: GO:0005384
