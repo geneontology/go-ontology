@@ -6526,23 +6526,29 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0000833
-name: 5-diphosphoinositol pentakisphosphate 4-kinase activity
+name: obsolete 5-diphosphoinositol pentakisphosphate 4-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 4,5-bis(diphospho)-1D-myo-inositol (1,2,3,6)tetrakisphosphate." [GOC:elh, PMID:16429326]
+def: "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 4,5-bis(diphospho)-1D-myo-inositol (1,2,3,6)tetrakisphosphate." [GOC:elh, PMID:16429326]
+comment: This term was obsoleted because it was created by mistake. The 4-kinase position comes from early work on Vip1/PPIP5K, which was later shown to be a 1-kinase.
 synonym: "diphosphoinositol-pentakisphosphate 4-kinase activity" BROAD []
 synonym: "inositol heptakisphosphate 4-kinase activity" BROAD []
 synonym: "IP7 4-kinase activity" EXACT []
-is_a: GO:0000829 ! diphosphoinositol pentakisphosphate kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28385" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0033857
 
 [Term]
 id: GO:0000834
-name: 5-diphosphoinositol pentakisphosphate 6-kinase activity
+name: obsolete 5-diphosphoinositol pentakisphosphate 6-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 5,6-bisdiphosphoinositol-1D-myo-inositol (1,2,3,4)tetrakisphosphate." [GOC:elh, PMID:16429326]
+def: "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 5,6-bisdiphosphoinositol-1D-myo-inositol (1,2,3,4)tetrakisphosphate." [GOC:elh, PMID:16429326]
+comment: This term was obsoleted because it was created by mistake. The 6-kinase position comes from early work on Vip1/PPIP5K, which was later shown to be a 1-kinase.
 synonym: "inositol heptakisphosphate 6-kinase activity" BROAD []
-is_a: GO:0000829 ! diphosphoinositol pentakisphosphate kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28385" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0033857
 
 [Term]
 id: GO:0000835
@@ -339214,7 +339220,7 @@ def: "Catalysis of the reaction: GTP + 5'-dephospho-RNA = GDP + 5'-phospho-RNA."
 synonym: "GTP-dependent polyribonucleotide kinase activity" EXACT []
 synonym: "GTP-dependent RNA 5'-hydroxyl-kinase activity" EXACT []
 synonym: "GTP-dependent RNA kinase activity" EXACT []
-is_a: GO:0051735 ! GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
+is_a: GO:0051731 ! polynucleotide 5'-hydroxyl-kinase activity
 
 [Term]
 id: GO:0051731
@@ -339272,12 +339278,14 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0051735
-name: GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
+name: obsolete GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GDP + 5'-phosphopolynucleotide. The polynucleotide may be DNA or RNA." [GOC:curators]
+def: "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GDP + 5'-phosphopolynucleotide. The polynucleotide may be DNA or RNA." [GOC:curators]
+comment: This term was obsoleted because it is an unnecessary grouping term.
 synonym: "GTP-dependent polynucleotide kinase activity" BROAD []
-is_a: GO:0051731 ! polynucleotide 5'-hydroxyl-kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25049" xsd:anyURI
+is_obsolete: true
+consider: GO:0051735
 
 [Term]
 id: GO:0051736
@@ -339294,13 +339302,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0051737
-name: GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity
+name: obsolete GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: GTP + 5'-dephospho-DNA = GDP + 5'-phospho-DNA." [PMID:8428918]
+def: "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephospho-DNA = GDP + 5'-phospho-DNA." [PMID:8428918]
+comment: This term was obsoleted because there is no evidence that this activity exists. The enzyme acts on tRNAs.
 synonym: "GTP-dependent DNA 5'-hydroxyl-kinase activity" EXACT []
 synonym: "GTP-dependent DNA kinase activity" EXACT []
 synonym: "GTP-dependent polydeoxyribonucleotide kinase activity" EXACT []
-is_a: GO:0051735 ! GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
+is_obsolete: true
+replaced_by: GO:0051735
 
 [Term]
 id: GO:0051738
@@ -350651,26 +350661,32 @@ creation_date: 2011-10-28T01:17:21Z
 
 [Term]
 id: GO:0052821
-name: DNA-7-methyladenine glycosylase activity
+name: obsolete DNA-7-methyladenine glycosylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." [GOC:jl, PMID:16468998]
+def: "OBSOLETE. Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." [GOC:jl, PMID:16468998]
+comment: This term was obsoleted because it corresponds to a specific substrate of DNA-3-methylbase glycosylase activity ; GO:0043733.
 xref: EC:3.2.2.21 {source="skos:broadMatch"}
-is_a: GO:0003905 ! alkylbase DNA N-glycosylase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0003905
 created_by: ai
 creation_date: 2011-10-28T02:27:39Z
 
 [Term]
 id: GO:0052822
-name: DNA-3-methylguanine glycosylase activity
+name: obsolete DNA-3-methylguanine glycosylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: DNA containing 3-methylguanine + H2O = DNA with abasic site + 3-methylguanine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 3-methylguanine and the deoxyribose sugar to remove the 3-methylguanine, leaving an abasic site." [GOC:elh, PMID:10872450, PMID:9224623]
+def: "OBSOLETE. Catalysis of the reaction: DNA containing 3-methylguanine + H2O = DNA with abasic site + 3-methylguanine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 3-methylguanine and the deoxyribose sugar to remove the 3-methylguanine, leaving an abasic site." [GOC:elh, PMID:10872450, PMID:9224623]
+comment: This term was obsoleted because it represents a specific substrate of DNA-3-methylbase glycosylase activity ; GO:0043733.
 xref: EC:3.2.2.21 {source="skos:broadMatch"}
-is_a: GO:0043733 ! DNA-3-methylbase glycosylase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24405" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0043733
 created_by: ai
 creation_date: 2011-10-28T02:28:19Z
 
