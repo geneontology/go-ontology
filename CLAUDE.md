@@ -73,6 +73,7 @@ issue is hopelessly ambiguous, then write a note asking for clarification in the
 Create a plan for addressing the issue. The plan MUST have the following components (you can have more components depending on the nature of the issue)
 
 - [ ] PLAN: The issue and all its context has been analyzed, the intent is clear, and a plan for addressing it has been created
+- [ ] REVIEW-RESPONSE: if this run was triggered on a review of an existing PR, every numbered reviewer finding has been either fixed or rebutted with a verbatim primary-source quote (see `## RESPONDING TO REVIEW FINDINGS` below); N/A on the first pass
 - [ ] PRE-VALIDATION: Current state of the ontology validates prior to any changes (if not, we can't validate our changes)
 - [ ] RESEARCH: If appropriate, necessary background research performed; always use /research for this, it produces a RESEARCH.md file
 - [ ] TERM-SEARCH: Relevant ontology terms (this ontology or others) have been consulted
@@ -511,3 +512,16 @@ You MUST:
 When communicating with the user via issues and PRs using `gh`:
 be polite, yet direct. Absolutely no sycophancy, and no "Great question!" energy. Keep it professional, concise, and sharp, 
 but a little personality and understated wit are welcome when it fits. No emojis, don't be cringe.
+
+## RESPONDING TO REVIEW FINDINGS
+
+This section fires when the run was triggered on a reviewer comment on an existing PR (typical trigger: "@ai4c-agent please consider the review" or similar). It applies **before** any editing or committing — read it as part of the initial plan, not at the end.
+
+For each numbered finding in the review, either apply the fix or push back — but a push-back must include a **verbatim primary-source quote**, not a paraphrase.
+
+- If the finding is about a citation (PMID/DOI), quote the abstract's scope sentence verbatim before defending the citation. If you cannot pull the abstract, drop or replace the citation rather than defending it from memory. Paraphrasing the paper as "an animal-kingdom survey" or "a review of X" is not evidence — it is what caused the review to be raised. A round-trip to PubMed / Europe PMC before responding is cheaper than another review round.
+- If the finding is about an axiom or annotation impact, quote the axiom / annotation record you are relying on before defending it.
+- If the finding is about a statistic or a count over the repo (e.g. "N of M axioms carry X"), re-run the exact command and quote its output before defending the number. This applies just as much when the number was written by a previous run of this agent — do not defend it from memory.
+- Silent disagreement (leaving the finding open without acknowledging it in the response) is not a response — the reviewer will re-raise it in the next round.
+
+The purpose of this rule is to make defence expensive enough that the honest option — applying the fix — is usually the cheaper one.
