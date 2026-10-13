@@ -339310,7 +339310,7 @@ synonym: "GTP-dependent DNA 5'-hydroxyl-kinase activity" EXACT []
 synonym: "GTP-dependent DNA kinase activity" EXACT []
 synonym: "GTP-dependent polydeoxyribonucleotide kinase activity" EXACT []
 is_obsolete: true
-replaced_by: GO:0051735
+replaced_by: GO:0051730
 
 [Term]
 id: GO:0051738
@@ -350664,7 +350664,7 @@ id: GO:0052821
 name: obsolete DNA-7-methyladenine glycosylase activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." [GOC:jl, PMID:16468998]
-comment: This term was obsoleted because it corresponds to a specific substrate of DNA-3-methylbase glycosylase activity ; GO:0043733.
+comment: This term was obsoleted because it corresponds to a specific substrate of alkylbase DNA N-glycosylase activity ; GO:0003905.
 xref: EC:3.2.2.21 {source="skos:broadMatch"}
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
