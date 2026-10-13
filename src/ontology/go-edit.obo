@@ -137511,10 +137511,12 @@ is_obsolete: true
 
 [Term]
 id: GO:0018422
-name: GDP-mannose:serine-protein mannose-1-phosphotransferase activity
+name: obsolete GDP-mannose:serine-protein mannose-1-phosphotransferase activity
 namespace: molecular_function
-def: "Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." [GOC:mah, PMID:10037765]
-is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
+def: "OBSOLETE. Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." [GOC:mah, PMID:10037765]
+comment: This term was obsoleted because there is no enzyme known to catalyze this reaction.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0018423
@@ -230719,12 +230721,15 @@ creation_date: 2012-05-18T04:26:25Z
 
 [Term]
 id: GO:0036237
-name: acyl-glucuronidase activity
+name: obsolete acyl-glucuronidase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: an acyl-glucuronoside + H2O = an alcohol + D-glucuronate." [GOC:BHF, GOC:vk, PMID:22294686]
+def: "OBSOLETE. Catalysis of the reaction: an acyl-glucuronoside + H2O = an alcohol + D-glucuronate." [GOC:BHF, GOC:vk, PMID:22294686]
+comment: This term was obsoleted because its definition was chemically incorrect.
 synonym: "acyl-glucuronide deglucuronidation activity" NARROW [PMID:22294686]
-is_a: GO:0046574 ! glucuronidase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30698" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0102390
 created_by: bf
 creation_date: 2012-05-18T04:32:25Z
 
@@ -349969,14 +349974,17 @@ creation_date: 2011-09-30T12:55:24Z
 
 [Term]
 id: GO:0052769
-name: beta-6-sulfate-N-acetylglucosaminidase activity
+name: obsolete beta-6-sulfate-N-acetylglucosaminidase activity
 namespace: molecular_function
-def: "Catalysis of the glycosidic cleavage of the terminal 2-acetamido-2-deoxy-beta-D-glucopyranoside 6-sulfate (6-SO3-GlcNAc) residue from sulfomucin, a sulfated mucin derivative." [GOC:mengo_curators, PMID:15716424]
+def: "OBSOLETE. Catalysis of the glycosidic cleavage of the terminal 2-acetamido-2-deoxy-beta-D-glucopyranoside 6-sulfate (6-SO3-GlcNAc) residue from sulfomucin, a sulfated mucin derivative." [GOC:mengo_curators, PMID:15716424]
+comment: This term was obsoleted because it corresponds to a specific substrate.
 synonym: "beta-6-SO3-N-acetylglucosaminidase activity" BROAD []
 synonym: "exosulfoglycosidase activity" BROAD []
 synonym: "sulfoglycosidase activity" BROAD []
 synonym: "sulfomucin beta-6-sulfate-N-acetylglucosaminidase activity" EXACT []
-is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0016231
 created_by: ai
 creation_date: 2011-09-30T12:55:24Z
 
@@ -471874,14 +471882,16 @@ creation_date: 2021-03-25T09:53:57Z
 
 [Term]
 id: GO:0140630
-name: all-trans-phytoene synthase activity
+name: obsolete all-trans-phytoene synthase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." [PMID:12641468, PMID:7896759]
+def: "OBSOLETE. Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." [PMID:12641468, PMID:7896759]
+comment: This term was obsoleted because the corresponding RHEA reaction was obsoleted.
 synonym: "phytoene synthase activity" BROAD []
-is_a: GO:0016462 ! pyrophosphatase activity
-relationship: part_of GO:0016117 ! carotenoid biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21165" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0046905
 created_by: pg
 creation_date: 2021-03-25T18:04:01Z
 
