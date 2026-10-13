@@ -621893,7 +621893,7 @@ intersection_of: GO:7770011 ! lipid exchange activity
 intersection_of: has_primary_input CHEBI:57643 ! 1,2-diacyl-sn-glycero-3-phosphocholine
 intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32746" xsd:anyURI
-created_by: rynl
+created_by: ai4c-agent
 creation_date: 2026-10-13T23:01:27Z
 
 [Typedef]
