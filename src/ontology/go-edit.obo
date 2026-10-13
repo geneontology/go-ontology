@@ -486408,10 +486408,10 @@ creation_date: 2025-06-27T07:22:01Z
 
 [Term]
 id: GO:0180067
-name: terreate biosynthetic process
+name: terreic acid biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of terreate, a fungal metabolite with ecological, antimicrobial, antiproliferative, and antioxidative activities." [PMID:25265334]
-synonym: "terreic acid biosynthetic process" RELATED []
+def: "The chemical reactions and pathways resulting in the formation of terreic acid, a fungal metabolite with ecological, antimicrobial, antiproliferative, and antioxidative activities." [PMID:25265334]
+synonym: "terreate biosynthetic process" RELATED []
 is_a: GO:0009058 ! biosynthetic process
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:233617 ! terreate
@@ -486431,12 +486431,13 @@ creation_date: 2026-01-19T11:52:03Z
 
 [Term]
 id: GO:0180069
-name: positive regulation of terreate biosynthetic process
+name: positive regulation of terreic acid biosynthetic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of terreate." [PMID:25265334]
+def: "Any process that activates or increases the frequency, rate or extent of terreic acid biosynthetic process." [PMID:25265334]
+synonym: "positive regulation of terreate biosynthetic process" RELATED []
 is_a: GO:0009889 ! regulation of biosynthetic process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0180067 ! terreate biosynthetic process
+intersection_of: positively_regulates GO:0180067 ! terreic acid biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31114" xsd:anyURI
 created_by: vw
 creation_date: 2026-02-23T15:24:17Z
