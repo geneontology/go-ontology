@@ -228619,7 +228619,9 @@ def: "A cone-shaped structure in the head of a spermatozoon, which is formed by 
 comment: See also the fly_anatomy.ontology term 'acroblast ; FBbt:00004947'.
 synonym: "spermatid acroblast" EXACT [GOC:bf]
 is_a: GO:0110165 ! cellular anatomical structure
+is_a: onlyin:33208 {source="PMID:27481842"}
 relationship: part_of GO:0005794 ! Golgi apparatus
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 created_by: bf
 creation_date: 2011-12-14T02:29:05Z
 
@@ -374635,6 +374637,8 @@ def: "The discharge, by sperm, of a single, anterior secretory granule before th
 comment: If the release of the acrosome content when the sperm reaches to the zona pellucida, consider using acrosome reaction.
 synonym: "spontaneous acrosome loss" EXACT []
 is_a: GO:0022414 ! reproductive process
+is_a: onlyin:33208 {source="PMID:27194348"}
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 created_by: dph
 creation_date: 2017-10-25T17:46:55Z
 
