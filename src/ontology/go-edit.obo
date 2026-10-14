@@ -11451,7 +11451,9 @@ synonym: "acrosomal granule" EXACT [GOC:sart]
 synonym: "acrosome" EXACT [GOC:dph]
 xref: Wikipedia:Acrosome
 is_a: GO:0030141 ! secretory granule
+is_a: onlyin:33208 {source="PMID:27194348"}
 relationship: part_of CL:0000019 ! sperm
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 
 [Term]
 id: GO:0001671
@@ -74232,9 +74234,11 @@ def: "The discharge, by sperm, of a single, anterior secretory granule following
 comment: If the release of the acrosome content occurs before the sperm reaches the zona pellucida, consider using premature acrosome loss.
 xref: Wikipedia:Acrosome_reaction
 is_a: GO:0022414 ! reproductive process
+is_a: onlyin:33208 {source="PMID:27194348"}
 relationship: ends_with GO:0060478 ! acrosomal vesicle exocytosis
 relationship: part_of GO:0007338 ! single fertilization
 relationship: starts_with GO:0002078 ! membrane fusion involved in acrosome reaction
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 
 [Term]
 id: GO:0007341
