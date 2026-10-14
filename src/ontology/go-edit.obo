@@ -441077,7 +441077,7 @@ id: GO:0099638
 name: obsolete endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. The directed movement of proteins from the endosome to the plasma membrane in transport vesicles." [GOC:dos]
-comment: The reason for obsoletion is that this term overlapped with GO:0032456 (endosome to plasma membrane transport, formerly endocytic recycling), which was relabelled to cover all vesicle-mediated transport from endosomes to the plasma membrane; endocytic recycling is a narrower case of that process.
+comment: The reason for obsoletion is that this term unnecessarily specified protein cargo, so it was merged into GO:0032456 (endosome to plasma membrane transport, formerly endocytic recycling).
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0032456
