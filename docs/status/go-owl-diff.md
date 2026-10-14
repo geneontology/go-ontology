@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-13/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-14/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-13" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-14" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -251,6 +251,92 @@
 - [1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate:cholesterol exchange activity](http://purl.obolibrary.org/obo/GO_7770124) SubClassOf [cholesterol transfer activity](http://purl.obolibrary.org/obo/GO_0120020) 
 
 - [1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate:cholesterol exchange activity](http://purl.obolibrary.org/obo/GO_7770124) SubClassOf [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) 
+
+
+### 1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity `http://purl.obolibrary.org/obo/GO_7770135`
+
+#### Added
+- Class: [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32745"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T23:35:37Z" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86467" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidyl-1D-myo-inositol:1,2-diacyl-sn-glycerol 3-phosphate exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidyl-1D-myo-inositol:phosphatidate exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PI/PA exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidic acid:phosphatidylinositol exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol-phosphatidic acid exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol:phosphatidic acid exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770135" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [86467](http://rdf.rhea-db.org/86467) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphate(out) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(in) = a 1,2-diacyl-sn-glycero-3-phosphate(in) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(out). This reaction results in the exchange of phosphatidic acid (PA) for phosphatidylinositol (PI) between membranes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86467" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26028218" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) 
+
+
+### 1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity `http://purl.obolibrary.org/obo/GO_7770134`
+
+#### Added
+- Class: [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32746"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T23:01:27Z" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PI/PC exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PtdIns/PtdCho exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylcholine:phosphatidylinositol exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol-phosphatidylcholine exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol:phosphatidylcholine exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770134" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphocholine(out) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(in) = a 1,2-diacyl-sn-glycero-3-phosphocholine(in) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(out). This reaction results in the exchange of phosphatidylcholine (PC) for phosphatidylinositol (PI) between membranes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17490911" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20332109" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:4371468" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity" 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) SubClassOf [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) SubClassOf [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) SubClassOf [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) 
 
 
 ### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
@@ -553,6 +639,62 @@
 - [4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this activity is not known to be catalyzed by any gene product, there is no evidence that this function/process/component exists, and the EC number (EC 3.8.1.6) on which this GO term was based has been deleted in the IUBMB EC list." 
 
 - [4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-chlorobenzoate dehalogenase activity" 
+
+
+### 5-diphosphoinositol pentakisphosphate 4-kinase activity `http://purl.obolibrary.org/obo/GO_0000833`
+#### Removed
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 4,5-bis(diphospho)-1D-myo-inositol (1,2,3,6)tetrakisphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16429326" 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-diphosphoinositol pentakisphosphate 4-kinase activity" 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) SubClassOf [diphosphoinositol pentakisphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0000829) 
+
+#### Added
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [5-diphosphoinositol pentakisphosphate 1-kinase activity](http://purl.obolibrary.org/obo/GO_0033857) 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 4,5-bis(diphospho)-1D-myo-inositol (1,2,3,6)tetrakisphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16429326" 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it was created by mistake. The 4-kinase position comes from early work on Vip1/PPIP5K, which was later shown to be a 1-kinase." 
+
+- [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 5-diphosphoinositol pentakisphosphate 4-kinase activity" 
+
+
+### 5-diphosphoinositol pentakisphosphate 6-kinase activity `http://purl.obolibrary.org/obo/GO_0000834`
+#### Removed
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 5,6-bisdiphosphoinositol-1D-myo-inositol (1,2,3,4)tetrakisphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16429326" 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [label](http://www.w3.org/2000/01/rdf-schema#label) "5-diphosphoinositol pentakisphosphate 6-kinase activity" 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) SubClassOf [diphosphoinositol pentakisphosphate kinase activity](http://purl.obolibrary.org/obo/GO_0000829) 
+
+#### Added
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [5-diphosphoinositol pentakisphosphate 1-kinase activity](http://purl.obolibrary.org/obo/GO_0033857) 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 5,6-bisdiphosphoinositol-1D-myo-inositol (1,2,3,4)tetrakisphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16429326" 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it was created by mistake. The 6-kinase position comes from early work on Vip1/PPIP5K, which was later shown to be a 1-kinase." 
+
+- [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 5-diphosphoinositol pentakisphosphate 6-kinase activity" 
 
 
 ### 5-phosphoribosyl 1-pyrophosphate pyrophosphatase activity `http://purl.obolibrary.org/obo/GO_0043135`
@@ -1280,6 +1422,66 @@
 - [DNA translocase activity](http://purl.obolibrary.org/obo/GO_0015616) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32667"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### DNA-3-methylguanine glycosylase activity `http://purl.obolibrary.org/obo/GO_0052822`
+#### Removed
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: DNA containing 3-methylguanine + H2O = DNA with abasic site + 3-methylguanine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 3-methylguanine and the deoxyribose sugar to remove the 3-methylguanine, leaving an abasic site." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9224623" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10872450" 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [label](http://www.w3.org/2000/01/rdf-schema#label) "DNA-3-methylguanine glycosylase activity" 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) SubClassOf [DNA-3-methylbase glycosylase activity](http://purl.obolibrary.org/obo/GO_0043733) 
+
+#### Added
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [DNA-3-methylbase glycosylase activity](http://purl.obolibrary.org/obo/GO_0043733) 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: DNA containing 3-methylguanine + H2O = DNA with abasic site + 3-methylguanine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 3-methylguanine and the deoxyribose sugar to remove the 3-methylguanine, leaving an abasic site." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:elh" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9224623" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10872450" 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it represents a specific substrate of DNA-3-methylbase glycosylase activity ; GO:0043733." 
+
+- [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete DNA-3-methylguanine glycosylase activity" 
+
+
+### DNA-7-methyladenine glycosylase activity `http://purl.obolibrary.org/obo/GO_0052821`
+#### Removed
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16468998" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [label](http://www.w3.org/2000/01/rdf-schema#label) "DNA-7-methyladenine glycosylase activity" 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) SubClassOf [alkylbase DNA N-glycosylase activity](http://purl.obolibrary.org/obo/GO_0003905) 
+
+#### Added
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [alkylbase DNA N-glycosylase activity](http://purl.obolibrary.org/obo/GO_0003905) 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16468998" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it corresponds to a specific substrate of alkylbase DNA N-glycosylase activity ; GO:0003905." 
+
+- [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete DNA-7-methyladenine glycosylase activity" 
+
+
 ### DNA/RNA helicase activity `http://purl.obolibrary.org/obo/GO_0033677`
 
 #### Added
@@ -1550,6 +1752,32 @@
 - [GDP-mannose hydrolase activity](http://purl.obolibrary.org/obo/GO_0052751) SubClassOf [nucleotide-sugar diphosphatase activity](http://purl.obolibrary.org/obo/GO_0141224) 
 
 
+### GDP-mannose:serine-protein mannose-1-phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0018422`
+#### Removed
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10037765" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [label](http://www.w3.org/2000/01/rdf-schema#label) "GDP-mannose:serine-protein mannose-1-phosphotransferase activity" 
+
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) SubClassOf [phosphotransferase activity, for other substituted phosphate groups](http://purl.obolibrary.org/obo/GO_0016780) 
+
+#### Added
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10037765" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no enzyme known to catalyze this reaction." 
+
+- [GDP-mannose:serine-protein mannose-1-phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0018422) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete GDP-mannose:serine-protein mannose-1-phosphotransferase activity" 
+
+
 ### GMP salvage `http://purl.obolibrary.org/obo/GO_0032263`
 
 #### Added
@@ -1574,6 +1802,62 @@
 
 #### Added
 - [GPI anchor remodelling](http://purl.obolibrary.org/obo/GO_0120574) [label](http://www.w3.org/2000/01/rdf-schema#label) "GPI anchor remodeling" 
+
+
+### GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity `http://purl.obolibrary.org/obo/GO_0051737`
+#### Removed
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: GTP + 5'-dephospho-DNA = GDP + 5'-phospho-DNA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:8428918" 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [label](http://www.w3.org/2000/01/rdf-schema#label) "GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity" 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) SubClassOf [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) 
+
+#### Added
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [GTP-dependent polyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051730) 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephospho-DNA = GDP + 5'-phospho-DNA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:8428918" 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because there is no evidence that this activity exists. The enzyme acts on tRNAs." 
+
+- [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity" 
+
+
+### GTP-dependent polynucleotide 5'-hydroxyl-kinase activity `http://purl.obolibrary.org/obo/GO_0051735`
+#### Removed
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GDP + 5'-phosphopolynucleotide. The polynucleotide may be DNA or RNA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [label](http://www.w3.org/2000/01/rdf-schema#label) "GTP-dependent polynucleotide 5'-hydroxyl-kinase activity" 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) SubClassOf [polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051731) 
+
+#### Added
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [GTP-dependent polyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051730) 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GDP + 5'-phosphopolynucleotide. The polynucleotide may be DNA or RNA." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it is an unnecessary grouping term." 
+
+- [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete GTP-dependent polynucleotide 5'-hydroxyl-kinase activity" 
+
+
+### GTP-dependent polyribonucleotide 5'-hydroxyl-kinase activity `http://purl.obolibrary.org/obo/GO_0051730`
+#### Removed
+- [GTP-dependent polyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051730) SubClassOf [GTP-dependent polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051735) 
+
+#### Added
+- [GTP-dependent polyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051730) SubClassOf [polynucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051731) 
 
 
 ### GTPase-dependent fusogenic activity `http://purl.obolibrary.org/obo/GO_0140523`
@@ -2857,6 +3141,38 @@
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) 
 
 
+### acyl-glucuronidase activity `http://purl.obolibrary.org/obo/GO_0036237`
+#### Removed
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an acyl-glucuronoside + H2O = an alcohol + D-glucuronate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22294686" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vk" 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [label](http://www.w3.org/2000/01/rdf-schema#label) "acyl-glucuronidase activity" 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) SubClassOf [glucuronidase activity](http://purl.obolibrary.org/obo/GO_0046574) 
+
+#### Added
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [mycophenolic acid acyl-glucuronide esterase activity](http://purl.obolibrary.org/obo/GO_0102390) 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: an acyl-glucuronoside + H2O = an alcohol + D-glucuronate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22294686" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vk" 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because its definition was chemically incorrect." 
+
+- [acyl-glucuronidase activity](http://purl.obolibrary.org/obo/GO_0036237) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete acyl-glucuronidase activity" 
+
+
 ### acylphosphatase activity `http://purl.obolibrary.org/obo/GO_0003998`
 
 #### Added
@@ -3060,6 +3376,36 @@
 - [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because undecaprenol kinase (UdpK) has broad substrate specificity and phosphorylates both all-trans- and di-trans,poly-cis-undecaprenol (PMID:33310291), so a single grouping term (GO:0009038, undecaprenol kinase activity) is sufficient rather than splitting by isomer." 
 
 - [all-trans undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036432) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete all-trans undecaprenol kinase activity" 
+
+
+### all-trans-phytoene synthase activity `http://purl.obolibrary.org/obo/GO_0140630`
+#### Removed
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12641468" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7896759" 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [label](http://www.w3.org/2000/01/rdf-schema#label) "all-trans-phytoene synthase activity" 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) SubClassOf [pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0016462) 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [carotenoid biosynthetic process](http://purl.obolibrary.org/obo/GO_0016117) 
+
+#### Added
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [15-cis-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0046905) 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12641468" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7896759" 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because the corresponding RHEA reaction was obsoleted." 
+
+- [all-trans-phytoene synthase activity](http://purl.obolibrary.org/obo/GO_0140630) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete all-trans-phytoene synthase activity" 
 
 
 ### amidase activity `http://purl.obolibrary.org/obo/GO_0004040`
@@ -3620,6 +3966,34 @@
 - [beta,beta-carotene-9',10'-dioxygenase activity](http://purl.obolibrary.org/obo/GO_0050541) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete beta,beta-carotene-9',10'-dioxygenase activity" 
 
 
+### beta-6-sulfate-N-acetylglucosaminidase activity `http://purl.obolibrary.org/obo/GO_0052769`
+#### Removed
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the glycosidic cleavage of the terminal 2-acetamido-2-deoxy-beta-D-glucopyranoside 6-sulfate (6-SO3-GlcNAc) residue from sulfomucin, a sulfated mucin derivative." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15716424" 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-6-sulfate-N-acetylglucosaminidase activity" 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) SubClassOf [hydrolase activity, hydrolyzing O-glycosyl compounds](http://purl.obolibrary.org/obo/GO_0004553) 
+
+#### Added
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31862"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [beta-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0016231) 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the glycosidic cleavage of the terminal 2-acetamido-2-deoxy-beta-D-glucopyranoside 6-sulfate (6-SO3-GlcNAc) residue from sulfomucin, a sulfated mucin derivative." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mengo_curators" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15716424" 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term was obsoleted because it corresponds to a specific substrate." 
+
+- [beta-6-sulfate-N-acetylglucosaminidase activity](http://purl.obolibrary.org/obo/GO_0052769) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete beta-6-sulfate-N-acetylglucosaminidase activity" 
+
+
 ### beta-D-galactofuranose catabolic process `http://purl.obolibrary.org/obo/GO_1901357`
 #### Removed
 - [beta-D-galactofuranose catabolic process](http://purl.obolibrary.org/obo/GO_1901357) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of beta-D-galactofuranose." 
@@ -3706,6 +4080,44 @@
 
 - [blastoderm segmentation](http://purl.obolibrary.org/obo/GO_0007350) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The hierarchical steps resulting in the progressive subdivision of the anterior/posterior axis of the embryo." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
+
+
+### bridge-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770132`
+
+#### Added
+- Class: [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T00:41:10Z" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "bulk lipid transfer activity" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770132" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of lipids between two membranes through a continuous hydrophobic groove or tunnel formed by a rod-shaped protein or protein assembly that spans the space between the donor and the acceptor membrane, so that lipids move along the bridge without being released into the aqueous phase as a soluble lipid-protein complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40269155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35491307" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29449493" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42285089" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "bridge-like lipid transfer activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35491307" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is enabled by proteins or protein assemblies that bridge two membranes, such as the eukaryotic repeating beta-groove (RBG) proteins at membrane contact sites (VPS13, ATG2, BLTP1-3 and related proteins), the bacterial AsmA-like proteins (e.g. TamB, YhdP and YdbH) and the Lpt lipopolysaccharide transport bridge (LptC, LptA and LptD), the latter two spanning the periplasm between the inner and outer membranes. Bridge proteins often act together with a scramblase in the donor and/or acceptor membrane; scrambling is a separate activity (see GO:0017128 phospholipid scramblase activity) and should be annotated separately. Likewise, in the Lpt system, ATP hydrolysis by the inner membrane ABC transporter LptB2FG powers transport and should be annotated separately. Direct annotation should be supported by mechanism-level evidence (e.g. structural data together with groove mutations that abolish transfer, or demonstrated membrane bridging); lipid transfer assays alone support annotation to GO:0120013 lipid transfer activity. Specific lipid substrates can be captured with has_input." 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [label](http://www.w3.org/2000/01/rdf-schema#label) "bridge-mediated intermembrane lipid transfer activity" 
+
+- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) SubClassOf [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
 
 
 ### butanediol biosynthetic process `http://purl.obolibrary.org/obo/GO_0034079`
@@ -3939,6 +4351,70 @@
 - [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) SubClassOf [response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770102) 
 
 
+### ceramide 1-phosphate transfer activity `http://purl.obolibrary.org/obo/GO_1902388`
+#### Removed
+- [ceramide 1-phosphate transfer activity](http://purl.obolibrary.org/obo/GO_1902388) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ceramide 1-phosphate carrier activity" 
+
+- [ceramide 1-phosphate transfer activity](http://purl.obolibrary.org/obo/GO_1902388) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a ceramide 1-phosphate from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23863933" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+#### Added
+- [ceramide 1-phosphate transfer activity](http://purl.obolibrary.org/obo/GO_1902388) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ceramide 1-phosphate transfer activity](http://purl.obolibrary.org/obo/GO_1902388) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ceramide 1-phosphate carrier activity" 
+
+- [ceramide 1-phosphate transfer activity](http://purl.obolibrary.org/obo/GO_1902388) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a ceramide 1-phosphate from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23863933" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+
+### ceramide transfer activity `http://purl.obolibrary.org/obo/GO_0120017`
+#### Removed
+- [ceramide transfer activity](http://purl.obolibrary.org/obo/GO_0120017) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ceramide carrier activity" 
+
+- [ceramide transfer activity](http://purl.obolibrary.org/obo/GO_0120017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a ceramide from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [ceramide transfer activity](http://purl.obolibrary.org/obo/GO_0120017) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ceramide transfer activity](http://purl.obolibrary.org/obo/GO_0120017) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ceramide carrier activity" 
+
+- [ceramide transfer activity](http://purl.obolibrary.org/obo/GO_0120017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a ceramide from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### cerebroside transfer activity `http://purl.obolibrary.org/obo/GO_0140340`
+#### Removed
+- [cerebroside transfer activity](http://purl.obolibrary.org/obo/GO_0140340) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cerebroside carrier activity" 
+
+- [cerebroside transfer activity](http://purl.obolibrary.org/obo/GO_0140340) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Directly binding to a cerebroside and delivering it either to an acceptor molecule or to a specific location." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+#### Added
+- [cerebroside transfer activity](http://purl.obolibrary.org/obo/GO_0140340) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cerebroside transfer activity](http://purl.obolibrary.org/obo/GO_0140340) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "cerebroside carrier activity" 
+
+- [cerebroside transfer activity](http://purl.obolibrary.org/obo/GO_0140340) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a cerebroside from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+
 ### chloroplast outer membrane translocon `http://purl.obolibrary.org/obo/GO_0010278`
 #### Removed
 - [chloroplast outer membrane translocon](http://purl.obolibrary.org/obo/GO_0010278) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The protein transport machinery of the chloroplast outer membrane that contains at least three components Toc159, Toc75 and Toc34, interacts with precursor proteins which are imported into the chloroplast in a GTP dependant manner." 
@@ -3959,6 +4435,34 @@
 
 - [chloroplast protein-transporting ATPase activity](http://purl.obolibrary.org/obo/GO_0016464) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a protein from one side of a membrane to the other according to the reaction: ATP + H2O = ADP + phosphate; drives the transport of proteins into the chloroplast stroma." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.4" 
+
+
+### cholesterol transfer activity `http://purl.obolibrary.org/obo/GO_0120020`
+#### Removed
+- [cholesterol transfer activity](http://purl.obolibrary.org/obo/GO_0120020) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "cholesterol carrier activity" 
+
+- [cholesterol transfer activity](http://purl.obolibrary.org/obo/GO_0120020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes cholesterol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [cholesterol transfer activity](http://purl.obolibrary.org/obo/GO_0120020) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cholesterol transfer activity](http://purl.obolibrary.org/obo/GO_0120020) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "cholesterol carrier activity" 
+
+- [cholesterol transfer activity](http://purl.obolibrary.org/obo/GO_0120020) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of cholesterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 
 ### chrorion micropyle `http://purl.obolibrary.org/obo/GO_0070825`
@@ -4556,6 +5060,22 @@
 - [di-trans, poly-cis-undecaprenol kinase activity](http://purl.obolibrary.org/obo/GO_0036433) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete di-trans, poly-cis-undecaprenol kinase activity" 
 
 
+### diacylglyceride transfer activity `http://purl.obolibrary.org/obo/GO_0140337`
+#### Removed
+- [diacylglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140337) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "diacylglyceride carrier activity" 
+
+- [diacylglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140337) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Directly binding to diacylglyceride and delivering it either to an acceptor molecule or to a specific location." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+#### Added
+- [diacylglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140337) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [diacylglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140337) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "diacylglyceride carrier activity" 
+
+- [diacylglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140337) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of diacylglyceride from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+
 ### dihydrobiopterin metabolic process `http://purl.obolibrary.org/obo/GO_0051066`
 #### Removed
 - [dihydrobiopterin metabolic process](http://purl.obolibrary.org/obo/GO_0051066) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a dihydrobiopterin, a reduced pteridine derivative related to folic acid; it acts as an electron carrier in tyrosine biosynthesis and its quinoid form is produced by oxidation of tetrahydrobiopterin in several biological hydroxylation reactions." 
@@ -4648,6 +5168,34 @@
 - [dissimilatory sulfate reduction](http://purl.obolibrary.org/obo/GO_0019420) SubClassOf [sulfur compound metabolic process](http://purl.obolibrary.org/obo/GO_0006790) 
 
 
+### endocytic recycling `http://purl.obolibrary.org/obo/GO_0032456`
+#### Removed
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of membrane-bounded vesicles from endosomes back to the plasma membrane, a trafficking pathway that promotes the recycling of internalized transmembrane proteins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16473635" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23563491" 
+
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [label](http://www.w3.org/2000/01/rdf-schema#label) "endocytic recycling" 
+
+#### Added
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31237"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "endocytic recycling" 
+
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "endosome to plasma membrane protein transport" 
+
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances in membrane-bounded vesicles from endosomes to the plasma membrane. This includes endocytic recycling, which returns internalized membrane proteins and lipids to the cell surface, and the delivery of newly synthesized cargo that passes through recycling endosomes en route from the Golgi apparatus to the plasma membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16473635" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15534004" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15040445" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23563491" 
+
+- [endocytic recycling](http://purl.obolibrary.org/obo/GO_0032456) [label](http://www.w3.org/2000/01/rdf-schema#label) "endosome to plasma membrane transport" 
+
+
 ### endoplasmic reticulum protein quality control `http://purl.obolibrary.org/obo/GO_0170080`
 
 #### Added
@@ -4730,7 +5278,7 @@
 
 - [endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_0099638) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-- [endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_0099638) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term unnecessarily specified protein cargo, and no biologically meaningful sibling for non-protein cargo could be justified, so it was merged up into GO:0032456 endocytic recycling." 
+- [endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_0099638) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term unnecessarily specified protein cargo, so it was merged into GO:0032456 (endosome to plasma membrane transport, formerly endocytic recycling)." 
 
 - [endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_0099638) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete endosome to plasma membrane protein transport" 
 
@@ -5424,6 +5972,22 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36347252" 
 
 
+### glycolipid transfer activity `http://purl.obolibrary.org/obo/GO_0017089`
+#### Removed
+- [glycolipid transfer activity](http://purl.obolibrary.org/obo/GO_0017089) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "glycolipid carrier activity" 
+
+- [glycolipid transfer activity](http://purl.obolibrary.org/obo/GO_0017089) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a glycolipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. A glycolipid is a compound usually containing 1-4 linked monosaccharide residues joined by a glycosyl linkage to a lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30337668" 
+
+#### Added
+- [glycolipid transfer activity](http://purl.obolibrary.org/obo/GO_0017089) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glycolipid transfer activity](http://purl.obolibrary.org/obo/GO_0017089) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "glycolipid carrier activity" 
+
+- [glycolipid transfer activity](http://purl.obolibrary.org/obo/GO_0017089) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a glycolipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer. A glycolipid is a compound usually containing 1-4 linked monosaccharide residues joined by a glycosyl linkage to a lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30337668" 
+
+
 ### glycolysis from storage polysaccharide through glucose-1-phosphate `http://purl.obolibrary.org/obo/GO_0093001`
 #### Removed
 - [glycolysis from storage polysaccharide through glucose-1-phosphate](http://purl.obolibrary.org/obo/GO_0093001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of a storage polysaccharide into pyruvate through a glucose-1-phosphate intermediate, with the concomitant production of a small amount of ATP and the reduction of NAD to NADH." 
@@ -6076,6 +6640,126 @@
 - [interleukin-5-mediated signaling pathway](http://purl.obolibrary.org/obo/GO_0038043) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) 
 
 
+### intermembrane lipid transfer `http://purl.obolibrary.org/obo/GO_0120009`
+#### Removed
+- [intermembrane lipid transfer](http://purl.obolibrary.org/obo/GO_0120009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The transport of lipids between membranes in which a lipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [intermembrane lipid transfer](http://purl.obolibrary.org/obo/GO_0120009) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intermembrane lipid transfer](http://purl.obolibrary.org/obo/GO_0120009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The nonvesicular transport of lipids between two membranes, in which lipid molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### intermembrane lipid transporter complex `http://purl.obolibrary.org/obo/GO_7770015`
+#### Removed
+- [intermembrane lipid transporter complex](http://purl.obolibrary.org/obo/GO_7770015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex that mediates the transport of lipids between membranes, in which a lipid molecule or molecules is transferred through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40269155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39106189" 
+
+#### Added
+- [intermembrane lipid transporter complex](http://purl.obolibrary.org/obo/GO_7770015) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intermembrane lipid transporter complex](http://purl.obolibrary.org/obo/GO_7770015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A protein complex that mediates the nonvesicular transfer of lipids between two membranes, shielding the lipid molecule or molecules from the aqueous phase as they move from a donor membrane to an acceptor membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40269155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39106189" 
+
+
+### intermembrane phospholipid transfer `http://purl.obolibrary.org/obo/GO_0120010`
+#### Removed
+- [intermembrane phospholipid transfer](http://purl.obolibrary.org/obo/GO_0120010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The transport of phospholipids between membranes in which a phospholipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [intermembrane phospholipid transfer](http://purl.obolibrary.org/obo/GO_0120010) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intermembrane phospholipid transfer](http://purl.obolibrary.org/obo/GO_0120010) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The nonvesicular transport of phospholipids between two membranes, in which phospholipid molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### intermembrane sphingolipid transfer `http://purl.obolibrary.org/obo/GO_0120012`
+#### Removed
+- [intermembrane sphingolipid transfer](http://purl.obolibrary.org/obo/GO_0120012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The transport of sphingolipids between membranes in which a sphingolipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [intermembrane sphingolipid transfer](http://purl.obolibrary.org/obo/GO_0120012) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intermembrane sphingolipid transfer](http://purl.obolibrary.org/obo/GO_0120012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The nonvesicular transport of sphingolipids between two membranes, in which sphingolipid molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### intermembrane sterol transfer `http://purl.obolibrary.org/obo/GO_0120011`
+#### Removed
+- [intermembrane sterol transfer](http://purl.obolibrary.org/obo/GO_0120011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The transport of sterols between membranes in which a sterol molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [intermembrane sterol transfer](http://purl.obolibrary.org/obo/GO_0120011) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [intermembrane sterol transfer](http://purl.obolibrary.org/obo/GO_0120011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The nonvesicular transport of sterols between two membranes, in which sterol molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
 ### interphotoreceptor matrix `http://purl.obolibrary.org/obo/GO_0033165`
 #### Removed
 - [interphotoreceptor matrix](http://purl.obolibrary.org/obo/GO_0033165) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A specialized extracellularc matrix that surrounds the photoreceptors of the retina and lies between them and the apical surface of the retinal pigment epithelium. The IPM has been implicated in several important activities required for photoreceptor function and maintenance." 
@@ -6267,6 +6951,48 @@
 - [lipid X metabolic process](http://purl.obolibrary.org/obo/GO_2001289) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipid X metabolic process" 
 
 
+### lipid exchange activity `http://purl.obolibrary.org/obo/GO_7770011`
+#### Removed
+- [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) SubClassOf [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
+
+#### Added
+- [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) SubClassOf [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) 
+
+
+### lipid transfer activity `http://purl.obolibrary.org/obo/GO_0120013`
+#### Removed
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "lipid carrier activity" 
+
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a lipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. This results in intermembrane transfer of lipids." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) SubClassOf [lipid carrier activity](http://purl.obolibrary.org/obo/GO_0005319) 
+
+#### Added
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a lipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term covers lipid transfer by any mechanism. Annotate to the mechanism-specific children GO:7770133 shuttle-mediated intermembrane lipid transfer activity or GO:7770132 bridge-mediated intermembrane lipid transfer activity only when there is evidence for the mechanism; lipid transfer assays alone support annotation to this term or to its lipid-specific children." 
+
+
 ### lipoate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009107`
 #### Removed
 - [lipoate biosynthetic process](http://purl.obolibrary.org/obo/GO_0009107) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of lipoate, 1,2-dithiolane-3-pentanoate, the anion derived from lipoic acid." 
@@ -6305,6 +7031,22 @@
 
 #### Added
 - [lipoate synthase activity](http://purl.obolibrary.org/obo/GO_0016992) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) 
+
+
+### lipopolysaccharide transfer activity `http://purl.obolibrary.org/obo/GO_0140332`
+#### Removed
+- [lipopolysaccharide transfer activity](http://purl.obolibrary.org/obo/GO_0140332) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "lipopolysaccharide carrier activity" 
+
+- [lipopolysaccharide transfer activity](http://purl.obolibrary.org/obo/GO_0140332) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a lipopolysaccharide (LPS) from the outer leaflet of a donor membrane, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to the outer leaflet of an acceptor membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24639492" 
+
+#### Added
+- [lipopolysaccharide transfer activity](http://purl.obolibrary.org/obo/GO_0140332) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipopolysaccharide transfer activity](http://purl.obolibrary.org/obo/GO_0140332) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "lipopolysaccharide carrier activity" 
+
+- [lipopolysaccharide transfer activity](http://purl.obolibrary.org/obo/GO_0140332) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a lipopolysaccharide (LPS) from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24639492" 
 
 
 ### lipoyl-GcvH:protein N-lipoyltransferase activity `http://purl.obolibrary.org/obo/GO_7770091`
@@ -8030,6 +8772,26 @@
 - [negative regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903851) SubClassOf [negative regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051129) 
 
 
+### negative regulation of endocytic recycling `http://purl.obolibrary.org/obo/GO_2001136`
+#### Removed
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of endocytic recycling." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of endocytic recycling" 
+
+#### Added
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31237"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "negative regulation of endocytic recycling" 
+
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "negative regulation of endosome to plasma membrane protein transport" 
+
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of endosome to plasma membrane transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of endosome to plasma membrane transport" 
+
+
 ### negative regulation of endosome to plasma membrane protein transport `http://purl.obolibrary.org/obo/GO_1905750`
 #### Removed
 - [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of endosome to plasma membrane protein transport." 
@@ -8067,7 +8829,7 @@
 
 - [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-- [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001136 negative regulation of endocytic recycling." 
+- [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001136 (negative regulation of endosome to plasma membrane transport)." 
 
 - [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of endosome to plasma membrane protein transport" 
 
@@ -8863,6 +9625,14 @@
 - [obsolete 'de novo' NAD biosynthetic process](http://purl.obolibrary.org/obo/GO_0034627) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
 
 
+### obsolete DNA-3-methyladenine glycosylase IV activity `http://purl.obolibrary.org/obo/GO_0043736`
+#### Removed
+- [obsolete DNA-3-methyladenine glycosylase IV activity](http://purl.obolibrary.org/obo/GO_0043736) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [DNA-7-methyladenine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052821) 
+
+- [obsolete DNA-3-methyladenine glycosylase IV activity](http://purl.obolibrary.org/obo/GO_0043736) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [DNA-3-methylguanine glycosylase activity](http://purl.obolibrary.org/obo/GO_0052822) 
+
+
+
 ### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
 #### Removed
 - [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -8997,6 +9767,14 @@
 - [obsolete glycoprotein-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0003759) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32494"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### obsolete inositol heptakisphosphate 4-kinase or 6-kinase activity `http://purl.obolibrary.org/obo/GO_0033199`
+#### Removed
+- [obsolete inositol heptakisphosphate 4-kinase or 6-kinase activity](http://purl.obolibrary.org/obo/GO_0033199) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [5-diphosphoinositol pentakisphosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0000833) 
+
+- [obsolete inositol heptakisphosphate 4-kinase or 6-kinase activity](http://purl.obolibrary.org/obo/GO_0033199) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [5-diphosphoinositol pentakisphosphate 6-kinase activity](http://purl.obolibrary.org/obo/GO_0000834) 
+
+
+
 ### obsolete integral component of phagophore assembly site membrane `http://purl.obolibrary.org/obo/GO_0097634`
 #### Removed
 - [obsolete integral component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097634) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0034045) 
@@ -9090,6 +9868,12 @@
 - [obsolete nicotinate nucleotide biosynthetic process from tryptophan](http://purl.obolibrary.org/obo/GO_0019356) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) ['de novo' NAD+ biosynthetic process from L-aspartate](http://purl.obolibrary.org/obo/GO_0034628) 
 
 - [obsolete nicotinate nucleotide biosynthetic process from tryptophan](http://purl.obolibrary.org/obo/GO_0019356) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents the same pathway as 'de novo' NAD+ biosynthetic process." 
+
+
+### obsolete polydeoxyribonucleotide kinase activity `http://purl.obolibrary.org/obo/GO_0051733`
+#### Removed
+- [obsolete polydeoxyribonucleotide kinase activity](http://purl.obolibrary.org/obo/GO_0051733) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity](http://purl.obolibrary.org/obo/GO_0051737) 
+
 
 
 ### obsolete positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900740`
@@ -9208,6 +9992,34 @@
 
 #### Added
 - [outward rectifier potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0140628) SubClassOf [voltage-gated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770090) 
+
+
+### oxysterol transfer activity `http://purl.obolibrary.org/obo/GO_0120021`
+#### Removed
+- [oxysterol transfer activity](http://purl.obolibrary.org/obo/GO_0120021) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "oxysterol carrier activity" 
+
+- [oxysterol transfer activity](http://purl.obolibrary.org/obo/GO_0120021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes oxysterol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [oxysterol transfer activity](http://purl.obolibrary.org/obo/GO_0120021) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [oxysterol transfer activity](http://purl.obolibrary.org/obo/GO_0120021) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "oxysterol carrier activity" 
+
+- [oxysterol transfer activity](http://purl.obolibrary.org/obo/GO_0120021) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of oxysterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 
 ### pH-gated ion channel activator activity `http://purl.obolibrary.org/obo/GO_0140503`
@@ -9602,12 +10414,124 @@
 - [phenylalanyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006432) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete phenylalanyl-tRNA aminoacylation" 
 
 
+### phosphatidic acid transfer activity `http://purl.obolibrary.org/obo/GO_1990050`
+#### Removed
+- [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidic acid carrier activity" 
+
+- [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a phosphatidic acid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. Phosphatidic acid refers to a glycophospholipids with, in general, a saturated fatty acid bonded to carbon-1, an unsaturated fatty acid bonded to carbon-2, and a phosphate group bonded to carbon-3." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23042293" 
+
+#### Added
+- [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "phosphatidic acid carrier activity" 
+
+- [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a phosphatidic acid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer. Phosphatidic acid refers to a glycophospholipids with, in general, a saturated fatty acid bonded to carbon-1, an unsaturated fatty acid bonded to carbon-2, and a phosphate group bonded to carbon-3." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23042293" 
+
+
 ### phosphatidylcholine lysophospholipase A1 activity `http://purl.obolibrary.org/obo/GO_0004622`
 
 #### Added
 - [phosphatidylcholine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0004622) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40435" 
 
 - [phosphatidylcholine lysophospholipase A1 activity](http://purl.obolibrary.org/obo/GO_0004622) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40435](http://rdf.rhea-db.org/40435) 
+
+
+### phosphatidylcholine transfer activity `http://purl.obolibrary.org/obo/GO_0120019`
+#### Removed
+- [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylcholine carrier activity" 
+
+- [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes phosphatidylcholine from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "phosphatidylcholine carrier activity" 
+
+- [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of phosphatidylcholine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### phosphatidylethanolamine transfer activity `http://purl.obolibrary.org/obo/GO_1904121`
+#### Removed
+- [phosphatidylethanolamine transfer activity](http://purl.obolibrary.org/obo/GO_1904121) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylethanolamine carrier activity" 
+
+- [phosphatidylethanolamine transfer activity](http://purl.obolibrary.org/obo/GO_1904121) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes phosphatidylethanolamine from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:8606365" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000066" 
+
+#### Added
+- [phosphatidylethanolamine transfer activity](http://purl.obolibrary.org/obo/GO_1904121) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylethanolamine transfer activity](http://purl.obolibrary.org/obo/GO_1904121) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "phosphatidylethanolamine carrier activity" 
+
+- [phosphatidylethanolamine transfer activity](http://purl.obolibrary.org/obo/GO_1904121) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of phosphatidylethanolamine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:8606365" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000066" 
+
+
+### phosphatidylglycerol transfer activity `http://purl.obolibrary.org/obo/GO_0140339`
+#### Removed
+- [phosphatidylglycerol transfer activity](http://purl.obolibrary.org/obo/GO_0140339) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylglycerol carrier activity" 
+
+- [phosphatidylglycerol transfer activity](http://purl.obolibrary.org/obo/GO_0140339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Directly binding to phosphatidylglycerol and delivering it either to an acceptor molecule or to a specific location." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+#### Added
+- [phosphatidylglycerol transfer activity](http://purl.obolibrary.org/obo/GO_0140339) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylglycerol transfer activity](http://purl.obolibrary.org/obo/GO_0140339) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "phosphatidylglycerol carrier activity" 
+
+- [phosphatidylglycerol transfer activity](http://purl.obolibrary.org/obo/GO_0140339) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of phosphatidylglycerol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+
+### phosphatidylinositol transfer activity `http://purl.obolibrary.org/obo/GO_0008526`
+#### Removed
+- [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol carrier activity" 
+
+- [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes phosphatidylinositol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "phosphatidylinositol carrier activity" 
+
+- [phosphatidylinositol transfer activity](http://purl.obolibrary.org/obo/GO_0008526) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of phosphatidylinositol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 
 ### phosphatidylinositol-4-phosphate-cholesterol exchange activity `http://purl.obolibrary.org/obo/GO_0160291`
@@ -9624,6 +10548,18 @@
 - [phosphatidylinositol-4-phosphate-cholesterol exchange activity](http://purl.obolibrary.org/obo/GO_0160291) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol-4-phosphate:cholesterol exchange activity" 
 
 - [phosphatidylinositol-4-phosphate-cholesterol exchange activity](http://purl.obolibrary.org/obo/GO_0160291) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidyl-1D-myo-inositol 4-phosphate:cholesterol exchange activity" 
+
+
+### phosphatidylserine transfer activity `http://purl.obolibrary.org/obo/GO_0140343`
+#### Removed
+- [phosphatidylserine transfer activity](http://purl.obolibrary.org/obo/GO_0140343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes phosphatidylserine from the outer leaflet of a donor membrane, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to the outer leaflet of an acceptor membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26206935" 
+
+#### Added
+- [phosphatidylserine transfer activity](http://purl.obolibrary.org/obo/GO_0140343) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylserine transfer activity](http://purl.obolibrary.org/obo/GO_0140343) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of phosphatidylserine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26206935" 
 
 
 ### phosphatidylserine-phosphatidylinositol-4-phosphate exchange activity `http://purl.obolibrary.org/obo/GO_0160270`
@@ -9689,6 +10625,34 @@
 - [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) [label](http://www.w3.org/2000/01/rdf-schema#label) "phospholactate phosphatase activity" 
 
 - [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
+
+
+### phospholipid transfer activity `http://purl.obolibrary.org/obo/GO_0120014`
+#### Removed
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phospholipid carrier activity" 
+
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a phospholipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "phospholipid carrier activity" 
+
+- [phospholipid transfer activity](http://purl.obolibrary.org/obo/GO_0120014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a phospholipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 
 ### phosphopantetheine-dependent carrier activity `http://purl.obolibrary.org/obo/GO_0140414`
@@ -9888,6 +10852,26 @@
 - [positive regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903852) SubClassOf [positive regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051130) 
 
 
+### positive regulation of endocytic recycling `http://purl.obolibrary.org/obo/GO_2001137`
+#### Removed
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of endocytic recycling." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of endocytic recycling" 
+
+#### Added
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31237"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "positive regulation of endocytic recycling" 
+
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "positive regulation of endosome to plasma membrane protein transport" 
+
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of endosome to plasma membrane transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [positive regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001137) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of endosome to plasma membrane transport" 
+
+
 ### positive regulation of endosome to plasma membrane protein transport `http://purl.obolibrary.org/obo/GO_1905751`
 #### Removed
 - [positive regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905751) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of endosome to plasma membrane protein transport." 
@@ -9925,7 +10909,7 @@
 
 - [positive regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905751) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-- [positive regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905751) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001137 positive regulation of endocytic recycling." 
+- [positive regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905751) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001137 (positive regulation of endosome to plasma membrane transport)." 
 
 - [positive regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905751) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of endosome to plasma membrane protein transport" 
 
@@ -11090,6 +12074,26 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
 
 
+### regulation of endocytic recycling `http://purl.obolibrary.org/obo/GO_2001135`
+#### Removed
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of endocytic recycling." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of endocytic recycling" 
+
+#### Added
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31237"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "regulation of endocytic recycling" 
+
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "regulation of endosome to plasma membrane protein transport" 
+
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of endosome to plasma membrane transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001135) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of endosome to plasma membrane transport" 
+
+
 ### regulation of endosome to plasma membrane protein transport `http://purl.obolibrary.org/obo/GO_1905749`
 #### Removed
 - [regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905749) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of endosome to plasma membrane protein transport." 
@@ -11125,7 +12129,7 @@
 
 - [regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905749) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-- [regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905749) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001135 regulation of endocytic recycling." 
+- [regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905749) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001135 (regulation of endosome to plasma membrane transport)." 
 
 - [regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905749) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of endosome to plasma membrane protein transport" 
 
@@ -11911,6 +12915,42 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004296" 
 
 
+### shuttle-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770133`
+
+#### Added
+- Class: [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T00:41:10Z" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770133" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a lipid from a donor membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. The lipid-binding protein or domain carries one or a few lipid molecules at a time and moves with its cargo between the two membranes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37455811" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "shuttle-like lipid transfer activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is typically enabled by soluble lipid transfer proteins or lipid transfer domains, including those that mediate lipid countertransport (see GO:7770011 lipid exchange activity), and by bacterial periplasmic lipid carriers such as MlaC. For lipid transfer through a protein that spans the space between the two membranes, consider GO:7770132 bridge-mediated intermembrane lipid transfer activity. Lipid transfer assays alone support annotation to GO:0120013 lipid transfer activity." 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [label](http://www.w3.org/2000/01/rdf-schema#label) "shuttle-mediated intermembrane lipid transfer activity" 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) SubClassOf [lipid carrier activity](http://purl.obolibrary.org/obo/GO_0005319) 
+
+- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) SubClassOf [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
+
+
 ### snRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_1990273`
 #### Removed
 - [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snRNA. The snRNA capping process includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed U6 snRNA is also TMG capped." 
@@ -12024,6 +13064,46 @@
 - [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) SubClassOf [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) 
 
 
+### sphingolipid transfer activity `http://purl.obolibrary.org/obo/GO_0120016`
+#### Removed
+- [sphingolipid transfer activity](http://purl.obolibrary.org/obo/GO_0120016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a sphingolipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [sphingolipid transfer activity](http://purl.obolibrary.org/obo/GO_0120016) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sphingolipid transfer activity](http://purl.obolibrary.org/obo/GO_0120016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a sphingolipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### sphingomyelin transfer activity `http://purl.obolibrary.org/obo/GO_0140338`
+#### Removed
+- [sphingomyelin transfer activity](http://purl.obolibrary.org/obo/GO_0140338) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sphingomyelin carrier activity" 
+
+- [sphingomyelin transfer activity](http://purl.obolibrary.org/obo/GO_0140338) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a sphingomyelin from the outer leaflet of a donor membrane, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to the outer leaflet of an acceptor membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+#### Added
+- [sphingomyelin transfer activity](http://purl.obolibrary.org/obo/GO_0140338) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sphingomyelin transfer activity](http://purl.obolibrary.org/obo/GO_0140338) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "sphingomyelin carrier activity" 
+
+- [sphingomyelin transfer activity](http://purl.obolibrary.org/obo/GO_0140338) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a sphingomyelin from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+
 ### spongiome `http://purl.obolibrary.org/obo/GO_0062160`
 #### Removed
 - [spongiome](http://purl.obolibrary.org/obo/GO_0062160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular anatomical entity which is a network of tubules and vessicles and is part of the contractile vacuole complex. It is involved in the discharge of water externally. One of its functions is osmoregulatory." 
@@ -12044,6 +13124,34 @@
 
 - [starch catabolic process](http://purl.obolibrary.org/obo/GO_0005983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of starch, the most important reserve polysaccharide in plants. The breakdown products may be further catabolized by entering glycolysis." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:curators" 
+
+
+### sterol transfer activity `http://purl.obolibrary.org/obo/GO_0120015`
+#### Removed
+- [sterol transfer activity](http://purl.obolibrary.org/obo/GO_0120015) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "sterol carrier activity" 
+
+- [sterol transfer activity](http://purl.obolibrary.org/obo/GO_0120015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a sterol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+#### Added
+- [sterol transfer activity](http://purl.obolibrary.org/obo/GO_0120015) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sterol transfer activity](http://purl.obolibrary.org/obo/GO_0120015) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "sterol carrier activity" 
+
+- [sterol transfer activity](http://purl.obolibrary.org/obo/GO_0120015) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a sterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25797198" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 
 ### substrate localization to autophagosome `http://purl.obolibrary.org/obo/GO_0061753`
@@ -12732,6 +13840,22 @@
 
 #### Added
 - [tricetin O-methytransferase activity](http://purl.obolibrary.org/obo/GO_0102146) [label](http://www.w3.org/2000/01/rdf-schema#label) "tricetin O-methyltransferase activity" 
+
+
+### triglyceride transfer activity `http://purl.obolibrary.org/obo/GO_0140344`
+#### Removed
+- [triglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140344) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "triglyceride carrier activity" 
+
+- [triglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140344) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Directly binding to a triglyceride and delivering it either to an acceptor molecule or to a specific location." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23475612" 
+
+#### Added
+- [triglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140344) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [triglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140344) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "triglyceride carrier activity" 
+
+- [triglyceride transfer activity](http://purl.obolibrary.org/obo/GO_0140344) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a triglyceride from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23475612" 
 
 
 ### tripartite regional subdivision `http://purl.obolibrary.org/obo/GO_0007351`
