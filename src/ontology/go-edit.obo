@@ -399845,13 +399845,14 @@ creation_date: 2010-10-18T03:25:56Z
 
 [Term]
 id: GO:0071971
-name: extracellular exosome assembly
+name: obsolete extracellular exosome assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of a set of components to form an extracellular vesicular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Exosomes are defined by their size, which generally ranges from 30 nm to 100 nm." [GOC:mah, GOC:tfm, PMID:19442504, PMID:27462458]
+def: "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form an extracellular vesicular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Exosomes are defined by their size, which generally ranges from 30 nm to 100 nm." [GOC:mah, GOC:tfm, PMID:19442504, PMID:27462458]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "extracellular vesicular exosome assembly" EXACT [GOC:vesicles]
-intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0070062 ! extracellular exosome
-relationship: part_of GO:0097734 ! extracellular exosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1990182
 created_by: mah
 creation_date: 2010-10-18T03:44:18Z
 
@@ -431898,15 +431899,18 @@ creation_date: 2016-09-30T10:50:11Z
 
 [Term]
 id: GO:0097734
-name: extracellular exosome biogenesis
+name: obsolete extracellular exosome biogenesis
 namespace: biological_process
-def: "The assembly and secretion of an extracellular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane." [GOC:bf, GOC:PARL, PMID:19442504, PMID:25392495]
+def: "OBSOLETE. The assembly and secretion of an extracellular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane." [GOC:bf, GOC:PARL, PMID:19442504, PMID:25392495]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "exosome assembly or secretion" EXACT []
 synonym: "exosome biogenesis" EXACT []
 synonym: "exosome production" EXACT []
 synonym: "ILV assembly" RELATED []
 synonym: "intraluminal vesicle assembly" RELATED []
-is_a: GO:0140112 ! extracellular vesicle biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1990182
 created_by: pr
 creation_date: 2016-10-03T14:35:25Z
 
@@ -465662,23 +465666,30 @@ creation_date: 2017-10-20T13:57:38Z
 
 [Term]
 id: GO:0140112
-name: extracellular vesicle biogenesis
+name: obsolete extracellular vesicle biogenesis
 namespace: biological_process
-def: "The assembly and secretion of a set of components to form an extracellular vesicle, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." [PMID:28736435]
+def: "OBSOLETE. The assembly and secretion of a set of components to form an extracellular vesicle, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." [PMID:28736435]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "extracellular vesicle assembly" EXACT []
-is_a: GO:0044085 ! cellular component biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14256" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1990182
+consider: GO:0006900
 created_by: pg
 creation_date: 2017-10-23T11:53:42Z
 
 [Term]
 id: GO:0140113
-name: extracellular microvesicle biogenesis
+name: obsolete extracellular microvesicle biogenesis
 namespace: biological_process
-def: "The assembly and secretion of a set of components to form an extracellular microvesicle, a membrane-bounded vesicle that ranges from 100 nm to 1 micron in size and exits the cell by budding." [PMID:28736435]
+def: "OBSOLETE. The assembly and secretion of a set of components to form an extracellular microvesicle, a membrane-bounded vesicle that ranges from 100 nm to 1 micron in size and exits the cell by budding." [PMID:28736435]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "extracellular microvesicle assembly" RELATED []
-is_a: GO:0140112 ! extracellular vesicle biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14256" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:0006900
 created_by: pg
 creation_date: 2017-10-23T12:00:11Z
 
@@ -548283,42 +548294,48 @@ creation_date: 2014-10-20T15:18:53Z
 
 [Term]
 id: GO:1903551
-name: regulation of extracellular exosome assembly
+name: obsolete regulation of extracellular exosome assembly
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "regulation of extracellular vesicular exosome assembly" EXACT [GOC:vesicles]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0071971 ! extracellular exosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1903541
 created_by: pga
 creation_date: 2014-10-20T15:37:25Z
 
 [Term]
 id: GO:1903552
-name: negative regulation of extracellular exosome assembly
+name: obsolete negative regulation of extracellular exosome assembly
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "down regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "down-regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "downregulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "inhibition of extracellular vesicular exosome assembly" NARROW [GOC:TermGenie]
 synonym: "negative regulation of extracellular vesicular exosome assembly" EXACT [GOC:vesicles]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0071971 ! extracellular exosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1903542
 created_by: pga
 creation_date: 2014-10-20T15:37:33Z
 
 [Term]
 id: GO:1903553
-name: positive regulation of extracellular exosome assembly
+name: obsolete positive regulation of extracellular exosome assembly
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "activation of extracellular vesicular exosome assembly" NARROW [GOC:TermGenie]
 synonym: "positive regulation of extracellular vesicular exosome assembly" RELATED [GOC:vesicles]
 synonym: "up regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "up-regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "upregulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0071971 ! extracellular exosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1903543
 created_by: pga
 creation_date: 2014-10-20T15:37:42Z
 
@@ -595310,7 +595327,6 @@ is_a: GO:0006887 ! exocytosis
 is_a: neverin:4890
 intersection_of: GO:0006887 ! exocytosis
 intersection_of: has_primary_input GO:0070062 ! extracellular exosome
-relationship: part_of GO:0097734 ! extracellular exosome biogenesis
 created_by: hjd
 creation_date: 2013-09-04T21:08:14Z
 
@@ -599529,7 +599545,7 @@ comment: An example of this is SCD1 in human (UniProt symbol P18827) in PMID:226
 synonym: "exosome complex" BROAD []
 is_a: GO:1990563 ! extracellular exosome complex
 relationship: capable_of GO:0051087 ! protein-folding chaperone binding
-relationship: capable_of_part_of GO:0071971 ! extracellular exosome assembly
+relationship: capable_of_part_of GO:1990182 ! exosomal secretion
 relationship: part_of GO:0070062 ! extracellular exosome
 created_by: bhm
 creation_date: 2014-11-25T16:30:47Z
@@ -599544,7 +599560,7 @@ synonym: "exosome complex" EXACT []
 synonym: "extracellular vesicular exosome complex" EXACT [GOC:vesicles]
 is_a: GO:0140392 ! extracellular protein-containing complex
 relationship: capable_of GO:0051087 ! protein-folding chaperone binding
-relationship: capable_of_part_of GO:0071971 ! extracellular exosome assembly
+relationship: capable_of_part_of GO:1990182 ! exosomal secretion
 relationship: part_of GO:0070062 ! extracellular exosome
 created_by: bhm
 creation_date: 2014-11-25T16:35:53Z
