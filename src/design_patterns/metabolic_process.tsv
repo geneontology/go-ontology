@@ -229,10 +229,8 @@ http://purl.obolibrary.org/obo/GO_0018894	dibenzo-p-dioxin metabolic process	htt
 http://purl.obolibrary.org/obo/GO_0018893	dibenzofuran metabolic process	http://purl.obolibrary.org/obo/CHEBI_28145	dibenzofuran
 http://purl.obolibrary.org/obo/GO_0043648	dicarboxylic acid metabolic process	http://purl.obolibrary.org/obo/CHEBI_28965	dicarboxylic acid dianion
 http://purl.obolibrary.org/obo/GO_0018900	dichloromethane metabolic process	http://purl.obolibrary.org/obo/CHEBI_15767	dichloromethane
-http://purl.obolibrary.org/obo/GO_0051066	dihydrobiopterin metabolic process	http://purl.obolibrary.org/obo/CHEBI_38797	dihydropterin
 http://purl.obolibrary.org/obo/GO_0046452	dihydrofolate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57451	dihydrofolate(2-)
 http://purl.obolibrary.org/obo/GO_0051068	dihydrolipoamide metabolic process	http://purl.obolibrary.org/obo/CHEBI_17694	dihydrolipoamide
-http://purl.obolibrary.org/obo/GO_0051067	dihydropteridine metabolic process	http://purl.obolibrary.org/obo/CHEBI_30156	6,7-dihydropteridine
 http://purl.obolibrary.org/obo/GO_0018907	dimethyl sulfoxide metabolic process	http://purl.obolibrary.org/obo/CHEBI_28262	dimethyl sulfoxide
 http://purl.obolibrary.org/obo/GO_0050993	dimethylallyl diphosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57623	prenyl diphosphate(3-)
 http://purl.obolibrary.org/obo/GO_0034311	diol metabolic process	http://purl.obolibrary.org/obo/CHEBI_23824	diol
@@ -299,7 +297,6 @@ http://purl.obolibrary.org/obo/GO_0001575	globoside metabolic process	http://pur
 http://purl.obolibrary.org/obo/GO_0044042	glucan metabolic process	http://purl.obolibrary.org/obo/CHEBI_37163	glucan
 http://purl.obolibrary.org/obo/GO_0008211	glucocorticoid metabolic process	http://purl.obolibrary.org/obo/CHEBI_24261	glucocorticoid
 http://purl.obolibrary.org/obo/GO_0010391	glucomannan metabolic process	http://purl.obolibrary.org/obo/CHEBI_17020	glucomannan
-http://purl.obolibrary.org/obo/GO_0019255	glucose 1-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_57629	D-glucopyranose 1-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0051156	glucose 6-phosphate metabolic process	http://purl.obolibrary.org/obo/CHEBI_58247	beta-D-glucose 6-phosphate(2-)
 http://purl.obolibrary.org/obo/GO_0006006	glucose metabolic process	http://purl.obolibrary.org/obo/CHEBI_4167	D-glucopyranose
 http://purl.obolibrary.org/obo/GO_0019760	glucosinolate metabolic process	http://purl.obolibrary.org/obo/CHEBI_24279	glucosinolate
@@ -639,7 +636,6 @@ http://purl.obolibrary.org/obo/GO_0042214	terpene metabolic process	http://purl.
 http://purl.obolibrary.org/obo/GO_0046447	terpenoid indole alkaloid metabolic process	http://purl.obolibrary.org/obo/CHEBI_65321	terpenoid indole alkaloid
 http://purl.obolibrary.org/obo/GO_0006721	terpenoid metabolic process	http://purl.obolibrary.org/obo/CHEBI_26873	terpenoid
 http://purl.obolibrary.org/obo/GO_1902644	tertiary alcohol metabolic process	http://purl.obolibrary.org/obo/CHEBI_26878	tertiary alcohol
-http://purl.obolibrary.org/obo/GO_0046146	tetrahydrobiopterin metabolic process	http://purl.obolibrary.org/obo/CHEBI_15372	5,6,7,8-tetrahydrobiopterin
 http://purl.obolibrary.org/obo/GO_0046653	tetrahydrofolate metabolic process	http://purl.obolibrary.org/obo/CHEBI_26907	tetrahydrofolic acid
 http://purl.obolibrary.org/obo/GO_0046900	tetrahydrofolylpolyglutamate metabolic process	http://purl.obolibrary.org/obo/CHEBI_28624	tetrahydrofolyl-poly(glutamic acid) macromolecule
 http://purl.obolibrary.org/obo/GO_0033013	tetrapyrrole metabolic process	http://purl.obolibrary.org/obo/CHEBI_26932	tetrapyrrole
