@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-14/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-15/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-14" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-15" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -3139,6 +3139,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:18161" 
 
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) 
+
+
+### acroblast `http://purl.obolibrary.org/obo/GO_0036063`
+
+#### Added
+- [acroblast](http://purl.obolibrary.org/obo/GO_0036063) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32664"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### acrosomal vesicle `http://purl.obolibrary.org/obo/GO_0001669`
+
+#### Added
+- [acrosomal vesicle](http://purl.obolibrary.org/obo/GO_0001669) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32664"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### acrosome reaction `http://purl.obolibrary.org/obo/GO_0007340`
+
+#### Added
+- [acrosome reaction](http://purl.obolibrary.org/obo/GO_0007340) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32664"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### acyl-glucuronidase activity `http://purl.obolibrary.org/obo/GO_0036237`
@@ -11386,6 +11404,12 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sl" 
 
 
+### premature acrosome loss `http://purl.obolibrary.org/obo/GO_0061948`
+
+#### Added
+- [premature acrosome loss](http://purl.obolibrary.org/obo/GO_0061948) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32664"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### prolyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006433`
 #### Removed
 - [prolyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006433) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of coupling proline to prolyl-tRNA, catalyzed by prolyl-tRNA synthetase. The prolyl-tRNA synthetase is a class-II synthetase. The activated amino acid is transferred to the 3'-OH group of a methionine-accetping tRNA." 
@@ -13064,6 +13088,127 @@
 - [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) SubClassOf [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) 
 
 
+### sphinganine N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_7770136`
+
+#### Added
+- Class: [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32752"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-14T16:55:01Z" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33351" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33491" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33591" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34735" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36535" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36539" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36547" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36555" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36571" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36575" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36615" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36619" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36627" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36647" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36667" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36671" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36675" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36715" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36719" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36767" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64048" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:80859" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "acyl-CoA:sphinganine N-acyltransferase activity" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dihydroceramide synthase activity" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dihydrosphingosine N-acyltransferase activity" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "sphinganine acyltransferase activity" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770136" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [34735](http://rdf.rhea-db.org/34735) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33351](http://rdf.rhea-db.org/33351) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33491](http://rdf.rhea-db.org/33491) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33591](http://rdf.rhea-db.org/33591) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36535](http://rdf.rhea-db.org/36535) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36539](http://rdf.rhea-db.org/36539) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36547](http://rdf.rhea-db.org/36547) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36555](http://rdf.rhea-db.org/36555) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36571](http://rdf.rhea-db.org/36571) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36575](http://rdf.rhea-db.org/36575) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36615](http://rdf.rhea-db.org/36615) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36619](http://rdf.rhea-db.org/36619) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36627](http://rdf.rhea-db.org/36627) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36647](http://rdf.rhea-db.org/36647) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36667](http://rdf.rhea-db.org/36667) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36671](http://rdf.rhea-db.org/36671) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36675](http://rdf.rhea-db.org/36675) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36715](http://rdf.rhea-db.org/36715) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36719](http://rdf.rhea-db.org/36719) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36767](http://rdf.rhea-db.org/36767) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64048](http://rdf.rhea-db.org/64048) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [80859](http://rdf.rhea-db.org/80859) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a fatty acyl-CoA + sphinganine = an N-acylsphinganine + CoA + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17977534" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34735" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [label](http://www.w3.org/2000/01/rdf-schema#label) "sphinganine N-acyltransferase activity" 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+
+
 ### sphingolipid transfer activity `http://purl.obolibrary.org/obo/GO_0120016`
 #### Removed
 - [sphingolipid transfer activity](http://purl.obolibrary.org/obo/GO_0120016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a sphingolipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." 
@@ -13102,6 +13247,16 @@
 
 - [sphingomyelin transfer activity](http://purl.obolibrary.org/obo/GO_0140338) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a sphingomyelin from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9132017" 
+
+
+### sphingosine N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0050291`
+#### Removed
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dihydroceramide synthase activity" 
+
+#### Added
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32752"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that sphingosine is not synthesized de novo; it is generated by ceramidase-catalyzed hydrolysis of ceramide, so this activity represents the re-acylation step of the sphingolipid salvage pathway. For the N-acylation of sphinganine in de novo sphingolipid biosynthesis, consider annotating to 'sphinganine N-acyltransferase activity ; GO:7770136'." 
 
 
 ### spongiome `http://purl.obolibrary.org/obo/GO_0062160`
