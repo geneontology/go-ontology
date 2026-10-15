@@ -79,7 +79,6 @@ http://purl.obolibrary.org/obo/GO_0019315	D-allose biosynthetic process	http://p
 http://purl.obolibrary.org/obo/GO_0046357	D-galactarate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_16537	galactarate(2-)
 http://purl.obolibrary.org/obo/GO_0033482	D-galacturonate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_12952	aldehydo-D-galacturonate
 http://purl.obolibrary.org/obo/GO_0042837	D-glucarate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_30612	D-glucarate(2-)
-http://purl.obolibrary.org/obo/GO_0046178	D-gluconate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_18391	D-gluconate
 http://purl.obolibrary.org/obo/GO_0006042	D-glucosamine biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_58723	2-ammonio-2-deoxy-D-glucopyranose
 http://purl.obolibrary.org/obo/GO_0042841	D-glucuronate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15748	D-glucuronate
 http://purl.obolibrary.org/obo/GO_2001061	D-glycero-D-manno-heptose 7-phosphate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59955	D-glycero-D-manno-heptose 7-phosphate(2-)
@@ -962,7 +961,7 @@ http://purl.obolibrary.org/obo/GO_0061370	testosterone biosynthetic process	http
 http://purl.obolibrary.org/obo/GO_1901106	tetracenomycin C biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_9470	tetracenomycin C
 http://purl.obolibrary.org/obo/GO_0010686	tetracyclic triterpenoid biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26893	tetracyclic triterpenoid
 http://purl.obolibrary.org/obo/GO_0043644	tetracycline biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_77932	tetracycline zwitterion
-http://purl.obolibrary.org/obo/GO_0006729	tetrahydrobiopterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_15372	5,6,7,8-tetrahydrobiopterin
+http://purl.obolibrary.org/obo/GO_0006729	tetrahydrobiopterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_59560	sapropterin
 http://purl.obolibrary.org/obo/GO_0046654	tetrahydrofolate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26907	tetrahydrofolic acid
 http://purl.obolibrary.org/obo/GO_0046901	tetrahydrofolylpolyglutamate biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_28624	tetrahydrofolyl-poly(glutamic acid) macromolecule
 http://purl.obolibrary.org/obo/GO_2001118	tetrahydromethanopterin biosynthetic process	http://purl.obolibrary.org/obo/CHEBI_26914	tetrahydromethanopterin
