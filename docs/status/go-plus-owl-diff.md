@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-15/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-16/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-15" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-16" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -9012,6 +9012,10 @@
 - [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [phosphatidic acid transfer activity](http://purl.obolibrary.org/obo/GO_1990050) 
 
 - [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1-phosphatidyl-1D-myo-inositol(1-)](http://purl.obolibrary.org/obo/CHEBI_57880) 
+
+- [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [1,2-diacyl-sn-glycerol 3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_58608) 
 
 - [1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity](http://purl.obolibrary.org/obo/GO_7770135) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [1,2-diacyl-sn-glycerol 3-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_58608) 
 
@@ -21298,6 +21302,14 @@
 
 - [7-cyano-7-deazaguanine tRNA-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0043867) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA-guanine(15) transglycosylase activity" 
 
+- [7-cyano-7-deazaguanine tRNA-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0043867) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [guanine](http://purl.obolibrary.org/obo/CHEBI_16235) 
+
+- [7-cyano-7-deazaguanine tRNA-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0043867) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [7-cyano-7-deazaguanine](http://purl.obolibrary.org/obo/CHEBI_45075) 
+
+- [7-cyano-7-deazaguanine tRNA-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0043867) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [guanosine 5'-monophosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_74269) 
+
+- [7-cyano-7-deazaguanine tRNA-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0043867) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [7-cyano-7-carbaguanine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_82850) 
+
 
 ### 7-deazaguanine ribonucleoside `http://purl.obolibrary.org/obo/CHEBI_50660`
 
@@ -24106,6 +24118,8 @@
 
 ### D-gluconate biosynthetic process `http://purl.obolibrary.org/obo/GO_0046178`
 #### Removed
+- [D-gluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046178) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
 - [D-gluconate biosynthetic process](http://purl.obolibrary.org/obo/GO_0046178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of D-gluconate, the anion of D-gluconic acid, the aldonic acid derived from glucose." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
@@ -27441,6 +27455,16 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28242692" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31132588" 
+
+
+### ESCRT IV complex `http://purl.obolibrary.org/obo/GO_1990621`
+#### Removed
+- [ESCRT IV complex](http://purl.obolibrary.org/obo/GO_1990621) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
+
+#### Added
+- [ESCRT IV complex](http://purl.obolibrary.org/obo/GO_1990621) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ESCRT IV complex](http://purl.obolibrary.org/obo/GO_1990621) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
 
 
 ### Elg1 RFC-like complex `http://purl.obolibrary.org/obo/GO_0031391`
@@ -52910,6 +52934,8 @@
 
 ### dihydrobiopterin metabolic process `http://purl.obolibrary.org/obo/GO_0051066`
 #### Removed
+- [dihydrobiopterin metabolic process](http://purl.obolibrary.org/obo/GO_0051066) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [dihydrobiopterin metabolic process](http://purl.obolibrary.org/obo/GO_0051066) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a dihydrobiopterin, a reduced pteridine derivative related to folic acid; it acts as an electron carrier in tyrosine biosynthesis and its quinoid form is produced by oxidation of tetrahydrobiopterin in several biological hydroxylation reactions." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2557335" 
 
@@ -53088,6 +53114,8 @@
 
 ### dihydropteridine metabolic process `http://purl.obolibrary.org/obo/GO_0051067`
 #### Removed
+- [dihydropteridine metabolic process](http://purl.obolibrary.org/obo/GO_0051067) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [dihydropteridine metabolic process](http://purl.obolibrary.org/obo/GO_0051067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving 6,7-dihydropteridine, a bicyclic compound with the formula C6H6N4." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2557335" 
 
@@ -54573,10 +54601,22 @@
 
 ### endosome to lysosome transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0032510`
 #### Removed
-- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances from endosomes to lysosomes by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the lysosome." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16689637" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
 
 #### Added
-- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032510) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with lysosomes, where the cargo proteins are degraded." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16689637" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
 
 
 ### endosome to plasma membrane protein transport `http://purl.obolibrary.org/obo/GO_0099638`
@@ -54615,10 +54655,28 @@
 
 ### endosome transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0032509`
 #### Removed
-- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances from endosomes to lysosomes or vacuoles by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the target compartment." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16689637" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
+
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) SubClassOf [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) 
 
 #### Added
-- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "multivesicular body sorting pathway" 
+
+- [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from endosomes into intralumenal vesicles of multivesicular bodies (MVBs), which then fuse with lysosomes or vacuoles, where the cargo proteins are degraded." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16689637" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17603537" 
 
 
 ### enol-oxaloacetic acid `http://purl.obolibrary.org/obo/CHEBI_28394`
@@ -55416,6 +55474,12 @@
 - [exopolysaccharide](http://purl.obolibrary.org/obo/CHEBI_72813) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### exosomal secretion `http://purl.obolibrary.org/obo/GO_1990182`
+#### Removed
+- [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) 
+
+
+
 ### expectorant `http://purl.obolibrary.org/obo/CHEBI_77035`
 
 #### Added
@@ -55434,14 +55498,116 @@
 - [extended quinone](http://purl.obolibrary.org/obo/CHEBI_65013) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### extracellular exosome assembly `http://purl.obolibrary.org/obo/GO_0071971`
+#### Removed
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of a set of components to form an extracellular vesicular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Exosomes are defined by their size, which generally ranges from 30 nm to 100 nm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19442504" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27462458" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [label](http://www.w3.org/2000/01/rdf-schema#label) "extracellular exosome assembly" 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) EquivalentTo [cellular component assembly](http://purl.obolibrary.org/obo/GO_0022607) and ([results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [extracellular exosome](http://purl.obolibrary.org/obo/GO_0070062)) 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) SubClassOf [vesicle organization](http://purl.obolibrary.org/obo/GO_0016050) 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) SubClassOf [organelle assembly](http://purl.obolibrary.org/obo/GO_0070925) 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) SubClassOf [results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [extracellular exosome](http://purl.obolibrary.org/obo/GO_0070062) 
+
+#### Added
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form an extracellular vesicular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Exosomes are defined by their size, which generally ranges from 30 nm to 100 nm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19442504" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27462458" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete extracellular exosome assembly" 
+
+
+### extracellular exosome biogenesis `http://purl.obolibrary.org/obo/GO_0097734`
+#### Removed
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The assembly and secretion of an extracellular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19442504" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25392495" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [label](http://www.w3.org/2000/01/rdf-schema#label) "extracellular exosome biogenesis" 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) SubClassOf [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) 
+
+#### Added
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The assembly and secretion of an extracellular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19442504" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25392495" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete extracellular exosome biogenesis" 
+
+
+### extracellular exosome complex `http://purl.obolibrary.org/obo/GO_1990563`
+#### Removed
+- [extracellular exosome complex](http://purl.obolibrary.org/obo/GO_1990563) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) 
+
+#### Added
+- [extracellular exosome complex](http://purl.obolibrary.org/obo/GO_1990563) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) 
+
+
 ### extracellular microvesicle biogenesis `http://purl.obolibrary.org/obo/GO_0140113`
 #### Removed
 - [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The assembly and secretion of a set of components to form an extracellular microvesicule, a membrane-bounded vesicle that ranges in size 100 nm to 1 micron in size) and exits the cell by budding." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28736435" 
 
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [label](http://www.w3.org/2000/01/rdf-schema#label) "extracellular microvesicle biogenesis" 
+
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) SubClassOf [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) 
+
 #### Added
-- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The assembly and secretion of a set of components to form an extracellular microvesicle, a membrane-bounded vesicle that ranges from 100 nm to 1 micron in size and exits the cell by budding." 
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle budding from membrane](http://purl.obolibrary.org/obo/GO_0006900) 
+
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The assembly and secretion of a set of components to form an extracellular microvesicle, a membrane-bounded vesicle that ranges from 100 nm to 1 micron in size and exits the cell by budding." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28736435" 
+
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [extracellular microvesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140113) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete extracellular microvesicle biogenesis" 
 
 
 ### extracellular vesicle biogenesis `http://purl.obolibrary.org/obo/GO_0140112`
@@ -55449,9 +55615,25 @@
 - [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The assembly and secretion a set of components to form an extracellular vesicule, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28736435" 
 
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [label](http://www.w3.org/2000/01/rdf-schema#label) "extracellular vesicle biogenesis" 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) SubClassOf [cellular component biogenesis](http://purl.obolibrary.org/obo/GO_0044085) 
+
 #### Added
-- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The assembly and secretion of a set of components to form an extracellular vesicle, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." 
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [vesicle budding from membrane](http://purl.obolibrary.org/obo/GO_0006900) 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The assembly and secretion of a set of components to form an extracellular vesicle, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28736435" 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [extracellular vesicle biogenesis](http://purl.obolibrary.org/obo/GO_0140112) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete extracellular vesicle biogenesis" 
 
 
 ### extrinsic component of phagophore assembly site membrane `http://purl.obolibrary.org/obo/GO_0097632`
@@ -57853,6 +58035,8 @@
 
 ### glucose 1-phosphate metabolic process `http://purl.obolibrary.org/obo/GO_0019255`
 #### Removed
+- [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
+
 - [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:GLUCOSE1PMETAB-PWY" 
 
 - [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "glucose 1-phosphate metabolism" 
@@ -57872,6 +58056,8 @@
 
 #### Added
 - [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32647"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
 
 - [glucose 1-phosphate metabolic process](http://purl.obolibrary.org/obo/GO_0019255) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "glucose 1-phosphate metabolism" 
 
@@ -63825,13 +64011,39 @@
 
 
 ### intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_0070676`
+#### Removed
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jp" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19234443" 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [label](http://www.w3.org/2000/01/rdf-schema#label) "intralumenal vesicle formation" 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [vesicle budding from membrane](http://purl.obolibrary.org/obo/GO_0006900) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [endosome organization](http://purl.obolibrary.org/obo/GO_0007032) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [endosome membrane](http://purl.obolibrary.org/obo/GO_0010008) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [late endosome](http://purl.obolibrary.org/obo/GO_0005770) 
 
 #### Added
 - [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) 
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
 
-- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jp" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19234443" 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete intralumenal vesicle formation" 
 
 
 ### intramanchette transport `http://purl.obolibrary.org/obo/GO_1990953`
@@ -65089,18 +65301,34 @@
 
 ### late endosome to lysosome transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0061764`
 #### Removed
-- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances from late endosomes to lysosomes by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the lysosome." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 #### Added
-- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [late endosome to lysosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0061764) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from late endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with lysosomes, where the cargo proteins are degraded." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
 
 ### late endosome to vacuole transport via multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0032511`
 #### Removed
-- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The directed movement of substances from endosomes to vacuoles by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the vacuole." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16689637" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
 
 #### Added
-- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [late endosome to vacuole transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032511) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from late endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with the vacuole, where the cargo proteins are degraded." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16689637" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
 
 
 ### laudanine `http://purl.obolibrary.org/obo/CHEBI_76103`
@@ -70145,22 +70373,112 @@
 - [multi-methyl-branched fatty acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_68458) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### multivesicular body assembly `http://purl.obolibrary.org/obo/GO_0036258`
+#### Removed
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sart" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11566881" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19571114" 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [label](http://www.w3.org/2000/01/rdf-schema#label) "multivesicular body assembly" 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) EquivalentTo [cellular component assembly](http://purl.obolibrary.org/obo/GO_0022607) and ([results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [multivesicular body](http://purl.obolibrary.org/obo/GO_0005771)) 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) SubClassOf [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) SubClassOf [organelle assembly](http://purl.obolibrary.org/obo/GO_0070925) 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) SubClassOf [results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [multivesicular body](http://purl.obolibrary.org/obo/GO_0005771) 
+
+#### Added
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sart" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11566881" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19571114" 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [multivesicular body assembly](http://purl.obolibrary.org/obo/GO_0036258) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete multivesicular body assembly" 
+
+
+### multivesicular body membrane disassembly `http://purl.obolibrary.org/obo/GO_0034496`
+#### Removed
+- [multivesicular body membrane disassembly](http://purl.obolibrary.org/obo/GO_0034496) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) 
+
+#### Added
+- [multivesicular body membrane disassembly](http://purl.obolibrary.org/obo/GO_0034496) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### multivesicular body organization `http://purl.obolibrary.org/obo/GO_0036257`
+#### Removed
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sart" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11566881" 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [label](http://www.w3.org/2000/01/rdf-schema#label) "multivesicular body organization" 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) EquivalentTo [cellular component organization](http://purl.obolibrary.org/obo/GO_0016043) and ([results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [multivesicular body](http://purl.obolibrary.org/obo/GO_0005771)) 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) SubClassOf [endosome organization](http://purl.obolibrary.org/obo/GO_0007032) 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) SubClassOf [results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [multivesicular body](http://purl.obolibrary.org/obo/GO_0005771) 
+
+#### Added
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sart" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11566881" 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [multivesicular body organization](http://purl.obolibrary.org/obo/GO_0036257) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete multivesicular body organization" 
+
+
 ### multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0071985`
+#### Removed
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which transmembrane proteins are ubiquitylated to facilitate their entry into luminal vesicles of multivesicular bodies (MVBs); upon subsequent fusion of MVBs with lysosomes or vacuoles, the cargo proteins are degraded." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17603537" 
+
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [label](http://www.w3.org/2000/01/rdf-schema#label) "multivesicular body sorting pathway" 
+
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) SubClassOf [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) 
 
 #### Added
 - [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
 
-- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A vesicle-mediated transport process in which transmembrane proteins are ubiquitylated to facilitate their entry into luminal vesicles of multivesicular bodies (MVBs); upon subsequent fusion of MVBs with lysosomes or vacuoles, the cargo proteins are degraded." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17603537" 
 
-### multivesicular body-lysosome fusion `http://purl.obolibrary.org/obo/GO_0061763`
-#### Removed
-- [multivesicular body-lysosome fusion](http://purl.obolibrary.org/obo/GO_0061763) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
 
-#### Added
-- [multivesicular body-lysosome fusion](http://purl.obolibrary.org/obo/GO_0061763) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete multivesicular body sorting pathway" 
 
 
 ### muramate `http://purl.obolibrary.org/obo/CHEBI_33986`
@@ -70990,6 +71308,44 @@
 - [negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### negative regulation of extracellular exosome assembly `http://purl.obolibrary.org/obo/GO_1903552`
+#### Removed
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of extracellular vesicular exosome assembly." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24105262" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of extracellular exosome assembly" 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971)) 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) SubClassOf [negative regulation of organelle assembly](http://purl.obolibrary.org/obo/GO_1902116) 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) SubClassOf [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) 
+
+#### Added
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [negative regulation of exosomal secretion](http://purl.obolibrary.org/obo/GO_1903542) 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of extracellular vesicular exosome assembly." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24105262" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [negative regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903552) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of extracellular exosome assembly" 
+
+
 ### negative regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001155`
 #### Removed
 - [negative regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001155) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of glucose catabolic process to ethanol." 
@@ -71073,9 +71429,49 @@
 
 
 ### negative regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905366`
+#### Removed
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26911690" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of intralumenal vesicle formation" 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676)) 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) SubClassOf [negative regulation of transport](http://purl.obolibrary.org/obo/GO_0051051) 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) SubClassOf [negative regulation of endosome organization](http://purl.obolibrary.org/obo/GO_1904979) 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) SubClassOf [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
 
 #### Added
-- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26911690" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [negative regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905366) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of intralumenal vesicle formation" 
 
 
 ### negative regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061362`
@@ -78208,6 +78604,14 @@
 
 - [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
 
+- [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [water](http://purl.obolibrary.org/obo/CHEBI_15377) 
+
+- [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [(S)-lactate](http://purl.obolibrary.org/obo/CHEBI_16651) 
+
+- [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydrogenphosphate](http://purl.obolibrary.org/obo/CHEBI_43474) 
+
+- [phospholactate phosphatase activity](http://purl.obolibrary.org/obo/GO_0140519) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [2-phosphonato-L-lactate(3-)](http://purl.obolibrary.org/obo/CHEBI_59906) 
+
 
 ### phospholipid transfer activity `http://purl.obolibrary.org/obo/GO_0120014`
 #### Removed
@@ -79708,6 +80112,44 @@
 - [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### positive regulation of extracellular exosome assembly `http://purl.obolibrary.org/obo/GO_1903553`
+#### Removed
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of extracellular vesicular exosome assembly." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24105262" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of extracellular exosome assembly" 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971)) 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) SubClassOf [positive regulation of organelle assembly](http://purl.obolibrary.org/obo/GO_1902117) 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) SubClassOf [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) 
+
+#### Added
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of exosomal secretion](http://purl.obolibrary.org/obo/GO_1903543) 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of extracellular vesicular exosome assembly." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24105262" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [positive regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903553) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of extracellular exosome assembly" 
+
+
 ### positive regulation of flagellated sperm motility involved in capacitation `http://purl.obolibrary.org/obo/GO_0060474`
 #### Removed
 - [positive regulation of flagellated sperm motility involved in capacitation](http://purl.obolibrary.org/obo/GO_0060474) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Zygnematales](http://purl.obolibrary.org/obo/NCBITaxon_3176) 
@@ -79831,9 +80273,49 @@
 
 
 ### positive regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905367`
+#### Removed
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26911690" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of intralumenal vesicle formation" 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676)) 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) SubClassOf [positive regulation of transport](http://purl.obolibrary.org/obo/GO_0051050) 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) SubClassOf [positive regulation of endosome organization](http://purl.obolibrary.org/obo/GO_1904980) 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) SubClassOf [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
 
 #### Added
-- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26911690" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of intralumenal vesicle formation" 
 
 
 ### positive regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061361`
@@ -81596,14 +82078,6 @@
 
 #### Added
 - [protein synthesis inhibitor](http://purl.obolibrary.org/obo/CHEBI_48001) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
-
-
-### protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0043328`
-#### Removed
-- [protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043328) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
-
-#### Added
-- [protein transport to vacuole involved in ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043328) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
 ### protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0008982`
@@ -83624,6 +84098,42 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
 
 
+### regulation of extracellular exosome assembly `http://purl.obolibrary.org/obo/GO_1903551`
+#### Removed
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of extracellular vesicular exosome assembly." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24105262" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of extracellular exosome assembly" 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971)) 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) SubClassOf [regulation of organelle assembly](http://purl.obolibrary.org/obo/GO_1902115) 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) 
+
+#### Added
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32713"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of exosomal secretion](http://purl.obolibrary.org/obo/GO_1903541) 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of extracellular vesicular exosome assembly." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24105262" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [regulation of extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_1903551) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of extracellular exosome assembly" 
+
+
 ### regulation of glycolytic fermentation to ethanol `http://purl.obolibrary.org/obo/GO_2001154`
 #### Removed
 - [regulation of glycolytic fermentation to ethanol](http://purl.obolibrary.org/obo/GO_2001154) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of glucose catabolic process to ethanol." 
@@ -83665,9 +84175,45 @@
 
 
 ### regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905365`
+#### Removed
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26911690" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of intralumenal vesicle formation" 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676)) 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) SubClassOf [regulation of endosome organization](http://purl.obolibrary.org/obo/GO_1904978) 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_0070676) 
 
 #### Added
-- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000058" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26911690" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bc" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:PARL" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:TermGenie" 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent." 
+
+- [regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905365) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of intralumenal vesicle formation" 
 
 
 ### regulation of maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000115`
@@ -87438,6 +87984,16 @@
 
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [hydron](http://purl.obolibrary.org/obo/CHEBI_15378) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [N-acylsphinganine](http://purl.obolibrary.org/obo/CHEBI_31488) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [coenzyme A(4-)](http://purl.obolibrary.org/obo/CHEBI_57287) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [sphinganine(1+)](http://purl.obolibrary.org/obo/CHEBI_57817) 
+
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [fatty acyl-CoA(4-)](http://purl.obolibrary.org/obo/CHEBI_77636) 
+
 
 ### sphingenine `http://purl.obolibrary.org/obo/CHEBI_26738`
 
@@ -89507,6 +90063,8 @@
 #### Removed
 - [tetrahydrobiopterin catabolic process](http://purl.obolibrary.org/obo/GO_0046147) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
 
+- [tetrahydrobiopterin catabolic process](http://purl.obolibrary.org/obo/GO_0046147) [conformsTo](http://purl.org/dc/terms/conformsTo) [catabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml) 
+
 - [tetrahydrobiopterin catabolic process](http://purl.obolibrary.org/obo/GO_0046147) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
 
@@ -89540,6 +90098,8 @@
 ### tetrahydrobiopterin metabolic process `http://purl.obolibrary.org/obo/GO_0046146`
 #### Removed
 - [tetrahydrobiopterin metabolic process](http://purl.obolibrary.org/obo/GO_0046146) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Schizosaccharomyces pombe](http://purl.obolibrary.org/obo/NCBITaxon_4896) 
+
+- [tetrahydrobiopterin metabolic process](http://purl.obolibrary.org/obo/GO_0046146) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
 - [tetrahydrobiopterin metabolic process](http://purl.obolibrary.org/obo/GO_0046146) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving tetrahydrobiopterin, the reduced form of biopterin (2-amino-4-hydroxy-6-(1,2-dihydroxypropyl)-pteridine). It functions as a hydroxylation coenzyme, e.g. in the conversion of phenylalanine to tyrosine." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21871890" 
@@ -92404,9 +92964,15 @@
 
 
 ### ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway `http://purl.obolibrary.org/obo/GO_0043162`
+#### Removed
+- [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0071985) 
 
 #### Added
-- [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+- [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/31770"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
+
+- [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 
 ### ultra-long-chain fatty acid `http://purl.obolibrary.org/obo/CHEBI_143004`
