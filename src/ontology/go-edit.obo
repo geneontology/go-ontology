@@ -621997,6 +621997,37 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-10-14T16:55:01Z
 
+[Term]
+id: GO:7770137
+name: short-patch base-excision repair
+namespace: biological_process
+def: "A base-excision repair process in which the excised lesion is replaced by a single nucleotide. Following incision at the abasic site, a DNA polymerase inserts one nucleotide into the single-nucleotide gap, any 5'-terminal deoxyribose-5-phosphate residue is removed by 5'-dRP lyase activity, and the remaining nick is sealed by DNA ligation." [PMID:19153658]
+comment: Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis.
+synonym: "base-excision repair, short-patch" EXACT []
+synonym: "short-patch BER" EXACT []
+synonym: "single-nucleotide BER" EXACT [PMID:17983848]
+synonym: "SN-BER" EXACT [PMID:17983848]
+synonym: "SP-BER" EXACT []
+is_a: GO:0006284 ! base-excision repair
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-16T19:36:05Z
+
+[Term]
+id: GO:7770138
+name: long-patch base-excision repair
+namespace: biological_process
+def: "A base-excision repair process in which the excised lesion is replaced by a repair tract of two or more nucleotides. DNA synthesis from the 3'-hydroxyl at the incised abasic site displaces the downstream strand, generating a 5' flap containing the abasic sugar-phosphate residue; the flap is removed by a 5'-flap endonuclease and the resulting nick is sealed by DNA ligation." [PMID:19153658]
+comment: Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis.
+synonym: "base-excision repair, long-patch" EXACT []
+synonym: "long-patch BER" EXACT []
+synonym: "LP-BER" EXACT []
+synonym: "multinucleotide BER" EXACT [PMID:17983848]
+is_a: GO:0006284 ! base-excision repair
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-16T19:36:05Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
