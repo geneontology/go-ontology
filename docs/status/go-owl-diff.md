@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-16/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-17/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-16" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-17" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -5098,6 +5098,40 @@
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87107](http://rdf.rhea-db.org/87107) 
 
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87351](http://rdf.rhea-db.org/87351) 
+
+
+### long-patch base-excision repair `http://purl.obolibrary.org/obo/GO_7770138`
+
+#### Added
+- Class: [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32759"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-16T19:36:05Z" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "LP-BER" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "base-excision repair, long-patch" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "long-patch BER" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770138" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "multinucleotide BER" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17983848" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A base-excision repair process in which the excised lesion is replaced by a repair tract of two or more nucleotides. DNA synthesis from the 3'-hydroxyl at the incised abasic site displaces the downstream strand, generating a 5' flap containing the abasic sugar-phosphate residue; the flap is removed by a 5'-flap endonuclease and the resulting nick is sealed by DNA ligation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19153658" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis." 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) [label](http://www.w3.org/2000/01/rdf-schema#label) "long-patch base-excision repair" 
+
+- [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) SubClassOf [base-excision repair](http://purl.obolibrary.org/obo/GO_0006284) 
 
 
 ### mRNA 5'-triphosphate diphosphatase activity `http://purl.obolibrary.org/obo/GO_0034353`
@@ -14229,6 +14263,43 @@
 
 - [sex comb development](http://purl.obolibrary.org/obo/GO_0045498) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the sex comb over time, from its formation to the mature structure. The sex combs are the male specific chaetae located on the prothoracic tarsal segment of the prothoracic leg." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004296" 
+
+
+### short-patch base-excision repair `http://purl.obolibrary.org/obo/GO_7770137`
+
+#### Added
+- Class: [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32759"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-16T19:36:05Z" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "SP-BER" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "base-excision repair, short-patch" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "short-patch BER" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770137" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "SN-BER" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17983848" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "single-nucleotide BER" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17983848" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A base-excision repair process in which the excised lesion is replaced by a single nucleotide. Following incision at the abasic site, a DNA polymerase inserts one nucleotide into the single-nucleotide gap, any 5'-terminal deoxyribose-5-phosphate residue is removed by 5'-dRP lyase activity, and the remaining nick is sealed by DNA ligation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19153658" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis." 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) [label](http://www.w3.org/2000/01/rdf-schema#label) "short-patch base-excision repair" 
+
+- [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) SubClassOf [base-excision repair](http://purl.obolibrary.org/obo/GO_0006284) 
 
 
 ### shuttle-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770133`

@@ -1,12 +1,12 @@
 # Textual diff for go.obo
 
 ```diff
---- go-lastrelease.obo	2026-10-16 05:37:56.574076491 +0000
-+++ go.obo	2026-10-16 05:48:50.032363642 +0000
+--- go-lastrelease.obo	2026-10-17 05:39:11.769429118 +0000
++++ go.obo	2026-10-17 05:52:55.895827970 +0000
 @@ -1,5 +1,5 @@
  format-version: 1.2
 -data-version: releases/2026-07-26
-+data-version: releases/2026-10-16
++data-version: releases/2026-10-17
  subsetdef: chebi_ph7_3 "Rhea list of ChEBI terms representing the major species at pH 7.3."
  subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
  subsetdef: gocheck_obsoletion_candidate "Terms planned for obsoletion"
@@ -24,7 +24,7 @@
  property_value: has_ontology_root_term GO:0005575
  property_value: has_ontology_root_term GO:0008150
 -property_value: owl:versionInfo "2026-07-26" xsd:string
-+property_value: owl:versionInfo "2026-10-16" xsd:string
++property_value: owl:versionInfo "2026-10-17" xsd:string
  property_value: terms:license http://creativecommons.org/licenses/by/4.0/
  
  [Term]
@@ -10543,7 +10543,7 @@
  created_by: dragon-ai-agent
  creation_date: 2026-04-01T10:06:36Z
  
-@@ -651420,6 +652469,786 @@
+@@ -651420,6 +652469,817 @@
  created_by: dragon-ai-agent
  creation_date: 2026-07-22T21:20:31Z
  
@@ -11326,6 +11326,37 @@
 +property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32752" xsd:anyURI
 +created_by: ai4c-agent
 +creation_date: 2026-10-14T16:55:01Z
++
++[Term]
++id: GO:7770137
++name: short-patch base-excision repair
++namespace: biological_process
++def: "A base-excision repair process in which the excised lesion is replaced by a single nucleotide. Following incision at the abasic site, a DNA polymerase inserts one nucleotide into the single-nucleotide gap, any 5'-terminal deoxyribose-5-phosphate residue is removed by 5'-dRP lyase activity, and the remaining nick is sealed by DNA ligation." [PMID:19153658]
++comment: Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis.
++synonym: "base-excision repair, short-patch" EXACT []
++synonym: "short-patch BER" EXACT []
++synonym: "single-nucleotide BER" EXACT [PMID:17983848]
++synonym: "SN-BER" EXACT [PMID:17983848]
++synonym: "SP-BER" EXACT []
++is_a: GO:0006284 ! base-excision repair
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
++created_by: ai4c-agent
++creation_date: 2026-10-16T19:36:05Z
++
++[Term]
++id: GO:7770138
++name: long-patch base-excision repair
++namespace: biological_process
++def: "A base-excision repair process in which the excised lesion is replaced by a repair tract of two or more nucleotides. DNA synthesis from the 3'-hydroxyl at the incised abasic site displaces the downstream strand, generating a 5' flap containing the abasic sugar-phosphate residue; the flap is removed by a 5'-flap endonuclease and the resulting nick is sealed by DNA ligation." [PMID:19153658]
++comment: Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis.
++synonym: "base-excision repair, long-patch" EXACT []
++synonym: "long-patch BER" EXACT []
++synonym: "LP-BER" EXACT []
++synonym: "multinucleotide BER" EXACT [PMID:17983848]
++is_a: GO:0006284 ! base-excision repair
++property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
++created_by: ai4c-agent
++creation_date: 2026-10-16T19:36:05Z
 +
  [Typedef]
  id: ends_during
