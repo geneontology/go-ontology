@@ -19,8 +19,8 @@
 # check already runs the full ODK build, so the job stays on bare
 # ubuntu-latest.
 #
-# Required secrets: CLAUDE_CODE_OAUTH_TOKEN, AI4C_REVIEWER_APP_ID,
-#                   AI4C_REVIEWER_PRIVATE_KEY
+# Required secrets: AI4C_REVIEWER_APP_ID, AI4C_REVIEWER_PRIVATE_KEY, and either
+#                   ANTHROPIC_API_KEY (preferred when set) or CLAUDE_CODE_OAUTH_TOKEN
 name: Claude Code Review
 
 on:
@@ -133,11 +133,11 @@ jobs:
         id: claude-review
         uses: anthropics/claude-code-action@v1
         with:
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          # Fallback when the OAuth token hits its quota. Without this, an
-          # exhausted token red-Xes every open PR at once; the secret already
-          # exists in this repo and ai-agent.yml passes both.
+          # Auth: the ANTHROPIC_API_KEY secret, when present, is used exclusively
+          # (pay-per-use); delete it to return to CLAUDE_CODE_OAUTH_TOKEN (Claude
+          # subscription). Same convention as monarch-initiative/dismech.
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.ANTHROPIC_API_KEY == '' && secrets.CLAUDE_CODE_OAUTH_TOKEN || '' }}
           github_token: ${{ steps.reviewer-token.outputs.token }}
           # Not just pull_request: workflow_dispatch is the documented route for
           # fork PRs, and with no tracking comment there the full report has
@@ -310,9 +310,9 @@ jobs:
           if "rate_limit" in haystack or "usage limit" in haystack or "weekly limit" in haystack:
               msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is an "
                      "account-quota issue on CLAUDE_CODE_OAUTH_TOKEN, NOT a problem with this "
-                     "PR. ANTHROPIC_API_KEY is already wired as a fallback, so if this fired "
-                     "that key is missing or also exhausted. Fix: wait for the limit to reset, "
-                     "or rotate either credential to an account with headroom, then re-run.")
+                     "PR. It is only used when no ANTHROPIC_API_KEY secret is set. Fix: wait "
+                     "for the limit to reset, rotate CLAUDE_CODE_OAUTH_TOKEN to an account with "
+                     "headroom, or set ANTHROPIC_API_KEY, then re-run.")
               print(f"::error title=Claude review skipped: usage limit::{msg}")
               summary("### Claude review skipped -- usage limit reached\n\n" + msg)
               sys.exit(1)
