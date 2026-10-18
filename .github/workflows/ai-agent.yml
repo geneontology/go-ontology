@@ -6,7 +6,8 @@
 # Authenticates as the `ai4c-agent` GitHub App (installation token minted per
 # job), not as a machine account PAT.
 #
-# Required secrets: ANTHROPIC_API_KEY, AI4C_AGENT_APP_ID, AI4C_AGENT_PRIVATE_KEY
+# Required secrets: AI4C_AGENT_APP_ID, AI4C_AGENT_PRIVATE_KEY, and either
+# ANTHROPIC_API_KEY (preferred when set) or CLAUDE_CODE_OAUTH_TOKEN
 # (the app id is not actually sensitive, but is stored as a secret for
 # consistency with the private key; note this is the *app* id, distinct from
 # the AGENT_USER_ID below, which is the bot account's user id)
@@ -384,8 +385,11 @@ jobs:
           claude_args: |
             --allowedTools "Bash,Read,Write,Edit,Glob,Grep,LS,MultiEdit,NotebookEdit,TodoRead,TodoWrite,WebFetch,WebSearch"
             --model "${{ env.MODEL }}"
-          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # Auth: the ANTHROPIC_API_KEY secret, when present, is used exclusively
+          # (pay-per-use); delete it to return to CLAUDE_CODE_OAUTH_TOKEN (Claude
+          # subscription). Same convention as monarch-initiative/dismech.
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.ANTHROPIC_API_KEY == '' && secrets.CLAUDE_CODE_OAUTH_TOKEN || '' }}
           show_full_output: true
 
       - name: Upload Claude output
