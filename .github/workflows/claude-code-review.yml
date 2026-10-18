@@ -255,6 +255,8 @@ jobs:
         if: '!cancelled()'
         env:
           EXECUTION_FILE: ${{ steps.claude-review.outputs.execution_file }}
+          # Same rule as the review step's auth inputs, so errors name the credential in use.
+          AUTH_SECRET: ${{ secrets.ANTHROPIC_API_KEY != '' && 'ANTHROPIC_API_KEY' || 'CLAUDE_CODE_OAUTH_TOKEN' }}
         run: |
           set -euo pipefail
           file="${EXECUTION_FILE:-}"
@@ -302,24 +304,25 @@ jobs:
           # original version keyed the usage-limit branch off r["error"] alone,
           # so it could never fire. Read both, and include subtype in the text
           # searched for limit wording.
+          auth = os.environ["AUTH_SECRET"]
           subtype = str(r.get("subtype") or "").strip()
           reason = str(r.get("error") or "").strip() or subtype
           detail = str(r.get("result") or "").strip()
           haystack = f"{reason} {subtype} {detail}".lower()
 
           if "rate_limit" in haystack or "usage limit" in haystack or "weekly limit" in haystack:
-              msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is an "
-                     "account-quota issue on CLAUDE_CODE_OAUTH_TOKEN, NOT a problem with this "
-                     "PR. It is only used when no ANTHROPIC_API_KEY secret is set. Fix: wait "
-                     "for the limit to reset, rotate CLAUDE_CODE_OAUTH_TOKEN to an account with "
-                     "headroom, or set ANTHROPIC_API_KEY, then re-run.")
+              msg = (f"Claude USAGE LIMIT reached -- NO review ran ({detail!r}). This is a "
+                     f"quota or rate limit on {auth}, NOT a problem with this PR. Fix: wait for "
+                     f"the limit to reset, or rotate {auth} to a credential with headroom "
+                     "(ANTHROPIC_API_KEY, when set, takes precedence over "
+                     "CLAUDE_CODE_OAUTH_TOKEN), then re-run.")
               print(f"::error title=Claude review skipped: usage limit::{msg}")
               summary("### Claude review skipped -- usage limit reached\n\n" + msg)
               sys.exit(1)
 
           msg = (f"Review agent errored (is_error=true); NO review was posted. "
                  f"error={reason!r} detail={detail!r} {stats}. Common causes: an "
-                 "invalid/retired --model, a bad CLAUDE_CODE_OAUTH_TOKEN, or an aborted run.")
+                 f"invalid/retired --model, a bad or out-of-credit {auth}, or an aborted run.")
           print(f"::error title=Claude review errored::{msg}")
           summary("### Claude review errored\n\n" + msg)
           sys.exit(1)
