@@ -98,6 +98,19 @@ looks accidentally clobbered — the checkout/checkin workflow can damage
 neighbouring terms silently, and the resulting diff looks like an intentional
 edit.
 
+**8. Open tickets.** The diff can be internally consistent and still conflict
+with work elsewhere. For every term the PR obsoletes, newly points to
+(`replaced_by`, `consider`, new `is_a` or relationship targets) or redefines,
+search open go-ontology issues and PRs by the bare number (a quoted
+`"GO:1234567"` is rejected as invalid search syntax):
+
+```bash
+gh search issues --repo geneontology/go-ontology --state open --include-prs 1234567 --json number,title,isPullRequest
+```
+
+Ignore the PR under review and the issue(s) it closes. Flag as IMPORTANT any target with an open obsoletion request or a conflicting
+open change. Passing mentions need no comment. List the searches in Coverage.
+
 ## Severity
 
 - **CRITICAL** — wrong or fabricated data. Hallucinated PMIDs, incorrect
@@ -131,6 +144,7 @@ goes:
 - Design pattern conformance checked against: *sibling terms consulted*
 - Metadata conventions checked
 - Obsoletion procedure checked, or N/A
+- Open tickets searched for the terms changed or newly referenced, or N/A
 
 Silence on a dimension you did not examine reads as a clean bill of health.
 Say which ones you skipped.
