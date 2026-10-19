@@ -154242,12 +154242,13 @@ alt_id: GO:0050430
 alt_id: GO:0051535
 def: "Binding to a syntaxin, a SNAP receptor involved in the docking of vesicles." [ISBN:0198506732]
 is_a: GO:0000149 ! SNARE binding
-is_a: onlyin:2
+is_a: neverin:2
 intersection_of: GO:0005488 ! binding
 intersection_of: has_primary_input PR:000015794 ! syntaxin-2
 intersection_of: has_primary_input PR:000015797 ! syntaxin-5
 intersection_of: has_primary_input PR:000015798 ! syntaxin-6
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31404" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32767" xsd:anyURI
 
 [Term]
 id: GO:0019907
