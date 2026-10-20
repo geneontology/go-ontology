@@ -354174,8 +354174,6 @@ name: Wnt signaling pathway, planar cell polarity pathway
 namespace: biological_process
 def: "A type of non-canonical Wnt signaling pathway in which Wnt binding to its receptor on the surface of a target cell results in the activation small G proteins such as Rho, Rac, and Cdc42 which, in turn activate effectors, including C-Jun N-terminal kinase (JNK) and Rho kinase (Rok). The signaling ends with change in the transcription of target genes and/or reorganisation of the cytoskeleton." [PMID:11532397, PMID:25349257, PMID:28293032, PMID:37804416]
 synonym: "non-canonical Wnt signaling pathway" RELATED [GOC:bf]
-synonym: "PCP pathway" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
-synonym: "planar cell polarity pathway" EXACT [GOC:cjm]
 synonym: "Wnt receptor signaling pathway, planar cell polarity pathway" EXACT []
 synonym: "Wnt receptor signalling pathway, planar cell polarity pathway" EXACT []
 synonym: "Wnt-activated signaling pathway, planar cell polarity pathway" EXACT [GOC:signaling]
@@ -622033,6 +622031,45 @@ is_a: GO:0006284 ! base-excision repair
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-10-16T19:36:05Z
+
+[Term]
+id: GO:7770139
+name: planar cell polarity
+namespace: biological_process
+def: "A cell communication process in which junctional protein complexes localize proteins asymmetrically to opposite sides of cells in the plane of a tissue, usually an epithelium." [PMID:27576155, PMID:28293032]
+comment: This term is not for direct annotation. Consider instead 'core planar cell polarity ; GO:7770140' or 'Fat/Dachsous planar cell polarity ; GO:7770141'.
+subset: gocheck_do_not_annotate
+synonym: "PCP pathway" EXACT []
+synonym: "planar cell polarity pathway" EXACT []
+is_a: GO:0007154 ! cell communication
+relationship: part_of GO:0001736 ! establishment of planar polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-20T23:59:20Z
+
+[Term]
+id: GO:7770140
+name: core planar cell polarity
+namespace: biological_process
+def: "A planar cell polarity process mediated by Frizzled-family receptors, Van Gogh-family proteins and Flamingo/CELSR-family atypical cadherins of the adhesion (class B2) GPCR family." [PMID:27576155, PMID:28293032, PMID:41895071]
+comment: In Drosophila, core planar cell polarity components include the transmembrane proteins Frizzled, Van Gogh and Starry night and the cytosolic proteins Dishevelled, Diego and Prickle. This term should be used to annotate the proteins involved in the initial generation of asymmetry between two cells, not downstream processes that result in asymmetric tissue features, such as cytoskeleton reorganisation, or global cues, such as Wnt ligands. For these, consider 'establishment of planar polarity ; GO:0001736' or a term appropriate to the process described.
+synonym: "core PCP pathway" EXACT []
+is_a: GO:7770139 ! planar cell polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-20T23:59:20Z
+
+[Term]
+id: GO:7770141
+name: Fat/Dachsous planar cell polarity
+namespace: biological_process
+def: "A planar cell polarity process mediated by heterotypic binding between atypical protocadherins of the Fat and Dachsous families." [PMID:27576155, PMID:28293032]
+comment: In Drosophila, Fat/Dachsous planar cell polarity components include the transmembrane proteins fat and dachsous and the kinase four-jointed. This term should be used to annotate the proteins involved in the initial generation of asymmetry between two cells, not downstream processes that result in asymmetric tissue features, such as cytoskeleton reorganisation, or global cues, such as Wnt ligands. For these, consider 'establishment of planar polarity ; GO:0001736' or a term appropriate to the process described.
+synonym: "Fat-Dachsous PCP pathway" EXACT []
+is_a: GO:7770139 ! planar cell polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-20T23:59:20Z
 
 [Typedef]
 id: acts_on_population_of
