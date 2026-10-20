@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-19/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-20/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-19" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-20" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -14746,6 +14746,12 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dgh" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ef" 
+
+
+### syntaxin binding `http://purl.obolibrary.org/obo/GO_0019905`
+
+#### Added
+- [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32767"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### tRNA 5-taurinomethyluridine synthase activity `http://purl.obolibrary.org/obo/GO_0160236`

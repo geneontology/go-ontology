@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-19/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-20/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-19" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-20" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -89142,6 +89142,38 @@
 
 #### Added
 - [synephrine](http://purl.obolibrary.org/obo/CHEBI_29081) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### syntaxin binding `http://purl.obolibrary.org/obo/GO_0019905`
+#### Removed
+- [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+#### Added
+- [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32767"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+
+### syntaxin-1 binding `http://purl.obolibrary.org/obo/GO_0017075`
+#### Removed
+- [syntaxin-1 binding](http://purl.obolibrary.org/obo/GO_0017075) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+#### Added
+- [syntaxin-1 binding](http://purl.obolibrary.org/obo/GO_0017075) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [syntaxin-1 binding](http://purl.obolibrary.org/obo/GO_0017075) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
+
+
+### syntaxin-3 binding `http://purl.obolibrary.org/obo/GO_0030348`
+#### Removed
+- [syntaxin-3 binding](http://purl.obolibrary.org/obo/GO_0030348) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+#### Added
+- [syntaxin-3 binding](http://purl.obolibrary.org/obo/GO_0030348) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2) 
+
+- [syntaxin-3 binding](http://purl.obolibrary.org/obo/GO_0030348) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Bacteria](http://purl.obolibrary.org/obo/NCBITaxon_2)) 
 
 
 ### synthetic auxin `http://purl.obolibrary.org/obo/CHEBI_26841`
