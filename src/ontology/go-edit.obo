@@ -316,9 +316,9 @@ synonym: "50S ribosomal subunit assembly" NARROW [GOC:mah]
 synonym: "60S ribosomal subunit assembly" NARROW [GOC:mah]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0015934 ! large ribosomal subunit
-relationship: part_of GO:0042255 ! ribosome assembly
 relationship: part_of GO:0042273 ! ribosomal large subunit biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0000028
@@ -329,9 +329,9 @@ synonym: "30S ribosomal subunit assembly" NARROW [GOC:mah]
 synonym: "40S ribosomal subunit assembly" NARROW [GOC:mah]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0015935 ! small ribosomal subunit
-relationship: part_of GO:0042255 ! ribosome assembly
 relationship: part_of GO:0042274 ! ribosomal small subunit biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0000030
@@ -12036,16 +12036,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0001731
-name: formation of translation preinitiation complex
+name: formation of cytoplasmic translation preinitiation complex
 namespace: biological_process
 def: "The joining of the small ribosomal subunit, ternary complex, and mRNA." [GOC:hjd]
 comment: See also the cellular component terms 'eukaryotic 43S preinitiation complex ; GO:0016282', 'eukaryotic 48S initiation complex ; GO:0033290', and their children.
 synonym: "formation of translation pre-initiation complex" EXACT []
+synonym: "formation of translation preinitiation complex" EXACT []
 synonym: "translation preinitiation complex assembly" EXACT []
 is_a: GO:0022618 ! protein-RNA complex assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0070993 ! cytosolic translation preinitiation complex
 relationship: part_of GO:0002183 ! cytoplasmic translational initiation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0001732
@@ -211521,8 +211523,9 @@ namespace: biological_process
 def: "The aggregation, arrangement and bonding together of proteins and RNA molecules to form a 90S preribosome. The 90S preribosome represents the complex that forms on the primary rRNA transcript before it splits into the small subunit and large subunit portions." [GOC:krc, GOC:mah, GOC:tb]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0030686 ! 90S preribosome
-relationship: part_of GO:0042256 ! cytosolic ribosome assembly
+relationship: part_of GO:0180025 ! cytosolic small ribosomal subunit assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0034464
@@ -242706,22 +242709,23 @@ id: GO:0042255
 name: ribosome assembly
 namespace: biological_process
 alt_id: GO:0042257
-def: "The aggregation, arrangement and bonding together of the mature ribosome and of its subunits." [GOC:ma, PMID:30467428]
+def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:ma, PMID:30467428]
+comment: For the joining of the small and large ribosomal subunits, consider instead annotating to 'translational initiation ; GO:0006413' or one of its descendants.
 subset: goslim_yeast
-synonym: "ribosomal subunit assembly" NARROW [GOC:mah, GOC:vw]
-is_a: GO:0070925 ! organelle assembly
+synonym: "ribosomal subunit assembly" EXACT [GOC:mah, GOC:vw]
 intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0005840 ! ribosome
+intersection_of: results_in_assembly_of GO:0044391 ! ribosomal subunit
 relationship: part_of GO:0042254 ! ribosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0042256
 name: cytosolic ribosome assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of the large and small ribosomal subunits into a functional cytosolic ribosome. Distinct stages of this process take place first in the nucleolus, then in the nucleus and finally in the cytosol." [GOC:ma, PMID:30467428]
-synonym: "mature ribosome assembly" EXACT []
+def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature cytosolic ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:ma, PMID:30467428]
 is_a: GO:0042255 ! ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/11517" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0042258
@@ -371694,10 +371698,9 @@ creation_date: 2014-11-06T14:04:43Z
 id: GO:0061668
 name: mitochondrial ribosome assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of the mitochondrial ribosome and of its subunits." [GOC:dph]
+def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature mitochondrial ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:dph]
 is_a: GO:0042255 ! ribosome assembly
-intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0005761 ! mitochondrial ribosome
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: dph
 creation_date: 2014-11-07T15:32:20Z
 
@@ -485902,10 +485905,11 @@ id: GO:0180023
 name: cytosolic large ribosomal subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a cytosolic large ribosomal subunit." [PMID:30467428]
+is_a: GO:0042256 ! cytosolic ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0022625 ! cytosolic large ribosomal subunit
-relationship: part_of GO:0042256 ! cytosolic ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: vw
 creation_date: 2023-11-03T16:06:38Z
 
@@ -485924,11 +485928,11 @@ id: GO:0180025
 name: cytosolic small ribosomal subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a cytosolic small ribosomal subunit." [PMID:30467428]
-is_a: GO:0000028 ! ribosomal small subunit assembly
+is_a: GO:0042256 ! cytosolic ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0022627 ! cytosolic small ribosomal subunit
-relationship: part_of GO:0042256 ! cytosolic ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: vw
 creation_date: 2023-11-03T16:22:03Z
 
@@ -485937,11 +485941,11 @@ id: GO:0180026
 name: mitochondrial small ribosomal subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a mitochondrial small ribosomal subunit." [PMID:30467428]
-is_a: GO:0000028 ! ribosomal small subunit assembly
+is_a: GO:0061668 ! mitochondrial ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0005763 ! mitochondrial small ribosomal subunit
-relationship: part_of GO:0061668 ! mitochondrial ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: vw
 creation_date: 2023-11-03T16:24:18Z
 
@@ -533995,9 +533999,10 @@ def: "The aggregation, arrangement and bonding together of a set of components t
 synonym: "39S ribosomal subunit, mitochondrial assembly" NARROW [GOC:TermGenie]
 synonym: "39S ribosomal subunit, mitochondrial formation" NARROW [GOC:TermGenie]
 synonym: "mitochondrial large ribosomal subunit formation" EXACT [GOC:TermGenie]
+is_a: GO:0061668 ! mitochondrial ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0005762 ! mitochondrial large ribosomal subunit
-relationship: part_of GO:0061668 ! mitochondrial ribosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: mcc
 creation_date: 2014-03-18T14:32:19Z
 
