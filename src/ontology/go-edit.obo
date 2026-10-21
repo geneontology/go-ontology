@@ -267605,11 +267605,12 @@ creation_date: 2012-04-26T04:54:11Z
 
 [Term]
 id: GO:0044597
-name: daunorubicin metabolic process
+name: obsolete daunorubicin metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving daunorubicin, a chemotherapeutic of the anthracycline family that is given as a treatment for some types of cancer." [PMID:20837989]
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:64677 ! daunorubicin(1+)
+def: "OBSOLETE. The chemical reactions and pathways involving daunorubicin, a chemotherapeutic of the anthracycline family that is given as a treatment for some types of cancer." [PMID:20837989]
+comment: This term was obsoleted because it is an unnecessary grouping term.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32778" xsd:anyURI
+is_obsolete: true
 created_by: jl
 creation_date: 2012-05-01T03:09:51Z
 
@@ -518228,15 +518229,16 @@ creation_date: 2013-01-15T10:09:06Z
 
 [Term]
 id: GO:1901770
-name: daunorubicin catabolic process
+name: obsolete daunorubicin catabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the breakdown of daunorubicin." [GOC:TermGenie, GOC:yaf, PMID:7601857]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of daunorubicin." [GOC:TermGenie, GOC:yaf, PMID:7601857]
+comment: This term was obsoleted because there is no pathway known to specifically degrade this compound.
 synonym: "daunorubicin breakdown" EXACT [GOC:TermGenie]
 synonym: "daunorubicin catabolism" EXACT [GOC:TermGenie]
 synonym: "daunorubicin degradation" EXACT [GOC:TermGenie]
-is_a: GO:0044597 ! daunorubicin metabolic process
-intersection_of: GO:0009056 ! catabolic process
-intersection_of: has_primary_input CHEBI:64677 ! daunorubicin(1+)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32778" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0042178
 created_by: yaf
 creation_date: 2013-01-15T10:14:29Z
 
@@ -518244,12 +518246,11 @@ creation_date: 2013-01-15T10:14:29Z
 id: GO:1901771
 name: daunorubicin biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of daunorubicin." [GOC:TermGenie, GOC:yaf, PMID:7601857, UniPathway:UPA00054]
+def: "The chemical reactions and pathways resulting in the formation of daunorubicin." [PMID:7601857]
 synonym: "daunorubicin anabolism" EXACT [GOC:TermGenie]
 synonym: "daunorubicin biosynthesis" EXACT [GOC:TermGenie]
 synonym: "daunorubicin formation" EXACT [GOC:TermGenie]
 synonym: "daunorubicin synthesis" EXACT [GOC:TermGenie]
-is_a: GO:0044597 ! daunorubicin metabolic process
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:64677 ! daunorubicin(1+)
 created_by: yaf
