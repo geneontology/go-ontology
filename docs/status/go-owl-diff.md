@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-20/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-21/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-20" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-21" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -591,6 +591,16 @@
 
 #### Added
 - [8-oxo-7,8-dihydroguanosine triphosphate pyrophosphatase activity](http://purl.obolibrary.org/obo/GO_0008413) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32698"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### 90S preribosome assembly `http://purl.obolibrary.org/obo/GO_0034463`
+#### Removed
+- [90S preribosome assembly](http://purl.obolibrary.org/obo/GO_0034463) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) 
+
+#### Added
+- [90S preribosome assembly](http://purl.obolibrary.org/obo/GO_0034463) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [90S preribosome assembly](http://purl.obolibrary.org/obo/GO_0034463) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytosolic small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180025) 
 
 
 ### ABC-type cadmium transporter activity `http://purl.obolibrary.org/obo/GO_0015434`
@@ -1409,6 +1419,35 @@
 
 - [FMN adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0003919) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: FMN + ATP + H+ = FAD + diphosphate." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:17237" 
+
+
+### Fat/Dachsous planar cell polarity `http://purl.obolibrary.org/obo/GO_7770141`
+
+#### Added
+- Class: [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-20T23:59:20Z" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Fat-Dachsous PCP pathway" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770141" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A planar cell polarity process mediated by heterotypic binding between atypical protocadherins of the Fat and Dachsous families." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27576155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In Drosophila, Fat/Dachsous planar cell polarity components include the transmembrane proteins fat and dachsous and the kinase four-jointed. This term should be used to annotate the proteins involved in the initial generation of asymmetry between two cells, not downstream processes that result in asymmetric tissue features, such as cytoskeleton reorganisation, or global cues, such as Wnt ligands. For these, consider 'establishment of planar polarity ; GO:0001736' or a term appropriate to the process described." 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) [label](http://www.w3.org/2000/01/rdf-schema#label) "Fat/Dachsous planar cell polarity" 
+
+- [Fat/Dachsous planar cell polarity](http://purl.obolibrary.org/obo/GO_7770141) SubClassOf [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) 
 
 
 ### G-protein beta/gamma-subunit complex `http://purl.obolibrary.org/obo/GO_0031680`
@@ -2544,6 +2583,20 @@
 - [UDP-sugar diphosphatase activity](http://purl.obolibrary.org/obo/GO_0008768) SubClassOf [nucleotide-sugar diphosphatase activity](http://purl.obolibrary.org/obo/GO_0141224) 
 
 
+### Wnt signaling pathway, planar cell polarity pathway `http://purl.obolibrary.org/obo/GO_0060071`
+#### Removed
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PCP pathway" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [Wnt signaling pathway, planar cell polarity pathway](http://purl.obolibrary.org/obo/GO_0060071) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "planar cell polarity pathway" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cjm" 
+
+
+
 ### XMP salvage `http://purl.obolibrary.org/obo/GO_0032265`
 
 #### Added
@@ -3491,6 +3544,37 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### core planar cell polarity `http://purl.obolibrary.org/obo/GO_7770140`
+
+#### Added
+- Class: [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-20T23:59:20Z" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "core PCP pathway" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770140" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A planar cell polarity process mediated by Frizzled-family receptors, Van Gogh-family proteins and Flamingo/CELSR-family atypical cadherins of the adhesion (class B2) GPCR family." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27576155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41895071" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In Drosophila, core planar cell polarity components include the transmembrane proteins Frizzled, Van Gogh and Starry night and the cytosolic proteins Dishevelled, Diego and Prickle. This term should be used to annotate the proteins involved in the initial generation of asymmetry between two cells, not downstream processes that result in asymmetric tissue features, such as cytoskeleton reorganisation, or global cues, such as Wnt ligands. For these, consider 'establishment of planar polarity ; GO:0001736' or a term appropriate to the process described." 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) [label](http://www.w3.org/2000/01/rdf-schema#label) "core planar cell polarity" 
+
+- [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) SubClassOf [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) 
+
+
 ### corticotropin-releasing hormone receptor activity `http://purl.obolibrary.org/obo/GO_0043404`
 #### Removed
 - [corticotropin-releasing hormone receptor activity](http://purl.obolibrary.org/obo/GO_0043404) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "corticotropin-releasing factor receptor activity" 
@@ -3613,6 +3697,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32272059" 
 
 
+### cytosolic large ribosomal subunit assembly `http://purl.obolibrary.org/obo/GO_0180023`
+#### Removed
+- [cytosolic large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180023) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) 
+
+#### Added
+- [cytosolic large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180023) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytosolic large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180023) SubClassOf [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) 
+
+
 ### cytosolic protein biosynthetic process `http://purl.obolibrary.org/obo/GO_7770127`
 
 #### Added
@@ -3650,6 +3744,24 @@
 - [cytosolic protein biosynthetic process](http://purl.obolibrary.org/obo/GO_7770127) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829) 
 
 
+### cytosolic ribosome assembly `http://purl.obolibrary.org/obo/GO_0042256`
+#### Removed
+- [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mature ribosome assembly" 
+
+- [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of the large and small ribosomal subunits into a functional cytosolic ribosome. Distinct stages of this process take place first in the nucleolus, then in the nucleus and finally in the cytosol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30467428" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+#### Added
+- [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature cytosolic ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30467428" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+
 ### cytosolic ribosome hibernation `http://purl.obolibrary.org/obo/GO_0141014`
 #### Removed
 - [cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_0141014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular process that results in the silencing of ribosomes in quiescent cells. Quiescence takes place when cells encounter unfavorable conditions and cease to grow in bacteria and yeast. It also takes place in some specialized cells in higher eukaryotes, such as eggs. Ribosomes in a hibernation state are kept silent via association with proteins with inhibitory and protective functions." 
@@ -3668,6 +3780,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30177741" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36653451" 
+
+
+### cytosolic small ribosomal subunit assembly `http://purl.obolibrary.org/obo/GO_0180025`
+#### Removed
+- [cytosolic small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180025) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) 
+
+#### Added
+- [cytosolic small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180025) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cytosolic small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180025) SubClassOf [cytosolic ribosome assembly](http://purl.obolibrary.org/obo/GO_0042256) 
 
 
 ### dAMP salvage `http://purl.obolibrary.org/obo/GO_0106383`
@@ -4044,6 +4166,18 @@
 
 #### Added
 - [formaldehyde assimilation](http://purl.obolibrary.org/obo/GO_0019649) SubClassOf [nutrient assimilation](http://purl.obolibrary.org/obo/GO_7770097) 
+
+
+### formation of cytoplasmic translation preinitiation complex `http://purl.obolibrary.org/obo/GO_0001731`
+#### Removed
+- [formation of cytoplasmic translation preinitiation complex](http://purl.obolibrary.org/obo/GO_0001731) [label](http://www.w3.org/2000/01/rdf-schema#label) "formation of translation preinitiation complex" 
+
+#### Added
+- [formation of cytoplasmic translation preinitiation complex](http://purl.obolibrary.org/obo/GO_0001731) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [formation of cytoplasmic translation preinitiation complex](http://purl.obolibrary.org/obo/GO_0001731) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "formation of translation preinitiation complex" 
+
+- [formation of cytoplasmic translation preinitiation complex](http://purl.obolibrary.org/obo/GO_0001731) [label](http://www.w3.org/2000/01/rdf-schema#label) "formation of cytoplasmic translation preinitiation complex" 
 
 
 ### fructosamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0030391`
@@ -5399,6 +5533,16 @@
 - [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32408"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### mitochondrial large ribosomal subunit assembly `http://purl.obolibrary.org/obo/GO_1902775`
+#### Removed
+- [mitochondrial large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_1902775) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) 
+
+#### Added
+- [mitochondrial large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_1902775) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrial large ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_1902775) SubClassOf [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) 
+
+
 ### mitochondrial membrane organization `http://purl.obolibrary.org/obo/GO_0007006`
 #### Removed
 - [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) EquivalentTo [membrane organization](http://purl.obolibrary.org/obo/GO_0061024) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739)) 
@@ -5472,6 +5616,28 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34436539" 
 
 - [mitochondrial protein quality control](http://purl.obolibrary.org/obo/GO_0141164) SubClassOf [protein catabolic process](http://purl.obolibrary.org/obo/GO_0030163) 
+
+
+### mitochondrial ribosome assembly `http://purl.obolibrary.org/obo/GO_0061668`
+#### Removed
+- [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of the mitochondrial ribosome and of its subunits." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+#### Added
+- [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature mitochondrial ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+
+### mitochondrial small ribosomal subunit assembly `http://purl.obolibrary.org/obo/GO_0180026`
+#### Removed
+- [mitochondrial small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180026) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) 
+
+#### Added
+- [mitochondrial small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180026) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrial small ribosomal subunit assembly](http://purl.obolibrary.org/obo/GO_0180026) SubClassOf [mitochondrial ribosome assembly](http://purl.obolibrary.org/obo/GO_0061668) 
 
 
 ### mitochondrial translation `http://purl.obolibrary.org/obo/GO_0032543`
@@ -12906,6 +13072,41 @@
 - [piRNA precursor export from nucleus](http://purl.obolibrary.org/obo/GO_0140508) SubClassOf [RNA export from nucleus](http://purl.obolibrary.org/obo/GO_0006405) 
 
 
+### planar cell polarity `http://purl.obolibrary.org/obo/GO_7770139`
+
+#### Added
+- Class: [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-20T23:59:20Z" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PCP pathway" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "planar cell polarity pathway" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770139" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell communication process in which junctional protein complexes localize proteins asymmetrically to opposite sides of cells in the plane of a tissue, usually an epithelium." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27576155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term is not for direct annotation. Consider instead 'core planar cell polarity ; GO:7770140' or 'Fat/Dachsous planar cell polarity ; GO:7770141'." 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) [label](http://www.w3.org/2000/01/rdf-schema#label) "planar cell polarity" 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) SubClassOf [cell communication](http://purl.obolibrary.org/obo/GO_0007154) 
+
+- [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+
 ### plastid transcription `http://purl.obolibrary.org/obo/GO_0042793`
 
 #### Added
@@ -14094,6 +14295,62 @@
 
 - [riboflavin kinase activity](http://purl.obolibrary.org/obo/GO_0008531) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: riboflavin + ATP = FMN + ADP + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:14357" 
+
+
+### ribosomal large subunit assembly `http://purl.obolibrary.org/obo/GO_0000027`
+#### Removed
+- [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) SubClassOf [protein-RNA complex assembly](http://purl.obolibrary.org/obo/GO_0022618) 
+
+- [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) 
+
+#### Added
+- [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) SubClassOf [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) 
+
+
+### ribosomal small subunit assembly `http://purl.obolibrary.org/obo/GO_0000028`
+#### Removed
+- [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) SubClassOf [protein-RNA complex assembly](http://purl.obolibrary.org/obo/GO_0022618) 
+
+- [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) 
+
+#### Added
+- [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) SubClassOf [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) 
+
+
+### ribosome assembly `http://purl.obolibrary.org/obo/GO_0042255`
+#### Removed
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of the mature ribosome and of its subunits." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30467428" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "ribosomal subunit assembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) SubClassOf [membraneless organelle assembly](http://purl.obolibrary.org/obo/GO_0140694) 
+
+#### Added
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30467428" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ma" 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ribosomal subunit assembly" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "For the joining of the small and large ribosomal subunits, consider instead annotating to 'translational initiation ; GO:0006413' or one of its descendants." 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) SubClassOf [protein-RNA complex assembly](http://purl.obolibrary.org/obo/GO_0022618) 
 
 
 ### ribosome-associated chaperone complex `http://purl.obolibrary.org/obo/GO_0170081`
