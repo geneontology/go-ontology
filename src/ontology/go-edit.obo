@@ -267611,6 +267611,7 @@ def: "OBSOLETE. The chemical reactions and pathways involving daunorubicin, a ch
 comment: This term was obsoleted because it is an unnecessary grouping term.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32778" xsd:anyURI
 is_obsolete: true
+consider: GO:0042178
 created_by: jl
 creation_date: 2012-05-01T03:09:51Z
 
@@ -518238,7 +518239,7 @@ synonym: "daunorubicin catabolism" EXACT [GOC:TermGenie]
 synonym: "daunorubicin degradation" EXACT [GOC:TermGenie]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32778" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0042178
+consider: GO:0042178
 created_by: yaf
 creation_date: 2013-01-15T10:14:29Z
 
