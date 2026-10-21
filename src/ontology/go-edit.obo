@@ -470820,6 +470820,26 @@ created_by: pg
 creation_date: 2026-10-12T05:48:51Z
 
 [Term]
+id: GO:0140520
+name: K6-linked deubiquitinase activity
+namespace: molecular_function
+def: "Hydrolysis of a ubiquitin unit from a ubiquitinated protein linked via the Lys6 residue of ubiquitin." [PMID:33185526]
+is_a: GO:0101005 ! deubiquitinase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32786" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-21T10:43:01Z
+
+[Term]
+id: GO:0140521
+name: K33-linked deubiquitinase activity
+namespace: molecular_function
+def: "Hydrolysis of a ubiquitin unit from a ubiquitinated protein linked via the Lys33 residue of ubiquitin." [PMID:33185526]
+is_a: GO:0101005 ! deubiquitinase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32786" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-21T10:44:22Z
+
+[Term]
 id: GO:0140522
 name: fusogenic activity
 namespace: molecular_function
