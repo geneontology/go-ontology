@@ -268321,7 +268321,7 @@ name: viral release from host cell by cytolysis
 namespace: biological_process
 alt_id: GO:0019077
 alt_id: GO:0046756
-def: "The dissemination of mature viral particles from a host cell by the rupture of cell membranes and, if present, the cell wall or S-layer, leading to the loss of cytoplasm." [PMID:26728778]
+def: "The dissemination of mature viral particles from a host cell by the rupture of cell membranes and, if present, the cell wall or S-layer, leading to the loss of cytoplasm." [PMID:24585055, PMID:26728778, PMID:38234448]
 synonym: "cytolysis by virus of host cell" RELATED []
 synonym: "lytic viral life cycle" RELATED []
 synonym: "lytic viral release" EXACT []
