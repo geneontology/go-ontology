@@ -268321,7 +268321,7 @@ name: viral release from host cell by cytolysis
 namespace: biological_process
 alt_id: GO:0019077
 alt_id: GO:0046756
-def: "The dissemination of mature viral particles from a host cell by the rupture of cell membranes and the loss of cytoplasm." [GOC:jl, PMID:26728778]
+def: "The dissemination of mature viral particles from a host cell by the rupture of cell membranes and, if present, the cell wall or S-layer, leading to the loss of cytoplasm." [PMID:24585055, PMID:26728778, PMID:38234448]
 synonym: "cytolysis by virus of host cell" RELATED []
 synonym: "lytic viral life cycle" RELATED []
 synonym: "lytic viral release" EXACT []
@@ -268333,6 +268333,7 @@ is_a: GO:0001897 ! symbiont-mediated cytolysis of host cell
 is_a: GO:0016032 ! viral process
 is_a: GO:0019076 ! viral release from host cell
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18852" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32771" xsd:anyURI
 created_by: jl
 creation_date: 2012-08-01T13:16:39Z
 
@@ -321648,8 +321649,8 @@ xref: RHEA:37123 {source="skos:narrowMatch"}
 xref: RHEA:45284 {source="skos:narrowMatch"}
 xref: RHEA:64044 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32752" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32752" xsd:anyURI
 
 [Term]
 id: GO:0050292
@@ -465676,8 +465677,8 @@ synonym: "extracellular vesicle assembly" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14256" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
 is_obsolete: true
-consider: GO:1990182
 consider: GO:0006900
+consider: GO:1990182
 created_by: pg
 creation_date: 2017-10-23T11:53:42Z
 
@@ -508326,7 +508327,7 @@ def: "Any process that modulates the frequency, rate or extent of formation of t
 synonym: "regulation of formation of translation pre-initiation complex" EXACT [GOC:TermGenie]
 synonym: "regulation of translation preinitiation complex assembly" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0001731 ! formation of translation preinitiation complex
+intersection_of: regulates GO:0001731 ! formation of cytoplasmic translation preinitiation complex
 relationship: regulates GO:0002183 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! cytoplasmic translational initiation
 created_by: ss
 creation_date: 2012-07-25T02:31:20Z
@@ -508351,7 +508352,7 @@ synonym: "inhibition of translation preinitiation complex assembly" EXACT [GOC:T
 synonym: "negative regulation of formation of translation pre-initiation complex" EXACT [GOC:TermGenie]
 synonym: "negative regulation of translation preinitiation complex assembly" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0001731 ! formation of translation preinitiation complex
+intersection_of: negatively_regulates GO:0001731 ! formation of cytoplasmic translation preinitiation complex
 relationship: negatively_regulates GO:0002183 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! cytoplasmic translational initiation
 created_by: ss
 creation_date: 2012-07-25T02:31:41Z
@@ -508376,7 +508377,7 @@ synonym: "upregulation of formation of translation pre-initiation complex" EXACT
 synonym: "upregulation of formation of translation preinitiation complex" EXACT [GOC:TermGenie]
 synonym: "upregulation of translation preinitiation complex assembly" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0001731 ! formation of translation preinitiation complex
+intersection_of: positively_regulates GO:0001731 ! formation of cytoplasmic translation preinitiation complex
 created_by: ss
 creation_date: 2012-07-25T02:31:50Z
 
@@ -600226,8 +600227,8 @@ synonym: "Vta1-Vps4 complex" RELATED []
 is_a: GO:0036452 ! ESCRT complex
 relationship: capable_of GO:0005524 ! ATP binding
 relationship: capable_of GO:0016887 ! ATP hydrolysis activity
-relationship: part_of GO:0010008 ! endosome membrane
 relationship: capable_of_part_of GO:0032509 ! endosome transport via multivesicular body sorting pathway
+relationship: part_of GO:0010008 ! endosome membrane
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 created_by: pr
 creation_date: 2015-01-29T10:02:30Z
