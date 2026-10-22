@@ -312,6 +312,7 @@ id: GO:0000027
 name: ribosomal large subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the large ribosomal subunit." [GOC:jl, PMID:30467428]
+subset: gocheck_do_not_annotate
 synonym: "50S ribosomal subunit assembly" NARROW [GOC:mah]
 synonym: "60S ribosomal subunit assembly" NARROW [GOC:mah]
 intersection_of: GO:0022607 ! cellular component assembly
@@ -319,12 +320,14 @@ intersection_of: results_in_assembly_of GO:0015934 ! large ribosomal subunit
 relationship: part_of GO:0042273 ! ribosomal large subunit biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0000028
 name: ribosomal small subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the small ribosomal subunit." [GOC:jl, PMID:30467428]
+subset: gocheck_do_not_annotate
 synonym: "30S ribosomal subunit assembly" NARROW [GOC:mah]
 synonym: "40S ribosomal subunit assembly" NARROW [GOC:mah]
 intersection_of: GO:0022607 ! cellular component assembly
@@ -332,6 +335,7 @@ intersection_of: results_in_assembly_of GO:0015935 ! small ribosomal subunit
 relationship: part_of GO:0042274 ! ribosomal small subunit biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0000030
@@ -242693,6 +242697,7 @@ name: ribosome biogenesis
 namespace: biological_process
 alt_id: GO:0007046
 def: "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of ribosome subunits; includes transport to the sites of protein synthesis." [GOC:ma, PMID:26404467, Wikipedia:Ribosome_biogenesis]
+subset: gocheck_do_not_annotate
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -242703,6 +242708,7 @@ subset: goslim_prokaryote
 subset: goslim_prokaryote_ribbon
 synonym: "ribosome biogenesis and assembly" EXACT []
 is_a: GO:0022613 ! ribonucleoprotein complex biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042255
@@ -242711,12 +242717,14 @@ namespace: biological_process
 alt_id: GO:0042257
 def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:ma, PMID:30467428]
 comment: For the joining of the small and large ribosomal subunits, consider instead annotating to 'translational initiation ; GO:0006413' or one of its descendants.
+subset: gocheck_do_not_annotate
 subset: goslim_yeast
 synonym: "ribosomal subunit assembly" EXACT [GOC:mah, GOC:vw]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0044391 ! ribosomal subunit
 relationship: part_of GO:0042254 ! ribosome biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042256
@@ -242873,20 +242881,24 @@ id: GO:0042273
 name: ribosomal large subunit biogenesis
 namespace: biological_process
 def: "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a large ribosomal subunit; includes transport to the sites of protein synthesis." [GOC:jl]
+subset: gocheck_do_not_annotate
 subset: goslim_yeast
 synonym: "ribosomal large subunit biogenesis and assembly" EXACT []
 is_a: GO:0022613 ! ribonucleoprotein complex biogenesis
 relationship: part_of GO:0042254 ! ribosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042274
 name: ribosomal small subunit biogenesis
 namespace: biological_process
 def: "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a small ribosomal subunit; includes transport to the sites of protein synthesis." [GOC:jl]
+subset: gocheck_do_not_annotate
 subset: goslim_yeast
 synonym: "ribosomal small subunit biogenesis and assembly" EXACT []
 is_a: GO:0022613 ! ribonucleoprotein complex biogenesis
 relationship: part_of GO:0042254 ! ribosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042275
