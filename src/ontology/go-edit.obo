@@ -62967,11 +62967,15 @@ consider: GO:0017108
 
 [Term]
 id: GO:0006287
-name: base-excision repair, gap-filling
+name: obsolete base-excision repair, gap-filling
 namespace: biological_process
-def: "Repair of the damaged strand by the combined action of an apurinic endouclease that degrades a few bases on the damaged strand and a polymerase that synthesizes a 'patch' in the 5' to 3' direction, using the undamaged strand as a template." [ISBN:1550091131]
-is_a: GO:0006259 ! DNA metabolic process
-relationship: part_of GO:0006284 ! base-excision repair
+def: "OBSOLETE. Repair of the damaged strand by the combined action of an apurinic endouclease that degrades a few bases on the damaged strand and a polymerase that synthesizes a 'patch' in the 5' to 3' direction, using the undamaged strand as a template." [ISBN:1550091131]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32760" xsd:anyURI
+is_obsolete: true
+consider: GO:0006284
+consider: GO:7770137
+consider: GO:7770138
 
 [Term]
 id: GO:0006288
