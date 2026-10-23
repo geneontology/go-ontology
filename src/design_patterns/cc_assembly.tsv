@@ -117,16 +117,15 @@ http://purl.obolibrary.org/obo/GO_0097010	eukaryotic translation initiation fact
 http://purl.obolibrary.org/obo/GO_0001927	exocyst assembly	http://purl.obolibrary.org/obo/GO_0000145	exocyst
 http://purl.obolibrary.org/obo/GO_1903040	exon-exon junction complex assembly	http://purl.obolibrary.org/obo/GO_0035145	exon-exon junction complex
 http://purl.obolibrary.org/obo/GO_0070499	exosporium assembly	http://purl.obolibrary.org/obo/GO_0043592	exosporium
-http://purl.obolibrary.org/obo/GO_0071971	extracellular exosome assembly	http://purl.obolibrary.org/obo/GO_0070062	extracellular exosome
 http://purl.obolibrary.org/obo/GO_0085029	extracellular matrix assembly	http://purl.obolibrary.org/obo/GO_0031012	extracellular matrix
 http://purl.obolibrary.org/obo/GO_0035038	female pronucleus assembly	http://purl.obolibrary.org/obo/GO_0001939	female pronucleus
 http://purl.obolibrary.org/obo/GO_0046847	filopodium assembly	http://purl.obolibrary.org/obo/GO_0030175	filopodium
 http://purl.obolibrary.org/obo/GO_0036058	filtration diaphragm assembly	http://purl.obolibrary.org/obo/GO_0036056	filtration diaphragm
 http://purl.obolibrary.org/obo/GO_0048041	focal adhesion assembly	http://purl.obolibrary.org/obo/GO_0005925	focal adhesion
 http://purl.obolibrary.org/obo/GO_0001732	formation of cytoplasmic translation initiation complex	http://purl.obolibrary.org/obo/GO_0070992	translation initiation complex
+http://purl.obolibrary.org/obo/GO_0001731	formation of cytoplasmic translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0070993	cytosolic translation preinitiation complex
 http://purl.obolibrary.org/obo/GO_0001325	formation of extrachromosomal circular DNA	http://purl.obolibrary.org/obo/GO_0005727	extrachromosomal circular DNA
 http://purl.obolibrary.org/obo/GO_0001677	formation of translation initiation ternary complex	http://purl.obolibrary.org/obo/GO_0044207	translation initiation ternary complex
-http://purl.obolibrary.org/obo/GO_0001731	formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0070993	cytosolic translation preinitiation complex
 http://purl.obolibrary.org/obo/GO_0070649	formin-nucleated actin cable assembly	http://purl.obolibrary.org/obo/GO_0070648	formin-nucleated actin cable
 http://purl.obolibrary.org/obo/GO_0071940	fungal-type cell wall assembly	http://purl.obolibrary.org/obo/GO_0009277	fungal-type cell wall
 http://purl.obolibrary.org/obo/GO_1902481	gamma-tubulin complex assembly	http://purl.obolibrary.org/obo/GO_0000930	gamma-tubulin complex
@@ -167,11 +166,9 @@ http://purl.obolibrary.org/obo/GO_0046785	microtubule polymerization	http://purl
 http://purl.obolibrary.org/obo/GO_0030034	microvillar actin bundle assembly	http://purl.obolibrary.org/obo/GO_0097516	microvillar actin bundle
 http://purl.obolibrary.org/obo/GO_0030033	microvillus assembly	http://purl.obolibrary.org/obo/GO_0005902	microvillus
 http://purl.obolibrary.org/obo/GO_1902775	mitochondrial large ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0005762	mitochondrial large ribosomal subunit
-http://purl.obolibrary.org/obo/GO_0061668	mitochondrial ribosome assembly	http://purl.obolibrary.org/obo/GO_0005761	mitochondrial ribosome
 http://purl.obolibrary.org/obo/GO_0180026	mitochondrial small ribosomal subunit assembly	http://purl.obolibrary.org/obo/GO_0005763	mitochondrial small ribosomal subunit
 http://purl.obolibrary.org/obo/GO_1905660	mitotic checkpoint complex assembly	http://purl.obolibrary.org/obo/GO_0033597	mitotic checkpoint complex
 http://purl.obolibrary.org/obo/GO_0044458	motile cilium assembly	http://purl.obolibrary.org/obo/GO_0031514	motile cilium
-http://purl.obolibrary.org/obo/GO_0036258	multivesicular body assembly	http://purl.obolibrary.org/obo/GO_0005771	multivesicular body
 http://purl.obolibrary.org/obo/GO_0032288	myelin assembly	http://purl.obolibrary.org/obo/GO_0043209	myelin sheath
 http://purl.obolibrary.org/obo/GO_0030239	myofibril assembly	http://purl.obolibrary.org/obo/GO_0030016	myofibril
 http://purl.obolibrary.org/obo/GO_0031036	myosin II filament assembly	http://purl.obolibrary.org/obo/GO_0097513	myosin II filament
@@ -230,7 +227,7 @@ http://purl.obolibrary.org/obo/GO_0017062	respiratory chain complex III assembly
 http://purl.obolibrary.org/obo/GO_0008535	respiratory chain complex IV assembly	http://purl.obolibrary.org/obo/GO_0045277	respiratory chain complex IV
 http://purl.obolibrary.org/obo/GO_0000027	ribosomal large subunit assembly	http://purl.obolibrary.org/obo/GO_0015934	large ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0000028	ribosomal small subunit assembly	http://purl.obolibrary.org/obo/GO_0015935	small ribosomal subunit
-http://purl.obolibrary.org/obo/GO_0042255	ribosome assembly	http://purl.obolibrary.org/obo/GO_0005840	ribosome
+http://purl.obolibrary.org/obo/GO_0042255	ribosome assembly	http://purl.obolibrary.org/obo/GO_0044391	ribosomal subunit
 http://purl.obolibrary.org/obo/GO_0097343	ripoptosome assembly	http://purl.obolibrary.org/obo/GO_0097342	ripoptosome
 http://purl.obolibrary.org/obo/GO_0097178	ruffle assembly	http://purl.obolibrary.org/obo/GO_0001726	ruffle
 http://purl.obolibrary.org/obo/GO_0019991	septate junction assembly	http://purl.obolibrary.org/obo/GO_0005918	septate junction
