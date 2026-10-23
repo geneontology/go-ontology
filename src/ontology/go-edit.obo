@@ -49567,6 +49567,7 @@ comment: Reinstated term from obsolete.
 is_a: GO:0038023 ! signaling receptor activity
 is_a: GO:0098631 ! cell adhesion mediator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15237" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0004896
@@ -51226,6 +51227,7 @@ comment: Note that this term represents an activity and not a gene product. Cons
 is_a: GO:0098631 ! cell adhesion mediator activity
 is_a: neverin:4751
 relationship: has_part GO:0043236 ! laminin binding
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0005056
@@ -433913,10 +433915,11 @@ subset: goslim_generic
 subset: goslim_prokaryote
 synonym: "cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell adhesion" EXACT []
-is_a: GO:0060090 ! molecular adaptor activity
+is_a: GO:0030674 ! protein-macromolecule adaptor activity
 relationship: occurs_in GO:0009986 ! cell surface
 relationship: part_of GO:0007155 ! cell adhesion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22959" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098632
@@ -433925,9 +433928,9 @@ namespace: molecular_function
 def: "The binding by a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." [GOC:dos, Wikipedia:Cell_adhesion]
 synonym: "cell-cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-cell adhesion" EXACT []
-is_a: GO:0003674 ! molecular_function
-intersection_of: GO:0005515 ! protein binding
-intersection_of: part_of GO:0098609 ! cell-cell adhesion
+is_a: GO:0098631 ! cell adhesion mediator activity
+relationship: part_of GO:0098609 ! cell-cell adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098633
