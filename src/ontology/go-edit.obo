@@ -61623,11 +61623,13 @@ is_obsolete: true
 
 [Term]
 id: GO:0006166
-name: purine ribonucleoside salvage
+name: obsolete purine ribonucleoside salvage
 namespace: biological_process
-def: "Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:26399 ! purine ribonucleoside
+def: "OBSOLETE. Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106380
 
 [Term]
 id: GO:0006167
@@ -61643,26 +61645,28 @@ intersection_of: has_primary_output CHEBI:456215 ! adenosine 5'-monophosphate(2-
 
 [Term]
 id: GO:0006168
-name: adenine salvage
+name: obsolete adenine salvage
 namespace: biological_process
-def: "Any process that generates adenine, 6-aminopurine, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates adenine, 6-aminopurine, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine salvage pathway" EXACT []
 synonym: "adenine, hypoxanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16708 ! adenine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0044209
 
 [Term]
 id: GO:0006169
-name: adenosine salvage
+name: obsolete adenosine salvage
 namespace: biological_process
-def: "Any process that generates adenosine, adenine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates adenosine, adenine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16335 ! adenosine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0044209
 
 [Term]
 id: GO:0006170
@@ -61767,29 +61771,35 @@ intersection_of: has_primary_output CHEBI:58115 ! guanosine 5'-monophosphate(2-)
 
 [Term]
 id: GO:0006178
-name: guanine salvage
+name: obsolete guanine salvage
 namespace: biological_process
-def: "Any process that generates guanine, 2-amino-6-hydroxypurine, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates guanine, 2-amino-6-hydroxypurine, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "guanine, xanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16235 ! guanine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032263
 
 [Term]
 id: GO:0006179
-name: guanosine salvage
+name: obsolete guanosine salvage
 namespace: biological_process
-def: "Any process that generates guanosine, guanine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates guanosine, guanine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "guanine, xanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16750 ! guanosine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032263
 
 [Term]
 id: GO:0006180
-name: deoxyguanosine salvage
+name: obsolete deoxyguanosine salvage
 namespace: biological_process
-def: "Any process that generates deoxyguanosine from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:17172 ! 2'-deoxyguanosine
+def: "OBSOLETE. Any process that generates deoxyguanosine from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106384
 
 [Term]
 id: GO:0006181
@@ -61900,21 +61910,26 @@ is_a: GO:0006188 ! IMP biosynthetic process
 
 [Term]
 id: GO:0006190
-name: inosine salvage
+name: obsolete inosine salvage
 namespace: biological_process
-def: "Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" RELATED []
 synonym: "guanine, xanthine and their nucleoside salvage" RELATED []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:17596 ! inosine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+consider: GO:0006204
+consider: GO:0032264
 
 [Term]
 id: GO:0006191
-name: deoxyinosine salvage
+name: obsolete deoxyinosine salvage
 namespace: biological_process
-def: "Any process that generates deoxyinosine from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:28997 ! 2'-deoxyinosine
+def: "OBSOLETE. Any process that generates deoxyinosine from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106385
 
 [Term]
 id: GO:0006192
@@ -101936,10 +101951,8 @@ def: "OBSOLETE. The pathway by which adenine, hypoxanthine and their nucleosides
 comment: This term was made obsolete because it represents multiple processes that are represented elsewhere in the process ontology.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" EXACT []
 is_obsolete: true
-consider: GO:0006168
-consider: GO:0006169
-consider: GO:0006190
-consider: GO:0043103
+consider: GO:0032264
+consider: GO:0044209
 
 [Term]
 id: GO:0010141
@@ -101949,10 +101962,9 @@ def: "OBSOLETE. The pathway by which guanine, xanthine and their nucleoside from
 comment: This term was made obsolete because it represents multiple processes that are represented elsewhere in the process ontology.
 synonym: "guanine, xanthine and their nucleoside salvage" EXACT []
 is_obsolete: true
-consider: GO:0006178
-consider: GO:0006179
-consider: GO:0006190
-consider: GO:0043103
+consider: GO:0032263
+consider: GO:0032264
+consider: GO:0032265
 
 [Term]
 id: GO:0010142
@@ -186328,8 +186340,10 @@ id: GO:0032261
 name: purine nucleotide salvage
 namespace: biological_process
 def: "Any process which produces a purine nucleotide from derivatives of it, without de novo synthesis." [GOC:jp]
+synonym: "purine salvage" EXACT []
 intersection_of: GO:0043094 ! metabolic compound salvage
 intersection_of: has_primary_output CHEBI:26395 ! purine nucleotide
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
 
 [Term]
 id: GO:0032262
@@ -251217,12 +251231,14 @@ is_obsolete: true
 
 [Term]
 id: GO:0043096
-name: purine nucleobase salvage
+name: obsolete purine nucleobase salvage
 namespace: biological_process
-def: "Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "purine base salvage" EXACT [GOC:curators]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:26386 ! purine nucleobase
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106380
 
 [Term]
 id: GO:0043097
@@ -251234,11 +251250,13 @@ intersection_of: has_primary_output CHEBI:26440 ! pyrimidine nucleoside
 
 [Term]
 id: GO:0043098
-name: purine deoxyribonucleoside salvage
+name: obsolete purine deoxyribonucleoside salvage
 namespace: biological_process
-def: "Any process which produces a purine deoxyribonucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:60173 ! purine deoxyribonucleoside
+def: "OBSOLETE. Any process which produces a purine deoxyribonucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106381
 
 [Term]
 id: GO:0043099
@@ -251259,13 +251277,15 @@ intersection_of: has_primary_output CHEBI:26432 ! pyrimidine nucleobase
 
 [Term]
 id: GO:0043101
-name: purine-containing compound salvage
+name: obsolete purine-containing compound salvage
 namespace: biological_process
-def: "Any process that generates a purine-containing compound, any nucleobase, nucleoside, nucleotide or nucleic acid that contains a purine base, from derivatives of them without de novo synthesis." [GOC:jl]
-subset: goslim_pir
+def: "OBSOLETE. Any process that generates a purine-containing compound, any nucleobase, nucleoside, nucleotide or nucleic acid that contains a purine base, from derivatives of them without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine salvage" RELATED []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032261
 
 [Term]
 id: GO:0043102
@@ -251277,13 +251297,15 @@ intersection_of: has_primary_output CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: GO:0043103
-name: hypoxanthine salvage
+name: obsolete hypoxanthine salvage
 namespace: biological_process
-def: "Any process that generates hypoxanthine, 6-hydroxy purine, from derivatives of it without de novo synthesis." [GOC:jl, ISBN:0198506732]
+def: "OBSOLETE. Any process that generates hypoxanthine, 6-hydroxy purine, from derivatives of it without de novo synthesis." [GOC:jl, ISBN:0198506732]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" NARROW []
 synonym: "guanine, xanthine and their nucleoside salvage" NARROW []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:17368 ! hypoxanthine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032264
 
 [Term]
 id: GO:0043104
@@ -405864,46 +405886,54 @@ creation_date: 2011-01-04T12:50:36Z
 
 [Term]
 id: GO:0072521
-name: purine-containing compound metabolic process
+name: obsolete purine-containing compound metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+def: "OBSOLETE. The chemical reactions and pathways involving a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine and derivative metabolic process" EXACT []
 synonym: "purine-containing compound metabolism" EXACT [GOC:mah]
-is_a: GO:0008152 ! metabolic process
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0006144
+consider: GO:0006163
+consider: GO:0042278
 created_by: mah
 creation_date: 2011-01-04T03:03:59Z
 
 [Term]
 id: GO:0072522
-name: purine-containing compound biosynthetic process
+name: obsolete purine-containing compound biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the formation of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine and derivative biosynthetic process" EXACT []
 synonym: "purine-containing compound anabolism" EXACT [GOC:mah]
 synonym: "purine-containing compound biosynthesis" EXACT [GOC:mah]
 synonym: "purine-containing compound formation" EXACT [GOC:mah]
 synonym: "purine-containing compound synthesis" EXACT [GOC:mah]
-is_a: GO:0009058 ! biosynthetic process
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0006164
+consider: GO:0009113
+consider: GO:0042451
 created_by: mah
 creation_date: 2011-01-04T03:15:29Z
 
 [Term]
 id: GO:0072523
-name: purine-containing compound catabolic process
+name: obsolete purine-containing compound catabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the breakdown of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine and derivative catabolic process" EXACT []
 synonym: "purine-containing compound breakdown" EXACT [GOC:mah]
 synonym: "purine-containing compound catabolism" EXACT [GOC:mah]
 synonym: "purine-containing compound degradation" EXACT [GOC:mah]
-is_a: GO:0009056 ! catabolic process
-is_a: GO:0034656 ! nucleobase-containing small molecule catabolic process
-intersection_of: GO:0009056 ! catabolic process
-intersection_of: has_primary_input CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0006145
+consider: GO:0006152
+consider: GO:0006195
 created_by: mah
 creation_date: 2011-01-04T03:17:20Z
 
@@ -405997,13 +406027,16 @@ creation_date: 2011-01-04T03:27:51Z
 
 [Term]
 id: GO:0072530
-name: purine-containing compound transmembrane transport
+name: obsolete purine-containing compound transmembrane transport
 namespace: biological_process
-def: "The process in which a purine-containing compound is transported across a membrane. A purine-containing compound is any compound that contains purine or a formal derivative thereof." [GOC:mah]
-comment: Note that this term is not intended for use in annotating lateral movement within membranes.
+def: "OBSOLETE. The process in which a purine-containing compound is transported across a membrane. A purine-containing compound is any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine-containing compound membrane transport" EXACT []
-intersection_of: GO:0055085 ! transmembrane transport
-intersection_of: has_primary_input CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0015860
+consider: GO:0015865
+consider: GO:1904823
 created_by: mah
 creation_date: 2011-01-05T01:45:14Z
 
