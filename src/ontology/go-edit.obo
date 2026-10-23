@@ -49562,11 +49562,12 @@ consider: GO:0042605
 id: GO:0004895
 name: cell adhesion receptor activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the external substrate or to another cell and to initiate intracellular signaling. Cell adhesion receptors include integrins and cadherins." [GOC:BHF-UCL, Wikipedia:Cell_adhesion]
+def: "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the external substrate or to another cell and to initiate intracellular signaling. Cell adhesion receptors include integrins and cadherins." [GOC:BHF-UCL, Wikipedia:Cell_adhesion]
 comment: Reinstated term from obsolete.
 is_a: GO:0038023 ! signaling receptor activity
 is_a: GO:0098631 ! cell adhesion mediator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15237" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0004896
@@ -51221,11 +51222,12 @@ consider: GO:0038023
 id: GO:0005055
 name: laminin receptor activity
 namespace: molecular_function
-def: "Combining with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." [GOC:ai, PMID:2970671]
+def: "A cell adhesion mediator activity that combines with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." [GOC:ai, PMID:2970671]
 comment: Note that this term represents an activity and not a gene product. Consider also annotating to the molecular function terms 'cell adhesion molecule binding ; GO:0050839' and 'receptor binding ; GO:0005102' and the biological process term 'cell adhesion ; GO:0007155'.
 is_a: GO:0098631 ! cell adhesion mediator activity
 is_a: neverin:4751
 relationship: has_part GO:0043236 ! laminin binding
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0005056
@@ -433908,15 +433910,16 @@ is_a: GO:0098743 ! cell aggregation
 id: GO:0098631
 name: cell adhesion mediator activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on a cell surface to an adhesion molecule on another cell surface or an external substrate, to mediate adhesion of the cell to the external substrate or to another cell." [GOC:vw, Wikipedia:Cell_adhesion]
+def: "A molecular adaptor activity that links a cell-adhesion protein on a cell surface to an adhesion molecule on another cell surface or an external substrate, to mediate adhesion of the cell to the external substrate or to another cell." [GOC:vw, Wikipedia:Cell_adhesion]
 subset: goslim_generic
 subset: goslim_prokaryote
 synonym: "cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell adhesion" EXACT []
-is_a: GO:0050839 ! cell adhesion molecule binding
-intersection_of: GO:0005488 ! binding
-intersection_of: part_of GO:0007155 ! cell adhesion
+is_a: GO:0030674 ! protein-macromolecule adaptor activity
+relationship: occurs_in GO:0009986 ! cell surface
+relationship: part_of GO:0007155 ! cell adhesion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22959" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098632
@@ -433925,9 +433928,9 @@ namespace: molecular_function
 def: "The binding by a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." [GOC:dos, Wikipedia:Cell_adhesion]
 synonym: "cell-cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-cell adhesion" EXACT []
-is_a: GO:0003674 ! molecular_function
-intersection_of: GO:0005515 ! protein binding
-intersection_of: part_of GO:0098609 ! cell-cell adhesion
+is_a: GO:0098631 ! cell adhesion mediator activity
+relationship: part_of GO:0098609 ! cell-cell adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098633
