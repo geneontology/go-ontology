@@ -433913,9 +433913,8 @@ subset: goslim_generic
 subset: goslim_prokaryote
 synonym: "cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell adhesion" EXACT []
-is_a: GO:0050839 ! cell adhesion molecule binding
-intersection_of: GO:0005488 ! binding
-intersection_of: part_of GO:0007155 ! cell adhesion
+is_a: GO:0060090 ! molecular adaptor activity
+relationship: occurs_in GO:0009986 ! cell surface
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22959" xsd:anyURI
 
 [Term]
