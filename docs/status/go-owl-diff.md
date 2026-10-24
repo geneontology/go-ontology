@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-23/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-24/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-23" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-24" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -413,6 +413,12 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24422557" 
 
 
+### 2-hydroxybenzoyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_1901886`
+#### Removed
+- [2-hydroxybenzoyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_1901886) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
 ### 2-oxoadipate decarboxylation to glutaryl-CoA `http://purl.obolibrary.org/obo/GO_0120578`
 
 #### Added
@@ -486,6 +492,12 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:31411" 
 
 - [2-polyprenyl-6-hydroxyphenol methylase activity](http://purl.obolibrary.org/obo/GO_0102208) SubClassOf [O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008171) 
+
+
+### 3'-phospho-5'-adenylyl sulfate transmembrane transport `http://purl.obolibrary.org/obo/GO_1902559`
+#### Removed
+- [3'-phospho-5'-adenylyl sulfate transmembrane transport](http://purl.obolibrary.org/obo/GO_1902559) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
 
 
 ### 3'-phosphoadenosine 5'-phosphosulfate phosphatase activity `http://purl.obolibrary.org/obo/GO_7770125`
@@ -639,6 +651,12 @@
 - [4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this activity is not known to be catalyzed by any gene product, there is no evidence that this function/process/component exists, and the EC number (EC 3.8.1.6) on which this GO term was based has been deleted in the IUBMB EC list." 
 
 - [4-chlorobenzoate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0047576) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete 4-chlorobenzoate dehalogenase activity" 
+
+
+### 5'-adenylyl sulfate transmembrane transport `http://purl.obolibrary.org/obo/GO_1902558`
+#### Removed
+- [5'-adenylyl sulfate transmembrane transport](http://purl.obolibrary.org/obo/GO_1902558) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
 
 
 ### 5-diphosphoinositol pentakisphosphate 4-kinase activity `http://purl.obolibrary.org/obo/GO_0000833`
@@ -2346,6 +2364,12 @@
 - [N-acetylneuraminate metabolic process](http://purl.obolibrary.org/obo/GO_0006054) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete N-acetylneuraminate metabolic process" 
 
 
+### NAD transmembrane transport `http://purl.obolibrary.org/obo/GO_0035352`
+#### Removed
+- [NAD transmembrane transport](http://purl.obolibrary.org/obo/GO_0035352) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+
+
 ### NAD(P)HX repair `http://purl.obolibrary.org/obo/GO_7770130`
 
 #### Added
@@ -2665,6 +2689,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33986538" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28790157" 
+
+
+### R3/R4 cell fate commitment `http://purl.obolibrary.org/obo/GO_0007464`
+#### Removed
+- [R3/R4 cell fate commitment](http://purl.obolibrary.org/obo/GO_0007464) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) 
+
+#### Added
+- [R3/R4 cell fate commitment](http://purl.obolibrary.org/obo/GO_0007464) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### RADAR pathway `http://purl.obolibrary.org/obo/GO_0170074`
@@ -3246,6 +3278,20 @@
 - [acetyl-CoA C-myristoyltransferase activity](http://purl.obolibrary.org/obo/GO_0050633) SubClassOf [acetyl-CoA C-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0003988) 
 
 
+### acetyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0046356`
+#### Removed
+- [acetyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_0046356) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### acetyl-CoA transmembrane transport `http://purl.obolibrary.org/obo/GO_0035348`
+#### Removed
+- [acetyl-CoA transmembrane transport](http://purl.obolibrary.org/obo/GO_0035348) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+#### Added
+- [acetyl-CoA transmembrane transport](http://purl.obolibrary.org/obo/GO_0035348) SubClassOf [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) 
+
+
 ### acroblast `http://purl.obolibrary.org/obo/GO_0036063`
 
 #### Added
@@ -3262,6 +3308,18 @@
 
 #### Added
 - [acrosome reaction](http://purl.obolibrary.org/obo/GO_0007340) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32664"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### acyl-CoA biosynthetic process `http://purl.obolibrary.org/obo/GO_0071616`
+#### Removed
+- [acyl-CoA biosynthetic process](http://purl.obolibrary.org/obo/GO_0071616) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### acyl-CoA metabolic process `http://purl.obolibrary.org/obo/GO_0006637`
+#### Removed
+- [acyl-CoA metabolic process](http://purl.obolibrary.org/obo/GO_0006637) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
 
 
 ### acyl-glucuronidase activity `http://purl.obolibrary.org/obo/GO_0036237`
@@ -3332,8 +3390,34 @@
 
 - [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-6610](http://identifiers.org/metacyc.reaction/PWY-6610) 
 
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates adenine, 6-aminopurine, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [label](http://www.w3.org/2000/01/rdf-schema#label) "adenine salvage" 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) SubClassOf [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) SubClassOf [adenine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046084) 
+
 #### Added
 - [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates adenine, 6-aminopurine, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete adenine salvage" 
+
+
+### adenosine 3',5'-bisphosphate transmembrane transport `http://purl.obolibrary.org/obo/GO_0071106`
+#### Removed
+- [adenosine 3',5'-bisphosphate transmembrane transport](http://purl.obolibrary.org/obo/GO_0071106) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
 
 
 ### adenosine salvage `http://purl.obolibrary.org/obo/GO_0006169`
@@ -3348,8 +3432,28 @@
 
 - [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [PWY-6619](http://identifiers.org/metacyc.reaction/PWY-6619) 
 
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates adenosine, adenine riboside, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [label](http://www.w3.org/2000/01/rdf-schema#label) "adenosine salvage" 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) SubClassOf [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) SubClassOf [adenosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046086) 
+
 #### Added
 - [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates adenosine, adenine riboside, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete adenosine salvage" 
 
 
 ### alanyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006419`
@@ -4047,6 +4151,42 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:lnp" 
 
 
+### base-excision repair, gap-filling `http://purl.obolibrary.org/obo/GO_0006287`
+#### Removed
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Repair of the damaged strand by the combined action of an apurinic endouclease that degrades a few bases on the damaged strand and a polymerase that synthesizes a 'patch' in the 5' to 3' direction, using the undamaged strand as a template." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:1550091131" 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [label](http://www.w3.org/2000/01/rdf-schema#label) "base-excision repair, gap-filling" 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) SubClassOf [DNA metabolic process](http://purl.obolibrary.org/obo/GO_0006259) 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [base-excision repair](http://purl.obolibrary.org/obo/GO_0006284) 
+
+#### Added
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32760"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [base-excision repair](http://purl.obolibrary.org/obo/GO_0006284) 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [long-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770138) 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Repair of the damaged strand by the combined action of an apurinic endouclease that degrades a few bases on the damaged strand and a polymerase that synthesizes a 'patch' in the 5' to 3' direction, using the undamaged strand as a template." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:1550091131" 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
+
+- [base-excision repair, gap-filling](http://purl.obolibrary.org/obo/GO_0006287) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete base-excision repair, gap-filling" 
+
+
+### benzoyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_1901788`
+#### Removed
+- [benzoyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_1901788) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
 ### beta,beta-carotene-9',10'-cleaving oxygenase activity `http://purl.obolibrary.org/obo/GO_0102076`
 #### Removed
 - [beta,beta-carotene-9',10'-cleaving oxygenase activity](http://purl.obolibrary.org/obo/GO_0102076) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: beta-carotene + O2 = 10'-apo-beta-carotenal + beta-ionone." 
@@ -4249,6 +4389,14 @@
 
 
 
+### cadherin binding involved in cell-cell adhesion `http://purl.obolibrary.org/obo/GO_0098641`
+#### Removed
+- [cadherin binding involved in cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098641) SubClassOf [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) 
+
+#### Added
+- [cadherin binding involved in cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098641) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609) 
+
+
 ### canonical glycolysis `http://purl.obolibrary.org/obo/GO_0061621`
 #### Removed
 - [canonical glycolysis](http://purl.obolibrary.org/obo/GO_0061621) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:ANAGLYCOLYSIS-PWY" 
@@ -4397,6 +4545,46 @@
 - [cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cargo receptor ligand activity" 
 
 
+### cell adhesion mediator activity `http://purl.obolibrary.org/obo/GO_0098631`
+#### Removed
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding by a cell-adhesion protein on a cell surface to an adhesion molecule on another cell surface or an external substrate, to mediate adhesion of the cell to the external substrate or to another cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell adhesion](http://purl.obolibrary.org/obo/GO_0007155)) 
+
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) SubClassOf [cell adhesion molecule binding](http://purl.obolibrary.org/obo/GO_0050839) 
+
+#### Added
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A molecular adaptor activity that links a cell-adhesion protein on a cell surface to an adhesion molecule on another cell surface or an external substrate, to mediate adhesion of the cell to the external substrate or to another cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) SubClassOf [protein-macromolecule adaptor activity](http://purl.obolibrary.org/obo/GO_0030674) 
+
+- [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [cell surface](http://purl.obolibrary.org/obo/GO_0009986) 
+
+
+### cell adhesion receptor activity `http://purl.obolibrary.org/obo/GO_0004895`
+#### Removed
+- [cell adhesion receptor activity](http://purl.obolibrary.org/obo/GO_0004895) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the external substrate or to another cell and to initiate intracellular signaling. Cell adhesion receptors include integrins and cadherins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF-UCL" 
+
+#### Added
+- [cell adhesion receptor activity](http://purl.obolibrary.org/obo/GO_0004895) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cell adhesion receptor activity](http://purl.obolibrary.org/obo/GO_0004895) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the external substrate or to another cell and to initiate intracellular signaling. Cell adhesion receptors include integrins and cadherins." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF-UCL" 
+
+
 ### cell wall glycoprotein biosynthetic process `http://purl.obolibrary.org/obo/GO_0031506`
 #### Removed
 - [cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of cell wall glycoproteins, any cell wall protein that contains covalently bound sugar residues." 
@@ -4445,6 +4633,22 @@
 - [cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
 
 - [cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell wall mannoprotein biosynthetic process" 
+
+
+### cell-cell adhesion mediator activity `http://purl.obolibrary.org/obo/GO_0098632`
+#### Removed
+- [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) EquivalentTo [protein binding](http://purl.obolibrary.org/obo/GO_0005515) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609)) 
+
+#### Added
+- [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### cell-matrix adhesion mediator activity `http://purl.obolibrary.org/obo/GO_0098634`
+#### Removed
+- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) SubClassOf [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) 
+
+#### Added
+- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) SubClassOf [binding](http://purl.obolibrary.org/obo/GO_0005488) 
 
 
 ### cellular response to interleukin-5 `http://purl.obolibrary.org/obo/GO_7770103`
@@ -4711,6 +4915,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15626493" 
 
 
+### coenzyme A biosynthetic process `http://purl.obolibrary.org/obo/GO_0015937`
+#### Removed
+- [coenzyme A biosynthetic process](http://purl.obolibrary.org/obo/GO_0015937) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### coenzyme A catabolic process `http://purl.obolibrary.org/obo/GO_0015938`
+#### Removed
+- [coenzyme A catabolic process](http://purl.obolibrary.org/obo/GO_0015938) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### coenzyme A metabolic process `http://purl.obolibrary.org/obo/GO_0015936`
+#### Removed
+- [coenzyme A metabolic process](http://purl.obolibrary.org/obo/GO_0015936) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+
+
 ### coenzyme A phosphatase activity `http://purl.obolibrary.org/obo/GO_0140477`
 
 #### Added
@@ -4736,6 +4958,14 @@
 - [coenzyme A phosphatase activity](http://purl.obolibrary.org/obo/GO_0140477) [label](http://www.w3.org/2000/01/rdf-schema#label) "coenzyme A phosphatase activity" 
 
 - [coenzyme A phosphatase activity](http://purl.obolibrary.org/obo/GO_0140477) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
+
+
+### coenzyme A transmembrane transport `http://purl.obolibrary.org/obo/GO_0035349`
+#### Removed
+- [coenzyme A transmembrane transport](http://purl.obolibrary.org/obo/GO_0035349) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+#### Added
+- [coenzyme A transmembrane transport](http://purl.obolibrary.org/obo/GO_0035349) SubClassOf [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) 
 
 
 ### cohesin loader activity `http://purl.obolibrary.org/obo/GO_0061775`
@@ -5242,6 +5472,58 @@
 - [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms. The is_a link to GO:0002443 is asserted rather than inferred because GO:0002443 has no logical definition; it must be maintained by hand (see #20574)." 
 
 
+### deoxyguanosine salvage `http://purl.obolibrary.org/obo/GO_0006180`
+#### Removed
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates deoxyguanosine from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [label](http://www.w3.org/2000/01/rdf-schema#label) "deoxyguanosine salvage" 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) SubClassOf [deoxyguanosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0042452) 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) SubClassOf [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) 
+
+#### Added
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [dGMP salvage](http://purl.obolibrary.org/obo/GO_0106384) 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates deoxyguanosine from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [deoxyguanosine salvage](http://purl.obolibrary.org/obo/GO_0006180) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete deoxyguanosine salvage" 
+
+
+### deoxyinosine salvage `http://purl.obolibrary.org/obo/GO_0006191`
+#### Removed
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates deoxyinosine from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [label](http://www.w3.org/2000/01/rdf-schema#label) "deoxyinosine salvage" 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) SubClassOf [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) SubClassOf [deoxyinosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046095) 
+
+#### Added
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [dIMP salvage](http://purl.obolibrary.org/obo/GO_0106385) 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates deoxyinosine from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [deoxyinosine salvage](http://purl.obolibrary.org/obo/GO_0006191) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete deoxyinosine salvage" 
+
+
 ### dermatan sulfate proteoglycan biosynthetic process `http://purl.obolibrary.org/obo/GO_0050651`
 #### Removed
 - [dermatan sulfate proteoglycan biosynthetic process](http://purl.obolibrary.org/obo/GO_0050651) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of dermatan sulfate proteoglycans, which consist of a core protein linked to a dermatan sulfate glycosaminoglycan. The dermatan sulfate chain is composed of the repeating disaccharide unit beta-(1,4)-D-hexuronic acid-beta-(1,3)-N-acetyl-D-galactosamine. Tthe former can be a mixture of sulfated and nonsulfated D-glucuronic and L-iduronic acids, and the latter can be O-sulfated. Dermatan sulfate chains are covalently linked to serine/threonine residues (O-linked) of the core protein via a tetrasaccharide linker sequence (xylose-galactose-galactose-glucuronate)." 
@@ -5639,6 +5921,34 @@
 - [ent-kaurene metabolic process](http://purl.obolibrary.org/obo/GO_0033331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ent-kaurene metabolic process" 
 
 
+### equator specification `http://purl.obolibrary.org/obo/GO_0045317`
+#### Removed
+- [equator specification](http://purl.obolibrary.org/obo/GO_0045317) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) 
+
+#### Added
+- [equator specification](http://purl.obolibrary.org/obo/GO_0045317) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### establishment of planar polarity `http://purl.obolibrary.org/obo/GO_0001736`
+#### Removed
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of an epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [morphogenesis of a polarized epithelium](http://purl.obolibrary.org/obo/GO_0001738) 
+
+#### Added
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
+
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "When appropriate, Wnt ligands can be annotated to this term." 
+
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) SubClassOf [tissue morphogenesis](http://purl.obolibrary.org/obo/GO_0048729) 
+
+
 ### establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061246`
 #### Removed
 - [establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061246) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any cellular process that results in the specification, formation or maintenance of a bipolar intracellular organization or cell growth patterns that regulates the shaping of a cell." 
@@ -5868,6 +6178,12 @@
 - [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) SubClassOf [extrinsic component of membrane](http://purl.obolibrary.org/obo/GO_0019898) 
 
 - [extrinsic component of phagophore assembly site membrane](http://purl.obolibrary.org/obo/GO_0097632) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phagophore membrane](http://purl.obolibrary.org/obo/GO_7770114) 
+
+
+### fatty-acyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0036115`
+#### Removed
+- [fatty-acyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_0036115) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
 
 
 ### formaldehyde assimilation `http://purl.obolibrary.org/obo/GO_0019649`
@@ -6982,6 +7298,64 @@
 - [group translocator activity](http://purl.obolibrary.org/obo/GO_7770111) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [catalytic activity](http://purl.obolibrary.org/obo/GO_0003824) 
 
 
+### guanine nucleotide transmembrane transport `http://purl.obolibrary.org/obo/GO_1903790`
+#### Removed
+- [guanine nucleotide transmembrane transport](http://purl.obolibrary.org/obo/GO_1903790) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+
+
+### guanine salvage `http://purl.obolibrary.org/obo/GO_0006178`
+#### Removed
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates guanine, 2-amino-6-hydroxypurine, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [label](http://www.w3.org/2000/01/rdf-schema#label) "guanine salvage" 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) SubClassOf [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) SubClassOf [guanine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046099) 
+
+#### Added
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates guanine, 2-amino-6-hydroxypurine, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete guanine salvage" 
+
+
+### guanosine salvage `http://purl.obolibrary.org/obo/GO_0006179`
+#### Removed
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates guanosine, guanine riboside, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [label](http://www.w3.org/2000/01/rdf-schema#label) "guanosine salvage" 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) SubClassOf [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) SubClassOf [guanosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046114) 
+
+#### Added
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates guanosine, guanine riboside, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete guanosine salvage" 
+
+
 ### heme A synthase activity `http://purl.obolibrary.org/obo/GO_0120547`
 #### Removed
 - [heme A synthase activity](http://purl.obolibrary.org/obo/GO_0120547) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: Fe(II)-heme o + 2 acceptor + H2O = Fe(II)-heme a + 2 acceptor-H2. The conversion of heme o to heme a occcurs by two successive hydroxylations of the methyl group at C8 using water as the oxygen source. The first hydroxylation forms heme i, the second hydroxylation results in an unstable dihydroxymethyl group, which spontaneously dehydrates, resulting in the formyl group of heme A." 
@@ -7078,6 +7452,72 @@
 
 #### Added
 - [hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolysing) activity](http://purl.obolibrary.org/obo/GO_0043802) [label](http://www.w3.org/2000/01/rdf-schema#label) "hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolyzing) activity" 
+
+
+### hypoxanthine salvage `http://purl.obolibrary.org/obo/GO_0043103`
+#### Removed
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates hypoxanthine, 6-hydroxy purine, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypoxanthine salvage" 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) SubClassOf [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) SubClassOf [hypoxanthine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046101) 
+
+#### Added
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates hypoxanthine, 6-hydroxy purine, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete hypoxanthine salvage" 
+
+
+### imaginal disc-derived wing hair site selection `http://purl.obolibrary.org/obo/GO_0035320`
+#### Removed
+- [imaginal disc-derived wing hair site selection](http://purl.obolibrary.org/obo/GO_0035320) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) 
+
+#### Added
+- [imaginal disc-derived wing hair site selection](http://purl.obolibrary.org/obo/GO_0035320) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### inosine salvage `http://purl.obolibrary.org/obo/GO_0006190`
+#### Removed
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [label](http://www.w3.org/2000/01/rdf-schema#label) "inosine salvage" 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) SubClassOf [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) SubClassOf [inosine biosynthetic process](http://purl.obolibrary.org/obo/GO_0046103) 
+
+#### Added
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [IMP catabolic process](http://purl.obolibrary.org/obo/GO_0006204) 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete inosine salvage" 
 
 
 ### interleukin-5-mediated signaling pathway `http://purl.obolibrary.org/obo/GO_0038043`
@@ -7302,6 +7742,34 @@
 - [isoleucyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006428) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term restates an existing molecular function, GO:0004822 isoleucine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation." 
 
 - [isoleucyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006428) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete isoleucyl-tRNA aminoacylation" 
+
+
+### isopentenyl adenine biosynthetic process `http://purl.obolibrary.org/obo/GO_0034265`
+#### Removed
+- [isopentenyl adenine biosynthetic process](http://purl.obolibrary.org/obo/GO_0034265) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### isopentenyl adenine catabolic process `http://purl.obolibrary.org/obo/GO_0034266`
+#### Removed
+- [isopentenyl adenine catabolic process](http://purl.obolibrary.org/obo/GO_0034266) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### laminin receptor activity `http://purl.obolibrary.org/obo/GO_0005055`
+#### Removed
+- [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2970671" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+#### Added
+- [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell adhesion mediator activity that combines with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2970671" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
 
 
 ### large conductance calcium-activated potassium channel inhibitor activity `http://purl.obolibrary.org/obo/GO_7770089`
@@ -7878,6 +8346,12 @@
 - [maintenance of seed dormancy by absisic acid](http://purl.obolibrary.org/obo/GO_0098755) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of seed dormancy by abscisic acid" 
 
 
+### malonyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_2001294`
+#### Removed
+- [malonyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_2001294) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
 ### mannitol catabolic process `http://purl.obolibrary.org/obo/GO_0019592`
 #### Removed
 - [mannitol catabolic process](http://purl.obolibrary.org/obo/GO_0019592) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of mannitol, the alditol derived from D-mannose by reduction of the aldehyde group." 
@@ -8248,6 +8722,18 @@
 - [microtubule-spindle pole body anchor activity](http://purl.obolibrary.org/obo/GO_7770121) [label](http://www.w3.org/2000/01/rdf-schema#label) "microtubule-spindle pole body anchor activity" 
 
 - [microtubule-spindle pole body anchor activity](http://purl.obolibrary.org/obo/GO_7770121) SubClassOf [spindle pole body anchor activity](http://purl.obolibrary.org/obo/GO_0140475) 
+
+
+### mitochondrial ADP transmembrane transport `http://purl.obolibrary.org/obo/GO_0140021`
+#### Removed
+- [mitochondrial ADP transmembrane transport](http://purl.obolibrary.org/obo/GO_0140021) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+
+
+### mitochondrial ATP transmembrane transport `http://purl.obolibrary.org/obo/GO_1990544`
+#### Removed
+- [mitochondrial ATP transmembrane transport](http://purl.obolibrary.org/obo/GO_1990544) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
 
 
 ### mitochondrial alanyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0070143`
@@ -10377,6 +10863,22 @@
 
 
 
+### obsolete adenine, hypoxanthine and their nucleoside salvage `http://purl.obolibrary.org/obo/GO_0010140`
+#### Removed
+- [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [adenine salvage](http://purl.obolibrary.org/obo/GO_0006168) 
+
+- [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [adenosine salvage](http://purl.obolibrary.org/obo/GO_0006169) 
+
+- [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) 
+
+- [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) 
+
+#### Added
+- [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) 
+
+- [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) 
+
+
 ### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
 #### Removed
 - [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -10509,6 +11011,24 @@
 
 #### Added
 - [obsolete glycoprotein-specific chaperone activity](http://purl.obolibrary.org/obo/GO_0003759) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32494"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### obsolete guanine, xanthine and their nucleoside salvage `http://purl.obolibrary.org/obo/GO_0010141`
+#### Removed
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [guanine salvage](http://purl.obolibrary.org/obo/GO_0006178) 
+
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [guanosine salvage](http://purl.obolibrary.org/obo/GO_0006179) 
+
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) 
+
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) 
+
+#### Added
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [GMP salvage](http://purl.obolibrary.org/obo/GO_0032263) 
+
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [IMP salvage](http://purl.obolibrary.org/obo/GO_0032264) 
+
+- [obsolete guanine, xanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010141) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [XMP salvage](http://purl.obolibrary.org/obo/GO_0032265) 
 
 
 ### obsolete inositol heptakisphosphate 4-kinase or 6-kinase activity `http://purl.obolibrary.org/obo/GO_0033199`
@@ -10704,6 +11224,14 @@
 - [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
 
 - [ocellus pigment granule organization](http://purl.obolibrary.org/obo/GO_0008058) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete ocellus pigment granule organization" 
+
+
+### ommatidial rotation `http://purl.obolibrary.org/obo/GO_0016318`
+#### Removed
+- [ommatidial rotation](http://purl.obolibrary.org/obo/GO_0016318) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) 
+
+#### Added
+- [ommatidial rotation](http://purl.obolibrary.org/obo/GO_0016318) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### organophosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0090407`
@@ -12377,6 +12905,14 @@
 - [protein auto-ADP-ribosylation](http://purl.obolibrary.org/obo/GO_0070213) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein auto-ADP-ribosylation" 
 
 
+### protein binding involved in heterotypic cell-cell adhesion `http://purl.obolibrary.org/obo/GO_0086080`
+#### Removed
+- [protein binding involved in heterotypic cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0086080) SubClassOf [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) 
+
+#### Added
+- [protein binding involved in heterotypic cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0086080) SubClassOf [protein binding](http://purl.obolibrary.org/obo/GO_0005515) 
+
+
 ### protein depalmitoylation `http://purl.obolibrary.org/obo/GO_0002084`
 #### Removed
 - [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_obsoletion_candidate](http://purl.obolibrary.org/obo/go#gocheck_obsoletion_candidate) 
@@ -12667,12 +13203,352 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.5.1.33" 
 
 
-### purine-containing compound catabolic process `http://purl.obolibrary.org/obo/GO_0072523`
+### purine alkaloid biosynthetic process `http://purl.obolibrary.org/obo/GO_0009711`
 #### Removed
-- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) SubClassOf [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) 
+- [purine alkaloid biosynthetic process](http://purl.obolibrary.org/obo/GO_0009711) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### purine alkaloid metabolic process `http://purl.obolibrary.org/obo/GO_0046446`
+#### Removed
+- [purine alkaloid metabolic process](http://purl.obolibrary.org/obo/GO_0046446) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+
+
+### purine deoxyribonucleoside salvage `http://purl.obolibrary.org/obo/GO_0043098`
+#### Removed
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process which produces a purine deoxyribonucleoside from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine deoxyribonucleoside salvage" 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) SubClassOf [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) SubClassOf [nucleoside salvage](http://purl.obolibrary.org/obo/GO_0043174) 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) SubClassOf [purine deoxyribonucleoside biosynthetic process](http://purl.obolibrary.org/obo/GO_0046123) 
 
 #### Added
-- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) SubClassOf [nucleobase-containing small molecule catabolic process](http://purl.obolibrary.org/obo/GO_0034656) 
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [purine deoxyribonucleotide salvage](http://purl.obolibrary.org/obo/GO_0106381) 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process which produces a purine deoxyribonucleoside from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [purine deoxyribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0043098) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine deoxyribonucleoside salvage" 
+
+
+### purine nucleobase biosynthetic process `http://purl.obolibrary.org/obo/GO_0009113`
+#### Removed
+- [purine nucleobase biosynthetic process](http://purl.obolibrary.org/obo/GO_0009113) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### purine nucleobase catabolic process `http://purl.obolibrary.org/obo/GO_0006145`
+#### Removed
+- [purine nucleobase catabolic process](http://purl.obolibrary.org/obo/GO_0006145) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### purine nucleobase metabolic process `http://purl.obolibrary.org/obo/GO_0006144`
+#### Removed
+- [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+
+
+### purine nucleobase salvage `http://purl.obolibrary.org/obo/GO_0043096`
+#### Removed
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine nucleobase salvage" 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) SubClassOf [purine nucleobase biosynthetic process](http://purl.obolibrary.org/obo/GO_0009113) 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) SubClassOf [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) 
+
+#### Added
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [purine ribonucleotide salvage](http://purl.obolibrary.org/obo/GO_0106380) 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [purine nucleobase salvage](http://purl.obolibrary.org/obo/GO_0043096) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine nucleobase salvage" 
+
+
+### purine nucleobase transmembrane transport `http://purl.obolibrary.org/obo/GO_1904823`
+#### Removed
+- [purine nucleobase transmembrane transport](http://purl.obolibrary.org/obo/GO_1904823) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+#### Added
+- [purine nucleobase transmembrane transport](http://purl.obolibrary.org/obo/GO_1904823) SubClassOf [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) 
+
+
+### purine nucleoside biosynthetic process `http://purl.obolibrary.org/obo/GO_0042451`
+#### Removed
+- [purine nucleoside biosynthetic process](http://purl.obolibrary.org/obo/GO_0042451) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### purine nucleoside bisphosphate biosynthetic process `http://purl.obolibrary.org/obo/GO_0034033`
+#### Removed
+- [purine nucleoside bisphosphate biosynthetic process](http://purl.obolibrary.org/obo/GO_0034033) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### purine nucleoside bisphosphate catabolic process `http://purl.obolibrary.org/obo/GO_0034034`
+#### Removed
+- [purine nucleoside bisphosphate catabolic process](http://purl.obolibrary.org/obo/GO_0034034) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### purine nucleoside bisphosphate metabolic process `http://purl.obolibrary.org/obo/GO_0034032`
+#### Removed
+- [purine nucleoside bisphosphate metabolic process](http://purl.obolibrary.org/obo/GO_0034032) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+
+
+### purine nucleoside catabolic process `http://purl.obolibrary.org/obo/GO_0006152`
+#### Removed
+- [purine nucleoside catabolic process](http://purl.obolibrary.org/obo/GO_0006152) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### purine nucleoside metabolic process `http://purl.obolibrary.org/obo/GO_0042278`
+#### Removed
+- [purine nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0042278) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+
+
+### purine nucleoside transmembrane transport `http://purl.obolibrary.org/obo/GO_0015860`
+#### Removed
+- [purine nucleoside transmembrane transport](http://purl.obolibrary.org/obo/GO_0015860) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+
+
+### purine nucleotide biosynthetic process `http://purl.obolibrary.org/obo/GO_0006164`
+#### Removed
+- [purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0006164) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
+### purine nucleotide catabolic process `http://purl.obolibrary.org/obo/GO_0006195`
+#### Removed
+- [purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0006195) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### purine nucleotide import into lysosome `http://purl.obolibrary.org/obo/GO_0141013`
+#### Removed
+- [purine nucleotide import into lysosome](http://purl.obolibrary.org/obo/GO_0141013) SubClassOf [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
+
+#### Added
+- [purine nucleotide import into lysosome](http://purl.obolibrary.org/obo/GO_0141013) SubClassOf [nitrogen compound transport](http://purl.obolibrary.org/obo/GO_0071705) 
+
+
+### purine nucleotide metabolic process `http://purl.obolibrary.org/obo/GO_0006163`
+#### Removed
+- [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+
+
+### purine nucleotide salvage `http://purl.obolibrary.org/obo/GO_0032261`
+#### Removed
+- [purine nucleotide salvage](http://purl.obolibrary.org/obo/GO_0032261) SubClassOf [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) 
+
+#### Added
+- [purine nucleotide salvage](http://purl.obolibrary.org/obo/GO_0032261) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32598"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine nucleotide salvage](http://purl.obolibrary.org/obo/GO_0032261) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "purine salvage" 
+
+
+### purine ribonucleoside salvage `http://purl.obolibrary.org/obo/GO_0006166`
+#### Removed
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine ribonucleoside salvage" 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) SubClassOf [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) SubClassOf [nucleoside salvage](http://purl.obolibrary.org/obo/GO_0043174) 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) SubClassOf [purine ribonucleoside biosynthetic process](http://purl.obolibrary.org/obo/GO_0046129) 
+
+#### Added
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [purine ribonucleotide salvage](http://purl.obolibrary.org/obo/GO_0106380) 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were created in error." 
+
+- [purine ribonucleoside salvage](http://purl.obolibrary.org/obo/GO_0006166) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine ribonucleoside salvage" 
+
+
+### purine-containing compound biosynthetic process `http://purl.obolibrary.org/obo/GO_0072522`
+#### Removed
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine-containing compound biosynthetic process" 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) SubClassOf [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+#### Added
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32598"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleotide biosynthetic process](http://purl.obolibrary.org/obo/GO_0006164) 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleobase biosynthetic process](http://purl.obolibrary.org/obo/GO_0009113) 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleoside biosynthetic process](http://purl.obolibrary.org/obo/GO_0042451) 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the formation of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms are unnecessary grouping terms." 
+
+- [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine-containing compound biosynthetic process" 
+
+
+### purine-containing compound catabolic process `http://purl.obolibrary.org/obo/GO_0072523`
+#### Removed
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine-containing compound catabolic process" 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) SubClassOf [catabolic process](http://purl.obolibrary.org/obo/GO_0009056) 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
+
+#### Added
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32598"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleobase catabolic process](http://purl.obolibrary.org/obo/GO_0006145) 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleoside catabolic process](http://purl.obolibrary.org/obo/GO_0006152) 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleotide catabolic process](http://purl.obolibrary.org/obo/GO_0006195) 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms are unnecessary grouping terms." 
+
+- [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine-containing compound catabolic process" 
+
+
+### purine-containing compound metabolic process `http://purl.obolibrary.org/obo/GO_0072521`
+#### Removed
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways involving a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine-containing compound metabolic process" 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) SubClassOf [metabolic process](http://purl.obolibrary.org/obo/GO_0008152) 
+
+#### Added
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32598"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleobase metabolic process](http://purl.obolibrary.org/obo/GO_0006144) 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleotide metabolic process](http://purl.obolibrary.org/obo/GO_0006163) 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleoside metabolic process](http://purl.obolibrary.org/obo/GO_0042278) 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The chemical reactions and pathways involving a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms are unnecessary grouping terms." 
+
+- [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine-containing compound metabolic process" 
+
+
+### purine-containing compound salvage `http://purl.obolibrary.org/obo/GO_0043101`
+#### Removed
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_pir](http://purl.obolibrary.org/obo/go#goslim_pir) 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates a purine-containing compound, any nucleobase, nucleoside, nucleotide or nucleic acid that contains a purine base, from derivatives of them without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine-containing compound salvage" 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) SubClassOf [metabolic compound salvage](http://purl.obolibrary.org/obo/GO_0043094) 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+#### Added
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/21578"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32598"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [purine nucleotide salvage](http://purl.obolibrary.org/obo/GO_0032261) 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that generates a purine-containing compound, any nucleobase, nucleoside, nucleotide or nucleic acid that contains a purine base, from derivatives of them without de novo synthesis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms are unnecessary grouping terms." 
+
+- [purine-containing compound salvage](http://purl.obolibrary.org/obo/GO_0043101) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine-containing compound salvage" 
+
+
+### purine-containing compound transmembrane transport `http://purl.obolibrary.org/obo/GO_0072530`
+#### Removed
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which a purine-containing compound is transported across a membrane. A purine-containing compound is any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term is not intended for use in annotating lateral movement within membranes." 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [label](http://www.w3.org/2000/01/rdf-schema#label) "purine-containing compound transmembrane transport" 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) SubClassOf [transmembrane transport](http://purl.obolibrary.org/obo/GO_0055085) 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) SubClassOf [nitrogen compound transport](http://purl.obolibrary.org/obo/GO_0071705) 
+
+#### Added
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32598"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleoside transmembrane transport](http://purl.obolibrary.org/obo/GO_0015860) 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleotide transport](http://purl.obolibrary.org/obo/GO_0015865) 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [purine nucleobase transmembrane transport](http://purl.obolibrary.org/obo/GO_1904823) 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The process in which a purine-containing compound is transported across a membrane. A purine-containing compound is any compound that contains purine or a formal derivative thereof." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms are unnecessary grouping terms." 
+
+- [purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete purine-containing compound transmembrane transport" 
 
 
 ### pyridoxal 5'-phosphate synthase (glutamine hydrolysing) activity `http://purl.obolibrary.org/obo/GO_0036381`
@@ -13672,7 +14548,19 @@
 #### Added
 - [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32533"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
 - [ribosomal large subunit assembly](http://purl.obolibrary.org/obo/GO_0000027) SubClassOf [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) 
+
+
+### ribosomal large subunit biogenesis `http://purl.obolibrary.org/obo/GO_0042273`
+
+#### Added
+- [ribosomal large subunit biogenesis](http://purl.obolibrary.org/obo/GO_0042273) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32533"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosomal large subunit biogenesis](http://purl.obolibrary.org/obo/GO_0042273) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
 ### ribosomal small subunit assembly `http://purl.obolibrary.org/obo/GO_0000028`
@@ -13684,7 +14572,19 @@
 #### Added
 - [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32533"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
 - [ribosomal small subunit assembly](http://purl.obolibrary.org/obo/GO_0000028) SubClassOf [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) 
+
+
+### ribosomal small subunit biogenesis `http://purl.obolibrary.org/obo/GO_0042274`
+
+#### Added
+- [ribosomal small subunit biogenesis](http://purl.obolibrary.org/obo/GO_0042274) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32533"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosomal small subunit biogenesis](http://purl.obolibrary.org/obo/GO_0042274) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
 ### ribosome assembly `http://purl.obolibrary.org/obo/GO_0042255`
@@ -13704,6 +14604,10 @@
 #### Added
 - [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32509"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32533"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
 - [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30467428" 
 
@@ -13717,6 +14621,14 @@
 - [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "For the joining of the small and large ribosomal subunits, consider instead annotating to 'translational initiation ; GO:0006413' or one of its descendants." 
 
 - [ribosome assembly](http://purl.obolibrary.org/obo/GO_0042255) SubClassOf [protein-RNA complex assembly](http://purl.obolibrary.org/obo/GO_0022618) 
+
+
+### ribosome biogenesis `http://purl.obolibrary.org/obo/GO_0042254`
+
+#### Added
+- [ribosome biogenesis](http://purl.obolibrary.org/obo/GO_0042254) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32533"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ribosome biogenesis](http://purl.obolibrary.org/obo/GO_0042254) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
 ### ribosome-associated chaperone complex `http://purl.obolibrary.org/obo/GO_0170081`
@@ -14367,6 +15279,12 @@
 
 #### Added
 - [subtelomeric heterochromatin formation](http://purl.obolibrary.org/obo/GO_0031509) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32403"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### succinyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_1901289`
+#### Removed
+- [succinyl-CoA catabolic process](http://purl.obolibrary.org/obo/GO_1901289) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
 
 
 ### sucrose catabolic process `http://purl.obolibrary.org/obo/GO_0005987`
@@ -15205,9 +16123,21 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39488384" 
 
 
+### urate biosynthetic process `http://purl.obolibrary.org/obo/GO_0034418`
+#### Removed
+- [urate biosynthetic process](http://purl.obolibrary.org/obo/GO_0034418) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
+
+
 ### urate catabolic process `http://purl.obolibrary.org/obo/GO_0019628`
 #### Removed
-- [urate catabolic process](http://purl.obolibrary.org/obo/GO_0019628) SubClassOf [small molecule catabolic process](http://purl.obolibrary.org/obo/GO_0044282) 
+- [urate catabolic process](http://purl.obolibrary.org/obo/GO_0019628) SubClassOf [purine-containing compound catabolic process](http://purl.obolibrary.org/obo/GO_0072523) 
+
+
+
+### urate metabolic process `http://purl.obolibrary.org/obo/GO_0046415`
+#### Removed
+- [urate metabolic process](http://purl.obolibrary.org/obo/GO_0046415) SubClassOf [purine-containing compound metabolic process](http://purl.obolibrary.org/obo/GO_0072521) 
 
 
 
@@ -15967,6 +16897,12 @@
 - [voltage-gated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770090) SubClassOf [potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_0019870) 
 
 - [voltage-gated potassium channel inhibitor activity](http://purl.obolibrary.org/obo/GO_7770090) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [voltage-gated potassium channel activity](http://purl.obolibrary.org/obo/GO_0005249) 
+
+
+### zeatin biosynthetic process `http://purl.obolibrary.org/obo/GO_0033398`
+#### Removed
+- [zeatin biosynthetic process](http://purl.obolibrary.org/obo/GO_0033398) SubClassOf [purine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0072522) 
+
 
 
 ### zygotic determination of anterior/posterior axis, embryo `http://purl.obolibrary.org/obo/GO_0007354`
