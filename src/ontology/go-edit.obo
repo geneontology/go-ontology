@@ -12122,10 +12122,12 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0001736
 name: establishment of planar polarity
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of an epithelium, such that they all orient to similar coordinates." [GOC:dph]
+def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032]
+comment: When appropriate, Wnt ligands can be annotated to this term.
 synonym: "establishment of planar cell polarity" NARROW []
 is_a: GO:0007164 ! establishment of tissue polarity
-relationship: part_of GO:0001738 ! morphogenesis of a polarized epithelium
+is_a: GO:0048729 ! tissue morphogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0001737
@@ -75416,8 +75418,8 @@ name: R3/R4 cell fate commitment
 namespace: biological_process
 def: "The process in which the R3/R4 photoreceptors commit to their cell fate. R3 and R4 are paired photoreceptors which contribute the outer rhabdomeres." [PMID:3076112, PMID:3937883]
 is_a: GO:0001752 ! compound eye photoreceptor fate commitment
-relationship: part_of GO:0042067 ! establishment of ommatidial planar polarity
 relationship: part_of GO:0048056 ! R3/R4 cell differentiation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0007465
@@ -125403,7 +125405,8 @@ name: ommatidial rotation
 namespace: biological_process
 def: "The process in which photoreceptors are arranged in ommatidia in the dorsal and ventral fields to be mirror images. The polarity is established in the imaginal discs concurrently with cell fate specification." [PMID:10725247]
 is_a: GO:0007389 ! pattern specification process
-relationship: part_of GO:0042067 ! establishment of ommatidial planar polarity
+is_a: onlyin:6656
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0016319
@@ -219690,7 +219693,8 @@ def: "Determination of the site in the cell of an imaginal disc-derived wing at 
 synonym: "prehair localization" RELATED []
 synonym: "wing hair site selection" EXACT []
 is_a: GO:0022606 ! establishment of proximal/distal cell polarity
-relationship: part_of GO:0001737 ! establishment of imaginal disc-derived wing hair orientation
+is_a: onlyin:50557
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0035321
@@ -273851,7 +273855,8 @@ name: equator specification
 namespace: biological_process
 def: "The formation and development of the equator that forms the boundary between the photoreceptors in the dorsal sector of the eye and those in the ventral sector, dividing the eye into dorsal and ventral halves." [GOC:bf]
 is_a: GO:0048859 ! formation of anatomical boundary
-relationship: part_of GO:0042067 ! establishment of ommatidial planar polarity
+is_a: onlyin:6656
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0045319
@@ -622117,6 +622122,7 @@ subset: gocheck_do_not_annotate
 synonym: "PCP pathway" EXACT []
 synonym: "planar cell polarity pathway" EXACT []
 is_a: GO:0007154 ! cell communication
+is_a: onlyin:33208 {source="PMID:28293032"}
 relationship: part_of GO:0001736 ! establishment of planar polarity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 created_by: ai4c-agent
