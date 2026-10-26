@@ -470927,6 +470927,17 @@ created_by: pg
 creation_date: 2020-09-24T09:49:40Z
 
 [Term]
+id: GO:0140524
+name: tectorial membrane
+namespace: cellular_component
+def: "An acellular extracellular matrix that overlies the cochlear neuroepithelium and contacts the stereocilia bundles of outer hair cells. It consists of radially oriented bundles of collagen fibrils (types II, IX and XI) embedded in a striated-sheet matrix of non-collagenous glycoproteins, including alpha-tectorin, beta-tectorin, CEACAM16, otogelin and otogelin-like. It couples sound-induced mechanical stimulation to stereocilia deflection." [PMID:40901670]
+comment: Note that this term has no relationship to 'membrane ; GO:0016020' because the tectorial membrane is not a lipid bilayer.
+is_a: GO:0140047 ! specialized extracellular matrix
+property_value: term_tracker_item "#32724" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-12T07:05:59Z
+
+[Term]
 id: GO:0140525
 name: antipodal site
 namespace: cellular_component
