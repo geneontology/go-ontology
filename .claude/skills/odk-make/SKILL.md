@@ -113,6 +113,9 @@ directory), so reference files the way the Makefile does (`go-edit.obo`,
 # Syntax error stack trace
 .claude/skills/odk-make/odk-run.sh robot convert -vvv -i go-edit.obo -f obo -o go-edit.TMP.obo
 
+# Find entailed axioms
+.claude/skills/odk-make/odk-run.sh robot explain --input go-edit.obo --output go-edit.entailed.obo
+
 # Explain unsatisfiable classes
 .claude/skills/odk-make/odk-run.sh \
   robot explain --input go-edit.obo --reasoner ELK -M unsatisfiability \
