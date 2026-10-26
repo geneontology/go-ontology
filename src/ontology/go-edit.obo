@@ -464372,10 +464372,12 @@ id: GO:0120576
 name: 1,2-dehydro-N-beta-alanyldopamine biosynthetic process
 namespace: biological_process
 def: "The chemical reactions and pathways resulting in the formation of 1,2-dehydro-N-beta-alanyldopamine via N-beta-alanyldopamine (NBAD). In insects, these sclerotizing precursors are involved in the cross-linking of cuticular proteins hardening (sclerotizing) and pigmenting the cuticle." [PMID:19932179, PMID:32709620]
-synonym: "N-beta-alanyldopamine biosynthesis" NARROW []
-synonym: "NBAD biosynthesis" NARROW []
+synonym: "N-beta-alanyldopamine biosynthesis" RELATED []
+synonym: "NBAD biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N-beta-alanyldopamine(1+)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:35Z
@@ -464385,10 +464387,12 @@ id: GO:0120577
 name: 1,2-dehydro-N-acetyldopamine biosynthetic process
 namespace: biological_process
 def: "The chemical reactions and pathways resulting in the formation of 1,2-dehydro-N-acetyldopamine via N-acetyldopamine (NADA). In insects, these sclerotizing precursors are involved in the cross-linking of cuticular proteins hardening (sclerotizing) and pigmenting the cuticle." [PMID:19932179, PMID:32709620]
-synonym: "N-acetyldopamine biosynthesis" NARROW []
-synonym: "NADA biosynthesis" NARROW []
+synonym: "N-acetyldopamine biosynthesis" RELATED []
+synonym: "NADA biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: has_primary_output CHEBI:747731 ! 1,2-dehydro-N-acetyldopamine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:58Z
