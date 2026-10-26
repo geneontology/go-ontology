@@ -434000,11 +434000,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0098634
 name: cell-matrix adhesion mediator activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." [Wikipedia:Cell_adhesion]
+def: "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." [Wikipedia:Cell_adhesion]
 synonym: "cell-matrix adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-matrix adhesion" EXACT []
-is_a: GO:0030674 ! protein-macromolecule adaptor activity
-relationship: occurs_in GO:0031012 ! extracellular matrix
+is_a: GO:0098631 ! cell adhesion mediator activity
 relationship: part_of GO:0007160 ! cell-matrix adhesion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
