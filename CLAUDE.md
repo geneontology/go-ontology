@@ -4,7 +4,15 @@ This includes instructions for editing the go ontology and related files in resp
 
 ## Project Layout
 
-The project follows standard ODK layout (edit file `src/ontology/go-edit.obo`; checked-out term copies go in the top-level `terms/`).
+The project follows standard ODK layout:
+
+ * src
+    * ontology/
+       * go-edit.obo
+       * Makefile
+       * ...
+ * terms/   ## checked out copies, for editing
+    * GO_NNNNNNN.obo # checked out local copy
 
  For make targets, a standard pattern is `cd src/ontology && make <TARGET>`. Beware of accidentally changing to the `src/ontology`
  dir and forgetting where you are. It is best to run things from the top level
@@ -447,7 +455,7 @@ committed; the skill covers the layer structure and that procedure.
 
 ### Logical Error Diagnosis
 
-- Use `robot explain` (entailed axioms, unsatisfiable-class explanations) via the /odk-make skill, which has the exact commands
+- Use `robot explain` (why an axiom is entailed, why classes are unsatisfiable) via the /odk-make skill, which has the exact commands
 - Analyze intersection_of axioms, is_a relationships, and logical definitions for conflicts
 - Identify problematic axioms causing reasoning failures
 - never use DL reasoners such as hermit for the full ontology, it is too large -- and unneccessary as we only have EL axioms, so ELK is sufficient (ELK is the default)

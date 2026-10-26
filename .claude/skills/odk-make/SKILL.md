@@ -113,14 +113,20 @@ directory), so reference files the way the Makefile does (`go-edit.obo`,
 # Syntax error stack trace
 .claude/skills/odk-make/odk-run.sh robot convert -vvv -i go-edit.obo -f obo -o go-edit.TMP.obo
 
-# Find entailed axioms
-.claude/skills/odk-make/odk-run.sh robot explain --input go-edit.obo --output go-edit.entailed.obo
+# Explain why one axiom is entailed (Manchester syntax; quoted labels or CURIEs)
+.claude/skills/odk-make/odk-run.sh \
+  robot explain --input go-edit.obo --reasoner ELK \
+  --axiom "'mitochondrial DNA metabolic process' SubClassOf 'DNA metabolic process'" \
+  --explanation explanation.md
 
 # Explain unsatisfiable classes
 .claude/skills/odk-make/odk-run.sh \
   robot explain --input go-edit.obo --reasoner ELK -M unsatisfiability \
-  --unsatisfiable all explanations.md
+  --unsatisfiable all --explanation explanations.md
 ```
+
+`explain` explains one named axiom; it does not dump every entailment. To see
+all inferred `is_a` parents, use `robot reason` as above.
 
 ## Gotchas
 
