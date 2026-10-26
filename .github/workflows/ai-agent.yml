@@ -272,7 +272,7 @@ jobs:
   respond-to-mention:
     needs: check-mention
     if: fromJSON(needs.check-mention.outputs.result).qualifiedMention == true
-    timeout-minutes: 30
+    timeout-minutes: 45
     permissions:
       contents: write
       pull-requests: write
