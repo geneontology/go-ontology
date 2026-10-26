@@ -622152,6 +622152,17 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-10-20T23:59:20Z
 
+[Term]
+id: GO:7770142
+name: 7,8-dihydrobiopterin reductase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: L-erythro-7,8-dihydrobiopterin + NADPH + H+ = (6R)-L-erythro-5,6,7,8-tetrahydrobiopterin + NADP+." [PMID:24863258, PMID:646819, RHEA:91495]
+xref: RHEA:91495 {source="skos:exactMatch"}
+is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32707" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-26T11:34:55Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
