@@ -271023,12 +271023,14 @@ synonym: "mitochondrial outer membrane protein import" EXACT []
 synonym: "protein import into mitochondrial outer membrane" EXACT []
 synonym: "protein transport into mitochondrial outer membrane" EXACT []
 is_a: GO:0007008 ! outer mitochondrial membrane organization
-intersection_of: GO:0051204 ! protein insertion into mitochondrial membrane
+is_a: GO:7770058 ! mitochondrial protein import pathway
+intersection_of: GO:0051205 ! protein insertion into membrane
 intersection_of: has_primary_input PR:000000001 ! protein
 intersection_of: has_target_end_location GO:0005741 ! mitochondrial outer membrane
 intersection_of: has_target_start_location GO:0005829 ! cytosol
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29962" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30453" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 
 [Term]
 id: GO:0045041
@@ -620978,8 +620980,10 @@ def: "The import of proteins from the cytosol to their final destination in the 
 subset: goslim_pombe
 synonym: "mitochondrial protein import" EXACT []
 is_a: GO:0006839 ! mitochondrial transport
+is_a: GO:0006886 ! intracellular protein transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32292" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T10:06:36Z
 
@@ -620992,8 +620996,8 @@ comment: In yeast, the insertase is the mitochondrial import (MIM) complex, comp
 synonym: "MIM pathway" NARROW []
 synonym: "MTCH pathway" NARROW []
 is_a: GO:0045040 ! protein insertion into mitochondrial outer membrane
-is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T12:53:29Z
 
@@ -621041,8 +621045,8 @@ namespace: biological_process
 def: "The import of beta barrel proteins from the cytosol and their insertion into the mitochondrial outer membrane." [PMID:36931257]
 synonym: "TOM-SAM pathway" EXACT []
 is_a: GO:0045040 ! protein insertion into mitochondrial outer membrane
-is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-15T13:26:12Z
 
