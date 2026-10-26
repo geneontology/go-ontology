@@ -1,10 +1,10 @@
 ---
-id: obo:go/releases/2026-10-25go.owl-statistics
+id: obo:go/releases/2026-10-26go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-10-25go.owl
+  version: obo:go/releases/2026-10-26go.owl
 was_generated_by:
-  started_at_time: '2026-10-25T05:52:49.258854'
+  started_at_time: '2026-10-26T05:58:57.558923'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
@@ -46,17 +46,17 @@ partitions:
     distinct_synonym_count: 93724
     synonym_statement_count: 94514
     change_summary:
-      EdgeCreation: 500
       NodeTextDefinitionChange: 307
+      EdgeCreation: 500
       NodeUnobsoletion: 179
       NodeRename: 218
       EdgeDeletion: 138
-      RemoveNodeFromSubset: 12
-      NodeDeletion: 30
       RemoveSynonym: 117
-      NewSynonym: 68
+      NodeDeletion: 30
       RemoveMapping: 35
       MappingCreation: 16
+      NewSynonym: 68
+      RemoveNodeFromSubset: 12
       AddNodeToSubset: 2
       All_Obsoletion: 0
       All_Synonym: 185
@@ -93,18 +93,18 @@ partitions:
     distinct_synonym_count: 28771
     synonym_statement_count: 29925
     change_summary:
+      EdgeDeletion: 107
+      EdgeCreation: 89
       NodeTextDefinitionChange: 110
       RemoveSynonym: 77
       RemoveMapping: 66
       NodeRename: 63
-      EdgeDeletion: 107
-      NodeObsoletionWithDirectReplacement: 1
-      EdgeCreation: 89
       NodeUnobsoletion: 35
-      NewSynonym: 43
       NodeDeletion: 35
+      NewSynonym: 43
       MappingCreation: 28
       RemoveNodeFromSubset: 1
+      NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
       All_Synonym: 120
     edge_count: 13546
@@ -128,12 +128,12 @@ partitions:
     distinct_synonym_count: 5134
     synonym_statement_count: 5333
     change_summary:
-      NodeTextDefinitionChange: 28
       EdgeCreation: 13
+      NodeTextDefinitionChange: 28
       NodeUnobsoletion: 3
       NodeRename: 6
-      EdgeDeletion: 17
       NodeDeletion: 8
+      EdgeDeletion: 17
       RemoveSynonym: 4
       NewSynonym: 4
       RemoveNodeFromSubset: 1
