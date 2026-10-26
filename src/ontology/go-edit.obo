@@ -51229,7 +51229,7 @@ id: GO:0005055
 name: laminin receptor activity
 namespace: molecular_function
 def: "A cell adhesion mediator activity that combines with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." [GOC:ai, PMID:2970671]
-comment: Note that this term represents an activity and not a gene product. Consider also annotating to the molecular function terms 'cell adhesion molecule binding ; GO:0050839' and 'receptor binding ; GO:0005102' and the biological process term 'cell adhesion ; GO:0007155'.
+comment: Note that this term represents an activity and not a gene product.
 is_a: GO:0098631 ! cell adhesion mediator activity
 is_a: neverin:4751
 relationship: has_part GO:0043236 ! laminin binding
@@ -433979,7 +433979,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0098632
 name: cell-cell adhesion mediator activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." [GOC:dos, Wikipedia:Cell_adhesion]
+def: "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." [Wikipedia:Cell_adhesion]
 synonym: "cell-cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-cell adhesion" EXACT []
 is_a: GO:0098631 ! cell adhesion mediator activity
@@ -434003,8 +434003,10 @@ namespace: molecular_function
 def: "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." [Wikipedia:Cell_adhesion]
 synonym: "cell-matrix adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-matrix adhesion" EXACT []
-intersection_of: GO:0005488 ! binding
-intersection_of: part_of GO:0007160 ! cell-matrix adhesion
+is_a: GO:0030674 ! protein-macromolecule adaptor activity
+relationship: occurs_in GO:0031012 ! extracellular matrix
+relationship: part_of GO:0007160 ! cell-matrix adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098635
@@ -464377,7 +464379,7 @@ synonym: "NBAD biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
 intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N-beta-alanyldopamine(1+)
+intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N‐beta‐alanyldopamine(1+)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:35Z
@@ -470190,7 +470192,6 @@ synonym: "chromatin-protein adaptor" EXACT []
 synonym: "protein-chromatin adaptor activity" EXACT []
 is_a: GO:0030674 ! protein-macromolecule adaptor activity
 relationship: has_part GO:0003682 ! chromatin binding
-relationship: has_part GO:0005515 ! protein binding
 relationship: part_of GO:0006325 ! chromatin organization
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17064" xsd:anyURI
 created_by: pg
