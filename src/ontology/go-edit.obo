@@ -471334,7 +471334,7 @@ creation_date: 2026-10-27T14:07:21Z
 id: GO:0140557
 name: phosphoryl-AMPylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: ATP + phosphoprotein = diphosphate + adenylyl-phosphoprotein; mediates the addition of an adenylyl (adenosine 5'-monophosphate; AMP group) to a phosphoserine, a phosphothreonine, or  a phosphotyrosine residue in a target protein." [PMID:38776962]
+def: "Catalysis of the reaction: ATP + phosphoprotein = diphosphate + adenylyl-phosphoprotein; mediates the addition of an adenylyl (adenosine 5'-monophosphate; AMP group) to a phosphoserine, a phosphothreonine, or a phosphotyrosine residue in a target protein." [PMID:38776962]
 xref: RHEA:91551 {source="skos:narrowMatch"}
 xref: RHEA:91555 {source="skos:narrowMatch"}
 xref: RHEA:91560 {source="skos:narrowMatch"}
@@ -471347,7 +471347,7 @@ creation_date: 2026-10-27T14:17:08Z
 id: GO:0140558
 name: phosphoribosyl-ubiquitin peptidase activity
 namespace: molecular_function
-def: "An isopeptidase activity that cleaves phosphoribosyl-ubiquitin from a target protein." [PMID:31732457, RHEA:91571]
+def: "Catalysis of the hydrolysis of the phosphodiester bond linking phosphoribosyl-ubiquitin to a serine residue in a target protein, releasing phosphoribosyl-ubiquitin." [PMID:31732457, RHEA:91571]
 xref: RHEA:91571 {source="skos:exactMatch"}
 is_a: GO:0101005 ! deubiquitinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
