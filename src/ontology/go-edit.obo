@@ -464380,7 +464380,7 @@ synonym: "NBAD biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
 intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N-beta‐alanyldopamine(1+)
+intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N-beta-alanyldopamine(1+)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:35Z
@@ -471265,7 +471265,7 @@ creation_date: 2020-11-12T13:01:17Z
 id: GO:0140551
 name: ubiquitin protein ligase activity via oxyester bond
 namespace: molecular_function
-def: "Catalysis of the transfer of ubiquitin to a substrate protein via an oxyester bond bond between the C-terminal glycine of ubiquitin and the hydroxyl group of serine or threonine residues in the substrate." [PMID:37870100, PMID:39116872]
+def: "Catalysis of the transfer of ubiquitin to a substrate protein via an oxyester bond between the C-terminal glycine of ubiquitin and the hydroxyl group of serine or threonine residues in the substrate." [PMID:37870100, PMID:39116872]
 is_a: GO:0004842 ! ubiquitin-protein transferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32792" xsd:anyURI
 created_by: pg
