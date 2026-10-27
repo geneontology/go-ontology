@@ -368939,7 +368939,6 @@ name: obsolete negative regulation of transcription from RNA polymerase II promo
 namespace: biological_process
 def: "OBSOLETE. A transcription regulation process in which the presence of a nonfermentable carbon source leads to a decrease of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." [GOC:dph, PMID:19686338]
 comment: The reason for obsoletion is that this represents a GO-CAM model.
-property_value: term_tracker_item "The reason for obsoletion is that these terms represent GO-CAM models." xsd:anyURI
 is_obsolete: true
 created_by: dph
 creation_date: 2012-01-23T11:33:08Z
@@ -484185,7 +484184,7 @@ synonym: "sweating" EXACT []
 is_a: GO:0007589 ! body fluid secretion
 is_a: GO:0032941 ! secretion by tissue
 is_a: onlyin:40674
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30274." xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30274" xsd:anyURI
 created_by: rynl
 creation_date: 2025-05-19T20:55:14Z
 
@@ -593394,7 +593393,6 @@ name: obsolete inhibition of cysteine-type endopeptidase activity involved in ap
 namespace: biological_process
 def: "OBSOLETE. Any process that prevents the activation of an inactive cysteine-type endopeptidase involved in an apoptotic process." [GOC:mtg_apoptosis, PMID:11943137]
 comment: The reason for obsoletion is that this term represents a GO-CAM model.
-property_value: term_tracker_item "The reason for obsoletion is that this term represents a GO-CAM model." xsd:anyURI
 is_obsolete: true
 created_by: pr
 creation_date: 2012-12-05T15:42:50Z
