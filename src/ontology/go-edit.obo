@@ -115199,10 +115199,11 @@ is_a: GO:0005249 ! voltage-gated potassium channel activity
 
 [Term]
 id: GO:0015272
-name: ATP-activated inward rectifier potassium channel activity
+name: ATP-sensitive inward rectifier potassium channel activity
 namespace: molecular_function
-def: "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying voltage-gated channel, where the inward rectification is due to a voltage-dependent block of the channel pore by ATP. An inwardly rectifying current-voltage relation is one where at any given driving force the inward flow of K+ ions exceeds the outward flow for the opposite driving force." [GOC:cb, GOC:mah]
+def: "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying potassium channel whose opening is regulated by the cytoplasmic ATP/ADP ratio: binding of ATP to the pore-forming subunit inhibits channel activity, while Mg-nucleotides (MgADP, MgATP) acting on an associated sulfonylurea receptor subunit stimulate it." [PMID:34815345, PMID:41022322]
 is_a: GO:0005242 ! inward rectifier potassium channel activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32796" xsd:anyURI
 
 [Term]
 id: GO:0015274
