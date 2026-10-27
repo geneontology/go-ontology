@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-26/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-27/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-26" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-27" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -6854,6 +6854,100 @@
 
 #### Added
 - [1,2-bis(octadec-9-enoyl)phosphatidic acid](http://purl.obolibrary.org/obo/CHEBI_134027) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 1,2-dehydro-N-acetyldopamine `http://purl.obolibrary.org/obo/CHEBI_747731`
+
+#### Added
+- Class: [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) 
+
+- [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N-acetyldopamine" 
+
+- [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) SubClassOf [secondary carboxamide](http://purl.obolibrary.org/obo/CHEBI_140325) 
+
+- [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) SubClassOf [acetamides](http://purl.obolibrary.org/obo/CHEBI_22160) 
+
+- [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) SubClassOf [catechols](http://purl.obolibrary.org/obo/CHEBI_33566) 
+
+- [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) SubClassOf [olefinic compound](http://purl.obolibrary.org/obo/CHEBI_78840) 
+
+
+### 1,2-dehydro-N-acetyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120577`
+#### Removed
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "N-acetyldopamine biosynthesis" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "NADA biosynthesis" 
+
+#### Added
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "N-acetyldopamine biosynthesis" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "NADA biosynthesis" 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731)) 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [catechol-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0009713) 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [olefinic compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0120255) 
+
+- [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) 
+
+
+### 1,2-dehydro-N-beta-alanyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120576`
+#### Removed
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "N-beta-alanyldopamine biosynthesis" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "NBAD biosynthesis" 
+
+#### Added
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "N-beta-alanyldopamine biosynthesis" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "NBAD biosynthesis" 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730)) 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) 
+
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
+
+
+### 1,2-dehydro-N‐beta‐alanyldopamine `http://purl.obolibrary.org/obo/CHEBI_747729`
+
+#### Added
+- Class: [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N‐beta‐alanyldopamine" 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [secondary carboxamide](http://purl.obolibrary.org/obo/CHEBI_140325) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [catechols](http://purl.obolibrary.org/obo/CHEBI_33566) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [primary amino compound](http://purl.obolibrary.org/obo/CHEBI_50994) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [olefinic compound](http://purl.obolibrary.org/obo/CHEBI_78840) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [beta-alanine](http://purl.obolibrary.org/obo/CHEBI_16958) 
+
+
+### 1,2-dehydro-N‐beta‐alanyldopamine(1+) `http://purl.obolibrary.org/obo/CHEBI_747730`
+
+#### Added
+- Class: [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N‐beta‐alanyldopamine(1+)" 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) SubClassOf [primary ammonium ion](http://purl.obolibrary.org/obo/CHEBI_65296) 
+
+- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) 
 
 
 ### 1,2-di-O-palmitoyl-sn-glycero-3-phosphocholine `http://purl.obolibrary.org/obo/CHEBI_40265`
@@ -20217,6 +20311,34 @@
 - [6,7-dichloro-L-tryptophan](http://purl.obolibrary.org/obo/CHEBI_140086) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 6,7-dihydropteridine `http://purl.obolibrary.org/obo/CHEBI_30156`
+#### Removed
+- Class: [6,7-dihydropteridine](http://purl.obolibrary.org/obo/CHEBI_30156) 
+
+- [6,7-dihydropteridine](http://purl.obolibrary.org/obo/CHEBI_30156) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [6,7-dihydropteridine](http://purl.obolibrary.org/obo/CHEBI_30156) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [6,7-dihydropteridine](http://purl.obolibrary.org/obo/CHEBI_30156) [label](http://www.w3.org/2000/01/rdf-schema#label) "6,7-dihydropteridine" 
+
+- [6,7-dihydropteridine](http://purl.obolibrary.org/obo/CHEBI_30156) SubClassOf [6,7-dihydropteridines](http://purl.obolibrary.org/obo/CHEBI_13614) 
+
+
+
+### 6,7-dihydropteridines `http://purl.obolibrary.org/obo/CHEBI_13614`
+#### Removed
+- Class: [6,7-dihydropteridines](http://purl.obolibrary.org/obo/CHEBI_13614) 
+
+- [6,7-dihydropteridines](http://purl.obolibrary.org/obo/CHEBI_13614) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [6,7-dihydropteridines](http://purl.obolibrary.org/obo/CHEBI_13614) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [6,7-dihydropteridines](http://purl.obolibrary.org/obo/CHEBI_13614) [label](http://www.w3.org/2000/01/rdf-schema#label) "6,7-dihydropteridines" 
+
+- [6,7-dihydropteridines](http://purl.obolibrary.org/obo/CHEBI_13614) SubClassOf [pteridines](http://purl.obolibrary.org/obo/CHEBI_26373) 
+
+
+
 ### 6,7-dimethyl-8-(1-D-ribityl)lumazine `http://purl.obolibrary.org/obo/CHEBI_17601`
 
 #### Added
@@ -20859,6 +20981,31 @@
 
 #### Added
 - [7,8-dihydro-D-neopterin 2',3'-cyclic phosphate](http://purl.obolibrary.org/obo/CHEBI_50972) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 7,8-dihydrobiopterin reductase activity `http://purl.obolibrary.org/obo/GO_7770142`
+
+#### Added
+- Class: [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32707"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-26T11:34:55Z" 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770142" 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-erythro-7,8-dihydrobiopterin + NADPH + H+ = (6R)-L-erythro-5,6,7,8-tetrahydrobiopterin + NADP+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:646819" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24863258" 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) [label](http://www.w3.org/2000/01/rdf-schema#label) "7,8-dihydrobiopterin reductase activity" 
+
+- [7,8-dihydrobiopterin reductase activity](http://purl.obolibrary.org/obo/GO_7770142) SubClassOf [oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor](http://purl.obolibrary.org/obo/GO_0016646) 
 
 
 ### 7,8-dihydromethanopterin `http://purl.obolibrary.org/obo/CHEBI_2251`
@@ -27394,6 +27541,24 @@
 
 #### Added
 - [GABA-gated chloride channel antagonist](http://purl.obolibrary.org/obo/CHEBI_38999) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### GCIs 
+#### Removed
+- [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [has input](http://purl.obolibrary.org/obo/RO_0002233) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [has input](http://purl.obolibrary.org/obo/RO_0002233) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [has output](http://purl.obolibrary.org/obo/RO_0002234) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [has output](http://purl.obolibrary.org/obo/RO_0002234) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [regulates levels of](http://purl.obolibrary.org/obo/RO_0002332) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [has primary input or output](http://purl.obolibrary.org/obo/RO_0004007) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) EquivalentTo [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
 
 
 ### GDP `http://purl.obolibrary.org/obo/CHEBI_17552`
@@ -39394,6 +39559,20 @@
 - [allysine](http://purl.obolibrary.org/obo/CHEBI_17027) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### alpha helical protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_7770059`
+#### Removed
+- [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) SubClassOf [intracellular protein transport](http://purl.obolibrary.org/obo/GO_0006886) 
+
+- [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) SubClassOf [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+- [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
+
+- [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+#### Added
+- [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32106"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### alpha,alpha-trehalose 6-phosphate `http://purl.obolibrary.org/obo/CHEBI_18283`
 
 #### Added
@@ -43341,6 +43520,20 @@
 - [bergaptol](http://purl.obolibrary.org/obo/CHEBI_17377) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### beta barrel protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_7770063`
+#### Removed
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [intracellular protein transport](http://purl.obolibrary.org/obo/GO_0006886) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
+
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+#### Added
+- [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32106"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### beta-Asp-Arg `http://purl.obolibrary.org/obo/CHEBI_55435`
 
 #### Added
@@ -45923,10 +46116,18 @@
 
 ### cell-cell adhesion mediator activity `http://purl.obolibrary.org/obo/GO_0098632`
 #### Removed
+- [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding by a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dos" 
+
 - [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) EquivalentTo [protein binding](http://purl.obolibrary.org/obo/GO_0005515) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609)) 
 
 #### Added
 - [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cell-cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
 
 
 ### cell-cell junction disassembly `http://purl.obolibrary.org/obo/GO_0150147`
@@ -45955,10 +46156,16 @@
 
 ### cell-matrix adhesion mediator activity `http://purl.obolibrary.org/obo/GO_0098634`
 #### Removed
-- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) SubClassOf [cell adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098631) 
+- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
+
+- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) EquivalentTo [binding](http://purl.obolibrary.org/obo/GO_0005488) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0007160)) 
 
 #### Added
-- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) SubClassOf [binding](http://purl.obolibrary.org/obo/GO_0005488) 
+- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
 
 
 ### cellobionic acid `http://purl.obolibrary.org/obo/CHEBI_77021`
@@ -48160,6 +48367,14 @@
 #### Removed
 - [collagen and cuticulin-based cuticle development](http://purl.obolibrary.org/obo/GO_0040002) [conformsTo](http://purl.org/dc/terms/conformsTo) [anatomical_structure_development.yaml](http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml) 
 
+
+
+### collagen binding involved in cell-matrix adhesion `http://purl.obolibrary.org/obo/GO_0098639`
+#### Removed
+- [collagen binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098639) SubClassOf [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) 
+
+#### Added
+- [collagen binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098639) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0007160) 
 
 
 ### colneleic acid `http://purl.obolibrary.org/obo/CHEBI_60956`
@@ -61972,6 +62187,14 @@
 - [insulin-sensitizing drug](http://purl.obolibrary.org/obo/CHEBI_50864) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### integrin binding involved in cell-matrix adhesion `http://purl.obolibrary.org/obo/GO_0098640`
+#### Removed
+- [integrin binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098640) SubClassOf [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) 
+
+#### Added
+- [integrin binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098640) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0007160) 
+
+
 ### intercalator `http://purl.obolibrary.org/obo/CHEBI_24853`
 
 #### Added
@@ -63310,12 +63533,22 @@
 - [lactoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15529) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### laminin binding involved in cell-matrix adhesion `http://purl.obolibrary.org/obo/GO_0098638`
+#### Removed
+- [laminin binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098638) SubClassOf [cell-matrix adhesion mediator activity](http://purl.obolibrary.org/obo/GO_0098634) 
+
+#### Added
+- [laminin binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098638) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0007160) 
+
+
 ### laminin receptor activity `http://purl.obolibrary.org/obo/GO_0005055`
 #### Removed
 - [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Combining with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2970671" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term represents an activity and not a gene product. Consider also annotating to the molecular function terms 'cell adhesion molecule binding ; GO:0050839' and 'receptor binding ; GO:0005102' and the biological process term 'cell adhesion ; GO:0007155'." 
 
 #### Added
 - [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32801"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -63324,6 +63557,8 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:2970671" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term represents an activity and not a gene product." 
 
 
 ### lanostane derivative `http://purl.obolibrary.org/obo/CHEBI_131632`
@@ -63794,9 +64029,39 @@
 
 
 ### lipid X `http://purl.obolibrary.org/obo/CHEBI_16942`
+#### Removed
+- Class: [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) 
 
-#### Added
-- [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+- [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipid X" 
+
+- [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) SubClassOf [N-acyl-D-glucosamine 1-phosphate](http://purl.obolibrary.org/obo/CHEBI_21635) 
+
+- [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [Escherichia coli metabolite](http://purl.obolibrary.org/obo/CHEBI_76971) 
+
+- [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+
+
+### lipid X(2-) `http://purl.obolibrary.org/obo/CHEBI_57957`
+#### Removed
+- Class: [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [chebi_ph7_3](http://purl.obolibrary.org/obo/go#chebi_ph7_3) 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipid X(2-)" 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) SubClassOf [2,3-diacyl-alpha-D-glucosaminyl 1-phosphate](http://purl.obolibrary.org/obo/CHEBI_137180) 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) SubClassOf [2-N,3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosaminyl 1-phosphate(2-)](http://purl.obolibrary.org/obo/CHEBI_176338) 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) SubClassOf [organophosphate oxoanion](http://purl.obolibrary.org/obo/CHEBI_58945) 
+
+- [lipid X(2-)](http://purl.obolibrary.org/obo/CHEBI_57957) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [lipid X](http://purl.obolibrary.org/obo/CHEBI_16942) 
+
 
 
 ### lipid carrier activity `http://purl.obolibrary.org/obo/GO_0005319`
@@ -66567,7 +66832,11 @@
 #### Added
 - [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32292"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [goslim_pombe](http://purl.obolibrary.org/obo/go#goslim_pombe) 
+
+- [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) SubClassOf [intracellular protein transport](http://purl.obolibrary.org/obo/GO_0006886) 
 
 
 ### mitochondrial protein quality control `http://purl.obolibrary.org/obo/GO_0141164`
@@ -84627,6 +84896,22 @@
 
 
 
+### protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_0045040`
+#### Removed
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) EquivalentTo [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0005741)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [protein](http://purl.obolibrary.org/obo/PR_000000001)) 
+
+#### Added
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32106"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) EquivalentTo [protein insertion into membrane](http://purl.obolibrary.org/obo/GO_0051205) and ([has target start location](http://purl.obolibrary.org/obo/RO_0002338) some [cytosol](http://purl.obolibrary.org/obo/GO_0005829)) and ([has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0005741)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [protein](http://purl.obolibrary.org/obo/PR_000000001)) 
+
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
+
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
 ### protein kinase A agonist `http://purl.obolibrary.org/obo/CHEBI_78547`
 
 #### Added
@@ -92089,6 +92374,31 @@
 
 #### Added
 - [taxane diterpenoid](http://purl.obolibrary.org/obo/CHEBI_50367) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### tectorial membrane `http://purl.obolibrary.org/obo/GO_0140524`
+
+#### Added
+- Class: [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32724"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-12T07:05:59Z" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140524" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An acellular extracellular matrix that overlies the cochlear neuroepithelium and contacts the stereocilia bundles of outer hair cells. It consists of radially oriented bundles of collagen fibrils (types II, IX and XI) embedded in a striated-sheet matrix of non-collagenous glycoproteins, including alpha-tectorin, beta-tectorin, CEACAM16, otogelin and otogelin-like. It couples sound-induced mechanical stimulation to stereocilia deflection." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40901670" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term has no relationship to 'membrane ; GO:0016020' because the tectorial membrane is not a lipid bilayer." 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [label](http://www.w3.org/2000/01/rdf-schema#label) "tectorial membrane" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) SubClassOf [specialized extracellular matrix](http://purl.obolibrary.org/obo/GO_0140047) 
 
 
 ### telbivudine `http://purl.obolibrary.org/obo/CHEBI_63624`
