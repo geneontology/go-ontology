@@ -464380,7 +464380,7 @@ synonym: "NBAD biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
 intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N‐beta‐alanyldopamine(1+)
+intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N-beta‐alanyldopamine(1+)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:35Z
