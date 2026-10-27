@@ -455610,7 +455610,6 @@ name: obsolete NADH oxidase H202-forming activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: NADH + H+ + O2 = NAD + hydrogen peroxide (H2O2)." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
-property_value: term_tracker_item "GO:0106293" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0016174
 created_by: hjd
@@ -455622,7 +455621,6 @@ name: obsolete NADPH oxidase H202-forming activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: NADPH + H+ + O2 = NADP + hydrogen peroxide (H2O2)." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
-property_value: term_tracker_item "GO:0106293" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0016174
 created_by: hjd
