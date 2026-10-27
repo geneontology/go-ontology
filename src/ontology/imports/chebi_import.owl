@@ -3692,7 +3692,7 @@
         </rdfs:subClassOf>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
-        <rdfs:label>N‐beta‐alanyldopamine</rdfs:label>
+        <rdfs:label>N-beta-alanyldopamine</rdfs:label>
     </owl:Class>
     
 
@@ -143042,7 +143042,7 @@
         </rdfs:subClassOf>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#chebi_ph7_3"/>
-        <rdfs:label>N‐beta‐alanyldopamine(1+)</rdfs:label>
+        <rdfs:label>N-beta-alanyldopamine(1+)</rdfs:label>
     </owl:Class>
     
 
@@ -400520,7 +400520,7 @@
         </rdfs:subClassOf>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
-        <rdfs:label>1,2-dehydro-N‐beta‐alanyldopamine</rdfs:label>
+        <rdfs:label>1,2-dehydro-N-beta-alanyldopamine</rdfs:label>
     </owl:Class>
     
 
@@ -400553,7 +400553,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
-        <rdfs:label>1,2-dehydro-N‐beta‐alanyldopamine(1+)</rdfs:label>
+        <rdfs:label>1,2-dehydro-N-beta-alanyldopamine(1+)</rdfs:label>
     </owl:Class>
     
 

@@ -1493,13 +1493,13 @@ relationship: RO:0018034 CHEBI:57270 ! N,N-dihydroxy-L-tyrosinate
 
 [Term]
 id: CHEBI:125666
-name: N‐beta‐alanyldopamine
+name: N-beta-alanyldopamine
 subset: 3:STAR
 subset: gocheck_do_not_annotate
 is_a: CHEBI:140325 ! secondary carboxamide
 is_a: CHEBI:33567 ! catecholamine
 is_a: CHEBI:50994 ! primary amino compound
-relationship: RO:0018033 CHEBI:192799 ! N‐beta‐alanyldopamine(1+)
+relationship: RO:0018033 CHEBI:192799 ! N-beta-alanyldopamine(1+)
 relationship: RO:0018038 CHEBI:16958 ! beta-alanine
 relationship: RO:0018038 CHEBI:18243 ! dopamine
 
@@ -60443,11 +60443,11 @@ relationship: RO:0018034 CHEBI:131429 ! carcinine
 
 [Term]
 id: CHEBI:192799
-name: N‐beta‐alanyldopamine(1+)
+name: N-beta-alanyldopamine(1+)
 subset: 3:STAR
 subset: chebi_ph7_3
 is_a: CHEBI:65296 ! primary ammonium ion
-relationship: RO:0018034 CHEBI:125666 ! N‐beta‐alanyldopamine
+relationship: RO:0018034 CHEBI:125666 ! N-beta-alanyldopamine
 
 [Term]
 id: CHEBI:19281
@@ -178970,14 +178970,14 @@ relationship: RO:0018037 CHEBI:74773 ! N(3)-methyluridine 5'-monophosphate
 
 [Term]
 id: CHEBI:747729
-name: 1,2-dehydro-N‐beta‐alanyldopamine
+name: 1,2-dehydro-N-beta-alanyldopamine
 subset: 3:STAR
 subset: gocheck_do_not_annotate
 is_a: CHEBI:140325 ! secondary carboxamide
 is_a: CHEBI:33566 ! catechols
 is_a: CHEBI:50994 ! primary amino compound
 is_a: CHEBI:78840 ! olefinic compound
-relationship: RO:0018033 CHEBI:747730 ! 1,2-dehydro-N‐beta‐alanyldopamine(1+)
+relationship: RO:0018033 CHEBI:747730 ! 1,2-dehydro-N-beta-alanyldopamine(1+)
 relationship: RO:0018038 CHEBI:16958 ! beta-alanine
 
 [Term]
@@ -178990,10 +178990,10 @@ relationship: RO:0018038 CHEBI:16695 ! uridine 5'-monophosphate
 
 [Term]
 id: CHEBI:747730
-name: 1,2-dehydro-N‐beta‐alanyldopamine(1+)
+name: 1,2-dehydro-N-beta-alanyldopamine(1+)
 subset: 3:STAR
 is_a: CHEBI:65296 ! primary ammonium ion
-relationship: RO:0018034 CHEBI:747729 ! 1,2-dehydro-N‐beta‐alanyldopamine
+relationship: RO:0018034 CHEBI:747729 ! 1,2-dehydro-N-beta-alanyldopamine
 
 [Term]
 id: CHEBI:747731
