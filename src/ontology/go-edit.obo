@@ -153049,7 +153049,6 @@ synonym: "ubiquitin-like conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like-protein ligase activity" NARROW []
 is_a: GO:0016755 ! aminoacyltransferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
-relationship: part_of GO:0032446 ! protein modification by small protein conjugation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24697" xsd:anyURI
 
 [Term]
