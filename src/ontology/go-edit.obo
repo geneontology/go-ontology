@@ -49001,6 +49001,7 @@ synonym: "ubiquitin-conjugating enzyme activity" NARROW []
 xref: KEGG_REACTION:R03876
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
 relationship: has_participant PR:000035728 ! ubiquitin
+relationship: part_of GO:0016567 ! protein ubiquitination
 
 [Term]
 id: GO:0004843
@@ -153048,7 +153049,7 @@ synonym: "ubiquitin-like conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like-protein ligase activity" NARROW []
 is_a: GO:0016755 ! aminoacyltransferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
-relationship: part_of GO:0016567 ! protein ubiquitination
+relationship: part_of GO:0032446 ! protein modification by small protein conjugation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24697" xsd:anyURI
 
 [Term]
@@ -471354,7 +471355,9 @@ namespace: molecular_function
 def: "Catalysis of the hydrolysis of the phosphodiester bond linking phosphoribosyl-ubiquitin to a serine residue in a target protein, releasing phosphoribosyl-ubiquitin." [PMID:31732457, RHEA:91571]
 synonym: "phosphoribosyl-ubiquitin peptidase activity" RELATED []
 xref: RHEA:91571 {source="skos:exactMatch"}
-is_a: GO:0101005 ! deubiquitinase activity
+is_a: GO:0008081 ! phosphoric diester hydrolase activity
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016579 ! protein deubiquitination
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
 created_by: pg
 creation_date: 2026-10-27T14:21:06Z
