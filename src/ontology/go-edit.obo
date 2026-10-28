@@ -473525,7 +473525,7 @@ creation_date: 2021-11-30T06:13:31Z
 
 [Term]
 id: GO:0140740
-name: ADP-riboxanase-[protein] activity
+name: ADP-riboxanase L-arginine-[protein] ADP-riboxanase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: L-arginyl-[protein] + NAD+ = ADP-riboxanated L-argininyl-[protein] + H+ + NH4+ + nicotinamide." [PMID:34671164, RHEA:69500]
 comment: Note that this activity has two steps: a transfer of an ADP-ribose group, followed by the elimination of an ammonia group.
