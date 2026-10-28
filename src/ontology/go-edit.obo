@@ -12122,7 +12122,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0001736
 name: establishment of planar polarity
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032]
+def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032, PMID:28869926, PMID:34338785]
 comment: When appropriate, Wnt ligands can be annotated to this term.
 synonym: "establishment of planar cell polarity" NARROW []
 is_a: GO:0007164 ! establishment of tissue polarity
