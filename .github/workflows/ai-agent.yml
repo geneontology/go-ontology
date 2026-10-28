@@ -371,6 +371,16 @@ jobs:
             - If the user asked a question or asked for research, always communicate results back via `gh` rather than just in the chat
             - If you cannot complete the request, explain why in a comment on the issue/PR
 
+            LONG-RUNNING COMMANDS:
+            This is a single non-interactive session. Ending your turn ends the job: nothing will
+            wake you when a background task finishes, and uncommitted work is lost with the runner.
+            - Never use `run_in_background` for a command whose result you need (e.g. `make travis_test`).
+            - If a command does end up in the background, wait for it in the foreground before going on,
+              e.g. `until grep -q '^EXIT' /tmp/travis.log; do sleep 30; done` with a Bash timeout of
+              600000 ms, repeated as needed.
+            - Never end your turn while a background task is still running. If you must stop, commit,
+              push, and post a comment saying what is unfinished first.
+
             SIGNATURE:
             Always include the following signature block in (1) git commit message and (2) comments on the GitHub issue (3) comments on the GitHub PR
             ```
