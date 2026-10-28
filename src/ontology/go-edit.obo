@@ -161689,8 +161689,10 @@ replaced_by: GO:0022804
 id: GO:0022855
 name: protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + glucose(out) = protein histidine + glucose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N(pros)-phospho-L-histidyl-[protein] + D-glucose(out) = D-glucose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33367]
 synonym: "glucose PTS transporter activity" EXACT []
+xref: EC:2.7.1.199 {source="skos:exactMatch"}
+xref: RHEA:33367 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0055056 ! D-glucose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161699,8 +161701,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022856
 name: protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + sorbitol(out) = protein histidine + sorbitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-sorbitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-sorbitol 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:42484]
 synonym: "sorbitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.198 {source="skos:exactMatch"}
+xref: RHEA:42484 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015576 ! sorbitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161775,8 +161779,10 @@ is_obsolete: true
 id: GO:0022869
 name: protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + lactose(out) = protein histidine + lactose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: lactose(out) + N(pros)-phospho-L-histidyl-[protein] = lactose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:42400]
 synonym: "lactose PTS transporter activity" EXACT []
+xref: EC:2.7.1.207 {source="skos:exactMatch"}
+xref: RHEA:42400 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015155 ! lactose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161813,8 +161819,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022872
 name: protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + mannitol(out) = protein histidine + mannitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-mannitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-mannitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33363]
 synonym: "mannitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.197 {source="skos:exactMatch"}
+xref: RHEA:33363 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015575 ! mannitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161823,8 +161831,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022873
 name: protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + maltose(out) = protein histidine + maltose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-maltose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha-maltose 6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49300]
 synonym: "maltose PTS transporter activity" EXACT []
+xref: EC:2.7.1.208 {source="skos:exactMatch"}
+xref: RHEA:49300 {source="skos:exactMatch"}
 is_a: GO:0005363 ! maltose transmembrane transporter activity
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161845,8 +161855,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022875
 name: protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + galactitol(out) = protein histidine + galactitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: galactitol(out) + N(pros)-phospho-L-histidyl-[protein] = galactitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49248]
 synonym: "galactitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.200 {source="skos:exactMatch"}
+xref: RHEA:49248 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015577 ! galactitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161865,8 +161877,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022877
 name: protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + fructose(out) = protein histidine + fructose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-fructose(out) + N(pros)-phospho-L-histidyl-[protein] = D-fructose 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49252]
 synonym: "fructose PTS transporter activity" EXACT []
+xref: EC:2.7.1.202 {source="skos:exactMatch"}
+xref: RHEA:49252 {source="skos:exactMatch"}
 is_a: GO:0005353 ! fructose transmembrane transporter activity
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161889,8 +161903,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022879
 name: protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + trehalose(out) = protein histidine + trehalose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: alpha,alpha-trehalose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha,alpha-trehalose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33371]
 synonym: "trehalose PTS transporter activity" EXACT []
+xref: EC:2.7.1.201 {source="skos:exactMatch"}
+xref: RHEA:33371 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015574 ! trehalose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -421728,7 +421744,9 @@ creation_date: 2014-03-27T15:17:10Z
 id: GO:0090562
 name: protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N,N'-diacetylchitobiose(out) = protein histidine + N,N'-diacetylchitobiose phosphate(in)." [GOC:am, PMID:10913119]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N,N'-diacetylchitobiose(out) + N(pros)-phospho-L-histidyl-[protein] = diacetylchitobiose-6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:am, PMID:10913119, RHEA:33423]
+xref: EC:2.7.1.196 {source="skos:exactMatch"}
+xref: RHEA:33423 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
 created_by: tb
