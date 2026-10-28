@@ -251689,7 +251689,7 @@ id: GO:0043138
 name: 3'-5' DNA helicase activity
 namespace: molecular_function
 alt_id: GO:0043140
-def: "Unwinding a DNA helix in the direction 5' to 3', driven by ATP hydrolysis." [EC:5.6.2.4, GOC:jl]
+def: "Unwinding a DNA helix in the direction 3' to 5', driven by ATP hydrolysis." [EC:5.6.2.4]
 synonym: "3' to 5' DNA helicase activity" EXACT []
 synonym: "ATP-dependent 3' to 5' DNA helicase activity" EXACT []
 synonym: "ATP-dependent 3'-5' DNA helicase activity" EXACT []
@@ -251697,6 +251697,7 @@ xref: EC:5.6.2.4 {source="skos:exactMatch"}
 is_a: GO:0003678 ! DNA helicase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23533" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32831" xsd:anyURI
 
 [Term]
 id: GO:0043139
