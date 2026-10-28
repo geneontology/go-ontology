@@ -622258,6 +622258,22 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-10-26T11:34:55Z
 
+[Term]
+id: GO:7770143
+name: trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: (2S)-2-amino-4-deoxychorismate + H2O = (5S,6S)-6-amino-5-hydroxycyclohexa-1,3-diene-1-carboxylate + pyruvate." [PMID:12741825, RHEA:49456]
+synonym: "(2S)-2-amino-4-deoxychorismate pyruvate-hydrolase activity" RELATED [EC:3.3.2.15]
+synonym: "PhzD activity" RELATED []
+xref: EC:3.3.2.15 {source="skos:exactMatch"}
+xref: MetaCyc:RXN-9030 {source="skos:exactMatch"}
+xref: RHEA:49456 {source="skos:exactMatch"}
+is_a: GO:0016803 ! ether hydrolase activity
+relationship: part_of GO:0002047 ! phenazine biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29865" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-28T16:23:15Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
