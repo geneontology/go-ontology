@@ -333,3 +333,29 @@ C_TYPE(LIT_URI)  C_LABEL(LIT_URI, "\"control with a URI comment\"")  C_BP(LIT_UR
 C_SUB(LIT_URI, CTRL_PARENT)
 ontrdf(LIT_URI, RDFS_COMMENT, "\"http://example.org/not-a-comment\"").
 expected_violation("comment-is-uri", LIT_URI).
+
+// anyuri-not-url and anyuri-trailing-punctuation: the shapes found in #32826.
+// One term per kind of non-URL, since prose and a CURIE fail the pattern for
+// different reasons. CTRL_PARENT carries a well-formed tracker link with a
+// fragment, which must trigger neither.
+#define IAO_TRACKER       "<http://purl.obolibrary.org/obo/IAO_0000233>"
+#define URI_PROSE         "<http://purl.obolibrary.org/obo/GO_0000145>"
+#define URI_CURIE         "<http://purl.obolibrary.org/obo/GO_0000146>"
+#define URI_TRAILING_DOT  "<http://purl.obolibrary.org/obo/GO_0000147>"
+
+ontrdf(CTRL_PARENT, IAO_TRACKER, "\"https://github.com/geneontology/go-ontology/issues/20070#issuecomment-2530547696\"^^<http://www.w3.org/2001/XMLSchema#anyURI>").
+
+C_TYPE(URI_PROSE)  C_LABEL(URI_PROSE, "\"control with prose typed anyURI\"")  C_BP(URI_PROSE)
+C_SUB(URI_PROSE, CTRL_PARENT)
+ontrdf(URI_PROSE, IAO_TRACKER, "\"The reason for obsoletion is that this term represents a GO-CAM model.\"^^<http://www.w3.org/2001/XMLSchema#anyURI>").
+expected_violation("anyuri-not-url", URI_PROSE).
+
+C_TYPE(URI_CURIE)  C_LABEL(URI_CURIE, "\"control with a CURIE typed anyURI\"")  C_BP(URI_CURIE)
+C_SUB(URI_CURIE, CTRL_PARENT)
+ontrdf(URI_CURIE, IAO_TRACKER, "\"GO:0106293\"^^<http://www.w3.org/2001/XMLSchema#anyURI>").
+expected_violation("anyuri-not-url", URI_CURIE).
+
+C_TYPE(URI_TRAILING_DOT)  C_LABEL(URI_TRAILING_DOT, "\"control with a tracker URL ending in a period\"")  C_BP(URI_TRAILING_DOT)
+C_SUB(URI_TRAILING_DOT, CTRL_PARENT)
+ontrdf(URI_TRAILING_DOT, IAO_TRACKER, "\"https://github.com/geneontology/go-ontology/issues/30274.\"^^<http://www.w3.org/2001/XMLSchema#anyURI>").
+expected_violation("anyuri-trailing-punctuation", URI_TRAILING_DOT).
