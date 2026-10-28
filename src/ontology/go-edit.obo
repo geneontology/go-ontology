@@ -153048,6 +153048,7 @@ synonym: "ubiquitin-like conjugating enzyme activity" NARROW []
 synonym: "ubiquitin-like-protein ligase activity" NARROW []
 is_a: GO:0016755 ! aminoacyltransferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016567 ! protein ubiquitination
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24697" xsd:anyURI
 
 [Term]
@@ -405686,6 +405687,7 @@ namespace: molecular_function
 def: "Catalysis of the transfer of Pup from one protein to another via the reaction X-Pup + Y = Y-Pup + X, where both X-Pup and Y-Pup are covalent linkages." [GOC:sp]
 synonym: "Pup conjugating enzyme activity" NARROW [GOC:mah]
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/7617" xsd:anyURI
 created_by: mah
 creation_date: 2010-12-15T11:58:13Z
 
@@ -471303,7 +471305,9 @@ synonym: "PR-ubiquitin transferase activity" EXACT []
 synonym: "PR-ubiquitination activity" EXACT []
 xref: RHEA:91527 {source="skos:narrowMatch"}
 xref: RHEA:91539 {source="skos:narrowMatch"}
-is_a: GO:0004842 ! ubiquitin-protein transferase activity
+is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016567 ! protein ubiquitination
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
 created_by: pg
 creation_date: 2026-10-27T13:53:56Z
@@ -471345,9 +471349,10 @@ creation_date: 2026-10-27T14:17:08Z
 
 [Term]
 id: GO:0140558
-name: phosphoribosyl-ubiquitin peptidase activity
+name: phosphoribosyl-ubiquitin hydrolase activity
 namespace: molecular_function
 def: "Catalysis of the hydrolysis of the phosphodiester bond linking phosphoribosyl-ubiquitin to a serine residue in a target protein, releasing phosphoribosyl-ubiquitin." [PMID:31732457, RHEA:91571]
+synonym: "phosphoribosyl-ubiquitin peptidase activity" RELATED []
 xref: RHEA:91571 {source="skos:exactMatch"}
 is_a: GO:0101005 ! deubiquitinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
