@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-27/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-28/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-27" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-28" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -6894,6 +6894,30 @@
 - [1,2-dehydro-N-acetyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120577) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N-acetyldopamine](http://purl.obolibrary.org/obo/CHEBI_747731) 
 
 
+### 1,2-dehydro-N-beta-alanyldopamine `http://purl.obolibrary.org/obo/CHEBI_747729`
+
+#### Added
+- Class: [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N-beta-alanyldopamine" 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [secondary carboxamide](http://purl.obolibrary.org/obo/CHEBI_140325) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [catechols](http://purl.obolibrary.org/obo/CHEBI_33566) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [primary amino compound](http://purl.obolibrary.org/obo/CHEBI_50994) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [olefinic compound](http://purl.obolibrary.org/obo/CHEBI_78840) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
+
+- [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [beta-alanine](http://purl.obolibrary.org/obo/CHEBI_16958) 
+
+
 ### 1,2-dehydro-N-beta-alanyldopamine biosynthetic process `http://purl.obolibrary.org/obo/GO_0120576`
 #### Removed
 - [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "N-beta-alanyldopamine biosynthesis" 
@@ -6905,49 +6929,25 @@
 
 - [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "NBAD biosynthesis" 
 
-- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730)) 
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730)) 
 
 - [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) 
 
-- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
+- [1,2-dehydro-N-beta-alanyldopamine biosynthetic process](http://purl.obolibrary.org/obo/GO_0120576) SubClassOf [has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
 
 
-### 1,2-dehydro-N‐beta‐alanyldopamine `http://purl.obolibrary.org/obo/CHEBI_747729`
-
-#### Added
-- Class: [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N‐beta‐alanyldopamine" 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [secondary carboxamide](http://purl.obolibrary.org/obo/CHEBI_140325) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [catechols](http://purl.obolibrary.org/obo/CHEBI_33566) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [primary amino compound](http://purl.obolibrary.org/obo/CHEBI_50994) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [olefinic compound](http://purl.obolibrary.org/obo/CHEBI_78840) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
-
-- [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [beta-alanine](http://purl.obolibrary.org/obo/CHEBI_16958) 
-
-
-### 1,2-dehydro-N‐beta‐alanyldopamine(1+) `http://purl.obolibrary.org/obo/CHEBI_747730`
+### 1,2-dehydro-N-beta-alanyldopamine(1+) `http://purl.obolibrary.org/obo/CHEBI_747730`
 
 #### Added
-- Class: [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
+- Class: [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) 
 
-- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+- [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
 
-- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N‐beta‐alanyldopamine(1+)" 
+- [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) [label](http://www.w3.org/2000/01/rdf-schema#label) "1,2-dehydro-N-beta-alanyldopamine(1+)" 
 
-- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) SubClassOf [primary ammonium ion](http://purl.obolibrary.org/obo/CHEBI_65296) 
+- [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) SubClassOf [primary ammonium ion](http://purl.obolibrary.org/obo/CHEBI_65296) 
 
-- [1,2-dehydro-N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [1,2-dehydro-N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) 
+- [1,2-dehydro-N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_747730) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [1,2-dehydro-N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_747729) 
 
 
 ### 1,2-di-O-palmitoyl-sn-glycero-3-phosphocholine `http://purl.obolibrary.org/obo/CHEBI_40265`
@@ -22439,6 +22439,26 @@
 - [ATP-dependent protein-RNA complex displacement activity](http://purl.obolibrary.org/obo/GO_7770106) SubClassOf [ATP-dependent activity, acting on RNA](http://purl.obolibrary.org/obo/GO_0008186) 
 
 
+### ATP-sensitive inward rectifier potassium channel activity `http://purl.obolibrary.org/obo/GO_0015272`
+#### Removed
+- [ATP-sensitive inward rectifier potassium channel activity](http://purl.obolibrary.org/obo/GO_0015272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying voltage-gated channel, where the inward rectification is due to a voltage-dependent block of the channel pore by ATP. An inwardly rectifying current-voltage relation is one where at any given driving force the inward flow of K+ ions exceeds the outward flow for the opposite driving force." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cb" 
+
+- [ATP-sensitive inward rectifier potassium channel activity](http://purl.obolibrary.org/obo/GO_0015272) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-activated inward rectifier potassium channel activity" 
+
+#### Added
+- [ATP-sensitive inward rectifier potassium channel activity](http://purl.obolibrary.org/obo/GO_0015272) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32796"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ATP-sensitive inward rectifier potassium channel activity](http://purl.obolibrary.org/obo/GO_0015272) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying potassium channel whose opening is regulated by the cytoplasmic ATP/ADP ratio: binding of ATP to the pore-forming subunit inhibits channel activity, while Mg-nucleotides (MgADP, MgATP) acting on an associated sulfonylurea receptor subunit stimulate it." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34815345" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41022322" 
+
+- [ATP-sensitive inward rectifier potassium channel activity](http://purl.obolibrary.org/obo/GO_0015272) [label](http://www.w3.org/2000/01/rdf-schema#label) "ATP-sensitive inward rectifier potassium channel activity" 
+
+
 ### ATP-sugar `http://purl.obolibrary.org/obo/CHEBI_20855`
 
 #### Added
@@ -33156,6 +33176,46 @@
 - [N-benzyloxycarbonylglycine](http://purl.obolibrary.org/obo/CHEBI_16532) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### N-beta-alanyldopamine `http://purl.obolibrary.org/obo/CHEBI_125666`
+#### Removed
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-amino-N-[2-(3,4-dihydroxyphenyl)ethyl]propanamide" 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [catechols](http://purl.obolibrary.org/obo/CHEBI_33566) 
+
+#### Added
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-beta-alanyldopamine" 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [catecholamine](http://purl.obolibrary.org/obo/CHEBI_33567) 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) 
+
+- [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [beta-alanine](http://purl.obolibrary.org/obo/CHEBI_16958) 
+
+
+### N-beta-alanyldopamine(1+) `http://purl.obolibrary.org/obo/CHEBI_192799`
+#### Removed
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
+
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-alanyl-dopaminium(1+)" 
+
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) SubClassOf [beta-alanine derivative](http://purl.obolibrary.org/obo/CHEBI_22823) 
+
+#### Added
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
+
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [label](http://www.w3.org/2000/01/rdf-schema#label) "N-beta-alanyldopamine(1+)" 
+
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) SubClassOf [primary ammonium ion](http://purl.obolibrary.org/obo/CHEBI_65296) 
+
+- [N-beta-alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [N-beta-alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) 
+
+
 ### N-butyryl-1-palmitoyl-2-linoleoyl-sn-glycero-3-phosphoethanolamine `http://purl.obolibrary.org/obo/CHEBI_85799`
 
 #### Added
@@ -34537,46 +34597,6 @@
 
 #### Added
 - [Ni(II)-pyridinium-3,5-bisthiocarboxylic acid mononucleotide](http://purl.obolibrary.org/obo/CHEBI_137399) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
-
-
-### N‐beta‐alanyldopamine `http://purl.obolibrary.org/obo/CHEBI_125666`
-#### Removed
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-amino-N-[2-(3,4-dihydroxyphenyl)ethyl]propanamide" 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [catechols](http://purl.obolibrary.org/obo/CHEBI_33566) 
-
-#### Added
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) [label](http://www.w3.org/2000/01/rdf-schema#label) "N‐beta‐alanyldopamine" 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [catecholamine](http://purl.obolibrary.org/obo/CHEBI_33567) 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [RO_0018033](http://purl.obolibrary.org/obo/RO_0018033) some [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) 
-
-- [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) SubClassOf [RO_0018038](http://purl.obolibrary.org/obo/RO_0018038) some [beta-alanine](http://purl.obolibrary.org/obo/CHEBI_16958) 
-
-
-### N‐beta‐alanyldopamine(1+) `http://purl.obolibrary.org/obo/CHEBI_192799`
-#### Removed
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/2_STAR) 
-
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [label](http://www.w3.org/2000/01/rdf-schema#label) "beta-alanyl-dopaminium(1+)" 
-
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) SubClassOf [beta-alanine derivative](http://purl.obolibrary.org/obo/CHEBI_22823) 
-
-#### Added
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [_STAR](http://purl.obolibrary.org/obo/chebi/3_STAR) 
-
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) [label](http://www.w3.org/2000/01/rdf-schema#label) "N‐beta‐alanyldopamine(1+)" 
-
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) SubClassOf [primary ammonium ion](http://purl.obolibrary.org/obo/CHEBI_65296) 
-
-- [N‐beta‐alanyldopamine(1+)](http://purl.obolibrary.org/obo/CHEBI_192799) SubClassOf [RO_0018034](http://purl.obolibrary.org/obo/RO_0018034) some [N‐beta‐alanyldopamine](http://purl.obolibrary.org/obo/CHEBI_125666) 
 
 
 ### O(3)-{beta-D-galactosyl-(1->3)-[N-acetyl-beta-D-glucosaminyl-(1->6)]-N-acetyl-alpha-D-galactosaminyl}-L-threonine residue `http://purl.obolibrary.org/obo/CHEBI_139607`
@@ -70751,6 +70771,18 @@
 - [obsolete NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0030701) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete NAD+-dinitrogen-reductase ADP-D-ribosyltransferase activity" 
 
 
+### obsolete NADH oxidase H202-forming activity `http://purl.obolibrary.org/obo/GO_0106293`
+#### Removed
+- [obsolete NADH oxidase H202-forming activity](http://purl.obolibrary.org/obo/GO_0106293) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "GO:0106293"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+
+### obsolete NADPH oxidase H202-forming activity `http://purl.obolibrary.org/obo/GO_0106294`
+#### Removed
+- [obsolete NADPH oxidase H202-forming activity](http://purl.obolibrary.org/obo/GO_0106294) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "GO:0106293"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+
 ### obsolete UDP-N-acetylgalactosamine metabolic process `http://purl.obolibrary.org/obo/GO_0019276`
 #### Removed
 - [obsolete UDP-N-acetylgalactosamine metabolic process](http://purl.obolibrary.org/obo/GO_0019276) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
@@ -73202,6 +73234,12 @@
 - [obsolete hypoxanthine salvage](http://purl.obolibrary.org/obo/GO_0043103) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete hypoxanthine salvage" 
 
 
+### obsolete inhibition of cysteine-type endopeptidase activity involved in apoptotic process `http://purl.obolibrary.org/obo/GO_1990001`
+#### Removed
+- [obsolete inhibition of cysteine-type endopeptidase activity involved in apoptotic process](http://purl.obolibrary.org/obo/GO_1990001) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that this term represents a GO-CAM model."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+
 ### obsolete inosine salvage `http://purl.obolibrary.org/obo/GO_0006190`
 #### Removed
 - [obsolete inosine salvage](http://purl.obolibrary.org/obo/GO_0006190) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." 
@@ -75080,6 +75118,12 @@
 ### obsolete negative regulation of tatiopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_1900975`
 #### Removed
 - [obsolete negative regulation of tatiopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_1900975) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
+
+
+### obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source `http://purl.obolibrary.org/obo/GO_0061415`
+#### Removed
+- [obsolete negative regulation of transcription from RNA polymerase II promoter by a nonfermentable carbon source](http://purl.obolibrary.org/obo/GO_0061415) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 
@@ -91756,6 +91800,14 @@
 - [suramin](http://purl.obolibrary.org/obo/CHEBI_45906) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### sweat secretion `http://purl.obolibrary.org/obo/GO_0160269`
+#### Removed
+- [sweat secretion](http://purl.obolibrary.org/obo/GO_0160269) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30274."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+#### Added
+- [sweat secretion](http://purl.obolibrary.org/obo/GO_0160269) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/30274"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### sweetening agent `http://purl.obolibrary.org/obo/CHEBI_50505`
 
 #### Added
@@ -95493,6 +95545,31 @@
 - [tyrosyl group](http://purl.obolibrary.org/obo/CHEBI_37898) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### ubiquitin protein ligase activity via oxyester bond `http://purl.obolibrary.org/obo/GO_0140551`
+
+#### Added
+- Class: [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32792"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-27T09:44:22Z" 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140551" 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of ubiquitin to a substrate protein via an oxyester bond between the C-terminal glycine of ubiquitin and the hydroxyl group of serine or threonine residues in the substrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39116872" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37870100" 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin protein ligase activity via oxyester bond" 
+
+- [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) SubClassOf [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) 
+
+
 ### ubiquitin-dependent glycoprotein ERAD pathway `http://purl.obolibrary.org/obo/GO_0097466`
 #### Removed
 - [ubiquitin-dependent glycoprotein ERAD pathway](http://purl.obolibrary.org/obo/GO_0097466) SubClassOf [response to glycoprotein](http://purl.obolibrary.org/obo/GO_1904587) 
@@ -95509,6 +95586,22 @@
 - [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [endosome transport via multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0032509) 
 
 - [ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway](http://purl.obolibrary.org/obo/GO_0043162) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+
+### ubiquitin-protein transferase activity `http://purl.obolibrary.org/obo/GO_0004842`
+#### Removed
+- [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y = Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9635407" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jh2" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BioGRID" 
+
+#### Added
+- [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y = Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9635407" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jh2" 
 
 
 ### ultra-long-chain fatty acid `http://purl.obolibrary.org/obo/CHEBI_143004`
