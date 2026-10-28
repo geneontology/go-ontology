@@ -485803,6 +485803,22 @@ created_by: ew
 creation_date: 2026-10-12T15:29:05Z
 
 [Term]
+id: GO:0170087
+name: drosopterin biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of drosopterins, a family of orange-red pteridine-derived pigments that includes drosopterin, isodrosopterin, aurodrosopterin, isoaurodrosopterin and neodrosopterin. Drosopterins are the red eye pigments of Drosophila and also occur in the integument of other arthropods and of fish, amphibians and reptiles." [PMID:11410150, PMID:22036614, PMID:23436441, PMID:38786926]
+synonym: "drosopterin anabolism" EXACT []
+synonym: "drosopterin biosynthesis" EXACT []
+synonym: "drosopterin formation" EXACT []
+synonym: "drosopterin synthesis" EXACT []
+xref: MetaCyc:PWY-7442 {source="skos:narrowMatch"}
+is_a: GO:0042559 ! pteridine-containing compound biosynthetic process
+is_a: GO:0046148 ! pigment biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32802" xsd:anyURI
+created_by: ew
+creation_date: 2026-10-28T17:46:47Z
+
+[Term]
 id: GO:0180000
 name: histone methyltransferase inhibitor activity
 namespace: molecular_function
