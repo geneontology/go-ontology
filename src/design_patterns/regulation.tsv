@@ -926,7 +926,6 @@ http://purl.obolibrary.org/obo/GO_0140049	regulation of endocardial cushion to m
 http://purl.obolibrary.org/obo/GO_2000800	regulation of endocardial cushion to mesenchymal transition involved in heart valve formation	http://purl.obolibrary.org/obo/GO_0003199	endocardial cushion to mesenchymal transition involved in heart valve formation
 http://purl.obolibrary.org/obo/GO_0044060	regulation of endocrine process	http://purl.obolibrary.org/obo/GO_0050886	endocrine process
 http://purl.obolibrary.org/obo/GO_1900667	regulation of endocrocin biosynthetic process	http://purl.obolibrary.org/obo/GO_1900602	endocrocin biosynthetic process
-http://purl.obolibrary.org/obo/GO_2001135	regulation of endocytic recycling	http://purl.obolibrary.org/obo/GO_0032456	endocytic recycling
 http://purl.obolibrary.org/obo/GO_0030100	regulation of endocytosis	http://purl.obolibrary.org/obo/GO_0006897	endocytosis
 http://purl.obolibrary.org/obo/GO_0032071	regulation of endodeoxyribonuclease activity	http://purl.obolibrary.org/obo/GO_0004520	DNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1903224	regulation of endodermal cell differentiation	http://purl.obolibrary.org/obo/GO_0035987	endodermal cell differentiation
@@ -939,6 +938,7 @@ http://purl.obolibrary.org/obo/GO_1900101	regulation of endoplasmic reticulum un
 http://purl.obolibrary.org/obo/GO_0060699	regulation of endoribonuclease activity	http://purl.obolibrary.org/obo/GO_0004521	RNA endonuclease activity
 http://purl.obolibrary.org/obo/GO_1905364	regulation of endosomal vesicle fusion	http://purl.obolibrary.org/obo/GO_0034058	endosomal vesicle fusion
 http://purl.obolibrary.org/obo/GO_1904978	regulation of endosome organization	http://purl.obolibrary.org/obo/GO_0007032	endosome organization
+http://purl.obolibrary.org/obo/GO_2001135	regulation of endosome to plasma membrane transport	http://purl.obolibrary.org/obo/GO_0032456	endosome to plasma membrane transport
 http://purl.obolibrary.org/obo/GO_2000014	regulation of endosperm development	http://purl.obolibrary.org/obo/GO_0009960	endosperm development
 http://purl.obolibrary.org/obo/GO_1904987	regulation of endothelial cell activation	http://purl.obolibrary.org/obo/GO_0042118	endothelial cell activation
 http://purl.obolibrary.org/obo/GO_2000351	regulation of endothelial cell apoptotic process	http://purl.obolibrary.org/obo/GO_0072577	endothelial cell apoptotic process

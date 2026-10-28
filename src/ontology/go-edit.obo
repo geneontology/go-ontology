@@ -312,26 +312,30 @@ id: GO:0000027
 name: ribosomal large subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the large ribosomal subunit." [GOC:jl, PMID:30467428]
+subset: gocheck_do_not_annotate
 synonym: "50S ribosomal subunit assembly" NARROW [GOC:mah]
 synonym: "60S ribosomal subunit assembly" NARROW [GOC:mah]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0015934 ! large ribosomal subunit
-relationship: part_of GO:0042255 ! ribosome assembly
 relationship: part_of GO:0042273 ! ribosomal large subunit biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0000028
 name: ribosomal small subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form the small ribosomal subunit." [GOC:jl, PMID:30467428]
+subset: gocheck_do_not_annotate
 synonym: "30S ribosomal subunit assembly" NARROW [GOC:mah]
 synonym: "40S ribosomal subunit assembly" NARROW [GOC:mah]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0015935 ! small ribosomal subunit
-relationship: part_of GO:0042255 ! ribosome assembly
 relationship: part_of GO:0042274 ! ribosomal small subunit biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0000030
@@ -6526,23 +6530,29 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0000833
-name: 5-diphosphoinositol pentakisphosphate 4-kinase activity
+name: obsolete 5-diphosphoinositol pentakisphosphate 4-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 4,5-bis(diphospho)-1D-myo-inositol (1,2,3,6)tetrakisphosphate." [GOC:elh, PMID:16429326]
+def: "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 4,5-bis(diphospho)-1D-myo-inositol (1,2,3,6)tetrakisphosphate." [GOC:elh, PMID:16429326]
+comment: This term was obsoleted because it was created by mistake. The 4-kinase position comes from early work on Vip1/PPIP5K, which was later shown to be a 1-kinase.
 synonym: "diphosphoinositol-pentakisphosphate 4-kinase activity" BROAD []
 synonym: "inositol heptakisphosphate 4-kinase activity" BROAD []
 synonym: "IP7 4-kinase activity" EXACT []
-is_a: GO:0000829 ! diphosphoinositol pentakisphosphate kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28385" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0033857
 
 [Term]
 id: GO:0000834
-name: 5-diphosphoinositol pentakisphosphate 6-kinase activity
+name: obsolete 5-diphosphoinositol pentakisphosphate 6-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 5,6-bisdiphosphoinositol-1D-myo-inositol (1,2,3,4)tetrakisphosphate." [GOC:elh, PMID:16429326]
+def: "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,2,3,4,6)pentakisphosphate = ADP + 5,6-bisdiphosphoinositol-1D-myo-inositol (1,2,3,4)tetrakisphosphate." [GOC:elh, PMID:16429326]
+comment: This term was obsoleted because it was created by mistake. The 6-kinase position comes from early work on Vip1/PPIP5K, which was later shown to be a 1-kinase.
 synonym: "inositol heptakisphosphate 6-kinase activity" BROAD []
-is_a: GO:0000829 ! diphosphoinositol pentakisphosphate kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28385" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0033857
 
 [Term]
 id: GO:0000835
@@ -11445,7 +11455,9 @@ synonym: "acrosomal granule" EXACT [GOC:sart]
 synonym: "acrosome" EXACT [GOC:dph]
 xref: Wikipedia:Acrosome
 is_a: GO:0030141 ! secretory granule
+is_a: onlyin:33208 {source="PMID:27194348"}
 relationship: part_of CL:0000019 ! sperm
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 
 [Term]
 id: GO:0001671
@@ -12028,16 +12040,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0001731
-name: formation of translation preinitiation complex
+name: formation of cytoplasmic translation preinitiation complex
 namespace: biological_process
 def: "The joining of the small ribosomal subunit, ternary complex, and mRNA." [GOC:hjd]
 comment: See also the cellular component terms 'eukaryotic 43S preinitiation complex ; GO:0016282', 'eukaryotic 48S initiation complex ; GO:0033290', and their children.
 synonym: "formation of translation pre-initiation complex" EXACT []
+synonym: "formation of translation preinitiation complex" EXACT []
 synonym: "translation preinitiation complex assembly" EXACT []
 is_a: GO:0022618 ! protein-RNA complex assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0070993 ! cytosolic translation preinitiation complex
 relationship: part_of GO:0002183 ! cytoplasmic translational initiation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0001732
@@ -12108,10 +12122,12 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0001736
 name: establishment of planar polarity
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of an epithelium, such that they all orient to similar coordinates." [GOC:dph]
+def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032, PMID:28869926, PMID:34338785]
+comment: When appropriate, Wnt ligands can be annotated to this term.
 synonym: "establishment of planar cell polarity" NARROW []
 is_a: GO:0007164 ! establishment of tissue polarity
-relationship: part_of GO:0001738 ! morphogenesis of a polarized epithelium
+is_a: GO:0048729 ! tissue morphogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0001737
@@ -48974,7 +48990,7 @@ name: ubiquitin-protein transferase activity
 namespace: molecular_function
 alt_id: GO:0004840
 alt_id: GO:0004841
-def: "Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y = Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages." [GOC:BioGRID, GOC:jh2, PMID:9635407]
+def: "Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y = Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages." [GOC:jh2, PMID:9635407]
 synonym: "E2" BROAD []
 synonym: "E3" BROAD []
 synonym: "ubiquitin conjugating enzyme activity" NARROW []
@@ -48985,6 +49001,7 @@ synonym: "ubiquitin-conjugating enzyme activity" NARROW []
 xref: KEGG_REACTION:R03876
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
 relationship: has_participant PR:000035728 ! ubiquitin
+relationship: part_of GO:0016567 ! protein ubiquitination
 
 [Term]
 id: GO:0004843
@@ -49552,11 +49569,12 @@ consider: GO:0042605
 id: GO:0004895
 name: cell adhesion receptor activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the external substrate or to another cell and to initiate intracellular signaling. Cell adhesion receptors include integrins and cadherins." [GOC:BHF-UCL, Wikipedia:Cell_adhesion]
+def: "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the external substrate or to another cell and to initiate intracellular signaling. Cell adhesion receptors include integrins and cadherins." [GOC:BHF-UCL, Wikipedia:Cell_adhesion]
 comment: Reinstated term from obsolete.
 is_a: GO:0038023 ! signaling receptor activity
 is_a: GO:0098631 ! cell adhesion mediator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15237" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0004896
@@ -51211,11 +51229,12 @@ consider: GO:0038023
 id: GO:0005055
 name: laminin receptor activity
 namespace: molecular_function
-def: "Combining with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." [GOC:ai, PMID:2970671]
-comment: Note that this term represents an activity and not a gene product. Consider also annotating to the molecular function terms 'cell adhesion molecule binding ; GO:0050839' and 'receptor binding ; GO:0005102' and the biological process term 'cell adhesion ; GO:0007155'.
+def: "A cell adhesion mediator activity that combines with a laminin, a glycoprotein that constitutes the majority of proteins in the basement membrane, to initiate a change in cell activity." [GOC:ai, PMID:2970671]
+comment: Note that this term represents an activity and not a gene product.
 is_a: GO:0098631 ! cell adhesion mediator activity
 is_a: neverin:4751
 relationship: has_part GO:0043236 ! laminin binding
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0005056
@@ -61607,11 +61626,13 @@ is_obsolete: true
 
 [Term]
 id: GO:0006166
-name: purine ribonucleoside salvage
+name: obsolete purine ribonucleoside salvage
 namespace: biological_process
-def: "Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:26399 ! purine ribonucleoside
+def: "OBSOLETE. Any process which produces a purine nucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106380
 
 [Term]
 id: GO:0006167
@@ -61627,26 +61648,28 @@ intersection_of: has_primary_output CHEBI:456215 ! adenosine 5'-monophosphate(2-
 
 [Term]
 id: GO:0006168
-name: adenine salvage
+name: obsolete adenine salvage
 namespace: biological_process
-def: "Any process that generates adenine, 6-aminopurine, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates adenine, 6-aminopurine, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine salvage pathway" EXACT []
 synonym: "adenine, hypoxanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16708 ! adenine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0044209
 
 [Term]
 id: GO:0006169
-name: adenosine salvage
+name: obsolete adenosine salvage
 namespace: biological_process
-def: "Any process that generates adenosine, adenine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates adenosine, adenine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16335 ! adenosine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31634" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0044209
 
 [Term]
 id: GO:0006170
@@ -61751,29 +61774,35 @@ intersection_of: has_primary_output CHEBI:58115 ! guanosine 5'-monophosphate(2-)
 
 [Term]
 id: GO:0006178
-name: guanine salvage
+name: obsolete guanine salvage
 namespace: biological_process
-def: "Any process that generates guanine, 2-amino-6-hydroxypurine, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates guanine, 2-amino-6-hydroxypurine, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "guanine, xanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16235 ! guanine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032263
 
 [Term]
 id: GO:0006179
-name: guanosine salvage
+name: obsolete guanosine salvage
 namespace: biological_process
-def: "Any process that generates guanosine, guanine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates guanosine, guanine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "guanine, xanthine and their nucleoside salvage" BROAD []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:16750 ! guanosine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032263
 
 [Term]
 id: GO:0006180
-name: deoxyguanosine salvage
+name: obsolete deoxyguanosine salvage
 namespace: biological_process
-def: "Any process that generates deoxyguanosine from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:17172 ! 2'-deoxyguanosine
+def: "OBSOLETE. Any process that generates deoxyguanosine from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106384
 
 [Term]
 id: GO:0006181
@@ -61884,21 +61913,26 @@ is_a: GO:0006188 ! IMP biosynthetic process
 
 [Term]
 id: GO:0006190
-name: inosine salvage
+name: obsolete inosine salvage
 namespace: biological_process
-def: "Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates inosine, hypoxanthine riboside, from derivatives of it without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" RELATED []
 synonym: "guanine, xanthine and their nucleoside salvage" RELATED []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:17596 ! inosine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+consider: GO:0006204
+consider: GO:0032264
 
 [Term]
 id: GO:0006191
-name: deoxyinosine salvage
+name: obsolete deoxyinosine salvage
 namespace: biological_process
-def: "Any process that generates deoxyinosine from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:28997 ! 2'-deoxyinosine
+def: "OBSOLETE. Any process that generates deoxyinosine from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106385
 
 [Term]
 id: GO:0006192
@@ -62936,11 +62970,15 @@ consider: GO:0017108
 
 [Term]
 id: GO:0006287
-name: base-excision repair, gap-filling
+name: obsolete base-excision repair, gap-filling
 namespace: biological_process
-def: "Repair of the damaged strand by the combined action of an apurinic endouclease that degrades a few bases on the damaged strand and a polymerase that synthesizes a 'patch' in the 5' to 3' direction, using the undamaged strand as a template." [ISBN:1550091131]
-is_a: GO:0006259 ! DNA metabolic process
-relationship: part_of GO:0006284 ! base-excision repair
+def: "OBSOLETE. Repair of the damaged strand by the combined action of an apurinic endouclease that degrades a few bases on the damaged strand and a polymerase that synthesizes a 'patch' in the 5' to 3' direction, using the undamaged strand as a template." [ISBN:1550091131]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32760" xsd:anyURI
+is_obsolete: true
+consider: GO:0006284
+consider: GO:7770137
+consider: GO:7770138
 
 [Term]
 id: GO:0006288
@@ -74226,9 +74264,11 @@ def: "The discharge, by sperm, of a single, anterior secretory granule following
 comment: If the release of the acrosome content occurs before the sperm reaches the zona pellucida, consider using premature acrosome loss.
 xref: Wikipedia:Acrosome_reaction
 is_a: GO:0022414 ! reproductive process
+is_a: onlyin:33208 {source="PMID:27194348"}
 relationship: ends_with GO:0060478 ! acrosomal vesicle exocytosis
 relationship: part_of GO:0007338 ! single fertilization
 relationship: starts_with GO:0002078 ! membrane fusion involved in acrosome reaction
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 
 [Term]
 id: GO:0007341
@@ -75379,8 +75419,8 @@ name: R3/R4 cell fate commitment
 namespace: biological_process
 def: "The process in which the R3/R4 photoreceptors commit to their cell fate. R3 and R4 are paired photoreceptors which contribute the outer rhabdomeres." [PMID:3076112, PMID:3937883]
 is_a: GO:0001752 ! compound eye photoreceptor fate commitment
-relationship: part_of GO:0042067 ! establishment of ommatidial planar polarity
 relationship: part_of GO:0048056 ! R3/R4 cell differentiation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0007465
@@ -82985,14 +83025,15 @@ id: GO:0008526
 name: phosphatidylinositol transfer activity
 namespace: molecular_function
 alt_id: GO:0120018
-def: "Removes phosphatidylinositol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of phosphatidylinositol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane phosphatidylinositol transfer activity" NARROW []
 synonym: "intermembrane phosphotidylinositol transfer activity" NARROW []
-synonym: "phosphatidylinositol carrier activity" EXACT []
+synonym: "phosphatidylinositol carrier activity" NARROW []
 synonym: "phosphatidylinositol transporter activity" BROAD []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
 relationship: has_part GO:0035091 ! phosphatidylinositol binding
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T04:22:47Z
 
@@ -101917,10 +101958,8 @@ def: "OBSOLETE. The pathway by which adenine, hypoxanthine and their nucleosides
 comment: This term was made obsolete because it represents multiple processes that are represented elsewhere in the process ontology.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" EXACT []
 is_obsolete: true
-consider: GO:0006168
-consider: GO:0006169
-consider: GO:0006190
-consider: GO:0043103
+consider: GO:0032264
+consider: GO:0044209
 
 [Term]
 id: GO:0010141
@@ -101930,10 +101969,9 @@ def: "OBSOLETE. The pathway by which guanine, xanthine and their nucleoside from
 comment: This term was made obsolete because it represents multiple processes that are represented elsewhere in the process ontology.
 synonym: "guanine, xanthine and their nucleoside salvage" EXACT []
 is_obsolete: true
-consider: GO:0006178
-consider: GO:0006179
-consider: GO:0006190
-consider: GO:0043103
+consider: GO:0032263
+consider: GO:0032264
+consider: GO:0032265
 
 [Term]
 id: GO:0010142
@@ -115162,10 +115200,11 @@ is_a: GO:0005249 ! voltage-gated potassium channel activity
 
 [Term]
 id: GO:0015272
-name: ATP-activated inward rectifier potassium channel activity
+name: ATP-sensitive inward rectifier potassium channel activity
 namespace: molecular_function
-def: "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying voltage-gated channel, where the inward rectification is due to a voltage-dependent block of the channel pore by ATP. An inwardly rectifying current-voltage relation is one where at any given driving force the inward flow of K+ ions exceeds the outward flow for the opposite driving force." [GOC:cb, GOC:mah]
+def: "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying potassium channel whose opening is regulated by the cytoplasmic ATP/ADP ratio: binding of ATP to the pore-forming subunit inhibits channel activity, while Mg-nucleotides (MgADP, MgATP) acting on an associated sulfonylurea receptor subunit stimulate it." [PMID:34815345, PMID:41022322]
 is_a: GO:0005242 ! inward rectifier potassium channel activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32796" xsd:anyURI
 
 [Term]
 id: GO:0015274
@@ -125368,7 +125407,8 @@ name: ommatidial rotation
 namespace: biological_process
 def: "The process in which photoreceptors are arranged in ommatidia in the dorsal and ventral fields to be mirror images. The polarity is established in the imaginal discs concurrently with cell fate specification." [PMID:10725247]
 is_a: GO:0007389 ! pattern specification process
-relationship: part_of GO:0042067 ! establishment of ommatidial planar polarity
+is_a: onlyin:6656
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0016319
@@ -132538,8 +132578,8 @@ replaced_by: GO:0008239
 id: GO:0017089
 name: glycolipid transfer activity
 namespace: molecular_function
-def: "Removes a glycolipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. A glycolipid is a compound usually containing 1-4 linked monosaccharide residues joined by a glycosyl linkage to a lipid." [PMID:30337668]
-synonym: "glycolipid carrier activity" EXACT []
+def: "Enables the transfer of a glycolipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer. A glycolipid is a compound usually containing 1-4 linked monosaccharide residues joined by a glycosyl linkage to a lipid." [PMID:30337668]
+synonym: "glycolipid carrier activity" NARROW []
 synonym: "glycolipid transporter activity" BROAD []
 synonym: "intermembrane glycolipid transfer activity" NARROW []
 synonym: "intermembrane glycolipid transporter activity" NARROW []
@@ -132547,6 +132587,7 @@ intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:33563 ! glycolipid
 relationship: has_part GO:0051861 ! glycolipid binding
 relationship: part_of GO:0046836 {source="GO_REF:0000090"} ! glycolipid transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 
 [Term]
 id: GO:0017090
@@ -137511,10 +137552,12 @@ is_obsolete: true
 
 [Term]
 id: GO:0018422
-name: GDP-mannose:serine-protein mannose-1-phosphotransferase activity
+name: obsolete GDP-mannose:serine-protein mannose-1-phosphotransferase activity
 namespace: molecular_function
-def: "Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." [GOC:mah, PMID:10037765]
-is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
+def: "OBSOLETE. Catalysis of the transfer of mannose-1-phosphate to a serine residue in a protein." [GOC:mah, PMID:10037765]
+comment: This term was obsoleted because there is no enzyme known to catalyze this reaction.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0018423
@@ -154228,12 +154271,13 @@ alt_id: GO:0050430
 alt_id: GO:0051535
 def: "Binding to a syntaxin, a SNAP receptor involved in the docking of vesicles." [ISBN:0198506732]
 is_a: GO:0000149 ! SNARE binding
-is_a: onlyin:2
+is_a: neverin:2
 intersection_of: GO:0005488 ! binding
 intersection_of: has_primary_input PR:000015794 ! syntaxin-2
 intersection_of: has_primary_input PR:000015797 ! syntaxin-5
 intersection_of: has_primary_input PR:000015798 ! syntaxin-6
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31404" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32767" xsd:anyURI
 
 [Term]
 id: GO:0019907
@@ -161645,8 +161689,10 @@ replaced_by: GO:0022804
 id: GO:0022855
 name: protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + glucose(out) = protein histidine + glucose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N(pros)-phospho-L-histidyl-[protein] + D-glucose(out) = D-glucose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33367]
 synonym: "glucose PTS transporter activity" EXACT []
+xref: EC:2.7.1.199 {source="skos:exactMatch"}
+xref: RHEA:33367 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0055056 ! D-glucose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161655,8 +161701,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022856
 name: protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + sorbitol(out) = protein histidine + sorbitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-sorbitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-sorbitol 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:42484]
 synonym: "sorbitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.198 {source="skos:exactMatch"}
+xref: RHEA:42484 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015576 ! sorbitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161731,8 +161779,10 @@ is_obsolete: true
 id: GO:0022869
 name: protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + lactose(out) = protein histidine + lactose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: lactose(out) + N(pros)-phospho-L-histidyl-[protein] = lactose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:42400]
 synonym: "lactose PTS transporter activity" EXACT []
+xref: EC:2.7.1.207 {source="skos:exactMatch"}
+xref: RHEA:42400 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015155 ! lactose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161769,8 +161819,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022872
 name: protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + mannitol(out) = protein histidine + mannitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-mannitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-mannitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33363]
 synonym: "mannitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.197 {source="skos:exactMatch"}
+xref: RHEA:33363 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015575 ! mannitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161779,8 +161831,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022873
 name: protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + maltose(out) = protein histidine + maltose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-maltose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha-maltose 6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49300]
 synonym: "maltose PTS transporter activity" EXACT []
+xref: EC:2.7.1.208 {source="skos:exactMatch"}
+xref: RHEA:49300 {source="skos:exactMatch"}
 is_a: GO:0005363 ! maltose transmembrane transporter activity
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161801,8 +161855,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022875
 name: protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + galactitol(out) = protein histidine + galactitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: galactitol(out) + N(pros)-phospho-L-histidyl-[protein] = galactitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49248]
 synonym: "galactitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.200 {source="skos:exactMatch"}
+xref: RHEA:49248 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015577 ! galactitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161821,8 +161877,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022877
 name: protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + fructose(out) = protein histidine + fructose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-fructose(out) + N(pros)-phospho-L-histidyl-[protein] = D-fructose 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49252]
 synonym: "fructose PTS transporter activity" EXACT []
+xref: EC:2.7.1.202 {source="skos:exactMatch"}
+xref: RHEA:49252 {source="skos:exactMatch"}
 is_a: GO:0005353 ! fructose transmembrane transporter activity
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161845,8 +161903,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022879
 name: protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + trehalose(out) = protein histidine + trehalose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: alpha,alpha-trehalose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha,alpha-trehalose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33371]
 synonym: "trehalose PTS transporter activity" EXACT []
+xref: EC:2.7.1.201 {source="skos:exactMatch"}
+xref: RHEA:33371 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015574 ! trehalose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -172506,7 +172566,7 @@ subset: goslim_pir
 is_a: GO:0032991 ! protein-containing complex
 intersection_of: GO:0032991 ! protein-containing complex
 intersection_of: capable_of_part_of GO:0042147 ! retrograde transport, endosome to Golgi
-relationship: capable_of_part_of GO:0032456 ! endocytic recycling
+relationship: capable_of_part_of GO:0032456 ! endosome to plasma membrane transport
 relationship: part_of GO:0012505 ! endomembrane system
 relationship: part_of GO:0016020 ! membrane
 
@@ -186305,8 +186365,10 @@ id: GO:0032261
 name: purine nucleotide salvage
 namespace: biological_process
 def: "Any process which produces a purine nucleotide from derivatives of it, without de novo synthesis." [GOC:jp]
+synonym: "purine salvage" EXACT []
 intersection_of: GO:0043094 ! metabolic compound salvage
 intersection_of: has_primary_output CHEBI:26395 ! purine nucleotide
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
 
 [Term]
 id: GO:0032262
@@ -188252,10 +188314,12 @@ is_a: GO:0016486 ! peptide hormone processing
 
 [Term]
 id: GO:0032456
-name: endocytic recycling
+name: endosome to plasma membrane transport
 namespace: biological_process
 alt_id: GO:1990126
-def: "The directed movement of membrane-bounded vesicles from endosomes back to the plasma membrane, a trafficking pathway that promotes the recycling of internalized transmembrane proteins." [PMID:16473635, PMID:23563491]
+def: "The directed movement of substances in membrane-bounded vesicles from endosomes to the plasma membrane. This includes endocytic recycling, which returns internalized membrane proteins and lipids to the cell surface, and the delivery of newly synthesized cargo that passes through recycling endosomes en route from the Golgi apparatus to the plasma membrane." [PMID:15040445, PMID:15534004, PMID:16473635, PMID:23563491]
+synonym: "endocytic recycling" NARROW []
+synonym: "endosome to plasma membrane protein transport" NARROW []
 synonym: "retrograde transport of endocytic vesicles" RELATED []
 synonym: "retrograde transport, endosome to plasma membrane" EXACT []
 is_a: GO:0016197 ! endosomal transport
@@ -188263,6 +188327,7 @@ intersection_of: GO:0016192 ! vesicle-mediated transport
 intersection_of: has_target_end_location GO:0005886 ! plasma membrane
 intersection_of: has_target_start_location GO:0005768 ! endosome
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20747" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: sp
 creation_date: 2013-06-18T10:52:50Z
 
@@ -188272,14 +188337,14 @@ name: fast endocytic recycling
 namespace: biological_process
 def: "The directed movement of membrane-bounded vesicles from peripheral endocytic compartments back to the plasma membrane where they are recycled for further rounds of transport." [GOC:ecd, PMID:16473635]
 synonym: "direct endocytic recycling" EXACT []
-is_a: GO:0032456 ! endocytic recycling
+is_a: GO:0032456 ! endosome to plasma membrane transport
 
 [Term]
 id: GO:0032458
 name: slow endocytic recycling
 namespace: biological_process
 def: "The directed movement of membrane-bounded vesicles from deep (non-peripheral) compartments endocytic compartments back to the plasma membrane where they are recycled for further rounds of transport." [GOC:ecd, PMID:16473635]
-is_a: GO:0032456 ! endocytic recycling
+is_a: GO:0032456 ! endosome to plasma membrane transport
 
 [Term]
 id: GO:0032459
@@ -188824,28 +188889,31 @@ is_obsolete: true
 id: GO:0032509
 name: endosome transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from endosomes to lysosomes or vacuoles by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the target compartment." [GOC:mah, PMID:12461556, PMID:16689637]
+def: "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from endosomes into intralumenal vesicles of multivesicular bodies (MVBs), which then fuse with lysosomes or vacuoles, where the cargo proteins are degraded." [GOC:mah, PMID:12461556, PMID:16689637, PMID:17603537]
 synonym: "endosome transport via MVB sorting pathway" EXACT []
+synonym: "multivesicular body sorting pathway" EXACT []
 is_a: GO:0016197 ! endosomal transport
-is_a: GO:0071985 ! multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0032510
 name: endosome to lysosome transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from endosomes to lysosomes by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the lysosome." [GOC:mah, PMID:12461556, PMID:16689637]
+def: "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with lysosomes, where the cargo proteins are degraded." [GOC:mah, PMID:12461556, PMID:16689637]
 synonym: "endosome to lysosome transport via MVB sorting pathway" EXACT []
 is_a: GO:0008333 ! endosome to lysosome transport
 is_a: GO:0032509 ! endosome transport via multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0032511
 name: late endosome to vacuole transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from endosomes to vacuoles by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the vacuole." [GOC:mah, PMID:12461556, PMID:16689637]
+def: "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from late endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with the vacuole, where the cargo proteins are degraded." [GOC:mah, PMID:12461556, PMID:16689637]
 synonym: "endosome to vacuole transport via MVB sorting pathway" EXACT []
 is_a: GO:0032509 ! endosome transport via multivesicular body sorting pathway
 is_a: GO:0045324 ! late endosome to vacuole transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0032515
@@ -196732,8 +196800,6 @@ def: "OBSOLETE. Catalysis of the reaction: ATP + 5-diphospho-1D-myo-inositol (1,
 comment: This term was made obsolete because it represents two reactions, and should be two separate terms.
 synonym: "inositol heptakisphosphate 4-kinase or 6-kinase activity" EXACT []
 is_obsolete: true
-consider: GO:0000833
-consider: GO:0000834
 
 [Term]
 id: GO:0033200
@@ -211502,8 +211568,9 @@ namespace: biological_process
 def: "The aggregation, arrangement and bonding together of proteins and RNA molecules to form a 90S preribosome. The 90S preribosome represents the complex that forms on the primary rRNA transcript before it splits into the small subunit and large subunit portions." [GOC:krc, GOC:mah, GOC:tb]
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0030686 ! 90S preribosome
-relationship: part_of GO:0042256 ! cytosolic ribosome assembly
+relationship: part_of GO:0180025 ! cytosolic small ribosomal subunit assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0034464
@@ -211828,7 +211895,7 @@ def: "The controlled breakdown of the membranes of multivesicular bodies." [GOC:
 synonym: "MVB membrane disassembly" EXACT []
 intersection_of: GO:0022411 ! cellular component disassembly
 intersection_of: results_in_disassembly_of GO:0032585 ! multivesicular body membrane
-relationship: part_of GO:0036257 ! multivesicular body organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0034497
@@ -219644,7 +219711,8 @@ def: "Determination of the site in the cell of an imaginal disc-derived wing at 
 synonym: "prehair localization" RELATED []
 synonym: "wing hair site selection" EXACT []
 is_a: GO:0022606 ! establishment of proximal/distal cell polarity
-relationship: part_of GO:0001737 ! establishment of imaginal disc-derived wing hair orientation
+is_a: onlyin:50557
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0035321
@@ -228604,7 +228672,9 @@ def: "A cone-shaped structure in the head of a spermatozoon, which is formed by 
 comment: See also the fly_anatomy.ontology term 'acroblast ; FBbt:00004947'.
 synonym: "spermatid acroblast" EXACT [GOC:bf]
 is_a: GO:0110165 ! cellular anatomical structure
+is_a: onlyin:33208 {source="PMID:27481842"}
 relationship: part_of GO:0005794 ! Golgi apparatus
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 created_by: bf
 creation_date: 2011-12-14T02:29:05Z
 
@@ -230719,12 +230789,15 @@ creation_date: 2012-05-18T04:26:25Z
 
 [Term]
 id: GO:0036237
-name: acyl-glucuronidase activity
+name: obsolete acyl-glucuronidase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: an acyl-glucuronoside + H2O = an alcohol + D-glucuronate." [GOC:BHF, GOC:vk, PMID:22294686]
+def: "OBSOLETE. Catalysis of the reaction: an acyl-glucuronoside + H2O = an alcohol + D-glucuronate." [GOC:BHF, GOC:vk, PMID:22294686]
+comment: This term was obsoleted because its definition was chemically incorrect.
 synonym: "acyl-glucuronide deglucuronidation activity" NARROW [PMID:22294686]
-is_a: GO:0046574 ! glucuronidase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30698" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0102390
 created_by: bf
 creation_date: 2012-05-18T04:32:25Z
 
@@ -230967,27 +231040,29 @@ creation_date: 2012-06-15T01:08:00Z
 
 [Term]
 id: GO:0036257
-name: multivesicular body organization
+name: obsolete multivesicular body organization
 namespace: biological_process
-def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881]
+def: "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of a multivesicular body. A multivesicular body is a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "MVB organization" EXACT [GOC:bf]
-is_a: GO:0007032 ! endosome organization
-intersection_of: GO:0016043 ! cellular component organization
-intersection_of: results_in_organization_of GO:0005771 ! multivesicular body
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+consider: GO:0032509
 created_by: bf
 creation_date: 2012-06-15T01:09:53Z
 
 [Term]
 id: GO:0036258
-name: multivesicular body assembly
+name: obsolete multivesicular body assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881, PMID:19571114]
+def: "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form a multivesicular body, a type of late endosome in which regions of the limiting endosomal membrane invaginate to form internal vesicles; membrane proteins that enter the internal vesicles are sequestered from the cytoplasm." [GOC:sart, PMID:11566881, PMID:19571114]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "multivesicular body biogenesis" EXACT [PMID:19571114]
 synonym: "MVB biogenesis" EXACT [PMID:19571114]
 synonym: "MVB formation" EXACT [PMID:19571114]
-is_a: GO:0070925 ! organelle assembly
-intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0005771 ! multivesicular body
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+consider: GO:0032509
 created_by: bf
 creation_date: 2012-06-15T01:12:24Z
 
@@ -242664,6 +242739,7 @@ name: ribosome biogenesis
 namespace: biological_process
 alt_id: GO:0007046
 def: "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of ribosome subunits; includes transport to the sites of protein synthesis." [GOC:ma, PMID:26404467, Wikipedia:Ribosome_biogenesis]
+subset: gocheck_do_not_annotate
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -242674,28 +242750,32 @@ subset: goslim_prokaryote
 subset: goslim_prokaryote_ribbon
 synonym: "ribosome biogenesis and assembly" EXACT []
 is_a: GO:0022613 ! ribonucleoprotein complex biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042255
 name: ribosome assembly
 namespace: biological_process
 alt_id: GO:0042257
-def: "The aggregation, arrangement and bonding together of the mature ribosome and of its subunits." [GOC:ma, PMID:30467428]
+def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:ma, PMID:30467428]
+comment: For the joining of the small and large ribosomal subunits, consider instead annotating to 'translational initiation ; GO:0006413' or one of its descendants.
+subset: gocheck_do_not_annotate
 subset: goslim_yeast
-synonym: "ribosomal subunit assembly" NARROW [GOC:mah, GOC:vw]
-is_a: GO:0070925 ! organelle assembly
+synonym: "ribosomal subunit assembly" EXACT [GOC:mah, GOC:vw]
 intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0005840 ! ribosome
+intersection_of: results_in_assembly_of GO:0044391 ! ribosomal subunit
 relationship: part_of GO:0042254 ! ribosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042256
 name: cytosolic ribosome assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of the large and small ribosomal subunits into a functional cytosolic ribosome. Distinct stages of this process take place first in the nucleolus, then in the nucleus and finally in the cytosol." [GOC:ma, PMID:30467428]
-synonym: "mature ribosome assembly" EXACT []
+def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature cytosolic ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:ma, PMID:30467428]
 is_a: GO:0042255 ! ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/11517" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 
 [Term]
 id: GO:0042258
@@ -242843,20 +242923,24 @@ id: GO:0042273
 name: ribosomal large subunit biogenesis
 namespace: biological_process
 def: "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a large ribosomal subunit; includes transport to the sites of protein synthesis." [GOC:jl]
+subset: gocheck_do_not_annotate
 subset: goslim_yeast
 synonym: "ribosomal large subunit biogenesis and assembly" EXACT []
 is_a: GO:0022613 ! ribonucleoprotein complex biogenesis
 relationship: part_of GO:0042254 ! ribosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042274
 name: ribosomal small subunit biogenesis
 namespace: biological_process
 def: "A cellular process that results in the biosynthesis of constituent macromolecules, assembly, and arrangement of constituent parts of a small ribosomal subunit; includes transport to the sites of protein synthesis." [GOC:jl]
+subset: gocheck_do_not_annotate
 subset: goslim_yeast
 synonym: "ribosomal small subunit biogenesis and assembly" EXACT []
 is_a: GO:0022613 ! ribonucleoprotein complex biogenesis
 relationship: part_of GO:0042254 ! ribosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32533" xsd:anyURI
 
 [Term]
 id: GO:0042275
@@ -251173,12 +251257,14 @@ is_obsolete: true
 
 [Term]
 id: GO:0043096
-name: purine nucleobase salvage
+name: obsolete purine nucleobase salvage
 namespace: biological_process
-def: "Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." [GOC:jl]
+def: "OBSOLETE. Any process that generates purine nucleobases, one of the two classes of nitrogen-containing ring compounds found in DNA and RNA, from derivatives of them without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "purine base salvage" EXACT [GOC:curators]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:26386 ! purine nucleobase
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106380
 
 [Term]
 id: GO:0043097
@@ -251190,11 +251276,13 @@ intersection_of: has_primary_output CHEBI:26440 ! pyrimidine nucleoside
 
 [Term]
 id: GO:0043098
-name: purine deoxyribonucleoside salvage
+name: obsolete purine deoxyribonucleoside salvage
 namespace: biological_process
-def: "Any process which produces a purine deoxyribonucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:60173 ! purine deoxyribonucleoside
+def: "OBSOLETE. Any process which produces a purine deoxyribonucleoside from derivatives of it, without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms were created in error.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0106381
 
 [Term]
 id: GO:0043099
@@ -251215,13 +251303,15 @@ intersection_of: has_primary_output CHEBI:26432 ! pyrimidine nucleobase
 
 [Term]
 id: GO:0043101
-name: purine-containing compound salvage
+name: obsolete purine-containing compound salvage
 namespace: biological_process
-def: "Any process that generates a purine-containing compound, any nucleobase, nucleoside, nucleotide or nucleic acid that contains a purine base, from derivatives of them without de novo synthesis." [GOC:jl]
-subset: goslim_pir
+def: "OBSOLETE. Any process that generates a purine-containing compound, any nucleobase, nucleoside, nucleotide or nucleic acid that contains a purine base, from derivatives of them without de novo synthesis." [GOC:jl]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine salvage" RELATED []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032261
 
 [Term]
 id: GO:0043102
@@ -251233,13 +251323,15 @@ intersection_of: has_primary_output CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: GO:0043103
-name: hypoxanthine salvage
+name: obsolete hypoxanthine salvage
 namespace: biological_process
-def: "Any process that generates hypoxanthine, 6-hydroxy purine, from derivatives of it without de novo synthesis." [GOC:jl, ISBN:0198506732]
+def: "OBSOLETE. Any process that generates hypoxanthine, 6-hydroxy purine, from derivatives of it without de novo synthesis." [GOC:jl, ISBN:0198506732]
+comment: The reason for obsoletion is that these terms were created in error.
 synonym: "adenine, hypoxanthine and their nucleoside salvage" NARROW []
 synonym: "guanine, xanthine and their nucleoside salvage" NARROW []
-intersection_of: GO:0043094 ! metabolic compound salvage
-intersection_of: has_primary_output CHEBI:17368 ! hypoxanthine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21578" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032264
 
 [Term]
 id: GO:0043104
@@ -251613,7 +251705,7 @@ id: GO:0043138
 name: 3'-5' DNA helicase activity
 namespace: molecular_function
 alt_id: GO:0043140
-def: "Unwinding a DNA helix in the direction 5' to 3', driven by ATP hydrolysis." [EC:5.6.2.4, GOC:jl]
+def: "Unwinding a DNA helix in the direction 3' to 5', driven by ATP hydrolysis." [EC:5.6.2.4]
 synonym: "3' to 5' DNA helicase activity" EXACT []
 synonym: "ATP-dependent 3' to 5' DNA helicase activity" EXACT []
 synonym: "ATP-dependent 3'-5' DNA helicase activity" EXACT []
@@ -251621,6 +251713,7 @@ xref: EC:5.6.2.4 {source="skos:exactMatch"}
 is_a: GO:0003678 ! DNA helicase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23533" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32831" xsd:anyURI
 
 [Term]
 id: GO:0043139
@@ -251825,7 +251918,8 @@ synonym: "ubiquitin-dependent protein catabolism via the MVB pathway" EXACT []
 synonym: "ubiquitin-dependent protein degradation via the multivesicular body pathway" EXACT []
 is_a: GO:0006511 ! ubiquitin-dependent protein catabolic process
 relationship: has_part GO:0007039 ! protein catabolic process in the vacuole
-relationship: has_part GO:0071985 ! multivesicular body sorting pathway
+relationship: has_part GO:0032509 ! endosome transport via multivesicular body sorting pathway
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 
 [Term]
 id: GO:0043163
@@ -257879,8 +257973,6 @@ synonym: "MpgII" NARROW []
 is_obsolete: true
 consider: GO:0008725
 consider: GO:0043916
-consider: GO:0052821
-consider: GO:0052822
 
 [Term]
 id: GO:0043737
@@ -267576,11 +267668,13 @@ creation_date: 2012-04-26T04:54:11Z
 
 [Term]
 id: GO:0044597
-name: daunorubicin metabolic process
+name: obsolete daunorubicin metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving daunorubicin, a chemotherapeutic of the anthracycline family that is given as a treatment for some types of cancer." [PMID:20837989]
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:64677 ! daunorubicin(1+)
+def: "OBSOLETE. The chemical reactions and pathways involving daunorubicin, a chemotherapeutic of the anthracycline family that is given as a treatment for some types of cancer." [PMID:20837989]
+comment: This term was obsoleted because it is an unnecessary grouping term.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32778" xsd:anyURI
+is_obsolete: true
+consider: GO:0042178
 created_by: jl
 creation_date: 2012-05-01T03:09:51Z
 
@@ -268292,7 +268386,7 @@ name: viral release from host cell by cytolysis
 namespace: biological_process
 alt_id: GO:0019077
 alt_id: GO:0046756
-def: "The dissemination of mature viral particles from a host cell by the rupture of cell membranes and the loss of cytoplasm." [GOC:jl, PMID:26728778]
+def: "The dissemination of mature viral particles from a host cell by the rupture of cell membranes and, if present, the cell wall or S-layer, leading to the loss of cytoplasm." [PMID:24585055, PMID:26728778, PMID:38234448]
 synonym: "cytolysis by virus of host cell" RELATED []
 synonym: "lytic viral life cycle" RELATED []
 synonym: "lytic viral release" EXACT []
@@ -268304,6 +268398,7 @@ is_a: GO:0001897 ! symbiont-mediated cytolysis of host cell
 is_a: GO:0016032 ! viral process
 is_a: GO:0019076 ! viral release from host cell
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18852" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32771" xsd:anyURI
 created_by: jl
 creation_date: 2012-08-01T13:16:39Z
 
@@ -270947,12 +271042,14 @@ synonym: "mitochondrial outer membrane protein import" EXACT []
 synonym: "protein import into mitochondrial outer membrane" EXACT []
 synonym: "protein transport into mitochondrial outer membrane" EXACT []
 is_a: GO:0007008 ! outer mitochondrial membrane organization
-intersection_of: GO:0051204 ! protein insertion into mitochondrial membrane
+is_a: GO:7770058 ! mitochondrial protein import pathway
+intersection_of: GO:0051205 ! protein insertion into membrane
 intersection_of: has_primary_input PR:000000001 ! protein
 intersection_of: has_target_end_location GO:0005741 ! mitochondrial outer membrane
 intersection_of: has_target_start_location GO:0005829 ! cytosol
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29962" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30453" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 
 [Term]
 id: GO:0045041
@@ -273779,7 +273876,8 @@ name: equator specification
 namespace: biological_process
 def: "The formation and development of the equator that forms the boundary between the photoreceptors in the dorsal sector of the eye and those in the ventral sector, dividing the eye into dorsal and ventral halves." [GOC:bf]
 is_a: GO:0048859 ! formation of anatomical boundary
-relationship: part_of GO:0042067 ! establishment of ommatidial planar polarity
+is_a: onlyin:6656
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
 [Term]
 id: GO:0045319
@@ -321603,10 +321701,10 @@ id: GO:0050291
 name: sphingosine N-acyltransferase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: acyl-CoA + sphingosine = CoA + N-acylsphingosine." [EC:2.3.1.24, MetaCyc:SPHINGOSINE-N-ACYLTRANSFERASE-RXN, PMID:12069845]
+comment: Note that sphingosine is not synthesized de novo; it is generated by ceramidase-catalyzed hydrolysis of ceramide, so this activity represents the re-acylation step of the sphingolipid salvage pathway. For the N-acylation of sphinganine in de novo sphingolipid biosynthesis, consider annotating to 'sphinganine N-acyltransferase activity ; GO:7770136'.
 synonym: "acyl-CoA:sphingosine N-acyltransferase activity" RELATED [EC:2.3.1.24]
 synonym: "ceramide synthase activity" EXACT []
 synonym: "ceramide synthetase activity" RELATED [EC:2.3.1.24]
-synonym: "dihydroceramide synthase activity" EXACT []
 synonym: "sphingosine acyltransferase activity" RELATED [EC:2.3.1.24]
 xref: EC:2.3.1.24 {source="skos:exactMatch"}
 xref: MetaCyc:SPHINGOSINE-N-ACYLTRANSFERASE-RXN
@@ -321620,6 +321718,7 @@ xref: RHEA:45284 {source="skos:narrowMatch"}
 xref: RHEA:64044 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32752" xsd:anyURI
 
 [Term]
 id: GO:0050292
@@ -339209,7 +339308,7 @@ def: "Catalysis of the reaction: GTP + 5'-dephospho-RNA = GDP + 5'-phospho-RNA."
 synonym: "GTP-dependent polyribonucleotide kinase activity" EXACT []
 synonym: "GTP-dependent RNA 5'-hydroxyl-kinase activity" EXACT []
 synonym: "GTP-dependent RNA kinase activity" EXACT []
-is_a: GO:0051735 ! GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
+is_a: GO:0051731 ! polynucleotide 5'-hydroxyl-kinase activity
 
 [Term]
 id: GO:0051731
@@ -339250,7 +339349,6 @@ synonym: "DNA kinase activity" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25049" xsd:anyURI
 is_obsolete: true
 consider: GO:0046404
-consider: GO:0051737
 
 [Term]
 id: GO:0051734
@@ -339267,12 +339365,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0051735
-name: GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
+name: obsolete GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GDP + 5'-phosphopolynucleotide. The polynucleotide may be DNA or RNA." [GOC:curators]
+def: "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephosphopolynucleotide = GDP + 5'-phosphopolynucleotide. The polynucleotide may be DNA or RNA." [GOC:curators]
+comment: This term was obsoleted because it is an unnecessary grouping term.
 synonym: "GTP-dependent polynucleotide kinase activity" BROAD []
-is_a: GO:0051731 ! polynucleotide 5'-hydroxyl-kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25049" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0051730
 
 [Term]
 id: GO:0051736
@@ -339289,13 +339390,16 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0051737
-name: GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity
+name: obsolete GTP-dependent polydeoxyribonucleotide 5'-hydroxyl-kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: GTP + 5'-dephospho-DNA = GDP + 5'-phospho-DNA." [PMID:8428918]
+def: "OBSOLETE. Catalysis of the reaction: GTP + 5'-dephospho-DNA = GDP + 5'-phospho-DNA." [PMID:8428918]
+comment: This term was obsoleted because there is no evidence that this activity exists. The enzyme acts on tRNAs.
 synonym: "GTP-dependent DNA 5'-hydroxyl-kinase activity" EXACT []
 synonym: "GTP-dependent DNA kinase activity" EXACT []
 synonym: "GTP-dependent polydeoxyribonucleotide kinase activity" EXACT []
-is_a: GO:0051735 ! GTP-dependent polynucleotide 5'-hydroxyl-kinase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0051730
 
 [Term]
 id: GO:0051738
@@ -349969,14 +350073,17 @@ creation_date: 2011-09-30T12:55:24Z
 
 [Term]
 id: GO:0052769
-name: beta-6-sulfate-N-acetylglucosaminidase activity
+name: obsolete beta-6-sulfate-N-acetylglucosaminidase activity
 namespace: molecular_function
-def: "Catalysis of the glycosidic cleavage of the terminal 2-acetamido-2-deoxy-beta-D-glucopyranoside 6-sulfate (6-SO3-GlcNAc) residue from sulfomucin, a sulfated mucin derivative." [GOC:mengo_curators, PMID:15716424]
+def: "OBSOLETE. Catalysis of the glycosidic cleavage of the terminal 2-acetamido-2-deoxy-beta-D-glucopyranoside 6-sulfate (6-SO3-GlcNAc) residue from sulfomucin, a sulfated mucin derivative." [GOC:mengo_curators, PMID:15716424]
+comment: This term was obsoleted because it corresponds to a specific substrate.
 synonym: "beta-6-SO3-N-acetylglucosaminidase activity" BROAD []
 synonym: "exosulfoglycosidase activity" BROAD []
 synonym: "sulfoglycosidase activity" BROAD []
 synonym: "sulfomucin beta-6-sulfate-N-acetylglucosaminidase activity" EXACT []
-is_a: GO:0004553 ! hydrolase activity, hydrolyzing O-glycosyl compounds
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0016231
 created_by: ai
 creation_date: 2011-09-30T12:55:24Z
 
@@ -350643,26 +350750,32 @@ creation_date: 2011-10-28T01:17:21Z
 
 [Term]
 id: GO:0052821
-name: DNA-7-methyladenine glycosylase activity
+name: obsolete DNA-7-methyladenine glycosylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." [GOC:jl, PMID:16468998]
+def: "OBSOLETE. Catalysis of the reaction: DNA containing 7-methyladenine + H2O = DNA with abasic site + 7-methyladenine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 7-methyladenine and the deoxyribose sugar to remove the 7-methyladenine, leaving an abasic site." [GOC:jl, PMID:16468998]
+comment: This term was obsoleted because it corresponds to a specific substrate of alkylbase DNA N-glycosylase activity ; GO:0003905.
 xref: EC:3.2.2.21 {source="skos:broadMatch"}
-is_a: GO:0003905 ! alkylbase DNA N-glycosylase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0003905
 created_by: ai
 creation_date: 2011-10-28T02:27:39Z
 
 [Term]
 id: GO:0052822
-name: DNA-3-methylguanine glycosylase activity
+name: obsolete DNA-3-methylguanine glycosylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: DNA containing 3-methylguanine + H2O = DNA with abasic site + 3-methylguanine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 3-methylguanine and the deoxyribose sugar to remove the 3-methylguanine, leaving an abasic site." [GOC:elh, PMID:10872450, PMID:9224623]
+def: "OBSOLETE. Catalysis of the reaction: DNA containing 3-methylguanine + H2O = DNA with abasic site + 3-methylguanine. This reaction is the hydrolysis of DNA by cleavage of the N-C1' glycosidic bond between the damaged DNA 3-methylguanine and the deoxyribose sugar to remove the 3-methylguanine, leaving an abasic site." [GOC:elh, PMID:10872450, PMID:9224623]
+comment: This term was obsoleted because it represents a specific substrate of DNA-3-methylbase glycosylase activity ; GO:0043733.
 xref: EC:3.2.2.21 {source="skos:broadMatch"}
-is_a: GO:0043733 ! DNA-3-methylbase glycosylase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24405" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0043733
 created_by: ai
 creation_date: 2011-10-28T02:28:19Z
 
@@ -352551,7 +352664,7 @@ synonym: "endosomal recycling compartment" EXACT [PMID:20820847]
 synonym: "endosome recycling compartment" RELATED [GOC:dph, PMID:12370264]
 synonym: "ERC" RELATED [GOC:dph, PMID:1237064]
 is_a: GO:0005768 ! endosome
-relationship: capable_of_part_of GO:0032456 ! endocytic recycling
+relationship: capable_of_part_of GO:0032456 ! endosome to plasma membrane transport
 
 [Term]
 id: GO:0055038
@@ -354130,8 +354243,6 @@ name: Wnt signaling pathway, planar cell polarity pathway
 namespace: biological_process
 def: "A type of non-canonical Wnt signaling pathway in which Wnt binding to its receptor on the surface of a target cell results in the activation small G proteins such as Rho, Rac, and Cdc42 which, in turn activate effectors, including C-Jun N-terminal kinase (JNK) and Rho kinase (Rok). The signaling ends with change in the transcription of target genes and/or reorganisation of the cytoskeleton." [PMID:11532397, PMID:25349257, PMID:28293032, PMID:37804416]
 synonym: "non-canonical Wnt signaling pathway" RELATED [GOC:bf]
-synonym: "PCP pathway" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
-synonym: "planar cell polarity pathway" EXACT [GOC:cjm]
 synonym: "Wnt receptor signaling pathway, planar cell polarity pathway" EXACT []
 synonym: "Wnt receptor signalling pathway, planar cell polarity pathway" EXACT []
 synonym: "Wnt-activated signaling pathway, planar cell polarity pathway" EXACT [GOC:signaling]
@@ -368846,7 +368957,6 @@ name: obsolete negative regulation of transcription from RNA polymerase II promo
 namespace: biological_process
 def: "OBSOLETE. A transcription regulation process in which the presence of a nonfermentable carbon source leads to a decrease of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." [GOC:dph, PMID:19686338]
 comment: The reason for obsoletion is that this represents a GO-CAM model.
-property_value: term_tracker_item "The reason for obsoletion is that these terms represent GO-CAM models." xsd:anyURI
 is_obsolete: true
 created_by: dph
 creation_date: 2012-01-23T11:33:08Z
@@ -371654,10 +371764,9 @@ creation_date: 2014-11-06T14:04:43Z
 id: GO:0061668
 name: mitochondrial ribosome assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of the mitochondrial ribosome and of its subunits." [GOC:dph]
+def: "The aggregation, arrangement and bonding together of constituent RNAs and proteins to form a mature mitochondrial ribosomal subunit. Does not include the joining of the small and large ribosomal subunits, which occurs during translational initiation." [GOC:dph]
 is_a: GO:0042255 ! ribosome assembly
-intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0005761 ! mitochondrial ribosome
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: dph
 creation_date: 2014-11-07T15:32:20Z
 
@@ -372800,9 +372909,10 @@ creation_date: 2016-04-15T07:12:40Z
 id: GO:0061764
 name: late endosome to lysosome transport via multivesicular body sorting pathway
 namespace: biological_process
-def: "The directed movement of substances from late endosomes to lysosomes by a pathway in which molecules are sorted into multivesicular bodies, which then fuse with the lysosome." [GOC:dph]
+def: "A vesicle-mediated transport process in which transmembrane proteins, typically ubiquitylated, are sorted from late endosomes into intralumenal vesicles of multivesicular bodies, which then fuse with lysosomes, where the cargo proteins are degraded." [GOC:dph]
 is_a: GO:0032510 ! endosome to lysosome transport via multivesicular body sorting pathway
 is_a: GO:1902774 ! late endosome to lysosome transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 created_by: dph
 creation_date: 2016-04-19T09:29:57Z
 
@@ -374604,6 +374714,8 @@ def: "The discharge, by sperm, of a single, anterior secretory granule before th
 comment: If the release of the acrosome content when the sperm reaches to the zona pellucida, consider using acrosome reaction.
 synonym: "spontaneous acrosome loss" EXACT []
 is_a: GO:0022414 ! reproductive process
+is_a: onlyin:33208 {source="PMID:27194348"}
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32664" xsd:anyURI
 created_by: dph
 creation_date: 2017-10-25T17:46:55Z
 
@@ -384791,15 +384903,15 @@ creation_date: 2009-05-29T01:12:55Z
 
 [Term]
 id: GO:0070676
-name: intralumenal vesicle formation
+name: obsolete intralumenal vesicle formation
 namespace: biological_process
-def: "The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." [GOC:jp, PMID:19234443]
+def: "OBSOLETE. The invagination of the endosome membrane and resulting formation of a vesicle within the lumen of the endosome." [GOC:jp, PMID:19234443]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "endosome membrane budding" EXACT [GOC:jp, GOC:mah]
-is_a: GO:0006900 ! vesicle budding from membrane
-relationship: occurs_in GO:0010008 ! endosome membrane
-relationship: part_of GO:0036258 ! multivesicular body assembly
-relationship: results_in_organization_of GO:0005770 ! late endosome
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+consider: GO:0032509
+consider: GO:1990182
 created_by: mah
 creation_date: 2009-05-29T02:02:30Z
 
@@ -399803,13 +399915,14 @@ creation_date: 2010-10-18T03:25:56Z
 
 [Term]
 id: GO:0071971
-name: extracellular exosome assembly
+name: obsolete extracellular exosome assembly
 namespace: biological_process
-def: "The aggregation, arrangement and bonding together of a set of components to form an extracellular vesicular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Exosomes are defined by their size, which generally ranges from 30 nm to 100 nm." [GOC:mah, GOC:tfm, PMID:19442504, PMID:27462458]
+def: "OBSOLETE. The aggregation, arrangement and bonding together of a set of components to form an extracellular vesicular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Exosomes are defined by their size, which generally ranges from 30 nm to 100 nm." [GOC:mah, GOC:tfm, PMID:19442504, PMID:27462458]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "extracellular vesicular exosome assembly" EXACT [GOC:vesicles]
-intersection_of: GO:0022607 ! cellular component assembly
-intersection_of: results_in_assembly_of GO:0070062 ! extracellular exosome
-relationship: part_of GO:0097734 ! extracellular exosome biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1990182
 created_by: mah
 creation_date: 2010-10-18T03:44:18Z
 
@@ -399938,13 +400051,13 @@ creation_date: 2010-10-21T04:49:28Z
 
 [Term]
 id: GO:0071985
-name: multivesicular body sorting pathway
+name: obsolete multivesicular body sorting pathway
 namespace: biological_process
-def: "A vesicle-mediated transport process in which transmembrane proteins are ubiquitylated to facilitate their entry into luminal vesicles of multivesicular bodies (MVBs); upon subsequent fusion of MVBs with lysosomes or vacuoles, the cargo proteins are degraded." [GOC:mah, PMID:17603537]
-is_a: GO:0006810 ! transport
-is_a: GO:0016192 ! vesicle-mediated transport
-relationship: has_part GO:0070676 ! intralumenal vesicle formation
+def: "OBSOLETE. A vesicle-mediated transport process in which transmembrane proteins are ubiquitylated to facilitate their entry into luminal vesicles of multivesicular bodies (MVBs); upon subsequent fusion of MVBs with lysosomes or vacuoles, the cargo proteins are degraded." [GOC:mah, PMID:17603537]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0032509
 created_by: mah
 creation_date: 2010-10-22T12:04:16Z
 
@@ -405590,6 +405703,7 @@ namespace: molecular_function
 def: "Catalysis of the transfer of Pup from one protein to another via the reaction X-Pup + Y = Y-Pup + X, where both X-Pup and Y-Pup are covalent linkages." [GOC:sp]
 synonym: "Pup conjugating enzyme activity" NARROW [GOC:mah]
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/7617" xsd:anyURI
 created_by: mah
 creation_date: 2010-12-15T11:58:13Z
 
@@ -405802,46 +405916,54 @@ creation_date: 2011-01-04T12:50:36Z
 
 [Term]
 id: GO:0072521
-name: purine-containing compound metabolic process
+name: obsolete purine-containing compound metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+def: "OBSOLETE. The chemical reactions and pathways involving a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine and derivative metabolic process" EXACT []
 synonym: "purine-containing compound metabolism" EXACT [GOC:mah]
-is_a: GO:0008152 ! metabolic process
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0006144
+consider: GO:0006163
+consider: GO:0042278
 created_by: mah
 creation_date: 2011-01-04T03:03:59Z
 
 [Term]
 id: GO:0072522
-name: purine-containing compound biosynthetic process
+name: obsolete purine-containing compound biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the formation of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine and derivative biosynthetic process" EXACT []
 synonym: "purine-containing compound anabolism" EXACT [GOC:mah]
 synonym: "purine-containing compound biosynthesis" EXACT [GOC:mah]
 synonym: "purine-containing compound formation" EXACT [GOC:mah]
 synonym: "purine-containing compound synthesis" EXACT [GOC:mah]
-is_a: GO:0009058 ! biosynthetic process
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0006164
+consider: GO:0009113
+consider: GO:0042451
 created_by: mah
 creation_date: 2011-01-04T03:15:29Z
 
 [Term]
 id: GO:0072523
-name: purine-containing compound catabolic process
+name: obsolete purine-containing compound catabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the breakdown of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of a purine-containing compound, i.e. any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine and derivative catabolic process" EXACT []
 synonym: "purine-containing compound breakdown" EXACT [GOC:mah]
 synonym: "purine-containing compound catabolism" EXACT [GOC:mah]
 synonym: "purine-containing compound degradation" EXACT [GOC:mah]
-is_a: GO:0009056 ! catabolic process
-is_a: GO:0034656 ! nucleobase-containing small molecule catabolic process
-intersection_of: GO:0009056 ! catabolic process
-intersection_of: has_primary_input CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0006145
+consider: GO:0006152
+consider: GO:0006195
 created_by: mah
 creation_date: 2011-01-04T03:17:20Z
 
@@ -405935,13 +406057,16 @@ creation_date: 2011-01-04T03:27:51Z
 
 [Term]
 id: GO:0072530
-name: purine-containing compound transmembrane transport
+name: obsolete purine-containing compound transmembrane transport
 namespace: biological_process
-def: "The process in which a purine-containing compound is transported across a membrane. A purine-containing compound is any compound that contains purine or a formal derivative thereof." [GOC:mah]
-comment: Note that this term is not intended for use in annotating lateral movement within membranes.
+def: "OBSOLETE. The process in which a purine-containing compound is transported across a membrane. A purine-containing compound is any compound that contains purine or a formal derivative thereof." [GOC:mah]
+comment: The reason for obsoletion is that these terms are unnecessary grouping terms.
 synonym: "purine-containing compound membrane transport" EXACT []
-intersection_of: GO:0055085 ! transmembrane transport
-intersection_of: has_primary_input CHEBI:26401 ! purines
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32598" xsd:anyURI
+is_obsolete: true
+consider: GO:0015860
+consider: GO:0015865
+consider: GO:1904823
 created_by: mah
 creation_date: 2011-01-05T01:45:14Z
 
@@ -421619,7 +421744,9 @@ creation_date: 2014-03-27T15:17:10Z
 id: GO:0090562
 name: protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N,N'-diacetylchitobiose(out) = protein histidine + N,N'-diacetylchitobiose phosphate(in)." [GOC:am, PMID:10913119]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N,N'-diacetylchitobiose(out) + N(pros)-phospho-L-histidyl-[protein] = diacetylchitobiose-6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:am, PMID:10913119, RHEA:33423]
+xref: EC:2.7.1.196 {source="skos:exactMatch"}
+xref: RHEA:33423 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
 created_by: tb
@@ -431856,15 +431983,18 @@ creation_date: 2016-09-30T10:50:11Z
 
 [Term]
 id: GO:0097734
-name: extracellular exosome biogenesis
+name: obsolete extracellular exosome biogenesis
 namespace: biological_process
-def: "The assembly and secretion of an extracellular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane." [GOC:bf, GOC:PARL, PMID:19442504, PMID:25392495]
+def: "OBSOLETE. The assembly and secretion of an extracellular exosome, a membrane-bounded vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane." [GOC:bf, GOC:PARL, PMID:19442504, PMID:25392495]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "exosome assembly or secretion" EXACT []
 synonym: "exosome biogenesis" EXACT []
 synonym: "exosome production" EXACT []
 synonym: "ILV assembly" RELATED []
 synonym: "intraluminal vesicle assembly" RELATED []
-is_a: GO:0140112 ! extracellular vesicle biogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1990182
 created_by: pr
 creation_date: 2016-10-03T14:35:25Z
 
@@ -433857,26 +433987,27 @@ is_a: GO:0098743 ! cell aggregation
 id: GO:0098631
 name: cell adhesion mediator activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on a cell surface to an adhesion molecule on another cell surface or an external substrate, to mediate adhesion of the cell to the external substrate or to another cell." [GOC:vw, Wikipedia:Cell_adhesion]
+def: "A molecular adaptor activity that links a cell-adhesion protein on a cell surface to an adhesion molecule on another cell surface or an external substrate, to mediate adhesion of the cell to the external substrate or to another cell." [GOC:vw, Wikipedia:Cell_adhesion]
 subset: goslim_generic
 subset: goslim_prokaryote
 synonym: "cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell adhesion" EXACT []
-is_a: GO:0050839 ! cell adhesion molecule binding
-intersection_of: GO:0005488 ! binding
-intersection_of: part_of GO:0007155 ! cell adhesion
+is_a: GO:0030674 ! protein-macromolecule adaptor activity
+relationship: occurs_in GO:0009986 ! cell surface
+relationship: part_of GO:0007155 ! cell adhesion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22959" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098632
 name: cell-cell adhesion mediator activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." [GOC:dos, Wikipedia:Cell_adhesion]
+def: "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular component of a different cell, to mediate adhesion of the cell to another cell." [Wikipedia:Cell_adhesion]
 synonym: "cell-cell adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-cell adhesion" EXACT []
-is_a: GO:0003674 ! molecular_function
-intersection_of: GO:0005515 ! protein binding
-intersection_of: part_of GO:0098609 ! cell-cell adhesion
+is_a: GO:0098631 ! cell adhesion mediator activity
+relationship: part_of GO:0098609 ! cell-cell adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098633
@@ -433892,11 +434023,12 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0098634
 name: cell-matrix adhesion mediator activity
 namespace: molecular_function
-def: "The binding by a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." [Wikipedia:Cell_adhesion]
+def: "A cell adhesion mediator activity that links a cell-adhesion protein on the cell surface to an extracellular matrix component, to mediate adhesion of the cell to the extracellular matrix." [Wikipedia:Cell_adhesion]
 synonym: "cell-matrix adhesion molecule" EXACT []
 synonym: "protein binding involved in cell-matrix adhesion" EXACT []
-intersection_of: GO:0005488 ! binding
-intersection_of: part_of GO:0007160 ! cell-matrix adhesion
+is_a: GO:0098631 ! cell adhesion mediator activity
+relationship: part_of GO:0007160 ! cell-matrix adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32801" xsd:anyURI
 
 [Term]
 id: GO:0098635
@@ -441051,7 +441183,7 @@ id: GO:0099638
 name: obsolete endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. The directed movement of proteins from the endosome to the plasma membrane in transport vesicles." [GOC:dos]
-comment: The reason for obsoletion is that this term unnecessarily specified protein cargo, and no biologically meaningful sibling for non-protein cargo could be justified, so it was merged up into GO:0032456 endocytic recycling.
+comment: The reason for obsoletion is that this term unnecessarily specified protein cargo, so it was merged into GO:0032456 (endosome to plasma membrane transport, formerly endocytic recycling).
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0032456
@@ -455499,7 +455631,6 @@ name: obsolete NADH oxidase H202-forming activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: NADH + H+ + O2 = NAD + hydrogen peroxide (H2O2)." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
-property_value: term_tracker_item "GO:0106293" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0016174
 created_by: hjd
@@ -455511,7 +455642,6 @@ name: obsolete NADPH oxidase H202-forming activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: NADPH + H+ + O2 = NADP + hydrogen peroxide (H2O2)." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
-property_value: term_tracker_item "GO:0106293" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0016174
 created_by: hjd
@@ -458982,10 +459112,11 @@ creation_date: 2017-03-01T16:35:45Z
 id: GO:0120009
 name: intermembrane lipid transfer
 namespace: biological_process
-def: "The transport of lipids between membranes in which a lipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "The nonvesicular transport of lipids between two membranes, in which lipid molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198, PMID:37406299]
 is_a: GO:0006869 ! lipid transport
 is_a: GO:0061024 ! membrane organization
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-16T20:30:42Z
 
@@ -458993,10 +459124,11 @@ creation_date: 2017-03-16T20:30:42Z
 id: GO:0120010
 name: intermembrane phospholipid transfer
 namespace: biological_process
-def: "The transport of phospholipids between membranes in which a phospholipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "The nonvesicular transport of phospholipids between two membranes, in which phospholipid molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198, PMID:37406299]
 intersection_of: GO:0120009 ! intermembrane lipid transfer
 intersection_of: has_primary_input CHEBI:16247 ! phospholipid
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-16T20:56:03Z
 
@@ -459004,10 +459136,11 @@ creation_date: 2017-03-16T20:56:03Z
 id: GO:0120011
 name: intermembrane sterol transfer
 namespace: biological_process
-def: "The transport of sterols between membranes in which a sterol molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "The nonvesicular transport of sterols between two membranes, in which sterol molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198, PMID:37406299]
 intersection_of: GO:0120009 ! intermembrane lipid transfer
 intersection_of: has_primary_input CHEBI:15889 ! sterol
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-16T22:15:40Z
 
@@ -459015,10 +459148,11 @@ creation_date: 2017-03-16T22:15:40Z
 id: GO:0120012
 name: intermembrane sphingolipid transfer
 namespace: biological_process
-def: "The transport of sphingolipids between membranes in which a sphingolipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "The nonvesicular transport of sphingolipids between two membranes, in which sphingolipid molecules are moved from a donor membrane to an acceptor membrane. This process can occur spontaneously, by diffusion of lipid monomers through the aqueous phase, or be mediated by lipid transfer proteins (LTPs) that shield the lipid from the aqueous phase, either by shuttling it between the membranes or by forming a bridge that spans them." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198, PMID:37406299]
 intersection_of: GO:0120009 ! intermembrane lipid transfer
 intersection_of: has_primary_input CHEBI:26739 ! sphingolipid
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-16T22:20:45Z
 
@@ -459026,15 +459160,15 @@ creation_date: 2017-03-16T22:20:45Z
 id: GO:0120013
 name: lipid transfer activity
 namespace: molecular_function
-def: "Removes a lipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. This results in intermembrane transfer of lipids." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of a lipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198, PMID:37406299]
+comment: This term covers lipid transfer by any mechanism. Annotate to the mechanism-specific children GO:7770133 shuttle-mediated intermembrane lipid transfer activity or GO:7770132 bridge-mediated intermembrane lipid transfer activity only when there is evidence for the mechanism; lipid transfer assays alone support annotation to this term or to its lipid-specific children.
 synonym: "intermembrane lipid transfer activity" EXACT []
-synonym: "lipid carrier activity" BROAD []
 is_a: GO:0005215 ! transporter activity
-is_a: GO:0005319 ! lipid carrier activity
 relationship: part_of GO:0120009 ! intermembrane lipid transfer
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17648" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31454" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T03:17:29Z
 
@@ -459042,14 +459176,15 @@ creation_date: 2017-03-17T03:17:29Z
 id: GO:0120014
 name: phospholipid transfer activity
 namespace: molecular_function
-def: "Removes a phospholipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of a phospholipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane phospholipid transfer activity" NARROW []
-synonym: "phospholipid carrier activity" EXACT []
+synonym: "phospholipid carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:16247 ! phospholipid
 relationship: has_part GO:0005543 ! phospholipid binding
 relationship: part_of GO:0015914 ! phospholipid transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T03:34:17Z
 
@@ -459057,14 +459192,15 @@ creation_date: 2017-03-17T03:34:17Z
 id: GO:0120015
 name: sterol transfer activity
 namespace: molecular_function
-def: "Removes a sterol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of a sterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane sterol transfer activity" NARROW []
-synonym: "sterol carrier activity" EXACT []
+synonym: "sterol carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:15889 ! sterol
 relationship: has_part GO:0032934 ! sterol binding
 relationship: part_of GO:0015918 ! sterol transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T03:46:28Z
 
@@ -459072,13 +459208,14 @@ creation_date: 2017-03-17T03:46:28Z
 id: GO:0120016
 name: sphingolipid transfer activity
 namespace: molecular_function
-def: "Removes a sphingolipid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of a sphingolipid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane sphingolipid transfer activity" NARROW []
 synonym: "sphingolipid carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:26739 ! sphingolipid
 relationship: has_part GO:0046625 ! sphingolipid binding
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T03:52:30Z
 
@@ -459087,14 +459224,15 @@ id: GO:0120017
 name: ceramide transfer activity
 namespace: molecular_function
 alt_id: GO:0035620
-def: "Removes a ceramide from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
-synonym: "ceramide carrier activity" EXACT []
+def: "Enables the transfer of a ceramide from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+synonym: "ceramide carrier activity" NARROW []
 synonym: "ceramide transporter activity" BROAD []
 synonym: "intermembrane ceramide transfer activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:17761 ! ceramide
 relationship: has_part GO:0097001 ! ceramide binding
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2010-12-08T12:32:50Z
 
@@ -459102,13 +459240,14 @@ creation_date: 2010-12-08T12:32:50Z
 id: GO:0120019
 name: phosphatidylcholine transfer activity
 namespace: molecular_function
-def: "Removes phosphatidylcholine from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of phosphatidylcholine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane phosphatidylcholine transfer activity" NARROW []
-synonym: "phosphatidylcholine carrier activity" EXACT []
+synonym: "phosphatidylcholine carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:64482 ! phosphatidylcholine
 relationship: has_part GO:0031210 ! phosphatidylcholine binding
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T04:22:47Z
 
@@ -459117,8 +459256,8 @@ id: GO:0120020
 name: cholesterol transfer activity
 namespace: molecular_function
 alt_id: GO:0017127
-def: "Removes cholesterol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
-synonym: "cholesterol carrier activity" EXACT []
+def: "Enables the transfer of cholesterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+synonym: "cholesterol carrier activity" NARROW []
 synonym: "cholesterol transporter activity" BROAD []
 synonym: "intermembrane cholesterol transfer activity" NARROW []
 is_a: neverin:4751
@@ -459127,6 +459266,7 @@ intersection_of: has_primary_input CHEBI:16113 ! cholesterol
 relationship: has_part GO:0015485 ! cholesterol binding
 relationship: part_of GO:0015918 ! sterol transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T04:46:12Z
 
@@ -459134,13 +459274,14 @@ creation_date: 2017-03-17T04:46:12Z
 id: GO:0120021
 name: oxysterol transfer activity
 namespace: molecular_function
-def: "Removes oxysterol from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
+def: "Enables the transfer of oxysterol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:krc, PMID:20823909, PMID:24220498, PMID:25797198]
 synonym: "intermembrane oxysterol transfer activity" NARROW []
-synonym: "oxysterol carrier activity" EXACT []
+synonym: "oxysterol carrier activity" NARROW []
 intersection_of: GO:0120015 ! sterol transfer activity
 intersection_of: has_primary_input CHEBI:53030 ! oxysterol
 relationship: has_part GO:0008142 ! oxysterol binding
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/12329" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: krc
 creation_date: 2017-03-17T04:50:30Z
 
@@ -464253,10 +464394,12 @@ id: GO:0120576
 name: 1,2-dehydro-N-beta-alanyldopamine biosynthetic process
 namespace: biological_process
 def: "The chemical reactions and pathways resulting in the formation of 1,2-dehydro-N-beta-alanyldopamine via N-beta-alanyldopamine (NBAD). In insects, these sclerotizing precursors are involved in the cross-linking of cuticular proteins hardening (sclerotizing) and pigmenting the cuticle." [PMID:19932179, PMID:32709620]
-synonym: "N-beta-alanyldopamine biosynthesis" NARROW []
-synonym: "NBAD biosynthesis" NARROW []
+synonym: "N-beta-alanyldopamine biosynthesis" RELATED []
+synonym: "NBAD biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: has_primary_output CHEBI:747730 ! 1,2-dehydro-N-beta-alanyldopamine(1+)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:35Z
@@ -464266,10 +464409,12 @@ id: GO:0120577
 name: 1,2-dehydro-N-acetyldopamine biosynthetic process
 namespace: biological_process
 def: "The chemical reactions and pathways resulting in the formation of 1,2-dehydro-N-acetyldopamine via N-acetyldopamine (NADA). In insects, these sclerotizing precursors are involved in the cross-linking of cuticular proteins hardening (sclerotizing) and pigmenting the cuticle." [PMID:19932179, PMID:32709620]
-synonym: "N-acetyldopamine biosynthesis" NARROW []
-synonym: "NADA biosynthesis" NARROW []
+synonym: "N-acetyldopamine biosynthesis" RELATED []
+synonym: "NADA biosynthesis" RELATED []
 is_a: GO:0046148 ! pigment biosynthetic process
 is_a: onlyin:50557 {source="PMID:19932179", source="PMID:32709620"}
+intersection_of: GO:0009058 ! biosynthetic process
+intersection_of: has_primary_output CHEBI:747731 ! 1,2-dehydro-N-acetyldopamine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32029" xsd:anyURI
 created_by: sjm
 creation_date: 2026-05-07T08:02:58Z
@@ -465609,23 +465754,30 @@ creation_date: 2017-10-20T13:57:38Z
 
 [Term]
 id: GO:0140112
-name: extracellular vesicle biogenesis
+name: obsolete extracellular vesicle biogenesis
 namespace: biological_process
-def: "The assembly and secretion of a set of components to form an extracellular vesicle, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." [PMID:28736435]
+def: "OBSOLETE. The assembly and secretion of a set of components to form an extracellular vesicle, a membrane-bounded vesicle that is released into the extracellular region. Extracellular vesicles include exosomes, microvesicles and apoptotic bodies, based on the mechanism by which they are released from cells and differentiated based on their size and content." [PMID:28736435]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "extracellular vesicle assembly" EXACT []
-is_a: GO:0044085 ! cellular component biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14256" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:0006900
+consider: GO:1990182
 created_by: pg
 creation_date: 2017-10-23T11:53:42Z
 
 [Term]
 id: GO:0140113
-name: extracellular microvesicle biogenesis
+name: obsolete extracellular microvesicle biogenesis
 namespace: biological_process
-def: "The assembly and secretion of a set of components to form an extracellular microvesicle, a membrane-bounded vesicle that ranges from 100 nm to 1 micron in size and exits the cell by budding." [PMID:28736435]
+def: "OBSOLETE. The assembly and secretion of a set of components to form an extracellular microvesicle, a membrane-bounded vesicle that ranges from 100 nm to 1 micron in size and exits the cell by budding." [PMID:28736435]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "extracellular microvesicle assembly" RELATED []
-is_a: GO:0140112 ! extracellular vesicle biogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14256" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:0006900
 created_by: pg
 creation_date: 2017-10-23T12:00:11Z
 
@@ -468407,14 +468559,15 @@ creation_date: 2019-05-10T13:46:34Z
 id: GO:0140332
 name: lipopolysaccharide transfer activity
 namespace: molecular_function
-def: "Removes a lipopolysaccharide (LPS) from the outer leaflet of a donor membrane, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to the outer leaflet of an acceptor membrane." [PMID:24639492]
+def: "Enables the transfer of a lipopolysaccharide (LPS) from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:24639492]
 synonym: "intermembrane lipopolysaccharide transfer activity" EXACT []
 synonym: "intermembrane lipopolysaccharide transporter activity" EXACT []
 synonym: "intermembrane LPS transporter activity" EXACT []
-synonym: "lipopolysaccharide carrier activity" EXACT []
+synonym: "lipopolysaccharide carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:16412 ! lipopolysaccharide
 relationship: part_of GO:0015920 ! lipopolysaccharide transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-13T08:17:35Z
 
@@ -468475,10 +468628,11 @@ creation_date: 2025-11-11T15:59:09Z
 id: GO:0140337
 name: diacylglyceride transfer activity
 namespace: molecular_function
-def: "Directly binding to diacylglyceride and delivering it either to an acceptor molecule or to a specific location." [PMID:9132017]
-synonym: "diacylglyceride carrier activity" EXACT []
+def: "Enables the transfer of diacylglyceride from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
+synonym: "diacylglyceride carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:18035 ! diglyceride
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-16T11:28:08Z
 
@@ -468487,12 +468641,13 @@ id: GO:0140338
 name: sphingomyelin transfer activity
 namespace: molecular_function
 alt_id: GO:0010175
-def: "Removes a sphingomyelin from the outer leaflet of a donor membrane, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to the outer leaflet of an acceptor membrane." [PMID:9132017]
-synonym: "sphingomyelin carrier activity" EXACT []
+def: "Enables the transfer of a sphingomyelin from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
+synonym: "sphingomyelin carrier activity" NARROW []
 synonym: "sphingosine transmembrane transporter activity" BROAD []
 is_a: GO:0120013 ! lipid transfer activity
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:64583 ! sphingomyelin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-16T11:31:58Z
 
@@ -468500,10 +468655,11 @@ creation_date: 2019-05-16T11:31:58Z
 id: GO:0140339
 name: phosphatidylglycerol transfer activity
 namespace: molecular_function
-def: "Directly binding to phosphatidylglycerol and delivering it either to an acceptor molecule or to a specific location." [PMID:9132017]
-synonym: "phosphatidylglycerol carrier activity" EXACT []
+def: "Enables the transfer of phosphatidylglycerol from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
+synonym: "phosphatidylglycerol carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:60523 ! phosphatidylglycerol(1-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-16T11:34:45Z
 
@@ -468511,10 +468667,11 @@ creation_date: 2019-05-16T11:34:45Z
 id: GO:0140340
 name: cerebroside transfer activity
 namespace: molecular_function
-def: "Directly binding to a cerebroside and delivering it either to an acceptor molecule or to a specific location." [PMID:9132017]
-synonym: "cerebroside carrier activity" EXACT []
+def: "Enables the transfer of a cerebroside from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:9132017]
+synonym: "cerebroside carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:23079 ! cerebroside
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-16T11:37:31Z
 
@@ -468546,10 +468703,11 @@ creation_date: 2025-11-20T10:56:34Z
 id: GO:0140343
 name: phosphatidylserine transfer activity
 namespace: molecular_function
-def: "Removes phosphatidylserine from the outer leaflet of a donor membrane, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to the outer leaflet of an acceptor membrane." [PMID:26206935]
+def: "Enables the transfer of phosphatidylserine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:26206935]
 synonym: "intermembrane phosphatidylserine carrier activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57262 ! 3-sn-phosphatidyl-L-serine(1-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-16T11:46:19Z
 
@@ -468557,11 +468715,12 @@ creation_date: 2019-05-16T11:46:19Z
 id: GO:0140344
 name: triglyceride transfer activity
 namespace: molecular_function
-def: "Directly binding to a triglyceride and delivering it either to an acceptor molecule or to a specific location." [PMID:23475612]
-synonym: "triglyceride carrier activity" EXACT []
+def: "Enables the transfer of a triglyceride from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [PMID:23475612]
+synonym: "triglyceride carrier activity" NARROW []
 is_a: GO:0120013 ! lipid transfer activity
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:17855 ! triglyceride
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: pg
 creation_date: 2019-05-16T11:53:59Z
 
@@ -470053,7 +470212,6 @@ synonym: "chromatin-protein adaptor" EXACT []
 synonym: "protein-chromatin adaptor activity" EXACT []
 is_a: GO:0030674 ! protein-macromolecule adaptor activity
 relationship: has_part GO:0003682 ! chromatin binding
-relationship: has_part GO:0005515 ! protein binding
 relationship: part_of GO:0006325 ! chromatin organization
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17064" xsd:anyURI
 created_by: pg
@@ -470746,6 +470904,26 @@ created_by: pg
 creation_date: 2026-10-12T05:48:51Z
 
 [Term]
+id: GO:0140520
+name: K6-linked deubiquitinase activity
+namespace: molecular_function
+def: "Hydrolysis of a ubiquitin unit from a ubiquitinated protein linked via the Lys6 residue of ubiquitin." [PMID:33185526]
+is_a: GO:0101005 ! deubiquitinase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32786" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-21T10:43:01Z
+
+[Term]
+id: GO:0140521
+name: K33-linked deubiquitinase activity
+namespace: molecular_function
+def: "Hydrolysis of a ubiquitin unit from a ubiquitinated protein linked via the Lys33 residue of ubiquitin." [PMID:33185526]
+is_a: GO:0101005 ! deubiquitinase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32786" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-21T10:44:22Z
+
+[Term]
 id: GO:0140522
 name: fusogenic activity
 namespace: molecular_function
@@ -470768,6 +470946,17 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31789" xsd:anyURI
 created_by: pg
 creation_date: 2020-09-24T09:49:40Z
+
+[Term]
+id: GO:0140524
+name: tectorial membrane
+namespace: cellular_component
+def: "An acellular extracellular matrix that overlies the cochlear neuroepithelium and contacts the stereocilia bundles of outer hair cells. It consists of radially oriented bundles of collagen fibrils (types II, IX and XI) embedded in a striated-sheet matrix of non-collagenous glycoproteins, including alpha-tectorin, beta-tectorin, CEACAM16, otogelin and otogelin-like. It couples sound-induced mechanical stimulation to stereocilia deflection." [PMID:40901670]
+comment: Note that this term has no relationship to 'membrane ; GO:0016020' because the tectorial membrane is not a lipid bilayer.
+is_a: GO:0140047 ! specialized extracellular matrix
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32724" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-12T07:05:59Z
 
 [Term]
 id: GO:0140525
@@ -471092,6 +471281,16 @@ created_by: pg
 creation_date: 2020-11-12T13:01:17Z
 
 [Term]
+id: GO:0140551
+name: ubiquitin protein ligase activity via oxyester bond
+namespace: molecular_function
+def: "Catalysis of the transfer of ubiquitin to a substrate protein via an oxyester bond between the C-terminal glycine of ubiquitin and the hydroxyl group of serine or threonine residues in the substrate." [PMID:37870100, PMID:39116872]
+is_a: GO:0004842 ! ubiquitin-protein transferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32792" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T09:44:22Z
+
+[Term]
 id: GO:0140552
 name: TEAD-YAP complex
 namespace: cellular_component
@@ -471111,6 +471310,72 @@ is_a: GO:0090575 ! RNA polymerase II transcription regulator complex
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/9300" xsd:anyURI
 created_by: pg
 creation_date: 2020-11-17T07:05:23Z
+
+[Term]
+id: GO:0140553
+name: phosphoribosyl-ubiquitin transferase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of phosphoribosyl-ubiquitin (PR-ubiquitin), generated by cleavage of ADP-ribosylated ubiquitin, to a substrate protein, linking the phosphoribosyl group to the hydroxyl group of a serine residue in the substrate." [PMID:29795347]
+synonym: "phosphoribosyl-linked serine ubiquitination activity" EXACT []
+synonym: "PR-ubiquitin transferase activity" EXACT []
+synonym: "PR-ubiquitination activity" EXACT []
+xref: RHEA:91527 {source="skos:narrowMatch"}
+xref: RHEA:91539 {source="skos:narrowMatch"}
+is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016567 ! protein ubiquitination
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T13:53:56Z
+
+[Term]
+id: GO:0140555
+name: 3-phosphoglycerate adenylyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: 3-phosphoglycerate + ATP = 2-AMP-3-phosphoglycerate + diphosphate." [PMID:42497854, RHEA:90475]
+xref: RHEA:90475 {source="skos:exactMatch"}
+is_a: GO:0070566 ! adenylyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:01:51Z
+
+[Term]
+id: GO:0140556
+name: phosphoribosyl-ubiquitin adenylyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: ubiquitin-phosphoribosyl-L-arginyl-[protein] + ATP = ubiquitin-ADP-D-ribosyl-L-arginyl-[protein] + diphosphate." [PMID:38776962, RHEA:91547]
+xref: RHEA:91547 {source="skos:exactMatch"}
+is_a: GO:0070566 ! adenylyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:07:21Z
+
+[Term]
+id: GO:0140557
+name: phosphoryl-AMPylase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: ATP + phosphoprotein = diphosphate + adenylyl-phosphoprotein; mediates the addition of an adenylyl (adenosine 5'-monophosphate; AMP group) to a phosphoserine, a phosphothreonine, or a phosphotyrosine residue in a target protein." [PMID:38776962]
+xref: RHEA:91551 {source="skos:narrowMatch"}
+xref: RHEA:91555 {source="skos:narrowMatch"}
+xref: RHEA:91560 {source="skos:narrowMatch"}
+is_a: GO:0070733 ! AMPylase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:17:08Z
+
+[Term]
+id: GO:0140558
+name: phosphoribosyl-ubiquitin hydrolase activity
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of the phosphodiester bond linking phosphoribosyl-ubiquitin to a serine residue in a target protein, releasing phosphoribosyl-ubiquitin." [PMID:31732457, RHEA:91571]
+synonym: "phosphoribosyl-ubiquitin peptidase activity" RELATED []
+xref: RHEA:91571 {source="skos:exactMatch"}
+is_a: GO:0008081 ! phosphoric diester hydrolase activity
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016579 ! protein deubiquitination
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:21:06Z
 
 [Term]
 id: GO:0140560
@@ -471874,14 +472139,16 @@ creation_date: 2021-03-25T09:53:57Z
 
 [Term]
 id: GO:0140630
-name: all-trans-phytoene synthase activity
+name: obsolete all-trans-phytoene synthase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." [PMID:12641468, PMID:7896759]
+def: "OBSOLETE. Catalysis of the reaction: 2 geranylgeranyl diphosphate = all-trans-phytoene + 2 diphosphate." [PMID:12641468, PMID:7896759]
+comment: This term was obsoleted because the corresponding RHEA reaction was obsoleted.
 synonym: "phytoene synthase activity" BROAD []
-is_a: GO:0016462 ! pyrophosphatase activity
-relationship: part_of GO:0016117 ! carotenoid biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21165" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30815" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31862" xsd:anyURI
+is_obsolete: true
+consider: GO:0046905
 created_by: pg
 creation_date: 2021-03-25T18:04:01Z
 
@@ -473276,7 +473543,7 @@ creation_date: 2021-11-30T06:13:31Z
 
 [Term]
 id: GO:0140740
-name: ADP-riboxanase-[protein] activity
+name: arginine-[protein] ADP-riboxanase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: L-arginyl-[protein] + NAD+ = ADP-riboxanated L-argininyl-[protein] + H+ + NH4+ + nicotinamide." [PMID:34671164, RHEA:69500]
 comment: Note that this activity has two steps: a transfer of an ADP-ribose group, followed by the elimination of an ammonia group.
@@ -484002,7 +484269,7 @@ synonym: "sweating" EXACT []
 is_a: GO:0007589 ! body fluid secretion
 is_a: GO:0032941 ! secretion by tissue
 is_a: onlyin:40674
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30274." xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30274" xsd:anyURI
 created_by: rynl
 creation_date: 2025-05-19T20:55:14Z
 
@@ -485536,6 +485803,22 @@ created_by: ew
 creation_date: 2026-10-12T15:29:05Z
 
 [Term]
+id: GO:0170087
+name: drosopterin biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of drosopterins, a family of orange-red pteridine-derived pigments that includes drosopterin, isodrosopterin, aurodrosopterin, isoaurodrosopterin and neodrosopterin. Drosopterins are the red eye pigments of Drosophila and also occur in the integument of other arthropods and of fish, amphibians and reptiles." [PMID:34403644]
+synonym: "drosopterin anabolism" EXACT []
+synonym: "drosopterin biosynthesis" EXACT []
+synonym: "drosopterin formation" EXACT []
+synonym: "drosopterin synthesis" EXACT []
+xref: MetaCyc:PWY-7442 {source="skos:narrowMatch"}
+is_a: GO:0042559 ! pteridine-containing compound biosynthetic process
+is_a: GO:0046148 ! pigment biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32802" xsd:anyURI
+created_by: ew
+creation_date: 2026-10-28T17:46:47Z
+
+[Term]
 id: GO:0180000
 name: histone methyltransferase inhibitor activity
 namespace: molecular_function
@@ -485828,10 +486111,11 @@ id: GO:0180023
 name: cytosolic large ribosomal subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a cytosolic large ribosomal subunit." [PMID:30467428]
+is_a: GO:0042256 ! cytosolic ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0022625 ! cytosolic large ribosomal subunit
-relationship: part_of GO:0042256 ! cytosolic ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: vw
 creation_date: 2023-11-03T16:06:38Z
 
@@ -485850,11 +486134,11 @@ id: GO:0180025
 name: cytosolic small ribosomal subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a cytosolic small ribosomal subunit." [PMID:30467428]
-is_a: GO:0000028 ! ribosomal small subunit assembly
+is_a: GO:0042256 ! cytosolic ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0022627 ! cytosolic small ribosomal subunit
-relationship: part_of GO:0042256 ! cytosolic ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: vw
 creation_date: 2023-11-03T16:22:03Z
 
@@ -485863,11 +486147,11 @@ id: GO:0180026
 name: mitochondrial small ribosomal subunit assembly
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a mitochondrial small ribosomal subunit." [PMID:30467428]
-is_a: GO:0000028 ! ribosomal small subunit assembly
+is_a: GO:0061668 ! mitochondrial ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0005763 ! mitochondrial small ribosomal subunit
-relationship: part_of GO:0061668 ! mitochondrial ribosome assembly
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23886" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: vw
 creation_date: 2023-11-03T16:24:18Z
 
@@ -508250,7 +508534,7 @@ def: "Any process that modulates the frequency, rate or extent of formation of t
 synonym: "regulation of formation of translation pre-initiation complex" EXACT [GOC:TermGenie]
 synonym: "regulation of translation preinitiation complex assembly" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0001731 ! formation of translation preinitiation complex
+intersection_of: regulates GO:0001731 ! formation of cytoplasmic translation preinitiation complex
 relationship: regulates GO:0002183 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! cytoplasmic translational initiation
 created_by: ss
 creation_date: 2012-07-25T02:31:20Z
@@ -508275,7 +508559,7 @@ synonym: "inhibition of translation preinitiation complex assembly" EXACT [GOC:T
 synonym: "negative regulation of formation of translation pre-initiation complex" EXACT [GOC:TermGenie]
 synonym: "negative regulation of translation preinitiation complex assembly" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0001731 ! formation of translation preinitiation complex
+intersection_of: negatively_regulates GO:0001731 ! formation of cytoplasmic translation preinitiation complex
 relationship: negatively_regulates GO:0002183 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! cytoplasmic translational initiation
 created_by: ss
 creation_date: 2012-07-25T02:31:41Z
@@ -508300,7 +508584,7 @@ synonym: "upregulation of formation of translation pre-initiation complex" EXACT
 synonym: "upregulation of formation of translation preinitiation complex" EXACT [GOC:TermGenie]
 synonym: "upregulation of translation preinitiation complex assembly" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0001731 ! formation of translation preinitiation complex
+intersection_of: positively_regulates GO:0001731 ! formation of cytoplasmic translation preinitiation complex
 created_by: ss
 creation_date: 2012-07-25T02:31:50Z
 
@@ -518131,15 +518415,16 @@ creation_date: 2013-01-15T10:09:06Z
 
 [Term]
 id: GO:1901770
-name: daunorubicin catabolic process
+name: obsolete daunorubicin catabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the breakdown of daunorubicin." [GOC:TermGenie, GOC:yaf, PMID:7601857]
+def: "OBSOLETE. The chemical reactions and pathways resulting in the breakdown of daunorubicin." [GOC:TermGenie, GOC:yaf, PMID:7601857]
+comment: This term was obsoleted because there is no pathway known to specifically degrade this compound.
 synonym: "daunorubicin breakdown" EXACT [GOC:TermGenie]
 synonym: "daunorubicin catabolism" EXACT [GOC:TermGenie]
 synonym: "daunorubicin degradation" EXACT [GOC:TermGenie]
-is_a: GO:0044597 ! daunorubicin metabolic process
-intersection_of: GO:0009056 ! catabolic process
-intersection_of: has_primary_input CHEBI:64677 ! daunorubicin(1+)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32778" xsd:anyURI
+is_obsolete: true
+consider: GO:0042178
 created_by: yaf
 creation_date: 2013-01-15T10:14:29Z
 
@@ -518147,12 +518432,11 @@ creation_date: 2013-01-15T10:14:29Z
 id: GO:1901771
 name: daunorubicin biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of daunorubicin." [GOC:TermGenie, GOC:yaf, PMID:7601857, UniPathway:UPA00054]
+def: "The chemical reactions and pathways resulting in the formation of daunorubicin." [PMID:7601857]
 synonym: "daunorubicin anabolism" EXACT [GOC:TermGenie]
 synonym: "daunorubicin biosynthesis" EXACT [GOC:TermGenie]
 synonym: "daunorubicin formation" EXACT [GOC:TermGenie]
 synonym: "daunorubicin synthesis" EXACT [GOC:TermGenie]
-is_a: GO:0044597 ! daunorubicin metabolic process
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:64677 ! daunorubicin(1+)
 created_by: yaf
@@ -528164,13 +528448,14 @@ creation_date: 2013-09-05T05:51:08Z
 id: GO:1902388
 name: ceramide 1-phosphate transfer activity
 namespace: molecular_function
-def: "Removes a ceramide 1-phosphate from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GOC:TermGenie, PMID:23863933]
-synonym: "ceramide 1-phosphate carrier activity" EXACT []
+def: "Enables the transfer of a ceramide 1-phosphate from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GOC:TermGenie, PMID:23863933]
+synonym: "ceramide 1-phosphate carrier activity" NARROW []
 synonym: "ceramide 1-phosphate transporter activity" BROAD []
 synonym: "intermembrane ceramide 1-phosphate transfer activity" NARROW []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57674 ! N-acylsphingosine 1-phosphate(2-)
 relationship: part_of GO:1902389 {source="GO_REF:0000090"} ! ceramide 1-phosphate transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: uh
 creation_date: 2013-09-05T05:57:55Z
 
@@ -533920,9 +534205,10 @@ def: "The aggregation, arrangement and bonding together of a set of components t
 synonym: "39S ribosomal subunit, mitochondrial assembly" NARROW [GOC:TermGenie]
 synonym: "39S ribosomal subunit, mitochondrial formation" NARROW [GOC:TermGenie]
 synonym: "mitochondrial large ribosomal subunit formation" EXACT [GOC:TermGenie]
+is_a: GO:0061668 ! mitochondrial ribosome assembly
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_assembly_of GO:0005762 ! mitochondrial large ribosomal subunit
-relationship: part_of GO:0061668 ! mitochondrial ribosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32509" xsd:anyURI
 created_by: mcc
 creation_date: 2014-03-18T14:32:19Z
 
@@ -548220,42 +548506,48 @@ creation_date: 2014-10-20T15:18:53Z
 
 [Term]
 id: GO:1903551
-name: regulation of extracellular exosome assembly
+name: obsolete regulation of extracellular exosome assembly
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "regulation of extracellular vesicular exosome assembly" EXACT [GOC:vesicles]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0071971 ! extracellular exosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1903541
 created_by: pga
 creation_date: 2014-10-20T15:37:25Z
 
 [Term]
 id: GO:1903552
-name: negative regulation of extracellular exosome assembly
+name: obsolete negative regulation of extracellular exosome assembly
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "down regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "down-regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "downregulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "inhibition of extracellular vesicular exosome assembly" NARROW [GOC:TermGenie]
 synonym: "negative regulation of extracellular vesicular exosome assembly" EXACT [GOC:vesicles]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0071971 ! extracellular exosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1903542
 created_by: pga
 creation_date: 2014-10-20T15:37:33Z
 
 [Term]
 id: GO:1903553
-name: positive regulation of extracellular exosome assembly
+name: obsolete positive regulation of extracellular exosome assembly
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of extracellular vesicular exosome assembly." [GO_REF:0000058, GOC:TermGenie, PMID:24105262]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "activation of extracellular vesicular exosome assembly" NARROW [GOC:TermGenie]
 synonym: "positive regulation of extracellular vesicular exosome assembly" RELATED [GOC:vesicles]
 synonym: "up regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "up-regulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
 synonym: "upregulation of extracellular vesicular exosome assembly" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0071971 ! extracellular exosome assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32713" xsd:anyURI
+is_obsolete: true
+consider: GO:1903543
 created_by: pga
 creation_date: 2014-10-20T15:37:42Z
 
@@ -558785,12 +559077,13 @@ creation_date: 2015-04-07T14:01:08Z
 id: GO:1904121
 name: phosphatidylethanolamine transfer activity
 namespace: molecular_function
-def: "Removes phosphatidylethanolamine from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle." [GO_REF:0000066, GOC:TermGenie, PMID:8606365]
+def: "Enables the transfer of phosphatidylethanolamine from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer." [GO_REF:0000066, GOC:TermGenie, PMID:8606365]
 synonym: "intermembrane phosphatidylethanolamine transfer activity" NARROW []
-synonym: "phosphatidylethanolamine carrier activity" EXACT []
+synonym: "phosphatidylethanolamine carrier activity" NARROW []
 synonym: "phosphatidylethanolamine transporter activity" BROAD []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57613 ! phosphatidylethanolamine zwitterion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: sl
 creation_date: 2015-04-07T22:51:34Z
 
@@ -581971,20 +582264,22 @@ creation_date: 2016-08-16T11:40:36Z
 
 [Term]
 id: GO:1905365
-name: regulation of intralumenal vesicle formation
+name: obsolete regulation of intralumenal vesicle formation
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "regulation of endosome membrane budding" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0070676 ! intralumenal vesicle formation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
 created_by: bc
 creation_date: 2016-08-16T12:00:01Z
 
 [Term]
 id: GO:1905366
-name: negative regulation of intralumenal vesicle formation
+name: obsolete negative regulation of intralumenal vesicle formation
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "down regulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "down regulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
 synonym: "down-regulation of endosome membrane budding" EXACT [GOC:TermGenie]
@@ -581994,17 +582289,17 @@ synonym: "downregulation of intralumenal vesicle formation" EXACT [GOC:TermGenie
 synonym: "inhibition of endosome membrane budding" NARROW [GOC:TermGenie]
 synonym: "inhibition of intralumenal vesicle formation" NARROW [GOC:TermGenie]
 synonym: "negative regulation of endosome membrane budding" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0070676 ! intralumenal vesicle formation
-relationship: negatively_regulates GO:0006810 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
 created_by: bc
 creation_date: 2016-08-16T12:00:09Z
 
 [Term]
 id: GO:1905367
-name: positive regulation of intralumenal vesicle formation
+name: obsolete positive regulation of intralumenal vesicle formation
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." [GO_REF:0000058, GOC:bc, GOC:PARL, GOC:TermGenie, PMID:26911690]
+comment: The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent.
 synonym: "activation of endosome membrane budding" NARROW [GOC:TermGenie]
 synonym: "activation of intralumenal vesicle formation" NARROW [GOC:TermGenie]
 synonym: "positive regulation of endosome membrane budding" EXACT [GOC:TermGenie]
@@ -582014,9 +582309,8 @@ synonym: "up-regulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "up-regulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
 synonym: "upregulation of endosome membrane budding" EXACT [GOC:TermGenie]
 synonym: "upregulation of intralumenal vesicle formation" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0070676 ! intralumenal vesicle formation
-relationship: positively_regulates GO:0006810 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
+is_obsolete: true
 created_by: bc
 creation_date: 2016-08-16T12:00:16Z
 
@@ -589427,7 +589721,7 @@ id: GO:1905749
 name: obsolete regulation of endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. Any process that modulates the frequency, rate or extent of endosome to plasma membrane protein transport." [GO_REF:0000058, GOC:TermGenie, PMID:22869721]
-comment: The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001135 regulation of endocytic recycling.
+comment: The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001135 (regulation of endosome to plasma membrane transport).
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:2001135
@@ -589439,7 +589733,7 @@ id: GO:1905750
 name: obsolete negative regulation of endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of endosome to plasma membrane protein transport." [GO_REF:0000058, GOC:TermGenie, PMID:22869721]
-comment: The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001136 negative regulation of endocytic recycling.
+comment: The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001136 (negative regulation of endosome to plasma membrane transport).
 synonym: "down regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
 synonym: "down-regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
 synonym: "downregulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
@@ -589455,7 +589749,7 @@ id: GO:1905751
 name: obsolete positive regulation of endosome to plasma membrane protein transport
 namespace: biological_process
 def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of endosome to plasma membrane protein transport." [GO_REF:0000058, GOC:TermGenie, PMID:22869721]
-comment: The reason for obsoletion is that the regulated process GO:0099638 was merged into GO:0032456 endocytic recycling, so this term was merged into GO:2001137 positive regulation of endocytic recycling.
+comment: The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001137 (positive regulation of endosome to plasma membrane transport).
 synonym: "activation of endosome to plasma membrane protein transport" NARROW [GOC:TermGenie]
 synonym: "up regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
 synonym: "up-regulation of endosome to plasma membrane protein transport" EXACT [GOC:TermGenie]
@@ -593200,7 +593494,6 @@ name: obsolete inhibition of cysteine-type endopeptidase activity involved in ap
 namespace: biological_process
 def: "OBSOLETE. Any process that prevents the activation of an inactive cysteine-type endopeptidase involved in an apoptotic process." [GOC:mtg_apoptosis, PMID:11943137]
 comment: The reason for obsoletion is that this term represents a GO-CAM model.
-property_value: term_tracker_item "The reason for obsoletion is that this term represents a GO-CAM model." xsd:anyURI
 is_obsolete: true
 created_by: pr
 creation_date: 2012-12-05T15:42:50Z
@@ -593766,13 +594059,14 @@ creation_date: 2013-02-19T13:31:44Z
 id: GO:1990050
 name: phosphatidic acid transfer activity
 namespace: molecular_function
-def: "Removes a phosphatidic acid from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. Phosphatidic acid refers to a glycophospholipids with, in general, a saturated fatty acid bonded to carbon-1, an unsaturated fatty acid bonded to carbon-2, and a phosphate group bonded to carbon-3." [PMID:23042293]
+def: "Enables the transfer of a phosphatidic acid from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer. Phosphatidic acid refers to a glycophospholipids with, in general, a saturated fatty acid bonded to carbon-1, an unsaturated fatty acid bonded to carbon-2, and a phosphate group bonded to carbon-3." [PMID:23042293]
 synonym: "intermembrane PA transfer activity" EXACT []
 synonym: "intermembrane phosphatidic acid transfer activity" NARROW []
-synonym: "phosphatidic acid carrier activity" EXACT []
+synonym: "phosphatidic acid carrier activity" NARROW []
 synonym: "phosphatidic acid transporter activity" BROAD []
 intersection_of: GO:0120013 ! lipid transfer activity
 intersection_of: has_primary_input CHEBI:57739 ! phosphatidate(2-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: rb
 creation_date: 2013-02-21T00:45:28Z
 
@@ -595244,7 +595538,6 @@ is_a: GO:0006887 ! exocytosis
 is_a: neverin:4890
 intersection_of: GO:0006887 ! exocytosis
 intersection_of: has_primary_input GO:0070062 ! extracellular exosome
-relationship: part_of GO:0097734 ! extracellular exosome biogenesis
 created_by: hjd
 creation_date: 2013-09-04T21:08:14Z
 
@@ -599463,7 +599756,7 @@ comment: An example of this is SCD1 in human (UniProt symbol P18827) in PMID:226
 synonym: "exosome complex" BROAD []
 is_a: GO:1990563 ! extracellular exosome complex
 relationship: capable_of GO:0051087 ! protein-folding chaperone binding
-relationship: capable_of_part_of GO:0071971 ! extracellular exosome assembly
+relationship: capable_of_part_of GO:1990182 ! exosomal secretion
 relationship: part_of GO:0070062 ! extracellular exosome
 created_by: bhm
 creation_date: 2014-11-25T16:30:47Z
@@ -599478,7 +599771,7 @@ synonym: "exosome complex" EXACT []
 synonym: "extracellular vesicular exosome complex" EXACT [GOC:vesicles]
 is_a: GO:0140392 ! extracellular protein-containing complex
 relationship: capable_of GO:0051087 ! protein-folding chaperone binding
-relationship: capable_of_part_of GO:0071971 ! extracellular exosome assembly
+relationship: capable_of_part_of GO:1990182 ! exosomal secretion
 relationship: part_of GO:0070062 ! extracellular exosome
 created_by: bhm
 creation_date: 2014-11-25T16:35:53Z
@@ -600140,8 +600433,9 @@ synonym: "Vta1-Vps4 complex" RELATED []
 is_a: GO:0036452 ! ESCRT complex
 relationship: capable_of GO:0005524 ! ATP binding
 relationship: capable_of GO:0016887 ! ATP hydrolysis activity
-relationship: capable_of_part_of GO:0070676 ! intralumenal vesicle formation
+relationship: capable_of_part_of GO:0032509 ! endosome transport via multivesicular body sorting pathway
 relationship: part_of GO:0010008 ! endosome membrane
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31770" xsd:anyURI
 created_by: pr
 creation_date: 2015-01-29T10:02:30Z
 
@@ -601607,7 +601901,7 @@ name: EARP complex
 namespace: cellular_component
 def: "A quatrefoil tethering complex required for endocytic recycling." [PMID:25799061]
 is_a: GO:0032991 ! protein-containing complex
-relationship: capable_of_part_of GO:0032456 ! endocytic recycling
+relationship: capable_of_part_of GO:0032456 ! endosome to plasma membrane transport
 relationship: part_of GO:0055037 ! recycling endosome
 created_by: sp
 creation_date: 2015-05-15T10:23:25Z
@@ -617808,36 +618102,45 @@ creation_date: 2011-10-13T12:36:20Z
 
 [Term]
 id: GO:2001135
-name: regulation of endocytic recycling
+name: regulation of endosome to plasma membrane transport
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of endocytic recycling." [GOC:obol]
+def: "Any process that modulates the frequency, rate or extent of endosome to plasma membrane transport." [GOC:obol]
+synonym: "regulation of endocytic recycling" NARROW []
+synonym: "regulation of endosome to plasma membrane protein transport" NARROW []
 synonym: "regulation of retrograde transport of endocytic vesicles" RELATED [GOC:obol]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0032456 ! endocytic recycling
+intersection_of: regulates GO:0032456 ! endosome to plasma membrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: kmv
 creation_date: 2011-10-14T03:34:36Z
 
 [Term]
 id: GO:2001136
-name: negative regulation of endocytic recycling
+name: negative regulation of endosome to plasma membrane transport
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of endocytic recycling." [GOC:obol]
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of endosome to plasma membrane transport." [GOC:obol]
+synonym: "negative regulation of endocytic recycling" NARROW []
+synonym: "negative regulation of endosome to plasma membrane protein transport" NARROW []
 synonym: "negative regulation of retrograde transport of endocytic vesicles" RELATED [GOC:obol]
 is_a: GO:0048523 ! negative regulation of cellular process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0032456 ! endocytic recycling
+intersection_of: negatively_regulates GO:0032456 ! endosome to plasma membrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: kmv
 creation_date: 2011-10-14T03:34:43Z
 
 [Term]
 id: GO:2001137
-name: positive regulation of endocytic recycling
+name: positive regulation of endosome to plasma membrane transport
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of endocytic recycling." [GOC:obol]
+def: "Any process that activates or increases the frequency, rate or extent of endosome to plasma membrane transport." [GOC:obol]
+synonym: "positive regulation of endocytic recycling" NARROW []
+synonym: "positive regulation of endosome to plasma membrane protein transport" NARROW []
 synonym: "positive regulation of retrograde transport of endocytic vesicles" RELATED [GOC:obol]
 is_a: GO:0048522 ! positive regulation of cellular process
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0032456 ! endocytic recycling
+intersection_of: positively_regulates GO:0032456 ! endosome to plasma membrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31237" xsd:anyURI
 created_by: kmv
 creation_date: 2011-10-14T03:34:49Z
 
@@ -620231,8 +620534,9 @@ id: GO:7770011
 name: lipid exchange activity
 namespace: molecular_function
 def: "Enables the transfer of a specific lipid molecule from one membrane to another, coupled with the simultaneous counter-transfer of a different lipid molecule in the opposite direction." [PMID:32793602]
-is_a: GO:0120013 ! lipid transfer activity
+is_a: GO:7770133 ! shuttle-mediated intermembrane lipid transfer activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30624" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2025-01-24T00:00:00Z
 
@@ -620276,10 +620580,11 @@ created_by: dragon-ai-agent
 id: GO:7770015
 name: intermembrane lipid transporter complex
 namespace: cellular_component
-def: "A protein complex that mediates the transport of lipids between membranes, in which a lipid molecule or molecules is transferred through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane." [PMID:39106189, PMID:40269155]
+def: "A protein complex that mediates the nonvesicular transfer of lipids between two membranes, shielding the lipid molecule or molecules from the aqueous phase as they move from a donor membrane to an acceptor membrane." [PMID:39106189, PMID:40269155]
 synonym: "lipid transporter complex" RELATED []
 is_a: GO:1990351 ! transporter complex
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30955" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 created_by: dragon-ai-agent
 
 [Term]
@@ -620785,8 +621090,10 @@ def: "The import of proteins from the cytosol to their final destination in the 
 subset: goslim_pombe
 synonym: "mitochondrial protein import" EXACT []
 is_a: GO:0006839 ! mitochondrial transport
+is_a: GO:0006886 ! intracellular protein transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32292" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T10:06:36Z
 
@@ -620799,8 +621106,8 @@ comment: In yeast, the insertase is the mitochondrial import (MIM) complex, comp
 synonym: "MIM pathway" NARROW []
 synonym: "MTCH pathway" NARROW []
 is_a: GO:0045040 ! protein insertion into mitochondrial outer membrane
-is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T12:53:29Z
 
@@ -620848,8 +621155,8 @@ namespace: biological_process
 def: "The import of beta barrel proteins from the cytosol and their insertion into the mitochondrial outer membrane." [PMID:36931257]
 synonym: "TOM-SAM pathway" EXACT []
 is_a: GO:0045040 ! protein insertion into mitochondrial outer membrane
-is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-15T13:26:12Z
 
@@ -621804,6 +622111,202 @@ relationship: positively_regulates_in_another_organism GO:0038060 ! nitric oxide
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32645" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-10-07T09:27:23Z
+
+[Term]
+id: GO:7770132
+name: bridge-mediated intermembrane lipid transfer activity
+namespace: molecular_function
+def: "Enables the transfer of lipids between two membranes through a continuous hydrophobic groove or tunnel formed by a rod-shaped protein or protein assembly that spans the space between the donor and the acceptor membrane, so that lipids move along the bridge without being released into the aqueous phase as a soluble lipid-protein complex." [PMID:29449493, PMID:35491307, PMID:37406299, PMID:40269155, PMID:42285089]
+comment: This activity is enabled by proteins or protein assemblies that bridge two membranes, such as the eukaryotic repeating beta-groove (RBG) proteins at membrane contact sites (VPS13, ATG2, BLTP1-3 and related proteins), the bacterial AsmA-like proteins (e.g. TamB, YhdP and YdbH) and the Lpt lipopolysaccharide transport bridge (LptC, LptA and LptD), the latter two spanning the periplasm between the inner and outer membranes. Bridge proteins often act together with a scramblase in the donor and/or acceptor membrane; scrambling is a separate activity (see GO:0017128 phospholipid scramblase activity) and should be annotated separately. Likewise, in the Lpt system, ATP hydrolysis by the inner membrane ABC transporter LptB2FG powers transport and should be annotated separately. Direct annotation should be supported by mechanism-level evidence (e.g. structural data together with groove mutations that abolish transfer, or demonstrated membrane bridging); lipid transfer assays alone support annotation to GO:0120013 lipid transfer activity. Specific lipid substrates can be captured with has_input.
+synonym: "bridge-like lipid transfer activity" EXACT [PMID:35491307]
+synonym: "bulk lipid transfer activity" RELATED []
+is_a: GO:0120013 ! lipid transfer activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-13T00:41:10Z
+
+[Term]
+id: GO:7770133
+name: shuttle-mediated intermembrane lipid transfer activity
+namespace: molecular_function
+def: "Removes a lipid from a donor membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. The lipid-binding protein or domain carries one or a few lipid molecules at a time and moves with its cargo between the two membranes." [GOC:krc, PMID:20823909, PMID:37406299, PMID:37455811]
+comment: This activity is typically enabled by soluble lipid transfer proteins or lipid transfer domains, including those that mediate lipid countertransport (see GO:7770011 lipid exchange activity), and by bacterial periplasmic lipid carriers such as MlaC. For lipid transfer through a protein that spans the space between the two membranes, consider GO:7770132 bridge-mediated intermembrane lipid transfer activity. Lipid transfer assays alone support annotation to GO:0120013 lipid transfer activity.
+synonym: "shuttle-like lipid transfer activity" EXACT [PMID:37406299]
+is_a: GO:0005319 ! lipid carrier activity
+is_a: GO:0120013 ! lipid transfer activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-13T00:41:10Z
+
+[Term]
+id: GO:7770134
+name: 1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphocholine(out) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(in) = a 1,2-diacyl-sn-glycero-3-phosphocholine(in) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(out). This reaction results in the exchange of phosphatidylcholine (PC) for phosphatidylinositol (PI) between membranes." [PMID:17490911, PMID:20332109, PMID:4371468]
+synonym: "phosphatidylcholine:phosphatidylinositol exchange activity" EXACT []
+synonym: "phosphatidylinositol-phosphatidylcholine exchange activity" EXACT []
+synonym: "phosphatidylinositol:phosphatidylcholine exchange activity" EXACT []
+synonym: "PI/PC exchange activity" EXACT []
+synonym: "PtdIns/PtdCho exchange activity" EXACT []
+intersection_of: GO:7770011 ! lipid exchange activity
+intersection_of: has_primary_input CHEBI:57643 ! 1,2-diacyl-sn-glycero-3-phosphocholine
+intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32746" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-13T23:01:27Z
+
+[Term]
+id: GO:7770135
+name: 1-phosphatidyl-1D-myo-inositol:phosphatidic acid exchange activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a 1,2-diacyl-sn-glycero-3-phosphate(out) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(in) = a 1,2-diacyl-sn-glycero-3-phosphate(in) + a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol)(out). This reaction results in the exchange of phosphatidic acid (PA) for phosphatidylinositol (PI) between membranes." [PMID:26028218, RHEA:86467]
+synonym: "1-phosphatidyl-1D-myo-inositol:1,2-diacyl-sn-glycerol 3-phosphate exchange activity" EXACT []
+synonym: "1-phosphatidyl-1D-myo-inositol:phosphatidate exchange activity" EXACT []
+synonym: "phosphatidic acid:phosphatidylinositol exchange activity" EXACT []
+synonym: "phosphatidylinositol-phosphatidic acid exchange activity" EXACT []
+synonym: "phosphatidylinositol:phosphatidic acid exchange activity" EXACT []
+synonym: "PI/PA exchange activity" EXACT []
+xref: RHEA:86467 {source="skos:exactMatch"}
+intersection_of: GO:7770011 ! lipid exchange activity
+intersection_of: has_primary_input CHEBI:57880 ! 1-phosphatidyl-1D-myo-inositol(1-)
+intersection_of: has_primary_input CHEBI:58608 ! 1,2-diacyl-sn-glycerol 3-phosphate(2-)
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32745" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-13T23:35:37Z
+
+[Term]
+id: GO:7770136
+name: sphinganine N-acyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a fatty acyl-CoA + sphinganine = an N-acylsphinganine + CoA + H+." [PMID:17977534, RHEA:34735]
+synonym: "acyl-CoA:sphinganine N-acyltransferase activity" EXACT []
+synonym: "dihydroceramide synthase activity" EXACT []
+synonym: "dihydrosphingosine N-acyltransferase activity" EXACT []
+synonym: "sphinganine acyltransferase activity" RELATED []
+xref: RHEA:33351 {source="skos:narrowMatch"}
+xref: RHEA:33491 {source="skos:narrowMatch"}
+xref: RHEA:33591 {source="skos:narrowMatch"}
+xref: RHEA:34735 {source="skos:exactMatch"}
+xref: RHEA:36535 {source="skos:narrowMatch"}
+xref: RHEA:36539 {source="skos:narrowMatch"}
+xref: RHEA:36547 {source="skos:narrowMatch"}
+xref: RHEA:36555 {source="skos:narrowMatch"}
+xref: RHEA:36571 {source="skos:narrowMatch"}
+xref: RHEA:36575 {source="skos:narrowMatch"}
+xref: RHEA:36615 {source="skos:narrowMatch"}
+xref: RHEA:36619 {source="skos:narrowMatch"}
+xref: RHEA:36627 {source="skos:narrowMatch"}
+xref: RHEA:36647 {source="skos:narrowMatch"}
+xref: RHEA:36667 {source="skos:narrowMatch"}
+xref: RHEA:36671 {source="skos:narrowMatch"}
+xref: RHEA:36675 {source="skos:narrowMatch"}
+xref: RHEA:36715 {source="skos:narrowMatch"}
+xref: RHEA:36719 {source="skos:narrowMatch"}
+xref: RHEA:36767 {source="skos:narrowMatch"}
+xref: RHEA:64048 {source="skos:narrowMatch"}
+xref: RHEA:80859 {source="skos:narrowMatch"}
+is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32752" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-14T16:55:01Z
+
+[Term]
+id: GO:7770137
+name: short-patch base-excision repair
+namespace: biological_process
+def: "A base-excision repair process in which the excised lesion is replaced by a single nucleotide. Following incision at the abasic site, a DNA polymerase inserts one nucleotide into the single-nucleotide gap, any 5'-terminal deoxyribose-5-phosphate residue is removed by 5'-dRP lyase activity, and the remaining nick is sealed by DNA ligation." [PMID:19153658]
+comment: Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis.
+synonym: "base-excision repair, short-patch" EXACT []
+synonym: "short-patch BER" EXACT []
+synonym: "single-nucleotide BER" EXACT [PMID:17983848]
+synonym: "SN-BER" EXACT [PMID:17983848]
+synonym: "SP-BER" EXACT []
+is_a: GO:0006284 ! base-excision repair
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-16T19:36:05Z
+
+[Term]
+id: GO:7770138
+name: long-patch base-excision repair
+namespace: biological_process
+def: "A base-excision repair process in which the excised lesion is replaced by a repair tract of two or more nucleotides. DNA synthesis from the 3'-hydroxyl at the incised abasic site displaces the downstream strand, generating a 5' flap containing the abasic sugar-phosphate residue; the flap is removed by a 5'-flap endonuclease and the resulting nick is sealed by DNA ligation." [PMID:19153658]
+comment: Short-patch and long-patch base-excision repair share the initial glycosylase and abasic-site incision steps and diverge at repair DNA synthesis.
+synonym: "base-excision repair, long-patch" EXACT []
+synonym: "long-patch BER" EXACT []
+synonym: "LP-BER" EXACT []
+synonym: "multinucleotide BER" EXACT [PMID:17983848]
+is_a: GO:0006284 ! base-excision repair
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32759" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-16T19:36:05Z
+
+[Term]
+id: GO:7770139
+name: planar cell polarity
+namespace: biological_process
+def: "A cell communication process in which junctional protein complexes localize proteins asymmetrically to opposite sides of cells in the plane of a tissue, usually an epithelium." [PMID:27576155, PMID:28293032]
+comment: This term is not for direct annotation. Consider instead 'core planar cell polarity ; GO:7770140' or 'Fat/Dachsous planar cell polarity ; GO:7770141'.
+subset: gocheck_do_not_annotate
+synonym: "PCP pathway" EXACT []
+synonym: "planar cell polarity pathway" EXACT []
+is_a: GO:0007154 ! cell communication
+is_a: onlyin:33208 {source="PMID:28293032"}
+relationship: part_of GO:0001736 ! establishment of planar polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-20T23:59:20Z
+
+[Term]
+id: GO:7770140
+name: core planar cell polarity
+namespace: biological_process
+def: "A planar cell polarity process mediated by Frizzled-family receptors, Van Gogh-family proteins and Flamingo/CELSR-family atypical cadherins of the adhesion (class B2) GPCR family." [PMID:27576155, PMID:28293032, PMID:41895071]
+comment: In Drosophila, core planar cell polarity components include the transmembrane proteins Frizzled, Van Gogh and Starry night and the cytosolic proteins Dishevelled, Diego and Prickle. This term should be used to annotate the proteins involved in the initial generation of asymmetry between two cells, not downstream processes that result in asymmetric tissue features, such as cytoskeleton reorganisation, or global cues, such as Wnt ligands. For these, consider 'establishment of planar polarity ; GO:0001736' or a term appropriate to the process described.
+synonym: "core PCP pathway" EXACT []
+is_a: GO:7770139 ! planar cell polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-20T23:59:20Z
+
+[Term]
+id: GO:7770141
+name: Fat/Dachsous planar cell polarity
+namespace: biological_process
+def: "A planar cell polarity process mediated by heterotypic binding between atypical protocadherins of the Fat and Dachsous families." [PMID:27576155, PMID:28293032]
+comment: In Drosophila, Fat/Dachsous planar cell polarity components include the transmembrane proteins fat and dachsous and the kinase four-jointed. This term should be used to annotate the proteins involved in the initial generation of asymmetry between two cells, not downstream processes that result in asymmetric tissue features, such as cytoskeleton reorganisation, or global cues, such as Wnt ligands. For these, consider 'establishment of planar polarity ; GO:0001736' or a term appropriate to the process described.
+synonym: "Fat-Dachsous PCP pathway" EXACT []
+is_a: GO:7770139 ! planar cell polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-20T23:59:20Z
+
+[Term]
+id: GO:7770142
+name: 7,8-dihydrobiopterin reductase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: L-erythro-7,8-dihydrobiopterin + NADPH + H+ = (6R)-L-erythro-5,6,7,8-tetrahydrobiopterin + NADP+." [PMID:24863258, PMID:646819, RHEA:91495]
+xref: RHEA:91495 {source="skos:exactMatch"}
+is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32707" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-26T11:34:55Z
+
+[Term]
+id: GO:7770143
+name: trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: (2S)-2-amino-4-deoxychorismate + H2O = (5S,6S)-6-amino-5-hydroxycyclohexa-1,3-diene-1-carboxylate + pyruvate." [PMID:12741825, RHEA:49456]
+synonym: "(2S)-2-amino-4-deoxychorismate pyruvate-hydrolase activity" RELATED [EC:3.3.2.15]
+synonym: "PhzD activity" RELATED []
+xref: EC:3.3.2.15 {source="skos:exactMatch"}
+xref: MetaCyc:RXN-9030 {source="skos:exactMatch"}
+xref: RHEA:49456 {source="skos:exactMatch"}
+is_a: GO:0016803 ! ether hydrolase activity
+relationship: part_of GO:0002047 ! phenazine biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29865" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-28T16:23:15Z
 
 [Typedef]
 id: acts_on_population_of

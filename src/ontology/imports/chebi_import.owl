@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/chebi_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2026-10-08/imports/chebi_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2026-10-26/imports/chebi_import.owl"/>
     </owl:Ontology>
     
 
@@ -3692,7 +3692,7 @@
         </rdfs:subClassOf>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
-        <rdfs:label>N‐beta‐alanyldopamine</rdfs:label>
+        <rdfs:label>N-beta-alanyldopamine</rdfs:label>
     </owl:Class>
     
 
@@ -23401,17 +23401,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
         <rdfs:label>(4Z,7Z,10Z,13Z,15E,17S)-17-hydroperoxydocosapentaenoic acid</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_13614 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_13614">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26373"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#chebi_ph7_3"/>
-        <rdfs:label>6,7-dihydropteridines</rdfs:label>
     </owl:Class>
     
 
@@ -105630,29 +105619,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_16942 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16942">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_21635"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76971"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018034"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
-        <rdfs:label>lipid X</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_16943 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16943">
@@ -143076,7 +143042,7 @@
         </rdfs:subClassOf>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#chebi_ph7_3"/>
-        <rdfs:label>N‐beta‐alanyldopamine(1+)</rdfs:label>
+        <rdfs:label>N-beta-alanyldopamine(1+)</rdfs:label>
     </owl:Class>
     
 
@@ -201792,17 +201758,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#chebi_ph7_3"/>
         <rdfs:label>5beta-pregnane-3,20-dione</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_30156 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30156">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_13614"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#chebi_ph7_3"/>
-        <rdfs:label>6,7-dihydropteridine</rdfs:label>
     </owl:Class>
     
 
@@ -307351,25 +307306,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_57957 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_57957">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_137180"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_176338"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58945"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018033"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#chebi_ph7_3"/>
-        <rdfs:label>lipid X(2-)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_57958 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_57958">
@@ -400563,6 +400499,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_747729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_747729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_140325"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33566"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50994"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78840"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018033"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_747730"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16958"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
+        <rdfs:label>1,2-dehydro-N-beta-alanyldopamine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_74773 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74773">
@@ -400576,6 +400538,35 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
         <rdfs:label>N(3)-methyluridine 5&apos;-monophosphate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_747730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_747730">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_65296"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018034"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_747729"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
+        <rdfs:label>1,2-dehydro-N-beta-alanyldopamine(1+)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_747731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_747731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_140325"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22160"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33566"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78840"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi/3_STAR"/>
+        <rdfs:label>1,2-dehydro-N-acetyldopamine</rdfs:label>
     </owl:Class>
     
 
@@ -510597,16 +510588,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16943"/>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -572032,16 +572013,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57956"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Restriction>
@@ -633477,16 +633448,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16943"/>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -694912,16 +694873,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002332"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57956"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002332"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002332"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Restriction>
@@ -756357,16 +756308,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004007"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004007"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004007"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16943"/>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -817797,16 +817738,6 @@
     </owl:Restriction>
     <owl:Restriction>
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004008"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004008"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004008"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16943"/>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -879232,16 +879163,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004009"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57956"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-    </owl:Restriction>
-    <owl:Restriction>
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004009"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16942"/>
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004009"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57957"/>
             </owl:Restriction>
         </owl:equivalentClass>
     </owl:Restriction>

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2026-10-08/imports/chebi_import.owl
+data-version: go/releases/2026-10-26/imports/chebi_import.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 ontology: go/imports/chebi_import
 
@@ -1493,13 +1493,13 @@ relationship: RO:0018034 CHEBI:57270 ! N,N-dihydroxy-L-tyrosinate
 
 [Term]
 id: CHEBI:125666
-name: N‐beta‐alanyldopamine
+name: N-beta-alanyldopamine
 subset: 3:STAR
 subset: gocheck_do_not_annotate
 is_a: CHEBI:140325 ! secondary carboxamide
 is_a: CHEBI:33567 ! catecholamine
 is_a: CHEBI:50994 ! primary amino compound
-relationship: RO:0018033 CHEBI:192799 ! N‐beta‐alanyldopamine(1+)
+relationship: RO:0018033 CHEBI:192799 ! N-beta-alanyldopamine(1+)
 relationship: RO:0018038 CHEBI:16958 ! beta-alanine
 relationship: RO:0018038 CHEBI:18243 ! dopamine
 
@@ -10679,13 +10679,6 @@ subset: gocheck_do_not_annotate
 is_a: CHEBI:189823 ! hydroperoxydocosapentaenoic acid
 relationship: RO:0018034 CHEBI:133796 ! (4Z,7Z,10Z,13Z,15E,17S)-17-hydroperoxydocosapentaenoate
 relationship: RO:0018038 CHEBI:65136 ! (4Z,7Z,10Z,13Z,16Z)-docosa-4,7,10,13,16-pentaenoic acid
-
-[Term]
-id: CHEBI:13614
-name: 6,7-dihydropteridines
-subset: 3:STAR
-subset: chebi_ph7_3
-is_a: CHEBI:26373 ! pteridines
 
 [Term]
 id: CHEBI:136147
@@ -45750,15 +45743,6 @@ subset: chebi_ph7_3
 is_a: CHEBI:23684 ! dibenzothiophenes
 
 [Term]
-id: CHEBI:16942
-name: lipid X
-subset: 3:STAR
-subset: gocheck_do_not_annotate
-is_a: CHEBI:21635 ! N-acyl-D-glucosamine 1-phosphate
-relationship: RO:0000087 CHEBI:76971 ! Escherichia coli metabolite
-relationship: RO:0018034 CHEBI:57957 ! lipid X(2-)
-
-[Term]
 id: CHEBI:16943
 name: (R)-2,4-dihydroxy-3-oxobutanoic acid
 subset: 3:STAR
@@ -60459,11 +60443,11 @@ relationship: RO:0018034 CHEBI:131429 ! carcinine
 
 [Term]
 id: CHEBI:192799
-name: N‐beta‐alanyldopamine(1+)
+name: N-beta-alanyldopamine(1+)
 subset: 3:STAR
 subset: chebi_ph7_3
 is_a: CHEBI:65296 ! primary ammonium ion
-relationship: RO:0018034 CHEBI:125666 ! N‐beta‐alanyldopamine
+relationship: RO:0018034 CHEBI:125666 ! N-beta-alanyldopamine
 
 [Term]
 id: CHEBI:19281
@@ -87314,13 +87298,6 @@ is_a: CHEBI:61313 ! C21-steroid
 relationship: RO:0000087 CHEBI:75771 ! mouse metabolite
 relationship: RO:0000087 CHEBI:77746 ! human metabolite
 relationship: RO:0018040 CHEBI:20674 ! 5beta-pregnane
-
-[Term]
-id: CHEBI:30156
-name: 6,7-dihydropteridine
-subset: 3:STAR
-subset: chebi_ph7_3
-is_a: CHEBI:13614 ! 6,7-dihydropteridines
 
 [Term]
 id: CHEBI:30164
@@ -135765,16 +135742,6 @@ relationship: RO:0000087 CHEBI:76969 ! bacterial metabolite
 relationship: RO:0018036 CHEBI:16939 ! 3-amino-3-(4-hydroxyphenyl)propanoic acid
 
 [Term]
-id: CHEBI:57957
-name: lipid X(2-)
-subset: 3:STAR
-subset: chebi_ph7_3
-is_a: CHEBI:137180 ! 2,3-diacyl-alpha-D-glucosaminyl 1-phosphate
-is_a: CHEBI:176338 ! 2-N,3-O-bis[(3R)-3-hydroxyacyl]-alpha-D-glucosaminyl 1-phosphate(2-)
-is_a: CHEBI:58945 ! organophosphate oxoanion
-relationship: RO:0018033 CHEBI:16942 ! lipid X
-
-[Term]
 id: CHEBI:57958
 name: (R)-2,4-dihydroxy-3-oxobutanoate
 subset: 3:STAR
@@ -179002,12 +178969,40 @@ relationship: RO:0018034 CHEBI:74502 ! N(3)-methyluridine 5'-monophosphate(1-) r
 relationship: RO:0018037 CHEBI:74773 ! N(3)-methyluridine 5'-monophosphate
 
 [Term]
+id: CHEBI:747729
+name: 1,2-dehydro-N-beta-alanyldopamine
+subset: 3:STAR
+subset: gocheck_do_not_annotate
+is_a: CHEBI:140325 ! secondary carboxamide
+is_a: CHEBI:33566 ! catechols
+is_a: CHEBI:50994 ! primary amino compound
+is_a: CHEBI:78840 ! olefinic compound
+relationship: RO:0018033 CHEBI:747730 ! 1,2-dehydro-N-beta-alanyldopamine(1+)
+relationship: RO:0018038 CHEBI:16958 ! beta-alanine
+
+[Term]
 id: CHEBI:74773
 name: N(3)-methyluridine 5'-monophosphate
 subset: 3:STAR
 subset: gocheck_do_not_annotate
 is_a: CHEBI:39457 ! pyrimidine ribonucleoside 5'-monophosphate
 relationship: RO:0018038 CHEBI:16695 ! uridine 5'-monophosphate
+
+[Term]
+id: CHEBI:747730
+name: 1,2-dehydro-N-beta-alanyldopamine(1+)
+subset: 3:STAR
+is_a: CHEBI:65296 ! primary ammonium ion
+relationship: RO:0018034 CHEBI:747729 ! 1,2-dehydro-N-beta-alanyldopamine
+
+[Term]
+id: CHEBI:747731
+name: 1,2-dehydro-N-acetyldopamine
+subset: 3:STAR
+is_a: CHEBI:140325 ! secondary carboxamide
+is_a: CHEBI:22160 ! acetamides
+is_a: CHEBI:33566 ! catechols
+is_a: CHEBI:78840 ! olefinic compound
 
 [Term]
 id: CHEBI:74777

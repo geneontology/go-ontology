@@ -4,7 +4,7 @@
 
 ## Description
 
-Lipid transfer activities differentiated by the specific lipid cargo. A refinement of the generic molecular_carrier_activity pattern where the cargo is a lipid and delivery involves extraction from one membrane or monolayer lipid particle, transit through the aqueous phase in a hydrophobic pocket, and deposition into an acceptor membrane or lipid particle. Inherits both is_a lipid carrier activity (GO:0005319) and is_a transporter activity (GO:0005215) via the parent GO:0120013. Do NOT use this pattern for cross-leaflet (intramembrane) lipid movement - use intramembrane_lipid_carrier_activity.yaml for that.
+Lipid transfer activities differentiated by the specific lipid cargo. The lipid is moved from a donor membrane or lipid particle to an acceptor membrane or lipid particle while shielded from the aqueous phase. The pattern is mechanism-neutral: it covers both shuttle (GO:7770133) and bridge (GO:7770132) mechanisms, so cargo-specific terms do not specify the mechanism. Inherits is_a transporter activity (GO:0005215) via the parent GO:0120013, but not lipid carrier activity (GO:0005319), which applies only to the shuttle mechanism. Do NOT use this pattern for cross-leaflet (intramembrane) lipid movement - use intramembrane_lipid_carrier_activity.yaml for that.
 
 
 
@@ -26,7 +26,7 @@ Lipid transfer activities differentiated by the specific lipid cargo. A refineme
 
 ## Definition
 
-"Removes a `{lipid_cargo}` from a membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle."^^[string](http://www.w3.org/2001/XMLSchema#string)
+"Enables the transfer of a `{lipid_cargo}` from a donor membrane or lipid particle to an acceptor membrane or lipid particle, with the lipid shielded from the aqueous phase during transfer."^^[string](http://www.w3.org/2001/XMLSchema#string)
 
 ## Equivalent to
 

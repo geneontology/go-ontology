@@ -13,8 +13,6 @@ The project follows standard ODK layout:
        * ...
  * terms/   ## checked out copies, for editing
     * GO_NNNNNNN.obo # checked out local copy
- * .claude/
-    * skills/   ## specific skill instructions
 
  For make targets, a standard pattern is `cd src/ontology && make <TARGET>`. Beware of accidentally changing to the `src/ontology`
  dir and forgetting where you are. It is best to run things from the top level
@@ -446,22 +444,9 @@ To debug syntax errors, try: `cd src/ontology && robot convert -vvv -i go-edit.o
 
 ### Datalog QC checks
 
-Some checks are Soufflé Datalog programs rather than SPARQL: `datalog-check`
-(the ontology QC program, `src/util/ontology-qc.dl` plus `src/util/qc/`), which
-runs in both `test` and `travis_test`, and `basic-cycles.tsv`, which runs only
-in `test`. The cycle check is release-only on purpose: it reads `go-basic.ofn`,
-so reaching it means building the whole release-shaping chain (a `materialize`
-over nine relations plus two `reduce` passes), which is far too slow for a pull
-request. Taxon-constraint materialization also runs a Datalog step. These QC
-targets fail the build when their output file is non-empty.
-
-Each QC check registers itself, and every arm of every check must be triggered
-by a control term in `src/util/qc/control.dl` that declares it with an
-`expected_violation(check, term)` fact. `make qc-selftest` gates that in both
-directions: an expectation that does not fire means the rule or one of its arms
-is dead, and a violation nobody expected means a rule has grown too broad. A
-Soufflé rule that matches nothing yields an empty relation, which would
-otherwise pass the build silently.
+Some checks are Soufflé Datalog programs rather than SPARQL (`datalog-check` and
+`qc-selftest` run in `travis_test`; `basic-cycles.tsv` is release-only). They fail
+the build when their output file is non-empty.
 
 Use the /souffle-datalog skill for anything involving these — reading a rule,
 diagnosing a violation, or adding a new check. Soufflé's failure mode is a silently
@@ -470,8 +455,7 @@ committed; the skill covers the layer structure and that procedure.
 
 ### Logical Error Diagnosis
 
-- Execute `cd src/ontology && robot explain --input go-edit.obo --output go-edit.entailed.obo` to find entailed axioms
-- Use `cd src/ontology && robot explain --input go-edit.obo --reasoner ELK  -M unsatisfiability --unsatisfiable all explanations.md` to generate a report explaining unsat classes
+- Use `robot explain` (why an axiom is entailed, why classes are unsatisfiable) via the /odk-make skill, which has the exact commands
 - Analyze intersection_of axioms, is_a relationships, and logical definitions for conflicts
 - Identify problematic axioms causing reasoning failures
 - never use DL reasoners such as hermit for the full ontology, it is too large -- and unneccessary as we only have EL axioms, so ELK is sufficient (ELK is the default)
