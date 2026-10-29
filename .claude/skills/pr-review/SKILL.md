@@ -98,6 +98,11 @@ looks accidentally clobbered — the checkout/checkin workflow can damage
 neighbouring terms silently, and the resulting diff looks like an intentional
 edit.
 
+**8. Open tickets.** For every term the PR obsoletes, newly points to
+(`replaced_by`, `consider`, new `is_a` or relationship targets) or redefines,
+search open go-ontology issues and PRs. Flag as IMPORTANT any open obsoletion
+request or conflicting change, other than the PR's own ticket.
+
 ## Severity
 
 - **CRITICAL** — wrong or fabricated data. Hallucinated PMIDs, incorrect
@@ -131,6 +136,7 @@ goes:
 - Design pattern conformance checked against: *sibling terms consulted*
 - Metadata conventions checked
 - Obsoletion procedure checked, or N/A
+- Open tickets searched
 
 Silence on a dimension you did not examine reads as a clean bill of health.
 Say which ones you skipped.
