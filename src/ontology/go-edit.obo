@@ -38247,7 +38247,6 @@ xref: EC:3.4.11.22 {source="skos:narrowMatch"}
 xref: EC:3.4.11.5 {source="skos:narrowMatch"}
 xref: EC:3.4.11.6 {source="skos:narrowMatch"}
 xref: EC:3.4.11.9 {source="skos:narrowMatch"}
-xref: https://www.ebi.ac.uk/merops/about/glossary.shtml#AMINOPEPTIDASE
 xref: MetaCyc:3.4.11.21-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:3.4.11.5-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:3.4.11.6-RXN {source="skos:narrowMatch"}
@@ -65734,7 +65733,7 @@ synonym: "L-isoleucine catabolic process via Ehrlich pathway" NARROW []
 synonym: "L-isoleucine degradation via Ehrlich pathway" NARROW []
 xref: MetaCyc:ILEUDEG-PWY {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-5078 {source="skos:narrowMatch"}
-xref: MetaCyx:PWY-8184 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY-8184 {source="skos:narrowMatch"}
 intersection_of: GO:0009056 ! catabolic process
 intersection_of: has_primary_input CHEBI:58045 ! L-isoleucine zwitterion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30047" xsd:anyURI
@@ -198436,7 +198435,7 @@ synonym: "activated methyl cycle" EXACT []
 synonym: "S-adenosylmethionine cycle" EXACT []
 synonym: "SAM cycle" EXACT []
 xref: MetaCyc:PWY-5041 {source="skos:narrowMatch"}
-xref: MetyaCyc:PWY-6151 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY-6151 {source="skos:narrowMatch"}
 is_a: GO:0006730 ! one-carbon metabolic process
 relationship: has_primary_input_or_output CHEBI:57844 ! L-methionine zwitterion
 relationship: has_primary_input_or_output CHEBI:57856 ! S-adenosyl-L-homocysteine zwitterion
@@ -383691,7 +383690,7 @@ xref: EC:1.14.11.80 {source="skos:exactMatch"}
 xref: RHEA:52636 {source="skos:narrowMatch"}
 xref: RHEA:53828 {source="skos:narrowMatch"}
 xref: RHEA:53832 {source="skos:narrowMatch"}
-xref: WIkipedia:DNA_demethylation
+xref: Wikipedia:DNA_demethylation
 is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
 is_a: GO:0140097 ! catalytic activity, acting on DNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23312" xsd:anyURI
@@ -456746,7 +456745,7 @@ id: GO:0106391
 name: bI4 intron splicing complex
 namespace: cellular_component
 def: "A protein complex required for the splicing of intron 4 of the cytochrome b (COB) gene. In S. cerevisiae, the complex contains the maturase bI4 (which derives from one of the products of the splicing), Leucyl-tRNA synthetase NAM2 and the intron 4 of the cytochrome b pre-mRNA. The two proteins stimulate the ribozyme activity of the pre-mRNA which autocatalyze a group I intron splicing." [GOC:lnp, PMID:19622748]
-xref: Intact:EBI-16420264
+xref: IntAct:EBI-16420264
 is_a: GO:1902555 ! endoribonuclease complex
 relationship: capable_of GO:0004521 ! RNA endonuclease activity
 relationship: capable_of_part_of GO:0000372 ! Group I intron splicing
@@ -456759,7 +456758,7 @@ id: GO:0106392
 name: bI3 intron splicing complex
 namespace: cellular_component
 def: "A protein complex required for the splicing of intron 3 of the cytochrome b (COB) gene. In S. cerevisiae, the complex contains the maturase bI3 (which derives from one of the products of the splicing), the MRS1 cofactor and the intron 4 of the cytochrome b pre-mRNA. The two proteins stimulate the ribozyme activity of the pre-mRNA which autocatalyze a group I intron splicing." [GOC:lnp, PMID:11773622]
-xref: Intact:EBI-16426213
+xref: IntAct:EBI-16426213
 is_a: GO:1902555 ! endoribonuclease complex
 relationship: capable_of GO:0004521 ! RNA endonuclease activity
 relationship: capable_of_part_of GO:0000372 ! Group I intron splicing
@@ -472320,7 +472319,7 @@ name: neutrophil extracellular trap formation
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a neutrophil extracellular trap, a network of extracellular fibers primarily composed of DNA from neutrophils, which bind and neutralizes pathogens." [PMID:28267716]
 synonym: "NET formation" BROAD []
-xref: http://purl.obolibrary.org/obo/TXPO_0002149
+xref: TXPO:0002149
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_formation_of GO:0140644 ! neutrophil extracellular trap
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21416" xsd:anyURI
@@ -482226,7 +482225,7 @@ id: GO:0160097
 name: reverse gyrase activity
 namespace: molecular_function
 def: "Catalysis of a DNA topological transformation by transiently cleaving one DNA strand at a time to allow passage of another strand; changes the linking number by +1 per catalytic cycle, is driven by ATP hydrolysis." [PMID:25013168]
-xref: WIKIPEDIA:Reverse_gyrase
+xref: Wikipedia:Reverse_gyrase
 is_a: GO:0003916 ! DNA topoisomerase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26019" xsd:anyURI
 created_by: rynl
