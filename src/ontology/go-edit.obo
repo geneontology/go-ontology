@@ -272082,12 +272082,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0045149
-name: acetoin metabolic process
+name: obsolete acetoin metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving acetoin, 3-hydroxy-2-butanone, often as part of a fermentation pathway or for use as a carbon source." [GOC:mlg]
+def: "OBSOLETE. The chemical reactions and pathways involving acetoin, 3-hydroxy-2-butanone, often as part of a fermentation pathway or for use as a carbon source." [GOC:mlg]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "acetoin metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:15688 ! acetoin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32260" xsd:anyURI
+is_obsolete: true
+consider: GO:0045150
+consider: GO:0045151
 
 [Term]
 id: GO:0045150
