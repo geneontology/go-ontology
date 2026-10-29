@@ -40062,7 +40062,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0004314
 name: [acyl-carrier-protein] S-malonyltransferase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: malonyl-CoA + [acyl-carrier protein] = CoA + malonyl-[acyl-carrier protein]." [EC:2.3.1.39]
+def: "Catalysis of the reaction: holo-[ACP] + malonyl-CoA = malonyl-[ACP] + CoA." [RHEA:41792]
 synonym: "[acyl-carrier protein] S-malonyltransferase activity" EXACT []
 synonym: "ACP S-malonyltransferase activity" EXACT []
 synonym: "acyl carrier protein malonyltransferase activity" RELATED [EC:2.3.1.39]
@@ -40081,7 +40081,9 @@ synonym: "MAT" RELATED [EC:2.3.1.39]
 synonym: "MCAT activity" RELATED [EC:2.3.1.39]
 xref: EC:2.3.1.39 {source="skos:exactMatch"}
 xref: MetaCyc:MALONYL-COA-ACP-TRANSACYL-RXN
+xref: RHEA:41792 {source="skos:exactMatch"}
 is_a: GO:0016419 ! S-malonyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -43012,7 +43014,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0004482
 name: mRNA 5'-cap (guanine-N7-)-methyltransferase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: S-adenosyl-L-methionine + G(5')pppR-RNA = S-adenosyl-L-homocysteine + m7G(5')pppR-RNA. m7G(5')pppR-RNA is mRNA containing an N7-methylguanine cap; R may be guanosine or adenosine." [EC:2.1.1.56]
+def: "Catalysis of the reaction: a 5'-end (5'-triphosphoguanosine)-ribonucleoside in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-ribonucleoside in mRNA + S-adenosyl-L-homocysteine." [RHEA:67008]
 synonym: "guanine-7-methyltransferase activity" RELATED [EC:2.1.1.56]
 synonym: "messenger ribonucleate guanine 7-methyltransferase activity" RELATED [EC:2.1.1.56]
 synonym: "messenger RNA guanine 7-methyltransferase activity" RELATED [EC:2.1.1.56]
@@ -43020,11 +43022,13 @@ synonym: "S-adenosyl-L-methionine:mRNA (guanine-7-N-)-methyltransferase activity
 synonym: "S-adenosyl-L-methionine:mRNA (guanine-N7-)-methyltransferase activity" RELATED [EC:2.1.1.56]
 xref: EC:2.1.1.56 {source="skos:exactMatch"}
 xref: MetaCyc:MRNA-GUANINE-N7--METHYLTRANSFERASE-RXN
+xref: RHEA:67008 {source="skos:exactMatch"}
 is_a: GO:0008170 ! N-methyltransferase activity
 is_a: GO:0008174 ! mRNA methyltransferase activity
 relationship: part_of GO:0006370 ! 7-methylguanosine mRNA capping
 relationship: part_of GO:0106005 ! RNA 5'-cap (guanine-N7)-methylation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25788" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -90247,11 +90251,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0009040
 name: ureidoglycolate dehydrogenase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: (S)-ureidoglycolate + NAD(P)+ = oxalureate + NAD(P)H + H+." [EC:1.1.1.154, PMID:23284870]
+def: "Catalysis of the reaction: (S)-ureidoglycolate + NAD(P)+ = N-carbamoyl-2-oxoglycine + NAD(P)H + H+." [EC:1.1.1.154, PMID:23284870]
 synonym: "(S)-ureidoglycolate:NAD(P)+ oxidoreductase activity" RELATED [EC:1.1.1.154]
 xref: EC:1.1.1.154 {source="skos:exactMatch"}
+xref: EC:1.1.1.350 {source="skos:narrowMatch"}
 xref: MetaCyc:R165-RXN
+xref: RHEA:15329 {source="skos:narrowMatch"}
+xref: RHEA:15333 {source="skos:narrowMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -117211,9 +117219,14 @@ xref: EC:7.2.4.1 {source="skos:narrowMatch"}
 xref: EC:7.2.4.2 {source="skos:narrowMatch"}
 xref: EC:7.2.4.3 {source="skos:narrowMatch"}
 xref: EC:7.2.4.4 {source="skos:narrowMatch"}
+xref: RHEA:21396 {source="skos:narrowMatch"}
+xref: RHEA:43336 {source="skos:narrowMatch"}
+xref: RHEA:57724 {source="skos:narrowMatch"}
+xref: RHEA:58820 {source="skos:narrowMatch"}
 xref: TC:3.B
 intersection_of: GO:0015399 ! primary active transmembrane transporter activity
 intersection_of: has_part GO:0016831 ! carboxy-lyase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
 
 [Term]
@@ -259259,7 +259272,15 @@ xref: EC:2.4.99.14 {source="skos:narrowMatch"}
 xref: EC:2.4.99.15 {source="skos:narrowMatch"}
 xref: MetaCyc:KDOTRANS-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:KDOTRANS2-RXN {source="skos:narrowMatch"}
+xref: RHEA:28062 {source="skos:narrowMatch"}
+xref: RHEA:28066 {source="skos:narrowMatch"}
+xref: RHEA:28154 {source="skos:narrowMatch"}
+xref: RHEA:28158 {source="skos:narrowMatch"}
+xref: RHEA:46484 {source="skos:narrowMatch"}
+xref: RHEA:73827 {source="skos:narrowMatch"}
+xref: RHEA:73831 {source="skos:narrowMatch"}
 is_a: GO:0016757 ! glycosyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
 
 [Term]
@@ -262309,9 +262330,11 @@ creation_date: 2009-07-09T03:40:15Z
 id: GO:0044103
 name: L-arabinose 1-dehydrogenase (NADP+) activity
 namespace: molecular_function
-def: "Catalysis of the reaction: L-arabinose + NADP+ = L-arabinono-1,4-lactone + NADPH + H+." [GOC:jl, PMID:16326697]
-xref: EC:1.1.1.376 {source="skos:exactMatch"}
+def: "Catalysis of the reaction: L-arabinose + NADP+ = L-arabinono-1,4-lactone + NADPH + H+." [PMID:16326697, RHEA:42664]
+xref: EC:1.1.1.376 {source="skos:broadMatch"}
+xref: RHEA:42664 {source="skos:exactMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 created_by: jl
 creation_date: 2009-07-09T04:00:30Z
@@ -293150,7 +293173,10 @@ synonym: "(15S)-15-hydroxy-5,8,11-cis-13-trans-icosatetraenoate:NAD(P)+ 15-oxido
 synonym: "15-hydroxyeicosatetraenoate dehydrogenase activity" RELATED [EC:1.1.1.232]
 xref: EC:1.1.1.232 {source="skos:exactMatch"}
 xref: MetaCyc:1.1.1.232-RXN
+xref: RHEA:23260 {source="skos:narrowMatch"}
+xref: RHEA:23264 {source="skos:narrowMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -296459,7 +296485,10 @@ synonym: "UDPglucose:flavanone 7-O-beta-D-glucosyltransferase activity" RELATED 
 synonym: "uridine diphosphoglucose-flavanone 7-O-glucosyltransferase activity" RELATED [EC:2.4.1.185]
 xref: EC:2.4.1.185 {source="skos:exactMatch"}
 xref: MetaCyc:2.4.1.185-RXN
+xref: RHEA:65152 {source="skos:narrowMatch"}
+xref: RHEA:65244 {source="skos:narrowMatch"}
 is_a: GO:0035251 ! UDP-glucosyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -304757,13 +304786,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0047770
 name: carboxylate reductase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: an aldehyde + acceptor + H2O = a carboxylate + reduced acceptor." [EC:1.2.99.6, MetaCyc:CARBOXYLATE-REDUCTASE-RXN]
+def: "Catalysis of the reaction: an aldehyde + A + H2O = a carboxylate + AH2 + H+." [RHEA:56856]
 synonym: "aldehyde:(acceptor) oxidoreductase activity" RELATED [EC:1.2.99.6]
 synonym: "aldehyde:acceptor oxidoreductase activity" RELATED [EC:1.2.99.6]
 synonym: "carboxylic acid reductase activity" RELATED [EC:1.2.99.6]
 xref: EC:1.2.99.6 {source="skos:exactMatch"}
 xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN
+xref: RHEA:56856 {source="skos:exactMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -317587,13 +317618,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0050022
 name: L-arabinose 1-dehydrogenase (NAD+) activity
 namespace: molecular_function
-def: "Catalysis of the reaction: L-arabinose + NAD+ = L-arabinono-1,4-lactone + NADH." [EC:1.1.1.46, MetaCyc:L-ARABINOSE-1-DEHYDROGENASE-RXN]
+def: "Catalysis of the reaction: L-arabinose + NAD+ = L-arabinono-1,4-lactone + NADH + H+." [RHEA:17925]
 synonym: "L-arabinose 1-dehydrogenase activity" BROAD []
 synonym: "L-arabinose:NAD+ 1-oxidoreductase activity" RELATED [EC:1.1.1.46]
 xref: EC:1.1.1.46 {source="skos:exactMatch"}
+xref: EC:1.1.1.376 {source="skos:broadMatch"}
 xref: MetaCyc:L-ARABINOSE-1-DEHYDROGENASE-RXN
 xref: RHEA:17925 {source="skos:exactMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
