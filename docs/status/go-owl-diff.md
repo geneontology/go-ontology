@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-28/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-10-29/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-28" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-10-29" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -438,6 +438,20 @@
 - [2-polyprenyl-6-hydroxyphenol methylase activity](http://purl.obolibrary.org/obo/GO_0102208) SubClassOf [O-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008171) 
 
 
+### 3'-5' DNA helicase activity `http://purl.obolibrary.org/obo/GO_0043138`
+#### Removed
+- [3'-5' DNA helicase activity](http://purl.obolibrary.org/obo/GO_0043138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Unwinding a DNA helix in the direction 5' to 3', driven by ATP hydrolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.6.2.4" 
+
+#### Added
+- [3'-5' DNA helicase activity](http://purl.obolibrary.org/obo/GO_0043138) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32831"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [3'-5' DNA helicase activity](http://purl.obolibrary.org/obo/GO_0043138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Unwinding a DNA helix in the direction 3' to 5', driven by ATP hydrolysis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:5.6.2.4" 
+
+
 ### 3'-phospho-5'-adenylyl sulfate transmembrane transport `http://purl.obolibrary.org/obo/GO_1902559`
 #### Removed
 - [3'-phospho-5'-adenylyl sulfate transmembrane transport](http://purl.obolibrary.org/obo/GO_1902559) SubClassOf [obsolete purine-containing compound transmembrane transport](http://purl.obolibrary.org/obo/GO_0072530) 
@@ -478,6 +492,29 @@
 - [3'-phosphoadenosine 5'-phosphosulfate phosphatase activity](http://purl.obolibrary.org/obo/GO_7770125) [label](http://www.w3.org/2000/01/rdf-schema#label) "3'-phosphoadenosine 5'-phosphosulfate phosphatase activity" 
 
 - [3'-phosphoadenosine 5'-phosphosulfate phosphatase activity](http://purl.obolibrary.org/obo/GO_7770125) SubClassOf [phosphatase activity](http://purl.obolibrary.org/obo/GO_0016791) 
+
+
+### 3-phosphoglycerate adenylyltransferase activity `http://purl.obolibrary.org/obo/GO_0140555`
+
+#### Added
+- Class: [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32785"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-27T14:01:51Z" 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140555" 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 3-phosphoglycerate + ATP = 2-AMP-3-phosphoglycerate + diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42497854" 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) [label](http://www.w3.org/2000/01/rdf-schema#label) "3-phosphoglycerate adenylyltransferase activity" 
+
+- [3-phosphoglycerate adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140555) SubClassOf [adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0070566) 
 
 
 ### 4'-phosphopantetheine phosphatase activity `http://purl.obolibrary.org/obo/GO_7770095`
@@ -2283,6 +2320,12 @@
 - [P-type cadmium transporter activity](http://purl.obolibrary.org/obo/GO_0008551) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that RHEA:12132 represents both the ABC and the P-type cadmium transporters." 
 
 
+### Pup transferase activity `http://purl.obolibrary.org/obo/GO_0072496`
+
+#### Added
+- [Pup transferase activity](http://purl.obolibrary.org/obo/GO_0072496) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/7617"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### R-loop processing `http://purl.obolibrary.org/obo/GO_0062176`
 #### Removed
 - [R-loop processing](http://purl.obolibrary.org/obo/GO_0062176) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A DNA metabolic process that results in the disassembly of R-loops. R-loops are three-stranded nucleic acid structures consisitng of an RNA:DNA heteroduplex and a looped-out non-template strand. Aberrant formation and persistence of R-loops block transcription elongation and cause DNA damage. Mechanisms that resolve R-loops are essential for genome stability." 
@@ -3146,6 +3189,14 @@
 
 #### Added
 - [antigen processing and presentation following phagocytosis](http://purl.obolibrary.org/obo/GO_0002747) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32152"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### arginine-[protein] ADP-riboxanase activity `http://purl.obolibrary.org/obo/GO_0140740`
+#### Removed
+- [arginine-[protein] ADP-riboxanase activity](http://purl.obolibrary.org/obo/GO_0140740) [label](http://www.w3.org/2000/01/rdf-schema#label) "ADP-riboxanase-[protein] activity" 
+
+#### Added
+- [arginine-[protein] ADP-riboxanase activity](http://purl.obolibrary.org/obo/GO_0140740) [label](http://www.w3.org/2000/01/rdf-schema#label) "arginine-[protein] ADP-riboxanase activity" 
 
 
 ### assembly of large subunit precursor of preribosome `http://purl.obolibrary.org/obo/GO_1902626`
@@ -4233,6 +4284,43 @@
 - [dissimilatory sulfate reduction](http://purl.obolibrary.org/obo/GO_0019420) SubClassOf [sulfur compound metabolic process](http://purl.obolibrary.org/obo/GO_0006790) 
 
 
+### drosopterin biosynthetic process `http://purl.obolibrary.org/obo/GO_0170087`
+
+#### Added
+- Class: [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32802"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ew" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-28T17:46:47Z" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7442" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "drosopterin anabolism" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "drosopterin biosynthesis" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "drosopterin formation" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "drosopterin synthesis" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0170087" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7442](http://identifiers.org/metacyc.reaction/PWY-7442) 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of drosopterins, a family of orange-red pteridine-derived pigments that includes drosopterin, isodrosopterin, aurodrosopterin, isoaurodrosopterin and neodrosopterin. Drosopterins are the red eye pigments of Drosophila and also occur in the integument of other arthropods and of fish, amphibians and reptiles." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34403644" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) [label](http://www.w3.org/2000/01/rdf-schema#label) "drosopterin biosynthetic process" 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) SubClassOf [pteridine-containing compound biosynthetic process](http://purl.obolibrary.org/obo/GO_0042559) 
+
+- [drosopterin biosynthetic process](http://purl.obolibrary.org/obo/GO_0170087) SubClassOf [pigment biosynthetic process](http://purl.obolibrary.org/obo/GO_0046148) 
+
+
 ### endoplasmic reticulum protein quality control `http://purl.obolibrary.org/obo/GO_0170080`
 
 #### Added
@@ -4390,6 +4478,10 @@
 
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28869926" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34338785" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28293032" 
 
@@ -14090,6 +14182,114 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17502372" 
 
 
+### phosphoribosyl-ubiquitin adenylyltransferase activity `http://purl.obolibrary.org/obo/GO_0140556`
+
+#### Added
+- Class: [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32785"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-27T14:07:21Z" 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140556" 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ubiquitin-phosphoribosyl-L-arginyl-[protein] + ATP = ubiquitin-ADP-D-ribosyl-L-arginyl-[protein] + diphosphate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38776962" 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphoribosyl-ubiquitin adenylyltransferase activity" 
+
+- [phosphoribosyl-ubiquitin adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0140556) SubClassOf [adenylyltransferase activity](http://purl.obolibrary.org/obo/GO_0070566) 
+
+
+### phosphoribosyl-ubiquitin hydrolase activity `http://purl.obolibrary.org/obo/GO_0140558`
+
+#### Added
+- Class: [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32785"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-27T14:21:06Z" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "phosphoribosyl-ubiquitin peptidase activity" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140558" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the hydrolysis of the phosphodiester bond linking phosphoribosyl-ubiquitin to a serine residue in a target protein, releasing phosphoribosyl-ubiquitin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31732457" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphoribosyl-ubiquitin hydrolase activity" 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) SubClassOf [phosphoric diester hydrolase activity](http://purl.obolibrary.org/obo/GO_0008081) 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) SubClassOf [catalytic activity, acting on a protein](http://purl.obolibrary.org/obo/GO_0140096) 
+
+- [phosphoribosyl-ubiquitin hydrolase activity](http://purl.obolibrary.org/obo/GO_0140558) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein deubiquitination](http://purl.obolibrary.org/obo/GO_0016579) 
+
+
+### phosphoribosyl-ubiquitin transferase activity `http://purl.obolibrary.org/obo/GO_0140553`
+
+#### Added
+- Class: [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32785"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-27T13:53:56Z" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PR-ubiquitin transferase activity" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "PR-ubiquitination activity" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphoribosyl-linked serine ubiquitination activity" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140553" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of phosphoribosyl-ubiquitin (PR-ubiquitin), generated by cleavage of ADP-ribosylated ubiquitin, to a substrate protein, linking the phosphoribosyl group to the hydroxyl group of a serine residue in the substrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29795347" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphoribosyl-ubiquitin transferase activity" 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) SubClassOf [phosphotransferase activity, for other substituted phosphate groups](http://purl.obolibrary.org/obo/GO_0016780) 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) SubClassOf [catalytic activity, acting on a protein](http://purl.obolibrary.org/obo/GO_0140096) 
+
+- [phosphoribosyl-ubiquitin transferase activity](http://purl.obolibrary.org/obo/GO_0140553) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein ubiquitination](http://purl.obolibrary.org/obo/GO_0016567) 
+
+
+### phosphoryl-AMPylase activity `http://purl.obolibrary.org/obo/GO_0140557`
+
+#### Added
+- Class: [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32785"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-27T14:17:08Z" 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0140557" 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + phosphoprotein = diphosphate + adenylyl-phosphoprotein; mediates the addition of an adenylyl (adenosine 5'-monophosphate; AMP group) to a phosphoserine, a phosphothreonine, or a phosphotyrosine residue in a target protein." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38776962" 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) [label](http://www.w3.org/2000/01/rdf-schema#label) "phosphoryl-AMPylase activity" 
+
+- [phosphoryl-AMPylase activity](http://purl.obolibrary.org/obo/GO_0140557) SubClassOf [AMPylase activity](http://purl.obolibrary.org/obo/GO_0070733) 
+
+
 ### phytanate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0050197`
 #### Removed
 - [phytanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0050197) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + CoA + phytanate = AMP + diphosphate + H+ + phytanoyl-CoA." 
@@ -14688,6 +14888,30 @@
 - [protein quality control](http://purl.obolibrary.org/obo/GO_0006515) SubClassOf [cellular process](http://purl.obolibrary.org/obo/GO_0009987) 
 
 
+### protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0090562`
+#### Removed
+- [protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0090562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N,N'-diacetylchitobiose(out) = protein histidine + N,N'-diacetylchitobiose phosphate(in)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10913119" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:am" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0090562) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.196" 
+
+- [protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0090562) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33423" 
+
+- [protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0090562) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.196](http://purl.uniprot.org/enzyme/2.7.1.196) 
+
+- [protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0090562) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [33423](http://rdf.rhea-db.org/33423) 
+
+- [protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0090562) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N,N'-diacetylchitobiose(out) + N(pros)-phospho-L-histidyl-[protein] = diacetylchitobiose-6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33423" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10913119" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:am" 
+
+
 ### protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity `http://purl.obolibrary.org/obo/GO_0008982`
 #### Removed
 - [protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0008982) SubClassOf [active transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022804) 
@@ -14696,6 +14920,198 @@
 - [protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0008982) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/27496"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity](http://purl.obolibrary.org/obo/GO_0008982) SubClassOf [group translocator activity](http://purl.obolibrary.org/obo/GO_7770111) 
+
+
+### protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0022877`
+#### Removed
+- [protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022877) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + fructose(out) = protein histidine + fructose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022877) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.202" 
+
+- [protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022877) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49252" 
+
+- [protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022877) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.202](http://purl.uniprot.org/enzyme/2.7.1.202) 
+
+- [protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022877) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [49252](http://rdf.rhea-db.org/49252) 
+
+- [protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022877) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-fructose(out) + N(pros)-phospho-L-histidyl-[protein] = D-fructose 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49252" 
+
+
+### protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0022875`
+#### Removed
+- [protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022875) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + galactitol(out) = protein histidine + galactitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022875) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.200" 
+
+- [protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022875) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49248" 
+
+- [protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022875) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.200](http://purl.uniprot.org/enzyme/2.7.1.200) 
+
+- [protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022875) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [49248](http://rdf.rhea-db.org/49248) 
+
+- [protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022875) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: galactitol(out) + N(pros)-phospho-L-histidyl-[protein] = galactitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49248" 
+
+
+### protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0022855`
+#### Removed
+- [protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022855) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + glucose(out) = protein histidine + glucose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022855) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.199" 
+
+- [protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022855) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33367" 
+
+- [protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022855) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.199](http://purl.uniprot.org/enzyme/2.7.1.199) 
+
+- [protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022855) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [33367](http://rdf.rhea-db.org/33367) 
+
+- [protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022855) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N(pros)-phospho-L-histidyl-[protein] + D-glucose(out) = D-glucose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33367" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+
+### protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0022869`
+#### Removed
+- [protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022869) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + lactose(out) = protein histidine + lactose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022869) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.207" 
+
+- [protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022869) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42400" 
+
+- [protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022869) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.207](http://purl.uniprot.org/enzyme/2.7.1.207) 
+
+- [protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022869) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [42400](http://rdf.rhea-db.org/42400) 
+
+- [protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022869) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: lactose(out) + N(pros)-phospho-L-histidyl-[protein] = lactose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42400" 
+
+
+### protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0022873`
+#### Removed
+- [protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022873) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + maltose(out) = protein histidine + maltose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022873) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.208" 
+
+- [protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022873) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49300" 
+
+- [protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022873) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.208](http://purl.uniprot.org/enzyme/2.7.1.208) 
+
+- [protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022873) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [49300](http://rdf.rhea-db.org/49300) 
+
+- [protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022873) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-maltose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha-maltose 6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49300" 
+
+
+### protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0022872`
+#### Removed
+- [protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022872) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + mannitol(out) = protein histidine + mannitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022872) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.197" 
+
+- [protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022872) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33363" 
+
+- [protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022872) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.197](http://purl.uniprot.org/enzyme/2.7.1.197) 
+
+- [protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022872) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [33363](http://rdf.rhea-db.org/33363) 
+
+- [protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022872) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-mannitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-mannitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33363" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+
+### protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0022856`
+#### Removed
+- [protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022856) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + sorbitol(out) = protein histidine + sorbitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022856) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.198" 
+
+- [protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022856) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42484" 
+
+- [protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022856) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.198](http://purl.uniprot.org/enzyme/2.7.1.198) 
+
+- [protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022856) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [42484](http://rdf.rhea-db.org/42484) 
+
+- [protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022856) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-sorbitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-sorbitol 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:42484" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+
+### protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity `http://purl.obolibrary.org/obo/GO_0022879`
+#### Removed
+- [protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022879) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + trehalose(out) = protein histidine + trehalose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+#### Added
+- [protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022879) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.7.1.201" 
+
+- [protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022879) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33371" 
+
+- [protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022879) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.7.1.201](http://purl.uniprot.org/enzyme/2.7.1.201) 
+
+- [protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022879) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [33371](http://rdf.rhea-db.org/33371) 
+
+- [protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity](http://purl.obolibrary.org/obo/GO_0022879) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: alpha,alpha-trehalose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha,alpha-trehalose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0815340729" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_transport" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33371" 
 
 
 ### protein-exporting ATPase activity `http://purl.obolibrary.org/obo/GO_0008564`
@@ -16591,6 +17007,50 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity `http://purl.obolibrary.org/obo/GO_7770143`
+
+#### Added
+- Class: [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/29865"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-28T16:23:15Z" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.3.2.15" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:RXN-9030" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49456" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "PhzD activity" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770143" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [RXN-9030](http://identifiers.org/metacyc.reaction/RXN-9030) 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [3.3.2.15](http://purl.uniprot.org/enzyme/3.3.2.15) 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [49456](http://rdf.rhea-db.org/49456) 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "(2S)-2-amino-4-deoxychorismate pyruvate-hydrolase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:3.3.2.15" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (2S)-2-amino-4-deoxychorismate + H2O = (5S,6S)-6-amino-5-hydroxycyclohexa-1,3-diene-1-carboxylate + pyruvate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12741825" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49456" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) [label](http://www.w3.org/2000/01/rdf-schema#label) "trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity" 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) SubClassOf [ether hydrolase activity](http://purl.obolibrary.org/obo/GO_0016803) 
+
+- [trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity](http://purl.obolibrary.org/obo/GO_7770143) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [phenazine biosynthetic process](http://purl.obolibrary.org/obo/GO_0002047) 
+
+
 ### trans-synaptic signaling by endocannabinoid `http://purl.obolibrary.org/obo/GO_0099542`
 
 #### Added
@@ -16786,6 +17246,8 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9635407" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jh2" 
+
+- [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein ubiquitination](http://purl.obolibrary.org/obo/GO_0016567) 
 
 
 ### undecaprenol kinase activity `http://purl.obolibrary.org/obo/GO_0009038`
