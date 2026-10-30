@@ -12122,7 +12122,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0001736
 name: establishment of planar polarity
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032]
+def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032, PMID:28869926, PMID:34338785]
 comment: When appropriate, Wnt ligands can be annotated to this term.
 synonym: "establishment of planar cell polarity" NARROW []
 is_a: GO:0007164 ! establishment of tissue polarity
@@ -38247,7 +38247,6 @@ xref: EC:3.4.11.22 {source="skos:narrowMatch"}
 xref: EC:3.4.11.5 {source="skos:narrowMatch"}
 xref: EC:3.4.11.6 {source="skos:narrowMatch"}
 xref: EC:3.4.11.9 {source="skos:narrowMatch"}
-xref: https://www.ebi.ac.uk/merops/about/glossary.shtml#AMINOPEPTIDASE
 xref: MetaCyc:3.4.11.21-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:3.4.11.5-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:3.4.11.6-RXN {source="skos:narrowMatch"}
@@ -40063,7 +40062,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0004314
 name: [acyl-carrier-protein] S-malonyltransferase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: malonyl-CoA + [acyl-carrier protein] = CoA + malonyl-[acyl-carrier protein]." [EC:2.3.1.39]
+def: "Catalysis of the reaction: holo-[ACP] + malonyl-CoA = malonyl-[ACP] + CoA." [RHEA:41792]
 synonym: "[acyl-carrier protein] S-malonyltransferase activity" EXACT []
 synonym: "ACP S-malonyltransferase activity" EXACT []
 synonym: "acyl carrier protein malonyltransferase activity" RELATED [EC:2.3.1.39]
@@ -40082,7 +40081,9 @@ synonym: "MAT" RELATED [EC:2.3.1.39]
 synonym: "MCAT activity" RELATED [EC:2.3.1.39]
 xref: EC:2.3.1.39 {source="skos:exactMatch"}
 xref: MetaCyc:MALONYL-COA-ACP-TRANSACYL-RXN
+xref: RHEA:41792 {source="skos:exactMatch"}
 is_a: GO:0016419 ! S-malonyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -43013,7 +43014,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0004482
 name: mRNA 5'-cap (guanine-N7-)-methyltransferase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: S-adenosyl-L-methionine + G(5')pppR-RNA = S-adenosyl-L-homocysteine + m7G(5')pppR-RNA. m7G(5')pppR-RNA is mRNA containing an N7-methylguanine cap; R may be guanosine or adenosine." [EC:2.1.1.56]
+def: "Catalysis of the reaction: a 5'-end (5'-triphosphoguanosine)-ribonucleoside in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-ribonucleoside in mRNA + S-adenosyl-L-homocysteine." [RHEA:67008]
 synonym: "guanine-7-methyltransferase activity" RELATED [EC:2.1.1.56]
 synonym: "messenger ribonucleate guanine 7-methyltransferase activity" RELATED [EC:2.1.1.56]
 synonym: "messenger RNA guanine 7-methyltransferase activity" RELATED [EC:2.1.1.56]
@@ -43021,11 +43022,13 @@ synonym: "S-adenosyl-L-methionine:mRNA (guanine-7-N-)-methyltransferase activity
 synonym: "S-adenosyl-L-methionine:mRNA (guanine-N7-)-methyltransferase activity" RELATED [EC:2.1.1.56]
 xref: EC:2.1.1.56 {source="skos:exactMatch"}
 xref: MetaCyc:MRNA-GUANINE-N7--METHYLTRANSFERASE-RXN
+xref: RHEA:67008 {source="skos:exactMatch"}
 is_a: GO:0008170 ! N-methyltransferase activity
 is_a: GO:0008174 ! mRNA methyltransferase activity
 relationship: part_of GO:0006370 ! 7-methylguanosine mRNA capping
 relationship: part_of GO:0106005 ! RNA 5'-cap (guanine-N7)-methylation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25788" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -48990,7 +48993,7 @@ name: ubiquitin-protein transferase activity
 namespace: molecular_function
 alt_id: GO:0004840
 alt_id: GO:0004841
-def: "Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y = Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages." [GOC:BioGRID, GOC:jh2, PMID:9635407]
+def: "Catalysis of the transfer of ubiquitin from one protein to another via the reaction X-Ub + Y = Y-Ub + X, where both X-Ub and Y-Ub are covalent linkages." [GOC:jh2, PMID:9635407]
 synonym: "E2" BROAD []
 synonym: "E3" BROAD []
 synonym: "ubiquitin conjugating enzyme activity" NARROW []
@@ -49001,6 +49004,7 @@ synonym: "ubiquitin-conjugating enzyme activity" NARROW []
 xref: KEGG_REACTION:R03876
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
 relationship: has_participant PR:000035728 ! ubiquitin
+relationship: part_of GO:0016567 ! protein ubiquitination
 
 [Term]
 id: GO:0004843
@@ -65733,7 +65737,7 @@ synonym: "L-isoleucine catabolic process via Ehrlich pathway" NARROW []
 synonym: "L-isoleucine degradation via Ehrlich pathway" NARROW []
 xref: MetaCyc:ILEUDEG-PWY {source="skos:narrowMatch"}
 xref: MetaCyc:PWY-5078 {source="skos:narrowMatch"}
-xref: MetaCyx:PWY-8184 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY-8184 {source="skos:narrowMatch"}
 intersection_of: GO:0009056 ! catabolic process
 intersection_of: has_primary_input CHEBI:58045 ! L-isoleucine zwitterion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30047" xsd:anyURI
@@ -89008,9 +89012,10 @@ synonym: "phosphatidylglycerophosphate phosphohydrolase activity" RELATED [EC:3.
 xref: EC:3.1.3.27 {source="skos:exactMatch"}
 xref: MetaCyc:PGPPHOSPHA-RXN
 xref: RHEA:16725 {source="skos:exactMatch"}
-xref: RHEA:33752 {source="skos:narrowMatch"}
-xref: RHEA:42305 {source="skos:narrowMatch"}
+xref: RHEA:33751 {source="skos:narrowMatch"}
+xref: RHEA:42304 {source="skos:narrowMatch"}
 is_a: GO:0016791 ! phosphatase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 
 [Term]
 id: GO:0008963
@@ -90247,11 +90252,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0009040
 name: ureidoglycolate dehydrogenase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: (S)-ureidoglycolate + NAD(P)+ = oxalureate + NAD(P)H + H+." [EC:1.1.1.154, PMID:23284870]
+def: "Catalysis of the reaction: (S)-ureidoglycolate + NAD(P)+ = N-carbamoyl-2-oxoglycine + NAD(P)H + H+." [EC:1.1.1.154, PMID:23284870]
 synonym: "(S)-ureidoglycolate:NAD(P)+ oxidoreductase activity" RELATED [EC:1.1.1.154]
 xref: EC:1.1.1.154 {source="skos:exactMatch"}
+xref: EC:1.1.1.350 {source="skos:narrowMatch"}
 xref: MetaCyc:R165-RXN
+xref: RHEA:15329 {source="skos:narrowMatch"}
+xref: RHEA:15333 {source="skos:narrowMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -100322,8 +100331,8 @@ synonym: "linoleic acid hydroperoxide isomerase" RELATED [EC:4.2.1.92]
 xref: EC:4.2.1.92 {source="skos:exactMatch"}
 xref: MetaCyc:RXN1F-19
 xref: RHEA:25074 {source="skos:exactMatch"}
-xref: RHEA:25075 {source="skos:narrowMatch"}
 is_a: GO:0016836 ! hydro-lyase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -115199,10 +115208,11 @@ is_a: GO:0005249 ! voltage-gated potassium channel activity
 
 [Term]
 id: GO:0015272
-name: ATP-activated inward rectifier potassium channel activity
+name: ATP-sensitive inward rectifier potassium channel activity
 namespace: molecular_function
-def: "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying voltage-gated channel, where the inward rectification is due to a voltage-dependent block of the channel pore by ATP. An inwardly rectifying current-voltage relation is one where at any given driving force the inward flow of K+ ions exceeds the outward flow for the opposite driving force." [GOC:cb, GOC:mah]
+def: "Enables the transmembrane transfer of a potassium ion by an inwardly-rectifying potassium channel whose opening is regulated by the cytoplasmic ATP/ADP ratio: binding of ATP to the pore-forming subunit inhibits channel activity, while Mg-nucleotides (MgADP, MgATP) acting on an associated sulfonylurea receptor subunit stimulate it." [PMID:34815345, PMID:41022322]
 is_a: GO:0005242 ! inward rectifier potassium channel activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32796" xsd:anyURI
 
 [Term]
 id: GO:0015274
@@ -117210,9 +117220,14 @@ xref: EC:7.2.4.1 {source="skos:narrowMatch"}
 xref: EC:7.2.4.2 {source="skos:narrowMatch"}
 xref: EC:7.2.4.3 {source="skos:narrowMatch"}
 xref: EC:7.2.4.4 {source="skos:narrowMatch"}
+xref: RHEA:21396 {source="skos:narrowMatch"}
+xref: RHEA:43336 {source="skos:narrowMatch"}
+xref: RHEA:57724 {source="skos:narrowMatch"}
+xref: RHEA:58820 {source="skos:narrowMatch"}
 xref: TC:3.B
 intersection_of: GO:0015399 ! primary active transmembrane transporter activity
 intersection_of: has_part GO:0016831 ! carboxy-lyase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28070" xsd:anyURI
 
 [Term]
@@ -161687,8 +161702,10 @@ replaced_by: GO:0022804
 id: GO:0022855
 name: protein-N(PI)-phosphohistidine-glucose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + glucose(out) = protein histidine + glucose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N(pros)-phospho-L-histidyl-[protein] + D-glucose(out) = D-glucose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33367]
 synonym: "glucose PTS transporter activity" EXACT []
+xref: EC:2.7.1.199 {source="skos:exactMatch"}
+xref: RHEA:33367 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0055056 ! D-glucose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161697,8 +161714,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022856
 name: protein-N(PI)-phosphohistidine-sorbitol phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + sorbitol(out) = protein histidine + sorbitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-sorbitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-sorbitol 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:42484]
 synonym: "sorbitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.198 {source="skos:exactMatch"}
+xref: RHEA:42484 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015576 ! sorbitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161773,8 +161792,10 @@ is_obsolete: true
 id: GO:0022869
 name: protein-N(PI)-phosphohistidine-lactose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + lactose(out) = protein histidine + lactose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: lactose(out) + N(pros)-phospho-L-histidyl-[protein] = lactose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:42400]
 synonym: "lactose PTS transporter activity" EXACT []
+xref: EC:2.7.1.207 {source="skos:exactMatch"}
+xref: RHEA:42400 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015155 ! lactose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161811,8 +161832,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022872
 name: protein-N(PI)-phosphohistidine-mannitol phosphotransferase system transmembrane transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + mannitol(out) = protein histidine + mannitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-mannitol(out) + N(pros)-phospho-L-histidyl-[protein] = D-mannitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33363]
 synonym: "mannitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.197 {source="skos:exactMatch"}
+xref: RHEA:33363 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015575 ! mannitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161821,8 +161844,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022873
 name: protein-N(PI)-phosphohistidine-maltose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + maltose(out) = protein histidine + maltose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-maltose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha-maltose 6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49300]
 synonym: "maltose PTS transporter activity" EXACT []
+xref: EC:2.7.1.208 {source="skos:exactMatch"}
+xref: RHEA:49300 {source="skos:exactMatch"}
 is_a: GO:0005363 ! maltose transmembrane transporter activity
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161843,8 +161868,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022875
 name: protein-N(PI)-phosphohistidine-galactitol phosphotransferase system transmembrane transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + galactitol(out) = protein histidine + galactitol phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: galactitol(out) + N(pros)-phospho-L-histidyl-[protein] = galactitol 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49248]
 synonym: "galactitol PTS transporter activity" EXACT []
+xref: EC:2.7.1.200 {source="skos:exactMatch"}
+xref: RHEA:49248 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015577 ! galactitol transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161863,8 +161890,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022877
 name: protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + fructose(out) = protein histidine + fructose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: D-fructose(out) + N(pros)-phospho-L-histidyl-[protein] = D-fructose 1-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:49252]
 synonym: "fructose PTS transporter activity" EXACT []
+xref: EC:2.7.1.202 {source="skos:exactMatch"}
+xref: RHEA:49252 {source="skos:exactMatch"}
 is_a: GO:0005353 ! fructose transmembrane transporter activity
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -161887,8 +161916,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0022879
 name: protein-N(PI)-phosphohistidine-trehalose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + trehalose(out) = protein histidine + trehalose phosphate(in). This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: alpha,alpha-trehalose(out) + N(pros)-phospho-L-histidyl-[protein] = alpha,alpha-trehalose 6-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:mtg_transport, ISBN:0815340729, RHEA:33371]
 synonym: "trehalose PTS transporter activity" EXACT []
+xref: EC:2.7.1.201 {source="skos:exactMatch"}
+xref: RHEA:33371 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 is_a: GO:0015574 ! trehalose transmembrane transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
@@ -198418,7 +198449,7 @@ synonym: "activated methyl cycle" EXACT []
 synonym: "S-adenosylmethionine cycle" EXACT []
 synonym: "SAM cycle" EXACT []
 xref: MetaCyc:PWY-5041 {source="skos:narrowMatch"}
-xref: MetyaCyc:PWY-6151 {source="skos:narrowMatch"}
+xref: MetaCyc:PWY-6151 {source="skos:narrowMatch"}
 is_a: GO:0006730 ! one-carbon metabolic process
 relationship: has_primary_input_or_output CHEBI:57844 ! L-methionine zwitterion
 relationship: has_primary_input_or_output CHEBI:57856 ! S-adenosyl-L-homocysteine zwitterion
@@ -251687,7 +251718,7 @@ id: GO:0043138
 name: 3'-5' DNA helicase activity
 namespace: molecular_function
 alt_id: GO:0043140
-def: "Unwinding a DNA helix in the direction 5' to 3', driven by ATP hydrolysis." [EC:5.6.2.4, GOC:jl]
+def: "Unwinding a DNA helix in the direction 3' to 5', driven by ATP hydrolysis." [EC:5.6.2.4]
 synonym: "3' to 5' DNA helicase activity" EXACT []
 synonym: "ATP-dependent 3' to 5' DNA helicase activity" EXACT []
 synonym: "ATP-dependent 3'-5' DNA helicase activity" EXACT []
@@ -251695,6 +251726,7 @@ xref: EC:5.6.2.4 {source="skos:exactMatch"}
 is_a: GO:0003678 ! DNA helicase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23533" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32831" xsd:anyURI
 
 [Term]
 id: GO:0043139
@@ -259241,7 +259273,15 @@ xref: EC:2.4.99.14 {source="skos:narrowMatch"}
 xref: EC:2.4.99.15 {source="skos:narrowMatch"}
 xref: MetaCyc:KDOTRANS-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:KDOTRANS2-RXN {source="skos:narrowMatch"}
+xref: RHEA:28062 {source="skos:narrowMatch"}
+xref: RHEA:28066 {source="skos:narrowMatch"}
+xref: RHEA:28154 {source="skos:narrowMatch"}
+xref: RHEA:28158 {source="skos:narrowMatch"}
+xref: RHEA:46484 {source="skos:narrowMatch"}
+xref: RHEA:73827 {source="skos:narrowMatch"}
+xref: RHEA:73831 {source="skos:narrowMatch"}
 is_a: GO:0016757 ! glycosyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28514" xsd:anyURI
 
 [Term]
@@ -262291,9 +262331,11 @@ creation_date: 2009-07-09T03:40:15Z
 id: GO:0044103
 name: L-arabinose 1-dehydrogenase (NADP+) activity
 namespace: molecular_function
-def: "Catalysis of the reaction: L-arabinose + NADP+ = L-arabinono-1,4-lactone + NADPH + H+." [GOC:jl, PMID:16326697]
-xref: EC:1.1.1.376 {source="skos:exactMatch"}
+def: "Catalysis of the reaction: L-arabinose + NADP+ = L-arabinono-1,4-lactone + NADPH + H+." [PMID:16326697, RHEA:42664]
+xref: EC:1.1.1.376 {source="skos:broadMatch"}
+xref: RHEA:42664 {source="skos:exactMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 created_by: jl
 creation_date: 2009-07-09T04:00:30Z
@@ -271023,12 +271065,14 @@ synonym: "mitochondrial outer membrane protein import" EXACT []
 synonym: "protein import into mitochondrial outer membrane" EXACT []
 synonym: "protein transport into mitochondrial outer membrane" EXACT []
 is_a: GO:0007008 ! outer mitochondrial membrane organization
-intersection_of: GO:0051204 ! protein insertion into mitochondrial membrane
+is_a: GO:7770058 ! mitochondrial protein import pathway
+intersection_of: GO:0051205 ! protein insertion into membrane
 intersection_of: has_primary_input PR:000000001 ! protein
 intersection_of: has_target_end_location GO:0005741 ! mitochondrial outer membrane
 intersection_of: has_target_start_location GO:0005829 ! cytosol
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29962" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30453" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 
 [Term]
 id: GO:0045041
@@ -272038,12 +272082,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0045149
-name: acetoin metabolic process
+name: obsolete acetoin metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving acetoin, 3-hydroxy-2-butanone, often as part of a fermentation pathway or for use as a carbon source." [GOC:mlg]
+def: "OBSOLETE. The chemical reactions and pathways involving acetoin, 3-hydroxy-2-butanone, often as part of a fermentation pathway or for use as a carbon source." [GOC:mlg]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term.
 synonym: "acetoin metabolism" EXACT []
-intersection_of: GO:0008152 ! metabolic process
-intersection_of: has_primary_input_or_output CHEBI:15688 ! acetoin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32260" xsd:anyURI
+is_obsolete: true
+consider: GO:0045150
+consider: GO:0045151
 
 [Term]
 id: GO:0045150
@@ -293130,7 +293177,10 @@ synonym: "(15S)-15-hydroxy-5,8,11-cis-13-trans-icosatetraenoate:NAD(P)+ 15-oxido
 synonym: "15-hydroxyeicosatetraenoate dehydrogenase activity" RELATED [EC:1.1.1.232]
 xref: EC:1.1.1.232 {source="skos:exactMatch"}
 xref: MetaCyc:1.1.1.232-RXN
+xref: RHEA:23260 {source="skos:narrowMatch"}
+xref: RHEA:23264 {source="skos:narrowMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -296439,7 +296489,10 @@ synonym: "UDPglucose:flavanone 7-O-beta-D-glucosyltransferase activity" RELATED 
 synonym: "uridine diphosphoglucose-flavanone 7-O-glucosyltransferase activity" RELATED [EC:2.4.1.185]
 xref: EC:2.4.1.185 {source="skos:exactMatch"}
 xref: MetaCyc:2.4.1.185-RXN
+xref: RHEA:65152 {source="skos:narrowMatch"}
+xref: RHEA:65244 {source="skos:narrowMatch"}
 is_a: GO:0035251 ! UDP-glucosyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -304737,13 +304790,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0047770
 name: carboxylate reductase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: an aldehyde + acceptor + H2O = a carboxylate + reduced acceptor." [EC:1.2.99.6, MetaCyc:CARBOXYLATE-REDUCTASE-RXN]
+def: "Catalysis of the reaction: an aldehyde + A + H2O = a carboxylate + AH2 + H+." [RHEA:56856]
 synonym: "aldehyde:(acceptor) oxidoreductase activity" RELATED [EC:1.2.99.6]
 synonym: "aldehyde:acceptor oxidoreductase activity" RELATED [EC:1.2.99.6]
 synonym: "carboxylic acid reductase activity" RELATED [EC:1.2.99.6]
 xref: EC:1.2.99.6 {source="skos:exactMatch"}
 xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN
+xref: RHEA:56856 {source="skos:exactMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -317567,13 +317622,15 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0050022
 name: L-arabinose 1-dehydrogenase (NAD+) activity
 namespace: molecular_function
-def: "Catalysis of the reaction: L-arabinose + NAD+ = L-arabinono-1,4-lactone + NADH." [EC:1.1.1.46, MetaCyc:L-ARABINOSE-1-DEHYDROGENASE-RXN]
+def: "Catalysis of the reaction: L-arabinose + NAD+ = L-arabinono-1,4-lactone + NADH + H+." [RHEA:17925]
 synonym: "L-arabinose 1-dehydrogenase activity" BROAD []
 synonym: "L-arabinose:NAD+ 1-oxidoreductase activity" RELATED [EC:1.1.1.46]
 xref: EC:1.1.1.46 {source="skos:exactMatch"}
+xref: EC:1.1.1.376 {source="skos:broadMatch"}
 xref: MetaCyc:L-ARABINOSE-1-DEHYDROGENASE-RXN
 xref: RHEA:17925 {source="skos:exactMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -348670,12 +348727,21 @@ creation_date: 2011-04-11T03:26:04Z
 id: GO:0052673
 name: prenol kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: prenol + nucleoside triphosphate = prenyl phosphate + nucleoside diphosphate activity." [GOC:ai, GOC:kd]
+def: "Catalysis of the reaction: prenol + nucleoside triphosphate = prenyl phosphate + nucleoside diphosphate + H+." [GOC:ai, GOC:kd]
 synonym: "prenol phosphotransferase activity" EXACT []
 synonym: "prenyl alcohol kinase activity" EXACT []
 synonym: "prenyl alcohol phosphotransferase activity" EXACT []
+xref: EC:2.7.1.216 {source="skos:narrowMatch"}
+xref: RHEA:51680 {source="skos:narrowMatch"}
+xref: RHEA:61656 {source="skos:narrowMatch"}
+xref: RHEA:61660 {source="skos:narrowMatch"}
+xref: RHEA:61664 {source="skos:narrowMatch"}
+xref: RHEA:63456 {source="skos:narrowMatch"}
+xref: RHEA:63460 {source="skos:narrowMatch"}
+xref: RHEA:63464 {source="skos:narrowMatch"}
 is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16475" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 created_by: ai
 creation_date: 2011-04-11T04:02:23Z
 
@@ -368936,7 +369002,6 @@ name: obsolete negative regulation of transcription from RNA polymerase II promo
 namespace: biological_process
 def: "OBSOLETE. A transcription regulation process in which the presence of a nonfermentable carbon source leads to a decrease of the frequency, rate, or extent of transcription, from an RNA polymerase II promoter, of specific genes involved in the metabolism of other carbon sources." [GOC:dph, PMID:19686338]
 comment: The reason for obsoletion is that this represents a GO-CAM model.
-property_value: term_tracker_item "The reason for obsoletion is that these terms represent GO-CAM models." xsd:anyURI
 is_obsolete: true
 created_by: dph
 creation_date: 2012-01-23T11:33:08Z
@@ -383671,7 +383736,7 @@ xref: EC:1.14.11.80 {source="skos:exactMatch"}
 xref: RHEA:52636 {source="skos:narrowMatch"}
 xref: RHEA:53828 {source="skos:narrowMatch"}
 xref: RHEA:53832 {source="skos:narrowMatch"}
-xref: WIkipedia:DNA_demethylation
+xref: Wikipedia:DNA_demethylation
 is_a: GO:0016706 ! 2-oxoglutarate-dependent dioxygenase activity
 is_a: GO:0140097 ! catalytic activity, acting on DNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23312" xsd:anyURI
@@ -405683,6 +405748,7 @@ namespace: molecular_function
 def: "Catalysis of the transfer of Pup from one protein to another via the reaction X-Pup + Y = Y-Pup + X, where both X-Pup and Y-Pup are covalent linkages." [GOC:sp]
 synonym: "Pup conjugating enzyme activity" NARROW [GOC:mah]
 is_a: GO:0019787 ! ubiquitin-like protein transferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/7617" xsd:anyURI
 created_by: mah
 creation_date: 2010-12-15T11:58:13Z
 
@@ -421723,7 +421789,9 @@ creation_date: 2014-03-27T15:17:10Z
 id: GO:0090562
 name: protein-N(PI)-phosphohistidine-N,N'-diacetylchitobiose phosphotransferase system transporter activity
 namespace: molecular_function
-def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane. The transport happens by catalysis of the reaction: protein N-phosphohistidine + N,N'-diacetylchitobiose(out) = protein histidine + N,N'-diacetylchitobiose phosphate(in)." [GOC:am, PMID:10913119]
+def: "Catalysis of the PEP-dependent, phosphoryl transfer-driven transport of substances across a membrane according to the reaction: N,N'-diacetylchitobiose(out) + N(pros)-phospho-L-histidyl-[protein] = diacetylchitobiose-6'-phosphate(in) + L-histidyl-[protein]. This differs from primary and secondary active transport in that the solute is modified during transport." [GOC:am, PMID:10913119, RHEA:33423]
+xref: EC:2.7.1.196 {source="skos:exactMatch"}
+xref: RHEA:33423 {source="skos:exactMatch"}
 is_a: GO:0008982 ! protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31586" xsd:anyURI
 created_by: tb
@@ -444401,8 +444469,8 @@ namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: (2E,6E,10E)-geranylgeraniol + ATP = (2E,6E,10E)-geranylgeranyl phosphate + ADP + H+." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
 synonym: "ATP:geranylgeraniol phosphotransferase activity" EXACT []
-xref: RHEA:61664 {source="skos:exactMatch"}
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16475" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28776" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 is_obsolete: true
@@ -455608,7 +455676,6 @@ name: obsolete NADH oxidase H202-forming activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: NADH + H+ + O2 = NAD + hydrogen peroxide (H2O2)." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
-property_value: term_tracker_item "GO:0106293" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0016174
 created_by: hjd
@@ -455620,7 +455687,6 @@ name: obsolete NADPH oxidase H202-forming activity
 namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: NADPH + H+ + O2 = NADP + hydrogen peroxide (H2O2)." [GOC:rynl]
 comment: The reason for obsoletion is that it more specific than the specificity of any known gene product.
-property_value: term_tracker_item "GO:0106293" xsd:anyURI
 is_obsolete: true
 replaced_by: GO:0016174
 created_by: hjd
@@ -456725,7 +456791,7 @@ id: GO:0106391
 name: bI4 intron splicing complex
 namespace: cellular_component
 def: "A protein complex required for the splicing of intron 4 of the cytochrome b (COB) gene. In S. cerevisiae, the complex contains the maturase bI4 (which derives from one of the products of the splicing), Leucyl-tRNA synthetase NAM2 and the intron 4 of the cytochrome b pre-mRNA. The two proteins stimulate the ribozyme activity of the pre-mRNA which autocatalyze a group I intron splicing." [GOC:lnp, PMID:19622748]
-xref: Intact:EBI-16420264
+xref: IntAct:EBI-16420264
 is_a: GO:1902555 ! endoribonuclease complex
 relationship: capable_of GO:0004521 ! RNA endonuclease activity
 relationship: capable_of_part_of GO:0000372 ! Group I intron splicing
@@ -456738,7 +456804,7 @@ id: GO:0106392
 name: bI3 intron splicing complex
 namespace: cellular_component
 def: "A protein complex required for the splicing of intron 3 of the cytochrome b (COB) gene. In S. cerevisiae, the complex contains the maturase bI3 (which derives from one of the products of the splicing), the MRS1 cofactor and the intron 4 of the cytochrome b pre-mRNA. The two proteins stimulate the ribozyme activity of the pre-mRNA which autocatalyze a group I intron splicing." [GOC:lnp, PMID:11773622]
-xref: Intact:EBI-16426213
+xref: IntAct:EBI-16426213
 is_a: GO:1902555 ! endoribonuclease complex
 relationship: capable_of GO:0004521 ! RNA endonuclease activity
 relationship: capable_of_part_of GO:0000372 ! Group I intron splicing
@@ -471262,6 +471328,16 @@ created_by: pg
 creation_date: 2020-11-12T13:01:17Z
 
 [Term]
+id: GO:0140551
+name: ubiquitin protein ligase activity via oxyester bond
+namespace: molecular_function
+def: "Catalysis of the transfer of ubiquitin to a substrate protein via an oxyester bond between the C-terminal glycine of ubiquitin and the hydroxyl group of serine or threonine residues in the substrate." [PMID:37870100, PMID:39116872]
+is_a: GO:0004842 ! ubiquitin-protein transferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32792" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T09:44:22Z
+
+[Term]
 id: GO:0140552
 name: TEAD-YAP complex
 namespace: cellular_component
@@ -471281,6 +471357,72 @@ is_a: GO:0090575 ! RNA polymerase II transcription regulator complex
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/9300" xsd:anyURI
 created_by: pg
 creation_date: 2020-11-17T07:05:23Z
+
+[Term]
+id: GO:0140553
+name: phosphoribosyl-ubiquitin transferase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of phosphoribosyl-ubiquitin (PR-ubiquitin), generated by cleavage of ADP-ribosylated ubiquitin, to a substrate protein, linking the phosphoribosyl group to the hydroxyl group of a serine residue in the substrate." [PMID:29795347]
+synonym: "phosphoribosyl-linked serine ubiquitination activity" EXACT []
+synonym: "PR-ubiquitin transferase activity" EXACT []
+synonym: "PR-ubiquitination activity" EXACT []
+xref: RHEA:91527 {source="skos:narrowMatch"}
+xref: RHEA:91539 {source="skos:narrowMatch"}
+is_a: GO:0016780 ! phosphotransferase activity, for other substituted phosphate groups
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016567 ! protein ubiquitination
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T13:53:56Z
+
+[Term]
+id: GO:0140555
+name: 3-phosphoglycerate adenylyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: 3-phosphoglycerate + ATP = 2-AMP-3-phosphoglycerate + diphosphate." [PMID:42497854, RHEA:90475]
+xref: RHEA:90475 {source="skos:exactMatch"}
+is_a: GO:0070566 ! adenylyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:01:51Z
+
+[Term]
+id: GO:0140556
+name: phosphoribosyl-ubiquitin adenylyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: ubiquitin-phosphoribosyl-L-arginyl-[protein] + ATP = ubiquitin-ADP-D-ribosyl-L-arginyl-[protein] + diphosphate." [PMID:38776962, RHEA:91547]
+xref: RHEA:91547 {source="skos:exactMatch"}
+is_a: GO:0070566 ! adenylyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:07:21Z
+
+[Term]
+id: GO:0140557
+name: phosphoryl-AMPylase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: ATP + phosphoprotein = diphosphate + adenylyl-phosphoprotein; mediates the addition of an adenylyl (adenosine 5'-monophosphate; AMP group) to a phosphoserine, a phosphothreonine, or a phosphotyrosine residue in a target protein." [PMID:38776962]
+xref: RHEA:91551 {source="skos:narrowMatch"}
+xref: RHEA:91555 {source="skos:narrowMatch"}
+xref: RHEA:91560 {source="skos:narrowMatch"}
+is_a: GO:0070733 ! AMPylase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:17:08Z
+
+[Term]
+id: GO:0140558
+name: phosphoribosyl-ubiquitin hydrolase activity
+namespace: molecular_function
+def: "Catalysis of the hydrolysis of the phosphodiester bond linking phosphoribosyl-ubiquitin to a serine residue in a target protein, releasing phosphoribosyl-ubiquitin." [PMID:31732457, RHEA:91571]
+synonym: "phosphoribosyl-ubiquitin peptidase activity" RELATED []
+xref: RHEA:91571 {source="skos:exactMatch"}
+is_a: GO:0008081 ! phosphoric diester hydrolase activity
+is_a: GO:0140096 ! catalytic activity, acting on a protein
+relationship: part_of GO:0016579 ! protein deubiquitination
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32785" xsd:anyURI
+created_by: pg
+creation_date: 2026-10-27T14:21:06Z
 
 [Term]
 id: GO:0140560
@@ -472225,7 +472367,7 @@ name: neutrophil extracellular trap formation
 namespace: biological_process
 def: "The aggregation, arrangement and bonding together of a set of components to form a neutrophil extracellular trap, a network of extracellular fibers primarily composed of DNA from neutrophils, which bind and neutralizes pathogens." [PMID:28267716]
 synonym: "NET formation" BROAD []
-xref: http://purl.obolibrary.org/obo/TXPO_0002149
+xref: TXPO:0002149
 intersection_of: GO:0022607 ! cellular component assembly
 intersection_of: results_in_formation_of GO:0140644 ! neutrophil extracellular trap
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21416" xsd:anyURI
@@ -473448,7 +473590,7 @@ creation_date: 2021-11-30T06:13:31Z
 
 [Term]
 id: GO:0140740
-name: ADP-riboxanase-[protein] activity
+name: arginine-[protein] ADP-riboxanase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: L-arginyl-[protein] + NAD+ = ADP-riboxanated L-argininyl-[protein] + H+ + NH4+ + nicotinamide." [PMID:34671164, RHEA:69500]
 comment: Note that this activity has two steps: a transfer of an ADP-ribose group, followed by the elimination of an ammonia group.
@@ -482131,7 +482273,7 @@ id: GO:0160097
 name: reverse gyrase activity
 namespace: molecular_function
 def: "Catalysis of a DNA topological transformation by transiently cleaving one DNA strand at a time to allow passage of another strand; changes the linking number by +1 per catalytic cycle, is driven by ATP hydrolysis." [PMID:25013168]
-xref: WIKIPEDIA:Reverse_gyrase
+xref: Wikipedia:Reverse_gyrase
 is_a: GO:0003916 ! DNA topoisomerase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26019" xsd:anyURI
 created_by: rynl
@@ -484174,7 +484316,7 @@ synonym: "sweating" EXACT []
 is_a: GO:0007589 ! body fluid secretion
 is_a: GO:0032941 ! secretion by tissue
 is_a: onlyin:40674
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30274." xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30274" xsd:anyURI
 created_by: rynl
 creation_date: 2025-05-19T20:55:14Z
 
@@ -485706,6 +485848,22 @@ intersection_of: has_primary_output CHEBI:15688 ! acetoin
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32260" xsd:anyURI
 created_by: ew
 creation_date: 2026-10-12T15:29:05Z
+
+[Term]
+id: GO:0170087
+name: drosopterin biosynthetic process
+namespace: biological_process
+def: "The chemical reactions and pathways resulting in the formation of drosopterins, a family of orange-red pteridine-derived pigments that includes drosopterin, isodrosopterin, aurodrosopterin, isoaurodrosopterin and neodrosopterin. Drosopterins are the red eye pigments of Drosophila and also occur in the integument of other arthropods and of fish, amphibians and reptiles." [PMID:34403644]
+synonym: "drosopterin anabolism" EXACT []
+synonym: "drosopterin biosynthesis" EXACT []
+synonym: "drosopterin formation" EXACT []
+synonym: "drosopterin synthesis" EXACT []
+xref: MetaCyc:PWY-7442 {source="skos:narrowMatch"}
+is_a: GO:0042559 ! pteridine-containing compound biosynthetic process
+is_a: GO:0046148 ! pigment biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32802" xsd:anyURI
+created_by: ew
+creation_date: 2026-10-28T17:46:47Z
 
 [Term]
 id: GO:0180000
@@ -593383,7 +593541,6 @@ name: obsolete inhibition of cysteine-type endopeptidase activity involved in ap
 namespace: biological_process
 def: "OBSOLETE. Any process that prevents the activation of an inactive cysteine-type endopeptidase involved in an apoptotic process." [GOC:mtg_apoptosis, PMID:11943137]
 comment: The reason for obsoletion is that this term represents a GO-CAM model.
-property_value: term_tracker_item "The reason for obsoletion is that this term represents a GO-CAM model." xsd:anyURI
 is_obsolete: true
 created_by: pr
 creation_date: 2012-12-05T15:42:50Z
@@ -620980,8 +621137,10 @@ def: "The import of proteins from the cytosol to their final destination in the 
 subset: goslim_pombe
 synonym: "mitochondrial protein import" EXACT []
 is_a: GO:0006839 ! mitochondrial transport
+is_a: GO:0006886 ! intracellular protein transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32292" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T10:06:36Z
 
@@ -620994,8 +621153,8 @@ comment: In yeast, the insertase is the mitochondrial import (MIM) complex, comp
 synonym: "MIM pathway" NARROW []
 synonym: "MTCH pathway" NARROW []
 is_a: GO:0045040 ! protein insertion into mitochondrial outer membrane
-is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T12:53:29Z
 
@@ -621043,8 +621202,8 @@ namespace: biological_process
 def: "The import of beta barrel proteins from the cytosol and their insertion into the mitochondrial outer membrane." [PMID:36931257]
 synonym: "TOM-SAM pathway" EXACT []
 is_a: GO:0045040 ! protein insertion into mitochondrial outer membrane
-is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32106" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-15T13:26:12Z
 
@@ -622179,6 +622338,22 @@ is_a: GO:0016646 ! oxidoreductase activity, acting on the CH-NH group of donors,
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32707" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-10-26T11:34:55Z
+
+[Term]
+id: GO:7770143
+name: trans-2,3-dihydro-3-hydroxyanthranilic acid synthase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: (2S)-2-amino-4-deoxychorismate + H2O = (5S,6S)-6-amino-5-hydroxycyclohexa-1,3-diene-1-carboxylate + pyruvate." [PMID:12741825, RHEA:49456]
+synonym: "(2S)-2-amino-4-deoxychorismate pyruvate-hydrolase activity" RELATED [EC:3.3.2.15]
+synonym: "PhzD activity" RELATED []
+xref: EC:3.3.2.15 {source="skos:exactMatch"}
+xref: MetaCyc:RXN-9030 {source="skos:exactMatch"}
+xref: RHEA:49456 {source="skos:exactMatch"}
+is_a: GO:0016803 ! ether hydrolase activity
+relationship: part_of GO:0002047 ! phenazine biosynthetic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29865" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-10-28T16:23:15Z
 
 [Typedef]
 id: acts_on_population_of
