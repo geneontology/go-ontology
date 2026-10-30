@@ -470934,7 +470934,6 @@ def: "An acellular extracellular matrix that overlies the cochlear neuroepitheli
 comment: Note that this term has no relationship to 'membrane ; GO:0016020' because the tectorial membrane is not a lipid bilayer.
 synonym: "Kimura membrane" NARROW []
 synonym: "sallet" NARROW []
-xref: UBERON:0002233
 is_a: GO:0140047 ! specialized extracellular matrix
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32724" xsd:anyURI
 created_by: pg
