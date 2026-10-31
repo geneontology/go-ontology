@@ -916,7 +916,6 @@ http://purl.obolibrary.org/obo/GO_1903017	positive regulation of exo-alpha-siali
 http://purl.obolibrary.org/obo/GO_0001930	positive regulation of exocyst assembly	http://purl.obolibrary.org/obo/GO_0001927	exocyst assembly
 http://purl.obolibrary.org/obo/GO_0045921	positive regulation of exocytosis	http://purl.obolibrary.org/obo/GO_0006887	exocytosis
 http://purl.obolibrary.org/obo/GO_1903543	positive regulation of exosomal secretion	http://purl.obolibrary.org/obo/GO_1990182	exosomal secretion
-http://purl.obolibrary.org/obo/GO_1903553	positive regulation of extracellular exosome assembly	http://purl.obolibrary.org/obo/GO_0071971	extracellular exosome assembly
 http://purl.obolibrary.org/obo/GO_1901203	positive regulation of extracellular matrix assembly	http://purl.obolibrary.org/obo/GO_0085029	extracellular matrix assembly
 http://purl.obolibrary.org/obo/GO_0003331	positive regulation of extracellular matrix constituent secretion	http://purl.obolibrary.org/obo/GO_0070278	extracellular matrix constituent secretion
 http://purl.obolibrary.org/obo/GO_0090091	positive regulation of extracellular matrix disassembly	http://purl.obolibrary.org/obo/GO_0022617	extracellular matrix disassembly
@@ -980,7 +979,7 @@ http://purl.obolibrary.org/obo/GO_1905944	positive regulation of formation of gr
 http://purl.obolibrary.org/obo/GO_0061926	positive regulation of formation of radial glial scaffolds	http://purl.obolibrary.org/obo/GO_0021943	formation of radial glial scaffolds
 http://purl.obolibrary.org/obo/GO_0075031	positive regulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of appressorium germ tube hook structure
 http://purl.obolibrary.org/obo/GO_1901192	positive regulation of formation of translation initiation ternary complex	http://purl.obolibrary.org/obo/GO_0001677	formation of translation initiation ternary complex
-http://purl.obolibrary.org/obo/GO_1901195	positive regulation of formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0001731	formation of translation preinitiation complex
+http://purl.obolibrary.org/obo/GO_1901195	positive regulation of formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0001731	formation of cytoplasmic translation preinitiation complex
 http://purl.obolibrary.org/obo/GO_0090338	positive regulation of formin-nucleated actin cable assembly	http://purl.obolibrary.org/obo/GO_0070649	formin-nucleated actin cable assembly
 http://purl.obolibrary.org/obo/GO_1905850	positive regulation of forward locomotion	http://purl.obolibrary.org/obo/GO_0043056	forward locomotion
 http://purl.obolibrary.org/obo/GO_0032724	positive regulation of fractalkine production	http://purl.obolibrary.org/obo/GO_0032603	fractalkine production
@@ -1252,7 +1251,6 @@ http://purl.obolibrary.org/obo/GO_0032388	positive regulation of intracellular t
 http://purl.obolibrary.org/obo/GO_1901254	positive regulation of intracellular transport of viral material	http://purl.obolibrary.org/obo/GO_0075733	intracellular transport of virus
 http://purl.obolibrary.org/obo/GO_1905798	positive regulation of intraciliary anterograde transport	http://purl.obolibrary.org/obo/GO_0035720	intraciliary anterograde transport
 http://purl.obolibrary.org/obo/GO_1905801	positive regulation of intraciliary retrograde transport	http://purl.obolibrary.org/obo/GO_0035721	intraciliary retrograde transport
-http://purl.obolibrary.org/obo/GO_1905367	positive regulation of intralumenal vesicle formation	http://purl.obolibrary.org/obo/GO_0070676	intralumenal vesicle formation
 http://purl.obolibrary.org/obo/GO_2001244	positive regulation of intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0097193	intrinsic apoptotic signaling pathway
 http://purl.obolibrary.org/obo/GO_1902255	positive regulation of intrinsic apoptotic signaling pathway by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072332	intrinsic apoptotic signaling pathway by p53 class mediator
 http://purl.obolibrary.org/obo/GO_1902231	positive regulation of intrinsic apoptotic signaling pathway in response to DNA damage	http://purl.obolibrary.org/obo/GO_0008630	intrinsic apoptotic signaling pathway in response to DNA damage
