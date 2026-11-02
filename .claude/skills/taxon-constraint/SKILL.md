@@ -14,9 +14,15 @@ is_a: neverin:4896
 is_a: onlyin:4952 {source="PMID:10629216", source="PMID:14504266"}
 ```
 
-The class labels are "only in <taxon>" and "never in <taxon>". OBO comments
-after `!` are helpful when present, but do not rely on them being preserved by
-serialization for these internal idspaces.
+The class labels are "only in <taxon>" and "never in <taxon>".
+
+**Do not add trailing `! only in X` / `! never in X` OBO comments** to these
+axioms when editing. The referenced classes are declared in
+`imports/go-taxon-constraint-classes.ofn`, not in `go-edit.obo`, so a `robot
+convert` round-trip through `go-edit.obo` cannot resolve the label and drops
+the comment — the next editor of the region sees a phantom deletion. The
+house style is bare: no `is_a: neverin:*` / `is_a: onlyin:*` axiom in
+`go-edit.obo` carries a trailing `!` comment (0 of 1666 as of 2026-11).
 
 ## Creating new taxon constraints
 
@@ -65,6 +71,58 @@ is_a: onlyin:4952 {source="PMID:10629216", source="PMID:14504266"}
 
 Use the same care as before: research both phylogeny and GO term usage, and
 report the evidence when communicating on the issue or PR.
+
+### What may appear inside `{source="…"}`
+
+The default is to find and cite a PMID whose scope actually covers the taxa
+the axiom asserts over. Only when that search fails should the axiom go
+unsourced — the reasoning then belongs in the tracker item, not on the axiom.
+
+Every PMID cited on a taxon-constraint axiom must have been read for scope,
+not just for topic: a 1972 survey of vertebrates and amphioxus is not
+evidence about arthropods, even if its title uses the phrase "the animal
+kingdom". Cite what the paper looked at, not what it aspired to.
+
+Allowed values inside `{source="…"}`:
+
+- **PMIDs** — the default, and what most sourced axioms carry.
+- **Registered `GOC:` handles** — e.g. `GOC:vw`, `GOC:kmv`. These are curator
+  identifiers, not free text. Do **not** invent a new `GOC:<agent>`
+  identifier; if the handle you want to use is not already present in
+  `go-edit.obo` and not registered in the go-site metadata, do not use it.
+- **`ORCID:…`** — where a specific person's expert judgement is the evidence.
+
+If none of the above fits, leave the axiom unsourced rather than reach for a
+citation that does not support what it is being asked to support. Unsourced
+is not a failure state: 695 of the 735 `is_a: neverin:*` axioms in
+`go-edit.obo` carry no `source=` annotation at all (as of 2026-11). A wrong
+citation is a defect; a missing one is a style choice — but "missing" only
+after the search, not instead of it.
+
+## Metabolism vs biosynthesis / catabolism
+
+Placing a `neverin:` on an `X metabolic process` term is a stronger claim
+than it looks: metabolism covers both biosynthesis and catabolism, and
+degradation pathways in the target taxon can produce the substance from a
+derivative (e.g. bacterial and fungal creatininase converts creatinine to
+creatine as `has_primary_output`).
+
+Before placing a `neverin:` at metabolism level, verify the constraint
+holds for **both** the biosynthesis and the catabolism side. If only one
+side is safe, place the constraint on the safe child term and let the
+other child remain unconstrained.
+
+Before placing a `neverin:` on an `X biosynthetic process` term, check
+whether any documented pathway in the target taxon has the substance as
+`has_primary_output` — including as a degradation intermediate — since the
+logical definition (`biosynthetic process and has_primary_output X`) is
+route-agnostic and will collide with any such pathway.
+
+For any candidate constraint, also query the annotation store (e.g. QuickGO)
+for existing IDA / IMP / IPI annotations to the target term or its
+descendants in the target taxon. If any exist, the constraint will ship in
+a state that invalidates them — either drop the constraint or file the
+retraction request first.
 
 ## Querying NCBITaxon
 
