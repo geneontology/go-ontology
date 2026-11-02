@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "agent",
+            "prompt": "You are a completion verifier for the GO ontology AI agent (@dragon-ai-agent). Your job is to check whether the agent actually completed its task before allowing it to stop.\n\nIMPORTANT: First check the stop_hook_active field in $ARGUMENTS. If it is true, respond with {\"ok\": true} immediately — the agent has already been sent back once and should be allowed to stop now.\n\nOtherwise, read the transcript at the transcript_path from $ARGUMENTS to understand:\n\n1. What was the user's request? Note: in GitHub Actions, the transcript will contain an auto-injected prompt like 'address issue NNN'. You may need to find the actual issue content by looking for the gh issue view output in the transcript.\n\n2. Did the agent produce an appropriate deliverable? Look for ACTUAL tool_use entries (not just text assertions) showing:\n   - gh pr create (for term creation, obsoletion, edits)\n   - gh issue comment (for questions, research, status updates, or explaining why work was not done)\n   - git push (branch was pushed)\n\n3. If the agent determined it SHOULD NOT proceed (e.g., ambiguous request, needs clarification, too complex) and communicated this back via gh issue comment, that counts as complete.\n\n4. If validation failed and the agent reported the failure via gh issue comment, that counts as complete.\n\n5. If the request was purely conversational (asked within Claude Code CLI, not from GitHub Actions), and no GitHub deliverable was expected, that counts as complete.\n\nCheck actual tool call entries in the transcript. Do not trust text assertions like 'The research is complete' — verify that commands were actually executed.\n\nIf the task appears genuinely incomplete (no deliverables produced, no communication back to the user), respond with:\n{\"ok\": false, \"reason\": \"<specific description of what is missing>\"}\n\nIf complete, respond with:\n{\"ok\": true}",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
