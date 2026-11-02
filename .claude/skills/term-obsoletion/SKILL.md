@@ -116,6 +116,10 @@ If you are obsoleting GO:1234567, you can find usages:
 You must remove these usages. Do not just delete edges without thinking. You must think hard about replacement terms.
 If you deem the impact of obsoletion to be too high or you need feedback on how to handle cascading effects, you should stop short of obsoleting the term, and instead provide an impact analysis and open questions in your gh issue summary.
 
+## Check open tickets
+
+go-edit.obo shows only the current state. Before settling `replaced_by:` / `consider:` or annotation targets, search open go-ontology issues and PRs for the terms being obsoleted and their proposed replacements. Ignore your own ticket and its PR. If a replacement has an open obsoletion request or pending change, report it on the ticket and do not use it until that is resolved.
+
 ## Analyzing impact of obsoletion on other ontologies
 
 Many of the core biological ontologies that use GO are in Ubergraph:
@@ -180,6 +184,7 @@ For each annotation from this PMID, determine:
 
 Option A: **Replace with specific term**
 - If the issue proposes a replacement term, verify it matches the experimental evidence
+- Check the replacement term is not itself under discussion (see "Check open tickets")
 - If no replacement proposed, identify the most appropriate term based on the paper
 - Use `obo-grep.pl` to verify proposed replacement terms exist
 
