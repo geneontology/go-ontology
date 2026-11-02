@@ -375,9 +375,11 @@ jobs:
             This is a single non-interactive session. Ending your turn ends the job: nothing will
             wake you when a background task finishes, and uncommitted work is lost with the runner.
             - Never use `run_in_background` for a command whose result you need (e.g. `make travis_test`).
-            - If a command does end up in the background, wait for it in the foreground before going on,
-              e.g. `until grep -q '^EXIT' /tmp/travis.log; do sleep 30; done` with a Bash timeout of
-              600000 ms, repeated as needed.
+            - If a command does end up in the background, wait for it in the foreground before going on.
+              Start it so it writes its own completion marker, e.g.
+              `(make travis_test > /tmp/travis.log 2>&1; echo "EXIT $?" >> /tmp/travis.log) &`,
+              then `until grep -q '^EXIT' /tmp/travis.log; do sleep 30; done` with a Bash timeout of
+              600000 ms, repeated as needed, and check the exit code on the `EXIT` line.
             - Never end your turn while a background task is still running. If you must stop, commit,
               push, and post a comment saying what is unfinished first.
 
