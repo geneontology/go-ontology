@@ -173633,7 +173633,7 @@ id: GO:0031012
 name: extracellular matrix
 namespace: cellular_component
 alt_id: GO:0005578
-def: "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues." [GOC:BHF, GOC:mah, GOC:rph, PMID:21123617, PMID:28089324, PMID:33605520]
+def: "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues." [PMID:21123617, PMID:21937732, PMID:33605520, PMID:39223427]
 subset: goslim_chembl
 subset: goslim_drosophila
 subset: goslim_euk_cellular_processes_ribbon
@@ -173645,6 +173645,7 @@ synonym: "proteinaceous extracellular matrix" EXACT []
 xref: NIF_Subcellular:nlx_subcell_20090513
 xref: Wikipedia:Extracellular_matrix
 is_a: GO:0030312 ! external encapsulating structure
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32853" xsd:anyURI
 
 [Term]
 id: GO:0031013
@@ -317625,8 +317626,8 @@ namespace: molecular_function
 def: "Catalysis of the reaction: L-arabinose + NAD+ = L-arabinono-1,4-lactone + NADH + H+." [RHEA:17925]
 synonym: "L-arabinose 1-dehydrogenase activity" BROAD []
 synonym: "L-arabinose:NAD+ 1-oxidoreductase activity" RELATED [EC:1.1.1.46]
-xref: EC:1.1.1.46 {source="skos:exactMatch"}
 xref: EC:1.1.1.376 {source="skos:broadMatch"}
+xref: EC:1.1.1.46 {source="skos:exactMatch"}
 xref: MetaCyc:L-ARABINOSE-1-DEHYDROGENASE-RXN
 xref: RHEA:17925 {source="skos:exactMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
