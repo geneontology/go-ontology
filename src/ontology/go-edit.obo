@@ -622396,7 +622396,7 @@ creation_date: 2026-11-03T08:16:34Z
 id: GO:7770146
 name: ubiquitin nucleic acid ligase activity
 namespace: molecular_function
-def: "Catalysis of the transfer of ubiquitin to a nucleic acid via the reaction E3-ubiquitin + nucleic acid = E3 + nucleic acid-ubiquitin, where E3 is an E3 ubiquitin ligase, the E3-ubiquitin linkage is a thioester bond, and the nucleic acid-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and the nucleic acid." [PMID:37120410]
+def: "Catalysis of the transfer of ubiquitin to a nucleic acid via the reaction E3-ubiquitin + nucleic acid = E3 + nucleic acid-ubiquitin, where E3 is an E3 ubiquitin ligase, and the nucleic acid-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and the nucleic acid." [PMID:37120410]
 xref: EC:2.3.2.- {source="skos:broadMatch"}
 is_a: GO:0016755 ! aminoacyltransferase activity
 relationship: has_primary_input CHEBI:33696 ! nucleic acid
