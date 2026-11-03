@@ -12127,7 +12127,6 @@ namespace: biological_process
 def: "Coordinated organization of groups of cells in the plane of a tissue (e.g. epithelium), such that they all orient to similar coordinates." [GOC:dph, PMID:28293032, PMID:28869926, PMID:34338785]
 comment: When appropriate, Wnt ligands can be annotated to this term.
 synonym: "establishment of planar cell polarity" NARROW []
-is_a: GO:0007164 ! establishment of tissue polarity
 is_a: GO:0048729 ! tissue morphogenesis
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
 
@@ -72384,12 +72383,13 @@ is_a: GO:0009987 ! cellular process
 
 [Term]
 id: GO:0007164
-name: establishment of tissue polarity
+name: obsolete establishment of tissue polarity
 namespace: biological_process
-def: "Coordinated organization of groups of cells in a tissue, such that they all orient to similar coordinates." [GOC:jid]
-is_a: GO:0009653 ! anatomical structure morphogenesis
-is_a: GO:0032502 ! developmental process
-is_a: neverin:4751
+def: "OBSOLETE. Coordinated organization of groups of cells in a tissue, such that they all orient to similar coordinates." [GOC:jid]
+comment: The reason for obsoletion is that this term has a single child, GO:0001736 establishment of planar polarity, and no other type of tissue polarity is known (GO terms for basal/lateral polarity are under cell polarity).
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0007165
