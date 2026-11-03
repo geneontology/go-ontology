@@ -24,8 +24,8 @@ subsetdef: goslim_yeast "Yeast GO slim"
 synonymtypedef: syngo_official_label "label approved by the SynGO project"
 synonymtypedef: systematic_synonym "Systematic synonym" EXACT
 default-namespace: gene_ontology
-idspace: neverin http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_ 
-idspace: onlyin http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_ 
+idspace: neverin http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_
+idspace: onlyin http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_
 import: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
 import: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
 import: http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl
@@ -482425,6 +482425,7 @@ id: GO:0160108
 name: animal gross anatomical part developmental process
 namespace: biological_process
 def: "A developmental process whose specific outcome is the progression of a gross anatomical part of an animal over time from an initial condition to a later condition." [GOC:pg]
+subset: gocheck_do_not_annotate
 synonym: "animal development" RELATED []
 is_a: GO:0048856 ! anatomical structure development
 is_a: onlyin:33208
@@ -482437,6 +482438,7 @@ id: GO:0160109
 name: plant gross anatomical part developmental process
 namespace: biological_process
 def: "A developmental process whose specific outcome is the progression of a gross anatomical part of a plant over time from an initial condition to a later condition." [GOC:pg]
+subset: gocheck_do_not_annotate
 synonym: "plant development" RELATED []
 is_a: GO:0048856 ! anatomical structure development
 is_a: onlyin:33090
