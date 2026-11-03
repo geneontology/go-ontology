@@ -622447,6 +622447,28 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-03T10:36:55Z
 
+[Term]
+id: GO:7770149
+name: histone H2AK119ub reader activity
+namespace: molecular_function
+def: "A histone reader that recognizes a histone H2A ubiquitinated at lysine 119." [PMID:35534561]
+synonym: "H2AK119ub modified histone binding" NARROW []
+is_a: GO:0140054 ! histone H2A reader activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32790" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T11:27:01Z
+
+[Term]
+id: GO:7770150
+name: histone H3K36me2 reader activity
+namespace: molecular_function
+def: "A histone reader that recognizes a histone H3 dimethylated at lysine 36." [PMID:31485078]
+synonym: "H3K36me2 modified histone binding" NARROW []
+is_a: GO:0140006 ! histone H3 reader activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32790" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T11:27:01Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
