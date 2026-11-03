@@ -67,21 +67,16 @@ is_a: onlyin:4952 {source="PMID:10629216", source="PMID:14504266"}
 Use the same care as before: research both phylogeny and GO term usage, and
 report the evidence when communicating on the issue or PR.
 
-- `source` values are PMIDs, existing `GOC:` handles, or ORCIDs. Never invent
-  a `GOC:` handle.
-- A cited paper must cover the taxon in the axiom, not just the topic.
-- Most `neverin:` axioms are unsourced. If no paper covers the taxon, leave
-  the axiom unsourced and give the reasoning on the issue or PR.
+`source` values are PMIDs, existing `GOC:` handles, or ORCIDs. A cited paper
+must cover the taxon in the axiom, not just the topic; if none does, leave the
+axiom unsourced.
 
 ## Check every route to the substance
 
-`X biosynthetic process` is defined by `has_primary_output X` whatever the
-route, and `X metabolic process` covers synthesis and breakdown. Before adding
-`neverin:`, check that no organism in the taxon makes X by any route,
-including from breakdown of a derivative (bacterial and fungal creatininase
-makes creatine from creatinine). Also check existing experimental annotations
-(IDA/IMP/IPI) to the term and its descendants in that taxon, and resolve any
-the constraint would violate before adding it.
+Before adding `neverin:` to an X biosynthetic or metabolic process, check that
+no organism in the taxon produces X by any route, including breakdown of a
+derivative (e.g. creatininase: creatinine to creatine). Also check existing
+experimental annotations to the term and its descendants in that taxon.
 
 ## Querying NCBITaxon
 

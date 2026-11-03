@@ -27,12 +27,9 @@ Review what CI structurally cannot see.
 
 ## Re-reviews with no new content
 
-If this is a re-review and the in-scope files are unchanged since the head you
-last reviewed (`git diff <previous-head> HEAD -- <files>` is empty, e.g. after
-a clean merge from master), don't redo the review. Post one line saying nothing
-changed since round N and the findings stand, and don't submit a new review
-verdict. Use `git diff`, not `git show --cc`, which misses changes from earlier
-commits. If you can't determine the previous head, review normally.
+If `git diff <previously-reviewed-head> HEAD -- <in-scope files>` is empty,
+don't redo the review. Post one line saying nothing changed since round N and
+the findings stand, without a new review verdict.
 
 ## Size the change before reviewing it
 
