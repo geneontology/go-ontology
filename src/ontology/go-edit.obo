@@ -73471,6 +73471,8 @@ synonym: "JAK-STAT signal transduction" EXACT [GOC:signaling]
 synonym: "receptor signaling pathway via JAK-STAT" EXACT []
 xref: Wikipedia:JAK-STAT_signaling_pathway
 is_a: GO:0097696 ! cell surface receptor signaling pathway via STAT
+is_a: neverin:6231
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32689" xsd:anyURI
 
 [Term]
 id: GO:0007260
@@ -80050,7 +80052,7 @@ name: JAK pathway signal transduction adaptor activity
 namespace: molecular_function
 def: "The binding activity of a molecule that brings together two molecules of the JAK signal transduction pathway, permitting them to function in a coordinated way." [GOC:mtg_MIT_16mar07]
 is_a: GO:0035591 ! signaling adaptor activity
-relationship: part_of GO:0046425 ! regulation of receptor signaling pathway via JAK-STAT
+relationship: part_of GO:0046425 ! regulation of cell surface receptor signaling pathway via JAK-STAT
 
 [Term]
 id: GO:0008270
@@ -245439,7 +245441,7 @@ def: "The process of introducing a phosphate group to a serine residue of a STAT
 subset: gocheck_obsoletion_candidate
 synonym: "serine phosphorylation of STAT3 protein" NARROW []
 is_a: GO:0018105 ! peptidyl-serine phosphorylation
-relationship: part_of GO:0046425 ! regulation of receptor signaling pathway via JAK-STAT
+relationship: part_of GO:0046425 ! regulation of cell surface receptor signaling pathway via JAK-STAT
 
 [Term]
 id: GO:0042509
@@ -250072,7 +250074,7 @@ synonym: "tyrosine phosphorylation of JAK1 protein" NARROW [GOC:dph, GOC:tb]
 synonym: "tyrosine phosphorylation of JAK2 protein" NARROW []
 is_a: GO:0018108 ! peptidyl-tyrosine phosphorylation
 is_a: GO:0032147 ! activation of protein kinase activity
-relationship: part_of GO:0046427 ! positive regulation of receptor signaling pathway via JAK-STAT
+relationship: part_of GO:0046427 ! positive regulation of cell surface receptor signaling pathway via JAK-STAT
 
 [Term]
 id: GO:0042978
@@ -286271,21 +286273,25 @@ is_a: GO:0016651 ! oxidoreductase activity, acting on NAD(P)H
 
 [Term]
 id: GO:0046425
-name: regulation of receptor signaling pathway via JAK-STAT
+name: regulation of cell surface receptor signaling pathway via JAK-STAT
 namespace: biological_process
 alt_id: GO:0007262
 alt_id: GO:2000364
 def: "Any process that modulates the frequency, rate or extent of receptor signaling via JAK-STAT." [GOC:bf]
+synonym: "regulation of receptor signaling pathway via JAK-STAT" EXACT []
 synonym: "regulation of STAT protein import into nucleus" NARROW []
 synonym: "regulation of STAT protein nuclear translocation" NARROW [GOC:obol]
 synonym: "STAT protein import into nucleus" NARROW []
+is_a: neverin:6231
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0007259 ! cell surface receptor signaling pathway via JAK-STAT
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/13686" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14167" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32689" xsd:anyURI
 
 [Term]
 id: GO:0046426
-name: negative regulation of receptor signaling pathway via JAK-STAT
+name: negative regulation of cell surface receptor signaling pathway via JAK-STAT
 namespace: biological_process
 alt_id: GO:2000365
 def: "Any process that stops, prevents, or reduces the frequency, rate or extent of a receptor signaling pathway via JAK-STAT." [GOC:bf]
@@ -286293,18 +286299,21 @@ synonym: "down regulation of JAK-STAT cascade" EXACT []
 synonym: "down-regulation of JAK-STAT cascade" EXACT []
 synonym: "downregulation of JAK-STAT cascade" EXACT []
 synonym: "inhibition of JAK-STAT cascade" NARROW []
+synonym: "negative regulation of receptor signaling pathway via JAK-STAT" EXACT []
 synonym: "negative regulation of STAT protein import into nucleus" NARROW []
 synonym: "negative regulation of STAT protein nuclear translocation" NARROW [GOC:obol]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0007259 ! cell surface receptor signaling pathway via JAK-STAT
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14167" xsd:anyURI
 
 [Term]
 id: GO:0046427
-name: positive regulation of receptor signaling pathway via JAK-STAT
+name: positive regulation of cell surface receptor signaling pathway via JAK-STAT
 namespace: biological_process
 alt_id: GO:2000366
 def: "Any process that activates or increases the frequency, rate or extent of the JAK-STAT signaling pathway activity." [GOC:bf]
 synonym: "activation of JAK-STAT cascade" NARROW []
+synonym: "positive regulation of receptor signaling pathway via JAK-STAT" EXACT []
 synonym: "positive regulation of STAT protein import into nucleus" NARROW []
 synonym: "positive regulation of STAT protein nuclear translocation" NARROW [GOC:obol]
 synonym: "stimulation of JAK-STAT cascade" NARROW []
@@ -286313,6 +286322,7 @@ synonym: "up-regulation of JAK-STAT cascade" EXACT []
 synonym: "upregulation of JAK-STAT cascade" EXACT []
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0007259 ! cell surface receptor signaling pathway via JAK-STAT
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14167" xsd:anyURI
 
 [Term]
 id: GO:0046428
