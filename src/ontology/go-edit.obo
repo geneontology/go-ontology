@@ -622440,8 +622440,8 @@ name: tRNA kinase activity
 namespace: molecular_function
 def: "Catalysis of the phosphorylation of a nucleotide residue in a tRNA according to the reaction: a tRNA + ATP = a phospho-tRNA + ADP." [PMID:35477761]
 synonym: "transfer RNA kinase activity" EXACT []
-is_a: GO:0016301 ! kinase activity
 is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
+is_a: GO:0019205 ! nucleobase-containing compound kinase activity
 is_a: GO:0140101 ! catalytic activity, acting on a tRNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32791" xsd:anyURI
 created_by: ai4c-agent
