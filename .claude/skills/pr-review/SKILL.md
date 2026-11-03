@@ -27,7 +27,8 @@ Review what CI structurally cannot see.
 
 ## Re-reviews with no new content
 
-Take the head from the `Head reviewed:` line of your last report. If
+Take the head from the `Head reviewed:` line of your last report. On a shallow
+clone, fetch enough history for the merge base first. If
 `git diff <base>...<that-head> -- <in-scope files>` and
 `git diff <base>...HEAD -- <in-scope files>` show the same changed lines (the
 PR's own changes are unchanged, e.g. only a master merge came in), don't redo
