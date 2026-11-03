@@ -73472,6 +73472,7 @@ synonym: "receptor signaling pathway via JAK-STAT" EXACT []
 xref: Wikipedia:JAK-STAT_signaling_pathway
 is_a: GO:0097696 ! cell surface receptor signaling pathway via STAT
 is_a: neverin:6231
+is_a: onlyin:33208
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32689" xsd:anyURI
 
 [Term]
