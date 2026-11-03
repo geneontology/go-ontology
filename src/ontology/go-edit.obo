@@ -3127,9 +3127,10 @@ replaced_by: GO:0000753
 
 [Term]
 id: GO:0000285
-name: 1-phosphatidylinositol-3-phosphate 5-kinase activity
+name: 1-phosphatidylinositol 3-phosphate 5-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 3-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate + ADP + H+." [EC:2.7.1.150, RHEA:13609]
+synonym: "1-phosphatidylinositol-3-phosphate 5-kinase activity" EXACT []
 synonym: "ATP:1-phosphatidyl-1D-myo-inositol-3-phosphate 5-phosphotransferase activity" RELATED [EC:2.7.1.150]
 synonym: "phosphatidylinositol 3-phosphate 5-kinase activity" RELATED [EC:2.7.1.150]
 synonym: "phosphatidylinositol-3-phosphate 5-kinase activity" EXACT []
@@ -3142,6 +3143,7 @@ xref: RHEA:42348 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0000286
@@ -125224,11 +125226,11 @@ is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing grou
 
 [Term]
 id: GO:0016303
-name: 1-phosphatidylinositol-3-kinase activity
+name: 1-phosphatidylinositol 3-kinase activity
 namespace: molecular_function
 alt_id: GO:0004429
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol + ATP = a 1-phosphatidyl-1D-myo-inositol 3-phosphate + ADP + H+." [EC:2.7.1.137, RHEA:12709]
-synonym: "1-phosphatidylinositol 3-kinase activity" EXACT []
+synonym: "1-phosphatidylinositol-3-kinase activity" EXACT []
 synonym: "phosphatidylinositol 3-kinase activity, class I" NARROW []
 synonym: "phosphatidylinositol 3-kinase activity, class II" NARROW []
 synonym: "phosphatidylinositol 3-kinase activity, class III" NARROW []
@@ -125246,6 +125248,7 @@ is_a: GO:0052742 ! phosphatidylinositol kinase activity
 relationship: part_of GO:0036092 ! phosphatidylinositol-3-phosphate biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0016304
@@ -125295,11 +125298,12 @@ replaced_by: GO:0052742
 
 [Term]
 id: GO:0016308
-name: 1-phosphatidylinositol-4-phosphate 5-kinase activity
+name: 1-phosphatidylinositol 4-phosphate 5-kinase activity
 namespace: molecular_function
 alt_id: GO:0004431
 alt_id: GO:0045215
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 4-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate + ADP + H+." [EC:2.7.1.68, RHEA:14425]
+synonym: "1-phosphatidylinositol-4-phosphate 5-kinase activity" EXACT []
 synonym: "1-phosphatidylinositol-4-phosphate kinase activity" BROAD []
 synonym: "1-phosphatidylinositol-4-phosphate kinase, class IA" NARROW []
 synonym: "1-phosphatidylinositol-4-phosphate kinase, class IB" NARROW []
@@ -125322,12 +125326,14 @@ xref: RHEA:65356 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0016309
-name: 1-phosphatidylinositol-5-phosphate 4-kinase activity
+name: 1-phosphatidylinositol 5-phosphate 4-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 5-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate + ADP + H+." [EC:2.7.1.149]
+synonym: "1-phosphatidylinositol-5-phosphate 4-kinase activity" EXACT []
 synonym: "1-phosphatidylinositol-5-phosphate kinase" BROAD []
 synonym: "ATP:1-phosphatidyl-1D-myo-inositol-5-phosphate 4-phosphotransferase activity" RELATED [EC:2.7.1.149]
 synonym: "PIP4K" EXACT []
@@ -125339,6 +125345,7 @@ xref: RHEA:55992 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0016310
@@ -216698,9 +216705,10 @@ replaced_by: GO:0016303
 
 [Term]
 id: GO:0035005
-name: 1-phosphatidylinositol-4-phosphate 3-kinase activity
+name: 1-phosphatidylinositol 4-phosphate 3-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 4-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,4-bisphosphate + ADP + H+." [EC:2.7.1.154, RHEA:18373]
+synonym: "1-phosphatidylinositol-4-phosphate 3-kinase activity" EXACT []
 synonym: "ATP:1-phosphatidyl-1D-myo-inositol-4-phosphate 3-phosphotransferase activity" RELATED [EC:2.7.1.154]
 synonym: "C2-domain-containing phosphoinositide 3-kinase activity" NARROW [EC:2.7.1.154]
 synonym: "phosphatidylinositol 3-kinase activity, class I" NARROW []
@@ -216715,6 +216723,7 @@ xref: RHEA:18373 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0035006
@@ -291882,9 +291891,10 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0046934
-name: 1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity
+name: 1-phosphatidylinositol 4,5-bisphosphate 3-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,4,5-trisphosphate + ADP + H+." [EC:2.7.1.153, RHEA:21292]
+synonym: "1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity" EXACT []
 synonym: "phosphatidylinositol 3-kinase activity, class I" NARROW []
 synonym: "phosphatidylinositol 3-kinase activity, class II" NARROW []
 synonym: "phosphatidylinositol 3-kinase, class I, catalyst activity" NARROW []
@@ -291899,6 +291909,7 @@ xref: RHEA:55632 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0046935
@@ -350600,28 +350611,32 @@ creation_date: 2011-09-26T02:58:28Z
 
 [Term]
 id: GO:0052810
-name: 1-phosphatidylinositol-5-kinase activity
+name: 1-phosphatidylinositol 5-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol + ATP = a 1-phosphatidyl-1D-myo-inositol 5-phosphate + ADP + H+." [PMID:12270933, PMID:9660759, RHEA:44680]
-synonym: "1-phosphatidylinositol 5-kinase activity" EXACT []
+comment: This term describes the phosphorylation of phosphatidylinositol on position 5 of the inositol ring, producing phosphatidylinositol 5-phosphate (PI5P). For activities that use PI5P as a substrate, consider GO:0016309 1-phosphatidylinositol 5-phosphate 4-kinase activity or GO:7770147 1-phosphatidylinositol 5-phosphate 3-kinase activity.
+synonym: "1-phosphatidylinositol-5-kinase activity" EXACT []
 xref: RHEA:44680 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 created_by: ai
 creation_date: 2011-10-21T03:37:20Z
 
 [Term]
 id: GO:0052811
-name: 1-phosphatidylinositol-3-phosphate 4-kinase activity
+name: 1-phosphatidylinositol 3-phosphate 4-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 3-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,4-bisphosphate + ADP + H+." [PMID:9211928, PMID:9367159, PMID:9660759, RHEA:63688]
+synonym: "1-phosphatidylinositol-3-phosphate 4-kinase activity" EXACT []
 synonym: "phosphatidylinositol 3-phosphate 4-kinase activity" EXACT []
 xref: MetaCyc:RXN-10957 {source="skos:exactMatch"}
 xref: RHEA:63688 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28333" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 created_by: ai
 creation_date: 2011-10-21T03:47:58Z
 
@@ -622407,9 +622422,10 @@ creation_date: 2026-11-03T08:16:34Z
 
 [Term]
 id: GO:7770147
-name: 1-phosphatidylinositol-5-phosphate 3-kinase activity
+name: 1-phosphatidylinositol 5-phosphate 3-kinase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 5-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate + ADP + H+." [PMID:33492731, PMID:33927055, RHEA:90879]
+synonym: "1-phosphatidylinositol-5-phosphate 3-kinase activity" EXACT []
 synonym: "phosphatidylinositol-5-phosphate 3-kinase activity" EXACT []
 xref: RHEA:90879 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
