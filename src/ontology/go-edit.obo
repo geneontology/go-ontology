@@ -463098,21 +463098,27 @@ creation_date: 2021-07-07T20:30:21Z
 
 [Term]
 id: GO:0120322
-name: lipid modification by small protein conjugation
+name: obsolete lipid modification by small protein conjugation
 namespace: biological_process
-def: "A lipid modification process in which one or more groups of a small protein, such as ubiquitin or a ubiquitin-like protein, are covalently attached to a target lipid." [GOC:sp, PMID:34012115]
-is_a: GO:0030258 ! lipid modification
+def: "OBSOLETE. A lipid modification process in which one or more groups of a small protein, such as ubiquitin or a ubiquitin-like protein, are covalently attached to a target lipid." [GOC:sp, PMID:34012115]
+comment: The reason for obsoletion is that this term represents a molecular function.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21857" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32860" xsd:anyURI
+is_obsolete: true
+consider: GO:7770145
 created_by: krc
 creation_date: 2021-07-20T18:53:03Z
 
 [Term]
 id: GO:0120323
-name: lipid ubiquitination
+name: obsolete lipid ubiquitination
 namespace: biological_process
-def: "The process in which one or more ubiquitin groups are added to a lipid." [GOC:sp, PMID:34012115]
-is_a: GO:0120322 ! lipid modification by small protein conjugation
+def: "OBSOLETE. The process in which one or more ubiquitin groups are added to a lipid." [GOC:sp, PMID:34012115]
+comment: The reason for obsoletion is that this term represents a molecular function.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21857" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32860" xsd:anyURI
+is_obsolete: true
+consider: GO:7770145
 created_by: krc
 creation_date: 2021-07-20T18:58:34Z
 
