@@ -3143,6 +3143,7 @@ xref: RHEA:42348 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0000286
@@ -125247,6 +125248,7 @@ is_a: GO:0052742 ! phosphatidylinositol kinase activity
 relationship: part_of GO:0036092 ! phosphatidylinositol-3-phosphate biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0016304
@@ -125324,6 +125326,7 @@ xref: RHEA:65356 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0016309
@@ -125342,6 +125345,7 @@ xref: RHEA:55992 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0016310
@@ -216719,6 +216723,7 @@ xref: RHEA:18373 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0035006
@@ -291904,6 +291909,7 @@ xref: RHEA:55632 {source="skos:narrowMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 
 [Term]
 id: GO:0046935
@@ -350614,6 +350620,7 @@ xref: RHEA:44680 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 created_by: ai
 creation_date: 2011-10-21T03:37:20Z
 
@@ -350629,6 +350636,7 @@ xref: RHEA:63688 {source="skos:exactMatch"}
 is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28333" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28336" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 created_by: ai
 creation_date: 2011-10-21T03:47:58Z
 
