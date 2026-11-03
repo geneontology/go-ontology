@@ -622166,7 +622166,7 @@ id: GO:7770132
 name: obsolete bridge-mediated intermembrane lipid transfer activity
 namespace: molecular_function
 def: "OBSOLETE. Enables the transfer of lipids between two membranes through a continuous hydrophobic groove or tunnel formed by a rod-shaped protein or protein assembly that spans the space between the donor and the acceptor membrane, so that lipids move along the bridge without being released into the aqueous phase as a soluble lipid-protein complex." [PMID:29449493, PMID:35491307, PMID:37406299, PMID:40269155, PMID:42285089]
-comment: The reason for obsoletion is that the mechanism of lipid transfer is not represented by separate terms; lipid transfer by both bridge-like and shuttle-like proteins is captured by GO:0120013 lipid transfer activity, whose comment describes the two mechanisms.
+comment: The reason for obsoletion is that the mechanism of lipid transfer is not represented by separate terms; lipid transfer by both bridge-like and shuttle-like proteins is captured by GO:0120013 (lipid transfer activity), whose comment describes the two mechanisms.
 synonym: "bridge-like lipid transfer activity" EXACT [PMID:35491307]
 synonym: "bulk lipid transfer activity" RELATED []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
@@ -622180,7 +622180,7 @@ id: GO:7770133
 name: obsolete shuttle-mediated intermembrane lipid transfer activity
 namespace: molecular_function
 def: "OBSOLETE. Removes a lipid from a donor membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. The lipid-binding protein or domain carries one or a few lipid molecules at a time and moves with its cargo between the two membranes." [GOC:krc, PMID:20823909, PMID:37406299, PMID:37455811]
-comment: The reason for obsoletion is that the mechanism of lipid transfer is not represented by separate terms; lipid transfer by both bridge-like and shuttle-like proteins is captured by GO:0120013 lipid transfer activity, whose comment describes the two mechanisms.
+comment: The reason for obsoletion is that the mechanism of lipid transfer is not represented by separate terms; lipid transfer by both bridge-like and shuttle-like proteins is captured by GO:0120013 (lipid transfer activity), whose comment describes the two mechanisms.
 synonym: "shuttle-like lipid transfer activity" EXACT [PMID:37406299]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32733" xsd:anyURI
 is_obsolete: true
