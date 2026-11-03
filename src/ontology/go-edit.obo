@@ -260249,10 +260249,10 @@ synonym: "O-phosphoseryl-tRNA(Sec) kinase activity" EXACT []
 xref: EC:2.7.1.164 {source="skos:exactMatch"}
 xref: MetaCyc:RXN-10038
 xref: RHEA:25037 {source="skos:exactMatch"}
+is_a: GO:0016301 ! kinase activity
 is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
-is_a: GO:7770148 ! tRNA kinase activity
+is_a: GO:0140101 ! catalytic activity, acting on a tRNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
-property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32791" xsd:anyURI
 
 [Term]
 id: GO:0043916
