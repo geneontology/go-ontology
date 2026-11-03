@@ -622368,6 +622368,42 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-10-28T16:23:15Z
 
+[Term]
+id: GO:7770144
+name: ubiquitin carbohydrate ligase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of ubiquitin to a carbohydrate via the reaction E3-ubiquitin + carbohydrate = E3 + carbohydrate-ubiquitin, where E3 is an E3 ubiquitin ligase, the E3-ubiquitin linkage is a thioester bond, and the carbohydrate-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and a hydroxyl group of the carbohydrate." [PMID:35274759, PMID:37120410, PMID:40169258, PMID:42020756]
+xref: EC:2.3.2.- {source="skos:broadMatch"}
+is_a: GO:0016755 ! aminoacyltransferase activity
+relationship: has_primary_input CHEBI:16646 ! carbohydrate
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32793" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T08:16:34Z
+
+[Term]
+id: GO:7770145
+name: ubiquitin lipid ligase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of ubiquitin to a lipid via the reaction E3-ubiquitin + lipid = E3 + lipid-ubiquitin, where E3 is an E3 ubiquitin ligase, the E3-ubiquitin linkage is a thioester bond, and the lipid-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and the lipid." [PMID:34012115, PMID:37120410]
+xref: EC:2.3.2.- {source="skos:broadMatch"}
+is_a: GO:0016755 ! aminoacyltransferase activity
+relationship: has_primary_input CHEBI:18059 ! lipid
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32793" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T08:16:34Z
+
+[Term]
+id: GO:7770146
+name: ubiquitin nucleic acid ligase activity
+namespace: molecular_function
+def: "Catalysis of the transfer of ubiquitin to a nucleic acid via the reaction E3-ubiquitin + nucleic acid = E3 + nucleic acid-ubiquitin, where E3 is an E3 ubiquitin ligase, the E3-ubiquitin linkage is a thioester bond, and the nucleic acid-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and the nucleic acid." [PMID:37120410]
+xref: EC:2.3.2.- {source="skos:broadMatch"}
+is_a: GO:0016755 ! aminoacyltransferase activity
+relationship: has_primary_input CHEBI:33696 ! nucleic acid
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32793" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T08:16:34Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
