@@ -260253,6 +260253,7 @@ is_a: GO:0016301 ! kinase activity
 is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
 is_a: GO:0140101 ! catalytic activity, acting on a tRNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32791" xsd:anyURI
 
 [Term]
 id: GO:0043916
@@ -622432,6 +622433,19 @@ is_a: GO:0052742 ! phosphatidylinositol kinase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-11-03T09:26:19Z
+
+[Term]
+id: GO:7770148
+name: tRNA kinase activity
+namespace: molecular_function
+def: "Catalysis of the phosphorylation of a nucleotide residue in a tRNA according to the reaction: a tRNA + ATP = a phospho-tRNA + ADP." [PMID:35477761]
+synonym: "transfer RNA kinase activity" EXACT []
+is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
+is_a: GO:0019205 ! nucleobase-containing compound kinase activity
+is_a: GO:0140101 ! catalytic activity, acting on a tRNA
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32791" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T10:36:55Z
 
 [Typedef]
 id: acts_on_population_of
