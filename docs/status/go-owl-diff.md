@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-02/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-03/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-02" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-03" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -4687,44 +4687,6 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
-### bridge-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770132`
-
-#### Added
-- Class: [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T00:41:10Z" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "bulk lipid transfer activity" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770132" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of lipids between two membranes through a continuous hydrophobic groove or tunnel formed by a rod-shaped protein or protein assembly that spans the space between the donor and the acceptor membrane, so that lipids move along the bridge without being released into the aqueous phase as a soluble lipid-protein complex." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40269155" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35491307" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29449493" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42285089" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "bridge-like lipid transfer activity" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35491307" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is enabled by proteins or protein assemblies that bridge two membranes, such as the eukaryotic repeating beta-groove (RBG) proteins at membrane contact sites (VPS13, ATG2, BLTP1-3 and related proteins), the bacterial AsmA-like proteins (e.g. TamB, YhdP and YdbH) and the Lpt lipopolysaccharide transport bridge (LptC, LptA and LptD), the latter two spanning the periplasm between the inner and outer membranes. Bridge proteins often act together with a scramblase in the donor and/or acceptor membrane; scrambling is a separate activity (see GO:0017128 phospholipid scramblase activity) and should be annotated separately. Likewise, in the Lpt system, ATP hydrolysis by the inner membrane ABC transporter LptB2FG powers transport and should be annotated separately. Direct annotation should be supported by mechanism-level evidence (e.g. structural data together with groove mutations that abolish transfer, or demonstrated membrane bridging); lipid transfer assays alone support annotation to GO:0120013 lipid transfer activity. Specific lipid substrates can be captured with has_input." 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [label](http://www.w3.org/2000/01/rdf-schema#label) "bridge-mediated intermembrane lipid transfer activity" 
-
-- [bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) SubClassOf [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
-
-
 ### butanediol biosynthetic process `http://purl.obolibrary.org/obo/GO_0034079`
 #### Removed
 - [butanediol biosynthetic process](http://purl.obolibrary.org/obo/GO_0034079) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [(R,R)-butanediol dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0000721) 
@@ -6535,6 +6497,34 @@
 - [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term." 
 
 - [extracellular exosome biogenesis](http://purl.obolibrary.org/obo/GO_0097734) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete extracellular exosome biogenesis" 
+
+
+### extracellular matrix `http://purl.obolibrary.org/obo/GO_0031012`
+#### Removed
+- [extracellular matrix](http://purl.obolibrary.org/obo/GO_0031012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28089324" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33605520" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21123617" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:rph" 
+
+#### Added
+- [extracellular matrix](http://purl.obolibrary.org/obo/GO_0031012) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32853"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [extracellular matrix](http://purl.obolibrary.org/obo/GO_0031012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A structure lying external to one or more cells, which provides structural support, biochemical or biomechanical cues for cells or tissues." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21937732" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39223427" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33605520" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21123617" 
 
 
 ### extracellular microvesicle biogenesis `http://purl.obolibrary.org/obo/GO_0140113`
@@ -8403,13 +8393,11 @@
 
 
 ### lipid exchange activity `http://purl.obolibrary.org/obo/GO_7770011`
-#### Removed
-- [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) SubClassOf [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
 
 #### Added
 - [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) SubClassOf [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) 
+- [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) SubClassOf [lipid carrier activity](http://purl.obolibrary.org/obo/GO_0005319) 
 
 
 ### lipid transfer activity `http://purl.obolibrary.org/obo/GO_0120013`
@@ -8441,7 +8429,7 @@
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
-- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term covers lipid transfer by any mechanism. Annotate to the mechanism-specific children GO:7770133 shuttle-mediated intermembrane lipid transfer activity or GO:7770132 bridge-mediated intermembrane lipid transfer activity only when there is evidence for the mechanism; lipid transfer assays alone support annotation to this term or to its lipid-specific children." 
+- [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Lipid transfer between membranes can be mediated by shuttle-like proteins, which extract a lipid molecule from the donor membrane, enclose it in a hydrophobic cavity and deliver it to the acceptor membrane, or by bridge-like proteins (e.g. VPS13, ATG2 and BLTP family proteins, or the bacterial Lpt system), which form a continuous hydrophobic groove between two membranes along which lipids move. Both mechanisms should be annotated to this term. Bridge-like proteins should not be annotated to 'lipid carrier activity' (GO:0005319), because they do not bind and carry individual lipid molecules. In GO-CAM models, which allow one molecular function per activity, shuttle-like lipid transfer proteins should be captured with this term alone; the mechanism is conveyed by the gene product, and the membrane contact site where the activity occurs can be captured with 'occurs in'." 
 
 
 ### lipoate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009107`
@@ -11408,6 +11396,46 @@
 - [obsolete adenine, hypoxanthine and their nucleoside salvage](http://purl.obolibrary.org/obo/GO_0010140) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [AMP salvage](http://purl.obolibrary.org/obo/GO_0044209) 
 
 
+### obsolete bridge-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770132`
+
+#### Added
+- Class: [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T00:41:10Z" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "bulk lipid transfer activity" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770132" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Enables the transfer of lipids between two membranes through a continuous hydrophobic groove or tunnel formed by a rod-shaped protein or protein assembly that spans the space between the donor and the acceptor membrane, so that lipids move along the bridge without being released into the aqueous phase as a soluble lipid-protein complex." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40269155" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35491307" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29449493" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42285089" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "bridge-like lipid transfer activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35491307" 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the mechanism of lipid transfer is not represented by separate terms; lipid transfer by both bridge-like and shuttle-like proteins is captured by GO:0120013 (lipid transfer activity), whose comment describes the two mechanisms." 
+
+- [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete bridge-mediated intermembrane lipid transfer activity" 
+
+
 ### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
 #### Removed
 - [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -11719,6 +11747,42 @@
 #### Removed
 - [obsolete regulation of protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903214) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903747) 
 
+
+
+### obsolete shuttle-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770133`
+
+#### Added
+- Class: [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T00:41:10Z" 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770133" 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Removes a lipid from a donor membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. The lipid-binding protein or domain carries one or a few lipid molecules at a time and moves with its cargo between the two membranes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37455811" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "shuttle-like lipid transfer activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the mechanism of lipid transfer is not represented by separate terms; lipid transfer by both bridge-like and shuttle-like proteins is captured by GO:0120013 (lipid transfer activity), whose comment describes the two mechanisms." 
+
+- [obsolete shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete shuttle-mediated intermembrane lipid transfer activity" 
 
 
 ### ocellus development `http://purl.obolibrary.org/obo/GO_0008056`
@@ -15822,42 +15886,6 @@
 - [short-patch base-excision repair](http://purl.obolibrary.org/obo/GO_7770137) SubClassOf [base-excision repair](http://purl.obolibrary.org/obo/GO_0006284) 
 
 
-### shuttle-mediated intermembrane lipid transfer activity `http://purl.obolibrary.org/obo/GO_7770133`
-
-#### Added
-- Class: [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32733"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-13T00:41:10Z" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770133" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Removes a lipid from a donor membrane or a monolayer lipid particle, transports it through the aqueous phase while protected in a hydrophobic pocket, and brings it to an acceptor membrane or lipid particle. The lipid-binding protein or domain carries one or a few lipid molecules at a time and moves with its cargo between the two membranes." 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:krc" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37455811" 
-
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "shuttle-like lipid transfer activity" 
-  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37406299" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This activity is typically enabled by soluble lipid transfer proteins or lipid transfer domains, including those that mediate lipid countertransport (see GO:7770011 lipid exchange activity), and by bacterial periplasmic lipid carriers such as MlaC. For lipid transfer through a protein that spans the space between the two membranes, consider GO:7770132 bridge-mediated intermembrane lipid transfer activity. Lipid transfer assays alone support annotation to GO:0120013 lipid transfer activity." 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) [label](http://www.w3.org/2000/01/rdf-schema#label) "shuttle-mediated intermembrane lipid transfer activity" 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) SubClassOf [lipid carrier activity](http://purl.obolibrary.org/obo/GO_0005319) 
-
-- [shuttle-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770133) SubClassOf [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) 
-
-
 ### snRNA 2,2,7-trimethylguanosine (TMG) capping `http://purl.obolibrary.org/obo/GO_1990273`
 #### Removed
 - [snRNA 2,2,7-trimethylguanosine (TMG) capping](http://purl.obolibrary.org/obo/GO_1990273) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The sequence of enzymatic reactions by which a 2,2,7-trimethylguanosine cap structure is added to the 5' end of an snRNA. The snRNA capping process includes the formation of 7-methyl-G caps found on all RNA polymerase II transcripts, followed by hypermethylation at the 2' position of the guanosine residue to convert a mono-methylated cap to a 2,2,7-trimethylguanosine cap structure. Note that the pol III transcribed U6 snRNA is also TMG capped." 
@@ -16476,6 +16504,10 @@
 - [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
 
 - [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-12T07:05:59Z" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "Kimura membrane" 
+
+- [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "sallet" 
 
 - [tectorial membrane](http://purl.obolibrary.org/obo/GO_0140524) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cellular_component" 
 
