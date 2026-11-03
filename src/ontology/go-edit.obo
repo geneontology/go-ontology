@@ -622405,6 +622405,18 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-03T08:16:34Z
 
+[Term]
+id: GO:7770147
+name: 1-phosphatidylinositol-5-phosphate 3-kinase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 5-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate + ADP + H+." [PMID:33492731, PMID:33927055, RHEA:90879]
+synonym: "phosphatidylinositol-5-phosphate 3-kinase activity" EXACT []
+xref: RHEA:90879 {source="skos:exactMatch"}
+is_a: GO:0052742 ! phosphatidylinositol kinase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32789" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T09:26:19Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
