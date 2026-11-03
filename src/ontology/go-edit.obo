@@ -315183,6 +315183,7 @@ id: GO:0048731
 name: system development
 namespace: biological_process
 def: "The process whose specific outcome is the progression of an organismal system over time, from its formation to the mature structure. A system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a given biological process." [GOC:dph, GOC:jid]
+subset: gocheck_do_not_annotate
 subset: goslim_mouse
 is_a: GO:0048856 ! anatomical structure development
 intersection_of: GO:0048856 ! anatomical structure development
