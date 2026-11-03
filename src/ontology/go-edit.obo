@@ -622471,6 +622471,39 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-03T11:27:01Z
 
+[Term]
+id: GO:7770151
+name: positive regulation of glycophagy
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of glycophagy." [PMID:42020756]
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0061723 ! glycophagy
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32787" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T11:46:04Z
+
+[Term]
+id: GO:7770152
+name: negative regulation of cuproptosis
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of cuproptosis." [PMID:42176908]
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: negatively_regulates GO:0160119 ! cuproptosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32787" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T11:46:04Z
+
+[Term]
+id: GO:7770153
+name: positive regulation of cuproptosis
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of cuproptosis." [PMID:42176908]
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0160119 ! cuproptosis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32787" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-03T11:46:04Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
