@@ -622437,7 +622437,7 @@ creation_date: 2026-11-03T09:26:19Z
 id: GO:7770148
 name: tRNA kinase activity
 namespace: molecular_function
-def: "Catalysis of the phosphorylation of a tRNA, usually according to the reaction: a tRNA + ATP = a phospho-tRNA + ADP." [PMID:35477761]
+def: "Catalysis of the phosphorylation of a tRNA according to the reaction: a tRNA + ATP = a phospho-tRNA + ADP." [PMID:35477761]
 synonym: "transfer RNA kinase activity" EXACT []
 is_a: GO:0016301 ! kinase activity
 is_a: GO:0140101 ! catalytic activity, acting on a tRNA
