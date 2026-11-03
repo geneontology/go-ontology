@@ -74,7 +74,7 @@ axiom unsourced.
 ## Check every route to the substance
 
 Before adding `neverin:` to an X biosynthetic or metabolic process, check that
-no organism in the taxon produces X by any route, including breakdown of a
+no organism in the taxon produces or breaks down X by any route, including breakdown of a
 derivative (e.g. creatininase: creatinine to creatine). Also check existing
 experimental annotations to the term and its descendants in that taxon.
 
