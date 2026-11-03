@@ -14,9 +14,10 @@ is_a: neverin:4896
 is_a: onlyin:4952 {source="PMID:10629216", source="PMID:14504266"}
 ```
 
-The class labels are "only in <taxon>" and "never in <taxon>". OBO comments
-after `!` are helpful when present, but do not rely on them being preserved by
-serialization for these internal idspaces.
+The class labels are "only in <taxon>" and "never in <taxon>". Don't add
+trailing `! never in X` / `! only in X` comments: the classes are declared in
+`imports/go-taxon-constraint-classes.ofn`, not `go-edit.obo`, so serialization
+drops them.
 
 ## Creating new taxon constraints
 
@@ -65,6 +66,17 @@ is_a: onlyin:4952 {source="PMID:10629216", source="PMID:14504266"}
 
 Use the same care as before: research both phylogeny and GO term usage, and
 report the evidence when communicating on the issue or PR.
+
+`source` values are PMIDs, existing `GOC:` handles, or ORCIDs. A cited paper
+must cover the taxon in the axiom, not just the topic; if none does, leave the
+axiom unsourced.
+
+## Check every route to the substance
+
+Before adding `neverin:` to an X biosynthetic or metabolic process, check that
+no organism in the taxon produces or breaks down X by any route, including breakdown of a
+derivative (e.g. creatininase: creatinine to creatine). Also check existing
+experimental annotations to the term and its descendants in that taxon.
 
 ## Querying NCBITaxon
 
