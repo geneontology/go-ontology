@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-03/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-04/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-03" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-04" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -367,6 +367,137 @@
 - [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) SubClassOf [phosphatidylcholine transfer activity](http://purl.obolibrary.org/obo/GO_0120019) 
 
 - [1-phosphatidyl-1D-myo-inositol:phosphatidylcholine exchange activity](http://purl.obolibrary.org/obo/GO_7770134) SubClassOf [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) 
+
+
+### 1-phosphatidylinositol 5-phosphate 3-kinase activity `http://purl.obolibrary.org/obo/GO_7770147`
+
+#### Added
+- Class: [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T09:26:19Z" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-5-phosphate 3-kinase activity" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "phosphatidylinositol-5-phosphate 3-kinase activity" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770147" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 5-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate + ADP + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33927055" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33492731" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 5-phosphate 3-kinase activity" 
+
+- [1-phosphatidylinositol 5-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_7770147) SubClassOf [phosphatidylinositol kinase activity](http://purl.obolibrary.org/obo/GO_0052742) 
+
+
+### 1-phosphatidylinositol-3-kinase activity `http://purl.obolibrary.org/obo/GO_0016303`
+#### Removed
+- [1-phosphatidylinositol-3-kinase activity](http://purl.obolibrary.org/obo/GO_0016303) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol 3-kinase activity" 
+
+- [1-phosphatidylinositol-3-kinase activity](http://purl.obolibrary.org/obo/GO_0016303) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-3-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-3-kinase activity](http://purl.obolibrary.org/obo/GO_0016303) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-3-kinase activity](http://purl.obolibrary.org/obo/GO_0016303) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-3-kinase activity" 
+
+- [1-phosphatidylinositol-3-kinase activity](http://purl.obolibrary.org/obo/GO_0016303) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 3-kinase activity" 
+
+
+### 1-phosphatidylinositol-3-phosphate 4-kinase activity `http://purl.obolibrary.org/obo/GO_0052811`
+#### Removed
+- [1-phosphatidylinositol-3-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0052811) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-3-phosphate 4-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-3-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0052811) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-3-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0052811) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-3-phosphate 4-kinase activity" 
+
+- [1-phosphatidylinositol-3-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0052811) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 3-phosphate 4-kinase activity" 
+
+
+### 1-phosphatidylinositol-3-phosphate 5-kinase activity `http://purl.obolibrary.org/obo/GO_0000285`
+#### Removed
+- [1-phosphatidylinositol-3-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0000285) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-3-phosphate 5-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-3-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0000285) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-3-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0000285) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-3-phosphate 5-kinase activity" 
+
+- [1-phosphatidylinositol-3-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0000285) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 3-phosphate 5-kinase activity" 
+
+
+### 1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity `http://purl.obolibrary.org/obo/GO_0046934`
+#### Removed
+- [1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0046934) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0046934) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0046934) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity" 
+
+- [1-phosphatidylinositol-4,5-bisphosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0046934) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 4,5-bisphosphate 3-kinase activity" 
+
+
+### 1-phosphatidylinositol-4-phosphate 3-kinase activity `http://purl.obolibrary.org/obo/GO_0035005`
+#### Removed
+- [1-phosphatidylinositol-4-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0035005) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-4-phosphate 3-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-4-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0035005) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-4-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0035005) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-4-phosphate 3-kinase activity" 
+
+- [1-phosphatidylinositol-4-phosphate 3-kinase activity](http://purl.obolibrary.org/obo/GO_0035005) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 4-phosphate 3-kinase activity" 
+
+
+### 1-phosphatidylinositol-4-phosphate 5-kinase activity `http://purl.obolibrary.org/obo/GO_0016308`
+#### Removed
+- [1-phosphatidylinositol-4-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0016308) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-4-phosphate 5-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-4-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0016308) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-4-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0016308) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-4-phosphate 5-kinase activity" 
+
+- [1-phosphatidylinositol-4-phosphate 5-kinase activity](http://purl.obolibrary.org/obo/GO_0016308) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 4-phosphate 5-kinase activity" 
+
+
+### 1-phosphatidylinositol-5-kinase activity `http://purl.obolibrary.org/obo/GO_0052810`
+#### Removed
+- [1-phosphatidylinositol-5-kinase activity](http://purl.obolibrary.org/obo/GO_0052810) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol 5-kinase activity" 
+
+- [1-phosphatidylinositol-5-kinase activity](http://purl.obolibrary.org/obo/GO_0052810) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-5-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-5-kinase activity](http://purl.obolibrary.org/obo/GO_0052810) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-5-kinase activity](http://purl.obolibrary.org/obo/GO_0052810) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-5-kinase activity" 
+
+- [1-phosphatidylinositol-5-kinase activity](http://purl.obolibrary.org/obo/GO_0052810) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term describes the phosphorylation of phosphatidylinositol on position 5 of the inositol ring, producing phosphatidylinositol 5-phosphate (PI5P). For activities that use PI5P as a substrate, consider GO:0016309 1-phosphatidylinositol 5-phosphate 4-kinase activity or GO:7770147 1-phosphatidylinositol 5-phosphate 3-kinase activity." 
+
+- [1-phosphatidylinositol-5-kinase activity](http://purl.obolibrary.org/obo/GO_0052810) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 5-kinase activity" 
+
+
+### 1-phosphatidylinositol-5-phosphate 4-kinase activity `http://purl.obolibrary.org/obo/GO_0016309`
+#### Removed
+- [1-phosphatidylinositol-5-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0016309) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol-5-phosphate 4-kinase activity" 
+
+#### Added
+- [1-phosphatidylinositol-5-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0016309) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32789"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [1-phosphatidylinositol-5-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0016309) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "1-phosphatidylinositol-5-phosphate 4-kinase activity" 
+
+- [1-phosphatidylinositol-5-phosphate 4-kinase activity](http://purl.obolibrary.org/obo/GO_0016309) [label](http://www.w3.org/2000/01/rdf-schema#label) "1-phosphatidylinositol 5-phosphate 4-kinase activity" 
 
 
 ### 10-formyltetrahydrofolate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009257`
@@ -2343,6 +2474,12 @@
 - [L-phenylalaine oxidase activity](http://purl.obolibrary.org/obo/GO_0106329) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-phenylalanine oxidase activity" 
 
 
+### L-seryl-tRNA(Sec) kinase activity `http://purl.obolibrary.org/obo/GO_0043915`
+
+#### Added
+- [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32791"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### L-sorbose catabolic process `http://purl.obolibrary.org/obo/GO_0042850`
 #### Removed
 - [L-sorbose catabolic process](http://purl.obolibrary.org/obo/GO_0042850) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of L-sorbose, the L-enantiomer of the ketohexose xylo-2-hexulose." 
@@ -4144,6 +4281,12 @@
 - [anaerobic glycerol catabolic process](http://purl.obolibrary.org/obo/GO_0019588) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [PWY-6130](http://identifiers.org/metacyc.reaction/PWY-6130) 
 
 
+### animal gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160108`
+
+#### Added
+- [animal gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160108) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
 ### antennal development `http://purl.obolibrary.org/obo/GO_0007469`
 #### Removed
 - [antennal development](http://purl.obolibrary.org/obo/GO_0007469) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process whose specific outcome is the progression of the antenna over time, from its formation to the mature structure. The antenna are the sensory structures on the head that are capable of detecting various environmental stimuli." 
@@ -4905,6 +5048,12 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Cell_adhesion" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:BHF-UCL" 
+
+
+### cell surface receptor signaling pathway via JAK-STAT `http://purl.obolibrary.org/obo/GO_0007259`
+
+#### Added
+- [cell surface receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0007259) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32689"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### cell wall glycoprotein biosynthetic process `http://purl.obolibrary.org/obo/GO_0031506`
@@ -6337,6 +6486,8 @@
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of an epithelium, such that they all orient to similar coordinates." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
 
+- [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) SubClassOf [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) 
+
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [morphogenesis of a polarized epithelium](http://purl.obolibrary.org/obo/GO_0001738) 
 
 #### Added
@@ -6354,6 +6505,30 @@
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "When appropriate, Wnt ligands can be annotated to this term." 
 
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) SubClassOf [tissue morphogenesis](http://purl.obolibrary.org/obo/GO_0048729) 
+
+
+### establishment of tissue polarity `http://purl.obolibrary.org/obo/GO_0007164`
+#### Removed
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in a tissue, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of tissue polarity" 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) SubClassOf [anatomical structure morphogenesis](http://purl.obolibrary.org/obo/GO_0009653) 
+
+#### Added
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Coordinated organization of groups of cells in a tissue, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term has a single child, GO:0001736 establishment of planar polarity, and no other type of tissue polarity is known (GO terms for basal/lateral polarity are under cell polarity)." 
+
+- [establishment of tissue polarity](http://purl.obolibrary.org/obo/GO_0007164) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of tissue polarity" 
 
 
 ### establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_0061246`
@@ -7887,6 +8062,56 @@
 - [histidyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006427) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete histidyl-tRNA aminoacylation" 
 
 
+### histone H2AK119ub reader activity `http://purl.obolibrary.org/obo/GO_7770149`
+
+#### Added
+- Class: [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32790"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T11:27:01Z" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "H2AK119ub modified histone binding" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770149" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A histone reader that recognizes a histone H2A ubiquitinated at lysine 119." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35534561" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) [label](http://www.w3.org/2000/01/rdf-schema#label) "histone H2AK119ub reader activity" 
+
+- [histone H2AK119ub reader activity](http://purl.obolibrary.org/obo/GO_7770149) SubClassOf [histone H2A reader activity](http://purl.obolibrary.org/obo/GO_0140054) 
+
+
+### histone H3K36me2 reader activity `http://purl.obolibrary.org/obo/GO_7770150`
+
+#### Added
+- Class: [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32790"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T11:27:01Z" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "H3K36me2 modified histone binding" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770150" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A histone reader that recognizes a histone H3 dimethylated at lysine 36." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31485078" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) [label](http://www.w3.org/2000/01/rdf-schema#label) "histone H3K36me2 reader activity" 
+
+- [histone H3K36me2 reader activity](http://purl.obolibrary.org/obo/GO_7770150) SubClassOf [histone H3 reader activity](http://purl.obolibrary.org/obo/GO_0140006) 
+
+
 ### host-mediated suppression of viral proces `http://purl.obolibrary.org/obo/GO_0044793`
 #### Removed
 - [host-mediated suppression of viral proces](http://purl.obolibrary.org/obo/GO_0044793) [label](http://www.w3.org/2000/01/rdf-schema#label) "host-mediated suppression of viral proces" 
@@ -8400,6 +8625,34 @@
 - [lipid exchange activity](http://purl.obolibrary.org/obo/GO_7770011) SubClassOf [lipid carrier activity](http://purl.obolibrary.org/obo/GO_0005319) 
 
 
+### lipid modification by small protein conjugation `http://purl.obolibrary.org/obo/GO_0120322`
+#### Removed
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A lipid modification process in which one or more groups of a small protein, such as ubiquitin or a ubiquitin-like protein, are covalently attached to a target lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34012115" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipid modification by small protein conjugation" 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) SubClassOf [lipid modification](http://purl.obolibrary.org/obo/GO_0030258) 
+
+#### Added
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32860"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A lipid modification process in which one or more groups of a small protein, such as ubiquitin or a ubiquitin-like protein, are covalently attached to a target lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34012115" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function." 
+
+- [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipid modification by small protein conjugation" 
+
+
 ### lipid transfer activity `http://purl.obolibrary.org/obo/GO_0120013`
 #### Removed
 - [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "lipid carrier activity" 
@@ -8430,6 +8683,34 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 - [lipid transfer activity](http://purl.obolibrary.org/obo/GO_0120013) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Lipid transfer between membranes can be mediated by shuttle-like proteins, which extract a lipid molecule from the donor membrane, enclose it in a hydrophobic cavity and deliver it to the acceptor membrane, or by bridge-like proteins (e.g. VPS13, ATG2 and BLTP family proteins, or the bacterial Lpt system), which form a continuous hydrophobic groove between two membranes along which lipids move. Both mechanisms should be annotated to this term. Bridge-like proteins should not be annotated to 'lipid carrier activity' (GO:0005319), because they do not bind and carry individual lipid molecules. In GO-CAM models, which allow one molecular function per activity, shuttle-like lipid transfer proteins should be captured with this term alone; the mechanism is conveyed by the gene product, and the membrane contact site where the activity occurs can be captured with 'occurs in'." 
+
+
+### lipid ubiquitination `http://purl.obolibrary.org/obo/GO_0120323`
+#### Removed
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which one or more ubiquitin groups are added to a lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34012115" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [label](http://www.w3.org/2000/01/rdf-schema#label) "lipid ubiquitination" 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) SubClassOf [lipid modification by small protein conjugation](http://purl.obolibrary.org/obo/GO_0120322) 
+
+#### Added
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32860"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The process in which one or more ubiquitin groups are added to a lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34012115" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:sp" 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a molecular function." 
+
+- [lipid ubiquitination](http://purl.obolibrary.org/obo/GO_0120323) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete lipid ubiquitination" 
 
 
 ### lipoate biosynthetic process `http://purl.obolibrary.org/obo/GO_0009107`
@@ -10405,6 +10686,33 @@
 - [negative regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903851) SubClassOf [negative regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051129) 
 
 
+### negative regulation of cuproptosis `http://purl.obolibrary.org/obo/GO_7770152`
+
+#### Added
+- Class: [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32787"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T11:46:04Z" 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770152" 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of cuproptosis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42176908" 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cuproptosis" 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [cuproptosis](http://purl.obolibrary.org/obo/GO_0160119)) 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) SubClassOf [negative regulation of programmed cell death](http://purl.obolibrary.org/obo/GO_0043069) 
+
+- [negative regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770152) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [cuproptosis](http://purl.obolibrary.org/obo/GO_0160119) 
+
+
 ### negative regulation of endocytic recycling `http://purl.obolibrary.org/obo/GO_2001136`
 #### Removed
 - [negative regulation of endocytic recycling](http://purl.obolibrary.org/obo/GO_2001136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of endocytic recycling." 
@@ -10784,6 +11092,18 @@
 - [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a phenotype and was added in error. Consider annotating to negative regulation of the specific process being regulated (e.g. negative regulation of mitophagy) or to a specific mitochondrial protein import pathway; if the underlying evidence is a readout or a phenotype, or the mechanism is unclear, consider removal rather than re-annotation." 
 
 - [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of protein localization to mitochondrion" 
+
+
+### negative regulation of receptor signaling pathway via JAK-STAT `http://purl.obolibrary.org/obo/GO_0046426`
+#### Removed
+- [negative regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046426) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of receptor signaling pathway via JAK-STAT" 
+
+#### Added
+- [negative regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046426) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/14167"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046426) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "negative regulation of receptor signaling pathway via JAK-STAT" 
+
+- [negative regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046426) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cell surface receptor signaling pathway via JAK-STAT" 
 
 
 ### negative regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904153`
@@ -12752,6 +13072,12 @@
 - [planar cell polarity](http://purl.obolibrary.org/obo/GO_7770139) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
 
 
+### plant gross anatomical part developmental process `http://purl.obolibrary.org/obo/GO_0160109`
+
+#### Added
+- [plant gross anatomical part developmental process](http://purl.obolibrary.org/obo/GO_0160109) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
 ### plastid transcription `http://purl.obolibrary.org/obo/GO_0042793`
 
 #### Added
@@ -12892,6 +13218,33 @@
 
 #### Added
 - [positive regulation of cristae formation](http://purl.obolibrary.org/obo/GO_1903852) SubClassOf [positive regulation of cellular component organization](http://purl.obolibrary.org/obo/GO_0051130) 
+
+
+### positive regulation of cuproptosis `http://purl.obolibrary.org/obo/GO_7770153`
+
+#### Added
+- Class: [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32787"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T11:46:04Z" 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770153" 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of cuproptosis." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42176908" 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cuproptosis" 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cuproptosis](http://purl.obolibrary.org/obo/GO_0160119)) 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) SubClassOf [positive regulation of programmed cell death](http://purl.obolibrary.org/obo/GO_0043068) 
+
+- [positive regulation of cuproptosis](http://purl.obolibrary.org/obo/GO_7770153) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [cuproptosis](http://purl.obolibrary.org/obo/GO_0160119) 
 
 
 ### positive regulation of endocytic recycling `http://purl.obolibrary.org/obo/GO_2001137`
@@ -13138,6 +13491,35 @@
 - [positive regulation of glycolytic process through fructose-6-phosphate](http://purl.obolibrary.org/obo/GO_1904540) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of glycolytic process through fructose-6-phosphate" 
 
 
+### positive regulation of glycophagy `http://purl.obolibrary.org/obo/GO_7770151`
+
+#### Added
+- Class: [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32787"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T11:46:04Z" 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770151" 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of glycophagy." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42020756" 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of glycophagy" 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [glycophagy](http://purl.obolibrary.org/obo/GO_0061723)) 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) SubClassOf [positive regulation of macroautophagy](http://purl.obolibrary.org/obo/GO_0016239) 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) SubClassOf [positive regulation of glycogen catabolic process](http://purl.obolibrary.org/obo/GO_0045819) 
+
+- [positive regulation of glycophagy](http://purl.obolibrary.org/obo/GO_7770151) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [glycophagy](http://purl.obolibrary.org/obo/GO_0061723) 
+
+
 ### positive regulation of intralumenal vesicle formation `http://purl.obolibrary.org/obo/GO_1905367`
 #### Removed
 - [positive regulation of intralumenal vesicle formation](http://purl.obolibrary.org/obo/GO_1905367) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of intralumenal vesicle formation." 
@@ -13278,6 +13660,18 @@
 - [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents a phenotype and was added in error. Consider annotating to positive regulation of the specific process being regulated (e.g. positive regulation of mitophagy) or to a specific mitochondrial protein import pathway; if the underlying evidence is a readout or a phenotype, or the mechanism is unclear, consider removal rather than re-annotation." 
 
 - [positive regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903749) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of protein localization to mitochondrion" 
+
+
+### positive regulation of receptor signaling pathway via JAK-STAT `http://purl.obolibrary.org/obo/GO_0046427`
+#### Removed
+- [positive regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046427) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of receptor signaling pathway via JAK-STAT" 
+
+#### Added
+- [positive regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046427) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/14167"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046427) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of receptor signaling pathway via JAK-STAT" 
+
+- [positive regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046427) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cell surface receptor signaling pathway via JAK-STAT" 
 
 
 ### positive regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904154`
@@ -15233,6 +15627,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
 
 
+### regulation of receptor signaling pathway via JAK-STAT `http://purl.obolibrary.org/obo/GO_0046425`
+#### Removed
+- [regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046425) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of receptor signaling pathway via JAK-STAT" 
+
+#### Added
+- [regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046425) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/14167"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046425) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32689"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046425) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "regulation of receptor signaling pathway via JAK-STAT" 
+
+- [regulation of receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046425) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cell surface receptor signaling pathway via JAK-STAT" 
+
+
 ### regulation of retrograde protein transport, ER to cytosol `http://purl.obolibrary.org/obo/GO_1904152`
 #### Removed
 - [regulation of retrograde protein transport, ER to cytosol](http://purl.obolibrary.org/obo/GO_1904152) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of retrograde protein transport, ER to cytosol." 
@@ -16006,6 +16414,8 @@
 
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32752"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32816"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
 
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-10-14T16:55:01Z" 
@@ -16117,7 +16527,96 @@
 
 - [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) [label](http://www.w3.org/2000/01/rdf-schema#label) "sphinganine N-acyltransferase activity" 
 
-- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
+- [sphinganine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770136) SubClassOf [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) 
+
+
+### sphingoid base N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_7770154`
+
+#### Added
+- Class: [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32816"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T17:01:28Z" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.291" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.297" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.298" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.299" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34603" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34731" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:35651" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44424" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44692" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53424" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:61472" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:61476" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:61480" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:61492" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63944" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76539" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ceramide synthase activity" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770154" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [53424](http://rdf.rhea-db.org/53424) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [2.3.1.291](http://purl.uniprot.org/enzyme/2.3.1.291) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [2.3.1.297](http://purl.uniprot.org/enzyme/2.3.1.297) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [2.3.1.298](http://purl.uniprot.org/enzyme/2.3.1.298) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [2.3.1.299](http://purl.uniprot.org/enzyme/2.3.1.299) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34603](http://rdf.rhea-db.org/34603) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34731](http://rdf.rhea-db.org/34731) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [35651](http://rdf.rhea-db.org/35651) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44424](http://rdf.rhea-db.org/44424) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44692](http://rdf.rhea-db.org/44692) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [61472](http://rdf.rhea-db.org/61472) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [61476](http://rdf.rhea-db.org/61476) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [61480](http://rdf.rhea-db.org/61480) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [61492](http://rdf.rhea-db.org/61492) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63944](http://rdf.rhea-db.org/63944) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76539](http://rdf.rhea-db.org/76539) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a sphingoid base + a fatty acyl-CoA = an N-acyl-sphingoid base + CoA + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:53424" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [label](http://www.w3.org/2000/01/rdf-schema#label) "sphingoid base N-acyltransferase activity" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 
 ### sphingolipid transfer activity `http://purl.obolibrary.org/obo/GO_0120016`
@@ -16162,12 +16661,20 @@
 
 ### sphingosine N-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0050291`
 #### Removed
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "ceramide synthase activity" 
+
 - [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "dihydroceramide synthase activity" 
+
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) SubClassOf [acyltransferase activity, transferring groups other than amino-acyl groups](http://purl.obolibrary.org/obo/GO_0016747) 
 
 #### Added
 - [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32752"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32816"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that sphingosine is not synthesized de novo; it is generated by ceramidase-catalyzed hydrolysis of ceramide, so this activity represents the re-acylation step of the sphingolipid salvage pathway. For the N-acylation of sphinganine in de novo sphingolipid biosynthesis, consider annotating to 'sphinganine N-acyltransferase activity ; GO:7770136'." 
+
+- [sphingosine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0050291) SubClassOf [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) 
 
 
 ### spongiome `http://purl.obolibrary.org/obo/GO_0062160`
@@ -16352,6 +16859,12 @@
 - [syntaxin binding](http://purl.obolibrary.org/obo/GO_0019905) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32767"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### system development `http://purl.obolibrary.org/obo/GO_0048731`
+
+#### Added
+- [system development](http://purl.obolibrary.org/obo/GO_0048731) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
 ### tRNA 5-taurinomethyluridine synthase activity `http://purl.obolibrary.org/obo/GO_0160236`
 #### Removed
 - [tRNA 5-taurinomethyluridine synthase activity](http://purl.obolibrary.org/obo/GO_0160236) SubClassOf [transferase activity](http://purl.obolibrary.org/obo/GO_0016740) 
@@ -16459,6 +16972,35 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20032305" 
+
+
+### tRNA kinase activity `http://purl.obolibrary.org/obo/GO_7770148`
+
+#### Added
+- Class: [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32791"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T10:36:55Z" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transfer RNA kinase activity" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770148" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the phosphorylation of a nucleotide residue in a tRNA according to the reaction: a tRNA + ATP = a phospho-tRNA + ADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35477761" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA kinase activity" 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) SubClassOf [phosphotransferase activity, alcohol group as acceptor](http://purl.obolibrary.org/obo/GO_0016773) 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) SubClassOf [nucleobase-containing compound kinase activity](http://purl.obolibrary.org/obo/GO_0019205) 
+
+- [tRNA kinase activity](http://purl.obolibrary.org/obo/GO_7770148) SubClassOf [catalytic activity, acting on a tRNA](http://purl.obolibrary.org/obo/GO_0140101) 
 
 
 ### tRNA re-export from nucleus `http://purl.obolibrary.org/obo/GO_0071528`
@@ -17103,6 +17645,95 @@
 - [tyrosyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006437) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term restates an existing molecular function, GO:0004831 tyrosine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation." 
 
 - [tyrosyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006437) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete tyrosyl-tRNA aminoacylation" 
+
+
+### ubiquitin carbohydrate ligase activity `http://purl.obolibrary.org/obo/GO_7770144`
+
+#### Added
+- Class: [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32793"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T08:16:34Z" 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770144" 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [2.3.2.-](http://purl.uniprot.org/enzyme/2.3.2.-) 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of ubiquitin to a carbohydrate via the reaction E3-ubiquitin + carbohydrate = E3 + carbohydrate-ubiquitin, where E3 is an E3 ubiquitin ligase, the E3-ubiquitin linkage is a thioester bond, and the carbohydrate-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and a hydroxyl group of the carbohydrate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37120410" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35274759" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42020756" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:40169258" 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin carbohydrate ligase activity" 
+
+- [ubiquitin carbohydrate ligase activity](http://purl.obolibrary.org/obo/GO_7770144) SubClassOf [aminoacyltransferase activity](http://purl.obolibrary.org/obo/GO_0016755) 
+
+
+### ubiquitin lipid ligase activity `http://purl.obolibrary.org/obo/GO_7770145`
+
+#### Added
+- Class: [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32793"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T08:16:34Z" 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770145" 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [2.3.2.-](http://purl.uniprot.org/enzyme/2.3.2.-) 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of ubiquitin to a lipid via the reaction E3-ubiquitin + lipid = E3 + lipid-ubiquitin, where E3 is an E3 ubiquitin ligase, the E3-ubiquitin linkage is a thioester bond, and the lipid-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and the lipid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34012115" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37120410" 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin lipid ligase activity" 
+
+- [ubiquitin lipid ligase activity](http://purl.obolibrary.org/obo/GO_7770145) SubClassOf [aminoacyltransferase activity](http://purl.obolibrary.org/obo/GO_0016755) 
+
+
+### ubiquitin nucleic acid ligase activity `http://purl.obolibrary.org/obo/GO_7770146`
+
+#### Added
+- Class: [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32793"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-03T08:16:34Z" 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770146" 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [broadMatch](http://www.w3.org/2004/02/skos/core#broadMatch) [2.3.2.-](http://purl.uniprot.org/enzyme/2.3.2.-) 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the transfer of ubiquitin to a nucleic acid via the reaction X-ubiquitin + nucleic acid = X + nucleic acid-ubiquitin, where X is either an E2 or E3 enzyme, the X-ubiquitin linkage is a thioester bond, and the nucleic acid-ubiquitin linkage is an oxyester bond between the C-terminal glycine of ubiquitin and the nucleic acid." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37120410" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36197986" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38000390" 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) [label](http://www.w3.org/2000/01/rdf-schema#label) "ubiquitin nucleic acid ligase activity" 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) SubClassOf [aminoacyltransferase activity](http://purl.obolibrary.org/obo/GO_0016755) 
+
+- [ubiquitin nucleic acid ligase activity](http://purl.obolibrary.org/obo/GO_7770146) SubClassOf [catalytic activity, acting on a nucleic acid](http://purl.obolibrary.org/obo/GO_0140640) 
 
 
 ### ubiquitin protein ligase activity via oxyester bond `http://purl.obolibrary.org/obo/GO_0140551`
