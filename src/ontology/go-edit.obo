@@ -262127,11 +262127,11 @@ synonym: "modulation by symbiont of host small GTPase mediated signal transducti
 synonym: "modulation of host small GTPase mediated signal transduction by symbiont" EXACT []
 synonym: "perturbation of host small GTPase mediated signal transduction" EXACT []
 synonym: "regulation by symbiont of host small GTPase mediated signal transduction" EXACT []
-is_a: GO:0051056 ! regulation of small GTPase mediated signal transduction
 is_a: GO:0052027 ! symbiont-mediated perturbation of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: regulates_in_another_organism GO:0007264 ! small GTPase-mediated signal transduction
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25571" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32877" xsd:anyURI
 
 [Term]
 id: GO:0044083
@@ -344135,8 +344135,9 @@ synonym: "modulation by symbiont of host systemic acquired resistance" EXACT []
 synonym: "modulation by symbiont of systemic acquired resistance in host" EXACT []
 synonym: "perturbation of host systemic acquired resistance" EXACT []
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
-intersection_of: negatively_regulates_in_another_organism GO:0009627 ! systemic acquired resistance
+intersection_of: regulates_in_another_organism GO:0009627 ! systemic acquired resistance
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25569" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32877" xsd:anyURI
 
 [Term]
 id: GO:0052161
