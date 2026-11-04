@@ -24,8 +24,8 @@ subsetdef: goslim_yeast "Yeast GO slim"
 synonymtypedef: syngo_official_label "label approved by the SynGO project"
 synonymtypedef: systematic_synonym "Systematic synonym" EXACT
 default-namespace: gene_ontology
-idspace: neverin http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_
-idspace: onlyin http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_
+idspace: neverin http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_ 
+idspace: onlyin http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_ 
 import: http://purl.obolibrary.org/obo/go/extensions/go-bridge.owl
 import: http://purl.obolibrary.org/obo/go/extensions/go-gci.owl
 import: http://purl.obolibrary.org/obo/go/extensions/ro_pending.owl
@@ -59033,7 +59033,7 @@ synonym: "PI3K complex" EXACT []
 synonym: "PIK3C3-PIK3R4 complex" NARROW [CORUM:429]
 synonym: "PIK3CA-PIK3R1 complex" NARROW [CORUM:439]
 intersection_of: GO:0032991 ! protein-containing complex
-intersection_of: capable_of GO:0016303 ! 1-phosphatidylinositol-3-kinase activity
+intersection_of: capable_of GO:0016303 ! 1-phosphatidylinositol 3-kinase activity
 relationship: part_of GO:0019898 ! extrinsic component of membrane
 
 [Term]
@@ -59047,7 +59047,7 @@ synonym: "1-phosphatidylinositol-4-phosphate kinase, class IA complex" EXACT []
 synonym: "class IA PI3K complex" EXACT []
 synonym: "phosphoinositide 3-kinase complex, class IA" EXACT []
 is_a: GO:0097651 ! phosphatidylinositol 3-kinase complex, class I
-relationship: capable_of GO:0035005 ! 1-phosphatidylinositol-4-phosphate 3-kinase activity
+relationship: capable_of GO:0035005 ! 1-phosphatidylinositol 4-phosphate 3-kinase activity
 
 [Term]
 id: GO:0005944
@@ -59060,7 +59060,7 @@ synonym: "1-phosphatidylinositol-4-phosphate kinase, class IB complex" RELATED [
 synonym: "class IB PI3K complex" EXACT []
 synonym: "phosphoinositide 3-kinase complex, class IB" EXACT []
 is_a: GO:0097651 ! phosphatidylinositol 3-kinase complex, class I
-relationship: capable_of GO:0035005 ! 1-phosphatidylinositol-4-phosphate 3-kinase activity
+relationship: capable_of GO:0035005 ! 1-phosphatidylinositol 4-phosphate 3-kinase activity
 
 [Term]
 id: GO:0005945
@@ -291921,7 +291921,7 @@ comment: See also the molecular function term '1-phosphatidylinositol-3-kinase a
 synonym: "1-phosphatidylinositol 3-kinase regulator activity" EXACT []
 synonym: "phosphatidylinositol 3-kinase, class I, regulator activity" NARROW []
 intersection_of: GO:0098772 ! molecular function regulator activity
-intersection_of: directly_regulates GO:0016303 ! 1-phosphatidylinositol-3-kinase activity
+intersection_of: directly_regulates GO:0016303 ! 1-phosphatidylinositol 3-kinase activity
 
 [Term]
 id: GO:0046936
@@ -434167,10 +434167,9 @@ id: GO:0098642
 name: network-forming collagen trimer
 namespace: cellular_component
 def: "A collagen trimer that forms networks." [PMID:21421911]
-is_a: GO:0005581 ! collagen trimer
 intersection_of: GO:0005581 ! collagen trimer
 intersection_of: part_of GO:0098645 ! complex of network-forming collagens
-relationship: part_of GO:0031012 ! extracellular matrix
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32779" xsd:anyURI
 
 [Term]
 id: GO:0098643
