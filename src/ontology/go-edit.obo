@@ -13379,8 +13379,9 @@ synonym: "protein insertion into mitochondrial membrane during induction of apop
 synonym: "protein insertion into mitochondrial membrane involved in induction of apoptosis" NARROW []
 synonym: "protein insertion into mitochondrion membrane during induction of apoptosis" NARROW []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26245" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32105" xsd:anyURI
 is_obsolete: true
-consider: GO:0051204
+consider: GO:0097345
 
 [Term]
 id: GO:0001845
@@ -66739,8 +66740,9 @@ synonym: "protein import into mitochondrion" EXACT []
 synonym: "protein targeting to mitochondria" EXACT []
 synonym: "protein-mitochondrial targeting" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0070585
+consider: GO:7770058
 created_by: dragon-ai-agent
 
 [Term]
@@ -66752,8 +66754,10 @@ comment: The reason for obsoletion is that this term was added in error.
 synonym: "mitochondrial processing" BROAD []
 synonym: "mitochondrial protein processing during import" RELATED [GOC:dph, GOC:tb]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0070585
+consider: GO:0034982
+consider: GO:7770058
 created_by: dragon-ai-agent
 
 [Term]
@@ -66763,8 +66767,9 @@ namespace: biological_process
 def: "OBSOLETE. The translocation of proteins across the mitochondrial membrane. In the presence of a translocating chain, the outer membrane import machinery (MOM complex) and the inner membrane import machinery (MIM complex) form translocation contact sites as a part of the membrane preprotein import machinery." [PMID:7600576]
 comment: This term was made obsolete because its definition was equivalent to that of the biological process term 'mitochondrial matrix protein import ; GO:0030150' while the mitochondrial translocation has a broader meaning; this led to mis-annotation.
 synonym: "mitochondrial translocation" EXACT []
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 is_obsolete: true
-consider: GO:0070585
+consider: GO:7770058
 
 [Term]
 id: GO:0006629
@@ -333172,9 +333177,10 @@ is_obsolete: true
 
 [Term]
 id: GO:0051204
-name: protein insertion into mitochondrial membrane
+name: obsolete protein insertion into mitochondrial membrane
 namespace: biological_process
-def: "The process that results in the incorporation of a protein into a mitochondrial membrane." [GOC:ai]
+def: "OBSOLETE. The process that results in the incorporation of a protein into a mitochondrial membrane." [GOC:ai]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term. It groups insertion into the mitochondrial outer membrane and insertion into the inner membrane, which are distinct pathways using different machinery. Mitochondrial protein import is now represented by GO:7770058 mitochondrial protein import pathway and its children (see https://github.com/geneontology/go-ontology/issues/31711).
 synonym: "integral mitochondrial membrane protein localization" EXACT []
 synonym: "integral mitochondrial membrane protein positioning" EXACT []
 synonym: "localization of protein in mitochondrial membrane" EXACT []
@@ -333182,13 +333188,15 @@ synonym: "positioning of protein in mitochondrial membrane" EXACT []
 synonym: "protein insertion into mitochondrion membrane" EXACT []
 synonym: "protein-mitochondrial membrane insertion" EXACT []
 synonym: "protein-mitochondrion membrane insertion" EXACT []
-is_a: GO:0007006 ! mitochondrial membrane organization
-is_a: GO:0051205 ! protein insertion into membrane
-intersection_of: GO:0051205 ! protein insertion into membrane
-intersection_of: has_primary_input PR:000000001 ! protein
-intersection_of: has_target_end_location GO:0031966 ! mitochondrial membrane
-relationship: part_of GO:0070585 ! protein localization to mitochondrion
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32105" xsd:anyURI
+is_obsolete: true
+consider: GO:0032979
+consider: GO:0045039
+consider: GO:7770059
+consider: GO:7770060
+consider: GO:7770061
+consider: GO:7770063
 
 [Term]
 id: GO:0051205
@@ -383841,13 +383849,20 @@ creation_date: 2009-04-24T10:54:19Z
 
 [Term]
 id: GO:0070585
-name: protein localization to mitochondrion
+name: obsolete protein localization to mitochondrion
 namespace: biological_process
-def: "A process in which a protein is transported to, or maintained in, a location within the mitochondrion." [GOC:ecd]
+def: "OBSOLETE. A process in which a protein is transported to, or maintained in, a location within the mitochondrion." [GOC:ecd]
+comment: The reason for obsoletion is that this term was an unnecessary grouping term. Its descendants are all also classified under other parents, mainly GO:7770058 mitochondrial protein import pathway and GO:0051204 protein insertion into mitochondrial membrane.
 synonym: "protein localisation in mitochondrion" EXACT [GOC:mah]
 synonym: "protein localization in mitochondrion" EXACT []
-intersection_of: GO:0008104 ! intracellular protein localization
-intersection_of: has_target_end_location GO:0005739 ! mitochondrion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
+is_obsolete: true
+consider: GO:0000266
+consider: GO:0034982
+consider: GO:0061734
+consider: GO:0090141
+consider: GO:1905091
+consider: GO:7770058
 created_by: mah
 creation_date: 2009-04-24T02:31:18Z
 
@@ -407094,21 +407109,22 @@ comment: The reason for obsoletion is that this term was added in error.
 synonym: "establishment of protein localisation to mitochondrion" EXACT [GOC:mah]
 synonym: "establishment of protein localization in mitochondrion" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0070585
+consider: GO:7770058
 created_by: mah
 creation_date: 2011-02-14T02:28:54Z
 
 [Term]
 id: GO:0072656
-name: maintenance of protein location in mitochondrion
+name: obsolete maintenance of protein location in mitochondrion
 namespace: biological_process
-def: "Any process in which a protein is maintained in a specific location in a mitochondrion, and is prevented from moving elsewhere." [GOC:mah]
-is_a: GO:0072595 ! maintenance of protein localization in organelle
-is_a: onlyin:2759
-intersection_of: GO:0045185 ! maintenance of protein location
-intersection_of: occurs_in GO:0005739 ! mitochondrion
-relationship: part_of GO:0070585 ! protein localization to mitochondrion
+def: "OBSOLETE. Any process in which a protein is maintained in a specific location in a mitochondrion, and is prevented from moving elsewhere." [GOC:mah]
+comment: The reason for obsoletion is that this term does not describe a biological process.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32673" xsd:anyURI
+is_obsolete: true
+consider: GO:0061734
+consider: GO:1905091
 created_by: mah
 creation_date: 2011-02-14T02:30:43Z
 
@@ -417400,8 +417416,10 @@ comment: The reason for obsoletion is that this term was added in error.
 synonym: "establishment of protein localisation in mitochondrial membrane involved in mitochondrial fission" EXACT [GOC:mah]
 synonym: "establishment of protein localization in mitochondrial membrane involved in mitochondrial fission" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30349" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0070585
+consider: GO:0000266
+consider: GO:7770058
 created_by: tb
 creation_date: 2009-12-08T03:18:51Z
 
