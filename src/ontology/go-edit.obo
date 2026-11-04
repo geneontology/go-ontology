@@ -229792,7 +229792,9 @@ name: phosphatidylethanolamine acyl-chain remodeling
 namespace: biological_process
 def: "Remodeling the acyl chains of phosphatidylethanolamine, through sequential deacylation and re-acylation reactions, to generate phosphatidylethanolamine containing different types of fatty acid acyl chains." [GOC:mw, PMID:18287005, PMID:18458083]
 synonym: "phosphatidylethanolamine acyl-chain remodelling" EXACT []
-is_a: GO:0046470 ! phosphatidylcholine metabolic process
+xref: MetaCyc:PWY-7409 {source="skos:narrowMatch"}
+is_a: GO:0046337 ! phosphatidylethanolamine metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32850" xsd:anyURI
 created_by: bf
 creation_date: 2012-03-14T02:09:00Z
 
