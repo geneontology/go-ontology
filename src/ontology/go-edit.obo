@@ -194607,13 +194607,14 @@ def: "The process in which a protein is incorporated into the mitochondrial inne
 synonym: "insertion of proteins into the mitochondrial membrane from the inner side" EXACT []
 synonym: "protein insertion into mitochondrial inner membrane from matrix side" EXACT []
 synonym: "protein insertion into mitochondrial membrane from inner side" EXACT []
-is_a: GO:0007007 ! inner mitochondrial membrane organization
-intersection_of: GO:0051204 ! protein insertion into mitochondrial membrane
+is_a: GO:0045039 ! protein insertion into mitochondrial inner membrane
+intersection_of: GO:0051205 ! protein insertion into membrane
 intersection_of: has_primary_input PR:000000001 ! protein
 intersection_of: has_target_end_location GO:0005743 ! mitochondrial inner membrane
 intersection_of: has_target_start_location GO:0005759 ! mitochondrial matrix
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25265" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30453" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32109" xsd:anyURI
 
 [Term]
 id: GO:0032980
@@ -271063,14 +271064,15 @@ id: GO:0045039
 name: protein insertion into mitochondrial inner membrane
 namespace: biological_process
 def: "The processes mediating the insertion of proteins into the mitochondrial inner membrane. Mitochondrial inner membrane proteins can get inserted from the cytosol, by crossing the outer membrane and being guided by an inner membrane translocase complex into their final destination in the inner membrane. Some proteins present in the intermembrane space can get inserted into the inner mitochondrial membrane. Finally, some proteins are inserted into the inner membrane from the matrix side of the membrane." [GOC:mcc, GOC:vw, PMID:18672008]
-synonym: "mitochondrial inner membrane protein import" EXACT []
-synonym: "protein import into mitochondrial inner membrane" EXACT []
+synonym: "mitochondrial inner membrane protein import" RELATED []
+synonym: "protein import into mitochondrial inner membrane" RELATED []
 synonym: "protein transport into mitochondrial inner membrane" EXACT []
 is_a: GO:0007007 ! inner mitochondrial membrane organization
-is_a: GO:7770058 ! mitochondrial protein import pathway
+is_a: GO:0051205 ! protein insertion into membrane
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29962" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32109" xsd:anyURI
 
 [Term]
 id: GO:0045040
@@ -621207,7 +621209,9 @@ comment: Some proteins utilize this pathway but can be further processed and rel
 synonym: "stop-transfer pathway" RELATED []
 synonym: "TOM-TIM23-SORT pathway" EXACT []
 is_a: GO:0045039 ! protein insertion into mitochondrial inner membrane
+is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32109" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T13:32:53Z
 
@@ -621219,7 +621223,9 @@ def: "The import of multipass-membrane proteins from the cytosol and their inser
 synonym: "carrier import pathway" NARROW []
 synonym: "carrier pathway" NARROW []
 is_a: GO:0045039 ! protein insertion into mitochondrial inner membrane
+is_a: GO:7770058 ! mitochondrial protein import pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31711" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32109" xsd:anyURI
 created_by: dragon-ai-agent
 creation_date: 2026-04-01T16:37:07Z
 
