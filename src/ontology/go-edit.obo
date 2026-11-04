@@ -271066,7 +271066,7 @@ namespace: biological_process
 def: "The processes mediating the insertion of proteins into the mitochondrial inner membrane. Mitochondrial inner membrane proteins can get inserted from the cytosol, by crossing the outer membrane and being guided by an inner membrane translocase complex into their final destination in the inner membrane. Some proteins present in the intermembrane space can get inserted into the inner mitochondrial membrane. Finally, some proteins are inserted into the inner membrane from the matrix side of the membrane." [GOC:mcc, GOC:vw, PMID:18672008]
 synonym: "mitochondrial inner membrane protein import" RELATED []
 synonym: "protein import into mitochondrial inner membrane" RELATED []
-synonym: "protein transport into mitochondrial inner membrane" RELATED []
+synonym: "protein transport into mitochondrial inner membrane" EXACT []
 is_a: GO:0007007 ! inner mitochondrial membrane organization
 is_a: GO:0051205 ! protein insertion into membrane
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/15800" xsd:anyURI
