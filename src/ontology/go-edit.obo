@@ -383852,7 +383852,7 @@ id: GO:0070585
 name: obsolete protein localization to mitochondrion
 namespace: biological_process
 def: "OBSOLETE. A process in which a protein is transported to, or maintained in, a location within the mitochondrion." [GOC:ecd]
-comment: The reason for obsoletion is that this term was an unnecessary grouping term. Its descendants are all also classified under other parents, mainly GO:7770058 mitochondrial protein import pathway.
+comment: The reason for obsoletion is that this term was an unnecessary grouping term. Its descendants are all also classified under GO:7770058 mitochondrial protein import pathway.
 synonym: "protein localisation in mitochondrion" EXACT [GOC:mah]
 synonym: "protein localization in mitochondrion" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32674" xsd:anyURI
