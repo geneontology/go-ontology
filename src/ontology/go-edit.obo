@@ -34014,7 +34014,7 @@ synonym: "nicotinamide adenine dinucleotide glycohydrolase activity" EXACT []
 synonym: "nicotinamide adenine dinucleotide nucleosidase activity" EXACT []
 xref: EC:3.2.2.5 {source="skos:exactMatch"}
 xref: MetaCyc:RXN-13859
-xref: RHEA:16301 {source="skos:broadMatch"}
+xref: RHEA:16301 {source="skos:exactMatch"}
 is_a: GO:0016799 ! hydrolase activity, hydrolyzing N-glycosyl compounds
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -35372,6 +35372,7 @@ synonym: "propionaldehyde dehydrogenase activity" RELATED [EC:1.2.1.3]
 xref: EC:1.2.1.3 {source="skos:exactMatch"}
 xref: MetaCyc:ALDHDEHYDROG-RXN
 xref: RHEA:16185 {source="skos:exactMatch"}
+xref: RHEA:30783 {source="skos:narrowMatch"}
 xref: RHEA:30867 {source="skos:narrowMatch"}
 xref: RHEA:30879 {source="skos:narrowMatch"}
 xref: RHEA:31043 {source="skos:narrowMatch"}
@@ -40674,7 +40675,9 @@ def: "Catalysis of the reaction: D-glucose + acceptor = D-glucono-1,5-lactone + 
 synonym: "glucose dehydrogenase (acceptor) activity" EXACT []
 synonym: "soluble glucose dehydrogenase" EXACT [EC:1.1.99.35]
 xref: EC:1.1.99.35 {source="skos:exactMatch"}
+xref: RHEA:22152 {source="skos:narrowMatch"}
 xref: RHEA:24540 {source="skos:exactMatch"}
+xref: RHEA:47372 {source="skos:narrowMatch"}
 is_a: GO:0016614 ! oxidoreductase activity, acting on CH-OH group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22585" xsd:anyURI
 
@@ -42145,7 +42148,7 @@ synonym: "triphosphoinositide phosphodiesterase activity" BROAD [EC:3.1.4.11]
 xref: EC:3.1.4.11 {source="skos:exactMatch"}
 xref: KEGG_REACTION:R03435
 xref: MetaCyc:3.1.4.11-RXN
-xref: RHEA:33179
+xref: RHEA:33179 {source="skos:exactMatch"}
 is_a: GO:0004629 ! C-type glycerophospholipase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29643" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -53447,6 +53450,7 @@ synonym: "glutamate transmembrane transporter activity" BROAD []
 synonym: "glutamate/aspartate porter activity" NARROW []
 synonym: "glutamate/aspartate:sodium symporter activity" NARROW []
 synonym: "L-glutamate transporter activity" BROAD []
+xref: RHEA:66336 {source="skos:narrowMatch"}
 is_a: GO:0015172 ! acidic amino acid transmembrane transporter activity
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29985 ! L-glutamate(1-)
@@ -53472,6 +53476,7 @@ alt_id: GO:0005317
 alt_id: GO:1901677
 def: "Enables the transfer of phosphate ions from one side of a membrane to the other, up its concentration gradient. The transporter binds the solute and undergoes a series of conformational changes. Transport works equally well in either direction and is driven by a chemiosmotic source of energy. Secondary active transporters include symporters and antiporters." [GOC:mtg_transport]
 synonym: "inorganic phosphate transmembrane transporter activity" EXACT []
+xref: RHEA:32823 {source="skos:narrowMatch"}
 is_a: GO:0015291 ! secondary active transmembrane transporter activity
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:43474 ! hydrogenphosphate
@@ -53835,6 +53840,7 @@ alt_id: GO:0019192
 def: "Enables the transfer of fructose from one side of a membrane to the other. Fructose exists in a open chain form or as a ring compound. D-fructose is the sweetest of the sugars and is found free in a large number of fruits and honey." [GOC:ai, GOC:mtg_transport, ISBN:0815340729]
 synonym: "fructose permease activity" EXACT []
 synonym: "fructose porter activity" EXACT []
+xref: RHEA:60372 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:28757 ! fructose
 relationship: part_of GO:0015755 ! fructose transmembrane transport
@@ -53845,6 +53851,7 @@ name: galactose transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of galactose from one side of a membrane to the other. D-galactose is widely distributed in combined form in plants, animals and microorganisms as a constituent of oligo- and polysaccharides; it also occurs in galactolipids and as its glucoside in lactose and melibiose." [GOC:ai, GOC:mtg_transport, ISBN:0815340729]
 synonym: "galactose/glucose (methylgalactoside) porter activity" RELATED []
+xref: RHEA:34915 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:28260 ! galactose
 relationship: part_of GO:0015757 ! galactose transmembrane transport
@@ -54041,6 +54048,7 @@ id: GO:0005372
 name: water transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of water (H2O) from one side of a membrane to the other." [GOC:ai]
+xref: RHEA:29667 {source="skos:narrowMatch"}
 is_a: GO:0022857 ! transmembrane transporter activity
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:15377 ! water
@@ -113445,6 +113453,8 @@ namespace: molecular_function
 def: "Enables the transfer of a proton from one side of a membrane to the other." [GOC:ai]
 synonym: "hydrogen ion transmembrane transporter activity" EXACT []
 synonym: "proton transporter activity" EXACT []
+xref: RHEA:34979 {source="skos:narrowMatch"}
+xref: RHEA:57720 {source="skos:narrowMatch"}
 intersection_of: GO:0005215 ! transporter activity
 intersection_of: has_primary_input CHEBI:15378 ! hydron
 intersection_of: results_in_transport_across GO:0016020 ! membrane
@@ -113460,6 +113470,7 @@ def: "Enables the transfer of potassium ions (K+) from one side of a membrane to
 synonym: "potassium transporter activity" EXACT []
 synonym: "potassium uptake permease activity" RELATED []
 synonym: "potassium uptake transmembrane transporter activity" RELATED []
+xref: RHEA:29463 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29103 ! potassium(1+)
 relationship: part_of GO:0071805 {source="GO_REF:0000090"} ! potassium ion transmembrane transport
@@ -113482,6 +113493,9 @@ namespace: molecular_function
 alt_id: GO:0022816
 def: "Enables the transfer of sodium ions (Na+) from one side of a membrane to the other." [GOC:ai, GOC:BHF]
 synonym: "sodium transporter activity" EXACT []
+xref: RHEA:14633 {source="skos:narrowMatch"}
+xref: RHEA:34963 {source="skos:narrowMatch"}
+xref: RHEA:58156 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29101 ! sodium(1+)
 relationship: part_of GO:0035725 ! sodium ion transmembrane transport
@@ -113507,6 +113521,7 @@ name: calcium ion transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of calcium (Ca) ions from one side of a membrane to the other." [GOC:dgf]
 xref: MetaCyc:TRANS-RXN-144
+xref: RHEA:29671 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:29108 ! calcium(2+)
 relationship: part_of GO:0070588 ! calcium ion transmembrane transport
@@ -113520,6 +113535,7 @@ namespace: molecular_function
 def: "Enables the transfer of cadmium (Cd) ions from one side of a membrane to the other." [GOC:dgf]
 synonym: "zinc, cadmium uptake permease activity" RELATED []
 synonym: "zinc, cadmium, cobalt, nickel, lead-efflux ATPase activity" RELATED []
+xref: RHEA:12132 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:48775 ! cadmium(2+)
 relationship: part_of GO:0070574 ! cadmium ion transmembrane transport
@@ -113707,6 +113723,7 @@ name: bicarbonate transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of bicarbonate from one side of a membrane to the other. Bicarbonate is the hydrogencarbonate ion, HCO3-." [GOC:ai]
 synonym: "hydrogencarbonate transmembrane transporter activity" EXACT []
+xref: RHEA:28695 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:17544 ! hydrogencarbonate
 relationship: part_of GO:0015701 ! bicarbonate transport
@@ -113734,6 +113751,7 @@ synonym: "chloride ABC transporter" NARROW []
 synonym: "chloride ion transmembrane transporter activity" EXACT [GOC:pr]
 synonym: "chloride transporting ATPase activity" NARROW []
 synonym: "chloride-transporting ATPase activity" NARROW []
+xref: RHEA:29823 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:17996 ! chloride
 relationship: part_of GO:1902476 ! chloride transmembrane transport
@@ -113764,6 +113782,7 @@ id: GO:0015111
 name: iodide transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of iodide ions from one side of a membrane to the other." [GOC:ai]
+xref: RHEA:66324 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:16382 ! iodide
 relationship: part_of GO:0015705 ! iodide transport
@@ -114255,7 +114274,6 @@ def: "Enables the transbilayer of capsular-polysaccharides (Und-PP-GlcNAc-ManNAc
 synonym: "capsular polysaccharide transmembrane transporter activity" RELATED []
 synonym: "capsule polysaccharide transporter activity" BROAD []
 synonym: "undecaprenol-pyrophosphate O-antigen flippase activity" EXACT [TC:2.A.66.2.3]
-xref: RHEA:66132 {source="skos:broadMatch"}
 xref: TC:2.A.66.2.12
 xref: TC:2.A.66.2.3
 intersection_of: GO:0140328 ! floppase activity
@@ -114307,6 +114325,7 @@ id: GO:0015168
 name: glycerol transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of glycerol from one side of a membrane to the other. Glycerol is 1,2,3-propanetriol, a sweet, hygroscopic, viscous liquid, widely distributed in nature as a constituent of many lipids." [GOC:ai]
+xref: RHEA:29675 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:17754 ! glycerol
 relationship: part_of GO:0015793 ! glycerol transmembrane transport
@@ -114648,6 +114667,7 @@ namespace: molecular_function
 alt_id: GO:0015287
 def: "Enables the transfer of urea from one side of a membrane to the other. Urea is the water soluble compound H2N-CO-NH2." [ISBN:0198506732]
 synonym: "urea transporter activity" BROAD []
+xref: RHEA:32799 {source="skos:narrowMatch"}
 intersection_of: GO:0005215 ! transporter activity
 intersection_of: has_primary_input CHEBI:16199 ! urea
 intersection_of: results_in_transport_across GO:0016020 ! membrane
@@ -115012,7 +115032,6 @@ namespace: molecular_function
 def: "Enables the transfer of aminophospholipids from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP. Aminophospholipids contain phosphoric acid as a mono- or diester and an amino (NH2) group." [GOC:pg]
 synonym: "aminophospholipid transmembrane transporter activity" RELATED []
 synonym: "aminophospholipid transporter activity" RELATED []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:60971 ! aminophospholipid
 relationship: part_of GO:0140331 {source="GO_REF:0000090"} ! aminophospholipid translocation
@@ -117021,7 +117040,6 @@ synonym: "ATPase-coupled intramembrane lipopolysaccharide transporter activity" 
 synonym: "lipopolysaccharide floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
 synonym: "lipopolysaccharide-transporting ATPase activity" EXACT []
 synonym: "LPS-transporting ATPase activity" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140328 ! floppase activity
 intersection_of: has_primary_input CHEBI:16412 ! lipopolysaccharide
 relationship: part_of GO:0015920 ! lipopolysaccharide transport
@@ -127829,6 +127847,7 @@ def: "Catalysis of an oxidation-reduction (redox) reaction in which a CH-OH grou
 xref: EC:1.1.1.- {source="skos:exactMatch"}
 xref: MetaCyc:RXN-12898 {source="skos:narrowMatch"}
 xref: RHEA:25968 {source="skos:narrowMatch"}
+xref: RHEA:68828 {source="skos:narrowMatch"}
 is_a: GO:0016614 ! oxidoreductase activity, acting on CH-OH group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -129224,6 +129243,8 @@ def: "Catalysis of the transfer of an acyl group, other than amino-acyl, from on
 synonym: "transferase activity, transferring acyl groups other than amino-acyl groups" EXACT []
 synonym: "transferase activity, transferring groups other than amino-acyl groups" RELATED [EC:2.3.1.-]
 xref: EC:2.3.1.- {source="skos:exactMatch"}
+xref: RHEA:83539 {source="skos:narrowMatch"}
+xref: RHEA:83547 {source="skos:narrowMatch"}
 is_a: GO:0016746 ! acyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20486" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -129680,6 +129701,7 @@ subset: goslim_yeast
 synonym: "phosphatase" RELATED []
 synonym: "phosphoric monoester hydrolase activity" EXACT []
 xref: EC:3.1.3.- {source="skos:exactMatch"}
+xref: RHEA:15017 {source="skos:exactMatch"}
 is_a: GO:0042578 ! phosphoric ester hydrolase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25755" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -208808,7 +208830,6 @@ synonym: "glycolipid-translocating activity" BROAD []
 synonym: "M5GN2-PP-Dol flippase activity" NARROW []
 synonym: "Man(5)GlcNAc(2)-PP-dolichol translocator" NARROW []
 synonym: "Man5GlcNac2-PP-Dol ER flippase activity" NARROW []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140328 ! floppase activity
 intersection_of: has_primary_input CHEBI:33563 ! glycolipid
 relationship: part_of GO:0034203 ! glycolipid translocation
@@ -224772,7 +224793,7 @@ name: cardiolipin phospholipase D activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a cardiolipin + H2O = a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + a 1,2-diacyl-sn-glycero-3-phosphate + H(+)." [PMID:17028579, PMID:21397848, RHEA:44884]
 synonym: "cardiolipin hydrolase activity" BROAD []
-xref: RHEA:44884
+xref: RHEA:44884 {source="skos:exactMatch"}
 is_a: GO:0004630 ! D-type glycerophospholipase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21230" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31040" xsd:anyURI
@@ -232679,7 +232700,7 @@ name: thiocyanate peroxidase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: thiocyanate + H2O2 + H+ = hypothiocyanous acid + H2O." [GOC:pm, PMID:12626341, RHEA:69416]
 synonym: "lactoperoxidase activity" BROAD [PMID:12626341, Wikipedia:Lactoperoxidase]
-xref: RHEA:69416
+xref: RHEA:69416 {source="skos:exactMatch"}
 is_a: GO:0004601 ! peroxidase activity
 relationship: part_of GO:0018969 ! thiocyanate metabolic process
 created_by: bf
@@ -258664,7 +258685,6 @@ name: glyceraldehyde oxidoreductase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: A + D-glyceraldehyde + H2O = (R)-glycerate + AH2 + H+." [PMID:10095793, RHEA:36047]
 xref: EC:1.2.99.8 {source="skos:exactMatch"}
-xref: RHEA:30783 {source="skos:narrowMatch"}
 xref: RHEA:36047 {source="skos:exactMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -288344,7 +288364,7 @@ def: "Catalysis of the oxidative degradation or interconversion of polyamines." 
 synonym: "1-N-acetylspermidine:oxygen oxidoreductase (deaminating)" NARROW []
 synonym: "N1-acetylspermidine:oxygen oxidoreductase (deaminating)" NARROW []
 xref: EC:1.5.3.17 {source="skos:narrowMatch"}
-xref: RHEA:25808 {source="skos:broadMatch"}
+xref: RHEA:25808 {source="skos:narrowMatch"}
 is_a: GO:0016647 ! oxidoreductase activity, acting on the CH-NH group of donors, oxygen as acceptor
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24701" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25835" xsd:anyURI
@@ -288670,7 +288690,6 @@ def: "Catalysis of the movement of a sphingolipid from the cytosolic to the exop
 synonym: "sphingolipid flippase activity" EXACT []
 synonym: "sphingolipid floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
 synonym: "sphingolipid-translocating ATPase activity" RELATED []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140328 ! floppase activity
 intersection_of: has_primary_input CHEBI:26739 ! sphingolipid
 relationship: part_of GO:0099039 ! sphingolipid translocation
@@ -300259,7 +300278,7 @@ synonym: "D-alanine-D-alanyl carrier protein ligase activity" RELATED []
 synonym: "D-alanine-poly(phosphoribitol) ligase activity" BROAD []
 synonym: "D-alanine:poly(phosphoribitol) ligase (AMP-forming)" BROAD []
 xref: EC:6.2.1.54
-xref: RHEA:55132
+xref: RHEA:55132 {source="skos:exactMatch"}
 is_a: GO:0016878 ! acid-thiol ligase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14237" xsd:anyURI
 
@@ -351419,7 +351438,7 @@ id: GO:0052868
 name: protein-lysine lysyltransferase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: D-beta-lysine + L-lysyl-[protein] + ATP = N6-((3R)-3,6-diaminohexanoyl)-L-lysyl-[protein] + AMP + diphosphate + H+n. This reaction is the addition of lysine group from one protein to a lysine residue in a second protein, producing N6-(lysyl)-L-lysine." [PMID:20729861, RHEA:83435]
-xref: RHEA:83435
+xref: RHEA:83435 {source="skos:exactMatch"}
 is_a: GO:0016755 ! aminoacyltransferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31478" xsd:anyURI
@@ -352927,6 +352946,7 @@ name: D-glucose transmembrane transporter activity
 namespace: molecular_function
 alt_id: GO:0015579
 def: "Enables the transfer of the D-enantiomer of the hexose monosaccharide glucose from one side of a membrane to the other." [GOC:jid, GOC:jsg, GOC:mah]
+xref: RHEA:60376 {source="skos:narrowMatch"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:4167 ! D-glucopyranose
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27326" xsd:anyURI
@@ -421742,7 +421762,6 @@ synonym: "ATPase-coupled phosphatidylcholine transporter activity" BROAD []
 synonym: "phosphatidylcholine floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
 synonym: "phosphatidylcholine-translocating ATPase activity" BROAD []
 xref: RHEA:38583 {source="skos:exactMatch"}
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140328 ! floppase activity
 intersection_of: has_primary_input CHEBI:64482 ! phosphatidylcholine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -421776,7 +421795,6 @@ synonym: "ATPase-dependent phosphatidylserine transporter activity" BROAD []
 synonym: "phosphatidylserine floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
 synonym: "phosphatidylserine-translocating ATPase activity" BROAD []
 xref: RHEA:38567 {source="skos:exactMatch"}
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140328 ! floppase activity
 intersection_of: has_primary_input CHEBI:57262 ! 3-sn-phosphatidyl-L-serine(1-)
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -438308,7 +438326,6 @@ synonym: "ATP-dependent ceramide transporter activity" BROAD []
 synonym: "ATPase-coupled ceramide transporter activity" BROAD []
 synonym: "ceramide floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
 synonym: "ceramide-translocating ATPase activity" BROAD []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140328 ! floppase activity
 intersection_of: has_primary_input CHEBI:17761 ! ceramide
 relationship: part_of GO:0099040 ! ceramide translocation
@@ -468592,7 +468609,7 @@ synonym: "phospholipid-translocating ATPase activity" RELATED []
 synonym: "phospholipid-transporting ATPase activity" RELATED [EC:7.6.2.1]
 xref: EC:7.6.2.1 {source="skos:exactMatch"}
 xref: MetaCyc:3.6.3.1-RXN
-xref: RHEA:66132 {source="skos:broadMatch"}
+xref: RHEA:66132 {source="skos:narrowMatch"}
 is_a: GO:0140303 ! intramembrane lipid carrier activity
 relationship: has_part GO:0016887 ! ATP hydrolysis activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17648" xsd:anyURI
@@ -468609,7 +468626,6 @@ namespace: molecular_function
 def: "Catalysis of the movement of lipids from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:20043909, PMID:25284293, Wikipedia:Flippase]
 comment: Nomenclature note. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases). Scramblases are ATP-independent, non-selective, inducing non-specific transbilayer movements across the membrane. The direction of the translocation should be taken into account for annotation (from the exoplasmic to the cytosolic leaflet of a membrane).
 synonym: "flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 is_a: GO:0140326 ! ATPase-coupled intramembrane lipid carrier activity
 created_by: pg
 creation_date: 2019-04-29T12:51:21Z
@@ -468621,7 +468637,6 @@ namespace: molecular_function
 def: "Catalysis of the movement of a lipid from the cytosolic to the exoplasmic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:20043909, PMID:25284293, Wikipedia:Flippase]
 comment: Nomenclature note. Flippases and floppases are ATP-dependent transbilayer lipid translocators. According to an extensively used, though not universal, nomenclature, they catalyze lipid transfer towards the inward monolayer (flippases) or towards the outward monolayer (floppases). Scramblases are ATP-independent, non-selective, inducing non-specific transbilayer movements across the membrane. The direction of the translocation should be taken into account for annotation (from the cytosolic to the exoplasmic leaflet of a membrane).
 synonym: "floppase activity (cytosolic to exoplasmic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 is_a: GO:0140326 ! ATPase-coupled intramembrane lipid carrier activity
 created_by: pg
 creation_date: 2019-04-29T12:58:53Z
@@ -468679,7 +468694,6 @@ name: glycerophospholipid flippase activity
 namespace: molecular_function
 def: "Catalysis of the movement of a glycerophospholipid from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:26212235]
 synonym: "glycerophospholipid flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:37739 ! glycerophospholipid
 created_by: pg
@@ -468832,7 +468846,6 @@ name: phosphatidylcholine flippase activity
 namespace: molecular_function
 def: "Catalysis of the movement of phosphatidylcholine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:11870854]
 synonym: "phosphatidylcholine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:64482 ! phosphatidylcholine
 created_by: pg
@@ -468844,7 +468857,6 @@ name: phosphatidylserine flippase activity
 namespace: molecular_function
 def: "Catalysis of the movement of phosphatidylserine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:11870854]
 synonym: "phosphatidylserine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:57262 ! 3-sn-phosphatidyl-L-serine(1-)
 created_by: pg
@@ -468856,7 +468868,6 @@ name: N-retinylidene-phosphatidylethanolamine flippase activity
 namespace: molecular_function
 def: "Catalysis of the movement of N-retinylidene-N-retinylphosphatidylethanolamine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:10412977]
 synonym: "N-retinylidene-phosphatidylethanolamine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 xref: RHEA:67188 {source="skos:narrowMatch"}
 xref: RHEA:67192 {source="skos:narrowMatch"}
 is_a: GO:0140327 ! flippase activity
@@ -468870,7 +468881,6 @@ name: lysophosphatidylcholine flippase activity
 namespace: molecular_function
 def: "Catalysis of the movement of lysophosphatidylcholine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:26945070]
 synonym: "lysophosphatidylcholine flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:60479 ! lysophosphatidylcholine
 created_by: pg
@@ -468909,7 +468919,6 @@ synonym: "galactosylceramide flippase activity" NARROW []
 synonym: "glucosylceramide flippase activity" NARROW []
 synonym: "glycoceramide flippase activity" EXACT []
 synonym: "glycosylceramide flippase activity (exoplasmic to cytosolic leaflet)" EXACT []
-xref: RHEA:66132 {source="skos:broadMatch"}
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:62941 ! glycosylceramide
 created_by: pg
@@ -470251,6 +470260,8 @@ id: GO:0140457
 name: protein demethylase activity
 namespace: molecular_function
 def: "Catalysis of the removal of a methyl group from a protein." [PMID:24498420, PMID:28360925]
+xref: RHEA:58352 {source="skos:narrowMatch"}
+xref: RHEA:58472 {source="skos:narrowMatch"}
 is_a: GO:0032451 ! demethylase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19325" xsd:anyURI
@@ -479697,6 +479708,7 @@ xref: RHEA:70627 {source="skos:narrowMatch"}
 xref: RHEA:70631 {source="skos:narrowMatch"}
 xref: RHEA:70635 {source="skos:narrowMatch"}
 xref: RHEA:70639 {source="skos:narrowMatch"}
+xref: RHEA:83535 {source="skos:narrowMatch"}
 xref: RHEA:85159 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 is_a: GO:0140096 ! catalytic activity, acting on a protein
@@ -483730,6 +483742,7 @@ def: "Catalysis of the reaction: R-CO-X + H2O = R-COOH + HX, hydrolysis of an ac
 xref: EC:2.3.1.- {source="skos:broadMatch"}
 xref: EC:3.1.1.- {source="skos:broadMatch"}
 xref: EC:3.5.1.- {source="skos:broadMatch"}
+xref: RHEA:83543 {source="skos:narrowMatch"}
 is_a: GO:0003824 ! catalytic activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28920" xsd:anyURI
 created_by: rynl
@@ -486100,7 +486113,6 @@ id: GO:0180013
 name: lysophosphatidylserine flippase activity
 namespace: molecular_function
 def: "Catalysis of the movement of a lysophosphatidylserine from the exoplasmic to the cytosolic leaflet of a membrane, using energy from the hydrolysis of ATP." [PMID:34645814]
-xref: RHEA:66132 {source="skos:broadMatch"}
 is_a: GO:0140333 ! glycerophospholipid flippase activity
 intersection_of: GO:0140327 ! flippase activity
 intersection_of: has_primary_input CHEBI:68497 ! lysophosphatidylserine(1-)
