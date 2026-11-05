@@ -35425,7 +35425,7 @@ synonym: "aldehyde:NAD(P)+ oxidoreductase activity" RELATED [EC:1.2.1.5]
 synonym: "ALDH" RELATED [EC:1.2.1.5]
 xref: EC:1.2.1.5 {source="skos:exactMatch"}
 xref: MetaCyc:ALDEHYDE-DEHYDROGENASE-NADORNOP+-RXN
-is_a: GO:0016620 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor
+is_a: GO:0047770 ! aldehyde dehydrogenase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29544" xsd:anyURI
 
@@ -35455,7 +35455,7 @@ xref: RHEA:58984 {source="skos:narrowMatch"}
 xref: RHEA:58988 {source="skos:narrowMatch"}
 xref: RHEA:59000 {source="skos:narrowMatch"}
 xref: RHEA:59004 {source="skos:narrowMatch"}
-is_a: GO:0016623 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, oxygen as acceptor
+is_a: GO:0047770 ! aldehyde dehydrogenase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22680" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
 
@@ -202644,7 +202644,7 @@ synonym: "tungsten-containing aldehyde ferredoxin oxidoreductase activity" RELAT
 xref: EC:1.2.7.5 {source="skos:exactMatch"}
 xref: MetaCyc:1.2.7.5-RXN
 xref: RHEA:16421 {source="skos:exactMatch"}
-is_a: GO:0016625 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors, iron-sulfur protein as acceptor
+is_a: GO:0047770 ! aldehyde dehydrogenase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
@@ -294450,7 +294450,7 @@ synonym: "aldehyde:(pyrroloquinoline-quinone) oxidoreductase activity" RELATED [
 xref: EC:1.2.5.2 {source="skos:exactMatch"}
 xref: MetaCyc:1.2.99.3-RXN
 xref: RHEA:13881 {source="skos:exactMatch"}
-is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
+is_a: GO:0047770 ! aldehyde dehydrogenase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
 [Term]
