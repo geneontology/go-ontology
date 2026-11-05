@@ -42781,9 +42781,11 @@ xref: RHEA:52116 {source="skos:narrowMatch"}
 xref: RHEA:67848 {source="skos:narrowMatch"}
 xref: RHEA:83019 {source="skos:narrowMatch"}
 xref: RHEA:83035 {source="skos:narrowMatch"}
+xref: RHEA:83111 {source="skos:narrowMatch"}
 xref: RHEA:83199 {source="skos:narrowMatch"}
 xref: RHEA:83203 {source="skos:narrowMatch"}
 xref: RHEA:83347 {source="skos:narrowMatch"}
+xref: RHEA:83403 {source="skos:narrowMatch"}
 xref: RHEA:85307 {source="skos:narrowMatch"}
 xref: RHEA:87335 {source="skos:narrowMatch"}
 xref: RHEA:87339 {source="skos:narrowMatch"}
@@ -42798,6 +42800,7 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28526" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31587" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32876" xsd:anyURI
 
 [Term]
 id: GO:0004468
@@ -183241,8 +183244,6 @@ xref: RHEA:43748 {source="skos:narrowMatch"}
 xref: RHEA:54536 {source="skos:exactMatch"}
 xref: RHEA:83103 {source="skos:narrowMatch"}
 xref: RHEA:83107 {source="skos:narrowMatch"}
-xref: RHEA:83111 {source="skos:narrowMatch"}
-xref: RHEA:83403 {source="skos:narrowMatch"}
 xref: RHEA:85311 {source="skos:narrowMatch"}
 xref: RHEA:85315 {source="skos:narrowMatch"}
 xref: RHEA:87411 {source="skos:narrowMatch"}
@@ -183250,6 +183251,7 @@ is_a: GO:0120515 ! fatty acid-CoA ligase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26439" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32876" xsd:anyURI
 
 [Term]
 id: GO:0031958
@@ -304716,8 +304718,10 @@ namespace: molecular_function
 def: "OBSOLETE. Catalysis of the reaction: ATP + an acid + CoA = AMP + diphosphate + an acyl-CoA." [GOC:curators]
 comment: This term was obsoleted because it represents a specific substrate of medium-chain fatty acid-CoA ligase activity ; GO:0031956.
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25800" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32876" xsd:anyURI
 is_obsolete: true
-replaced_by: GO:0031956
+consider: GO:0031955
+consider: GO:0031956
 
 [Term]
 id: GO:0047761
