@@ -479766,6 +479766,20 @@ created_by: pg
 creation_date: 2026-10-07T04:11:30Z
 
 [Term]
+id: GO:0141225
+name: protein-asparagine N-methyltransferase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: L-asparaginyl-[protein] + S-adenosyl-L-methionine = N(4)-methyl-L-asparaginyl-[protein] + S-adenosyl-L-homocysteine + H+." [PMID:18469097, PMID:18482977, RHEA:91687]
+synonym: "protein asparagine N-methyltransferase activity" EXACT []
+xref: RHEA:91687 {source="skos:exactMatch"}
+is_a: GO:0008170 ! N-methyltransferase activity
+is_a: GO:0008276 ! protein methyltransferase activity
+is_a: GO:0008757 ! S-adenosylmethionine-dependent methyltransferase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32841" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-05T00:00:00Z
+
+[Term]
 id: GO:0150001
 name: primary dendrite
 namespace: cellular_component
