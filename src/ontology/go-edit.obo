@@ -237263,7 +237263,6 @@ synonym: "suppression by virus of host type I IFN-mediated signaling pathway" EX
 synonym: "suppression by virus of host type I interferon-mediated signaling pathway" NARROW []
 synonym: "suppression by virus of host type I interferon-mediated signalling pathway" EXACT [GOC:bf]
 xref: VZ:883 "Inhibition of host IFN-mediated response initiation by virus"
-is_a: GO:0140886 ! symbiont-mediated suppression of host interferon-mediated signaling pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0060337 ! type I interferon-mediated signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26686" xsd:anyURI
@@ -237453,7 +237452,6 @@ synonym: "downregulation by virus of host JAK-STAT cascade" NARROW [GOC:bf]
 synonym: "inhibition by virus of host JAK-STAT cascade" NARROW [GOC:bf]
 synonym: "negative regulation by virus of host JAK-STAT cascade" NARROW [GOC:bf]
 synonym: "suppression by virus of host JAK-STAT cascade" NARROW []
-is_a: GO:0052029 ! symbiont-mediated suppression of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0007259 ! cell surface receptor signaling pathway via JAK-STAT
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26686" xsd:anyURI
@@ -262135,7 +262133,6 @@ synonym: "modulation by symbiont of host small GTPase mediated signal transducti
 synonym: "modulation of host small GTPase mediated signal transduction by symbiont" EXACT []
 synonym: "perturbation of host small GTPase mediated signal transduction" EXACT []
 synonym: "regulation by symbiont of host small GTPase mediated signal transduction" EXACT []
-is_a: GO:0052027 ! symbiont-mediated perturbation of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: regulates_in_another_organism GO:0007264 ! small GTPase-mediated signal transduction
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25571" xsd:anyURI
@@ -342709,7 +342706,6 @@ synonym: "negative modulation by organism of host signal transduction pathway" E
 synonym: "negative regulation by organism of signal transduction in other organism involved in symbiotic interaction" BROAD []
 synonym: "negative regulation by symbiont of host signal transduction pathway" EXACT []
 synonym: "suppression by symbiont of host signal transduction pathway" EXACT []
-is_a: GO:0052027 ! symbiont-mediated perturbation of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0007165 ! signal transduction
 
@@ -343225,7 +343221,6 @@ def: "A process in which a symbiont interferes with, inhibits or disrupts a PAMP
 synonym: "disruption of host PAMP receptor signaling pathway" EXACT []
 synonym: "disruption of host pathogen-associated molecular pattern receptor signaling pathway" EXACT []
 synonym: "suppression of host pathogen-associated molecular pattern receptor signaling pathway" NARROW []
-is_a: GO:0052029 ! symbiont-mediated suppression of host signal transduction pathway
 is_a: GO:0052170 ! symbiont-mediated suppression of host innate immune response
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0140426 ! pathogen-associated molecular pattern receptor signaling pathway
@@ -343269,7 +343264,6 @@ synonym: "perturbation of host innate immune response MAPK kinase signaling" NAR
 synonym: "perturbation of host MAP signal transduction pathway" EXACT []
 synonym: "perturbation of host MAPK kinase signaling pathway" EXACT []
 synonym: "perturbation of host MAPK signal transduction pathway" EXACT []
-is_a: GO:0052027 ! symbiont-mediated perturbation of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: regulates_in_another_organism GO:0000165 ! MAPK cascade
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19235" xsd:anyURI
@@ -409488,7 +409482,6 @@ synonym: "negative regulation by symbiont of host signal transduction mediated b
 synonym: "negative regulation by symbiont of host signal transduction mediated by G-protein beta subunit" NARROW []
 synonym: "negative regulation by symbiont of host signal transduction mediated by G-protein gamma subunit" NARROW []
 synonym: "suppression by symbiont of host G protein-coupled receptor signal transduction" EXACT []
-is_a: GO:0075118 ! symbiont-mediated perturbation of host G protein-coupled receptor signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0007186 ! G protein-coupled receptor signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26164" xsd:anyURI
@@ -410247,7 +410240,6 @@ synonym: "negative regulation by symbiont of host cAMP-mediated signaling" NARRO
 synonym: "suppression by symbiont of host cAMP-mediated signal transduction" NARROW []
 synonym: "symbiont-mediated suppression of host cAMP signal transduction" RELATED []
 synonym: "symbiont-mediated suppression of host PKA signal transduction" RELATED []
-is_a: GO:0052029 ! symbiont-mediated suppression of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0141156 ! cAMP/PKA signal transduction
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25437" xsd:anyURI
@@ -414266,7 +414258,6 @@ synonym: "modulation by symbiont of host NF-kappaB-mediated signal transduction 
 synonym: "perturbation of host canonical NF-kappaB cascade" RELATED []
 synonym: "perturbation of host I-kappaB kinase/NF-kappaB cascade" EXACT []
 synonym: "symbiont-mediated perturbation of host canonical NF-kappaB cascade" RELATED []
-is_a: GO:0052027 ! symbiont-mediated perturbation of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: regulates_in_another_organism GO:0007249 ! canonical NF-kappaB signal transduction
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25571" xsd:anyURI
@@ -414291,7 +414282,6 @@ synonym: "up regulation by symbiont of host I-kappaB kinase/NF-kappaB cascade" E
 synonym: "up-regulation by symbiont of host I-kappaB kinase/NF-kappaB cascade" EXACT []
 synonym: "upregulation by symbiont of host I-kappaB kinase/NF-kappaB cascade" EXACT []
 xref: VZ:841
-is_a: GO:0085032 ! symbiont-mediated perturbation of host NF-kappaB cascade
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: positively_regulates_in_another_organism GO:0007249 ! canonical NF-kappaB signal transduction
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25571" xsd:anyURI
@@ -414310,7 +414300,6 @@ synonym: "negative regulation by symbiont of host I-kappaB kinase/NF-kappaB casc
 synonym: "suppression by symbiont of host I-kappaB kinase/NF-kappaB cascade" EXACT []
 synonym: "symbiont-mediated suppression of host canonical NF-kappaB cascade" RELATED []
 xref: VZ:695
-is_a: GO:0085032 ! symbiont-mediated perturbation of host NF-kappaB cascade
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0007249 ! canonical NF-kappaB signal transduction
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25571" xsd:anyURI
@@ -475675,7 +475664,6 @@ synonym: "negative regulation by virus of host type II interferon-mediated signa
 synonym: "suppression by virus of host type II IFN-mediated signaling pathway" EXACT []
 synonym: "suppression by virus of host type II interferon-mediated signaling pathway" NARROW []
 synonym: "suppression by virus of host type II interferon-mediated signalling pathway" EXACT []
-is_a: GO:0140886 ! symbiont-mediated suppression of host interferon-mediated signaling pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0060333 ! type II interferon-mediated signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23647" xsd:anyURI
@@ -475692,7 +475680,6 @@ synonym: "negative regulation by virus of host type III interferon-mediated sign
 synonym: "suppression by virus of host type III IFN-mediated signaling pathway" EXACT []
 synonym: "suppression by virus of host type III interferon-mediated signaling pathway" NARROW []
 synonym: "suppression by virus of host type III interferon-mediated signalling pathway" EXACT []
-is_a: GO:0140886 ! symbiont-mediated suppression of host interferon-mediated signaling pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0038196 ! type III interferon-mediated signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23647" xsd:anyURI
@@ -475710,7 +475697,6 @@ synonym: "negative regulation by virus of host interferon-mediated signaling pat
 synonym: "suppression by symbiont of host IFN-mediated signaling pathway" EXACT []
 synonym: "suppression by symbiont of host interferon-mediated signalling pathway" EXACT []
 synonym: "suppression by virus of host interferon-mediated signaling pathway" NARROW []
-is_a: GO:0052029 ! symbiont-mediated suppression of host signal transduction pathway
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0140888 ! interferon-mediated signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23647" xsd:anyURI
@@ -477968,7 +477954,6 @@ synonym: "disruption of host MAP kinase signaling pathway" EXACT []
 synonym: "disruption of host MAPK signal transduction pathway" EXACT []
 synonym: "disruption of host MAPK signaling pathway" EXACT []
 synonym: "symbiont-mediated suppression of host MAPK signal transduction pathway" EXACT []
-is_a: GO:0052080 ! symbiont-mediated perturbation of host MAPK cascade
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0000165 ! MAPK cascade
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25572" xsd:anyURI
@@ -478801,7 +478786,6 @@ id: GO:0141135
 name: symbiont-mediated suppression of host chemokine signal transduction pathway
 namespace: biological_process
 def: "A process in which a symbiont interferes with, inhibits or disrupts a chemokine signaling pathway, a G protein-coupled receptor signal transduction pathway activated by a chemokine. The host is defined as the larger of the organisms involved in a symbiotic interaction." [PMID:16581912]
-is_a: GO:0075120 ! symbiont-mediated suppression of host G protein-coupled receptor signal transduction
 intersection_of: GO:0044003 ! symbiont-mediated perturbation of host process
 intersection_of: negatively_regulates_in_another_organism GO:0070098 ! chemokine-mediated signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26683" xsd:anyURI
