@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-04/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-05/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-04" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-05" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -3389,6 +3389,26 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
 
+### TOM-TIM22-mediated mitochondrial inner membrane protein insertion `http://purl.obolibrary.org/obo/GO_7770061`
+
+#### Added
+- [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32109"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
+
+- [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
+### TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane `http://purl.obolibrary.org/obo/GO_7770060`
+
+#### Added
+- [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32109"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
+
+- [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
 ### Tea1 cell-end complex `http://purl.obolibrary.org/obo/GO_0031500`
 #### Removed
 - [Tea1 cell-end complex](http://purl.obolibrary.org/obo/GO_0031500) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A high molecular weight complex characterized in S. pombe containing the cell-end anchoring protein Tea1. This complex is transported to the cell ends by microtubules and is involved in bipolar growth and the maintennce of normal cell polarity." 
@@ -5505,6 +5525,24 @@
 
 #### Added
 - [collagen binding involved in cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0098639) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_0007160) 
+
+
+### collagen type IV trimer `http://purl.obolibrary.org/obo/GO_0005587`
+
+#### Added
+- [collagen type IV trimer](http://purl.obolibrary.org/obo/GO_0005587) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
+### collagen type VIII trimer `http://purl.obolibrary.org/obo/GO_0005591`
+
+#### Added
+- [collagen type VIII trimer](http://purl.obolibrary.org/obo/GO_0005591) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+
+### collagen type X trimer `http://purl.obolibrary.org/obo/GO_0005599`
+
+#### Added
+- [collagen type X trimer](http://purl.obolibrary.org/obo/GO_0005599) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
 
 
 ### compartment pattern specification `http://purl.obolibrary.org/obo/GO_0007386`
@@ -9092,6 +9130,38 @@
 - [maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061305) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete maintenance of bipolar cell polarity regulating cell shape" 
 
 
+### maintenance of protein location in mitochondrion `http://purl.obolibrary.org/obo/GO_0072656`
+#### Removed
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which a protein is maintained in a specific location in a mitochondrion, and is prevented from moving elsewhere." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [label](http://www.w3.org/2000/01/rdf-schema#label) "maintenance of protein location in mitochondrion" 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) EquivalentTo [maintenance of protein location](http://purl.obolibrary.org/obo/GO_0045185) and ([occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739)) 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) SubClassOf [maintenance of protein localization in organelle](http://purl.obolibrary.org/obo/GO_0072595) 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [mitochondrion](http://purl.obolibrary.org/obo/GO_0005739) 
+
+#### Added
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32673"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [type 2 mitophagy](http://purl.obolibrary.org/obo/GO_0061734) 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of type 2 mitophagy](http://purl.obolibrary.org/obo/GO_1905091) 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process in which a protein is maintained in a specific location in a mitochondrion, and is prevented from moving elsewhere." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term does not describe a biological process." 
+
+- [maintenance of protein location in mitochondrion](http://purl.obolibrary.org/obo/GO_0072656) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete maintenance of protein location in mitochondrion" 
+
+
 ### maintenance of seed dormancy by absisic acid `http://purl.obolibrary.org/obo/GO_0098755`
 #### Removed
 - [maintenance of seed dormancy by absisic acid](http://purl.obolibrary.org/obo/GO_0098755) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process by which seed dormancy is maintained by the presence of absisic acid." 
@@ -11192,6 +11262,16 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26195667" 
 
 
+### network-forming collagen trimer `http://purl.obolibrary.org/obo/GO_0098642`
+#### Removed
+- [network-forming collagen trimer](http://purl.obolibrary.org/obo/GO_0098642) SubClassOf [extracellular protein-containing complex](http://purl.obolibrary.org/obo/GO_0140392) 
+
+- [network-forming collagen trimer](http://purl.obolibrary.org/obo/GO_0098642) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [extracellular matrix](http://purl.obolibrary.org/obo/GO_0031012) 
+
+#### Added
+- [network-forming collagen trimer](http://purl.obolibrary.org/obo/GO_0098642) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32779"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
 ### neuronal ion channel clustering `http://purl.obolibrary.org/obo/GO_0045161`
 #### Removed
 - [neuronal ion channel clustering](http://purl.obolibrary.org/obo/GO_0045161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process in which voltage-gated ion channels become localized to distinct subcellular domains in the neuron. Specific targeting, clustering, and maintenance of these channels in their respective domains are essential to achieve high conduction velocities of action potential propagation." 
@@ -11872,6 +11952,28 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0879694238" 
 
 
+### obsolete establishment of protein localization to mitochondrial membrane involved in mitochondrial fission `http://purl.obolibrary.org/obo/GO_0090152`
+#### Removed
+- [obsolete establishment of protein localization to mitochondrial membrane involved in mitochondrial fission](http://purl.obolibrary.org/obo/GO_0090152) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [obsolete establishment of protein localization to mitochondrial membrane involved in mitochondrial fission](http://purl.obolibrary.org/obo/GO_0090152) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete establishment of protein localization to mitochondrial membrane involved in mitochondrial fission](http://purl.obolibrary.org/obo/GO_0090152) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial fission](http://purl.obolibrary.org/obo/GO_0000266) 
+
+- [obsolete establishment of protein localization to mitochondrial membrane involved in mitochondrial fission](http://purl.obolibrary.org/obo/GO_0090152) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
+### obsolete establishment of protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_0072655`
+#### Removed
+- [obsolete establishment of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0072655) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [obsolete establishment of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0072655) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete establishment of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0072655) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
 ### obsolete establishment of terminal gap gene boundary `http://purl.obolibrary.org/obo/GO_0007364`
 #### Removed
 - [obsolete establishment of terminal gap gene boundary](http://purl.obolibrary.org/obo/GO_0007364) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Specification of the borders of terminal gap gene expression mediated largely by the effects of other gap genes." 
@@ -11987,6 +12089,16 @@
 - [obsolete ligand-dependent thyroid hormone receptor interactor activity](http://purl.obolibrary.org/obo/GO_0016923) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [nuclear receptor binding](http://purl.obolibrary.org/obo/GO_0016922) 
 
 
+### obsolete mitochondrial translocation `http://purl.obolibrary.org/obo/GO_0006628`
+#### Removed
+- [obsolete mitochondrial translocation](http://purl.obolibrary.org/obo/GO_0006628) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [obsolete mitochondrial translocation](http://purl.obolibrary.org/obo/GO_0006628) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete mitochondrial translocation](http://purl.obolibrary.org/obo/GO_0006628) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
 ### obsolete negative regulation of protein processing involved in protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_1903217`
 #### Removed
 - [obsolete negative regulation of protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_1903217) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_1903748) 
@@ -12041,6 +12153,16 @@
 
 
 
+### obsolete protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_0001844`
+#### Removed
+- [obsolete protein insertion into mitochondrial membrane involved in apoptotic signaling pathway](http://purl.obolibrary.org/obo/GO_0001844) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) 
+
+#### Added
+- [obsolete protein insertion into mitochondrial membrane involved in apoptotic signaling pathway](http://purl.obolibrary.org/obo/GO_0001844) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32105"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete protein insertion into mitochondrial membrane involved in apoptotic signaling pathway](http://purl.obolibrary.org/obo/GO_0001844) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial outer membrane permeabilization](http://purl.obolibrary.org/obo/GO_0097345) 
+
+
 ### obsolete protein mono-ADP-ribosylation `http://purl.obolibrary.org/obo/GO_0140289`
 #### Removed
 - [obsolete protein mono-ADP-ribosylation](http://purl.obolibrary.org/obo/GO_0140289) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [NAD+ poly-ADP-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_0003950) 
@@ -12049,6 +12171,28 @@
 - [obsolete protein mono-ADP-ribosylation](http://purl.obolibrary.org/obo/GO_0140289) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32538"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [obsolete protein mono-ADP-ribosylation](http://purl.obolibrary.org/obo/GO_0140289) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [NAD+-protein mono-ADP-ribosyltransferase activity](http://purl.obolibrary.org/obo/GO_1990404) 
+
+
+### obsolete protein processing involved in protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_0006627`
+#### Removed
+- [obsolete protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006627) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [obsolete protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006627) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006627) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein processing](http://purl.obolibrary.org/obo/GO_0034982) 
+
+- [obsolete protein processing involved in protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006627) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+
+### obsolete protein targeting to mitochondrion `http://purl.obolibrary.org/obo/GO_0006626`
+#### Removed
+- [obsolete protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006626) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [obsolete protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006626) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete protein targeting to mitochondrion](http://purl.obolibrary.org/obo/GO_0006626) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
 
 
 ### obsolete regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway `http://purl.obolibrary.org/obo/GO_1900739`
@@ -12661,6 +12805,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### phosphatidylethanolamine acyl-chain remodeling `http://purl.obolibrary.org/obo/GO_0036152`
+#### Removed
+- [phosphatidylethanolamine acyl-chain remodeling](http://purl.obolibrary.org/obo/GO_0036152) SubClassOf [phosphatidylcholine metabolic process](http://purl.obolibrary.org/obo/GO_0046470) 
+
+#### Added
+- [phosphatidylethanolamine acyl-chain remodeling](http://purl.obolibrary.org/obo/GO_0036152) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32850"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylethanolamine acyl-chain remodeling](http://purl.obolibrary.org/obo/GO_0036152) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:PWY-7409" 
+
+- [phosphatidylethanolamine acyl-chain remodeling](http://purl.obolibrary.org/obo/GO_0036152) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [PWY-7409](http://identifiers.org/metacyc.reaction/PWY-7409) 
+
+- [phosphatidylethanolamine acyl-chain remodeling](http://purl.obolibrary.org/obo/GO_0036152) SubClassOf [phosphatidylethanolamine metabolic process](http://purl.obolibrary.org/obo/GO_0046337) 
 
 
 ### phosphatidylethanolamine transfer activity `http://purl.obolibrary.org/obo/GO_1904121`
@@ -14120,18 +14278,98 @@
 - [protein depalmitoylation](http://purl.obolibrary.org/obo/GO_0002084) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein depalmitoylation" 
 
 
+### protein import into mitochondrial matrix `http://purl.obolibrary.org/obo/GO_0030150`
+#### Removed
+- [protein import into mitochondrial matrix](http://purl.obolibrary.org/obo/GO_0030150) SubClassOf [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+
+
+### protein insertion into mitochondrial inner membrane `http://purl.obolibrary.org/obo/GO_0045039`
+#### Removed
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mitochondrial inner membrane protein import" 
+
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein import into mitochondrial inner membrane" 
+
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) SubClassOf [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+#### Added
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32109"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "mitochondrial inner membrane protein import" 
+
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "protein import into mitochondrial inner membrane" 
+
+- [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) SubClassOf [protein insertion into membrane](http://purl.obolibrary.org/obo/GO_0051205) 
+
+
+### protein insertion into mitochondrial inner membrane from matrix `http://purl.obolibrary.org/obo/GO_0032979`
+#### Removed
+- [protein insertion into mitochondrial inner membrane from matrix](http://purl.obolibrary.org/obo/GO_0032979) SubClassOf [inner mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007007) 
+
+- [protein insertion into mitochondrial inner membrane from matrix](http://purl.obolibrary.org/obo/GO_0032979) SubClassOf [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) 
+
+#### Added
+- [protein insertion into mitochondrial inner membrane from matrix](http://purl.obolibrary.org/obo/GO_0032979) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32109"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein insertion into mitochondrial inner membrane from matrix](http://purl.obolibrary.org/obo/GO_0032979) SubClassOf [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) 
+
+- [protein insertion into mitochondrial inner membrane from matrix](http://purl.obolibrary.org/obo/GO_0032979) SubClassOf [establishment of protein localization to organelle](http://purl.obolibrary.org/obo/GO_0072594) 
+
+
 ### protein insertion into mitochondrial membrane `http://purl.obolibrary.org/obo/GO_0051204`
 #### Removed
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process that results in the incorporation of a protein into a mitochondrial membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein insertion into mitochondrial membrane" 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) SubClassOf [mitochondrial membrane organization](http://purl.obolibrary.org/obo/GO_0007006) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) SubClassOf [protein insertion into membrane](http://purl.obolibrary.org/obo/GO_0051205) 
+
 - [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) SubClassOf [establishment of localization in cell](http://purl.obolibrary.org/obo/GO_0051649) 
 
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) SubClassOf [establishment of protein localization to organelle](http://purl.obolibrary.org/obo/GO_0072594) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+
+#### Added
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32105"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [protein insertion into mitochondrial inner membrane from matrix](http://purl.obolibrary.org/obo/GO_0032979) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [protein insertion into mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_0045039) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [alpha helical protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770059) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [TOM-TIM23-SORT-mediated protein insertion into the mitochondrial inner membrane](http://purl.obolibrary.org/obo/GO_7770060) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [TOM-TIM22-mediated mitochondrial inner membrane protein insertion](http://purl.obolibrary.org/obo/GO_7770061) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [beta barrel protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_7770063) 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The process that results in the incorporation of a protein into a mitochondrial membrane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term. It groups insertion into the mitochondrial outer membrane and insertion into the inner membrane, which are distinct pathways using different machinery. Mitochondrial protein import is now represented by GO:7770058 mitochondrial protein import pathway and its children (see https://github.com/geneontology/go-ontology/issues/31711)." 
+
+- [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein insertion into mitochondrial membrane" 
 
 
 ### protein insertion into mitochondrial outer membrane `http://purl.obolibrary.org/obo/GO_0045040`
+#### Removed
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein insertion into mitochondrial membrane](http://purl.obolibrary.org/obo/GO_0051204) 
 
 #### Added
 - [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32106"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
-- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) 
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein localization to organelle](http://purl.obolibrary.org/obo/GO_0033365) 
+
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein insertion into membrane](http://purl.obolibrary.org/obo/GO_0051205) 
+
+- [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [establishment of protein localization to organelle](http://purl.obolibrary.org/obo/GO_0072594) 
 
 - [protein insertion into mitochondrial outer membrane](http://purl.obolibrary.org/obo/GO_0045040) SubClassOf [protein localization to membrane](http://purl.obolibrary.org/obo/GO_0072657) 
 
@@ -14188,6 +14426,40 @@
 - [protein localization to cytoplasmic stress granule](http://purl.obolibrary.org/obo/GO_1903608) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the term is not clearly defined and usage has been inconsistent. In practice it was applied to proteins observed in stress granules, that is, to a co-localization readout rather than to a process that localizes a protein there. Annotations to this term have been reviewed and removed; see https://github.com/geneontology/go-annotation/issues/6484." 
 
 - [protein localization to cytoplasmic stress granule](http://purl.obolibrary.org/obo/GO_1903608) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein localization to cytoplasmic stress granule" 
+
+
+### protein localization to mitochondrion `http://purl.obolibrary.org/obo/GO_0070585`
+#### Removed
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which a protein is transported to, or maintained in, a location within the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ecd" 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein localization to mitochondrion" 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) SubClassOf [protein localization to organelle](http://purl.obolibrary.org/obo/GO_0033365) 
+
+#### Added
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32674"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial fission](http://purl.obolibrary.org/obo/GO_0000266) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein processing](http://purl.obolibrary.org/obo/GO_0034982) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [type 2 mitophagy](http://purl.obolibrary.org/obo/GO_0061734) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of mitochondrial fission](http://purl.obolibrary.org/obo/GO_0090141) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [positive regulation of type 2 mitophagy](http://purl.obolibrary.org/obo/GO_1905091) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [mitochondrial protein import pathway](http://purl.obolibrary.org/obo/GO_7770058) 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process in which a protein is transported to, or maintained in, a location within the mitochondrion." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ecd" 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was an unnecessary grouping term. Its descendants are all also classified under GO:7770058 mitochondrial protein import pathway or GO:0045039 protein insertion into mitochondrial inner membrane." 
+
+- [protein localization to mitochondrion](http://purl.obolibrary.org/obo/GO_0070585) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein localization to mitochondrion" 
 
 
 ### protein poly-ADP-ribosylation `http://purl.obolibrary.org/obo/GO_0070212`
@@ -16837,6 +17109,20 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22212282" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31130928" 
+
+
+### symbiont-mediated perturbation of host small GTPase-mediated signal transduction `http://purl.obolibrary.org/obo/GO_0044082`
+#### Removed
+- [symbiont-mediated perturbation of host small GTPase-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0044082) SubClassOf [regulation of small GTPase mediated signal transduction](http://purl.obolibrary.org/obo/GO_0051056) 
+
+#### Added
+- [symbiont-mediated perturbation of host small GTPase-mediated signal transduction](http://purl.obolibrary.org/obo/GO_0044082) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32877"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### symbiont-mediated perturbation of host systemic acquired resistance `http://purl.obolibrary.org/obo/GO_0052160`
+
+#### Added
+- [symbiont-mediated perturbation of host systemic acquired resistance](http://purl.obolibrary.org/obo/GO_0052160) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32877"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
 ### symmetric synapse `http://purl.obolibrary.org/obo/GO_0032280`
