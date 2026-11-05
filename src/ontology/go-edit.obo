@@ -622570,6 +622570,30 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-03T17:01:28Z
 
+[Term]
+id: GO:7770155
+name: venom-mediated suppression of cell adhesion
+namespace: biological_process
+def: "A process in which an organism inhibits or disrupts cell adhesion in another organism via the action of a venom. A common mechanism is the binding of venom proteins, such as disintegrins, to integrins from another organism, which prevents integrin binding to their ligands." [PMID:11368322, PMID:22069567, PMID:27331872, PMID:32087267, PMID:39591241]
+synonym: "envenomation resulting in negative regulation of cell adhesion" EXACT []
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: negatively_regulates_in_another_organism GO:0007155 ! cell adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32889" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-05T14:43:46Z
+
+[Term]
+id: GO:7770156
+name: venom-mediated suppression of cell-matrix adhesion
+namespace: biological_process
+def: "A process in which an organism inhibits or disrupts cell-matrix adhesion in another organism via the action of a venom. A common mechanism is the binding of venom proteins, such as disintegrins, to integrins from another organism, which prevents integrin binding to their ligands." [PMID:11368322, PMID:27331872, PMID:32087267, PMID:39591241]
+synonym: "venom-mediated suppression of adhesion of cells to extracellular matrix" EXACT []
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: negatively_regulates_in_another_organism GO:0007160 ! cell-matrix adhesion
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32889" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-05T14:43:46Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
