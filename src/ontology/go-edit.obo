@@ -202649,18 +202649,19 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0033727
-name: aldehyde dehydrogenase (FAD-independent) activity
+name: obsolete aldehyde dehydrogenase (FAD-independent) activity
 namespace: molecular_function
-def: "Catalysis of the reaction: an aldehyde + H2O + acceptor = a carboxylate + reduced acceptor." [EC:1.2.99.7]
+def: "OBSOLETE. Catalysis of the reaction: an aldehyde + H2O + acceptor = a carboxylate + reduced acceptor." [EC:1.2.99.7]
+comment: The reason for obsoletion is that this term represents the same reaction as GO:0047770 aldehyde dehydrogenase activity.
 synonym: "aldehyde oxidoreductase activity" RELATED [EC:1.2.99.7]
 synonym: "aldehyde:acceptor oxidoreductase (FAD-independent) activity" RELATED [EC:1.2.99.7]
 synonym: "AORDd" RELATED [EC:1.2.99.7]
 synonym: "Mop" RELATED [EC:1.2.99.7]
-xref: EC:1.2.99.7 {source="skos:exactMatch"}
-xref: MetaCyc:1.2.99.7-RXN
-is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32845" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0047770
 
 [Term]
 id: GO:0033728
@@ -304823,18 +304824,27 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0047770
-name: carboxylate reductase activity
+name: aldehyde dehydrogenase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: an aldehyde + A + H2O = a carboxylate + AH2 + H+." [RHEA:56856]
+synonym: "aldehyde dehydrogenase (FAD-independent) activity" NARROW [EC:1.2.99.7]
+synonym: "aldehyde oxidoreductase activity" RELATED [EC:1.2.99.7]
 synonym: "aldehyde:(acceptor) oxidoreductase activity" RELATED [EC:1.2.99.6]
+synonym: "aldehyde:acceptor oxidoreductase (FAD-independent) activity" RELATED [EC:1.2.99.7]
 synonym: "aldehyde:acceptor oxidoreductase activity" RELATED [EC:1.2.99.6]
+synonym: "AORDd" RELATED [EC:1.2.99.7]
+synonym: "carboxylate reductase activity" NARROW [EC:1.2.99.6]
 synonym: "carboxylic acid reductase activity" RELATED [EC:1.2.99.6]
-xref: EC:1.2.99.6 {source="skos:exactMatch"}
+synonym: "Mop" RELATED [EC:1.2.99.7]
+xref: EC:1.2.99.6 {source="skos:narrowMatch"}
+xref: EC:1.2.99.7 {source="skos:narrowMatch"}
+xref: MetaCyc:1.2.99.7-RXN
 xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN
 xref: RHEA:56856 {source="skos:exactMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32845" xsd:anyURI
 
 [Term]
 id: GO:0047771
