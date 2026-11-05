@@ -304838,8 +304838,8 @@ synonym: "carboxylic acid reductase activity" RELATED [EC:1.2.99.6]
 synonym: "Mop" RELATED [EC:1.2.99.7]
 xref: EC:1.2.99.6 {source="skos:narrowMatch"}
 xref: EC:1.2.99.7 {source="skos:narrowMatch"}
-xref: MetaCyc:1.2.99.7-RXN
-xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN
+xref: MetaCyc:1.2.99.7-RXN {source="skos:narrowMatch"}
+xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN {source="skos:narrowMatch"}
 xref: RHEA:56856 {source="skos:exactMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
