@@ -42145,11 +42145,12 @@ synonym: "triphosphoinositide phosphodiesterase activity" BROAD [EC:3.1.4.11]
 xref: EC:3.1.4.11 {source="skos:exactMatch"}
 xref: KEGG_REACTION:R03435
 xref: MetaCyc:3.1.4.11-RXN
-xref: RHEA:33179
+xref: RHEA:33179 {source="skos:exactMatch"}
 is_a: GO:0004629 ! C-type glycerophospholipase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29643" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30949" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 
 [Term]
 id: GO:0004436
@@ -220423,15 +220424,16 @@ creation_date: 2010-03-18T11:19:38Z
 
 [Term]
 id: GO:0035380
-name: very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity
+name: very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity
 namespace: molecular_function
-def: "Catalysis of the reaction: (S)-3-hydroxyacyl-CoA + NAD(P)+ = 3-oxoacyl-CoA + NAD(P)H + H+, where the acyl group is a very long-chain fatty acid residue. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." [RHEA:78927]
+def: "Catalysis of the reaction: a very-long-chain (3S)-3-hydroxyacyl-CoA + NAD+ = a very-long-chain 3-oxoacyl-CoA + NADH + H+. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." [RHEA:78927]
 comment: While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283).
 synonym: "very long-chain-3-hydroxyacyl-CoA dehydrogenase activity" BROAD []
 synonym: "very-long-chain-3-hydroxyacyl-CoA dehydrogenase activity" EXACT []
-xref: RHEA:78927
+xref: RHEA:78927 {source="skos:exactMatch"}
 is_a: GO:0003857 ! (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 created_by: bf
 creation_date: 2010-03-18T11:23:05Z
 
@@ -224772,10 +224774,11 @@ name: cardiolipin phospholipase D activity
 namespace: molecular_function
 def: "Catalysis of the reaction: a cardiolipin + H2O = a 1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + a 1,2-diacyl-sn-glycero-3-phosphate + H(+)." [PMID:17028579, PMID:21397848, RHEA:44884]
 synonym: "cardiolipin hydrolase activity" BROAD []
-xref: RHEA:44884
+xref: RHEA:44884 {source="skos:exactMatch"}
 is_a: GO:0004630 ! D-type glycerophospholipase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21230" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31040" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/8492" xsd:anyURI
 created_by: bf
 creation_date: 2011-03-24T10:14:05Z
@@ -232679,9 +232682,10 @@ name: thiocyanate peroxidase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: thiocyanate + H2O2 + H+ = hypothiocyanous acid + H2O." [GOC:pm, PMID:12626341, RHEA:69416]
 synonym: "lactoperoxidase activity" BROAD [PMID:12626341, Wikipedia:Lactoperoxidase]
-xref: RHEA:69416
+xref: RHEA:69416 {source="skos:exactMatch"}
 is_a: GO:0004601 ! peroxidase activity
 relationship: part_of GO:0018969 ! thiocyanate metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 created_by: bf
 creation_date: 2013-06-20T16:03:57Z
 
@@ -300256,9 +300260,10 @@ synonym: "D-alanine-D-alanyl carrier protein ligase activity" RELATED []
 synonym: "D-alanine-poly(phosphoribitol) ligase activity" BROAD []
 synonym: "D-alanine:poly(phosphoribitol) ligase (AMP-forming)" BROAD []
 xref: EC:6.2.1.54
-xref: RHEA:55132
+xref: RHEA:55132 {source="skos:exactMatch"}
 is_a: GO:0016878 ! acid-thiol ligase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14237" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 
 [Term]
 id: GO:0047474
@@ -351412,11 +351417,12 @@ creation_date: 2012-01-11T12:07:50Z
 id: GO:0052868
 name: protein-lysine lysyltransferase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: D-beta-lysine + L-lysyl-[protein] + ATP = N6-((3R)-3,6-diaminohexanoyl)-L-lysyl-[protein] + AMP + diphosphate + H+n. This reaction is the addition of lysine group from one protein to a lysine residue in a second protein, producing N6-(lysyl)-L-lysine." [PMID:20729861, RHEA:83435]
-xref: RHEA:83435
+def: "Catalysis of the reaction: D-beta-lysine + L-lysyl-[protein] + ATP = N6-((3R)-3,6-diaminohexanoyl)-L-lysyl-[protein] + AMP + diphosphate + H+. This reaction is the addition of lysine group from one protein to a lysine residue in a second protein, producing N6-(lysyl)-L-lysine." [PMID:20729861, RHEA:83435]
+xref: RHEA:83435 {source="skos:exactMatch"}
 is_a: GO:0016755 ! aminoacyltransferase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31478" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 created_by: ai
 creation_date: 2012-01-11T03:05:27Z
 
@@ -412837,9 +412843,10 @@ def: "Catalysis of the reaction: L-methionine + 2-oxoglutarate = 4-methylsulfany
 synonym: "L-methionine:2-oxoglutarate aminotransferase activity" EXACT []
 synonym: "L-methionine:alpha-ketoglutarate aminotransferase activity" EXACT []
 xref: MetaCyc:RXN-14147
-xref: RHEA:25796
+xref: RHEA:25796 {source="skos:exactMatch"}
 is_a: GO:0010326 ! L-methionine:oxo-acid transaminase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31140" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32887" xsd:anyURI
 created_by: dhl
 creation_date: 2009-04-23T03:51:20Z
 
