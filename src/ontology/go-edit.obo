@@ -622611,6 +622611,39 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: pg
 creation_date: 2026-11-05T14:43:46Z
 
+[Term]
+id: GO:7770157
+name: regulation of common myeloid progenitor cell proliferation
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of common myeloid progenitor cell proliferation." [PMID:7489718]
+synonym: "regulation of CMP proliferation" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: regulates GO:0035726 ! common myeloid progenitor cell proliferation
+created_by: lbreuza
+creation_date: 2026-11-06T15:05:18Z
+
+[Term]
+id: GO:7770158
+name: negative regulation of common myeloid progenitor cell proliferation
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of common myeloid progenitor cell proliferation." [PMID:7489718]
+synonym: "negative regulation of CMP proliferation" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: negatively_regulates GO:0035726 ! common myeloid progenitor cell proliferation
+created_by: lbreuza
+creation_date: 2026-11-06T15:05:18Z
+
+[Term]
+id: GO:7770159
+name: positive regulation of common myeloid progenitor cell proliferation
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of common myeloid progenitor cell proliferation." [PMID:7489718]
+synonym: "positive regulation of CMP proliferation" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0035726 ! common myeloid progenitor cell proliferation
+created_by: lbreuza
+creation_date: 2026-11-06T15:05:18Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
