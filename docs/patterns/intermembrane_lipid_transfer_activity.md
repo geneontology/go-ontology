@@ -4,7 +4,7 @@
 
 ## Description
 
-Lipid transfer activities differentiated by the specific lipid cargo. The lipid is moved from a donor membrane or lipid particle to an acceptor membrane or lipid particle while shielded from the aqueous phase. The pattern is mechanism-neutral: it covers both shuttle (GO:7770133) and bridge (GO:7770132) mechanisms, so cargo-specific terms do not specify the mechanism. Inherits is_a transporter activity (GO:0005215) via the parent GO:0120013, but not lipid carrier activity (GO:0005319), which applies only to the shuttle mechanism. Do NOT use this pattern for cross-leaflet (intramembrane) lipid movement - use intramembrane_lipid_carrier_activity.yaml for that.
+Lipid transfer activities differentiated by the specific lipid cargo. The lipid is moved from a donor membrane or lipid particle to an acceptor membrane or lipid particle while shielded from the aqueous phase. The pattern is mechanism-neutral: it covers both shuttle-like and bridge-like lipid transfer proteins, so cargo-specific terms do not specify the mechanism. Inherits is_a transporter activity (GO:0005215) via the parent GO:0120013, but not lipid carrier activity (GO:0005319), which applies only to the shuttle mechanism. Do NOT use this pattern for cross-leaflet (intramembrane) lipid movement - use intramembrane_lipid_carrier_activity.yaml for that.
 
 
 
