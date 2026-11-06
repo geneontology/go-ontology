@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-05/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-06/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-05" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-06" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -1493,6 +1493,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30109646" 
 
 
+### D-alanine [D-alanyl carrier protein] ligase activity `http://purl.obolibrary.org/obo/GO_0047473`
+
+#### Added
+- [D-alanine [D-alanyl carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_0047473) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [D-alanine [D-alanyl carrier protein] ligase activity](http://purl.obolibrary.org/obo/GO_0047473) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [55132](http://rdf.rhea-db.org/55132) 
+
+
 ### D-allose catabolic process `http://purl.obolibrary.org/obo/GO_0019316`
 #### Removed
 - [D-allose catabolic process](http://purl.obolibrary.org/obo/GO_0019316) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the breakdown of D-allose, the D-enantiomer of allo-hexose, an aldohexose similar to glucose." 
@@ -2464,6 +2472,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39394448" 
 
 - [L-methionine cycle](http://purl.obolibrary.org/obo/GO_0033353) SubClassOf [one-carbon metabolic process](http://purl.obolibrary.org/obo/GO_0006730) 
+
+
+### L-methionine:2-oxoglutarate transaminase activity `http://purl.obolibrary.org/obo/GO_0080099`
+
+#### Added
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-methionine:2-oxoglutarate transaminase activity](http://purl.obolibrary.org/obo/GO_0080099) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [25796](http://rdf.rhea-db.org/25796) 
 
 
 ### L-phenylalaine oxidase activity `http://purl.obolibrary.org/obo/GO_0106329`
@@ -3939,6 +3955,36 @@
 
 
 
+### aldehyde dehydrogenase (FAD-independent) activity `http://purl.obolibrary.org/obo/GO_0033727`
+#### Removed
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:1.2.99.7-RXN" 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.2.99.7](http://purl.uniprot.org/enzyme/1.2.99.7) 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an aldehyde + H2O + acceptor = a carboxylate + reduced acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldehyde dehydrogenase (FAD-independent) activity" 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors](http://purl.obolibrary.org/obo/GO_0016903) 
+
+#### Added
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32845"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: an aldehyde + H2O + acceptor = a carboxylate + reduced acceptor." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term represents the same reaction as GO:0047770 aldehyde dehydrogenase activity." 
+
+- [aldehyde dehydrogenase (FAD-independent) activity](http://purl.obolibrary.org/obo/GO_0033727) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete aldehyde dehydrogenase (FAD-independent) activity" 
+
+
 ### aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0004029`
 
 #### Added
@@ -3953,6 +3999,32 @@
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87475" 
 
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87475](http://rdf.rhea-db.org/87475) 
+
+
+### aldehyde dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0047113`
+#### Removed
+- [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [oxidoreductase activity, acting on the aldehyde or oxo group of donors](http://purl.obolibrary.org/obo/GO_0016903) 
+
+#### Added
+- [aldehyde dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0047113) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
+
+
+### aldehyde dehydrogenase [NAD(P)+] activity `http://purl.obolibrary.org/obo/GO_0004030`
+
+#### Added
+- [aldehyde dehydrogenase [NAD(P)+] activity](http://purl.obolibrary.org/obo/GO_0004030) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
+
+
+### aldehyde ferredoxin oxidoreductase activity `http://purl.obolibrary.org/obo/GO_0033726`
+
+#### Added
+- [aldehyde ferredoxin oxidoreductase activity](http://purl.obolibrary.org/obo/GO_0033726) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
+
+
+### aldehyde oxidase activity `http://purl.obolibrary.org/obo/GO_0004031`
+
+#### Added
+- [aldehyde oxidase activity](http://purl.obolibrary.org/obo/GO_0004031) SubClassOf [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) 
 
 
 ### aldose reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0004032`
@@ -4966,20 +5038,58 @@
 
 ### carboxylate reductase activity `http://purl.obolibrary.org/obo/GO_0047770`
 #### Removed
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [1.2.99.6](http://purl.uniprot.org/enzyme/1.2.99.6) 
+
 - [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an aldehyde + acceptor + H2O = a carboxylate + reduced acceptor." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:CARBOXYLATE-REDUCTASE-RXN" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.6" 
 
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [label](http://www.w3.org/2000/01/rdf-schema#label) "carboxylate reductase activity" 
+
 #### Added
 - [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/28011"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32845"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MetaCyc:1.2.99.7-RXN" 
 
 - [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:56856" 
 
 - [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [56856](http://rdf.rhea-db.org/56856) 
 
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN](http://identifiers.org/metacyc.reaction/1.2.99.7-RXN) 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [CARBOXYLATE-REDUCTASE-RXN](http://identifiers.org/metacyc.reaction/CARBOXYLATE-REDUCTASE-RXN) 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [1.2.99.6](http://purl.uniprot.org/enzyme/1.2.99.6) 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [1.2.99.7](http://purl.uniprot.org/enzyme/1.2.99.7) 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "carboxylate reductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.6" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [has_narrow_synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "aldehyde dehydrogenase (FAD-independent) activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "AORDd" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Mop" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "aldehyde oxidoreductase activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "aldehyde:acceptor oxidoreductase (FAD-independent) activity" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.7" 
+
 - [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: an aldehyde + A + H2O = a carboxylate + AH2 + H+." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:56856" 
+
+- [carboxylate reductase activity](http://purl.obolibrary.org/obo/GO_0047770) [label](http://www.w3.org/2000/01/rdf-schema#label) "aldehyde dehydrogenase activity" 
 
 
 ### carboxylesterase activity `http://purl.obolibrary.org/obo/GO_0106435`
@@ -5004,6 +5114,14 @@
 - [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32294"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [carboxylic acid catabolic process](http://purl.obolibrary.org/obo/GO_0046395) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cardiolipin phospholipase D activity `http://purl.obolibrary.org/obo/GO_0035755`
+
+#### Added
+- [cardiolipin phospholipase D activity](http://purl.obolibrary.org/obo/GO_0035755) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [cardiolipin phospholipase D activity](http://purl.obolibrary.org/obo/GO_0035755) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [44884](http://rdf.rhea-db.org/44884) 
 
 
 ### cargo receptor ligand activity `http://purl.obolibrary.org/obo/GO_0140355`
@@ -8875,6 +8993,12 @@
 ### long-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0004467`
 
 #### Added
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83111" 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83403" 
+
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87335" 
 
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87339" 
@@ -8884,6 +9008,10 @@
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87347" 
 
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87407" 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83111](http://rdf.rhea-db.org/83111) 
+
+- [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83403](http://rdf.rhea-db.org/83403) 
 
 - [long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0004467) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87335](http://rdf.rhea-db.org/87335) 
 
@@ -11836,6 +11964,18 @@
 - [obsolete bridge-mediated intermembrane lipid transfer activity](http://purl.obolibrary.org/obo/GO_7770132) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete bridge-mediated intermembrane lipid transfer activity" 
 
 
+### obsolete butyrate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0047760`
+#### Removed
+- [obsolete butyrate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047760) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) 
+
+#### Added
+- [obsolete butyrate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047760) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete butyrate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047760) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [short-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031955) 
+
+- [obsolete butyrate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0047760) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [medium-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031956) 
+
+
 ### obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose `http://purl.obolibrary.org/obo/GO_0000434`
 #### Removed
 - [obsolete carbon catabolite repression of transcription from RNA polymerase II promoter by galactose](http://purl.obolibrary.org/obo/GO_0000434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "The reason for obsoletion is that these terms represent GO-CAM models."^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
@@ -12909,6 +13049,14 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24220498" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
+
+
+### phosphatidylinositol-4,5-bisphosphate phospholipase C activity `http://purl.obolibrary.org/obo/GO_0004435`
+
+#### Added
+- [phosphatidylinositol-4,5-bisphosphate phospholipase C activity](http://purl.obolibrary.org/obo/GO_0004435) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [phosphatidylinositol-4,5-bisphosphate phospholipase C activity](http://purl.obolibrary.org/obo/GO_0004435) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [33179](http://rdf.rhea-db.org/33179) 
 
 
 ### phosphatidylinositol-4-phosphate-cholesterol exchange activity `http://purl.obolibrary.org/obo/GO_0160291`
@@ -14792,6 +14940,37 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33371" 
 
 
+### protein-asparagine N-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0141225`
+
+#### Added
+- Class: [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32841"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-05T00:00:00Z" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "protein asparagine N-methyltransferase activity" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:0141225" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: L-asparaginyl-[protein] + S-adenosyl-L-methionine = N(4)-methyl-L-asparaginyl-[protein] + S-adenosyl-L-homocysteine + H+." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18482977" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18469097" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein-asparagine N-methyltransferase activity" 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) SubClassOf [N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008170) 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) SubClassOf [protein methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008276) 
+
+- [protein-asparagine N-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0141225) SubClassOf [S-adenosylmethionine-dependent methyltransferase activity](http://purl.obolibrary.org/obo/GO_0008757) 
+
+
 ### protein-exporting ATPase activity `http://purl.obolibrary.org/obo/GO_0008564`
 #### Removed
 - [protein-exporting ATPase activity](http://purl.obolibrary.org/obo/GO_0008564) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: ATP + H2O + protein+(in) = ADP + phosphate + protein+(out); drives the concomitant secretion of proteins." 
@@ -14806,6 +14985,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:7.4.2.8" 
 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30346996" 
+
+
+### protein-lysine lysyltransferase activity `http://purl.obolibrary.org/obo/GO_0052868`
+#### Removed
+- [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-beta-lysine + L-lysyl-[protein] + ATP = N6-((3R)-3,6-diaminohexanoyl)-L-lysyl-[protein] + AMP + diphosphate + H+n. This reaction is the addition of lysine group from one protein to a lysine residue in a second protein, producing N6-(lysyl)-L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20729861" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83435" 
+
+#### Added
+- [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [83435](http://rdf.rhea-db.org/83435) 
+
+- [protein-lysine lysyltransferase activity](http://purl.obolibrary.org/obo/GO_0052868) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: D-beta-lysine + L-lysyl-[protein] + ATP = N6-((3R)-3,6-diaminohexanoyl)-L-lysyl-[protein] + AMP + diphosphate + H+. This reaction is the addition of lysine group from one protein to a lysine residue in a second protein, producing N6-(lysyl)-L-lysine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20729861" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83435" 
 
 
 ### protein-phosphatidylethanolamide deconjugating activity `http://purl.obolibrary.org/obo/GO_0019786`
@@ -17529,6 +17726,14 @@
 
 
 
+### thiocyanate peroxidase activity `http://purl.obolibrary.org/obo/GO_0036393`
+
+#### Added
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [thiocyanate peroxidase activity](http://purl.obolibrary.org/obo/GO_0036393) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [69416](http://rdf.rhea-db.org/69416) 
+
+
 ### thiol S-methyltransferase activity `http://purl.obolibrary.org/obo/GO_0018708`
 
 #### Added
@@ -18745,6 +18950,76 @@
 - [venom-mediated smooth muscle relaxation by activation of nitric oxide-cGMP-mediated signaling](http://purl.obolibrary.org/obo/GO_7770131) SubClassOf [venom-mediated smooth muscle relaxation](http://purl.obolibrary.org/obo/GO_0044617) 
 
 
+### venom-mediated suppression of cell adhesion `http://purl.obolibrary.org/obo/GO_7770155`
+
+#### Added
+- Class: [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32889"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-05T14:43:46Z" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "envenomation resulting in negative regulation of cell adhesion" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770155" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts cell adhesion in another organism via the action of a venom. A common mechanism is the binding of venom proteins, such as disintegrins, to integrins from another organism, which prevents integrin binding to their ligands." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11368322" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22069567" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27331872" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32087267" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39591241" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated suppression of cell adhesion" 
+
+- [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) SubClassOf [venom-mediated perturbation of biological process](http://purl.obolibrary.org/obo/GO_0035738) 
+
+
+### venom-mediated suppression of cell-matrix adhesion `http://purl.obolibrary.org/obo/GO_7770156`
+
+#### Added
+- Class: [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32889"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-05T14:43:46Z" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "venom-mediated suppression of adhesion of cells to extracellular matrix" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770156" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism inhibits or disrupts cell-matrix adhesion in another organism via the action of a venom. A common mechanism is the binding of venom proteins, such as disintegrins, to integrins from another organism, which prevents integrin binding to their ligands." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11368322" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:27331872" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32087267" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39591241" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) [label](http://www.w3.org/2000/01/rdf-schema#label) "venom-mediated suppression of cell-matrix adhesion" 
+
+- [venom-mediated suppression of cell-matrix adhesion](http://purl.obolibrary.org/obo/GO_7770156) SubClassOf [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) 
+
+
+### venom-mediated suppression of platelet aggregation `http://purl.obolibrary.org/obo/GO_0044477`
+
+#### Added
+- [venom-mediated suppression of platelet aggregation](http://purl.obolibrary.org/obo/GO_0044477) SubClassOf [venom-mediated suppression of cell adhesion](http://purl.obolibrary.org/obo/GO_7770155) 
+
+
 ### venom-mediated vasoconstriction `http://purl.obolibrary.org/obo/GO_0044499`
 #### Removed
 - [venom-mediated vasoconstriction](http://purl.obolibrary.org/obo/GO_0044499) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process in which an organism initiates, promotes, or enhances the narrowing (constriction) of blood vessels by small muscles in their walls in another organism via the action of a venom, concomittantly increasing blood pressure in the bitten/stung organism." 
@@ -18817,6 +19092,24 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31370142" 
 
 
+### very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0035380`
+#### Removed
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: (S)-3-hydroxyacyl-CoA + NAD(P)+ = 3-oxoacyl-CoA + NAD(P)H + H+, where the acyl group is a very long-chain fatty acid residue. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78927" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity" 
+
+#### Added
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [78927](http://rdf.rhea-db.org/78927) 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a very-long-chain (3S)-3-hydroxyacyl-CoA + NAD+ = a very-long-chain 3-oxoacyl-CoA + NADH + H+. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78927" 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0035380) [label](http://www.w3.org/2000/01/rdf-schema#label) "very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity" 
+
+
 ### very long-chain fatty acid beta-oxidation `http://purl.obolibrary.org/obo/GO_0140493`
 #### Removed
 - [very long-chain fatty acid beta-oxidation](http://purl.obolibrary.org/obo/GO_0140493) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A fatty acid beta-oxidation pathway acting on a very long-chain fatty acid. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons. The partway stars with the conversion of an acyl-CoA to a trans-2-enoyl-CoA, catalyzed by acyl-CoA oxidase; the electrons removed by oxidation pass directly to oxygen and produce hydrogen peroxide, which is cleaved by peroxisomal catalases. Fatty acid beta-oxidation begins with the addition of coenzyme A to a fatty acid, and ends when only two or three carbons remain (as acetyl-CoA or propionyl-CoA respectively)." 
@@ -18852,8 +19145,18 @@
 
 
 ### very long-chain fatty acid-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0031957`
+#### Removed
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83111" 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:83403" 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83111](http://rdf.rhea-db.org/83111) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [83403](http://rdf.rhea-db.org/83403) 
 
 #### Added
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32876"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87411" 
 
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87411](http://rdf.rhea-db.org/87411) 
