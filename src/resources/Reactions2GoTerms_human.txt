@@ -929,7 +929,6 @@ R-HSA-1793207	ARSB hydrolyses C4S/C6S chains	GO:0003943
 R-HSA-1793209	HYAL1-4 hydrolyze chondroitin chains	GO:0004415
 R-HSA-1793217	Unknown endo-β-galactosidase cleaves keratan chain	GO:0004565
 R-HSA-179417	Multiubiquitination of Nek2A	GO:0004842
-R-HSA-1799329	Signal peptidase hydrolyzes signal peptide from ribosome-associated nascent protein	GO:0004252
 R-HSA-180038	DARPP-32 phosphorylated on T34 binds to PP1, inhibiting its function	GO:0019888
 R-HSA-180047	CDK5 phosphorylates DARPP-32 on Thr75	GO:0004693
 R-HSA-180073	DARPP-32 phosphorylated on Thr75 binds to PKA, inhibiting its function	GO:0004862
@@ -1569,7 +1568,7 @@ R-HSA-2076392	EXT1:EXT2 transfers GlcA to heparan	GO:0050509
 R-HSA-2076419	HS6STs sulfate GlcN at C6 in heparan sulfate/heparin	GO:0017095
 R-HSA-2076508	HS2ST1 trimer sulfates IdoA at C2 in heparan sulfate	GO:0004394
 R-HSA-2076611	HS3ST2-6 sulfate GlcN at C3 in heparan sulfate	GO:0008467
-R-HSA-2089943	TRPC1 translocates calcium from the extracellular region to the cytosol	GO:0005261
+R-HSA-2089943	TRPC1 translocates calcium from the extracellular region to the cytosol	GO:0015279
 R-HSA-2090037	IDUA hydrolyses Heparan sulfate chain(6)	GO:0003940
 R-HSA-2090038	NAGLU hydrolyses heparan chain(2)	GO:0004561
 R-HSA-2090043	SGSH hydrolyses Heparan sulfate chain(7)	GO:0016250
@@ -1853,7 +1852,7 @@ R-HSA-2408530	MeSeH is hydrolysed to H2Se by methylselenol demethylase	GO:009860
 R-HSA-2408532	AdeSeHCys is hydrolysed to SeHCys by AHCY	GO:0098604
 R-HSA-2408536	H2Se is methylated to MeSeH by H2Se methyltransferase	GO:0098614
 R-HSA-2408537	Excess SeMet is cleaved into MeSeH by PXLP-K212-CTH	GO:0098600
-R-HSA-2408539	MeSec is hydrolysed to MeSeH by PXLP-K212-CTH	GO:0098607
+R-HSA-2408539	MeSec is hydrolysed to MeSeH by PXLP-K212-CTH	GO:0004123
 R-HSA-2408540	APSe is phosphorylated to PAPSe by PAPSS1,2	GO:0098617
 R-HSA-2408541	MeSeH is methylated to Me2Se by MeSeH methyltransferase	GO:0098613
 R-HSA-2408542	GSSeSG is reduced to GSSeH and GSH by GSR	GO:0098622
@@ -6223,7 +6222,7 @@ R-HSA-9815507	MIB2 ubiquitinates CYLD at K338, K530	GO:0004842
 R-HSA-9815529	nsp12 transfers guanylyl onto SARS-CoV-2 plus strand subgenomic RNAs	GO:0004484
 R-HSA-9816275	CDH1 is proteolytically cleaved in Golgi	GO:0004252
 R-HSA-9816276	CDH1 is N-glycosylated on asparagine residues in endoplasmic reticulum	GO:0004579
-R-HSA-9816277	CDH1 is O-manosylated	GO:0004169
+R-HSA-9816277	CDH1 is O-mannosylated	GO:0004169
 R-HSA-9817362	SPATA2:CYLD-bound LUBAC ubiquitinates RIPK1 at K627 within the TNFR1 signaling complex	GO:0004842
 R-HSA-9817397	TBK1, IKBKE phosphorylate RIPK1 at T189	GO:0004674
 R-HSA-9817400	CYLD hydrolyses K63polyUb on RIPK1 within the TNFR1 complex	GO:0061578
@@ -6429,6 +6428,14 @@ R-HSA-9858800	TRPV4 tetramer:CALM1:Ca2+ transports calcium ions (Ca2+) from the 
 R-HSA-9859148	BCKDHA:BCKDHB tetramer decarboxylates KIC, KMVA, KIV	GO:0016624
 R-HSA-9859163	DBT transfers BCAA to CoA	GO:0016747
 R-HSA-9859172	DLD dimer dehydrogenates dihydrolipoyl	GO:0004148
+R-HSA-9859676	AMPK phosphorylates CRY1 on serine-71 and serine-280	GO:0004679
+R-HSA-9859709	AMPK phosphorylates CKIepsilon	GO:0004679
+R-HSA-9859871	NOCT dephosphorylates NADP+ in the cytosol	GO:0019178
+R-HSA-9859900	NOCT dephosphorylates NADPH in the mitochondrial matrix	GO:0102757
+R-HSA-9859943	NOCT dephosphorylates NADPH in the cytosol	GO:0102757
+R-HSA-9859959	NOCT dephosphorylates NADP+ in the mitochondrial matrix	GO:0019178
+R-HSA-9859970	SIRT1 deacetylates Ac-K538,p-S90-BMAL1 in SIRT1:p-S90,Ac-K538-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:NAMPT gene	GO:0034979
+R-HSA-9860205	SIRT1 deacetylates Ac-K538,p-S90-BMAL1 in SIRT1:Ac-K538,p-S90-BMAL1:CLOCK:PER2 gene	GO:0034979
 R-HSA-9860292	Activated IKBKB phosphorylates IRF5	GO:0004674
 R-HSA-9860500	Phosphorylation of KDR (VEGFR2) and FLT4 (VEGFR3) and PECAM1 in PECAM1:CDH5:KDR:FLT4:CTNNB1	GO:0004713
 R-HSA-9860759	p-T816-PKN2 phosphorylates AKT1 on serine-308	GO:0004713
@@ -6790,11 +6797,25 @@ R-HSA-9958873	Cell-to-cell contact through homophilic cadherin interactions inhi
 R-HSA-9958874	26S proteasome degrades ubiquitinated RAC1, CDC42	GO:0004175
 R-HSA-9958889	SRC phosphorylates CDH1	GO:0004713
 R-HSA-9958892	SRC promotes RAC1 and CDC42 activation by phosphorylating RAC1 and CDC42 GEFs	GO:0004713
+R-HSA-9958983	SIRT1 deacetylates Ac-K680-PER2	GO:0034979
 R-HSA-9959857	TP53 binds ARG1 gene	GO:0001217
 R-HSA-9959860	TP53 binds CPS1 gene	GO:0001217
 R-HSA-9959863	TP53 binds OTC gene	GO:0001217
+R-HSA-9960046	SIRT1 deacetylates Ac-13K-PPARGC1 in Ac-13K-PPARGC1A:SIRT1:RORA:BMAL1 gene	GO:0034979
+R-HSA-9960053	SIRT1 deacetylates Ac-K16-Histone H4 and Ac-K9,K14-Histone H3 at the PER2 locus	GO:0034979
+R-HSA-9960066	SIRT6 deacetylates Ac-K-PER2	GO:0034979
 R-HSA-9960522	CASP5 cleaves IL1B at D27	GO:0004197
 R-HSA-9960526	CASP4 cleaves IL1B at D116	GO:0004197
+R-HSA-9961787	NAMPT transfers 5-phosphoribose from 5-phosphoribosyl-1-pyrophosphate (PRPP) to nicotinamide (NAM) , yielding nicotinamide mononucleotide (NMN) and pyrophosphate (PPi)	GO:0047280
+R-HSA-9961788	SIRT1 deacetylates Ac-K9,K14-Histone H3 and Ac-K16-Histone H4 in SIRT1:p-S90-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:Nucleosome with H3K9acK14ac and H4K16ac:NAMPT gene	GO:0034979
+R-HSA-9961796	CLOCK acetylates BMAL1 in p-S90-BMAL1:p-T451,T461,S440,S441-CLOCK:Nucleosome:NAMPT gene	GO:0061733
+R-HSA-9961800	NAMPT transfers 5-phosphoribose from 5-phosphoribose-1-pyrophosphate (PRPP) to nicotinamide (NAM), yielding nicotinamide mononucleotide (NMN) and pyrophosphate	GO:0047280
+R-HSA-9961803	CLOCK acetylates Histone H3 and Histone H4 in p-S90,Ac-K538-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:Nucleosome:NAMPT gene	GO:0061733
+R-HSA-9961807	SIRT1 deacetylates Ac-K9,K14-Histone H3 and Ac-K16-Histone H4 in p-S90-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:Nucleosome with H3K9acK14ac and H4K16ac:SIRT1 gene	GO:0034979
+R-HSA-9961808	CLOCK acetylates Histone H3 and Histone H4 in p-S90,Ac-K538-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:Nucleosome:SIRT1 gene	GO:0061733
+R-HSA-9961809	CLOCK acetylates BMAL1 in p-S90-BMAL1:p-T451,T461:S440,S441,S446-CLOCK:Nucleosome:SIRT1 gene	GO:0061733
+R-HSA-9961813	NMNAT1 transfers an adenylyl group from ATP to nicotinamide mononucleotide (NMN), yielding NAD+ and pyrophosphate (PPi)	GO:0000309
+R-HSA-9961820	SIRT1 deacetylates Ac-K538,p-S90-BMAL1 in SIRT1:p-S90,Ac-K538-BMAL1:p-T451,T461,S440,S441,S446-CLOCK:Nucleosome with H3K9ac and H4K16ac:SIRT1 gene	GO:0034979
 R-HSA-9968303	Error-prone DNA polymerase (REV1, POLH, POLI, POLZ) synthesizes DNA across single strand gap	GO:0003689
 R-HSA-9968308	EXO1 excises single strand DNA surrounding a U:G mismatch	GO:0035312
 R-HSA-9970023	AOC1 dimer oxidizes MeHist	GO:0052598
@@ -6831,4 +6852,21 @@ R-HSA-9974220	CRL4A-DCAF8L1,CRL4-DCAF8L2 polyubiquitinates BARD1	GO:0004842
 R-HSA-9974238	CRL4A-DCAF8L1 polyubiquitinates BRCA1	GO:0004842
 R-HSA-9974400	26S Proteasome degrades polyubiquitinated BRCA1, BARD1	GO:0004175
 R-HSA-9975250	PGK1 phosphorylates AKT1S1	GO:0004674
+R-HSA-9980902	Mind bomb 1 (MIB1) ubiquitinates DLL4 in DLL4:NOTCH1	GO:0061630
+R-HSA-9980918	Gamma-secretase cleaves NEXT1 yielding NICD1	GO:0004190
+R-HSA-9980928	ADAM10 cleaves NOTCH1	GO:0008237
+R-HSA-9983883	p-S389-CSNK1E (p-S389-CKIepsilon) phosphorylates PER2	GO:0004674
+R-HSA-9985666	POLRMT in POLRMT:TFB2M:mitochondrial promoter:5 nt RNA extends 5 nt RNA to 8-9 nt and TFB2M dissociates from POLRMT:TFB2M:mitochondrial DNA	GO:0003899
+R-HSA-9985667	POLRMT in POLRMT:TFB2M:TFAM:mitochondrial promoter polymerizes 5 nt RNA and TFAM dissociates	GO:0003899
+R-HSA-9985671	POLRMT in the complex POLRMT:TEFM:mitochondrial genome:8-9 nt RNA polymerizes mitochondrial H,L strand transcript	GO:0003899
+R-HSA-9985802	SARS-CoV-2 dsRNA-bound GGC-OAS1 produces 2'-5' oligoadenylates	GO:0001730
+R-HSA-9985994	FNTA:PGGT1B geranylgeranylates OAS1	GO:0004662
+R-HSA-9986014	Flavivirus dsRNA-bound GGC-OAS1 produces 2'-5' oligoadenylates	GO:0001730
+R-HSA-9986721	Endoplasmic reticulum membrane complex (EMC) inserts protein into endoplasmic reticulum membrane	GO:0032977
+R-HSA-9986727	SEC61 translocon:TRAP inserts protein into endoplasmic reticulum membrane	GO:0032977
+R-HSA-9986731	Multipass translocon (MPT) inserts protein into endoplasmic reticulum membrane	GO:0032977
+R-HSA-9987037	SEC61 translocon:TRAP:OST inserts protein into endoplasmic reticulum membrane	GO:0032977
+R-HSA-9988097	SEC61 translocon:TRAP translocates soluble ER-targeted protein into the ER lumen	GO:0008320
+R-HSA-9988102	Signal peptidase cleaves signal peptide from nascent polypeptide	GO:0004252
 R-HSA-9988827	Activated ATM phosphorylates PHF6	GO:0004674
+R-HSA-9992238	Src-family kinases phosphorylate ITAMs on CD247 (CD3ζ) and/or FCER1G (FcRγ) downstream of FCGR3A (FcγRIIIa, CD16A) engagement	GO:0004713
