@@ -568,6 +568,7 @@ http://purl.obolibrary.org/obo/GO_1904934	negative regulation of cell proliferat
 http://purl.obolibrary.org/obo/GO_2000137	negative regulation of cell proliferation involved in heart morphogenesis	http://purl.obolibrary.org/obo/GO_0061323	cell proliferation involved in heart morphogenesis
 http://purl.obolibrary.org/obo/GO_1901723	negative regulation of cell proliferation involved in kidney development	http://purl.obolibrary.org/obo/GO_0072111	cell proliferation involved in kidney development
 http://purl.obolibrary.org/obo/GO_1901892	negative regulation of cell septum assembly	http://purl.obolibrary.org/obo/GO_0090529	cell septum assembly
+http://purl.obolibrary.org/obo/GO_0046426	negative regulation of cell surface receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	cell surface receptor signaling pathway via JAK-STAT
 http://purl.obolibrary.org/obo/GO_1903339	negative regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
 http://purl.obolibrary.org/obo/GO_2000967	negative regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
 http://purl.obolibrary.org/obo/GO_0022408	negative regulation of cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
@@ -730,6 +731,7 @@ http://purl.obolibrary.org/obo/GO_0051463	negative regulation of cortisol secret
 http://purl.obolibrary.org/obo/GO_1903851	negative regulation of cristae formation	http://purl.obolibrary.org/obo/GO_0042407	cristae formation
 http://purl.obolibrary.org/obo/GO_0042690	negative regulation of crystal cell differentiation	http://purl.obolibrary.org/obo/GO_0042688	crystal cell differentiation
 http://purl.obolibrary.org/obo/GO_0045593	negative regulation of cumulus cell differentiation	http://purl.obolibrary.org/obo/GO_0001549	cumulus cell differentiation
+http://purl.obolibrary.org/obo/GO_7770152	negative regulation of cuproptosis	http://purl.obolibrary.org/obo/GO_0160119	cuproptosis
 http://purl.obolibrary.org/obo/GO_0048080	negative regulation of cuticle pigmentation	http://purl.obolibrary.org/obo/GO_0048067	cuticle pigmentation
 http://purl.obolibrary.org/obo/GO_1901958	negative regulation of cutin biosynthetic process	http://purl.obolibrary.org/obo/GO_0010143	cutin biosynthetic process
 http://purl.obolibrary.org/obo/GO_0048782	negative regulation of cyanophore differentiation	http://purl.obolibrary.org/obo/GO_0048774	cyanophore differentiation
@@ -937,7 +939,6 @@ http://purl.obolibrary.org/obo/GO_0001100	negative regulation of exit from mitos
 http://purl.obolibrary.org/obo/GO_0001929	negative regulation of exocyst assembly	http://purl.obolibrary.org/obo/GO_0001927	exocyst assembly
 http://purl.obolibrary.org/obo/GO_0045920	negative regulation of exocytosis	http://purl.obolibrary.org/obo/GO_0006887	exocytosis
 http://purl.obolibrary.org/obo/GO_1903542	negative regulation of exosomal secretion	http://purl.obolibrary.org/obo/GO_1990182	exosomal secretion
-http://purl.obolibrary.org/obo/GO_1903552	negative regulation of extracellular exosome assembly	http://purl.obolibrary.org/obo/GO_0071971	extracellular exosome assembly
 http://purl.obolibrary.org/obo/GO_1901202	negative regulation of extracellular matrix assembly	http://purl.obolibrary.org/obo/GO_0085029	extracellular matrix assembly
 http://purl.obolibrary.org/obo/GO_0003332	negative regulation of extracellular matrix constituent secretion	http://purl.obolibrary.org/obo/GO_0070278	extracellular matrix constituent secretion
 http://purl.obolibrary.org/obo/GO_0010716	negative regulation of extracellular matrix disassembly	http://purl.obolibrary.org/obo/GO_0022617	extracellular matrix disassembly
@@ -1000,7 +1001,7 @@ http://purl.obolibrary.org/obo/GO_1905943	negative regulation of formation of gr
 http://purl.obolibrary.org/obo/GO_0061925	negative regulation of formation of radial glial scaffolds	http://purl.obolibrary.org/obo/GO_0021943	formation of radial glial scaffolds
 http://purl.obolibrary.org/obo/GO_0075032	negative regulation of formation of symbiont germ tube hook structure for appressorium development	http://purl.obolibrary.org/obo/GO_0075029	formation of appressorium germ tube hook structure
 http://purl.obolibrary.org/obo/GO_1901191	negative regulation of formation of translation initiation ternary complex	http://purl.obolibrary.org/obo/GO_0001677	formation of translation initiation ternary complex
-http://purl.obolibrary.org/obo/GO_1901194	negative regulation of formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0001731	formation of translation preinitiation complex
+http://purl.obolibrary.org/obo/GO_1901194	negative regulation of formation of translation preinitiation complex	http://purl.obolibrary.org/obo/GO_0001731	formation of cytoplasmic translation preinitiation complex
 http://purl.obolibrary.org/obo/GO_0090339	negative regulation of formin-nucleated actin cable assembly	http://purl.obolibrary.org/obo/GO_0070649	formin-nucleated actin cable assembly
 http://purl.obolibrary.org/obo/GO_1905849	negative regulation of forward locomotion	http://purl.obolibrary.org/obo/GO_0043056	forward locomotion
 http://purl.obolibrary.org/obo/GO_0032684	negative regulation of fractalkine production	http://purl.obolibrary.org/obo/GO_0032603	fractalkine production
@@ -1269,7 +1270,6 @@ http://purl.obolibrary.org/obo/GO_0032387	negative regulation of intracellular t
 http://purl.obolibrary.org/obo/GO_1901253	negative regulation of intracellular transport of viral material	http://purl.obolibrary.org/obo/GO_0075733	intracellular transport of virus
 http://purl.obolibrary.org/obo/GO_1905797	negative regulation of intraciliary anterograde transport	http://purl.obolibrary.org/obo/GO_0035720	intraciliary anterograde transport
 http://purl.obolibrary.org/obo/GO_1905800	negative regulation of intraciliary retrograde transport	http://purl.obolibrary.org/obo/GO_0035721	intraciliary retrograde transport
-http://purl.obolibrary.org/obo/GO_1905366	negative regulation of intralumenal vesicle formation	http://purl.obolibrary.org/obo/GO_0070676	intralumenal vesicle formation
 http://purl.obolibrary.org/obo/GO_2001243	negative regulation of intrinsic apoptotic signaling pathway	http://purl.obolibrary.org/obo/GO_0097193	intrinsic apoptotic signaling pathway
 http://purl.obolibrary.org/obo/GO_1902254	negative regulation of intrinsic apoptotic signaling pathway by p53 class mediator	http://purl.obolibrary.org/obo/GO_0072332	intrinsic apoptotic signaling pathway by p53 class mediator
 http://purl.obolibrary.org/obo/GO_1902230	negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage	http://purl.obolibrary.org/obo/GO_0008630	intrinsic apoptotic signaling pathway in response to DNA damage
@@ -2052,7 +2052,6 @@ http://purl.obolibrary.org/obo/GO_0010754	negative regulation of receptor guanyl
 http://purl.obolibrary.org/obo/GO_0002091	negative regulation of receptor internalization	http://purl.obolibrary.org/obo/GO_0031623	receptor internalization
 http://purl.obolibrary.org/obo/GO_1902684	negative regulation of receptor localization to synapse	http://purl.obolibrary.org/obo/GO_0097120	receptor localization to synapse
 http://purl.obolibrary.org/obo/GO_0001920	negative regulation of receptor recycling	http://purl.obolibrary.org/obo/GO_0001881	receptor recycling
-http://purl.obolibrary.org/obo/GO_0046426	negative regulation of receptor signaling pathway via JAK-STAT	http://purl.obolibrary.org/obo/GO_0007259	cell surface receptor signaling pathway via JAK-STAT
 http://purl.obolibrary.org/obo/GO_1904893	negative regulation of receptor signaling pathway via STAT	http://purl.obolibrary.org/obo/GO_0097696	cell surface receptor signaling pathway via STAT
 http://purl.obolibrary.org/obo/GO_0048261	negative regulation of receptor-mediated endocytosis	http://purl.obolibrary.org/obo/GO_0006898	receptor-mediated endocytosis
 http://purl.obolibrary.org/obo/GO_1905601	negative regulation of receptor-mediated endocytosis involved in cholesterol transport	http://purl.obolibrary.org/obo/GO_0090118	receptor-mediated endocytosis involved in cholesterol transport
