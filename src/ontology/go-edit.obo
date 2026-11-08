@@ -43030,6 +43030,7 @@ synonym: "S-adenosyl-L-methionine:mRNA (guanine-7-N-)-methyltransferase activity
 synonym: "S-adenosyl-L-methionine:mRNA (guanine-N7-)-methyltransferase activity" RELATED [EC:2.1.1.56]
 xref: EC:2.1.1.56 {source="skos:exactMatch"}
 xref: MetaCyc:MRNA-GUANINE-N7--METHYLTRANSFERASE-RXN
+xref: RHEA:11220 {source="skos:narrowMatch"}
 xref: RHEA:67008 {source="skos:exactMatch"}
 is_a: GO:0008170 ! N-methyltransferase activity
 is_a: GO:0008174 ! mRNA methyltransferase activity
@@ -304848,6 +304849,7 @@ xref: EC:1.2.99.7 {source="skos:narrowMatch"}
 xref: MetaCyc:1.2.99.7-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN {source="skos:narrowMatch"}
 xref: RHEA:56856 {source="skos:exactMatch"}
+xref: RHEA:79339 {source="skos:narrowMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
