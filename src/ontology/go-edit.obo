@@ -622758,6 +622758,22 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: pg
 creation_date: 2026-11-09T09:48:07Z
 
+[Term]
+id: GO:7770158
+name: tRNA-guanosine(34) preQ1 transglycosylase activity
+namespace: molecular_function
+def: "Catalysis of the reaction: 7-aminomethyl-7-carbaguanine + guanosine(34) in tRNA = 7-aminomethyl-7-carbaguanosine(34) in tRNA + guanine." [PMID:7578154, RHEA:24104]
+synonym: "preQ1 tRNA-ribosyltransferase" EXACT []
+synonym: "queuine tRNA-ribosyltransferase" RELATED []
+synonym: "tRNA-guanine transglycosylase" EXACT []
+xref: EC:2.4.2.29 {source="skos:exactMatch"}
+xref: RHEA:24104 {source="skos:exactMatch"}
+is_a: GO:0016763 ! pentosyltransferase activity
+is_a: GO:0140101 ! catalytic activity, acting on a tRNA
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32883" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-09T23:54:18Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
