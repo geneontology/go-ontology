@@ -25,6 +25,16 @@ as findings is noise, and reporting them as *verified by you* is a false claim.
 
 Review what CI structurally cannot see.
 
+## Re-reviews with no new content
+
+Take the head from the `Head reviewed:` line of your last report. On a shallow
+clone, fetch enough history for the merge base first. If
+`git diff <base>...<that-head> -- <in-scope files>` and
+`git diff <base>...HEAD -- <in-scope files>` show the same changed lines (the
+PR's own changes are unchanged, e.g. only a master merge came in), don't redo
+the review. Post one line saying the findings of round N stand, linking that
+report; don't minimize it or submit a new review verdict.
+
 ## Size the change before reviewing it
 
 Measure the diff first. On anything very large (>2000 changed lines) or
