@@ -413188,8 +413188,10 @@ synonym: "CAAX-box protein processing" RELATED []
 synonym: "farnesylated protein maturation" RELATED [GOC:vw]
 is_a: GO:0019538 ! protein metabolic process
 is_a: GO:0051604 ! protein maturation
+is_a: onlyin:2759
 relationship: has_part GO:0016485 ! protein processing
 relationship: has_part GO:0018342 ! protein prenylation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32907" xsd:anyURI
 created_by: dhl
 creation_date: 2009-04-28T03:06:13Z
 
