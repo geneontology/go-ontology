@@ -201534,75 +201534,91 @@ intersection_of: positively_regulates GO:0033622 ! integrin activation
 
 [Term]
 id: GO:0033627
-name: cell adhesion mediated by integrin
+name: obsolete cell adhesion mediated by integrin
 namespace: biological_process
-def: "The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." [GOC:add, PMID:12213832, PMID:14754902]
+def: "OBSOLETE. The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." [GOC:add, PMID:12213832, PMID:14754902]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0007155 ! cell adhesion
-intersection_of: has_participant GO:0008305 ! integrin complex
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0007155
 
 [Term]
 id: GO:0033628
-name: regulation of cell adhesion mediated by integrin
+name: obsolete regulation of cell adhesion mediated by integrin
 namespace: biological_process
-def: "Any process that modulates the frequency, rate, or extent of cell adhesion mediated by integrin." [GOC:add]
+def: "OBSOLETE. Any process that modulates the frequency, rate, or extent of cell adhesion mediated by integrin." [GOC:add]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "regulation of cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0033627 ! cell adhesion mediated by integrin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0030155
 
 [Term]
 id: GO:0033629
-name: negative regulation of cell adhesion mediated by integrin
+name: obsolete negative regulation of cell adhesion mediated by integrin
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate, or extent of cell adhesion mediated by integrin." [GOC:add]
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate, or extent of cell adhesion mediated by integrin." [GOC:add]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "negative regulation of cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0033627 ! cell adhesion mediated by integrin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0007162
 
 [Term]
 id: GO:0033630
-name: positive regulation of cell adhesion mediated by integrin
+name: obsolete positive regulation of cell adhesion mediated by integrin
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate, or extent of cell adhesion mediated by integrin." [GOC:add]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate, or extent of cell adhesion mediated by integrin." [GOC:add]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "positive regulation of cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0033627 ! cell adhesion mediated by integrin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0045785
 
 [Term]
 id: GO:0033631
-name: cell-cell adhesion mediated by integrin
+name: obsolete cell-cell adhesion mediated by integrin
 namespace: biological_process
-def: "The attachment of one cell to another cell via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." [GOC:add, PMID:12213832, PMID:14754902]
+def: "OBSOLETE. The attachment of one cell to another cell via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." [GOC:add, PMID:12213832, PMID:14754902]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "cell-cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0098609 ! cell-cell adhesion
-intersection_of: has_participant GO:0008305 ! integrin complex
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0098609
 
 [Term]
 id: GO:0033632
-name: regulation of cell-cell adhesion mediated by integrin
+name: obsolete regulation of cell-cell adhesion mediated by integrin
 namespace: biological_process
-def: "Any process that modulates the frequency, rate, or extent of cell-cell adhesion mediated by integrin." [GOC:add]
+def: "OBSOLETE. Any process that modulates the frequency, rate, or extent of cell-cell adhesion mediated by integrin." [GOC:add]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "regulation of cell-cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0033631 ! cell-cell adhesion mediated by integrin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0022407
 
 [Term]
 id: GO:0033633
-name: negative regulation of cell-cell adhesion mediated by integrin
+name: obsolete negative regulation of cell-cell adhesion mediated by integrin
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate, or extent of cell-cell adhesion mediated by integrin." [GOC:add]
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate, or extent of cell-cell adhesion mediated by integrin." [GOC:add]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "negative regulation of cell-cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0033631 ! cell-cell adhesion mediated by integrin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0022408
 
 [Term]
 id: GO:0033634
-name: positive regulation of cell-cell adhesion mediated by integrin
+name: obsolete positive regulation of cell-cell adhesion mediated by integrin
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate, or extent of cell-cell adhesion mediated by integrin." [GOC:add]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate, or extent of cell-cell adhesion mediated by integrin." [GOC:add]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
 synonym: "positive regulation of cell-cell adhesion mediated by integrin complex" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0033631 ! cell-cell adhesion mediated by integrin
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0022409
 
 [Term]
 id: GO:0033635
@@ -264577,10 +264593,13 @@ creation_date: 2010-08-18T04:21:21Z
 
 [Term]
 id: GO:0044331
-name: cell-cell adhesion mediated by cadherin
+name: obsolete cell-cell adhesion mediated by cadherin
 namespace: biological_process
-def: "The attachment of one cell to another cell via a cadherin, transmembrane proteins having repeating extracellular calcium ion binding domains." [GOC:ha, GOC:hjd, GOC:jl, PMID:10923970]
-is_a: GO:0098609 ! cell-cell adhesion
+def: "OBSOLETE. The attachment of one cell to another cell via a cadherin, transmembrane proteins having repeating extracellular calcium ion binding domains." [GOC:ha, GOC:hjd, GOC:jl, PMID:10923970]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0098609
 created_by: jl
 creation_date: 2010-08-20T10:24:54Z
 
@@ -604523,7 +604542,7 @@ synonym: "EMILIN-1 complex" NARROW []
 synonym: "EMILIN-2 complex" NARROW []
 is_a: GO:0098637 ! protein complex involved in cell-matrix adhesion
 relationship: capable_of GO:0098640 ! integrin binding involved in cell-matrix adhesion
-relationship: capable_of_part_of GO:0033627 ! cell adhesion mediated by integrin
+relationship: capable_of_part_of GO:0007160 ! cell-matrix adhesion
 relationship: part_of GO:0071953 ! elastic fiber
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31133" xsd:anyURI
 created_by: bhm
@@ -605211,32 +605230,37 @@ creation_date: 2010-08-19T09:19:18Z
 
 [Term]
 id: GO:2000047
-name: regulation of cell-cell adhesion mediated by cadherin
+name: obsolete regulation of cell-cell adhesion mediated by cadherin
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
-is_a: GO:0022407 ! regulation of cell-cell adhesion
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0044331 ! cell-cell adhesion mediated by cadherin
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0022407
 created_by: jl
 creation_date: 2010-08-20T12:56:44Z
 
 [Term]
 id: GO:2000048
-name: negative regulation of cell-cell adhesion mediated by cadherin
+name: obsolete negative regulation of cell-cell adhesion mediated by cadherin
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0044331 ! cell-cell adhesion mediated by cadherin
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0022408
 created_by: jl
 creation_date: 2010-08-20T12:56:51Z
 
 [Term]
 id: GO:2000049
-name: positive regulation of cell-cell adhesion mediated by cadherin
+name: obsolete positive regulation of cell-cell adhesion mediated by cadherin
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0044331 ! cell-cell adhesion mediated by cadherin
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of cell-cell adhesion mediated by cadherin." [GOC:obol]
+comment: The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32891" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0022409
 created_by: jl
 creation_date: 2010-08-20T12:56:57Z
 
