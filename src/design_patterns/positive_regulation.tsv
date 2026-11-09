@@ -527,7 +527,6 @@ http://purl.obolibrary.org/obo/GO_0050867	positive regulation of cell activation
 http://purl.obolibrary.org/obo/GO_0045785	positive regulation of cell adhesion	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion
 http://purl.obolibrary.org/obo/GO_1900189	positive regulation of cell adhesion involved in single-species biofilm formation	http://purl.obolibrary.org/obo/GO_0043709	cell adhesion involved in single-species biofilm formation
 http://purl.obolibrary.org/obo/GO_0106090	positive regulation of cell adhesion involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0120078	cell adhesion involved in sprouting angiogenesis
-http://purl.obolibrary.org/obo/GO_0033630	positive regulation of cell adhesion mediated by integrin	http://purl.obolibrary.org/obo/GO_0033627	cell adhesion mediated by integrin
 http://purl.obolibrary.org/obo/GO_0060355	positive regulation of cell adhesion molecule production	http://purl.obolibrary.org/obo/GO_0060352	cell adhesion molecule production
 http://purl.obolibrary.org/obo/GO_0045782	positive regulation of cell budding	http://purl.obolibrary.org/obo/GO_0007114	cell budding
 http://purl.obolibrary.org/obo/GO_1904849	positive regulation of cell chemotaxis to fibroblast growth factor	http://purl.obolibrary.org/obo/GO_0035766	cell chemotaxis to fibroblast growth factor
@@ -571,8 +570,6 @@ http://purl.obolibrary.org/obo/GO_0046427	positive regulation of cell surface re
 http://purl.obolibrary.org/obo/GO_1903340	positive regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
 http://purl.obolibrary.org/obo/GO_2000968	positive regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
 http://purl.obolibrary.org/obo/GO_0022409	positive regulation of cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
-http://purl.obolibrary.org/obo/GO_2000049	positive regulation of cell-cell adhesion mediated by cadherin	http://purl.obolibrary.org/obo/GO_0044331	cell-cell adhesion mediated by cadherin
-http://purl.obolibrary.org/obo/GO_0033634	positive regulation of cell-cell adhesion mediated by integrin	http://purl.obolibrary.org/obo/GO_0033631	cell-cell adhesion mediated by integrin
 http://purl.obolibrary.org/obo/GO_0001954	positive regulation of cell-matrix adhesion	http://purl.obolibrary.org/obo/GO_0007160	cell-matrix adhesion
 http://purl.obolibrary.org/obo/GO_0010811	positive regulation of cell-substrate adhesion	http://purl.obolibrary.org/obo/GO_0031589	cell-substrate adhesion
 http://purl.obolibrary.org/obo/GO_0150117	positive regulation of cell-substrate junction organization	http://purl.obolibrary.org/obo/GO_0150115	cell-substrate junction organization
@@ -692,6 +689,7 @@ http://purl.obolibrary.org/obo/GO_0048694	positive regulation of collateral spro
 http://purl.obolibrary.org/obo/GO_0048684	positive regulation of collateral sprouting of intact axon in response to injury	http://purl.obolibrary.org/obo/GO_0048673	collateral sprouting of intact axon in response to injury
 http://purl.obolibrary.org/obo/GO_1903816	positive regulation of collecting lymphatic vessel constriction	http://purl.obolibrary.org/obo/GO_1990192	collecting lymphatic vessel constriction
 http://purl.obolibrary.org/obo/GO_1904343	positive regulation of colon smooth muscle contraction	http://purl.obolibrary.org/obo/GO_1990765	colon smooth muscle contraction
+http://purl.obolibrary.org/obo/GO_7770157	positive regulation of common myeloid progenitor cell proliferation	http://purl.obolibrary.org/obo/GO_0035726	common myeloid progenitor cell proliferation
 http://purl.obolibrary.org/obo/GO_0045917	positive regulation of complement activation	http://purl.obolibrary.org/obo/GO_0006956	complement activation
 http://purl.obolibrary.org/obo/GO_0045958	positive regulation of complement activation, alternative pathway	http://purl.obolibrary.org/obo/GO_0006957	complement activation, alternative pathway
 http://purl.obolibrary.org/obo/GO_0045960	positive regulation of complement activation, classical pathway	http://purl.obolibrary.org/obo/GO_0006958	complement activation, classical pathway
