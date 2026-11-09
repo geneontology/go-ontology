@@ -247,24 +247,24 @@ go-obo-status.md: $(PREVIOUS_OBO) go.obo ../gh_pages_templates/go-obo-status.md
 # OWL
 # ----------------------------------------
 
-#Uses file provided by Reactome to generate xrefs for import
-
-../resources/Reactions2GoTerms_human.txt:
-	wget -O $@ --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
+# Reactome xrefs are generated from Reactome's pathway-to-GO file only, which
+# maps Reactome pathways to biological_process terms. Reactome's reaction-to-GO
+# file (Reactions2GoTerms_human.txt), which maps individual reactions to
+# molecular_function terms, is not used: such a reaction names the gene product
+# carrying out the activity, so it corresponds to an annotation rather than to
+# the GO term itself (https://github.com/geneontology/go-ontology/issues/32609).
+#
+# The downloaded file is tracked in git, so the recipe writes its cleaned copy
+# to reactome-tmp/ instead of editing it in place: the header row is renamed for
+# dosdp-tools (GO_Term -> defined_class) and non-ASCII characters are stripped.
 
 ../resources/Pathways2GoTerms_human.txt:
 	wget -O $@ --no-check-certificate https://reactome.org/download/current/Pathways2GoTerms_human.txt
 
-imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt
+imports/reactome_xrefs_import.owl: ../resources/Pathways2GoTerms_human.txt
 	mkdir -p reactome-tmp
-	sed -i '1s/.*/Identifier\tName\tdefined_class/' ../resources/Reactions2GoTerms_human.txt
-	sed -i '1d' ../resources/Pathways2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Reactions2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Pathways2GoTerms_human.txt
-	cat ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt >reactome-tmp/combined.txt
-	rm ../resources/Reactions2GoTerms_human.txt.bak
-	rm ../resources/Pathways2GoTerms_human.txt.bak
-	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
+	sed '1s/.*/Identifier\tName\tdefined_class/' $< | perl -pe 's/[^[:ascii:]]//g' >reactome-tmp/pathways.tsv
+	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/pathways.tsv --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
