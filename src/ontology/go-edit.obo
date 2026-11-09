@@ -34884,8 +34884,10 @@ xref: MetaCyc:ACYLPHOSPHATASE-RXN
 xref: RHEA:14965 {source="skos:exactMatch"}
 xref: RHEA:87159 {source="skos:narrowMatch"}
 xref: RHEA:87163 {source="skos:narrowMatch"}
+xref: RHEA:87167 {source="skos:narrowMatch"}
 xref: RHEA:87171 {source="skos:narrowMatch"}
 xref: RHEA:87175 {source="skos:narrowMatch"}
+xref: RHEA:87223 {source="skos:narrowMatch"}
 is_a: GO:0016462 ! pyrophosphatase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23401" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -35253,6 +35255,17 @@ xref: RHEA:86103 {source="skos:narrowMatch"}
 xref: RHEA:86111 {source="skos:narrowMatch"}
 xref: RHEA:86115 {source="skos:narrowMatch"}
 xref: RHEA:86119 {source="skos:narrowMatch"}
+xref: RHEA:88127 {source="skos:narrowMatch"}
+xref: RHEA:88131 {source="skos:narrowMatch"}
+xref: RHEA:88135 {source="skos:narrowMatch"}
+xref: RHEA:88139 {source="skos:narrowMatch"}
+xref: RHEA:88143 {source="skos:narrowMatch"}
+xref: RHEA:88147 {source="skos:narrowMatch"}
+xref: RHEA:88151 {source="skos:narrowMatch"}
+xref: RHEA:88155 {source="skos:narrowMatch"}
+xref: RHEA:88183 {source="skos:narrowMatch"}
+xref: RHEA:88187 {source="skos:narrowMatch"}
+xref: RHEA:88191 {source="skos:narrowMatch"}
 is_a: GO:0018455 ! alcohol dehydrogenase [NAD(P)+] activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28532" xsd:anyURI
 
@@ -35406,6 +35419,8 @@ xref: RHEA:76667 {source="skos:narrowMatch"}
 xref: RHEA:81191 {source="skos:narrowMatch"}
 xref: RHEA:81419 {source="skos:narrowMatch"}
 xref: RHEA:87183 {source="skos:narrowMatch"}
+xref: RHEA:88115 {source="skos:narrowMatch"}
+xref: RHEA:88119 {source="skos:narrowMatch"}
 xref: UM-BBD_reactionID:r0003
 xref: UM-BBD_reactionID:r0023
 xref: UM-BBD_reactionID:r0605
@@ -35601,6 +35616,17 @@ xref: RHEA:45048 {source="skos:narrowMatch"}
 xref: RHEA:64820 {source="skos:narrowMatch"}
 xref: RHEA:64824 {source="skos:narrowMatch"}
 xref: RHEA:68112 {source="skos:narrowMatch"}
+xref: RHEA:87035 {source="skos:narrowMatch"}
+xref: RHEA:87039 {source="skos:narrowMatch"}
+xref: RHEA:87047 {source="skos:narrowMatch"}
+xref: RHEA:87051 {source="skos:narrowMatch"}
+xref: RHEA:87055 {source="skos:narrowMatch"}
+xref: RHEA:87059 {source="skos:narrowMatch"}
+xref: RHEA:87063 {source="skos:narrowMatch"}
+xref: RHEA:87067 {source="skos:narrowMatch"}
+xref: RHEA:87071 {source="skos:narrowMatch"}
+xref: RHEA:87187 {source="skos:narrowMatch"}
+xref: RHEA:87191 {source="skos:narrowMatch"}
 xref: UM-BBD_reactionID:r0084
 xref: UM-BBD_reactionID:r0375
 xref: UM-BBD_reactionID:r1440
@@ -35761,6 +35787,7 @@ xref: RHEA:81119 {source="skos:narrowMatch"}
 xref: RHEA:81123 {source="skos:narrowMatch"}
 xref: RHEA:86755 {source="skos:narrowMatch"}
 xref: RHEA:86759 {source="skos:narrowMatch"}
+xref: RHEA:86763 {source="skos:narrowMatch"}
 xref: RHEA:86767 {source="skos:narrowMatch"}
 is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -39991,6 +40018,7 @@ synonym: "polyphosphate phosphohydrolase activity" RELATED [EC:3.6.1.11]
 xref: EC:3.6.1.11 {source="skos:exactMatch"}
 xref: MetaCyc:EXOPOLYPHOSPHATASE-RXN
 xref: RHEA:21528 {source="skos:exactMatch"}
+xref: RHEA:86811 {source="skos:narrowMatch"}
 is_a: GO:0016462 ! pyrophosphatase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -43031,6 +43059,8 @@ synonym: "S-adenosyl-L-methionine:mRNA (guanine-N7-)-methyltransferase activity"
 xref: EC:2.1.1.56 {source="skos:exactMatch"}
 xref: MetaCyc:MRNA-GUANINE-N7--METHYLTRANSFERASE-RXN
 xref: RHEA:11220 {source="skos:narrowMatch"}
+xref: RHEA:60852 {source="skos:narrowMatch"}
+xref: RHEA:60856 {source="skos:narrowMatch"}
 xref: RHEA:67008 {source="skos:exactMatch"}
 is_a: GO:0008170 ! N-methyltransferase activity
 is_a: GO:0008174 ! mRNA methyltransferase activity
@@ -78099,6 +78129,9 @@ xref: RHEA:80723 {source="skos:narrowMatch"}
 xref: RHEA:84055 {source="skos:narrowMatch"}
 xref: RHEA:84059 {source="skos:narrowMatch"}
 xref: RHEA:84063 {source="skos:narrowMatch"}
+xref: RHEA:88195 {source="skos:narrowMatch"}
+xref: RHEA:88199 {source="skos:narrowMatch"}
+xref: RHEA:88203 {source="skos:narrowMatch"}
 is_a: GO:0018455 ! alcohol dehydrogenase [NAD(P)+] activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28183" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28532" xsd:anyURI
@@ -86267,6 +86300,7 @@ xref: EC:2.7.7.43 {source="skos:exactMatch"}
 xref: MetaCyc:RXN-9990
 xref: RHEA:11344 {source="skos:exactMatch"}
 xref: RHEA:80843 {source="skos:narrowMatch"}
+xref: RHEA:89187 {source="skos:narrowMatch"}
 is_a: GO:0070567 ! cytidylyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -99759,6 +99793,7 @@ xref: RHEA:36995 {source="skos:narrowMatch"}
 xref: RHEA:37095 {source="skos:narrowMatch"}
 xref: RHEA:37243 {source="skos:narrowMatch"}
 xref: RHEA:39291 {source="skos:narrowMatch"}
+xref: RHEA:43852 {source="skos:narrowMatch"}
 xref: RHEA:85827 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24752" xsd:anyURI
@@ -137868,6 +137903,7 @@ xref: RHEA:39635 {source="skos:narrowMatch"}
 xref: RHEA:45796 {source="skos:narrowMatch"}
 xref: RHEA:45844 {source="skos:narrowMatch"}
 xref: RHEA:45848 {source="skos:narrowMatch"}
+xref: RHEA:87639 {source="skos:narrowMatch"}
 xref: UM-BBD_reactionID:r0202
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25814" xsd:anyURI
@@ -141763,6 +141799,8 @@ xref: MetaCyc:HALOACETATE-DEHALOGENASE-RXN
 xref: RHEA:11044 {source="skos:exactMatch"}
 xref: RHEA:25189 {source="skos:narrowMatch"}
 xref: RHEA:30051 {source="skos:narrowMatch"}
+xref: RHEA:87751 {source="skos:narrowMatch"}
+xref: RHEA:87755 {source="skos:narrowMatch"}
 xref: UM-BBD_enzymeID:r0004
 xref: UM-BBD_enzymeID:r1028
 is_a: GO:0019120 ! hydrolase activity, acting on halide bonds, in C-halide compounds
@@ -141781,6 +141819,13 @@ xref: MetaCyc:HALOALKANE-DEHALOGENASE-RXN
 xref: RHEA:19081 {source="skos:exactMatch"}
 xref: RHEA:25185 {source="skos:narrowMatch"}
 xref: RHEA:67720 {source="skos:narrowMatch"}
+xref: RHEA:87731 {source="skos:narrowMatch"}
+xref: RHEA:87735 {source="skos:narrowMatch"}
+xref: RHEA:89467 {source="skos:narrowMatch"}
+xref: RHEA:89471 {source="skos:narrowMatch"}
+xref: RHEA:89475 {source="skos:narrowMatch"}
+xref: RHEA:89479 {source="skos:narrowMatch"}
+xref: RHEA:89483 {source="skos:narrowMatch"}
 xref: UM-BBD_enzymeID:r0001
 is_a: GO:0019120 ! hydrolase activity, acting on halide bonds, in C-halide compounds
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -145230,6 +145275,7 @@ xref: RHEA:80363 {source="skos:narrowMatch"}
 xref: RHEA:80367 {source="skos:narrowMatch"}
 xref: RHEA:80371 {source="skos:narrowMatch"}
 xref: RHEA:80375 {source="skos:narrowMatch"}
+xref: RHEA:88123 {source="skos:narrowMatch"}
 xref: UM-BBD_reactionID:r0394
 is_a: GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27180" xsd:anyURI
@@ -146008,6 +146054,8 @@ xref: RHEA:39527 {source="skos:narrowMatch"}
 xref: RHEA:39539 {source="skos:narrowMatch"}
 xref: RHEA:39551 {source="skos:narrowMatch"}
 xref: RHEA:39563 {source="skos:narrowMatch"}
+xref: RHEA:87663 {source="skos:narrowMatch"}
+xref: RHEA:87667 {source="skos:narrowMatch"}
 is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -183248,6 +183296,7 @@ xref: RHEA:83107 {source="skos:narrowMatch"}
 xref: RHEA:85311 {source="skos:narrowMatch"}
 xref: RHEA:85315 {source="skos:narrowMatch"}
 xref: RHEA:87411 {source="skos:narrowMatch"}
+xref: RHEA:87679 {source="skos:narrowMatch"}
 is_a: GO:0120515 ! fatty acid-CoA ligase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26439" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
@@ -202610,6 +202659,7 @@ xref: RHEA:80819 {source="skos:narrowMatch"}
 xref: RHEA:80823 {source="skos:narrowMatch"}
 xref: RHEA:81423 {source="skos:narrowMatch"}
 xref: RHEA:87475 {source="skos:narrowMatch"}
+xref: RHEA:87483 {source="skos:narrowMatch"}
 is_a: GO:0004030 ! aldehyde dehydrogenase [NAD(P)+] activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29544" xsd:anyURI
 
@@ -220437,6 +220487,7 @@ def: "Catalysis of the reaction: a very-long-chain (3S)-3-hydroxyacyl-CoA + NAD+
 comment: While there is not universal consensus on the lengths of short-, medium-, long- and very-long-chain fatty acids, the GO uses the definitions in ChEBI (see CHEBI:26666, CHEBI:59554, CHEBI:15904 and CHEBI:27283).
 synonym: "very long-chain-3-hydroxyacyl-CoA dehydrogenase activity" BROAD []
 synonym: "very-long-chain-3-hydroxyacyl-CoA dehydrogenase activity" EXACT []
+xref: RHEA:78735 {source="skos:narrowMatch"}
 xref: RHEA:78927 {source="skos:exactMatch"}
 is_a: GO:0003857 ! (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26445" xsd:anyURI
@@ -295291,6 +295342,8 @@ xref: RHEA:37635 {source="skos:narrowMatch"}
 xref: RHEA:37755 {source="skos:narrowMatch"}
 xref: RHEA:37759 {source="skos:narrowMatch"}
 xref: RHEA:37763 {source="skos:narrowMatch"}
+xref: RHEA:87443 {source="skos:narrowMatch"}
+xref: RHEA:87487 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -295573,6 +295626,7 @@ xref: RHEA:37855 {source="skos:narrowMatch"}
 xref: RHEA:37859 {source="skos:narrowMatch"}
 xref: RHEA:37863 {source="skos:narrowMatch"}
 xref: RHEA:37867 {source="skos:narrowMatch"}
+xref: RHEA:87879 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -295685,6 +295739,16 @@ xref: RHEA:74823 {source="skos:narrowMatch"}
 xref: RHEA:86879 {source="skos:narrowMatch"}
 xref: RHEA:86891 {source="skos:narrowMatch"}
 xref: RHEA:86895 {source="skos:narrowMatch"}
+xref: RHEA:87415 {source="skos:narrowMatch"}
+xref: RHEA:87419 {source="skos:narrowMatch"}
+xref: RHEA:87855 {source="skos:narrowMatch"}
+xref: RHEA:87859 {source="skos:narrowMatch"}
+xref: RHEA:87863 {source="skos:narrowMatch"}
+xref: RHEA:87867 {source="skos:narrowMatch"}
+xref: RHEA:87871 {source="skos:narrowMatch"}
+xref: RHEA:87875 {source="skos:narrowMatch"}
+xref: RHEA:88079 {source="skos:narrowMatch"}
+xref: RHEA:88087 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -303482,6 +303546,7 @@ xref: MetaCyc:ARYL-ALCOHOL-DEHYDROGENASE-NADP+-RXN
 xref: RHEA:17761 {source="skos:exactMatch"}
 xref: RHEA:58776 {source="skos:narrowMatch"}
 xref: RHEA:59944 {source="skos:narrowMatch"}
+xref: RHEA:88207 {source="skos:narrowMatch"}
 is_a: GO:0016616 ! oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 
@@ -304850,6 +304915,11 @@ xref: MetaCyc:1.2.99.7-RXN {source="skos:narrowMatch"}
 xref: MetaCyc:CARBOXYLATE-REDUCTASE-RXN {source="skos:narrowMatch"}
 xref: RHEA:56856 {source="skos:exactMatch"}
 xref: RHEA:79339 {source="skos:narrowMatch"}
+xref: RHEA:79343 {source="skos:narrowMatch"}
+xref: RHEA:79347 {source="skos:narrowMatch"}
+xref: RHEA:79351 {source="skos:narrowMatch"}
+xref: RHEA:79355 {source="skos:narrowMatch"}
+xref: RHEA:79539 {source="skos:narrowMatch"}
 is_a: GO:0016903 ! oxidoreductase activity, acting on the aldehyde or oxo group of donors
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28011" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -307897,6 +307967,8 @@ xref: RHEA:64256 {source="skos:narrowMatch"}
 xref: RHEA:64260 {source="skos:narrowMatch"}
 xref: RHEA:86783 {source="skos:narrowMatch"}
 xref: RHEA:86787 {source="skos:narrowMatch"}
+xref: RHEA:89271 {source="skos:narrowMatch"}
+xref: RHEA:89275 {source="skos:narrowMatch"}
 is_a: GO:0140379 ! amino acid acyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31474" xsd:anyURI
@@ -318287,6 +318359,7 @@ xref: RHEA:39803 {source="skos:narrowMatch"}
 xref: RHEA:40095 {source="skos:narrowMatch"}
 xref: RHEA:44020 {source="skos:narrowMatch"}
 xref: RHEA:44172 {source="skos:narrowMatch"}
+xref: RHEA:88103 {source="skos:narrowMatch"}
 xref: UM-BBD_reactionID:r1404
 is_a: GO:0102673 ! fatty aldehyde dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28142" xsd:anyURI
@@ -350718,6 +350791,9 @@ xref: RHEA:67276 {source="skos:narrowMatch"}
 xref: RHEA:69759 {source="skos:narrowMatch"}
 xref: RHEA:69763 {source="skos:exactMatch"}
 xref: RHEA:69767 {source="skos:narrowMatch"}
+xref: RHEA:88099 {source="skos:narrowMatch"}
+xref: RHEA:88107 {source="skos:narrowMatch"}
+xref: RHEA:88111 {source="skos:narrowMatch"}
 is_a: GO:0102673 ! fatty aldehyde dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28090" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28142" xsd:anyURI
@@ -447420,6 +447496,7 @@ synonym: "phosphatidyl phospholipase B activity" EXACT []
 synonym: "phospholipase B activity" EXACT []
 xref: MetaCyc:RXN-14899
 xref: RHEA:32907 {source="skos:narrowMatch"}
+xref: RHEA:40835 {source="skos:narrowMatch"}
 is_a: GO:0004620 ! glycerophospholipase activity
 is_a: GO:0052689 ! carboxylic ester hydrolase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27557" xsd:anyURI
@@ -455417,6 +455494,7 @@ xref: RHEA:37771 {source="skos:narrowMatch"}
 xref: RHEA:37775 {source="skos:narrowMatch"}
 xref: RHEA:64204 {source="skos:narrowMatch"}
 xref: RHEA:64228 {source="skos:narrowMatch"}
+xref: RHEA:87439 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27226" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -457248,6 +457326,9 @@ xref: RHEA:28691 {source="skos:narrowMatch"}
 xref: RHEA:29195 {source="skos:narrowMatch"}
 xref: RHEA:29199 {source="skos:narrowMatch"}
 xref: RHEA:30187 {source="skos:exactMatch"}
+xref: RHEA:87215 {source="skos:narrowMatch"}
+xref: RHEA:87219 {source="skos:narrowMatch"}
+xref: RHEA:87711 {source="skos:narrowMatch"}
 is_a: GO:0004152 ! dihydroorotate dehydrogenase activity
 is_a: GO:0016635 ! oxidoreductase activity, acting on the CH-CH group of donors, quinone or related compound as acceptor
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23786" xsd:anyURI
@@ -474828,6 +474909,7 @@ xref: RHEA:62620 {source="skos:exactMatch"}
 xref: RHEA:63528 {source="skos:narrowMatch"}
 xref: RHEA:63840 {source="skos:narrowMatch"}
 xref: RHEA:63844 {source="skos:narrowMatch"}
+xref: RHEA:87519 {source="skos:narrowMatch"}
 is_a: GO:0051920 ! peroxiredoxin activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23121" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
@@ -622572,9 +622654,17 @@ xref: EC:2.3.1.291 {source="skos:narrowMatch"}
 xref: EC:2.3.1.297 {source="skos:narrowMatch"}
 xref: EC:2.3.1.298 {source="skos:narrowMatch"}
 xref: EC:2.3.1.299 {source="skos:narrowMatch"}
+xref: RHEA:33339 {source="skos:narrowMatch"}
+xref: RHEA:33487 {source="skos:narrowMatch"}
+xref: RHEA:33595 {source="skos:narrowMatch"}
+xref: RHEA:33703 {source="skos:narrowMatch"}
 xref: RHEA:34603 {source="skos:narrowMatch"}
 xref: RHEA:34731 {source="skos:narrowMatch"}
 xref: RHEA:35651 {source="skos:narrowMatch"}
+xref: RHEA:36739 {source="skos:narrowMatch"}
+xref: RHEA:36743 {source="skos:narrowMatch"}
+xref: RHEA:43040 {source="skos:narrowMatch"}
+xref: RHEA:43044 {source="skos:narrowMatch"}
 xref: RHEA:44424 {source="skos:narrowMatch"}
 xref: RHEA:44692 {source="skos:narrowMatch"}
 xref: RHEA:53424 {source="skos:exactMatch"}
@@ -622582,7 +622672,18 @@ xref: RHEA:61472 {source="skos:narrowMatch"}
 xref: RHEA:61476 {source="skos:narrowMatch"}
 xref: RHEA:61480 {source="skos:narrowMatch"}
 xref: RHEA:61492 {source="skos:narrowMatch"}
+xref: RHEA:63888 {source="skos:narrowMatch"}
+xref: RHEA:63920 {source="skos:narrowMatch"}
 xref: RHEA:63944 {source="skos:narrowMatch"}
+xref: RHEA:64000 {source="skos:narrowMatch"}
+xref: RHEA:64008 {source="skos:narrowMatch"}
+xref: RHEA:64052 {source="skos:narrowMatch"}
+xref: RHEA:65604 {source="skos:narrowMatch"}
+xref: RHEA:65608 {source="skos:narrowMatch"}
+xref: RHEA:65620 {source="skos:narrowMatch"}
+xref: RHEA:65624 {source="skos:narrowMatch"}
+xref: RHEA:65632 {source="skos:narrowMatch"}
+xref: RHEA:65636 {source="skos:narrowMatch"}
 xref: RHEA:76539 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32816" xsd:anyURI
