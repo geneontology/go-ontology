@@ -527,7 +527,6 @@ http://purl.obolibrary.org/obo/GO_0050866	negative regulation of cell activation
 http://purl.obolibrary.org/obo/GO_0007162	negative regulation of cell adhesion	http://purl.obolibrary.org/obo/GO_0007155	cell adhesion
 http://purl.obolibrary.org/obo/GO_1900188	negative regulation of cell adhesion involved in single-species biofilm formation	http://purl.obolibrary.org/obo/GO_0043709	cell adhesion involved in single-species biofilm formation
 http://purl.obolibrary.org/obo/GO_0106089	negative regulation of cell adhesion involved in sprouting angiogenesis	http://purl.obolibrary.org/obo/GO_0120078	cell adhesion involved in sprouting angiogenesis
-http://purl.obolibrary.org/obo/GO_0033629	negative regulation of cell adhesion mediated by integrin	http://purl.obolibrary.org/obo/GO_0033627	cell adhesion mediated by integrin
 http://purl.obolibrary.org/obo/GO_0060354	negative regulation of cell adhesion molecule production	http://purl.obolibrary.org/obo/GO_0060352	cell adhesion molecule production
 http://purl.obolibrary.org/obo/GO_0045781	negative regulation of cell budding	http://purl.obolibrary.org/obo/GO_0007114	cell budding
 http://purl.obolibrary.org/obo/GO_1904848	negative regulation of cell chemotaxis to fibroblast growth factor	http://purl.obolibrary.org/obo/GO_0035766	cell chemotaxis to fibroblast growth factor
@@ -572,8 +571,6 @@ http://purl.obolibrary.org/obo/GO_0046426	negative regulation of cell surface re
 http://purl.obolibrary.org/obo/GO_1903339	negative regulation of cell wall organization or biogenesis	http://purl.obolibrary.org/obo/GO_0071554	cell wall organization or biogenesis
 http://purl.obolibrary.org/obo/GO_2000967	negative regulation of cell wall polysaccharide catabolic process	http://purl.obolibrary.org/obo/GO_0044347	cell wall polysaccharide catabolic process
 http://purl.obolibrary.org/obo/GO_0022408	negative regulation of cell-cell adhesion	http://purl.obolibrary.org/obo/GO_0098609	cell-cell adhesion
-http://purl.obolibrary.org/obo/GO_2000048	negative regulation of cell-cell adhesion mediated by cadherin	http://purl.obolibrary.org/obo/GO_0044331	cell-cell adhesion mediated by cadherin
-http://purl.obolibrary.org/obo/GO_0033633	negative regulation of cell-cell adhesion mediated by integrin	http://purl.obolibrary.org/obo/GO_0033631	cell-cell adhesion mediated by integrin
 http://purl.obolibrary.org/obo/GO_0001953	negative regulation of cell-matrix adhesion	http://purl.obolibrary.org/obo/GO_0007160	cell-matrix adhesion
 http://purl.obolibrary.org/obo/GO_0010812	negative regulation of cell-substrate adhesion	http://purl.obolibrary.org/obo/GO_0031589	cell-substrate adhesion
 http://purl.obolibrary.org/obo/GO_0150118	negative regulation of cell-substrate junction organization	http://purl.obolibrary.org/obo/GO_0150115	cell-substrate junction organization
