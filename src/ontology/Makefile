@@ -257,9 +257,13 @@ go-obo-status.md: $(PREVIOUS_OBO) go.obo ../gh_pages_templates/go-obo-status.md
 # The downloaded file is tracked in git, so the recipe writes its cleaned copy
 # to reactome-tmp/ instead of editing it in place: the header row is renamed for
 # dosdp-tools (GO_Term -> defined_class) and non-ASCII characters are stripped.
+#
+# --no-use-server-timestamps gives the download the current time. By default
+# wget stamps it with the server's Last-Modified date, which is older than a
+# freshly checked-out import, so make would skip regenerating the import.
 
 ../resources/Pathways2GoTerms_human.txt:
-	wget -O $@ --no-check-certificate https://reactome.org/download/current/Pathways2GoTerms_human.txt
+	wget -O $@ --no-check-certificate --no-use-server-timestamps https://reactome.org/download/current/Pathways2GoTerms_human.txt
 
 imports/reactome_xrefs_import.owl: ../resources/Pathways2GoTerms_human.txt
 	mkdir -p reactome-tmp
