@@ -121601,18 +121601,19 @@ intersection_of: has_primary_input_or_output CHEBI:16183 ! methane
 id: GO:0015948
 name: methanogenesis
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of methane, a colorless, odorless, flammable gas with the formula CH4. It is the simplest of the alkanes." [GOC:ai]
+def: "An anaerobic respiration process in which methane is formed by methyl-coenzyme M reductase, which reduces methyl-coenzyme M with coenzyme B to methane and the coenzyme M-coenzyme B heterodisulfide, coupled to the generation of an ion gradient that drives ATP synthesis. Substrates include carbon dioxide, acetate and methylated compounds such as methanol, methylamines and methyl sulfides." [GOC:ai, PMID:29973922]
+comment: This term covers energy-conserving methanogenesis, known only in methanogenic archaea. Processes that release methane by other routes, such as C-P lyase cleavage of methylphosphonate, are not methanogenesis and should not be annotated to this term.
 subset: goslim_metagenomics
 subset: goslim_pir
-synonym: "methane biosynthesis" EXACT []
-synonym: "methane biosynthetic process" EXACT []
+synonym: "methane biosynthesis" BROAD []
+synonym: "methane biosynthetic process" BROAD []
 xref: UM-BBD_pathwayID:meth
 xref: Wikipedia:Methanogenesis
 is_a: GO:0009061 ! anaerobic respiration
 is_a: GO:0015975 ! energy derivation by oxidation of reduced inorganic compounds
 is_a: onlyin:2157 {source="PMID:36692297"}
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_output CHEBI:16183 ! methane
+relationship: has_primary_output CHEBI:16183 ! methane
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32902" xsd:anyURI
 
 [Term]
 id: GO:0015949
@@ -148424,37 +148425,37 @@ intersection_of: has_primary_input CHEBI:28579 ! epsilon-caprolactam
 id: GO:0019385
 name: methanogenesis, from acetate
 namespace: biological_process
-def: "The formation of methane, a colorless, odorless, flammable gas with the formula CH4, from other components, including acetate." [GOC:ai]
-synonym: "methane biosynthesis from acetate" EXACT []
-synonym: "methane biosynthetic process from acetate" EXACT []
+def: "A methanogenesis process in which acetate is the substrate: the methyl group of acetate is reduced to methane and the carbonyl group is oxidized to carbon dioxide." [GOC:ai, PMID:29973922]
+synonym: "methane biosynthesis from acetate" BROAD []
+synonym: "methane biosynthetic process from acetate" BROAD []
 xref: MetaCyc:METH-ACETATE-PWY
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_input CHEBI:30089 ! acetate
-intersection_of: has_primary_output CHEBI:16183 ! methane
+is_a: GO:0015948 ! methanogenesis
+relationship: has_primary_input CHEBI:30089 ! acetate
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32902" xsd:anyURI
 
 [Term]
 id: GO:0019386
 name: methanogenesis, from carbon dioxide
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of methane, a colorless, odorless, flammable gas with the formula CH4, from other compounds, including carbon dioxide (CO2)." [GOC:ai]
-synonym: "methane biosynthesis from carbon dioxide" EXACT []
-synonym: "methane biosynthetic process from carbon dioxide" EXACT []
+def: "A methanogenesis process in which carbon dioxide is reduced to methane, with electrons derived from the oxidation of hydrogen or formate." [GOC:ai, PMID:29973922]
+synonym: "methane biosynthesis from carbon dioxide" BROAD []
+synonym: "methane biosynthetic process from carbon dioxide" BROAD []
 xref: MetaCyc:METHANOGENESIS-PWY
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_input CHEBI:16526 ! carbon dioxide
-intersection_of: has_primary_output CHEBI:16183 ! methane
+is_a: GO:0015948 ! methanogenesis
+relationship: has_primary_input CHEBI:16526 ! carbon dioxide
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32902" xsd:anyURI
 
 [Term]
 id: GO:0019387
 name: methanogenesis, from methanol
 namespace: biological_process
-def: "The formation of methane, a colorless, odorless, flammable gas with the formula CH4, from other components, including methanol." [GOC:ai]
-synonym: "methane biosynthesis from methanol" EXACT []
-synonym: "methane biosynthetic process from methanol" EXACT []
+def: "A methanogenesis process in which the methyl group of methanol is reduced to methane." [GOC:ai, PMID:29973922]
+synonym: "methane biosynthesis from methanol" BROAD []
+synonym: "methane biosynthetic process from methanol" BROAD []
 xref: MetaCyc:METHFORM-PWY
-intersection_of: GO:0009058 ! biosynthetic process
-intersection_of: has_primary_input CHEBI:17790 ! methanol
-intersection_of: has_primary_output CHEBI:16183 ! methane
+is_a: GO:0015948 ! methanogenesis
+relationship: has_primary_input CHEBI:17790 ! methanol
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32902" xsd:anyURI
 
 [Term]
 id: GO:0019388
