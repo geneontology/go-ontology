@@ -260330,8 +260330,9 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 id: GO:0043915
 name: L-seryl-tRNA(Sec) kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: ATP + L-seryl-tRNA(Sec) = ADP + O-phospho-L-seryl-tRNA(Sec)." [GOC:jl, PMID:16201757, RHEA:25037]
+def: "Catalysis of the reaction: ATP + L-seryl-tRNA(Sec) = ADP + O-phospho-L-seryl-tRNA(Sec)." [GOC:jl, PMID:15317934, PMID:16201757, RHEA:25037]
 synonym: "O-phosphoseryl-tRNA(Sec) kinase activity" EXACT []
+synonym: "seryl-selenocysteinyl-tRNA kinase activity" RELATED []
 xref: EC:2.7.1.164 {source="skos:exactMatch"}
 xref: MetaCyc:RXN-10038
 xref: RHEA:25037 {source="skos:exactMatch"}
@@ -260340,6 +260341,7 @@ is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
 is_a: GO:0140101 ! catalytic activity, acting on a tRNA
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30193" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32791" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32865" xsd:anyURI
 
 [Term]
 id: GO:0043916
@@ -434086,11 +434088,13 @@ is_a: neverin:451864
 
 [Term]
 id: GO:0098620
-name: seryl-selenocysteinyl-tRNA kinase activity
+name: obsolete seryl-selenocysteinyl-tRNA kinase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: Ser-tRNA(Sec) + ATP = Sep-tRNA(Sec) + ADP." [PMID:15317934]
-is_a: GO:0016773 ! phosphotransferase activity, alcohol group as acceptor
-is_a: GO:0140101 ! catalytic activity, acting on a tRNA
+def: "OBSOLETE. Catalysis of the reaction: Ser-tRNA(Sec) + ATP = Sep-tRNA(Sec) + ADP." [PMID:15317934]
+comment: The reason for obsoletion is that this term is equivalent to GO:0043915 L-seryl-tRNA(Sec) kinase activity.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32865" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0043915
 
 [Term]
 id: GO:0098621
