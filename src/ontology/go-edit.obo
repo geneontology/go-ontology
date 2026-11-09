@@ -121610,6 +121610,7 @@ xref: UM-BBD_pathwayID:meth
 xref: Wikipedia:Methanogenesis
 is_a: GO:0009061 ! anaerobic respiration
 is_a: GO:0015975 ! energy derivation by oxidation of reduced inorganic compounds
+is_a: onlyin:2157 {source="PMID:36692297"}
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:16183 ! methane
 
