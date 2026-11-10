@@ -622779,6 +622779,34 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-09T23:54:18Z
 
+[Term]
+id: GO:7770160
+name: positive regulation of establishment of planar polarity
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of establishment of planar polarity." [PMID:18606138]
+synonym: "up regulation of establishment of planar polarity" EXACT []
+synonym: "up-regulation of establishment of planar polarity" EXACT []
+synonym: "upregulation of establishment of planar polarity" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0001736 ! establishment of planar polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-10T23:44:19Z
+
+[Term]
+id: GO:7770161
+name: negative regulation of establishment of planar polarity
+namespace: biological_process
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of establishment of planar polarity." [PMID:19701191]
+synonym: "down regulation of establishment of planar polarity" EXACT []
+synonym: "down-regulation of establishment of planar polarity" EXACT []
+synonym: "downregulation of establishment of planar polarity" EXACT []
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: negatively_regulates GO:0001736 ! establishment of planar polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-10T23:44:19Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
