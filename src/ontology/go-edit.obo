@@ -622779,6 +622779,20 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-09T23:54:18Z
 
+[Term]
+id: GO:7770159
+name: apicoplast organization
+namespace: biological_process
+def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of an apicoplast, the plastid organelle found in apicomplexans." [PMID:33024034]
+synonym: "apicoplast organisation" EXACT []
+synonym: "apicoplast organization and biogenesis" RELATED []
+is_a: onlyin:5794 {source="PMID:12722949"}
+intersection_of: GO:0016043 ! cellular component organization
+intersection_of: results_in_organization_of GO:0020011 ! apicoplast
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32914" xsd:anyURI
+created_by: pg
+creation_date: 2026-11-10T14:17:10Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
