@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-09/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-10/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-09" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-10" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -7908,16 +7908,44 @@
 - [1-acylglycerone 3-phosphate](http://purl.obolibrary.org/obo/CHEBI_15835) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 1-acylglycerophosphocholine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047184`
+
+#### Added
+- [1-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047184) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87879" 
+
+- [1-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047184) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87879](http://rdf.rhea-db.org/87879) 
+
+
 ### 1-acylglycerophosphocholine(1+) `http://purl.obolibrary.org/obo/CHEBI_11230`
 
 #### Added
 - [1-acylglycerophosphocholine(1+)](http://purl.obolibrary.org/obo/CHEBI_11230) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### 1-acylglycerophosphoethanolamine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0106262`
+
+#### Added
+- [1-acylglycerophosphoethanolamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0106262) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87439" 
+
+- [1-acylglycerophosphoethanolamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0106262) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87439](http://rdf.rhea-db.org/87439) 
+
+
 ### 1-acylglycerophosphoinositol `http://purl.obolibrary.org/obo/CHEBI_16617`
 
 #### Added
 - [1-acylglycerophosphoinositol](http://purl.obolibrary.org/obo/CHEBI_16617) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 1-alkenylglycerophosphoethanolamine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047166`
+
+#### Added
+- [1-alkenylglycerophosphoethanolamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047166) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87443" 
+
+- [1-alkenylglycerophosphoethanolamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047166) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87487" 
+
+- [1-alkenylglycerophosphoethanolamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87443](http://rdf.rhea-db.org/87443) 
+
+- [1-alkenylglycerophosphoethanolamine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87487](http://rdf.rhea-db.org/87487) 
 
 
 ### 1-alkyl-2-acetyl-sn-glycerol 3-phosphate `http://purl.obolibrary.org/obo/CHEBI_17555`
@@ -12520,6 +12548,50 @@
 
 #### Added
 - [2-acyl-sn-glycero-3-phosphoserine](http://purl.obolibrary.org/obo/CHEBI_37646) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### 2-acylglycerophosphocholine O-acyltransferase activity `http://purl.obolibrary.org/obo/GO_0047190`
+
+#### Added
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87415" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87419" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87855" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87859" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87863" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87867" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87871" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87875" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88079" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88087" 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87415](http://rdf.rhea-db.org/87415) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87419](http://rdf.rhea-db.org/87419) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87855](http://rdf.rhea-db.org/87855) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87859](http://rdf.rhea-db.org/87859) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87863](http://rdf.rhea-db.org/87863) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87867](http://rdf.rhea-db.org/87867) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87871](http://rdf.rhea-db.org/87871) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87875](http://rdf.rhea-db.org/87875) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88079](http://rdf.rhea-db.org/88079) 
+
+- [2-acylglycerophosphocholine O-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047190) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88087](http://rdf.rhea-db.org/88087) 
 
 
 ### 2-acylglycerophosphocholine(1+) `http://purl.obolibrary.org/obo/CHEBI_11502`
@@ -22859,6 +22931,10 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30109646" 
 
 #### Added
+- [B-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0102545) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:40835" 
+
+- [B-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0102545) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [40835](http://rdf.rhea-db.org/40835) 
+
 - [B-type glycerophospholipase activity](http://purl.obolibrary.org/obo/GO_0102545) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glycerophospholipase activity that cleaves both fatty acids attached to the sn-1 and the sn-2 position of the glycerol group of a glycerophospholipid. Substrates include phosphatidylcholine and phosphatidylethanolamine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30109646" 
 
@@ -23065,6 +23141,20 @@
 
 #### Added
 - [C50 carotenoid](http://purl.obolibrary.org/obo/CHEBI_87165) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### CAAX-box protein maturation `http://purl.obolibrary.org/obo/GO_0080120`
+
+#### Added
+- [CAAX-box protein maturation](http://purl.obolibrary.org/obo/GO_0080120) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32907"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [CAAX-box protein maturation](http://purl.obolibrary.org/obo/GO_0080120) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
+
+
+### CAAX-box protein processing `http://purl.obolibrary.org/obo/GO_0071586`
+
+#### Added
+- [CAAX-box protein processing](http://purl.obolibrary.org/obo/GO_0071586) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Eukaryota](http://purl.obolibrary.org/obo/NCBITaxon_2759) 
 
 
 ### CD4-positive, alpha-beta T cell cytokine production `http://purl.obolibrary.org/obo/GO_0035743`
@@ -27352,6 +27442,12 @@
 - [EET(1-)](http://purl.obolibrary.org/obo/CHEBI_131865) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### EMILIN complex `http://purl.obolibrary.org/obo/GO_1990971`
+#### Removed
+- [EMILIN complex](http://purl.obolibrary.org/obo/GO_1990971) SubClassOf [capable of part of](http://purl.obolibrary.org/obo/RO_0002216) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) 
+
+
+
 ### ER lumen protein retrieval receptor activity `http://purl.obolibrary.org/obo/GO_0046923`
 #### Removed
 - [ER lumen protein retrieval receptor activity](http://purl.obolibrary.org/obo/GO_0046923) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "endoplasmic reticulum retention sequence binding" 
@@ -30192,9 +30288,29 @@
 
 
 ### L-seryl-tRNA(Sec) kinase activity `http://purl.obolibrary.org/obo/GO_0043915`
+#### Removed
+- [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + L-seryl-tRNA(Sec) = ADP + O-phospho-L-seryl-tRNA(Sec)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25037" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16201757" 
 
 #### Added
 - [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32791"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32865"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "seryl-selenocysteinyl-tRNA kinase activity" 
+
+- [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: ATP + L-seryl-tRNA(Sec) = ADP + O-phospho-L-seryl-tRNA(Sec)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15317934" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:25037" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16201757" 
 
 
 ### L-sorbose 1-phosphate `http://purl.obolibrary.org/obo/CHEBI_38342`
@@ -33236,6 +33352,14 @@
 
 #### Added
 - [N-acyllysophosphatidylethanolamine](http://purl.obolibrary.org/obo/CHEBI_85656) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### N-acylneuraminate cytidylyltransferase activity `http://purl.obolibrary.org/obo/GO_0008781`
+
+#### Added
+- [N-acylneuraminate cytidylyltransferase activity](http://purl.obolibrary.org/obo/GO_0008781) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89187" 
+
+- [N-acylneuraminate cytidylyltransferase activity](http://purl.obolibrary.org/obo/GO_0008781) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89187](http://rdf.rhea-db.org/89187) 
 
 
 ### N-acylneuraminates `http://purl.obolibrary.org/obo/CHEBI_21663`
@@ -37818,6 +37942,14 @@
 - [acetoacetyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15345) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### acetoacetyl-CoA reductase activity `http://purl.obolibrary.org/obo/GO_0018454`
+
+#### Added
+- [acetoacetyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018454) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87639" 
+
+- [acetoacetyl-CoA reductase activity](http://purl.obolibrary.org/obo/GO_0018454) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87639](http://rdf.rhea-db.org/87639) 
+
+
 ### acetohydroxamic acids `http://purl.obolibrary.org/obo/CHEBI_22177`
 
 #### Added
@@ -38629,17 +38761,25 @@
 
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87163" 
 
+- [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87167" 
+
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87171" 
 
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87175" 
+
+- [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87223" 
 
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87159](http://rdf.rhea-db.org/87159) 
 
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87163](http://rdf.rhea-db.org/87163) 
 
+- [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87167](http://rdf.rhea-db.org/87167) 
+
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87171](http://rdf.rhea-db.org/87171) 
 
 - [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87175](http://rdf.rhea-db.org/87175) 
+
+- [acylphosphatase activity](http://purl.obolibrary.org/obo/GO_0003998) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87223](http://rdf.rhea-db.org/87223) 
 
 
 ### adamantanes `http://purl.obolibrary.org/obo/CHEBI_51339`
@@ -39034,6 +39174,66 @@
 
 - [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [12785](http://rdf.rhea-db.org/12785) 
 
+#### Added
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88127" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88131" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88135" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88139" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88143" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88147" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88151" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88155" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88183" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88187" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88191" 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88127](http://rdf.rhea-db.org/88127) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88131](http://rdf.rhea-db.org/88131) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88135](http://rdf.rhea-db.org/88135) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88139](http://rdf.rhea-db.org/88139) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88143](http://rdf.rhea-db.org/88143) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88147](http://rdf.rhea-db.org/88147) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88151](http://rdf.rhea-db.org/88151) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88155](http://rdf.rhea-db.org/88155) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88183](http://rdf.rhea-db.org/88183) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88187](http://rdf.rhea-db.org/88187) 
+
+- [alcohol dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004022) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88191](http://rdf.rhea-db.org/88191) 
+
+
+### alcohol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0008106`
+
+#### Added
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88195" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88199" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88203" 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88195](http://rdf.rhea-db.org/88195) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88199](http://rdf.rhea-db.org/88199) 
+
+- [alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0008106) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88203](http://rdf.rhea-db.org/88203) 
 
 
 ### aldaric acid `http://purl.obolibrary.org/obo/CHEBI_22290`
@@ -39059,7 +39259,15 @@
 #### Added
 - [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87183" 
 
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88115" 
+
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88119" 
+
 - [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87183](http://rdf.rhea-db.org/87183) 
+
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88115](http://rdf.rhea-db.org/88115) 
+
+- [aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0004029) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88119](http://rdf.rhea-db.org/88119) 
 
 
 ### aldehyde dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0033721`
@@ -39067,7 +39275,11 @@
 #### Added
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87475" 
 
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87483" 
+
 - [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87475](http://rdf.rhea-db.org/87475) 
+
+- [aldehyde dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033721) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87483](http://rdf.rhea-db.org/87483) 
 
 
 ### aldehyde dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0047113`
@@ -39108,6 +39320,16 @@
 
 - [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:79339" 
 
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:79343" 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:79347" 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:79351" 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:79355" 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:79539" 
+
 - [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [56856](http://rdf.rhea-db.org/56856) 
 
 - [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN](http://identifiers.org/metacyc.reaction/1.2.99.7-RXN) 
@@ -39119,6 +39341,16 @@
 - [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [1.2.99.7](http://purl.uniprot.org/enzyme/1.2.99.7) 
 
 - [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [79339](http://rdf.rhea-db.org/79339) 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [79343](http://rdf.rhea-db.org/79343) 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [79347](http://rdf.rhea-db.org/79347) 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [79351](http://rdf.rhea-db.org/79351) 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [79355](http://rdf.rhea-db.org/79355) 
+
+- [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [79539](http://rdf.rhea-db.org/79539) 
 
 - [aldehyde dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0047770) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "carboxylate reductase activity" 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:1.2.99.6" 
@@ -41048,11 +41280,55 @@
 
 - [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:37231" 
 
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87035" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87039" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87047" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87051" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87055" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87059" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87063" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87067" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87071" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87187" 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87191" 
+
 - [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [26510](http://rdf.rhea-db.org/26510) 
 
 - [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [26550](http://rdf.rhea-db.org/26550) 
 
 - [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [37231](http://rdf.rhea-db.org/37231) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87035](http://rdf.rhea-db.org/87035) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87039](http://rdf.rhea-db.org/87039) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87047](http://rdf.rhea-db.org/87047) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87051](http://rdf.rhea-db.org/87051) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87055](http://rdf.rhea-db.org/87055) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87059](http://rdf.rhea-db.org/87059) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87063](http://rdf.rhea-db.org/87063) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87067](http://rdf.rhea-db.org/87067) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87071](http://rdf.rhea-db.org/87071) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87187](http://rdf.rhea-db.org/87187) 
+
+- [amidase activity](http://purl.obolibrary.org/obo/GO_0004040) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87191](http://rdf.rhea-db.org/87191) 
 
 
 ### amide `http://purl.obolibrary.org/obo/CHEBI_32988`
@@ -41338,6 +41614,14 @@
 
 #### Added
 - [aminoacyl phosphate](http://purl.obolibrary.org/obo/CHEBI_36951) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### aminoacylase activity `http://purl.obolibrary.org/obo/GO_0004046`
+
+#### Added
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86763" 
+
+- [aminoacylase activity](http://purl.obolibrary.org/obo/GO_0004046) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86763](http://rdf.rhea-db.org/86763) 
 
 
 ### aminoacylpyridine `http://purl.obolibrary.org/obo/CHEBI_38208`
@@ -43102,6 +43386,22 @@
 
 #### Added
 - [aryl(methyl)malonic acid](http://purl.obolibrary.org/obo/CHEBI_15849) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### aryl-alcohol dehydrogenase (NADP+) activity `http://purl.obolibrary.org/obo/GO_0047681`
+
+#### Added
+- [aryl-alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047681) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88207" 
+
+- [aryl-alcohol dehydrogenase (NADP+) activity](http://purl.obolibrary.org/obo/GO_0047681) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88207](http://rdf.rhea-db.org/88207) 
+
+
+### aryl-aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0019108`
+
+#### Added
+- [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88123" 
+
+- [aryl-aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0019108) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88123](http://rdf.rhea-db.org/88123) 
 
 
 ### arylalkylamine `http://purl.obolibrary.org/obo/CHEBI_22644`
@@ -52685,6 +52985,22 @@
 - [dihydronaphthalenes](http://purl.obolibrary.org/obo/CHEBI_90740) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### dihydroorotate dehydrogenase (quinone) activity `http://purl.obolibrary.org/obo/GO_0106430`
+
+#### Added
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87215" 
+
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87219" 
+
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87711" 
+
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87215](http://rdf.rhea-db.org/87215) 
+
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87219](http://rdf.rhea-db.org/87219) 
+
+- [dihydroorotate dehydrogenase (quinone) activity](http://purl.obolibrary.org/obo/GO_0106430) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87711](http://rdf.rhea-db.org/87711) 
+
+
 ### dihydroorotic acid `http://purl.obolibrary.org/obo/CHEBI_30865`
 
 #### Added
@@ -55136,6 +55452,14 @@
 - [exit from cytosolic ribosome hibernation](http://purl.obolibrary.org/obo/GO_7770110) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
 
 
+### exopolyphosphatase activity `http://purl.obolibrary.org/obo/GO_0004309`
+
+#### Added
+- [exopolyphosphatase activity](http://purl.obolibrary.org/obo/GO_0004309) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86811" 
+
+- [exopolyphosphatase activity](http://purl.obolibrary.org/obo/GO_0004309) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86811](http://rdf.rhea-db.org/86811) 
+
+
 ### exopolysaccharide `http://purl.obolibrary.org/obo/CHEBI_72813`
 
 #### Added
@@ -55400,6 +55724,14 @@
 
 #### Added
 - [fatty acid anion 23:0](http://purl.obolibrary.org/obo/CHEBI_88081) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### fatty acid elongase activity `http://purl.obolibrary.org/obo/GO_0009922`
+
+#### Added
+- [fatty acid elongase activity](http://purl.obolibrary.org/obo/GO_0009922) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43852" 
+
+- [fatty acid elongase activity](http://purl.obolibrary.org/obo/GO_0009922) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [43852](http://rdf.rhea-db.org/43852) 
 
 
 ### fatty acid synthesis inhibitor `http://purl.obolibrary.org/obo/CHEBI_50185`
@@ -58397,9 +58729,17 @@
 
 - [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:86787" 
 
+- [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89271" 
+
+- [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89275" 
+
 - [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86783](http://rdf.rhea-db.org/86783) 
 
 - [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [86787](http://rdf.rhea-db.org/86787) 
+
+- [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89271](http://rdf.rhea-db.org/89271) 
+
+- [glycine N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_0047961) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89275](http://rdf.rhea-db.org/89275) 
 
 
 ### glycine decarboxylation via glycine cleavage system `http://purl.obolibrary.org/obo/GO_0019464`
@@ -59368,6 +59708,18 @@
 - [hallucinogen](http://purl.obolibrary.org/obo/CHEBI_35499) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### haloacetate dehalogenase activity `http://purl.obolibrary.org/obo/GO_0018785`
+
+#### Added
+- [haloacetate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018785) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87751" 
+
+- [haloacetate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018785) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87755" 
+
+- [haloacetate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018785) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87751](http://rdf.rhea-db.org/87751) 
+
+- [haloacetate dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018785) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87755](http://rdf.rhea-db.org/87755) 
+
+
 ### haloacetic acid `http://purl.obolibrary.org/obo/CHEBI_16277`
 
 #### Added
@@ -59384,6 +59736,38 @@
 
 #### Added
 - [haloalkane](http://purl.obolibrary.org/obo/CHEBI_24469) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### haloalkane dehalogenase activity `http://purl.obolibrary.org/obo/GO_0018786`
+
+#### Added
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87731" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87735" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89467" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89471" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89475" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89479" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:89483" 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87731](http://rdf.rhea-db.org/87731) 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87735](http://rdf.rhea-db.org/87735) 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89467](http://rdf.rhea-db.org/89467) 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89471](http://rdf.rhea-db.org/89471) 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89475](http://rdf.rhea-db.org/89475) 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89479](http://rdf.rhea-db.org/89479) 
+
+- [haloalkane dehalogenase activity](http://purl.obolibrary.org/obo/GO_0018786) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [89483](http://rdf.rhea-db.org/89483) 
 
 
 ### haloalkene `http://purl.obolibrary.org/obo/CHEBI_5610`
@@ -65126,6 +65510,14 @@
 - [long-chain fatty acyl-CoA oxidase activity](http://purl.obolibrary.org/obo/GO_0120524) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87351](http://rdf.rhea-db.org/87351) 
 
 
+### long-chain fatty aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0050061`
+
+#### Added
+- [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88103" 
+
+- [long-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0050061) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88103](http://rdf.rhea-db.org/88103) 
+
+
 ### long-patch base-excision repair `http://purl.obolibrary.org/obo/GO_7770138`
 
 #### Added
@@ -65510,11 +65902,19 @@
 
 - [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:11220" 
 
+- [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60852" 
+
+- [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:60856" 
+
 - [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67008" 
 
 - [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [67008](http://rdf.rhea-db.org/67008) 
 
 - [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [11220](http://rdf.rhea-db.org/11220) 
+
+- [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60852](http://rdf.rhea-db.org/60852) 
+
+- [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [60856](http://rdf.rhea-db.org/60856) 
 
 - [mRNA 5'-cap (guanine-N7-)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0004482) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a 5'-end (5'-triphosphoguanosine)-ribonucleoside in mRNA + S-adenosyl-L-methionine = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-ribonucleoside in mRNA + S-adenosyl-L-homocysteine." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:67008" 
@@ -66352,6 +66752,22 @@
 - [medium-chain fatty alcohol](http://purl.obolibrary.org/obo/CHEBI_197506) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### medium-chain fatty aldehyde dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0052814`
+
+#### Added
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88099" 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88107" 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:88111" 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88099](http://rdf.rhea-db.org/88099) 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88107](http://rdf.rhea-db.org/88107) 
+
+- [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88111](http://rdf.rhea-db.org/88111) 
+
+
 ### meiosis II cell cycle process `http://purl.obolibrary.org/obo/GO_0061983`
 #### Removed
 - [meiosis II cell cycle process](http://purl.obolibrary.org/obo/GO_0061983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that coontributes to the second meiotic division. The second meiotic division separates chromatids resulting in a haploid number of chromosomes." 
@@ -66718,6 +67134,116 @@
 
 #### Added
 - [methanofuran](http://purl.obolibrary.org/obo/CHEBI_17448) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### methanogenesis `http://purl.obolibrary.org/obo/GO_0015948`
+#### Removed
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [conformsTo](http://purl.org/dc/terms/conformsTo) [biosynthetic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml) 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthesis" 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthetic process" 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of methane, a colorless, odorless, flammable gas with the formula CH4. It is the simplest of the alkanes." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [methane](http://purl.obolibrary.org/obo/CHEBI_16183)) 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) SubClassOf [alkane biosynthetic process](http://purl.obolibrary.org/obo/GO_0043447) 
+
+#### Added
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthesis" 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthetic process" 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An anaerobic respiration process in which methane is formed by methyl-coenzyme M reductase, which reduces methyl-coenzyme M with coenzyme B to methane and the coenzyme M-coenzyme B heterodisulfide, coupled to the generation of an ion gradient that drives ATP synthesis. Substrates include carbon dioxide, acetate and methylated compounds such as methanol, methylamines and methyl sulfides." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29973922" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "This term covers energy-conserving methanogenesis, known only in methanogenic archaea. Processes that release methane by other routes, such as C-P lyase cleavage of methylphosphonate, are not methanogenesis and should not be annotated to this term." 
+
+- [methanogenesis](http://purl.obolibrary.org/obo/GO_0015948) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+
+### methanogenesis, from acetate `http://purl.obolibrary.org/obo/GO_0019385`
+#### Removed
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthesis from acetate" 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthetic process from acetate" 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The formation of methane, a colorless, odorless, flammable gas with the formula CH4, from other components, including acetate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [methane](http://purl.obolibrary.org/obo/CHEBI_16183)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [acetate](http://purl.obolibrary.org/obo/CHEBI_30089)) 
+
+#### Added
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthesis from acetate" 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthetic process from acetate" 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A methanogenesis process in which acetate is the substrate: the methyl group of acetate is reduced to methane and the carbonyl group is oxidized to carbon dioxide." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29973922" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis, from acetate](http://purl.obolibrary.org/obo/GO_0019385) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+
+### methanogenesis, from carbon dioxide `http://purl.obolibrary.org/obo/GO_0019386`
+#### Removed
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthesis from carbon dioxide" 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthetic process from carbon dioxide" 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The chemical reactions and pathways resulting in the formation of methane, a colorless, odorless, flammable gas with the formula CH4, from other compounds, including carbon dioxide (CO2)." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [methane](http://purl.obolibrary.org/obo/CHEBI_16183)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [carbon dioxide](http://purl.obolibrary.org/obo/CHEBI_16526)) 
+
+#### Added
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthesis from carbon dioxide" 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthetic process from carbon dioxide" 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A methanogenesis process in which carbon dioxide is reduced to methane, with electrons derived from the oxidation of hydrogen or formate." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29973922" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis, from carbon dioxide](http://purl.obolibrary.org/obo/GO_0019386) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
+
+
+### methanogenesis, from methanol `http://purl.obolibrary.org/obo/GO_0019387`
+#### Removed
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthesis from methanol" 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "methane biosynthetic process from methanol" 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The formation of methane, a colorless, odorless, flammable gas with the formula CH4, from other components, including methanol." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) EquivalentTo [biosynthetic process](http://purl.obolibrary.org/obo/GO_0009058) and ([has primary output](http://purl.obolibrary.org/obo/RO_0004008) some [methane](http://purl.obolibrary.org/obo/CHEBI_16183)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [methanol](http://purl.obolibrary.org/obo/CHEBI_17790)) 
+
+#### Added
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32902"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthesis from methanol" 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "methane biosynthetic process from methanol" 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A methanogenesis process in which the methyl group of methanol is reduced to methane." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29973922" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [methanogenesis, from methanol](http://purl.obolibrary.org/obo/GO_0019387) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Archaea](http://purl.obolibrary.org/obo/NCBITaxon_2157) 
 
 
 ### methioninate `http://purl.obolibrary.org/obo/CHEBI_32644`
@@ -72604,6 +73130,42 @@
 - [obsolete cargo receptor ligand activity](http://purl.obolibrary.org/obo/GO_0140355) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cargo receptor ligand activity" 
 
 
+### obsolete cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033627`
+#### Removed
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12213832" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14754902" 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell adhesion mediated by integrin" 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) EquivalentTo [cell adhesion](http://purl.obolibrary.org/obo/GO_0007155) and ([has participant](http://purl.obolibrary.org/obo/RO_0000057) some [integrin complex](http://purl.obolibrary.org/obo/GO_0008305)) 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) SubClassOf [cell adhesion](http://purl.obolibrary.org/obo/GO_0007155) 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [integrin complex](http://purl.obolibrary.org/obo/GO_0008305) 
+
+#### Added
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [cell adhesion](http://purl.obolibrary.org/obo/GO_0007155) 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12213832" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14754902" 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell adhesion mediated by integrin" 
+
+
 ### obsolete cell wall glycoprotein biosynthetic process `http://purl.obolibrary.org/obo/GO_0031506`
 #### Removed
 - [obsolete cell wall glycoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0031506) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742) 
@@ -72662,6 +73224,78 @@
 - [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that these terms were added in error." 
 
 - [obsolete cell wall mannoprotein biosynthetic process](http://purl.obolibrary.org/obo/GO_0000032) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell wall mannoprotein biosynthetic process" 
+
+
+### obsolete cell-cell adhesion mediated by cadherin `http://purl.obolibrary.org/obo/GO_0044331`
+#### Removed
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of one cell to another cell via a cadherin, transmembrane proteins having repeating extracellular calcium ion binding domains." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10923970" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ha" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell-cell adhesion mediated by cadherin" 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) SubClassOf [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609) 
+
+#### Added
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609) 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of one cell to another cell via a cadherin, transmembrane proteins having repeating extracellular calcium ion binding domains." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10923970" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ha" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:hjd" 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell-cell adhesion mediated by cadherin" 
+
+
+### obsolete cell-cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033631`
+#### Removed
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The attachment of one cell to another cell via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12213832" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14754902" 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [label](http://www.w3.org/2000/01/rdf-schema#label) "cell-cell adhesion mediated by integrin" 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) EquivalentTo [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609) and ([has participant](http://purl.obolibrary.org/obo/RO_0000057) some [integrin complex](http://purl.obolibrary.org/obo/GO_0008305)) 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) SubClassOf [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) SubClassOf [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609) 
+
+#### Added
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0098609) 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The attachment of one cell to another cell via an integrin, a heterodimeric adhesion receptor formed by the non-covalent association of particular alpha and beta subunits." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12213832" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:14754902" 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete cell-cell adhesion mediated by integrin" 
 
 
 ### obsolete cellodextrin metabolic process `http://purl.obolibrary.org/obo/GO_2000889`
@@ -75861,6 +76495,104 @@
 
 
 
+### obsolete negative regulation of cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033629`
+#### Removed
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate, or extent of cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cell adhesion mediated by integrin" 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627)) 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) SubClassOf [negative regulation of cell adhesion](http://purl.obolibrary.org/obo/GO_0007162) 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) SubClassOf [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) 
+
+#### Added
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of cell adhesion](http://purl.obolibrary.org/obo/GO_0007162) 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate, or extent of cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of cell adhesion mediated by integrin" 
+
+
+### obsolete negative regulation of cell-cell adhesion mediated by cadherin `http://purl.obolibrary.org/obo/GO_2000048`
+#### Removed
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate or extent of cell-cell adhesion mediated by cadherin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cell-cell adhesion mediated by cadherin" 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331)) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) SubClassOf [negative regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022408) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) SubClassOf [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) 
+
+#### Added
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022408) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of cell-cell adhesion mediated by cadherin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000048) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of cell-cell adhesion mediated by cadherin" 
+
+
+### obsolete negative regulation of cell-cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033633`
+#### Removed
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents, or reduces the frequency, rate, or extent of cell-cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of cell-cell adhesion mediated by integrin" 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631)) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) SubClassOf [negative regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022408) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) SubClassOf [obsolete negative regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033629) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) SubClassOf [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) 
+
+#### Added
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [negative regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022408) 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate, or extent of cell-cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete negative regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033633) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of cell-cell adhesion mediated by integrin" 
+
+
 ### obsolete negative regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900862`
 #### Removed
 - [obsolete negative regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900862) [conformsTo](http://purl.org/dc/terms/conformsTo) [negative_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml) 
@@ -77059,6 +77791,104 @@
 
 
 
+### obsolete positive regulation of cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033630`
+#### Removed
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate, or extent of cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cell adhesion mediated by integrin" 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627)) 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) SubClassOf [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) SubClassOf [positive regulation of cell adhesion](http://purl.obolibrary.org/obo/GO_0045785) 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) 
+
+#### Added
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of cell adhesion](http://purl.obolibrary.org/obo/GO_0045785) 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate, or extent of cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of cell adhesion mediated by integrin" 
+
+
+### obsolete positive regulation of cell-cell adhesion mediated by cadherin `http://purl.obolibrary.org/obo/GO_2000049`
+#### Removed
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of cell-cell adhesion mediated by cadherin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cell-cell adhesion mediated by cadherin" 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331)) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) SubClassOf [positive regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022409) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) SubClassOf [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) 
+
+#### Added
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022409) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate or extent of cell-cell adhesion mediated by cadherin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000049) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of cell-cell adhesion mediated by cadherin" 
+
+
+### obsolete positive regulation of cell-cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033634`
+#### Removed
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate, or extent of cell-cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of cell-cell adhesion mediated by integrin" 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631)) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) SubClassOf [positive regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022409) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) SubClassOf [obsolete positive regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033630) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) SubClassOf [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) 
+
+#### Added
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [positive regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022409) 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that activates or increases the frequency, rate, or extent of cell-cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete positive regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033634) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of cell-cell adhesion mediated by integrin" 
+
+
 ### obsolete positive regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900863`
 #### Removed
 - [obsolete positive regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900863) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
@@ -78139,6 +78969,104 @@
 
 
 
+### obsolete regulation of cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033628`
+#### Removed
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate, or extent of cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cell adhesion mediated by integrin" 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627)) 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) SubClassOf [regulation of cell adhesion](http://purl.obolibrary.org/obo/GO_0030155) 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033627) 
+
+#### Added
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of cell adhesion](http://purl.obolibrary.org/obo/GO_0030155) 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate, or extent of cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cell adhesion mediated by integrin" 
+
+
+### obsolete regulation of cell-cell adhesion mediated by cadherin `http://purl.obolibrary.org/obo/GO_2000047`
+#### Removed
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate or extent of cell-cell adhesion mediated by cadherin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cell-cell adhesion mediated by cadherin" 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331)) 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) SubClassOf [regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022407) 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_0044331) 
+
+#### Added
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022407) 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate or extent of cell-cell adhesion mediated by cadherin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:obol" 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete regulation of cell-cell adhesion mediated by cadherin](http://purl.obolibrary.org/obo/GO_2000047) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cell-cell adhesion mediated by cadherin" 
+
+
+### obsolete regulation of cell-cell adhesion mediated by integrin `http://purl.obolibrary.org/obo/GO_0033632`
+#### Removed
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation_by.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the frequency, rate, or extent of cell-cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of cell-cell adhesion mediated by integrin" 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631)) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) SubClassOf [regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022407) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) SubClassOf [obsolete regulation of cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033628) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [obsolete cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033631) 
+
+#### Added
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32891"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [regulation of cell-cell adhesion](http://purl.obolibrary.org/obo/GO_0022407) 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the frequency, rate, or extent of cell-cell adhesion mediated by integrin." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term classifies adhesion by the molecule that mediates it. The role of the adhesion molecule is captured by its molecular function (for example integrin binding or cadherin binding) together with the adhesion process." 
+
+- [obsolete regulation of cell-cell adhesion mediated by integrin](http://purl.obolibrary.org/obo/GO_0033632) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of cell-cell adhesion mediated by integrin" 
+
+
 ### obsolete regulation of cordyol C biosynthetic process `http://purl.obolibrary.org/obo/GO_1900861`
 #### Removed
 - [obsolete regulation of cordyol C biosynthetic process](http://purl.obolibrary.org/obo/GO_1900861) [conformsTo](http://purl.org/dc/terms/conformsTo) [regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/regulation.yaml) 
@@ -78597,6 +79525,32 @@
 #### Removed
 - [obsolete sarcinapterin metabolic process](http://purl.obolibrary.org/obo/GO_1900867) [conformsTo](http://purl.org/dc/terms/conformsTo) [metabolic_process.yaml](http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml) 
 
+
+
+### obsolete seryl-selenocysteinyl-tRNA kinase activity `http://purl.obolibrary.org/obo/GO_0098620`
+#### Removed
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: Ser-tRNA(Sec) + ATP = Sep-tRNA(Sec) + ADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15317934" 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [label](http://www.w3.org/2000/01/rdf-schema#label) "seryl-selenocysteinyl-tRNA kinase activity" 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) SubClassOf [phosphotransferase activity, alcohol group as acceptor](http://purl.obolibrary.org/obo/GO_0016773) 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) SubClassOf [catalytic activity, acting on a tRNA](http://purl.obolibrary.org/obo/GO_0140101) 
+
+#### Added
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32865"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [term replaced by](http://purl.obolibrary.org/obo/IAO_0100001) [L-seryl-tRNA(Sec) kinase activity](http://purl.obolibrary.org/obo/GO_0043915) 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Catalysis of the reaction: Ser-tRNA(Sec) + ATP = Sep-tRNA(Sec) + ADP." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15317934" 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term is equivalent to GO:0043915 L-seryl-tRNA(Sec) kinase activity." 
+
+- [obsolete seryl-selenocysteinyl-tRNA kinase activity](http://purl.obolibrary.org/obo/GO_0098620) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete seryl-selenocysteinyl-tRNA kinase activity" 
 
 
 ### obsolete seryl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006434`
@@ -85058,6 +86012,41 @@
 - [positive regulation of cell surface receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046427) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Nematoda](http://purl.obolibrary.org/obo/NCBITaxon_6231)) 
 
 - [positive regulation of cell surface receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046427) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### positive regulation of common myeloid progenitor cell proliferation `http://purl.obolibrary.org/obo/GO_7770157`
+
+#### Added
+- Class: [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32896"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [conformsTo](http://purl.org/dc/terms/conformsTo) [positive_regulation.yaml](http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-09T09:48:07Z" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "positive regulation of CMP proliferation" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770157" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of common myeloid progenitor cell proliferation." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7489718" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of common myeloid progenitor cell proliferation" 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_0035726)) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) SubClassOf [positive regulation of cell population proliferation](http://purl.obolibrary.org/obo/GO_0008284) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) SubClassOf not ([in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751)) 
+
+- [positive regulation of common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_7770157) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [common myeloid progenitor cell proliferation](http://purl.obolibrary.org/obo/GO_0035726) 
 
 
 ### positive regulation of cristae formation `http://purl.obolibrary.org/obo/GO_1903852`
@@ -92862,11 +93851,27 @@
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.3.1.299" 
 
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33339" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33487" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33595" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:33703" 
+
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34603" 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:34731" 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:35651" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36739" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:36743" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43040" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:43044" 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44424" 
 
@@ -92882,7 +93887,29 @@
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:61492" 
 
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63888" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63920" 
+
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63944" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64000" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64008" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:64052" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65604" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65608" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65620" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65624" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65632" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65636" 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76539" 
 
@@ -92902,11 +93929,27 @@
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [2.3.1.299](http://purl.uniprot.org/enzyme/2.3.1.299) 
 
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33339](http://rdf.rhea-db.org/33339) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33487](http://rdf.rhea-db.org/33487) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33595](http://rdf.rhea-db.org/33595) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [33703](http://rdf.rhea-db.org/33703) 
+
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34603](http://rdf.rhea-db.org/34603) 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [34731](http://rdf.rhea-db.org/34731) 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [35651](http://rdf.rhea-db.org/35651) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36739](http://rdf.rhea-db.org/36739) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [36743](http://rdf.rhea-db.org/36743) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [43040](http://rdf.rhea-db.org/43040) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [43044](http://rdf.rhea-db.org/43044) 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44424](http://rdf.rhea-db.org/44424) 
 
@@ -92920,7 +93963,29 @@
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [61492](http://rdf.rhea-db.org/61492) 
 
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63888](http://rdf.rhea-db.org/63888) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63920](http://rdf.rhea-db.org/63920) 
+
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63944](http://rdf.rhea-db.org/63944) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64000](http://rdf.rhea-db.org/64000) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64008](http://rdf.rhea-db.org/64008) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [64052](http://rdf.rhea-db.org/64052) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65604](http://rdf.rhea-db.org/65604) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65608](http://rdf.rhea-db.org/65608) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65620](http://rdf.rhea-db.org/65620) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65624](http://rdf.rhea-db.org/65624) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65632](http://rdf.rhea-db.org/65632) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65636](http://rdf.rhea-db.org/65636) 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76539](http://rdf.rhea-db.org/76539) 
 
@@ -94433,6 +95498,62 @@
 - [tRNA-guanine(15) transglycosylase activity](http://purl.obolibrary.org/obo/GO_0043867) SubClassOf [has participant](http://purl.obolibrary.org/obo/RO_0000057) some [7-cyano-7-carbaguanine 5'-phosphate(1-) residue](http://purl.obolibrary.org/obo/CHEBI_82850) 
 
 
+### tRNA-guanosine(34) preQ1 transglycosylase activity `http://purl.obolibrary.org/obo/GO_7770158`
+
+#### Added
+- Class: [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32883"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-09T23:54:18Z" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "tRNA-guanine transglycosylase" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.29" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24104" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "preQ1 tRNA-ribosyltransferase" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "molecular_function" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "queuine tRNA-ribosyltransferase" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770158" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [2.4.2.29](http://purl.uniprot.org/enzyme/2.4.2.29) 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [24104](http://rdf.rhea-db.org/24104) 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "TGT" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.29" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "tRNA guanine(34) transglycosidase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.29" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "tRNA transglycosylase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.29" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Q-insertase" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.29" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "guanine insertion enzyme" 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "EC:2.4.2.29" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: 7-aminomethyl-7-carbaguanine + guanosine(34) in tRNA = 7-aminomethyl-7-carbaguanosine(34) in tRNA + guanine." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:7578154" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:24104" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) [label](http://www.w3.org/2000/01/rdf-schema#label) "tRNA-guanosine(34) preQ1 transglycosylase activity" 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) SubClassOf [pentosyltransferase activity](http://purl.obolibrary.org/obo/GO_0016763) 
+
+- [tRNA-guanosine(34) preQ1 transglycosylase activity](http://purl.obolibrary.org/obo/GO_7770158) SubClassOf [catalytic activity, acting on a tRNA](http://purl.obolibrary.org/obo/GO_0140101) 
+
+
 ### tabersonine `http://purl.obolibrary.org/obo/CHEBI_16776`
 
 #### Added
@@ -95833,6 +96954,8 @@
 
 - [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:63528" 
 
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87519" 
+
 - [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "TPx activity" 
 
 - [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "TrxPx activity" 
@@ -95844,6 +96967,8 @@
 - [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [RXN0-267](http://identifiers.org/metacyc.reaction/RXN0-267) 
 
 - [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [63528](http://rdf.rhea-db.org/63528) 
+
+- [thioredoxin-dependent peroxiredoxin activity](http://purl.obolibrary.org/obo/GO_0140824) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87519](http://rdf.rhea-db.org/87519) 
 
 
 ### thioribose `http://purl.obolibrary.org/obo/CHEBI_26976`
@@ -96366,6 +97491,18 @@
 
 #### Added
 - [trans-2-enoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_50998) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### trans-2-enoyl-CoA reductase (NADPH) activity `http://purl.obolibrary.org/obo/GO_0019166`
+
+#### Added
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87663" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87667" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87663](http://rdf.rhea-db.org/87663) 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87667](http://rdf.rhea-db.org/87667) 
 
 
 ### trans-2-heptadecenoyl-CoA `http://purl.obolibrary.org/obo/CHEBI_78179`
@@ -98972,7 +100109,11 @@
 #### Added
 - [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0035380) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32887"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0035380) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78735" 
+
 - [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0035380) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [78927](http://rdf.rhea-db.org/78927) 
+
+- [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0035380) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [78735](http://rdf.rhea-db.org/78735) 
 
 - [very long-chain (3S)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0035380) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: a very-long-chain (3S)-3-hydroxyacyl-CoA + NAD+ = a very-long-chain 3-oxoacyl-CoA + NADH + H+. A very long-chain fatty acid has an aliphatic tail containing more than 22 carbons." 
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:78927" 
@@ -99001,7 +100142,11 @@
 
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87411" 
 
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87679" 
+
 - [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87411](http://rdf.rhea-db.org/87411) 
+
+- [very long-chain fatty acid-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0031957) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87679](http://rdf.rhea-db.org/87679) 
 
 
 ### very long-chain fatty-acyl-CoA catabolic process `http://purl.obolibrary.org/obo/GO_0036113`
