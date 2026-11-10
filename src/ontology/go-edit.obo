@@ -622770,7 +622770,7 @@ synonym: "queuine tRNA-ribosyltransferase" RELATED []
 synonym: "TGT" BROAD [EC:2.4.2.29]
 synonym: "tRNA guanine(34) transglycosidase" BROAD [EC:2.4.2.29]
 synonym: "tRNA transglycosylase" BROAD [EC:2.4.2.29]
-synonym: "tRNA-guanine transglycosylase" EXACT []
+synonym: "tRNA-guanine transglycosylase" BROAD []
 xref: EC:2.4.2.29 {source="skos:exactMatch"}
 xref: RHEA:24104 {source="skos:exactMatch"}
 is_a: GO:0016763 ! pentosyltransferase activity
