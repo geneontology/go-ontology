@@ -14,7 +14,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/go/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2026-06-29/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/go/releases/2026-11-10/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -78724,12 +78724,6 @@ Beyond mucociliary clearance, respiratory ciliated cells also contribute to sens
     <!-- http://purl.obolibrary.org/obo/PR_000006611 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006611"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PR_000007204 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007204"/>
     
 
 
