@@ -54535,15 +54535,17 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0005476
-name: carnitine:O-acyl-L-carnitine antiporter activity
+name: L-carnitine:O-acyl-L-carnitine antiporter activity
 namespace: molecular_function
-def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: O-acyl-L-carnitine(in) + carnitine(out) = O-acyl-L-carnitine(out) + carnitine(in)." [PMID:9032458, PMID:9731180, RHEA:49924]
+def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: O-acyl-L-carnitine(in) + L-carnitine(out) = O-acyl-L-carnitine(out) + L-carnitine(in)." [PMID:9032458, PMID:9731180, RHEA:49924]
+synonym: "(R)-carnitine:O-acyl-(R)-carnitine antiporter activity" EXACT []
 synonym: "carnitine/acyl carnitine carrier activity" EXACT []
 synonym: "carnitine:acyl carnitine carrier activity" EXACT []
+synonym: "carnitine:O-acyl-L-carnitine antiporter activity" EXACT []
 synonym: "fatty acyl carnitine carrier" EXACT []
 xref: RHEA:49924 {source="skos:exactMatch"}
 intersection_of: GO:0015297 ! antiporter activity
-intersection_of: has_primary_input CHEBI:17126 ! carnitine
+intersection_of: has_primary_input CHEBI:16347 ! (R)-carnitine
 intersection_of: has_primary_input CHEBI:75659 ! O-acyl-L-carnitine
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32916" xsd:anyURI
 
