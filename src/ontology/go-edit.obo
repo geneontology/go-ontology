@@ -114909,7 +114909,7 @@ relationship: part_of GO:1902603 {source="GO_REF:0000090"} ! carnitine transmemb
 id: GO:0015227
 name: O-acyl-L-carnitine transmembrane transporter activity
 namespace: molecular_function
-def: "Enables the transfer of O-acyl-L-carnitine from one side of a membrane to the other. O-acyl-L-carnitine is the condensation product of a carboxylic acid and carnitine and is the transport form for a fatty acid crossing the mitochondrial membrane." [GOC:ai]
+def: "Enables the transfer of O-acyl-L-carnitine from one side of a membrane to the other." [GOC:ai]
 synonym: "acylcarnitine transporter activity" BROAD []
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input CHEBI:75659 ! O-acyl-L-carnitine
