@@ -54535,15 +54535,19 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0005476
-name: carnitine:O-acyl-L-carnitine antiporter activity
+name: L-carnitine:O-acyl-L-carnitine antiporter activity
 namespace: molecular_function
-def: "Catalysis of the reaction: carnitine (mitochondrial) + O-acyl-L-carnitine (cytoplasm) = carnitine (cytoplasm) + O-acyl-L-carnitine (mitochondrial)." [PMID:9032458]
+def: "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: O-acyl-L-carnitine(in) + L-carnitine(out) = O-acyl-L-carnitine(out) + L-carnitine(in)." [PMID:9032458, PMID:9731180, RHEA:49924]
+synonym: "(R)-carnitine:O-acyl-(R)-carnitine antiporter activity" EXACT []
 synonym: "carnitine/acyl carnitine carrier activity" EXACT []
 synonym: "carnitine:acyl carnitine carrier activity" EXACT []
+synonym: "carnitine:O-acyl-L-carnitine antiporter activity" EXACT []
 synonym: "fatty acyl carnitine carrier" EXACT []
+xref: RHEA:49924 {source="skos:exactMatch"}
 intersection_of: GO:0015297 ! antiporter activity
-intersection_of: has_primary_input CHEBI:17126 ! carnitine
+intersection_of: has_primary_input CHEBI:16347 ! (R)-carnitine
 intersection_of: has_primary_input CHEBI:75659 ! O-acyl-L-carnitine
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32916" xsd:anyURI
 
 [Term]
 id: GO:0005477
@@ -114905,11 +114909,12 @@ relationship: part_of GO:1902603 {source="GO_REF:0000090"} ! carnitine transmemb
 id: GO:0015227
 name: O-acyl-L-carnitine transmembrane transporter activity
 namespace: molecular_function
-def: "Enables the transfer of O-acyl-L-carnitine from one side of a membrane to the other. O-acyl-L-carnitine is the condensation product of a carboxylic acid and carnitine and is the transport form for a fatty acid crossing the mitochondrial membrane." [GOC:ai]
+def: "Enables the transfer of O-acyl-L-carnitine from one side of a membrane to the other." [GOC:ai]
 synonym: "acylcarnitine transporter activity" BROAD []
 intersection_of: GO:0022857 ! transmembrane transporter activity
-intersection_of: has_primary_input CHEBI:17387 ! O-acylcarnitine
+intersection_of: has_primary_input CHEBI:75659 ! O-acyl-L-carnitine
 relationship: part_of GO:1902616 {source="GO_REF:0000090"} ! O-acyl-L-carnitine transmembrane transport
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32916" xsd:anyURI
 
 [Term]
 id: GO:0015228
