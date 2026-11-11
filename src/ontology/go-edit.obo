@@ -12132,13 +12132,14 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0001737
-name: establishment of imaginal disc-derived wing hair orientation
+name: obsolete establishment of imaginal disc-derived wing hair orientation
 namespace: biological_process
-def: "Orientation of hairs in the imaginal disc-derived wing along a proximal-distal axis, such that each cell of the wing produces one wing hair which points in a distal direction." [GOC:ascb_2009, GOC:dph, GOC:mtg_sensu, GOC:tb, PMID:11239465]
+def: "OBSOLETE. Orientation of hairs in the imaginal disc-derived wing along a proximal-distal axis, such that each cell of the wing produces one wing hair which points in a distal direction." [GOC:ascb_2009, GOC:dph, GOC:mtg_sensu, GOC:tb, PMID:11239465]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
 synonym: "establishment of wing hair orientation" EXACT []
-is_a: GO:0001736 ! establishment of planar polarity
-is_a: GO:0009886 ! post-embryonic animal morphogenesis
-relationship: part_of GO:0035317 ! imaginal disc-derived wing hair organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0001738
@@ -241088,13 +241089,14 @@ is_a: GO:0042065 ! glial cell growth
 
 [Term]
 id: GO:0042067
-name: establishment of ommatidial planar polarity
+name: obsolete establishment of ommatidial planar polarity
 namespace: biological_process
-def: "The specification of polarized ommatidia. Ommatidia occur in two chiral forms. The trapezoidal arrangement of photoreceptors in the dorsal part of the eye is the mirror image of that in the ventral part." [GOC:ascb_2009, GOC:dph, GOC:tb, PMID:3076112, PMID:3937883]
+def: "OBSOLETE. The specification of polarized ommatidia. Ommatidia occur in two chiral forms. The trapezoidal arrangement of photoreceptors in the dorsal part of the eye is the mirror image of that in the ventral part." [GOC:ascb_2009, GOC:dph, GOC:tb, PMID:3076112, PMID:3937883]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
 synonym: "establishment of ommatidial polarity" EXACT [GOC:ascb_2009, GOC:dph, GOC:tb]
-is_a: GO:0001736 ! establishment of planar polarity
-is_a: GO:0007163 ! establishment or maintenance of cell polarity
-relationship: part_of GO:0001745 ! compound eye morphogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0042068
@@ -242804,11 +242806,13 @@ intersection_of: results_in_maturation_of UBERON:0000479 ! tissue
 
 [Term]
 id: GO:0042247
-name: establishment of planar polarity of follicular epithelium
+name: obsolete establishment of planar polarity of follicular epithelium
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of a follicular epithelium, such that they all orient to similar coordinates." [GOC:ascb_2009, GOC:bf, GOC:dph, GOC:tb]
-is_a: GO:0001736 ! establishment of planar polarity
-is_a: GO:0016334 ! establishment or maintenance of polarity of follicular epithelium
+def: "OBSOLETE. Coordinated organization of groups of cells in the plane of a follicular epithelium, such that they all orient to similar coordinates." [GOC:ascb_2009, GOC:bf, GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0042248
@@ -242819,10 +242823,13 @@ is_a: GO:0016334 ! establishment or maintenance of polarity of follicular epithe
 
 [Term]
 id: GO:0042249
-name: establishment of planar polarity of embryonic epithelium
+name: obsolete establishment of planar polarity of embryonic epithelium
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of an embryonic epithelium, such that they all orient to similar coordinates." [GOC:ascb_2009, GOC:dph, GOC:jl, GOC:tb]
-is_a: GO:0001736 ! establishment of planar polarity
+def: "OBSOLETE. Coordinated organization of groups of cells in the plane of an embryonic epithelium, such that they all orient to similar coordinates." [GOC:ascb_2009, GOC:dph, GOC:jl, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0042250
@@ -242840,10 +242847,13 @@ is_a: GO:0016336 ! establishment or maintenance of polarity of larval imaginal d
 
 [Term]
 id: GO:0042252
-name: establishment of planar polarity of larval imaginal disc epithelium
+name: obsolete establishment of planar polarity of larval imaginal disc epithelium
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of a larval imaginal disc epithelium, such that they all orient to similar coordinates." [GOC:jl]
-is_a: GO:0001736 ! establishment of planar polarity
+def: "OBSOLETE. Coordinated organization of groups of cells in the plane of a larval imaginal disc epithelium, such that they all orient to similar coordinates." [GOC:jl]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0042254
@@ -309562,27 +309572,34 @@ intersection_of: has_primary_input CL:0000723 ! somatic stem cell
 
 [Term]
 id: GO:0048104
-name: establishment of body hair or bristle planar orientation
+name: obsolete establishment of body hair or bristle planar orientation
 namespace: biological_process
-def: "Orientation of hairs or sensory bristles that cover the body surface of an adult, such that they all point in a uniform direction along the plane of the epithelium from which they project." [GOC:ascb_2009, GOC:dph, GOC:jid, GOC:tb]
-is_a: GO:0001736 ! establishment of planar polarity
-is_a: neverin:8782
+def: "OBSOLETE. Orientation of hairs or sensory bristles that cover the body surface of an adult, such that they all point in a uniform direction along the plane of the epithelium from which they project." [GOC:ascb_2009, GOC:dph, GOC:jid, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0048105
-name: establishment of body hair planar orientation
+name: obsolete establishment of body hair planar orientation
 namespace: biological_process
-def: "Orientation of body hairs, projections from the surface of an organism, such that the hairs all point in a uniform direction along the surface." [GOC:ascb_2009, GOC:dph, GOC:jid, GOC:tb]
-is_a: GO:0048104 ! establishment of body hair or bristle planar orientation
+def: "OBSOLETE. Orientation of body hairs, projections from the surface of an organism, such that the hairs all point in a uniform direction along the surface." [GOC:ascb_2009, GOC:dph, GOC:jid, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0048106
-name: establishment of thoracic bristle planar orientation
+name: obsolete establishment of thoracic bristle planar orientation
 namespace: biological_process
-def: "Orientation along the body surface of bristles, sensory organs originating from a sensory organ precursor cell, such that they all point in a uniform direction." [FBbt:00004298, FBbt:00004408, GOC:ascb_2009, GOC:dph, GOC:jid, GOC:tb]
+def: "OBSOLETE. Orientation along the body surface of bristles, sensory organs originating from a sensory organ precursor cell, such that they all point in a uniform direction." [FBbt:00004298, FBbt:00004408, GOC:ascb_2009, GOC:dph, GOC:jid, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
 synonym: "establishment of body bristle planar orientation" EXACT [GOC:bf]
-is_a: GO:0048104 ! establishment of body hair or bristle planar orientation
-relationship: part_of GO:0008407 ! chaeta morphogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 
 [Term]
 id: GO:0048107
@@ -400988,12 +401005,14 @@ creation_date: 2010-01-25T03:22:47Z
 
 [Term]
 id: GO:0072046
-name: establishment of planar polarity involved in nephron morphogenesis
+name: obsolete establishment of planar polarity involved in nephron morphogenesis
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of an epithelium that contributes to the shaping of a nephron." [GOC:mtg_kidney_jan10]
+def: "OBSOLETE. Coordinated organization of groups of cells in the plane of an epithelium that contributes to the shaping of a nephron." [GOC:mtg_kidney_jan10]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
 synonym: "establishment of planar cell polarity involved in nephron morphogenesis" NARROW [GOC:mtg_kidney_jan10]
-intersection_of: GO:0001736 ! establishment of planar polarity
-intersection_of: part_of GO:0072028 ! nephron morphogenesis
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 created_by: mah
 creation_date: 2010-01-25T03:24:04Z
 
@@ -417791,34 +417810,39 @@ creation_date: 2009-12-14T10:29:41Z
 
 [Term]
 id: GO:0090176
-name: microtubule cytoskeleton organization involved in establishment of planar polarity
+name: obsolete microtubule cytoskeleton organization involved in establishment of planar polarity
 namespace: biological_process
-def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising microtubules and their associated proteins and contributes to the establishment of planar polarity." [GOC:ascb_2009, GOC:dph, GOC:tb]
+def: "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising microtubules and their associated proteins and contributes to the establishment of planar polarity." [GOC:ascb_2009, GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
 synonym: "microtubule cytoskeleton organisation involved in establishment of planar polarity" EXACT [GOC:mah]
-intersection_of: GO:0000226 ! microtubule cytoskeleton organization
-intersection_of: part_of GO:0001736 ! establishment of planar polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0000226
+consider: GO:0001736
 created_by: tb
 creation_date: 2009-12-14T10:34:25Z
 
 [Term]
 id: GO:0090177
-name: establishment of planar polarity involved in neural tube closure
+name: obsolete establishment of planar polarity involved in neural tube closure
 namespace: biological_process
-def: "Coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." [GOC:ascb_2009, GOC:dph, GOC:tb]
-is_a: GO:0042249 ! establishment of planar polarity of embryonic epithelium
-is_a: GO:0048598 ! embryonic morphogenesis
-intersection_of: GO:0001736 ! establishment of planar polarity
-intersection_of: part_of GO:0001843 ! neural tube closure
+def: "OBSOLETE. Coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." [GOC:ascb_2009, GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
 created_by: tb
 creation_date: 2009-12-14T10:38:46Z
 
 [Term]
 id: GO:0090178
-name: regulation of establishment of planar polarity involved in neural tube closure
+name: obsolete regulation of establishment of planar polarity involved in neural tube closure
 namespace: biological_process
-def: "Any process that modulates the rate, frequency, or extent of the establishment of planar polarity involved in neural tube closure, the coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." [GOC:ascb_2009, GOC:dph, GOC:tb]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0090177 ! establishment of planar polarity involved in neural tube closure
+def: "OBSOLETE. Any process that modulates the rate, frequency, or extent of the establishment of planar polarity involved in neural tube closure, the coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." [GOC:ascb_2009, GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0090175
 created_by: tb
 creation_date: 2009-12-14T11:14:27Z
 
@@ -418582,13 +418606,15 @@ creation_date: 2010-01-22T11:28:03Z
 
 [Term]
 id: GO:0090251
-name: protein localization involved in establishment of planar polarity
+name: obsolete protein localization involved in establishment of planar polarity
 namespace: biological_process
-def: "Any process in which a protein is transported to, and/or maintained in, a specific location in a cell that contributes to the establishment of planar polarity." [GOC:ascb_2009, GOC:dph, GOC:tb]
+def: "OBSOLETE. Any process in which a protein is transported to, and/or maintained in, a specific location in a cell that contributes to the establishment of planar polarity." [GOC:ascb_2009, GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context.
 synonym: "protein localisation involved in establishment of planar polarity" EXACT [GOC:mah]
-is_a: GO:0008104 ! intracellular protein localization
-intersection_of: GO:0008104 ! intracellular protein localization
-intersection_of: part_of GO:0001736 ! establishment of planar polarity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32697" xsd:anyURI
+is_obsolete: true
+consider: GO:0001736
+consider: GO:0008104
 created_by: tb
 creation_date: 2010-01-22T11:31:32Z
 
