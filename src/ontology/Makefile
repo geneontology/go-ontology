@@ -873,10 +873,7 @@ GH_RELEASEDIR = $(RELEASEDIR)/github-release
 GH_STAGINGDIR = $(RELEASEDIR)/github-staging
 
 GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json
-GH_RELEASE_GZ = go-base.owl $(GO_PLUS).owl $(GO_PLUS).json $(GO_GAF).owl $(GO_LEGO).owl $(GO_AMIGO).owl $(GO_LEGO_REACTO).owl extensions/reacto.owl extensions/reacto.ttl
-
-# biopax2go writes extensions/reacto.ttl while making extensions/reacto.owl.
-extensions/reacto.ttl: extensions/reacto.owl ;
+GH_RELEASE_GZ = go-base.owl $(GO_PLUS).owl $(GO_PLUS).json $(GO_GAF).owl $(GO_LEGO).owl $(GO_AMIGO).owl $(GO_LEGO_REACTO).owl extensions/reacto.owl
 
 # subsets/%.owl also writes the matching .obo and .json.
 GH_RELEASE_SUBSET_FILES = $(foreach s,$(PUBLISH_SUBSETS),$(foreach e,owl obo json tsv,subsets/$(s).$(e)))
