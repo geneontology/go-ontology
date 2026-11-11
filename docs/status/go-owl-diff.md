@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-10/go.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-11/go.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/go.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-10" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-11" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -7045,6 +7045,166 @@
 - [equator specification](http://purl.obolibrary.org/obo/GO_0045317) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### establishment of body hair or bristle planar orientation `http://purl.obolibrary.org/obo/GO_0048104`
+#### Removed
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Orientation of hairs or sensory bristles that cover the body surface of an adult, such that they all point in a uniform direction along the plane of the epithelium from which they project." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of body hair or bristle planar orientation" 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+#### Added
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Orientation of hairs or sensory bristles that cover the body surface of an adult, such that they all point in a uniform direction along the plane of the epithelium from which they project." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of body hair or bristle planar orientation" 
+
+
+### establishment of body hair planar orientation `http://purl.obolibrary.org/obo/GO_0048105`
+#### Removed
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Orientation of body hairs, projections from the surface of an organism, such that the hairs all point in a uniform direction along the surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of body hair planar orientation" 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) SubClassOf [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) 
+
+#### Added
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Orientation of body hairs, projections from the surface of an organism, such that the hairs all point in a uniform direction along the surface." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of body hair planar orientation](http://purl.obolibrary.org/obo/GO_0048105) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of body hair planar orientation" 
+
+
+### establishment of imaginal disc-derived wing hair orientation `http://purl.obolibrary.org/obo/GO_0001737`
+#### Removed
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Orientation of hairs in the imaginal disc-derived wing along a proximal-distal axis, such that each cell of the wing produces one wing hair which points in a distal direction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11239465" 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of imaginal disc-derived wing hair orientation" 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) SubClassOf [post-embryonic animal morphogenesis](http://purl.obolibrary.org/obo/GO_0009886) 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [imaginal disc-derived wing hair organization](http://purl.obolibrary.org/obo/GO_0035317) 
+
+#### Added
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Orientation of hairs in the imaginal disc-derived wing along a proximal-distal axis, such that each cell of the wing produces one wing hair which points in a distal direction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_sensu" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11239465" 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of imaginal disc-derived wing hair orientation](http://purl.obolibrary.org/obo/GO_0001737) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of imaginal disc-derived wing hair orientation" 
+
+
+### establishment of ommatidial planar polarity `http://purl.obolibrary.org/obo/GO_0042067`
+#### Removed
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The specification of polarized ommatidia. Ommatidia occur in two chiral forms. The trapezoidal arrangement of photoreceptors in the dorsal part of the eye is the mirror image of that in the ventral part." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:3076112" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:3937883" 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of ommatidial planar polarity" 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) SubClassOf [establishment or maintenance of cell polarity](http://purl.obolibrary.org/obo/GO_0007163) 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [compound eye morphogenesis](http://purl.obolibrary.org/obo/GO_0001745) 
+
+#### Added
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. The specification of polarized ommatidia. Ommatidia occur in two chiral forms. The trapezoidal arrangement of photoreceptors in the dorsal part of the eye is the mirror image of that in the ventral part." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:3076112" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:3937883" 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of ommatidial planar polarity](http://purl.obolibrary.org/obo/GO_0042067) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of ommatidial planar polarity" 
+
+
 ### establishment of planar polarity `http://purl.obolibrary.org/obo/GO_0001736`
 #### Removed
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of an epithelium, such that they all orient to similar coordinates." 
@@ -7069,6 +7229,216 @@
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "When appropriate, Wnt ligands can be annotated to this term." 
 
 - [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) SubClassOf [tissue morphogenesis](http://purl.obolibrary.org/obo/GO_0048729) 
+
+
+### establishment of planar polarity involved in nephron morphogenesis `http://purl.obolibrary.org/obo/GO_0072046`
+#### Removed
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of an epithelium that contributes to the shaping of a nephron." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_kidney_jan10" 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of planar polarity involved in nephron morphogenesis" 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) EquivalentTo [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072028)) 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072028) 
+
+#### Added
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Coordinated organization of groups of cells in the plane of an epithelium that contributes to the shaping of a nephron." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mtg_kidney_jan10" 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of planar polarity involved in nephron morphogenesis](http://purl.obolibrary.org/obo/GO_0072046) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of planar polarity involved in nephron morphogenesis" 
+
+
+### establishment of planar polarity involved in neural tube closure `http://purl.obolibrary.org/obo/GO_0090177`
+#### Removed
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of planar polarity involved in neural tube closure" 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) EquivalentTo [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [neural tube closure](http://purl.obolibrary.org/obo/GO_0001843)) 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) SubClassOf [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) SubClassOf [embryonic morphogenesis](http://purl.obolibrary.org/obo/GO_0048598) 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [neural tube closure](http://purl.obolibrary.org/obo/GO_0001843) 
+
+#### Added
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of planar polarity involved in neural tube closure" 
+
+
+### establishment of planar polarity of embryonic epithelium `http://purl.obolibrary.org/obo/GO_0042249`
+#### Removed
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of an embryonic epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of planar polarity of embryonic epithelium" 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+#### Added
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Coordinated organization of groups of cells in the plane of an embryonic epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of planar polarity of embryonic epithelium](http://purl.obolibrary.org/obo/GO_0042249) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of planar polarity of embryonic epithelium" 
+
+
+### establishment of planar polarity of follicular epithelium `http://purl.obolibrary.org/obo/GO_0042247`
+#### Removed
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of a follicular epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of planar polarity of follicular epithelium" 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) SubClassOf [establishment or maintenance of polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0016334) 
+
+#### Added
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Coordinated organization of groups of cells in the plane of a follicular epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of planar polarity of follicular epithelium](http://purl.obolibrary.org/obo/GO_0042247) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of planar polarity of follicular epithelium" 
+
+
+### establishment of planar polarity of larval imaginal disc epithelium `http://purl.obolibrary.org/obo/GO_0042252`
+#### Removed
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Coordinated organization of groups of cells in the plane of a larval imaginal disc epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of planar polarity of larval imaginal disc epithelium" 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) SubClassOf [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+#### Added
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Coordinated organization of groups of cells in the plane of a larval imaginal disc epithelium, such that they all orient to similar coordinates." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jl" 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of planar polarity of larval imaginal disc epithelium](http://purl.obolibrary.org/obo/GO_0042252) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of planar polarity of larval imaginal disc epithelium" 
+
+
+### establishment of thoracic bristle planar orientation `http://purl.obolibrary.org/obo/GO_0048106`
+#### Removed
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Orientation along the body surface of bristles, sensory organs originating from a sensory organ precursor cell, such that they all point in a uniform direction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004408" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004298" 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [label](http://www.w3.org/2000/01/rdf-schema#label) "establishment of thoracic bristle planar orientation" 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) SubClassOf [establishment of body hair or bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048104) 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [chaeta morphogenesis](http://purl.obolibrary.org/obo/GO_0008407) 
+
+#### Added
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Orientation along the body surface of bristles, sensory organs originating from a sensory organ precursor cell, such that they all point in a uniform direction." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:jid" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004408" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBbt:00004298" 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [establishment of thoracic bristle planar orientation](http://purl.obolibrary.org/obo/GO_0048106) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete establishment of thoracic bristle planar orientation" 
 
 
 ### establishment of tissue polarity `http://purl.obolibrary.org/obo/GO_0007164`
@@ -10261,6 +10631,44 @@
 - [microtubule anchoring at spindle pole body](http://purl.obolibrary.org/obo/GO_0034631) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete microtubule anchoring at spindle pole body" 
 
 
+### microtubule cytoskeleton organization involved in establishment of planar polarity `http://purl.obolibrary.org/obo/GO_0090176`
+#### Removed
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising microtubules and their associated proteins and contributes to the establishment of planar polarity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [label](http://www.w3.org/2000/01/rdf-schema#label) "microtubule cytoskeleton organization involved in establishment of planar polarity" 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) EquivalentTo [microtubule cytoskeleton organization](http://purl.obolibrary.org/obo/GO_0000226) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736)) 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) SubClassOf [microtubule cytoskeleton organization](http://purl.obolibrary.org/obo/GO_0000226) 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+#### Added
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [microtubule cytoskeleton organization](http://purl.obolibrary.org/obo/GO_0000226) 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of cytoskeletal structures comprising microtubules and their associated proteins and contributes to the establishment of planar polarity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [microtubule cytoskeleton organization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090176) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete microtubule cytoskeleton organization involved in establishment of planar polarity" 
+
+
 ### microtubule-spindle pole body anchor activity `http://purl.obolibrary.org/obo/GO_7770121`
 
 #### Added
@@ -11667,6 +12075,41 @@
 - [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that the regulated process, GO:0099638 (endosome to plasma membrane protein transport), was obsoleted and replaced by GO:0032456 (endosome to plasma membrane transport); this term was therefore replaced by GO:2001136 (negative regulation of endosome to plasma membrane transport)." 
 
 - [negative regulation of endosome to plasma membrane protein transport](http://purl.obolibrary.org/obo/GO_1905750) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete negative regulation of endosome to plasma membrane protein transport" 
+
+
+### negative regulation of establishment of planar polarity `http://purl.obolibrary.org/obo/GO_7770161`
+
+#### Added
+- Class: [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-10T23:44:19Z" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down regulation of establishment of planar polarity" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "down-regulation of establishment of planar polarity" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "downregulation of establishment of planar polarity" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770161" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that stops, prevents or reduces the frequency, rate or extent of establishment of planar polarity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19701191" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) [label](http://www.w3.org/2000/01/rdf-schema#label) "negative regulation of establishment of planar polarity" 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736)) 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) SubClassOf [negative regulation of developmental process](http://purl.obolibrary.org/obo/GO_0051093) 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) SubClassOf [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+- [negative regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770161) SubClassOf [negatively regulates](http://purl.obolibrary.org/obo/RO_0002212) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
 
 
 ### negative regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000750`
@@ -14464,6 +14907,41 @@
 - [positive regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061161) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete positive regulation of establishment of bipolar cell polarity regulating cell shape" 
 
 
+### positive regulation of establishment of planar polarity `http://purl.obolibrary.org/obo/GO_7770160`
+
+#### Added
+- Class: [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-10T23:44:19Z" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up regulation of establishment of planar polarity" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "up-regulation of establishment of planar polarity" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [has_exact_synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "upregulation of establishment of planar polarity" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770160" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of establishment of planar polarity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18606138" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) [label](http://www.w3.org/2000/01/rdf-schema#label) "positive regulation of establishment of planar polarity" 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736)) 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) SubClassOf [positive regulation of developmental process](http://purl.obolibrary.org/obo/GO_0051094) 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) SubClassOf [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+- [positive regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_7770160) SubClassOf [positively regulates](http://purl.obolibrary.org/obo/RO_0002213) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+
 ### positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000247`
 #### Removed
 - [positive regulation of establishment or maintenance of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_2000247) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that activates or increases the frequency, rate or extent of establishment or maintenance of bipolar cell polarity regulating cell shape." 
@@ -15361,6 +15839,44 @@
   - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29987032" 
 
 - [protein lipoylation](http://purl.obolibrary.org/obo/GO_0009249) SubClassOf [lipoate metabolic process](http://purl.obolibrary.org/obo/GO_0009106) 
+
+
+### protein localization involved in establishment of planar polarity `http://purl.obolibrary.org/obo/GO_0090251`
+#### Removed
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process in which a protein is transported to, and/or maintained in, a specific location in a cell that contributes to the establishment of planar polarity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [label](http://www.w3.org/2000/01/rdf-schema#label) "protein localization involved in establishment of planar polarity" 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) EquivalentTo [intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736)) 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) SubClassOf [intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104) 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+#### Added
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0001736) 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [intracellular protein localization](http://purl.obolibrary.org/obo/GO_0008104) 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process in which a protein is transported to, and/or maintained in, a specific location in a cell that contributes to the establishment of planar polarity." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [protein localization involved in establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090251) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete protein localization involved in establishment of planar polarity" 
 
 
 ### protein localization to cytoplasmic stress granule `http://purl.obolibrary.org/obo/GO_1903608`
@@ -16684,6 +17200,42 @@
 - [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term was made in error." 
 
 - [regulation of establishment of bipolar cell polarity regulating cell shape](http://purl.obolibrary.org/obo/GO_0061160) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment of bipolar cell polarity regulating cell shape" 
+
+
+### regulation of establishment of planar polarity involved in neural tube closure `http://purl.obolibrary.org/obo/GO_0090178`
+#### Removed
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any process that modulates the rate, frequency, or extent of the establishment of planar polarity involved in neural tube closure, the coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of establishment of planar polarity involved in neural tube closure" 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) EquivalentTo [biological regulation](http://purl.obolibrary.org/obo/GO_0065007) and ([regulates](http://purl.obolibrary.org/obo/RO_0002211) some [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177)) 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) SubClassOf [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) SubClassOf [regulates](http://purl.obolibrary.org/obo/RO_0002211) some [establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090177) 
+
+#### Added
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32697"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [consider](http://www.geneontology.org/formats/oboInOwl#consider) [regulation of establishment of planar polarity](http://purl.obolibrary.org/obo/GO_0090175) 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "OBSOLETE. Any process that modulates the rate, frequency, or extent of the establishment of planar polarity involved in neural tube closure, the coordinated organization of groups of cells in the plane of an epithelium that contributes to the closure of the neural tube." 
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dph" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ascb_2009" 
+
+  - [database_cross_reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tb" 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [deprecated](http://www.w3.org/2002/07/owl#deprecated) true 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this is a compound term referring to planar cell polarity occurring in a developmental or location-specific event. The information can be better captured in other ways, e.g. GO-CAM causal activity modelling or annotation extensions that add context." 
+
+- [regulation of establishment of planar polarity involved in neural tube closure](http://purl.obolibrary.org/obo/GO_0090178) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete regulation of establishment of planar polarity involved in neural tube closure" 
 
 
 ### regulation of establishment or maintenance of bipolar cell polarity regulating cell shape `http://purl.obolibrary.org/obo/GO_2000100`
