@@ -622852,6 +622852,20 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-10T23:44:19Z
 
+[Term]
+id: GO:7770162
+name: mitochondrial intermembrane space organization
+namespace: biological_process
+def: "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of the mitochondrial intermembrane space, the region between the inner and outer mitochondrial membranes. Includes the establishment and maintenance of the spacing between the mitochondrial outer membrane and the inner boundary membrane, which sets the volume of the intermembrane space." [PMID:42873847]
+comment: Consider also annotating to the molecular function term 'membrane-membrane adaptor activity ; GO:0140177' for proteins that physically tether the mitochondrial outer and inner membranes.
+synonym: "mitochondrial intermembrane space organisation" EXACT []
+intersection_of: GO:0016043 ! cellular component organization
+intersection_of: results_in_organization_of GO:0005758 ! mitochondrial intermembrane space
+relationship: part_of GO:0007005 ! mitochondrion organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32924" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-11T17:16:24Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
