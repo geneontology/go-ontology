@@ -69776,21 +69776,21 @@ namespace: biological_process
 alt_id: GO:0016193
 alt_id: GO:0016196
 alt_id: GO:0098701
-def: "A cellular process in which cells take up external materials or membrane constituents by the invagination of a part of the plasma membrane to form a new membrane-bounded vesicle." [GOC:mah, ISBN:0198506732, ISBN:0716731363, Wikipedia:Endocytosis]
+def: "A vesicle-mediated transport process in which extracellular material, plasma membrane components, or membrane-associated molecules are internalized by deformation and scission of the plasma membrane to form intracellular membrane-bounded carriers, which may be vesicular or tubular, and which deliver their cargo to intracellular compartments." [GOC:mah, GOC:vw, ISBN:0198506732, ISBN:0716731363, Wikipedia:Endocytosis]
 subset: goslim_yeast
 synonym: "endocytic import into cell" EXACT []
 synonym: "nonselective vesicle endocytosis" RELATED []
 synonym: "plasma membrane invagination" NARROW []
 synonym: "vesicle endocytosis" EXACT []
 xref: Wikipedia:Endocytosis
+is_a: GO:0016192 ! vesicle-mediated transport
 is_a: GO:0098657 ! import into cell
-relationship: has_part GO:0006900 ! vesicle budding from membrane
 relationship: has_part GO:0010324 ! membrane invagination
-relationship: has_target_end_location GO:0031410 ! cytoplasmic vesicle
 relationship: has_target_start_location GO:0005576 ! extracellular region
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24907" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25268" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/30667" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 
 [Term]
 id: GO:0006898
@@ -69800,7 +69800,6 @@ def: "An endocytosis process in which cell surface receptors ensure specificity 
 synonym: "receptor mediated endocytosis" EXACT []
 xref: Wikipedia:Receptor-mediated_endocytosis
 is_a: GO:0006897 ! endocytosis
-is_a: GO:0016192 ! vesicle-mediated transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 
 [Term]
@@ -69912,7 +69911,6 @@ synonym: "recognition of phagocytosed substance by phagocytic cell" EXACT []
 intersection_of: GO:0008037 ! cell recognition
 intersection_of: part_of GO:0006909 ! phagocytosis
 relationship: has_part GO:0038024 ! cargo receptor activity
-relationship: part_of GO:0006897 ! endocytosis
 
 [Term]
 id: GO:0006911
@@ -69923,7 +69921,6 @@ synonym: "phagosome biosynthesis" RELATED []
 synonym: "phagosome formation" RELATED []
 intersection_of: GO:0099024 ! plasma membrane invagination
 intersection_of: part_of GO:0006909 ! phagocytosis
-relationship: part_of GO:0006897 ! endocytosis
 relationship: preceded_by GO:0006910 ! phagocytosis, recognition
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32152" xsd:anyURI
 
@@ -124176,7 +124173,7 @@ id: GO:0016192
 name: vesicle-mediated transport
 namespace: biological_process
 alt_id: GO:0006899
-def: "A cellular transport process in which transported substances are moved in membrane-bounded vesicles; transported substances are enclosed in the vesicle lumen or located in the vesicle membrane. The process begins with a step that directs a substance to the forming vesicle, and includes vesicle budding and coating. Vesicles are then targeted to, and fuse with, an acceptor membrane." [GOC:ai, GOC:mah, ISBN:08789310662000]
+def: "A cellular transport process in which transported substances are moved in membrane-bounded carriers, either vesicles or tubulo-vesicular structures; transported substances are enclosed in the carrier lumen or located in the carrier membrane. The process begins when a carrier forms from a donor membrane, by budding or by deformation and scission, and ends when the carrier fuses with, or matures into, a target compartment." [GOC:ai, GOC:mah, GOC:vw, ISBN:08789310662000, PMID:36129576]
 subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_drosophila
@@ -124193,6 +124190,7 @@ is_a: GO:0009987 ! cellular process
 intersection_of: GO:0006810 ! transport
 intersection_of: process_has_causal_agent GO:0031982 ! vesicle
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25421" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 
 [Term]
 id: GO:0016197
@@ -180103,7 +180101,6 @@ id: GO:0031623
 name: receptor internalization
 namespace: biological_process
 def: "A receptor-mediated endocytosis process that results in the movement of receptors from the plasma membrane to the inside of the cell. The process begins when cell surface receptors are monoubiquitinated following ligand-induced activation. Receptors are subsequently taken up into endocytic vesicles from where they are either targeted to the lysosome or vacuole for degradation or recycled back to the plasma membrane." [GOC:bf, GOC:mah, GOC:signaling, PMID:15006537, PMID:19643732]
-is_a: GO:0006810 ! transport
 is_a: GO:0006898 ! receptor-mediated endocytosis
 
 [Term]
@@ -217101,10 +217098,10 @@ relationship: part_of GO:0007338 ! single fertilization
 id: GO:0035037
 name: sperm entry
 namespace: biological_process
-def: "An endocytosis process that results in penetration of the egg shell through the micropyle (a specialized anterior opening in the vitelline envelope) and entry of the entire sperm, including the surrounding plasma membrane and the sperm tail, into the egg cytoplasm. This step in fertilization is seen in Drosophila, where a plasma membrane fusion event between the sperm and the egg does not occur." [GOC:bf, PMID:9630751]
-is_a: GO:0006810 ! transport
-is_a: GO:0006897 ! endocytosis
+def: "A process that results in penetration of the egg shell through the micropyle (a specialized anterior opening in the vitelline envelope) and entry of the entire sperm, including the surrounding plasma membrane and the sperm tail, into the egg cytoplasm. This step in fertilization is seen in Drosophila, where a plasma membrane fusion event between the sperm and the egg does not occur." [GOC:bf, PMID:9630751]
+is_a: GO:0022412 ! cellular process involved in reproduction in multicellular organism
 relationship: part_of GO:0007338 ! single fertilization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 
 [Term]
 id: GO:0035038
@@ -406877,7 +406874,6 @@ synonym: "clathrin coated pit-dependent endocytosis" EXACT [GOC:BHF]
 synonym: "clathrin-mediated endocytosis" EXACT []
 synonym: "CME" EXACT [PMID:20074057]
 is_a: GO:0006898 ! receptor-mediated endocytosis
-is_a: GO:0016192 ! vesicle-mediated transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 created_by: mah
 creation_date: 2011-02-08T03:59:18Z
@@ -406891,7 +406887,6 @@ synonym: "caveolae-dependent endocytosis" EXACT [GOC:mah]
 synonym: "caveolae-mediated endocytosis" EXACT [GOC:mah]
 synonym: "caveolin-dependent endocytosis" EXACT [GOC:BHF]
 is_a: GO:0006897 ! endocytosis
-is_a: GO:0016192 ! vesicle-mediated transport
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 created_by: mah
 creation_date: 2011-02-08T04:08:33Z
@@ -467582,12 +467577,13 @@ creation_date: 2018-07-13T13:07:23Z
 id: GO:0140238
 name: presynaptic endocytosis
 namespace: biological_process
-def: "A vesicle-mediated transport process in which the presynapse take up external materials or membrane constituents by the invagination of a small region of the plasma membrane to form a new membrane-bounded vesicle." [PMID:24719103]
+def: "An endocytosis process that occurs in the presynapse, in which external materials or presynaptic plasma membrane constituents are internalized into membrane-bounded carriers." [PMID:24719103]
 comment: Note that this term was created for the SynGO project, and will be obsoleted when the SynGO annotations are made in Noctua.
 subset: goslim_synapse
 intersection_of: GO:0006897 ! endocytosis
 intersection_of: occurs_in GO:0098793 ! presynapse
 property_value: term_tracker_item "https://github.com/geneontology/synapse/issues/230" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 created_by: pg
 creation_date: 2018-07-15T07:33:55Z
 
@@ -467595,12 +467591,13 @@ creation_date: 2018-07-15T07:33:55Z
 id: GO:0140239
 name: postsynaptic endocytosis
 namespace: biological_process
-def: "A vesicle-mediated transport process in which the postsynapse take up external materials or membrane constituents by the invagination of a small region of the plasma membrane to form a new membrane-bounded vesicle." [PMID:12839988]
+def: "An endocytosis process that occurs in the postsynapse, in which external materials or postsynaptic plasma membrane constituents are internalized into membrane-bounded carriers." [PMID:12839988]
 comment: Note that this term was created for the SynGO project, and will be obsoleted when the SynGO annotations are made in Noctua.
 subset: goslim_synapse
 intersection_of: GO:0006897 ! endocytosis
 intersection_of: occurs_in GO:0098794 ! postsynapse
 property_value: term_tracker_item "https://github.com/geneontology/synapse/issues/230" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
 created_by: pg
 creation_date: 2018-07-15T07:38:27Z
 
