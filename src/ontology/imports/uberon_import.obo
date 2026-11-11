@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2026-06-29/imports/uberon_import.owl
+data-version: go/releases/2026-11-10/imports/uberon_import.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: foaf http://xmlns.com/foaf/0.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -1351,6 +1351,7 @@ id: UBERON:0000057
 name: urethra
 def: "The fibromuscular tubular canal through which urine is discharged from the bladder to the exterior via the external urinary meatus; in males, the urethra is joined by the ejaculatory ducts and serves as a passageway for semen during ejaculation, as well as a canal for urine during voiding; in females, the urethra is shorter and emerges above the vaginal opening." [MGI:anna, MP:0000537]
 subset: efo_slim
+subset: human_reference_atlas
 subset: major_organ
 subset: organ_slim
 subset: pheno_slim
@@ -1521,6 +1522,7 @@ xref: EMAPA:35949
 xref: ENVO:01000162
 xref: FMA:67498
 xref: MA:0003001
+xref: MESH:D004602 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C13018
 xref: SCTID:272625005
 xref: UMLS:C0178784 {source="ncithesaurus:Organ"}
@@ -2034,6 +2036,7 @@ xref: EHDAA:5911
 xref: EMAPA:17373
 xref: EMAPA_RETIRED:17207
 xref: FMA:72172
+xref: MESH:C000729049 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C34209
 xref: SCTID:308797000
 xref: UMLS:C0231049 {source="ncithesaurus:Metanephros"}
@@ -2090,6 +2093,7 @@ xref: EHDAA2:0002140
 xref: EHDAA:3091
 xref: EHDAA:5917
 xref: EMAPA:17209
+xref: MESH:C000729068 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: NCIT:C34207
 xref: SCTID:361528000
 xref: UMLS:C1284058 {source="ncithesaurus:Metanephric_Diverticulum"}
@@ -2409,6 +2413,8 @@ xref: GgalDv:0000001 {sssom:mapping_justification="https://w3id.org/semapv/vocab
 xref: GgorDv:0000001 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
 xref: HsapDv:0000001 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
 xref: MdomDv:0000001 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
+xref: MESH:D008136 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
+xref: MESH:D019369 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: MmulDv:0000001 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
 xref: MmusDv:0000001 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
 xref: ncithesaurus:Life
@@ -2501,6 +2507,7 @@ xref: EHDAA:27
 xref: FBdv:00005288
 xref: HsapDv:0000003 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
 xref: IDOMAL:0000302 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
+xref: MESH:D015053 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: MmusDv:0000003 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
 xref: NCIT:C12601
 xref: OariDv:0000009 {sssom:mapping_justification="https://w3id.org/semapv/vocab/UnspecifiedMatching"}
@@ -2829,6 +2836,7 @@ synonym: "primary lung bud" RELATED [GO:0060572]
 synonym: "respiratory diverticulum" RELATED [Wikipedia:Lung_buds]
 xref: BTO:0001643
 xref: EHDAA2:0004089
+xref: MESH:C000728149 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C34260
 xref: NCIT:C34282
 xref: SCTID:361427007
@@ -2972,6 +2980,8 @@ synonym: "olivary nucleus" RELATED [BTO:0002299]
 synonym: "olive" RELATED []
 synonym: "olive body" EXACT []
 xref: BTO:0002299
+xref: MESH:D009847 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
+xref: MESH:D031658 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:279293003
 xref: Wikipedia:Olivary_body
 is_a: UBERON:0010000 ! multicellular anatomical structure
@@ -5399,6 +5409,7 @@ xref: galen:Organism
 xref: HAO:0000012
 xref: NCIT:C13041
 xref: ncithesaurus:Whole_Organism
+xref: obo:mesh#B {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:243928005
 xref: TADS:0000001
 xref: TAO:0001094
@@ -5625,6 +5636,7 @@ name: anatomical cluster
 def: "Anatomical group whose component anatomical structures lie in close proximity to each other." [FBbt:00007277]
 subset: common_anatomy
 subset: upper_level
+xref: CARO:0000041 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: FBbt:00007277 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration"}
 xref: VHOG:0001737
 is_a: UBERON:0034923 ! disconnected anatomical group
@@ -5990,6 +6002,7 @@ synonym: "intercellular fluid" EXACT [ENVO:02000042]
 synonym: "tissue fluid" EXACT [ENVO:02000042]
 xref: ENVO:02000042
 xref: FMA:9673
+xref: MESH:D045604 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C120839
 xref: Wikipedia:Interstitial_fluid
 is_a: UBERON:0000463 ! organism substance
@@ -10157,9 +10170,9 @@ relationship: RO:0002254 UBERON:0000930 {source="XAO-modified"} ! stomodeum
 relationship: RO:0002254 UBERON:0005176 {source="ZFA-modified"} ! tooth enamel organ
 relationship: RO:0002495 UBERON:0008281 {source="cjm"} ! tooth bud
 property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/1/14/Teeth_by_David_Shankbone.jpg" xsd:anyURI
-property_value: RO:0002161 NCBITaxon:189497 {source="Wikipedia"}
 property_value: RO:0002161 NCBITaxon:8782
 property_value: RO:0002161 NCBITaxon:9257 {source="PMID:10210685"}
+property_value: RO:0002161 NCBITaxon:9259 {source="https://github.com/obophenotype/uberon/issues/3752"}
 property_value: RO:0002161 NCBITaxon:9761
 property_value: UBPROP:0000003 "The ancestor of recent vertebrate teeth was a tooth-like structure on the outer body surface of jawless fishes.[well established][VHOG]" xsd:string {date_retrieved="2012-09-17", external_class="VHOG:0001733", ontology="VHOG", source="PMID:19266065 Koussoulakou DS, Margaritis LH, Koussoulakos SL, A curriculum vitae of teeth: evolution, generation, regeneration. International Journal of Biological Sciences (2009)", source="http://bgee.unil.ch/"}
 property_value: UBPROP:0000007 "dental" xsd:string
@@ -12738,6 +12751,7 @@ xref: EMAPA:28257
 xref: FMA:15626
 xref: KUPO:0001001
 xref: MA:0001660
+xref: MESH:D050476 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32225
 xref: SCTID:361331000
 xref: TAO:0005254
@@ -14222,6 +14236,7 @@ xref: EV:0100108
 xref: FMA:18247
 xref: GAID:0000012
 xref: MA:0002726
+xref: MESH:D001468 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C12324
 xref: SCTID:263378009
 xref: UMLS:C0227948 {source="ncithesaurus:Glans_Penis"}
@@ -14698,6 +14713,7 @@ property_value: foaf:depiction "https://upload.wikimedia.org/wikipedia/commons/c
 id: UBERON:0001334
 name: female urethra
 def: "A urethra that is part of a female reproductive system." [http://orcid.org/0000-0002-6601-2165]
+subset: human_reference_atlas
 subset: pheno_slim
 subset: uberon_slim
 synonym: "urethra feminina" RELATED [BTO:0004088]
@@ -16322,6 +16338,7 @@ xref: EHDAA2:0000339
 xref: EMAPA:18177
 xref: FMA:32521
 xref: MA:0002286
+xref: MESH:D057645 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32446
 xref: SCTID:181620007
 xref: UMLS:C0224234 {source="ncithesaurus:Deltoid"}
@@ -18380,6 +18397,7 @@ xref: EHDAA:3352
 xref: EMAPA:18600
 xref: FMA:50084
 xref: MA:0002023
+xref: MESH:D010323 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C33357
 xref: RETIRED_EHDAA2:0001487
 xref: SCTID:181314001
@@ -19353,10 +19371,12 @@ xref: UMLS:C0039484 {source="ncithesaurus:Temporal_Bone"}
 xref: VHOG:0000800
 xref: Wikipedia:Temporal_bone
 is_a: UBERON:0008193 {source="FMA"} ! pneumatized bone
+is_a: UBERON:0011164 ! neurocranium bone
 relationship: RO:0002131 UBERON:0002241 {notes="petrosal"} ! chondrocranium
 relationship: RO:0002131 UBERON:0003113 {notes="squamosal plus angular", notes="temporal series"} ! dermatocranium
 relationship: RO:0002131 UBERON:0008895 {notes="styloid process"} ! splanchnocranium
 property_value: foaf:depiction "http://upload.wikimedia.org/wikipedia/commons/6/66/Illu_cranial_bones2.jpg" xsd:anyURI
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/issues/3791" xsd:anyURI
 property_value: UBPROP:0000008 "fusion of squamosal + angular (tympanic annulus) [derm.] + petrosal (prootic + opisthotic)" xsd:string {source="chond."}
 property_value: UBPROP:0000008 "In many mammals, as in humans, the petrosal, ectotympanic and squamosal bones synostose to form the temporal bone + styloid process" xsd:string
 property_value: UBPROP:0000010 "The temporal bone consists of four parts: * Squama temporalis * Mastoid portion * Petrous portion (Petrosal ridge) * Tympanic part[WP]." xsd:string {source="[WP]"}
@@ -19536,6 +19556,7 @@ xref: EMAPA:17824
 xref: EV:0100360
 xref: FMA:52750
 xref: MA:0000254
+xref: MESH:D004429 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32164
 xref: SCTID:181184001
 xref: UMLS:C0013450 {source="ncithesaurus:Auditory_Ossicle"}
@@ -20298,6 +20319,7 @@ xref: FMA:54588
 xref: HBA:9516
 xref: MA:0001050
 xref: MBA:135
+xref: MESH:C059849 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C12835
 xref: neuronames:765 {source="BIRNLEX:2650"}
 xref: SCTID:280184006
@@ -21637,6 +21659,7 @@ xref: EMAPA:35738
 xref: FMA:58627
 xref: MA:0000279
 xref: MA:0003173
+xref: MESH:D055213 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C33470
 xref: SCTID:280662007
 xref: TAO:0000144
@@ -22227,6 +22250,7 @@ synonym: "segmentum posterius bulbi oculi" RELATED OMO:0003011 [Wikipedia:Poster
 xref: EMAPA:36595
 xref: FMA:58868
 xref: MA:0002485
+xref: MESH:D057972 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C12906
 xref: SCTID:280659009
 xref: UMLS:C0278450 {source="ncithesaurus:Posterior_Eye_Segment"}
@@ -24366,6 +24390,7 @@ xref: HBA:4392
 xref: MA:0000179
 xref: MAT:0000109
 xref: MBA:549
+xref: MESH:D013788 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: MIAA:0000109
 xref: NCIT:C12459
 xref: neuronames:300 {source="BIRNLEX:954"}
@@ -26275,6 +26300,7 @@ synonym: "hyaline cartilage" EXACT [MA:0000109]
 xref: EMAPA:35414
 xref: FMA:64783
 xref: MA:0000109
+xref: MESH:D051457 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32746
 xref: SCTID:39298000
 xref: UMLS:C0225362 {source="ncithesaurus:Hyaline_Cartilage"}
@@ -26330,6 +26356,7 @@ synonym: "yellow elastic cartilage tissue" EXACT []
 xref: FMA:64785
 xref: MA:0000107
 xref: MA:0000485
+xref: MESH:D051472 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32494
 xref: UMLS:C0682559 {source="ncithesaurus:Elastic_Cartilage"}
 xref: VSAO:0000091
@@ -26977,6 +27004,7 @@ xref: EMAPA:36390
 xref: FMA:67905
 xref: galen:StriatedMuscle
 xref: MA:0002438
+xref: MESH:D054792 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C12436
 xref: UMLS:C1331262 {source="ncithesaurus:Striated_Muscle_Tissue"}
 xref: WBbt:0005779
@@ -28090,6 +28118,7 @@ xref: EMAPA:17011
 xref: FMA:7108
 xref: galen:InteratrialSeptum
 xref: MA:0000084
+xref: MESH:D054087 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32818
 xref: SCTID:362016003
 xref: UMLS:C0225836 {source="ncithesaurus:Interatrial_Septum"}
@@ -28317,6 +28346,7 @@ xref: EMAPA:17333
 xref: FMA:7133
 xref: galen:InterventricularSeptum
 xref: MA:0000085
+xref: MESH:D054088 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32874
 xref: SCTID:362019005
 xref: UMLS:C0225870 {source="ncithesaurus:Interventricular_Septum"}
@@ -28452,6 +28482,7 @@ xref: FMA:7181
 xref: galen:Trunk
 xref: MA:0000004
 xref: MAT:0000296
+xref: MESH:D060726 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: MIAA:0000296
 xref: NCIT:C33816
 xref: SCTID:262225004
@@ -32268,6 +32299,7 @@ synonym: "muscle organ of back" EXACT [OBOL:automatic]
 xref: EMAPA:35161
 xref: FMA:85216
 xref: MA:0000496
+xref: MESH:D064131 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0001774 ! skeletal muscle of trunk
 is_a: UBERON:0005174 ! dorsal region element
 intersection_of: UBERON:0014892 ! skeletal muscle organ, vertebrate
@@ -34562,7 +34594,7 @@ xref: EHDAA:3767
 xref: EMAPA:16984
 xref: FMA:65553
 xref: GAID:706
-xref: IDOMAL:0002126 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
+xref: IDOMAL:0002126 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: MA:0000219
 xref: MESH:D001341
 xref: NCIT:C12673
@@ -34897,6 +34929,7 @@ xref: FMA:74038
 xref: HBA:4249
 xref: MA:0000189
 xref: MBA:1089
+xref: MESH:D023701 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: neuronames:177 {source="BIRNLEX:715"}
 xref: PBA:4003
 xref: SCTID:422867004
@@ -35441,6 +35474,7 @@ xref: EMAPA:18617
 xref: FMA:3960
 xref: MA:0001982
 xref: MA:0001984
+xref: MESH:D008323 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C52941
 xref: SCTID:244239009
 xref: UMLS:C0226276 {source="ncithesaurus:Internal_Mammary_Artery"}
@@ -35848,6 +35882,7 @@ xref: CALOHA:TS-0110
 xref: EMAPA:35873
 xref: FMA:24019
 xref: MA:0002782
+xref: MESH:D000071556 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: Wikipedia:Trabecular_bone
 is_a: UBERON:0002481 ! bone tissue
 intersection_of: UBERON:0002481 ! bone tissue
@@ -37020,6 +37055,7 @@ xref: DMBA:16930
 xref: EMAPA:37821 {source="MA:th"}
 xref: FMA:72538
 xref: HBA:12947
+xref: MESH:D004617 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: neuronames:688 {source="BIRNLEX:1135"}
 xref: SCTID:279222003
 xref: UMLS:C0175488 {source="BIRNLEX:1135"}
@@ -40056,6 +40092,7 @@ subset: uberon_slim
 synonym: "CA" RELATED []
 xref: AAO:0011023
 xref: EFO:0003472
+xref: MESH:C060964 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: TAO:0000011
 xref: VHOG:0000123
 xref: Wikipedia:Caudal_artery
@@ -40222,6 +40259,7 @@ xref: CARO:0000028
 xref: FBbt:00007011 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration"}
 xref: FMA:67812
 xref: HAO:0000028
+xref: MESH:D005260 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:362608006
 xref: TAO:0000303
 xref: TGMA:0001839
@@ -40245,6 +40283,7 @@ xref: CARO:0000027
 xref: FBbt:00007004 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration"}
 xref: FMA:67811
 xref: HAO:0000027
+xref: MESH:D008297 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:362609003
 xref: TAO:0000242
 xref: TGMA:0001838
@@ -43431,6 +43470,7 @@ synonym: "mesentery of large intestine" EXACT [FMA:14645]
 synonym: "mesocolon" EXACT [https://github.com/obophenotype/uberon/issues/1473]
 xref: EMAPA:18942
 xref: FMA:14645
+xref: MESH:D008646 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:245457004
 is_a: UBERON:0003335 ! serosa of colon
 is_a: UBERON:0004854 ! gastrointestinal system mesentery
@@ -43641,6 +43681,7 @@ synonym: "umbilical cord mesenchyme" EXACT [OBOL:automatic]
 synonym: "Wharton's jelly" EXACT [EMAPA:26127]
 xref: EMAPA:26127
 xref: EMAPA:35925
+xref: MESH:D059631 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:368069009
 xref: Wikipedia:Wharton's_jelly
 is_a: UBERON:0003104 ! mesenchyme
@@ -48985,6 +49026,7 @@ xref: EHDAA:4739
 xref: EHDAA:9061
 xref: FMA:85272
 xref: galen:Capsule
+xref: MESH:D002214 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: Wikipedia:Capsule_(anatomy)
 is_a: UBERON:0000158 ! membranous layer
 property_value: UBPROP:0000007 "capsular" xsd:string
@@ -49139,6 +49181,7 @@ xref: EHDAA:788
 xref: EHDAA:800
 xref: EHDAA:808
 xref: EMAPA:32687
+xref: MESH:C000728973 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: NCIT:C34115
 xref: RETIRED_EHDAA2:0000212
 xref: TAO:0001318
@@ -49250,6 +49293,7 @@ name: epithelial tube
 def: "Epithelial tubes transport gases, liquids and cells from one site to another and form the basic structure of many organs and tissues, with tube shape and organization varying from the single-celled excretory organ in Caenorhabditis elegans to the branching trees of the mammalian kidney and insect tracheal system." [GO:0060562, PMID:12526790]
 synonym: "epithelial or endothelial tube" EXACT []
 xref: AEO:0000114
+xref: CARO:0010009 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: EHDAA2:0003114
 xref: FBbt:00007474 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration"}
 is_a: UBERON:0000025 ! tube
@@ -50018,6 +50062,7 @@ synonym: "subventricular zone" BROAD [DHBA:SZ]
 synonym: "SVZ" BROAD OMO:0003000 [MP:0004274]
 xref: DHBA:10549
 xref: EMAPA:32665
+xref: MESH:D000097803 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: PBA:128012818
 xref: Wikipedia:Ganglionic_eminence
 is_a: UBERON:0002050 ! embryonic structure
@@ -52760,6 +52805,7 @@ synonym: "toe bone" EXACT [OBOL:automatic]
 synonym: "toe bone organ" EXACT [OBOL:automatic]
 xref: EMAPA:37309 {source="MA:th"}
 xref: MA:0000646
+xref: MESH:D050277 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0012359 ! pedal digitopodium bone
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: BFO:0000050 UBERON:0001466 ! pedal digit
@@ -52779,6 +52825,7 @@ synonym: "hand digit bone" EXACT [MA:0000622]
 synonym: "hand digit bone" NARROW SENSU [NCBITaxon:9606, OBOL:accepted]
 xref: EMAPA:37305 {source="MA:th"}
 xref: MA:0000622
+xref: MESH:D050278 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0012358 ! manual digitopodium bone
 intersection_of: UBERON:0001474 ! bone element
 intersection_of: BFO:0000050 UBERON:0002389 ! manual digit
@@ -53566,6 +53613,7 @@ xref: EHDAA2:0002167
 xref: EHDAA:9538
 xref: EMAPA:18016
 xref: FMA:52800
+xref: MESH:D031363 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C81188
 xref: SCTID:140592008
 xref: UMLS:C0205950 {source="ncithesaurus:Skullcap"}
@@ -53810,6 +53858,7 @@ xref: EHDAA2:0000186
 xref: EHDAA:398
 xref: EHDAA:7327
 xref: EMAPA:16684
+xref: MESH:C000728057 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32123
 xref: TAO:0005004
 xref: UMLS:C0003489 {source="ncithesaurus:Aortic_Arch"}
@@ -53916,6 +53965,7 @@ synonym: "lamina limitans anterior corneae" EXACT OMO:0003011 [FMA:58273, FMA:TA
 synonym: "Reichert's membrane" RELATED OMO:0003002 [http://sourceforge.net/tracker/?func=detail&aid=2956371&group_id=76834&atid=974957]
 xref: FMA:58273
 xref: MA:0001240
+xref: MESH:D050541 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32226
 xref: SCTID:281075003
 xref: TAO:0002155
@@ -54336,6 +54386,7 @@ xref: CALOHA:TS-2218
 xref: EMAPA:32654
 xref: FMA:24925
 xref: MA:0000042
+xref: MESH:D008663 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:370638006
 is_a: UBERON:0005451 {source="FMA"} ! segment of manus
 is_a: UBERON:0009877 ! metapodium region
@@ -55057,6 +55108,7 @@ xref: AAO:0010278
 xref: FMA:67601
 xref: galen:Ridge
 xref: HAO:0000822
+xref: MESH:D011385 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C61549
 xref: TAO:0001834
 xref: VSAO:0000180
@@ -55914,6 +55966,7 @@ synonym: "vestibulomotor system" NARROW []
 xref: BTO:0003381
 xref: EMAPA:37986 {source="MA:th"}
 xref: FMA:7193
+xref: MESH:D000091282 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: NLXANAT:090819
 xref: SCTID:361533001
 xref: Wikipedia:Vestibular_system
@@ -56162,6 +56215,7 @@ synonym: "fossae" RELATED OMO:0003004 [TAO:0001743]
 synonym: "groove" RELATED [TAO:0001743]
 xref: AAO:0010439
 xref: FMA:45791
+xref: MESH:D003863 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: TAO:0001743
 xref: UMLS:C0836913 {source="ncithesaurus:Fossa"}
 xref: VSAO:0005069
@@ -56184,6 +56238,7 @@ xref: EHDAA:438
 xref: EHDAA:768
 xref: EMAPA:16333
 xref: FMA:70300
+xref: MESH:C000728960 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: NCIT:C34114
 xref: SCTID:361525002
 xref: UMLS:C1284055 {source="ncithesaurus:Bulbus_Cordis"}
@@ -58282,6 +58337,7 @@ xref: EHDAA2:0001903
 xref: EHDAA:383
 xref: EMAPA:16181
 xref: FMA:295564
+xref: MESH:C000729050 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: NCIT:C34303
 xref: UMLS:C1519472 {source="ncithesaurus:Splanchnopleure"}
 xref: VHOG:0000558
@@ -58536,6 +58592,7 @@ synonym: "lower gastrointestinal tract" EXACT []
 synonym: "lower GI tract" EXACT []
 xref: FMA:49179
 xref: galen:LowerGastrointestinalTract
+xref: MESH:D041741 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C33010
 xref: SCTID:279973004
 xref: UMLS:C0226875 {source="ncithesaurus:Lower_Gastrointestinal_Tract"}
@@ -58555,6 +58612,7 @@ synonym: "upper gastrointestinal tract" EXACT []
 synonym: "upper GI tract" EXACT []
 xref: FMA:49177
 xref: galen:UpperGastrointestinalTract
+xref: MESH:D041742 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C33837
 xref: SCTID:181244000
 xref: UMLS:C0226874 {source="ncithesaurus:Upper_Gastrointestinal_Tract"}
@@ -58796,7 +58854,6 @@ property_value: UBPROP:0000010 "WP divides this into 4 layers." xsd:string
 id: UBERON:0004923
 name: organ component layer
 def: "A part of a wall of an organ that forms a layer." [http://orcid.org/0000-0002-6601-2165]
-subset: human_reference_atlas
 subset: upper_level
 xref: FMA:82485
 is_a: UBERON:0000064 ! organ part
@@ -61634,6 +61691,7 @@ xref: EHDAA:6524
 xref: EMAPA:36633
 xref: FMA:62088
 xref: MA:0000797
+xref: MESH:D042361 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:31448001
 xref: Wikipedia:Mammary_gland#Other_mammals
 is_a: UBERON:0001911 ! mammary gland
@@ -63348,6 +63406,7 @@ name: transparent eye structure
 def: "A transparent structure that is part of a visual sense organ, the function of which is to direct or focus light onto a photoreceptor array." [http://orcid.org/0000-0002-6601-2165]
 subset: grouping_class
 synonym: "lens" NARROW []
+xref: MESH:D007909 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0000061 ! anatomical structure
 relationship: BFO:0000050 UBERON:0000970 ! eye
 relationship: RO:0000086 PATO:0000964
@@ -68100,6 +68159,7 @@ synonym: "rostral rhombic lip" RELATED [MGI:anna]
 xref: DHBA:10664
 xref: EHDAA2:0000231
 xref: EMAPA:17074
+xref: MESH:C000728147 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: TAO:0001440
 xref: Wikipedia:Rhombic_lips
 xref: XAO:0004135
@@ -71466,6 +71526,7 @@ xref: galen:Adult
 xref: HAO:0000087
 xref: http://neurolex.org/wiki/Category\:Adult_organism
 xref: IDOMAL:0000655 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
+xref: MESH:D000328 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C17600
 xref: TAO:0002046
 xref: UMLS:C0001675 {source="ncithesaurus:Adult"}
@@ -72152,6 +72213,7 @@ xref: AAO:0010035
 xref: BILA:0000029
 xref: CARO:0000029
 xref: HAO:0000029
+xref: MESH:D057850 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: TADS:0000601
 xref: WBbt:0007849
 is_a: UBERON:0000468 ! multicellular organism
@@ -73281,6 +73343,7 @@ id: UBERON:0007499
 name: epithelial sac
 def: "An epithelial tube that is open at one end only." [AEO:JB, UBERONREF:0000001]
 xref: AEO:0000115
+xref: CARO:0010010 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: EHDAA2:0003115
 is_a: UBERON:0003914 {source="AEO"} ! epithelial tube
 is_a: UBERON:0009856 ! sac
@@ -73816,6 +73879,7 @@ synonym: "interphalangeal joints of hand" RELATED [Wikipedia:Interphalangeal_art
 synonym: "IP joint" RELATED [FMA:35285]
 xref: EMAPA:36336
 xref: FMA:35285
+xref: MESH:D005384 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32868
 xref: SCTID:303280009
 xref: UMLS:C0016125 {source="ncithesaurus:Interphalangeal_Joint_of_the_Hand"}
@@ -74649,10 +74713,10 @@ xref: EMAPA:19078
 xref: FMA:17231
 xref: MA:0003208
 xref: SCTID:66036002
-is_a: UBERON:0013636 ! epithelium of intestinal villus
+is_a: UBERON:0001902 ! epithelium of small intestine
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0002114 ! duodenum
-relationship: BFO:0000050 UBERON:0008342 {source="FMA"} ! intestinal villus of duodenum
+relationship: BFO:0000050 UBERON:0002114 ! duodenum
 
 [Term]
 id: UBERON:0008367
@@ -75188,6 +75252,7 @@ xref: EV:0100144
 xref: FMA:25624
 xref: GAID:118
 xref: MA:0003005
+xref: MESH:D008023 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:410744003
 xref: VSAO:0000072
 xref: Wikipedia:Ligament#Articular_ligaments
@@ -76048,7 +76113,7 @@ synonym: "pregnant adult stage" RELATED [BTO:0004733]
 synonym: "pregnant organism" RELATED []
 synonym: "pregnant stage" RELATED [BTO:0004733]
 xref: BTO:0004733
-xref: IDOMAL:0000443 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
+xref: IDOMAL:0000443 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 is_a: UBERON:0007023 ! adult organism
 intersection_of: UBERON:0007023 ! adult organism
 intersection_of: BFO:0000051 UBERON:0000922 ! embryo
@@ -79649,6 +79714,7 @@ synonym: "hemostatic plug" EXACT [Wikipedia:Thrombus]
 synonym: "thrombus" EXACT [BTO:0000102]
 xref: BTO:0000102
 xref: galen:BloodClot
+xref: MESH:D013927 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: Wikipedia:Thrombus
 is_a: UBERON:0000463 ! organism substance
 intersection_of: UBERON:0000463 ! organism substance
@@ -81588,6 +81654,7 @@ synonym: "upper limb and pectoral girdle" RELATED HUMAN_PREFERRED [https://orcid
 synonym: "upper limb and shoulder" RELATED [https://orcid.org/0000-0002-6601-2165]
 xref: EMAPA:37860 {source="MA:th"}
 xref: FMA:7183
+xref: MESH:D034941 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: SCTID:110716002
 xref: VSAO:0000213
 is_a: UBERON:0010707 ! appendage girdle complex
@@ -86328,6 +86395,8 @@ synonym: "civet" NARROW SENSU [NCBITaxon:9673]
 synonym: "hyena butter" RELATED SENSU [Wikipedia:Hyena_butter]
 synonym: "musk" RELATED [NCBITaxon:30533]
 synonym: "odorous sac" RELATED []
+xref: MESH:C008563 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
+xref: MESH:D045949 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: UBERON:0000456 ! secretion of exocrine gland
 intersection_of: RO:0003001 UBERON:0004760 ! gland of anal canal
@@ -87589,6 +87658,7 @@ synonym: "abdominal subcutaneous adipose tissue" EXACT []
 synonym: "subcutaneous abdominal fat" EXACT []
 synonym: "subcutaneous fat of abdominal region" EXACT []
 xref: CALOHA:TS-2406
+xref: MESH:D050507 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0002190 ! subcutaneous adipose tissue
 is_a: UBERON:0007808 ! adipose tissue of abdominal region
 intersection_of: UBERON:0001013 ! adipose tissue
@@ -88881,6 +88951,7 @@ def: "Visceral intrapericardial fat contiguous with the myocardial surface." [DO
 synonym: "epicardial adipose tissue" EXACT []
 synonym: "pericardial adipose tissue" EXACT []
 xref: FMA:9871
+xref: MESH:D000095543 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0003837 ! thoracic segment connective tissue
 is_a: UBERON:0035814 ! pericardial fat
 intersection_of: UBERON:0001013 ! adipose tissue
@@ -89168,6 +89239,7 @@ synonym: "collumn dentis" EXACT OMO:0003011 [ncithesaurus:Collum_Dentis]
 synonym: "dental neck" EXACT [http://www.medilexicon.com/medicaldictionary.php?s=neck+of+tooth]
 synonym: "tooth neck" EXACT [FMA:55627]
 xref: FMA:55627
+xref: MESH:D019237 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: NCIT:C32346
 xref: SCTID:28638008
 is_a: UBERON:0001560 ! neck of organ
@@ -92023,18 +92095,26 @@ relationship: BFO:0000050 UBERON:0000042 ! serous membrane
 relationship: RO:0002220 UBERON:0002553 ! anatomical cavity
 
 [Term]
-id: UBERON:0022355
-name: basal layer of endometrium
-def: "The layer of endometrial epithelium adjacent to the uterine cavity." [Wikipedia:Endometrium#Histology]
+id: UBERON:0022356
+name: functional layer of endometrium
+def: "The layer of the endometrium adjacent to the uterine lumen, comprising the luminal epithelium, the superficial portions of the uterine glands, and the surrounding vascularized stroma, and supplied by the spiral arterioles. It proliferates and differentiates across the ovarian cycle under the influence of oestrogen and progesterone, and is the site of embryo implantation and decidualization. In menstruating species it is shed at menstruation and regenerated from the basal layer in the following cycle." [PMID:25141152, PMID:26552890, PMID:37288662]
 subset: human_reference_atlas
-synonym: "pars basalis of endometrium" EXACT []
-synonym: "stratum basalis of endometrium" EXACT [FMA:86492]
-xref: FMA:86492
-xref: NCIT:C32189
-is_a: UBERON:0004811 ! endometrium epithelium
-intersection_of: UBERON:0004811 ! endometrium epithelium
+synonym: "endometrial functional layer" EXACT []
+synonym: "functionalis layer" EXACT []
+synonym: "outer layer of endometrium" RELATED []
+synonym: "stratum functionale endometrii" EXACT OMO:0003011 []
+synonym: "stratum functionalis of endometrium" EXACT [FMA:86493]
+xref: FMA:86493
+xref: NCIT:C32642
+is_a: UBERON:0004923 ! organ component layer
+is_a: UBERON:0005156 ! reproductive structure
+intersection_of: UBERON:0004923 ! organ component layer
+intersection_of: BFO:0000050 UBERON:0001295 ! endometrium
 intersection_of: RO:0002220 UBERON:0013769 ! uterine lumen
+relationship: BFO:0000050 UBERON:0001295 ! endometrium
 relationship: RO:0002220 UBERON:0013769 ! uterine lumen
+property_value: foaf:depiction "https://upload.wikimedia.org/wikipedia/commons/8/87/Cells_of_the_uterus_in_different_menstrual_cycle_stages.png" xsd:anyURI {terms:license="https://creativecommons.org/licenses/by/4.0/", xref="PMID:42853913", comment="Figure 6 from \"Standardizing Cell Ontology terms for cross-study integration in the female reproductive tract\" (Ong et al (2026) Science Advances 12(41): eaef2358)."}
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/issues/3803" xsd:anyURI
 
 [Term]
 id: UBERON:0022358
@@ -92698,6 +92778,7 @@ synonym: "flatulence" NARROW [FMA:78440]
 synonym: "flatus" NARROW OMO:0003011 [Wikipedia:Flatulence]
 synonym: "intestinal gas" NARROW []
 xref: FMA:78440
+xref: MESH:D005414 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0034945 ! excreted gas
 intersection_of: UBERON:0034945 ! excreted gas
 intersection_of: RO:0003001 UBERON:0001555 ! digestive tract
@@ -92953,6 +93034,7 @@ name: material entity in digestive tract
 def: "Any material entity that is located in the digestive tract. This includes undigested food and liquid as well as unexcreted waste products. It also includes other entities such as ingested stones used to aid digestion. Any microbial cells or cell populations are also included." [https://github.com/EnvironmentOntology/envo/issues/110]
 synonym: "digestive tract contents" EXACT OMO:0003004 []
 synonym: "ingested material entity" RELATED []
+xref: MESH:D005766 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0000061 ! anatomical structure
 intersection_of: UBERON:0000061 ! anatomical structure
 intersection_of: RO:0001025 UBERON:0006909 ! lumen of digestive tract
@@ -93508,6 +93590,7 @@ synonym: "tectothalamic pathway" RELATED [NeuroNames:1424]
 synonym: "tectothalamic tract" RELATED [NeuroNames:1424]
 synonym: "ttp" RELATED OMO:0003000 [MBA:357]
 xref: MBA:357
+xref: MESH:C000628028 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: neuronames:1424
 is_a: UBERON:0011591 ! tract of diencephalon
 intersection_of: UBERON:0007702 ! tract of brain
@@ -94096,6 +94179,7 @@ def: "Fluid that lines the vaginal walls that consists of multiple secretions th
 synonym: "vaginal discharge" RELATED []
 synonym: "vaginal secretion" RELATED []
 xref: BTO:0003084 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
+xref: MESH:D019522 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0006314 ! bodily fluid
 intersection_of: UBERON:0006314 ! bodily fluid
 intersection_of: RO:0001025 UBERON:0000996 ! vagina
@@ -94786,9 +94870,47 @@ property_value: terms:date "2025-11-03T00:00:00Z" xsd:dateTime
 created_by: dragon-ai-agent
 
 [Term]
+id: UBERON:1200342
+name: bone marrow of skull
+def: "A bone marrow that is located within the bones of the skull. In mammals, skull bone marrow is haematopoietically active and communicates directly with the dura mater through osseous skull channels, which permit the exchange of cerebrospinal fluid, central nervous system-derived antigens and immune cells; it acts as a local reservoir of myeloid cells and B cells for the meninges and the central nervous system." [PMID:30150661, PMID:34083447, PMID:35301477, PMID:37996526, PMID:42618784]
+comment: Distinguished from other bone marrow sites (for example sternal, femoral, tibial or vertebral marrow) by its direct osseous connection to the dura mater. Reported to contain lymphoid structures with germinal-centre-like features that respond to central nervous system-derived antigens (PMID:42618784).
+synonym: "cranial bone marrow" RELATED []
+synonym: "skull BM" RELATED OMO:0003000 []
+synonym: "skull bone marrow" EXACT []
+xref: SCTID:712962003
+is_a: UBERON:0002371 ! bone marrow
+intersection_of: UBERON:0002371 ! bone marrow
+intersection_of: BFO:0000050 UBERON:0003129 ! skull
+relationship: BFO:0000050 UBERON:0003129 ! skull
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/pull/3758" xsd:anyURI
+property_value: terms:contributor https://orcid.org/0000-0002-6601-2165
+property_value: terms:date "2026-08-20T04:59:35Z" xsd:dateTime
+property_value: UBPROP:0000012 "SCTID:712962003 ('Structure of bone marrow of cranium') is scoped to the cranium rather than the whole skull, so it excludes mandibular marrow that this class admits; its SNOMED children cover frontal, temporal, sphenoid and nasal-orbit marrow. The FMA has no corresponding grouping class - it descends from 'Bone marrow of flat bone' (FMA:303320) straight to per-bone classes such as FMA:303380 (frontal), FMA:303382 (parietal), FMA:303388 (occipital) and FMA:303454 (temporal) - so no FMA xref is asserted here." xsd:string {external_ontology="FMA"}
+property_value: UBPROP:0000013 "In the neuroimmunology literature 'skull bone marrow' is generally used for calvarial marrow specifically (see 'bone marrow of calvaria'); marrow of the basicranium (UBERON:0002517) is sampled and reported as a separate compartment, as are vertebral, sternal and femoral marrow. Annotate to 'bone marrow of calvaria' where the calvaria is what was sampled." xsd:string
+
+[Term]
+id: UBERON:1200343
+name: bone marrow of calvaria
+def: "A bone marrow of skull that is located within the diploic spaces of the calvaria (skull vault). It is the principal haematopoietic compartment of the mammalian skull and is connected to the dura mater by transcalvarial channels; its immune composition differs between anterior (frontal, parietal) and posterior (interparietal, occipital) territories." [PMID:35301477, PMID:41389063, PMID:42618784]
+comment: In the mouse, lymphoid clusters containing follicular helper-like T cells, B cells and follicular dendritic cells are enriched in the marrow of the occipital and interparietal regions and are sparse in the frontal and parietal regions (PMID:42618784).
+synonym: "calvarial bone marrow" EXACT []
+synonym: "calvarial marrow" EXACT []
+synonym: "skull cap bone marrow" RELATED []
+is_a: UBERON:1200342 ! bone marrow of skull
+intersection_of: UBERON:1200342 ! bone marrow of skull
+intersection_of: BFO:0000050 UBERON:0004339 ! vault of skull
+relationship: BFO:0000050 UBERON:0004339 ! vault of skull
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/pull/3758" xsd:anyURI
+property_value: terms:contributor https://orcid.org/0000-0002-6601-2165
+property_value: terms:date "2026-08-20T04:59:35Z" xsd:dateTime
+property_value: UBPROP:0000012 "Neither the FMA nor SNOMED has a calvarial marrow grouping class. The FMA covers the same territory with per-bone classes: FMA:303380 (frontal), FMA:303382 (parietal), FMA:303388 (occipital) and FMA:303390 (sutural bone); these are the natural xref targets if regional calvarial marrow terms are added." xsd:string {external_ontology="FMA"}
+property_value: UBPROP:0000013 "The differentia uses 'vault of skull' (UBERON:0004339), whose own comment records that the vault may not be precisely equivalent to the calvaria - sources differ on whether the temporal, ethmoid and sphenoid bones are included. That ambiguity is inherited here rather than introduced: this class is intended as the marrow of whatever 'vault of skull' covers, which is the compartment the calvarial bone marrow literature samples." xsd:string
+
+[Term]
 id: UBERON:2000001
 name: Kupffer's vesicle
 def: "Small but distinctive epithelial sac containing fluid, located midventrally posterior to the yolk cell or its extension, and transiently present during most of the segmentation period. Kimmel et al, 1995. Kupffer's vesicle has been compared to the mouse embryonic node. Drummond et al, 2005." [ZFIN:curator]
+xref: MESH:C000728792 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 xref: ZFA:0000001
 is_a: UBERON:0002050 ! embryonic structure
 relationship: BFO:0000050 UBERON:0002533 ! post-anal tail bud
@@ -94924,6 +95046,7 @@ name: future internal carotid artery
 synonym: "PICA" EXACT [TAO:0001053]
 synonym: "primitive internal carotid artery" EXACT [ZFA:0001053]
 xref: EFO:0003612
+xref: MESH:D010842 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 xref: TAO:0001053
 xref: ZFA:0001053
 is_a: UBERON:0004573 ! systemic artery
@@ -96769,6 +96892,7 @@ id: UBERON:8600004
 name: visceral muscle tissue
 def: "A muscle tissue that is associated with soft internal organs (viscera)." [BTO:0002780, CLAO:0001295]
 comment: It is quite common to refer to visceral muscles as smooth muscles, by analogy with vertebrates; however, most visceral muscles in arthropods are actually striated. {xref="https://en.wikipedia.org/wiki/Smooth_muscle", xref="FBbt:00005070", comment="PMID:8720463"}
+subset: added_by_HRA
 synonym: "visceral muscle" EXACT [] {comment="BTO:0002780"}
 is_a: UBERON:0002385 ! muscle tissue
 relationship: RO:0002473 CL:0008007
@@ -96779,6 +96903,7 @@ property_value: terms:date "2023-02-16T10:17:46Z" xsd:dateTime
 id: UBERON:8600006
 name: visceral striated muscle tissue
 def: "A striated muscle tissue that is associated with soft internal organs (viscera)." [https://pressbooks.pub/rbtallitsch/chapter/chapter-6-muscle-tissue/, PMID:8720463]
+subset: added_by_HRA
 synonym: "striated visceral muscle tissue" EXACT []
 is_a: UBERON:0002036 ! striated muscle tissue
 is_a: UBERON:8600004 ! visceral muscle tissue
@@ -96789,6 +96914,7 @@ property_value: terms:date "2023-02-16T10:34:43Z" xsd:dateTime
 id: UBERON:8600012
 name: submucosal gland acinus
 def: "A spherical or tubular structure in a submucosal gland that produces and secretes mucus and other substances into the ducts leading to the surface epithelium." [PMID:17394068, PMID:17707699, PMID:25648514, PMID:30864819]
+subset: added_by_HRA
 subset: human_reference_atlas
 is_a: UBERON:0014717 ! mucous acinus
 intersection_of: UBERON:0009842 ! glandular acinus
@@ -96802,6 +96928,7 @@ id: UBERON:8600017
 name: bronchopulmonary segment
 def: "A discrete anatomical unit of the lung that is composed of a segmental bronchus and the lung tissue supplied by that bronchus. A bronchopulmonary segment exhibits a pyramidal shape, with its apex pointing towards the center of the lung and its base toward the pleural surface." [doi:10.1016/j.mpaic.2008.09.022, FMA:7312, PMID:18271171, PMID:33620799]
 comment: A bronchopulmonary segment is surrounded by connective tissue septa, which are continuous with the pleural surface and prevent air collateralization between segments somewhat. In humans, the right lung has ten bronchopulmonary segments and eight or nine bronchopulmonary segments in the left lung. {xref="doi:10.1016/j.mpaic.2008.09.022", xref="PMID:18271171"}
+subset: added_by_HRA
 subset: human_reference_atlas
 synonym: "lung segment" EXACT [PMID:33620799]
 is_a: UBERON:0000063 ! organ subunit
@@ -96816,7 +96943,9 @@ id: UBERON:8600018
 name: neuroendocrine system
 def: "A regulatory system of the body that integrates the nervous system and the endocrine system. This system is formed by specialized neuroendocrine cells located mainly in the nervous system and neuroendocrine glands. However, they can also be found as either single cells or small clusters of cells dispersed throughout the surface epithelium of different tissues. The neuroendocrine system functions through the release of neurotransmitters and neurohormones, enabling communication between the endocrine and nervous systems to govern vitally important processes that include growth, reproduction, metabolism and energy homeostasis, electrolyte and water balance, and responses to stress." [doi:10.1016/B978-0-12-375097-6.10001-0, PMID:15481802, PMID:17003257, PMID:25905254, Wikipedia:endocrinology]
 comment: In vertebrates, the hypothalamic-pituitary-target organ axis (H-P axis), the autonomic nervous system (ANS) and the diffuse neuroendocrine or APUD system contribute to the neuroendocrine system. {xref="PMID:15481802"}
+subset: added_by_HRA
 synonym: "NES" RELATED OMO:0003000 [PMID:15481802]
+xref: MESH:D009490 {sssom:mapping_justification="https://w3id.org/semapv/vocab/LexicalMatching"}
 is_a: UBERON:0000467 ! anatomical system
 relationship: RO:0002131 UBERON:0000949 ! endocrine system
 relationship: RO:0002131 UBERON:0001016 ! nervous system
@@ -96827,6 +96956,7 @@ property_value: terms:date "2023-08-29T10:49:45Z" xsd:dateTime
 id: UBERON:8600021
 name: chorionic plate blood vessel
 def: "A blood vessel that is part of the chorionic plate." [https://www.ncbi.nlm.nih.gov/books/NBK53254/]
+subset: added_by_HRA
 subset: human_reference_atlas
 is_a: UBERON:0022358 ! placenta blood vessel
 intersection_of: UBERON:0001981 ! blood vessel
@@ -96839,6 +96969,7 @@ property_value: terms:date "2023-09-14T09:09:36Z" xsd:dateTime
 id: UBERON:8600023
 name: placental villous stroma
 def: "A stroma that is part of a chorionic villus (placental villus). A placental villous stroma supports the fetal capillaries and villous trophoblast." [PMID:31512233]
+subset: added_by_HRA
 synonym: "chorionic villous stroma" EXACT [PMID:12624135]
 synonym: "CVS" RELATED OMO:0003000 [PMID:12624135]
 is_a: UBERON:0003891 ! stroma
@@ -96853,6 +96984,7 @@ property_value: terms:date "2023-07-04T10:46:17Z" xsd:dateTime
 id: UBERON:8600024
 name: pulmonary venule
 def: "A venule that is part of a lung and drains oxygenated blood from pulmonary capillaries. A pulmonary venule merges into a pulmonary vein branch that runs in the pulmonary interlobular septa." [PMID:22283705, PMID:30247823]
+subset: added_by_HRA
 is_a: UBERON:0003494 ! respiratory system venule
 is_a: UBERON:0003512 ! lung blood vessel
 intersection_of: UBERON:0001979 ! venule
@@ -96867,8 +96999,10 @@ property_value: terms:date "2023-10-24T11:26:27Z" xsd:dateTime
 id: UBERON:8600038
 name: placental disc
 def: "A disc-shaped structure that is part of the placenta. A placental disc supports fetal development through the exchange of nutrients between maternal and fetal bloodstreams. The placental disc is structured to keep the blood streams separate, while maximizing surface area for the transport of nutrients between them, to maintain an immunological barrier." [PMID:35496035]
+subset: added_by_HRA
 subset: human_reference_atlas
 synonym: "placental disk" EXACT [PMID:30133439]
+xref: BTO:0003678 {sssom:mapping_justification="https://w3id.org/semapv/vocab/ManualMappingCuration", pav:authoredBy="https://orcid.org/0000-0003-4423-4370"}
 is_a: UBERON:0000061 ! anatomical structure
 relationship: BFO:0000050 UBERON:0001987 ! placenta
 property_value: terms:contributor https://orcid.org/0000-0001-6677-8489
@@ -96878,6 +97012,7 @@ property_value: terms:date "2024-01-16T17:50:20Z" xsd:dateTime
 id: UBERON:8600039
 name: chorionic villous mesenchyme
 def: "A mesenchyme that is part of a chorionic villus." [doi:10.1007/978-3-030-84725-8]
+subset: added_by_HRA
 subset: human_reference_atlas
 is_a: UBERON:0002050 ! embryonic structure
 is_a: UBERON:0003265 ! chorionic mesenchyme
@@ -96892,6 +97027,7 @@ property_value: terms:date "2024-01-16T18:13:12Z" xsd:dateTime
 id: UBERON:8600042
 name: endometrial lymphatic vessel
 def: "A lymphatic vessel that is part of an endometrium." [PMID:23054374]
+subset: added_by_HRA
 subset: human_reference_atlas
 is_a: UBERON:0001473 ! lymphatic vessel
 is_a: UBERON:0005156 ! reproductive structure
@@ -96905,6 +97041,7 @@ property_value: terms:date "2024-01-16T18:18:36Z" xsd:dateTime
 id: UBERON:8600120
 name: atrial intrinsic cardiac ganglion
 def: "A ganglion that is part of the atrial region of the heart. The activation of efferent neurons in this ganglion results in the modulation of heart rate, atrio-ventricular node conduction, and inotropism of atria and ventricles." [ILX:0793555, PMID:23559611, PMID:33255284]
+subset: added_by_HRA
 synonym: "atrial ganglionated plexus" RELATED [ILX:0793555]
 xref: ILX:0793555
 is_a: UBERON:0007134 ! trunk ganglion
@@ -96919,6 +97056,7 @@ property_value: terms:date "2025-02-13T17:23:00Z" xsd:dateTime
 id: UBERON:8600123
 name: lower airway ganglion
 def: "A parasympathetic ganglion that is located within the airway walls of the lower respiratory tract. This ganglion is responsible for controlling the constriction of the airway by stimulating smooth muscle contraction in the lower respiratory tract to regulate airflow." [doi:10.1016/B978-008045046-9.00635-5, ILX:0793573, PMID:35965034]
+subset: added_by_HRA
 synonym: "lower airway parasympathetic ganglion" EXACT [ILX:0793573]
 xref: ILX:0793573
 is_a: UBERON:0001808 ! parasympathetic ganglion
@@ -96932,6 +97070,7 @@ property_value: terms:date "2025-02-24T14:15:29Z" xsd:dateTime
 id: UBERON:8600124
 name: fallopian tube epithelium
 def: "A simple columnar epithelium that is part of the fallopian tube." [PMID:7714136, Wikipedia:Fallopian_tube]
+subset: added_by_HRA
 is_a: UBERON:0004804 ! oviduct epithelium
 is_a: UBERON:0012274 ! columnar epithelium
 intersection_of: UBERON:0000483 ! epithelium
@@ -97073,4 +97212,34 @@ intersection_of: BFO:0000050 UBERON:8410050 ! anorectum
 relationship: BFO:0000050 UBERON:8410050 ! anorectum
 property_value: terms:contributor https://orcid.org/0009-0000-8480-9277
 property_value: terms:date "2024-11-18T15:45:29Z" xsd:dateTime
+
+[Term]
+id: UBERON:8930105
+name: kidney lymphatic vessel
+def: "A lymphatic vessel that is part of a kidney." [PMID:30923503]
+subset: added_by_HRA
+xref: CCF:ASCTB-TEMP_kidney-lymphatic-vessel
+is_a: UBERON:0001473 ! lymphatic vessel
+intersection_of: UBERON:0001473 ! lymphatic vessel
+intersection_of: BFO:0000050 UBERON:0002113 ! kidney
+relationship: BFO:0000050 UBERON:0002113 ! kidney
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/pull/3717" xsd:anyURI
+property_value: RO:0002175 NCBITaxon:9606
+property_value: terms:contributor https://orcid.org/0000-0002-2999-0103
+property_value: terms:date "2026-05-26T00:00:00Z" xsd:dateTime
+
+[Term]
+id: UBERON:8930191
+name: spleen connective tissue
+def: "A portion of connective tissue that is part of a spleen." [PMID:20126587, PMID:3310649]
+subset: added_by_HRA
+is_a: UBERON:0003567 ! abdomen connective tissue
+intersection_of: UBERON:0002384 ! connective tissue
+intersection_of: BFO:0000050 UBERON:0002106 ! spleen
+relationship: BFO:0000050 UBERON:0002106 ! spleen
+property_value: IAO:0000233 "https://github.com/obophenotype/uberon/pull/3722" xsd:anyURI
+property_value: RO:0002175 NCBITaxon:9606
+property_value: terms:contributor https://orcid.org/0000-0002-2999-0103
+property_value: terms:date "2026-05-26T00:00:00Z" xsd:dateTime
+created_by: dragon-ai-agent
 

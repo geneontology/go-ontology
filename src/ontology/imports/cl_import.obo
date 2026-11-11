@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2026-06-29/imports/cl_import.owl
+data-version: go/releases/2026-11-10/imports/cl_import.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: foaf http://xmlns.com/foaf/0.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
