@@ -35,11 +35,13 @@ jobs:
   build:
     if: github.repository == 'geneontology/go-ontology'
     runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    defaults:
+      run:
+        shell: bash
     outputs:
       release-date: ${{ steps.plan.outputs.release-date }}
       publish: ${{ steps.plan.outputs.publish }}
-    env:
-      ODK_IMAGE: obolibrary/odkfull:${{ vars.ODK_VERSION }}
 
     steps:
       - name: Decide release date and whether to publish
@@ -64,73 +66,54 @@ jobs:
           echo "publish=$publish" >> "$GITHUB_OUTPUT"
           echo "Release date **$release_date**, publish: **$publish**" >> "$GITHUB_STEP_SUMMARY"
 
-      # The build runs in the ODK image via `docker run` rather than as a
-      # container job, so that host disk can be freed first.
-      - name: Free disk space
-        run: |
-          df -h /
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL /usr/share/swift
-          sudo docker image prune --all --force
-          df -h / /mnt || true
-
       - uses: actions/checkout@v4
 
       - name: Cache Scala CLI dependencies
-        uses: actions/cache@v4
+        uses: coursier/cache-action@v7
         with:
-          path: ~/.cache/coursier
-          key: release-coursier-${{ hashFiles('src/util/*.sc') }}
-          restore-keys: release-coursier-
-
-      - name: Pull ODK image
-        run: docker pull "$ODK_IMAGE"
+          path: /tools/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          extraKey: ${{ github.workflow }}
+          ignoreJob: true
 
       # Samples memory, free disk and the largest process every 30 s, so the
       # peak of each can be matched to the recipe that caused it.
       - name: Start resource monitor
         run: |
+          mkdir -p target
           monitor() {
             while true; do
-              printf '%s\t%s\t%s\t%s\t%s\t%s\n' \
+              printf '%s\t%s\t%s\t%s\t%s\n' \
                 "$(date -u +%T)" \
                 "$(free -m | awk '/^Mem:/ {print $3}')" \
                 "$(free -m | awk '/^Swap:/ {print $3}')" \
                 "$(df -BG --output=avail / | tail -1 | tr -dc '0-9')" \
-                "$( (df -BG --output=avail /mnt 2>/dev/null || echo x) | tail -1 | tr -dc '0-9')" \
                 "$(ps -eo rss=,args= --sort=-rss | head -1 | cut -c1-400)"
               sleep 30
             done
           }
-          printf 'time\tmem_used_mb\tswap_used_mb\troot_avail_gb\tmnt_avail_gb\tlargest_process_rss_kb_and_args\n' > "$RUNNER_TEMP/resources.tsv"
-          monitor >> "$RUNNER_TEMP/resources.tsv" 2>&1 &
-          echo $! > "$RUNNER_TEMP/monitor.pid"
+          printf 'time\tmem_used_mb\tswap_used_mb\troot_avail_gb\tlargest_process_rss_kb_and_args\n' > target/resources.tsv
+          monitor >> target/resources.tsv 2>&1 &
+          echo $! > target/monitor.pid
 
       - name: Build release products
         env:
           RELEASE_DATE: ${{ steps.plan.outputs.release-date }}
-        run: |
-          mkdir -p target "$HOME/.cache/coursier"
-          docker run --rm \
-            -v "$GITHUB_WORKSPACE:/work" \
-            -v "$HOME/.cache/coursier:/root/.cache/coursier" -e COURSIER_CACHE=/root/.cache/coursier \
-            -w /work/src/ontology \
-            "$ODK_IMAGE" \
-            make RELEASEDATE="$RELEASE_DATE" github-release
+        run: cd src/ontology && make RELEASEDATE="$RELEASE_DATE" github-release
 
       - name: Summarize resource use
         if: always()
         run: |
-          kill "$(cat "$RUNNER_TEMP/monitor.pid")" 2>/dev/null || true
-          log="$RUNNER_TEMP/resources.tsv"
+          kill "$(cat target/monitor.pid)" 2>/dev/null || true
           {
             echo '### Resource use (30 s samples)'
             echo
             echo '| | time (UTC) | value | largest process |'
             echo '|---|---|---|---|'
-            tail -n +2 "$log" | sort -t$'\t' -k2,2n | tail -1 \
-              | awk -F'\t' '{printf "| peak memory used | %s | %s MB | `%s` |\n", $1, $2, substr($6, 1, 160)}'
-            tail -n +2 "$log" | sort -t$'\t' -k4,4n | head -1 \
-              | awk -F'\t' '{printf "| least free disk on / | %s | %s GB | `%s` |\n", $1, $4, substr($6, 1, 160)}'
+            tail -n +2 target/resources.tsv | sort -t$'\t' -k2,2n | tail -1 \
+              | awk -F'\t' '{printf "| peak memory used | %s | %s MB | `%s` |\n", $1, $2, substr($5, 1, 160)}'
+            tail -n +2 target/resources.tsv | sort -t$'\t' -k4,4n | head -1 \
+              | awk -F'\t' '{printf "| least free disk | %s | %s GB | `%s` |\n", $1, $4, substr($5, 1, 160)}'
             echo
             if [ -d target/github-release ]; then
               echo '### Release files'
@@ -154,7 +137,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: resources
-          path: ${{ runner.temp }}/resources.tsv
+          path: target/resources.tsv
           retention-days: 30
 
   publish:
