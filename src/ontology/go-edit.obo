@@ -622888,7 +622888,6 @@ synonym: "integrin inhibitory activity" RELATED []
 synonym: "integrin ligand activity" BROAD []
 is_a: GO:0048019 ! receptor antagonist activity
 relationship: has_part GO:0005178 ! integrin binding
-relationship: part_of GO:2001045 ! negative regulation of integrin-mediated signaling pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32913" xsd:anyURI
 created_by: ai4c-agent
 creation_date: 2026-11-12T09:35:33Z
