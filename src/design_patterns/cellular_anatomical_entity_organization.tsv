@@ -90,6 +90,7 @@ http://purl.obolibrary.org/obo/GO_0000226	microtubule cytoskeleton organization	
 http://purl.obolibrary.org/obo/GO_0034994	microtubule organizing center attachment site organization	http://purl.obolibrary.org/obo/GO_0034992	microtubule organizing center attachment site
 http://purl.obolibrary.org/obo/GO_0031023	microtubule organizing center organization	http://purl.obolibrary.org/obo/GO_0005815	microtubule organizing center
 http://purl.obolibrary.org/obo/GO_0032528	microvillus organization	http://purl.obolibrary.org/obo/GO_0005902	microvillus
+http://purl.obolibrary.org/obo/GO_7770162	mitochondrial intermembrane space organization	http://purl.obolibrary.org/obo/GO_0005758	mitochondrial intermembrane space
 http://purl.obolibrary.org/obo/GO_0007005	mitochondrion organization	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
 http://purl.obolibrary.org/obo/GO_0031038	myosin II filament organization	http://purl.obolibrary.org/obo/GO_0097513	myosin II filament
 http://purl.obolibrary.org/obo/GO_0031033	myosin filament organization	http://purl.obolibrary.org/obo/GO_0032982	myosin filament
