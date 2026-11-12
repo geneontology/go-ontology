@@ -91181,8 +91181,10 @@ synonym: "LPS biosynthetic process" EXACT []
 xref: KEGG_PATHWAY:map00540
 is_a: GO:0000271 ! polysaccharide biosynthetic process
 is_a: onlyin:2
+is_a: neverin:91061 {source="PMID:27580370", source="PMID:33077930"}
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:16412 ! lipopolysaccharide
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32938" xsd:anyURI
 
 [Term]
 id: GO:0009104
