@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-11/extensions/go-plus.ofn`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-12/extensions/go-plus.ofn`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-11" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-12" 
 
 
 ### 'de novo' NAD+ biosynthetic process `http://purl.obolibrary.org/obo/GO_0034628`
@@ -29252,6 +29252,44 @@
 - [L-canavanine zwitterion](http://purl.obolibrary.org/obo/CHEBI_405237) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### L-carnitine:O-acyl-L-carnitine antiporter activity `http://purl.obolibrary.org/obo/GO_0005476`
+#### Removed
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: carnitine (mitochondrial) + O-acyl-L-carnitine (cytoplasm) = carnitine (cytoplasm) + O-acyl-L-carnitine (mitochondrial)." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9032458" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [label](http://www.w3.org/2000/01/rdf-schema#label) "carnitine:O-acyl-L-carnitine antiporter activity" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) EquivalentTo [antiporter activity](http://purl.obolibrary.org/obo/GO_0015297) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [carnitine](http://purl.obolibrary.org/obo/CHEBI_17126)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acyl-L-carnitine](http://purl.obolibrary.org/obo/CHEBI_75659)) 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) SubClassOf [carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015226) 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acyl-L-carnitine](http://purl.obolibrary.org/obo/CHEBI_75659) 
+
+#### Added
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49924" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "(R)-carnitine:O-acyl-(R)-carnitine antiporter activity" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "carnitine:O-acyl-L-carnitine antiporter activity" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [49924](http://rdf.rhea-db.org/49924) 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: O-acyl-L-carnitine(in) + L-carnitine(out) = O-acyl-L-carnitine(out) + L-carnitine(in)." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49924" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9731180" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9032458" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [label](http://www.w3.org/2000/01/rdf-schema#label) "L-carnitine:O-acyl-L-carnitine antiporter activity" 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) EquivalentTo [antiporter activity](http://purl.obolibrary.org/obo/GO_0015297) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [(R)-carnitine](http://purl.obolibrary.org/obo/CHEBI_16347)) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acyl-L-carnitine](http://purl.obolibrary.org/obo/CHEBI_75659)) 
+
+- [L-carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) SubClassOf [(R)-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_1901235) 
+
+
 ### L-citramalic acid `http://purl.obolibrary.org/obo/CHEBI_29003`
 
 #### Added
@@ -35406,6 +35444,26 @@
 
 #### Added
 - [O-acyl carbohydrate](http://purl.obolibrary.org/obo/CHEBI_52782) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### O-acyl-L-carnitine transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015227`
+#### Removed
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of O-acyl-L-carnitine from one side of a membrane to the other. O-acyl-L-carnitine is the condensation product of a carboxylic acid and carnitine and is the transport form for a fatty acid crossing the mitochondrial membrane." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) EquivalentTo [transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022857) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acylcarnitine](http://purl.obolibrary.org/obo/CHEBI_17387)) 
+
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acylcarnitine](http://purl.obolibrary.org/obo/CHEBI_17387) 
+
+#### Added
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of O-acyl-L-carnitine from one side of a membrane to the other." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) EquivalentTo [transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0022857) and ([has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acyl-L-carnitine](http://purl.obolibrary.org/obo/CHEBI_75659)) 
+
+- [O-acyl-L-carnitine transmembrane transporter activity](http://purl.obolibrary.org/obo/GO_0015227) SubClassOf [has primary input](http://purl.obolibrary.org/obo/RO_0004009) some [O-acyl-L-carnitine](http://purl.obolibrary.org/obo/CHEBI_75659) 
 
 
 ### O-acylglucosamine `http://purl.obolibrary.org/obo/CHEBI_37876`
@@ -43070,6 +43128,42 @@
 - [apatite](http://purl.obolibrary.org/obo/CHEBI_52254) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### apicoplast assembly `http://purl.obolibrary.org/obo/GO_7770159`
+
+#### Added
+- Class: [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32914"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "pg" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-10T14:17:10Z" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "apicoplast formation" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770159" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The aggregation, arrangement and bonding together of a set of components to form an apicoplast, the plastid organelle found in apicomplexans." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33024034" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "apicoplast biogenesis" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33024034" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) [label](http://www.w3.org/2000/01/rdf-schema#label) "apicoplast assembly" 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) EquivalentTo [cellular component assembly](http://purl.obolibrary.org/obo/GO_0022607) and ([results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [apicoplast](http://purl.obolibrary.org/obo/GO_0020011)) 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) SubClassOf [plastid organization](http://purl.obolibrary.org/obo/GO_0009657) 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) SubClassOf [organelle assembly](http://purl.obolibrary.org/obo/GO_0070925) 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Apicomplexa](http://purl.obolibrary.org/obo/NCBITaxon_5794) 
+
+- [apicoplast assembly](http://purl.obolibrary.org/obo/GO_7770159) SubClassOf [results in assembly of](http://purl.obolibrary.org/obo/RO_0002588) some [apicoplast](http://purl.obolibrary.org/obo/GO_0020011) 
+
+
 ### apigenin `http://purl.obolibrary.org/obo/CHEBI_18388`
 
 #### Added
@@ -47322,6 +47416,12 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### caveolin-mediated endocytosis `http://purl.obolibrary.org/obo/GO_0072584`
+#### Removed
+- [caveolin-mediated endocytosis](http://purl.obolibrary.org/obo/GO_0072584) SubClassOf [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) 
+
+
+
 ### cedrane sesquiterpenoid `http://purl.obolibrary.org/obo/CHEBI_36745`
 
 #### Added
@@ -49092,6 +49192,12 @@
 #### Added
 - [clathrin coat assembly involved in endocytosis](http://purl.obolibrary.org/obo/GO_0099049) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process that results in the assembly of clathrin triskelia into a clathrin cage during endocytosis. Clathrin is recruited to the plasma membrane via interaction with scaffolding proteins that bridge between clathrin and cell surface receptors. Clathrin coat formation is concomitant with coated pit formation leading to endocytic vesicle formation." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21779028" 
+
+
+### clathrin-dependent synaptic vesicle endocytosis `http://purl.obolibrary.org/obo/GO_0150007`
+#### Removed
+- [clathrin-dependent synaptic vesicle endocytosis](http://purl.obolibrary.org/obo/GO_0150007) SubClassOf [vesicle-mediated transport in synapse](http://purl.obolibrary.org/obo/GO_0099003) 
+
 
 
 ### clavaldehyde `http://purl.obolibrary.org/obo/CHEBI_27819`
@@ -54925,6 +55031,46 @@
 
 #### Added
 - [endocrine disruptor](http://purl.obolibrary.org/obo/CHEBI_138015) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### endocytic hemoglobin import into cell `http://purl.obolibrary.org/obo/GO_0020028`
+#### Removed
+- [endocytic hemoglobin import into cell](http://purl.obolibrary.org/obo/GO_0020028) SubClassOf [protein localization to organelle](http://purl.obolibrary.org/obo/GO_0033365) 
+
+- [endocytic hemoglobin import into cell](http://purl.obolibrary.org/obo/GO_0020028) SubClassOf [establishment of protein localization to organelle](http://purl.obolibrary.org/obo/GO_0072594) 
+
+
+
+### endocytosis `http://purl.obolibrary.org/obo/GO_0006897`
+#### Removed
+- [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular process in which cells take up external materials or membrane constituents by the invagination of a part of the plasma membrane to form a new membrane-bounded vesicle." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Endocytosis" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+
+- [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) SubClassOf [has part](http://purl.obolibrary.org/obo/BFO_0000051) some [vesicle budding from membrane](http://purl.obolibrary.org/obo/GO_0006900) 
+
+- [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) SubClassOf [has target end location](http://purl.obolibrary.org/obo/RO_0002339) some [cytoplasmic vesicle](http://purl.obolibrary.org/obo/GO_0031410) 
+
+#### Added
+- [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32256"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which extracellular material, plasma membrane components, or membrane-associated molecules are internalized by deformation and scission of the plasma membrane to form intracellular membrane-bounded carriers, which may be vesicular or tubular, and which deliver their cargo to intracellular compartments." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Wikipedia:Endocytosis" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0198506732" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0716731363" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+- [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) SubClassOf [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) 
 
 
 ### endometrial lymphatic vessel `http://purl.obolibrary.org/obo/UBERON_8600042`
@@ -68723,6 +68869,39 @@
 
 #### Added
 - [mitochondrial intermembrane space chaperone complex](http://purl.obolibrary.org/obo/GO_0042719) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32408"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### mitochondrial intermembrane space organization `http://purl.obolibrary.org/obo/GO_7770162`
+
+#### Added
+- Class: [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32924"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [created by](http://www.geneontology.org/formats/oboInOwl#created_by) "ai4c-agent" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [creation date](http://www.geneontology.org/formats/oboInOwl#creation_date) "2026-11-11T17:16:24Z" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mitochondrial intermembrane space organisation" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "biological_process" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [id](http://www.geneontology.org/formats/oboInOwl#id) "GO:7770162" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that is carried out at the cellular level which results in the assembly, arrangement of constituent parts, or disassembly of the mitochondrial intermembrane space, the region between the inner and outer mitochondrial membranes. Includes the establishment and maintenance of the spacing between the mitochondrial outer membrane and the inner boundary membrane, which sets the volume of the intermembrane space." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42873847" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Consider also annotating to the molecular function term 'membrane-membrane adaptor activity ; GO:0140177' for proteins that physically tether the mitochondrial outer and inner membranes." 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) [label](http://www.w3.org/2000/01/rdf-schema#label) "mitochondrial intermembrane space organization" 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) EquivalentTo [cellular component organization](http://purl.obolibrary.org/obo/GO_0016043) and ([results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0005758)) 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) SubClassOf [cellular component organization](http://purl.obolibrary.org/obo/GO_0016043) 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mitochondrion organization](http://purl.obolibrary.org/obo/GO_0007005) 
+
+- [mitochondrial intermembrane space organization](http://purl.obolibrary.org/obo/GO_7770162) SubClassOf [results in organization of](http://purl.obolibrary.org/obo/RO_0002592) some [mitochondrial intermembrane space](http://purl.obolibrary.org/obo/GO_0005758) 
 
 
 ### mitochondrial large ribosomal subunit assembly `http://purl.obolibrary.org/obo/GO_1902775`
@@ -87894,6 +88073,30 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19603039" 
 
 
+### postsynaptic endocytosis `http://purl.obolibrary.org/obo/GO_0140239`
+#### Removed
+- [postsynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140239) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which the postsynapse take up external materials or membrane constituents by the invagination of a small region of the plasma membrane to form a new membrane-bounded vesicle." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12839988" 
+
+- [postsynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140239) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [postsynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140239) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32256"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [postsynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140239) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An endocytosis process that occurs in the postsynapse, in which external materials or postsynaptic plasma membrane constituents are internalized into membrane-bounded carriers." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12839988" 
+
+- [postsynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140239) SubClassOf [vesicle-mediated transport in synapse](http://purl.obolibrary.org/obo/GO_0099003) 
+
+- [postsynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140239) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### postsynaptic neurotransmitter receptor internalization `http://purl.obolibrary.org/obo/GO_0098884`
+#### Removed
+- [postsynaptic neurotransmitter receptor internalization](http://purl.obolibrary.org/obo/GO_0098884) SubClassOf [vesicle-mediated transport in synapse](http://purl.obolibrary.org/obo/GO_0099003) 
+
+
+
 ### potassium atom `http://purl.obolibrary.org/obo/CHEBI_26216`
 
 #### Added
@@ -88270,6 +88473,24 @@
 
 #### Added
 - [presqualene monophosphate](http://purl.obolibrary.org/obo/CHEBI_134117) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### presynaptic endocytosis `http://purl.obolibrary.org/obo/GO_0140238`
+#### Removed
+- [presynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140238) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vesicle-mediated transport process in which the presynapse take up external materials or membrane constituents by the invagination of a small region of the plasma membrane to form a new membrane-bounded vesicle." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24719103" 
+
+- [presynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140238) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [cellular organisms](http://purl.obolibrary.org/obo/NCBITaxon_131567) 
+
+#### Added
+- [presynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140238) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32256"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [presynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140238) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An endocytosis process that occurs in the presynapse, in which external materials or presynaptic plasma membrane constituents are internalized into membrane-bounded carriers." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24719103" 
+
+- [presynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140238) SubClassOf [vesicle-mediated transport in synapse](http://purl.obolibrary.org/obo/GO_0099003) 
+
+- [presynaptic endocytosis](http://purl.obolibrary.org/obo/GO_0140238) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
 ### pretetramide `http://purl.obolibrary.org/obo/CHEBI_25333`
@@ -91206,6 +91427,12 @@
 - [receptor modulator](http://purl.obolibrary.org/obo/CHEBI_90710) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### receptor-mediated endocytosis `http://purl.obolibrary.org/obo/GO_0006898`
+#### Removed
+- [receptor-mediated endocytosis](http://purl.obolibrary.org/obo/GO_0006898) SubClassOf [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) 
+
+
+
 ### red chlorophyll catabolite `http://purl.obolibrary.org/obo/CHEBI_47899`
 
 #### Added
@@ -91405,6 +91632,12 @@
 - [regulation of axon extension](http://purl.obolibrary.org/obo/GO_0030516) SubClassOf [regulation of cell growth](http://purl.obolibrary.org/obo/GO_0001558) 
 
 
+### regulation of caveolin-mediated endocytosis `http://purl.obolibrary.org/obo/GO_2001286`
+#### Removed
+- [regulation of caveolin-mediated endocytosis](http://purl.obolibrary.org/obo/GO_2001286) SubClassOf [regulation of vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0060627) 
+
+
+
 ### regulation of cell surface receptor signaling pathway via JAK-STAT `http://purl.obolibrary.org/obo/GO_0046425`
 #### Removed
 - [regulation of cell surface receptor signaling pathway via JAK-STAT](http://purl.obolibrary.org/obo/GO_0046425) [label](http://www.w3.org/2000/01/rdf-schema#label) "regulation of receptor signaling pathway via JAK-STAT" 
@@ -91457,6 +91690,14 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+
+### regulation of endocytosis `http://purl.obolibrary.org/obo/GO_0030100`
+#### Removed
+- [regulation of endocytosis](http://purl.obolibrary.org/obo/GO_0030100) SubClassOf [regulation of transport](http://purl.obolibrary.org/obo/GO_0051049) 
+
+#### Added
+- [regulation of endocytosis](http://purl.obolibrary.org/obo/GO_0030100) SubClassOf [regulation of vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0060627) 
 
 
 ### regulation of endosome to plasma membrane transport `http://purl.obolibrary.org/obo/GO_2001135`
@@ -91660,6 +91901,12 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
+
+
+### regulation of receptor-mediated endocytosis `http://purl.obolibrary.org/obo/GO_0048259`
+#### Removed
+- [regulation of receptor-mediated endocytosis](http://purl.obolibrary.org/obo/GO_0048259) SubClassOf [regulation of vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0060627) 
+
 
 
 ### regulation of ribosomal protein gene transcription by RNA polymerase II `http://purl.obolibrary.org/obo/GO_0060962`
@@ -94443,6 +94690,26 @@
 
 #### Added
 - [sperm end piece](http://purl.obolibrary.org/obo/GO_0097229) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
+
+
+### sperm entry `http://purl.obolibrary.org/obo/GO_0035037`
+#### Removed
+- [sperm entry](http://purl.obolibrary.org/obo/GO_0035037) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An endocytosis process that results in penetration of the egg shell through the micropyle (a specialized anterior opening in the vitelline envelope) and entry of the entire sperm, including the surrounding plasma membrane and the sperm tail, into the egg cytoplasm. This step in fertilization is seen in Drosophila, where a plasma membrane fusion event between the sperm and the egg does not occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9630751" 
+
+- [sperm entry](http://purl.obolibrary.org/obo/GO_0035037) SubClassOf [endocytosis](http://purl.obolibrary.org/obo/GO_0006897) 
+
+#### Added
+- [sperm entry](http://purl.obolibrary.org/obo/GO_0035037) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32256"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [sperm entry](http://purl.obolibrary.org/obo/GO_0035037) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that results in penetration of the egg shell through the micropyle (a specialized anterior opening in the vitelline envelope) and entry of the entire sperm, including the surrounding plasma membrane and the sperm tail, into the egg cytoplasm. This step in fertilization is seen in Drosophila, where a plasma membrane fusion event between the sperm and the egg does not occur." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:bf" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9630751" 
+
+- [sperm entry](http://purl.obolibrary.org/obo/GO_0035037) SubClassOf [cellular process involved in reproduction in multicellular organism](http://purl.obolibrary.org/obo/GO_0022412) 
 
 
 ### sperm fibrous sheath `http://purl.obolibrary.org/obo/GO_0035686`
@@ -100547,6 +100814,14 @@
 - [ubiquitin protein ligase activity via oxyester bond](http://purl.obolibrary.org/obo/GO_0140551) SubClassOf [ubiquitin-protein transferase activity](http://purl.obolibrary.org/obo/GO_0004842) 
 
 
+### ubiquitin-dependent endocytosis `http://purl.obolibrary.org/obo/GO_0070086`
+#### Removed
+- [ubiquitin-dependent endocytosis](http://purl.obolibrary.org/obo/GO_0070086) SubClassOf [protein localization to organelle](http://purl.obolibrary.org/obo/GO_0033365) 
+
+- [ubiquitin-dependent endocytosis](http://purl.obolibrary.org/obo/GO_0070086) SubClassOf [establishment of protein localization to organelle](http://purl.obolibrary.org/obo/GO_0072594) 
+
+
+
 ### ubiquitin-dependent glycoprotein ERAD pathway `http://purl.obolibrary.org/obo/GO_0097466`
 #### Removed
 - [ubiquitin-dependent glycoprotein ERAD pathway](http://purl.obolibrary.org/obo/GO_0097466) SubClassOf [response to glycoprotein](http://purl.obolibrary.org/obo/GO_1904587) 
@@ -101691,6 +101966,30 @@
 
 #### Added
 - [very-low-density lipoprotein triglyceride](http://purl.obolibrary.org/obo/CHEBI_47776) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### vesicle-mediated transport `http://purl.obolibrary.org/obo/GO_0016192`
+#### Removed
+- [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular transport process in which transported substances are moved in membrane-bounded vesicles; transported substances are enclosed in the vesicle lumen or located in the vesicle membrane. The process begins with a step that directs a substance to the forming vesicle, and includes vesicle budding and coating. Vesicles are then targeted to, and fuse with, an acceptor membrane." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:08789310662000" 
+
+#### Added
+- [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32256"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+- [vesicle-mediated transport](http://purl.obolibrary.org/obo/GO_0016192) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cellular transport process in which transported substances are moved in membrane-bounded carriers, either vesicles or tubulo-vesicular structures; transported substances are enclosed in the carrier lumen or located in the carrier membrane. The process begins when a carrier forms from a donor membrane, by budding or by deformation and scission, and ends when the carrier fuses with, or matures into, a target compartment." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:mah" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:ai" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:08789310662000" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36129576" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:vw" 
 
 
 ### vesicular glutamate transport inhibitor `http://purl.obolibrary.org/obo/CHEBI_72483`
