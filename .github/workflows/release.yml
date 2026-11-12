@@ -19,10 +19,6 @@ on:
         description: Publish this build as a GitHub release (master only)
         type: boolean
         default: false
-  # PILOT: runs the build before this workflow exists on master, where
-  # workflow_dispatch requires it. Remove before merging.
-  push:
-    branches: [github-release-pilot]
 
 permissions:
   contents: read
