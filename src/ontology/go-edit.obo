@@ -622863,6 +622863,20 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 created_by: ai4c-agent
 creation_date: 2026-11-11T17:16:24Z
 
+[Term]
+id: GO:7770163
+name: proteasome recovery response
+namespace: biological_process
+def: "The series of molecular signals generated in response to insufficient proteasome activity, for example upon pharmacological proteasome inhibition, resulting in increased expression of proteasome subunit genes and restoration of proteasome capacity. In metazoans, the core event is the activation of the endoplasmic reticulum (ER)-associated transcription factor NFE2L1/NRF1 (SKN-1A in C. elegans): normally degraded by ER-associated degradation, upon proteasome insufficiency it is retrotranslocated from the ER, deglycosylated by NGLY1, which converts N-glycosylated asparagines to aspartate, and cleaved by the aspartic protease DDI2, after which it enters the nucleus and activates proteasome subunit genes." [PMID:20385086, PMID:27528192, PMID:27528193, PMID:29202016]
+comment: Not to be confused with 'integrated stress response signaling ; GO:0140467', which is mediated by eIF2alpha phosphorylation.
+synonym: "NRF1-mediated proteasome recovery pathway" NARROW [PMID:20385086]
+synonym: "proteasome bounce-back response" EXACT [PMID:29202016]
+is_a: GO:0033554 ! cellular response to stress
+is_a: GO:0035556 ! intracellular signal transduction
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32788" xsd:anyURI
+created_by: ai4c-agent
+creation_date: 2026-11-12T08:58:33Z
+
 [Typedef]
 id: acts_on_population_of
 name: acts on population of
