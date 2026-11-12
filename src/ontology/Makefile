@@ -340,10 +340,12 @@ present_in_taxon_check.ofn: enhanced.ofn ../taxon_constraints/present_in_taxon.o
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
 # note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
-# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command:
 # https://github.com/ontodev/robot/issues/1250
+# The ontology and version IRIs name the published go-plus.owl, not this
+# intermediate .ofn file; go-plus.owl and go-plus.json are converted from it.
 $(GO_PLUS).ofn: reasoned.ofn imports/go-computed-taxon-constraints.owl ../sparql/remove-taxon-constraint-class-scaffolding.ru
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$(GO_PLUS).owl unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$(GO_PLUS).owl -V $(RELEASE_URIBASE)/$(GO_PLUS).owl -o $@
 
 $(GO_PLUS).owl: $(GO_PLUS).ofn
 	$(ROBOT) convert -i $< -o $@
@@ -853,6 +855,62 @@ generate-mappings: $(ONT)-pre.ofn
 	wget https://mirror.geneontology.io/unirule2go -O external2go/unirule2go
 	wget https://mirror.geneontology.io/hamap2go -O external2go/hamap2go
 	wget https://mirror.geneontology.io/rfam2go -O external2go/rfam2go
+
+# ----------------------------------------
+# GITHUB RELEASE
+# ----------------------------------------
+# Assembles the files published as the assets of a GitHub release, in
+# $(GH_RELEASEDIR). .github/workflows/release.yml runs
+#
+#   make RELEASEDATE=YYYY-MM-DD github-release
+#
+# and tags the release vYYYY-MM-DD, the date in the products' version IRIs.
+#
+# Release assets are a flat list, so products from extensions/ are published
+# under their base name (go-plus.owl.gz). Their ontology IRIs keep the
+# extensions/ path. go.* and go-basic.* are published as they are; every other
+# ontology is published gzipped only, and a JSON file is compressed when its
+# OWL counterpart is. Subsets and mappings are tarballs that unpack to
+# subsets/ and external2go/.
+#
+# The gate is `test`, the same checks the Jenkins release build runs via `all`.
+
+GH_RELEASEDIR = $(RELEASEDIR)/github-release
+GH_STAGINGDIR = $(RELEASEDIR)/github-staging
+
+GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json
+GH_RELEASE_GZ = go-base.owl $(GO_PLUS).owl $(GO_PLUS).json $(GO_GAF).owl $(GO_LEGO).owl $(GO_AMIGO).owl $(GO_LEGO_REACTO).owl extensions/reacto.owl
+
+# subsets/%.owl also writes the matching .obo and .json.
+GH_RELEASE_SUBSET_FILES = $(foreach s,$(PUBLISH_SUBSETS),$(foreach e,owl obo json tsv,subsets/$(s).$(e)))
+
+# RELEASEDATE's default is a backtick expression that the shell re-evaluates
+# in every recipe, so a build that crosses midnight would give products
+# different version IRIs. A release build must pin it.
+ifneq ($(filter github-release,$(MAKECMDGOALS)),)
+ifeq ($(origin RELEASEDATE),file)
+$(error github-release needs an explicit RELEASEDATE=YYYY-MM-DD)
+endif
+endif
+
+.PHONY: github-release
+github-release: test $(GH_RELEASE_PLAIN) $(GH_RELEASE_GZ) $(GH_STAGINGDIR)/subsets.tgz $(GH_STAGINGDIR)/external2go.tgz
+	rm -rf $(GH_RELEASEDIR) && mkdir -p $(GH_RELEASEDIR)
+	cp $(GH_RELEASE_PLAIN) $(GH_RELEASEDIR)/
+	for f in $(GH_RELEASE_GZ); do gzip -c -n $$f >$(GH_RELEASEDIR)/$$(basename $$f).gz || exit 1; done
+	cp $(GH_STAGINGDIR)/subsets.tgz $(GH_STAGINGDIR)/external2go.tgz $(GH_RELEASEDIR)/
+	ls -l $(GH_RELEASEDIR)
+
+$(GH_STAGINGDIR)/subsets.tgz: $(SUBSET_OWLS) $(SUBSET_REPORTS)
+	mkdir -p $(GH_STAGINGDIR) && tar -czf $@.tmp $(GH_RELEASE_SUBSET_FILES) && mv $@.tmp $@
+
+# Only the mappings generated from GO's own xrefs. generate-mappings also
+# downloads mappings maintained by other groups (interpro2go, pfam2go, ...)
+# into external2go/; those are not published here.
+$(GH_STAGINGDIR)/external2go.tgz: $(ONT)-pre.ofn
+	rm -rf $(GH_STAGINGDIR)/external2go && mkdir -p $(GH_STAGINGDIR)/external2go
+	$(OWLTOOLS) $< --external-mappings-files -o $(GH_STAGINGDIR)/external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
+	tar -czf $@.tmp -C $(GH_STAGINGDIR) external2go && mv $@.tmp $@
 
 # ----------------------------------------
 # TAXON GROUPINGS

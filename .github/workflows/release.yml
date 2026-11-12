@@ -1,0 +1,196 @@
+name: Ontology release
+
+# Builds every GO product published in a GitHub release (`make github-release`)
+# each morning. A build is published as release v<RELEASEDATE>, the date in the
+# products' version IRIs, when either
+#   - the schedule fires on a Monday (UTC) and the repository variable
+#     ONTOLOGY_RELEASES_ENABLED is 'true', or
+#   - the workflow is run by hand on master with "publish" set.
+# Every build keeps its files as a workflow artifact for a few days.
+
+on:
+  schedule:
+    # 04:17 UTC is 05:17 CET / 06:17 CEST. GitHub delays scheduled runs that
+    # start on the hour.
+    - cron: '17 4 * * *'
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish this build as a GitHub release (master only)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ontology-release
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.repository == 'geneontology/go-ontology'
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:${{ vars.ODK_VERSION }}
+    defaults:
+      run:
+        shell: bash
+    outputs:
+      release-date: ${{ steps.plan.outputs.release-date }}
+      publish: ${{ steps.plan.outputs.publish }}
+
+    steps:
+      - name: Decide release date and whether to publish
+        id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          REF: ${{ github.ref }}
+          PUBLISH_INPUT: ${{ inputs.publish }}
+          RELEASES_ENABLED: ${{ vars.ONTOLOGY_RELEASES_ENABLED }}
+        run: |
+          # One clock reading for both, so the date and the weekday agree.
+          read -r release_date weekday <<< "$(date -u '+%F %u')"
+          publish=false
+          if [ "$REF" = refs/heads/master ]; then
+            if [ "$EVENT" = workflow_dispatch ] && [ "$PUBLISH_INPUT" = true ]; then
+              publish=true
+            elif [ "$EVENT" = schedule ] && [ "$weekday" = 1 ] && [ "$RELEASES_ENABLED" = true ]; then
+              publish=true
+            fi
+          fi
+          echo "release-date=$release_date" >> "$GITHUB_OUTPUT"
+          echo "publish=$publish" >> "$GITHUB_OUTPUT"
+          echo "Release date **$release_date**, publish: **$publish**" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/checkout@v4
+
+      - name: Cache Scala CLI dependencies
+        uses: coursier/cache-action@v7
+        with:
+          path: /tools/.coursier-cache
+          extraFiles: '["src/ontology/Makefile", "src/util/*.sc"]'
+          extraKey: ${{ github.workflow }}
+          ignoreJob: true
+
+      # Samples memory, free disk and the largest process every 30 s, so the
+      # peak of each can be matched to the recipe that caused it.
+      - name: Start resource monitor
+        run: |
+          mkdir -p target
+          monitor() {
+            while true; do
+              printf '%s\t%s\t%s\t%s\t%s\n' \
+                "$(date -u +%T)" \
+                "$(free -m | awk '/^Mem:/ {print $3}')" \
+                "$(free -m | awk '/^Swap:/ {print $3}')" \
+                "$(df -BG --output=avail / | tail -1 | tr -dc '0-9')" \
+                "$(ps -eo rss=,args= --sort=-rss | head -1 | cut -c1-400)"
+              sleep 30
+            done
+          }
+          printf 'time\tmem_used_mb\tswap_used_mb\troot_avail_gb\tlargest_process_rss_kb_and_args\n' > target/resources.tsv
+          monitor >> target/resources.tsv 2>&1 &
+          echo $! > target/monitor.pid
+
+      - name: Build release products
+        env:
+          RELEASE_DATE: ${{ steps.plan.outputs.release-date }}
+        run: cd src/ontology && make RELEASEDATE="$RELEASE_DATE" github-release
+
+      # Diagnostics only, so a failure here does not hold back the release.
+      - name: Summarize resource use
+        if: always()
+        continue-on-error: true
+        run: |
+          kill "$(cat target/monitor.pid)" 2>/dev/null || true
+          {
+            echo '### Resource use (30 s samples)'
+            echo
+            echo '| | time (UTC) | value | largest process |'
+            echo '|---|---|---|---|'
+            # A single pass: with pipefail, `sort | head` fails the step on
+            # SIGPIPE once the log is larger than a pipe buffer.
+            awk -F'\t' '
+              NR == 1 { next }
+              mt == "" || $2 + 0 > m { m = $2; mt = $1; mp = $5 }
+              dt == "" || $4 + 0 < d { d = $4; dt = $1; dp = $5 }
+              END {
+                printf "| peak memory used | %s | %s MB | `%s` |\n", mt, m, substr(mp, 1, 160)
+                printf "| least free disk | %s | %s GB | `%s` |\n", dt, d, substr(dp, 1, 160)
+              }' target/resources.tsv
+            echo
+            if [ -d target/github-release ]; then
+              echo '### Release files'
+              echo
+              echo '```'
+              ls -l target/github-release
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload release files
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-release
+          path: target/github-release/
+          if-no-files-found: error
+          retention-days: 5
+
+      - name: Upload resource log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resources
+          path: target/resources.tsv
+          retention-days: 30
+
+  publish:
+    needs: build
+    if: needs.build.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      RELEASE_DATE: ${{ needs.build.outputs.release-date }}
+      TAG: v${{ needs.build.outputs.release-date }}
+
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-release
+          path: release
+
+      # One release per date: a version IRI must never name two different
+      # builds. A draft left by an interrupted run has no tag yet and is
+      # replaced.
+      - name: Check the tag is unused
+        run: |
+          if gh api "repos/$GH_REPO/git/ref/tags/$TAG" > /dev/null 2>&1; then
+            echo "::error::Tag $TAG already exists"
+            exit 1
+          fi
+          if draft=$(gh release view "$TAG" --json isDraft --jq .isDraft 2>/dev/null); then
+            if [ "$draft" = true ]; then
+              gh release delete "$TAG" --yes
+            else
+              echo "::error::Release $TAG already exists"
+              exit 1
+            fi
+          fi
+
+      # Assets are uploaded to a draft, which is published only once all of
+      # them are in place, so a partial release is never visible.
+      - name: Publish release
+        run: |
+          {
+            echo "GO ontology products built from ${GITHUB_SERVER_URL}/${GH_REPO}/commit/${GITHUB_SHA}."
+            echo
+            echo "Version IRIs have the form \`http://purl.obolibrary.org/obo/go/releases/${RELEASE_DATE}/<path>\`."
+            echo "Products from \`extensions/\` are published under their base name; their ontology IRIs keep the \`extensions/\` path."
+            echo "\`subsets.tgz\` and \`external2go.tgz\` unpack to \`subsets/\` and \`external2go/\`."
+          } > notes.md
+          gh release create "$TAG" --draft --target "$GITHUB_SHA" --title "GO $RELEASE_DATE" --notes-file notes.md
+          gh release upload "$TAG" release/*
+          gh release edit "$TAG" --draft=false --latest
