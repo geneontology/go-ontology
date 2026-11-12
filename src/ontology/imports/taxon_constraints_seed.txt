@@ -84,5 +84,6 @@ NCBITaxon:7776 ## Gnathostomata <vertebrate>
 NCBITaxon:8457 ## Sauropsida
 NCBITaxon:8782 ## Aves
 NCBITaxon:89593 ## Craniata <chordata>
+NCBITaxon:91061 ## Bacilli
 NCBITaxon:9443 ## Primates
 NCBITaxon:9606 ## Homo sapiens
