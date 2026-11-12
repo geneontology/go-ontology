@@ -19,7 +19,17 @@ jobs:
       run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       
     - name: Download latest xrefs from Reactome and refresh import
-      run: cd src/ontology && rm ../resources/Pathways2GoTerms_human.txt && rm ../resources/Reactions2GoTerms_human.txt && make imports/reactome_xrefs_import.owl && cd ../..
+      working-directory: src/ontology
+      # Regenerate the import only when Reactome's file changed: every rebuild
+      # gives the import a new dated versionIRI, which would open a PR each week.
+      run: |
+        rm ../resources/Pathways2GoTerms_human.txt
+        make ../resources/Pathways2GoTerms_human.txt
+        if git diff --quiet -- ../resources/Pathways2GoTerms_human.txt; then
+          echo "Pathways2GoTerms_human.txt unchanged; import not regenerated."
+        else
+          make imports/reactome_xrefs_import.owl
+        fi
     
     - name: Create PR
       uses: peter-evans/create-pull-request@v7
@@ -28,6 +38,5 @@ jobs:
         branch: refresh-reactome-xrefs
         add-paths: |
           src/resources/Pathways2GoTerms_human.txt
-          src/resources/Reactions2GoTerms_human.txt
           src/ontology/imports/reactome_xrefs_import.owl
         token: ${{ secrets.PR_ACTION_TOKEN }}
