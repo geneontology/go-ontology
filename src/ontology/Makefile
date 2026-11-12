@@ -336,10 +336,12 @@ present_in_taxon_check.ofn: enhanced.ofn ../taxon_constraints/present_in_taxon.o
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
 # note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
-# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command:
 # https://github.com/ontodev/robot/issues/1250
+# The ontology and version IRIs name the published go-plus.owl, not this
+# intermediate .ofn file; go-plus.owl and go-plus.json are converted from it.
 $(GO_PLUS).ofn: reasoned.ofn imports/go-computed-taxon-constraints.owl ../sparql/remove-taxon-constraint-class-scaffolding.ru
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$(GO_PLUS).owl unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$(GO_PLUS).owl -V $(RELEASE_URIBASE)/$(GO_PLUS).owl -o $@
 
 $(GO_PLUS).owl: $(GO_PLUS).ofn
 	$(ROBOT) convert -i $< -o $@
