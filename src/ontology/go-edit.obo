@@ -183527,13 +183527,14 @@ id: GO:0031982
 name: vesicle
 namespace: cellular_component
 alt_id: GO:0031988
-def: "Any small, fluid-filled, spherical organelle enclosed by membrane." [GOC:mah, GOC:pz, GOC:vesicles]
+def: "Any small, fluid-filled organelle enclosed by membrane, which may be spherical or tubular." [GOC:mah, GOC:pz, GOC:vesicles, PMID:42080521]
 subset: goslim_pir
 synonym: "membrane-bounded vesicle" RELATED []
 synonym: "membrane-enclosed vesicle" RELATED []
 xref: NIF_Subcellular:sao221389602
 xref: Wikipedia:Vesicle_(biology)
 is_a: GO:0043227 ! membrane-bounded organelle
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32932" xsd:anyURI
 
 [Term]
 id: GO:0031983
