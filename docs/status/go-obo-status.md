@@ -1,24 +1,24 @@
 ---
-id: obo:go/releases/2026-11-12go.owl-statistics
+id: obo:go/releases/2026-11-13go.owl-statistics
 ontologies:
 - id: go
-  version: obo:go/releases/2026-11-12go.owl
+  version: obo:go/releases/2026-11-13go.owl
 was_generated_by:
-  started_at_time: '2026-11-12T05:49:48.700619'
+  started_at_time: '2026-11-13T05:49:32.295158'
   was_associated_with: OAK
   acted_on_behalf_of: root
 partitions:
   biological_process:
     id: biological_process
-    class_count: 30926
+    class_count: 30927
     deprecated_class_count: 7122
-    non_deprecated_class_count: 23804
-    class_count_with_text_definitions: 30926
+    non_deprecated_class_count: 23805
+    class_count_with_text_definitions: 30927
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 40130
+        filtered_count: 40132
       RO:0002211:
         facet: RO:0002211
         filtered_count: 2880
@@ -43,35 +43,35 @@ partitions:
       RO:0002093:
         facet: RO:0002093
         filtered_count: 1
-    distinct_synonym_count: 93743
-    synonym_statement_count: 94533
+    distinct_synonym_count: 93745
+    synonym_statement_count: 94535
     change_summary:
-      EdgeDeletion: 185
+      NodeUnobsoletion: 211
       EdgeCreation: 601
       NodeTextDefinitionChange: 348
+      NodeRename: 253
+      NodeDeletion: 42
+      EdgeDeletion: 187
+      RemoveMapping: 79
+      MappingCreation: 51
+      RemoveNodeFromSubset: 15
       RemoveSynonym: 134
       NewSynonym: 82
-      NodeRename: 253
-      NodeUnobsoletion: 211
-      NodeDeletion: 41
-      RemoveNodeFromSubset: 15
-      RemoveMapping: 39
-      MappingCreation: 19
       AddNodeToSubset: 2
       All_Obsoletion: 0
       All_Synonym: 216
-    edge_count: 53011
+    edge_count: 53013
   molecular_function:
     id: molecular_function
-    class_count: 12908
+    class_count: 12909
     deprecated_class_count: 2853
-    non_deprecated_class_count: 10055
-    class_count_with_text_definitions: 12908
+    non_deprecated_class_count: 10056
+    class_count_with_text_definitions: 12909
     class_count_without_text_definitions: 0
     edge_count_by_predicate:
       rdfs:subClassOf:
         facet: rdfs:subClassOf
-        filtered_count: 12304
+        filtered_count: 12305
       BFO:0000050:
         facet: BFO:0000050
         filtered_count: 802
@@ -83,31 +83,31 @@ partitions:
         filtered_count: 65
       BFO:0000051:
         facet: BFO:0000051
-        filtered_count: 238
+        filtered_count: 239
       BFO:0000066:
         facet: BFO:0000066
         filtered_count: 36
       RO:0002211:
         facet: RO:0002211
         filtered_count: 49
-    distinct_synonym_count: 28797
-    synonym_statement_count: 29960
+    distinct_synonym_count: 28800
+    synonym_statement_count: 29963
     change_summary:
-      NodeDeletion: 53
-      EdgeDeletion: 142
-      RemoveMapping: 207
-      NodeTextDefinitionChange: 138
+      MappingCreation: 6773
       EdgeCreation: 96
-      RemoveSynonym: 94
-      NewSynonym: 46
+      NodeTextDefinitionChange: 138
       NodeRename: 78
-      MappingCreation: 40
+      RemoveSynonym: 94
+      RemoveMapping: 207
+      EdgeDeletion: 144
+      NodeDeletion: 54
       NodeUnobsoletion: 37
-      NodeObsoletionWithDirectReplacement: 1
+      NewSynonym: 46
       RemoveNodeFromSubset: 1
+      NodeObsoletionWithDirectReplacement: 1
       All_Obsoletion: 1
       All_Synonym: 140
-    edge_count: 13574
+    edge_count: 13576
   cellular_component:
     id: cellular_component
     class_count: 4609
@@ -128,17 +128,17 @@ partitions:
     distinct_synonym_count: 5136
     synonym_statement_count: 5335
     change_summary:
-      EdgeDeletion: 21
-      EdgeCreation: 15
+      NodeTextDefinitionChange: 30
       NodeDeletion: 9
-      NodeTextDefinitionChange: 29
-      NodeUnobsoletion: 3
-      NodeRename: 6
-      RemoveSynonym: 4
+      EdgeDeletion: 21
       NewSynonym: 4
+      RemoveNodeFromSubset: 1
+      EdgeCreation: 15
+      RemoveSynonym: 4
+      NodeRename: 6
+      NodeUnobsoletion: 3
       RemoveMapping: 2
       MappingCreation: 2
-      RemoveNodeFromSubset: 1
       All_Obsoletion: 0
       All_Synonym: 8
     edge_count: 6685
