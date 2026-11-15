@@ -29,7 +29,7 @@ This pattern is for classes representing formation of anatomical structures from
 
 ## Equivalent to
 
-[anatomical structure formation involved in morphogenesis](http://purl.obolibrary.org/obo/GO_0048646)  and ([results in formation of anatomical entity](http://purl.obolibrary.org/obo/RO_0002297) some `{target}`)
+[anatomical structure formation involved in morphogenesis](http://purl.obolibrary.org/obo/GO_0048646)  and ([results in formation of](http://purl.obolibrary.org/obo/RO_0002297) some `{target}`)
 
 
 
