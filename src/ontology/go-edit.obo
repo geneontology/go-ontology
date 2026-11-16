@@ -54543,6 +54543,10 @@ synonym: "carnitine/acyl carnitine carrier activity" EXACT []
 synonym: "carnitine:acyl carnitine carrier activity" EXACT []
 synonym: "carnitine:O-acyl-L-carnitine antiporter activity" EXACT []
 synonym: "fatty acyl carnitine carrier" EXACT []
+xref: RHEA:49908 {source="skos:narrowMatch"}
+xref: RHEA:49912 {source="skos:narrowMatch"}
+xref: RHEA:49916 {source="skos:narrowMatch"}
+xref: RHEA:49920 {source="skos:narrowMatch"}
 xref: RHEA:49924 {source="skos:exactMatch"}
 intersection_of: GO:0015297 ! antiporter activity
 intersection_of: has_primary_input CHEBI:16347 ! (R)-carnitine
@@ -91180,8 +91184,8 @@ synonym: "lipopolysaccharide synthesis" EXACT []
 synonym: "LPS biosynthetic process" EXACT []
 xref: KEGG_PATHWAY:map00540
 is_a: GO:0000271 ! polysaccharide biosynthetic process
-is_a: onlyin:2
 is_a: neverin:91061 {source="PMID:27580370", source="PMID:33077930"}
+is_a: onlyin:2
 intersection_of: GO:0009058 ! biosynthetic process
 intersection_of: has_primary_output CHEBI:16412 ! lipopolysaccharide
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32938" xsd:anyURI
@@ -146062,6 +146066,11 @@ xref: RHEA:39527 {source="skos:narrowMatch"}
 xref: RHEA:39539 {source="skos:narrowMatch"}
 xref: RHEA:39551 {source="skos:narrowMatch"}
 xref: RHEA:39563 {source="skos:narrowMatch"}
+xref: RHEA:44952 {source="skos:narrowMatch"}
+xref: RHEA:44956 {source="skos:narrowMatch"}
+xref: RHEA:44960 {source="skos:narrowMatch"}
+xref: RHEA:44964 {source="skos:narrowMatch"}
+xref: RHEA:44968 {source="skos:narrowMatch"}
 xref: RHEA:87663 {source="skos:narrowMatch"}
 xref: RHEA:87667 {source="skos:narrowMatch"}
 is_a: GO:0016628 ! oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor
@@ -467587,8 +467596,8 @@ comment: Note that this term was created for the SynGO project, and will be obso
 subset: goslim_synapse
 intersection_of: GO:0006897 ! endocytosis
 intersection_of: occurs_in GO:0098793 ! presynapse
-property_value: term_tracker_item "https://github.com/geneontology/synapse/issues/230" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/synapse/issues/230" xsd:anyURI
 created_by: pg
 creation_date: 2018-07-15T07:33:55Z
 
@@ -467601,8 +467610,8 @@ comment: Note that this term was created for the SynGO project, and will be obso
 subset: goslim_synapse
 intersection_of: GO:0006897 ! endocytosis
 intersection_of: occurs_in GO:0098794 ! postsynapse
-property_value: term_tracker_item "https://github.com/geneontology/synapse/issues/230" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32256" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/synapse/issues/230" xsd:anyURI
 created_by: pg
 creation_date: 2018-07-15T07:38:27Z
 
@@ -622747,8 +622756,11 @@ xref: RHEA:65604 {source="skos:narrowMatch"}
 xref: RHEA:65608 {source="skos:narrowMatch"}
 xref: RHEA:65620 {source="skos:narrowMatch"}
 xref: RHEA:65624 {source="skos:narrowMatch"}
+xref: RHEA:65628 {source="skos:narrowMatch"}
 xref: RHEA:65632 {source="skos:narrowMatch"}
 xref: RHEA:65636 {source="skos:narrowMatch"}
+xref: RHEA:65640 {source="skos:narrowMatch"}
+xref: RHEA:65644 {source="skos:narrowMatch"}
 xref: RHEA:76539 {source="skos:narrowMatch"}
 is_a: GO:0016747 ! acyltransferase activity, transferring groups other than amino-acyl groups
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32816" xsd:anyURI
