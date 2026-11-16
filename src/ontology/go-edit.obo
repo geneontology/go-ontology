@@ -375278,6 +375278,7 @@ name: meiosis I cell cycle process
 namespace: biological_process
 def: "A process that contributes to the first meiotic division. The first meiotic division is the reductive division resulting in the separation of homologous chromosome pairs." [PMID:29385397]
 synonym: "first meiotic cell division" EXACT [PMID:29385397]
+subset: gocheck_do_not_annotate
 is_a: GO:1903046 ! meiotic cell cycle process
 created_by: dph
 creation_date: 2018-02-14T22:27:20Z
@@ -375288,6 +375289,7 @@ name: meiosis II cell cycle process
 namespace: biological_process
 def: "A process that contributes to the second meiotic division. The second meiotic division separates chromatids resulting in a haploid number of chromosomes." [PMID:29385397]
 synonym: "second meiotic division" EXACT [PMID:29385397]
+subset: gocheck_do_not_annotate
 is_a: GO:1903046 ! meiotic cell cycle process
 created_by: dph
 creation_date: 2018-02-14T22:37:44Z
