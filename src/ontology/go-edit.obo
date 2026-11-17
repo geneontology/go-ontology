@@ -281179,17 +281179,19 @@ is_obsolete: true
 
 [Term]
 id: GO:0045984
-name: negative regulation of pyrimidine nucleobase metabolic process
+name: obsolete negative regulation of pyrimidine nucleobase metabolic process
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." [GOC:curators]
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "down regulation of pyrimidine base metabolic process" EXACT []
 synonym: "down-regulation of pyrimidine base metabolic process" EXACT []
 synonym: "downregulation of pyrimidine base metabolic process" EXACT []
 synonym: "inhibition of pyrimidine base metabolic process" NARROW []
 synonym: "negative regulation of pyrimidine base metabolic process" EXACT [GOC:curators]
 synonym: "negative regulation of pyrimidine base metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0006206 ! pyrimidine nucleobase metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1900398
 
 [Term]
 id: GO:0045985
