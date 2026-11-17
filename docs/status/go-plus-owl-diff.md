@@ -7,7 +7,7 @@
 
 ## Right
 - Ontology IRI: `http://purl.obolibrary.org/obo/go/extensions/go-plus.owl`
-- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-16/extensions/go-plus.owl`
+- Version IRI: `http://purl.obolibrary.org/obo/go/releases/2026-11-17/extensions/go-plus.owl`
 - Loaded from: `file:/__w/go-ontology/go-ontology/src/ontology/extensions/go-plus.ofn`
 
 ### Ontology imports 
@@ -19,7 +19,7 @@
 - [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-07-26" 
 
 #### Added
-- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-16" 
+- [versionInfo](http://www.w3.org/2002/07/owl#versionInfo) "2026-11-17" 
 
 
 ### 'de novo' NAD+ biosynthetic process from L-aspartate `http://purl.obolibrary.org/obo/GO_0034628`
@@ -25436,6 +25436,24 @@
 
 
 
+### CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell `http://purl.obolibrary.org/obo/CL_0002005`
+#### Removed
+- [CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell](http://purl.obolibrary.org/obo/CL_0002005) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A megakaryocyte erythroid progenitor cell is CD34-positive, CD38-positive and is IL3-receptor alpha-negative and CD45RA-negative." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:190227700" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12615892" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [CD34-positive, CD38-positive megakaryocyte erythroid progenitor cell](http://purl.obolibrary.org/obo/CL_0002005) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A megakaryocyte erythroid progenitor cell is CD34-positive, CD38-positive and is IL3-receptor alpha-negative and CD45RA-negative." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19022770" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12615892" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### CD4-positive, alpha-beta T cell cytokine production `http://purl.obolibrary.org/obo/GO_0035743`
 #### Removed
 - [CD4-positive, alpha-beta T cell cytokine production](http://purl.obolibrary.org/obo/GO_0035743) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [CD4-positive, alpha-beta T cell](http://purl.obolibrary.org/obo/CL_0000624)) 
@@ -25788,6 +25806,24 @@
 
 #### Added
 - [Caenorhabditis elegans metabolite](http://purl.obolibrary.org/obo/CHEBI_78804) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### Cajal-Retzius cell `http://purl.obolibrary.org/obo/CL_0000695`
+#### Removed
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
+
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) SubClassOf [bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0070006](http://purl.obolibrary.org/obo/PATO_0070006) 
+
+#### Added
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) SubClassOf [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) 
+
+- [Cajal-Retzius cell](http://purl.obolibrary.org/obo/CL_0000695) SubClassOf [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) 
 
 
 ### CoA-disulfide `http://purl.obolibrary.org/obo/CHEBI_16161`
@@ -30996,6 +31032,56 @@
 - [GABA-gated chloride channel antagonist](http://purl.obolibrary.org/obo/CHEBI_38999) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### GABAergic interneuron `http://purl.obolibrary.org/obo/CL_0011005`
+#### Removed
+- [GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0011005) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An interneuron that uses GABA as a vesicular neurotransmitter.  These interneurons are inhibitory" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29724907" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:CellBLAST" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nv" 
+
+- [GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0011005) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [gamma-aminobutyric acid secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061534)) 
+
+#### Added
+- [GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0011005) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0011005) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A local interneuron that uses GABA as a vesicular neurotransmitter. These interneurons are inhibitory." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29724907" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:CellBLAST" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nv" 
+
+- [GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0011005) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [gamma-aminobutyric acid secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061534)) 
+
+- [GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0011005) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+
+### GABAergic projection neuron `http://purl.obolibrary.org/obo/CL_0020140`
+
+#### Added
+- Class: [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A projection neuron that uses GABA as a vesicular neurotransmitter." 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) [date](http://purl.org/dc/terms/date) "2026-11-03T19:04:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Rare in cerebral cortex and hippocampus; the main GABAergic neuron type of the striatum, pallidum, substantia nigra pars reticulata, zona incerta, extended amygdala, thalamic reticular nucleus and cerebellar cortex." 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) [label](http://www.w3.org/2000/01/rdf-schema#label) "GABAergic projection neuron" 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) EquivalentTo [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [gamma-aminobutyric acid secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061534)) 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+
 ### GCIs 
 #### Removed
 - [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Dactyloidae](http://purl.obolibrary.org/obo/NCBITaxon_2024747) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Dactyloidae](http://purl.obolibrary.org/obo/NCBITaxon_2024747))) 
@@ -31016,6 +31102,22 @@
 
 #### Added
 - [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Anolidae](http://purl.obolibrary.org/obo/NCBITaxon_3843548) DisjointWith [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some (not ([Anolidae](http://purl.obolibrary.org/obo/NCBITaxon_3843548))) 
+
+- [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [telencephalon](http://purl.obolibrary.org/obo/UBERON_0001893)) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal plus ventral thalamus](http://purl.obolibrary.org/obo/UBERON_0001897)) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebellum](http://purl.obolibrary.org/obo/UBERON_0002037)) SubClassOf [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) 
+
+- [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal cochlear nucleus](http://purl.obolibrary.org/obo/UBERON_0002829)) SubClassOf [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) 
+
+- [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebellum](http://purl.obolibrary.org/obo/UBERON_0002037)) SubClassOf [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) 
+
+- [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal cochlear nucleus](http://purl.obolibrary.org/obo/UBERON_0002829)) SubClassOf [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) 
+
+- [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebellum](http://purl.obolibrary.org/obo/UBERON_0002037)) SubClassOf [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) 
+
+- [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal cochlear nucleus](http://purl.obolibrary.org/obo/UBERON_0002829)) SubClassOf [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) 
 
 
 ### GDP `http://purl.obolibrary.org/obo/CHEBI_17552`
@@ -32375,6 +32477,40 @@
 - [Kdo transferase activity](http://purl.obolibrary.org/obo/GO_0043842) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [73827](http://rdf.rhea-db.org/73827) 
 
 - [Kdo transferase activity](http://purl.obolibrary.org/obo/GO_0043842) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [73831](http://rdf.rhea-db.org/73831) 
+
+
+### Kit-positive, CD34-positive common myeloid progenitor `http://purl.obolibrary.org/obo/CL_0001023`
+#### Removed
+- [Kit-positive, CD34-positive common myeloid progenitor](http://purl.obolibrary.org/obo/CL_0001023) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A common myeloid progenitor that is Kit-positive and CD34-positive, Il7ra-negative, and is SCA1-low and Fcgr2-low and Fcgr3-low." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://www.immgen.org/index_content.html" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000031" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:1261582" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17952047" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:amm" 
+
+#### Added
+- [Kit-positive, CD34-positive common myeloid progenitor](http://purl.obolibrary.org/obo/CL_0001023) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A common myeloid progenitor that is Kit-positive and CD34-positive, Il7ra-negative, and is SCA1-low and Fcgr2-low and Fcgr3-low." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://www.immgen.org/index_content.html" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000031" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17952047" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12615892" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:amm" 
 
 
 ### Kupffer's vesicle `http://purl.obolibrary.org/obo/UBERON_2000001`
@@ -34860,6 +34996,20 @@
 
 #### Added
 - [Lewis base](http://purl.obolibrary.org/obo/CHEBI_39144) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### Leydig cell `http://purl.obolibrary.org/obo/CL_0000178`
+#### Removed
+- [Leydig cell](http://purl.obolibrary.org/obo/CL_0000178) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### Lugaro cell `http://purl.obolibrary.org/obo/CL_0011006`
+#### Removed
+- [Lugaro cell](http://purl.obolibrary.org/obo/CL_0011006) SubClassOf [GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0008059) 
+
+#### Added
+- [Lugaro cell](http://purl.obolibrary.org/obo/CL_0011006) SubClassOf [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) 
 
 
 ### Lys-tRNA(Lys) `http://purl.obolibrary.org/obo/CHEBI_16047`
@@ -40696,6 +40846,24 @@
 - [Penicillium metabolite](http://purl.obolibrary.org/obo/CHEBI_76964) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### Peyer's patch lymphocyte `http://purl.obolibrary.org/obo/CL_0009014`
+#### Removed
+- [Peyer's patch lymphocyte](http://purl.obolibrary.org/obo/CL_0009014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A lymphocyte that is part of a Peyer's patch. These cells have a major role in driving the immune response to antigens sampled from the intestinal lumen, and in regulating the formation of follicle-associated epithelium and M cells in Peyer's patches by converting intestitial enterocytes into M cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://orcid.org/0000-0003-4183-8865" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23525039" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9252325" 
+
+#### Added
+- [Peyer's patch lymphocyte](http://purl.obolibrary.org/obo/CL_0009014) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A lymphocyte that is part of a Peyer's patch. These cells have a major role in driving the immune response to antigens sampled from the intestinal lumen, and in regulating the formation of follicle-associated epithelium and M cells in Peyer's patches by converting interstitial enterocytes into M cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://orcid.org/0000-0003-4183-8865" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23525039" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9252325" 
+
+
 ### Phe-tRNA(Phe) `http://purl.obolibrary.org/obo/CHEBI_29153`
 
 #### Added
@@ -40730,6 +40898,28 @@
 
 #### Added
 - [Pup transferase activity](http://purl.obolibrary.org/obo/GO_0072496) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/7617"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
+
+
+### Purkinje cell `http://purl.obolibrary.org/obo/CL_0000121`
+#### Removed
+- [Purkinje cell](http://purl.obolibrary.org/obo/CL_0000121) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [Purkinje cell](http://purl.obolibrary.org/obo/CL_0000121) SubClassOf [cerebellar neuron](http://purl.obolibrary.org/obo/CL_1001611) 
+
+#### Added
+- [Purkinje cell](http://purl.obolibrary.org/obo/CL_0000121) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [Purkinje cell](http://purl.obolibrary.org/obo/CL_0000121) SubClassOf [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) 
+
+- [Purkinje cell](http://purl.obolibrary.org/obo/CL_0000121) SubClassOf [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) 
+
+
+### Purkinje layer interneuron `http://purl.obolibrary.org/obo/CL_4072102`
+#### Removed
+- [Purkinje layer interneuron](http://purl.obolibrary.org/obo/CL_4072102) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [Purkinje cell layer of cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002979)) 
+
+#### Added
+- [Purkinje layer interneuron](http://purl.obolibrary.org/obo/CL_4072102) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [Purkinje cell layer of cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002979)) 
 
 
 ### R-loop processing `http://purl.obolibrary.org/obo/GO_0062176`
@@ -42729,6 +42919,36 @@
 - [T-helper 2 cell cytokine production](http://purl.obolibrary.org/obo/GO_0035745) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [T-helper 2 cell](http://purl.obolibrary.org/obo/CL_0000546) 
 
 
+### T2 B cell `http://purl.obolibrary.org/obo/CL_0000959`
+#### Removed
+- [T2 B cell](http://purl.obolibrary.org/obo/CL_0000959) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transitional stage B cell that has the phenotype surface IgM-positive, surface IgD-postive, CD21-positive, CD23-positive, CD62L-negative, CD93-positive and is located in the splenic B follicles. This cell type has also been described as IgM-high, CD19-positive, B220-positive, AA4-positive, and CD23-positive." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC2193793" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000031" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:msz" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12810111" 
+
+#### Added
+- [T2 B cell](http://purl.obolibrary.org/obo/CL_0000959) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transitional stage B cell that has the phenotype surface IgM-positive, surface IgD-positive, CD21-positive, CD23-positive, CD62L-negative, CD93-positive and is located in the splenic B follicles. This cell type has also been described as IgM-high, CD19-positive, B220-positive, AA4-positive, and CD23-positive." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC2193793" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000031" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:msz" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12810111" 
+
+
 ### TDP `http://purl.obolibrary.org/obo/CHEBI_61377`
 
 #### Added
@@ -42918,6 +43138,24 @@
 
 #### Added
 - [U6 snRNA (adenine(43)-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_0120048) SubClassOf [RNA (adenine-N6)-methyltransferase activity](http://purl.obolibrary.org/obo/GO_7770107) 
+
+
+### UBERON_0001241 `http://purl.obolibrary.org/obo/UBERON_0001241`
+
+#### Added
+- Class: [UBERON_0001241](http://purl.obolibrary.org/obo/UBERON_0001241) 
+
+
+### UBERON_0001984 `http://purl.obolibrary.org/obo/UBERON_0001984`
+
+#### Added
+- Class: [UBERON_0001984](http://purl.obolibrary.org/obo/UBERON_0001984) 
+
+
+### UBERON_0013485 `http://purl.obolibrary.org/obo/UBERON_0013485`
+
+#### Added
+- Class: [UBERON_0013485](http://purl.obolibrary.org/obo/UBERON_0013485) 
 
 
 ### UDP `http://purl.obolibrary.org/obo/CHEBI_17659`
@@ -45897,6 +46135,12 @@
 - [adipic acid](http://purl.obolibrary.org/obo/CHEBI_30832) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### adipocyte `http://purl.obolibrary.org/obo/CL_0000136`
+#### Removed
+- [adipocyte](http://purl.obolibrary.org/obo/CL_0000136) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### adipoyl-CoA `http://purl.obolibrary.org/obo/CHEBI_34528`
 
 #### Added
@@ -45944,6 +46188,16 @@
 #### Added
 - [adult organism](http://purl.obolibrary.org/obo/UBERON_0007023) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D000328" 
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
+
+
+### adult skeletal muscle myoblast `http://purl.obolibrary.org/obo/CL_0008017`
+#### Removed
+- [adult skeletal muscle myoblast](http://purl.obolibrary.org/obo/CL_0008017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A skeletal muscle myoblast that is part of a skeletal mucle.  These cells are formed following acivation and division of skeletal muscle satellite cells. They form a transient population that is lost when they fuse to form skeletal muscle fibers." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23303905" 
+
+#### Added
+- [adult skeletal muscle myoblast](http://purl.obolibrary.org/obo/CL_0008017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A skeletal muscle myoblast that is part of a skeletal muscle.  These cells are formed following activation and division of skeletal muscle satellite cells. They form a transient population that is lost when they fuse to form skeletal muscle fibers." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23303905" 
 
 
 ### aerobactin `http://purl.obolibrary.org/obo/CHEBI_18157`
@@ -48814,6 +49068,24 @@
 - [aluminium molecular entity](http://purl.obolibrary.org/obo/CHEBI_33620) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### amacrine cell `http://purl.obolibrary.org/obo/CL_0000561`
+#### Removed
+- [amacrine cell](http://purl.obolibrary.org/obo/CL_0000561) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+- [amacrine cell](http://purl.obolibrary.org/obo/CL_0000561) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+#### Added
+- [amacrine cell](http://purl.obolibrary.org/obo/CL_0000561) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+
+### amacrine cell differentiation `http://purl.obolibrary.org/obo/GO_0035881`
+#### Removed
+- [amacrine cell differentiation](http://purl.obolibrary.org/obo/GO_0035881) SubClassOf [central nervous system neuron differentiation](http://purl.obolibrary.org/obo/GO_0021953) 
+
+#### Added
+- [amacrine cell differentiation](http://purl.obolibrary.org/obo/GO_0035881) SubClassOf [neuron differentiation](http://purl.obolibrary.org/obo/GO_0030182) 
+
+
 ### amidase activity `http://purl.obolibrary.org/obo/GO_0004040`
 
 #### Added
@@ -49655,6 +49927,21 @@
 - [ammonium ion derivative](http://purl.obolibrary.org/obo/CHEBI_35274) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### amoeboid sperm cell `http://purl.obolibrary.org/obo/CL_0011015`
+
+#### Added
+- [amoeboid sperm cell](http://purl.obolibrary.org/obo/CL_0011015) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) "'Hexapoda'" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20803732" 
+
+- [amoeboid sperm cell](http://purl.obolibrary.org/obo/CL_0011015) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) "'Vertebrata'" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20803732" 
+
+- [amoeboid sperm cell](http://purl.obolibrary.org/obo/CL_0011015) [present in taxon](http://purl.obolibrary.org/obo/RO_0002175) "'Nematoda'" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20803732" 
+
+- [amoeboid sperm cell](http://purl.obolibrary.org/obo/CL_0011015) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Ecdysozoa](http://purl.obolibrary.org/obo/NCBITaxon_1206794) 
+
+
 ### amphetamines `http://purl.obolibrary.org/obo/CHEBI_35338`
 
 #### Added
@@ -49665,6 +49952,39 @@
 
 #### Added
 - [amphiprotic solvent](http://purl.obolibrary.org/obo/CHEBI_48360) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### amygdala GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020135`
+
+#### Added
+- Class: [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the amygdala." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) [label](http://www.w3.org/2000/01/rdf-schema#label) "amygdala GABAergic neuron" 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [amygdala](http://purl.obolibrary.org/obo/UBERON_0001876)) 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) SubClassOf [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) 
+
+- [amygdala GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020135) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [amygdala](http://purl.obolibrary.org/obo/UBERON_0001876) 
+
+
+### amygdala excitatory neuron `http://purl.obolibrary.org/obo/CL_4023039`
+#### Removed
+- [amygdala excitatory neuron](http://purl.obolibrary.org/obo/CL_4023039) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [amygdala excitatory neuron](http://purl.obolibrary.org/obo/CL_4023039) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
+
+#### Added
+- [amygdala excitatory neuron](http://purl.obolibrary.org/obo/CL_4023039) SubClassOf [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) 
 
 
 ### amylo-alpha-1,6-glucosidase activity `http://purl.obolibrary.org/obo/GO_0004135`
@@ -52012,6 +52332,12 @@
 - [atomic nucleus](http://purl.obolibrary.org/obo/CHEBI_33252) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### atretic follicular cell of ovary `http://purl.obolibrary.org/obo/CL_4033089`
+#### Removed
+- [atretic follicular cell of ovary](http://purl.obolibrary.org/obo/CL_4033089) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### atrial intrinsic cardiac ganglion `http://purl.obolibrary.org/obo/UBERON_8600120`
 
 #### Added
@@ -52091,6 +52417,12 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [ManualMappingCuration](https://w3id.org/semapv/vocab/ManualMappingCuration) 
 
   - [authoredBy](http://purl.org/pav/authoredBy) [0000-0003-4423-4370](https://orcid.org/0000-0003-4423-4370) 
+
+
+### autonomic neuron `http://purl.obolibrary.org/obo/CL_0000107`
+#### Removed
+- [autonomic neuron](http://purl.obolibrary.org/obo/CL_0000107) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### autophagy cargo adaptor activity `http://purl.obolibrary.org/obo/GO_0160247`
@@ -54352,6 +54684,30 @@
 - [bipolar cell growth](http://purl.obolibrary.org/obo/GO_0042815) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Bipolar cell growth refers to a change in both cell size and cell shape. For shape changes where cell size is not affected, consider instead the term 'establishment or maintenance of bipolar cell polarity; GO:0061245' and its children." 
 
 
+### bipolar neuron `http://purl.obolibrary.org/obo/CL_0000103`
+#### Removed
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A type of interneuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0444009442" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0070006](http://purl.obolibrary.org/obo/PATO_0070006)) 
+
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+#### Added
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A type of neuron that has two neurites, usually an axon and a dendrite, extending from opposite poles of an ovoid cell body." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0444009442" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) EquivalentTo [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0070006](http://purl.obolibrary.org/obo/PATO_0070006)) 
+
+- [bipolar neuron](http://purl.obolibrary.org/obo/CL_0000103) SubClassOf [neuron](http://purl.obolibrary.org/obo/CL_0000540) 
+
+
 ### bipyridine `http://purl.obolibrary.org/obo/CHEBI_35545`
 
 #### Added
@@ -54530,6 +54886,87 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### bone marrow adipocyte `http://purl.obolibrary.org/obo/CL_0020083`
+
+#### Added
+- Class: [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3531" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [contributor](http://purl.org/dc/terms/contributor) [0000-0003-0098-4399](https://orcid.org/0000-0003-0098-4399) 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [date](http://purl.org/dc/terms/date) "2026-09-18T14:46:15Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An adipocyte that is part of bone marrow, constituting a distinct adipose depot from white, brown, and beige adipocytes [PMID:28872979]. Bone marrow adipocytes reside within the hypoxic marrow space close to the endosteal surface and adjacent to the microvascular space, where they store and release energy, secrete adipokines including adiponectin, and interact with neighboring bone cells and hematopoietic stem cells via paracrine and endocrine signaling [PMID:31702948, PMID:24998914]. They support hematopoiesis and suppress bone formation at steady state, and serve as an energy reservoir during metabolic stress; unlike white adipose tissue, bone marrow adipose tissue expands during caloric restriction, aging, anorexia nervosa, and irradiation [PMID:37315208, PMID:37587198, PMID:24998914]." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24998914" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28872979" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31702948" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37587198" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37315208" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "bone marrow fat cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28872979" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "marrow adipocyte" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31702948" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "MAT adipocyte" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31702948" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "BMAT adipocyte" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37315208" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) [label](http://www.w3.org/2000/01/rdf-schema#label) "bone marrow adipocyte" 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) EquivalentTo [adipocyte](http://purl.obolibrary.org/obo/CL_0000136) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [bone marrow](http://purl.obolibrary.org/obo/UBERON_0002371)) 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) SubClassOf [adipocyte](http://purl.obolibrary.org/obo/CL_0000136) 
+
+- [bone marrow adipocyte](http://purl.obolibrary.org/obo/CL_0020083) SubClassOf [bone marrow cell](http://purl.obolibrary.org/obo/CL_0002092) 
+
+
+### bone marrow endothelial cell `http://purl.obolibrary.org/obo/CL_0020122`
+
+#### Added
+- Class: [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3818" 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) [date](http://purl.org/dc/terms/date) "2026-10-21T12:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An endothelial cell that is part of the bone marrow. Bone marrow endothelial cells form the vascular lining of bone marrow sinusoids and arterioles, contribute to the hematopoietic stem cell niche, and participate in angiogenesis, immune cell trafficking, and bone homeostasis." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC6450701" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11722432" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12837583" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37301964" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9687524" 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "BMEC" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC6450701" 
+
+  - [has_synonym_type](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [OMO_0003000](http://purl.obolibrary.org/obo/OMO_0003000) 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) [label](http://www.w3.org/2000/01/rdf-schema#label) "bone marrow endothelial cell" 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) EquivalentTo [endothelial cell](http://purl.obolibrary.org/obo/CL_0000115) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [bone marrow](http://purl.obolibrary.org/obo/UBERON_0002371)) 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) SubClassOf [endothelial cell](http://purl.obolibrary.org/obo/CL_0000115) 
+
+- [bone marrow endothelial cell](http://purl.obolibrary.org/obo/CL_0020122) SubClassOf [bone marrow cell](http://purl.obolibrary.org/obo/CL_0002092) 
+
+
 ### bone marrow of calvaria `http://purl.obolibrary.org/obo/UBERON_1200343`
 
 #### Added
@@ -54697,6 +55134,91 @@
 
 #### Added
 - [bradykinin](http://purl.obolibrary.org/obo/CHEBI_3165) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### brainstem GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020100`
+
+#### Added
+- Class: [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the brainstem." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) [label](http://www.w3.org/2000/01/rdf-schema#label) "brainstem GABAergic neuron" 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298)) 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298) 
+
+
+### brainstem glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020099`
+
+#### Added
+- Class: [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the brainstem." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) [label](http://www.w3.org/2000/01/rdf-schema#label) "brainstem glutamatergic neuron" 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298)) 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298) 
+
+
+### brainstem motor neuron `http://purl.obolibrary.org/obo/CL_2000047`
+#### Removed
+- [brainstem motor neuron](http://purl.obolibrary.org/obo/CL_2000047) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### brainstem serotonergic neuron `http://purl.obolibrary.org/obo/CL_0020137`
+
+#### Added
+- Class: [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A serotonergic neuron that has its soma located in the brainstem." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) [label](http://www.w3.org/2000/01/rdf-schema#label) "brainstem serotonergic neuron" 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) EquivalentTo [serotonergic neuron](http://purl.obolibrary.org/obo/CL_0000850) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298)) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) SubClassOf [serotonergic neuron](http://purl.obolibrary.org/obo/CL_0000850) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [brainstem](http://purl.obolibrary.org/obo/UBERON_0002298) 
 
 
 ### branched-chain amino acid transmembrane transporter activity `http://purl.obolibrary.org/obo/GO_0015658`
@@ -55725,6 +56247,12 @@
 - [calycosin](http://purl.obolibrary.org/obo/CHEBI_17793) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### camera-type eye photoreceptor cell `http://purl.obolibrary.org/obo/CL_0010009`
+#### Removed
+- [camera-type eye photoreceptor cell](http://purl.obolibrary.org/obo/CL_0010009) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### camphor `http://purl.obolibrary.org/obo/CHEBI_36773`
 
 #### Added
@@ -56723,6 +57251,12 @@
   - [authoredBy](http://purl.org/pav/authoredBy) [0000-0003-4423-4370](https://orcid.org/0000-0003-4423-4370) 
 
 
+### cardiac neuron `http://purl.obolibrary.org/obo/CL_0010022`
+#### Removed
+- [cardiac neuron](http://purl.obolibrary.org/obo/CL_0010022) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### cardiolipin `http://purl.obolibrary.org/obo/CHEBI_28494`
 
 #### Added
@@ -56923,6 +57457,14 @@
 #### Added
 - [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32916"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49908" 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49912" 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49916" 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49920" 
+
 - [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49924" 
 
 - [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "(R)-carnitine:O-acyl-(R)-carnitine antiporter activity" 
@@ -56930,6 +57472,14 @@
 - [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "carnitine:O-acyl-L-carnitine antiporter activity" 
 
 - [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [exactMatch](http://www.w3.org/2004/02/skos/core#exactMatch) [49924](http://rdf.rhea-db.org/49924) 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [49908](http://rdf.rhea-db.org/49908) 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [49912](http://rdf.rhea-db.org/49912) 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [49916](http://rdf.rhea-db.org/49916) 
+
+- [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [49920](http://rdf.rhea-db.org/49920) 
 
 - [carnitine:O-acyl-L-carnitine antiporter activity](http://purl.obolibrary.org/obo/GO_0005476) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: O-acyl-L-carnitine(in) + L-carnitine(out) = O-acyl-L-carnitine(out) + L-carnitine(in)." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:49924" 
@@ -57629,6 +58179,199 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20823909" 
 
 
+### cerebellar granule cell `http://purl.obolibrary.org/obo/CL_0001031`
+
+#### Added
+- [cerebellar granule cell](http://purl.obolibrary.org/obo/CL_0001031) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [cerebellar granule cell](http://purl.obolibrary.org/obo/CL_0001031) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+
+### cerebellar inhibitory GABAergic interneuron `http://purl.obolibrary.org/obo/CL_4023057`
+#### Removed
+- [cerebellar inhibitory GABAergic interneuron](http://purl.obolibrary.org/obo/CL_4023057) SubClassOf [cerebellar neuron](http://purl.obolibrary.org/obo/CL_1001611) 
+
+#### Added
+- [cerebellar inhibitory GABAergic interneuron](http://purl.obolibrary.org/obo/CL_4023057) SubClassOf [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) 
+
+
+### cerebellar neuron `http://purl.obolibrary.org/obo/CL_1001611`
+#### Removed
+- [cerebellar neuron](http://purl.obolibrary.org/obo/CL_1001611) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+- [cerebellar neuron](http://purl.obolibrary.org/obo/CL_1001611) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+#### Added
+- [cerebellar neuron](http://purl.obolibrary.org/obo/CL_1001611) SubClassOf [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) 
+
+
+### cerebellum GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020116`
+
+#### Added
+- Class: [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) [date](http://purl.org/dc/terms/date) "2026-10-26T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the cerebellum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebellum GABAergic neuron" 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebellum](http://purl.obolibrary.org/obo/UBERON_0002037)) 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) SubClassOf [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) SubClassOf [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) 
+
+- [cerebellum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020116) SubClassOf [cerebellar neuron](http://purl.obolibrary.org/obo/CL_1001611) 
+
+
+### cerebellum glutamatergic neuron `http://purl.obolibrary.org/obo/CL_2000028`
+#### Removed
+- [cerebellum glutamatergic neuron](http://purl.obolibrary.org/obo/CL_2000028) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+#### Added
+- [cerebellum glutamatergic neuron](http://purl.obolibrary.org/obo/CL_2000028) SubClassOf [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) 
+
+- [cerebellum glutamatergic neuron](http://purl.obolibrary.org/obo/CL_2000028) SubClassOf [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) 
+
+
+### cerebellum-like structure GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020088`
+
+#### Added
+- Class: [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) 
+
+- [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) [date](http://purl.org/dc/terms/date) "2026-10-26T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the cerebellum or in another cerebellum-like structure, such as the dorsal cochlear nucleus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1146/annurev.neuro.30.051606.094225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.tins.2003.12.001" 
+
+- [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The cerebellum-like structures are a group of brain structures with a cerebellum-like circuit architecture: a molecular layer of parallel fibres from granule cells, synapsing onto Purkinje-like principal cells and inhibitory interneurons. In mammals they include the cerebellum and the dorsal cochlear nucleus. Uberon has no term for this grouping yet; until it does, membership is populated by general class inclusion axioms, one per structure." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1146/annurev.neuro.30.051606.094225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.tins.2003.12.001" 
+
+- [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebellum-like structure GABAergic neuron" 
+
+- [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [cerebellum-like structure GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020088) SubClassOf [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) 
+
+
+### cerebellum-like structure glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020089`
+
+#### Added
+- Class: [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) 
+
+- [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) [date](http://purl.org/dc/terms/date) "2026-10-26T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the cerebellum or in another cerebellum-like structure, such as the dorsal cochlear nucleus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1146/annurev.neuro.30.051606.094225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.tins.2003.12.001" 
+
+- [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The cerebellum-like structures are a group of brain structures with a cerebellum-like circuit architecture: a molecular layer of parallel fibres from granule cells, synapsing onto Purkinje-like principal cells and inhibitory interneurons. In mammals they include the cerebellum and the dorsal cochlear nucleus. Uberon has no term for this grouping yet; until it does, membership is populated by general class inclusion axioms, one per structure." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1146/annurev.neuro.30.051606.094225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.tins.2003.12.001" 
+
+- [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebellum-like structure glutamatergic neuron" 
+
+- [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [cerebellum-like structure glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020089) SubClassOf [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) 
+
+
+### cerebellum-like structure neuron `http://purl.obolibrary.org/obo/CL_0020087`
+
+#### Added
+- Class: [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) [date](http://purl.org/dc/terms/date) "2026-10-26T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A neuron that has its soma located in the cerebellum or in another cerebellum-like structure, such as the dorsal cochlear nucleus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1146/annurev.neuro.30.051606.094225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.tins.2003.12.001" 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The cerebellum-like structures are a group of brain structures with a cerebellum-like circuit architecture: a molecular layer of parallel fibres from granule cells, synapsing onto Purkinje-like principal cells and inhibitory interneurons. In mammals they include the cerebellum and the dorsal cochlear nucleus. Uberon has no term for this grouping yet; until it does, membership is populated by general class inclusion axioms, one per structure." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1146/annurev.neuro.30.051606.094225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.tins.2003.12.001" 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebellum-like structure neuron" 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [cerebellum-like structure neuron](http://purl.obolibrary.org/obo/CL_0020087) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+
+### cerebral cortex GABAergic interneuron `http://purl.obolibrary.org/obo/CL_0010011`
+
+#### Added
+- [cerebral cortex GABAergic interneuron](http://purl.obolibrary.org/obo/CL_0010011) SubClassOf [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) 
+
+
+### cerebral cortex GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020106`
+
+#### Added
+- Class: [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the cerebral cortex." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebral cortex GABAergic neuron" 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956)) 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) SubClassOf [cerebral cortex neuron](http://purl.obolibrary.org/obo/CL_0010012) 
+
+- [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) SubClassOf [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) 
+
+
+### cerebral cortex glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020103`
+
+#### Added
+- Class: [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the cerebral cortex." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) [label](http://www.w3.org/2000/01/rdf-schema#label) "cerebral cortex glutamatergic neuron" 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956)) 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) SubClassOf [cerebral cortex neuron](http://purl.obolibrary.org/obo/CL_0010012) 
+
+- [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) SubClassOf [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) 
+
+
+### cerebral cortex neuron `http://purl.obolibrary.org/obo/CL_0010012`
+
+#### Added
+- [cerebral cortex neuron](http://purl.obolibrary.org/obo/CL_0010012) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
 ### cerebronic acid `http://purl.obolibrary.org/obo/CHEBI_61302`
 
 #### Added
@@ -58288,6 +59031,12 @@
 
 #### Added
 - [cholane derivative](http://purl.obolibrary.org/obo/CHEBI_131657) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cholangiocyte `http://purl.obolibrary.org/obo/CL_1000488`
+#### Removed
+- [cholangiocyte](http://purl.obolibrary.org/obo/CL_1000488) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### cholanic acid `http://purl.obolibrary.org/obo/CHEBI_36237`
@@ -59695,6 +60444,12 @@
 - [cochalic acid](http://purl.obolibrary.org/obo/CHEBI_139215) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### cochlea auditory hair cell `http://purl.obolibrary.org/obo/CL_4023120`
+#### Removed
+- [cochlea auditory hair cell](http://purl.obolibrary.org/obo/CL_4023120) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### cochlear hair cell ribbon synapse `http://purl.obolibrary.org/obo/GO_0098683`
 #### Removed
 - [cochlear hair cell ribbon synapse](http://purl.obolibrary.org/obo/GO_0098683) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A ribbon synpase of an auditory hair cell of the cochlear. These ribbon synapses contain spherical synaptic ribbons and lack and arciform density." 
@@ -59995,6 +60750,98 @@
 - [colnelenic acid](http://purl.obolibrary.org/obo/CHEBI_60959) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### colonocyte `http://purl.obolibrary.org/obo/CL_1000347`
+#### Removed
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "enterocyte of colon" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte (absorptive epithelial cell) of the colonic epithelium, characterized by a columnar shape. This cell is responsible for the absorption, transport, and metabolization of short-chain fatty acids (SCFAs) produced by gut bacteria, as well as the transport and absorption of water and electrolytes." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34497389" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23821742" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16870803" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_1000347" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "colonocyte on CELLxGENE CellGuide" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [label](http://www.w3.org/2000/01/rdf-schema#label) "colonocyte" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) EquivalentTo [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [colonic epithelium](http://purl.obolibrary.org/obo/UBERON_0000397)) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) SubClassOf [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) SubClassOf [colon epithelial cell](http://purl.obolibrary.org/obo/CL_0011108) 
+
+#### Added
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A mature, surface colonocyte at the top of the crypt of Lieberkuhn. This cell is responsible for the absorption, transport, and metabolization of short-chain fatty acids (SCFAs) produced by gut bacteria, as well as the transport and absorption of water and electrolytes." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34497389" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23821742" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16870803" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_1000347" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "crypt top colonocyte on CELLxGENE CellGuide" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Located at the crypt top and in the surface epithelium between crypts." 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) [label](http://www.w3.org/2000/01/rdf-schema#label) "crypt top colonocyte" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) EquivalentTo [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [colonic epithelium](http://purl.obolibrary.org/obo/UBERON_0000397)) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) SubClassOf [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) 
+
+
+### colonocyte `http://purl.obolibrary.org/obo/CL_0019036`
+
+#### Added
+- Class: [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte that is part of the colonic epithelium." 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "enterocyte of colon" 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) [label](http://www.w3.org/2000/01/rdf-schema#label) "colonocyte"@en 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) EquivalentTo [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [colonic epithelium](http://purl.obolibrary.org/obo/UBERON_0000397)) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) SubClassOf [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) 
+
+- [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) SubClassOf [colon epithelial cell](http://purl.obolibrary.org/obo/CL_0011108) 
+
+
+### colonocyte progenitor cell `http://purl.obolibrary.org/obo/CL_0019039`
+
+#### Added
+- Class: [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte progenitor cell that is part of the epithelium of the colon." 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) [label](http://www.w3.org/2000/01/rdf-schema#label) "colonocyte progenitor cell"@en 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) SubClassOf [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013485](http://purl.obolibrary.org/obo/UBERON_0013485) 
+
+- [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) 
+
+
 ### colour indicator `http://purl.obolibrary.org/obo/CHEBI_50410`
 
 #### Added
@@ -60005,6 +60852,14 @@
 
 #### Added
 - [colupulone](http://purl.obolibrary.org/obo/CHEBI_136851) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### commissural neuron `http://purl.obolibrary.org/obo/CL_0000678`
+
+#### Added
+- [commissural neuron](http://purl.obolibrary.org/obo/CL_0000678) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [commissural neuron](http://purl.obolibrary.org/obo/CL_0000678) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
 
 
 ### compartment pattern specification `http://purl.obolibrary.org/obo/GO_0007386`
@@ -60259,6 +61114,12 @@
 - [core planar cell polarity](http://purl.obolibrary.org/obo/GO_7770140) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
+### corneocyte `http://purl.obolibrary.org/obo/CL_0002153`
+#### Removed
+- [corneocyte](http://purl.obolibrary.org/obo/CL_0002153) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### corrinoid adenosyltransferase activity `http://purl.obolibrary.org/obo/GO_0008817`
 #### Removed
 - [corrinoid adenosyltransferase activity](http://purl.obolibrary.org/obo/GO_0008817) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3322125" 
@@ -60273,6 +61134,18 @@
 
 #### Added
 - [corrins](http://purl.obolibrary.org/obo/CHEBI_23392) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### cortical interneuron `http://purl.obolibrary.org/obo/CL_0008031`
+#### Removed
+- [cortical interneuron](http://purl.obolibrary.org/obo/CL_0008031) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956)) 
+
+- [cortical interneuron](http://purl.obolibrary.org/obo/CL_0008031) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+#### Added
+- [cortical interneuron](http://purl.obolibrary.org/obo/CL_0008031) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [cerebral cortex](http://purl.obolibrary.org/obo/UBERON_0000956)) 
+
+- [cortical interneuron](http://purl.obolibrary.org/obo/CL_0008031) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
 
 
 ### corticotrophin-releasing factor receptor activity `http://purl.obolibrary.org/obo/GO_0015056`
@@ -60802,6 +61675,12 @@
 #### Removed
 - [cyanocobalamin reductase (cyanide-eliminating) (NADP+) activity](http://purl.obolibrary.org/obo/GO_0033787) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-3149519" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "MMACHC decyanates CNCbl" 
+
+
+
+### cyanophore `http://purl.obolibrary.org/obo/CL_0000747`
+#### Removed
+- [cyanophore](http://purl.obolibrary.org/obo/CL_0000747) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
 
 
 
@@ -63756,6 +64635,12 @@
 - [dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002371) SubClassOf [occurs in](http://purl.obolibrary.org/obo/BFO_0000066) some [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451) 
 
 
+### dentate gyrus granule cell `http://purl.obolibrary.org/obo/CL_2000089`
+
+#### Added
+- [dentate gyrus granule cell](http://purl.obolibrary.org/obo/CL_2000089) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+
 ### deoxy hexoside `http://purl.obolibrary.org/obo/CHEBI_35315`
 
 #### Added
@@ -64983,6 +65868,52 @@
 
 #### Added
 - [dideoxyhexose derivative](http://purl.obolibrary.org/obo/CHEBI_63347) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### diencephalon GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020133`
+
+#### Added
+- Class: [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the diencephalon." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) [label](http://www.w3.org/2000/01/rdf-schema#label) "diencephalon GABAergic neuron" 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [diencephalon](http://purl.obolibrary.org/obo/UBERON_0001894)) 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) SubClassOf [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) 
+
+- [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [diencephalon](http://purl.obolibrary.org/obo/UBERON_0001894) 
+
+
+### diencephalon glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020132`
+
+#### Added
+- Class: [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the diencephalon." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) [label](http://www.w3.org/2000/01/rdf-schema#label) "diencephalon glutamatergic neuron" 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [diencephalon](http://purl.obolibrary.org/obo/UBERON_0001894)) 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) SubClassOf [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) 
+
+- [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [diencephalon](http://purl.obolibrary.org/obo/UBERON_0001894) 
 
 
 ### diester `http://purl.obolibrary.org/obo/CHEBI_51307`
@@ -66596,6 +67527,22 @@
 - [dopaminergic antagonist](http://purl.obolibrary.org/obo/CHEBI_48561) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### dorsal horn interneuron `http://purl.obolibrary.org/obo/CL_0011000`
+#### Removed
+- [dorsal horn interneuron](http://purl.obolibrary.org/obo/CL_0011000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A CNS interneuron located in the dorsal horn of the spinal cord." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nv" 
+
+- [dorsal horn interneuron](http://purl.obolibrary.org/obo/CL_0011000) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal horn of spinal cord](http://purl.obolibrary.org/obo/UBERON_0002256)) 
+
+#### Added
+- [dorsal horn interneuron](http://purl.obolibrary.org/obo/CL_0011000) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [dorsal horn interneuron](http://purl.obolibrary.org/obo/CL_0011000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A local interneuron whose soma is located in the dorsal horn of the spinal cord and whose axon stays within the spinal cord. Excludes lamina I projection neurons, whose axons leave the spinal cord to ascend in sensory tracts." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nv" 
+
+- [dorsal horn interneuron](http://purl.obolibrary.org/obo/CL_0011000) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal horn of spinal cord](http://purl.obolibrary.org/obo/UBERON_0002256)) 
+
+
 ### dorsal plus ventral thalamus `http://purl.obolibrary.org/obo/UBERON_0001897`
 
 #### Added
@@ -66625,6 +67572,16 @@
 
 #### Added
 - [dotriacontatetraenoic acid](http://purl.obolibrary.org/obo/CHEBI_78918) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### double negative T regulatory cell `http://purl.obolibrary.org/obo/CL_0011024`
+#### Removed
+- [double negative T regulatory cell](http://purl.obolibrary.org/obo/CL_0011024) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A double negative thymocyte that is CD3-positive, CD4-negative, CD8-negative, that that are present in the periphery in very low numbers and predominantly produce INF-gamma, TNF-alpha, and a low amount of TGF-beta, but not IL-2, IL-4, IL-10 or IL-13 upon activation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16285891" 
+
+#### Added
+- [double negative T regulatory cell](http://purl.obolibrary.org/obo/CL_0011024) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A double negative thymocyte that is CD3-positive, CD4-negative, CD8-negative, that are present in the periphery in very low numbers and predominantly produce INF-gamma, TNF-alpha, and a low amount of TGF-beta, but not IL-2, IL-4, IL-10 or IL-13 upon activation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16285891" 
 
 
 ### double-stranded RNA adenosine deaminase activity `http://purl.obolibrary.org/obo/GO_0003726`
@@ -66725,6 +67682,74 @@
 - [dye](http://purl.obolibrary.org/obo/CHEBI_37958) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### early colonocyte `http://purl.obolibrary.org/obo/CL_4047018`
+#### Removed
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte that is part of the colon, in the early stages of differentiation, located in the intestinal crypt-villus axis." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36060223" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28049136" 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) [label](http://www.w3.org/2000/01/rdf-schema#label) "early colonocyte"@en 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) EquivalentTo [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [colonic epithelium](http://purl.obolibrary.org/obo/UBERON_0000397)) 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) SubClassOf [colonocyte](http://purl.obolibrary.org/obo/CL_1000347) 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) SubClassOf [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) 
+
+#### Added
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "early colonocyte" 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A colonocyte located in the lower part of the colonic crypt of Lieberkuhn, which has withdrawn from the cell cycle but has not yet acquired the apical microvilli and absorptive transporter expression characteristic of the mature state." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:36060223" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:28049136" 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) [label](http://www.w3.org/2000/01/rdf-schema#label) "lower crypt colonocyte"@en 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) SubClassOf [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) SubClassOf [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) 
+
+- [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [colonocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019039) 
+
+
+### early enterocyte `http://purl.obolibrary.org/obo/CL_4047019`
+#### Removed
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte in the early stages of development, located above the transit-amplifying cell zone in the intestinal crypt-villus axis." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35235783" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20683682" 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [label](http://www.w3.org/2000/01/rdf-schema#label) "early enterocyte"@en 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) EquivalentTo [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013740](http://purl.obolibrary.org/obo/UBERON_0013740)) 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013740](http://purl.obolibrary.org/obo/UBERON_0013740) 
+
+#### Added
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:263094" 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "early small intestine enterocyte" 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte located in the lower part of the intestinal villus, which has withdrawn from the cell cycle but has not yet acquired the apical microvilli and absorptive transporter expression characteristic of the mature state." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35235783" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20683682" 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Found from the upper crypt onto the lower villus; the label reflects the predominant location." 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) [label](http://www.w3.org/2000/01/rdf-schema#label) "lower villus enterocyte"@en 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) SubClassOf [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) SubClassOf [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) 
+
+- [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) 
+
+
 ### ecdysone 22-phosphate `http://purl.obolibrary.org/obo/CHEBI_23894`
 
 #### Added
@@ -66767,6 +67792,12 @@
 - [echinocandin](http://purl.obolibrary.org/obo/CHEBI_57248) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### ecto-epithelial cell `http://purl.obolibrary.org/obo/CL_0002077`
+#### Removed
+- [ecto-epithelial cell](http://purl.obolibrary.org/obo/CL_0002077) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### ectoinate `http://purl.obolibrary.org/obo/CHEBI_63475`
 
 #### Added
@@ -66789,6 +67820,12 @@
 
 #### Added
 - [effector](http://purl.obolibrary.org/obo/CHEBI_35224) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### egg cell `http://purl.obolibrary.org/obo/CL_0000025`
+#### Removed
+- [egg cell](http://purl.obolibrary.org/obo/CL_0000025) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### eggshell formation `http://purl.obolibrary.org/obo/GO_0030703`
@@ -67087,6 +68124,12 @@
 
 #### Added
 - [enamine](http://purl.obolibrary.org/obo/CHEBI_47989) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### endo-epithelial cell `http://purl.obolibrary.org/obo/CL_0002076`
+#### Removed
+- [endo-epithelial cell](http://purl.obolibrary.org/obo/CL_0002076) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### endocrine disruptor `http://purl.obolibrary.org/obo/CHEBI_138015`
@@ -67646,6 +68689,12 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17603537" 
 
 
+### endothelial cell `http://purl.obolibrary.org/obo/CL_0000115`
+#### Removed
+- [endothelial cell](http://purl.obolibrary.org/obo/CL_0000115) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### enol-oxaloacetic acid `http://purl.obolibrary.org/obo/CHEBI_28394`
 
 #### Added
@@ -67809,6 +68858,172 @@
 
 
 
+### enterocyte `http://purl.obolibrary.org/obo/CL_0019033`
+
+#### Added
+- Class: [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A gut absorptive cell that is part of the intestinal epithelium." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:34497389" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) [label](http://www.w3.org/2000/01/rdf-schema#label) "enterocyte"@en 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) EquivalentTo [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [intestinal epithelium](http://purl.obolibrary.org/obo/UBERON_0001277)) 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) SubClassOf [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [intestinal epithelium](http://purl.obolibrary.org/obo/UBERON_0001277) 
+
+
+### enterocyte `http://purl.obolibrary.org/obo/CL_0000584`
+#### Removed
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "differentiated enterocyte" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33290721" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://orcid.org/0000-0001-9610-7627" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "mature enterocyte" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33290721" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://orcid.org/0000-0001-9610-7627" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for the absorption of nutrients from the intestinal lumen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SANBI:mhl" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [label](http://www.w3.org/2000/01/rdf-schema#label) "enterocyte" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) SubClassOf [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) 
+
+#### Added
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [contributor](http://purl.org/dc/terms/contributor) "https://orcid.org/0000-0001-9610-7627" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [contributor](http://purl.org/dc/terms/contributor) "https://orcid.org/0000-0003-2034-601X" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "differentiated enterocyte" 
+  - [contributor](http://purl.org/dc/terms/contributor) "https://orcid.org/0000-0001-9610-7627" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33290721" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An epithelial cell that has its apical plasma membrane folded into microvilli to provide ample surface for absorption from the intestinal lumen. This covers both the large and small intestine." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33290721" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "SANBI:mhl" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "enterocyte" 
+  - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "former primary label, class label updated to reflect definition" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33290721" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) [label](http://www.w3.org/2000/01/rdf-schema#label) "mature enterocyte" 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) 
+
+- [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) 
+
+
+### enterocyte of epithelium of intestinal villus `http://purl.obolibrary.org/obo/CL_1000335`
+
+#### Added
+- Class: [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) 
+
+- [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:263088" 
+
+- [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte that is part of the epithelium of intestinal villus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) [label](http://www.w3.org/2000/01/rdf-schema#label) "enterocyte of epithelium of intestinal villus" 
+
+- [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) EquivalentTo [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of intestinal villus](http://purl.obolibrary.org/obo/UBERON_0013636)) 
+
+- [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) SubClassOf [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) 
+
+- [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of intestinal villus](http://purl.obolibrary.org/obo/UBERON_0013636) 
+
+
+### enterocyte of epithelium of large intestine `http://purl.obolibrary.org/obo/CL_0002071`
+#### Removed
+- [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) EquivalentTo [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of large intestine](http://purl.obolibrary.org/obo/UBERON_0001278)) 
+
+- [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0000584) 
+
+#### Added
+- [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:263090" 
+
+- [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:263112" 
+
+- [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) EquivalentTo [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of large intestine](http://purl.obolibrary.org/obo/UBERON_0001278)) 
+
+- [enterocyte of epithelium of large intestine](http://purl.obolibrary.org/obo/CL_0002071) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) 
+
+
+### enterocyte of epithelium of small intestine `http://purl.obolibrary.org/obo/CL_1000334`
+#### Removed
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) [depiction](http://xmlns.com/foaf/0.1/depiction) [Small-intestine-cells.png](http://purl.obolibrary.org/obo/cl/images/Small-intestine-cells.png) 
+  - [license](http://purl.org/dc/elements/1.1/license) "http://creativecommons.org/licenses/by/4.0/" 
+
+  - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Figure depicts a cross section of intestinal villi in the small intestine, including the crypts of Lieberkuhn (seen here as &lsquo;crypt&rsquo;), as well as the layer specific locations of cells that exist within the gastrointestinal tract. Layers depicted here include epithelium (rows of cells bordering villus), submucosa (white space below the epithelium containing networks of neurons and ganglia depicted in pink), muscularis mucosae (blue layer), muscularis propria (referred to here as muscle layer).
+
+ISC: Intestinal Stem Cell 
+TA: Transit Amplifying Cells" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1186/s13619-020-00061-5" 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_1000334" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "enterocyte of epithelium of small intestine on CELLxGENE CellGuide" 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) [label](http://www.w3.org/2000/01/rdf-schema#label) "enterocyte of epithelium of small intestine" 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of small intestine](http://purl.obolibrary.org/obo/UBERON_0001902) 
+
+#### Added
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) [depiction](http://xmlns.com/foaf/0.1/depiction) [Small-intestine-cells.png](http://purl.obolibrary.org/obo/cl/images/Small-intestine-cells.png) 
+  - [license](http://purl.org/dc/elements/1.1/license) "http://creativecommons.org/licenses/by/4.0/" 
+
+  - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Figure depicts a cross section of intestinal villi in the small intestine, including the crypts of Lieberkuhn (seen here as &lsquo;crypt&rsquo;), as well as the layer specific locations of cells that exist within the gastrointestinal tract. Layers depicted here include epithelium (rows of cells bordering villus), submucosa (white space below the epithelium containing networks of neurons and ganglia depicted in pink), muscularis mucosae (blue layer), muscularis propria (referred to here as muscle layer).
+
+ISC: Intestinal Stem Cell 
+TA: Transit Amplifying Cells" 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_1000334" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "villus tip enterocyte on CELLxGENE CellGuide" 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) [label](http://www.w3.org/2000/01/rdf-schema#label) "villus tip enterocyte" 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) SubClassOf [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) 
+
+- [enterocyte of epithelium of small intestine](http://purl.obolibrary.org/obo/CL_1000334) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) 
+
+
+### enterocyte progenitor cell `http://purl.obolibrary.org/obo/CL_0019037`
+
+#### Added
+- Class: [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A progenitor cell of the gut epithelium that is committed to the absorptive lineage and retains limited proliferative capacity." 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "absorptive TA" 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "absorptive progenitor" 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) [label](http://www.w3.org/2000/01/rdf-schema#label) "enterocyte progenitor cell"@en 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) SubClassOf [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) SubClassOf [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001983](http://purl.obolibrary.org/obo/UBERON_0001983) 
+
+- [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) 
+
+
 ### environmental contaminant `http://purl.obolibrary.org/obo/CHEBI_78298`
 
 #### Added
@@ -67924,10 +69139,71 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### epinephrine secreting cell `http://purl.obolibrary.org/obo/CL_0000454`
+#### Removed
+- [epinephrine secreting cell](http://purl.obolibrary.org/obo/CL_0000454) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell capable of producing epinephrine. Epiniphrine is synthesized from norepiniphrine by the actions of the phenylethanolamine N-methyltransferase enzyme, which is expressed in the adrenal glands, androgenic neurons, and in other cell types." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12438093" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [epinephrine secreting cell](http://purl.obolibrary.org/obo/CL_0000454) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell capable of producing epinephrine. Epinephrine is synthesized from norepinephrine by the actions of the phenylethanolamine N-methyltransferase enzyme, which is expressed in the adrenal glands, androgenic neurons, and in other cell types." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12438093" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### epitestosterone 17-O-(beta-D-glucuronide) `http://purl.obolibrary.org/obo/CHEBI_137491`
 
 #### Added
 - [epitestosterone 17-O-(beta-D-glucuronide)](http://purl.obolibrary.org/obo/CHEBI_137491) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### epithelial cell of mesonephric duct `http://purl.obolibrary.org/obo/CL_0020121`
+
+#### Added
+- Class: [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3811" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [date](http://purl.org/dc/terms/date) "2026-10-19T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A duct epithelial cell that is part of the mesonephric (Wolffian) duct, an embryonic structure derived from the intermediate mesoderm. These epithelial cells differentiate from nephric duct progenitors during early urinary and reproductive tract development, form the lining of the mesonephric duct, and give rise to distinct anterior-posterior epithelial subtypes developmentally related to nephron and reproductive tract structures. Canonical markers include PAX2 (supported in mouse, human, rat, catshark, and mouse stem cell models) and LHX1 (Lim1; supported in mouse and human, often co-expressed with PAX2 in mesonephric epithelium) [PMID:37953493, PMID:42361159, PMID:25693193]; Cdh1, Cdh16, Hnf1b, Atp1a1, Nphs2, and Foxi1 are strongly supported as canonical markers in Xenopus laevis mesonephric duct epithelium, with Cdh1 also supported as an epithelial marker in mouse [PMID:39868253]." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42361159" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:25693193" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37953493" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33976190" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39868253" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "Wolffian duct epithelial cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33763415" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "mesonephric duct epithelial cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33976190" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "nephric duct epithelium" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33976190" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "ND epithelium" 
+  - [has_synonym_type](http://www.geneontology.org/formats/oboInOwl#hasSynonymType) [OMO_0003000](http://purl.obolibrary.org/obo/OMO_0003000) 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33976190" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) [label](http://www.w3.org/2000/01/rdf-schema#label) "epithelial cell of mesonephric duct" 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) EquivalentTo [duct epithelial cell](http://purl.obolibrary.org/obo/CL_0000068) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mesonephric duct](http://purl.obolibrary.org/obo/UBERON_0003074)) 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) SubClassOf [duct epithelial cell](http://purl.obolibrary.org/obo/CL_0000068) 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) SubClassOf [kidney epithelial cell](http://purl.obolibrary.org/obo/CL_0002518) 
+
+- [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [mesonephric duct](http://purl.obolibrary.org/obo/UBERON_0003074) 
 
 
 ### epithelial sac `http://purl.obolibrary.org/obo/UBERON_0007499`
@@ -68277,6 +69553,12 @@
 
 #### Added
 - [erythronolide](http://purl.obolibrary.org/obo/CHEBI_23955) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### erythrophore `http://purl.obolibrary.org/obo/CL_0000574`
+#### Removed
+- [erythrophore](http://purl.obolibrary.org/obo/CL_0000574) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### erythropoietin inhibitor `http://purl.obolibrary.org/obo/CHEBI_91025`
@@ -70044,6 +71326,27 @@
 - [fibrin modulating drug](http://purl.obolibrary.org/obo/CHEBI_48676) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### fibroblast of dense regular elastic tissue `http://purl.obolibrary.org/obo/CL_1000307`
+#### Removed
+- Class: [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:261287" 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A fibroblast that is part of the dense regular elastic tissue." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) [label](http://www.w3.org/2000/01/rdf-schema#label) "fibroblast of dense regular elastic tissue" 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) EquivalentTo [fibroblast](http://purl.obolibrary.org/obo/CL_0000057) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dense regular connective tissue](http://purl.obolibrary.org/obo/UBERON_0007846)) 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) SubClassOf [fibroblast](http://purl.obolibrary.org/obo/CL_0000057) 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [elastic tissue](http://purl.obolibrary.org/obo/UBERON_0002521) 
+
+- [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [dense regular connective tissue](http://purl.obolibrary.org/obo/UBERON_0007846) 
+
+
+
 ### filler `http://purl.obolibrary.org/obo/CHEBI_747332`
 
 #### Added
@@ -70458,6 +71761,42 @@
 
 
 
+### follicle cell of egg chamber `http://purl.obolibrary.org/obo/CL_0000477`
+#### Removed
+- [follicle cell of egg chamber](http://purl.obolibrary.org/obo/CL_0000477) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### follicular B cell `http://purl.obolibrary.org/obo/CL_0000843`
+#### Removed
+- [follicular B cell](http://purl.obolibrary.org/obo/CL_0000843) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A resting mature B cell that has the phenotype IgM-positive, IgD-positive, CD23-positive and CD21-positive, and found in the B cell follicles of the white pulp of the spleen or the corticol areas of the peripheral lymph nodes. This cell type is also described as being CD19-positive, B220-positive, AA4-negative, CD43-negative, and CD5-negative." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC2193793" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://en.wikipedia.org/wiki/Follicular_B_Cells" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20933013" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+#### Added
+- [follicular B cell](http://purl.obolibrary.org/obo/CL_0000843) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A resting mature B cell that has the phenotype IgM-positive, IgD-positive, CD23-positive and CD21-positive, and found in the B cell follicles of the white pulp of the spleen or the cortical areas of the peripheral lymph nodes. This cell type is also described as being CD19-positive, B220-positive, AA4-negative, CD43-negative, and CD5-negative." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC2193793" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://en.wikipedia.org/wiki/Follicular_B_Cells" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20933013" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+
 ### food `http://purl.obolibrary.org/obo/CHEBI_33290`
 
 #### Added
@@ -70570,6 +71909,52 @@
 
 #### Added
 - [food thickening agent](http://purl.obolibrary.org/obo/CHEBI_77970) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### forebrain GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020128`
+
+#### Added
+- Class: [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the forebrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) [label](http://www.w3.org/2000/01/rdf-schema#label) "forebrain GABAergic neuron" 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [forebrain](http://purl.obolibrary.org/obo/UBERON_0001890)) 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
+
+
+### forebrain glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020127`
+
+#### Added
+- Class: [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the forebrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) [label](http://www.w3.org/2000/01/rdf-schema#label) "forebrain glutamatergic neuron" 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [forebrain](http://purl.obolibrary.org/obo/UBERON_0001890)) 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
 
 
 ### formaldehyde assimilation `http://purl.obolibrary.org/obo/GO_0019649`
@@ -71839,6 +73224,19 @@
 - [gammaGluCys(IAN)Gly](http://purl.obolibrary.org/obo/CHEBI_64980) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### ganglion interneuron `http://purl.obolibrary.org/obo/CL_0000397`
+#### Removed
+- [ganglion interneuron](http://purl.obolibrary.org/obo/CL_0000397) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any interneuron that has its soma located in some ganglion." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBC:Autogenerated" 
+
+#### Added
+- [ganglion interneuron](http://purl.obolibrary.org/obo/CL_0000397) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An interneuron whose soma is located in a ganglion." 
+
+- [ganglion interneuron](http://purl.obolibrary.org/obo/CL_0000397) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [ganglion interneuron](http://purl.obolibrary.org/obo/CL_0000397) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Vertebrate paravertebral and sensory ganglia are classically thought to lack interneurons. The term covers both the broad sense of interneuron (invertebrate ganglia, enteric and intracardiac ganglia) and local circuit neurons where present." 
+
+
 ### ganglionic eminence `http://purl.obolibrary.org/obo/UBERON_0004023`
 
 #### Added
@@ -73047,6 +74445,30 @@
 - [glutamate-tRNA ligase activity](http://purl.obolibrary.org/obo/GO_0004818) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-380216" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamate + tRNA(Glu) + ATP =&gt; Glu-tRNA(Glu) + AMP + pyrophosphate" 
 
+
+
+### glutamatergic projection neuron `http://purl.obolibrary.org/obo/CL_0020141`
+
+#### Added
+- Class: [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A projection neuron that uses glutamate as a vesicular neurotransmitter." 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) [date](http://purl.org/dc/terms/date) "2026-11-03T22:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In the cerebral cortex and hippocampus, 'projection neuron' is often used to mean the pallial glutamatergic (pyramidal-lineage) neurons as a class, as opposed to GABAergic interneurons. Almost all of these are glutamatergic projection neurons in this sense; exceptions with largely local axons (e.g. some layer 4 and near-projecting neurons) are classified by their axonal projection." 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) [label](http://www.w3.org/2000/01/rdf-schema#label) "glutamatergic projection neuron" 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) EquivalentTo [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [glutamate secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061535)) 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
 
 
 ### glutamic acid `http://purl.obolibrary.org/obo/CHEBI_18237`
@@ -75212,6 +76634,12 @@
 - [glyphosate(2-)](http://purl.obolibrary.org/obo/CHEBI_67052) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### goblet cell `http://purl.obolibrary.org/obo/CL_0000160`
+#### Removed
+- [goblet cell](http://purl.obolibrary.org/obo/CL_0000160) SubClassOf [secretory epithelial cell](http://purl.obolibrary.org/obo/CL_1100001) 
+
+
+
 ### gold cation `http://purl.obolibrary.org/obo/CHEBI_231853`
 
 #### Added
@@ -75264,6 +76692,14 @@
 - [gramine](http://purl.obolibrary.org/obo/CHEBI_28948) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### granule cell `http://purl.obolibrary.org/obo/CL_0000120`
+
+#### Added
+- [granule cell](http://purl.obolibrary.org/obo/CL_0000120) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [granule cell](http://purl.obolibrary.org/obo/CL_0000120) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
 ### granulocyte colony-stimulating factor receptor activity `http://purl.obolibrary.org/obo/GO_0004902`
 #### Removed
 - [granulocyte colony-stimulating factor receptor activity](http://purl.obolibrary.org/obo/GO_0004902) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Fungi](http://purl.obolibrary.org/obo/NCBITaxon_4751) 
@@ -75280,6 +76716,12 @@
 - [granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_0038158) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32373"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [granulocyte colony-stimulating factor signaling pathway](http://purl.obolibrary.org/obo/GO_0038158) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Vertebrata <vertebrates>](http://purl.obolibrary.org/obo/NCBITaxon_7742) 
+
+
+### granulosa cell `http://purl.obolibrary.org/obo/CL_0000501`
+#### Removed
+- [granulosa cell](http://purl.obolibrary.org/obo/CL_0000501) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### gravid organism `http://purl.obolibrary.org/obo/UBERON_0009097`
@@ -76154,6 +77596,74 @@
 - [gulonolactone](http://purl.obolibrary.org/obo/CHEBI_37433) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### gut absorptive cell `http://purl.obolibrary.org/obo/CL_0000677`
+#### Removed
+- [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Cell of the intestinal epithelium with a brush border made up of many parallel packed microvilli; associated with absorption, particularly of macromolecules." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "JB:jb" 
+
+- [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [intestinal epithelium](http://purl.obolibrary.org/obo/UBERON_0001277) 
+
+#### Added
+- [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) [contributor](http://purl.org/dc/terms/contributor) "https://orcid.org/0000-0003-2034-601X" 
+
+- [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An epithelial cell of the gut epithelium that is committed to the absorptive lineage." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23179635" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30429586" 
+
+- [gut absorptive cell](http://purl.obolibrary.org/obo/CL_0000677) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [digestive tract epithelium](http://purl.obolibrary.org/obo/UBERON_0003929) 
+
+
+### gut epithelial progenitor cell `http://purl.obolibrary.org/obo/CL_0019043`
+
+#### Added
+- Class: [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A progenitor cell of the gut epithelium that is restricted to a single epithelial lineage and retains limited proliferative capacity." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30429586" 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) [label](http://www.w3.org/2000/01/rdf-schema#label) "gut epithelial progenitor cell"@en 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) SubClassOf [eukaryotic cell](http://purl.obolibrary.org/obo/CL_0000255) 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) SubClassOf [progenitor cell](http://purl.obolibrary.org/obo/CL_0011026) 
+
+- [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [digestive tract epithelium](http://purl.obolibrary.org/obo/UBERON_0003929) 
+
+
+### gut secretory progenitor cell `http://purl.obolibrary.org/obo/CL_0019044`
+
+#### Added
+- Class: [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A gut epithelial progenitor cell that is committed to the secretory lineage rather than the absorptive lineage, giving rise to goblet, Paneth and enteroendocrine cells, and remaining proliferative. Commitment is driven by the transcription factor ATOH1, which specifies secretory over absorptive fate from the crypt progenitor pool (Lin et al., 2022). In mouse, these cells are marked by strong upregulation of the Notch ligand DLL1 in immediate stem cell daughters (van Es et al., 2012); in human, they express ATOH1 together with early secretory markers including TFF3, CLCA1, KLK1, HEPACAM2, ANXA13 and PHLDA2, and overlap transcriptionally with the transit-amplifying compartment and with nascent goblet cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35081371" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.57772/cap.lr1qubc8lvq53byicflpmnedecs2.1030" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:23000963" 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "secretory TA cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.57772/cap.lr1qubc8lvq53byicflpmnedecs2.1030" 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "secretory progenitor" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.57772/cap.lr1qubc8lvq53byicflpmnedecs2.1030" 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) [label](http://www.w3.org/2000/01/rdf-schema#label) "gut secretory progenitor cell"@en 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) SubClassOf [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) 
+
+- [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) 
+
+
 ### gypsogenic acid `http://purl.obolibrary.org/obo/CHEBI_71531`
 
 #### Added
@@ -76411,10 +77921,34 @@
 - [helvolic acid](http://purl.obolibrary.org/obo/CHEBI_62460) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### hemangioblast `http://purl.obolibrary.org/obo/CL_0002418`
+#### Removed
+- [hemangioblast](http://purl.obolibrary.org/obo/CL_0002418) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### hematologic agent `http://purl.obolibrary.org/obo/CHEBI_50248`
 
 #### Added
 - [hematologic agent](http://purl.obolibrary.org/obo/CHEBI_50248) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### hematopoietic lineage restricted progenitor cell `http://purl.obolibrary.org/obo/CL_0002031`
+#### Removed
+- [hematopoietic lineage restricted progenitor cell](http://purl.obolibrary.org/obo/CL_0002031) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### hematopoietic multipotent progenitor cell `http://purl.obolibrary.org/obo/CL_0000837`
+#### Removed
+- [hematopoietic multipotent progenitor cell](http://purl.obolibrary.org/obo/CL_0000837) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### hematopoietic oligopotent progenitor cell `http://purl.obolibrary.org/obo/CL_0002032`
+#### Removed
+- [hematopoietic oligopotent progenitor cell](http://purl.obolibrary.org/obo/CL_0002032) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### heme A synthase activity `http://purl.obolibrary.org/obo/GO_0120547`
@@ -76511,6 +78045,12 @@
 
 #### Added
 - [hemiterpenoid indole alkaloid](http://purl.obolibrary.org/obo/CHEBI_65322) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### hemocyte (sensu Arthropoda) `http://purl.obolibrary.org/obo/CL_0000387`
+#### Removed
+- [hemocyte (sensu Arthropoda)](http://purl.obolibrary.org/obo/CL_0000387) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### hemoprotein `http://purl.obolibrary.org/obo/CHEBI_35137`
@@ -76666,6 +78206,12 @@
 
 - [heparosan-N-sulfate-glucuronate 5-epimerase activity](http://purl.obolibrary.org/obo/GO_0047464) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-2076371" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "GLCE epimerises more GlcA to IdoA as sulfate content rises" 
+
+
+
+### hepatocyte `http://purl.obolibrary.org/obo/CL_0000182`
+#### Removed
+- [hepatocyte](http://purl.obolibrary.org/obo/CL_0000182) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
 
 
 
@@ -77422,11 +78968,181 @@
 - [himachalene](http://purl.obolibrary.org/obo/CHEBI_49209) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### hindbrain GABA-Gly neuron `http://purl.obolibrary.org/obo/CL_0020098`
+
+#### Added
+- Class: [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABA-Gly neuron that has its soma located in the hindbrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) [label](http://www.w3.org/2000/01/rdf-schema#label) "hindbrain GABA-Gly neuron" 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) EquivalentTo [GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0008059) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028)) 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) SubClassOf [GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0008059) 
+
+- [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) SubClassOf [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) 
+
+
+### hindbrain GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020134`
+
+#### Added
+- Class: [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the hindbrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) [label](http://www.w3.org/2000/01/rdf-schema#label) "hindbrain GABAergic neuron" 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028)) 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028) 
+
+
+### hindbrain glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020097`
+
+#### Added
+- Class: [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the hindbrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) [label](http://www.w3.org/2000/01/rdf-schema#label) "hindbrain glutamatergic neuron" 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028)) 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028) 
+
+
+### hindbrain noradrenergic neuron `http://purl.obolibrary.org/obo/CL_0020138`
+
+#### Added
+- Class: [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A noradrenergic neuron that has its soma located in the hindbrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) [label](http://www.w3.org/2000/01/rdf-schema#label) "hindbrain noradrenergic neuron" 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) EquivalentTo [noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0008025) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028)) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) SubClassOf [noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0008025) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [hindbrain noradrenergic neuron](http://purl.obolibrary.org/obo/CL_0020138) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hindbrain](http://purl.obolibrary.org/obo/UBERON_0002028) 
+
+
 ### hippocampal formation `http://purl.obolibrary.org/obo/UBERON_0002421`
 
 #### Added
 - [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D023701" 
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
+
+
+### hippocampal formation GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020117`
+
+#### Added
+- Class: [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) [date](http://purl.org/dc/terms/date) "2026-10-27T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the hippocampal formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) [label](http://www.w3.org/2000/01/rdf-schema#label) "hippocampal formation GABAergic neuron" 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421)) 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) SubClassOf [hippocampal neuron](http://purl.obolibrary.org/obo/CL_0002608) 
+
+- [hippocampal formation GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020117) SubClassOf [cerebral cortex GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020106) 
+
+
+### hippocampal formation glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020105`
+
+#### Added
+- Class: [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the hippocampal formation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) [label](http://www.w3.org/2000/01/rdf-schema#label) "hippocampal formation glutamatergic neuron" 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421)) 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) SubClassOf [hippocampal neuron](http://purl.obolibrary.org/obo/CL_0002608) 
+
+- [hippocampal formation glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020105) SubClassOf [cerebral cortex glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020103) 
+
+
+### hippocampal granule cell `http://purl.obolibrary.org/obo/CL_0001033`
+
+#### Added
+- [hippocampal granule cell](http://purl.obolibrary.org/obo/CL_0001033) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [hippocampal granule cell](http://purl.obolibrary.org/obo/CL_0001033) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+
+### hippocampal interneuron `http://purl.obolibrary.org/obo/CL_1001569`
+#### Removed
+- [hippocampal interneuron](http://purl.obolibrary.org/obo/CL_1001569) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421)) 
+
+#### Added
+- [hippocampal interneuron](http://purl.obolibrary.org/obo/CL_1001569) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hippocampal formation](http://purl.obolibrary.org/obo/UBERON_0002421)) 
+
+
+### hippocampal neuron `http://purl.obolibrary.org/obo/CL_0002608`
+#### Removed
+- [hippocampal neuron](http://purl.obolibrary.org/obo/CL_0002608) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### hippurates `http://purl.obolibrary.org/obo/CHEBI_132966`
@@ -79793,6 +81509,81 @@
 - [hypotaurocyamine](http://purl.obolibrary.org/obo/CHEBI_16209) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### hypothalamus GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020102`
+
+#### Added
+- Class: [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the hypothalamus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypothalamus GABAergic neuron" 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hypothalamus](http://purl.obolibrary.org/obo/UBERON_0001898)) 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) SubClassOf [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) 
+
+- [hypothalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020102) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hypothalamus](http://purl.obolibrary.org/obo/UBERON_0001898) 
+
+
+### hypothalamus glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020101`
+
+#### Added
+- Class: [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the hypothalamus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypothalamus glutamatergic neuron" 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hypothalamus](http://purl.obolibrary.org/obo/UBERON_0001898)) 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) SubClassOf [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) 
+
+- [hypothalamus glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020101) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hypothalamus](http://purl.obolibrary.org/obo/UBERON_0001898) 
+
+
+### hypothalamus histaminergic neuron `http://purl.obolibrary.org/obo/CL_0020136`
+
+#### Added
+- Class: [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A histaminergic neuron that has its soma located in the hypothalamus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) [label](http://www.w3.org/2000/01/rdf-schema#label) "hypothalamus histaminergic neuron" 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) EquivalentTo [histaminergic neuron](http://purl.obolibrary.org/obo/CL_0011110) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hypothalamus](http://purl.obolibrary.org/obo/UBERON_0001898)) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) SubClassOf [histaminergic neuron](http://purl.obolibrary.org/obo/CL_0011110) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+- [hypothalamus histaminergic neuron](http://purl.obolibrary.org/obo/CL_0020136) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [hypothalamus](http://purl.obolibrary.org/obo/UBERON_0001898) 
+
+
 ### hypoxanthine dehydrogenase activity `http://purl.obolibrary.org/obo/GO_0070674`
 #### Removed
 - [hypoxanthine dehydrogenase activity](http://purl.obolibrary.org/obo/GO_0070674) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-9727347" 
@@ -80288,6 +82079,55 @@
 
 #### Added
 - [immaterial anatomical entity](http://purl.obolibrary.org/obo/UBERON_0000466) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Anatomical entity that has no mass." 
+
+
+### immature NK T cell `http://purl.obolibrary.org/obo/CL_0000914`
+
+#### Added
+- [immature NK T cell](http://purl.obolibrary.org/obo/CL_0000914) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+
+### immature NK T cell stage IV, mouse `http://purl.obolibrary.org/obo/CL_0002042`
+
+#### Added
+- [immature NK T cell stage IV, mouse](http://purl.obolibrary.org/obo/CL_0002042) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+
+### immature enterocyte `http://purl.obolibrary.org/obo/CL_0019034`
+
+#### Added
+- Class: [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "early enterocyte" 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "immature absorptive cell" 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A gut absorptive cell of the intestinal epithelium that has withdrawn from the cell cycle but has not yet acquired a mature brush border or full absorptive function." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35235783" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30429586" 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The terms 'immature enterocyte' and 'early enterocyte' are also used for neonatal vacuolated enterocytes (CL:0009067, CL:0011032), a developmental-stage sense distinct from the cell maturation stage sense defined here." 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) [label](http://www.w3.org/2000/01/rdf-schema#label) "immature enterocyte"@en 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) 
+
+- [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) 
+
+
+### immature innate lymphoid cell `http://purl.obolibrary.org/obo/CL_0001082`
+#### Removed
+- [immature innate lymphoid cell](http://purl.obolibrary.org/obo/CL_0001082) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An innate lyphoid cell with an immature phenotype." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+#### Added
+- [immature innate lymphoid cell](http://purl.obolibrary.org/obo/CL_0001082) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An innate lymphoid cell with an immature phenotype." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
 
 
 ### immunogen `http://purl.obolibrary.org/obo/CHEBI_60816`
@@ -81163,6 +83003,26 @@
 - [interleukin-5-mediated signaling pathway](http://purl.obolibrary.org/obo/GO_0038043) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [cellular response to interleukin-5](http://purl.obolibrary.org/obo/GO_7770103) 
 
 
+### intermediate enterocyte `http://purl.obolibrary.org/obo/CL_0019040`
+
+#### Added
+- Class: [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte in which the apical microvilli and absorptive transporter expression characteristic of the mature state are partially but not fully developed." 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Maturation along the crypt-villus and crypt-surface axes is continuous. This term denotes the middle of that trajectory, between immature and mature enterocytes; its boundaries with those terms are not sharp." 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) [label](http://www.w3.org/2000/01/rdf-schema#label) "intermediate enterocyte"@en 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) 
+
+- [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [immature enterocyte](http://purl.obolibrary.org/obo/CL_0019034) 
+
+
 ### intermembrane lipid transfer `http://purl.obolibrary.org/obo/GO_0120009`
 #### Removed
 - [intermembrane lipid transfer](http://purl.obolibrary.org/obo/GO_0120009) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The transport of lipids between membranes in which a lipid molecule is transported through an aqueous phase from the outer leaflet of a donor membrane to the outer leaflet of an acceptor membrane. This process does not require metabolic energy and can be either spontaneous or mediated by lipid transfer proteins (LTPs)." 
@@ -81290,6 +83150,39 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### interneuron `http://purl.obolibrary.org/obo/CL_0000099`
+#### Removed
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "CNS interneuron" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D007395" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [label](http://www.w3.org/2000/01/rdf-schema#label) "interneuron" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [central nervous system](http://purl.obolibrary.org/obo/UBERON_0001017) 
+
+#### Added
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A neuron that is neither a sensory neuron nor an efferent (motor or neurosecretory) neuron: it receives synaptic input mainly from other neurons and makes synaptic output mainly onto other neurons within the nervous system. Interneurons include local interneurons and projection neurons." 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "association neuron" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "interneuron" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "internuncial neuron" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "'Sensu lato' means 'in the broad sense'; it is not a taxon restriction. Elsewhere in CL, 'sensu' is used only with taxa (e.g. 'CNS neuron (sensu Vertebrata)'). Usage of 'interneuron' differs between fields. (1) In invertebrate neurobiology and in general textbooks, an interneuron is any neuron that is neither sensory nor motor; this includes projection neurons (e.g. insect antennal lobe projection neurons, 'projection/relay interneurons') as well as local neurons. (2) In the vertebrate spinal cord, interneurons are neurons whose axons stay within the spinal cord, including long-range commissural and propriospinal neurons, as opposed to motor neurons and ascending tract (projection) neurons. (3) In the enteric nervous system, interneurons are neurons that are neither intrinsic primary afferent neurons nor motor neurons; many project long distances along the gut. Similar usage ('local circuit neuron') applies to intrinsic cardiac and other intramural ganglia. (4) In the vertebrate brain and retina, 'interneuron' usually means a local circuit neuron whose axon stays within the region that contains its soma, as opposed to that region's projection (principal) neurons; for this sense use 'local interneuron' (CL:0004001). All four usages follow one pattern: an interneuron of a structure has its soma and axon within that structure. They differ in which structure is meant: the whole nervous system, the spinal cord, the enteric nervous system, or a brain region. This class covers all of these senses; 'local interneuron' and 'projection neuron' are subclasses of it." 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) [label](http://www.w3.org/2000/01/rdf-schema#label) "interneuron (sensu lato)" 
+
+- [interneuron](http://purl.obolibrary.org/obo/CL_0000099) SubClassOf [neuron](http://purl.obolibrary.org/obo/CL_0000540) 
+
+
 ### interphalangeal joint of manus `http://purl.obolibrary.org/obo/UBERON_0007722`
 
 #### Added
@@ -81325,10 +83218,239 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### intestinal crypt stem cell of colon `http://purl.obolibrary.org/obo/CL_0009043`
+
+#### Added
+- Class: [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [contributor](http://purl.org/dc/terms/contributor) [0000-0002-2825-0621](https://orcid.org/0000-0002-2825-0621) 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [location_grouping](http://purl.obolibrary.org/obo/pato#location_grouping) 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [description](http://purl.org/dc/terms/description) "Intestinal crypt stem cells of the colon, also known as colon crypt base columnar (CBC) cells, are highly specialized cells primarily responsible for the constant self-renewal of the colonic epithelium. These cells are found in the crypts of Lieberk&uuml;hn - deeply invaginated sections of the colon's mucosal layer. 
+The prime function of intestinal crypt stem cells of the colon is to serve as the source of constant cell regeneration in the colon. Every few days, these stem cells divide and differentiate into the various other types of intestinal cells, such as enterocytes, goblet cells, and enteroendocrine cells. 
+A constant renewal cycle is necessary due to the harsh environment of the colon where cells continuously encounter abrasive food matter and potential pathogens, leading to a high turnover rate. When the colon's mucosal layer suffers damage, a rapid response is triggered whereby colon crypt stem cells divide faster and are directed to injured sites to repair the epithelial layer. Dysregulation of these cells' function or proliferation can contribute to disorders such as colorectal cancer.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1186/s12943-019-0962-x" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1111/j.1365-2184.2009.00642.x" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1038/s41575-018-0081-y" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1073/pnas.1607327113" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1016/j.cell.2013.07.004" 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An intestinal crypt stem cell that is located in the crypt of Lieberkuhn of colon." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10841502" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0003-3440-1876" 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_0009043" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal crypt stem cell of colon on CELLxGENE CellGuide" 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal crypt stem cell of colon" 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) EquivalentTo [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013485](http://purl.obolibrary.org/obo/UBERON_0013485)) 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) SubClassOf [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) 
+
+- [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013485](http://purl.obolibrary.org/obo/UBERON_0013485) 
+
+
+### intestinal crypt stem cell of large intestine `http://purl.obolibrary.org/obo/CL_0009016`
+
+#### Added
+- Class: [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [contributor](http://purl.org/dc/terms/contributor) [0000-0002-2825-0621](https://orcid.org/0000-0002-2825-0621) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "crypt stem cell of large intestine" 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "stem cell of large intestine crypt of Lieberkuhn" 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [location_grouping](http://purl.obolibrary.org/obo/pato#location_grouping) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [depiction](http://xmlns.com/foaf/0.1/depiction) "https://cdn.humanatlas.io/digital-objects/2d-ftu/large-intestine-crypt-lieberkuhn/v1.2/assets/2d-ftu-large-intestine-crypt-lieberkuhn.png" 
+  - [licence](http://purl.org/dc/terms/licence) [<http://creativecommons.org/licenses/by/4.0/>](http://creativecommons.org/licenses/by/4.0/) 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.48539/HBM294.HJJZ.279" 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An intestinal stem cell that is located in the large intestine crypt of Liberkuhn. These stem cells reside at the bottom of crypts in the large intestine and are highly proliferative. They either differentiate into transit amplifying cells or self-renew to form new stem cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://orcid.org/0000-0003-4183-8865" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20683682" 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal crypt stem cell of large intestine" 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) EquivalentTo [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001984](http://purl.obolibrary.org/obo/UBERON_0001984)) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) SubClassOf [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) SubClassOf [epithelial cell of large intestine](http://purl.obolibrary.org/obo/CL_0002253) 
+
+- [intestinal crypt stem cell of large intestine](http://purl.obolibrary.org/obo/CL_0009016) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001984](http://purl.obolibrary.org/obo/UBERON_0001984) 
+
+
+### intestinal crypt stem cell of small intestine `http://purl.obolibrary.org/obo/CL_0009017`
+
+#### Added
+- Class: [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [contributor](http://purl.org/dc/terms/contributor) [0000-0002-2825-0621](https://orcid.org/0000-0002-2825-0621) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "crypt stem cell of small intestine" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "stem cell of small intestine crypt of Lieberkuhn" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [location_grouping](http://purl.obolibrary.org/obo/pato#location_grouping) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [depiction](http://xmlns.com/foaf/0.1/depiction) [Small-intestine-cells.png](http://purl.obolibrary.org/obo/cl/images/Small-intestine-cells.png) 
+  - [license](http://purl.org/dc/elements/1.1/license) "http://creativecommons.org/licenses/by/4.0/" 
+
+  - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Figure depicts a cross section of intestinal villi in the small intestine, including the crypts of Lieberkuhn (seen here as &lsquo;crypt&rsquo;), as well as the layer specific locations of cells that exist within the gastrointestinal tract. Layers depicted here include epithelium (rows of cells bordering villus), submucosa (white space below the epithelium containing networks of neurons and ganglia depicted in pink), muscularis mucosae (blue layer), muscularis propria (referred to here as muscle layer).
+
+ISC: Intestinal Stem Cell 
+TA: Transit Amplifying Cells" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1186/s13619-020-00061-5" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [description](http://purl.org/dc/terms/description) "Intestinal crypt stem cells of the small intestine are a type of adult stem cell intimately involved in the continuous replenishment of the intestinal epithelium, the innermost layer of the intestine responsible for nutrient absorption. These cells, located within the crypts of Lieberk&uuml;hn, are the origin of various cell lineages that make up the functional units of the small intestine. They possess self-renewal ability, an essential feature of stem cells, which allows them to maintain a steady population in the small intestine.
+One of the critical roles of intestinal crypt stem cells is to drive the continual renewal process taking place in the small intestine every 3-5 days. By proliferating intensively, these cells produce transient amplifying (TA) cells that are characterized by quick division and progressive differentiation. These cells eventually differentiate into specialized cell types, encompassing absorptive enterocytes, mucin-secreting goblet cells, hormone-secreting enteroendocrine cells, and Paneth cells, all of which have essential roles in digestion and nutrient absorption in the small intestine.
+Intestinal crypt stem cells of the small intestine are also play a significant part in injury recovery. Under regular conditions, these cells primarily exist in an active state, facilitating the constant renovation of the gut lining. However, upon injury or loss of regular intestinal crypt stem cells reserve intestinal stem cells, a slow-cycling and radio-resistant population, can be stimulated to take over the duties of active crypt stem cells. Such plasticity provides a powerful regenerative mechanism that ensures the intestinal epithelium's function and structural integrity amidst diverse conditions.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1016/j.celrep.2020.107952" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1038/s41575-018-0081-y" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1073/pnas.1607327113" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An intestinal stem cell that is located in the small intestine crypt of Liberkuhn. These stem cells reside at the bottom of crypts in the small intestine and are highly proliferative. They either differentiate into transit amplifying cells or self-renew to form new stem cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://orcid.org/0000-0003-4183-8865" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20683682" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_0009017" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal crypt stem cell of small intestine on CELLxGENE CellGuide" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal crypt stem cell of small intestine" 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) EquivalentTo [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001241](http://purl.obolibrary.org/obo/UBERON_0001241)) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) SubClassOf [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) SubClassOf [epithelial cell of small intestine](http://purl.obolibrary.org/obo/CL_0002254) 
+
+- [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001241](http://purl.obolibrary.org/obo/UBERON_0001241) 
+
+
 ### intestinal enterochromaffin enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770020`
 
 #### Added
 - [intestinal enterochromaffin enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770020) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
+
+### intestinal enteroendocrine progenitor `http://purl.obolibrary.org/obo/CL_4052006`
+#### Removed
+- [intestinal enteroendocrine progenitor](http://purl.obolibrary.org/obo/CL_4052006) SubClassOf [progenitor cell](http://purl.obolibrary.org/obo/CL_0011026) 
+
+- [intestinal enteroendocrine progenitor](http://purl.obolibrary.org/obo/CL_4052006) SubClassOf [develops from](http://purl.obolibrary.org/obo/RO_0002202) some [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) 
+
+#### Added
+- [intestinal enteroendocrine progenitor](http://purl.obolibrary.org/obo/CL_4052006) SubClassOf [gut epithelial progenitor cell](http://purl.obolibrary.org/obo/CL_0019043) 
+
+- [intestinal enteroendocrine progenitor](http://purl.obolibrary.org/obo/CL_4052006) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) 
+
+
+### intestinal tuft cell `http://purl.obolibrary.org/obo/CL_0019046`
+
+#### Added
+- Class: [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) [date](http://purl.org/dc/terms/date) "2026-10-27T13:37:13Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intestinal brush cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22527717" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A tuft cell that is part of the intestinal epithelium. In mouse, development of this cell requires the transcription factor POU2F3 (Gerbe et al., 2016); in human, POU2F3 expression marks this cell type." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26762460" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal tuft cell"@en 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) EquivalentTo [tuft cell](http://purl.obolibrary.org/obo/CL_0002204) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [intestinal epithelium](http://purl.obolibrary.org/obo/UBERON_0001277)) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) SubClassOf [tuft cell](http://purl.obolibrary.org/obo/CL_0002204) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) SubClassOf [intestinal epithelial cell](http://purl.obolibrary.org/obo/CL_0002563) 
+
+
+### intestinal tuft cell `http://purl.obolibrary.org/obo/CL_0019032`
+#### Removed
+- Class: [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [date](http://purl.org/dc/terms/date) "2020-10-15T12:47:46Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [depiction](http://xmlns.com/foaf/0.1/depiction) "https://cdn.humanatlas.io/digital-objects/2d-ftu/large-intestine-crypt-lieberkuhn/v1.2/assets/2d-ftu-large-intestine-crypt-lieberkuhn.png" 
+  - [licence](http://purl.org/dc/terms/licence) [<http://creativecommons.org/licenses/by/4.0/>](http://creativecommons.org/licenses/by/4.0/) 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.48539/HBM294.HJJZ.279" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [description](http://purl.org/dc/terms/description) "Intestinal tuft cells, also known as brush cells, are specialized epithelial cells found in the lining of the intestines. Their name stems from their distinctive morphology, characterized by a thick &lsquo;tuft&rsquo;, or brush-like, peak of long, tapering microvilli which project into the intestinal lumen. These cells impart a structural characteristic to the epithelium of the intestine, aiding in its function and interaction with the surrounding environment. Their abundance among the gastrointestinal tract varies but they are most commonly found in the small intestine.
+The primary function of intestinal tuft cells is to act as chemosensory sentinels, assisting in monitoring and responding to luminal factors. They possess a highly potent sensing mechanism, facilitated by a diverse set of receptors, such as the bitter taste receptor family and succinate receptor, and a complex signaling apparatus. These sensory capabilities enable them to initiate crucial immune responses to a variety of physiological stimuli, including parasites and bacteria. Evidence suggests that tuft cells perform a critical role in maintaining gut homeostasis and in initiating type 2 immunity against parasite infection.
+Moreover, intestinal tuft cells are also involved in regulating intestinal epithelial cell homeostasis and contributing to the regeneration and repair of epithelial tissue following damage. They produce several growth factors and cytokines which play essential roles in these processes. Despite being one of the least common cell types in the gut, the role of tuft cells in sensing, immunity and tissue regulation underlines their importance in maintaining gastrointestinal health.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.3389/fimmu.2022.822867" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1038/nature24489" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1371/journal.ppat.1010318" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.4049/jimmunol.1801069" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intestinal brush cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22527717" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A tuft cell that is part of the intestinal epithelium, characterized by a distinctive apical tuft and lateral cytospinules connecting to neighbouring cells. This cell senses luminal stimuli via taste receptors and succinate signalling, initiating type 2 immune responses through the secretion of interleukin-25 while modulating epithelial regeneration through prostaglandin synthesis. It expresses key molecular markers such as doublecortin-like kinase 1 (DCLK1) in mice (Hendel et al., 2022), and KIT proto-oncogene in humans (Huang et al., 2024). Developed from intestinal crypt stem cells, this cell requires transcription factor POU2F3 for its development." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35237268" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22527717" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29714721" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:39358509" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_0019032" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal tuft cell on CELLxGENE CellGuide" 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal tuft cell"@en 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) EquivalentTo [tuft cell](http://purl.obolibrary.org/obo/CL_0002204) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [intestinal epithelium](http://purl.obolibrary.org/obo/UBERON_0001277)) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) SubClassOf [tuft cell](http://purl.obolibrary.org/obo/CL_0002204) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) SubClassOf [intestinal epithelial cell](http://purl.obolibrary.org/obo/CL_0002563) 
+
+- [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) SubClassOf [develops from](http://purl.obolibrary.org/obo/RO_0002202) some [intestinal crypt stem cell](http://purl.obolibrary.org/obo/CL_0002250) 
+
 
 
 ### intestinal type G enteroendocrine cell differentiation `http://purl.obolibrary.org/obo/GO_7770021`
@@ -81353,6 +83475,37 @@
 
 #### Added
 - [intestinal type N enteroendocrine cell differentiation](http://purl.obolibrary.org/obo/GO_7770024) [conformsTo](http://purl.org/dc/terms/conformsTo) [cell_differentiation_by_mature_cell_type.yaml](http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml) 
+
+
+### intestinal villus goblet cell `http://purl.obolibrary.org/obo/CL_1000317`
+
+#### Added
+- Class: [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:263046" 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "goblet cell of epithelium of intestinal villus" 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A goblet cell that is part of the epithelium of intestinal villus." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) [label](http://www.w3.org/2000/01/rdf-schema#label) "intestinal villus goblet cell" 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) EquivalentTo [goblet cell](http://purl.obolibrary.org/obo/CL_0000160) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of intestinal villus](http://purl.obolibrary.org/obo/UBERON_0013636)) 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) SubClassOf [small intestine goblet cell](http://purl.obolibrary.org/obo/CL_1000495) 
+
+- [intestinal villus goblet cell](http://purl.obolibrary.org/obo/CL_1000317) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of intestinal villus](http://purl.obolibrary.org/obo/UBERON_0013636) 
+
+
+### intestine goblet cell `http://purl.obolibrary.org/obo/CL_0019031`
+#### Removed
+- [intestine goblet cell](http://purl.obolibrary.org/obo/CL_0019031) SubClassOf [develops from](http://purl.obolibrary.org/obo/RO_0002202) some [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) 
+
+#### Added
+- [intestine goblet cell](http://purl.obolibrary.org/obo/CL_0019031) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [gut secretory progenitor cell](http://purl.obolibrary.org/obo/CL_0019044) 
 
 
 ### intracellular organelle lumen `http://purl.obolibrary.org/obo/GO_0070013`
@@ -81471,6 +83624,12 @@
 - [inulin](http://purl.obolibrary.org/obo/CHEBI_15443) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [antidiarrhoeal drug](http://purl.obolibrary.org/obo/CHEBI_55323) 
 
 - [inulin](http://purl.obolibrary.org/obo/CHEBI_15443) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [anti-obesity agent](http://purl.obolibrary.org/obo/CHEBI_74518) 
+
+
+### invertebrate nurse cell `http://purl.obolibrary.org/obo/CL_0000026`
+#### Removed
+- [invertebrate nurse cell](http://purl.obolibrary.org/obo/CL_0000026) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### inward rectifier potassium channel activity `http://purl.obolibrary.org/obo/GO_0005242`
@@ -81621,6 +83780,12 @@
 
 #### Added
 - [iridoid monoterpenoid](http://purl.obolibrary.org/obo/CHEBI_50563) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### iridophore `http://purl.obolibrary.org/obo/CL_0000431`
+#### Removed
+- [iridophore](http://purl.obolibrary.org/obo/CL_0000431) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### iron chaperone activity `http://purl.obolibrary.org/obo/GO_0034986`
@@ -82374,6 +84539,34 @@
 
 
 
+### keratinocyte `http://purl.obolibrary.org/obo/CL_0000312`
+#### Removed
+- [keratinocyte](http://purl.obolibrary.org/obo/CL_0000312) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An epithelial cell of stratified squamous tissues, including skin, oral mucosa (Hiroshima et al., 2011), and esophagus (Whelan et al., 2018), that produces keratin proteins and secretes antimicrobial peptides to form a resilient barrier against environmental damage, dehydration, pathogens, and microbial invasion. It undergoes successive stages of differentiation marked by changes in keratin expression, supporting tissue integrity, wound repair, and contributing to immune defense." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19256306" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19727116" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37873034" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15749908" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29713660" 
+
+#### Added
+- [keratinocyte](http://purl.obolibrary.org/obo/CL_0000312) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An epithelial cell of stratified squamous tissues, including skin, oral mucosa (Hiroshima et al., 2011), and esophagus (Whelan et al., 2018), that produces keratin proteins and secretes antimicrobial peptides to form a resilient barrier against environmental damage, dehydration, pathogens, and microbial invasion. It undergoes successive stages of differentiation marked by changes in keratin expression, supporting tissue integrity, wound repair, and contributing to immune defense." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21316034" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19256306" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19727116" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37873034" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15749908" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29713660" 
+
+
 ### keratolytic drug `http://purl.obolibrary.org/obo/CHEBI_50176`
 
 #### Added
@@ -82724,6 +84917,42 @@
 - [ketotriose derivative](http://purl.obolibrary.org/obo/CHEBI_63407) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### kidney granular cell `http://purl.obolibrary.org/obo/CL_0000648`
+#### Removed
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "juxtaglomerular cell" 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:84138" 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "JG cell" 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "renin secreting cell" 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A smooth muscle cell that synthesizes, stores, and secretes the enzyme renin. This cell type are located in the wall of the afferent arteriole at the entrance to the glomerulus. While having a different origin than other kidney smooth muscle cells, this cell type expresses smooth muscle actin upon maturation." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11457727" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:cvs" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ZFA:0005238" 
+  - [mapping_justification](https://w3id.org/sssom/mapping_justification) [UnspecifiedMatching](https://w3id.org/semapv/vocab/UnspecifiedMatching) 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) [label](http://www.w3.org/2000/01/rdf-schema#label) "kidney granular cell" 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) EquivalentTo [secretory cell](http://purl.obolibrary.org/obo/CL_0000151) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [kidney](http://purl.obolibrary.org/obo/UBERON_0002113)) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [renin secretion into blood stream](http://purl.obolibrary.org/obo/GO_0002001)) 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) SubClassOf [protein secreting cell](http://purl.obolibrary.org/obo/CL_0000154) 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) SubClassOf [smooth muscle cell](http://purl.obolibrary.org/obo/CL_0000192) 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) SubClassOf [juxtaglomerular complex cell](http://purl.obolibrary.org/obo/CL_1000618) 
+
+- [kidney granular cell](http://purl.obolibrary.org/obo/CL_0000648) SubClassOf [capable of](http://purl.obolibrary.org/obo/RO_0002215) some [renin secretion into blood stream](http://purl.obolibrary.org/obo/GO_0002001) 
+
+
+
 ### kidney lymphatic vessel `http://purl.obolibrary.org/obo/UBERON_8930105`
 
 #### Added
@@ -82753,6 +84982,12 @@
 - [kidney lymphatic vessel](http://purl.obolibrary.org/obo/UBERON_8930105) SubClassOf [lymphatic vessel](http://purl.obolibrary.org/obo/UBERON_0001473) 
 
 - [kidney lymphatic vessel](http://purl.obolibrary.org/obo/UBERON_8930105) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [kidney](http://purl.obolibrary.org/obo/UBERON_0002113) 
+
+
+### kidney nerve cell `http://purl.obolibrary.org/obo/CL_1000606`
+#### Removed
+- [kidney nerve cell](http://purl.obolibrary.org/obo/CL_1000606) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### kievitone-7-olate `http://purl.obolibrary.org/obo/CHEBI_57914`
@@ -82934,6 +85169,20 @@
 - [laminin receptor activity](http://purl.obolibrary.org/obo/GO_0005055) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Note that this term represents an activity and not a gene product." 
 
 
+### langerin-positive lymph node dendritic cell `http://purl.obolibrary.org/obo/CL_0002507`
+#### Removed
+- [langerin-positive lymph node dendritic cell](http://purl.obolibrary.org/obo/CL_0002507) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A dermal dendritic cell isolated from skin draining lymph nodes that is langerin-positive, MHC-II-positive, and CD4-negative and CD8a-negative." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://www.immgen.org/index_content.html" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [langerin-positive lymph node dendritic cell](http://purl.obolibrary.org/obo/CL_0002507) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A dendritic cell originating in the dermis and isolated from skin draining lymph nodes that is langerin-positive, MHC-II-positive, and CD4-negative and CD8a-negative." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://www.immgen.org/index_content.html" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### lanostane derivative `http://purl.obolibrary.org/obo/CHEBI_131632`
 
 #### Added
@@ -83054,6 +85303,57 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12461556" 
 
 
+### lateral ganglionic eminence derived GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020126`
+
+#### Added
+- Class: [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3789" 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [date](http://purl.org/dc/terms/date) "2026-10-15T13:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "LGE-derived GABAergic neuron" 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that develops from the lateral ganglionic eminence. This class is region-free and encompasses striatal medium spiny neurons and arkypallidal neurons of lateral-ganglionic-eminence origin, among other lateral-ganglionic-eminence-derived GABAergic types." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:10377350" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12637172" 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) [label](http://www.w3.org/2000/01/rdf-schema#label) "lateral ganglionic eminence derived GABAergic neuron" 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([develops from](http://purl.obolibrary.org/obo/RO_0002202) some [UBERON_0004025](http://purl.obolibrary.org/obo/UBERON_0004025)) 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) SubClassOf [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) 
+
+- [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) SubClassOf [lateral ganglionic eminence derived neuron](http://purl.obolibrary.org/obo/CL_4023035) 
+
+
+### lateral ganglionic eminence derived neuron `http://purl.obolibrary.org/obo/CL_4023035`
+#### Removed
+- [lateral ganglionic eminence derived neuron](http://purl.obolibrary.org/obo/CL_4023035) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+#### Added
+- [lateral ganglionic eminence derived neuron](http://purl.obolibrary.org/obo/CL_4023035) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [lateral ganglionic eminence derived neuron](http://purl.obolibrary.org/obo/CL_4023035) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
+### lateral line ganglion neuron `http://purl.obolibrary.org/obo/CL_2000031`
+#### Removed
+- [lateral line ganglion neuron](http://purl.obolibrary.org/obo/CL_2000031) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### lateral ventricle neuron `http://purl.obolibrary.org/obo/CL_1001582`
+
+#### Added
+- [lateral ventricle neuron](http://purl.obolibrary.org/obo/CL_1001582) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
 ### laudanine `http://purl.obolibrary.org/obo/CHEBI_76103`
 
 #### Added
@@ -83113,6 +85413,20 @@
 
 #### Added
 - [legionaminic acid](http://purl.obolibrary.org/obo/CHEBI_68676) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### lens fiber cell `http://purl.obolibrary.org/obo/CL_0011004`
+#### Removed
+- [lens fiber cell](http://purl.obolibrary.org/obo/CL_0011004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vetebrate lens cell that is any of the elongated, tightly packed cells that make up the bulk of the mature lens in a camera-type eye." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO:0070307" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nv" 
+
+#### Added
+- [lens fiber cell](http://purl.obolibrary.org/obo/CL_0011004) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A vertebrate lens cell that is any of the elongated, tightly packed cells that make up the bulk of the mature lens in a camera-type eye." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO:0070307" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:nv" 
 
 
 ### leprostatic drug `http://purl.obolibrary.org/obo/CHEBI_35816`
@@ -83185,6 +85499,12 @@
 - [leucomycin](http://purl.obolibrary.org/obo/CHEBI_25022) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### leucophore `http://purl.obolibrary.org/obo/CL_0000571`
+#### Removed
+- [leucophore](http://purl.obolibrary.org/obo/CL_0000571) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### leucyl-tRNA aminoacylation `http://purl.obolibrary.org/obo/GO_0006429`
 #### Removed
 - [leucyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006429) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The process of coupling leucine to leucyl-tRNA, catalyzed by leucyl-tRNA synthetase. The leucyl-tRNA synthetase is a class-I synthetase. The activated amino acid is transferred to the 2'-OH group of a leucine-accetping tRNA. The 2'-O-aminoacyl-tRNA will ultimately migrate to the 3' position via transesterification." 
@@ -83213,6 +85533,12 @@
 - [leucyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006429) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "The reason for obsoletion is that this term restates an existing molecular function, GO:0004823 leucine-tRNA ligase activity, and adds nothing beyond it. Gene products should be annotated to that molecular function; the biological process is covered by GO:0006418 tRNA aminoacylation for protein translation." 
 
 - [leucyl-tRNA aminoacylation](http://purl.obolibrary.org/obo/GO_0006429) [label](http://www.w3.org/2000/01/rdf-schema#label) "obsolete leucyl-tRNA aminoacylation" 
+
+
+### leukocyte `http://purl.obolibrary.org/obo/CL_0000738`
+#### Removed
+- [leukocyte](http://purl.obolibrary.org/obo/CL_0000738) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### leukocyte mediated cytotoxicity `http://purl.obolibrary.org/obo/GO_0001909`
@@ -84092,6 +86418,38 @@
 - [local anaesthetic](http://purl.obolibrary.org/obo/CHEBI_36333) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### local interneuron `http://purl.obolibrary.org/obo/CL_0004001`
+
+#### Added
+- Class: [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An interneuron whose axon (if present) arborizes only within the anatomical region that contains its soma, such as a cortical area, a nucleus, a layered structure such as the retina or cerebellar cortex, or a neuropil. Contrasts with the projection neurons of that region." 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "interneuron" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "BAMS:1002" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "intrinsic neuron" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "local circuit neuron" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has_obo_namespace](http://www.geneontology.org/formats/oboInOwl#hasOBONamespace) "cell" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "CNS interneuron" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "Golgi type II neuron" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [id](http://www.geneontology.org/formats/oboInOwl#id) "CL:0004001" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Local interneurons form the category of interneurons whose axon stays entirely within the anatomical region (gray matter, neuropil, retina or other layered structure) that contains the soma (Swanson, 2003, p. 245; Bota and Swanson, 2007, Fig. 3). In vertebrate brain usage 'interneuron' is often used as a synonym for this class, but 'interneuron' is also used in a broader sense (see CL:0000099)." 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) [label](http://www.w3.org/2000/01/rdf-schema#label) "local interneuron" 
+
+- [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
 ### loganic acid `http://purl.obolibrary.org/obo/CHEBI_30632`
 
 #### Added
@@ -84407,10 +86765,22 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### lower motor neuron `http://purl.obolibrary.org/obo/CL_0008039`
+#### Removed
+- [lower motor neuron](http://purl.obolibrary.org/obo/CL_0008039) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### luciferin `http://purl.obolibrary.org/obo/CHEBI_25078`
 
 #### Added
 - [luciferin](http://purl.obolibrary.org/obo/CHEBI_25078) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### luminal epithelial cell of mammary gland `http://purl.obolibrary.org/obo/CL_0002326`
+#### Removed
+- [luminal epithelial cell of mammary gland](http://purl.obolibrary.org/obo/CL_0002326) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### lung bud `http://purl.obolibrary.org/obo/UBERON_0000118`
@@ -84526,6 +86896,20 @@
 #### Removed
 - [lymphocyte mediated immunity](http://purl.obolibrary.org/obo/GO_0002449) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [lymphocyte](http://purl.obolibrary.org/obo/CL_0000542)) 
 
+
+
+### lymphoid MHC-II-negative non-classical monocyte `http://purl.obolibrary.org/obo/CL_0002475`
+#### Removed
+- [lymphoid MHC-II-negative non-classical monocyte](http://purl.obolibrary.org/obo/CL_0002475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A MHC-II-negative classical monocyte located in lymphoid tissue that is F4/80-positive, CD11c-intermediate, and CD11b-high." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://www.immgen.org/index_content.html" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [lymphoid MHC-II-negative non-classical monocyte](http://purl.obolibrary.org/obo/CL_0002475) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A MHC-II-negative non-classical monocyte located in lymphoid tissue that is F4/80-positive, CD11c-intermediate, and CD11b-high." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://www.immgen.org/index_content.html" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
 
 
 ### lysidine `http://purl.obolibrary.org/obo/CHEBI_64328`
@@ -85085,6 +87469,12 @@
 - [macronutrient](http://purl.obolibrary.org/obo/CHEBI_33937) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### macrophage derived foam cell `http://purl.obolibrary.org/obo/CL_0000517`
+#### Removed
+- [macrophage derived foam cell](http://purl.obolibrary.org/obo/CL_0000517) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### macropolylide `http://purl.obolibrary.org/obo/CHEBI_145555`
 
 #### Added
@@ -85517,6 +87907,14 @@
 
 #### Added
 - [mammalian metabolite](http://purl.obolibrary.org/obo/CHEBI_75768) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### mammillary body neuron `http://purl.obolibrary.org/obo/CL_4023074`
+
+#### Added
+- [mammillary body neuron](http://purl.obolibrary.org/obo/CL_4023074) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [mammillary body neuron](http://purl.obolibrary.org/obo/CL_4023074) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
 
 
 ### manchette `http://purl.obolibrary.org/obo/GO_0002177`
@@ -86084,6 +88482,60 @@
 - [marine xenobiotic metabolite](http://purl.obolibrary.org/obo/CHEBI_83399) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### mast cell `http://purl.obolibrary.org/obo/CL_0000097`
+#### Removed
+- [mast cell](http://purl.obolibrary.org/obo/CL_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell that is found in almost all tissues containing numerous basophilic granules and capable of releasing large amounts of histamine and heparin upon activation. Progenitors leave bone marrow and mature in connective and mucosal tissue. Mature mast cells are found in all tissues, except the bloodstream. Their phenotype is CD117-high, CD123-negative, CD193-positive, CD200R3-positive, and FceRI-high. Stem-cell factor (KIT-ligand; SCF) is the main controlling signal of their survival and development." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC2855166" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19671378" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:212366338" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D008407" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15153310" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC1312421" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16455980" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9354811" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:068340007X" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [mast cell](http://purl.obolibrary.org/obo/CL_0000097) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell that is found in almost all tissues containing numerous basophilic granules and capable of releasing large amounts of histamine and heparin upon activation. Progenitors leave bone marrow and mature in connective and mucosal tissue. Mature mast cells are found in all tissues, except the bloodstream. Their phenotype is CD117-high, CD123-negative, CD193-positive, CD200R3-positive, and FceRI-high. Stem-cell factor (KIT-ligand; SCF) is the main controlling signal of their survival and development." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC2855166" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:21236338" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:19671378" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D008407" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15153310" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMCID:PMC1312421" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16455980" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:9354811" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:068340007X" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### mast cell mediated immunity `http://purl.obolibrary.org/obo/GO_0002448`
 #### Removed
 - [mast cell mediated immunity](http://purl.obolibrary.org/obo/GO_0002448) EquivalentTo [immune system process](http://purl.obolibrary.org/obo/GO_0002376) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [mast cell](http://purl.obolibrary.org/obo/CL_0000097)) 
@@ -86136,6 +88588,26 @@
 
 
 
+### medium spiny neuron `http://purl.obolibrary.org/obo/CL_1001474`
+#### Removed
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) SubClassOf [lateral ganglionic eminence derived neuron](http://purl.obolibrary.org/obo/CL_4023035) 
+
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [corpus striatum](http://purl.obolibrary.org/obo/UBERON_0000369) 
+
+#### Added
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3839](https://github.com/obophenotype/cell-ontology/issues/3839) 
+
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) SubClassOf [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) 
+
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) SubClassOf [lateral ganglionic eminence derived GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020126) 
+
+- [medium spiny neuron](http://purl.obolibrary.org/obo/CL_1001474) SubClassOf [GABAergic projection neuron](http://purl.obolibrary.org/obo/CL_0020140) 
+
+
 ### medium-chain fatty acid `http://purl.obolibrary.org/obo/CHEBI_59554`
 
 #### Added
@@ -86171,12 +88643,88 @@
 - [medium-chain fatty aldehyde dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0052814) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [88111](http://rdf.rhea-db.org/88111) 
 
 
+### medulla oblongata GABA-Gly neuron `http://purl.obolibrary.org/obo/CL_0020096`
+
+#### Added
+- Class: [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABA-Gly neuron that has its soma located in the medulla oblongata." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) [label](http://www.w3.org/2000/01/rdf-schema#label) "medulla oblongata GABA-Gly neuron" 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) EquivalentTo [GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0008059) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [medulla oblongata](http://purl.obolibrary.org/obo/UBERON_0001896)) 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) SubClassOf [hindbrain GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020098) 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) SubClassOf [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) 
+
+- [medulla oblongata GABA-Gly neuron](http://purl.obolibrary.org/obo/CL_0020096) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [medulla oblongata](http://purl.obolibrary.org/obo/UBERON_0001896) 
+
+
+### medulla oblongata glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020095`
+
+#### Added
+- Class: [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the medulla oblongata." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) [label](http://www.w3.org/2000/01/rdf-schema#label) "medulla oblongata glutamatergic neuron" 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [medulla oblongata](http://purl.obolibrary.org/obo/UBERON_0001896)) 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) SubClassOf [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) SubClassOf [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) 
+
+- [medulla oblongata glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020095) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [medulla oblongata](http://purl.obolibrary.org/obo/UBERON_0001896) 
+
+
+### megakaryocyte progenitor cell `http://purl.obolibrary.org/obo/CL_0000553`
+#### Removed
+- [megakaryocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0000553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The earliest cytologically identifiable precursor in the thrombocytic series. This cell is capable of endomitosis and lacks expression of hematopoieitic lineage markers (lin-negative)." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0721601464" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [megakaryocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0000553) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "The earliest cytologically identifiable precursor in the thrombocytic series. This cell is capable of endomitosis and lacks expression of hematopoietic lineage markers (lin-negative)." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0721601464" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
+### meiosis I cell cycle process `http://purl.obolibrary.org/obo/GO_0061982`
+
+#### Added
+- [meiosis I cell cycle process](http://purl.obolibrary.org/obo/GO_0061982) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
 ### meiosis II cell cycle process `http://purl.obolibrary.org/obo/GO_0061983`
 #### Removed
 - [meiosis II cell cycle process](http://purl.obolibrary.org/obo/GO_0061983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that coontributes to the second meiotic division. The second meiotic division separates chromatids resulting in a haploid number of chromosomes." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29385397" 
 
 #### Added
+- [meiosis II cell cycle process](http://purl.obolibrary.org/obo/GO_0061983) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
 - [meiosis II cell cycle process](http://purl.obolibrary.org/obo/GO_0061983) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A process that contributes to the second meiotic division. The second meiotic division separates chromatids resulting in a haploid number of chromosomes." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:29385397" 
 
@@ -86213,6 +88761,12 @@
 
 #### Added
 - [melanin-concentrating hormone receptor antagonist](http://purl.obolibrary.org/obo/CHEBI_139155) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### melanocyte `http://purl.obolibrary.org/obo/CL_0000148`
+#### Removed
+- [melanocyte](http://purl.obolibrary.org/obo/CL_0000148) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### melatonin `http://purl.obolibrary.org/obo/CHEBI_16796`
@@ -86381,6 +88935,12 @@
 - [mesaconyl-CoA](http://purl.obolibrary.org/obo/CHEBI_27969) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### mesangial cell `http://purl.obolibrary.org/obo/CL_0000650`
+#### Removed
+- [mesangial cell](http://purl.obolibrary.org/obo/CL_0000650) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### mesenchyme of umbilical cord `http://purl.obolibrary.org/obo/UBERON_0003422`
 
 #### Added
@@ -86407,6 +88967,12 @@
 - [meso-2,6-diaminopimelic acid](http://purl.obolibrary.org/obo/CHEBI_16488) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### meso-epithelial cell `http://purl.obolibrary.org/obo/CL_0002078`
+#### Removed
+- [meso-epithelial cell](http://purl.obolibrary.org/obo/CL_0002078) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### meso-tartaric acid `http://purl.obolibrary.org/obo/CHEBI_15673`
 
 #### Added
@@ -86417,6 +88983,47 @@
 
 #### Added
 - [meso-tartrate(1-)](http://purl.obolibrary.org/obo/CHEBI_35400) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### mesothelial cell of fat `http://purl.obolibrary.org/obo/CL_0020119`
+
+#### Added
+- Class: [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3805" 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [contributor](http://purl.org/dc/terms/contributor) [0009-0003-5092-2089](https://orcid.org/0009-0003-5092-2089) 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [date](http://purl.org/dc/terms/date) "2026-10-16T00:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "mesothelial cell of visceral abdominal adipose tissue" 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [has_related_synonym](http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym) "mesothelial cell of visceral adipose tissue" 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A mesothelial cell that is part of adipose tissue, forming the surface mesothelial layer that lines fat depots. In both humans and mice, mesothelial cells of adult visceral adipose tissue express the markers Krt19 and Wt1. This cell contributes to immune regulation and tissue remodeling at the serosal interface of adipose tissue." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37886999" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41594625" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:24609269" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:41397972" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26412153" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32294409" 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) [label](http://www.w3.org/2000/01/rdf-schema#label) "mesothelial cell of fat" 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) EquivalentTo [mesothelial cell](http://purl.obolibrary.org/obo/CL_0000077) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [adipose tissue](http://purl.obolibrary.org/obo/UBERON_0001013)) 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) SubClassOf [mesothelial cell](http://purl.obolibrary.org/obo/CL_0000077) 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) SubClassOf [connective tissue cell](http://purl.obolibrary.org/obo/CL_0002320) 
+
+- [mesothelial cell of fat](http://purl.obolibrary.org/obo/CL_0020119) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [adipose tissue](http://purl.obolibrary.org/obo/UBERON_0001013) 
 
 
 ### metabolite `http://purl.obolibrary.org/obo/CHEBI_25212`
@@ -88260,6 +90867,112 @@
 - [microtubule-stabilising agent](http://purl.obolibrary.org/obo/CHEBI_61950) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### mid crypt colonocyte `http://purl.obolibrary.org/obo/CL_0019042`
+
+#### Added
+- Class: [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A colonocyte located partway up the colonic crypt of Lieberkuhn, in which the apical microvilli and absorptive transporter expression characteristic of the mature state are partially but not fully developed." 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) [label](http://www.w3.org/2000/01/rdf-schema#label) "mid crypt colonocyte"@en 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) SubClassOf [colonocyte](http://purl.obolibrary.org/obo/CL_0019036) 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) SubClassOf [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) 
+
+- [mid crypt colonocyte](http://purl.obolibrary.org/obo/CL_0019042) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [early colonocyte](http://purl.obolibrary.org/obo/CL_4047018) 
+
+
+### mid villus enterocyte `http://purl.obolibrary.org/obo/CL_0019041`
+
+#### Added
+- Class: [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte located partway up the intestinal villus, in which the apical microvilli and absorptive transporter expression characteristic of the mature state are partially but not fully developed." 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) [label](http://www.w3.org/2000/01/rdf-schema#label) "mid villus enterocyte"@en 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) SubClassOf [intermediate enterocyte](http://purl.obolibrary.org/obo/CL_0019040) 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) SubClassOf [enterocyte of epithelium of intestinal villus](http://purl.obolibrary.org/obo/CL_1000335) 
+
+- [mid villus enterocyte](http://purl.obolibrary.org/obo/CL_0019041) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [early enterocyte](http://purl.obolibrary.org/obo/CL_4047019) 
+
+
+### midbrain GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020091`
+
+#### Added
+- Class: [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the midbrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) [label](http://www.w3.org/2000/01/rdf-schema#label) "midbrain GABAergic neuron" 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [midbrain](http://purl.obolibrary.org/obo/UBERON_0001891)) 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) SubClassOf [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [midbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020091) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [midbrain](http://purl.obolibrary.org/obo/UBERON_0001891) 
+
+
+### midbrain dopaminergic neuron `http://purl.obolibrary.org/obo/CL_2000097`
+
+#### Added
+- [midbrain dopaminergic neuron](http://purl.obolibrary.org/obo/CL_2000097) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [midbrain dopaminergic neuron](http://purl.obolibrary.org/obo/CL_2000097) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+
+### midbrain glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020090`
+
+#### Added
+- Class: [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the midbrain." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) [label](http://www.w3.org/2000/01/rdf-schema#label) "midbrain glutamatergic neuron" 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [midbrain](http://purl.obolibrary.org/obo/UBERON_0001891)) 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) SubClassOf [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+- [midbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020090) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [midbrain](http://purl.obolibrary.org/obo/UBERON_0001891) 
+
+
+### midbrain-derived inhibitory neuron `http://purl.obolibrary.org/obo/CL_4023079`
+
+#### Added
+- [midbrain-derived inhibitory neuron](http://purl.obolibrary.org/obo/CL_4023079) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [midbrain-derived inhibitory neuron](http://purl.obolibrary.org/obo/CL_4023079) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
 ### mineral `http://purl.obolibrary.org/obo/CHEBI_46662`
 
 #### Added
@@ -89475,6 +92188,14 @@
 
 
 
+### molecular layer interneuron `http://purl.obolibrary.org/obo/CL_4042035`
+#### Removed
+- [molecular layer interneuron](http://purl.obolibrary.org/obo/CL_4042035) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [molecular layer of cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002974)) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [gamma-aminobutyric acid secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061534)) 
+
+#### Added
+- [molecular layer interneuron](http://purl.obolibrary.org/obo/CL_4042035) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [molecular layer of cerebellar cortex](http://purl.obolibrary.org/obo/UBERON_0002974)) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [gamma-aminobutyric acid secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061534)) 
+
+
 ### molecular messenger `http://purl.obolibrary.org/obo/CHEBI_33280`
 
 #### Added
@@ -90482,6 +93203,18 @@
 - [mucopolysaccharide](http://purl.obolibrary.org/obo/CHEBI_37395) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### mucous cell of stomach `http://purl.obolibrary.org/obo/CL_0002180`
+#### Removed
+- [mucous cell of stomach](http://purl.obolibrary.org/obo/CL_0002180) SubClassOf [secretory epithelial cell](http://purl.obolibrary.org/obo/CL_1100001) 
+
+
+
+### mucus secreting cell `http://purl.obolibrary.org/obo/CL_0000319`
+
+#### Added
+- [mucus secreting cell](http://purl.obolibrary.org/obo/CL_0000319) SubClassOf [secretory epithelial cell](http://purl.obolibrary.org/obo/CL_1100001) 
+
+
 ### mugineate(2-) `http://purl.obolibrary.org/obo/CHEBI_58505`
 
 #### Added
@@ -90685,6 +93418,12 @@
 - [muscarinic antagonist](http://purl.obolibrary.org/obo/CHEBI_48876) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### muscle cell `http://purl.obolibrary.org/obo/CL_0000187`
+#### Removed
+- [muscle cell](http://purl.obolibrary.org/obo/CL_0000187) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### muscle of back `http://purl.obolibrary.org/obo/UBERON_0002324`
 
 #### Added
@@ -90843,6 +93582,12 @@
 
 #### Added
 - [mydriatic agent](http://purl.obolibrary.org/obo/CHEBI_50513) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### myeloid cell `http://purl.obolibrary.org/obo/CL_0000763`
+#### Removed
+- [myeloid cell](http://purl.obolibrary.org/obo/CL_0000763) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### myeloid dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002372`
@@ -92494,6 +95239,18 @@
 - [network-forming collagen trimer](http://purl.obolibrary.org/obo/GO_0098642) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/geneontology/go-ontology/issues/32779"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 
+### neural crest derived neuron `http://purl.obolibrary.org/obo/CL_0000029`
+#### Removed
+- [neural crest derived neuron](http://purl.obolibrary.org/obo/CL_0000029) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### neural stem cell `http://purl.obolibrary.org/obo/CL_0000047`
+#### Removed
+- [neural stem cell](http://purl.obolibrary.org/obo/CL_0000047) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### neuraminate `http://purl.obolibrary.org/obo/CHEBI_25505`
 
 #### Added
@@ -92518,6 +95275,22 @@
 - [neuraminic acids](http://purl.obolibrary.org/obo/CHEBI_25508) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### neurectodermal cell `http://purl.obolibrary.org/obo/CL_0000133`
+#### Removed
+- [neurectodermal cell](http://purl.obolibrary.org/obo/CL_0000133) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "neurectoderm cell" 
+
+- [neurectodermal cell](http://purl.obolibrary.org/obo/CL_0000133) [label](http://www.w3.org/2000/01/rdf-schema#label) "neurectodermal cell" 
+
+#### Added
+- [neurectodermal cell](http://purl.obolibrary.org/obo/CL_0000133) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3595](https://github.com/obophenotype/cell-ontology/issues/3595) 
+
+- [neurectodermal cell](http://purl.obolibrary.org/obo/CL_0000133) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "neurectodermal cell" 
+
+- [neurectodermal cell](http://purl.obolibrary.org/obo/CL_0000133) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "neuroectoderm cell" 
+
+- [neurectodermal cell](http://purl.obolibrary.org/obo/CL_0000133) [label](http://www.w3.org/2000/01/rdf-schema#label) "neuroectodermal cell" 
+
+
 ### neuroendocrine system `http://purl.obolibrary.org/obo/UBERON_8600018`
 
 #### Added
@@ -92537,6 +95310,20 @@
 
 #### Added
 - [neuromuscular agent](http://purl.obolibrary.org/obo/CHEBI_51372) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### neuron associated cell `http://purl.obolibrary.org/obo/CL_0000095`
+#### Removed
+- [neuron associated cell](http://purl.obolibrary.org/obo/CL_0000095) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### neuron of the substantia nigra `http://purl.obolibrary.org/obo/CL_0002614`
+
+#### Added
+- [neuron of the substantia nigra](http://purl.obolibrary.org/obo/CL_0002614) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [neuron of the substantia nigra](http://purl.obolibrary.org/obo/CL_0002614) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
 
 
 ### neuronal ion channel clustering `http://purl.obolibrary.org/obo/GO_0045161`
@@ -93511,6 +96298,20 @@
 - [noradrenaline](http://purl.obolibrary.org/obo/CHEBI_33569) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### noradrenergic cell `http://purl.obolibrary.org/obo/CL_0000459`
+#### Removed
+- [noradrenergic cell](http://purl.obolibrary.org/obo/CL_0000459) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell capable of producting norepiniphrine. Norepiniphrine is a catecholamine with multiple roles including as a hormone and a neurotransmitter. In addition, epiniphrine is synthesized from norepiniphrine by the actions of the phenylethanolamine N-methyltransferase enzyme." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:068340007X" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [noradrenergic cell](http://purl.obolibrary.org/obo/CL_0000459) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A cell capable of producting norepinephrine. Norepinephrine is a catecholamine with multiple roles including as a hormone and a neurotransmitter. In addition, epinephrine is synthesized from norepinephrine by the actions of the phenylethanolamine N-methyltransferase enzyme." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:068340007X" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### norajmaline `http://purl.obolibrary.org/obo/CHEBI_7621`
 
 #### Added
@@ -93591,6 +96392,12 @@
 
 #### Added
 - [norsolorinic acid anthrone](http://purl.obolibrary.org/obo/CHEBI_71354) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### notochordal cell `http://purl.obolibrary.org/obo/CL_0007005`
+#### Removed
+- [notochordal cell](http://purl.obolibrary.org/obo/CL_0007005) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### novamethymycin `http://purl.obolibrary.org/obo/CHEBI_77652`
@@ -96359,6 +99166,158 @@
 - [oleoyl-CoA](http://purl.obolibrary.org/obo/CHEBI_15534) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### olfactory bulb GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020112`
+
+#### Added
+- Class: [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the olfactory bulb." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) [label](http://www.w3.org/2000/01/rdf-schema#label) "olfactory bulb GABAergic neuron" 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory bulb](http://purl.obolibrary.org/obo/UBERON_0002264)) 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) SubClassOf [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) 
+
+- [olfactory bulb GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020112) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory bulb](http://purl.obolibrary.org/obo/UBERON_0002264) 
+
+
+### olfactory bulb glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020113`
+
+#### Added
+- Class: [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the olfactory bulb." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) [label](http://www.w3.org/2000/01/rdf-schema#label) "olfactory bulb glutamatergic neuron" 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory bulb](http://purl.obolibrary.org/obo/UBERON_0002264)) 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) SubClassOf [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) 
+
+- [olfactory bulb glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020113) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory bulb](http://purl.obolibrary.org/obo/UBERON_0002264) 
+
+
+### olfactory bulb interneuron `http://purl.obolibrary.org/obo/CL_1001434`
+#### Removed
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A neuron residing in the olfactory bulb that serve to process and refine signals arising from olfactory sensory neurons" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18603310" 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory bulb](http://purl.obolibrary.org/obo/UBERON_0002264)) 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) SubClassOf [sensory neuron](http://purl.obolibrary.org/obo/CL_0000101) 
+
+#### Added
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A local interneuron of the olfactory bulb that processes and refines signals arising from olfactory sensory neurons before relay by mitral and tufted cells. Olfactory bulb projection neurons (mitral and tufted cells) are not included in this class." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:18603310" 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory bulb](http://purl.obolibrary.org/obo/UBERON_0002264)) 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+- [olfactory bulb interneuron](http://purl.obolibrary.org/obo/CL_1001434) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
+
+
+### olfactory bulb interneuron development `http://purl.obolibrary.org/obo/GO_0021891`
+#### Removed
+- [olfactory bulb interneuron development](http://purl.obolibrary.org/obo/GO_0021891) SubClassOf [central nervous system neuron development](http://purl.obolibrary.org/obo/GO_0021954) 
+
+#### Added
+- [olfactory bulb interneuron development](http://purl.obolibrary.org/obo/GO_0021891) SubClassOf [forebrain neuron development](http://purl.obolibrary.org/obo/GO_0021884) 
+
+
+### olfactory bulb interneuron differentiation `http://purl.obolibrary.org/obo/GO_0021889`
+#### Removed
+- [olfactory bulb interneuron differentiation](http://purl.obolibrary.org/obo/GO_0021889) SubClassOf [central nervous system neuron differentiation](http://purl.obolibrary.org/obo/GO_0021953) 
+
+#### Added
+- [olfactory bulb interneuron differentiation](http://purl.obolibrary.org/obo/GO_0021889) SubClassOf [forebrain neuron differentiation](http://purl.obolibrary.org/obo/GO_0021879) 
+
+
+### olfactory bulb tufted cell `http://purl.obolibrary.org/obo/CL_1001503`
+#### Removed
+- [olfactory bulb tufted cell](http://purl.obolibrary.org/obo/CL_1001503) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+#### Added
+- [olfactory bulb tufted cell](http://purl.obolibrary.org/obo/CL_1001503) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [olfactory bulb tufted cell](http://purl.obolibrary.org/obo/CL_1001503) SubClassOf [neuron of the forebrain](http://purl.obolibrary.org/obo/CL_0012001) 
+
+- [olfactory bulb tufted cell](http://purl.obolibrary.org/obo/CL_1001503) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+
+### olfactory bulb tufted cell development `http://purl.obolibrary.org/obo/GO_0061449`
+#### Removed
+- [olfactory bulb tufted cell development](http://purl.obolibrary.org/obo/GO_0061449) SubClassOf [central nervous system neuron development](http://purl.obolibrary.org/obo/GO_0021954) 
+
+#### Added
+- [olfactory bulb tufted cell development](http://purl.obolibrary.org/obo/GO_0061449) SubClassOf [forebrain neuron development](http://purl.obolibrary.org/obo/GO_0021884) 
+
+
+### olfactory lobe GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020114`
+
+#### Added
+- Class: [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the olfactory lobe." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) [label](http://www.w3.org/2000/01/rdf-schema#label) "olfactory lobe GABAergic neuron" 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory lobe](http://purl.obolibrary.org/obo/UBERON_0005366)) 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) SubClassOf [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) 
+
+- [olfactory lobe GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020114) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory lobe](http://purl.obolibrary.org/obo/UBERON_0005366) 
+
+
+### olfactory lobe glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020115`
+
+#### Added
+- Class: [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the olfactory lobe." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) [label](http://www.w3.org/2000/01/rdf-schema#label) "olfactory lobe glutamatergic neuron" 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory lobe](http://purl.obolibrary.org/obo/UBERON_0005366)) 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) SubClassOf [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) 
+
+- [olfactory lobe glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020115) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [olfactory lobe](http://purl.obolibrary.org/obo/UBERON_0005366) 
+
+
 ### oligoglycosylceramide `http://purl.obolibrary.org/obo/CHEBI_36520`
 
 #### Added
@@ -96638,6 +99597,18 @@
 
 #### Added
 - [onium compound](http://purl.obolibrary.org/obo/CHEBI_50312) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### oocyte `http://purl.obolibrary.org/obo/CL_0000023`
+#### Removed
+- [oocyte](http://purl.obolibrary.org/obo/CL_0000023) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### oogonial cell `http://purl.obolibrary.org/obo/CL_0000024`
+#### Removed
+- [oogonial cell](http://purl.obolibrary.org/obo/CL_0000024) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### ophthalmology drug `http://purl.obolibrary.org/obo/CHEBI_66981`
@@ -97375,6 +100346,12 @@
 
 #### Added
 - [osmotic diuretic](http://purl.obolibrary.org/obo/CHEBI_50504) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### osteoblast `http://purl.obolibrary.org/obo/CL_0000062`
+#### Removed
+- [osteoblast](http://purl.obolibrary.org/obo/CL_0000062) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### otolith development `http://purl.obolibrary.org/obo/GO_0048840`
@@ -98577,6 +101554,29 @@
 
 
 
+### pancreatic islet macrophage `http://purl.obolibrary.org/obo/CL_4082001`
+
+#### Added
+- Class: [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) 
+
+- [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) [contributor](http://purl.org/dc/terms/contributor) "https://orcid.org/0000-0003-2473-2313" 
+
+- [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A tissue-resident macrophage that is located on the pancreatic islet." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "wikipedia.en:Pancreatic_islet_macrophage" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:6377311" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31836875" 
+
+- [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) [label](http://www.w3.org/2000/01/rdf-schema#label) "pancreatic islet macrophage" 
+
+- [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) EquivalentTo [tissue-resident macrophage](http://purl.obolibrary.org/obo/CL_0000864) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [islet of Langerhans](http://purl.obolibrary.org/obo/UBERON_0000006)) 
+
+- [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) SubClassOf [tissue-resident macrophage](http://purl.obolibrary.org/obo/CL_0000864) 
+
+- [pancreatic islet macrophage](http://purl.obolibrary.org/obo/CL_4082001) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [islet of Langerhans](http://purl.obolibrary.org/obo/UBERON_0000006) 
+
+
 ### pantetheine 4'-phosphate `http://purl.obolibrary.org/obo/CHEBI_16858`
 
 #### Added
@@ -99495,6 +102495,40 @@
 
 #### Added
 - [perforant pathway to dendrate granule cell synapse](http://purl.obolibrary.org/obo/GO_0140240) [label](http://www.w3.org/2000/01/rdf-schema#label) "perforant pathway to dentate granule cell synapse" 
+
+
+### pericyte `http://purl.obolibrary.org/obo/CL_0000669`
+#### Removed
+- [pericyte](http://purl.obolibrary.org/obo/CL_0000669) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distingushing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16807374" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0721662544" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D020286" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20024907" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17986482" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [pericyte](http://purl.obolibrary.org/obo/CL_0000669) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An elongated, contractile cell found wrapped about precapillary arterioles outside the basement membrane. Pericytes are present in capillaries where proper adventitia and muscle layer are missing (thus distinguishing this cell type from adventitial cells). They are relatively undifferentiated and may become fibroblasts, macrophages, or smooth muscle cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:16807374" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0721662544" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:dsd" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "MESH:D020286" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20024907" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:17986482" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
 
 
 ### perillic acid `http://purl.obolibrary.org/obo/CHEBI_36999`
@@ -102505,6 +105539,26 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "FXIIa activates plasma kallikrein-kinin system" 
 
 
+### plasmacytoid dendritic cell `http://purl.obolibrary.org/obo/CL_0000784`
+#### Removed
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "DC2" 
+
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "type 2 DC" 
+
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) EquivalentTo [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [type I interferon production](http://purl.obolibrary.org/obo/GO_0032606)) 
+
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) SubClassOf [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451) 
+  - [is_inferred](http://www.geneontology.org/formats/oboInOwl#is_inferred) "true" 
+
+#### Added
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "plasmacytoid cell" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:33481643" 
+
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Recent evidence indicates that plasmacytoid dendritic cells (also referred to as plasmacytoid cells, PCs) are ontogenetically distinct from conventional dendritic cells (cDCs): they predominantly originate from a progenitor distinct from that which gives rise to most cDCs, they mainly have a lymphoid origin, and their gene expression profile is different from that of cDCs [PMID:33481643]." 
+
+- [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784) SubClassOf [dendritic cell](http://purl.obolibrary.org/obo/CL_0000451) 
+
+
 ### plasmacytoid dendritic cell cytokine production `http://purl.obolibrary.org/obo/GO_0002373`
 #### Removed
 - [plasmacytoid dendritic cell cytokine production](http://purl.obolibrary.org/obo/GO_0002373) EquivalentTo [cytokine production](http://purl.obolibrary.org/obo/GO_0001816) and ([process has causal agent](http://purl.obolibrary.org/obo/RO_0002608) some [plasmacytoid dendritic cell](http://purl.obolibrary.org/obo/CL_0000784)) 
@@ -103169,6 +106223,79 @@
 
 #### Added
 - [polyunsaturated fatty aldehyde](http://purl.obolibrary.org/obo/CHEBI_72692) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### pons GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020093`
+
+#### Added
+- Class: [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the pons." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) [label](http://www.w3.org/2000/01/rdf-schema#label) "pons GABAergic neuron" 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [pons](http://purl.obolibrary.org/obo/UBERON_0000988)) 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) SubClassOf [brainstem GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020100) 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) SubClassOf [hindbrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020134) 
+
+- [pons GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020093) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [pons](http://purl.obolibrary.org/obo/UBERON_0000988) 
+
+
+### pons glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020092`
+
+#### Added
+- Class: [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the pons." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) [label](http://www.w3.org/2000/01/rdf-schema#label) "pons glutamatergic neuron" 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [pons](http://purl.obolibrary.org/obo/UBERON_0000988)) 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) SubClassOf [hindbrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020097) 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) SubClassOf [brainstem glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020099) 
+
+- [pons glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020092) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [pons](http://purl.obolibrary.org/obo/UBERON_0000988) 
+
+
+### pons serotonergic neuron `http://purl.obolibrary.org/obo/CL_0020094`
+
+#### Added
+- Class: [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A serotonergic neuron that has its soma located in the pons." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) [label](http://www.w3.org/2000/01/rdf-schema#label) "pons serotonergic neuron" 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) EquivalentTo [serotonergic neuron](http://purl.obolibrary.org/obo/CL_0000850) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [pons](http://purl.obolibrary.org/obo/UBERON_0000988)) 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) SubClassOf [brainstem serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020137) 
+
+- [pons serotonergic neuron](http://purl.obolibrary.org/obo/CL_0020094) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [pons](http://purl.obolibrary.org/obo/UBERON_0000988) 
 
 
 ### porin activity `http://purl.obolibrary.org/obo/GO_0015288`
@@ -104818,6 +107945,12 @@
 - [premature acrosome loss](http://purl.obolibrary.org/obo/GO_0061948) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
+### premigratory neural crest cell `http://purl.obolibrary.org/obo/CL_0007004`
+#### Removed
+- [premigratory neural crest cell](http://purl.obolibrary.org/obo/CL_0007004) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### prenol kinase activity `http://purl.obolibrary.org/obo/GO_0052673`
 #### Removed
 - [prenol kinase activity](http://purl.obolibrary.org/obo/GO_0052673) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Catalysis of the reaction: prenol + nucleoside triphosphate = prenyl phosphate + nucleoside diphosphate activity." 
@@ -105042,6 +108175,26 @@
 
 
 
+### primary neuron (sensu Teleostei) `http://purl.obolibrary.org/obo/CL_0000530`
+#### Removed
+- [primary neuron (sensu Teleostei)](http://purl.obolibrary.org/obo/CL_0000530) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### primary oocyte `http://purl.obolibrary.org/obo/CL_0000654`
+#### Removed
+- [primary oocyte](http://purl.obolibrary.org/obo/CL_0000654) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A primary oocyte is an oocyte that has not completed female meosis I." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0721662544" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [primary oocyte](http://purl.obolibrary.org/obo/CL_0000654) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A primary oocyte is an oocyte that has not completed female meiosis I." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0721662544" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### pristanate-CoA ligase activity `http://purl.obolibrary.org/obo/GO_0070251`
 #### Removed
 - [pristanate-CoA ligase activity](http://purl.obolibrary.org/obo/GO_0070251) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-389632" 
@@ -105171,6 +108324,12 @@
 - [prodrug](http://purl.obolibrary.org/obo/CHEBI_50266) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### progenitor cell `http://purl.obolibrary.org/obo/CL_0011026`
+#### Removed
+- [progenitor cell](http://purl.obolibrary.org/obo/CL_0011026) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### progesterone `http://purl.obolibrary.org/obo/CHEBI_17026`
 
 #### Added
@@ -105237,6 +108396,36 @@
 
 #### Added
 - [prohormone](http://purl.obolibrary.org/obo/CHEBI_71212) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### projection neuron `http://purl.obolibrary.org/obo/CL_0020139`
+
+#### Added
+- Class: [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An interneuron whose axon leaves the anatomical region that contains its soma and forms synapses in one or more other regions of the nervous system." 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [date](http://purl.org/dc/terms/date) "2026-11-03T19:04:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "Golgi type I neuron" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "principal neuron" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "projection interneuron" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "relay interneuron" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [has narrow synonym](http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym) "relay neuron" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "In CL, projection neuron is restricted to interneurons (sensu lato). Sensory neurons and efferent neurons (motor, preganglionic autonomic and neurosecretory neurons) also have long axons and are included in some uses of the term, e.g. Golgi type I neuron; they are classified under afferent or efferent neuron instead. In developmental and transcriptomic usage, 'projection neuron' often names pallial glutamatergic (pyramidal-lineage) neurons as a class (see glutamatergic projection neuron); CL classification follows axonal projection, not lineage. Neurons with both local and long-range axons are projection neurons." 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) [label](http://www.w3.org/2000/01/rdf-schema#label) "projection neuron" 
+
+- [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
 
 
 ### prokaryotic metabolite `http://purl.obolibrary.org/obo/CHEBI_75787`
@@ -111462,6 +114651,16 @@
 - [pyocyanine](http://purl.obolibrary.org/obo/CHEBI_8653) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### pyramidal neuron `http://purl.obolibrary.org/obo/CL_0000598`
+#### Removed
+- [pyramidal neuron](http://purl.obolibrary.org/obo/CL_0000598) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "projection neuron" 
+
+#### Added
+- [pyramidal neuron](http://purl.obolibrary.org/obo/CL_0000598) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [pyramidal neuron](http://purl.obolibrary.org/obo/CL_0000598) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+
 ### pyran `http://purl.obolibrary.org/obo/CHEBI_35594`
 
 #### Added
@@ -112635,6 +115834,14 @@
 
 #### Added
 - [racemate](http://purl.obolibrary.org/obo/CHEBI_60911) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### radial glia-guided pyramidal neuron migration `http://purl.obolibrary.org/obo/GO_0140650`
+#### Removed
+- [radial glia-guided pyramidal neuron migration](http://purl.obolibrary.org/obo/GO_0140650) SubClassOf [neuron migration](http://purl.obolibrary.org/obo/GO_0001764) 
+
+#### Added
+- [radial glia-guided pyramidal neuron migration](http://purl.obolibrary.org/obo/GO_0140650) SubClassOf [interneuron migration](http://purl.obolibrary.org/obo/GO_1904936) 
 
 
 ### radiation protective agent `http://purl.obolibrary.org/obo/CHEBI_66987`
@@ -114110,6 +117317,30 @@
 - [respiratory burst after phagocytosis](http://purl.obolibrary.org/obo/GO_0045728) SubClassOf [preceded by](http://purl.obolibrary.org/obo/BFO_0000062) some [phagocytosis](http://purl.obolibrary.org/obo/GO_0006909) 
 
 
+### respiratory tract multiciliated cell `http://purl.obolibrary.org/obo/CL_4030034`
+
+#### Added
+- [respiratory tract multiciliated cell](http://purl.obolibrary.org/obo/CL_4030034) [depiction](http://xmlns.com/foaf/0.1/depiction) "http://purl.obolibrary.org/obo/cl/images/respiratory-tract-multiciliated-cells_PMID42485185_Fig1D-G.jpg" 
+  - [license](http://purl.org/dc/elements/1.1/license) "http://creativecommons.org/licenses/by/4.0/" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42485185" 
+
+  - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Figure 1 parts D to G from Vijayakumaran et al (2026) Cell Reports 45(7):117714
+
+D) 3D volume segmentations of an early differentiating and MCC apical regions shown in side view.
+
+(E) Top: high-magnification inset from (D) showing 3D reconstruction of a centriole rosette. Arrowheads indicate rosette with associated vesicle, growing axoneme (Ax), basal bodies (BB), and fibro-granular material (FGM; perimeter in gold highlights electron-dense region). Bottom: corresponding 2D SEM image overlaid with segmentation contours. Empty arrowheads indicate rosette, BB, and FGM.
+
+(F) Top: high-magnification inset from (D) of MCC volume. Arrowheads indicate fully formed Ax, rootlets (ROOT), BB, and aligned basal feet (BF). Bottom: corresponding 2D EM image overlaid with segmentation contours. Empty arrowheads indicate Ax, BB, mitochondria, and rootlets. rootlet segmentation contours are traced from the basal body proximal region toward the cytoplasmic interior across the full volume.
+
+(G) Organelle breakdown of the 3D FIB-SEM reconstruction." 
+
+- [respiratory tract multiciliated cell](http://purl.obolibrary.org/obo/CL_4030034) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://doi.org/10.25378/janelia.26239736" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "Reference data for 3D ultrastructure (FIB-SEM)" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:42485185" 
+
+
 ### respiratory-chain inhibitor `http://purl.obolibrary.org/obo/CHEBI_38497`
 
 #### Added
@@ -114155,6 +117386,32 @@
 - [reticuline](http://purl.obolibrary.org/obo/CHEBI_26533) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### reticulocyte `http://purl.obolibrary.org/obo/CL_0000558`
+#### Removed
+- [reticulocyte](http://purl.obolibrary.org/obo/CL_0000558) EquivalentTo [erythroid lineage cell](http://purl.obolibrary.org/obo/CL_0000764) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001002](http://purl.obolibrary.org/obo/PR_000001002)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001004](http://purl.obolibrary.org/obo/PR_000001004)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001012](http://purl.obolibrary.org/obo/PR_000001012)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001020](http://purl.obolibrary.org/obo/PR_000001020)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001024](http://purl.obolibrary.org/obo/PR_000001024)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001083](http://purl.obolibrary.org/obo/PR_000001083)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001084](http://purl.obolibrary.org/obo/PR_000001084)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001289](http://purl.obolibrary.org/obo/PR_000001289)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001839](http://purl.obolibrary.org/obo/PR_000001839)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001889](http://purl.obolibrary.org/obo/PR_000001889)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000002978](http://purl.obolibrary.org/obo/PR_000002978)) and ([RO_0002104](http://purl.obolibrary.org/obo/RO_0002104) some [PR_000001945](http://purl.obolibrary.org/obo/PR_000001945)) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971)) 
+
+- [reticulocyte](http://purl.obolibrary.org/obo/CL_0000558) SubClassOf [capable of](http://purl.obolibrary.org/obo/RO_0002215) some [extracellular exosome assembly](http://purl.obolibrary.org/obo/GO_0071971) 
+
+#### Added
+- [reticulocyte](http://purl.obolibrary.org/obo/CL_0000558) EquivalentTo [erythroid lineage cell](http://purl.obolibrary.org/obo/CL_0000764) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001002](http://purl.obolibrary.org/obo/PR_000001002)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001004](http://purl.obolibrary.org/obo/PR_000001004)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001012](http://purl.obolibrary.org/obo/PR_000001012)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001020](http://purl.obolibrary.org/obo/PR_000001020)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001024](http://purl.obolibrary.org/obo/PR_000001024)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001083](http://purl.obolibrary.org/obo/PR_000001083)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001084](http://purl.obolibrary.org/obo/PR_000001084)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001289](http://purl.obolibrary.org/obo/PR_000001289)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001839](http://purl.obolibrary.org/obo/PR_000001839)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000001889](http://purl.obolibrary.org/obo/PR_000001889)) and ([lacks_plasma_membrane_part](http://purl.obolibrary.org/obo/CL_4030046) some [PR_000002978](http://purl.obolibrary.org/obo/PR_000002978)) and ([RO_0002104](http://purl.obolibrary.org/obo/RO_0002104) some [PR_000001945](http://purl.obolibrary.org/obo/PR_000001945)) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182)) 
+
+- [reticulocyte](http://purl.obolibrary.org/obo/CL_0000558) SubClassOf [secretory cell](http://purl.obolibrary.org/obo/CL_0000151) 
+
+- [reticulocyte](http://purl.obolibrary.org/obo/CL_0000558) SubClassOf [capable of](http://purl.obolibrary.org/obo/RO_0002215) some [exosomal secretion](http://purl.obolibrary.org/obo/GO_1990182) 
+
+
+### retinal bipolar neuron `http://purl.obolibrary.org/obo/CL_0000748`
+#### Removed
+- [retinal bipolar neuron](http://purl.obolibrary.org/obo/CL_0000748) EquivalentTo [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [inner nuclear layer of retina](http://purl.obolibrary.org/obo/UBERON_0001791)) 
+
+- [retinal bipolar neuron](http://purl.obolibrary.org/obo/CL_0000748) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+#### Added
+- [retinal bipolar neuron](http://purl.obolibrary.org/obo/CL_0000748) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [retinal bipolar neuron](http://purl.obolibrary.org/obo/CL_0000748) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+
 ### retinal dehydrogenase (NAD+) activity `http://purl.obolibrary.org/obo/GO_0001758`
 #### Removed
 - [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5696101" 
@@ -114162,6 +117419,24 @@
 
 - [retinal dehydrogenase (NAD+) activity](http://purl.obolibrary.org/obo/GO_0001758) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-5362522" 
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "ALDHs oxidise atRAL to atRA" 
+
+
+
+### retinal ganglion cell `http://purl.obolibrary.org/obo/CL_0000740`
+#### Removed
+- [retinal ganglion cell](http://purl.obolibrary.org/obo/CL_0000740) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+- [retinal ganglion cell](http://purl.obolibrary.org/obo/CL_0000740) SubClassOf [neuron](http://purl.obolibrary.org/obo/CL_0000540) 
+
+#### Added
+- [retinal ganglion cell](http://purl.obolibrary.org/obo/CL_0000740) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [retinal ganglion cell](http://purl.obolibrary.org/obo/CL_0000740) SubClassOf [projection neuron](http://purl.obolibrary.org/obo/CL_0020139) 
+
+
+### retinal progenitor cell `http://purl.obolibrary.org/obo/CL_0002672`
+#### Removed
+- [retinal progenitor cell](http://purl.obolibrary.org/obo/CL_0002672) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
 
 
 
@@ -114331,6 +117606,12 @@
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:32588192" 
 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:26912865" 
+
+
+### retrotrapezoid nucleus neuron `http://purl.obolibrary.org/obo/CL_1000001`
+#### Removed
+- [retrotrapezoid nucleus neuron](http://purl.obolibrary.org/obo/CL_1000001) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### reverse gyrase activity `http://purl.obolibrary.org/obo/GO_0160097`
@@ -117317,10 +120598,66 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### skeletal muscle fiber `http://purl.obolibrary.org/obo/CL_0008002`
+#### Removed
+- [skeletal muscle fiber](http://purl.obolibrary.org/obo/CL_0008002) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transversely striated, synctial cell of skeletal muscle. It is formed when proliferating myoblasts exit the cell cycle, differentiate and fuse." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0323052908" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [skeletal muscle fiber](http://purl.obolibrary.org/obo/CL_0008002) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A transversely striated, syncytial cell of skeletal muscle. It is formed when proliferating myoblasts exit the cell cycle, differentiate and fuse." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0323052908" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+
 ### skin lightening agent `http://purl.obolibrary.org/obo/CHEBI_85046`
 
 #### Added
 - [skin lightening agent](http://purl.obolibrary.org/obo/CHEBI_85046) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### small intestine enterocyte `http://purl.obolibrary.org/obo/CL_0019035`
+
+#### Added
+- Class: [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte that is part of the epithelium of the small intestine." 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FMA:263096" 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "enterocyte of small intestine" 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) [label](http://www.w3.org/2000/01/rdf-schema#label) "small intestine enterocyte"@en 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) SubClassOf [enterocyte](http://purl.obolibrary.org/obo/CL_0019033) 
+
+- [small intestine enterocyte](http://purl.obolibrary.org/obo/CL_0019035) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of small intestine](http://purl.obolibrary.org/obo/UBERON_0001902) 
+
+
+### small intestine enterocyte progenitor cell `http://purl.obolibrary.org/obo/CL_0019038`
+
+#### Added
+- Class: [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enterocyte progenitor cell that is part of the epithelium of small intestine." 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) [contributor](http://purl.org/dc/terms/contributor) [X](https://orcid.org/0000-0003-2034-601X) 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) [date](http://purl.org/dc/terms/date) "2026-10-27T09:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) [label](http://www.w3.org/2000/01/rdf-schema#label) "small intestine enterocyte progenitor cell"@en 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) SubClassOf [enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019037) 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001241](http://purl.obolibrary.org/obo/UBERON_0001241) 
+
+- [small intestine enterocyte progenitor cell](http://purl.obolibrary.org/obo/CL_0019038) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) 
 
 
 ### small molecule metabolic process `http://purl.obolibrary.org/obo/GO_0044281`
@@ -117334,6 +120671,24 @@
 
 #### Added
 - [small nuclear RNA](http://purl.obolibrary.org/obo/CHEBI_74035) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### smooth muscle cell derived foam cell `http://purl.obolibrary.org/obo/CL_0000892`
+#### Removed
+- [smooth muscle cell derived foam cell](http://purl.obolibrary.org/obo/CL_0000892) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### smooth muscle cell of cecum `http://purl.obolibrary.org/obo/CL_1000281`
+
+#### Added
+- [smooth muscle cell of cecum](http://purl.obolibrary.org/obo/CL_1000281) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of large intestine](http://purl.obolibrary.org/obo/UBERON_0001278) 
+
+
+### smooth muscle cell of colon `http://purl.obolibrary.org/obo/CL_1000280`
+#### Removed
+- [smooth muscle cell of colon](http://purl.obolibrary.org/obo/CL_1000280) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of large intestine](http://purl.obolibrary.org/obo/UBERON_0001278) 
+
 
 
 ### sn-1-O-(geranylgeranyl)glycerol 3-phosphate `http://purl.obolibrary.org/obo/CHEBI_48868`
@@ -117819,6 +121174,12 @@
 
 #### Added
 - [specialised pro-resolving mediator](http://purl.obolibrary.org/obo/CHEBI_140399) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### sperm `http://purl.obolibrary.org/obo/CL_0000019`
+#### Removed
+- [sperm](http://purl.obolibrary.org/obo/CL_0000019) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### sperm DNA condensation `http://purl.obolibrary.org/obo/GO_0035092`
@@ -118417,6 +121778,12 @@
 - [sperm principal piece](http://purl.obolibrary.org/obo/GO_0097228) SubClassOf [in taxon](http://purl.obolibrary.org/obo/RO_0002162) some [Metazoa](http://purl.obolibrary.org/obo/NCBITaxon_33208) 
 
 
+### spermatid `http://purl.obolibrary.org/obo/CL_0000018`
+#### Removed
+- [spermatid](http://purl.obolibrary.org/obo/CL_0000018) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### spermatid development `http://purl.obolibrary.org/obo/GO_0007286`
 #### Removed
 - [spermatid development](http://purl.obolibrary.org/obo/GO_0007286) [never in taxon](http://purl.obolibrary.org/obo/RO_0002161) [Zygnematales](http://purl.obolibrary.org/obo/NCBITaxon_3176) 
@@ -118612,6 +121979,12 @@
 - [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) [label](http://www.w3.org/2000/01/rdf-schema#label) "spermatid residual body" 
 
 - [spermatid residual body](http://purl.obolibrary.org/obo/GO_7770129) SubClassOf [cellular anatomical structure](http://purl.obolibrary.org/obo/GO_0110165) 
+
+
+### spermatocyte `http://purl.obolibrary.org/obo/CL_0000017`
+#### Removed
+- [spermatocyte](http://purl.obolibrary.org/obo/CL_0000017) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### spermidine `http://purl.obolibrary.org/obo/CHEBI_16610`
@@ -118900,9 +122273,15 @@
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65624" 
 
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65628" 
+
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65632" 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65636" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65640" 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:65644" 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:76539" 
 
@@ -118976,9 +122355,15 @@
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65624](http://rdf.rhea-db.org/65624) 
 
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65628](http://rdf.rhea-db.org/65628) 
+
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65632](http://rdf.rhea-db.org/65632) 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65636](http://rdf.rhea-db.org/65636) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65640](http://rdf.rhea-db.org/65640) 
+
+- [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [65644](http://rdf.rhea-db.org/65644) 
 
 - [sphingoid base N-acyltransferase activity](http://purl.obolibrary.org/obo/GO_7770154) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [76539](http://rdf.rhea-db.org/76539) 
 
@@ -119195,6 +122580,33 @@
 - [sphingosylphosphocholine acid](http://purl.obolibrary.org/obo/CHEBI_52897) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### spinal cord interneuron `http://purl.obolibrary.org/obo/CL_0005000`
+#### Removed
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A CNS interneuron located in the spinal cord." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "CL:CVS" 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Is_a interneuron, part_of UBERON:0002240." 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [spinal cord](http://purl.obolibrary.org/obo/UBERON_0002240)) 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+  - [is_inferred](http://www.geneontology.org/formats/oboInOwl#is_inferred) "true" 
+
+#### Added
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A local interneuron whose soma and axon are confined to the spinal cord. This class includes long-range commissural and propriospinal cells that project within the spinal cord but excludes ascending (projection) tract neurons whose axons leave the spinal cord." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "CL:CVS" 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Is_a local interneuron, part_of UBERON:0002240 (spinal cord). Here 'local' means within the spinal cord as a whole; it does not require the axon to stay within one spinal segment." 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [spinal cord](http://purl.obolibrary.org/obo/UBERON_0002240)) 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
+
+- [spinal cord interneuron](http://purl.obolibrary.org/obo/CL_0005000) SubClassOf [central nervous system neuron](http://purl.obolibrary.org/obo/CL_2000029) 
+
+
 ### spiro compound `http://purl.obolibrary.org/obo/CHEBI_33599`
 
 #### Added
@@ -119373,6 +122785,24 @@
 
 #### Added
 - [stearoyl-L-carnitine](http://purl.obolibrary.org/obo/CHEBI_189710) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### stellate interneuron `http://purl.obolibrary.org/obo/CL_0000691`
+#### Removed
+- [stellate interneuron](http://purl.obolibrary.org/obo/CL_0000691) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any interneuron that has characteristic some stellate morphology." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBC:Autogenerated" 
+
+- [stellate interneuron](http://purl.obolibrary.org/obo/CL_0000691) EquivalentTo [interneuron](http://purl.obolibrary.org/obo/CL_0000099) and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0070010](http://purl.obolibrary.org/obo/PATO_0070010)) 
+
+- [stellate interneuron](http://purl.obolibrary.org/obo/CL_0000691) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+#### Added
+- [stellate interneuron](http://purl.obolibrary.org/obo/CL_0000691) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "Any local interneuron that has characteristic some stellate morphology." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "FBC:Autogenerated" 
+
+- [stellate interneuron](http://purl.obolibrary.org/obo/CL_0000691) EquivalentTo [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) and ([bearer of](http://purl.obolibrary.org/obo/RO_0000053) some [PATO_0070010](http://purl.obolibrary.org/obo/PATO_0070010)) 
+
+- [stellate interneuron](http://purl.obolibrary.org/obo/CL_0000691) SubClassOf [local interneuron](http://purl.obolibrary.org/obo/CL_0004001) 
 
 
 ### sterigmatocystins `http://purl.obolibrary.org/obo/CHEBI_26759`
@@ -119785,6 +123215,12 @@
 - [stipitatonic acid](http://purl.obolibrary.org/obo/CHEBI_16445) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### stomach neuroendocrine cell `http://purl.obolibrary.org/obo/CL_1000222`
+#### Removed
+- [stomach neuroendocrine cell](http://purl.obolibrary.org/obo/CL_1000222) SubClassOf [capable of](http://purl.obolibrary.org/obo/RO_0002215) some [acid secretion](http://purl.obolibrary.org/obo/GO_0046717) 
+
+
+
 ### store-operated calcium channel activity `http://purl.obolibrary.org/obo/GO_0015279`
 #### Removed
 - [store-operated calcium channel activity](http://purl.obolibrary.org/obo/GO_0015279) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "Reactome:R-HSA-434798" 
@@ -119814,6 +123250,12 @@
 
 #### Added
 - [straight-chain saturated fatty acid anion](http://purl.obolibrary.org/obo/CHEBI_58954) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### stratified epithelial cell `http://purl.obolibrary.org/obo/CL_0000079`
+#### Removed
+- [stratified epithelial cell](http://purl.obolibrary.org/obo/CL_0000079) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### streptamine `http://purl.obolibrary.org/obo/CHEBI_27955`
@@ -119907,10 +123349,57 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [LexicalMatching](https://w3id.org/semapv/vocab/LexicalMatching) 
 
 
+### striatum GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020107`
+
+#### Added
+- Class: [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the striatum." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) [label](http://www.w3.org/2000/01/rdf-schema#label) "striatum GABAergic neuron" 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [striatum](http://purl.obolibrary.org/obo/UBERON_0002435)) 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) SubClassOf [striatum neuron](http://purl.obolibrary.org/obo/CL_0002613) 
+
+- [striatum GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020107) SubClassOf [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) 
+
+
+### striatum neuron `http://purl.obolibrary.org/obo/CL_0002613`
+
+#### Added
+- [striatum neuron](http://purl.obolibrary.org/obo/CL_0002613) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+
 ### strictosidine aglycone `http://purl.obolibrary.org/obo/CHEBI_17096`
 
 #### Added
 - [strictosidine aglycone](http://purl.obolibrary.org/obo/CHEBI_17096) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### stromal cell `http://purl.obolibrary.org/obo/CL_0000499`
+#### Removed
+- [stromal cell](http://purl.obolibrary.org/obo/CL_0000499) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### stromal cell of ovary `http://purl.obolibrary.org/obo/CL_0002132`
+#### Removed
+- [stromal cell of ovary](http://purl.obolibrary.org/obo/CL_0002132) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A stomal cell of the ovary" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [stromal cell of ovary](http://purl.obolibrary.org/obo/CL_0002132) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [stromal cell of ovary](http://purl.obolibrary.org/obo/CL_0002132) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A stromal cell of the ovary" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
 
 
 ### structural constituent of nuclear pore `http://purl.obolibrary.org/obo/GO_0017056`
@@ -120763,6 +124252,12 @@
 
 #### Added
 - [sympathomimetic agent](http://purl.obolibrary.org/obo/CHEBI_35524) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### syncytial cell `http://purl.obolibrary.org/obo/CL_4052002`
+#### Removed
+- [syncytial cell](http://purl.obolibrary.org/obo/CL_4052002) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### synephrine `http://purl.obolibrary.org/obo/CHEBI_29081`
@@ -121629,6 +125124,56 @@
 - [telbivudine](http://purl.obolibrary.org/obo/CHEBI_63624) SubClassOf [has role](http://purl.obolibrary.org/obo/RO_0000087) some [anti-HBV agent](http://purl.obolibrary.org/obo/CHEBI_64951) 
 
 
+### telencephalon GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020130`
+
+#### Added
+- Class: [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the telencephalon." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) [label](http://www.w3.org/2000/01/rdf-schema#label) "telencephalon GABAergic neuron" 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [telencephalon](http://purl.obolibrary.org/obo/UBERON_0001893)) 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) SubClassOf [forebrain GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020128) 
+
+- [telencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020130) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [telencephalon](http://purl.obolibrary.org/obo/UBERON_0001893) 
+
+
+### telencephalon glutamatergic neuron `http://purl.obolibrary.org/obo/CL_0020111`
+
+#### Added
+- Class: [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) [date](http://purl.org/dc/terms/date) "2026-10-15T10:30:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A glutamatergic neuron that has its soma located in the telencephalon." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) [label](http://www.w3.org/2000/01/rdf-schema#label) "telencephalon glutamatergic neuron" 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) EquivalentTo [glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0000679) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [telencephalon](http://purl.obolibrary.org/obo/UBERON_0001893)) 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) SubClassOf [forebrain glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020127) 
+
+- [telencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020111) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [telencephalon](http://purl.obolibrary.org/obo/UBERON_0001893) 
+
+
 ### tellurium molecular entity `http://purl.obolibrary.org/obo/CHEBI_33305`
 
 #### Added
@@ -121675,6 +125220,14 @@
 - [temporal bone](http://purl.obolibrary.org/obo/UBERON_0001678) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/uberon/issues/3791"^^[anyURI](http://www.w3.org/2001/XMLSchema#anyURI) 
 
 - [temporal bone](http://purl.obolibrary.org/obo/UBERON_0001678) SubClassOf [neurocranium bone](http://purl.obolibrary.org/obo/UBERON_0011164) 
+
+
+### tendon cell `http://purl.obolibrary.org/obo/CL_0000388`
+#### Removed
+- [tendon cell](http://purl.obolibrary.org/obo/CL_0000388) SubClassOf [fibroblast of dense regular elastic tissue](http://purl.obolibrary.org/obo/CL_1000307) 
+
+#### Added
+- [tendon cell](http://purl.obolibrary.org/obo/CL_0000388) SubClassOf [fibroblast](http://purl.obolibrary.org/obo/CL_0000057) 
 
 
 ### tenuazonic acid `http://purl.obolibrary.org/obo/CHEBI_9440`
@@ -122544,6 +126097,77 @@
 
 #### Added
 - [tetronic acid phosphate](http://purl.obolibrary.org/obo/CHEBI_49062) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### thalamic excitatory neuron `http://purl.obolibrary.org/obo/CL_4023068`
+
+#### Added
+- Class: [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3791](https://github.com/obophenotype/cell-ontology/issues/3791) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) [3837](https://github.com/obophenotype/cell-ontology/issues/3837) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [contributor](http://purl.org/dc/terms/contributor) [0000-0001-7258-9596](http://orcid.org/0000-0001-7258-9596) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Abnormalities in glutametergic neurons of the thalamic complex are associated with pathologies such as schizophrenia, colorectal visceral pain and Parkinson's disease." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30083593" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:11532718" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38739251" 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An excitatory neuron that has its soma located in the dorsal plus ventral thalamus (corresponding to the thalamus in humans). This neuron type can be involved in a series of circuits related to sensory integration, motor integration, pain processing, social behaviour and reward response." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:30083593" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:38739251" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:31196673" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:35278647" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37163009" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:37824663" 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) [label](http://www.w3.org/2000/01/rdf-schema#label) "thalamic excitatory neuron" 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) EquivalentTo [neuron](http://purl.obolibrary.org/obo/CL_0000540) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal plus ventral thalamus](http://purl.obolibrary.org/obo/UBERON_0001897)) and ([capable of](http://purl.obolibrary.org/obo/RO_0002215) some [glutamate secretion, neurotransmission](http://purl.obolibrary.org/obo/GO_0061535)) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) SubClassOf [diencephalon glutamatergic neuron](http://purl.obolibrary.org/obo/CL_0020132) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) SubClassOf [glutamatergic projection neuron](http://purl.obolibrary.org/obo/CL_0020141) 
+
+- [thalamic excitatory neuron](http://purl.obolibrary.org/obo/CL_4023068) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal plus ventral thalamus](http://purl.obolibrary.org/obo/UBERON_0001897) 
+
+
+### thalamus GABAergic neuron `http://purl.obolibrary.org/obo/CL_0020129`
+
+#### Added
+- Class: [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) [term tracker item](http://purl.obolibrary.org/obo/IAO_0000233) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) [creator](http://purl.org/dc/terms/creator) "Claude" 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) [date](http://purl.org/dc/terms/date) "2026-10-30T12:00:00Z"^^[dateTime](http://www.w3.org/2001/XMLSchema#dateTime) 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A GABAergic neuron that has its soma located in the dorsal plus ventral thalamus (corresponding to the thalamus in humans)." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://github.com/obophenotype/cell-ontology/issues/3788" 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) [label](http://www.w3.org/2000/01/rdf-schema#label) "thalamus GABAergic neuron" 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) EquivalentTo [GABAergic neuron](http://purl.obolibrary.org/obo/CL_0000617) and ([has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal plus ventral thalamus](http://purl.obolibrary.org/obo/UBERON_0001897)) 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) SubClassOf [interneuron](http://purl.obolibrary.org/obo/CL_0000099) 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) SubClassOf [diencephalon GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020133) 
+
+- [thalamus GABAergic neuron](http://purl.obolibrary.org/obo/CL_0020129) SubClassOf [has soma location](http://purl.obolibrary.org/obo/RO_0002100) some [dorsal plus ventral thalamus](http://purl.obolibrary.org/obo/UBERON_0001897) 
 
 
 ### thebaine `http://purl.obolibrary.org/obo/CHEBI_9519`
@@ -123769,9 +127393,29 @@
   - [label](http://www.w3.org/2000/01/rdf-schema#label) "PECR reduces 2E-phytenoyl-CoA to phytanoyl-CoA" 
 
 #### Added
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44952" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44956" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44960" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44964" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:44968" 
+
 - [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87663" 
 
 - [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "RHEA:87667" 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44952](http://rdf.rhea-db.org/44952) 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44956](http://rdf.rhea-db.org/44956) 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44960](http://rdf.rhea-db.org/44960) 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44964](http://rdf.rhea-db.org/44964) 
+
+- [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [44968](http://rdf.rhea-db.org/44968) 
 
 - [trans-2-enoyl-CoA reductase (NADPH) activity](http://purl.obolibrary.org/obo/GO_0019166) [narrowMatch](http://www.w3.org/2004/02/skos/core#narrowMatch) [87663](http://rdf.rhea-db.org/87663) 
 
@@ -124355,6 +127999,133 @@
 
 
 
+### transit amplifying cell `http://purl.obolibrary.org/obo/CL_0009010`
+#### Removed
+- [transit amplifying cell](http://purl.obolibrary.org/obo/CL_0009010) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
+### transit amplifying cell of colon `http://purl.obolibrary.org/obo/CL_0009011`
+
+#### Added
+- Class: [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [contributor](http://purl.org/dc/terms/contributor) [0000-0002-2825-0621](https://orcid.org/0000-0002-2825-0621) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [has_broad_synonym](http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym) "transit amplifying cell of large intestine" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "colon transit amplifying cell" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transient amplifying cell of colon" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transient amplifying cell of crypt of Lieberkuhn of colon" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transit amplifying cell of crypt of Lieberkuhn of colon" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transit-amplifying cell of colon" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [location_grouping](http://purl.obolibrary.org/obo/pato#location_grouping) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [human_reference_atlas](http://purl.obolibrary.org/obo/uberon/core#human_reference_atlas) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [description](http://purl.org/dc/terms/description) "Transit amplifying cells (TACs) are an intermediate, undifferentiated population between stem cells and differentiated cells. They can be found in multiple regions such as the small intestine and the colon. TACs of the colon, are integral components of the colonic crypts and vital players in the maintenance of colonic tissue.  
+These cells serve a critical function in the rapid and constant renewal of the epithelium lining the colon, with the whole epithelial surface renewed approximately every 5-7 days. They divide rapidly and progressively differentiate into mature columnar epithelium cells, including enterocytes, goblet cells, and enteroendocrine cells. The continued proliferation of transit amplifying cells is fundamental to maintain the balance in cell population while preventing tissue degeneration and maintaining a state of homeostasis. However, uncontrolled proliferation and compromised differentiation capacity can contribute to the development of colon cancers.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "https://www.sciencedirect.com/topics/immunology-and-microbiology/intestinal-stem-cell" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.3389/fbioe.2023.1189225" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1016/j.cell.2014.02.057" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1053/j.gastro.2018.08.016" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1172/jci.insight.150894" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A rapidly proliferating population of cells that differentiate from stem cells of the intestinal crypt of the colon. Stem cells located in the crypts of Lieberk&uuml;hn give rise to proliferating progenitor or transit amplifying cells that differentiate into the four major epithelial cell types. These include columnar absorptive cells or enterocytes, mucous secreting goblet cells, enteroendocrine cells and paneth cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20801415" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0003-4183-8865" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_0009011" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "transit amplifying cell of colon on CELLxGENE CellGuide" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) [label](http://www.w3.org/2000/01/rdf-schema#label) "transit amplifying cell of colon" 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) EquivalentTo [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013485](http://purl.obolibrary.org/obo/UBERON_0013485)) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) SubClassOf [epithelial cell of large intestine](http://purl.obolibrary.org/obo/CL_0002253) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) SubClassOf [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0013485](http://purl.obolibrary.org/obo/UBERON_0013485) 
+
+- [transit amplifying cell of colon](http://purl.obolibrary.org/obo/CL_0009011) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [intestinal crypt stem cell of colon](http://purl.obolibrary.org/obo/CL_0009043) 
+
+
+### transit amplifying cell of small intestine `http://purl.obolibrary.org/obo/CL_0009012`
+
+#### Added
+- Class: [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [contributor](http://purl.org/dc/terms/contributor) [0000-0002-2825-0621](https://orcid.org/0000-0002-2825-0621) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "small intestine transit amplifying cell" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transient amplifying cell of crypt of Lieberkuhn of small intestine" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transient amplifying cell of small intestine" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transit amplifying cell of crypt of Lieberkuhn of small intestine" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [has exact synonym](http://www.geneontology.org/formats/oboInOwl#hasExactSynonym) "transit-amplifying cell of small intestine" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [cellxgene_subset](http://purl.obolibrary.org/obo/cl#cellxgene_subset) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [location_grouping](http://purl.obolibrary.org/obo/pato#location_grouping) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [depiction](http://xmlns.com/foaf/0.1/depiction) [Small-intestine-cells.png](http://purl.obolibrary.org/obo/cl/images/Small-intestine-cells.png) 
+  - [license](http://purl.org/dc/elements/1.1/license) "http://creativecommons.org/licenses/by/4.0/" 
+
+  - [comment](http://www.w3.org/2000/01/rdf-schema#comment) "Figure depicts a cross section of intestinal villi in the small intestine , including the crypts of Lieberkhun (seen here as &lsquo;crypt&rsquo;), as well as the layer specific locations of cells that exist within the gastrointestinal tract. Layers depicted here include epithelium (rows of cells bordering villus), submucosa (white space below the epithelium containing networks of neurons and ganglia depicted in pink), muscularis mucosae (blue layer), muscularis propria (referred to here as muscle layer).
+
+ISC: Intestinal Stem Cell 
+TA: Transit Amplifying Cells" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [description](http://purl.org/dc/terms/description) "Transit amplifying cells (TACs) represent an intermediate population between stem cells and fully differentiated cells, and can be found in multiple regions such as the colon and the small intestine. The small intestine's efficiency in absorbing nutrients, its protective barrier function, and its innate cellular renewal every few days is largely dependent on the role played by these TACs.
+TACs of the small intestine are primarily present in the crypt-villus structure of the intestine, more specifically in the crypt region. They originate from Lgr5+ intestinal stem cells that reside at the base of the crypts. Following their derivation from stem cells, TACs undergo up to six rounds of rapid division over a 48-72 hour period, effectively amplifying the cell population, hence their name. During this process, they gradually migrate upward along the walls of the crypt from where they differentiate into diverse mature cell types such as enterocytes, goblet cells, and Paneth cells. 
+TACs serve as an important element in the homeostasis and regeneration of the intestinal epithelium, amplifying the pool of cells available for differentiation. They also minimize genetic errors during DNA replication by serving as a 'buffer zone' between the long-lived stem cells and the terminal differentiated cells of the gut lining, thus reducing the potential for propagation of mutation-causing defects. Lastly, TACs play an essential part in gastrointestinal tissue repair following injury or inflammation. Their rapid proliferation and subsequent differentiation abilities often help expedite the wound healing process in the intestinal epithelium.
+
+(This extended description was generated by ChatGPT and reviewed by the CellGuide team, who added references, and by the CL editors, who approved it for inclusion in CL. It may contain information that applies only to some subtypes and species, and so should not be considered definitional.)" 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1016/j.cell.2014.02.057" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1101/gad.1674008" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "DOI:10.1007/s11894-010-0130-3" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A rapidly proliferating population of cells that differentiate from stem cells of the intestinal crypt of the small intestine. Stem cells located in the crypts of Lieberk&uuml;hn give rise to proliferating progenitor or transit amplifying cells that differentiate into the four major epithelial cell types. These include columnar absorptive cells or enterocytes, mucous secreting goblet cells, enteroendocrine cells and paneth cells." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:20801415" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "http://orcid.org/0000-0003-4183-8865" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "https://cellxgene.cziscience.com/cellguide/CL_0009012" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "transit amplifying cell of small intestine on CELLxGENE CellGuide" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) [label](http://www.w3.org/2000/01/rdf-schema#label) "transit amplifying cell of small intestine" 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) EquivalentTo [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001241](http://purl.obolibrary.org/obo/UBERON_0001241)) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) SubClassOf [epithelial cell of small intestine](http://purl.obolibrary.org/obo/CL_0002254) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) SubClassOf [transit amplifying cell of gut](http://purl.obolibrary.org/obo/CL_4047017) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) SubClassOf [part of](http://purl.obolibrary.org/obo/BFO_0000050) some [UBERON_0001241](http://purl.obolibrary.org/obo/UBERON_0001241) 
+
+- [transit amplifying cell of small intestine](http://purl.obolibrary.org/obo/CL_0009012) SubClassOf [RO_0002207](http://purl.obolibrary.org/obo/RO_0002207) some [intestinal crypt stem cell of small intestine](http://purl.obolibrary.org/obo/CL_0009017) 
+
+
 ### transition element atom `http://purl.obolibrary.org/obo/CHEBI_27081`
 
 #### Added
@@ -124383,6 +128154,32 @@
 
 #### Added
 - [transition element oxoanion](http://purl.obolibrary.org/obo/CHEBI_35405) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### transitional stage B cell `http://purl.obolibrary.org/obo/CL_0000818`
+#### Removed
+- [transitional stage B cell](http://purl.obolibrary.org/obo/CL_0000818) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An immature B cell of an intermediate stage between the pre-B cell stage and the mature naive stage with the phenotype surface IgM-positive and CD19-positive, and are subject to the process of B cell selection. A transitional B cell migrates from the bone marrow into the peripheral circulation, and then to the spleen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000031" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22343568" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12810111" 
+
+#### Added
+- [transitional stage B cell](http://purl.obolibrary.org/obo/CL_0000818) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A B cell of an intermediate stage between the pre-B cell stage and the mature naive stage with the phenotype surface IgM-positive and CD19-positive, and are subject to the process of B cell selection. A transitional B cell migrates from the bone marrow into the peripheral circulation, and then to the spleen." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0781735149" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GO_REF:0000031" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:22343568" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:add" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12810111" 
 
 
 ### transketolase activity `http://purl.obolibrary.org/obo/GO_0004802`
@@ -125548,6 +129345,12 @@
 - [tropan-3alpha-yl 3-hydroxy-2-phenylpropanoate](http://purl.obolibrary.org/obo/CHEBI_78734) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### trophoblast cell `http://purl.obolibrary.org/obo/CL_0000351`
+#### Removed
+- [trophoblast cell](http://purl.obolibrary.org/obo/CL_0000351) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+
+
 ### tropic acid `http://purl.obolibrary.org/obo/CHEBI_30765`
 
 #### Added
@@ -125728,6 +129531,26 @@
 
 
 
+### tuft cell of large intestine `http://purl.obolibrary.org/obo/CL_0002203`
+#### Removed
+- [tuft cell of large intestine](http://purl.obolibrary.org/obo/CL_0002203) SubClassOf [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) 
+
+#### Added
+- [tuft cell of large intestine](http://purl.obolibrary.org/obo/CL_0002203) SubClassOf [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) 
+
+
+### tuft cell of small intestine `http://purl.obolibrary.org/obo/CL_0009080`
+#### Removed
+- [tuft cell of small intestine](http://purl.obolibrary.org/obo/CL_0009080) EquivalentTo [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [small intestine](http://purl.obolibrary.org/obo/UBERON_0002108)) 
+
+- [tuft cell of small intestine](http://purl.obolibrary.org/obo/CL_0009080) SubClassOf [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019032) 
+
+#### Added
+- [tuft cell of small intestine](http://purl.obolibrary.org/obo/CL_0009080) EquivalentTo [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) and ([part of](http://purl.obolibrary.org/obo/BFO_0000050) some [epithelium of small intestine](http://purl.obolibrary.org/obo/UBERON_0001902)) 
+
+- [tuft cell of small intestine](http://purl.obolibrary.org/obo/CL_0009080) SubClassOf [intestinal tuft cell](http://purl.obolibrary.org/obo/CL_0019046) 
+
+
 ### tumour antigen `http://purl.obolibrary.org/obo/CHEBI_144829`
 
 #### Added
@@ -125772,6 +129595,21 @@
 - [tylosin](http://purl.obolibrary.org/obo/CHEBI_17658) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
 
 
+### type I enteroendocrine cell `http://purl.obolibrary.org/obo/CL_0002277`
+#### Removed
+- [type I enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002277) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enteroendocrine cell commonest in the duodenum and jejunum, rare in ileum, that secretes cholecystokinin. This cell type is involved in the regulation of digestive enzymes and bile." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [type I enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002277) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.cell.2018.12.029" 
+
+- [type I enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002277) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enteroendocrine cell commonest in the duodenum and jejunum, rare in ileum, that secretes cholecystokinin. This cell type is involved in the regulation of digestive enzymes and bile. This is a transcriptomically distinct type." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [type I enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002277) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "[geo:GSE113561]" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "reference transcriptomic data" 
+
+
 ### type III site-specific deoxyribonuclease complex `http://purl.obolibrary.org/obo/GO_0019813`
 #### Removed
 - [type III site-specific deoxyribonuclease complex](http://purl.obolibrary.org/obo/GO_0019813) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A heterodimeric enzyme complex composed of two subunits, Res and Mod, that functions as an endonuclease and cleaves DNA. Cleavage will only occur when there are two un-methylated copies of a specific recognition site in an inverse orientation on the DNA. Cleavage occurs at a specific distance away from one of the recognition sites. The Mod subunit can act alone as a methyltansferase. DNA restriction systems such as this are used by bacteria to defend against phage and other foreign DNA that may enter a cell." 
@@ -125780,6 +129618,40 @@
 #### Added
 - [type III site-specific deoxyribonuclease complex](http://purl.obolibrary.org/obo/GO_0019813) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A heterodimeric enzyme complex composed of two subunits, Res and Mod, that functions as an endonuclease and cleaves DNA. Cleavage will only occur when there are two un-methylated copies of a specific recognition site in an inverse orientation on the DNA. Cleavage occurs at a specific distance away from one of the recognition sites. The Mod subunit can act alone as a methyltransferase. DNA restriction systems such as this are used by bacteria to defend against phage and other foreign DNA that may enter a cell." 
   - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:12654995" 
+
+
+### type L enteroendocrine cell `http://purl.obolibrary.org/obo/CL_0002279`
+#### Removed
+- [type L enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A enteroendocrine cell type that is numerous in ileum, present in jejunum and large intestine, few in duodenum. This cell type produces glucagon-like immunoreactants (glicentin, glucagon-37, glucagon-29, GLP-1 and -2) and PYY." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0517223651" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15153415" 
+
+#### Added
+- [type L enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002279) [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "doi:10.1016/j.cell.2018.12.029" 
+
+- [type L enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002279) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "A enteroendocrine cell type that is numerous in ileum, present in jejunum and large intestine, few in duodenum. This cell type produces glucagon-like immunoreactants (glicentin, glucagon-37, glucagon-29, GLP-1 and -2) and PYY.This is a transcriptomically distinct type." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "ISBN:0517223651" 
+
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "PMID:15153415" 
+
+- [type L enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002279) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "[geo:GSE113561]" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "reference transcriptomic data" 
+
+
+### type N enteroendocrine cell `http://purl.obolibrary.org/obo/CL_0002280`
+#### Removed
+- [type N enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enteroendocrine cell found in the ileum and jejunum that produces neurotensin." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+#### Added
+- [type N enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002280) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An enteroendocrine cell found in the ileum and jejunum that produces neurotensin. This is a transcriptomically distinct type." 
+  - [has cross-reference](http://www.geneontology.org/formats/oboInOwl#hasDbXref) "GOC:tfm" 
+
+- [type N enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002280) [seeAlso](http://www.w3.org/2000/01/rdf-schema#seeAlso) "[geo:GSE113561]" 
+  - [label](http://www.w3.org/2000/01/rdf-schema#label) "reference transcriptomic data" 
+
+- [type N enteroendocrine cell](http://purl.obolibrary.org/obo/CL_0002280) [comment](http://www.w3.org/2000/01/rdf-schema#comment) "doi:10.1016/j.cell.2018.12.029" 
 
 
 ### tyramine `http://purl.obolibrary.org/obo/CHEBI_15760`
@@ -127240,6 +131112,18 @@
   - [mapping_justification](https://w3id.org/sssom/mapping_justification) [ManualMappingCuration](https://w3id.org/semapv/vocab/ManualMappingCuration) 
 
   - [authoredBy](http://purl.org/pav/authoredBy) [0000-0003-4423-4370](https://orcid.org/0000-0003-4423-4370) 
+
+
+### ureteric bud cell `http://purl.obolibrary.org/obo/CL_4030066`
+#### Removed
+- [ureteric bud cell](http://purl.obolibrary.org/obo/CL_4030066) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
+- [ureteric bud cell](http://purl.obolibrary.org/obo/CL_4030066) SubClassOf [duct epithelial cell](http://purl.obolibrary.org/obo/CL_0000068) 
+
+- [ureteric bud cell](http://purl.obolibrary.org/obo/CL_4030066) SubClassOf [kidney epithelial cell](http://purl.obolibrary.org/obo/CL_0002518) 
+
+#### Added
+- [ureteric bud cell](http://purl.obolibrary.org/obo/CL_4030066) SubClassOf [epithelial cell of mesonephric duct](http://purl.obolibrary.org/obo/CL_0020121) 
 
 
 ### urethra `http://purl.obolibrary.org/obo/UBERON_0000057`
@@ -129314,6 +133198,12 @@
 
 #### Added
 - [xanthommatins](http://purl.obolibrary.org/obo/CHEBI_27323) [in_subset](http://www.geneontology.org/formats/oboInOwl#inSubset) [gocheck_do_not_annotate](http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate) 
+
+
+### xanthophore cell `http://purl.obolibrary.org/obo/CL_0000430`
+#### Removed
+- [xanthophore cell](http://purl.obolibrary.org/obo/CL_0000430) SubClassOf [continuant](http://purl.obolibrary.org/obo/BFO_0000002) 
+
 
 
 ### xanthosine 5'-phosphate `http://purl.obolibrary.org/obo/CHEBI_53012`
