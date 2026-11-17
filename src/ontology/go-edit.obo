@@ -200902,12 +200902,12 @@ name: protein lysine deacetylase activity
 namespace: molecular_function
 def: "Catalysis of the reaction: Removal of an acetyl group from a lysine residue in a protein." [PMID:27296530, RHEA:58108]
 synonym: "protein deacetylase activity" EXACT []
-xref: RHEA:21548 {source="skos:narrowMatch"}
 xref: RHEA:58108 {source="skos:exactMatch"}
 is_a: GO:0019213 ! deacetylase activity
 is_a: GO:0140096 ! catalytic activity, acting on a protein
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22833" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27528" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32838" xsd:anyURI
 
 [Term]
 id: GO:0033559
@@ -249492,11 +249492,11 @@ is_obsolete: true
 id: GO:0042903
 name: tubulin deacetylase activity
 namespace: molecular_function
-def: "Catalysis of the reaction: N-acetyl(alpha-tubulin) + H2O = alpha-tubulin + acetate." [PMID:12024216, PMID:12486003]
-xref: EC:3.5.1.- {source="skos:broadMatch"}
-is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
+def: "Removal of an acetyl group from a lysine residue in alpha-tubulin." [PMID:12024216, PMID:12486003, PMID:12620231]
+comment: Tubulin deacetylases belong to two unrelated enzyme families that use different mechanisms. Zn2+-dependent deacetylases of the classical histone deacetylase (HDAC) family, such as human HDAC6 (class IIb), hydrolyse the acetyl-lysine bond (see GO:0170088). Sirtuins (Sir2 family, class III HDACs), such as human SIRT2, transfer the acetyl group to NAD+, releasing nicotinamide and 2''-O-acetyl-ADP-ribose (see GO:0170089). Consider annotating to one of the mechanism-specific children.
 is_a: GO:0033558 ! protein lysine deacetylase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28520" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32838" xsd:anyURI
 
 [Term]
 id: GO:0042904
@@ -486140,6 +486140,36 @@ is_a: GO:0046148 ! pigment biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32802" xsd:anyURI
 created_by: ew
 creation_date: 2026-10-28T17:46:47Z
+
+[Term]
+id: GO:0170088
+name: tubulin deacetylase activity, hydrolytic mechanism
+namespace: molecular_function
+def: "Catalysis of the reaction: N(6)-acetyl-L-lysyl-[alpha-tubulin] + H2O = L-lysyl-[alpha-tubulin] + acetate." [PMID:12024216, PMID:12486003, RHEA:21548]
+comment: This activity is carried out by Zn2+-dependent deacetylases of the classical histone deacetylase (HDAC) family, such as human HDAC6 (class IIb). Sirtuins deacetylate tubulin by a different, NAD-dependent mechanism; see GO:0170089.
+synonym: "tubulin deacetylase activity" BROAD []
+synonym: "tubulin deacetylase activity, NAD-independent" EXACT []
+xref: RHEA:21548 {source="skos:exactMatch"}
+is_a: GO:0016811 ! hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides
+is_a: GO:0042903 ! tubulin deacetylase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32838" xsd:anyURI
+created_by: ew
+creation_date: 2026-11-17T22:34:30Z
+
+[Term]
+id: GO:0170089
+name: tubulin deacetylase activity, NAD-dependent
+namespace: molecular_function
+def: "Catalysis of the reaction: N(6)-acetyl-L-lysyl-[alpha-tubulin] + NAD+ + H2O = L-lysyl-[alpha-tubulin] + 2''-O-acetyl-ADP-D-ribose + nicotinamide. This reaction transfers an acetyl group from alpha-tubulin to NAD, producing nicotinamide." [PMID:12620231, PMID:17344398]
+comment: This activity is carried out by sirtuins (Sir2 family, class III histone deacetylases), such as human SIRT2. Classical Zn2+-dependent HDACs such as HDAC6 deacetylate tubulin by hydrolysis; see GO:0170088.
+synonym: "NAD-dependent tubulin deacetylase activity" EXACT []
+synonym: "tubulin deacetylase activity" BROAD []
+xref: EC:2.3.1.286 {source="skos:broadMatch"}
+is_a: GO:0034979 ! NAD-dependent protein lysine deacetylase activity
+is_a: GO:0042903 ! tubulin deacetylase activity
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32838" xsd:anyURI
+created_by: ew
+creation_date: 2026-11-17T22:34:30Z
 
 [Term]
 id: GO:0180000
