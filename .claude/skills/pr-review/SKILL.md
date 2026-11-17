@@ -103,6 +103,14 @@ edit.
 search open go-ontology issues and PRs. Flag as IMPORTANT any open obsoletion
 request or conflicting change, other than the PR's own ticket.
 
+`gh search` and `gh issue list` are not available to the CI reviewer, so use
+the search API. Put up to six IDs in one query: a query allows at most five
+`OR`s, and search allows 30 requests a minute.
+
+```bash
+gh api -X GET search/issues -f q='repo:geneontology/go-ontology is:open <id1> OR <id2>' --jq '.items[] | "\(.number) \(.title)"'
+```
+
 ## Severity
 
 - **CRITICAL** — wrong or fabricated data. Hallucinated PMIDs, incorrect
