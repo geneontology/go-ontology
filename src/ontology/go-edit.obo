@@ -245245,7 +245245,7 @@ def: "A tissue-specific, membrane-bounded cytoplasmic organelle within which mel
 xref: Wikipedia:Melanosome
 is_a: GO:0048770 ! pigment granule
 is_a: neverin:4895
-is_a: neverin:6237 {source="GOC:kmv"}
+is_a: neverin:6237
 is_a: onlyin:33208
 relationship: part_of CL:0000148 ! melanocyte
 
@@ -272076,7 +272076,7 @@ def: "The process whose specific outcome is the progression of the secondary sex
 synonym: "development of secondary sexual characteristics" EXACT []
 synonym: "development of secondary sexual characteristics, sensu Metazoa" EXACT []
 is_a: GO:0003006 ! developmental process involved in reproduction
-is_a: onlyin:33208 {source="https://github.com/geneontology/go-ontology/issues/31051"}
+is_a: onlyin:33208
 relationship: part_of GO:0007275 ! multicellular organism development
 relationship: part_of GO:0007548 ! sex differentiation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31051" xsd:anyURI
@@ -330403,7 +330403,7 @@ xref: Wikipedia:Echolocation
 is_a: GO:0050877 ! nervous system process
 is_a: neverin:10090 {source="PMID:34140356"}
 is_a: neverin:9443 {source="PMID:34140356"}
-is_a: onlyin:32524 {source="https://en.wikipedia.org/wiki/Animal_echolocation"}
+is_a: onlyin:32524 {source="PMID:23755019"}
 
 [Term]
 id: GO:0050960
