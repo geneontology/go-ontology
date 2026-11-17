@@ -67,9 +67,9 @@ is_a: onlyin:4952 {source="PMID:10629216", source="PMID:14504266"}
 Use the same care as before: research both phylogeny and GO term usage, and
 report the evidence when communicating on the issue or PR.
 
-`source` values are PMIDs, existing `GOC:` handles, or ORCIDs. A cited paper
-must cover the taxon in the axiom, not just the topic; if none does, leave the
-axiom unsourced.
+`source` values are PMIDs only (`source="PMID:NNNNNNNN"`): no `GOC:` handles,
+ORCIDs, DOIs or URLs. A cited paper must cover the taxon in the axiom, not just
+the topic; if none does, leave the axiom unsourced.
 
 ## Check every route to the substance
 
