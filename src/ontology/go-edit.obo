@@ -281160,6 +281160,7 @@ synonym: "negative regulation of purine base metabolic process" EXACT [GOC:curat
 synonym: "negative regulation of purine base metabolism" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
 is_obsolete: true
+consider: GO:1900372
 
 [Term]
 id: GO:0045983
@@ -281176,6 +281177,7 @@ synonym: "up-regulation of purine base metabolic process" EXACT []
 synonym: "upregulation of purine base metabolic process" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
 is_obsolete: true
+consider: GO:1900373
 
 [Term]
 id: GO:0045984
@@ -281208,6 +281210,7 @@ synonym: "up-regulation of pyrimidine base metabolic process" EXACT []
 synonym: "upregulation of pyrimidine base metabolic process" EXACT []
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
 is_obsolete: true
+consider: GO:1900399
 
 [Term]
 id: GO:0045986
