@@ -25,6 +25,31 @@ as findings is noise, and reporting them as *verified by you* is a false claim.
 
 Review what CI structurally cannot see.
 
+## Re-reviews with no new content
+
+If you have reviewed this PR before, check whether its own changes have moved
+since. Take the SHA from the `Head reviewed:` line of your last report, and the
+current head and base from `gh pr view <N> --json headRefOid,baseRefName`. For
+each file the PR changes, get its patch against the base at both heads:
+
+```bash
+gh api repos/{owner}/{repo}/compare/<base>...<sha> --jq '.files[] | select(.filename == "<file>") | .patch | split("\n") | map(select(startswith("@@") | not)) | join("\n")'
+```
+
+This works on a shallow clone; `git diff <base>...<sha>` does not. The `--jq`
+filter drops the `@@` hunk headers, whose line numbers shift whenever the base
+moves.
+
+If every patch is identical at both heads, only the base changed (for example,
+master was merged in). Don't redo the review. Post a short note instead: the
+findings of round N stand, a link to that report, and its `Head reviewed:` line
+copied unchanged, so the next comparison is still against the head that was
+reviewed in full. Submit no new review verdict.
+
+Review in full if a patch is missing (the API omits very large ones), a file
+is changed at one head but not the other, or the last report has no
+`Head reviewed:` line.
+
 ## Size the change before reviewing it
 
 Measure the diff first. On anything very large (>2000 changed lines) or
@@ -125,6 +150,8 @@ Open the report with what you actually verified, so a reader can distinguish
 coverage from silence. Write it once, wherever the caller says the report
 goes:
 
+- `Head reviewed:` the full SHA of the PR head you reviewed (the next review
+  compares against it)
 - Scope of review (full or sampled, and why)
 - References checked: N verified, M unverifiable
 - Logical axioms reviewed

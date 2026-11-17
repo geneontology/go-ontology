@@ -232,7 +232,14 @@ jobs:
             which comment is your current report, minimize nothing and say so
             in the report.
 
+            Exception: if the skill's "Re-reviews with no new content" rule
+            applied, this run posted only a short note pointing at an earlier
+            report, and that report is still the current one. Minimize nothing.
+
             VERDICT:
+            Skip this step if the "Re-reviews with no new content" rule
+            applied: the earlier verdict stands.
+
             If there are any CRITICAL or IMPORTANT findings:
             ```
             gh pr review ${{ env.PR_NUMBER }} --request-changes --body "<stub>"
