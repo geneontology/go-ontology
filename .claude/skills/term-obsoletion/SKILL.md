@@ -120,6 +120,9 @@ If you deem the impact of obsoletion to be too high or you need feedback on how 
 
 go-edit.obo shows only the current state. Before settling `replaced_by:` / `consider:` or annotation targets, search open go-ontology issues and PRs for the terms being obsoleted and their proposed replacements. Ignore your own ticket and its PR. If a replacement has an open obsoletion request or pending change, report it on the ticket and do not use it until that is resolved.
 
+## Taxon constraints and obsoletion
+When obsoleting a term, you may need to remove taxon constraints, as these should never reference obsolete terms. Use the /taxon-constraint skill.
+
 ## Analyzing impact of obsoletion on other ontologies
 
 Many of the core biological ontologies that use GO are in Ubergraph:

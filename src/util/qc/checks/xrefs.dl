@@ -37,3 +37,43 @@ violation("unknown-ec", t, cat("has ", kind, " to an unknown EC: ", e)) :-
 check("undeclared-subset", "A term may only be placed in a declared subset").
 violation("undeclared-subset", t, cat("references an undeclared subset: ", s)) :-
     subset(t, sub), !declared_subset(sub), shown(sub, s).
+
+// #29876: a term_tracker_item URL typed into the xref: slot. A term xref is a
+// mapping, so it must be a CURIE whose prefix is one GO maps to. URLs come
+// out as literals like any other xref -- they are not expanded -- so the
+// prefix is read straight off the text.
+//
+// Definition xrefs are left to the perl check against GO.xrf_abbs, where URLs
+// are legitimate citations. The list is everything in live use when the check
+// was added, typos excluded; add to it when GO starts mapping to something new.
+.decl xref_prefix(prefix:symbol)
+// reactions, pathways and enzymes
+xref_prefix("EC").  xref_prefix("RHEA").  xref_prefix("MetaCyc").
+xref_prefix("KEGG_REACTION").  xref_prefix("KEGG_PATHWAY").  xref_prefix("kegg.module").
+xref_prefix("Reactome").  xref_prefix("SABIO-RK").  xref_prefix("UniPathway").
+xref_prefix("UM-BBD_enzymeID").  xref_prefix("UM-BBD_pathwayID").  xref_prefix("UM-BBD_reactionID").
+xref_prefix("TC").  xref_prefix("RESID").
+// complexes, proteins, structures
+xref_prefix("CORUM").  xref_prefix("IntAct").  xref_prefix("InterPro").
+xref_prefix("UniProtKB-KW").  xref_prefix("VZ").  xref_prefix("NIF_Subcellular").
+xref_prefix("Wikipedia").  xref_prefix("PMID").
+// other ontologies
+xref_prefix("CHEBI").  xref_prefix("FBbt").  xref_prefix("FMA").  xref_prefix("MP").
+xref_prefix("PO").  xref_prefix("SO").  xref_prefix("TXPO").  xref_prefix("WBbt").
+// relations (Typedef xrefs)
+xref_prefix("BFO").  xref_prefix("GOREL").  xref_prefix("IAO").  xref_prefix("RO").
+
+.decl prefixed_xref(ref:symbol)
+prefixed_xref(r) :- xref(_, r), xref_prefix(p), n = strlen(p),
+                    strlen(r) > n+1, substr(r, 0, n+1) = cat(p, ":").
+
+.decl url_xref(ref:symbol)
+url_xref(r) :- xref(_, r), match("https?://.*", r).
+
+check("xref-is-url", "A term xref must be a CURIE, not a URL").
+violation("xref-is-url", t, cat("has a URL as an xref (a ticket belongs in term_tracker_item, a citation in the definition): ", r)) :-
+    xref(t, r), url_xref(r).
+
+check("xref-unknown-prefix", "A term xref must use a prefix GO maps to").
+violation("xref-unknown-prefix", t, cat("has an xref with an unrecognised prefix: ", r)) :-
+    xref(t, r), !url_xref(r), !prefixed_xref(r).

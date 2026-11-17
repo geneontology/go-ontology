@@ -145,7 +145,6 @@ http://purl.obolibrary.org/obo/GO_0072595	maintenance of protein localization in
 http://purl.obolibrary.org/obo/GO_0032507	maintenance of protein location in cell	http://purl.obolibrary.org/obo/CL_0000000	cell	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0032065	maintenance of protein location in cell cortex	http://purl.obolibrary.org/obo/GO_0005938	cell cortex	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0072597	maintenance of protein location in chloroplast	http://purl.obolibrary.org/obo/GO_0009507	chloroplast	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
-http://purl.obolibrary.org/obo/GO_0072656	maintenance of protein location in mitochondrion	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0051457	maintenance of protein location in nucleus	http://purl.obolibrary.org/obo/GO_0005634	nucleus	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0072664	maintenance of protein location in peroxisome	http://purl.obolibrary.org/obo/GO_0005777	peroxisome	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location
 http://purl.obolibrary.org/obo/GO_0072667	maintenance of protein location in vacuole	http://purl.obolibrary.org/obo/GO_0005773	vacuole	http://purl.obolibrary.org/obo/GO_0045185	maintenance of protein location

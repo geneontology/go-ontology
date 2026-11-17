@@ -42,7 +42,6 @@ env:
   MODEL: claude-opus-5-5
   TOOLS_DIR: ${{ github.workspace }}/tools
   ARTIFACT_RETENTION_DAYS: 90
-  TIMEOUT_MINUTES: 30
 
 on:
   workflow_dispatch:
@@ -272,13 +271,26 @@ jobs:
   respond-to-mention:
     needs: check-mention
     if: fromJSON(needs.check-mention.outputs.result).qualifiedMention == true
-    timeout-minutes: 30
+    timeout-minutes: 45
     permissions:
       contents: write
       pull-requests: write
       issues: write
     runs-on: ubuntu-latest
     container: ${{ fromJSON(needs.check-mention.outputs.result).useOdkContainer && 'obolibrary/odkfull:latest' || null }}
+    env:
+      # claude-code-base-action stops reading at Claude's first result message,
+      # so anything still running in the background when Claude ends its turn
+      # (typically `make travis_test`) is abandoned, along with the uncommitted
+      # work that was waiting on it. The run still reports success. Remove the
+      # background option, so every command finishes before the turn can end.
+      CLAUDE_CODE_DISABLE_BACKGROUND_TASKS: "1"
+      # With backgrounding off, a command that reaches its timeout is stopped
+      # rather than moved to the background. The built-in limits (2 min default,
+      # 10 min max) leave too little room for travis_test, which takes about
+      # 6 min in the QC workflow: allow 20 min by default, 30 min on request.
+      BASH_DEFAULT_TIMEOUT_MS: "1200000"
+      BASH_MAX_TIMEOUT_MS: "1800000"
     steps:
       # Must precede checkout: the token is persisted as the git credential and
       # is what later `git push` calls authenticate with. Valid for 1h, which

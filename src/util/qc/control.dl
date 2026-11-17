@@ -298,6 +298,22 @@ ontrdf("_:ctrlaxiom3", OWL_ANN_TARGET, "\"control synonym\"").
 ontrdf("_:ctrlaxiom3", OIO_XREF, "\"EC:9.9.9.7\"").
 expected_violation("unknown-ec", EC_UNK_SYNXREF).
 
+// xref-is-url and xref-unknown-prefix (#29876): a tracker URL in the xref
+// slot, and a typo'd prefix. Both checks look at term xrefs only, so the
+// unknown-ec controls above, all of which cite EC, must trigger neither.
+#define XREF_URL       "<http://purl.obolibrary.org/obo/GO_0000148>"
+#define XREF_PREFIX    "<http://purl.obolibrary.org/obo/GO_0000149>"
+
+C_TYPE(XREF_URL)  C_LABEL(XREF_URL, "\"control with a URL as an xref\"")  C_BP(XREF_URL)
+C_SUB(XREF_URL, CTRL_PARENT)
+C_XREF(XREF_URL, "\"https://github.com/geneontology/go-ontology/issues/28938\"")
+expected_violation("xref-is-url", XREF_URL).
+
+C_TYPE(XREF_PREFIX)  C_LABEL(XREF_PREFIX, "\"control with an unknown xref prefix\"")  C_BP(XREF_PREFIX)
+C_SUB(XREF_PREFIX, CTRL_PARENT)
+C_XREF(XREF_PREFIX, "\"MetyaCyc:PWY-6151\"")
+expected_violation("xref-unknown-prefix", XREF_PREFIX).
+
 // undeclared-subset: a subset nothing declares as a SubsetProperty. The subset
 // used by OBS_REF_SUBSET above is declared here, so only this one fires.
 C_TYPE(SUBSET_BAD)  C_LABEL(SUBSET_BAD, "\"control in an undeclared subset\"")  C_BP(SUBSET_BAD)
