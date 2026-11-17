@@ -116013,6 +116013,7 @@ name: thyroid hormone transmembrane transporter activity
 namespace: molecular_function
 def: "Enables the transfer of thyroid hormones from one side of a membrane to the other. Thyroid hormone are any of the compounds secreted by the thyroid gland, largely thyroxine and triiodothyronine." [GOC:ai]
 is_a: GO:0015291 ! secondary active transmembrane transporter activity
+is_a: onlyin:7711 {source="PMID:25231440", source="PMID:30192937"}
 intersection_of: GO:0022857 ! transmembrane transporter activity
 intersection_of: has_primary_input GOCHE:60311 ! substance with thyroid hormone role
 relationship: part_of GO:0070327 ! thyroid hormone transport
@@ -381317,6 +381318,7 @@ def: "The directed movement of thyroid hormone into, out of or within a cell, or
 synonym: "thyroxine transport" NARROW [GOC:mah]
 synonym: "triiodothyronine transport" NARROW [GOC:mah]
 is_a: GO:0009914 ! hormone transport
+is_a: onlyin:7711 {source="PMID:25231440", source="PMID:30192937"}
 intersection_of: GO:0006810 ! transport
 intersection_of: has_primary_input GOCHE:60311 ! substance with thyroid hormone role
 
