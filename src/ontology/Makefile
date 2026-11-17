@@ -807,7 +807,8 @@ extensions/gorel-ro-import.owl: extensions/gorel-edit.owl mirror/ro.owl
 	owltools --map-ontology-iri $(OBO)/ro.owl mirror/ro.owl extensions/gorel-edit.owl --add-support-from-imports --extract-module -c -s $(OBO)/mirror/ro.owl -o $@
 
 extensions/gorel.owl: extensions/gorel-edit.owl extensions/gorel-ro-import.owl
-	owltools --map-ontology-iri $(OBO)/ro.owl extensions/gorel-ro-import.owl extensions/gorel-edit.owl --merge-imports-closure --add-obo-shorthand-to-properties -o $@
+	owltools --map-ontology-iri $(OBO)/ro.owl extensions/gorel-ro-import.owl extensions/gorel-edit.owl --merge-imports-closure --add-obo-shorthand-to-properties -o $@.tmp.owl && \
+	$(ROBOT) annotate -i $@.tmp.owl -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@ && rm -f $@.tmp.owl
 
 extensions/gorel.obo: extensions/gorel.owl
 	owltools $< --add-obo-shorthand-to-properties --remove-tbox -o -f obo --no-check $@.tmp && grep -v ^owl-axioms $@.tmp > $@
