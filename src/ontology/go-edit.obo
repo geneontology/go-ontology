@@ -176874,9 +176874,9 @@ synonym: "forespore specific spindle pole body remodeling" EXACT []
 synonym: "forespore-specific spindle pole body remodeling" EXACT []
 synonym: "prospore-specific spindle pole body remodeling" EXACT []
 synonym: "sporulation-specific spindle pole body remodeling" EXACT []
-is_a: GO:0009987 ! cellular process
-relationship: part_of GO:0000226 ! microtubule cytoskeleton organization
+is_a: GO:1990395 ! meiotic spindle pole body organization
 relationship: part_of GO:0031321 ! ascospore-type prospore assembly
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31685" xsd:anyURI
 
 [Term]
 id: GO:0031323
