@@ -866,13 +866,13 @@ generate-mappings: $(ONT)-pre.ofn
 #
 # and tags the release vYYYY-MM-DD, the date in the products' version IRIs.
 #
-# Release assets are a flat list, so files from extensions/ and subsets/ are
-# published under their base name (go-plus.owl.gz, gorel.owl). Ontology IRIs
-# keep the extensions/ path. go.*, go-basic.* and gorel.* are published as
-# they are; every other ontology is published gzipped only, and a JSON file is
+# Release assets are a flat list, so products from extensions/ are published
+# under their base name (go-plus.owl.gz, gorel.owl). Their ontology IRIs keep
+# the extensions/ path. go.*, go-basic.* and gorel.* are published as they
+# are; every other ontology is published gzipped only, and a JSON file is
 # compressed when its OWL counterpart is. Subsets and mappings are tarballs
-# that unpack to subsets/ and external2go/. go_subsets_metadata.yaml, which
-# describes the subsets, is published beside them as it is.
+# that unpack to subsets/ and external2go/; subsets.tgz also holds
+# go_subsets_metadata.yaml, which describes the subsets.
 #
 # gorel.owl is checked in, but go-gaf.owl depends on it, so the build remakes
 # it from the freshly downloaded mirror/ro.owl. Listing gorel.obo here remakes
@@ -883,11 +883,11 @@ generate-mappings: $(ONT)-pre.ofn
 GH_RELEASEDIR = $(RELEASEDIR)/github-release
 GH_STAGINGDIR = $(RELEASEDIR)/github-staging
 
-GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json extensions/gorel.owl extensions/gorel.obo subsets/go_subsets_metadata.yaml
+GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json extensions/gorel.owl extensions/gorel.obo
 GH_RELEASE_GZ = go-base.owl $(GO_PLUS).owl $(GO_PLUS).json $(GO_GAF).owl $(GO_LEGO).owl $(GO_AMIGO).owl $(GO_LEGO_REACTO).owl extensions/reacto.owl
 
 # subsets/%.owl also writes the matching .obo and .json.
-GH_RELEASE_SUBSET_FILES = $(foreach s,$(PUBLISH_SUBSETS),$(foreach e,owl obo json tsv,subsets/$(s).$(e)))
+GH_RELEASE_SUBSET_FILES = $(foreach s,$(PUBLISH_SUBSETS),$(foreach e,owl obo json tsv,subsets/$(s).$(e))) subsets/go_subsets_metadata.yaml
 
 # RELEASEDATE's default is a backtick expression that the shell re-evaluates
 # in every recipe, so a build that crosses midnight would give products
@@ -906,7 +906,7 @@ github-release: test $(GH_RELEASE_PLAIN) $(GH_RELEASE_GZ) $(GH_STAGINGDIR)/subse
 	cp $(GH_STAGINGDIR)/subsets.tgz $(GH_STAGINGDIR)/external2go.tgz $(GH_RELEASEDIR)/
 	ls -l $(GH_RELEASEDIR)
 
-$(GH_STAGINGDIR)/subsets.tgz: $(SUBSET_OWLS) $(SUBSET_REPORTS)
+$(GH_STAGINGDIR)/subsets.tgz: $(SUBSET_OWLS) $(SUBSET_REPORTS) subsets/go_subsets_metadata.yaml
 	mkdir -p $(GH_STAGINGDIR) && tar -czf $@.tmp $(GH_RELEASE_SUBSET_FILES) && mv $@.tmp $@
 
 # Only the mappings generated from GO's own xrefs. generate-mappings also
