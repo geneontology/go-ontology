@@ -61445,22 +61445,27 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0006140
-name: regulation of nucleotide metabolic process
+name: obsolete regulation of nucleotide metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." [GOC:curators]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "regulation of nucleotide metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0009117 ! nucleotide metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:0030808
+consider: GO:0030811
 
 [Term]
 id: GO:0006141
-name: regulation of purine nucleobase metabolic process
+name: obsolete regulation of purine nucleobase metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving purines." [GOC:curators]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving purines." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "regulation of purine base metabolic process" EXACT [GOC:curators]
 synonym: "regulation of purine base metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0006144 ! purine nucleobase metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1900371
 
 [Term]
 id: GO:0006142
@@ -91362,12 +91367,13 @@ intersection_of: has_primary_input_or_output CHEBI:36976 ! nucleotide
 
 [Term]
 id: GO:0009118
-name: regulation of nucleoside metabolic process
+name: obsolete regulation of nucleoside metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." [GOC:curators]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "regulation of nucleoside metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0009116 ! nucleoside metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0009119
@@ -281080,77 +281086,87 @@ intersection_of: positively_regulates GO:0045448 ! mitotic cell cycle, embryonic
 
 [Term]
 id: GO:0045978
-name: negative regulation of nucleoside metabolic process
+name: obsolete negative regulation of nucleoside metabolic process
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." [GOC:curators]
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "down regulation of nucleoside metabolic process" EXACT []
 synonym: "down-regulation of nucleoside metabolic process" EXACT []
 synonym: "downregulation of nucleoside metabolic process" EXACT []
 synonym: "inhibition of nucleoside metabolic process" NARROW []
 synonym: "negative regulation of nucleoside metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0009116 ! nucleoside metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0045979
-name: positive regulation of nucleoside metabolic process
+name: obsolete positive regulation of nucleoside metabolic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." [GOC:curators]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleosides." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "activation of nucleoside metabolic process" NARROW []
 synonym: "positive regulation of nucleoside metabolism" EXACT []
 synonym: "stimulation of nucleoside metabolic process" NARROW []
 synonym: "up regulation of nucleoside metabolic process" EXACT []
 synonym: "up-regulation of nucleoside metabolic process" EXACT []
 synonym: "upregulation of nucleoside metabolic process" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0009116 ! nucleoside metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0045980
-name: negative regulation of nucleotide metabolic process
+name: obsolete negative regulation of nucleotide metabolic process
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." [GOC:curators]
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "down regulation of nucleotide metabolic process" EXACT []
 synonym: "down-regulation of nucleotide metabolic process" EXACT []
 synonym: "downregulation of nucleotide metabolic process" EXACT []
 synonym: "inhibition of nucleotide metabolic process" NARROW []
 synonym: "negative regulation of nucleotide metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0009117 ! nucleotide metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:0030809
+consider: GO:0030812
 
 [Term]
 id: GO:0045981
-name: positive regulation of nucleotide metabolic process
+name: obsolete positive regulation of nucleotide metabolic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." [GOC:curators]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving nucleotides." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "activation of nucleotide metabolic process" NARROW []
 synonym: "positive regulation of nucleotide metabolism" EXACT []
 synonym: "stimulation of nucleotide metabolic process" NARROW []
 synonym: "up regulation of nucleotide metabolic process" EXACT []
 synonym: "up-regulation of nucleotide metabolic process" EXACT []
 synonym: "upregulation of nucleotide metabolic process" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0009117 ! nucleotide metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:0030810
+consider: GO:0030813
 
 [Term]
 id: GO:0045982
-name: negative regulation of purine nucleobase metabolic process
+name: obsolete negative regulation of purine nucleobase metabolic process
 namespace: biological_process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving purine nucleobases." [GOC:curators]
+def: "OBSOLETE. Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways involving purine nucleobases." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "down regulation of purine base metabolic process" EXACT []
 synonym: "down-regulation of purine base metabolic process" EXACT []
 synonym: "downregulation of purine base metabolic process" EXACT []
 synonym: "inhibition of purine base metabolic process" NARROW []
 synonym: "negative regulation of purine base metabolic process" EXACT [GOC:curators]
 synonym: "negative regulation of purine base metabolism" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0006144 ! purine nucleobase metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0045983
-name: positive regulation of purine nucleobase metabolic process
+name: obsolete positive regulation of purine nucleobase metabolic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving purine bases." [GOC:curators]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving purine bases." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "activation of purine base metabolic process" NARROW []
 synonym: "positive regulation of purine base metabolic process" EXACT []
 synonym: "positive regulation of purine base metabolism" EXACT []
@@ -281158,8 +281174,8 @@ synonym: "stimulation of purine base metabolic process" NARROW []
 synonym: "up regulation of purine base metabolic process" EXACT []
 synonym: "up-regulation of purine base metabolic process" EXACT []
 synonym: "upregulation of purine base metabolic process" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0006144 ! purine nucleobase metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0045984
@@ -281177,9 +281193,10 @@ intersection_of: negatively_regulates GO:0006206 ! pyrimidine nucleobase metabol
 
 [Term]
 id: GO:0045985
-name: positive regulation of pyrimidine nucleobase metabolic process
+name: obsolete positive regulation of pyrimidine nucleobase metabolic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." [GOC:curators]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of the chemical reactions and pathways involving pyrimidine nucleobases." [GOC:curators]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "activation of pyrimidine base metabolic process" NARROW []
 synonym: "positive regulation of pyrimidine base metabolic process" EXACT [GOC:curators]
 synonym: "positive regulation of pyrimidine base metabolism" EXACT []
@@ -281187,8 +281204,8 @@ synonym: "stimulation of pyrimidine base metabolic process" NARROW []
 synonym: "up regulation of pyrimidine base metabolic process" EXACT []
 synonym: "up-regulation of pyrimidine base metabolic process" EXACT []
 synonym: "upregulation of pyrimidine base metabolic process" EXACT []
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0006206 ! pyrimidine nucleobase metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0045986
@@ -497076,22 +497093,26 @@ creation_date: 2012-05-11T12:54:37Z
 
 [Term]
 id: GO:1900542
-name: regulation of purine nucleotide metabolic process
+name: obsolete regulation of purine nucleotide metabolic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of purine nucleotide metabolic process." [GOC:TermGenie]
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of purine nucleotide metabolic process." [GOC:TermGenie]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "regulation of purine metabolic process" NARROW [GOC:TermGenie]
 synonym: "regulation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "regulation of purine nucleotide metabolism" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0006163 ! purine nucleotide metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1900371
+consider: GO:0033121
 created_by: krc
 creation_date: 2012-05-11T05:43:15Z
 
 [Term]
 id: GO:1900543
-name: negative regulation of purine nucleotide metabolic process
+name: obsolete negative regulation of purine nucleotide metabolic process
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of purine nucleotide metabolic process." [GOC:TermGenie]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of purine nucleotide metabolic process." [GOC:TermGenie]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "down regulation of purine metabolic process" NARROW [GOC:TermGenie]
 synonym: "down regulation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "down regulation of purine nucleotide metabolic process" EXACT [GOC:TermGenie]
@@ -497111,16 +497132,19 @@ synonym: "inhibition of purine nucleotide metabolism" NARROW [GOC:TermGenie]
 synonym: "negative regulation of purine metabolic process" NARROW [GOC:TermGenie]
 synonym: "negative regulation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "negative regulation of purine nucleotide metabolism" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0006163 ! purine nucleotide metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1900372
+consider: GO:0033122
 created_by: krc
 creation_date: 2012-05-11T05:44:21Z
 
 [Term]
 id: GO:1900544
-name: positive regulation of purine nucleotide metabolic process
+name: obsolete positive regulation of purine nucleotide metabolic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of purine nucleotide metabolic process." [GOC:TermGenie]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of purine nucleotide metabolic process." [GOC:TermGenie]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "activation of purine metabolic process" NARROW [GOC:TermGenie]
 synonym: "activation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "activation of purine nucleotide metabolic process" NARROW [GOC:TermGenie]
@@ -497140,8 +497164,10 @@ synonym: "upregulation of purine metabolic process" NARROW [GOC:TermGenie]
 synonym: "upregulation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "upregulation of purine nucleotide metabolic process" EXACT [GOC:TermGenie]
 synonym: "upregulation of purine nucleotide metabolism" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0006163 ! purine nucleotide metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1900373
+consider: GO:0033123
 created_by: krc
 creation_date: 2012-05-11T05:44:43Z
 
@@ -533146,9 +533172,10 @@ creation_date: 2014-02-12T18:58:50Z
 
 [Term]
 id: GO:1902689
-name: negative regulation of NAD metabolic process
+name: obsolete negative regulation of NAD metabolic process
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of NAD metabolic process." [GO_REF:0000058, GOC:di, GOC:TermGenie, PMID:19846558]
+def: "OBSOLETE. Any process that stops, prevents or reduces the frequency, rate or extent of NAD metabolic process." [GO_REF:0000058, GOC:di, GOC:TermGenie, PMID:19846558]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "down regulation of NAD (oxidized) metabolic process" EXACT [GOC:TermGenie]
 synonym: "down regulation of NAD (oxidized) metabolism" EXACT [GOC:TermGenie]
 synonym: "down regulation of NAD metabolic process" EXACT [GOC:TermGenie]
@@ -533203,16 +533230,18 @@ synonym: "negative regulation of oxidized NAD metabolic process" EXACT [GOC:Term
 synonym: "negative regulation of oxidized NAD metabolism" EXACT [GOC:TermGenie]
 synonym: "negative regulation of oxidized nicotinamide adenine dinucleotide metabolic process" EXACT [GOC:TermGenie]
 synonym: "negative regulation of oxidized nicotinamide adenine dinucleotide metabolism" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0019674 ! NAD+ metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1905013
 created_by: di
 creation_date: 2014-02-12T18:58:59Z
 
 [Term]
 id: GO:1902690
-name: positive regulation of NAD metabolic process
+name: obsolete positive regulation of NAD metabolic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of NAD metabolic process." [GO_REF:0000058, GOC:di, GOC:TermGenie, PMID:19846558]
+def: "OBSOLETE. Any process that activates or increases the frequency, rate or extent of NAD metabolic process." [GO_REF:0000058, GOC:di, GOC:TermGenie, PMID:19846558]
+comment: The reason for obsoletion is that these are unnecessary grouping terms. Annotations should be made to positive or negative regulation of biosynthetic or catabolic process.
 synonym: "activation of NAD (oxidized) metabolic process" NARROW [GOC:TermGenie]
 synonym: "activation of NAD (oxidized) metabolism" NARROW [GOC:TermGenie]
 synonym: "activation of NAD metabolic process" NARROW [GOC:TermGenie]
@@ -533267,8 +533296,9 @@ synonym: "upregulation of oxidized NAD metabolic process" EXACT [GOC:TermGenie]
 synonym: "upregulation of oxidized NAD metabolism" EXACT [GOC:TermGenie]
 synonym: "upregulation of oxidized nicotinamide adenine dinucleotide metabolic process" EXACT [GOC:TermGenie]
 synonym: "upregulation of oxidized nicotinamide adenine dinucleotide metabolism" EXACT [GOC:TermGenie]
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0019674 ! NAD+ metabolic process
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
+is_obsolete: true
+consider: GO:1905014
 created_by: di
 creation_date: 2014-02-12T18:59:09Z
 
