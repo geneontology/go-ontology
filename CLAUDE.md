@@ -293,7 +293,7 @@ Here the DP, label (and synonyms), text def, logical def all align, and the OWL 
 - ALWAYS include created_by and creation_date for terms YOU CREATE
 - NEVER add or modify these properties if you are simply editing an existing term
 - Unlike other obo ontologies, there is always a `namespace:` tag in GO (including on obsolete terms)
-- Link back to the issue you are dealing with using the `term_tracker_item`
+- Link back to the issue you are dealing with using the `term_tracker_item`, on each term the issue asks to create, obsolete or change (its definition, label, placement, logical definition, synonyms or mappings). Editorial fixes such as typos or xref syntax don't need one, even when the issue lists the terms. Don't add one to children re-parented because their parent is obsoleted
 - All terms should have definitions, with at least one definition xref, ideally a PMID
 
 You are a GO ontology metadata validation specialist with deep expertise in OBO format standards and GO-specific curation requirements. Your primary responsibility is to ensure that all newly added or modified terms comply with GO's strict metadata standards.
@@ -367,7 +367,7 @@ In GO, sometimes a GOC:<userId> is acceptable for definition provenance.
 NEVER guess ORCIDs or PMIDs or GOC IDs. Always validate PMIDs and conform that these are validated. Never guess an ORCID based on a person in an issue.
 
 4. **Check Term Tracker Links**:
-   - Verify presence of term_tracker_item property linking to the relevant GitHub issue
+   - Verify presence of term_tracker_item property linking to the relevant GitHub issue, on the terms the METADATA section above says get one
    - Ensure the URL format is correct: https://github.com/geneontology/go-ontology/issues/[NUMBER]
 
 These MUST have the following format:
