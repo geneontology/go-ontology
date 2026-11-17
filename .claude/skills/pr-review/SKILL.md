@@ -123,6 +123,19 @@ looks accidentally clobbered — the checkout/checkin workflow can damage
 neighbouring terms silently, and the resulting diff looks like an intentional
 edit.
 
+**8. Open tickets.** For every term the PR obsoletes, newly points to
+(`replaced_by`, `consider`, new `is_a` or relationship targets) or redefines,
+search open go-ontology issues and PRs. Flag as IMPORTANT any open obsoletion
+request or conflicting change, other than the PR's own ticket.
+
+`gh search` and `gh issue list` are not available to the CI reviewer, so use
+the search API. Put up to six IDs in one query: a query allows at most five
+`OR`s, and search allows 30 requests a minute.
+
+```bash
+gh api -X GET search/issues -f q='repo:geneontology/go-ontology is:open <id1> OR <id2>' --jq '.items[] | "\(.number) \(.title)"'
+```
+
 ## Severity
 
 - **CRITICAL** — wrong or fabricated data. Hallucinated PMIDs, incorrect
@@ -158,6 +171,7 @@ goes:
 - Design pattern conformance checked against: *sibling terms consulted*
 - Metadata conventions checked
 - Obsoletion procedure checked, or N/A
+- Open tickets searched
 
 Silence on a dimension you did not examine reads as a clean bill of health.
 Say which ones you skipped.
