@@ -486076,6 +486076,19 @@ created_by: ew
 creation_date: 2026-08-25T15:54:46Z
 
 [Term]
+id: GO:0170083
+name: plastid DNA recombination
+namespace: biological_process
+def: "Any DNA recombination that takes place in a plastid." [PMID:28495749, PMID:32978278]
+synonym: "recombination of plastid DNA" EXACT []
+is_a: GO:0033258 ! plastid DNA metabolic process
+intersection_of: GO:0006310 ! DNA recombination
+intersection_of: occurs_in GO:0009536 ! plastid
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29917" xsd:anyURI
+created_by: ew
+creation_date: 2026-09-01T18:25:59Z
+
+[Term]
 id: GO:0170085
 name: voltage-driven motor activity
 namespace: molecular_function
