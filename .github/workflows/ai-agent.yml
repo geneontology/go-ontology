@@ -111,6 +111,31 @@ jobs:
             const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
             const mentionAlternation = [agentName, ...legacyNames].map(escapeRe).join('|');
 
+            // Head and base branches of a pull request, which respond-to-mention
+            // fetches with bounded history. Pass the payload's pull_request when
+            // the event has one; otherwise it is looked up. Forks are flagged
+            // because the agent cannot push to them.
+            async function pullRequestRefs(number, pr) {
+              if (!pr) {
+                try {
+                  pr = (await github.rest.pulls.get({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    pull_number: number
+                  })).data;
+                } catch (e) {
+                  console.log(`Could not fetch PR #${number}:`, e.message);
+                  return {};
+                }
+              }
+              return {
+                prHeadRef: pr.head.ref,
+                prBaseRef: pr.base.ref,
+                // head.repo is null when the fork has been deleted
+                prIsFork: pr.head.repo?.full_name !== `${context.repo.owner}/${context.repo.repo}`
+              };
+            }
+
             // Handle workflow_dispatch (manual trigger)
             if (context.eventName === 'workflow_dispatch') {
               const inputs = context.payload.inputs;
@@ -134,6 +159,10 @@ jobs:
                 }
               }
 
+              const prRefs = inputs.item_type === 'pull_request'
+                ? await pullRequestRefs(parseInt(inputs.issue_number))
+                : {};
+
               return {
                 qualifiedMention: true,
                 itemType: inputs.item_type,
@@ -143,7 +172,8 @@ jobs:
                 repo: `${context.repo.owner}/${context.repo.repo}`,
                 branchName: `${agentName}-${inputs.item_type}-${inputs.issue_number}-run${context.runNumber}`,
                 useOdkContainer: !skipOdk,
-                skipOdkNote: skipOdk ? 'NOTE: This is NOT running in the ODK container (SKIP_ODK was specified), so ODK tools like ROBOT, owltools, etc. are unavailable.' : ''
+                skipOdkNote: skipOdk ? 'NOTE: This is NOT running in the ODK container (SKIP_ODK was specified), so ODK tools like ROBOT, owltools, etc. are unavailable.' : '',
+                ...prRefs
               };
             }
 
@@ -254,6 +284,14 @@ jobs:
               }
             }
 
+            // A comment on a PR arrives as issue_comment, with itemType 'issue'
+            let prRefs = {};
+            if (context.payload.pull_request) {
+              prRefs = await pullRequestRefs(itemNumber, context.payload.pull_request);
+            } else if (context.payload.issue?.pull_request) {
+              prRefs = await pullRequestRefs(itemNumber);
+            }
+
             // Return minimal context - Claude will use `gh` for the rest
             // Include run number in branch name to avoid collisions on concurrent runs
             return {
@@ -266,7 +304,8 @@ jobs:
               branchName: `${agentName}-${itemType}-${itemNumber}-run${context.runNumber}`,
               useOdkContainer: !skipOdk,
               skipOdkNote: skipOdk ? 'NOTE: This is NOT running in the ODK container (SKIP_ODK was specified), so ODK tools like ROBOT, owltools, etc. are unavailable.' : '',
-              commentId: commentId
+              commentId: commentId,
+              ...prRefs
             };
 
   respond-to-mention:
@@ -295,6 +334,77 @@ jobs:
         with:
           fetch-depth: 1
           token: ${{ steps.app-token.outputs.token }}
+
+      # Full history is several GB, so an unbounded `git fetch` from the shallow
+      # clone above can outlast the job (attempt 1 of run 40359147519 spent 26
+      # minutes in index-pack). For a PR in this repo, fetch its head and base
+      # here with just enough history to share a merge base, which is what
+      # ahead/behind counts and test merges need. Fetch only, without
+      # switching: a request made on a PR may ask for a new PR, which must not
+      # start from this PR's commits. Forks are skipped because the agent
+      # cannot push to them.
+      - name: Fetch PR branch and base
+        id: pr-refs
+        if: fromJSON(needs.check-mention.outputs.result).prHeadRef && !fromJSON(needs.check-mention.outputs.result).prIsFork
+        continue-on-error: true
+        timeout-minutes: 5
+        shell: bash
+        env:
+          PR_NUMBER: ${{ fromJSON(needs.check-mention.outputs.result).itemNumber }}
+          HEAD_REF: ${{ fromJSON(needs.check-mention.outputs.result).prHeadRef }}
+          BASE_REF: ${{ fromJSON(needs.check-mention.outputs.result).prBaseRef }}
+          NEW_BRANCH: ${{ fromJSON(needs.check-mention.outputs.result).branchName }}
+        run: |
+          head="refs/remotes/origin/$HEAD_REF"
+          base="refs/remotes/origin/$BASE_REF"
+          refspecs=("+refs/heads/$HEAD_REF:$head" "+refs/heads/$BASE_REF:$base")
+          # History is fetched without file contents (a blobless partial clone),
+          # and git downloads a blob the first time something reads it. Nearly
+          # every commit rewrites the 35 MB go-edit.obo, so deepening with
+          # contents costs about a minute per 50 commits; without them the
+          # whole loop takes seconds. Marking origin as a promisor remote is
+          # what allows the later on-demand downloads.
+          git config remote.origin.promisor true
+          git config remote.origin.partialclonefilter blob:none
+          # Double the depth until the branches meet, up to max_depth commits
+          # back from each tip (about six months of master).
+          depth=50
+          max_depth=800
+          git fetch --no-tags --filter=blob:none --depth="$depth" origin "${refspecs[@]}"
+          until git merge-base "$base" "$head" >/dev/null; do
+            if (( depth >= max_depth )); then
+              echo "::warning::$HEAD_REF and $BASE_REF share no merge base within $max_depth commits; not fetching more history."
+              break
+            fi
+            git fetch --no-tags --filter=blob:none --deepen="$depth" origin "${refspecs[@]}"
+            depth=$((depth * 2))
+            echo "Deepened to $depth commits"
+          done
+          merge_base=$(git merge-base "$base" "$head") || true
+          if [[ -n $merge_base ]]; then
+            read -r behind ahead < <(git rev-list --left-right --count "$base...$head")
+            echo "Merge base $merge_base: $HEAD_REF is $ahead ahead of and $behind behind $BASE_REF"
+          fi
+
+          # Picked up by the prompt below. Format strings are single-quoted so
+          # the backticks stay literal.
+          {
+            echo 'note<<NOTE_EOF'
+            echo 'PULL REQUEST BRANCHES:'
+            printf 'The head branch of PR #%s, `%s`, and its base, `%s`, are already fetched as `origin/%s` and `origin/%s`' \
+              "$PR_NUMBER" "$HEAD_REF" "$BASE_REF" "$HEAD_REF" "$BASE_REF"
+            if [[ -n $merge_base ]]; then
+              printf ', with enough history to share a merge base. `git merge-base`, `git rev-list --count`, `git diff origin/%s...origin/%s` and `git merge-tree --write-tree` work on them as they are, so do not fetch these branches again.\n' \
+                "$BASE_REF" "$HEAD_REF"
+            else
+              printf ' (%s commits deep), but they share no merge base within that history, so local ahead/behind counts and test merges will not work. Do not fetch more history; use `gh pr view %s --json mergeable,mergeStateStatus` to check whether the PR merges cleanly.\n' \
+                "$depth" "$PR_NUMBER"
+            fi
+            printf 'HEAD is not on the PR branch. To update this PR, run `git checkout %s`. If the request is for a new PR, branch from the base instead (`git checkout -b %s origin/%s`) so that the new PR does not carry the commits of this one.\n' \
+              "$HEAD_REF" "$NEW_BRANCH" "$BASE_REF"
+            echo 'That history was fetched without file contents, which git downloads the first time a command reads them. Diffs, merges and checkouts need only a few, but avoid commands that read many old versions of a large file, such as `git log -p` or `git blame` on src/ontology/go-edit.obo.'
+            echo 'NOTE_EOF'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Cache Scala CLI dependencies
         if: fromJSON(needs.check-mention.outputs.result).useOdkContainer
@@ -355,10 +465,15 @@ jobs:
             - `gh pr view ${{ fromJSON(needs.check-mention.outputs.result).itemNumber }} --json title,body,comments,reviews`
             - Check for linked issues/PRs mentioned in the body
 
+            GIT HISTORY:
+            This checkout is a shallow clone of a repository whose full history is several GB. Never run `git fetch --unshallow`, and never run a `git fetch` (or `gh pr checkout`, which fetches the same way) without `--depth` or `--deepen`: from a shallow clone it downloads the whole history and can take longer than this job is allowed to run. To get another branch, use `git fetch --depth=50 origin <branch>`, deepening in bounded steps (`--deepen=50`) only if you need older commits.
+
+            ${{ steps.pr-refs.outputs.note }}
+
             MAKING CHANGES:
             If you need to modify files:
             1. Create a branch: `git checkout -b ${{ fromJSON(needs.check-mention.outputs.result).branchName }}`
-               (unless requested to update an existing branch/PR, in which case check out and work on that branch)
+               (unless requested to update an existing branch/PR, in which case check out and work on that branch; see GIT HISTORY above for how to get it)
             2. Make your changes and commit with descriptive messages
             3. Push the branch: `git push -u origin ${{ fromJSON(needs.check-mention.outputs.result).branchName }}`
             4. Create a PR using `gh pr create` with a clear title and description
