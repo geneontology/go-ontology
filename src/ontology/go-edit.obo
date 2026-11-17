@@ -211569,7 +211569,9 @@ def: "The morphogenetic process that results in flattening of a cell as a conseq
 synonym: "cell spreading during cell substrate adhesion" EXACT []
 synonym: "substrate adhesion dependent cell spreading" EXACT []
 is_a: GO:0031589 ! cell-substrate adhesion
+is_a: neverin:4890
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24412" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32781" xsd:anyURI
 
 [Term]
 id: GO:0034447
