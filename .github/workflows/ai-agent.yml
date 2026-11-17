@@ -394,7 +394,7 @@ jobs:
             printf 'The head branch of PR #%s, `%s`, and its base, `%s`, are already fetched as `origin/%s` and `origin/%s`' \
               "$PR_NUMBER" "$HEAD_REF" "$BASE_REF" "$HEAD_REF" "$BASE_REF"
             if [[ -n $merge_base ]]; then
-              printf ', with enough history to share a merge base. `git merge-base`, `git rev-list --count`, `git diff origin/%s...origin/%s` and `git merge-tree --write-tree` work on them as they are, so do not fetch these branches again.\n' \
+              printf ', with enough history to share a merge base. `git merge-base`, `git rev-list --count`, `git diff origin/%s...origin/%s` and `git merge-tree --write-tree` work on them as they are. To refresh either branch, use a plain `git fetch origin <branch>`; never re-fetch them with `--depth`, which would cut the history back and lose the merge base.\n' \
                 "$BASE_REF" "$HEAD_REF"
             else
               printf ' (%s commits deep), but they share no merge base within that history, so local ahead/behind counts and test merges will not work. Do not fetch more history; use `gh pr view %s --json mergeable,mergeStateStatus` to check whether the PR merges cleanly.\n' \
@@ -466,7 +466,9 @@ jobs:
             - Check for linked issues/PRs mentioned in the body
 
             GIT HISTORY:
-            This checkout is a shallow clone of a repository whose full history is several GB. Never run `git fetch --unshallow`, and never run a `git fetch` (or `gh pr checkout`, which fetches the same way) without `--depth` or `--deepen`: from a shallow clone it downloads the whole history and can take longer than this job is allowed to run. To get another branch, use `git fetch --depth=50 origin <branch>`, deepening in bounded steps (`--deepen=50`) only if you need older commits.
+            This checkout is a shallow clone of a repository whose full history is several GB. Never run `git fetch --unshallow`. Follow these rules for every fetch; otherwise a fetch can download the whole history and outlast this job, or cut off history you already have:
+            - A branch you already have (`origin/<branch>` exists): update it with a plain `git fetch origin <branch>`, which downloads only the commits that are new since your copy. For older commits, use `git fetch --deepen=50 origin <branch>`. Never use `--depth` on it: `--depth` counts from the new tip and can shorten the history you already have, losing a merge base.
+            - A branch you do not have yet: `git fetch --depth=50 origin <branch>`. Never fetch it without `--depth`, and don't use `gh pr checkout`, which fetches without it. A `--depth` fetch can also shorten the history of other branches it overlaps, such as `origin/master`. If you rely on a merge base, run `git merge-base` again afterwards; if it fails, run `git fetch --deepen=50 origin <branch>` for both branches until it succeeds.
 
             ${{ steps.pr-refs.outputs.note }}
 
