@@ -4,3 +4,5 @@ GO:0050881	musculoskeletal movement	NCBITaxon:7227	Drosophila melanogaster
 GO:0050959	echolocation	NCBITaxon:687454	Typhlomys	PMID:34140356
 GO:0050959	echolocation	NCBITaxon:9397	Chiroptera	PMID:34140356
 GO:0050959	echolocation	NCBITaxon:9722	Odontoceti	PMID:34140356
+GO:0019905	syntaxin binding	NCBITaxon:4932	Saccharomyces cerevisiae	
+GO:0019905	syntaxin binding	NCBITaxon:9606	Homo sapiens	

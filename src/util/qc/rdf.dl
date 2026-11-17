@@ -50,6 +50,10 @@ quote_at(l, i) :- tagged_literal(l), i = range(1, strlen(l)), substr(l, i, 1) = 
 
 text(l, t) :- tagged_literal(l), j = max i : quote_at(l, i), t = substr(l, 1, j-1).
 
+// A literal typed xsd:anyURI -- a claim about its text, not a guarantee of it.
+.decl uri_literal(lit:symbol)
+uri_literal(l) :- tagged_literal(l), match("\".*\"\\^\\^<http://www\\.w3\\.org/2001/XMLSchema#anyURI>", l).
+
 // -- OBO CURIEs, for error messages a curator can paste into a search box -----
 
 .decl obo_iri(x:symbol)

@@ -12,3 +12,22 @@ violation("empty-literal", s, cat("has an empty literal value for ", prop)) :-
 check("comment-is-uri", "A comment must be prose, not a bare URI").
 violation("comment-is-uri", t, "has a comment that seems to be a URI") :-
     comment(t, c), match("http.*", c).
+
+// #32826: prose and bare GO ids were typed xsd:anyURI in term_tracker_item,
+// which the non-anyURI-value SPARQL check (datatype only) cannot see. Every
+// such value in the edit file is a web link, so require one: an http(s) URL
+// with no whitespace or characters a URI cannot contain. "GO:0106293" is a
+// syntactically legal URI with scheme "GO", hence http(s) and not any scheme.
+.decl url(v:symbol)
+url(v) :- uri_value(_, _, v), match("https?://[^\\s\"<>{}|\\\\^`]+", v).
+
+check("anyuri-not-url", "A value typed xsd:anyURI must be an http(s) URL").
+violation("anyuri-not-url", s, cat("has an xsd:anyURI value for ", prop, " that is not a URL: ", v)) :-
+    uri_value(s, p, v), !url(v), shown(p, prop).
+
+// A URL pasted from the end of a sentence: ".../issues/30274." resolves, but
+// not to anything anyone meant. Only for values that are otherwise URLs, so a
+// sentence typed xsd:anyURI is reported once, above, and not twice.
+check("anyuri-trailing-punctuation", "A value typed xsd:anyURI must not end in sentence punctuation").
+violation("anyuri-trailing-punctuation", s, cat("has an xsd:anyURI value for ", prop, " ending in punctuation: ", v)) :-
+    uri_value(s, p, v), url(v), match(".*[.,;:)]", v), shown(p, prop).

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: go/releases/2026-07-15/imports/ncbitaxon_import.owl
+data-version: go/releases/2026-11-10/imports/ncbitaxon_import.owl
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 ontology: go/imports/ncbitaxon_import
 
@@ -3203,16 +3203,6 @@ property_value: has_rank NCBITaxon:phylum
 property_value: TAXRANK:1000000 TAXRANK:0000001
 
 [Term]
-id: NCBITaxon:2024747
-name: Dactyloidae
-namespace: ncbi_taxonomy
-xref: GC_ID:1
-is_a: NCBITaxon:8511 ! Iguania
-relationship: RO:0002162 NCBITaxon:2024747 ! Dactyloidae
-property_value: has_rank NCBITaxon:family
-property_value: TAXRANK:1000000 TAXRANK:0000004
-
-[Term]
 id: NCBITaxon:203486
 name: Dictyoglomia
 namespace: ncbi_taxonomy
@@ -5047,7 +5037,7 @@ namespace: ncbi_taxonomy
 alt_id: NCBITaxon:323564
 alt_id: NCBITaxon:75277
 xref: GC_ID:1
-is_a: NCBITaxon:2024747 ! Dactyloidae
+is_a: NCBITaxon:3843548 ! Anolidae
 relationship: RO:0002162 NCBITaxon:28376 ! Anolis
 property_value: has_rank NCBITaxon:genus
 property_value: TAXRANK:1000000 TAXRANK:0000005
@@ -6394,12 +6384,14 @@ property_value: TAXRANK:1000000 TAXRANK:0001004
 
 [Term]
 id: NCBITaxon:33084
-name: Entamoebidae
+name: Endamoebidae
 namespace: ncbi_taxonomy
 synonym: "Entamoebida" RELATED synonym []
+synonym: "Entamoebidae" RELATED synonym []
 xref: GC_ID:1
+xref: PMID:41754465
 is_a: NCBITaxon:2682482 ! Mastigamoebida
-relationship: RO:0002162 NCBITaxon:33084 ! Entamoebidae
+relationship: RO:0002162 NCBITaxon:33084 ! Endamoebidae
 property_value: has_rank NCBITaxon:family
 property_value: TAXRANK:1000000 TAXRANK:0000004
 
@@ -7152,6 +7144,8 @@ property_value: TAXRANK:1000000 TAXRANK:0000006
 id: NCBITaxon:3640
 name: Theobroma
 namespace: ncbi_taxonomy
+alt_id: NCBITaxon:108869
+synonym: "Herrania" RELATED synonym []
 xref: GC_ID:1
 is_a: NCBITaxon:214909 ! Byttnerioideae
 relationship: RO:0002162 NCBITaxon:3640 ! Theobroma
@@ -7687,6 +7681,16 @@ disjoint_from: NCBITaxon:554915 ! Amoebozoa
 relationship: RO:0002162 NCBITaxon:38254 ! Glaucocystophyceae
 property_value: has_rank NCBITaxon:class
 property_value: TAXRANK:1000000 TAXRANK:0000002
+
+[Term]
+id: NCBITaxon:3843548
+name: Anolidae
+namespace: ncbi_taxonomy
+xref: GC_ID:1
+is_a: NCBITaxon:8511 ! Iguania
+relationship: RO:0002162 NCBITaxon:3843548 ! Anolidae
+property_value: has_rank NCBITaxon:family
+property_value: TAXRANK:1000000 TAXRANK:0000004
 
 [Term]
 id: NCBITaxon:3846
@@ -8918,7 +8922,7 @@ name: Triticum
 namespace: ncbi_taxonomy
 alt_id: NCBITaxon:72427
 synonym: "Crithodium" RELATED synonym []
-synonym: "wheats" EXACT OMO:0003003 []
+synonym: "wheats" EXACT genbank_common_name []
 xref: GC_ID:1
 is_a: NCBITaxon:1648030 ! Triticinae
 relationship: RO:0002162 NCBITaxon:4564 ! Triticum
@@ -9642,6 +9646,12 @@ id: NCBITaxon:5178
 name: Helotiales
 namespace: ncbi_taxonomy
 alt_id: NCBITaxon:186570
+alt_id: NCBITaxon:47162
+alt_id: NCBITaxon:5120
+synonym: "Cyttariales" RELATED synonym []
+synonym: "Erysiphales" RELATED synonym []
+synonym: "Plectomycetes" RELATED in_part []
+synonym: "Pyrenomycetes" RELATED in_part []
 xref: GC_ID:1
 xref: PMID:32647610
 is_a: NCBITaxon:147548 ! Leotiomycetes
@@ -10164,7 +10174,7 @@ id: NCBITaxon:5758
 name: Entamoeba
 namespace: ncbi_taxonomy
 xref: GC_ID:1
-is_a: NCBITaxon:33084 ! Entamoebidae
+is_a: NCBITaxon:33084 ! Endamoebidae
 relationship: RO:0002162 NCBITaxon:5758 ! Entamoeba
 property_value: has_rank NCBITaxon:genus
 property_value: TAXRANK:1000000 TAXRANK:0000005
@@ -12463,13 +12473,25 @@ property_value: TAXRANK:1000000 TAXRANK:0000003
 id: NCBITaxon:851
 name: Fusobacterium nucleatum
 namespace: ncbi_taxonomy
+alt_id: NCBITaxon:155615
+alt_id: NCBITaxon:76858
 synonym: "Corynebacterium fusiforme" RELATED synonym []
 synonym: "Fusibacterium nucleatum" EXACT equivalent_name []
+synonym: "Fusibacterium nucleatum subsp. fusiforme" EXACT equivalent_name []
+synonym: "Fusibacterium nucleatum subsp. vincentii" EXACT equivalent_name []
 synonym: "Fusiformis fusiformis" RELATED synonym []
 synonym: "Fusiformis nucleatus" RELATED synonym []
 synonym: "Fusobacterium fusiforme" RELATED synonym []
+synonym: "Fusobacterium nucleatum subsp. fusiforme" RELATED synonym []
+synonym: "Fusobacterium nucleatum subsp. vincentii (ex Knorr 1922) Dzink et al. 1990" RELATED synonym []
 synonym: "Fusobacterium plauti-vincenti" RELATED synonym []
+synonym: "Fusobacterium vincentii" RELATED synonym []
+synonym: "Fusobacterium vincentii (Dzink et al. 1990) Kook et al. 2022" RELATED synonym []
+synonym: "Sphaerophorus fusiformis" RELATED synonym []
 xref: GC_ID:11
+xref: PMID:1581188
+xref: PMID:2223601
+xref: PMID:23263257
 xref: PMID:28687946
 xref: PMID:32949256
 xref: PMID:8995811
@@ -13265,19 +13287,25 @@ id: NCBITaxon:976
 name: Bacteroidota
 namespace: ncbi_taxonomy
 alt_id: NCBITaxon:171554
+alt_id: NCBITaxon:3349921
 synonym: "\"Bacteroidota\" Whitman et al. 2018" RELATED synonym []
 synonym: "Bacteroides-Cytophaga-Flexibacter group" EXACT OMO:0003003 []
 synonym: "Bacteroidetes" RELATED synonym []
 synonym: "BCF group" EXACT equivalent_name []
+synonym: "Candidatus Kapaibacteriota" RELATED synonym []
 synonym: "CFB group" EXACT equivalent_name []
 synonym: "CFB group bacteria" EXACT genbank_common_name []
 synonym: "CFB group bacteria" RELATED blast_name []
 synonym: "Cytophaga-Flexibacter-Bacteroides phylum" EXACT OMO:0003003 []
+synonym: "Kapaibacteriota" EXACT equivalent_name []
+synonym: "OPB56 group" EXACT OMO:0003003 []
 synonym: "Sphingobacteria" RELATED synonym []
 xref: GC_ID:11
 xref: PMID:11541229
 xref: PMID:11542017
 xref: PMID:28066339
+xref: PMID:7857801
+xref: PMID:8123559
 is_a: NCBITaxon:68336 ! Bacteroidota/Chlorobiota group
 relationship: RO:0002162 NCBITaxon:976 ! Bacteroidota
 property_value: has_rank NCBITaxon:phylum
@@ -13342,6 +13370,7 @@ name: Equus caballus
 namespace: ncbi_taxonomy
 synonym: "domestic horse" EXACT OMO:0003003 []
 synonym: "equine" EXACT OMO:0003003 []
+synonym: "Equus ferus caballus" RELATED synonym []
 synonym: "Equus przewalskii f. caballus" RELATED synonym []
 synonym: "Equus przewalskii forma caballus" RELATED synonym []
 synonym: "horse" EXACT genbank_common_name []

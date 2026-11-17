@@ -13,6 +13,8 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#sou
 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/GO_0007507> <http://purl.obolibrary.org/obo/NCBITaxon_7227>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/GO_0019905> <http://purl.obolibrary.org/obo/NCBITaxon_4932>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/GO_0019905> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/GO_0050881> <http://purl.obolibrary.org/obo/NCBITaxon_7227>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:34140356"^^xsd:string) <http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/GO_0050959> <http://purl.obolibrary.org/obo/NCBITaxon_687454>)
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:34140356"^^xsd:string) <http://purl.obolibrary.org/obo/RO_0002175> <http://purl.obolibrary.org/obo/GO_0050959> <http://purl.obolibrary.org/obo/NCBITaxon_9397>)

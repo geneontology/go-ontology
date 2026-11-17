@@ -28,7 +28,7 @@ This ontology is created by merging the relevant subset of RO together with GO-s
 Notes on editors version (gorel-edit.owl): 
 The editors version imports ro.owl, and allows addition of new relations (GOREL ID space) and annotation of existing RO relations. Note for editors: if an RO relation is to be made visible in the final gorel product, then make the relation a SubProperty of &apos;go annotation extension relation&apos;. Anything with a logical axiom is included in the final module. Consult Makefile for details</dc:description>
         <oboInOwl:default-namespace>external</oboInOwl:default-namespace>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2177 Logical Axioms: 520]</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 2191 Logical Axioms: 524]</rdfs:comment>
     </owl:Ontology>
     
 
@@ -97,6 +97,12 @@ The editors version imports ro.owl, and allows addition of new relations (GOREL 
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
     
 
 
@@ -3381,6 +3387,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0019009"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>w &apos;has component&apos; p if w &apos;has part&apos; p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.</obo:IAO_0000115>
         <obo:IAO_0000116>The definition of &apos;has component&apos; is still under discussion. The challenge is in providing a definition that does not imply transitivity.</obo:IAO_0000116>
@@ -4261,7 +4268,6 @@ However, this is not possible in OWL. We instead make this relation a sub-relati
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000118>catalyzes</obo:IAO_0000118>
         <obo:IAO_0000118>executes</obo:IAO_0000118>
-        <obo:IAO_0000118>has</obo:IAO_0000118>
         <obo:IAO_0000118>is catalyzing</obo:IAO_0000118>
         <obo:IAO_0000118>is executing</obo:IAO_0000118>
         <obo:IAO_0000232>This relation differs from the parent relation &apos;capable of&apos; in that the parent is weaker and only expresses a capability that may not be actually realized, whereas this relation is always realized.</obo:IAO_0000232>
@@ -5059,7 +5065,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A relationship that holds between two entities in which the processes executed by the two entities are causally connected.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Considering relabeling as &apos;pairwise interacts with&apos;</obo:IAO_0000116>
+        <obo:IAO_0000116>Considering relabeling as &apos;pairwise interacts with&apos;</obo:IAO_0000116>
         <obo:IAO_0000116>This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <obo:IAO_0000232>Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules.</obo:IAO_0000232>
@@ -6136,6 +6142,25 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0018042 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0018042">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002328"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002205"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002327"/>
+        </owl:propertyChainAxiom>
+        <obo:IAO_0000112>AKT1 (HGNC:391) has gene product RAC-alpha serine/threonine-protein kinase (uniprot:P31749) which enables non-specific serine/threonine protein kinase (EC:2.7.11.1). This relation can be used as a shortcut HGNC:391 has gene product that enables EC:2.7.11.1.</obo:IAO_0000112>
+        <obo:IAO_0000115>a relationship between a gene and the molecular function or activity enabled by the gene product (e.g., protein) that it encodes</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/oborel/obo-relations/issues/873</obo:IAO_0000233>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0018042</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_gene_product_that_enables</oboInOwl:shorthand>
+        <rdfs:label>has gene product that enables</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0019000 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0019000">
@@ -6189,6 +6214,19 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0019002</oboInOwl:hasDbXref>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negatively_regulates_characteristic</oboInOwl:shorthand>
         <rdfs:label>negatively regulates characteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0019009 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0019009">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <obo:IAO_0000115>Inverse of &apos;has component&apos;.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8688-6599"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0019009</oboInOwl:hasDbXref>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">component_of</oboInOwl:shorthand>
+        <rdfs:label>component of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -7424,8 +7462,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0004009">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_ontology"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#display_for_curators"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#AE_molecular_function"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#valid_for_annotation_extension"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/valid_for_go_annotation_extension"/>
         <go_annotation_extension_relations:local_range>CHEBI:24431 GO:0032991 MI:0315 PR:000000001 SO:0000673 SO:0000704 CHEBI:33697 SO:0000839 SO:0001683 NCBITaxon:1</go_annotation_extension_relations:local_range>
@@ -7555,13 +7593,13 @@ For example, A and B may be gene products and binding of B by A positively regul
     <rdf:Description rdf:about="urn:swrl:var#D">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#mf">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#eff">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#in">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl:var#mf">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="urn:swrl:var#mf2">
@@ -8242,9 +8280,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#eff"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8253,9 +8291,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8287,9 +8325,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8298,9 +8336,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#in"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8332,9 +8370,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8343,9 +8381,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002578"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8377,9 +8415,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002629"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8388,9 +8426,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002629"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8422,9 +8460,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002630"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8433,9 +8471,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002630"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002025"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#mf"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#mf2"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#eff"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8467,7 +8505,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
@@ -8478,7 +8516,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002404"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                                 <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
@@ -8495,7 +8533,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8505,7 +8543,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8523,7 +8561,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
@@ -8534,7 +8572,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                                 <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
@@ -8551,7 +8589,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8561,7 +8599,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8578,7 +8616,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0012011"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
                     </rdf:Description>
@@ -8589,7 +8627,7 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0012011"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
                                 <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
                             </rdf:Description>
@@ -8622,9 +8660,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8633,9 +8671,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8666,9 +8704,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0019002"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8677,9 +8715,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0019002"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8710,9 +8748,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8721,9 +8759,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002213"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8754,9 +8792,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002264"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8765,9 +8803,9 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#z"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002264"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -8799,8 +8837,8 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#q"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#u"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -8810,8 +8848,8 @@ e.g.  if GP X enables ATPase coupled transporter activity&apos; and &apos;ATPase
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
-                                <swrl:argument2 rdf:resource="urn:swrl:var#q"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#q"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#u"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>

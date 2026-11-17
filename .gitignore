@@ -52,3 +52,12 @@ src/ontology/qc-unexpected-violations.tsv
 src/ontology/qc-unexpected-checks.tsv
 src/ontology/qc-unregistered-checks.tsv
 src/ontology/qc-selftest-violations.tsv
+
+# ROBOT TDB working directories (see #32656)
+src/ontology/chebi-tdb/
+src/ontology/tdb/
+
+# Generated ChEBI subset artifacts (see #32648, #32656)
+src/biochebi/chebi-terms.txt
+src/biochebi/chebi-do-not-annotate-terms.txt
+src/ontology/chebi-do-not-annotate.ofn

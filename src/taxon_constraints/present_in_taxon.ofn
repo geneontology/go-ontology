@@ -20,6 +20,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#0
 Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#00eb006fb5f3a851e11b760d4cb9ba4cb80b546b>))
 Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb0265ca3a1c2760a0014674a60c29ed96e5e>))
 Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019905>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4932>))
+Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#818ed85120c5ffa5c68c7d248e41c0f3f25fd844>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#6fc332b40c1e3520fbe2216be20354c41d191126>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002162>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#source>))
 
@@ -53,6 +58,16 @@ SubClassOf(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#3b7cb026
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b> "echolocation in Typhlomys"^^xsd:string)
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "PMID:34140356"^^xsd:string) <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#92dd503e978e7f21f36c82f28e363877d495891b> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0050959> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_687454>)))
+
+# Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#818ed85120c5ffa5c68c7d248e41c0f3f25fd844> (syntaxin binding in Saccharomyces cerevisiae)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#818ed85120c5ffa5c68c7d248e41c0f3f25fd844> "syntaxin binding in Saccharomyces cerevisiae"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#818ed85120c5ffa5c68c7d248e41c0f3f25fd844> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0019905> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_4932>)))
+
+# Class: <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#6fc332b40c1e3520fbe2216be20354c41d191126> (syntaxin binding in Homo sapiens)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#6fc332b40c1e3520fbe2216be20354c41d191126> "syntaxin binding in Homo sapiens"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/go/patterns/present_in_taxon#6fc332b40c1e3520fbe2216be20354c41d191126> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0019905> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))
 
 
 )

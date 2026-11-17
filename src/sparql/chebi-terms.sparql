@@ -1,0 +1,9 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT DISTINCT ?term
+WHERE {
+  ?term a owl:Class .
+  FILTER(isIRI(?term))
+  FILTER(STRSTARTS(STR(?term), "http://purl.obolibrary.org/obo/CHEBI_"))
+  FILTER NOT EXISTS { ?term owl:deprecated true }
+}

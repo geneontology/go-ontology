@@ -247,24 +247,28 @@ go-obo-status.md: $(PREVIOUS_OBO) go.obo ../gh_pages_templates/go-obo-status.md
 # OWL
 # ----------------------------------------
 
-#Uses file provided by Reactome to generate xrefs for import
-
-../resources/Reactions2GoTerms_human.txt:
-	wget -O $@ --no-check-certificate https://reactome.org/download/current/Reactions2GoTerms_human.txt
+# Reactome xrefs are generated from Reactome's pathway-to-GO file only, which
+# maps Reactome pathways to biological_process terms. Reactome's reaction-to-GO
+# file (Reactions2GoTerms_human.txt), which maps individual reactions to
+# molecular_function terms, is not used: such a reaction names the gene product
+# carrying out the activity, so it corresponds to an annotation rather than to
+# the GO term itself (https://github.com/geneontology/go-ontology/issues/32609).
+#
+# The downloaded file is tracked in git, so the recipe writes its cleaned copy
+# to reactome-tmp/ instead of editing it in place: the header row is renamed for
+# dosdp-tools (GO_Term -> defined_class) and non-ASCII characters are stripped.
+#
+# --no-use-server-timestamps gives the download the current time. By default
+# wget stamps it with the server's Last-Modified date, which is older than a
+# freshly checked-out import, so make would skip regenerating the import.
 
 ../resources/Pathways2GoTerms_human.txt:
-	wget -O $@ --no-check-certificate https://reactome.org/download/current/Pathways2GoTerms_human.txt
+	wget -O $@ --no-check-certificate --no-use-server-timestamps https://reactome.org/download/current/Pathways2GoTerms_human.txt
 
-imports/reactome_xrefs_import.owl: ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt
+imports/reactome_xrefs_import.owl: ../resources/Pathways2GoTerms_human.txt
 	mkdir -p reactome-tmp
-	sed -i '1s/.*/Identifier\tName\tdefined_class/' ../resources/Reactions2GoTerms_human.txt
-	sed -i '1d' ../resources/Pathways2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Reactions2GoTerms_human.txt
-	perl -i.bak -pe 's/[^[:ascii:]]//g' ../resources/Pathways2GoTerms_human.txt
-	cat ../resources/Reactions2GoTerms_human.txt ../resources/Pathways2GoTerms_human.txt >reactome-tmp/combined.txt
-	rm ../resources/Reactions2GoTerms_human.txt.bak
-	rm ../resources/Pathways2GoTerms_human.txt.bak
-	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/combined.txt --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
+	sed '1s/.*/Identifier\tName\tdefined_class/' $< | perl -pe 's/[^[:ascii:]]//g' >reactome-tmp/pathways.tsv
+	$(DOSDP_TOOLS) generate --template=xref_dosdp_yaml/reactome_xref.yaml --infile=reactome-tmp/pathways.tsv --outfile=reactome-tmp/reactome_xrefs.ofn --obo-prefixes=true
 	$(ROBOT) convert --input reactome-tmp/reactome_xrefs.ofn --output imports/reactome_xrefs_import.owl annotate --ontology-iri $(BASE)/imports/reactome_xrefs_import.owl -V $(RELEASE_URIBASE)/$@ -o $@
 
 # ----------------------------------------
@@ -336,10 +340,12 @@ present_in_taxon_check.ofn: enhanced.ofn ../taxon_constraints/present_in_taxon.o
 # equivalent to reasoned, but we rename
 # TODO cleanup redundancies with merge here and with go-base
 # note: do not run 'reason' after go-computed-taxon-constraints.owl is merged; some desired logical redundancy may be lost
-# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
+# NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command:
 # https://github.com/ontodev/robot/issues/1250
+# The ontology and version IRIs name the published go-plus.owl, not this
+# intermediate .ofn file; go-plus.owl and go-plus.json are converted from it.
 $(GO_PLUS).ofn: reasoned.ofn imports/go-computed-taxon-constraints.owl ../sparql/remove-taxon-constraint-class-scaffolding.ru
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) annotate -i $< -O $(BASE)/$(GO_PLUS).owl unmerge -i imports/go-taxon-constraint-classes.ofn query --update ../sparql/remove-taxon-constraint-class-scaffolding.ru merge --collapse-import-closure true --include-annotations false merge -i imports/go-computed-taxon-constraints.owl annotate -O $(BASE)/$(GO_PLUS).owl -V $(RELEASE_URIBASE)/$(GO_PLUS).owl -o $@
 
 $(GO_PLUS).owl: $(GO_PLUS).ofn
 	$(ROBOT) convert -i $< -o $@
@@ -359,8 +365,8 @@ $(GO_GAF).owl: extensions/go-gaf-edit.ofn $(GO_PLUS).owl extensions/gorel.owl mi
 
 # NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
 # https://github.com/ontodev/robot/issues/1250
-$(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl noctua-allowed-slim.ofn
-	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false merge -i noctua-allowed-slim.ofn reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+$(GO_AMIGO).owl: extensions/go-amigo-edit.ofn $(GO_GAF).owl extensions/go-modules-annotations.owl extensions/go-taxon-subsets.owl mirror/eco.owl mirror/pato.owl mirror/po.owl mirror/chebi.owl mirror/uberon.owl mirror/wbbt.owl chebi-do-not-annotate.ofn
+	$(ROBOT) annotate -i $< -O $(BASE)/$@ merge --collapse-import-closure true --include-annotations false merge -i chebi-do-not-annotate.ofn reason -r ELK --exclude-duplicate-axioms true --remove-redundant-subclass-axioms true --exclude-tautologies structural annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 
 # Not all imports are being pre-mirrored; the ones that are should be dependencies
 # NOTE - the beginning 'annotate' command is used only to work around this ROBOT bug when merge is the first command: 
@@ -492,10 +498,6 @@ imports/pr_terms_combined.txt: imports/pr_terms.txt seed.txt
 imports/opl_terms_combined.txt: imports/opl_terms.txt seed.txt
 	cat $^ | grep 'OPL_' > $@
 
-# Include the generated ChEBI subset property in ChEBI module extractions.
-imports/chebi_terms_combined.txt: imports/chebi_terms.txt seed.txt
-	cat $^ > $@ && echo 'http://purl.obolibrary.org/obo/go#noctua_allowed' >> $@
-
 imports/%_terms_combined.txt: imports/%_terms.txt seed.txt
 	cat $^ > $@
 
@@ -569,7 +571,7 @@ imports/%_import.owl: imports/%_import_pre.owl
 	cp $< $@
 
 imports/chebi_import.owl: bio-chebi.owl imports/chebi_terms_combined.txt $(SRC)
-	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --term 'http://purl.obolibrary.org/obo/go#noctua_allowed' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
+	$(ROBOT) extract -i bio-chebi.owl -T imports/chebi_terms_combined.txt --method BOT remove --term 'http://www.w3.org/2000/01/rdf-schema#label' --term 'http://www.geneontology.org/formats/oboInOwl#inSubset' --term 'http://purl.obolibrary.org/obo/go#chebi_ph7_3' --term 'http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate' --select complement --select annotation-properties --signature true annotate -O $(BASE)/$@ -V $(RELEASE_URIBASE)/$@ -o $@
 .PRECIOUS: imports/chebi_import.owl
 
 imports/%_import.obo: imports/%_import.owl
@@ -580,7 +582,7 @@ imports/%_import.obo: imports/%_import.owl
 # ----------------------------------------
 
 # Fix external ontologies to specific release versions if necessary. These should be updated regularly! Otherwise use the standard PURL.
-CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi/252/chebi.owl.gz
+CHEBI_SOURCE=http://purl.obolibrary.org/obo/chebi.owl.gz
 CL_SOURCE=http://purl.obolibrary.org/obo/cl/cl-base.owl
 FAO_SOURCE=http://purl.obolibrary.org/obo/fao/fao-base.owl
 PATO_SOURCE=http://purl.obolibrary.org/obo/pato/pato-base.owl
@@ -678,8 +680,8 @@ mirror/groups.ttl:
 	arq -q --data=../resources/enzyme.rdf --query=../sparql/query-obsolete-ec.sparql --results=tsv | tail -n +2 | sort >$@
 
 # bio-chebi.owl imports ChEBI and injects subset annotations and GCI axioms to conflate conjugate bases. See Hill et al
-bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn noctua-allowed-slim.ofn biochebi_gcis.ofn imports/substance_by_role.owl
-	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i noctua-allowed-slim.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
+bio-chebi.owl: mirror/chebi.owl chebi-ph7_3-slim.ofn chebi-do-not-annotate.ofn biochebi_gcis.ofn imports/substance_by_role.owl
+	$(ROBOT) merge -i $< -i chebi-ph7_3-slim.ofn -i chebi-do-not-annotate.ofn -i biochebi_gcis.ofn -i imports/substance_by_role.owl annotate --ontology-iri $(BASE)/extensions/$@ -V $(RELEASE_URIBASE)/extensions/$@ -o $@.tmp.owl && mv $@.tmp.owl $@
 
 ../biochebi/chebi_pH7_3_mapping.tsv:
 	wget 'ftp://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv' $(WGET_OUT)
@@ -695,18 +697,34 @@ chebi-ph7_3-slim.ofn: ../biochebi/chebi_pH7_3_mapping.tsv
 	tail -n +2 $< | cut -f 2 | sort -n -u | sed 's/^/AnnotationAssertion(<http:\/\/www.geneontology.org\/formats\/oboInOwl#inSubset> <http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' | sed 's/$$/> <http:\/\/purl.obolibrary.org\/obo\/go#chebi_ph7_3>)/' >>$@.tmp
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
-../biochebi/noctua-allowed-terms.txt: ../biochebi/chebi_pH7_3_terms.txt ../biochebi/chebi-allow.txt
+# ChEBI terms allowed for annotation: the Rhea pH 7.3 subset plus the GO ChEBI allow-list.
+# The term lists below are sorted with LC_ALL=C for use with comm.
+../biochebi/chebi-annotation-allowed-terms.txt: ../biochebi/chebi_pH7_3_terms.txt ../biochebi/chebi-allow.txt
 	cat ../biochebi/chebi_pH7_3_terms.txt >$@.tmp &&\
 	sed -n 's|^CHEBI:|http://purl.obolibrary.org/obo/CHEBI_|p' ../biochebi/chebi-allow.txt >>$@.tmp &&\
-	sort -u $@.tmp >$@ && rm $@.tmp
+	LC_ALL=C sort -u $@.tmp >$@ && rm $@.tmp
 
-noctua-allowed-slim.ofn: ../biochebi/noctua-allowed-terms.txt
-	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/noctua-allowed-slim.ofn>' >$@.tmp &&\
+# All non-obsolete ChEBI classes. Queried through TDB to avoid loading all of ChEBI into memory.
+# The TDB dir is wiped first: ROBOT only removes it on success, so a leftover from a failed run
+# would be silently reused and could yield a short chebi-terms.txt (see #32656).
+../biochebi/chebi-terms.txt: mirror/chebi.owl $(SPARQLDIR)/chebi-terms.sparql
+	rm -rf chebi-tdb/ &&\
+	$(ROBOT) query -i $< --tdb true --tdb-directory chebi-tdb/ -f tsv --query $(SPARQLDIR)/chebi-terms.sparql $@.tmp.tsv &&\
+	tail -n +2 $@.tmp.tsv | sed 's/[<>]//g' | LC_ALL=C sort -u >$@ && rm $@.tmp.tsv
+
+# Every ChEBI class not allowed for annotation goes in gocheck_do_not_annotate. The subset assertions
+# are merged into bio-chebi.owl, which carries them into the ChEBI import modules, and into go-amigo,
+# which loads all of ChEBI. The published gocheck_do_not_annotate slim is extracted from go.owl, which
+# has no ChEBI classes, so it remains GO-only.
+../biochebi/chebi-do-not-annotate-terms.txt: ../biochebi/chebi-terms.txt ../biochebi/chebi-annotation-allowed-terms.txt
+	LC_ALL=C comm -23 $^ >$@
+
+chebi-do-not-annotate.ofn: ../biochebi/chebi-do-not-annotate-terms.txt
+	echo 'Ontology(<http://purl.obolibrary.org/obo/go/extensions/chebi-do-not-annotate.ofn>' >$@.tmp &&\
 	echo 'Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#SubsetProperty>))' >>$@.tmp &&\
-	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#noctua_allowed>))' >>$@.tmp &&\
-	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#noctua_allowed> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
-	echo 'AnnotationAssertion(<http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.obolibrary.org/obo/go#noctua_allowed> "ChEBI terms allowed for use in Noctua, comprising the Rhea pH 7.3 subset and the GO ChEBI allow-list.")' >>$@.tmp &&\
-	sed 's|^|AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <|' $< | sed 's|$$|> <http://purl.obolibrary.org/obo/go#noctua_allowed>)|' >>$@.tmp
+	echo 'Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>))' >>$@.tmp &&\
+	echo 'SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate> <http://www.geneontology.org/formats/oboInOwl#SubsetProperty>)' >>$@.tmp &&\
+	sed 's|^|AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <|' $< | sed 's|$$|> <http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate>)|' >>$@.tmp &&\
 	echo ')' >>$@.tmp && mv $@.tmp $@
 
 biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excludes.txt
@@ -716,7 +734,7 @@ biochebi_gcis.tsv: ../biochebi/chebi_pH7_3_mapping.tsv ../biochebi/biochebi_excl
 biochebi_gcis.ofn: biochebi_gcis.tsv ../biochebi/biochebi_gcis.yaml
 	$(DOSDP_TOOLS) generate --obo-prefixes=true --generate-defined-class=true --template=../biochebi/biochebi_gcis.yaml --infile=$< --outfile=$@.tmp.ofn && mv $@.tmp.ofn $@
 
-../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/noctua-allowed-terms.txt
+../biochebi/go-lego-chebi-import-terms.txt: imports/chebi_terms_combined.txt ../biochebi/chebi-annotation-allowed-terms.txt
 	cat $^ >$@
 
 imports/go-lego-chebi-import.owl: bio-chebi.owl ../biochebi/go-lego-chebi-import-terms.txt
@@ -839,6 +857,62 @@ generate-mappings: $(ONT)-pre.ofn
 	wget https://mirror.geneontology.io/rfam2go -O external2go/rfam2go
 
 # ----------------------------------------
+# GITHUB RELEASE
+# ----------------------------------------
+# Assembles the files published as the assets of a GitHub release, in
+# $(GH_RELEASEDIR). .github/workflows/release.yml runs
+#
+#   make RELEASEDATE=YYYY-MM-DD github-release
+#
+# and tags the release vYYYY-MM-DD, the date in the products' version IRIs.
+#
+# Release assets are a flat list, so products from extensions/ are published
+# under their base name (go-plus.owl.gz). Their ontology IRIs keep the
+# extensions/ path. go.* and go-basic.* are published as they are; every other
+# ontology is published gzipped only, and a JSON file is compressed when its
+# OWL counterpart is. Subsets and mappings are tarballs that unpack to
+# subsets/ and external2go/.
+#
+# The gate is `test`, the same checks the Jenkins release build runs via `all`.
+
+GH_RELEASEDIR = $(RELEASEDIR)/github-release
+GH_STAGINGDIR = $(RELEASEDIR)/github-staging
+
+GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json
+GH_RELEASE_GZ = go-base.owl $(GO_PLUS).owl $(GO_PLUS).json $(GO_GAF).owl $(GO_LEGO).owl $(GO_AMIGO).owl $(GO_LEGO_REACTO).owl extensions/reacto.owl
+
+# subsets/%.owl also writes the matching .obo and .json.
+GH_RELEASE_SUBSET_FILES = $(foreach s,$(PUBLISH_SUBSETS),$(foreach e,owl obo json tsv,subsets/$(s).$(e)))
+
+# RELEASEDATE's default is a backtick expression that the shell re-evaluates
+# in every recipe, so a build that crosses midnight would give products
+# different version IRIs. A release build must pin it.
+ifneq ($(filter github-release,$(MAKECMDGOALS)),)
+ifeq ($(origin RELEASEDATE),file)
+$(error github-release needs an explicit RELEASEDATE=YYYY-MM-DD)
+endif
+endif
+
+.PHONY: github-release
+github-release: test $(GH_RELEASE_PLAIN) $(GH_RELEASE_GZ) $(GH_STAGINGDIR)/subsets.tgz $(GH_STAGINGDIR)/external2go.tgz
+	rm -rf $(GH_RELEASEDIR) && mkdir -p $(GH_RELEASEDIR)
+	cp $(GH_RELEASE_PLAIN) $(GH_RELEASEDIR)/
+	for f in $(GH_RELEASE_GZ); do gzip -c -n $$f >$(GH_RELEASEDIR)/$$(basename $$f).gz || exit 1; done
+	cp $(GH_STAGINGDIR)/subsets.tgz $(GH_STAGINGDIR)/external2go.tgz $(GH_RELEASEDIR)/
+	ls -l $(GH_RELEASEDIR)
+
+$(GH_STAGINGDIR)/subsets.tgz: $(SUBSET_OWLS) $(SUBSET_REPORTS)
+	mkdir -p $(GH_STAGINGDIR) && tar -czf $@.tmp $(GH_RELEASE_SUBSET_FILES) && mv $@.tmp $@
+
+# Only the mappings generated from GO's own xrefs. generate-mappings also
+# downloads mappings maintained by other groups (interpro2go, pfam2go, ...)
+# into external2go/; those are not published here.
+$(GH_STAGINGDIR)/external2go.tgz: $(ONT)-pre.ofn
+	rm -rf $(GH_STAGINGDIR)/external2go && mkdir -p $(GH_STAGINGDIR)/external2go
+	$(OWLTOOLS) $< --external-mappings-files -o $(GH_STAGINGDIR)/external2go --label-prefix GO: --externals $(EXTERNAL2GO_DBS)
+	tar -czf $@.tmp -C $(GH_STAGINGDIR) external2go && mv $@.tmp $@
+
+# ----------------------------------------
 # TAXON GROUPINGS
 # ----------------------------------------
 
@@ -942,7 +1016,8 @@ qc-selftest: ../util/ontology-qc-selftest.dl ../util/qc/control.dl ../util/qc/se
 	@( [ -s qc-unexpected-violations.tsv ] && { echo "ERROR: violations no control fact expected -- a rule has become too broad, or ../util/qc/control.dl needs an expected_violation:"; cat qc-unexpected-violations.tsv; exit 1; } || true )
 
 reports/neo-violations.report: $(GO_LEGO).owl
-	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -k true -p ../sparql/neo/profile.txt -o $@ --print 50 -v
+	rm -rf tdb/ &&\
+	$(ROBOT) report --input $(GO_LEGO).owl --tdb true --tdb-directory tdb/ -p ../sparql/neo/profile.txt -o $@ --print 50 -v
 
 # intermediate files in this target must be lexically, not numerically sorted, for use with comm
 # terms listed in ../biochebi/chebi-allow.txt are exempted from the pH 7.3 requirement

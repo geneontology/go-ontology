@@ -92,6 +92,11 @@ synonym(t, s, v) :- synonym_scope(p, s), ontrdf(t, p, lit), text(lit, v), iri(t)
 .decl xref(term:symbol, ref:symbol)
 xref(t, r) :- ontrdf(t, OIO_XREF, lit), text(lit, r), iri(t).
 
+// Any annotation whose value is typed xsd:anyURI, whichever property carries
+// it. In go-edit.obo that is term_tracker_item today.
+.decl uri_value(subject:symbol, property:symbol, uri:symbol)
+uri_value(s, p, v) :- ontrdf(s, p, lit), uri_literal(lit), text(lit, v).
+
 .decl replacement(term:symbol, kind:symbol, target:symbol)
 replacement(t, "replaced_by", r) :- ontrdf(t, IAO_REPLACED_BY, r).
 replacement(t, "consider",    r) :- ontrdf(t, OIO_CONSIDER, r).

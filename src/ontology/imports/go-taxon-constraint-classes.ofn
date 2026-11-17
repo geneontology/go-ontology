@@ -85,6 +85,7 @@ Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/N
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_8457>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_8782>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_89593>))
+Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_9443>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_9606>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_10090>))
@@ -164,6 +165,7 @@ Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NC
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_8457>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_8782>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_89593>))
+Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_91061>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_9443>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_9606>))
 Declaration(Class(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_Union_0000000>))
@@ -258,6 +260,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_7776>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8457>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_8782>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_89593>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_91061>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9443>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_Union_0000000>))
@@ -345,6 +348,7 @@ DisjointClasses(<http://geneontology.org/internal/taxon-constraints/never-in/NCB
 AnnotationAssertion(rdfs:label <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_2> "never in Bacteria")
 EquivalentClasses(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_2> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_2>)))
 SubClassOf(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_2> <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_1117>)
+SubClassOf(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_2> <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061>)
 SubClassOf(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_2>)))
 DisjointClasses(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_2>))
 
@@ -897,6 +901,13 @@ EquivalentClasses(<http://geneontology.org/internal/taxon-constraints/never-in/N
 SubClassOf(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_89593> <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_7742>)
 SubClassOf(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_89593> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_89593>)))
 DisjointClasses(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_89593> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_89593>))
+
+# Class: <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061> (never in Bacilli)
+
+AnnotationAssertion(rdfs:label <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061> "never in Bacilli")
+EquivalentClasses(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_91061>)))
+SubClassOf(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> ObjectComplementOf(<http://purl.obolibrary.org/obo/NCBITaxon_91061>)))
+DisjointClasses(<http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_91061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_91061>))
 
 # Class: <http://geneontology.org/internal/taxon-constraints/never-in/NCBITaxon_9443> (never in Primates)
 
@@ -1459,6 +1470,13 @@ AnnotationAssertion(rdfs:label <http://geneontology.org/internal/taxon-constrain
 EquivalentClasses(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_89593> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_89593>))
 SubClassOf(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_89593> <http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_7711>)
 SubClassOf(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_89593> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_89593>))
+
+# Class: <http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_91061> (only in Bacilli)
+
+AnnotationAssertion(rdfs:label <http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_91061> "only in Bacilli")
+EquivalentClasses(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_91061> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_91061>))
+SubClassOf(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_91061> <http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_2>)
+SubClassOf(<http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_91061> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002162> <http://purl.obolibrary.org/obo/NCBITaxon_91061>))
 
 # Class: <http://geneontology.org/internal/taxon-constraints/only-in/NCBITaxon_9443> (only in Primates)
 

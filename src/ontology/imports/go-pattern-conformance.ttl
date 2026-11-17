@@ -1392,6 +1392,24 @@
 <http://purl.obolibrary.org/obo/GO_0002367> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0002368> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002369> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002370> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002371> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002372> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002373> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0002381> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
@@ -1433,6 +1451,15 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0002401> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002402> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002403> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002411> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0002421> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
@@ -1521,6 +1548,24 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0002550> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002552> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002553> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002554> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002555> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002556> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0002557> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0002561> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
@@ -9533,9 +9578,6 @@
 <http://purl.obolibrary.org/obo/GO_0015947> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0015948> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0015957> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
@@ -10215,7 +10257,7 @@
 <http://purl.obolibrary.org/obo/GO_0019252> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0019255> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
+<http://purl.obolibrary.org/obo/GO_0019255> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0019256> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
@@ -10357,9 +10399,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0019357> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0019359> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0019361> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
@@ -15895,26 +15934,6 @@
 <http://purl.obolibrary.org/obo/GO_0033625> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0033628> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0033629> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0033630> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0033632> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0033633> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0033634> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0033673> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
 
 
@@ -17373,6 +17392,15 @@
 <http://purl.obolibrary.org/obo/GO_0035736> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0035743> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0035744> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0035745> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0035750> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 
 
@@ -17751,12 +17779,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0036255> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0036257> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0036258> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0036270> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
@@ -20295,9 +20317,6 @@
 <http://purl.obolibrary.org/obo/GO_0044592> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0044597> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0044598> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
@@ -20495,9 +20514,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0045144> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0045149> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0045150> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
@@ -22111,12 +22127,6 @@
 <http://purl.obolibrary.org/obo/GO_0046141> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0046146> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0046147> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0046150> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
@@ -22175,9 +22185,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0046176> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0046178> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0046179> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
@@ -22735,9 +22742,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0046495> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0046496> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0046499> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
@@ -25049,12 +25053,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0051059> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0051066> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0051067> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0051068> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
@@ -28554,9 +28552,6 @@
 <http://purl.obolibrary.org/obo/GO_0061474> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/bounding_membrane_of_organelle.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0061475> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0061476> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
 
 
@@ -28636,9 +28631,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0061644> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0061668> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0061673> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
@@ -29244,9 +29236,6 @@
 <http://purl.obolibrary.org/obo/GO_0070095> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0070096> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0070097> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/binding.yaml> .
 
 
@@ -29330,57 +29319,6 @@
 <http://purl.obolibrary.org/obo/GO_0070136> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0070143> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070144> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070145> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070146> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070147> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070148> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070149> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070150> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070153> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070154> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070155> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070156> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070157> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070158> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070159> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0070163> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
@@ -29422,15 +29360,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0070179> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070183> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070184> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070185> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0070192> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -29850,6 +29779,9 @@
 <http://purl.obolibrary.org/obo/GO_0070553> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/signaling_receptor_activity_by_input.yaml> .
 
 
+<http://purl.obolibrary.org/obo/GO_0070560> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
 <http://purl.obolibrary.org/obo/GO_0070562> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
@@ -29874,9 +29806,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0070580> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0070585> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0070586> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -30922,9 +30851,6 @@
 <http://purl.obolibrary.org/obo/GO_0071955> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/vesicle_mediated_transport_differentiated_by_start_and_end_locations.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0071971> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0071990> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
@@ -31024,9 +30950,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0072045> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0072046> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0072047> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -31590,15 +31513,6 @@
 <http://purl.obolibrary.org/obo/GO_0072520> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_development.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0072521> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0072522> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0072523> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0072524> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/metabolic_process.yaml> .
 
 
@@ -31615,9 +31529,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0072529> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0072530> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_transport.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0072531> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/transmembrane_transport.yaml> .
@@ -31681,9 +31592,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0072599> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/establishment_of_protein_localization_to.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0072656> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0072657> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
@@ -32691,16 +32599,6 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_0090176> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0090177> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0090178> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_0090180> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
@@ -32854,9 +32752,6 @@
 
 <http://purl.obolibrary.org/obo/GO_0090249> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_0090251> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0090254> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -35252,6 +35147,12 @@
 
 
 <http://purl.obolibrary.org/obo/GO_0120575> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0120576> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_0120577> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_0140001> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_formation.yaml> .
@@ -39145,9 +39046,6 @@
 <http://purl.obolibrary.org/obo/GO_1901355> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/response_to_stimulus_by_stimulus.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1901357> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_1901358> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
 
 
@@ -39958,9 +39856,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1901769> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1901770> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/catabolic_process.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1901771> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
@@ -43810,16 +43705,6 @@
 <http://purl.obolibrary.org/obo/GO_1903546> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1903551> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1903552> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1903553> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_1903555> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
@@ -43937,9 +43822,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1903607> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/biosynthetic_process.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1903608> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_localization_to.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1903609> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
@@ -45135,16 +45017,6 @@
 <http://purl.obolibrary.org/obo/GO_1904151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1904152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1904153> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1904154> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_1904155> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cell_differentiation_by_mature_cell_type.yaml> .
 
 
@@ -46020,12 +45892,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1904537> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1904539> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1904540> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1904541> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
@@ -47886,16 +47752,6 @@
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
 
 
-<http://purl.obolibrary.org/obo/GO_1905365> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1905366> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1905367> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
-
-
 <http://purl.obolibrary.org/obo/GO_1905368> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/protein_complex_by_activity.yaml> .
 
 
@@ -48698,16 +48554,6 @@
 
 
 <http://purl.obolibrary.org/obo/GO_1905748> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/anatomical_structure_morphogenesis.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1905749> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1905750> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_1905751> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_1905754> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/part_of_cell_component.yaml> .
@@ -49609,16 +49455,6 @@
 
 <http://purl.obolibrary.org/obo/GO_2000045> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
                                                                                   <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_2000047> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
-                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_2000048> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
-
-
-<http://purl.obolibrary.org/obo/GO_2000049> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
 
 
 <http://purl.obolibrary.org/obo/GO_2000050> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
@@ -52883,6 +52719,43 @@
 
 
 <http://purl.obolibrary.org/obo/GO_7770113> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/involved_in_x_y.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770119> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/regulation.yaml> ,
+                                                                                  <http://purl.obolibrary.org/obo/go/patterns/regulation_by.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770120> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770126> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770127> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/occursIn.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770151> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770152> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770153> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770157> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770159> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cc_assembly.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770160> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/positive_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770161> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/negative_regulation.yaml> .
+
+
+<http://purl.obolibrary.org/obo/GO_7770162> <http://purl.org/dc/terms/conformsTo> <http://purl.obolibrary.org/obo/go/patterns/cellular_anatomical_entity_organization.yaml> .
 
 
 ###  Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi
