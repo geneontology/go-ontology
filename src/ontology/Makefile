@@ -866,19 +866,24 @@ generate-mappings: $(ONT)-pre.ofn
 #
 # and tags the release vYYYY-MM-DD, the date in the products' version IRIs.
 #
-# Release assets are a flat list, so products from extensions/ are published
-# under their base name (go-plus.owl.gz). Their ontology IRIs keep the
-# extensions/ path. go.* and go-basic.* are published as they are; every other
-# ontology is published gzipped only, and a JSON file is compressed when its
-# OWL counterpart is. Subsets and mappings are tarballs that unpack to
-# subsets/ and external2go/.
+# Release assets are a flat list, so files from extensions/ and subsets/ are
+# published under their base name (go-plus.owl.gz, gorel.owl). Ontology IRIs
+# keep the extensions/ path. go.*, go-basic.* and gorel.* are published as
+# they are; every other ontology is published gzipped only, and a JSON file is
+# compressed when its OWL counterpart is. Subsets and mappings are tarballs
+# that unpack to subsets/ and external2go/. go_subsets_metadata.yaml, which
+# describes the subsets, is published beside them as it is.
+#
+# gorel.owl is checked in, but go-gaf.owl depends on it, so the build remakes
+# it from the freshly downloaded mirror/ro.owl. Listing gorel.obo here remakes
+# that from the new gorel.owl, so the two assets always match.
 #
 # The gate is `test`, the same checks the Jenkins release build runs via `all`.
 
 GH_RELEASEDIR = $(RELEASEDIR)/github-release
 GH_STAGINGDIR = $(RELEASEDIR)/github-staging
 
-GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json
+GH_RELEASE_PLAIN = go.owl go.obo go.json go-basic.owl go-basic.obo go-basic.json extensions/gorel.owl extensions/gorel.obo subsets/go_subsets_metadata.yaml
 GH_RELEASE_GZ = go-base.owl $(GO_PLUS).owl $(GO_PLUS).json $(GO_GAF).owl $(GO_LEGO).owl $(GO_AMIGO).owl $(GO_LEGO_REACTO).owl extensions/reacto.owl
 
 # subsets/%.owl also writes the matching .obo and .json.
