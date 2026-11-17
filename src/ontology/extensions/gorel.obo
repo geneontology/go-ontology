@@ -1,4 +1,5 @@
 format-version: 1.2
+data-version: go/releases/2026-11-17/extensions/gorel.owl
 subsetdef: AE_biological_process "GO biological process"
 subsetdef: AE_cell_or_anatomical "cell or anatomical"
 subsetdef: AE_cellular_component "GO cellular component"
