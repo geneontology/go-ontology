@@ -69770,13 +69770,16 @@ id: GO:0006896
 name: Golgi to vacuole transport
 namespace: biological_process
 def: "The directed movement of substances from the Golgi to the vacuole." [GOC:ai]
+synonym: "ALP pathway" NARROW [PMID:9335339]
 synonym: "Golgi to vacuole vesicle-mediated transport" EXACT []
+synonym: "alkaline phosphatase pathway" NARROW [PMID:9335339]
 is_a: GO:0006892 ! post-Golgi vesicle-mediated transport
 is_a: GO:0007034 ! vacuolar transport
 intersection_of: GO:0016192 ! vesicle-mediated transport
 intersection_of: has_target_end_location GO:0005773 ! vacuole
 intersection_of: has_target_start_location GO:0005794 ! Golgi apparatus
 intersection_of: occurs_in GO:0005622 ! intracellular anatomical structure
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31983" xsd:anyURI
 
 [Term]
 id: GO:0006897
