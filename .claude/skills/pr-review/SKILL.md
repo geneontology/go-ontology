@@ -102,12 +102,16 @@ are wrong — either way it is worth raising.
 - Definition present, with at least one xref.
 - `created_by` / `creation_date` on NEW terms only. Adding or modifying
   either on a pre-existing term is an error, and a common one.
-- `term_tracker_item` for the PR's issue on every term the PR creates, edits
-  or obsoletes, exactly as:
+- `term_tracker_item` for the PR's issue on each term the issue is about
+  (the terms it asks to create, change or obsolete), exactly as:
   `property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/N" xsd:anyURI`
-  Check each changed stanza: a missing line leaves nothing in the diff to
+  Check each of those stanzas: a missing line leaves nothing in the diff to
   notice. A tracker for an earlier issue on the same term doesn't count. Flag
   a missing one as IMPORTANT.
+  Terms changed only as a side effect don't get one: for example, children
+  re-parented because their parent is obsoleted, or the same mechanical fix
+  applied across many terms. Don't ask for trackers there, and flag any added
+  to such terms as a SUGGESTION.
 - Synonym scopes correct; no synonym duplicating the label.
 - New ids minted by an agent are in the `GO:777xxxx` range, and no new id
   collides with an existing `id:` or `alt_id:` anywhere in go-edit.obo.
