@@ -538995,16 +538995,17 @@ creation_date: 2014-05-06T20:33:34Z
 
 [Term]
 id: GO:1902986
-name: regulation of lysine biosynthetic process via aminoadipic acid
+name: regulation of L-lysine biosynthetic process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of lysine biosynthetic process via aminoadipic acid." [GO_REF:0000058, GOC:TermGenie, PMID:8590464]
-synonym: "regulation of lysine anabolism via aminoadipic acid" EXACT [GOC:TermGenie]
-synonym: "regulation of lysine biosynthesis, aminoadipic acid pathway" EXACT [GOC:TermGenie]
-synonym: "regulation of lysine biosynthesis, aminoadipic pathway" EXACT [GOC:TermGenie]
-synonym: "regulation of lysine biosynthetic process, aminoadipic acid pathway" EXACT [GOC:TermGenie]
-synonym: "regulation of lysine biosynthetic process, aminoadipic pathway" EXACT [GOC:TermGenie]
-synonym: "regulation of lysine formation via aminoadipic acid" EXACT [GOC:TermGenie]
-synonym: "regulation of lysine synthesis via aminoadipic acid" EXACT [GOC:TermGenie]
+def: "Any process that modulates the frequency, rate or extent of L-lysine biosynthetic process." [GO_REF:0000058, GOC:TermGenie, PMID:8590464]
+synonym: "regulation of lysine anabolism via aminoadipic acid" NARROW [GOC:TermGenie]
+synonym: "regulation of lysine biosynthesis, aminoadipic acid pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of lysine biosynthesis, aminoadipic pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of lysine biosynthetic process via aminoadipic acid" NARROW []
+synonym: "regulation of lysine biosynthetic process, aminoadipic acid pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of lysine biosynthetic process, aminoadipic pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of lysine formation via aminoadipic acid" NARROW [GOC:TermGenie]
+synonym: "regulation of lysine synthesis via aminoadipic acid" NARROW [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0009085 ! L-lysine biosynthetic process
 created_by: al
@@ -557767,15 +557768,16 @@ creation_date: 2015-03-10T17:10:56Z
 
 [Term]
 id: GO:1904023
-name: regulation of glucose catabolic process to lactate via pyruvate
+name: regulation of pyruvate fermentation to lactate
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of glucose catabolic process to lactate via pyruvate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, PMID:20935145]
-synonym: "regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "regulation of homolactic fermentation" EXACT [GOC:TermGenie]
+def: "Any process that modulates the frequency, rate or extent of pyruvate fermentation to lactate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, PMID:20935145]
+synonym: "regulation of glucose catabolic process to lactate via pyruvate" NARROW []
+synonym: "regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "regulation of homolactic fermentation" NARROW [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0019244 ! pyruvate fermentation to lactate
 created_by: dph
@@ -557783,30 +557785,30 @@ creation_date: 2015-03-11T16:57:32Z
 
 [Term]
 id: GO:1904024
-name: negative regulation of glucose catabolic process to lactate via pyruvate
+name: negative regulation of pyruvate fermentation to lactate
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of glucose catabolic process to lactate via pyruvate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, PMID:20935145]
-synonym: "down regulation of glucose catabolic process to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "down regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "down regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "down regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "down regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "down regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "down regulation of homolactic fermentation" EXACT [GOC:TermGenie]
-synonym: "down-regulation of glucose catabolic process to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "down-regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "down-regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "down-regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "down-regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "down-regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "down-regulation of homolactic fermentation" EXACT [GOC:TermGenie]
-synonym: "downregulation of glucose catabolic process to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "downregulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "downregulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "downregulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "downregulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "downregulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "downregulation of homolactic fermentation" EXACT [GOC:TermGenie]
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of pyruvate fermentation to lactate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, PMID:20935145]
+synonym: "down regulation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "down regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "down regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "down regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "down regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "down regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "down regulation of homolactic fermentation" NARROW [GOC:TermGenie]
+synonym: "down-regulation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "down-regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "down-regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "down-regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "down-regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "down-regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "down-regulation of homolactic fermentation" NARROW [GOC:TermGenie]
+synonym: "downregulation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "downregulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "downregulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "downregulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "downregulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "downregulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "downregulation of homolactic fermentation" NARROW [GOC:TermGenie]
 synonym: "inhibition of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
 synonym: "inhibition of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
 synonym: "inhibition of homofermentation" NARROW [GOC:TermGenie]
@@ -557814,12 +557816,13 @@ synonym: "inhibition of homofermentative lactate fermentation" NARROW [GOC:TermG
 synonym: "inhibition of homofermentative pathway" NARROW [GOC:TermGenie]
 synonym: "inhibition of homolactate fermentation" NARROW [GOC:TermGenie]
 synonym: "inhibition of homolactic fermentation" NARROW [GOC:TermGenie]
-synonym: "negative regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "negative regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "negative regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "negative regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "negative regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "negative regulation of homolactic fermentation" EXACT [GOC:TermGenie]
+synonym: "negative regulation of glucose catabolic process to lactate via pyruvate" NARROW []
+synonym: "negative regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "negative regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "negative regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "negative regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "negative regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "negative regulation of homolactic fermentation" NARROW [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0019244 ! pyruvate fermentation to lactate
 created_by: dph
@@ -557827,9 +557830,9 @@ creation_date: 2015-03-11T16:57:38Z
 
 [Term]
 id: GO:1904025
-name: positive regulation of glucose catabolic process to lactate via pyruvate
+name: positive regulation of pyruvate fermentation to lactate
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of glucose catabolic process to lactate via pyruvate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, PMID:20935145]
+def: "Any process that activates or increases the frequency, rate or extent of pyruvate fermentation to lactate." [GO_REF:0000058, GOC:dph, GOC:TermGenie, PMID:20935145]
 synonym: "activation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
 synonym: "activation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
 synonym: "activation of homofermentation" NARROW [GOC:TermGenie]
@@ -557837,33 +557840,34 @@ synonym: "activation of homofermentative lactate fermentation" NARROW [GOC:TermG
 synonym: "activation of homofermentative pathway" NARROW [GOC:TermGenie]
 synonym: "activation of homolactate fermentation" NARROW [GOC:TermGenie]
 synonym: "activation of homolactic fermentation" NARROW [GOC:TermGenie]
-synonym: "positive regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "positive regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "positive regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "positive regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "positive regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "positive regulation of homolactic fermentation" EXACT [GOC:TermGenie]
-synonym: "up regulation of glucose catabolic process to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "up regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "up regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "up regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "up regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "up regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "up regulation of homolactic fermentation" EXACT [GOC:TermGenie]
-synonym: "up-regulation of glucose catabolic process to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "up-regulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "up-regulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "up-regulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "up-regulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "up-regulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "up-regulation of homolactic fermentation" EXACT [GOC:TermGenie]
-synonym: "upregulation of glucose catabolic process to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "upregulation of glucose fermentation to lactate via pyruvate" EXACT [GOC:TermGenie]
-synonym: "upregulation of homofermentation" EXACT [GOC:TermGenie]
-synonym: "upregulation of homofermentative lactate fermentation" EXACT [GOC:TermGenie]
-synonym: "upregulation of homofermentative pathway" EXACT [GOC:TermGenie]
-synonym: "upregulation of homolactate fermentation" EXACT [GOC:TermGenie]
-synonym: "upregulation of homolactic fermentation" EXACT [GOC:TermGenie]
+synonym: "positive regulation of glucose catabolic process to lactate via pyruvate" NARROW []
+synonym: "positive regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "positive regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "positive regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "positive regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "positive regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "positive regulation of homolactic fermentation" NARROW [GOC:TermGenie]
+synonym: "up regulation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "up regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "up regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "up regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "up regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "up regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "up regulation of homolactic fermentation" NARROW [GOC:TermGenie]
+synonym: "up-regulation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "up-regulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "up-regulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "up-regulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "up-regulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "up-regulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "up-regulation of homolactic fermentation" NARROW [GOC:TermGenie]
+synonym: "upregulation of glucose catabolic process to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "upregulation of glucose fermentation to lactate via pyruvate" NARROW [GOC:TermGenie]
+synonym: "upregulation of homofermentation" NARROW [GOC:TermGenie]
+synonym: "upregulation of homofermentative lactate fermentation" NARROW [GOC:TermGenie]
+synonym: "upregulation of homofermentative pathway" NARROW [GOC:TermGenie]
+synonym: "upregulation of homolactate fermentation" NARROW [GOC:TermGenie]
+synonym: "upregulation of homolactic fermentation" NARROW [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0019244 ! pyruvate fermentation to lactate
 created_by: dph
@@ -619379,11 +619383,12 @@ creation_date: 2011-11-03T07:57:18Z
 
 [Term]
 id: GO:2001196
-name: positive regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine
+name: positive regulation of L-lysine biosynthetic process
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of lysine biosynthetic process via alpha-aminoadipate and saccharopine." [GOC:obol]
-synonym: "positive regulation of lysine biosynthesis via aminoadipic acid and saccharopine" EXACT [GOC:obol]
-synonym: "positive regulation of lysine biosynthetic process via aminoadipic acid and saccharopine" EXACT [GOC:obol]
+def: "Any process that activates or increases the frequency, rate or extent of L-lysine biosynthetic process." [GOC:obol]
+synonym: "positive regulation of lysine biosynthesis via aminoadipic acid and saccharopine" NARROW [GOC:obol]
+synonym: "positive regulation of lysine biosynthetic process via alpha-aminoadipate and saccharopine" NARROW []
+synonym: "positive regulation of lysine biosynthetic process via aminoadipic acid and saccharopine" NARROW [GOC:obol]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0009085 ! L-lysine biosynthetic process
 created_by: mcc
