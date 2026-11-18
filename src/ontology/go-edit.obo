@@ -268297,7 +268297,7 @@ creation_date: 2012-07-05T04:40:57Z
 id: GO:0044637
 name: venom-mediated suppression of complement activation, classical pathway
 namespace: biological_process
-def: "A process in which an organism inhibits the classical pathway of complement activation in another organism via the action of a venom." [PMID:15829304, PMID:20837040, PMID:23499645, PMID:35622591]
+def: "A process in which an organism inhibits the classical pathway of complement activation in another organism via the action of a venom." [PMID:15829304, PMID:20837040, PMID:35622591]
 synonym: "envenomation resulting in negative regulation of complement activation, classical pathway in other organism" EXACT []
 synonym: "venom-mediated inhibition of complement activation, classical pathway" EXACT []
 is_a: GO:0044646 ! venom-mediated perturbation of complement activation
