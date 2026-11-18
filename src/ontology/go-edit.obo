@@ -453788,8 +453788,9 @@ name: regulation of cobalamin catabolic process
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of cobalamin (vitamin B12) catabolic process." [PMID:29056341]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: regulates GO:0009235 ! cobalamin metabolic process
+intersection_of: regulates GO:0042366 ! cobalamin catabolic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32295" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: hjd
 creation_date: 2017-10-27T17:33:05Z
 
@@ -454352,8 +454353,9 @@ name: positive regulation of cobalamin catabolic process
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of a cobalamin (vitamin B12) catabolic process." [PMID:29056341]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: positively_regulates GO:0009235 ! cobalamin metabolic process
+intersection_of: positively_regulates GO:0042366 ! cobalamin catabolic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32295" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: hjd
 creation_date: 2018-05-01T18:07:12Z
 
@@ -454363,8 +454365,9 @@ name: negative regulation of cobalamin catabolic process
 namespace: biological_process
 def: "Any process that stops, prevents or reduces the frequency, rate or extent of a cobalamin (vitamin B12) catabolic process." [PMID:29056341]
 intersection_of: GO:0065007 ! biological regulation
-intersection_of: negatively_regulates GO:0009235 ! cobalamin metabolic process
+intersection_of: negatively_regulates GO:0042366 ! cobalamin catabolic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32295" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: hjd
 creation_date: 2018-05-01T18:12:48Z
 
@@ -474129,12 +474132,13 @@ creation_date: 2021-12-13T14:14:09Z
 
 [Term]
 id: GO:0140748
-name: positive regulation of regulation of ascospore wall (1->3)-beta-D-glucan biosynthetic process
+name: positive regulation of ascospore wall (1->3)-beta-D-glucan biosynthetic process
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of ascospore wall (1->3)-beta-D-glucan biosynthetic process." [PMID:19189958]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0034413 ! ascospore wall (1->3)-beta-D-glucan biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22630" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: pg
 creation_date: 2022-01-10T07:09:57Z
 
@@ -496942,20 +496946,22 @@ creation_date: 2012-05-02T04:07:04Z
 
 [Term]
 id: GO:1900515
-name: regulation of xylose catabolic process to ethanol
+name: regulation of D-xylose fermentation
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of xylose catabolic process to ethanol." [GOC:mengo_curators, GOC:TermGenie]
+def: "Any process that modulates the frequency, rate or extent of D-xylose fermentation." [GOC:mengo_curators, GOC:TermGenie]
+synonym: "regulation of xylose catabolic process to ethanol" EXACT []
 synonym: "regulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0044577 ! D-xylose fermentation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: tt
 creation_date: 2012-05-02T04:09:07Z
 
 [Term]
 id: GO:1900516
-name: negative regulation of xylose catabolic process to ethanol
+name: negative regulation of D-xylose fermentation
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of xylose catabolic process to ethanol." [GOC:mengo_curators, GOC:TermGenie]
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of D-xylose fermentation." [GOC:mengo_curators, GOC:TermGenie]
 synonym: "down regulation of xylose catabolic process to ethanol" EXACT [GOC:TermGenie]
 synonym: "down regulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
 synonym: "down-regulation of xylose catabolic process to ethanol" EXACT [GOC:TermGenie]
@@ -496964,19 +496970,22 @@ synonym: "downregulation of xylose catabolic process to ethanol" EXACT [GOC:Term
 synonym: "downregulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
 synonym: "inhibition of xylose catabolic process to ethanol" NARROW [GOC:TermGenie]
 synonym: "inhibition of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
+synonym: "negative regulation of xylose catabolic process to ethanol" EXACT []
 synonym: "negative regulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0044577 ! D-xylose fermentation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: tt
 creation_date: 2012-05-02T04:09:17Z
 
 [Term]
 id: GO:1900517
-name: positive regulation of xylose catabolic process to ethanol
+name: positive regulation of D-xylose fermentation
 namespace: biological_process
-def: "Any process that activates or increases the frequency, rate or extent of xylose catabolic process to ethanol." [GOC:mengo_curators, GOC:TermGenie]
+def: "Any process that activates or increases the frequency, rate or extent of D-xylose fermentation." [GOC:mengo_curators, GOC:TermGenie]
 synonym: "activation of xylose catabolic process to ethanol" NARROW [GOC:TermGenie]
 synonym: "activation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
+synonym: "positive regulation of xylose catabolic process to ethanol" EXACT []
 synonym: "positive regulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
 synonym: "up regulation of xylose catabolic process to ethanol" EXACT [GOC:TermGenie]
 synonym: "up regulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
@@ -496986,6 +496995,7 @@ synonym: "upregulation of xylose catabolic process to ethanol" EXACT [GOC:TermGe
 synonym: "upregulation of xylose catabolism to ethanol" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0044577 ! D-xylose fermentation
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: tt
 creation_date: 2012-05-02T04:09:26Z
 
@@ -522530,9 +522540,9 @@ creation_date: 2013-03-19T19:14:09Z
 
 [Term]
 id: GO:1901997
-name: negative regulation of auxin biosynthetic process
+name: negative regulation of indoleacetic acid biosynthetic process
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of auxin biosynthetic process." [GOC:TermGenie, PMID:23377040]
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of indoleacetic acid biosynthetic process." [GOC:TermGenie, PMID:23377040]
 synonym: "down regulation of IAA biosynthetic process" EXACT [GOC:TermGenie]
 synonym: "down regulation of indoleacetic acid anabolism" EXACT [GOC:TermGenie]
 synonym: "down regulation of indoleacetic acid biosynthetic process" EXACT [GOC:TermGenie]
@@ -522554,13 +522564,14 @@ synonym: "inhibition of indoleacetic acid biosynthetic process" NARROW [GOC:Term
 synonym: "inhibition of indoleacetic acid formation" EXACT [GOC:TermGenie]
 synonym: "inhibition of indoleacetic acid synthesis" EXACT [GOC:TermGenie]
 synonym: "negative regulation of IAA biosynthetic process" EXACT [GOC:TermGenie]
+synonym: "negative regulation of auxin biosynthetic process" BROAD []
 synonym: "negative regulation of indoleacetic acid anabolism" EXACT [GOC:TermGenie]
-synonym: "negative regulation of indoleacetic acid biosynthetic process" NARROW []
 synonym: "negative regulation of indoleacetic acid formation" EXACT [GOC:TermGenie]
 synonym: "negative regulation of indoleacetic acid synthesis" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0009684 ! indoleacetic acid biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31933" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: tb
 creation_date: 2013-03-19T19:14:13Z
 
