@@ -165475,7 +165475,7 @@ id: GO:0030235
 name: nitric-oxide synthase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of nitric oxide synthase." [GOC:mah]
-comment: See also 'regulation of nitric-oxide synthase activity ; GO:0050999'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "nitric oxide synthase regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004517 ! nitric-oxide synthase activity
