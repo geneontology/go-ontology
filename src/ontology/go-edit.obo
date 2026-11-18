@@ -330405,10 +330405,10 @@ def: "Echolocation is the method used by some animals (e.g. bats, dolphins and s
 synonym: "biological sonar" EXACT [https://en.wikipedia.org/wiki/Animal_echolocation]
 synonym: "perception of environment using reflected sound waves" EXACT []
 xref: Wikipedia:Echolocation
-is_a: GO:0050877 ! nervous system process
+is_a: GO:0007605 ! sensory perception of sound
 is_a: neverin:10090 {source="PMID:34140356"}
-is_a: neverin:9443 {source="PMID:34140356"}
 is_a: onlyin:32524 {source="PMID:23755019"}
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32960" xsd:anyURI
 
 [Term]
 id: GO:0050960
