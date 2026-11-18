@@ -5169,6 +5169,7 @@ id: GO:0000513
 name: actin severing activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a actin severing protein." [PMID:25451933]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0140677 ! molecular function activator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/18437" xsd:anyURI
 created_by: pg
@@ -5993,6 +5994,7 @@ id: GO:0000774
 name: adenyl-nucleotide exchange factor activity
 namespace: molecular_function
 def: "Binds to and stimulates the hydrolysis and exchange of adenyl nucleotides by other proteins." [GOC:kd]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0060590 ! ATPase regulator activity
 intersection_of: directly_negatively_regulates GO:0043531 ! ADP binding
 intersection_of: directly_positively_regulates GO:0005524 ! ATP binding
@@ -11465,6 +11467,7 @@ id: GO:0001671
 name: ATPase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an ATP hydrolysis activity." [GOC:ajp]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "ATPase stimulator activity" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0140657 ! ATP-dependent activity
@@ -49311,7 +49314,7 @@ name: enzyme inhibitor activity
 namespace: molecular_function
 alt_id: GO:0048551
 def: "A molecular function regulator that reduces a catalytic activity." [GOC:ai, GOC:ebc]
-comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "metalloenzyme inhibitor activity" NARROW []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003824 ! catalytic activity
@@ -49321,6 +49324,7 @@ id: GO:0004858
 name: dUTP diphosphatase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of dUTP diphosphatase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "dUTP pyrophosphatase inhibitor activity" EXACT []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004170 ! dUTP diphosphatase activity
@@ -49331,6 +49335,7 @@ id: GO:0004859
 name: phospholipase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a phospholipase, an enzyme that catalyzes of the hydrolysis of a phospholipid." [GOC:ai, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004620 ! glycerophospholipase activity
 
@@ -49339,6 +49344,7 @@ id: GO:0004860
 name: protein kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a protein kinase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004672 ! protein kinase activity
 
@@ -49347,6 +49353,7 @@ id: GO:0004861
 name: cyclin-dependent protein serine/threonine kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a cyclin-dependent protein serine/threonine kinase." [GOC:mah, GOC:pr]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "CDK inhibitor" RELATED []
 synonym: "cyclin dependent kinase inhibitor" RELATED []
 synonym: "cyclin dependent protein kinase inhibitor activity" EXACT []
@@ -49360,6 +49367,7 @@ id: GO:0004862
 name: cAMP-dependent protein kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a cAMP-dependent protein kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004691 ! cAMP-dependent protein kinase activity
 
@@ -49369,6 +49377,7 @@ name: protein phosphatase inhibitor activity
 namespace: molecular_function
 alt_id: GO:1990681
 def: "Binds to and stops, prevents or reduces the activity of a protein phosphatase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "phosphoprotein phosphatase inhibitor activity" EXACT []
 synonym: "protein phosphatase 2 inhibitor activity" NARROW [GOC:dph]
 synonym: "protein phosphatase type 2A inhibitor activity" NARROW []
@@ -49382,6 +49391,7 @@ id: GO:0004865
 name: protein serine/threonine phosphatase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a serine/threonine protein phosphatase, an enzyme that catalyzes the reaction: protein serine/threonine phosphate + H2O = protein serine/threonine + phosphate." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004722 ! protein serine/threonine phosphatase activity
 
@@ -49390,6 +49400,7 @@ id: GO:0004866
 name: endopeptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of an endopeptidase." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "alpha-2 macroglobulin" RELATED []
 synonym: "endoproteinase inhibitor" NARROW []
 synonym: "proteinase inhibitor" NARROW []
@@ -49401,6 +49412,7 @@ id: GO:0004867
 name: serine-type endopeptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a serine-type endopeptidase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "serine protease inhibitor activity" NARROW []
 synonym: "serine proteinase inhibitor activity" NARROW []
 synonym: "serpin activity" NARROW []
@@ -49423,6 +49435,7 @@ name: cysteine-type endopeptidase inhibitor activity
 namespace: molecular_function
 alt_id: GO:0004870
 def: "Binds to and stops, prevents or reduces the activity of a cysteine-type endopeptidase." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "cystatin" NARROW [GOC:jl]
 synonym: "cysteine protease inhibitor activity" NARROW [GOC:dph, GOC:tb]
 synonym: "thiol protease inhibitor" NARROW []
@@ -51506,6 +51519,7 @@ alt_id: GO:0017132
 alt_id: GO:0019839
 alt_id: GO:0030676
 def: "Stimulates the exchange of GDP to GTP on a signaling GTPase, changing its conformation to its active form. Guanine nucleotide exchange factors (GEFs) act by stimulating the release of guanosine diphosphate (GDP) to allow binding of guanosine triphosphate (GTP), which is more abundant in the cell under normal cellular physiological conditions." [GOC:kd, GOC:mah, PMID:23303910, PMID:27218782]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 subset: goslim_chembl
 subset: goslim_drosophila
 subset: goslim_yeast
@@ -51539,6 +51553,7 @@ id: GO:0005091
 name: guanyl-nucleotide exchange factor adaptor activity
 namespace: molecular_function
 def: "The binding activity of a molecule that brings together a guanyl-nucleotide exchange factor and one or more other proteins, permitting them to function in a coordinated way." [GOC:mtg_MIT_16mar07, GOC:vw]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0030674 ! protein-macromolecule adaptor activity
 is_a: GO:0030695 ! GTPase regulator activity
 
@@ -51547,6 +51562,7 @@ id: GO:0005092
 name: GDP-dissociation inhibitor activity
 namespace: molecular_function
 def: "Prevents the dissociation of GDP from a GTPase, thereby preventing GTP from binding." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "GDI" EXACT []
 is_a: GO:0030695 ! GTPase regulator activity
 relationship: positively_regulates GO:0019003 ! GDP binding
@@ -51556,6 +51572,7 @@ id: GO:0005093
 name: Rab GDP-dissociation inhibitor activity
 namespace: molecular_function
 def: "Prevents the dissociation of GDP from the small GTPase Rab, thereby preventing GTP from binding." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0005092 ! GDP-dissociation inhibitor activity
 
 [Term]
@@ -51563,6 +51580,7 @@ id: GO:0005094
 name: Rho GDP-dissociation inhibitor activity
 namespace: molecular_function
 def: "Prevents the dissociation of GDP from the small GTPase Rho, thereby preventing GTP from binding." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0005092 ! GDP-dissociation inhibitor activity
 
 [Term]
@@ -51570,6 +51588,7 @@ id: GO:0005095
 name: GTPase inhibitor activity
 namespace: molecular_function
 def: "Stops, prevents or reduces the activity of any enzyme that catalyzes the hydrolysis of GTP to GDP and orthophosphate." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "GIP" BROAD []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003924 ! GTPase activity
@@ -51588,7 +51607,7 @@ alt_id: GO:0017123
 alt_id: GO:0030675
 alt_id: GO:0046582
 def: "Binds to and increases the activity of a GTPase, an enzyme that catalyzes the hydrolysis of GTP." [GOC:mah]
-comment: Note that the name Sar derives from 'secretion-associated, Ras-related'.
+comment: Note that the name Sar derives from 'secretion-associated, Ras-related'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "ARF GAP activity" NARROW [GOC:pg]
 synonym: "ARF GTPase activator activity" NARROW []
 synonym: "GAP activity" EXACT []
@@ -52145,6 +52164,7 @@ id: GO:0005152
 name: interleukin-1 receptor antagonist activity
 namespace: molecular_function
 def: "Blocks the binding of interleukin-1 to the interleukin-1 receptor complex." [GOC:ebc]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "IL-1ra" EXACT []
 is_a: GO:0005126 ! cytokine receptor binding
 is_a: GO:0048019 ! receptor antagonist activity
@@ -53017,6 +53037,7 @@ id: GO:0005246
 name: calcium channel regulator activity
 namespace: molecular_function
 def: "Modulates the activity of a calcium channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0005262 ! calcium channel activity
 
@@ -77561,7 +77582,7 @@ name: enzyme activator activity
 namespace: molecular_function
 alt_id: GO:0010577
 def: "A molecular function regulator that increases a catalytic activity." [GOC:pdt]
-comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "metalloenzyme activator activity" NARROW []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0003824 ! catalytic activity
@@ -77571,6 +77592,7 @@ id: GO:0008048
 name: calcium sensitive guanylate cyclase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of guanylate cyclase in response to a change in calcium ion concentration." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0030250 ! guanylate cyclase activator activity
 
 [Term]
@@ -77793,6 +77815,7 @@ id: GO:0008073
 name: ornithine decarboxylase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of ornithine decarboxylase." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004586 ! ornithine decarboxylase activity
 
@@ -78970,6 +78993,7 @@ id: GO:0008160
 name: protein tyrosine phosphatase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a phosphotyrosine phosphatase, an enzyme which catalyzes of the removal of a phosphate group from a tyrosyl phenolic group of a protein." [GOC:ai, ISBN:0198506732]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004725 ! protein tyrosine phosphatase activity
 
@@ -79260,6 +79284,7 @@ id: GO:0008191
 name: metalloendopeptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of metalloendopeptidases, enzymes that catalyze the hydrolysis of nonterminal peptide bonds in a polypeptide chain and contain a chelated metal ion at their active sites which is essential to their catalytic activity." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "metalloprotease inhibitor" NARROW []
 synonym: "metalloproteinase inhibitor" NARROW []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
@@ -79360,6 +79385,7 @@ id: GO:0008200
 name: ion channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of an ion channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005216 ! monoatomic ion channel activity
 
@@ -81797,6 +81823,7 @@ name: protein kinase C inhibitor activity
 namespace: molecular_function
 alt_id: GO:0004863
 def: "Binds to and stops, prevents or reduces the activity of protein kinase C, an enzyme which phosphorylates a protein." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "diacylglycerol-activated phospholipid-dependent PKC inhibitor activity" EXACT []
 synonym: "diacylglycerol-activated phospholipid-dependent protein kinase C inhibitor activity" EXACT []
 synonym: "PKC inhibitor activity" EXACT []
@@ -81808,6 +81835,7 @@ id: GO:0008427
 name: calcium-dependent protein kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a calcium-dependent protein kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0009931 ! calcium-dependent protein serine/threonine kinase activity
 
@@ -81816,6 +81844,7 @@ id: GO:0008428
 name: ribonuclease inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of ribonuclease." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "RNA nuclease inhibitor activity" EXACT []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004540 ! RNA nuclease activity
@@ -83904,6 +83933,7 @@ id: GO:0008597
 name: calcium-dependent protein serine/threonine phosphatase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates of the activity of the enzyme calcium-dependent protein serine/threonine phosphatase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "calcium-dependent protein serine/threonine phosphatase, intrinsic regulator activity" NARROW []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004723 ! calcium-dependent protein serine/threonine phosphatase activity
@@ -83913,6 +83943,7 @@ id: GO:0008603
 name: cAMP-dependent protein kinase regulator activity
 namespace: molecular_function
 def: "Modulation of the activity of the enzyme cAMP-dependent protein kinase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "3',5' cAMP-dependent protein kinase regulator activity" EXACT []
 synonym: "3',5'-cAMP-dependent protein kinase regulator activity" EXACT []
 synonym: "adenosine 3',5'-cyclophosphate-dependent protein kinase regulator activity" EXACT []
@@ -83938,6 +83969,7 @@ id: GO:0008607
 name: phosphorylase kinase regulator activity
 namespace: molecular_function
 def: "Modulation of the activity of the enzyme phosphorylase kinase." [GOC:curators]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "phosphorylase kinase, intrinsic regulator activity" NARROW []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004689 ! phosphorylase kinase activity
@@ -84427,6 +84459,7 @@ id: GO:0008657
 name: DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of ATP-hydrolyzing DNA topoisomerase. ATP-hydrolyzing DNA topoisomerase catalyzes the DNA topological transformation by transiently cleaving a pair of complementary DNA strands to form a gate through which a second double-stranded DNA segment is passed, after which the severed strands in the first DNA segment are rejoined; product release is coupled to ATP binding and hydrolysis; changes the linking number in multiples of 2." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "DNA gyrase inhibitor activity" EXACT [GOC:dph, GOC:tb]
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003918 ! DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
@@ -103688,6 +103721,7 @@ id: GO:0010307
 name: acetylglutamate kinase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of acetylglutamate kinase." [PMID:16377628]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0003991 ! acetylglutamate kinase activity
 
@@ -105724,6 +105758,7 @@ id: GO:0010521
 name: telomerase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of telomerase." [GOC:dph, GOC:krc, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003720 ! telomerase activity
 
@@ -107262,6 +107297,7 @@ id: GO:0010698
 name: acetyltransferase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an acetyltransferase, an enzyme which catalyzes the transfer of an acetyl group to an acceptor molecule." [GOC:dph, GOC:jp, GOC:tb, PMID:23912279]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "acetyltransferase stimulator activity" EXACT [GOC:dph, GOC:jp, GOC:tb]
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0016407 ! acetyltransferase activity
@@ -108649,6 +108685,7 @@ id: GO:0010851
 name: cyclase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of an enzyme that catalyzes a ring closure reaction." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0009975 ! cyclase activity
 
@@ -108657,6 +108694,7 @@ id: GO:0010852
 name: cyclase inhibitor activity
 namespace: molecular_function
 def: "Binds to and decreases the activity of an enzyme that catalyzes a ring closure reaction." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0009975 ! cyclase activity
 
@@ -108665,6 +108703,7 @@ id: GO:0010853
 name: cyclase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an enzyme that catalyzes a ring closure reaction." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0009975 ! cyclase activity
 
@@ -108673,6 +108712,7 @@ id: GO:0010854
 name: adenylate cyclase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of adenylate cyclase." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004016 ! adenylate cyclase activity
 
@@ -108681,6 +108721,7 @@ id: GO:0010855
 name: adenylate cyclase inhibitor activity
 namespace: molecular_function
 def: "Binds to and decreases the activity of adenylate cyclase." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004016 ! adenylate cyclase activity
 
@@ -108689,6 +108730,7 @@ id: GO:0010856
 name: adenylate cyclase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of adenylate cyclase." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004016 ! adenylate cyclase activity
 
@@ -108708,6 +108750,7 @@ id: GO:0010858
 name: calcium-dependent protein kinase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of a calcium-dependent protein kinase, an enzyme which phosphorylates a protein in a calcium-dependent manner." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0009931 ! calcium-dependent protein serine/threonine kinase activity
 
@@ -108716,6 +108759,7 @@ id: GO:0010859
 name: calcium-dependent cysteine-type endopeptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a calcium-dependent cysteine-type endopeptidase, any enzyme that hydrolyzes peptide bonds in polypeptides by a mechanism in which the sulfhydryl group of a cysteine residue at the active center acts as a nucleophile in a calcium-dependent manner." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0004869 ! cysteine-type endopeptidase inhibitor activity
 
 [Term]
@@ -113392,6 +113436,7 @@ id: GO:0015066
 name: alpha-amylase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of alpha-amylase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004556 ! alpha-amylase activity
 
@@ -117342,6 +117387,7 @@ id: GO:0015459
 name: potassium channel regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a potassium channel." [GOC:dos, GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "potassium channel gating activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0005267 ! potassium channel activity
@@ -122174,6 +122220,7 @@ id: GO:0016004
 name: phospholipase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a phospholipase, an enzyme that catalyzes of the hydrolysis of a glycerophospholipid." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004620 ! glycerophospholipase activity
 
@@ -122182,6 +122229,7 @@ id: GO:0016005
 name: phospholipase A2 activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of the enzyme phospholipase A2." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004623 ! A2-type glycerophospholipase activity
 
@@ -124074,6 +124122,7 @@ id: GO:0016176
 name: superoxide-generating NADPH oxidase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of the enzyme superoxide-generating NADPH oxidase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "neutrophil cytosol factor 2" NARROW []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0106292 ! superoxide-generating NADPH oxidase activity
@@ -124561,6 +124610,7 @@ id: GO:0016230
 name: sphingomyelin phosphodiesterase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of the enzyme sphingomyelin phosphodiesterase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "neutral sphingomyelinase activator" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004767 ! sphingomyelin phosphodiesterase activity
@@ -124691,6 +124741,7 @@ id: GO:0016247
 name: channel regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a channel. A channel catalyzes energy-independent facilitated diffusion, mediated by passage of a solute through a transmembrane aqueous pore or channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0015267 ! channel activity
 
@@ -124699,6 +124750,7 @@ id: GO:0016248
 name: channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0015267 ! channel activity
 
@@ -126636,6 +126688,7 @@ id: GO:0016483
 name: tryptophan hydroxylase activator activity
 namespace: molecular_function
 def: "Increases the activity of the enzyme tryptophase hydroxylase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004510 ! tryptophan 5-monooxygenase activity
 
@@ -126835,6 +126888,7 @@ id: GO:0016504
 name: peptidase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a peptidase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "protease activator activity" NARROW [GOC:mah]
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0008233 ! peptidase activity
@@ -126844,6 +126898,7 @@ id: GO:0016505
 name: peptidase activator activity involved in apoptotic process
 namespace: molecular_function
 def: "Binds to and increases the activity of a peptidase that is involved in the apoptotic process." [GOC:BHF, GOC:mah, GOC:mtg_apoptosis, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "apoptotic protease activator activity" NARROW []
 intersection_of: GO:0016504 ! peptidase activator activity
 intersection_of: part_of GO:0006915 ! apoptotic process
@@ -127150,6 +127205,7 @@ alt_id: GO:0003751
 alt_id: GO:0003752
 alt_id: GO:0003753
 def: "Modulates the activity of a cyclin-dependent protein serine/threonine kinase, enzymes of the protein kinase family that are regulated through association with cyclins and other proteins." [GOC:pr, GOC:rn, PMID:7877684, PMID:9442875]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "cyclin" BROAD []
 synonym: "cyclin-dependent protein kinase regulator activity" BROAD []
 synonym: "cyclin-dependent protein kinase, intrinsic regulator activity" NARROW []
@@ -131970,6 +132026,7 @@ id: GO:0017020
 name: myosin phosphatase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates of the activity of myosin phosphatase." [GOC:ai, PMID:10491107]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "myosin phosphatase, intrinsic regulator activity" NARROW []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0017018 ! myosin phosphatase activity
@@ -132567,6 +132624,7 @@ id: GO:0017080
 name: sodium channel regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a sodium channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0005272 ! sodium channel activity
 
@@ -132575,6 +132633,7 @@ id: GO:0017081
 name: chloride channel regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a chloride channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0005254 ! chloride channel activity
 
@@ -136018,6 +136077,7 @@ id: GO:0018237
 name: urease activator activity
 namespace: molecular_function
 def: "Increases the activity of urease by promoting the incorporation of nickel into the active site." [GOC:mah, PMID:16244137]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "urease activase activity" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0009039 ! urease activity
@@ -146418,6 +146478,7 @@ id: GO:0019207
 name: kinase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of a kinase, an enzyme which catalyzes of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0016301 ! kinase activity
 
@@ -146426,6 +146487,7 @@ id: GO:0019208
 name: phosphatase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a phosphatase, an enzyme which catalyzes of the removal of a phosphate group from a substrate molecule." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0016791 ! phosphatase activity
 relationship: has_part GO:0019902 ! phosphatase binding
@@ -146435,6 +146497,7 @@ id: GO:0019209
 name: kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a kinase, an enzyme which catalyzes of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0016301 ! kinase activity
 
@@ -146443,6 +146506,7 @@ id: GO:0019210
 name: kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0016301 ! kinase activity
 
@@ -146451,6 +146515,7 @@ id: GO:0019211
 name: phosphatase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a phosphatase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0016791 ! phosphatase activity
 
@@ -146459,6 +146524,7 @@ id: GO:0019212
 name: phosphatase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a phosphatase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0016791 ! phosphatase activity
 
@@ -153606,6 +153672,7 @@ id: GO:0019828
 name: aspartic-type endopeptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of aspartic-type endopeptidases." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "aspartic protease inhibitor activity" NARROW []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004190 ! aspartic-type endopeptidase activity
@@ -153670,6 +153737,7 @@ id: GO:0019834
 name: phospholipase A2 inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of phospholipase A2." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004623 ! A2-type glycerophospholipase activity
 
@@ -153894,6 +153962,7 @@ id: GO:0019855
 name: calcium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a calcium channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005262 ! calcium channel activity
 
@@ -154015,6 +154084,7 @@ id: GO:0019869
 name: chloride channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a chloride channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005254 ! chloride channel activity
 
@@ -154023,6 +154093,7 @@ id: GO:0019870
 name: potassium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a potassium channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005267 ! potassium channel activity
 
@@ -154032,6 +154103,7 @@ name: sodium channel inhibitor activity
 namespace: molecular_function
 alt_id: GO:0019868
 def: "Binds to and stops, prevents, or reduces the activity of a sodium channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005272 ! sodium channel activity
 
@@ -154220,6 +154292,7 @@ id: GO:0019887
 name: protein kinase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of a protein kinase, an enzyme which phosphorylates a protein." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004672 ! protein kinase activity
 relationship: has_part GO:0019901 ! protein kinase binding
@@ -154233,6 +154306,7 @@ alt_id: GO:0008601
 alt_id: GO:0030359
 alt_id: GO:0030362
 def: "Binds to and modulates the activity of a protein phosphatase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "calcineurin regulator activity" NARROW [GOC:dph, GOC:rl]
 synonym: "calcineurin, intrinsic regulator activity" NARROW [GOC:dph, GOC:rl]
 synonym: "protein phosphatase 2 regulator activity" NARROW [GOC:dph, GOC:rl]
@@ -154460,6 +154534,7 @@ id: GO:0019914
 name: cyclin-dependent protein kinase regulator activity
 namespace: molecular_function
 def: "Modulation of the activity of the enzyme cyclin-dependent protein kinase activating kinase." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "cyclin-dependent protein kinase activating kinase, intrinsic regulator activity" NARROW []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0097472 ! cyclin-dependent protein kinase activity
@@ -165379,7 +165454,7 @@ name: enzyme regulator activity
 namespace: molecular_function
 alt_id: GO:0010576
 def: "A molecular function regulator that modulates a catalytic activity." [GOC:pdt]
-comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 subset: goslim_agr
 subset: goslim_candida
 subset: goslim_chembl
@@ -165400,7 +165475,7 @@ id: GO:0030235
 name: nitric-oxide synthase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of nitric oxide synthase." [GOC:mah]
-comment: See also 'regulation of nitric-oxide synthase activity ; GO:0050999'.
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "nitric oxide synthase regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004517 ! nitric-oxide synthase activity
@@ -165543,6 +165618,7 @@ id: GO:0030249
 name: guanylate cyclase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of guanylate cyclase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004383 ! guanylate cyclase activity
 
@@ -165551,6 +165627,7 @@ id: GO:0030250
 name: guanylate cyclase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of guanylate cyclase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "guanylin" NARROW []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004383 ! guanylate cyclase activity
@@ -165560,6 +165637,7 @@ id: GO:0030251
 name: guanylate cyclase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of guanylate cyclase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004383 ! guanylate cyclase activity
 
@@ -166023,6 +166101,7 @@ id: GO:0030291
 name: protein serine/threonine kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a protein serine/threonine kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004674 ! protein serine/threonine kinase activity
 
@@ -166031,6 +166110,7 @@ id: GO:0030292
 name: protein tyrosine kinase inhibitor activity
 namespace: molecular_function
 def: "Stops, prevents or reduces the activity of a protein tyrosine kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004713 ! protein tyrosine kinase activity
 
@@ -166039,6 +166119,7 @@ id: GO:0030293
 name: transmembrane receptor protein tyrosine kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a transmembrane receptor protein tyrosine kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004714 ! transmembrane receptor protein tyrosine kinase activity
 
@@ -166047,6 +166128,7 @@ id: GO:0030294
 name: receptor signaling protein tyrosine kinase inhibitor activity
 namespace: molecular_function
 def: "Stops, prevents or reduces the activity of a receptor signaling protein tyrosine kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "receptor signalling protein tyrosine kinase inhibitor activity" EXACT []
 is_a: GO:0030292 ! protein tyrosine kinase inhibitor activity
 
@@ -166055,6 +166137,7 @@ id: GO:0030295
 name: protein kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a protein kinase, an enzyme which phosphorylates a protein." [GOC:ai]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004672 ! protein kinase activity
 
@@ -166063,6 +166146,7 @@ id: GO:0030296
 name: protein tyrosine kinase activator activity
 namespace: molecular_function
 def: "Increases the activity of a protein tyrosine kinase, an enzyme which phosphorylates a tyrosyl phenolic group on a protein." [GOC:ai, ISBN:0198506732]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004713 ! protein tyrosine kinase activity
 
@@ -166071,6 +166155,7 @@ id: GO:0030297
 name: transmembrane receptor protein tyrosine kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a transmembrane receptor protein tyrosine kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004714 ! transmembrane receptor protein tyrosine kinase activity
 
@@ -166079,6 +166164,7 @@ id: GO:0030298
 name: receptor signaling protein tyrosine kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a receptor signaling protein tyrosine kinase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "receptor signalling protein tyrosine kinase activator activity" EXACT []
 is_a: GO:0030296 ! protein tyrosine kinase activator activity
 
@@ -166484,6 +166570,7 @@ id: GO:0030337
 name: DNA polymerase processivity factor activity
 namespace: molecular_function
 def: "An enzyme regulator activity that increases the processivity of polymerization by DNA polymerase, by allowing the polymerase to move rapidly along DNA while remaining topologically bound to it." [GOC:mah, PMID:7903401, PMID:8087839]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "processivity clamp" EXACT []
 synonym: "sliding clamp" NARROW [GOC:jh2, PMID:23012374]
 intersection_of: GO:0140677 ! molecular function activator activity
@@ -166642,6 +166729,7 @@ id: GO:0030353
 name: fibroblast growth factor receptor antagonist activity
 namespace: molecular_function
 def: "Interacts with the fibroblast growth factor receptor to reduce the action of another ligand, the agonist." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "FGF receptor antagonist activity" EXACT []
 synonym: "FGFR antagonist activity" EXACT []
 is_a: GO:0005104 ! fibroblast growth factor receptor binding
@@ -167196,6 +167284,7 @@ id: GO:0030414
 name: peptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a peptidase, any enzyme that catalyzes the hydrolysis peptide bonds." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "protease inhibitor activity" NARROW [GOC:mah]
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0008233 ! peptidase activity
@@ -168405,6 +168494,7 @@ id: GO:0030545
 name: signaling receptor regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a receptor." [GOC:ceb]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "receptor regulator activity" BROAD []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0038023 ! signaling receptor activity
@@ -168414,6 +168504,7 @@ id: GO:0030546
 name: signaling receptor activator activity
 namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." [GOC:ceb]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "receptor activator activity" BROAD []
 synonym: "signalling receptor activator activity" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
@@ -168424,6 +168515,7 @@ id: GO:0030547
 name: signaling receptor inhibitor activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a signaling receptor." [GOC:ceb]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "receptor inhibitor activity" BROAD []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0038023 ! signaling receptor activity
@@ -168433,6 +168525,7 @@ id: GO:0030548
 name: acetylcholine receptor regulator activity
 namespace: molecular_function
 def: "Interacting (directly or indirectly) with acetylcholine receptors such that the proportion of receptors in the active form is changed." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0015464 ! acetylcholine receptor activity
 
@@ -168441,6 +168534,7 @@ id: GO:0030549
 name: acetylcholine receptor activator activity
 namespace: molecular_function
 def: "Interacting (directly or indirectly) with acetylcholine receptors such that the proportion of receptors in the active form is increased." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0015464 ! acetylcholine receptor activity
 
@@ -168449,6 +168543,7 @@ id: GO:0030550
 name: acetylcholine receptor inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of an acetylcholine receptor." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0015464 ! acetylcholine receptor activity
 
@@ -169939,6 +170034,7 @@ name: GTPase regulator activity
 namespace: molecular_function
 alt_id: GO:0005083
 def: "Binds to and modulates the activity of a GTPase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "small GTPase regulator activity" RELATED []
 synonym: "small GTPase regulatory/interacting protein activity" RELATED []
 intersection_of: GO:0098772 ! molecular function regulator activity
@@ -216917,7 +217013,7 @@ id: GO:0035014
 name: phosphatidylinositol 3-kinase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of a phosphatidylinositol 3-kinase (PI3K). Regulatory subunits can link a PI3K catalytic subunit to upstream signaling events and help position the catalytic subunits close to their lipid substrates." [GOC:bf, PMID:9255069]
-comment: See also the molecular function term 'phosphoinositide 3-kinase activity ; GO:0035004'.
+comment: See also the molecular function term 'phosphoinositide 3-kinase activity ; GO:0035004'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "phosphoinositide 3-kinase regulator activity" EXACT []
 synonym: "PI3K regulator activity" EXACT []
 is_a: GO:0019207 ! kinase regulator activity
@@ -217085,7 +217181,7 @@ id: GO:0035033
 name: histone deacetylase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of histone deacetylase." [GOC:bf]
-comment: See also the molecular function term 'histone deacetylase activity ; GO:0004407'.
+comment: See also the molecular function term 'histone deacetylase activity ; GO:0004407'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004407 ! histone deacetylase activity
 relationship: has_part GO:0042826 ! histone deacetylase binding
@@ -217095,7 +217191,7 @@ id: GO:0035034
 name: histone acetyltransferase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of histone acetyltransferase." [GOC:bf]
-comment: See also the molecular function term 'histone acetyltransferase activity ; GO:0004402'.
+comment: See also the molecular function term 'histone acetyltransferase activity ; GO:0004402'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "histone acetylase regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004402 ! histone acetyltransferase activity
@@ -219820,25 +219916,25 @@ relationship: part_of GO:0007476 ! imaginal disc-derived wing morphogenesis
 
 [Term]
 id: GO:0035318
-name: imaginal disc-derived wing hair outgrowth
+name: obsolete imaginal disc-derived wing hair outgrowth
 namespace: biological_process
-def: "Extrusion of a cellular projection from the apical membrane of an epithelial cell in an imaginal disc-derived wing. Outgrowth initiates approximately 35 hours after puparium formation from the distal side of the cell, and at this stage the cellular extension is termed a prehair." [GOC:mtg_sensu, PMID:11064425, PMID:8947551]
+def: "OBSOLETE. Extrusion of a cellular projection from the apical membrane of an epithelial cell in an imaginal disc-derived wing. Outgrowth initiates approximately 35 hours after puparium formation from the distal side of the cell, and at this stage the cellular extension is termed a prehair." [GOC:mtg_sensu, PMID:11064425, PMID:8947551]
+comment: The reason for obsoletion is that these terms represent phenotypes.
 synonym: "wing hair outgrowth" EXACT []
 synonym: "wing prehair outgrowth" RELATED []
-is_a: GO:0009886 ! post-embryonic animal morphogenesis
-is_a: GO:0048858 ! cell projection morphogenesis
-relationship: part_of GO:0035317 ! imaginal disc-derived wing hair organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32937" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0035319
-name: imaginal disc-derived wing hair elongation
+name: obsolete imaginal disc-derived wing hair elongation
 namespace: biological_process
-def: "Growth of a prehair in the approximately 10 hour period following its emergence from an epidermal cell in an imaginal disc-derived wing. Prehair elongation is guided and/or driven by the polymerization of actin filaments and the orderly crosslinking of filaments into bundles." [GOC:mtg_sensu, PMID:11832234]
+def: "OBSOLETE. Growth of a prehair in the approximately 10 hour period following its emergence from an epidermal cell in an imaginal disc-derived wing. Prehair elongation is guided and/or driven by the polymerization of actin filaments and the orderly crosslinking of filaments into bundles." [GOC:mtg_sensu, PMID:11832234]
+comment: The reason for obsoletion is that these terms represent phenotypes.
 synonym: "wing hair elongation" EXACT []
 synonym: "wing prehair extension" RELATED []
-is_a: GO:0009886 ! post-embryonic animal morphogenesis
-is_a: GO:0048858 ! cell projection morphogenesis
-relationship: part_of GO:0035317 ! imaginal disc-derived wing hair organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32937" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0035320
@@ -225425,6 +225521,7 @@ id: GO:0035800
 name: deubiquitinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a deubiquitinase." [GOC:sart, ISBN:0120793709]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0101005 ! deubiquitinase activity
 creation_date: 2011-04-18T10:20:15Z
@@ -233737,6 +233834,7 @@ id: GO:0036470
 name: tyrosine 3-monooxygenase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of tyrosine 3-monooxygenase (tyrosine hydroxylase)." [GOC:bf, GOC:PARL, PMID:19703902]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "TH activator activity" EXACT [PMID:19703902]
 synonym: "tyrosine hydroxylase activator activity" EXACT [PMID:19703902]
 intersection_of: GO:0140677 ! molecular function activator activity
@@ -233958,6 +234056,7 @@ id: GO:0036487
 name: nitric-oxide synthase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of nitric oxide synthase." [GOC:BHF, GOC:rl, PMID:17242280]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "nitric oxide synthase inhibitor activity" EXACT [GOC:bf]
 synonym: "NOS inhibitor activity" EXACT [GOC:bf]
 intersection_of: GO:0140678 ! molecular function inhibitor activity
@@ -235840,7 +235939,7 @@ id: GO:0038102
 name: activin receptor antagonist activity
 namespace: molecular_function
 def: "Interacting with an activin receptor complex to reduce the action of another ligand, the agonist. A receptor antagonist does not initiate signaling upon binding to a receptor, but instead blocks an agonist from binding to the receptor." [GOC:signaling, PMID:15062104]
-comment: This term refers to inhibition of a member of the activin receptor family; activin receptors bind to multiple ligands including activin and nodal.
+comment: This term refers to inhibition of a member of the activin receptor family; activin receptors bind to multiple ligands including activin and nodal. This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0048019 ! receptor antagonist activity
 relationship: part_of GO:0032926 ! negative regulation of activin receptor signaling pathway
 created_by: bf
@@ -240814,6 +240913,7 @@ id: GO:0042030
 name: ATPase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces an ATP hydrolysis activity." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "adenosinetriphosphatase inhibitor" EXACT []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0140657 ! ATP-dependent activity
@@ -245908,6 +246008,7 @@ id: GO:0042556
 name: eukaryotic elongation factor-2 kinase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of the enzyme eukaryotic elongation factor-2 kinase." [GOC:jl, PMID:11904175]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "eEF-2 kinase regulator" EXACT []
 is_a: onlyin:2759
 intersection_of: GO:0098772 ! molecular function regulator activity
@@ -245918,6 +246019,7 @@ id: GO:0042557
 name: eukaryotic elongation factor-2 kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of the enzyme eukaryotic elongation factor-2 kinase." [GOC:jl, PMID:11904175]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "eEF-2 kinase activator" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004686 ! elongation factor-2 kinase activity
@@ -250215,6 +250317,7 @@ id: GO:0042978
 name: ornithine decarboxylase activator activity
 namespace: molecular_function
 def: "Binds to and increases ornithine decarboxylase activity." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "L-ornithine carboxy-lyase activator activity" NARROW []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004586 ! ornithine decarboxylase activity
@@ -250224,6 +250327,7 @@ id: GO:0042979
 name: ornithine decarboxylase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of the enzyme ornithine decarboxylase." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004586 ! ornithine decarboxylase activity
 
@@ -250759,6 +250863,7 @@ id: GO:0043027
 name: cysteine-type endopeptidase inhibitor activity involved in apoptotic process
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a cysteine-type endopeptidase involved in the apoptotic process." [GOC:jl, GOC:mtg_apoptosis, PMID:14744432, Wikipedia:Caspase]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "caspase inhibitor activity" BROAD []
 is_a: GO:0043028 ! cysteine-type endopeptidase regulator activity involved in apoptotic process
 
@@ -250767,6 +250872,7 @@ id: GO:0043028
 name: cysteine-type endopeptidase regulator activity involved in apoptotic process
 namespace: molecular_function
 def: "Binds to and modulates the activity of a cysteine-type endopeptidase involved in the apoptotic process." [GOC:jl, GOC:mtg_apoptosis, PMID:14744432, Wikipedia:Caspase]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "caspase regulator activity" BROAD []
 is_a: GO:0030234 ! enzyme regulator activity
 
@@ -256067,6 +256173,7 @@ id: GO:0043539
 name: protein serine/threonine kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a protein serine/threonine kinase." [GOC:curators]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "protein ser/thr kinase activator activity" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004674 ! protein serine/threonine kinase activity
@@ -258447,6 +258554,7 @@ id: GO:0043763
 name: UTP:glucose-1-phosphate uridylyltransferase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of UTP:glucose-1-phosphate uridylyltransferase." [GOC:jl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "glucose-1-phosphate uridylyltransferase regulator activity" EXACT []
 synonym: "UDP-glucose diphosphorylase regulator activity" EXACT []
 synonym: "UDP-glucose pyrophosphorylase regulator activity" EXACT []
@@ -268925,6 +269033,7 @@ id: GO:0044692
 name: exoribonuclease activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an exoribonuclease." [GOC:rb, PMID:22570495]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004532 ! RNA exonuclease activity
 created_by: jl
@@ -274425,6 +274534,7 @@ id: GO:0045352
 name: interleukin-1 type I receptor antagonist activity
 namespace: molecular_function
 def: "Blocks the binding of interleukin-1 to interleukin-1 type I receptors." [GOC:ebc]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "IL-1ra type I" EXACT []
 is_a: GO:0005152 ! interleukin-1 receptor antagonist activity
 
@@ -274433,6 +274543,7 @@ id: GO:0045353
 name: interleukin-1 type II receptor antagonist activity
 namespace: molecular_function
 def: "Blocks the binding of interleukin-1 to interleukin-1 type II receptors." [GOC:ebc]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "IL-1ra type II" EXACT []
 is_a: GO:0005152 ! interleukin-1 receptor antagonist activity
 
@@ -290655,6 +290766,7 @@ id: GO:0046811
 name: histone deacetylase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of histone deacetylase, which catalyzes of the removal of acetyl groups from histones, proteins complexed to DNA in chromatin and chromosomes." [GOC:ai, PMID:10482575]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004407 ! histone deacetylase activity
 
@@ -290711,6 +290823,7 @@ id: GO:0046817
 name: chemokine receptor antagonist activity
 namespace: molecular_function
 def: "Interacts with chemokine receptors to reduce the action of a chemokine." [GOC:ai, ISBN:0781718325]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0048019 ! receptor antagonist activity
 relationship: part_of GO:0070100 ! negative regulation of chemokine-mediated signaling pathway
 
@@ -291212,7 +291325,7 @@ name: ribulose-1,5-bisphosphate carboxylase/oxygenase activator activity
 namespace: molecular_function
 alt_id: GO:0018236
 def: "Binds to and increases the activity of rubisco by the removal of otherwise inhibitory sugar phosphates: RuBP, and in some plants, 2-carboxyarabinitol 1-phosphate." [PMID:10430961, PMID:10965036, PMID:2404515]
-comment: See also the molecular function term 'ribulose-bisphosphate carboxylase activity ; GO:0016984'.
+comment: See also the molecular function term 'ribulose-bisphosphate carboxylase activity ; GO:0016984'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "ribulose-1,5-bisphosphate carboxylase/oxygenase activase activity" EXACT [GOC:dph, GOC:tb]
 synonym: "ribulose-bisphosphate carboxylase activase activity" EXACT []
 synonym: "rubisco activase activity" EXACT []
@@ -291780,7 +291893,7 @@ id: GO:0046910
 name: pectinesterase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of pectinesterase." [GOC:ai, PMID:10880981]
-comment: See also the molecular function term 'pectinesterase activity ; GO:0030599'.
+comment: See also the molecular function term 'pectinesterase activity ; GO:0030599'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0030599 ! pectinesterase activity
 
@@ -292064,7 +292177,7 @@ id: GO:0046935
 name: 1-phosphatidylinositol-3-kinase regulator activity
 namespace: molecular_function
 def: "Modulates the activity of the enzyme 1-phosphatidylinositol-3-kinase activity." [GOC:ai]
-comment: See also the molecular function term '1-phosphatidylinositol-3-kinase activity ; GO:0016303'.
+comment: See also the molecular function term '1-phosphatidylinositol-3-kinase activity ; GO:0016303'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "1-phosphatidylinositol 3-kinase regulator activity" EXACT []
 synonym: "phosphatidylinositol 3-kinase, class I, regulator activity" NARROW []
 intersection_of: GO:0098772 ! molecular function regulator activity
@@ -308812,6 +308925,7 @@ id: GO:0048019
 name: receptor antagonist activity
 namespace: molecular_function
 def: "The activity of a gene product that interacts with a receptor to decrease the ability of the receptor agonist to bind and activate the receptor." [GOC:ceb, ISBN:0198506732]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "receptor ligand activity" BROAD [GOC:mtg_signaling]
 is_a: GO:0030547 ! signaling receptor inhibitor activity
 relationship: has_part GO:0005102 ! signaling receptor binding
@@ -310899,7 +311013,7 @@ id: GO:0048270
 name: methionine adenosyltransferase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of methionine adenosyltransferase." [GOC:jid, PMID:10644686]
-comment: See also the molecular function term 'methionine adenosyltransferase activity ; GO:0004478'.
+comment: See also the molecular function term 'methionine adenosyltransferase activity ; GO:0004478'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "MAT regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004478 ! methionine adenosyltransferase activity
@@ -353538,6 +353652,7 @@ id: GO:0055102
 name: lipase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a lipase, an enzyme that catalyzes of the hydrolysis of a lipid." [GOC:BHF, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0016298 ! lipase activity
 
@@ -353546,6 +353661,7 @@ id: GO:0055103
 name: ligase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a ligase." [GOC:BHF, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0016874 ! ligase activity
 
@@ -353554,6 +353670,7 @@ id: GO:0055104
 name: ligase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a ligase." [GOC:BHF, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0016874 ! ligase activity
 
@@ -353562,6 +353679,7 @@ id: GO:0055105
 name: ubiquitin-protein transferase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a ubiquitin-protein transferase." [GOC:BHF, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004842 ! ubiquitin-protein transferase activity
 
@@ -353570,6 +353688,7 @@ id: GO:0055106
 name: ubiquitin-protein transferase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a ubiquitin-protein transferase, an enzyme that catalyzes the covalent attachment of ubiquitin to lysine in a substrate protein." [GOC:BHF, GOC:rl]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004842 ! ubiquitin-protein transferase activity
 
@@ -356084,6 +356203,7 @@ id: GO:0060228
 name: phosphatidylcholine-sterol O-acyltransferase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of phosphatidylcholine-sterol O-acyltransferase." [GOC:BHF, GOC:dph, GOC:tb, PMID:4335615]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "LCAT activator activity" NARROW [GOC:tb]
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004607 ! phosphatidylcholine-sterol O-acyltransferase activity
@@ -356093,6 +356213,7 @@ id: GO:0060229
 name: lipase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a lipase, an enzyme that catalyzes of the hydrolysis of a lipid." [GOC:BHF, GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0016298 ! lipase activity
 
@@ -356101,6 +356222,7 @@ id: GO:0060230
 name: lipoprotein lipase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a lipoprotein lipase, an enzyme that catalyzes of the hydrolysis of a lipid within a lipoprotein." [GOC:BHF, GOC:dph, GOC:tb, PMID:10727238]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004465 ! lipoprotein lipase activity
 
@@ -356202,6 +356324,7 @@ id: GO:0060241
 name: lysozyme inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of lysozyme." [GOC:dph]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003796 ! lysozyme activity
 
@@ -356841,6 +356964,7 @@ id: GO:0060308
 name: GTP cyclohydrolase I regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of GTP cyclohydrolase I. GTP cyclohydrolase I activity catalyzes the reaction: GTP + 2 H2O = formate + 2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)-dihydropteridine triphosphate." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0003934 ! GTP cyclohydrolase I activity
 relationship: has_part GO:0044549 ! GTP cyclohydrolase binding
@@ -357990,6 +358114,7 @@ id: GO:0060422
 name: peptidyl-dipeptidase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a peptidyl-dipeptidase. Peptidyl-dipeptidase activity catalyzes the release of C-terminal dipeptides from a polypeptide chain." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 xref: Wikipedia:ACE_inhibitor {source="skos:narrowMatch"}
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0008241 ! peptidyl-dipeptidase activity
@@ -359733,6 +359858,7 @@ id: GO:0060589
 name: nucleoside-triphosphatase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of an NTPase." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "NTPase regulator activity" EXACT [GOC:dph, GOC:tb]
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0017111 ! ribonucleoside triphosphate phosphatase activity
@@ -359744,6 +359870,7 @@ id: GO:0060590
 name: ATPase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of an ATP hydrolysis activity." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "ATP hydrolysis regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0016887 ! ATP hydrolysis activity
@@ -360988,6 +361115,7 @@ id: GO:0060698
 name: endoribonuclease inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of endoribonuclease." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004521 ! RNA endonuclease activity
 created_by: dph
@@ -361043,6 +361171,7 @@ id: GO:0060703
 name: deoxyribonuclease inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of deoxyribonuclease." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "DNase inhibitor activity" RELATED [GOC:dph, GOC:tb]
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004536 ! DNA nuclease activity
@@ -364024,6 +364153,7 @@ id: GO:0060961
 name: phospholipase D inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of phospholipase D." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004630 ! D-type glycerophospholipase activity
 created_by: dph
@@ -365926,6 +366056,7 @@ id: GO:0061133
 name: endopeptidase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an endopeptidase." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004175 ! endopeptidase activity
 created_by: dph
@@ -365936,6 +366067,7 @@ id: GO:0061134
 name: peptidase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a peptidase, any enzyme that catalyzes the hydrolysis peptide bonds." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0008233 ! peptidase activity
 relationship: has_part GO:0002020 ! protease binding
@@ -365947,6 +366079,7 @@ id: GO:0061135
 name: endopeptidase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a peptidase, any enzyme that hydrolyzes nonterminal peptide bonds in polypeptides." [GOC:dph, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004175 ! endopeptidase activity
 created_by: dph
@@ -370970,6 +371103,7 @@ namespace: molecular_function
 alt_id: GO:0016534
 alt_id: GO:0016535
 def: "Binds to and increases the activity of a cyclin-dependent protein serine/threonine kinase." [GOC:dph, PMID:2569363, PMID:3322810]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "cyclin-dependent protein kinase 5 activator activity" NARROW []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004693 ! cyclin-dependent protein serine/threonine kinase activity
@@ -371665,6 +371799,7 @@ id: GO:0061632
 name: RNA lariat debranching enzyme activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an RNA lariat debranching enzyme." [GOC:dph, PMID:24919400]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0008419 ! RNA lariat debranching enzyme activity
 created_by: dph
@@ -373320,6 +373455,7 @@ id: GO:0061775
 name: cohesin loader activity
 namespace: molecular_function
 def: "Facilitating a conformational change to load a cohesin complex around DNA by binding to the ATPase heads of the cohesin complex and stimulating their activity." [GOC:vw, PMID:24291789, PMID:26687354, PMID:29932904]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "cohesin loading activity" EXACT []
 is_a: GO:0001671 ! ATPase activator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/14205" xsd:anyURI
@@ -381269,6 +381405,7 @@ id: GO:0070320
 name: inward rectifier potassium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of an inwardly rectifying potassium channel." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005242 ! inward rectifier potassium channel activity
 
@@ -387996,7 +388133,7 @@ id: GO:0070917
 name: inositol phosphoceramide synthase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of inositol phosphoceramide synthase." [GOC:mah]
-comment: See also the molecular function term 'histone acetyltransferase activity ; GO:0004402'.
+comment: See also the molecular function term 'inositol phosphoceramide synthase activity ; GO:0045140'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "IPC synthase regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0045140 ! inositol phosphoceramide synthase activity
@@ -406485,6 +406622,7 @@ namespace: molecular_function
 alt_id: GO:0071862
 alt_id: GO:0072543
 def: "Binds to and increases the activity of a protein phosphatase." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "protein phosphatase 2 activator activity" NARROW [GOC:dph, GOC:rl]
 synonym: "protein phosphatase type 1 activator activity" NARROW []
 synonym: "protein phosphatase type 2A activator activity" NARROW []
@@ -406957,6 +407095,7 @@ id: GO:0072586
 name: DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of ATP-hydrolyzing DNA topoisomerase. DNA topoisomerase (ATP-hydrolyzing) regulator activity catalyzes a DNA topological transformation by transiently cleaving a pair of complementary DNA strands to form a gate through which a second double-stranded DNA segment is passed, after which the severed strands in the first DNA segment are rejoined; product release is coupled to ATP binding and hydrolysis; changes the linking number in multiples of 2." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0003918 ! DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
 created_by: mah
@@ -406967,6 +407106,7 @@ id: GO:0072587
 name: DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of ATP-hydrolyzing DNA topoisomerase. DNA topoisomerase (ATP-hydrolyzing) regulator activity catalyzes a DNA topological transformation by transiently cleaving a pair of complementary DNA strands to form a gate through which a second double-stranded DNA segment is passed, after which the severed strands in the first DNA segment are rejoined; product release is coupled to ATP binding and hydrolysis; changes the linking number in multiples of 2." [GOC:mah]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0003918 ! DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity
 created_by: mah
@@ -419803,6 +419943,7 @@ id: GO:0090353
 name: polygalacturonase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of polygalacturonase." [GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004650 ! polygalacturonase activity
 created_by: tb
@@ -419978,6 +420119,7 @@ id: GO:0090369
 name: ornithine carbamoyltransferase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of ornithine carbamoyltransferase." [GOC:dph, GOC:jp, GOC:tb]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004585 ! ornithine carbamoyltransferase activity
 created_by: tb
@@ -424188,6 +424330,7 @@ id: GO:0097027
 name: ubiquitin-protein transferase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a ubiquitin-protein transferase." [GOC:rb, PMID:18321851]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004842 ! ubiquitin-protein transferase activity
 created_by: pr
@@ -431753,7 +431896,7 @@ id: GO:0097690
 name: iron ion transmembrane transporter inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of an iron ion transmembrane transporter." [GOC:BHF, GOC:kom, PMID:15514116]
-comment: An example of this is human hepcidin (UniProt symbol P81172), which regulates iron transport out of cells (see PMID:15514116).
+comment: An example of this is human hepcidin (UniProt symbol P81172), which regulates iron transport out of cells (see PMID:15514116). This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "iron channel inhibitor activity" EXACT []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005381 ! iron ion transmembrane transporter activity
@@ -432014,6 +432157,7 @@ id: GO:0097713
 name: dolichol-phosphate-mannose synthase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of dolichol-phosphate-mannose synthase." [GOC:vw, PMID:10835346]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004169 ! dolichyl-phosphate-mannose-protein mannosyltransferase activity
 created_by: pr
@@ -435536,6 +435680,7 @@ id: GO:0098744
 name: 1-phosphatidylinositol 4-kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of 1-phosphatidylinositol 4-kinase." [PMID:21288895]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004430 ! 1-phosphatidylinositol 4-kinase activity
 
@@ -435791,7 +435936,7 @@ id: GO:0098772
 name: molecular function regulator activity
 namespace: molecular_function
 def: "A molecular function regulator regulates the activity of its target via non-covalent binding that does not result in covalent modification to the target. Examples of molecular function regulators include regulatory subunits of multimeric enzymes and channels. Mechanisms of regulation include allosteric changes in the target and competitive inhibition." [GOC:dos, GOC:pt]
-comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 subset: gocheck_do_not_annotate
 subset: goslim_euk_cellular_processes_ribbon
 subset: goslim_flybase_ribbon
@@ -439111,6 +439256,7 @@ id: GO:0099103
 name: channel activator activity
 namespace: molecular_function
 def: "Direct interaction with a channel (binding or modification), resulting in its opening. A channel catalyzes energy-independent facilitated diffusion, mediated by passage of a solute through a transmembrane aqueous pore or channel." [GOC:dos]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "channel gating activity" EXACT []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0015267 ! channel activity
@@ -439120,6 +439266,7 @@ id: GO:0099104
 name: potassium channel activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a potassium channel, resulting in its opening." [GOC:dos]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0005267 ! potassium channel activity
 
@@ -439140,6 +439287,7 @@ id: GO:0099106
 name: ion channel regulator activity
 namespace: molecular_function
 def: "Modulates the activity of a channel via direct interaction with it. A channel catalyzes energy-independent facilitated diffusion, mediated by passage of a solute through a transmembrane aqueous pore or channel." [GOC:dos]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0005216 ! monoatomic ion channel activity
 
@@ -441124,6 +441272,7 @@ id: GO:0099602
 name: neurotransmitter receptor regulator activity
 namespace: molecular_function
 def: "A molecular function that directly (via physical interaction or direct modification) activates, inhibits or otherwise modulates the activity of a neurotransmitter receptor. Modulation of activity includes changes in desensitization rate, ligand affinity, ion selectivity and pore-opening/closing." [GOC:dos, PMID:12740117, PMID:18387948]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0030594 ! neurotransmitter receptor activity
 
@@ -462051,6 +462200,7 @@ id: GO:0120230
 name: recombinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a recombinase." [GOC:mah, PMID:32414915]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0008047 ! enzyme activator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19555" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/19631" xsd:anyURI
@@ -469924,7 +470074,7 @@ id: GO:0140416
 name: transcription regulator inhibitor activity
 namespace: molecular_function
 def: "A molecular function regulator that inhibits the activity of a transcription regulator via direct binding and/or post-translational modification." [PMID:10652346]
-comment: Usage guidance: transcription regulator inhibitors bind to a transcription regulator to prevent it from reaching the chromatin. This activity does not occur at the promoter. For activities that do occur at the promoter, consider GO:0001217 ; DNA-binding transcription repressor activity or GO:0003714 ; transcription corepressor activity. An example of a transcription regulator is TCF23 Q7RTU1 is an example of a protein that regulates transcription factors by heterodimerising or binding to DbTFs and prevent DNA binding and their specific genomic binding site where the dbTF would have activated or repressed transcription. Also an example is NFKBIA P25963 which has a different way of regulating transcription factor activity by sequestering the dbTF (complex) in the cytoplasm. Another example is the HSP90 and HSP23 proteins that sequester steroid receptors away from the DNA.
+comment: Usage guidance: transcription regulator inhibitors bind to a transcription regulator to prevent it from reaching the chromatin. This activity does not occur at the promoter. For activities that do occur at the promoter, consider GO:0001217 ; DNA-binding transcription repressor activity or GO:0003714 ; transcription corepressor activity. An example of a transcription regulator is TCF23 Q7RTU1 is an example of a protein that regulates transcription factors by heterodimerising or binding to DbTFs and prevent DNA binding and their specific genomic binding site where the dbTF would have activated or repressed transcription. Also an example is NFKBIA P25963 which has a different way of regulating transcription factor activity by sequestering the dbTF (complex) in the cytoplasm. Another example is the HSP90 and HSP23 proteins that sequester steroid receptors away from the DNA. This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "DNA-binding transcription factor inhibitor activity" NARROW []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0140110 ! transcription regulator activity
@@ -470700,6 +470850,7 @@ id: GO:0140478
 name: pH-gated ion channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a pH-gated monoatomic ion channel." [PMID:15044953, PMID:15955877, PMID:20601429, PMID:23034652, PMID:40874979]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "acid-sensing ion channel inhibitor activity" NARROW []
 synonym: "ASIC channel inhibitor activity" NARROW []
 synonym: "pH-gated monoatomic ion channel inhibitor activity" EXACT []
@@ -471007,6 +471158,7 @@ id: GO:0140503
 name: pH-gated ion channel activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a pH-gated monoatomic ion channel." [PMID:22094702, PMID:23790972, PMID:25592215]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "acid-sensing ion channel activator activity" NARROW []
 synonym: "ASIC channel activator activity" NARROW []
 synonym: "pH-gated monoatomic ion channel activator activity" EXACT []
@@ -471139,6 +471291,7 @@ id: GO:0140514
 name: NMDA glutamate receptor inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of an NMDA glutamate receptor." [PMID:10604979, PMID:10953056]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "glutamate-gated calcium ion channel inhibitor activity" BROAD []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004972 ! NMDA glutamate receptor activity
@@ -471420,7 +471573,7 @@ id: GO:0140537
 name: transcription regulator activator activity
 namespace: molecular_function
 def: "A molecular function regulator that increases the activity of a transcription regulator via direct binding and/or post-translational modification." [PMID:9597751]
-comment: Usage guidance: transcription regulator activators bind to a transcription regulator to allow it to reach the chromatin or to contact other transcriptional regulators. This activity does not occur at the promoter. For activities that do occur at the promoter, consider GO:0001216 ; DNA-binding transcription activator activity or GO:0003713; transcription coactivator activity; those activities respectively bind DNA themselves or positively regulate a transcription regulator when it is located at the chromatin.
+comment: Usage guidance: transcription regulator activators bind to a transcription regulator to allow it to reach the chromatin or to contact other transcriptional regulators. This activity does not occur at the promoter. For activities that do occur at the promoter, consider GO:0001216 ; DNA-binding transcription activator activity or GO:0003713; transcription coactivator activity; those activities respectively bind DNA themselves or positively regulate a transcription regulator when it is located at the chromatin. This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0140110 ! transcription regulator activity
 relationship: part_of GO:0010468 ! regulation of gene expression
@@ -472043,6 +472196,7 @@ id: GO:0140594
 name: xyloglucan-specific endo-beta-1,4-glucanase inhibitor activity
 namespace: molecular_function
 def: "Stops, prevents or reduces the activity of xyloglucan-specific endo-beta-1,4-glucanase." [PMID:28082413]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0033946 ! xyloglucan-specific endo-beta-1,4-glucanase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20814" xsd:anyURI
@@ -472163,6 +472317,7 @@ id: GO:0140608
 name: cysteine-type endopeptidase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a cysteine-type endopeptidase." [PMID:32558991]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "caspase activator activator activity" NARROW []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004197 ! cysteine-type endopeptidase activity
@@ -472305,6 +472460,7 @@ id: GO:0140619
 name: DNA strand exchange activator activity
 namespace: molecular_function
 def: "Binds to and increases a DNA strand exchange activity." [PMID:33493431]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0000150 ! DNA strand exchange activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20964" xsd:anyURI
@@ -472316,6 +472472,7 @@ id: GO:0140620
 name: DNA strand exchange inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces a DNA strand exchange activity." [PMID:33493431]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0000150 ! DNA strand exchange activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/20964" xsd:anyURI
@@ -472422,6 +472579,7 @@ id: GO:0140628
 name: outward rectifier potassium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of an outwardly rectifying potassium channel." [PMID:28108814]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0015271 ! outward rectifier potassium channel activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21157" xsd:anyURI
@@ -472433,6 +472591,7 @@ id: GO:0140629
 name: small conductance calcium-activated potassium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a small conductance calcium-activated potassium channel." [PMID:20562108]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0016286 ! small conductance calcium-activated potassium channel activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21175" xsd:anyURI
@@ -472459,6 +472618,7 @@ id: GO:0140631
 name: aldehyde dehydrogenase (NAD+) inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of aldehyde dehydrogenase (NAD+)." [PMID:33495566]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004029 ! aldehyde dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21265" xsd:anyURI
@@ -472771,6 +472931,7 @@ id: GO:0140656
 name: endodeoxyribonuclease activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of an endodeoxyribonuclease." [PMID:33836577]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004520 ! DNA endonuclease activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21574" xsd:anyURI
@@ -472827,6 +472988,7 @@ id: GO:0140659
 name: cytoskeletal motor regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a motor protein." [PMID:23142046, PMID:33221250]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "motor activity regulator activity" BROAD []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0003774 ! cytoskeletal motor activity
@@ -472840,6 +473002,7 @@ id: GO:0140660
 name: cytoskeletal motor activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a motor protein." [PMID:33221250]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "motor activity activator activity" BROAD []
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0003774 ! cytoskeletal motor activity
@@ -472853,6 +473016,7 @@ id: GO:0140661
 name: cytoskeletal motor inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a motor protein." [PMID:23142046]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "motor activity inhibitor activity" BROAD []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003774 ! cytoskeletal motor activity
@@ -473071,7 +473235,7 @@ id: GO:0140677
 name: molecular function activator activity
 namespace: molecular_function
 def: "A molecular function regulator that activates or increases the activity of its target via non-covalent binding that does not result in covalent modification to the target." [GOC:curators]
-comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0098772 ! molecular function regulator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21782" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25165" xsd:anyURI
@@ -473083,7 +473247,7 @@ id: GO:0140678
 name: molecular function inhibitor activity
 namespace: molecular_function
 def: "A molecular function regulator that inhibits or decreases the activity of its target via non-covalent binding that does not result in covalent modification to the target." [GOC:curators]
-comment: This term should only be used in cases when the regulator directly interacts with the enzyme, but does not result in a covalent modification.
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0098772 ! molecular function regulator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/21782" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25165" xsd:anyURI
@@ -473580,6 +473744,7 @@ id: GO:0140721
 name: nuclease inhibitor activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a nuclease." [PMID:28785032, PMID:29554913, PMID:30046034]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004518 ! nuclease activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/16423" xsd:anyURI
@@ -473743,6 +473908,7 @@ id: GO:0140733
 name: tRNA ligase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a tRNA ligase." [PMID:30943413]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004812 ! aminoacyl-tRNA ligase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/22153" xsd:anyURI
@@ -475641,7 +475807,7 @@ id: GO:0140869
 name: miRNA inhibitor activity via base-pairing
 namespace: molecular_function
 def: "Stops, prevents or reduces the activity of miRNA-mediated gene silencing activity by base-pairing with a target miRNA. An example of this activity is mediated by long non-coding RNAs (lncRNAs)." [PMID:34454184]
-comment: This term is intended for regulatory non-coding RNAs that act by base-pairing with a target microRNA.
+comment: This term is intended for regulatory non-coding RNAs that act by base-pairing with a target microRNA. This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "base-pairing target-directed microRNA suppressor activity" RELATED []
 synonym: "base-pairing target-directed miRNA suppressor activity" RELATED []
 synonym: "miRNA base-pairing repressor activity" NARROW []
@@ -475660,6 +475826,7 @@ id: GO:0140870
 name: RNA polymerase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of RNA polymerase." [PMID:15300239, PMID:18313387, PMID:31048766]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0097747 ! RNA polymerase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23028" xsd:anyURI
@@ -475671,6 +475838,7 @@ id: GO:0140871
 name: repressor of RNA polymerase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of an RNA polymerase inhibitor." [PMID:28475895, PMID:31048766]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0140870 ! RNA polymerase inhibitor activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/23028" xsd:anyURI
@@ -477796,6 +477964,7 @@ id: GO:0141038
 name: phosphatidylinositol 3-kinase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a phosphatidylinositol 3-kinase (PI3K)." [PMID:31686003]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0035014 ! phosphatidylinositol 3-kinase regulator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25382" xsd:anyURI
 created_by: pg
@@ -477806,6 +477975,7 @@ id: GO:0141039
 name: phosphatidylinositol 3-kinase inhibitor activity
 namespace: molecular_function
 def: "Binds to and decreases the activity of a phosphatidylinositol 3-kinase (PI3K)." [PMID:31686003]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0035014 ! phosphatidylinositol 3-kinase regulator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25382" xsd:anyURI
 created_by: pg
@@ -478148,6 +478318,7 @@ id: GO:0141069
 name: receptor ligand inhibitor activity
 namespace: molecular_function
 def: "Binds to and decreases the activity of the ligand of a signaling receptor." [PMID:12478285, PMID:1721860]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "signaling receptor ligand inhibitor activity" EXACT []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0048018 ! receptor ligand activity
@@ -478641,6 +478812,7 @@ id: GO:0141106
 name: tRNA methyltransferase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a methyltransferase." [GOC:curators]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0008168 ! methyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26266" xsd:anyURI
@@ -478652,6 +478824,7 @@ id: GO:0141107
 name: methyltransferase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a methyltransferase." [PMID:15899842, PMID:34669960]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0008168 ! methyltransferase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26266" xsd:anyURI
@@ -478663,6 +478836,7 @@ id: GO:0141108
 name: transporter regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a transporter." [GOC:curators]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0005215 ! transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26268" xsd:anyURI
@@ -478674,6 +478848,7 @@ id: GO:0141109
 name: transporter activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a transporter." [GOC:curators]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0005215 ! transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26268" xsd:anyURI
@@ -478685,6 +478860,7 @@ id: GO:0141110
 name: transporter inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a transporter." [GOC:curators]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0005215 ! transporter activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26268" xsd:anyURI
@@ -482843,6 +483019,7 @@ id: GO:0160124
 name: guanyl nucleotide exchange factor activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a guanyl nucleotide exchange factor." [PMID:37463208]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0008047 ! enzyme activator activity
 created_by: rynl
 creation_date: 2023-11-13T22:46:29Z
@@ -483568,6 +483745,7 @@ id: GO:0160185
 name: phospholipase C activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of the enzyme phospholipase C." [PMID:28130414]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004629 ! C-type glycerophospholipase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27845" xsd:anyURI
@@ -483579,6 +483757,7 @@ id: GO:0160186
 name: phospholipase C inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of the enzyme phospholipase C." [PMID:28130414]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004629 ! C-type glycerophospholipase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/27845" xsd:anyURI
@@ -483675,6 +483854,7 @@ id: GO:0160193
 name: L-lactate dehydrogenase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of L-lactate dehydrogenase." [PMID:33406399]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0004459 ! L-lactate dehydrogenase (NAD+) activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/28309" xsd:anyURI
@@ -485297,6 +485477,7 @@ id: GO:0170005
 name: cyclic nucleotide phosphodiesterase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of cyclic nucleotide phosphodiesterase." [PMID:6087882, PMID:6259174, PMID:6667031]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004112 ! cyclic-nucleotide phosphodiesterase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24706" xsd:anyURI
@@ -485328,6 +485509,7 @@ id: GO:0170008
 name: mRNA phosphatase activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of mRNA phosphatase." [PMID:22323607]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0140818 ! mRNA 5'-triphosphate monophosphatase activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24720" xsd:anyURI
@@ -485750,6 +485932,7 @@ id: GO:0170053
 name: nuclease activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a nuclease." [PMID:24736845]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0008047 ! enzyme activator activity
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004518 ! nuclease activity
@@ -485762,6 +485945,7 @@ id: GO:0170054
 name: ribonuclease activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a ribonuclease." [PMID:24736845]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "RNA nuclease activator activity" EXACT []
 is_a: GO:0170053 ! nuclease activator activity
 intersection_of: GO:0140677 ! molecular function activator activity
@@ -486180,6 +486364,7 @@ id: GO:0180000
 name: histone methyltransferase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a histone methyltransferase." [PMID:30923826]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0004857 ! enzyme inhibitor activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/24785" xsd:anyURI
 created_by: vw
@@ -486385,6 +486570,7 @@ id: GO:0180016
 name: SUMO ligase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of a SUMO ligase." [PMID:19363481, PMID:33446573]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0055103 ! ligase regulator activity
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/25052" xsd:anyURI
 created_by: vw
@@ -595213,6 +595399,7 @@ id: GO:1990119
 name: RNA helicase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of an RNA helicase." [GOC:rb, PMID:23721653]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "ATP-dependent RNA helicase inhibitor activity" EXACT []
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0003724 ! RNA helicase activity
@@ -600384,6 +600571,7 @@ id: GO:1990583
 name: phospholipase D activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of the enzyme phospholipase D." [PMID:7972129]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0004630 ! D-type glycerophospholipase activity
 created_by: sl
@@ -600570,6 +600758,7 @@ id: GO:1990600
 name: single-stranded DNA endodeoxyribonuclease activator activity
 namespace: molecular_function
 def: "Increases the activity of a single-stranded DNA endodeoxyribonuclease activator activity." [PMID:25203555]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:0000014 ! single-stranded DNA endonuclease activity
 created_by: al
@@ -600679,6 +600868,7 @@ id: GO:1990609
 name: glutamate-cysteine ligase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of glutamate-cysteine ligase." [PMID:8103521]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0004357 ! glutamate-cysteine ligase activity
 created_by: vw
@@ -600689,6 +600879,7 @@ id: GO:1990610
 name: acetolactate synthase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of acetolactate synthase." [PMID:8972574]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0003984 ! acetolactate synthase activity
 created_by: vw
@@ -600838,6 +601029,7 @@ id: GO:1990624
 name: guanyl nucleotide exchange factor inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of a guanyl nucleotide exchange factor." [GOC:vw, PMID:25635048]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 is_a: GO:0004857 ! enzyme inhibitor activity
 created_by: vw
 creation_date: 2015-01-31T15:17:01Z
@@ -602304,6 +602496,7 @@ id: GO:1990749
 name: polynucleotide adenylyltransferase activator activity
 namespace: molecular_function
 def: "Increases the activity of the enzyme polynucleotide adenylyltransferase." [GOC:kmv, PMID:19460348]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140677 ! molecular function activator activity
 intersection_of: directly_positively_regulates GO:1990817 ! poly(A) RNA polymerase activity
 created_by: kmv
@@ -602398,6 +602591,7 @@ name: ubiquitin ligase activator activity
 namespace: molecular_function
 alt_id: GO:0061636
 def: "Binds to and increases the activity of a ubiquitin ligase." [GOC:dph, PMID:25619242]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "mitotic anaphase-promoting complex activator activity" NARROW []
 is_a: GO:0097027 ! ubiquitin-protein transferase activator activity
 relationship: part_of GO:1904668 ! positive regulation of ubiquitin protein ligase activity
@@ -603360,6 +603554,7 @@ id: GO:1990846
 name: ribonucleoside-diphosphate reductase inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents or reduces the activity of ribonucleoside-diphosphate reductase." [PMID:16317005]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 intersection_of: GO:0140678 ! molecular function inhibitor activity
 intersection_of: directly_negatively_regulates GO:0061731 ! ribonucleoside-diphosphate reductase activity
 created_by: vw
@@ -604492,6 +604687,7 @@ namespace: molecular_function
 alt_id: GO:0061637
 alt_id: GO:0090645
 def: "Binds to and stops, prevents or reduces the activity of a ubiquitin ligase." [GOC:dph, GOC:vw, PMID:21389117]
+comment: This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "APC-Cdc20 complex inhibitor activity" NARROW []
 synonym: "mitotic anaphase-promoting complex inhibitor activity" NARROW []
 is_a: GO:0055105 ! ubiquitin-protein transferase inhibitor activity
@@ -621848,7 +622044,7 @@ id: GO:7770087
 name: sodium channel activator activity
 namespace: molecular_function
 def: "Binds to and increases the activity of a sodium channel." [PMID:25492945, PMID:27246624]
-comment: A sodium channel activator increases channel activity through several mechanisms, including inhibition of channel inactivation and promotion of channel opening. This term is therefore appropriate for annotation when the mechanism involves inhibition of inactivation, not only when it involves promotion of opening.
+comment: A sodium channel activator increases channel activity through several mechanisms, including inhibition of channel inactivation and promotion of channel opening. This term is therefore appropriate for annotation when the mechanism involves inhibition of inactivation, not only when it involves promotion of opening. This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "sodium channel inactivation inhibitor activity" NARROW []
 synonym: "voltage-gated sodium channel activator activity" NARROW []
 synonym: "voltage-gated sodium channel inactivation inhibitor activity" NARROW []
@@ -621874,6 +622070,7 @@ id: GO:7770089
 name: large conductance calcium-activated potassium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a large conductance calcium-activated potassium channel." [PMID:17591990, PMID:39971906]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "BK calcium-activated potassium channel inhibitor activity" EXACT []
 synonym: "BK channel inhibitor activity" RELATED []
 synonym: "BK KCa channel inhibitor activity" EXACT []
@@ -621889,6 +622086,7 @@ id: GO:7770090
 name: voltage-gated potassium channel inhibitor activity
 namespace: molecular_function
 def: "Binds to and stops, prevents, or reduces the activity of a voltage-gated potassium channel." [PMID:35797055]
+comment: This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "Kv channel inhibitor activity" EXACT []
 synonym: "Kv inhibitor activity" EXACT []
 synonym: "voltage-gated potassium channel (Kv) inhibitor activity" EXACT []
@@ -622988,7 +623186,7 @@ id: GO:7770164
 name: integrin antagonist activity
 namespace: molecular_function
 def: "The activity of a gene product that interacts with an integrin to decrease the ability of an integrin ligand to bind to and activate the integrin." [PMID:12682293, PMID:38535794]
-comment: Examples include snake venom disintegrins, which compete with endogenous ligands for integrin binding, and endostatin, a collagen XVIII-derived fragment that competes with fibronectin for binding to integrin alpha5-beta1.
+comment: Examples include snake venom disintegrins, which compete with endogenous ligands for integrin binding, and endostatin, a collagen XVIII-derived fragment that competes with fibronectin for binding to integrin alpha5-beta1. This term should only be used in cases when the regulator directly interacts with its target and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "disintegrin activity" RELATED []
 synonym: "integrin inhibitory activity" RELATED []
 synonym: "integrin ligand activity" BROAD []
