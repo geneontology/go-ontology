@@ -244,6 +244,7 @@ http://purl.obolibrary.org/obo/GO_0042774	plasma membrane ATP synthesis coupled 
 http://purl.obolibrary.org/obo/GO_0033616	plasma membrane proton-transporting ATP synthase complex assembly	http://purl.obolibrary.org/obo/GO_0005886	plasma membrane	http://purl.obolibrary.org/obo/GO_0043461	proton-transporting ATP synthase complex assembly
 http://purl.obolibrary.org/obo/GO_0002470	plasmacytoid dendritic cell antigen processing and presentation	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0019882	antigen processing and presentation
 http://purl.obolibrary.org/obo/GO_0002373	plasmacytoid dendritic cell cytokine production	http://purl.obolibrary.org/obo/CL_0000784	plasmacytoid dendritic cell	http://purl.obolibrary.org/obo/GO_0001816	cytokine production
+http://purl.obolibrary.org/obo/GO_0170083	plastid DNA recombination	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006310	DNA recombination
 http://purl.obolibrary.org/obo/GO_0033259	plastid DNA replication	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0006261	DNA-templated DNA replication
 http://purl.obolibrary.org/obo/GO_1900160	plastid chromosome packaging	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0051276	chromosome organization
 http://purl.obolibrary.org/obo/GO_0140899	plastid gene expression	http://purl.obolibrary.org/obo/GO_0009536	plastid	http://purl.obolibrary.org/obo/GO_0010467	gene expression
