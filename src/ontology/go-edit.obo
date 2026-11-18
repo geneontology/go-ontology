@@ -388131,7 +388131,7 @@ id: GO:0070917
 name: inositol phosphoceramide synthase regulator activity
 namespace: molecular_function
 def: "Binds to and modulates the activity of inositol phosphoceramide synthase." [GOC:mah]
-comment: See also the molecular function term 'histone acetyltransferase activity ; GO:0004402'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
+comment: See also the molecular function term 'inositol phosphoceramide synthase activity ; GO:0045140'. This term should only be used in cases when the regulator directly interacts with the enzyme and does not itself catalyze a covalent modification of it, such as phosphorylation or proteolytic cleavage.
 synonym: "IPC synthase regulator activity" EXACT []
 intersection_of: GO:0098772 ! molecular function regulator activity
 intersection_of: directly_regulates GO:0045140 ! inositol phosphoceramide synthase activity
