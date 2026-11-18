@@ -69769,9 +69769,9 @@ id: GO:0006896
 name: Golgi to vacuole transport
 namespace: biological_process
 def: "The directed movement of substances from the Golgi to the vacuole." [GOC:ai]
+synonym: "alkaline phosphatase pathway" NARROW [PMID:9335339]
 synonym: "ALP pathway" NARROW [PMID:9335339]
 synonym: "Golgi to vacuole vesicle-mediated transport" EXACT []
-synonym: "alkaline phosphatase pathway" NARROW [PMID:9335339]
 is_a: GO:0006892 ! post-Golgi vesicle-mediated transport
 is_a: GO:0007034 ! vacuolar transport
 intersection_of: GO:0016192 ! vesicle-mediated transport
@@ -155593,7 +155593,7 @@ is_a: GO:0021515 ! cell differentiation in spinal cord
 is_a: GO:0021953 ! central nervous system neuron differentiation
 intersection_of: GO:0030154 ! cell differentiation
 intersection_of: occurs_in UBERON:0002240 ! spinal cord
-intersection_of: results_in_acquisition_of_features_of CL:0000099 ! interneuron
+intersection_of: results_in_acquisition_of_features_of CL:0000099 ! interneuron (sensu lato)
 relationship: part_of GO:0021517 ! ventral spinal cord development
 
 [Term]
@@ -375317,8 +375317,8 @@ id: GO:0061982
 name: meiosis I cell cycle process
 namespace: biological_process
 def: "A process that contributes to the first meiotic division. The first meiotic division is the reductive division resulting in the separation of homologous chromosome pairs." [PMID:29385397]
-synonym: "first meiotic cell division" EXACT [PMID:29385397]
 subset: gocheck_do_not_annotate
+synonym: "first meiotic cell division" EXACT [PMID:29385397]
 is_a: GO:1903046 ! meiotic cell cycle process
 created_by: dph
 creation_date: 2018-02-14T22:27:20Z
@@ -375328,8 +375328,8 @@ id: GO:0061983
 name: meiosis II cell cycle process
 namespace: biological_process
 def: "A process that contributes to the second meiotic division. The second meiotic division separates chromatids resulting in a haploid number of chromosomes." [PMID:29385397]
-synonym: "second meiotic division" EXACT [PMID:29385397]
 subset: gocheck_do_not_annotate
+synonym: "second meiotic division" EXACT [PMID:29385397]
 is_a: GO:1903046 ! meiotic cell cycle process
 created_by: dph
 creation_date: 2018-02-14T22:37:44Z
@@ -470510,9 +470510,8 @@ synonym: "chromatin recruitment" RELATED []
 synonym: "chromatin-protein adaptor" EXACT []
 synonym: "protein-chromatin adaptor activity" EXACT []
 is_a: GO:0030674 ! protein-macromolecule adaptor activity
-relationship: has_part GO:0003682 ! chromatin binding
-relationship: part_of GO:0006325 ! chromatin organization
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/17064" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32644" xsd:anyURI
 created_by: pg
 creation_date: 2020-05-08T12:31:39Z
 
@@ -497158,8 +497157,8 @@ synonym: "regulation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "regulation of purine nucleotide metabolism" EXACT [GOC:TermGenie]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
 is_obsolete: true
-consider: GO:1900371
 consider: GO:0033121
+consider: GO:1900371
 created_by: krc
 creation_date: 2012-05-11T05:43:15Z
 
@@ -497190,8 +497189,8 @@ synonym: "negative regulation of purine metabolism" NARROW [GOC:TermGenie]
 synonym: "negative regulation of purine nucleotide metabolism" EXACT [GOC:TermGenie]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
 is_obsolete: true
-consider: GO:1900372
 consider: GO:0033122
+consider: GO:1900372
 created_by: krc
 creation_date: 2012-05-11T05:44:21Z
 
@@ -497222,8 +497221,8 @@ synonym: "upregulation of purine nucleotide metabolic process" EXACT [GOC:TermGe
 synonym: "upregulation of purine nucleotide metabolism" EXACT [GOC:TermGenie]
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32952" xsd:anyURI
 is_obsolete: true
-consider: GO:1900373
 consider: GO:0033123
+consider: GO:1900373
 created_by: krc
 creation_date: 2012-05-11T05:44:43Z
 
@@ -551792,7 +551791,7 @@ name: enterocyte differentiation
 namespace: biological_process
 def: "The process in which a relatively unspecialized cell acquires the specialized features of an enterocyte." [GO_REF:0000086, GOC:TermGenie, PMID:16782882, Wikipedia:List_of_intestinal_epithelial_differentiation_genes]
 intersection_of: GO:0030154 ! cell differentiation
-intersection_of: results_in_acquisition_of_features_of CL:0000584 ! enterocyte
+intersection_of: results_in_acquisition_of_features_of CL:0000584 ! mature enterocyte
 created_by: cls
 creation_date: 2014-12-03T15:08:51Z
 
@@ -574785,7 +574784,7 @@ def: "The orderly movement of an interneuron from one site to another." [GO_REF:
 synonym: "inter neuron migration" EXACT [GOC:ah]
 synonym: "inter-neuron migration" EXACT [GOC:ah]
 intersection_of: GO:0016477 ! cell migration
-intersection_of: results_in_movement_of CL:0000099 ! interneuron
+intersection_of: results_in_movement_of CL:0000099 ! interneuron (sensu lato)
 created_by: ah
 creation_date: 2016-02-01T14:04:32Z
 
