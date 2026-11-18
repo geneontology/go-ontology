@@ -219916,25 +219916,25 @@ relationship: part_of GO:0007476 ! imaginal disc-derived wing morphogenesis
 
 [Term]
 id: GO:0035318
-name: imaginal disc-derived wing hair outgrowth
+name: obsolete imaginal disc-derived wing hair outgrowth
 namespace: biological_process
-def: "Extrusion of a cellular projection from the apical membrane of an epithelial cell in an imaginal disc-derived wing. Outgrowth initiates approximately 35 hours after puparium formation from the distal side of the cell, and at this stage the cellular extension is termed a prehair." [GOC:mtg_sensu, PMID:11064425, PMID:8947551]
+def: "OBSOLETE. Extrusion of a cellular projection from the apical membrane of an epithelial cell in an imaginal disc-derived wing. Outgrowth initiates approximately 35 hours after puparium formation from the distal side of the cell, and at this stage the cellular extension is termed a prehair." [GOC:mtg_sensu, PMID:11064425, PMID:8947551]
+comment: The reason for obsoletion is that these terms represent phenotypes.
 synonym: "wing hair outgrowth" EXACT []
 synonym: "wing prehair outgrowth" RELATED []
-is_a: GO:0009886 ! post-embryonic animal morphogenesis
-is_a: GO:0048858 ! cell projection morphogenesis
-relationship: part_of GO:0035317 ! imaginal disc-derived wing hair organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32937" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0035319
-name: imaginal disc-derived wing hair elongation
+name: obsolete imaginal disc-derived wing hair elongation
 namespace: biological_process
-def: "Growth of a prehair in the approximately 10 hour period following its emergence from an epidermal cell in an imaginal disc-derived wing. Prehair elongation is guided and/or driven by the polymerization of actin filaments and the orderly crosslinking of filaments into bundles." [GOC:mtg_sensu, PMID:11832234]
+def: "OBSOLETE. Growth of a prehair in the approximately 10 hour period following its emergence from an epidermal cell in an imaginal disc-derived wing. Prehair elongation is guided and/or driven by the polymerization of actin filaments and the orderly crosslinking of filaments into bundles." [GOC:mtg_sensu, PMID:11832234]
+comment: The reason for obsoletion is that these terms represent phenotypes.
 synonym: "wing hair elongation" EXACT []
 synonym: "wing prehair extension" RELATED []
-is_a: GO:0009886 ! post-embryonic animal morphogenesis
-is_a: GO:0048858 ! cell projection morphogenesis
-relationship: part_of GO:0035317 ! imaginal disc-derived wing hair organization
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32937" xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0035320
