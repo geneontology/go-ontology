@@ -268423,6 +268423,8 @@ def: "A process in which an organism activates or inhibits the complement system
 synonym: "envenomation resulting in modulation of complement activation in other organism" EXACT []
 synonym: "envenomation resulting in regulation of complement activation in other organism" EXACT []
 is_a: GO:0140428 ! venom-mediated perturbation of immune response
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: regulates_in_another_organism GO:0006956 ! complement activation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26389" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32070" xsd:anyURI
 created_by: jl
