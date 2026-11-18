@@ -1891,11 +1891,9 @@ http://purl.obolibrary.org/obo/GO_0060211	regulation of nuclear-transcribed mRNA
 http://purl.obolibrary.org/obo/GO_0019219	regulation of nucleobase-containing compound metabolic process	http://purl.obolibrary.org/obo/GO_0006139	nucleobase-containing compound metabolic process
 http://purl.obolibrary.org/obo/GO_0032239	regulation of nucleobase-containing compound transport	http://purl.obolibrary.org/obo/GO_0015931	nucleobase-containing compound transport
 http://purl.obolibrary.org/obo/GO_0046822	regulation of nucleocytoplasmic transport	http://purl.obolibrary.org/obo/GO_0006913	nucleocytoplasmic transport
-http://purl.obolibrary.org/obo/GO_0009118	regulation of nucleoside metabolic process	http://purl.obolibrary.org/obo/GO_0009116	nucleoside metabolic process
 http://purl.obolibrary.org/obo/GO_0032242	regulation of nucleoside transport	http://purl.obolibrary.org/obo/GO_0015858	nucleoside transport
 http://purl.obolibrary.org/obo/GO_0030808	regulation of nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0009165	nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_0030811	regulation of nucleotide catabolic process	http://purl.obolibrary.org/obo/GO_0009166	nucleotide catabolic process
-http://purl.obolibrary.org/obo/GO_0006140	regulation of nucleotide metabolic process	http://purl.obolibrary.org/obo/GO_0009117	nucleotide metabolic process
 http://purl.obolibrary.org/obo/GO_0070424	regulation of nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway	http://purl.obolibrary.org/obo/GO_0035872	nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway
 http://purl.obolibrary.org/obo/GO_0070428	regulation of nucleotide-binding oligomerization domain containing 1 signaling pathway	http://purl.obolibrary.org/obo/GO_0070427	nucleotide-binding oligomerization domain containing 1 signaling pathway
 http://purl.obolibrary.org/obo/GO_0070432	regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway	http://purl.obolibrary.org/obo/GO_0070431	nucleotide-binding oligomerization domain containing 2 signaling pathway
@@ -2247,10 +2245,8 @@ http://purl.obolibrary.org/obo/GO_0031272	regulation of pseudopodium assembly	ht
 http://purl.obolibrary.org/obo/GO_1900849	regulation of pseurotin A biosynthetic process	http://purl.obolibrary.org/obo/GO_1900790	pseurotin A biosynthetic process
 http://purl.obolibrary.org/obo/GO_1905109	regulation of pulmonary blood vessel remodeling	http://purl.obolibrary.org/obo/GO_0101010	pulmonary blood vessel remodeling
 http://purl.obolibrary.org/obo/GO_0106023	regulation of pupariation	http://purl.obolibrary.org/obo/GO_0035073	pupariation
-http://purl.obolibrary.org/obo/GO_0006141	regulation of purine nucleobase metabolic process	http://purl.obolibrary.org/obo/GO_0006144	purine nucleobase metabolic process
 http://purl.obolibrary.org/obo/GO_1900371	regulation of purine nucleotide biosynthetic process	http://purl.obolibrary.org/obo/GO_0006164	purine nucleotide biosynthetic process
 http://purl.obolibrary.org/obo/GO_0033121	regulation of purine nucleotide catabolic process	http://purl.obolibrary.org/obo/GO_0006195	purine nucleotide catabolic process
-http://purl.obolibrary.org/obo/GO_1900542	regulation of purine nucleotide metabolic process	http://purl.obolibrary.org/obo/GO_0006163	purine nucleotide metabolic process
 http://purl.obolibrary.org/obo/GO_0120071	regulation of pyloric antrum smooth muscle contraction	http://purl.obolibrary.org/obo/GO_0120065	pyloric antrum smooth muscle contraction
 http://purl.obolibrary.org/obo/GO_0062161	regulation of pyocyanine biosynthetic process	http://purl.obolibrary.org/obo/GO_0106220	pyocyanine biosynthetic process
 http://purl.obolibrary.org/obo/GO_0032246	regulation of pyrimidine nucleoside transport	http://purl.obolibrary.org/obo/GO_0015864	pyrimidine nucleoside transport
