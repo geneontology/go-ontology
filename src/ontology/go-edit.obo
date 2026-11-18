@@ -9010,7 +9010,6 @@ name: regulation of transcriptional start site selection at RNA polymerase II pr
 namespace: biological_process
 def: "Any process that modulates the rate, frequency or extent of a process involved in the selection of the specific location within the template strand of an RNA polymerase II promoter for hybridization of the cognate ribonucleotides and formation of first phosphodiester bond within the nascent transcript." [GOC:txnOH]
 synonym: "regulation of transcription start site selection at RNA polymerase II promoter" EXACT []
-is_a: GO:0010630 ! regulation of transcription, start site selection
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0001174 ! transcriptional start site selection at RNA polymerase II promoter
 relationship: regulates GO:0006367 {IAO:0000233="https://github.com/geneontology/go-ontology/issues/13926"} ! transcription initiation at RNA polymerase II promoter
@@ -106617,10 +106616,13 @@ property_value: term_tracker_item "https://github.com/geneontology/go-ontology/i
 
 [Term]
 id: GO:0010630
-name: regulation of transcription, start site selection
+name: obsolete regulation of transcription, start site selection
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA by a mechanism that selects the start site along that template." [GOC:dph, GOC:tb]
-is_a: GO:0019219 ! regulation of nucleobase-containing compound metabolic process
+def: "OBSOLETE. Any process that modulates the frequency, rate or extent of the synthesis of either RNA on a template of DNA or DNA on a template of RNA by a mechanism that selects the start site along that template." [GOC:dph, GOC:tb]
+comment: The reason for obsoletion is that this is an unnecessary grouping term.
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32965" xsd:anyURI
+is_obsolete: true
+replaced_by: GO:0001178
 
 [Term]
 id: GO:0010631
