@@ -267282,8 +267282,11 @@ def: "A process in which an organism initiates, promotes, or enhances the activa
 synonym: "envenomation resulting in plasminogen activation in another organism" EXACT []
 synonym: "envenomation resulting in plasminogen activation in other organism" EXACT []
 is_a: GO:0044484 ! venom-mediated fibrinolysis
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: positively_regulates_in_another_organism GO:0031639 ! plasminogen activation
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29010" xsd:anyURI
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/29851" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32923" xsd:anyURI
 created_by: jl
 creation_date: 2012-03-22T11:54:49Z
 
