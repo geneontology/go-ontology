@@ -330407,8 +330407,9 @@ synonym: "perception of environment using reflected sound waves" EXACT []
 xref: Wikipedia:Echolocation
 is_a: GO:0050877 ! nervous system process
 is_a: neverin:10090 {source="PMID:34140356"}
-is_a: neverin:9443 {source="PMID:34140356"}
 is_a: onlyin:32524 {source="PMID:23755019"}
+relationship: has_part GO:0007605 ! sensory perception of sound
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32960" xsd:anyURI
 
 [Term]
 id: GO:0050960
