@@ -268295,14 +268295,16 @@ creation_date: 2012-07-05T04:40:57Z
 
 [Term]
 id: GO:0044637
-name: obsolete envenomation resulting in negative regulation of complement activation, classical pathway in another organism
+name: venom-mediated suppression of complement activation, classical pathway
 namespace: biological_process
-def: "OBSOLETE. A process that begins with venom being forced into an organism by the bite or sting of another organism, and ends with the negative regulation of complement activation via the classical pathway of the bitten/stung organism." [GOC:fj, GOC:jl, PMID:20837040]
-comment: This term was obsoleted because it is too specific.
+def: "A process in which an organism inhibits the classical pathway of complement activation in another organism via the action of a venom." [PMID:15829304, PMID:20837040, PMID:23499645, PMID:35622591]
 synonym: "envenomation resulting in negative regulation of complement activation, classical pathway in other organism" EXACT []
+synonym: "venom-mediated inhibition of complement activation, classical pathway" EXACT []
+is_a: GO:0044646 ! venom-mediated perturbation of complement activation
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: negatively_regulates_in_another_organism GO:0006958 ! complement activation, classical pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26389" xsd:anyURI
-is_obsolete: true
-consider: GO:0042784
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32070" xsd:anyURI
 created_by: jl
 creation_date: 2012-07-05T04:46:56Z
 
@@ -268371,26 +268373,31 @@ creation_date: 2012-07-11T11:53:12Z
 
 [Term]
 id: GO:0044643
-name: obsolete envenomation resulting in positive regulation of complement activation, alternative pathway in another organism
+name: venom-mediated complement activation, alternative pathway
 namespace: biological_process
-def: "OBSOLETE. A process that begins with venom being forced into an organism by the bite or sting of another organism, and ends with the resultant positive regulation of complement activation via the alternative pathway in the bitten/stung organism." [GOC:fj, GOC:jl, PMID:20837040]
-comment: This term was obsoleted because this pathway does not exist.
+def: "A process in which an organism activates the alternative pathway of complement activation in another organism via the action of a venom." [PMID:20417224, PMID:27846429, PMID:35622591]
 synonym: "envenomation resulting in positive regulation of complement activation, alternative pathway in other organism" EXACT []
+synonym: "venom-mediated activation of complement, alternative pathway" EXACT []
+is_a: GO:0044646 ! venom-mediated perturbation of complement activation
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: positively_regulates_in_another_organism GO:0006957 ! complement activation, alternative pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26389" xsd:anyURI
-is_obsolete: true
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32070" xsd:anyURI
 created_by: jl
 creation_date: 2012-07-11T11:56:48Z
 
 [Term]
 id: GO:0044644
-name: obsolete envenomation resulting in negative regulation of complement activation, alternative pathway in another organism
+name: venom-mediated suppression of complement activation, alternative pathway
 namespace: biological_process
-def: "OBSOLETE. A process that begins with venom being forced into an organism by the bite or sting of another organism, and ends with the resultant negative regulation of complement activation via the alternative pathway in the bitten/stung organism." [GOC:fj, GOC:jl, PMID:20837040]
-comment: This term was obsoleted because it is too specific.
+def: "A process in which an organism inhibits the alternative pathway of complement activation in another organism via the action of a venom." [PMID:20837040, PMID:23499645, PMID:35622591]
 synonym: "envenomation resulting in negative regulation of complement activation, alternative pathway in other organism" EXACT []
+synonym: "venom-mediated inhibition of complement activation, alternative pathway" EXACT []
+is_a: GO:0044646 ! venom-mediated perturbation of complement activation
+intersection_of: GO:0035738 ! venom-mediated perturbation of biological process
+intersection_of: negatively_regulates_in_another_organism GO:0006957 ! complement activation, alternative pathway
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/26389" xsd:anyURI
-is_obsolete: true
-consider: GO:0042784
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32070" xsd:anyURI
 created_by: jl
 creation_date: 2012-07-11T12:35:11Z
 
