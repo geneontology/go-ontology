@@ -522540,9 +522540,9 @@ creation_date: 2013-03-19T19:14:09Z
 
 [Term]
 id: GO:1901997
-name: negative regulation of auxin biosynthetic process
+name: negative regulation of indoleacetic acid biosynthetic process
 namespace: biological_process
-def: "Any process that stops, prevents or reduces the frequency, rate or extent of auxin biosynthetic process." [GOC:TermGenie, PMID:23377040]
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of indoleacetic acid biosynthetic process." [GOC:TermGenie, PMID:23377040]
 synonym: "down regulation of IAA biosynthetic process" EXACT [GOC:TermGenie]
 synonym: "down regulation of indoleacetic acid anabolism" EXACT [GOC:TermGenie]
 synonym: "down regulation of indoleacetic acid biosynthetic process" EXACT [GOC:TermGenie]
@@ -522564,13 +522564,14 @@ synonym: "inhibition of indoleacetic acid biosynthetic process" NARROW [GOC:Term
 synonym: "inhibition of indoleacetic acid formation" EXACT [GOC:TermGenie]
 synonym: "inhibition of indoleacetic acid synthesis" EXACT [GOC:TermGenie]
 synonym: "negative regulation of IAA biosynthetic process" EXACT [GOC:TermGenie]
+synonym: "negative regulation of auxin biosynthetic process" BROAD []
 synonym: "negative regulation of indoleacetic acid anabolism" EXACT [GOC:TermGenie]
-synonym: "negative regulation of indoleacetic acid biosynthetic process" NARROW []
 synonym: "negative regulation of indoleacetic acid formation" EXACT [GOC:TermGenie]
 synonym: "negative regulation of indoleacetic acid synthesis" EXACT [GOC:TermGenie]
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0009684 ! indoleacetic acid biosynthetic process
 property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/31933" xsd:anyURI
+property_value: term_tracker_item "https://github.com/geneontology/go-ontology/issues/32980" xsd:anyURI
 created_by: tb
 creation_date: 2013-03-19T19:14:13Z
 
